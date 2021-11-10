@@ -1,0 +1,1046 @@
+ redir
+
+ Timestamp is 618b154d (Tue Nov 09 17:41:49 2021)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 000028adH .rdata                  CODE
+ 0001:000028d0 00000022H .rdata$debug            CODE
+ 0001:000028f4 0001f504H .text                   CODE
+ 0001:00021df8 00000360H .xdata                  CODE
+ 0001:00022158 0000003cH .idata$2                CODE
+ 0001:00022194 00000014H .idata$3                CODE
+ 0001:000221a8 00000200H .idata$4                CODE
+ 0001:000223a8 000000b2H .idata$6                CODE
+ 0001:00022460 000003bcH .edata                  CODE
+ 0002:00000000 00000200H .idata$5                DATA
+ 0002:00000200 000004bcH .data                   DATA
+ 0002:000006c0 00000d5cH .bss                    DATA
+ 0003:00000000 00000f50H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:0000003c       ??_C@_1CE@GEMGKOLC@?$AAA?$AAu?$AAt?$AAo?$AAr?$AAa?$AAs?$AA_?$AAD?$AAi?$AAa?$AAl?$AA_?$AAS?$AAy?$AAn?$AAc?$AA?$AA@ 1000103c     redir:Init.obj
+ 0001:00000060       ??_C@_1BI@NKMAMLAI@?$AAA?$AAu?$AAt?$AAo?$AAr?$AAa?$AAs?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10001060     redir:Init.obj
+ 0001:00000078       ??_C@_11LOCGONAA@?$AA?$AA@ 10001078     redir:resource.obj
+ 0001:0000007c       ??_C@_04HPPAIJNK@NTFS?$AA@ 1000107c     redir:resource.obj
+ 0001:00000084       ??_C@_07KEDIDOAB@HPFS386?$AA@ 10001084     redir:resource.obj
+ 0001:0000008c       ??_C@_03MPELFIKF@FAT?$AA@  1000108c     redir:resource.obj
+ 0001:00000090       ResTypes                   10001090     redir:resource.obj
+ 0001:00000124       KerberosPkgName            10001124     redir:resource.obj
+ 0001:00000138       SpnegoPkgName              10001138     redir:resource.obj
+ 0001:0000014c       KerberosCifsServiceName    1000114c     redir:resource.obj
+ 0001:00000158       ??_C@_1CO@KFPLCCGJ@?$AAI?$AAn?$AAi?$AAt?$AAS?$AAe?$AAc?$AAu?$AAr?$AAi?$AAt?$AAy?$AAI?$AAn?$AAt?$AAe?$AAr?$AAf?$AAa?$AAc?$AAe?$AAW?$AA?$AA@ 10001158     redir:resource.obj
+ 0001:00000188       ??_C@_1BI@HLLGKMIP@?$AAs?$AAe?$AAc?$AAu?$AAr?$AA3?$AA2?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10001188     redir:resource.obj
+ 0001:000001a0       ??_C@_13CGOKJPIL@?$AA?1?$AA?$AA@ 100011a0     redir:resource.obj
+ 0001:000001a4       ??_C@_1M@DFKENGJN@?$AA?$CF?$AAs?$AA?2?$AA?$CF?$AAs?$AA?$AA@ 100011a4     redir:resource.obj
+ 0001:000001b0       ??_C@_00CNPNBAHC@?$AA@     100011b0     redir:resource.obj
+ 0001:000001b4       ??_C@_1BC@BNCCNADH@?$AAM?$AAA?$AAI?$AAL?$AAS?$AAL?$AAO?$AAT?$AA?$AA@ 100011b4     redir:resource.obj
+ 0001:000001c8       ??_C@_19DDPHGIPP@?$AAP?$AAI?$AAP?$AAE?$AA?$AA@ 100011c8     redir:resource.obj
+ 0001:00000208       ??_C@_1CC@NOEHMPPM@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAD?$AAo?$AAm?$AAa?$AAi?$AAn?$AAP?$AAD?$AAC?$AA?$AA@ 10001208     redir:Passthru.obj
+ 0001:0000022c       ??_C@_1BM@HFMLOAJF@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAD?$AAo?$AAm?$AAa?$AAi?$AAn?$AA?$AA@ 1000122c     redir:Passthru.obj
+ 0001:00000248       ??_C@_1BG@IDAMEBBC@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAR?$AAe?$AAd?$AAi?$AAr?$AA?$AA@ 10001248     redir:Passthru.obj
+ 0001:00000260       ??_C@_0P@KHDPEKGH@?2MAILSLOT?2CENL?$AA@ 10001260     redir:Passthru.obj
+ 0001:00000270       ??_C@_02BIKLBNOK@UX?$AA@   10001270     redir:Passthru.obj
+ 0001:00000274       ??_C@_1BE@BOHEBICI@?$AAn?$AAe?$AAt?$AAu?$AAi?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10001274     redir:Rdrui.obj
+ 0001:00000288       ??_C@_1BK@DKPDGMAK@?$AAG?$AAe?$AAt?$AAN?$AAe?$AAt?$AAS?$AAt?$AAr?$AAi?$AAn?$AAg?$AA?$AA@ 10001288     redir:Rdrui.obj
+ 0001:000002a4       ??_C@_1CI@KLDEDPEF@?$AAG?$AAe?$AAt?$AAU?$AAs?$AAe?$AAr?$AAn?$AAa?$AAm?$AAe?$AAP?$AAa?$AAs?$AAs?$AAw?$AAo?$AAr?$AAd?$AA?$AA@ 100012a4     redir:Rdrui.obj
+ 0001:000002cc       ??_C@_1CI@JHKIGNL@?$AAG?$AAe?$AAt?$AAR?$AAe?$AAs?$AAo?$AAu?$AAr?$AAc?$AAe?$AAP?$AAa?$AAs?$AAs?$AAw?$AAo?$AAr?$AAd?$AA?$AA@ 100012cc     redir:Rdrui.obj
+ 0001:000002f4       ??_C@_1BE@HOHBOCOB@?$AAN?$AAe?$AAt?$AAM?$AAs?$AAg?$AAB?$AAo?$AAx?$AA?$AA@ 100012f4     redir:Rdrui.obj
+ 0001:00000308       ??_C@_1CA@GOGEMIHH@?$AAW?$AAa?$AAi?$AAt?$AAF?$AAo?$AAr?$AAA?$AAP?$AAI?$AAR?$AAe?$AAa?$AAd?$AAy?$AA?$AA@ 10001308     redir:Rdrui.obj
+ 0001:00000328       ??_C@_1BM@LLINKHBA@?$AAk?$AA?4?$AAc?$AAo?$AAr?$AAe?$AAd?$AAl?$AAl?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10001328     redir:Rdrui.obj
+ 0001:00000344       ??_C@_1BO@KLPJMMP@?$AAC?$AAe?$AAC?$AAa?$AAl?$AAl?$AAU?$AAs?$AAe?$AAr?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 10001344     redir:Rdrui.obj
+ 0001:00000364       ??_C@_1DK@KLGDDPHP@?$AAM?$AAs?$AAg?$AAW?$AAa?$AAi?$AAt?$AAF?$AAo?$AAr?$AAM?$AAu?$AAl?$AAt?$AAi?$AAp?$AAl?$AAe?$AAO?$AAb?$AAj?$AAe?$AAc?$AAt?$AAs?$AAE?$AAx?$AAt?$AA?$AA@ 10001364     redir:Rdrui.obj
+ 0001:000003a0       ??_C@_1CA@KLJOILHC@?$AAP?$AAe?$AAe?$AAk?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AAW?$AAE?$AAx?$AAt?$AA?$AA@ 100013a0     redir:Rdrui.obj
+ 0001:000003c0       ??_C@_1CC@KAEMGJAL@?$AAT?$AAr?$AAa?$AAn?$AAs?$AAl?$AAa?$AAt?$AAe?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AA?$AA@ 100013c0     redir:Rdrui.obj
+ 0001:000003e4       ??_C@_1CG@EOIDKJLA@?$AAD?$AAi?$AAs?$AAp?$AAa?$AAt?$AAc?$AAh?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AAE?$AAx?$AAt?$AA?$AA@ 100013e4     redir:Rdrui.obj
+ 0001:0000040c       ??_C@_1BO@JCNEKEOD@?$AAL?$AAo?$AAa?$AAd?$AAL?$AAi?$AAb?$AAr?$AAa?$AAr?$AAy?$AAE?$AAx?$AAt?$AA?$AA@ 1000140c     redir:Rdrui.obj
+ 0001:0000042c       ??_C@_1BO@GIEALPFK@?$AAF?$AAr?$AAe?$AAe?$AAL?$AAi?$AAb?$AAr?$AAa?$AAr?$AAy?$AAE?$AAx?$AAt?$AA?$AA@ 1000142c     redir:Rdrui.obj
+ 0001:0000044c       ??_C@_1DC@OCDPGIJG@?$AAG?$AAe?$AAt?$AAU?$AAs?$AAe?$AAr?$AAn?$AAa?$AAm?$AAe?$AAP?$AAa?$AAs?$AAs?$AAw?$AAo?$AAr?$AAd?$AAE?$AAx?$AAE?$AAx?$AAt?$AA?$AA@ 1000144c     redir:Rdrui.obj
+ 0001:00000480       ??_C@_1CI@OHFAEIPC@?$AAG?$AAe?$AAt?$AAN?$AAe?$AAt?$AAS?$AAt?$AAr?$AAi?$AAn?$AAg?$AAS?$AAi?$AAz?$AAe?$AAE?$AAx?$AAt?$AA?$AA@ 10001480     redir:Rdrui.obj
+ 0001:000004a8       ??_C@_1CA@CCCHBEML@?$AAG?$AAe?$AAt?$AAN?$AAe?$AAt?$AAS?$AAt?$AAr?$AAi?$AAn?$AAg?$AAE?$AAx?$AAt?$AA?$AA@ 100014a8     redir:Rdrui.obj
+ 0001:000004c8       ??_C@_1BK@GALBKKNF@?$AAN?$AAe?$AAt?$AAM?$AAs?$AAg?$AAB?$AAo?$AAx?$AAE?$AAx?$AAt?$AA?$AA@ 100014c8     redir:Rdrui.obj
+ 0001:000004e4       ??_C@_1CO@CPFNKGEH@?$AAG?$AAe?$AAt?$AAR?$AAe?$AAs?$AAo?$AAu?$AAr?$AAc?$AAe?$AAP?$AAa?$AAs?$AAs?$AAw?$AAo?$AAr?$AAd?$AAE?$AAx?$AAt?$AA?$AA@ 100014e4     redir:Rdrui.obj
+ 0001:00000514       ??_C@_1BO@NKHFDFP@?$AAW?$AAM?$AAg?$AAr?$AAM?$AAa?$AAx?$AAT?$AAi?$AAm?$AAe?$AAo?$AAu?$AAt?$AA?$AA@ 10001514     redir:Rdrui.obj
+ 0001:00000534       DfsShareName               10001534     redir:dfs.obj
+ 0001:0000053c       Ipc                        1000153c     redir:dfs.obj
+ 0001:00000548       ??_C@_06JJOABMCL@GTW?3WS?$AA@ 10001548     redir:dfs.obj
+ 0001:00000550       ??_C@_0N@ELLJDCMP@WWWZ0WZZZ0?3R?$AA@ 10001550     redir:printmon.obj
+ 0001:00000560       ??_C@_0BB@LFNMPMOJ@XzsDZDZZZDDDDz?3S?$AA@ 10001560     redir:open.obj
+ 0001:00000574       ??_C@_03CNNJEDKB@LWt?$AA@  10001574     redir:open.obj
+ 0001:00000578       ??_C@_03IEAKNAIN@LHW?$AA@  10001578     redir:open.obj
+ 0001:0000057c       ??_C@_0N@MDEHMBJP@XWWWWtWDZZ?3S?$AA@ 1000157c     redir:open.obj
+ 0001:0000058c       ??_C@_04LACOBGIC@WW?3a?$AA@ 1000158c     redir:open.obj
+ 0001:00000594       ??_C@_1CG@MJKFIHGG@?$AAA?$AAl?$AAl?$AAo?$AAw?$AAe?$AAd?$AAA?$AAu?$AAt?$AAh?$AAM?$AAe?$AAt?$AAh?$AAo?$AAd?$AAs?$AA?$AA@ 10001594     redir:RedirConfig.obj
+ 0001:000005bc       ??_C@_1CM@PBGAFOFC@?$AAR?$AAe?$AAc?$AAv?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AAP?$AAr?$AAi?$AAo?$AAr?$AAi?$AAt?$AAy?$AA2?$AA5?$AA6?$AA?$AA@ 100015bc     redir:RedirConfig.obj
+ 0001:000005e8       ??_C@_1BO@PIJGFCEO@?$AAR?$AAe?$AAg?$AAi?$AAs?$AAt?$AAe?$AAr?$AAF?$AAS?$AAR?$AAo?$AAo?$AAt?$AA?$AA@ 100015e8     redir:RedirConfig.obj
+ 0001:00000608       ??_C@_1BO@KFBFBBMP@?$AAR?$AAe?$AAc?$AAe?$AAi?$AAv?$AAe?$AAB?$AAu?$AAf?$AAS?$AAi?$AAz?$AAe?$AA?$AA@ 10001608     redir:RedirConfig.obj
+ 0001:00000628       ??_C@_1CE@BHMANEED@?$AAR?$AAe?$AAs?$AAo?$AAu?$AAr?$AAc?$AAe?$AAE?$AAx?$AAp?$AAi?$AAr?$AAy?$AAI?$AAn?$AAt?$AA?$AA@ 10001628     redir:RedirConfig.obj
+ 0001:0000064c       ??_C@_1CC@DBPLHEFJ@?$AAF?$AAi?$AAn?$AAd?$AAC?$AAa?$AAc?$AAh?$AAe?$AAM?$AAa?$AAx?$AAS?$AAi?$AAz?$AAe?$AA?$AA@ 1000164c     redir:RedirConfig.obj
+ 0001:00000670       ??_C@_1CA@PJKOPKE@?$AAS?$AAe?$AAr?$AAv?$AAe?$AAr?$AAT?$AAi?$AAm?$AAe?$AAo?$AAu?$AAt?$AAM?$AAs?$AA?$AA@ 10001670     redir:RedirConfig.obj
+ 0001:00000690       ??_C@_1CC@ELOHNHPN@?$AAS?$AAm?$AAb?$AAS?$AAi?$AAg?$AAn?$AAa?$AAt?$AAu?$AAr?$AAe?$AAM?$AAo?$AAd?$AAe?$AA?$AA@ 10001690     redir:RedirConfig.obj
+ 0001:000006b4       ??_C@_1CG@BNIOJGAC@?$AAC?$AAl?$AAe?$AAa?$AAr?$AAT?$AAx?$AAt?$AAP?$AAw?$AAd?$AAA?$AAl?$AAl?$AAo?$AAw?$AAe?$AAd?$AA?$AA@ 100016b4     redir:RedirConfig.obj
+ 0001:000006dc       ??_C@_1CM@PBFGNMBM@?$AAD?$AAr?$AAi?$AAv?$AAe?$AAr?$AAs?$AA?2?$AAB?$AAu?$AAi?$AAl?$AAt?$AAI?$AAn?$AA?2?$AAR?$AAe?$AAd?$AAi?$AAr?$AA?$AA@ 100016dc     redir:RedirConfig.obj
+ 0001:00000710       ??_C@_01KICIPPFI@?2?$AA@   10001710     redir:xact.obj
+ 0001:00000714       ??_C@_05KMMNLFM@?2PIPE?$AA@ 10001714     redir:xact.obj
+ 0001:0000071c       NullPath                   1000171c     redir:find.obj
+ 0001:00000728       StarDotStar                10001728     redir:find.obj
+ 0001:00000730       Star                       10001730     redir:find.obj
+ 0001:00000734       ??_C@_15DDHGOCBH@?$AA?4?$AA?4?$AA?$AA@ 10001734     redir:find.obj
+ 0001:0000073c       ??_C@_13JOFGPIOO@?$AA?4?$AA?$AA@ 1000173c     redir:find.obj
+ 0001:00000740       ??_C@_01ELNMCGJD@W?$AA@    10001740     redir:find.obj
+ 0001:00000744       ??_C@_06EICCKHGC@GTW?3WZ?$AA@ 10001744     redir:find.obj
+ 0001:0000074c       ??_C@_08ELFDLCB@GTW?3WWZR?$AA@ 1000174c     redir:find.obj
+ 0001:00000758       ??_C@_07CDKBIOFG@GTW?3WWR?$AA@ 10001758     redir:find.obj
+ 0001:00000760       ??_C@_08PJAONIHD@GTW?3WZSR?$AA@ 10001760     redir:find.obj
+ 0001:0000076c       ??_C@_0M@FJCIBBIC@GTW?3WWWDWUR?$AA@ 1000176c     redir:find.obj
+ 0001:00000778       ??_C@_0M@IIIPFILP@GTW?3WWWWZSR?$AA@ 10001778     redir:find.obj
+ 0001:000007c0       ??_C@_1BE@IDKCCMFP@?$AAM?$AAo?$AAu?$AAn?$AAt?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 100017c0     rdrapi:fsapi.obj
+ 0001:000007d4       ??_C@_1BA@IFBJBPAK@?$AAN?$AAe?$AAt?$AAw?$AAo?$AAr?$AAk?$AA?$AA@ 100017d4     rdrapi:fsapi.obj
+ 0001:00000a68       ??_C@_02CCBOKCCK@Wt?$AA@   10001a68     rdrapi:fsapi.obj
+ 0001:00000a6c       ??_C@_04NNLNBKKK@FRdr?$AA@ 10001a6c     rdrapi:fsapi.obj
+ 0001:00000a74       ??_C@_04GCINKEML@HRdr?$AA@ 10001a74     rdrapi:fsapi.obj
+ 0001:00000a7c       ??_C@_04DCBNHIII@PRdr?$AA@ 10001a7c     rdrapi:fsapi.obj
+ 0001:00000a84       ??_7?$Buffer_t@VAsyncTraits_t@detail@marshal@ce@@@detail@marshal@ce@@6B@ 10001a84     rdrapi:fsapi.obj
+ 0001:00000a88       ??_C@_17ECHFBE@?$AA?$CK?$AA?4?$AA?$CK?$AA?$AA@ 10001a88     rdrapi:findapi.obj
+ 0001:00000a90       ??_C@_13BBDEGPLJ@?$AA?$CK?$AA?$AA@ 10001a90     rdrapi:findapi.obj
+ 0001:00000a98       WNetMethods                10001a98     rdrapi:wnetapi.obj
+ 0001:00000ac0       WNetSigs                   10001ac0     rdrapi:wnetapi.obj
+ 0001:00000b10       WNetEnumMethods            10001b10     rdrapi:wnetapi.obj
+ 0001:00000b20       WNetEnumSigs               10001b20     rdrapi:wnetapi.obj
+ 0001:00000b38       ??_C@_04BGNDEPPL@WNtE?$AA@ 10001b38     rdrapi:wnetapi.obj
+ 0001:00000b40       ??_C@_04MNGKIBAO@WNet?$AA@ 10001b40     rdrapi:wnetapi.obj
+ 0001:00000b48       SecondsToStartOf1970       10001b48     rdrapi:apiutil.obj
+ 0001:00000b50       ??_C@_13FPGAJAPJ@?$AA?2?$AA?$AA@ 10001b50     rdrapi:apiutil.obj
+ 0001:00000b54       ??_C@_15LEKKCGMK@?$AA?2?$AA?2?$AA?$AA@ 10001b54     rdrapi:apiutil.obj
+ 0001:00000b5c       ??_C@_1BM@NLCOKDLE@?$AA?2?$AAP?$AAI?$AAP?$AAE?$AA?2?$AAL?$AAA?$AAN?$AAM?$AAA?$AAN?$AA?$AA?$AA?$AA@ 10001b5c     rdrapi:remapi.obj
+ 0001:00000b78       ??_C@_06IKOICLOF@zWrLeh?$AA@ 10001b78     rdrapi:remapi.obj
+ 0001:00000b80       ??_C@_03OBEIGBJ@B21?$AA@   10001b80     rdrapi:remapi.obj
+ 0001:00000b84       ??_C@_03BFALDAND@T?3F?$AA@ 10001b84     rdrapi:remapi.obj
+ 0001:00000b88       ??_C@_05OOFONKFN@WrLeh?$AA@ 10001b88     rdrapi:remapi.obj
+ 0001:00000b90       ??_C@_03DOGEFKMC@B13?$AA@  10001b90     rdrapi:remapi.obj
+ 0001:00000b94       ??_C@_06BFJOGLHA@B13BWz?$AA@ 10001b94     rdrapi:remapi.obj
+ 0001:00000b9c       ??_C@_0O@EEDKJPIH@B13BWzWWWzB9B?$AA@ 10001b9c     rdrapi:remapi.obj
+ 0001:00000bac       ??_C@_09KOFEAJDA@WWzWWDDzz?$AA@ 10001bac     rdrapi:remapi.obj
+ 0001:00000bb8       ??_C@_05MABHIINE@WWrLh?$AA@ 10001bb8     rdrapi:remapi.obj
+ 0001:00000bc0       ??_C@_1CK@DFLKDMOL@?$AAR?$AAd?$AAr?$AAW?$AAN?$AAe?$AAt?$AAE?$AAn?$AAu?$AAm?$AAR?$AAe?$AAs?$AAo?$AAu?$AAr?$AAc?$AAe?$AAW?$AA?$AA@ 10001bc0     rdrapi:ErrorHandler.obj
+ 0001:00000bec       ??_C@_1CG@MIODFJCJ@?$AAR?$AAd?$AAr?$AAW?$AAN?$AAe?$AAt?$AAU?$AAn?$AAs?$AAu?$AAp?$AAp?$AAo?$AAr?$AAt?$AAe?$AAd?$AA?$AA@ 10001bec     rdrapi:ErrorHandler.obj
+ 0001:00000c14       ??_C@_1CC@PEBNFPG@?$AAR?$AAd?$AAr?$AAW?$AAN?$AAe?$AAt?$AAC?$AAl?$AAo?$AAs?$AAe?$AAE?$AAn?$AAu?$AAm?$AA?$AA@ 10001c14     rdrapi:ErrorHandler.obj
+ 0001:00000c38       ??_C@_1CC@DFJIKNIF@?$AAR?$AAd?$AAr?$AAW?$AAN?$AAe?$AAt?$AAO?$AAp?$AAe?$AAn?$AAE?$AAn?$AAu?$AAm?$AAW?$AA?$AA@ 10001c38     rdrapi:ErrorHandler.obj
+ 0001:00000c5c       ??_C@_1CA@FNFHKKKM@?$AAR?$AAd?$AAr?$AAW?$AAN?$AAe?$AAt?$AAG?$AAe?$AAt?$AAU?$AAs?$AAe?$AAr?$AAW?$AA?$AA@ 10001c5c     rdrapi:ErrorHandler.obj
+ 0001:00000c7c       ??_C@_1DC@LDGINCAF@?$AAR?$AAd?$AAr?$AAW?$AAN?$AAe?$AAt?$AAG?$AAe?$AAt?$AAU?$AAn?$AAi?$AAv?$AAe?$AAr?$AAs?$AAa?$AAl?$AAN?$AAa?$AAm?$AAe?$AAW?$AA?$AA@ 10001c7c     rdrapi:ErrorHandler.obj
+ 0001:00000cb0       ??_C@_1CM@NEMFPIGG@?$AAR?$AAd?$AAr?$AAW?$AAN?$AAe?$AAt?$AAG?$AAe?$AAt?$AAC?$AAo?$AAn?$AAn?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn?$AAW?$AA?$AA@ 10001cb0     rdrapi:ErrorHandler.obj
+ 0001:00000cdc       ??_C@_1DE@BBANCFBN@?$AAR?$AAd?$AAr?$AAW?$AAN?$AAe?$AAt?$AAD?$AAi?$AAs?$AAc?$AAo?$AAn?$AAn?$AAe?$AAc?$AAt?$AAD?$AAi?$AAa?$AAl?$AAo?$AAg?$AA1?$AAW?$AA?$AA@ 10001cdc     rdrapi:ErrorHandler.obj
+ 0001:00000d10       ??_C@_1DA@NHAKDDN@?$AAR?$AAd?$AAr?$AAW?$AAN?$AAe?$AAt?$AAD?$AAi?$AAs?$AAc?$AAo?$AAn?$AAn?$AAe?$AAc?$AAt?$AAD?$AAi?$AAa?$AAl?$AAo?$AAg?$AA?$AA@ 10001d10     rdrapi:ErrorHandler.obj
+ 0001:00000d40       ??_C@_1DE@IIPOJPGE@?$AAR?$AAd?$AAr?$AAW?$AAN?$AAe?$AAt?$AAC?$AAo?$AAn?$AAn?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn?$AAD?$AAi?$AAa?$AAl?$AAo?$AAg?$AA1?$AAW?$AA?$AA@ 10001d40     rdrapi:ErrorHandler.obj
+ 0001:00000d74       ??_C@_1DE@KEODLHMP@?$AAR?$AAd?$AAr?$AAW?$AAN?$AAe?$AAt?$AAC?$AAa?$AAn?$AAc?$AAe?$AAl?$AAC?$AAo?$AAn?$AAn?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn?$AA2?$AAW?$AA?$AA@ 10001d74     rdrapi:ErrorHandler.obj
+ 0001:00000da8       ??_C@_1CO@CLAODNHK@?$AAR?$AAd?$AAr?$AAW?$AAN?$AAe?$AAt?$AAA?$AAd?$AAd?$AAC?$AAo?$AAn?$AAn?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn?$AA3?$AAW?$AA?$AA@ 10001da8     rdrapi:ErrorHandler.obj
+ 0001:00000dd8       ??_C@_1CG@OGGIIMMF@?$AAW?$AAN?$AAe?$AAt?$AAN?$AAo?$AAt?$AAi?$AAf?$AAy?$AAC?$AAa?$AAl?$AAl?$AAb?$AAa?$AAc?$AAk?$AA?$AA@ 10001dd8     rdrapi:ErrorHandler.obj
+ 0001:00000e00       ??_C@_1CC@FNKLNLFN@?$AAR?$AAd?$AAr?$AA_?$AAF?$AAi?$AAn?$AAd?$AAN?$AAe?$AAx?$AAt?$AAF?$AAi?$AAl?$AAe?$AA?$AA@ 10001e00     rdrapi:ErrorHandler.obj
+ 0001:00000e24       ??_C@_1BM@IMCELOBM@?$AAR?$AAd?$AAr?$AA_?$AAF?$AAi?$AAn?$AAd?$AAC?$AAl?$AAo?$AAs?$AAe?$AA?$AA@ 10001e24     rdrapi:ErrorHandler.obj
+ 0001:00000e40       ??_C@_1CC@FBJOLLCN@?$AAR?$AAd?$AAr?$AA_?$AAU?$AAn?$AAL?$AAo?$AAc?$AAk?$AAF?$AAi?$AAl?$AAe?$AAE?$AAx?$AA?$AA@ 10001e40     rdrapi:ErrorHandler.obj
+ 0001:00000e64       ??_C@_1BO@EABLICOB@?$AAR?$AAd?$AAr?$AA_?$AAL?$AAo?$AAc?$AAk?$AAF?$AAi?$AAl?$AAe?$AAE?$AAx?$AA?$AA@ 10001e64     rdrapi:ErrorHandler.obj
+ 0001:00000e84       ??_C@_1CM@MACBLHHP@?$AAR?$AAd?$AAr?$AA_?$AAW?$AAr?$AAi?$AAt?$AAe?$AAF?$AAi?$AAl?$AAe?$AAW?$AAi?$AAt?$AAh?$AAS?$AAe?$AAe?$AAk?$AA?$AA@ 10001e84     rdrapi:ErrorHandler.obj
+ 0001:00000eb0       ??_C@_1CK@JGJMONIO@?$AAR?$AAd?$AAr?$AA_?$AAR?$AAe?$AAa?$AAd?$AAF?$AAi?$AAl?$AAe?$AAW?$AAi?$AAt?$AAh?$AAS?$AAe?$AAe?$AAk?$AA?$AA@ 10001eb0     rdrapi:ErrorHandler.obj
+ 0001:00000edc       ??_C@_1CI@IHGBJKON@?$AAR?$AAd?$AAr?$AA_?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAI?$AAo?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?$AA@ 10001edc     rdrapi:ErrorHandler.obj
+ 0001:00000f04       ??_C@_1CC@BNBCGILH@?$AAR?$AAd?$AAr?$AA_?$AAS?$AAe?$AAt?$AAE?$AAn?$AAd?$AAO?$AAf?$AAF?$AAi?$AAl?$AAe?$AA?$AA@ 10001f04     rdrapi:ErrorHandler.obj
+ 0001:00000f28       ??_C@_1CA@BGAFMDBO@?$AAR?$AAd?$AAr?$AA_?$AAS?$AAe?$AAt?$AAF?$AAi?$AAl?$AAe?$AAT?$AAi?$AAm?$AAe?$AA?$AA@ 10001f28     rdrapi:ErrorHandler.obj
+ 0001:00000f48       ??_C@_1CA@GICCHM@?$AAR?$AAd?$AAr?$AA_?$AAG?$AAe?$AAt?$AAF?$AAi?$AAl?$AAe?$AAT?$AAi?$AAm?$AAe?$AA?$AA@ 10001f48     rdrapi:ErrorHandler.obj
+ 0001:00000f68       ??_C@_1CK@KMEPFFLN@?$AAR?$AAd?$AAr?$AA_?$AAF?$AAl?$AAu?$AAs?$AAh?$AAF?$AAi?$AAl?$AAe?$AAB?$AAu?$AAf?$AAf?$AAe?$AAr?$AAs?$AA?$AA@ 10001f68     rdrapi:ErrorHandler.obj
+ 0001:00000f94       ??_C@_1DO@DFCEAME@?$AAR?$AAd?$AAr?$AA_?$AAG?$AAe?$AAt?$AAF?$AAi?$AAl?$AAe?$AAI?$AAn?$AAf?$AAo?$AAr?$AAm?$AAa?$AAt?$AAi?$AAo?$AAn?$AAB?$AAy?$AAH?$AAa?$AAn?$AAd?$AAl?$AAe?$AA?$AA@ 10001f94     rdrapi:ErrorHandler.obj
+ 0001:00000fd4       ??_C@_1CG@NOBMHADN@?$AAR?$AAd?$AAr?$AA_?$AAS?$AAe?$AAt?$AAF?$AAi?$AAl?$AAe?$AAP?$AAo?$AAi?$AAn?$AAt?$AAe?$AAr?$AA?$AA@ 10001fd4     rdrapi:ErrorHandler.obj
+ 0001:00000ffc       ??_C@_1CA@PMGHALCG@?$AAR?$AAd?$AAr?$AA_?$AAG?$AAe?$AAt?$AAF?$AAi?$AAl?$AAe?$AAS?$AAi?$AAz?$AAe?$AA?$AA@ 10001ffc     rdrapi:ErrorHandler.obj
+ 0001:0000101c       ??_C@_1BM@NKCGJBNI@?$AAR?$AAd?$AAr?$AA_?$AAW?$AAr?$AAi?$AAt?$AAe?$AAF?$AAi?$AAl?$AAe?$AA?$AA@ 1000201c     rdrapi:ErrorHandler.obj
+ 0001:00001038       ??_C@_1BK@DBKAMPJL@?$AAR?$AAd?$AAr?$AA_?$AAR?$AAe?$AAa?$AAd?$AAF?$AAi?$AAl?$AAe?$AA?$AA@ 10002038     rdrapi:ErrorHandler.obj
+ 0001:00001054       ??_C@_1CA@DCBKECNC@?$AAR?$AAd?$AAr?$AA_?$AAU?$AAn?$AAs?$AAu?$AAp?$AAp?$AAo?$AAr?$AAt?$AAe?$AAd?$AA?$AA@ 10002054     rdrapi:ErrorHandler.obj
+ 0001:00001074       ??_C@_1CI@NIGBCHBM@?$AAR?$AAd?$AAr?$AA_?$AAC?$AAl?$AAo?$AAs?$AAe?$AAF?$AAi?$AAl?$AAe?$AAH?$AAa?$AAn?$AAd?$AAl?$AAe?$AA?$AA@ 10002074     rdrapi:ErrorHandler.obj
+ 0001:0000109c       ??_C@_1CC@JCPPHKNI@?$AAR?$AAd?$AAr?$AA_?$AAF?$AAs?$AAI?$AAo?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAW?$AA?$AA@ 1000209c     rdrapi:ErrorHandler.obj
+ 0001:000010c0       ??_C@_1DM@NLPFAFNE@?$AAR?$AAd?$AAr?$AA_?$AAC?$AAe?$AAG?$AAe?$AAt?$AAF?$AAi?$AAl?$AAe?$AAN?$AAo?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AAI?$AAn?$AAf?$AAo?$AA?$AA@ 100020c0     rdrapi:ErrorHandler.obj
+ 0001:00001100       ??_C@_1EA@HCHKIKPD@?$AAR?$AAd?$AAr?$AA_?$AAF?$AAi?$AAn?$AAd?$AAC?$AAl?$AAo?$AAs?$AAe?$AAC?$AAh?$AAa?$AAn?$AAg?$AAe?$AAN?$AAo?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 10002100     rdrapi:ErrorHandler.obj
+ 0001:00001140       ??_C@_1DO@BNNHBKDA@?$AAR?$AAd?$AAr?$AA_?$AAF?$AAi?$AAn?$AAd?$AAN?$AAe?$AAx?$AAt?$AAC?$AAh?$AAa?$AAn?$AAg?$AAe?$AAN?$AAo?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 10002140     rdrapi:ErrorHandler.obj
+ 0001:00001180       ??_C@_1EC@GGFENIEL@?$AAR?$AAd?$AAr?$AA_?$AAF?$AAi?$AAn?$AAd?$AAF?$AAi?$AAr?$AAs?$AAt?$AAC?$AAh?$AAa?$AAn?$AAg?$AAe?$AAN?$AAo?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AAW@ 10002180     rdrapi:ErrorHandler.obj
+ 0001:000011c8       ??_C@_1EG@FHPBGPF@?$AAR?$AAd?$AAr?$AA_?$AAR?$AAe?$AAg?$AAi?$AAs?$AAt?$AAe?$AAr?$AAF?$AAi?$AAl?$AAe?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AAN?$AAo?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAi@ 100021c8     rdrapi:ErrorHandler.obj
+ 0001:00001210       ??_C@_1BG@NJKBGJOD@?$AAR?$AAd?$AAr?$AA_?$AAN?$AAo?$AAt?$AAi?$AAf?$AAy?$AA?$AA@ 10002210     rdrapi:ErrorHandler.obj
+ 0001:00001228       ??_C@_1CK@LOMBDMGH@?$AAR?$AAd?$AAr?$AA_?$AAG?$AAe?$AAt?$AAD?$AAi?$AAs?$AAk?$AAF?$AAr?$AAe?$AAe?$AAS?$AAp?$AAa?$AAc?$AAe?$AA?$AA@ 10002228     rdrapi:ErrorHandler.obj
+ 0001:00001254       ??_C@_1DA@JDBEEDFH@?$AAR?$AAd?$AAr?$AA_?$AAC?$AAl?$AAo?$AAs?$AAe?$AAA?$AAl?$AAl?$AAF?$AAi?$AAl?$AAe?$AAH?$AAa?$AAn?$AAd?$AAl?$AAe?$AAs?$AA?$AA@ 10002254     rdrapi:ErrorHandler.obj
+ 0001:00001284       ??_C@_1DC@OIFLBNHK@?$AAR?$AAd?$AAr?$AA_?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AAA?$AAn?$AAd?$AAR?$AAe?$AAn?$AAa?$AAm?$AAe?$AAF?$AAi?$AAl?$AAe?$AAW?$AA?$AA@ 10002284     rdrapi:ErrorHandler.obj
+ 0001:000012b8       ??_C@_1GG@EHEOPFKM@?$AAR?$AAd?$AAr?$AA_?$AAR?$AAe?$AAg?$AAi?$AAs?$AAt?$AAe?$AAr?$AAF?$AAi?$AAl?$AAe?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AAN?$AAo?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAi@ 100022b8     rdrapi:ErrorHandler.obj
+ 0001:00001320       ??_C@_1CG@LCADNONJ@?$AAR?$AAd?$AAr?$AA_?$AAF?$AAi?$AAn?$AAd?$AAF?$AAi?$AAr?$AAs?$AAt?$AAF?$AAi?$AAl?$AAe?$AAW?$AA?$AA@ 10002320     rdrapi:ErrorHandler.obj
+ 0001:00001348       ??_C@_1BM@MHLJLDFN@?$AAR?$AAd?$AAr?$AA_?$AAM?$AAo?$AAv?$AAe?$AAF?$AAi?$AAl?$AAe?$AAW?$AA?$AA@ 10002348     rdrapi:ErrorHandler.obj
+ 0001:00001364       ??_C@_1CA@NPKDKMLF@?$AAR?$AAd?$AAr?$AA_?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AAF?$AAi?$AAl?$AAe?$AAW?$AA?$AA@ 10002364     rdrapi:ErrorHandler.obj
+ 0001:00001384       ??_C@_1CA@NBIBNFDB@?$AAR?$AAd?$AAr?$AA_?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AAF?$AAi?$AAl?$AAe?$AAW?$AA?$AA@ 10002384     rdrapi:ErrorHandler.obj
+ 0001:000013a4       ??_C@_1CO@EBMDDKBP@?$AAR?$AAd?$AAr?$AA_?$AAS?$AAe?$AAt?$AAF?$AAi?$AAl?$AAe?$AAA?$AAt?$AAt?$AAr?$AAi?$AAb?$AAu?$AAt?$AAe?$AAs?$AAW?$AA?$AA@ 100023a4     rdrapi:ErrorHandler.obj
+ 0001:000013d4       ??_C@_1CO@KPMBDEDJ@?$AAR?$AAd?$AAr?$AA_?$AAG?$AAe?$AAt?$AAF?$AAi?$AAl?$AAe?$AAA?$AAt?$AAt?$AAr?$AAi?$AAb?$AAu?$AAt?$AAe?$AAs?$AAW?$AA?$AA@ 100023d4     rdrapi:ErrorHandler.obj
+ 0001:00001404       ??_C@_1CK@PCNFLDND@?$AAR?$AAd?$AAr?$AA_?$AAR?$AAe?$AAm?$AAo?$AAv?$AAe?$AAD?$AAi?$AAr?$AAe?$AAc?$AAt?$AAo?$AAr?$AAy?$AAW?$AA?$AA@ 10002404     rdrapi:ErrorHandler.obj
+ 0001:00001430       ??_C@_1CK@HDACDEPC@?$AAR?$AAd?$AAr?$AA_?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AAD?$AAi?$AAr?$AAe?$AAc?$AAt?$AAo?$AAr?$AAy?$AAW?$AA?$AA@ 10002430     rdrapi:ErrorHandler.obj
+ 0001:0000145c       ??_C@_1CG@GMEGJAKP@?$AAR?$AAd?$AAr?$AA_?$AAP?$AAr?$AAe?$AAC?$AAl?$AAo?$AAs?$AAe?$AAV?$AAo?$AAl?$AAu?$AAm?$AAe?$AA?$AA@ 1000245c     rdrapi:ErrorHandler.obj
+ 0001:00001484       ??_C@_1CA@OGGKAIFP@?$AAR?$AAd?$AAr?$AA_?$AAC?$AAl?$AAo?$AAs?$AAe?$AAV?$AAo?$AAl?$AAu?$AAm?$AAe?$AA?$AA@ 10002484     rdrapi:ErrorHandler.obj
+ 0001:000014a4       ??_C@_19BIEPDBPA@?$AAT?$AAy?$AAp?$AAe?$AA?$AA@ 100024a4     rdrapi:cres.obj
+ 0001:000014b0       ??_C@_1BC@PKDBAIGK@?$AAU?$AAs?$AAe?$AAr?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 100024b0     rdrapi:cres.obj
+ 0001:000014c4       ??_C@_1BG@NKOIIINI@?$AAR?$AAe?$AAm?$AAo?$AAt?$AAe?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 100024c4     rdrapi:cres.obj
+ 0001:000014dc       ??_C@_1CO@FGKFEKMI@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAR?$AAe?$AAd?$AAi?$AAr?$AA?2?$AAC?$AAo?$AAn?$AAn?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn?$AAs?$AA?$AA@ 100024dc     rdrapi:cres.obj
+ 0001:0000150c       ??_C@_1CC@CPHODAPG@?$AAC?$AAo?$AAn?$AAn?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn?$AAD?$AAi?$AAa?$AAl?$AAo?$AAg?$AA?$AA@ 1000250c     rdrapi:WNetConnectionDialogue.obj
+ 0001:00001530       ??_C@_1CC@IPPIPIGG@?$AAD?$AAi?$AAs?$AAc?$AAo?$AAn?$AAn?$AAe?$AAc?$AAt?$AAD?$AAi?$AAa?$AAl?$AAo?$AAg?$AA?$AA@ 10002530     rdrapi:WNetConnectionDialogue.obj
+ 0001:00001554       ??_C@_1CC@KFBNLNIJ@?$AAC?$AAo?$AAn?$AAn?$AAe?$AAc?$AAt?$AAD?$AAi?$AAa?$AAl?$AAo?$AAg?$AAE?$AAx?$AAt?$AA?$AA@ 10002554     rdrapi:WNetConnectionDialogue.obj
+ 0001:00001578       ??_C@_1CI@GNADOBMA@?$AAD?$AAi?$AAs?$AAc?$AAo?$AAn?$AAn?$AAe?$AAc?$AAt?$AAD?$AAi?$AAa?$AAl?$AAo?$AAg?$AAE?$AAx?$AAt?$AA?$AA@ 10002578     rdrapi:WNetConnectionDialogue.obj
+ 0001:000015a0       ??_C@_1BC@FIOHKIEN@?$AA?$CF?$AAs?$AA?5?$AAo?$AAn?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 100025a0     rdrapi:WNetConnectionDialogue.obj
+ 0001:000015b4       ??_C@_1CI@FPLNJJNB@?$AAB?$AAr?$AAo?$AAw?$AAs?$AAe?$AA?5?$AAM?$AAa?$AAs?$AAt?$AAe?$AAr?$AA?5?$AAG?$AAr?$AAo?$AAu?$AAp?$AA?$AA@ 100025b4     rdrnet:netbios.obj
+ 0001:000015dc       ??_C@_1CI@HLEMKFLD@?$AAB?$AAr?$AAo?$AAw?$AAs?$AAe?$AA?5?$AAD?$AAo?$AAm?$AAa?$AAi?$AAn?$AA?5?$AAG?$AAr?$AAo?$AAu?$AAp?$AA?$AA@ 100025dc     rdrnet:netbios.obj
+ 0001:00001604       ??_C@_1BM@MNNGAMBA@?$AAB?$AAr?$AAo?$AAw?$AAs?$AAe?$AA?5?$AAM?$AAa?$AAs?$AAt?$AAe?$AAr?$AA?$AA@ 10002604     rdrnet:netbios.obj
+ 0001:00001620       ??_C@_1O@OAMNPMOM@?$AAD?$AAo?$AAm?$AAa?$AAi?$AAn?$AA?$AA@ 10002620     rdrnet:netbios.obj
+ 0001:00001630       ??_C@_1BC@MBFMCOMD@?$AAC?$AAo?$AAm?$AAp?$AAu?$AAt?$AAe?$AAr?$AA?$AA@ 10002630     rdrnet:netbios.obj
+ 0001:00001644       ??_C@_1BA@KIBEDCBE@?$AAN?$AAe?$AAt?$AAb?$AAi?$AAo?$AAs?$AA?$AA@ 10002644     rdrnet:netbios.obj
+ 0001:00001654       ??_C@_1BI@OKDIPLLC@?$AAn?$AAe?$AAt?$AAb?$AAi?$AAo?$AAs?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10002654     rdrnet:netbios.obj
+ 0001:00001674       ??_C@_06NJBKKODK@TWWW?3R?$AA@ 10002674     rdrnet:netmslot.obj
+ 0001:0000167c       ??_C@_0BB@FNJNBJMB@?2MAILSLOT?2BROWSE?$AA@ 1000267c     rdrnet:netmslot.obj
+ 0001:00001690       ??_C@_08IFGHPOIE@KGS?$CB?$EA?$CD$?$CF?$AA@ 10002690     libxy:owf.obj
+ 0001:000016a0       Spbox                      100026a0     rsa32:spb.obj
+ 0001:00001ea0       Sel                        10002ea0     rsa32:spb.obj
+ 0001:000026a0       double_shift               100036a0     rsa32:spb.obj
+ 0001:000026b0       DESParityTable             100036b0     rsa32:spb.obj
+ 0001:000026f0       ??_C@_04DALENIKI@FNOT?$AA@ 100036f0     fsdnot:fsnotify.obj
+ 0001:000026f8       ??_C@_19LJDFFCJJ@?$AA?$CF?$AAs?$AA?$CF?$AAs?$AA?$AA@ 100036f8     fsdnot:fsnotify.obj
+ 0001:00002704       ??_C@_02MACADIOP@?3A?$AA@  10003704     redir:miscfunc.obj
+ 0001:00002708       ??_C@_03EIPPAJPK@W?3A?$AA@ 10003708     redir:miscfunc.obj
+ 0001:0000270c       ??_C@_04LEECJKEP@W?3AA?$AA@ 1000370c     redir:miscfunc.obj
+ 0001:00002714       ??_C@_08EHBOIMHI@WZZZ0?3AA?$AA@ 10003714     redir:miscfunc.obj
+ 0001:00002720       ??_C@_05BLCPJBEN@GTW?3W?$AA@ 10003720     redir:miscfunc.obj
+ 0001:00002728       ??_C@_06IFHAELKE@WWDW?3B?$AA@ 10003728     redir:write.obj
+ 0001:00002730       ??_C@_03HFIHKFMM@WWD?$AA@  10003730     redir:seek.obj
+ 0001:00002734       ??_C@_06IPIINMJB@LWWDWR?$AA@ 10003734     redir:read.obj
+ 0001:00002748       ServerErrors               10003748     redir:recv_rsp.obj
+ 0001:000028c8       ??_C@_04HPNCOLCN@HPFS?$AA@ 100038c8     redir:recv_rsp.obj
+ 0001:000028f4       RDR_Open                   100038f4 f   redir:Init.obj
+ 0001:00002900       RDR_Close                  10003900 f   redir:Init.obj
+ 0001:0000297c       ReturnFalse                1000397c f   redir:Init.obj
+ 0001:0000298c       RDR_IOControl              1000398c f   redir:Init.obj
+ 0001:00002ad8       DllEntry                   10003ad8 f   redir:Init.obj
+ 0001:00002b28       RDR_Deinit                 10003b28 f   redir:Init.obj
+ 0001:00002c50       RDR_Init                   10003c50 f   redir:Init.obj
+ 0001:00002c64       Redir                      10003c64 f   redir:Init.obj
+ 0001:00002f8c       GetSessionByName           10003f8c f   redir:resource.obj
+ 0001:00003618       GetSSPIFunctionPointers    10004618 f   redir:resource.obj
+ 0001:00003f08       SafeCopy                   10004f08 f   redir:resource.obj
+ 0001:00003f5c       SplitDomainUser            10004f5c f   redir:resource.obj
+ 0001:00004040       MakeDomainUser             10005040 f   redir:resource.obj
+ 0001:0000410c       CachedCredentialDomainUser 1000510c f   redir:resource.obj
+ 0001:000041ec       CacheDomainCredential      100051ec f   redir:resource.obj
+ 0001:00004b14       ReferenceResource          10005b14 f   redir:resource.obj
+ 0001:00004bb0       DereferenceResource        10005bb0 f   redir:resource.obj
+ 0001:00004bf0       MakeResourceDfs            10005bf0 f   redir:resource.obj
+ 0001:00004c08       CloseResource              10005c08 f   redir:resource.obj
+ 0001:00004e4c       CleanUpSession             10005e4c f   redir:resource.obj
+ 0001:0000520c       CloseIdleSessions          1000620c f   redir:resource.obj
+ 0001:00005428       StartIdleSessResChecker    10006428 f   redir:resource.obj
+ 0001:00005478       StopIdleSessResChecker     10006478 f   redir:resource.obj
+ 0001:00005498       InitSessRes                10006498 f   redir:resource.obj
+ 0001:000054d8       DeinitSessRes              100064d8 f   redir:resource.obj
+ 0001:00005500       ConnectResource            10006500 f   redir:resource.obj
+ 0001:00005830       GetResourceByName          10006830 f   redir:resource.obj
+ 0001:00005954       ReconnectResource          10006954 f   redir:resource.obj
+ 0001:00006704       AddSmbSignature            10007704 f   redir:nib.obj
+ 0001:00006864       CheckSmbSignature          10007864 f   redir:nib.obj
+ 0001:00006aa0       SendNib                    10007aa0 f   redir:nib.obj
+ 0001:00006b74       NibSetupRcvBuf             10007b74 f   redir:nib.obj
+ 0001:00006b80       WaitNib                    10007b80 f   redir:nib.obj
+ 0001:00006c1c       SignalNib                  10007c1c f   redir:nib.obj
+ 0001:00006cbc       InitNibs                   10007cbc f   redir:nib.obj
+ 0001:00006d24       DeinitNibs                 10007d24 f   redir:nib.obj
+ 0001:00006d60       SetupNib                   10007d60 f   redir:nib.obj
+ 0001:0000703c       FreeNib                    1000803c f   redir:nib.obj
+ 0001:00007160       RdrMemInit                 10008160 f   redir:rdrmem.obj
+ 0001:00007178       RdrFree                    10008178 f   redir:rdrmem.obj
+ 0001:00007250       RdrMemCleanFreeLists       10008250 f   redir:rdrmem.obj
+ 0001:00007354       RdrMemDeinit               10008354 f   redir:rdrmem.obj
+ 0001:00007370       RdrAlloc                   10008370 f   redir:rdrmem.obj
+ 0001:000074a4       FindCacheInit              100084a4 f   redir:fndcache.obj
+ 0001:00007588       FindCacheFindClose         10008588 f   redir:fndcache.obj
+ 0001:00007604       FindCacheFlushResource     10008604 f   redir:fndcache.obj
+ 0001:000077ec       FindCacheDeinit            100087ec f   redir:fndcache.obj
+ 0001:00007b84       FindCacheFindFirst         10008b84 f   redir:fndcache.obj
+ 0001:00007bd4       FindCacheFindNext          10008bd4 f   redir:fndcache.obj
+ 0001:00007cb0       FindCacheUpdateFile        10008cb0 f   redir:fndcache.obj
+ 0001:00007d98       FindCacheInvalidateFile    10008d98 f   redir:fndcache.obj
+ 0001:00007df8       ?Unmarshal@MarshalledBuffer_t@@QAAJXZ 10008df8 f i redir:Passthru.obj
+ 0001:00007e50       NetlogonInit               10008e50 f   redir:Passthru.obj
+ 0001:00007fb8       ResolveNetbiosName         10008fb8 f   redir:Passthru.obj
+ 0001:000080ac       HandleNetlogonMslotMsg     100090ac f   redir:Passthru.obj
+ 0001:0000853c       ?Marshal@MarshalledBuffer_t@@QAAJPAXKKHH@Z 1000953c f i redir:Passthru.obj
+ 0001:0000878c       PassthroughLogonUser       1000978c f   redir:Passthru.obj
+ 0001:00008d04       ??$Marshal@PBG@@YAHAAVMarshalledBuffer_t@@PBGKKAAPBG@Z 10009d04 f i redir:Passthru.obj
+ 0001:00008db8       ??$Marshal@PAG@@YAHAAVMarshalledBuffer_t@@PAGKKAAPAG@Z 10009db8 f i redir:Passthru.obj
+ 0001:00008e60       ??$Marshal@PAD@@YAHAAVMarshalledBuffer_t@@PADKKAAPAD@Z 10009e60 f i redir:Passthru.obj
+ 0001:00008f08       ??$Marshal@PAH@@YAHAAVMarshalledBuffer_t@@PAHKKAAPAH@Z 10009f08 f i redir:Passthru.obj
+ 0001:00008fb0       ??$Marshal@PAK@@YAHAAVMarshalledBuffer_t@@PAKKKAAPAK@Z 10009fb0 f i redir:Passthru.obj
+ 0001:00009058       ??$Marshal@PAE@@YAHAAVMarshalledBuffer_t@@PAEKKAAPAE@Z 1000a058 f i redir:Passthru.obj
+ 0001:00009100       ??$Marshal@PAPAX@@YAHAAVMarshalledBuffer_t@@PAPAXKKAAPAPAX@Z 1000a100 f i redir:Passthru.obj
+ 0001:000091a8       ??$Marshal@PBD@@YAHAAVMarshalledBuffer_t@@PBDKKAAPBD@Z 1000a1a8 f i redir:Passthru.obj
+ 0001:0000925c       ??$Marshal@PBE@@YAHAAVMarshalledBuffer_t@@PBEKKAAPBE@Z 1000a25c f i redir:Passthru.obj
+ 0001:00009318       GetDomainInfo              1000a318 f   redir:Passthru.obj
+ 0001:000094e8       GetDCName                  1000a4e8 f   redir:Passthru.obj
+ 0001:00009538       PassthroughPrelogon        1000a538 f   redir:Passthru.obj
+ 0001:000095a0       RedirGetDCName             1000a5a0 f   redir:Passthru.obj
+ 0001:00009728       RedirResolveNetbiosName    1000a728 f   redir:Passthru.obj
+ 0001:00009870       RedirPassthroughPrelogon   1000a870 f   redir:Passthru.obj
+ 0001:000099c0       RedirPassthroughLogonUser  1000a9c0 f   redir:Passthru.obj
+ 0001:00009bc4       GetNetuiFunction           1000abc4 f i redir:Rdrui.obj
+ 0001:00009c30       CallUGetNetString          1000ac30 f i redir:Rdrui.obj
+ 0001:00009c94       CallUGetUsernamePassword   1000ac94 f i redir:Rdrui.obj
+ 0001:00009cf0       CallUGetResourcePassword   1000acf0 f i redir:Rdrui.obj
+ 0001:00009d4c       CallUNetMsgBox             1000ad4c f i redir:Rdrui.obj
+ 0001:00009e78       ?WaitForAPIReadyWrapper@@YAKKK@Z 1000ae78 f i redir:Rdrui.obj
+ 0001:00009ee8       ?CeCallUserProcWrapper@@YAHPBG0PAXK1KPAK@Z 1000aee8 f i redir:Rdrui.obj
+ 0001:00009f84       ?CallKMsgWaitForMultipleObjects@@YAKKPAPAXKKK@Z 1000af84 f i redir:Rdrui.obj
+ 0001:0000a078       ?CallKPeekMessageW@@YAHPAUtagMSG@@PAUHWND__@@III@Z 1000b078 f i redir:Rdrui.obj
+ 0001:0000a13c       ?CallKTranslateMessage@@YAHPBUtagMSG@@@Z 1000b13c f i redir:Rdrui.obj
+ 0001:0000a1c8       ?CallKDispatchMessageW@@YAHPBUtagMSG@@@Z 1000b1c8 f i redir:Rdrui.obj
+ 0001:0000a254       ?CallKLoadLibrary@@YAPAUHINSTANCE__@@PBG@Z 1000b254 f i redir:Rdrui.obj
+ 0001:0000a308       ?CallKFreeLibrary@@YAHPAUHINSTANCE__@@@Z 1000b308 f i redir:Rdrui.obj
+ 0001:0000a39c       ?CallKGetUsernamePasswordEx@@YAHPAUHWND__@@PAU_NETUI_USERPWD@@PAPAU1@@Z 1000b39c f i redir:Rdrui.obj
+ 0001:0000a4b8       ?CallKGetNetStringSize@@YAHI@Z 1000b4b8 f i redir:Rdrui.obj
+ 0001:0000a52c       ?CallKGetNetString@@YAHIPAGH@Z 1000b52c f i redir:Rdrui.obj
+ 0001:0000a604       ?CallKVNetMsgBox@@YAHPAUHWND__@@KIPAD@Z 1000b604 f i redir:Rdrui.obj
+ 0001:0000a778       ?CallKGetResourcePassword@@YAHPAUHWND__@@PAU_NETUI_RESPWD@@@Z 1000b778 f i redir:Rdrui.obj
+ 0001:0000a82c       IsCeCallUserProcAvailable  1000b82c f i redir:Rdrui.obj
+ 0001:0000a874       CallGetUsernamePassword    1000b874 f i redir:Rdrui.obj
+ 0001:0000a8c4       CallGetResourcePassword    1000b8c4 f i redir:Rdrui.obj
+ 0001:0000a910       CallNetMsgBox              1000b910 f i redir:Rdrui.obj
+ 0001:0000a978       RdrUI_Init                 1000b978 f   redir:Rdrui.obj
+ 0001:0000a9fc       RdrUI_StartThread          1000b9fc f   redir:Rdrui.obj
+ 0001:0000aa60       RdrUI_StopThread           1000ba60 f   redir:Rdrui.obj
+ 0001:0000b02c       RdrUI_MsgBox               1000c02c f   redir:Rdrui.obj
+ 0001:0000b05c       RdrUI_GetUsernamePassword  1000c05c f   redir:Rdrui.obj
+ 0001:0000b090       RdrUI_GetResourcePassword  1000c090 f   redir:Rdrui.obj
+ 0001:0000b0c4       DFSInit                    1000c0c4 f   redir:dfs.obj
+ 0001:0000b0dc       DFSGetReferral             1000c0dc f   redir:dfs.obj
+ 0001:0000b1c4       DFSGetExistingPathMapping  1000c1c4 f   redir:dfs.obj
+ 0001:0000b348       TranslatePath              1000c348 f   redir:dfs.obj
+ 0001:0000b400       DFSTranslateV1ReferralData 1000c400 f   redir:dfs.obj
+ 0001:0000b59c       RtlRandom                  1000c59c f   redir:dfs.obj
+ 0001:0000b614       DFSShuffleGroup            1000c614 f   redir:dfs.obj
+ 0001:0000b674       DfsScrambleEntries         1000c674 f   redir:dfs.obj
+ 0001:0000b6e8       DFSNotifyResourceRemoval   1000c6e8 f   redir:dfs.obj
+ 0001:0000b76c       DfsRotateReferral          1000c76c f   redir:dfs.obj
+ 0001:0000ba6c       DfsConjurePaths            1000ca6c f   redir:dfs.obj
+ 0001:0000bc74       DFSTranslateV2ReferralData 1000cc74 f   redir:dfs.obj
+ 0001:0000bf24       DFSTranslateV3ReferralData 1000cf24 f   redir:dfs.obj
+ 0001:0000c1d4       DFSFindPrefixMapping       1000d1d4 f   redir:dfs.obj
+ 0001:0000c4b8       DFSTranslateReferralData   1000d4b8 f   redir:dfs.obj
+ 0001:0000c4f8       DFSDoPathMapping           1000d4f8 f   redir:dfs.obj
+ 0001:0000c5c0       DFSGetReferralAndConnect   1000d5c0 f   redir:dfs.obj
+ 0001:0000cb8c       DFSInstallMapping          1000db8c f   redir:dfs.obj
+ 0001:0000ceec       DFSWrapperFunction         1000deec f   redir:dfs.obj
+ 0001:0000d1e4       WaitForAPIReadyWrapper     1000e1e4 f i redir:printmon.obj
+ 0001:0000d254       CeCallUserProcWrapper      1000e254 f i redir:printmon.obj
+ 0001:0000d2f0       CallKGetNetString          1000e2f0 f i redir:printmon.obj
+ 0001:0000d3c8       CallGetNetString           1000e3c8 f i redir:printmon.obj
+ 0001:0000d420       PrintMonInit               1000e420 f   redir:printmon.obj
+ 0001:0000d8c4       PrintMonAddJob             1000e8c4 f   redir:printmon.obj
+ 0001:0000da2c       NTCreateXForSetAttributes  1000ea2c f   redir:open.obj
+ 0001:0000da84       CheckAnchor                1000ea84 f   redir:open.obj
+ 0001:0000dde4       ZapMFiles                  1000ede4 f   redir:open.obj
+ 0001:0000de5c       CloseSignalRtn             1000ee5c f   redir:open.obj
+ 0001:0000df3c       InitMaster                 1000ef3c f   redir:open.obj
+ 0001:0000e120       PurgePath                  1000f120 f   redir:open.obj
+ 0001:0000e1c4       CloseMaster                1000f1c4 f   redir:open.obj
+ 0001:0000e570       NetOpen                    1000f570 f   redir:open.obj
+ 0001:0000e82c       CloseAllFiles              1000f82c f   redir:open.obj
+ 0001:0000e910       ?GetSystemTimeZoneBias@@YAJXZ 1000f910 f   redir:RedirConfig.obj
+ 0001:0000e950       ?Instance@RedirConfig_t@@SAPAV1@XZ 1000f950 f   redir:RedirConfig.obj
+ 0001:0000e9cc       ?InitializeRedirConfig@RedirConfig_t@@QAAHXZ 1000f9cc f   redir:RedirConfig.obj
+ 0001:0000eb74       InitializeRedirConfig      1000fb74 f   redir:RedirConfig.obj
+ 0001:0000eb84       RedirConfigIsClearTxtPasswordAllowed 1000fb84 f   redir:RedirConfig.obj
+ 0001:0000eb94       RedirConfigGetSmbSignatureMode 1000fb94 f   redir:RedirConfig.obj
+ 0001:0000eba4       RedirConfigGetServerTimeoutMs 1000fba4 f   redir:RedirConfig.obj
+ 0001:0000ebb4       RedirConfigGetFindCacheMaxSize 1000fbb4 f   redir:RedirConfig.obj
+ 0001:0000ebc4       RedirConfigGetResourceExpiryInt 1000fbc4 f   redir:RedirConfig.obj
+ 0001:0000ebd4       RedirConfigGetReceiveBufferSize 1000fbd4 f   redir:RedirConfig.obj
+ 0001:0000ebe4       RedirConfigRegisterFSRoot  1000fbe4 f   redir:RedirConfig.obj
+ 0001:0000ebf4       RedirConfigGetReceiveThreadPriority 1000fbf4 f   redir:RedirConfig.obj
+ 0001:0000ec04       RedirConfigGetAllowedAuthMethods 1000fc04 f   redir:RedirConfig.obj
+ 0001:0000ec14       RedirConfigGetTimeZoneBias 1000fc14 f   redir:RedirConfig.obj
+ 0001:0000ec24       RedirConfigUpdateTimeZoneBias 1000fc24 f   redir:RedirConfig.obj
+ 0001:0000ec3c       Encrypt                    1000fc3c f   redir:encrypt.obj
+ 0001:0000ec98       PassEncrypt                1000fc98 f   redir:encrypt.obj
+ 0001:0000ed30       XlatePath                  1000fd30 f   redir:xact.obj
+ 0001:0000eeb4       Xact                       1000feb4 f   redir:xact.obj
+ 0001:0000f880       TransactSignalRtn          10010880 f   redir:transact.obj
+ 0001:0000fa50       TransLooker                10010a50 f   redir:transact.obj
+ 0001:0000fb24       Transact                   10010b24 f   redir:transact.obj
+ 0001:00010280       IsValidFilename            10011280 f   redir:find.obj
+ 0001:000105f0       NetFindClose               100115f0 f   redir:find.obj
+ 0001:00010ac4       GetSetFileInfo             10011ac4 f   redir:find.obj
+ 0001:00010cb8       GetNTFileInfo              10011cb8 f   redir:find.obj
+ 0001:00010e6c       NetFindNext                10011e6c f   redir:find.obj
+ 0001:00011014       NetFindOpen                10012014 f   redir:find.obj
+ 0001:000112e0       InitBrowserMSlot           100122e0 f   browser:browser.obj
+ 0001:000112f8       DeInitBrowserMSlot         100122f8 f   browser:browser.obj
+ 0001:0001133c       StartBrowserMSlot          1001233c f   browser:browser.obj
+ 0001:0001147c       StopBrowserMSlot           1001247c f   browser:browser.obj
+ 0001:00011574       NewBackupName              10012574 f   browser:browser.obj
+ 0001:000115f8       WaitForBrowser             100125f8 f   browser:browser.obj
+ 0001:00011620       BrowseProc                 10012620 f   browser:browser.obj
+ 0001:00011b70       SendBrowseMailslot         10012b70 f   browser:srvenum.obj
+ 0001:00011bf0       QueryWorkgroupBrowsemaster 10012bf0 f   browser:srvenum.obj
+ 0001:00011de4       MakeDGramName              10012de4 f   browser:srvenum.obj
+ 0001:00011e74       CallBrowseMaster           10012e74 f   browser:srvenum.obj
+ 0001:00011f1c       RemoteNetServerEnum2       10012f1c f   browser:srvenum.obj
+ 0001:000127e4       ?Rdr_FindFirstChangeNotificationW@@YAPAXPAU__RedirVolumeState@@PAXPBGHK@Z 100137e4 f   rdrapi:fsapi.obj
+ 0001:0001280c       ?Rdr_FindNextChangeNotification@@YAHPAU__RedirVolumeState@@PAX@Z 1001380c f   rdrapi:fsapi.obj
+ 0001:0001283c       ?Rdr_FindCloseChangeNotification@@YAHPAU__RedirVolumeState@@PAX@Z 1001383c f   rdrapi:fsapi.obj
+ 0001:00012844       ?Rdr_CeGetFileNotificationInfo@@YAHPAU__RedirVolumeState@@PAXK1KPAK2@Z 10013844 f   rdrapi:fsapi.obj
+ 0001:00012884       FSAPIDeinit                10013884 f   rdrapi:fsapi.obj
+ 0001:00012a00       Rdr_CreateDirectoryW       10013a00 f   rdrapi:fsapi.obj
+ 0001:00012a38       Rdr_RemoveDirectoryW       10013a38 f   rdrapi:fsapi.obj
+ 0001:00012a70       NtToCEAttributes           10013a70 f   rdrapi:fsapi.obj
+ 0001:00012a80       Rdr_GetFileAttributesW     10013a80 f   rdrapi:fsapi.obj
+ 0001:00012bc0       Rdr_SetFileAttributesW     10013bc0 f   rdrapi:fsapi.obj
+ 0001:00012db4       ?CreateFileHand@@YAPAUfilehand@@PBGKKKKPAK@Z 10013db4 f   rdrapi:fsapi.obj
+ 0001:00013084       Rdr_DeleteFileW            10014084 f   rdrapi:fsapi.obj
+ 0001:00013338       ?SameResource@@YAHPAUParsedPath@@0@Z 10014338 f   rdrapi:fsapi.obj
+ 0001:000133a0       Rdr_MoveFileW              100143a0 f   rdrapi:fsapi.obj
+ 0001:0001355c       Rdr_DeleteAndRenameFileW   1001455c f   rdrapi:fsapi.obj
+ 0001:000135a8       Rdr_GetDiskFreeSpace       100145a8 f   rdrapi:fsapi.obj
+ 0001:00013750       Rdr_CloseFileHandle        10014750 f   rdrapi:fsapi.obj
+ 0001:00013874       Rdr_SetFilePointer         10014874 f   rdrapi:fsapi.obj
+ 0001:00013a6c       ?Rdr_GetFileInformationByHandleInternal@@YAHPAUfilehand@@PAU_BY_HANDLE_FILE_INFORMATION@@@Z 10014a6c f   rdrapi:fsapi.obj
+ 0001:00013b70       Rdr_GetFileTime            10014b70 f   rdrapi:fsapi.obj
+ 0001:00013d18       ?Rdr_SetFileTimeInternal@@YAHPAUfilehand@@PBU_FILETIME@@11@Z 10014d18 f   rdrapi:fsapi.obj
+ 0001:00013e30       Rdr_SetEndOfFile           10014e30 f   rdrapi:fsapi.obj
+ 0001:00013f38       Rdr_GetVolumeInfo          10014f38 f   rdrapi:fsapi.obj
+ 0001:00013f48       Rdr_Notify                 10014f48 f   rdrapi:fsapi.obj
+ 0001:00013f4c       Rdr_Unsupported            10014f4c f   rdrapi:fsapi.obj
+ 0001:00013f60       Rdr_UnsupportedSuccess     10014f60 f   rdrapi:fsapi.obj
+ 0001:00013f68       ?Allocate@?$Buffer_t@VAsyncTraits_t@detail@marshal@ce@@@detail@marshal@ce@@QAAJPAXKK@Z 10014f68 f i rdrapi:fsapi.obj
+ 0001:00013fac       ?Free@?$Buffer_t@VAsyncTraits_t@detail@marshal@ce@@@detail@marshal@ce@@QAAJXZ 10014fac f i rdrapi:fsapi.obj
+ 0001:00013ff0       FSAPIInit                  10014ff0 f   rdrapi:fsapi.obj
+ 0001:0001420c       Rdr_CreateFileW            1001520c f   rdrapi:fsapi.obj
+ 0001:000142c4       Rdr_WriteFile              100152c4 f   rdrapi:fsapi.obj
+ 0001:00014550       Rdr_GetFileSize            10015550 f   rdrapi:fsapi.obj
+ 0001:000145f4       Rdr_GetFileInformationByHandle 100155f4 f   rdrapi:fsapi.obj
+ 0001:00014660       Rdr_SetFileTime            10015660 f   rdrapi:fsapi.obj
+ 0001:0001474c       Rdr_WriteFileWithSeek      1001574c f   rdrapi:fsapi.obj
+ 0001:00014804       ??_E?$Buffer_t@VAsyncTraits_t@detail@marshal@ce@@@detail@marshal@ce@@UAAPAXI@Z 10015804 f i rdrapi:fsapi.obj
+ 0001:00014804       ??_G?$Buffer_t@VAsyncTraits_t@detail@marshal@ce@@@detail@marshal@ce@@UAAPAXI@Z 10015804 f i rdrapi:fsapi.obj
+ 0001:0001483c       Rdr_ReadFile               1001583c f   rdrapi:fsapi.obj
+ 0001:00014ac4       Rdr_ReadFileWithSeek       10015ac4 f   rdrapi:fsapi.obj
+ 0001:00014cf4       Rdr_FindNextFile           10015cf4 f   rdrapi:findapi.obj
+ 0001:00014e1c       Rdr_FindClose              10015e1c f   rdrapi:findapi.obj
+ 0001:00015298       Rdr_FindFirstFileW         10016298 f   rdrapi:findapi.obj
+ 0001:0001546c       WNetAPIDeInit              1001646c f   rdrapi:wnetapi.obj
+ 0001:00015494       RdrWNetAddConnection3W     10016494 f   rdrapi:wnetapi.obj
+ 0001:000154c0       RdrWNetCancelConnection2W  100164c0 f   rdrapi:wnetapi.obj
+ 0001:00015740       RdrWNetGetConnectionW      10016740 f   rdrapi:wnetapi.obj
+ 0001:00015908       RdrWNetGetUniversalNameW   10016908 f   rdrapi:wnetapi.obj
+ 0001:00015910       GetDefaultOrCurrentUser    10016910 f   rdrapi:wnetapi.obj
+ 0001:00015964       RdrWNetGetUserW            10016964 f   rdrapi:wnetapi.obj
+ 0001:00015bec       RdrWNetOpenEnumW           10016bec f   rdrapi:wnetapi.obj
+ 0001:000160c0       RdrWNetCloseEnum           100170c0 f   rdrapi:wnetapi.obj
+ 0001:00016150       RdrWNetUnsupportedVoid     10017150 f   rdrapi:wnetapi.obj
+ 0001:00016154       RdrWNetUnsupported         10017154 f   rdrapi:wnetapi.obj
+ 0001:0001615c       WNetAPIInit                1001715c f   rdrapi:wnetapi.obj
+ 0001:00016608       RdrWNetEnumResourceW       10017608 f   rdrapi:wnetapi.obj
+ 0001:0001689c       PathLastElement            1001789c f   rdrapi:apiutil.obj
+ 0001:000168e4       ParseRemoteName            100178e4 f   rdrapi:apiutil.obj
+ 0001:00016a38       GetIOReq                   10017a38 f   rdrapi:apiutil.obj
+ 0001:00016a68       FreeIOReq                  10017a68 f   rdrapi:apiutil.obj
+ 0001:00016ae0       CreateParsedPath           10017ae0 f   rdrapi:apiutil.obj
+ 0001:00016d20       FreeParsedPath             10017d20 f   rdrapi:apiutil.obj
+ 0001:00016d2c       StripPPathElements         10017d2c f   rdrapi:apiutil.obj
+ 0001:00016dac       StripPPathLastElement      10017dac f   rdrapi:apiutil.obj
+ 0001:00016e00       AddPathElement             10017e00 f   rdrapi:apiutil.obj
+ 0001:00016e68       CopyParsedPath             10017e68 f   rdrapi:apiutil.obj
+ 0001:00016ed0       CreateUNCString            10017ed0 f   rdrapi:apiutil.obj
+ 0001:00016f3c       APIConnectResource         10017f3c f   rdrapi:apiutil.obj
+ 0001:00016f78       DOSTimeToFileTime          10017f78 f   rdrapi:apiutil.obj
+ 0001:00016ff8       GetCurrentSecondsSince1970 10017ff8 f   rdrapi:apiutil.obj
+ 0001:00017078       SecondsSince1970ToFileTime 10018078 f   rdrapi:apiutil.obj
+ 0001:000170ac       AdjustNetTimeToNet         100180ac f   rdrapi:apiutil.obj
+ 0001:000170ec       AdjustNetTimeFromNet       100180ec f   rdrapi:apiutil.obj
+ 0001:0001712c       PPathToStr                 1001812c f   rdrapi:apiutil.obj
+ 0001:00017204       ConnectToIPC               10018204 f   rdrapi:remapi.obj
+ 0001:00017888       RemoteAPIBuilder           10018888 f   rdrapi:remapi.obj
+ 0001:00017e80       RemoteAPIFinish            10018e80 f   rdrapi:remapi.obj
+ 0001:00018040       RedirUserGetGroups         10019040 f   rdrapi:remapi.obj
+ 0001:00018160       NetRemoteAPI               10019160 f   rdrapi:remapi.obj
+ 0001:0001826c       RemoteNetShareEnum         1001926c f   rdrapi:remapi.obj
+ 0001:00018320       RemotePrintJobEnum         10019320 f   rdrapi:remapi.obj
+ 0001:00018408       RemotePrintJobGetInfo      10019408 f   rdrapi:remapi.obj
+ 0001:00018490       RdrFileSystemAPIErrorHandler 10019490 f   rdrapi:ErrorHandler.obj
+ 0001:000184cc       RdrFileAPIErrorHandler     100194cc f   rdrapi:ErrorHandler.obj
+ 0001:000184f4       RdrFindAPIErrorHandler     100194f4 f   rdrapi:ErrorHandler.obj
+ 0001:00018508       RdrWNetAPIErrorHandler     10019508 f   rdrapi:ErrorHandler.obj
+ 0001:0001851c       RdrWNetEnumAPIErrorHandler 1001951c f   rdrapi:ErrorHandler.obj
+ 0001:00018550       OpenEnumInternal           10019550 f   rdrapi:WNetOpenEnum.obj
+ 0001:000186c0       OpenEnum                   100196c0 f   rdrapi:WNetOpenEnum.obj
+ 0001:000188f8       AddConnectedResource       100198f8 f   rdrapi:cres.obj
+ 0001:00018b60       RemoveConnectedResource    10019b60 f   rdrapi:cres.obj
+ 0001:00018c84       GetConnectedResourceByName 10019c84 f   rdrapi:cres.obj
+ 0001:00018d14       DereferenceConnectedResource 10019d14 f   rdrapi:cres.obj
+ 0001:00018db0       CopyConnectedResources     10019db0 f   rdrapi:cres.obj
+ 0001:00018e78       ConnectedResourceInit      10019e78 f   rdrapi:cres.obj
+ 0001:0001908c       CallUConnectionDialog      1001a08c f i rdrapi:WNetConnectionDialogue.obj
+ 0001:000190e8       CallUDisconnectDialog      1001a0e8 f i rdrapi:WNetConnectionDialogue.obj
+ 0001:0001914c       ?CallKConnectionDialog@@YAHPAUHWND__@@PAU_addconnect_dlgparams@@@Z 1001a14c f i rdrapi:WNetConnectionDialogue.obj
+ 0001:000191fc       ?CallKDisconnectDialog@@YAHPAUHWND__@@K@Z 1001a1fc f i rdrapi:WNetConnectionDialogue.obj
+ 0001:000192a0       CallConnectionDialog       1001a2a0 f i rdrapi:WNetConnectionDialogue.obj
+ 0001:000192ec       CallDisconnectDialog       1001a2ec f i rdrapi:WNetConnectionDialogue.obj
+ 0001:00019340       ?CreateDefaultLocalName@@YAXPAGK0@Z 1001a340 f   rdrapi:WNetConnectionDialogue.obj
+ 0001:0001946c       ?ValidateDialogueParameters@@YAKPAU_addconnect_dlgparams@@PAGK@Z 1001a46c f   rdrapi:WNetConnectionDialogue.obj
+ 0001:00019534       ?ConnectionDialogInternal@@YAKPAU_CONNECTDLGSTRUCTW@@PAU_addconnect_dlgparams@@PAG@Z 1001a534 f   rdrapi:WNetConnectionDialogue.obj
+ 0001:00019614       ?DisconnectDialogInternal@@YAKPAU_DISCDLGSTRUCTW@@PAG1@Z 1001a614 f   rdrapi:WNetConnectionDialogue.obj
+ 0001:000196dc       RdrWNetDisconnectDialog    1001a6dc f   rdrapi:WNetConnectionDialogue.obj
+ 0001:00019708       ??$Marshal@PAU_NETRESOURCEW@@@@YAHAAVMarshalledBuffer_t@@PAU_NETRESOURCEW@@KKAAPAU1@@Z 1001a708 f i rdrapi:WNetConnectionDialogue.obj
+ 0001:000197b8       ?ConnectionDialog@@YAKPAU_CONNECTDLGSTRUCTW@@@Z 1001a7b8 f   rdrapi:WNetConnectionDialogue.obj
+ 0001:00019960       ?DisconnectDialog@@YAKPAU_DISCDLGSTRUCTW@@@Z 1001a960 f   rdrapi:WNetConnectionDialogue.obj
+ 0001:00019ac0       RdrWNetConnectionDialog1W  1001aac0 f   rdrapi:WNetConnectionDialogue.obj
+ 0001:00019ac4       RdrWNetDisconnectDialog1W  1001aac4 f   rdrapi:WNetConnectionDialogue.obj
+ 0001:00019ac8       ?IsValidFileName@@YAHPBGK@Z 1001aac8 f   rdrapi:WNetAddConnection.obj
+ 0001:00019b4c       ?AddConnectionShareInternal@@YAKPAUHWND__@@PAG1PBG2H@Z 1001ab4c f   rdrapi:WNetAddConnection.obj
+ 0001:00019d70       AddConnectionShare         1001ad70 f   rdrapi:WNetAddConnection.obj
+ 0001:00019f58       ?SkipNetworkRootPrefix@@YAXAAPAGPBG@Z 1001af58 f   rdrapi:WNetGetUniversalName.obj
+ 0001:00019f98       ?ParseSinglePathElement@@YAXPBGPAGKAAK@Z 1001af98 f   rdrapi:WNetGetUniversalName.obj
+ 0001:0001a000       ?SkipPrefixSeperators@@YAXAAPBG@Z 1001b000 f   rdrapi:WNetGetUniversalName.obj
+ 0001:0001a034       ?HandleResultBuffer@@YAKKAAKKPAXPBUParsedPath@@@Z 1001b034 f   rdrapi:WNetGetUniversalName.obj
+ 0001:0001a200       ?ParsePath@@YAKPBGAAPAUParsedPath@@AAK@Z 1001b200 f   rdrapi:WNetGetUniversalName.obj
+ 0001:0001a440       GetUniversalPathName       1001b440 f   rdrapi:WNetGetUniversalName.obj
+ 0001:0001a688       ??1DatagramListener_t@@IAA@XZ 1001b688 f   rdrnet:DatagramListener.obj
+ 0001:0001a6b8       ?StartDatagramListeners@DatagramListener_t@@QAAHXZ 1001b6b8 f   rdrnet:DatagramListener.obj
+ 0001:0001a6f8       ?StopDatagramListeners@DatagramListener_t@@QAAHXZ 1001b6f8 f   rdrnet:DatagramListener.obj
+ 0001:0001a734       ?Instance@DatagramListener_t@@SAPAV1@XZ 1001b734 f   rdrnet:DatagramListener.obj
+ 0001:0001a780       DatagramListenerInitialize 1001b780 f   rdrnet:DatagramListener.obj
+ 0001:0001a784       DatagramListenerStartListeners 1001b784 f   rdrnet:DatagramListener.obj
+ 0001:0001a7a0       DatagramListenerStopListeners 1001b7a0 f   rdrnet:DatagramListener.obj
+ 0001:0001a7bc       ?CleanUp@DatagramListener_t@@SAXXZ 1001b7bc f   rdrnet:DatagramListener.obj
+ 0001:0001a7f0       DatagramListenerCleanUp    1001b7f0 f   rdrnet:DatagramListener.obj
+ 0001:0001a7f4       InitNet                    1001b7f4 f   rdrnet:net.obj
+ 0001:0001a834       DeInitNet                  1001b834 f   rdrnet:net.obj
+ 0001:0001a878       NetFromLana                1001b878 f   rdrnet:net.obj
+ 0001:0001a8c4       CheckNet                   1001b8c4 f   rdrnet:net.obj
+ 0001:0001a918       StopBrowserOnNet           1001b918 f   rdrnet:net.obj
+ 0001:0001a9cc       StopRedirOnNet             1001b9cc f   rdrnet:net.obj
+ 0001:0001abe0       StopBrowserOnAllNets       1001bbe0 f   rdrnet:net.obj
+ 0001:0001ac34       UnbindFromNet              1001bc34 f   rdrnet:net.obj
+ 0001:0001ad1c       StartRedirOnNet            1001bd1c f   rdrnet:net.obj
+ 0001:0001af84       StartBrowserOnNet          1001bf84 f   rdrnet:net.obj
+ 0001:0001b100       BindToNet                  1001c100 f   rdrnet:net.obj
+ 0001:0001b2ac       UnbindAllNets              1001c2ac f   rdrnet:net.obj
+ 0001:0001b2f4       StartBrowserOnAllNets      1001c2f4 f   rdrnet:net.obj
+ 0001:0001b384       NetUpIndication            1001c384 f   rdrnet:net.obj
+ 0001:0001b388       NetDownIndication          1001c388 f   rdrnet:net.obj
+ 0001:0001b3fc       CreateNetBIOSName          1001c3fc f   rdrnet:netbios.obj
+ 0001:0001b4d0       GetNetbiosNames            1001c4d0 f   rdrnet:netbios.obj
+ 0001:0001b5ac       NetBiosDelegate            1001c5ac f   rdrnet:netbios.obj
+ 0001:0001b620       InitNetBIOS                1001c620 f   rdrnet:netbios.obj
+ 0001:0001b6e8       AddNameNB                  1001c6e8 f   rdrnet:netbios.obj
+ 0001:0001b7a4       DeleteNameNB               1001c7a4 f   rdrnet:netbios.obj
+ 0001:0001b848       CallServerNB               1001c848 f   rdrnet:netbios.obj
+ 0001:0001b914       HangUpAnyNB                1001c914 f   rdrnet:netbios.obj
+ 0001:0001b9ac       HangUpNB                   1001c9ac f   rdrnet:netbios.obj
+ 0001:0001ba88       CancelNB                   1001ca88 f   rdrnet:netbios.obj
+ 0001:0001bb24       SendNetNB                  1001cb24 f   rdrnet:netbios.obj
+ 0001:0001bc30       ReceiveNetNB               1001cc30 f   rdrnet:netbios.obj
+ 0001:0001bcf4       ReceiveNetAnyNB            1001ccf4 f   rdrnet:netbios.obj
+ 0001:0001bdc0       SendDatagramNB             1001cdc0 f   rdrnet:netbios.obj
+ 0001:0001be84       ReceiveDatagramNB          1001ce84 f   rdrnet:netbios.obj
+ 0001:0001bf58       ResolveNameNB              1001cf58 f   rdrnet:netbios.obj
+ 0001:0001c04c       RemoteMailSlotWrite        1001d04c f   rdrnet:netmslot.obj
+ 0001:0001c128       RdrRecvDGThread            1001d128 f   rdrnet:netmslot.obj
+ 0001:0001c2ec       ?ActivateDatagramThread@ReceiveDatagramThread_t@@QAAIPAX@Z 1001d2ec f   rdrnet:ReceiveDatagramThread.obj
+ 0001:0001c320       ?WorkerProc@@YAXPAUCTEEvent@@PAX@Z 1001d320 f   rdrnet:ReceiveDatagramThread.obj
+ 0001:0001c344       ReceiveDatagramThreadActivate 1001d344 f   rdrnet:ReceiveDatagramThread.obj
+ 0001:0001c348       ReceiveDatagramThreadDeActivate 1001d348 f   rdrnet:ReceiveDatagramThread.obj
+ 0001:0001c364       ReceiveDatagramThreadWaitStart 1001d364 f   rdrnet:ReceiveDatagramThread.obj
+ 0001:0001c384       ReceiveDatagramThreadWaitStop 1001d384 f   rdrnet:ReceiveDatagramThread.obj
+ 0001:0001c3a4       ??0ReceiveDatagramThread_t@@QAA@P6AKPAX@Z@Z 1001d3a4 f   rdrnet:ReceiveDatagramThread.obj
+ 0001:0001c404       ReceiveDatagramThreadInitialize 1001d404 f   rdrnet:ReceiveDatagramThread.obj
+ 0001:0001c458       ReceiveDatagramThreadDeInitialize 1001d458 f   rdrnet:ReceiveDatagramThread.obj
+ 0001:0001c484       RdrRecvThread              1001d484 f   rdrnet:recv.obj
+ 0001:0001c960       CalculateLMPasswordHash    1001d960 f   libxy:libxy.obj
+ 0001:0001ca14       CalculateLmOwfPassword     1001da14 f   libxy:owf.obj
+ 0001:0001cb08       MD5Init                    1001db08 f   rsa32:md5c.obj
+ 0001:0001cb4c       TransformMD5               1001db4c f   rsa32:md5c.obj
+ 0001:0001d550       MD5Update                  1001e550 f   rsa32:md5c.obj
+ 0001:0001d660       MD5Final                   1001e660 f   rsa32:md5c.obj
+ 0001:0001d71c       InitKeyLM                  1001e71c f   rsa32:deslm.obj
+ 0001:0001d810       DES_ECB_LM                 1001e810 f   rsa32:deslm.obj
+ 0001:0001d8c0       deskey                     1001e8c0 f   rsa32:deskey.obj
+ 0001:0001db00       desparityonkey             1001eb00 f   rsa32:deskey.obj
+ 0001:0001db54       des                        1001eb54 f   rsa32:desport.obj
+ 0001:0001dfe4       ?StrAllocCopy@@YAHPAPAGPBG@Z 1001efe4 f i fsdnot:fsnotify.obj
+ 0001:0001e040       ?IsValidData@@YAHPAXK@Z    1001f040 f i fsdnot:fsnotify.obj
+ 0001:0001e0a8       ?CreateDirEntry@@YAPAUtagNOTDIRENTRY@@PAGPAX@Z 1001f0a8 f   fsdnot:fsnotify.obj
+ 0001:0001e134       NotifyCreateVolume         1001f134 f   fsdnot:fsnotify.obj
+ 0001:0001e258       ?deleteNOTFILEINFO@@YAXPAUtagNOTEVENTENTRY@@PAPAUtagNOTIFYCOUNT@@PAU2@H@Z 1001f258 f   fsdnot:fsnotify.obj
+ 0001:0001e308       ?DeleteFileInfos@@YAXPAUtagNOTEVENTENTRY@@H@Z 1001f308 f   fsdnot:fsnotify.obj
+ 0001:0001e3a8       ?GetTrailingName@@YAPBGPAUtagNOTDIRENTRY@@PBG@Z 1001f3a8 f   fsdnot:fsnotify.obj
+ 0001:0001e414       ?InsertOrFindDirEntry@@YAPAUtagNOTDIRENTRY@@PAXPBGPAPAGHHPAH@Z 1001f414 f   fsdnot:fsnotify.obj
+ 0001:0001e6a0       NotifyCreateFile           1001f6a0 f   fsdnot:fsnotify.obj
+ 0001:0001e770       ?CheckForCleanup@@YAXPAUtagNOTVOLENTRY@@PAUtagNOTDIRENTRY@@@Z 1001f770 f   fsdnot:fsnotify.obj
+ 0001:0001e820       NotifyCloseEvent           1001f820 f   fsdnot:fsnotify.obj
+ 0001:0001e8dc       ?AddFileToEvent@@YAXPAUtagNOTEVENTENTRY@@PBGKK@Z 1001f8dc f   fsdnot:fsnotify.obj
+ 0001:0001eac0       ?CheckEventOnPath@@YAXPAUtagNOTEVENTENTRY@@HHPBUFileEvent@@@Z 1001fac0 f   fsdnot:fsnotify.obj
+ 0001:0001eb4c       ?CheckDeleteEventOnTree@@YAXPAUtagNOTDIRENTRY@@HKK@Z 1001fb4c f   fsdnot:fsnotify.obj
+ 0001:0001ebc4       NotifyPathChange           1001fbc4 f   fsdnot:fsnotify.obj
+ 0001:0001ee94       ?GetFileNameOffset@@YAHPBG@Z 1001fe94 f   fsdnot:fsnotify.obj
+ 0001:0001eec8       NotifyMoveFileEx           1001fec8 f   fsdnot:fsnotify.obj
+ 0001:0001ef90       NotifyReset                1001ff90 f   fsdnot:fsnotify.obj
+ 0001:0001f300       ?CheckEventOnHandle@@YAXPAUtagNOTEVENTENTRY@@KHPBUFileEvent@@@Z 10020300 f   fsdnot:fsnotify.obj
+ 0001:0001f374       ?BuildPath@@YAPAGPAUtagNOTDIRENTRY@@PBG@Z 10020374 f   fsdnot:fsnotify.obj
+ 0001:0001f44c       ?NotifyHandleChangeEx@@YAXPAX0KK@Z 1002044c f   fsdnot:fsnotify.obj
+ 0001:0001f628       NotifyHandleChange         10020628 f   fsdnot:fsnotify.obj
+ 0001:0001f638       NotifyGetNextChange        10020638 f   fsdnot:fsnotify.obj
+ 0001:0001f7d8       NotifyCloseChangeHandle    100207d8 f   fsdnot:fsnotify.obj
+ 0001:0001f884       NotifyCreateEvent          10020884 f   fsdnot:fsnotify.obj
+ 0001:0001fa80       NotifyCloseHandle          10020a80 f   fsdnot:fsnotify.obj
+ 0001:0001fb70       CTEStartTimer              10020b70 f   cxport:CXPORT.dll
+ 0001:0001fb80       CTEGetTimerState           10020b80 f   cxport:CXPORT.dll
+ 0001:0001fb90       CTEStopTimer               10020b90 f   cxport:CXPORT.dll
+ 0001:0001fba0       CTEInitTimer               10020ba0 f   cxport:CXPORT.dll
+ 0001:0001fbb0       GetRegDWORDValue           10020bb0 f   cxport:CXPORT.dll
+ 0001:0001fbc0       CTEScheduleEvent           10020bc0 f   cxport:CXPORT.dll
+ 0001:0001fbd0       CTEInitEvent               10020bd0 f   cxport:CXPORT.dll
+ 0001:0001fbe0       BCryptGenRandom            10020be0 f   bcrypt:bcrypt.dll
+ 0001:0001fbf0       FreeLibrary                10020bf0 f   coredll:COREDLL.dll
+ 0001:0001fc00       SetLastError               10020c00 f   coredll:COREDLL.dll
+ 0001:0001fc10       DisableThreadLibraryCalls  10020c10 f   coredll:COREDLL.dll
+ 0001:0001fc20       GetProcAddressW            10020c20 f   coredll:COREDLL.dll
+ 0001:0001fc30       LoadLibraryW               10020c30 f   coredll:COREDLL.dll
+ 0001:0001fc40       LeaveCriticalSection       10020c40 f   coredll:COREDLL.dll
+ 0001:0001fc50       GetTickCount               10020c50 f   coredll:COREDLL.dll
+ 0001:0001fc60       InterlockedIncrement       10020c60 f   coredll:COREDLL.dll
+ 0001:0001fc70       EnterCriticalSection       10020c70 f   coredll:COREDLL.dll
+ 0001:0001fc80       InitializeCriticalSection  10020c80 f   coredll:COREDLL.dll
+ 0001:0001fc90       CreateEventW               10020c90 f   coredll:COREDLL.dll
+ 0001:0001fca0       MultiByteToWideChar        10020ca0 f   coredll:COREDLL.dll
+ 0001:0001fcb0       StringCbCatNW              10020cb0 f   coredll:COREDLL.dll
+ 0001:0001fcc0       CredFree                   10020cc0 f   coredll:COREDLL.dll
+ 0001:0001fcd0       CredRead                   10020cd0 f   coredll:COREDLL.dll
+ 0001:0001fce0       CredWrite                  10020ce0 f   coredll:COREDLL.dll
+ 0001:0001fcf0       wsprintfW                  10020cf0 f   coredll:COREDLL.dll
+ 0001:0001fd00       InterlockedDecrement       10020d00 f   coredll:COREDLL.dll
+ 0001:0001fd10       DeleteCriticalSection      10020d10 f   coredll:COREDLL.dll
+ 0001:0001fd20       CloseHandle                10020d20 f   coredll:COREDLL.dll
+ 0001:0001fd30       Sleep                      10020d30 f   coredll:COREDLL.dll
+ 0001:0001fd40       GetLastError               10020d40 f   coredll:COREDLL.dll
+ 0001:0001fd50       WideCharToMultiByte        10020d50 f   coredll:COREDLL.dll
+ 0001:0001fd60       EventModify                10020d60 f   coredll:COREDLL.dll
+ 0001:0001fd70       WaitForSingleObject        10020d70 f   coredll:COREDLL.dll
+ 0001:0001fd80       LocalFree                  10020d80 f   coredll:COREDLL.dll
+ 0001:0001fd90       LocalSize                  10020d90 f   coredll:COREDLL.dll
+ 0001:0001fda0       LocalAlloc                 10020da0 f   coredll:COREDLL.dll
+ 0001:0001fdb0       __GetUserKData             10020db0 f   coredll:COREDLL.dll
+ 0001:0001fdc0       CeCloseCallerBuffer        10020dc0 f   coredll:COREDLL.dll
+ 0001:0001fdd0       CeFreeAsynchronousBuffer   10020dd0 f   coredll:COREDLL.dll
+ 0001:0001fde0       RegCloseKey                10020de0 f   coredll:COREDLL.dll
+ 0001:0001fdf0       RegQueryValueExW           10020df0 f   coredll:COREDLL.dll
+ 0001:0001fe00       RegOpenKeyExW              10020e00 f   coredll:COREDLL.dll
+ 0001:0001fe10       CeAllocAsynchronousBuffer  10020e10 f   coredll:COREDLL.dll
+ 0001:0001fe20       CeOpenCallerBuffer         10020e20 f   coredll:COREDLL.dll
+ 0001:0001fe30       StringCchCopyNA            10020e30 f   coredll:COREDLL.dll
+ 0001:0001fe40       GetDirectCallerProcessId   10020e40 f   coredll:COREDLL.dll
+ 0001:0001fe50       WaitForAPIReady            10020e50 f   coredll:COREDLL.dll
+ 0001:0001fe60       FormatMessageW             10020e60 f   coredll:COREDLL.dll
+ 0001:0001fe70       CreateThread               10020e70 f   coredll:COREDLL.dll
+ 0001:0001fe80       GetTimeZoneInformation     10020e80 f   coredll:COREDLL.dll
+ 0001:0001fe90       StringCchLengthA           10020e90 f   coredll:COREDLL.dll
+ 0001:0001fea0       DeregisterAFS              10020ea0 f   coredll:COREDLL.dll
+ 0001:0001feb0       DeleteFileW                10020eb0 f   coredll:COREDLL.dll
+ 0001:0001fec0       SetFileAttributesW         10020ec0 f   coredll:COREDLL.dll
+ 0001:0001fed0       SetFileTime                10020ed0 f   coredll:COREDLL.dll
+ 0001:0001fee0       GetFileTime                10020ee0 f   coredll:COREDLL.dll
+ 0001:0001fef0       WriteFile                  10020ef0 f   coredll:COREDLL.dll
+ 0001:0001ff00       ReadFile                   10020f00 f   coredll:COREDLL.dll
+ 0001:0001ff10       CreateFileW                10020f10 f   coredll:COREDLL.dll
+ 0001:0001ff20       GetFileAttributesW         10020f20 f   coredll:COREDLL.dll
+ 0001:0001ff30       GetFileAttributesExW       10020f30 f   coredll:COREDLL.dll
+ 0001:0001ff40       CeSafeCopyMemory           10020f40 f   coredll:COREDLL.dll
+ 0001:0001ff50       CeOidGetInfo               10020f50 f   coredll:COREDLL.dll
+ 0001:0001ff60       RegisterAFSEx              10020f60 f   coredll:COREDLL.dll
+ 0001:0001ff70       SetAPIErrorHandler         10020f70 f   coredll:COREDLL.dll
+ 0001:0001ff80       RegisterAPISet             10020f80 f   coredll:COREDLL.dll
+ 0001:0001ff90       RegisterDirectMethods      10020f90 f   coredll:COREDLL.dll
+ 0001:0001ffa0       CreateAPISet               10020fa0 f   coredll:COREDLL.dll
+ 0001:0001ffb0       CreateAPIHandle            10020fb0 f   coredll:COREDLL.dll
+ 0001:0001ffc0       UnlockPages                10020fc0 f   coredll:COREDLL.dll
+ 0001:0001ffd0       LockPages                  10020fd0 f   coredll:COREDLL.dll
+ 0001:0001ffe0       SystemTimeToFileTime       10020fe0 f   coredll:COREDLL.dll
+ 0001:0001fff0       GetSystemTime              10020ff0 f   coredll:COREDLL.dll
+ 0001:00020000       WNetEnumResourceW          10021000 f   coredll:COREDLL.dll
+ 0001:00020010       WNetCloseEnum              10021010 f   coredll:COREDLL.dll
+ 0001:00020020       StringCchCopyW             10021020 f   coredll:COREDLL.dll
+ 0001:00020030       DuplicateHandle            10021030 f   coredll:COREDLL.dll
+ 0001:00020040       GetCallerVMProcessId       10021040 f   coredll:COREDLL.dll
+ 0001:00020050       RegSetValueExW             10021050 f   coredll:COREDLL.dll
+ 0001:00020060       RegCreateKeyExW            10021060 f   coredll:COREDLL.dll
+ 0001:00020070       RegDeleteKeyW              10021070 f   coredll:COREDLL.dll
+ 0001:00020080       RegEnumKeyExW              10021080 f   coredll:COREDLL.dll
+ 0001:00020090       StringCchPrintfW           10021090 f   coredll:COREDLL.dll
+ 0001:000200a0       WNetAddConnection3W        100210a0 f   coredll:COREDLL.dll
+ 0001:000200b0       WNetCancelConnection2W     100210b0 f   coredll:COREDLL.dll
+ 0001:000200c0       CeSetThreadPriority        100210c0 f   coredll:COREDLL.dll
+ 0001:000200d0       DirectHandleCall           100210d0 f   coredll:COREDLL.dll
+ 0001:000200e0       GetEventData               100210e0 f   coredll:COREDLL.dll
+ 0001:000200f0       SetEventData               100210f0 f   coredll:COREDLL.dll
+ 0001:00020100       _DllEntryCRTStartup        10021100 f   corelib0:pegdentry.obj
+ 0001:00020144       __GSHandlerCheckCommon     10021144 f   corelib0:gshandler.obj
+ 0001:00020180       __GSHandlerCheck           10021180 f   corelib0:gshandler.obj
+ 0001:000201a0       __security_init_cookie     100211a0 f   corelib0:seccinit.obj
+ 0001:000201ec       __security_check_cookie    100211ec f   corelib0:armsecgs.obj
+ 0001:000201fc       __gsfailure                100211fc     corelib0:armsecgs.obj
+ 0001:00020240       __GSHandlerCheck_SEH       10021240 f   corelib0:gshandlerseh.obj
+ 0001:00020374       _cexit                     10021374 f   corelib0:cexit.obj
+ 0001:00020384       _initterm                  10021384 f   corelib0:crt0dat.obj
+ 0001:000203b0       _cinit                     100213b0 f   corelib0:crt0dat.obj
+ 0001:00020410       __crt_ExitProcess          10021410 f   corelib0:exitproc_proxy.obj
+ 0001:0002041c       __C_specific_handler       1002141c f   corelib1:COREDLL.dll
+ 0001:0002042c       wcscpy                     1002142c f   corelib1:COREDLL.dll
+ 0001:0002043c       wcslen                     1002143c f   corelib1:COREDLL.dll
+ 0001:0002044c       wcscmp                     1002144c f   corelib1:COREDLL.dll
+ 0001:0002045c       _strupr                    1002145c f   corelib1:COREDLL.dll
+ 0001:0002046c       wcstombs                   1002146c f   corelib1:COREDLL.dll
+ 0001:0002047c       strlen                     1002147c f   corelib1:COREDLL.dll
+ 0001:0002048c       wcsncpy                    1002148c f   corelib1:COREDLL.dll
+ 0001:0002049c       memset                     1002149c f   corelib1:COREDLL.dll
+ 0001:000204ac       memcpy                     100214ac f   corelib1:COREDLL.dll
+ 0001:000204bc       wcscat                     100214bc f   corelib1:COREDLL.dll
+ 0001:000204cc       _wcsupr                    100214cc f   corelib1:COREDLL.dll
+ 0001:000204dc       _wcsicmp                   100214dc f   corelib1:COREDLL.dll
+ 0001:000204ec       _wcsnicmp                  100214ec f   corelib1:COREDLL.dll
+ 0001:000204fc       wcschr                     100214fc f   corelib1:COREDLL.dll
+ 0001:0002050c       strcpy                     1002150c f   corelib1:COREDLL.dll
+ 0001:0002051c       memcmp                     1002151c f   corelib1:COREDLL.dll
+ 0001:0002052c       wcsncmp                    1002152c f   corelib1:COREDLL.dll
+ 0001:0002053c       strncpy                    1002153c f   corelib1:COREDLL.dll
+ 0001:0002054c       _stricmp                   1002154c f   corelib1:COREDLL.dll
+ 0001:0002055c       __rt_udiv                  1002155c f   corelib1:COREDLL.dll
+ 0001:0002056c       ??2@YAPAXI@Z               1002156c f   corelib1:COREDLL.dll
+ 0001:0002057c       ??3@YAXPAX@Z               1002157c f   corelib1:COREDLL.dll
+ 0001:0002058c       strcat                     1002158c f   corelib1:COREDLL.dll
+ 0001:0002059c       strcmp                     1002159c f   corelib1:COREDLL.dll
+ 0001:000205ac       __rt_sdiv                  100215ac f   corelib1:COREDLL.dll
+ 0001:000205bc       strchr                     100215bc f   corelib1:COREDLL.dll
+ 0001:000205cc       memmove                    100215cc f   corelib1:COREDLL.dll
+ 0001:000205dc       __rt_sdiv64by64            100215dc f   corelib1:COREDLL.dll
+ 0001:000205ec       _itoa                      100215ec f   corelib1:COREDLL.dll
+ 0001:000205fc       wcscpy_s                   100215fc f   corelib1:COREDLL.dll
+ 0001:0002060c       __security_gen_cookie2     1002160c f   corelib1:COREDLL.dll
+ 0001:0002061c       __report_gsfailure         1002161c f   corelib1:COREDLL.dll
+ 0001:0002062c       free                       1002162c f   corelib1:COREDLL.dll
+ 0001:0002063c       NetDir                     1002163c f   redir:miscfunc.obj
+ 0001:000206a8       NetDelete                  100216a8 f   redir:miscfunc.obj
+ 0001:000206fc       NetRename                  100216fc f   redir:miscfunc.obj
+ 0001:0002075c       NetFileAttributes          1002175c f   redir:miscfunc.obj
+ 0001:00020964       NetGetDiskFreeSpace        10021964 f   redir:miscfunc.obj
+ 0001:000209f4       NetFileTime                100219f4 f   redir:miscfunc.obj
+ 0001:00020b70       NetFileInfoByHandle        10021b70 f   redir:miscfunc.obj
+ 0001:00020c08       NetClose                   10021c08 f   redir:close.obj
+ 0001:00020c6c       FileWrite                  10021c6c f   redir:write.obj
+ 0001:00020e00       NetSeek                    10021e00 f   redir:seek.obj
+ 0001:00020e78       FileRead                   10021e78 f   redir:read.obj
+ 0001:00020f4c       SafeNewString              10021f4c f   redir:RedirSafeStrings.obj
+ 0001:00021048       LookAhead                  10022048 f   redir:recv_rsp.obj
+ 0001:00021dd8       InterlockedExchange        10022dd8 f   coredll:COREDLL.dll
+ 0001:00021de8       TerminateProcess           10022de8 f   coredll:COREDLL.dll
+ 0001:00022158       __IMPORT_DESCRIPTOR_CXPORT 10023158     cxport:CXPORT.dll
+ 0001:0002216c       __IMPORT_DESCRIPTOR_bcrypt 1002316c     bcrypt:bcrypt.dll
+ 0001:00022180       __IMPORT_DESCRIPTOR_COREDLL 10023180     coredll:COREDLL.dll
+ 0001:00022194       __NULL_IMPORT_DESCRIPTOR   10023194     cxport:CXPORT.dll
+ 0002:00000000       __imp_RegisterAPISet       10024000     coredll:COREDLL.dll
+ 0002:00000004       __imp_TerminateProcess     10024004     coredll:COREDLL.dll
+ 0002:00000008       __imp_InterlockedExchange  10024008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_free                 1002400c     corelib1:COREDLL.dll
+ 0002:00000010       __imp___report_gsfailure   10024010     corelib1:COREDLL.dll
+ 0002:00000014       __imp___security_gen_cookie2 10024014     corelib1:COREDLL.dll
+ 0002:00000018       __imp_FreeLibrary          10024018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_SetLastError         1002401c     coredll:COREDLL.dll
+ 0002:00000020       __imp_DisableThreadLibraryCalls 10024020     coredll:COREDLL.dll
+ 0002:00000024       __imp_GetProcAddressW      10024024     coredll:COREDLL.dll
+ 0002:00000028       __imp_LoadLibraryW         10024028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_LeaveCriticalSection 1002402c     coredll:COREDLL.dll
+ 0002:00000030       __imp_GetTickCount         10024030     coredll:COREDLL.dll
+ 0002:00000034       __imp_InterlockedIncrement 10024034     coredll:COREDLL.dll
+ 0002:00000038       __imp_EnterCriticalSection 10024038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_InitializeCriticalSection 1002403c     coredll:COREDLL.dll
+ 0002:00000040       __imp_CreateEventW         10024040     coredll:COREDLL.dll
+ 0002:00000044       __imp_MultiByteToWideChar  10024044     coredll:COREDLL.dll
+ 0002:00000048       __imp_StringCbCatNW        10024048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_CredFree             1002404c     coredll:COREDLL.dll
+ 0002:00000050       __imp_CredRead             10024050     coredll:COREDLL.dll
+ 0002:00000054       __imp_CredWrite            10024054     coredll:COREDLL.dll
+ 0002:00000058       __imp_wsprintfW            10024058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_InterlockedDecrement 1002405c     coredll:COREDLL.dll
+ 0002:00000060       __imp_DeleteCriticalSection 10024060     coredll:COREDLL.dll
+ 0002:00000064       __imp_CloseHandle          10024064     coredll:COREDLL.dll
+ 0002:00000068       __imp_Sleep                10024068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_GetLastError         1002406c     coredll:COREDLL.dll
+ 0002:00000070       __imp_WideCharToMultiByte  10024070     coredll:COREDLL.dll
+ 0002:00000074       __imp_EventModify          10024074     coredll:COREDLL.dll
+ 0002:00000078       __imp_WaitForSingleObject  10024078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_LocalFree            1002407c     coredll:COREDLL.dll
+ 0002:00000080       __imp_LocalSize            10024080     coredll:COREDLL.dll
+ 0002:00000084       __imp_LocalAlloc           10024084     coredll:COREDLL.dll
+ 0002:00000088       __imp___GetUserKData       10024088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_CeCloseCallerBuffer  1002408c     coredll:COREDLL.dll
+ 0002:00000090       __imp_CeFreeAsynchronousBuffer 10024090     coredll:COREDLL.dll
+ 0002:00000094       __imp_RegCloseKey          10024094     coredll:COREDLL.dll
+ 0002:00000098       __imp_RegQueryValueExW     10024098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_RegOpenKeyExW        1002409c     coredll:COREDLL.dll
+ 0002:000000a0       __imp_CeAllocAsynchronousBuffer 100240a0     coredll:COREDLL.dll
+ 0002:000000a4       __imp_CeOpenCallerBuffer   100240a4     coredll:COREDLL.dll
+ 0002:000000a8       __imp_StringCchCopyNA      100240a8     coredll:COREDLL.dll
+ 0002:000000ac       __imp_GetDirectCallerProcessId 100240ac     coredll:COREDLL.dll
+ 0002:000000b0       __imp_WaitForAPIReady      100240b0     coredll:COREDLL.dll
+ 0002:000000b4       __imp_FormatMessageW       100240b4     coredll:COREDLL.dll
+ 0002:000000b8       __imp_CreateThread         100240b8     coredll:COREDLL.dll
+ 0002:000000bc       __imp_GetTimeZoneInformation 100240bc     coredll:COREDLL.dll
+ 0002:000000c0       __imp_StringCchLengthA     100240c0     coredll:COREDLL.dll
+ 0002:000000c4       __imp_DeregisterAFS        100240c4     coredll:COREDLL.dll
+ 0002:000000c8       __imp_DeleteFileW          100240c8     coredll:COREDLL.dll
+ 0002:000000cc       __imp_SetFileAttributesW   100240cc     coredll:COREDLL.dll
+ 0002:000000d0       __imp_SetFileTime          100240d0     coredll:COREDLL.dll
+ 0002:000000d4       __imp_GetFileTime          100240d4     coredll:COREDLL.dll
+ 0002:000000d8       __imp_WriteFile            100240d8     coredll:COREDLL.dll
+ 0002:000000dc       __imp_ReadFile             100240dc     coredll:COREDLL.dll
+ 0002:000000e0       __imp_CreateFileW          100240e0     coredll:COREDLL.dll
+ 0002:000000e4       __imp_GetFileAttributesW   100240e4     coredll:COREDLL.dll
+ 0002:000000e8       __imp_GetFileAttributesExW 100240e8     coredll:COREDLL.dll
+ 0002:000000ec       __imp_CeSafeCopyMemory     100240ec     coredll:COREDLL.dll
+ 0002:000000f0       __imp_CeOidGetInfo         100240f0     coredll:COREDLL.dll
+ 0002:000000f4       __imp_RegisterAFSEx        100240f4     coredll:COREDLL.dll
+ 0002:000000f8       __imp_SetAPIErrorHandler   100240f8     coredll:COREDLL.dll
+ 0002:000000fc       __imp_RegisterDirectMethods 100240fc     coredll:COREDLL.dll
+ 0002:00000100       __imp_CreateAPISet         10024100     coredll:COREDLL.dll
+ 0002:00000104       __imp_CreateAPIHandle      10024104     coredll:COREDLL.dll
+ 0002:00000108       __imp_UnlockPages          10024108     coredll:COREDLL.dll
+ 0002:0000010c       __imp_LockPages            1002410c     coredll:COREDLL.dll
+ 0002:00000110       __imp_SystemTimeToFileTime 10024110     coredll:COREDLL.dll
+ 0002:00000114       __imp_GetSystemTime        10024114     coredll:COREDLL.dll
+ 0002:00000118       __imp_WNetEnumResourceW    10024118     coredll:COREDLL.dll
+ 0002:0000011c       __imp_WNetCloseEnum        1002411c     coredll:COREDLL.dll
+ 0002:00000120       __imp_StringCchCopyW       10024120     coredll:COREDLL.dll
+ 0002:00000124       __imp_DuplicateHandle      10024124     coredll:COREDLL.dll
+ 0002:00000128       __imp_GetCallerVMProcessId 10024128     coredll:COREDLL.dll
+ 0002:0000012c       __imp_RegSetValueExW       1002412c     coredll:COREDLL.dll
+ 0002:00000130       __imp_RegCreateKeyExW      10024130     coredll:COREDLL.dll
+ 0002:00000134       __imp_RegDeleteKeyW        10024134     coredll:COREDLL.dll
+ 0002:00000138       __imp_RegEnumKeyExW        10024138     coredll:COREDLL.dll
+ 0002:0000013c       __imp_StringCchPrintfW     1002413c     coredll:COREDLL.dll
+ 0002:00000140       __imp_WNetAddConnection3W  10024140     coredll:COREDLL.dll
+ 0002:00000144       __imp_WNetCancelConnection2W 10024144     coredll:COREDLL.dll
+ 0002:00000148       __imp_CeSetThreadPriority  10024148     coredll:COREDLL.dll
+ 0002:0000014c       __imp_DirectHandleCall     1002414c     coredll:COREDLL.dll
+ 0002:00000150       __imp_GetEventData         10024150     coredll:COREDLL.dll
+ 0002:00000154       __imp_SetEventData         10024154     coredll:COREDLL.dll
+ 0002:00000158       __imp___C_specific_handler 10024158     corelib1:COREDLL.dll
+ 0002:0000015c       __imp_wcscpy               1002415c     corelib1:COREDLL.dll
+ 0002:00000160       __imp_wcslen               10024160     corelib1:COREDLL.dll
+ 0002:00000164       __imp_wcscmp               10024164     corelib1:COREDLL.dll
+ 0002:00000168       __imp__strupr              10024168     corelib1:COREDLL.dll
+ 0002:0000016c       __imp_wcstombs             1002416c     corelib1:COREDLL.dll
+ 0002:00000170       __imp_strlen               10024170     corelib1:COREDLL.dll
+ 0002:00000174       __imp_wcsncpy              10024174     corelib1:COREDLL.dll
+ 0002:00000178       __imp_memset               10024178     corelib1:COREDLL.dll
+ 0002:0000017c       __imp_memcpy               1002417c     corelib1:COREDLL.dll
+ 0002:00000180       __imp_wcscat               10024180     corelib1:COREDLL.dll
+ 0002:00000184       __imp__wcsupr              10024184     corelib1:COREDLL.dll
+ 0002:00000188       __imp__wcsicmp             10024188     corelib1:COREDLL.dll
+ 0002:0000018c       __imp__wcsnicmp            1002418c     corelib1:COREDLL.dll
+ 0002:00000190       __imp_wcschr               10024190     corelib1:COREDLL.dll
+ 0002:00000194       __imp_strcpy               10024194     corelib1:COREDLL.dll
+ 0002:00000198       __imp_memcmp               10024198     corelib1:COREDLL.dll
+ 0002:0000019c       __imp_wcsncmp              1002419c     corelib1:COREDLL.dll
+ 0002:000001a0       __imp_strncpy              100241a0     corelib1:COREDLL.dll
+ 0002:000001a4       __imp__stricmp             100241a4     corelib1:COREDLL.dll
+ 0002:000001a8       __imp___rt_udiv            100241a8     corelib1:COREDLL.dll
+ 0002:000001ac       __imp_??2@YAPAXI@Z         100241ac     corelib1:COREDLL.dll
+ 0002:000001b0       __imp_??3@YAXPAX@Z         100241b0     corelib1:COREDLL.dll
+ 0002:000001b4       __imp_strcat               100241b4     corelib1:COREDLL.dll
+ 0002:000001b8       __imp_strcmp               100241b8     corelib1:COREDLL.dll
+ 0002:000001bc       __imp___rt_sdiv            100241bc     corelib1:COREDLL.dll
+ 0002:000001c0       __imp_strchr               100241c0     corelib1:COREDLL.dll
+ 0002:000001c4       __imp_memmove              100241c4     corelib1:COREDLL.dll
+ 0002:000001c8       __imp___rt_sdiv64by64      100241c8     corelib1:COREDLL.dll
+ 0002:000001cc       __imp__itoa                100241cc     corelib1:COREDLL.dll
+ 0002:000001d0       __imp_wcscpy_s             100241d0     corelib1:COREDLL.dll
+ 0002:000001d4       \177COREDLL_NULL_THUNK_DATA 100241d4     coredll:COREDLL.dll
+ 0002:000001d8       __imp_GetRegDWORDValue     100241d8     cxport:CXPORT.dll
+ 0002:000001dc       __imp_CTEGetTimerState     100241dc     cxport:CXPORT.dll
+ 0002:000001e0       __imp_CTEInitEvent         100241e0     cxport:CXPORT.dll
+ 0002:000001e4       __imp_CTEScheduleEvent     100241e4     cxport:CXPORT.dll
+ 0002:000001e8       __imp_CTEStartTimer        100241e8     cxport:CXPORT.dll
+ 0002:000001ec       __imp_CTEInitTimer         100241ec     cxport:CXPORT.dll
+ 0002:000001f0       __imp_CTEStopTimer         100241f0     cxport:CXPORT.dll
+ 0002:000001f4       \177CXPORT_NULL_THUNK_DATA 100241f4     cxport:CXPORT.dll
+ 0002:000001f8       __imp_BCryptGenRandom      100241f8     bcrypt:bcrypt.dll
+ 0002:000001fc       \177bcrypt_NULL_THUNK_DATA 100241fc     bcrypt:bcrypt.dll
+ 0002:00000200       FSTypes                    10024200     redir:resource.obj
+ 0002:00000234       defaultUsername            10024234     redir:resource.obj
+ 0002:00000238       defaultPassword            10024238     redir:resource.obj
+ 0002:00000240       RdrMemtypes                10024240     redir:rdrmem.obj
+ 0002:00000320       fUseRdrUI                  10024320     redir:Rdrui.obj
+ 0002:00000328       PathMapDatabase            10024328     redir:dfs.obj
+ 0002:00000330       V                          10024330     redir:dfs.obj
+ 0002:00000530       NoConflict                 10024530     redir:open.obj
+ 0002:00000538       ?REDIR_REG_KEY@@3PAGA      10024538     redir:RedirConfig.obj
+ 0002:0000053c       REDIR_DEVICE_KEY           1002453c     redir:RedirConfig.obj
+ 0002:00000540       ?REDIR_CLEARTEXT_PWD_VAL@@3PAGA 10024540     redir:RedirConfig.obj
+ 0002:00000544       ?REDIR_SIGN_MODE_VAL@@3PAGA 10024544     redir:RedirConfig.obj
+ 0002:00000548       ?REDIR_SERVER_TIMEOUT_VAL@@3PAGA 10024548     redir:RedirConfig.obj
+ 0002:0000054c       ?REDIR_FCACHE_MAXSIZE_VAL@@3PAGA 1002454c     redir:RedirConfig.obj
+ 0002:00000550       ?REDIR_RESOURCE_EXPIRY_VAL@@3PAGA 10024550     redir:RedirConfig.obj
+ 0002:00000554       ?REDIR_RECV_BUFSIZE_VAL@@3PAGA 10024554     redir:RedirConfig.obj
+ 0002:00000558       ?REDIR_REGISTERFSROOT_VAL@@3PAGA 10024558     redir:RedirConfig.obj
+ 0002:0000055c       ?REDIR_RECVTHREADPRIO_VAL@@3PAGA 1002455c     redir:RedirConfig.obj
+ 0002:00000560       ?REDIR_AUTHMETHOD_VAL@@3PAGA 10024560     redir:RedirConfig.obj
+ 0002:00000564       BNThresh                   10024564     browser:browser.obj
+ 0002:00000568       mse                        10024568     browser:srvenum.obj
+ 0002:00000588       msg                        10024588     browser:srvenum.obj
+ 0002:00000594       rnse2                      10024594     browser:srvenum.obj
+ 0002:0000059c       rsi0                       1002459c     browser:srvenum.obj
+ 0002:000005a0       rsi1                       100245a0     browser:srvenum.obj
+ 0002:000005a8       ssiz                       100245a8     browser:srvenum.obj
+ 0002:000005b0       ?gDefaultMountName@@3PBGB  100245b0     rdrapi:fsapi.obj
+ 0002:000005b4       ?gMountRegistryKeyName@@3PBGB 100245b4     rdrapi:fsapi.obj
+ 0002:000005b8       RdrFSAPIMethodNames        100245b8     rdrapi:ErrorHandler.obj
+ 0002:0000060c       RdrFindAPIMethodNames      1002460c     rdrapi:ErrorHandler.obj
+ 0002:00000618       RdrFileAPIMethodNames      10024618     rdrapi:ErrorHandler.obj
+ 0002:00000658       WNetMethodNames            10024658     rdrapi:ErrorHandler.obj
+ 0002:00000680       WNetEnumMethodNames        10024680     rdrapi:ErrorHandler.obj
+ 0002:0000068c       NBNameTab                  1002468c     rdrnet:netbios.obj
+ 0002:000006b4       __security_cookie          100246b4     corelib0:seccinit.obj
+ 0002:000006b8       __security_cookie_complement 100246b8     corelib0:seccinit.obj
+ 0002:000006c4       stat_NumSessions           100246c4     redir:Init.obj
+ 0002:000006c8       stat_NumOpenFiles          100246c8     redir:Init.obj
+ 0002:000006cc       stat_NumRes                100246cc     redir:Init.obj
+ 0002:000006d0       v_hAutorasDll              100246d0     redir:Init.obj
+ 0002:000006d4       v_pfnAutoras_Dial          100246d4     redir:Init.obj
+ 0002:00000bac       g_pNetlogonDomainInfo      10024bac     redir:Passthru.obj
+ 0002:00000bb0       CurrentUser                10024bb0     redir:Passthru.obj
+ 0002:00001004       g_pDomainList              10025004     redir:Passthru.obj
+ 0002:00001008       Users                      10025008     redir:Passthru.obj
+ 0002:00001020       g_pSecReqList              10025020     redir:Passthru.obj
+ 0002:0000104c       fRdrUIReady                1002504c     redir:Rdrui.obj
+ 0002:00001050       fStopRdrUI                 10025050     redir:Rdrui.obj
+ 0002:0000106c       GlobalServerPath           1002506c     redir:dfs.obj
+ 0002:000010bc       NextClose                  100250bc     redir:open.obj
+ 0002:000010c0       ?m_Instance@RedirConfig_t@@0PAV1@A 100250c0     redir:RedirConfig.obj
+ 0002:000010c4       BIFBits                    100250c4     browser:browser.obj
+ 0002:000010c8       pBI                        100250c8     browser:browser.obj
+ 0002:000010fc       v_hNotifyHandle            100250fc     rdrapi:fsapi.obj
+ 0002:00001104       hWNetEnumAPISet            10025104     rdrapi:wnetapi.obj
+ 0002:0000110c       ?m_Instance@DatagramListener_t@@0PAV1@A 1002510c     rdrnet:DatagramListener.obj
+ 0002:00001110       NumNets                    10025110     rdrnet:net.obj
+ 0002:00001114       NetChain                   10025114     rdrnet:net.obj
+ 0002:00001118       NetbiosComputerName        10025118     rdrnet:netbios.obj
+ 0002:0000112c       ?g_csMain@@3UCRITICAL_SECTION@@A 1002512c     fsdnot:fsnotify.obj
+ 0002:00001140       ?g_hNotifyAPI@@3PAXA       10025140     fsdnot:fsnotify.obj
+ 0002:00001144       ?g_pVolumeList@@3PAUtagNOTVOLENTRY@@A 10025144     fsdnot:fsnotify.obj
+ 0002:00001148       ?g_pRootVolume@@3PAUtagNOTVOLENTRY@@A 10025148     fsdnot:fsnotify.obj
+ 0002:0000114c       _exitflag                  1002514c     corelib0:cexit.obj
+ 0002:00001160       CloseTable                 10025160     <common>
+ 0002:000011a0       MRTable                    100251a0     <common>
+ 0002:000011e0       MFTable                    100251e0     <common>
+ 0002:00001260       Seed                       10025260     <common>
+ 0002:00001280       RdrMem_CS                  10025280     <common>
+ 0002:000012a0       Nib_CS                     100252a0     <common>
+ 0002:000012c0       NibTable                   100252c0     <common>
+ 0002:000012dc       hFind_APIset               100252dc     <common>
+ 0002:000012e0       g_pfnInitializeSecurityContext 100252e0     <common>
+ 0002:000012e4       v_RdrFSRootName            100252e4     <common>
+ 0002:000012e8       RdrShuttingDown            100252e8     <common>
+ 0002:000012ec       g_pfnQueryContextAttributes 100252ec     <common>
+ 0002:000012f0       g_pfnAcquireCredentialsHandle 100252f0     <common>
+ 0002:000012f4       g_pfnFreeCredentialsHandle 100252f4     <common>
+ 0002:000012f8       g_pfnDeleteSecurityContext 100252f8     <common>
+ 0002:000012fc       SessChain                  100252fc     <common>
+ 0002:00001300       g_pfnFreeContextBuffer     10025300     <common>
+ 0002:00001320       SessCritSec                10025320     <common>
+ 0002:00001340       CRes_CS                    10025340     <common>
+ 0002:00001354       CResList                   10025354     <common>
+ 0002:00001360       NetbiosPriDomainName       10025360     <common>
+ 0002:00001380       NetbiosBcnMasterName       10025380     <common>
+ 0002:00001394       v_pfnNETbios               10025394     <common>
+ 0002:000013a0       NetbiosBcnWkGrpName        100253a0     <common>
+ 0002:000013c0       NetbiosBcnGroupName        100253c0     <common>
+ 0002:000013e0       NetGlobal_CS               100253e0     <common>
+ 0002:00001400       NetTable                   10025400     <common>
+ 0002:00001410       __onexitend                10025410     <common>
+ 0002:00001414       __onexitbegin              10025414     <common>
+ 0002:00001418       g_pcsExit                  10025418     <common>
+
+ entry point at        0001:00020100
+
+ Static symbols
+
+ 0001:00002908       DeinitRedir                10003908 f   redir:Init.obj
+ 0001:00002b2c       InitRedir                  10003b2c f   redir:Init.obj
+ 0001:00002c74       GetResource                10003c74 f   redir:resource.obj
+ 0001:00002dfc       GetSession                 10003dfc f   redir:resource.obj
+ 0001:00003020       SetupSessXNT               10004020 f   redir:resource.obj
+ 0001:00003748       AcquireSpnegoCredentials   10004748 f   redir:resource.obj
+ 0001:000038e8       SetupSessXNTExtSec         100048e8 f   redir:resource.obj
+ 0001:000042c0       GetDefaultUserInfo         100052c0 f   redir:resource.obj
+ 0001:0000448c       SetDefaultUserInfo         1000548c f   redir:resource.obj
+ 0001:0000460c       StoreUserInfoToIoreq       1000560c f   redir:resource.obj
+ 0001:000046f0       ReconnectSession           100056f0 f   redir:resource.obj
+ 0001:00004a94       CheckResource              10005a94 f   redir:resource.obj
+ 0001:00005020       CloseSession               10006020 f   redir:resource.obj
+ 0001:000053e8       IdleSessResChecker         100063e8 f   redir:resource.obj
+ 0001:00006964       GetNib                     10007964 f   redir:nib.obj
+ 0001:000074c8       FindCacheFreeDirEnt        100084c8 f   redir:fndcache.obj
+ 0001:00007648       FindCacheCheckSize         10008648 f   redir:fndcache.obj
+ 0001:00007858       GetDirEnt                  10008858 f   redir:fndcache.obj
+ 0001:000079dc       GetFileEnt                 100089dc f   redir:fndcache.obj
+ 0001:00007e70       GetDefaultAuthDomain       10008e70 f   redir:Passthru.obj
+ 0001:0000813c       RequestChallenge           1000913c f   redir:Passthru.obj
+ 0001:00008320       GetUserInfo                10009320 f   redir:Passthru.obj
+ 0001:000085d4       DiscoverDC                 100095d4 f   redir:Passthru.obj
+ 0001:0000aafc       RdrUIThread                1000bafc f   redir:Rdrui.obj
+ 0001:0000ad44       RdrUIEnqueueWorkItem       1000bd44 f   redir:Rdrui.obj
+ 0001:0000d44c       ShowStatusDialog           1000e44c f   redir:printmon.obj
+ 0001:0000d4c0       PrintMonRoutine            1000e4c0 f   redir:printmon.obj
+ 0001:0000db34       FindMaster                 1000eb34 f   redir:open.obj
+ 0001:0000dbfc       GetMaster                  1000ebfc f   redir:open.obj
+ 0001:0000de7c       FreeAnchor                 1000ee7c f   redir:open.obj
+ 0001:0000df94       FindAnchor                 1000ef94 f   redir:open.obj
+ 0001:0000f700       SendAllNets                10010700 f   redir:transact.obj
+ 0001:00010320       CopySearchToUserBuf        10011320 f   redir:find.obj
+ 0001:000106a8       GetVolumeLabel             100116a8 f   redir:find.obj
+ 0001:00010924       XlateNTSearchPath          10011924 f   redir:find.obj
+ 0001:000114f0       ValidateServerList         100124f0 f   browser:browser.obj
+ 0001:00011874       SendServerEnum             10012874 f   browser:srvenum.obj
+ 0001:00011938       EnumListMerge              10012938 f   browser:srvenum.obj
+ 0001:0001290c       ?Rdr_CommonDirW@@YAHPAU__RedirVolumeState@@PBGE@Z 1001390c f   rdrapi:fsapi.obj
+ 0001:00013198       ?CopyAndDeleteW@@YAKPBG0@Z 10014198 f   rdrapi:fsapi.obj
+ 0001:00014bb4       FindNextWNetW              10015bb4 f   rdrapi:findapi.obj
+ 0001:00014f2c       FindFirstWNetW             10015f2c f   rdrapi:findapi.obj
+ 0001:00015c10       FillEnumBuf                10016c10 f   rdrapi:wnetapi.obj
+ 0001:00016018       CopyStringToUserBuf        10017018 f   rdrapi:wnetapi.obj
+ 0001:0001624c       ConvertNextEntry           1001724c f   rdrapi:wnetapi.obj
+ 0001:000172e4       GetArrayLength             100182e4 f   rdrapi:remapi.obj
+ 0001:000173d0       GetFieldSize               100183d0 f   rdrapi:remapi.obj
+ 0001:0001748c       RcvBufferConvert           1001848c f   rdrapi:remapi.obj
+ 0001:00017658       PackSendBuf                10018658 f   rdrapi:remapi.obj
+ 0001:0001b094       NetCleanupFunc             1001c094 f   rdrnet:net.obj
+ 0001:0001b3d4       NetBIOSNotifyFunc          1001c3d4 f   rdrnet:netbios.obj
+ 0001:0002028c       doexit                     1002128c f   corelib0:cexit.obj

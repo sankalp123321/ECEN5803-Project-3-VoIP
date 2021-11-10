@@ -1,0 +1,282 @@
+ ShellCeLog
+
+ Timestamp is 618b152f (Tue Nov 09 17:41:19 2021)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 000009a4H .rdata                  CODE
+ 0001:000009c4 00000027H .rdata$debug            CODE
+ 0001:000009ec 00002368H .text                   CODE
+ 0001:00002d54 00000024H .xdata                  CODE
+ 0001:00002d78 00000014H .idata$2                CODE
+ 0001:00002d8c 00000014H .idata$3                CODE
+ 0001:00002da0 00000100H .idata$4                CODE
+ 0001:00002ea0 0000000cH .idata$6                CODE
+ 0001:00002eb0 00000155H .edata                  CODE
+ 0002:00000000 00000100H .idata$5                DATA
+ 0002:00000100 00000244H .data                   DATA
+ 0002:00000344 00000044H .bss                    DATA
+ 0003:00000000 000001b0H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:0000003c       g_szProgName               1000103c     ShellCeLog_lib:ShellCeLog.obj
+ 0001:00000054       ??_C@_1DC@EPPEGCGA@?$AA?$CF?$AAs?$AA?3?$AA?5?$AAC?$AAe?$AAL?$AAo?$AAg?$AA?5?$AAd?$AAa?$AAt?$AAa?$AA?5?$AAc?$AAl?$AAe?$AAa?$AAr?$AAe?$AAd?$AA?$AN?$AA?6?$AA?$AA@ 10001054     ShellCeLog_lib:ShellCeLog.obj
+ 0001:00000088       ??_C@_1FI@CDJCBFOH@?$AA?$CF?$AAs?$AA?3?$AA?5?$AAC?$AAe?$AAL?$AAo?$AAg?$AA?5?$AAd?$AAa?$AAt?$AAa?$AA?5?$AAs?$AAu?$AAc?$AAc?$AAe?$AAs?$AAs?$AAf?$AAu?$AAl?$AAl?$AAy?$AA?5?$AAw?$AAr?$AAi?$AAt@ 10001088     ShellCeLog_lib:ShellCeLog.obj
+ 0001:000000e0       ??_C@_1BM@PLCGGNPA@?$AA?$CF?$AAs?$AA?3?$AA?5?$AAE?$AAx?$AAi?$AAt?$AAi?$AAn?$AAg?$AA?$AN?$AA?6?$AA?$AA@ 100010e0     ShellCeLog_lib:OSCaptureDriver.obj
+ 0001:00000100       ??_C@_1GA@FOMKGCDK@?$AAR?$AAe?$AAc?$AAe?$AAn?$AAt?$AA?5?$AAs?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?5?$AAa?$AAc?$AAt?$AAi?$AAv?$AAi?$AAt?$AAy?$AA?5?$AAh?$AAa?$AAs?$AA?5?$AAb?$AAe?$AAe?$AAn?$AA?5@ 10001100     ShellCeLog_lib:OSCaptureDriver.obj
+ 0001:00000160       ??_C@_1EK@GLHDADFG@?$AA?$CF?$AAs?$AA?3?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAc?$AAr?$AAe?$AAa?$AAt?$AAe?$AA?5?$AAt?$AAr?$AAi?$AAg?$AAg?$AAe?$AAr?$AA?5?$AAe?$AAv?$AAe@ 10001160     ShellCeLog_lib:OSCaptureDriver.obj
+ 0001:000001ac       ??_C@_1DA@NGCNAGPO@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?1?$AAO?$AAS?$AAC?$AAa?$AAp?$AAt?$AAu?$AAr?$AAe?$AAT?$AAr?$AAi?$AAg?$AAg?$AAe?$AAr?$AA?$AA@ 100011ac     ShellCeLog_lib:OSCaptureDriver.obj
+ 0001:000001e0       ??_C@_1EM@CGAJNCN@?$AA?$CF?$AAs?$AA?3?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAo?$AAp?$AAe?$AAn?$AA?5?$AAC?$AAe?$AAL?$AAo?$AAg?$AA?5?$AAq?$AAu?$AAi?$AAt?$AA?5?$AAe?$AAv@ 100011e0     ShellCeLog_lib:OSCaptureDriver.obj
+ 0001:0000022c       ??_C@_1CO@EODFODEI@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?1?$AAC?$AAe?$AAL?$AAo?$AAg?$AAF?$AAl?$AAu?$AAs?$AAh?$AA?5?$AAQ?$AAu?$AAi?$AAt?$AA?$AA@ 1000122c     ShellCeLog_lib:OSCaptureDriver.obj
+ 0001:0000025c       ??_C@_1BO@EIOEBMAI@?$AA?2?$AAO?$AAS?$AAC?$AAa?$AAp?$AAt?$AAu?$AAr?$AAe?$AA?4?$AAc?$AAl?$AAg?$AA?$AA@ 1000125c     ShellCeLog_lib:OSCaptureDriver.obj
+ 0001:0000027c       ??_C@_19IPFILJII@?$AA?4?$AAo?$AAl?$AAd?$AA?$AA@ 1000127c     CeLogFlushCommon:transport.obj
+ 0001:00000288       ??_C@_1BC@OFDANFFP@?$AAF?$AAi?$AAl?$AAe?$AAS?$AAi?$AAz?$AAe?$AA?$AA@ 10001288     CeLogFlushCommon:transport.obj
+ 0001:0000029c       ??_C@_1BM@NNCFAFE@?$AAB?$AAu?$AAf?$AAf?$AAe?$AAr?$AAA?$AAd?$AAd?$AAr?$AAe?$AAs?$AAs?$AA?$AA@ 1000129c     CeLogFlushCommon:transport.obj
+ 0001:000002b8       ??_C@_1BG@CPCOOOKL@?$AAB?$AAu?$AAf?$AAf?$AAe?$AAr?$AAS?$AAi?$AAz?$AAe?$AA?$AA@ 100012b8     CeLogFlushCommon:transport.obj
+ 0001:000002d0       ??_C@_1BO@EGOGCEBA@?$AAS?$AAy?$AAn?$AAc?$AAB?$AAu?$AAf?$AAf?$AAe?$AAr?$AAS?$AAi?$AAz?$AAe?$AA?$AA@ 100012d0     CeLogFlushCommon:transport.obj
+ 0001:000002f0       ??_C@_1BM@PBLHKICJ@?$AAA?$AAu?$AAt?$AAo?$AAE?$AAr?$AAa?$AAs?$AAe?$AAM?$AAo?$AAd?$AAe?$AA?$AA@ 100012f0     CeLogFlushCommon:transport.obj
+ 0001:0000030c       ??_C@_1M@BPNIAKDL@?$AAU?$AAs?$AAe?$AAU?$AAI?$AA?$AA@ 1000130c     CeLogFlushCommon:transport.obj
+ 0001:00000318       ??_C@_1BE@KMJLFAFM@?$AAF?$AAi?$AAl?$AAe?$AAF?$AAl?$AAa?$AAg?$AAs?$AA?$AA@ 10001318     CeLogFlushCommon:transport.obj
+ 0001:0000032c       ??_C@_1O@PDJNCOJG@?$AAZ?$AAo?$AAn?$AAe?$AAC?$AAE?$AA?$AA@ 1000132c     CeLogFlushCommon:transport.obj
+ 0001:0000033c       ??_C@_1BC@PKFGPGJB@?$AAF?$AAi?$AAl?$AAe?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 1000133c     CeLogFlushCommon:transport.obj
+ 0001:00000350       ??_C@_1BE@EJNOHHD@?$AAL?$AAo?$AAc?$AAa?$AAl?$AAF?$AAi?$AAl?$AAe?$AA?$AA@ 10001350     CeLogFlushCommon:transport.obj
+ 0001:00000364       ??_C@_17CAKEINAE@?$AAR?$AAA?$AAM?$AA?$AA@ 10001364     CeLogFlushCommon:transport.obj
+ 0001:0000036c       ??_C@_1BE@HJMLECOG@?$AAT?$AAr?$AAa?$AAn?$AAs?$AAp?$AAo?$AAr?$AAt?$AA?$AA@ 1000136c     CeLogFlushCommon:transport.obj
+ 0001:00000380       ??_C@_1BK@PBOBGOKM@?$AAF?$AAl?$AAu?$AAs?$AAh?$AAT?$AAi?$AAm?$AAe?$AAo?$AAu?$AAt?$AA?$AA@ 10001380     CeLogFlushCommon:transport.obj
+ 0001:0000039c       ??_C@_1DI@EGAPBFJF@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAC?$AAe?$AAL?$AAo?$AAg?$AA?2?$AAP?$AAa?$AAs?$AAs?$AAe?$AAd?$AAS?$AAe?$AAt?$AAt?$AAi?$AAn?$AAg?$AAs?$AA?$AA@ 1000139c     CeLogFlushCommon:transport.obj
+ 0001:000003d4       ??_C@_1BK@EGCGHBL@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAC?$AAe?$AAL?$AAo?$AAg?$AA?$AA@ 100013d4     CeLogFlushCommon:transport.obj
+ 0001:000003f0       ??_C@_1KI@MCPDHBFC@?$AAW?$AAA?$AAR?$AAN?$AAI?$AAN?$AAG?$AA?3?$AA?5?$AAC?$AAe?$AAL?$AAo?$AAg?$AA?5?$AAi?$AAs?$AA?5?$AAa?$AAl?$AAr?$AAe?$AAa?$AAd?$AAy?$AA?5?$AAr?$AAu?$AAn?$AAn?$AAi?$AAn@ 100013f0     CeLogFlushCommon:transport.obj
+ 0001:00000498       ??_C@_1FK@KOALMIEA@?$AAC?$AAe?$AAL?$AAo?$AAg?$AA?5?$AAb?$AAu?$AAf?$AAf?$AAe?$AAr?$AA?5?$AAs?$AAi?$AAz?$AAe?$AA?5?$AAs?$AAe?$AAt?$AA?5?$AAt?$AAo?$AA?5?$AA?$CF?$AAu?$AAK?$AAB?$AA?5?$AAi?$AAn@ 10001498     CeLogFlushCommon:transport.obj
+ 0001:000004f8       ??_C@_1MO@NBBKLHAK@?$AAW?$AAA?$AAR?$AAN?$AAI?$AAN?$AAG?$AA?3?$AA?5?$AAC?$AAe?$AAL?$AAo?$AAg?$AA?5?$AAi?$AAs?$AA?5?$AAa?$AAl?$AAr?$AAe?$AAa?$AAd?$AAy?$AA?5?$AAr?$AAu?$AAn?$AAn?$AAi?$AAn@ 100014f8     CeLogFlushCommon:transport.obj
+ 0001:000005c8       ??_C@_1CI@MKENBFJL@?$AA?$CF?$AAs?$AA?3?$AA?5?$AAU?$AAs?$AAi?$AAn?$AAg?$AA?5?$AAf?$AAi?$AAl?$AAe?$AA?5?$AA?$CF?$AAs?$AA?$AN?$AA?6?$AA?$AA@ 100015c8     CeLogFlushCommon:transport.obj
+ 0001:000005f0       ??_C@_1DK@IDIEKKFH@?$AA?$CF?$AAs?$AA?3?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAo?$AAp?$AAe?$AAn?$AA?5?$AAf?$AAi?$AAl?$AAe?$AA?5?$AA?$CF?$AAs?$AA?$AN?$AA?6?$AA?$AA@ 100015f0     CeLogFlushCommon:transport.obj
+ 0001:0000062c       ??_C@_1DO@FAKKJGHG@?$AA?$CF?$AAs?$AA?3?$AA?5?$AAU?$AAn?$AAk?$AAn?$AAo?$AAw?$AAn?$AA?5?$AAC?$AAe?$AAL?$AAo?$AAg?$AA?5?$AAm?$AAa?$AAp?$AA?5?$AAf?$AAo?$AAr?$AAm?$AAa?$AAt?$AA?$AN?$AA?6?$AA?$AA@ 1000162c     CeLogFlushCommon:flush.obj
+ 0001:0000066c       ??_C@_1DO@MFGAIBOC@?$AA?$CF?$AAs?$AA?3?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAo?$AAp?$AAe?$AAn?$AA?5?$AAC?$AAe?$AAL?$AAo?$AAg?$AA?5?$AAm?$AAa?$AAp?$AA?$AN?$AA?6?$AA?$AA@ 1000166c     CeLogFlushCommon:flush.obj
+ 0001:000006ac       ??_C@_1DE@PJGMMPGJ@?$AA?$CF?$AAs?$AA?3?$AA?5?$AAC?$AAe?$AAL?$AAo?$AAg?$AA?5?$AAm?$AAa?$AAp?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAf?$AAo?$AAu?$AAn?$AAd?$AA?$AN?$AA?6?$AA?$AA@ 100016ac     CeLogFlushCommon:flush.obj
+ 0001:000006e0       ??_C@_1CE@NHNGEBEK@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?1?$AAC?$AAe?$AAL?$AAo?$AAg?$AA?5?$AAD?$AAa?$AAt?$AAa?$AA?$AA@ 100016e0     CeLogFlushCommon:flush.obj
+ 0001:00000708       ??_C@_1JE@HHJOPJIP@?$AA?$CF?$AAs?$AA?3?$AA?5?$AAC?$AAa?$AAn?$AAn?$AAo?$AAt?$AA?5?$AAa?$AAc?$AAc?$AAe?$AAs?$AAs?$AA?5?$AAs?$AAt?$AAa?$AAt?$AAi?$AAc?$AA?5?$AAb?$AAu?$AAf?$AAf?$AAe?$AAr?$AA?5@ 10001708     CeLogFlushCommon:flush.obj
+ 0001:0000079c       ??_C@_1DO@IGLNFHOH@?$AA?$CF?$AAs?$AA?3?$AA?5?$AAF?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AAt?$AAo?$AA?5?$AAl?$AAo?$AAa?$AAd?$AA?5?$AAC?$AAe?$AAL?$AAo?$AAg?$AA?5?$AAD?$AAL?$AAL?$AA?$AN?$AA?6?$AA?$AA@ 1000179c     CeLogFlushCommon:flush.obj
+ 0001:000007dc       ??_C@_1BE@GNGGKBML@?$AAC?$AAe?$AAL?$AAo?$AAg?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 100017dc     CeLogFlushCommon:flush.obj
+ 0001:000007f0       ??_C@_1KE@DGCGPEFP@?$AA?$CF?$AAs?$AA?3?$AA?5?$AAA?$AAn?$AAo?$AAt?$AAh?$AAe?$AAr?$AA?5?$AAC?$AAe?$AAL?$AAo?$AAg?$AA?5?$AAf?$AAl?$AAu?$AAs?$AAh?$AAi?$AAn?$AAg?$AA?5?$AAt?$AAo?$AAo?$AAl?$AA?5@ 100017f0     CeLogFlushCommon:flush.obj
+ 0001:00000898       ??_C@_1FO@DFIHMEEC@?$AA?$CF?$AAs?$AA?3?$AA?5?$AAE?$AAr?$AAr?$AAo?$AAr?$AA?0?$AA?5?$AAu?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAc?$AAr?$AAe?$AAa?$AAt?$AAe?$AA?5?$AAn?$AAa?$AAm?$AAe@ 10001898     CeLogFlushCommon:flush.obj
+ 0001:000008f8       ??_C@_1CK@GOFPHFCJ@?$AAC?$AAe?$AAL?$AAo?$AAg?$AA?5?$AAF?$AAl?$AAu?$AAs?$AAh?$AA?5?$AAI?$AAn?$AAs?$AAt?$AAa?$AAn?$AAc?$AAe?$AA?$AA@ 100018f8     CeLogFlushCommon:flush.obj
+ 0001:00000928       ??_C@_1EM@KBFFHJAL@?$AA?$CF?$AAs?$AA?3?$AA?5?$AAT?$AAr?$AAa?$AAn?$AAs?$AAp?$AAo?$AAr?$AAt?$AA?5?$AAi?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAf?$AAa?$AAi@ 10001928     CeLogFlushCommon:flush.obj
+ 0001:00000974       ??_C@_1DA@PJIMKNBA@?$AAA?$AAp?$AAp?$AA?5?$AAP?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AAr?$AA?5?$AAE?$AAx?$AAi?$AAt?$AA?5?$AAE?$AAv?$AAe?$AAn?$AAt?$AA?$AA@ 10001974     AppProfiler:AppProfiler.obj
+ 0001:000009a4       ??_C@_1CA@LDAIEAEP@?$AAA?$AAp?$AAp?$AAP?$AAr?$AAo?$AAf?$AAK?$AAD?$AAl?$AAl?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 100019a4     AppProfiler:AppProfiler.obj
+ 0001:000009ec       DeinitFlush                100019ec f   ShellCeLog_lib:ShellCeLog.obj
+ 0001:000009f0       InitFlush                  100019f0 f   ShellCeLog_lib:ShellCeLog.obj
+ 0001:00000a4c       Flush                      10001a4c f   ShellCeLog_lib:ShellCeLog.obj
+ 0001:00000a54       FlushOnce                  10001a54 f   ShellCeLog_lib:ShellCeLog.obj
+ 0001:00000ac8       StopFlush                  10001ac8 f   ShellCeLog_lib:ShellCeLog.obj
+ 0001:00000acc       DllMain                    10001acc f   ShellCeLog_lib:ShellCeLog.obj
+ 0001:00000ca4       OSC_Init                   10001ca4 f   ShellCeLog_lib:OSCaptureDriver.obj
+ 0001:00000d9c       OSC_Deinit                 10001d9c f   ShellCeLog_lib:OSCaptureDriver.obj
+ 0001:00000e20       OSC_Open                   10001e20 f   ShellCeLog_lib:OSCaptureDriver.obj
+ 0001:00000e2c       OSC_Close                  10001e2c f   ShellCeLog_lib:OSCaptureDriver.obj
+ 0001:00000e44       OSC_IOControl              10001e44 f   ShellCeLog_lib:OSCaptureDriver.obj
+ 0001:00000e4c       OpenTransport              10001e4c f   CeLogFlushCommon:transport.obj
+ 0001:00000e94       CloseTransport             10001e94 f   CeLogFlushCommon:transport.obj
+ 0001:00001160       OutputMsg                  10002160 f   CeLogFlushCommon:transport.obj
+ 0001:00001260       ReadParamsFromRegistry     10002260 f   CeLogFlushCommon:transport.obj
+ 0001:000014c0       ReadParams                 100024c0 f   CeLogFlushCommon:transport.obj
+ 0001:000015dc       PrintParams                100025dc f   CeLogFlushCommon:transport.obj
+ 0001:000015e0       SetCeLogBufSize            100025e0 f   CeLogFlushCommon:transport.obj
+ 0001:000016b4       StoreCeLogParams           100026b4 f   CeLogFlushCommon:transport.obj
+ 0001:0000186c       GetTransport               1000286c f   CeLogFlushCommon:transport.obj
+ 0001:00001e9c       FLUSH_DeinitFlush          10002e9c f   CeLogFlushCommon:flush.obj
+ 0001:00001f00       FLUSH_InitFlushWithTransport 10002f00 f   CeLogFlushCommon:flush.obj
+ 0001:00002004       FLUSH_GetBufferLock        10003004 f   CeLogFlushCommon:flush.obj
+ 0001:00002028       FLUSH_SetBufferLock        10003028 f   CeLogFlushCommon:flush.obj
+ 0001:00002044       FLUSH_OpenAndFlush         10003044 f   CeLogFlushCommon:flush.obj
+ 0001:000020d8       FLUSH_SignalStopFlush      100030d8 f   CeLogFlushCommon:flush.obj
+ 0001:00002394       StopProfilerThread         10003394 f   AppProfiler:AppProfiler.obj
+ 0001:00002468       StartProfilerThread        10003468 f   AppProfiler:AppProfiler.obj
+ 0001:000025b4       CeLogReSync                100035b4 f   coredll:COREDLL.dll
+ 0001:000025c4       DisableThreadLibraryCalls  100035c4 f   coredll:COREDLL.dll
+ 0001:000025d4       EventModify                100035d4 f   coredll:COREDLL.dll
+ 0001:000025e4       CloseHandle                100035e4 f   coredll:COREDLL.dll
+ 0001:000025f4       WaitForMultipleObjects     100035f4 f   coredll:COREDLL.dll
+ 0001:00002604       CreateEventW               10003604 f   coredll:COREDLL.dll
+ 0001:00002614       CeLogSetZones              10003614 f   coredll:COREDLL.dll
+ 0001:00002624       CeSetThreadPriority        10003624 f   coredll:COREDLL.dll
+ 0001:00002634       CreateThread               10003634 f   coredll:COREDLL.dll
+ 0001:00002644       WaitForSingleObject        10003644 f   coredll:COREDLL.dll
+ 0001:00002654       U_rclose                   10003654 f   coredll:COREDLL.dll
+ 0001:00002664       U_ropen                    10003664 f   coredll:COREDLL.dll
+ 0001:00002674       U_rlseek                   10003674 f   coredll:COREDLL.dll
+ 0001:00002684       U_rwrite                   10003684 f   coredll:COREDLL.dll
+ 0001:00002694       SetFilePointer             10003694 f   coredll:COREDLL.dll
+ 0001:000026a4       MoveFileW                  100036a4 f   coredll:COREDLL.dll
+ 0001:000026b4       DeleteFileW                100036b4 f   coredll:COREDLL.dll
+ 0001:000026c4       StringCchCatW              100036c4 f   coredll:COREDLL.dll
+ 0001:000026d4       StringCchCopyW             100036d4 f   coredll:COREDLL.dll
+ 0001:000026e4       GetFileSize                100036e4 f   coredll:COREDLL.dll
+ 0001:000026f4       CreateFileW                100036f4 f   coredll:COREDLL.dll
+ 0001:00002704       GetFileAttributesW         10003704 f   coredll:COREDLL.dll
+ 0001:00002714       WriteFile                  10003714 f   coredll:COREDLL.dll
+ 0001:00002724       WaitForAPIReady            10003724 f   coredll:COREDLL.dll
+ 0001:00002734       StringCchVPrintfW          10003734 f   coredll:COREDLL.dll
+ 0001:00002744       FreeLibrary                10003744 f   coredll:COREDLL.dll
+ 0001:00002754       RegQueryValueExW           10003754 f   coredll:COREDLL.dll
+ 0001:00002764       KernelIoControl            10003764 f   coredll:COREDLL.dll
+ 0001:00002774       RegCloseKey                10003774 f   coredll:COREDLL.dll
+ 0001:00002784       RegOpenKeyExW              10003784 f   coredll:COREDLL.dll
+ 0001:00002794       __GetUserKData             10003794 f   coredll:COREDLL.dll
+ 0001:000027a4       RegSetValueExW             100037a4 f   coredll:COREDLL.dll
+ 0001:000027b4       RegCreateKeyExW            100037b4 f   coredll:COREDLL.dll
+ 0001:000027c4       UnmapViewOfFile            100037c4 f   coredll:COREDLL.dll
+ 0001:000027d4       MapViewOfFile              100037d4 f   coredll:COREDLL.dll
+ 0001:000027e4       CreateFileMappingW         100037e4 f   coredll:COREDLL.dll
+ 0001:000027f4       VirtualAllocCopyEx         100037f4 f   coredll:COREDLL.dll
+ 0001:00002804       LoadKernelLibrary          10003804 f   coredll:COREDLL.dll
+ 0001:00002814       GetLastError               10003814 f   coredll:COREDLL.dll
+ 0001:00002824       LocalFree                  10003824 f   coredll:COREDLL.dll
+ 0001:00002834       StringCchLengthW           10003834 f   coredll:COREDLL.dll
+ 0001:00002844       LocalAlloc                 10003844 f   coredll:COREDLL.dll
+ 0001:00002854       OpenEventW                 10003854 f   coredll:COREDLL.dll
+ 0001:00002864       CeLogGetZones              10003864 f   coredll:COREDLL.dll
+ 0001:00002874       GetThreadCallStack         10003874 f   coredll:COREDLL.dll
+ 0001:00002884       KernelLibIoControl         10003884 f   coredll:COREDLL.dll
+ 0001:00002894       SleepTillTick              10003894 f   coredll:COREDLL.dll
+ 0001:000028a4       ResumeThread               100038a4 f   coredll:COREDLL.dll
+ 0001:000028b4       CeLogData                  100038b4 f   coredll:COREDLL.dll
+ 0001:000028c4       CreateProcessW             100038c4 f   coredll:COREDLL.dll
+ 0001:000029cc       _DllMainCRTStartup         100039cc f   corelib0:pegdmain.obj
+ 0001:000029f8       __GSHandlerCheckCommon     100039f8 f   corelib0:gshandler.obj
+ 0001:00002a34       __GSHandlerCheck           10003a34 f   corelib0:gshandler.obj
+ 0001:00002a54       __security_init_cookie     10003a54 f   corelib0:seccinit.obj
+ 0001:00002aa0       __security_check_cookie    10003aa0 f   corelib0:armsecgs.obj
+ 0001:00002ab0       __gsfailure                10003ab0     corelib0:armsecgs.obj
+ 0001:00002bdc       _cexit                     10003bdc f   corelib0:cexit.obj
+ 0001:00002bec       _initterm                  10003bec f   corelib0:crt0dat.obj
+ 0001:00002c18       _cinit                     10003c18 f   corelib0:crt0dat.obj
+ 0001:00002c78       __crt_ExitProcess          10003c78 f   corelib0:exitproc_proxy.obj
+ 0001:00002c84       wcscpy                     10003c84 f   corelib1:COREDLL.dll
+ 0001:00002c94       _wcsicmp                   10003c94 f   corelib1:COREDLL.dll
+ 0001:00002ca4       wcsncpy                    10003ca4 f   corelib1:COREDLL.dll
+ 0001:00002cb4       memset                     10003cb4 f   corelib1:COREDLL.dll
+ 0001:00002cc4       memcpy                     10003cc4 f   corelib1:COREDLL.dll
+ 0001:00002cd4       _XcptFilter                10003cd4 f   corelib1:COREDLL.dll
+ 0001:00002ce4       __C_specific_handler       10003ce4 f   corelib1:COREDLL.dll
+ 0001:00002cf4       __security_gen_cookie2     10003cf4 f   corelib1:COREDLL.dll
+ 0001:00002d04       __report_gsfailure         10003d04 f   corelib1:COREDLL.dll
+ 0001:00002d14       free                       10003d14 f   corelib1:COREDLL.dll
+ 0001:00002d24       DeleteCriticalSection      10003d24 f   coredll:COREDLL.dll
+ 0001:00002d34       InterlockedExchange        10003d34 f   coredll:COREDLL.dll
+ 0001:00002d44       TerminateProcess           10003d44 f   coredll:COREDLL.dll
+ 0001:00002d78       __IMPORT_DESCRIPTOR_COREDLL 10003d78     coredll:COREDLL.dll
+ 0001:00002d8c       __NULL_IMPORT_DESCRIPTOR   10003d8c     coredll:COREDLL.dll
+ 0002:00000000       __imp_CeLogReSync          10005000     coredll:COREDLL.dll
+ 0002:00000004       __imp_DisableThreadLibraryCalls 10005004     coredll:COREDLL.dll
+ 0002:00000008       __imp_EventModify          10005008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_CloseHandle          1000500c     coredll:COREDLL.dll
+ 0002:00000010       __imp_WaitForMultipleObjects 10005010     coredll:COREDLL.dll
+ 0002:00000014       __imp_CreateEventW         10005014     coredll:COREDLL.dll
+ 0002:00000018       __imp_CeLogSetZones        10005018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_CeSetThreadPriority  1000501c     coredll:COREDLL.dll
+ 0002:00000020       __imp_CreateThread         10005020     coredll:COREDLL.dll
+ 0002:00000024       __imp_WaitForSingleObject  10005024     coredll:COREDLL.dll
+ 0002:00000028       __imp_U_rclose             10005028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_U_ropen              1000502c     coredll:COREDLL.dll
+ 0002:00000030       __imp_U_rlseek             10005030     coredll:COREDLL.dll
+ 0002:00000034       __imp_U_rwrite             10005034     coredll:COREDLL.dll
+ 0002:00000038       __imp_SetFilePointer       10005038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_MoveFileW            1000503c     coredll:COREDLL.dll
+ 0002:00000040       __imp_DeleteFileW          10005040     coredll:COREDLL.dll
+ 0002:00000044       __imp_StringCchCatW        10005044     coredll:COREDLL.dll
+ 0002:00000048       __imp_StringCchCopyW       10005048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_GetFileSize          1000504c     coredll:COREDLL.dll
+ 0002:00000050       __imp_CreateFileW          10005050     coredll:COREDLL.dll
+ 0002:00000054       __imp_GetFileAttributesW   10005054     coredll:COREDLL.dll
+ 0002:00000058       __imp_WriteFile            10005058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_WaitForAPIReady      1000505c     coredll:COREDLL.dll
+ 0002:00000060       __imp_StringCchVPrintfW    10005060     coredll:COREDLL.dll
+ 0002:00000064       __imp_FreeLibrary          10005064     coredll:COREDLL.dll
+ 0002:00000068       __imp_RegQueryValueExW     10005068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_KernelIoControl      1000506c     coredll:COREDLL.dll
+ 0002:00000070       __imp_RegCloseKey          10005070     coredll:COREDLL.dll
+ 0002:00000074       __imp_RegOpenKeyExW        10005074     coredll:COREDLL.dll
+ 0002:00000078       __imp___GetUserKData       10005078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_RegSetValueExW       1000507c     coredll:COREDLL.dll
+ 0002:00000080       __imp_RegCreateKeyExW      10005080     coredll:COREDLL.dll
+ 0002:00000084       __imp_UnmapViewOfFile      10005084     coredll:COREDLL.dll
+ 0002:00000088       __imp_MapViewOfFile        10005088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_CreateFileMappingW   1000508c     coredll:COREDLL.dll
+ 0002:00000090       __imp_VirtualAllocCopyEx   10005090     coredll:COREDLL.dll
+ 0002:00000094       __imp_LoadKernelLibrary    10005094     coredll:COREDLL.dll
+ 0002:00000098       __imp_GetLastError         10005098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_LocalFree            1000509c     coredll:COREDLL.dll
+ 0002:000000a0       __imp_StringCchLengthW     100050a0     coredll:COREDLL.dll
+ 0002:000000a4       __imp_LocalAlloc           100050a4     coredll:COREDLL.dll
+ 0002:000000a8       __imp_OpenEventW           100050a8     coredll:COREDLL.dll
+ 0002:000000ac       __imp_CeLogGetZones        100050ac     coredll:COREDLL.dll
+ 0002:000000b0       __imp_GetThreadCallStack   100050b0     coredll:COREDLL.dll
+ 0002:000000b4       __imp_KernelLibIoControl   100050b4     coredll:COREDLL.dll
+ 0002:000000b8       __imp_SleepTillTick        100050b8     coredll:COREDLL.dll
+ 0002:000000bc       __imp_ResumeThread         100050bc     coredll:COREDLL.dll
+ 0002:000000c0       __imp_CeLogData            100050c0     coredll:COREDLL.dll
+ 0002:000000c4       __imp_CreateProcessW       100050c4     coredll:COREDLL.dll
+ 0002:000000c8       __imp_wcscpy               100050c8     corelib1:COREDLL.dll
+ 0002:000000cc       __imp__wcsicmp             100050cc     corelib1:COREDLL.dll
+ 0002:000000d0       __imp_wcsncpy              100050d0     corelib1:COREDLL.dll
+ 0002:000000d4       __imp_memset               100050d4     corelib1:COREDLL.dll
+ 0002:000000d8       __imp_memcpy               100050d8     corelib1:COREDLL.dll
+ 0002:000000dc       __imp__XcptFilter          100050dc     corelib1:COREDLL.dll
+ 0002:000000e0       __imp___C_specific_handler 100050e0     corelib1:COREDLL.dll
+ 0002:000000e4       __imp___security_gen_cookie2 100050e4     corelib1:COREDLL.dll
+ 0002:000000e8       __imp___report_gsfailure   100050e8     corelib1:COREDLL.dll
+ 0002:000000ec       __imp_free                 100050ec     corelib1:COREDLL.dll
+ 0002:000000f0       __imp_DeleteCriticalSection 100050f0     coredll:COREDLL.dll
+ 0002:000000f4       __imp_InterlockedExchange  100050f4     coredll:COREDLL.dll
+ 0002:000000f8       __imp_TerminateProcess     100050f8     coredll:COREDLL.dll
+ 0002:000000fc       \177COREDLL_NULL_THUNK_DATA 100050fc     coredll:COREDLL.dll
+ 0002:00000100       g_Params                   10005100     ShellCeLog_lib:ShellCeLog.obj
+ 0002:0000033c       __security_cookie          1000533c     corelib0:seccinit.obj
+ 0002:00000340       __security_cookie_complement 10005340     corelib0:seccinit.obj
+ 0002:00000370       _exitflag                  10005370     corelib0:cexit.obj
+ 0002:00000374       g_pfnMessageBox            10005374     <common>
+ 0002:00000378       __onexitend                10005378     <common>
+ 0002:0000037c       __onexitbegin              1000537c     <common>
+ 0002:00000380       g_pcsExit                  10005380     <common>
+ 0002:00000384       _pRawDllMain               10005384     <common>
+
+ entry point at        0001:000029cc
+
+ Static symbols
+
+ 0001:00000b04       OSCaptureFlushThread       10001b04 f   ShellCeLog_lib:OSCaptureDriver.obj
+ 0001:00000ef0       InitCESH                   10001ef0 f   CeLogFlushCommon:transport.obj
+ 0001:00000f18       OpenCESH                   10001f18 f   CeLogFlushCommon:transport.obj
+ 0001:00000f80       CloseCESH                  10001f80 f   CeLogFlushCommon:transport.obj
+ 0001:00000f90       SendCESH                   10001f90 f   CeLogFlushCommon:transport.obj
+ 0001:00000fa8       OpenFileLog                10001fa8 f   CeLogFlushCommon:transport.obj
+ 0001:000010f8       CloseFileLog               100020f8 f   CeLogFlushCommon:transport.obj
+ 0001:00001108       SendFileLog                10002108 f   CeLogFlushCommon:transport.obj
+ 0001:000011f0       GetRegDWORD                100021f0 f   CeLogFlushCommon:transport.obj
+ 0001:000017e0       InitFileLog                100027e0 f   CeLogFlushCommon:transport.obj
+ 0001:000018ec       CloseMap                   100028ec f   CeLogFlushCommon:flush.obj
+ 0001:00001944       OpenMap                    10002944 f   CeLogFlushCommon:flush.obj
+ 0001:00001b68       FlushMap                   10002b68 f   CeLogFlushCommon:flush.obj
+ 0001:00002128       ?AppProfilerThread@@YAKPAX@Z 10003128 f   AppProfiler:AppProfiler.obj
+ 0001:000028dc       _DllMainCRTStartupHelper   100038dc f   corelib0:pegdmain.obj
+ 0001:00002af4       doexit                     10003af4 f   corelib0:cexit.obj

@@ -1,0 +1,32 @@
+//
+// Copyright (c) Microsoft Corporation.  All rights reserved.
+//
+//
+// Use of this sample source code is subject to the terms of the Microsoft
+// license agreement under which you licensed this sample source code. If
+// you did not accept the terms of the license agreement, you are not
+// authorized to use this sample source code. For the terms of the license,
+// please see the license agreement between you and Microsoft or, if applicable,
+// see the LICENSE.RTF on your install media or the root of your tools installation.
+// THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+//
+// These definitions are to smooth out the transition from old interface names to the
+// new ones.
+cpp_quote("#define IOmDocument2           IHTMLDocument2" )
+cpp_quote("#define IOmFramesCollection2   IHTMLFramesCollection2" )
+cpp_quote("#define IOmWindow2             IHTMLWindow2" )
+cpp_quote("#define IOmWindowEvents        IHTMLWindowEvents" )
+cpp_quote("#define IOmImage               IHTMLImgElement ")
+cpp_quote("#define IOmImageEvents          HTMLImageEvents")
+cpp_quote("#define IOmImagesCollection    IHTMLElementCollection")
+cpp_quote("#define IOmLink                IHTMLAnchorElement")
+cpp_quote("#define IOmLinkEvents           HTMLAnchorEvents")
+cpp_quote("#define IOmAnchor              IHTMLAnchorElement")
+cpp_quote("#define IOmLinksCollection2    IHTMLElementCollection ")
+cpp_quote("#define IOmAnchorsCollection2  IHTMLElementCollection ")
+cpp_quote("#define IOmElementsCollection2 IHTMLElementCollection ")
+cpp_quote("#define IOmForm2               IHTMLFormElement") 
+cpp_quote("#define IOmFormsCollection2    IHTMLElementCollection ")
+cpp_quote("#define IOmWindowEvents        IHTMLWindowEvents")
+
+#include <mshtml.idl>

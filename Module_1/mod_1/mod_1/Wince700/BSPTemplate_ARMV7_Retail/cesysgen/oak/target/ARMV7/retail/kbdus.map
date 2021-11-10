@@ -1,0 +1,93 @@
+ kbdus
+
+ Timestamp is 5ac64c63 (Thu Apr 05 09:18:43 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 0000022fH .rdata                  CODE
+ 0001:00000250 00000022H .rdata$debug            CODE
+ 0001:00000274 000008ccH .text                   CODE
+ 0001:00000b40 00000014H .xdata                  CODE
+ 0001:00000b54 00000014H .idata$2                CODE
+ 0001:00000b68 00000014H .idata$3                CODE
+ 0001:00000b7c 00000030H .idata$4                CODE
+ 0001:00000bac 0000000cH .idata$6                CODE
+ 0001:00000bc0 00000062H .edata                  CODE
+ 0002:00000000 00000030H .idata$5                DATA
+ 0002:00000030 0000039cH .data                   DATA
+ 0002:000003cc 00000068H .bss                    DATA
+ 0003:00000000 00000080H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:0000031c       PS2_AT_00000409            1000131c f   kbdus_lib:kbdus.obj
+ 0001:00000350       IL_00000409                10001350 f   InputLang_0409:IL_0409.obj
+ 0001:000006a0       ?NumPadRemapVKey@@YAIPBU_KEYBD_EVENT@@IPAU1@I@Z 100016a0 f   NumPadRmp:NumPadRmp.obj
+ 0001:0000077c       GetAsyncKeyState           1000177c f   coredll:COREDLL.dll
+ 0001:0000078c       WaitForAPIReady            1000178c f   coredll:COREDLL.dll
+ 0001:0000079c       DllMain                    1000179c f   corelib0:dllmain.obj
+ 0001:000008a8       _DllMainCRTStartup         100018a8 f   corelib0:pegdmain.obj
+ 0001:000009bc       _cexit                     100019bc f   corelib0:cexit.obj
+ 0001:000009cc       _initterm                  100019cc f   corelib0:crt0dat.obj
+ 0001:000009f8       _cinit                     100019f8 f   corelib0:crt0dat.obj
+ 0001:00000a58       __security_init_cookie     10001a58 f   corelib0:seccinit.obj
+ 0001:00000aa4       __crt_ExitProcess          10001aa4 f   corelib0:exitproc_proxy.obj
+ 0001:00000ab0       memcpy                     10001ab0 f   corelib1:COREDLL.dll
+ 0001:00000ac0       _XcptFilter                10001ac0 f   corelib1:COREDLL.dll
+ 0001:00000ad0       __C_specific_handler       10001ad0 f   corelib1:COREDLL.dll
+ 0001:00000ae0       free                       10001ae0 f   corelib1:COREDLL.dll
+ 0001:00000af0       __security_gen_cookie2     10001af0 f   corelib1:COREDLL.dll
+ 0001:00000b00       DisableThreadLibraryCalls  10001b00 f   coredll:COREDLL.dll
+ 0001:00000b10       DeleteCriticalSection      10001b10 f   coredll:COREDLL.dll
+ 0001:00000b20       InterlockedExchange        10001b20 f   coredll:COREDLL.dll
+ 0001:00000b30       TerminateProcess           10001b30 f   coredll:COREDLL.dll
+ 0001:00000b54       __IMPORT_DESCRIPTOR_COREDLL 10001b54     coredll:COREDLL.dll
+ 0001:00000b68       __NULL_IMPORT_DESCRIPTOR   10001b68     coredll:COREDLL.dll
+ 0002:00000000       __imp_GetAsyncKeyState     10002000     coredll:COREDLL.dll
+ 0002:00000004       __imp_WaitForAPIReady      10002004     coredll:COREDLL.dll
+ 0002:00000008       __imp_memcpy               10002008     corelib1:COREDLL.dll
+ 0002:0000000c       __imp__XcptFilter          1000200c     corelib1:COREDLL.dll
+ 0002:00000010       __imp___C_specific_handler 10002010     corelib1:COREDLL.dll
+ 0002:00000014       __imp_free                 10002014     corelib1:COREDLL.dll
+ 0002:00000018       __imp___security_gen_cookie2 10002018     corelib1:COREDLL.dll
+ 0002:0000001c       __imp_DisableThreadLibraryCalls 1000201c     coredll:COREDLL.dll
+ 0002:00000020       __imp_DeleteCriticalSection 10002020     coredll:COREDLL.dll
+ 0002:00000024       __imp_InterlockedExchange  10002024     coredll:COREDLL.dll
+ 0002:00000028       __imp_TerminateProcess     10002028     coredll:COREDLL.dll
+ 0002:0000002c       \177COREDLL_NULL_THUNK_DATA 1000202c     coredll:COREDLL.dll
+ 0002:000003c4       __security_cookie          100023c4     corelib0:seccinit.obj
+ 0002:000003c8       __security_cookie_complement 100023c8     corelib0:seccinit.obj
+ 0002:00000420       _exitflag                  10002420     corelib0:cexit.obj
+ 0002:00000424       __onexitend                10002424     <common>
+ 0002:00000428       __onexitbegin              10002428     <common>
+ 0002:0000042c       g_pcsExit                  1000242c     <common>
+ 0002:00000430       _pRawDllMain               10002430     <common>
+
+ entry point at        0001:000008a8
+
+ Static symbols
+
+ 0001:00000274       ?ATRemapVKey@@YAIPBU_KEYBD_EVENT@@IPAU1@I@Z 10001274 f   kbdus_lib:kbdus.obj
+ 0001:00000384       ?NumPadRemapVKeyDown@@YAIIIIPAU_KEYBD_EVENT@@@Z 10001384 f   NumPadRmp:NumPadRmp.obj
+ 0001:00000510       ?NumPadRemapVKeyUp@@YAIIIIPAU_KEYBD_EVENT@@@Z 10001510 f   NumPadRmp:NumPadRmp.obj
+ 0001:000007b8       _DllMainCRTStartupHelper   100017b8 f   corelib0:pegdmain.obj
+ 0001:000008d4       doexit                     100018d4 f   corelib0:cexit.obj

@@ -1,0 +1,795 @@
+ SimDrv
+
+ Timestamp is 5ac6518a (Thu Apr 05 09:40:42 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 0000000cH .CRT$XCU                CODE
+ 0001:00000010 00000004H .CRT$XCZ                CODE
+ 0001:00000014 00000004H .CRT$XIA                CODE
+ 0001:00000018 00000004H .CRT$XIZ                CODE
+ 0001:0000001c 00000004H .CRT$XPA                CODE
+ 0001:00000020 00000004H .CRT$XPZ                CODE
+ 0001:00000024 00000004H .CRT$XTA                CODE
+ 0001:00000028 00000004H .CRT$XTZ                CODE
+ 0001:00000030 000006acH .rdata                  CODE
+ 0001:000006dc 00000023H .rdata$debug            CODE
+ 0001:00000700 00015870H .text                   CODE
+ 0001:00015f70 00000064H .text$yc                CODE
+ 0001:00015fd4 00000040H .text$yd                CODE
+ 0001:00016014 00000098H .xdata                  CODE
+ 0001:000160ac 0000003cH .idata$2                CODE
+ 0001:000160e8 00000014H .idata$3                CODE
+ 0001:000160fc 000001a0H .idata$4                CODE
+ 0001:0001629c 00000022H .idata$6                CODE
+ 0001:000162c0 000000d4H .edata                  CODE
+ 0002:00000000 000001a0H .idata$5                DATA
+ 0002:000001a0 00000464H .data                   DATA
+ 0002:00000604 00000060H .bss                    DATA
+ 0003:00000000 00000f10H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000010       __xc_z                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xi_a                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xi_z                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xp_a                     1000101c     corelib0:crt0init.obj
+ 0001:00000020       __xp_z                     10001020     corelib0:crt0init.obj
+ 0001:00000024       __xt_a                     10001024     corelib0:crt0init.obj
+ 0001:00000028       __xt_z                     10001028     corelib0:crt0init.obj
+ 0001:0000004c       ??_C@_1CC@FAHAEPOA@?$AAS?$AAi?$AAm?$AAN?$AAo?$AAt?$AA_?$AAE?$AAv?$AAt?$AA_?$AA?$CF?$AAx?$AA_?$AA?$CF?$AAx?$AA?$AA@ 1000104c     client.obj
+ 0001:00000070       ??_C@_1BC@OJCLCGPE@?$AAS?$AAI?$AAM?$AA_?$AAI?$AAN?$AAF?$AAO?$AA?$AA@ 10001070     simmgr.obj
+ 0001:00000084       ??_C@_1BA@PNFDCMDK@?$AAS?$AAI?$AAM?$AA_?$AAP?$AAI?$AAN?$AA?$AA@ 10001084     simmgr.obj
+ 0001:00000094       ??_C@_1BC@NMMDLHGC@?$AAS?$AAI?$AAM?$AA_?$AAF?$AAI?$AAL?$AAE?$AA?$AA@ 10001094     simmgr.obj
+ 0001:000000a8       ??_C@_1BM@PMDDPPEL@?$AAS?$AAI?$AAM?$AA_?$AAP?$AAH?$AAO?$AAN?$AAE?$AAB?$AAO?$AAO?$AAK?$AA?$AA@ 100010a8     simmgr.obj
+ 0001:000000c4       ??_C@_1BI@HIACJOPD@?$AAS?$AAI?$AAM?$AA_?$AAM?$AAE?$AAS?$AAS?$AAA?$AAG?$AAE?$AA?$AA@ 100010c4     simmgr.obj
+ 0001:000000dc       ??_C@_11LOCGONAA@?$AA?$AA@ 100010dc     simmgr.obj
+ 0001:000000e0       ??_C@_1BM@KLEBPJAN@?$AAR?$AAe?$AAc?$AAo?$AAr?$AAd?$AAC?$AAa?$AAc?$AAh?$AAi?$AAn?$AAg?$AA?$AA@ 100010e0     simmgr.obj
+ 0001:000000fc       ??_C@_1DE@GNGNMHEO@?$AAS?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAS?$AAi?$AAm?$AAM?$AAg?$AAr?$AA?$AA@ 100010fc     simmgr.obj
+ 0001:00000130       ??_C@_1BO@JEGGJNLA@?$AAP?$AAB?$AAS?$AAt?$AAo?$AAr?$AAa?$AAg?$AAe?$AAM?$AAu?$AAt?$AAe?$AAx?$AA?$AA@ 10001130     simmgr.obj
+ 0001:00000150       ??_C@_1BM@HFBDOLE@?$AAN?$AAo?$AAC?$AAa?$AAc?$AAh?$AAe?$AAF?$AAi?$AAl?$AAe?$AAI?$AAd?$AA?$AA@ 10001150     simmgr.obj
+ 0001:0000016c       ??_C@_13LFIEIAHP@?$AAp?$AA?$AA@ 1000116c     fonbook.obj
+ 0001:00000170       ??_C@_17PECLFFOM@?$AA?0?$AAp?$AAP?$AA?$AA@ 10001170     fonbook.obj
+ 0001:00000178       ??_C@_13BFLGCPEB@?$AAP?$AA?$AA@ 10001178     fonbook.obj
+ 0001:0000017c       ??_C@_00CNPNBAHC@?$AA@     1000117c     simlock.obj
+ 0001:00000280       ??_C@_1CO@MJAGKHNO@?$AAS?$AAI?$AAM?$AAS?$AAe?$AAc?$AAu?$AAr?$AAi?$AAt?$AAy?$AAU?$AAn?$AAl?$AAo?$AAc?$AAk?$AAP?$AAh?$AAo?$AAn?$AAe?$AA?$AA@ 10001280     simril.obj
+ 0001:000002b0       ??_C@_1BG@OMLPEAKH@?$AAs?$AAi?$AAm?$AAs?$AAe?$AAc?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 100012b0     simril.obj
+ 0001:000002c8       ??_C@_1BG@BEJIKPFP@?$AAP?$AAi?$AAn?$AAT?$AAi?$AAm?$AAe?$AAo?$AAu?$AAt?$AA?$AA@ 100012c8     simril.obj
+ 0001:000002e0       ??_7?$GrowableThingCollection@PAURilSyncNotifyCallback_tag@@@@6B@ 100012e0     simril.obj
+ 0001:00000330       ??_7?$GrowablePointerCollection@URilSyncNotifyCallback_tag@@@@6B@ 10001330     simril.obj
+ 0001:0000037c       ??_C@_1O@ICJDDBOO@?$AAS?$AAi?$AAm?$AAM?$AAg?$AAr?$AA?$AA@ 1000137c     simril.obj
+ 0001:00000390       ??_7?$GrowableThingCollection@PAUsimphonebookentryex_tag@@@@6B@ 10001390     usimphonebook.obj
+ 0001:000003e0       ??_7?$GrowableThingCollection@PAVSimPhonebookFileStat_t@@@@6B@ 100013e0     usimphonebook.obj
+ 0001:00000430       ??_7?$GrowableThingCollection@PAVPhonebookReferenceRecord_t@@@@6B@ 10001430     usimphonebook.obj
+ 0001:00000480       ??_7?$GrowablePointerCollection@Usimphonebookentryex_tag@@@@6B@ 10001480     usimphonebook.obj
+ 0001:000004d0       ??_7?$GrowablePointerCollection@VSimPhonebookFileStat_t@@@@6B@ 100014d0     usimphonebook.obj
+ 0001:00000520       ??_7?$GrowablePointerCollection@VPhonebookReferenceRecord_t@@@@6B@ 10001520     usimphonebook.obj
+ 0001:00000570       ??_7PhonebookEntryCollection_t@@6B@ 10001570     usimphonebook.obj
+ 0001:000005c0       ??_C@_1EE@GLAEEIL@?$AAU?$AAS?$AAI?$AAM?$AAC?$AAa?$AAc?$AAh?$AAe?$AAC?$AAl?$AAe?$AAa?$AAr?$AAA?$AAl?$AAl?$AAO?$AAn?$AAF?$AAi?$AAr?$AAs?$AAt?$AAA?$AAv?$AAa?$AAi?$AAl?$AAa?$AAb?$AAl@ 100015c0     usimphonebook.obj
+ 0001:00000604       ??_C@_1CK@GALLCJNP@?$AAU?$AAS?$AAI?$AAM?$AAP?$AAh?$AAo?$AAn?$AAe?$AAb?$AAo?$AAo?$AAk?$AAC?$AAa?$AAc?$AAh?$AAi?$AAn?$AAg?$AA?$AA@ 10001604     usimphonebook.obj
+ 0001:00000630       ??_C@_1M@GDOFEOEF@?$AAR?$AAA?$AAD?$AAI?$AAO?$AA?$AA@ 10001630     toolbox:toolbox_i.obj
+ 0001:00000640       ??_7?$GrowableThingCollection@PAX@@6B@ 10001640     toolbox:toolbox_i.obj
+ 0001:00000690       ??_7?$GrowableThingCollection@UTaskListTaskData@TaskList@@@@6B@ 10001690     toolbox:toolbox_i.obj
+ 0001:00000700       ??0CSimMgrClient@@QAA@XZ   10001700 f   client.obj
+ 0001:0000073c       ??1CSimMgrClient@@QAA@XZ   1000173c f   client.obj
+ 0001:00000760       ?Initialize@CSimMgrClient@@QAAJPAVCSimMgr@@@Z 10001760 f   client.obj
+ 0001:00000790       ?CreateUniqueEvent@CSimMgrClient@@QAAJKKPAGK@Z 10001790 f   client.obj
+ 0001:00000808       ?AddNotification@CSimMgrClient@@QAAXKPBX@Z 10001808 f   client.obj
+ 0001:00000ad4       ?GetNotification@CSimMgrClient@@QAAHPAKPAE0@Z 10001ad4 f   client.obj
+ 0001:00000c6c       ?get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ 10001c6c f i client.obj
+ 0001:00000cc0       ?IsResultAndDataOk@RilResult_t@@QAAHXZ 10001cc0 f i simmgr.obj
+ 0001:00000cfc       ?Unmarshal@MarshalledBuffer_t@@QAAJXZ 10001cfc f i simmgr.obj
+ 0001:00000d54       ?GetSetBit@@YAKK@Z         10001d54 f   simmgr.obj
+ 0001:00000d8c       ??0CSimMgr@@QAA@XZ         10001d8c f   simmgr.obj
+ 0001:00000e0c       ?AddClient@CSimMgr@@QAAJPAVCSimMgrClient@@@Z 10001e0c f   simmgr.obj
+ 0001:00000e58       ?DeleteClient@CSimMgr@@QAAJPAVCSimMgrClient@@@Z 10001e58 f   simmgr.obj
+ 0001:00000ec4       ?SendClientNotifications@CSimMgr@@QAAXKPBX@Z 10001ec4 f   simmgr.obj
+ 0001:00000f00       ?GetRadioOn@CSimMgr@@QAAKXZ 10001f00 f   simmgr.obj
+ 0001:00000f6c       ?GetDevCapsDWORD@CSimMgr@@AAAJPAUsimcaps_tag@@PAKKK@Z 10001f6c f   simmgr.obj
+ 0001:00000ff0       ?GetDevCaps@CSimMgr@@QAAJKPAUsimcaps_tag@@@Z 10001ff0 f   simmgr.obj
+ 0001:00001278       ?GetIMSI@CSimMgr@@QAAJPAG@Z 10002278 f   simmgr.obj
+ 0001:0000131c       ?FileChanged@CSimMgr@@QAAXK@Z 1000231c f   simmgr.obj
+ 0001:00001350       ?ClearStateInfo@CSimMgr@@AAAXXZ 10002350 f   simmgr.obj
+ 0001:00001394       ?NotifyProc@CSimMgr@@QAAXKPBXK@Z 10002394 f   simmgr.obj
+ 0001:000016c8       ?GetSimType@CSimMgr@@QAAJPAK@Z 100026c8 f   simmgr.obj
+ 0001:000017cc       ?SIM_Read@@YAKKPAXK@Z      100027cc f   simmgr.obj
+ 0001:000017d4       ?SIM_Write@@YAKKPBXK@Z     100027d4 f   simmgr.obj
+ 0001:000017dc       ?SIM_Seek@@YAKKJK@Z        100027dc f   simmgr.obj
+ 0001:000017e4       ?_Buynode@?$list@U?$pair@KH@std@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@U?$pair@KH@std@@@list_impl@2@PAU342@@Z 100027e4 f i simmgr.obj
+ 0001:00001830       ?CSIMMgr_RilSyncNotifyProc@@YAXKPBXKK@Z 10002830 f i simmgr.obj
+ 0001:00001850       ?Marshal@MarshalledBuffer_t@@QAAJPAXKKHH@Z 10002850 f i simmgr.obj
+ 0001:000018e0       ?EnumSimModules@@YAJKKPAK0@Z 100028e0 f   simmgr.obj
+ 0001:00001ac8       ?Initialize@CSimMgr@@QAAJKKK@Z 10002ac8 f   simmgr.obj
+ 0001:00001c78       ??1CSimMgr@@QAA@XZ         10002c78 f   simmgr.obj
+ 0001:00001cec       ?GetSimInfo@CSimMgr@@QAAJPAUsiminfo_tag@@@Z 10002cec f   simmgr.obj
+ 0001:00001e34       ?SIM_Close@@YAHK@Z         10002e34 f   simmgr.obj
+ 0001:00001e80       ?SIM_IOControl@@YAHKKPAEK0KPAK@Z 10002e80 f   simmgr.obj
+ 0001:00002e4c       ?erase@?$list@U?$pair@KH@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@KH@std@@@list_impl@2@V342@@Z 10003e4c f i simmgr.obj
+ 0001:00002ea8       ?erase@?$vector@PAVCSimMgr@@Vallocator@ce@@U?$exponential_growth@$09@3@@ce@@QAAPAPAVCSimMgr@@PAPAV3@0@Z 10003ea8 f i simmgr.obj
+ 0001:00002f00       ?erase@?$list@U?$pair@KH@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@KH@std@@@list_impl@2@V342@0@Z 10003f00 f i simmgr.obj
+ 0001:00002f58       ?erase@?$vector@U?$pair@V?$iterator@U?$pair@KH@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAAPAU?$pair@V?$iterator@U?$pair@KH@std@@@list_impl@ce@@I@std@@PAU34@0@Z 10003f58 f i simmgr.obj
+ 0001:00002fbc       ?erase@?$vector@PAVCSimMgr@@V?$reference_allocator@Vallocator@ce@@@details@ce@@U?$exponential_growth@$09@4@@ce@@QAAPAPAVCSimMgr@@PAPAV3@0@Z 10003fbc f i simmgr.obj
+ 0001:00003014       ?erase@?$vector@U?$pair@V?$iterator@U?$pair@KH@std@@@list_impl@ce@@I@std@@V?$reference_allocator@Vallocator@ce@@@details@ce@@U?$exponential_growth@$09@5@@ce@@QAAPAU?$pair@V?$iterator@U?$pair@KH@std@@@list_impl@ce@@I@std@@PAU34@0@Z 10004014 f i simmgr.obj
+ 0001:00003078       ??$insert@U?$pair@KH@std@@@?$list@U?$pair@KH@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@KH@std@@@list_impl@1@V231@ABU?$pair@KH@std@@@Z 10004078 f i simmgr.obj
+ 0001:000030c8       ?SIM_Deinit@@YAHK@Z        100040c8 f   simmgr.obj
+ 0001:00003144       ??1?$hash@V?$hash_map_traits@KHU?$hash_traits@K@ce@@Vallocator@2@@details@ce@@@details@ce@@QAA@XZ 10004144 f i simmgr.obj
+ 0001:00003184       ?_Insert_dispatch@?$vector@PAVCSimMgr@@Vallocator@ce@@U?$exponential_growth@$09@3@@ce@@AAA_NPAPAVCSimMgr@@IABQAV3@ABUtrue_type@detail@2@@Z 10004184 f i simmgr.obj
+ 0001:000033a4       ?_Insert_dispatch@?$vector@U?$pair@V?$iterator@U?$pair@KH@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@AAA_NPAU?$pair@V?$iterator@U?$pair@KH@std@@@list_impl@ce@@I@std@@IABU34@ABUtrue_type@detail@2@@Z 100043a4 f i simmgr.obj
+ 0001:000035ec       ?insert@?$vector@PAVCSimMgr@@Vallocator@ce@@U?$exponential_growth@$09@3@@ce@@QAAPAPAVCSimMgr@@PAPAV3@ABQAV3@@Z 100045ec f i simmgr.obj
+ 0001:00003638       ?resize@?$vector@U?$pair@V?$iterator@U?$pair@KH@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAA_NIABU?$pair@V?$iterator@U?$pair@KH@std@@@list_impl@ce@@I@std@@@Z 10004638 f i simmgr.obj
+ 0001:00003694       ?SIM_Open@@YAKKKK@Z        10004694 f   simmgr.obj
+ 0001:0000382c       ?_ready@?$hash@V?$hash_map_traits@KHU?$hash_traits@K@ce@@Vallocator@2@@details@ce@@@details@ce@@IAA_NXZ 1000482c f i simmgr.obj
+ 0001:00003884       ?insert@?$hash@V?$hash_map_traits@KHU?$hash_traits@K@ce@@Vallocator@2@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@KH@std@@@list_impl@3@ABU?$pair@KH@std@@@Z 10004884 f i simmgr.obj
+ 0001:00003948       ?InitNoCacheList@@YAXXZ    10004948 f   simmgr.obj
+ 0001:00003a18       ?SIM_Init@@YAKK@Z          10004a18 f   simmgr.obj
+ 0001:00003a40       ?AddPlusToIntlEntries@@YAJPAGI@Z 10004a40 f   fonbook.obj
+ 0001:00003b4c       ?GetPhonebookStorage@CSimMgr@@QAAKXZ 10004b4c f   fonbook.obj
+ 0001:00003be0       ?SetPhonebookStorage@CSimMgr@@AAAJK@Z 10004be0 f   fonbook.obj
+ 0001:00003c88       ?ReadSDNExtData@CSimMgr@@AAAHEPAGI@Z 10004c88 f   fonbook.obj
+ 0001:00003d78       ?ReadSDNEntries@CSimMgr@@QAAJKPAKPAUsimphonebookentryex_tag@@0@Z 10004d78 f   fonbook.obj
+ 0001:00004138       ?ReadSimPhonebookEntries@CSimMgr@@QAAJKKPAKPAUsimphonebookentryex_tag@@0@Z 10005138 f   fonbook.obj
+ 0001:0000464c       ?GetSDNPhonebookStatus@CSimMgr@@AAAJPAK0@Z 1000564c f   fonbook.obj
+ 0001:00004758       ?WritePhonebookEntry@CSimMgr@@QAAJKKPAUsimphonebookentry_tag@@@Z 10005758 f   fonbook.obj
+ 0001:00004aa8       ?GetUsimPhonebook@CSimMgr@@AAAPAVUsimPhonebook_t@@XZ 10005aa8 f   fonbook.obj
+ 0001:00004b18       ?GetPhonebookCapabilities@CSimMgr@@QAAJKPAUsimphonebookcaps_tag@@@Z 10005b18 f   fonbook.obj
+ 0001:00004c94       ?WritePhonebookTag@CSimMgr@@QAAJKKPAG@Z 10005c94 f   fonbook.obj
+ 0001:00004d14       ?ReadPhonebookTag@CSimMgr@@QAAJKKPAGK@Z 10005d14 f   fonbook.obj
+ 0001:00004db0       ?ReadSimPhonebookEntriesEx@CSimMgr@@QAAJKKPAKPAUsimphonebookentryex_tag@@0@Z 10005db0 f   fonbook.obj
+ 0001:000057e0       ?WriteSimPhonebookEntryEx@CSimMgr@@QAAJKKPAUsimphonebookentryex_tag@@@Z 100067e0 f   fonbook.obj
+ 0001:00005f44       ?ReadPhonebookEntry@CSimMgr@@QAAJKKPAUsimphonebookentry_tag@@@Z 10006f44 f   fonbook.obj
+ 0001:000060cc       ?GetPhonebookStatus@CSimMgr@@QAAJKPAK0@Z 100070cc f   fonbook.obj
+ 0001:00006224       ?DeletePhonebookEntry@CSimMgr@@QAAJKK@Z 10007224 f   fonbook.obj
+ 0001:00006358       ?WritePhonebookEntryEx@CSimMgr@@QAAJKKPAUsimphonebookentryex_tag@@@Z 10007358 f   fonbook.obj
+ 0001:00006560       ?ReadPhonebookEntries@CSimMgr@@QAAJKKPAKPAUsimphonebookentryex_tag@@0@Z 10007560 f   fonbook.obj
+ 0001:000066e4       ?SetSimMessageAddress@@YAXPAUsimmessage_tag@@PAUrilmessage_tag@@@Z 100076e4 f   simsms.obj
+ 0001:00006788       ?GetMessageText@@YAHABUrilmessage_tag@@PAGI@Z 10007788 f   simsms.obj
+ 0001:00006864       ?GetMsgStorage@CSimMgr@@QAAKH@Z 10007864 f   simsms.obj
+ 0001:00006924       ?SetMsgStorage@CSimMgr@@AAAJKH@Z 10007924 f   simsms.obj
+ 0001:00006a14       ?GetSmsStorageStatus@CSimMgr@@QAAJKPAK0@Z 10007a14 f   simsms.obj
+ 0001:00006b4c       ?ReadRILMessage@CSimMgr@@QAAJKKPAUrilmessageinfo_tag@@@Z 10007b4c f   simsms.obj
+ 0001:00006bf0       ?ReadMessage@CSimMgr@@QAAJKKPAUsimmessage_tag@@@Z 10007bf0 f   simsms.obj
+ 0001:00006d7c       ?WriteMessage@CSimMgr@@QAAJKPAKPAUsimmessage_tag@@@Z 10007d7c f   simsms.obj
+ 0001:00007114       ?DeleteMessage@CSimMgr@@QAAJKK@Z 10008114 f   simsms.obj
+ 0001:000071a0       DllMain                    100081a0 f   simdrv.obj
+ 0001:000071b4       ?DetermineResponseError@@YAJKK@Z 100081b4 f   simrecrd.obj
+ 0001:00007234       ?find@?$hash@V?$hash_map_traits@KHU?$hash_traits@K@ce@@Vallocator@2@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@KH@std@@@list_impl@3@ABK@Z 10008234 f i simrecrd.obj
+ 0001:000072ac       ?IsCachingFile@@YAHK@Z     100082ac f   simrecrd.obj
+ 0001:00007304       ?FillRecordInfoHelper@CSimMgr@@AAAJKPAUsimrecordinfo_tag@@@Z 10008304 f   simrecrd.obj
+ 0001:00007484       ?WriteRecord@CSimMgr@@QAAJKKKPAEK@Z 10008484 f   simrecrd.obj
+ 0001:00007690       ?FillRecordInfo@CSimMgr@@AAAJKPAUsimrecordinfo_tag@@@Z 10008690 f   simrecrd.obj
+ 0001:0000770c       ?ReadRecord@CSimMgr@@QAAJKKKPAEKPAK@Z 1000870c f   simrecrd.obj
+ 0001:00007a48       ?GetRecordInfo@CSimMgr@@QAAJKPAUsimrecordinfo_tag@@@Z 10008a48 f   simrecrd.obj
+ 0001:00007a84       ?GetPhoneLockedState@CSimMgr@@QAAJPAK@Z 10008a84 f   simlock.obj
+ 0001:00007b10       ?UnlockPhone@CSimMgr@@QAAJPAG0@Z 10008b10 f   simlock.obj
+ 0001:00007c04       ?GetLockingStatus@CSimMgr@@QAAJKPAGPAH@Z 10008c04 f   simlock.obj
+ 0001:00007d08       ?SetLockingStatus@CSimMgr@@QAAJKPAGH@Z 10008d08 f   simlock.obj
+ 0001:00007df0       ?ChangeLockingPassword@CSimMgr@@QAAJKPAG0@Z 10008df0 f   simlock.obj
+ 0001:00007f18       ?MapRilErrorToSimError@@YAJPBUtagSIMRILERROR@@JH@Z 10008f18 f   simril.obj
+ 0001:00007f64       ??0RilResult_t@@QAA@XZ     10008f64 f   simril.obj
+ 0001:00007f84       ?SetData@RilResult_t@@QAAJPAEK@Z 10008f84 f   simril.obj
+ 0001:0000802c       ?DetermineError@RilResult_t@@QAAJXZ 1000902c f   simril.obj
+ 0001:00008188       ?WaitForRilResult@RilSynchronous_t@@AAAHXZ 10009188 f   simril.obj
+ 0001:000081d4       ?ResultProc@RilSynchronous_t@@IAAXPAXKJPBXK@Z 100091d4 f   simril.obj
+ 0001:00008220       ?CheckErrorAndWaitForPIN@RilSynchronous_t@@AAAHAAVRilResult_t@@P6AJPAXZZ1@Z 10009220 f   simril.obj
+ 0001:000083b8       ?GetPinTimeoutValue@RilSynchronous_t@@AAAKXZ 100093b8 f   simril.obj
+ 0001:000083f4       ?GetPointerAtIndex@?$GrowablePointerCollection@URilSyncNotifyCallback_tag@@@@QAAPAURilSyncNotifyCallback_tag@@H@Z 100093f4 f i simril.obj
+ 0001:00008434       ?tbSafeIntSAdd@@YAHHHPAH@Z 10009434 f i simril.obj
+ 0001:00008478       ?AddThing@?$GrowableThingCollection@PAURilSyncNotifyCallback_tag@@@@UAA_NQAURilSyncNotifyCallback_tag@@@Z 10009478 f i simril.obj
+ 0001:000084e8       ?InsertThing@?$GrowableThingCollection@PAURilSyncNotifyCallback_tag@@@@UAA_NQAURilSyncNotifyCallback_tag@@H@Z 100094e8 f i simril.obj
+ 0001:00008590       ?RemoveThingAtIndex@?$GrowableThingCollection@PAURilSyncNotifyCallback_tag@@@@UAA_NH@Z 10009590 f i simril.obj
+ 0001:00008614       ?RemoveThing@?$GrowableThingCollection@PAURilSyncNotifyCallback_tag@@@@UAA_NQAURilSyncNotifyCallback_tag@@@Z 10009614 f i simril.obj
+ 0001:000086a4       ?RemoveAllThings@?$GrowableThingCollection@PAURilSyncNotifyCallback_tag@@@@UAA_NXZ 100096a4 f i simril.obj
+ 0001:000086ec       ?SwapThingsAtIndices@?$GrowableThingCollection@PAURilSyncNotifyCallback_tag@@@@UAA_NHH@Z 100096ec f i simril.obj
+ 0001:00008774       ?GetSize@?$GrowableThingCollection@PAURilSyncNotifyCallback_tag@@@@UAAHXZ 10009774 f i simril.obj
+ 0001:00008798       ?Lock@?$GrowableThingCollection@PAURilSyncNotifyCallback_tag@@@@UAA_NXZ 10009798 f i simril.obj
+ 0001:000087c4       ?Unlock@?$GrowableThingCollection@PAURilSyncNotifyCallback_tag@@@@UAA_NXZ 100097c4 f i simril.obj
+ 0001:00008808       ?BlockModificationByOtherThreads@?$GrowableThingCollection@PAURilSyncNotifyCallback_tag@@@@UAA_NXZ 10009808 f i simril.obj
+ 0001:0000881c       ?AllowModificationByOtherThreads@?$GrowableThingCollection@PAURilSyncNotifyCallback_tag@@@@UAA_NXZ 1000981c f i simril.obj
+ 0001:00008830       ?GetThingAtIndex@?$GrowableThingCollection@PAURilSyncNotifyCallback_tag@@@@UAAPAURilSyncNotifyCallback_tag@@H@Z 10009830 f i simril.obj
+ 0001:00008884       ?SetThingAtIndex@?$GrowableThingCollection@PAURilSyncNotifyCallback_tag@@@@UAA_NQAURilSyncNotifyCallback_tag@@H@Z 10009884 f i simril.obj
+ 0001:000088cc       ?GetThingIndex@?$GrowableThingCollection@PAURilSyncNotifyCallback_tag@@@@UAAHQAURilSyncNotifyCallback_tag@@@Z 100098cc f i simril.obj
+ 0001:0000893c       ?GetFilteredThingIndex@?$GrowableThingCollection@PAURilSyncNotifyCallback_tag@@@@UAAHP6A_NABQAURilSyncNotifyCallback_tag@@PAX@ZQAX@Z 1000993c f i simril.obj
+ 0001:000089a0       ?GetPointerToThingAtIndex@?$GrowableThingCollection@PAURilSyncNotifyCallback_tag@@@@UAAPAPAURilSyncNotifyCallback_tag@@H@Z 100099a0 f i simril.obj
+ 0001:000089ec       ?GetPointerToThing@?$GrowableThingCollection@PAURilSyncNotifyCallback_tag@@@@UAAPAPAURilSyncNotifyCallback_tag@@QAU2@@Z 100099ec f i simril.obj
+ 0001:00008a5c       ?MakeRoomForAnotherThing@?$GrowableThingCollection@PAURilSyncNotifyCallback_tag@@@@MAA_NXZ 10009a5c f i simril.obj
+ 0001:00008af0       ??_G?$GrowableThingCollection@PAURilSyncNotifyCallback_tag@@@@UAAPAXI@Z 10009af0 f i simril.obj
+ 0001:00008af0       ??_E?$GrowableThingCollection@PAURilSyncNotifyCallback_tag@@@@UAAPAXI@Z 10009af0 f i simril.obj
+ 0001:00008b3c       ??0?$GrowableThingCollection@PAURilSyncNotifyCallback_tag@@@@QAA@H@Z 10009b3c f i simril.obj
+ 0001:00008b88       ?SIM_RILResultProc@@YAXPAXKJPBXKK@Z 10009b88 f i simril.obj
+ 0001:00008bbc       ??4RilResult_t@@QAAAAV0@ABV0@@Z 10009bbc f   simril.obj
+ 0001:00008bf4       ?Clear@RilResult_t@@QAAXXZ 10009bf4 f   simril.obj
+ 0001:00008c30       ?NotifyTaskProc@RilSynchronous_t@@CA_NPAX@Z 10009c30 f   simril.obj
+ 0001:00008d00       ?RilCallSyncN@RilSynchronous_t@@QAAJAAVRilResult_t@@P6AJPAXZZ1111H@Z 10009d00 f   simril.obj
+ 0001:00008e10       ?GetPhonebookOptions@RilSynchronous_t@@QAAJAAVRilResult_t@@@Z 10009e10 f   simril.obj
+ 0001:00008e44       ?SetPhonebookOptions@RilSynchronous_t@@QAAJAAVRilResult_t@@PAUrilphonebookinfo_tag@@@Z 10009e44 f   simril.obj
+ 0001:00008e78       ?ReadPhonebookEntries@RilSynchronous_t@@QAAJAAVRilResult_t@@KK@Z 10009e78 f   simril.obj
+ 0001:00008eb0       ?WritePhonebookEntry@RilSynchronous_t@@QAAJAAVRilResult_t@@PAUrilphonebookentry_tag@@H@Z 10009eb0 f   simril.obj
+ 0001:00008ee8       ?ReadPhonebookEntriesEx@RilSynchronous_t@@QAAJAAVRilResult_t@@KK@Z 10009ee8 f   simril.obj
+ 0001:00008f20       ?WritePhonebookEntryEx@RilSynchronous_t@@QAAJAAVRilResult_t@@PAUrilphonebookentryex_tag@@H@Z 10009f20 f   simril.obj
+ 0001:00008f58       ?DeletePhonebookEntry@RilSynchronous_t@@QAAJAAVRilResult_t@@KH@Z 10009f58 f   simril.obj
+ 0001:00008f90       ?GetPhoneLockedState@RilSynchronous_t@@QAAJAAVRilResult_t@@@Z 10009f90 f   simril.obj
+ 0001:00008fc4       ?UnlockPhone@RilSynchronous_t@@QAAJAAVRilResult_t@@PBD1@Z 10009fc4 f   simril.obj
+ 0001:00008ffc       ?GetLockingStatus@RilSynchronous_t@@QAAJAAVRilResult_t@@KPBDH@Z 10009ffc f   simril.obj
+ 0001:00009038       ?SetLockingStatus@RilSynchronous_t@@QAAJAAVRilResult_t@@KPBDKH@Z 1000a038 f   simril.obj
+ 0001:00009078       ?ChangeLockingPassword@RilSynchronous_t@@QAAJAAVRilResult_t@@KKPBD1H@Z 1000a078 f   simril.obj
+ 0001:000090b8       ?GetEquipmentState@RilSynchronous_t@@QAAJAAVRilResult_t@@@Z 1000a0b8 f   simril.obj
+ 0001:000090ec       ?GetSimInfo@RilSynchronous_t@@QAAJAAVRilResult_t@@@Z 1000a0ec f   simril.obj
+ 0001:00009120       ?GetDevCaps@RilSynchronous_t@@QAAJAAVRilResult_t@@K@Z 1000a120 f   simril.obj
+ 0001:00009154       ?GetUserIdentity@RilSynchronous_t@@QAAJAAVRilResult_t@@@Z 1000a154 f   simril.obj
+ 0001:00009188       ?GetSimRecordStatus@RilSynchronous_t@@QAAJAAVRilResult_t@@KH@Z 1000a188 f   simril.obj
+ 0001:000091c0       ?SendRestrictedSimCmd@RilSynchronous_t@@QAAJAAVRilResult_t@@KPBUrilsimcmdparameters_tag@@PBEKH@Z 1000a1c0 f   simril.obj
+ 0001:00009200       ?GetMsgServiceOptions@RilSynchronous_t@@QAAJAAVRilResult_t@@@Z 1000a200 f   simril.obj
+ 0001:00009234       ?SetMsgServiceOptions@RilSynchronous_t@@QAAJAAVRilResult_t@@PBUrilmsgserviceinfo_tag@@@Z 1000a234 f   simril.obj
+ 0001:00009268       ?ReadMsg@RilSynchronous_t@@QAAJAAVRilResult_t@@K@Z 1000a268 f   simril.obj
+ 0001:0000929c       ?WriteMsg@RilSynchronous_t@@QAAJAAVRilResult_t@@PBUrilmessage_tag@@K@Z 1000a29c f   simril.obj
+ 0001:000092d4       ?DeleteMsg@RilSynchronous_t@@QAAJAAVRilResult_t@@K@Z 1000a2d4 f   simril.obj
+ 0001:00009308       ??0?$GrowablePointerCollection@URilSyncNotifyCallback_tag@@@@QAA@H@Z 1000a308 f i simril.obj
+ 0001:00009348       ?RemoveThingAtIndex@?$GrowablePointerCollection@URilSyncNotifyCallback_tag@@@@UAA_NH@Z 1000a348 f i simril.obj
+ 0001:00009350       ?RemoveAllThings@?$GrowablePointerCollection@URilSyncNotifyCallback_tag@@@@UAA_NXZ 1000a350 f i simril.obj
+ 0001:00009358       ?SwapThingsAtIndices@?$GrowablePointerCollection@URilSyncNotifyCallback_tag@@@@UAA_NHH@Z 1000a358 f i simril.obj
+ 0001:00009360       ?GetThingAtIndex@?$GrowablePointerCollection@URilSyncNotifyCallback_tag@@@@UAAPAURilSyncNotifyCallback_tag@@H@Z 1000a360 f i simril.obj
+ 0001:00009368       ?GetFilteredThingIndex@?$GrowablePointerCollection@URilSyncNotifyCallback_tag@@@@UAAHP6A_NABQAURilSyncNotifyCallback_tag@@PAX@ZQAX@Z 1000a368 f i simril.obj
+ 0001:00009370       ?GetPointerToThingAtIndex@?$GrowablePointerCollection@URilSyncNotifyCallback_tag@@@@UAAPAPAURilSyncNotifyCallback_tag@@H@Z 1000a370 f i simril.obj
+ 0001:00009378       ??1?$GrowablePointerCollection@URilSyncNotifyCallback_tag@@@@UAA@XZ 1000a378 f i simril.obj
+ 0001:000093cc       ?RemoveAllPointers@?$GrowablePointerCollection@URilSyncNotifyCallback_tag@@@@QAA_NXZ 1000a3cc f i simril.obj
+ 0001:00009418       ??_E?$GrowablePointerCollection@URilSyncNotifyCallback_tag@@@@UAAPAXI@Z 1000a418 f i simril.obj
+ 0001:00009418       ??_G?$GrowablePointerCollection@URilSyncNotifyCallback_tag@@@@UAAPAXI@Z 1000a418 f i simril.obj
+ 0001:0000943c       ??1RilResult_t@@QAA@XZ     1000a43c f   simril.obj
+ 0001:00009440       ??0RilSynchronous_t@@QAA@XZ 1000a440 f   simril.obj
+ 0001:000094a4       ?Clear@RilSynchronous_t@@QAAXXZ 1000a4a4 f   simril.obj
+ 0001:00009564       ?NotifyProc@RilSynchronous_t@@IAAXPAXKPBXK@Z 1000a564 f   simril.obj
+ 0001:00009650       ?SIM_RILNotifyProc@@YAXPAXKPBXKK@Z 1000a650 f i simril.obj
+ 0001:0000967c       ??1RilSynchronous_t@@QAA@XZ 1000a67c f   simril.obj
+ 0001:000096ac       ?Initialize@RilSynchronous_t@@QAAJXZ 1000a6ac f   simril.obj
+ 0001:000097c8       ?Initialize@RilSynchronous_t@@QAAJKP6AXKPBXKK@ZK@Z 1000a7c8 f   simril.obj
+ 0001:00009890       ?IsOk@SimResponse_t@@QAAHXZ 1000a890 f i usimutility.obj
+ 0001:000098d0       ?Init@RecordBuffer@@QAAJQBEK@Z 1000a8d0 f   usimutility.obj
+ 0001:0000996c       ?GetRecordInfo@SimFile_t@@QAAHPAUsimrecordinfo_tag@@PAJ@Z 1000a96c f   usimutility.obj
+ 0001:000099d0       ?Init@SimControl_t@@QAAHPAVRilSynchronous_t@@H@Z 1000a9d0 f   usimutility.obj
+ 0001:00009a08       ?ChangePath@SimControl_t@@QAAHAAVSimPath_t@@@Z 1000aa08 f   usimutility.obj
+ 0001:00009a10       ??0SimPath_t@@QAA@XZ       1000aa10 f   usimutility.obj
+ 0001:00009a1c       ?Add@SimPath_t@@AAAHI@Z    1000aa1c f   usimutility.obj
+ 0001:00009a50       ?Clear@SimResponse_t@@QAAXXZ 1000aa50 f   usimutility.obj
+ 0001:00009a84       ?_Buynode@?$list@U?$pair@KPAVSimFile_t@@@std@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@U?$pair@KPAVSimFile_t@@@std@@@list_impl@2@PAU342@@Z 1000aa84 f i usimutility.obj
+ 0001:00009ad0       ?Clear@SimFile_t@@QAAXK@Z  1000aad0 f   usimutility.obj
+ 0001:00009b3c       ?GetRecord@SimFile_t@@QAAHKPAEPAKPAJ@Z 1000ab3c f   usimutility.obj
+ 0001:00009c34       ?SetRecord@SimFile_t@@QAAHKQAEK@Z 1000ac34 f   usimutility.obj
+ 0001:00009d54       ?SetRecordError@SimFile_t@@QAAHKJ@Z 1000ad54 f   usimutility.obj
+ 0001:00009dec       ?AddPath@SimPath_t@@QAAHPAII@Z 1000adec f   usimutility.obj
+ 0001:00009e38       ?Init@SimResponse_t@@QAAHPAUrilsimresponse_tag@@K@Z 1000ae38 f   usimutility.obj
+ 0001:00009efc       ?erase@?$list@U?$pair@KPAVSimFile_t@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@KPAVSimFile_t@@@std@@@list_impl@2@V342@@Z 1000aefc f i usimutility.obj
+ 0001:00009f58       ?SendRestrictedSimCmd@SimControl_t@@AAAJKKKKKPAEKAAVSimResponse_t@@H@Z 1000af58 f   usimutility.obj
+ 0001:0000a060       ?erase@?$vector@PAVRecordBuffer@@Vallocator@ce@@U?$exponential_growth@$09@3@@ce@@QAAPAPAVRecordBuffer@@PAPAV3@0@Z 1000b060 f i usimutility.obj
+ 0001:0000a0b8       ?erase@?$list@U?$pair@KPAVSimFile_t@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@KPAVSimFile_t@@@std@@@list_impl@2@V342@0@Z 1000b0b8 f i usimutility.obj
+ 0001:0000a110       ?erase@?$vector@U?$pair@V?$iterator@U?$pair@KPAVSimFile_t@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAAPAU?$pair@V?$iterator@U?$pair@KPAVSimFile_t@@@std@@@list_impl@ce@@I@std@@PAU34@0@Z 1000b110 f i usimutility.obj
+ 0001:0000a174       ?erase@?$vector@PAVRecordBuffer@@V?$reference_allocator@Vallocator@ce@@@details@ce@@U?$exponential_growth@$09@4@@ce@@QAAPAPAVRecordBuffer@@PAPAV3@0@Z 1000b174 f i usimutility.obj
+ 0001:0000a1cc       ?erase@?$vector@U?$pair@V?$iterator@U?$pair@KPAVSimFile_t@@@std@@@list_impl@ce@@I@std@@V?$reference_allocator@Vallocator@ce@@@details@ce@@U?$exponential_growth@$09@5@@ce@@QAAPAU?$pair@V?$iterator@U?$pair@KPAVSimFile_t@@@std@@@list_impl@ce@@I@std@@PAU34@0@Z 1000b1cc f i usimutility.obj
+ 0001:0000a230       ??$insert@U?$pair@KPAVSimFile_t@@@std@@@?$list@U?$pair@KPAVSimFile_t@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@KPAVSimFile_t@@@std@@@list_impl@1@V231@ABU?$pair@KPAVSimFile_t@@@std@@@Z 1000b230 f i usimutility.obj
+ 0001:0000a280       ?clear@?$hash@V?$hash_map_traits@KPAVSimFile_t@@U?$hash_traits@K@ce@@Vallocator@3@@details@ce@@@details@ce@@QAAXXZ 1000b280 f i usimutility.obj
+ 0001:0000a2d0       ?erase@?$hash@V?$hash_map_traits@KPAVSimFile_t@@U?$hash_traits@K@ce@@Vallocator@3@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@KPAVSimFile_t@@@std@@@list_impl@3@V453@@Z 1000b2d0 f i usimutility.obj
+ 0001:0000a33c       ?Clear@SimFile_t@@QAAXXZ   1000b33c f   usimutility.obj
+ 0001:0000a3bc       ??1?$hash@V?$hash_map_traits@KPAVSimFile_t@@U?$hash_traits@K@ce@@Vallocator@3@@details@ce@@@details@ce@@QAA@XZ 1000b3bc f i usimutility.obj
+ 0001:0000a3fc       ?ClearCache@SimControl_t@@QAAXXZ 1000b3fc f   usimutility.obj
+ 0001:0000a478       ?_Insert_dispatch@?$vector@PAVRecordBuffer@@Vallocator@ce@@U?$exponential_growth@$09@3@@ce@@AAA_NPAPAVRecordBuffer@@IABQAV3@ABUtrue_type@detail@2@@Z 1000b478 f i usimutility.obj
+ 0001:0000a698       ?_Insert_dispatch@?$vector@U?$pair@V?$iterator@U?$pair@KPAVSimFile_t@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@AAA_NPAU?$pair@V?$iterator@U?$pair@KPAVSimFile_t@@@std@@@list_impl@ce@@I@std@@IABU34@ABUtrue_type@detail@2@@Z 1000b698 f i usimutility.obj
+ 0001:0000a8e0       ??1SimControl_t@@QAA@XZ    1000b8e0 f   usimutility.obj
+ 0001:0000a8f8       ??0SimControl_t@@QAA@XZ    1000b8f8 f   usimutility.obj
+ 0001:0000a950       ?resize@?$vector@PAVRecordBuffer@@Vallocator@ce@@U?$exponential_growth@$09@3@@ce@@QAA_NIABQAVRecordBuffer@@@Z 1000b950 f i usimutility.obj
+ 0001:0000a9ac       ?resize@?$vector@U?$pair@V?$iterator@U?$pair@KPAVSimFile_t@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAA_NIABU?$pair@V?$iterator@U?$pair@KPAVSimFile_t@@@std@@@list_impl@ce@@I@std@@@Z 1000b9ac f i usimutility.obj
+ 0001:0000aa08       ?SetRecordInfo@SimFile_t@@QAAHQAUsimrecordinfo_tag@@@Z 1000ba08 f   usimutility.obj
+ 0001:0000aadc       ?_ready@?$hash@V?$hash_map_traits@KPAVSimFile_t@@U?$hash_traits@K@ce@@Vallocator@3@@details@ce@@@details@ce@@IAA_NXZ 1000badc f i usimutility.obj
+ 0001:0000ab34       ?find@?$hash@V?$hash_map_traits@KPAVSimFile_t@@U?$hash_traits@K@ce@@Vallocator@3@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@KPAVSimFile_t@@@std@@@list_impl@3@ABK@Z 1000bb34 f i usimutility.obj
+ 0001:0000abac       ?insert@?$hash@V?$hash_map_traits@KPAVSimFile_t@@U?$hash_traits@K@ce@@Vallocator@3@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@KPAVSimFile_t@@@std@@@list_impl@3@ABU?$pair@KPAVSimFile_t@@@std@@@Z 1000bbac f i usimutility.obj
+ 0001:0000ac68       ?EraseCacheRecord@SimControl_t@@QAAXKK@Z 1000bc68 f   usimutility.obj
+ 0001:0000acc8       ?GetCacheRecord@SimControl_t@@QAAHKKPAEPAKPAJ@Z 1000bcc8 f   usimutility.obj
+ 0001:0000ad7c       ?SetCacheRecord@SimControl_t@@QAAHKKQAEK@Z 1000bd7c f   usimutility.obj
+ 0001:0000ae18       ?SetCacheRecordError@SimControl_t@@QAAHKKJ@Z 1000be18 f   usimutility.obj
+ 0001:0000ae9c       ?GetCacheRecordInfo@SimControl_t@@QAAHKPAUsimrecordinfo_tag@@PAJ@Z 1000be9c f   usimutility.obj
+ 0001:0000af24       ?erase@?$hash@V?$hash_map_traits@KPAVSimFile_t@@U?$hash_traits@K@ce@@Vallocator@3@@details@ce@@@details@ce@@QAAIABK@Z 1000bf24 f i usimutility.obj
+ 0001:0000af70       ?ReadRecord@SimControl_t@@QAAJKAAVSimPath_t@@W4SimAccessMode_e@@KPAEPAKH@Z 1000bf70 f   usimutility.obj
+ 0001:0000b174       ?UpdateRecord@SimControl_t@@QAAJKAAVSimPath_t@@W4SimAccessMode_e@@KQAEKH@Z 1000c174 f   usimutility.obj
+ 0001:0000b274       ?EraseCacheRecords@SimControl_t@@QAAXK@Z 1000c274 f   usimutility.obj
+ 0001:0000b308       ?SetCacheRecordInfo@SimControl_t@@QAAHKQAUsimrecordinfo_tag@@@Z 1000c308 f   usimutility.obj
+ 0001:0000b420       ?SetCacheRecordInfoError@SimControl_t@@QAAHKJ@Z 1000c420 f   usimutility.obj
+ 0001:0000b4e4       ?GetRecordInfo@SimControl_t@@QAAJKAAVSimPath_t@@PAUsimrecordinfo_tag@@H@Z 1000c4e4 f   usimutility.obj
+ 0001:0000b640       ?Parse@Tlv_t@@QAAIPAEI@Z   1000c640 f   usimphonebook.obj
+ 0001:0000b69c       ?GetFileStat@PhonebookReferenceRecord_t@@QAAHW4PhonebookFileTag_e@@PAPAVSimPhonebookFileStat_t@@@Z 1000c69c f   usimphonebook.obj
+ 0001:0000b778       ?GetRecordInfo@PhonebookReference_t@@QAAHPAVSimPhonebookFileStat_t@@@Z 1000c778 f   usimphonebook.obj
+ 0001:0000b818       ?FileChanged@UsimPhonebook_t@@QAAXK@Z 1000c818 f   usimphonebook.obj
+ 0001:0000b840       ?ReadPbcCallback@UsimPhonebook_t@@CAHPAUsimphonebookentryex_tag@@PAEIH@Z 1000c840 f   usimphonebook.obj
+ 0001:0000b87c       ?ReadGrpCallback@UsimPhonebook_t@@CAHPAUsimphonebookentryex_tag@@PAEIH@Z 1000c87c f   usimphonebook.obj
+ 0001:0000b8d8       ?ReadUidCallback@UsimPhonebook_t@@CAHPAUsimphonebookentryex_tag@@PAEIH@Z 1000c8d8 f   usimphonebook.obj
+ 0001:0000b90c       ?ReadAdnAlphaId@UsimPhonebook_t@@SAHPAGPAIPAEI@Z 1000c90c f   usimphonebook.obj
+ 0001:0000ba2c       ?CreateBcdData@UsimPhonebook_t@@AAAHPAGIPAEPAI2@Z 1000ca2c f   usimphonebook.obj
+ 0001:0000bba0       ?ReadBcdData@UsimPhonebook_t@@SAHPAEIPAGPAI@Z 1000cba0 f   usimphonebook.obj
+ 0001:0000bcf4       ?FindOpenExtRecord@UsimPhonebook_t@@AAAHIEPAE@Z 1000ccf4 f   usimphonebook.obj
+ 0001:0000bdf4       ?FindOpenType2Record@UsimPhonebook_t@@AAAHIEEPAE@Z 1000cdf4 f   usimphonebook.obj
+ 0001:0000bf1c       ?GetRecordData@UsimPhonebook_t@@AAAJIEPAE0@Z 1000cf1c f   usimphonebook.obj
+ 0001:0000bfec       ?IsGsmText@UsimPhonebook_t@@AAAHPAGI@Z 1000cfec f   usimphonebook.obj
+ 0001:0000c050       ?GetPointerAtIndex@?$GrowablePointerCollection@Usimphonebookentryex_tag@@@@QAAPAUsimphonebookentryex_tag@@H@Z 1000d050 f i usimphonebook.obj
+ 0001:0000c090       ?AddThing@?$GrowableThingCollection@PAUsimphonebookentryex_tag@@@@UAA_NQAUsimphonebookentryex_tag@@@Z 1000d090 f i usimphonebook.obj
+ 0001:0000c100       ?InsertThing@?$GrowableThingCollection@PAUsimphonebookentryex_tag@@@@UAA_NQAUsimphonebookentryex_tag@@H@Z 1000d100 f i usimphonebook.obj
+ 0001:0000c1a8       ?RemoveThingAtIndex@?$GrowableThingCollection@PAUsimphonebookentryex_tag@@@@UAA_NH@Z 1000d1a8 f i usimphonebook.obj
+ 0001:0000c22c       ?RemoveThing@?$GrowableThingCollection@PAUsimphonebookentryex_tag@@@@UAA_NQAUsimphonebookentryex_tag@@@Z 1000d22c f i usimphonebook.obj
+ 0001:0000c2bc       ?RemoveAllThings@?$GrowableThingCollection@PAUsimphonebookentryex_tag@@@@UAA_NXZ 1000d2bc f i usimphonebook.obj
+ 0001:0000c304       ?SwapThingsAtIndices@?$GrowableThingCollection@PAUsimphonebookentryex_tag@@@@UAA_NHH@Z 1000d304 f i usimphonebook.obj
+ 0001:0000c38c       ?GetSize@?$GrowableThingCollection@PAUsimphonebookentryex_tag@@@@UAAHXZ 1000d38c f i usimphonebook.obj
+ 0001:0000c3b0       ?Lock@?$GrowableThingCollection@PAUsimphonebookentryex_tag@@@@UAA_NXZ 1000d3b0 f i usimphonebook.obj
+ 0001:0000c3dc       ?Unlock@?$GrowableThingCollection@PAUsimphonebookentryex_tag@@@@UAA_NXZ 1000d3dc f i usimphonebook.obj
+ 0001:0000c420       ?BlockModificationByOtherThreads@?$GrowableThingCollection@PAUsimphonebookentryex_tag@@@@UAA_NXZ 1000d420 f i usimphonebook.obj
+ 0001:0000c434       ?AllowModificationByOtherThreads@?$GrowableThingCollection@PAUsimphonebookentryex_tag@@@@UAA_NXZ 1000d434 f i usimphonebook.obj
+ 0001:0000c448       ?GetThingAtIndex@?$GrowableThingCollection@PAUsimphonebookentryex_tag@@@@UAAPAUsimphonebookentryex_tag@@H@Z 1000d448 f i usimphonebook.obj
+ 0001:0000c49c       ?SetThingAtIndex@?$GrowableThingCollection@PAUsimphonebookentryex_tag@@@@UAA_NQAUsimphonebookentryex_tag@@H@Z 1000d49c f i usimphonebook.obj
+ 0001:0000c4e4       ?GetThingIndex@?$GrowableThingCollection@PAUsimphonebookentryex_tag@@@@UAAHQAUsimphonebookentryex_tag@@@Z 1000d4e4 f i usimphonebook.obj
+ 0001:0000c554       ?GetFilteredThingIndex@?$GrowableThingCollection@PAUsimphonebookentryex_tag@@@@UAAHP6A_NABQAUsimphonebookentryex_tag@@PAX@ZQAX@Z 1000d554 f i usimphonebook.obj
+ 0001:0000c5b8       ?GetPointerToThingAtIndex@?$GrowableThingCollection@PAUsimphonebookentryex_tag@@@@UAAPAPAUsimphonebookentryex_tag@@H@Z 1000d5b8 f i usimphonebook.obj
+ 0001:0000c604       ?GetPointerToThing@?$GrowableThingCollection@PAUsimphonebookentryex_tag@@@@UAAPAPAUsimphonebookentryex_tag@@QAU2@@Z 1000d604 f i usimphonebook.obj
+ 0001:0000c674       ?MakeRoomForAnotherThing@?$GrowableThingCollection@PAUsimphonebookentryex_tag@@@@MAA_NXZ 1000d674 f i usimphonebook.obj
+ 0001:0000c708       ?GetPointerAtIndex@?$GrowablePointerCollection@VSimPhonebookFileStat_t@@@@QAAPAVSimPhonebookFileStat_t@@H@Z 1000d708 f i usimphonebook.obj
+ 0001:0000c748       ?AddThing@?$GrowableThingCollection@PAVSimPhonebookFileStat_t@@@@UAA_NQAVSimPhonebookFileStat_t@@@Z 1000d748 f i usimphonebook.obj
+ 0001:0000c7b8       ?InsertThing@?$GrowableThingCollection@PAVSimPhonebookFileStat_t@@@@UAA_NQAVSimPhonebookFileStat_t@@H@Z 1000d7b8 f i usimphonebook.obj
+ 0001:0000c860       ?RemoveThingAtIndex@?$GrowableThingCollection@PAVSimPhonebookFileStat_t@@@@UAA_NH@Z 1000d860 f i usimphonebook.obj
+ 0001:0000c8e4       ?RemoveThing@?$GrowableThingCollection@PAVSimPhonebookFileStat_t@@@@UAA_NQAVSimPhonebookFileStat_t@@@Z 1000d8e4 f i usimphonebook.obj
+ 0001:0000c974       ?RemoveAllThings@?$GrowableThingCollection@PAVSimPhonebookFileStat_t@@@@UAA_NXZ 1000d974 f i usimphonebook.obj
+ 0001:0000c9bc       ?SwapThingsAtIndices@?$GrowableThingCollection@PAVSimPhonebookFileStat_t@@@@UAA_NHH@Z 1000d9bc f i usimphonebook.obj
+ 0001:0000ca44       ?GetSize@?$GrowableThingCollection@PAVSimPhonebookFileStat_t@@@@UAAHXZ 1000da44 f i usimphonebook.obj
+ 0001:0000ca68       ?Lock@?$GrowableThingCollection@PAVSimPhonebookFileStat_t@@@@UAA_NXZ 1000da68 f i usimphonebook.obj
+ 0001:0000ca94       ?Unlock@?$GrowableThingCollection@PAVSimPhonebookFileStat_t@@@@UAA_NXZ 1000da94 f i usimphonebook.obj
+ 0001:0000cad8       ?BlockModificationByOtherThreads@?$GrowableThingCollection@PAVSimPhonebookFileStat_t@@@@UAA_NXZ 1000dad8 f i usimphonebook.obj
+ 0001:0000caec       ?AllowModificationByOtherThreads@?$GrowableThingCollection@PAVSimPhonebookFileStat_t@@@@UAA_NXZ 1000daec f i usimphonebook.obj
+ 0001:0000cb00       ?GetThingAtIndex@?$GrowableThingCollection@PAVSimPhonebookFileStat_t@@@@UAAPAVSimPhonebookFileStat_t@@H@Z 1000db00 f i usimphonebook.obj
+ 0001:0000cb54       ?SetThingAtIndex@?$GrowableThingCollection@PAVSimPhonebookFileStat_t@@@@UAA_NQAVSimPhonebookFileStat_t@@H@Z 1000db54 f i usimphonebook.obj
+ 0001:0000cb9c       ?GetThingIndex@?$GrowableThingCollection@PAVSimPhonebookFileStat_t@@@@UAAHQAVSimPhonebookFileStat_t@@@Z 1000db9c f i usimphonebook.obj
+ 0001:0000cc0c       ?GetFilteredThingIndex@?$GrowableThingCollection@PAVSimPhonebookFileStat_t@@@@UAAHP6A_NABQAVSimPhonebookFileStat_t@@PAX@ZQAX@Z 1000dc0c f i usimphonebook.obj
+ 0001:0000cc70       ?GetPointerToThingAtIndex@?$GrowableThingCollection@PAVSimPhonebookFileStat_t@@@@UAAPAPAVSimPhonebookFileStat_t@@H@Z 1000dc70 f i usimphonebook.obj
+ 0001:0000ccbc       ?GetPointerToThing@?$GrowableThingCollection@PAVSimPhonebookFileStat_t@@@@UAAPAPAVSimPhonebookFileStat_t@@QAV2@@Z 1000dcbc f i usimphonebook.obj
+ 0001:0000cd2c       ?MakeRoomForAnotherThing@?$GrowableThingCollection@PAVSimPhonebookFileStat_t@@@@MAA_NXZ 1000dd2c f i usimphonebook.obj
+ 0001:0000cdc0       ?GetPointerAtIndex@?$GrowablePointerCollection@VPhonebookReferenceRecord_t@@@@QAAPAVPhonebookReferenceRecord_t@@H@Z 1000ddc0 f i usimphonebook.obj
+ 0001:0000ce00       ?AddThing@?$GrowableThingCollection@PAVPhonebookReferenceRecord_t@@@@UAA_NQAVPhonebookReferenceRecord_t@@@Z 1000de00 f i usimphonebook.obj
+ 0001:0000ce70       ?InsertThing@?$GrowableThingCollection@PAVPhonebookReferenceRecord_t@@@@UAA_NQAVPhonebookReferenceRecord_t@@H@Z 1000de70 f i usimphonebook.obj
+ 0001:0000cf18       ?RemoveThingAtIndex@?$GrowableThingCollection@PAVPhonebookReferenceRecord_t@@@@UAA_NH@Z 1000df18 f i usimphonebook.obj
+ 0001:0000cf9c       ?RemoveThing@?$GrowableThingCollection@PAVPhonebookReferenceRecord_t@@@@UAA_NQAVPhonebookReferenceRecord_t@@@Z 1000df9c f i usimphonebook.obj
+ 0001:0000d02c       ?RemoveAllThings@?$GrowableThingCollection@PAVPhonebookReferenceRecord_t@@@@UAA_NXZ 1000e02c f i usimphonebook.obj
+ 0001:0000d074       ?SwapThingsAtIndices@?$GrowableThingCollection@PAVPhonebookReferenceRecord_t@@@@UAA_NHH@Z 1000e074 f i usimphonebook.obj
+ 0001:0000d0fc       ?GetSize@?$GrowableThingCollection@PAVPhonebookReferenceRecord_t@@@@UAAHXZ 1000e0fc f i usimphonebook.obj
+ 0001:0000d120       ?Lock@?$GrowableThingCollection@PAVPhonebookReferenceRecord_t@@@@UAA_NXZ 1000e120 f i usimphonebook.obj
+ 0001:0000d14c       ?Unlock@?$GrowableThingCollection@PAVPhonebookReferenceRecord_t@@@@UAA_NXZ 1000e14c f i usimphonebook.obj
+ 0001:0000d190       ?BlockModificationByOtherThreads@?$GrowableThingCollection@PAVPhonebookReferenceRecord_t@@@@UAA_NXZ 1000e190 f i usimphonebook.obj
+ 0001:0000d1a4       ?AllowModificationByOtherThreads@?$GrowableThingCollection@PAVPhonebookReferenceRecord_t@@@@UAA_NXZ 1000e1a4 f i usimphonebook.obj
+ 0001:0000d1b8       ?GetThingAtIndex@?$GrowableThingCollection@PAVPhonebookReferenceRecord_t@@@@UAAPAVPhonebookReferenceRecord_t@@H@Z 1000e1b8 f i usimphonebook.obj
+ 0001:0000d20c       ?SetThingAtIndex@?$GrowableThingCollection@PAVPhonebookReferenceRecord_t@@@@UAA_NQAVPhonebookReferenceRecord_t@@H@Z 1000e20c f i usimphonebook.obj
+ 0001:0000d254       ?GetThingIndex@?$GrowableThingCollection@PAVPhonebookReferenceRecord_t@@@@UAAHQAVPhonebookReferenceRecord_t@@@Z 1000e254 f i usimphonebook.obj
+ 0001:0000d2c4       ?GetFilteredThingIndex@?$GrowableThingCollection@PAVPhonebookReferenceRecord_t@@@@UAAHP6A_NABQAVPhonebookReferenceRecord_t@@PAX@ZQAX@Z 1000e2c4 f i usimphonebook.obj
+ 0001:0000d328       ?GetPointerToThingAtIndex@?$GrowableThingCollection@PAVPhonebookReferenceRecord_t@@@@UAAPAPAVPhonebookReferenceRecord_t@@H@Z 1000e328 f i usimphonebook.obj
+ 0001:0000d374       ?GetPointerToThing@?$GrowableThingCollection@PAVPhonebookReferenceRecord_t@@@@UAAPAPAVPhonebookReferenceRecord_t@@QAV2@@Z 1000e374 f i usimphonebook.obj
+ 0001:0000d3e4       ?MakeRoomForAnotherThing@?$GrowableThingCollection@PAVPhonebookReferenceRecord_t@@@@MAA_NXZ 1000e3e4 f i usimphonebook.obj
+ 0001:0000d478       ??_G?$GrowableThingCollection@PAUsimphonebookentryex_tag@@@@UAAPAXI@Z 1000e478 f i usimphonebook.obj
+ 0001:0000d478       ??_E?$GrowableThingCollection@PAUsimphonebookentryex_tag@@@@UAAPAXI@Z 1000e478 f i usimphonebook.obj
+ 0001:0000d4c4       ??_E?$GrowableThingCollection@PAVSimPhonebookFileStat_t@@@@UAAPAXI@Z 1000e4c4 f i usimphonebook.obj
+ 0001:0000d4c4       ??_G?$GrowableThingCollection@PAVSimPhonebookFileStat_t@@@@UAAPAXI@Z 1000e4c4 f i usimphonebook.obj
+ 0001:0000d510       ??_E?$GrowableThingCollection@PAVPhonebookReferenceRecord_t@@@@UAAPAXI@Z 1000e510 f i usimphonebook.obj
+ 0001:0000d510       ??_G?$GrowableThingCollection@PAVPhonebookReferenceRecord_t@@@@UAAPAXI@Z 1000e510 f i usimphonebook.obj
+ 0001:0000d55c       ??0?$GrowableThingCollection@PAUsimphonebookentryex_tag@@@@QAA@H@Z 1000e55c f i usimphonebook.obj
+ 0001:0000d5a8       ??0?$GrowableThingCollection@PAVSimPhonebookFileStat_t@@@@QAA@H@Z 1000e5a8 f i usimphonebook.obj
+ 0001:0000d5f4       ??0?$GrowableThingCollection@PAVPhonebookReferenceRecord_t@@@@QAA@H@Z 1000e5f4 f i usimphonebook.obj
+ 0001:0000d640       ?GetFileCount@PhonebookReferenceRecord_t@@QAAIW4PhonebookFileTag_e@@@Z 1000e640 f   usimphonebook.obj
+ 0001:0000d6bc       ?ReadSneCallback@UsimPhonebook_t@@CAHPAUsimphonebookentryex_tag@@PAEIH@Z 1000e6bc f   usimphonebook.obj
+ 0001:0000d730       ?VerifyAddressText@UsimPhonebook_t@@AAAJPAGII@Z 1000e730 f   usimphonebook.obj
+ 0001:0000d7f4       ?CreateAddress@UsimPhonebook_t@@AAAHKKPAGPAEIPAI@Z 1000e7f4 f   usimphonebook.obj
+ 0001:0000d950       ?ReadAddress@UsimPhonebook_t@@SAHPAK0PAGPAIPAEI@Z 1000e950 f   usimphonebook.obj
+ 0001:0000dac0       ?CreateAdnAlphaId@UsimPhonebook_t@@AAAHPAGKPAEKPAKH@Z 1000eac0 f   usimphonebook.obj
+ 0001:0000dbdc       ??0?$GrowablePointerCollection@Usimphonebookentryex_tag@@@@QAA@H@Z 1000ebdc f i usimphonebook.obj
+ 0001:0000dc1c       ?RemoveThingAtIndex@?$GrowablePointerCollection@Usimphonebookentryex_tag@@@@UAA_NH@Z 1000ec1c f i usimphonebook.obj
+ 0001:0000dc24       ?RemoveAllThings@?$GrowablePointerCollection@Usimphonebookentryex_tag@@@@UAA_NXZ 1000ec24 f i usimphonebook.obj
+ 0001:0000dc2c       ?SwapThingsAtIndices@?$GrowablePointerCollection@Usimphonebookentryex_tag@@@@UAA_NHH@Z 1000ec2c f i usimphonebook.obj
+ 0001:0000dc34       ?GetThingAtIndex@?$GrowablePointerCollection@Usimphonebookentryex_tag@@@@UAAPAUsimphonebookentryex_tag@@H@Z 1000ec34 f i usimphonebook.obj
+ 0001:0000dc3c       ?GetFilteredThingIndex@?$GrowablePointerCollection@Usimphonebookentryex_tag@@@@UAAHP6A_NABQAUsimphonebookentryex_tag@@PAX@ZQAX@Z 1000ec3c f i usimphonebook.obj
+ 0001:0000dc44       ?GetPointerToThingAtIndex@?$GrowablePointerCollection@Usimphonebookentryex_tag@@@@UAAPAPAUsimphonebookentryex_tag@@H@Z 1000ec44 f i usimphonebook.obj
+ 0001:0000dc4c       ??1?$GrowablePointerCollection@Usimphonebookentryex_tag@@@@UAA@XZ 1000ec4c f i usimphonebook.obj
+ 0001:0000dca0       ?RemoveAllPointers@?$GrowablePointerCollection@Usimphonebookentryex_tag@@@@QAA_NXZ 1000eca0 f i usimphonebook.obj
+ 0001:0000dcec       ??0?$GrowablePointerCollection@VSimPhonebookFileStat_t@@@@QAA@H@Z 1000ecec f i usimphonebook.obj
+ 0001:0000dd2c       ?RemoveThingAtIndex@?$GrowablePointerCollection@VSimPhonebookFileStat_t@@@@UAA_NH@Z 1000ed2c f i usimphonebook.obj
+ 0001:0000dd34       ?RemoveAllThings@?$GrowablePointerCollection@VSimPhonebookFileStat_t@@@@UAA_NXZ 1000ed34 f i usimphonebook.obj
+ 0001:0000dd3c       ?SwapThingsAtIndices@?$GrowablePointerCollection@VSimPhonebookFileStat_t@@@@UAA_NHH@Z 1000ed3c f i usimphonebook.obj
+ 0001:0000dd44       ?GetThingAtIndex@?$GrowablePointerCollection@VSimPhonebookFileStat_t@@@@UAAPAVSimPhonebookFileStat_t@@H@Z 1000ed44 f i usimphonebook.obj
+ 0001:0000dd4c       ?GetFilteredThingIndex@?$GrowablePointerCollection@VSimPhonebookFileStat_t@@@@UAAHP6A_NABQAVSimPhonebookFileStat_t@@PAX@ZQAX@Z 1000ed4c f i usimphonebook.obj
+ 0001:0000dd54       ?GetPointerToThingAtIndex@?$GrowablePointerCollection@VSimPhonebookFileStat_t@@@@UAAPAPAVSimPhonebookFileStat_t@@H@Z 1000ed54 f i usimphonebook.obj
+ 0001:0000dd5c       ??1?$GrowablePointerCollection@VSimPhonebookFileStat_t@@@@UAA@XZ 1000ed5c f i usimphonebook.obj
+ 0001:0000ddb0       ?RemoveAllPointers@?$GrowablePointerCollection@VSimPhonebookFileStat_t@@@@QAA_NXZ 1000edb0 f i usimphonebook.obj
+ 0001:0000ddfc       ??0?$GrowablePointerCollection@VPhonebookReferenceRecord_t@@@@QAA@H@Z 1000edfc f i usimphonebook.obj
+ 0001:0000de3c       ?RemoveThingAtIndex@?$GrowablePointerCollection@VPhonebookReferenceRecord_t@@@@UAA_NH@Z 1000ee3c f i usimphonebook.obj
+ 0001:0000de44       ?RemoveAllThings@?$GrowablePointerCollection@VPhonebookReferenceRecord_t@@@@UAA_NXZ 1000ee44 f i usimphonebook.obj
+ 0001:0000de4c       ?SwapThingsAtIndices@?$GrowablePointerCollection@VPhonebookReferenceRecord_t@@@@UAA_NHH@Z 1000ee4c f i usimphonebook.obj
+ 0001:0000de54       ?GetThingAtIndex@?$GrowablePointerCollection@VPhonebookReferenceRecord_t@@@@UAAPAVPhonebookReferenceRecord_t@@H@Z 1000ee54 f i usimphonebook.obj
+ 0001:0000de5c       ?GetFilteredThingIndex@?$GrowablePointerCollection@VPhonebookReferenceRecord_t@@@@UAAHP6A_NABQAVPhonebookReferenceRecord_t@@PAX@ZQAX@Z 1000ee5c f i usimphonebook.obj
+ 0001:0000de64       ?GetPointerToThingAtIndex@?$GrowablePointerCollection@VPhonebookReferenceRecord_t@@@@UAAPAPAVPhonebookReferenceRecord_t@@H@Z 1000ee64 f i usimphonebook.obj
+ 0001:0000de6c       ??1?$GrowablePointerCollection@VPhonebookReferenceRecord_t@@@@UAA@XZ 1000ee6c f i usimphonebook.obj
+ 0001:0000dec0       ?RemoveAllPointers@?$GrowablePointerCollection@VPhonebookReferenceRecord_t@@@@QAA_NXZ 1000eec0 f i usimphonebook.obj
+ 0001:0000df0c       ??_E?$GrowablePointerCollection@Usimphonebookentryex_tag@@@@UAAPAXI@Z 1000ef0c f i usimphonebook.obj
+ 0001:0000df0c       ??_G?$GrowablePointerCollection@Usimphonebookentryex_tag@@@@UAAPAXI@Z 1000ef0c f i usimphonebook.obj
+ 0001:0000df30       ??_E?$GrowablePointerCollection@VSimPhonebookFileStat_t@@@@UAAPAXI@Z 1000ef30 f i usimphonebook.obj
+ 0001:0000df30       ??_G?$GrowablePointerCollection@VSimPhonebookFileStat_t@@@@UAAPAXI@Z 1000ef30 f i usimphonebook.obj
+ 0001:0000df54       ??_G?$GrowablePointerCollection@VPhonebookReferenceRecord_t@@@@UAAPAXI@Z 1000ef54 f i usimphonebook.obj
+ 0001:0000df54       ??_E?$GrowablePointerCollection@VPhonebookReferenceRecord_t@@@@UAAPAXI@Z 1000ef54 f i usimphonebook.obj
+ 0001:0000df78       ??1PhonebookEntryCollection_t@@UAA@XZ 1000ef78 f   usimphonebook.obj
+ 0001:0000dfd0       ??_EPhonebookEntryCollection_t@@UAAPAXI@Z 1000efd0 f i usimphonebook.obj
+ 0001:0000dfd0       ??_GPhonebookEntryCollection_t@@UAAPAXI@Z 1000efd0 f i usimphonebook.obj
+ 0001:0000dff4       ??0PhonebookReferenceRecord_t@@QAA@XZ 1000eff4 f   usimphonebook.obj
+ 0001:0000e048       ?FreePointerCollection@PhonebookReferenceRecord_t@@AAAXPAV?$GrowablePointerCollection@VSimPhonebookFileStat_t@@@@@Z 1000f048 f   usimphonebook.obj
+ 0001:0000e094       ?GetFileStat@PhonebookReferenceRecord_t@@QAAHW4PhonebookFileTag_e@@IPAPAVSimPhonebookFileStat_t@@@Z 1000f094 f   usimphonebook.obj
+ 0001:0000e188       ?VerifyAlphaIdText@UsimPhonebook_t@@AAAJPAGIIH@Z 1000f188 f   usimphonebook.obj
+ 0001:0000e254       ?CreateAdnAddress@UsimPhonebook_t@@AAAHPAUsimphonebookentryex_tag@@PAEIPAI@Z 1000f254 f   usimphonebook.obj
+ 0001:0000e2bc       ?ReadAdnAddress@UsimPhonebook_t@@SAHPAUsimphonebookentryex_tag@@PAIPAEI@Z 1000f2bc f   usimphonebook.obj
+ 0001:0000e370       ?CreateAnrAddress@UsimPhonebook_t@@AAAHPAUsimphonebookadditionalnumber_tag@@PAEIPAI@Z 1000f370 f   usimphonebook.obj
+ 0001:0000e3d8       ?Clear@PhonebookReferenceRecord_t@@QAAXXZ 1000f3d8 f   usimphonebook.obj
+ 0001:0000e53c       ?GetReferenceRecord@PhonebookReference_t@@AAAPAVPhonebookReferenceRecord_t@@I@Z 1000f53c f   usimphonebook.obj
+ 0001:0000e5e4       ?GetFileCount@PhonebookReference_t@@QAAIIW4PhonebookFileTag_e@@@Z 1000f5e4 f   usimphonebook.obj
+ 0001:0000e61c       ?Clear@PhonebookReference_t@@QAAXXZ 1000f61c f   usimphonebook.obj
+ 0001:0000e690       ?GetFileStat@PhonebookReference_t@@AAAPAVSimPhonebookFileStat_t@@IW4PhonebookFileTag_e@@I@Z 1000f690 f   usimphonebook.obj
+ 0001:0000e6f8       ?Clear@UsimPhonebook_t@@QAAXXZ 1000f6f8 f   usimphonebook.obj
+ 0001:0000e730       ?GetRecordCount@PhonebookReference_t@@QAAEIW4PhonebookFileTag_e@@I@Z 1000f730 f   usimphonebook.obj
+ 0001:0000e788       ?GetRecordSize@PhonebookReference_t@@QAAEIW4PhonebookFileTag_e@@I@Z 1000f788 f   usimphonebook.obj
+ 0001:0000e7e0       ??0UsimPhonebook_t@@QAA@XZ 1000f7e0 f   usimphonebook.obj
+ 0001:0000e838       ??1UsimPhonebook_t@@QAA@XZ 1000f838 f   usimphonebook.obj
+ 0001:0000e874       ?WritePhonebookTag@UsimPhonebook_t@@QAAJKKPAG@Z 1000f874 f   usimphonebook.obj
+ 0001:0000ea18       ?ReadPhonebookTag@UsimPhonebook_t@@QAAJKKPAGK@Z 1000fa18 f   usimphonebook.obj
+ 0001:0000eb70       ?ParseReferenceRecord@UsimPhonebook_t@@AAAHIPAEI@Z 1000fb70 f   usimphonebook.obj
+ 0001:0000ee18       ?WritePbcData@UsimPhonebook_t@@AAAJIEPAUsimphonebookentryex_tag@@@Z 1000fe18 f   usimphonebook.obj
+ 0001:0000ef48       ?WriteUidData@UsimPhonebook_t@@AAAJIEPAUsimphonebookentryex_tag@@@Z 1000ff48 f   usimphonebook.obj
+ 0001:0000f06c       ?WriteGrpData@UsimPhonebook_t@@AAAJIEPAUsimphonebookentryex_tag@@@Z 1001006c f   usimphonebook.obj
+ 0001:0000f1e4       ?ClearExtData@UsimPhonebook_t@@AAAJIE@Z 100101e4 f   usimphonebook.obj
+ 0001:0000f32c       ?CreateExtData@UsimPhonebook_t@@AAAJIPAGIPAE@Z 1001032c f   usimphonebook.obj
+ 0001:0000f53c       ?ReadExtData@UsimPhonebook_t@@AAAHIEPAGI@Z 1001053c f   usimphonebook.obj
+ 0001:0000f670       ?GetIapData@UsimPhonebook_t@@AAAJIEPAE0@Z 10010670 f   usimphonebook.obj
+ 0001:0000f74c       ?AdnRecordCount@UsimPhonebook_t@@AAAIXZ 1001074c f   usimphonebook.obj
+ 0001:0000f7b4       ?ClearData@UsimPhonebook_t@@AAAJW4PhonebookFileTag_e@@IEE@Z 100107b4 f   usimphonebook.obj
+ 0001:0000fb48       ?Type1FileEntryChanged@UsimPhonebook_t@@AAAXHEW4PhonebookFileTag_e@@@Z 10010b48 f   usimphonebook.obj
+ 0001:0000fb88       ?Type2FileEntryChanged@UsimPhonebook_t@@AAAXHEW4PhonebookFileTag_e@@I@Z 10010b88 f   usimphonebook.obj
+ 0001:0000fc00       ?MultipleType2EntryChanged@UsimPhonebook_t@@AAAXIEW4PhonebookFileTag_e@@@Z 10010c00 f   usimphonebook.obj
+ 0001:0000fc60       ?GetUsimPhonebookCapabilities@UsimPhonebook_t@@QAAJKPAUsimphonebookcaps_tag@@@Z 10010c60 f   usimphonebook.obj
+ 0001:0001011c       ?GetPhonebookStatus@UsimPhonebook_t@@QAAJPAK0@Z 1001111c f   usimphonebook.obj
+ 0001:000102e0       ?ReadReferenceRecord@UsimPhonebook_t@@AAAHKKK@Z 100112e0 f   usimphonebook.obj
+ 0001:00010398       ?WriteAdnData@UsimPhonebook_t@@AAAJIEPAUsimphonebookentryex_tag@@@Z 10011398 f   usimphonebook.obj
+ 0001:00010788       ?WriteAnrData@UsimPhonebook_t@@AAAJIEPAUsimphonebookentryex_tag@@@Z 10011788 f   usimphonebook.obj
+ 0001:00010cc8       ?WriteEmailData@UsimPhonebook_t@@AAAJIEPAUsimphonebookentryex_tag@@@Z 10011cc8 f   usimphonebook.obj
+ 0001:00011084       ?WriteSneData@UsimPhonebook_t@@AAAJIEPAUsimphonebookentryex_tag@@@Z 10012084 f   usimphonebook.obj
+ 0001:0001138c       ?VerifyPhonebookEntry@UsimPhonebook_t@@AAAJPAUsimphonebookentryex_tag@@@Z 1001238c f   usimphonebook.obj
+ 0001:00011654       ?FindOpenAdnRecord@UsimPhonebook_t@@AAAJPAIH@Z 10012654 f   usimphonebook.obj
+ 0001:0001188c       ?GetLocalIndex@UsimPhonebook_t@@AAAHIPAIPAE@Z 1001288c f   usimphonebook.obj
+ 0001:0001192c       ?WritePhonebookEntry@UsimPhonebook_t@@QAAJPAIPAUsimphonebookentryex_tag@@@Z 1001292c f   usimphonebook.obj
+ 0001:00011b4c       ?EntryChanged@UsimPhonebook_t@@QAAXK@Z 10012b4c f   usimphonebook.obj
+ 0001:00011c84       ?DeleteEntry@UsimPhonebook_t@@QAAJKH@Z 10012c84 f   usimphonebook.obj
+ 0001:00011ee8       ?ReadReferenceRecords@UsimPhonebook_t@@AAAHKKK@Z 10012ee8 f   usimphonebook.obj
+ 0001:00011f4c       ?ReadAdnRecord@UsimPhonebook_t@@AAAJIPAE0@Z 10012f4c f   usimphonebook.obj
+ 0001:00012060       ?ReadAdnData@UsimPhonebook_t@@AAAJPAVPhonebookEntryCollection_t@@II@Z 10013060 f   usimphonebook.obj
+ 0001:000122ac       ?ReadAnrData@UsimPhonebook_t@@AAAJPAVPhonebookEntryCollection_t@@PAUsimphonebookadditionalnumber_tag@@PAI@Z 100132ac f   usimphonebook.obj
+ 0001:0001280c       ?ReadEmailData@UsimPhonebook_t@@AAAJPAVPhonebookEntryCollection_t@@PAUsimphonebookemailaddress_tag@@PAI@Z 1001380c f   usimphonebook.obj
+ 0001:00012bf0       ?ReadGenericData@UsimPhonebook_t@@AAAJPAVPhonebookEntryCollection_t@@W4PhonebookFileTag_e@@P6AHPAUsimphonebookentryex_tag@@PAEIH@ZH@Z 10013bf0 f   usimphonebook.obj
+ 0001:00012e74       ?Init@UsimPhonebook_t@@QAAHPAVRilSynchronous_t@@AAVSimPath_t@@K@Z 10013e74 f   usimphonebook.obj
+ 0001:0001305c       ?ReadPhonebookEntries@UsimPhonebook_t@@QAAJKPAKPAUsimphonebookentryex_tag@@0@Z 1001405c f   usimphonebook.obj
+ 0001:00013520       ?PhonebookChanged@UsimPhonebook_t@@QAAXXZ 10014520 f   usimphonebook.obj
+ 0001:000135dc       ?Init@UsimPhonebook_t@@QAAHPAVRilSynchronous_t@@@Z 100145dc f   usimphonebook.obj
+ 0001:00013610       ??0SmsFullNotifier_t@@QAA@XZ 10014610 f   smsfullnotifier.obj
+ 0001:0001365c       ??1SmsFullNotifier_t@@QAA@XZ 1001465c f   smsfullnotifier.obj
+ 0001:00013674       ?Lock@SmsFullNotifier_t@@QAAXXZ 10014674 f   smsfullnotifier.obj
+ 0001:00013678       ?Unlock@SmsFullNotifier_t@@QAAXXZ 10014678 f   smsfullnotifier.obj
+ 0001:0001367c       ?SetSimMgr@SmsFullNotifier_t@@QAAXPAVCSimMgr@@@Z 1001467c f   smsfullnotifier.obj
+ 0001:00013684       ?InternalSetCount@SmsFullNotifier_t@@AAAXKK@Z 10014684 f   smsfullnotifier.obj
+ 0001:000136c0       ?Clear@SmsFullNotifier_t@@QAAXXZ 100146c0 f   smsfullnotifier.obj
+ 0001:000136ec       ?CheckAndSendNotification@SmsFullNotifier_t@@AAAXXZ 100146ec f   smsfullnotifier.obj
+ 0001:00013768       ?SetCount@SmsFullNotifier_t@@QAAXKK@Z 10014768 f   smsfullnotifier.obj
+ 0001:000137e0       ?GetSimStatus@SmsFullNotifier_t@@AAAXXZ 100147e0 f   smsfullnotifier.obj
+ 0001:00013848       ?SimIsReady@SmsFullNotifier_t@@QAAXXZ 10014848 f   smsfullnotifier.obj
+ 0001:00013870       ?MsgStored@SmsFullNotifier_t@@QAAXXZ 10014870 f   smsfullnotifier.obj
+ 0001:000138cc       ?MsgDeleted@SmsFullNotifier_t@@QAAXXZ 100148cc f   smsfullnotifier.obj
+ 0001:00013928       ?CurrentState@SmsFullNotifier_t@@QAA?AW4SmsStoreState_e@@XZ 10014928 f   smsfullnotifier.obj
+ 0001:000139a0       ?NotifyTaskProc@SmsFullNotifier_t@@CA_NPAX@Z 100149a0 f   smsfullnotifier.obj
+ 0001:00013a3c       ?_tcsncpyz@@YAPAGQAGQBGI@Z 10014a3c f   toolbox:toolbox_i.obj
+ 0001:00013a60       ?wcsncpyz@@YAPAGQAGQBGI@Z  10014a60 f   toolbox:toolbox_i.obj
+ 0001:00013a84       ?GetRegistryDWORD@@YA_NQAUHKEY__@@QBG1QAK@Z 10014a84 f   toolbox:toolbox_i.obj
+ 0001:00013b74       ?GetRegistryBoolean@@YA_NQAUHKEY__@@QBG1QA_N@Z 10014b74 f   toolbox:toolbox_i.obj
+ 0001:00013bbc       ?GetRegistrySZ@@YA_NQAUHKEY__@@QBG1QAGK@Z 10014bbc f   toolbox:toolbox_i.obj
+ 0001:00013c94       ??0AnsiString@@QAA@QBGG@Z  10014c94 f   toolbox:toolbox_i.obj
+ 0001:00013d8c       ??1AnsiString@@QAA@XZ      10014d8c f   toolbox:toolbox_i.obj
+ 0001:00013da4       ??0WideString@@QAA@QBDD@Z  10014da4 f   toolbox:toolbox_i.obj
+ 0001:00013e88       ??0WideString@@QAA@QBGG@Z  10014e88 f   toolbox:toolbox_i.obj
+ 0001:00013f0c       ??1WideString@@QAA@XZ      10014f0c f   toolbox:toolbox_i.obj
+ 0001:00013f24       ?TasksRemaining@TaskList@@QAAIXZ 10014f24 f   toolbox:toolbox_i.obj
+ 0001:00013f94       ?TaskListThreadProc@@YAKPAX@Z 10014f94 f   toolbox:toolbox_i.obj
+ 0001:00014130       ??0?$GrowableThingCollection@PAX@@QAA@H@Z 10015130 f i toolbox:toolbox_i.obj
+ 0001:0001417c       ?AddThing@?$GrowableThingCollection@PAX@@UAA_NQAX@Z 1001517c f i toolbox:toolbox_i.obj
+ 0001:000141ec       ?InsertThing@?$GrowableThingCollection@PAX@@UAA_NQAXH@Z 100151ec f i toolbox:toolbox_i.obj
+ 0001:00014294       ?RemoveThingAtIndex@?$GrowableThingCollection@PAX@@UAA_NH@Z 10015294 f i toolbox:toolbox_i.obj
+ 0001:00014318       ?RemoveThing@?$GrowableThingCollection@PAX@@UAA_NQAX@Z 10015318 f i toolbox:toolbox_i.obj
+ 0001:000143a8       ?RemoveAllThings@?$GrowableThingCollection@PAX@@UAA_NXZ 100153a8 f i toolbox:toolbox_i.obj
+ 0001:000143f0       ?SwapThingsAtIndices@?$GrowableThingCollection@PAX@@UAA_NHH@Z 100153f0 f i toolbox:toolbox_i.obj
+ 0001:00014478       ?GetSize@?$GrowableThingCollection@PAX@@UAAHXZ 10015478 f i toolbox:toolbox_i.obj
+ 0001:0001449c       ?Lock@?$GrowableThingCollection@PAX@@UAA_NXZ 1001549c f i toolbox:toolbox_i.obj
+ 0001:000144c8       ?Unlock@?$GrowableThingCollection@PAX@@UAA_NXZ 100154c8 f i toolbox:toolbox_i.obj
+ 0001:0001450c       ?BlockModificationByOtherThreads@?$GrowableThingCollection@PAX@@UAA_NXZ 1001550c f i toolbox:toolbox_i.obj
+ 0001:00014520       ?AllowModificationByOtherThreads@?$GrowableThingCollection@PAX@@UAA_NXZ 10015520 f i toolbox:toolbox_i.obj
+ 0001:00014534       ?GetThingAtIndex@?$GrowableThingCollection@PAX@@UAAPAXH@Z 10015534 f i toolbox:toolbox_i.obj
+ 0001:00014588       ?SetThingAtIndex@?$GrowableThingCollection@PAX@@UAA_NQAXH@Z 10015588 f i toolbox:toolbox_i.obj
+ 0001:000145d0       ?GetThingIndex@?$GrowableThingCollection@PAX@@UAAHQAX@Z 100155d0 f i toolbox:toolbox_i.obj
+ 0001:00014640       ?GetFilteredThingIndex@?$GrowableThingCollection@PAX@@UAAHP6A_NABQAXPAX@ZQAX@Z 10015640 f i toolbox:toolbox_i.obj
+ 0001:000146a4       ?GetPointerToThingAtIndex@?$GrowableThingCollection@PAX@@UAAPAPAXH@Z 100156a4 f i toolbox:toolbox_i.obj
+ 0001:000146f0       ?GetPointerToThing@?$GrowableThingCollection@PAX@@UAAPAPAXQAX@Z 100156f0 f i toolbox:toolbox_i.obj
+ 0001:00014760       ?MakeRoomForAnotherThing@?$GrowableThingCollection@PAX@@MAA_NXZ 10015760 f i toolbox:toolbox_i.obj
+ 0001:000147f4       ??0?$GrowableThingCollection@UTaskListTaskData@TaskList@@@@QAA@H@Z 100157f4 f i toolbox:toolbox_i.obj
+ 0001:00014840       ?AddThing@?$GrowableThingCollection@UTaskListTaskData@TaskList@@@@UAA_NUTaskListTaskData@TaskList@@@Z 10015840 f i toolbox:toolbox_i.obj
+ 0001:000148d0       ?InsertThing@?$GrowableThingCollection@UTaskListTaskData@TaskList@@@@UAA_NUTaskListTaskData@TaskList@@H@Z 100158d0 f i toolbox:toolbox_i.obj
+ 0001:00014998       ?RemoveThingAtIndex@?$GrowableThingCollection@UTaskListTaskData@TaskList@@@@UAA_NH@Z 10015998 f i toolbox:toolbox_i.obj
+ 0001:00014a24       ?RemoveThing@?$GrowableThingCollection@UTaskListTaskData@TaskList@@@@UAA_NUTaskListTaskData@TaskList@@@Z 10015a24 f i toolbox:toolbox_i.obj
+ 0001:00014ac8       ?RemoveAllThings@?$GrowableThingCollection@UTaskListTaskData@TaskList@@@@UAA_NXZ 10015ac8 f i toolbox:toolbox_i.obj
+ 0001:00014b10       ?SwapThingsAtIndices@?$GrowableThingCollection@UTaskListTaskData@TaskList@@@@UAA_NHH@Z 10015b10 f i toolbox:toolbox_i.obj
+ 0001:00014bc8       ?GetSize@?$GrowableThingCollection@UTaskListTaskData@TaskList@@@@UAAHXZ 10015bc8 f i toolbox:toolbox_i.obj
+ 0001:00014bec       ?Lock@?$GrowableThingCollection@UTaskListTaskData@TaskList@@@@UAA_NXZ 10015bec f i toolbox:toolbox_i.obj
+ 0001:00014c18       ?Unlock@?$GrowableThingCollection@UTaskListTaskData@TaskList@@@@UAA_NXZ 10015c18 f i toolbox:toolbox_i.obj
+ 0001:00014c5c       ?BlockModificationByOtherThreads@?$GrowableThingCollection@UTaskListTaskData@TaskList@@@@UAA_NXZ 10015c5c f i toolbox:toolbox_i.obj
+ 0001:00014c70       ?AllowModificationByOtherThreads@?$GrowableThingCollection@UTaskListTaskData@TaskList@@@@UAA_NXZ 10015c70 f i toolbox:toolbox_i.obj
+ 0001:00014c84       ?GetThingAtIndex@?$GrowableThingCollection@UTaskListTaskData@TaskList@@@@UAA?AUTaskListTaskData@TaskList@@H@Z 10015c84 f i toolbox:toolbox_i.obj
+ 0001:00014cec       ?SetThingAtIndex@?$GrowableThingCollection@UTaskListTaskData@TaskList@@@@UAA_NUTaskListTaskData@TaskList@@H@Z 10015cec f i toolbox:toolbox_i.obj
+ 0001:00014d54       ?GetThingIndex@?$GrowableThingCollection@UTaskListTaskData@TaskList@@@@UAAHUTaskListTaskData@TaskList@@@Z 10015d54 f i toolbox:toolbox_i.obj
+ 0001:00014dc4       ?GetFilteredThingIndex@?$GrowableThingCollection@UTaskListTaskData@TaskList@@@@UAAHP6A_NABUTaskListTaskData@TaskList@@PAX@ZQAX@Z 10015dc4 f i toolbox:toolbox_i.obj
+ 0001:00014e30       ?GetPointerToThingAtIndex@?$GrowableThingCollection@UTaskListTaskData@TaskList@@@@UAAPAUTaskListTaskData@TaskList@@H@Z 10015e30 f i toolbox:toolbox_i.obj
+ 0001:00014e80       ?GetPointerToThing@?$GrowableThingCollection@UTaskListTaskData@TaskList@@@@UAAPAUTaskListTaskData@TaskList@@U23@@Z 10015e80 f i toolbox:toolbox_i.obj
+ 0001:00014efc       ?MakeRoomForAnotherThing@?$GrowableThingCollection@UTaskListTaskData@TaskList@@@@MAA_NXZ 10015efc f i toolbox:toolbox_i.obj
+ 0001:00014f90       ??_G?$GrowableThingCollection@PAX@@UAAPAXI@Z 10015f90 f i toolbox:toolbox_i.obj
+ 0001:00014f90       ??_E?$GrowableThingCollection@PAX@@UAAPAXI@Z 10015f90 f i toolbox:toolbox_i.obj
+ 0001:00014fdc       ??_E?$GrowableThingCollection@UTaskListTaskData@TaskList@@@@UAAPAXI@Z 10015fdc f i toolbox:toolbox_i.obj
+ 0001:00014fdc       ??_G?$GrowableThingCollection@UTaskListTaskData@TaskList@@@@UAAPAXI@Z 10015fdc f i toolbox:toolbox_i.obj
+ 0001:00015028       ??0TaskList@@QAA@I@Z       10016028 f   toolbox:toolbox_i.obj
+ 0001:000150d4       ??1TaskList@@QAA@XZ        100160d4 f   toolbox:toolbox_i.obj
+ 0001:0001520c       ?AddWorkerThread@TaskList@@AAA_NXZ 1001620c f   toolbox:toolbox_i.obj
+ 0001:000152ac       ?AddTask@TaskList@@QAA_NPAIP6A_NPAX@Z1W4TaskListUrgency@1@@Z 100162ac f   toolbox:toolbox_i.obj
+ 0001:000153dc       PHIsNetworkSupportedFeature 100163dc f   CCOREUTL:ccoreutl.dll
+ 0001:000153ec       ?ConvertGSMToUnicode@@YA_NQBDIQAGIAAI@Z 100163ec f   CCOREUTL:ccoreutl.dll
+ 0001:000153fc       ?ConvertUCS2ToUnicode@@YA_NQBDIQAGIAAI@Z 100163fc f   CCOREUTL:ccoreutl.dll
+ 0001:0001540c       ?ConvertUnpackedGSMToUnicode@@YA_NQBDIQAGIAAI@Z 1001640c f   CCOREUTL:ccoreutl.dll
+ 0001:0001541c       ?ConvertUnicodeToUCS2@@YA_NQBGIQADIAAI@Z 1001641c f   CCOREUTL:ccoreutl.dll
+ 0001:0001542c       ?ConvertUnicodeToGSMExt@@YA_NQBGIQADIAAI2HH@Z 1001642c f   CCOREUTL:ccoreutl.dll
+ 0001:0001543c       ?CharacterPresentInGSMExt@@YA_NG@Z 1001643c f   CCOREUTL:ccoreutl.dll
+ 0001:0001544c       ?CharacterPresentInGSM@@YA_NG@Z 1001644c f   CCOREUTL:ccoreutl.dll
+ 0001:0001545c       ?ConvertEnhancedGSMToUnicode@@YA_NQBDIQAGIAAI@Z 1001645c f   CCOREUTL:ccoreutl.dll
+ 0001:0001546c       ?ConvertUnicodeToUnpackedGSM@@YA_NQBGIQADIAAI@Z 1001646c f   CCOREUTL:ccoreutl.dll
+ 0001:0001547c       RIL_EnumRadios             1001647c f   ril:ril.dll
+ 0001:0001548c       RIL_ChangeLockingPassword  1001648c f   ril:ril.dll
+ 0001:0001549c       RIL_GetPhonebookOptions    1001649c f   ril:ril.dll
+ 0001:000154ac       RIL_SetPhonebookOptions    100164ac f   ril:ril.dll
+ 0001:000154bc       RIL_ReadPhonebookEntries   100164bc f   ril:ril.dll
+ 0001:000154cc       RIL_WritePhonebookEntry    100164cc f   ril:ril.dll
+ 0001:000154dc       RIL_ReadPhonebookEntriesEx 100164dc f   ril:ril.dll
+ 0001:000154ec       RIL_WritePhonebookEntryEx  100164ec f   ril:ril.dll
+ 0001:000154fc       RIL_DeletePhonebookEntry   100164fc f   ril:ril.dll
+ 0001:0001550c       RIL_GetPhoneLockedState    1001650c f   ril:ril.dll
+ 0001:0001551c       RIL_UnlockPhone            1001651c f   ril:ril.dll
+ 0001:0001552c       RIL_GetLockingStatus       1001652c f   ril:ril.dll
+ 0001:0001553c       RIL_SetLockingStatus       1001653c f   ril:ril.dll
+ 0001:0001554c       RIL_GetEquipmentState      1001654c f   ril:ril.dll
+ 0001:0001555c       RIL_GetSimInfo             1001655c f   ril:ril.dll
+ 0001:0001556c       RIL_GetDevCaps             1001656c f   ril:ril.dll
+ 0001:0001557c       RIL_GetUserIdentity        1001657c f   ril:ril.dll
+ 0001:0001558c       RIL_GetSimRecordStatus     1001658c f   ril:ril.dll
+ 0001:0001559c       RIL_SendRestrictedSimCmd   1001659c f   ril:ril.dll
+ 0001:000155ac       RIL_GetMsgServiceOptions   100165ac f   ril:ril.dll
+ 0001:000155bc       RIL_SetMsgServiceOptions   100165bc f   ril:ril.dll
+ 0001:000155cc       RIL_ReadMsg                100165cc f   ril:ril.dll
+ 0001:000155dc       RIL_WriteMsg               100165dc f   ril:ril.dll
+ 0001:000155ec       RIL_DeleteMsg              100165ec f   ril:ril.dll
+ 0001:000155fc       RIL_Deinitialize           100165fc f   ril:ril.dll
+ 0001:0001560c       RIL_InitializeEx           1001660c f   ril:ril.dll
+ 0001:0001561c       EventModify                1001661c f   coredll:COREDLL.dll
+ 0001:0001562c       EnterCriticalSection       1001662c f   coredll:COREDLL.dll
+ 0001:0001563c       LeaveCriticalSection       1001663c f   coredll:COREDLL.dll
+ 0001:0001564c       InitializeCriticalSection  1001664c f   coredll:COREDLL.dll
+ 0001:0001565c       DeleteCriticalSection      1001665c f   coredll:COREDLL.dll
+ 0001:0001566c       CloseHandle                1001666c f   coredll:COREDLL.dll
+ 0001:0001567c       CreateEventW               1001667c f   coredll:COREDLL.dll
+ 0001:0001568c       StringCchPrintfW           1001668c f   coredll:COREDLL.dll
+ 0001:0001569c       CeCloseCallerBuffer        1001669c f   coredll:COREDLL.dll
+ 0001:000156ac       CeFreeAsynchronousBuffer   100166ac f   coredll:COREDLL.dll
+ 0001:000156bc       CeAllocAsynchronousBuffer  100166bc f   coredll:COREDLL.dll
+ 0001:000156cc       CeOpenCallerBuffer         100166cc f   coredll:COREDLL.dll
+ 0001:000156dc       CreateMutexW               100166dc f   coredll:COREDLL.dll
+ 0001:000156ec       StringCchCopyW             100166ec f   coredll:COREDLL.dll
+ 0001:000156fc       CeSafeCopyMemory           100166fc f   coredll:COREDLL.dll
+ 0001:0001570c       StringCbCopyW              1001670c f   coredll:COREDLL.dll
+ 0001:0001571c       WaitForSingleObject        1001671c f   coredll:COREDLL.dll
+ 0001:0001572c       ReleaseMutex               1001672c f   coredll:COREDLL.dll
+ 0001:0001573c       StringCchLengthW           1001673c f   coredll:COREDLL.dll
+ 0001:0001574c       LocalFree                  1001674c f   coredll:COREDLL.dll
+ 0001:0001575c       LocalAlloc                 1001675c f   coredll:COREDLL.dll
+ 0001:0001576c       DisableThreadLibraryCalls  1001676c f   coredll:COREDLL.dll
+ 0001:0001577c       FreeLibrary                1001677c f   coredll:COREDLL.dll
+ 0001:0001578c       InterlockedDecrement       1001678c f   coredll:COREDLL.dll
+ 0001:0001579c       InterlockedIncrement       1001679c f   coredll:COREDLL.dll
+ 0001:000157ac       GetProcAddressW            100167ac f   coredll:COREDLL.dll
+ 0001:000157bc       LoadLibraryW               100167bc f   coredll:COREDLL.dll
+ 0001:000157cc       LocalReAlloc               100167cc f   coredll:COREDLL.dll
+ 0001:000157dc       Sleep                      100167dc f   coredll:COREDLL.dll
+ 0001:000157ec       RegCloseKey                100167ec f   coredll:COREDLL.dll
+ 0001:000157fc       RegOpenKeyExW              100167fc f   coredll:COREDLL.dll
+ 0001:0001580c       RegQueryValueExW           1001680c f   coredll:COREDLL.dll
+ 0001:0001581c       WideCharToMultiByte        1001681c f   coredll:COREDLL.dll
+ 0001:0001582c       MultiByteToWideChar        1001682c f   coredll:COREDLL.dll
+ 0001:0001583c       WaitForMultipleObjects     1001683c f   coredll:COREDLL.dll
+ 0001:0001584c       CreateSemaphoreW           1001684c f   coredll:COREDLL.dll
+ 0001:0001585c       ResumeThread               1001685c f   coredll:COREDLL.dll
+ 0001:0001586c       CeSetThreadPriority        1001686c f   coredll:COREDLL.dll
+ 0001:0001587c       CreateThread               1001687c f   coredll:COREDLL.dll
+ 0001:0001588c       ReleaseSemaphore           1001688c f   coredll:COREDLL.dll
+ 0001:00015994       _DllMainCRTStartup         10016994 f   corelib0:pegdmain.obj
+ 0001:000159c8       _onexit                    100169c8 f   corelib0:onexit.obj
+ 0001:00015b4c       atexit                     10016b4c f   corelib0:onexit.obj
+ 0001:00015b64       __GSHandlerCheckCommon     10016b64 f   corelib0:gshandler.obj
+ 0001:00015ba0       __GSHandlerCheck           10016ba0 f   corelib0:gshandler.obj
+ 0001:00015bc0       __security_init_cookie     10016bc0 f   corelib0:seccinit.obj
+ 0001:00015c0c       __security_check_cookie    10016c0c f   corelib0:armsecgs.obj
+ 0001:00015c1c       __gsfailure                10016c1c     corelib0:armsecgs.obj
+ 0001:00015d48       _cexit                     10016d48 f   corelib0:cexit.obj
+ 0001:00015d58       _initterm                  10016d58 f   corelib0:crt0dat.obj
+ 0001:00015d84       _cinit                     10016d84 f   corelib0:crt0dat.obj
+ 0001:00015de4       __crt_ExitProcess          10016de4 f   corelib0:exitproc_proxy.obj
+ 0001:00015df0       memset                     10016df0 f   corelib1:COREDLL.dll
+ 0001:00015e00       memcpy                     10016e00 f   corelib1:COREDLL.dll
+ 0001:00015e10       wcschr                     10016e10 f   corelib1:COREDLL.dll
+ 0001:00015e20       ??2@YAPAXI@Z               10016e20 f   corelib1:COREDLL.dll
+ 0001:00015e30       ??3@YAXPAX@Z               10016e30 f   corelib1:COREDLL.dll
+ 0001:00015e40       ??_V@YAXPAX@Z              10016e40 f   corelib1:COREDLL.dll
+ 0001:00015e50       ??_U@YAPAXI@Z              10016e50 f   corelib1:COREDLL.dll
+ 0001:00015e60       wcslen                     10016e60 f   corelib1:COREDLL.dll
+ 0001:00015e70       wcstol                     10016e70 f   corelib1:COREDLL.dll
+ 0001:00015e80       memmove                    10016e80 f   corelib1:COREDLL.dll
+ 0001:00015e90       memcmp                     10016e90 f   corelib1:COREDLL.dll
+ 0001:00015ea0       strlen                     10016ea0 f   corelib1:COREDLL.dll
+ 0001:00015eb0       strchr                     10016eb0 f   corelib1:COREDLL.dll
+ 0001:00015ec0       __C_specific_handler       10016ec0 f   corelib1:COREDLL.dll
+ 0001:00015ed0       _XcptFilter                10016ed0 f   corelib1:COREDLL.dll
+ 0001:00015ee0       free                       10016ee0 f   corelib1:COREDLL.dll
+ 0001:00015ef0       malloc                     10016ef0 f   corelib1:COREDLL.dll
+ 0001:00015f00       realloc                    10016f00 f   corelib1:COREDLL.dll
+ 0001:00015f10       _msize                     10016f10 f   corelib1:COREDLL.dll
+ 0001:00015f20       __security_gen_cookie2     10016f20 f   corelib1:COREDLL.dll
+ 0001:00015f30       __report_gsfailure         10016f30 f   corelib1:COREDLL.dll
+ 0001:00015f40       InterlockedCompareExchange 10016f40 f   coredll:COREDLL.dll
+ 0001:00015f50       InterlockedExchange        10016f50 f   coredll:COREDLL.dll
+ 0001:00015f60       TerminateProcess           10016f60 f   coredll:COREDLL.dll
+ 0001:00015fd4       ??__Fcs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@YAXXZ 10016fd4 f i client.obj
+ 0001:000160ac       __IMPORT_DESCRIPTOR_ccoreutl 100170ac     CCOREUTL:ccoreutl.dll
+ 0001:000160c0       __IMPORT_DESCRIPTOR_ril    100170c0     ril:ril.dll
+ 0001:000160d4       __IMPORT_DESCRIPTOR_COREDLL 100170d4     coredll:COREDLL.dll
+ 0001:000160e8       __NULL_IMPORT_DESCRIPTOR   100170e8     CCOREUTL:ccoreutl.dll
+ 0002:00000000       __imp_InterlockedIncrement 10018000     coredll:COREDLL.dll
+ 0002:00000004       __imp_InterlockedExchange  10018004     coredll:COREDLL.dll
+ 0002:00000008       __imp_InterlockedCompareExchange 10018008     coredll:COREDLL.dll
+ 0002:0000000c       __imp___report_gsfailure   1001800c     corelib1:COREDLL.dll
+ 0002:00000010       __imp___security_gen_cookie2 10018010     corelib1:COREDLL.dll
+ 0002:00000014       __imp__msize               10018014     corelib1:COREDLL.dll
+ 0002:00000018       __imp_realloc              10018018     corelib1:COREDLL.dll
+ 0002:0000001c       __imp_malloc               1001801c     corelib1:COREDLL.dll
+ 0002:00000020       __imp_free                 10018020     corelib1:COREDLL.dll
+ 0002:00000024       __imp__XcptFilter          10018024     corelib1:COREDLL.dll
+ 0002:00000028       __imp___C_specific_handler 10018028     corelib1:COREDLL.dll
+ 0002:0000002c       __imp_strchr               1001802c     corelib1:COREDLL.dll
+ 0002:00000030       __imp_strlen               10018030     corelib1:COREDLL.dll
+ 0002:00000034       __imp___rt_udiv            10018034     corelib1:COREDLL.dll
+ 0002:00000038       __imp_memcmp               10018038     corelib1:COREDLL.dll
+ 0002:0000003c       __imp_memmove              1001803c     corelib1:COREDLL.dll
+ 0002:00000040       __imp_wcstol               10018040     corelib1:COREDLL.dll
+ 0002:00000044       __imp_wcslen               10018044     corelib1:COREDLL.dll
+ 0002:00000048       __imp_??_U@YAPAXI@Z        10018048     corelib1:COREDLL.dll
+ 0002:0000004c       __imp_??_V@YAXPAX@Z        1001804c     corelib1:COREDLL.dll
+ 0002:00000050       __imp_??3@YAXPAX@Z         10018050     corelib1:COREDLL.dll
+ 0002:00000054       __imp_??2@YAPAXI@Z         10018054     corelib1:COREDLL.dll
+ 0002:00000058       __imp_wcschr               10018058     corelib1:COREDLL.dll
+ 0002:0000005c       __imp_memcpy               1001805c     corelib1:COREDLL.dll
+ 0002:00000060       __imp_memset               10018060     corelib1:COREDLL.dll
+ 0002:00000064       __imp_ReleaseSemaphore     10018064     coredll:COREDLL.dll
+ 0002:00000068       __imp_CreateThread         10018068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_CeSetThreadPriority  1001806c     coredll:COREDLL.dll
+ 0002:00000070       __imp_ResumeThread         10018070     coredll:COREDLL.dll
+ 0002:00000074       __imp_CreateSemaphoreW     10018074     coredll:COREDLL.dll
+ 0002:00000078       __imp_EventModify          10018078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_EnterCriticalSection 1001807c     coredll:COREDLL.dll
+ 0002:00000080       __imp_LeaveCriticalSection 10018080     coredll:COREDLL.dll
+ 0002:00000084       __imp_InitializeCriticalSection 10018084     coredll:COREDLL.dll
+ 0002:00000088       __imp_DeleteCriticalSection 10018088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_CloseHandle          1001808c     coredll:COREDLL.dll
+ 0002:00000090       __imp_CreateEventW         10018090     coredll:COREDLL.dll
+ 0002:00000094       __imp_StringCchPrintfW     10018094     coredll:COREDLL.dll
+ 0002:00000098       __imp_CeCloseCallerBuffer  10018098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_CeFreeAsynchronousBuffer 1001809c     coredll:COREDLL.dll
+ 0002:000000a0       __imp_CeAllocAsynchronousBuffer 100180a0     coredll:COREDLL.dll
+ 0002:000000a4       __imp_CeOpenCallerBuffer   100180a4     coredll:COREDLL.dll
+ 0002:000000a8       __imp_CreateMutexW         100180a8     coredll:COREDLL.dll
+ 0002:000000ac       __imp_StringCchCopyW       100180ac     coredll:COREDLL.dll
+ 0002:000000b0       __imp_CeSafeCopyMemory     100180b0     coredll:COREDLL.dll
+ 0002:000000b4       __imp_StringCbCopyW        100180b4     coredll:COREDLL.dll
+ 0002:000000b8       __imp_WaitForSingleObject  100180b8     coredll:COREDLL.dll
+ 0002:000000bc       __imp_ReleaseMutex         100180bc     coredll:COREDLL.dll
+ 0002:000000c0       __imp_StringCchLengthW     100180c0     coredll:COREDLL.dll
+ 0002:000000c4       __imp_LocalFree            100180c4     coredll:COREDLL.dll
+ 0002:000000c8       __imp_LocalAlloc           100180c8     coredll:COREDLL.dll
+ 0002:000000cc       __imp_DisableThreadLibraryCalls 100180cc     coredll:COREDLL.dll
+ 0002:000000d0       __imp_FreeLibrary          100180d0     coredll:COREDLL.dll
+ 0002:000000d4       __imp_InterlockedDecrement 100180d4     coredll:COREDLL.dll
+ 0002:000000d8       __imp_TerminateProcess     100180d8     coredll:COREDLL.dll
+ 0002:000000dc       __imp_GetProcAddressW      100180dc     coredll:COREDLL.dll
+ 0002:000000e0       __imp_LoadLibraryW         100180e0     coredll:COREDLL.dll
+ 0002:000000e4       __imp_LocalReAlloc         100180e4     coredll:COREDLL.dll
+ 0002:000000e8       __imp_Sleep                100180e8     coredll:COREDLL.dll
+ 0002:000000ec       __imp_RegCloseKey          100180ec     coredll:COREDLL.dll
+ 0002:000000f0       __imp_RegOpenKeyExW        100180f0     coredll:COREDLL.dll
+ 0002:000000f4       __imp_RegQueryValueExW     100180f4     coredll:COREDLL.dll
+ 0002:000000f8       __imp_WideCharToMultiByte  100180f8     coredll:COREDLL.dll
+ 0002:000000fc       __imp_MultiByteToWideChar  100180fc     coredll:COREDLL.dll
+ 0002:00000100       __imp_WaitForMultipleObjects 10018100     coredll:COREDLL.dll
+ 0002:00000104       \177COREDLL_NULL_THUNK_DATA 10018104     coredll:COREDLL.dll
+ 0002:00000108       __imp_PHIsNetworkSupportedFeature 10018108     CCOREUTL:ccoreutl.dll
+ 0002:0000010c       __imp_?ConvertUCS2ToUnicode@@YA_NQBDIQAGIAAI@Z 1001810c     CCOREUTL:ccoreutl.dll
+ 0002:00000110       __imp_?ConvertUnpackedGSMToUnicode@@YA_NQBDIQAGIAAI@Z 10018110     CCOREUTL:ccoreutl.dll
+ 0002:00000114       __imp_?ConvertUnicodeToUCS2@@YA_NQBGIQADIAAI@Z 10018114     CCOREUTL:ccoreutl.dll
+ 0002:00000118       __imp_?ConvertUnicodeToGSMExt@@YA_NQBGIQADIAAI2HH@Z 10018118     CCOREUTL:ccoreutl.dll
+ 0002:0000011c       __imp_?CharacterPresentInGSMExt@@YA_NG@Z 1001811c     CCOREUTL:ccoreutl.dll
+ 0002:00000120       __imp_?CharacterPresentInGSM@@YA_NG@Z 10018120     CCOREUTL:ccoreutl.dll
+ 0002:00000124       __imp_?ConvertEnhancedGSMToUnicode@@YA_NQBDIQAGIAAI@Z 10018124     CCOREUTL:ccoreutl.dll
+ 0002:00000128       __imp_?ConvertUnicodeToUnpackedGSM@@YA_NQBGIQADIAAI@Z 10018128     CCOREUTL:ccoreutl.dll
+ 0002:0000012c       __imp_?ConvertGSMToUnicode@@YA_NQBDIQAGIAAI@Z 1001812c     CCOREUTL:ccoreutl.dll
+ 0002:00000130       \177ccoreutl_NULL_THUNK_DATA 10018130     CCOREUTL:ccoreutl.dll
+ 0002:00000134       __imp_RIL_GetDevCaps       10018134     ril:ril.dll
+ 0002:00000138       __imp_RIL_GetSimInfo       10018138     ril:ril.dll
+ 0002:0000013c       __imp_RIL_GetEquipmentState 1001813c     ril:ril.dll
+ 0002:00000140       __imp_RIL_SetLockingStatus 10018140     ril:ril.dll
+ 0002:00000144       __imp_RIL_GetLockingStatus 10018144     ril:ril.dll
+ 0002:00000148       __imp_RIL_UnlockPhone      10018148     ril:ril.dll
+ 0002:0000014c       __imp_RIL_GetPhoneLockedState 1001814c     ril:ril.dll
+ 0002:00000150       __imp_RIL_GetUserIdentity  10018150     ril:ril.dll
+ 0002:00000154       __imp_RIL_WritePhonebookEntryEx 10018154     ril:ril.dll
+ 0002:00000158       __imp_RIL_ReadPhonebookEntriesEx 10018158     ril:ril.dll
+ 0002:0000015c       __imp_RIL_WritePhonebookEntry 1001815c     ril:ril.dll
+ 0002:00000160       __imp_RIL_ReadPhonebookEntries 10018160     ril:ril.dll
+ 0002:00000164       __imp_RIL_SetPhonebookOptions 10018164     ril:ril.dll
+ 0002:00000168       __imp_RIL_GetPhonebookOptions 10018168     ril:ril.dll
+ 0002:0000016c       __imp_RIL_ChangeLockingPassword 1001816c     ril:ril.dll
+ 0002:00000170       __imp_RIL_EnumRadios       10018170     ril:ril.dll
+ 0002:00000174       __imp_RIL_GetSimRecordStatus 10018174     ril:ril.dll
+ 0002:00000178       __imp_RIL_SendRestrictedSimCmd 10018178     ril:ril.dll
+ 0002:0000017c       __imp_RIL_GetMsgServiceOptions 1001817c     ril:ril.dll
+ 0002:00000180       __imp_RIL_SetMsgServiceOptions 10018180     ril:ril.dll
+ 0002:00000184       __imp_RIL_ReadMsg          10018184     ril:ril.dll
+ 0002:00000188       __imp_RIL_WriteMsg         10018188     ril:ril.dll
+ 0002:0000018c       __imp_RIL_DeleteMsg        1001818c     ril:ril.dll
+ 0002:00000190       __imp_RIL_Deinitialize     10018190     ril:ril.dll
+ 0002:00000194       __imp_RIL_InitializeEx     10018194     ril:ril.dll
+ 0002:00000198       __imp_RIL_DeletePhonebookEntry 10018198     ril:ril.dll
+ 0002:0000019c       \177ril_NULL_THUNK_DATA    1001819c     ril:ril.dll
+ 0002:000001b8       ?dpCurSettings@@3U_DBGPARAM@@A 100181b8     simdrv.obj
+ 0002:000005fc       __security_cookie          100185fc     corelib0:seccinit.obj
+ 0002:00000600       __security_cookie_complement 10018600     corelib0:seccinit.obj
+ 0002:00000604       ??_B?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@51 10018604     client.obj
+ 0002:00000608       ?cs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@3@XZ@4V43@A 10018608     client.obj
+ 0002:0000061c       ?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A 1001861c     client.obj
+ 0002:00000624       ?g_mapNoCacheFileId@@3V?$hash_map@KHU?$hash_traits@K@ce@@Vallocator@2@@ce@@A 10018624     simmgr.obj
+ 0002:00000644       ?g_vSimMgr@@3V?$vector@PAVCSimMgr@@Vallocator@ce@@U?$exponential_growth@$09@3@@ce@@A 10018644     simmgr.obj
+ 0002:00000650       _exitflag                  10018650     corelib0:cexit.obj
+ 0002:00000654       __onexitend                10018654     <common>
+ 0002:00000658       __onexitbegin              10018658     <common>
+ 0002:0000065c       g_pcsExit                  1001865c     <common>
+ 0002:00000660       _pRawDllMain               10018660     <common>
+
+ entry point at        0001:00015994
+
+ Static symbols
+
+ 0001:000158a4       _DllMainCRTStartupHelper   100168a4 f   corelib0:pegdmain.obj
+ 0001:00015c60       doexit                     10016c60 f   corelib0:cexit.obj
+ 0001:00015f70       ??__E?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A@@YAXXZ 10016f70 f   client.obj
+ 0001:00015f74       ??__Eg_vSimMgr@@YAXXZ      10016f74 f   simmgr.obj
+ 0001:00015f80       ??__Eg_mapNoCacheFileId@@YAXXZ 10016f80 f   simmgr.obj
+ 0001:00015fe0       ??__Fg_vSimMgr@@YAXXZ      10016fe0 f   simmgr.obj
+ 0001:00016008       ??__Fg_mapNoCacheFileId@@YAXXZ 10017008 f   simmgr.obj

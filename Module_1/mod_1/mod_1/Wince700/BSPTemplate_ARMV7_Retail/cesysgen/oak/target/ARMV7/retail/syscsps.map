@@ -1,0 +1,673 @@
+ syscsps
+
+ Timestamp is 618b15b6 (Tue Nov 09 17:43:34 2021)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000010H .CRT$XCU                CODE
+ 0001:00000014 00000004H .CRT$XCZ                CODE
+ 0001:00000018 00000004H .CRT$XIA                CODE
+ 0001:0000001c 00000004H .CRT$XIZ                CODE
+ 0001:00000020 00000004H .CRT$XPA                CODE
+ 0001:00000024 00000004H .CRT$XPZ                CODE
+ 0001:00000028 00000004H .CRT$XTA                CODE
+ 0001:0000002c 00000004H .CRT$XTZ                CODE
+ 0001:00000030 00000708H .rdata                  CODE
+ 0001:00000738 00000024H .rdata$debug            CODE
+ 0001:0000075c 000087a8H .text                   CODE
+ 0001:00008f04 00000028H .text$yc                CODE
+ 0001:00008f2c 00000018H .text$yd                CODE
+ 0001:00008f44 0000002cH .xdata                  CODE
+ 0001:00008f70 00000064H .idata$2                CODE
+ 0001:00008fd4 00000014H .idata$3                CODE
+ 0001:00008fe8 000001a0H .idata$4                CODE
+ 0001:00009188 0000013eH .idata$6                CODE
+ 0001:000092d0 0000006aH .edata                  CODE
+ 0002:00000000 000001a0H .idata$5                DATA
+ 0002:000001a0 00000504H .data                   DATA
+ 0002:000006a8 00000184H .bss                    DATA
+ 0003:00000000 00000970H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000014       __xc_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xi_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xi_z                     1000101c     corelib0:crt0init.obj
+ 0001:00000020       __xp_a                     10001020     corelib0:crt0init.obj
+ 0001:00000024       __xp_z                     10001024     corelib0:crt0init.obj
+ 0001:00000028       __xt_a                     10001028     corelib0:crt0init.obj
+ 0001:0000002c       __xt_z                     1000102c     corelib0:crt0init.obj
+ 0001:0000004c       CFGMGR_PROPERTY_ACCESS_ROLE 1000104c     syscsps_ALL:dllmain.obj
+ 0001:0000005c       CFGMGR_PROPERTY_DATATYPE   1000105c     syscsps_ALL:dllmain.obj
+ 0001:0000006c       ??_C@_1BO@NDOIDNLL@?$AAS?$AAy?$AAs?$AAC?$AAs?$AAp?$AAs?$AAR?$AAe?$AAs?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 1000106c     syscsps_ALL:dllmain.obj
+ 0001:0000008c       _GUID_00000001_0000_0000_c000_000000000046 1000108c     syscsps_ALL:dllmain.obj
+ 0001:0000009c       _GUID_00000000_0000_0000_c000_000000000046 1000109c     syscsps_ALL:dllmain.obj
+ 0001:000000ac       _GUID_e89c2e05_74eb_4802_a467_396faf6d95d6 100010ac     syscsps_ALL:dllmain.obj
+ 0001:000000bc       ??_7CClassFactory@@6B@     100010bc     syscsps_ALL:dllmain.obj
+ 0001:000000d0       ??_7CLegacyCSP@@6B@        100010d0     syscsps_ALL:legacycsp.obj
+ 0001:000000e8       _GUID_f35e39dc_e18a_48c2_88cb_b3cf48ca6e83 100010e8     syscsps_ALL:legacycsp.obj
+ 0001:000000f8       _GUID_d83013b4_9ec6_464f_a188_1854cd5b4e99 100010f8     syscsps_ALL:legacycsp.obj
+ 0001:00000108       _GUID_dab192ce_b659_460c_ae27_0f32ecb471d4 10001108     syscsps_ALL:legacycsp.obj
+ 0001:00000158       ??_7CPolicyCsp@@6B@        10001158     syscsps_ALL:policycsp.obj
+ 0001:000001a0       ??_C@_1GM@PAGIIEII@?$AAT?$AAh?$AAe?$AA?5?$AAP?$AAo?$AAl?$AAi?$AAc?$AAy?$AA?5?$AAC?$AAS?$AAP?$AA?5?$AAd?$AAo?$AAe?$AAs?$AAn?$AA?8?$AAt?$AA?5?$AAs?$AAu?$AAp?$AAp?$AAo?$AAr?$AAt?$AA?5?$AAn@ 100011a0     syscsps_ALL:policycsp.obj
+ 0001:00000210       ??_C@_1GA@OAMBHCHH@?$AAT?$AAh?$AAe?$AA?5?$AAP?$AAo?$AAl?$AAi?$AAc?$AAy?$AA?5?$AAC?$AAS?$AAP?$AA?5?$AAd?$AAo?$AAe?$AAs?$AAn?$AA?8?$AAt?$AA?5?$AAs?$AAu?$AAp?$AAp?$AAo?$AAr?$AAt?$AA?5?$AAN@ 10001210     syscsps_ALL:policycsp.obj
+ 0001:00000270       ??_C@_1GI@HEKDMNPO@?$AAT?$AAh?$AAe?$AA?5?$AAP?$AAo?$AAl?$AAi?$AAc?$AAy?$AA?5?$AAC?$AAS?$AAP?$AA?5?$AAd?$AAo?$AAe?$AAs?$AAn?$AA?8?$AAt?$AA?5?$AAs?$AAu?$AAp?$AAp?$AAo?$AAr?$AAt?$AA?5?$AAc@ 10001270     syscsps_ALL:policycsp.obj
+ 0001:000002d8       ??_7CPolicyTransaction@@6B@ 100012d8     syscsps_ALL:policycsp.obj
+ 0001:000002fc       _GUID_d83013b6_9ec6_464f_a188_1854cd5b4e99 100012fc     syscsps_ALL:policycsp.obj
+ 0001:0000030c       _GUID_e00589f9_3271_48a4_85a4_ce2ca7ac84dd 1000130c     syscsps_ALL:policycsp.obj
+ 0001:0000031c       ??_C@_19FHBCDCCA@?$AAt?$AAy?$AAp?$AAe?$AA?$AA@ 1000131c     syscsps_ALL:policycsp.obj
+ 0001:00000328       ??_C@_1BO@BPBOFNNM@?$AAc?$AAh?$AAa?$AAr?$AAa?$AAc?$AAt?$AAe?$AAr?$AAi?$AAs?$AAt?$AAi?$AAc?$AA?$AA@ 10001328     syscsps_ALL:policycsp.obj
+ 0001:00000380       ??_7CRegCsp@@6B@           10001380     syscsps_ALL:regcsp.obj
+ 0001:000003c4       ??_C@_1BM@HDPINFLL@?$AAA?$AAc?$AAc?$AAe?$AAs?$AAs?$AA?5?$AAD?$AAe?$AAn?$AAi?$AAe?$AAd?$AA?$AA@ 100013c4     syscsps_ALL:regcsp.obj
+ 0001:000003e0       ??_C@_13FPGAJAPJ@?$AA?2?$AA?$AA@ 100013e0     syscsps_ALL:regcsp.obj
+ 0001:000003e4       ??_C@_17PJOJPMPB@?$AAH?$AAK?$AAU?$AA?$AA@ 100013e4     syscsps_ALL:regcsp.obj
+ 0001:000003ec       ??_C@_19JAPAIJDE@?$AAH?$AAK?$AAC?$AAU?$AA?$AA@ 100013ec     syscsps_ALL:regcsp.obj
+ 0001:000003f8       ??_C@_19NCHLBIN@?$AAH?$AAK?$AAC?$AAR?$AA?$AA@ 100013f8     syscsps_ALL:regcsp.obj
+ 0001:00000404       ??_C@_19PEALEEJB@?$AAH?$AAK?$AAL?$AAM?$AA?$AA@ 10001404     syscsps_ALL:regcsp.obj
+ 0001:00000410       ??_C@_1DI@MDNDLFEK@?$AAR?$AAe?$AAg?$AAi?$AAs?$AAt?$AAr?$AAy?$AA?5?$AAT?$AAy?$AAp?$AAe?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAs?$AAu?$AAp?$AAp?$AAo?$AAr?$AAt?$AAe?$AAd?$AA?$AA@ 10001410     syscsps_ALL:regcsp.obj
+ 0001:00000448       ?sc_dwPopAllCSPState@CCSPCommandManager@@0KB 10001448     syscsps_ALL:cspmanager.obj
+ 0001:00000450       ??_7CLegacyCSPRootNode@@6BICSPNode@@@ 10001450     syscsps_ALL:legacyrootnode.obj
+ 0001:000004a0       ??_7CLegacyCSPRootNode@@6BICSPNodeTransactioning@@@ 100014a0     syscsps_ALL:legacyrootnode.obj
+ 0001:000004f8       ??_7CCSPImpl@@6B@          100014f8     syscsps_ALL:basecsp.obj
+ 0001:0000053c       _GUID_2b1c7bef_f8fb_4484_bb21_6c83a9142d8b 1000153c     syscsps_ALL:basecsp.obj
+ 0001:0000054c       _GUID_aca48b48_6aba_4667_954c_f794e33bc1c2 1000154c     syscsps_ALL:basecsp.obj
+ 0001:0000055c       ??_C@_1O@EBPLMABK@?$AAd?$AAm?$AAs?$AAa?$AAp?$AAi?$AA?$AA@ 1000155c     syscsps_ALL:delyload.obj
+ 0001:0000056c       ??_7CLegacyCSPConfigSession@@6B@ 1000156c     syscsps_ALL:configsession.obj
+ 0001:00000594       _GUID_d83013b7_9ec6_464f_a188_1854cd5b4e99 10001594     syscsps_ALL:configsession.obj
+ 0001:000005a4       ??_7CCSPCommand@@6B@       100015a4     syscsps_ALL:cspcommands.obj
+ 0001:000005b0       ??_7CAddNodeCommand@@6B@   100015b0     syscsps_ALL:cspcommands.obj
+ 0001:000005bc       ??_7CSetValueCommand@@6B@  100015bc     syscsps_ALL:cspcommands.obj
+ 0001:000005c8       ??_7CGetValueCommand@@6B@  100015c8     syscsps_ALL:cspcommands.obj
+ 0001:000005d4       ??_7CQueryForNodeCommand@@6B@ 100015d4     syscsps_ALL:cspcommands.obj
+ 0001:000005e0       ??_7CGetPropertyCommand@@6B@ 100015e0     syscsps_ALL:cspcommands.obj
+ 0001:000005ec       ??_7CExecCommand@@6B@      100015ec     syscsps_ALL:cspcommands.obj
+ 0001:000005f8       ??_C@_19HHIIBINK@?$AAn?$AAa?$AAm?$AAe?$AA?$AA@ 100015f8     syscsps_ALL:cspcommands.obj
+ 0001:00000604       ??_C@_1DA@BGJDAHGA@?$AA?$CI?$AAc?$AAh?$AAa?$AAr?$AAa?$AAc?$AAt?$AAe?$AAr?$AAi?$AAs?$AAt?$AAi?$AAc?$AA?5?$AA?$HM?$AA?5?$AAp?$AAa?$AAr?$AAm?$AA?$CJ?$AA?$AA@ 10001604     syscsps_ALL:cspcommands.obj
+ 0001:00000634       ??_7CDeleteNodeCommand@@6B@ 10001634     syscsps_ALL:LegacyNode.obj
+ 0001:00000640       ??_7CLegacyCSPNode@@6BICSPNode@@@ 10001640     syscsps_ALL:LegacyNode.obj
+ 0001:00000690       ??_7CLegacyCSPNode@@6BICSPNodeTransactioning@@@ 10001690     syscsps_ALL:LegacyNode.obj
+ 0001:000006e8       _GUID_55261a46_0f96_4f7f_95a5_a73a978b047b 100016e8     syscsps_ALL:LegacyNode.obj
+ 0001:000006f8       _GUID_8a13633c_797d_46e9_b602_d982b8ec9847 100016f8     syscsps_ALL:LegacyNode.obj
+ 0001:00000708       IID_IXMLDOMDocument2       10001708     uuid:ieuuid.obj
+ 0001:00000718       IID_IXMLDOMElement         10001718     uuid:ieuuid.obj
+ 0001:00000728       CLSID_DOMDocument          10001728     uuid:ieuuid.obj
+ 0001:0000075c       ?AddRef@CClassFactory@@UAAKXZ 1000175c f   syscsps_ALL:dllmain.obj
+ 0001:00000764       ?Release@CClassFactory@@UAAKXZ 10001764 f   syscsps_ALL:dllmain.obj
+ 0001:00000788       ?CreateInstance@CClassFactory@@UAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10001788 f   syscsps_ALL:dllmain.obj
+ 0001:000007fc       ?LockServer@CClassFactory@@UAAJH@Z 100017fc f   syscsps_ALL:dllmain.obj
+ 0001:00000828       DllAddRef                  10001828 f   syscsps_ALL:dllmain.obj
+ 0001:00000834       DllRelease                 10001834 f   syscsps_ALL:dllmain.obj
+ 0001:00000840       ?CreateInstance@CRegCsp@@SAPAUIUnknown@@XZ 10001840 f i syscsps_ALL:dllmain.obj
+ 0001:00000860       DllMain                    10001860 f   syscsps_ALL:dllmain.obj
+ 0001:000008a0       ?QueryInterface@CClassFactory@@UAAJABU_GUID@@PAPAX@Z 100018a0 f   syscsps_ALL:dllmain.obj
+ 0001:00000914       DllCanUnloadNow            10001914 f   syscsps_ALL:dllmain.obj
+ 0001:00000938       _syscsps                   10001938 f   syscsps_ALL:dllmain.obj
+ 0001:00000984       ??0?$ComRegisterImpl@$1?_syscsps@@YA?AVComRegFunc@@ABU_GUID@@PAP6APAUIUnknown@@XZ@Z@@QAA@XZ 10001984 f i syscsps_ALL:dllmain.obj
+ 0001:000009e4       DllGetClassObject          100019e4 f   syscsps_ALL:dllmain.obj
+ 0001:00000b04       ?EndRollback@CLegacyCSPRootNode@@QAAJXZ 10001b04 f i syscsps_ALL:legacycsp.obj
+ 0001:00000b44       ??1CLegacyCSP@@MAA@XZ      10001b44 f   syscsps_ALL:legacycsp.obj
+ 0001:00000b94       ?AddRef@CLegacyCSP@@UAAKXZ 10001b94 f   syscsps_ALL:legacycsp.obj
+ 0001:00000b9c       ?Release@CLegacyCSP@@UAAKXZ 10001b9c f   syscsps_ALL:legacycsp.obj
+ 0001:00000bd4       ?CallEndProcessing@CLegacyCSP@@CAJPAXJPAH@Z 10001bd4 f   syscsps_ALL:legacycsp.obj
+ 0001:00000c00       ?CallStartRollback@CLegacyCSP@@CAJPAXJPAH@Z 10001c00 f   syscsps_ALL:legacycsp.obj
+ 0001:00000c14       ?CallEndRollback@CLegacyCSP@@CAJPAXJPAH@Z 10001c14 f   syscsps_ALL:legacycsp.obj
+ 0001:00000c3c       ?CallStartTransactioning@CLegacyCSP@@CAJPAXJPAH@Z 10001c3c f   syscsps_ALL:legacycsp.obj
+ 0001:00000c50       ?CallEndTransactioning@CLegacyCSP@@CAJPAXJPAH@Z 10001c50 f   syscsps_ALL:legacycsp.obj
+ 0001:00000c6c       ??_ECLegacyCSP@@MAAPAXI@Z  10001c6c f i syscsps_ALL:legacycsp.obj
+ 0001:00000c6c       ??_GCLegacyCSP@@MAAPAXI@Z  10001c6c f i syscsps_ALL:legacycsp.obj
+ 0001:00000c90       ?QueryInterface@CLegacyCSP@@UAAJABU_GUID@@PAPAX@Z 10001c90 f   syscsps_ALL:legacycsp.obj
+ 0001:00000d20       ?ConfigManagerNotification@CLegacyCSP@@UAAJW4ConfigManager2Notification@@J@Z 10001d20 f   syscsps_ALL:legacycsp.obj
+ 0001:00000e8c       ?CreateCSPRootNode@CLegacyCSP@@AAAJPAUIConfigManager2URI@@PAPAUICSPNode@@@Z 10001e8c f   syscsps_ALL:legacycsp.obj
+ 0001:00000fc4       ?CompareRootURINode@CLegacyCSP@@CAJPAX0PAH@Z 10001fc4 f   syscsps_ALL:legacycsp.obj
+ 0001:00001024       ??0CLegacyCSP@@IAA@XZ      10002024 f   syscsps_ALL:legacycsp.obj
+ 0001:0000105c       ?CreateInstance@CLegacyCSP@@SAPAUIUnknown@@XZ 1000205c f   syscsps_ALL:legacycsp.obj
+ 0001:0000107c       ?GetNode@CLegacyCSP@@UAAJPAUIConfigManager2URI@@PAPAUICSPNode@@PAK@Z 1000207c f   syscsps_ALL:legacycsp.obj
+ 0001:0000128c       _legacycsp                 1000228c f   syscsps_ALL:legacycsp.obj
+ 0001:000012d8       ??0?$ComRegisterImpl@$1?_legacycsp@@YA?AVComRegFunc@@ABU_GUID@@PAP6APAUIUnknown@@XZ@Z@@QAA@XZ 100022d8 f i syscsps_ALL:legacycsp.obj
+ 0001:00001338       ??1CPolicyCsp@@UAA@XZ      10002338 f   syscsps_ALL:policycsp.obj
+ 0001:0000137c       ?HandleCharacteristic@CPolicyCsp@@UAAJPAGPAUIXMLDOMElement@@0KPAKK@Z 1000237c f   syscsps_ALL:policycsp.obj
+ 0001:000013cc       ?EndCharacteristic@CPolicyCsp@@UAAJPAGPAUIXMLDOMElement@@0KKK@Z 100023cc f   syscsps_ALL:policycsp.obj
+ 0001:000013d4       ?HandleNoCharacteristic@CPolicyCsp@@UAAJPAGPAUIXMLDOMElement@@0KK@Z 100023d4 f   syscsps_ALL:policycsp.obj
+ 0001:00001408       ?HandleCharacteristicQuery@CPolicyCsp@@UAAJPAGPAUIXMLDOMElement@@0KK@Z 10002408 f   syscsps_ALL:policycsp.obj
+ 0001:0000143c       ??1CPolicyTransaction@@UAA@XZ 1000243c f   syscsps_ALL:policycsp.obj
+ 0001:00001480       ?QueryInterface@CPolicyTransaction@@UAAJABU_GUID@@PAPAX@Z 10002480 f   syscsps_ALL:policycsp.obj
+ 0001:000014ec       ?AddRef@CPolicyTransaction@@UAAKXZ 100024ec f   syscsps_ALL:policycsp.obj
+ 0001:000014f4       ?Release@CPolicyTransaction@@UAAKXZ 100024f4 f   syscsps_ALL:policycsp.obj
+ 0001:0000152c       ?Begin@CPolicyTransaction@@UAAJXZ 1000252c f   syscsps_ALL:policycsp.obj
+ 0001:00001534       ?Rollback@CPolicyTransaction@@UAAJXZ 10002534 f   syscsps_ALL:policycsp.obj
+ 0001:0000153c       ?RecoveryRollback@CPolicyTransaction@@UAAJXZ 1000253c f   syscsps_ALL:policycsp.obj
+ 0001:00001544       ?CreateInstance@CPolicyCsp@@SAPAUIUnknown@@XZ 10002544 f i syscsps_ALL:policycsp.obj
+ 0001:00001588       _policycsp                 10002588 f   syscsps_ALL:policycsp.obj
+ 0001:000015d4       ??_GCPolicyCsp@@UAAPAXI@Z  100025d4 f i syscsps_ALL:policycsp.obj
+ 0001:000015d4       ??_ECPolicyCsp@@UAAPAXI@Z  100025d4 f i syscsps_ALL:policycsp.obj
+ 0001:000015f8       ?QueryTransactioningMode@CPolicyCsp@@UAAJPAW4ConfigTransactioningMode@@@Z 100025f8 f   syscsps_ALL:policycsp.obj
+ 0001:00001614       ?SafeStringToDWORD@CPolicyCsp@@AAAJPAGPAK@Z 10002614 f   syscsps_ALL:policycsp.obj
+ 0001:000016a0       ??_ECPolicyTransaction@@UAAPAXI@Z 100026a0 f i syscsps_ALL:policycsp.obj
+ 0001:000016a0       ??_GCPolicyTransaction@@UAAPAXI@Z 100026a0 f i syscsps_ALL:policycsp.obj
+ 0001:000016c4       ?QueryPolicys@CPolicyTransaction@@AAAJKPAK@Z 100026c4 f   syscsps_ALL:policycsp.obj
+ 0001:00001710       ?Commit@CPolicyTransaction@@UAAJXZ 10002710 f   syscsps_ALL:policycsp.obj
+ 0001:000017c0       ?InsertCacheElement@CPolicyTransaction@@AAAJKKH@Z 100027c0 f   syscsps_ALL:policycsp.obj
+ 0001:00001810       ?TransactionInternalUpdatePolicy@CPolicyTransaction@@AAAJKKH@Z 10002810 f   syscsps_ALL:policycsp.obj
+ 0001:0000185c       ?TransactionQueryPolicy@CPolicyTransaction@@QAAJKPAK@Z 1000285c f   syscsps_ALL:policycsp.obj
+ 0001:000018d0       ?AddStringParmNode@CPolicyTransaction@@CAJPAUIXMLDOMElement@@PBG1W4ConfigDataType@@@Z 100028d0 f   syscsps_ALL:policycsp.obj
+ 0001:00001994       ?AddIntegerParmNode@CPolicyTransaction@@CAJPAUIXMLDOMElement@@PBGK@Z 10002994 f   syscsps_ALL:policycsp.obj
+ 0001:000019f0       ??0?$ComRegisterImpl@$1?_policycsp@@YA?AVComRegFunc@@ABU_GUID@@PAP6APAUIUnknown@@XZ@Z@@QAA@XZ 100029f0 f i syscsps_ALL:policycsp.obj
+ 0001:00001a50       ?HandleParmQuery@CPolicyCsp@@UAAJPAGPAUtagVARIANT@@PAUIXMLDOMElement@@0KK@Z 10002a50 f   syscsps_ALL:policycsp.obj
+ 0001:00001adc       ?GetUninstallNode@CPolicyTransaction@@UAAJPAUIXMLDOMDocument@@PAPAUIXMLDOMNode@@@Z 10002adc f   syscsps_ALL:policycsp.obj
+ 0001:00001c00       ?TransactionUpdatePolicy@CPolicyTransaction@@QAAJKKH@Z 10002c00 f   syscsps_ALL:policycsp.obj
+ 0001:00001cd0       ?BeginTransaction@CPolicyCsp@@UAAJPAPAUIConfigTransaction@@@Z 10002cd0 f   syscsps_ALL:policycsp.obj
+ 0001:00001d5c       ?HandleParm@CPolicyCsp@@UAAJPAG0PAUIXMLDOMElement@@0KK@Z 10002d5c f   syscsps_ALL:policycsp.obj
+ 0001:00001e00       ?HandleNoParm@CPolicyCsp@@UAAJPAGPAUIXMLDOMElement@@0KK@Z 10002e00 f   syscsps_ALL:policycsp.obj
+ 0001:00001e68       ??0CRegCsp@@QAA@XZ         10002e68 f   syscsps_ALL:regcsp.obj
+ 0001:00001ea0       ?RegDeleteLResultToHResult@CRegCsp@@AAAJJ@Z 10002ea0 f   syscsps_ALL:regcsp.obj
+ 0001:00001ef4       ?HandleNoParm@CRegCsp@@UAAJPAGPAUIXMLDOMElement@@0KK@Z 10002ef4 f   syscsps_ALL:regcsp.obj
+ 0001:00001f20       ?BuildUpBasePath@CRegCsp@@IAAJPAG0HPAPAG@Z 10002f20 f   syscsps_ALL:regcsp.obj
+ 0001:00002098       ?ParseRootKey@CRegCsp@@AAAJPAPAGPAPAUHKEY__@@@Z 10003098 f   syscsps_ALL:regcsp.obj
+ 0001:00002178       ??1CRegCsp@@UAA@XZ         10003178 f   syscsps_ALL:regcsp.obj
+ 0001:000021b4       ?GetRegMetabaseEntry@CRegCsp@@AAAJPAG0PAPAUIConfigMetabaseEntry@@@Z 100031b4 f   syscsps_ALL:regcsp.obj
+ 0001:00002240       ?OpenRegKey@CRegCsp@@AAAJPAUHKEY__@@PAGHHPAPAU2@@Z 10003240 f   syscsps_ALL:regcsp.obj
+ 0001:0000237c       ?DeleteRegKey@CRegCsp@@AAAJPAUHKEY__@@PAG@Z 1000337c f   syscsps_ALL:regcsp.obj
+ 0001:00002410       ??_ECRegCsp@@UAAPAXI@Z     10003410 f i syscsps_ALL:regcsp.obj
+ 0001:00002410       ??_GCRegCsp@@UAAPAXI@Z     10003410 f i syscsps_ALL:regcsp.obj
+ 0001:00002434       ?ParmEnsureKeyExists@CRegCsp@@AAAJPAPAUHKEY__@@PAG@Z 10003434 f   syscsps_ALL:regcsp.obj
+ 0001:000024bc       ?GetDataType@CRegCsp@@AAAJPAG0PAW4ConfigDataType@@@Z 100034bc f   syscsps_ALL:regcsp.obj
+ 0001:00002528       ?HandleCharacteristic@CRegCsp@@UAAJPAGPAUIXMLDOMElement@@0KPAKK@Z 10003528 f   syscsps_ALL:regcsp.obj
+ 0001:000025d4       ?FixUpPathOnDelete@CRegCsp@@AAAJPAG0PAUIXMLDOMElement@@@Z 100035d4 f   syscsps_ALL:regcsp.obj
+ 0001:00002718       ?HandleNoCharacteristic@CRegCsp@@UAAJPAGPAUIXMLDOMElement@@0KK@Z 10003718 f   syscsps_ALL:regcsp.obj
+ 0001:00002740       ?FillRegType@CRegCsp@@AAAJKPAEKPAUtagVARIANT@@PAG2@Z 10003740 f   syscsps_ALL:regcsp.obj
+ 0001:00002968       ?FillDataType@CRegCsp@@AAAJPAUIXMLDOMElement@@KPAG1@Z 10003968 f   syscsps_ALL:regcsp.obj
+ 0001:00002a54       ?HandleParm@CRegCsp@@UAAJPAG0PAUIXMLDOMElement@@0KK@Z 10003a54 f   syscsps_ALL:regcsp.obj
+ 0001:00002f00       ?HandleParmQuery@CRegCsp@@UAAJPAGPAUtagVARIANT@@PAUIXMLDOMElement@@0KK@Z 10003f00 f   syscsps_ALL:regcsp.obj
+ 0001:0000308c       ?EndCharacteristic@CRegCsp@@UAAJPAGPAUIXMLDOMElement@@0KKK@Z 1000408c f   syscsps_ALL:regcsp.obj
+ 0001:00003144       ?FillInRegKey@CRegCsp@@AAAJPAUHKEY__@@PAG1PAUIXMLDOMElement@@H@Z 10004144 f   syscsps_ALL:regcsp.obj
+ 0001:000036c0       ?HandleRootKeyQuery@CRegCsp@@AAAJPAGPAUIXMLDOMElement@@H@Z 100046c0 f   syscsps_ALL:regcsp.obj
+ 0001:000037a0       ?HandleCharacteristicQuery@CRegCsp@@UAAJPAGPAUIXMLDOMElement@@0KK@Z 100047a0 f   syscsps_ALL:regcsp.obj
+ 0001:00003978       ??0CCSPCommandManager@@QAA@XZ 10004978 f   syscsps_ALL:cspmanager.obj
+ 0001:000039b0       ??1CCSPCommandManager@@QAA@XZ 100049b0 f   syscsps_ALL:cspmanager.obj
+ 0001:00003a14       ?Initialize@CCSPCommandManager@@QAAJPAUIConfigServiceProvider@@H@Z 10004a14 f   syscsps_ALL:cspmanager.obj
+ 0001:00003a98       ?CalculateBasePath@CCSPCommandManager@@AAAJPAPAG@Z 10004a98 f   syscsps_ALL:cspmanager.obj
+ 0001:00003bc4       ?GetCurrentStateAndBasePath@CCSPCommandManager@@QAAJPAPAVCCSPState@@PAPAG@Z 10004bc4 f   syscsps_ALL:cspmanager.obj
+ 0001:00003c60       ?PushNewState@CCSPCommandManager@@QAAJPAGPAUIXMLDOMElement@@KK@Z 10004c60 f   syscsps_ALL:cspmanager.obj
+ 0001:00003d18       ?CustomizeXML@CCSPCommandManager@@QAAJPAUIXMLDOMElement@@@Z 10004d18 f   syscsps_ALL:cspmanager.obj
+ 0001:00003d40       ?BeginCSPProcessing@CCSPCommandManager@@QAAJPAUIConfigSession2@@@Z 10004d40 f   syscsps_ALL:cspmanager.obj
+ 0001:00003e80       ?EndCSPProcessing@CCSPCommandManager@@AAAJXZ 10004e80 f   syscsps_ALL:cspmanager.obj
+ 0001:00003ec4       ?CommitCommands@CCSPCommandManager@@QAAJXZ 10004ec4 f   syscsps_ALL:cspmanager.obj
+ 0001:00003f14       ?RollbackCommands@CCSPCommandManager@@QAAJH@Z 10004f14 f   syscsps_ALL:cspmanager.obj
+ 0001:00003f80       ?FindMaximumMatchingSegmentIndex@CCSPCommandManager@@AAAJPAUIConfigManager2URI@@PAK@Z 10004f80 f   syscsps_ALL:cspmanager.obj
+ 0001:00004050       ?PopCSPState@CCSPCommandManager@@AAAJK@Z 10005050 f   syscsps_ALL:cspmanager.obj
+ 0001:000040c4       ?FinishPendingCommands@CCSPCommandManager@@QAAJXZ 100050c4 f   syscsps_ALL:cspmanager.obj
+ 0001:000040e4       ?NavigateCSPToURI@CCSPCommandManager@@AAAJPAUIConfigManager2URI@@@Z 100050e4 f   syscsps_ALL:cspmanager.obj
+ 0001:00004208       ?ProcessCommand@CCSPCommandManager@@QAAJPAUIConfigSession2@@PAVCCSPCommand@@@Z 10005208 f   syscsps_ALL:cspmanager.obj
+ 0001:000042bc       ?DestroyCSPNode@@YAHPAX0@Z 100052bc f   syscsps_ALL:helpers.obj
+ 0001:000042d8       ?FindV1PropertyType@@YAJABU_GUID@@PAW4ConfigParmAttributeType@@@Z 100052d8 f   syscsps_ALL:helpers.obj
+ 0001:00004344       ?OldCSPUsesInternalTransactioning@@YAJPAUIConfigServiceProvider@@PAH@Z 10005344 f   syscsps_ALL:helpers.obj
+ 0001:000043b0       ?SetAttributeOnElement@@YAJPAUIXMLDOMElement@@PBGPAG@Z 100053b0 f   syscsps_ALL:helpers.obj
+ 0001:00004458       ?ComputeURINodeHash@@YAIIPAX@Z 10005458 f   syscsps_ALL:helpers.obj
+ 0001:000044ac       ??0CLegacyCSPRootNode@@IAA@XZ 100054ac f   syscsps_ALL:legacyrootnode.obj
+ 0001:000044f4       ?QueryInterface@CLegacyCSPRootNode@@UAAJABU_GUID@@PAPAX@Z 100054f4 f   syscsps_ALL:legacyrootnode.obj
+ 0001:000044f8       ?AddRef@CLegacyCSPRootNode@@UAAKXZ 100054f8 f   syscsps_ALL:legacyrootnode.obj
+ 0001:000044fc       ?Release@CLegacyCSPRootNode@@UAAKXZ 100054fc f   syscsps_ALL:legacyrootnode.obj
+ 0001:00004500       ?Release@CLegacyCSPRootNode@@W3AAKXZ 10005500 f i syscsps_ALL:legacyrootnode.obj
+ 0001:00004508       ?AddRef@CLegacyCSPRootNode@@W3AAKXZ 10005508 f i syscsps_ALL:legacyrootnode.obj
+ 0001:00004510       ?QueryInterface@CLegacyCSPRootNode@@W3AAJABU_GUID@@PAPAX@Z 10005510 f i syscsps_ALL:legacyrootnode.obj
+ 0001:00004518       ?BeginTransaction@CLegacyCSPRootNode@@UAAJXZ 10005518 f   syscsps_ALL:legacyrootnode.obj
+ 0001:00004524       ?Commit@CLegacyCSPRootNode@@UAAJXZ 10005524 f   syscsps_ALL:legacyrootnode.obj
+ 0001:0000452c       ?Rollback@CLegacyCSPRootNode@@UAAJH@Z 1000552c f   syscsps_ALL:legacyrootnode.obj
+ 0001:00004534       ?ProcessCommand@CLegacyCSPRootNode@@QAAJPAVCCSPCommand@@@Z 10005534 f   syscsps_ALL:legacyrootnode.obj
+ 0001:00004544       ?SetSessionObject@CLegacyCSPRootNode@@AAAJPAUIConfigSession2@@@Z 10005544 f   syscsps_ALL:legacyrootnode.obj
+ 0001:000045a0       ?QueryCSPForChildNode@CLegacyCSPRootNode@@AAAJPAUIConfigManager2URI@@PAVCQueryForNodeCommand@@@Z 100055a0 f   syscsps_ALL:legacyrootnode.obj
+ 0001:0000468c       ?AddNodeToCache@CLegacyCSPRootNode@@QAAJPAUICSPNode@@@Z 1000568c f   syscsps_ALL:legacyrootnode.obj
+ 0001:000046ec       ?DeleteOneNodeFromCache@CLegacyCSPRootNode@@AAAJPAUIConfigManager2URI@@@Z 100056ec f   syscsps_ALL:legacyrootnode.obj
+ 0001:0000473c       ?FindChildNodes@CLegacyCSPRootNode@@CAJPAXJPAH@Z 1000573c f   syscsps_ALL:legacyrootnode.obj
+ 0001:000047e4       ?CompareURINode@CLegacyCSPRootNode@@CAJPAX0PAH@Z 100057e4 f   syscsps_ALL:legacyrootnode.obj
+ 0001:00004844       ?CreateInstance@CLegacyCSPRootNode@@SAJPAUIConfigServiceProvider2@@PAUIConfigServiceProvider@@PAUIConfigManager2URI@@PAUIConfigSession2@@PAPAUICSPNode@@@Z 10005844 f   syscsps_ALL:legacyrootnode.obj
+ 0001:000049ac       ?GetNode@CLegacyCSPRootNode@@QAAJPAUIConfigManager2URI@@PAPAUICSPNode@@@Z 100059ac f   syscsps_ALL:legacyrootnode.obj
+ 0001:00004ad4       ?DeleteNodeAndChildrenFromCache@CLegacyCSPRootNode@@AAAJPAUIConfigManager2URI@@@Z 10005ad4 f   syscsps_ALL:legacyrootnode.obj
+ 0001:00004bb4       ?DeleteNodeFromCache@CLegacyCSPRootNode@@QAAJPAUIConfigManager2URI@@H@Z 10005bb4 f   syscsps_ALL:legacyrootnode.obj
+ 0001:00004bc0       ?EndProcessing@CLegacyCSPRootNode@@QAAJH@Z 10005bc0 f   syscsps_ALL:legacyrootnode.obj
+ 0001:00004c0c       ??1CLegacyCSPRootNode@@MAA@XZ 10005c0c f   syscsps_ALL:legacyrootnode.obj
+ 0001:00004c9c       ??_ECLegacyCSPRootNode@@MAAPAXI@Z 10005c9c f i syscsps_ALL:legacyrootnode.obj
+ 0001:00004c9c       ??_GCLegacyCSPRootNode@@MAAPAXI@Z 10005c9c f i syscsps_ALL:legacyrootnode.obj
+ 0001:00004cc0       ??1CCSPImpl@@UAA@XZ        10005cc0 f   syscsps_ALL:basecsp.obj
+ 0001:00004d24       ?AddRef@CCSPImpl@@UAAKXZ   10005d24 f   syscsps_ALL:basecsp.obj
+ 0001:00004d2c       ?Release@CCSPImpl@@UAAKXZ  10005d2c f   syscsps_ALL:basecsp.obj
+ 0001:00004d64       ?QueryTransactioningMode@CCSPImpl@@UAAJPAW4ConfigTransactioningMode@@@Z 10005d64 f   syscsps_ALL:basecsp.obj
+ 0001:00004d80       ?CancelProcessing@CCSPImpl@@UAAJXZ 10005d80 f   syscsps_ALL:basecsp.obj
+ 0001:00004d88       ?BeginTransaction@CCSPImpl@@UAAJPAPAUIConfigTransaction@@@Z 10005d88 f   syscsps_ALL:basecsp.obj
+ 0001:00004d94       ?BeginProcessing@CCSPImpl@@UAAJPAUIConfigSession@@@Z 10005d94 f   syscsps_ALL:basecsp.obj
+ 0001:00004de0       ?EndProcessing@CCSPImpl@@UAAJXZ 10005de0 f   syscsps_ALL:basecsp.obj
+ 0001:00004de8       ?HandleParm@CCSPImpl@@UAAJPAG0PAUIXMLDOMElement@@0KK@Z 10005de8 f   syscsps_ALL:basecsp.obj
+ 0001:00004df4       ?HandleNoParm@CCSPImpl@@UAAJPAGPAUIXMLDOMElement@@0KK@Z 10005df4 f   syscsps_ALL:basecsp.obj
+ 0001:00004e00       ?HandleParmQuery@CCSPImpl@@UAAJPAGPAUtagVARIANT@@PAUIXMLDOMElement@@0KK@Z 10005e00 f   syscsps_ALL:basecsp.obj
+ 0001:00004e0c       ?HandleCharacteristic@CCSPImpl@@UAAJPAGPAUIXMLDOMElement@@0KPAKK@Z 10005e0c f   syscsps_ALL:basecsp.obj
+ 0001:00004e18       ?EndCharacteristic@CCSPImpl@@UAAJPAGPAUIXMLDOMElement@@0KKK@Z 10005e18 f   syscsps_ALL:basecsp.obj
+ 0001:00004e24       ?HandleNoCharacteristic@CCSPImpl@@UAAJPAGPAUIXMLDOMElement@@0KK@Z 10005e24 f   syscsps_ALL:basecsp.obj
+ 0001:00004e30       ?HandleCharacteristicQuery@CCSPImpl@@UAAJPAGPAUIXMLDOMElement@@0KK@Z 10005e30 f   syscsps_ALL:basecsp.obj
+ 0001:00004e3c       ?GetErrorDescription@CCSPImpl@@UAAJPAPAG@Z 10005e3c f   syscsps_ALL:basecsp.obj
+ 0001:00004e88       ??_GCCSPImpl@@UAAPAXI@Z    10005e88 f i syscsps_ALL:basecsp.obj
+ 0001:00004e88       ??_ECCSPImpl@@UAAPAXI@Z    10005e88 f i syscsps_ALL:basecsp.obj
+ 0001:00004eac       ?EnsureMetabaseAvailable@CCSPImpl@@QAAJXZ 10005eac f   syscsps_ALL:basecsp.obj
+ 0001:00004ef0       ?QueryInterface@CCSPImpl@@UAAJABU_GUID@@PAPAX@Z 10005ef0 f   syscsps_ALL:basecsp.obj
+ 0001:00004f5c       ??0CCSPImpl@@QAA@XZ        10005f5c f   syscsps_ALL:basecsp.obj
+ 0001:00004f94       ?FillBinaryValAsBase64@@YAJPAEKPAUtagVARIANT@@@Z 10005f94 f   syscsps_ALL:csputils.obj
+ 0001:00004fec       ?CSPUtilISO8601StringToLocalTime@@YAJPBGKKPAU_SYSTEMTIME@@@Z 10005fec f   syscsps_ALL:csputils.obj
+ 0001:00005130       ?CSPUtilLocalTimeToISO8601String@@YAJPAU_SYSTEMTIME@@KPAPAG@Z 10006130 f   syscsps_ALL:csputils.obj
+ 0001:000051fc       ?_GetProcFromDLL@@YAXPAPAUHINSTANCE__@@PBGPAP6AHXZ1@Z 100061fc f   syscsps_ALL:delyload.obj
+ 0001:00005250       ?Base64StrToSafeArray@@YAJPBGPAPAUtagSAFEARRAY@@@Z 10006250 f   syscsps_ALL:delyload.obj
+ 0001:000052a8       ?SafeArrayToBase64Str@@YAJPAUtagSAFEARRAY@@PAPAG@Z 100062a8 f   syscsps_ALL:delyload.obj
+ 0001:00005300       ?MultiStringToSafeArray@@YAJPBGGPAPAUtagSAFEARRAY@@@Z 10006300 f   syscsps_ALL:delyload.obj
+ 0001:00005360       ?SafeArrayToMultiString@@YAJPAUtagSAFEARRAY@@GPAPAGPAI@Z 10006360 f   syscsps_ALL:delyload.obj
+ 0001:000053cc       ?ValidateStringAsFloat@@YAJPBGPBUtagVARIANT@@@Z 100063cc f   syscsps_ALL:delyload.obj
+ 0001:00005424       ?get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ 10006424 f i syscsps_ALL:delyload.obj
+ 0001:00005478       ??0CCSPCommandProcessor@@QAA@XZ 10006478 f   syscsps_ALL:cspprocessor.obj
+ 0001:00005490       ??1CCSPCommandProcessor@@QAA@XZ 10006490 f   syscsps_ALL:cspprocessor.obj
+ 0001:000054dc       ?Initialize@CCSPCommandProcessor@@QAAJPAUIConfigServiceProvider@@PAVCCSPCommandManager@@@Z 100064dc f   syscsps_ALL:cspprocessor.obj
+ 0001:00005534       ?HandleEndCharacteristic@CCSPCommandProcessor@@QAAJXZ 10006534 f   syscsps_ALL:cspprocessor.obj
+ 0001:000055fc       ?EnsureXMLDocumentCreated@CCSPCommandProcessor@@AAAJXZ 100065fc f   syscsps_ALL:cspprocessor.obj
+ 0001:00005678       ?CreateDOMElement@CCSPCommandProcessor@@AAAJW4ConfigNodeType@@PAG11PAPAUIXMLDOMElement@@@Z 10006678 f   syscsps_ALL:cspprocessor.obj
+ 0001:000057b0       ?HandleCharacteristic@CCSPCommandProcessor@@QAAJPAG@Z 100067b0 f   syscsps_ALL:cspprocessor.obj
+ 0001:000058fc       ?HandleCharacteristicQuery@CCSPCommandProcessor@@QAAJPAGPAPAUIXMLDOMElement@@@Z 100068fc f   syscsps_ALL:cspprocessor.obj
+ 0001:00005a0c       ?HandleNoCharacteristic@CCSPCommandProcessor@@QAAJPAG@Z 10006a0c f   syscsps_ALL:cspprocessor.obj
+ 0001:00005b24       ?HandleParm@CCSPCommandProcessor@@QAAJPAG0@Z 10006b24 f   syscsps_ALL:cspprocessor.obj
+ 0001:00005c50       ?HandleParmQuery@CCSPCommandProcessor@@QAAJPAGPAUtagVARIANT@@HPAPAUIXMLDOMElement@@@Z 10006c50 f   syscsps_ALL:cspprocessor.obj
+ 0001:00005dac       ?HandleNoParm@CCSPCommandProcessor@@QAAJPAG@Z 10006dac f   syscsps_ALL:cspprocessor.obj
+ 0001:00005ec4       ??0CCSPState@@QAA@XZ       10006ec4 f   syscsps_ALL:cspstate.obj
+ 0001:00005edc       ??1CCSPState@@QAA@XZ       10006edc f   syscsps_ALL:cspstate.obj
+ 0001:00005f10       ?SetXMLElement@CCSPState@@QAAJPAUIXMLDOMElement@@@Z 10006f10 f   syscsps_ALL:cspstate.obj
+ 0001:00005f58       ?GetXMLElementAndAddRef@CCSPState@@QAAPAUIXMLDOMElement@@XZ 10006f58 f   syscsps_ALL:cspstate.obj
+ 0001:00005f80       ?Initialize@CCSPState@@QAAJPAGKK@Z 10006f80 f   syscsps_ALL:cspstate.obj
+ 0001:00005fdc       ?DeleteCSPState@CCSPState@@SAHPAX0@Z 10006fdc f   syscsps_ALL:cspstate.obj
+ 0001:00006000       ?AddRef@CLegacyCSPConfigSession@@UAAKXZ 10007000 f   syscsps_ALL:configsession.obj
+ 0001:00006008       ?Release@CLegacyCSPConfigSession@@UAAKXZ 10007008 f   syscsps_ALL:configsession.obj
+ 0001:00006040       ?QueryHost@CLegacyCSPConfigSession@@UAAJABU_GUID@@PAPAUIUnknown@@@Z 10007040 f   syscsps_ALL:configsession.obj
+ 0001:0000604c       ?SetSessionVariable@CLegacyCSPConfigSession@@UAAJPAG0@Z 1000704c f   syscsps_ALL:configsession.obj
+ 0001:00006058       ?ResolveSessionVariables@CLegacyCSPConfigSession@@UAAJPAGPAPAG@Z 10007058 f   syscsps_ALL:configsession.obj
+ 0001:00006064       ??_GCLegacyCSPConfigSession@@EAAPAXI@Z 10007064 f i syscsps_ALL:configsession.obj
+ 0001:00006064       ??_ECLegacyCSPConfigSession@@EAAPAXI@Z 10007064 f i syscsps_ALL:configsession.obj
+ 0001:00006094       ?QueryInterface@CLegacyCSPConfigSession@@UAAJABU_GUID@@PAPAX@Z 10007094 f   syscsps_ALL:configsession.obj
+ 0001:00006124       ?GetSecurityRoleMask@CLegacyCSPConfigSession@@UAAJPAK@Z 10007124 f   syscsps_ALL:configsession.obj
+ 0001:00006150       ?GetBaseRoleMask@CLegacyCSPConfigSession@@UAAJPAK@Z 10007150 f   syscsps_ALL:configsession.obj
+ 0001:0000617c       ?GetProcessingFlags@CLegacyCSPConfigSession@@UAAJPAK@Z 1000717c f   syscsps_ALL:configsession.obj
+ 0001:000061a4       ??0CLegacyCSPConfigSession@@AAA@XZ 100071a4 f   syscsps_ALL:configsession.obj
+ 0001:000061d8       ?CreateInstance@CLegacyCSPConfigSession@@SAJKKPAPAUIConfigSession@@@Z 100071d8 f   syscsps_ALL:configsession.obj
+ 0001:00006244       ??0CCSPCommand@@QAA@XZ     10007244 f   syscsps_ALL:cspcommands.obj
+ 0001:00006268       ??1CCSPCommand@@UAA@XZ     10007268 f   syscsps_ALL:cspcommands.obj
+ 0001:000062ac       ?GetCommandURI@CCSPCommand@@QBAJPAPAUIConfigManager2URI@@@Z 100072ac f   syscsps_ALL:cspcommands.obj
+ 0001:000062cc       ?CustomizeXML@CCSPCommand@@UAAJPAUIXMLDOMElement@@@Z 100072cc f   syscsps_ALL:cspcommands.obj
+ 0001:000062d4       ??0CAddNodeCommand@@QAA@XZ 100072d4 f   syscsps_ALL:cspcommands.obj
+ 0001:000062fc       ??1CAddNodeCommand@@UAA@XZ 100072fc f   syscsps_ALL:cspcommands.obj
+ 0001:00006324       ??0CSetValueCommand@@QAA@XZ 10007324 f   syscsps_ALL:cspcommands.obj
+ 0001:0000634c       ??1CSetValueCommand@@UAA@XZ 1000734c f   syscsps_ALL:cspcommands.obj
+ 0001:00006374       ??0CGetValueCommand@@QAA@XZ 10007374 f   syscsps_ALL:cspcommands.obj
+ 0001:000063a8       ??1CGetValueCommand@@UAA@XZ 100073a8 f   syscsps_ALL:cspcommands.obj
+ 0001:000063cc       ??0CQueryForNodeCommand@@QAA@XZ 100073cc f   syscsps_ALL:cspcommands.obj
+ 0001:000063fc       ??1CQueryForNodeCommand@@UAA@XZ 100073fc f   syscsps_ALL:cspcommands.obj
+ 0001:00006440       ??0CGetPropertyCommand@@QAA@XZ 10007440 f   syscsps_ALL:cspcommands.obj
+ 0001:00006490       ??1CGetPropertyCommand@@UAA@XZ 10007490 f   syscsps_ALL:cspcommands.obj
+ 0001:000064cc       ??0CExecCommand@@QAA@XZ    100074cc f   syscsps_ALL:cspcommands.obj
+ 0001:000064f4       ??1CExecCommand@@UAA@XZ    100074f4 f   syscsps_ALL:cspcommands.obj
+ 0001:0000651c       ?AddDataTypeAttribute@@YAJW4ConfigDataType@@PAUIXMLDOMElement@@@Z 1000751c f   syscsps_ALL:cspcommands.obj
+ 0001:00006568       ?GetVariantDataType@@YAJUtagVARIANT@@PAW4ConfigDataType@@@Z 10007568 f   syscsps_ALL:cspcommands.obj
+ 0001:000065ec       ?ConvertVariantToConfigManagerBSTR@@YAJW4ConfigDataType@@PAUtagVARIANT@@PAPAG@Z 100075ec f   syscsps_ALL:cspcommands.obj
+ 0001:0000676c       ??_ECCSPCommand@@UAAPAXI@Z 1000776c f i syscsps_ALL:cspcommands.obj
+ 0001:0000676c       ??_GCCSPCommand@@UAAPAXI@Z 1000776c f i syscsps_ALL:cspcommands.obj
+ 0001:00006790       ?Initialize@CCSPCommand@@IAAJPAUIConfigManager2URI@@PBGW4ConfigDataType@@@Z 10007790 f   syscsps_ALL:cspcommands.obj
+ 0001:000067e4       ??_ECAddNodeCommand@@UAAPAXI@Z 100077e4 f i syscsps_ALL:cspcommands.obj
+ 0001:000067e4       ??_GCAddNodeCommand@@UAAPAXI@Z 100077e4 f i syscsps_ALL:cspcommands.obj
+ 0001:00006820       ?Initialize@CAddNodeCommand@@QAAJPAUIConfigManager2URI@@PBGW4ConfigDataType@@PAUtagVARIANT@@@Z 10007820 f   syscsps_ALL:cspcommands.obj
+ 0001:00006868       ?Execute@CAddNodeCommand@@UAAJPAVCCSPCommandProcessor@@@Z 10007868 f   syscsps_ALL:cspcommands.obj
+ 0001:000068b8       ?CustomizeXML@CAddNodeCommand@@UAAJPAUIXMLDOMElement@@@Z 100078b8 f   syscsps_ALL:cspcommands.obj
+ 0001:000068d4       ?Initialize@CDeleteNodeCommand@@QAAJPAUIConfigManager2URI@@PBGH@Z 100078d4 f   syscsps_ALL:cspcommands.obj
+ 0001:000068f4       ?Execute@CDeleteNodeCommand@@UAAJPAVCCSPCommandProcessor@@@Z 100078f4 f   syscsps_ALL:cspcommands.obj
+ 0001:00006910       ??_ECSetValueCommand@@UAAPAXI@Z 10007910 f i syscsps_ALL:cspcommands.obj
+ 0001:00006910       ??_GCSetValueCommand@@UAAPAXI@Z 10007910 f i syscsps_ALL:cspcommands.obj
+ 0001:0000694c       ?Initialize@CSetValueCommand@@QAAJPAUIConfigManager2URI@@PBGPAUtagVARIANT@@W4ConfigDataType@@@Z 1000794c f   syscsps_ALL:cspcommands.obj
+ 0001:00006978       ?Execute@CSetValueCommand@@UAAJPAVCCSPCommandProcessor@@@Z 10007978 f   syscsps_ALL:cspcommands.obj
+ 0001:0000698c       ?CustomizeXML@CSetValueCommand@@UAAJPAUIXMLDOMElement@@@Z 1000798c f   syscsps_ALL:cspcommands.obj
+ 0001:00006994       ??_GCGetValueCommand@@UAAPAXI@Z 10007994 f i syscsps_ALL:cspcommands.obj
+ 0001:00006994       ??_ECGetValueCommand@@UAAPAXI@Z 10007994 f i syscsps_ALL:cspcommands.obj
+ 0001:000069cc       ?Initialize@CGetValueCommand@@QAAJPAUIConfigManager2URI@@PBGW4ConfigDataType@@@Z 100079cc f   syscsps_ALL:cspcommands.obj
+ 0001:000069d0       ?Execute@CGetValueCommand@@UAAJPAVCCSPCommandProcessor@@@Z 100079d0 f   syscsps_ALL:cspcommands.obj
+ 0001:00006afc       ?GetValueCopy@CGetValueCommand@@QAAJPAUtagVARIANT@@@Z 10007afc f   syscsps_ALL:cspcommands.obj
+ 0001:00006b0c       ??_GCQueryForNodeCommand@@UAAPAXI@Z 10007b0c f i syscsps_ALL:cspcommands.obj
+ 0001:00006b0c       ??_ECQueryForNodeCommand@@UAAPAXI@Z 10007b0c f i syscsps_ALL:cspcommands.obj
+ 0001:00006b30       ?Initialize@CQueryForNodeCommand@@QAAJPAUIConfigManager2URI@@PBGW4QueryType@1@@Z 10007b30 f   syscsps_ALL:cspcommands.obj
+ 0001:00006b50       ?Execute@CQueryForNodeCommand@@UAAJPAVCCSPCommandProcessor@@@Z 10007b50 f   syscsps_ALL:cspcommands.obj
+ 0001:00006c58       ?GetChildNames@CQueryForNodeCommand@@QBAJPAKPAPAPAG@Z 10007c58 f   syscsps_ALL:cspcommands.obj
+ 0001:00006ecc       ??_GCGetPropertyCommand@@UAAPAXI@Z 10007ecc f i syscsps_ALL:cspcommands.obj
+ 0001:00006ecc       ??_ECGetPropertyCommand@@UAAPAXI@Z 10007ecc f i syscsps_ALL:cspcommands.obj
+ 0001:00006ef0       ?GetProperties@CGetPropertyCommand@@QAAJPAUtagVARIANT@@K@Z 10007ef0 f   syscsps_ALL:cspcommands.obj
+ 0001:00006f84       ?ParseMetadata@CGetPropertyCommand@@AAAJPAUIXMLDOMElement@@UtagVARIANT@@PAU3@K@Z 10007f84 f   syscsps_ALL:cspcommands.obj
+ 0001:000070a0       ??_ECExecCommand@@UAAPAXI@Z 100080a0 f i syscsps_ALL:cspcommands.obj
+ 0001:000070a0       ??_GCExecCommand@@UAAPAXI@Z 100080a0 f i syscsps_ALL:cspcommands.obj
+ 0001:000070dc       ?Initialize@CExecCommand@@QAAJPAUIConfigManager2URI@@PBGPAUtagVARIANT@@W4ConfigDataType@@@Z 100080dc f   syscsps_ALL:cspcommands.obj
+ 0001:00007108       ?Execute@CExecCommand@@UAAJPAVCCSPCommandProcessor@@@Z 10008108 f   syscsps_ALL:cspcommands.obj
+ 0001:0000711c       ?Execute@CGetPropertyCommand@@UAAJPAVCCSPCommandProcessor@@@Z 1000811c f   syscsps_ALL:cspcommands.obj
+ 0001:000071e8       ??1CLegacyCSPNode@@MAA@XZ  100081e8 f   syscsps_ALL:LegacyNode.obj
+ 0001:00007284       ?AddRef@CLegacyCSPNode@@UAAKXZ 10008284 f   syscsps_ALL:LegacyNode.obj
+ 0001:0000728c       ?Release@CLegacyCSPNode@@UAAKXZ 1000828c f   syscsps_ALL:LegacyNode.obj
+ 0001:000072ec       ?Copy@CLegacyCSPNode@@UAAJPAUIConfigManager2URI@@PAPAUICSPNode@@PAK@Z 100082ec f   syscsps_ALL:LegacyNode.obj
+ 0001:000072f8       ?Clear@CLegacyCSPNode@@UAAJXZ 100082f8 f   syscsps_ALL:LegacyNode.obj
+ 0001:00007300       ?Move@CLegacyCSPNode@@UAAJPAUIConfigManager2URI@@@Z 10008300 f   syscsps_ALL:LegacyNode.obj
+ 0001:0000730c       ?GetPropertyIdentifiers@CLegacyCSPNode@@UAAJPAKPAPAU_GUID@@@Z 1000830c f   syscsps_ALL:LegacyNode.obj
+ 0001:00007318       ?PersistRollbackCopyState@CLegacyCSPNode@@UAAJPAUIConfigManager2URI@@PAUISequentialStream@@1@Z 10008318 f   syscsps_ALL:LegacyNode.obj
+ 0001:00007324       ?PersistRollbackMoveState@CLegacyCSPNode@@UAAJPAUIConfigManager2URI@@PAUISequentialStream@@1@Z 10008324 f   syscsps_ALL:LegacyNode.obj
+ 0001:00007330       ?PersistRollbackSetPropertyState@CLegacyCSPNode@@UAAJABU_GUID@@UtagVARIANT@@PAUISequentialStream@@2@Z 10008330 f   syscsps_ALL:LegacyNode.obj
+ 0001:00007348       ?PersistRollbackDeletePropertyState@CLegacyCSPNode@@UAAJABU_GUID@@PAUISequentialStream@@1@Z 10008348 f   syscsps_ALL:LegacyNode.obj
+ 0001:00007354       ?RollbackCopy@CLegacyCSPNode@@UAAJPAUISequentialStream@@H@Z 10008354 f   syscsps_ALL:LegacyNode.obj
+ 0001:0000735c       ?RollbackExecute@CLegacyCSPNode@@UAAJPAUISequentialStream@@H@Z 1000835c f   syscsps_ALL:LegacyNode.obj
+ 0001:00007364       ?RollbackMove@CLegacyCSPNode@@UAAJPAUISequentialStream@@H@Z 10008364 f   syscsps_ALL:LegacyNode.obj
+ 0001:0000736c       ?RollbackSetProperty@CLegacyCSPNode@@UAAJPAUISequentialStream@@H@Z 1000836c f   syscsps_ALL:LegacyNode.obj
+ 0001:00007378       ?RollbackDeleteProperty@CLegacyCSPNode@@UAAJPAUISequentialStream@@H@Z 10008378 f   syscsps_ALL:LegacyNode.obj
+ 0001:00007384       ?Commit@CLegacyCSPNode@@UAAJXZ 10008384 f   syscsps_ALL:LegacyNode.obj
+ 0001:000073a0       ?BeginTransaction@CLegacyCSPNode@@UAAJXZ 100083a0 f   syscsps_ALL:LegacyNode.obj
+ 0001:000073b8       ?Rollback@CLegacyCSPNode@@UAAJH@Z 100083b8 f   syscsps_ALL:LegacyNode.obj
+ 0001:000073d0       ?Release@CLegacyCSPNode@@W3AAKXZ 100083d0 f i syscsps_ALL:LegacyNode.obj
+ 0001:000073d8       ?AddRef@CLegacyCSPNode@@W3AAKXZ 100083d8 f i syscsps_ALL:LegacyNode.obj
+ 0001:000073e0       ??_GCDeleteNodeCommand@@UAAPAXI@Z 100083e0 f i syscsps_ALL:LegacyNode.obj
+ 0001:000073e0       ??_ECDeleteNodeCommand@@UAAPAXI@Z 100083e0 f i syscsps_ALL:LegacyNode.obj
+ 0001:00007404       ??_ECLegacyCSPNode@@MAAPAXI@Z 10008404 f i syscsps_ALL:LegacyNode.obj
+ 0001:00007404       ??_GCLegacyCSPNode@@MAAPAXI@Z 10008404 f i syscsps_ALL:LegacyNode.obj
+ 0001:00007428       ?Initialize@CLegacyCSPNode@@IAAJPAVCLegacyCSPRootNode@@PAUIConfigManager2URI@@H@Z 10008428 f   syscsps_ALL:LegacyNode.obj
+ 0001:000074c4       ?QueryInterface@CLegacyCSPNode@@UAAJABU_GUID@@PAPAX@Z 100084c4 f   syscsps_ALL:LegacyNode.obj
+ 0001:00007584       ?GetChildNodeNames@CLegacyCSPNode@@UAAJPAKPAPAPAG@Z 10008584 f   syscsps_ALL:LegacyNode.obj
+ 0001:00007680       ?DeleteChild@CLegacyCSPNode@@UAAJPAUIConfigManager2URI@@@Z 10008680 f   syscsps_ALL:LegacyNode.obj
+ 0001:000077e4       ?PersistRollbackAddState@CLegacyCSPNode@@UAAJPAUIConfigManager2URI@@W4ConfigDataType@@UtagVARIANT@@PAUISequentialStream@@3@Z 100087e4 f   syscsps_ALL:LegacyNode.obj
+ 0001:00007804       ?PersistRollbackDeleteChildState@CLegacyCSPNode@@UAAJPAUIConfigManager2URI@@PAUISequentialStream@@1@Z 10008804 f   syscsps_ALL:LegacyNode.obj
+ 0001:0000781c       ?PersistRollbackClearState@CLegacyCSPNode@@UAAJPAUISequentialStream@@0@Z 1000881c f   syscsps_ALL:LegacyNode.obj
+ 0001:00007834       ?PersistRollbackExecuteState@CLegacyCSPNode@@UAAJUtagVARIANT@@PAUISequentialStream@@1@Z 10008834 f   syscsps_ALL:LegacyNode.obj
+ 0001:00007854       ?PersistRollbackSetValueState@CLegacyCSPNode@@UAAJUtagVARIANT@@PAUISequentialStream@@1@Z 10008854 f   syscsps_ALL:LegacyNode.obj
+ 0001:00007874       ?RollbackAdd@CLegacyCSPNode@@UAAJPAUISequentialStream@@H@Z 10008874 f   syscsps_ALL:LegacyNode.obj
+ 0001:00007890       ?RollbackDeleteChild@CLegacyCSPNode@@UAAJPAUISequentialStream@@H@Z 10008890 f   syscsps_ALL:LegacyNode.obj
+ 0001:000078ac       ?RollbackClear@CLegacyCSPNode@@UAAJPAUISequentialStream@@H@Z 100088ac f   syscsps_ALL:LegacyNode.obj
+ 0001:000078c8       ?RollbackSetValue@CLegacyCSPNode@@UAAJPAUISequentialStream@@H@Z 100088c8 f   syscsps_ALL:LegacyNode.obj
+ 0001:000078e4       ?GetName@CLegacyCSPNode@@QAAJPAPBG@Z 100088e4 f   syscsps_ALL:LegacyNode.obj
+ 0001:00007938       ?InitializePropertyCache@CLegacyCSPNode@@IAAJXZ 10008938 f   syscsps_ALL:LegacyNode.obj
+ 0001:000079f0       ?QueryInterface@CLegacyCSPNode@@W3AAJABU_GUID@@PAPAX@Z 100089f0 f i syscsps_ALL:LegacyNode.obj
+ 0001:000079f8       ??0CLegacyCSPNode@@IAA@XZ  100089f8 f   syscsps_ALL:LegacyNode.obj
+ 0001:00007a64       ?CreateInstance@CLegacyCSPNode@@SAJPAVCLegacyCSPRootNode@@PAUIConfigManager2URI@@HPAPAUICSPNode@@@Z 10008a64 f   syscsps_ALL:LegacyNode.obj
+ 0001:00007b10       ?Add@CLegacyCSPNode@@UAAJPAUIConfigManager2URI@@W4ConfigDataType@@UtagVARIANT@@PAPAUICSPNode@@PAK@Z 10008b10 f   syscsps_ALL:LegacyNode.obj
+ 0001:00007cb4       ?Execute@CLegacyCSPNode@@UAAJUtagVARIANT@@@Z 10008cb4 f   syscsps_ALL:LegacyNode.obj
+ 0001:00007de8       ?GetValue@CLegacyCSPNode@@UAAJPAUtagVARIANT@@@Z 10008de8 f   syscsps_ALL:LegacyNode.obj
+ 0001:00007f48       ?SetValue@CLegacyCSPNode@@UAAJUtagVARIANT@@@Z 10008f48 f   syscsps_ALL:LegacyNode.obj
+ 0001:0000807c       ?GetProperty@CLegacyCSPNode@@UAAJABU_GUID@@PAUtagVARIANT@@@Z 1000907c f   syscsps_ALL:LegacyNode.obj
+ 0001:0000817c       ?SetProperty@CLegacyCSPNode@@UAAJABU_GUID@@UtagVARIANT@@@Z 1000917c f   syscsps_ALL:LegacyNode.obj
+ 0001:000082c0       ?DeleteProperty@CLegacyCSPNode@@UAAJABU_GUID@@@Z 100092c0 f   syscsps_ALL:LegacyNode.obj
+ 0001:00008384       ?Hash_DestroyCallback@@YAJPAUHashTableTag@@P6AHPAX1@Z1@Z 10009384 f   ossvcs:ossvcs.dll
+ 0001:00008394       ?Hash_EnumCallback@@YAJPAUHashTableTag@@P6AJPAXJPAH@ZJ@Z 10009394 f   ossvcs:ossvcs.dll
+ 0001:000083a4       ?Hash_Insert@@YAJPAUHashTableTag@@PAX1@Z 100093a4 f   ossvcs:ossvcs.dll
+ 0001:000083b4       ?Hash_Get@@YAJPAUHashTableTag@@PAXPAPAX@Z 100093b4 f   ossvcs:ossvcs.dll
+ 0001:000083c4       ?Hash_Create@@YAJIP6AIIPAX@ZP6AJ00PAH@Z0PAPAUHashTableTag@@@Z 100093c4 f   ossvcs:ossvcs.dll
+ 0001:000083d4       SetPolicy                  100093d4 f   ossvcs:ossvcs.dll
+ 0001:000083e4       QueryPolicyImpl            100093e4 f   ossvcs:ossvcs.dll
+ 0001:000083f4       ?XMLHSetTextAttribute@@YAJPAUIXMLDOMElement@@PBG1@Z 100093f4 f   ossvcs:ossvcs.dll
+ 0001:00008404       ?XMLHCreateChildElement@@YAJPAUIXMLDOMNode@@PBGPAUIXMLDOMDocument@@PAPAUIXMLDOMElement@@@Z 10009404 f   ossvcs:ossvcs.dll
+ 0001:00008414       ?XMLHGetIntAttributeVal@@YAJPAUIXMLDOMNode@@PBGHPAH@Z 10009414 f   ossvcs:ossvcs.dll
+ 0001:00008424       DecodeBase64W              10009424 f   ossvcs:ossvcs.dll
+ 0001:00008434       ?XMLHGetBstrVarFromAttr@@YAJPAUIXMLDOMNode@@PBGPAUtagVARIANT@@@Z 10009434 f   ossvcs:ossvcs.dll
+ 0001:00008444       InvStrCmpIW                10009444 f   ossvcs:ossvcs.dll
+ 0001:00008454       ?Hash_Delete@@YAJPAUHashTableTag@@PAXPAPAX@Z 10009454 f   ossvcs:ossvcs.dll
+ 0001:00008464       EncodeBase64W              10009464 f   ossvcs:ossvcs.dll
+ 0001:00008474       ISO8601StringToSystemTime  10009474 f   ossvcs:ossvcs.dll
+ 0001:00008484       FileTimeToISO8601String    10009484 f   ossvcs:ossvcs.dll
+ 0001:00008494       SystemTimeToISO8601String  10009494 f   ossvcs:ossvcs.dll
+ 0001:000084a4       CoCreateInstance           100094a4 f   ole32:ole32.dll
+ 0001:000084b4       CLSIDFromProgID            100094b4 f   ole32:ole32.dll
+ 0001:000084c4       CoTaskMemFree              100094c4 f   ole32:ole32.dll
+ 0001:000084d4       CoTaskMemAlloc             100094d4 f   ole32:ole32.dll
+ 0001:000084e4       SysAllocString             100094e4 f   oleaut32:OLEAUT32.dll
+ 0001:000084f4       SysFreeString              100094f4 f   oleaut32:OLEAUT32.dll
+ 0001:00008504       SysStringLen               10009504 f   oleaut32:OLEAUT32.dll
+ 0001:00008514       VariantChangeType          10009514 f   oleaut32:OLEAUT32.dll
+ 0001:00008524       VariantInit                10009524 f   oleaut32:OLEAUT32.dll
+ 0001:00008534       VariantClear               10009534 f   oleaut32:OLEAUT32.dll
+ 0001:00008544       SysAllocStringLen          10009544 f   oleaut32:OLEAUT32.dll
+ 0001:00008554       VariantTimeToSystemTime    10009554 f   oleaut32:OLEAUT32.dll
+ 0001:00008564       SafeArrayDestroy           10009564 f   oleaut32:OLEAUT32.dll
+ 0001:00008574       VariantCopy                10009574 f   oleaut32:OLEAUT32.dll
+ 0001:00008584       CfgUtilGetParmAttributeName 10009584 f   configmanager:configmanager.dll
+ 0001:00008594       CfgUtilGetConfigDataTypeName 10009594 f   configmanager:configmanager.dll
+ 0001:000085a4       CfgUtilParseConfigDataTypeName 100095a4 f   configmanager:configmanager.dll
+ 0001:000085b4       CfgUtilGetElementName      100095b4 f   configmanager:configmanager.dll
+ 0001:000085c4       CfgUtilCreateCharacteristic 100095c4 f   configmanager:configmanager.dll
+ 0001:000085d4       CfgUtilCheckCharacteristicNode 100095d4 f   configmanager:configmanager.dll
+ 0001:000085e4       InterlockedIncrement       100095e4 f   coredll:COREDLL.dll
+ 0001:000085f4       InterlockedDecrement       100095f4 f   coredll:COREDLL.dll
+ 0001:00008604       LoadLibraryExW             10009604 f   coredll:COREDLL.dll
+ 0001:00008614       DisableThreadLibraryCalls  10009614 f   coredll:COREDLL.dll
+ 0001:00008624       RegCloseKey                10009624 f   coredll:COREDLL.dll
+ 0001:00008634       RegDeleteValueW            10009634 f   coredll:COREDLL.dll
+ 0001:00008644       RegOpenKeyExW              10009644 f   coredll:COREDLL.dll
+ 0001:00008654       RegCreateKeyExW            10009654 f   coredll:COREDLL.dll
+ 0001:00008664       RegDeleteKeyW              10009664 f   coredll:COREDLL.dll
+ 0001:00008674       LocalFree                  10009674 f   coredll:COREDLL.dll
+ 0001:00008684       FileTimeToSystemTime       10009684 f   coredll:COREDLL.dll
+ 0001:00008694       RegSetValueExW             10009694 f   coredll:COREDLL.dll
+ 0001:000086a4       RegQueryValueExW           100096a4 f   coredll:COREDLL.dll
+ 0001:000086b4       SystemTimeToFileTime       100096b4 f   coredll:COREDLL.dll
+ 0001:000086c4       StringCchLengthW           100096c4 f   coredll:COREDLL.dll
+ 0001:000086d4       LocalAlloc                 100096d4 f   coredll:COREDLL.dll
+ 0001:000086e4       RegEnumValueW              100096e4 f   coredll:COREDLL.dll
+ 0001:000086f4       RegEnumKeyExW              100096f4 f   coredll:COREDLL.dll
+ 0001:00008704       RegQueryInfoKeyW           10009704 f   coredll:COREDLL.dll
+ 0001:00008714       DPA_DestroyCallback        10009714 f   coredll:COREDLL.dll
+ 0001:00008724       DPA_Create                 10009724 f   coredll:COREDLL.dll
+ 0001:00008734       StringCchCopyW             10009734 f   coredll:COREDLL.dll
+ 0001:00008744       DPA_InsertPtr              10009744 f   coredll:COREDLL.dll
+ 0001:00008754       DPA_DeletePtr              10009754 f   coredll:COREDLL.dll
+ 0001:00008764       DPA_Destroy                10009764 f   coredll:COREDLL.dll
+ 0001:00008774       FileTimeToLocalFileTime    10009774 f   coredll:COREDLL.dll
+ 0001:00008784       GetLocalTime               10009784 f   coredll:COREDLL.dll
+ 0001:00008794       LocalFileTimeToFileTime    10009794 f   coredll:COREDLL.dll
+ 0001:000087a4       TerminateProcess           100097a4 f   coredll:COREDLL.dll
+ 0001:000087b4       InitializeCriticalSection  100097b4 f   coredll:COREDLL.dll
+ 0001:000087c4       DeleteCriticalSection      100097c4 f   coredll:COREDLL.dll
+ 0001:000087d4       GetProcAddressW            100097d4 f   coredll:COREDLL.dll
+ 0001:000087e4       LoadLibraryW               100097e4 f   coredll:COREDLL.dll
+ 0001:000088ec       _DllMainCRTStartup         100098ec f   corelib0:pegdmain.obj
+ 0001:00008a00       exit                       10009a00 f   corelib0:cexit.obj
+ 0001:00008a0c       _cexit                     10009a0c f   corelib0:cexit.obj
+ 0001:00008a1c       __GSHandlerCheckCommon     10009a1c f   corelib0:gshandler.obj
+ 0001:00008a58       __GSHandlerCheck           10009a58 f   corelib0:gshandler.obj
+ 0001:00008a78       __security_init_cookie     10009a78 f   corelib0:seccinit.obj
+ 0001:00008ac4       __security_check_cookie    10009ac4 f   corelib0:armsecgs.obj
+ 0001:00008ad4       __gsfailure                10009ad4     corelib0:armsecgs.obj
+ 0001:00008b20       _onexit                    10009b20 f   corelib0:onexit.obj
+ 0001:00008ca4       atexit                     10009ca4 f   corelib0:onexit.obj
+ 0001:00008cbc       _initterm                  10009cbc f   corelib0:crt0dat.obj
+ 0001:00008ce8       _cinit                     10009ce8 f   corelib0:crt0dat.obj
+ 0001:00008d48       __crt_ExitProcess          10009d48 f   corelib0:exitproc_proxy.obj
+ 0001:00008d54       ??3@YAXPAX@Z               10009d54 f   corelib1:COREDLL.dll
+ 0001:00008d64       ??2@YAPAXI@Z               10009d64 f   corelib1:COREDLL.dll
+ 0001:00008d74       memcmp                     10009d74 f   corelib1:COREDLL.dll
+ 0001:00008d84       ??2@YAPAXIABUnothrow_t@std@@@Z 10009d84 f   corelib1:COREDLL.dll
+ 0001:00008d94       ?nothrow@std@@3Unothrow_t@1@B 10009d94 f   corelib1:COREDLL.dll
+ 0001:00008da4       wcstoul                    10009da4 f   corelib1:COREDLL.dll
+ 0001:00008db4       iswctype                   10009db4 f   corelib1:COREDLL.dll
+ 0001:00008dc4       wcschr                     10009dc4 f   corelib1:COREDLL.dll
+ 0001:00008dd4       wcslen                     10009dd4 f   corelib1:COREDLL.dll
+ 0001:00008de4       wcscpy_s                   10009de4 f   corelib1:COREDLL.dll
+ 0001:00008df4       _wcsnicmp                  10009df4 f   corelib1:COREDLL.dll
+ 0001:00008e04       _wcsicmp                   10009e04 f   corelib1:COREDLL.dll
+ 0001:00008e14       memset                     10009e14 f   corelib1:COREDLL.dll
+ 0001:00008e24       memcpy                     10009e24 f   corelib1:COREDLL.dll
+ 0001:00008e34       _purecall                  10009e34 f   corelib1:COREDLL.dll
+ 0001:00008e44       _XcptFilter                10009e44 f   corelib1:COREDLL.dll
+ 0001:00008e54       __C_specific_handler       10009e54 f   corelib1:COREDLL.dll
+ 0001:00008e64       free                       10009e64 f   corelib1:COREDLL.dll
+ 0001:00008e74       __security_gen_cookie2     10009e74 f   corelib1:COREDLL.dll
+ 0001:00008e84       __report_gsfailure         10009e84 f   corelib1:COREDLL.dll
+ 0001:00008e94       malloc                     10009e94 f   corelib1:COREDLL.dll
+ 0001:00008ea4       realloc                    10009ea4 f   corelib1:COREDLL.dll
+ 0001:00008eb4       _msize                     10009eb4 f   corelib1:COREDLL.dll
+ 0001:00008ec4       InterlockedExchange        10009ec4 f   coredll:COREDLL.dll
+ 0001:00008ed4       EnterCriticalSection       10009ed4 f   coredll:COREDLL.dll
+ 0001:00008ee4       InterlockedCompareExchange 10009ee4 f   coredll:COREDLL.dll
+ 0001:00008ef4       LeaveCriticalSection       10009ef4 f   coredll:COREDLL.dll
+ 0001:00008f38       ??__Fcs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@YAXXZ 10009f38 f i syscsps_ALL:delyload.obj
+ 0001:00008f70       __IMPORT_DESCRIPTOR_ossvcs 10009f70     ossvcs:ossvcs.dll
+ 0001:00008f84       __IMPORT_DESCRIPTOR_ole32  10009f84     ole32:ole32.dll
+ 0001:00008f98       __IMPORT_DESCRIPTOR_OLEAUT32 10009f98     oleaut32:OLEAUT32.dll
+ 0001:00008fac       __IMPORT_DESCRIPTOR_configmanager 10009fac     configmanager:configmanager.dll
+ 0001:00008fc0       __IMPORT_DESCRIPTOR_COREDLL 10009fc0     coredll:COREDLL.dll
+ 0001:00008fd4       __NULL_IMPORT_DESCRIPTOR   10009fd4     ossvcs:ossvcs.dll
+ 0002:00000000       __imp_RegEnumValueW        1000b000     coredll:COREDLL.dll
+ 0002:00000004       __imp_InterlockedCompareExchange 1000b004     coredll:COREDLL.dll
+ 0002:00000008       __imp_EnterCriticalSection 1000b008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_InterlockedExchange  1000b00c     coredll:COREDLL.dll
+ 0002:00000010       __imp__msize               1000b010     corelib1:COREDLL.dll
+ 0002:00000014       __imp_realloc              1000b014     corelib1:COREDLL.dll
+ 0002:00000018       __imp_malloc               1000b018     corelib1:COREDLL.dll
+ 0002:0000001c       __imp___report_gsfailure   1000b01c     corelib1:COREDLL.dll
+ 0002:00000020       __imp___security_gen_cookie2 1000b020     corelib1:COREDLL.dll
+ 0002:00000024       __imp_free                 1000b024     corelib1:COREDLL.dll
+ 0002:00000028       __imp___C_specific_handler 1000b028     corelib1:COREDLL.dll
+ 0002:0000002c       __imp__XcptFilter          1000b02c     corelib1:COREDLL.dll
+ 0002:00000030       __imp__purecall            1000b030     corelib1:COREDLL.dll
+ 0002:00000034       __imp_memcpy               1000b034     corelib1:COREDLL.dll
+ 0002:00000038       __imp___rt_udiv            1000b038     corelib1:COREDLL.dll
+ 0002:0000003c       __imp_memset               1000b03c     corelib1:COREDLL.dll
+ 0002:00000040       __imp__wcsicmp             1000b040     corelib1:COREDLL.dll
+ 0002:00000044       __imp__wcsnicmp            1000b044     corelib1:COREDLL.dll
+ 0002:00000048       __imp_wcscpy_s             1000b048     corelib1:COREDLL.dll
+ 0002:0000004c       __imp_wcslen               1000b04c     corelib1:COREDLL.dll
+ 0002:00000050       __imp_wcschr               1000b050     corelib1:COREDLL.dll
+ 0002:00000054       __imp_iswctype             1000b054     corelib1:COREDLL.dll
+ 0002:00000058       __imp_wcstoul              1000b058     corelib1:COREDLL.dll
+ 0002:0000005c       __imp_?nothrow@std@@3Unothrow_t@1@B 1000b05c     corelib1:COREDLL.dll
+ 0002:00000060       __imp_??2@YAPAXIABUnothrow_t@std@@@Z 1000b060     corelib1:COREDLL.dll
+ 0002:00000064       __imp_memcmp               1000b064     corelib1:COREDLL.dll
+ 0002:00000068       __imp_??2@YAPAXI@Z         1000b068     corelib1:COREDLL.dll
+ 0002:0000006c       __imp_??3@YAXPAX@Z         1000b06c     corelib1:COREDLL.dll
+ 0002:00000070       __imp_LoadLibraryW         1000b070     coredll:COREDLL.dll
+ 0002:00000074       __imp_GetProcAddressW      1000b074     coredll:COREDLL.dll
+ 0002:00000078       __imp_DeleteCriticalSection 1000b078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_InitializeCriticalSection 1000b07c     coredll:COREDLL.dll
+ 0002:00000080       __imp_TerminateProcess     1000b080     coredll:COREDLL.dll
+ 0002:00000084       __imp_LocalFileTimeToFileTime 1000b084     coredll:COREDLL.dll
+ 0002:00000088       __imp_GetLocalTime         1000b088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_FileTimeToLocalFileTime 1000b08c     coredll:COREDLL.dll
+ 0002:00000090       __imp_InterlockedIncrement 1000b090     coredll:COREDLL.dll
+ 0002:00000094       __imp_InterlockedDecrement 1000b094     coredll:COREDLL.dll
+ 0002:00000098       __imp_LoadLibraryExW       1000b098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_DisableThreadLibraryCalls 1000b09c     coredll:COREDLL.dll
+ 0002:000000a0       __imp_RegCloseKey          1000b0a0     coredll:COREDLL.dll
+ 0002:000000a4       __imp_RegDeleteValueW      1000b0a4     coredll:COREDLL.dll
+ 0002:000000a8       __imp_RegOpenKeyExW        1000b0a8     coredll:COREDLL.dll
+ 0002:000000ac       __imp_RegCreateKeyExW      1000b0ac     coredll:COREDLL.dll
+ 0002:000000b0       __imp_RegDeleteKeyW        1000b0b0     coredll:COREDLL.dll
+ 0002:000000b4       __imp_LocalFree            1000b0b4     coredll:COREDLL.dll
+ 0002:000000b8       __imp_FileTimeToSystemTime 1000b0b8     coredll:COREDLL.dll
+ 0002:000000bc       __imp_RegSetValueExW       1000b0bc     coredll:COREDLL.dll
+ 0002:000000c0       __imp_RegQueryValueExW     1000b0c0     coredll:COREDLL.dll
+ 0002:000000c4       __imp_SystemTimeToFileTime 1000b0c4     coredll:COREDLL.dll
+ 0002:000000c8       __imp_StringCchLengthW     1000b0c8     coredll:COREDLL.dll
+ 0002:000000cc       __imp_LocalAlloc           1000b0cc     coredll:COREDLL.dll
+ 0002:000000d0       __imp_LeaveCriticalSection 1000b0d0     coredll:COREDLL.dll
+ 0002:000000d4       __imp_RegEnumKeyExW        1000b0d4     coredll:COREDLL.dll
+ 0002:000000d8       __imp_RegQueryInfoKeyW     1000b0d8     coredll:COREDLL.dll
+ 0002:000000dc       __imp_DPA_DestroyCallback  1000b0dc     coredll:COREDLL.dll
+ 0002:000000e0       __imp_DPA_Create           1000b0e0     coredll:COREDLL.dll
+ 0002:000000e4       __imp_StringCchCopyW       1000b0e4     coredll:COREDLL.dll
+ 0002:000000e8       __imp_DPA_InsertPtr        1000b0e8     coredll:COREDLL.dll
+ 0002:000000ec       __imp_DPA_DeletePtr        1000b0ec     coredll:COREDLL.dll
+ 0002:000000f0       __imp_DPA_Destroy          1000b0f0     coredll:COREDLL.dll
+ 0002:000000f4       \177COREDLL_NULL_THUNK_DATA 1000b0f4     coredll:COREDLL.dll
+ 0002:000000f8       __imp_VariantCopy          1000b0f8     oleaut32:OLEAUT32.dll
+ 0002:000000fc       __imp_SysFreeString        1000b0fc     oleaut32:OLEAUT32.dll
+ 0002:00000100       __imp_SysStringLen         1000b100     oleaut32:OLEAUT32.dll
+ 0002:00000104       __imp_VariantChangeType    1000b104     oleaut32:OLEAUT32.dll
+ 0002:00000108       __imp_VariantInit          1000b108     oleaut32:OLEAUT32.dll
+ 0002:0000010c       __imp_VariantClear         1000b10c     oleaut32:OLEAUT32.dll
+ 0002:00000110       __imp_SysAllocStringLen    1000b110     oleaut32:OLEAUT32.dll
+ 0002:00000114       __imp_VariantTimeToSystemTime 1000b114     oleaut32:OLEAUT32.dll
+ 0002:00000118       __imp_SafeArrayDestroy     1000b118     oleaut32:OLEAUT32.dll
+ 0002:0000011c       __imp_SysAllocString       1000b11c     oleaut32:OLEAUT32.dll
+ 0002:00000120       \177OLEAUT32_NULL_THUNK_DATA 1000b120     oleaut32:OLEAUT32.dll
+ 0002:00000124       __imp_CfgUtilGetElementName 1000b124     configmanager:configmanager.dll
+ 0002:00000128       __imp_CfgUtilCreateCharacteristic 1000b128     configmanager:configmanager.dll
+ 0002:0000012c       __imp_CfgUtilCheckCharacteristicNode 1000b12c     configmanager:configmanager.dll
+ 0002:00000130       __imp_CfgUtilParseConfigDataTypeName 1000b130     configmanager:configmanager.dll
+ 0002:00000134       __imp_CfgUtilGetConfigDataTypeName 1000b134     configmanager:configmanager.dll
+ 0002:00000138       __imp_CfgUtilGetParmAttributeName 1000b138     configmanager:configmanager.dll
+ 0002:0000013c       \177configmanager_NULL_THUNK_DATA 1000b13c     configmanager:configmanager.dll
+ 0002:00000140       __imp_CoTaskMemAlloc       1000b140     ole32:ole32.dll
+ 0002:00000144       __imp_CoTaskMemFree        1000b144     ole32:ole32.dll
+ 0002:00000148       __imp_CLSIDFromProgID      1000b148     ole32:ole32.dll
+ 0002:0000014c       __imp_CoCreateInstance     1000b14c     ole32:ole32.dll
+ 0002:00000150       \177ole32_NULL_THUNK_DATA  1000b150     ole32:ole32.dll
+ 0002:00000154       __imp_SystemTimeToISO8601String 1000b154     ossvcs:ossvcs.dll
+ 0002:00000158       __imp_FileTimeToISO8601String 1000b158     ossvcs:ossvcs.dll
+ 0002:0000015c       __imp_ISO8601StringToSystemTime 1000b15c     ossvcs:ossvcs.dll
+ 0002:00000160       __imp_EncodeBase64W        1000b160     ossvcs:ossvcs.dll
+ 0002:00000164       __imp_?Hash_Delete@@YAJPAUHashTableTag@@PAXPAPAX@Z 1000b164     ossvcs:ossvcs.dll
+ 0002:00000168       __imp_InvStrCmpIW          1000b168     ossvcs:ossvcs.dll
+ 0002:0000016c       __imp_?XMLHGetBstrVarFromAttr@@YAJPAUIXMLDOMNode@@PBGPAUtagVARIANT@@@Z 1000b16c     ossvcs:ossvcs.dll
+ 0002:00000170       __imp_DecodeBase64W        1000b170     ossvcs:ossvcs.dll
+ 0002:00000174       __imp_?XMLHGetIntAttributeVal@@YAJPAUIXMLDOMNode@@PBGHPAH@Z 1000b174     ossvcs:ossvcs.dll
+ 0002:00000178       __imp_?XMLHCreateChildElement@@YAJPAUIXMLDOMNode@@PBGPAUIXMLDOMDocument@@PAPAUIXMLDOMElement@@@Z 1000b178     ossvcs:ossvcs.dll
+ 0002:0000017c       __imp_?XMLHSetTextAttribute@@YAJPAUIXMLDOMElement@@PBG1@Z 1000b17c     ossvcs:ossvcs.dll
+ 0002:00000180       __imp_QueryPolicyImpl      1000b180     ossvcs:ossvcs.dll
+ 0002:00000184       __imp_SetPolicy            1000b184     ossvcs:ossvcs.dll
+ 0002:00000188       __imp_?Hash_Create@@YAJIP6AIIPAX@ZP6AJ00PAH@Z0PAPAUHashTableTag@@@Z 1000b188     ossvcs:ossvcs.dll
+ 0002:0000018c       __imp_?Hash_Get@@YAJPAUHashTableTag@@PAXPAPAX@Z 1000b18c     ossvcs:ossvcs.dll
+ 0002:00000190       __imp_?Hash_Insert@@YAJPAUHashTableTag@@PAX1@Z 1000b190     ossvcs:ossvcs.dll
+ 0002:00000194       __imp_?Hash_EnumCallback@@YAJPAUHashTableTag@@P6AJPAXJPAH@ZJ@Z 1000b194     ossvcs:ossvcs.dll
+ 0002:00000198       __imp_?Hash_DestroyCallback@@YAJPAUHashTableTag@@P6AHPAX1@Z1@Z 1000b198     ossvcs:ossvcs.dll
+ 0002:0000019c       \177ossvcs_NULL_THUNK_DATA 1000b19c     ossvcs:ossvcs.dll
+ 0002:000001a0       dpCurSettings              1000b1a0     syscsps_ALL:dllmain.obj
+ 0002:0000069c       __security_cookie          1000b69c     corelib0:seccinit.obj
+ 0002:000006a0       __security_cookie_complement 1000b6a0     corelib0:seccinit.obj
+ 0002:000006a8       g_hInstRes                 1000b6a8     syscsps_ALL:dllmain.obj
+ 0002:000006ac       g_hInst                    1000b6ac     syscsps_ALL:dllmain.obj
+ 0002:000006b0       ?g_hEventLog@@3PAXA        1000b6b0     syscsps_ALL:dllmain.obj
+ 0002:000006bc       ??_B?1??ComRegisterFuncListObj@@YAAAVComRegisterFuncList@@XZ@51 1000b6bc     syscsps_ALL:dllmain.obj
+ 0002:000006c0       ?obj@?1??ComRegisterFuncListObj@@YAAAVComRegisterFuncList@@XZ@4V2@A 1000b6c0     syscsps_ALL:dllmain.obj
+ 0002:00000784       ?s_reg@?$ComRegisterStatic@$1?_syscsps@@YA?AVComRegFunc@@ABU_GUID@@PAP6APAUIUnknown@@XZ@Z@@2V?$ComRegisterImpl@$1?_syscsps@@YA?AVComRegFunc@@ABU_GUID@@PAP6APAUIUnknown@@XZ@Z@@A 1000b784     syscsps_ALL:dllmain.obj
+ 0002:00000785       ?s_reg@?$ComRegisterStatic@$1?_legacycsp@@YA?AVComRegFunc@@ABU_GUID@@PAP6APAUIUnknown@@XZ@Z@@2V?$ComRegisterImpl@$1?_legacycsp@@YA?AVComRegFunc@@ABU_GUID@@PAP6APAUIUnknown@@XZ@Z@@A 1000b785     syscsps_ALL:legacycsp.obj
+ 0002:00000786       ?s_reg@?$ComRegisterStatic@$1?_policycsp@@YA?AVComRegFunc@@ABU_GUID@@PAP6APAUIUnknown@@XZ@Z@@2V?$ComRegisterImpl@$1?_policycsp@@YA?AVComRegFunc@@ABU_GUID@@PAP6APAUIUnknown@@XZ@Z@@A 1000b786     syscsps_ALL:policycsp.obj
+ 0002:00000788       __@@_PchSym_@00@UygUDAJBUkirezgvUlhhexhUwnUxhkhUhbhgvnUlyqUzineHUivgzroUnzrmPhbhgvnOlyq@syscsps 1000b788     syscsps_ALL:main_system.obj
+ 0002:0000078c       __@@_PchSym_@00@UygUDAJBUkirezgvUlhhexhUwnUxhkhCUovtzxbUlyqUzineHUivgzroUkivxlnkOlyq@legacycsp 1000b78c     syscsps_ALL:precomp.obj
+ 0002:000007a4       ?g_hinstMetabaseproxy@@3PAUHINSTANCE__@@A 1000b7a4     syscsps_ALL:delyload.obj
+ 0002:000007a8       ?g_hinstShlwapi@@3PAUHINSTANCE__@@A 1000b7a8     syscsps_ALL:delyload.obj
+ 0002:000007ac       ?g_hinstCeshell@@3PAUHINSTANCE__@@A 1000b7ac     syscsps_ALL:delyload.obj
+ 0002:000007b0       ?g_hinstToolhelp@@3PAUHINSTANCE__@@A 1000b7b0     syscsps_ALL:delyload.obj
+ 0002:000007b4       ?g_hinstShcore@@3PAUHINSTANCE__@@A 1000b7b4     syscsps_ALL:delyload.obj
+ 0002:000007b8       ?g_hinstCrypt32@@3PAUHINSTANCE__@@A 1000b7b8     syscsps_ALL:delyload.obj
+ 0002:000007bc       ?g_hinstNCrypt@@3PAUHINSTANCE__@@A 1000b7bc     syscsps_ALL:delyload.obj
+ 0002:000007c0       ?g_hinstIri@@3PAUHINSTANCE__@@A 1000b7c0     syscsps_ALL:delyload.obj
+ 0002:000007c4       ?g_hinstPackageInfo@@3PAUHINSTANCE__@@A 1000b7c4     syscsps_ALL:delyload.obj
+ 0002:000007c8       ?g_hinstBrowsui@@3PAUHINSTANCE__@@A 1000b7c8     syscsps_ALL:delyload.obj
+ 0002:000007cc       ?g_hinstSupSvcs@@3PAUHINSTANCE__@@A 1000b7cc     syscsps_ALL:delyload.obj
+ 0002:000007d0       ?g_hinstWinInet@@3PAUHINSTANCE__@@A 1000b7d0     syscsps_ALL:delyload.obj
+ 0002:000007d4       ?g_hinstMLangDll@@3PAUHINSTANCE__@@A 1000b7d4     syscsps_ALL:delyload.obj
+ 0002:000007d8       ?g_hinstWinsockDll@@3PAUHINSTANCE__@@A 1000b7d8     syscsps_ALL:delyload.obj
+ 0002:000007dc       ?g_hinstAygshell@@3PAUHINSTANCE__@@A 1000b7dc     syscsps_ALL:delyload.obj
+ 0002:000007e0       g_hinstCEMAPI              1000b7e0     syscsps_ALL:delyload.obj
+ 0002:000007e4       ?g_hinstCellcore@@3PAUHINSTANCE__@@A 1000b7e4     syscsps_ALL:delyload.obj
+ 0002:000007e8       ?g_hinstDmsapi@@3PAUHINSTANCE__@@A 1000b7e8     syscsps_ALL:delyload.obj
+ 0002:00000800       ??_B?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@51 1000b800     syscsps_ALL:delyload.obj
+ 0002:00000804       ?cs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@3@XZ@4V43@A 1000b804     syscsps_ALL:delyload.obj
+ 0002:00000818       ?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A 1000b818     syscsps_ALL:delyload.obj
+ 0002:00000819       _exitflag                  1000b819     corelib0:cexit.obj
+ 0002:0000081c       __onexitend                1000b81c     <common>
+ 0002:00000820       __onexitbegin              1000b820     <common>
+ 0002:00000824       g_pcsExit                  1000b824     <common>
+ 0002:00000828       _pRawDllMain               1000b828     <common>
+
+ entry point at        0001:000088ec
+
+ Static symbols
+
+ 0001:000087fc       _DllMainCRTStartupHelper   100097fc f   corelib0:pegdmain.obj
+ 0001:00008918       doexit                     10009918 f   corelib0:cexit.obj
+ 0001:00008f04       ??__E?s_reg@?$ComRegisterStatic@$1?_syscsps@@YA?AVComRegFunc@@ABU_GUID@@PAP6APAUIUnknown@@XZ@Z@@2V?$ComRegisterImpl@$1?_syscsps@@YA?AVComRegFunc@@ABU_GUID@@PAP6APAUIUnknown@@XZ@Z@@A@@YAXXZ 10009f04 f   syscsps_ALL:dllmain.obj
+ 0001:00008f10       ??__E?s_reg@?$ComRegisterStatic@$1?_legacycsp@@YA?AVComRegFunc@@ABU_GUID@@PAP6APAUIUnknown@@XZ@Z@@2V?$ComRegisterImpl@$1?_legacycsp@@YA?AVComRegFunc@@ABU_GUID@@PAP6APAUIUnknown@@XZ@Z@@A@@YAXXZ 10009f10 f   syscsps_ALL:legacycsp.obj
+ 0001:00008f1c       ??__E?s_reg@?$ComRegisterStatic@$1?_policycsp@@YA?AVComRegFunc@@ABU_GUID@@PAP6APAUIUnknown@@XZ@Z@@2V?$ComRegisterImpl@$1?_policycsp@@YA?AVComRegFunc@@ABU_GUID@@PAP6APAUIUnknown@@XZ@Z@@A@@YAXXZ 10009f1c f   syscsps_ALL:policycsp.obj
+ 0001:00008f28       ??__E?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A@@YAXXZ 10009f28 f   syscsps_ALL:delyload.obj
+ 0001:00008f2c       ??__Fs_InitialState@?1??GetCurrentStateAndBasePath@CCSPCommandManager@@QAAJPAPAVCCSPState@@PAPAG@Z@YAXXZ 10009f2c f   syscsps_ALL:cspmanager.obj

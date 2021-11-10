@@ -1,0 +1,223 @@
+;
+; Copyright (c) Microsoft Corporation.  All rights reserved.
+;
+;
+; Use of this sample source code is subject to the terms of the Microsoft
+; license agreement under which you licensed this sample source code. If
+; you did not accept the terms of the license agreement, you are not
+; authorized to use this sample source code. For the terms of the license,
+; please see the license agreement between you and Microsoft or, if applicable,
+; see the LICENSE.RTF on your install media or the root of your tools installation.
+; THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+;
+MODULES
+; @CESYSGEN IF WCESHELLFE_MODULES_TASKMAN
+; @CESYSGEN ENDIF
+
+
+; @CESYSGEN IF WCESHELLFE_MODULES_PEGCARDS
+; @CESYSGEN ENDIF
+; @CESYSGEN IF WCESHELLFE_MODULES_SOLITARE
+; @CESYSGEN ENDIF
+; @CESYSGEN IF WCESHELLFE_MODULES_FREECELL
+; @CESYSGEN ENDIF
+; @CESYSGEN IF WCESHELLFE_MODULES_HRTS_DLL
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF WCESHELLFE_MODULES_DW
+; @CESYSGEN ENDIF
+; @CESYSGEN IF WCESHELLFE_MODULES_DWUI
+; @CESYSGEN ENDIF
+; @CESYSGEN IF WCESHELLFE_MODULES_DWCTLPNL
+; @CESYSGEN ENDIF
+; @CESYSGEN IF WCESHELLFE_MODULES_DWXFER
+; @CESYSGEN ENDIF
+; @CESYSGEN IF WCESHELLFE_MODULES_DDXPROBE
+; @CESYSGEN ENDIF
+; @CESYSGEN IF WCESHELLFE_MODULES_DDXWATCHDOG
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF WCESHELLFE_MODULES_CONTROL
+   control.exe    $(_FLATRELEASEDIR)\control.exe            NK
+; @CESYSGEN ENDIF
+; @CESYSGEN IF WCESHELLFE_MODULES_CTLPNL
+   ctlpnl.exe     $(_FLATRELEASEDIR)\ctlpnl.exe             NK  H
+; @CESYSGEN ENDIF
+; @CESYSGEN IF WCESHELLFE_MODULES_CPLMAIN
+   cplmain.cpl    $(_FLATRELEASEDIR)\cplmain.cpl            NK  H
+; @CESYSGEN ENDIF
+; @CESYSGEN IF WCESHELLFE_MODULES_INTLP
+; @CESYSGEN ENDIF
+; @CESYSGEN IF WCESHELLFE_MODULES_INTLL
+   intll.cpl      $(_FLATRELEASEDIR)\intll.cpl              NK  SH
+; @CESYSGEN ENDIF
+; @CESYSGEN IF WCESHELLFE_MODULES_CONNPNL
+   connpnl.cpl    $(_FLATRELEASEDIR)\connpnl.cpl    NK  SH
+; @CESYSGEN ENDIF
+; @CESYSGEN IF WCESHELLFE_MODULES_BTHPNL
+; @CESYSGEN ENDIF
+; @CESYSGEN IF WCESHELLFE_MODULES_STGUIP
+; @CESYSGEN ENDIF
+; @CESYSGEN IF WCESHELLFE_MODULES_STGUIL
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF WCESHELLFE_MODULES_CTLPNL2
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF WCESHELLFE_MODULES_CTLPNL2RES_SMR || WCESHELLFE_MODULES_CTLPNL2RES_MID
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF WCESHELLFE_MODULES_DATETIMECPL_SMR || WCESHELLFE_MODULES_DATETIMECPL_MID
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF WCESHELLFE_MODULES_REGIONALCPL_SMR || WCESHELLFE_MODULES_REGIONALCPL_MID
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF WCESHELLFE_MODULES_DISPLAYCPL_SMR || WCESHELLFE_MODULES_DISPLAYCPL_MID
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF WCESHELLFE_MODULES_SNDSCHEMECPL_SMR || WCESHELLFE_MODULES_SNDSCHEMECPL_MID
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF WCESHELLFE_MODULES_WIFICPL_SMR || WCESHELLFE_MODULES_WIFICPL_MID
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF WCESHELLFE_MODULES_ETHERNETCPL_SMR || WCESHELLFE_MODULES_ETHERNETCPL_MID
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF WCESHELLFE_MODULES_INPUTCPL_SMR || WCESHELLFE_MODULES_INPUTCPL_MID
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF WCESHELLFE_MODULES_MSHIME97
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF WCESHELLFE_MODULES_KIMEUI
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF WCESHELLFE_MODULES_MSIMK
+; @CESYSGEN ENDIF
+
+; Simplified Chinese Pocket IMEs.
+; @CESYSGEN IF WCESHELLFE_MODULES_MSIMESP
+; @CESYSGEN ENDIF
+; @CESYSGEN IF WCESHELLFE_MODULES_MSIMEPY
+; @CESYSGEN ENDIF
+; Simplified Chinese IM
+; @CESYSGEN IF WCESHELLFE_MODULES_SPIM
+; @CESYSGEN ENDIF
+; Shuangpin Chinese IM for MSPY3.0
+; @CESYSGEN IF WCESHELLFE_MODULES_SSKIM
+; @CESYSGEN ENDIF
+; @CESYSGEN IF WCESHELLFE_MODULES_SSK3DIM
+; @CESYSGEN ENDIF
+; Chinese Pocket IME UI (common module for both of Simplified/Traditional Chinese)
+; @CESYSGEN IF WCESHELLFE_MODULES_MSIMEUIC
+; @CESYSGEN ENDIF
+
+; For Chinese. Because there are several countrys/regions using Chinese,
+; we cannot use LOCALE to determine including Chinese IME/IM stuffs in this bib file.
+; It will be determined by SYSGEN.
+
+; Chinese Intelligent IME (MSPY3 : Simpified Chinese only)
+; @CESYSGEN IF WCESHELLFE_MODULES_CHSIME03
+; @CESYSGEN ENDIF
+
+; Common Chinese IME
+; @CESYSGEN IF WCESHELLFE_MODULES_CHNIME_SC
+; @CESYSGEN ENDIF
+
+
+; Traditional Chinese Pocket IMEs
+; @CESYSGEN IF WCESHELLFE_MODULES_MSIMEPH
+; @CESYSGEN ENDIF
+; @CESYSGEN IF WCESHELLFE_MODULES_MSIMECJ
+; @CESYSGEN ENDIF
+
+
+
+FILES
+; @CESYSGEN IF WCESHELLFE_MODULES_FTPUPDATE
+; @CESYSGEN ENDIF
+; @CESYSGEN IF WCESHELLFE_MODULES_SOLITARE
+; @CESYSGEN ENDIF
+; @CESYSGEN IF WCESHELLFE_MODULES_FREECELL
+; @CESYSGEN ENDIF
+
+
+; @CESYSGEN IF IE7_MODULES_HTMLHELP
+    copy.htm          $(_FLATRELEASEDIR)\copy.htm           NK SH
+    copyrt.lnk          $(_FLATRELEASEDIR)\copyrt.lnk         NK SH
+    ctpnl.htm         $(_FLATRELEASEDIR)\ctpnl.htm          NK SH
+    ctpnlhlp.lnk      $(_FLATRELEASEDIR)\ctpnlhlp.lnk       NK SH
+    rnetw.htm         $(_FLATRELEASEDIR)\rnetw.htm          NK SH
+    rnetwhlp.lnk      $(_FLATRELEASEDIR)\rnetwhlp.lnk       NK SH
+    wince.htm         $(_FLATRELEASEDIR)\wince.htm          NK SH
+    wincehlp.lnk      $(_FLATRELEASEDIR)\wincehlp.lnk       NK SH
+    mstschlp.lnk      $(_FLATRELEASEDIR)\mstschlp.lnk       NK SH
+    batchg.2bp        $(_FLATRELEASEDIR)\batchg.2bp         NK SH
+    batlow.2bp        $(_FLATRELEASEDIR)\batlow.2bp         NK SH
+    bvlow.2bp         $(_FLATRELEASEDIR)\bvlow.2bp          NK SH
+    delete.2bp        $(_FLATRELEASEDIR)\delete.2bp         NK SH
+    dialcnct.2bp      $(_FLATRELEASEDIR)\dialcnct.2bp       NK SH
+    drtcnct.2bp       $(_FLATRELEASEDIR)\drtcnct.2bp        NK SH
+    mainlow.2bp       $(_FLATRELEASEDIR)\mainlow.2bp        NK SH
+    mvlow.2bp         $(_FLATRELEASEDIR)\mvlow.2bp          NK SH
+    srcnt.2bp         $(_FLATRELEASEDIR)\srcnt.2bp          NK SH
+    wgripper.2bp      $(_FLATRELEASEDIR)\wgripper.2bp       NK SH
+; @CESYSGEN ENDIF IE7_MODULES_HTMLHELP
+
+; @CESYSGEN IF WCESHELLFE_MODULES_CPLMAIN
+    copyrts.txt     $(_FLATRELEASEDIR)\copyrts.txt          NK SH
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF WCESHELLFE_MODULES_STDWAVEFILES
+    asterisk.wav    $(_FLATRELEASEDIR)\asterisk.wav         NK S
+    close.wav       $(_FLATRELEASEDIR)\close.wav            NK S
+    critical.wav    $(_FLATRELEASEDIR)\critical.wav         NK S
+    default.wav     $(_FLATRELEASEDIR)\default.wav          NK S
+    empty.wav       $(_FLATRELEASEDIR)\empty.wav            NK S
+    exclam.wav      $(_FLATRELEASEDIR)\exclam.wav           NK S
+    infbeg.wav      $(_FLATRELEASEDIR)\infbeg.wav           NK S
+    infend.wav      $(_FLATRELEASEDIR)\infend.wav           NK S
+    infintr.wav     $(_FLATRELEASEDIR)\infintr.wav          NK S
+    menupop.wav     $(_FLATRELEASEDIR)\menupop.wav          NK S
+    menusel.wav     $(_FLATRELEASEDIR)\menusel.wav          NK S
+    openprog.wav    $(_FLATRELEASEDIR)\openprog.wav         NK S
+    question.wav    $(_FLATRELEASEDIR)\question.wav         NK S
+    startup.wav     $(_FLATRELEASEDIR)\startup.wav          NK S
+    windmax.wav     $(_FLATRELEASEDIR)\windmax.wav          NK S
+    windmin.wav     $(_FLATRELEASEDIR)\windmin.wav          NK S
+    recstart.wav    $(_FLATRELEASEDIR)\recstart.wav         NK S
+    recend.wav      $(_FLATRELEASEDIR)\recend.wav           NK S
+; @CESYSGEN ENDIF
+
+
+;   Intelligent IME (MSPY3) help files.
+; @CESYSGEN IF WCESHELLFE_MODULES_MSPY3HELP
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF WCESHELLFE_MODULES_CHNIME_DB_1
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF WCESHELLFE_MODULES_MSPY3DB1
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF WCESHELLFE_MODULES_MSPY3DB3
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF WCESHELLFE_MODULES_MSPY3DB7
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF WCESHELLFE_MODULES_PIMETCDB
+; @CESYSGEN ENDIF
+
+
+; CE_MODULES_NK keeps the link with the logging files (see common.bib)
+; @CESYSGEN IF CE_MODULES_NK
+IF IMGOSCAPTURE
+   OSCapture.lnk   $(_FLATRELEASEDIR)\oscapture.lnk            NK  SH
+ENDIF
+; @CESYSGEN ENDIF CE_MODULES_NK
+
+; @CESYSGEN IF WCESHELLFE_MODULES_CTLPNL2
+; @CESYSGEN ENDIF WCESHELLFE_MODULES_CTLPNL2

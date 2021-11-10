@@ -1,0 +1,71 @@
+;
+; Copyright (c) Microsoft Corporation.  All rights reserved.
+;
+;
+; Use of this sample source code is subject to the terms of the Microsoft
+; license agreement under which you licensed this sample source code. If
+; you did not accept the terms of the license agreement, you are not
+; authorized to use this sample source code. For the terms of the license,
+; please see the license agreement between you and Microsoft or, if applicable,
+; see the LICENSE.RTF on your install media or the root of your tools installation.
+; THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+;
+; ---------------------------------------------------------------------------
+; MSF registry keys
+; ---------------------------------------------------------------------------
+
+; @CESYSGEN IF MSF_MODULES_SYNCHRONIZATION
+; ---------------------------------------------------------------------------
+;
+; BEGIN: Synchronization Object registry information
+
+[HKEY_CLASSES_ROOT\CLSID\{A7B3B4EE-925C-4D6C-B007-A4A6A0B09143}]
+"TypeLib"="25119132-8A0D-4249-B05F-14B9884186CF"
+@="Sync Services"
+
+[HKEY_CLASSES_ROOT\CLSID\{A7B3B4EE-925C-4D6C-B007-A4A6A0B09143}\InprocServer32]
+@="Synchronization.dll"
+"ThreadingModel"="Both"
+
+; END: Synchronization Object registry information
+;
+; ---------------------------------------------------------------------------
+; @CESYSGEN ENDIF MSF_MODULES_SYNCHRONIZATION
+
+
+; @CESYSGEN IF MSF_MODULES_FEEDSYNC
+; ---------------------------------------------------------------------------
+;
+; BEGIN: FeedSync Object registry information
+
+[HKEY_CLASSES_ROOT\CLSID\{BC0CD90A-2C24-41BE-B6EC-87C15D919418}]
+"TypeLib"="58F686D2-4241-4852-8362-811A0DEA501E"
+@="FeedSync Services"
+
+[HKEY_CLASSES_ROOT\CLSID\{BC0CD90A-2C24-41BE-B6EC-87C15D919418}\InprocServer32]
+@="FeedSync.dll"
+"ThreadingModel"="Both"
+
+; END: Synchronization Object registry information
+;
+; ---------------------------------------------------------------------------
+; @CESYSGEN ENDIF MSF_MODULES_SYNCHRONIZATION
+
+
+; @CESYSGEN IF MSF_MODULES_METASTORE
+; ---------------------------------------------------------------------------
+;
+; BEGIN: Metastore Object registry information
+
+[HKEY_CLASSES_ROOT\CLSID\{565AEDB2-3108-4405-AF1F-9C2C25925DAC}]
+"TypeLib"="AC0D82CD-4E3E-49c4-A1F5-C67D732BC984"
+@="Sync Metadata Store"
+
+[HKEY_CLASSES_ROOT\CLSID\{565AEDB2-3108-4405-AF1F-9C2C25925DAC}\InprocServer32]
+@="metastore.dll"
+"ThreadingModel"="Both"
+
+; END: Metastore Object registry information
+;
+; ---------------------------------------------------------------------------
+; @CESYSGEN ENDIF MSF_MODULES_METASTORE

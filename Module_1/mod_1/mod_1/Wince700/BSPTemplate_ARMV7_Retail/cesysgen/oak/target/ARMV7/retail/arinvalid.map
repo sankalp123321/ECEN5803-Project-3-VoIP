@@ -1,0 +1,95 @@
+ arinvalid
+
+ Timestamp is 5ac660aa (Thu Apr 05 10:45:14 2018)
+
+ Preferred load address is 00010000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 000000baH .rdata                  CODE
+ 0001:000000dc 00000026H .rdata$debug            CODE
+ 0001:00000104 00000460H .text                   CODE
+ 0001:00000564 00000014H .xdata                  CODE
+ 0001:00000578 00000014H .idata$2                CODE
+ 0001:0000058c 00000014H .idata$3                CODE
+ 0001:000005a0 00000038H .idata$4                CODE
+ 0001:000005d8 0000000cH .idata$6                CODE
+ 0001:000005e4 00000000H .edata                  CODE
+ 0002:00000000 00000038H .idata$5                DATA
+ 0002:00000038 0000000cH .data                   DATA
+ 0002:00000044 00000010H .bss                    DATA
+ 0003:00000000 00000058H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     00011000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     00011004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     00011008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     0001100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     00011010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     00011014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     00011018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     0001101c     corelib0:crt0init.obj
+ 0001:0000003c       ??_C@_1DC@KEBCFCJP@?$AAA?$AAu?$AAt?$AAh?$AA?5?$AAR?$AAe?$AAs?$AAe?$AAt?$AA?5?$AAI?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5?$AAM?$AAu?$AAt?$AAe?$AAx?$AA?$AA@ 0001103c     arinvalid.obj
+ 0001:00000070       ??_C@_1BK@DLKIPKBG@?$AAS?$AAe?$AAt?$AAu?$AAp?$AAI?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?$AA@ 00011070     arinvalid.obj
+ 0001:00000090       ??_C@_1EK@NEOOOBJK@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAS?$AAe?$AAc?$AAu?$AAr?$AAi?$AAt?$AAy?$AA?2?$AAP?$AAo?$AAl?$AAi?$AAc?$AAy?$AA?2?$AAL?$AAA?$AAS?$AAS?$AAD?$AA?2?$AAA?$AAu?$AAt?$AAh?$AAR@ 00011090     arinvalid.obj
+ 0001:00000104       WinMain                    00011104 f   arinvalid.obj
+ 0001:000001cc       CloseHandle                000111cc f   coredll:COREDLL.dll
+ 0001:000001dc       RegCloseKey                000111dc f   coredll:COREDLL.dll
+ 0001:000001ec       RegSetValueExW             000111ec f   coredll:COREDLL.dll
+ 0001:000001fc       RegCreateKeyExW            000111fc f   coredll:COREDLL.dll
+ 0001:0000020c       GetLastError               0001120c f   coredll:COREDLL.dll
+ 0001:0000021c       CreateMutexW               0001121c f   coredll:COREDLL.dll
+ 0001:000002b4       WinMainCRTStartup          000112b4 f   corelib0:pegwmain.obj
+ 0001:000003cc       exit                       000113cc f   corelib0:cexit.obj
+ 0001:000003d8       _exit                      000113d8 f   corelib0:cexit.obj
+ 0001:00000410       _initterm                  00011410 f   corelib0:crt0dat.obj
+ 0001:0000043c       _cinit                     0001143c f   corelib0:crt0dat.obj
+ 0001:0000049c       __security_init_cookie     0001149c f   corelib0:seccinit.obj
+ 0001:000004e8       __crt_ExitProcess          000114e8 f   corelib0:exitproc_proxy.obj
+ 0001:000004f4       _XcptFilter                000114f4 f   corelib1:COREDLL.dll
+ 0001:00000504       __C_specific_handler       00011504 f   corelib1:COREDLL.dll
+ 0001:00000514       free                       00011514 f   corelib1:COREDLL.dll
+ 0001:00000524       __security_gen_cookie2     00011524 f   corelib1:COREDLL.dll
+ 0001:00000534       DeleteCriticalSection      00011534 f   coredll:COREDLL.dll
+ 0001:00000544       InterlockedExchange        00011544 f   coredll:COREDLL.dll
+ 0001:00000554       TerminateProcess           00011554 f   coredll:COREDLL.dll
+ 0001:00000578       __IMPORT_DESCRIPTOR_COREDLL 00011578     coredll:COREDLL.dll
+ 0001:0000058c       __NULL_IMPORT_DESCRIPTOR   0001158c     coredll:COREDLL.dll
+ 0002:00000000       __imp_CloseHandle          00012000     coredll:COREDLL.dll
+ 0002:00000004       __imp_RegCloseKey          00012004     coredll:COREDLL.dll
+ 0002:00000008       __imp_RegSetValueExW       00012008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_RegCreateKeyExW      0001200c     coredll:COREDLL.dll
+ 0002:00000010       __imp_GetLastError         00012010     coredll:COREDLL.dll
+ 0002:00000014       __imp_CreateMutexW         00012014     coredll:COREDLL.dll
+ 0002:00000018       __imp__XcptFilter          00012018     corelib1:COREDLL.dll
+ 0002:0000001c       __imp___C_specific_handler 0001201c     corelib1:COREDLL.dll
+ 0002:00000020       __imp_free                 00012020     corelib1:COREDLL.dll
+ 0002:00000024       __imp___security_gen_cookie2 00012024     corelib1:COREDLL.dll
+ 0002:00000028       __imp_DeleteCriticalSection 00012028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_InterlockedExchange  0001202c     coredll:COREDLL.dll
+ 0002:00000030       __imp_TerminateProcess     00012030     coredll:COREDLL.dll
+ 0002:00000034       \177COREDLL_NULL_THUNK_DATA 00012034     coredll:COREDLL.dll
+ 0002:00000038       ?K_SZARINVALIDMUTEX@@3PBGB 00012038     arinvalid.obj
+ 0002:0000003c       __security_cookie          0001203c     corelib0:seccinit.obj
+ 0002:00000040       __security_cookie_complement 00012040     corelib0:seccinit.obj
+ 0002:00000044       _exitflag                  00012044     corelib0:cexit.obj
+ 0002:00000048       __onexitend                00012048     <common>
+ 0002:0000004c       __onexitbegin              0001204c     <common>
+ 0002:00000050       g_pcsExit                  00012050     <common>
+
+ entry point at        0001:000002b4
+
+ Static symbols
+
+ 0001:00000234       WinMainCRTStartupHelper    00011234 f   corelib0:pegwmain.obj
+ 0001:000002e4       doexit                     000112e4 f   corelib0:cexit.obj

@@ -1,0 +1,547 @@
+ lassd
+
+ Timestamp is 618b1575 (Tue Nov 09 17:42:29 2021)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000030H .CRT$XCU                CODE
+ 0001:00000034 00000004H .CRT$XCZ                CODE
+ 0001:00000038 00000004H .CRT$XIA                CODE
+ 0001:0000003c 00000004H .CRT$XIZ                CODE
+ 0001:00000040 00000004H .CRT$XPA                CODE
+ 0001:00000044 00000004H .CRT$XPZ                CODE
+ 0001:00000048 00000004H .CRT$XTA                CODE
+ 0001:0000004c 00000004H .CRT$XTZ                CODE
+ 0001:00000050 000005ceH .rdata                  CODE
+ 0001:00000620 00000022H .rdata$debug            CODE
+ 0001:00000644 00007a38H .text                   CODE
+ 0001:0000807c 00000124H .text$yc                CODE
+ 0001:000081a0 0000010cH .text$yd                CODE
+ 0001:000082ac 00000188H .xdata                  CODE
+ 0001:00008434 00000028H .idata$2                CODE
+ 0001:0000845c 00000014H .idata$3                CODE
+ 0001:00008470 000000fcH .idata$4                CODE
+ 0001:0000856c 00000016H .idata$6                CODE
+ 0001:00008590 00000101H .edata                  CODE
+ 0002:00000000 000000fcH .idata$5                DATA
+ 0002:00000100 00000474H .data                   DATA
+ 0002:00000580 000002e4H .bss                    DATA
+ 0003:00000000 00000940H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000034       __xc_z                     10001034     corelib0:crt0init.obj
+ 0001:00000038       __xi_a                     10001038     corelib0:crt0init.obj
+ 0001:0000003c       __xi_z                     1000103c     corelib0:crt0init.obj
+ 0001:00000040       __xp_a                     10001040     corelib0:crt0init.obj
+ 0001:00000044       __xp_z                     10001044     corelib0:crt0init.obj
+ 0001:00000048       __xt_a                     10001048     corelib0:crt0init.obj
+ 0001:0000004c       __xt_z                     1000104c     corelib0:crt0init.obj
+ 0001:0000006c       ??_7?$ServerThread@UWaitSingleObjectPolicy@@@@6B@ 1000106c     lassd:service_entry.obj
+ 0001:00000088       ??_C@_1DI@CHHGIEOJ@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAS?$AAe?$AAc?$AAu?$AAr?$AAi?$AAt?$AAy?$AA?2?$AAL?$AAA?$AAS?$AAS?$AAD?$AA?2?$AAL?$AAo?$AAc?$AAk?$AAO?$AAu?$AAt?$AA?$AA@ 10001088     lassd:service_entry.obj
+ 0001:000000c0       ??_7SequenceThread@VerifyUser@LASS@@6B@ 100010c0     lassd:service_entry.obj
+ 0001:000000dc       ??_C@_1CC@FGABDKHI@?$AAL?$AAA?$AAS?$AAS?$AA_?$AAS?$AAR?$AAV?$AA_?$AAS?$AAT?$AAA?$AAR?$AAT?$AAE?$AAD?$AA?$AA@ 100010dc     lassd:service_entry.obj
+ 0001:00000100       ??_C@_1M@IAHOEEDC@?$AAL?$AAA?$AAS?$AA0?$AA?3?$AA?$AA@ 10001100     lassd:service_entry.obj
+ 0001:0000010c       ??_7CopyInOutStream@ce@@6B@ 1000110c     lassd:service_entry.obj
+ 0001:00000110       ??_7?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@6B@ 10001110     lassd:service_entry.obj
+ 0001:00000114       ??_7?$pc_stub@PAX@ce@@6B@  10001114     lassd:service_entry.obj
+ 0001:00000148       ??_C@_1CI@BGPNJHFI@?$AAO?$AAu?$AAt?$AAs?$AAt?$AAa?$AAn?$AAd?$AAi?$AAn?$AAg?$AAF?$AAa?$AAi?$AAl?$AAu?$AAr?$AAe?$AAs?$AA?$AA@ 10001148     lassd:verify.obj
+ 0001:00000170       ??_7IPolicy@Policy@LASS@@6B@ 10001170     lassd:verify.obj
+ 0001:00000184       ??_7DeviceWipe@Policy@LASS@@6B@ 10001184     lassd:verify.obj
+ 0001:00000198       ??_C@_1GG@HENFDGCJ@?$AA?$HL?$AA?$CF?$AA0?$AA8?$AAx?$AA?9?$AA?$CF?$AA0?$AA4?$AAx?$AA?9?$AA?$CF?$AA0?$AA4?$AAx?$AA?9?$AA?$CF?$AA0?$AA2?$AAx?$AA?$CF?$AA0?$AA2?$AAx?$AA?9?$AA?$CF?$AA0?$AA2?$AAx?$AA?$CF?$AA0?$AA2@ 10001198     lassd:verify.obj
+ 0001:00000200       ??_7AE@Policy@LASS@@6B@    10001200     lassd:verify.obj
+ 0001:00000214       ??_7?$ServerThread@U?$MsgWaitPolicy@$0HP@$03@@@@6B@ 10001214     lassd:verify.obj
+ 0001:00000230       ??_7ExponentialBackOff@Policy@LASS@@6B@ 10001230     lassd:verify.obj
+ 0001:00000244       ??_7EnrollmentThread_t@@6B@ 10001244     lassd:verify.obj
+ 0001:00000260       ??_7CodeWord@Policy@LASS@@6B@ 10001260     lassd:verify.obj
+ 0001:00000274       ??_C@_1BC@PKGJIPJP@?$AAC?$AAo?$AAd?$AAe?$AAW?$AAo?$AAr?$AAd?$AA?$AA@ 10001274     lassd:verify.obj
+ 0001:00000288       ??_C@_1CE@FOFJOLIF@?$AAC?$AAo?$AAd?$AAe?$AAW?$AAo?$AAr?$AAd?$AAF?$AAr?$AAe?$AAq?$AAu?$AAe?$AAn?$AAc?$AAy?$AA?$AA@ 10001288     lassd:verify.obj
+ 0001:000002ac       ??_C@_1CI@IFONIMAC@?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAW?$AAi?$AAp?$AAe?$AAT?$AAh?$AAr?$AAe?$AAs?$AAh?$AAo?$AAl?$AAd?$AA?$AA@ 100012ac     lassd:verify.obj
+ 0001:000002d4       ??_C@_1CI@DCMDPLPN@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAS?$AAe?$AAc?$AAu?$AAr?$AAi?$AAt?$AAy?$AA?2?$AAL?$AAA?$AAS?$AAS?$AAD?$AA?$AA@ 100012d4     lassd:verify.obj
+ 0001:000002fc       ??_C@_1BE@JIIGJPJI@?$AAT?$AAh?$AAr?$AAe?$AAs?$AAh?$AAo?$AAl?$AAd?$AA?$AA@ 100012fc     lassd:verify.obj
+ 0001:00000310       ??_C@_1BO@OEOJBENA@?$AAI?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAP?$AAe?$AAn?$AAa?$AAl?$AAt?$AAy?$AA?$AA@ 10001310     lassd:verify.obj
+ 0001:00000330       ??_C@_1CG@MOIGJBHL@?$AAI?$AAn?$AAc?$AAr?$AAe?$AAm?$AAe?$AAn?$AAt?$AAa?$AAl?$AAP?$AAe?$AAn?$AAa?$AAl?$AAt?$AAy?$AA?$AA@ 10001330     lassd:verify.obj
+ 0001:00000358       ??_C@_1CA@PLDLNGKJ@?$AAV?$AAe?$AAr?$AAi?$AAf?$AAy?$AAU?$AAs?$AAe?$AAr?$AAS?$AAt?$AAa?$AAr?$AAt?$AA?$AA@ 10001358     lassd:verify.obj
+ 0001:00000378       ??_C@_1BO@JEIMGAEK@?$AAV?$AAe?$AAr?$AAi?$AAf?$AAy?$AAU?$AAs?$AAe?$AAr?$AAS?$AAt?$AAo?$AAp?$AA?$AA@ 10001378     lassd:verify.obj
+ 0001:00000398       ??_C@_1CA@KNOKJODC@?$AAV?$AAe?$AAr?$AAi?$AAf?$AAy?$AAU?$AAs?$AAe?$AAr?$AAT?$AAo?$AAT?$AAo?$AAp?$AA?$AA@ 10001398     lassd:verify.obj
+ 0001:000003b8       ??_C@_1CE@COPJJDF@?$AAL?$AAA?$AAP?$AAD?$AAi?$AAs?$AAp?$AAl?$AAa?$AAy?$AAP?$AAr?$AAe?$AAW?$AAi?$AAp?$AAe?$AA?$AA@ 100013b8     lassd:verify.obj
+ 0001:000003dc       ??_C@_1CG@FDNMJPEC@?$AAL?$AAA?$AAP?$AAD?$AAi?$AAs?$AAp?$AAl?$AAa?$AAy?$AAC?$AAo?$AAd?$AAe?$AAw?$AAo?$AAr?$AAd?$AA?$AA@ 100013dc     lassd:verify.obj
+ 0001:00000404       ??_C@_1DA@KDOAMBPE@?$AAL?$AAA?$AAP?$AAC?$AAa?$AAn?$AAc?$AAe?$AAl?$AAV?$AAe?$AAr?$AAi?$AAf?$AAy?$AAS?$AAe?$AAq?$AAu?$AAe?$AAn?$AAc?$AAe?$AA?$AA@ 10001404     lassd:verify.obj
+ 0001:00000434       ??_C@_1BE@BABAKNMI@?$AAD?$AAe?$AAi?$AAn?$AAi?$AAt?$AAL?$AAA?$AAP?$AA?$AA@ 10001434     lassd:verify.obj
+ 0001:00000448       ??_C@_1BA@JMGFOEJF@?$AAI?$AAn?$AAi?$AAt?$AAL?$AAA?$AAP?$AA?$AA@ 10001448     lassd:verify.obj
+ 0001:00000458       ??_C@_1BO@KPGGHEEC@?$AAL?$AAA?$AAP?$AAL?$AAo?$AAc?$AAk?$AAo?$AAu?$AAt?$AAU?$AAs?$AAe?$AAr?$AA?$AA@ 10001458     lassd:verify.obj
+ 0001:00000478       ??_C@_1EA@BDMEMMHJ@?$AAL?$AAA?$AAP?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AAE?$AAn?$AAr?$AAo?$AAl?$AAl?$AAm?$AAe?$AAn?$AAt?$AAC?$AAo?$AAn?$AAf?$AAi?$AAg?$AAD?$AAi?$AAa?$AAl?$AAo?$AAg?$AA?$AA@ 10001478     lassd:verify.obj
+ 0001:000004b8       ??_C@_1BG@EDIHHDPC@?$AAV?$AAe?$AAr?$AAi?$AAf?$AAy?$AAU?$AAs?$AAe?$AAr?$AA?$AA@ 100014b8     lassd:verify.obj
+ 0001:000004d0       ??_C@_1BK@BFIEKNFP@?$AAF?$AAr?$AAi?$AAe?$AAn?$AAd?$AAl?$AAy?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 100014d0     lassd:verify.obj
+ 0001:000004ec       ??_C@_1BI@ELNHJLLE@?$AAD?$AAi?$AAs?$AAp?$AAl?$AAa?$AAy?$AAT?$AAe?$AAx?$AAt?$AA?$AA@ 100014ec     lassd:verify.obj
+ 0001:00000504       ??_C@_1CA@FEEEINNG@?$AAA?$AAE?$AAF?$AAr?$AAe?$AAq?$AAu?$AAe?$AAn?$AAc?$AAy?$AAT?$AAy?$AAp?$AAe?$AA?$AA@ 10001504     lassd:verify.obj
+ 0001:00000524       ??_C@_1CC@LIBDLHAN@?$AAA?$AAE?$AAF?$AAr?$AAe?$AAq?$AAu?$AAe?$AAn?$AAc?$AAy?$AAV?$AAa?$AAl?$AAu?$AAe?$AA?$AA@ 10001524     lassd:verify.obj
+ 0001:00000548       ??_C@_17DJMMGLBL@?$AAD?$AAl?$AAl?$AA?$AA@ 10001548     lassd:verify.obj
+ 0001:00000550       ??_C@_1BE@KODICFAG@?$AAA?$AAc?$AAt?$AAi?$AAv?$AAe?$AAL?$AAa?$AAp?$AA?$AA@ 10001550     lassd:verify.obj
+ 0001:00000564       ??_C@_1DA@JMJJIPEL@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAS?$AAe?$AAc?$AAu?$AAr?$AAi?$AAt?$AAy?$AA?2?$AAL?$AAA?$AAS?$AAS?$AAD?$AA?2?$AAL?$AAA?$AAP?$AA?$AA@ 10001564     lassd:verify.obj
+ 0001:00000594       ??_C@_1CO@LPLIIMNC@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAS?$AAe?$AAc?$AAu?$AAr?$AAi?$AAt?$AAy?$AA?2?$AAL?$AAA?$AAS?$AAS?$AAD?$AA?2?$AAA?$AAE?$AA?$AA@ 10001594     lassd:verify.obj
+ 0001:000005e4       ??_C@_1DK@IODKIKED@?$AAP?$AAl?$AAe?$AAa?$AAs?$AAe?$AA?5?$AAS?$AAp?$AAe?$AAc?$AAi?$AAf?$AAy?$AA?5?$AAa?$AA?5?$AAD?$AAi?$AAs?$AAp?$AAl?$AAa?$AAy?$AAT?$AAe?$AAx?$AAt?$AA?$AA@ 100015e4     lassd:async.obj
+ 0001:0000064c       ?LAPCancel@LAP@LASS@@QAAHXZ 1000164c f i lassd:service_entry.obj
+ 0001:000006b4       ?DeinitLAP@LAP@LASS@@AAAXXZ 100016b4 f i lassd:service_entry.obj
+ 0001:000006e8       LAS_Write                  100016e8 f   lassd:service_entry.obj
+ 0001:000006f0       LAS_Read                   100016f0 f   lassd:service_entry.obj
+ 0001:000006f8       LAS_Seek                   100016f8 f   lassd:service_entry.obj
+ 0001:00000700       LAS_PowerUp                10001700 f   lassd:service_entry.obj
+ 0001:00000704       LAS_PowerDown              10001704 f   lassd:service_entry.obj
+ 0001:00000708       DllMain                    10001708 f   lassd:service_entry.obj
+ 0001:00000710       ?PreRun@?$ServerThread@UWaitSingleObjectPolicy@@@@UAAKXZ 10001710 f i lassd:service_entry.obj
+ 0001:00000718       ?PostRun@?$ServerThread@UWaitSingleObjectPolicy@@@@UAAKXZ 10001718 f i lassd:service_entry.obj
+ 0001:00000720       ?Stop@?$ServerThread@UWaitSingleObjectPolicy@@@@UAAKXZ 10001720 f i lassd:service_entry.obj
+ 0001:00000780       ??_E?$ServerThread@UWaitSingleObjectPolicy@@@@UAAPAXI@Z 10001780 f i lassd:service_entry.obj
+ 0001:00000780       ??_G?$ServerThread@UWaitSingleObjectPolicy@@@@UAAPAXI@Z 10001780 f i lassd:service_entry.obj
+ 0001:000007c0       ?ServerProc@?$ServerThread@UWaitSingleObjectPolicy@@@@CAKPAX@Z 100017c0 f i lassd:service_entry.obj
+ 0001:000007fc       ?_Grow@?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@IAA_NI@Z 100017fc f i lassd:service_entry.obj
+ 0001:0000088c       ?_Buynode@?$list@V?$smart_ptr@V?$hash_map@PAXV?$smart_ptr@VContext@LASS@@@ce@@U?$hash_traits@PAX@2@Vallocator@2@@ce@@@ce@@Vallocator@2@@ce@@IAAPAU?$_ListNode@V?$smart_ptr@V?$hash_map@PAXV?$smart_ptr@VContext@LASS@@@ce@@U?$hash_traits@PAX@2@Vallocator@2@@ce@@@ce@@@list_impl@2@PAU342@@Z 1000188c f i lassd:service_entry.obj
+ 0001:000008d8       ?_Buynode@?$list@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@2@PAU342@@Z 100018d8 f i lassd:service_entry.obj
+ 0001:00000924       ?_Buynode@?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@IAAPAU?$_ListNode@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@@list_impl@2@PAU342@@Z 10001924 f i lassd:service_entry.obj
+ 0001:00000970       ?verify_ptr@AllocatedStream@ce@@UAAPAXII@Z 10001970 f i lassd:service_entry.obj
+ 0001:0000099c       ?Create@CReg@@QAAHPAUHKEY__@@PBG@Z 1000199c f i lassd:service_entry.obj
+ 0001:00000a1c       ?Open@CReg@@QAAHPAUHKEY__@@PBGK@Z 10001a1c f i lassd:service_entry.obj
+ 0001:00000a84       ??0PersistantAuthFailures@LASS@@QAA@XZ 10001a84 f i lassd:service_entry.obj
+ 0001:00000ad4       ??1SequenceThread@VerifyUser@LASS@@UAA@XZ 10001ad4 f i lassd:service_entry.obj
+ 0001:00000b34       ?Shutdown@SequenceThread@VerifyUser@LASS@@UAAKXZ 10001b34 f i lassd:service_entry.obj
+ 0001:00000b54       ?WaitForEvent@SequenceThread@VerifyUser@LASS@@AAA?AW4WAKEUP_EVENT@123@XZ 10001b54 f i lassd:service_entry.obj
+ 0001:00000ba8       ?WaitForServiceReadyAndSignalServiceStarted@SequenceThread@VerifyUser@LASS@@AAAKXZ 10001ba8 f i lassd:service_entry.obj
+ 0001:00000c8c       ?Run@SequenceThread@VerifyUser@LASS@@EAAXXZ 10001c8c f i lassd:service_entry.obj
+ 0001:00000cbc       ??_GSequenceThread@VerifyUser@LASS@@UAAPAXI@Z 10001cbc f i lassd:service_entry.obj
+ 0001:00000cbc       ??_ESequenceThread@VerifyUser@LASS@@UAAPAXI@Z 10001cbc f i lassd:service_entry.obj
+ 0001:00000ce0       ?Start@?$ServerThread@UWaitSingleObjectPolicy@@@@UAAKXZ 10001ce0 f i lassd:service_entry.obj
+ 0001:00000d64       ?get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ 10001d64 f i lassd:service_entry.obj
+ 0001:00000db8       ?assign@?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@QAA_NPBGII@Z 10001db8 f i lassd:service_entry.obj
+ 0001:00000e20       ?allocate@?$free_list@$0GE@Vallocator@ce@@@ce@@QBAPAXI@Z 10001e20 f i lassd:service_entry.obj
+ 0001:00000e90       ?deallocate@?$free_list@$0GE@Vallocator@ce@@@ce@@QBAXPAXI@Z 10001e90 f i lassd:service_entry.obj
+ 0001:00000ef0       ?get_lock@?$singleton@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@V?$static_allocator@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@@3@@ce@@KAAAVcritical_section@2@XZ 10001ef0 f i lassd:service_entry.obj
+ 0001:00000f44       ??_G?$free_list@$0GE@Vallocator@ce@@@ce@@QAAPAXI@Z 10001f44 f i lassd:service_entry.obj
+ 0001:00000f90       ?create@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAXXZ 10001f90 f i lassd:service_entry.obj
+ 0001:00001010       ??$call@H@?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@QAAHP6AHXZ@Z 10002010 f i lassd:service_entry.obj
+ 0001:00001080       ??$insert@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@@?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@QAA?AV?$iterator@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@@list_impl@1@V231@ABQAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@1@@Z 10002080 f i lassd:service_entry.obj
+ 0001:000010c8       ?unmarshal@?$pc_marshaler_for_psl_buffer_wrapper@EE@ce@@QBA?AV?$psl_buffer_wrapper@PAE@2@AAVStream@2@@Z 100020c8 f i lassd:service_entry.obj
+ 0001:0000114c       ?Start@SequenceThread@VerifyUser@LASS@@UAAKXZ 1000214c f i lassd:service_entry.obj
+ 0001:000011a0       LAS_Init                   100021a0 f   lassd:service_entry.obj
+ 0001:00001220       ?erase@?$vector@U?$pair@V?$iterator@U?$pair@U_GUID@@V?$smart_ptr@VcAE@LASS@@@ce@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAAPAU?$pair@V?$iterator@U?$pair@U_GUID@@V?$smart_ptr@VcAE@LASS@@@ce@@@std@@@list_impl@ce@@I@std@@PAU34@0@Z 10002220 f i lassd:service_entry.obj
+ 0001:00001284       ?erase@?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@QAA?AV?$iterator@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@@list_impl@2@V342@@Z 10002284 f i lassd:service_entry.obj
+ 0001:000012e0       ?release@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@SAXXZ 100022e0 f i lassd:service_entry.obj
+ 0001:0000134c       ?erase@?$vector@U?$pair@V?$iterator@U?$pair@PAXV?$smart_ptr@VContext@LASS@@@ce@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAAPAU?$pair@V?$iterator@U?$pair@PAXV?$smart_ptr@VContext@LASS@@@ce@@@std@@@list_impl@ce@@I@std@@PAU34@0@Z 1000234c f i lassd:service_entry.obj
+ 0001:000013b0       ?erase@?$vector@U?$pair@V?$iterator@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAAPAU?$pair@V?$iterator@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@ce@@I@std@@PAU34@0@Z 100023b0 f i lassd:service_entry.obj
+ 0001:00001414       ?erase@?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@QAA?AV?$iterator@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@@list_impl@2@V342@0@Z 10002414 f i lassd:service_entry.obj
+ 0001:0000146c       ?insert@?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@QAA_NV?$iterator@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@@list_impl@2@V?$const_iterator@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@@42@1@Z 1000246c f i lassd:service_entry.obj
+ 0001:000014e4       ?erase@?$vector@U?$pair@V?$iterator@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@ce@@I@std@@V?$reference_allocator@Vallocator@ce@@@details@ce@@U?$exponential_growth@$09@5@@ce@@QAAPAU?$pair@V?$iterator@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@ce@@I@std@@PAU34@0@Z 100024e4 f i lassd:service_entry.obj
+ 0001:00001548       ??$_delete@VLAP@LASS@@@ce@@YAXPAVLAP@LASS@@@Z 10002548 f i lassd:service_entry.obj
+ 0001:00001584       ??$push_front@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@@?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@QAA_NABQAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@1@@Z 10002584 f i lassd:service_entry.obj
+ 0001:000015c4       ??0?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@QAA@PBG@Z 100025c4 f i lassd:service_entry.obj
+ 0001:00001634       ??0CopyInOutStream@ce@@QAA@PAEI@Z 10002634 f i lassd:service_entry.obj
+ 0001:000016ac       ??1CopyInOutStream@ce@@QAA@XZ 100026ac f i lassd:service_entry.obj
+ 0001:000016e8       ??0?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@QAA@ABV01@@Z 100026e8 f i lassd:service_entry.obj
+ 0001:00001730       ??$call@HPAUHWND__@@@?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@QAAHP6AHPAUHWND__@@@Z@Z 10002730 f i lassd:service_entry.obj
+ 0001:000017ac       ??$call@HKPAUPSL_HANDLE__@ce@@@?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@QAAHP6AHKPAUPSL_HANDLE__@1@@ZK@Z 100027ac f i lassd:service_entry.obj
+ 0001:00001830       ?unmarshal@?$pc_marshaler_string@$$CBG@ce@@QBAPBGAAVStream@2@@Z 10002830 f i lassd:service_entry.obj
+ 0001:000018e8       ?create@?$_ref_counting_t@V?$singleton_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@@ce@@IAA_NXZ 100028e8 f i lassd:service_entry.obj
+ 0001:00001924       ?release@?$_ref_counting_t@V?$singleton_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@@ce@@IAA_NXZ 10002924 f i lassd:service_entry.obj
+ 0001:0000198c       ??$call@HPBU_GUID@@@?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@QAAHP6AHPBU_GUID@@@Z@Z 1000298c f i lassd:service_entry.obj
+ 0001:00001a28       ??$call@HKV?$psl_buffer_wrapper@PAE@ce@@PAK@?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@QAAHP6AHKV?$psl_buffer_wrapper@PAE@1@PAK@Z@Z 10002a28 f i lassd:service_entry.obj
+ 0001:00001aec       ?erase@?$list@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@2@V342@@Z 10002aec f i lassd:service_entry.obj
+ 0001:00001b68       ?erase@?$list@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@2@V342@0@Z 10002b68 f i lassd:service_entry.obj
+ 0001:00001bc0       ?_Insert_dispatch@?$vector@U?$pair@V?$iterator@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@AAA_NPAU?$pair@V?$iterator@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@ce@@I@std@@IABU34@ABUtrue_type@detail@2@@Z 10002bc0 f i lassd:service_entry.obj
+ 0001:00001e08       ??$insert@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@?$list@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@1@V231@ABU?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@Z 10002e08 f i lassd:service_entry.obj
+ 0001:00001e60       ??1?$auto_xxx@PAVcAE@LASS@@P6AXPAV12@@Z$1??$_delete@VcAE@LASS@@@ce@@YAX0@Z$0A@V?$_ref_counting_t@V?$singleton_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@@3@@ce@@QAA@XZ 10002e60 f i lassd:service_entry.obj
+ 0001:00001eb0       ?erase@?$hash@V?$hash_map_traits@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@U?$hash_traits@K@2@Vallocator@2@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@3@V453@@Z 10002eb0 f i lassd:service_entry.obj
+ 0001:00001f24       ??$call@HKPBU_GUID@@PBGPAUHWND__@@KKPAUPSL_HANDLE__@ce@@@?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@QAAHP6AHKPBU_GUID@@PBGPAUHWND__@@KKPAUPSL_HANDLE__@1@@ZK@Z 10002f24 f i lassd:service_entry.obj
+ 0001:00002014       ?resize@?$vector@U?$pair@V?$iterator@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAA_NIABU?$pair@V?$iterator@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@ce@@I@std@@@Z 10003014 f i lassd:service_entry.obj
+ 0001:00002070       ??1?$hash@V?$hash_map_traits@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@U?$hash_traits@K@2@Vallocator@2@@details@ce@@@details@ce@@QAA@XZ 10003070 f i lassd:service_entry.obj
+ 0001:000020b0       ??_GRequest@VerifyUser@LASS@@QAAPAXI@Z 100030b0 f i lassd:service_entry.obj
+ 0001:000020fc       ?erase@?$list@U?$pair@U_GUID@@V?$smart_ptr@VcAE@LASS@@@ce@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@U_GUID@@V?$smart_ptr@VcAE@LASS@@@ce@@@std@@@list_impl@2@V342@@Z 100030fc f i lassd:service_entry.obj
+ 0001:00002164       ?_ready@?$hash@V?$hash_map_traits@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@U?$hash_traits@K@2@Vallocator@2@@details@ce@@@details@ce@@IAA_NXZ 10003164 f i lassd:service_entry.obj
+ 0001:000021bc       ?erase@?$list@U?$pair@U_GUID@@V?$smart_ptr@VcAE@LASS@@@ce@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@U_GUID@@V?$smart_ptr@VcAE@LASS@@@ce@@@std@@@list_impl@2@V342@0@Z 100031bc f i lassd:service_entry.obj
+ 0001:00002214       ??0?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@QAA@XZ 10003214 f i lassd:service_entry.obj
+ 0001:00002264       ?find@?$hash@V?$hash_map_traits@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@U?$hash_traits@K@2@Vallocator@2@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@3@ABK@Z 10003264 f i lassd:service_entry.obj
+ 0001:000022dc       ?insert@?$hash@V?$hash_map_traits@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@U?$hash_traits@K@2@Vallocator@2@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@3@ABU?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@Z 100032dc f i lassd:service_entry.obj
+ 0001:00002398       ?create@?$singleton@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@V?$static_allocator@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@@3@@ce@@KAXXZ 10003398 f i lassd:service_entry.obj
+ 0001:000023fc       ?erase@?$hash@V?$hash_map_traits@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@U?$hash_traits@K@2@Vallocator@2@@details@ce@@@details@ce@@QAAIABK@Z 100033fc f i lassd:service_entry.obj
+ 0001:00002448       ?insert@?$hash_map@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@U?$hash_traits@K@2@Vallocator@2@@ce@@QAA?AV?$iterator@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@2@ABKABV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@2@@Z 10003448 f i lassd:service_entry.obj
+ 0001:0000249c       ?release@?$singleton@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@V?$static_allocator@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@@3@@ce@@SAXXZ 1000349c f i lassd:service_entry.obj
+ 0001:00002510       ?erase@?$list@V?$smart_ptr@VRequest@VerifyUser@LASS@@@ce@@Vallocator@2@@ce@@QAA?AV?$iterator@V?$smart_ptr@VRequest@VerifyUser@LASS@@@ce@@@list_impl@2@V342@@Z 10003510 f i lassd:service_entry.obj
+ 0001:00002594       ?clean_thread_data@?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@QAAXXZ 10003594 f i lassd:service_entry.obj
+ 0001:000025d8       ?erase@?$list@V?$smart_ptr@VRequest@VerifyUser@LASS@@@ce@@Vallocator@2@@ce@@QAA?AV?$iterator@V?$smart_ptr@VRequest@VerifyUser@LASS@@@ce@@@list_impl@2@V342@0@Z 100035d8 f i lassd:service_entry.obj
+ 0001:00002630       ??A?$hash_map@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@U?$hash_traits@K@2@Vallocator@2@@ce@@QAAPAV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@1@ABK@Z 10003630 f i lassd:service_entry.obj
+ 0001:000026c4       ??1?$hash@V?$hash_map_traits@U_GUID@@V?$smart_ptr@VcAE@LASS@@@ce@@UGUIDHash@LASS@@Vallocator@3@@details@ce@@@details@ce@@QAA@XZ 100036c4 f i lassd:service_entry.obj
+ 0001:00002704       ?RemoveFromQueue@RequestManager@VerifyUser@LASS@@AAAKQBVRequest@23@@Z 10003704 f i lassd:service_entry.obj
+ 0001:00002784       ?get_thread_data@?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@QAAPAV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@3@XZ 10003784 f i lassd:service_entry.obj
+ 0001:000027d0       ?Close@RequestManager@VerifyUser@LASS@@QAAKPAVRequest@23@@Z 100037d0 f i lassd:service_entry.obj
+ 0001:00002838       ??1Context@LASS@@QAA@XZ    10003838 f i lassd:service_entry.obj
+ 0001:00002880       ??1?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@UAA@XZ 10003880 f i lassd:service_entry.obj
+ 0001:000028f8       ??_G?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@UAAPAXI@Z 100038f8 f i lassd:service_entry.obj
+ 0001:000028f8       ??_E?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@UAAPAXI@Z 100038f8 f i lassd:service_entry.obj
+ 0001:0000291c       ??0?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@QAA@PAXK@Z 1000391c f i lassd:service_entry.obj
+ 0001:000029e4       ??0RequestManager@VerifyUser@LASS@@QAA@XZ 100039e4 f i lassd:service_entry.obj
+ 0001:00002a48       ??1?$pc_stub@PAX@ce@@UAA@XZ 10003a48 f i lassd:service_entry.obj
+ 0001:00002a4c       ??0?$pc_stub@PAX@ce@@QAA@PAXK@Z 10003a4c f i lassd:service_entry.obj
+ 0001:00002a6c       ??_E?$pc_stub@PAX@ce@@UAAPAXI@Z 10003a6c f i lassd:service_entry.obj
+ 0001:00002a6c       ??_G?$pc_stub@PAX@ce@@UAAPAXI@Z 10003a6c f i lassd:service_entry.obj
+ 0001:00002a98       LAS_IOControl              10003a98 f   lassd:service_entry.obj
+ 0001:00002d00       ??1?$pair@PAXV?$smart_ptr@VContext@LASS@@@ce@@@std@@QAA@XZ 10003d00 f i lassd:service_entry.obj
+ 0001:00002d3c       ?erase@?$list@U?$pair@PAXV?$smart_ptr@VContext@LASS@@@ce@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@PAXV?$smart_ptr@VContext@LASS@@@ce@@@std@@@list_impl@2@V342@@Z 10003d3c f i lassd:service_entry.obj
+ 0001:00002da4       ?erase@?$list@U?$pair@PAXV?$smart_ptr@VContext@LASS@@@ce@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@PAXV?$smart_ptr@VContext@LASS@@@ce@@@std@@@list_impl@2@V342@0@Z 10003da4 f i lassd:service_entry.obj
+ 0001:00002dfc       ??1?$hash@V?$hash_map_traits@PAXV?$smart_ptr@VContext@LASS@@@ce@@U?$hash_traits@PAX@2@Vallocator@2@@details@ce@@@details@ce@@QAA@XZ 10003dfc f i lassd:service_entry.obj
+ 0001:00002e3c       ??0?$auto_xxx@PAV?$hash_map@PAXV?$smart_ptr@VContext@LASS@@@ce@@U?$hash_traits@PAX@2@Vallocator@2@@ce@@P6AXPAV12@@Z$1??$_delete@V?$hash_map@PAXV?$smart_ptr@VContext@LASS@@@ce@@U?$hash_traits@PAX@2@Vallocator@2@@ce@@@2@YAX0@Z$0A@V?$_ref_counting_t@V?$singleton_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@@2@@ce@@QAA@PAV?$hash_map@PAXV?$smart_ptr@VContext@LASS@@@ce@@U?$hash_traits@PAX@2@Vallocator@2@@1@@Z 10003e3c f i lassd:service_entry.obj
+ 0001:00002e9c       ??$insert@PAV?$hash_map@PAXV?$smart_ptr@VContext@LASS@@@ce@@U?$hash_traits@PAX@2@Vallocator@2@@ce@@@?$list@V?$smart_ptr@V?$hash_map@PAXV?$smart_ptr@VContext@LASS@@@ce@@U?$hash_traits@PAX@2@Vallocator@2@@ce@@@ce@@Vallocator@2@@ce@@QAA?AV?$iterator@V?$smart_ptr@V?$hash_map@PAXV?$smart_ptr@VContext@LASS@@@ce@@U?$hash_traits@PAX@2@Vallocator@2@@ce@@@ce@@@list_impl@1@V231@ABQAV?$hash_map@PAXV?$smart_ptr@VContext@LASS@@@ce@@U?$hash_traits@PAX@2@Vallocator@2@@1@@Z 10003e9c f i lassd:service_entry.obj
+ 0001:00002eec       ??_G?$smart_ptr@V?$hash_map@PAXV?$smart_ptr@VContext@LASS@@@ce@@U?$hash_traits@PAX@2@Vallocator@2@@ce@@@ce@@QAAPAXI@Z 10003eec f i lassd:service_entry.obj
+ 0001:00002f38       ?erase@?$list@V?$smart_ptr@V?$hash_map@PAXV?$smart_ptr@VContext@LASS@@@ce@@U?$hash_traits@PAX@2@Vallocator@2@@ce@@@ce@@Vallocator@2@@ce@@QAA?AV?$iterator@V?$smart_ptr@V?$hash_map@PAXV?$smart_ptr@VContext@LASS@@@ce@@U?$hash_traits@PAX@2@Vallocator@2@@ce@@@ce@@@list_impl@2@V342@@Z 10003f38 f i lassd:service_entry.obj
+ 0001:00002fa4       ?erase@?$list@V?$smart_ptr@V?$hash_map@PAXV?$smart_ptr@VContext@LASS@@@ce@@U?$hash_traits@PAX@2@Vallocator@2@@ce@@@ce@@Vallocator@2@@ce@@QAA?AV?$iterator@V?$smart_ptr@V?$hash_map@PAXV?$smart_ptr@VContext@LASS@@@ce@@U?$hash_traits@PAX@2@Vallocator@2@@ce@@@ce@@@list_impl@2@V342@0@Z 10003fa4 f i lassd:service_entry.obj
+ 0001:00002ffc       LAS_Open                   10003ffc f   lassd:service_entry.obj
+ 0001:000030e4       LAS_Close                  100040e4 f   lassd:service_entry.obj
+ 0001:0000312c       LAS_Deinit                 1000412c f   lassd:service_entry.obj
+ 0001:00003184       ?InitializeLAP@LAP@LASS@@QAAHPAU_InitLap@@@Z 10004184 f i lassd:verify.obj
+ 0001:00003214       ?VerifyUser@LAP@LASS@@QAAHPBU_GUID@@PBGPAUHWND__@@KPAX@Z 10004214 f i lassd:verify.obj
+ 0001:0000329c       ?VerifyUserStart@LAP@LASS@@QAAXPBU_GUID@@PBGPAUHWND__@@KPAX@Z 1000429c f i lassd:verify.obj
+ 0001:00003310       ?EnumKey@CReg@@QAAHPAGK@Z  10004310 f i lassd:verify.obj
+ 0001:0000337c       ?ValueSZ@CReg@@QAAPBGPBG@Z 1000437c f i lassd:verify.obj
+ 0001:00003460       ?ValueDW@CReg@@QAAKPBGK@Z  10004460 f i lassd:verify.obj
+ 0001:000034ac       ?SetDW@CReg@@QAAHPBGK@Z    100044ac f i lassd:verify.obj
+ 0001:000034f4       ?BeforeVU@IPolicy@Policy@LASS@@UAA_NPAVLAP@3@PBU_GUID@@PBGPAUHWND__@@KPAX@Z 100044f4 f i lassd:verify.obj
+ 0001:000034fc       ?AfterVUSuccess@IPolicy@Policy@LASS@@UAAXPAVcAE@3@@Z 100044fc f i lassd:verify.obj
+ 0001:00003500       ?AfterVUFailed@IPolicy@Policy@LASS@@UAAXXZ 10004500 f i lassd:verify.obj
+ 0001:00003504       ?VUAborted@IPolicy@Policy@LASS@@UAAXXZ 10004504 f i lassd:verify.obj
+ 0001:00003508       ??_EIPolicy@Policy@LASS@@UAAPAXI@Z 10004508 f i lassd:verify.obj
+ 0001:00003508       ??_GIPolicy@Policy@LASS@@UAAPAXI@Z 10004508 f i lassd:verify.obj
+ 0001:0000352c       ??RCallBeforeVUAndHandleCancel@Policy@LASS@@QBA_NPAVIPolicy@12@@Z 1000452c f i lassd:verify.obj
+ 0001:000035a0       ?DisplayPreWipe@LAP@LASS@@QAAHPAUHWND__@@@Z 100045a0 f i lassd:verify.obj
+ 0001:00003604       ?GUIDToStringPriv@@YA_NPBU_GUID@@PAGK@Z 10004604 f   lassd:verify.obj
+ 0001:000036a8       ?WaitForCompletionAndPumpMessages@@YAKQAXKKK@Z 100046a8 f i lassd:verify.obj
+ 0001:00003784       ?PreRun@?$ServerThread@U?$MsgWaitPolicy@$0HP@$03@@@@UAAKXZ 10004784 f i lassd:verify.obj
+ 0001:0000378c       ?PostRun@?$ServerThread@U?$MsgWaitPolicy@$0HP@$03@@@@UAAKXZ 1000478c f i lassd:verify.obj
+ 0001:00003794       ??_G?$ServerThread@U?$MsgWaitPolicy@$0HP@$03@@@@UAAPAXI@Z 10004794 f i lassd:verify.obj
+ 0001:00003794       ??_E?$ServerThread@U?$MsgWaitPolicy@$0HP@$03@@@@UAAPAXI@Z 10004794 f i lassd:verify.obj
+ 0001:000037d4       ?ServerProc@?$ServerThread@U?$MsgWaitPolicy@$0HP@$03@@@@CAKPAX@Z 100047d4 f i lassd:verify.obj
+ 0001:00003818       ??$CallIfNotNull@P6AXXZ@LASS@@YAXP6AXXZ@Z 10004818 f i lassd:verify.obj
+ 0001:00003850       ?_Buynode@?$list@U?$pair@U_GUID@@V?$smart_ptr@VcAE@LASS@@@ce@@@std@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@U?$pair@U_GUID@@V?$smart_ptr@VcAE@LASS@@@ce@@@std@@@list_impl@2@PAU342@@Z 10004850 f i lassd:verify.obj
+ 0001:0000389c       ??1_buffer@?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@QAA@XZ 1000489c f i lassd:verify.obj
+ 0001:000038ec       ?_Buynode@?$list@V?$auto_ptr@VIPolicy@Policy@LASS@@@ce@@Vallocator@2@@ce@@IAAPAU?$_ListNode@V?$auto_ptr@VIPolicy@Policy@LASS@@@ce@@@list_impl@2@PAU342@@Z 100048ec f i lassd:verify.obj
+ 0001:00003938       ??_9IPolicy@Policy@LASS@@$BM@AA 10004938 f i lassd:verify.obj
+ 0001:00003944       ??_9IPolicy@Policy@LASS@@$BBA@AA 10004944 f i lassd:verify.obj
+ 0001:00003950       ??_9IPolicy@Policy@LASS@@$B7AA 10004950 f i lassd:verify.obj
+ 0001:0000395c       ?AuthStarted@PersistantAuthFailures@LASS@@AAAXXZ 1000495c f i lassd:verify.obj
+ 0001:000039a4       ?AuthAborted@PersistantAuthFailures@LASS@@AAAXXZ 100049a4 f i lassd:verify.obj
+ 0001:000039e4       ??RCompleteEquivelentRequests@VerifyUser@LASS@@QBA_NQBVRequest@12@QAV312@@Z 100049e4 f i lassd:verify.obj
+ 0001:00003a34       ??RCancelEquivelentRequests@VerifyUser@LASS@@QBA_NQBVRequest@12@QAV312@@Z 10004a34 f i lassd:verify.obj
+ 0001:00003a8c       ?LockoutUser@LAP@LASS@@QAAHPAUHWND__@@PBGK@Z 10004a8c f i lassd:verify.obj
+ 0001:00003af8       ?LockoutInSeconds@ExponentialBackOff@Policy@LASS@@AAAKXZ 10004af8 f i lassd:verify.obj
+ 0001:00003b90       ??_EExponentialBackOff@Policy@LASS@@UAAPAXI@Z 10004b90 f i lassd:verify.obj
+ 0001:00003b90       ??_GExponentialBackOff@Policy@LASS@@UAAPAXI@Z 10004b90 f i lassd:verify.obj
+ 0001:00003bb4       ?DisplayPreWipeIfRequired@DeviceWipe@Policy@LASS@@AAA_NPAVLAP@3@PAUHWND__@@@Z 10004bb4 f i lassd:verify.obj
+ 0001:00003c1c       ?DoDeviceWipeAndResetIfRequired@DeviceWipe@Policy@LASS@@AAAXXZ 10004c1c f i lassd:verify.obj
+ 0001:00003c7c       ??_GDeviceWipe@Policy@LASS@@UAAPAXI@Z 10004c7c f i lassd:verify.obj
+ 0001:00003c7c       ??_EDeviceWipe@Policy@LASS@@UAAPAXI@Z 10004c7c f i lassd:verify.obj
+ 0001:00003ca8       ?CreateEnrollmentConfigDialog@LAP@LASS@@QAAHPAUHWND__@@K@Z 10004ca8 f i lassd:verify.obj
+ 0001:00003d08       ?Shutdown@EnrollmentThread_t@@EAAKXZ 10004d08 f i lassd:verify.obj
+ 0001:00003d10       ?Run@EnrollmentThread_t@@EAAXXZ 10004d10 f i lassd:verify.obj
+ 0001:00003d4c       ?GetNumberOfFailedAttempts@@YAKXZ 10004d4c f   lassd:verify.obj
+ 0001:00003d7c       ?LASSGetValueImpl@@YAHKV?$psl_buffer_wrapper@PAE@ce@@PAK@Z 10004d7c f   lassd:verify.obj
+ 0001:00003dfc       ??_EAE@Policy@LASS@@UAAPAXI@Z 10004dfc f i lassd:verify.obj
+ 0001:00003dfc       ??_GAE@Policy@LASS@@UAAPAXI@Z 10004dfc f i lassd:verify.obj
+ 0001:00003e20       ?LowerFailureCountIfRequired@@YAXK@Z 10004e20 f   lassd:verify.obj
+ 0001:00003ebc       ?Start@?$ServerThread@U?$MsgWaitPolicy@$0HP@$03@@@@UAAKXZ 10004ebc f i lassd:verify.obj
+ 0001:00003f40       ?Stop@?$ServerThread@U?$MsgWaitPolicy@$0HP@$03@@@@UAAKXZ 10004f40 f i lassd:verify.obj
+ 0001:00003fac       ??$for_each@V?$iterator@V?$auto_ptr@VIPolicy@Policy@LASS@@@ce@@@list_impl@ce@@V?$mem_fun_t@XVIPolicy@Policy@LASS@@@std@@@std@@YA?AV?$mem_fun_t@XVIPolicy@Policy@LASS@@@0@V?$iterator@V?$auto_ptr@VIPolicy@Policy@LASS@@@ce@@@list_impl@ce@@0V10@@Z 10004fac f i lassd:verify.obj
+ 0001:00003ffc       ??$find_if@V?$iterator@V?$auto_ptr@VIPolicy@Policy@LASS@@@ce@@@list_impl@ce@@V?$unary_negate@VCallBeforeVUAndHandleCancel@Policy@LASS@@@std@@@std@@YA?AV?$iterator@V?$auto_ptr@VIPolicy@Policy@LASS@@@ce@@@list_impl@ce@@V123@0V?$unary_negate@VCallBeforeVUAndHandleCancel@Policy@LASS@@@0@@Z 10004ffc f i lassd:verify.obj
+ 0001:00004050       ?BeforeVU@ExponentialBackOff@Policy@LASS@@EAA_NPAVLAP@3@PBU_GUID@@PBGPAUHWND__@@KPAX@Z 10005050 f i lassd:verify.obj
+ 0001:000040bc       ?BeforeVU@DeviceWipe@Policy@LASS@@EAA_NPAVLAP@3@PBU_GUID@@PBGPAUHWND__@@KPAX@Z 100050bc f i lassd:verify.obj
+ 0001:000040e8       ?AfterVUFailed@DeviceWipe@Policy@LASS@@EAAXXZ 100050e8 f i lassd:verify.obj
+ 0001:000040ec       ??_EEnrollmentThread_t@@UAAPAXI@Z 100050ec f i lassd:verify.obj
+ 0001:000040ec       ??_GEnrollmentThread_t@@UAAPAXI@Z 100050ec f i lassd:verify.obj
+ 0001:0000413c       ?erase@?$vector@U?$pair@V?$iterator@U?$pair@U_GUID@@V?$smart_ptr@VcAE@LASS@@@ce@@@std@@@list_impl@ce@@I@std@@V?$reference_allocator@Vallocator@ce@@@details@ce@@U?$exponential_growth@$09@5@@ce@@QAAPAU?$pair@V?$iterator@U?$pair@U_GUID@@V?$smart_ptr@VcAE@LASS@@@ce@@@std@@@list_impl@ce@@I@std@@PAU34@0@Z 1000513c f i lassd:verify.obj
+ 0001:000041a0       ??$RegQueryValue@$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@YAJPAUHKEY__@@PBGAAV?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@0@@Z 100051a0 f i lassd:verify.obj
+ 0001:00004260       ??$for_each@V?$iterator@V?$auto_ptr@VIPolicy@Policy@LASS@@@ce@@@list_impl@ce@@V?$binder2nd@V?$mem_fun1_t@XVIPolicy@Policy@LASS@@PAVcAE@3@@std@@@std@@@std@@YA?AV?$binder2nd@V?$mem_fun1_t@XVIPolicy@Policy@LASS@@PAVcAE@3@@std@@@0@V?$iterator@V?$auto_ptr@VIPolicy@Policy@LASS@@@ce@@@list_impl@ce@@0V10@@Z 10005260 f i lassd:verify.obj
+ 0001:000042c4       ??$insert@PAVDeviceWipe@Policy@LASS@@@?$list@V?$auto_ptr@VIPolicy@Policy@LASS@@@ce@@Vallocator@2@@ce@@QAA?AV?$iterator@V?$auto_ptr@VIPolicy@Policy@LASS@@@ce@@@list_impl@1@V231@ABQAVDeviceWipe@Policy@LASS@@@Z 100052c4 f i lassd:verify.obj
+ 0001:0000430c       ??$insert@PAVCodeWord@Policy@LASS@@@?$list@V?$auto_ptr@VIPolicy@Policy@LASS@@@ce@@Vallocator@2@@ce@@QAA?AV?$iterator@V?$auto_ptr@VIPolicy@Policy@LASS@@@ce@@@list_impl@1@V231@ABQAVCodeWord@Policy@LASS@@@Z 1000530c f i lassd:verify.obj
+ 0001:00004354       ??$insert@PAVAE@Policy@LASS@@@?$list@V?$auto_ptr@VIPolicy@Policy@LASS@@@ce@@Vallocator@2@@ce@@QAA?AV?$iterator@V?$auto_ptr@VIPolicy@Policy@LASS@@@ce@@@list_impl@1@V231@ABQAVAE@Policy@LASS@@@Z 10005354 f i lassd:verify.obj
+ 0001:0000439c       ??$insert@PAVExponentialBackOff@Policy@LASS@@@?$list@V?$auto_ptr@VIPolicy@Policy@LASS@@@ce@@Vallocator@2@@ce@@QAA?AV?$iterator@V?$auto_ptr@VIPolicy@Policy@LASS@@@ce@@@list_impl@1@V231@ABQAVExponentialBackOff@Policy@LASS@@@Z 1000539c f i lassd:verify.obj
+ 0001:000043e4       ??0cAE@LASS@@AAA@XZ        100053e4 f i lassd:verify.obj
+ 0001:00004450       ?DoInnerSequence@VerifyUser@LASS@@YAKQBUParamaters@12@@Z 10005450 f   lassd:verify.obj
+ 0001:00004678       ??1?$auto_xxx@PAVcAE@LASS@@P6AXPAV12@@Z$1??$_delete@VcAE@LASS@@@ce@@YAX0@Z$0A@Vno_copy@3@@ce@@QAA@XZ 10005678 f i lassd:verify.obj
+ 0001:000046b4       ??4?$auto_xxx@PAVcAE@LASS@@P6AXPAV12@@Z$1??$_delete@VcAE@LASS@@@ce@@YAX0@Z$0A@Vno_copy@3@@ce@@QAAAAV01@ABQAVcAE@LASS@@@Z 100056b4 f i lassd:verify.obj
+ 0001:00004704       ?resetTimeBasedAEs@cAE@LASS@@CAXXZ 10005704 f i lassd:verify.obj
+ 0001:00004750       ?DisplayCodeword@LAP@LASS@@QAAHPAUHWND__@@QBG@Z 10005750 f i lassd:verify.obj
+ 0001:000047bc       ??_ECodeWord@Policy@LASS@@UAAPAXI@Z 100057bc f i lassd:verify.obj
+ 0001:000047bc       ??_GCodeWord@Policy@LASS@@UAAPAXI@Z 100057bc f i lassd:verify.obj
+ 0001:000047f8       ?BeforeVU@CodeWord@Policy@LASS@@EAA_NPAVLAP@3@PBU_GUID@@PBGPAUHWND__@@KPAX@Z 100057f8 f i lassd:verify.obj
+ 0001:000048f8       ?CreateDeviceWipeAndCodeWordPolicy@@YAXKKQBGQAI@Z 100058f8 f   lassd:verify.obj
+ 0001:000049d8       ?LoadPolicy@@YAKXZ         100059d8 f   lassd:verify.obj
+ 0001:00004c0c       ?erase@?$list@V?$auto_ptr@VIPolicy@Policy@LASS@@@ce@@Vallocator@2@@ce@@QAA?AV?$iterator@V?$auto_ptr@VIPolicy@Policy@LASS@@@ce@@@list_impl@2@V342@@Z 10005c0c f i lassd:verify.obj
+ 0001:00004c84       ?Create@LAP@LASS@@SAPAV12@PBG@Z 10005c84 f i lassd:verify.obj
+ 0001:00004e5c       ?getTimeAndResetTimeBasedAEsIfNeeded@cAE@LASS@@CA_KXZ 10005e5c f i lassd:verify.obj
+ 0001:00004ecc       ?Create@cAE@LASS@@SAPAV12@AAVCReg@@PAG@Z 10005ecc f i lassd:verify.obj
+ 0001:00005074       ?VerifySucceeded@cAE@LASS@@QAAXXZ 10006074 f i lassd:verify.obj
+ 0001:000050b0       ?AfterVUSuccess@AE@Policy@LASS@@UAAXPAVcAE@3@@Z 100060b0 f i lassd:verify.obj
+ 0001:000050b8       ?LoadLAP@@YAKXZ            100060b8 f   lassd:verify.obj
+ 0001:000052b4       ??0?$auto_xxx@PAVcAE@LASS@@P6AXPAV12@@Z$1??$_delete@VcAE@LASS@@@ce@@YAX0@Z$0A@V?$_ref_counting_t@V?$singleton_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@@3@@ce@@QAA@PAVcAE@LASS@@@Z 100062b4 f i lassd:verify.obj
+ 0001:0000532c       ??0?$auto_xxx@PAVcAE@LASS@@P6AXPAV12@@Z$1??$_delete@VcAE@LASS@@@ce@@YAX0@Z$0A@V?$_ref_counting_t@V?$singleton_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@@3@@ce@@QAA@ABV01@@Z 1000632c f i lassd:verify.obj
+ 0001:00005374       ?erase@?$list@V?$auto_ptr@VIPolicy@Policy@LASS@@@ce@@Vallocator@2@@ce@@QAA?AV?$iterator@V?$auto_ptr@VIPolicy@Policy@LASS@@@ce@@@list_impl@2@V342@0@Z 10006374 f i lassd:verify.obj
+ 0001:000053cc       ?_Insert_dispatch@?$vector@U?$pair@V?$iterator@U?$pair@U_GUID@@V?$smart_ptr@VcAE@LASS@@@ce@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@AAA_NPAU?$pair@V?$iterator@U?$pair@U_GUID@@V?$smart_ptr@VcAE@LASS@@@ce@@@std@@@list_impl@ce@@I@std@@IABU34@ABUtrue_type@detail@2@@Z 100063cc f i lassd:verify.obj
+ 0001:00005614       ??4?$auto_xxx@PAVcAE@LASS@@P6AXPAV12@@Z$1??$_delete@VcAE@LASS@@@ce@@YAX0@Z$0A@V?$_ref_counting_t@V?$singleton_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@@3@@ce@@QAAAAV01@ABV01@@Z 10006614 f i lassd:verify.obj
+ 0001:00005668       ??0?$auto_xxx@PAVRequest@VerifyUser@LASS@@P6AXPAV123@@Z$1??$_delete@VRequest@VerifyUser@LASS@@@ce@@YAX0@Z$0A@V?$_ref_counting_t@V?$singleton_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@@4@@ce@@QAA@ABV01@@Z 10006668 f i lassd:verify.obj
+ 0001:000056b0       ?resize@?$vector@U?$pair@V?$iterator@U?$pair@U_GUID@@V?$smart_ptr@VcAE@LASS@@@ce@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAA_NIABU?$pair@V?$iterator@U?$pair@U_GUID@@V?$smart_ptr@VcAE@LASS@@@ce@@@std@@@list_impl@ce@@I@std@@@Z 100066b0 f i lassd:verify.obj
+ 0001:0000570c       ??0?$pair@U_GUID@@V?$smart_ptr@VcAE@LASS@@@ce@@@std@@QAA@ABU01@@Z 1000670c f i lassd:verify.obj
+ 0001:0000574c       ??$insert@U?$pair@U_GUID@@V?$smart_ptr@VcAE@LASS@@@ce@@@std@@@?$list@U?$pair@U_GUID@@V?$smart_ptr@VcAE@LASS@@@ce@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@U_GUID@@V?$smart_ptr@VcAE@LASS@@@ce@@@std@@@list_impl@1@V231@ABU?$pair@U_GUID@@V?$smart_ptr@VcAE@LASS@@@ce@@@std@@@Z 1000674c f i lassd:verify.obj
+ 0001:0000579c       ?erase@?$hash@V?$hash_map_traits@U_GUID@@V?$smart_ptr@VcAE@LASS@@@ce@@UGUIDHash@LASS@@Vallocator@3@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@U_GUID@@V?$smart_ptr@VcAE@LASS@@@ce@@@std@@@list_impl@3@V453@@Z 1000679c f i lassd:verify.obj
+ 0001:00005808       ?clear@?$hash@V?$hash_map_traits@U_GUID@@V?$smart_ptr@VcAE@LASS@@@ce@@UGUIDHash@LASS@@Vallocator@3@@details@ce@@@details@ce@@QAAXXZ 10006808 f i lassd:verify.obj
+ 0001:00005858       ?_ready@?$hash@V?$hash_map_traits@U_GUID@@V?$smart_ptr@VcAE@LASS@@@ce@@UGUIDHash@LASS@@Vallocator@3@@details@ce@@@details@ce@@IAA_NXZ 10006858 f i lassd:verify.obj
+ 0001:000058b0       ?UnloadConfig@@YAXXZ       100068b0 f   lassd:verify.obj
+ 0001:00005928       ?insert@?$hash@V?$hash_map_traits@U_GUID@@V?$smart_ptr@VcAE@LASS@@@ce@@UGUIDHash@LASS@@Vallocator@3@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@U_GUID@@V?$smart_ptr@VcAE@LASS@@@ce@@@std@@@list_impl@3@ABU?$pair@U_GUID@@V?$smart_ptr@VcAE@LASS@@@ce@@@std@@@Z 10006928 f i lassd:verify.obj
+ 0001:000059f8       ?find@?$hash@V?$hash_map_traits@U_GUID@@V?$smart_ptr@VcAE@LASS@@@ce@@UGUIDHash@LASS@@Vallocator@3@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@U_GUID@@V?$smart_ptr@VcAE@LASS@@@ce@@@std@@@list_impl@3@ABU_GUID@@@Z 100069f8 f i lassd:verify.obj
+ 0001:00005a7c       ??0?$auto_xxx@PAVRequest@VerifyUser@LASS@@P6AXPAV123@@Z$1??$_delete@VRequest@VerifyUser@LASS@@@ce@@YAX0@Z$0A@V?$_ref_counting_t@V?$singleton_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@@4@@ce@@QAA@PAVRequest@VerifyUser@LASS@@@Z 10006a7c f i lassd:verify.obj
+ 0001:00005adc       ?LASSReloadAE@@YAHPBU_GUID@@@Z 10006adc f   lassd:verify.obj
+ 0001:00005c64       ?isPowerOnVerifyUser@@YA_NXZ 10006c64 f   lassd:verify.obj
+ 0001:00005cfc       ?HandleMasterKeyProtection@@YAKXZ 10006cfc f   lassd:verify.obj
+ 0001:00005da4       ?LoadAEs@@YAKXZ            10006da4 f   lassd:verify.obj
+ 0001:00005ebc       ?LoadConfig@@YAKXZ         10006ebc f   lassd:verify.obj
+ 0001:00005efc       ?ReloadConfig@@YAKXZ       10006efc f   lassd:verify.obj
+ 0001:00005f2c       ?ScheduleOrDoReloadConfig@@YAHXZ 10006f2c f   lassd:verify.obj
+ 0001:00005fa0       ??1RefCountLAP@@QAA@XZ     10006fa0 f i lassd:verify.obj
+ 0001:00005fec       ?CallLAPCreateEnrollmentConfigDialog@@YAHPAUHWND__@@@Z 10006fec f   lassd:verify.obj
+ 0001:0000611c       ??$remove_if@V?$binder1st@UCompleteEquivelentRequests@VerifyUser@LASS@@@std@@@?$list@V?$smart_ptr@VRequest@VerifyUser@LASS@@@ce@@Vallocator@2@@ce@@QAAXV?$binder1st@UCompleteEquivelentRequests@VerifyUser@LASS@@@std@@@Z 1000711c f i lassd:verify.obj
+ 0001:00006190       ??$remove_if@V?$binder1st@UCancelEquivelentRequests@VerifyUser@LASS@@@std@@@?$list@V?$smart_ptr@VRequest@VerifyUser@LASS@@@ce@@Vallocator@2@@ce@@QAAXV?$binder1st@UCancelEquivelentRequests@VerifyUser@LASS@@@std@@@Z 10007190 f i lassd:verify.obj
+ 0001:00006204       ?PopHead@RequestManager@VerifyUser@LASS@@AAA?AV?$smart_ptr@VRequest@VerifyUser@LASS@@@ce@@XZ 10007204 f i lassd:verify.obj
+ 0001:00006298       ?Begin@Sequence@VerifyUser@LASS@@CA?AV?$smart_ptr@VRequest@VerifyUser@LASS@@@ce@@XZ 10007298 f   lassd:verify.obj
+ 0001:00006358       ?End@Sequence@VerifyUser@LASS@@CAXQAVRequest@23@K@Z 10007358 f   lassd:verify.obj
+ 0001:00006428       ?Do@Sequence@VerifyUser@LASS@@SAKXZ 10007428 f   lassd:verify.obj
+ 0001:000064d4       ?ComputeFlagsAndOptions@@YAKPBU_GUID@@AAKPA_N@Z 100074d4 f   lassd:async.obj
+ 0001:00006534       ?_Buynode@?$list@U?$pair@PAXV?$smart_ptr@VContext@LASS@@@ce@@@std@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@U?$pair@PAXV?$smart_ptr@VContext@LASS@@@ce@@@std@@@list_impl@2@PAU342@@Z 10007534 f i lassd:async.obj
+ 0001:00006580       ?_Buynode@?$list@V?$smart_ptr@VRequest@VerifyUser@LASS@@@ce@@Vallocator@2@@ce@@IAAPAU?$_ListNode@V?$smart_ptr@VRequest@VerifyUser@LASS@@@ce@@@list_impl@2@PAU342@@Z 10007580 f i lassd:async.obj
+ 0001:000065cc       ?erase@?$vector@U?$pair@V?$iterator@U?$pair@PAXV?$smart_ptr@VContext@LASS@@@ce@@@std@@@list_impl@ce@@I@std@@V?$reference_allocator@Vallocator@ce@@@details@ce@@U?$exponential_growth@$09@5@@ce@@QAAPAU?$pair@V?$iterator@U?$pair@PAXV?$smart_ptr@VContext@LASS@@@ce@@@std@@@list_impl@ce@@I@std@@PAU34@0@Z 100075cc f i lassd:async.obj
+ 0001:00006630       ??4?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@QAAAAV01@PBG@Z 10007630 f i lassd:async.obj
+ 0001:0000667c       ?needToCallIntoLap@cAE@LASS@@QAA?B_NXZ 1000767c f i lassd:async.obj
+ 0001:00006740       ??0?$auto_xxx@PAVContext@LASS@@P6AXPAV12@@Z$1??$_delete@VContext@LASS@@@ce@@YAX0@Z$0A@V?$_ref_counting_t@V?$singleton_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@@3@@ce@@QAA@ABV01@@Z 10007740 f i lassd:async.obj
+ 0001:00006788       ?_Insert_dispatch@?$vector@U?$pair@V?$iterator@U?$pair@PAXV?$smart_ptr@VContext@LASS@@@ce@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@AAA_NPAU?$pair@V?$iterator@U?$pair@PAXV?$smart_ptr@VContext@LASS@@@ce@@@std@@@list_impl@ce@@I@std@@IABU34@ABUtrue_type@detail@2@@Z 10007788 f i lassd:async.obj
+ 0001:000069d0       ?resize@?$vector@U?$pair@V?$iterator@U?$pair@PAXV?$smart_ptr@VContext@LASS@@@ce@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAA_NIABU?$pair@V?$iterator@U?$pair@PAXV?$smart_ptr@VContext@LASS@@@ce@@@std@@@list_impl@ce@@I@std@@@Z 100079d0 f i lassd:async.obj
+ 0001:00006a2c       ??0Paramaters@VerifyUser@LASS@@QAA@XZ 10007a2c f i lassd:async.obj
+ 0001:00006a7c       ??0Request@VerifyUser@LASS@@QAA@PBU_GUID@@PBGPAUHWND__@@KPAXV?$smart_ptr@VcAE@LASS@@@ce@@QAX@Z 10007a7c f i lassd:async.obj
+ 0001:00006b2c       ?_ready@?$hash@V?$hash_map_traits@PAXV?$smart_ptr@VContext@LASS@@@ce@@U?$hash_traits@PAX@2@Vallocator@2@@details@ce@@@details@ce@@IAA_NXZ 10007b2c f i lassd:async.obj
+ 0001:00006b84       ?find@?$hash@V?$hash_map_traits@PAXV?$smart_ptr@VContext@LASS@@@ce@@U?$hash_traits@PAX@2@Vallocator@2@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@PAXV?$smart_ptr@VContext@LASS@@@ce@@@std@@@list_impl@3@ABQAX@Z 10007b84 f i lassd:async.obj
+ 0001:00006bfc       ??4?$auto_xxx@PAVRequest@VerifyUser@LASS@@P6AXPAV123@@Z$1??$_delete@VRequest@VerifyUser@LASS@@@ce@@YAX0@Z$0A@V?$_ref_counting_t@V?$singleton_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@@4@@ce@@QAAAAV01@ABQAVRequest@VerifyUser@LASS@@@Z 10007bfc f i lassd:async.obj
+ 0001:00006c3c       ?GetIteratorFromAppHandle@@YA?AV?$iterator@U?$pair@PAXV?$smart_ptr@VContext@LASS@@@ce@@@std@@@list_impl@ce@@KPAUPSL_HANDLE__@3@PAPAV?$hash_map@PAXV?$smart_ptr@VContext@LASS@@@ce@@U?$hash_traits@PAX@2@Vallocator@2@@3@@Z 10007c3c f   lassd:async.obj
+ 0001:00006ca8       ?LASSGetResultImpl@@YAHKPAUPSL_HANDLE__@ce@@@Z 10007ca8 f   lassd:async.obj
+ 0001:00006d90       ??$insert@V?$smart_ptr@VRequest@VerifyUser@LASS@@@ce@@@?$list@V?$smart_ptr@VRequest@VerifyUser@LASS@@@ce@@Vallocator@2@@ce@@QAA?AV?$iterator@V?$smart_ptr@VRequest@VerifyUser@LASS@@@ce@@@list_impl@1@V231@ABV?$smart_ptr@VRequest@VerifyUser@LASS@@@1@@Z 10007d90 f i lassd:async.obj
+ 0001:00006de0       ?Add@RequestManager@VerifyUser@LASS@@QAAKV?$smart_ptr@VRequest@VerifyUser@LASS@@@ce@@@Z 10007de0 f i lassd:async.obj
+ 0001:00006eb0       ??0?$auto_xxx@PAVContext@LASS@@P6AXPAV12@@Z$1??$_delete@VContext@LASS@@@ce@@YAX0@Z$0A@V?$_ref_counting_t@V?$singleton_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@@3@@ce@@QAA@PAVContext@LASS@@@Z 10007eb0 f i lassd:async.obj
+ 0001:00006f10       ??$insert@U?$pair@PAXV?$smart_ptr@VContext@LASS@@@ce@@@std@@@?$list@U?$pair@PAXV?$smart_ptr@VContext@LASS@@@ce@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@PAXV?$smart_ptr@VContext@LASS@@@ce@@@std@@@list_impl@1@V231@ABU?$pair@PAXV?$smart_ptr@VContext@LASS@@@ce@@@std@@@Z 10007f10 f i lassd:async.obj
+ 0001:00006f68       ?erase@?$hash@V?$hash_map_traits@PAXV?$smart_ptr@VContext@LASS@@@ce@@U?$hash_traits@PAX@2@Vallocator@2@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@PAXV?$smart_ptr@VContext@LASS@@@ce@@@std@@@list_impl@3@V453@@Z 10007f68 f i lassd:async.obj
+ 0001:00006fd4       ?insert@?$hash@V?$hash_map_traits@PAXV?$smart_ptr@VContext@LASS@@@ce@@U?$hash_traits@PAX@2@Vallocator@2@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@PAXV?$smart_ptr@VContext@LASS@@@ce@@@std@@@list_impl@3@ABU?$pair@PAXV?$smart_ptr@VContext@LASS@@@ce@@@std@@@Z 10007fd4 f i lassd:async.obj
+ 0001:00007090       ?LASSCloseImpl@@YAHKPAUPSL_HANDLE__@ce@@@Z 10008090 f   lassd:async.obj
+ 0001:000070e0       ?insert@?$hash_map@PAXV?$smart_ptr@VContext@LASS@@@ce@@U?$hash_traits@PAX@2@Vallocator@2@@ce@@QAA?AV?$iterator@U?$pair@PAXV?$smart_ptr@VContext@LASS@@@ce@@@std@@@list_impl@2@ABQAXABV?$smart_ptr@VContext@LASS@@@2@@Z 100080e0 f i lassd:async.obj
+ 0001:00007128       ?AddContextToMap@@YAHQAV?$hash_map@PAXV?$smart_ptr@VContext@LASS@@@ce@@U?$hash_traits@PAX@2@Vallocator@2@@ce@@AAV?$smart_ptr@VContext@LASS@@@2@QAX@Z 10008128 f   lassd:async.obj
+ 0001:0000717c       ?VerifyUserAsyncImpl@@YAHKPBU_GUID@@PBGPAUHWND__@@KKPAUPSL_HANDLE__@ce@@@Z 1000817c f   lassd:async.obj
+ 0001:0000756c       ?wUUIDFromString@@YAHPBGPAU_GUID@@@Z 1000856c f   lassd:ole_compat.obj
+ 0001:00007718       CLSIDFromStringPriv        10008718 f   lassd:ole_compat.obj
+ 0001:00007768       CeDriverDuplicateCallerHandle 10008768 f   ceddk:CEDDK.dll
+ 0001:00007778       EventModify                10008778 f   coredll:COREDLL.dll
+ 0001:00007788       __GetUserKData             10008788 f   coredll:COREDLL.dll
+ 0001:00007798       InitializeCriticalSection  10008798 f   coredll:COREDLL.dll
+ 0001:000077a8       DeleteCriticalSection      100087a8 f   coredll:COREDLL.dll
+ 0001:000077b8       EnterCriticalSection       100087b8 f   coredll:COREDLL.dll
+ 0001:000077c8       LeaveCriticalSection       100087c8 f   coredll:COREDLL.dll
+ 0001:000077d8       ReportFault                100087d8 f   coredll:COREDLL.dll
+ 0001:000077e8       SetLastError               100087e8 f   coredll:COREDLL.dll
+ 0001:000077f8       WaitForSingleObject        100087f8 f   coredll:COREDLL.dll
+ 0001:00007808       LocalFree                  10008808 f   coredll:COREDLL.dll
+ 0001:00007818       RegCloseKey                10008818 f   coredll:COREDLL.dll
+ 0001:00007828       CloseHandle                10008828 f   coredll:COREDLL.dll
+ 0001:00007838       FreeLibrary                10008838 f   coredll:COREDLL.dll
+ 0001:00007848       RegCreateKeyExW            10008848 f   coredll:COREDLL.dll
+ 0001:00007858       RegOpenKeyExW              10008858 f   coredll:COREDLL.dll
+ 0001:00007868       WaitForMultipleObjects     10008868 f   coredll:COREDLL.dll
+ 0001:00007878       GetLastError               10008878 f   coredll:COREDLL.dll
+ 0001:00007888       CreateEventW               10008888 f   coredll:COREDLL.dll
+ 0001:00007898       CreateFileW                10008898 f   coredll:COREDLL.dll
+ 0001:000078a8       Sleep                      100088a8 f   coredll:COREDLL.dll
+ 0001:000078b8       CreateThread               100088b8 f   coredll:COREDLL.dll
+ 0001:000078c8       InterlockedIncrement       100088c8 f   coredll:COREDLL.dll
+ 0001:000078d8       InterlockedDecrement       100088d8 f   coredll:COREDLL.dll
+ 0001:000078e8       RegEnumKeyExW              100088e8 f   coredll:COREDLL.dll
+ 0001:000078f8       LocalAlloc                 100088f8 f   coredll:COREDLL.dll
+ 0001:00007908       RegQueryValueExW           10008908 f   coredll:COREDLL.dll
+ 0001:00007918       RegSetValueExW             10008918 f   coredll:COREDLL.dll
+ 0001:00007928       RegFlushKey                10008928 f   coredll:COREDLL.dll
+ 0001:00007938       StringCchPrintfW           10008938 f   coredll:COREDLL.dll
+ 0001:00007948       PostQuitMessage            10008948 f   coredll:COREDLL.dll
+ 0001:00007958       DispatchMessageW           10008958 f   coredll:COREDLL.dll
+ 0001:00007968       PeekMessageW               10008968 f   coredll:COREDLL.dll
+ 0001:00007978       MsgWaitForMultipleObjectsEx 10008978 f   coredll:COREDLL.dll
+ 0001:00007988       SetSystemPowerState        10008988 f   coredll:COREDLL.dll
+ 0001:00007998       SecureWipeAllVolumes       10008998 f   coredll:COREDLL.dll
+ 0001:000079a8       GetProcAddressW            100089a8 f   coredll:COREDLL.dll
+ 0001:000079b8       LoadLibraryW               100089b8 f   coredll:COREDLL.dll
+ 0001:000079c8       SystemTimeToFileTime       100089c8 f   coredll:COREDLL.dll
+ 0001:000079d8       GetSystemTime              100089d8 f   coredll:COREDLL.dll
+ 0001:000079e8       VerifyUser                 100089e8 f   coredll:COREDLL.dll
+ 0001:000079f8       GetCallerProcess           100089f8 f   coredll:COREDLL.dll
+ 0001:00007b00       _DllMainCRTStartup         10008b00 f   corelib0:pegdmain.obj
+ 0001:00007b34       _onexit                    10008b34 f   corelib0:onexit.obj
+ 0001:00007cb8       atexit                     10008cb8 f   corelib0:onexit.obj
+ 0001:00007cd0       __GSHandlerCheckCommon     10008cd0 f   corelib0:gshandler.obj
+ 0001:00007d0c       __GSHandlerCheck           10008d0c f   corelib0:gshandler.obj
+ 0001:00007d2c       __security_init_cookie     10008d2c f   corelib0:seccinit.obj
+ 0001:00007d78       __security_check_cookie    10008d78 f   corelib0:armsecgs.obj
+ 0001:00007d88       __gsfailure                10008d88     corelib0:armsecgs.obj
+ 0001:00007eb4       _cexit                     10008eb4 f   corelib0:cexit.obj
+ 0001:00007ec4       _initterm                  10008ec4 f   corelib0:crt0dat.obj
+ 0001:00007ef0       _cinit                     10008ef0 f   corelib0:crt0dat.obj
+ 0001:00007f50       __crt_ExitProcess          10008f50 f   corelib0:exitproc_proxy.obj
+ 0001:00007f5c       ??2@YAPAXI@Z               10008f5c f   corelib1:COREDLL.dll
+ 0001:00007f6c       ??3@YAXPAX@Z               10008f6c f   corelib1:COREDLL.dll
+ 0001:00007f7c       _purecall                  10008f7c f   corelib1:COREDLL.dll
+ 0001:00007f8c       memcpy                     10008f8c f   corelib1:COREDLL.dll
+ 0001:00007f9c       __C_specific_handler       10008f9c f   corelib1:COREDLL.dll
+ 0001:00007fac       memmove                    10008fac f   corelib1:COREDLL.dll
+ 0001:00007fbc       ??_U@YAPAXI@Z              10008fbc f   corelib1:COREDLL.dll
+ 0001:00007fcc       memcmp                     10008fcc f   corelib1:COREDLL.dll
+ 0001:00007fdc       _XcptFilter                10008fdc f   corelib1:COREDLL.dll
+ 0001:00007fec       free                       10008fec f   corelib1:COREDLL.dll
+ 0001:00007ffc       malloc                     10008ffc f   corelib1:COREDLL.dll
+ 0001:0000800c       realloc                    1000900c f   corelib1:COREDLL.dll
+ 0001:0000801c       _msize                     1000901c f   corelib1:COREDLL.dll
+ 0001:0000802c       __security_gen_cookie2     1000902c f   corelib1:COREDLL.dll
+ 0001:0000803c       __report_gsfailure         1000903c f   corelib1:COREDLL.dll
+ 0001:0000804c       InterlockedCompareExchange 1000904c f   coredll:COREDLL.dll
+ 0001:0000805c       InterlockedExchange        1000905c f   coredll:COREDLL.dll
+ 0001:0000806c       TerminateProcess           1000906c f   coredll:COREDLL.dll
+ 0001:000081ac       ??__Fcs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@YAXXZ 100091ac f i lassd:service_entry.obj
+ 0001:000081b8       ??__Fcs@?1??get_lock@?$singleton@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@V?$static_allocator@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@@3@@ce@@KAAAVcritical_section@2@XZ@YAXXZ 100091b8 f i lassd:service_entry.obj
+ 0001:00008214       ??__Fpsl_tls_lifetime@?1???0?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@QAA@PAXK@Z@YAXXZ 10009214 f i lassd:service_entry.obj
+ 0001:00008434       __IMPORT_DESCRIPTOR_CEDDK  10009434     ceddk:CEDDK.dll
+ 0001:00008448       __IMPORT_DESCRIPTOR_COREDLL 10009448     coredll:COREDLL.dll
+ 0001:0000845c       __NULL_IMPORT_DESCRIPTOR   1000945c     ceddk:CEDDK.dll
+ 0002:00000000       __imp_CeDriverDuplicateCallerHandle 1000a000     ceddk:CEDDK.dll
+ 0002:00000004       \177CEDDK_NULL_THUNK_DATA  1000a004     ceddk:CEDDK.dll
+ 0002:00000008       __imp_EventModify          1000a008     coredll:COREDLL.dll
+ 0002:0000000c       __imp___GetUserKData       1000a00c     coredll:COREDLL.dll
+ 0002:00000010       __imp_InitializeCriticalSection 1000a010     coredll:COREDLL.dll
+ 0002:00000014       __imp_DeleteCriticalSection 1000a014     coredll:COREDLL.dll
+ 0002:00000018       __imp_EnterCriticalSection 1000a018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_LeaveCriticalSection 1000a01c     coredll:COREDLL.dll
+ 0002:00000020       __imp_ReportFault          1000a020     coredll:COREDLL.dll
+ 0002:00000024       __imp_SetLastError         1000a024     coredll:COREDLL.dll
+ 0002:00000028       __imp_WaitForSingleObject  1000a028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_LocalFree            1000a02c     coredll:COREDLL.dll
+ 0002:00000030       __imp_RegCloseKey          1000a030     coredll:COREDLL.dll
+ 0002:00000034       __imp_CloseHandle          1000a034     coredll:COREDLL.dll
+ 0002:00000038       __imp_FreeLibrary          1000a038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_RegCreateKeyExW      1000a03c     coredll:COREDLL.dll
+ 0002:00000040       __imp_RegOpenKeyExW        1000a040     coredll:COREDLL.dll
+ 0002:00000044       __imp_WaitForMultipleObjects 1000a044     coredll:COREDLL.dll
+ 0002:00000048       __imp_GetLastError         1000a048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_CreateEventW         1000a04c     coredll:COREDLL.dll
+ 0002:00000050       __imp_CreateFileW          1000a050     coredll:COREDLL.dll
+ 0002:00000054       __imp_Sleep                1000a054     coredll:COREDLL.dll
+ 0002:00000058       __imp_CreateThread         1000a058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_InterlockedIncrement 1000a05c     coredll:COREDLL.dll
+ 0002:00000060       __imp_InterlockedDecrement 1000a060     coredll:COREDLL.dll
+ 0002:00000064       __imp_RegEnumKeyExW        1000a064     coredll:COREDLL.dll
+ 0002:00000068       __imp_LocalAlloc           1000a068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_RegQueryValueExW     1000a06c     coredll:COREDLL.dll
+ 0002:00000070       __imp_RegSetValueExW       1000a070     coredll:COREDLL.dll
+ 0002:00000074       __imp_RegFlushKey          1000a074     coredll:COREDLL.dll
+ 0002:00000078       __imp_StringCchPrintfW     1000a078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_PostQuitMessage      1000a07c     coredll:COREDLL.dll
+ 0002:00000080       __imp_DispatchMessageW     1000a080     coredll:COREDLL.dll
+ 0002:00000084       __imp_PeekMessageW         1000a084     coredll:COREDLL.dll
+ 0002:00000088       __imp_MsgWaitForMultipleObjectsEx 1000a088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_SetSystemPowerState  1000a08c     coredll:COREDLL.dll
+ 0002:00000090       __imp_SecureWipeAllVolumes 1000a090     coredll:COREDLL.dll
+ 0002:00000094       __imp_GetProcAddressW      1000a094     coredll:COREDLL.dll
+ 0002:00000098       __imp_LoadLibraryW         1000a098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_SystemTimeToFileTime 1000a09c     coredll:COREDLL.dll
+ 0002:000000a0       __imp_GetSystemTime        1000a0a0     coredll:COREDLL.dll
+ 0002:000000a4       __imp_VerifyUser           1000a0a4     coredll:COREDLL.dll
+ 0002:000000a8       __imp_GetCallerProcess     1000a0a8     coredll:COREDLL.dll
+ 0002:000000ac       __imp_??2@YAPAXI@Z         1000a0ac     corelib1:COREDLL.dll
+ 0002:000000b0       __imp_??3@YAXPAX@Z         1000a0b0     corelib1:COREDLL.dll
+ 0002:000000b4       __imp__purecall            1000a0b4     corelib1:COREDLL.dll
+ 0002:000000b8       __imp_memcpy               1000a0b8     corelib1:COREDLL.dll
+ 0002:000000bc       __imp___C_specific_handler 1000a0bc     corelib1:COREDLL.dll
+ 0002:000000c0       __imp_memmove              1000a0c0     corelib1:COREDLL.dll
+ 0002:000000c4       __imp_??_U@YAPAXI@Z        1000a0c4     corelib1:COREDLL.dll
+ 0002:000000c8       __imp_memcmp               1000a0c8     corelib1:COREDLL.dll
+ 0002:000000cc       __imp___rt_udiv            1000a0cc     corelib1:COREDLL.dll
+ 0002:000000d0       __imp__XcptFilter          1000a0d0     corelib1:COREDLL.dll
+ 0002:000000d4       __imp_free                 1000a0d4     corelib1:COREDLL.dll
+ 0002:000000d8       __imp_malloc               1000a0d8     corelib1:COREDLL.dll
+ 0002:000000dc       __imp_realloc              1000a0dc     corelib1:COREDLL.dll
+ 0002:000000e0       __imp__msize               1000a0e0     corelib1:COREDLL.dll
+ 0002:000000e4       __imp___security_gen_cookie2 1000a0e4     corelib1:COREDLL.dll
+ 0002:000000e8       __imp___report_gsfailure   1000a0e8     corelib1:COREDLL.dll
+ 0002:000000ec       __imp_InterlockedCompareExchange 1000a0ec     coredll:COREDLL.dll
+ 0002:000000f0       __imp_InterlockedExchange  1000a0f0     coredll:COREDLL.dll
+ 0002:000000f4       __imp_TerminateProcess     1000a0f4     coredll:COREDLL.dll
+ 0002:000000f8       \177COREDLL_NULL_THUNK_DATA 1000a0f8     coredll:COREDLL.dll
+ 0002:00000100       dpCurSettings              1000a100     lassd:service_entry.obj
+ 0002:00000544       ?v_VerifyUserSequenceThread@@3VSequenceThread@VerifyUser@LASS@@A 1000a544     lassd:service_entry.obj
+ 0002:0000055c       ?v_Policies@@3V?$list@V?$auto_ptr@VIPolicy@Policy@LASS@@@ce@@Vallocator@2@@ce@@A 1000a55c     lassd:verify.obj
+ 0002:0000056c       __security_cookie          1000a56c     corelib0:seccinit.obj
+ 0002:00000570       __security_cookie_complement 1000a570     corelib0:seccinit.obj
+ 0002:00000580       ?m_isCancelled@Sequence@VerifyUser@LASS@@0_NA 1000a580     lassd:service_entry.obj
+ 0002:00000581       ?m_isInSequence@Sequence@VerifyUser@LASS@@0_NA 1000a581     lassd:service_entry.obj
+ 0002:00000588       ?ullGlobalLastAuthTime@cAE@LASS@@0_KA 1000a588     lassd:service_entry.obj
+ 0002:00000590       ?memory@?1??allocate@?$static_allocator@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@@ce@@SAPAXI@Z@4PADA 1000a590     lassd:service_entry.obj
+ 0002:000005d0       ?memory@?1??allocate@?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@SAPAXI@Z@4PADA 1000a5d0     lassd:service_entry.obj
+ 0002:0000077c       ??_B?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@51 1000a77c     lassd:service_entry.obj
+ 0002:00000780       ?cs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@3@XZ@4V43@A 1000a780     lassd:service_entry.obj
+ 0002:00000794       ??_B?1??get_lock@?$singleton@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@V?$static_allocator@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@@3@@ce@@KAAAVcritical_section@2@XZ@51 1000a794     lassd:service_entry.obj
+ 0002:00000798       ?cs@?1??get_lock@?$singleton@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@V?$static_allocator@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@@3@@ce@@KAAAVcritical_section@3@XZ@4V43@A 1000a798     lassd:service_entry.obj
+ 0002:000007ac       ?pInstance@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1RAV?$free_list@$0GE@Vallocator@ce@@@2@A 1000a7ac     lassd:service_entry.obj
+ 0002:000007b0       ?lRefCount@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1JA 1000a7b0     lassd:service_entry.obj
+ 0002:000007b4       ?pInstance@?$singleton@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@V?$static_allocator@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@@3@@ce@@1RAV?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@2@A 1000a7b4     lassd:service_entry.obj
+ 0002:000007b8       ?lRefCount@?$singleton@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@V?$static_allocator@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@@3@@ce@@1JA 1000a7b8     lassd:service_entry.obj
+ 0002:000007bc       ??_B?1???0?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@QAA@PAXK@Z@51 1000a7bc     lassd:service_entry.obj
+ 0002:000007c0       ?v_ApplicationContexts@@3V?$list@V?$smart_ptr@V?$hash_map@PAXV?$smart_ptr@VContext@LASS@@@ce@@U?$hash_traits@PAX@2@Vallocator@2@@ce@@@ce@@Vallocator@2@@ce@@A 1000a7c0     lassd:service_entry.obj
+ 0002:000007d0       ?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A 1000a7d0     lassd:service_entry.obj
+ 0002:000007d4       ?g_Lock@@3Vcritical_section@ce@@A 1000a7d4     lassd:service_entry.obj
+ 0002:000007e8       ?g_AuthFailures@LASS@@3VPersistantAuthFailures@1@A 1000a7e8     lassd:service_entry.obj
+ 0002:000007fc       ?g_AEList@LASS@@3V?$hash_map@U_GUID@@V?$smart_ptr@VcAE@LASS@@@ce@@UGUIDHash@LASS@@Vallocator@3@@ce@@A 1000a7fc     lassd:service_entry.obj
+ 0002:0000081c       ?v_RequestManager@VerifyUser@LASS@@3VRequestManager@12@A 1000a81c     lassd:service_entry.obj
+ 0002:00000830       ?_factory@?$singleton@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@V?$static_allocator@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@@3@@ce@@1Ulock_factory@12@A 1000a830     lassd:service_entry.obj
+ 0002:00000834       ?v_ActiveLap@@3V?$auto_ptr@VLAP@LASS@@@ce@@A 1000a834     lassd:service_entry.obj
+ 0002:00000838       ?v_DeviceWipeThreshold@@3KA 1000a838     lassd:verify.obj
+ 0002:0000083c       ?m_isReloadNeeded@RefCountLAP@@0_NA 1000a83c     lassd:verify.obj
+ 0002:00000840       ?m_cLAPEntries@RefCountLAP@@0KA 1000a840     lassd:verify.obj
+ 0002:00000848       ?lastTimeRead@?1??getTimeAndResetTimeBasedAEsIfNeeded@cAE@LASS@@CA_KXZ@4_KA 1000a848     lassd:verify.obj
+ 0002:00000850       _exitflag                  1000a850     corelib0:cexit.obj
+ 0002:00000854       __onexitend                1000a854     <common>
+ 0002:00000858       __onexitbegin              1000a858     <common>
+ 0002:0000085c       g_pcsExit                  1000a85c     <common>
+ 0002:00000860       _pRawDllMain               1000a860     <common>
+
+ entry point at        0001:00007b00
+
+ Static symbols
+
+ 0001:000074a8       ?HexStringToDword@@YAHAAPBGAAKHG@Z 100084a8 f   lassd:ole_compat.obj
+ 0001:00007a10       _DllMainCRTStartupHelper   10008a10 f   corelib0:pegdmain.obj
+ 0001:00007dcc       doexit                     10008dcc f   corelib0:cexit.obj
+ 0001:0000807c       ??__E?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A@@YAXXZ 1000907c f   lassd:service_entry.obj
+ 0001:00008080       ??__Eg_Lock@@YAXXZ         10009080 f   lassd:service_entry.obj
+ 0001:000080a0       ??__Ev_ActiveLap@@YAXXZ    100090a0 f   lassd:service_entry.obj
+ 0001:000080ac       ??__Eg_AuthFailures@LASS@@YAXXZ 100090ac f   lassd:service_entry.obj
+ 0001:000080cc       ??__Eg_AEList@LASS@@YAXXZ  100090cc f   lassd:service_entry.obj
+ 0001:00008120       ??__Ev_RequestManager@VerifyUser@LASS@@YAXXZ 10009120 f   lassd:service_entry.obj
+ 0001:00008140       ??__Ev_VerifyUserSequenceThread@@YAXXZ 10009140 f   lassd:service_entry.obj
+ 0001:00008164       ??__Ev_ApplicationContexts@@YAXXZ 10009164 f   lassd:service_entry.obj
+ 0001:00008190       ??__E?_factory@?$singleton@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@V?$static_allocator@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@@3@@ce@@1Ulock_factory@12@A@@YAXXZ 10009190 f   lassd:service_entry.obj
+ 0001:00008194       ??__Ev_Policies@@YAXXZ     10009194 f   lassd:verify.obj
+ 0001:000081a0       ??__Fg_Lock@@YAXXZ         100091a0 f   lassd:service_entry.obj
+ 0001:000081c4       ??__Fg_AuthFailures@LASS@@YAXXZ 100091c4 f   lassd:service_entry.obj
+ 0001:000081ec       ??__Fv_VerifyUserSequenceThread@@YAXXZ 100091ec f   lassd:service_entry.obj
+ 0001:000081f8       ??__Fv_ActiveLap@@YAXXZ    100091f8 f   lassd:service_entry.obj
+ 0001:00008218       ??__Fg_AEList@LASS@@YAXXZ  10009218 f   lassd:service_entry.obj
+ 0001:00008224       ??__Fv_RequestManager@VerifyUser@LASS@@YAXXZ 10009224 f   lassd:service_entry.obj
+ 0001:0000825c       ??__Fv_ApplicationContexts@@YAXXZ 1000925c f   lassd:service_entry.obj
+ 0001:00008284       ??__Fv_Policies@@YAXXZ     10009284 f   lassd:verify.obj

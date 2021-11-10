@@ -1,0 +1,1358 @@
+ synchronization
+
+ Timestamp is 5ac65a38 (Thu Apr 05 10:17:44 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 00003dd2H .rdata                  CODE
+ 0001:00003df4 0000002cH .rdata$debug            CODE
+ 0001:00003e20 0002c1e4H .text                   CODE
+ 0001:00030004 00000040H .xdata                  CODE
+ 0001:00030044 0000003cH .idata$2                CODE
+ 0001:00030080 00000014H .idata$3                CODE
+ 0001:00030094 000000c4H .idata$4                CODE
+ 0001:00030158 00000068H .idata$6                CODE
+ 0001:000301c0 000000c9H .edata                  CODE
+ 0002:00000000 000000c4H .idata$5                DATA
+ 0002:000000c4 00000008H .data                   DATA
+ 0002:000000cc 0000002cH .bss                    DATA
+ 0003:00000000 00001a80H .pdata                  DATA
+ 0004:00000000 00000010H .rsrc$01                DATA
+ 0004:00000010 00000000H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:0000003c       ??_7CHarmonicaClassFactory@@6B@ 1000103c     clsfact.obj
+ 0001:00000050       ??_C@_19OBNAGCDI@?$AAB?$AAo?$AAt?$AAh?$AA?$AA@ 10001050     dll.obj
+ 0001:0000005c       ??_C@_1BO@NMEHGCBD@?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AAi?$AAn?$AAg?$AAM?$AAo?$AAd?$AAe?$AAl?$AA?$AA@ 1000105c     dll.obj
+ 0001:0000007c       ??_C@_1BO@MNKPAJEP@?$AAI?$AAn?$AAp?$AAr?$AAo?$AAc?$AAS?$AAe?$AAr?$AAv?$AAe?$AAr?$AA3?$AA2?$AA?$AA@ 1000107c     dll.obj
+ 0001:0000009c       ??_C@_1BC@MCAABAB@?$AAC?$AAL?$AAS?$AAI?$AAD?$AA?2?$AA?$CF?$AAs?$AA?$AA@ 1000109c     dll.obj
+ 0001:000000b0       ??_C@_1BM@CMJENDAA@?$AAS?$AAy?$AAn?$AAc?$AA?5?$AAS?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe?$AAs?$AA?$AA@ 100010b0     dll.obj
+ 0001:000000cc       IID_ISyncChangeUnit        100010cc     synchronization:synchronization_i.obj
+ 0001:000000dc       IID_IEnumSyncChangeUnits   100010dc     synchronization:synchronization_i.obj
+ 0001:000000ec       IID_ISyncChange            100010ec     synchronization:synchronization_i.obj
+ 0001:000000fc       IID_IEnumSyncChanges       100010fc     synchronization:synchronization_i.obj
+ 0001:0000010c       IID_ISyncChangeBuilder     1000110c     synchronization:synchronization_i.obj
+ 0001:0000011c       IID_ISyncChangeBatchBase   1000111c     synchronization:synchronization_i.obj
+ 0001:0000012c       IID_ISyncChangeBatch       1000112c     synchronization:synchronization_i.obj
+ 0001:0000013c       IID_ISyncFullEnumerationChangeBatch 1000113c     synchronization:synchronization_i.obj
+ 0001:0000014c       IID_IChangeConflict        1000114c     synchronization:synchronization_i.obj
+ 0001:0000015c       IID_ISaveChangeContext     1000115c     synchronization:synchronization_i.obj
+ 0001:0000016c       IID_ISaveChangeWithChangeUnitsContext 1000116c     synchronization:synchronization_i.obj
+ 0001:0000017c       IID_ILoadChangeContext     1000117c     synchronization:synchronization_i.obj
+ 0001:0000018c       IID_IRecoverableError      1000118c     synchronization:synchronization_i.obj
+ 0001:0000019c       IID_IRecoverableErrorData  1000119c     synchronization:synchronization_i.obj
+ 0001:000001ac       IID_IReplicaKeyMap         100011ac     synchronization:synchronization_i.obj
+ 0001:000001bc       IID_ISyncKnowledge         100011bc     synchronization:synchronization_i.obj
+ 0001:000001cc       IID_IForgottenKnowledge    100011cc     synchronization:synchronization_i.obj
+ 0001:000001dc       IID_IClockVectorElement    100011dc     synchronization:synchronization_i.obj
+ 0001:000001ec       IID_IFeedClockVectorElement 100011ec     synchronization:synchronization_i.obj
+ 0001:000001fc       IID_IClockVector           100011fc     synchronization:synchronization_i.obj
+ 0001:0000020c       IID_IFeedClockVector       1000120c     synchronization:synchronization_i.obj
+ 0001:0000021c       IID_IEnumClockVector       1000121c     synchronization:synchronization_i.obj
+ 0001:0000022c       IID_IEnumFeedClockVector   1000122c     synchronization:synchronization_i.obj
+ 0001:0000023c       IID_IRangeException        1000123c     synchronization:synchronization_i.obj
+ 0001:0000024c       IID_IEnumRangeExceptions   1000124c     synchronization:synchronization_i.obj
+ 0001:0000025c       IID_ISingleItemException   1000125c     synchronization:synchronization_i.obj
+ 0001:0000026c       IID_IEnumSingleItemExceptions 1000126c     synchronization:synchronization_i.obj
+ 0001:0000027c       IID_IChangeUnitException   1000127c     synchronization:synchronization_i.obj
+ 0001:0000028c       IID_IEnumChangeUnitExceptions 1000128c     synchronization:synchronization_i.obj
+ 0001:0000029c       IID_IKnowledgeBuilder      1000129c     synchronization:synchronization_i.obj
+ 0001:000002ac       IID_IAsynchronousNotifyingChangeApplierTargetCallback 100012ac     synchronization:synchronization_i.obj
+ 0001:000002bc       IID_IKnowledgeSyncProvider 100012bc     synchronization:synchronization_i.obj
+ 0001:000002cc       IID_IAsynchronousDataRetriever 100012cc     synchronization:synchronization_i.obj
+ 0001:000002dc       IID_IDataRetrieverCallback 100012dc     synchronization:synchronization_i.obj
+ 0001:000002ec       IID_ISynchronousNotifyingChangeApplierTarget 100012ec     synchronization:synchronization_i.obj
+ 0001:000002fc       IID_IAsynchronousNotifyingChangeApplierTarget 100012fc     synchronization:synchronization_i.obj
+ 0001:0000030c       IID_ISyncCallback          1000130c     synchronization:synchronization_i.obj
+ 0001:0000031c       IID_ISyncFilterInfo        1000131c     synchronization:synchronization_i.obj
+ 0001:0000032c       IID_ISyncSession           1000132c     synchronization:synchronization_i.obj
+ 0001:0000033c       IID_ISyncSessionState      1000133c     synchronization:synchronization_i.obj
+ 0001:0000034c       IID_ISynchronousNotifyingChangeApplier 1000134c     synchronization:synchronization_i.obj
+ 0001:0000035c       IID_IAsynchronousNotifyingChangeApplier 1000135c     synchronization:synchronization_i.obj
+ 0001:0000036c       IID_IApplicationSyncServices 1000136c     synchronization:synchronization_i.obj
+ 0001:0000037c       IID_IProviderSyncServices  1000137c     synchronization:synchronization_i.obj
+ 0001:0000038c       IID_IProviderFilteredSyncServices 1000138c     synchronization:synchronization_i.obj
+ 0001:0000039c       IID_IClockVectorServices   1000139c     synchronization:synchronization_i.obj
+ 0001:000003ac       IID_IDestinationChangeVersionsBuilder 100013ac     synchronization:synchronization_i.obj
+ 0001:000003bc       CLSID_SyncServices         100013bc     synchronization:synchronization_i.obj
+ 0001:00000518       ??_7IHarmonicaKnowledgeInternal@@6B@ 10001518     engine:SyncServices.obj
+ 0001:00000528       _GUID_2209f4fc_fd10_4ff0_84a8_f0a1982e440e 10001528     engine:SyncServices.obj
+ 0001:00000538       _GUID_70c64dee_380f_4c2e_8f70_31c55bd5f9b3 10001538     engine:SyncServices.obj
+ 0001:00000548       ??_C@_1HI@DHINJCLA@?$AAL?$AAe?$AAa?$AAv?$AAi?$AAn?$AAg?$AA?5?$AAC?$AAS?$AAy?$AAn?$AAc?$AAS?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe?$AAs?$AA?3?$AA?3?$AAD?$AAe?$AAs?$AAe?$AAr?$AAi?$AAa?$AAl?$AAi@ 10001548     engine:SyncServices.obj
+ 0001:000005c0       _GUID_615bbb53_c945_4203_bf4b_2cb65919a0aa 100015c0     engine:SyncServices.obj
+ 0001:000005d0       ??_C@_1GC@JCEHFEEN@?$AAE?$AAn?$AAt?$AAe?$AAr?$AAi?$AAn?$AAg?$AA?5?$AAC?$AAS?$AAy?$AAn?$AAc?$AAS?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe?$AAs?$AA?3?$AA?3?$AAD?$AAe?$AAs?$AAe?$AAr?$AAi?$AAa?$AAl@ 100015d0     engine:SyncServices.obj
+ 0001:00000638       ??_C@_1HI@MONIFEMH@?$AAL?$AAe?$AAa?$AAv?$AAi?$AAn?$AAg?$AA?5?$AAC?$AAS?$AAy?$AAn?$AAc?$AAS?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe?$AAs?$AA?3?$AA?3?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AAF?$AAo?$AAr@ 10001638     engine:SyncServices.obj
+ 0001:000006b0       _GUID_456e0f96_6036_452b_9f9d_bcc4b4a85db2 100016b0     engine:SyncServices.obj
+ 0001:000006c0       ??_C@_1GC@MEPNAPCC@?$AAE?$AAn?$AAt?$AAe?$AAr?$AAi?$AAn?$AAg?$AA?5?$AAC?$AAS?$AAy?$AAn?$AAc?$AAS?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe?$AAs?$AA?3?$AA?3?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AAF?$AAo@ 100016c0     engine:SyncServices.obj
+ 0001:00000728       ??_C@_1IC@POOAAEEE@?$AAL?$AAe?$AAa?$AAv?$AAi?$AAn?$AAg?$AA?5?$AAC?$AAS?$AAy?$AAn?$AAc?$AAS?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe?$AAs?$AA?3?$AA?3?$AAD?$AAe?$AAs?$AAe?$AAr?$AAi?$AAa?$AAl?$AAi@ 10001728     engine:SyncServices.obj
+ 0001:000007b0       ??_C@_1GM@FPDEIJKF@?$AAE?$AAn?$AAt?$AAe?$AAr?$AAi?$AAn?$AAg?$AA?5?$AAC?$AAS?$AAy?$AAn?$AAc?$AAS?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe?$AAs?$AA?3?$AA?3?$AAD?$AAe?$AAs?$AAe?$AAr?$AAi?$AAa?$AAl@ 100017b0     engine:SyncServices.obj
+ 0001:0000081c       _GUID_ef64197d_4f44_4ea2_b355_4524713e3bed 1000181c     engine:SyncServices.obj
+ 0001:00000830       ??_7Knowledge@@6BIForgottenKnowledge@@@ 10001830     engine:SyncServices.obj
+ 0001:000008a0       ??_7Knowledge@@6BIHarmonicaKnowledgeInternal@@@ 100018a0     engine:SyncServices.obj
+ 0001:000008b0       ??_7CSyncServices@@6BIApplicationSyncServices@@@ 100018b0     engine:SyncServices.obj
+ 0001:000008c0       ??_7CSyncServices@@6BIProviderFilteredSyncServices@@@ 100018c0     engine:SyncServices.obj
+ 0001:00000914       ??_7CSyncServices@@6BIClockVectorServices@@@ 10001914     engine:SyncServices.obj
+ 0001:00000934       ??_7CSyncServices@@6BISupportErrorInfo@@@ 10001934     engine:SyncServices.obj
+ 0001:00000944       ??_7FilterInfo@@6B@        10001944     engine:SyncServices.obj
+ 0001:00000958       _GUID_1d87e672_84eb_4c46_afa3_ffee8ef6029a 10001958     engine:SyncServices.obj
+ 0001:00000968       _GUID_e1456ec0_914e_4f84_95b0_ce8576dfc515 10001968     engine:SyncServices.obj
+ 0001:00000978       ??_7ReplicaKeyMap@@6B@     10001978     engine:SyncServices.obj
+ 0001:000009a0       ??_C@_1DO@KKPJOGEM@?$AAL?$AAe?$AAa?$AAv?$AAi?$AAn?$AAg?$AA?5?$AAC?$AAS?$AAy?$AAn?$AAc?$AAS?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe?$AAs?$AA?3?$AA?3?$AAR?$AAe?$AAl?$AAe?$AAa?$AAs?$AAe?$AA?$AA@ 100019a0     engine:SyncServices.obj
+ 0001:000009e0       ??_C@_1DM@BDANPNEH@?$AAD?$AAe?$AAl?$AAe?$AAt?$AAi?$AAn?$AAg?$AA?5?$AAC?$AAS?$AAy?$AAn?$AAc?$AAS?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe?$AAs?$AA?5?$AAo?$AAb?$AAj?$AAe?$AAc?$AAt?$AA?$AA@ 100019e0     engine:SyncServices.obj
+ 0001:00000a20       ??_C@_1EA@EHHCMNDF@?$AAE?$AAn?$AAt?$AAe?$AAr?$AAi?$AAn?$AAg?$AA?5?$AAC?$AAS?$AAy?$AAn?$AAc?$AAS?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe?$AAs?$AA?3?$AA?3?$AAR?$AAe?$AAl?$AAe?$AAa?$AAs?$AAe?$AA?$AA@ 10001a20     engine:SyncServices.obj
+ 0001:00000ba8       ??_7INotifyingChangeApplierPrivate@@6B@ 10001ba8     engine:ChangeApplier.obj
+ 0001:00000bbc       _GUID_138fd7c7_24d1_422c_83f9_c2ccc5f99bdd 10001bbc     engine:ChangeApplier.obj
+ 0001:00000bcc       ??_C@_1CO@OFGJBGAD@?$AAC?$AAC?$AAh?$AAa?$AAn?$AAg?$AAe?$AAA?$AAp?$AAp?$AAl?$AAi?$AAe?$AAr?$AA?3?$AA?3?$AAA?$AAd?$AAd?$AAR?$AAe?$AAf?$AA?$AA@ 10001bcc     engine:ChangeApplier.obj
+ 0001:00000bfc       ??_7CChangeApplier@@6BISynchronousNotifyingChangeApplier@@@ 10001bfc     engine:ChangeApplier.obj
+ 0001:00000c18       ??_7CChangeApplier@@6BIAsynchronousNotifyingChangeApplier@@@ 10001c18     engine:ChangeApplier.obj
+ 0001:00000c34       ??_7CChangeApplier@@6BIAsynchronousNotifyingChangeApplierTargetCallback@@@ 10001c34     engine:ChangeApplier.obj
+ 0001:00000c54       ??_7CChangeApplier@@6BIDataRetrieverCallback@@@ 10001c54     engine:ChangeApplier.obj
+ 0001:00000c68       ??_7CChangeApplier@@6BIAsynchronousNotifyingChangeApplierTarget@@@ 10001c68     engine:ChangeApplier.obj
+ 0001:00000ca4       ??_7CChangeApplier@@6BIAsynchronousDataRetriever@@@ 10001ca4     engine:ChangeApplier.obj
+ 0001:00000cc0       ??_7CChangeApplier@@6BISupportErrorInfo@@@ 10001cc0     engine:ChangeApplier.obj
+ 0001:00000cd0       ??_7CChangeApplier@@6BINotifyingChangeApplierPrivate@@@ 10001cd0     engine:ChangeApplier.obj
+ 0001:00000ce8       ??_C@_1IK@DBLPAEKD@?$AAE?$AAn?$AAt?$AAe?$AAr?$AAi?$AAn?$AAg?$AA?5?$AAC?$AAC?$AAh?$AAa?$AAn?$AAg?$AAe?$AAA?$AAp?$AAp?$AAl?$AAi?$AAe?$AAr?$AA?3?$AA?3?$AAC?$AAh?$AAa?$AAn?$AAg?$AAe?$AAS@ 10001ce8     engine:ChangeApplier.obj
+ 0001:00000d74       _GUID_a261a2d1_38ca_4a5b_bde7_4567e436335a 10001d74     engine:ChangeApplier.obj
+ 0001:00000d84       _GUID_e03cead5_84c3_48bc_af11_c79ba4646592 10001d84     engine:ChangeApplier.obj
+ 0001:00000d94       _GUID_80cee8a5_eead_4026_97fb_20330300ab5e 10001d94     engine:ChangeApplier.obj
+ 0001:00000da8       ??_C@_1GK@MGFJDHCA@?$AAC?$AAh?$AAa?$AAn?$AAg?$AAe?$AA?5?$AAu?$AAn?$AAi?$AAt?$AA?5?$AAi?$AAs?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAc?$AAo?$AAn?$AAt?$AAa?$AAi?$AAn?$AAe?$AAd?$AA?5?$AAi?$AAn?$AA?5@ 10001da8     engine:ChangeApplier.obj
+ 0001:00000e18       ??_C@_1HA@BBJCAGEF@?$AAT?$AAo?$AAo?$AA?5?$AAf?$AAe?$AAw?$AA?5?$AAc?$AAh?$AAa?$AAn?$AAg?$AAe?$AA?5?$AAu?$AAn?$AAi?$AAt?$AA?5?$AAv?$AAe?$AAr?$AAs?$AAi?$AAo?$AAn?$AAs?$AA?5?$AAr?$AAe?$AAt@ 10001e18     engine:ChangeApplier.obj
+ 0001:00000e88       _GUID_1b28f13a_fa2d_4f25_a9e8_a570bafe5372 10001e88     engine:ChangeApplier.obj
+ 0001:00000e98       ??_C@_1GO@MJBJLGCF@?$AAU?$AAn?$AAe?$AAx?$AAp?$AAe?$AAc?$AAt?$AAe?$AAd?$AA?5?$AAc?$AAh?$AAa?$AAn?$AAg?$AAe?$AA?5?$AAu?$AAn?$AAi?$AAt?$AA?5?$AAi?$AAd?$AA?5?$AAe?$AAn?$AAc?$AAo?$AAu?$AAn@ 10001e98     engine:ChangeApplier.obj
+ 0001:00000f08       _GUID_014ebf97_9f20_4f7a_bdd4_25979c77c002 10001f08     engine:ChangeApplier.obj
+ 0001:00000f18       _GUID_d407bd40_dfe9_4a6b_9555_3615b7c8f373 10001f18     engine:ChangeApplier.obj
+ 0001:00000f28       _GUID_9fc7e470_61ea_4a88_9be4_df56a27cfef2 10001f28     engine:ChangeApplier.obj
+ 0001:00000f38       _GUID_9b22f2a9_a4cd_4648_9d8e_3a510d4da04b 10001f38     engine:ChangeApplier.obj
+ 0001:00000f48       _GUID_5f86be4a_5e78_4e32_ac1c_c24fd223ef85 10001f48     engine:ChangeApplier.obj
+ 0001:00000f58       ??_C@_1GA@JFOOGFBP@?$AAC?$AAh?$AAa?$AAn?$AAg?$AAe?$AA?5?$AAi?$AAs?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAc?$AAo?$AAn?$AAt?$AAa?$AAi?$AAn?$AAe?$AAd?$AA?5?$AAi?$AAn?$AA?5?$AAm?$AAa?$AAd?$AAe?$AA?5@ 10001f58     engine:ChangeApplier.obj
+ 0001:00000fb8       ??_C@_1FO@MOLMGPKO@?$AAN?$AAo?$AA?5?$AAm?$AAa?$AAd?$AAe?$AA?5?$AAw?$AAi?$AAt?$AAh?$AA?5?$AAk?$AAn?$AAo?$AAw?$AAl?$AAe?$AAd?$AAg?$AAe?$AA?5?$AAa?$AAs?$AAs?$AAo?$AAc?$AAi?$AAa?$AAt?$AAe@ 10001fb8     engine:ChangeApplier.obj
+ 0001:00001018       ??_C@_1GC@PIOBHPJB@?$AAT?$AAo?$AAo?$AA?5?$AAf?$AAe?$AAw?$AA?5?$AAi?$AAt?$AAe?$AAm?$AA?5?$AAv?$AAe?$AAr?$AAs?$AAi?$AAo?$AAn?$AAs?$AA?5?$AAr?$AAe?$AAt?$AAu?$AAr?$AAn?$AAe?$AAd?$AA?5?$AAf@ 10002018     engine:ChangeApplier.obj
+ 0001:0000107c       _GUID_7eccbb0f_f04d_47d7_80f1_0c1a72152ecc 1000207c     engine:ChangeApplier.obj
+ 0001:00001090       ??_C@_1IO@NFNGAPLB@?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?5?$AAe?$AAn?$AAu?$AAm?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?5?$AAd?$AAi?$AAd?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAr?$AAe?$AAt?$AAu@ 10002090     engine:ChangeApplier.obj
+ 0001:00001120       ??_C@_1EG@IFEIGFEH@?$AAS?$AAi?$AAg?$AAn?$AAa?$AAl?$AAl?$AAi?$AAn?$AAg?$AA?5?$AAc?$AAh?$AAa?$AAn?$AAg?$AAe?$AA?5?$AAa?$AAp?$AAp?$AAl?$AAi?$AAe?$AAr?$AA?5?$AAc?$AAo?$AAm?$AAp?$AAl?$AAe@ 10002120     engine:ChangeApplier.obj
+ 0001:00001168       ??_C@_1EI@IOFBLFNC@?$AAS?$AAe?$AAt?$AAt?$AAi?$AAn?$AAg?$AA?5?$AAg?$AAl?$AAo?$AAb?$AAa?$AAl?$AA?5?$AAe?$AAr?$AAr?$AAo?$AAr?$AA?5?$AAc?$AAo?$AAd?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AA0?$AAx?$AA?$CF@ 10002168     engine:ChangeApplier.obj
+ 0001:000011b0       ??_C@_1GI@MFKCFFPL@?$AAE?$AAn?$AAt?$AAe?$AAr?$AAi?$AAn?$AAg?$AA?5?$AAC?$AAC?$AAh?$AAa?$AAn?$AAg?$AAe?$AAA?$AAp?$AAp?$AAl?$AAi?$AAe?$AAr?$AA?3?$AA?3?$AAS?$AAe?$AAt?$AAE?$AAr?$AAr?$AAo@ 100021b0     engine:ChangeApplier.obj
+ 0001:00001218       ??_C@_1JO@CJDGIJFH@?$AAD?$AAe?$AAs?$AAt?$AAi?$AAn?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAf?$AAo?$AAr?$AAg?$AAo?$AAt?$AAt?$AAe?$AAn?$AA?5?$AAc?$AAh?$AAa?$AAn?$AAg?$AAe?$AA?5?$AAd?$AAe?$AAt@ 10002218     engine:ChangeApplier.obj
+ 0001:000012b8       ??_C@_1GA@OHLBJBOD@?$AAU?$AAn?$AAe?$AAx?$AAp?$AAe?$AAc?$AAt?$AAe?$AAd?$AA?5?$AAi?$AAt?$AAe?$AAm?$AA?5?$AAi?$AAd?$AA?5?$AAe?$AAn?$AAc?$AAo?$AAu?$AAn?$AAt?$AAe?$AAr?$AAe?$AAd?$AA?5?$AAf@ 100022b8     engine:ChangeApplier.obj
+ 0001:00001318       ??_C@_1GE@KDGHOCMD@?$AAT?$AAo?$AAo?$AA?5?$AAm?$AAa?$AAn?$AAy?$AA?5?$AAi?$AAt?$AAe?$AAm?$AA?5?$AAv?$AAe?$AAr?$AAs?$AAi?$AAo?$AAn?$AAs?$AA?5?$AAr?$AAe?$AAt?$AAu?$AAr?$AAn?$AAe?$AAd?$AA?5@ 10002318     engine:ChangeApplier.obj
+ 0001:00001380       ??_C@_1EA@DHJKAIBF@?$AAL?$AAe?$AAa?$AAv?$AAi?$AAn?$AAg?$AA?5?$AAC?$AAC?$AAh?$AAa?$AAn?$AAg?$AAe?$AAA?$AAp?$AAp?$AAl?$AAi?$AAe?$AAr?$AA?3?$AA?3?$AAR?$AAe?$AAl?$AAe?$AAa?$AAs?$AAe?$AA?$AA@ 10002380     engine:ChangeApplier.obj
+ 0001:000013c0       ??_C@_1DO@FDOEFIFE@?$AAD?$AAe?$AAl?$AAe?$AAt?$AAi?$AAn?$AAg?$AA?5?$AAC?$AAC?$AAh?$AAa?$AAn?$AAg?$AAe?$AAA?$AAp?$AAp?$AAl?$AAi?$AAe?$AAr?$AA?5?$AAo?$AAb?$AAj?$AAe?$AAc?$AAt?$AA?$AA@ 100023c0     engine:ChangeApplier.obj
+ 0001:00001400       ??_C@_1EC@GFNLNOGB@?$AAE?$AAn?$AAt?$AAe?$AAr?$AAi?$AAn?$AAg?$AA?5?$AAC?$AAC?$AAh?$AAa?$AAn?$AAg?$AAe?$AAA?$AAp?$AAp?$AAl?$AAi?$AAe?$AAr?$AA?3?$AA?3?$AAR?$AAe?$AAl?$AAe?$AAa?$AAs?$AAe@ 10002400     engine:ChangeApplier.obj
+ 0001:00001444       _GUID_a1952beb_0f6b_4711_b136_01da85b968a6 10002444     engine:ChangeApplier.obj
+ 0001:00001458       ??_C@_1EO@JFJNCBBP@?$AAR?$AAe?$AAl?$AAi?$AAn?$AAq?$AAu?$AAi?$AAs?$AAh?$AAi?$AAn?$AAg?$AA?5?$AAo?$AAw?$AAn?$AAe?$AAr?$AAs?$AAh?$AAi?$AAp?$AA?5?$AAo?$AAf?$AA?5?$AAw?$AAo?$AAr?$AAk?$AA?5@ 10002458     engine:ChangeApplier.obj
+ 0001:000014a8       ??_C@_1FI@JFBJNFDF@?$AAD?$AAe?$AAs?$AAt?$AAi?$AAn?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAh?$AAa?$AAs?$AA?5?$AAm?$AAo?$AAr?$AAe?$AA?5?$AAi?$AAt?$AAe?$AAm?$AAs?$AA?5?$AAt?$AAh?$AAa?$AAn?$AA?5@ 100024a8     engine:ChangeApplier.obj
+ 0001:00001500       ??_C@_1II@DOOEDDKM@?$AAE?$AAn?$AAt?$AAe?$AAr?$AAi?$AAn?$AAg?$AA?5?$AAC?$AAC?$AAh?$AAa?$AAn?$AAg?$AAe?$AAA?$AAp?$AAp?$AAl?$AAi?$AAe?$AAr?$AA?3?$AA?3?$AAA?$AAd?$AAd?$AAW?$AAo?$AAr?$AAk@ 10002500     engine:ChangeApplier.obj
+ 0001:00001588       ??_C@_1HG@MJPCFAKJ@?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?5?$AAe?$AAn?$AAu?$AAm?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?5?$AAd?$AAi?$AAd?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAr?$AAe?$AAt?$AAu@ 10002588     engine:ChangeApplier.obj
+ 0001:00001600       ??_C@_1JI@DDAPPFJO@?$AAD?$AAe?$AAs?$AAt?$AAi?$AAn?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAk?$AAn?$AAo?$AAw?$AAl?$AAe?$AAd?$AAg?$AAe?$AA?5?$AAi?$AAs?$AA?5?$AAl?$AAe?$AAs?$AAs?$AA?5?$AAt?$AAh@ 10002600     engine:ChangeApplier.obj
+ 0001:00001698       _GUID_059dcfbf_37bd_45db_87ec_ee52d8f9fd34 10002698     engine:ChangeApplier.obj
+ 0001:000016a8       _GUID_52f6e694_6a71_4494_a184_a8311bf5d227 100026a8     engine:ChangeApplier.obj
+ 0001:000016b8       _GUID_19b394ba_e3d0_468c_934d_321968b2ab34 100026b8     engine:FilterInfo.obj
+ 0001:000016c8       ??_7CRecoverableError@@6B@ 100026c8     engine:RecoverableError.obj
+ 0001:000016e8       ??_7CRecoverableErrorData@@6B@ 100026e8     engine:RecoverableError.obj
+ 0001:00001700       _GUID_0f5625e8_0a7b_45ee_9637_1ce13645909e 10002700     engine:RecoverableError.obj
+ 0001:00001858       ??_7?$CollectionManager@UISyncChange@@@@6B@ 10002858     engine:SyncChangeManager.obj
+ 0001:00001864       ??_7IEnumSyncChangesPrivate@@6B@ 10002864     engine:SyncChangeManager.obj
+ 0001:000018a0       ??_7CSyncChangeBatch@@6BISyncChangeBatchPrivate@@@ 100028a0     engine:SyncChangeManager.obj
+ 0001:00001900       ??_7CSyncChangeBatch@@6BISyncChangeBatch@@@ 10002900     engine:SyncChangeManager.obj
+ 0001:00001950       ??_7CSyncChangeBatch@@6BISyncFullEnumerationChangeBatch@@@ 10002950     engine:SyncChangeManager.obj
+ 0001:000019a0       ??_7CSyncChangeBatch@@6BIEnumSyncChangesPrivate@@@ 100029a0     engine:SyncChangeManager.obj
+ 0001:000019dc       ??_7CSyncChangeBatch@@6BIDestinationChangeVersionsBuilder@@@ 100029dc     engine:SyncChangeManager.obj
+ 0001:000019f0       ??_7CEnumSyncChanges@@6B@  100029f0     engine:SyncChangeManager.obj
+ 0001:00001b78       _GUID_346b35f1_8703_4c6d_ab1a_4dbca2cff97f 10002b78     engine:SyncChange.obj
+ 0001:00001b88       ??_7?$CollectionManager@UISyncChangeUnit@@@@6B@ 10002b88     engine:SyncChange.obj
+ 0001:00001b94       ??_7CEnumSyncChangeUnits@@6B@ 10002b94     engine:SyncChange.obj
+ 0001:00001bb8       ??_7CSyncChange@@6BISyncChangePrivate@@@ 10002bb8     engine:SyncChange.obj
+ 0001:00001c58       ??_7CSyncChange@@6BIChangeConflict@@@ 10002c58     engine:SyncChange.obj
+ 0001:00001c84       ??_7CSyncChange@@6BISyncChangeBuilder@@@ 10002c84     engine:SyncChange.obj
+ 0001:00001de0       ??_C@_1CK@IOFDOEJK@?$AAC?$AAS?$AAy?$AAn?$AAc?$AAS?$AAe?$AAs?$AAs?$AAi?$AAo?$AAn?$AA?3?$AA?3?$AAA?$AAd?$AAd?$AAR?$AAe?$AAf?$AA?$AA@ 10002de0     engine:SyncSession.obj
+ 0001:00001e10       ??_C@_1FA@JCHPBOMO@?$AAE?$AAn?$AAt?$AAe?$AAr?$AAi?$AAn?$AAg?$AA?5?$AAC?$AAS?$AAy?$AAn?$AAc?$AAS?$AAe?$AAs?$AAs?$AAi?$AAo?$AAn?$AA?3?$AA?3?$AAR?$AAe?$AAg?$AAi?$AAs?$AAt?$AAe?$AAr?$AAC@ 10002e10     engine:SyncSession.obj
+ 0001:00001e60       ??_7ISyncSessionStatePrivate@@6B@ 10002e60     engine:SyncSession.obj
+ 0001:00001e90       _GUID_43434a49_8da4_47f2_8172_ad7b8b024978 10002e90     engine:SyncSession.obj
+ 0001:00001ea0       ??_C@_1JE@EIAHEECK@?$AAE?$AAn?$AAt?$AAe?$AAr?$AAi?$AAn?$AAg?$AA?5?$AAC?$AAS?$AAy?$AAn?$AAc?$AAS?$AAe?$AAs?$AAs?$AAi?$AAo?$AAn?$AA?3?$AA?3?$AAC?$AAh?$AAa?$AAn?$AAg?$AAe?$AAS?$AAe?$AAs@ 10002ea0     engine:SyncSession.obj
+ 0001:00001f34       ??_7CSyncSession@@6BISyncSession@@@ 10002f34     engine:SyncSession.obj
+ 0001:00001f4c       ??_7CSyncSession@@6BISyncSessionStatePrivate@@@ 10002f4c     engine:SyncSession.obj
+ 0001:00001f7c       ??_7CSyncSession@@6BISupportErrorInfo@@@ 10002f7c     engine:SyncSession.obj
+ 0001:00001f8c       ??_7CSyncSession@@6BISyncCallback@@@ 10002f8c     engine:SyncSession.obj
+ 0001:00001fb0       ??_C@_1II@NHNPIEPK@?$AAA?$AAt?$AAt?$AAe?$AAm?$AAp?$AAt?$AA?5?$AAt?$AAo?$AA?5?$AAs?$AAt?$AAa?$AAr?$AAt?$AA?5?$AAs?$AAy?$AAn?$AAc?$AA?5?$AAs?$AAe?$AAs?$AAs?$AAi?$AAo?$AAn?$AA?5?$AAw?$AAi@ 10002fb0     engine:SyncSession.obj
+ 0001:00002038       ??_C@_1DM@JMENHPBM@?$AAL?$AAe?$AAa?$AAv?$AAi?$AAn?$AAg?$AA?5?$AAC?$AAS?$AAy?$AAn?$AAc?$AAS?$AAe?$AAs?$AAs?$AAi?$AAo?$AAn?$AA?3?$AA?3?$AAR?$AAe?$AAl?$AAe?$AAa?$AAs?$AAe?$AA?$AA@ 10003038     engine:SyncSession.obj
+ 0001:00002074       ??_C@_1DK@NNBBIEFK@?$AAD?$AAe?$AAl?$AAe?$AAt?$AAi?$AAn?$AAg?$AA?5?$AAC?$AAS?$AAy?$AAn?$AAc?$AAS?$AAe?$AAs?$AAs?$AAi?$AAo?$AAn?$AA?5?$AAo?$AAb?$AAj?$AAe?$AAc?$AAt?$AA?$AA@ 10003074     engine:SyncSession.obj
+ 0001:000020b0       ??_C@_1DO@DHAJBKHB@?$AAE?$AAn?$AAt?$AAe?$AAr?$AAi?$AAn?$AAg?$AA?5?$AAC?$AAS?$AAy?$AAn?$AAc?$AAS?$AAe?$AAs?$AAs?$AAi?$AAo?$AAn?$AA?3?$AA?3?$AAR?$AAe?$AAl?$AAe?$AAa?$AAs?$AAe?$AA?$AA@ 100030b0     engine:SyncSession.obj
+ 0001:00002238       ??_C@_1HM@IFNBEPEH@?$AAA?$AAt?$AAt?$AAe?$AAm?$AAp?$AAt?$AAi?$AAn?$AAg?$AA?5?$AAt?$AAo?$AA?5?$AAg?$AAe?$AAt?$AA?5?$AAk?$AAn?$AAo?$AAw?$AAl?$AAe?$AAd?$AAg?$AAe?$AA?5?$AAm?$AAo?$AAr?$AAe@ 10003238     engine:SyncChangeContext.obj
+ 0001:000022b8       ??_C@_1IM@DLOPHDDF@?$AAC?$AAa?$AAl?$AAl?$AAi?$AAn?$AAg?$AA?5?$AAS?$AAe?$AAt?$AAR?$AAe?$AAc?$AAo?$AAv?$AAe?$AAr?$AAa?$AAb?$AAl?$AAe?$AAE?$AAr?$AAr?$AAo?$AAr?$AA?5?$AAa?$AAf?$AAt?$AAe@ 100032b8     engine:SyncChangeContext.obj
+ 0001:00002344       ??_7CSyncChangeContext@@6BISaveChangeWithChangeUnitsContext@@@ 10003344     engine:SyncChangeContext.obj
+ 0001:00002368       ??_7CSyncChangeContext@@6BILoadChangeContext@@@ 10003368     engine:SyncChangeContext.obj
+ 0001:000024c8       ??_7CSyncChangeUnit@@6B@   100034c8     engine:SyncChangeUnit.obj
+ 0001:0000251c       _GUID_60edd8ca_7341_4bb7_95ce_fab6394b51cb 1000351c     engine:SyncChangeUnit.obj
+ 0001:0000252c       ??_7CChangeConflict@@6B@   1000352c     engine:SyncConflict.obj
+ 0001:00002558       _GUID_1cf2b120_547d_101b_8e65_08002b2bd119 10003558     syncutils:utils.obj
+ 0001:00002568       GUID_NULL                  10003568     dcomuuid:dcomuuid.obj
+ 0001:00002578       IID_ISupportErrorInfo      10003578     dcomuuid:dcomuuid.obj
+ 0001:00002588       IID_IUnknown               10003588     dcomuuid:dcomuuid.obj
+ 0001:00002598       IID_IClassFactory          10003598     dcomuuid:dcomuuid.obj
+ 0001:00002838       ??_7ClockVectorElement@@6B@ 10003838     Knowledge_private:ClockVector.obj
+ 0001:0000284c       ??_7FeedClockVectorElement@@6B@ 1000384c     Knowledge_private:ClockVector.obj
+ 0001:00002868       _GUID_31222562_a8ca_4604_900f_9301bb54761e 10003868     Knowledge_private:ClockVector.obj
+ 0001:00002878       ??_7ClockVector@@6B@       10003878     Knowledge_private:ClockVector.obj
+ 0001:00002898       ??_C@_0BG@CKALEEIH@ClockVector?3?3Contains?$AA@ 10003898     Knowledge_private:ClockVector.obj
+ 0001:000028b0       ??_C@_1DC@NFFHLNCA@?$AAL?$AAe?$AAa?$AAv?$AAi?$AAn?$AAg?$AA?3?$AA?5?$AA?$CF?$AAs?$AA?7?$AAR?$AAe?$AAt?$AAu?$AAr?$AAn?$AAi?$AAn?$AAg?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 100038b0     Knowledge_private:ClockVector.obj
+ 0001:000028e4       ??_C@_05MAJJAKPI@FALSE?$AA@ 100038e4     Knowledge_private:ClockVector.obj
+ 0001:000028ec       ??_C@_04HCDDPBNL@TRUE?$AA@ 100038ec     Knowledge_private:ClockVector.obj
+ 0001:000028f4       ??_C@_0BP@OIAHBJOG@ClockVector?3?3SetLocalTickCount?$AA@ 100038f4     Knowledge_private:ClockVector.obj
+ 0001:00002914       ??_C@_1DK@BBNCOEAF@?$AAL?$AAe?$AAa?$AAv?$AAi?$AAn?$AAg?$AA?3?$AA?5?$AA?$CF?$AAs?$AA?7?$AAR?$AAe?$AAt?$AAu?$AAr?$AAn?$AAi?$AAn?$AAg?$AA?5?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAx?$AA?$AA@ 10003914     Knowledge_private:ClockVector.obj
+ 0001:00002950       ??_C@_0CI@JJNCNIEK@ClockVector?3?3FindMinTickCountFor@ 10003950     Knowledge_private:ClockVector.obj
+ 0001:00002978       ??_C@_0CG@CBNCDCKP@ClockVector?3?3CreateClockVectorEl@ 10003978     Knowledge_private:ClockVector.obj
+ 0001:000029a0       _GUID_e71c4250_adf8_4a07_8fae_5669596909c1 100039a0     Knowledge_private:ClockVector.obj
+ 0001:000029b0       ??_C@_0CK@DNIAPABB@ClockVector?3?3CreateFeedClockVect@ 100039b0     Knowledge_private:ClockVector.obj
+ 0001:000029dc       _GUID_a40b46d2_e97b_4156_b6da_991f501b0f05 100039dc     Knowledge_private:ClockVector.obj
+ 0001:000029ec       ??_C@_0BJ@COGFNGEM@ClockVector?3?3MergeVector?$AA@ 100039ec     Knowledge_private:ClockVector.obj
+ 0001:00002a08       ??_C@_0BJ@POHBPNGE@ClockVector?3?3Deserialize?$AA@ 10003a08     Knowledge_private:ClockVector.obj
+ 0001:00002a24       ??_C@_0BJ@MBANDIGB@ClockVector?3?3RemapVector?$AA@ 10003a24     Knowledge_private:ClockVector.obj
+ 0001:00002b88       ??_7RangeExceptionSet@@6B@ 10003b88     Knowledge_private:KnowledgeBuilder.obj
+ 0001:00002b94       ??_7SingleItemExceptionSet@@6B@ 10003b94     Knowledge_private:KnowledgeBuilder.obj
+ 0001:00002ba0       ??_7KnowledgeBuilder@@6B@  10003ba0     Knowledge_private:KnowledgeBuilder.obj
+ 0001:00002d10       ?c_dwSerializedKnowledgeVersionMajor@Knowledge@@0KB 10003d10     Knowledge_private:Knowledge.obj
+ 0001:00002d14       ?c_dwSerializedKnowledgeVersionMinor@Knowledge@@0KB 10003d14     Knowledge_private:Knowledge.obj
+ 0001:00002d18       ?c_dwInternalKnowledgeVersion@Knowledge@@2KB 10003d18     Knowledge_private:Knowledge.obj
+ 0001:00002d1c       ?c_dwSignature@ClockVector@@0KB 10003d1c     Knowledge_private:Knowledge.obj
+ 0001:00002d20       ?c_dwSignature@RangeException@@0KB 10003d20     Knowledge_private:Knowledge.obj
+ 0001:00002d24       ?c_dwSignature@RangeExceptionSet@@0KB 10003d24     Knowledge_private:Knowledge.obj
+ 0001:00002d28       ?c_dwSignature@ClockVectorTable@@2KB 10003d28     Knowledge_private:Knowledge.obj
+ 0001:00002d2c       ?c_dwSignature@ReplicaKeyMap@@0KB 10003d2c     Knowledge_private:Knowledge.obj
+ 0001:00002d30       ?c_dwSignature@SingleItemExceptionSet@@0KB 10003d30     Knowledge_private:Knowledge.obj
+ 0001:00002d34       ?c_dwSignatureEx@ClockVector@@0KB 10003d34     Knowledge_private:Knowledge.obj
+ 0001:00002d38       ?c_dwMaxSingleItemException@SingleItemExceptionSet@@0KB 10003d38     Knowledge_private:Knowledge.obj
+ 0001:00002d3c       ?c_dwMaxClockVectors@ClockVectorTable@@2KB 10003d3c     Knowledge_private:Knowledge.obj
+ 0001:00002d40       ?c_dwMaxRangeExceptions@RangeExceptionSet@@0KB 10003d40     Knowledge_private:Knowledge.obj
+ 0001:00002d44       ??_C@_1DK@GKDOFBPI@?$AAK?$AAn?$AAo?$AAw?$AAl?$AAe?$AAd?$AAg?$AAe?$AA?5?$AAa?$AAf?$AAt?$AAe?$AAr?$AA?5?$AAe?$AAx?$AAc?$AAl?$AAu?$AAs?$AAi?$AAo?$AAn?$AA?$AN?$AA?6?$AA?3?$AA?$AA@ 10003d44     Knowledge_private:Knowledge.obj
+ 0001:00002d80       ??_C@_1DO@MOKIGBF@?$AAK?$AAn?$AAo?$AAw?$AAl?$AAe?$AAd?$AAg?$AAe?$AA?5?$AAb?$AAe?$AAf?$AAo?$AAr?$AAe?$AA?5?$AAe?$AAx?$AAc?$AAl?$AAu?$AAs?$AAi?$AAo?$AAn?$AA?3?$AA?$AN?$AA?6?$AA?3?$AA?$AA@ 10003d80     Knowledge_private:Knowledge.obj
+ 0001:00002dc0       ??_C@_1DC@FOAMFHPB@?$AAK?$AAn?$AAo?$AAw?$AAl?$AAe?$AAd?$AAg?$AAe?$AA?5?$AAa?$AAf?$AAt?$AAe?$AAr?$AA?5?$AAu?$AAn?$AAi?$AAo?$AAn?$AA?$AN?$AA?6?$AA?3?$AA?$AA@ 10003dc0     Knowledge_private:Knowledge.obj
+ 0001:00002df4       ??_C@_1DE@LECBFMMK@?$AAK?$AAn?$AAo?$AAw?$AAl?$AAe?$AAd?$AAg?$AAe?$AA?5?$AAb?$AAe?$AAf?$AAo?$AAr?$AAe?$AA?5?$AAu?$AAn?$AAi?$AAo?$AAn?$AA?$AN?$AA?6?$AA?3?$AA?$AA@ 10003df4     Knowledge_private:Knowledge.obj
+ 0001:00002e28       ??_C@_1DG@IFDBFLIE@?$AAK?$AAn?$AAo?$AAw?$AAl?$AAe?$AAd?$AAg?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAu?$AAn?$AAi?$AAo?$AAn?$AA?5?$AAw?$AAi?$AAt?$AAh?$AA?$AN?$AA?6?$AA?3?$AA?$AA@ 10003e28     Knowledge_private:Knowledge.obj
+ 0001:00002e60       ??_C@_1DE@BBHJHHGE@?$AAD?$AAe?$AAs?$AAe?$AAr?$AAi?$AAa?$AAl?$AAi?$AAz?$AAe?$AAd?$AA?5?$AAk?$AAn?$AAo?$AAw?$AAl?$AAe?$AAd?$AAg?$AAe?$AA?$AN?$AA?6?$AA?3?$AA?$AA@ 10003e60     Knowledge_private:Knowledge.obj
+ 0001:00002e94       ??_C@_1DI@JAJBDLOM@?$AAM?$AAa?$AAp?$AAp?$AAe?$AAd?$AA?5?$AAf?$AAo?$AAr?$AAe?$AAi?$AAg?$AAn?$AA?5?$AAk?$AAn?$AAo?$AAw?$AAl?$AAe?$AAd?$AAg?$AAe?$AA?$AN?$AA?6?$AA?3?$AA?$AA@ 10003e94     Knowledge_private:Knowledge.obj
+ 0001:00002ed0       ??_C@_1EK@FOEMIIBF@?$AAF?$AAo?$AAr?$AAe?$AAi?$AAg?$AAn?$AA?5?$AAk?$AAn?$AAo?$AAw?$AAl?$AAe?$AAd?$AAg?$AAe?$AA?5?$AAb?$AAe?$AAf?$AAo?$AAr?$AAe?$AA?5?$AAm?$AAa?$AAp?$AAp?$AAi?$AAn?$AAg@ 10003ed0     Knowledge_private:Knowledge.obj
+ 0001:00002f20       ??_C@_1FA@CLFONAED@?$AAL?$AAo?$AAc?$AAa?$AAl?$AA?5?$AAk?$AAn?$AAo?$AAw?$AAl?$AAe?$AAd?$AAg?$AAe?$AA?5?$AAu?$AAs?$AAe?$AAd?$AA?5?$AAf?$AAo?$AAr?$AA?5?$AAp?$AAr?$AAo?$AAj?$AAe?$AAc?$AAt@ 10003f20     Knowledge_private:Knowledge.obj
+ 0001:00002f70       ??_C@_1CO@GFKBGKL@?$AAP?$AAr?$AAo?$AAj?$AAe?$AAc?$AAt?$AAe?$AAd?$AA?5?$AAk?$AAn?$AAo?$AAw?$AAl?$AAe?$AAd?$AAg?$AAe?$AA?$AN?$AA?6?$AA?3?$AA?$AA@ 10003f70     Knowledge_private:Knowledge.obj
+ 0001:00002fa0       ??_C@_1FC@FGPKHLJN@?$AAK?$AAn?$AAo?$AAw?$AAl?$AAe?$AAd?$AAg?$AAe?$AA?5?$AAa?$AAf?$AAt?$AAe?$AAr?$AA?5?$AAf?$AAo?$AAr?$AAg?$AAe?$AAt?$AAt?$AAi?$AAn?$AAg?$AA?5?$AAt?$AAo?$AA?5?$AAv?$AAe@ 10003fa0     Knowledge_private:Knowledge.obj
+ 0001:00003140       ??_7ClockVectorEnumerator@@6BIEnumClockVector@@@ 10004140     Knowledge_private:ClockVectorEnumerator.obj
+ 0001:0000315c       ??_7ClockVectorEnumerator@@6BIEnumFeedClockVector@@@ 1000415c     Knowledge_private:ClockVectorEnumerator.obj
+ 0001:000032c0       ??_C@_0BD@KLLAHLAE@CheckRangeContains?$AA@ 100042c0     Knowledge_private:RangeExceptions.obj
+ 0001:000032d4       ??_C@_0BO@FJCKEAGD@RangeException?3?3ContainsPoint?$AA@ 100042d4     Knowledge_private:RangeExceptions.obj
+ 0001:000032f4       ??_C@_0CM@CGELAENK@RangeSetMergeHelper?3?3GetCurrentM@ 100042f4     Knowledge_private:RangeExceptions.obj
+ 0001:00003320       ??_C@_0CK@IBDLEMHL@RangeSetMergeHelper?3?3MergedVecto@ 10004320     Knowledge_private:RangeExceptions.obj
+ 0001:0000334c       ??_C@_0BM@PLFKHKLL@RangeException?3?3Deserialize?$AA@ 1000434c     Knowledge_private:RangeExceptions.obj
+ 0001:00003368       ??_C@_0CD@PLKOJLNH@RangeException?3?3CopyAndRemapVect@ 10004368     Knowledge_private:RangeExceptions.obj
+ 0001:0000338c       ??_C@_0BP@CHGOHOMH@RangeExceptionSet?3?3Deserialize?$AA@ 1000438c     Knowledge_private:RangeExceptions.obj
+ 0001:000033ac       ??_C@_0CH@MAAALEPG@RangeExceptionSet?3?3CopyAndRemapV@ 100043ac     Knowledge_private:RangeExceptions.obj
+ 0001:00003520       ??_C@_0CP@KEDDGIPN@SingleItemExceptionSet?3?3IsRedund@ 10004520     Knowledge_private:SingleItemExceptions.obj
+ 0001:00003550       ??_C@_0DG@MFNICONO@SingleItemExceptionSet?3?3IsItemRa@ 10004550     Knowledge_private:SingleItemExceptions.obj
+ 0001:00003588       ??_C@_0CH@KMPOLACP@SingleItemExceptionSet?3?3FindItem@ 10004588     Knowledge_private:SingleItemExceptions.obj
+ 0001:000035b0       ??_C@_0O@BILCKPFH@?$DMClockVector?$DO?$AA@ 100045b0     Knowledge_private:SingleItemExceptions.obj
+ 0001:000035c0       ??_C@_04HIBGFPH@NULL?$AA@  100045c0     Knowledge_private:SingleItemExceptions.obj
+ 0001:000035c8       ??_C@_0CC@BIBJCDOL@SingleItemExceptionSet?3?3Serializ@ 100045c8     Knowledge_private:SingleItemExceptions.obj
+ 0001:000035ec       ??_C@_0BO@HPOEICFJ@ClockVectorTable?3?3Deserialize?$AA@ 100045ec     Knowledge_private:SingleItemExceptions.obj
+ 0001:0000360c       ??_C@_0CG@OOJMPBCM@ClockVectorTable?3?3CopyAndRemapVe@ 1000460c     Knowledge_private:SingleItemExceptions.obj
+ 0001:00003634       ??_C@_0DB@MDBHFILH@SingleItemExceptionSet?3?3RewireCl@ 10004634     Knowledge_private:SingleItemExceptions.obj
+ 0001:00003668       ??_C@_0CD@EAJPOMCK@SingleItemExceptionSet?3?3Initiali@ 10004668     Knowledge_private:SingleItemExceptions.obj
+ 0001:0000368c       ??_C@_0CO@GBIBDENK@SingleItemExceptionSet?3?3MergeIte@ 1000468c     Knowledge_private:SingleItemExceptions.obj
+ 0001:000036bc       ??_C@_0DG@DCDMMLAG@SingleItemExceptionSet?3?3FullMerg@ 100046bc     Knowledge_private:SingleItemExceptions.obj
+ 0001:000036f4       ??_C@_0CJ@BBFAGHJL@SingleItemExceptionSet?3?3ProjectO@ 100046f4     Knowledge_private:SingleItemExceptions.obj
+ 0001:00003720       ??_C@_0DA@BMILLCIB@SingleItemExceptionSet?3?3ProjectI@ 10004720     Knowledge_private:SingleItemExceptions.obj
+ 0001:00003750       ??_C@_0DA@BODKNMFK@SingleItemExceptionSet?3?3ExcludeI@ 10004750     Knowledge_private:SingleItemExceptions.obj
+ 0001:00003780       ??_C@_0CE@MGFOOLOJ@SingleItemExceptionSet?3?3Deserial@ 10004780     Knowledge_private:SingleItemExceptions.obj
+ 0001:000037a4       ??_C@_0CM@IAMCHEML@SingleItemExceptionSet?3?3CopyAndR@ 100047a4     Knowledge_private:SingleItemExceptions.obj
+ 0001:000037d0       ??_C@_0DC@KDICLMDG@SingleItemExceptionSet?3?3MergeSin@ 100047d0     Knowledge_private:SingleItemExceptions.obj
+ 0001:00003950       ??_7RangeExceptionInternal@@6B@ 10004950     Knowledge_private:RangeExceptionEnumerator.obj
+ 0001:00003968       ??_7RangeExceptionEnumerator@@6B@ 10004968     Knowledge_private:RangeExceptionEnumerator.obj
+ 0001:00003ad0       ??_7SingleItemExceptionEnumerator@@6B@ 10004ad0     Knowledge_private:SingleItemExceptionEnumerator.obj
+ 0001:00003aec       ??_7SingleItemExceptionInternal@@6B@ 10004aec     Knowledge_private:SingleItemExceptionEnumerator.obj
+ 0001:00003c48       ??_7ChangeUnitExceptionEnumerator@@6B@ 10004c48     Knowledge_private:ChangeUnitExceptionEnumerator.obj
+ 0001:00003c64       ??_7ChangeUnitExceptionInternal@@6B@ 10004c64     Knowledge_private:ChangeUnitExceptionEnumerator.obj
+ 0001:00003dc8       ??_C@_1CG@FKGIGFBM@?$AA?$CF?$AAs?$AAr?$AAe?$AAs?$AA?4?$AAd?$AAl?$AAl?$AA?4?$AA?$CF?$AA0?$AA4?$AAx?$AA?4?$AAm?$AAu?$AAi?$AA?$AA@ 10004dc8     resload:resload.obj
+ 0001:00003df0       ??_C@_11LOCGONAA@?$AA?$AA@ 10004df0     resload:resload.obj
+ 0001:00003e20       ?QueryInterface@CHarmonicaClassFactory@@UAAJABU_GUID@@PAPAX@Z 10004e20 f   clsfact.obj
+ 0001:00003eac       ?AddRef@CHarmonicaClassFactory@@UAAKXZ 10004eac f   clsfact.obj
+ 0001:00003eb4       ?CreateInstance@CHarmonicaClassFactory@@UAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10004eb4 f   clsfact.obj
+ 0001:00003f0c       ?LockServer@CHarmonicaClassFactory@@UAAJH@Z 10004f0c f   clsfact.obj
+ 0001:00003f30       ?Release@CHarmonicaClassFactory@@UAAKXZ 10004f30 f   clsfact.obj
+ 0001:00003f70       ?GetHRForLastWin32Error@@YAJXZ 10004f70 f i dll.obj
+ 0001:00003fb0       ?RegisterHarmonicaComponent@@YAJPBG0PBU_GUID@@@Z 10004fb0 f   dll.obj
+ 0001:00004208       ?UnregisterHarmonicaComponent@@YAJPBU_GUID@@@Z 10005208 f   dll.obj
+ 0001:00004344       DllRegisterServer          10005344 f   dll.obj
+ 0001:000043b4       DllUnregisterServer        100053b4 f   dll.obj
+ 0001:000043c0       DllCanUnloadNow            100053c0 f   dll.obj
+ 0001:000043dc       GetErrorDescriptionForHR   100053dc f   dll.obj
+ 0001:000043e0       DllAddRef                  100053e0 f   dll.obj
+ 0001:000043ec       DllRelease                 100053ec f   dll.obj
+ 0001:000043f8       DllMain                    100053f8 f   dll.obj
+ 0001:00004430       ??0CHarmonicaClassFactory@@QAA@ABU_GUID@@@Z 10005430 f i dll.obj
+ 0001:00004480       DllGetClassObject          10005480 f   dll.obj
+ 0001:00004518       ?HaCeTraceMesage@@YAXHPAGZZ 10005518 f i engine:SyncServices.obj
+ 0001:00004528       ??0IdParameters@@QAA@PBU_ID_PARAMETERS@@@Z 10005528 f i engine:SyncServices.obj
+ 0001:00004598       ?QueryInterface@CSyncServices@@UAAJABU_GUID@@PAPAX@Z 10005598 f   engine:SyncServices.obj
+ 0001:000046c4       ?AddRef@CSyncServices@@UAAKXZ 100056c4 f   engine:SyncServices.obj
+ 0001:000046cc       ?CreateChangeApplier@CSyncServices@@UAAJABU_GUID@@PAPAX@Z 100056cc f   engine:SyncServices.obj
+ 0001:00004764       ?DeserializeFilterInfo@CSyncServices@@UAAJPBEKPAPAUISyncFilterInfo@@@Z 10005764 f   engine:SyncServices.obj
+ 0001:0000478c       ?IsMaxId@IdParameterPair@@QBAHPBE@Z 1000578c f i engine:SyncServices.obj
+ 0001:00004800       ?DeserializeReplicaKeyMap@CSyncServices@@UAAJPBEKPAPAUIReplicaKeyMap@@@Z 10005800 f   engine:SyncServices.obj
+ 0001:00004888       ?EqualParameters@IdParameters@@SAHPBU_ID_PARAMETERS@@0@Z 10005888 f i engine:SyncServices.obj
+ 0001:000048f0       ?ValidParameters@IdParameters@@SAHPBU_ID_PARAMETERS@@@Z 100058f0 f i engine:SyncServices.obj
+ 0001:00004998       ?CreateRecoverableErrorData@CSyncServices@@UAAJPAPAUIRecoverableErrorData@@@Z 10005998 f   engine:SyncServices.obj
+ 0001:000049e4       ?CreateClockVectorElement@CSyncServices@@UAAJK_KPAPAUIClockVectorElement@@@Z 100059e4 f   engine:SyncServices.obj
+ 0001:00004a04       ?CreateFeedClockVectorElement@CSyncServices@@UAAJK_KU_SYNC_TIME@@EPAPAUIFeedClockVectorElement@@@Z 10005a04 f   engine:SyncServices.obj
+ 0001:00004a50       ?CreateClockVector@CSyncServices@@UAAJKPAPAUIClockVectorElement@@PAPAUIClockVector@@@Z 10005a50 f   engine:SyncServices.obj
+ 0001:00004a70       ?CreateFeedClockVector@CSyncServices@@UAAJKPAPAUIFeedClockVectorElement@@KHPAPAUIFeedClockVector@@@Z 10005a70 f   engine:SyncServices.obj
+ 0001:00004aa8       ?CreateKnowledgeBuilder@CSyncServices@@UAAJPAPAUIKnowledgeBuilder@@@Z 10005aa8 f   engine:SyncServices.obj
+ 0001:00004b28       ?CreateDestinationChangeVersionsBuilder@CSyncServices@@UAAJPAPAUIDestinationChangeVersionsBuilder@@@Z 10005b28 f   engine:SyncServices.obj
+ 0001:00004bd4       ?CreateSyncChange@CSyncServices@@UAAJPBE0PBU_SYNC_VERSION@@1KABU_GUID@@PAPAX@Z 10005bd4 f   engine:SyncServices.obj
+ 0001:00004cf8       ?Initialize@CSyncServices@@UAAJPBU_ID_PARAMETERS@@@Z 10005cf8 f   engine:SyncServices.obj
+ 0001:00004d6c       ?ValidId@IdParameterPair@@QBAHPBE@Z 10005d6c f i engine:SyncServices.obj
+ 0001:00004dbc       ?CreateFilteredEnumerationChangeBatch@CSyncServices@@UAAJPAUISyncFilterInfo@@PAUISyncKnowledge@@PAUIForgottenKnowledge@@PAPAUISyncChangeBatch@@@Z 10005dbc f   engine:SyncServices.obj
+ 0001:00004e7c       ?DeserializeSyncKnowledge@CSyncServices@@UAAJPBEKPAUIReplicaKeyMap@@PAPAUISyncKnowledge@@@Z 10005e7c f   engine:SyncServices.obj
+ 0001:00004f40       ?CreateForgottenKnowledge@CSyncServices@@UAAJPAUIReplicaKeyMap@@PAPAUIForgottenKnowledge@@@Z 10005f40 f   engine:SyncServices.obj
+ 0001:00005008       ?DeserializeForgottenKnowledge@CSyncServices@@UAAJPBEKPAUIReplicaKeyMap@@PAPAUIForgottenKnowledge@@@Z 10006008 f   engine:SyncServices.obj
+ 0001:000050cc       ?CreateChangeBatch@CSyncServices@@UAAJPAUISyncKnowledge@@PAUIForgottenKnowledge@@PAPAUISyncChangeBatch@@@Z 100060cc f   engine:SyncServices.obj
+ 0001:0000516c       ?CreateFullEnumerationChangeBatch@CSyncServices@@UAAJPAUISyncKnowledge@@PAUIForgottenKnowledge@@PBEPAPAUISyncFullEnumerationChangeBatch@@@Z 1000616c f   engine:SyncServices.obj
+ 0001:00005214       ?DeserializeChangeBatch@CSyncServices@@UAAJPBEKPAPAUISyncChangeBatch@@@Z 10006214 f   engine:SyncServices.obj
+ 0001:000052c4       ?DeserializeFullEnumerationChangeBatch@CSyncServices@@UAAJPBEKPAPAUISyncFullEnumerationChangeBatch@@@Z 100062c4 f   engine:SyncServices.obj
+ 0001:00005374       ??0Knowledge@@QAA@PAVIdParameters@@PAUIReplicaKeyMapInternal@@@Z 10006374 f i engine:SyncServices.obj
+ 0001:000053ec       ?GetKnowledgeInternal@Knowledge@@UAAPAV1@XZ 100063ec f i engine:SyncServices.obj
+ 0001:000053f4       ?Release@Knowledge@@W3AAKXZ 100063f4 f i engine:SyncServices.obj
+ 0001:000053fc       ?AddRef@Knowledge@@W3AAKXZ 100063fc f i engine:SyncServices.obj
+ 0001:00005404       ?QueryInterface@Knowledge@@W3AAJABU_GUID@@PAPAX@Z 10006404 f i engine:SyncServices.obj
+ 0001:0000540c       ??0CSyncServices@@QAA@XZ   1000640c f i engine:SyncServices.obj
+ 0001:00005460       ?InterfaceSupportsErrorInfo@CSyncServices@@UAAJABU_GUID@@@Z 10006460 f i engine:SyncServices.obj
+ 0001:00005468       ?AddRef@CSyncServices@@W3AAKXZ 10006468 f i engine:SyncServices.obj
+ 0001:00005470       ?AddRef@CSyncServices@@W7AAKXZ 10006470 f i engine:SyncServices.obj
+ 0001:00005478       ?QueryInterface@CSyncServices@@W3AAJABU_GUID@@PAPAX@Z 10006478 f i engine:SyncServices.obj
+ 0001:00005480       ?AddRef@CSyncServices@@WM@AAKXZ 10006480 f i engine:SyncServices.obj
+ 0001:00005488       ?QueryInterface@CSyncServices@@W7AAJABU_GUID@@PAPAX@Z 10006488 f i engine:SyncServices.obj
+ 0001:00005490       ?QueryInterface@CSyncServices@@WM@AAJABU_GUID@@PAPAX@Z 10006490 f i engine:SyncServices.obj
+ 0001:00005498       ?CreateFilterInfo@CSyncServices@@UAAJKPAPAUISyncFilterInfo@@@Z 10006498 f   engine:SyncServices.obj
+ 0001:00005538       ?CreateSyncKnowledge@CSyncServices@@UAAJ_KPAUIReplicaKeyMap@@PAPAUISyncKnowledge@@@Z 10006538 f   engine:SyncServices.obj
+ 0001:00005674       ?CreateSyncService@@YAJABU_GUID@@PAPAX@Z 10006674 f   engine:SyncServices.obj
+ 0001:000056f0       ??1CSyncServices@@QAA@XZ   100066f0 f i engine:SyncServices.obj
+ 0001:00005754       ?CreateSyncSession@CSyncServices@@UAAJPAUISyncProvider@@0PAPAUISyncSession@@@Z 10006754 f   engine:SyncServices.obj
+ 0001:0000585c       ??1?$HashTable@PAEKUIdParameterPair@@@@QAA@XZ 1000685c f i engine:SyncServices.obj
+ 0001:0000589c       ??0ReplicaKeyMap@@QAA@PAVIdParameters@@@Z 1000689c f i engine:SyncServices.obj
+ 0001:00005908       ?GetNumReplicas@ReplicaKeyMap@@UAAKXZ 10006908 f i engine:SyncServices.obj
+ 0001:00005910       ?Release@CSyncServices@@UAAKXZ 10006910 f   engine:SyncServices.obj
+ 0001:00005978       ?CreateReplicaKeyMap@CSyncServices@@UAAJPBEPAPAUIReplicaKeyMap@@@Z 10006978 f   engine:SyncServices.obj
+ 0001:00005a58       ?Release@CSyncServices@@W3AAKXZ 10006a58 f i engine:SyncServices.obj
+ 0001:00005a60       ?Release@CSyncServices@@W7AAKXZ 10006a60 f i engine:SyncServices.obj
+ 0001:00005a68       ?Release@CSyncServices@@WM@AAKXZ 10006a68 f i engine:SyncServices.obj
+ 0001:00005a70       ?InitializeSyncLibrary@@YAJXZ 10006a70 f   engine:main.obj
+ 0001:00005a78       ?ShutdownSyncLibrary@@YAJXZ 10006a78 f   engine:main.obj
+ 0001:00005a80       ?IsPrime@@YA_NK@Z          10006a80 f i engine:ChangeApplier.obj
+ 0001:00005b04       ?GetNextPrimeNumber@@YAKK@Z 10006b04 f i engine:ChangeApplier.obj
+ 0001:00005b74       ?Initialize@Lock@@QAAJXZ   10006b74 f i engine:ChangeApplier.obj
+ 0001:00005c00       ?HashKey@IdParameterPair@@QBAKPBE@Z 10006c00 f i engine:ChangeApplier.obj
+ 0001:00005cb0       ?IsEqual@IdParameterPair@@QBAHPBE0@Z 10006cb0 f i engine:ChangeApplier.obj
+ 0001:00005d30       ?AllocateId@IdParameterPair@@QAAJPAPAEG@Z 10006d30 f i engine:ChangeApplier.obj
+ 0001:00005d8c       ?CompareId@IdParameterPair@@QBAHPBE0@Z 10006d8c f i engine:ChangeApplier.obj
+ 0001:00005ea4       ?SerializeId@IdParameterPair@@QAAJPAPAEPBE1@Z 10006ea4 f i engine:ChangeApplier.obj
+ 0001:00005f54       ?TransferChangeApplierState@@YAJPAU_CHANGE_APPLIER_STATE@@0@Z 10006f54 f   engine:ChangeApplier.obj
+ 0001:00005fe0       ?ValidRangeUpperBoundaryInternalId@IdParameterPair@@QBAHPBE@Z 10006fe0 f i engine:ChangeApplier.obj
+ 0001:00006020       ?CreateZeroId@IdParameterPair@@QAAJPAPAE@Z 10007020 f i engine:ChangeApplier.obj
+ 0001:000060b4       ?GetParameters@IdParameters@@QAAJPAU_ID_PARAMETERS@@@Z 100070b4 f i engine:ChangeApplier.obj
+ 0001:00006108       ?QueryInterface@CChangeApplier@@UAAJABU_GUID@@PAPAX@Z 10007108 f   engine:ChangeApplier.obj
+ 0001:000062c8       ?AddRef@CChangeApplier@@UAAKXZ 100072c8 f   engine:ChangeApplier.obj
+ 0001:000062ec       ?SaveChangeWithChangeUnitsComplete@CChangeApplier@@UAAJXZ 100072ec f   engine:ChangeApplier.obj
+ 0001:00006300       ?GetCurrentTickCount@CChangeApplier@@UAAJPA_K@Z 10007300 f   engine:ChangeApplier.obj
+ 0001:0000634c       ?GetDestinationVersion@CChangeApplier@@UAAJPAUISyncChange@@PAPAU2@@Z 1000734c f   engine:ChangeApplier.obj
+ 0001:00006398       ?InitNonProviderState@CChangeApplier@@AAAJXZ 10007398 f   engine:ChangeApplier.obj
+ 0001:00006454       ?CreateProviderForgottenKnowledge@CChangeApplier@@AAAJPAUISyncKnowledge@@PAPAUIForgottenKnowledge@@@Z 10007454 f   engine:ChangeApplier.obj
+ 0001:00006528       ?SerializeKnowledgeWrapper@CChangeApplier@@CAJPAUISyncKnowledge@@PAPAEPAK@Z 10007528 f   engine:ChangeApplier.obj
+ 0001:0000660c       ?UpdateRunningKnowledgeStateForTransfer@CChangeApplier@@AAAJH@Z 1000760c f   engine:ChangeApplier.obj
+ 0001:000066b4       ?InitConflictDataEvent@CChangeApplier@@AAAJXZ 100076b4 f   engine:ChangeApplier.obj
+ 0001:000066fc       ?LoadConflictData@CChangeApplier@@AAAJPAUISyncChange@@PAUISynchronousDataRetriever@@PAUIAsynchronousDataRetriever@@PAPAUIUnknown@@@Z 100076fc f   engine:ChangeApplier.obj
+ 0001:0000686c       ??1_CHANGE_APPLIER_WORK_ITEM@@QAA@XZ 1000786c f   engine:ChangeApplier.obj
+ 0001:000068c0       ?GetNextElement@?$TableEnumerator@PAEPAU_SYNC_EXCLUSION@@UIdParameterPair@@@@QAAPAV?$TableElement@PAEPAU_SYNC_EXCLUSION@@UIdParameterPair@@@@XZ 100078c0 f i engine:ChangeApplier.obj
+ 0001:0000693c       ?GetNextElement@?$TableEnumerator@PAEPAU_SYNC_CHANGE_UNIT_EXCLUSION@@UIdParameterPair@@@@QAAPAV?$TableElement@PAEPAU_SYNC_CHANGE_UNIT_EXCLUSION@@UIdParameterPair@@@@XZ 1000793c f i engine:ChangeApplier.obj
+ 0001:000069b8       ?FindNewBucket@?$HashTable@PAEHUIdParameterPair@@@@ABAJABQAEPAV?$TableBucket@PAEHUIdParameterPair@@@@KPAK@Z 100079b8 f i engine:ChangeApplier.obj
+ 0001:00006a5c       ?FindExistingBucket@?$HashTable@PAEHUIdParameterPair@@@@ABAJABQAEPAV?$TableBucket@PAEHUIdParameterPair@@@@KPAK@Z 10007a5c f i engine:ChangeApplier.obj
+ 0001:00006b30       ?FindNewBucket@?$HashTable@PAEPAU_SYNC_EXCLUSION@@UIdParameterPair@@@@ABAJABQAEPAV?$TableBucket@PAEPAU_SYNC_EXCLUSION@@UIdParameterPair@@@@KPAK@Z 10007b30 f i engine:ChangeApplier.obj
+ 0001:00006bd4       ?FindExistingBucket@?$HashTable@PAEPAU_SYNC_EXCLUSION@@UIdParameterPair@@@@ABAJABQAEPAV?$TableBucket@PAEPAU_SYNC_EXCLUSION@@UIdParameterPair@@@@KPAK@Z 10007bd4 f i engine:ChangeApplier.obj
+ 0001:00006ca8       ?FindNewBucket@?$HashTable@PAEPAU_SYNC_CHANGE_UNIT_EXCLUSION@@UIdParameterPair@@@@ABAJABQAEPAV?$TableBucket@PAEPAU_SYNC_CHANGE_UNIT_EXCLUSION@@UIdParameterPair@@@@KPAK@Z 10007ca8 f i engine:ChangeApplier.obj
+ 0001:00006d4c       ?FindExistingBucket@?$HashTable@PAEPAU_SYNC_CHANGE_UNIT_EXCLUSION@@UIdParameterPair@@@@ABAJABQAEPAV?$TableBucket@PAEPAU_SYNC_CHANGE_UNIT_EXCLUSION@@UIdParameterPair@@@@KPAK@Z 10007d4c f i engine:ChangeApplier.obj
+ 0001:00006e20       ?GetNextElement@?$TableEnumerator@PAEHUIdParameterPair@@@@QAAPAV?$TableElement@PAEHUIdParameterPair@@@@XZ 10007e20 f i engine:ChangeApplier.obj
+ 0001:00006e9c       ?FreeAndCopyId@IdParameterPair@@QAAJPAPAEPAE@Z 10007e9c f i engine:ChangeApplier.obj
+ 0001:00006eec       ??0CChangeApplier@@QAA@PAVIdParameters@@@Z 10007eec f   engine:ChangeApplier.obj
+ 0001:00007038       ?GetIdParameters@CChangeApplier@@UAAJPAU_ID_PARAMETERS@@@Z 10008038 f i engine:ChangeApplier.obj
+ 0001:00007044       ?GetDataRetriever@CChangeApplier@@UAAJPAPAUIUnknown@@@Z 10008044 f i engine:ChangeApplier.obj
+ 0001:00007050       ?RegisterCallback@CChangeApplier@@UAAJPAUIAsynchronousNotifyingChangeApplierTargetCallback@@@Z 10008050 f i engine:ChangeApplier.obj
+ 0001:00007058       ?RevokeCallback@CChangeApplier@@UAAJPAUIAsynchronousNotifyingChangeApplierTargetCallback@@@Z 10008058 f i engine:ChangeApplier.obj
+ 0001:00007060       ?ApplyChangesComplete@CChangeApplier@@UAAJXZ 10008060 f i engine:ChangeApplier.obj
+ 0001:0000706c       ?OnChangeApplierError@CChangeApplier@@UAAJJ@Z 1000806c f i engine:ChangeApplier.obj
+ 0001:00007074       ?RegisterCallback@CChangeApplier@@UAAJPAUIDataRetrieverCallback@@@Z 10008074 f i engine:ChangeApplier.obj
+ 0001:0000707c       ?RevokeCallback@CChangeApplier@@UAAJPAUIDataRetrieverCallback@@@Z 1000807c f i engine:ChangeApplier.obj
+ 0001:00007084       ?InterfaceSupportsErrorInfo@CChangeApplier@@UAAJABU_GUID@@@Z 10008084 f i engine:ChangeApplier.obj
+ 0001:0000708c       ?QueryInterface@CChangeApplier@@W3AAJABU_GUID@@PAPAX@Z 1000808c f i engine:ChangeApplier.obj
+ 0001:00007094       ?AddRef@CChangeApplier@@WM@AAKXZ 10008094 f i engine:ChangeApplier.obj
+ 0001:0000709c       ?QueryInterface@CChangeApplier@@W7AAJABU_GUID@@PAPAX@Z 1000809c f i engine:ChangeApplier.obj
+ 0001:000070a4       ?AddRef@CChangeApplier@@WBA@AAKXZ 100080a4 f i engine:ChangeApplier.obj
+ 0001:000070ac       ?QueryInterface@CChangeApplier@@WM@AAJABU_GUID@@PAPAX@Z 100080ac f i engine:ChangeApplier.obj
+ 0001:000070b4       ?AddRef@CChangeApplier@@WBE@AAKXZ 100080b4 f i engine:ChangeApplier.obj
+ 0001:000070bc       ?GetIdParameters@CChangeApplier@@W3AAJPAU_ID_PARAMETERS@@@Z 100080bc f i engine:ChangeApplier.obj
+ 0001:000070c4       ?QueryInterface@CChangeApplier@@WBA@AAJABU_GUID@@PAPAX@Z 100080c4 f i engine:ChangeApplier.obj
+ 0001:000070cc       ?AddRef@CChangeApplier@@WBI@AAKXZ 100080cc f i engine:ChangeApplier.obj
+ 0001:000070d4       ?QueryInterface@CChangeApplier@@WBE@AAJABU_GUID@@PAPAX@Z 100080d4 f i engine:ChangeApplier.obj
+ 0001:000070dc       ?AddRef@CChangeApplier@@WBM@AAKXZ 100080dc f i engine:ChangeApplier.obj
+ 0001:000070e4       ?QueryInterface@CChangeApplier@@WBI@AAJABU_GUID@@PAPAX@Z 100080e4 f i engine:ChangeApplier.obj
+ 0001:000070ec       ?QueryInterface@CChangeApplier@@WBM@AAJABU_GUID@@PAPAX@Z 100080ec f i engine:ChangeApplier.obj
+ 0001:000070f4       ?AddRef@CChangeApplier@@W3AAKXZ 100080f4 f i engine:ChangeApplier.obj
+ 0001:000070fc       ?AddRef@CChangeApplier@@W7AAKXZ 100080fc f i engine:ChangeApplier.obj
+ 0001:00007104       ?GetSourceProviderConflictingData@CChangeApplier@@UAAJPAUISyncChange@@PAPAUIUnknown@@@Z 10008104 f   engine:ChangeApplier.obj
+ 0001:00007140       ?ChangeState@CChangeApplier@@AAAJW4ChangeApplierState@@@Z 10008140 f   engine:ChangeApplier.obj
+ 0001:00007450       ?CleanupWorkQueue@CChangeApplier@@AAAJXZ 10008450 f   engine:ChangeApplier.obj
+ 0001:000074bc       ?CloneProviderKnowledge@CChangeApplier@@AAAJPAUISyncKnowledge@@PAPAU2@@Z 100084bc f   engine:ChangeApplier.obj
+ 0001:0000755c       ?ContainsChangeVersionWrapper@CChangeApplier@@AAAJPAUISyncKnowledge@@PAUISyncChange@@@Z 1000855c f   engine:ChangeApplier.obj
+ 0001:00007680       ?ContainsChangeUnitVersionWrapper@CChangeApplier@@AAAJPAUISyncKnowledge@@PAUISyncChangeUnit@@@Z 10008680 f   engine:ChangeApplier.obj
+ 0001:00007840       ?ContainsCreationVersionWrapper@CChangeApplier@@AAAJPAUISyncKnowledge@@PAUISyncChange@@@Z 10008840 f   engine:ChangeApplier.obj
+ 0001:0000795c       ?GetChangeUnitsInternalWrapper@CChangeApplier@@AAAJPAUISyncChange@@PAPAUIEnumSyncChangeUnits@@@Z 1000895c f   engine:ChangeApplier.obj
+ 0001:000079c4       ?EnumerateValidChangeUnits@CChangeApplier@@AAAJPAUISyncKnowledge@@0PAUIEnumSyncChangeUnits@@PAUISyncChange@@PAH@Z 100089c4 f   engine:ChangeApplier.obj
+ 0001:00007c60       ?ChangeNotificationWrapper@CChangeApplier@@AAAJPAUISyncCallback@@PAUISyncChangePrivate@@@Z 10008c60 f   engine:ChangeApplier.obj
+ 0001:00007d0c       ?RecoverableErrorNotificationWrapper@CChangeApplier@@AAAJPAUISyncCallback@@PAUISyncChangePrivate@@H@Z 10008d0c f   engine:ChangeApplier.obj
+ 0001:00007e04       ?DetectConflictOnChangeUnit@CChangeApplier@@AAAJW4__MIDL___MIDL_itf_synchronization_0000_0000_0001@@PAEPAUISyncChange@@PAUIEnumSyncChangeUnitsPrivate@@PAUIEnumSyncChangeUnits@@HPAH@Z 10008e04 f   engine:ChangeApplier.obj
+ 0001:00008084       ?ApplyConflictResolution@CChangeApplier@@AAAJW4__MIDL___MIDL_itf_synchronization_0000_0008_0001@@PAUISyncChangePrivate@@PAUISyncChangeUnitPrivate@@H@Z 10009084 f   engine:ChangeApplier.obj
+ 0001:00008394       ?UpdateRunningKnowledgeStateForConflictDetection@CChangeApplier@@AAAJPAUISyncChangePrivate@@@Z 10009394 f   engine:ChangeApplier.obj
+ 0001:00008514       ?ConvertChangeVersionForSave@CChangeApplier@@AAAJXZ 10009514 f   engine:ChangeApplier.obj
+ 0001:00008828       ?GetSaveActionForChange@CChangeApplier@@AAAJPAUISyncChangePrivate@@PAUISyncChange@@PAW4__MIDL___MIDL_itf_synchronization_0000_0009_0001@@PAH@Z 10009828 f   engine:ChangeApplier.obj
+ 0001:00008a60       ?UpdateSessionStatistics@CChangeApplier@@AAAJXZ 10009a60 f   engine:ChangeApplier.obj
+ 0001:00008c48       ?GetDestinationDataRetriever@CChangeApplier@@AAAJXZ 10009c48 f   engine:ChangeApplier.obj
+ 0001:00008d6c       ?CChangeApplier_CreateInstance@@YAJPAVIdParameters@@ABU_GUID@@PAPAX@Z 10009d6c f   engine:ChangeApplier.obj
+ 0001:00008dec       ?LookupItem@?$HashTable@PAEHUIdParameterPair@@@@QBA_NABQAEAAH@Z 10009dec f i engine:ChangeApplier.obj
+ 0001:00008e3c       ?LookupItem@?$HashTable@PAEPAU_SYNC_EXCLUSION@@UIdParameterPair@@@@QBA_NABQAEAAPAU_SYNC_EXCLUSION@@@Z 10009e3c f i engine:ChangeApplier.obj
+ 0001:00008e8c       ?ContainsItem@?$HashTable@PAEPAU_SYNC_EXCLUSION@@UIdParameterPair@@@@QBA_NABQAE@Z 10009e8c f i engine:ChangeApplier.obj
+ 0001:00008ec0       ?LookupItem@?$HashTable@PAEPAU_SYNC_CHANGE_UNIT_EXCLUSION@@UIdParameterPair@@@@QBA_NABQAEAAPAU_SYNC_CHANGE_UNIT_EXCLUSION@@@Z 10009ec0 f i engine:ChangeApplier.obj
+ 0001:00008f10       ?ContainsItem@?$HashTable@PAEPAU_SYNC_CHANGE_UNIT_EXCLUSION@@UIdParameterPair@@@@QBA_NABQAE@Z 10009f10 f i engine:ChangeApplier.obj
+ 0001:00008f44       ?ContainsItem@?$HashTable@PAEHUIdParameterPair@@@@QBA_NABQAE@Z 10009f44 f i engine:ChangeApplier.obj
+ 0001:00008f78       ?Resize@?$HashTable@PAEPAU_SYNC_EXCLUSION@@UIdParameterPair@@@@QAAJXZ 10009f78 f i engine:ChangeApplier.obj
+ 0001:000090b8       ?Resize@?$HashTable@PAEPAU_SYNC_CHANGE_UNIT_EXCLUSION@@UIdParameterPair@@@@QAAJXZ 1000a0b8 f i engine:ChangeApplier.obj
+ 0001:000091f8       ?DeserializeId@IdParameterPair@@QAAJPAPAEPBE0H@Z 1000a1f8 f i engine:ChangeApplier.obj
+ 0001:0000933c       ?GetDestinationProviderConflictingData@CChangeApplier@@UAAJPAUISyncChange@@PAPAUIUnknown@@@Z 1000a33c f   engine:ChangeApplier.obj
+ 0001:00009390       ?EnumerateValidChanges@CChangeApplier@@AAAJPAUIEnumSyncChangesPrivate@@PAUIEnumSyncChanges@@PAUISyncKnowledge@@PAPAU4@@Z 1000a390 f   engine:ChangeApplier.obj
+ 0001:00009bb0       ?HandleConflict@CChangeApplier@@AAAJW4__MIDL___MIDL_itf_synchronization_0000_0000_0001@@PAUISyncChangePrivate@@HHH@Z 1000abb0 f   engine:ChangeApplier.obj
+ 0001:0000a258       ?AddExclusionsToKnowledge@CChangeApplier@@AAAJPAUISyncKnowledge@@PAEH@Z 1000b258 f   engine:ChangeApplier.obj
+ 0001:0000a4a0       ?SerializeExclusions@CChangeApplier@@CAJPAVIdParameters@@PAV?$HashTable@PAEPAU_SYNC_EXCLUSION@@UIdParameterPair@@@@PAK2PAPAEPBE@Z 1000b4a0 f   engine:ChangeApplier.obj
+ 0001:0000a7b8       ?CreateKnowledgeForCurrentChange@CChangeApplier@@AAAJPAPAUISyncKnowledge@@@Z 1000b7b8 f   engine:ChangeApplier.obj
+ 0001:0000a92c       ?CreateLearnedForgottenKnowledge@CChangeApplier@@AAAJPAEHPAPAUIForgottenKnowledge@@@Z 1000b92c f   engine:ChangeApplier.obj
+ 0001:0000aab0       ?DoBatchKnowledgeProcessing@CChangeApplier@@AAAJXZ 1000bab0 f   engine:ChangeApplier.obj
+ 0001:0000adbc       ?AddItem@?$HashTable@PAEPAU_SYNC_EXCLUSION@@UIdParameterPair@@@@QAAJABQAEABQAU_SYNC_EXCLUSION@@@Z 1000bdbc f i engine:ChangeApplier.obj
+ 0001:0000ae80       ?AddItem@?$HashTable@PAEPAU_SYNC_CHANGE_UNIT_EXCLUSION@@UIdParameterPair@@@@QAAJABQAEABQAU_SYNC_CHANGE_UNIT_EXCLUSION@@@Z 1000be80 f i engine:ChangeApplier.obj
+ 0001:0000af44       ?Resize@?$HashTable@PAEHUIdParameterPair@@@@QAAJXZ 1000bf44 f i engine:ChangeApplier.obj
+ 0001:0000b084       ?GetChangeApplierInfoHelper@@YAJPAVIdParameters@@PAEPAKPBU_CHANGE_APPLIER_STATE@@@Z 1000c084 f   engine:ChangeApplier.obj
+ 0001:0000b370       ?GetChangeApplierInfo@CChangeApplier@@UAAJPAEPAK@Z 1000c370 f   engine:ChangeApplier.obj
+ 0001:0000b380       ?DetectUpdateDeleteConflictOnChangeUnit@CChangeApplier@@AAAJW4__MIDL___MIDL_itf_synchronization_0000_0000_0001@@PAEPAUISyncChange@@PAUIEnumSyncChangeUnitsPrivate@@2PAUIEnumSyncChangeUnits@@HPAH@Z 1000c380 f   engine:ChangeApplier.obj
+ 0001:0000b67c       ??1?$HashTable@PAEHUIdParameterPair@@@@QAA@XZ 1000c67c f i engine:ChangeApplier.obj
+ 0001:0000b6bc       ?Initialize@?$HashTable@PAEHUIdParameterPair@@@@QAAJPAUIdParameterPair@@K@Z 1000c6bc f i engine:ChangeApplier.obj
+ 0001:0000b7a8       ??1?$HashTable@PAEPAU_SYNC_EXCLUSION@@UIdParameterPair@@@@QAA@XZ 1000c7a8 f i engine:ChangeApplier.obj
+ 0001:0000b7e8       ?Initialize@?$HashTable@PAEPAU_SYNC_EXCLUSION@@UIdParameterPair@@@@QAAJPAUIdParameterPair@@K@Z 1000c7e8 f i engine:ChangeApplier.obj
+ 0001:0000b8d4       ??1?$HashTable@PAEPAU_SYNC_CHANGE_UNIT_EXCLUSION@@UIdParameterPair@@@@QAA@XZ 1000c8d4 f i engine:ChangeApplier.obj
+ 0001:0000b914       ?Initialize@?$HashTable@PAEPAU_SYNC_CHANGE_UNIT_EXCLUSION@@UIdParameterPair@@@@QAAJPAUIdParameterPair@@K@Z 1000c914 f i engine:ChangeApplier.obj
+ 0001:0000ba00       ?AddItem@?$HashTable@PAEHUIdParameterPair@@@@QAAJABQAEABH@Z 1000ca00 f i engine:ChangeApplier.obj
+ 0001:0000bac4       ?GetChangeApplierInfo@CChangeApplier@@W3AAJPAEPAK@Z 1000cac4 f i engine:ChangeApplier.obj
+ 0001:0000bacc       ?DetectConflictOnChangeUnits@CChangeApplier@@AAAJW4__MIDL___MIDL_itf_synchronization_0000_0000_0001@@PAEPAUISyncChange@@2H@Z 1000cacc f   engine:ChangeApplier.obj
+ 0001:0000be64       ?RecordCurrentChangeApplied@CChangeApplier@@AAAJXZ 1000ce64 f   engine:ChangeApplier.obj
+ 0001:0000c010       ?ResetChangeApplierState@CChangeApplier@@AAAJXZ 1000d010 f   engine:ChangeApplier.obj
+ 0001:0000c2bc       ?CheckForSessionCompletion@CChangeApplier@@AAAHXZ 1000d2bc f   engine:ChangeApplier.obj
+ 0001:0000c44c       ?SetError@CChangeApplier@@AAAJPAUISyncCallback@@J@Z 1000d44c f   engine:ChangeApplier.obj
+ 0001:0000c508       ?SaveKnowledgeCompleteHandler@CChangeApplier@@AAAJXZ 1000d508 f   engine:ChangeApplier.obj
+ 0001:0000c5d0       ?DetectConflictOnChangeHelper@CChangeApplier@@AAAJW4__MIDL___MIDL_itf_synchronization_0000_0000_0001@@PAUISyncChange@@PAUIEnumSyncChangesPrivate@@1PAUIEnumSyncChanges@@PAUISyncKnowledge@@PAUIForgottenKnowledge@@H@Z 1000d5d0 f   engine:ChangeApplier.obj
+ 0001:0000cd88       ?CheckForIntraBatchConflict@CChangeApplier@@AAAJPAUISyncChangePrivate@@PAUISyncChange@@@Z 1000dd88 f   engine:ChangeApplier.obj
+ 0001:0000d010       ??1_SYNC_EXCLUSION@@QAA@XZ 1000e010 f   engine:ChangeApplier.obj
+ 0001:0000d0dc       ?Init@CChangeApplier@@QAAJPAUISynchronousNotifyingChangeApplierTarget@@PAUIUnknown@@@Z 1000e0dc f   engine:ChangeApplier.obj
+ 0001:0000d244       ?Init@CChangeApplier@@QAAJPAUIAsynchronousNotifyingChangeApplierTarget@@PAUIUnknown@@@Z 1000e244 f   engine:ChangeApplier.obj
+ 0001:0000d3a8       ?LoadChangeDataError@CChangeApplier@@UAAJJ@Z 1000e3a8 f   engine:ChangeApplier.obj
+ 0001:0000d408       ?OnError@CChangeApplier@@UAAJJ@Z 1000e408 f   engine:ChangeApplier.obj
+ 0001:0000d444       ?SaveChange@CChangeApplier@@UAAJW4__MIDL___MIDL_itf_synchronization_0000_0009_0001@@PAUISyncChange@@PAUISaveChangeContext@@@Z 1000e444 f   engine:ChangeApplier.obj
+ 0001:0000d4cc       ?SaveChangeWithChangeUnits@CChangeApplier@@UAAJPAUISyncChange@@PAUISaveChangeWithChangeUnitsContext@@@Z 1000e4cc f   engine:ChangeApplier.obj
+ 0001:0000d554       ?SaveConflict@CChangeApplier@@UAAJPAUISyncChange@@PAUIUnknown@@PAUISyncKnowledge@@@Z 1000e554 f   engine:ChangeApplier.obj
+ 0001:0000d5dc       ?SaveKnowledge@CChangeApplier@@UAAJPAUISyncKnowledge@@PAUIForgottenKnowledge@@@Z 1000e5dc f   engine:ChangeApplier.obj
+ 0001:0000d664       ?LoadChangeData@CChangeApplier@@UAAJPAUILoadChangeContext@@@Z 1000e664 f   engine:ChangeApplier.obj
+ 0001:0000d720       ?DetectConflictOnChange@CChangeApplier@@AAAJW4__MIDL___MIDL_itf_synchronization_0000_0000_0001@@PAUIEnumSyncChangesPrivate@@PAUIEnumSyncChanges@@PAUISyncKnowledge@@PAUIForgottenKnowledge@@@Z 1000e720 f   engine:ChangeApplier.obj
+ 0001:0000d830       ?DeserializeExclusions@CChangeApplier@@CAJPAVIdParameters@@PAPAEPBEKPAPAV?$HashTable@PAEPAU_SYNC_EXCLUSION@@UIdParameterPair@@@@@Z 1000e830 f   engine:ChangeApplier.obj
+ 0001:0000db44       ?CleanupExclusionInfo@CChangeApplier@@CAJPAV?$HashTable@PAEPAU_SYNC_EXCLUSION@@UIdParameterPair@@@@PAUISyncKnowledge@@@Z 1000eb44 f   engine:ChangeApplier.obj
+ 0001:0000dbe0       ?LoadChangeApplierInfoHelper@@YAJPAVIdParameters@@PBEKPAU_CHANGE_APPLIER_STATE@@@Z 1000ebe0 f   engine:ChangeApplier.obj
+ 0001:0000e0cc       ?CleanupChangeApplierState@@YAXPAVIdParameters@@PAU_CHANGE_APPLIER_STATE@@@Z 1000f0cc f   engine:ChangeApplier.obj
+ 0001:0000e138       ??1CChangeApplier@@QAA@XZ  1000f138 f   engine:ChangeApplier.obj
+ 0001:0000e25c       ?LoadChangeApplierInfo@CChangeApplier@@UAAJPBEK@Z 1000f25c f   engine:ChangeApplier.obj
+ 0001:0000e27c       ?AddToExclusionTable@CChangeApplier@@AAAJPAE0@Z 1000f27c f   engine:ChangeApplier.obj
+ 0001:0000e4cc       ?LoadChangeApplierInfo@CChangeApplier@@W3AAJPBEK@Z 1000f4cc f i engine:ChangeApplier.obj
+ 0001:0000e4d4       ?Release@CChangeApplier@@UAAKXZ 1000f4d4 f   engine:ChangeApplier.obj
+ 0001:0000e53c       ?HandleSyncExclusion@CChangeApplier@@AAAJPAE0H@Z 1000f53c f   engine:ChangeApplier.obj
+ 0001:0000e6d8       ?DeferChangeConflicts@CChangeApplier@@AAAJW4SYNC_TRANSFER_FILTER@@PAPAUISyncKnowledge@@@Z 1000f6d8 f   engine:ChangeApplier.obj
+ 0001:0000ea64       ?SaveErrorsForCurrentChange@CChangeApplier@@AAAJH@Z 1000fa64 f   engine:ChangeApplier.obj
+ 0001:0000eda4       ?Release@CChangeApplier@@WBE@AAKXZ 1000fda4 f i engine:ChangeApplier.obj
+ 0001:0000edac       ?Release@CChangeApplier@@WBI@AAKXZ 1000fdac f i engine:ChangeApplier.obj
+ 0001:0000edb4       ?Release@CChangeApplier@@WBM@AAKXZ 1000fdb4 f i engine:ChangeApplier.obj
+ 0001:0000edbc       ?Release@CChangeApplier@@W3AAKXZ 1000fdbc f i engine:ChangeApplier.obj
+ 0001:0000edc4       ?Release@CChangeApplier@@W7AAKXZ 1000fdc4 f i engine:ChangeApplier.obj
+ 0001:0000edcc       ?Release@CChangeApplier@@WM@AAKXZ 1000fdcc f i engine:ChangeApplier.obj
+ 0001:0000edd4       ?Release@CChangeApplier@@WBA@AAKXZ 1000fdd4 f i engine:ChangeApplier.obj
+ 0001:0000eddc       ?ProcessItemData@CChangeApplier@@AAAJXZ 1000fddc f   engine:ChangeApplier.obj
+ 0001:0000f18c       ?LoadChangeDataCompleteHandler@CChangeApplier@@AAAJPAUIUnknown@@@Z 1001018c f   engine:ChangeApplier.obj
+ 0001:0000f360       ?SaveChangeCompleteHandler@CChangeApplier@@AAAJXZ 10010360 f   engine:ChangeApplier.obj
+ 0001:0000f45c       ?SaveConflictCompleteHandler@CChangeApplier@@AAAJXZ 1001045c f   engine:ChangeApplier.obj
+ 0001:0000f498       ?DrainWorkQueue@CChangeApplier@@AAAJH@Z 10010498 f   engine:ChangeApplier.obj
+ 0001:0000f664       ?BeginItemTransfer@CChangeApplier@@AAAJPAUIEnumSyncChangesPrivate@@HPAH@Z 10010664 f   engine:ChangeApplier.obj
+ 0001:0000f9a0       ?ItemTransferComplete@CChangeApplier@@AAAJH@Z 100109a0 f   engine:ChangeApplier.obj
+ 0001:0000fb90       ?AddWorkItemToWorkQueue@CChangeApplier@@AAAJPAU_CHANGE_APPLIER_WORK_ITEM@@H@Z 10010b90 f   engine:ChangeApplier.obj
+ 0001:0000fd7c       ?ApplyChangesHelper@CChangeApplier@@AAAJW4__MIDL___MIDL_itf_synchronization_0000_0000_0001@@PAUISyncChangeBatchBase@@PAUIEnumSyncChanges@@PAUISyncKnowledge@@PAUIForgottenKnowledge@@PAUISyncSessionState@@PAUISyncCallback@@H@Z 10010d7c f   engine:ChangeApplier.obj
+ 0001:0001093c       ?ApplyChanges@CChangeApplier@@UAAJW4__MIDL___MIDL_itf_synchronization_0000_0000_0001@@PAUISyncChangeBatch@@PAUIUnknown@@PAUIEnumSyncChanges@@PAUISyncKnowledge@@PAUIForgottenKnowledge@@PAUISynchronousNotifyingChangeApplierTarget@@PAUISyncSessionState@@PAUISyncCallback@@@Z 1001193c f   engine:ChangeApplier.obj
+ 0001:000109c0       ?ApplyChanges@CChangeApplier@@UAAJW4__MIDL___MIDL_itf_synchronization_0000_0000_0001@@PAUISyncChangeBatch@@PAUIUnknown@@PAUIEnumSyncChanges@@PAUISyncKnowledge@@PAUIForgottenKnowledge@@PAUIAsynchronousNotifyingChangeApplierTarget@@PAUISyncSessionState@@PAUISyncCallback@@@Z 100119c0 f   engine:ChangeApplier.obj
+ 0001:00010a48       ?ApplyFullEnumerationChanges@CChangeApplier@@UAAJW4__MIDL___MIDL_itf_synchronization_0000_0000_0001@@PAUISyncFullEnumerationChangeBatch@@PAUIUnknown@@PAUIEnumSyncChanges@@PAUISyncKnowledge@@PAUIForgottenKnowledge@@PAUISynchronousNotifyingChangeApplierTarget@@PAUISyncSessionState@@PAUISyncCallback@@@Z 10011a48 f   engine:ChangeApplier.obj
+ 0001:00010b0c       ?ApplyFullEnumerationChanges@CChangeApplier@@UAAJW4__MIDL___MIDL_itf_synchronization_0000_0000_0001@@PAUISyncFullEnumerationChangeBatch@@PAUIUnknown@@PAUIEnumSyncChanges@@PAUISyncKnowledge@@PAUIForgottenKnowledge@@PAUIAsynchronousNotifyingChangeApplierTarget@@PAUISyncSessionState@@PAUISyncCallback@@@Z 10011b0c f   engine:ChangeApplier.obj
+ 0001:00010bd8       ?SaveKnowledgeComplete@CChangeApplier@@UAAJXZ 10011bd8 f   engine:ChangeApplier.obj
+ 0001:00010c58       ?LoadChangeDataComplete@CChangeApplier@@UAAJPAUIUnknown@@@Z 10011c58 f   engine:ChangeApplier.obj
+ 0001:00010d38       ?SaveChangeComplete@CChangeApplier@@UAAJXZ 10011d38 f   engine:ChangeApplier.obj
+ 0001:00010db8       ?SaveConflictComplete@CChangeApplier@@UAAJXZ 10011db8 f   engine:ChangeApplier.obj
+ 0001:00010e38       ?AddRef@FilterInfo@@UAAKXZ 10011e38 f   engine:FilterInfo.obj
+ 0001:00010e40       ?QueryInterface@FilterInfo@@UAAJABU_GUID@@PAPAX@Z 10011e40 f   engine:FilterInfo.obj
+ 0001:00010eec       ?Serialize@FilterInfo@@UAAJPAEPAK@Z 10011eec f   engine:FilterInfo.obj
+ 0001:00010f84       ?GetFlags@FilterInfo@@UAAJPAK@Z 10011f84 f   engine:FilterInfo.obj
+ 0001:00010fa4       ??1FilterInfo@@QAA@XZ      10011fa4 f i engine:FilterInfo.obj
+ 0001:00010fe0       ?Deserialize@FilterInfo@@SAJPAVIdParameters@@PBEKPAPAUISyncFilterInfo@@@Z 10011fe0 f   engine:FilterInfo.obj
+ 0001:00011180       ?Release@FilterInfo@@UAAKXZ 10012180 f   engine:FilterInfo.obj
+ 0001:000111b8       ?AddRef@CRecoverableError@@UAAKXZ 100121b8 f   engine:RecoverableError.obj
+ 0001:000111c0       ?AddRef@CRecoverableErrorData@@UAAKXZ 100121c0 f   engine:RecoverableError.obj
+ 0001:000111c8       ?GetErrorDescription@CRecoverableErrorData@@UAAJPAGPAK@Z 100121c8 f   engine:RecoverableError.obj
+ 0001:00011268       ??1CRecoverableError@@QAA@XZ 10012268 f   engine:RecoverableError.obj
+ 0001:00011298       ?Init@CRecoverableError@@QAAJW4__MIDL___MIDL_itf_synchronization_0000_0000_0002@@W4__MIDL___MIDL_itf_synchronization_0000_0000_0003@@PAUISyncChangePrivate@@@Z 10012298 f   engine:RecoverableError.obj
+ 0001:000112e8       ?QueryInterface@CRecoverableError@@UAAJABU_GUID@@PAPAX@Z 100122e8 f   engine:RecoverableError.obj
+ 0001:00011374       ?GetStage@CRecoverableError@@UAAJPAW4__MIDL___MIDL_itf_synchronization_0000_0000_0002@@@Z 10012374 f   engine:RecoverableError.obj
+ 0001:00011394       ?GetProvider@CRecoverableError@@UAAJPAW4__MIDL___MIDL_itf_synchronization_0000_0000_0003@@@Z 10012394 f   engine:RecoverableError.obj
+ 0001:000113b4       ?GetChangeWithRecoverableError@CRecoverableError@@UAAJPAPAUISyncChange@@@Z 100123b4 f   engine:RecoverableError.obj
+ 0001:000113e4       ?GetRecoverableErrorDataForChange@CRecoverableError@@UAAJPAJPAPAUIRecoverableErrorData@@@Z 100123e4 f   engine:RecoverableError.obj
+ 0001:00011434       ?GetRecoverableErrorDataForChangeUnit@CRecoverableError@@UAAJPAUISyncChangeUnit@@PAJPAPAUIRecoverableErrorData@@@Z 10012434 f   engine:RecoverableError.obj
+ 0001:000114d4       ??0CRecoverableErrorData@@QAA@XZ 100124d4 f   engine:RecoverableError.obj
+ 0001:00011508       ??1CRecoverableErrorData@@QAA@XZ 10012508 f   engine:RecoverableError.obj
+ 0001:00011544       ?QueryInterface@CRecoverableErrorData@@UAAJABU_GUID@@PAPAX@Z 10012544 f   engine:RecoverableError.obj
+ 0001:000115d0       ?Initialize@CRecoverableErrorData@@UAAJPBG0@Z 100125d0 f   engine:RecoverableError.obj
+ 0001:00011694       ?GetItemDisplayName@CRecoverableErrorData@@UAAJPAGPAK@Z 10012694 f   engine:RecoverableError.obj
+ 0001:00011734       ??0CRecoverableError@@QAA@XZ 10012734 f   engine:RecoverableError.obj
+ 0001:00011770       ?Release@CRecoverableError@@UAAKXZ 10012770 f   engine:RecoverableError.obj
+ 0001:000117a8       ?CRecoverableError_CreateInstance@@YAJW4__MIDL___MIDL_itf_synchronization_0000_0000_0002@@W4__MIDL___MIDL_itf_synchronization_0000_0000_0003@@PAUISyncChangePrivate@@PAPAUIRecoverableError@@@Z 100127a8 f   engine:RecoverableError.obj
+ 0001:00011854       ?Release@CRecoverableErrorData@@UAAKXZ 10012854 f   engine:RecoverableError.obj
+ 0001:0001188c       ?AllocateAndCopyId@IdParameterPair@@QAAJPAPAEPBE@Z 1001288c f i engine:SyncChangeManager.obj
+ 0001:00011910       ?QueryInterface@CSyncChangeBatch@@UAAJABU_GUID@@PAPAX@Z 10012910 f   engine:SyncChangeManager.obj
+ 0001:00011abc       ?AddRef@CSyncChangeBatch@@UAAKXZ 10012abc f   engine:SyncChangeManager.obj
+ 0001:00011ac4       ?Next@CSyncChangeBatch@@UAAJKPAPAUISyncChange@@PAK@Z 10012ac4 f   engine:SyncChangeManager.obj
+ 0001:00011af0       ?AllocateId@IdParameterPair@@QAAJPAPAEPAK@Z 10012af0 f i engine:SyncChangeManager.obj
+ 0001:00011b48       ?MoveBack@CSyncChangeBatch@@UAAJXZ 10012b48 f   engine:SyncChangeManager.obj
+ 0001:00011b68       ?CreateMaxId@IdParameterPair@@QAAJPAPAE@Z 10012b68 f i engine:SyncChangeManager.obj
+ 0001:00011bd4       ?GetEmptyChangeBatchKnowledge@CSyncChangeBatch@@UAAJPAPAUISyncKnowledge@@@Z 10012bd4 f   engine:SyncChangeManager.obj
+ 0001:00011c38       ?RemapKnowledges@CSyncChangeBatch@@UAAJPAUISyncKnowledge@@@Z 10012c38 f   engine:SyncChangeManager.obj
+ 0001:00011cdc       ?GetMappedKnowledgeForMadeWithKnowledge@CSyncChangeBatch@@UAAJPAUISyncKnowledge@@PAPAU2@@Z 10012cdc f   engine:SyncChangeManager.obj
+ 0001:00011dc4       ?GetIsLastBatch@CSyncChangeBatch@@UAAJPAH@Z 10012dc4 f   engine:SyncChangeManager.obj
+ 0001:00011de4       ?GetWorkEstimateForBatch@CSyncChangeBatch@@UAAJPAK@Z 10012de4 f   engine:SyncChangeManager.obj
+ 0001:00011e04       ?GetRemainingWorkEstimateForSession@CSyncChangeBatch@@UAAJPAK@Z 10012e04 f   engine:SyncChangeManager.obj
+ 0001:00011e24       ?BeginUnorderedGroup@CSyncChangeBatch@@UAAJXZ 10012e24 f   engine:SyncChangeManager.obj
+ 0001:00011e70       ?SetLastBatch@CSyncChangeBatch@@UAAJXZ 10012e70 f   engine:SyncChangeManager.obj
+ 0001:00011e80       ?SetWorkEstimateForBatch@CSyncChangeBatch@@UAAJK@Z 10012e80 f   engine:SyncChangeManager.obj
+ 0001:00011e8c       ?SetRemainingWorkEstimateForSession@CSyncChangeBatch@@UAAJK@Z 10012e8c f   engine:SyncChangeManager.obj
+ 0001:00011e98       ?SetFullEnumerationActionOverride@CSyncChangeBatch@@UAAJHW4__MIDL___MIDL_itf_synchronization_0000_0038_0001@@@Z 10012e98 f   engine:SyncChangeManager.obj
+ 0001:00011ea8       ?GetFullEnumerationActionOverride@CSyncChangeBatch@@UAAJPAHPAW4__MIDL___MIDL_itf_synchronization_0000_0038_0001@@@Z 10012ea8 f   engine:SyncChangeManager.obj
+ 0001:00011ed8       ?GetPrerequisiteKnowledge@CSyncChangeBatch@@UAAJPAPAUISyncKnowledge@@@Z 10012ed8 f   engine:SyncChangeManager.obj
+ 0001:00011f1c       ?GetSourceForgottenKnowledge@CSyncChangeBatch@@UAAJPAPAUIForgottenKnowledge@@@Z 10012f1c f   engine:SyncChangeManager.obj
+ 0001:00011f60       ?SetClosedLowerBoundForFullEnumeration@CSyncChangeBatch@@QAAJPBE@Z 10012f60 f   engine:SyncChangeManager.obj
+ 0001:00011fc4       ?SetFullEnumerationState@CSyncChangeBatch@@UAAJH@Z 10012fc4 f   engine:SyncChangeManager.obj
+ 0001:00011fd0       ?GetIsFiltered@CSyncChangeBatch@@UAAJPAH@Z 10012fd0 f   engine:SyncChangeManager.obj
+ 0001:00011fe0       ?QueryInterface@?$CollectionManager@UISyncChange@@@@UAAJABU_GUID@@PAPAX@Z 10012fe0 f i engine:SyncChangeManager.obj
+ 0001:00012050       ?AddRef@?$CollectionManager@UISyncChange@@@@UAAKXZ 10013050 f i engine:SyncChangeManager.obj
+ 0001:00012058       ?Add@?$CollectionManager@UISyncChange@@@@QAAJPAUISyncChange@@@Z 10013058 f i engine:SyncChangeManager.obj
+ 0001:000120cc       ?PreInsert@?$CollectionManager@UISyncChange@@@@QAAJPAUISyncChange@@PAPAU?$CollectionElement@UISyncChange@@@@@Z 100130cc f i engine:SyncChangeManager.obj
+ 0001:000121a4       ?CopyIdFromInput@IdParameterPair@@QAAJPAPAEPBE@Z 100131a4 f i engine:SyncChangeManager.obj
+ 0001:00012204       ?Init@CSyncChangeBatch@@QAAJXZ 10013204 f   engine:SyncChangeManager.obj
+ 0001:000122bc       ?DecrementId@IdParameterPair@@QAAJPBEPAPAE@Z 100132bc f i engine:SyncChangeManager.obj
+ 0001:00012494       ?Reset@CSyncChangeBatch@@UAAJXZ 10013494 f   engine:SyncChangeManager.obj
+ 0001:000124b8       ?Add@CSyncChangeBatch@@UAAJPAUISyncChange@@@Z 100134b8 f   engine:SyncChangeManager.obj
+ 0001:00012508       ?AddForgottenDelete@CSyncChangeBatch@@UAAJPAE@Z 10013508 f   engine:SyncChangeManager.obj
+ 0001:000129a8       ?AddMadeWithKnowledge@CSyncChangeBatch@@AAAJPAUISyncKnowledge@@HH@Z 100139a8 f   engine:SyncChangeManager.obj
+ 0001:00012bd0       ?AddItem@CSyncChangeBatch@@AAAJPBE0PBU_SYNC_VERSION@@1KKPAUISyncKnowledge@@PAPAUISyncChangeBuilder@@@Z 10013bd0 f   engine:SyncChangeManager.obj
+ 0001:00012ec8       ?AddBoundary@CSyncChangeBatch@@AAAJPAEK@Z 10013ec8 f   engine:SyncChangeManager.obj
+ 0001:00012fdc       ?Serialize@CSyncChangeBatch@@UAAJPAEPAK@Z 10013fdc f   engine:SyncChangeManager.obj
+ 0001:0001371c       ?AddItemMetadata@CSyncChangeBatch@@UAAJPBE0PBU_SYNC_VERSION@@1KPAPAUISyncChangeBuilder@@@Z 1001471c f   engine:SyncChangeManager.obj
+ 0001:00013758       ?GetCurrent@CSyncChangeBatch@@AAAJPAPAUISyncChange@@H@Z 10014758 f   engine:SyncChangeManager.obj
+ 0001:00013870       ?GetLearnedKnowledgeAfterRecoveryComplete@CSyncChangeBatch@@UAAJPAPAUISyncKnowledge@@@Z 10014870 f   engine:SyncChangeManager.obj
+ 0001:00013a44       ?GetUpperBoundItemIdInternal@CSyncChangeBatch@@UAAJPAPAE@Z 10014a44 f   engine:SyncChangeManager.obj
+ 0001:00013c24       ?GetBatchLevelKnowledgeProcessingNeeded@CSyncChangeBatch@@UAAJXZ 10014c24 f   engine:SyncChangeManager.obj
+ 0001:00013d50       ?GetClosedUpperBoundItemId@CSyncChangeBatch@@UAAJPAEPAK@Z 10014d50 f   engine:SyncChangeManager.obj
+ 0001:00013d98       ??1?$CollectionManager@UISyncChange@@@@QAA@XZ 10014d98 f i engine:SyncChangeManager.obj
+ 0001:00013df8       ?RemoveElement@?$CollectionManager@UISyncChange@@@@QAAJPAU?$CollectionElement@UISyncChange@@@@@Z 10014df8 f i engine:SyncChangeManager.obj
+ 0001:00013e70       ??0CSyncChangeBatch@@QAA@PAVIdParameters@@PAV?$CollectionManager@UISyncChange@@@@PAUISyncKnowledge@@PAUIForgottenKnowledge@@PAUISyncFilterInfo@@HH@Z 10014e70 f i engine:SyncChangeManager.obj
+ 0001:00013fc0       ?Skip@CSyncChangeBatch@@UAAJK@Z 10014fc0 f i engine:SyncChangeManager.obj
+ 0001:00013fcc       ?Clone@CSyncChangeBatch@@UAAJPAPAUIEnumSyncChanges@@@Z 10014fcc f i engine:SyncChangeManager.obj
+ 0001:00013fd8       ?AddRef@CSyncChangeBatch@@WM@AAKXZ 10014fd8 f i engine:SyncChangeManager.obj
+ 0001:00013fe0       ?GetRemainingWorkEstimateForSession@CSyncChangeBatch@@W7AAJPAK@Z 10014fe0 f i engine:SyncChangeManager.obj
+ 0001:00013fe8       ?GetWorkEstimateForBatch@CSyncChangeBatch@@W3AAJPAK@Z 10014fe8 f i engine:SyncChangeManager.obj
+ 0001:00013ff0       ?GetSourceForgottenKnowledge@CSyncChangeBatch@@W7AAJPAPAUIForgottenKnowledge@@@Z 10014ff0 f i engine:SyncChangeManager.obj
+ 0001:00013ff8       ?SetRemainingWorkEstimateForSession@CSyncChangeBatch@@W3AAJK@Z 10014ff8 f i engine:SyncChangeManager.obj
+ 0001:00014000       ?GetPrerequisiteKnowledge@CSyncChangeBatch@@W3AAJPAPAUISyncKnowledge@@@Z 10015000 f i engine:SyncChangeManager.obj
+ 0001:00014008       ?QueryInterface@CSyncChangeBatch@@W3AAJABU_GUID@@PAPAX@Z 10015008 f i engine:SyncChangeManager.obj
+ 0001:00014010       ?AddRef@CSyncChangeBatch@@WBA@AAKXZ 10015010 f i engine:SyncChangeManager.obj
+ 0001:00014018       ?GetWorkEstimateForBatch@CSyncChangeBatch@@W7AAJPAK@Z 10015018 f i engine:SyncChangeManager.obj
+ 0001:00014020       ?SetWorkEstimateForBatch@CSyncChangeBatch@@W3AAJK@Z 10015020 f i engine:SyncChangeManager.obj
+ 0001:00014028       ?SetRemainingWorkEstimateForSession@CSyncChangeBatch@@W7AAJK@Z 10015028 f i engine:SyncChangeManager.obj
+ 0001:00014030       ?GetPrerequisiteKnowledge@CSyncChangeBatch@@W7AAJPAPAUISyncKnowledge@@@Z 10015030 f i engine:SyncChangeManager.obj
+ 0001:00014038       ?QueryInterface@CSyncChangeBatch@@W7AAJABU_GUID@@PAPAX@Z 10015038 f i engine:SyncChangeManager.obj
+ 0001:00014040       ?SetWorkEstimateForBatch@CSyncChangeBatch@@W7AAJK@Z 10015040 f i engine:SyncChangeManager.obj
+ 0001:00014048       ?SetLastBatch@CSyncChangeBatch@@W3AAJXZ 10015048 f i engine:SyncChangeManager.obj
+ 0001:00014050       ?QueryInterface@CSyncChangeBatch@@WM@AAJABU_GUID@@PAPAX@Z 10015050 f i engine:SyncChangeManager.obj
+ 0001:00014058       ?SetLastBatch@CSyncChangeBatch@@W7AAJXZ 10015058 f i engine:SyncChangeManager.obj
+ 0001:00014060       ?GetIsLastBatch@CSyncChangeBatch@@W3AAJPAH@Z 10015060 f i engine:SyncChangeManager.obj
+ 0001:00014068       ?QueryInterface@CSyncChangeBatch@@WBA@AAJABU_GUID@@PAPAX@Z 10015068 f i engine:SyncChangeManager.obj
+ 0001:00014070       ?GetIsLastBatch@CSyncChangeBatch@@W7AAJPAH@Z 10015070 f i engine:SyncChangeManager.obj
+ 0001:00014078       ?AddRef@CSyncChangeBatch@@W3AAKXZ 10015078 f i engine:SyncChangeManager.obj
+ 0001:00014080       ?AddRef@CSyncChangeBatch@@W7AAKXZ 10015080 f i engine:SyncChangeManager.obj
+ 0001:00014088       ?GetRemainingWorkEstimateForSession@CSyncChangeBatch@@W3AAJPAK@Z 10015088 f i engine:SyncChangeManager.obj
+ 0001:00014090       ?GetSourceForgottenKnowledge@CSyncChangeBatch@@W3AAJPAPAUIForgottenKnowledge@@@Z 10015090 f i engine:SyncChangeManager.obj
+ 0001:00014098       ?Serialize@CSyncChangeBatch@@W3AAJPAEPAK@Z 10015098 f i engine:SyncChangeManager.obj
+ 0001:000140a0       ?Serialize@CSyncChangeBatch@@W7AAJPAEPAK@Z 100150a0 f i engine:SyncChangeManager.obj
+ 0001:000140a8       ?CopyIdForReturn@IdParameterPair@@QAAJPAEPAKPBE@Z 100150a8 f i engine:SyncChangeManager.obj
+ 0001:000141e4       ?NextPrivate@CSyncChangeBatch@@UAAJKHPAPAUISyncChange@@PAK@Z 100151e4 f   engine:SyncChangeManager.obj
+ 0001:00014278       ?EndUnorderedGroup@CSyncChangeBatch@@UAAJPAUISyncKnowledge@@H@Z 10015278 f   engine:SyncChangeManager.obj
+ 0001:00014490       ?BeginOrderedGroup@CSyncChangeBatch@@UAAJPBE@Z 10015490 f   engine:SyncChangeManager.obj
+ 0001:000145c8       ?EndOrderedGroup@CSyncChangeBatch@@UAAJPBEPAUISyncKnowledge@@@Z 100155c8 f   engine:SyncChangeManager.obj
+ 0001:00014850       ?GetLearnedKnowledge@CSyncChangeBatch@@UAAJPAPAUISyncKnowledge@@@Z 10015850 f   engine:SyncChangeManager.obj
+ 0001:00014e30       ?AddItemMetadataToGroup@CSyncChangeBatch@@UAAJPBE0PBU_SYNC_VERSION@@1KKPAPAUISyncChangeBuilder@@@Z 10015e30 f   engine:SyncChangeManager.obj
+ 0001:00014ed8       ?AddLoggedConflict@CSyncChangeBatch@@UAAJPBE0PBU_SYNC_VERSION@@1KKPAUISyncKnowledge@@PAPAUISyncChangeBuilder@@@Z 10015ed8 f   engine:SyncChangeManager.obj
+ 0001:00014f88       ?Deserialize@CSyncChangeBatch@@SAJPAVIdParameters@@PAUIProviderSyncServices@@PBEJPAPAV1@@Z 10015f88 f   engine:SyncChangeManager.obj
+ 0001:000159b4       ?GetClosedLowerBoundItemId@CSyncChangeBatch@@UAAJPAEPAK@Z 100169b4 f   engine:SyncChangeManager.obj
+ 0001:000159fc       ?CSyncChangeBatch_CreateInstance@@YAJPAVIdParameters@@PAUISyncKnowledge@@PAUIForgottenKnowledge@@PAUISyncFilterInfo@@HPBEHPAPAX@Z 100169fc f   engine:SyncChangeManager.obj
+ 0001:00015b88       ?Remove@?$CollectionManager@UISyncChange@@@@QAAJPAUISyncChange@@PAU?$CollectionElement@UISyncChange@@@@@Z 10016b88 f i engine:SyncChangeManager.obj
+ 0001:00015c0c       ?GetLearnedKnowledge@CSyncChangeBatch@@W3AAJPAPAUISyncKnowledge@@@Z 10016c0c f i engine:SyncChangeManager.obj
+ 0001:00015c14       ?GetLearnedKnowledge@CSyncChangeBatch@@W7AAJPAPAUISyncKnowledge@@@Z 10016c14 f i engine:SyncChangeManager.obj
+ 0001:00015c1c       ?BeginOrderedGroup@CSyncChangeBatch@@W3AAJPBE@Z 10016c1c f i engine:SyncChangeManager.obj
+ 0001:00015c24       ?BeginOrderedGroup@CSyncChangeBatch@@W7AAJPBE@Z 10016c24 f i engine:SyncChangeManager.obj
+ 0001:00015c2c       ?EndOrderedGroup@CSyncChangeBatch@@W3AAJPBEPAUISyncKnowledge@@@Z 10016c2c f i engine:SyncChangeManager.obj
+ 0001:00015c34       ?AddItemMetadataToGroup@CSyncChangeBatch@@W3AAJPBE0PBU_SYNC_VERSION@@1KKPAPAUISyncChangeBuilder@@@Z 10016c34 f i engine:SyncChangeManager.obj
+ 0001:00015c3c       ?EndOrderedGroup@CSyncChangeBatch@@W7AAJPBEPAUISyncKnowledge@@@Z 10016c3c f i engine:SyncChangeManager.obj
+ 0001:00015c44       ?AddItemMetadataToGroup@CSyncChangeBatch@@W7AAJPBE0PBU_SYNC_VERSION@@1KKPAPAUISyncChangeBuilder@@@Z 10016c44 f i engine:SyncChangeManager.obj
+ 0001:00015c4c       ??0CEnumSyncChanges@@QAA@PAV?$CollectionManager@UISyncChange@@@@@Z 10016c4c f i engine:SyncChangeManager.obj
+ 0001:00015c94       ?Skip@CEnumSyncChanges@@UAAJK@Z 10016c94 f i engine:SyncChangeManager.obj
+ 0001:00015ca0       ?Clone@CEnumSyncChanges@@UAAJPAPAUIEnumSyncChanges@@@Z 10016ca0 f i engine:SyncChangeManager.obj
+ 0001:00015cac       ?NextPrivate@CEnumSyncChanges@@UAAJKHPAPAUISyncChange@@PAK@Z 10016cac f i engine:SyncChangeManager.obj
+ 0001:00015cb8       ?AddForgottenDelete@CEnumSyncChanges@@UAAJPAE@Z 10016cb8 f i engine:SyncChangeManager.obj
+ 0001:00015cc4       ?GetEmptyChangeBatchKnowledge@CEnumSyncChanges@@UAAJPAPAUISyncKnowledge@@@Z 10016cc4 f i engine:SyncChangeManager.obj
+ 0001:00015cd0       ?RemapKnowledges@CEnumSyncChanges@@UAAJPAUISyncKnowledge@@@Z 10016cd0 f i engine:SyncChangeManager.obj
+ 0001:00015cdc       ?GetMappedKnowledgeForMadeWithKnowledge@CEnumSyncChanges@@UAAJPAUISyncKnowledge@@PAPAU2@@Z 10016cdc f i engine:SyncChangeManager.obj
+ 0001:00015ce8       ??1CSyncChangeBatch@@QAA@XZ 10016ce8 f i engine:SyncChangeManager.obj
+ 0001:00015e64       ?Remove@CSyncChangeBatch@@UAAJPAUISyncChange@@@Z 10016e64 f   engine:SyncChangeManager.obj
+ 0001:00015fcc       ?GetChangeEnumerator@CSyncChangeBatch@@UAAJPAPAUIEnumSyncChanges@@@Z 10016fcc f   engine:SyncChangeManager.obj
+ 0001:00016068       ?Release@?$CollectionManager@UISyncChange@@@@UAAKXZ 10017068 f i engine:SyncChangeManager.obj
+ 0001:000160a0       ?GetChangeEnumerator@CSyncChangeBatch@@W3AAJPAPAUIEnumSyncChanges@@@Z 100170a0 f i engine:SyncChangeManager.obj
+ 0001:000160a8       ?GetChangeEnumerator@CSyncChangeBatch@@W7AAJPAPAUIEnumSyncChanges@@@Z 100170a8 f i engine:SyncChangeManager.obj
+ 0001:000160b0       ?GetChangeEnumerator@CSyncChangeBatch@@WBA@AAJPAPAUIEnumSyncChanges@@@Z 100170b0 f i engine:SyncChangeManager.obj
+ 0001:000160b8       ?Release@CSyncChangeBatch@@UAAKXZ 100170b8 f   engine:SyncChangeManager.obj
+ 0001:000160f0       ?Release@CSyncChangeBatch@@W3AAKXZ 100170f0 f i engine:SyncChangeManager.obj
+ 0001:000160f8       ?Release@CSyncChangeBatch@@W7AAKXZ 100170f8 f i engine:SyncChangeManager.obj
+ 0001:00016100       ?Release@CSyncChangeBatch@@WM@AAKXZ 10017100 f i engine:SyncChangeManager.obj
+ 0001:00016108       ?Release@CSyncChangeBatch@@WBA@AAKXZ 10017108 f i engine:SyncChangeManager.obj
+ 0001:00016110       ?QueryInterface@CSyncChange@@UAAJABU_GUID@@PAPAX@Z 10017110 f   engine:SyncChange.obj
+ 0001:00016210       ?AddRef@CSyncChange@@UAAKXZ 10017210 f   engine:SyncChange.obj
+ 0001:00016218       ?GetWorkEstimate@CSyncChange@@UAAJPAK@Z 10017218 f   engine:SyncChange.obj
+ 0001:00016238       ?GetFlags@CSyncChange@@UAAJPAK@Z 10017238 f   engine:SyncChange.obj
+ 0001:0001625c       ?AddFlags@CSyncChange@@UAAJK@Z 1001725c f   engine:SyncChange.obj
+ 0001:00016274       ?SetConflict@CSyncChange@@UAAJPAUISyncChange@@0H@Z 10017274 f   engine:SyncChange.obj
+ 0001:000162b4       ?SetConflictWinnerVersion@CSyncChange@@UAAJPAUIAsynchronousNotifyingChangeApplierTarget@@PA_KPAU_SYNC_VERSION@@@Z 100172b4 f   engine:SyncChange.obj
+ 0001:00016374       ?GetMadeWithKnowledge@CSyncChange@@UAAJPAPAUISyncKnowledge@@@Z 10017374 f   engine:SyncChange.obj
+ 0001:000163cc       ?SetWorkEstimate@CSyncChange@@UAAJK@Z 100173cc f   engine:SyncChange.obj
+ 0001:000163d8       ?SetMadeWithKnowledge@CSyncChange@@UAAJPAUISyncKnowledge@@@Z 100173d8 f   engine:SyncChange.obj
+ 0001:00016420       ?SetFilter@CSyncChange@@UAAJW4SYNC_TRANSFER_FILTER@@@Z 10017420 f   engine:SyncChange.obj
+ 0001:0001643c       ?AddTransferFilter@CSyncChange@@UAAJW4SYNC_TRANSFER_FILTER@@@Z 1001743c f   engine:SyncChange.obj
+ 0001:00016454       ?GetTransferFilters@CSyncChange@@UAAJPAW4SYNC_TRANSFER_FILTER@@@Z 10017454 f   engine:SyncChange.obj
+ 0001:00016464       ?SetTransferFilters@CSyncChange@@UAAJW4SYNC_TRANSFER_FILTER@@@Z 10017464 f   engine:SyncChange.obj
+ 0001:00016470       ?SetConflictFilter@CSyncChange@@UAAJH@Z 10017470 f   engine:SyncChange.obj
+ 0001:0001649c       ?SetRecoverableError@CSyncChange@@UAAJJ@Z 1001749c f   engine:SyncChange.obj
+ 0001:000164cc       ?GetError@CSyncChange@@UAAJXZ 100174cc f   engine:SyncChange.obj
+ 0001:000164d4       ?SetRecoverableErrorData@CSyncChange@@UAAJPAUIRecoverableErrorData@@@Z 100174d4 f   engine:SyncChange.obj
+ 0001:0001651c       ?GetRecoverableErrorData@CSyncChange@@UAAJPAPAUIRecoverableErrorData@@@Z 1001751c f   engine:SyncChange.obj
+ 0001:0001656c       ?GetDestinationProviderConflictingChange@CSyncChange@@UAAJPAPAUISyncChange@@@Z 1001756c f   engine:SyncChange.obj
+ 0001:000165c0       ?GetSourceProviderConflictingChange@CSyncChange@@UAAJPAPAUISyncChange@@@Z 100175c0 f   engine:SyncChange.obj
+ 0001:00016614       ?GetDestinationProviderConflictingData@CSyncChange@@UAAJPAPAUIUnknown@@@Z 10017614 f   engine:SyncChange.obj
+ 0001:00016620       ?GetSourceProviderConflictingData@CSyncChange@@UAAJPAPAUIUnknown@@@Z 10017620 f   engine:SyncChange.obj
+ 0001:0001662c       ?GetResolveActionForChange@CSyncChange@@UAAJPAW4__MIDL___MIDL_itf_synchronization_0000_0008_0001@@@Z 1001762c f   engine:SyncChange.obj
+ 0001:00016664       ?GetRootItemIdInternal@CSyncChange@@UAAJPAPAE@Z 10017664 f   engine:SyncChange.obj
+ 0001:00016698       ?GetChangeUnitsInternal@CSyncChange@@UAAJPAPAUIEnumSyncChangeUnits@@@Z 10017698 f   engine:SyncChange.obj
+ 0001:00016700       ?SetListElement@CSyncChange@@UAAJPAU?$CollectionElement@UISyncChange@@@@@Z 10017700 f   engine:SyncChange.obj
+ 0001:0001670c       ?GetFlagsPrivate@CSyncChange@@UAAJPAK@Z 1001770c f   engine:SyncChange.obj
+ 0001:0001672c       ?GetOwnerReplicaIdInternal@CSyncChange@@UAAJPAPAE@Z 1001772c f   engine:SyncChange.obj
+ 0001:00016760       ?QueryInterface@?$CollectionManager@UISyncChangeUnit@@@@UAAJABU_GUID@@PAPAX@Z 10017760 f i engine:SyncChange.obj
+ 0001:000167d0       ?AddRef@?$CollectionManager@UISyncChangeUnit@@@@UAAKXZ 100177d0 f i engine:SyncChange.obj
+ 0001:000167d8       ?IncrementId@IdParameterPair@@QAAJPBEPAPAE@Z 100177d8 f i engine:SyncChange.obj
+ 0001:0001698c       ?Remap@CSyncChange@@UAAJPAUISyncKnowledge@@0PAUISyncChangeBatchBase@@@Z 1001798c f   engine:SyncChange.obj
+ 0001:00016cd4       ?GetLearnedKnowledge@CSyncChange@@UAAJPAPAUISyncKnowledge@@@Z 10017cd4 f   engine:SyncChange.obj
+ 0001:00017048       ?Replace@CSyncChange@@UAAJPAUISyncChange@@PAUISyncKnowledge@@@Z 10018048 f   engine:SyncChange.obj
+ 0001:00017270       ?SetResolveActionForChange@CSyncChange@@UAAJW4__MIDL___MIDL_itf_synchronization_0000_0008_0001@@@Z 10018270 f   engine:SyncChange.obj
+ 0001:000173a4       ?GetResolveActionForChangeUnit@CSyncChange@@UAAJPAUISyncChangeUnit@@PAW4__MIDL___MIDL_itf_synchronization_0000_0008_0001@@@Z 100183a4 f   engine:SyncChange.obj
+ 0001:00017418       ?SetResolveActionForChangeUnit@CSyncChange@@UAAJPAUISyncChangeUnit@@W4__MIDL___MIDL_itf_synchronization_0000_0008_0001@@@Z 10018418 f   engine:SyncChange.obj
+ 0001:000174b4       ?Serialize@CSyncChange@@UAAJPAEPAKPAPAUISyncKnowledge@@1K@Z 100184b4 f   engine:SyncChange.obj
+ 0001:00017bf8       ?GetOriginalChangeVersion@CSyncChange@@UAAJPBEPAU_SYNC_VERSION@@@Z 10018bf8 f   engine:SyncChange.obj
+ 0001:00017ca4       ?AddChangeUnitMetadata@CSyncChange@@UAAJPBEPBU_SYNC_VERSION@@@Z 10018ca4 f   engine:SyncChange.obj
+ 0001:00017d24       ??0CEnumSyncChangeUnits@@QAA@PAV?$CollectionManager@UISyncChangeUnit@@@@@Z 10018d24 f i engine:SyncChange.obj
+ 0001:00017d7c       ?Skip@CEnumSyncChangeUnits@@UAAJK@Z 10018d7c f i engine:SyncChange.obj
+ 0001:00017d88       ?Clone@CEnumSyncChangeUnits@@UAAJPAPAUIEnumSyncChangeUnits@@@Z 10018d88 f i engine:SyncChange.obj
+ 0001:00017d94       ??0CSyncChange@@QAA@PAVIdParameters@@@Z 10018d94 f   engine:SyncChange.obj
+ 0001:00017e24       ?SetIsCreate@CSyncChange@@UAAJXZ 10018e24 f i engine:SyncChange.obj
+ 0001:00017e34       ?GetIsCreate@CSyncChange@@UAAJXZ 10018e34 f i engine:SyncChange.obj
+ 0001:00017e48       ?GetIsForgottenChange@CSyncChange@@UAAJXZ 10018e48 f i engine:SyncChange.obj
+ 0001:00017e5c       ?AddRef@CSyncChange@@W3AAKXZ 10018e5c f i engine:SyncChange.obj
+ 0001:00017e64       ?AddRef@CSyncChange@@W7AAKXZ 10018e64 f i engine:SyncChange.obj
+ 0001:00017e6c       ?QueryInterface@CSyncChange@@W3AAJABU_GUID@@PAPAX@Z 10018e6c f i engine:SyncChange.obj
+ 0001:00017e74       ?QueryInterface@CSyncChange@@W7AAJABU_GUID@@PAPAX@Z 10018e74 f i engine:SyncChange.obj
+ 0001:00017e7c       ?Init@CSyncChange@@QAAJPBEPBU_SYNC_VERSION@@110KKHHPAUISyncKnowledge@@@Z 10018e7c f   engine:SyncChange.obj
+ 0001:0001800c       ?Init_Boundary@CSyncChange@@QAAJPAVIdParameters@@PAEK@Z 1001900c f   engine:SyncChange.obj
+ 0001:00018084       ?GetOwnerReplicaId@CSyncChange@@UAAJPAEPAK@Z 10019084 f   engine:SyncChange.obj
+ 0001:00018090       ?GetRootItemId@CSyncChange@@UAAJPAEPAK@Z 10019090 f   engine:SyncChange.obj
+ 0001:000180a8       ?GetChangeVersion@CSyncChange@@UAAJPBEPAU_SYNC_VERSION@@@Z 100190a8 f   engine:SyncChange.obj
+ 0001:00018154       ?GetCreationVersion@CSyncChange@@UAAJPBEPAU_SYNC_VERSION@@@Z 10019154 f   engine:SyncChange.obj
+ 0001:000181ec       ?GetChangeUnits@CSyncChange@@UAAJPAPAUIEnumSyncChangeUnits@@@Z 100191ec f   engine:SyncChange.obj
+ 0001:0001831c       ?AddChangeUnit@CSyncChange@@UAAJPBEPBU_SYNC_VERSION@@1@Z 1001931c f   engine:SyncChange.obj
+ 0001:00018470       ?CloneChangeUnitEnum@CSyncChange@@UAAJPAPAVCEnumSyncChangeUnits@@PAUISyncChange@@@Z 10019470 f   engine:SyncChange.obj
+ 0001:000186dc       ?Deserialize@CSyncChange@@SAJPAVIdParameters@@PBEJPAPAUISyncKnowledge@@KPAPAV1@@Z 100196dc f   engine:SyncChange.obj
+ 0001:0001906c       ?CSyncChange_CreateInstance@@YAJPAVIdParameters@@PBEPBU_SYNC_VERSION@@21KKHHPAUISyncKnowledge@@PAPAUISyncChange@@@Z 1001a06c f   engine:SyncChange.obj
+ 0001:0001917c       ?CSyncChange_CreateBoundary@@YAJPAVIdParameters@@PAEKPAPAUISyncChange@@@Z 1001a17c f   engine:SyncChange.obj
+ 0001:00019234       ??1?$CollectionManager@UISyncChangeUnit@@@@QAA@XZ 1001a234 f i engine:SyncChange.obj
+ 0001:00019294       ??1CSyncChange@@QAA@XZ     1001a294 f   engine:SyncChange.obj
+ 0001:00019374       ?Release@CSyncChange@@UAAKXZ 1001a374 f   engine:SyncChange.obj
+ 0001:000193ac       ?Release@?$CollectionManager@UISyncChangeUnit@@@@UAAKXZ 1001a3ac f i engine:SyncChange.obj
+ 0001:000193e4       ?Release@CSyncChange@@W7AAKXZ 1001a3e4 f i engine:SyncChange.obj
+ 0001:000193ec       ?Release@CSyncChange@@W3AAKXZ 1001a3ec f i engine:SyncChange.obj
+ 0001:000193f4       ?QueryInterface@CSyncSession@@UAAJABU_GUID@@PAPAX@Z 1001a3f4 f   engine:SyncSession.obj
+ 0001:00019520       ?AddRef@CSyncSession@@UAAKXZ 1001a520 f   engine:SyncSession.obj
+ 0001:00019544       ?RegisterCallback@CSyncSession@@UAAJPAUISyncCallback@@@Z 1001a544 f   engine:SyncSession.obj
+ 0001:000195b0       ?IsCanceled@CSyncSession@@UAAJPAH@Z 1001a5b0 f   engine:SyncSession.obj
+ 0001:000195e4       ?GetInfoForChangeApplication@CSyncSession@@UAAJPAEPAK@Z 1001a5e4 f   engine:SyncSession.obj
+ 0001:00019604       ?LoadInfoFromChangeApplication@CSyncSession@@UAAJPBEK@Z 1001a604 f   engine:SyncSession.obj
+ 0001:00019624       ?OnProgress@CSyncSession@@UAAJW4__MIDL___MIDL_itf_synchronization_0000_0000_0003@@W4__MIDL___MIDL_itf_synchronization_0000_0000_0002@@KK@Z 1001a624 f   engine:SyncSession.obj
+ 0001:000196d8       ?GetChangeApplierState@CSyncSession@@UAAJPAPAU_CHANGE_APPLIER_STATE@@@Z 1001a6d8 f   engine:SyncSession.obj
+ 0001:00019700       ?SetChangeApplierState@CSyncSession@@UAAJPAU_CHANGE_APPLIER_STATE@@@Z 1001a700 f   engine:SyncSession.obj
+ 0001:00019730       ?OnChange@CSyncSession@@UAAJPAUISyncChange@@@Z 1001a730 f   engine:SyncSession.obj
+ 0001:00019758       ?OnConflict@CSyncSession@@UAAJPAUIChangeConflict@@@Z 1001a758 f   engine:SyncSession.obj
+ 0001:00019780       ?OnFullEnumerationNeeded@CSyncSession@@UAAJPAW4__MIDL___MIDL_itf_synchronization_0000_0038_0001@@@Z 1001a780 f   engine:SyncSession.obj
+ 0001:000197a8       ?OnRecoverableError@CSyncSession@@UAAJPAUIRecoverableError@@@Z 1001a7a8 f   engine:SyncSession.obj
+ 0001:000197d0       ?InitNonProviderState@CSyncSession@@AAAJXZ 1001a7d0 f   engine:SyncSession.obj
+ 0001:00019818       ?Init@CSyncSession@@QAAJPAUISyncProvider@@0@Z 1001a818 f   engine:SyncSession.obj
+ 0001:00019888       ?SetForgottenKnowledgeRecoveryRange@CSyncSession@@UAAJPBU_SYNC_RANGE@@@Z 1001a888 f   engine:SyncSession.obj
+ 0001:0001998c       ?ChangeSessionState@CSyncSession@@AAAJW4SessionState@@@Z 1001a98c f   engine:SyncSession.obj
+ 0001:00019b7c       ?GetChangeBatchHandler@CSyncSession@@AAAJPAUISyncKnowledge@@KPAPAUISyncChangeBatchBase@@PAPAUIUnknown@@@Z 1001ab7c f   engine:SyncSession.obj
+ 0001:00019eb0       ?ProcessChangeBatchHandler@CSyncSession@@AAAJPAUISyncChangeBatchBase@@PAUIUnknown@@PAUISyncKnowledge@@K@Z 1001aeb0 f   engine:SyncSession.obj
+ 0001:0001a770       ??0CSyncSession@@QAA@PAVIdParameters@@@Z 1001b770 f   engine:SyncSession.obj
+ 0001:0001a810       ?InterfaceSupportsErrorInfo@CSyncSession@@UAAJABU_GUID@@@Z 1001b810 f i engine:SyncSession.obj
+ 0001:0001a818       ?OnProgress@CSyncSession@@W7AAJW4__MIDL___MIDL_itf_synchronization_0000_0000_0003@@W4__MIDL___MIDL_itf_synchronization_0000_0000_0002@@KK@Z 1001b818 f i engine:SyncSession.obj
+ 0001:0001a820       ?AddRef@CSyncSession@@WM@AAKXZ 1001b820 f i engine:SyncSession.obj
+ 0001:0001a828       ?QueryInterface@CSyncSession@@W7AAJABU_GUID@@PAPAX@Z 1001b828 f i engine:SyncSession.obj
+ 0001:0001a830       ?QueryInterface@CSyncSession@@WM@AAJABU_GUID@@PAPAX@Z 1001b830 f i engine:SyncSession.obj
+ 0001:0001a838       ?AddRef@CSyncSession@@W3AAKXZ 1001b838 f i engine:SyncSession.obj
+ 0001:0001a840       ?AddRef@CSyncSession@@W7AAKXZ 1001b840 f i engine:SyncSession.obj
+ 0001:0001a848       ?QueryInterface@CSyncSession@@W3AAJABU_GUID@@PAPAX@Z 1001b848 f i engine:SyncSession.obj
+ 0001:0001a850       ?Cancel@CSyncSession@@UAAJXZ 1001b850 f   engine:SyncSession.obj
+ 0001:0001a878       ?GetForgottenKnowledgeRecoveryRangeStart@CSyncSession@@UAAJPAEPAK@Z 1001b878 f   engine:SyncSession.obj
+ 0001:0001a890       ?GetForgottenKnowledgeRecoveryRangeEnd@CSyncSession@@UAAJPAEPAK@Z 1001b890 f   engine:SyncSession.obj
+ 0001:0001a8a8       ?Sync@CSyncSession@@AAAJPAU_SYNC_SESSION_STATISTICS@@@Z 1001b8a8 f   engine:SyncSession.obj
+ 0001:0001ab90       ?CSyncSession_CreateInstance@@YAJPAVIdParameters@@PAUISyncProvider@@1ABU_GUID@@PAPAX@Z 1001bb90 f   engine:SyncSession.obj
+ 0001:0001ac30       ??1CSyncSession@@QAA@XZ    1001bc30 f   engine:SyncSession.obj
+ 0001:0001ad08       ?Start@CSyncSession@@UAAJW4__MIDL___MIDL_itf_synchronization_0000_0000_0001@@PAU_SYNC_SESSION_STATISTICS@@@Z 1001bd08 f   engine:SyncSession.obj
+ 0001:0001adc0       ?Release@CSyncSession@@UAAKXZ 1001bdc0 f   engine:SyncSession.obj
+ 0001:0001ae28       ?Release@CSyncSession@@W3AAKXZ 1001be28 f i engine:SyncSession.obj
+ 0001:0001ae30       ?Release@CSyncSession@@W7AAKXZ 1001be30 f i engine:SyncSession.obj
+ 0001:0001ae38       ?Release@CSyncSession@@WM@AAKXZ 1001be38 f i engine:SyncSession.obj
+ 0001:0001ae40       ?QueryInterface@CSyncChangeContext@@UAAJABU_GUID@@PAPAX@Z 1001be40 f   engine:SyncChangeContext.obj
+ 0001:0001af10       ?AddRef@CSyncChangeContext@@UAAKXZ 1001bf10 f   engine:SyncChangeContext.obj
+ 0001:0001af18       ?GetChangeData@CSyncChangeContext@@UAAJPAPAUIUnknown@@@Z 1001bf18 f   engine:SyncChangeContext.obj
+ 0001:0001af58       ?GetKnowledgeForScope@CSyncChangeContext@@UAAJPAPAUISyncKnowledge@@PAPAUIForgottenKnowledge@@@Z 1001bf58 f   engine:SyncChangeContext.obj
+ 0001:0001b06c       ?GetChangeFromDestinationVersions@CSyncChangeContext@@UAAJPAPAUISyncChange@@@Z 1001c06c f   engine:SyncChangeContext.obj
+ 0001:0001b0bc       ?GetSyncChange@CSyncChangeContext@@UAAJPAPAUISyncChange@@@Z 1001c0bc f   engine:SyncChangeContext.obj
+ 0001:0001b0fc       ?Init@CSyncChangeContext@@QAAJPAUISyncChange@@0PAUIUnknown@@PAUISyncKnowledge@@2PAUIForgottenKnowledge@@3@Z 1001c0fc f   engine:SyncChangeContext.obj
+ 0001:0001b28c       ?SetRecoverableErrorOnChange@CSyncChangeContext@@UAAJJPAUIRecoverableErrorData@@@Z 1001c28c f   engine:SyncChangeContext.obj
+ 0001:0001b478       ?GetActionForChangeUnit@CSyncChangeContext@@UAAJPAUISyncChangeUnit@@PAW4__MIDL___MIDL_itf_synchronization_0000_0009_0001@@@Z 1001c478 f   engine:SyncChangeContext.obj
+ 0001:0001b520       ?SetRecoverableErrorOnChangeUnit@CSyncChangeContext@@UAAJJPAUISyncChangeUnit@@PAUIRecoverableErrorData@@@Z 1001c520 f   engine:SyncChangeContext.obj
+ 0001:0001b7e4       ??0CSyncChangeContext@@QAA@PAVIdParameters@@H@Z 1001c7e4 f   engine:SyncChangeContext.obj
+ 0001:0001b858       ?AddRef@CSyncChangeContext@@W3AAKXZ 1001c858 f i engine:SyncChangeContext.obj
+ 0001:0001b860       ?QueryInterface@CSyncChangeContext@@W3AAJABU_GUID@@PAPAX@Z 1001c860 f i engine:SyncChangeContext.obj
+ 0001:0001b868       ?SetRecoverableErrorOnChange@CSyncChangeContext@@W3AAJJPAUIRecoverableErrorData@@@Z 1001c868 f i engine:SyncChangeContext.obj
+ 0001:0001b870       ?SetRecoverableErrorOnChangeUnit@CSyncChangeContext@@W3AAJJPAUISyncChangeUnit@@PAUIRecoverableErrorData@@@Z 1001c870 f i engine:SyncChangeContext.obj
+ 0001:0001b878       ?CSyncChangeContext_CreateInstance@@YAJPAVIdParameters@@PAUISyncChange@@1PAUIUnknown@@PAUISyncKnowledge@@3PAUIForgottenKnowledge@@4HPAPAVCSyncChangeContext@@@Z 1001c878 f   engine:SyncChangeContext.obj
+ 0001:0001b958       ??1CSyncChangeContext@@QAA@XZ 1001c958 f   engine:SyncChangeContext.obj
+ 0001:0001ba30       ?Release@CSyncChangeContext@@UAAKXZ 1001ca30 f   engine:SyncChangeContext.obj
+ 0001:0001ba68       ?Release@CSyncChangeContext@@W3AAKXZ 1001ca68 f i engine:SyncChangeContext.obj
+ 0001:0001ba70       ?QueryInterface@CSyncChangeUnit@@UAAJABU_GUID@@PAPAX@Z 1001ca70 f   engine:SyncChangeUnit.obj
+ 0001:0001bb18       ?AddRef@CSyncChangeUnit@@UAAKXZ 1001cb18 f   engine:SyncChangeUnit.obj
+ 0001:0001bb20       ?GetItemChange@CSyncChangeUnit@@UAAJPAPAUISyncChange@@@Z 1001cb20 f   engine:SyncChangeUnit.obj
+ 0001:0001bb58       ?SetConflict@CSyncChangeUnit@@UAAJXZ 1001cb58 f   engine:SyncChangeUnit.obj
+ 0001:0001bb68       ?SetConflictWinnerVersion@CSyncChangeUnit@@UAAJPAUIAsynchronousNotifyingChangeApplierTarget@@PA_K@Z 1001cb68 f   engine:SyncChangeUnit.obj
+ 0001:0001bbcc       ?AddTransferFilter@CSyncChangeUnit@@UAAJW4SYNC_TRANSFER_FILTER@@@Z 1001cbcc f   engine:SyncChangeUnit.obj
+ 0001:0001bbe4       ?GetTransferFilters@CSyncChangeUnit@@UAAJPAW4SYNC_TRANSFER_FILTER@@@Z 1001cbe4 f   engine:SyncChangeUnit.obj
+ 0001:0001bbf4       ?SetRecoverableError@CSyncChangeUnit@@UAAJJ@Z 1001cbf4 f   engine:SyncChangeUnit.obj
+ 0001:0001bc24       ?GetError@CSyncChangeUnit@@UAAJXZ 1001cc24 f   engine:SyncChangeUnit.obj
+ 0001:0001bc2c       ?SetRecoverableErrorData@CSyncChangeUnit@@UAAJPAUIRecoverableErrorData@@@Z 1001cc2c f   engine:SyncChangeUnit.obj
+ 0001:0001bc74       ?GetRecoverableErrorData@CSyncChangeUnit@@UAAJPAPAUIRecoverableErrorData@@@Z 1001cc74 f   engine:SyncChangeUnit.obj
+ 0001:0001bcc4       ?SetNewParent@CSyncChangeUnit@@UAAJPAUISyncChange@@@Z 1001ccc4 f   engine:SyncChangeUnit.obj
+ 0001:0001bcd0       ?GetChangeUnitIdInternal@CSyncChangeUnit@@UAAJPAPAE@Z 1001ccd0 f   engine:SyncChangeUnit.obj
+ 0001:0001bd04       ?GetResolveAction@CSyncChangeUnit@@UAAJPAW4__MIDL___MIDL_itf_synchronization_0000_0008_0001@@@Z 1001cd04 f   engine:SyncChangeUnit.obj
+ 0001:0001bd24       ?SetResolveAction@CSyncChangeUnit@@UAAJW4__MIDL___MIDL_itf_synchronization_0000_0008_0001@@@Z 1001cd24 f   engine:SyncChangeUnit.obj
+ 0001:0001bd40       ?SaveActionFromTransferFilters@@YAJW4SYNC_TRANSFER_FILTER@@PAW4__MIDL___MIDL_itf_synchronization_0000_0009_0001@@@Z 1001cd40 f   engine:SyncChangeUnit.obj
+ 0001:0001bdb8       ?GetChangeUnitVersion@CSyncChangeUnit@@UAAJPBEPAU_SYNC_VERSION@@@Z 1001cdb8 f   engine:SyncChangeUnit.obj
+ 0001:0001be98       ?Remap@CSyncChangeUnit@@UAAJPBEPAUISyncKnowledge@@1@Z 1001ce98 f   engine:SyncChangeUnit.obj
+ 0001:0001bfc8       ?GetOriginalChangeUnitVersion@CSyncChangeUnit@@UAAJPBEPAU_SYNC_VERSION@@@Z 1001cfc8 f   engine:SyncChangeUnit.obj
+ 0001:0001c0a8       ??0CSyncChangeUnit@@QAA@PAVIdParameters@@@Z 1001d0a8 f   engine:SyncChangeUnit.obj
+ 0001:0001c100       ?IsConflict@CSyncChangeUnit@@UAAJXZ 1001d100 f i engine:SyncChangeUnit.obj
+ 0001:0001c114       ?Init@CSyncChangeUnit@@QAAJPBEPBU_SYNC_VERSION@@1PAUISyncChange@@@Z 1001d114 f   engine:SyncChangeUnit.obj
+ 0001:0001c1c8       ?GetChangeUnitId@CSyncChangeUnit@@UAAJPAEPAK@Z 1001d1c8 f   engine:SyncChangeUnit.obj
+ 0001:0001c1e0       ?CSyncChangeUnit_CreateInstance@@YAJPAVIdParameters@@PBEPBU_SYNC_VERSION@@2PAUISyncChange@@PAPAUISyncChangeUnit@@@Z 1001d1e0 f   engine:SyncChangeUnit.obj
+ 0001:0001c2ac       ??1CSyncChangeUnit@@QAA@XZ 1001d2ac f   engine:SyncChangeUnit.obj
+ 0001:0001c320       ?Release@CSyncChangeUnit@@UAAKXZ 1001d320 f   engine:SyncChangeUnit.obj
+ 0001:0001c358       ?AddRef@CChangeConflict@@UAAKXZ 1001d358 f   engine:SyncConflict.obj
+ 0001:0001c360       ?GetDestinationProviderConflictingChange@CChangeConflict@@UAAJPAPAUISyncChange@@@Z 1001d360 f   engine:SyncConflict.obj
+ 0001:0001c378       ?GetSourceProviderConflictingChange@CChangeConflict@@UAAJPAPAUISyncChange@@@Z 1001d378 f   engine:SyncConflict.obj
+ 0001:0001c390       ?GetResolveActionForChange@CChangeConflict@@UAAJPAW4__MIDL___MIDL_itf_synchronization_0000_0008_0001@@@Z 1001d390 f   engine:SyncConflict.obj
+ 0001:0001c3a8       ?SetResolveActionForChange@CChangeConflict@@UAAJW4__MIDL___MIDL_itf_synchronization_0000_0008_0001@@@Z 1001d3a8 f   engine:SyncConflict.obj
+ 0001:0001c3c0       ?GetResolveActionForChangeUnit@CChangeConflict@@UAAJPAUISyncChangeUnit@@PAW4__MIDL___MIDL_itf_synchronization_0000_0008_0001@@@Z 1001d3c0 f   engine:SyncConflict.obj
+ 0001:0001c3d8       ?SetResolveActionForChangeUnit@CChangeConflict@@UAAJPAUISyncChangeUnit@@W4__MIDL___MIDL_itf_synchronization_0000_0008_0001@@@Z 1001d3d8 f   engine:SyncConflict.obj
+ 0001:0001c3f0       ?CreateChangeConflict@@YAJPAUISyncChange@@0PAPAU_SYNC_CHANGE_CONFLICT@@@Z 1001d3f0 f   engine:SyncConflict.obj
+ 0001:0001c48c       ?DestroyChangeConflict@@YAJPAU_SYNC_CHANGE_CONFLICT@@@Z 1001d48c f   engine:SyncConflict.obj
+ 0001:0001c4e0       ??1CChangeConflict@@QAA@XZ 1001d4e0 f   engine:SyncConflict.obj
+ 0001:0001c528       ?QueryInterface@CChangeConflict@@UAAJABU_GUID@@PAPAX@Z 1001d528 f   engine:SyncConflict.obj
+ 0001:0001c5b4       ?GetDestinationProviderConflictingData@CChangeConflict@@UAAJPAPAUIUnknown@@@Z 1001d5b4 f   engine:SyncConflict.obj
+ 0001:0001c678       ?GetSourceProviderConflictingData@CChangeConflict@@UAAJPAPAUIUnknown@@@Z 1001d678 f   engine:SyncConflict.obj
+ 0001:0001c73c       ??0CChangeConflict@@QAA@PAUIChangeConflict@@PAUINotifyingChangeApplierPrivate@@@Z 1001d73c f   engine:SyncConflict.obj
+ 0001:0001c78c       ?Release@CChangeConflict@@UAAKXZ 1001d78c f   engine:SyncConflict.obj
+ 0001:0001c7c4       ??1CEnumSyncChangeUnits@@QAA@XZ 1001d7c4 f i engine:SyncEnumerator.obj
+ 0001:0001c808       ?AddRef@CEnumSyncChanges@@UAAKXZ 1001d808 f   engine:SyncEnumerator.obj
+ 0001:0001c810       ??_GCEnumSyncChanges@@QAAPAXI@Z 1001d810 f i engine:SyncEnumerator.obj
+ 0001:0001c858       ?Initialize@CEnumSyncChangeUnits@@QAAJXZ 1001d858 f   engine:SyncEnumerator.obj
+ 0001:0001c860       ?QueryInterface@CEnumSyncChangeUnits@@UAAJABU_GUID@@PAPAX@Z 1001d860 f   engine:SyncEnumerator.obj
+ 0001:0001c908       ?AddRef@CEnumSyncChangeUnits@@UAAKXZ 1001d908 f   engine:SyncEnumerator.obj
+ 0001:0001c910       ?GetFilter@CEnumSyncChangeUnits@@QAAJPAW4SYNC_TRANSFER_FILTER@@@Z 1001d910 f   engine:SyncEnumerator.obj
+ 0001:0001c930       ?SetFilter@CEnumSyncChangeUnits@@QAAJW4SYNC_TRANSFER_FILTER@@@Z 1001d930 f   engine:SyncEnumerator.obj
+ 0001:0001c93c       ?SetConflictFilter@CEnumSyncChangeUnits@@QAAJH@Z 1001d93c f   engine:SyncEnumerator.obj
+ 0001:0001c948       ?GetCollectionManager@CEnumSyncChangeUnits@@QAAJPAPAV?$CollectionManager@UISyncChangeUnit@@@@@Z 1001d948 f   engine:SyncEnumerator.obj
+ 0001:0001c984       ?Lock@CEnumSyncChangeUnits@@QAAJXZ 1001d984 f   engine:SyncEnumerator.obj
+ 0001:0001c9ac       ?GetCurrent@CEnumSyncChangeUnits@@AAAJPAPAUISyncChangeUnit@@@Z 1001d9ac f   engine:SyncEnumerator.obj
+ 0001:0001ca0c       ?Add@?$CollectionManager@UISyncChangeUnit@@@@QAAJPAUISyncChangeUnit@@@Z 1001da0c f i engine:SyncEnumerator.obj
+ 0001:0001ca80       ?QueryInterface@CEnumSyncChanges@@UAAJABU_GUID@@PAPAX@Z 1001da80 f   engine:SyncEnumerator.obj
+ 0001:0001cb28       ?Release@CEnumSyncChanges@@UAAKXZ 1001db28 f   engine:SyncEnumerator.obj
+ 0001:0001cb58       ?Reset@CEnumSyncChanges@@UAAJXZ 1001db58 f   engine:SyncEnumerator.obj
+ 0001:0001cb7c       ?GetCurrent@CEnumSyncChanges@@AAAJPAPAUISyncChange@@@Z 1001db7c f   engine:SyncEnumerator.obj
+ 0001:0001cc70       ?MoveBack@CEnumSyncChanges@@UAAJXZ 1001dc70 f   engine:SyncEnumerator.obj
+ 0001:0001cc90       ?Add@CEnumSyncChanges@@UAAJPAUISyncChange@@@Z 1001dc90 f   engine:SyncEnumerator.obj
+ 0001:0001cce0       ?Release@CEnumSyncChangeUnits@@UAAKXZ 1001dce0 f   engine:SyncEnumerator.obj
+ 0001:0001cd18       ?Next@CEnumSyncChangeUnits@@UAAJKPAPAUISyncChangeUnit@@PAK@Z 1001dd18 f   engine:SyncEnumerator.obj
+ 0001:0001ced0       ?Reset@CEnumSyncChangeUnits@@UAAJXZ 1001ded0 f   engine:SyncEnumerator.obj
+ 0001:0001cef4       ?Add@CEnumSyncChangeUnits@@QAAJPAUISyncChangeUnit@@@Z 1001def4 f   engine:SyncEnumerator.obj
+ 0001:0001cf70       ?GetNumChangeUnits@CEnumSyncChangeUnits@@QBAKXZ 1001df70 f   engine:SyncEnumerator.obj
+ 0001:0001cf7c       ?Next@CEnumSyncChanges@@UAAJKPAPAUISyncChange@@PAK@Z 1001df7c f   engine:SyncEnumerator.obj
+ 0001:0001d008       ?RemoveElement@?$CollectionManager@UISyncChangeUnit@@@@QAAJPAU?$CollectionElement@UISyncChangeUnit@@@@@Z 1001e008 f i engine:SyncEnumerator.obj
+ 0001:0001d080       ?Remove@?$CollectionManager@UISyncChangeUnit@@@@QAAJPAUISyncChangeUnit@@PAU?$CollectionElement@UISyncChangeUnit@@@@@Z 1001e080 f i engine:SyncEnumerator.obj
+ 0001:0001d104       ?Remove@CEnumSyncChanges@@UAAJPAUISyncChange@@@Z 1001e104 f   engine:SyncEnumerator.obj
+ 0001:0001d128       ?Remove@CEnumSyncChangeUnits@@UAAJPAUISyncChangeUnit@@@Z 1001e128 f   engine:SyncEnumerator.obj
+ 0001:0001d19c       ?CreateErrorDescriptionForHR@@YAJJPAGK@Z 1001e19c f   syncutils:utils.obj
+ 0001:0001d260       ?SetErrorInfoHelper@@YAXJABU_GUID@@0@Z 1001e260 f   syncutils:utils.obj
+ 0001:0001d3ec       ?ClearErrorInfo@@YAXXZ     1001e3ec f   syncutils:utils.obj
+ 0001:0001d41c       ??2@YAPAXI@Z               1001e41c f   memory:CeMemory.obj
+ 0001:0001d438       ??3@YAXPAX@Z               1001e438 f   memory:CeMemory.obj
+ 0001:0001d454       InterlockedIncrement       1001e454 f   coredll:COREDLL.dll
+ 0001:0001d464       InterlockedDecrement       1001e464 f   coredll:COREDLL.dll
+ 0001:0001d474       GetLastError               1001e474 f   coredll:COREDLL.dll
+ 0001:0001d484       RegCloseKey                1001e484 f   coredll:COREDLL.dll
+ 0001:0001d494       RegSetValueExW             1001e494 f   coredll:COREDLL.dll
+ 0001:0001d4a4       RegCreateKeyExW            1001e4a4 f   coredll:COREDLL.dll
+ 0001:0001d4b4       StringCchPrintfW           1001e4b4 f   coredll:COREDLL.dll
+ 0001:0001d4c4       RegDeleteKeyW              1001e4c4 f   coredll:COREDLL.dll
+ 0001:0001d4d4       GetModuleFileNameW         1001e4d4 f   coredll:COREDLL.dll
+ 0001:0001d4e4       DeleteCriticalSection      1001e4e4 f   coredll:COREDLL.dll
+ 0001:0001d4f4       InitializeCriticalSection  1001e4f4 f   coredll:COREDLL.dll
+ 0001:0001d504       EnterCriticalSection       1001e504 f   coredll:COREDLL.dll
+ 0001:0001d514       LeaveCriticalSection       1001e514 f   coredll:COREDLL.dll
+ 0001:0001d524       EventModify                1001e524 f   coredll:COREDLL.dll
+ 0001:0001d534       CloseHandle                1001e534 f   coredll:COREDLL.dll
+ 0001:0001d544       CreateEventW               1001e544 f   coredll:COREDLL.dll
+ 0001:0001d554       WaitForSingleObject        1001e554 f   coredll:COREDLL.dll
+ 0001:0001d564       StringCchCopyW             1001e564 f   coredll:COREDLL.dll
+ 0001:0001d574       FormatMessageW             1001e574 f   coredll:COREDLL.dll
+ 0001:0001d584       HeapAlloc                  1001e584 f   coredll:COREDLL.dll
+ 0001:0001d594       GetProcessHeap             1001e594 f   coredll:COREDLL.dll
+ 0001:0001d5a4       HeapFree                   1001e5a4 f   coredll:COREDLL.dll
+ 0001:0001d5b4       StringFromGUID2            1001e5b4 f   ole32:ole32.dll
+ 0001:0001d5c4       SetErrorInfo               1001e5c4 f   oleaut32:OLEAUT32.dll
+ 0001:0001d5d4       CreateErrorInfo            1001e5d4 f   oleaut32:OLEAUT32.dll
+ 0001:0001d5e4       GetErrorInfo               1001e5e4 f   oleaut32:OLEAUT32.dll
+ 0001:0001d6ec       _DllMainCRTStartup         1001e6ec f   corelib0:pegdmain.obj
+ 0001:0001d718       __GSHandlerCheckCommon     1001e718 f   corelib0:gshandler.obj
+ 0001:0001d754       __GSHandlerCheck           1001e754 f   corelib0:gshandler.obj
+ 0001:0001d774       __security_init_cookie     1001e774 f   corelib0:seccinit.obj
+ 0001:0001d7c0       __security_check_cookie    1001e7c0 f   corelib0:armsecgs.obj
+ 0001:0001d7d0       __gsfailure                1001e7d0     corelib0:armsecgs.obj
+ 0001:0001d8fc       _cexit                     1001e8fc f   corelib0:cexit.obj
+ 0001:0001d90c       _initterm                  1001e90c f   corelib0:crt0dat.obj
+ 0001:0001d938       _cinit                     1001e938 f   corelib0:crt0dat.obj
+ 0001:0001d998       __crt_ExitProcess          1001e998 f   corelib0:exitproc_proxy.obj
+ 0001:0001d9a4       memcmp                     1001e9a4 f   corelib1:COREDLL.dll
+ 0001:0001d9b4       wcslen                     1001e9b4 f   corelib1:COREDLL.dll
+ 0001:0001d9c4       _purecall                  1001e9c4 f   corelib1:COREDLL.dll
+ 0001:0001d9d4       __C_specific_handler       1001e9d4 f   corelib1:COREDLL.dll
+ 0001:0001d9e4       memcpy                     1001e9e4 f   corelib1:COREDLL.dll
+ 0001:0001d9f4       memset                     1001e9f4 f   corelib1:COREDLL.dll
+ 0001:0001da04       _XcptFilter                1001ea04 f   corelib1:COREDLL.dll
+ 0001:0001da14       __security_gen_cookie2     1001ea14 f   corelib1:COREDLL.dll
+ 0001:0001da24       __report_gsfailure         1001ea24 f   corelib1:COREDLL.dll
+ 0001:0001da34       free                       1001ea34 f   corelib1:COREDLL.dll
+ 0001:0001da44       ?EnterWriter@SWMRLock@@QAAXXZ 1001ea44 f i Knowledge_private:ReplicaKeyMap.obj
+ 0001:0001da84       ?AddRef@ReplicaKeyMap@@UAAKXZ 1001ea84 f   Knowledge_private:ReplicaKeyMap.obj
+ 0001:0001da8c       ?IncreaseCapacity@ReplicaKeyMap@@AAAJXZ 1001ea8c f   Knowledge_private:ReplicaKeyMap.obj
+ 0001:0001db04       ?FindNewBucket@?$HashTable@PAEKUIdParameterPair@@@@ABAJABQAEPAV?$TableBucket@PAEKUIdParameterPair@@@@KPAK@Z 1001eb04 f i Knowledge_private:ReplicaKeyMap.obj
+ 0001:0001dba8       ?GetNextElement@?$TableEnumerator@PAEKUIdParameterPair@@@@QAAPAV?$TableElement@PAEKUIdParameterPair@@@@XZ 1001eba8 f i Knowledge_private:ReplicaKeyMap.obj
+ 0001:0001dc24       ?SerializeParameterPair@IdParameterPair@@QAAJPAPAEPBE@Z 1001ec24 f i Knowledge_private:ReplicaKeyMap.obj
+ 0001:0001dc94       ?Deserialize@IdParameterPair@@SAJPAPAEPBEPAU_ID_PARAMETER_PAIR@@@Z 1001ec94 f i Knowledge_private:ReplicaKeyMap.obj
+ 0001:0001dd24       ?ValidateParameterPair@IdParameterPair@@QAAJPBU_ID_PARAMETER_PAIR@@@Z 1001ed24 f i Knowledge_private:ReplicaKeyMap.obj
+ 0001:0001dd64       ?QueryInterface@ReplicaKeyMap@@UAAJABU_GUID@@PAPAX@Z 1001ed64 f   Knowledge_private:ReplicaKeyMap.obj
+ 0001:0001de0c       ?Serialize@ReplicaKeyMap@@UAAJPAEPAK@Z 1001ee0c f   Knowledge_private:ReplicaKeyMap.obj
+ 0001:0001dfb4       ?LookupReplicaIdInternal@ReplicaKeyMap@@UAAJKPAPAE@Z 1001efb4 f   Knowledge_private:ReplicaKeyMap.obj
+ 0001:0001e030       ?FindExistingBucket@?$HashTable@PAEKUIdParameterPair@@@@ABAJABQAEPAV?$TableBucket@PAEKUIdParameterPair@@@@KPAK@Z 1001f030 f i Knowledge_private:ReplicaKeyMap.obj
+ 0001:0001e104       ?LookupItem@?$HashTable@PAEKUIdParameterPair@@@@QBA_NABQAEAAK@Z 1001f104 f i Knowledge_private:ReplicaKeyMap.obj
+ 0001:0001e154       ?Resize@?$HashTable@PAEKUIdParameterPair@@@@QAAJXZ 1001f154 f i Knowledge_private:ReplicaKeyMap.obj
+ 0001:0001e294       ?ContainsItem@?$HashTable@PAEKUIdParameterPair@@@@QBA_NABQAE@Z 1001f294 f i Knowledge_private:ReplicaKeyMap.obj
+ 0001:0001e2c8       ?Lookup@ReplicaKeyMap@@QAAJPBEPAK@Z 1001f2c8 f   Knowledge_private:ReplicaKeyMap.obj
+ 0001:0001e35c       ?Lookup@ReplicaKeyMap@@QAAJKPAEPAK@Z 1001f35c f   Knowledge_private:ReplicaKeyMap.obj
+ 0001:0001e3cc       ?AddItem@?$HashTable@PAEKUIdParameterPair@@@@QAAJABQAEABK@Z 1001f3cc f i Knowledge_private:ReplicaKeyMap.obj
+ 0001:0001e490       ?LookupReplicaKey@ReplicaKeyMap@@UAAJPBEPAK@Z 1001f490 f   Knowledge_private:ReplicaKeyMap.obj
+ 0001:0001e4e0       ?LookupReplicaId@ReplicaKeyMap@@UAAJKPAEPAK@Z 1001f4e0 f   Knowledge_private:ReplicaKeyMap.obj
+ 0001:0001e4e4       ?Add@ReplicaKeyMap@@UAAJPBE@Z 1001f4e4 f   Knowledge_private:ReplicaKeyMap.obj
+ 0001:0001e5c8       ?Initialize@?$HashTable@PAEKUIdParameterPair@@@@QAAJPAUIdParameterPair@@K@Z 1001f5c8 f i Knowledge_private:ReplicaKeyMap.obj
+ 0001:0001e6b4       ??1ReplicaKeyMap@@QAA@XZ   1001f6b4 f i Knowledge_private:ReplicaKeyMap.obj
+ 0001:0001e758       ?Initialize@ReplicaKeyMap@@QAAJK@Z 1001f758 f   Knowledge_private:ReplicaKeyMap.obj
+ 0001:0001e7e8       ?Deserialize@ReplicaKeyMap@@SAJPAVIdParameters@@PBEKPAPAV1@@Z 1001f7e8 f   Knowledge_private:ReplicaKeyMap.obj
+ 0001:0001ea00       ?DuplicateMap@ReplicaKeyMap@@UAAPAUIReplicaKeyMapInternal@@XZ 1001fa00 f   Knowledge_private:ReplicaKeyMap.obj
+ 0001:0001eacc       ?Release@ReplicaKeyMap@@UAAKXZ 1001facc f   Knowledge_private:ReplicaKeyMap.obj
+ 0001:0001eb04       ?Initialize@ReplicaKeyMap@@QAAJPBEK@Z 1001fb04 f   Knowledge_private:ReplicaKeyMap.obj
+ 0001:0001ebc0       ?QueryInterface@ClockVectorElement@@UAAJABU_GUID@@PAPAX@Z 1001fbc0 f   Knowledge_private:ClockVector.obj
+ 0001:0001ec4c       ?AddRef@ClockVectorElement@@UAAKXZ 1001fc4c f   Knowledge_private:ClockVector.obj
+ 0001:0001ec54       ?GetReplicaKey@ClockVectorElement@@UAAJPAK@Z 1001fc54 f   Knowledge_private:ClockVector.obj
+ 0001:0001ec74       ?GetTickCount@ClockVectorElement@@UAAJPA_K@Z 1001fc74 f   Knowledge_private:ClockVector.obj
+ 0001:0001ec9c       ?QueryInterface@FeedClockVectorElement@@UAAJABU_GUID@@PAPAX@Z 1001fc9c f   Knowledge_private:ClockVector.obj
+ 0001:0001ed44       ?AddRef@FeedClockVectorElement@@UAAKXZ 1001fd44 f   Knowledge_private:ClockVector.obj
+ 0001:0001ed4c       ?GetReplicaKey@FeedClockVectorElement@@UAAJPAK@Z 1001fd4c f   Knowledge_private:ClockVector.obj
+ 0001:0001ed6c       ?GetTickCount@FeedClockVectorElement@@UAAJPA_K@Z 1001fd6c f   Knowledge_private:ClockVector.obj
+ 0001:0001ed94       ?GetSyncTime@FeedClockVectorElement@@UAAJPAU_SYNC_TIME@@@Z 1001fd94 f   Knowledge_private:ClockVector.obj
+ 0001:0001edbc       ?GetFlags@FeedClockVectorElement@@UAAJPAE@Z 1001fdbc f   Knowledge_private:ClockVector.obj
+ 0001:0001eddc       ?GetElement@ClockVector@@QBAPAUSyncVersion@@K@Z 1001fddc f   Knowledge_private:ClockVector.obj
+ 0001:0001edf4       ?Equals@ClockVector@@QAAHPBV1@@Z 1001fdf4 f   Knowledge_private:ClockVector.obj
+ 0001:0001ef7c       ?GetHashCode@ClockVector@@QBAKXZ 1001ff7c f   Knowledge_private:ClockVector.obj
+ 0001:0001eff0       ?ConsumeVector@ClockVector@@QAAXPAV1@@Z 1001fff0 f   Knowledge_private:ClockVector.obj
+ 0001:0001f040       ?GetSerializedSize@ClockVector@@QAAJPAI@Z 10020040 f   Knowledge_private:ClockVector.obj
+ 0001:0001f088       ?Serialize@ClockVector@@QAAJPAPAEPBE@Z 10020088 f   Knowledge_private:ClockVector.obj
+ 0001:0001f378       ?MinimumSerializedSize@ClockVector@@SAIXZ 10020378 f   Knowledge_private:ClockVector.obj
+ 0001:0001f380       ?GetUpdateCount@ClockVector@@UAAJPAK@Z 10020380 f   Knowledge_private:ClockVector.obj
+ 0001:0001f3a0       ?IsNoConflictsSpecified@ClockVector@@UAAJPAH@Z 100203a0 f   Knowledge_private:ClockVector.obj
+ 0001:0001f3c0       ?GetClockVectorElements@ClockVector@@UAAJABU_GUID@@PAPAX@Z 100203c0 f   Knowledge_private:ClockVector.obj
+ 0001:0001f49c       ?GetClockVectorElementCount@ClockVector@@UAAJPAK@Z 1002049c f   Knowledge_private:ClockVector.obj
+ 0001:0001f4bc       ?QueryInterface@ClockVector@@UAAJABU_GUID@@PAPAX@Z 100204bc f   Knowledge_private:ClockVector.obj
+ 0001:0001f590       ?AddRef@ClockVector@@UAAKXZ 10020590 f   Knowledge_private:ClockVector.obj
+ 0001:0001f598       ?GetClockVector@ClockVector@@UAAJPAPAUIUnknown@@@Z 10020598 f   Knowledge_private:ClockVector.obj
+ 0001:0001f5c8       ??0ClockVectorElement@@QAA@ABUSyncVersion@@@Z 100205c8 f i Knowledge_private:ClockVector.obj
+ 0001:0001f610       ?Release@ClockVectorElement@@UAAKXZ 10020610 f   Knowledge_private:ClockVector.obj
+ 0001:0001f650       ?Release@FeedClockVectorElement@@UAAKXZ 10020650 f   Knowledge_private:ClockVector.obj
+ 0001:0001f690       ?Initialize@ClockVector@@QAAJKHKH@Z 10020690 f   Knowledge_private:ClockVector.obj
+ 0001:0001f748       ?FindRtcForReplica@ClockVector@@ABAPAUSyncVersion@@K@Z 10020748 f   Knowledge_private:ClockVector.obj
+ 0001:0001f7cc       ?Contains@ClockVector@@QBAHPBUSyncVersion@@@Z 100207cc f   Knowledge_private:ClockVector.obj
+ 0001:0001f84c       ?Contains@ClockVector@@QBAHPBV1@@Z 1002084c f   Knowledge_private:ClockVector.obj
+ 0001:0001f9c4       ?MergeVector@ClockVector@@QAAJPBV1@PAV1@@Z 100209c4 f   Knowledge_private:ClockVector.obj
+ 0001:0001ff98       ?CopyVector@ClockVector@@QAAJPAV1@@Z 10020f98 f   Knowledge_private:ClockVector.obj
+ 0001:0001fff4       ?SetLocalTickCount@ClockVector@@QAAJ_K@Z 10020ff4 f   Knowledge_private:ClockVector.obj
+ 0001:000200c0       ?FindMinTickCountForReplica@ClockVector@@QAAJKPA_K@Z 100210c0 f   Knowledge_private:ClockVector.obj
+ 0001:0002011c       ?Release@ClockVector@@UAAKXZ 1002111c f   Knowledge_private:ClockVector.obj
+ 0001:00020168       ?CreateClockVectorElement@ClockVector@@SAJK_KPAPAUIClockVectorElement@@@Z 10021168 f   Knowledge_private:ClockVector.obj
+ 0001:0002021c       ?CreateFeedClockVectorElement@ClockVector@@SAJK_KU_SYNC_TIME@@EPAPAUIFeedClockVectorElement@@@Z 1002121c f   Knowledge_private:ClockVector.obj
+ 0001:0002033c       ??0ClockVector@@QAA@XZ     1002133c f i Knowledge_private:ClockVector.obj
+ 0001:0002037c       ?MergeVector@ClockVector@@QAAJPBV1@PAPAV1@@Z 1002137c f   Knowledge_private:ClockVector.obj
+ 0001:00020428       ?Deserialize@ClockVector@@SAJPAPAEPBEPAUIReplicaKeyMapInternal@@PAPAV1@@Z 10021428 f   Knowledge_private:ClockVector.obj
+ 0001:00020928       ?RemapVector@ClockVector@@QAAJPAUIReplicaKeyMapInternal@@0@Z 10021928 f   Knowledge_private:ClockVector.obj
+ 0001:00020cf8       ?CreateClockVector@ClockVector@@SAJKPAPAUIClockVectorElement@@PAPAUIClockVector@@@Z 10021cf8 f   Knowledge_private:ClockVector.obj
+ 0001:00020e7c       ?CreateFeedClockVector@ClockVector@@SAJKPAPAUIFeedClockVectorElement@@KHPAPAUIFeedClockVector@@@Z 10021e7c f   Knowledge_private:ClockVector.obj
+ 0001:00021054       ?QueryInterface@KnowledgeBuilder@@UAAJABU_GUID@@PAPAX@Z 10022054 f   Knowledge_private:KnowledgeBuilder.obj
+ 0001:000210e0       ?AddRef@KnowledgeBuilder@@UAAKXZ 100220e0 f   Knowledge_private:KnowledgeBuilder.obj
+ 0001:000210e8       ?Add@?$Vector@URangeDescription@@$00@@QAAJABURangeDescription@@@Z 100220e8 f i Knowledge_private:KnowledgeBuilder.obj
+ 0001:00021298       ?GetAt@?$Vector@URangeDescription@@$00@@QBAJKAAURangeDescription@@@Z 10022298 f i Knowledge_private:KnowledgeBuilder.obj
+ 0001:000212e4       ?GetNextElement@?$TableEnumerator@KPAEV?$KeyHashCalculator@K@@@@QAAPAV?$TableElement@KPAEV?$KeyHashCalculator@K@@@@XZ 100222e4 f i Knowledge_private:KnowledgeBuilder.obj
+ 0001:00021360       ??0RangeExceptionSet@@QAA@PAVIdParameters@@@Z 10022360 f i Knowledge_private:KnowledgeBuilder.obj
+ 0001:000213a4       ??_EClockVector@@QAAPAXI@Z 100223a4 f i Knowledge_private:KnowledgeBuilder.obj
+ 0001:00021434       ?FindNewBucket@?$HashTable@KPAEV?$KeyHashCalculator@K@@@@ABAJABKPAV?$TableBucket@KPAEV?$KeyHashCalculator@K@@@@KPAK@Z 10022434 f i Knowledge_private:KnowledgeBuilder.obj
+ 0001:000214d4       ?FindExistingBucket@?$HashTable@KPAEV?$KeyHashCalculator@K@@@@ABAJABKPAV?$TableBucket@KPAEV?$KeyHashCalculator@K@@@@KPAK@Z 100224d4 f i Knowledge_private:KnowledgeBuilder.obj
+ 0001:0002157c       ?SetupRange@RangeException@@QAAJPAVIdParameters@@PBE1PAVClockVector@@@Z 1002257c f i Knowledge_private:KnowledgeBuilder.obj
+ 0001:00021624       ??_G?$HashTable@VClockVectorPtr@@KV?$KeyHashCalculator@VClockVectorPtr@@@@@@QAAPAXI@Z 10022624 f i Knowledge_private:KnowledgeBuilder.obj
+ 0001:0002166c       ??0Knowledge@@QAA@PAVIdParameters@@PAUIReplicaKeyMapInternal@@PAVClockVector@@PAVRangeExceptionSet@@PAVSingleItemExceptionSet@@@Z 1002266c f i Knowledge_private:KnowledgeBuilder.obj
+ 0001:0002171c       ?Initialize@?$HashTable@KPAEV?$KeyHashCalculator@K@@@@QAAJPAV?$KeyHashCalculator@K@@K@Z 1002271c f i Knowledge_private:KnowledgeBuilder.obj
+ 0001:000217f8       ?LookupItem@?$HashTable@KPAEV?$KeyHashCalculator@K@@@@QBA_NABKAAPAE@Z 100227f8 f i Knowledge_private:KnowledgeBuilder.obj
+ 0001:00021848       ?ContainsItem@?$HashTable@KPAEV?$KeyHashCalculator@K@@@@QBA_NABK@Z 10022848 f i Knowledge_private:KnowledgeBuilder.obj
+ 0001:0002187c       ?Resize@?$HashTable@KPAEV?$KeyHashCalculator@K@@@@QAAJXZ 1002287c f i Knowledge_private:KnowledgeBuilder.obj
+ 0001:000219bc       ??1RangeException@@QAA@XZ  100229bc f i Knowledge_private:KnowledgeBuilder.obj
+ 0001:00021a4c       ??_ERangeException@@QAAPAXI@Z 10022a4c f i Knowledge_private:KnowledgeBuilder.obj
+ 0001:00021ab8       ?InternalCreateClockVectorNonFeed@KnowledgeBuilder@@AAAJPAUIClockVector@@PAPAVClockVector@@@Z 10022ab8 f   Knowledge_private:KnowledgeBuilder.obj
+ 0001:00021cd8       ?InternalCreateFeedClockVector@KnowledgeBuilder@@AAAJPAUIFeedClockVector@@PAPAVClockVector@@@Z 10022cd8 f   Knowledge_private:KnowledgeBuilder.obj
+ 0001:00021fb4       ??1?$HashTable@PAEVExceptionInformation@@UIdParameterPair@@@@QAA@XZ 10022fb4 f i Knowledge_private:KnowledgeBuilder.obj
+ 0001:00021ff4       ?Initialize@?$HashTable@KPAEV?$KeyHashCalculator@K@@@@QAAJK@Z 10022ff4 f i Knowledge_private:KnowledgeBuilder.obj
+ 0001:0002205c       ?AddItem@?$HashTable@KPAEV?$KeyHashCalculator@K@@@@QAAJABKABQAE@Z 1002305c f i Knowledge_private:KnowledgeBuilder.obj
+ 0001:00022120       ??0SingleItemExceptionSet@@QAA@PAVIdParameters@@@Z 10023120 f i Knowledge_private:KnowledgeBuilder.obj
+ 0001:00022190       ??0KnowledgeBuilder@@QAA@XZ 10023190 f   Knowledge_private:KnowledgeBuilder.obj
+ 0001:00022204       ??1KnowledgeBuilder@@QAA@XZ 10023204 f   Knowledge_private:KnowledgeBuilder.obj
+ 0001:000223e0       ?Initialize@KnowledgeBuilder@@UAAJKPBU_ID_PARAMETERS@@@Z 100233e0 f   Knowledge_private:KnowledgeBuilder.obj
+ 0001:00022504       ?AddReplicaKeyMapEntry@KnowledgeBuilder@@UAAJPAEK@Z 10023504 f   Knowledge_private:KnowledgeBuilder.obj
+ 0001:00022634       ?BuildKnowledge@KnowledgeBuilder@@UAAJABU_GUID@@PAPAX@Z 10023634 f   Knowledge_private:KnowledgeBuilder.obj
+ 0001:00022a60       ?InternalCreateClockVector@KnowledgeBuilder@@AAAJPAUIClockVector@@PAPAVClockVector@@@Z 10023a60 f   Knowledge_private:KnowledgeBuilder.obj
+ 0001:00022af8       ?SetClockVector@KnowledgeBuilder@@UAAJPAUIClockVector@@@Z 10023af8 f   Knowledge_private:KnowledgeBuilder.obj
+ 0001:00022b80       ?AddSingleItemException@KnowledgeBuilder@@UAAJPAEPAUIClockVector@@@Z 10023b80 f   Knowledge_private:KnowledgeBuilder.obj
+ 0001:00022ca4       ?AddChangeUnitException@KnowledgeBuilder@@UAAJPAE0PAUIClockVector@@@Z 10023ca4 f   Knowledge_private:KnowledgeBuilder.obj
+ 0001:00022e28       ?AddRangeException@KnowledgeBuilder@@UAAJPAE0PAUIClockVector@@@Z 10023e28 f   Knowledge_private:KnowledgeBuilder.obj
+ 0001:00023090       ?Release@KnowledgeBuilder@@UAAKXZ 10024090 f   Knowledge_private:KnowledgeBuilder.obj
+ 0001:000230c8       ?GetInternalKnowledge@@YAPAVKnowledge@@PAUISyncKnowledge@@@Z 100240c8 f   Knowledge_private:Knowledge.obj
+ 0001:00023130       ?QueryInterface@Knowledge@@UAAJABU_GUID@@PAPAX@Z 10024130 f   Knowledge_private:Knowledge.obj
+ 0001:00023200       ?AddRef@Knowledge@@UAAKXZ  10024200 f   Knowledge_private:Knowledge.obj
+ 0001:00023208       ?MinimumSerializedSize@Knowledge@@SAIXZ 10024208 f   Knowledge_private:Knowledge.obj
+ 0001:00023230       ?GetOwnerReplicaId@Knowledge@@UAAJPAEPAK@Z 10024230 f   Knowledge_private:Knowledge.obj
+ 0001:00023254       ?SetLocalTickCount@Knowledge@@UAAJ_K@Z 10024254 f   Knowledge_private:Knowledge.obj
+ 0001:000232a0       ?IsZeroId@IdParameterPair@@QBAHPBE@Z 100242a0 f i Knowledge_private:Knowledge.obj
+ 0001:00023314       ?GetScopeVector@Knowledge@@UAAJABU_GUID@@PAPAX@Z 10024314 f   Knowledge_private:Knowledge.obj
+ 0001:0002332c       ?GetReplicaKeyMap@Knowledge@@UAAJPAPAUIReplicaKeyMap@@@Z 1002432c f   Knowledge_private:Knowledge.obj
+ 0001:00023364       ?Serialize@Knowledge@@UAAJHPAEPAK@Z 10024364 f   Knowledge_private:Knowledge.obj
+ 0001:00023588       ?Equals@IdParameters@@QAAHPBV1@@Z 10024588 f i Knowledge_private:Knowledge.obj
+ 0001:000235f8       ?ExcludeHelper@Knowledge@@AAAJPBE0H@Z 100245f8 f   Knowledge_private:Knowledge.obj
+ 0001:0002364c       ?ConvertVersion@Knowledge@@AAAJPAV1@PBU_SYNC_VERSION@@PAU2@@Z 1002464c f   Knowledge_private:Knowledge.obj
+ 0001:00023728       ?GetRangeExceptions@Knowledge@@UAAJABU_GUID@@PAPAX@Z 10024728 f   Knowledge_private:Knowledge.obj
+ 0001:00023730       ?GetSingleItemExceptions@Knowledge@@UAAJABU_GUID@@PAPAX@Z 10024730 f   Knowledge_private:Knowledge.obj
+ 0001:00023738       ?GetChangeUnitExceptions@Knowledge@@UAAJABU_GUID@@PAPAX@Z 10024738 f   Knowledge_private:Knowledge.obj
+ 0001:00023740       ?GetVersion@Knowledge@@UAAJPAK@Z 10024740 f   Knowledge_private:Knowledge.obj
+ 0001:0002375c       ?UnionImpl@Knowledge@@CAJPAV1@0PAPAVClockVector@@PAPAVRangeExceptionSet@@PAPAVSingleItemExceptionSet@@@Z 1002475c f   Knowledge_private:Knowledge.obj
+ 0001:000237dc       ?GetOwnerReplicaIdInternal@Knowledge@@QAAJPAPAE@Z 100247dc f   Knowledge_private:Knowledge.obj
+ 0001:000237fc       ?GetNextElement@?$TableEnumerator@PAEVExceptionInformation@@UIdParameterPair@@@@QAAPAV?$TableElement@PAEVExceptionInformation@@UIdParameterPair@@@@XZ 100247fc f i Knowledge_private:Knowledge.obj
+ 0001:00023878       ?FindItemVector@Knowledge@@AAAPAVClockVector@@PBE0@Z 10024878 f   Knowledge_private:Knowledge.obj
+ 0001:000238f0       ?ContainsHelper@Knowledge@@AAAJPBE00PBU_SYNC_VERSION@@@Z 100248f0 f   Knowledge_private:Knowledge.obj
+ 0001:00023a40       ?ExcludeItem@Knowledge@@UAAJPBE@Z 10024a40 f   Knowledge_private:Knowledge.obj
+ 0001:00023a90       ?ExcludeChangeUnit@Knowledge@@UAAJPBE0@Z 10024a90 f   Knowledge_private:Knowledge.obj
+ 0001:00023b04       ?FindMinTickCountForReplica@Knowledge@@UAAJPBEPA_K@Z 10024b04 f   Knowledge_private:Knowledge.obj
+ 0001:00023c8c       ?UnionInternal@Knowledge@@AAAJPAV1@@Z 10024c8c f   Knowledge_private:Knowledge.obj
+ 0001:00023e50       ?ConvertVersionInternal@Knowledge@@QAAJPAUISyncKnowledge@@PBEPBU_SYNC_VERSION@@PAPAEPAU3@@Z 10024e50 f   Knowledge_private:Knowledge.obj
+ 0001:00023f70       ?ExcludeItemInternal@Knowledge@@QAAJPBE@Z 10024f70 f   Knowledge_private:Knowledge.obj
+ 0001:00023fc0       ?ExcludeChangeUnitInternal@Knowledge@@QAAJPBE0@Z 10024fc0 f   Knowledge_private:Knowledge.obj
+ 0001:00024034       ?ContainsKnowledgeChangeUnitsAndSingleItemExceptions@Knowledge@@AAAJPAVSingleItemExceptionSet@@PAV1@HHPAHPAPAE@Z 10025034 f   Knowledge_private:Knowledge.obj
+ 0001:000242b0       ?ContainsChange@Knowledge@@UAAJPBE0PBU_SYNC_VERSION@@@Z 100252b0 f   Knowledge_private:Knowledge.obj
+ 0001:00024348       ?ContainsChangeUnit@Knowledge@@UAAJPBE00PBU_SYNC_VERSION@@@Z 10025348 f   Knowledge_private:Knowledge.obj
+ 0001:00024400       ?ConvertVersion@Knowledge@@UAAJPAUISyncKnowledge@@PBEPBU_SYNC_VERSION@@PAEPAKPAU3@@Z 10025400 f   Knowledge_private:Knowledge.obj
+ 0001:00024474       ?Deserialize@Knowledge@@SAJPAVIdParameters@@PBEJPAUIReplicaKeyMap@@PAPAV1@@Z 10025474 f   Knowledge_private:Knowledge.obj
+ 0001:00024824       ??1Knowledge@@QAA@XZ       10025824 f i Knowledge_private:Knowledge.obj
+ 0001:000248c0       ?FindClockVectorHelper@Knowledge@@AAAJPBE0HABU_GUID@@PAPAX@Z 100258c0 f   Knowledge_private:Knowledge.obj
+ 0001:000249cc       ?Release@Knowledge@@UAAKXZ 100259cc f   Knowledge_private:Knowledge.obj
+ 0001:00024a04       ?Initialize@Knowledge@@QAAJXZ 10025a04 f   Knowledge_private:Knowledge.obj
+ 0001:00024b60       ?Clone@Knowledge@@QAAJPAPAV1@@Z 10025b60 f   Knowledge_private:Knowledge.obj
+ 0001:00024c38       ?Clone@Knowledge@@UAAJPAPAUISyncKnowledge@@@Z 10025c38 f   Knowledge_private:Knowledge.obj
+ 0001:00024cac       ?MapRemoteToLocal@Knowledge@@AAAJPAUISyncKnowledge@@PAUIReplicaKeyMapInternal@@PAPAV1@@Z 10025cac f   Knowledge_private:Knowledge.obj
+ 0001:00024f58       ?ProjectHelper@Knowledge@@AAAJPBE0PAPAUISyncKnowledge@@H@Z 10025f58 f   Knowledge_private:Knowledge.obj
+ 0001:00025080       ?ProjectOntoRangeHelper@Knowledge@@AAAJPBU_SYNC_RANGE@@PBUINTERNAL_SYNC_RANGE@@PAPAUISyncKnowledge@@@Z 10026080 f   Knowledge_private:Knowledge.obj
+ 0001:0002537c       ?Union@Knowledge@@UAAJPAUISyncKnowledge@@@Z 1002637c f   Knowledge_private:Knowledge.obj
+ 0001:000253ec       ?ProjectOntoItem@Knowledge@@UAAJPBEPAPAUISyncKnowledge@@@Z 100263ec f   Knowledge_private:Knowledge.obj
+ 0001:00025464       ?ProjectOntoChangeUnit@Knowledge@@UAAJPBE0PAPAUISyncKnowledge@@@Z 10026464 f   Knowledge_private:Knowledge.obj
+ 0001:00025500       ?ProjectOntoRange@Knowledge@@UAAJPBU_SYNC_RANGE@@PAPAUISyncKnowledge@@@Z 10026500 f   Knowledge_private:Knowledge.obj
+ 0001:00025540       ?FindClockVectorForItem@Knowledge@@UAAJPBEABU_GUID@@PAPAX@Z 10026540 f   Knowledge_private:Knowledge.obj
+ 0001:00025630       ?FindClockVectorForChangeUnit@Knowledge@@UAAJPBE0ABU_GUID@@PAPAX@Z 10026630 f   Knowledge_private:Knowledge.obj
+ 0001:00025658       ?ForgetToVersion@Knowledge@@UAAJPAUISyncKnowledge@@PBU_SYNC_VERSION@@@Z 10026658 f   Knowledge_private:Knowledge.obj
+ 0001:000259f8       ?ProjectOntoRangeInternal@Knowledge@@QAAJPBUINTERNAL_SYNC_RANGE@@PAPAUISyncKnowledge@@@Z 100269f8 f   Knowledge_private:Knowledge.obj
+ 0001:00025a28       ?ProjectOntoItemInternal@Knowledge@@QAAJPBEPAPAUISyncKnowledge@@@Z 10026a28 f   Knowledge_private:Knowledge.obj
+ 0001:00025aa0       ?ProjectOntoChangeUnitInternal@Knowledge@@QAAJPBE0PAPAUISyncKnowledge@@@Z 10026aa0 f   Knowledge_private:Knowledge.obj
+ 0001:00025b3c       ?ContainsKnowledgeScopeOrRangeExceptions@Knowledge@@AAAJPAV1@HPAHPAPAE@Z 10026b3c f   Knowledge_private:Knowledge.obj
+ 0001:00025f74       ?MapRemoteToLocal@Knowledge@@UAAJPAUISyncKnowledge@@PAPAU2@@Z 10026f74 f   Knowledge_private:Knowledge.obj
+ 0001:00025fd0       ?ContainsKnowledge@Knowledge@@QAAJPAUISyncKnowledge@@PAPAE@Z 10026fd0 f   Knowledge_private:Knowledge.obj
+ 0001:00026198       ?ContainsKnowledge@Knowledge@@UAAJPAUISyncKnowledge@@@Z 10027198 f   Knowledge_private:Knowledge.obj
+ 0001:000261a0       ??1ClockVectorEnumerator@@QAA@XZ 100271a0 f   Knowledge_private:ClockVectorEnumerator.obj
+ 0001:000261d8       ?QueryInterface@ClockVectorEnumerator@@UAAJABU_GUID@@PAPAX@Z 100271d8 f   Knowledge_private:ClockVectorEnumerator.obj
+ 0001:000262a8       ?AddRef@ClockVectorEnumerator@@UAAKXZ 100272a8 f   Knowledge_private:ClockVectorEnumerator.obj
+ 0001:000262b0       ?Next@ClockVectorEnumerator@@UAAJKPAPAUIClockVectorElement@@PAK@Z 100272b0 f   Knowledge_private:ClockVectorEnumerator.obj
+ 0001:000263d4       ?Next@ClockVectorEnumerator@@UAAJKPAPAUIFeedClockVectorElement@@PAK@Z 100273d4 f   Knowledge_private:ClockVectorEnumerator.obj
+ 0001:00026510       ?Skip@ClockVectorEnumerator@@UAAJK@Z 10027510 f   Knowledge_private:ClockVectorEnumerator.obj
+ 0001:00026550       ?Reset@ClockVectorEnumerator@@UAAJXZ 10027550 f   Knowledge_private:ClockVectorEnumerator.obj
+ 0001:00026560       ?AddRef@ClockVectorEnumerator@@W3AAKXZ 10027560 f i Knowledge_private:ClockVectorEnumerator.obj
+ 0001:00026568       ?QueryInterface@ClockVectorEnumerator@@W3AAJABU_GUID@@PAPAX@Z 10027568 f i Knowledge_private:ClockVectorEnumerator.obj
+ 0001:00026570       ?Reset@ClockVectorEnumerator@@W3AAJXZ 10027570 f i Knowledge_private:ClockVectorEnumerator.obj
+ 0001:00026578       ?Skip@ClockVectorEnumerator@@W3AAJK@Z 10027578 f i Knowledge_private:ClockVectorEnumerator.obj
+ 0001:00026580       ??0ClockVectorEnumerator@@QAA@PAVClockVector@@@Z 10027580 f   Knowledge_private:ClockVectorEnumerator.obj
+ 0001:000265d0       ?Release@ClockVectorEnumerator@@UAAKXZ 100275d0 f   Knowledge_private:ClockVectorEnumerator.obj
+ 0001:00026608       ?InternalClone@ClockVectorEnumerator@@AAAJPAPAV1@@Z 10027608 f   Knowledge_private:ClockVectorEnumerator.obj
+ 0001:00026668       ?Release@ClockVectorEnumerator@@W3AAKXZ 10027668 f i Knowledge_private:ClockVectorEnumerator.obj
+ 0001:00026670       ?Clone@ClockVectorEnumerator@@UAAJPAPAUIEnumClockVector@@@Z 10027670 f   Knowledge_private:ClockVectorEnumerator.obj
+ 0001:00026674       ?Clone@ClockVectorEnumerator@@UAAJPAPAUIEnumFeedClockVector@@@Z 10027674 f   Knowledge_private:ClockVectorEnumerator.obj
+ 0001:0002667c       ?GetSerializedSize@RangeException@@QAAJPAI@Z 1002767c f   Knowledge_private:RangeExceptions.obj
+ 0001:00026710       ?Initialize@RangeSetMergeHelper@@QAAXXZ 10027710 f   Knowledge_private:RangeExceptions.obj
+ 0001:000267c0       ?NextRangeStart@RangeSetMergeHelper@@QAAPAEPAPAVRangeException@@@Z 100277c0 f   Knowledge_private:RangeExceptions.obj
+ 0001:00026a18       ?NextRangeEnd@RangeSetMergeHelper@@QAAPAEXZ 10027a18 f   Knowledge_private:RangeExceptions.obj
+ 0001:00026c88       ?SetLocalTickCount@RangeExceptionSet@@QAAJ_K@Z 10027c88 f   Knowledge_private:RangeExceptions.obj
+ 0001:00026ce8       ?GetSerializedSize@RangeExceptionSet@@QAAJPAI@Z 10027ce8 f   Knowledge_private:RangeExceptions.obj
+ 0001:00026d64       ?FindMinTickCountForReplica@RangeExceptionSet@@QAAJKPA_K@Z 10027d64 f   Knowledge_private:RangeExceptions.obj
+ 0001:00026e34       ?GetEnumerator@RangeExceptionSet@@QAAJABU_GUID@@PAPAX@Z 10027e34 f   Knowledge_private:RangeExceptions.obj
+ 0001:00026ec0       ?QueryInterface@RangeExceptionSet@@UAAJABU_GUID@@PAPAX@Z 10027ec0 f   Knowledge_private:RangeExceptions.obj
+ 0001:00026f30       ?AddRef@RangeExceptionSet@@UAAKXZ 10027f30 f   Knowledge_private:RangeExceptions.obj
+ 0001:00026f38       ?MinimumSerializedSize@RangeExceptionSet@@SAIXZ 10027f38 f   Knowledge_private:RangeExceptions.obj
+ 0001:00026f40       ?Add@?$Vector@PAUMERGED_RANGE_EXCEPTION@@$00@@QAAJABQAUMERGED_RANGE_EXCEPTION@@@Z 10027f40 f i Knowledge_private:RangeExceptions.obj
+ 0001:00027040       ?ComparePoint@RangeException@@AAAHPBE@Z 10028040 f i Knowledge_private:RangeExceptions.obj
+ 0001:00027088       ?CheckRangeContains@@YAHPBUINTERNAL_SYNC_RANGE@@PBEPAVIdParameters@@@Z 10028088 f   Knowledge_private:RangeExceptions.obj
+ 0001:00027100       ?ContainsPoint@RangeException@@AAAHPBE@Z 10028100 f   Knowledge_private:RangeExceptions.obj
+ 0001:00027178       ?Serialize@RangeException@@QAAJPAPAEPBE@Z 10028178 f   Knowledge_private:RangeExceptions.obj
+ 0001:00027218       ?GetCurrentMergedVector@RangeSetMergeHelper@@QAAJPAPAVClockVector@@@Z 10028218 f   Knowledge_private:RangeExceptions.obj
+ 0001:000272e0       ?MergedVectorIncluded@RangeSetMergeHelper@@QAAHPAVClockVector@@@Z 100282e0 f   Knowledge_private:RangeExceptions.obj
+ 0001:000273d4       ?FindItemVector@RangeExceptionSet@@QAAPAVClockVector@@PBE@Z 100283d4 f   Knowledge_private:RangeExceptions.obj
+ 0001:00027458       ?Serialize@RangeExceptionSet@@QAAJPAPAEPBE@Z 10028458 f   Knowledge_private:RangeExceptions.obj
+ 0001:00027530       ??1?$Vector@PAUMERGED_RANGE_EXCEPTION@@$00@@QAA@XZ 10028530 f i Knowledge_private:RangeExceptions.obj
+ 0001:0002757c       ?ConvertExternalRangeToInternal@@YAJPBU_SYNC_RANGE@@PAUINTERNAL_SYNC_RANGE@@PAVIdParameters@@@Z 1002857c f   Knowledge_private:RangeExceptions.obj
+ 0001:00027680       ?Deserialize@RangeException@@QAAJPAVIdParameters@@PAPAEPBEPAUIReplicaKeyMapInternal@@@Z 10028680 f   Knowledge_private:RangeExceptions.obj
+ 0001:000277ac       ?CopyAndRemapVector@RangeException@@QAAJPAV1@PAUIReplicaKeyMapInternal@@1@Z 100287ac f   Knowledge_private:RangeExceptions.obj
+ 0001:000278a0       ?MergeRangeExceptions@RangeExceptionSet@@QAAJPAV1@PAVClockVector@@11PAPAV1@@Z 100288a0 f   Knowledge_private:RangeExceptions.obj
+ 0001:00027d5c       ?Deserialize@RangeExceptionSet@@SAJPAVIdParameters@@PAPAEPBEPAUIReplicaKeyMapInternal@@PAPAV1@@Z 10028d5c f   Knowledge_private:RangeExceptions.obj
+ 0001:00027ff0       ?CopyAndRemapVectors@RangeExceptionSet@@QAAJPAV1@PAUIReplicaKeyMapInternal@@1@Z 10028ff0 f   Knowledge_private:RangeExceptions.obj
+ 0001:00028134       ??1RangeExceptionSet@@QAA@XZ 10029134 f i Knowledge_private:RangeExceptions.obj
+ 0001:00028184       ?ProjectOntoRange@RangeExceptionSet@@QAAJPAUINTERNAL_SYNC_RANGE@@PAVClockVector@@PAPAV1@@Z 10029184 f   Knowledge_private:RangeExceptions.obj
+ 0001:00028574       ?Release@RangeExceptionSet@@UAAKXZ 10029574 f   Knowledge_private:RangeExceptions.obj
+ 0001:000285ac       ?SetLocalTickCount@ClockVectorTable@@QAAJ_K@Z 100295ac f   Knowledge_private:SingleItemExceptions.obj
+ 0001:00028610       ?GetSerializedSize@ClockVectorTable@@QAAJPAI@Z 10029610 f   Knowledge_private:SingleItemExceptions.obj
+ 0001:0002868c       ?Serialize@ClockVectorTable@@QAAJPAPAEPBE@Z 1002968c f   Knowledge_private:SingleItemExceptions.obj
+ 0001:00028764       ?MinimumSerializedSize@SingleItemExceptionSet@@SAIXZ 10029764 f   Knowledge_private:SingleItemExceptions.obj
+ 0001:0002876c       ?FindMinTickCountForReplica@SingleItemExceptionSet@@QAAJKPA_K@Z 1002976c f   Knowledge_private:SingleItemExceptions.obj
+ 0001:00028820       ?QueryInterface@SingleItemExceptionSet@@UAAJABU_GUID@@PAPAX@Z 10029820 f   Knowledge_private:SingleItemExceptions.obj
+ 0001:00028890       ?AddRef@SingleItemExceptionSet@@UAAKXZ 10029890 f   Knowledge_private:SingleItemExceptions.obj
+ 0001:00028898       ?GetNextElement@?$TableEnumerator@VMergedClockVectorId@@KV?$KeyHashCalculator@VMergedClockVectorId@@@@@@QAAPAV?$TableElement@VMergedClockVectorId@@KV?$KeyHashCalculator@VMergedClockVectorId@@@@@@XZ 10029898 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:00028910       ?GetNextElement@?$TableEnumerator@VClockVectorPtr@@KV?$KeyHashCalculator@VClockVectorPtr@@@@@@QAAPAV?$TableElement@VClockVectorPtr@@KV?$KeyHashCalculator@VClockVectorPtr@@@@@@XZ 10029910 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:0002898c       ?GetNextElement@?$TableEnumerator@KKV?$KeyHashCalculator@K@@@@QAAPAV?$TableElement@KKV?$KeyHashCalculator@K@@@@XZ 1002998c f i Knowledge_private:SingleItemExceptions.obj
+ 0001:00028a08       ?FindNewBucket@?$HashTable@PAEVExceptionInformation@@UIdParameterPair@@@@ABAJABQAEPAV?$TableBucket@PAEVExceptionInformation@@UIdParameterPair@@@@KPAK@Z 10029a08 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:00028aac       ?FindExistingBucket@?$HashTable@PAEVExceptionInformation@@UIdParameterPair@@@@ABAJABQAEPAV?$TableBucket@PAEVExceptionInformation@@UIdParameterPair@@@@KPAK@Z 10029aac f i Knowledge_private:SingleItemExceptions.obj
+ 0001:00028b80       ?ConsumeClockVectorTable@ClockVectorTable@@QAAXPAV1@@Z 10029b80 f   Knowledge_private:SingleItemExceptions.obj
+ 0001:00028bd0       ?CountIds@IdParameterPair@@QAAJPBE0KPAK@Z 10029bd0 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:00028d70       ?GetExceptionEnumerator@SingleItemExceptionSet@@QAAJABU_GUID@@PAPAX@Z 10029d70 f   Knowledge_private:SingleItemExceptions.obj
+ 0001:00028e28       ?GetChangeUnitEnumerator@SingleItemExceptionSet@@QAAJABU_GUID@@PAPAX@Z 10029e28 f   Knowledge_private:SingleItemExceptions.obj
+ 0001:00028ee0       ?SetItemData@?$HashTable@PAEKUIdParameterPair@@@@QAAJABQAEABK@Z 10029ee0 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:00028f30       ?SetItemData@?$HashTable@PAEVExceptionInformation@@UIdParameterPair@@@@QAAJABQAEABVExceptionInformation@@@Z 10029f30 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:00028f94       ?LookupItem@?$HashTable@PAEVExceptionInformation@@UIdParameterPair@@@@QBA_NABQAEAAVExceptionInformation@@@Z 10029f94 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:00028ffc       ?ContainsItem@?$HashTable@PAEVExceptionInformation@@UIdParameterPair@@@@QBA_NABQAE@Z 10029ffc f i Knowledge_private:SingleItemExceptions.obj
+ 0001:00029030       ?CopyHashTableByValue@?$HashTable@PAEVExceptionInformation@@UIdParameterPair@@@@QAAXPAV1@@Z 1002a030 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:000290e8       ?FindNewBucket@?$HashTable@VClockVectorPtr@@KV?$KeyHashCalculator@VClockVectorPtr@@@@@@ABAJABVClockVectorPtr@@PAV?$TableBucket@VClockVectorPtr@@KV?$KeyHashCalculator@VClockVectorPtr@@@@@@KPAK@Z 1002a0e8 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:00029188       ?FindExistingBucket@?$HashTable@VClockVectorPtr@@KV?$KeyHashCalculator@VClockVectorPtr@@@@@@ABAJABVClockVectorPtr@@PAV?$TableBucket@VClockVectorPtr@@KV?$KeyHashCalculator@VClockVectorPtr@@@@@@KPAK@Z 1002a188 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:00029240       ?Resize@?$HashTable@PAEVExceptionInformation@@UIdParameterPair@@@@QAAJXZ 1002a240 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:0002939c       ?FindNewBucket@?$HashTable@VMergedClockVectorId@@KV?$KeyHashCalculator@VMergedClockVectorId@@@@@@ABAJABVMergedClockVectorId@@PAV?$TableBucket@VMergedClockVectorId@@KV?$KeyHashCalculator@VMergedClockVectorId@@@@@@KPAK@Z 1002a39c f i Knowledge_private:SingleItemExceptions.obj
+ 0001:0002945c       ?FindExistingBucket@?$HashTable@VMergedClockVectorId@@KV?$KeyHashCalculator@VMergedClockVectorId@@@@@@ABAJABVMergedClockVectorId@@PAV?$TableBucket@VMergedClockVectorId@@KV?$KeyHashCalculator@VMergedClockVectorId@@@@@@KPAK@Z 1002a45c f i Knowledge_private:SingleItemExceptions.obj
+ 0001:00029538       ?FindNewBucket@?$HashTable@KKV?$KeyHashCalculator@K@@@@ABAJABKPAV?$TableBucket@KKV?$KeyHashCalculator@K@@@@KPAK@Z 1002a538 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:000295d8       ?FindExistingBucket@?$HashTable@KKV?$KeyHashCalculator@K@@@@ABAJABKPAV?$TableBucket@KKV?$KeyHashCalculator@K@@@@KPAK@Z 1002a5d8 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:00029680       ?IsRedundantClockVector@SingleItemExceptionSet@@CAHPBE0PAVClockVector@@1PAVRangeExceptionSet@@PAV?$HashTable@PAEVExceptionInformation@@UIdParameterPair@@@@PAV?$Vector@VClockVector@@$00@@@Z 1002a680 f   Knowledge_private:SingleItemExceptions.obj
+ 0001:00029758       ??_G?$HashTable@VMergedClockVectorId@@KV?$KeyHashCalculator@VMergedClockVectorId@@@@@@QAAPAXI@Z 1002a758 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:000297a0       ??_G?$HashTable@KKV?$KeyHashCalculator@K@@@@QAAPAXI@Z 1002a7a0 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:000297e8       ?IsItemRangeFilledAndContained@SingleItemExceptionSet@@QBAJPBUINTERNAL_SYNC_RANGE@@PBVClockVector@@PAH2@Z 1002a7e8 f   Knowledge_private:SingleItemExceptions.obj
+ 0001:00029938       ?FindItemVector@SingleItemExceptionSet@@QAAPAVClockVector@@PBE0@Z 1002a938 f   Knowledge_private:SingleItemExceptions.obj
+ 0001:00029a00       ?GetSerializedSize@SingleItemExceptionSet@@QAAJPAI@Z 1002aa00 f   Knowledge_private:SingleItemExceptions.obj
+ 0001:00029b48       ?Serialize@SingleItemExceptionSet@@QAAJPAPAEPBE@Z 1002ab48 f   Knowledge_private:SingleItemExceptions.obj
+ 0001:00029d94       ?Initialize@?$HashTable@VClockVectorPtr@@KV?$KeyHashCalculator@VClockVectorPtr@@@@@@QAAJPAV?$KeyHashCalculator@VClockVectorPtr@@@@K@Z 1002ad94 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:00029e74       ?Initialize@?$HashTable@VMergedClockVectorId@@KV?$KeyHashCalculator@VMergedClockVectorId@@@@@@QAAJPAV?$KeyHashCalculator@VMergedClockVectorId@@@@K@Z 1002ae74 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:00029f4c       ?Initialize@?$HashTable@KKV?$KeyHashCalculator@K@@@@QAAJPAV?$KeyHashCalculator@K@@K@Z 1002af4c f i Knowledge_private:SingleItemExceptions.obj
+ 0001:0002a028       ?LookupItem@?$HashTable@VClockVectorPtr@@KV?$KeyHashCalculator@VClockVectorPtr@@@@@@QBA_NABVClockVectorPtr@@AAK@Z 1002b028 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:0002a084       ?AddItem@?$HashTable@PAEVExceptionInformation@@UIdParameterPair@@@@QAAJABQAEABVExceptionInformation@@@Z 1002b084 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:0002a158       ?LookupItem@?$HashTable@VMergedClockVectorId@@KV?$KeyHashCalculator@VMergedClockVectorId@@@@@@QBA_NABVMergedClockVectorId@@AAK@Z 1002b158 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:0002a1a8       ?LookupItem@?$HashTable@KKV?$KeyHashCalculator@K@@@@QBA_NABKAAK@Z 1002b1a8 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:0002a1f8       ?ContainsItem@?$HashTable@KKV?$KeyHashCalculator@K@@@@QBA_NABK@Z 1002b1f8 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:0002a22c       ?Resize@?$HashTable@VClockVectorPtr@@KV?$KeyHashCalculator@VClockVectorPtr@@@@@@QAAJXZ 1002b22c f i Knowledge_private:SingleItemExceptions.obj
+ 0001:0002a370       ?ContainsItem@?$HashTable@VClockVectorPtr@@KV?$KeyHashCalculator@VClockVectorPtr@@@@@@QBA_NABVClockVectorPtr@@@Z 1002b370 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:0002a3a4       ?Resize@?$HashTable@VMergedClockVectorId@@KV?$KeyHashCalculator@VMergedClockVectorId@@@@@@QAAJXZ 1002b3a4 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:0002a4e4       ?ContainsItem@?$HashTable@VMergedClockVectorId@@KV?$KeyHashCalculator@VMergedClockVectorId@@@@@@QBA_NABVMergedClockVectorId@@@Z 1002b4e4 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:0002a518       ?Resize@?$HashTable@KKV?$KeyHashCalculator@K@@@@QAAJXZ 1002b518 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:0002a658       ?AddZeroClockVector@ClockVectorTable@@QAAJXZ 1002b658 f   Knowledge_private:SingleItemExceptions.obj
+ 0001:0002a76c       ?Deserialize@ClockVectorTable@@QAAJPAPAEPBEPAUIReplicaKeyMapInternal@@@Z 1002b76c f   Knowledge_private:SingleItemExceptions.obj
+ 0001:0002aa10       ?CopyAndRemapVectors@ClockVectorTable@@QAAJPAV1@PAUIReplicaKeyMapInternal@@1@Z 1002ba10 f   Knowledge_private:SingleItemExceptions.obj
+ 0001:0002ab54       ?RewireClockVectorIndices@SingleItemExceptionSet@@CAJPAV?$HashTable@PAEVExceptionInformation@@UIdParameterPair@@@@PAV?$HashTable@KKV?$KeyHashCalculator@K@@@@@Z 1002bb54 f   Knowledge_private:SingleItemExceptions.obj
+ 0001:0002ac70       ?Initialize@?$HashTable@VClockVectorPtr@@KV?$KeyHashCalculator@VClockVectorPtr@@@@@@QAAJK@Z 1002bc70 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:0002acd8       ?Initialize@?$HashTable@PAEVExceptionInformation@@UIdParameterPair@@@@QAAJPAUIdParameterPair@@K@Z 1002bcd8 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:0002add4       ?Add@?$Vector@VClockVector@@$00@@QAAJABVClockVector@@@Z 1002bdd4 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:0002af8c       ?Initialize@?$HashTable@VMergedClockVectorId@@KV?$KeyHashCalculator@VMergedClockVectorId@@@@@@QAAJK@Z 1002bf8c f i Knowledge_private:SingleItemExceptions.obj
+ 0001:0002aff4       ?Initialize@?$HashTable@KKV?$KeyHashCalculator@K@@@@QAAJK@Z 1002bff4 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:0002b05c       ?AddItem@?$HashTable@VClockVectorPtr@@KV?$KeyHashCalculator@VClockVectorPtr@@@@@@QAAJABVClockVectorPtr@@ABK@Z 1002c05c f i Knowledge_private:SingleItemExceptions.obj
+ 0001:0002b120       ?ConsumeHashTable@?$HashTable@PAEVExceptionInformation@@UIdParameterPair@@@@QAAJPAV1@@Z 1002c120 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:0002b1a4       ?AddItem@?$HashTable@VMergedClockVectorId@@KV?$KeyHashCalculator@VMergedClockVectorId@@@@@@QAAJABVMergedClockVectorId@@ABK@Z 1002c1a4 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:0002b270       ?AddItem@?$HashTable@KKV?$KeyHashCalculator@K@@@@QAAJABK0@Z 1002c270 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:0002b334       ?AddClockVector@ClockVectorTable@@QAAJPAVClockVector@@PAK@Z 1002c334 f   Knowledge_private:SingleItemExceptions.obj
+ 0001:0002b588       ?Initialize@SingleItemExceptionSet@@QAAJXZ 1002c588 f   Knowledge_private:SingleItemExceptions.obj
+ 0001:0002b604       ?AddSingleItemException@SingleItemExceptionSet@@QAAJPAEPAVClockVector@@@Z 1002c604 f   Knowledge_private:SingleItemExceptions.obj
+ 0001:0002b6bc       ?FreeExceptions@ExceptionInformation@@QAAXXZ 1002c6bc f i Knowledge_private:SingleItemExceptions.obj
+ 0001:0002b73c       ??1SingleItemExceptionSet@@QAA@XZ 1002c73c f   Knowledge_private:SingleItemExceptions.obj
+ 0001:0002b7fc       ?CreateFrom@SingleItemExceptionSet@@SAJPAVIdParameters@@PAVClockVectorTable@@PAV?$HashTable@PAEVExceptionInformation@@UIdParameterPair@@@@HPAPAV1@@Z 1002c7fc f   Knowledge_private:SingleItemExceptions.obj
+ 0001:0002b8ac       ?CreateFrom@SingleItemExceptionSet@@SAJPAVIdParameters@@PAVClockVector@@JKPAV?$HashTable@PAEVExceptionInformation@@UIdParameterPair@@@@HPAPAV1@@Z 1002c8ac f   Knowledge_private:SingleItemExceptions.obj
+ 0001:0002b960       ?SetChangeUnitExceptions@ExceptionInformation@@QAAJPAV?$HashTable@PAEKUIdParameterPair@@@@@Z 1002c960 f i Knowledge_private:SingleItemExceptions.obj
+ 0001:0002b9c8       ?MergeItemOrChangeUnit@SingleItemExceptionSet@@AAAJPAVIdParameters@@PBE1PAVClockVector@@2PAV1@2PAVRangeExceptionSet@@PAV?$HashTable@PAEVExceptionInformation@@UIdParameterPair@@@@PAV?$Vector@VClockVector@@$00@@PAPAV?$HashTable@VMergedClockVectorId@@KV?$KeyHashCalculator@VMergedClockVectorId@@@@@@PAH@Z 1002c9c8 f   Knowledge_private:SingleItemExceptions.obj
+ 0001:0002bd90       ?AddChangeUnitException@SingleItemExceptionSet@@QAAJPAE0PAVClockVector@@@Z 1002cd90 f   Knowledge_private:SingleItemExceptions.obj
+ 0001:0002bf6c       ?FullMergeSingleItemExceptions@SingleItemExceptionSet@@AAAJPAVKnowledge@@0PAVClockVector@@PAVRangeExceptionSet@@PAPAV1@@Z 1002cf6c f   Knowledge_private:SingleItemExceptions.obj
+ 0001:0002c984       ?ProjectOntoRange@SingleItemExceptionSet@@QAAJPAV1@PAUINTERNAL_SYNC_RANGE@@@Z 1002d984 f   Knowledge_private:SingleItemExceptions.obj
+ 0001:0002cf54       ?ProjectItemOrChangeUnit@SingleItemExceptionSet@@QAAJPAV1@PBE1PAVClockVector@@H@Z 1002df54 f   Knowledge_private:SingleItemExceptions.obj
+ 0001:0002d6a4       ?ExcludeItemOrChangeUnit@SingleItemExceptionSet@@QAAJPBE0H@Z 1002e6a4 f   Knowledge_private:SingleItemExceptions.obj
+ 0001:0002d9e0       ?Deserialize@SingleItemExceptionSet@@SAJPAVIdParameters@@PAPAEPBEPAUIReplicaKeyMapInternal@@PAPAV1@@Z 1002e9e0 f   Knowledge_private:SingleItemExceptions.obj
+ 0001:0002dff0       ?CopyAndRemapVectors@SingleItemExceptionSet@@QAAJPAV1@PAUIReplicaKeyMapInternal@@1@Z 1002eff0 f   Knowledge_private:SingleItemExceptions.obj
+ 0001:0002e318       ?Release@SingleItemExceptionSet@@UAAKXZ 1002f318 f   Knowledge_private:SingleItemExceptions.obj
+ 0001:0002e350       ?MergeSingleItemExceptions@SingleItemExceptionSet@@QAAJPAVKnowledge@@0PAVClockVector@@PAVRangeExceptionSet@@PAPAV1@@Z 1002f350 f   Knowledge_private:SingleItemExceptions.obj
+ 0001:0002e3dc       ?QueryInterface@RangeExceptionInternal@@UAAJABU_GUID@@PAPAX@Z 1002f3dc f   Knowledge_private:RangeExceptionEnumerator.obj
+ 0001:0002e468       ?AddRef@RangeExceptionInternal@@UAAKXZ 1002f468 f   Knowledge_private:RangeExceptionEnumerator.obj
+ 0001:0002e470       ?GetClockVector@RangeExceptionInternal@@UAAJABU_GUID@@PAPAX@Z 1002f470 f   Knowledge_private:RangeExceptionEnumerator.obj
+ 0001:0002e48c       ?QueryInterface@RangeExceptionEnumerator@@UAAJABU_GUID@@PAPAX@Z 1002f48c f   Knowledge_private:RangeExceptionEnumerator.obj
+ 0001:0002e518       ?AddRef@RangeExceptionEnumerator@@UAAKXZ 1002f518 f   Knowledge_private:RangeExceptionEnumerator.obj
+ 0001:0002e520       ?Skip@RangeExceptionEnumerator@@UAAJK@Z 1002f520 f   Knowledge_private:RangeExceptionEnumerator.obj
+ 0001:0002e564       ?Reset@RangeExceptionEnumerator@@UAAJXZ 1002f564 f   Knowledge_private:RangeExceptionEnumerator.obj
+ 0001:0002e574       ??0RangeExceptionInternal@@QAA@PAUIUnknown@@PAVIdParameters@@PAVRangeException@@@Z 1002f574 f   Knowledge_private:RangeExceptionEnumerator.obj
+ 0001:0002e5c4       ??0RangeExceptionEnumerator@@QAA@PAVIdParameters@@PAVRangeExceptionSet@@@Z 1002f5c4 f   Knowledge_private:RangeExceptionEnumerator.obj
+ 0001:0002e610       ?Next@RangeExceptionEnumerator@@UAAJKPAPAUIRangeException@@PAK@Z 1002f610 f   Knowledge_private:RangeExceptionEnumerator.obj
+ 0001:0002e7b0       ?Clone@RangeExceptionEnumerator@@UAAJPAPAUIEnumRangeExceptions@@@Z 1002f7b0 f   Knowledge_private:RangeExceptionEnumerator.obj
+ 0001:0002e814       ?GetClosedRangeStart@RangeExceptionInternal@@UAAJPAEPAK@Z 1002f814 f   Knowledge_private:RangeExceptionEnumerator.obj
+ 0001:0002e828       ?GetClosedRangeEnd@RangeExceptionInternal@@UAAJPAEPAK@Z 1002f828 f   Knowledge_private:RangeExceptionEnumerator.obj
+ 0001:0002e8a4       ??1RangeExceptionInternal@@QAA@XZ 1002f8a4 f   Knowledge_private:RangeExceptionEnumerator.obj
+ 0001:0002e8f0       ??1RangeExceptionEnumerator@@QAA@XZ 1002f8f0 f   Knowledge_private:RangeExceptionEnumerator.obj
+ 0001:0002e93c       ?Release@RangeExceptionInternal@@UAAKXZ 1002f93c f   Knowledge_private:RangeExceptionEnumerator.obj
+ 0001:0002e974       ?Release@RangeExceptionEnumerator@@UAAKXZ 1002f974 f   Knowledge_private:RangeExceptionEnumerator.obj
+ 0001:0002e9ac       ?QueryInterface@SingleItemExceptionInternal@@UAAJABU_GUID@@PAPAX@Z 1002f9ac f   Knowledge_private:SingleItemExceptionEnumerator.obj
+ 0001:0002ea38       ?AddRef@SingleItemExceptionInternal@@UAAKXZ 1002fa38 f   Knowledge_private:SingleItemExceptionEnumerator.obj
+ 0001:0002ea40       ??1SingleItemExceptionEnumerator@@QAA@XZ 1002fa40 f   Knowledge_private:SingleItemExceptionEnumerator.obj
+ 0001:0002ea74       ?QueryInterface@SingleItemExceptionEnumerator@@UAAJABU_GUID@@PAPAX@Z 1002fa74 f   Knowledge_private:SingleItemExceptionEnumerator.obj
+ 0001:0002eb00       ?AddRef@SingleItemExceptionEnumerator@@UAAKXZ 1002fb00 f   Knowledge_private:SingleItemExceptionEnumerator.obj
+ 0001:0002eb08       ?Next@SingleItemExceptionEnumerator@@UAAJKPAPAUISingleItemException@@PAK@Z 1002fb08 f   Knowledge_private:SingleItemExceptionEnumerator.obj
+ 0001:0002eb10       ?Skip@SingleItemExceptionEnumerator@@UAAJK@Z 1002fb10 f   Knowledge_private:SingleItemExceptionEnumerator.obj
+ 0001:0002eb18       ?Reset@SingleItemExceptionEnumerator@@UAAJXZ 1002fb18 f   Knowledge_private:SingleItemExceptionEnumerator.obj
+ 0001:0002eb20       ??0SingleItemExceptionInternal@@QAA@PAVIdParameters@@PAVSingleItemExceptionSet@@PAV?$TableElement@PAEVExceptionInformation@@UIdParameterPair@@@@@Z 1002fb20 f   Knowledge_private:SingleItemExceptionEnumerator.obj
+ 0001:0002eb70       ??0SingleItemExceptionEnumerator@@QAA@PAVIdParameters@@PAVSingleItemExceptionSet@@@Z 1002fb70 f   Knowledge_private:SingleItemExceptionEnumerator.obj
+ 0001:0002ebc0       ?Release@SingleItemExceptionEnumerator@@UAAKXZ 1002fbc0 f   Knowledge_private:SingleItemExceptionEnumerator.obj
+ 0001:0002ebf8       ?Clone@?$TableEnumerator@PAEKUIdParameterPair@@@@QAAPAV1@XZ 1002fbf8 f i Knowledge_private:SingleItemExceptionEnumerator.obj
+ 0001:0002ec3c       ?Clone@?$TableEnumerator@PAEVExceptionInformation@@UIdParameterPair@@@@QAAPAV1@XZ 1002fc3c f i Knowledge_private:SingleItemExceptionEnumerator.obj
+ 0001:0002ec80       ?GetItemId@SingleItemExceptionInternal@@UAAJPAEPAK@Z 1002fc80 f   Knowledge_private:SingleItemExceptionEnumerator.obj
+ 0001:0002ec94       ?Clone@SingleItemExceptionEnumerator@@UAAJPAPAUIEnumSingleItemExceptions@@@Z 1002fc94 f   Knowledge_private:SingleItemExceptionEnumerator.obj
+ 0001:0002ed54       ??1SingleItemExceptionInternal@@QAA@XZ 1002fd54 f   Knowledge_private:SingleItemExceptionEnumerator.obj
+ 0001:0002eda0       ?GetClockVector@SingleItemExceptionInternal@@UAAJABU_GUID@@PAPAX@Z 1002fda0 f   Knowledge_private:SingleItemExceptionEnumerator.obj
+ 0001:0002ee48       ?Release@SingleItemExceptionInternal@@UAAKXZ 1002fe48 f   Knowledge_private:SingleItemExceptionEnumerator.obj
+ 0001:0002ee80       ?QueryInterface@ChangeUnitExceptionInternal@@UAAJABU_GUID@@PAPAX@Z 1002fe80 f   Knowledge_private:ChangeUnitExceptionEnumerator.obj
+ 0001:0002ef0c       ?AddRef@ChangeUnitExceptionInternal@@UAAKXZ 1002ff0c f   Knowledge_private:ChangeUnitExceptionEnumerator.obj
+ 0001:0002ef14       ??1ChangeUnitExceptionEnumerator@@QAA@XZ 1002ff14 f   Knowledge_private:ChangeUnitExceptionEnumerator.obj
+ 0001:0002ef48       ?QueryInterface@ChangeUnitExceptionEnumerator@@UAAJABU_GUID@@PAPAX@Z 1002ff48 f   Knowledge_private:ChangeUnitExceptionEnumerator.obj
+ 0001:0002efd4       ?AddRef@ChangeUnitExceptionEnumerator@@UAAKXZ 1002ffd4 f   Knowledge_private:ChangeUnitExceptionEnumerator.obj
+ 0001:0002efdc       ?Next@ChangeUnitExceptionEnumerator@@UAAJKPAPAUIChangeUnitException@@PAK@Z 1002ffdc f   Knowledge_private:ChangeUnitExceptionEnumerator.obj
+ 0001:0002efe4       ?Skip@ChangeUnitExceptionEnumerator@@UAAJK@Z 1002ffe4 f   Knowledge_private:ChangeUnitExceptionEnumerator.obj
+ 0001:0002efec       ?Reset@ChangeUnitExceptionEnumerator@@UAAJXZ 1002ffec f   Knowledge_private:ChangeUnitExceptionEnumerator.obj
+ 0001:0002eff4       ??0ChangeUnitExceptionInternal@@QAA@PAVIdParameters@@PAVSingleItemExceptionSet@@PAEPAV?$TableElement@PAEKUIdParameterPair@@@@@Z 1002fff4 f   Knowledge_private:ChangeUnitExceptionEnumerator.obj
+ 0001:0002f04c       ??0ChangeUnitExceptionEnumerator@@QAA@PAVIdParameters@@PAVSingleItemExceptionSet@@@Z 1003004c f   Knowledge_private:ChangeUnitExceptionEnumerator.obj
+ 0001:0002f09c       ?Release@ChangeUnitExceptionEnumerator@@UAAKXZ 1003009c f   Knowledge_private:ChangeUnitExceptionEnumerator.obj
+ 0001:0002f0d4       ?GetItemId@ChangeUnitExceptionInternal@@UAAJPAEPAK@Z 100300d4 f   Knowledge_private:ChangeUnitExceptionEnumerator.obj
+ 0001:0002f0ec       ?GetChangeUnitId@ChangeUnitExceptionInternal@@UAAJPAEPAK@Z 100300ec f   Knowledge_private:ChangeUnitExceptionEnumerator.obj
+ 0001:0002f100       ?Clone@ChangeUnitExceptionEnumerator@@UAAJPAPAUIEnumChangeUnitExceptions@@@Z 10030100 f   Knowledge_private:ChangeUnitExceptionEnumerator.obj
+ 0001:0002f1c0       ??1ChangeUnitExceptionInternal@@QAA@XZ 100301c0 f   Knowledge_private:ChangeUnitExceptionEnumerator.obj
+ 0001:0002f20c       ?GetClockVector@ChangeUnitExceptionInternal@@UAAJABU_GUID@@PAPAX@Z 1003020c f   Knowledge_private:ChangeUnitExceptionEnumerator.obj
+ 0001:0002f2b4       ?Release@ChangeUnitExceptionInternal@@UAAKXZ 100302b4 f   Knowledge_private:ChangeUnitExceptionEnumerator.obj
+ 0001:0002f2ec       ??0ItemExceptionEnumBase@@QAA@PAVIdParameters@@W4EnumeratorTypeEnum@0@PAVSingleItemExceptionSet@@@Z 100302ec f   Knowledge_private:ItemExceptionEnumBase.obj
+ 0001:0002f330       ?Initialize@ItemExceptionEnumBase@@QAAJXZ 10030330 f   Knowledge_private:ItemExceptionEnumBase.obj
+ 0001:0002f37c       ?Next@ItemExceptionEnumBase@@IAAJKPAPAXPAK@Z 1003037c f   Knowledge_private:ItemExceptionEnumBase.obj
+ 0001:0002f5a0       ?SkipExceptions@ItemExceptionEnumBase@@IAAJK@Z 100305a0 f   Knowledge_private:ItemExceptionEnumBase.obj
+ 0001:0002f6dc       ?ResetEnumerator@ItemExceptionEnumBase@@IAAJXZ 100306dc f   Knowledge_private:ItemExceptionEnumBase.obj
+ 0001:0002f73c       ??1ItemExceptionEnumBase@@QAA@XZ 1003073c f   Knowledge_private:ItemExceptionEnumBase.obj
+ 0001:0002f788       FreeResourceLibrary        10030788 f   resload:resload.obj
+ 0001:0002fa70       LoadResourceLibraryWithLanguage 10030a70 f   resload:resload.obj
+ 0001:0002fad4       LoadResourceLibrary        10030ad4 f   resload:resload.obj
+ 0001:0002faf0       ?IsLeapYear@@YA_NK@Z       10030af0 f i syncutils:Rfc3339Date.obj
+ 0001:0002fb54       ?IsDateTimeValid@@YAJGGGGGGGG@Z 10030b54 f   syncutils:Rfc3339Date.obj
+ 0001:0002fedc       ?IsSyncTimeAcceptable@@YAHABU_SYNC_TIME@@@Z 10030edc f   syncutils:Rfc3339Date.obj
+ 0001:0002ff74       InterlockedExchange        10030f74 f   coredll:COREDLL.dll
+ 0001:0002ff84       TerminateProcess           10030f84 f   coredll:COREDLL.dll
+ 0001:0002ff94       Sleep                      10030f94 f   coredll:COREDLL.dll
+ 0001:0002ffa4       LoadLibraryW               10030fa4 f   coredll:COREDLL.dll
+ 0001:0002ffb4       FreeLibrary                10030fb4 f   coredll:COREDLL.dll
+ 0001:0002ffc4       FindClose                  10030fc4 f   coredll:COREDLL.dll
+ 0001:0002ffd4       FindFirstFileW             10030fd4 f   coredll:COREDLL.dll
+ 0001:0002ffe4       SetLastError               10030fe4 f   coredll:COREDLL.dll
+ 0001:0002fff4       GetUserDefaultUILanguage   10030ff4 f   coredll:COREDLL.dll
+ 0001:00030044       __IMPORT_DESCRIPTOR_COREDLL 10031044     coredll:COREDLL.dll
+ 0001:00030058       __IMPORT_DESCRIPTOR_ole32  10031058     ole32:ole32.dll
+ 0001:0003006c       __IMPORT_DESCRIPTOR_OLEAUT32 1003106c     oleaut32:OLEAUT32.dll
+ 0001:00030080       __NULL_IMPORT_DESCRIPTOR   10031080     coredll:COREDLL.dll
+ 0002:00000000       __imp_InterlockedIncrement 10032000     coredll:COREDLL.dll
+ 0002:00000004       __imp_InterlockedDecrement 10032004     coredll:COREDLL.dll
+ 0002:00000008       __imp_GetLastError         10032008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_RegCloseKey          1003200c     coredll:COREDLL.dll
+ 0002:00000010       __imp_RegSetValueExW       10032010     coredll:COREDLL.dll
+ 0002:00000014       __imp_RegCreateKeyExW      10032014     coredll:COREDLL.dll
+ 0002:00000018       __imp_StringCchPrintfW     10032018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_RegDeleteKeyW        1003201c     coredll:COREDLL.dll
+ 0002:00000020       __imp_GetModuleFileNameW   10032020     coredll:COREDLL.dll
+ 0002:00000024       __imp_DeleteCriticalSection 10032024     coredll:COREDLL.dll
+ 0002:00000028       __imp_InitializeCriticalSection 10032028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_EnterCriticalSection 1003202c     coredll:COREDLL.dll
+ 0002:00000030       __imp_LeaveCriticalSection 10032030     coredll:COREDLL.dll
+ 0002:00000034       __imp_EventModify          10032034     coredll:COREDLL.dll
+ 0002:00000038       __imp_CloseHandle          10032038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_CreateEventW         1003203c     coredll:COREDLL.dll
+ 0002:00000040       __imp_WaitForSingleObject  10032040     coredll:COREDLL.dll
+ 0002:00000044       __imp_StringCchCopyW       10032044     coredll:COREDLL.dll
+ 0002:00000048       __imp_FormatMessageW       10032048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_HeapAlloc            1003204c     coredll:COREDLL.dll
+ 0002:00000050       __imp_GetProcessHeap       10032050     coredll:COREDLL.dll
+ 0002:00000054       __imp_HeapFree             10032054     coredll:COREDLL.dll
+ 0002:00000058       __imp_GetUserDefaultUILanguage 10032058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_SetLastError         1003205c     coredll:COREDLL.dll
+ 0002:00000060       __imp_FindFirstFileW       10032060     coredll:COREDLL.dll
+ 0002:00000064       __imp_FindClose            10032064     coredll:COREDLL.dll
+ 0002:00000068       __imp_memcmp               10032068     corelib1:COREDLL.dll
+ 0002:0000006c       __imp_wcslen               1003206c     corelib1:COREDLL.dll
+ 0002:00000070       __imp__purecall            10032070     corelib1:COREDLL.dll
+ 0002:00000074       __imp___rt_udiv            10032074     corelib1:COREDLL.dll
+ 0002:00000078       __imp___C_specific_handler 10032078     corelib1:COREDLL.dll
+ 0002:0000007c       __imp_memcpy               1003207c     corelib1:COREDLL.dll
+ 0002:00000080       __imp_memset               10032080     corelib1:COREDLL.dll
+ 0002:00000084       __imp__XcptFilter          10032084     corelib1:COREDLL.dll
+ 0002:00000088       __imp___security_gen_cookie2 10032088     corelib1:COREDLL.dll
+ 0002:0000008c       __imp___report_gsfailure   1003208c     corelib1:COREDLL.dll
+ 0002:00000090       __imp_free                 10032090     corelib1:COREDLL.dll
+ 0002:00000094       __imp_InterlockedExchange  10032094     coredll:COREDLL.dll
+ 0002:00000098       __imp_TerminateProcess     10032098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_Sleep                1003209c     coredll:COREDLL.dll
+ 0002:000000a0       __imp_LoadLibraryW         100320a0     coredll:COREDLL.dll
+ 0002:000000a4       __imp_FreeLibrary          100320a4     coredll:COREDLL.dll
+ 0002:000000a8       \177COREDLL_NULL_THUNK_DATA 100320a8     coredll:COREDLL.dll
+ 0002:000000ac       __imp_CreateErrorInfo      100320ac     oleaut32:OLEAUT32.dll
+ 0002:000000b0       __imp_SetErrorInfo         100320b0     oleaut32:OLEAUT32.dll
+ 0002:000000b4       __imp_GetErrorInfo         100320b4     oleaut32:OLEAUT32.dll
+ 0002:000000b8       \177OLEAUT32_NULL_THUNK_DATA 100320b8     oleaut32:OLEAUT32.dll
+ 0002:000000bc       __imp_StringFromGUID2      100320bc     ole32:ole32.dll
+ 0002:000000c0       \177ole32_NULL_THUNK_DATA  100320c0     ole32:ole32.dll
+ 0002:000000c4       __security_cookie          100320c4     corelib0:seccinit.obj
+ 0002:000000c8       __security_cookie_complement 100320c8     corelib0:seccinit.obj
+ 0002:000000cc       ?g_hInstance@@3PAUHINSTANCE__@@A 100320cc     dll.obj
+ 0002:000000d0       ?g_cRefThisDll@@3JC        100320d0     dll.obj
+ 0002:000000d4       __@@_PchSym_@00@UygUDAJBUkirezgvUnhuUhbmxUhixUckilxUvmtrmvUlyqUzineHUivgzroUkivxlnkOlyq@engine 100320d4     engine:precomp.obj
+ 0002:000000d8       __@@_PchSym_@00@UygUDAJBUkirezgvUnhuUhbmxUhixUckilxUfgroUlyqUzineHUivgzroUkivxlnkOlyq@syncutils 100320d8     syncutils:precomp.obj
+ 0002:000000dc       __@@_PchSym_@00@UygUDAJBUkirezgvUnhuUhbmxUhixUckilxUnvnlibUlyqUzineHUivgzroUkivxlnkOlyq@memory 100320dc     memory:precomp.obj
+ 0002:000000e0       _exitflag                  100320e0     corelib0:cexit.obj
+ 0002:000000e4       __@@_PchSym_@00@UygUDAJBUkirezgvUnhuUhbmxUhixUckilxUpmldovwtvUlyqUzineHUivgzroUkivxlnkOlyq@knowledge_private 100320e4     Knowledge_private:precomp.obj
+ 0002:000000e8       __onexitend                100320e8     <common>
+ 0002:000000ec       __onexitbegin              100320ec     <common>
+ 0002:000000f0       g_pcsExit                  100320f0     <common>
+ 0002:000000f4       _pRawDllMain               100320f4     <common>
+
+ entry point at        0001:0001d6ec
+
+ Static symbols
+
+ 0001:0001d5fc       _DllMainCRTStartupHelper   1001e5fc f   corelib0:pegdmain.obj
+ 0001:0001d814       doexit                     1001e814 f   corelib0:cexit.obj
+ 0001:0002f78c       ?CopyString@@YA_NPAGIPBG@Z 1003078c f   resload:resload.obj
+ 0001:0002f80c       ?GetResourceLibraryPathInternal@@YA_NPAUHINSTANCE__@@GPAGIPBG@Z 1003080c f   resload:resload.obj

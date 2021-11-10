@@ -1,0 +1,1778 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;
+; Copyright (c) Microsoft Corporation.  All rights reserved.
+;
+;
+; Use of this source code is subject to the terms of the Microsoft shared
+; source or premium shared source license agreement under which you licensed
+; this source code. If you did not accept the terms of the license agreement,
+; you are not authorized to use this source code. For the terms of the license,
+; please see the license agreement between you and Microsoft or, if applicable,
+; see the SOURCE.RTF on your install media or the root of your tools installation.
+; THE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES.
+;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; This file defines the CRT entrypoints for COREDLL.
+;
+; NOTE: this file is used by different components:
+;   - (k.)coredll.dll
+;   - corelibc.lib
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; building (k.)coredll.dll ?
+;
+
+
+
+
+
+
+
+
+
+LIBRARY COREDLL
+EXPORTS
+
+
+
+
+
+
+
+
+
+
+
+
+    memchr @31
+    wcscat @58
+    wcscat_s @2628
+    wcschr @59
+    wcscmp @60
+    wcscpy @61
+    wcscpy_s @2629
+    wcscspn @62
+    wcslen @63
+    wcsnlen @2630
+    wcsncat @64
+    wcsncat_s @2631
+    wcsncmp @65
+    wcsncpy @66
+    wcsncpy_s @2632
+    _wcsnset @67
+    _wcsnset_s @2633
+    wcspbrk @68
+    wcsrchr @69
+    _wcsrev @70
+    _wcsset @71
+    _wcsset_s @2634
+    wcsspn @72
+    wcsstr @73
+    _wcsdup @74
+    wcstombs @75
+    wcstombs_s @2635
+    mbstowcs @76
+    mbstowcs_s @2636
+    wcstok @77
+    wcstok_s @2637
+    _wtoi @3026
+    _wtol @78
+    _atoi64 @1418
+    _wtoi64 @79
+    strtod @1403
+    strtol @1404
+    strtoul @1405
+    _strtoi64 @3025
+    _strtoui64 @3022
+
+    strpbrk @1406
+    strrchr @1407
+    strspn @1408
+    _strdup @1409
+    _strnset @1412
+    _strnset_s @2638
+    _strrev @1413
+    _strset @1414
+    _strset_s @2639
+    _strlwr @1415
+    _strlwr_s @2640
+    _strupr @1416
+    _strupr_s @2641
+
+    _stricmp @1410
+    _strnicmp @1411
+
+
+
+
+
+
+
+
+    __C_specific_handler @87
+
+
+; @CESYSGEN IF COREDLL_CORELOC || COREDLL_LOCUSA || COREDLL_LOCMINI
+    _isctype @1417
+    iswctype @193
+    towlower @194
+    towupper @195
+    _wcsnicmp @229
+    _wcsicmp @230
+    _wcslwr @231
+    _wcslwr_s @2642
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF COREDLL_CORELOC || COREDLL_LOCUSA
+    _wcsupr @232
+    _wcsupr_s @2643
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF COREDLL_CORECRT
+
+; @CESYSGEN IF COREDLL_FULL_CRT
+    abs @988
+    acos @989
+    asin @990
+    atan @991
+    atan2 @992
+; @CESYSGEN ENDIF
+
+    atoi @993
+    atol @994
+
+; @CESYSGEN IF COREDLL_FULL_CRT
+    atof @995
+    _wtof @3027
+    _atodbl @996
+    _atoflt @997
+    bsearch @2870
+    bsearch_s @2871
+    _cabs @998
+    ceil @999
+    _chgsign @1000
+    _clearfp @1001
+    _controlfp @1002
+    _controlfp_s @2644
+    _copysign @1003
+    cos @1004
+    cosh @1005
+    difftime @1006
+    div @1007
+    _ecvt @1008
+    _ecvt_s @2645
+    exp @1009
+    fabs @1010
+    _fcvt @1011
+    _fcvt_s @2646
+    _finite @1012
+    floor @1013
+    fmod @1014
+    _fpclass @1015
+    _fpieee_flt @1016
+    _fpreset @1017
+; @CESYSGEN ENDIF
+
+    free @1018
+    _itow @1026
+    _itow_s @2647
+
+; @CESYSGEN IF COREDLL_FULL_CRT
+    frexp @1019
+    _frnd @1020
+    _fsqrt @1021
+    _gcvt @1022
+    _gcvt_s @2648
+    _hypot @1023
+    _isnan @1024
+    _itoa @1025
+    _itoa_s @2649
+    _j0 @1027
+    _j1 @1028
+    _jn @1029
+    labs @1030
+    ldexp @1031
+    ldiv @1032
+    log @1033
+    log10 @1034
+    _logb @1035
+    longjmp @1036
+    _lrotl @1037
+    _lrotr @1038
+    _ltoa @1039
+    _ltoa_s @2650
+    _ltow @1040
+    _ltow_s @2651
+; @CESYSGEN ENDIF
+
+    malloc @1041
+    calloc @1346
+    _msize @1049
+    _memccpy @1042
+    memcmp @1043
+    memcpy @1044
+    memcpy_s @2652
+    _memicmp @1045
+    memmove @1046
+    memmove_s @2653
+    memset @1047
+
+; @CESYSGEN IF COREDLL_FULL_CRT
+    modf @1048
+    _nextafter @1050
+    pow @1051
+    qsort @1052
+    qsort_s @2654
+; @CESYSGEN ENDIF
+
+    rand @1053
+; @CESYSGEN IF CE_MODULES_FILESYS
+    rand_s @2655
+; @CESYSGEN ENDIF
+    realloc @1054
+    _recalloc @2656
+
+; @CESYSGEN IF COREDLL_FULL_CRT
+    _rotl @1055
+    _rotr @1056
+    _scalb @1057
+    sin @1058
+    sinh @1059
+    sqrt @1060
+; @CESYSGEN ENDIF
+
+    srand @1061
+
+; @CESYSGEN IF COREDLL_FULL_CRT
+    _statusfp @1062
+; @CESYSGEN ENDIF
+
+    strcat @1063
+    strcat_s @2657
+    strchr @1064
+    strcmp @1065
+    strcpy @1066
+    strcpy_s @2658
+    strcspn @1067
+    strlen @1068
+    strnlen @2659
+    strncat @1069
+    strncat_s @2660
+    strncmp @1070
+    strncpy @1071
+    strncpy_s @2661
+    strstr @1072
+    strtok @1073
+    strtok_s @2662
+    _swab @1074
+
+; @CESYSGEN IF COREDLL_FULL_CRT
+    tan @1075
+    tanh @1076
+    _ultoa @1079
+    _ultoa_s @2663
+    _ultow @1080
+    _ultow_s @2664
+; @CESYSGEN ENDIF
+
+    wcstod @1081
+    wcstol @1082
+    _HUGE @1181
+
+; @CESYSGEN IF COREDLL_FULL_CRT
+    wcstoul @1083
+    _wcstoi64 @3023
+    _wcstoui64 @3024
+    _y0 @1084
+    _y1 @1085
+    _yn @1086
+    _ld12tod @1087
+    _ld12tof @1088
+    __strgtold12 @1089
+; @CESYSGEN ENDIF
+
+    tolower @1090
+    toupper @1091
+
+    _purecall @1092
+
+    _fltused @1093
+    ??2@YAPAXI@Z @1095
+    ??3@YAXPAX@Z @1094
+    ??_U@YAPAXI@Z @1456
+    ??_V@YAXPAX@Z @1457
+    ??2@YAPAXIABUnothrow_t@std@@@Z @1646
+    ??3@YAXPAXABUnothrow_t@std@@@Z @1662
+    ??_U@YAPAXIABUnothrow_t@std@@@Z @1661
+    ??_V@YAXPAXABUnothrow_t@std@@@Z @1663
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    __rt_sdiv64by64 @2000
+    __rt_srem64by64 @2001
+    __rt_udiv64by64 @2002
+    __rt_urem64by64 @2003
+    __rt_sdiv @2005
+    __rt_sdiv10 @2006
+    __rt_udiv @2008
+    __rt_udiv10 @2009
+    __rt_srsh @2010
+    __rt_ursh @2011
+    __utod @2012
+    __u64tos @2013
+    __u64tod @2014
+    __subs @2015
+    __subd @2016
+    __stou64 @2017
+    __stou @2018
+    __stoi64 @2019
+    __stoi @2020
+    __stod @2021
+    __nes @2022
+    __negs @2023
+    __negd @2024
+    __ned @2025
+    __muls @2026
+    __muld @2027
+    __lts @2028
+    __ltd @2029
+    __les @2030
+    __led @2031
+    __itos @2032
+    __itod @2033
+    __i64tos @2034
+    __i64tod @2035
+    __gts @2036
+    __gtd @2037
+    __ges @2038
+    __ged @2039
+    __eqs @2040
+    __eqd @2041
+    __dtou64 @2042
+    __dtou @2043
+    __dtos @2044
+    __dtoi64 @2045
+    __dtoi @2046
+    __divs @2047
+    __divd @2048
+    __adds @2051
+    __utos @2052
+    __addd @2053
+    setjmp @2054
+    _mbmemset @2055
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @CESYSGEN ENDIF COREDLL_CORECRT
+
+    ; since wsprintfW and wvsprintfW (which are always present)
+    ; redirect to swprintf/vswprintf. _snwprintf/_vsnwprintf come for free with these two
+    swprintf @1097
+    swprintf_s @2665
+    vswprintf @1099
+    vswprintf_s @2666
+    _scwprintf @2800 
+    _snwprintf @1096
+    _snwprintf_s @2667
+    _vscwprintf @2801
+    _vsnwprintf @1132
+    _vsnwprintf_s @2668
+
+    _set_printf_count_output @2872
+    _get_printf_count_output @2873
+
+; @CESYSGEN IF COREDLL_CORESTRA
+    ; ANSI String formatting functions
+    sscanf @653
+    sscanf_s @2669
+    sprintf @719
+    sprintf_s @2670
+    vsprintf @1146
+    vsprintf_s @2671
+    _scprintf @2802
+    _snprintf @729
+    _snprintf_s @2672
+    _vscprintf @2803
+    _vsnprintf @1147
+    _vsnprintf_s @2673
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF COREDLL_CORESIOA
+    ; ANSI Stdin/Out functions
+    scanf @1101
+    scanf_s @2674
+    printf @1102
+    printf_s @2675
+    vprintf @1103
+    vprintf_s @2676
+    getchar @1104
+    putchar @1105
+    gets @1106
+    gets_s @2677
+    puts @1107
+
+    ; ANSI functions reqd by BOTH Stdin/out and general buffered file handling
+    fgetc @1108
+    fgets @1109
+    fputc @1110
+    fputs @1111
+    ungetc @1112
+
+    ; ANSI functions for general buffered file handling (NOT reqd for just stdin/out)
+    fopen @1113
+    fopen_s @2678
+    fscanf @1114
+    fscanf_s @2679
+    fprintf @1115
+    fprintf_s @2680
+    vfprintf @1116
+    vfprintf_s @2681
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF COREDLL_CORESIOA || COREDLL_CORESIOW
+    ; functions for general buffered file handling reqd by BOTH ANSI and Wide
+    _InitStdioLib @1151
+    _getstdfilex @1100
+    _wfdopen @1117
+    _wfreopen @1201
+    _wfreopen_s @2682
+    fclose @1118
+    _fcloseall @1119
+    fread @1120
+    fread_s @2683
+    fwrite @1121
+    fflush @1122
+    _flushall @1123
+    _fileno @1124
+    feof @1125
+    ferror @1126
+    clearerr @1127
+    clearerr_s @2684
+    fgetpos @1128
+    fsetpos @1129
+    fseek @1130
+    ftell @1131
+    _setmode @1187
+    setvbuf @1608
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF COREDLL_CORESIOW
+    ; WIDE Stdin/Out functions
+    swscanf @1098
+    swscanf_s @2685
+    wscanf @1133
+    wscanf_s @2686
+    wprintf @1134
+    wprintf_s @2687
+    vwprintf @1135
+    vwprintf_s @2688
+    getwchar @1136
+    putwchar @1137
+    _getws @1138
+    _getws_s @2689
+    _putws @1139
+
+    ; WIDE functions reqd for BOTH Stdin/out and general buffered file handling
+    fgetwc @1140
+    fputwc @1141
+    ungetwc @1142
+    fgetws @1143
+    fputws @1144
+
+    ; WIDE functions for general buffered file handling
+    _wfopen @1145
+    _wfopen_s @2690
+    fwscanf @735
+    fwscanf_s @2691
+    fwprintf @867
+    fwprintf_s @2692
+    vfwprintf @721
+    vfwprintf_s @2693
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF COREDLL_CRT_CPP_EH_AND_RTTI
+    ; C++ Exception Handling functions
+    __CxxFrameHandler @1550
+    __CxxFrameHandler3 @2512
+
+
+
+    __CxxThrowException @1551
+
+    ?set_terminate@std@@YAP6AXXZP6AXXZ@Z @1552
+    ?set_unexpected@std@@YAP6AXXZP6AXXZ@Z @1553
+    ?__set_inconsistency@@YAP6AXXZP6AXXZ@Z @1555
+    ?terminate@std@@YAXXZ @1556
+    ?unexpected@std@@YAXXZ @1557
+    ?_inconsistency@@YAXXZ @1558
+    ?_Xlen@std@@YAXXZ @1658
+    ?_Xran@std@@YAXXZ @1659
+    ?_Nomemory@std@@YAXXZ @1660
+    ?uncaught_exception@std@@YA_NXZ @1967
+
+    ; RTTI functions - x86 compiler uses __thiscall, RISC uses __cdecl
+    __RTCastToVoid @1559
+    __RTtypeid @1560
+    __RTDynamicCast @1561
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ??1type_info@@UAA@XZ @1562
+    ??8type_info@@QBAHABV0@@Z @1563
+    ??9type_info@@QBAHABV0@@Z @1564
+    ?before@type_info@@QBAHABV1@@Z @1565
+    ?name@type_info@@QBAPBDXZ @1566
+    ?raw_name@type_info@@QBAPBDXZ @1567
+    ??0type_info@@AAA@ABV0@@Z @1568
+    ??4type_info@@AAAAAV0@ABV0@@Z @1569
+    ??0exception@std@@QAA@XZ @1570
+    ??0exception@std@@QAA@PBD@Z @1571
+    ??0exception@std@@QAA@ABV01@@Z @1572
+    ??4exception@std@@QAAAAV01@ABV01@@Z @1573
+    ??1exception@std@@UAA@XZ @1574
+    ?what@exception@std@@UBAPBDXZ @1575
+    ??_L@YAXPAXIHP6AX0@Z1@Z @1576
+    ??_N@YAXPAXIHP6AX0@Z1@Z @1577
+    ??_M@YAXPAXIHP6AX0@Z@Z @1578
+    ??__C@YAXPAX0IHP6AX00@ZP6AX0@Z@Z @2694
+    ??__D@YAXPAX0IHP6AX00@ZP6AX0@Z@Z @2695
+    ??_7exception@std@@6B@ @1579
+    ??_7type_info@@6B@ @1580
+
+
+; @CESYSGEN ENDIF COREDLL_CRT_CPP_EH_AND_RTTI
+
+    ?_set_new_mode@@YAHH@Z @1648
+    ?_query_new_mode@@YAHXZ @1649
+    ?_set_new_handler@@YAP6AHI@ZP6AHI@Z@Z @1650
+    ?_query_new_handler@@YAP6AHI@ZXZ @1618
+    ?set_new_handler@@YAP6AXXZP6AXXZ@Z @1619
+    _abs64 @1621
+    _byteswap_uint64 @1622
+    _byteswap_ulong @1623
+    _byteswap_ushort @1624
+    _rotl64 @1638
+    _rotr64 @1639
+
+
+
+
+    _CountLeadingOnes @1625
+    _CountLeadingOnes64 @1626
+    _CountLeadingSigns @1627
+    _CountLeadingSigns64 @1628
+    _CountLeadingZeros @1629
+    _CountLeadingZeros64 @1630
+    _CountOneBits @1631
+    _CountOneBits64 @1632
+    _MulHigh @1636
+    _MulUnsignedHigh @1637
+
+
+    _isnanf @1633
+    _isunordered @1634
+    _isunorderedf @1635
+    ceilf @1640
+    fabsf @1641
+    floorf @1642
+    fmodf @1643
+
+
+    sqrtf @1644
+
+
+    _XcptFilter @1645
+    ?nothrow@std@@3Unothrow_t@1@B @1647
+
+    __report_gsfailure @1876
+    __security_gen_cookie @1875
+
+; @CESYSGEN IF CE_MODULES_FILESYS
+
+    __security_gen_cookie2=__security_gen_cookie_cgr @2696
+
+; @CESYSGEN ELSE
+; @CESYSGEN ENDIF
+
+    _set_invalid_parameter_handler @2697
+    _get_invalid_parameter_handler @2698
+    _invalid_parameter @2708
+

@@ -1,0 +1,667 @@
+ imgutil
+
+ Timestamp is 5ac64e92 (Thu Apr 05 09:28:02 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000008H .CRT$XCL                CODE
+ 0001:0000000c 00000008H .CRT$XCU                CODE
+ 0001:00000014 00000004H .CRT$XCZ                CODE
+ 0001:00000018 00000004H .CRT$XIA                CODE
+ 0001:0000001c 00000004H .CRT$XIZ                CODE
+ 0001:00000020 00000004H .CRT$XPA                CODE
+ 0001:00000024 00000004H .CRT$XPZ                CODE
+ 0001:00000028 00000004H .CRT$XTA                CODE
+ 0001:0000002c 00000004H .CRT$XTZ                CODE
+ 0001:00000030 00000cfcH .rdata                  CODE
+ 0001:00000d2c 00000024H .rdata$debug            CODE
+ 0001:00000d50 00009d80H .text                   CODE
+ 0001:0000aad0 00000080H .text$yc                CODE
+ 0001:0000ab50 00000040H .text$yd                CODE
+ 0001:0000ab90 00000078H .xdata                  CODE
+ 0001:0000ac08 00000004H ATL$__a                 CODE
+ 0001:0000ac0c 00000004H ATL$__z                 CODE
+ 0001:0000ac10 0000003cH .idata$2                CODE
+ 0001:0000ac4c 00000014H .idata$3                CODE
+ 0001:0000ac60 0000012cH .idata$4                CODE
+ 0001:0000ad8c 00000090H .idata$6                CODE
+ 0001:0000ae20 00000134H .edata                  CODE
+ 0002:00000000 0000012cH .idata$5                DATA
+ 0002:00000130 0000008cH .data                   DATA
+ 0002:000001bc 00000160H .bss                    DATA
+ 0003:00000000 00000968H .pdata                  DATA
+ 0004:00000000 00000010H .rsrc$01                DATA
+ 0004:00000010 00000000H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000014       __xc_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xi_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xi_z                     1000101c     corelib0:crt0init.obj
+ 0001:00000020       __xp_a                     10001020     corelib0:crt0init.obj
+ 0001:00000024       __xp_z                     10001024     corelib0:crt0init.obj
+ 0001:00000028       __xt_a                     10001028     corelib0:crt0init.obj
+ 0001:0000002c       __xt_z                     1000102c     corelib0:crt0init.obj
+ 0001:0000004c       ??_C@_1BA@JIHHIEDE@?$AAT?$AAy?$AAp?$AAe?$AAL?$AAi?$AAb?$AA?$AA@ 1000104c     dithers.obj
+ 0001:0000005c       ??_C@_1BC@EAHCMADO@?$AAS?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AA?$AA@ 1000105c     dithers.obj
+ 0001:00000070       ??_C@_1O@GBFINDKL@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?$AA@ 10001070     dithers.obj
+ 0001:00000080       ??_C@_1BC@IBECJAAI@?$AAS?$AAE?$AAC?$AAU?$AAR?$AAI?$AAT?$AAY?$AA?$AA@ 10001080     dithers.obj
+ 0001:00000094       ??_C@_17OMAOINJK@?$AAS?$AAA?$AAM?$AA?$AA@ 10001094     dithers.obj
+ 0001:0000009c       ??_C@_19HLLLM@?$AAM?$AAi?$AAm?$AAe?$AA?$AA@ 1000109c     dithers.obj
+ 0001:000000a8       ??_C@_1BC@MAICEHGI@?$AAH?$AAa?$AAr?$AAd?$AAw?$AAa?$AAr?$AAe?$AA?$AA@ 100010a8     dithers.obj
+ 0001:000000bc       ??_C@_1BE@EKPAFMCP@?$AAI?$AAn?$AAt?$AAe?$AAr?$AAf?$AAa?$AAc?$AAe?$AA?$AA@ 100010bc     dithers.obj
+ 0001:000000d0       ??_C@_1BC@NKMMNMGL@?$AAF?$AAi?$AAl?$AAe?$AAT?$AAy?$AAp?$AAe?$AA?$AA@ 100010d0     dithers.obj
+ 0001:000000e4       ??_C@_1CK@OEKPKBNA@?$AAC?$AAo?$AAm?$AAp?$AAo?$AAn?$AAe?$AAn?$AAt?$AA?5?$AAC?$AAa?$AAt?$AAe?$AAg?$AAo?$AAr?$AAi?$AAe?$AAs?$AA?$AA@ 100010e4     dithers.obj
+ 0001:00000110       ??_C@_1M@KANJNLFF@?$AAC?$AAL?$AAS?$AAI?$AAD?$AA?$AA@ 10001110     dithers.obj
+ 0001:0000011c       ??_C@_1M@EJNEECMJ@?$AAA?$AAp?$AAp?$AAI?$AAD?$AA?$AA@ 1000111c     dithers.obj
+ 0001:00000128       ??_C@_1O@JDLOHAN@?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AA?$AA@ 10001128     dithers.obj
+ 0001:00000138       ??_C@_1BC@GCKHIPE@?$AAN?$AAo?$AAR?$AAe?$AAm?$AAo?$AAv?$AAe?$AA?$AA@ 10001138     dithers.obj
+ 0001:0000014c       ??_C@_1BI@JFAIJMHL@?$AAF?$AAo?$AAr?$AAc?$AAe?$AAR?$AAe?$AAm?$AAo?$AAv?$AAe?$AA?$AA@ 1000114c     dithers.obj
+ 0001:00000164       ??_C@_17LLMMEOJD@?$AAV?$AAa?$AAl?$AA?$AA@ 10001164     dithers.obj
+ 0001:0000016c       ??_C@_13OPKGLAFF@?$AAB?$AA?$AA@ 1000116c     dithers.obj
+ 0001:00000170       ??_C@_13MKMNOPIJ@?$AAD?$AA?$AA@ 10001170     dithers.obj
+ 0001:00000174       ??_C@_13LHMFKAAD@?$AAM?$AA?$AA@ 10001174     dithers.obj
+ 0001:00000178       ??_C@_13HADIAKP@?$AAS?$AA?$AA@ 10001178     dithers.obj
+ 0001:000003a0       ?rgszNeverDelete@CRegParser@ATL@@1QBQBGB 100013a0     dithers.obj
+ 0001:000003d0       IID_IDirectDrawSurface     100013d0     dithers.obj
+ 0001:000003e0       IID_IDirectDrawPalette     100013e0     dithers.obj
+ 0001:00000410       ??_7?$CComObject@VCSniffStream@@@ATL@@6BIStream@@@ 10001410     imgutil.obj
+ 0001:0000044c       ??_7?$CComObject@VCSniffStream@@@ATL@@6BISniffStream@@@ 1000144c     imgutil.obj
+ 0001:00000460       ?_entries@?1??_GetEntries@CSniffStream@@SAPBU_ATL_INTMAP_ENTRY@ATL@@XZ@4QBU34@B 10001460     imgutil.obj
+ 0001:00000484       _GUID_0000000c_0000_0000_c000_000000000046 10001484     imgutil.obj
+ 0001:00000494       _GUID_4ef17940_30e0_11d0_b724_00aa006c1a01 10001494     imgutil.obj
+ 0001:000004a4       ??_7?$CComObject@VCMapMIMEToCLSID@@@ATL@@6B@ 100014a4     imgutil.obj
+ 0001:000004c0       ?_entries@?1??_GetEntries@CMapMIMEToCLSID@@SAPBU_ATL_INTMAP_ENTRY@ATL@@XZ@4QBU34@B 100014c0     imgutil.obj
+ 0001:000004d8       _GUID_d9e89500_30fa_11d0_b724_00aa006c1a01 100014d8     imgutil.obj
+ 0001:000004e8       ??_7?$CComObject@VCDitherToRGB8@@@ATL@@6BIImageDecodeEventSink@@@ 100014e8     imgutil.obj
+ 0001:00000510       ??_7?$CComObject@VCDitherToRGB8@@@ATL@@6BIDithererImpl@@@ 10001510     imgutil.obj
+ 0001:00000524       ?_entries@?1??_GetEntries@CDitherToRGB8@@SAPBU_ATL_INTMAP_ENTRY@ATL@@XZ@4QBU34@B 10001524     imgutil.obj
+ 0001:00000548       _GUID_baa342a0_2ded_11d0_86f4_00a0c913f750 10001548     imgutil.obj
+ 0001:00000558       _GUID_7c48e840_3910_11d0_86fc_00a0c913f750 10001558     imgutil.obj
+ 0001:00000568       ??_7?$CComContainedObject@VCSniffStream@@@ATL@@6BIStream@@@ 10001568     imgutil.obj
+ 0001:000005a0       ??_7?$CComContainedObject@VCSniffStream@@@ATL@@6BISniffStream@@@ 100015a0     imgutil.obj
+ 0001:000005b4       ??_7?$CComContainedObject@VCMapMIMEToCLSID@@@ATL@@6B@ 100015b4     imgutil.obj
+ 0001:000005cc       ??_7?$CComContainedObject@VCDitherToRGB8@@@ATL@@6BIImageDecodeEventSink@@@ 100015cc     imgutil.obj
+ 0001:000005f0       ??_7?$CComContainedObject@VCDitherToRGB8@@@ATL@@6BIDithererImpl@@@ 100015f0     imgutil.obj
+ 0001:00000604       ??_7CComClassFactory@ATL@@6B@ 10001604     imgutil.obj
+ 0001:0000061c       ??_7?$CComAggObject@VCSniffStream@@@ATL@@6B@ 1000161c     imgutil.obj
+ 0001:0000062c       ??_7?$CComAggObject@VCMapMIMEToCLSID@@@ATL@@6B@ 1000162c     imgutil.obj
+ 0001:0000063c       ??_7?$CComAggObject@VCDitherToRGB8@@@ATL@@6B@ 1000163c     imgutil.obj
+ 0001:0000064c       ??_7CComModule@ATL@@6B@    1000164c     imgutil.obj
+ 0001:00000674       _GUID_00000146_0000_0000_c000_000000000046 10001674     imgutil.obj
+ 0001:00000688       ?map@?1??HKeyFromString@CRegParser@ATL@@KAPAUHKEY__@@PAG@Z@4QBUkeymap@?1??123@KAPAU4@0@Z@B 10001688     imgutil.obj
+ 0001:000006c8       ??_C@_19NCHLBIN@?$AAH?$AAK?$AAC?$AAR?$AA?$AA@ 100016c8     imgutil.obj
+ 0001:000006d4       ??_C@_19JAPAIJDE@?$AAH?$AAK?$AAC?$AAU?$AA?$AA@ 100016d4     imgutil.obj
+ 0001:000006e0       ??_C@_19PEALEEJB@?$AAH?$AAK?$AAL?$AAM?$AA?$AA@ 100016e0     imgutil.obj
+ 0001:000006ec       ??_C@_17PJOJPMPB@?$AAH?$AAK?$AAU?$AA?$AA@ 100016ec     imgutil.obj
+ 0001:000006f4       ??_C@_1CE@PACHPJFI@?$AAH?$AAK?$AAE?$AAY?$AA_?$AAC?$AAL?$AAA?$AAS?$AAS?$AAE?$AAS?$AA_?$AAR?$AAO?$AAO?$AAT?$AA?$AA@ 100016f4     imgutil.obj
+ 0001:00000718       ??_C@_1CE@HLHNCBPM@?$AAH?$AAK?$AAE?$AAY?$AA_?$AAC?$AAU?$AAR?$AAR?$AAE?$AAN?$AAT?$AA_?$AAU?$AAS?$AAE?$AAR?$AA?$AA@ 10001718     imgutil.obj
+ 0001:0000073c       ??_C@_1CG@GFBEANJL@?$AAH?$AAK?$AAE?$AAY?$AA_?$AAL?$AAO?$AAC?$AAA?$AAL?$AA_?$AAM?$AAA?$AAC?$AAH?$AAI?$AAN?$AAE?$AA?$AA@ 1000173c     imgutil.obj
+ 0001:00000764       ??_C@_1BG@BGODANIO@?$AAH?$AAK?$AAE?$AAY?$AA_?$AAU?$AAS?$AAE?$AAR?$AAS?$AA?$AA@ 10001764     imgutil.obj
+ 0001:0000077c       ??_C@_11LOCGONAA@?$AA?$AA@ 1000177c     imgutil.obj
+ 0001:00000780       ??_C@_1M@PPPPCDEP@?$AAA?$AAP?$AAP?$AAI?$AAD?$AA?$AA@ 10001780     imgutil.obj
+ 0001:0000078c       ??_7CRegObject@ATL@@6B@    1000178c     imgutil.obj
+ 0001:000007a4       ??_C@_1BE@LJOLIMEM@?$AA?$AN?$AA?6?$AA?7?$AA?$HN?$AA?$AN?$AA?6?$AA?$HN?$AA?$AN?$AA?6?$AA?$AA@ 100017a4     imgutil.obj
+ 0001:000007b8       ??_C@_1EA@NHKLICFA@?$AAH?$AAK?$AAC?$AAU?$AA?$AN?$AA?6?$AA?$HL?$AA?7?$AAS?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AA?$AN?$AA?6?$AA?7?$AA?$HL?$AA?$AN?$AA?6?$AA?7?$AA?7?$AAC?$AAl?$AAa?$AAs?$AAs?$AAe?$AAs?$AA?$AA@ 100017b8     imgutil.obj
+ 0001:000007f8       _GUID_00000000_0000_0000_c000_000000000046 100017f8     imgutil.obj
+ 0001:00000808       ??_7?$CComObjectNoLock@VCComClassFactory@ATL@@@ATL@@6B@ 10001808     imgutil.obj
+ 0001:00000820       ?_entries@?1??_GetEntries@CComClassFactory@ATL@@SAPBU_ATL_INTMAP_ENTRY@3@XZ@4QBU43@B 10001820     imgutil.obj
+ 0001:00000838       _GUID_00000001_0000_0000_c000_000000000046 10001838     imgutil.obj
+ 0001:00000848       ??_C@_1BC@KAILKFFG@?$AAR?$AAE?$AAG?$AAI?$AAS?$AAT?$AAR?$AAY?$AA?$AA@ 10001848     imgutil.obj
+ 0001:0000085c       ??_C@_1BG@JBACFMF@?$AAM?$AAo?$AAd?$AAu?$AAl?$AAe?$AA_?$AAR?$AAa?$AAw?$AA?$AA@ 1000185c     imgutil.obj
+ 0001:00000874       ??_C@_1O@MNLDABAF@?$AAM?$AAo?$AAd?$AAu?$AAl?$AAe?$AA?$AA@ 10001874     imgutil.obj
+ 0001:00000884       ??_C@_1DG@EEMPCDPL@?$AAM?$AAI?$AAM?$AAE?$AA?2?$AAD?$AAa?$AAt?$AAa?$AAb?$AAa?$AAs?$AAe?$AA?2?$AAC?$AAo?$AAn?$AAt?$AAe?$AAn?$AAt?$AA?5?$AAT?$AAy?$AAp?$AAe?$AA?$AA@ 10001884     cmapmime.obj
+ 0001:000008e0       ??_7CMapMIMEToCLSID@@6B@   100018e0     cmapmime.obj
+ 0001:000008f8       ??_C@_1CG@PJEIBKMD@?$AAI?$AAm?$AAa?$AAg?$AAe?$AA?5?$AAF?$AAi?$AAl?$AAt?$AAe?$AAr?$AA?5?$AAC?$AAL?$AAS?$AAI?$AAD?$AA?$AA@ 100018f8     cmapmime.obj
+ 0001:00000944       ??_C@_1O@POFBHMNK@?$AAi?$AAm?$AAa?$AAg?$AAe?$AA?1?$AA?$AA@ 10001944     cmimeid.obj
+ 0001:00000954       ??_C@_13COJANIEC@?$AA0?$AA?$AA@ 10001954     cmimeid.obj
+ 0001:00000958       ??_C@_19KAKHLLCB@?$AAB?$AAi?$AAt?$AAs?$AA?$AA@ 10001958     cmimeid.obj
+ 0001:00000984       ??_7CSniffStream@@6BIStream@@@ 10001984     csnfstrm.obj
+ 0001:000009bc       ??_7CSniffStream@@6BISniffStream@@@ 100019bc     csnfstrm.obj
+ 0001:00000a58       ??_7CBaseFT@@6B@           10001a58     cddsurf.obj
+ 0001:00000a60       ??_7IDirectDrawSurface@@6B@ 10001a60     cddsurf.obj
+ 0001:00000adc       ??_7IDirectDrawPalette@@6B@ 10001adc     cddsurf.obj
+ 0001:00000af8       ??_7CDDrawWrapper@@6BIDirectDrawSurface@@@ 10001af8     cddsurf.obj
+ 0001:00000b74       ??_7CDDrawWrapper@@6BIDirectDrawPalette@@@ 10001b74     cddsurf.obj
+ 0001:00000b8c       ??_7CDDrawWrapper@@6BCBaseFT@@@ 10001b8c     cddsurf.obj
+ 0001:00000bb4       ??_7CDitherToRGB8@@6BIImageDecodeEventSink@@@ 10001bb4     cdith8.obj
+ 0001:00000bd8       ??_7CDitherToRGB8@@6BIDithererImpl@@@ 10001bd8     cdith8.obj
+ 0001:00000c0c       GUID_NULL                  10001c0c     dcomuuid:dcomuuid.obj
+ 0001:00000c1c       CLSID_StdGlobalInterfaceTable 10001c1c     dcomuuid:dcomuuid.obj
+ 0001:00000c2c       IID_IStream                10001c2c     dcomuuid:dcomuuid.obj
+ 0001:00000c3c       IID_IUnknown               10001c3c     dcomuuid:dcomuuid.obj
+ 0001:00000c4c       BFID_RGB_8                 10001c4c     ieuuid:ieuuid.obj
+ 0001:00000c5c       BFID_RGB_24                10001c5c     ieuuid:ieuuid.obj
+ 0001:00000c6c       BFID_GRAY_8                10001c6c     ieuuid:ieuuid.obj
+ 0001:00000c7c       IID_ISniffStream           10001c7c     ieuuid:ieuuid.obj
+ 0001:00000c8c       CLSID_CoDitherToRGB8       10001c8c     ieuuid:ieuuid.obj
+ 0001:00000c9c       CLSID_CoSniffStream        10001c9c     ieuuid:ieuuid.obj
+ 0001:00000cac       CLSID_CoMapMIMEToCLSID     10001cac     ieuuid:ieuuid.obj
+ 0001:00000cbc       IID_IMapMIMEToCLSID        10001cbc     ieuuid:ieuuid.obj
+ 0001:00000ccc       IID_IImageDecodeFilter     10001ccc     ieuuid:ieuuid.obj
+ 0001:00000cdc       IID_IImageDecodeEventSink  10001cdc     ieuuid:ieuuid.obj
+ 0001:00000cec       GUID_ATLVer30              10001cec     atls:atlbase.obj
+ 0001:00000cfc       GUID_ATLVer70              10001cfc     atls:atlbase.obj
+ 0001:00000d50       ?aHT16Data@@3PAEA          10001d50     dithers.obj
+ 0001:00000f58       ?aHT16Heads@@3PAY03IA      10001f58     dithers.obj
+ 0001:00000f98       ?aRound5to8@@3PAEA         10001f98     dithers.obj
+ 0001:00000fb8       ?DithScan8to8@@YAXPAEPBEPBUtagRGBQUAD@@21PAUERRBUF@@3III@Z 10001fb8 f i dithers.obj
+ 0001:000011b0       Dith8to8                   100021b0 f   dithers.obj
+ 0001:00001290       ?ConvertScan8to8@@YAXPAEPBEPBUtagRGBQUAD@@1III@Z 10002290 f i dithers.obj
+ 0001:00001338       Convert8to8                10002338 f   dithers.obj
+ 0001:000013c0       ?DithScan8to8t@@YAXPAEPBEPBUtagRGBQUAD@@21PAUERRBUF@@3IIIEE@Z 100023c0 f i dithers.obj
+ 0001:000015c8       Dith8to8t                  100025c8 f   dithers.obj
+ 0001:000016b8       ?DithScan24to8@@YAXPAEPBEPBUtagRGBQUAD@@1PAUERRBUF@@3III@Z 100026b8 f i dithers.obj
+ 0001:000018ac       Dith24to8                  100028ac f   dithers.obj
+ 0001:00001980       ?ConvertScan24to8@@YAXPAEPBE1III@Z 10002980 f i dithers.obj
+ 0001:000019f8       Convert24to8               100029f8 f   dithers.obj
+ 0001:00001a7c       ?InlineIsEqualGUID@@YAHABU_GUID@@0@Z 10002a7c f i imgutil.obj
+ 0001:00001ac4       ?AtlThrowImpl@ATL@@YAXJ@Z  10002ac4 f i imgutil.obj
+ 0001:00001af8       ?Init@CComCriticalSection@ATL@@QAAJXZ 10002af8 f i imgutil.obj
+ 0001:00001b50       ?GetLockCount@CAtlModule@ATL@@UAAJXZ 10002b50 f i imgutil.obj
+ 0001:00001b58       ?Init@CComModule@ATL@@QAAJPAU_ATL_OBJMAP_ENTRY30@2@PAUHINSTANCE__@@PBU_GUID@@@Z 10002b58 f i imgutil.obj
+ 0001:00001c08       ?AtlCallTermFunc@ATL@@YAXPAU_ATL_MODULE70@1@@Z 10002c08 f i imgutil.obj
+ 0001:00001c60       ?ObjectMain@CComObjectRootBase@ATL@@SAX_N@Z 10002c60 f i imgutil.obj
+ 0001:00001c64       ?UpdateRegistry@CSniffStream@@SAJH@Z 10002c64 f i imgutil.obj
+ 0001:00001c6c       ?UpdateRegistry@CMapMIMEToCLSID@@SAJH@Z 10002c6c f i imgutil.obj
+ 0001:00001c74       ?UpdateRegistry@CDitherToRGB8@@SAJH@Z 10002c74 f i imgutil.obj
+ 0001:00001c7c       DllCanUnloadNow            10002c7c f   imgutil.obj
+ 0001:00001c98       ?GetObjectDescription@?$CComCoClass@VCSniffStream@@$1?CLSID_CoSniffStream@@3U_GUID@@B@ATL@@SAPBGXZ 10002c98 f i imgutil.obj
+ 0001:00001ca0       ?GetObjectDescription@?$CComCoClass@VCMapMIMEToCLSID@@$1?CLSID_CoMapMIMEToCLSID@@3U_GUID@@B@ATL@@SAPBGXZ 10002ca0 f i imgutil.obj
+ 0001:00001ca8       ?GetObjectDescription@?$CComCoClass@VCDitherToRGB8@@$1?CLSID_CoDitherToRGB8@@3U_GUID@@B@ATL@@SAPBGXZ 10002ca8 f i imgutil.obj
+ 0001:00001cb0       ??0?$CComObject@VCSniffStream@@@ATL@@QAA@PAX@Z 10002cb0 f i imgutil.obj
+ 0001:00001cf4       ?AtlInternalQueryInterface@ATL@@YAJPAXPBU_ATL_INTMAP_ENTRY@1@ABU_GUID@@PAPAX@Z 10002cf4 f i imgutil.obj
+ 0001:00001e20       ??1?$CComObject@VCSniffStream@@@ATL@@UAA@XZ 10002e20 f i imgutil.obj
+ 0001:00001e6c       ?AddRef@?$CComObject@VCSniffStream@@@ATL@@UAAKXZ 10002e6c f i imgutil.obj
+ 0001:00001e74       ?Release@?$CComObject@VCSniffStream@@@ATL@@UAAKXZ 10002e74 f i imgutil.obj
+ 0001:00001eac       ??1?$CComObject@VCMapMIMEToCLSID@@@ATL@@UAA@XZ 10002eac f i imgutil.obj
+ 0001:00001eec       ?AddRef@?$CComObject@VCMapMIMEToCLSID@@@ATL@@UAAKXZ 10002eec f i imgutil.obj
+ 0001:00001ef4       ?Release@?$CComObject@VCMapMIMEToCLSID@@@ATL@@UAAKXZ 10002ef4 f i imgutil.obj
+ 0001:00001f2c       ??0?$CComObject@VCDitherToRGB8@@@ATL@@QAA@PAX@Z 10002f2c f i imgutil.obj
+ 0001:00001f70       ??1?$CComObject@VCDitherToRGB8@@@ATL@@UAA@XZ 10002f70 f i imgutil.obj
+ 0001:00001fbc       ?AddRef@?$CComObject@VCDitherToRGB8@@@ATL@@UAAKXZ 10002fbc f i imgutil.obj
+ 0001:00001fc4       ?Release@?$CComObject@VCDitherToRGB8@@@ATL@@UAAKXZ 10002fc4 f i imgutil.obj
+ 0001:00001ffc       ??_E?$CComObject@VCSniffStream@@@ATL@@UAAPAXI@Z 10002ffc f i imgutil.obj
+ 0001:00001ffc       ??_G?$CComObject@VCSniffStream@@@ATL@@UAAPAXI@Z 10002ffc f i imgutil.obj
+ 0001:00002020       ??_G?$CComObject@VCMapMIMEToCLSID@@@ATL@@UAAPAXI@Z 10003020 f i imgutil.obj
+ 0001:00002020       ??_E?$CComObject@VCMapMIMEToCLSID@@@ATL@@UAAPAXI@Z 10003020 f i imgutil.obj
+ 0001:00002044       ??_E?$CComObject@VCDitherToRGB8@@@ATL@@UAAPAXI@Z 10003044 f i imgutil.obj
+ 0001:00002044       ??_G?$CComObject@VCDitherToRGB8@@@ATL@@UAAPAXI@Z 10003044 f i imgutil.obj
+ 0001:00002068       ?AddRef@?$CComContainedObject@VCSniffStream@@@ATL@@UAAKXZ 10003068 f i imgutil.obj
+ 0001:00002084       ?Release@?$CComContainedObject@VCSniffStream@@@ATL@@UAAKXZ 10003084 f i imgutil.obj
+ 0001:000020a0       ?QueryInterface@?$CComContainedObject@VCSniffStream@@@ATL@@UAAJABU_GUID@@PAPAX@Z 100030a0 f i imgutil.obj
+ 0001:000020bc       ?AddRef@?$CComContainedObject@VCMapMIMEToCLSID@@@ATL@@UAAKXZ 100030bc f i imgutil.obj
+ 0001:000020d8       ?Release@?$CComContainedObject@VCMapMIMEToCLSID@@@ATL@@UAAKXZ 100030d8 f i imgutil.obj
+ 0001:000020f4       ?QueryInterface@?$CComContainedObject@VCMapMIMEToCLSID@@@ATL@@UAAJABU_GUID@@PAPAX@Z 100030f4 f i imgutil.obj
+ 0001:00002110       ?AddRef@?$CComContainedObject@VCDitherToRGB8@@@ATL@@UAAKXZ 10003110 f i imgutil.obj
+ 0001:0000212c       ?Release@?$CComContainedObject@VCDitherToRGB8@@@ATL@@UAAKXZ 1000312c f i imgutil.obj
+ 0001:00002148       ?QueryInterface@?$CComContainedObject@VCDitherToRGB8@@@ATL@@UAAJABU_GUID@@PAPAX@Z 10003148 f i imgutil.obj
+ 0001:00002164       ?AddRef@?$CComContainedObject@VCDitherToRGB8@@@ATL@@W3AAKXZ 10003164 f i imgutil.obj
+ 0001:0000216c       ?Release@?$CComObject@VCDitherToRGB8@@@ATL@@W3AAKXZ 1000316c f i imgutil.obj
+ 0001:00002174       ?AddRef@?$CComContainedObject@VCSniffStream@@@ATL@@W3AAKXZ 10003174 f i imgutil.obj
+ 0001:0000217c       ?QueryInterface@?$CComContainedObject@VCDitherToRGB8@@@ATL@@W3AAJABU_GUID@@PAPAX@Z 1000317c f i imgutil.obj
+ 0001:00002184       ?AddRef@?$CComObject@VCDitherToRGB8@@@ATL@@W3AAKXZ 10003184 f i imgutil.obj
+ 0001:0000218c       ?Release@?$CComObject@VCSniffStream@@@ATL@@W3AAKXZ 1000318c f i imgutil.obj
+ 0001:00002194       ?QueryInterface@?$CComContainedObject@VCSniffStream@@@ATL@@W3AAJABU_GUID@@PAPAX@Z 10003194 f i imgutil.obj
+ 0001:0000219c       ?AddRef@?$CComObject@VCSniffStream@@@ATL@@W3AAKXZ 1000319c f i imgutil.obj
+ 0001:000021a4       ?Release@?$CComContainedObject@VCDitherToRGB8@@@ATL@@W3AAKXZ 100031a4 f i imgutil.obj
+ 0001:000021ac       ?Release@?$CComContainedObject@VCSniffStream@@@ATL@@W3AAKXZ 100031ac f i imgutil.obj
+ 0001:000021b4       ??0CAtlModule@ATL@@QAA@XZ  100031b4 f i imgutil.obj
+ 0001:0000221c       ?Term@CAtlModule@ATL@@QAAXXZ 1000321c f i imgutil.obj
+ 0001:00002270       ?Term@CComModule@ATL@@QAAXXZ 10003270 f i imgutil.obj
+ 0001:0000230c       ?CreateInstance@CComClassFactory@ATL@@UAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 1000330c f i imgutil.obj
+ 0001:00002390       ?LockServer@CComClassFactory@ATL@@UAAJH@Z 10003390 f i imgutil.obj
+ 0001:000023cc       ??_GCComClassFactory@ATL@@UAAPAXI@Z 100033cc f i imgutil.obj
+ 0001:000023cc       ??_ECComClassFactory@ATL@@UAAPAXI@Z 100033cc f i imgutil.obj
+ 0001:0000240c       DllMain                    1000340c f   imgutil.obj
+ 0001:00002478       ?CreateInstance@?$CComCreator@V?$CComObject@VCSniffStream@@@ATL@@@ATL@@SAJPAXABU_GUID@@PAPAX@Z 10003478 f i imgutil.obj
+ 0001:00002538       ?CreateInstance@?$CComCreator@V?$CComObject@VCMapMIMEToCLSID@@@ATL@@@ATL@@SAJPAXABU_GUID@@PAPAX@Z 10003538 f i imgutil.obj
+ 0001:00002614       ?CreateInstance@?$CComCreator@V?$CComObject@VCDitherToRGB8@@@ATL@@@ATL@@SAJPAXABU_GUID@@PAPAX@Z 10003614 f i imgutil.obj
+ 0001:000026d4       ?QueryInterface@?$CComObject@VCSniffStream@@@ATL@@UAAJABU_GUID@@PAPAX@Z 100036d4 f i imgutil.obj
+ 0001:000026e8       ??0?$CComAggObject@VCSniffStream@@@ATL@@QAA@PAX@Z 100036e8 f i imgutil.obj
+ 0001:00002750       ??1?$CComAggObject@VCSniffStream@@@ATL@@UAA@XZ 10003750 f i imgutil.obj
+ 0001:00002790       ?AddRef@?$CComAggObject@VCSniffStream@@@ATL@@UAAKXZ 10003790 f i imgutil.obj
+ 0001:00002798       ?Release@?$CComAggObject@VCSniffStream@@@ATL@@UAAKXZ 10003798 f i imgutil.obj
+ 0001:000027d0       ?QueryInterface@?$CComAggObject@VCSniffStream@@@ATL@@UAAJABU_GUID@@PAPAX@Z 100037d0 f i imgutil.obj
+ 0001:0000285c       ?QueryInterface@?$CComObject@VCMapMIMEToCLSID@@@ATL@@UAAJABU_GUID@@PAPAX@Z 1000385c f i imgutil.obj
+ 0001:00002870       ??0?$CComAggObject@VCMapMIMEToCLSID@@@ATL@@QAA@PAX@Z 10003870 f i imgutil.obj
+ 0001:000028c8       ??1?$CComAggObject@VCMapMIMEToCLSID@@@ATL@@UAA@XZ 100038c8 f i imgutil.obj
+ 0001:00002908       ?AddRef@?$CComAggObject@VCMapMIMEToCLSID@@@ATL@@UAAKXZ 10003908 f i imgutil.obj
+ 0001:00002910       ?Release@?$CComAggObject@VCMapMIMEToCLSID@@@ATL@@UAAKXZ 10003910 f i imgutil.obj
+ 0001:00002948       ?QueryInterface@?$CComAggObject@VCMapMIMEToCLSID@@@ATL@@UAAJABU_GUID@@PAPAX@Z 10003948 f i imgutil.obj
+ 0001:000029d4       ?QueryInterface@?$CComObject@VCDitherToRGB8@@@ATL@@UAAJABU_GUID@@PAPAX@Z 100039d4 f i imgutil.obj
+ 0001:000029e8       ??0?$CComAggObject@VCDitherToRGB8@@@ATL@@QAA@PAX@Z 100039e8 f i imgutil.obj
+ 0001:00002a50       ??1?$CComAggObject@VCDitherToRGB8@@@ATL@@UAA@XZ 10003a50 f i imgutil.obj
+ 0001:00002a90       ?AddRef@?$CComAggObject@VCDitherToRGB8@@@ATL@@UAAKXZ 10003a90 f i imgutil.obj
+ 0001:00002a98       ?Release@?$CComAggObject@VCDitherToRGB8@@@ATL@@UAAKXZ 10003a98 f i imgutil.obj
+ 0001:00002ad0       ?QueryInterface@?$CComAggObject@VCDitherToRGB8@@@ATL@@UAAJABU_GUID@@PAPAX@Z 10003ad0 f i imgutil.obj
+ 0001:00002b5c       ??_G?$CComAggObject@VCSniffStream@@@ATL@@UAAPAXI@Z 10003b5c f i imgutil.obj
+ 0001:00002b5c       ??_E?$CComAggObject@VCSniffStream@@@ATL@@UAAPAXI@Z 10003b5c f i imgutil.obj
+ 0001:00002b80       ??_E?$CComAggObject@VCMapMIMEToCLSID@@@ATL@@UAAPAXI@Z 10003b80 f i imgutil.obj
+ 0001:00002b80       ??_G?$CComAggObject@VCMapMIMEToCLSID@@@ATL@@UAAPAXI@Z 10003b80 f i imgutil.obj
+ 0001:00002ba4       ??_E?$CComAggObject@VCDitherToRGB8@@@ATL@@UAAPAXI@Z 10003ba4 f i imgutil.obj
+ 0001:00002ba4       ??_G?$CComAggObject@VCDitherToRGB8@@@ATL@@UAAPAXI@Z 10003ba4 f i imgutil.obj
+ 0001:00002bc8       ?QueryInterface@?$CComObject@VCDitherToRGB8@@@ATL@@W3AAJABU_GUID@@PAPAX@Z 10003bc8 f i imgutil.obj
+ 0001:00002bd0       ?QueryInterface@?$CComObject@VCSniffStream@@@ATL@@W3AAJABU_GUID@@PAPAX@Z 10003bd0 f i imgutil.obj
+ 0001:00002bd8       ?ocscpy_s@@YA_NPAGIPBG@Z   10003bd8 f i imgutil.obj
+ 0001:00002c2c       ?AtlCrtErrorCheck@ATL@@YAHH@Z 10003c2c f i imgutil.obj
+ 0001:00002c80       ?AtlHresultFromLastError@ATL@@YAJXZ 10003c80 f i imgutil.obj
+ 0001:00002ca0       ?AtlHresultFromWin32@ATL@@YAJK@Z 10003ca0 f i imgutil.obj
+ 0001:00002cb8       ?Lock@CAtlModule@ATL@@UAAJXZ 10003cb8 f i imgutil.obj
+ 0001:00002cc0       ?Unlock@CAtlModule@ATL@@UAAJXZ 10003cc0 f i imgutil.obj
+ 0001:00002cc8       ?GetGITPtr@CAtlModule@ATL@@UAAJPAPAUIGlobalInterfaceTable@@@Z 10003cc8 f i imgutil.obj
+ 0001:00002d44       ?EscapeSingleQuote@CAtlModule@ATL@@SAXPAGIPBG@Z 10003d44 f i imgutil.obj
+ 0001:00002da0       ?UpdateRegistryFromResourceD@CComModule@ATL@@UAAJPBGHPAU_ATL_REGMAP_ENTRY@2@@Z 10003da0 f i imgutil.obj
+ 0001:00002dac       ?UpdateRegistryFromResourceD@CComModule@ATL@@UAAJIHPAU_ATL_REGMAP_ENTRY@2@@Z 10003dac f i imgutil.obj
+ 0001:00002db8       ?Create@CRegKey@ATL@@QAAJPAUHKEY__@@PBGPAGKKPAU_SECURITY_ATTRIBUTES@@PAK@Z 10003db8 f i imgutil.obj
+ 0001:00002e54       ?Open@CRegKey@ATL@@QAAJPAUHKEY__@@PBGK@Z 10003e54 f i imgutil.obj
+ 0001:00002ec0       ?SetStringValue@CRegKey@ATL@@QAAJPBG0K@Z 10003ec0 f i imgutil.obj
+ 0001:00002f18       ?SetMultiStringValue@CRegKey@ATL@@QAAJPBG0@Z 10003f18 f i imgutil.obj
+ 0001:00002f90       ??0CParseBuffer@CRegParser@ATL@@QAA@H@Z 10003f90 f i imgutil.obj
+ 0001:00002fe8       ?Append@CParseBuffer@CRegParser@ATL@@QAAHPBGH@Z 10003fe8 f i imgutil.obj
+ 0001:000030dc       ?VTFromRegType@CRegParser@ATL@@KAHPBGAAG@Z 100040dc f i imgutil.obj
+ 0001:000031a4       ?ChToByte@CRegParser@ATL@@KAEG@Z 100041a4 f i imgutil.obj
+ 0001:000031fc       ?HKeyFromString@CRegParser@ATL@@KAPAUHKEY__@@PAG@Z 100041fc f i imgutil.obj
+ 0001:0000324c       ?StrChrW@CRegParser@ATL@@KAPAGPAGG@Z 1000424c f i imgutil.obj
+ 0001:00003294       ?SkipWhiteSpace@CRegParser@ATL@@IAAXXZ 10004294 f i imgutil.obj
+ 0001:000032d4       ?NextToken@CRegParser@ATL@@IAAJPAG@Z 100042d4 f i imgutil.obj
+ 0001:0000345c       ?CanForceRemoveKey@CRegParser@ATL@@IAAHPBG@Z 1000445c f i imgutil.obj
+ 0001:000034a4       ?HasSubKeys@CRegParser@ATL@@IAAHPAUHKEY__@@@Z 100044a4 f i imgutil.obj
+ 0001:00003520       ?SkipAssignment@CRegParser@ATL@@IAAJPAG@Z 10004520 f i imgutil.obj
+ 0001:000035ac       ?RemoveAll@?$CSimpleMap@PAGPAGVCExpansionVectorEqualHelper@ATL@@@ATL@@QAAXXZ 100045ac f i imgutil.obj
+ 0001:000035f0       ?FindKey@?$CSimpleMap@PAGPAGVCExpansionVectorEqualHelper@ATL@@@ATL@@QBAHABQAG@Z 100045f0 f i imgutil.obj
+ 0001:00003640       ?FreeHeap@?$CTempBuffer@G$0EAA@VCCRTAllocator@ATL@@@ATL@@AAAXXZ 10004640 f i imgutil.obj
+ 0001:00003648       ?FreeHeap@?$CTempBuffer@G$0BAA@VCCRTAllocator@ATL@@@ATL@@AAAXXZ 10004648 f i imgutil.obj
+ 0001:00003650       ?FreeHeap@?$CTempBuffer@E$0BAA@VCCRTAllocator@ATL@@@ATL@@AAAXXZ 10004650 f i imgutil.obj
+ 0001:00003658       ?AllocateHeap@?$CTempBuffer@G$0EAA@VCCRTAllocator@ATL@@@ATL@@AAAXI@Z 10004658 f i imgutil.obj
+ 0001:00003684       ?AllocateHeap@?$CTempBuffer@G$0BAA@VCCRTAllocator@ATL@@@ATL@@AAAXI@Z 10004684 f i imgutil.obj
+ 0001:000036b0       ?AllocateHeap@?$CTempBuffer@E$0BAA@VCCRTAllocator@ATL@@@ATL@@AAAXI@Z 100046b0 f i imgutil.obj
+ 0001:000036e4       ?RecurseDeleteKey@CRegKey@ATL@@QAAJPBG@Z 100046e4 f i imgutil.obj
+ 0001:00003810       ?ClearReplacements@CExpansionVector@ATL@@QAAJXZ 10004810 f i imgutil.obj
+ 0001:000038b0       ?ClearReplacements@CRegObject@ATL@@UAAJXZ 100048b0 f i imgutil.obj
+ 0001:000038dc       ?AddCommonRGSReplacements@?$CAtlModuleT@VCComModule@ATL@@@ATL@@UAAJPAUIRegistrarBase@@@Z 100048dc f i imgutil.obj
+ 0001:00003904       ?Lookup@?$CSimpleMap@PAGPAGVCExpansionVectorEqualHelper@ATL@@@ATL@@QBAPAGABQAG@Z 10004904 f i imgutil.obj
+ 0001:00003954       ??_ECComModule@ATL@@UAAPAXI@Z 10004954 f i imgutil.obj
+ 0001:00003954       ??_GCComModule@ATL@@UAAPAXI@Z 10004954 f i imgutil.obj
+ 0001:00003984       ??1CRegObject@ATL@@UAA@XZ  10004984 f i imgutil.obj
+ 0001:000039e0       ?QueryInterface@CRegObject@ATL@@UAAJABU_GUID@@PAPAX@Z 100049e0 f i imgutil.obj
+ 0001:000039ec       ?AddRef@CRegObject@ATL@@UAAKXZ 100049ec f i imgutil.obj
+ 0001:000039f4       ?Release@CRegObject@ATL@@UAAKXZ 100049f4 f i imgutil.obj
+ 0001:000039fc       ??_ECRegObject@ATL@@UAAPAXI@Z 100049fc f i imgutil.obj
+ 0001:000039fc       ??_GCRegObject@ATL@@UAAPAXI@Z 100049fc f i imgutil.obj
+ 0001:00003a28       ?PreProcessBuffer@CRegParser@ATL@@QAAJPAGPAPAG@Z 10004a28 f i imgutil.obj
+ 0001:00003da8       ?AtlComModuleGetClassObject@ATL@@YAJPAU_ATL_COM_MODULE70@1@ABU_GUID@@1PAPAX@Z 10004da8 f i imgutil.obj
+ 0001:00003edc       ?Add@?$CSimpleMap@PAGPAGVCExpansionVectorEqualHelper@ATL@@@ATL@@QAAHABQAG0@Z 10004edc f i imgutil.obj
+ 0001:00003f6c       ?Allocate@?$CTempBuffer@G$0EAA@VCCRTAllocator@ATL@@@ATL@@QAAPAGI@Z 10004f6c f i imgutil.obj
+ 0001:00003fcc       ?Allocate@?$CTempBuffer@G$0BAA@VCCRTAllocator@ATL@@@ATL@@QAAPAGI@Z 10004fcc f i imgutil.obj
+ 0001:0000402c       ?Allocate@?$CTempBuffer@E$0BAA@VCCRTAllocator@ATL@@@ATL@@QAAPAEI@Z 1000502c f i imgutil.obj
+ 0001:00004084       ?AddRef@?$CComObjectNoLock@VCComClassFactory@ATL@@@ATL@@UAAKXZ 10005084 f i imgutil.obj
+ 0001:0000408c       ?Release@?$CComObjectNoLock@VCComClassFactory@ATL@@@ATL@@UAAKXZ 1000508c f i imgutil.obj
+ 0001:000040c4       ?QueryInterface@?$CComObjectNoLock@VCComClassFactory@ATL@@@ATL@@UAAJABU_GUID@@PAPAX@Z 100050c4 f i imgutil.obj
+ 0001:000040d8       ??_E?$CComObjectNoLock@VCComClassFactory@ATL@@@ATL@@UAAPAXI@Z 100050d8 f i imgutil.obj
+ 0001:000040d8       ??_G?$CComObjectNoLock@VCComClassFactory@ATL@@@ATL@@UAAPAXI@Z 100050d8 f i imgutil.obj
+ 0001:00004120       ?CreateInstance@?$CComCreator@V?$CComAggObject@VCSniffStream@@@ATL@@@ATL@@SAJPAXABU_GUID@@PAPAX@Z 10005120 f i imgutil.obj
+ 0001:000041e8       ?CreateInstance@?$CComCreator@V?$CComAggObject@VCMapMIMEToCLSID@@@ATL@@@ATL@@SAJPAXABU_GUID@@PAPAX@Z 100051e8 f i imgutil.obj
+ 0001:000042b0       ?CreateInstance@?$CComCreator@V?$CComAggObject@VCDitherToRGB8@@@ATL@@@ATL@@SAJPAXABU_GUID@@PAPAX@Z 100052b0 f i imgutil.obj
+ 0001:00004378       ?Add@CExpansionVector@ATL@@QAAHPBG0@Z 10005378 f i imgutil.obj
+ 0001:00004478       ?AddReplacement@CRegObject@ATL@@UAAJPBG0@Z 10005478 f i imgutil.obj
+ 0001:000044e0       ?AddValue@CRegParser@ATL@@IAAJAAVCRegKey@2@PBGPAG@Z 100054e0 f i imgutil.obj
+ 0001:00004808       ?RegisterSubkeys@CRegParser@ATL@@IAAJPAGPAUHKEY__@@HH@Z 10005808 f i imgutil.obj
+ 0001:00004dd8       ?GetClassObject@CComModule@ATL@@QAAJABU_GUID@@0PAPAX@Z 10005dd8 f i imgutil.obj
+ 0001:00004ee8       DllGetClassObject          10005ee8 f   imgutil.obj
+ 0001:00004f00       ?CreateInstance@?$CComCreator@V?$CComObjectNoLock@VCComClassFactory@ATL@@@ATL@@@ATL@@SAJPAXABU_GUID@@PAPAX@Z 10005f00 f i imgutil.obj
+ 0001:00004fe0       ?CreateInstance@?$CComCreator2@V?$CComCreator@V?$CComObject@VCSniffStream@@@ATL@@@ATL@@V?$CComCreator@V?$CComAggObject@VCSniffStream@@@ATL@@@2@@ATL@@SAJPAXABU_GUID@@PAPAX@Z 10005fe0 f i imgutil.obj
+ 0001:00004ff0       ?CreateInstance@?$CComCreator2@V?$CComCreator@V?$CComObject@VCMapMIMEToCLSID@@@ATL@@@ATL@@V?$CComCreator@V?$CComAggObject@VCMapMIMEToCLSID@@@ATL@@@2@@ATL@@SAJPAXABU_GUID@@PAPAX@Z 10005ff0 f i imgutil.obj
+ 0001:00005000       ?CreateInstance@?$CComCreator2@V?$CComCreator@V?$CComObject@VCDitherToRGB8@@@ATL@@@ATL@@V?$CComCreator@V?$CComAggObject@VCDitherToRGB8@@@ATL@@@2@@ATL@@SAJPAXABU_GUID@@PAPAX@Z 10006000 f i imgutil.obj
+ 0001:00005018       ?RegisterBuffer@CRegParser@ATL@@QAAJPAGH@Z 10006018 f i imgutil.obj
+ 0001:00005154       ?RegisterFromResource@CRegObject@ATL@@IAAJPBG00H@Z 10006154 f i imgutil.obj
+ 0001:000052d0       ?UpdateRegistryFromResourceS@CAtlModule@ATL@@QAAJPBGHPAU_ATL_REGMAP_ENTRY@2@@Z 100062d0 f i imgutil.obj
+ 0001:00005524       ?UpdateRegistryFromResourceS@CAtlModule@ATL@@QAAJIHPAU_ATL_REGMAP_ENTRY@2@@Z 10006524 f i imgutil.obj
+ 0001:00005744       ?UpdateRegistryFromResourceS@CComModule@ATL@@UAAJPBGHPAU_ATL_REGMAP_ENTRY@2@@Z 10006744 f i imgutil.obj
+ 0001:00005748       ?UpdateRegistryFromResourceS@CComModule@ATL@@UAAJIHPAU_ATL_REGMAP_ENTRY@2@@Z 10006748 f i imgutil.obj
+ 0001:0000574c       ?SetString@CMapStringToCLSID@@QAAJPBG@Z 1000674c f   cmapmime.obj
+ 0001:000057b4       ?FindMapping@CMapMIMEToCLSID@@IAAPAVCMapStringToCLSID@@PBG@Z 100067b4 f   cmapmime.obj
+ 0001:000057f0       ?EnableDefaultMappings@CMapMIMEToCLSID@@UAAJH@Z 100067f0 f   cmapmime.obj
+ 0001:000057fc       ?CleanupDefaultMappings@@YAXXZ 100067fc f   cmapmime.obj
+ 0001:00005910       ??0CMapMIMEToCLSID@@QAA@XZ 10006910 f   cmapmime.obj
+ 0001:0000595c       ??1CMapMIMEToCLSID@@QAA@XZ 1000695c f   cmapmime.obj
+ 0001:000059c8       ?AddMapping@CMapMIMEToCLSID@@IAAPAVCMapStringToCLSID@@PBG@Z 100069c8 f   cmapmime.obj
+ 0001:00005a8c       ?DeleteMapping@CMapMIMEToCLSID@@IAAXPBG@Z 10006a8c f   cmapmime.obj
+ 0001:00005af8       ?SetMapping@CMapMIMEToCLSID@@UAAJPBGKABU_GUID@@@Z 10006af8 f   cmapmime.obj
+ 0001:00005ba0       ?MapMIMEToCLSID@CMapMIMEToCLSID@@UAAJPBGPAU_GUID@@@Z 10006ba0 f   cmapmime.obj
+ 0001:00005d24       ?get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ 10006d24 f i cmapmime.obj
+ 0001:00005d80       ?InitFromKey@CMapStringToCLSID@@QAAJPAUHKEY__@@PBG@Z 10006d80 f   cmapmime.obj
+ 0001:00005ed4       ?InitDefaultMappings@@YAJXZ 10006ed4 f   cmapmime.obj
+ 0001:000060b0       ?InitMIMEIdentifier@@YAXXZ 100070b0 f   cmimeid.obj
+ 0001:000060bc       ?InitFromBinary@CMIMEBitMatcher@@QAAJPBEKPAK@Z 100070bc f   cmimeid.obj
+ 0001:00006158       ?Match@CMIMEBitMatcher@@QBAJPBEK@Z 10007158 f   cmimeid.obj
+ 0001:000061d0       ?Match@CMIMEType@@QBAJPBEK@Z 100071d0 f   cmimeid.obj
+ 0001:00006234       ?Identify@CMIMEIdentifier@@QAAJPBEKPAI@Z 10007234 f   cmimeid.obj
+ 0001:000062cc       ??1CMIMEType@@QAA@XZ       100072cc f   cmimeid.obj
+ 0001:00006314       ??1CMIMEIdentifier@@QAA@XZ 10007314 f   cmimeid.obj
+ 0001:00006354       ?InitFromKey@CMIMEType@@QAAJPAUHKEY__@@PBGPAK@Z 10007354 f   cmimeid.obj
+ 0001:0000651c       ?IdentifyStream@CMIMEIdentifier@@QAAJPAUISniffStream@@PAI@Z 1000751c f   cmimeid.obj
+ 0001:000065e8       ?InitFromRegistry@CMIMEIdentifier@@QAAJXZ 100075e8 f   cmimeid.obj
+ 0001:000067f4       ?CleanupMIMEIdentifier@@YAXXZ 100077f4 f   cmimeid.obj
+ 0001:00006840       GetMaxMIMEIDBytes          10007840 f   cmimeid.obj
+ 0001:00006908       IdentifyMIMEType           10007908 f   cmimeid.obj
+ 0001:000069f4       SniffStream                100079f4 f   cmimeid.obj
+ 0001:00006c7c       ?AtlComPtrAssign@ATL@@YAPAUIUnknown@@PAPAU2@PAU2@@Z 10007c7c f i csnfstrm.obj
+ 0001:00006cc8       ?Clone@CSniffStream@@UAAJPAPAUIStream@@@Z 10007cc8 f   csnfstrm.obj
+ 0001:00006ce8       ?Commit@CSniffStream@@UAAJK@Z 10007ce8 f   csnfstrm.obj
+ 0001:00006cf4       ?CopyTo@CSniffStream@@UAAJPAUIStream@@T_ULARGE_INTEGER@@PAT3@2@Z 10007cf4 f   csnfstrm.obj
+ 0001:00006d0c       ?LockRegion@CSniffStream@@UAAJT_ULARGE_INTEGER@@0K@Z 10007d0c f   csnfstrm.obj
+ 0001:00006d24       ?Revert@CSniffStream@@UAAJXZ 10007d24 f   csnfstrm.obj
+ 0001:00006d30       ?Seek@CSniffStream@@UAAJT_LARGE_INTEGER@@KPAT_ULARGE_INTEGER@@@Z 10007d30 f   csnfstrm.obj
+ 0001:00006d48       ?SetSize@CSniffStream@@UAAJT_ULARGE_INTEGER@@@Z 10007d48 f   csnfstrm.obj
+ 0001:00006d60       ?Stat@CSniffStream@@UAAJPAUtagSTATSTG@@K@Z 10007d60 f   csnfstrm.obj
+ 0001:00006d6c       ?UnlockRegion@CSniffStream@@UAAJT_ULARGE_INTEGER@@0K@Z 10007d6c f   csnfstrm.obj
+ 0001:00006d84       ?Write@CSniffStream@@UAAJPBXKPAK@Z 10007d84 f   csnfstrm.obj
+ 0001:00006d90       ??1CSniffStream@@QAA@XZ    10007d90 f   csnfstrm.obj
+ 0001:00006df0       ?Read@CSniffStream@@UAAJPAXKPAK@Z 10007df0 f   csnfstrm.obj
+ 0001:00006f04       ?Peek@CSniffStream@@UAAJPAXKPAK@Z 10007f04 f   csnfstrm.obj
+ 0001:0000704c       ??0CSniffStream@@QAA@XZ    1000804c f   csnfstrm.obj
+ 0001:000070ac       ?Init@CSniffStream@@UAAJPAUIStream@@@Z 100080ac f   csnfstrm.obj
+ 0001:000070d4       CreateMIMEMap              100080d4 f   apis.obj
+ 0001:00007118       CreateDDrawSurfaceOnDIB    10008118 f   apis.obj
+ 0001:00007198       ComputeInvCMAP             10008198 f   apis.obj
+ 0001:0000725c       DecodeImage                1000825c f   apis.obj
+ 0001:000077dc       ??0CBaseFT@@IAA@PAUCRITICAL_SECTION@@@Z 100087dc f   cddsurf.obj
+ 0001:00007814       ?Passivate@CBaseFT@@MAAXXZ 10008814 f   cddsurf.obj
+ 0001:00007818       ?SubRelease@CBaseFT@@QAAKXZ 10008818 f   cddsurf.obj
+ 0001:00007850       ?CopyColorsFromPaletteEntries@@YAXPAUtagRGBQUAD@@PBUtagPALETTEENTRY@@I@Z 10008850 f   cddsurf.obj
+ 0001:00007890       ?CopyPaletteEntriesFromColors@@YAXPAUtagPALETTEENTRY@@PBUtagRGBQUAD@@I@Z 10008890 f   cddsurf.obj
+ 0001:000078cc       ?ImgCreateDibFromInfo@@YAPAUHBITMAP__@@PAUtagBITMAPINFO@@IPAPAEPAH@Z 100088cc f   cddsurf.obj
+ 0001:00007964       ??1CDDrawWrapper@@UAA@XZ   10008964 f   cddsurf.obj
+ 0001:000079a0       ?QueryInterface@CDDrawWrapper@@UAAJABU_GUID@@PAPAX@Z 100089a0 f   cddsurf.obj
+ 0001:00007a70       ?AddRef@CDDrawWrapper@@UAAKXZ 10008a70 f   cddsurf.obj
+ 0001:00007a78       ?GetColorKey@CDDrawWrapper@@UAAJKPAU_DDCOLORKEY@@@Z 10008a78 f   cddsurf.obj
+ 0001:00007ab4       ?GetPalette@CDDrawWrapper@@UAAJPAPAUIDirectDrawPalette@@@Z 10008ab4 f   cddsurf.obj
+ 0001:00007b0c       ?SetColorKey@CDDrawWrapper@@UAAJKPAU_DDCOLORKEY@@@Z 10008b0c f   cddsurf.obj
+ 0001:00007b48       ?SetEntries@CDDrawWrapper@@UAAJKKKPAUtagPALETTEENTRY@@@Z 10008b48 f   cddsurf.obj
+ 0001:00007c6c       ?GetEntries@CDDrawWrapper@@UAAJKKKPAUtagPALETTEENTRY@@@Z 10008c6c f   cddsurf.obj
+ 0001:00007da4       ?Lock@CDDrawWrapper@@UAAJPAUtagRECT@@PAU_DDSURFACEDESC@@KPAX@Z 10008da4 f   cddsurf.obj
+ 0001:00007e74       ?Unlock@CDDrawWrapper@@UAAJPAUtagRECT@@@Z 10008e74 f   cddsurf.obj
+ 0001:00007e7c       ?AddOverlayDirtyRect@CDDrawWrapper@@UAAJPAUtagRECT@@@Z 10008e7c f   cddsurf.obj
+ 0001:00007e88       ?Blt@CDDrawWrapper@@UAAJPAUtagRECT@@PAUIDirectDrawSurface@@0KPAU_DDBLTFX@@@Z 10008e88 f   cddsurf.obj
+ 0001:00007e94       ?EnumAttachedSurfaces@CDDrawWrapper@@UAAJPAXP6AJPAUIDirectDrawSurface@@PAU_DDSURFACEDESC@@0@Z@Z 10008e94 f   cddsurf.obj
+ 0001:00007ea0       ?EnumOverlayZOrders@CDDrawWrapper@@UAAJKPAXP6AJPAUIDirectDrawSurface@@PAU_DDSURFACEDESC@@0@Z@Z 10008ea0 f   cddsurf.obj
+ 0001:00007eac       ?Flip@CDDrawWrapper@@UAAJPAUIDirectDrawSurface@@K@Z 10008eac f   cddsurf.obj
+ 0001:00007eb8       ?GetBltStatus@CDDrawWrapper@@UAAJK@Z 10008eb8 f   cddsurf.obj
+ 0001:00007ec4       ?GetCaps@CDDrawWrapper@@UAAJPAU_DDSCAPS@@@Z 10008ec4 f   cddsurf.obj
+ 0001:00007ed0       ?GetClipper@CDDrawWrapper@@UAAJPAPAUIDirectDrawClipper@@@Z 10008ed0 f   cddsurf.obj
+ 0001:00007edc       ?GetDC@CDDrawWrapper@@UAAJPAPAUHDC__@@@Z 10008edc f   cddsurf.obj
+ 0001:00007ee8       ?GetFlipStatus@CDDrawWrapper@@UAAJK@Z 10008ee8 f   cddsurf.obj
+ 0001:00007ef4       ?GetOverlayPosition@CDDrawWrapper@@UAAJPAJ0@Z 10008ef4 f   cddsurf.obj
+ 0001:00007f00       ?GetPixelFormat@CDDrawWrapper@@UAAJPAU_DDPIXELFORMAT@@@Z 10008f00 f   cddsurf.obj
+ 0001:00007f0c       ?GetSurfaceDesc@CDDrawWrapper@@UAAJPAU_DDSURFACEDESC@@@Z 10008f0c f   cddsurf.obj
+ 0001:00007f18       ?IsLost@CDDrawWrapper@@UAAJXZ 10008f18 f   cddsurf.obj
+ 0001:00007f24       ?ReleaseDC@CDDrawWrapper@@UAAJPAUHDC__@@@Z 10008f24 f   cddsurf.obj
+ 0001:00007f30       ?Restore@CDDrawWrapper@@UAAJXZ 10008f30 f   cddsurf.obj
+ 0001:00007f3c       ?SetClipper@CDDrawWrapper@@UAAJPAUIDirectDrawClipper@@@Z 10008f3c f   cddsurf.obj
+ 0001:00007f48       ?SetOverlayPosition@CDDrawWrapper@@UAAJJJ@Z 10008f48 f   cddsurf.obj
+ 0001:00007f54       ?SetPalette@CDDrawWrapper@@UAAJPAUIDirectDrawPalette@@@Z 10008f54 f   cddsurf.obj
+ 0001:00007f60       ?UpdateOverlay@CDDrawWrapper@@UAAJPAUtagRECT@@PAUIDirectDrawSurface@@0KPAU_DDOVERLAYFX@@@Z 10008f60 f   cddsurf.obj
+ 0001:00007f6c       ?UpdateOverlayZOrder@CDDrawWrapper@@UAAJKPAUIDirectDrawSurface@@@Z 10008f6c f   cddsurf.obj
+ 0001:00007f78       ?GetCaps@CDDrawWrapper@@UAAJPAK@Z 10008f78 f   cddsurf.obj
+ 0001:00007f84       ?GetDDInterface@CDDrawWrapper@@UAAJPAPAUIDirectDraw@@@Z 10008f84 f   cddsurf.obj
+ 0001:00007f90       ?AlphaBlt@CDDrawWrapper@@UAAJPAUtagRECT@@PAUIDirectDrawSurface@@0KPAU_DDALPHABLTFX@@@Z 10008f90 f   cddsurf.obj
+ 0001:00007f9c       ?AddRef@CDDrawWrapper@@W3AAKXZ 10008f9c f i cddsurf.obj
+ 0001:00007fa4       ?QueryInterface@CDDrawWrapper@@W3AAJABU_GUID@@PAPAX@Z 10008fa4 f i cddsurf.obj
+ 0001:00007fac       ??_ECBaseFT@@MAAPAXI@Z     10008fac f i cddsurf.obj
+ 0001:00007fac       ??_GCBaseFT@@MAAPAXI@Z     10008fac f i cddsurf.obj
+ 0001:00007fe4       ?Release@CBaseFT@@QAAKXZ   10008fe4 f   cddsurf.obj
+ 0001:00008024       ?ImgCreateDib@@YAPAUHBITMAP__@@JJHHHPAUtagPALETTEENTRY@@PAPAEPAH@Z 10009024 f   cddsurf.obj
+ 0001:00008228       ??0CDDrawWrapper@@QAA@PAUHBITMAP__@@@Z 10009228 f   cddsurf.obj
+ 0001:00008300       ??_GCDDrawWrapper@@UAAPAXI@Z 10009300 f i cddsurf.obj
+ 0001:00008300       ??_ECDDrawWrapper@@UAAPAXI@Z 10009300 f i cddsurf.obj
+ 0001:00008324       ?Release@CDDrawWrapper@@UAAKXZ 10009324 f   cddsurf.obj
+ 0001:0000832c       ?Release@CDDrawWrapper@@W3AAKXZ 1000932c f i cddsurf.obj
+ 0001:00008334       ?InitTableCache@CDitherToRGB8@@SAXXZ 10009334 f   cdith8.obj
+ 0001:0000836c       ?SetDestColorTable@CDitherToRGB8@@UAAJKPBUtagRGBQUAD@@@Z 1000936c f   cdith8.obj
+ 0001:0000858c       DitherTo8                  1000958c f   cdith8.obj
+ 0001:000087c0       ?CleanupTableCache@CDitherToRGB8@@SAXXZ 100097c0 f   cdith8.obj
+ 0001:00008838       ??1CDitherToRGB8@@QAA@XZ   10009838 f   cdith8.obj
+ 0001:000088f0       ?OnBeginDecode@CDitherToRGB8@@UAAJPAK0PAPAU_GUID@@@Z 100098f0 f   cdith8.obj
+ 0001:00008a90       ?ConvertBlock@CDitherToRGB8@@IAAJPAUtagRECT@@@Z 10009a90 f   cdith8.obj
+ 0001:00008bec       ?DitherBand@CDitherToRGB8@@IAAJPAUtagRECT@@@Z 10009bec f   cdith8.obj
+ 0001:00008e94       ?DitherFull@CDitherToRGB8@@IAAJXZ 10009e94 f   cdith8.obj
+ 0001:00008ed4       ??0CDitherToRGB8@@QAA@XZ   10009ed4 f   cdith8.obj
+ 0001:00008f4c       ?GetSurface@CDitherToRGB8@@UAAJJJABU_GUID@@KKPAPAUIUnknown@@@Z 10009f4c f   cdith8.obj
+ 0001:00009200       ?OnBitsComplete@CDitherToRGB8@@UAAJXZ 1000a200 f   cdith8.obj
+ 0001:00009240       ?OnDecodeComplete@CDitherToRGB8@@UAAJJ@Z 1000a240 f   cdith8.obj
+ 0001:00009350       ?OnPalette@CDitherToRGB8@@UAAJXZ 1000a350 f   cdith8.obj
+ 0001:0000946c       ?OnProgress@CDitherToRGB8@@UAAJPAUtagRECT@@H@Z 1000a46c f   cdith8.obj
+ 0001:000094f4       ?SetEventSink@CDitherToRGB8@@UAAJPAUIImageDecodeEventSink@@@Z 1000a4f4 f   cdith8.obj
+ 0001:0000951c       ??0CDitherTable@@QAA@XZ    1000a51c f   cdithtbl.obj
+ 0001:00009534       ??1CDitherTable@@QAA@XZ    1000a534 f   cdithtbl.obj
+ 0001:00009538       ?Match@CDitherTable@@QAAHKPBUtagRGBQUAD@@@Z 1000a538 f   cdithtbl.obj
+ 0001:0000957c       ?blueloop@CDitherTable@@IAAHH@Z 1000a57c f   cdithtbl.obj
+ 0001:00009794       ?maxfill@CDitherTable@@IAAXPAKJ@Z 1000a794 f   cdithtbl.obj
+ 0001:000097cc       ?greenloop@CDitherTable@@IAAHH@Z 1000a7cc f   cdithtbl.obj
+ 0001:00009ad8       ?redloop@CDitherTable@@IAAHXZ 1000aad8 f   cdithtbl.obj
+ 0001:00009c30       ?inv_cmap@CDitherTable@@IAAXHPAUtagRGBQUAD@@HPAKPAE@Z 1000ac30 f   cdithtbl.obj
+ 0001:00009e08       ?BuildInverseMap@CDitherTable@@IAAJXZ 1000ae08 f   cdithtbl.obj
+ 0001:00009e74       ?SetColors@CDitherTable@@QAAJKPBUtagRGBQUAD@@@Z 1000ae74 f   cdithtbl.obj
+ 0001:00009eb4       RaiseException             1000aeb4 f   coredll:COREDLL.dll
+ 0001:00009ec4       EnterCriticalSection       1000aec4 f   coredll:COREDLL.dll
+ 0001:00009ed4       LeaveCriticalSection       1000aed4 f   coredll:COREDLL.dll
+ 0001:00009ee4       InitializeCriticalSection  1000aee4 f   coredll:COREDLL.dll
+ 0001:00009ef4       DeleteCriticalSection      1000aef4 f   coredll:COREDLL.dll
+ 0001:00009f04       InterlockedIncrement       1000af04 f   coredll:COREDLL.dll
+ 0001:00009f14       InterlockedDecrement       1000af14 f   coredll:COREDLL.dll
+ 0001:00009f24       DisableThreadLibraryCalls  1000af24 f   coredll:COREDLL.dll
+ 0001:00009f34       GetLastError               1000af34 f   coredll:COREDLL.dll
+ 0001:00009f44       RegDeleteKeyW              1000af44 f   coredll:COREDLL.dll
+ 0001:00009f54       RegDeleteValueW            1000af54 f   coredll:COREDLL.dll
+ 0001:00009f64       RegCloseKey                1000af64 f   coredll:COREDLL.dll
+ 0001:00009f74       RegCreateKeyExW            1000af74 f   coredll:COREDLL.dll
+ 0001:00009f84       RegOpenKeyExW              1000af84 f   coredll:COREDLL.dll
+ 0001:00009f94       RegSetValueExW             1000af94 f   coredll:COREDLL.dll
+ 0001:00009fa4       lstrcmpiW                  1000afa4 f   coredll:COREDLL.dll
+ 0001:00009fb4       CharNextW                  1000afb4 f   coredll:COREDLL.dll
+ 0001:00009fc4       RegQueryInfoKeyW           1000afc4 f   coredll:COREDLL.dll
+ 0001:00009fd4       RegEnumKeyExW              1000afd4 f   coredll:COREDLL.dll
+ 0001:00009fe4       FreeLibrary                1000afe4 f   coredll:COREDLL.dll
+ 0001:00009ff4       MultiByteToWideChar        1000aff4 f   coredll:COREDLL.dll
+ 0001:0000a004       SizeofResource             1000b004 f   coredll:COREDLL.dll
+ 0001:0000a014       LoadResource               1000b014 f   coredll:COREDLL.dll
+ 0001:0000a024       FindResourceW              1000b024 f   coredll:COREDLL.dll
+ 0001:0000a034       LoadLibraryExW             1000b034 f   coredll:COREDLL.dll
+ 0001:0000a044       GetModuleHandleW           1000b044 f   coredll:COREDLL.dll
+ 0001:0000a054       GetModuleFileNameW         1000b054 f   coredll:COREDLL.dll
+ 0001:0000a064       StringCchCopyW             1000b064 f   coredll:COREDLL.dll
+ 0001:0000a074       lstrcmpW                   1000b074 f   coredll:COREDLL.dll
+ 0001:0000a084       RegQueryValueExW           1000b084 f   coredll:COREDLL.dll
+ 0001:0000a094       RegisterClipboardFormatW   1000b094 f   coredll:COREDLL.dll
+ 0001:0000a0a4       GetClipboardFormatNameW    1000b0a4 f   coredll:COREDLL.dll
+ 0001:0000a0b4       DeleteDC                   1000b0b4 f   coredll:COREDLL.dll
+ 0001:0000a0c4       CreateDIBSection           1000b0c4 f   coredll:COREDLL.dll
+ 0001:0000a0d4       CreateCompatibleDC         1000b0d4 f   coredll:COREDLL.dll
+ 0001:0000a0e4       SetDIBColorTable           1000b0e4 f   coredll:COREDLL.dll
+ 0001:0000a0f4       SelectObject               1000b0f4 f   coredll:COREDLL.dll
+ 0001:0000a104       GetDIBColorTable           1000b104 f   coredll:COREDLL.dll
+ 0001:0000a114       EqualRect                  1000b114 f   coredll:COREDLL.dll
+ 0001:0000a124       IntersectRect              1000b124 f   coredll:COREDLL.dll
+ 0001:0000a134       GetObjectW                 1000b134 f   coredll:COREDLL.dll
+ 0001:0000a144       DeleteObject               1000b144 f   coredll:COREDLL.dll
+ 0001:0000a154       VarUI4FromStr              1000b154 f   oleaut32:OLEAUT32.dll
+ 0001:0000a164       CoTaskMemAlloc             1000b164 f   ole32:ole32.dll
+ 0001:0000a174       CoTaskMemRealloc           1000b174 f   ole32:ole32.dll
+ 0001:0000a184       CoCreateInstance           1000b184 f   ole32:ole32.dll
+ 0001:0000a194       CoTaskMemFree              1000b194 f   ole32:ole32.dll
+ 0001:0000a1a4       CLSIDFromString            1000b1a4 f   ole32:ole32.dll
+ 0001:0000a1b4       ?Term@CAtlComModule@ATL@@QAAXXZ 1000b1b4 f i atls:atlcommodule.obj
+ 0001:0000a218       ??0CAtlComModule@ATL@@QAA@XZ 1000b218 f i atls:atlcommodule.obj
+ 0001:0000a2a8       AtlRawDllMain              1000b2a8 f   atls:atlbase.obj
+ 0001:0000a330       ??1CAtlBaseModule@ATL@@QAA@XZ 1000b330 f   atls:atlbase.obj
+ 0001:0000a368       ??0CAtlBaseModule@ATL@@QAA@XZ 1000b368 f   atls:atlbase.obj
+ 0001:0000a4f4       _DllMainCRTStartup         1000b4f4 f   corelib0:pegdmain.obj
+ 0001:0000a520       __GSHandlerCheckCommon     1000b520 f   corelib0:gshandler.obj
+ 0001:0000a55c       __GSHandlerCheck           1000b55c f   corelib0:gshandler.obj
+ 0001:0000a57c       __security_init_cookie     1000b57c f   corelib0:seccinit.obj
+ 0001:0000a5c8       __security_check_cookie    1000b5c8 f   corelib0:armsecgs.obj
+ 0001:0000a5d8       __gsfailure                1000b5d8     corelib0:armsecgs.obj
+ 0001:0000a624       _onexit                    1000b624 f   corelib0:onexit.obj
+ 0001:0000a7a8       atexit                     1000b7a8 f   corelib0:onexit.obj
+ 0001:0000a8a8       _cexit                     1000b8a8 f   corelib0:cexit.obj
+ 0001:0000a8b8       _initterm                  1000b8b8 f   corelib0:crt0dat.obj
+ 0001:0000a8e4       _cinit                     1000b8e4 f   corelib0:crt0dat.obj
+ 0001:0000a944       __crt_ExitProcess          1000b944 f   corelib0:exitproc_proxy.obj
+ 0001:0000a950       memset                     1000b950 f   corelib1:COREDLL.dll
+ 0001:0000a960       ??3@YAXPAX@Z               1000b960 f   corelib1:COREDLL.dll
+ 0001:0000a970       __C_specific_handler       1000b970 f   corelib1:COREDLL.dll
+ 0001:0000a980       _purecall                  1000b980 f   corelib1:COREDLL.dll
+ 0001:0000a990       ??2@YAPAXI@Z               1000b990 f   corelib1:COREDLL.dll
+ 0001:0000a9a0       wcsstr                     1000b9a0 f   corelib1:COREDLL.dll
+ 0001:0000a9b0       wcslen                     1000b9b0 f   corelib1:COREDLL.dll
+ 0001:0000a9c0       malloc                     1000b9c0 f   corelib1:COREDLL.dll
+ 0001:0000a9d0       free                       1000b9d0 f   corelib1:COREDLL.dll
+ 0001:0000a9e0       memcpy_s                   1000b9e0 f   corelib1:COREDLL.dll
+ 0001:0000a9f0       wcsncpy_s                  1000b9f0 f   corelib1:COREDLL.dll
+ 0001:0000aa00       _recalloc                  1000ba00 f   corelib1:COREDLL.dll
+ 0001:0000aa10       memcmp                     1000ba10 f   corelib1:COREDLL.dll
+ 0001:0000aa20       ??_U@YAPAXI@Z              1000ba20 f   corelib1:COREDLL.dll
+ 0001:0000aa30       ??_V@YAXPAX@Z              1000ba30 f   corelib1:COREDLL.dll
+ 0001:0000aa40       memcpy                     1000ba40 f   corelib1:COREDLL.dll
+ 0001:0000aa50       _XcptFilter                1000ba50 f   corelib1:COREDLL.dll
+ 0001:0000aa60       __security_gen_cookie2     1000ba60 f   corelib1:COREDLL.dll
+ 0001:0000aa70       __report_gsfailure         1000ba70 f   corelib1:COREDLL.dll
+ 0001:0000aa80       realloc                    1000ba80 f   corelib1:COREDLL.dll
+ 0001:0000aa90       _msize                     1000ba90 f   corelib1:COREDLL.dll
+ 0001:0000aaa0       InterlockedCompareExchange 1000baa0 f   coredll:COREDLL.dll
+ 0001:0000aab0       InterlockedExchange        1000bab0 f   coredll:COREDLL.dll
+ 0001:0000aac0       TerminateProcess           1000bac0 f   coredll:COREDLL.dll
+ 0001:0000ab6c       ??__Fcs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@YAXXZ 1000bb6c f i cmapmime.obj
+ 0001:0000ac08       __pobjMapEntryFirst        1000bc08     dithers.obj
+ 0001:0000ac0c       __pobjMapEntryLast         1000bc0c     dithers.obj
+ 0001:0000ac10       __IMPORT_DESCRIPTOR_COREDLL 1000bc10     coredll:COREDLL.dll
+ 0001:0000ac24       __IMPORT_DESCRIPTOR_OLEAUT32 1000bc24     oleaut32:OLEAUT32.dll
+ 0001:0000ac38       __IMPORT_DESCRIPTOR_ole32  1000bc38     ole32:ole32.dll
+ 0001:0000ac4c       __NULL_IMPORT_DESCRIPTOR   1000bc4c     coredll:COREDLL.dll
+ 0002:00000000       __imp_RaiseException       1000c000     coredll:COREDLL.dll
+ 0002:00000004       __imp_EnterCriticalSection 1000c004     coredll:COREDLL.dll
+ 0002:00000008       __imp_LeaveCriticalSection 1000c008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_InitializeCriticalSection 1000c00c     coredll:COREDLL.dll
+ 0002:00000010       __imp_DeleteCriticalSection 1000c010     coredll:COREDLL.dll
+ 0002:00000014       __imp_InterlockedIncrement 1000c014     coredll:COREDLL.dll
+ 0002:00000018       __imp_InterlockedDecrement 1000c018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_DisableThreadLibraryCalls 1000c01c     coredll:COREDLL.dll
+ 0002:00000020       __imp_GetLastError         1000c020     coredll:COREDLL.dll
+ 0002:00000024       __imp_RegDeleteKeyW        1000c024     coredll:COREDLL.dll
+ 0002:00000028       __imp_RegDeleteValueW      1000c028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_RegCloseKey          1000c02c     coredll:COREDLL.dll
+ 0002:00000030       __imp_RegCreateKeyExW      1000c030     coredll:COREDLL.dll
+ 0002:00000034       __imp_RegOpenKeyExW        1000c034     coredll:COREDLL.dll
+ 0002:00000038       __imp_RegSetValueExW       1000c038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_lstrcmpiW            1000c03c     coredll:COREDLL.dll
+ 0002:00000040       __imp_CharNextW            1000c040     coredll:COREDLL.dll
+ 0002:00000044       __imp_RegQueryInfoKeyW     1000c044     coredll:COREDLL.dll
+ 0002:00000048       __imp_RegEnumKeyExW        1000c048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_FreeLibrary          1000c04c     coredll:COREDLL.dll
+ 0002:00000050       __imp_MultiByteToWideChar  1000c050     coredll:COREDLL.dll
+ 0002:00000054       __imp_SizeofResource       1000c054     coredll:COREDLL.dll
+ 0002:00000058       __imp_LoadResource         1000c058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_FindResourceW        1000c05c     coredll:COREDLL.dll
+ 0002:00000060       __imp_LoadLibraryExW       1000c060     coredll:COREDLL.dll
+ 0002:00000064       __imp_GetModuleHandleW     1000c064     coredll:COREDLL.dll
+ 0002:00000068       __imp_GetModuleFileNameW   1000c068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_StringCchCopyW       1000c06c     coredll:COREDLL.dll
+ 0002:00000070       __imp_lstrcmpW             1000c070     coredll:COREDLL.dll
+ 0002:00000074       __imp_RegQueryValueExW     1000c074     coredll:COREDLL.dll
+ 0002:00000078       __imp_RegisterClipboardFormatW 1000c078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_GetClipboardFormatNameW 1000c07c     coredll:COREDLL.dll
+ 0002:00000080       __imp_DeleteDC             1000c080     coredll:COREDLL.dll
+ 0002:00000084       __imp_CreateDIBSection     1000c084     coredll:COREDLL.dll
+ 0002:00000088       __imp_CreateCompatibleDC   1000c088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_SetDIBColorTable     1000c08c     coredll:COREDLL.dll
+ 0002:00000090       __imp_SelectObject         1000c090     coredll:COREDLL.dll
+ 0002:00000094       __imp_GetDIBColorTable     1000c094     coredll:COREDLL.dll
+ 0002:00000098       __imp_EqualRect            1000c098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_IntersectRect        1000c09c     coredll:COREDLL.dll
+ 0002:000000a0       __imp_GetObjectW           1000c0a0     coredll:COREDLL.dll
+ 0002:000000a4       __imp_DeleteObject         1000c0a4     coredll:COREDLL.dll
+ 0002:000000a8       __imp_TerminateProcess     1000c0a8     coredll:COREDLL.dll
+ 0002:000000ac       __imp_InterlockedExchange  1000c0ac     coredll:COREDLL.dll
+ 0002:000000b0       __imp_InterlockedCompareExchange 1000c0b0     coredll:COREDLL.dll
+ 0002:000000b4       __imp__msize               1000c0b4     corelib1:COREDLL.dll
+ 0002:000000b8       __imp_realloc              1000c0b8     corelib1:COREDLL.dll
+ 0002:000000bc       __imp___report_gsfailure   1000c0bc     corelib1:COREDLL.dll
+ 0002:000000c0       __imp___security_gen_cookie2 1000c0c0     corelib1:COREDLL.dll
+ 0002:000000c4       __imp_memset               1000c0c4     corelib1:COREDLL.dll
+ 0002:000000c8       __imp_??3@YAXPAX@Z         1000c0c8     corelib1:COREDLL.dll
+ 0002:000000cc       __imp___C_specific_handler 1000c0cc     corelib1:COREDLL.dll
+ 0002:000000d0       __imp__purecall            1000c0d0     corelib1:COREDLL.dll
+ 0002:000000d4       __imp_??2@YAPAXI@Z         1000c0d4     corelib1:COREDLL.dll
+ 0002:000000d8       __imp_wcsstr               1000c0d8     corelib1:COREDLL.dll
+ 0002:000000dc       __imp_wcslen               1000c0dc     corelib1:COREDLL.dll
+ 0002:000000e0       __imp_malloc               1000c0e0     corelib1:COREDLL.dll
+ 0002:000000e4       __imp_free                 1000c0e4     corelib1:COREDLL.dll
+ 0002:000000e8       __imp_memcpy_s             1000c0e8     corelib1:COREDLL.dll
+ 0002:000000ec       __imp_wcsncpy_s            1000c0ec     corelib1:COREDLL.dll
+ 0002:000000f0       __imp__recalloc            1000c0f0     corelib1:COREDLL.dll
+ 0002:000000f4       __imp_memcmp               1000c0f4     corelib1:COREDLL.dll
+ 0002:000000f8       __imp_??_U@YAPAXI@Z        1000c0f8     corelib1:COREDLL.dll
+ 0002:000000fc       __imp_??_V@YAXPAX@Z        1000c0fc     corelib1:COREDLL.dll
+ 0002:00000100       __imp_memcpy               1000c100     corelib1:COREDLL.dll
+ 0002:00000104       __imp__XcptFilter          1000c104     corelib1:COREDLL.dll
+ 0002:00000108       \177COREDLL_NULL_THUNK_DATA 1000c108     coredll:COREDLL.dll
+ 0002:0000010c       __imp_VarUI4FromStr        1000c10c     oleaut32:OLEAUT32.dll
+ 0002:00000110       \177OLEAUT32_NULL_THUNK_DATA 1000c110     oleaut32:OLEAUT32.dll
+ 0002:00000114       __imp_CoTaskMemRealloc     1000c114     ole32:ole32.dll
+ 0002:00000118       __imp_CoTaskMemAlloc       1000c118     ole32:ole32.dll
+ 0002:0000011c       __imp_CoCreateInstance     1000c11c     ole32:ole32.dll
+ 0002:00000120       __imp_CoTaskMemFree        1000c120     ole32:ole32.dll
+ 0002:00000124       __imp_CLSIDFromString      1000c124     ole32:ole32.dll
+ 0002:00000128       \177ole32_NULL_THUNK_DATA  1000c128     ole32:ole32.dll
+ 0002:000001b0       _pRawDllMain               1000c1b0     atls:atlbase.obj
+ 0002:000001b4       __security_cookie          1000c1b4     corelib0:seccinit.obj
+ 0002:000001b8       __security_cookie_complement 1000c1b8     corelib0:seccinit.obj
+ 0002:000001bc       ?m_bInitFailed@CAtlBaseModule@ATL@@2_NA 1000c1bc     dithers.obj
+ 0002:000001bd       ?_AtlRegisterPerUser@ATL@@3_NA 1000c1bd     dithers.obj
+ 0002:000001c0       ?_pAtlModule@ATL@@3PAVCAtlModule@1@A 1000c1c0     dithers.obj
+ 0002:000001c4       ?m_libid@CAtlModule@ATL@@2U_GUID@@A 1000c1c4     dithers.obj
+ 0002:000001d4       ?_pModule@ATL@@3PAVCComModule@1@A 1000c1d4     dithers.obj
+ 0002:000001d8       ??_B?1??VTFromRegType@CRegParser@ATL@@KAHPBGAAG@Z@51 1000c1d8     imgutil.obj
+ 0002:000001dc       ?map@?1??VTFromRegType@CRegParser@ATL@@KAHPBGAAG@Z@4QBUtypemap@?1??123@KAH01@Z@B 1000c1dc     imgutil.obj
+ 0002:000001fc       ?_Module@@3VCComModule@ATL@@A 1000c1fc     imgutil.obj
+ 0002:00000228       ?g_csDefaultMappings@@3UCRITICAL_SECTION@@A 1000c228     cmapmime.obj
+ 0002:0000023c       ?g_pDefaultMappings@@3PAVCMapStringToCLSID@@A 1000c23c     cmapmime.obj
+ 0002:00000240       ?g_bDefaultMappingsInitialized@@3HA 1000c240     cmapmime.obj
+ 0002:00000244       ??_B?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@51 1000c244     cmapmime.obj
+ 0002:00000248       ?cs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@3@XZ@4V43@A 1000c248     cmapmime.obj
+ 0002:0000025c       ?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A 1000c25c     cmapmime.obj
+ 0002:00000278       ?g_lSecondaryObjCount@@3JA 1000c278     cddsurf.obj
+ 0002:0000027c       ?s_nCacheSize@CDitherToRGB8@@1KA 1000c27c     cdith8.obj
+ 0002:00000280       ?s_apTableCache@CDitherToRGB8@@1PAPAVCDitherTable@@A 1000c280     cdith8.obj
+ 0002:00000290       ?s_csCache@CDitherToRGB8@@1UCRITICAL_SECTION@@A 1000c290     cdith8.obj
+ 0002:000002a4       ?_AtlComModule@ATL@@3VCAtlComModule@1@A 1000c2a4     atls:atlcommodule.obj
+ 0002:000002c8       __afxForceAtlRawDllMain    1000c2c8     atls:atlbase.obj
+ 0002:000002cc       ?_AtlModuleInstance@ATL@@3PAUHINSTANCE__@@A 1000c2cc     atls:atlbase.obj
+ 0002:000002d0       ?_AtlBaseModule@ATL@@3VCAtlBaseModule@1@A 1000c2d0     atls:atlbase.obj
+ 0002:00000304       ?_pAtlRawDllMain@@3P6AHPAXK0@ZA 1000c304     atls:atlbase.obj
+ 0002:00000308       __@@_PchSym_@00@UxsvozmCBUlgsvihUzgoJUhixUzgohUlyqUzineHUivgzroUhgwzucOlyq@atls 1000c308     atls:stdafx.obj
+ 0002:0000030c       _exitflag                  1000c30c     corelib0:cexit.obj
+ 0002:00000310       __onexitend                1000c310     <common>
+ 0002:00000314       __onexitbegin              1000c314     <common>
+ 0002:00000318       g_pcsExit                  1000c318     <common>
+
+ entry point at        0001:0000a4f4
+
+ Static symbols
+
+ 0001:0000584c       ?DefaultMapMIMEToCLSID@@YAJPBGPAU_GUID@@@Z 1000684c f   cmapmime.obj
+ 0001:0000a404       _DllMainCRTStartupHelper   1000b404 f   corelib0:pegdmain.obj
+ 0001:0000a7c0       doexit                     1000b7c0 f   corelib0:cexit.obj
+ 0001:0000aad0       ??__E_Module@@YAXXZ        1000bad0 f   imgutil.obj
+ 0001:0000ab0c       ??__E?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A@@YAXXZ 1000bb0c f   cmapmime.obj
+ 0001:0000ab10       ??__E_AtlComModule@ATL@@YAXXZ 1000bb10 f   atls:atlcommodule.obj
+ 0001:0000ab30       ??__E_AtlBaseModule@ATL@@YAXXZ 1000bb30 f   atls:atlbase.obj
+ 0001:0000ab50       ??__F_Module@@YAXXZ        1000bb50 f   imgutil.obj
+ 0001:0000ab78       ??__F_AtlComModule@ATL@@YAXXZ 1000bb78 f   atls:atlcommodule.obj
+ 0001:0000ab84       ??__F_AtlBaseModule@ATL@@YAXXZ 1000bb84 f   atls:atlbase.obj

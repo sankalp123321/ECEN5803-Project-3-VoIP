@@ -1,0 +1,202 @@
+ CmCspIp
+
+ Timestamp is 5cafa2ba (Thu Apr 11 13:25:30 2019)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCU                CODE
+ 0001:00000008 00000004H .CRT$XCZ                CODE
+ 0001:0000000c 00000004H .CRT$XIA                CODE
+ 0001:00000010 00000004H .CRT$XIZ                CODE
+ 0001:00000014 00000004H .CRT$XPA                CODE
+ 0001:00000018 00000004H .CRT$XPZ                CODE
+ 0001:0000001c 00000004H .CRT$XTA                CODE
+ 0001:00000020 00000004H .CRT$XTZ                CODE
+ 0001:00000030 0000004cH .rdata                  CODE
+ 0001:0000007c 00000024H .rdata$debug            CODE
+ 0001:000000a0 000017b8H .text                   CODE
+ 0001:00001858 00000004H .text$yc                CODE
+ 0001:0000185c 0000000cH .text$yd                CODE
+ 0001:00001868 0000003cH .xdata                  CODE
+ 0001:000018a4 0000003cH .idata$2                CODE
+ 0001:000018e0 00000014H .idata$3                CODE
+ 0001:000018f4 000000a8H .idata$4                CODE
+ 0001:0000199c 000000c8H .idata$6                CODE
+ 0001:00001a70 000001f6H .edata                  CODE
+ 0002:00000000 000000a8H .idata$5                DATA
+ 0002:000000a8 00000008H .data                   DATA
+ 0002:000000b0 00000030H .bss                    DATA
+ 0003:00000000 000001b0H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000008       __xc_z                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_a                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xi_z                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_a                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xp_z                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_a                     1000101c     corelib0:crt0init.obj
+ 0001:00000020       __xt_z                     10001020     corelib0:crt0init.obj
+ 0001:0000005c       ??_C@_0P@EBHFOJDC@192?4168?455?4101?$AA@ 1000105c     CmCspIpApi.obj
+ 0001:0000006c       ??_7AddrChangeListener@@6B@ 1000106c     CmCspIpApi.obj
+ 0001:00000070       ??_C@_17LGGGMOOB@?$AA?$CF?$AAh?$AAs?$AA?$AA@ 10001070     CmCspIpApi.obj
+ 0001:00000078       ??_7CmCspIpState@@6B@      10001078     CmCspIpApi.obj
+ 0001:000000a0       ?Refresh@AdapterAddresses@@QAAKXZ 100010a0 f i CmCspIpApi.obj
+ 0001:000002e4       CmCspCompareConnectionConfig 100012e4 f   CmCspIpApi.obj
+ 0001:00000318       CmCspGetTypeSpecificInfo   10001318 f   CmCspIpApi.obj
+ 0001:00000320       CmCspSetDataActivityState  10001320 f   CmCspIpApi.obj
+ 0001:00000328       ?_Buynode@?$list@UConnection@CmCspIpState@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@UConnection@CmCspIpState@@@list_impl@2@PAU342@@Z 10001328 f i CmCspIpApi.obj
+ 0001:00000374       ??1AddrChangeListener@@QAA@XZ 10001374 f i CmCspIpApi.obj
+ 0001:000003d4       ?HandleIpAddrChange@AddrChangeListener@@UAAXXZ 100013d4 f i CmCspIpApi.obj
+ 0001:000003d8       ?IsOk@AddrChangeListener@@QAA_NXZ 100013d8 f i CmCspIpApi.obj
+ 0001:00000414       ?Thread@AddrChangeListener@@AAAXXZ 10001414 f i CmCspIpApi.obj
+ 0001:00000568       ?ThreadThunk@AddrChangeListener@@CAKPAX@Z 10001568 f i CmCspIpApi.obj
+ 0001:00000580       ?UpdateStateBasedOnAddr@CmCspIpState@@AAAXV?$iterator@UConnection@CmCspIpState@@@list_impl@ce@@PAVAdapterAddresses@@_N@Z 10001580 f i CmCspIpApi.obj
+ 0001:000006a8       ?get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ 100016a8 f i CmCspIpApi.obj
+ 0001:000006fc       ?erase@?$list@UConnection@CmCspIpState@@Vallocator@ce@@@ce@@QAA?AV?$iterator@UConnection@CmCspIpState@@@list_impl@2@V342@@Z 100016fc f i CmCspIpApi.obj
+ 0001:00000758       ??0AddrChangeListener@@QAA@XZ 10001758 f i CmCspIpApi.obj
+ 0001:000007fc       ?erase@?$list@UConnection@CmCspIpState@@Vallocator@ce@@@ce@@QAA?AV?$iterator@UConnection@CmCspIpState@@@list_impl@2@V342@0@Z 100017fc f i CmCspIpApi.obj
+ 0001:00000854       ??$insert@UConnection@CmCspIpState@@@?$list@UConnection@CmCspIpState@@Vallocator@ce@@@ce@@QAA?AV?$iterator@UConnection@CmCspIpState@@@list_impl@1@V231@ABUConnection@CmCspIpState@@@Z 10001854 f i CmCspIpApi.obj
+ 0001:000008a8       ?FindConnectionWorker@CmCspIpState@@AAA?AV?$iterator@UConnection@CmCspIpState@@@list_impl@ce@@PBG0@Z 100018a8 f i CmCspIpApi.obj
+ 0001:00000920       ??0CmCspIpState@@QAA@P6AXQBUCM_CSP_NOTIFICATION@@KK@ZK@Z 10001920 f i CmCspIpApi.obj
+ 0001:0000097c       ?HandleIpAddrChange@CmCspIpState@@UAAXXZ 1000197c f i CmCspIpApi.obj
+ 0001:00000a08       ?ClaimConnection@CmCspIpState@@QAA?AW4CM_RESULT@@PAG0@Z 10001a08 f i CmCspIpApi.obj
+ 0001:00000b68       ?IsKnownConnection@CmCspIpState@@QAA_NPBG@Z 10001b68 f i CmCspIpApi.obj
+ 0001:00000bc0       ?GetState@CmCspIpState@@QAA_NPAGPAW4CM_CONNECTION_STATE@@@Z 10001bc0 f i CmCspIpApi.obj
+ 0001:00000c38       ?GetAdapterName@CmCspIpState@@QAA_NPAGPAPAG@Z 10001c38 f i CmCspIpApi.obj
+ 0001:00000cb0       CmCspInitialize            10001cb0 f   CmCspIpApi.obj
+ 0001:00000d88       ?CmCspAddConnectionConfig@@YA?AW4CM_RESULT@@PAGU_GUID@@PAEK@Z 10001d88 f   CmCspIpApi.obj
+ 0001:00000de8       ?CmCspGetConnectionConfig@@YA?AW4CM_RESULT@@PAGPAEPAK@Z 10001de8 f   CmCspIpApi.obj
+ 0001:00000e10       CmCspUpdateConnectionConfig 10001e10 f   CmCspIpApi.obj
+ 0001:00000e38       ?CmCspDeleteConnectionConfig@@YA?AW4CM_RESULT@@PAG@Z 10001e38 f   CmCspIpApi.obj
+ 0001:00000e60       CmCspGetResource           10001e60 f   CmCspIpApi.obj
+ 0001:00000e88       ?CmCspConnect@@YA?AW4CM_RESULT@@PAGK0@Z 10001e88 f   CmCspIpApi.obj
+ 0001:00000eb0       CmCspDisconnect            10001eb0 f   CmCspIpApi.obj
+ 0001:00000ee0       CmCspGetConnectionInfo     10001ee0 f   CmCspIpApi.obj
+ 0001:00000ffc       CmCspClaimConnection       10001ffc f   CmCspIpApi.obj
+ 0001:00001014       ??_GCmCspIpState@@QAAPAXI@Z 10002014 f i CmCspIpApi.obj
+ 0001:00001060       CmCspDeinitialize          10002060 f   CmCspIpApi.obj
+ 0001:00001080       DllMain                    10002080 f   CmCspIpMain.obj
+ 0001:00001094       EventModify                10002094 f   coredll:COREDLL.dll
+ 0001:000010a4       InitializeCriticalSection  100020a4 f   coredll:COREDLL.dll
+ 0001:000010b4       DeleteCriticalSection      100020b4 f   coredll:COREDLL.dll
+ 0001:000010c4       EnterCriticalSection       100020c4 f   coredll:COREDLL.dll
+ 0001:000010d4       LeaveCriticalSection       100020d4 f   coredll:COREDLL.dll
+ 0001:000010e4       CloseHandle                100020e4 f   coredll:COREDLL.dll
+ 0001:000010f4       WaitForSingleObject        100020f4 f   coredll:COREDLL.dll
+ 0001:00001104       WaitForMultipleObjects     10002104 f   coredll:COREDLL.dll
+ 0001:00001114       StringCchCopyW             10002114 f   coredll:COREDLL.dll
+ 0001:00001124       StringCchPrintfW           10002124 f   coredll:COREDLL.dll
+ 0001:00001134       CreateThread               10002134 f   coredll:COREDLL.dll
+ 0001:00001144       CreateEventW               10002144 f   coredll:COREDLL.dll
+ 0001:00001154       DisableThreadLibraryCalls  10002154 f   coredll:COREDLL.dll
+ 0001:00001164       inet_addr                  10002164 f   ws2:WS2.dll
+ 0001:00001174       WSACloseEvent              10002174 f   ws2:WS2.dll
+ 0001:00001184       closesocket                10002184 f   ws2:WS2.dll
+ 0001:00001194       WSAEnumNetworkEvents       10002194 f   ws2:WS2.dll
+ 0001:000011a4       WSAGetLastError            100021a4 f   ws2:WS2.dll
+ 0001:000011b4       WSAIoctl                   100021b4 f   ws2:WS2.dll
+ 0001:000011c4       WSAEventSelect             100021c4 f   ws2:WS2.dll
+ 0001:000011d4       socket                     100021d4 f   ws2:WS2.dll
+ 0001:000011e4       WSACreateEvent             100021e4 f   ws2:WS2.dll
+ 0001:000011f4       GetAdaptersAddresses       100021f4 f   iphlpapi:iphlpapi.dll
+ 0001:000012fc       _DllMainCRTStartup         100022fc f   corelib0:pegdmain.obj
+ 0001:00001328       __GSHandlerCheckCommon     10002328 f   corelib0:gshandler.obj
+ 0001:00001364       __GSHandlerCheck           10002364 f   corelib0:gshandler.obj
+ 0001:00001384       __security_init_cookie     10002384 f   corelib0:seccinit.obj
+ 0001:000013d0       __security_check_cookie    100023d0 f   corelib0:armsecgs.obj
+ 0001:000013e0       __gsfailure                100023e0     corelib0:armsecgs.obj
+ 0001:0000142c       _onexit                    1000242c f   corelib0:onexit.obj
+ 0001:000015b0       atexit                     100025b0 f   corelib0:onexit.obj
+ 0001:000016b0       _cexit                     100026b0 f   corelib0:cexit.obj
+ 0001:000016c0       _initterm                  100026c0 f   corelib0:crt0dat.obj
+ 0001:000016ec       _cinit                     100026ec f   corelib0:crt0dat.obj
+ 0001:0000174c       __crt_ExitProcess          1000274c f   corelib0:exitproc_proxy.obj
+ 0001:00001758       ??2@YAPAXI@Z               10002758 f   corelib1:COREDLL.dll
+ 0001:00001768       ??3@YAXPAX@Z               10002768 f   corelib1:COREDLL.dll
+ 0001:00001778       free                       10002778 f   corelib1:COREDLL.dll
+ 0001:00001788       malloc                     10002788 f   corelib1:COREDLL.dll
+ 0001:00001798       mbstowcs_s                 10002798 f   corelib1:COREDLL.dll
+ 0001:000017a8       wcscmp                     100027a8 f   corelib1:COREDLL.dll
+ 0001:000017b8       memcpy                     100027b8 f   corelib1:COREDLL.dll
+ 0001:000017c8       _XcptFilter                100027c8 f   corelib1:COREDLL.dll
+ 0001:000017d8       __C_specific_handler       100027d8 f   corelib1:COREDLL.dll
+ 0001:000017e8       __security_gen_cookie2     100027e8 f   corelib1:COREDLL.dll
+ 0001:000017f8       __report_gsfailure         100027f8 f   corelib1:COREDLL.dll
+ 0001:00001808       realloc                    10002808 f   corelib1:COREDLL.dll
+ 0001:00001818       _msize                     10002818 f   corelib1:COREDLL.dll
+ 0001:00001828       InterlockedCompareExchange 10002828 f   coredll:COREDLL.dll
+ 0001:00001838       InterlockedExchange        10002838 f   coredll:COREDLL.dll
+ 0001:00001848       TerminateProcess           10002848 f   coredll:COREDLL.dll
+ 0001:0000185c       ??__Fcs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@YAXXZ 1000285c f i CmCspIpApi.obj
+ 0001:000018a4       __IMPORT_DESCRIPTOR_COREDLL 100028a4     coredll:COREDLL.dll
+ 0001:000018b8       __IMPORT_DESCRIPTOR_WS2    100028b8     ws2:WS2.dll
+ 0001:000018cc       __IMPORT_DESCRIPTOR_iphlpapi 100028cc     iphlpapi:iphlpapi.dll
+ 0001:000018e0       __NULL_IMPORT_DESCRIPTOR   100028e0     coredll:COREDLL.dll
+ 0002:00000000       __imp_EventModify          10003000     coredll:COREDLL.dll
+ 0002:00000004       __imp_InitializeCriticalSection 10003004     coredll:COREDLL.dll
+ 0002:00000008       __imp_DeleteCriticalSection 10003008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_EnterCriticalSection 1000300c     coredll:COREDLL.dll
+ 0002:00000010       __imp_LeaveCriticalSection 10003010     coredll:COREDLL.dll
+ 0002:00000014       __imp_CloseHandle          10003014     coredll:COREDLL.dll
+ 0002:00000018       __imp_WaitForSingleObject  10003018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_WaitForMultipleObjects 1000301c     coredll:COREDLL.dll
+ 0002:00000020       __imp_StringCchCopyW       10003020     coredll:COREDLL.dll
+ 0002:00000024       __imp_StringCchPrintfW     10003024     coredll:COREDLL.dll
+ 0002:00000028       __imp_CreateThread         10003028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_CreateEventW         1000302c     coredll:COREDLL.dll
+ 0002:00000030       __imp_DisableThreadLibraryCalls 10003030     coredll:COREDLL.dll
+ 0002:00000034       __imp_InterlockedExchange  10003034     coredll:COREDLL.dll
+ 0002:00000038       __imp_InterlockedCompareExchange 10003038     coredll:COREDLL.dll
+ 0002:0000003c       __imp__msize               1000303c     corelib1:COREDLL.dll
+ 0002:00000040       __imp_realloc              10003040     corelib1:COREDLL.dll
+ 0002:00000044       __imp___report_gsfailure   10003044     corelib1:COREDLL.dll
+ 0002:00000048       __imp___security_gen_cookie2 10003048     corelib1:COREDLL.dll
+ 0002:0000004c       __imp___C_specific_handler 1000304c     corelib1:COREDLL.dll
+ 0002:00000050       __imp_TerminateProcess     10003050     coredll:COREDLL.dll
+ 0002:00000054       __imp__XcptFilter          10003054     corelib1:COREDLL.dll
+ 0002:00000058       __imp_memcpy               10003058     corelib1:COREDLL.dll
+ 0002:0000005c       __imp_wcscmp               1000305c     corelib1:COREDLL.dll
+ 0002:00000060       __imp_mbstowcs_s           10003060     corelib1:COREDLL.dll
+ 0002:00000064       __imp_??2@YAPAXI@Z         10003064     corelib1:COREDLL.dll
+ 0002:00000068       __imp_??3@YAXPAX@Z         10003068     corelib1:COREDLL.dll
+ 0002:0000006c       __imp_free                 1000306c     corelib1:COREDLL.dll
+ 0002:00000070       __imp_malloc               10003070     corelib1:COREDLL.dll
+ 0002:00000074       \177COREDLL_NULL_THUNK_DATA 10003074     coredll:COREDLL.dll
+ 0002:00000078       __imp_WSAGetLastError      10003078     ws2:WS2.dll
+ 0002:0000007c       __imp_inet_addr            1000307c     ws2:WS2.dll
+ 0002:00000080       __imp_WSACreateEvent       10003080     ws2:WS2.dll
+ 0002:00000084       __imp_WSAEventSelect       10003084     ws2:WS2.dll
+ 0002:00000088       __imp_WSAIoctl             10003088     ws2:WS2.dll
+ 0002:0000008c       __imp_socket               1000308c     ws2:WS2.dll
+ 0002:00000090       __imp_WSAEnumNetworkEvents 10003090     ws2:WS2.dll
+ 0002:00000094       __imp_closesocket          10003094     ws2:WS2.dll
+ 0002:00000098       __imp_WSACloseEvent        10003098     ws2:WS2.dll
+ 0002:0000009c       \177WS2_NULL_THUNK_DATA    1000309c     ws2:WS2.dll
+ 0002:000000a0       __imp_GetAdaptersAddresses 100030a0     iphlpapi:iphlpapi.dll
+ 0002:000000a4       \177iphlpapi_NULL_THUNK_DATA 100030a4     iphlpapi:iphlpapi.dll
+ 0002:000000a8       __security_cookie          100030a8     corelib0:seccinit.obj
+ 0002:000000ac       __security_cookie_complement 100030ac     corelib0:seccinit.obj
+ 0002:000000b0       ?g_pState@@3PAVCmCspIpState@@A 100030b0     CmCspIpApi.obj
+ 0002:000000b4       ??_B?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@51 100030b4     CmCspIpApi.obj
+ 0002:000000b8       ?cs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@3@XZ@4V43@A 100030b8     CmCspIpApi.obj
+ 0002:000000cc       ?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A 100030cc     CmCspIpApi.obj
+ 0002:000000cd       _exitflag                  100030cd     corelib0:cexit.obj
+ 0002:000000d0       __onexitend                100030d0     <common>
+ 0002:000000d4       __onexitbegin              100030d4     <common>
+ 0002:000000d8       g_pcsExit                  100030d8     <common>
+ 0002:000000dc       _pRawDllMain               100030dc     <common>
+
+ entry point at        0001:000012fc
+
+ Static symbols
+
+ 0001:00000190       ?GetDtptAdapterName@@YAKPAGI@Z 10001190 f   CmCspIpApi.obj
+ 0001:0000120c       _DllMainCRTStartupHelper   1000220c f   corelib0:pegdmain.obj
+ 0001:000015c8       doexit                     100025c8 f   corelib0:cexit.obj
+ 0001:00001858       ??__E?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A@@YAXXZ 10002858 f   CmCspIpApi.obj

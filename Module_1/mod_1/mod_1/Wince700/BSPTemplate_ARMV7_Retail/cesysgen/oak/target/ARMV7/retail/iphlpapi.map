@@ -1,0 +1,648 @@
+ iphlpapi
+
+ Timestamp is 5cafa2b8 (Thu Apr 11 13:25:28 2019)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 00000780H .rdata                  CODE
+ 0001:000007a0 00000025H .rdata$debug            CODE
+ 0001:000007c8 00013458H .text                   CODE
+ 0001:00013c20 000000fcH .xdata                  CODE
+ 0001:00013d1c 00000064H .idata$2                CODE
+ 0001:00013d80 00000014H .idata$3                CODE
+ 0001:00013d94 00000144H .idata$4                CODE
+ 0001:00013ed8 000001b4H .idata$6                CODE
+ 0001:00014090 0000140dH .edata                  CODE
+ 0002:00000000 00000144H .idata$5                DATA
+ 0002:00000148 000004a8H .data                   DATA
+ 0002:00000600 00000064H .bss                    DATA
+ 0003:00000000 00000ae0H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:0000003c       ??_C@_03MIIGHJO@?$CFls?$AA@ 1000103c     dhcp.obj
+ 0001:00000040       ??_C@_1CE@JDPECDEI@?$AAL?$AAe?$AAa?$AAs?$AAe?$AAO?$AAb?$AAt?$AAa?$AAi?$AAn?$AAe?$AAd?$AAH?$AAi?$AAg?$AAh?$AA?$AA@ 10001040     dhcp.obj
+ 0001:00000064       ??_C@_1CC@BBACKMMN@?$AAL?$AAe?$AAa?$AAs?$AAe?$AAO?$AAb?$AAt?$AAa?$AAi?$AAn?$AAe?$AAd?$AAL?$AAo?$AAw?$AA?$AA@ 10001064     dhcp.obj
+ 0001:00000088       ??_C@_1M@BLICNEKO@?$AAL?$AAe?$AAa?$AAs?$AAe?$AA?$AA@ 10001088     dhcp.obj
+ 0001:00000094       ??_C@_1BG@GPKEPLMJ@?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AAD?$AAH?$AAC?$AAP?$AA?$AA@ 10001094     dhcp.obj
+ 0001:000000ac       ??_C@_1DC@CFLOFLHG@?$AAD?$AAh?$AAc?$AAp?$AAv?$AA6?$AAM?$AAa?$AAx?$AAL?$AAe?$AAa?$AAs?$AAe?$AAE?$AAx?$AAp?$AAi?$AAr?$AAe?$AAT?$AAi?$AAm?$AAe?$AA?$AA@ 100010ac     dhcp.obj
+ 0001:000000e0       ??_C@_1DA@MGEPBBPI@?$AAD?$AAh?$AAc?$AAp?$AAv?$AA6?$AAL?$AAe?$AAa?$AAs?$AAe?$AAO?$AAb?$AAt?$AAa?$AAi?$AAn?$AAe?$AAd?$AAT?$AAi?$AAm?$AAe?$AA?$AA@ 100010e0     dhcp.obj
+ 0001:00000110       ??_C@_1CI@CIHFIIAP@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AA?$CF?$AAS?$AA?2?$AAP?$AAa?$AAr?$AAm?$AAs?$AA?2?$AAT?$AAc?$AAp?$AAi?$AAp?$AA?$AA@ 10001110     dhcp.obj
+ 0001:00000138       ??_C@_1BK@KNIJHBDI@?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AAD?$AAH?$AAC?$AAP?$AAv?$AA6?$AA?$AA@ 10001138     dhcp.obj
+ 0001:00000154       ??_C@_1CE@PNBDFFDN@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAT?$AAc?$AAp?$AAi?$AAp?$AA6?$AA?2?$AAP?$AAa?$AAr?$AAm?$AAs?$AA?$AA@ 10001154     dhcp.obj
+ 0001:00000178       ??_C@_1BG@POMCNLPN@?$AAD?$AAh?$AAc?$AAp?$AAv?$AA6?$AAD?$AAU?$AAI?$AAD?$AA?$AA@ 10001178     dhcp.obj
+ 0001:00000190       ??_C@_1BG@KNCFKHMC@?$AAD?$AAh?$AAc?$AAp?$AAv?$AA6?$AAI?$AAa?$AAi?$AAd?$AA?$AA@ 10001190     dhcp.obj
+ 0001:000001a8       ??_C@_1BG@ELNKLAEO@?$AAD?$AAh?$AAc?$AAp?$AAS?$AAe?$AAr?$AAv?$AAe?$AAr?$AA?$AA@ 100011a8     dhcp.obj
+ 0001:000001c0       ??_C@_1BO@CCBMBJDK@?$AAD?$AAh?$AAc?$AAp?$AAS?$AAu?$AAb?$AAn?$AAe?$AAt?$AAM?$AAa?$AAs?$AAk?$AA?$AA@ 100011c0     dhcp.obj
+ 0001:000001e0       ??_C@_1BM@JIOBENHN@?$AAD?$AAh?$AAc?$AAp?$AAI?$AAP?$AAA?$AAd?$AAd?$AAr?$AAe?$AAs?$AAs?$AA?$AA@ 100011e0     dhcp.obj
+ 0001:000001fc       ??_C@_1BG@DBEMDDJH@?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AAD?$AAh?$AAc?$AAp?$AA?$AA@ 100011fc     dhcp.obj
+ 0001:00000214       ??_C@_1CK@NPGGOONC@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AA?$CF?$AAh?$AAs?$AA?2?$AAP?$AAa?$AAr?$AAm?$AAs?$AA?2?$AAT?$AAc?$AAp?$AAI?$AAp?$AA?$AA@ 10001214     dhcp.obj
+ 0001:00000240       ??_C@_1CC@MHBLPAI@?$AAD?$AAh?$AAc?$AAp?$AAV?$AA6?$AAD?$AAo?$AAm?$AAa?$AAi?$AAn?$AAL?$AAi?$AAs?$AAt?$AA?$AA@ 10001240     dns.obj
+ 0001:00000264       ??_C@_1BE@HGNFMJIF@?$AAD?$AAh?$AAc?$AAp?$AAV?$AA6?$AAD?$AAN?$AAS?$AA?$AA@ 10001264     dns.obj
+ 0001:00000278       ??_C@_17NLOACHNB@?$AAD?$AAN?$AAS?$AA?$AA@ 10001278     dns.obj
+ 0001:00000280       ??_C@_1BA@LODHKDOP@?$AAD?$AAh?$AAc?$AAp?$AAD?$AAN?$AAS?$AA?$AA@ 10001280     dns.obj
+ 0001:00000290       ??_C@_1BG@KFONOGAO@?$AAS?$AAe?$AAa?$AAr?$AAc?$AAh?$AAL?$AAi?$AAs?$AAt?$AA?$AA@ 10001290     dns.obj
+ 0001:000002a8       ??_C@_1BK@KLCFLBCD@?$AAD?$AAh?$AAc?$AAp?$AAv?$AA6?$AAD?$AAo?$AAm?$AAa?$AAi?$AAn?$AA?$AA@ 100012a8     dns.obj
+ 0001:000002c4       ??_C@_1BG@GPEEAEII@?$AAD?$AAh?$AAc?$AAp?$AAD?$AAo?$AAm?$AAa?$AAi?$AAn?$AA?$AA@ 100012c4     dns.obj
+ 0001:000002dc       ??_C@_1O@OAMNPMOM@?$AAD?$AAo?$AAm?$AAa?$AAi?$AAn?$AA?$AA@ 100012dc     dns.obj
+ 0001:000002f0       ??_C@_1GI@LBPPMOKF@?$AA?$HL?$AA?$CF?$AA0?$AA8?$AAl?$AAX?$AA?9?$AA?$CF?$AA0?$AA4?$AAX?$AA?9?$AA?$CF?$AA0?$AA4?$AAX?$AA?9?$AA?$CF?$AA0?$AA2?$AAX?$AA?$CF?$AA0?$AA2?$AAX?$AA?9?$AA?$CF?$AA0?$AA2?$AAX?$AA?$CF?$AA0@ 100012f0     ifmib.obj
+ 0001:00000358       ??_C@_0DE@CPOIMBCH@?$HL?$CF08lX?9?$CF04X?9?$CF04X?9?$CF02X?$CF02X?9?$CF02X?$CF0@ 10001358     ifmib.obj
+ 0001:0000038c       ??_C@_15MAOEGKJF@?$AA?$CF?$AAS?$AA?$AA@ 1000138c     ifmib.obj
+ 0001:00000394       ??_C@_02KPKOKMHB@?$CFS?$AA@ 10001394     ifmib.obj
+ 0001:00000398       ??_C@_11LOCGONAA@?$AA?$AA@ 10001398     ifmib.obj
+ 0001:0000039c       ??_C@_15GANGMFKL@?$AA?$CF?$AAs?$AA?$AA@ 1000139c     ifmib.obj
+ 0001:000003a4       NeighborStateToMibState    100013a4     ipmib.obj
+ 0001:000003c0       ??_C@_1CK@EJMJGFKG@?$AAI?$AAP?$AA_?$AAA?$AAD?$AAD?$AAR?$AA_?$AAC?$AAH?$AAA?$AAN?$AAG?$AAE?$AA_?$AAE?$AAV?$AAE?$AAN?$AAT?$AA?$AA@ 100013c0     ipmib.obj
+ 0001:000003ec       ??_C@_1CM@DOHKENEI@?$AAI?$AAP?$AA_?$AAR?$AAO?$AAU?$AAT?$AAE?$AA_?$AAC?$AAH?$AAA?$AAN?$AAG?$AAE?$AA_?$AAE?$AAV?$AAE?$AAN?$AAT?$AA?$AA@ 100013ec     ipmib.obj
+ 0001:00000418       ??_C@_1M@JEDAHBLI@?$AAD?$AAP?$AA4?$AA0?$AA?3?$AA?$AA@ 10001418     ipmib.obj
+ 0001:00000534       ??_C@_0M@CDHNGIPM@?$CFu?4?$CFu?4?$CFu?4?$CFu?$AA@ 10001534     wce.obj
+ 0001:00000540       ??_C@_17LGGGMOOB@?$AA?$CF?$AAh?$AAs?$AA?$AA@ 10001540     wce.obj
+ 0001:00000548       ??_C@_1BC@EIIEHLAL@?$AAw?$AAi?$AAr?$AAe?$AAl?$AAe?$AAs?$AAs?$AA?$AA@ 10001548     netioapi:convert.obj
+ 0001:0000055c       ??_C@_1O@ECOIBMJK@?$AAt?$AAu?$AAn?$AAn?$AAe?$AAl?$AA?$AA@ 1000155c     netioapi:convert.obj
+ 0001:0000056c       ??_C@_1BE@GDCBAPOG@?$AAt?$AAo?$AAk?$AAe?$AAn?$AAr?$AAi?$AAn?$AAg?$AA?$AA@ 1000156c     netioapi:convert.obj
+ 0001:00000580       ??_C@_17FGJABMFL@?$AAp?$AAp?$AAp?$AA?$AA@ 10001580     netioapi:convert.obj
+ 0001:00000588       ??_C@_1M@LLEPKCPL@?$AAo?$AAt?$AAh?$AAe?$AAr?$AA?$AA@ 10001588     netioapi:convert.obj
+ 0001:00000594       ??_C@_1BC@IBGKKIOA@?$AAl?$AAo?$AAo?$AAp?$AAb?$AAa?$AAc?$AAk?$AA?$AA@ 10001594     netioapi:convert.obj
+ 0001:000005a8       ??_C@_1BC@KMPEMOMJ@?$AAi?$AAe?$AAe?$AAe?$AA1?$AA3?$AA9?$AA4?$AA?$AA@ 100015a8     netioapi:convert.obj
+ 0001:000005bc       ??_C@_1BC@BEEOKCJC@?$AAe?$AAt?$AAh?$AAe?$AAr?$AAn?$AAe?$AAt?$AA?$AA@ 100015bc     netioapi:convert.obj
+ 0001:000005d0       ??_C@_17NPGDOALK@?$AAa?$AAt?$AAm?$AA?$AA@ 100015d0     netioapi:convert.obj
+ 0001:000005d8       InterfaceNickTable         100015d8     netioapi:convert.obj
+ 0001:00000620       ??_C@_1O@IAMHJKBA@?$AAi?$AAf?$AAt?$AAy?$AAp?$AAe?$AA?$AA@ 10001620     netioapi:convert.obj
+ 0001:00000630       ??_C@_1M@JOEAIOKC@?$AA?$CF?$AAs?$AA_?$AA?$CF?$AAu?$AA?$AA@ 10001630     netioapi:convert.obj
+ 0001:0000063c       ??_C@_1BC@MCBOGMDL@?$AAi?$AAf?$AAt?$AAy?$AAp?$AAe?$AA?$CF?$AAu?$AA?$AA@ 1000163c     netioapi:convert.obj
+ 0001:00000650       NeighborKeySizeTable       10001650     netioapi:neighbor.obj
+ 0001:00000658       FamilyTable                10001658     netioapi:path.obj
+ 0001:0000065c       PathKeySizeTable           1000165c     netioapi:path.obj
+ 0001:00000664       PathRodSizeTable           10001664     netioapi:path.obj
+ 0001:0000066c       NPI_MS_IPV4_MODULEID       1000166c     uuidnet:msmodid.obj
+ 0001:00000684       NPI_MS_IPV6_MODULEID       10001684     uuidnet:msmodid.obj
+ 0001:0000069c       NPI_MS_UDP_MODULEID        1000169c     uuidnet:msmodid.obj
+ 0001:000006b4       NPI_MS_TCP_MODULEID        100016b4     uuidnet:msmodid.obj
+ 0001:000006cc       NPI_MS_NDIS_MODULEID       100016cc     uuidnet:msmodid.obj
+ 0001:000006e4       NPI_MS_FL6T_MODULEID       100016e4     uuidnet:msmodid.obj
+ 0001:000006fc       scopeid_unspecified        100016fc     msnetioid:indef.obj
+ 0001:00000700       in4addr_any                10001700     msnetioid:indef.obj
+ 0001:00000704       in4addr_broadcast          10001704     msnetioid:indef.obj
+ 0001:00000708       in6addr_v4mappedprefix     10001708     msnetioid:indef.obj
+ 0001:00000718       in6addr_teredoprefix       10001718     msnetioid:indef.obj
+ 0001:00000728       GuidFormat                 10001728     vcompat:rtlmisc.obj
+ 0001:00000790       RtlpIntegerChars           10001790     vcompat:rtlmisc.obj
+ 0001:000007c8       DllMain                    100017c8 f   dllmain.obj
+ 0001:00000860       ?ValueSZ@CReg@@QAAPBGPBG@Z 10001860 f i dhcp.obj
+ 0001:00000944       ?ValueDW@CReg@@QAAKPBGK@Z  10001944 f i dhcp.obj
+ 0001:00000990       ConvertFileTimeToTimeT     10001990 f   dhcp.obj
+ 0001:000009f0       GetDhcpV4Lease             100019f0 f   dhcp.obj
+ 0001:00000ad8       GetDhcpV6Lease             10001ad8 f   dhcp.obj
+ 0001:00000c1c       AddDhcpConfiguration       10001c1c f   dhcp.obj
+ 0001:00000e24       ?Open@CReg@@QAAHPAUHKEY__@@PBGK@Z 10001e24 f i dhcp.obj
+ 0001:00000e94       AddDhcpInfo                10001e94 f   dhcp.obj
+ 0001:0000108c       MALLOC                     1000208c f i dns.obj
+ 0001:000010c8       RegQueryStringValueW       100020c8 f i dns.obj
+ 0001:00001150       RtlIpStringToAddressW      10002150 f i dns.obj
+ 0001:000011c0       OpenAdapterKey             100021c0 f   dns.obj
+ 0001:00001244       GetDnsServersStringW       10002244 f   dns.obj
+ 0001:000012ec       CE_GetDnsSuffixStringV6    100022ec f   dns.obj
+ 0001:000013f0       GetDnsSuffixString         100023f0 f   dns.obj
+ 0001:000014d8       AddStaticDnsSearchListToAdapter 100024d8 f   dns.obj
+ 0001:00001620       AddDnsServerAddressesToAdapter 10002620 f   dns.obj
+ 0001:00001758       AddDnsGlobalsToAdapter     10002758 f   dns.obj
+ 0001:00001888       AddDnsConfiguration        10002888 f   dns.obj
+ 0001:00001918       AddDnsServerAddressInfo    10002918 f   dns.obj
+ 0001:00001990       AllocateAndGetFixedInfo    10002990 f   dns.obj
+ 0001:00001aa0       GetNetworkParams           10002aa0 f   dns.obj
+ 0001:00001b68       AllocateAndGetPerAdapterInfo 10002b68 f   dns.obj
+ 0001:00001db4       GetPerAdapterInfo          10002db4 f   dns.obj
+ 0001:00001e74       IsIpv4Interface            10002e74 f i ifmib.obj
+ 0001:00001eec       ConvertGuidToStringW       10002eec f   ifmib.obj
+ 0001:00001fc0       ConvertGuidToStringA       10002fc0 f   ifmib.obj
+ 0001:00002094       ConvertStringToGuidW       10003094 f   ifmib.obj
+ 0001:000020ec       ConvertStringToGuidA       100030ec f   ifmib.obj
+ 0001:00002198       GetNumberOfInterfaces      10003198 f   ifmib.obj
+ 0001:00002214       FillIfEntry                10003214 f   ifmib.obj
+ 0001:000023d4       GetIfEntry                 100033d4 f   ifmib.obj
+ 0001:000024b4       CompareMibIfRow            100034b4 f   ifmib.obj
+ 0001:000024c4       GetIfTable                 100034c4 f   ifmib.obj
+ 0001:0000269c       SetIfEntry                 1000369c f   ifmib.obj
+ 0001:00002718       GetInterfaceInfo           10003718 f   ifmib.obj
+ 0001:00002918       CompareIpInterfaceNameInfo 10003918 f   ifmib.obj
+ 0001:00002928       AllocateAndGetInterfaceInfoFromStack 10003928 f   ifmib.obj
+ 0001:00002b14       GetAdapterIndex            10003b14 f   ifmib.obj
+ 0001:00002b6c       GetAdapterOrderMap         10003b6c f   ifmib.obj
+ 0001:00002c60       GetFriendlyIfIndex         10003c60 f   ifmib.obj
+ 0001:00002c68       NhGetInterfaceNameFromGuid 10003c68 f   ifmib.obj
+ 0001:00002cb0       NhGetGuidFromInterfaceName 10003cb0 f   ifmib.obj
+ 0001:00002ce4       NhGetInterfaceDescriptionFromGuid 10003ce4 f   ifmib.obj
+ 0001:00002de8       InternalGetTable           10003de8 f   internal.obj
+ 0001:00002eb0       AllocateAndGetIpAddrTableFromStack 10003eb0 f   internal.obj
+ 0001:00002ed8       AllocateAndGetIfTableFromStack 10003ed8 f   internal.obj
+ 0001:00002f00       SetAdapterIpAddress        10003f00 f   internal.obj
+ 0001:00002f08       CompareMibIpAddrRow        10003f08 f   ipmib.obj
+ 0001:00002f10       GetIpAddrTable             10003f10 f   ipmib.obj
+ 0001:0000316c       CompareMibIpNetRow         1000416c f   ipmib.obj
+ 0001:00003194       GetIpNetTable              10004194 f   ipmib.obj
+ 0001:0000340c       GetInterfaceMetric         1000440c f i ipmib.obj
+ 0001:0000345c       GetInterfaceOperStatus     1000445c f i ipmib.obj
+ 0001:000034ac       GetIpForwardTable          100044ac f   ipmib.obj
+ 0001:000038e4       GetIpStatisticsEx          100048e4 f   ipmib.obj
+ 0001:00003b3c       GetIpStatistics            10004b3c f   ipmib.obj
+ 0001:00003b44       GetIcmpStatisticsEx        10004b44 f   ipmib.obj
+ 0001:00003c08       GetIcmpStatsFromIcmpStatsEx 10004c08 f   ipmib.obj
+ 0001:00003c74       GetIcmpStatistics          10004c74 f   ipmib.obj
+ 0001:00003cbc       CreateOrSetIpForwardEntry  10004cbc f   ipmib.obj
+ 0001:00003de8       CreateIpForwardEntry       10004de8 f   ipmib.obj
+ 0001:00003df0       SetIpForwardEntry          10004df0 f   ipmib.obj
+ 0001:00003df8       DeleteIpForwardEntry       10004df8 f   ipmib.obj
+ 0001:00003eb0       SetIpStatisticsEx          10004eb0 f   ipmib.obj
+ 0001:00003f80       SetIpTTL                   10004f80 f   ipmib.obj
+ 0001:00003fec       CreateOrSetIpNetEntry      10004fec f   ipmib.obj
+ 0001:00004150       CreateIpNetEntry           10005150 f   ipmib.obj
+ 0001:00004158       SetIpNetEntry              10005158 f   ipmib.obj
+ 0001:00004160       DeleteIpNetEntry           10005160 f   ipmib.obj
+ 0001:00004204       FlushIpNetTable            10005204 f   ipmib.obj
+ 0001:0000427c       ResolveNeighbor            1000527c f   ipmib.obj
+ 0001:0000428c       SendARP                    1000528c f   ipmib.obj
+ 0001:00004370       SetProxyArpEntry           10005370 f   ipmib.obj
+ 0001:00004414       CreateProxyArpEntry        10005414 f   ipmib.obj
+ 0001:0000441c       DeleteProxyArpEntry        1000541c f   ipmib.obj
+ 0001:00004424       GetUniDirectionalAdapterInfo 10005424 f   ipmib.obj
+ 0001:0000456c       GetBestRoute               1000556c f   ipmib.obj
+ 0001:000046c8       NotifyXxxChange            100056c8 f   ipmib.obj
+ 0001:00004744       NotifyAddrChange           10005744 f   ipmib.obj
+ 0001:00004750       NotifyRouteChange          10005750 f   ipmib.obj
+ 0001:0000475c       CancelIPChangeNotify       1000575c f   ipmib.obj
+ 0001:00004764       AddIPAddress               10005764 f   ipmib.obj
+ 0001:00004854       DeleteIPAddress            10005854 f   ipmib.obj
+ 0001:00004938       DhcpIoctl                  10005938 f i ipmib.obj
+ 0001:000049ec       IpReleaseAddress           100059ec f   ipmib.obj
+ 0001:00004a64       IpRenewAddress             10005a64 f   ipmib.obj
+ 0001:00004ad4       EnableRouter               10005ad4 f   ipmib.obj
+ 0001:00004b38       UnenableRouter             10005b38 f   ipmib.obj
+ 0001:00004ba8       DisableMediaSense          10005ba8 f   ipmib.obj
+ 0001:00004bb0       RestoreMediaSense          10005bb0 f   ipmib.obj
+ 0001:00004bb8       SetIpStatistics            10005bb8 f   ipmib.obj
+ 0001:00004bc0       Icmpv4ErrorToIpStatus      10005bc0 f i ping.obj
+ 0001:00004c6c       Icmpv6ErrorToIpStatus      10005c6c f i ping.obj
+ 0001:00004d04       NtStatusToIpStatus         10005d04 f i ping.obj
+ 0001:00004dc8       IcmpDestroyEchoRequestContext 10005dc8 f   ping.obj
+ 0001:00004e00       IcmpCloseHandle            10005e00 f   ping.obj
+ 0001:00004f88       IcmpParseReplies           10005f88 f   ping.obj
+ 0001:00004fd4       Icmp6ParseReplies          10005fd4 f   ping.obj
+ 0001:00005018       IcmpIndicateParameterChange 10006018 f   ping.obj
+ 0001:00005188       Icmp6IndicateParameterChange 10006188 f   ping.obj
+ 0001:000052e0       IcmpCreateFile             100062e0 f   ping.obj
+ 0001:0000540c       Icmp6CreateFile            1000640c f   ping.obj
+ 0001:00005534       IcmpSendEcho2Ex            10006534 f   ping.obj
+ 0001:00005894       IcmpSendEcho2              10006894 f   ping.obj
+ 0001:000058e8       IcmpSendEcho               100068e8 f   ping.obj
+ 0001:00005950       Icmp6SendEcho2             10006950 f   ping.obj
+ 0001:00005d10       GetRTTAndHopCount          10006d10 f   ping.obj
+ 0001:00005f6c       FindOrModifyPortReservation 10006f6c f   portreservation.obj
+ 0001:00006028       CreatePersistentTcpPortReservation 10007028 f   portreservation.obj
+ 0001:00006060       CreatePersistentUdpPortReservation 10007060 f   portreservation.obj
+ 0001:00006098       DeletePersistentTcpPortReservation 10007098 f   portreservation.obj
+ 0001:000060d0       DeletePersistentUdpPortReservation 100070d0 f   portreservation.obj
+ 0001:00006108       LookupPersistentTcpPortReservation 10007108 f   portreservation.obj
+ 0001:00006140       LookupPersistentUdpPortReservation 10007140 f   portreservation.obj
+ 0001:00006178       IN6_IS_ADDR_UNSPECIFIED    10007178 f i summary.obj
+ 0001:000061e0       IN6_IS_ADDR_LOOPBACK       100071e0 f i summary.obj
+ 0001:00006248       Ipv4UnicastAddressScope    10007248 f i summary.obj
+ 0001:000062a8       Ipv4MulticastAddressScope  100072a8 f i summary.obj
+ 0001:00006348       Ipv4AddressScope           10007348 f i summary.obj
+ 0001:000063b0       Ipv6UnicastAddressScope    100073b0 f i summary.obj
+ 0001:00006474       IpAddressScope             10007474 f   summary.obj
+ 0001:000064b0       FreeAddressList            100074b0 f   summary.obj
+ 0001:000064e4       FreeDnsSuffix              100074e4 f   summary.obj
+ 0001:00006518       FreeAdaptersAddresses      10007518 f   summary.obj
+ 0001:00006594       AddAddressToAdapter        10007594 f   summary.obj
+ 0001:00006688       AddUnicastAddressesToAdapter 10007688 f   summary.obj
+ 0001:0000693c       AddUnicastAddresses        1000793c f   summary.obj
+ 0001:00006a1c       AddAddressesToAdapter      10007a1c f   summary.obj
+ 0001:00006adc       AddAnycastAddresses        10007adc f   summary.obj
+ 0001:00006ba0       AddMulticastAddresses      10007ba0 f   summary.obj
+ 0001:00006c64       AddGatewaysAndPrefixesToAdapter 10007c64 f   summary.obj
+ 0001:00006e1c       AddGatewaysAndPrefixes     10007e1c f   summary.obj
+ 0001:00006ee0       AddIpConfiguration         10007ee0 f   summary.obj
+ 0001:00006ffc       InternalGetTunnelPhysicalAdapter 10007ffc f   summary.obj
+ 0001:000071a8       AllocateAndGetAdaptersAddresses 100081a8 f   summary.obj
+ 0001:000078ec       GetSizeofAdapterAddresses  100088ec f   summary.obj
+ 0001:00007afc       CopyAddressList            10008afc f   summary.obj
+ 0001:00007b84       GetAdaptersAddresses       10008b84 f   summary.obj
+ 0001:00007f90       FreeAddressStringList      10008f90 f   summary.obj
+ 0001:00007fc4       FreeAdaptersInfo           10008fc4 f   summary.obj
+ 0001:00008010       AddAddressStringToAdapter  10009010 f   summary.obj
+ 0001:00008074       AddUnicastAddressInfoToAdapter 10009074 f   summary.obj
+ 0001:00008228       AddUnicastAddressInfo      10009228 f   summary.obj
+ 0001:000082ec       AddGatewayInfoToAdapter    100092ec f   summary.obj
+ 0001:000083ec       AddGatewayInfo             100093ec f   summary.obj
+ 0001:00008494       AllocateAndGetAdaptersInfo 10009494 f   summary.obj
+ 0001:000086f4       GetSizeofAddressStringList 100096f4 f   summary.obj
+ 0001:00008714       GetSizeofAdapterInfo       10009714 f   summary.obj
+ 0001:00008794       CopyAddressStringList      10009794 f   summary.obj
+ 0001:000087e0       GetAdaptersInfo            100097e0 f   summary.obj
+ 0001:000088e4       GetTcpRowFromTable         100098e4 f   tcpmib.obj
+ 0001:0000893c       GetTcpStatisticsEx         1000993c f   tcpmib.obj
+ 0001:00008a40       CompareMibTcpRow           10009a40 f   tcpmib.obj
+ 0001:00008a50       GetTcpTableInternal        10009a50 f   tcpmib.obj
+ 0001:00008dd4       GetTcpTable                10009dd4 f   tcpmib.obj
+ 0001:00008dfc       GetTcpTable2               10009dfc f   tcpmib.obj
+ 0001:00008e20       CompareMibTcp6Row2         10009e20 f   tcpmib.obj
+ 0001:00008e28       GetTcp6Table2              10009e28 f   tcpmib.obj
+ 0001:0000907c       CompareMibTcp6Row          1000a07c f   tcpmib.obj
+ 0001:0000908c       GetTcp6Table               1000a08c f   tcpmib.obj
+ 0001:0000929c       CompareMibTcp6RowWithOwnerPid 1000a29c f   tcpmib.obj
+ 0001:000092a4       GetTcp6TableWithOwnerPidInternal 1000a2a4 f   tcpmib.obj
+ 0001:000094dc       CompareMibTcp6RowWithOwnerModule 1000a4dc f   tcpmib.obj
+ 0001:000094e4       GetTcp6TableWithOwnerModuleInternal 1000a4e4 f   tcpmib.obj
+ 0001:00009748       ConvertEstatsSynOptsObject 1000a748 f   tcpmib.obj
+ 0001:0000979c       ConvertEstatsDataObject    1000a79c f   tcpmib.obj
+ 0001:00009824       ConvertEstatsSndCongObject 1000a824 f   tcpmib.obj
+ 0001:0000990c       ConvertEstatsPathObject    1000a90c f   tcpmib.obj
+ 0001:00009994       ConvertEstatsSendBuffObject 1000a994 f   tcpmib.obj
+ 0001:00009a1c       ConvertEstatsRecObject     1000aa1c f   tcpmib.obj
+ 0001:00009aa4       ConvertEstatsObsRecObject  1000aaa4 f   tcpmib.obj
+ 0001:00009b2c       ConvertEstatsBandwidthObject 1000ab2c f   tcpmib.obj
+ 0001:00009bb8       ConvertEstatsFineRttObject 1000abb8 f   tcpmib.obj
+ 0001:00009c40       GetPerTcpConnectionStats   1000ac40 f   tcpmib.obj
+ 0001:00009cd0       SetPerTcpConnectionStats   1000acd0 f   tcpmib.obj
+ 0001:00009d58       GetPerTcp6ConnectionStats  1000ad58 f   tcpmib.obj
+ 0001:00009e10       SetPerTcp6ConnectionStats  1000ae10 f   tcpmib.obj
+ 0001:00009ec0       GetPerTcpConnectionEStats  1000aec0 f   tcpmib.obj
+ 0001:0000a104       SetPerTcpConnectionEStats  1000b104 f   tcpmib.obj
+ 0001:0000a1d8       GetPerTcp6ConnectionEStats 1000b1d8 f   tcpmib.obj
+ 0001:0000a440       SetPerTcp6ConnectionEStats 1000b440 f   tcpmib.obj
+ 0001:0000a53c       GetTcpStatistics           1000b53c f   tcpmib.obj
+ 0001:0000a544       SetTcpEntry                1000b544 f   tcpmib.obj
+ 0001:0000a5d4       GetExtendedTcpTable        1000b5d4 f   tcpmib.obj
+ 0001:0000a7dc       GetUdpRowFromTable         1000b7dc f   udpmib.obj
+ 0001:0000a820       CompareMibUdpRow           1000b820 f   udpmib.obj
+ 0001:0000a828       GetUdpTableInternal        1000b828 f   udpmib.obj
+ 0001:0000ab50       GetUdpTable                1000bb50 f   udpmib.obj
+ 0001:0000ab70       CompareMibUdp6Row          1000bb70 f   udpmib.obj
+ 0001:0000ab78       CompareMibUdp6RowWithOwnerPid 1000bb78 f   udpmib.obj
+ 0001:0000ab80       CompareMibUdp6RowWithOwnerModule 1000bb80 f   udpmib.obj
+ 0001:0000ab88       GetUdpStatisticsEx         1000bb88 f   udpmib.obj
+ 0001:0000ac3c       GetUdpStatistics           1000bc3c f   udpmib.obj
+ 0001:0000ac44       GetUdp6Table               1000bc44 f   udpmib.obj
+ 0001:0000ade4       GetUdp6TableWithOwnerPid   1000bde4 f   udpmib.obj
+ 0001:0000afb0       GetUdp6TableWithOwnerModule 1000bfb0 f   udpmib.obj
+ 0001:0000b1c0       GetExtendedUdpTable        1000c1c0 f   udpmib.obj
+ 0001:0000b288       ?DuplicateIPv4@@YAHKPAKK@Z 1000c288 f   wce.obj
+ 0001:0000b2c4       ?IPv4MultiSzToUniqueArray@@YAXPAGPAKK1@Z 1000c2c4 f   wce.obj
+ 0001:0000b384       RtlIpv4AddressToStringA    1000c384 f   wce.obj
+ 0001:0000b3d8       ?FillDnsServerList@@YAXPAGPAU_IP_ADAPTER_INFO@@PAKK2@Z 1000c3d8 f   wce.obj
+ 0001:0000b538       ?GetDnsServerList@@YAKPAGPAPAU_IP4_ARRAY@@PAK@Z 1000c538 f   wce.obj
+ 0001:0000b648       CE_DnsQueryConfig          1000c648 f   wce.obj
+ 0001:0000b7a4       AddWinsServerAddressInfoToAdapter 1000c7a4 f   wce.obj
+ 0001:0000b83c       CE_AddNetbtInfo            1000c83c f   wce.obj
+ 0001:0000b96c       ConvertInterfaceNameToLuidW 1000c96c f   netioapi:convert.obj
+ 0001:0000bb08       ConvertInterfaceLuidToNameW 1000cb08 f   netioapi:convert.obj
+ 0001:0000bc34       ConvertInterfaceLuidToIndex 1000cc34 f   netioapi:convert.obj
+ 0001:0000bcbc       ConvertInterfaceIndexToLuid 1000ccbc f   netioapi:convert.obj
+ 0001:0000bd44       ConvertInterfaceLuidToAlias 1000cd44 f   netioapi:convert.obj
+ 0001:0000be48       ConvertInterfaceAliasToLuid 1000ce48 f   netioapi:convert.obj
+ 0001:0000bfc0       ConvertInterfaceDescrToLuid 1000cfc0 f   netioapi:convert.obj
+ 0001:0000c138       ConvertInterfaceLuidToGuid 1000d138 f   netioapi:convert.obj
+ 0001:0000c1d0       ConvertInterfaceGuidToLuid 1000d1d0 f   netioapi:convert.obj
+ 0001:0000c308       ConvertInterfaceNameToLuidA 1000d308 f   netioapi:convert.obj
+ 0001:0000c3b4       ConvertInterfaceLuidToNameA 1000d3b4 f   netioapi:convert.obj
+ 0001:0000c440       if_nametoindex             1000d440 f   netioapi:convert.obj
+ 0001:0000c48c       if_indextoname             1000d48c f   netioapi:convert.obj
+ 0001:0000c4d0       GetCurrentThreadCompartmentId 1000d4d0 f   netioapi:compartment.obj
+ 0001:0000c4d8       SetCurrentThreadCompartmentId 1000d4d8 f   netioapi:compartment.obj
+ 0001:0000c524       GetSessionCompartmentId    1000d524 f   netioapi:compartment.obj
+ 0001:0000c584       SetSessionCompartmentId    1000d584 f   netioapi:compartment.obj
+ 0001:0000c5ec       GetNetworkInformation      1000d5ec f   netioapi:compartment.obj
+ 0001:0000c6c8       SetNetworkInformation      1000d6c8 f   netioapi:compartment.obj
+ 0001:0000c79c       NetioAllocateMemory        1000d79c f   netioapi:utils.obj
+ 0001:0000c7d8       InternalRegisterChangeNotification 1000d7d8 f   netioapi:utils.obj
+ 0001:0000c910       InternalRegisterFlChangeNotification 1000d910 f   netioapi:utils.obj
+ 0001:0000c9ac       FreeMibTable               1000d9ac f   netioapi:utils.obj
+ 0001:0000c9cc       InternalSetAllParameters   1000d9cc f   netioapi:utils.obj
+ 0001:0000cae8       ConvertLengthToIpv4Mask    1000dae8 f   netioapi:utils.obj
+ 0001:0000cb14       ConvertIpv4MaskToLength    1000db14 f   netioapi:utils.obj
+ 0001:0000cb54       CancelMibChangeNotify2     1000db54 f   netioapi:utils.obj
+ 0001:0000cc0c       IN6_ADDR_EQUAL             1000dc0c f i netioapi:neighbor.obj
+ 0001:0000cd44       IN6_IS_ADDR_V4MAPPED       1000dd44 f i netioapi:neighbor.obj
+ 0001:0000cd98       IN6_UNCANONICALIZE_SCOPE_ID 1000dd98 f i netioapi:neighbor.obj
+ 0001:0000cdf8       IN6ADDR_SETSOCKADDR        1000ddf8 f i netioapi:neighbor.obj
+ 0001:0000ce48       INETADDR_SETSOCKADDR       1000de48 f i netioapi:neighbor.obj
+ 0001:0000cec4       NetioFillNeighborRow       1000dec4 f   netioapi:neighbor.obj
+ 0001:0000cfa8       InternalGetIpNetTable2     1000dfa8 f   netioapi:neighbor.obj
+ 0001:0000d380       InternalGetIpNetEntry2     1000e380 f   netioapi:neighbor.obj
+ 0001:0000d7c4       NetioAddSetDeleteNeighbor  1000e7c4 f   netioapi:neighbor.obj
+ 0001:0000d9e0       FlushIpNetTable2           1000e9e0 f   netioapi:neighbor.obj
+ 0001:0000dab4       GetBestInterface           1000eab4 f   netioapi:neighbor.obj
+ 0001:0000db3c       GetBestInterfaceEx         1000eb3c f   netioapi:neighbor.obj
+ 0001:0000db50       ResolveIpNetEntry2         1000eb50 f   netioapi:neighbor.obj
+ 0001:0000dd7c       GetIpNetTable2             1000ed7c f   netioapi:neighbor.obj
+ 0001:0000dd8c       GetIpNetEntry2             1000ed8c f   netioapi:neighbor.obj
+ 0001:0000dd98       SetIpNetEntry2             1000ed98 f   netioapi:neighbor.obj
+ 0001:0000ddbc       CreateIpNetEntry2          1000edbc f   netioapi:neighbor.obj
+ 0001:0000dde0       DeleteIpNetEntry2          1000ede0 f   netioapi:neighbor.obj
+ 0001:0000de04       INETADDR_ISEQUAL           1000ee04 f i netioapi:address.obj
+ 0001:0000de7c       FillAddressEntry           1000ee7c f   netioapi:address.obj
+ 0001:0000e048       NetioQueryNsiForAddress    1000f048 f   netioapi:address.obj
+ 0001:0000e234       IsAddressDialOnDemand      1000f234 f   netioapi:address.obj
+ 0001:0000e26c       NetioSelectPreferredAddresses 1000f26c f   netioapi:address.obj
+ 0001:0000e480       NetioEnumerateAddress      1000f480 f   netioapi:address.obj
+ 0001:0000e8bc       NetioAddSetDeleteAddress   1000f8bc f   netioapi:address.obj
+ 0001:0000eaa0       NetioGetAddress            1000faa0 f   netioapi:address.obj
+ 0001:0000ecc4       CreateUnicastIpAddressEntry 1000fcc4 f   netioapi:address.obj
+ 0001:0000ecd8       DeleteUnicastIpAddressEntry 1000fcd8 f   netioapi:address.obj
+ 0001:0000ecec       GetUnicastIpAddressEntry   1000fcec f   netioapi:address.obj
+ 0001:0000ecfc       SetUnicastIpAddressEntry   1000fcfc f   netioapi:address.obj
+ 0001:0000ed10       GetUnicastIpAddressTable   1000fd10 f   netioapi:address.obj
+ 0001:0000ed24       CreateAnycastIpAddressEntry 1000fd24 f   netioapi:address.obj
+ 0001:0000ed38       DeleteAnycastIpAddressEntry 1000fd38 f   netioapi:address.obj
+ 0001:0000ed4c       GetAnycastIpAddressEntry   1000fd4c f   netioapi:address.obj
+ 0001:0000ed5c       GetAnycastIpAddressTable   1000fd5c f   netioapi:address.obj
+ 0001:0000ed70       GetMulticastIpAddressEntry 1000fd70 f   netioapi:address.obj
+ 0001:0000ed80       GetMulticastIpAddressTable 1000fd80 f   netioapi:address.obj
+ 0001:0000ed94       NetioAddressChangeCallBack 1000fd94 f   netioapi:address.obj
+ 0001:0000ee24       NetioRegisterInterfaceAddressChangeNotification 1000fe24 f   netioapi:address.obj
+ 0001:0000ef20       NotifyUnicastIpAddressChange 1000ff20 f   netioapi:address.obj
+ 0001:0000ef60       ProcessDialOnDemandAddress 1000ff60 f   netioapi:address.obj
+ 0001:0000efd0       InternalNotifyStableUnicastIpAddressTable 1000ffd0 f   netioapi:address.obj
+ 0001:0000f2d4       NotifyStableUnicastIpAddressTable 100102d4 f   netioapi:address.obj
+ 0001:0000f304       InitializeUnicastIpAddressEntry 10010304 f   netioapi:address.obj
+ 0001:0000f344       InternalFindInterfaceByAddress 10010344 f   netioapi:address.obj
+ 0001:0000f40c       IN4_UNCANONICALIZE_SCOPE_ID 1001040c f i netioapi:route.obj
+ 0001:0000f44c       IN6ADDR_SETV4MAPPED        1001044c f i netioapi:route.obj
+ 0001:0000f4c4       GetOffsetFromRouteKey      100104c4 f   netioapi:route.obj
+ 0001:0000f5bc       FillRouteEntry             100105bc f   netioapi:route.obj
+ 0001:0000f6ec       InternalGetForwardIpTable2 100106ec f   netioapi:route.obj
+ 0001:0000faf8       GetBestRoute2              10010af8 f   netioapi:route.obj
+ 0001:0000ff1c       InternalGetIpForwardEntry2 10010f1c f   netioapi:route.obj
+ 0001:0001027c       NetioAddSetDeleteRoute     1001127c f   netioapi:route.obj
+ 0001:00010548       NetioRouteChangeCallBack   10011548 f   netioapi:route.obj
+ 0001:000105c4       NotifyRouteChange2         100115c4 f   netioapi:route.obj
+ 0001:000106a0       InitializeIpForwardEntry   100116a0 f   netioapi:route.obj
+ 0001:000106ec       InternalGetBestInterface   100116ec f   netioapi:route.obj
+ 0001:00010880       GetIpForwardTable2         10011880 f   netioapi:route.obj
+ 0001:00010890       GetIpForwardEntry2         10011890 f   netioapi:route.obj
+ 0001:0001089c       SetIpForwardEntry2         1001189c f   netioapi:route.obj
+ 0001:000108c0       CreateIpForwardEntry2      100118c0 f   netioapi:route.obj
+ 0001:000108e4       DeleteIpForwardEntry2      100118e4 f   netioapi:route.obj
+ 0001:00010908       CreateSortedAddressPairs   10011908 f   netioapi:iphaddress.obj
+ 0001:00010b38       FillIpPathEntry            10011b38 f   netioapi:path.obj
+ 0001:00010c18       GetIpPathTable             10011c18 f   netioapi:path.obj
+ 0001:00010fa8       GetIpPathEntry             10011fa8 f   netioapi:path.obj
+ 0001:00011268       FlushIpPathTable           10012268 f   netioapi:path.obj
+ 0001:0001136c       FillIfEntryWithInterfaceInfo 1001236c f   netioapi:interface.obj
+ 0001:000116dc       InternalGetIfTable2Ex      100126dc f   netioapi:interface.obj
+ 0001:000119e0       GetIfTable2                100129e0 f   netioapi:interface.obj
+ 0001:000119f0       GetIfTable2Ex              100129f0 f   netioapi:interface.obj
+ 0001:00011a2c       InternalGetIfEntry2        10012a2c f   netioapi:interface.obj
+ 0001:00011bd4       NetioInterfaceChangeCallBack 10012bd4 f   netioapi:interface.obj
+ 0001:00011c44       NotifyIpInterfaceChange    10012c44 f   netioapi:interface.obj
+ 0001:00011d0c       FillIpInterfaceRow         10012d0c f   netioapi:interface.obj
+ 0001:00011e74       InternalGetIpInterfaceEntry 10012e74 f   netioapi:interface.obj
+ 0001:00011fe4       InternalGetIpInterfaceTable 10012fe4 f   netioapi:interface.obj
+ 0001:00012394       InternalSetIpInterfaceEntry 10013394 f   netioapi:interface.obj
+ 0001:0001256c       GetIpInterfaceEntry        1001356c f   netioapi:interface.obj
+ 0001:00012578       GetIpInterfaceTable        10013578 f   netioapi:interface.obj
+ 0001:00012588       SetIpInterfaceEntry        10013588 f   netioapi:interface.obj
+ 0001:00012594       InitializeIpInterfaceEntry 10013594 f   netioapi:interface.obj
+ 0001:000125d0       InternalGetIfStackTable    100135d0 f   netioapi:interface.obj
+ 0001:00012704       GetIfStackTable            10013704 f   netioapi:interface.obj
+ 0001:00012710       GetInvertedIfStackTable    10013710 f   netioapi:interface.obj
+ 0001:0001271c       GetIfEntry2                1001371c f   netioapi:interface.obj
+ 0001:00012728       NetioTeredoPortChangeCallBack 10013728 f   netioapi:teredo.obj
+ 0001:0001275c       NotifyTeredoPortChange     1001375c f   netioapi:teredo.obj
+ 0001:000127f4       GetTeredoPort              100137f4 f   netioapi:teredo.obj
+ 0001:00012854       DeleteCriticalSection      10013854 f   coredll:COREDLL.dll
+ 0001:00012864       LeaveCriticalSection       10013864 f   coredll:COREDLL.dll
+ 0001:00012874       EnterCriticalSection       10013874 f   coredll:COREDLL.dll
+ 0001:00012884       InitializeCriticalSection  10013884 f   coredll:COREDLL.dll
+ 0001:00012894       DisableThreadLibraryCalls  10013894 f   coredll:COREDLL.dll
+ 0001:000128a4       LocalFree                  100138a4 f   coredll:COREDLL.dll
+ 0001:000128b4       RegCloseKey                100138b4 f   coredll:COREDLL.dll
+ 0001:000128c4       LocalAlloc                 100138c4 f   coredll:COREDLL.dll
+ 0001:000128d4       RegQueryValueExW           100138d4 f   coredll:COREDLL.dll
+ 0001:000128e4       StringCbPrintfA            100138e4 f   coredll:COREDLL.dll
+ 0001:000128f4       StringCchPrintfW           100138f4 f   coredll:COREDLL.dll
+ 0001:00012904       RegOpenKeyExW              10013904 f   coredll:COREDLL.dll
+ 0001:00012914       StringCchCopyW             10013914 f   coredll:COREDLL.dll
+ 0001:00012924       SetLastError               10013924 f   coredll:COREDLL.dll
+ 0001:00012934       HeapAlloc                  10013934 f   coredll:COREDLL.dll
+ 0001:00012944       GetProcessHeap             10013944 f   coredll:COREDLL.dll
+ 0001:00012954       HeapFree                   10013954 f   coredll:COREDLL.dll
+ 0001:00012964       GetLastError               10013964 f   coredll:COREDLL.dll
+ 0001:00012974       StringCchPrintfA           10013974 f   coredll:COREDLL.dll
+ 0001:00012984       StringCchCatW              10013984 f   coredll:COREDLL.dll
+ 0001:00012994       StringCbPrintfW            10013994 f   coredll:COREDLL.dll
+ 0001:000129a4       HeapReAlloc                100139a4 f   coredll:COREDLL.dll
+ 0001:000129b4       EventModify                100139b4 f   coredll:COREDLL.dll
+ 0001:000129c4       WaitForSingleObject        100139c4 f   coredll:COREDLL.dll
+ 0001:000129d4       CloseHandle                100139d4 f   coredll:COREDLL.dll
+ 0001:000129e4       CreateEventW               100139e4 f   coredll:COREDLL.dll
+ 0001:000129f4       DeviceIoControl            100139f4 f   coredll:COREDLL.dll
+ 0001:00012a04       CreateFileW                10013a04 f   coredll:COREDLL.dll
+ 0001:00012a14       __GetUserKData             10013a14 f   coredll:COREDLL.dll
+ 0001:00012a24       Sleep                      10013a24 f   coredll:COREDLL.dll
+ 0001:00012a34       DuplicateHandle            10013a34 f   coredll:COREDLL.dll
+ 0001:00012a44       GetSystemTimeAsFileTime    10013a44 f   coredll:COREDLL.dll
+ 0001:00012a54       StringCchCopyA             10013a54 f   coredll:COREDLL.dll
+ 0001:00012a64       StringCchLengthW           10013a64 f   coredll:COREDLL.dll
+ 0001:00012a74       WideCharToMultiByte        10013a74 f   coredll:COREDLL.dll
+ 0001:00012a84       StringCchLengthA           10013a84 f   coredll:COREDLL.dll
+ 0001:00012a94       StringCbCopyW              10013a94 f   coredll:COREDLL.dll
+ 0001:00012aa4       NsiDisconnectFromServer    10013aa4 f   winnsi:WINNSI.DLL
+ 0001:00012ab4       NsiRpcDeregisterChangeNotification 10013ab4 f   winnsi:WINNSI.DLL
+ 0001:00012ac4       NsiRpcRegisterChangeNotification 10013ac4 f   winnsi:WINNSI.DLL
+ 0001:00012ad4       NsiConnectToServer         10013ad4 f   winnsi:WINNSI.DLL
+ 0001:00012ae4       NsiFreeTable               10013ae4 f   nsi:NSI.dll
+ 0001:00012af4       NsiAllocateAndGetTable     10013af4 f   nsi:NSI.dll
+ 0001:00012b04       NsiGetAllParameters        10013b04 f   nsi:NSI.dll
+ 0001:00012b14       NsiEnumerateObjectsAllParameters 10013b14 f   nsi:NSI.dll
+ 0001:00012b24       NsiSetParameter            10013b24 f   nsi:NSI.dll
+ 0001:00012b34       NsiGetParameter            10013b34 f   nsi:NSI.dll
+ 0001:00012b44       NsiSetAllParameters        10013b44 f   nsi:NSI.dll
+ 0001:00012b54       RtlInitAnsiString          10013b54 f   ntcompat:rtl.obj
+ 0001:00012b98       RtlInitUnicodeString       10013b98 f   ntcompat:rtl.obj
+ 0001:00012bf4       RtlAnsiStringToUnicodeString 10013bf4 f   ntcompat:rtl.obj
+ 0001:00012cac       RtlUnicodeStringToAnsiString 10013cac f   ntcompat:rtl.obj
+ 0001:00012d58       RtlTimeToSecondsSince1970  10013d58 f   ntcompat:rtltime.obj
+ 0001:00012dc0       RtlIpv6StringToAddressW    10013dc0 f   vcompat:rtlmisc.obj
+ 0001:00013170       RtlIpv4StringToAddressW    10014170 f   vcompat:rtlmisc.obj
+ 0001:00013558       RtlGUIDFromString          10014558 f   vcompat:rtlmisc.obj
+ 0001:00013638       IPv4StringToDword          10014638 f   vcompat:misc.obj
+ 0001:000136d0       gethostname                100146d0 f   ws2:WS2.dll
+ 0001:000136e0       GetRegDWORDValue           100146e0 f   cxport:CXPORT.dll
+ 0001:000136f0       GetRegBinaryValue          100146f0 f   cxport:CXPORT.dll
+ 0001:00013700       GetRegMultiSZValue         10014700 f   cxport:CXPORT.dll
+ 0001:00013710       CE_RtlNtStatusToDosError   10014710 f   cxport:CXPORT.dll
+ 0001:00013818       _DllMainCRTStartup         10014818 f   corelib0:pegdmain.obj
+ 0001:00013844       __GSHandlerCheckCommon     10014844 f   corelib0:gshandler.obj
+ 0001:00013880       __GSHandlerCheck           10014880 f   corelib0:gshandler.obj
+ 0001:000138a0       __security_init_cookie     100148a0 f   corelib0:seccinit.obj
+ 0001:000138ec       __security_check_cookie    100148ec f   corelib0:armsecgs.obj
+ 0001:000138fc       __gsfailure                100148fc     corelib0:armsecgs.obj
+ 0001:00013a28       _cexit                     10014a28 f   corelib0:cexit.obj
+ 0001:00013a38       _initterm                  10014a38 f   corelib0:crt0dat.obj
+ 0001:00013a64       _cinit                     10014a64 f   corelib0:crt0dat.obj
+ 0001:00013ac4       __crt_ExitProcess          10014ac4 f   corelib0:exitproc_proxy.obj
+ 0001:00013ad0       memset                     10014ad0 f   corelib1:COREDLL.dll
+ 0001:00013ae0       wcslen                     10014ae0 f   corelib1:COREDLL.dll
+ 0001:00013af0       strlen                     10014af0 f   corelib1:COREDLL.dll
+ 0001:00013b00       memcpy                     10014b00 f   corelib1:COREDLL.dll
+ 0001:00013b10       qsort                      10014b10 f   corelib1:COREDLL.dll
+ 0001:00013b20       memcmp                     10014b20 f   corelib1:COREDLL.dll
+ 0001:00013b30       __C_specific_handler       10014b30 f   corelib1:COREDLL.dll
+ 0001:00013b40       iswctype                   10014b40 f   corelib1:COREDLL.dll
+ 0001:00013b50       free                       10014b50 f   corelib1:COREDLL.dll
+ 0001:00013b60       _wcsicmp                   10014b60 f   corelib1:COREDLL.dll
+ 0001:00013b70       _wtoi                      10014b70 f   corelib1:COREDLL.dll
+ 0001:00013b80       wcschr                     10014b80 f   corelib1:COREDLL.dll
+ 0001:00013b90       wcsncmp                    10014b90 f   corelib1:COREDLL.dll
+ 0001:00013ba0       _wcsnicmp                  10014ba0 f   corelib1:COREDLL.dll
+ 0001:00013bb0       memmove                    10014bb0 f   corelib1:COREDLL.dll
+ 0001:00013bc0       wcstol                     10014bc0 f   corelib1:COREDLL.dll
+ 0001:00013bd0       _XcptFilter                10014bd0 f   corelib1:COREDLL.dll
+ 0001:00013be0       __security_gen_cookie2     10014be0 f   corelib1:COREDLL.dll
+ 0001:00013bf0       __report_gsfailure         10014bf0 f   corelib1:COREDLL.dll
+ 0001:00013c00       InterlockedExchange        10014c00 f   coredll:COREDLL.dll
+ 0001:00013c10       TerminateProcess           10014c10 f   coredll:COREDLL.dll
+ 0001:00013d1c       __IMPORT_DESCRIPTOR_COREDLL 10014d1c     coredll:COREDLL.dll
+ 0001:00013d30       __IMPORT_DESCRIPTOR_WINNSI 10014d30     winnsi:WINNSI.DLL
+ 0001:00013d44       __IMPORT_DESCRIPTOR_NSI    10014d44     nsi:NSI.dll
+ 0001:00013d58       __IMPORT_DESCRIPTOR_WS2    10014d58     ws2:WS2.dll
+ 0001:00013d6c       __IMPORT_DESCRIPTOR_CXPORT 10014d6c     cxport:CXPORT.dll
+ 0001:00013d80       __NULL_IMPORT_DESCRIPTOR   10014d80     coredll:COREDLL.dll
+ 0002:00000000       __imp_DeleteCriticalSection 10017000     coredll:COREDLL.dll
+ 0002:00000004       __imp_LeaveCriticalSection 10017004     coredll:COREDLL.dll
+ 0002:00000008       __imp_EnterCriticalSection 10017008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_InitializeCriticalSection 1001700c     coredll:COREDLL.dll
+ 0002:00000010       __imp_DisableThreadLibraryCalls 10017010     coredll:COREDLL.dll
+ 0002:00000014       __imp_LocalFree            10017014     coredll:COREDLL.dll
+ 0002:00000018       __imp_RegCloseKey          10017018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_LocalAlloc           1001701c     coredll:COREDLL.dll
+ 0002:00000020       __imp_RegQueryValueExW     10017020     coredll:COREDLL.dll
+ 0002:00000024       __imp_StringCbPrintfA      10017024     coredll:COREDLL.dll
+ 0002:00000028       __imp_StringCchPrintfW     10017028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_RegOpenKeyExW        1001702c     coredll:COREDLL.dll
+ 0002:00000030       __imp_StringCchCopyW       10017030     coredll:COREDLL.dll
+ 0002:00000034       __imp_SetLastError         10017034     coredll:COREDLL.dll
+ 0002:00000038       __imp_HeapAlloc            10017038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_GetProcessHeap       1001703c     coredll:COREDLL.dll
+ 0002:00000040       __imp_HeapFree             10017040     coredll:COREDLL.dll
+ 0002:00000044       __imp_GetLastError         10017044     coredll:COREDLL.dll
+ 0002:00000048       __imp_StringCchPrintfA     10017048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_StringCchCatW        1001704c     coredll:COREDLL.dll
+ 0002:00000050       __imp_StringCbPrintfW      10017050     coredll:COREDLL.dll
+ 0002:00000054       __imp_HeapReAlloc          10017054     coredll:COREDLL.dll
+ 0002:00000058       __imp_EventModify          10017058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_WaitForSingleObject  1001705c     coredll:COREDLL.dll
+ 0002:00000060       __imp_CloseHandle          10017060     coredll:COREDLL.dll
+ 0002:00000064       __imp_CreateEventW         10017064     coredll:COREDLL.dll
+ 0002:00000068       __imp_DeviceIoControl      10017068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_CreateFileW          1001706c     coredll:COREDLL.dll
+ 0002:00000070       __imp___GetUserKData       10017070     coredll:COREDLL.dll
+ 0002:00000074       __imp_Sleep                10017074     coredll:COREDLL.dll
+ 0002:00000078       __imp_DuplicateHandle      10017078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_GetSystemTimeAsFileTime 1001707c     coredll:COREDLL.dll
+ 0002:00000080       __imp_StringCchCopyA       10017080     coredll:COREDLL.dll
+ 0002:00000084       __imp_StringCchLengthW     10017084     coredll:COREDLL.dll
+ 0002:00000088       __imp_WideCharToMultiByte  10017088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_StringCchLengthA     1001708c     coredll:COREDLL.dll
+ 0002:00000090       __imp_StringCbCopyW        10017090     coredll:COREDLL.dll
+ 0002:00000094       __imp_TerminateProcess     10017094     coredll:COREDLL.dll
+ 0002:00000098       __imp_InterlockedExchange  10017098     coredll:COREDLL.dll
+ 0002:0000009c       __imp___report_gsfailure   1001709c     corelib1:COREDLL.dll
+ 0002:000000a0       __imp___security_gen_cookie2 100170a0     corelib1:COREDLL.dll
+ 0002:000000a4       __imp__XcptFilter          100170a4     corelib1:COREDLL.dll
+ 0002:000000a8       __imp___rt_sdiv64by64      100170a8     corelib1:COREDLL.dll
+ 0002:000000ac       __imp_wcstol               100170ac     corelib1:COREDLL.dll
+ 0002:000000b0       __imp_memmove              100170b0     corelib1:COREDLL.dll
+ 0002:000000b4       __imp__wcsnicmp            100170b4     corelib1:COREDLL.dll
+ 0002:000000b8       __imp_wcsncmp              100170b8     corelib1:COREDLL.dll
+ 0002:000000bc       __imp_wcschr               100170bc     corelib1:COREDLL.dll
+ 0002:000000c0       __imp__wtoi                100170c0     corelib1:COREDLL.dll
+ 0002:000000c4       __imp___rt_udiv64by64      100170c4     corelib1:COREDLL.dll
+ 0002:000000c8       __imp_memset               100170c8     corelib1:COREDLL.dll
+ 0002:000000cc       __imp_wcslen               100170cc     corelib1:COREDLL.dll
+ 0002:000000d0       __imp_strlen               100170d0     corelib1:COREDLL.dll
+ 0002:000000d4       __imp_memcpy               100170d4     corelib1:COREDLL.dll
+ 0002:000000d8       __imp_qsort                100170d8     corelib1:COREDLL.dll
+ 0002:000000dc       __imp_memcmp               100170dc     corelib1:COREDLL.dll
+ 0002:000000e0       __imp___C_specific_handler 100170e0     corelib1:COREDLL.dll
+ 0002:000000e4       __imp_iswctype             100170e4     corelib1:COREDLL.dll
+ 0002:000000e8       __imp_free                 100170e8     corelib1:COREDLL.dll
+ 0002:000000ec       __imp__wcsicmp             100170ec     corelib1:COREDLL.dll
+ 0002:000000f0       \177COREDLL_NULL_THUNK_DATA 100170f0     coredll:COREDLL.dll
+ 0002:000000f4       __imp_CE_RtlNtStatusToDosError 100170f4     cxport:CXPORT.dll
+ 0002:000000f8       __imp_GetRegMultiSZValue   100170f8     cxport:CXPORT.dll
+ 0002:000000fc       __imp_GetRegBinaryValue    100170fc     cxport:CXPORT.dll
+ 0002:00000100       __imp_GetRegDWORDValue     10017100     cxport:CXPORT.dll
+ 0002:00000104       \177CXPORT_NULL_THUNK_DATA 10017104     cxport:CXPORT.dll
+ 0002:00000108       __imp_NsiFreeTable         10017108     nsi:NSI.dll
+ 0002:0000010c       __imp_NsiAllocateAndGetTable 1001710c     nsi:NSI.dll
+ 0002:00000110       __imp_NsiSetAllParameters  10017110     nsi:NSI.dll
+ 0002:00000114       __imp_NsiGetParameter      10017114     nsi:NSI.dll
+ 0002:00000118       __imp_NsiSetParameter      10017118     nsi:NSI.dll
+ 0002:0000011c       __imp_NsiEnumerateObjectsAllParameters 1001711c     nsi:NSI.dll
+ 0002:00000120       __imp_NsiGetAllParameters  10017120     nsi:NSI.dll
+ 0002:00000124       \177NSI_NULL_THUNK_DATA    10017124     nsi:NSI.dll
+ 0002:00000128       __imp_NsiConnectToServer   10017128     winnsi:WINNSI.DLL
+ 0002:0000012c       __imp_NsiRpcRegisterChangeNotification 1001712c     winnsi:WINNSI.DLL
+ 0002:00000130       __imp_NsiRpcDeregisterChangeNotification 10017130     winnsi:WINNSI.DLL
+ 0002:00000134       __imp_NsiDisconnectFromServer 10017134     winnsi:WINNSI.DLL
+ 0002:00000138       \177WINNSI_NULL_THUNK_DATA 10017138     winnsi:WINNSI.DLL
+ 0002:0000013c       __imp_gethostname          1001713c     ws2:WS2.dll
+ 0002:00000140       \177WS2_NULL_THUNK_DATA    10017140     ws2:WS2.dll
+ 0002:00000150       TcpRowSize                 10017150     tcpmib.obj
+ 0002:00000160       EstatsToTcpObjectMappingTable 10017160     tcpmib.obj
+ 0002:00000214       UdpRowSize                 10017214     udpmib.obj
+ 0002:00000220       Ipv4Mask                   10017220     netioapi:utils.obj
+ 0002:000002a8       LeapYearDayToMonth         100172a8     ntcompat:rtltime.obj
+ 0002:00000418       NormalYearDayToMonth       10017418     ntcompat:rtltime.obj
+ 0002:00000588       LeapYearDaysPrecedingMonth 10017588     ntcompat:rtltime.obj
+ 0002:000005a4       NormalYearDaysPrecedingMonth 100175a4     ntcompat:rtltime.obj
+ 0002:000005c0       SecondsToStartOf1970       100175c0     ntcompat:rtltime.obj
+ 0002:000005c8       SecondsToStartOf1980       100175c8     ntcompat:rtltime.obj
+ 0002:000005d0       Magic10000                 100175d0     ntcompat:rtltime.obj
+ 0002:000005d8       Magic10000000              100175d8     ntcompat:rtltime.obj
+ 0002:000005e0       Magic86400000              100175e0     ntcompat:rtltime.obj
+ 0002:000005e8       __security_cookie          100175e8     corelib0:seccinit.obj
+ 0002:000005ec       __security_cookie_complement 100175ec     corelib0:seccinit.obj
+ 0002:00000600       ModuleHandle               10017600     dllmain.obj
+ 0002:00000604       NotificationRpcHandle      10017604     dllmain.obj
+ 0002:00000608       PingNotificationCountV4    10017608     ping.obj
+ 0002:0000060c       PingNotificationCountV6    1001760c     ping.obj
+ 0002:00000610       RequestHead                10017610     ping.obj
+ 0002:00000614       _exitflag                  10017614     corelib0:cexit.obj
+ 0002:00000618       PingNotificationHandleV4   10017618     <common>
+ 0002:0000061c       PingNotificationHandleV6   1001761c     <common>
+ 0002:00000620       NotificationCriticalSection 10017620     <common>
+ 0002:00000640       g_IcmpLock                 10017640     <common>
+ 0002:00000654       __onexitend                10017654     <common>
+ 0002:00000658       __onexitbegin              10017658     <common>
+ 0002:0000065c       g_pcsExit                  1001765c     <common>
+ 0002:00000660       _pRawDllMain               10017660     <common>
+
+ entry point at        0001:00013818
+
+ Static symbols
+
+ 0001:000133ec       ScanHexFormat              100143ec f   vcompat:rtlmisc.obj
+ 0001:00013728       _DllMainCRTStartupHelper   10014728 f   corelib0:pegdmain.obj
+ 0001:00013940       doexit                     10014940 f   corelib0:cexit.obj

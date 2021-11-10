@@ -1,0 +1,292 @@
+ CellCore
+
+ Timestamp is 618b15a7 (Tue Nov 09 17:43:19 2021)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 00001c54H .rdata                  CODE
+ 0001:00001c74 00000025H .rdata$debug            CODE
+ 0001:00001c9c 00002cc4H .text                   CODE
+ 0001:00004960 00000050H .xdata                  CODE
+ 0001:000049b0 00000014H .idata$2                CODE
+ 0001:000049c4 00000014H .idata$3                CODE
+ 0001:000049d8 0000007cH .idata$4                CODE
+ 0001:00004a54 0000000cH .idata$6                CODE
+ 0001:00004a60 000009fcH .edata                  CODE
+ 0002:00000000 0000007cH .idata$5                DATA
+ 0002:00000080 0000044cH .data                   DATA
+ 0002:000004cc 0000002cH .bss                    DATA
+ 0003:00000000 000002e8H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:0000003c       ??_C@_1BC@KFCFGPON@?$AAc?$AAc?$AAo?$AAr?$AAe?$AAu?$AAt?$AAl?$AA?$AA@ 1000103c     CellCore_ALL:cellcore.obj
+ 0001:00000050       ??_C@_1DG@OABMDGEM@?$AAc?$AAh?$AAa?$AAr?$AAa?$AAc?$AAt?$AAe?$AAr?$AAi?$AAs?$AAt?$AAi?$AAc?$AA?9?$AAq?$AAu?$AAe?$AAr?$AAy?$AA?9?$AAe?$AAr?$AAr?$AAo?$AAr?$AA?$AA@ 10001050     CellCore_ALL:utils.obj
+ 0001:00000088       ??_C@_1CO@HIPNPOBD@?$AAn?$AAo?$AAc?$AAh?$AAa?$AAr?$AAa?$AAc?$AAt?$AAe?$AAr?$AAi?$AAs?$AAt?$AAi?$AAc?$AA?9?$AAe?$AAr?$AAr?$AAo?$AAr?$AA?$AA@ 10001088     CellCore_ALL:utils.obj
+ 0001:000000b8       ??_C@_1CK@EOLANBPO@?$AAc?$AAh?$AAa?$AAr?$AAa?$AAc?$AAt?$AAe?$AAr?$AAi?$AAs?$AAt?$AAi?$AAc?$AA?9?$AAe?$AAr?$AAr?$AAo?$AAr?$AA?$AA@ 100010b8     CellCore_ALL:utils.obj
+ 0001:000000e4       ??_C@_1CC@ONDLBFAP@?$AAp?$AAa?$AAr?$AAm?$AA?9?$AAq?$AAu?$AAe?$AAr?$AAy?$AA?9?$AAe?$AAr?$AAr?$AAo?$AAr?$AA?$AA@ 100010e4     CellCore_ALL:utils.obj
+ 0001:00000108       ??_C@_1BK@PJDEGMBE@?$AAn?$AAo?$AAp?$AAa?$AAr?$AAm?$AA?9?$AAe?$AAr?$AAr?$AAo?$AAr?$AA?$AA@ 10001108     CellCore_ALL:utils.obj
+ 0001:00000124       ??_C@_1BG@OEBGELFP@?$AAp?$AAa?$AAr?$AAm?$AA?9?$AAe?$AAr?$AAr?$AAo?$AAr?$AA?$AA@ 10001124     CellCore_ALL:utils.obj
+ 0001:0000013c       ??_C@_1CK@LNEFLCHC@?$AAc?$AAh?$AAa?$AAr?$AAa?$AAc?$AAt?$AAe?$AAr?$AAi?$AAs?$AAt?$AAi?$AAc?$AA?9?$AAq?$AAu?$AAe?$AAr?$AAy?$AA?$AA@ 1000113c     CellCore_ALL:utils.obj
+ 0001:00000168       ??_C@_1CC@LDOHHDHL@?$AAn?$AAo?$AAc?$AAh?$AAa?$AAr?$AAa?$AAc?$AAt?$AAe?$AAr?$AAi?$AAs?$AAt?$AAi?$AAc?$AA?$AA@ 10001168     CellCore_ALL:utils.obj
+ 0001:0000018c       ??_C@_1BO@BPBOFNNM@?$AAc?$AAh?$AAa?$AAr?$AAa?$AAc?$AAt?$AAe?$AAr?$AAi?$AAs?$AAt?$AAi?$AAc?$AA?$AA@ 1000118c     CellCore_ALL:utils.obj
+ 0001:000001ac       ??_C@_1BG@BHODCIND@?$AAp?$AAa?$AAr?$AAm?$AA?9?$AAq?$AAu?$AAe?$AAr?$AAy?$AA?$AA@ 100011ac     CellCore_ALL:utils.obj
+ 0001:000001c4       ??_C@_1O@FGGKAJEB@?$AAn?$AAo?$AAp?$AAa?$AAr?$AAm?$AA?$AA@ 100011c4     CellCore_ALL:utils.obj
+ 0001:000001d4       ??_C@_19HJNLDBCA@?$AAp?$AAa?$AAr?$AAm?$AA?$AA@ 100011d4     CellCore_ALL:utils.obj
+ 0001:000001e0       ??_C@_1M@CMFAAGMD@?$AAl?$AAa?$AAb?$AAe?$AAl?$AA?$AA@ 100011e0     CellCore_ALL:utils.obj
+ 0001:000001ec       ??_C@_1BE@NLOMFPNI@?$AAr?$AAw?$AA?9?$AAa?$AAc?$AAc?$AAe?$AAs?$AAs?$AA?$AA@ 100011ec     CellCore_ALL:utils.obj
+ 0001:00000200       ??_C@_1BC@FKLDILLD@?$AAm?$AAu?$AAl?$AAt?$AAi?$AAp?$AAl?$AAe?$AA?$AA@ 10001200     CellCore_ALL:utils.obj
+ 0001:00000214       ??_C@_1BA@GIBKLCM@?$AAo?$AAp?$AAt?$AAi?$AAo?$AAn?$AAs?$AA?$AA@ 10001214     CellCore_ALL:utils.obj
+ 0001:00000224       ??_C@_1BE@KAGLMIGD@?$AAm?$AAa?$AAx?$AAl?$AAe?$AAn?$AAg?$AAt?$AAh?$AA?$AA@ 10001224     CellCore_ALL:utils.obj
+ 0001:00000238       ??_C@_1BC@KPJALBE@?$AAm?$AAi?$AAn?$AAv?$AAa?$AAl?$AAu?$AAe?$AA?$AA@ 10001238     CellCore_ALL:utils.obj
+ 0001:0000024c       ??_C@_1BC@OHJKODIB@?$AAm?$AAa?$AAx?$AAv?$AAa?$AAl?$AAu?$AAe?$AA?$AA@ 1000124c     CellCore_ALL:utils.obj
+ 0001:00000260       ??_C@_1BM@CBNGOFDH@?$AAs?$AAe?$AAm?$AAa?$AAn?$AAt?$AAi?$AAc?$AA?9?$AAt?$AAy?$AAp?$AAe?$AA?$AA@ 10001260     CellCore_ALL:utils.obj
+ 0001:0000027c       ??_C@_1BC@OIPNIKGC@?$AAd?$AAa?$AAt?$AAa?$AAt?$AAy?$AAp?$AAe?$AA?$AA@ 1000127c     CellCore_ALL:utils.obj
+ 0001:00000290       ??_C@_1M@KBCLFMHN@?$AAv?$AAa?$AAl?$AAu?$AAe?$AA?$AA@ 10001290     CellCore_ALL:utils.obj
+ 0001:0000029c       ??_C@_19HHIIBINK@?$AAn?$AAa?$AAm?$AAe?$AA?$AA@ 1000129c     CellCore_ALL:utils.obj
+ 0001:00000340       ??_C@_1O@HHMIPOHD@?$AA?$HO?$AAG?$AAP?$AAR?$AAS?$AA?$CB?$AA?$AA@ 10001340     CellCore_ALL:utils.obj
+ 0001:00000350       ??_C@_1BM@BDCMBJLE@?$AAS?$AAu?$AAs?$AAp?$AAe?$AAn?$AAd?$AAR?$AAe?$AAs?$AAu?$AAm?$AAe?$AA?$AA@ 10001350     CellCore_ALL:utils.obj
+ 0001:00000370       ??_C@_1MO@JMHLMBNH@?$AAC?$AAe?$AAl?$AAl?$AAC?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAT?$AA?3?$AA?5?$AAT?$AAh?$AAe?$AA?5?$AAf?$AAu?$AAn?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAS?$AAi?$AAm?$AAI?$AAn?$AAi@ 10001370     CellCore_ALL:simwrap.obj
+ 0001:00000440       ??_C@_1BM@GFGKFFLJ@?$AAS?$AAi?$AAm?$AAI?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz?$AAe?$AA?$AA@ 10001440     CellCore_ALL:simwrap.obj
+ 0001:0000045c       ??_C@_1BA@GNFAMPAL@?$AAS?$AAi?$AAm?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 1000145c     CellCore_ALL:simwrap.obj
+ 0001:00000470       ??_C@_1NC@NLNEPOI@?$AAC?$AAe?$AAl?$AAl?$AAC?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAT?$AA?3?$AA?5?$AAT?$AAh?$AAe?$AA?5?$AAf?$AAu?$AAn?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAS?$AAi?$AAm?$AAD?$AAe?$AAi@ 10001470     CellCore_ALL:simwrap.obj
+ 0001:00000544       ??_C@_1CA@MICIEOKE@?$AAS?$AAi?$AAm?$AAD?$AAe?$AAi?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz?$AAe?$AA?$AA@ 10001544     CellCore_ALL:simwrap.obj
+ 0001:00000568       ??_C@_1MO@IALLHCOI@?$AAC?$AAe?$AAl?$AAl?$AAC?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAT?$AA?3?$AA?5?$AAT?$AAh?$AAe?$AA?5?$AAf?$AAu?$AAn?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAS?$AAi?$AAm?$AAG?$AAe?$AAt@ 10001568     CellCore_ALL:simwrap.obj
+ 0001:00000638       ??_C@_1BM@FLJFJJMC@?$AAS?$AAi?$AAm?$AAG?$AAe?$AAt?$AAD?$AAe?$AAv?$AAC?$AAa?$AAp?$AAs?$AA?$AA@ 10001638     CellCore_ALL:simwrap.obj
+ 0001:00000658       ??_C@_1NO@LPAMOBPN@?$AAC?$AAe?$AAl?$AAl?$AAC?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAT?$AA?3?$AA?5?$AAT?$AAh?$AAe?$AA?5?$AAf?$AAu?$AAn?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAS?$AAi?$AAm?$AAR?$AAe?$AAa@ 10001658     CellCore_ALL:simwrap.obj
+ 0001:00000738       ??_C@_1CM@INHKHKOI@?$AAS?$AAi?$AAm?$AAR?$AAe?$AAa?$AAd?$AAP?$AAh?$AAo?$AAn?$AAe?$AAb?$AAo?$AAo?$AAk?$AAE?$AAn?$AAt?$AAr?$AAy?$AA?$AA@ 10001738     CellCore_ALL:simwrap.obj
+ 0001:00000768       ??_C@_1NO@NGMLHDKH@?$AAC?$AAe?$AAl?$AAl?$AAC?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAT?$AA?3?$AA?5?$AAT?$AAh?$AAe?$AA?5?$AAf?$AAu?$AAn?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAS?$AAi?$AAm?$AAG?$AAe?$AAt@ 10001768     CellCore_ALL:simwrap.obj
+ 0001:00000848       ??_C@_1CM@HIOAGJPH@?$AAS?$AAi?$AAm?$AAG?$AAe?$AAt?$AAP?$AAh?$AAo?$AAn?$AAe?$AAb?$AAo?$AAo?$AAk?$AAS?$AAt?$AAa?$AAt?$AAu?$AAs?$AA?$AA@ 10001848     CellCore_ALL:simwrap.obj
+ 0001:00000878       ??_C@_1OA@DBOHCHNM@?$AAC?$AAe?$AAl?$AAl?$AAC?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAT?$AA?3?$AA?5?$AAT?$AAh?$AAe?$AA?5?$AAf?$AAu?$AAn?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAS?$AAi?$AAm?$AAW?$AAr?$AAi@ 10001878     CellCore_ALL:simwrap.obj
+ 0001:00000958       ??_C@_1CO@CKEGAMLB@?$AAS?$AAi?$AAm?$AAW?$AAr?$AAi?$AAt?$AAe?$AAP?$AAh?$AAo?$AAn?$AAe?$AAb?$AAo?$AAo?$AAk?$AAE?$AAn?$AAt?$AAr?$AAy?$AA?$AA@ 10001958     CellCore_ALL:simwrap.obj
+ 0001:00000988       ??_C@_1OC@JFOOEBPF@?$AAC?$AAe?$AAl?$AAl?$AAC?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAT?$AA?3?$AA?5?$AAT?$AAh?$AAe?$AA?5?$AAf?$AAu?$AAn?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAS?$AAi?$AAm?$AAD?$AAe?$AAl@ 10001988     CellCore_ALL:simwrap.obj
+ 0001:00000a6c       ??_C@_1DA@PHIKACIM@?$AAS?$AAi?$AAm?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AAP?$AAh?$AAo?$AAn?$AAe?$AAb?$AAo?$AAo?$AAk?$AAE?$AAn?$AAt?$AAr?$AAy?$AA?$AA@ 10001a6c     CellCore_ALL:simwrap.obj
+ 0001:00000aa0       ??_C@_1OA@MBHFEIBF@?$AAC?$AAe?$AAl?$AAl?$AAC?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAT?$AA?3?$AA?5?$AAT?$AAh?$AAe?$AA?5?$AAf?$AAu?$AAn?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAS?$AAi?$AAm?$AAG?$AAe?$AAt@ 10001aa0     CellCore_ALL:simwrap.obj
+ 0001:00000b80       ??_C@_1CO@PFGGMLLB@?$AAS?$AAi?$AAm?$AAG?$AAe?$AAt?$AAP?$AAh?$AAo?$AAn?$AAe?$AAL?$AAo?$AAc?$AAk?$AAe?$AAd?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?$AA@ 10001b80     CellCore_ALL:simwrap.obj
+ 0001:00000bb0       ??_C@_1NA@KFPNABCF@?$AAC?$AAe?$AAl?$AAl?$AAC?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAT?$AA?3?$AA?5?$AAT?$AAh?$AAe?$AA?5?$AAf?$AAu?$AAn?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAS?$AAi?$AAm?$AAU?$AAn?$AAl@ 10001bb0     CellCore_ALL:simwrap.obj
+ 0001:00000c80       ??_C@_1BO@JIJJEPOE@?$AAS?$AAi?$AAm?$AAU?$AAn?$AAl?$AAo?$AAc?$AAk?$AAP?$AAh?$AAo?$AAn?$AAe?$AA?$AA@ 10001c80     CellCore_ALL:simwrap.obj
+ 0001:00000ca0       ??_C@_1NK@PCECDJMD@?$AAC?$AAe?$AAl?$AAl?$AAC?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAT?$AA?3?$AA?5?$AAT?$AAh?$AAe?$AA?5?$AAf?$AAu?$AAn?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAS?$AAi?$AAm?$AAG?$AAe?$AAt@ 10001ca0     CellCore_ALL:simwrap.obj
+ 0001:00000d7c       ??_C@_1CI@PCCHHGDG@?$AAS?$AAi?$AAm?$AAG?$AAe?$AAt?$AAL?$AAo?$AAc?$AAk?$AAi?$AAn?$AAg?$AAS?$AAt?$AAa?$AAt?$AAu?$AAs?$AA?$AA@ 10001d7c     CellCore_ALL:simwrap.obj
+ 0001:00000da8       ??_C@_1NK@CHDLFGMJ@?$AAC?$AAe?$AAl?$AAl?$AAC?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAT?$AA?3?$AA?5?$AAT?$AAh?$AAe?$AA?5?$AAf?$AAu?$AAn?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAS?$AAi?$AAm?$AAS?$AAe?$AAt@ 10001da8     CellCore_ALL:simwrap.obj
+ 0001:00000e84       ??_C@_1CI@EFJICLEN@?$AAS?$AAi?$AAm?$AAS?$AAe?$AAt?$AAL?$AAo?$AAc?$AAk?$AAi?$AAn?$AAg?$AAS?$AAt?$AAa?$AAt?$AAu?$AAs?$AA?$AA@ 10001e84     CellCore_ALL:simwrap.obj
+ 0001:00000eb0       ??_C@_1OE@EJDCFHGA@?$AAC?$AAe?$AAl?$AAl?$AAC?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAT?$AA?3?$AA?5?$AAT?$AAh?$AAe?$AA?5?$AAf?$AAu?$AAn?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAS?$AAi?$AAm?$AAC?$AAh?$AAa@ 10001eb0     CellCore_ALL:simwrap.obj
+ 0001:00000f94       ??_C@_1DC@MJAPOAOC@?$AAS?$AAi?$AAm?$AAC?$AAh?$AAa?$AAn?$AAg?$AAe?$AAL?$AAo?$AAc?$AAk?$AAi?$AAn?$AAg?$AAP?$AAa?$AAs?$AAs?$AAw?$AAo?$AAr?$AAd?$AA?$AA@ 10001f94     CellCore_ALL:simwrap.obj
+ 0001:00000fc8       ??_C@_1OA@DBPPNMGO@?$AAC?$AAe?$AAl?$AAl?$AAC?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAT?$AA?3?$AA?5?$AAT?$AAh?$AAe?$AA?5?$AAf?$AAu?$AAn?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAS?$AAi?$AAm?$AAG?$AAe?$AAt@ 10001fc8     CellCore_ALL:simwrap.obj
+ 0001:000010a8       ??_C@_1CO@JEJFGAF@?$AAS?$AAi?$AAm?$AAG?$AAe?$AAt?$AAS?$AAm?$AAs?$AAS?$AAt?$AAo?$AAr?$AAa?$AAg?$AAe?$AAS?$AAt?$AAa?$AAt?$AAu?$AAs?$AA?$AA@ 100020a8     CellCore_ALL:simwrap.obj
+ 0001:000010d8       ??_C@_1NA@BGMENLOK@?$AAC?$AAe?$AAl?$AAl?$AAC?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAT?$AA?3?$AA?5?$AAT?$AAh?$AAe?$AA?5?$AAf?$AAu?$AAn?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAS?$AAi?$AAm?$AAR?$AAe?$AAa@ 100020d8     CellCore_ALL:simwrap.obj
+ 0001:000011a8       ??_C@_1BO@BMHOGOKL@?$AAS?$AAi?$AAm?$AAR?$AAe?$AAa?$AAd?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AA?$AA@ 100021a8     CellCore_ALL:simwrap.obj
+ 0001:000011c8       ??_C@_1NC@GNPPOPCC@?$AAC?$AAe?$AAl?$AAl?$AAC?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAT?$AA?3?$AA?5?$AAT?$AAh?$AAe?$AA?5?$AAf?$AAu?$AAn?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAS?$AAi?$AAm?$AAW?$AAr?$AAi@ 100021c8     CellCore_ALL:simwrap.obj
+ 0001:0000129c       ??_C@_1CA@CJMJLLJJ@?$AAS?$AAi?$AAm?$AAW?$AAr?$AAi?$AAt?$AAe?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AA?$AA@ 1000229c     CellCore_ALL:simwrap.obj
+ 0001:000012c0       ??_C@_1NE@CCCDDIOL@?$AAC?$AAe?$AAl?$AAl?$AAC?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAT?$AA?3?$AA?5?$AAT?$AAh?$AAe?$AA?5?$AAf?$AAu?$AAn?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAS?$AAi?$AAm?$AAD?$AAe?$AAl@ 100022c0     CellCore_ALL:simwrap.obj
+ 0001:00001394       ??_C@_1CC@FADCLKBB@?$AAS?$AAi?$AAm?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AA?$AA@ 10002394     CellCore_ALL:simwrap.obj
+ 0001:000013b8       ??_C@_1MO@JJNIINLL@?$AAC?$AAe?$AAl?$AAl?$AAC?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAT?$AA?3?$AA?5?$AAT?$AAh?$AAe?$AA?5?$AAf?$AAu?$AAn?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAS?$AAi?$AAm?$AAR?$AAe?$AAa@ 100023b8     CellCore_ALL:simwrap.obj
+ 0001:00001488       ??_C@_1BM@LMBGMHG@?$AAS?$AAi?$AAm?$AAR?$AAe?$AAa?$AAd?$AAR?$AAe?$AAc?$AAo?$AAr?$AAd?$AA?$AA@ 10002488     CellCore_ALL:simwrap.obj
+ 0001:000014a8       ??_C@_1NA@ODHHKLKA@?$AAC?$AAe?$AAl?$AAl?$AAC?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAT?$AA?3?$AA?5?$AAT?$AAh?$AAe?$AA?5?$AAf?$AAu?$AAn?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAS?$AAi?$AAm?$AAW?$AAr?$AAi@ 100024a8     CellCore_ALL:simwrap.obj
+ 0001:00001578       ??_C@_1BO@BLJKEOLF@?$AAS?$AAi?$AAm?$AAW?$AAr?$AAi?$AAt?$AAe?$AAR?$AAe?$AAc?$AAo?$AAr?$AAd?$AA?$AA@ 10002578     CellCore_ALL:simwrap.obj
+ 0001:00001598       ??_C@_1NE@BJPPKOEJ@?$AAC?$AAe?$AAl?$AAl?$AAC?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAT?$AA?3?$AA?5?$AAT?$AAh?$AAe?$AA?5?$AAf?$AAu?$AAn?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAS?$AAi?$AAm?$AAG?$AAe?$AAt@ 10002598     CellCore_ALL:simwrap.obj
+ 0001:0000166c       ??_C@_1CC@NJJGMLMM@?$AAS?$AAi?$AAm?$AAG?$AAe?$AAt?$AAR?$AAe?$AAc?$AAo?$AAr?$AAd?$AAI?$AAn?$AAf?$AAo?$AA?$AA@ 1000266c     CellCore_ALL:simwrap.obj
+ 0001:00001690       ??_C@_1OK@CKPBJNJA@?$AAC?$AAe?$AAl?$AAl?$AAC?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAT?$AA?3?$AA?5?$AAT?$AAh?$AAe?$AA?5?$AAf?$AAu?$AAn?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAS?$AAi?$AAm?$AAG?$AAe?$AAt@ 10002690     CellCore_ALL:simwrap.obj
+ 0001:0000177c       ??_C@_1DI@PAODNMKG@?$AAS?$AAi?$AAm?$AAG?$AAe?$AAt?$AAP?$AAh?$AAo?$AAn?$AAe?$AAb?$AAo?$AAo?$AAk?$AAC?$AAa?$AAp?$AAa?$AAb?$AAi?$AAl?$AAi?$AAt?$AAi?$AAe?$AAs?$AA?$AA@ 1000277c     CellCore_ALL:simwrap.obj
+ 0001:000017b8       ??_C@_1OC@KDCIJKDK@?$AAC?$AAe?$AAl?$AAl?$AAC?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAT?$AA?3?$AA?5?$AAT?$AAh?$AAe?$AA?5?$AAf?$AAu?$AAn?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAS?$AAi?$AAm?$AAR?$AAe?$AAa@ 100027b8     CellCore_ALL:simwrap.obj
+ 0001:0000189c       ??_C@_1DA@FBHMEKAA@?$AAS?$AAi?$AAm?$AAR?$AAe?$AAa?$AAd?$AAP?$AAh?$AAo?$AAn?$AAe?$AAb?$AAo?$AAo?$AAk?$AAE?$AAn?$AAt?$AAr?$AAi?$AAe?$AAs?$AA?$AA@ 1000289c     CellCore_ALL:simwrap.obj
+ 0001:000018d0       ??_C@_1OE@MINJHLLG@?$AAC?$AAe?$AAl?$AAl?$AAC?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAT?$AA?3?$AA?5?$AAT?$AAh?$AAe?$AA?5?$AAf?$AAu?$AAn?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAS?$AAi?$AAm?$AAW?$AAr?$AAi@ 100028d0     CellCore_ALL:simwrap.obj
+ 0001:000019b4       ??_C@_1DC@CAFCOCGC@?$AAS?$AAi?$AAm?$AAW?$AAr?$AAi?$AAt?$AAe?$AAP?$AAh?$AAo?$AAn?$AAe?$AAb?$AAo?$AAo?$AAk?$AAE?$AAn?$AAt?$AAr?$AAy?$AAE?$AAx?$AA?$AA@ 100029b4     CellCore_ALL:simwrap.obj
+ 0001:000019e8       ??_C@_1NM@DCIJMBPE@?$AAC?$AAe?$AAl?$AAl?$AAC?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAT?$AA?3?$AA?5?$AAT?$AAh?$AAe?$AA?5?$AAf?$AAu?$AAn?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAS?$AAi?$AAm?$AAW?$AAr?$AAi@ 100029e8     CellCore_ALL:simwrap.obj
+ 0001:00001ac4       ??_C@_1CK@LOCPDMLO@?$AAS?$AAi?$AAm?$AAW?$AAr?$AAi?$AAt?$AAe?$AAP?$AAh?$AAo?$AAn?$AAe?$AAb?$AAo?$AAo?$AAk?$AAT?$AAa?$AAg?$AA?$AA@ 10002ac4     CellCore_ALL:simwrap.obj
+ 0001:00001af0       ??_C@_1NK@BMPENFIF@?$AAC?$AAe?$AAl?$AAl?$AAC?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAT?$AA?3?$AA?5?$AAT?$AAh?$AAe?$AA?5?$AAf?$AAu?$AAn?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAS?$AAi?$AAm?$AAR?$AAe?$AAa@ 10002af0     CellCore_ALL:simwrap.obj
+ 0001:00001bcc       ??_C@_1CI@KKNBDPIG@?$AAS?$AAi?$AAm?$AAR?$AAe?$AAa?$AAd?$AAP?$AAh?$AAo?$AAn?$AAe?$AAb?$AAo?$AAo?$AAk?$AAT?$AAa?$AAg?$AA?$AA@ 10002bcc     CellCore_ALL:simwrap.obj
+ 0001:00001bf4       ??_C@_11LOCGONAA@?$AA?$AA@ 10002bf4     CellCore_ALL:extapi.obj
+ 0001:00001bf8       ??_C@_1BM@LMNNDCFO@?$AAC?$AAe?$AAl?$AAl?$AAu?$AAl?$AAa?$AAr?$AA?5?$AAL?$AAi?$AAn?$AAe?$AA?$AA@ 10002bf8     CellCore_ALL:assisttapi.obj
+ 0001:00001c14       ??_C@_1BO@KAKKKBKI@?$AAC?$AAe?$AAl?$AAl?$AAu?$AAl?$AAa?$AAr?$AA?5?$AAP?$AAh?$AAo?$AAn?$AAe?$AA?$AA@ 10002c14     CellCore_ALL:assisttapi.obj
+ 0001:00001c34       ??_C@_1BM@GLGKJBHF@?$AAP?$AAh?$AAo?$AAn?$AAe?$AAM?$AAa?$AAk?$AAe?$AAC?$AAa?$AAl?$AAl?$AA?$AA@ 10002c34     CellCore_ALL:DllLoad.obj
+ 0001:00001c50       ??_C@_1BE@NKHFKAPM@?$AAp?$AAh?$AAo?$AAn?$AAe?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 10002c50     CellCore_ALL:DllLoad.obj
+ 0001:00001c64       ??_C@_1M@GDOFEOEF@?$AAR?$AAA?$AAD?$AAI?$AAO?$AA?$AA@ 10002c64     toolbox:toolbox_i.obj
+ 0001:00001c9c       ?_GetProcFromDLL@@YAXPAPAUHINSTANCE__@@PBGPAP6AHXZ1@Z 10002c9c f   CellCore_ALL:cellcore.obj
+ 0001:00001cf0       RestoreLastRadioTransmitReceiveState 10002cf0 f   CellCore_ALL:cellcore.obj
+ 0001:00001d3c       tapiRequestMakeCallW       10002d3c f   CellCore_ALL:cellcore.obj
+ 0001:00001eb4       SetRadioState              10002eb4 f   CellCore_ALL:cellcore.obj
+ 0001:00001ec8       DllMain                    10002ec8 f   CellCore_ALL:cellcore.obj
+ 0001:00001f10       IsSuspendResumeConnection  10002f10 f   CellCore_ALL:utils.obj
+ 0001:00002040       IsAlwaysOnConnection       10003040 f   CellCore_ALL:utils.obj
+ 0001:00002044       ?FreeDelayLoadLibrary@@YAXXZ 10003044 f   CellCore_ALL:simwrap.obj
+ 0001:00002060       SimInitialize              10003060 f   CellCore_ALL:simwrap.obj
+ 0001:000020e4       SimDeinitialize            100030e4 f   CellCore_ALL:simwrap.obj
+ 0001:00002150       SimGetDevCaps              10003150 f   CellCore_ALL:simwrap.obj
+ 0001:000021cc       SimReadPhonebookEntry      100031cc f   CellCore_ALL:simwrap.obj
+ 0001:00002250       SimGetPhonebookStatus      10003250 f   CellCore_ALL:simwrap.obj
+ 0001:000022d4       SimWritePhonebookEntry     100032d4 f   CellCore_ALL:simwrap.obj
+ 0001:00002358       SimDeletePhonebookEntry    10003358 f   CellCore_ALL:simwrap.obj
+ 0001:000023d4       SimGetPhoneLockedState     100033d4 f   CellCore_ALL:simwrap.obj
+ 0001:00002448       SimUnlockPhone             10003448 f   CellCore_ALL:simwrap.obj
+ 0001:000024c4       SimGetLockingStatus        100034c4 f   CellCore_ALL:simwrap.obj
+ 0001:00002548       SimSetLockingStatus        10003548 f   CellCore_ALL:simwrap.obj
+ 0001:000025cc       SimChangeLockingPassword   100035cc f   CellCore_ALL:simwrap.obj
+ 0001:00002650       SimGetSmsStorageStatus     10003650 f   CellCore_ALL:simwrap.obj
+ 0001:000026d4       SimReadMessage             100036d4 f   CellCore_ALL:simwrap.obj
+ 0001:00002758       SimWriteMessage            10003758 f   CellCore_ALL:simwrap.obj
+ 0001:000027dc       SimDeleteMessage           100037dc f   CellCore_ALL:simwrap.obj
+ 0001:00002858       SimReadRecord              10003858 f   CellCore_ALL:simwrap.obj
+ 0001:000028f4       SimWriteRecord             100038f4 f   CellCore_ALL:simwrap.obj
+ 0001:00002988       SimGetRecordInfo           10003988 f   CellCore_ALL:simwrap.obj
+ 0001:00002a04       SimGetPhonebookCapabilities 10003a04 f   CellCore_ALL:simwrap.obj
+ 0001:00002a78       SimReadPhonebookEntries    10003a78 f   CellCore_ALL:simwrap.obj
+ 0001:00002b0c       SimWritePhonebookEntryEx   10003b0c f   CellCore_ALL:simwrap.obj
+ 0001:00002b90       SimWritePhonebookTag       10003b90 f   CellCore_ALL:simwrap.obj
+ 0001:00002c14       SimReadPhonebookTag        10003c14 f   CellCore_ALL:simwrap.obj
+ 0001:00002ca8       ?TAPIStructureValid@@YA_NPAXK@Z 10003ca8 f   CellCore_ALL:extapi.obj
+ 0001:00002ddc       lineGetCallBarringCaps     10003ddc f   CellCore_ALL:extapi.obj
+ 0001:00002e68       lineGetCallBarringState    10003e68 f   CellCore_ALL:extapi.obj
+ 0001:00002f6c       lineGetCallWaitingCaps     10003f6c f   CellCore_ALL:extapi.obj
+ 0001:00002f74       lineGetCallWaitingState    10003f74 f   CellCore_ALL:extapi.obj
+ 0001:00002f7c       lineGetCurrentAddressID    10003f7c f   CellCore_ALL:extapi.obj
+ 0001:00002f84       lineGetCurrentHSCSDStatus  10003f84 f   CellCore_ALL:extapi.obj
+ 0001:00003048       lineGetCurrentOperator     10004048 f   CellCore_ALL:extapi.obj
+ 0001:000030c0       lineGetCurrentOperatorEx   100040c0 f   CellCore_ALL:extapi.obj
+ 0001:000031ec       lineGetCurrentSystemType   100041ec f   CellCore_ALL:extapi.obj
+ 0001:000031f4       lineGetEquipmentState      100041f4 f   CellCore_ALL:extapi.obj
+ 0001:00003280       lineGetGeneralInfo         10004280 f   CellCore_ALL:extapi.obj
+ 0001:000032f8       lineGetGPRSClass           100042f8 f   CellCore_ALL:extapi.obj
+ 0001:00003300       lineGetHSCSDCaps           10004300 f   CellCore_ALL:extapi.obj
+ 0001:000033e0       lineGetHSCSDState          100043e0 f   CellCore_ALL:extapi.obj
+ 0001:000034a4       lineGetMuteState           100044a4 f   CellCore_ALL:extapi.obj
+ 0001:000034ac       lineGetNumberCalls         100044ac f   CellCore_ALL:extapi.obj
+ 0001:00003554       lineGetOperatorStatus      10004554 f   CellCore_ALL:extapi.obj
+ 0001:000035cc       lineGetOperatorStatusEx    100045cc f   CellCore_ALL:extapi.obj
+ 0001:00003644       lineGetRadioPresence       10004644 f   CellCore_ALL:extapi.obj
+ 0001:0000364c       lineGetRegisterStatus      1000464c f   CellCore_ALL:extapi.obj
+ 0001:000036bc       lineGetSendCallerIDState   100046bc f   CellCore_ALL:extapi.obj
+ 0001:000036c4       lineGetUSSD                100046c4 f   CellCore_ALL:extapi.obj
+ 0001:00003760       lineManageCalls            10004760 f   CellCore_ALL:extapi.obj
+ 0001:000037b0       lineRegister               100047b0 f   CellCore_ALL:extapi.obj
+ 0001:00003894       lineRegisterEx             10004894 f   CellCore_ALL:extapi.obj
+ 0001:000039fc       lineSendUSSD               100049fc f   CellCore_ALL:extapi.obj
+ 0001:00003a90       lineSetCallBarringPassword 10004a90 f   CellCore_ALL:extapi.obj
+ 0001:00003bb0       lineSetCallBarringState    10004bb0 f   CellCore_ALL:extapi.obj
+ 0001:00003c80       lineSetCallWaitingState    10004c80 f   CellCore_ALL:extapi.obj
+ 0001:00003cd0       lineSetCurrentAddressID    10004cd0 f   CellCore_ALL:extapi.obj
+ 0001:00003cd8       lineSetEquipmentState      10004cd8 f   CellCore_ALL:extapi.obj
+ 0001:00003ce0       lineSetGPRSClass           10004ce0 f   CellCore_ALL:extapi.obj
+ 0001:00003ce8       lineSetHSCSDState          10004ce8 f   CellCore_ALL:extapi.obj
+ 0001:00003d50       lineSetMuteState           10004d50 f   CellCore_ALL:extapi.obj
+ 0001:00003d58       lineSetSendCallerIDState   10004d58 f   CellCore_ALL:extapi.obj
+ 0001:00003d60       lineSetPreferredOperator   10004d60 f   CellCore_ALL:extapi.obj
+ 0001:00003de0       lineSetPreferredOperatorEx 10004de0 f   CellCore_ALL:extapi.obj
+ 0001:00003ef4       lineUnregister             10004ef4 f   CellCore_ALL:extapi.obj
+ 0001:00003f3c       tapiGetCellularLineDevices 10004f3c f   CellCore_ALL:assisttapi.obj
+ 0001:000040f0       tapiGetCellularPhoneDevices 100050f0 f   CellCore_ALL:assisttapi.obj
+ 0001:000042a0       PhoneMakeCall              100052a0 f   CellCore_ALL:DllLoad.obj
+ 0001:000042f4       ?MemoryReadable@@YA_NPBXI@Z 100052f4 f   toolbox:toolbox_i.obj
+ 0001:00004324       ?MemoryWriteable@@YA_NPAXI@Z 10005324 f   toolbox:toolbox_i.obj
+ 0001:0000435c       ?_tcsReadable@@YA_NPBG@Z   1000535c f   toolbox:toolbox_i.obj
+ 0001:000043d0       GetProcAddressW            100053d0 f   coredll:COREDLL.dll
+ 0001:000043e0       LoadLibraryW               100053e0 f   coredll:COREDLL.dll
+ 0001:000043f0       StringCchLengthW           100053f0 f   coredll:COREDLL.dll
+ 0001:00004400       RegisterDbgZones           10005400 f   coredll:COREDLL.dll
+ 0001:00004410       DisableThreadLibraryCalls  10005410 f   coredll:COREDLL.dll
+ 0001:00004420       RegCloseKey                10005420 f   coredll:COREDLL.dll
+ 0001:00004430       RegQueryValueExW           10005430 f   coredll:COREDLL.dll
+ 0001:00004440       RegOpenKeyExW              10005440 f   coredll:COREDLL.dll
+ 0001:00004450       FreeLibrary                10005450 f   coredll:COREDLL.dll
+ 0001:00004460       NKDbgPrintfW               10005460 f   coredll:COREDLL.dll
+ 0001:00004470       lineDevSpecific            10005470 f   coredll:COREDLL.dll
+ 0001:00004480       lineGetDevCaps             10005480 f   coredll:COREDLL.dll
+ 0001:00004490       lineNegotiateAPIVersion    10005490 f   coredll:COREDLL.dll
+ 0001:000044a0       phoneGetDevCaps            100054a0 f   coredll:COREDLL.dll
+ 0001:000044b0       phoneNegotiateAPIVersion   100054b0 f   coredll:COREDLL.dll
+ 0001:000044c0       DeleteCriticalSection      100054c0 f   coredll:COREDLL.dll
+ 0001:000045c8       _DllMainCRTStartup         100055c8 f   corelib0:pegdmain.obj
+ 0001:000045f4       __GSHandlerCheckCommon     100055f4 f   corelib0:gshandler.obj
+ 0001:00004630       __GSHandlerCheck           10005630 f   corelib0:gshandler.obj
+ 0001:00004650       __security_init_cookie     10005650 f   corelib0:seccinit.obj
+ 0001:0000469c       __security_check_cookie    1000569c f   corelib0:armsecgs.obj
+ 0001:000046ac       __gsfailure                100056ac     corelib0:armsecgs.obj
+ 0001:000047d8       _cexit                     100057d8 f   corelib0:cexit.obj
+ 0001:000047e8       _initterm                  100057e8 f   corelib0:crt0dat.obj
+ 0001:00004814       _cinit                     10005814 f   corelib0:crt0dat.obj
+ 0001:00004874       __crt_ExitProcess          10005874 f   corelib0:exitproc_proxy.obj
+ 0001:00004880       memset                     10005880 f   corelib1:COREDLL.dll
+ 0001:00004890       wcslen                     10005890 f   corelib1:COREDLL.dll
+ 0001:000048a0       wcscmp                     100058a0 f   corelib1:COREDLL.dll
+ 0001:000048b0       __C_specific_handler       100058b0 f   corelib1:COREDLL.dll
+ 0001:000048c0       memcpy                     100058c0 f   corelib1:COREDLL.dll
+ 0001:000048d0       ??3@YAXPAX@Z               100058d0 f   corelib1:COREDLL.dll
+ 0001:000048e0       ??2@YAPAXI@Z               100058e0 f   corelib1:COREDLL.dll
+ 0001:000048f0       wcsncmp                    100058f0 f   corelib1:COREDLL.dll
+ 0001:00004900       _XcptFilter                10005900 f   corelib1:COREDLL.dll
+ 0001:00004910       __security_gen_cookie2     10005910 f   corelib1:COREDLL.dll
+ 0001:00004920       __report_gsfailure         10005920 f   corelib1:COREDLL.dll
+ 0001:00004930       free                       10005930 f   corelib1:COREDLL.dll
+ 0001:00004940       InterlockedExchange        10005940 f   coredll:COREDLL.dll
+ 0001:00004950       TerminateProcess           10005950 f   coredll:COREDLL.dll
+ 0001:000049b0       __IMPORT_DESCRIPTOR_COREDLL 100059b0     coredll:COREDLL.dll
+ 0001:000049c4       __NULL_IMPORT_DESCRIPTOR   100059c4     ole32:ole32.dll
+ 0002:00000000       __imp_TerminateProcess     10007000     coredll:COREDLL.dll
+ 0002:00000004       __imp_InterlockedExchange  10007004     coredll:COREDLL.dll
+ 0002:00000008       __imp_free                 10007008     corelib1:COREDLL.dll
+ 0002:0000000c       __imp_GetProcAddressW      1000700c     coredll:COREDLL.dll
+ 0002:00000010       __imp_LoadLibraryW         10007010     coredll:COREDLL.dll
+ 0002:00000014       __imp_StringCchLengthW     10007014     coredll:COREDLL.dll
+ 0002:00000018       __imp_RegisterDbgZones     10007018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_DisableThreadLibraryCalls 1000701c     coredll:COREDLL.dll
+ 0002:00000020       __imp_RegCloseKey          10007020     coredll:COREDLL.dll
+ 0002:00000024       __imp_RegQueryValueExW     10007024     coredll:COREDLL.dll
+ 0002:00000028       __imp_RegOpenKeyExW        10007028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_FreeLibrary          1000702c     coredll:COREDLL.dll
+ 0002:00000030       __imp_NKDbgPrintfW         10007030     coredll:COREDLL.dll
+ 0002:00000034       __imp_lineDevSpecific      10007034     coredll:COREDLL.dll
+ 0002:00000038       __imp_lineGetDevCaps       10007038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_lineNegotiateAPIVersion 1000703c     coredll:COREDLL.dll
+ 0002:00000040       __imp_phoneGetDevCaps      10007040     coredll:COREDLL.dll
+ 0002:00000044       __imp_phoneNegotiateAPIVersion 10007044     coredll:COREDLL.dll
+ 0002:00000048       __imp_DeleteCriticalSection 10007048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_memset               1000704c     corelib1:COREDLL.dll
+ 0002:00000050       __imp_wcslen               10007050     corelib1:COREDLL.dll
+ 0002:00000054       __imp_wcscmp               10007054     corelib1:COREDLL.dll
+ 0002:00000058       __imp___C_specific_handler 10007058     corelib1:COREDLL.dll
+ 0002:0000005c       __imp_memcpy               1000705c     corelib1:COREDLL.dll
+ 0002:00000060       __imp_??3@YAXPAX@Z         10007060     corelib1:COREDLL.dll
+ 0002:00000064       __imp_??2@YAPAXI@Z         10007064     corelib1:COREDLL.dll
+ 0002:00000068       __imp_wcsncmp              10007068     corelib1:COREDLL.dll
+ 0002:0000006c       __imp__XcptFilter          1000706c     corelib1:COREDLL.dll
+ 0002:00000070       __imp___security_gen_cookie2 10007070     corelib1:COREDLL.dll
+ 0002:00000074       __imp___report_gsfailure   10007074     corelib1:COREDLL.dll
+ 0002:00000078       \177COREDLL_NULL_THUNK_DATA 10007078     coredll:COREDLL.dll
+ 0002:00000080       ?dpCurSettings@@3U_DBGPARAM@@A 10007080     CellCore_ALL:cellcore.obj
+ 0002:000004c4       __security_cookie          100074c4     corelib0:seccinit.obj
+ 0002:000004c8       __security_cookie_complement 100074c8     corelib0:seccinit.obj
+ 0002:000004cc       ?g_hinstCCoreUtl@@3PAUHINSTANCE__@@A 100074cc     CellCore_ALL:cellcore.obj
+ 0002:000004d4       ?g_hSimModule@@3PAUHINSTANCE__@@A 100074d4     CellCore_ALL:simwrap.obj
+ 0002:000004d8       ?g_hinstPhone@@3PAUHINSTANCE__@@A 100074d8     CellCore_ALL:DllLoad.obj
+ 0002:000004e4       _exitflag                  100074e4     corelib0:cexit.obj
+ 0002:000004e8       __onexitend                100074e8     <common>
+ 0002:000004ec       __onexitbegin              100074ec     <common>
+ 0002:000004f0       g_pcsExit                  100074f0     <common>
+ 0002:000004f4       _pRawDllMain               100074f4     <common>
+
+ entry point at        0001:000045c8
+
+ Static symbols
+
+ 0001:00002d1c       ?lineGetStateHelper@@YAJPBUHLINE__@@PAKK@Z 10003d1c f   CellCore_ALL:extapi.obj
+ 0001:00002d8c       ?lineSetStateHelper@@YAJPBUHLINE__@@KK@Z 10003d8c f   CellCore_ALL:extapi.obj
+ 0001:000044d8       _DllMainCRTStartupHelper   100054d8 f   corelib0:pegdmain.obj
+ 0001:000046f0       doexit                     100056f0 f   corelib0:cexit.obj

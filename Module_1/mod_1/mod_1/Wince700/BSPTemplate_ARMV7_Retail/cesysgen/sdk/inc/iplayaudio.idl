@@ -1,0 +1,82 @@
+//
+// Copyright (c) Microsoft Corporation.  All rights reserved.
+//
+//
+// Use of this sample source code is subject to the terms of the Microsoft
+// license agreement under which you licensed this sample source code. If
+// you did not accept the terms of the license agreement, you are not
+// authorized to use this sample source code. For the terms of the license,
+// please see the license agreement between you and Microsoft or, if applicable,
+// see the LICENSE.RTF on your install media or the root of your tools installation.
+// THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+//
+import "unknwn.idl";
+import "objidl.idl";
+
+[
+        object,
+        local,
+        uuid(0EDB016A-3F26-4116-B1CA-448C861B0DBD),
+        pointer_default(unique)
+]
+interface IPlayAudio : IUnknown
+{
+    HRESULT Play();                     // Start playback
+
+    HRESULT Pause();                    // Pause playback
+
+    HRESULT GetDoneEvent(
+        [out] HANDLE *phDoneEvent       // Returns event that is signaled when audio finishes
+    );
+
+    // Duration/Position are in 100ns units from start of file
+    HRESULT GetDuration(                // Returns duration of audio file
+        [out] LONGLONG *pRefTime
+    );
+
+    HRESULT SetPosition(                // Seek to a time position
+        [in] LONGLONG *pRefTime
+    );
+
+    HRESULT  GetPosition(               // Query current time position
+        [out] LONGLONG *pRefTime
+    );
+
+    // Volume ranges from 0 to -10000 in 1/100dB increments
+    // 0 = Full Volume (no attenuation)
+    // -1000 = -10dB attenuation
+    HRESULT SetVolume(
+        [in] LONG Volume
+    );
+
+    HRESULT GetVolume(
+        [out] LONG *pVolume
+    );
+};
+
+[
+        object,
+        local,
+        uuid(F2A74447-B681-451a-8A67-CCA245AF561E),
+        pointer_default(unique)
+]
+interface IPlayAudioFactory : IUnknown
+{
+    HRESULT Open(
+        [in] LPCWSTR lpcwstrFile,       // Filename to play
+        [in] UINT DeviceId,             // ID/class of wave device to open
+        [out] IPlayAudio **ppIPlayAudio // Return interface
+    );
+
+    HRESULT OpenIStream(
+        [in] LPCWSTR lpcwstrFile,       // Filename to play
+        [in] IStream *pStream,          // IStream interface to read date from
+        [in] UINT DeviceId,             // ID/class of wave device to open
+        [out] IPlayAudio **ppIPlayAudio // Return interface
+    );
+
+};
+
+// {9BF60F60-7987-4df2-BE61-CF21CE2AB8C0}
+cpp_quote("DEFINE_GUID(CLSID_IPlayAudioFactory,   0x9bf60f60, 0x7987, 0x4df2, 0xbe, 0x61, 0xcf, 0x21, 0xce, 0x2a, 0xb8, 0xc0);")
+

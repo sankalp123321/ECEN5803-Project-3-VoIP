@@ -1,0 +1,109 @@
+//
+// Copyright (c) Microsoft Corporation.  All rights reserved.
+//
+//
+// Use of this sample source code is subject to the terms of the Microsoft
+// license agreement under which you licensed this sample source code. If
+// you did not accept the terms of the license agreement, you are not
+// authorized to use this sample source code. For the terms of the license,
+// please see the license agreement between you and Microsoft or, if applicable,
+// see the LICENSE.RTF on your install media or the root of your tools installation.
+// THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+//
+
+// Mail transport. Needs to be in sync with ResID 212 in MSGSTORE.DLL
+
+#define LOC_MAIL_TRANSPORT   ~"ActiveSync"
+
+// PWord on-device filter reg key strings.
+
+#define LOC_PWD_REG_READWORD       ~"Документы Word (*.doc)"
+#define LOC_PWD_REG_WRITEWORD97    ~"Документ Word 97 (*.doc)"
+#define LOC_PWD_REG_WRITEWORD95    ~"Документ Word 6.0/95 (*.doc)"
+#define LOC_PWD_REG_READWORDTEMPLATE    ~"Шаблоны Word (*.dot)"
+#define LOC_PWD_REG_WRITEWORD97TEMPLATE ~"Шаблон Word 97 (*.dot)"
+#define LOC_PWD_REG_WRITEWORD95TEMPLATE ~"Шаблон Word 6.0/95 (*.dot)"
+
+// project.dat translations
+
+// Special Folder names. Keep consistent with the same names in the previous section and what follows.
+// Needs to be consistent with Explorer.exe as well, or the build will break
+
+#define LOC_MYDOCUMENTS_DIR         ~"My Documents"
+#define LOC_PROGRAMFILES_DIR        ~"Program Files"
+#define LOC_COMMUNICATION_DIR       ~"Связь"
+#define LOC_POUTLOOK_DIR            ~"Входящие"
+#define LOC_MAILATTACHMENTS_DIR     ~"Почтовые вложения"
+#define LOC_DESKTOP_DIR             ~"Desktop"
+#define LOC_PROGRAMS_DIR            ~"Programs"
+#define LOC_RECENT_DIR              ~"Последние"
+#define LOC_HELP_DIR		    ~"Help"
+
+// Install dirs, Start Menu & Help links
+
+#define LOC_INFORMATIONMGR_DIR      ~"Входящие"
+#define LOC_OFFICE_DIR              ~"Офис"
+#define LOC_TEMPLATES_DIR           ~"Шаблоны"
+#define LOC_LARGEMAILMESSAGE_DIR    ~"Большие почтовые сообщения"
+#define LOC_LETTER_PWT              "Letter.pwt"
+#define LOC_MEETINGNOTES_PWT        "Meeting Notes.pwt"
+#define LOC_PATH_LETTER_PWT              "\Windows\letter.pwt"
+#define LOC_PATH_MEETINGNOTES_PWT        "\Windows\meetnote.pwt"
+#define LOC_TEMPLATES_LNK           ~"Ярлык для шаблонов Office.lnk"
+#define LOC_MYDOCUMENTS_LNK         ~"My Documents.lnk"
+#define LOC_INBOX_LNK               ~"Входящие.lnk"
+#define LOC_MSPWORD_LNK             ~"Microsoft WordPad.lnk"
+#define LOC_HLPLNK_INBOX                        "Входящие.lnk"
+#define LOC_HLPLNK_WORD                         "WordPad.lnk"
+#define LOC_PMAIL_EXE				~"\\windows\\pmail.exe"
+
+// WARNING: new MAKEIMG syntax. if a ~" is used, the #define variable will be used without quotes
+// it is important for Registry Keys. DO NOT REMOVE the ~
+
+
+// Localize all Categories (used in PIM applications)
+#define LOC_CATEGORYBUSINESS        "Служебные"
+#define LOC_CATEGORYCOMPETITION     "Конкуренция"
+#define LOC_CATEGORYFAVORITES       "Избранное"
+#define LOC_CATEGORYGIFTS           "Подарки"
+#define LOC_CATEGORYGOALS           "Цели и задачи"
+#define LOC_CATEGORYHOLIDAY         "Праздничные"
+#define LOC_CATEGORYHOLIDAYCARDS    "Поздравления"
+#define LOC_CATEGORYHOT             "Важные контакты"
+#define LOC_CATEGORYIDEAS           "Мысли"
+#define LOC_CATEGORYINTERNATIONAL   "Международные"
+#define LOC_CATEGORYKEYCUSTOMER     "Важный клиент"
+#define LOC_CATEGORYMISC            "Разное"
+#define LOC_CATEGORYPERSONAL        "Личные"
+#define LOC_CATEGORYPHONECALLS      "Телефонные звонки"
+#define LOC_CATEGORYSTATUS          "Состояние"
+#define LOC_CATEGORYSTRATEGIES      "Стратегии"
+#define LOC_CATEGORYSUPPLIERS       "Поставщики"
+#define LOC_CATEGORYTIMEEXPENSE     "Время и расходы"
+#define LOC_CATEGORYVIP             "Важная персона"
+#define LOC_CATEGORYWAITING         "Ожидание"
+
+// project.reg translations
+
+
+// Database names are not localized anymore (bug 15116). Left here for reference (they are not used anyway!)
+#define LOC_CONTACTSDATABASE        "Contacts Database"
+#define LOC_TASKSDATABASE           "Tasks Database"
+#define LOC_APPOINTMENTSDATABASE    "Appointments Database"
+
+//
+// Paul Shih (01/16/98):
+// Add the following token to custimize default working hours
+//      for different language version
+//The registry key is:
+//
+// HKEY_LOCAL_MACHINE\Software\Microsoft\Calendar\ActiveTimes and the value is "ActiveTimes".
+//      The value to store there is a DWORD.
+//      The low WORD is the days which are workdays, with the lowest bit being Sunday, the next one Monday, etc.
+//      The low byte of the high WORD is the start of the work day, in half hours (e.g. 16 would be 8 am)
+//      The high byte of the low WORD is the end of the work day, in half hours (e.g. 34 would be 5 pm)
+//
+//      So, to encode that Monday - Friday, 8 am to 5 pm is the work week, you would set this entry to:
+//      0x2210003E and 9am to 6pm (for Japan) will be 0x2412003E
+//
+#define NOLOC_CALENDAR_ACTIVETIME       ~"2210003E"

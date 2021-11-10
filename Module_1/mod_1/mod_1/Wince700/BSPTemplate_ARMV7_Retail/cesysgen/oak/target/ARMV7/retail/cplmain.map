@@ -1,0 +1,1131 @@
+ cplmain
+
+ Timestamp is 618b15c2 (Tue Nov 09 17:43:46 2021)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 00002a71H .rdata                  CODE
+ 0001:00002a94 00000024H .rdata$debug            CODE
+ 0001:00002ab8 00013dfcH .text                   CODE
+ 0001:000168b4 00000124H .xdata                  CODE
+ 0001:000169d8 00000050H .idata$2                CODE
+ 0001:00016a28 00000014H .idata$3                CODE
+ 0001:00016a3c 00000434H .idata$4                CODE
+ 0001:00016e70 00000086H .idata$6                CODE
+ 0001:00016f00 000002d5H .edata                  CODE
+ 0002:00000000 00000434H .idata$5                DATA
+ 0002:00000438 00000380H .data                   DATA
+ 0002:000007b8 000009e8H .bss                    DATA
+ 0003:00000000 00000710H .pdata                  DATA
+ 0004:00000000 00001df8H .rsrc$01                DATA
+ 0004:00001e00 00017a00H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:0000003c       ??_C@_1M@EBAPMBDE@?$AA?$CK?$AA?4?$AAP?$AAN?$AAG?$AA?$AA@ 1000103c     cplmain:screen.obj
+ 0001:00000048       ??_C@_1M@JFKIIPDM@?$AA?$CK?$AA?4?$AAJ?$AAP?$AAG?$AA?$AA@ 10001048     cplmain:screen.obj
+ 0001:00000054       ??_C@_1M@JCMIKONL@?$AA?$CK?$AA?4?$AAG?$AAI?$AAF?$AA?$AA@ 10001054     cplmain:screen.obj
+ 0001:00000060       ??_C@_1M@MOFDGDKH@?$AA?$CK?$AA?4?$AA2?$AAb?$AAp?$AA?$AA@ 10001060     cplmain:screen.obj
+ 0001:0000006c       ??_C@_1M@DEMLOKOK@?$AA?$CK?$AA?4?$AAB?$AAM?$AAP?$AA?$AA@ 1000106c     cplmain:screen.obj
+ 0001:00000078       ??_C@_17PMGKNIMI@?$AAP?$AAN?$AAG?$AA?$AA@ 10001078     cplmain:screen.obj
+ 0001:00000080       ??_C@_17CIMNJGMA@?$AAJ?$AAP?$AAG?$AA?$AA@ 10001080     cplmain:screen.obj
+ 0001:00000088       ??_C@_17CPKNLHCH@?$AAG?$AAI?$AAF?$AA?$AA@ 10001088     cplmain:screen.obj
+ 0001:00000090       ??_C@_17HDDGHKFL@?$AA2?$AAb?$AAp?$AA?$AA@ 10001090     cplmain:screen.obj
+ 0001:00000098       ??_C@_17IJKOPDBG@?$AAB?$AAM?$AAP?$AA?$AA@ 10001098     cplmain:screen.obj
+ 0001:000000a0       IID_IImagingFactory        100010a0     cplmain:screen.obj
+ 0001:000000b0       CLSID_ImagingFactory       100010b0     cplmain:screen.obj
+ 0001:00000110       ??_C@_1CG@DKFAHABC@?$AAB?$AAa?$AAc?$AAk?$AAl?$AAi?$AAg?$AAh?$AAt?$AAA?$AAd?$AAv?$AAA?$AAp?$AAp?$AAl?$AAe?$AAt?$AA?$AA@ 10001110     cplmain:screen.obj
+ 0001:00000138       ??_C@_1BI@FNBDHEKF@?$AAA?$AAd?$AAv?$AAa?$AAn?$AAc?$AAe?$AAd?$AAC?$AAP?$AAL?$AA?$AA@ 10001138     cplmain:screen.obj
+ 0001:00000150       ??_C@_1BK@GNGPINPK@?$AAO?$AAl?$AAd?$AAA?$AAC?$AAT?$AAi?$AAm?$AAe?$AAo?$AAu?$AAt?$AA?$AA@ 10001150     cplmain:screen.obj
+ 0001:0000016c       ??_C@_1O@ILKHMLBG@?$AAU?$AAs?$AAe?$AAE?$AAx?$AAt?$AA?$AA@ 1000116c     cplmain:screen.obj
+ 0001:0000017c       ??_C@_1BE@PJBHBNNG@?$AAA?$AAC?$AAT?$AAi?$AAm?$AAe?$AAo?$AAu?$AAt?$AA?$AA@ 1000117c     cplmain:screen.obj
+ 0001:00000190       ??_C@_1CE@PHAMGDO@?$AAO?$AAl?$AAd?$AAB?$AAa?$AAt?$AAt?$AAe?$AAr?$AAy?$AAT?$AAi?$AAm?$AAe?$AAo?$AAu?$AAt?$AA?$AA@ 10001190     cplmain:screen.obj
+ 0001:000001b4       ??_C@_1BG@LEIIKALA@?$AAU?$AAs?$AAe?$AAB?$AAa?$AAt?$AAt?$AAe?$AAr?$AAy?$AA?$AA@ 100011b4     cplmain:screen.obj
+ 0001:000001cc       ??_C@_1BO@PELGLPFE@?$AAB?$AAa?$AAt?$AAt?$AAe?$AAr?$AAy?$AAT?$AAi?$AAm?$AAe?$AAo?$AAu?$AAt?$AA?$AA@ 100011cc     cplmain:screen.obj
+ 0001:000001ec       ??_C@_1CO@BEFLCMAO@?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAP?$AAa?$AAn?$AAe?$AAl?$AA?2?$AAB?$AAa?$AAc?$AAk?$AAL?$AAi?$AAg?$AAh?$AAt?$AA?$AA@ 100011ec     cplmain:screen.obj
+ 0001:0000021c       ??_C@_1CK@NJCEAPDJ@?$AAB?$AAa?$AAc?$AAk?$AAL?$AAi?$AAg?$AAh?$AAt?$AAC?$AAh?$AAa?$AAn?$AAg?$AAe?$AAE?$AAv?$AAe?$AAn?$AAt?$AA?$AA@ 1000121c     cplmain:screen.obj
+ 0001:00000248       ??_C@_1BC@HIBBLOLI@?$AA?2?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AA?$AA@ 10001248     cplmain:screen.obj
+ 0001:0000025c       ??_C@_17NHEGDLEI@?$AAb?$AAm?$AAp?$AA?$AA@ 1000125c     cplmain:screen.obj
+ 0001:00000264       ??_C@_13GGAHEHIG@?$AA?$AB?$AA?$AA@ 10001264     cplmain:screen.obj
+ 0001:00000268       ??_C@_11LOCGONAA@?$AA?$AA@ 10001268     cplmain:screen.obj
+ 0001:0000026c       ??_C@_1BE@NLLCHOPM@?$AAW?$AAa?$AAl?$AAl?$AAp?$AAa?$AAp?$AAe?$AAr?$AA?$AA@ 1000126c     cplmain:screen.obj
+ 0001:00000280       ??_C@_1CK@NGGJLNDN@?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAP?$AAa?$AAn?$AAe?$AAl?$AA?2?$AAD?$AAe?$AAs?$AAk?$AAt?$AAo?$AAp?$AA?$AA@ 10001280     cplmain:screen.obj
+ 0001:000002ac       ??_C@_19BAOAMCDL@?$AAT?$AAi?$AAl?$AAe?$AA?$AA@ 100012ac     cplmain:screen.obj
+ 0001:000002b8       ??_C@_1BE@MEMPIFKD@?$AAA?$AAC?$AAS?$AAu?$AAs?$AAp?$AAe?$AAn?$AAd?$AA?$AA@ 100012b8     cplmain:power.obj
+ 0001:000002cc       ??_C@_1BK@LDFDNBMD@?$AAA?$AAC?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AAI?$AAd?$AAl?$AAe?$AA?$AA@ 100012cc     cplmain:power.obj
+ 0001:000002e8       ??_C@_1BG@BDFEBKKE@?$AAA?$AAC?$AAU?$AAs?$AAe?$AAr?$AAI?$AAd?$AAl?$AAe?$AA?$AA@ 100012e8     cplmain:power.obj
+ 0001:00000300       ??_C@_1BI@IBLOPCAN@?$AAB?$AAa?$AAt?$AAt?$AAS?$AAu?$AAs?$AAp?$AAe?$AAn?$AAd?$AA?$AA@ 10001300     cplmain:power.obj
+ 0001:00000318       ??_C@_1BO@HOGFBFFA@?$AAB?$AAa?$AAt?$AAt?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AAI?$AAd?$AAl?$AAe?$AA?$AA@ 10001318     cplmain:power.obj
+ 0001:00000338       ??_C@_1BK@ONLBCKCN@?$AAB?$AAa?$AAt?$AAt?$AAU?$AAs?$AAe?$AAr?$AAI?$AAd?$AAl?$AAe?$AA?$AA@ 10001338     cplmain:power.obj
+ 0001:00000354       ??_C@_1DA@FIFIHGGG@?$AAc?$AAt?$AAp?$AAn?$AAl?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAp?$AAo?$AAw?$AAe?$AAr?$AA_?$AAs?$AAc?$AAh?$AAe?$AAm?$AAe?$AAs?$AA?$AA@ 10001354     cplmain:power.obj
+ 0001:00000384       ??_C@_1CK@IANKBHHE@?$AAP?$AAo?$AAw?$AAe?$AAr?$AAT?$AAi?$AAm?$AAe?$AAo?$AAu?$AAt?$AAs?$AAD?$AAl?$AAg?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 10001384     cplmain:power.obj
+ 0001:000003b0       ??_C@_1DM@JAOCABBA@?$AAc?$AAt?$AAp?$AAn?$AAl?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAd?$AAe?$AAv?$AAi?$AAc?$AAe?$AA_?$AAp?$AAo?$AAw?$AAe?$AAr?$AA_?$AAs?$AAt?$AAa?$AAt?$AAu?$AAs?$AA?$AA@ 100013b0     cplmain:power.obj
+ 0001:000003ec       ??_C@_1CG@EEHPDNII@?$AAP?$AAo?$AAw?$AAe?$AAr?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAD?$AAl?$AAg?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 100013ec     cplmain:power.obj
+ 0001:00000418       ??_C@_1GI@CIBAKBCH@?$AAf?$AAi?$AAl?$AAe?$AA?3?$AAc?$AAt?$AAp?$AAn?$AAl?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAc?$AAo?$AAn?$AAs?$AAe?$AAr?$AAv?$AAe?$AA_?$AAb?$AAa?$AAt?$AAt?$AAe?$AAr?$AAi?$AAe@ 10001418     cplmain:power.obj
+ 0001:00000480       ??_C@_1BK@OMIOBAPH@?$AAS?$AAl?$AAe?$AAe?$AAp?$AAD?$AAl?$AAg?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 10001480     cplmain:power.obj
+ 0001:000005fc       ??_C@_1M@LCJMIND@?$AA?$CF?$AAd?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 100015fc     cplmain:power.obj
+ 0001:00000608       ??_C@_1GI@LBPPMOKF@?$AA?$HL?$AA?$CF?$AA0?$AA8?$AAl?$AAX?$AA?9?$AA?$CF?$AA0?$AA4?$AAX?$AA?9?$AA?$CF?$AA0?$AA4?$AAX?$AA?9?$AA?$CF?$AA0?$AA2?$AAX?$AA?$CF?$AA0?$AA2?$AAX?$AA?9?$AA?$CF?$AA0?$AA2?$AAX?$AA?$CF?$AA0@ 10001608     cplmain:power.obj
+ 0001:00000688       ??_C@_1GE@ICGPCMGK@?$AA?$HL?$AA?$CF?$AA0?$AA8?$AAx?$AA?9?$AA?$CF?$AA0?$AA4?$AAx?$AA?9?$AA?$CF?$AA0?$AA4?$AAx?$AA?9?$AA?$CF?$AA0?$AA4?$AAx?$AA?9?$AA?$CF?$AA0?$AA2?$AAx?$AA?$CF?$AA0?$AA2?$AAx?$AA?$CF?$AA0?$AA2@ 10001688     cplmain:power.obj
+ 0001:000006ec       ??_C@_1BA@KPEDJPMK@?$AA?$CF?$AAs?$AA?$CF?$AAu?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 100016ec     cplmain:power.obj
+ 0001:000006fc       ??_C@_15GANGMFKL@?$AA?$CF?$AAs?$AA?$AA@ 100016fc     cplmain:power.obj
+ 0001:00000708       ??_C@_1GA@IEAJLIDI@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?2?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAS?$AAe?$AAt?$AA?2?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl@ 10001708     cplmain:power.obj
+ 0001:00000768       ??_C@_1EI@FPBANDCM@?$AAP?$AAo?$AAw?$AAe?$AAr?$AAM?$AAa?$AAn?$AAa?$AAg?$AAe?$AAr?$AA?1?$AAR?$AAe?$AAl?$AAo?$AAa?$AAd?$AAA?$AAc?$AAt?$AAi?$AAv?$AAi?$AAt?$AAy?$AAT?$AAi?$AAm?$AAe?$AAo@ 10001768     cplmain:power.obj
+ 0001:000007b0       ??_C@_1EO@PFEFPDAL@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?2?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAS?$AAe?$AAt?$AA?2?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl@ 100017b0     cplmain:power.obj
+ 0001:00000800       ??_C@_1BK@DADDNBGJ@?$AAB?$AAa?$AAt?$AAt?$AAP?$AAo?$AAw?$AAe?$AAr?$AAO?$AAf?$AAf?$AA?$AA@ 10001800     cplmain:power.obj
+ 0001:0000081c       ??_C@_1BI@JPLMFMBC@?$AAE?$AAx?$AAt?$AAP?$AAo?$AAw?$AAe?$AAr?$AAO?$AAf?$AAf?$AA?$AA@ 1000181c     cplmain:power.obj
+ 0001:00000834       ??_C@_19CBCNDKNF@?$AA?$CF?$AAd?$AA?$CF?$AA?$CF?$AA?$AA@ 10001834     cplmain:power.obj
+ 0001:00000840       ??_C@_1BA@MEACJBIN@?$AA?$CF?$AAd?$AA?3?$AA?$CF?$AA0?$AA2?$AAd?$AA?$AA@ 10001840     cplmain:power.obj
+ 0001:00000850       ??_C@_1GE@JPFNGDFG@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?2?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAS?$AAe?$AAt?$AA?2?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl@ 10001850     cplmain:power.obj
+ 0001:000008b4       ??_C@_1BK@DNEKCEKH@?$AAC?$AAP?$AAL?$AA_?$AAA?$AAc?$AAc?$AAe?$AAs?$AAs?$AAi?$AAb?$AA?$AA@ 100018b4     cplmain:cplmain.obj
+ 0001:000008d0       ??_C@_1BE@HBOJIDPD@?$AAC?$AAP?$AAL?$AA_?$AAC?$AAe?$AAr?$AAt?$AAs?$AA?$AA@ 100018d0     cplmain:cplmain.obj
+ 0001:000008e4       ??_C@_1BK@BLNDLJGK@?$AAC?$AAP?$AAL?$AA_?$AAD?$AAa?$AAt?$AAe?$AAT?$AAi?$AAm?$AAe?$AA?$AA@ 100018e4     cplmain:cplmain.obj
+ 0001:00000900       ??_C@_1BG@BLNMKNIN@?$AAC?$AAP?$AAL?$AA_?$AAR?$AAe?$AAm?$AAo?$AAv?$AAe?$AA?$AA@ 10001900     cplmain:cplmain.obj
+ 0001:00000918       ??_C@_1BA@HGHMLKKI@?$AAC?$AAP?$AAL?$AA_?$AAS?$AAI?$AAP?$AA?$AA@ 10001918     cplmain:cplmain.obj
+ 0001:00000928       ??_C@_1BG@KPFLMOML@?$AAC?$AAP?$AAL?$AA_?$AAS?$AAo?$AAu?$AAn?$AAd?$AAs?$AA?$AA@ 10001928     cplmain:cplmain.obj
+ 0001:00000940       ??_C@_1BG@ECECLBPE@?$AAC?$AAP?$AAL?$AA_?$AAS?$AAt?$AAy?$AAl?$AAu?$AAs?$AA?$AA@ 10001940     cplmain:cplmain.obj
+ 0001:00000958       ??_C@_1BE@ONEIPBMG@?$AAC?$AAP?$AAL?$AA_?$AAM?$AAo?$AAu?$AAs?$AAe?$AA?$AA@ 10001958     cplmain:cplmain.obj
+ 0001:0000096c       ??_C@_1BG@HMMINIIC@?$AAC?$AAP?$AAL?$AA_?$AAS?$AAc?$AAr?$AAe?$AAe?$AAn?$AA?$AA@ 1000196c     cplmain:cplmain.obj
+ 0001:00000984       ??_C@_1BG@NHIBCIHK@?$AAC?$AAP?$AAL?$AA_?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?$AA@ 10001984     cplmain:cplmain.obj
+ 0001:0000099c       ??_C@_1BM@LCCBEPHM@?$AAP?$AAo?$AAw?$AAe?$AAr?$AAC?$AAa?$AAl?$AAl?$AAb?$AAa?$AAc?$AAk?$AA?$AA@ 1000199c     cplmain:cplmain.obj
+ 0001:000009b8       ??_C@_1BE@CFJLJEAJ@?$AAC?$AAP?$AAL?$AA_?$AAP?$AAo?$AAw?$AAe?$AAr?$AA?$AA@ 100019b8     cplmain:cplmain.obj
+ 0001:000009cc       ??_C@_1BE@MJKANJI@?$AAC?$AAP?$AAL?$AA_?$AAO?$AAw?$AAn?$AAe?$AAr?$AA?$AA@ 100019cc     cplmain:cplmain.obj
+ 0001:000009e0       ??_C@_1BK@JAAJLGNH@?$AAC?$AAP?$AAL?$AA_?$AAP?$AAa?$AAs?$AAs?$AAw?$AAo?$AAr?$AAd?$AA?$AA@ 100019e0     cplmain:cplmain.obj
+ 0001:000009fc       ??_C@_1BK@PDDFHNAA@?$AAC?$AAP?$AAL?$AA_?$AAK?$AAe?$AAy?$AAb?$AAo?$AAa?$AAr?$AAd?$AA?$AA@ 100019fc     cplmain:cplmain.obj
+ 0001:00000a18       ??_C@_1BI@DOJJAOKE@?$AAC?$AAP?$AAL?$AA_?$AAD?$AAi?$AAa?$AAl?$AAi?$AAn?$AAg?$AA?$AA@ 10001a18     cplmain:cplmain.obj
+ 0001:00000a30       ??_C@_1BC@CEHFMLJL@?$AAC?$AAP?$AAL?$AA_?$AAC?$AAo?$AAm?$AAm?$AA?$AA@ 10001a30     cplmain:cplmain.obj
+ 0001:00000a48       ??_C@_1EM@LEKLDIBF@?$AAf?$AAi?$AAl?$AAe?$AA?3?$AAc?$AAt?$AAp?$AAn?$AAl?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAa?$AAc?$AAc?$AAe?$AAs?$AAs?$AAi?$AAb?$AAi?$AAl?$AAi?$AAt?$AAy?$AA_?$AAs?$AAe?$AAt@ 10001a48     cplmain:cplmain.obj
+ 0001:00000a94       ??_C@_1CK@FHMCOBKB@?$AAA?$AAc?$AAc?$AAe?$AAs?$AAs?$AAG?$AAe?$AAn?$AAe?$AAr?$AAa?$AAl?$AAD?$AAl?$AAg?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 10001a94     cplmain:cplmain.obj
+ 0001:00000ac0       ??_C@_1EE@JNDPCPMJ@?$AAf?$AAi?$AAl?$AAe?$AA?3?$AAc?$AAt?$AAp?$AAn?$AAl?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAm?$AAo?$AAu?$AAs?$AAe?$AAk?$AAe?$AAy?$AAs?$AA_?$AAs?$AAe?$AAt?$AAt?$AAi?$AAn?$AAg@ 10001ac0     cplmain:cplmain.obj
+ 0001:00000b04       ??_C@_1CG@MMOPAKCD@?$AAA?$AAc?$AAc?$AAe?$AAs?$AAs?$AAM?$AAo?$AAu?$AAs?$AAe?$AAD?$AAl?$AAg?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 10001b04     cplmain:cplmain.obj
+ 0001:00000b30       ??_C@_1EK@KIHELNPO@?$AAf?$AAi?$AAl?$AAe?$AA?3?$AAc?$AAt?$AAp?$AAn?$AAl?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAh?$AAi?$AAg?$AAh?$AAc?$AAo?$AAn?$AAt?$AAr?$AAa?$AAs?$AAt?$AA_?$AAs?$AAe?$AAt?$AAt@ 10001b30     cplmain:cplmain.obj
+ 0001:00000b7c       ??_C@_1CK@BFLNBBND@?$AAA?$AAc?$AAc?$AAe?$AAs?$AAs?$AAD?$AAi?$AAs?$AAp?$AAl?$AAa?$AAy?$AAD?$AAl?$AAg?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 10001b7c     cplmain:cplmain.obj
+ 0001:00000ba8       ??_C@_1EI@FALLGGMB@?$AAf?$AAi?$AAl?$AAe?$AA?3?$AAc?$AAt?$AAp?$AAn?$AAl?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAs?$AAo?$AAu?$AAn?$AAd?$AAs?$AAe?$AAn?$AAt?$AAr?$AAy?$AA_?$AAs?$AAe?$AAt?$AAt?$AAi@ 10001ba8     cplmain:cplmain.obj
+ 0001:00000bf0       ??_C@_1CG@LFIPLKDP@?$AAA?$AAc?$AAc?$AAe?$AAs?$AAs?$AAS?$AAo?$AAu?$AAn?$AAd?$AAD?$AAl?$AAg?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 10001bf0     cplmain:cplmain.obj
+ 0001:00000c18       ??_C@_1EG@KJPFJOHA@?$AAf?$AAi?$AAl?$AAe?$AA?3?$AAc?$AAt?$AAp?$AAn?$AAl?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAs?$AAt?$AAi?$AAc?$AAk?$AAy?$AAK?$AAe?$AAy?$AAs?$AA_?$AAs?$AAe?$AAt?$AAt?$AAi?$AAn@ 10001c18     cplmain:cplmain.obj
+ 0001:00000c60       ??_C@_1CG@HHBGLEKB@?$AAA?$AAc?$AAc?$AAe?$AAs?$AAs?$AAK?$AAe?$AAy?$AAb?$AAd?$AAD?$AAl?$AAg?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 10001c60     cplmain:cplmain.obj
+ 0001:00000c88       ??_C@_1FG@KJCAIOMP@?$AAf?$AAi?$AAl?$AAe?$AA?3?$AAc?$AAt?$AAp?$AAn?$AAl?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAm?$AAa?$AAn?$AAa?$AAg?$AAi?$AAn?$AAg?$AA_?$AAc?$AAe?$AAr?$AAt?$AAi?$AAf?$AAi?$AAc@ 10001c88     cplmain:cplmain.obj
+ 0001:00000ce0       ??_C@_1CA@OOCJNKJK@?$AAC?$AAe?$AAr?$AAt?$AAR?$AAo?$AAo?$AAt?$AAD?$AAl?$AAg?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 10001ce0     cplmain:cplmain.obj
+ 0001:00000d00       ??_C@_1FC@HCLMBOIM@?$AAf?$AAi?$AAl?$AAe?$AA?3?$AAc?$AAt?$AAp?$AAn?$AAl?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAs?$AAe?$AAt?$AAt?$AAi?$AAn?$AAg?$AA_?$AAt?$AAh?$AAe?$AA_?$AAd?$AAa?$AAt?$AAe?$AA_@ 10001d00     cplmain:cplmain.obj
+ 0001:00000d54       ??_C@_1CA@CGDPCDCL@?$AAD?$AAa?$AAt?$AAe?$AAT?$AAi?$AAm?$AAe?$AAD?$AAl?$AAg?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 10001d54     cplmain:cplmain.obj
+ 0001:00000d78       ??_C@_1EC@NODGEEEI@?$AAf?$AAi?$AAl?$AAe?$AA?3?$AAc?$AAt?$AAp?$AAn?$AAl?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAr?$AAe?$AAm?$AAo?$AAv?$AAi?$AAn?$AAg?$AA_?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AAs@ 10001d78     cplmain:cplmain.obj
+ 0001:00000dbc       ??_C@_1BM@DPAANCEJ@?$AAR?$AAe?$AAm?$AAo?$AAv?$AAe?$AAD?$AAl?$AAg?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 10001dbc     cplmain:cplmain.obj
+ 0001:00000dd8       ??_C@_1DA@GCOFCNLH@?$AAf?$AAi?$AAl?$AAe?$AA?3?$AAc?$AAt?$AAp?$AAn?$AAl?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAs?$AAi?$AAp?$AA_?$AAi?$AAn?$AAf?$AAo?$AA?$AA@ 10001dd8     cplmain:cplmain.obj
+ 0001:00000e08       ??_C@_1BG@JEDKNHEB@?$AAS?$AAi?$AAp?$AAD?$AAl?$AAg?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 10001e08     cplmain:cplmain.obj
+ 0001:00000e20       ??_C@_1EG@OLLMDJMH@?$AAf?$AAi?$AAl?$AAe?$AA?3?$AAc?$AAt?$AAp?$AAn?$AAl?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAc?$AAh?$AAa?$AAn?$AAg?$AAe?$AA_?$AAe?$AAv?$AAe?$AAn?$AAt?$AA_?$AAs?$AAo?$AAu?$AAn@ 10001e20     cplmain:cplmain.obj
+ 0001:00000e68       ??_C@_1CC@FOBAAGIG@?$AAS?$AAn?$AAd?$AAS?$AAc?$AAh?$AAe?$AAm?$AAe?$AAD?$AAl?$AAg?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 10001e68     cplmain:cplmain.obj
+ 0001:00000e90       ??_C@_1GO@BPNEPPBE@?$AAf?$AAi?$AAl?$AAe?$AA?3?$AAc?$AAt?$AAp?$AAn?$AAl?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAa?$AAd?$AAj?$AAu?$AAs?$AAt?$AA_?$AAv?$AAo?$AAl?$AAu?$AAm?$AAe?$AA_?$AAa?$AAn?$AAd@ 10001e90     cplmain:cplmain.obj
+ 0001:00000f00       ??_C@_1BM@BEMBLAFF@?$AAV?$AAo?$AAl?$AAu?$AAm?$AAe?$AAD?$AAl?$AAg?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 10001f00     cplmain:cplmain.obj
+ 0001:00000f20       ??_C@_1EM@NFPNJHNG@?$AAf?$AAi?$AAl?$AAe?$AA?3?$AAc?$AAt?$AAp?$AAn?$AAl?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAr?$AAe?$AAc?$AAa?$AAl?$AAi?$AAb?$AAr?$AAa?$AAt?$AAe?$AA_?$AAt?$AAh?$AAe?$AA_?$AAs@ 10001f20     cplmain:cplmain.obj
+ 0001:00000f6c       ??_C@_1CC@OMOOLLIN@?$AAC?$AAa?$AAl?$AAi?$AAb?$AAr?$AAa?$AAt?$AAe?$AAD?$AAl?$AAg?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 10001f6c     cplmain:cplmain.obj
+ 0001:00000f90       ??_C@_1GC@MONDBMI@?$AAf?$AAi?$AAl?$AAe?$AA?3?$AAc?$AAt?$AAp?$AAn?$AAl?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAa?$AAd?$AAj?$AAu?$AAs?$AAt?$AA_?$AAt?$AAh?$AAe?$AA_?$AAs?$AAt?$AAy?$AAl?$AAu?$AAs@ 10001f90     cplmain:cplmain.obj
+ 0001:00000ff4       ??_C@_1BM@BCINHAFN@?$AAD?$AAb?$AAl?$AAT?$AAa?$AAp?$AAD?$AAl?$AAg?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 10001ff4     cplmain:cplmain.obj
+ 0001:00001010       ??_C@_1DK@MMJJLPEC@?$AAf?$AAi?$AAl?$AAe?$AA?3?$AAc?$AAt?$AAp?$AAn?$AAl?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAm?$AAo?$AAu?$AAs?$AAe?$AAs?$AAe?$AAt?$AAt?$AAi?$AAn?$AAg?$AAs?$AA?$AA@ 10002010     cplmain:cplmain.obj
+ 0001:0000104c       ??_C@_1CA@JHAALGBM@?$AAD?$AAb?$AAl?$AAC?$AAl?$AAi?$AAc?$AAk?$AAD?$AAl?$AAg?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 1000204c     cplmain:cplmain.obj
+ 0001:00001070       ??_C@_1FE@PHHJHMIL@?$AAf?$AAi?$AAl?$AAe?$AA?3?$AAc?$AAt?$AAp?$AAn?$AAl?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAd?$AAi?$AAs?$AAp?$AAl?$AAa?$AAy?$AA_?$AAb?$AAa?$AAc?$AAk?$AAl?$AAi?$AAg?$AAh?$AAt@ 10002070     cplmain:cplmain.obj
+ 0001:000010c4       ??_C@_1CC@FJCMJLKJ@?$AAB?$AAa?$AAc?$AAk?$AAl?$AAi?$AAg?$AAh?$AAt?$AAD?$AAl?$AAg?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 100020c4     cplmain:cplmain.obj
+ 0001:000010e8       ??_C@_1DG@KAKJDLJH@?$AAf?$AAi?$AAl?$AAe?$AA?3?$AAc?$AAt?$AAp?$AAn?$AAl?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAc?$AAu?$AAs?$AAt?$AAo?$AAm?$AAc?$AAo?$AAl?$AAo?$AAr?$AA?$AA@ 100020e8     cplmain:cplmain.obj
+ 0001:00001120       ??_C@_1DE@DMFGEBPL@?$AAf?$AAi?$AAl?$AAe?$AA?3?$AAc?$AAt?$AAp?$AAn?$AAl?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAa?$AAp?$AAp?$AAe?$AAa?$AAr?$AAa?$AAn?$AAc?$AAe?$AA?$AA@ 10002120     cplmain:cplmain.obj
+ 0001:00001154       ??_C@_1CC@LCAKAEIO@?$AAC?$AAo?$AAl?$AAS?$AAc?$AAh?$AAe?$AAm?$AAe?$AAD?$AAl?$AAg?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 10002154     cplmain:cplmain.obj
+ 0001:00001178       ??_C@_1EI@FMDJNNGA@?$AAf?$AAi?$AAl?$AAe?$AA?3?$AAc?$AAt?$AAp?$AAn?$AAl?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAC?$AAh?$AAa?$AAn?$AAg?$AAi?$AAn?$AAg?$AA_?$AAt?$AAh?$AAe?$AA_?$AAD?$AAi?$AAs?$AAp@ 10002178     cplmain:cplmain.obj
+ 0001:000011c0       ??_C@_1CE@MAACBLHC@?$AAB?$AAa?$AAc?$AAk?$AAg?$AAr?$AAo?$AAu?$AAn?$AAd?$AAD?$AAl?$AAg?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 100021c0     cplmain:cplmain.obj
+ 0001:000011e4       ??_C@_1CE@ENAIIDDL@?$AAC?$AAo?$AAp?$AAy?$AAr?$AAi?$AAg?$AAh?$AAt?$AAs?$AAD?$AAl?$AAg?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 100021e4     cplmain:cplmain.obj
+ 0001:00001208       ??_C@_1GA@LLBDFDN@?$AAf?$AAi?$AAl?$AAe?$AA?3?$AAc?$AAt?$AAp?$AAn?$AAl?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAa?$AAd?$AAj?$AAu?$AAs?$AAt?$AA_?$AAt?$AAh?$AAe?$AA_?$AAm?$AAe?$AAm?$AAo?$AAr?$AAy@ 10002208     cplmain:cplmain.obj
+ 0001:00001268       ??_C@_1BM@FBEONGGJ@?$AAM?$AAe?$AAm?$AAo?$AAr?$AAy?$AAD?$AAl?$AAg?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 10002268     cplmain:cplmain.obj
+ 0001:00001288       ??_C@_1EM@LIFOBPEG@?$AAf?$AAi?$AAl?$AAe?$AA?3?$AAc?$AAt?$AAp?$AAn?$AAl?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAc?$AAh?$AAa?$AAn?$AAg?$AAe?$AA_?$AAt?$AAh?$AAe?$AA_?$AAd?$AAe?$AAv?$AAi?$AAc?$AAe@ 10002288     cplmain:cplmain.obj
+ 0001:000012d4       ??_C@_1CG@GEINEFAO@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AAI?$AAd?$AAe?$AAn?$AAt?$AAD?$AAl?$AAg?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 100022d4     cplmain:cplmain.obj
+ 0001:00001300       ??_C@_1GG@BKFBDMDG@?$AAf?$AAi?$AAl?$AAe?$AA?3?$AAc?$AAt?$AAp?$AAn?$AAl?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAa?$AAd?$AAj?$AAu?$AAs?$AAt?$AAi?$AAn?$AAg?$AA_?$AAm?$AAe?$AAm?$AAo?$AAr?$AAy?$AA_@ 10002300     cplmain:cplmain.obj
+ 0001:00001368       ??_C@_1BM@IHPDFHHP@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AAD?$AAl?$AAg?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 10002368     cplmain:cplmain.obj
+ 0001:00001384       ??_C@_1CO@OOKDANMN@?$AAf?$AAi?$AAl?$AAe?$AA?3?$AAc?$AAt?$AAp?$AAn?$AAl?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAb?$AAa?$AAt?$AAt?$AAe?$AAr?$AAy?$AA?$AA@ 10002384     cplmain:cplmain.obj
+ 0001:000013b4       ??_C@_1BO@HKOCCEJL@?$AAB?$AAa?$AAt?$AAt?$AAe?$AAr?$AAy?$AAD?$AAl?$AAg?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 100023b4     cplmain:cplmain.obj
+ 0001:000013d8       ??_C@_1EM@DALBPKCO@?$AAf?$AAi?$AAl?$AAe?$AA?3?$AAc?$AAt?$AAp?$AAn?$AAl?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAn?$AAe?$AAt?$AAw?$AAo?$AAr?$AAk?$AA_?$AAi?$AAd?$AAe?$AAn?$AAt?$AAi?$AAf?$AAi?$AAc@ 100023d8     cplmain:cplmain.obj
+ 0001:00001424       ??_C@_1CA@PGACAOON@?$AAN?$AAe?$AAt?$AAI?$AAd?$AAe?$AAn?$AAt?$AAD?$AAl?$AAg?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 10002424     cplmain:cplmain.obj
+ 0001:00001444       ??_C@_1BK@NCDLAMLB@?$AAN?$AAo?$AAt?$AAe?$AAs?$AAD?$AAl?$AAg?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 10002444     cplmain:cplmain.obj
+ 0001:00001460       ??_C@_1GE@IIHHHKJM@?$AAf?$AAi?$AAl?$AAe?$AA?3?$AAc?$AAt?$AAp?$AAn?$AAl?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAa?$AAd?$AAd?$AA_?$AAo?$AAr?$AA_?$AAc?$AAh?$AAa?$AAn?$AAg?$AAe?$AA_?$AAo?$AAw?$AAn@ 10002460     cplmain:cplmain.obj
+ 0001:000014c4       ??_C@_1BK@EJPGPKIF@?$AAO?$AAw?$AAn?$AAe?$AAr?$AAD?$AAl?$AAg?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 100024c4     cplmain:cplmain.obj
+ 0001:000014e0       ??_C@_1FE@DDGFNNJO@?$AAf?$AAi?$AAl?$AAe?$AA?3?$AAc?$AAt?$AAp?$AAn?$AAl?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAs?$AAe?$AAt?$AA_?$AAo?$AAr?$AA_?$AAc?$AAh?$AAa?$AAn?$AAg?$AAe?$AA_?$AAt?$AAh?$AAe@ 100024e0     cplmain:cplmain.obj
+ 0001:00001534       ??_C@_1BM@MNIENNJI@?$AAP?$AAa?$AAs?$AAs?$AAw?$AAd?$AAD?$AAl?$AAg?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 10002534     cplmain:cplmain.obj
+ 0001:00001550       ??_C@_1FG@LKGNKAGM@?$AAf?$AAi?$AAl?$AAe?$AA?3?$AAc?$AAt?$AAp?$AAn?$AAl?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAa?$AAd?$AAj?$AAu?$AAs?$AAt?$AAi?$AAn?$AAg?$AA_?$AAk?$AAe?$AAy?$AAb?$AAo?$AAa?$AAr@ 10002550     cplmain:cplmain.obj
+ 0001:000015a8       ??_C@_1BK@MIIHONGG@?$AAK?$AAe?$AAy?$AAb?$AAd?$AAD?$AAl?$AAg?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 100025a8     cplmain:cplmain.obj
+ 0001:000015c4       ??_C@_1CK@EPMMELOG@?$AAS?$AAh?$AAo?$AAw?$AAL?$AAi?$AAn?$AAe?$AAT?$AAr?$AAa?$AAn?$AAs?$AAl?$AAa?$AAt?$AAe?$AAD?$AAl?$AAg?$AA?$AA@ 100025c4     cplmain:cplmain.obj
+ 0001:000015f0       ??_C@_1FK@FNBJNEPE@?$AAf?$AAi?$AAl?$AAe?$AA?3?$AAc?$AAt?$AAp?$AAn?$AAl?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAa?$AAd?$AAj?$AAu?$AAs?$AAt?$AA_?$AAp?$AAc?$AA_?$AAc?$AAo?$AAn?$AAn?$AAe?$AAc?$AAt@ 100025f0     cplmain:cplmain.obj
+ 0001:0000164c       ??_C@_1BO@CEFFPKFL@?$AAC?$AAo?$AAm?$AAm?$AAR?$AAA?$AAS?$AAD?$AAl?$AAg?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 1000264c     cplmain:cplmain.obj
+ 0001:0000167c       ?CommRasTab@@3UCPLTABINFO@@B 1000267c     cplmain:cplmain.obj
+ 0001:00001844       ?pszSaveColSchemeHelp@@3QBGB 10002844     cplmain:cplmain.obj
+ 0001:000018e4       ?SndSchemeTab@@3UCPLTABINFO@@B 100028e4     cplmain:cplmain.obj
+ 0001:00001a0c       ??_C@_1BG@PFFEMDMJ@?$AAS?$AAi?$AAp?$AAG?$AAe?$AAt?$AAI?$AAn?$AAf?$AAo?$AA?$AA@ 10002a0c     cplmain:cplmain.obj
+ 0001:00001a24       ??_C@_1BG@MHECLBNA@?$AAS?$AAi?$AAp?$AAS?$AAe?$AAt?$AAI?$AAn?$AAf?$AAo?$AA?$AA@ 10002a24     cplmain:cplmain.obj
+ 0001:00001a3c       ??_C@_1BI@CJKPFBEK@?$AAc?$AAo?$AAr?$AAe?$AAd?$AAl?$AAl?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10002a3c     cplmain:cplmain.obj
+ 0001:00001a54       ??_C@_1DA@JMJJIPEL@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAS?$AAe?$AAc?$AAu?$AAr?$AAi?$AAt?$AAy?$AA?2?$AAL?$AAA?$AAS?$AAS?$AAD?$AA?2?$AAL?$AAA?$AAP?$AA?$AA@ 10002a54     cplmain:cplmain.obj
+ 0001:00001a84       ??_C@_1BE@KODICFAG@?$AAA?$AAc?$AAt?$AAi?$AAv?$AAe?$AAL?$AAa?$AAp?$AA?$AA@ 10002a84     cplmain:cplmain.obj
+ 0001:00001a98       ??_C@_1BA@NGKEOGJG@?$AAp?$AAe?$AAg?$AAh?$AAe?$AAl?$AAp?$AA?$AA@ 10002a98     cplmain:cplmain.obj
+ 0001:00001aa8       ??_C@_1CK@CKCDMMNE@?$AA?2?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AA?2?$AAp?$AAe?$AAg?$AAh?$AAe?$AAl?$AAp?$AA?4?$AAe?$AAx?$AAe?$AA?$AA@ 10002aa8     cplmain:cplmain.obj
+ 0001:00001ad4       ??_C@_1BA@IIELFCKH@?$AAW?$AAe?$AAl?$AAc?$AAo?$AAm?$AAe?$AA?$AA@ 10002ad4     cplmain:cplmain.obj
+ 0001:00001ae4       ??_C@_1BM@CMLKIKKH@?$AAC?$AAe?$AAr?$AAt?$AAO?$AAp?$AAe?$AAn?$AAS?$AAt?$AAo?$AAr?$AAe?$AA?$AA@ 10002ae4     cplmain:certcpl.obj
+ 0001:00001b00       ??_C@_1BO@NCLHKAKO@?$AAC?$AAe?$AAr?$AAt?$AAC?$AAl?$AAo?$AAs?$AAe?$AAS?$AAt?$AAo?$AAr?$AAe?$AA?$AA@ 10002b00     cplmain:certcpl.obj
+ 0001:00001b20       ??_C@_1DK@GHGAKKNE@?$AAC?$AAe?$AAr?$AAt?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AAC?$AAe?$AAr?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAe?$AAC?$AAo?$AAn?$AAt?$AAe?$AAx?$AAt?$AA?$AA@ 10002b20     cplmain:certcpl.obj
+ 0001:00001b5c       ??_C@_1DG@EHJEIGDN@?$AAC?$AAe?$AAr?$AAt?$AAF?$AAr?$AAe?$AAe?$AAC?$AAe?$AAr?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAe?$AAC?$AAo?$AAn?$AAt?$AAe?$AAx?$AAt?$AA?$AA@ 10002b5c     cplmain:certcpl.obj
+ 0001:00001b94       ??_C@_1DI@CMJPEOCC@?$AAC?$AAe?$AAr?$AAt?$AAE?$AAn?$AAu?$AAm?$AAC?$AAe?$AAr?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAe?$AAs?$AAI?$AAn?$AAS?$AAt?$AAo?$AAr?$AAe?$AA?$AA@ 10002b94     cplmain:certcpl.obj
+ 0001:00001bd0       ??_C@_1EA@DAOJHNPH@?$AAC?$AAe?$AAr?$AAt?$AAD?$AAu?$AAp?$AAl?$AAi?$AAc?$AAa?$AAt?$AAe?$AAC?$AAe?$AAr?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAe?$AAC?$AAo?$AAn?$AAt?$AAe?$AAx?$AAt?$AA?$AA@ 10002bd0     cplmain:certcpl.obj
+ 0001:00001c10       ??_C@_1CG@EEOCOINI@?$AAC?$AAe?$AAr?$AAt?$AAG?$AAe?$AAt?$AAN?$AAa?$AAm?$AAe?$AAS?$AAt?$AAr?$AAi?$AAn?$AAg?$AAW?$AA?$AA@ 10002c10     cplmain:certcpl.obj
+ 0001:00001c38       ??_C@_1DO@LBFKIMOD@?$AAC?$AAe?$AAr?$AAt?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AAC?$AAe?$AAr?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAe?$AAF?$AAr?$AAo?$AAm?$AAS?$AAt?$AAo?$AAr?$AAe?$AA?$AA@ 10002c38     cplmain:certcpl.obj
+ 0001:00001c78       ??_C@_1EE@FPENKFMD@?$AAC?$AAe?$AAr?$AAt?$AAG?$AAe?$AAt?$AAC?$AAe?$AAr?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAe?$AAC?$AAo?$AAn?$AAt?$AAe?$AAx?$AAt?$AAP?$AAr?$AAo?$AAp?$AAe?$AAr?$AAt@ 10002c78     cplmain:certcpl.obj
+ 0001:00001cc0       ??_C@_1EE@NJMCEDEG@?$AAC?$AAe?$AAr?$AAt?$AAS?$AAe?$AAt?$AAC?$AAe?$AAr?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAe?$AAC?$AAo?$AAn?$AAt?$AAe?$AAx?$AAt?$AAP?$AAr?$AAo?$AAp?$AAe?$AAr?$AAt@ 10002cc0     cplmain:certcpl.obj
+ 0001:00001d08       ??_C@_1EC@GHPIOIPJ@?$AAC?$AAe?$AAr?$AAt?$AAA?$AAd?$AAd?$AAC?$AAe?$AAr?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAe?$AAC?$AAo?$AAn?$AAt?$AAe?$AAx?$AAt?$AAT?$AAo?$AAS?$AAt?$AAo?$AAr?$AAe@ 10002d08     cplmain:certcpl.obj
+ 0001:00001d50       ??_C@_1EC@JDBHNBAF@?$AAC?$AAe?$AAr?$AAt?$AAA?$AAd?$AAd?$AAE?$AAn?$AAc?$AAo?$AAd?$AAe?$AAd?$AAC?$AAe?$AAr?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAe?$AAT?$AAo?$AAS?$AAt?$AAo?$AAr?$AAe@ 10002d50     cplmain:certcpl.obj
+ 0001:00001d94       ??_C@_1DG@IJPADMDC@?$AAC?$AAe?$AAr?$AAt?$AAC?$AAo?$AAm?$AAp?$AAa?$AAr?$AAe?$AAC?$AAe?$AAr?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAe?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 10002d94     cplmain:certcpl.obj
+ 0001:00001dcc       ??_C@_1BO@NHMGJAID@?$AAC?$AAe?$AAr?$AAt?$AAN?$AAa?$AAm?$AAe?$AAT?$AAo?$AAS?$AAt?$AAr?$AAW?$AA?$AA@ 10002dcc     cplmain:certcpl.obj
+ 0001:00001dec       ??_C@_1DA@LDOPMIEJ@?$AAC?$AAe?$AAr?$AAt?$AAG?$AAe?$AAt?$AAE?$AAn?$AAh?$AAa?$AAn?$AAc?$AAe?$AAd?$AAK?$AAe?$AAy?$AAU?$AAs?$AAa?$AAg?$AAe?$AA?$AA@ 10002dec     cplmain:certcpl.obj
+ 0001:00001e1c       ??_C@_1CC@OPNCBMMJ@?$AAC?$AAr?$AAy?$AAp?$AAt?$AAF?$AAi?$AAn?$AAd?$AAO?$AAI?$AAD?$AAI?$AAn?$AAf?$AAo?$AA?$AA@ 10002e1c     cplmain:certcpl.obj
+ 0001:00001e40       ??_C@_1DC@KHAGAACJ@?$AAC?$AAr?$AAy?$AAp?$AAt?$AAE?$AAx?$AAp?$AAo?$AAr?$AAt?$AAP?$AAu?$AAb?$AAl?$AAi?$AAc?$AAK?$AAe?$AAy?$AAI?$AAn?$AAf?$AAo?$AA?$AA@ 10002e40     cplmain:certcpl.obj
+ 0001:00001e74       ??_C@_1DG@NJOMMJEO@?$AAC?$AAe?$AAr?$AAt?$AAF?$AAi?$AAn?$AAd?$AAC?$AAe?$AAr?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAe?$AAI?$AAn?$AAS?$AAt?$AAo?$AAr?$AAe?$AA?$AA@ 10002e74     cplmain:certcpl.obj
+ 0001:00001eac       ??_C@_1BI@MIELKEKL@?$AAc?$AAr?$AAy?$AAp?$AAt?$AA3?$AA2?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10002eac     cplmain:certcpl.obj
+ 0001:00001ec4       ??_C@_1CA@MCBDNCDH@?$AAS?$AAh?$AAo?$AAw?$AAC?$AAe?$AAr?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAe?$AA?$AA@ 10002ec4     cplmain:certcpl.obj
+ 0001:00001ee4       ??_C@_1CE@FGIOLLCP@?$AAI?$AAm?$AAp?$AAo?$AAr?$AAt?$AAC?$AAe?$AAr?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAe?$AA?$AA@ 10002ee4     cplmain:certcpl.obj
+ 0001:00001f08       ??_C@_1BE@BOHEBICI@?$AAn?$AAe?$AAt?$AAu?$AAi?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10002f08     cplmain:certcpl.obj
+ 0001:00001f1c       ??_C@_1CM@HHJPCIJ@?$AAS?$AAC?$AAa?$AAr?$AAd?$AAE?$AAs?$AAt?$AAa?$AAb?$AAl?$AAi?$AAs?$AAh?$AAC?$AAo?$AAn?$AAt?$AAe?$AAx?$AAt?$AA?$AA@ 10002f1c     cplmain:certcpl.obj
+ 0001:00001f48       ??_C@_1CI@GNNGFJBK@?$AAS?$AAC?$AAa?$AAr?$AAd?$AAR?$AAe?$AAl?$AAe?$AAa?$AAs?$AAe?$AAC?$AAo?$AAn?$AAt?$AAe?$AAx?$AAt?$AA?$AA@ 10002f48     cplmain:certcpl.obj
+ 0001:00001f70       ??_C@_1CE@EDPIBLCH@?$AAS?$AAC?$AAa?$AAr?$AAd?$AAL?$AAi?$AAs?$AAt?$AAR?$AAe?$AAa?$AAd?$AAe?$AAr?$AAs?$AAW?$AA?$AA@ 10002f70     cplmain:certcpl.obj
+ 0001:00001f94       ??_C@_1CA@CHCLJMFO@?$AAS?$AAC?$AAa?$AAr?$AAd?$AAL?$AAi?$AAs?$AAt?$AAC?$AAa?$AAr?$AAd?$AAs?$AAW?$AA?$AA@ 10002f94     cplmain:certcpl.obj
+ 0001:00001fb4       ??_C@_1CM@PPBHPLCM@?$AAS?$AAC?$AAa?$AAr?$AAd?$AAG?$AAe?$AAt?$AAS?$AAt?$AAa?$AAt?$AAu?$AAs?$AAC?$AAh?$AAa?$AAn?$AAg?$AAe?$AAW?$AA?$AA@ 10002fb4     cplmain:certcpl.obj
+ 0001:00001fe0       ??_C@_1DM@JIFPNMJP@?$AAS?$AAC?$AAa?$AAr?$AAd?$AAG?$AAe?$AAt?$AAC?$AAa?$AAr?$AAd?$AAT?$AAy?$AAp?$AAe?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AAN?$AAa?$AAm?$AAe?$AAW?$AA?$AA@ 10002fe0     cplmain:certcpl.obj
+ 0001:0000201c       ??_C@_1BK@LKGFADCC@?$AAw?$AAi?$AAn?$AAs?$AAc?$AAa?$AAr?$AAd?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 1000301c     cplmain:certcpl.obj
+ 0001:00002038       ??_C@_0BK@LPPAEOGJ@?9?9?9?9?9END?5CERTIFICATE?9?9?9?9?9?$AA@ 10003038     cplmain:certcpl.obj
+ 0001:00002054       ??_C@_0BM@CPJANAAJ@?9?9?9?9?9BEGIN?5CERTIFICATE?9?9?9?9?9?$AA@ 10003054     cplmain:certcpl.obj
+ 0001:00002070       ??_C@_1FO@GBKEFGLF@?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?5?$AAE?$AAn?$AAh?$AAa?$AAn?$AAc?$AAe?$AAd?$AA?5?$AAC?$AAr?$AAy?$AAp?$AAt?$AAo?$AAg?$AAr?$AAa?$AAp?$AAh?$AAi?$AAc@ 10003070     cplmain:certcpl.obj
+ 0001:000020d0       ??_C@_19NKMNGKK@?$AAC?$AAE?$AAR?$AAT?$AA?$AA@ 100030d0     cplmain:certcpl.obj
+ 0001:000020dc       ??_C@_17FNLGHBDA@?$AAc?$AAe?$AAr?$AA?$AA@ 100030dc     cplmain:certcpl.obj
+ 0001:000020e4       ??_C@_15OEFJBJMG@?$AAC?$AAA?$AA?$AA@ 100030e4     cplmain:certcpl.obj
+ 0001:000020ec       ??_C@_19LFKAPJKP@?$AAR?$AAo?$AAo?$AAt?$AA?$AA@ 100030ec     cplmain:certcpl.obj
+ 0001:000020f8       ??_C@_15OLMMKIPI@?$AAM?$AAy?$AA?$AA@ 100030f8     cplmain:certcpl.obj
+ 0001:00002114       ??_C@_15LCCDBKJO@?$AAN?$AAm?$AA?$AA@ 10003114     cplmain:colschem.obj
+ 0001:0000211c       ??_C@_15ICDHDCDD@?$AAI?$AAt?$AA?$AA@ 1000311c     cplmain:colschem.obj
+ 0001:00002124       ??_C@_15EJGLOBJG@?$AAH?$AAt?$AA?$AA@ 10003124     cplmain:colschem.obj
+ 0001:0000212c       ??_C@_15LLOLFBNI@?$AAW?$AAt?$AA?$AA@ 1000312c     cplmain:colschem.obj
+ 0001:00002134       ??_C@_15BOEJIGNC@?$AAC?$AAS?$AA?$AA@ 10003134     cplmain:colschem.obj
+ 0001:0000213c       ??_C@_1BM@MFCIMBB@?$AAM?$AAS?$AA?5?$AAS?$AAa?$AAn?$AAs?$AA?5?$AAS?$AAe?$AAr?$AAi?$AAf?$AA?$AA@ 1000313c     cplmain:colschem.obj
+ 0001:00002158       ??_C@_1CE@KPIDHIM@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?2?$AAG?$AAW?$AAE?$AA?2?$AAO?$AAO?$AAM?$AAF?$AAn?$AAt?$AA?$AA@ 10003158     cplmain:colschem.obj
+ 0001:0000217c       ??_C@_1CO@IJKAAJCJ@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?2?$AAG?$AAW?$AAE?$AA?2?$AAM?$AAe?$AAn?$AAu?$AA?2?$AAB?$AAa?$AAr?$AAF?$AAn?$AAt?$AA?$AA@ 1000317c     cplmain:colschem.obj
+ 0001:000021ac       ??_C@_1BI@EEKPCHLN@?$AAD?$AAi?$AAs?$AAp?$AAl?$AAa?$AAy?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 100031ac     cplmain:colschem.obj
+ 0001:000021c8       ??_C@_1EA@IIKPLABO@?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAP?$AAa?$AAn?$AAe?$AAl?$AA?2?$AAA?$AAp?$AAp?$AAe?$AAa?$AAr?$AAa?$AAn?$AAc?$AAe?$AA?2?$AAS?$AAc?$AAh?$AAe?$AAm?$AAe?$AAs?$AA?$AA@ 100031c8     cplmain:colschem.obj
+ 0001:00002208       ??_C@_1BC@PFDDLKEP@?$AAS?$AAe?$AAt?$AAt?$AAi?$AAn?$AAg?$AAs?$AA?$AA@ 10003208     cplmain:colschem.obj
+ 0001:0000221c       ??_C@_1BI@OIGJGNOJ@?$AAF?$AAu?$AAl?$AAl?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?$AA@ 1000321c     cplmain:colschem.obj
+ 0001:00002234       ??_C@_1DA@CKGLBCGH@?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAP?$AAa?$AAn?$AAe?$AAl?$AA?2?$AAA?$AAp?$AAp?$AAe?$AAa?$AAr?$AAa?$AAn?$AAc?$AAe?$AA?$AA@ 10003234     cplmain:colschem.obj
+ 0001:00002264       ??_C@_1BA@OFLJGHK@?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt?$AA?$AA@ 10003264     cplmain:colschem.obj
+ 0001:00002274       __real@3ff8000000000000    10003274     cplmain:colschem.obj
+ 0001:0000227c       ??_C@_19LADBALPK@?$AA?8?$AA?$CF?$AAs?$AA?8?$AA?$AA@ 1000327c     cplmain:comm.obj
+ 0001:00002298       ??_C@_1O@OEEGBNG@?$AAd?$AAi?$AAr?$AAe?$AAc?$AAt?$AA?$AA@ 10003298     cplmain:comm.obj
+ 0001:000022a8       ??_C@_1CE@GOOBFBDD@?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAP?$AAa?$AAn?$AAe?$AAl?$AA?2?$AAC?$AAo?$AAm?$AAm?$AA?$AA@ 100032a8     cplmain:comm.obj
+ 0001:000022cc       ??_C@_19MGKENDJM@?$AAC?$AAn?$AAc?$AAt?$AA?$AA@ 100032cc     cplmain:comm.obj
+ 0001:000022d8       ??_C@_1BC@BLNABDAO@?$AAA?$AAu?$AAt?$AAo?$AAC?$AAn?$AAc?$AAt?$AA?$AA@ 100032d8     cplmain:comm.obj
+ 0001:000022ec       ??_C@_1CK@JJGCELN@?$AA?2?$AAw?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AA?2?$AAc?$AAo?$AAp?$AAy?$AAr?$AAt?$AAs?$AA?4?$AAt?$AAx?$AAt?$AA?$AA@ 100032ec     cplmain:copyr.obj
+ 0001:00002318       ??_C@_1BA@DMMGCODP@?$AAD?$AAi?$AAs?$AAp?$AAl?$AAa?$AAy?$AA?$AA@ 10003318     cplmain:datetime.obj
+ 0001:00002328       ??_C@_17GFIDPLDA@?$AAS?$AAt?$AAd?$AA?$AA@ 10003328     cplmain:datetime.obj
+ 0001:00002330       ??_C@_1BG@DHBIEIAA@?$AAT?$AAi?$AAm?$AAe?$AA?5?$AAZ?$AAo?$AAn?$AAe?$AAs?$AA?$AA@ 10003330     cplmain:datetime.obj
+ 0001:00002348       ??_C@_1DC@DBFANGDF@?$AAS?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAC?$AAl?$AAo?$AAc?$AAk?$AA?$AA@ 10003348     cplmain:datetime.obj
+ 0001:0000237c       ??_C@_1BA@JJJMMFCE@?$AAA?$AAu?$AAt?$AAo?$AAD?$AAS?$AAT?$AA?$AA@ 1000337c     cplmain:datetime.obj
+ 0001:0000238c       ??_C@_17KMGBBEGL@?$AAD?$AAl?$AAt?$AA?$AA@ 1000338c     cplmain:datetime.obj
+ 0001:00002394       ??_C@_17LIOBIM@?$AAT?$AAZ?$AAI?$AA?$AA@ 10003394     cplmain:datetime.obj
+ 0001:0000239c       ??_C@_1CC@KPOKNCMJ@?$AAt?$AAo?$AAo?$AAl?$AAt?$AAi?$AAp?$AAs?$AA_?$AAc?$AAl?$AAa?$AAs?$AAs?$AA3?$AA2?$AA?$AA@ 1000339c     cplmain:datetime.obj
+ 0001:000023c0       ??_C@_1BG@MHCPPGLF@?$AAD?$AAb?$AAl?$AAT?$AAa?$AAp?$AAD?$AAi?$AAs?$AAt?$AA?$AA@ 100033c0     cplmain:stylus.obj
+ 0001:000023d8       ??_C@_1CC@KDFENELB@?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAP?$AAa?$AAn?$AAe?$AAl?$AA?2?$AAP?$AAe?$AAn?$AA?$AA@ 100033d8     cplmain:stylus.obj
+ 0001:000023fc       ??_C@_1BG@DBPICEEM@?$AAD?$AAb?$AAl?$AAT?$AAa?$AAp?$AAT?$AAi?$AAm?$AAe?$AA?$AA@ 100033fc     cplmain:stylus.obj
+ 0001:00002498       ??_C@_1CG@EEMKGBNE@?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAP?$AAa?$AAn?$AAe?$AAl?$AA?2?$AAK?$AAe?$AAy?$AAb?$AAd?$AA?$AA@ 10003498     cplmain:keybd.obj
+ 0001:000024c0       ??_C@_1BA@KKMLEEAC@?$AAD?$AAi?$AAs?$AAp?$AAD?$AAl?$AAy?$AA?$AA@ 100034c0     cplmain:keybd.obj
+ 0001:000024d0       ??_C@_1BK@IJOLJDEI@?$AAI?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAD?$AAe?$AAl?$AAa?$AAy?$AA?$AA@ 100034d0     cplmain:keybd.obj
+ 0001:000024ec       ??_C@_1BG@JPLEGAKA@?$AAR?$AAe?$AAp?$AAe?$AAa?$AAt?$AAR?$AAa?$AAt?$AAe?$AA?$AA@ 100034ec     cplmain:keybd.obj
+ 0001:00002504       ??_C@_13IMODFHAA@?$AA?9?$AA?$AA@ 10003504     cplmain:system.obj
+ 0001:00002508       ??_C@_15JOGBDECP@?$AA?0?$AA?5?$AA?$AA@ 10003508     cplmain:system.obj
+ 0001:00002510       ??_C@_1M@LPEEOHMF@?$AAI?$AAd?$AAe?$AAn?$AAt?$AA?$AA@ 10003510     cplmain:system.obj
+ 0001:0000251c       ??_C@_19DINFBLAK@?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 1000351c     cplmain:system.obj
+ 0001:00002528       ??_C@_1BI@KANFNPGF@?$AAg?$AAe?$AAt?$AAh?$AAo?$AAs?$AAt?$AAn?$AAa?$AAm?$AAe?$AA?$AA@ 10003528     cplmain:system.obj
+ 0001:00002540       ??_C@_1BI@LGLIDOAH@?$AAs?$AAe?$AAt?$AAh?$AAo?$AAs?$AAt?$AAn?$AAa?$AAm?$AAe?$AA?$AA@ 10003540     cplmain:system.obj
+ 0001:00002558       ??_C@_1BG@DFCNAPCP@?$AAW?$AAS?$AAA?$AAS?$AAt?$AAa?$AAr?$AAt?$AAu?$AAp?$AA?$AA@ 10003558     cplmain:system.obj
+ 0001:00002570       ??_C@_1BG@KEAFDPJM@?$AAW?$AAS?$AAA?$AAC?$AAl?$AAe?$AAa?$AAn?$AAu?$AAp?$AA?$AA@ 10003570     cplmain:system.obj
+ 0001:00002588       ??_C@_1BI@CGMLOKDP@?$AAw?$AAi?$AAn?$AAs?$AAo?$AAc?$AAk?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10003588     cplmain:system.obj
+ 0001:000025a0       ??_C@_19LHAKLJAO@?$AAD?$AAe?$AAs?$AAc?$AA?$AA@ 100035a0     cplmain:system.obj
+ 0001:000025e4       ??_C@_1DM@BDCIKIHJ@?$AAD?$AAi?$AAs?$AAa?$AAl?$AAl?$AAo?$AAw?$AAS?$AAa?$AAv?$AAe?$AAd?$AAN?$AAe?$AAt?$AAw?$AAo?$AAr?$AAk?$AAP?$AAa?$AAs?$AAs?$AAw?$AAo?$AAr?$AAd?$AAs?$AA?$AA@ 100035e4     cplmain:owner.obj
+ 0001:00002620       ??_C@_1BM@EIIFGPAF@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAS?$AAe?$AAc?$AAu?$AAr?$AAi?$AAt?$AAy?$AA?$AA@ 10003620     cplmain:owner.obj
+ 0001:0000263c       ??_C@_1BO@DBMNKFCI@?$AAC?$AAo?$AAm?$AAp?$AAu?$AAt?$AAe?$AAr?$AAD?$AAo?$AAm?$AAa?$AAi?$AAn?$AA?$AA@ 1000363c     cplmain:owner.obj
+ 0001:0000265c       ??_C@_1M@HEDNAMHC@?$AAN?$AAo?$AAt?$AAe?$AAs?$AA?$AA@ 1000365c     cplmain:owner.obj
+ 0001:00002668       ??_C@_1M@IOCGMLIH@?$AAO?$AAw?$AAn?$AAe?$AAr?$AA?$AA@ 10003668     cplmain:owner.obj
+ 0001:00002674       ??_C@_1CG@HKJOALLH@?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAP?$AAa?$AAn?$AAe?$AAl?$AA?2?$AAO?$AAw?$AAn?$AAe?$AAr?$AA?$AA@ 10003674     cplmain:owner.obj
+ 0001:0000269c       ??_C@_1M@CFFCBBCN@?$AAI?$AAn?$AAs?$AAt?$AAl?$AA?$AA@ 1000369c     cplmain:remove.obj
+ 0001:000026a8       ??_C@_1BM@JGAPINPB@?$AAS?$AAO?$AAF?$AAT?$AAW?$AAA?$AAR?$AAE?$AA?2?$AAA?$AAp?$AAp?$AAs?$AA?$AA@ 100036a8     cplmain:remove.obj
+ 0001:00002704       ??_C@_1CK@HGABLENM@?$AAS?$AAO?$AAF?$AAT?$AAW?$AAA?$AAR?$AAE?$AA?2?$AAA?$AAp?$AAp?$AAs?$AA?2?$AAS?$AAh?$AAa?$AAr?$AAe?$AAd?$AA?$AA@ 10003704     cplmain:unloadn.obj
+ 0001:00002730       ??_C@_1BI@PCICLHLN@?$AAI?$AAn?$AAs?$AAt?$AAl?$AAD?$AAi?$AAr?$AAC?$AAn?$AAt?$AA?$AA@ 10003730     cplmain:unloadn.obj
+ 0001:00002748       ??_C@_15JJPIMNBO@?$AAr?$AAb?$AA?$AA@ 10003748     cplmain:unloadn.obj
+ 0001:00002750       ??_C@_1CG@KGONLG@?$AA?2?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AA?2?$AA?$CF?$AAs?$AA?4?$AAU?$AAn?$AAl?$AAo?$AAa?$AAd?$AA?$AA@ 10003750     cplmain:unloadn.obj
+ 0001:00002778       ??_C@_1BA@JCPGPKGD@?$AAI?$AAs?$AAv?$AAF?$AAi?$AAl?$AAe?$AA?$AA@ 10003778     cplmain:unloadn.obj
+ 0001:00002788       ??_C@_1BC@PKCKBBGK@?$AAI?$AAn?$AAs?$AAt?$AAl?$AAD?$AAi?$AAr?$AA?$AA@ 10003788     cplmain:unloadn.obj
+ 0001:0000279c       ??_C@_1BK@HMCKJION@?$AAa?$AAy?$AAg?$AAs?$AAh?$AAe?$AAl?$AAl?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 1000379c     cplmain:cplutils.obj
+ 0001:000027b8       ??_C@_1BK@HFIHCFMH@?$AAS?$AAH?$AAI?$AAn?$AAi?$AAt?$AAD?$AAi?$AAa?$AAl?$AAo?$AAg?$AA?$AA@ 100037b8     cplmain:cplutils.obj
+ 0001:000027d4       ??_C@_1CI@EOPHAJLC@?$AAS?$AAH?$AAI?$AAn?$AAi?$AAt?$AAE?$AAx?$AAt?$AAr?$AAa?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAs?$AA?$AA@ 100037d4     cplmain:cplutils.obj
+ 0001:000027fc       ??_C@_1BA@GOLMHEEM@?$AAS?$AAI?$AAP?$AAP?$AAR?$AAE?$AAF?$AA?$AA@ 100037fc     cplmain:cplutils.obj
+ 0001:0000280c       ??_C@_1O@CFJIAAME@?$AAD?$AAi?$AAa?$AAl?$AAo?$AAg?$AA?$AA@ 1000380c     cplmain:cplutils.obj
+ 0001:0000281c       ??_C@_1BK@GGAEODBO@?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAP?$AAa?$AAn?$AAe?$AAl?$AA?$AA@ 1000381c     cplmain:cplutils.obj
+ 0001:00002838       ??_C@_1O@OCNNPFEC@?$AAN?$AAo?$AAD?$AAr?$AAa?$AAg?$AA?$AA@ 10003838     cplmain:cplutils.obj
+ 0001:00002848       ??_C@_1BG@IDKBOGHH@?$AAF?$AAu?$AAl?$AAl?$AAS?$AAc?$AAr?$AAe?$AAe?$AAn?$AA?$AA@ 10003848     cplmain:cplutils.obj
+ 0001:00002860       ??_C@_1BO@EAINBNNF@?$AAR?$AAe?$AAc?$AAe?$AAn?$AAt?$AAe?$AAr?$AAF?$AAo?$AAr?$AAS?$AAI?$AAP?$AA?$AA@ 10003860     cplmain:cplutils.obj
+ 0001:00002880       ??_C@_1BM@BPOHKKCE@?$AAR?$AAa?$AAi?$AAs?$AAe?$AAL?$AAo?$AAw?$AAe?$AAr?$AAS?$AAI?$AAP?$AA?$AA@ 10003880     cplmain:cplutils.obj
+ 0001:0000289c       ??_C@_1BG@ICHEEICH@?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 1000389c     cplmain:cplutils.obj
+ 0001:000028b8       ??_C@_1EI@CICDEIMB@?$AAf?$AAi?$AAl?$AAe?$AA?3?$AAc?$AAt?$AAp?$AAn?$AAl?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAp?$AAr?$AAo?$AAm?$AAp?$AAt?$AA_?$AAf?$AAo?$AAr?$AA_?$AAp?$AAa?$AAs?$AAs?$AAw?$AAo@ 100038b8     cplmain:cplutils.obj
+ 0001:00002900       ??_C@_1CE@OEOKAABO@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?2?$AAG?$AAW?$AAE?$AA?2?$AAB?$AAu?$AAt?$AAt?$AAo?$AAn?$AA?$AA@ 10003900     cplmain:cplutils.obj
+ 0001:00002924       ??_C@_1BG@EMFCNEIC@?$AAF?$AAo?$AAn?$AAt?$AAW?$AAe?$AAi?$AAg?$AAh?$AAt?$AA?$AA@ 10003924     cplmain:cplutils.obj
+ 0001:0000293c       ??_C@_13FPGAJAPJ@?$AA?2?$AA?$AA@ 1000393c     cplmain:cplutils.obj
+ 0001:00002940       ??_C@_1M@DFKENGJN@?$AA?$CF?$AAs?$AA?2?$AA?$CF?$AAs?$AA?$AA@ 10003940     cplmain:cplutils.obj
+ 0001:00002ab8       ?InitImaging@@YAXXZ        10003ab8 f   cplmain:screen.obj
+ 0001:00002f40       ?Create@CReg@@QAAHPAUHKEY__@@PBG@Z 10003f40 f i cplmain:screen.obj
+ 0001:00002fa4       ??0CReg@@QAA@PAUHKEY__@@PBG@Z 10003fa4 f i cplmain:screen.obj
+ 0001:00002fec       ?UnInitImaging@@YAXXZ      10003fec f   cplmain:screen.obj
+ 0001:00003068       ?IsDecoderAvailable@@YAHPBG@Z 10004068 f   cplmain:screen.obj
+ 0001:000030d4       ?LoadWallpaperBitmap@@YAPAUHBITMAP__@@PAUHWND__@@PBGH@Z 100040d4 f   cplmain:screen.obj
+ 0001:00003160       ?ValueDW@CReg@@QAAKPBGK@Z  10004160 f i cplmain:screen.obj
+ 0001:000031b4       ?SetSZ@CReg@@QAAHPBG0K@Z   100041b4 f i cplmain:screen.obj
+ 0001:00003200       ?SetDW@CReg@@QAAHPBGK@Z    10004200 f i cplmain:screen.obj
+ 0001:0000325c       ?OFNHookProc@@YAIPAUHWND__@@IIJ@Z 1000425c f   cplmain:screen.obj
+ 0001:0000368c       ?ComboBox_FindData@@YAHPAUHWND__@@K@Z 1000468c f i cplmain:screen.obj
+ 0001:00003984       BacklightDlgProc           10004984 f   cplmain:screen.obj
+ 0001:00003ea4       ?BrowseForWallpaper@@YAHPAUHWND__@@PAGH@Z 10004ea4 f   cplmain:screen.obj
+ 0001:00004164       ?BmpBoxWndProc@@YAJPAUHWND__@@IIJ@Z 10005164 f   cplmain:screen.obj
+ 0001:0000429c       BackgroundDlgProc          1000529c f   cplmain:screen.obj
+ 0001:00004a7c       ?UpdateLB@@YAXPAUHWND__@@H@Z 10005a7c f   cplmain:power.obj
+ 0001:00004b78       ?ShowHideCombo2@@YAXPAUHWND__@@H@Z 10005b78 f   cplmain:power.obj
+ 0001:00005070       ?EnumValue@CReg@@QAAHPAGK0K@Z 10006070 f i cplmain:power.obj
+ 0001:00005454       PowerTimeoutsDlgProc       10006454 f   cplmain:power.obj
+ 0001:00005750       PowerCallback              10006750 f   cplmain:power.obj
+ 0001:000057c8       ?GetSuspendTimes@@YAXAAH0@Z 100067c8 f   cplmain:power.obj
+ 0001:00005844       ?SaveSuspendTimes@@YAXHH@Z 10006844 f   cplmain:power.obj
+ 0001:000058d0       SleepDlgProc               100068d0 f   cplmain:power.obj
+ 0001:00005ae0       ?BatteryOnChange@@YAXPAUHWND__@@QAU_POWER_BROADCAST@@@Z 10006ae0 f   cplmain:power.obj
+ 0001:00006218       PowerDeviceDlgProc         10007218 f   cplmain:power.obj
+ 0001:00006394       BatteryDlgProc             10007394 f   cplmain:power.obj
+ 0001:0000653c       DllEntry                   1000753c f   cplmain:cplmain.obj
+ 0001:000065d8       ?GetCplInfo@@YAHHPAUtagNEWCPLINFOW@@@Z 100075d8 f   cplmain:cplmain.obj
+ 0001:000066cc       ?ValueSZ@CReg@@QAAHPBGPAGK@Z 100076cc f i cplmain:cplmain.obj
+ 0001:00006728       ??0CRunningTab@@QAA@HHPAU_PROPSHEETPAGEW@@PBG@Z 10007728 f i cplmain:cplmain.obj
+ 0001:000067b4       ?IsActiveLap@@YAKXZ        100077b4 f   cplmain:cplmain.obj
+ 0001:0000684c       ?CplPageProc@@YAHPAUHWND__@@IIJ@Z 1000784c f   cplmain:cplmain.obj
+ 0001:00006bb0       ?CplSheetCallback@@YAHPAUHWND__@@IJ@Z 10007bb0 f   cplmain:cplmain.obj
+ 0001:00006c98       ?LaunchCpl@@YAJHH@Z        10007c98 f   cplmain:cplmain.obj
+ 0001:00007088       CPlApplet                  10008088 f   cplmain:cplmain.obj
+ 0001:00007154       ?LoadCAPI2@@YAHXZ          10008154 f   cplmain:certcpl.obj
+ 0001:00007420       ?FreeCAPI2@@YAXXZ          10008420 f   cplmain:certcpl.obj
+ 0001:000074bc       ?LoadCertUI@@YAHXZ         100084bc f   cplmain:certcpl.obj
+ 0001:00007530       ?FreeCertUI@@YAXXZ         10008530 f   cplmain:certcpl.obj
+ 0001:00007574       ?LoadWinscard@@YAHXZ       10008574 f   cplmain:certcpl.obj
+ 0001:000076a0       ?FreeWinscard@@YAXXZ       100086a0 f   cplmain:certcpl.obj
+ 0001:000080ac       ?DoEnableButtons@@YAXPAUHWND__@@@Z 100090ac f   cplmain:certcpl.obj
+ 0001:00008a20       ?ImportCertDialogProc@@YAHPAUHWND__@@IIJ@Z 10009a20 f   cplmain:certcpl.obj
+ 0001:00008e20       ImportCertificate          10009e20 f   cplmain:certcpl.obj
+ 0001:00008e9c       CertRootDlgProc            10009e9c f   cplmain:certcpl.obj
+ 0001:00009370       ?SchemeDialog_Terminate@@YAXPAUHWND__@@@Z 1000a370 f   cplmain:colschem.obj
+ 0001:000093c0       ?RemoveBlanks@@YAXPAG@Z    1000a3c0 f   cplmain:colschem.obj
+ 0001:00009438       ?SaveSchemeDlgProc@@YAHPAUHWND__@@IIJ@Z 1000a438 f   cplmain:colschem.obj
+ 0001:00009640       ?CurrentItemColor@@YAKPAUHWND__@@PAH@Z 1000a640 f   cplmain:colschem.obj
+ 0001:000096a4       ?Reset@CReg@@QAAXXZ        1000a6a4 f i cplmain:colschem.obj
+ 0001:000096e0       ?EnumKey@CReg@@QAAHPAGK@Z  1000a6e0 f i cplmain:colschem.obj
+ 0001:0000974c       ?ValueBinary@CReg@@QAAKPBGPAEK@Z 1000a74c f i cplmain:colschem.obj
+ 0001:000097a0       ?SetBinary@CReg@@QAAHPBGPAEK@Z 1000a7a0 f i cplmain:colschem.obj
+ 0001:000097ec       ?Preview_Destroy@@YAXPAUHWND__@@@Z 1000a7ec f   cplmain:colschem.obj
+ 0001:000098a0       ?Preview_LButtonDown@@YAXPAUHWND__@@UtagPOINT@@@Z 1000a8a0 f   cplmain:colschem.obj
+ 0001:000099c0       ?Preview_ShowBitmap@@YAXPAUHWND__@@PAUHDC__@@@Z 1000a9c0 f   cplmain:colschem.obj
+ 0001:00009a5c       ?Preview_DrawBorder@@YAXPAUHDC__@@PAUtagRECT@@FFPAUHBRUSH__@@2I@Z 1000aa5c f   cplmain:colschem.obj
+ 0001:00009b70       ?Preview_DrawArrow@@YAXPAUHDC__@@HHHH@Z 1000ab70 f   cplmain:colschem.obj
+ 0001:00009c08       ?Preview_CreateLightGrayDitherBrush@@YAPAUHBRUSH__@@XZ 1000ac08 f   cplmain:colschem.obj
+ 0001:00009cd4       ?GdiGetLogFontFromRegistry@@YAXPAUtagLOGFONTW@@PAGJ@Z 1000acd4 f   cplmain:colschem.obj
+ 0001:00009e54       ?Preview_CreateFonts@@YAHPAUHWND__@@@Z 1000ae54 f   cplmain:colschem.obj
+ 0001:00009f2c       ?Preview_CalcElementRects@@YAXPAUHWND__@@@Z 1000af2c f   cplmain:colschem.obj
+ 0001:0000a998       ?RGBtoHLS@@YAXK@Z          1000b998 f   cplmain:colschem.obj
+ 0001:0000ab60       ?HueToRGB@@YAGGGG@Z        1000bb60 f   cplmain:colschem.obj
+ 0001:0000abec       ?HLStoRGB@@YAKGGG@Z        1000bbec f   cplmain:colschem.obj
+ 0001:0000ad1c       ?AdjustLuma@@YAKKHH@Z      1000bd1c f   cplmain:colschem.obj
+ 0001:0000ae28       ?FindScheme@@YAHPBGPAGIPAVCReg@@@Z 1000be28 f   cplmain:colschem.obj
+ 0001:0000af68       ?SchemeDialog_SaveScheme@@YAXPAUHWND__@@@Z 1000bf68 f   cplmain:colschem.obj
+ 0001:0000b138       ?SchemeDialog_DeleteScheme@@YAXPAUHWND__@@@Z 1000c138 f   cplmain:colschem.obj
+ 0001:0000b2b4       ?SchemeDialog_DrawColorBox@@YAXPAUHWND__@@PAUtagDRAWITEMSTRUCT@@@Z 1000c2b4 f   cplmain:colschem.obj
+ 0001:0000b34c       ?Update3DColors@@YAXK@Z    1000c34c f   cplmain:colschem.obj
+ 0001:0000b43c       ?Scheme_ComboInit@@YAXPAUHWND__@@@Z 1000c43c f   cplmain:colschem.obj
+ 0001:0000b520       ?Scheme_Init@@YAHPAUHWND__@@PAG@Z 1000c520 f   cplmain:colschem.obj
+ 0001:0000b6cc       ?Scheme_ReadScheme@@YAHPBGQAK@Z 1000c6cc f   cplmain:colschem.obj
+ 0001:0000b7e0       ?Scheme_WriteCurrentScheme@@YAXPBG@Z 1000c7e0 f   cplmain:colschem.obj
+ 0001:0000b87c       ?Preview_DrawBlankButton@@YAXPAUHDC__@@HHHHFF@Z 1000c87c f   cplmain:colschem.obj
+ 0001:0000b9b8       ?SchemeDialog_ChangeScheme@@YAXPAUHWND__@@0@Z 1000c9b8 f   cplmain:colschem.obj
+ 0001:0000ba98       ?SchemeDialog_ApplyScheme@@YAXPAUHWND__@@@Z 1000ca98 f   cplmain:colschem.obj
+ 0001:0000bb28       ?SchemeDialog_PickColor@@YAXPAUHWND__@@@Z 1000cb28 f   cplmain:colschem.obj
+ 0001:0000bd08       ?Preview_DrawImageButton@@YAXPAUHDC__@@HHH@Z 1000cd08 f   cplmain:colschem.obj
+ 0001:0000be70       ?Preview_Draw@@YAXPAUHWND__@@PAUHDC__@@@Z 1000ce70 f   cplmain:colschem.obj
+ 0001:0000ce14       ?Preview_Paint@@YAXPAUHWND__@@@Z 1000de14 f   cplmain:colschem.obj
+ 0001:0000ce80       ?Preview_DrawBitmap@@YAXPAUHWND__@@@Z 1000de80 f   cplmain:colschem.obj
+ 0001:0000cee8       ?Preview_Create@@YAHPAUHWND__@@@Z 1000dee8 f   cplmain:colschem.obj
+ 0001:0000d090       ?PreviewWindowProc@@YAJPAUHWND__@@IIJ@Z 1000e090 f   cplmain:colschem.obj
+ 0001:0000d17c       ?Preview_RegisterClass@@YAHPAUHINSTANCE__@@@Z 1000e17c f   cplmain:colschem.obj
+ 0001:0000d224       ?SchemePage_Init@@YAHPAUHINSTANCE__@@@Z 1000e224 f   cplmain:colschem.obj
+ 0001:0000d350       ?SchemeDialog_Init@@YAXPAUHWND__@@@Z 1000e350 f   cplmain:colschem.obj
+ 0001:0000d500       ColSchemeDlgProc           1000e500 f   cplmain:colschem.obj
+ 0001:0000d694       ?lineCallback@@YAXKKKKKK@Z 1000e694 f   cplmain:comm.obj
+ 0001:0000d698       ShowLineTranslateDlg       1000e698 f   cplmain:comm.obj
+ 0001:0000d70c       ?RasSetConnectText@@YAXPAUHWND__@@PBG@Z 1000e70c f   cplmain:comm.obj
+ 0001:0000d784       ?EnableRASWindows@@YAXPAUHWND__@@@Z 1000e784 f   cplmain:comm.obj
+ 0001:0000d7dc       ?LoadConnectoidList@@YAXPAUHWND__@@@Z 1000e7dc f   cplmain:comm.obj
+ 0001:0000d900       ?MySzDup@@YAPAGPBG@Z       1000e900 f i cplmain:comm.obj
+ 0001:0000d94c       ?RasGetConnectText@@YAXPAUHWND__@@PAG@Z 1000e94c f   cplmain:comm.obj
+ 0001:0000d9d0       RasChangeDlgProc           1000e9d0 f   cplmain:comm.obj
+ 0001:0000db74       CommRASDlgProc             1000eb74 f   cplmain:comm.obj
+ 0001:0000ddd4       CopyrightsDlgProc          1000edd4 f   cplmain:copyr.obj
+ 0001:0000dfcc       ?DT_ToolTipProc@@YAJPAUHWND__@@IIJ@Z 1000efcc f   cplmain:datetime.obj
+ 0001:0000e05c       ?Init@CDateTime@@QAAXPAUHWND__@@@Z 1000f05c f i cplmain:datetime.obj
+ 0001:0000e318       ?TimeZoneChanged@CDateTime@@QAAXXZ 1000f318 f i cplmain:datetime.obj
+ 0001:0000e524       ?UpdateTimeZone@CDateTime@@QAAHPAU_SYSTEMTIME@@@Z 1000f524 f i cplmain:datetime.obj
+ 0001:0000e60c       ?Update@CDateTime@@QAAXXZ  1000f60c f i cplmain:datetime.obj
+ 0001:0000e700       DateTimeDlgProc            1000f700 f   cplmain:datetime.obj
+ 0001:0000ee18       ?CalcDblClkArea@CDblClick@@AAAXPAUtagPOINT@@0@Z 1000fe18 f i cplmain:stylus.obj
+ 0001:0000ee5c       ??0CDblClick@@QAA@HPAUHWND__@@@Z 1000fe5c f i cplmain:stylus.obj
+ 0001:0000ef24       ?OnSetupClick@CDblClick@@QAAXUtagPOINT@@I@Z 1000ff24 f i cplmain:stylus.obj
+ 0001:0000f044       ?OnTestClick@CDblClick@@QAAXUtagPOINT@@I@Z 10010044 f i cplmain:stylus.obj
+ 0001:0000f180       ?SaveSettings@CDblClick@@QAAXXZ 10010180 f i cplmain:stylus.obj
+ 0001:0000f288       DblTapDlgProc              10010288 f   cplmain:stylus.obj
+ 0001:0000f4b8       DblClickDlgProc            100104b8 f   cplmain:stylus.obj
+ 0001:0000f4bc       ?InitSliders@@YAXPAUHWND__@@AAUtagKeybdSettings@@@Z 100104bc f   cplmain:keybd.obj
+ 0001:0000f624       ?ShowEnableKeybdControls@@YAXPAUHWND__@@H@Z 10010624 f   cplmain:keybd.obj
+ 0001:0000f6ac       ?MyEditProc@@YAJPAUHWND__@@IIJ@Z 100106ac f   cplmain:keybd.obj
+ 0001:0000f71c       ?GetKbdDevInfo@@YAXAAUKBDI_AUTOREPEAT_INFO@@AAUtagKeybdSettings@@@Z 1001071c f   cplmain:keybd.obj
+ 0001:0000f888       ?UpdateKeybdSettings@@YAXPAUHWND__@@AAUtagKeybdSettings@@@Z 10010888 f   cplmain:keybd.obj
+ 0001:0000f9e0       ?RestoreKeybdSettings@@YAXHHH@Z 100109e0 f   cplmain:keybd.obj
+ 0001:0000fa84       KeybdDlgProc               10010a84 f   cplmain:keybd.obj
+ 0001:0000fd1c       ??0CEnumPNP@@QAA@XZ        10010d1c f i cplmain:system.obj
+ 0001:0000fd98       ?GetProgramInformation@@YAXKPAK@Z 10010d98 f   cplmain:system.obj
+ 0001:0000fdfc       ?GetMemoryInfo@@YAXAAK0000@Z 10010dfc f   cplmain:system.obj
+ 0001:0000feb0       ?SYS_ToolTipProc@@YAJPAUHWND__@@IIJ@Z 10010eb0 f   cplmain:system.obj
+ 0001:0000ff38       ?ValidName@@YAHPAG@Z       10010f38 f   cplmain:system.obj
+ 0001:0000fffc       ?MemoryDlgOnTimer@@YAXPAUHWND__@@PAUMemoryState@@@Z 10010ffc f   cplmain:system.obj
+ 0001:0001015c       ?MemoryDlgOnSlider@@YAXPAUHWND__@@@Z 1001115c f   cplmain:system.obj
+ 0001:000102e0       ?MemoryDlgOnOK@@YAXPAUHWND__@@K@Z 100112e0 f   cplmain:system.obj
+ 0001:0001046c       ?NextFriendly@CEnumPNP@@QAAPAGXZ 1001146c f i cplmain:system.obj
+ 0001:000104e4       ?ShowPNPInfo@@YAXPAUHWND__@@@Z 100114e4 f   cplmain:system.obj
+ 0001:000105d0       SystemDlgProc              100115d0 f   cplmain:system.obj
+ 0001:00010be0       MemoryDlgProc              10011be0 f   cplmain:system.obj
+ 0001:00010efc       ?CheckDeviceName@@YAHP6AHPADH@ZPAUHWND__@@HH@Z 10011efc f   cplmain:system.obj
+ 0001:000111e0       SystemIdentDlgProc         100121e0 f   cplmain:system.obj
+ 0001:00011618       ?SplitDomainUser@@YAKPAG0PAK01@Z 10012618 f   cplmain:owner.obj
+ 0001:00011740       ?MakeDomainUser@@YAKPAGPAK0K0K@Z 10012740 f   cplmain:owner.obj
+ 0001:00011840       ?CachedCredentialDomainUser@@YAKPAGPAK01@Z 10012840 f   cplmain:owner.obj
+ 0001:000118e4       ?CacheDomainCredential@@YAKQAGK0K0K@Z 100128e4 f   cplmain:owner.obj
+ 0001:00011a3c       ?DisallowSavedPasswords@@YAHXZ 10012a3c f   cplmain:owner.obj
+ 0001:00011acc       NetIdentDlgProc            10012acc f   cplmain:owner.obj
+ 0001:00011e94       ?GetOwnerInfo@@YAXPAUtagOWNER_PROFILE@@PAUtagOWNER_NOTES@@@Z 10012e94 f   cplmain:owner.obj
+ 0001:00011f38       ?SaveOwnerInfo@@YAXPAUtagOWNER_PROFILE@@PAUtagOWNER_NOTES@@@Z 10012f38 f   cplmain:owner.obj
+ 0001:00011fd4       OwnerDlgProc               10012fd4 f   cplmain:owner.obj
+ 0001:0001227c       NotesDlgProc               1001327c f   cplmain:owner.obj
+ 0001:000123c4       ?EnablePwdCheckbox@@YAXPAUHWND__@@@Z 100133c4 f   cplmain:passwd.obj
+ 0001:00012534       PasswdDlgProc              10013534 f   cplmain:passwd.obj
+ 0001:000129fc       ?DisplayRemoveError@@YAXPAUHWND__@@J@Z 100139fc f   cplmain:remove.obj
+ 0001:00012b00       ?UnloadThread@@YAKPAX@Z    10013b00 f   cplmain:remove.obj
+ 0001:00012b24       ?LoadUpdateRemoveList@@YAXPAUHWND__@@@Z 10013b24 f   cplmain:remove.obj
+ 0001:00012c20       RemoveDlgProc              10013c20 f   cplmain:remove.obj
+ 0001:00012e2c       ?CertificatePromptDialogProc@@YAHPAUHWND__@@IIJ@Z 10013e2c f   cplmain:rootdlg.obj
+ 0001:00012ec0       RootStorePrompt            10013ec0 f   cplmain:rootdlg.obj
+ 0001:000133f4       ?AddPath@@YAXPAGPBG1@Z     100143f4 f   cplmain:unloadn.obj
+ 0001:00013430       ?ScriptGetKey@@YAPAUHKEY__@@PAG@Z 10014430 f   cplmain:unloadn.obj
+ 0001:0001347c       ?DeleteInstallDirPath@@YAXPBGH@Z 1001447c f   cplmain:unloadn.obj
+ 0001:00013508       ?UnloadErrorDlgProc@@YAHPAUHWND__@@IIJ@Z 10014508 f   cplmain:unloadn.obj
+ 0001:0001356c       ?AddToErrorList@@YAHPAG@Z  1001456c f   cplmain:unloadn.obj
+ 0001:000135a0       ?AppendSlash@@YAXPAG@Z     100145a0 f i cplmain:unloadn.obj
+ 0001:000135e0       ?IsFileInUse@@YAHPBG@Z     100145e0 f i cplmain:unloadn.obj
+ 0001:00013630       ?RemoveSharedFile@@YAHPAG@Z 10014630 f   cplmain:unloadn.obj
+ 0001:00013738       ?ProcessUnloadFile@@YAJPAXPBGH@Z 10014738 f   cplmain:unloadn.obj
+ 0001:00013b78       UninstallApplication       10014b78 f   cplmain:unloadn.obj
+ 0001:00013f90       ?LoadAygshellLibrary@@YAHXZ 10014f90 f   cplmain:cplutils.obj
+ 0001:00014018       ?FreeAygshellLibrary@@YAHXZ 10015018 f   cplmain:cplutils.obj
+ 0001:00014094       ?AygInitDialog@@YAHPAUHWND__@@K@Z 10015094 f   cplmain:cplutils.obj
+ 0001:00014120       ?AygInitExtraControls@@YAHXZ 10015120 f   cplmain:cplutils.obj
+ 0001:00014188       ?AygAddSipprefControl@@YAHPAUHWND__@@@Z 10015188 f   cplmain:cplutils.obj
+ 0001:00014234       ?CheckPrevInstance@@YAPAXPBG0H@Z 10015234 f   cplmain:cplutils.obj
+ 0001:000142dc       ?CenterWindowSIPAware@@YAHPAUHWND__@@H@Z 100152dc f   cplmain:cplutils.obj
+ 0001:00014434       ?GetSipState@@YAKXZ        10015434 f   cplmain:cplutils.obj
+ 0001:0001448c       ?RaiseLowerSip@@YAXH@Z     1001548c f   cplmain:cplutils.obj
+ 0001:00014514       ?DrawBitmapOnDc@@YAXPAUtagDRAWITEMSTRUCT@@HH@Z 10015514 f   cplmain:cplutils.obj
+ 0001:000146c4       ?DrawCPLButton@@YAXPAUtagDRAWITEMSTRUCT@@H@Z 100156c4 f   cplmain:cplutils.obj
+ 0001:00014718       ?LoadCB@@YAXPAUHWND__@@QBUCOMBODATA@@H@Z 10015718 f   cplmain:cplutils.obj
+ 0001:000147a0       ?ValueSZ@CReg@@QAAPBGPBG@Z 100157a0 f   cplmain:cplutils.obj
+ 0001:00014860       ?FindByData@CFileCombo@@QAAHPBG@Z 10015860 f   cplmain:cplutils.obj
+ 0001:000148b8       ?NukePath@@YAXPAG@Z        100158b8 f i cplmain:cplutils.obj
+ 0001:00014938       ?NukeExt@@YAXPAG@Z         10015938 f i cplmain:cplutils.obj
+ 0001:0001498c       ?MakeNameNice@@YAXPAG@Z    1001598c f i cplmain:cplutils.obj
+ 0001:000149e4       ?LoadRegGlobals@@YAXXZ     100159e4 f   cplmain:cplutils.obj
+ 0001:00014aac       ?SetDeviceDependentText@@YAXPAUHWND__@@HH@Z 10015aac f   cplmain:cplutils.obj
+ 0001:00014bd8       ?GetPasswordDlgProc@@YAHPAUHWND__@@IIJ@Z 10015bd8 f   cplmain:cplutils.obj
+ 0001:00014db4       ?PromptForPasswd@@YAPAGPAUHWND__@@@Z 10015db4 f   cplmain:cplutils.obj
+ 0001:00014e48       ?CreateBoldFont@@YAPAUHFONT__@@PAUHWND__@@@Z 10015e48 f   cplmain:cplutils.obj
+ 0001:00014f4c       ?SetTextWithEllipsis@@YAXPAUHWND__@@PBG@Z 10015f4c f   cplmain:cplutils.obj
+ 0001:00015074       ?AddFile@CFileCombo@@QAAHPBG0@Z 10016074 f   cplmain:cplutils.obj
+ 0001:000151dc       ?AddFileSpec@CFileCombo@@QAAXPBG0@Z 100161dc f   cplmain:cplutils.obj
+ 0001:00015290       ?InsertItem@CFileCombo@@QAAHPBG0H@Z 10016290 f   cplmain:cplutils.obj
+ 0001:000152f8       ?SelectByPath@CFileCombo@@QAAHPBG@Z 100162f8 f   cplmain:cplutils.obj
+ 0001:00015364       ?Base64DecodeExA@@YAKPBDKPAEPAK2@Z 10016364 f   cplmain:base64.obj
+ 0001:00015528       PropertySheetW             10016528 f   commctrl:commctrl.dll
+ 0001:00015538       InitCommonControlsEx       10016538 f   commctrl:commctrl.dll
+ 0001:00015548       ChooseColor                10016548 f   commdlg:commdlg.dll
+ 0001:00015558       CoTaskMemFree              10016558 f   ole32:ole32.dll
+ 0001:00015568       CoCreateInstance           10016568 f   ole32:ole32.dll
+ 0001:00015578       CoInitializeEx             10016578 f   ole32:ole32.dll
+ 0001:00015588       CoUninitialize             10016588 f   ole32:ole32.dll
+ 0001:00015598       EventModify                10016598 f   coredll:COREDLL.dll
+ 0001:000155a8       StringCchCopyExW           100165a8 f   coredll:COREDLL.dll
+ 0001:000155b8       LocalAlloc                 100165b8 f   coredll:COREDLL.dll
+ 0001:000155c8       CharUpperW                 100165c8 f   coredll:COREDLL.dll
+ 0001:000155d8       LocalFree                  100165d8 f   coredll:COREDLL.dll
+ 0001:000155e8       RegCreateKeyExW            100165e8 f   coredll:COREDLL.dll
+ 0001:000155f8       RegOpenKeyExW              100165f8 f   coredll:COREDLL.dll
+ 0001:00015608       RegCloseKey                10016608 f   coredll:COREDLL.dll
+ 0001:00015618       CharLowerW                 10016618 f   coredll:COREDLL.dll
+ 0001:00015628       MessageBoxW                10016628 f   coredll:COREDLL.dll
+ 0001:00015638       GetLastError               10016638 f   coredll:COREDLL.dll
+ 0001:00015648       LoadStringW                10016648 f   coredll:COREDLL.dll
+ 0001:00015658       SHLoadDIBitmap             10016658 f   coredll:COREDLL.dll
+ 0001:00015668       RegQueryValueExW           10016668 f   coredll:COREDLL.dll
+ 0001:00015678       RegSetValueExW             10016678 f   coredll:COREDLL.dll
+ 0001:00015688       SendMessageW               10016688 f   coredll:COREDLL.dll
+ 0001:00015698       StringCchCopyW             10016698 f   coredll:COREDLL.dll
+ 0001:000156a8       RegDeleteValueW            100166a8 f   coredll:COREDLL.dll
+ 0001:000156b8       DeleteDC                   100166b8 f   coredll:COREDLL.dll
+ 0001:000156c8       BitBlt                     100166c8 f   coredll:COREDLL.dll
+ 0001:000156d8       OffsetRect                 100166d8 f   coredll:COREDLL.dll
+ 0001:000156e8       DeleteObject               100166e8 f   coredll:COREDLL.dll
+ 0001:000156f8       PatBlt                     100166f8 f   coredll:COREDLL.dll
+ 0001:00015708       CreatePatternBrush         10016708 f   coredll:COREDLL.dll
+ 0001:00015718       FillRect                   10016718 f   coredll:COREDLL.dll
+ 0001:00015728       GetSysColorBrush           10016728 f   coredll:COREDLL.dll
+ 0001:00015738       SelectObject               10016738 f   coredll:COREDLL.dll
+ 0001:00015748       CreateCompatibleBitmap     10016748 f   coredll:COREDLL.dll
+ 0001:00015758       CreateCompatibleDC         10016758 f   coredll:COREDLL.dll
+ 0001:00015768       SetRect                    10016768 f   coredll:COREDLL.dll
+ 0001:00015778       GetSystemMetrics           10016778 f   coredll:COREDLL.dll
+ 0001:00015788       GetClientRect              10016788 f   coredll:COREDLL.dll
+ 0001:00015798       StretchBlt                 10016798 f   coredll:COREDLL.dll
+ 0001:000157a8       GetObjectW                 100167a8 f   coredll:COREDLL.dll
+ 0001:000157b8       FreeLibrary                100167b8 f   coredll:COREDLL.dll
+ 0001:000157c8       ShowWindow                 100167c8 f   coredll:COREDLL.dll
+ 0001:000157d8       GetProcAddressW            100167d8 f   coredll:COREDLL.dll
+ 0001:000157e8       LoadLibraryW               100167e8 f   coredll:COREDLL.dll
+ 0001:000157f8       CloseHandle                100167f8 f   coredll:COREDLL.dll
+ 0001:00015808       CreateEventW               10016808 f   coredll:COREDLL.dll
+ 0001:00015818       EnableWindow               10016818 f   coredll:COREDLL.dll
+ 0001:00015828       GetDlgItem                 10016828 f   coredll:COREDLL.dll
+ 0001:00015838       GetOpenFileNameW           10016838 f   coredll:COREDLL.dll
+ 0001:00015848       StringCchCatExW            10016848 f   coredll:COREDLL.dll
+ 0001:00015858       CallWindowProcW            10016858 f   coredll:COREDLL.dll
+ 0001:00015868       EndPaint                   10016868 f   coredll:COREDLL.dll
+ 0001:00015878       CreateSolidBrush           10016878 f   coredll:COREDLL.dll
+ 0001:00015888       GetSysColor                10016888 f   coredll:COREDLL.dll
+ 0001:00015898       BeginPaint                 10016898 f   coredll:COREDLL.dll
+ 0001:000158a8       SetWindowLongW             100168a8 f   coredll:COREDLL.dll
+ 0001:000158b8       PostMessageW               100168b8 f   coredll:COREDLL.dll
+ 0001:000158c8       SetFocus                   100168c8 f   coredll:COREDLL.dll
+ 0001:000158d8       InvalidateRect             100168d8 f   coredll:COREDLL.dll
+ 0001:000158e8       StringCbPrintfW            100168e8 f   coredll:COREDLL.dll
+ 0001:000158f8       StopPowerNotifications     100168f8 f   coredll:COREDLL.dll
+ 0001:00015908       ReadMsgQueue               10016908 f   coredll:COREDLL.dll
+ 0001:00015918       WaitForMultipleObjects     10016918 f   coredll:COREDLL.dll
+ 0001:00015928       RequestPowerNotifications  10016928 f   coredll:COREDLL.dll
+ 0001:00015938       CreateMsgQueue             10016938 f   coredll:COREDLL.dll
+ 0001:00015948       GetDevicePower             10016948 f   coredll:COREDLL.dll
+ 0001:00015958       RegEnumValueW              10016958 f   coredll:COREDLL.dll
+ 0001:00015968       DestroyIcon                10016968 f   coredll:COREDLL.dll
+ 0001:00015978       LoadImageW                 10016978 f   coredll:COREDLL.dll
+ 0001:00015988       GetSystemPowerStatusEx     10016988 f   coredll:COREDLL.dll
+ 0001:00015998       OpenEventW                 10016998 f   coredll:COREDLL.dll
+ 0001:000159a8       NotifyWinUserSystem        100169a8 f   coredll:COREDLL.dll
+ 0001:000159b8       wsprintfW                  100169b8 f   coredll:COREDLL.dll
+ 0001:000159c8       SetDlgItemTextW            100169c8 f   coredll:COREDLL.dll
+ 0001:000159d8       lstrcmpW                   100169d8 f   coredll:COREDLL.dll
+ 0001:000159e8       GetDlgItemTextW            100169e8 f   coredll:COREDLL.dll
+ 0001:000159f8       GetTimeFormatW             100169f8 f   coredll:COREDLL.dll
+ 0001:00015a08       GetDateFormatW             10016a08 f   coredll:COREDLL.dll
+ 0001:00015a18       BatteryGetLifeTimeInfo     10016a18 f   coredll:COREDLL.dll
+ 0001:00015a28       IsWindowVisible            10016a28 f   coredll:COREDLL.dll
+ 0001:00015a38       BatteryDrvrSupportsChangeNotification 10016a38 f   coredll:COREDLL.dll
+ 0001:00015a48       RequestDeviceNotifications 10016a48 f   coredll:COREDLL.dll
+ 0001:00015a58       StopDeviceNotifications    10016a58 f   coredll:COREDLL.dll
+ 0001:00015a68       CreateThread               10016a68 f   coredll:COREDLL.dll
+ 0001:00015a78       WaitForSingleObject        10016a78 f   coredll:COREDLL.dll
+ 0001:00015a88       BatteryDrvrGetLevels       10016a88 f   coredll:COREDLL.dll
+ 0001:00015a98       DeleteCriticalSection      10016a98 f   coredll:COREDLL.dll
+ 0001:00015aa8       InitializeCriticalSection  10016aa8 f   coredll:COREDLL.dll
+ 0001:00015ab8       LoadIconW                  10016ab8 f   coredll:COREDLL.dll
+ 0001:00015ac8       GetFocus                   10016ac8 f   coredll:COREDLL.dll
+ 0001:00015ad8       CreateProcessW             10016ad8 f   coredll:COREDLL.dll
+ 0001:00015ae8       SendDlgItemMessageW        10016ae8 f   coredll:COREDLL.dll
+ 0001:00015af8       GetParent                  10016af8 f   coredll:COREDLL.dll
+ 0001:00015b08       GetWindowLongW             10016b08 f   coredll:COREDLL.dll
+ 0001:00015b18       CreateEnrollmentConfigDialog 10016b18 f   coredll:COREDLL.dll
+ 0001:00015b28       GetFileAttributesW         10016b28 f   coredll:COREDLL.dll
+ 0001:00015b38       VerifyUser                 10016b38 f   coredll:COREDLL.dll
+ 0001:00015b48       FindWindowW                10016b48 f   coredll:COREDLL.dll
+ 0001:00015b58       InterlockedIncrement       10016b58 f   coredll:COREDLL.dll
+ 0001:00015b68       InterlockedDecrement       10016b68 f   coredll:COREDLL.dll
+ 0001:00015b78       CryptDestroyKey            10016b78 f   coredll:COREDLL.dll
+ 0001:00015b88       CryptGetKeyParam           10016b88 f   coredll:COREDLL.dll
+ 0001:00015b98       CryptGetUserKey            10016b98 f   coredll:COREDLL.dll
+ 0001:00015ba8       CryptEnumProvidersW        10016ba8 f   coredll:COREDLL.dll
+ 0001:00015bb8       CryptReleaseContext        10016bb8 f   coredll:COREDLL.dll
+ 0001:00015bc8       CryptGetProvParam          10016bc8 f   coredll:COREDLL.dll
+ 0001:00015bd8       CryptAcquireContextW       10016bd8 f   coredll:COREDLL.dll
+ 0001:00015be8       EndDialog                  10016be8 f   coredll:COREDLL.dll
+ 0001:00015bf8       CryptDestroyHash           10016bf8 f   coredll:COREDLL.dll
+ 0001:00015c08       CryptDeriveKey             10016c08 f   coredll:COREDLL.dll
+ 0001:00015c18       CryptHashData              10016c18 f   coredll:COREDLL.dll
+ 0001:00015c28       CryptCreateHash            10016c28 f   coredll:COREDLL.dll
+ 0001:00015c38       SetLastError               10016c38 f   coredll:COREDLL.dll
+ 0001:00015c48       DialogBoxIndirectParamW    10016c48 f   coredll:COREDLL.dll
+ 0001:00015c58       LoadResource               10016c58 f   coredll:COREDLL.dll
+ 0001:00015c68       FindResourceW              10016c68 f   coredll:COREDLL.dll
+ 0001:00015c78       CryptImportKey             10016c78 f   coredll:COREDLL.dll
+ 0001:00015c88       ReadFile                   10016c88 f   coredll:COREDLL.dll
+ 0001:00015c98       GetFileSize                10016c98 f   coredll:COREDLL.dll
+ 0001:00015ca8       CreateFileW                10016ca8 f   coredll:COREDLL.dll
+ 0001:00015cb8       SetWindowTextW             10016cb8 f   coredll:COREDLL.dll
+ 0001:00015cc8       SetCursor                  10016cc8 f   coredll:COREDLL.dll
+ 0001:00015cd8       UnregisterClassW           10016cd8 f   coredll:COREDLL.dll
+ 0001:00015ce8       CharNextW                  10016ce8 f   coredll:COREDLL.dll
+ 0001:00015cf8       CharPrevW                  10016cf8 f   coredll:COREDLL.dll
+ 0001:00015d08       RegEnumKeyExW              10016d08 f   coredll:COREDLL.dll
+ 0001:00015d18       RegDeleteKeyW              10016d18 f   coredll:COREDLL.dll
+ 0001:00015d28       ImageList_Destroy          10016d28 f   coredll:COREDLL.dll
+ 0001:00015d38       PtInRect                   10016d38 f   coredll:COREDLL.dll
+ 0001:00015d48       CreateDIBPatternBrushPt    10016d48 f   coredll:COREDLL.dll
+ 0001:00015d58       GetStockObject             10016d58 f   coredll:COREDLL.dll
+ 0001:00015d68       CreateFontIndirectW        10016d68 f   coredll:COREDLL.dll
+ 0001:00015d78       GetTextExtentExPointW      10016d78 f   coredll:COREDLL.dll
+ 0001:00015d88       GetTextMetricsW            10016d88 f   coredll:COREDLL.dll
+ 0001:00015d98       GetDC                      10016d98 f   coredll:COREDLL.dll
+ 0001:00015da8       DrawFocusRect              10016da8 f   coredll:COREDLL.dll
+ 0001:00015db8       InflateRect                10016db8 f   coredll:COREDLL.dll
+ 0001:00015dc8       DrawEdge                   10016dc8 f   coredll:COREDLL.dll
+ 0001:00015dd8       SetSysColors               10016dd8 f   coredll:COREDLL.dll
+ 0001:00015de8       SetTextColor               10016de8 f   coredll:COREDLL.dll
+ 0001:00015df8       SetBkColor                 10016df8 f   coredll:COREDLL.dll
+ 0001:00015e08       ImageList_DrawIndirect     10016e08 f   coredll:COREDLL.dll
+ 0001:00015e18       RestoreDC                  10016e18 f   coredll:COREDLL.dll
+ 0001:00015e28       DrawTextW                  10016e28 f   coredll:COREDLL.dll
+ 0001:00015e38       SaveDC                     10016e38 f   coredll:COREDLL.dll
+ 0001:00015e48       ImageList_AddMasked        10016e48 f   coredll:COREDLL.dll
+ 0001:00015e58       LoadBitmapW                10016e58 f   coredll:COREDLL.dll
+ 0001:00015e68       ImageList_Create           10016e68 f   coredll:COREDLL.dll
+ 0001:00015e78       ReleaseDC                  10016e78 f   coredll:COREDLL.dll
+ 0001:00015e88       DefWindowProcW             10016e88 f   coredll:COREDLL.dll
+ 0001:00015e98       RegisterClassW             10016e98 f   coredll:COREDLL.dll
+ 0001:00015ea8       LoadCursorW                10016ea8 f   coredll:COREDLL.dll
+ 0001:00015eb8       GetClassInfoW              10016eb8 f   coredll:COREDLL.dll
+ 0001:00015ec8       CreateWindowExW            10016ec8 f   coredll:COREDLL.dll
+ 0001:00015ed8       MapWindowPoints            10016ed8 f   coredll:COREDLL.dll
+ 0001:00015ee8       GetWindowRect              10016ee8 f   coredll:COREDLL.dll
+ 0001:00015ef8       UpdateWindow               10016ef8 f   coredll:COREDLL.dll
+ 0001:00015f08       lineShutdown               10016f08 f   coredll:COREDLL.dll
+ 0001:00015f18       lineTranslateDialog        10016f18 f   coredll:COREDLL.dll
+ 0001:00015f28       lineInitialize             10016f28 f   coredll:COREDLL.dll
+ 0001:00015f38       StringCchPrintfW           10016f38 f   coredll:COREDLL.dll
+ 0001:00015f48       RasGetEntryProperties      10016f48 f   coredll:COREDLL.dll
+ 0001:00015f58       RasEnumEntries             10016f58 f   coredll:COREDLL.dll
+ 0001:00015f68       MultiByteToWideChar        10016f68 f   coredll:COREDLL.dll
+ 0001:00015f78       SetTimer                   10016f78 f   coredll:COREDLL.dll
+ 0001:00015f88       KillTimer                  10016f88 f   coredll:COREDLL.dll
+ 0001:00015f98       ChildWindowFromPoint       10016f98 f   coredll:COREDLL.dll
+ 0001:00015fa8       GetTimeZoneInformation     10016fa8 f   coredll:COREDLL.dll
+ 0001:00015fb8       SetTimeZoneInformation     10016fb8 f   coredll:COREDLL.dll
+ 0001:00015fc8       SetLocalTime               10016fc8 f   coredll:COREDLL.dll
+ 0001:00015fd8       GetLocalTime               10016fd8 f   coredll:COREDLL.dll
+ 0001:00015fe8       SetWindowPos               10016fe8 f   coredll:COREDLL.dll
+ 0001:00015ff8       GetMonitorInfo             10016ff8 f   coredll:COREDLL.dll
+ 0001:00016008       MonitorFromWindow          10017008 f   coredll:COREDLL.dll
+ 0001:00016018       ImmAssociateContext        10017018 f   coredll:COREDLL.dll
+ 0001:00016028       GetDoubleClickTime         10017028 f   coredll:COREDLL.dll
+ 0001:00016038       lstrcmpiW                  10017038 f   coredll:COREDLL.dll
+ 0001:00016048       GetDlgCtrlID               10017048 f   coredll:COREDLL.dll
+ 0001:00016058       GetTickCount               10017058 f   coredll:COREDLL.dll
+ 0001:00016068       GetWindowTextLengthW       10017068 f   coredll:COREDLL.dll
+ 0001:00016078       KeybdGetDeviceInfo         10017078 f   coredll:COREDLL.dll
+ 0001:00016088       EnumPnpIds                 10017088 f   coredll:COREDLL.dll
+ 0001:00016098       GlobalMemoryStatus         10017098 f   coredll:COREDLL.dll
+ 0001:000160a8       GetStoreInformation        100170a8 f   coredll:COREDLL.dll
+ 0001:000160b8       GetSystemMemoryDivision    100170b8 f   coredll:COREDLL.dll
+ 0001:000160c8       Sleep                      100170c8 f   coredll:COREDLL.dll
+ 0001:000160d8       SetSystemMemoryDivision    100170d8 f   coredll:COREDLL.dll
+ 0001:000160e8       KernelIoControl            100170e8 f   coredll:COREDLL.dll
+ 0001:000160f8       GetSystemInfo              100170f8 f   coredll:COREDLL.dll
+ 0001:00016108       GetVersionExW              10017108 f   coredll:COREDLL.dll
+ 0001:00016118       WideCharToMultiByte        10017118 f   coredll:COREDLL.dll
+ 0001:00016128       CredFree                   10017128 f   coredll:COREDLL.dll
+ 0001:00016138       CredRead                   10017138 f   coredll:COREDLL.dll
+ 0001:00016148       CredWrite                  10017148 f   coredll:COREDLL.dll
+ 0001:00016158       CredDelete                 10017158 f   coredll:COREDLL.dll
+ 0001:00016168       MessageBeep                10017168 f   coredll:COREDLL.dll
+ 0001:00016178       GetPasswordStatus          10017178 f   coredll:COREDLL.dll
+ 0001:00016188       SetUserData                10017188 f   coredll:COREDLL.dll
+ 0001:00016198       GetUserNameExW             10017198 f   coredll:COREDLL.dll
+ 0001:000161a8       SetPasswordStatus          100171a8 f   coredll:COREDLL.dll
+ 0001:000161b8       SetPassword                100171b8 f   coredll:COREDLL.dll
+ 0001:000161c8       StringCchLengthW           100171c8 f   coredll:COREDLL.dll
+ 0001:000161d8       CheckPassword              100171d8 f   coredll:COREDLL.dll
+ 0001:000161e8       FormatMessageW             100171e8 f   coredll:COREDLL.dll
+ 0001:000161f8       FileTimeToSystemTime       100171f8 f   coredll:COREDLL.dll
+ 0001:00016208       FileTimeToLocalFileTime    10017208 f   coredll:COREDLL.dll
+ 0001:00016218       RemoveDirectoryW           10017218 f   coredll:COREDLL.dll
+ 0001:00016228       StringCbCopyW              10017228 f   coredll:COREDLL.dll
+ 0001:00016238       DestroyWindow              10017238 f   coredll:COREDLL.dll
+ 0001:00016248       DeleteFileW                10017248 f   coredll:COREDLL.dll
+ 0001:00016258       IsWindow                   10017258 f   coredll:COREDLL.dll
+ 0001:00016268       DispatchMessageW           10017268 f   coredll:COREDLL.dll
+ 0001:00016278       TranslateMessage           10017278 f   coredll:COREDLL.dll
+ 0001:00016288       IsDialogMessageW           10017288 f   coredll:COREDLL.dll
+ 0001:00016298       GetMessageW                10017298 f   coredll:COREDLL.dll
+ 0001:000162a8       CreateDialogIndirectParamW 100172a8 f   coredll:COREDLL.dll
+ 0001:000162b8       LeaveCriticalSection       100172b8 f   coredll:COREDLL.dll
+ 0001:000162c8       EnterCriticalSection       100172c8 f   coredll:COREDLL.dll
+ 0001:000162d8       SetForegroundWindow        100172d8 f   coredll:COREDLL.dll
+ 0001:000162e8       CreateMutexW               100172e8 f   coredll:COREDLL.dll
+ 0001:000162f8       SystemParametersInfoW      100172f8 f   coredll:COREDLL.dll
+ 0001:00016308       CharUpperBuffW             10017308 f   coredll:COREDLL.dll
+ 0001:00016318       StringCchCatW              10017318 f   coredll:COREDLL.dll
+ 0001:00016328       FindClose                  10017328 f   coredll:COREDLL.dll
+ 0001:00016338       FindNextFileW              10017338 f   coredll:COREDLL.dll
+ 0001:00016348       FindFirstFileW             10017348 f   coredll:COREDLL.dll
+ 0001:00016358       _DllEntryCRTStartup        10017358 f   corelib0:pegdentry.obj
+ 0001:0001639c       __GSHandlerCheckCommon     1001739c f   corelib0:gshandler.obj
+ 0001:000163d8       __GSHandlerCheck           100173d8 f   corelib0:gshandler.obj
+ 0001:000163f8       __security_init_cookie     100173f8 f   corelib0:seccinit.obj
+ 0001:00016444       __security_check_cookie    10017444 f   corelib0:armsecgs.obj
+ 0001:00016454       __gsfailure                10017454     corelib0:armsecgs.obj
+ 0001:00016498       __GSHandlerCheck_SEH       10017498 f   corelib0:gshandlerseh.obj
+ 0001:000165cc       _cexit                     100175cc f   corelib0:cexit.obj
+ 0001:000165dc       _initterm                  100175dc f   corelib0:crt0dat.obj
+ 0001:00016608       _cinit                     10017608 f   corelib0:crt0dat.obj
+ 0001:00016668       __crt_ExitProcess          10017668 f   corelib0:exitproc_proxy.obj
+ 0001:00016674       wcsstr                     10017674 f   corelib1:COREDLL.dll
+ 0001:00016684       wcslen                     10017684 f   corelib1:COREDLL.dll
+ 0001:00016694       memset                     10017694 f   corelib1:COREDLL.dll
+ 0001:000166a4       wcsncmp                    100176a4 f   corelib1:COREDLL.dll
+ 0001:000166b4       ??2@YAPAXI@Z               100176b4 f   corelib1:COREDLL.dll
+ 0001:000166c4       swscanf                    100176c4 f   corelib1:COREDLL.dll
+ 0001:000166d4       __C_specific_handler       100176d4 f   corelib1:COREDLL.dll
+ 0001:000166e4       _snwprintf                 100176e4 f   corelib1:COREDLL.dll
+ 0001:000166f4       _wcsicmp                   100176f4 f   corelib1:COREDLL.dll
+ 0001:00016704       ??3@YAXPAX@Z               10017704 f   corelib1:COREDLL.dll
+ 0001:00016714       strstr                     10017714 f   corelib1:COREDLL.dll
+ 0001:00016724       memcpy                     10017724 f   corelib1:COREDLL.dll
+ 0001:00016734       memcmp                     10017734 f   corelib1:COREDLL.dll
+ 0001:00016744       wcscmp                     10017744 f   corelib1:COREDLL.dll
+ 0001:00016754       wcstombs                   10017754 f   corelib1:COREDLL.dll
+ 0001:00016764       strlen                     10017764 f   corelib1:COREDLL.dll
+ 0001:00016774       _itow                      10017774 f   corelib1:COREDLL.dll
+ 0001:00016784       wcscpy                     10017784 f   corelib1:COREDLL.dll
+ 0001:00016794       wcsncpy                    10017794 f   corelib1:COREDLL.dll
+ 0001:000167a4       wcscat                     100177a4 f   corelib1:COREDLL.dll
+ 0001:000167b4       _wcslwr                    100177b4 f   corelib1:COREDLL.dll
+ 0001:000167c4       wcschr                     100177c4 f   corelib1:COREDLL.dll
+ 0001:000167d4       wcsrchr                    100177d4 f   corelib1:COREDLL.dll
+ 0001:000167e4       ferror                     100177e4 f   corelib1:COREDLL.dll
+ 0001:000167f4       fgetws                     100177f4 f   corelib1:COREDLL.dll
+ 0001:00016804       fclose                     10017804 f   corelib1:COREDLL.dll
+ 0001:00016814       fseek                      10017814 f   corelib1:COREDLL.dll
+ 0001:00016824       _wfopen                    10017824 f   corelib1:COREDLL.dll
+ 0001:00016834       memmove                    10017834 f   corelib1:COREDLL.dll
+ 0001:00016844       iswctype                   10017844 f   corelib1:COREDLL.dll
+ 0001:00016854       swprintf                   10017854 f   corelib1:COREDLL.dll
+ 0001:00016864       __security_gen_cookie2     10017864 f   corelib1:COREDLL.dll
+ 0001:00016874       __report_gsfailure         10017874 f   corelib1:COREDLL.dll
+ 0001:00016884       free                       10017884 f   corelib1:COREDLL.dll
+ 0001:00016894       InterlockedExchange        10017894 f   coredll:COREDLL.dll
+ 0001:000168a4       TerminateProcess           100178a4 f   coredll:COREDLL.dll
+ 0001:000169d8       __IMPORT_DESCRIPTOR_commctrl 100179d8     commctrl:commctrl.dll
+ 0001:000169ec       __IMPORT_DESCRIPTOR_commdlg 100179ec     commdlg:commdlg.dll
+ 0001:00016a00       __IMPORT_DESCRIPTOR_ole32  10017a00     ole32:ole32.dll
+ 0001:00016a14       __IMPORT_DESCRIPTOR_COREDLL 10017a14     coredll:COREDLL.dll
+ 0001:00016a28       __NULL_IMPORT_DESCRIPTOR   10017a28     commctrl:commctrl.dll
+ 0002:00000000       __imp_GetDC                10019000     coredll:COREDLL.dll
+ 0002:00000004       __imp_TerminateProcess     10019004     coredll:COREDLL.dll
+ 0002:00000008       __imp_InterlockedExchange  10019008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_free                 1001900c     corelib1:COREDLL.dll
+ 0002:00000010       __imp___report_gsfailure   10019010     corelib1:COREDLL.dll
+ 0002:00000014       __imp___security_gen_cookie2 10019014     corelib1:COREDLL.dll
+ 0002:00000018       __imp_swprintf             10019018     corelib1:COREDLL.dll
+ 0002:0000001c       __imp_EventModify          1001901c     coredll:COREDLL.dll
+ 0002:00000020       __imp_StringCchCopyExW     10019020     coredll:COREDLL.dll
+ 0002:00000024       __imp_LocalAlloc           10019024     coredll:COREDLL.dll
+ 0002:00000028       __imp_CharUpperW           10019028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_LocalFree            1001902c     coredll:COREDLL.dll
+ 0002:00000030       __imp_RegCreateKeyExW      10019030     coredll:COREDLL.dll
+ 0002:00000034       __imp_RegOpenKeyExW        10019034     coredll:COREDLL.dll
+ 0002:00000038       __imp_RegCloseKey          10019038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_CharLowerW           1001903c     coredll:COREDLL.dll
+ 0002:00000040       __imp_MessageBoxW          10019040     coredll:COREDLL.dll
+ 0002:00000044       __imp_GetLastError         10019044     coredll:COREDLL.dll
+ 0002:00000048       __imp_LoadStringW          10019048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_SHLoadDIBitmap       1001904c     coredll:COREDLL.dll
+ 0002:00000050       __imp_RegQueryValueExW     10019050     coredll:COREDLL.dll
+ 0002:00000054       __imp_RegSetValueExW       10019054     coredll:COREDLL.dll
+ 0002:00000058       __imp_SendMessageW         10019058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_StringCchCopyW       1001905c     coredll:COREDLL.dll
+ 0002:00000060       __imp_RegDeleteValueW      10019060     coredll:COREDLL.dll
+ 0002:00000064       __imp_DeleteDC             10019064     coredll:COREDLL.dll
+ 0002:00000068       __imp_BitBlt               10019068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_OffsetRect           1001906c     coredll:COREDLL.dll
+ 0002:00000070       __imp_DeleteObject         10019070     coredll:COREDLL.dll
+ 0002:00000074       __imp_PatBlt               10019074     coredll:COREDLL.dll
+ 0002:00000078       __imp_CreatePatternBrush   10019078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_FillRect             1001907c     coredll:COREDLL.dll
+ 0002:00000080       __imp_GetSysColorBrush     10019080     coredll:COREDLL.dll
+ 0002:00000084       __imp_SelectObject         10019084     coredll:COREDLL.dll
+ 0002:00000088       __imp_CreateCompatibleBitmap 10019088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_CreateCompatibleDC   1001908c     coredll:COREDLL.dll
+ 0002:00000090       __imp_SetRect              10019090     coredll:COREDLL.dll
+ 0002:00000094       __imp_GetSystemMetrics     10019094     coredll:COREDLL.dll
+ 0002:00000098       __imp_GetClientRect        10019098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_StretchBlt           1001909c     coredll:COREDLL.dll
+ 0002:000000a0       __imp_GetObjectW           100190a0     coredll:COREDLL.dll
+ 0002:000000a4       __imp_FreeLibrary          100190a4     coredll:COREDLL.dll
+ 0002:000000a8       __imp_ShowWindow           100190a8     coredll:COREDLL.dll
+ 0002:000000ac       __imp_GetProcAddressW      100190ac     coredll:COREDLL.dll
+ 0002:000000b0       __imp_LoadLibraryW         100190b0     coredll:COREDLL.dll
+ 0002:000000b4       __imp_CloseHandle          100190b4     coredll:COREDLL.dll
+ 0002:000000b8       __imp_CreateEventW         100190b8     coredll:COREDLL.dll
+ 0002:000000bc       __imp_EnableWindow         100190bc     coredll:COREDLL.dll
+ 0002:000000c0       __imp_GetDlgItem           100190c0     coredll:COREDLL.dll
+ 0002:000000c4       __imp_GetOpenFileNameW     100190c4     coredll:COREDLL.dll
+ 0002:000000c8       __imp_StringCchCatExW      100190c8     coredll:COREDLL.dll
+ 0002:000000cc       __imp_CallWindowProcW      100190cc     coredll:COREDLL.dll
+ 0002:000000d0       __imp_EndPaint             100190d0     coredll:COREDLL.dll
+ 0002:000000d4       __imp_CreateSolidBrush     100190d4     coredll:COREDLL.dll
+ 0002:000000d8       __imp_GetSysColor          100190d8     coredll:COREDLL.dll
+ 0002:000000dc       __imp_BeginPaint           100190dc     coredll:COREDLL.dll
+ 0002:000000e0       __imp_SetWindowLongW       100190e0     coredll:COREDLL.dll
+ 0002:000000e4       __imp_PostMessageW         100190e4     coredll:COREDLL.dll
+ 0002:000000e8       __imp_SetFocus             100190e8     coredll:COREDLL.dll
+ 0002:000000ec       __imp_InvalidateRect       100190ec     coredll:COREDLL.dll
+ 0002:000000f0       __imp_StringCbPrintfW      100190f0     coredll:COREDLL.dll
+ 0002:000000f4       __imp_StopPowerNotifications 100190f4     coredll:COREDLL.dll
+ 0002:000000f8       __imp_ReadMsgQueue         100190f8     coredll:COREDLL.dll
+ 0002:000000fc       __imp_WaitForMultipleObjects 100190fc     coredll:COREDLL.dll
+ 0002:00000100       __imp_RequestPowerNotifications 10019100     coredll:COREDLL.dll
+ 0002:00000104       __imp_CreateMsgQueue       10019104     coredll:COREDLL.dll
+ 0002:00000108       __imp_GetDevicePower       10019108     coredll:COREDLL.dll
+ 0002:0000010c       __imp_RegEnumValueW        1001910c     coredll:COREDLL.dll
+ 0002:00000110       __imp_DestroyIcon          10019110     coredll:COREDLL.dll
+ 0002:00000114       __imp_LoadImageW           10019114     coredll:COREDLL.dll
+ 0002:00000118       __imp_GetSystemPowerStatusEx 10019118     coredll:COREDLL.dll
+ 0002:0000011c       __imp_OpenEventW           1001911c     coredll:COREDLL.dll
+ 0002:00000120       __imp_NotifyWinUserSystem  10019120     coredll:COREDLL.dll
+ 0002:00000124       __imp_wsprintfW            10019124     coredll:COREDLL.dll
+ 0002:00000128       __imp_SetDlgItemTextW      10019128     coredll:COREDLL.dll
+ 0002:0000012c       __imp_lstrcmpW             1001912c     coredll:COREDLL.dll
+ 0002:00000130       __imp_GetDlgItemTextW      10019130     coredll:COREDLL.dll
+ 0002:00000134       __imp_GetTimeFormatW       10019134     coredll:COREDLL.dll
+ 0002:00000138       __imp_GetDateFormatW       10019138     coredll:COREDLL.dll
+ 0002:0000013c       __imp_BatteryGetLifeTimeInfo 1001913c     coredll:COREDLL.dll
+ 0002:00000140       __imp_IsWindowVisible      10019140     coredll:COREDLL.dll
+ 0002:00000144       __imp_BatteryDrvrSupportsChangeNotification 10019144     coredll:COREDLL.dll
+ 0002:00000148       __imp_RequestDeviceNotifications 10019148     coredll:COREDLL.dll
+ 0002:0000014c       __imp_StopDeviceNotifications 1001914c     coredll:COREDLL.dll
+ 0002:00000150       __imp_CreateThread         10019150     coredll:COREDLL.dll
+ 0002:00000154       __imp_WaitForSingleObject  10019154     coredll:COREDLL.dll
+ 0002:00000158       __imp_BatteryDrvrGetLevels 10019158     coredll:COREDLL.dll
+ 0002:0000015c       __imp_DeleteCriticalSection 1001915c     coredll:COREDLL.dll
+ 0002:00000160       __imp_InitializeCriticalSection 10019160     coredll:COREDLL.dll
+ 0002:00000164       __imp_LoadIconW            10019164     coredll:COREDLL.dll
+ 0002:00000168       __imp_GetFocus             10019168     coredll:COREDLL.dll
+ 0002:0000016c       __imp_CreateProcessW       1001916c     coredll:COREDLL.dll
+ 0002:00000170       __imp_SendDlgItemMessageW  10019170     coredll:COREDLL.dll
+ 0002:00000174       __imp_GetParent            10019174     coredll:COREDLL.dll
+ 0002:00000178       __imp_GetWindowLongW       10019178     coredll:COREDLL.dll
+ 0002:0000017c       __imp_CreateEnrollmentConfigDialog 1001917c     coredll:COREDLL.dll
+ 0002:00000180       __imp_GetFileAttributesW   10019180     coredll:COREDLL.dll
+ 0002:00000184       __imp_VerifyUser           10019184     coredll:COREDLL.dll
+ 0002:00000188       __imp_FindWindowW          10019188     coredll:COREDLL.dll
+ 0002:0000018c       __imp_InterlockedIncrement 1001918c     coredll:COREDLL.dll
+ 0002:00000190       __imp_InterlockedDecrement 10019190     coredll:COREDLL.dll
+ 0002:00000194       __imp_CryptDestroyKey      10019194     coredll:COREDLL.dll
+ 0002:00000198       __imp_CryptGetKeyParam     10019198     coredll:COREDLL.dll
+ 0002:0000019c       __imp_CryptGetUserKey      1001919c     coredll:COREDLL.dll
+ 0002:000001a0       __imp_CryptEnumProvidersW  100191a0     coredll:COREDLL.dll
+ 0002:000001a4       __imp_CryptReleaseContext  100191a4     coredll:COREDLL.dll
+ 0002:000001a8       __imp_CryptGetProvParam    100191a8     coredll:COREDLL.dll
+ 0002:000001ac       __imp_CryptAcquireContextW 100191ac     coredll:COREDLL.dll
+ 0002:000001b0       __imp_EndDialog            100191b0     coredll:COREDLL.dll
+ 0002:000001b4       __imp_CryptDestroyHash     100191b4     coredll:COREDLL.dll
+ 0002:000001b8       __imp_CryptDeriveKey       100191b8     coredll:COREDLL.dll
+ 0002:000001bc       __imp_CryptHashData        100191bc     coredll:COREDLL.dll
+ 0002:000001c0       __imp_CryptCreateHash      100191c0     coredll:COREDLL.dll
+ 0002:000001c4       __imp_SetLastError         100191c4     coredll:COREDLL.dll
+ 0002:000001c8       __imp_DialogBoxIndirectParamW 100191c8     coredll:COREDLL.dll
+ 0002:000001cc       __imp_LoadResource         100191cc     coredll:COREDLL.dll
+ 0002:000001d0       __imp_FindResourceW        100191d0     coredll:COREDLL.dll
+ 0002:000001d4       __imp_CryptImportKey       100191d4     coredll:COREDLL.dll
+ 0002:000001d8       __imp_ReadFile             100191d8     coredll:COREDLL.dll
+ 0002:000001dc       __imp_GetFileSize          100191dc     coredll:COREDLL.dll
+ 0002:000001e0       __imp_CreateFileW          100191e0     coredll:COREDLL.dll
+ 0002:000001e4       __imp_SetWindowTextW       100191e4     coredll:COREDLL.dll
+ 0002:000001e8       __imp_SetCursor            100191e8     coredll:COREDLL.dll
+ 0002:000001ec       __imp_UnregisterClassW     100191ec     coredll:COREDLL.dll
+ 0002:000001f0       __imp_CharNextW            100191f0     coredll:COREDLL.dll
+ 0002:000001f4       __imp_CharPrevW            100191f4     coredll:COREDLL.dll
+ 0002:000001f8       __imp_RegEnumKeyExW        100191f8     coredll:COREDLL.dll
+ 0002:000001fc       __imp_RegDeleteKeyW        100191fc     coredll:COREDLL.dll
+ 0002:00000200       __imp_ImageList_Destroy    10019200     coredll:COREDLL.dll
+ 0002:00000204       __imp_PtInRect             10019204     coredll:COREDLL.dll
+ 0002:00000208       __imp_CreateDIBPatternBrushPt 10019208     coredll:COREDLL.dll
+ 0002:0000020c       __imp_GetStockObject       1001920c     coredll:COREDLL.dll
+ 0002:00000210       __imp_CreateFontIndirectW  10019210     coredll:COREDLL.dll
+ 0002:00000214       __imp_GetTextExtentExPointW 10019214     coredll:COREDLL.dll
+ 0002:00000218       __imp_GetTextMetricsW      10019218     coredll:COREDLL.dll
+ 0002:0000021c       __imp_DrawFocusRect        1001921c     coredll:COREDLL.dll
+ 0002:00000220       __imp_InflateRect          10019220     coredll:COREDLL.dll
+ 0002:00000224       __imp_DrawEdge             10019224     coredll:COREDLL.dll
+ 0002:00000228       __imp_SetSysColors         10019228     coredll:COREDLL.dll
+ 0002:0000022c       __imp_SetTextColor         1001922c     coredll:COREDLL.dll
+ 0002:00000230       __imp_SetBkColor           10019230     coredll:COREDLL.dll
+ 0002:00000234       __imp_ImageList_DrawIndirect 10019234     coredll:COREDLL.dll
+ 0002:00000238       __imp_RestoreDC            10019238     coredll:COREDLL.dll
+ 0002:0000023c       __imp_DrawTextW            1001923c     coredll:COREDLL.dll
+ 0002:00000240       __imp_SaveDC               10019240     coredll:COREDLL.dll
+ 0002:00000244       __imp_ImageList_AddMasked  10019244     coredll:COREDLL.dll
+ 0002:00000248       __imp_LoadBitmapW          10019248     coredll:COREDLL.dll
+ 0002:0000024c       __imp_ImageList_Create     1001924c     coredll:COREDLL.dll
+ 0002:00000250       __imp_ReleaseDC            10019250     coredll:COREDLL.dll
+ 0002:00000254       __imp_DefWindowProcW       10019254     coredll:COREDLL.dll
+ 0002:00000258       __imp_RegisterClassW       10019258     coredll:COREDLL.dll
+ 0002:0000025c       __imp_LoadCursorW          1001925c     coredll:COREDLL.dll
+ 0002:00000260       __imp_GetClassInfoW        10019260     coredll:COREDLL.dll
+ 0002:00000264       __imp_CreateWindowExW      10019264     coredll:COREDLL.dll
+ 0002:00000268       __imp_MapWindowPoints      10019268     coredll:COREDLL.dll
+ 0002:0000026c       __imp_GetWindowRect        1001926c     coredll:COREDLL.dll
+ 0002:00000270       __imp_UpdateWindow         10019270     coredll:COREDLL.dll
+ 0002:00000274       __imp_lineShutdown         10019274     coredll:COREDLL.dll
+ 0002:00000278       __imp_lineTranslateDialog  10019278     coredll:COREDLL.dll
+ 0002:0000027c       __imp_lineInitialize       1001927c     coredll:COREDLL.dll
+ 0002:00000280       __imp_StringCchPrintfW     10019280     coredll:COREDLL.dll
+ 0002:00000284       __imp_RasGetEntryProperties 10019284     coredll:COREDLL.dll
+ 0002:00000288       __imp_RasEnumEntries       10019288     coredll:COREDLL.dll
+ 0002:0000028c       __imp_MultiByteToWideChar  1001928c     coredll:COREDLL.dll
+ 0002:00000290       __imp_SetTimer             10019290     coredll:COREDLL.dll
+ 0002:00000294       __imp_KillTimer            10019294     coredll:COREDLL.dll
+ 0002:00000298       __imp_ChildWindowFromPoint 10019298     coredll:COREDLL.dll
+ 0002:0000029c       __imp_GetTimeZoneInformation 1001929c     coredll:COREDLL.dll
+ 0002:000002a0       __imp_SetTimeZoneInformation 100192a0     coredll:COREDLL.dll
+ 0002:000002a4       __imp_SetLocalTime         100192a4     coredll:COREDLL.dll
+ 0002:000002a8       __imp_GetLocalTime         100192a8     coredll:COREDLL.dll
+ 0002:000002ac       __imp_SetWindowPos         100192ac     coredll:COREDLL.dll
+ 0002:000002b0       __imp_GetMonitorInfo       100192b0     coredll:COREDLL.dll
+ 0002:000002b4       __imp_MonitorFromWindow    100192b4     coredll:COREDLL.dll
+ 0002:000002b8       __imp_ImmAssociateContext  100192b8     coredll:COREDLL.dll
+ 0002:000002bc       __imp_GetDoubleClickTime   100192bc     coredll:COREDLL.dll
+ 0002:000002c0       __imp_lstrcmpiW            100192c0     coredll:COREDLL.dll
+ 0002:000002c4       __imp_GetDlgCtrlID         100192c4     coredll:COREDLL.dll
+ 0002:000002c8       __imp_GetTickCount         100192c8     coredll:COREDLL.dll
+ 0002:000002cc       __imp_GetWindowTextLengthW 100192cc     coredll:COREDLL.dll
+ 0002:000002d0       __imp_KeybdGetDeviceInfo   100192d0     coredll:COREDLL.dll
+ 0002:000002d4       __imp_EnumPnpIds           100192d4     coredll:COREDLL.dll
+ 0002:000002d8       __imp_GlobalMemoryStatus   100192d8     coredll:COREDLL.dll
+ 0002:000002dc       __imp_GetStoreInformation  100192dc     coredll:COREDLL.dll
+ 0002:000002e0       __imp_GetSystemMemoryDivision 100192e0     coredll:COREDLL.dll
+ 0002:000002e4       __imp_Sleep                100192e4     coredll:COREDLL.dll
+ 0002:000002e8       __imp_SetSystemMemoryDivision 100192e8     coredll:COREDLL.dll
+ 0002:000002ec       __imp_KernelIoControl      100192ec     coredll:COREDLL.dll
+ 0002:000002f0       __imp_GetSystemInfo        100192f0     coredll:COREDLL.dll
+ 0002:000002f4       __imp_GetVersionExW        100192f4     coredll:COREDLL.dll
+ 0002:000002f8       __imp_WideCharToMultiByte  100192f8     coredll:COREDLL.dll
+ 0002:000002fc       __imp_CredFree             100192fc     coredll:COREDLL.dll
+ 0002:00000300       __imp_CredRead             10019300     coredll:COREDLL.dll
+ 0002:00000304       __imp_CredWrite            10019304     coredll:COREDLL.dll
+ 0002:00000308       __imp_CredDelete           10019308     coredll:COREDLL.dll
+ 0002:0000030c       __imp_MessageBeep          1001930c     coredll:COREDLL.dll
+ 0002:00000310       __imp_GetPasswordStatus    10019310     coredll:COREDLL.dll
+ 0002:00000314       __imp_SetUserData          10019314     coredll:COREDLL.dll
+ 0002:00000318       __imp_GetUserNameExW       10019318     coredll:COREDLL.dll
+ 0002:0000031c       __imp_SetPasswordStatus    1001931c     coredll:COREDLL.dll
+ 0002:00000320       __imp_SetPassword          10019320     coredll:COREDLL.dll
+ 0002:00000324       __imp_StringCchLengthW     10019324     coredll:COREDLL.dll
+ 0002:00000328       __imp_CheckPassword        10019328     coredll:COREDLL.dll
+ 0002:0000032c       __imp_FormatMessageW       1001932c     coredll:COREDLL.dll
+ 0002:00000330       __imp_FileTimeToSystemTime 10019330     coredll:COREDLL.dll
+ 0002:00000334       __imp_FileTimeToLocalFileTime 10019334     coredll:COREDLL.dll
+ 0002:00000338       __imp_RemoveDirectoryW     10019338     coredll:COREDLL.dll
+ 0002:0000033c       __imp_StringCbCopyW        1001933c     coredll:COREDLL.dll
+ 0002:00000340       __imp_DestroyWindow        10019340     coredll:COREDLL.dll
+ 0002:00000344       __imp_DeleteFileW          10019344     coredll:COREDLL.dll
+ 0002:00000348       __imp_IsWindow             10019348     coredll:COREDLL.dll
+ 0002:0000034c       __imp_DispatchMessageW     1001934c     coredll:COREDLL.dll
+ 0002:00000350       __imp_TranslateMessage     10019350     coredll:COREDLL.dll
+ 0002:00000354       __imp_IsDialogMessageW     10019354     coredll:COREDLL.dll
+ 0002:00000358       __imp_GetMessageW          10019358     coredll:COREDLL.dll
+ 0002:0000035c       __imp_CreateDialogIndirectParamW 1001935c     coredll:COREDLL.dll
+ 0002:00000360       __imp_LeaveCriticalSection 10019360     coredll:COREDLL.dll
+ 0002:00000364       __imp_EnterCriticalSection 10019364     coredll:COREDLL.dll
+ 0002:00000368       __imp_SetForegroundWindow  10019368     coredll:COREDLL.dll
+ 0002:0000036c       __imp_CreateMutexW         1001936c     coredll:COREDLL.dll
+ 0002:00000370       __imp_SystemParametersInfoW 10019370     coredll:COREDLL.dll
+ 0002:00000374       __imp_CharUpperBuffW       10019374     coredll:COREDLL.dll
+ 0002:00000378       __imp_StringCchCatW        10019378     coredll:COREDLL.dll
+ 0002:0000037c       __imp_FindClose            1001937c     coredll:COREDLL.dll
+ 0002:00000380       __imp_FindNextFileW        10019380     coredll:COREDLL.dll
+ 0002:00000384       __imp_FindFirstFileW       10019384     coredll:COREDLL.dll
+ 0002:00000388       __imp_wcsstr               10019388     corelib1:COREDLL.dll
+ 0002:0000038c       __imp_wcslen               1001938c     corelib1:COREDLL.dll
+ 0002:00000390       __imp_memset               10019390     corelib1:COREDLL.dll
+ 0002:00000394       __imp___rt_udiv            10019394     corelib1:COREDLL.dll
+ 0002:00000398       __imp_wcsncmp              10019398     corelib1:COREDLL.dll
+ 0002:0000039c       __imp_??2@YAPAXI@Z         1001939c     corelib1:COREDLL.dll
+ 0002:000003a0       __imp_swscanf              100193a0     corelib1:COREDLL.dll
+ 0002:000003a4       __imp___C_specific_handler 100193a4     corelib1:COREDLL.dll
+ 0002:000003a8       __imp___rt_sdiv            100193a8     corelib1:COREDLL.dll
+ 0002:000003ac       __imp__snwprintf           100193ac     corelib1:COREDLL.dll
+ 0002:000003b0       __imp__wcsicmp             100193b0     corelib1:COREDLL.dll
+ 0002:000003b4       __imp_??3@YAXPAX@Z         100193b4     corelib1:COREDLL.dll
+ 0002:000003b8       __imp_strstr               100193b8     corelib1:COREDLL.dll
+ 0002:000003bc       __imp_memcpy               100193bc     corelib1:COREDLL.dll
+ 0002:000003c0       __imp_memcmp               100193c0     corelib1:COREDLL.dll
+ 0002:000003c4       __imp_wcscmp               100193c4     corelib1:COREDLL.dll
+ 0002:000003c8       __imp_wcstombs             100193c8     corelib1:COREDLL.dll
+ 0002:000003cc       __imp_strlen               100193cc     corelib1:COREDLL.dll
+ 0002:000003d0       __imp__itow                100193d0     corelib1:COREDLL.dll
+ 0002:000003d4       __imp_wcscpy               100193d4     corelib1:COREDLL.dll
+ 0002:000003d8       __imp_wcsncpy              100193d8     corelib1:COREDLL.dll
+ 0002:000003dc       __imp_wcscat               100193dc     corelib1:COREDLL.dll
+ 0002:000003e0       __imp__wcslwr              100193e0     corelib1:COREDLL.dll
+ 0002:000003e4       __imp_wcschr               100193e4     corelib1:COREDLL.dll
+ 0002:000003e8       __imp_wcsrchr              100193e8     corelib1:COREDLL.dll
+ 0002:000003ec       __imp_ferror               100193ec     corelib1:COREDLL.dll
+ 0002:000003f0       __imp_fgetws               100193f0     corelib1:COREDLL.dll
+ 0002:000003f4       __imp_fclose               100193f4     corelib1:COREDLL.dll
+ 0002:000003f8       __imp_fseek                100193f8     corelib1:COREDLL.dll
+ 0002:000003fc       __imp__wfopen              100193fc     corelib1:COREDLL.dll
+ 0002:00000400       __imp_memmove              10019400     corelib1:COREDLL.dll
+ 0002:00000404       __imp_iswctype             10019404     corelib1:COREDLL.dll
+ 0002:00000408       \177COREDLL_NULL_THUNK_DATA 10019408     coredll:COREDLL.dll
+ 0002:0000040c       __imp_InitCommonControlsEx 1001940c     commctrl:commctrl.dll
+ 0002:00000410       __imp_PropertySheetW       10019410     commctrl:commctrl.dll
+ 0002:00000414       \177commctrl_NULL_THUNK_DATA 10019414     commctrl:commctrl.dll
+ 0002:00000418       __imp_ChooseColor          10019418     commdlg:commdlg.dll
+ 0002:0000041c       \177commdlg_NULL_THUNK_DATA 1001941c     commdlg:commdlg.dll
+ 0002:00000420       __imp_CoCreateInstance     10019420     ole32:ole32.dll
+ 0002:00000424       __imp_CoInitializeEx       10019424     ole32:ole32.dll
+ 0002:00000428       __imp_CoUninitialize       10019428     ole32:ole32.dll
+ 0002:0000042c       __imp_CoTaskMemFree        1001942c     ole32:ole32.dll
+ 0002:00000430       \177ole32_NULL_THUNK_DATA  10019430     ole32:ole32.dll
+ 0002:00000468       ?rgApplets@@3PAUCPLAPPLETINFO@@A 10019468     cplmain:cplmain.obj
+ 0002:000007ac       ?wVersionRequested@@3GA    100197ac     cplmain:system.obj
+ 0002:000007b0       __security_cookie          100197b0     corelib0:seccinit.obj
+ 0002:000007b4       __security_cookie_complement 100197b4     corelib0:seccinit.obj
+ 0002:000007f0       ?g_hPowerTerminateEvent@@3PAXA 100197f0     cplmain:power.obj
+ 0002:00000818       ?g_csAygshell@@3UCRITICAL_SECTION@@A 10019818     cplmain:cplmain.obj
+ 0002:0000082c       ?g_pSipSetInfo@@3P6AHPAUtagSIPINFO@@@ZA 1001982c     cplmain:cplmain.obj
+ 0002:00000830       ?g_pSipGetInfo@@3P6AHPAUtagSIPINFO@@@ZA 10019830     cplmain:cplmain.obj
+ 0002:00000834       ?g_hinstCoreDll@@3PAUHINSTANCE__@@A 10019834     cplmain:cplmain.obj
+ 0002:00000838       ?g_fRaiseLowerSIP@@3HA     10019838     cplmain:cplmain.obj
+ 0002:0000083c       ?g_fRecenterForSIP@@3HA    1001983c     cplmain:cplmain.obj
+ 0002:00000840       ?g_fFullScreen@@3HA        10019840     cplmain:cplmain.obj
+ 0002:00000844       ?g_fNoDrag@@3HA            10019844     cplmain:cplmain.obj
+ 0002:00000848       ?g_hwndWelcome@@3PAUHWND__@@A 10019848     cplmain:cplmain.obj
+ 0002:0000084c       ?g_hInst@@3PAUHINSTANCE__@@A 1001984c     cplmain:cplmain.obj
+ 0002:00000850       ?g_hInstAygshell@@3PAUHINSTANCE__@@A 10019850     cplmain:cplmain.obj
+ 0002:00000854       ?g_bCalledSHInitExtraControls@@3HA 10019854     cplmain:cplmain.obj
+ 0002:00000858       ?g_bLoadedAygshellLibrary@@3HA 10019858     cplmain:cplmain.obj
+ 0002:0000085c       ?g_iAygshellRefCount@@3HA  1001985c     cplmain:cplmain.obj
+ 0002:00000860       ?pSCardGetCardTypeProviderNameW@@3P6AJKPBGKPAGPAK@ZA 10019860     cplmain:certcpl.obj
+ 0002:00000864       ?pSCardGetStatusChangeW@@3P6AJKKPAUSCARD_READERSTATEW@@K@ZA 10019864     cplmain:certcpl.obj
+ 0002:00000868       ?pSCardListCardsW@@3P6AJKPBEPBU_GUID@@KPAGPAK@ZA 10019868     cplmain:certcpl.obj
+ 0002:0000086c       ?pSCardListReadersW@@3P6AJKPBGPAGPAK@ZA 1001986c     cplmain:certcpl.obj
+ 0002:00000870       ?pSCardReleaseContext@@3P6AJK@ZA 10019870     cplmain:certcpl.obj
+ 0002:00000874       ?pSCardEstablishContext@@3P6AJKPBX0PAK@ZA 10019874     cplmain:certcpl.obj
+ 0002:00000880       ?pCertFindCertificateInStore@@3P6APBU_CERT_CONTEXT@@PAXKKKPBXPBU1@@ZA 10019880     cplmain:certcpl.obj
+ 0002:00000884       ?pCryptExportPublicKeyInfo@@3P6AHKKKPAU_CERT_PUBLIC_KEY_INFO@@PAK@ZA 10019884     cplmain:certcpl.obj
+ 0002:00000888       ?pCryptFindOIDInfo@@3P6APBU_CRYPT_OID_INFO@@KPAXK@ZA 10019888     cplmain:certcpl.obj
+ 0002:0000088c       ?pCertGetEnhancedKeyUsage@@3P6AHPBU_CERT_CONTEXT@@KPAU_CTL_USAGE@@PAK@ZA 1001988c     cplmain:certcpl.obj
+ 0002:00000890       ?pCertNameToStrW@@3P6AKKPAU_CRYPTOAPI_BLOB@@KPAGK@ZA 10019890     cplmain:certcpl.obj
+ 0002:00000894       ?pCertCompareCertificateName@@3P6AHKPAU_CRYPTOAPI_BLOB@@0@ZA 10019894     cplmain:certcpl.obj
+ 0002:00000898       ?pCertAddEncodedCertificateToStore@@3P6AHPAXKPBEKKPAPBU_CERT_CONTEXT@@@ZA 10019898     cplmain:certcpl.obj
+ 0002:0000089c       ?pCertAddCertificateContextToStore@@3P6AHPAXPBU_CERT_CONTEXT@@KPAPBU1@@ZA 1001989c     cplmain:certcpl.obj
+ 0002:000008a0       ?pCertSetCertificateContextProperty@@3P6AHPBU_CERT_CONTEXT@@KKPBX@ZA 100198a0     cplmain:certcpl.obj
+ 0002:000008a4       ?pCertGetCertificateContextProperty@@3P6AHPBU_CERT_CONTEXT@@KPAXPAK@ZA 100198a4     cplmain:certcpl.obj
+ 0002:000008a8       ?pCertDeleteCertificateFromStore@@3P6AHPBU_CERT_CONTEXT@@@ZA 100198a8     cplmain:certcpl.obj
+ 0002:000008ac       ?pCertGetNameStringW@@3P6AKPBU_CERT_CONTEXT@@KKPAXPAGK@ZA 100198ac     cplmain:certcpl.obj
+ 0002:000008b0       ?pCertDuplicateCertificateContext@@3P6APBU_CERT_CONTEXT@@PBU1@@ZA 100198b0     cplmain:certcpl.obj
+ 0002:000008b4       ?pCertEnumCertificatesInStore@@3P6APBU_CERT_CONTEXT@@PAXPBU1@@ZA 100198b4     cplmain:certcpl.obj
+ 0002:000008b8       ?pCertFreeCertificateContext@@3P6AHPBU_CERT_CONTEXT@@@ZA 100198b8     cplmain:certcpl.obj
+ 0002:000008bc       ?pCertCreateCertificateContext@@3P6APBU_CERT_CONTEXT@@KPBEK@ZA 100198bc     cplmain:certcpl.obj
+ 0002:000008c0       ?pCertCloseStore@@3P6AHPAXK@ZA 100198c0     cplmain:certcpl.obj
+ 0002:000008c4       ?pCertOpenStore@@3P6APAXPBDKKKPBX@ZA 100198c4     cplmain:certcpl.obj
+ 0002:000008d0       ?pImportCertificate@@3P6AHPAUHWND__@@PAX@ZA 100198d0     cplmain:certcpl.obj
+ 0002:000008d4       ?pShowCertificate@@3P6AHPAUHWND__@@PBU_CERT_CONTEXT@@@ZA 100198d4     cplmain:certcpl.obj
+ 0002:00000de8       ?S@@3HA                    10019de8     cplmain:colschem.obj
+ 0002:00000dec       ?L@@3HA                    10019dec     cplmain:colschem.obj
+ 0002:00000df0       ?H@@3HA                    10019df0     cplmain:colschem.obj
+ 0002:00000df4       ?g_szMessageText@@3PBGB    10019df4     cplmain:colschem.obj
+ 0002:00000df8       ?g_rgpszElementName@@3PAPBGA 10019df8     cplmain:colschem.obj
+ 0002:00000e6c       ?g_szWindowText@@3PBGB     10019e6c     cplmain:colschem.obj
+ 0002:00000e70       ?g_szActiveWindow@@3PBGB   10019e70     cplmain:colschem.obj
+ 0002:00000e74       ?g_szInactiveWindow@@3PBGB 10019e74     cplmain:colschem.obj
+ 0002:00000e78       ?g_szButton@@3PBGB         10019e78     cplmain:colschem.obj
+ 0002:00000e7c       ?g_szSelected@@3PBGB       10019e7c     cplmain:colschem.obj
+ 0002:00000e80       ?g_szDisabled@@3PBGB       10019e80     cplmain:colschem.obj
+ 0002:00000e84       ?g_szNormal@@3PBGB         10019e84     cplmain:colschem.obj
+ 0002:00000e88       ?g_pschemedlg@@3PAUSCHEMEDIALOG@@A 10019e88     cplmain:colschem.obj
+ 0002:00000e8c       ?g_ppvw@@3PAU_PREVIEW@@A   10019e8c     cplmain:colschem.obj
+ 0002:00000ed0       ?pfnWSAStartup@@3P6AHGPAUWSAData@@@ZA 10019ed0     cplmain:system.obj
+ 0002:00000ed4       ?pfnWSACleanup@@3P6AHXZA   10019ed4     cplmain:system.obj
+ 0002:00000f60       ?fScreenSaverIsCheckedWhenEnabled@@3HA 10019f60     cplmain:passwd.obj
+ 0002:00000f70       ?g_szRemoveApp@@3PAGA      10019f70     cplmain:remove.obj
+ 0002:00001178       ?g_hwndRemoveDlg@@3PAUHWND__@@A 1001a178     cplmain:remove.obj
+ 0002:00001184       ?g_dwDelErrors@@3HA        1001a184     cplmain:unloadn.obj
+ 0002:00001188       ?g_hwndList@@3PAUHWND__@@A 1001a188     cplmain:unloadn.obj
+ 0002:0000118c       __@@_PchSym_@00@UygUDBFDUkfyorxUdxvhsvoouvUlzpUxgokmoUxkonzrmUlyqUzineHUivgzroUxkokxsOlyq@cplmain 1001a18c     cplmain:cplpch.obj
+ 0002:00001190       _exitflag                  1001a190     corelib0:cexit.obj
+ 0002:00001194       __onexitend                1001a194     <common>
+ 0002:00001198       __onexitbegin              1001a198     <common>
+ 0002:0000119c       g_pcsExit                  1001a19c     <common>
+
+ entry point at        0001:00016358
+
+ Static symbols
+
+ 0001:000033a8       ?PaintWithImaging@@YAXPAUHWND__@@PAUHDC__@@PAUIImage@@H@Z 100043a8 f   cplmain:screen.obj
+ 0001:000036d8       ?PaintDesktopBitmap@@YAXPAUHWND__@@PAUHDC__@@PAUHBITMAP__@@H@Z 100046d8 f   cplmain:screen.obj
+ 0001:00004bc8       ?PowerNotificationThread@@YAKPAX@Z 10005bc8 f   cplmain:power.obj
+ 0001:00004d10       ?ConvertStringToGuid@@YAHPBGPAU_GUID@@@Z 10005d10 f   cplmain:power.obj
+ 0001:00004df0       ?InitDevicePowerListView@@YAHPAUHWND__@@@Z 10005df0 f   cplmain:power.obj
+ 0001:00004ee4       ?AddDeviceToList@@YAHPAUHWND__@@PAUDEVDETAIL@@@Z 10005ee4 f   cplmain:power.obj
+ 0001:000050f4       ?GetRegTimeoutValues@@YAHPBGQBQBGPAK@Z 100060f4 f   cplmain:power.obj
+ 0001:000051a8       ?UpdateListBoxes@@YAHPAUHWND__@@QBIPBKH@Z 100061a8 f   cplmain:power.obj
+ 0001:00005338       ?UpdateSheet@@YAHPAUHWND__@@PBUPowerSourceData@@QBK@Z 10006338 f   cplmain:power.obj
+ 0001:00005e84       ?GetPowerManagedMsgQueues@@YAHPAPAX0KKPAK@Z 10006e84 f   cplmain:power.obj
+ 0001:0000603c       ?DeviceNotificationThread@@YAKPAX@Z 1000703c f   cplmain:power.obj
+ 0001:0000770c       ?PopulateCertStoreList@@YAXPAUHWND__@@PAX@Z 1000870c f   cplmain:certcpl.obj
+ 0001:00007880       ?RefreshCurrentCert@@YAXPAUHWND__@@@Z 10008880 f   cplmain:certcpl.obj
+ 0001:000079ac       ?ReadBase64Cert@@YAPAEPAEKPAK@Z 100089ac f   cplmain:certcpl.obj
+ 0001:00007ae0       ?GetSmartcardList@@YAHPAPAUSCARD_READERSTATEW@@@Z 10008ae0 f   cplmain:certcpl.obj
+ 0001:00007c60       ?ImportCertFromSC@@YAHPAXKPAU_CRYPT_KEY_PROV_INFO@@@Z 10008c60 f   cplmain:certcpl.obj
+ 0001:00007d98       ?GetTypeForCSP@@YAKPBG@Z   10008d98 f   cplmain:certcpl.obj
+ 0001:00007e68       ?ImportAllCertsFromSC@@YAHPAXPBG1@Z 10008e68 f   cplmain:certcpl.obj
+ 0001:00008128       ?KeyPasswordDlgProc@@YAHPAUHWND__@@IIJ@Z 10009128 f   cplmain:certcpl.obj
+ 0001:00008230       ?GetPasswordKey@@YAHKIPAUHWND__@@PAEKPAK@Z 10009230 f   cplmain:certcpl.obj
+ 0001:000083c0       ?ImportPrivateKey@@YAHPAUHWND__@@PAXPAEK@Z 100093c0 f   cplmain:certcpl.obj
+ 0001:000087fc       ?ImportCertOrKeyFromFile@@YAHPAUHWND__@@PAX@Z 100097fc f   cplmain:certcpl.obj
+ 0001:00012d90       ?FormatMsgBoxItem@@YAXPAPAGPAKIZZ 10013d90 f   cplmain:rootdlg.obj
+ 0001:000164e4       doexit                     100174e4 f   corelib0:cexit.obj

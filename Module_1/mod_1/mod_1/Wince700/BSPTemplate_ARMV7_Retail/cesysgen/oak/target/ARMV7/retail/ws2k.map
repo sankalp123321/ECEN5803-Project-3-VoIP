@@ -1,0 +1,504 @@
+ ws2k
+
+ Timestamp is 5ac64a23 (Thu Apr 05 09:09:07 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000008H .CRT$XCU                CODE
+ 0001:0000000c 00000004H .CRT$XCZ                CODE
+ 0001:00000010 00000004H .CRT$XIA                CODE
+ 0001:00000014 00000004H .CRT$XIZ                CODE
+ 0001:00000018 00000004H .CRT$XPA                CODE
+ 0001:0000001c 00000004H .CRT$XPZ                CODE
+ 0001:00000020 00000004H .CRT$XTA                CODE
+ 0001:00000024 00000004H .CRT$XTZ                CODE
+ 0001:00000030 00000050H .rdata                  CODE
+ 0001:00000080 00000021H .rdata$debug            CODE
+ 0001:000000a4 0000a4e0H .text                   CODE
+ 0001:0000a584 00000010H .text$yc                CODE
+ 0001:0000a594 00000048H .text$yd                CODE
+ 0001:0000a5dc 000000bcH .xdata                  CODE
+ 0001:0000a698 00000014H .idata$2                CODE
+ 0001:0000a6ac 00000014H .idata$3                CODE
+ 0001:0000a6c0 00000098H .idata$4                CODE
+ 0001:0000a758 0000000cH .idata$6                CODE
+ 0001:0000a770 000005edH .edata                  CODE
+ 0002:00000000 00000098H .idata$5                DATA
+ 0002:00000098 00000024H .data                   DATA
+ 0002:000000bc 00000028H .bss                    DATA
+ 0003:00000000 00000b58H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:0000000c       __xc_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xi_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xi_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xp_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xp_z                     1000101c     corelib0:crt0init.obj
+ 0001:00000020       __xt_a                     10001020     corelib0:crt0init.obj
+ 0001:00000024       __xt_z                     10001024     corelib0:crt0init.obj
+ 0001:0000004c       ??_7?$pc_proxy@PAX@ce@@6B@ 1000104c     ksocket.obj
+ 0001:00000050       ??_7?$ioctl_proxy@PAX@ce@@6B@ 10001050     ksocket.obj
+ 0001:00000054       ??_7NullAppendStream@ce@@6B@ 10001054     ksocket.obj
+ 0001:00000064       ??_7MemoryAppendStream@ce@@6B@ 10001064     ksocket.obj
+ 0001:00000074       ??_C@_1M@BFPDIPLA@?$AAW?$AAS?$AAS?$AA1?$AA?3?$AA?$AA@ 10001074     ksocket.obj
+ 0001:000000a4       ?Reserve@AppendStream@ce@@QAAKIQAI@Z 100010a4 f i ksocket.obj
+ 0001:000000ec       ?size@NullAppendStream@ce@@UBAIXZ 100010ec f i ksocket.obj
+ 0001:000000f4       __WSAFDIsSet               100010f4 f   ksocket.obj
+ 0001:00000134       htonl                      10001134 f   ksocket.obj
+ 0001:0000013c       htons                      1000113c f   ksocket.obj
+ 0001:00000144       ntohl                      10001144 f   ksocket.obj
+ 0001:0000014c       ntohs                      1000114c f   ksocket.obj
+ 0001:00000154       inet_addr                  10001154 f   ksocket.obj
+ 0001:00000158       freeaddrinfo               10001158 f   ksocket.obj
+ 0001:0000015c       ?GetSockThread@@YAPAU_SOCK_THREAD@@XZ 1000115c f   ksocket.obj
+ 0001:0000019c       ?NormalizeHostent@@YAXPAUhostent@@@Z 1000119c f   ksocket.obj
+ 0001:00000208       getprotobynumber           10001208 f   ksocket.obj
+ 0001:0000021c       getprotobyname             1000121c f   ksocket.obj
+ 0001:00000230       getservbyport              10001230 f   ksocket.obj
+ 0001:00000244       getservbyname              10001244 f   ksocket.obj
+ 0001:00000258       inet_ntoa                  10001258 f   ksocket.obj
+ 0001:0000030c       WSAAsyncSelect             1000130c f   ksocket.obj
+ 0001:00000320       WSACloseEvent              10001320 f   ksocket.obj
+ 0001:00000324       WSACreateEvent             10001324 f   ksocket.obj
+ 0001:00000338       WSAGetLastError            10001338 f   ksocket.obj
+ 0001:0000033c       WSAGetOverlappedResult     1000133c f   ksocket.obj
+ 0001:00000350       WSAJoinLeaf                10001350 f   ksocket.obj
+ 0001:00000364       WSAResetEvent              10001364 f   ksocket.obj
+ 0001:0000036c       WSASetEvent                1000136c f   ksocket.obj
+ 0001:00000374       WSASetLastError            10001374 f   ksocket.obj
+ 0001:00000378       WSASetServiceW             10001378 f   ksocket.obj
+ 0001:0000038c       WSAWaitForMultipleEvents   1000138c f   ksocket.obj
+ 0001:00000390       DllEntry                   10001390 f   ksocket.obj
+ 0001:000003c0       ?pc_call@?$ioctl_proxy@PAX@ce@@MAAKPAXK@Z 100013c0 f i ksocket.obj
+ 0001:00000478       ?_Grow@?$_string_t@D$0BA@U?$char_traits@D@ce@@Vallocator@2@@ce@@IAA_NI@Z 10001478 f i ksocket.obj
+ 0001:000004fc       ?_Grow@?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@IAA_NI@Z 100014fc f i ksocket.obj
+ 0001:0000058c       ?isRoomFor@NullAppendStream@ce@@EBA_NK@Z 1000158c f i ksocket.obj
+ 0001:00000594       ?writeToOffset@NullAppendStream@ce@@EAAXKQBXK@Z 10001594 f i ksocket.obj
+ 0001:00000598       ?verify_ptr@NullAppendStream@ce@@EAAPAXII@Z 10001598 f i ksocket.obj
+ 0001:000005a0       ?get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ 100015a0 f i ksocket.obj
+ 0001:000005f4       ?unmarshal@?$pc_marshaler_for_psl_buffer_wrapper@EK@ce@@QBA?AV?$psl_buffer_wrapper@PAE@2@AAVStream@2@@Z 100015f4 f i ksocket.obj
+ 0001:00000678       ?write_back@?$pc_marshaler_for_psl_buffer_wrapper@EK@ce@@QAAKABV?$psl_buffer_wrapper@PAE@2@@Z 10001678 f i ksocket.obj
+ 0001:000006b8       ?unmarshal@?$pc_marshaler_for_psl_buffer_wrapper@EE@ce@@QBA?AV?$psl_buffer_wrapper@PAE@2@AAVStream@2@@Z 100016b8 f i ksocket.obj
+ 0001:0000073c       ?write_back@?$pc_marshaler_for_psl_buffer_wrapper@EE@ce@@QAAKABV?$psl_buffer_wrapper@PAE@2@@Z 1000173c f i ksocket.obj
+ 0001:0000077c       ?unmarshal@?$pc_marshaler_for_psl_buffer_wrapper@HH@ce@@QBA?AV?$psl_buffer_wrapper@PAH@2@AAVStream@2@@Z 1000177c f i ksocket.obj
+ 0001:00000804       ?write_back@?$pc_marshaler_for_psl_buffer_wrapper@HH@ce@@QAAKABV?$psl_buffer_wrapper@PAH@2@@Z 10001804 f i ksocket.obj
+ 0001:00000848       ?unmarshal@?$pc_marshaler_for_psl_buffer_wrapper@DD@ce@@QBA?AV?$psl_buffer_wrapper@PAD@2@AAVStream@2@@Z 10001848 f i ksocket.obj
+ 0001:000008cc       ?write_back@?$pc_marshaler_for_psl_buffer_wrapper@DD@ce@@QAAKABV?$psl_buffer_wrapper@PAD@2@@Z 100018cc f i ksocket.obj
+ 0001:0000090c       ?unmarshal@?$pc_marshaler_for_psl_buffer_wrapper@GG@ce@@QBA?AV?$psl_buffer_wrapper@PAG@2@AAVStream@2@@Z 1000190c f i ksocket.obj
+ 0001:00000994       ?write_back@?$pc_marshaler_for_psl_buffer_wrapper@GG@ce@@QAAKABV?$psl_buffer_wrapper@PAG@2@@Z 10001994 f i ksocket.obj
+ 0001:000009d8       ?assign@?$_string_t@D$0BA@U?$char_traits@D@ce@@Vallocator@2@@ce@@QAA_NPBDII@Z 100019d8 f i ksocket.obj
+ 0001:00000a3c       ?assign@?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@QAA_NPBGII@Z 10001a3c f i ksocket.obj
+ 0001:00000aa4       ??$Append@H@AppendStream@ce@@QAAKQAHIQAPAH@Z 10001aa4 f i ksocket.obj
+ 0001:00000b14       ??$Append@$$CBUtimeval@@@AppendStream@ce@@QAAKQBUtimeval@@IQAPBU2@@Z 10001b14 f i ksocket.obj
+ 0001:00000b84       ??$Append@K@AppendStream@ce@@QAAKQAKIQAPAK@Z 10001b84 f i ksocket.obj
+ 0001:00000bf4       ??$Append@F@AppendStream@ce@@QAAKQAFIQAPAF@Z 10001bf4 f i ksocket.obj
+ 0001:00000c64       ??$Append@$$CBD@AppendStream@ce@@QAAKQBDIQAPBD@Z 10001c64 f i ksocket.obj
+ 0001:00000cbc       ??$Append@X@AppendStream@ce@@QAAKQAXIQAPAX@Z 10001cbc f i ksocket.obj
+ 0001:00000d14       ??$marshal_w_alignment_of@H@?$pc_marshaler_for_psl_buffer_wrapper@HH@ce@@QAAKAAVAppendStream@1@ABV01@@Z 10001d14 f i ksocket.obj
+ 0001:00000d64       ??$Append@I@AppendStream@ce@@QAAKQAIIQAPAI@Z 10001d64 f i ksocket.obj
+ 0001:00000dd4       ??$Append@$$CBG@AppendStream@ce@@QAAKQBGIQAPBG@Z 10001dd4 f i ksocket.obj
+ 0001:00000e44       ??$Append@E@AppendStream@ce@@QAAKQAEIQAPAE@Z 10001e44 f i ksocket.obj
+ 0001:00000e9c       ??$Append@D@AppendStream@ce@@QAAKQADIQAPAD@Z 10001e9c f i ksocket.obj
+ 0001:00000ef4       ??$Append@G@AppendStream@ce@@QAAKQAGIQAPAG@Z 10001ef4 f i ksocket.obj
+ 0001:00000f64       ?size@MemoryAppendStream@ce@@UBAIXZ 10001f64 f i ksocket.obj
+ 0001:00000f6c       ?isRoomFor@MemoryAppendStream@ce@@EBA_NK@Z 10001f6c f i ksocket.obj
+ 0001:00000f88       ?verify_ptr@MemoryAppendStream@ce@@UAAPAXII@Z 10001f88 f i ksocket.obj
+ 0001:00000f94       ?writeToOffset@MemoryAppendStream@ce@@EAAXKQBXK@Z 10001f94 f i ksocket.obj
+ 0001:00000fb8       ?write_back@?$pc_message1@PAXV?$out_argument@PAI@detail@ce@@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10001fb8 f i ksocket.obj
+ 0001:00001024       ??0?$_string_t@D$0BA@U?$char_traits@D@ce@@Vallocator@2@@ce@@QAA@PBD@Z 10002024 f i ksocket.obj
+ 0001:00001098       ?cbStream@?$pc_marshaler_string@$$CBD@ce@@ABAKXZ 10002098 f i ksocket.obj
+ 0001:000010fc       ??0?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@QAA@PBG@Z 100020fc f i ksocket.obj
+ 0001:00001174       ?cbStream@?$pc_marshaler_string@$$CBG@ce@@ABAKXZ 10002174 f i ksocket.obj
+ 0001:000011dc       ??$marshal_w_alignment_of@K@?$pc_marshaler_for_psl_buffer_wrapper@EK@ce@@QAAKAAVAppendStream@1@ABV01@@Z 100021dc f i ksocket.obj
+ 0001:00001228       ??$marshal_w_alignment_of@E@?$pc_marshaler_for_psl_buffer_wrapper@EE@ce@@QAAKAAVAppendStream@1@ABV01@@Z 10002228 f i ksocket.obj
+ 0001:00001274       ??$marshal_w_alignment_of@D@?$pc_marshaler_for_psl_buffer_wrapper@DD@ce@@QAAKAAVAppendStream@1@ABV01@@Z 10002274 f i ksocket.obj
+ 0001:000012c0       ??$marshal_w_alignment_of@G@?$pc_marshaler_for_psl_buffer_wrapper@GG@ce@@QAAKAAVAppendStream@1@ABV01@@Z 100022c0 f i ksocket.obj
+ 0001:00001310       ?write_back@?$pc_message1@PAXV?$out_argument@PAH@detail@ce@@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10002310 f i ksocket.obj
+ 0001:0000137c       ?write_back@?$pc_message2@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@V?$psl_buffer_wrapper@PAD@ce@@@23@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 1000237c f i ksocket.obj
+ 0001:000013c0       ?write_back@?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 100023c0 f i ksocket.obj
+ 0001:0000141c       ?write_back@?$pc_message2@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@PAK@23@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 1000241c f i ksocket.obj
+ 0001:00001470       ?write_back@?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10002470 f i ksocket.obj
+ 0001:000014b4       ?marshal@?$pc_marshaler_string@$$CBD@ce@@QAAKAAVAppendStream@2@ABV?$pc_marshaler@PBD@2@@Z 100024b4 f i ksocket.obj
+ 0001:00001504       ?unmarshal@?$pc_marshaler_string@$$CBD@ce@@QBAPBDAAVStream@2@@Z 10002504 f i ksocket.obj
+ 0001:000015b8       ?write_back@?$pc_message2@PAXV?$out_argument@PAH@detail@ce@@V123@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 100025b8 f i ksocket.obj
+ 0001:0000160c       ?write_back@?$pc_message2@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@V?$psl_buffer_wrapper@PAH@ce@@@23@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 1000260c f i ksocket.obj
+ 0001:00001650       ?marshal@?$pc_marshaler_string@$$CBG@ce@@QAAKAAVAppendStream@2@ABV?$pc_marshaler@PBG@2@@Z 10002650 f i ksocket.obj
+ 0001:000016a0       ?unmarshal@?$pc_marshaler_string@$$CBG@ce@@QBAPBGAAVStream@2@@Z 100026a0 f i ksocket.obj
+ 0001:00001758       ?write_back@?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@V423@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10002758 f i ksocket.obj
+ 0001:0000179c       ?write_back@?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@IV?$psl_buffer_wrapper@PAE@3@V43@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 1000279c f i ksocket.obj
+ 0001:000017f0       ?write_back@?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@GV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 100027f0 f i ksocket.obj
+ 0001:0000184c       ?write_back@?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 1000284c f i ksocket.obj
+ 0001:000018a0       ?write_back@?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@IJV?$out_argument@PAK@23@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 100028a0 f i ksocket.obj
+ 0001:000018f4       ?write_back@?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@PAK@23@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 100028f4 f i ksocket.obj
+ 0001:00001950       ?write_back@?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@IHKV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10002950 f i ksocket.obj
+ 0001:000019ac       ?write_back@?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@IKV?$out_argument@PAK@23@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 100029ac f i ksocket.obj
+ 0001:00001a00       ?write_back@?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@IGV?$out_argument@PAF@23@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10002a00 f i ksocket.obj
+ 0001:00001a54       ?write_back@?$pc_message3@PAXV?$out_argument@PAI@detail@ce@@IV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10002a54 f i ksocket.obj
+ 0001:00001ab0       ?write_back@?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@IHHV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10002ab0 f i ksocket.obj
+ 0001:00001af4       ?write_back@?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@V?$psl_buffer_wrapper@PAH@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10002af4 f i ksocket.obj
+ 0001:00001b6c       ?write_back@?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@V?$psl_buffer_wrapper@PAH@ce@@@23@V423@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10002b6c f i ksocket.obj
+ 0001:00001bb0       ?marshal@?$pc_message1@PAXV?$out_argument@PAI@detail@ce@@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10002bb0 f i ksocket.obj
+ 0001:00001c10       ?write_back@?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@V?$byte_array_w_alignment@K@3@HV?$out_argument@V?$psl_buffer_wrapper@PAD@ce@@@23@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10002c10 f i ksocket.obj
+ 0001:00001c70       ?write_back@?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@V423@V423@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10002c70 f i ksocket.obj
+ 0001:00001cb4       ?marshal@?$pc_message1@PAXV?$out_argument@PAH@detail@ce@@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10002cb4 f i ksocket.obj
+ 0001:00001d14       ?write_back@?$pc_message4@PAXV?$out_argument@PAI@detail@ce@@IV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V?$out_argument@PAH@23@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10002d14 f i ksocket.obj
+ 0001:00001d68       ?write_back@?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@IHHV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@V123@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10002d68 f i ksocket.obj
+ 0001:00001dbc       ?write_back@?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@V?$psl_buffer_wrapper@PAH@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V?$out_argument@PAK@23@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10002dbc f i ksocket.obj
+ 0001:00001e10       ?marshal@?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@IV?$byte_array_w_alignment@K@3@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10002e10 f i ksocket.obj
+ 0001:00001e54       ?write_back@?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@HHV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10002e54 f i ksocket.obj
+ 0001:00001eb0       ?write_back@?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@V?$psl_buffer_wrapper@PAH@ce@@@23@V423@V423@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10002eb0 f i ksocket.obj
+ 0001:00001ef4       ?write_back@?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@IV?$psl_buffer_wrapper@PAE@3@HHV?$byte_array_w_alignment@K@3@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10002ef4 f i ksocket.obj
+ 0001:00001f48       ?marshal@?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10002f48 f i ksocket.obj
+ 0001:00001f8c       ?marshal@?$pc_message2@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@PAK@23@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10002f8c f i ksocket.obj
+ 0001:00001fd0       ?marshal@?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@IHK@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10002fd0 f i ksocket.obj
+ 0001:00002014       ?marshal@?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10003014 f i ksocket.obj
+ 0001:00002058       ?marshal@?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@IV?$psl_buffer_wrapper@PAE@3@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10003058 f i ksocket.obj
+ 0001:0000209c       ?marshal@?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@IHH@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 1000309c f i ksocket.obj
+ 0001:000020e0       ?write_back@?$pc_message5@PAXV?$out_argument@PAI@detail@ce@@HHHV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 100030e0 f i ksocket.obj
+ 0001:0000213c       ?write_back@?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@V?$byte_array_w_alignment@K@3@KV43@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 1000313c f i ksocket.obj
+ 0001:00002190       ?marshal@?$pc_message2@PAXV?$out_argument@PAH@detail@ce@@V123@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10003190 f i ksocket.obj
+ 0001:000021d4       ?marshal@?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@PBDPBD@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 100031d4 f i ksocket.obj
+ 0001:00002224       ?write_back@?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@PBDPBD@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10003224 f i ksocket.obj
+ 0001:00002268       ?write_back@?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@V423@V423@V423@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10003268 f i ksocket.obj
+ 0001:000022ac       ?write_back@?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@IV?$psl_buffer_wrapper@PAE@3@V43@V43@V43@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 100032ac f i ksocket.obj
+ 0001:00002300       ?marshal@?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@V?$byte_array_w_alignment@K@3@H@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10003300 f i ksocket.obj
+ 0001:0000234c       ??$getCbForStream@V?$pc_message1@PAXV?$out_argument@PAH@detail@ce@@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message1@PAXV?$out_argument@PAH@detail@ce@@@detail@1@AAK@Z 1000334c f i ksocket.obj
+ 0001:000023ec       ??$getCbForStream@V?$pc_message2@PAXV?$out_argument@PAH@detail@ce@@I@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message2@PAXV?$out_argument@PAH@detail@ce@@I@detail@1@AAK@Z 100033ec f i ksocket.obj
+ 0001:0000248c       ??$getCbForStream@V?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@IH@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@IH@detail@1@AAK@Z 1000348c f i ksocket.obj
+ 0001:00002524       ?Create@MemoryAppendStream@ce@@SAPAV12@I@Z 10003524 f i ksocket.obj
+ 0001:000025a0       ??$prepare_message_and_pc_call@V?$pc_message1@PAXV?$out_argument@PAH@detail@ce@@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message1@PAXV?$out_argument@PAH@detail@ce@@@detail@1@@Z 100035a0 f i ksocket.obj
+ 0001:0000266c       ??$prepare_message_and_pc_call@V?$pc_message2@PAXV?$out_argument@PAH@detail@ce@@I@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message2@PAXV?$out_argument@PAH@detail@ce@@I@detail@1@@Z 1000366c f i ksocket.obj
+ 0001:00002748       ??$prepare_message_and_pc_call@V?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@IH@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@IH@detail@1@@Z 10003748 f i ksocket.obj
+ 0001:00002838       ?marshal@?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@GV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10003838 f i ksocket.obj
+ 0001:0000287c       ?write_back@?$pc_message7@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@HHV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 1000387c f i ksocket.obj
+ 0001:000028d0       ?write_back@?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@V?$psl_buffer_wrapper@PAE@3@HHV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 100038d0 f i ksocket.obj
+ 0001:00002948       ?marshal@?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@PBDV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10003948 f i ksocket.obj
+ 0001:00002998       ?write_back@?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@PBDV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10003998 f i ksocket.obj
+ 0001:00002a0c       ?marshal@?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@V?$psl_buffer_wrapper@PAD@ce@@@23@H@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10003a0c f i ksocket.obj
+ 0001:00002a50       ?marshal@?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10003a50 f i ksocket.obj
+ 0001:00002a94       ?marshal@?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@IJV?$out_argument@PAK@23@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10003a94 f i ksocket.obj
+ 0001:00002afc       ?marshal@?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@V?$psl_buffer_wrapper@PAD@3@H@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10003afc f i ksocket.obj
+ 0001:00002b40       ?marshal@?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@IKV?$out_argument@PAK@23@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10003b40 f i ksocket.obj
+ 0001:00002ba8       ?marshal@?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@IGV?$out_argument@PAF@23@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10003ba8 f i ksocket.obj
+ 0001:00002c10       ?marshal@?$pc_message3@PAXV?$out_argument@PAI@detail@ce@@IV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10003c10 f i ksocket.obj
+ 0001:00002c54       ?marshal@?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@V?$psl_buffer_wrapper@PAH@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10003c54 f i ksocket.obj
+ 0001:00002ca4       ?write_back@?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@V?$byte_array_w_alignment@K@3@KV43@V?$out_argument@V?$psl_buffer_wrapper@PAG@ce@@@23@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10003ca4 f i ksocket.obj
+ 0001:00002ce8       ?marshal@?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@V?$psl_buffer_wrapper@PAH@ce@@@23@V423@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10003ce8 f i ksocket.obj
+ 0001:00002d38       ?marshal@?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@V?$psl_buffer_wrapper@PAE@3@H@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10003d38 f i ksocket.obj
+ 0001:00002d7c       ?write_back@?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@V?$byte_array_w_alignment@K@3@HV?$out_argument@V?$psl_buffer_wrapper@PAD@ce@@@23@KV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10003d7c f i ksocket.obj
+ 0001:00002dc0       ?write_back@?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@PAK@23@KKV?$byte_array_w_alignment@K@3@V423@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10003dc0 f i ksocket.obj
+ 0001:00002e38       ?write_back@?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@PAK@23@IKV?$byte_array_w_alignment@K@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10003e38 f i ksocket.obj
+ 0001:00002eb0       ?write_back@?$pc_message7@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@V423@V423@V423@V423@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10003eb0 f i ksocket.obj
+ 0001:00002ef4       ?marshal@?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@V?$byte_array_w_alignment@K@3@K@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10003ef4 f i ksocket.obj
+ 0001:00002f38       ?marshal@?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@PBGH@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10003f38 f i ksocket.obj
+ 0001:00002f7c       ?marshal@?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@V423@V423@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10003f7c f i ksocket.obj
+ 0001:00002fcc       ?marshal@?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@IV?$psl_buffer_wrapper@PAE@3@V43@V43@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10003fcc f i ksocket.obj
+ 0001:00003024       ??$getCbForStream@V?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@GV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@GV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@1@AAK@Z 10004024 f i ksocket.obj
+ 0001:000030c4       ??$getCbForStream@V?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@IV?$byte_array_w_alignment@K@3@H@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@IV?$byte_array_w_alignment@K@3@H@detail@1@AAK@Z 100040c4 f i ksocket.obj
+ 0001:00003164       ??$getCbForStream@V?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@PBDV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@PBDV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@1@AAK@Z 10004164 f i ksocket.obj
+ 0001:00003204       ??$getCbForStream@V?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@V?$psl_buffer_wrapper@PAD@ce@@@23@H@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@V?$psl_buffer_wrapper@PAD@ce@@@23@H@detail@1@AAK@Z 10004204 f i ksocket.obj
+ 0001:000032a4       ??$getCbForStream@V?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@@detail@1@AAK@Z 100042a4 f i ksocket.obj
+ 0001:00003344       ??$getCbForStream@V?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@IJV?$out_argument@PAK@23@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@IJV?$out_argument@PAK@23@@detail@1@AAK@Z 10004344 f i ksocket.obj
+ 0001:000033e4       ??$getCbForStream@V?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@V?$psl_buffer_wrapper@PAD@3@H@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@V?$psl_buffer_wrapper@PAD@3@H@detail@1@AAK@Z 100043e4 f i ksocket.obj
+ 0001:00003484       ??$getCbForStream@V?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@PAK@23@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@PAK@23@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@1@AAK@Z 10004484 f i ksocket.obj
+ 0001:00003540       ??$getCbForStream@V?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@IHKV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@IHKV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@1@AAK@Z 10004540 f i ksocket.obj
+ 0001:000035fc       ??$getCbForStream@V?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@IHKJ@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@IHKJ@detail@1@AAK@Z 100045fc f i ksocket.obj
+ 0001:0000369c       ??$getCbForStream@V?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@IKV?$out_argument@PAK@23@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@IKV?$out_argument@PAK@23@@detail@1@AAK@Z 1000469c f i ksocket.obj
+ 0001:0000373c       ??$getCbForStream@V?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@IGV?$out_argument@PAF@23@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@IGV?$out_argument@PAF@23@@detail@1@AAK@Z 1000473c f i ksocket.obj
+ 0001:000037d4       ??$prepare_message_and_pc_call@V?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@GV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@GV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@1@@Z 100047d4 f i ksocket.obj
+ 0001:000038a0       ??$prepare_message_and_pc_call@V?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@IV?$byte_array_w_alignment@K@3@H@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@IV?$byte_array_w_alignment@K@3@H@detail@1@@Z 100048a0 f i ksocket.obj
+ 0001:00003990       ??$prepare_message_and_pc_call@V?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@PBDV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@PBDV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@1@@Z 10004990 f i ksocket.obj
+ 0001:00003a5c       ??$prepare_message_and_pc_call@V?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@V?$psl_buffer_wrapper@PAD@ce@@@23@H@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@V?$psl_buffer_wrapper@PAD@ce@@@23@H@detail@1@@Z 10004a5c f i ksocket.obj
+ 0001:00003b28       ??$prepare_message_and_pc_call@V?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@@detail@1@@Z 10004b28 f i ksocket.obj
+ 0001:00003bf4       ??$prepare_message_and_pc_call@V?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@IJV?$out_argument@PAK@23@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@IJV?$out_argument@PAK@23@@detail@1@@Z 10004bf4 f i ksocket.obj
+ 0001:00003cc0       ??$prepare_message_and_pc_call@V?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@V?$psl_buffer_wrapper@PAD@3@H@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@V?$psl_buffer_wrapper@PAD@3@H@detail@1@@Z 10004cc0 f i ksocket.obj
+ 0001:00003da0       ??$prepare_message_and_pc_call@V?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@PAK@23@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message3@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@PAK@23@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@1@@Z 10004da0 f i ksocket.obj
+ 0001:00003e88       ??$prepare_message_and_pc_call@V?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@IHKV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@IHKV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@1@@Z 10004e88 f i ksocket.obj
+ 0001:00003f70       ??$prepare_message_and_pc_call@V?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@IHKJ@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@IHKJ@detail@1@@Z 10004f70 f i ksocket.obj
+ 0001:0000404c       ??$prepare_message_and_pc_call@V?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@IKV?$out_argument@PAK@23@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@IKV?$out_argument@PAK@23@@detail@1@@Z 1000504c f i ksocket.obj
+ 0001:00004118       ??$prepare_message_and_pc_call@V?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@IGV?$out_argument@PAF@23@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@IGV?$out_argument@PAF@23@@detail@1@@Z 10005118 f i ksocket.obj
+ 0001:000041e4       ?marshal@?$pc_message4@PAXV?$out_argument@PAI@detail@ce@@HHH@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 100051e4 f i ksocket.obj
+ 0001:00004228       ?marshal@?$pc_message4@PAXV?$out_argument@PAI@detail@ce@@IV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V?$out_argument@PAH@23@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10005228 f i ksocket.obj
+ 0001:0000426c       ?marshal@?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@IHHV?$psl_buffer_wrapper@PAE@3@H@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 1000526c f i ksocket.obj
+ 0001:000042b0       ?marshal@?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@IHHV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@V123@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 100052b0 f i ksocket.obj
+ 0001:00004310       ?marshal@?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@V?$psl_buffer_wrapper@PAH@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V?$out_argument@PAK@23@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10005310 f i ksocket.obj
+ 0001:00004354       ?write_back@?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@V?$byte_array_w_alignment@K@3@KV43@V?$out_argument@V?$psl_buffer_wrapper@PAG@ce@@@23@V?$out_argument@PAK@23@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10005354 f i ksocket.obj
+ 0001:000043a8       ?marshal@?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@V123@IV?$byte_array_w_alignment@K@3@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 100053a8 f i ksocket.obj
+ 0001:000043ec       ?marshal@?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@HHV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 100053ec f i ksocket.obj
+ 0001:00004444       ?marshal@?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@IV?$psl_buffer_wrapper@PAE@3@HHV?$byte_array_w_alignment@K@3@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10005444 f i ksocket.obj
+ 0001:0000449c       ?write_back@?$pc_message7@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@PAK@23@KKV?$byte_array_w_alignment@K@3@V423@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 1000549c f i ksocket.obj
+ 0001:000044f8       ?marshal@?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@PBDPBDV?$byte_array_w_alignment@K@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 100054f8 f i ksocket.obj
+ 0001:00004548       ?write_back@?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@PBDPBDV?$byte_array_w_alignment@K@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10005548 f i ksocket.obj
+ 0001:000045c0       ?write_back@?$pc_message7@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@PAK@23@IKV?$byte_array_w_alignment@K@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V423@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 100055c0 f i ksocket.obj
+ 0001:00004614       ?write_back@?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@PBGHV?$byte_array_w_alignment@K@3@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10005614 f i ksocket.obj
+ 0001:00004664       ?marshal@?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@V?$byte_array_w_alignment@K@3@HV?$out_argument@V?$psl_buffer_wrapper@PAD@ce@@@23@K@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10005664 f i ksocket.obj
+ 0001:000046a8       ?marshal@?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@PAK@23@KKV?$byte_array_w_alignment@K@3@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 100056a8 f i ksocket.obj
+ 0001:00004700       ?marshal@?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@PAK@23@IKV?$byte_array_w_alignment@K@3@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10005700 f i ksocket.obj
+ 0001:00004760       ??$getCbForStream@V?$pc_message4@PAXV?$out_argument@PAI@detail@ce@@HHH@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message4@PAXV?$out_argument@PAI@detail@ce@@HHH@detail@1@AAK@Z 10005760 f i ksocket.obj
+ 0001:00004800       ??$getCbForStream@V?$pc_message4@PAXV?$out_argument@PAI@detail@ce@@IV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V?$out_argument@PAH@23@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message4@PAXV?$out_argument@PAI@detail@ce@@IV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V?$out_argument@PAH@23@@detail@1@AAK@Z 10005800 f i ksocket.obj
+ 0001:000048a0       ??$getCbForStream@V?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@HH@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@HH@detail@1@AAK@Z 100058a0 f i ksocket.obj
+ 0001:00004940       ??$getCbForStream@V?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@IV?$psl_buffer_wrapper@PAE@3@HH@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@IV?$psl_buffer_wrapper@PAE@3@HH@detail@1@AAK@Z 10005940 f i ksocket.obj
+ 0001:000049e0       ??$getCbForStream@V?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@IHHV?$psl_buffer_wrapper@PAE@3@H@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@IHHV?$psl_buffer_wrapper@PAE@3@H@detail@1@AAK@Z 100059e0 f i ksocket.obj
+ 0001:00004a80       ??$getCbForStream@V?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@IHHV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@V123@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@IHHV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@V123@@detail@1@AAK@Z 10005a80 f i ksocket.obj
+ 0001:00004b20       ??$getCbForStream@V?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@V?$psl_buffer_wrapper@PAH@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V?$out_argument@PAK@23@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@V?$psl_buffer_wrapper@PAH@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V?$out_argument@PAK@23@@detail@1@AAK@Z 10005b20 f i ksocket.obj
+ 0001:00004bb8       WSACleanup                 10005bb8 f   ksocket.obj
+ 0001:00004c10       closesocket                10005c10 f   ksocket.obj
+ 0001:00004c70       listen                     10005c70 f   ksocket.obj
+ 0001:00004cd8       shutdown                   10005cd8 f   ksocket.obj
+ 0001:00004d40       ??$call@V?$out_argument@PAH@detail@ce@@GV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@?$pc_proxy@PAX@ce@@QAAKGV?$out_argument@PAH@detail@1@GV?$out_argument@V?$byte_array_w_alignment@K@ce@@@31@@Z 10005d40 f i ksocket.obj
+ 0001:00004d8c       ??$call@V?$out_argument@PAH@detail@ce@@IV?$byte_array_w_alignment@K@3@H@?$pc_proxy@PAX@ce@@QAAKGV?$out_argument@PAH@detail@1@IV?$byte_array_w_alignment@K@1@H@Z 10005d8c f i ksocket.obj
+ 0001:00004de0       ??$call@V?$out_argument@PAH@detail@ce@@PBDV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@?$pc_proxy@PAX@ce@@QAAKGV?$out_argument@PAH@detail@1@PBDV?$out_argument@V?$byte_array_w_alignment@K@ce@@@31@@Z 10005de0 f i ksocket.obj
+ 0001:00004e2c       ??$call@V?$out_argument@PAH@detail@ce@@V?$out_argument@V?$psl_buffer_wrapper@PAD@ce@@@23@H@?$pc_proxy@PAX@ce@@QAAKGV?$out_argument@PAH@detail@1@V?$out_argument@V?$psl_buffer_wrapper@PAD@ce@@@31@H@Z 10005e2c f i ksocket.obj
+ 0001:00004e7c       ??$call@V?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@@?$pc_proxy@PAX@ce@@QAAKGV?$out_argument@PAH@detail@1@IV?$out_argument@V?$byte_array_w_alignment@K@ce@@@31@0@Z 10005e7c f i ksocket.obj
+ 0001:00004ed0       ??$call@V?$out_argument@PAH@detail@ce@@V?$psl_buffer_wrapper@PAD@3@H@?$pc_proxy@PAX@ce@@QAAKGV?$out_argument@PAH@detail@1@V?$psl_buffer_wrapper@PAD@1@H@Z 10005ed0 f i ksocket.obj
+ 0001:00004f20       ??$call@V?$out_argument@PAH@detail@ce@@V?$out_argument@PAK@23@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@?$pc_proxy@PAX@ce@@QAAKGV?$out_argument@PAH@detail@1@V?$out_argument@PAK@31@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@31@@Z 10005f20 f i ksocket.obj
+ 0001:00004f70       ??$call@V?$out_argument@PAH@detail@ce@@IHKV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@?$pc_proxy@PAX@ce@@QAAKGV?$out_argument@PAH@detail@1@IHKV?$out_argument@V?$byte_array_w_alignment@K@ce@@@31@@Z 10005f70 f i ksocket.obj
+ 0001:00004fcc       ??$call@V?$out_argument@PAH@detail@ce@@IHKJ@?$pc_proxy@PAX@ce@@QAAKGV?$out_argument@PAH@detail@1@IHKJ@Z 10005fcc f i ksocket.obj
+ 0001:00005020       ??$prepare_message_and_pc_call@V?$pc_message4@PAXV?$out_argument@PAI@detail@ce@@HHH@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message4@PAXV?$out_argument@PAI@detail@ce@@HHH@detail@1@@Z 10006020 f i ksocket.obj
+ 0001:000050ec       ??$prepare_message_and_pc_call@V?$pc_message4@PAXV?$out_argument@PAI@detail@ce@@IV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V?$out_argument@PAH@23@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message4@PAXV?$out_argument@PAI@detail@ce@@IV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V?$out_argument@PAH@23@@detail@1@@Z 100060ec f i ksocket.obj
+ 0001:000051b8       ??$prepare_message_and_pc_call@V?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@HH@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@HH@detail@1@@Z 100061b8 f i ksocket.obj
+ 0001:000052a8       ??$prepare_message_and_pc_call@V?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@IV?$psl_buffer_wrapper@PAE@3@HH@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@IV?$psl_buffer_wrapper@PAE@3@HH@detail@1@@Z 100062a8 f i ksocket.obj
+ 0001:000053ac       ??$prepare_message_and_pc_call@V?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@IHHV?$psl_buffer_wrapper@PAE@3@H@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@IHHV?$psl_buffer_wrapper@PAE@3@H@detail@1@@Z 100063ac f i ksocket.obj
+ 0001:0000548c       ??$prepare_message_and_pc_call@V?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@IHHV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@V123@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@IHHV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@V123@@detail@1@@Z 1000648c f i ksocket.obj
+ 0001:00005558       ??$prepare_message_and_pc_call@V?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@V?$psl_buffer_wrapper@PAH@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V?$out_argument@PAK@23@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message4@PAXV?$out_argument@PAH@detail@ce@@V?$psl_buffer_wrapper@PAH@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V?$out_argument@PAK@23@@detail@1@@Z 10006558 f i ksocket.obj
+ 0001:00005624       ?marshal@?$pc_message7@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@HHV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10006624 f i ksocket.obj
+ 0001:00005668       ?marshal@?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@V?$psl_buffer_wrapper@PAH@ce@@@23@V423@V423@PBUtimeval@@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10006668 f i ksocket.obj
+ 0001:000056c8       ?marshal@?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@V?$psl_buffer_wrapper@PAE@3@HHV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 100066c8 f i ksocket.obj
+ 0001:0000570c       ?write_back@?$pc_message8@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@PAK@23@KKV?$byte_array_w_alignment@K@3@V423@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V423@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 1000670c f i ksocket.obj
+ 0001:00005760       ?marshal@?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@PBDPBDV?$byte_array_w_alignment@K@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10006760 f i ksocket.obj
+ 0001:000057a4       ?write_back@?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@PBDPBDV?$byte_array_w_alignment@K@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 100067a4 f i ksocket.obj
+ 0001:000057f8       ?marshal@?$pc_message6@PAXV?$out_argument@PAI@detail@ce@@HHHV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@I@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 100067f8 f i ksocket.obj
+ 0001:0000583c       ?write_back@?$pc_message8@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@PAK@23@IKV?$byte_array_w_alignment@K@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V423@V623@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 1000683c f i ksocket.obj
+ 0001:00005898       ?write_back@?$pc_message9@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@V423@V423@V423@V423@KV?$out_argument@PAK@23@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10006898 f i ksocket.obj
+ 0001:000058ec       ?write_back@?$pc_message9@PAXV?$out_argument@PAH@detail@ce@@IV?$psl_buffer_wrapper@PAE@3@V43@V43@V43@V43@KV?$out_argument@PAK@23@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 100068ec f i ksocket.obj
+ 0001:00005964       ?marshal@?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@V?$byte_array_w_alignment@K@3@KV43@V?$out_argument@V?$psl_buffer_wrapper@PAG@ce@@@23@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10006964 f i ksocket.obj
+ 0001:000059b4       ?marshal@?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@PBGHV?$byte_array_w_alignment@K@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 100069b4 f i ksocket.obj
+ 0001:00005a04       ?write_back@?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@PBGHV?$byte_array_w_alignment@K@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10006a04 f i ksocket.obj
+ 0001:00005a60       ?marshal@?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@PAK@23@KKV?$byte_array_w_alignment@K@3@V423@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10006a60 f i ksocket.obj
+ 0001:00005aa4       ?marshal@?$pc_message7@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@V423@V423@V423@V423@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10006aa4 f i ksocket.obj
+ 0001:00005af4       ?marshal@?$pc_message7@PAXV?$out_argument@PAH@detail@ce@@IV?$psl_buffer_wrapper@PAE@3@V43@V43@V43@V43@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10006af4 f i ksocket.obj
+ 0001:00005b4c       ??$getCbForStream@V?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@V123@IV?$byte_array_w_alignment@K@3@H@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@V123@IV?$byte_array_w_alignment@K@3@H@detail@1@AAK@Z 10006b4c f i ksocket.obj
+ 0001:00005bec       ??$getCbForStream@V?$pc_message7@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@HHV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message7@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@HHV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@@detail@1@AAK@Z 10006bec f i ksocket.obj
+ 0001:00005c8c       ??$getCbForStream@V?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@V?$psl_buffer_wrapper@PAH@ce@@@23@V423@V423@PBUtimeval@@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@V?$psl_buffer_wrapper@PAH@ce@@@23@V423@V423@PBUtimeval@@@detail@1@AAK@Z 10006c8c f i ksocket.obj
+ 0001:00005d2c       ??$getCbForStream@V?$pc_message7@PAXV?$out_argument@PAH@detail@ce@@IV?$psl_buffer_wrapper@PAE@3@HHV?$byte_array_w_alignment@K@3@H@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message7@PAXV?$out_argument@PAH@detail@ce@@IV?$psl_buffer_wrapper@PAE@3@HHV?$byte_array_w_alignment@K@3@H@detail@1@AAK@Z 10006d2c f i ksocket.obj
+ 0001:00005dcc       ??$getCbForStream@V?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@V?$psl_buffer_wrapper@PAE@3@HHV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@V?$psl_buffer_wrapper@PAE@3@HHV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@1@AAK@Z 10006dcc f i ksocket.obj
+ 0001:00005e64       WSAStartup                 10006e64 f   ksocket.obj
+ 0001:00005eb0       connect                    10006eb0 f   ksocket.obj
+ 0001:00005f14       gethostbyname              10006f14 f   ksocket.obj
+ 0001:00005f90       gethostname                10006f90 f   ksocket.obj
+ 0001:00005fec       getpeername                10006fec f   ksocket.obj
+ 0001:00006058       getsockname                10007058 f   ksocket.obj
+ 0001:000060c4       ioctlsocket                100070c4 f   ksocket.obj
+ 0001:00006160       sethostname                10007160 f   ksocket.obj
+ 0001:000061bc       WSAConnect                 100071bc f   ksocket.obj
+ 0001:000061fc       WSAEnumNameSpaceProvidersW 100071fc f   ksocket.obj
+ 0001:00006280       WSAEnumNetworkEvents       10007280 f   ksocket.obj
+ 0001:000062fc       WSAEventSelect             100072fc f   ksocket.obj
+ 0001:00006368       WSAHtonl                   10007368 f   ksocket.obj
+ 0001:000063d4       WSAHtons                   100073d4 f   ksocket.obj
+ 0001:00006440       WSANtohl                   10007440 f   ksocket.obj
+ 0001:000064ac       WSANtohs                   100074ac f   ksocket.obj
+ 0001:00006518       ??$call@V?$out_argument@PAI@detail@ce@@IV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V?$out_argument@PAH@23@@?$pc_proxy@PAX@ce@@QAAKGV?$out_argument@PAI@detail@1@IV?$out_argument@V?$byte_array_w_alignment@K@ce@@@31@V?$out_argument@PAH@31@@Z 10007518 f i ksocket.obj
+ 0001:0000656c       ??$call@V?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@HH@?$pc_proxy@PAX@ce@@QAAKGV?$out_argument@PAH@detail@1@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@31@HH@Z 1000756c f i ksocket.obj
+ 0001:000065c8       ??$call@V?$out_argument@PAH@detail@ce@@IV?$psl_buffer_wrapper@PAE@3@HH@?$pc_proxy@PAX@ce@@QAAKGV?$out_argument@PAH@detail@1@IV?$psl_buffer_wrapper@PAE@1@HH@Z 100075c8 f i ksocket.obj
+ 0001:00006624       ??$call@V?$out_argument@PAH@detail@ce@@IHHV?$psl_buffer_wrapper@PAE@3@H@?$pc_proxy@PAX@ce@@QAAKGV?$out_argument@PAH@detail@1@IHHV?$psl_buffer_wrapper@PAE@1@H@Z 10007624 f i ksocket.obj
+ 0001:00006688       ??$call@V?$out_argument@PAH@detail@ce@@IHHV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@V123@@?$pc_proxy@PAX@ce@@QAAKGV?$out_argument@PAH@detail@1@IHHV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@31@0@Z 10007688 f i ksocket.obj
+ 0001:000066ec       ??$call@V?$out_argument@PAH@detail@ce@@V?$psl_buffer_wrapper@PAH@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V?$out_argument@PAK@23@@?$pc_proxy@PAX@ce@@QAAKGV?$out_argument@PAH@detail@1@V?$psl_buffer_wrapper@PAH@1@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@31@V?$out_argument@PAK@31@@Z 100076ec f i ksocket.obj
+ 0001:0000674c       ??$prepare_message_and_pc_call@V?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@V123@IV?$byte_array_w_alignment@K@3@H@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@V123@IV?$byte_array_w_alignment@K@3@H@detail@1@@Z 1000774c f i ksocket.obj
+ 0001:0000683c       ??$prepare_message_and_pc_call@V?$pc_message7@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@HHV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message7@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@HHV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@@detail@1@@Z 1000783c f i ksocket.obj
+ 0001:00006908       ??$prepare_message_and_pc_call@V?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@V?$psl_buffer_wrapper@PAH@ce@@@23@V423@V423@PBUtimeval@@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@V?$psl_buffer_wrapper@PAH@ce@@@23@V423@V423@PBUtimeval@@@detail@1@@Z 10007908 f i ksocket.obj
+ 0001:000069f8       ??$prepare_message_and_pc_call@V?$pc_message7@PAXV?$out_argument@PAH@detail@ce@@IV?$psl_buffer_wrapper@PAE@3@HHV?$byte_array_w_alignment@K@3@H@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message7@PAXV?$out_argument@PAH@detail@ce@@IV?$psl_buffer_wrapper@PAE@3@HHV?$byte_array_w_alignment@K@3@H@detail@1@@Z 100079f8 f i ksocket.obj
+ 0001:00006ad4       ??$prepare_message_and_pc_call@V?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@V?$psl_buffer_wrapper@PAE@3@HHV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message5@PAXV?$out_argument@PAH@detail@ce@@V?$psl_buffer_wrapper@PAE@3@HHV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@1@@Z 10007ad4 f i ksocket.obj
+ 0001:00006ba0       ?write_back@?$pc_message10@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@V423@V423@V423@V423@KV?$out_argument@PAK@23@V523@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10007ba0 f i ksocket.obj
+ 0001:00006bf4       ?marshal@?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@V?$byte_array_w_alignment@K@3@KV43@V?$out_argument@V?$psl_buffer_wrapper@PAG@ce@@@23@V?$out_argument@PAK@23@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10007bf4 f i ksocket.obj
+ 0001:00006c38       ?marshal@?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@PBGHV?$byte_array_w_alignment@K@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10007c38 f i ksocket.obj
+ 0001:00006c7c       ?write_back@?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@PBGHV?$byte_array_w_alignment@K@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10007c7c f i ksocket.obj
+ 0001:00006cd0       ?marshal@?$pc_message7@PAXV?$out_argument@PAH@detail@ce@@V?$byte_array_w_alignment@K@3@HV?$out_argument@V?$psl_buffer_wrapper@PAD@ce@@@23@KV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@K@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10007cd0 f i ksocket.obj
+ 0001:00006d14       ?write_back@?$pc_message11@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@V423@V423@V423@V423@KV?$out_argument@PAK@23@V523@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 10007d14 f i ksocket.obj
+ 0001:00006d70       ?marshal@?$pc_message7@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@PAK@23@IKV?$byte_array_w_alignment@K@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V423@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10007d70 f i ksocket.obj
+ 0001:00006dd8       ??$getCbForStream@V?$pc_message7@PAXV?$out_argument@PAH@detail@ce@@PBDPBDV?$byte_array_w_alignment@K@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@K@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message7@PAXV?$out_argument@PAH@detail@ce@@PBDPBDV?$byte_array_w_alignment@K@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@K@detail@1@AAK@Z 10007dd8 f i ksocket.obj
+ 0001:00006e78       ??$getCbForStream@V?$pc_message7@PAXV?$out_argument@PAI@detail@ce@@HHHV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@IK@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message7@PAXV?$out_argument@PAI@detail@ce@@HHHV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@IK@detail@1@AAK@Z 10007e78 f i ksocket.obj
+ 0001:00006f18       ??$getCbForStream@V?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@V?$byte_array_w_alignment@K@3@KV43@V?$out_argument@V?$psl_buffer_wrapper@PAG@ce@@@23@V?$out_argument@PAK@23@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@V?$byte_array_w_alignment@K@3@KV43@V?$out_argument@V?$psl_buffer_wrapper@PAG@ce@@@23@V?$out_argument@PAK@23@@detail@1@AAK@Z 10007f18 f i ksocket.obj
+ 0001:00006fb8       ??$getCbForStream@V?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@PBGHV?$byte_array_w_alignment@K@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@PBGHV?$byte_array_w_alignment@K@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@@detail@1@AAK@Z 10007fb8 f i ksocket.obj
+ 0001:00007050       socket                     10008050 f   ksocket.obj
+ 0001:000070bc       accept                     100080bc f   ksocket.obj
+ 0001:00007134       recv                       10008134 f   ksocket.obj
+ 0001:0000718c       send                       1000818c f   ksocket.obj
+ 0001:000071dc       setsockopt                 100081dc f   ksocket.obj
+ 0001:00007234       getsockopt                 10008234 f   ksocket.obj
+ 0001:000072b4       WSAAccept                  100082b4 f   ksocket.obj
+ 0001:000072d8       WSAEnumProtocolsW          100082d8 f   ksocket.obj
+ 0001:0000738c       ??$call@V?$out_argument@PAH@detail@ce@@V123@IV?$byte_array_w_alignment@K@3@H@?$pc_proxy@PAX@ce@@QAAKGV?$out_argument@PAH@detail@1@0IV?$byte_array_w_alignment@K@1@H@Z 1000838c f i ksocket.obj
+ 0001:000073ec       ??$call@V?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@HHV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@@?$pc_proxy@PAX@ce@@QAAKGV?$out_argument@PAH@detail@1@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@31@HHV?$out_argument@V?$byte_array_w_alignment@K@ce@@@31@0@Z 100083ec f i ksocket.obj
+ 0001:00007460       ??$call@V?$out_argument@PAH@detail@ce@@V?$out_argument@V?$psl_buffer_wrapper@PAH@ce@@@23@V423@V423@PBUtimeval@@@?$pc_proxy@PAX@ce@@QAAKGV?$out_argument@PAH@detail@1@V?$out_argument@V?$psl_buffer_wrapper@PAH@ce@@@31@11PBUtimeval@@@Z 10008460 f i ksocket.obj
+ 0001:000074d0       ??$call@V?$out_argument@PAH@detail@ce@@IV?$psl_buffer_wrapper@PAE@3@HHV?$byte_array_w_alignment@K@3@H@?$pc_proxy@PAX@ce@@QAAKGV?$out_argument@PAH@detail@1@IV?$psl_buffer_wrapper@PAE@1@HHV?$byte_array_w_alignment@K@1@H@Z 100084d0 f i ksocket.obj
+ 0001:00007544       ??$call@V?$out_argument@PAH@detail@ce@@V?$psl_buffer_wrapper@PAE@3@HHV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@@?$pc_proxy@PAX@ce@@QAAKGV?$out_argument@PAH@detail@1@V?$psl_buffer_wrapper@PAE@1@HHV?$out_argument@V?$byte_array_w_alignment@K@ce@@@31@@Z 10008544 f i ksocket.obj
+ 0001:000075ac       ??$prepare_message_and_pc_call@V?$pc_message7@PAXV?$out_argument@PAH@detail@ce@@PBDPBDV?$byte_array_w_alignment@K@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@K@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message7@PAXV?$out_argument@PAH@detail@ce@@PBDPBDV?$byte_array_w_alignment@K@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@K@detail@1@@Z 100085ac f i ksocket.obj
+ 0001:00007688       ??$prepare_message_and_pc_call@V?$pc_message7@PAXV?$out_argument@PAI@detail@ce@@HHHV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@IK@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message7@PAXV?$out_argument@PAI@detail@ce@@HHHV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@IK@detail@1@@Z 10008688 f i ksocket.obj
+ 0001:00007764       ??$prepare_message_and_pc_call@V?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@V?$byte_array_w_alignment@K@3@KV43@V?$out_argument@V?$psl_buffer_wrapper@PAG@ce@@@23@V?$out_argument@PAK@23@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@V?$byte_array_w_alignment@K@3@KV43@V?$out_argument@V?$psl_buffer_wrapper@PAG@ce@@@23@V?$out_argument@PAK@23@@detail@1@@Z 10008764 f i ksocket.obj
+ 0001:00007830       ??$prepare_message_and_pc_call@V?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@PBGHV?$byte_array_w_alignment@K@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message6@PAXV?$out_argument@PAH@detail@ce@@PBGHV?$byte_array_w_alignment@K@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@@detail@1@@Z 10008830 f i ksocket.obj
+ 0001:000078fc       ?write_back@?$pc_message12@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@V423@V423@V423@V423@KV?$out_argument@PAK@23@V523@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@@detail@ce@@QAAKAAVStream@3@ABV123@@Z 100088fc f i ksocket.obj
+ 0001:00007950       ?marshal@?$pc_message8@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@PAK@23@KKV?$byte_array_w_alignment@K@3@V423@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V423@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10008950 f i ksocket.obj
+ 0001:000079b0       ?marshal@?$pc_message9@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@V423@V423@V423@V423@KV?$out_argument@PAK@23@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 100089b0 f i ksocket.obj
+ 0001:00007a04       ?marshal@?$pc_message9@PAXV?$out_argument@PAH@detail@ce@@IV?$psl_buffer_wrapper@PAE@3@V43@V43@V43@V43@KV?$out_argument@PAK@23@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10008a04 f i ksocket.obj
+ 0001:00007a60       ??$getCbForStream@V?$pc_message8@PAXV?$out_argument@PAH@detail@ce@@V?$byte_array_w_alignment@K@3@HV?$out_argument@V?$psl_buffer_wrapper@PAD@ce@@@23@KV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@KH@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message8@PAXV?$out_argument@PAH@detail@ce@@V?$byte_array_w_alignment@K@3@HV?$out_argument@V?$psl_buffer_wrapper@PAD@ce@@@23@KV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@KH@detail@1@AAK@Z 10008a60 f i ksocket.obj
+ 0001:00007b00       ??$getCbForStream@V?$pc_message8@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@PAK@23@KKV?$byte_array_w_alignment@K@3@V423@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V423@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message8@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@PAK@23@KKV?$byte_array_w_alignment@K@3@V423@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V423@@detail@1@AAK@Z 10008b00 f i ksocket.obj
+ 0001:00007b98       bind                       10008b98 f   ksocket.obj
+ 0001:00007c14       recvfrom                   10008c14 f   ksocket.obj
+ 0001:00007cb4       select                     10008cb4 f   ksocket.obj
+ 0001:00007d80       sendto                     10008d80 f   ksocket.obj
+ 0001:00007e08       gethostbyaddr              10008e08 f   ksocket.obj
+ 0001:00007eb4       ??$call@V?$out_argument@PAH@detail@ce@@PBDPBDV?$byte_array_w_alignment@K@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@K@?$pc_proxy@PAX@ce@@QAAKGV?$out_argument@PAH@detail@1@PBD1V?$byte_array_w_alignment@K@1@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@31@0K@Z 10008eb4 f i ksocket.obj
+ 0001:00007f28       ??$call@V?$out_argument@PAI@detail@ce@@HHHV?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@IK@?$pc_proxy@PAX@ce@@QAAKGV?$out_argument@PAI@detail@1@HHHV?$out_argument@V?$byte_array_w_alignment@K@ce@@@31@IK@Z 10008f28 f i ksocket.obj
+ 0001:00007f94       ??$call@V?$out_argument@PAH@detail@ce@@V?$byte_array_w_alignment@K@3@KV43@V?$out_argument@V?$psl_buffer_wrapper@PAG@ce@@@23@V?$out_argument@PAK@23@@?$pc_proxy@PAX@ce@@QAAKGV?$out_argument@PAH@detail@1@V?$byte_array_w_alignment@K@1@K1V?$out_argument@V?$psl_buffer_wrapper@PAG@ce@@@31@V?$out_argument@PAK@31@@Z 10008f94 f i ksocket.obj
+ 0001:0000800c       ??$call@V?$out_argument@PAH@detail@ce@@PBGHV?$byte_array_w_alignment@K@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@@?$pc_proxy@PAX@ce@@QAAKGV?$out_argument@PAH@detail@1@PBGHV?$byte_array_w_alignment@K@1@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@31@0@Z 1000900c f i ksocket.obj
+ 0001:00008078       ??$prepare_message_and_pc_call@V?$pc_message8@PAXV?$out_argument@PAH@detail@ce@@V?$byte_array_w_alignment@K@3@HV?$out_argument@V?$psl_buffer_wrapper@PAD@ce@@@23@KV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@KH@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message8@PAXV?$out_argument@PAH@detail@ce@@V?$byte_array_w_alignment@K@3@HV?$out_argument@V?$psl_buffer_wrapper@PAD@ce@@@23@KV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@KH@detail@1@@Z 10009078 f i ksocket.obj
+ 0001:00008154       ??$prepare_message_and_pc_call@V?$pc_message8@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@PAK@23@KKV?$byte_array_w_alignment@K@3@V423@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V423@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message8@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@PAK@23@KKV?$byte_array_w_alignment@K@3@V423@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V423@@detail@1@@Z 10009154 f i ksocket.obj
+ 0001:00008220       ?marshal@?$pc_message9@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@PAK@23@IKV?$byte_array_w_alignment@K@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V423@V623@K@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10009220 f i ksocket.obj
+ 0001:00008264       ?marshal@?$pc_message10@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@V423@V423@V423@V423@KV?$out_argument@PAK@23@V523@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10009264 f i ksocket.obj
+ 0001:000082a8       ?marshal@?$pc_message11@PAXV?$out_argument@PAH@detail@ce@@IV?$psl_buffer_wrapper@PAE@3@V43@V43@V43@V43@KV?$out_argument@PAK@23@KV?$byte_array_w_alignment@K@3@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 100092a8 f i ksocket.obj
+ 0001:000082f4       ??$getCbForStream@V?$pc_message9@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@PAK@23@IKV?$byte_array_w_alignment@K@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V423@V623@K@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message9@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@PAK@23@IKV?$byte_array_w_alignment@K@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V423@V623@K@detail@1@AAK@Z 100092f4 f i ksocket.obj
+ 0001:00008394       ??$getCbForStream@V?$pc_message10@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@V423@V423@V423@V423@KV?$out_argument@PAK@23@V523@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message10@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@V423@V423@V423@V423@KV?$out_argument@PAK@23@V523@@detail@1@AAK@Z 10009394 f i ksocket.obj
+ 0001:00008434       ??$getCbForStream@V?$pc_message10@PAXV?$out_argument@PAH@detail@ce@@IV?$psl_buffer_wrapper@PAE@3@V43@V43@V43@V43@KV?$out_argument@PAK@23@K@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message10@PAXV?$out_argument@PAH@detail@ce@@IV?$psl_buffer_wrapper@PAE@3@V43@V43@V43@V43@KV?$out_argument@PAK@23@K@detail@1@AAK@Z 10009434 f i ksocket.obj
+ 0001:000084cc       getaddrinfo                100094cc f   ksocket.obj
+ 0001:000085c4       WSASocketW                 100095c4 f   ksocket.obj
+ 0001:00008628       WSAAddressToStringW        10009628 f   ksocket.obj
+ 0001:000086e4       WSAStringToAddressW        100096e4 f   ksocket.obj
+ 0001:00008784       ??$call@V?$out_argument@PAH@detail@ce@@V?$byte_array_w_alignment@K@3@HV?$out_argument@V?$psl_buffer_wrapper@PAD@ce@@@23@KV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@KH@?$pc_proxy@PAX@ce@@QAAKGV?$out_argument@PAH@detail@1@V?$byte_array_w_alignment@K@1@HV?$out_argument@V?$psl_buffer_wrapper@PAD@ce@@@31@KV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@31@KH@Z 10009784 f i ksocket.obj
+ 0001:00008820       ??$call@V?$out_argument@PAH@detail@ce@@V?$out_argument@PAK@23@KKV?$byte_array_w_alignment@K@3@V423@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V423@@?$pc_proxy@PAX@ce@@QAAKGV?$out_argument@PAH@detail@1@V?$out_argument@PAK@31@KKV?$byte_array_w_alignment@K@1@1V?$out_argument@V?$byte_array_w_alignment@K@ce@@@31@1@Z 10009820 f i ksocket.obj
+ 0001:000088a8       ??$prepare_message_and_pc_call@V?$pc_message9@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@PAK@23@IKV?$byte_array_w_alignment@K@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V423@V623@K@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message9@PAXV?$out_argument@PAH@detail@ce@@V?$out_argument@PAK@23@IKV?$byte_array_w_alignment@K@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V423@V623@K@detail@1@@Z 100098a8 f i ksocket.obj
+ 0001:00008974       ??$prepare_message_and_pc_call@V?$pc_message10@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@V423@V423@V423@V423@KV?$out_argument@PAK@23@V523@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message10@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@V423@V423@V423@V423@KV?$out_argument@PAK@23@V523@@detail@1@@Z 10009974 f i ksocket.obj
+ 0001:00008a40       ??$prepare_message_and_pc_call@V?$pc_message10@PAXV?$out_argument@PAH@detail@ce@@IV?$psl_buffer_wrapper@PAE@3@V43@V43@V43@V43@KV?$out_argument@PAK@23@K@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message10@PAXV?$out_argument@PAH@detail@ce@@IV?$psl_buffer_wrapper@PAE@3@V43@V43@V43@V43@KV?$out_argument@PAK@23@K@detail@1@@Z 10009a40 f i ksocket.obj
+ 0001:00008b1c       ?marshal@?$pc_message12@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@V423@V423@V423@V423@KV?$out_argument@PAK@23@V523@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@@detail@ce@@QAAKAAVAppendStream@3@ABV123@@Z 10009b1c f i ksocket.obj
+ 0001:00008b84       ??$getCbForStream@V?$pc_message12@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@V423@V423@V423@V423@KV?$out_argument@PAK@23@V523@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message12@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@V423@V423@V423@V423@KV?$out_argument@PAK@23@V523@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@@detail@1@AAK@Z 10009b84 f i ksocket.obj
+ 0001:00008c24       ??$getCbForStream@V?$pc_message12@PAXV?$out_argument@PAH@detail@ce@@IV?$psl_buffer_wrapper@PAE@3@V43@V43@V43@V43@KV?$out_argument@PAK@23@KV?$byte_array_w_alignment@K@3@H@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKABV?$pc_message12@PAXV?$out_argument@PAH@detail@ce@@IV?$psl_buffer_wrapper@PAE@3@V43@V43@V43@V43@KV?$out_argument@PAK@23@KV?$byte_array_w_alignment@K@3@H@detail@1@AAK@Z 10009c24 f i ksocket.obj
+ 0001:00008cbc       getnameinfo                10009cbc f   ksocket.obj
+ 0001:00008d8c       WSAControl                 10009d8c f   ksocket.obj
+ 0001:00008e9c       ??$call@V?$out_argument@PAH@detail@ce@@V?$out_argument@PAK@23@IKV?$byte_array_w_alignment@K@3@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V423@V623@K@?$pc_proxy@PAX@ce@@QAAKGV?$out_argument@PAH@detail@1@V?$out_argument@PAK@31@IKV?$byte_array_w_alignment@K@1@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@31@13K@Z 10009e9c f i ksocket.obj
+ 0001:00008f44       ??$call@V?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@V423@V423@V423@V423@KV?$out_argument@PAK@23@V523@@?$pc_proxy@PAX@ce@@QAAKGV?$out_argument@PAH@detail@1@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@31@1111KV?$out_argument@PAK@31@2@Z 10009f44 f i ksocket.obj
+ 0001:0000900c       ??$call@V?$out_argument@PAH@detail@ce@@IV?$psl_buffer_wrapper@PAE@3@V43@V43@V43@V43@KV?$out_argument@PAK@23@K@?$pc_proxy@PAX@ce@@QAAKGV?$out_argument@PAH@detail@1@IV?$psl_buffer_wrapper@PAE@1@1111KV?$out_argument@PAK@31@K@Z 1000a00c f i ksocket.obj
+ 0001:000090d4       ??$prepare_message_and_pc_call@V?$pc_message12@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@V423@V423@V423@V423@KV?$out_argument@PAK@23@V523@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message12@PAXV?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@V423@V423@V423@V423@KV?$out_argument@PAK@23@V523@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@@detail@1@@Z 1000a0d4 f i ksocket.obj
+ 0001:000091a0       ??$prepare_message_and_pc_call@V?$pc_message12@PAXV?$out_argument@PAH@detail@ce@@IV?$psl_buffer_wrapper@PAE@3@V43@V43@V43@V43@KV?$out_argument@PAK@23@KV?$byte_array_w_alignment@K@3@H@detail@ce@@@?$pc_proxy@PAX@ce@@IAAKAAV?$pc_message12@PAXV?$out_argument@PAH@detail@ce@@IV?$psl_buffer_wrapper@PAE@3@V43@V43@V43@V43@KV?$out_argument@PAK@23@KV?$byte_array_w_alignment@K@3@H@detail@1@@Z 1000a1a0 f i ksocket.obj
+ 0001:00009290       WSAIoctl                   1000a290 f   ksocket.obj
+ 0001:000093c4       WSARecv                    1000a3c4 f   ksocket.obj
+ 0001:0000957c       WSASend                    1000a57c f   ksocket.obj
+ 0001:0000972c       ??$call@V?$out_argument@PAH@detail@ce@@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@23@V423@V423@V423@V423@KV?$out_argument@PAK@23@V523@V?$out_argument@V?$byte_array_w_alignment@K@ce@@@23@V123@@?$pc_proxy@PAX@ce@@QAAKGV?$out_argument@PAH@detail@1@IV?$out_argument@V?$psl_buffer_wrapper@PAE@ce@@@31@1111KV?$out_argument@PAK@31@2V?$out_argument@V?$byte_array_w_alignment@K@ce@@@31@0@Z 1000a72c f i ksocket.obj
+ 0001:0000980c       ??$call@V?$out_argument@PAH@detail@ce@@IV?$psl_buffer_wrapper@PAE@3@V43@V43@V43@V43@KV?$out_argument@PAK@23@KV?$byte_array_w_alignment@K@3@H@?$pc_proxy@PAX@ce@@QAAKGV?$out_argument@PAH@detail@1@IV?$psl_buffer_wrapper@PAE@1@1111KV?$out_argument@PAK@31@KV?$byte_array_w_alignment@K@1@H@Z 1000a80c f i ksocket.obj
+ 0001:000098ec       WSARecvFrom                1000a8ec f   ksocket.obj
+ 0001:00009af0       WSASendTo                  1000aaf0 f   ksocket.obj
+ 0001:00009ce8       internal_inet_addr         1000ace8 f   cclib:ccutil.obj
+ 0001:00009ec0       EventModify                1000aec0 f   coredll:COREDLL.dll
+ 0001:00009ed0       __GetUserKData             1000aed0 f   coredll:COREDLL.dll
+ 0001:00009ee0       TlsCall                    1000aee0 f   coredll:COREDLL.dll
+ 0001:00009ef0       InitializeCriticalSection  1000aef0 f   coredll:COREDLL.dll
+ 0001:00009f00       DeleteCriticalSection      1000af00 f   coredll:COREDLL.dll
+ 0001:00009f10       LocalFree                  1000af10 f   coredll:COREDLL.dll
+ 0001:00009f20       TlsSetValue                1000af20 f   coredll:COREDLL.dll
+ 0001:00009f30       LocalAlloc                 1000af30 f   coredll:COREDLL.dll
+ 0001:00009f40       TlsGetValue                1000af40 f   coredll:COREDLL.dll
+ 0001:00009f50       SetLastError               1000af50 f   coredll:COREDLL.dll
+ 0001:00009f60       CloseHandle                1000af60 f   coredll:COREDLL.dll
+ 0001:00009f70       CreateEventW               1000af70 f   coredll:COREDLL.dll
+ 0001:00009f80       GetLastError               1000af80 f   coredll:COREDLL.dll
+ 0001:00009f90       WaitForMultipleObjects     1000af90 f   coredll:COREDLL.dll
+ 0001:00009fa0       DisableThreadLibraryCalls  1000afa0 f   coredll:COREDLL.dll
+ 0001:00009fb0       DeviceIoControl            1000afb0 f   coredll:COREDLL.dll
+ 0001:00009fc0       InterlockedCompareExchange 1000afc0 f   coredll:COREDLL.dll
+ 0001:00009fd0       CreateFileW                1000afd0 f   coredll:COREDLL.dll
+ 0001:00009fe0       _DllEntryCRTStartup        1000afe0 f   corelib0:pegdentry.obj
+ 0001:0000a02c       _onexit                    1000b02c f   corelib0:onexit.obj
+ 0001:0000a1b0       atexit                     1000b1b0 f   corelib0:onexit.obj
+ 0001:0000a1c8       __GSHandlerCheckCommon     1000b1c8 f   corelib0:gshandler.obj
+ 0001:0000a204       __GSHandlerCheck           1000b204 f   corelib0:gshandler.obj
+ 0001:0000a224       __security_init_cookie     1000b224 f   corelib0:seccinit.obj
+ 0001:0000a270       __security_check_cookie    1000b270 f   corelib0:armsecgs.obj
+ 0001:0000a280       __gsfailure                1000b280     corelib0:armsecgs.obj
+ 0001:0000a3ac       _cexit                     1000b3ac f   corelib0:cexit.obj
+ 0001:0000a3bc       _initterm                  1000b3bc f   corelib0:crt0dat.obj
+ 0001:0000a3e8       _cinit                     1000b3e8 f   corelib0:crt0dat.obj
+ 0001:0000a448       __crt_ExitProcess          1000b448 f   corelib0:exitproc_proxy.obj
+ 0001:0000a454       ??2@YAPAXI@Z               1000b454 f   corelib1:COREDLL.dll
+ 0001:0000a464       ??3@YAXPAX@Z               1000b464 f   corelib1:COREDLL.dll
+ 0001:0000a474       _purecall                  1000b474 f   corelib1:COREDLL.dll
+ 0001:0000a484       memmove                    1000b484 f   corelib1:COREDLL.dll
+ 0001:0000a494       memcpy                     1000b494 f   corelib1:COREDLL.dll
+ 0001:0000a4a4       ??_U@YAPAXI@Z              1000b4a4 f   corelib1:COREDLL.dll
+ 0001:0000a4b4       memset                     1000b4b4 f   corelib1:COREDLL.dll
+ 0001:0000a4c4       _isctype                   1000b4c4 f   corelib1:COREDLL.dll
+ 0001:0000a4d4       free                       1000b4d4 f   corelib1:COREDLL.dll
+ 0001:0000a4e4       malloc                     1000b4e4 f   corelib1:COREDLL.dll
+ 0001:0000a4f4       realloc                    1000b4f4 f   corelib1:COREDLL.dll
+ 0001:0000a504       _msize                     1000b504 f   corelib1:COREDLL.dll
+ 0001:0000a514       __C_specific_handler       1000b514 f   corelib1:COREDLL.dll
+ 0001:0000a524       __security_gen_cookie2     1000b524 f   corelib1:COREDLL.dll
+ 0001:0000a534       __report_gsfailure         1000b534 f   corelib1:COREDLL.dll
+ 0001:0000a544       EnterCriticalSection       1000b544 f   coredll:COREDLL.dll
+ 0001:0000a554       LeaveCriticalSection       1000b554 f   coredll:COREDLL.dll
+ 0001:0000a564       InterlockedExchange        1000b564 f   coredll:COREDLL.dll
+ 0001:0000a574       TerminateProcess           1000b574 f   coredll:COREDLL.dll
+ 0001:0000a594       ??__Fcs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@YAXXZ 1000b594 f i ksocket.obj
+ 0001:0000a698       __IMPORT_DESCRIPTOR_COREDLL 1000b698     coredll:COREDLL.dll
+ 0001:0000a6ac       __NULL_IMPORT_DESCRIPTOR   1000b6ac     coredll:COREDLL.dll
+ 0002:00000000       __imp_EventModify          1000c000     coredll:COREDLL.dll
+ 0002:00000004       __imp___GetUserKData       1000c004     coredll:COREDLL.dll
+ 0002:00000008       __imp_TlsCall              1000c008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_InitializeCriticalSection 1000c00c     coredll:COREDLL.dll
+ 0002:00000010       __imp_DeleteCriticalSection 1000c010     coredll:COREDLL.dll
+ 0002:00000014       __imp_LocalFree            1000c014     coredll:COREDLL.dll
+ 0002:00000018       __imp_TlsSetValue          1000c018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_LocalAlloc           1000c01c     coredll:COREDLL.dll
+ 0002:00000020       __imp_TlsGetValue          1000c020     coredll:COREDLL.dll
+ 0002:00000024       __imp_SetLastError         1000c024     coredll:COREDLL.dll
+ 0002:00000028       __imp_CloseHandle          1000c028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_CreateEventW         1000c02c     coredll:COREDLL.dll
+ 0002:00000030       __imp_GetLastError         1000c030     coredll:COREDLL.dll
+ 0002:00000034       __imp_WaitForMultipleObjects 1000c034     coredll:COREDLL.dll
+ 0002:00000038       __imp_DisableThreadLibraryCalls 1000c038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_DeviceIoControl      1000c03c     coredll:COREDLL.dll
+ 0002:00000040       __imp_InterlockedCompareExchange 1000c040     coredll:COREDLL.dll
+ 0002:00000044       __imp_CreateFileW          1000c044     coredll:COREDLL.dll
+ 0002:00000048       __imp_??2@YAPAXI@Z         1000c048     corelib1:COREDLL.dll
+ 0002:0000004c       __imp_??3@YAXPAX@Z         1000c04c     corelib1:COREDLL.dll
+ 0002:00000050       __imp__purecall            1000c050     corelib1:COREDLL.dll
+ 0002:00000054       __imp_memmove              1000c054     corelib1:COREDLL.dll
+ 0002:00000058       __imp_memcpy               1000c058     corelib1:COREDLL.dll
+ 0002:0000005c       __imp_??_U@YAPAXI@Z        1000c05c     corelib1:COREDLL.dll
+ 0002:00000060       __imp_memset               1000c060     corelib1:COREDLL.dll
+ 0002:00000064       __imp__isctype             1000c064     corelib1:COREDLL.dll
+ 0002:00000068       __imp_free                 1000c068     corelib1:COREDLL.dll
+ 0002:0000006c       __imp_malloc               1000c06c     corelib1:COREDLL.dll
+ 0002:00000070       __imp_realloc              1000c070     corelib1:COREDLL.dll
+ 0002:00000074       __imp__msize               1000c074     corelib1:COREDLL.dll
+ 0002:00000078       __imp___C_specific_handler 1000c078     corelib1:COREDLL.dll
+ 0002:0000007c       __imp___security_gen_cookie2 1000c07c     corelib1:COREDLL.dll
+ 0002:00000080       __imp___report_gsfailure   1000c080     corelib1:COREDLL.dll
+ 0002:00000084       __imp_EnterCriticalSection 1000c084     coredll:COREDLL.dll
+ 0002:00000088       __imp_LeaveCriticalSection 1000c088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_InterlockedExchange  1000c08c     coredll:COREDLL.dll
+ 0002:00000090       __imp_TerminateProcess     1000c090     coredll:COREDLL.dll
+ 0002:00000094       \177COREDLL_NULL_THUNK_DATA 1000c094     coredll:COREDLL.dll
+ 0002:0000009c       ?proxy@@3V?$ioctl_proxy@PAX@ce@@A 1000c09c     ksocket.obj
+ 0002:000000b4       __security_cookie          1000c0b4     corelib0:seccinit.obj
+ 0002:000000b8       __security_cookie_complement 1000c0b8     corelib0:seccinit.obj
+ 0002:000000bc       ??_B?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@51 1000c0bc     ksocket.obj
+ 0002:000000c0       ?cs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@3@XZ@4V43@A 1000c0c0     ksocket.obj
+ 0002:000000d4       ?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A 1000c0d4     ksocket.obj
+ 0002:000000d5       _exitflag                  1000c0d5     corelib0:cexit.obj
+ 0002:000000d8       __onexitend                1000c0d8     <common>
+ 0002:000000dc       __onexitbegin              1000c0dc     <common>
+ 0002:000000e0       g_pcsExit                  1000c0e0     <common>
+
+ entry point at        0001:00009fe0
+
+ Static symbols
+
+ 0001:0000a2c4       doexit                     1000b2c4 f   corelib0:cexit.obj
+ 0001:0000a584       ??__E?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A@@YAXXZ 1000b584 f   ksocket.obj
+ 0001:0000a588       ??__Eproxy@@YAXXZ          1000b588 f   ksocket.obj
+ 0001:0000a5a0       ??__Fproxy@@YAXXZ          1000b5a0 f   ksocket.obj

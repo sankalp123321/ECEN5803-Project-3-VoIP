@@ -1,0 +1,261 @@
+ BusEnum
+
+ Timestamp is 5ac64c62 (Thu Apr 05 09:18:42 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 00000204H .rdata                  CODE
+ 0001:00000224 00000024H .rdata$debug            CODE
+ 0001:00000248 000026b4H .text                   CODE
+ 0001:000028fc 00000010H .xdata                  CODE
+ 0001:0000290c 00000028H .idata$2                CODE
+ 0001:00002934 00000014H .idata$3                CODE
+ 0001:00002948 000000dcH .idata$4                CODE
+ 0001:00002a24 00000016H .idata$6                CODE
+ 0001:00002a40 000000adH .edata                  CODE
+ 0002:00000000 000000dcH .idata$5                DATA
+ 0002:000000dc 00000008H .data                   DATA
+ 0002:000000e4 00000010H .bss                    DATA
+ 0003:00000000 00000258H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:0000003c       ??_C@_1BE@MNDDMKMB@?$AAB?$AAu?$AAs?$AAN?$AAu?$AAm?$AAb?$AAe?$AAr?$AA?$AA@ 1000103c     busenum.obj
+ 0001:00000050       ??_C@_1BM@MHMIAMLB@?$AAI?$AAn?$AAt?$AAe?$AAr?$AAf?$AAa?$AAc?$AAe?$AAT?$AAy?$AAp?$AAe?$AA?$AA@ 10001050     busenum.obj
+ 0001:0000006c       ??_C@_1BK@HJELJNPF@?$AAR?$AAe?$AAg?$AAe?$AAn?$AAu?$AAm?$AAP?$AAa?$AAr?$AAm?$AAs?$AA?$AA@ 1000106c     busenum.obj
+ 0001:00000088       ??_7BusEnum@@6B@           10001088     busenum.obj
+ 0001:000000f4       ??_C@_1BG@EGKNJKMG@?$AAU?$AAn?$AAk?$AAn?$AAo?$AAw?$AAn?$AAB?$AAu?$AAs?$AA?$AA@ 100010f4     busenum.obj
+ 0001:0000010c       ??_C@_13FPGAJAPJ@?$AA?2?$AA?$AA@ 1000110c     busenum.obj
+ 0001:00000110       ??_7CRefObject@@6B@        10001110     DefBusLib:DefBus.obj
+ 0001:00000114       ??_C@_17DJMMGLBL@?$AAD?$AAl?$AAl?$AA?$AA@ 10001114     DefBusLib:DefBus.obj
+ 0001:0000011c       ??_C@_1M@JLADBBAF@?$AAE?$AAn?$AAt?$AAr?$AAy?$AA?$AA@ 1000111c     DefBusLib:DefBus.obj
+ 0001:00000128       ??_7DefaultBusDriver@@6B@  10001128     DefBusLib:DefBus.obj
+ 0001:0000018c       ??_C@_1BA@HABJOAEE@?$AAU?$AAN?$AAK?$AAN?$AAO?$AAW?$AAN?$AA?$AA@ 1000118c     DefBusLib:DefBus.obj
+ 0001:0000019c       ??_C@_1M@KCNCFNNL@?$AA$?$AAb?$AAu?$AAs?$AA?2?$AA?$AA@ 1000119c     DefBusLib:DefBus.obj
+ 0001:000001a8       ??_C@_1M@OAJFFPML@?$AAF?$AAl?$AAa?$AAg?$AAs?$AA?$AA@ 100011a8     DefBusLib:DefBus.obj
+ 0001:000001b4       ??_C@_1M@PJMPBMAL@?$AAO?$AAr?$AAd?$AAe?$AAr?$AA?$AA@ 100011b4     DefBusLib:DefBus.obj
+ 0001:000001c0       ??_C@_1BA@KDCCGFJM@?$AAB?$AAu?$AAs?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 100011c0     DefBusLib:DefBus.obj
+ 0001:000001d0       ??_C@_1BI@CDNKGHCP@?$AA?$CF?$AAs?$AA_?$AA?$CF?$AAd?$AA_?$AA?$CF?$AAd?$AA_?$AA?$CF?$AAd?$AA?$AA@ 100011d0     DefBusLib:DefBus.obj
+ 0001:000001e8       ??_C@_1BE@PMMIAJMN@?$AAB?$AAu?$AAs?$AAP?$AAa?$AAr?$AAe?$AAn?$AAt?$AA?$AA@ 100011e8     DefBusLib:DefBus.obj
+ 0001:000001fc       ??_7DeviceFolder@@6B@      100011fc     DefBusLib:DefBus.obj
+ 0001:00000248       ??0CRegistryEdit@@QAA@PAUHKEY__@@PBG@Z 10001248 f i busenum.obj
+ 0001:00000294       ?GetRegValue@CRegistryEdit@@QAAHPBGPAEK@Z 10001294 f i busenum.obj
+ 0001:000002e4       ?RegQueryInfoKeyW@CRegistryEdit@@QAAHPAGPAK11111111PAU_FILETIME@@@Z 100012e4 f i busenum.obj
+ 0001:0000034c       ?Init@BusEnum@@UAAHXZ      1000134c f   busenum.obj
+ 0001:00000514       ?PostInit@BusEnum@@UAAHXZ  10001514 f   busenum.obj
+ 0001:0000054c       ?GetBusNamePrefix@BusEnum@@UAAKPAGK@Z 1000154c f   busenum.obj
+ 0001:000005c8       ?ActivateAllChildDrivers@BusEnum@@UAAHXZ 100015c8 f   busenum.obj
+ 0001:00000738       DllEntry                   10001738 f   busenum.obj
+ 0001:0000074c       Deinit                     1000174c f   busenum.obj
+ 0001:00000768       PowerUp                    10001768 f   busenum.obj
+ 0001:00000784       PowerDown                  10001784 f   busenum.obj
+ 0001:000007a0       Open                       100017a0 f   busenum.obj
+ 0001:000007d0       Close                      100017d0 f   busenum.obj
+ 0001:000007f4       IOControl                  100017f4 f   busenum.obj
+ 0001:00000844       ??0BusEnum@@QAA@PBG@Z      10001844 f   busenum.obj
+ 0001:00000990       ?PowerUp@DefaultBusDriver@@UAAHXZ 10001990 f i busenum.obj
+ 0001:00000998       ?PowerDown@DefaultBusDriver@@UAAHXZ 10001998 f i busenum.obj
+ 0001:000009a0       ?Close@DefaultBusDriver@@UAAHXZ 100019a0 f i busenum.obj
+ 0001:000009a8       ?IOControl@DefaultBusDriver@@UAAHKPAEK0KPAK@Z 100019a8 f i busenum.obj
+ 0001:000009e4       ?IsChildRemoved@DefaultBusDriver@@UAAHPBG@Z 100019e4 f i busenum.obj
+ 0001:000009ec       ??1BusEnum@@UAA@XZ         100019ec f   busenum.obj
+ 0001:00000a64       ?AssignChildDriver@BusEnum@@UAAHXZ 10001a64 f   busenum.obj
+ 0001:00000cd0       Init                       10001cd0 f   busenum.obj
+ 0001:00000d3c       ??_GBusEnum@@UAAPAXI@Z     10001d3c f i busenum.obj
+ 0001:00000d3c       ??_EBusEnum@@UAAPAXI@Z     10001d3c f i busenum.obj
+ 0001:00000d60       ?DeRef@CRefObject@@QAAKXZ  10001d60 f i DefBusLib:DefBus.obj
+ 0001:00000d9c       ??_ECRefObject@@UAAPAXI@Z  10001d9c f i DefBusLib:DefBus.obj
+ 0001:00000d9c       ??_GCRefObject@@UAAPAXI@Z  10001d9c f i DefBusLib:DefBus.obj
+ 0001:00000dc0       ?TranslateBusAddr@DefaultBusDriver@@QAAHW4_INTERFACE_TYPE@@KT_LARGE_INTEGER@@PAKPAT3@@Z 10001dc0 f i DefBusLib:DefBus.obj
+ 0001:00000e3c       ?TranslateSystemAddr@DefaultBusDriver@@QAAHW4_INTERFACE_TYPE@@KT_LARGE_INTEGER@@PAT3@@Z 10001e3c f i DefBusLib:DefBus.obj
+ 0001:00000ea8       ?AddInitReg@DeviceFolder@@QAAHHPAU_REGINI@@@Z 10001ea8 f   DefBusLib:DefBus.obj
+ 0001:00000fe8       ?LoadDevice@DeviceFolder@@UAAHXZ 10001fe8 f   DefBusLib:DefBus.obj
+ 0001:00001160       ?UnloadDevice@DeviceFolder@@UAAHXZ 10002160 f   DefBusLib:DefBus.obj
+ 0001:00001194       ?EnableDevice@DeviceFolder@@UAAHK@Z 10002194 f   DefBusLib:DefBus.obj
+ 0001:000011b0       ?DisableDevice@DeviceFolder@@UAAHK@Z 100021b0 f   DefBusLib:DefBus.obj
+ 0001:000011cc       ?IsDeviceDriverEnabled@DeviceFolder@@QAAHPAK@Z 100021cc f   DefBusLib:DefBus.obj
+ 0001:0000120c       ?SetConfigurationData@DeviceFolder@@UAAHPAU_CE_BUS_DEVICE_CONFIGURATION_DATA@@@Z 1000220c f   DefBusLib:DefBus.obj
+ 0001:00001278       ?GetConfigurationData@DeviceFolder@@UAAHPAU_CE_BUS_DEVICE_CONFIGURATION_DATA@@@Z 10002278 f   DefBusLib:DefBus.obj
+ 0001:000012e4       ??0DefaultBusDriver@@QAA@PBG@Z 100022e4 f   DefBusLib:DefBus.obj
+ 0001:0000133c       ?PostInit@DefaultBusDriver@@UAAHXZ 1000233c f i DefBusLib:DefBus.obj
+ 0001:00001344       ?Init@DefaultBusDriver@@UAAHXZ 10002344 f   DefBusLib:DefBus.obj
+ 0001:00001360       ??1DefaultBusDriver@@UAA@XZ 10002360 f   DefBusLib:DefBus.obj
+ 0001:00001400       ?TranslateChildBusAddr@DefaultBusDriver@@UAAHPAU_CE_BUS_TRANSLATE_BUS_ADDR@@@Z 10002400 f   DefBusLib:DefBus.obj
+ 0001:0000144c       ?TranslateChildSystemAddr@DefaultBusDriver@@UAAHPAU_CE_BUS_TRANSLATE_SYSTEM_ADDR@@@Z 1000244c f   DefBusLib:DefBus.obj
+ 0001:00001490       ?SetChildDeviceConfigurationData@DefaultBusDriver@@UAAHPAU_CE_BUS_DEVICE_CONFIGURATION_DATA@@PAPAVDeviceFolder@@@Z 10002490 f   DefBusLib:DefBus.obj
+ 0001:000014e0       ?GetChildDeviceConfigurationData@DefaultBusDriver@@UAAHPAU_CE_BUS_DEVICE_CONFIGURATION_DATA@@PAPAVDeviceFolder@@@Z 100024e0 f   DefBusLib:DefBus.obj
+ 0001:00001530       ?SetChildDevicePowerState@DefaultBusDriver@@UAAHPAU_CE_BUS_POWER_STATE@@PAPAVDeviceFolder@@@Z 10002530 f   DefBusLib:DefBus.obj
+ 0001:00001598       ?GetChildDevicePowerState@DefaultBusDriver@@UAAHPAU_CE_BUS_POWER_STATE@@PAPAVDeviceFolder@@@Z 10002598 f   DefBusLib:DefBus.obj
+ 0001:00001604       ?ActivateChild@DefaultBusDriver@@UAAHPBG@Z 10002604 f   DefBusLib:DefBus.obj
+ 0001:00001648       ?DeactivateChild@DefaultBusDriver@@UAAHPBG@Z 10002648 f   DefBusLib:DefBus.obj
+ 0001:0000168c       ?EnableChild@DefaultBusDriver@@UAAHPBGK@Z 1000268c f   DefBusLib:DefBus.obj
+ 0001:000016d8       ?DisableChild@DefaultBusDriver@@UAAHPBGK@Z 100026d8 f   DefBusLib:DefBus.obj
+ 0001:00001724       ?IsChildEnabled@DefaultBusDriver@@QAAHPBGPAK@Z 10002724 f   DefBusLib:DefBus.obj
+ 0001:00001780       ?GetBusNamePrefix@DefaultBusDriver@@UAAKPAGK@Z 10002780 f   DefBusLib:DefBus.obj
+ 0001:000017d8       ?FastIOControl@DefaultBusDriver@@UAAHKPAEK0KPAKPAPAVDeviceFolder@@@Z 100027d8 f   DefBusLib:DefBus.obj
+ 0001:00001c6c       ?GetChildByName@DefaultBusDriver@@UAAPAVDeviceFolder@@PBGPAPAV2@@Z 10002c6c f   DefBusLib:DefBus.obj
+ 0001:00001d78       ?InsertChild@DefaultBusDriver@@UAAHPAVDeviceFolder@@@Z 10002d78 f   DefBusLib:DefBus.obj
+ 0001:00001dfc       ?RemoveChildByName@DefaultBusDriver@@UAAHPBG@Z 10002dfc f   DefBusLib:DefBus.obj
+ 0001:00001e50       ?RemoveChildByFolder@DefaultBusDriver@@UAAHPAVDeviceFolder@@@Z 10002e50 f   DefBusLib:DefBus.obj
+ 0001:00001ee8       ?Open@DefaultBusDriver@@UAAHKK@Z 10002ee8 f   DefBusLib:DefBus.obj
+ 0001:00001ef8       ??0DeviceFolder@@QAA@PBG0KKKKPAXK0@Z 10002ef8 f   DefBusLib:DefBus.obj
+ 0001:000021a8       ?Init@DeviceFolder@@UAAHXZ 100031a8 f i DefBusLib:DefBus.obj
+ 0001:000021bc       ?SetPowerState@DeviceFolder@@UAAHW4_CEDEVICE_POWER_STATE@@@Z 100031bc f i DefBusLib:DefBus.obj
+ 0001:000021c8       ?GetPowerState@DeviceFolder@@UAA?AW4_CEDEVICE_POWER_STATE@@XZ 100031c8 f i DefBusLib:DefBus.obj
+ 0001:000021d0       ??1DeviceFolder@@UAA@XZ    100031d0 f   DefBusLib:DefBus.obj
+ 0001:00002294       ??_GDefaultBusDriver@@UAAPAXI@Z 10003294 f i DefBusLib:DefBus.obj
+ 0001:00002294       ??_EDefaultBusDriver@@UAAPAXI@Z 10003294 f i DefBusLib:DefBus.obj
+ 0001:000022b8       ??_EDeviceFolder@@UAAPAXI@Z 100032b8 f i DefBusLib:DefBus.obj
+ 0001:000022b8       ??_GDeviceFolder@@UAAPAXI@Z 100032b8 f i DefBusLib:DefBus.obj
+ 0001:000022dc       HalTranslateBusAddress     100032dc f   ceddk:CEDDK.dll
+ 0001:000022ec       TranslateBusAddr           100032ec f   ceddk:CEDDK.dll
+ 0001:000022fc       HalTranslateSystemAddress  100032fc f   ceddk:CEDDK.dll
+ 0001:0000230c       TranslateSystemAddr        1000330c f   ceddk:CEDDK.dll
+ 0001:0000231c       HalSetBusDataByOffset      1000331c f   ceddk:CEDDK.dll
+ 0001:0000232c       HalGetBusDataByOffset      1000332c f   ceddk:CEDDK.dll
+ 0001:0000233c       CreateBusAccessHandle      1000333c f   ceddk:CEDDK.dll
+ 0001:0000234c       CloseBusAccessHandle       1000334c f   ceddk:CEDDK.dll
+ 0001:0000235c       EnterCriticalSection       1000335c f   coredll:COREDLL.dll
+ 0001:0000236c       LeaveCriticalSection       1000336c f   coredll:COREDLL.dll
+ 0001:0000237c       OpenDeviceKey              1000337c f   coredll:COREDLL.dll
+ 0001:0000238c       RegOpenKeyExW              1000338c f   coredll:COREDLL.dll
+ 0001:0000239c       RegCloseKey                1000339c f   coredll:COREDLL.dll
+ 0001:000023ac       DDKReg_GetPciInfo          100033ac f   coredll:COREDLL.dll
+ 0001:000023bc       RegQueryValueExW           100033bc f   coredll:COREDLL.dll
+ 0001:000023cc       RegQueryInfoKeyW           100033cc f   coredll:COREDLL.dll
+ 0001:000023dc       RegEnumKeyExW              100033dc f   coredll:COREDLL.dll
+ 0001:000023ec       StringCchCopyW             100033ec f   coredll:COREDLL.dll
+ 0001:000023fc       DisableThreadLibraryCalls  100033fc f   coredll:COREDLL.dll
+ 0001:0000240c       GetDeviceInformationByDeviceHandle 1000340c f   coredll:COREDLL.dll
+ 0001:0000241c       GetDeviceHandleFromContext 1000341c f   coredll:COREDLL.dll
+ 0001:0000242c       StringCchCatW              1000342c f   coredll:COREDLL.dll
+ 0001:0000243c       InitializeCriticalSection  1000343c f   coredll:COREDLL.dll
+ 0001:0000244c       DeleteCriticalSection      1000344c f   coredll:COREDLL.dll
+ 0001:0000245c       InterlockedIncrement       1000345c f   coredll:COREDLL.dll
+ 0001:0000246c       InterlockedDecrement       1000346c f   coredll:COREDLL.dll
+ 0001:0000247c       Sleep                      1000347c f   coredll:COREDLL.dll
+ 0001:0000248c       ActivateDeviceEx           1000348c f   coredll:COREDLL.dll
+ 0001:0000249c       FreeLibrary                1000349c f   coredll:COREDLL.dll
+ 0001:000024ac       GetProcAddressW            100034ac f   coredll:COREDLL.dll
+ 0001:000024bc       LoadDriver                 100034bc f   coredll:COREDLL.dll
+ 0001:000024cc       LoadLibraryW               100034cc f   coredll:COREDLL.dll
+ 0001:000024dc       DeactivateDevice           100034dc f   coredll:COREDLL.dll
+ 0001:000024ec       EnableDeviceDriver         100034ec f   coredll:COREDLL.dll
+ 0001:000024fc       DisableDeviceDriver        100034fc f   coredll:COREDLL.dll
+ 0001:0000250c       GetDeviceDriverStatus      1000350c f   coredll:COREDLL.dll
+ 0001:0000251c       SetLastError               1000351c f   coredll:COREDLL.dll
+ 0001:0000252c       StringCchPrintfW           1000352c f   coredll:COREDLL.dll
+ 0001:0000253c       _DllEntryCRTStartup        1000353c f   corelib0:pegdentry.obj
+ 0001:00002580       __GSHandlerCheckCommon     10003580 f   corelib0:gshandler.obj
+ 0001:000025bc       __GSHandlerCheck           100035bc f   corelib0:gshandler.obj
+ 0001:000025dc       __security_init_cookie     100035dc f   corelib0:seccinit.obj
+ 0001:00002628       __security_check_cookie    10003628 f   corelib0:armsecgs.obj
+ 0001:00002638       __gsfailure                10003638     corelib0:armsecgs.obj
+ 0001:00002764       _cexit                     10003764 f   corelib0:cexit.obj
+ 0001:00002774       _initterm                  10003774 f   corelib0:crt0dat.obj
+ 0001:000027a0       _cinit                     100037a0 f   corelib0:crt0dat.obj
+ 0001:00002800       __crt_ExitProcess          10003800 f   corelib0:exitproc_proxy.obj
+ 0001:0000280c       wcschr                     1000380c f   corelib1:COREDLL.dll
+ 0001:0000281c       ??2@YAPAXI@Z               1000381c f   corelib1:COREDLL.dll
+ 0001:0000282c       wcslen                     1000382c f   corelib1:COREDLL.dll
+ 0001:0000283c       memset                     1000383c f   corelib1:COREDLL.dll
+ 0001:0000284c       ??3@YAXPAX@Z               1000384c f   corelib1:COREDLL.dll
+ 0001:0000285c       memcpy                     1000385c f   corelib1:COREDLL.dll
+ 0001:0000286c       _wcsicmp                   1000386c f   corelib1:COREDLL.dll
+ 0001:0000287c       _wcsnicmp                  1000387c f   corelib1:COREDLL.dll
+ 0001:0000288c       malloc                     1000388c f   corelib1:COREDLL.dll
+ 0001:0000289c       _wcsdup                    1000389c f   corelib1:COREDLL.dll
+ 0001:000028ac       free                       100038ac f   corelib1:COREDLL.dll
+ 0001:000028bc       __security_gen_cookie2     100038bc f   corelib1:COREDLL.dll
+ 0001:000028cc       __report_gsfailure         100038cc f   corelib1:COREDLL.dll
+ 0001:000028dc       InterlockedExchange        100038dc f   coredll:COREDLL.dll
+ 0001:000028ec       TerminateProcess           100038ec f   coredll:COREDLL.dll
+ 0001:0000290c       __IMPORT_DESCRIPTOR_CEDDK  1000390c     ceddk:CEDDK.dll
+ 0001:00002920       __IMPORT_DESCRIPTOR_COREDLL 10003920     coredll:COREDLL.dll
+ 0001:00002934       __NULL_IMPORT_DESCRIPTOR   10003934     ceddk:CEDDK.dll
+ 0002:00000000       __imp_HalTranslateBusAddress 10004000     ceddk:CEDDK.dll
+ 0002:00000004       __imp_TranslateBusAddr     10004004     ceddk:CEDDK.dll
+ 0002:00000008       __imp_HalTranslateSystemAddress 10004008     ceddk:CEDDK.dll
+ 0002:0000000c       __imp_TranslateSystemAddr  1000400c     ceddk:CEDDK.dll
+ 0002:00000010       __imp_HalSetBusDataByOffset 10004010     ceddk:CEDDK.dll
+ 0002:00000014       __imp_HalGetBusDataByOffset 10004014     ceddk:CEDDK.dll
+ 0002:00000018       __imp_CreateBusAccessHandle 10004018     ceddk:CEDDK.dll
+ 0002:0000001c       __imp_CloseBusAccessHandle 1000401c     ceddk:CEDDK.dll
+ 0002:00000020       \177CEDDK_NULL_THUNK_DATA  10004020     ceddk:CEDDK.dll
+ 0002:00000024       __imp_EnterCriticalSection 10004024     coredll:COREDLL.dll
+ 0002:00000028       __imp_LeaveCriticalSection 10004028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_OpenDeviceKey        1000402c     coredll:COREDLL.dll
+ 0002:00000030       __imp_RegOpenKeyExW        10004030     coredll:COREDLL.dll
+ 0002:00000034       __imp_RegCloseKey          10004034     coredll:COREDLL.dll
+ 0002:00000038       __imp_DDKReg_GetPciInfo    10004038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_RegQueryValueExW     1000403c     coredll:COREDLL.dll
+ 0002:00000040       __imp_RegQueryInfoKeyW     10004040     coredll:COREDLL.dll
+ 0002:00000044       __imp_RegEnumKeyExW        10004044     coredll:COREDLL.dll
+ 0002:00000048       __imp_StringCchCopyW       10004048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_DisableThreadLibraryCalls 1000404c     coredll:COREDLL.dll
+ 0002:00000050       __imp_GetDeviceInformationByDeviceHandle 10004050     coredll:COREDLL.dll
+ 0002:00000054       __imp_GetDeviceHandleFromContext 10004054     coredll:COREDLL.dll
+ 0002:00000058       __imp_StringCchCatW        10004058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_InitializeCriticalSection 1000405c     coredll:COREDLL.dll
+ 0002:00000060       __imp_DeleteCriticalSection 10004060     coredll:COREDLL.dll
+ 0002:00000064       __imp_InterlockedIncrement 10004064     coredll:COREDLL.dll
+ 0002:00000068       __imp_InterlockedDecrement 10004068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_Sleep                1000406c     coredll:COREDLL.dll
+ 0002:00000070       __imp_ActivateDeviceEx     10004070     coredll:COREDLL.dll
+ 0002:00000074       __imp_FreeLibrary          10004074     coredll:COREDLL.dll
+ 0002:00000078       __imp_GetProcAddressW      10004078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_LoadDriver           1000407c     coredll:COREDLL.dll
+ 0002:00000080       __imp_LoadLibraryW         10004080     coredll:COREDLL.dll
+ 0002:00000084       __imp_DeactivateDevice     10004084     coredll:COREDLL.dll
+ 0002:00000088       __imp_EnableDeviceDriver   10004088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_DisableDeviceDriver  1000408c     coredll:COREDLL.dll
+ 0002:00000090       __imp_GetDeviceDriverStatus 10004090     coredll:COREDLL.dll
+ 0002:00000094       __imp_SetLastError         10004094     coredll:COREDLL.dll
+ 0002:00000098       __imp_StringCchPrintfW     10004098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_wcschr               1000409c     corelib1:COREDLL.dll
+ 0002:000000a0       __imp_??2@YAPAXI@Z         100040a0     corelib1:COREDLL.dll
+ 0002:000000a4       __imp_wcslen               100040a4     corelib1:COREDLL.dll
+ 0002:000000a8       __imp_memset               100040a8     corelib1:COREDLL.dll
+ 0002:000000ac       __imp_??3@YAXPAX@Z         100040ac     corelib1:COREDLL.dll
+ 0002:000000b0       __imp_memcpy               100040b0     corelib1:COREDLL.dll
+ 0002:000000b4       __imp__wcsicmp             100040b4     corelib1:COREDLL.dll
+ 0002:000000b8       __imp__wcsnicmp            100040b8     corelib1:COREDLL.dll
+ 0002:000000bc       __imp_malloc               100040bc     corelib1:COREDLL.dll
+ 0002:000000c0       __imp__wcsdup              100040c0     corelib1:COREDLL.dll
+ 0002:000000c4       __imp_free                 100040c4     corelib1:COREDLL.dll
+ 0002:000000c8       __imp___security_gen_cookie2 100040c8     corelib1:COREDLL.dll
+ 0002:000000cc       __imp___report_gsfailure   100040cc     corelib1:COREDLL.dll
+ 0002:000000d0       __imp_InterlockedExchange  100040d0     coredll:COREDLL.dll
+ 0002:000000d4       __imp_TerminateProcess     100040d4     coredll:COREDLL.dll
+ 0002:000000d8       \177COREDLL_NULL_THUNK_DATA 100040d8     coredll:COREDLL.dll
+ 0002:000000dc       __security_cookie          100040dc     corelib0:seccinit.obj
+ 0002:000000e0       __security_cookie_complement 100040e0     corelib0:seccinit.obj
+ 0002:000000e4       _exitflag                  100040e4     corelib0:cexit.obj
+ 0002:000000e8       __onexitend                100040e8     <common>
+ 0002:000000ec       __onexitbegin              100040ec     <common>
+ 0002:000000f0       g_pcsExit                  100040f0     <common>
+
+ entry point at        0001:0000253c
+
+ Static symbols
+
+ 0001:0000267c       doexit                     1000367c f   corelib0:cexit.obj

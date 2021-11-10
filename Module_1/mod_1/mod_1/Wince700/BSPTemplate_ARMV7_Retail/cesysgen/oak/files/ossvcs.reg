@@ -1,0 +1,660 @@
+;
+; Copyright (c) Microsoft Corporation.  All rights reserved.
+;
+;
+; Use of this sample source code is subject to the terms of the Microsoft
+; license agreement under which you licensed this sample source code. If
+; you did not accept the terms of the license agreement, you are not
+; authorized to use this sample source code. For the terms of the license,
+; please see the license agreement between you and Microsoft or, if applicable,
+; see the LICENSE.RTF on your install media or the root of your tools installation.
+; THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+;
+; @CESYSGEN IF OSSVCS_MODULES_OSSVCS
+; @XIPREGION IF OSSVCS_PLATFORM_REGISTRY_DEFAULT
+
+[HKEY_LOCAL_MACHINE\System\ObjectStore]
+    "ProtectedPath"="\\windows\\System"
+
+; @XIPREGION ENDIF OSSVCS_PLATFORM_REGISTRY_DEFAULT
+
+; redir won't load without this key.
+; @CESYSGEN IF CE_MODULES_REDIR
+[HKEY_LOCAL_MACHINE\Comm\Redir]
+; @CESYSGEN ENDIF CE_MODULES_REDIR
+ 
+; @CESYSGEN IF CE_MODULES_FILESYS
+
+IF IMGNOPERFMAN !
+; Inject a filesystem filter to do filesys analysis
+; Need this reg key in the boot hive.  So, it is inside FILESYS sysgen
+[HKEY_LOCAL_MACHINE\System\StorageManager\Filters\fsdspy]
+   "dll"="fsdspy.dll"
+ENDIF ; IMGNOPERFMAN !
+
+; @CESYSGEN ENDIF CE_MODULES_FILESYS
+
+ 
+; @CESYSGEN IF CE_MODULES_FSREPLXFILT
+; @CESYSGEN ENDIF CE_MODULES_FSREPLXFILT
+
+; @XIPREGION IF OSSVCS_REGISTRY_INIT
+[HKEY_LOCAL_MACHINE\init]
+; @XIPREGION ENDIF OSSVCS_REGISTRY_INIT
+
+; @CESYSGEN IF CE_MODULES_DMSRV
+[HKEY_LOCAL_MACHINE\init]
+    "Launch55"="dmsrv.exe"
+; @CESYSGEN ENDIF CE_MODULES_DMSRV
+
+IF IMGTPC
+; @XIPREGION IF OSSVCS_REGISTRY_INIT
+[HKEY_LOCAL_MACHINE\init]
+; @XIPREGION ENDIF OSSVCS_REGISTRY_INIT
+; @CESYSGEN IF OSSVCS_MODULES_BOOTSCAN
+; @CESYSGEN ENDIF OSSVCS_MODULES_BOOTSCAN
+
+; @CESYSGEN IF CE_MODULES_SHELL
+[HKEY_LOCAL_MACHINE\init]
+    "Launch10"="shell.exe"
+    "Depend10"=hex:06,00    ; bootscan(=0x6)
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF CE_MODULES_DEVICE
+[HKEY_LOCAL_MACHINE\init]
+    "Launch20"="device.dll"
+    "Depend20"=hex:06,00    ; bootscan(=0x6)
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF SHELLW_MODULES_TELSHELL
+; @CESYSGEN ENDIF SHELLW_MODULES_TELSHELL
+
+
+; @CESYSGEN IF OSSVCS_MODULES_SSUPDATE
+; @CESYSGEN ENDIF OSSVCS_MODULES_SSUPDATE
+
+
+;    DO NOT USE LAUNCH60, it is used in servers.reg for services.exe
+
+; @CESYSGEN IF SHELLW_MODULES_HOMEX
+; @CESYSGEN ENDIF SHELLW_MODULES_HOMEX
+
+; @CESYSGEN IF SHELLW_MODULES_SMARTSEARCH
+; @CESYSGEN ENDIF SHELLW_MODULES_SMARTSEARCH
+
+; @CESYSGEN IF PHONE_MODULES_CPROG
+; @CESYSGEN ENDIF PHONE_MODULES_CPROG
+
+ENDIF ; IMGTPC
+
+; @CESYSGEN IF OSSVCS_MODULES_OSSVCS
+; BUGBUG Remove when we are stable, this key debugbreak on common bad COM usage
+[HKEY_LOCAL_MACHINE\Software\Microsoft\OLE]
+    "DebugApartmentInit"=dword:1
+; @CESYSGEN ENDIF OSSVCS_MODULES_OSSVCS
+
+; ---------------------------------------------------------------------------
+; OSSVCS registry keys
+; ---------------------------------------------------------------------------
+
+; @CESYSGEN IF OSSVCS_MODULES_OSSVCS
+IF IMGTPC
+; key click override
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\WAPIMAN\Clicks]
+"ClickDLL"="ossvcs.dll"
+ENDIF ; IMGTPC
+; @CESYSGEN ENDIF OSSVCS_MODULES_OSSVCS
+
+; @CESYSGEN IF OSSVCS_MODULES_OSSVCS
+; On all builds we don't want a wildcard
+[HKEY_LOCAL_MACHINE\Security\Phone\PhoneKeyMatch]
+    "Wildcard"="none"
+; @CESYSGEN ENDIF OSSVCS_MODULES_OSSVCS
+
+
+; @XIPREGION IF OSSVCS_REGISTRY_FATFS
+; MDD Bug 6354
+; This registry key enables
+; caching for disk writes
+; Improves performance for storage card
+; writes.
+; Overwrites the flag in common.reg HIVE BOOT SECTION
+; Also disable automatic formatting of unformatted volumes
+[HKEY_LOCAL_MACHINE\System\StorageManager\FATFS]
+    "DisableAutoScan"=dword:00000001
+    "DisableAutoFormat"=dword:00000001
+; @XIPREGION ENDIF OSSVCS_REGISTRY_FATFS
+
+; @CESYSGEN IF OSSVCS_MODULES_ELDRV
+; @CESYSGEN ENDIF OSSVCS_MODULES_ELDRV
+
+; @CESYSGEN IF OSSVCS_MODULES_SYSCSPS
+
+; Register V2InterOp CSP
+[HKEY_CLASSES_ROOT\V2Interop\CLSID]
+    @="{B0C70D51-32B7-46ed-8D6A-9484062EB632}"
+
+; V2Interop CSP will come from dmcsps.dll
+[HKEY_CLASSES_ROOT\CLSID\{B0C70D51-32B7-46ed-8D6A-9484062EB632}\InprocServer32]
+    @="dmcsps.dll"
+
+; ConfigManager2 Legacy CSP 
+[HKEY_CLASSES_ROOT\CLSID\{DAB192CE-B659-460c-AE27-0F32ECB471D4}\InprocServer32]
+    @="syscsps.dll"
+
+; Registry Service Provider
+[HKEY_CLASSES_ROOT\Registry\CLSID]
+    @="{E89C2E05-74EB-4802-A467-396FAF6D95D6}"
+
+[HKEY_CLASSES_ROOT\CLSID\{E89C2E05-74EB-4802-A467-396FAF6D95D6}\InprocServer32]
+        @="syscsps.dll"
+
+; The following makes the CSP accessible to the new config manager via the legacy CSP
+[HKEY_LOCAL_MACHINE\Security\Provisioning\CSPs\.\Vendor\MSFT\Registry]
+    @="{DAB192CE-B659-460c-AE27-0F32ECB471D4}"
+
+; Make the Registry CSP required
+[HKEY_LOCAL_MACHINE\Security\Provisioning\RequiredCSPs]
+    "Registry"=""
+
+; @CESYSGEN IF SYSCSPS_METABASECSP
+; @CESYSGEN ENDIF SYSCSPS_METABASECSP
+
+; @CESYSGEN IF SYSCSPS_INSTDLLCSP
+; @CESYSGEN ENDIF SYSCSPS_INSTDLLCSP
+
+; @CESYSGEN IF SYSCSPS_POLICYCSP
+
+; Security Policies Configuration Service Provider
+[HKEY_CLASSES_ROOT\SecurityPolicy\CLSID]
+    @="{E00589F9-3271-48a4-85A4-CE2CA7AC84DD}"
+
+[HKEY_CLASSES_ROOT\CLSID\{E00589F9-3271-48a4-85A4-CE2CA7AC84DD}\InprocServer32]
+        @="syscsps.dll"
+
+; The following makes the CSP accessible to the new config manager via the legacy CSP
+[HKEY_LOCAL_MACHINE\Security\Provisioning\CSPs\.\Vendor\MSFT\SecurityPolicy]
+    @="{DAB192CE-B659-460c-AE27-0F32ECB471D4}"
+
+; Make this a required CSP
+[HKEY_LOCAL_MACHINE\Security\Provisioning\RequiredCSPs]
+    "SecurityPolicy"=""
+
+; @CESYSGEN ENDIF SYSCSPS_POLICYCSP
+
+; @CESYSGEN IF SYSCSPS_LOCALECSP
+; @CESYSGEN ENDIF SYSCSPS_LOCALECSP
+
+; @CESYSGEN IF SYSCSPS_FILECSP
+; @CESYSGEN ENDIF SYSCSPS_FILECSP
+
+
+; @CESYSGEN IF SYSCSPS_DEVINFOCSP
+; @CESYSGEN ENDIF SYSCSPS_DEVINFOCSP
+
+; @CESYSGEN IF SYSCSPS_NOTIFCSP
+; @CESYSGEN ENDIF SYSCSPS_NOTIFCSP
+
+; @CESYSGEN IF SYSCSPS_DMACCCSP
+; @CESYSGEN ENDIF SYSCSPS_DMACCCSP
+
+
+; @CESYSGEN IF SYSCSPS_DMSCSP
+; @CESYSGEN ENDIF SYSCSPS_DMSCSP
+
+; @CESYSGEN IF SYSCSPS_FILESYSTEMCSP
+; @CESYSGEN ENDIF SYSCSPS_FILESYSTEMCSP
+
+; @CESYSGEN IF SYSCSPS_DOWNLOADCSP
+; @CESYSGEN ENDIF SYSCSPS_DOWNLOADCSP
+
+
+; @CESYSGEN IF SYSCSPS_INVENTORYCSP
+; @CESYSGEN ENDIF SYSCSPS_INVENTORYCSP
+
+; @CESYSGEN IF SYSCSPS_CLOCKCSP
+; @CESYSGEN ENDIF SYSCSPS_CLOCKCSP
+
+; @CESYSGEN IF SYSCSPS_BTHCSP
+; @CESYSGEN ENDIF SYSCSPS_BTHCSP
+
+; @CESYSGEN IF SYSCSPS_OBEXCSP
+; @CESYSGEN ENDIF SYSCSPS_OBEXCSP
+
+; @CESYSGEN IF SYSCSPS_SOUNDCSP
+; @CESYSGEN ENDIF SYSCSPS_SOUNDCSP
+
+; @CESYSGEN IF SYSCSPS_SNDSCHEMECSP
+; @CESYSGEN ENDIF SYSCSPS_SNDSCHEMECSP
+
+; @CESYSGEN IF SYSCSPS_DISPLAYCSP
+; @CESYSGEN ENDIF SYSCSPS_DISPLAYCSP
+
+; @CESYSGEN IF __SYSGEN_SYSCSPS_POLICYCSP
+; @CESYSGEN ENDIF __SYSGEN_SYSCSPS_POLICYCSP
+
+; @CESYSGEN IF SYSCSPS_CERTIFICATECSP
+; @CESYSGEN ENDIF SYSCSPS_CERTIFICATECSP
+
+; @CESYSGEN IF SYSCSPS_CERTIFICATEENROLLERCSP
+; @CESYSGEN ENDIF SYSCSPS_CERTIFICATEENROLLERCSP
+
+; @CESYSGEN IF SYSCSPS_REVOCATIONLISTCSP
+; @CESYSGEN ENDIF SYSCSPS_REVOCATIONLISTCSP
+
+; @CESYSGEN IF SYSCSPS_APPDISABLECSP
+; @CESYSGEN ENDIF SYSCSPS_APPDISABLECSP
+
+; @CESYSGEN IF SYSCSPS_SYNCCSP
+; @CESYSGEN ENDIF SYSCSPS_SYNCCSP
+
+; @CESYSGEN IF SYSCSPS_PROFILECSP
+; @CESYSGEN ENDIF SYSCSPS_PROFILECSP
+
+; @CESYSGEN IF SYSCSPS_WAPCSP
+; @CESYSGEN ENDIF SYSCSPS_WAPCSP
+
+; @CESYSGEN IF SYSCSPS_UNINSTALLCSP
+; @CESYSGEN ENDIF SYSCSPS_UNINSTALLCSP
+
+; @CESYSGEN IF SYSCSPS_APPLCSP
+; @CESYSGEN ENDIF SYSCSPS_APPLCSP
+
+; @CESYSGEN IF SYSCSPS_DEVINFO2CSP
+; @CESYSGEN ENDIF SYSCSPS_DEVINFO2CSP
+
+; @CESYSGEN IF SYSCSPS_DEVDETAILCSP
+; @CESYSGEN ENDIF SYSCSPS_DEVDETAILCSP
+
+; @CESYSGEN IF SYSCSPS_SPEEDDIALCSP
+; @CESYSGEN ENDIF SYSCSPS_SPEEDDIALCSP
+
+; @CESYSGEN IF SYSCSPS_ENCRYPTIONCSP
+; @CESYSGEN ENDIF SYSCSPS_ENCRYPTIONCSP
+
+; @CESYSGEN IF SYSCSPS_REMOTEWIPECSP
+; @CESYSGEN ENDIF SYSCSPS_REMOTEWIPECSP
+
+; @CESYSGEN ENDIF OSSVCS_MODULES_SYSCSPS
+
+; @CESYSGEN IF OSSVCS_MODULES_SYSCSPS
+; Enable prompting when installing a root certificate to the user store
+[HKEY_LOCAL_MACHINE\Comm\Security\Crypto\UI]
+    "dll"="syscsps.dll"
+; @CESYSGEN ENDIF OSSVCS_MODULES_SYSCSPS
+
+; @CESYSGEN IF OSSVCS_MODULES_NETWORKPOLICYCSP
+;NetworkPolicy Configuration Service Provider
+[HKEY_CLASSES_ROOT\NetworkPolicy\CLSID]
+    @="{28CE1FB6-F2D1-4725-9D1C-B17CD80449B7}"
+[HKEY_CLASSES_ROOT\CLSID\{28CE1FB6-F2D1-4725-9D1C-B17CD80449B7}\InprocServer32]
+    @="networkpolicycsp.dll"
+; The following makes the CSP accessible to the new config manager via the legacy CSP
+[HKEY_LOCAL_MACHINE\Security\Provisioning\CSPs\.\Vendor\MSFT\NetworkPolicy]
+    @="{DAB192CE-B659-460c-AE27-0F32ECB471D4}"
+; @CESYSGEN ENDIF OSSVCS_MODULES_NETWORKPOLICYCSP
+
+; @CESYSGEN IF OSSVCS_MODULES_CONFIGMANAGER
+; Stinger Configuration Management settings
+
+; Configuration components
+
+; NEW
+; Configuration Manager
+[HKEY_CLASSES_ROOT\ConfigManager\CLSID]
+    @="{67C73FBF-999E-44dd-AF32-480E86CB7EA3}"
+
+[HKEY_CLASSES_ROOT\CLSID\{67C73FBF-999E-44dd-AF32-480E86CB7EA3}\InprocServer32]
+    @="configmanager.dll"
+
+; Configuration Metabase
+[HKEY_CLASSES_ROOT\ConfigMetabase2\CLSID]
+    @="{ACA48B48-6ABA-4667-954C-F794E33BC1C2}"
+
+[HKEY_CLASSES_ROOT\CLSID\{ACA48B48-6ABA-4667-954C-F794E33BC1C2}\InprocServer32]
+    @="configmetabase2.dll"
+
+; Configuration Uninstall Host
+[HKEY_CLASSES_ROOT\ConfigUninstallHost\CLSID]
+    @="{EB0AE09E-5DDC-4e40-AB81-5668F012EC97}"
+
+[HKEY_CLASSES_ROOT\CLSID\{EB0AE09E-5DDC-4e40-AB81-5668F012EC97}\InprocServer32]
+    @="configmanager.dll"
+
+; New Configuration Manager
+[HKEY_CLASSES_ROOT\ConfigManager2\CLSID]
+    @="{66D0DB14-5638-475f-A386-629522D8C461}"
+
+[HKEY_CLASSES_ROOT\CLSID\{66D0DB14-5638-475f-A386-629522D8C461}\InprocServer32]
+    @="configmanager2.dll"
+
+[HKEY_CLASSES_ROOT\ConfigManager2URI\CLSID]
+    @="{50A41EF1-6BFA-4b7e-973E-798EA0BEBAD4}"
+
+[HKEY_CLASSES_ROOT\CLSID\{50A41EF1-6BFA-4b7e-973E-798EA0BEBAD4}\InprocServer32]
+    @="configmanager2.dll"
+
+[HKEY_CLASSES_ROOT\ConfigManager2MutableURI\CLSID]
+    @="{C196B2BE-BA06-4049-8518-322E1E04282B}"
+
+[HKEY_CLASSES_ROOT\CLSID\{C196B2BE-BA06-4049-8518-322E1E04282B}\InprocServer32]
+    @="configmanager2.dll"
+
+; New Configuration Manager hierarchical namespace.    Each entry associates a part of the namespace with
+; a CLSID, referring to the CSP handler.     Any old-style CSPs that were written to the original
+; CSP interface need to use the LegacyCSP CLSID.  A note about the current configmanager2 design:
+; any nodes in the namespace that do not have an explicit CSP owner we give the following CLSID:
+; {D5173188-1EDC-4ae4-831E-A7F252C6F03A}.   Configmanager2 understands this and creates
+; IConfigNode objects with no underlying CSP.    Only navigation commands are legal on these nodes.
+; NOTE: registrations live with the CSP CLSID registrations.   See public\shellw\oak\files\shellw.reg
+; for the CSPs that live in syscsps.dll (such as all old-style CSPs that use the legacy CSP).
+
+[HKEY_LOCAL_MACHINE\Security\Provisioning\CSPs\.]
+    @="{D5173188-1EDC-4ae4-831E-A7F252C6F03A}"
+
+[HKEY_LOCAL_MACHINE\Security\Provisioning\CSPs\.\SyncML]
+    @="{D5173188-1EDC-4ae4-831E-A7F252C6F03A}"
+
+[HKEY_LOCAL_MACHINE\Security\Provisioning\CSPs\.\Vendor]
+    @="{D5173188-1EDC-4ae4-831E-A7F252C6F03A}"
+
+[HKEY_LOCAL_MACHINE\Security\Provisioning\CSPs\.\Vendor\MSFT]
+    @="{D5173188-1EDC-4ae4-831E-A7F252C6F03A}"
+
+
+[HKEY_CLASSES_ROOT\CLSID\{A9CBC292-0A92-4fe7-AF32-24531AB92EA2}\InprocServer32]
+    @="configmanager.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{22359130-347A-4711-9D85-7FAD66F89CEB}\InprocServer32]
+    @="configmanager.dll"
+; @CESYSGEN ENDIF OSSVCS_MODULES_CONFIGMANAGER
+
+IF IMGTPC
+; ---------------------------------------------------------------------------
+; Security
+; A secure section of the registry for validating trust levels
+
+; Note that default values must be of type REG_SZ - use the string version of the desired REG_DWORD value
+; @CESYSGEN IF CE_MODULES_FILESYS
+[HKEY_LOCAL_MACHINE\Security\Policy\APIs]
+    ; Give everyone access to every API by default (pending review)
+    @="0"
+; @CESYSGEN ENDIF CE_MODULES_FILESYS
+
+
+; @CESYSGEN IF OSSVCS_MODULES_CPMPSL
+; @CESYSGEN ENDIF OSSVCS_MODULES_CPMPSL
+
+; @CESYSGEN IF OSSVCS_MODULES_ELDRV
+; @CESYSGEN ENDIF OSSVCS_MODULES_ELDRV
+
+; Security
+; ---------------------------------------------------------------------------
+ENDIF ; IMGTPC
+
+
+
+IF IMGPPC
+IF IMGNOSMSREG !
+; @XIPREGION IF BASE_REGISTRY_DEFAULT
+
+[HKEY_CURRENT_USER\ControlPanel\Notifications\{A877D65B-239C-47a7-9304-0D347F580408}]
+"Options"=dword:9
+"Duration"=dword:0
+"Wave"="\\Windows\\DF1_Alarm_A.wma"
+; @XIPREGION ENDIF BASE_REGISTRY_DEFAULT
+ENDIF ; IMGNOSMSREG!
+ENDIF ;IMGPPC
+
+IF IMGTPC
+; @XIPREGION IF OSSVCS_REGISTRY_SMS_TBD_RIL
+[HKEY_CURRENT_USER\ControlPanel\Sounds\SMS]
+"Sound"="\\Windows\\DF1_New_SMS.wma"
+"Category"="Notification"
+; @XIPREGION ENDIF OSSVCS_REGISTRY_SMS_TBD_RIL
+ENDIF ; IMGTPC
+
+IF IMGSECONDSERIAL
+
+; Includes a driver for a second serial port
+; Useful if you have a third physical serial port on your device
+; and want it to be visible as a second COM port to CE
+; NOTE: May be MDDCEPC-specific
+; NOTE: We also don't localize the friendly name, as it should never be displayed in UI
+
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\Serial2]
+   "Index"=dword:2
+   "Irq"=dword:c
+   "IoBase"=dword:03E8
+   "IoLen"=dword:8
+   "Tsp"="Unimodem.dll"
+   "DeviceArrayIndex"=dword:2
+   "Prefix"="COM"
+   "Dll"="Serial.Dll"
+   "Order"=dword:0
+   "DeviceType"=dword:0
+   "FriendlyName"="Serial Cable on COM2:"
+   "DevConfig"=hex: 20,00, 00,00, 05,00,00,00, 10,01,00,00, 00,4B,00,00, 00,00, 08, 00, 00, 00,00,00,00
+
+ENDIF IMGSECONDSERIAL
+
+IF WINCESHIP !
+; @CESYSGEN IF OSSVCS_MODULES_SQLCESE30
+; @CESYSGEN ENDIF OSSVCS_MODULES_SQLCESE30
+ENDIF WINCESHIP !
+
+; @XIPREGION IF OSSVCS_REGISTRY_FILEBASED
+;----------------------------------------------------------------------------
+; File-based registry controls
+; Only enable if you want to flush registry & databases to storage
+;----------------------------------------------------------------------------
+IF IMGPERSISTENTSTORAGE 
+;Keep "ActivityName" in sync with private\shellw\gserver\shell32g\tpc\tray.cpp m_hEventDBChanged
+;This is the name of the event signaled by the OS after "ActivityThreshold" db changes
+[HKEY_LOCAL_MACHINE\System\ObjectStore\DBFlush]
+"ActivityThreshold"=dword:1
+"ActivityName"="$*@DBChanged#%&"
+
+[HKEY_LOCAL_MACHINE\init\BootVars]
+"DBFlags"=dword:10000
+
+ENDIF ; IMGPERSISTENTSTORAGE
+
+;IF IMGPERSISTENTSTORAGE removed because with hive based registry we need this for non-persistent storage too
+;"You have to call flush so that it gets from memory to the filesystem (even though it is RAM)."
+;Keep "ActivityName" in sync with private\shellw\gserver\shell32g\tpc\tray.cpp m_hEventRegChanged
+;This is the name of the event signaled by the OS after "ActivityThreshold" registry changes
+[HKEY_LOCAL_MACHINE\System\ObjectStore\RegFlush]    
+"ActivityName"="$*@RegChanged#%&"
+"ActivityThreshold"=dword:1
+
+[HKEY_LOCAL_MACHINE\Security\Shell\RegFlush]
+"Priority256"=dword:ff
+
+; @XIPREGION ENDIF OSSVCS_REGISTRY_FILEBASED
+
+;----------------------------------------------------------------------------
+
+; @CESYSGEN ENDIF OSSVCS_MODULES_OSSVCS
+
+; @CESYSGEN IF OSSVCS_MODULES_BTHSSVC
+; @CESYSGEN ENDIF OSSVCS_MODULES_BTHSSVC
+
+; @CESYSGEN IF OSSVCS_MODULES_BTHUTIL
+; @CESYSGEN IF CE_MODULES_BTD
+; @CESYSGEN ENDIF CE_MODULES_BTD
+; @CESYSGEN IF CE_MODULES_BTA2DP
+; @CESYSGEN ENDIF CE_MODULES_BTA2DP
+; @CESYSGEN IF CE_MODULES_BTAGSVC
+; @CESYSGEN ENDIF CE_MODULES_BTAGSVC
+; @CESYSGEN IF OSSVCS_MODULES_BTHIDSVC
+; @CESYSGEN ENDIF OSSVCS_MODULES_BTHIDSVC
+; @CESYSGEN IF CE_MODULES_BTPAN
+; @CESYSGEN ENDIF CE_MODULES_BTPAN
+; @CESYSGEN ENDIF OSSVCS_MODULES_BTHUTIL
+; @CESYSGEN IF OSSVCS_MODULES_OSSVCS
+
+; @CESYSGEN IF OSSVCS_MODULES_NETCF11
+; @CESYSGEN ENDIF OSSVCS_MODULES_NETCF11
+
+; These signatures in the registry are used to verify the Cryptographic Service Providers.
+; The signatures in the dlls' resources cannot be used because these dll's are also signed by
+; the Microsoft Mobile Software Privileged Execution Publisher cert.
+
+; @CESYSGEN IF OSSVCS_MODULES_RSAENH
+; @CESYSGEN ENDIF OSSVCS_MODULES_RSAENH
+
+; @CESYSGEN IF OSSVCS_MODULES_DSSDH
+; @CESYSGEN ENDIF OSSVCS_MODULES_DSSDH
+
+; Default NE2000 to 8-bit IO to workaround bugs in some older net cards
+; @CESYSGEN IF CE_MODULES_NE2000
+; @CESYSGEN ENDIF CE_MODULES_NE2000
+
+; @CESYSGEN IF OSSVCS_MODULES_DEVAUTH
+; @CESYSGEN ENDIF OSSVCS_MODULES_DEVAUTH
+
+
+; @CESYSGEN IF OSSVCS_MODULES_EXSMIME
+; CLSID_MIMEBase64Encoder
+[HKEY_CLASSES_ROOT\CLSID\{DB263a60-8EA8-454A-B63F-82106F6993D0}\InProcServer32]
+@="exsmime.dll"
+
+; CLSID_MIMEBase64Decoder
+[HKEY_CLASSES_ROOT\CLSID\{B7AF5717-2927-469D-80D9-27873FB75FC3}\InProcServer32]
+@="exsmime.dll"
+
+; CLSID_MIMEMailbox
+[HKEY_CLASSES_ROOT\CLSID\{D4B30741-9639-456D-99C5-6F223AE5EB20}\InProcServer32]
+@="exsmime.dll"
+
+; CLSID_VirtualStream
+[HKEY_CLASSES_ROOT\CLSID\{5611D887-D47E-4EFC-B390-17F3AEE05B1B}\InProcServer32]
+@="exsmime.dll"
+
+; CLSID_MIMEQuotedPrintableEncoder
+[HKEY_CLASSES_ROOT\CLSID\{28BE6EDE-2FCA-4493-B462-CB5F7E680973}\InProcServer32]
+@="exsmime.dll"
+
+; CLSID_MIMEQuotedPrintableDecoder
+[HKEY_CLASSES_ROOT\CLSID\{D899A5B9-C518-42E9-B9BD-E08BEE91A92E}\InProcServer32]
+@="exsmime.dll"
+
+; CLSID_MIMEBinHexEncoder
+[HKEY_CLASSES_ROOT\CLSID\{2633B17B-846E-428C-8F60-7B8418F9AE89}\InProcServer32]
+@="exsmime.dll"
+
+; CLSID_MIMEBinHexDecoder
+[HKEY_CLASSES_ROOT\CLSID\{E9BE10DC-8454-4FC5-A70F-C2E0F6323BC1}\InProcServer32]
+@="exsmime.dll"
+
+; CLSID_MIMEUUEncoder
+[HKEY_CLASSES_ROOT\CLSID\{2594513E-13AE-4700-B413-8D86A574BA98}\InProcServer32]
+@="exsmime.dll"
+
+; CLSID_MIMEUUDecoder
+[HKEY_CLASSES_ROOT\CLSID\{FFD0B1B9-0BC0-41F1-BF9B-A931E870A991}\InProcServer32]
+@="exsmime.dll"
+
+; CLSID_MIMERfc2047Encoder
+[HKEY_CLASSES_ROOT\CLSID\{8732C40A-5572-4325-B989-094DD782D903}\InProcServer32]
+@="exsmime.dll"
+
+; CLSID_MIMERfc2047Decoder
+[HKEY_CLASSES_ROOT\CLSID\{CBEA848D-9741-4235-BDEE-DC86C5A6FF85}\InProcServer32]
+@="exsmime.dll"
+
+
+; CLSID_MIMEReader
+[HKEY_CLASSES_ROOT\CLSID\{B5DF6DDB-8DEB-4984-961A-0E252214B016}]
+@="MIME Reader"
+[HKEY_CLASSES_ROOT\CLSID\{B5DF6DDB-8DEB-4984-961A-0E252214B016}\InprocServer32]
+@="exsmime.dll"
+[HKEY_CLASSES_ROOT\ExSMime.MimeReader.1]
+@="MIME Reader"
+[HKEY_CLASSES_ROOT\ExSMime.MimeReader.1\CLSID]
+@="{B5DF6DDB-8DEB-4984-961A-0E252214B016}"
+
+; CLSID_SMIME
+[HKEY_CLASSES_ROOT\CLSID\{C71C7533-AAA8-4315-9457-08DE2F558972}]
+@="SMIME"
+[HKEY_CLASSES_ROOT\CLSID\{C71C7533-AAA8-4315-9457-08DE2F558972}\InprocServer32]
+@="exsmime.dll"
+[HKEY_CLASSES_ROOT\ExSMime.SMIME.1]
+@="SMIME"
+[HKEY_CLASSES_ROOT\ExSMime.SMIME.1\CLSID]
+@="{C71C7533-AAA8-4315-9457-08DE2F558972}"
+
+; CLSID_MIMEEntity
+[HKEY_CLASSES_ROOT\CLSID\{65CD43A2-C66C-4C0C-9EC6-6F3D619E67AB}]
+@="MIME Entity"
+[HKEY_CLASSES_ROOT\CLSID\{65CD43A2-C66C-4C0C-9EC6-6F3D619E67AB}\InprocServer32]
+@="exsmime.dll"
+[HKEY_CLASSES_ROOT\ExSMime.MimeEntity.1]
+@="MIME Entity"
+[HKEY_CLASSES_ROOT\ExSMime.MimeEntity.1\CLSID]
+@="{65CD43A2-C66C-4C0C-9EC6-6F3D619E67AB}"
+; @CESYSGEN ENDIF OSSVCS_MODULES_EXSMIME
+
+
+; @CESYSGEN IF CE_MODULES_GWES
+[HKEY_LOCAL_MACHINE\SYSTEM\GWE\Notify]
+    "flush"=dword:0
+; @CESYSGEN ENDIF CE_MODULES_GWES
+
+; @CESYSGEN IF OSSVCS_MODULES_OSSVCS
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Extensions\EventSounds\WAV]
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Extensions\EventSounds\WMA]
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Extensions\EventSounds\MID]
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Extensions\EventSounds\RMI]
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Shell\Extensions\EventSounds\MP3]
+; @CESYSGEN ENDIF OSSVCS_MODULES_OSSVCS
+
+; @CESYSGEN IF OSSVCS_MODULES_OSSVCS
+; Registry keys needed by the FDRM APIs
+[HKEY_LOCAL_MACHINE\Security\System\FDRM]
+    "Preview"=dword:00000BB8
+    "Delay"=dword:000007D0
+    "ReVerify"=dword:05265C00
+
+; @CESYSGEN ENDIF OSSVCS_MODULES_OSSVCS
+
+; @CESYSGEN IF OSSVCS_MODULES_ENROLLSVC
+; @CESYSGEN ENDIF OSSVCS_MODULES_ENROLLSVC
+
+; @CESYSGEN IF OSSVCS_MODULES_SWMGMTSERVICE
+; @CESYSGEN ENDIF OSSVCS_MODULES_SWMGMTSERVICE
+
+; @CESYSGEN IF SERVERS_MODULES_SERVICES
+; @CESYSGEN ENDIF SERVERS_MODULES_SERVICES
+
+
+; @CESYSGEN IF OSSVCS_MODULES_CERTMOD
+; @CESYSGEN ENDIF OSSVCS_MODULES_CERTMOD
+
+; @XIPREGION IF DOGFOOD_ITEMS
+[HKEY_LOCAL_MACHINE\Security\DMSLogger]
+    @="FileLogger.dll"
+; @XIPREGION ENDIF DOGFOOD_ITEMS
+
+; @CESYSGEN ENDIF OSSVCS_MODULES_OSSVCS
+
+; Reboot Integration settings and initial state
+; @CESYSGEN IF OSSVCS_MODULES_DMSAPI
+
+[HKEY_LOCAL_MACHINE\Security\RebootDeferral]
+    "ActiveDeferralCount"=dword:0
+    "RebootRequested"=dword:0
+    "RebootPromptRequested"=dword:0
+
+[HKEY_LOCAL_MACHINE\Security\RebootDeferralSettings]
+    "RebootReminderTimeout"=dword:0000000A   ; (minutes)
+    "StopDeferralTimeout"=dword:0000003C     ; (minutes)
+
+; @CESYSGEN IF OSSVCS_MODULES_DMSCHEDULERCALLBACK
+; @CESYSGEN ENDIF OSSVCS_MODULES_DMSCHEDULERCALLBACK
+
+; @CESYSGEN ENDIF OSSVCS_MODULES_DMSAPI
+
+
+

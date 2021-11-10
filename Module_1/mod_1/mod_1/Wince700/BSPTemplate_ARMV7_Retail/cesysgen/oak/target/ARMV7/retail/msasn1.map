@@ -1,0 +1,351 @@
+ msasn1
+
+ Timestamp is 5ac64a21 (Thu Apr 05 09:09:05 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 0000032cH .rdata                  CODE
+ 0001:0000034c 00000023H .rdata$debug            CODE
+ 0001:00000370 00007f60H .text                   CODE
+ 0001:000082d0 00000038H .xdata                  CODE
+ 0001:00008308 00000014H .idata$2                CODE
+ 0001:0000831c 00000014H .idata$3                CODE
+ 0001:00008330 00000088H .idata$4                CODE
+ 0001:000083b8 0000000cH .idata$6                CODE
+ 0001:000083d0 00001044H .edata                  CODE
+ 0002:00000000 00000088H .idata$5                DATA
+ 0002:00000088 00000058H .data                   DATA
+ 0002:000000e0 00000020H .bss                    DATA
+ 0003:00000000 000005e0H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:00000044       __real@4070000000000000    10001044     intx.obj
+ 0001:0000004c       ASN1double_pinf_octets     1000104c     types.obj
+ 0001:00000054       ASN1double_minf_octets     10001054     types.obj
+ 0001:0000005c       ??_C@_05CKHLIPDM@?9?$CF02d?$AA@ 1000105c     types.obj
+ 0001:00000064       ??_C@_05COPGPDIO@?9?$CF04d?$AA@ 10001064     types.obj
+ 0001:0000006c       ??_C@_05PMCCGMCB@?$CL?$CF02d?$AA@ 1000106c     types.obj
+ 0001:00000074       ??_C@_05PIKPBAJD@?$CL?$CF04d?$AA@ 10001074     types.obj
+ 0001:0000007c       ??_C@_01POHCFINO@Z?$AA@    1000107c     types.obj
+ 0001:00000080       ??_C@_05KNCNJHKF@?4?$CF03d?$AA@ 10001080     types.obj
+ 0001:00000088       ??_C@_05KMOPPNJC@?4?$CF02d?$AA@ 10001088     types.obj
+ 0001:00000090       ??_C@_05KOKJEDML@?4?$CF01d?$AA@ 10001090     types.obj
+ 0001:00000098       ??_C@_0BJ@NPJPFJML@?$CF04d?$CF02d?$CF02d?$CF02d?$CF02d?$CF02d?$AA@ 10001098     types.obj
+ 0001:000000b4       ??_C@_0BJ@DCFFCLLB@?$CF02d?$CF02d?$CF02d?$CF02d?$CF02d?$CF02d?$AA@ 100010b4     types.obj
+ 0001:000000d0       __real@4024000000000000    100010d0     types.obj
+ 0001:000000d8       __real@3ff0000000000000    100010d8     types.obj
+ 0001:000000e0       __real@0000000000000000    100010e0     types.obj
+ 0001:000000e8       __real@4059000000000000    100010e8     types.obj
+ 0001:000000f0       __real@c059000000000000    100010f0     types.obj
+ 0001:000000f8       __real@40c3880000000000    100010f8     types.obj
+ 0001:00000100       __real@404e000000000000    10001100     types.obj
+ 0001:00000108       __real@408f400000000000    10001108     types.obj
+ 0001:00000118       c_nSignMask                10001118     berdecod.obj
+ 0001:00000128       __real@4000000000000000    10001128     berdecod.obj
+ 0001:00000130       __real@4010000000000000    10001130     berdecod.obj
+ 0001:00000138       __real@4020000000000000    10001138     berdecod.obj
+ 0001:00000370       ASN1str16len               10001370 f   char.obj
+ 0001:00000394       My_lstrlenA                10001394 f   char.obj
+ 0001:000003ac       ASN1str32len               100013ac f   char.obj
+ 0001:000003d0       ASN1DecAlloc               100013d0 f   cintern.obj
+ 0001:000003d4       ASN1DecRealloc             100013d4 f   cintern.obj
+ 0001:000003d8       ASN1Free                   100013d8 f   cintern.obj
+ 0001:000003dc       ASN1DecAbort               100013dc f   cintern.obj
+ 0001:000003e0       ASN1DecDone                100013e0 f   cintern.obj
+ 0001:000003e4       ASN1EncAbort               100013e4 f   cintern.obj
+ 0001:000003e8       ASN1EncDone                100013e8 f   cintern.obj
+ 0001:000003ec       ASN1objectidentifier_cmp   100013ec f   compare.obj
+ 0001:00000464       ASN1objectidentifier2_cmp  10001464 f   compare.obj
+ 0001:000004dc       ASN1bitstring_cmp          100014dc f   compare.obj
+ 0001:000005b0       ASN1octetstring_cmp        100015b0 f   compare.obj
+ 0001:000005ec       ASN1ztcharstring_cmp       100015ec f   compare.obj
+ 0001:00000614       ASN1ztchar16string_cmp     10001614 f   compare.obj
+ 0001:00000650       ASN1charstring_cmp         10001650 f   compare.obj
+ 0001:000006b0       ASN1char16string_cmp       100016b0 f   compare.obj
+ 0001:00000724       ASN1char32string_cmp       10001724 f   compare.obj
+ 0001:00000790       ASN1utctime_cmp            10001790 f   compare.obj
+ 0001:00000820       ASN1generalizedtime_cmp    10001820 f   compare.obj
+ 0001:000008c4       ASN1open_cmp               100018c4 f   compare.obj
+ 0001:00000900       ASN1intx_add               10001900 f   intx.obj
+ 0001:00000a68       ASN1intx_sub               10001a68 f   intx.obj
+ 0001:00000bd4       ASN1intx_setuint32         10001bd4 f   intx.obj
+ 0001:00000c78       ASN1intx_free              10001c78 f   intx.obj
+ 0001:00000c8c       ASN1intx2uint32            10001c8c f   intx.obj
+ 0001:00000d24       ASN1intx2int32             10001d24 f   intx.obj
+ 0001:00000de8       ASN1intx_uoctets           10001de8 f   intx.obj
+ 0001:00000e1c       ASN1uint32_uoctets         10001e1c f   intx.obj
+ 0001:00000e44       ASN1intxisuint32           10001e44 f   intx.obj
+ 0001:00000e70       ASN1_SetEncoderOption      10001e70 f   perfn.obj
+ 0001:00000f10       ASN1_GetEncoderOption      10001f10 f   perfn.obj
+ 0001:00000f54       ASN1_CloseEncoder          10001f54 f   perfn.obj
+ 0001:00000f78       ASN1_CloseEncoder2         10001f78 f   perfn.obj
+ 0001:00000fa8       ASN1_CreateDecoderEx       10001fa8 f   perfn.obj
+ 0001:0000110c       ASN1_SetDecoderOption      1000210c f   perfn.obj
+ 0001:000011c4       ASN1_GetDecoderOption      100021c4 f   perfn.obj
+ 0001:00001218       ASN1_CloseDecoder          10002218 f   perfn.obj
+ 0001:00001254       ASN1_FreeEncoded           10002254 f   perfn.obj
+ 0001:00001268       ASN1_FreeDecoded           10002268 f   perfn.obj
+ 0001:000012bc       ASN1_CreateModule          100022bc f   perfn.obj
+ 0001:00001368       ASN1_CloseModule           10002368 f   perfn.obj
+ 0001:0000136c       ASN1BEREncCheck            1000236c f i perfn.obj
+ 0001:00001370       ASN1_CreateEncoder         10002370 f   perfn.obj
+ 0001:000014a8       ASN1_Encode                100024a8 f   perfn.obj
+ 0001:000016ac       ASN1_CreateDecoder         100026ac f   perfn.obj
+ 0001:000016d0       ASN1_Decode                100026d0 f   perfn.obj
+ 0001:00001924       ASN1double_pinf            10002924 f   types.obj
+ 0001:00001938       ASN1double_minf            10002938 f   types.obj
+ 0001:0000194c       ASN1double_ispinf          1000294c f   types.obj
+ 0001:00001984       ASN1double_isminf          10002984 f   types.obj
+ 0001:000019bc       ASN1bitstring_free         100029bc f   types.obj
+ 0001:000019d0       ASN1octetstring_free       100029d0 f   types.obj
+ 0001:000019e4       ASN1objectidentifier_free  100029e4 f   types.obj
+ 0001:000019f8       ASN1charstring_free        100029f8 f   types.obj
+ 0001:00001a0c       ASN1char16string_free      10002a0c f   types.obj
+ 0001:00001a20       ASN1char32string_free      10002a20 f   types.obj
+ 0001:00001a34       ASN1ztcharstring_free      10002a34 f   types.obj
+ 0001:00001a38       ASN1ztchar16string_free    10002a38 f   types.obj
+ 0001:00001a3c       ASN1ztchar32string_free    10002a3c f   types.obj
+ 0001:00001a40       ASN1open_free              10002a40 f   types.obj
+ 0001:00001a54       ASN1utf8string_free        10002a54 f   types.obj
+ 0001:00001a68       ASN1generalizedtime2string 10002a68 f   types.obj
+ 0001:00001d64       ASN1utctime2string         10002d64 f   types.obj
+ 0001:00002030       ASN1string2generalizedtime 10003030 f   types.obj
+ 0001:00002358       ASN1string2utctime         10003358 f   types.obj
+ 0001:00002550       GetObjectIdentifierCount   10003550 f   types.obj
+ 0001:00002570       DecAllocObjectIdentifier   10003570 f   types.obj
+ 0001:000025d8       DecMemAlloc                100035d8 f   ms_ut.obj
+ 0001:00002668       DecMemFree                 10003668 f   ms_ut.obj
+ 0001:00002680       DecMemReAlloc              10003680 f   ms_ut.obj
+ 0001:00002724       DecMemReAlloc_Old          10003724 f   ms_ut.obj
+ 0001:000027b8       IsDigit                    100037b8 f   ms_ut.obj
+ 0001:000027d4       DecimalStringToUINT        100037d4 f   ms_ut.obj
+ 0001:00002814       My_memcmp                  10003814 f   ms_ut.obj
+ 0001:0000285c       DllMain                    1000385c f   ms_core.obj
+ 0001:00002870       ASN1EncSetError            10003870 f   ms_core.obj
+ 0001:00002898       ASN1DecSetError            10003898 f   ms_core.obj
+ 0001:000028c8       ASN1BERDecDouble           100038c8 f   berdecod.obj
+ 0001:00002b9c       ASN1BERDecNull             10003b9c f   berdecod.obj
+ 0001:00002c00       ASN1BERDecObjectIdentifier 10003c00 f   berdecod.obj
+ 0001:00002db0       ASN1BERDecObjectIdentifier2 10003db0 f   berdecod.obj
+ 0001:00002f2c       ASN1BERDecS8Val            10003f2c f   berdecod.obj
+ 0001:00002fb8       ASN1BERDecS16Val           10003fb8 f   berdecod.obj
+ 0001:00003070       ASN1BERDecS32Val           10004070 f   berdecod.obj
+ 0001:000031c4       ASN1BERDecSXVal            100041c4 f   berdecod.obj
+ 0001:00003264       ASN1BERDecU8Val            10004264 f   berdecod.obj
+ 0001:00003324       ASN1BERDecU16Val           10004324 f   berdecod.obj
+ 0001:00003414       ASN1BERDecZeroCharString   10004414 f   berdecod.obj
+ 0001:0000362c       ASN1BERDecSkip             1000462c f   berdecod.obj
+ 0001:00003754       _BERDecOpenType            10004754 f   berdecod.obj
+ 0001:00003894       ASN1BERDecOpenType         10004894 f   berdecod.obj
+ 0001:0000389c       ASN1BERDecOpenType2        1000489c f   berdecod.obj
+ 0001:000038a4       ASN1BERDecFlush            100048a4 f   berdecod.obj
+ 0001:00003934       _BERDecBitString           10004934 f   berdecod.obj
+ 0001:00003c04       ASN1BERDecBitString        10004c04 f   berdecod.obj
+ 0001:00003c0c       ASN1BERDecBitString2       10004c0c f   berdecod.obj
+ 0001:00003c14       ASN1BERDecCharString       10004c14 f   berdecod.obj
+ 0001:00003e98       ASN1BERDecChar16String     10004e98 f   berdecod.obj
+ 0001:000041a8       ASN1BERDecChar32String     100051a8 f   berdecod.obj
+ 0001:0000449c       ASN1BERDecGeneralizedTime  1000549c f   berdecod.obj
+ 0001:0000451c       ASN1BERDecZeroMultibyteString 1000551c f   berdecod.obj
+ 0001:00004520       ASN1BERDecMultibyteString  10005520 f   berdecod.obj
+ 0001:00004524       ASN1BERDecUTCTime          10005524 f   berdecod.obj
+ 0001:000045a4       ASN1BERDecZeroChar16String 100055a4 f   berdecod.obj
+ 0001:00004780       ASN1BERDecZeroChar32String 10005780 f   berdecod.obj
+ 0001:0000499c       ASN1BEREncCharString       1000599c f   berencod.obj
+ 0001:000049f8       ASN1CEREncCharString       100059f8 f   berencod.obj
+ 0001:00004af0       ASN1BEREncChar16String     10005af0 f   berencod.obj
+ 0001:00004b6c       ASN1CEREncChar16String     10005b6c f   berencod.obj
+ 0001:00004ca4       ASN1BEREncChar32String     10005ca4 f   berencod.obj
+ 0001:00004d4c       ASN1CEREncChar32String     10005d4c f   berencod.obj
+ 0001:00004edc       ASN1BEREncBitString        10005edc f   berencod.obj
+ 0001:00004f80       ASN1CEREncBitString        10005f80 f   berencod.obj
+ 0001:000050d8       ASN1BEREncDouble           100060d8 f   berencod.obj
+ 0001:00005398       ASN1BEREncGeneralizedTime  10006398 f   berencod.obj
+ 0001:00005420       ASN1CEREncGeneralizedTime  10006420 f   berencod.obj
+ 0001:000054a0       ASN1BEREncS32              100064a0 f   berencod.obj
+ 0001:000055c4       ASN1BEREncSX               100065c4 f   berencod.obj
+ 0001:00005674       ASN1BEREncZeroMultibyteString 10006674 f   berencod.obj
+ 0001:000056a4       ASN1BEREncMultibyteString  100066a4 f   berencod.obj
+ 0001:000056b0       ASN1CEREncZeroMultibyteString 100066b0 f   berencod.obj
+ 0001:000056e0       ASN1CEREncMultibyteString  100066e0 f   berencod.obj
+ 0001:000056ec       ASN1BEREncNull             100066ec f   berencod.obj
+ 0001:00005714       _BEREncOidNode             10006714 f   berencod.obj
+ 0001:00005770       ASN1BEREncObjectIdentifier 10006770 f   berencod.obj
+ 0001:00005874       ASN1BEREncObjectIdentifier2 10006874 f   berencod.obj
+ 0001:00005974       ASN1CEREncOctetString      10006974 f   berencod.obj
+ 0001:00005a6c       ASN1BEREncRemoveZeroBits   10006a6c f   berencod.obj
+ 0001:00005b0c       ASN1BEREncUTCTime          10006b0c f   berencod.obj
+ 0001:00005b94       ASN1CEREncUTCTime          10006b94 f   berencod.obj
+ 0001:00005c14       ASN1BEREncOpenType         10006c14 f   berencod.obj
+ 0001:00005c60       ASN1BEREncFlush            10006c60 f   berencod.obj
+ 0001:00005cb8       _BERPutLength              10006cb8 f   nm_ber.obj
+ 0001:00005d50       ASN1BERDecCheck            10006d50 f   nm_ber.obj
+ 0001:00005d90       _BERDecConstructed         10006d90 f   nm_ber.obj
+ 0001:00005e14       ASN1BERDecTag              10006e14 f   nm_ber.obj
+ 0001:00005ed4       ASN1BERDecLength           10006ed4 f   nm_ber.obj
+ 0001:00005ff8       ASN1BERDecExplicitTag      10006ff8 f   nm_ber.obj
+ 0001:0000609c       ASN1BERDecPeekTag          1000709c f   nm_ber.obj
+ 0001:00006158       ASN1BERDecBool             10007158 f   nm_ber.obj
+ 0001:000061d8       ASN1BERDecU32Val           100071d8 f   nm_ber.obj
+ 0001:00006340       ASN1BERDecEndOfContents    10007340 f   nm_ber.obj
+ 0001:000063f8       ASN1BERDecNotEndOfContents 100073f8 f   nm_ber.obj
+ 0001:00006454       ASN1CEREncBeginBlk         10007454 f   nm_ber.obj
+ 0001:000064c0       ASN1CEREncFlushBlkElement  100074c0 f   nm_ber.obj
+ 0001:00006610       _BEREncOidNode64           10007610 f   nm_ber.obj
+ 0001:000066c8       ASN1BERDotVal2Eoid         100076c8 f   nm_ber.obj
+ 0001:00006808       ASN1BEREoid2DotVal         10007808 f   nm_ber.obj
+ 0001:00006a5c       ASN1BERDecEoid             10007a5c f   nm_ber.obj
+ 0001:00006b04       ASN1BEREoid_free           10007b04 f   nm_ber.obj
+ 0001:00006b18       ASN1BEREncTag              10007b18 f   nm_ber.obj
+ 0001:00006c48       ASN1BEREncLength           10007c48 f   nm_ber.obj
+ 0001:00006cbc       ASN1BEREncOctetString      10007cbc f   nm_ber.obj
+ 0001:00006d18       ASN1BEREncBool             10007d18 f   nm_ber.obj
+ 0001:00006d74       ASN1BEREncU32              10007d74 f   nm_ber.obj
+ 0001:00006e80       _BERDecOctetString         10007e80 f   nm_ber.obj
+ 0001:00007058       ASN1BERDecOctetString      10008058 f   nm_ber.obj
+ 0001:00007060       ASN1BERDecOctetString2     10008060 f   nm_ber.obj
+ 0001:00007068       ASN1CEREncNewBlkElement    10008068 f   nm_ber.obj
+ 0001:00007148       ASN1CEREncEndBlk           10008148 f   nm_ber.obj
+ 0001:00007228       ASN1BEREncExplicitTag      10008228 f   nm_ber.obj
+ 0001:000072b8       ASN1BEREncEndOfContents    100082b8 f   nm_ber.obj
+ 0001:000073c0       ASN1BEREncEoid             100083c0 f   nm_ber.obj
+ 0001:00007420       ASN1BEREncUTF8String       10008420 f   ms_utf8.obj
+ 0001:0000752c       ASN1BERDecUTF8String       1000852c f   ms_utf8.obj
+ 0001:000076b0       ASN1bitcpy                 100086b0 f   bit.obj
+ 0001:000078d8       _ui64toa_s                 100088d8 f   ceutils.obj
+ 0001:000079e0       ASN1EncCheck               100089e0 f   perencod.obj
+ 0001:00007afc       ASN1PEREncRemoveZeroBits   10008afc f   perencod.obj
+ 0001:00007ba8       ASN1PEREncFlush            10008ba8 f   perencod.obj
+ 0001:00007c18       ASN1PERDecCheck            10008c18 f   perdecod.obj
+ 0001:00007c8c       ASN1PERDecFlush            10008c8c f   perdecod.obj
+ 0001:00007d30       LocalFree                  10008d30 f   coredll:COREDLL.dll
+ 0001:00007d40       LocalAlloc                 10008d40 f   coredll:COREDLL.dll
+ 0001:00007d50       StringCchCatA              10008d50 f   coredll:COREDLL.dll
+ 0001:00007d60       StringCchPrintfExA         10008d60 f   coredll:COREDLL.dll
+ 0001:00007d70       LocalReAlloc               10008d70 f   coredll:COREDLL.dll
+ 0001:00007d80       DisableThreadLibraryCalls  10008d80 f   coredll:COREDLL.dll
+ 0001:00007d90       WideCharToMultiByte        10008d90 f   coredll:COREDLL.dll
+ 0001:00007da0       MultiByteToWideChar        10008da0 f   coredll:COREDLL.dll
+ 0001:00007ea8       _DllMainCRTStartup         10008ea8 f   corelib0:pegdmain.obj
+ 0001:00007ed4       __GSHandlerCheckCommon     10008ed4 f   corelib0:gshandler.obj
+ 0001:00007f10       __GSHandlerCheck           10008f10 f   corelib0:gshandler.obj
+ 0001:00007f30       __security_init_cookie     10008f30 f   corelib0:seccinit.obj
+ 0001:00007f7c       __security_check_cookie    10008f7c f   corelib0:armsecgs.obj
+ 0001:00007f8c       __gsfailure                10008f8c     corelib0:armsecgs.obj
+ 0001:000080b8       _cexit                     100090b8 f   corelib0:cexit.obj
+ 0001:000080c8       _initterm                  100090c8 f   corelib0:crt0dat.obj
+ 0001:000080f4       _cinit                     100090f4 f   corelib0:crt0dat.obj
+ 0001:00008154       __crt_ExitProcess          10009154 f   corelib0:exitproc_proxy.obj
+ 0001:00008160       strlen                     10009160 f   corelib1:COREDLL.dll
+ 0001:00008170       memcmp                     10009170 f   corelib1:COREDLL.dll
+ 0001:00008180       strcmp                     10009180 f   corelib1:COREDLL.dll
+ 0001:00008190       memset                     10009190 f   corelib1:COREDLL.dll
+ 0001:000081a0       memcpy                     100091a0 f   corelib1:COREDLL.dll
+ 0001:000081b0       _fpclass                   100091b0 f   corelib1:COREDLL.dll
+ 0001:000081c0       _finite                    100091c0 f   corelib1:COREDLL.dll
+ 0001:000081d0       strtod                     100091d0 f   corelib1:COREDLL.dll
+ 0001:000081e0       strchr                     100091e0 f   corelib1:COREDLL.dll
+ 0001:000081f0       ldexp                      100091f0 f   corelib1:COREDLL.dll
+ 0001:00008200       memchr                     10009200 f   corelib1:COREDLL.dll
+ 0001:00008210       frexp                      10009210 f   corelib1:COREDLL.dll
+ 0001:00008220       _atoi64                    10009220 f   corelib1:COREDLL.dll
+ 0001:00008230       _ultoa_s                   10009230 f   corelib1:COREDLL.dll
+ 0001:00008240       memmove                    10009240 f   corelib1:COREDLL.dll
+ 0001:00008250       _XcptFilter                10009250 f   corelib1:COREDLL.dll
+ 0001:00008260       __C_specific_handler       10009260 f   corelib1:COREDLL.dll
+ 0001:00008270       __security_gen_cookie2     10009270 f   corelib1:COREDLL.dll
+ 0001:00008280       __report_gsfailure         10009280 f   corelib1:COREDLL.dll
+ 0001:00008290       free                       10009290 f   corelib1:COREDLL.dll
+ 0001:000082a0       DeleteCriticalSection      100092a0 f   coredll:COREDLL.dll
+ 0001:000082b0       InterlockedExchange        100092b0 f   coredll:COREDLL.dll
+ 0001:000082c0       TerminateProcess           100092c0 f   coredll:COREDLL.dll
+ 0001:00008308       __IMPORT_DESCRIPTOR_COREDLL 10009308     coredll:COREDLL.dll
+ 0001:0000831c       __NULL_IMPORT_DESCRIPTOR   1000931c     coredll:COREDLL.dll
+ 0002:00000000       __imp_LocalFree            1000b000     coredll:COREDLL.dll
+ 0002:00000004       __imp_LocalAlloc           1000b004     coredll:COREDLL.dll
+ 0002:00000008       __imp_StringCchCatA        1000b008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_StringCchPrintfExA   1000b00c     coredll:COREDLL.dll
+ 0002:00000010       __imp_LocalReAlloc         1000b010     coredll:COREDLL.dll
+ 0002:00000014       __imp_DisableThreadLibraryCalls 1000b014     coredll:COREDLL.dll
+ 0002:00000018       __imp_WideCharToMultiByte  1000b018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_MultiByteToWideChar  1000b01c     coredll:COREDLL.dll
+ 0002:00000020       __imp_strlen               1000b020     corelib1:COREDLL.dll
+ 0002:00000024       __imp_memcmp               1000b024     corelib1:COREDLL.dll
+ 0002:00000028       __imp_strcmp               1000b028     corelib1:COREDLL.dll
+ 0002:0000002c       __imp_memset               1000b02c     corelib1:COREDLL.dll
+ 0002:00000030       __imp_memcpy               1000b030     corelib1:COREDLL.dll
+ 0002:00000034       __imp__fpclass             1000b034     corelib1:COREDLL.dll
+ 0002:00000038       __imp__finite              1000b038     corelib1:COREDLL.dll
+ 0002:0000003c       __imp_strtod               1000b03c     corelib1:COREDLL.dll
+ 0002:00000040       __imp_strchr               1000b040     corelib1:COREDLL.dll
+ 0002:00000044       __imp_ldexp                1000b044     corelib1:COREDLL.dll
+ 0002:00000048       __imp_memchr               1000b048     corelib1:COREDLL.dll
+ 0002:0000004c       __imp_frexp                1000b04c     corelib1:COREDLL.dll
+ 0002:00000050       __imp__atoi64              1000b050     corelib1:COREDLL.dll
+ 0002:00000054       __imp__ultoa_s             1000b054     corelib1:COREDLL.dll
+ 0002:00000058       __imp___rt_udiv64by64      1000b058     corelib1:COREDLL.dll
+ 0002:0000005c       __imp_memmove              1000b05c     corelib1:COREDLL.dll
+ 0002:00000060       __imp___rt_urem64by64      1000b060     corelib1:COREDLL.dll
+ 0002:00000064       __imp__XcptFilter          1000b064     corelib1:COREDLL.dll
+ 0002:00000068       __imp___C_specific_handler 1000b068     corelib1:COREDLL.dll
+ 0002:0000006c       __imp___security_gen_cookie2 1000b06c     corelib1:COREDLL.dll
+ 0002:00000070       __imp___report_gsfailure   1000b070     corelib1:COREDLL.dll
+ 0002:00000074       __imp_free                 1000b074     corelib1:COREDLL.dll
+ 0002:00000078       __imp_DeleteCriticalSection 1000b078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_InterlockedExchange  1000b07c     coredll:COREDLL.dll
+ 0002:00000080       __imp_TerminateProcess     1000b080     coredll:COREDLL.dll
+ 0002:00000084       \177COREDLL_NULL_THUNK_DATA 1000b084     coredll:COREDLL.dll
+ 0002:00000088       ASN1intx_0                 1000b088     intx.obj
+ 0002:00000090       ASN1intx_1_                1000b090     intx.obj
+ 0002:00000091       ASN1intx_2_                1000b091     intx.obj
+ 0002:00000092       ASN1intx_16_               1000b092     intx.obj
+ 0002:00000094       ASN1intx_1                 1000b094     intx.obj
+ 0002:0000009c       ASN1intx_2                 1000b09c     intx.obj
+ 0002:000000a4       ASN1intx_16                1000b0a4     intx.obj
+ 0002:000000ac       ASN1intx_256_              1000b0ac     intx.obj
+ 0002:000000b0       ASN1intx_256               1000b0b0     intx.obj
+ 0002:000000b8       ASN1intx_64K_              1000b0b8     intx.obj
+ 0002:000000bc       ASN1intx_64K               1000b0bc     intx.obj
+ 0002:000000c4       ASN1intx_1G_               1000b0c4     intx.obj
+ 0002:000000c8       ASN1intx_1G                1000b0c8     intx.obj
+ 0002:000000d0       g_dwMaxRecursionLevel      1000b0d0     perfn.obj
+ 0002:000000d4       g_dwMaxDecodeBufferSize    1000b0d4     perfn.obj
+ 0002:000000d8       __security_cookie          1000b0d8     corelib0:seccinit.obj
+ 0002:000000dc       __security_cookie_complement 1000b0dc     corelib0:seccinit.obj
+ 0002:000000e0       ASN1intx_0_                1000b0e0     intx.obj
+ 0002:000000e4       g_bIsConfigInitialized     1000b0e4     perfn.obj
+ 0002:000000e8       _exitflag                  1000b0e8     corelib0:cexit.obj
+ 0002:000000ec       __@@_PchSym_@00@UygUDAJBUkirezgvUdrmxvlhUxlnnUhvxfirgbUzhmBUzhmBoryUlyqUzineHUivgzroUkivxlnkOlyq@msasn1 1000b0ec     <common>
+ 0002:000000f0       __onexitend                1000b0f0     <common>
+ 0002:000000f4       __onexitbegin              1000b0f4     <common>
+ 0002:000000f8       g_pcsExit                  1000b0f8     <common>
+ 0002:000000fc       _pRawDllMain               1000b0fc     <common>
+
+ entry point at        0001:00007ea8
+
+ Static symbols
+
+ 0001:00001fa4       scanfrac                   10002fa4 f   types.obj
+ 0001:000038d0       safeIntUAdd3AndMul         100048d0 f   berdecod.obj
+ 0001:00007db8       _DllMainCRTStartupHelper   10008db8 f   corelib0:pegdmain.obj
+ 0001:00007fd0       doexit                     10008fd0 f   corelib0:cexit.obj

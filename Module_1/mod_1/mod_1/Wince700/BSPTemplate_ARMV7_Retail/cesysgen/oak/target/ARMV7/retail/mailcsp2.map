@@ -1,0 +1,545 @@
+ mailcsp2
+
+ Timestamp is 5cafb4a5 (Thu Apr 11 14:41:57 2019)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCL                CODE
+ 0001:00000008 00000004H .CRT$XCU                CODE
+ 0001:0000000c 00000004H .CRT$XCZ                CODE
+ 0001:00000010 00000004H .CRT$XIA                CODE
+ 0001:00000014 00000004H .CRT$XIZ                CODE
+ 0001:00000018 00000004H .CRT$XPA                CODE
+ 0001:0000001c 00000004H .CRT$XPZ                CODE
+ 0001:00000020 00000004H .CRT$XTA                CODE
+ 0001:00000024 00000004H .CRT$XTZ                CODE
+ 0001:00000030 00000b40H .rdata                  CODE
+ 0001:00000b70 00000025H .rdata$debug            CODE
+ 0001:00000b98 00007344H .text                   CODE
+ 0001:00007edc 0000005cH .text$yc                CODE
+ 0001:00007f38 00000028H .text$yd                CODE
+ 0001:00007f60 00000074H .xdata                  CODE
+ 0001:00007fd4 00000000H ATL$__a                 CODE
+ 0001:00007fd4 00000000H ATL$__z                 CODE
+ 0001:00007fd4 0000008cH .idata$2                CODE
+ 0001:00008060 00000014H .idata$3                CODE
+ 0001:00008074 000001a8H .idata$4                CODE
+ 0001:0000821c 0000019eH .idata$6                CODE
+ 0001:000083c0 0000006bH .edata                  CODE
+ 0002:00000000 000001a8H .idata$5                DATA
+ 0002:000001a8 0000018cH .data                   DATA
+ 0002:00000334 000000bcH .bss                    DATA
+ 0003:00000000 000004a0H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:0000000c       __xc_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xi_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xi_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xp_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xp_z                     1000101c     corelib0:crt0init.obj
+ 0001:00000020       __xt_a                     10001020     corelib0:crt0init.obj
+ 0001:00000024       __xt_z                     10001024     corelib0:crt0init.obj
+ 0001:0000004c       ??_C@_1BA@JIHHIEDE@?$AAT?$AAy?$AAp?$AAe?$AAL?$AAi?$AAb?$AA?$AA@ 1000104c     DllMain.obj
+ 0001:0000005c       ??_C@_1BC@EAHCMADO@?$AAS?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AA?$AA@ 1000105c     DllMain.obj
+ 0001:00000070       ??_C@_1O@GBFINDKL@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?$AA@ 10001070     DllMain.obj
+ 0001:00000080       ??_C@_1BC@IBECJAAI@?$AAS?$AAE?$AAC?$AAU?$AAR?$AAI?$AAT?$AAY?$AA?$AA@ 10001080     DllMain.obj
+ 0001:00000094       ??_C@_17OMAOINJK@?$AAS?$AAA?$AAM?$AA?$AA@ 10001094     DllMain.obj
+ 0001:0000009c       ??_C@_19HLLLM@?$AAM?$AAi?$AAm?$AAe?$AA?$AA@ 1000109c     DllMain.obj
+ 0001:000000a8       ??_C@_1BC@MAICEHGI@?$AAH?$AAa?$AAr?$AAd?$AAw?$AAa?$AAr?$AAe?$AA?$AA@ 100010a8     DllMain.obj
+ 0001:000000bc       ??_C@_1BE@EKPAFMCP@?$AAI?$AAn?$AAt?$AAe?$AAr?$AAf?$AAa?$AAc?$AAe?$AA?$AA@ 100010bc     DllMain.obj
+ 0001:000000d0       ??_C@_1BC@NKMMNMGL@?$AAF?$AAi?$AAl?$AAe?$AAT?$AAy?$AAp?$AAe?$AA?$AA@ 100010d0     DllMain.obj
+ 0001:000000e4       ??_C@_1CK@OEKPKBNA@?$AAC?$AAo?$AAm?$AAp?$AAo?$AAn?$AAe?$AAn?$AAt?$AA?5?$AAC?$AAa?$AAt?$AAe?$AAg?$AAo?$AAr?$AAi?$AAe?$AAs?$AA?$AA@ 100010e4     DllMain.obj
+ 0001:00000110       ??_C@_1M@KANJNLFF@?$AAC?$AAL?$AAS?$AAI?$AAD?$AA?$AA@ 10001110     DllMain.obj
+ 0001:0000011c       ??_C@_1M@EJNEECMJ@?$AAA?$AAp?$AAp?$AAI?$AAD?$AA?$AA@ 1000111c     DllMain.obj
+ 0001:00000128       ??_C@_1O@JDLOHAN@?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AA?$AA@ 10001128     DllMain.obj
+ 0001:00000138       ??_C@_1BC@GCKHIPE@?$AAN?$AAo?$AAR?$AAe?$AAm?$AAo?$AAv?$AAe?$AA?$AA@ 10001138     DllMain.obj
+ 0001:0000014c       ??_C@_1BI@JFAIJMHL@?$AAF?$AAo?$AAr?$AAc?$AAe?$AAR?$AAe?$AAm?$AAo?$AAv?$AAe?$AA?$AA@ 1000114c     DllMain.obj
+ 0001:00000164       ??_C@_17LLMMEOJD@?$AAV?$AAa?$AAl?$AA?$AA@ 10001164     DllMain.obj
+ 0001:0000016c       ??_C@_13OPKGLAFF@?$AAB?$AA?$AA@ 1000116c     DllMain.obj
+ 0001:00000170       ??_C@_13MKMNOPIJ@?$AAD?$AA?$AA@ 10001170     DllMain.obj
+ 0001:00000174       ??_C@_13LHMFKAAD@?$AAM?$AA?$AA@ 10001174     DllMain.obj
+ 0001:00000178       ??_C@_13HADIAKP@?$AAS?$AA?$AA@ 10001178     DllMain.obj
+ 0001:000001c0       ?g_cftThisDll@@3QBUtagOBJECTINFO@@B 100011c0     DllMain.obj
+ 0001:000001d8       ?rgszNeverDelete@CRegParser@ATL@@1QBQBGB 100011d8     DllMain.obj
+ 0001:00000208       PS_MAPI                    10001208     DllMain.obj
+ 0001:00000218       ??_7?$CComObject@VCEmailCsp@@@ATL@@6B@ 10001218     DllMain.obj
+ 0001:0000025c       ?_entries@?1??_GetEntries@CEmailCsp@@SAPBU_ATL_INTMAP_ENTRY@ATL@@XZ@4QBU34@B 1000125c     DllMain.obj
+ 0001:0000028c       _GUID_00000000_0000_0000_c000_000000000046 1000128c     DllMain.obj
+ 0001:0000029c       _GUID_d83013b3_9ec6_464f_a188_1854cd5b4e99 1000129c     DllMain.obj
+ 0001:000002ac       _GUID_d83013b4_9ec6_464f_a188_1854cd5b4e99 100012ac     DllMain.obj
+ 0001:000002bc       ??_7CComModule@ATL@@6B@    100012bc     DllMain.obj
+ 0001:000002e4       _GUID_00000146_0000_0000_c000_000000000046 100012e4     DllMain.obj
+ 0001:000002f8       ?map@?1??HKeyFromString@CRegParser@ATL@@KAPAUHKEY__@@PAG@Z@4QBUkeymap@?1??123@KAPAU4@0@Z@B 100012f8     DllMain.obj
+ 0001:00000338       ??_C@_19NCHLBIN@?$AAH?$AAK?$AAC?$AAR?$AA?$AA@ 10001338     DllMain.obj
+ 0001:00000344       ??_C@_19JAPAIJDE@?$AAH?$AAK?$AAC?$AAU?$AA?$AA@ 10001344     DllMain.obj
+ 0001:00000350       ??_C@_19PEALEEJB@?$AAH?$AAK?$AAL?$AAM?$AA?$AA@ 10001350     DllMain.obj
+ 0001:0000035c       ??_C@_17PJOJPMPB@?$AAH?$AAK?$AAU?$AA?$AA@ 1000135c     DllMain.obj
+ 0001:00000364       ??_C@_1CE@PACHPJFI@?$AAH?$AAK?$AAE?$AAY?$AA_?$AAC?$AAL?$AAA?$AAS?$AAS?$AAE?$AAS?$AA_?$AAR?$AAO?$AAO?$AAT?$AA?$AA@ 10001364     DllMain.obj
+ 0001:00000388       ??_C@_1CE@HLHNCBPM@?$AAH?$AAK?$AAE?$AAY?$AA_?$AAC?$AAU?$AAR?$AAR?$AAE?$AAN?$AAT?$AA_?$AAU?$AAS?$AAE?$AAR?$AA?$AA@ 10001388     DllMain.obj
+ 0001:000003ac       ??_C@_1CG@GFBEANJL@?$AAH?$AAK?$AAE?$AAY?$AA_?$AAL?$AAO?$AAC?$AAA?$AAL?$AA_?$AAM?$AAA?$AAC?$AAH?$AAI?$AAN?$AAE?$AA?$AA@ 100013ac     DllMain.obj
+ 0001:000003d4       ??_C@_1BG@BGODANIO@?$AAH?$AAK?$AAE?$AAY?$AA_?$AAU?$AAS?$AAE?$AAR?$AAS?$AA?$AA@ 100013d4     DllMain.obj
+ 0001:000003ec       ??_C@_11LOCGONAA@?$AA?$AA@ 100013ec     DllMain.obj
+ 0001:000003f0       ??_C@_1M@PPPPCDEP@?$AAA?$AAP?$AAP?$AAI?$AAD?$AA?$AA@ 100013f0     DllMain.obj
+ 0001:000003fc       ??_7CRegObject@ATL@@6B@    100013fc     DllMain.obj
+ 0001:00000414       ??_C@_1BE@LJOLIMEM@?$AA?$AN?$AA?6?$AA?7?$AA?$HN?$AA?$AN?$AA?6?$AA?$HN?$AA?$AN?$AA?6?$AA?$AA@ 10001414     DllMain.obj
+ 0001:00000428       ??_C@_1EA@NHKLICFA@?$AAH?$AAK?$AAC?$AAU?$AA?$AN?$AA?6?$AA?$HL?$AA?7?$AAS?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AA?$AN?$AA?6?$AA?7?$AA?$HL?$AA?$AN?$AA?6?$AA?7?$AA?7?$AAC?$AAl?$AAa?$AAs?$AAs?$AAe?$AAs?$AA?$AA@ 10001428     DllMain.obj
+ 0001:00000468       ??_C@_1BC@KAILKFFG@?$AAR?$AAE?$AAG?$AAI?$AAS?$AAT?$AAR?$AAY?$AA?$AA@ 10001468     DllMain.obj
+ 0001:0000047c       ??_C@_1BG@JBACFMF@?$AAM?$AAo?$AAd?$AAu?$AAl?$AAe?$AA_?$AAR?$AAa?$AAw?$AA?$AA@ 1000147c     DllMain.obj
+ 0001:00000494       ??_C@_1O@MNLDABAF@?$AAM?$AAo?$AAd?$AAu?$AAl?$AAe?$AA?$AA@ 10001494     DllMain.obj
+ 0001:000004a4       ??_C@_1CA@OOEGNFML@?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AAS?$AAe?$AAr?$AAv?$AAe?$AAr?$AAO?$AAn?$AA?$AA@ 100014a4     emailutils.obj
+ 0001:000004c8       ?kszDLL@@3QBGB             100014c8     emailutils.obj
+ 0001:000004d0       ?kszType@@3QBGB            100014d0     emailutils.obj
+ 0001:000004dc       ?kszTransportPort@@3QBGB   100014dc     emailutils.obj
+ 0001:000004e8       ?kszSMTP@@3QBGB            100014e8     emailutils.obj
+ 0001:000004f4       ?kszPOP3@@3QBGB            100014f4     emailutils.obj
+ 0001:00000500       ?kszIMAP4@@3QBGB           10001500     emailutils.obj
+ 0001:00000510       ?kszSettingsKey@@3QBGB     10001510     emailutils.obj
+ 0001:00000554       ?kszSecureSettingsKey@@3QBGB 10001554     emailutils.obj
+ 0001:00000580       ?kszRegWizardRun@@3QBGB    10001580     emailutils.obj
+ 0001:00000590       ?kszRegCurServiceName@@3QBGB 10001590     emailutils.obj
+ 0001:000005b0       ?kszRegPortToSvcNameMapKey@@3QBGB 100015b0     emailutils.obj
+ 0001:000005fc       ?kszTransportsKey@@3QBGB   100015fc     emailutils.obj
+ 0001:00000638       ??_C@_13FPGAJAPJ@?$AA?2?$AA?$AA@ 10001638     emailutils.obj
+ 0001:0000063c       ??_C@_13MOEPKPHB@?$AA?$DO?$AA?$AA@ 1000163c     emailcsp.obj
+ 0001:00000640       ??_C@_15PDGMBMHD@?$AA?5?$AA?$DM?$AA?$AA@ 10001640     emailcsp.obj
+ 0001:00000648       ??_C@_1CG@IDNOGOJD@?$AAS?$AAE?$AAR?$AAV?$AAE?$AAR?$AAD?$AAE?$AAL?$AAE?$AAT?$AAE?$AAA?$AAC?$AAT?$AAI?$AAO?$AAN?$AA?$AA@ 10001648     emailcsp.obj
+ 0001:00000670       ??_C@_1DA@EBKJMHNJ@?$AAS?$AAY?$AAN?$AAC?$AAM?$AAA?$AAN?$AAU?$AAA?$AAL?$AAL?$AAY?$AAW?$AAH?$AAE?$AAN?$AAR?$AAO?$AAA?$AAM?$AAI?$AAN?$AAG?$AA?$AA@ 10001670     emailcsp.obj
+ 0001:000006a0       ??_C@_1BG@FIIGDOKC@?$AAS?$AAY?$AAN?$AAC?$AAO?$AAN?$AAS?$AAE?$AAN?$AAD?$AA?$AA@ 100016a0     emailcsp.obj
+ 0001:000006b8       ??_C@_1BI@JJHFLFLN@?$AAA?$AAC?$AAC?$AAO?$AAU?$AAN?$AAT?$AAI?$AAC?$AAO?$AAN?$AA?$AA@ 100016b8     emailcsp.obj
+ 0001:000006d0       ??_C@_1O@FKNKNCIL@?$AAF?$AAO?$AAR?$AAM?$AAA?$AAT?$AA?$AA@ 100016d0     emailcsp.obj
+ 0001:000006e0       ??_C@_1BO@NHBNKANJ@?$AAS?$AAM?$AAT?$AAP?$AAA?$AAL?$AAT?$AAE?$AAN?$AAA?$AAB?$AAL?$AAE?$AAD?$AA?$AA@ 100016e0     emailcsp.obj
+ 0001:00000700       ??_C@_1BM@CJINGNFN@?$AAS?$AAM?$AAT?$AAP?$AAA?$AAL?$AAT?$AAD?$AAO?$AAM?$AAA?$AAI?$AAN?$AA?$AA@ 10001700     emailcsp.obj
+ 0001:0000071c       ??_C@_1CA@FNIJEBAP@?$AAS?$AAM?$AAT?$AAP?$AAA?$AAL?$AAT?$AAP?$AAA?$AAS?$AAS?$AAW?$AAO?$AAR?$AAD?$AA?$AA@ 1000171c     emailcsp.obj
+ 0001:0000073c       ??_C@_1CA@DCCEFFOG@?$AAS?$AAM?$AAT?$AAP?$AAA?$AAL?$AAT?$AAA?$AAU?$AAT?$AAH?$AAN?$AAA?$AAM?$AAE?$AA?$AA@ 1000173c     emailcsp.obj
+ 0001:0000075c       ??_C@_1BK@CLIAAMAI@?$AAC?$AAO?$AAN?$AAN?$AAE?$AAC?$AAT?$AAI?$AAO?$AAN?$AAI?$AAD?$AA?$AA@ 1000175c     emailcsp.obj
+ 0001:00000778       ??_C@_1O@GBBHCPLE@?$AAD?$AAW?$AAN?$AAD?$AAA?$AAY?$AA?$AA@ 10001778     emailcsp.obj
+ 0001:00000788       ??_C@_1BA@MLAKJPGB@?$AAK?$AAE?$AAE?$AAP?$AAM?$AAA?$AAX?$AA?$AA@ 10001788     emailcsp.obj
+ 0001:00000798       ??_C@_1BC@MGBBHPLG@?$AAR?$AAE?$AAT?$AAR?$AAI?$AAE?$AAV?$AAE?$AA?$AA@ 10001798     emailcsp.obj
+ 0001:000007ac       ??_C@_1O@HFHIMNJE@?$AAL?$AAI?$AAN?$AAG?$AAE?$AAR?$AA?$AA@ 100017ac     emailcsp.obj
+ 0001:000007bc       ??_C@_1BK@LADFJFCP@?$AAA?$AAU?$AAT?$AAH?$AAR?$AAE?$AAQ?$AAU?$AAI?$AAR?$AAE?$AAD?$AA?$AA@ 100017bc     emailcsp.obj
+ 0001:000007d8       ??_C@_1BE@JKAIOJLF@?$AAR?$AAE?$AAP?$AAL?$AAY?$AAA?$AAD?$AAD?$AAR?$AA?$AA@ 100017d8     emailcsp.obj
+ 0001:000007ec       ??_C@_19GGDNNDFE@?$AAN?$AAA?$AAM?$AAE?$AA?$AA@ 100017ec     emailcsp.obj
+ 0001:000007f8       ??_C@_1BE@DGGCKDFN@?$AAO?$AAU?$AAT?$AAS?$AAE?$AAR?$AAV?$AAE?$AAR?$AA?$AA@ 100017f8     emailcsp.obj
+ 0001:0000080c       ??_C@_1BI@GFDNKEPD@?$AAS?$AAE?$AAR?$AAV?$AAI?$AAC?$AAE?$AAT?$AAY?$AAP?$AAE?$AA?$AA@ 1000180c     emailcsp.obj
+ 0001:00000824       ??_C@_1BI@EFKHIOAJ@?$AAS?$AAE?$AAR?$AAV?$AAI?$AAC?$AAE?$AAN?$AAA?$AAM?$AAE?$AA?$AA@ 10001824     emailcsp.obj
+ 0001:0000083c       ??_C@_1O@OJEJOMJK@?$AAD?$AAO?$AAM?$AAA?$AAI?$AAN?$AA?$AA@ 1000183c     emailcsp.obj
+ 0001:0000084c       ??_C@_1BG@DMDBCFGL@?$AAA?$AAU?$AAT?$AAH?$AAS?$AAE?$AAC?$AAR?$AAE?$AAT?$AA?$AA@ 1000184c     emailcsp.obj
+ 0001:00000864       ??_C@_1BC@NLLCCBE@?$AAA?$AAU?$AAT?$AAH?$AAN?$AAA?$AAM?$AAE?$AA?$AA@ 10001864     emailcsp.obj
+ 0001:00000878       ??_C@_1BC@DHAFIGAK@?$AAI?$AAN?$AAS?$AAE?$AAR?$AAV?$AAE?$AAR?$AA?$AA@ 10001878     emailcsp.obj
+ 0001:0000088c       ??_C@_1BC@HBBIFBF@?$AAT?$AAA?$AAG?$AAP?$AAR?$AAO?$AAP?$AAS?$AA?$AA@ 1000188c     emailcsp.obj
+ 0001:000008a0       ??_C@_1BG@OHLABCAG@?$AAN?$AAA?$AAM?$AAE?$AAD?$AAP?$AAR?$AAO?$AAP?$AAS?$AA?$AA@ 100018a0     emailcsp.obj
+ 0001:000008b8       ??_C@_1O@CAIAOGNP@?$AAE?$AAM?$AAA?$AAI?$AAL?$AA2?$AA?$AA@ 100018b8     emailcsp.obj
+ 0001:00000a88       ??_7CEmailCsp@@6B@         10001a88     emailcsp.obj
+ 0001:00000ac8       ??_C@_1BI@OBKCJHGO@?$AAm?$AAa?$AAi?$AAl?$AAh?$AAo?$AAs?$AAt?$AA?3?$AA?1?$AA?1?$AA?$AA@ 10001ac8     emailcsp.obj
+ 0001:00000ae0       ??_C@_1M@KBCLFMHN@?$AAv?$AAa?$AAl?$AAu?$AAe?$AA?$AA@ 10001ae0     emailcsp.obj
+ 0001:00000aec       ??_C@_19HHIIBINK@?$AAn?$AAa?$AAm?$AAe?$AA?$AA@ 10001aec     emailcsp.obj
+ 0001:00000af8       ??_C@_19HJNLDBCA@?$AAp?$AAa?$AAr?$AAm?$AA?$AA@ 10001af8     emailcsp.obj
+ 0001:00000b04       ??_C@_19EBPEOCDM@?$AAG?$AAU?$AAI?$AAD?$AA?$AA@ 10001b04     emailcsp.obj
+ 0001:00000b10       CLSID_StdGlobalInterfaceTable 10001b10     dcomuuid:dcomuuid.obj
+ 0001:00000b20       IID_IUnknown               10001b20     dcomuuid:dcomuuid.obj
+ 0001:00000b30       GUID_ATLVer30              10001b30     atls:atlbase.obj
+ 0001:00000b40       GUID_ATLVer70              10001b40     atls:atlbase.obj
+ 0001:00000ba0       ?Init@CComCriticalSection@ATL@@QAAJXZ 10001ba0 f i DllMain.obj
+ 0001:00000bf8       ?AtlCallTermFunc@ATL@@YAXPAU_ATL_MODULE70@1@@Z 10001bf8 f i DllMain.obj
+ 0001:00000c50       DllCanUnloadNow            10001c50 f   DllMain.obj
+ 0001:00000c6c       DllGetClassObject          10001c6c f   DllMain.obj
+ 0001:00000ca0       ?AddRef@CThisDllCF@@QAAKXZ 10001ca0 f   DllMain.obj
+ 0001:00000cb8       ?Release@CThisDllCF@@QAAKXZ 10001cb8 f   DllMain.obj
+ 0001:00000cd0       ?QueryInterface@CThisDllCF@@QAAJABU_GUID@@PAPAX@Z 10001cd0 f   DllMain.obj
+ 0001:00000cf0       ?CreateInstance@CThisDllCF@@QAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10001cf0 f   DllMain.obj
+ 0001:00000cf4       ?LockServer@CThisDllCF@@QAAJH@Z 10001cf4 f   DllMain.obj
+ 0001:00000d20       DllMain                    10001d20 f   DllMain.obj
+ 0001:00000d28       ?InlineIsEqualGUID@@YAHABU_GUID@@0@Z 10001d28 f i DllMain.obj
+ 0001:00000d70       ?AtlInternalQueryInterface@ATL@@YAJPAXPBU_ATL_INTMAP_ENTRY@1@ABU_GUID@@PAPAX@Z 10001d70 f i DllMain.obj
+ 0001:00000e9c       ??1?$CComObject@VCEmailCsp@@@ATL@@UAA@XZ 10001e9c f i DllMain.obj
+ 0001:00000edc       ??_E?$CComObject@VCEmailCsp@@@ATL@@UAAPAXI@Z 10001edc f i DllMain.obj
+ 0001:00000edc       ??_G?$CComObject@VCEmailCsp@@@ATL@@UAAPAXI@Z 10001edc f i DllMain.obj
+ 0001:00000f00       ??0CAtlModule@ATL@@QAA@XZ  10001f00 f i DllMain.obj
+ 0001:00000f68       ?Term@CAtlModule@ATL@@QAAXXZ 10001f68 f i DllMain.obj
+ 0001:00000fbc       ?AddRef@?$CComObject@VCEmailCsp@@@ATL@@UAAKXZ 10001fbc f i DllMain.obj
+ 0001:00000fc4       ?Release@?$CComObject@VCEmailCsp@@@ATL@@UAAKXZ 10001fc4 f i DllMain.obj
+ 0001:00000ffc       ?QueryInterface@?$CComObject@VCEmailCsp@@@ATL@@UAAJABU_GUID@@PAPAX@Z 10001ffc f i DllMain.obj
+ 0001:00001010       ?CreateInstance@?$CComObject@VCEmailCsp@@@ATL@@SAJPAPAV12@@Z 10002010 f i DllMain.obj
+ 0001:000010d0       ?ocscpy_s@@YA_NPAGIPBG@Z   100020d0 f i DllMain.obj
+ 0001:00001124       ?AtlThrowImpl@ATL@@YAXJ@Z  10002124 f i DllMain.obj
+ 0001:00001150       ?AtlCrtErrorCheck@ATL@@YAHH@Z 10002150 f i DllMain.obj
+ 0001:000011a4       ?AtlHresultFromLastError@ATL@@YAJXZ 100021a4 f i DllMain.obj
+ 0001:000011c4       ?AtlHresultFromWin32@ATL@@YAJK@Z 100021c4 f i DllMain.obj
+ 0001:000011dc       ?Lock@CAtlModule@ATL@@UAAJXZ 100021dc f i DllMain.obj
+ 0001:000011e4       ?Unlock@CAtlModule@ATL@@UAAJXZ 100021e4 f i DllMain.obj
+ 0001:000011ec       ?GetLockCount@CAtlModule@ATL@@UAAJXZ 100021ec f i DllMain.obj
+ 0001:000011f4       ?GetGITPtr@CAtlModule@ATL@@UAAJPAPAUIGlobalInterfaceTable@@@Z 100021f4 f i DllMain.obj
+ 0001:00001270       ?EscapeSingleQuote@CAtlModule@ATL@@SAXPAGIPBG@Z 10002270 f i DllMain.obj
+ 0001:000012cc       ?UpdateRegistryFromResourceD@CComModule@ATL@@UAAJPBGHPAU_ATL_REGMAP_ENTRY@2@@Z 100022cc f i DllMain.obj
+ 0001:000012d8       ?UpdateRegistryFromResourceD@CComModule@ATL@@UAAJIHPAU_ATL_REGMAP_ENTRY@2@@Z 100022d8 f i DllMain.obj
+ 0001:000012e4       ?Create@CRegKey@ATL@@QAAJPAUHKEY__@@PBGPAGKKPAU_SECURITY_ATTRIBUTES@@PAK@Z 100022e4 f i DllMain.obj
+ 0001:00001380       ?Open@CRegKey@ATL@@QAAJPAUHKEY__@@PBGK@Z 10002380 f i DllMain.obj
+ 0001:000013ec       ?SetStringValue@CRegKey@ATL@@QAAJPBG0K@Z 100023ec f i DllMain.obj
+ 0001:00001444       ?SetMultiStringValue@CRegKey@ATL@@QAAJPBG0@Z 10002444 f i DllMain.obj
+ 0001:000014bc       ??0CParseBuffer@CRegParser@ATL@@QAA@H@Z 100024bc f i DllMain.obj
+ 0001:00001514       ?Append@CParseBuffer@CRegParser@ATL@@QAAHPBGH@Z 10002514 f i DllMain.obj
+ 0001:00001608       ?VTFromRegType@CRegParser@ATL@@KAHPBGAAG@Z 10002608 f i DllMain.obj
+ 0001:000016d0       ?ChToByte@CRegParser@ATL@@KAEG@Z 100026d0 f i DllMain.obj
+ 0001:00001728       ?HKeyFromString@CRegParser@ATL@@KAPAUHKEY__@@PAG@Z 10002728 f i DllMain.obj
+ 0001:00001778       ?StrChrW@CRegParser@ATL@@KAPAGPAGG@Z 10002778 f i DllMain.obj
+ 0001:000017c0       ?SkipWhiteSpace@CRegParser@ATL@@IAAXXZ 100027c0 f i DllMain.obj
+ 0001:00001800       ?NextToken@CRegParser@ATL@@IAAJPAG@Z 10002800 f i DllMain.obj
+ 0001:00001988       ?CanForceRemoveKey@CRegParser@ATL@@IAAHPBG@Z 10002988 f i DllMain.obj
+ 0001:000019d0       ?HasSubKeys@CRegParser@ATL@@IAAHPAUHKEY__@@@Z 100029d0 f i DllMain.obj
+ 0001:00001a4c       ?SkipAssignment@CRegParser@ATL@@IAAJPAG@Z 10002a4c f i DllMain.obj
+ 0001:00001ad8       ?RemoveAll@?$CSimpleMap@PAGPAGVCExpansionVectorEqualHelper@ATL@@@ATL@@QAAXXZ 10002ad8 f i DllMain.obj
+ 0001:00001b1c       ?FindKey@?$CSimpleMap@PAGPAGVCExpansionVectorEqualHelper@ATL@@@ATL@@QBAHABQAG@Z 10002b1c f i DllMain.obj
+ 0001:00001b6c       ?FreeHeap@?$CTempBuffer@G$0EAA@VCCRTAllocator@ATL@@@ATL@@AAAXXZ 10002b6c f i DllMain.obj
+ 0001:00001b74       ?FreeHeap@?$CTempBuffer@G$0BAA@VCCRTAllocator@ATL@@@ATL@@AAAXXZ 10002b74 f i DllMain.obj
+ 0001:00001b7c       ?FreeHeap@?$CTempBuffer@E$0BAA@VCCRTAllocator@ATL@@@ATL@@AAAXXZ 10002b7c f i DllMain.obj
+ 0001:00001b84       ?AllocateHeap@?$CTempBuffer@G$0EAA@VCCRTAllocator@ATL@@@ATL@@AAAXI@Z 10002b84 f i DllMain.obj
+ 0001:00001bb0       ?AllocateHeap@?$CTempBuffer@G$0BAA@VCCRTAllocator@ATL@@@ATL@@AAAXI@Z 10002bb0 f i DllMain.obj
+ 0001:00001bdc       ?AllocateHeap@?$CTempBuffer@E$0BAA@VCCRTAllocator@ATL@@@ATL@@AAAXI@Z 10002bdc f i DllMain.obj
+ 0001:00001c10       ?RecurseDeleteKey@CRegKey@ATL@@QAAJPBG@Z 10002c10 f i DllMain.obj
+ 0001:00001d3c       ?ClearReplacements@CExpansionVector@ATL@@QAAJXZ 10002d3c f i DllMain.obj
+ 0001:00001ddc       ?ClearReplacements@CRegObject@ATL@@UAAJXZ 10002ddc f i DllMain.obj
+ 0001:00001e08       ?AddCommonRGSReplacements@?$CAtlModuleT@VCComModule@ATL@@@ATL@@UAAJPAUIRegistrarBase@@@Z 10002e08 f i DllMain.obj
+ 0001:00001e30       ?Lookup@?$CSimpleMap@PAGPAGVCExpansionVectorEqualHelper@ATL@@@ATL@@QBAPAGABQAG@Z 10002e30 f i DllMain.obj
+ 0001:00001e80       ??_ECComModule@ATL@@UAAPAXI@Z 10002e80 f i DllMain.obj
+ 0001:00001e80       ??_GCComModule@ATL@@UAAPAXI@Z 10002e80 f i DllMain.obj
+ 0001:00001eb0       ??1CRegObject@ATL@@UAA@XZ  10002eb0 f i DllMain.obj
+ 0001:00001f0c       ?QueryInterface@CRegObject@ATL@@UAAJABU_GUID@@PAPAX@Z 10002f0c f i DllMain.obj
+ 0001:00001f18       ?AddRef@CRegObject@ATL@@UAAKXZ 10002f18 f i DllMain.obj
+ 0001:00001f20       ?Release@CRegObject@ATL@@UAAKXZ 10002f20 f i DllMain.obj
+ 0001:00001f28       ??_GCRegObject@ATL@@UAAPAXI@Z 10002f28 f i DllMain.obj
+ 0001:00001f28       ??_ECRegObject@ATL@@UAAPAXI@Z 10002f28 f i DllMain.obj
+ 0001:00001f54       ?PreProcessBuffer@CRegParser@ATL@@QAAJPAGPAPAG@Z 10002f54 f i DllMain.obj
+ 0001:000022d4       ?CEmailCsp_Create@@YAJPAUIUnknown@@PAPAU1@PAVCClassFactory@@@Z 100032d4 f   DllMain.obj
+ 0001:00002340       ?Add@?$CSimpleMap@PAGPAGVCExpansionVectorEqualHelper@ATL@@@ATL@@QAAHABQAG0@Z 10003340 f i DllMain.obj
+ 0001:000023d0       ?Allocate@?$CTempBuffer@G$0EAA@VCCRTAllocator@ATL@@@ATL@@QAAPAGI@Z 100033d0 f i DllMain.obj
+ 0001:00002430       ?Allocate@?$CTempBuffer@G$0BAA@VCCRTAllocator@ATL@@@ATL@@QAAPAGI@Z 10003430 f i DllMain.obj
+ 0001:00002490       ?Allocate@?$CTempBuffer@E$0BAA@VCCRTAllocator@ATL@@@ATL@@QAAPAEI@Z 10003490 f i DllMain.obj
+ 0001:000024e8       ?Add@CExpansionVector@ATL@@QAAHPBG0@Z 100034e8 f i DllMain.obj
+ 0001:000025e8       ?AddReplacement@CRegObject@ATL@@UAAJPBG0@Z 100035e8 f i DllMain.obj
+ 0001:00002650       ?AddValue@CRegParser@ATL@@IAAJAAVCRegKey@2@PBGPAG@Z 10003650 f i DllMain.obj
+ 0001:00002978       ?RegisterSubkeys@CRegParser@ATL@@IAAJPAGPAUHKEY__@@HH@Z 10003978 f i DllMain.obj
+ 0001:00002f50       ?RegisterBuffer@CRegParser@ATL@@QAAJPAGH@Z 10003f50 f i DllMain.obj
+ 0001:0000308c       ?RegisterFromResource@CRegObject@ATL@@IAAJPBG00H@Z 1000408c f i DllMain.obj
+ 0001:00003208       ?UpdateRegistryFromResourceS@CAtlModule@ATL@@QAAJPBGHPAU_ATL_REGMAP_ENTRY@2@@Z 10004208 f i DllMain.obj
+ 0001:0000345c       ?UpdateRegistryFromResourceS@CAtlModule@ATL@@QAAJIHPAU_ATL_REGMAP_ENTRY@2@@Z 1000445c f i DllMain.obj
+ 0001:0000367c       ?UpdateRegistryFromResourceS@CComModule@ATL@@UAAJPBGHPAU_ATL_REGMAP_ENTRY@2@@Z 1000467c f i DllMain.obj
+ 0001:00003680       ?UpdateRegistryFromResourceS@CComModule@ATL@@UAAJIHPAU_ATL_REGMAP_ENTRY@2@@Z 10004680 f i DllMain.obj
+ 0001:00003684       ?SetAccountRegistryData@@YAJPBG@Z 10004684 f   emailutils.obj
+ 0001:00003788       ?GetExistingMailStoreNames@@YAJPAUIMAPISession@@PAPAU_SRowSet@@PAHPAG2PAPAUIMsgStore@@@Z 10004788 f   emailutils.obj
+ 0001:000039e4       ?GetUniqueMailStoreName@@YAJPAGPAPAU_SRowSet@@H@Z 100049e4 f   emailutils.obj
+ 0001:00003b04       ?EncryptPassword@@YAJPAGPAPAEPAK@Z 10004b04 f   emailutils.obj
+ 0001:00003bb4       ?DupString@@YAJPAPAGPAG@Z  10004bb4 f   emailutils.obj
+ 0001:00003c1c       ?DeleteMsgStore@@YAJPAUICEMAPISession@@PAUIMsgStore@@@Z 10004c1c f   emailutils.obj
+ 0001:00003cdc       ?GetNewAccount@@YAJPBU_GUID@@PAPAGHPAPAUICEMAPISession@@PAPAUIMsgStore@@@Z 10004cdc f   emailutils.obj
+ 0001:00003ef8       ?GetMailTransportInfoFromReg@@YAJPBGPAPAGPAK@Z 10004ef8 f   emailutils.obj
+ 0001:00004084       ?QueryTransactioningMode@CEmailCsp@@UAAJPAW4ConfigTransactioningMode@@@Z 10005084 f   emailcsp.obj
+ 0001:000040a0       ?CancelProcessing@CEmailCsp@@UAAJXZ 100050a0 f   emailcsp.obj
+ 0001:000040a8       ?BeginTransaction@CEmailCsp@@UAAJPAPAUIConfigTransaction@@@Z 100050a8 f   emailcsp.obj
+ 0001:000040b4       ?BeginProcessing@CEmailCsp@@UAAJPAUIConfigSession@@@Z 100050b4 f   emailcsp.obj
+ 0001:000040bc       ?EndProcessing@CEmailCsp@@UAAJXZ 100050bc f   emailcsp.obj
+ 0001:000040c4       ?GetErrorDescription@CEmailCsp@@UAAJPAPAG@Z 100050c4 f   emailcsp.obj
+ 0001:000040d8       ?DeInit@CEmailCsp@@AAAXXZ  100050d8 f   emailcsp.obj
+ 0001:00004224       ?FormatEmailAddress@@YAJPAU_MailCspData@@@Z 10005224 f   emailcsp.obj
+ 0001:00004330       ?SetNewAccountDefaults@@YAXPAU_MailCspData@@@Z 10005330 f   emailcsp.obj
+ 0001:00004410       ?ValidData@@YAHPAU_MailCspData@@@Z 10005410 f   emailcsp.obj
+ 0001:00004568       ?GrowPropArray@CEmailCsp@@AAAJPAU_MailCspData@@@Z 10005568 f   emailcsp.obj
+ 0001:000045ec       ?GetExistingStore@@YAJPAUIMAPISession@@KPBU_GUID@@PAPAUIMsgStore@@@Z 100055ec f   emailcsp.obj
+ 0001:000047e8       ??1CEmailCsp@@QAA@XZ       100057e8 f   emailcsp.obj
+ 0001:00004838       ?HandleNoCharacteristic@CEmailCsp@@UAAJPAGPAUIXMLDOMElement@@0KK@Z 10005838 f   emailcsp.obj
+ 0001:000049c8       ?StoreAccountData@CEmailCsp@@AAAJXZ 100059c8 f   emailcsp.obj
+ 0001:00004f80       ?StoreData@CEmailCsp@@AAAJXZ 10005f80 f   emailcsp.obj
+ 0001:00004ffc       ?GetMAPIPropTag@@YAJKPAGPAK@Z 10005ffc f   emailcsp.obj
+ 0001:00005240       ?TransformDataToString@@YAJPAU_SPropValue@@PAPAG@Z 10006240 f   emailcsp.obj
+ 0001:00005504       ?TransformStringToData@@YAJPAGPAU_SPropValue@@@Z 10006504 f   emailcsp.obj
+ 0001:000057b8       ?ProcessData@CEmailCsp@@AAAJKHKPAG@Z 100067b8 f   emailcsp.obj
+ 0001:00005820       ?GetDisplayNameFromEmailAddr@@YAJPAU_MailCspData@@@Z 10006820 f   emailcsp.obj
+ 0001:00005908       ?GetStoreGUIDs@@YAJPAU_GUID@@KPAI@Z 10006908 f   emailcsp.obj
+ 0001:00005ae8       ?LoadAccountData@@YAJPAU_GUID@@PAU_MailCspData@@PAPAUICEMAPISession@@PAPAUIMsgStore@@@Z 10006ae8 f   emailcsp.obj
+ 0001:00006210       ?GetPropFromStore@@YAJPAUICEMAPISession@@PAUIMsgStore@@KPAPAU_SPropValue@@@Z 10007210 f   emailcsp.obj
+ 0001:000062bc       ?FillVariant@@YAJPAU_SPropValue@@PAUtagVARIANT@@@Z 100072bc f   emailcsp.obj
+ 0001:000062f4       ??0CEmailCsp@@QAA@XZ       100072f4 f   emailcsp.obj
+ 0001:00006370       ?HandleParm@CEmailCsp@@UAAJPAG0PAUIXMLDOMElement@@0KK@Z 10007370 f   emailcsp.obj
+ 0001:000065e8       ?HandleNoParm@CEmailCsp@@UAAJPAGPAUIXMLDOMElement@@0KK@Z 100075e8 f   emailcsp.obj
+ 0001:000066d8       ?HandleParmQuery@CEmailCsp@@UAAJPAGPAUtagVARIANT@@PAUIXMLDOMElement@@0KK@Z 100076d8 f   emailcsp.obj
+ 0001:00006878       ?EndCharacteristic@CEmailCsp@@UAAJPAGPAUIXMLDOMElement@@0KKK@Z 10007878 f   emailcsp.obj
+ 0001:000068e4       ?OutputParm@CEmailCsp@@AAAJPAUIXMLDOMElement@@PBGPAU_SPropValue@@@Z 100078e4 f   emailcsp.obj
+ 0001:000069b4       ?GetCacheData@CEmailCsp@@AAAJXZ 100079b4 f   emailcsp.obj
+ 0001:00006a0c       ?OutputAccountProperties@CEmailCsp@@AAAJPAU_GUID@@PAUIXMLDOMElement@@H@Z 10007a0c f   emailcsp.obj
+ 0001:00006d20       ?HandleCharacteristic@CEmailCsp@@UAAJPAGPAUIXMLDOMElement@@0KPAKK@Z 10007d20 f   emailcsp.obj
+ 0001:00006fc8       ?HandleCharacteristicQuery@CEmailCsp@@UAAJPAGPAUIXMLDOMElement@@0KK@Z 10007fc8 f   emailcsp.obj
+ 0001:00007204       RaiseException             10008204 f   coredll:COREDLL.dll
+ 0001:00007214       InitializeCriticalSection  10008214 f   coredll:COREDLL.dll
+ 0001:00007224       DeleteCriticalSection      10008224 f   coredll:COREDLL.dll
+ 0001:00007234       InterlockedIncrement       10008234 f   coredll:COREDLL.dll
+ 0001:00007244       InterlockedDecrement       10008244 f   coredll:COREDLL.dll
+ 0001:00007254       EnterCriticalSection       10008254 f   coredll:COREDLL.dll
+ 0001:00007264       LeaveCriticalSection       10008264 f   coredll:COREDLL.dll
+ 0001:00007274       GetLastError               10008274 f   coredll:COREDLL.dll
+ 0001:00007284       RegDeleteKeyW              10008284 f   coredll:COREDLL.dll
+ 0001:00007294       RegDeleteValueW            10008294 f   coredll:COREDLL.dll
+ 0001:000072a4       RegCloseKey                100082a4 f   coredll:COREDLL.dll
+ 0001:000072b4       RegCreateKeyExW            100082b4 f   coredll:COREDLL.dll
+ 0001:000072c4       RegOpenKeyExW              100082c4 f   coredll:COREDLL.dll
+ 0001:000072d4       RegSetValueExW             100082d4 f   coredll:COREDLL.dll
+ 0001:000072e4       lstrcmpiW                  100082e4 f   coredll:COREDLL.dll
+ 0001:000072f4       CharNextW                  100082f4 f   coredll:COREDLL.dll
+ 0001:00007304       RegQueryInfoKeyW           10008304 f   coredll:COREDLL.dll
+ 0001:00007314       RegEnumKeyExW              10008314 f   coredll:COREDLL.dll
+ 0001:00007324       FreeLibrary                10008324 f   coredll:COREDLL.dll
+ 0001:00007334       MultiByteToWideChar        10008334 f   coredll:COREDLL.dll
+ 0001:00007344       SizeofResource             10008344 f   coredll:COREDLL.dll
+ 0001:00007354       LoadResource               10008354 f   coredll:COREDLL.dll
+ 0001:00007364       FindResourceW              10008364 f   coredll:COREDLL.dll
+ 0001:00007374       LoadLibraryExW             10008374 f   coredll:COREDLL.dll
+ 0001:00007384       GetModuleHandleW           10008384 f   coredll:COREDLL.dll
+ 0001:00007394       GetModuleFileNameW         10008394 f   coredll:COREDLL.dll
+ 0001:000073a4       RegQueryValueExW           100083a4 f   coredll:COREDLL.dll
+ 0001:000073b4       CryptProtectData           100083b4 f   coredll:COREDLL.dll
+ 0001:000073c4       StringCchCopyNW            100083c4 f   coredll:COREDLL.dll
+ 0001:000073d4       StringCchCatW              100083d4 f   coredll:COREDLL.dll
+ 0001:000073e4       StringCchCopyW             100083e4 f   coredll:COREDLL.dll
+ 0001:000073f4       LocalFree                  100083f4 f   coredll:COREDLL.dll
+ 0001:00007404       LocalReAlloc               10008404 f   coredll:COREDLL.dll
+ 0001:00007414       PostMessageW               10008414 f   coredll:COREDLL.dll
+ 0001:00007424       FindWindowW                10008424 f   coredll:COREDLL.dll
+ 0001:00007434       RegFlushKey                10008434 f   coredll:COREDLL.dll
+ 0001:00007444       WideCharToMultiByte        10008444 f   coredll:COREDLL.dll
+ 0001:00007454       LocalAlloc                 10008454 f   coredll:COREDLL.dll
+ 0001:00007464       lstrcmpW                   10008464 f   coredll:COREDLL.dll
+ 0001:00007474       CoTaskMemAlloc             10008474 f   ole32:ole32.dll
+ 0001:00007484       CoTaskMemRealloc           10008484 f   ole32:ole32.dll
+ 0001:00007494       CoCreateInstance           10008494 f   ole32:ole32.dll
+ 0001:000074a4       CoTaskMemFree              100084a4 f   ole32:ole32.dll
+ 0001:000074b4       CLSIDFromString            100084b4 f   ole32:ole32.dll
+ 0001:000074c4       StringFromCLSID            100084c4 f   ole32:ole32.dll
+ 0001:000074d4       CoCreateGuid               100084d4 f   ole32:ole32.dll
+ 0001:000074e4       SysFreeString              100084e4 f   oleaut32:OLEAUT32.dll
+ 0001:000074f4       VarUI4FromStr              100084f4 f   oleaut32:OLEAUT32.dll
+ 0001:00007504       VariantInit                10008504 f   oleaut32:OLEAUT32.dll
+ 0001:00007514       SysAllocString             10008514 f   oleaut32:OLEAUT32.dll
+ 0001:00007524       SysStringLen               10008524 f   oleaut32:OLEAUT32.dll
+ 0001:00007534       VariantClear               10008534 f   oleaut32:OLEAUT32.dll
+ 0001:00007544       BinaryToHexString          10008544 f   ossvcs:ossvcs.dll
+ 0001:00007554       HexStringToBinary          10008554 f   ossvcs:ossvcs.dll
+ 0001:00007564       ?XMLHSetTextAttribute@@YAJPAUIXMLDOMElement@@PBG1@Z 10008564 f   ossvcs:ossvcs.dll
+ 0001:00007574       ?XMLHCreateChildElement@@YAJPAUIXMLDOMNode@@PBGPAUIXMLDOMDocument@@PAPAUIXMLDOMElement@@@Z 10008574 f   ossvcs:ossvcs.dll
+ 0001:00007584       CCF_GCOSearch              10008584 f   CEshutil:CEShUtil.dll
+ 0001:00007594       CCF_QueryInterface         10008594 f   CEshutil:CEShUtil.dll
+ 0001:000075a4       CCF_CreateInstance         100085a4 f   CEshutil:CEShUtil.dll
+ 0001:000075b4       CfgUtilParseName           100085b4 f   configmanager:configmanager.dll
+ 0001:000075c4       CfgUtilGetName             100085c4 f   configmanager:configmanager.dll
+ 0001:000075d4       CfgUtilCreateCharacteristic 100085d4 f   configmanager:configmanager.dll
+ 0001:000075e4       FreeProws                  100085e4 f   cemapi:CEMAPI.dll
+ 0001:000075f4       MAPIFreeBuffer             100085f4 f   cemapi:CEMAPI.dll
+ 0001:00007604       MAPILogonEx                10008604 f   cemapi:CEMAPI.dll
+ 0001:00007614       MAPIUninitialize           10008614 f   cemapi:CEMAPI.dll
+ 0001:00007624       FlushMailStore             10008624 f   cemapi:CEMAPI.dll
+ 0001:00007634       MAPIInitialize             10008634 f   cemapi:CEMAPI.dll
+ 0001:00007644       AtlRawDllMain              10008644 f   atls:atlbase.obj
+ 0001:000076cc       ??1CAtlBaseModule@ATL@@QAA@XZ 100086cc f   atls:atlbase.obj
+ 0001:00007704       ??0CAtlBaseModule@ATL@@QAA@XZ 10008704 f   atls:atlbase.obj
+ 0001:00007890       _DllMainCRTStartup         10008890 f   corelib0:pegdmain.obj
+ 0001:000078bc       __GSHandlerCheckCommon     100088bc f   corelib0:gshandler.obj
+ 0001:000078f8       __GSHandlerCheck           100088f8 f   corelib0:gshandler.obj
+ 0001:00007918       __security_init_cookie     10008918 f   corelib0:seccinit.obj
+ 0001:00007964       __security_check_cookie    10008964 f   corelib0:armsecgs.obj
+ 0001:00007974       __gsfailure                10008974     corelib0:armsecgs.obj
+ 0001:000079c0       _onexit                    100089c0 f   corelib0:onexit.obj
+ 0001:00007b44       atexit                     10008b44 f   corelib0:onexit.obj
+ 0001:00007c44       _cexit                     10008c44 f   corelib0:cexit.obj
+ 0001:00007c54       _initterm                  10008c54 f   corelib0:crt0dat.obj
+ 0001:00007c80       _cinit                     10008c80 f   corelib0:crt0dat.obj
+ 0001:00007ce0       __crt_ExitProcess          10008ce0 f   corelib0:exitproc_proxy.obj
+ 0001:00007cec       memset                     10008cec f   corelib1:COREDLL.dll
+ 0001:00007cfc       __C_specific_handler       10008cfc f   corelib1:COREDLL.dll
+ 0001:00007d0c       ??3@YAXPAX@Z               10008d0c f   corelib1:COREDLL.dll
+ 0001:00007d1c       ??2@YAPAXI@Z               10008d1c f   corelib1:COREDLL.dll
+ 0001:00007d2c       wcsstr                     10008d2c f   corelib1:COREDLL.dll
+ 0001:00007d3c       wcslen                     10008d3c f   corelib1:COREDLL.dll
+ 0001:00007d4c       malloc                     10008d4c f   corelib1:COREDLL.dll
+ 0001:00007d5c       free                       10008d5c f   corelib1:COREDLL.dll
+ 0001:00007d6c       memcpy_s                   10008d6c f   corelib1:COREDLL.dll
+ 0001:00007d7c       wcsncpy_s                  10008d7c f   corelib1:COREDLL.dll
+ 0001:00007d8c       _recalloc                  10008d8c f   corelib1:COREDLL.dll
+ 0001:00007d9c       _wcsicmp                   10008d9c f   corelib1:COREDLL.dll
+ 0001:00007dac       wcschr                     10008dac f   corelib1:COREDLL.dll
+ 0001:00007dbc       wcsrchr                    10008dbc f   corelib1:COREDLL.dll
+ 0001:00007dcc       memcmp                     10008dcc f   corelib1:COREDLL.dll
+ 0001:00007ddc       _purecall                  10008ddc f   corelib1:COREDLL.dll
+ 0001:00007dec       wcstol                     10008dec f   corelib1:COREDLL.dll
+ 0001:00007dfc       wcstoul                    10008dfc f   corelib1:COREDLL.dll
+ 0001:00007e0c       _itow_s                    10008e0c f   corelib1:COREDLL.dll
+ 0001:00007e1c       _ultow_s                   10008e1c f   corelib1:COREDLL.dll
+ 0001:00007e2c       _wtoi                      10008e2c f   corelib1:COREDLL.dll
+ 0001:00007e3c       memcpy                     10008e3c f   corelib1:COREDLL.dll
+ 0001:00007e4c       wcscmp                     10008e4c f   corelib1:COREDLL.dll
+ 0001:00007e5c       _XcptFilter                10008e5c f   corelib1:COREDLL.dll
+ 0001:00007e6c       __security_gen_cookie2     10008e6c f   corelib1:COREDLL.dll
+ 0001:00007e7c       __report_gsfailure         10008e7c f   corelib1:COREDLL.dll
+ 0001:00007e8c       realloc                    10008e8c f   corelib1:COREDLL.dll
+ 0001:00007e9c       _msize                     10008e9c f   corelib1:COREDLL.dll
+ 0001:00007eac       InterlockedCompareExchange 10008eac f   coredll:COREDLL.dll
+ 0001:00007ebc       InterlockedExchange        10008ebc f   coredll:COREDLL.dll
+ 0001:00007ecc       TerminateProcess           10008ecc f   coredll:COREDLL.dll
+ 0001:00007fd4       __IMPORT_DESCRIPTOR_COREDLL 10008fd4     coredll:COREDLL.dll
+ 0001:00007fe8       __IMPORT_DESCRIPTOR_ole32  10008fe8     ole32:ole32.dll
+ 0001:00007ffc       __IMPORT_DESCRIPTOR_OLEAUT32 10008ffc     oleaut32:OLEAUT32.dll
+ 0001:00008010       __IMPORT_DESCRIPTOR_ossvcs 10009010     ossvcs:ossvcs.dll
+ 0001:00008024       __IMPORT_DESCRIPTOR_CEShUtil 10009024     CEshutil:CEShUtil.dll
+ 0001:00008038       __IMPORT_DESCRIPTOR_configmanager 10009038     configmanager:configmanager.dll
+ 0001:0000804c       __IMPORT_DESCRIPTOR_CEMAPI 1000904c     cemapi:CEMAPI.dll
+ 0001:00008060       __NULL_IMPORT_DESCRIPTOR   10009060     coredll:COREDLL.dll
+ 0002:00000000       __imp_FlushMailStore       1000a000     cemapi:CEMAPI.dll
+ 0002:00000004       __imp_MAPIUninitialize     1000a004     cemapi:CEMAPI.dll
+ 0002:00000008       __imp_MAPILogonEx          1000a008     cemapi:CEMAPI.dll
+ 0002:0000000c       __imp_MAPIFreeBuffer       1000a00c     cemapi:CEMAPI.dll
+ 0002:00000010       __imp_FreeProws            1000a010     cemapi:CEMAPI.dll
+ 0002:00000014       __imp_MAPIInitialize       1000a014     cemapi:CEMAPI.dll
+ 0002:00000018       \177CEMAPI_NULL_THUNK_DATA 1000a018     cemapi:CEMAPI.dll
+ 0002:0000001c       __imp_CCF_QueryInterface   1000a01c     CEshutil:CEShUtil.dll
+ 0002:00000020       __imp_CCF_GCOSearch        1000a020     CEshutil:CEShUtil.dll
+ 0002:00000024       __imp_CCF_CreateInstance   1000a024     CEshutil:CEShUtil.dll
+ 0002:00000028       \177CEShUtil_NULL_THUNK_DATA 1000a028     CEshutil:CEShUtil.dll
+ 0002:0000002c       __imp_RegCreateKeyExW      1000a02c     coredll:COREDLL.dll
+ 0002:00000030       __imp_RegOpenKeyExW        1000a030     coredll:COREDLL.dll
+ 0002:00000034       __imp_RegSetValueExW       1000a034     coredll:COREDLL.dll
+ 0002:00000038       __imp_lstrcmpiW            1000a038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_CharNextW            1000a03c     coredll:COREDLL.dll
+ 0002:00000040       __imp_RegQueryInfoKeyW     1000a040     coredll:COREDLL.dll
+ 0002:00000044       __imp_RegEnumKeyExW        1000a044     coredll:COREDLL.dll
+ 0002:00000048       __imp_FreeLibrary          1000a048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_MultiByteToWideChar  1000a04c     coredll:COREDLL.dll
+ 0002:00000050       __imp_SizeofResource       1000a050     coredll:COREDLL.dll
+ 0002:00000054       __imp_LoadResource         1000a054     coredll:COREDLL.dll
+ 0002:00000058       __imp_FindResourceW        1000a058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_LoadLibraryExW       1000a05c     coredll:COREDLL.dll
+ 0002:00000060       __imp_GetModuleHandleW     1000a060     coredll:COREDLL.dll
+ 0002:00000064       __imp_GetModuleFileNameW   1000a064     coredll:COREDLL.dll
+ 0002:00000068       __imp_RegQueryValueExW     1000a068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_CryptProtectData     1000a06c     coredll:COREDLL.dll
+ 0002:00000070       __imp_StringCchCopyNW      1000a070     coredll:COREDLL.dll
+ 0002:00000074       __imp_StringCchCatW        1000a074     coredll:COREDLL.dll
+ 0002:00000078       __imp_StringCchCopyW       1000a078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_LocalFree            1000a07c     coredll:COREDLL.dll
+ 0002:00000080       __imp_LocalReAlloc         1000a080     coredll:COREDLL.dll
+ 0002:00000084       __imp_PostMessageW         1000a084     coredll:COREDLL.dll
+ 0002:00000088       __imp_RegCloseKey          1000a088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_RegFlushKey          1000a08c     coredll:COREDLL.dll
+ 0002:00000090       __imp_LeaveCriticalSection 1000a090     coredll:COREDLL.dll
+ 0002:00000094       __imp_LocalAlloc           1000a094     coredll:COREDLL.dll
+ 0002:00000098       __imp_lstrcmpW             1000a098     coredll:COREDLL.dll
+ 0002:0000009c       __imp__msize               1000a09c     corelib1:COREDLL.dll
+ 0002:000000a0       __imp_realloc              1000a0a0     corelib1:COREDLL.dll
+ 0002:000000a4       __imp___report_gsfailure   1000a0a4     corelib1:COREDLL.dll
+ 0002:000000a8       __imp___security_gen_cookie2 1000a0a8     corelib1:COREDLL.dll
+ 0002:000000ac       __imp__XcptFilter          1000a0ac     corelib1:COREDLL.dll
+ 0002:000000b0       __imp_wcscmp               1000a0b0     corelib1:COREDLL.dll
+ 0002:000000b4       __imp_memcpy               1000a0b4     corelib1:COREDLL.dll
+ 0002:000000b8       __imp__wtoi                1000a0b8     corelib1:COREDLL.dll
+ 0002:000000bc       __imp__ultow_s             1000a0bc     corelib1:COREDLL.dll
+ 0002:000000c0       __imp__itow_s              1000a0c0     corelib1:COREDLL.dll
+ 0002:000000c4       __imp_wcstoul              1000a0c4     corelib1:COREDLL.dll
+ 0002:000000c8       __imp_wcstol               1000a0c8     corelib1:COREDLL.dll
+ 0002:000000cc       __imp__purecall            1000a0cc     corelib1:COREDLL.dll
+ 0002:000000d0       __imp_memcmp               1000a0d0     corelib1:COREDLL.dll
+ 0002:000000d4       __imp_TerminateProcess     1000a0d4     coredll:COREDLL.dll
+ 0002:000000d8       __imp_InterlockedExchange  1000a0d8     coredll:COREDLL.dll
+ 0002:000000dc       __imp_InterlockedCompareExchange 1000a0dc     coredll:COREDLL.dll
+ 0002:000000e0       __imp_RegDeleteValueW      1000a0e0     coredll:COREDLL.dll
+ 0002:000000e4       __imp_RegDeleteKeyW        1000a0e4     coredll:COREDLL.dll
+ 0002:000000e8       __imp_FindWindowW          1000a0e8     coredll:COREDLL.dll
+ 0002:000000ec       __imp_GetLastError         1000a0ec     coredll:COREDLL.dll
+ 0002:000000f0       __imp_wcsrchr              1000a0f0     corelib1:COREDLL.dll
+ 0002:000000f4       __imp_wcschr               1000a0f4     corelib1:COREDLL.dll
+ 0002:000000f8       __imp__wcsicmp             1000a0f8     corelib1:COREDLL.dll
+ 0002:000000fc       __imp__recalloc            1000a0fc     corelib1:COREDLL.dll
+ 0002:00000100       __imp_EnterCriticalSection 1000a100     coredll:COREDLL.dll
+ 0002:00000104       __imp_InterlockedDecrement 1000a104     coredll:COREDLL.dll
+ 0002:00000108       __imp_InterlockedIncrement 1000a108     coredll:COREDLL.dll
+ 0002:0000010c       __imp_DeleteCriticalSection 1000a10c     coredll:COREDLL.dll
+ 0002:00000110       __imp_InitializeCriticalSection 1000a110     coredll:COREDLL.dll
+ 0002:00000114       __imp_WideCharToMultiByte  1000a114     coredll:COREDLL.dll
+ 0002:00000118       __imp_RaiseException       1000a118     coredll:COREDLL.dll
+ 0002:0000011c       __imp_memset               1000a11c     corelib1:COREDLL.dll
+ 0002:00000120       __imp___C_specific_handler 1000a120     corelib1:COREDLL.dll
+ 0002:00000124       __imp_??3@YAXPAX@Z         1000a124     corelib1:COREDLL.dll
+ 0002:00000128       __imp_??2@YAPAXI@Z         1000a128     corelib1:COREDLL.dll
+ 0002:0000012c       __imp_wcsstr               1000a12c     corelib1:COREDLL.dll
+ 0002:00000130       __imp_wcslen               1000a130     corelib1:COREDLL.dll
+ 0002:00000134       __imp_malloc               1000a134     corelib1:COREDLL.dll
+ 0002:00000138       __imp_free                 1000a138     corelib1:COREDLL.dll
+ 0002:0000013c       __imp_memcpy_s             1000a13c     corelib1:COREDLL.dll
+ 0002:00000140       __imp_wcsncpy_s            1000a140     corelib1:COREDLL.dll
+ 0002:00000144       \177COREDLL_NULL_THUNK_DATA 1000a144     coredll:COREDLL.dll
+ 0002:00000148       __imp_VarUI4FromStr        1000a148     oleaut32:OLEAUT32.dll
+ 0002:0000014c       __imp_SysFreeString        1000a14c     oleaut32:OLEAUT32.dll
+ 0002:00000150       __imp_SysStringLen         1000a150     oleaut32:OLEAUT32.dll
+ 0002:00000154       __imp_VariantInit          1000a154     oleaut32:OLEAUT32.dll
+ 0002:00000158       __imp_SysAllocString       1000a158     oleaut32:OLEAUT32.dll
+ 0002:0000015c       __imp_VariantClear         1000a15c     oleaut32:OLEAUT32.dll
+ 0002:00000160       \177OLEAUT32_NULL_THUNK_DATA 1000a160     oleaut32:OLEAUT32.dll
+ 0002:00000164       __imp_CfgUtilCreateCharacteristic 1000a164     configmanager:configmanager.dll
+ 0002:00000168       __imp_CfgUtilParseName     1000a168     configmanager:configmanager.dll
+ 0002:0000016c       __imp_CfgUtilGetName       1000a16c     configmanager:configmanager.dll
+ 0002:00000170       \177configmanager_NULL_THUNK_DATA 1000a170     configmanager:configmanager.dll
+ 0002:00000174       __imp_CoCreateGuid         1000a174     ole32:ole32.dll
+ 0002:00000178       __imp_StringFromCLSID      1000a178     ole32:ole32.dll
+ 0002:0000017c       __imp_CLSIDFromString      1000a17c     ole32:ole32.dll
+ 0002:00000180       __imp_CoTaskMemFree        1000a180     ole32:ole32.dll
+ 0002:00000184       __imp_CoCreateInstance     1000a184     ole32:ole32.dll
+ 0002:00000188       __imp_CoTaskMemRealloc     1000a188     ole32:ole32.dll
+ 0002:0000018c       __imp_CoTaskMemAlloc       1000a18c     ole32:ole32.dll
+ 0002:00000190       \177ole32_NULL_THUNK_DATA  1000a190     ole32:ole32.dll
+ 0002:00000194       __imp_?XMLHCreateChildElement@@YAJPAUIXMLDOMNode@@PBGPAUIXMLDOMDocument@@PAPAUIXMLDOMElement@@@Z 1000a194     ossvcs:ossvcs.dll
+ 0002:00000198       __imp_?XMLHSetTextAttribute@@YAJPAUIXMLDOMElement@@PBG1@Z 1000a198     ossvcs:ossvcs.dll
+ 0002:0000019c       __imp_HexStringToBinary    1000a19c     ossvcs:ossvcs.dll
+ 0002:000001a0       __imp_BinaryToHexString    1000a1a0     ossvcs:ossvcs.dll
+ 0002:000001a4       \177ossvcs_NULL_THUNK_DATA 1000a1a4     ossvcs:ossvcs.dll
+ 0002:000001a8       IID_IConfigServiceProviderBase 1000a1a8     DllMain.obj
+ 0002:000001b8       IID_IConfigServiceProvider 1000a1b8     DllMain.obj
+ 0002:000001d0       ?g_rgMailServiceProps@@3PAUSServiceProp@@A 1000a1d0     emailutils.obj
+ 0002:00000288       ?g_rgServicePropToIndexMap@@3PAU_TableMap@@A 1000a288     emailcsp.obj
+ 0002:00000328       _pRawDllMain               1000a328     atls:atlbase.obj
+ 0002:0000032c       __security_cookie          1000a32c     corelib0:seccinit.obj
+ 0002:00000330       __security_cookie_complement 1000a330     corelib0:seccinit.obj
+ 0002:00000334       ?g_cRefThisDll@@3JA        1000a334     DllMain.obj
+ 0002:00000338       ?_Module@@3VCComModule@ATL@@A 1000a338     DllMain.obj
+ 0002:00000364       ?m_bInitFailed@CAtlBaseModule@ATL@@2_NA 1000a364     DllMain.obj
+ 0002:00000365       ?_AtlRegisterPerUser@ATL@@3_NA 1000a365     DllMain.obj
+ 0002:00000368       ?_pAtlModule@ATL@@3PAVCAtlModule@1@A 1000a368     DllMain.obj
+ 0002:0000036c       ?_pModule@ATL@@3PAVCComModule@1@A 1000a36c     DllMain.obj
+ 0002:00000370       ??_B?1??VTFromRegType@CRegParser@ATL@@KAHPBGAAG@Z@51 1000a370     DllMain.obj
+ 0002:00000374       ?map@?1??VTFromRegType@CRegParser@ATL@@KAHPBGAAG@Z@4QBUtypemap@?1??123@KAH01@Z@B 1000a374     DllMain.obj
+ 0002:0000039c       __afxForceAtlRawDllMain    1000a39c     atls:atlbase.obj
+ 0002:000003a0       ?_AtlModuleInstance@ATL@@3PAUHINSTANCE__@@A 1000a3a0     atls:atlbase.obj
+ 0002:000003a4       ?_AtlBaseModule@ATL@@3VCAtlBaseModule@1@A 1000a3a4     atls:atlbase.obj
+ 0002:000003d8       ?_pAtlRawDllMain@@3P6AHPAXK0@ZA 1000a3d8     atls:atlbase.obj
+ 0002:000003dc       __@@_PchSym_@00@UxsvozmCBUlgsvihUzgoJUhixUzgohUlyqUzineHUivgzroUhgwzucOlyq@atls 1000a3dc     atls:stdafx.obj
+ 0002:000003e0       _exitflag                  1000a3e0     corelib0:cexit.obj
+ 0002:000003e4       __onexitend                1000a3e4     <common>
+ 0002:000003e8       __onexitbegin              1000a3e8     <common>
+ 0002:000003ec       g_pcsExit                  1000a3ec     <common>
+
+ entry point at        0001:00007890
+
+ Static symbols
+
+ 0001:000077a0       _DllMainCRTStartupHelper   100087a0 f   corelib0:pegdmain.obj
+ 0001:00007b5c       doexit                     10008b5c f   corelib0:cexit.obj
+ 0001:00007edc       ??__E_Module@@YAXXZ        10008edc f   DllMain.obj
+ 0001:00007f18       ??__E_AtlBaseModule@ATL@@YAXXZ 10008f18 f   atls:atlbase.obj
+ 0001:00007f38       ??__F_Module@@YAXXZ        10008f38 f   DllMain.obj
+ 0001:00007f54       ??__F_AtlBaseModule@ATL@@YAXXZ 10008f54 f   atls:atlbase.obj
+
+ Exports
+
+  ordinal    name
+
+        1    DllCanUnloadNow
+        2    DllGetClassObject

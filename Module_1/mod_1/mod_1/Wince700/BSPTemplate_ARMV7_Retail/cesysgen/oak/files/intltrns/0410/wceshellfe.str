@@ -1,0 +1,113 @@
+//
+// Copyright (c) Microsoft Corporation.  All rights reserved.
+//
+//
+// Use of this sample source code is subject to the terms of the Microsoft
+// license agreement under which you licensed this sample source code. If
+// you did not accept the terms of the license agreement, you are not
+// authorized to use this sample source code. For the terms of the license,
+// please see the license agreement between you and Microsoft or, if applicable,
+// see the LICENSE.RTF on your install media or the root of your tools installation.
+// THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+//
+
+// project.reg translations
+
+// Localize these Special Folders name. Ensure it is in sync with the same strings in Explorer.exe
+
+#define LOC_RECYCLEBINDISPLAY       "Cestino"
+#define LOC_MYCOMPUTERDISPLAY       "Risorse del computer"
+#define LOC_DATABASEDISPLAY         "Database"
+
+// Registry entry with the file name for the deafult page. Used by PIE when started. Must be consistent with the LOC_STARTPAGEFILE entry in Project.bib section
+
+#define LOC_STARTPAGE       "file:///windows/default.htm"
+
+// Registry entries for the search pages. If a localized search page exist, change it. If not, leave it in English
+
+#define LOC_SEARCHPAGE      "http://www.msn.com/access/allinone.htm"
+#define LOC_SEARCHURL       "http://home.microsoft.com/access/autosearch.asp?p=%s"
+
+// Registry entries for Applications type
+
+#define LOC_APPLICATION             "Applicazione"
+#define LOC_HTMLDOCUMENT            "Documento Internet (HTML)"
+#define LOC_GIFIMAGE                "Immagine GIF"
+#define LOC_BMPIMAGE                "Immagine Bitmap"
+#define LOC_JPEGIMAGE               "Immagine JPEG"
+#define LOC_URLLOCATION             "Origine file (URL)"
+#define LOC_HELPFILE                "File della Guida"
+#define LOC_DLLFILE                 "Estensione applicazione"
+#define LOC_TTFFILE                 "File caratteri TrueType"
+#define LOC_CPLFILE                 "Estensione Pannello di controllo"
+#define LOC_WAVFILE                 "Audio Wave"
+
+// project.dat translations
+
+// Special Folder names. Keep consistent with the same names in the previous section and what follows.
+// Needs to be consistent with Explorer.exe as well, or the build will break
+
+#define LOC_MYDOCUMENTS_DIR         ~"My Documents"
+#define LOC_PROGRAMFILES_DIR        ~"Programmi"
+#define LOC_COMMUNICATION_DIR       ~"Comunicazioni"
+#define LOC_FAVORITES_DIR           ~"Preferiti"
+#define LOC_DESKTOP_DIR             ~"Desktop"
+#define LOC_PROGRAMS_DIR            ~"Programmi"
+#define LOC_RECENT_DIR              ~"Recenti"
+#define LOC_HELP_DIR                ~"Help"
+
+// Links used on the desktop and Start Menu
+
+#define LOC_CONTROLPANEL_LNK        ~"Pannello di controllo.lnk"
+#define LOC_WINDOWSEXPLORER_LNK     ~"Gestione risorse.lnk"
+#define LOC_INTERNETEXPLORER_LNK    ~"Internet Explorer.lnk"
+#define LOC_REMOTENETWORKING_LNK    ~"Accesso remoto.lnk"
+#define LOC_TERMINAL_LNK            ~"Terminale.lnk"
+#define LOC_CMD_LNK                 ~"Prompt dei comandi.lnk"
+#define LOC_MSTSC_LNK               ~"Connessione desktop remoto.lnk"
+#define LOC_SOLITAIRE_LNK           ~"Solitario.lnk"
+#define LOC_FREECELL_LNK            ~"FreeCell.lnk"
+
+// Links used for Help
+
+#define LOC_HLPLNK_BASICS           "Concetti base di Windows Embedded Compact.lnk"
+#define LOC_HLPLNK_COMMUNICATIONS   "Connessioni remote.lnk"
+#define LOC_HLPLNK_SETTINGS         "Impostazioni.lnk"
+#define LOC_HLPLNK_COPYRIGHT        "Informazioni sul copyright.lnk"
+#define LOC_HLPLNK_MSTSC            "Connessione desktop remoto.lnk"
+#define LOC_HLPLNK_SOLTR            "Solitaire.lnk"
+
+// Must be consistent with the Registry entry LOC_STARTPAGE. Used by Pie when started without an address
+
+#define LOC_STARTPAGEFILE   "default.htm"
+
+// Comm CPL
+#define LOC_DESKTOPCONNECT   "`Desktop @ 19200`"
+
+// Sounds CPL, scheme name
+#define LOC_ALLSOUNDS        "Tutti i suoni"
+#define LOC_NOSOUNDS        "Nessun suono"
+#define LOC_DEFAULTSOUNDS    "Predefinita Windows Embedded Compact"
+
+// INTL.CPL Support for an extra locale-specfic currency symbol (e.g. Euro). Set to 0 to disable
+#define LOC_EXTRACURRENCY    ~"20ac"
+
+// Color scheme names
+#define LOC_SCHEME_STANDARD         "Windows standard"
+#define LOC_SCHEME_WHEAT            "Tabacco"
+#define LOC_SCHEME_MARINE           "Verde mare"
+#define LOC_SCHEME_ROSE             "Rosa"
+#define LOC_SCHEME_BRICK            "Mattone"
+#define LOC_SCHEME_DESERT           "Sabbia"
+#define LOC_SCHEME_EGGPLANT         "Melanzana"
+#define LOC_SCHEME_HCBLACK          "Nero a contr. elevato"
+#define LOC_SCHEME_HCWHITE          "Bianco a contr. elevato"
+#define LOC_SCHEME_LILAC            "Lilla"
+#define LOC_SCHEME_MAPLE            "Giallo cromo chiaro"
+#define LOC_SCHEME_SPRUCE           "Verde oliva"
+#define LOC_SCHEME_STORM            "Tempesta"
+
+// to prevent build break
+#define LOCALIZED_SPIMNAME          "ShuangPin IM (for Pocket IME)"
+#define LOCALIZED_SSKIMNAME         "ShuangPin IM (for MSPY3)"
+#define LOCALIZED_SSK3DIMNAME       "ShuangPin IM 3D (for MSPY3)"

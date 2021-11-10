@@ -1,0 +1,528 @@
+ pegterm
+
+ Timestamp is 5ac64c66 (Thu Apr 05 09:18:46 2018)
+
+ Preferred load address is 00010000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 0000064aH .rdata                  CODE
+ 0001:0000066c 00000024H .rdata$debug            CODE
+ 0001:00000690 00006f5cH .text                   CODE
+ 0001:000075ec 00000064H .xdata                  CODE
+ 0001:00007650 00000028H .idata$2                CODE
+ 0001:00007678 00000014H .idata$3                CODE
+ 0001:0000768c 000001f8H .idata$4                CODE
+ 0001:00007884 00000032H .idata$6                CODE
+ 0001:000078b6 00000000H .edata                  CODE
+ 0002:00000000 000001f8H .idata$5                DATA
+ 0002:000001f8 00000008H .data                   DATA
+ 0002:00000200 00000b58H .bss                    DATA
+ 0003:00000000 00000350H .pdata                  DATA
+ 0004:00000000 000006d0H .rsrc$01                DATA
+ 0004:000006d0 00002f98H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:00000000       __xc_a                     00011000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     00011004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     00011008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     0001100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     00011010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     00011014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     00011018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     0001101c     corelib0:crt0init.obj
+ 0001:0000003c       szClassName                0001103c     pegterm.obj
+ 0001:00000050       ??_C@_1CG@LNMJALAI@?$AAI?$AAn?$AAi?$AAt?$AAC?$AAo?$AAm?$AAm?$AAo?$AAn?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAs?$AA?$AA@ 00011050     pegterm.obj
+ 0001:00000078       ??_C@_1CK@JHBHHHJE@?$AAI?$AAn?$AAi?$AAt?$AAC?$AAo?$AAm?$AAm?$AAo?$AAn?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAs?$AAE?$AAx?$AA?$AA@ 00011078     pegterm.obj
+ 0001:000000a4       ??_C@_1CI@JPPIMHKP@?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AAS?$AAt?$AAa?$AAt?$AAu?$AAs?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAW?$AA?$AA@ 000110a4     pegterm.obj
+ 0001:000000cc       ??_C@_1CA@MMBGPJHN@?$AAD?$AAr?$AAa?$AAw?$AAS?$AAt?$AAa?$AAt?$AAu?$AAs?$AAT?$AAe?$AAx?$AAt?$AAW?$AA?$AA@ 000110cc     pegterm.obj
+ 0001:000000ec       ??_C@_1CE@JDJHFDJE@?$AAC?$AAo?$AAm?$AAm?$AAa?$AAn?$AAd?$AAB?$AAa?$AAr?$AA_?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AA?$AA@ 000110ec     pegterm.obj
+ 0001:00000110       ??_C@_1CA@CODMEOJM@?$AAC?$AAo?$AAm?$AAm?$AAa?$AAn?$AAd?$AAB?$AAa?$AAr?$AA_?$AAS?$AAh?$AAo?$AAw?$AA?$AA@ 00011110     pegterm.obj
+ 0001:00000130       ??_C@_1CK@GKFIKLLE@?$AAC?$AAo?$AAm?$AAm?$AAa?$AAn?$AAd?$AAB?$AAa?$AAr?$AA_?$AAA?$AAd?$AAd?$AAB?$AAi?$AAt?$AAm?$AAa?$AAp?$AA?$AA@ 00011130     pegterm.obj
+ 0001:0000015c       ??_C@_1DE@IHHNKFAI@?$AAC?$AAo?$AAm?$AAm?$AAa?$AAn?$AAd?$AAB?$AAa?$AAr?$AA_?$AAI?$AAn?$AAs?$AAe?$AAr?$AAt?$AAC?$AAo?$AAm?$AAb?$AAo?$AAB?$AAo?$AAx?$AA?$AA@ 0001115c     pegterm.obj
+ 0001:00000190       ??_C@_1DC@HDIIHHGG@?$AAC?$AAo?$AAm?$AAm?$AAa?$AAn?$AAd?$AAB?$AAa?$AAr?$AA_?$AAI?$AAn?$AAs?$AAe?$AAr?$AAt?$AAM?$AAe?$AAn?$AAu?$AAb?$AAa?$AAr?$AA?$AA@ 00011190     pegterm.obj
+ 0001:000001c4       ??_C@_1CG@HEOKNFPJ@?$AAC?$AAo?$AAm?$AAm?$AAa?$AAn?$AAd?$AAB?$AAa?$AAr?$AA_?$AAG?$AAe?$AAt?$AAM?$AAe?$AAn?$AAu?$AA?$AA@ 000111c4     pegterm.obj
+ 0001:000001ec       ??_C@_1DC@MPGKACHM@?$AAC?$AAo?$AAm?$AAm?$AAa?$AAn?$AAd?$AAB?$AAa?$AAr?$AA_?$AAA?$AAd?$AAd?$AAA?$AAd?$AAo?$AAr?$AAn?$AAm?$AAe?$AAn?$AAt?$AAs?$AA?$AA@ 000111ec     pegterm.obj
+ 0001:00000220       ??_C@_1CE@OEMNHHBJ@?$AAC?$AAo?$AAm?$AAm?$AAa?$AAn?$AAd?$AAB?$AAa?$AAr?$AA_?$AAH?$AAe?$AAi?$AAg?$AAh?$AAt?$AA?$AA@ 00011220     pegterm.obj
+ 0001:00000244       ??_C@_1CI@DDOEPNLC@?$AAI?$AAs?$AAC?$AAo?$AAm?$AAm?$AAa?$AAn?$AAd?$AAB?$AAa?$AAr?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AA?$AA@ 00011244     pegterm.obj
+ 0001:0000026c       ??_C@_1BO@GFLHEGJP@?$AAP?$AAr?$AAo?$AAp?$AAe?$AAr?$AAt?$AAy?$AAS?$AAh?$AAe?$AAe?$AAt?$AAW?$AA?$AA@ 0001126c     pegterm.obj
+ 0001:0000028c       ??_C@_1DC@HIHNDKC@?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AAP?$AAr?$AAo?$AAp?$AAe?$AAr?$AAt?$AAy?$AAS?$AAh?$AAe?$AAe?$AAt?$AAP?$AAa?$AAg?$AAe?$AAW?$AA?$AA@ 0001128c     pegterm.obj
+ 0001:000002c0       ??_C@_1DC@FAGHOJF@?$AAD?$AAe?$AAs?$AAt?$AAr?$AAo?$AAy?$AAP?$AAr?$AAo?$AAp?$AAe?$AAr?$AAt?$AAy?$AAS?$AAh?$AAe?$AAe?$AAt?$AAP?$AAa?$AAg?$AAe?$AA?$AA@ 000112c0     pegterm.obj
+ 0001:000002f4       ??_C@_1CI@FKEEBNKI@?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AAU?$AAp?$AAD?$AAo?$AAw?$AAn?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?$AA@ 000112f4     pegterm.obj
+ 0001:0000031c       ??_C@_1BK@NAKKEEKA@?$AAc?$AAo?$AAm?$AAm?$AAc?$AAt?$AAr?$AAl?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 0001131c     pegterm.obj
+ 0001:000003c4       ??_C@_1M@IFKGMPDA@?$AA?$CF?$AAd?$AA?$CD?$AA?$CF?$AAs?$AA?$AA@ 000113c4     manager.obj
+ 0001:000003d0       ??_C@_1DE@CHPOOHOL@?$AA?2?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AA?2?$AAp?$AAe?$AAg?$AAt?$AAe?$AAr?$AAm?$AA?4?$AAe?$AAx?$AAe?$AA?5?$AA?$CC?$AA?$CF?$AAs?$AA?$CC?$AA?$AA@ 000113d0     manager.obj
+ 0001:00000404       ??_C@_1BO@GBHCKJPH@?$AA?$CF?$AAs?$AA?2?$AA?$CF?$AAs?$AA?5?$AA?$CI?$AA?$CF?$AAd?$AA?$CJ?$AA?4?$AAl?$AAn?$AAk?$AA?$AA@ 00011404     manager.obj
+ 0001:00000424       ??_C@_1BE@JPNDGLOO@?$AA?$CF?$AAs?$AA?2?$AA?$CF?$AAs?$AA?4?$AAl?$AAn?$AAk?$AA?$AA@ 00011424     manager.obj
+ 0001:00000438       ??_C@_15KNBIKKIN@?$AA?$CF?$AAd?$AA?$AA@ 00011438     manager.obj
+ 0001:00000440       ??_C@_15GANGMFKL@?$AA?$CF?$AAs?$AA?$AA@ 00011440     manager.obj
+ 0001:00000448       ??_C@_1DM@HFECONAK@?$AAf?$AAi?$AAl?$AAe?$AA?3?$AAr?$AAn?$AAe?$AAt?$AAw?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAu?$AAs?$AAi?$AAn?$AAg?$AA_?$AAt?$AAe?$AAr?$AAm?$AAi?$AAn?$AAa?$AAl?$AA?$AA@ 00011448     manager.obj
+ 0001:00000484       ??_C@_1BA@NGKEOGJG@?$AAp?$AAe?$AAg?$AAh?$AAe?$AAl?$AAp?$AA?$AA@ 00011484     manager.obj
+ 0001:00000494       ??_C@_11LOCGONAA@?$AA?$AA@ 00011494     manager.obj
+ 0001:00000498       ??_C@_1BM@FEGPDFAG@?$AAS?$AAy?$AAs?$AAL?$AAi?$AAs?$AAt?$AAV?$AAi?$AAe?$AAw?$AA3?$AA2?$AA?$AA@ 00011498     manager.obj
+ 0001:000004b4       ??_C@_1CA@NGDFGHGA@?$AAS?$AAe?$AAs?$AAs?$AAi?$AAo?$AAn?$AA?5?$AAM?$AAa?$AAn?$AAa?$AAg?$AAe?$AAr?$AA?$AA@ 000114b4     manager.obj
+ 0001:000004d4       ??_C@_15DAMPJCDE@?$AA?$CF?$AAc?$AA?$AA@ 000114d4     settings.obj
+ 0001:00000518       ??_C@_1BC@JDALEGOL@?$AAT?$AAe?$AAr?$AAm?$AAC?$AAt?$AAr?$AAl?$AA?$AA@ 00011518     session.obj
+ 0001:0000052c       ??_C@_1BK@OPDMOMP@?$AAT?$AAe?$AAr?$AAm?$AAC?$AAt?$AAr?$AAl?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 0001152c     session.obj
+ 0001:00000548       szRegKeyAreaCode           00011548     registry.obj
+ 0001:0000055c       szRegKeyPhoneNumber        0001155c     registry.obj
+ 0001:00000568       szRegKeyCountryCode        00011568     registry.obj
+ 0001:00000578       szRegKeyDeviceName         00011578     registry.obj
+ 0001:00000588       szRegKeyDevConfig          00011588     registry.obj
+ 0001:00000598       szRegKeyDevConfigSize      00011598     registry.obj
+ 0001:000005a8       szRegKeyDeviceID           000115a8     registry.obj
+ 0001:000005b4       szRegKeyEmulType           000115b4     registry.obj
+ 0001:000005c8       szRegKeyEmulOptions        000115c8     registry.obj
+ 0001:000005d8       szRegKeyForceLocal         000115d8     registry.obj
+ 0001:000005e8       szRegKeyForceLongDistance  000115e8     registry.obj
+ 0001:000005f4       szRegKeyCPType             000115f4     registry.obj
+ 0001:00000608       ??_C@_1BM@LJFFGEPK@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAT?$AAe?$AAr?$AAm?$AAi?$AAn?$AAa?$AAl?$AA?$AA@ 00011608     registry.obj
+ 0001:00000624       ??_C@_1O@CDBLDEEO@?$AA?$CL?$AA?$CF?$AAd?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 00011624     termtapi.obj
+ 0001:00000634       ??_C@_1BI@MNKIOIHM@?$AA?$CL?$AA?$CF?$AAd?$AA?5?$AA?$CI?$AA?$CF?$AAs?$AA?$CJ?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 00011634     termtapi.obj
+ 0001:0000064c       ??_C@_1BO@FFJLMPPA@?$AAc?$AAo?$AAm?$AAm?$AA?1?$AAd?$AAa?$AAt?$AAa?$AAm?$AAo?$AAd?$AAe?$AAm?$AA?$AA@ 0001164c     termtapi.obj
+ 0001:00000690       InitCommCtrlTable          00011690 f i pegterm.obj
+ 0001:00000874       ErrorBox                   00011874 f   pegterm.obj
+ 0001:000008e8       WarnMessage                000118e8 f   pegterm.obj
+ 0001:00000964       OpenNewConnection          00011964 f   pegterm.obj
+ 0001:00000a84       WinMain                    00011a84 f   pegterm.obj
+ 0001:00000ca0       MyLoadString               00011ca0 f   pegterm.obj
+ 0001:00000cac       CreateShortcut             00011cac f   manager.obj
+ 0001:00000edc       SM_CreateShortcut          00011edc f   manager.obj
+ 0001:00000fc4       SM_CheckSessionName        00011fc4 f   manager.obj
+ 0001:000010ec       SM_QuerySelectionType      000120ec f   manager.obj
+ 0001:00001190       SetView                    00012190 f   manager.obj
+ 0001:000012b0       SM_EditSelectAll           000122b0 f   manager.obj
+ 0001:00001340       SM_FileConnect             00012340 f   manager.obj
+ 0001:0000141c       SM_Shortcut                0001241c f   manager.obj
+ 0001:00001544       SM_InitMenu                00012544 f   manager.obj
+ 0001:0000179c       SM_FileRename              0001279c f   manager.obj
+ 0001:00001850       SM_InitImageLists          00012850 f   manager.obj
+ 0001:000019c8       SM_InitColumns             000129c8 f   manager.obj
+ 0001:00001a80       SM_InitItems               00012a80 f   manager.obj
+ 0001:00001ca8       ManagerShow                00012ca8 f   manager.obj
+ 0001:00001cf0       ManagerHide                00012cf0 f   manager.obj
+ 0001:00001d10       ManagerShutdown            00012d10 f   manager.obj
+ 0001:00001d60       SM_FileDuplicate           00012d60 f   manager.obj
+ 0001:00001f70       SM_FileMakeNew             00012f70 f   manager.obj
+ 0001:00001fd8       SM_FileProperties          00012fd8 f   manager.obj
+ 0001:000020ec       SM_FileDelete              000130ec f   manager.obj
+ 0001:000022b8       ManagerWndProc             000132b8 f   manager.obj
+ 0001:00002958       ManagerInit                00013958 f   manager.obj
+ 0001:00002be0       ReadThread                 00013be0 f   port.obj
+ 0001:00002d08       StartComm                  00013d08 f   port.obj
+ 0001:00002da4       StopComm                   00013da4 f   port.obj
+ 0001:00002dbc       InitPort                   00013dbc f   port.obj
+ 0001:00002e7c       PortShutdown               00013e7c f   port.obj
+ 0001:00002f04       PortWrite                  00013f04 f   port.obj
+ 0001:00002f40       SetTextWithEllipsis        00013f40 f   settings.obj
+ 0001:000030a4       EnablePhoneSettings        000140a4 f   settings.obj
+ 0001:00003178       EmulationDlgProc           00014178 f   settings.obj
+ 0001:000034a0       PropSheetProc              000144a0 f   settings.obj
+ 0001:000034c0       ExtEditFieldProc           000144c0 f   settings.obj
+ 0001:00003620       CommunicationsDlgProc      00014620 f   settings.obj
+ 0001:00003e9c       EditSettings               00014e9c f   settings.obj
+ 0001:0000410c       SaveAsDlgProc              0001510c f   session.obj
+ 0001:000041d4       SessionShutdown            000151d4 f   session.obj
+ 0001:000041f8       SessionShow                000151f8 f   session.obj
+ 0001:00004304       SessionClose               00015304 f   session.obj
+ 0001:00004394       SessionWndProc             00015394 f   session.obj
+ 0001:0000478c       SessionInit                0001578c f   session.obj
+ 0001:00004a34       TermRegInit                00015a34 f   registry.obj
+ 0001:00004aa4       TermRegExit                00015aa4 f   registry.obj
+ 0001:00004ad0       TermRegEnumSessionNames    00015ad0 f   registry.obj
+ 0001:00004b2c       TermRegDeleteSession       00015b2c f   registry.obj
+ 0001:00004b54       TermRegSetData             00015b54 f   registry.obj
+ 0001:00004c04       TermRegSetString           00015c04 f   registry.obj
+ 0001:00004c48       TermRegLoadSettings        00015c48 f   registry.obj
+ 0001:00004f60       TermRegSaveSettings        00015f60 f   registry.obj
+ 0001:000050c8       TermRegCleanup             000160c8 f   registry.obj
+ 0001:000051d4       TermRegCopySession         000161d4 f   registry.obj
+ 0001:000053a8       DialBox_SetMessage         000163a8 f   termtapi.obj
+ 0001:00005444       TermTapiGetNumDevices      00016444 f   termtapi.obj
+ 0001:00005454       TermTapiLineFreeDevConfig  00016454 f   termtapi.obj
+ 0001:000054a0       TermTapiLineGetDevConfig   000164a0 f   termtapi.obj
+ 0001:00005508       TermTapiLineTranslateDialog 00016508 f   termtapi.obj
+ 0001:000055b8       TermTapiLineConfigDialogEdit 000165b8 f   termtapi.obj
+ 0001:00005684       TermTapiLineOpen           00016684 f   termtapi.obj
+ 0001:000056fc       TermTapiUpdateLocation     000166fc f   termtapi.obj
+ 0001:0000575c       TermTapiCurrentAreaCode    0001675c f   termtapi.obj
+ 0001:0000576c       TermTapiCurrentLocation    0001676c f   termtapi.obj
+ 0001:0000577c       TermTapiCurrentCountryCode 0001677c f   termtapi.obj
+ 0001:0000578c       HangupCall                 0001678c f   termtapi.obj
+ 0001:000057f0       TermTapiLineName           000167f0 f   termtapi.obj
+ 0001:00005840       DoLineCallState            00016840 f   termtapi.obj
+ 0001:00005b68       DoLineReply                00016b68 f   termtapi.obj
+ 0001:00005bdc       DialingDlgProc             00016bdc f   termtapi.obj
+ 0001:00005dd4       TermTapiFindDeviceID       00016dd4 f   termtapi.obj
+ 0001:00005e54       TermTapiHangup             00016e54 f   termtapi.obj
+ 0001:00005e74       TermTapiGetConfigData      00016e74 f   termtapi.obj
+ 0001:00005ed8       TermTapiSetConfigData      00016ed8 f   termtapi.obj
+ 0001:00005f54       TermTapiLineConfigDialog   00016f54 f   termtapi.obj
+ 0001:00005f98       TermTapiLineMakeCall       00016f98 f   termtapi.obj
+ 0001:000060d8       TermTapiShutdown           000170d8 f   termtapi.obj
+ 0001:00006180       lineCallbackFunc           00017180 f   termtapi.obj
+ 0001:000061e0       TermTapiInit               000171e0 f   termtapi.obj
+ 0001:00006374       TermTapiDial               00017374 f   termtapi.obj
+ 0001:000063ec       GetProcAddressW            000173ec f   coredll:COREDLL.dll
+ 0001:000063fc       LoadLibraryW               000173fc f   coredll:COREDLL.dll
+ 0001:0000640c       MessageBoxW                0001740c f   coredll:COREDLL.dll
+ 0001:0000641c       LoadStringW                0001741c f   coredll:COREDLL.dll
+ 0001:0000642c       SendMessageW               0001742c f   coredll:COREDLL.dll
+ 0001:0000643c       DispatchMessageW           0001743c f   coredll:COREDLL.dll
+ 0001:0000644c       TranslateMessage           0001744c f   coredll:COREDLL.dll
+ 0001:0000645c       TranslateAcceleratorW      0001745c f   coredll:COREDLL.dll
+ 0001:0000646c       IsChild                    0001746c f   coredll:COREDLL.dll
+ 0001:0000647c       GetMessageW                0001747c f   coredll:COREDLL.dll
+ 0001:0000648c       GetWindowLongW             0001748c f   coredll:COREDLL.dll
+ 0001:0000649c       LoadAcceleratorsW          0001749c f   coredll:COREDLL.dll
+ 0001:000064ac       IsWindow                   000174ac f   coredll:COREDLL.dll
+ 0001:000064bc       CloseHandle                000174bc f   coredll:COREDLL.dll
+ 0001:000064cc       WriteFile                  000174cc f   coredll:COREDLL.dll
+ 0001:000064dc       WideCharToMultiByte        000174dc f   coredll:COREDLL.dll
+ 0001:000064ec       CreateFileW                000174ec f   coredll:COREDLL.dll
+ 0001:000064fc       StringCchPrintfW           000174fc f   coredll:COREDLL.dll
+ 0001:0000650c       CheckMenuRadioItem         0001750c f   coredll:COREDLL.dll
+ 0001:0000651c       SetWindowLongW             0001751c f   coredll:COREDLL.dll
+ 0001:0000652c       DestroyMenu                0001752c f   coredll:COREDLL.dll
+ 0001:0000653c       TrackPopupMenuEx           0001753c f   coredll:COREDLL.dll
+ 0001:0000654c       EnableMenuItem             0001754c f   coredll:COREDLL.dll
+ 0001:0000655c       GetSubMenu                 0001755c f   coredll:COREDLL.dll
+ 0001:0000656c       GetMessagePos              0001756c f   coredll:COREDLL.dll
+ 0001:0000657c       LoadMenuW                  0001757c f   coredll:COREDLL.dll
+ 0001:0000658c       InsertMenuW                0001758c f   coredll:COREDLL.dll
+ 0001:0000659c       RemoveMenu                 0001759c f   coredll:COREDLL.dll
+ 0001:000065ac       DeleteObject               000175ac f   coredll:COREDLL.dll
+ 0001:000065bc       LoadImageW                 000175bc f   coredll:COREDLL.dll
+ 0001:000065cc       ImageList_ReplaceIcon      000175cc f   coredll:COREDLL.dll
+ 0001:000065dc       LoadIconW                  000175dc f   coredll:COREDLL.dll
+ 0001:000065ec       ImageList_Create           000175ec f   coredll:COREDLL.dll
+ 0001:000065fc       GetSystemMetrics           000175fc f   coredll:COREDLL.dll
+ 0001:0000660c       ShowWindow                 0001760c f   coredll:COREDLL.dll
+ 0001:0000661c       SetFocus                   0001761c f   coredll:COREDLL.dll
+ 0001:0000662c       DestroyWindow              0001762c f   coredll:COREDLL.dll
+ 0001:0000663c       ImageList_Destroy          0001763c f   coredll:COREDLL.dll
+ 0001:0000664c       PostQuitMessage            0001764c f   coredll:COREDLL.dll
+ 0001:0000665c       GetKeyState                0001765c f   coredll:COREDLL.dll
+ 0001:0000666c       PostMessageW               0001766c f   coredll:COREDLL.dll
+ 0001:0000667c       CreateProcessW             0001767c f   coredll:COREDLL.dll
+ 0001:0000668c       DefWindowProcW             0001768c f   coredll:COREDLL.dll
+ 0001:0000669c       GetClientRect              0001769c f   coredll:COREDLL.dll
+ 0001:000066ac       CreateWindowExW            000176ac f   coredll:COREDLL.dll
+ 0001:000066bc       RegisterClassW             000176bc f   coredll:COREDLL.dll
+ 0001:000066cc       EventModify                000176cc f   coredll:COREDLL.dll
+ 0001:000066dc       WaitForSingleObject        000176dc f   coredll:COREDLL.dll
+ 0001:000066ec       ReadFile                   000176ec f   coredll:COREDLL.dll
+ 0001:000066fc       WaitCommEvent              000176fc f   coredll:COREDLL.dll
+ 0001:0000670c       SetCommMask                0001770c f   coredll:COREDLL.dll
+ 0001:0000671c       SetCommTimeouts            0001771c f   coredll:COREDLL.dll
+ 0001:0000672c       GetCommTimeouts            0001772c f   coredll:COREDLL.dll
+ 0001:0000673c       GetCommState               0001773c f   coredll:COREDLL.dll
+ 0001:0000674c       CreateThread               0001774c f   coredll:COREDLL.dll
+ 0001:0000675c       CreateEventW               0001775c f   coredll:COREDLL.dll
+ 0001:0000676c       SetWindowTextW             0001776c f   coredll:COREDLL.dll
+ 0001:0000677c       ReleaseDC                  0001777c f   coredll:COREDLL.dll
+ 0001:0000678c       GetTextExtentExPointW      0001778c f   coredll:COREDLL.dll
+ 0001:0000679c       GetDC                      0001779c f   coredll:COREDLL.dll
+ 0001:000067ac       EnableWindow               000177ac f   coredll:COREDLL.dll
+ 0001:000067bc       GetDlgItem                 000177bc f   coredll:COREDLL.dll
+ 0001:000067cc       SendDlgItemMessageW        000177cc f   coredll:COREDLL.dll
+ 0001:000067dc       LCMapStringW               000177dc f   coredll:COREDLL.dll
+ 0001:000067ec       CallWindowProcW            000177ec f   coredll:COREDLL.dll
+ 0001:000067fc       ImmReleaseContext          000177fc f   coredll:COREDLL.dll
+ 0001:0000680c       ImmNotifyIME               0001780c f   coredll:COREDLL.dll
+ 0001:0000681c       ImmGetCompositionStringW   0001781c f   coredll:COREDLL.dll
+ 0001:0000682c       ImmGetContext              0001782c f   coredll:COREDLL.dll
+ 0001:0000683c       ImmIsIME                   0001783c f   coredll:COREDLL.dll
+ 0001:0000684c       GetKeyboardLayout          0001784c f   coredll:COREDLL.dll
+ 0001:0000685c       GetDlgItemInt              0001785c f   coredll:COREDLL.dll
+ 0001:0000686c       GetDlgItemTextW            0001786c f   coredll:COREDLL.dll
+ 0001:0000687c       StringCchCopyW             0001787c f   coredll:COREDLL.dll
+ 0001:0000688c       ImmAssociateContext        0001788c f   coredll:COREDLL.dll
+ 0001:0000689c       LocalFree                  0001789c f   coredll:COREDLL.dll
+ 0001:000068ac       SetDlgItemTextW            000178ac f   coredll:COREDLL.dll
+ 0001:000068bc       EndDialog                  000178bc f   coredll:COREDLL.dll
+ 0001:000068cc       DialogBoxIndirectParamW    000178cc f   coredll:COREDLL.dll
+ 0001:000068dc       LoadResource               000178dc f   coredll:COREDLL.dll
+ 0001:000068ec       FindResourceW              000178ec f   coredll:COREDLL.dll
+ 0001:000068fc       UpdateWindow               000178fc f   coredll:COREDLL.dll
+ 0001:0000690c       GetLastError               0001790c f   coredll:COREDLL.dll
+ 0001:0000691c       GetStockObject             0001791c f   coredll:COREDLL.dll
+ 0001:0000692c       RegCreateKeyExW            0001792c f   coredll:COREDLL.dll
+ 0001:0000693c       RegCloseKey                0001793c f   coredll:COREDLL.dll
+ 0001:0000694c       RegEnumKeyExW              0001794c f   coredll:COREDLL.dll
+ 0001:0000695c       RegDeleteKeyW              0001795c f   coredll:COREDLL.dll
+ 0001:0000696c       RegQueryValueExW           0001796c f   coredll:COREDLL.dll
+ 0001:0000697c       RegOpenKeyExW              0001797c f   coredll:COREDLL.dll
+ 0001:0000698c       RegSetValueExW             0001798c f   coredll:COREDLL.dll
+ 0001:0000699c       LocalAlloc                 0001799c f   coredll:COREDLL.dll
+ 0001:000069ac       RegEnumValueW              000179ac f   coredll:COREDLL.dll
+ 0001:000069bc       RegQueryInfoKeyW           000179bc f   coredll:COREDLL.dll
+ 0001:000069cc       lineTranslateDialog        000179cc f   coredll:COREDLL.dll
+ 0001:000069dc       lineConfigDialogEdit       000179dc f   coredll:COREDLL.dll
+ 0001:000069ec       lineOpen                   000179ec f   coredll:COREDLL.dll
+ 0001:000069fc       lineClose                  000179fc f   coredll:COREDLL.dll
+ 0001:00006a0c       lineMakeCall               00017a0c f   coredll:COREDLL.dll
+ 0001:00006a1c       lineSetDevConfig           00017a1c f   coredll:COREDLL.dll
+ 0001:00006a2c       lineShutdown               00017a2c f   coredll:COREDLL.dll
+ 0001:00006a3c       TermCtrl_ProcessChars      00017a3c f   termctrl:TERMCTRL.dll
+ 0001:00006a4c       TapiInitialize             00017a4c f   tapihelp:tapihelp.obj
+ 0001:00006aa4       TapiGetVersion             00017aa4 f   tapihelp:tapihelp.obj
+ 0001:00006afc       TapiLineGetDevCaps         00017afc f   tapihelp:tapihelp.obj
+ 0001:00006b98       TapiLineGetDevConfig       00017b98 f   tapihelp:tapihelp.obj
+ 0001:00006c1c       TapiLineGetID              00017c1c f   tapihelp:tapihelp.obj
+ 0001:00006cd8       TapiLineTranslateAddress   00017cd8 f   tapihelp:tapihelp.obj
+ 0001:00006e40       TapiLineGetTranslateCaps   00017e40 f   tapihelp:tapihelp.obj
+ 0001:00006ed0       TapiGetDefaultAreaCountryCode 00017ed0 f   tapihelp:tapihelp.obj
+ 0001:00006f8c       TapiGetDefaultLocationName 00017f8c f   tapihelp:tapihelp.obj
+ 0001:0000703c       TapiGetLineName            0001803c f   tapihelp:tapihelp.obj
+ 0001:0000719c       WinMainCRTStartup          0001819c f   corelib0:pegwmain.obj
+ 0001:000071cc       __GSHandlerCheckCommon     000181cc f   corelib0:gshandler.obj
+ 0001:00007208       __GSHandlerCheck           00018208 f   corelib0:gshandler.obj
+ 0001:00007228       __security_init_cookie     00018228 f   corelib0:seccinit.obj
+ 0001:00007274       __security_check_cookie    00018274 f   corelib0:armsecgs.obj
+ 0001:00007284       __gsfailure                00018284     corelib0:armsecgs.obj
+ 0001:000073b0       exit                       000183b0 f   corelib0:cexit.obj
+ 0001:000073bc       _exit                      000183bc f   corelib0:cexit.obj
+ 0001:000073f4       _initterm                  000183f4 f   corelib0:crt0dat.obj
+ 0001:00007420       _cinit                     00018420 f   corelib0:crt0dat.obj
+ 0001:00007480       __crt_ExitProcess          00018480 f   corelib0:exitproc_proxy.obj
+ 0001:0000748c       wcslen                     0001848c f   corelib1:COREDLL.dll
+ 0001:0000749c       wcsstr                     0001849c f   corelib1:COREDLL.dll
+ 0001:000074ac       wcscmp                     000184ac f   corelib1:COREDLL.dll
+ 0001:000074bc       wcscpy                     000184bc f   corelib1:COREDLL.dll
+ 0001:000074cc       free                       000184cc f   corelib1:COREDLL.dll
+ 0001:000074dc       malloc                     000184dc f   corelib1:COREDLL.dll
+ 0001:000074ec       memcpy                     000184ec f   corelib1:COREDLL.dll
+ 0001:000074fc       memset                     000184fc f   corelib1:COREDLL.dll
+ 0001:0000750c       _XcptFilter                0001850c f   corelib1:COREDLL.dll
+ 0001:0000751c       __C_specific_handler       0001851c f   corelib1:COREDLL.dll
+ 0001:0000752c       __security_gen_cookie2     0001852c f   corelib1:COREDLL.dll
+ 0001:0000753c       __report_gsfailure         0001853c f   corelib1:COREDLL.dll
+ 0001:0000754c       lineInitialize             0001854c f   coredll:COREDLL.dll
+ 0001:0000755c       lineNegotiateAPIVersion    0001855c f   coredll:COREDLL.dll
+ 0001:0000756c       lineGetDevCaps             0001856c f   coredll:COREDLL.dll
+ 0001:0000757c       lineGetDevConfig           0001857c f   coredll:COREDLL.dll
+ 0001:0000758c       lineGetID                  0001858c f   coredll:COREDLL.dll
+ 0001:0000759c       lineTranslateAddress       0001859c f   coredll:COREDLL.dll
+ 0001:000075ac       lineGetTranslateCaps       000185ac f   coredll:COREDLL.dll
+ 0001:000075bc       DeleteCriticalSection      000185bc f   coredll:COREDLL.dll
+ 0001:000075cc       InterlockedExchange        000185cc f   coredll:COREDLL.dll
+ 0001:000075dc       TerminateProcess           000185dc f   coredll:COREDLL.dll
+ 0001:00007650       __IMPORT_DESCRIPTOR_COREDLL 00018650     coredll:COREDLL.dll
+ 0001:00007664       __IMPORT_DESCRIPTOR_TERMCTRL 00018664     termctrl:TERMCTRL.dll
+ 0001:00007678       __NULL_IMPORT_DESCRIPTOR   00018678     coredll:COREDLL.dll
+ 0002:00000000       __imp_GetProcAddressW      00019000     coredll:COREDLL.dll
+ 0002:00000004       __imp_LoadLibraryW         00019004     coredll:COREDLL.dll
+ 0002:00000008       __imp_MessageBoxW          00019008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_LoadStringW          0001900c     coredll:COREDLL.dll
+ 0002:00000010       __imp_SendMessageW         00019010     coredll:COREDLL.dll
+ 0002:00000014       __imp_DispatchMessageW     00019014     coredll:COREDLL.dll
+ 0002:00000018       __imp_TranslateMessage     00019018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_TranslateAcceleratorW 0001901c     coredll:COREDLL.dll
+ 0002:00000020       __imp_IsChild              00019020     coredll:COREDLL.dll
+ 0002:00000024       __imp_GetMessageW          00019024     coredll:COREDLL.dll
+ 0002:00000028       __imp_GetWindowLongW       00019028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_LoadAcceleratorsW    0001902c     coredll:COREDLL.dll
+ 0002:00000030       __imp_IsWindow             00019030     coredll:COREDLL.dll
+ 0002:00000034       __imp_CloseHandle          00019034     coredll:COREDLL.dll
+ 0002:00000038       __imp_WriteFile            00019038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_WideCharToMultiByte  0001903c     coredll:COREDLL.dll
+ 0002:00000040       __imp_CreateFileW          00019040     coredll:COREDLL.dll
+ 0002:00000044       __imp_StringCchPrintfW     00019044     coredll:COREDLL.dll
+ 0002:00000048       __imp_CheckMenuRadioItem   00019048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_SetWindowLongW       0001904c     coredll:COREDLL.dll
+ 0002:00000050       __imp_DestroyMenu          00019050     coredll:COREDLL.dll
+ 0002:00000054       __imp_TrackPopupMenuEx     00019054     coredll:COREDLL.dll
+ 0002:00000058       __imp_EnableMenuItem       00019058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_GetSubMenu           0001905c     coredll:COREDLL.dll
+ 0002:00000060       __imp_GetMessagePos        00019060     coredll:COREDLL.dll
+ 0002:00000064       __imp_LoadMenuW            00019064     coredll:COREDLL.dll
+ 0002:00000068       __imp_InsertMenuW          00019068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_RemoveMenu           0001906c     coredll:COREDLL.dll
+ 0002:00000070       __imp_DeleteObject         00019070     coredll:COREDLL.dll
+ 0002:00000074       __imp_LoadImageW           00019074     coredll:COREDLL.dll
+ 0002:00000078       __imp_ImageList_ReplaceIcon 00019078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_LoadIconW            0001907c     coredll:COREDLL.dll
+ 0002:00000080       __imp_ImageList_Create     00019080     coredll:COREDLL.dll
+ 0002:00000084       __imp_GetSystemMetrics     00019084     coredll:COREDLL.dll
+ 0002:00000088       __imp_ShowWindow           00019088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_SetFocus             0001908c     coredll:COREDLL.dll
+ 0002:00000090       __imp_DestroyWindow        00019090     coredll:COREDLL.dll
+ 0002:00000094       __imp_ImageList_Destroy    00019094     coredll:COREDLL.dll
+ 0002:00000098       __imp_PostQuitMessage      00019098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_GetKeyState          0001909c     coredll:COREDLL.dll
+ 0002:000000a0       __imp_PostMessageW         000190a0     coredll:COREDLL.dll
+ 0002:000000a4       __imp_CreateProcessW       000190a4     coredll:COREDLL.dll
+ 0002:000000a8       __imp_DefWindowProcW       000190a8     coredll:COREDLL.dll
+ 0002:000000ac       __imp_GetClientRect        000190ac     coredll:COREDLL.dll
+ 0002:000000b0       __imp_CreateWindowExW      000190b0     coredll:COREDLL.dll
+ 0002:000000b4       __imp_RegisterClassW       000190b4     coredll:COREDLL.dll
+ 0002:000000b8       __imp_EventModify          000190b8     coredll:COREDLL.dll
+ 0002:000000bc       __imp_WaitForSingleObject  000190bc     coredll:COREDLL.dll
+ 0002:000000c0       __imp_ReadFile             000190c0     coredll:COREDLL.dll
+ 0002:000000c4       __imp_WaitCommEvent        000190c4     coredll:COREDLL.dll
+ 0002:000000c8       __imp_SetCommMask          000190c8     coredll:COREDLL.dll
+ 0002:000000cc       __imp_SetCommTimeouts      000190cc     coredll:COREDLL.dll
+ 0002:000000d0       __imp_GetCommTimeouts      000190d0     coredll:COREDLL.dll
+ 0002:000000d4       __imp_GetCommState         000190d4     coredll:COREDLL.dll
+ 0002:000000d8       __imp_CreateThread         000190d8     coredll:COREDLL.dll
+ 0002:000000dc       __imp_CreateEventW         000190dc     coredll:COREDLL.dll
+ 0002:000000e0       __imp_SetWindowTextW       000190e0     coredll:COREDLL.dll
+ 0002:000000e4       __imp_ReleaseDC            000190e4     coredll:COREDLL.dll
+ 0002:000000e8       __imp_GetTextExtentExPointW 000190e8     coredll:COREDLL.dll
+ 0002:000000ec       __imp_GetDC                000190ec     coredll:COREDLL.dll
+ 0002:000000f0       __imp_EnableWindow         000190f0     coredll:COREDLL.dll
+ 0002:000000f4       __imp_GetDlgItem           000190f4     coredll:COREDLL.dll
+ 0002:000000f8       __imp_SendDlgItemMessageW  000190f8     coredll:COREDLL.dll
+ 0002:000000fc       __imp_LCMapStringW         000190fc     coredll:COREDLL.dll
+ 0002:00000100       __imp_CallWindowProcW      00019100     coredll:COREDLL.dll
+ 0002:00000104       __imp_ImmReleaseContext    00019104     coredll:COREDLL.dll
+ 0002:00000108       __imp_ImmNotifyIME         00019108     coredll:COREDLL.dll
+ 0002:0000010c       __imp_ImmGetCompositionStringW 0001910c     coredll:COREDLL.dll
+ 0002:00000110       __imp_ImmGetContext        00019110     coredll:COREDLL.dll
+ 0002:00000114       __imp_ImmIsIME             00019114     coredll:COREDLL.dll
+ 0002:00000118       __imp_GetKeyboardLayout    00019118     coredll:COREDLL.dll
+ 0002:0000011c       __imp_GetDlgItemInt        0001911c     coredll:COREDLL.dll
+ 0002:00000120       __imp_GetDlgItemTextW      00019120     coredll:COREDLL.dll
+ 0002:00000124       __imp_StringCchCopyW       00019124     coredll:COREDLL.dll
+ 0002:00000128       __imp_ImmAssociateContext  00019128     coredll:COREDLL.dll
+ 0002:0000012c       __imp_LocalFree            0001912c     coredll:COREDLL.dll
+ 0002:00000130       __imp_SetDlgItemTextW      00019130     coredll:COREDLL.dll
+ 0002:00000134       __imp_EndDialog            00019134     coredll:COREDLL.dll
+ 0002:00000138       __imp_DialogBoxIndirectParamW 00019138     coredll:COREDLL.dll
+ 0002:0000013c       __imp_LoadResource         0001913c     coredll:COREDLL.dll
+ 0002:00000140       __imp_FindResourceW        00019140     coredll:COREDLL.dll
+ 0002:00000144       __imp_UpdateWindow         00019144     coredll:COREDLL.dll
+ 0002:00000148       __imp_GetLastError         00019148     coredll:COREDLL.dll
+ 0002:0000014c       __imp_GetStockObject       0001914c     coredll:COREDLL.dll
+ 0002:00000150       __imp_RegCreateKeyExW      00019150     coredll:COREDLL.dll
+ 0002:00000154       __imp_RegCloseKey          00019154     coredll:COREDLL.dll
+ 0002:00000158       __imp_RegEnumKeyExW        00019158     coredll:COREDLL.dll
+ 0002:0000015c       __imp_RegDeleteKeyW        0001915c     coredll:COREDLL.dll
+ 0002:00000160       __imp_RegQueryValueExW     00019160     coredll:COREDLL.dll
+ 0002:00000164       __imp_RegOpenKeyExW        00019164     coredll:COREDLL.dll
+ 0002:00000168       __imp_RegSetValueExW       00019168     coredll:COREDLL.dll
+ 0002:0000016c       __imp_LocalAlloc           0001916c     coredll:COREDLL.dll
+ 0002:00000170       __imp_RegEnumValueW        00019170     coredll:COREDLL.dll
+ 0002:00000174       __imp_RegQueryInfoKeyW     00019174     coredll:COREDLL.dll
+ 0002:00000178       __imp_lineTranslateDialog  00019178     coredll:COREDLL.dll
+ 0002:0000017c       __imp_lineConfigDialogEdit 0001917c     coredll:COREDLL.dll
+ 0002:00000180       __imp_lineOpen             00019180     coredll:COREDLL.dll
+ 0002:00000184       __imp_lineClose            00019184     coredll:COREDLL.dll
+ 0002:00000188       __imp_lineMakeCall         00019188     coredll:COREDLL.dll
+ 0002:0000018c       __imp_lineSetDevConfig     0001918c     coredll:COREDLL.dll
+ 0002:00000190       __imp_lineShutdown         00019190     coredll:COREDLL.dll
+ 0002:00000194       __imp_wcslen               00019194     corelib1:COREDLL.dll
+ 0002:00000198       __imp_wcsstr               00019198     corelib1:COREDLL.dll
+ 0002:0000019c       __imp_wcscmp               0001919c     corelib1:COREDLL.dll
+ 0002:000001a0       __imp_wcscpy               000191a0     corelib1:COREDLL.dll
+ 0002:000001a4       __imp_free                 000191a4     corelib1:COREDLL.dll
+ 0002:000001a8       __imp_malloc               000191a8     corelib1:COREDLL.dll
+ 0002:000001ac       __imp_memcpy               000191ac     corelib1:COREDLL.dll
+ 0002:000001b0       __imp_memset               000191b0     corelib1:COREDLL.dll
+ 0002:000001b4       __imp__XcptFilter          000191b4     corelib1:COREDLL.dll
+ 0002:000001b8       __imp___C_specific_handler 000191b8     corelib1:COREDLL.dll
+ 0002:000001bc       __imp___security_gen_cookie2 000191bc     corelib1:COREDLL.dll
+ 0002:000001c0       __imp___report_gsfailure   000191c0     corelib1:COREDLL.dll
+ 0002:000001c4       __imp_lineInitialize       000191c4     coredll:COREDLL.dll
+ 0002:000001c8       __imp_lineNegotiateAPIVersion 000191c8     coredll:COREDLL.dll
+ 0002:000001cc       __imp_lineGetDevCaps       000191cc     coredll:COREDLL.dll
+ 0002:000001d0       __imp_lineGetDevConfig     000191d0     coredll:COREDLL.dll
+ 0002:000001d4       __imp_lineGetID            000191d4     coredll:COREDLL.dll
+ 0002:000001d8       __imp_lineTranslateAddress 000191d8     coredll:COREDLL.dll
+ 0002:000001dc       __imp_lineGetTranslateCaps 000191dc     coredll:COREDLL.dll
+ 0002:000001e0       __imp_DeleteCriticalSection 000191e0     coredll:COREDLL.dll
+ 0002:000001e4       __imp_InterlockedExchange  000191e4     coredll:COREDLL.dll
+ 0002:000001e8       __imp_TerminateProcess     000191e8     coredll:COREDLL.dll
+ 0002:000001ec       \177COREDLL_NULL_THUNK_DATA 000191ec     coredll:COREDLL.dll
+ 0002:000001f0       __imp_TermCtrl_ProcessChars 000191f0     termctrl:TERMCTRL.dll
+ 0002:000001f4       \177TERMCTRL_NULL_THUNK_DATA 000191f4     termctrl:TERMCTRL.dll
+ 0002:000001f8       __security_cookie          000191f8     corelib0:seccinit.obj
+ 0002:000001fc       __security_cookie_complement 000191fc     corelib0:seccinit.obj
+ 0002:00000200       g_fInRename                00019200     pegterm.obj
+ 0002:00000208       _exitflag                  00019208     corelib0:cexit.obj
+ 0002:0000020c       g_dwSizeDeviceConfig       0001920c     <common>
+ 0002:00000210       g_dwCallState              00019210     <common>
+ 0002:00000214       g_szDialable               00019214     <common>
+ 0002:00000218       g_szCurrentLocation        00019218     <common>
+ 0002:0000021c       g_dwCurrentCountryCode     0001921c     <common>
+ 0002:00000220       g_szCurrentAreaCode        00019220     <common>
+ 0002:00000224       g_dwRequestedID            00019224     <common>
+ 0002:00000240       g_CallParams               00019240     <common>
+ 0002:000002f4       g_hCall                    000192f4     <common>
+ 0002:000002f8       g_bCallStateReceived       000192f8     <common>
+ 0002:000002fc       g_szDsp                    000192fc     <common>
+ 0002:00000300       g_hLineApp                 00019300     <common>
+ 0002:00000304       g_lpDeviceConfigStructure  00019304     <common>
+ 0002:00000308       g_bConnected               00019308     <common>
+ 0002:0000030c       g_hLine                    0001930c     <common>
+ 0002:00000310       g_dwAPIVersion             00019310     <common>
+ 0002:00000314       g_bReplyReceived           00019314     <common>
+ 0002:00000318       g_dwNumDevs                00019318     <common>
+ 0002:0000031c       g_hDlg                     0001931c     <common>
+ 0002:00000320       g_dwDeviceID               00019320     <common>
+ 0002:00000324       g_lAsyncReply              00019324     <common>
+ 0002:00000328       g_lpDeviceConfig           00019328     <common>
+ 0002:0000032c       g_fOnLine                  0001932c     <common>
+ 0002:00000330       g_hSessionWnd              00019330     <common>
+ 0002:00000334       g_hMenu                    00019334     <common>
+ 0002:00000338       hCmdBar                    00019338     <common>
+ 0002:0000033c       lpfnWndProc                0001933c     <common>
+ 0002:00000340       g_fEditName                00019340     <common>
+ 0002:00000360       g_szCommTitle              00019360     <common>
+ 0002:000003a0       g_dwDevIDs                 000193a0     <common>
+ 0002:000003f0       g_fEditSettingsApply       000193f0     <common>
+ 0002:00000400       g_szEmulTitle              00019400     <common>
+ 0002:00000440       szCountryCode              00019440     <common>
+ 0002:00000450       g_lpEditSettings           00019450     <common>
+ 0002:00000454       g_fEditDevice              00019454     <common>
+ 0002:00000460       g_szSettingTitle           00019460     <common>
+ 0002:000004e0       g_PropSheetWnd             000194e0     <common>
+ 0002:000004e4       v_hReadThread              000194e4     <common>
+ 0002:000004e8       hOpenPortEvent             000194e8     <common>
+ 0002:00000500       g_LVI                      00019500     <common>
+ 0002:0000052c       himlSmall                  0001952c     <common>
+ 0002:00000540       szTempStringTo             00019540     <common>
+ 0002:00000640       himlLarge                  00019640     <common>
+ 0002:00000644       g_hManagerMenu             00019644     <common>
+ 0002:00000660       g_szMakeNewName            00019660     <common>
+ 0002:00000700       g_hManagerCmdBar           00019700     <common>
+ 0002:00000720       szTempStringFrom           00019720     <common>
+ 0002:00000820       g_TempSettings             00019820     <common>
+ 0002:00000a48       g_hListWnd                 00019a48     <common>
+ 0002:00000a4c       g_hManagerWnd              00019a4c     <common>
+ 0002:00000a50       v_hThreadStopped           00019a50     <common>
+ 0002:00000a54       hPort                      00019a54     <common>
+ 0002:00000a60       szAppName                  00019a60     <common>
+ 0002:00000a80       g_pTCI                     00019a80     <common>
+ 0002:00000aa0       CommCtrlFunctions          00019aa0     <common>
+ 0002:00000b00       v_Settings                 00019b00     <common>
+ 0002:00000d28       v_bStopThread              00019d28     <common>
+ 0002:00000d2c       g_hInstance                00019d2c     <common>
+ 0002:00000d30       v_CommPort                 00019d30     <common>
+ 0002:00000d34       g_hTermWnd                 00019d34     <common>
+ 0002:00000d38       g_hTermCtrlDll             00019d38     <common>
+ 0002:00000d3c       v_dwTapiHelpDebug          00019d3c     <common>
+ 0002:00000d40       v_dwVersion                00019d40     <common>
+ 0002:00000d44       v_dwNumDevs                00019d44     <common>
+ 0002:00000d48       v_hLineApp                 00019d48     <common>
+ 0002:00000d4c       __onexitend                00019d4c     <common>
+ 0002:00000d50       __onexitbegin              00019d50     <common>
+ 0002:00000d54       g_pcsExit                  00019d54     <common>
+
+ entry point at        0001:0000719c
+
+ Static symbols
+
+ 0001:0000711c       WinMainCRTStartupHelper    0001811c f   corelib0:pegwmain.obj
+ 0001:000072c8       doexit                     000182c8 f   corelib0:cexit.obj

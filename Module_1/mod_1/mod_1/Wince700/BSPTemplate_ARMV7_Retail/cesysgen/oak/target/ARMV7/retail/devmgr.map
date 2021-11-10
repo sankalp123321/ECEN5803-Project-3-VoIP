@@ -1,0 +1,870 @@
+ devmgr
+
+ Timestamp is 618b1568 (Tue Nov 09 17:42:16 2021)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCU                CODE
+ 0001:00000008 00000004H .CRT$XCZ                CODE
+ 0001:0000000c 00000004H .CRT$XIA                CODE
+ 0001:00000010 00000004H .CRT$XIZ                CODE
+ 0001:00000014 00000004H .CRT$XPA                CODE
+ 0001:00000018 00000004H .CRT$XPZ                CODE
+ 0001:0000001c 00000004H .CRT$XTA                CODE
+ 0001:00000020 00000004H .CRT$XTZ                CODE
+ 0001:00000030 000010daH .rdata                  CODE
+ 0001:0000110c 00000023H .rdata$debug            CODE
+ 0001:00001130 00010368H .text                   CODE
+ 0001:00011498 00000004H .text$yc                CODE
+ 0001:0001149c 0000000cH .text$yd                CODE
+ 0001:000114a8 0000061cH .xdata                  CODE
+ 0001:00011ac4 0000003cH .idata$2                CODE
+ 0001:00011b00 00000014H .idata$3                CODE
+ 0001:00011b14 00000254H .idata$4                CODE
+ 0001:00011d68 0000001eH .idata$6                CODE
+ 0001:00011d90 0000006fH .edata                  CODE
+ 0002:00000000 00000254H .idata$5                DATA
+ 0002:00000254 00000008H .data                   DATA
+ 0002:00000260 000000e4H .bss                    DATA
+ 0003:00000000 00000d68H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000008       __xc_z                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_a                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xi_z                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_a                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xp_z                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_a                     1000101c     corelib0:crt0init.obj
+ 0001:00000020       __xt_z                     10001020     corelib0:crt0init.obj
+ 0001:00000050       s_DllName_ValName          10001050     devcore:devcore.obj
+ 0001:00000058       s_ActiveKey                10001058     devcore:devcore.obj
+ 0001:00000078       s_BuiltInKey               10001078     devcore:devcore.obj
+ 0001:00000098       FDevApiMethods             10001098     devcore:devcore.obj
+ 0001:00000148       ExFDevApiMethods           10001148     devcore:devcore.obj
+ 0001:000001f8       FDevApiSigs                100011f8     devcore:devcore.obj
+ 0001:00000358       DevFileApiMethods          10001358     devcore:devcore.obj
+ 0001:000003a0       ExDevFileApiMethods        100013a0     devcore:devcore.obj
+ 0001:000003e8       DevFileApiSigs             100013e8     devcore:devcore.obj
+ 0001:00000478       ??_C@_1BG@CFLIEMNP@?$AAd?$AAe?$AAv?$AAi?$AAc?$AAe?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10001478     devcore:devcore.obj
+ 0001:00000490       ??_C@_1O@FDAMJOMO@?$AAL?$AAa?$AAu?$AAn?$AAc?$AAh?$AA?$AA@ 10001490     devcore:devcore.obj
+ 0001:000004a0       ??_C@_19DPEAGDOD@?$AAi?$AAn?$AAi?$AAt?$AA?$AA@ 100014a0     devcore:devcore.obj
+ 0001:000004ac       ??_C@_1CE@OCHLFFAP@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?1?$AAB?$AAo?$AAo?$AAt?$AAP?$AAh?$AAa?$AAs?$AAe?$AA2?$AA?$AA@ 100014ac     devcore:devcore.obj
+ 0001:000004d0       ??_C@_1CE@PAMOPKOB@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?1?$AAB?$AAo?$AAo?$AAt?$AAP?$AAh?$AAa?$AAs?$AAe?$AA1?$AA?$AA@ 100014d0     devcore:devcore.obj
+ 0001:000004f4       ??_C@_1CM@GACOAEOD@?$AAC?$AAa?$AAl?$AAi?$AAb?$AAr?$AAa?$AAt?$AAe?$AAS?$AAt?$AAa?$AAl?$AAl?$AAC?$AAo?$AAu?$AAn?$AAt?$AAe?$AAr?$AA?$AA@ 100014f4     devcore:devcore.obj
+ 0001:00000520       ??_C@_1BE@FJIEGDJO@?$AAc?$AAe?$AAd?$AAd?$AAk?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10001520     devcore:devcore.obj
+ 0001:00000534       ??_C@_04OAAEOCHN@WFLD?$AA@ 10001534     devcore:devcore.obj
+ 0001:0000053c       ??_C@_04OCIKPHIJ@W32D?$AA@ 1000153c     devcore:devcore.obj
+ 0001:00000544       ??_C@_1CE@KCGDIIFD@?$AAD?$AAr?$AAi?$AAv?$AAe?$AAr?$AAs?$AA?2?$AAR?$AAe?$AAs?$AAo?$AAu?$AAr?$AAc?$AAe?$AAs?$AA?$AA@ 10001544     devcore:devcore.obj
+ 0001:00000568       ??_C@_1DC@JMDNPKIO@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?1?$AAD?$AAe?$AAv?$AAM?$AAg?$AAr?$AAA?$AAp?$AAi?$AAS?$AAe?$AAt?$AAR?$AAe?$AAa?$AAd?$AAy?$AA?$AA@ 10001568     devcore:devcore.obj
+ 0001:0000059c       ??_C@_1BG@BDNKCIAB@?$AA?2?$AAS?$AAt?$AAo?$AAr?$AAe?$AAM?$AAg?$AAr?$AA?2?$AA?$AA@ 1000159c     devcore:devapi.obj
+ 0001:000005b4       ??_C@_1BE@MAHEDHGH@?$AA?2?$AAS?$AAt?$AAo?$AAr?$AAe?$AAM?$AAg?$AAr?$AA?$AA@ 100015b4     devcore:devapi.obj
+ 0001:000005c8       ??_C@_1BO@PALINPI@?$AAE?$AAx?$AAc?$AAe?$AAp?$AAt?$AAi?$AAo?$AAn?$AAF?$AAl?$AAa?$AAg?$AAs?$AA?$AA@ 100015c8     devcore:devfile.obj
+ 0001:000005e8       ??_C@_1DG@NKPFBFLK@?$AAD?$AAr?$AAi?$AAv?$AAe?$AAr?$AAs?$AA?2?$AAO?$AAl?$AAd?$AAA?$AAc?$AAc?$AAe?$AAs?$AAs?$AAE?$AAx?$AAc?$AAe?$AAp?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 100015e8     devcore:devfile.obj
+ 0001:000006b0       ??_7CRefObject@@6B@        100016b0     devcore:filemgr.obj
+ 0001:000006b4       ??_C@_04NAHIMCMP@IOPK?$AA@ 100016b4     devcore:filemgr.obj
+ 0001:000006bc       ??_7IoPckManager@@6B@      100016bc     devcore:filemgr.obj
+ 0001:000006dc       ??_C@_1CA@KMFOPLAP@?$AAS?$AA?9?$AA1?$AA?9?$AA5?$AA?9?$AA1?$AA1?$AA2?$AA?9?$AA0?$AA?9?$AA0?$AA?9?$AA1?$AA?$AA@ 100016dc     devcore:promgr.obj
+ 0001:000006fc       ??_C@_1CA@DHCPKJLF@?$AAS?$AAI?$AAD?$AA_?$AAU?$AAD?$AAE?$AAV?$AAI?$AAC?$AAE?$AA_?$AAT?$AAC?$AAB?$AA?$AA@ 100016fc     devcore:promgr.obj
+ 0001:0000071c       ??_C@_1DI@PABAOHIH@?$AAS?$AA?9?$AA1?$AA?9?$AA5?$AA?9?$AA1?$AA1?$AA2?$AA?9?$AA0?$AA?9?$AA0?$AAX?$AA2?$AA0?$AA?9?$AA0?$AAX?$AA0?$AA0?$AA0?$AA0?$AA0?$AA0?$AA0?$AA1?$AA?$AA@ 1000171c     devcore:promgr.obj
+ 0001:00000754       ??_C@_1CK@BFNPBBGJ@?$AAS?$AAI?$AAD?$AA_?$AAU?$AAD?$AAE?$AAV?$AAI?$AAC?$AAE?$AA_?$AAS?$AAT?$AAA?$AAN?$AAD?$AAA?$AAR?$AAD?$AA?$AA@ 10001754     devcore:promgr.obj
+ 0001:00000780       ??_C@_1DI@PCMOOAKA@?$AAS?$AA?9?$AA1?$AA?9?$AA5?$AA?9?$AA1?$AA1?$AA2?$AA?9?$AA0?$AA?9?$AA0?$AAX?$AA1?$AA0?$AA?9?$AA0?$AAX?$AA0?$AA0?$AA0?$AA0?$AA0?$AA0?$AA0?$AA1?$AA?$AA@ 10001780     devcore:promgr.obj
+ 0001:000007b8       ??_C@_1CK@HPCNICBE@?$AAS?$AAI?$AAD?$AA_?$AAU?$AAD?$AAE?$AAV?$AAI?$AAC?$AAE?$AA_?$AAE?$AAL?$AAE?$AAV?$AAA?$AAT?$AAE?$AAD?$AA?$AA@ 100017b8     devcore:promgr.obj
+ 0001:000007e4       ??_C@_1BI@JHIAFIGK@?$AAP?$AAr?$AAo?$AAc?$AAT?$AAi?$AAm?$AAe?$AAo?$AAu?$AAt?$AA?$AA@ 100017e4     devcore:promgr.obj
+ 0001:000007fc       ??_C@_1BM@CMIEAKMP@?$AAP?$AAr?$AAo?$AAc?$AAV?$AAo?$AAl?$AAP?$AAr?$AAe?$AAf?$AAi?$AAx?$AA?$AA@ 100017fc     devcore:promgr.obj
+ 0001:00000818       ??_C@_1BC@PFCJIDBE@?$AAP?$AAr?$AAo?$AAc?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 10001818     devcore:promgr.obj
+ 0001:0000082c       ??_C@_1BA@LMNNHBO@?$AAD?$AAr?$AAi?$AAv?$AAe?$AAr?$AAs?$AA?$AA@ 1000182c     devcore:promgr.obj
+ 0001:0000083c       ??_C@_1BE@FGJOIMBO@?$AA$?$AAs?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe?$AAs?$AA?$AA@ 1000183c     devcore:promgr.obj
+ 0001:00000850       ??_C@_1BG@KAOAMGHP@?$AAA?$AAc?$AAc?$AAo?$AAu?$AAn?$AAt?$AAS?$AAi?$AAd?$AA?$AA@ 10001850     devcore:promgr.obj
+ 0001:00000868       ??_C@_1BA@HANLFFFG@?$AAd?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AA?$AA@ 10001868     devcore:promgr.obj
+ 0001:00000878       ??_C@_1BE@CBODFFOG@?$AAP?$AAr?$AAo?$AAc?$AAG?$AAr?$AAo?$AAu?$AAp?$AA?$AA@ 10001878     devcore:promgr.obj
+ 0001:0000088c       ??_7UserDriverProcessor@@6B@ 1000188c     devcore:promgr.obj
+ 0001:000008a0       ??_C@_1BA@LLBKBHAD@?$AA?$CF?$AAs?$AA_?$AA?$CF?$AA0?$AA4?$AAx?$AA?$AA@ 100018a0     devcore:promgr.obj
+ 0001:000008b0       ??_7CMiniThread@@6B@       100018b0     devcore:bkist.obj
+ 0001:000008b8       ??_7CBackgroundIST@@6B@    100018b8     devcore:bkist.obj
+ 0001:000008c0       ??_C@_1M@OAJFFPML@?$AAF?$AAl?$AAa?$AAg?$AAs?$AA?$AA@ 100018c0     devcore:devload.obj
+ 0001:000008cc       ??_C@_1M@EENNDIOJ@?$AAI?$AAn?$AAd?$AAe?$AAx?$AA?$AA@ 100018cc     devcore:devload.obj
+ 0001:000008d8       ??_C@_1O@GBAEOCCH@?$AAP?$AAr?$AAe?$AAf?$AAi?$AAx?$AA?$AA@ 100018d8     devcore:devload.obj
+ 0001:000008e8       ??_C@_17DJMMGLBL@?$AAD?$AAl?$AAl?$AA?$AA@ 100018e8     devcore:devload.obj
+ 0001:000008f0       ??_C@_1BG@HOCOHIJB@?$AAC?$AAl?$AAi?$AAe?$AAn?$AAt?$AAI?$AAn?$AAf?$AAo?$AA?$AA@ 100018f0     devcore:devload.obj
+ 0001:00000908       ??_C@_17OGBPPHLA@?$AAH?$AAn?$AAd?$AA?$AA@ 10001908     devcore:devload.obj
+ 0001:00000910       ??_C@_19DINFBLAK@?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 10001910     devcore:devload.obj
+ 0001:0000091c       ??_C@_17KACEIPNC@?$AAK?$AAe?$AAy?$AA?$AA@ 1000191c     devcore:devload.obj
+ 0001:00000924       ??_C@_1M@EHDMPNDP@?$AAP?$AAn?$AAp?$AAI?$AAd?$AA?$AA@ 10001924     devcore:devload.obj
+ 0001:00000930       ??_C@_1O@FIAKOBIM@?$AAF?$AAi?$AAl?$AAt?$AAe?$AAr?$AA?$AA@ 10001930     devcore:devload.obj
+ 0001:00000940       ??_C@_1BC@CGINKBGI@?$AAB?$AAu?$AAs?$AAI?$AAo?$AAc?$AAt?$AAl?$AA?$AA@ 10001940     devcore:devload.obj
+ 0001:00000954       ??_C@_1M@LGCLELDI@?$AAI?$AAo?$AAc?$AAt?$AAl?$AA?$AA@ 10001954     devcore:devload.obj
+ 0001:00000960       ??_C@_1BA@GLFNEBDB@?$AAC?$AAo?$AAn?$AAt?$AAe?$AAx?$AAt?$AA?$AA@ 10001960     devcore:devload.obj
+ 0001:00000970       ??_C@_1BE@JLGACELD@?$AAB?$AAu?$AAs?$AAP?$AAr?$AAe?$AAf?$AAi?$AAx?$AA?$AA@ 10001970     devcore:devload.obj
+ 0001:00000984       ??_C@_1BA@OILHPODD@?$AA?$CF?$AAs?$AA?2?$AA?$CF?$AA0?$AA2?$AAu?$AA?$AA@ 10001984     devcore:devload.obj
+ 0001:00000994       ??_C@_1BA@KDCCGFJM@?$AAB?$AAu?$AAs?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 10001994     devcore:devload.obj
+ 0001:000009a4       ??_C@_1BE@PMMIAJMN@?$AAB?$AAu?$AAs?$AAP?$AAa?$AAr?$AAe?$AAn?$AAt?$AA?$AA@ 100019a4     devcore:devload.obj
+ 0001:000009b8       ??_C@_1M@KCNCFNNL@?$AA$?$AAb?$AAu?$AAs?$AA?2?$AA?$AA@ 100019b8     devcore:devload.obj
+ 0001:000009c4       ??_C@_1BC@EKAHPNMF@?$AA$?$AAd?$AAe?$AAv?$AAi?$AAc?$AAe?$AA?2?$AA?$AA@ 100019c4     devcore:devload.obj
+ 0001:000009d8       ??_C@_1BA@BJGJBLKN@?$AAR?$AAo?$AAo?$AAt?$AAK?$AAe?$AAy?$AA?$AA@ 100019d8     devcore:devload.obj
+ 0001:000009e8       ??_C@_1BM@MODNFKCG@?$AAB?$AAu?$AAi?$AAl?$AAt?$AAI?$AAn?$AAP?$AAh?$AAa?$AAs?$AAe?$AA1?$AA?$AA@ 100019e8     devcore:devload.obj
+ 0001:00000bb8       ??_C@_1BA@EDKBKMPA@?$AA$?$AAd?$AAe?$AAv?$AAi?$AAc?$AAe?$AA?$AA@ 10001bb8     devcore:devfsd.obj
+ 0001:00000bc8       ??_C@_19OKGIAAOF@?$AA$?$AAb?$AAu?$AAs?$AA?$AA@ 10001bc8     devcore:devfsd.obj
+ 0001:00000bd4       ??_C@_04BIFBIJGO@DMFS?$AA@ 10001bd4     devcore:devfsd.obj
+ 0001:00000bdc       ??_C@_04CPOEGPHK@DMFF?$AA@ 10001bdc     devcore:devfsd.obj
+ 0001:00000be4       ??_C@_1BC@FAAOGHMH@?$AAb?$AAy?$AAP?$AAa?$AAr?$AAe?$AAn?$AAt?$AA?$AA@ 10001be4     devcore:devfsd.obj
+ 0001:00000bf8       ??_C@_1CC@MEPOBJNM@?$AAb?$AAy?$AAI?$AAn?$AAt?$AAe?$AAr?$AAf?$AAa?$AAc?$AAe?$AAC?$AAl?$AAa?$AAs?$AAs?$AA?$AA@ 10001bf8     devcore:devfsd.obj
+ 0001:00000c1c       ??_C@_1BE@JEONLPHA@?$AAb?$AAy?$AAB?$AAu?$AAs?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 10001c1c     devcore:devfsd.obj
+ 0001:00000c30       ??_C@_1BK@CPLNPJGD@?$AAb?$AAy?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 10001c30     devcore:devfsd.obj
+ 0001:00000c4c       ??_C@_1BK@CNAOAKKI@?$AAb?$AAy?$AAL?$AAe?$AAg?$AAa?$AAc?$AAy?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 10001c4c     devcore:devfsd.obj
+ 0001:00000c78       ??_C@_13HOIJIPNN@?$AA?5?$AA?$AA@ 10001c78     devcore:devpnp.obj
+ 0001:00000c7c       ??_C@_1BA@JNAHIIJ@?$AA?1?$AAR?$AAE?$AAM?$AAO?$AAV?$AAE?$AA?$AA@ 10001c7c     devcore:devpnp.obj
+ 0001:00000c8c       ??_C@_19MHKLIKLH@?$AA?1?$AAA?$AAD?$AAD?$AA?$AA@ 10001c8c     devcore:devpnp.obj
+ 0001:00000c98       ??_C@_1CG@PNJNNJHM@?$AAS?$AAe?$AAn?$AAd?$AAN?$AAo?$AAt?$AAi?$AAf?$AAy?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AAW?$AA?$AA@ 10001c98     devcore:devpnp.obj
+ 0001:00000cc0       ??_C@_1BI@IENOMFML@?$AAC?$AAO?$AAR?$AAE?$AAD?$AAL?$AAL?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 10001cc0     devcore:devpnp.obj
+ 0001:00000cd8       ??_C@_1CE@FKAHDOBI@?$AAN?$AAo?$AAt?$AAi?$AAf?$AAy?$AAP?$AAr?$AAi?$AAo?$AAr?$AAi?$AAt?$AAy?$AA2?$AA5?$AA6?$AA?$AA@ 10001cd8     devcore:devpnp.obj
+ 0001:00000cfc       ??_C@_15GIKMICGC@?$AA?$CF?$AAl?$AA?$AA@ 10001cfc     devcore:devpnp.obj
+ 0001:00000d04       ??_C@_15IIHDPFFB@?$AA?$CF?$AAb?$AA?$AA@ 10001d04     devcore:devpnp.obj
+ 0001:00000d0c       ??_C@_15KNBIKKIN@?$AA?$CF?$AAd?$AA?$AA@ 10001d0c     devcore:devpnp.obj
+ 0001:00000d18       ??_C@_1FA@IIEBJNBE@?$AA?$HL?$AAf?$AA8?$AAa?$AA6?$AAb?$AAa?$AA9?$AA8?$AA?9?$AA0?$AA8?$AA7?$AAa?$AA?9?$AA4?$AA3?$AAa?$AAc?$AA?9?$AAa?$AA9?$AAd?$AA8?$AA?9?$AAb?$AA7?$AAf?$AA1?$AA3?$AAc?$AA5@ 10001d18     devcore:devpnp.obj
+ 0001:00000d68       ??_C@_1O@KFPANPEP@?$AAI?$AAC?$AAl?$AAa?$AAs?$AAs?$AA?$AA@ 10001d68     devcore:devpnp.obj
+ 0001:00000d78       ??_C@_1CO@BJKGIIPN@?$AAD?$AAr?$AAi?$AAv?$AAe?$AAr?$AAs?$AA?2?$AAD?$AAi?$AAs?$AAa?$AAb?$AAl?$AAe?$AAd?$AAI?$AAC?$AAl?$AAa?$AAs?$AAs?$AA?$AA@ 10001d78     devcore:devinit.obj
+ 0001:00000da8       ??_7DeviceContent@@6B@     10001da8     devcore:devinit.obj
+ 0001:00000db8       ??_C@_19HABNGADD@?$AAI?$AAn?$AAi?$AAt?$AA?$AA@ 10001db8     devcore:devinit.obj
+ 0001:00000dc4       ??_C@_1BE@GBGBFHID@?$AAP?$AAr?$AAe?$AAD?$AAe?$AAi?$AAn?$AAi?$AAt?$AA?$AA@ 10001dc4     devcore:devinit.obj
+ 0001:00000dd8       ??_C@_1O@OFJFBBKA@?$AAD?$AAe?$AAi?$AAn?$AAi?$AAt?$AA?$AA@ 10001dd8     devcore:devinit.obj
+ 0001:00000de8       ??_C@_19FMFEEEON@?$AAO?$AAp?$AAe?$AAn?$AA?$AA@ 10001de8     devcore:devinit.obj
+ 0001:00000df4       ??_C@_1BC@FINBCAED@?$AAP?$AAr?$AAe?$AAC?$AAl?$AAo?$AAs?$AAe?$AA?$AA@ 10001df4     devcore:devinit.obj
+ 0001:00000e08       ??_C@_1M@IAIJHCCH@?$AAC?$AAl?$AAo?$AAs?$AAe?$AA?$AA@ 10001e08     devcore:devinit.obj
+ 0001:00000e14       ??_C@_19EOHDNDII@?$AAR?$AAe?$AAa?$AAd?$AA?$AA@ 10001e14     devcore:devinit.obj
+ 0001:00000e20       ??_C@_1M@GNJKCMMA@?$AAW?$AAr?$AAi?$AAt?$AAe?$AA?$AA@ 10001e20     devcore:devinit.obj
+ 0001:00000e2c       ??_C@_19GCEDOKPG@?$AAS?$AAe?$AAe?$AAk?$AA?$AA@ 10001e2c     devcore:devinit.obj
+ 0001:00000e38       ??_C@_1BE@PEIFHNGC@?$AAI?$AAO?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?$AA@ 10001e38     devcore:devinit.obj
+ 0001:00000e4c       ??_C@_1BA@LPEBEPGL@?$AAP?$AAo?$AAw?$AAe?$AAr?$AAU?$AAp?$AA?$AA@ 10001e4c     devcore:devinit.obj
+ 0001:00000e5c       ??_C@_1BE@IFHEBOLO@?$AAP?$AAo?$AAw?$AAe?$AAr?$AAD?$AAo?$AAw?$AAn?$AA?$AA@ 10001e5c     devcore:devinit.obj
+ 0001:00000e70       ??_C@_1O@BIOIDBLM@?$AAC?$AAa?$AAn?$AAc?$AAe?$AAl?$AA?$AA@ 10001e70     devcore:devinit.obj
+ 0001:00000e80       ??_C@_1BA@DAAMHNNF@?$AA$?$AAb?$AAu?$AAs?$AA?2?$AA?$CF?$AAs?$AA?$AA@ 10001e80     devcore:devinit.obj
+ 0001:00000e90       ??_C@_1BG@LCMFLAJ@?$AA$?$AAd?$AAe?$AAv?$AAi?$AAc?$AAe?$AA?2?$AA?$CF?$AAs?$AA?$AA@ 10001e90     devcore:devinit.obj
+ 0001:00000ea8       ??_C@_1M@GMCJEDGG@?$AA?$CF?$AAs?$AA?$CF?$AAu?$AA?3?$AA?$AA@ 10001ea8     devcore:devinit.obj
+ 0001:00000eb4       ??_C@_19JMFOANEF@?$AA?$CF?$AAs?$AA?$CF?$AAu?$AA?$AA@ 10001eb4     devcore:devinit.obj
+ 0001:00000ec0       ??_C@_1BE@MLFIGENL@?$AAI?$AAn?$AAi?$AAt?$AAE?$AAn?$AAt?$AAr?$AAy?$AA?$AA@ 10001ec0     devcore:filter.obj
+ 0001:00000ed4       ??_C@_1M@PJMPBMAL@?$AAO?$AAr?$AAd?$AAe?$AAr?$AA?$AA@ 10001ed4     devcore:filter.obj
+ 0001:00000ee0       ??_7DriverFilterMgr@@6B@   10001ee0     devcore:filter.obj
+ 0001:00000ee4       ??_C@_13FPGAJAPJ@?$AA?2?$AA?$AA@ 10001ee4     devcore:filter.obj
+ 0001:00000ee8       ??_C@_1CC@EAMLLBFF@?$AAD?$AAr?$AAi?$AAv?$AAe?$AAr?$AAs?$AA?2?$AAF?$AAi?$AAl?$AAt?$AAe?$AAr?$AAs?$AA?2?$AA?$AA@ 10001ee8     devcore:filter.obj
+ 0001:00000f20       ??_C@_1BG@JDAFHBOG@?$AAI?$AAS?$AAR?$AAH?$AAa?$AAn?$AAd?$AAl?$AAe?$AAr?$AA?$AA@ 10001f20     devcore:reflector.obj
+ 0001:00000f38       ??_C@_1BE@JABEPCFF@?$AAg?$AAi?$AAi?$AAs?$AAr?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10001f38     devcore:reflector.obj
+ 0001:00000f4c       ??_7CFileFolder@@6B@       10001f4c     devcore:reflector.obj
+ 0001:00000f54       ??_C@_1BM@DJFBIKBL@?$AAU?$AAs?$AAe?$AAr?$AAP?$AAr?$AAo?$AAc?$AAG?$AAr?$AAo?$AAu?$AAp?$AA?$AA@ 10001f54     devcore:reflector.obj
+ 0001:00000f70       ??_7CReflector@@6B@        10001f70     devcore:reflector.obj
+ 0001:00000f84       ??_C@_1CA@ECLDCHND@?$AAR?$AAe?$AAf?$AAl?$AAe?$AAc?$AAt?$AAo?$AAr?$AAH?$AAa?$AAn?$AAd?$AAl?$AAe?$AA?$AA@ 10001f84     devcore:reflector.obj
+ 0001:00001038       ??_C@_04PPBPMNDN@REFL?$AA@ 10002038     devcore:reflserv.obj
+ 0001:00001040       ??_7UserDriverService@@6B@ 10002040     devcore:reflserv.obj
+ 0001:0000104c       ??_C@_1BC@BIAHJJFB@?$AAR?$AAe?$AAs?$AAe?$AAr?$AAv?$AAe?$AAd?$AA?$AA@ 1000204c     iorm:iorm.obj
+ 0001:00001060       ??_C@_1O@GHFNHFJG@?$AAS?$AAh?$AAa?$AAr?$AAe?$AAd?$AA?$AA@ 10002060     iorm:iorm.obj
+ 0001:00001070       ??_C@_1O@GPGFKFJF@?$AAR?$AAa?$AAn?$AAg?$AAe?$AAs?$AA?$AA@ 10002070     iorm:iorm.obj
+ 0001:00001080       ??_C@_1M@KHFPOOBE@?$AAS?$AAp?$AAa?$AAc?$AAe?$AA?$AA@ 10002080     iorm:iorm.obj
+ 0001:0000108c       ??_C@_1BA@CDCHOGAK@?$AAM?$AAi?$AAn?$AAi?$AAm?$AAu?$AAm?$AA?$AA@ 1000208c     iorm:iorm.obj
+ 0001:0000109c       ??_C@_1BG@IEICLFFJ@?$AAI?$AAd?$AAe?$AAn?$AAt?$AAi?$AAf?$AAi?$AAe?$AAr?$AA?$AA@ 1000209c     iorm:iorm.obj
+ 0001:000010b4       ??_C@_1CE@FABJJEBM@?$AAM?$AAa?$AAx?$AAD?$AAe?$AAn?$AAs?$AAe?$AAR?$AAe?$AAs?$AAo?$AAu?$AAr?$AAc?$AAe?$AAs?$AA?$AA@ 100020b4     iorm:iorm.obj
+ 0001:000010d8       ??_C@_1DC@OOKIINAM@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?1?$AAP?$AAo?$AAw?$AAe?$AAr?$AAM?$AAa?$AAn?$AAa?$AAg?$AAe?$AAr?$AAR?$AAe?$AAa?$AAd?$AAy?$AA?$AA@ 100020d8     pmif:pmif.obj
+ 0001:00001130       CELOG_DeviceFinished       10002130 f i devcore:devcore.obj
+ 0001:00001194       InitOOMSettings            10002194 f   devcore:devcore.obj
+ 0001:0000136c       StartDeviceManager         1000236c f   devcore:devcore.obj
+ 0001:00001614       DllMain                    10002614 f   devcore:devcore.obj
+ 0001:0000165c       CELOG_ActivateDevice       1000265c f i devcore:devapi.obj
+ 0001:00001734       DM_Unsupported             10002734 f   devcore:devapi.obj
+ 0001:00001748       DmAdvertiseInterface       10002748 f   devcore:devapi.obj
+ 0001:0000174c       DM_ActivateDeviceEx        1000274c f   devcore:devapi.obj
+ 0001:00001798       DM_DeactivateDevice        10002798 f   devcore:devapi.obj
+ 0001:000017d0       CreateInitReg              100027d0 f   devcore:devapi.obj
+ 0001:00001a0c       DeleteInitReg              10002a0c f   devcore:devapi.obj
+ 0001:00001a60       EX_DM_ActivateDeviceEx     10002a60 f   devcore:devapi.obj
+ 0001:00001be8       EX_DM_DeactivateDevice     10002be8 f   devcore:devapi.obj
+ 0001:00001bec       DM_GetDeviceInformationByDeviceHandle 10002bec f   devcore:devapi.obj
+ 0001:00001c28       EX_DM_GetDeviceInformationByDeviceHandle 10002c28 f   devcore:devapi.obj
+ 0001:00001d08       DevMgrPowerOffHandler      10002d08 f   devcore:devapi.obj
+ 0001:00001e00       DM_GetDeviceByIndex        10002e00 f   devcore:devapi.obj
+ 0001:00001f24       DM_EnumDeviceInterfaces    10002f24 f   devcore:devapi.obj
+ 0001:00002094       EX_DM_EnumDeviceInterfaces 10003094 f   devcore:devapi.obj
+ 0001:0000237c       DM_DevProcNotify           1000337c f   devcore:devapi.obj
+ 0001:000023e4       DM_CeResyncFilesys         100033e4 f   devcore:devapi.obj
+ 0001:000024c0       DM_EnableDevice            100034c0 f   devcore:devapi.obj
+ 0001:000024f8       EX_DM_EnableDevice         100034f8 f   devcore:devapi.obj
+ 0001:000024fc       DM_DisableDevice           100034fc f   devcore:devapi.obj
+ 0001:00002534       EX_DM_DisableDevice        10003534 f   devcore:devapi.obj
+ 0001:00002538       DM_GetDeviceDriverStatus   10003538 f   devcore:devapi.obj
+ 0001:00002564       OpenAddRef                 10003564 f   devcore:devfile.obj
+ 0001:000025a4       OpenDelRef                 100035a4 f   devcore:devfile.obj
+ 0001:000025c8       GetOldExceptionFromReg     100035c8 f   devcore:devfile.obj
+ 0001:000026ec       I_CreateDeviceHandle       100036ec f   devcore:devfile.obj
+ 0001:00002930       DM_DevPreCloseFileHandle   10003930 f   devcore:devfile.obj
+ 0001:00002ac8       DM_DevCloseFileHandle      10003ac8 f   devcore:devfile.obj
+ 0001:00002ba4       DM_DevReadFile             10003ba4 f   devcore:devfile.obj
+ 0001:00002cd0       DM_DevWriteFile            10003cd0 f   devcore:devfile.obj
+ 0001:00002e04       DM_DevSetFilePointer       10003e04 f   devcore:devfile.obj
+ 0001:00002ed4       DM_DevDeviceIoControl      10003ed4 f   devcore:devfile.obj
+ 0001:00003158       DM_DevGetFileSize          10004158 f   devcore:devfile.obj
+ 0001:0000316c       DM_DevGetDeviceInformationByFileHandle 1000416c f   devcore:devfile.obj
+ 0001:00003208       EX_DM_DevGetDeviceInformationByFileHandle 10004208 f   devcore:devfile.obj
+ 0001:000032d8       DM_DevFlushFileBuffers     100042d8 f   devcore:devfile.obj
+ 0001:000032ec       DM_DevGetFileTime          100042ec f   devcore:devfile.obj
+ 0001:00003300       DM_DevSetFileTime          10004300 f   devcore:devfile.obj
+ 0001:00003314       DM_DevSetEndOfFile         10004314 f   devcore:devfile.obj
+ 0001:00003330       DM_DevCancelIo             10004330 f   devcore:devfile.obj
+ 0001:00003408       DM_DevCancelIoEx           10004408 f   devcore:devfile.obj
+ 0001:000034e0       ?DeRef@CRefObject@@QAAKXZ  100044e0 f i devcore:filemgr.obj
+ 0001:0000351c       ??_GCRefObject@@UAAPAXI@Z  1000451c f i devcore:filemgr.obj
+ 0001:0000351c       ??_ECRefObject@@UAAPAXI@Z  1000451c f i devcore:filemgr.obj
+ 0001:00003540       DeleteAsncyFileObject      10004540 f   devcore:filemgr.obj
+ 0001:00003590       DevReadFile                10004590 f   devcore:filemgr.obj
+ 0001:000035d8       DevWriteFile               100045d8 f   devcore:filemgr.obj
+ 0001:00003620       DevDeviceIoControl         10004620 f   devcore:filemgr.obj
+ 0001:00003680       DevCancelIo                10004680 f   devcore:filemgr.obj
+ 0001:000036bc       DevCancelIoEx              100046bc f   devcore:filemgr.obj
+ 0001:000036fc       DM_CreateAsyncIoHandle     100046fc f   devcore:filemgr.obj
+ 0001:000037a8       EX_DM_SetIoProgress        100047a8 f   devcore:filemgr.obj
+ 0001:00003878       DM_SetIoProgress           10004878 f   devcore:filemgr.obj
+ 0001:000038b0       EX_DM_CompleteAsyncIo      100048b0 f   devcore:filemgr.obj
+ 0001:000039a0       DM_CompleteAsyncIo         100049a0 f   devcore:filemgr.obj
+ 0001:00003a40       CreateIoPacketHandle       10004a40 f   devcore:filemgr.obj
+ 0001:00003aa8       DeleteIoPacketHandle       10004aa8 f   devcore:filemgr.obj
+ 0001:00003ad4       ??0IoPckManager@@QAA@XZ    10004ad4 f   devcore:filemgr.obj
+ 0001:00003b50       ?Init@IoPckManager@@UAAHXZ 10004b50 f i devcore:filemgr.obj
+ 0001:00003b58       ?InsertToActiveList@IoPckManager@@QAAHPAVIoPacket@@@Z 10004b58 f   devcore:filemgr.obj
+ 0001:00003ba8       ?RemoveFromActiveList@IoPckManager@@QAAHPAVIoPacket@@@Z 10004ba8 f   devcore:filemgr.obj
+ 0001:00003bf8       ?GetFreeSyncPacket@IoPckManager@@QAAPAVIoPacket@@XZ 10004bf8 f   devcore:filemgr.obj
+ 0001:00003c88       ?InsertFreeSyncPacket@IoPckManager@@QAAHPAVIoPacket@@@Z 10004c88 f   devcore:filemgr.obj
+ 0001:00003cd4       ?CancelIo@IoPckManager@@UAAHH@Z 10004cd4 f   devcore:filemgr.obj
+ 0001:00003ec0       ?CancelIoEx@IoPckManager@@UAAHPAU_OVERLAPPED@@@Z 10004ec0 f   devcore:filemgr.obj
+ 0001:00003fa0       CreateAsyncFileObject      10004fa0 f   devcore:filemgr.obj
+ 0001:00004010       ??_GIoPckManager@@UAAPAXI@Z 10005010 f i devcore:filemgr.obj
+ 0001:00004010       ??_EIoPckManager@@UAAPAXI@Z 10005010 f i devcore:filemgr.obj
+ 0001:0000404c       ?DeInit@IoPckManager@@UAAHXZ 1000504c f   devcore:filemgr.obj
+ 0001:00004100       ?Request@IoPckManager@@IAAPAVIoPacket@@PAU_OVERLAPPED@@PAXK1K@Z 10005100 f   devcore:filemgr.obj
+ 0001:000041bc       ?DevDeviceIoControl@IoPckManager@@UAAHKPAXK0KPAKPAU_OVERLAPPED@@@Z 100051bc f   devcore:filemgr.obj
+ 0001:000043b8       ?DevReadFile@IoPckManager@@UAAHPAXKPAKPAU_OVERLAPPED@@@Z 100053b8 f   devcore:filemgr.obj
+ 0001:00004598       ?DevWriteFile@IoPckManager@@UAAHPBXKPAKPAU_OVERLAPPED@@@Z 10005598 f   devcore:filemgr.obj
+ 0001:0000477c       DM_EnumServices            1000577c f   devcore:reflServExe.obj
+ 0001:00004790       EX_DM_EnumServices         10005790 f   devcore:reflServExe.obj
+ 0001:000047a4       ??0CRegistryEdit@@QAA@PAUHKEY__@@PBG@Z 100057a4 f i devcore:promgr.obj
+ 0001:000047f0       ?GetRegValue@CRegistryEdit@@QAAHPBGPAEK@Z 100057f0 f i devcore:promgr.obj
+ 0001:00004840       ?SetUDPPendingInit@UDPContainer@@AAAXPAVUserDriverProcessor@@@Z 10005840 f   devcore:promgr.obj
+ 0001:00004894       ?ConvertStringToUDeviceSID@@YAPBGPBGK@Z 10005894 f   devcore:promgr.obj
+ 0001:0000490c       ?Init@UserDriverProcessor@@UAAHXZ 1000590c f   devcore:promgr.obj
+ 0001:000049c4       ?WaitForInitComplete@UserDriverProcessor@@EAAHXZ 100059c4 f   devcore:promgr.obj
+ 0001:00004a20       ?SendIoControl@UserDriverProcessor@@QAAHKPAXK0KPAK@Z 10005a20 f   devcore:promgr.obj
+ 0001:00004a6c       ?GetUserDriverProcessorInfo@UserDriverProcessor@@QBA?AU_PROCESS_INFORMATION@@XZ 10005a6c f   devcore:promgr.obj
+ 0001:00004a98       ??1?$CLinkedContainer@VCReflector@@@@QAA@XZ 10005a98 f i devcore:promgr.obj
+ 0001:00004ae8       ?RemoveObjectBy@?$CLinkedContainer@VCReflector@@@@QAAPAVCReflector@@PAV2@@Z 10005ae8 f i devcore:promgr.obj
+ 0001:00004b68       ?FoundObjectBy@?$CLinkedContainer@VCReflector@@@@QAAPAVCReflector@@PAV2@@Z 10005b68 f i devcore:promgr.obj
+ 0001:00004bcc       ??1?$CLinkedContainer@VUserDriverProcessor@@@@QAA@XZ 10005bcc f i devcore:promgr.obj
+ 0001:00004c1c       ?RemoveObjectBy@?$CLinkedContainer@VUserDriverProcessor@@@@QAAPAVUserDriverProcessor@@PAV2@@Z 10005c1c f i devcore:promgr.obj
+ 0001:00004c9c       ?FoundObjectBy@?$CLinkedContainer@VUserDriverProcessor@@@@QAAPAVUserDriverProcessor@@PAV2@@Z 10005c9c f i devcore:promgr.obj
+ 0001:00004d00       ??0UDPContainer@@QAA@XZ    10005d00 f   devcore:promgr.obj
+ 0001:00004f1c       ??1UDPContainer@@QAA@XZ    10005f1c f   devcore:promgr.obj
+ 0001:00004fa8       ?Init@UDPContainer@@QAAHXZ 10005fa8 f   devcore:promgr.obj
+ 0001:0000527c       ?GetUDPPendingInit@UDPContainer@@QAAPAVUserDriverProcessor@@K@Z 1000627c f   devcore:promgr.obj
+ 0001:000052e8       ?FindUserProcBy@UDPContainer@@QAAPAVUserDriverProcessor@@PAV2@@Z 100062e8 f   devcore:promgr.obj
+ 0001:000052ec       ?FindUserProcByProcID@UDPContainer@@QAAPAVUserDriverProcessor@@K@Z 100062ec f   devcore:promgr.obj
+ 0001:00005360       ??1UserDriverProcessor@@UAA@XZ 10006360 f   devcore:promgr.obj
+ 0001:00005440       ?FindReflectorBy@UserDriverProcessor@@QAAPAVCReflector@@PAV2@@Z 10006440 f   devcore:promgr.obj
+ 0001:00005448       ?CheckReflectorForEmpty@UserDriverProcessor@@IAAHXZ 10006448 f   devcore:promgr.obj
+ 0001:0000548c       ?CallAnyOneRefService@UserDriverProcessor@@QAAHKPAXK0KPAK@Z 1000648c f   devcore:promgr.obj
+ 0001:000055b8       DeiniUserProcMgr           100065b8 f   devcore:promgr.obj
+ 0001:00005614       DM_REL_UDriverProcIoControl 10006614 f   devcore:promgr.obj
+ 0001:000056d0       ??0UserDriverProcessor@@QAA@KPBG00KPAV0@@Z 100066d0 f   devcore:promgr.obj
+ 0001:00005920       ??_EUserDriverProcessor@@UAAPAXI@Z 10006920 f i devcore:promgr.obj
+ 0001:00005920       ??_GUserDriverProcessor@@UAAPAXI@Z 10006920 f i devcore:promgr.obj
+ 0001:00005944       ?CreateReflector@UserDriverProcessor@@UAAPAVCReflector@@PBG00K@Z 10006944 f   devcore:promgr.obj
+ 0001:00005a2c       ?DeleteReflector@UserDriverProcessor@@UAAHPAVCReflector@@@Z 10006a2c f   devcore:promgr.obj
+ 0001:00005a7c       InitUserProcMgr            10006a7c f   devcore:promgr.obj
+ 0001:00005b84       ?CreateUserProcByGroupID@UDPContainer@@AAAPAVUserDriverProcessor@@KPBG@Z 10006b84 f   devcore:promgr.obj
+ 0001:00005dc0       ?CreateUserProc@UDPContainer@@QAAPAVUserDriverProcessor@@PBG@Z 10006dc0 f   devcore:promgr.obj
+ 0001:00005e34       ?FindUserProcByID@UDPContainer@@QAAPAVUserDriverProcessor@@KPBGH@Z 10006e34 f   devcore:promgr.obj
+ 0001:00005efc       ?FindUserProcByAccount@UDPContainer@@QAAPAVUserDriverProcessor@@PBGH@Z 10006efc f   devcore:promgr.obj
+ 0001:00005f94       ?ForceTerminated@CMiniThread@@QAAHXZ 10006f94 f i devcore:bkist.obj
+ 0001:00005fe4       ?ThreadProc@CMiniThread@@CAKPAX@Z 10006fe4 f i devcore:bkist.obj
+ 0001:0000600c       ?Init@CBackgroundIST@@QAAHXZ 1000700c f i devcore:bkist.obj
+ 0001:00006080       DeleteBackgroundIST        10007080 f   devcore:bkist.obj
+ 0001:0000609c       ??0CMiniThread@@QAA@KH@Z   1000709c f i devcore:bkist.obj
+ 0001:00006104       ??_ECMiniThread@@UAAPAXI@Z 10007104 f i devcore:bkist.obj
+ 0001:00006104       ??_GCMiniThread@@UAAPAXI@Z 10007104 f i devcore:bkist.obj
+ 0001:00006134       ?WaitThreadComplete@CMiniThread@@QAAHK@Z 10007134 f i devcore:bkist.obj
+ 0001:0000619c       ?ThreadRun@CBackgroundIST@@EAAKXZ 1000719c f i devcore:bkist.obj
+ 0001:00006248       ??1CBackgroundIST@@UAA@XZ  10007248 f i devcore:bkist.obj
+ 0001:000062e4       ??_GCBackgroundIST@@UAAPAXI@Z 100072e4 f i devcore:bkist.obj
+ 0001:000062e4       ??_ECBackgroundIST@@UAAPAXI@Z 100072e4 f i devcore:bkist.obj
+ 0001:00006308       CreateBackgroundIST        10007308 f   devcore:bkist.obj
+ 0001:00006384       FindDeviceByHandle         10007384 f   devcore:devload.obj
+ 0001:00006494       FindDeviceCandidateByName  10007494 f   devcore:devload.obj
+ 0001:000064ac       FindDeviceByName           100074ac f   devcore:devload.obj
+ 0001:000064c4       DevicePostInit             100074c4 f   devcore:devload.obj
+ 0001:0000658c       DeleteActiveKey            1000758c f   devcore:devload.obj
+ 0001:00006634       RegReadActivationValues    10007634 f   devcore:devload.obj
+ 0001:00006a0c       CreateActiveKey            10007a0c f   devcore:devload.obj
+ 0001:00006b0c       InitializeActiveKey        10007b0c f   devcore:devload.obj
+ 0001:00006c4c       ReadBusDriverValues        10007c4c f   devcore:devload.obj
+ 0001:00006cf4       FinalizeActiveKey          10007cf4 f   devcore:devload.obj
+ 0001:00006d8c       I_GetDeviceInformation     10007d8c f   devcore:devload.obj
+ 0001:00006f70       InitDevices                10007f70 f   devcore:devload.obj
+ 0001:00007134       DevloadInit                10008134 f   devcore:devload.obj
+ 0001:00007178       DevloadPostInit            10008178 f   devcore:devload.obj
+ 0001:00007194       RemoveDeviceFromSearchList 10008194 f   devcore:devfsd.obj
+ 0001:000073e8       DEVFS_CreateFileW          100083e8 f   devcore:devfsd.obj
+ 0001:00007494       DEVFS_FindNextFileW        10008494 f   devcore:devfsd.obj
+ 0001:000075f8       DEVFS_FindClose            100085f8 f   devcore:devfsd.obj
+ 0001:00007690       DEVFS_FsIoControlW         10008690 f   devcore:devfsd.obj
+ 0001:0000775c       DEVFS_StubFunction         1000875c f   devcore:devfsd.obj
+ 0001:00007764       InitDeviceFilesystems      10008764 f   devcore:devfsd.obj
+ 0001:00007918       DEVFS_FindFirstFileW       10008918 f   devcore:devfsd.obj
+ 0001:00007ec8       StartDeviceNotify          10008ec8 f   devcore:devpnp.obj
+ 0001:00007ff8       ConvertStringToGuid        10008ff8 f   devcore:devpnp.obj
+ 0001:000081c8       FindDeviceInterface        100091c8 f   devcore:devpnp.obj
+ 0001:0000820c       I_AdvertiseDeviceInterface 1000920c f   devcore:devpnp.obj
+ 0001:000084a4       PnpAdvertiseInterfaces     100094a4 f   devcore:devpnp.obj
+ 0001:00008860       PnpDeadvertiseInterfaces   10009860 f   devcore:devpnp.obj
+ 0001:00008924       InitializePnPNotifications 10009924 f   devcore:devpnp.obj
+ 0001:000089cc       ?DriverInit@DriverFilterMgr@@QAAKKPAX@Z 100099cc f i devcore:devinit.obj
+ 0001:00008a0c       ?DeRef@DeviceContent@@QAAKXZ 10009a0c f i devcore:devinit.obj
+ 0001:00008d40       AddDeviceRef               10009d40 f   devcore:devinit.obj
+ 0001:00008d54       DeDeviceRef                10009d54 f   devcore:devinit.obj
+ 0001:00008d68       I_DeregisterDevice         10009d68 f   devcore:devinit.obj
+ 0001:00008e40       I_RemoveDevicesByProcId    10009e40 f   devcore:devinit.obj
+ 0001:00008f94       I_DeactivateDevice         10009f94 f   devcore:devinit.obj
+ 0001:00008ffc       I_EnableDevice             10009ffc f   devcore:devinit.obj
+ 0001:00009070       I_DisableDevice            1000a070 f   devcore:devinit.obj
+ 0001:000090c4       ??0DeviceContent@@QAA@XZ   1000a0c4 f   devcore:devinit.obj
+ 0001:0000914c       ?InitialEnable@DeviceContent@@UAAHXZ 1000a14c f   devcore:devinit.obj
+ 0001:00009178       ?RemoveDeviceOpenRef@DeviceContent@@IAAHH@Z 1000a178 f   devcore:devinit.obj
+ 0001:0000924c       ?InsertToDmList@DeviceContent@@QAAHXZ 1000a24c f   devcore:devinit.obj
+ 0001:00009320       ?LoadLib@DeviceContent@@QAAKPBG@Z 1000a320 f   devcore:devinit.obj
+ 0001:000096fc       ?EnableDevice@DeviceContent@@UAAHK@Z 1000a6fc f   devcore:devinit.obj
+ 0001:00009950       ?AddRefToAccess@DeviceContent@@QAAPAV1@XZ 1000a950 f   devcore:devinit.obj
+ 0001:000099a0       ?DeRefAccess@DeviceContent@@QAAXXZ 1000a9a0 f   devcore:devinit.obj
+ 0001:00009a88       ?CreateContent@DeviceContent@@IAAKPBGKKK0K000PAX@Z 1000aa88 f   devcore:devinit.obj
+ 0001:00009dd4       ?IsThisDeviceUnique@DeviceContent@@KAHQBGKPBG@Z 1000add4 f   devcore:devinit.obj
+ 0001:00009ec4       AddDeviceAccessRef         1000aec4 f   devcore:devinit.obj
+ 0001:00009ef4       DeDeviceAccessRef          1000aef4 f   devcore:devinit.obj
+ 0001:00009f08       I_GetDeviceDriverStatus    1000af08 f   devcore:devinit.obj
+ 0001:00009f64       ??1DeviceContent@@UAA@XZ   1000af64 f   devcore:devinit.obj
+ 0001:0000a000       ?InitDeviceContent@DeviceContent@@QAAPAUfsdev_t@@PBGPBU_REGINI@@KQBX@Z 1000b000 f   devcore:devinit.obj
+ 0001:0000a350       ?DisableDevice@DeviceContent@@UAAHK@Z 1000b350 f   devcore:devinit.obj
+ 0001:0000a4b4       ?get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ 1000b4b4 f i devcore:devinit.obj
+ 0001:0000a508       I_ActivateDeviceEx         1000b508 f   devcore:devinit.obj
+ 0001:0000a6e8       ??_GDeviceContent@@UAAPAXI@Z 1000b6e8 f i devcore:devinit.obj
+ 0001:0000a6e8       ??_EDeviceContent@@UAAPAXI@Z 1000b6e8 f i devcore:devinit.obj
+ 0001:0000a70c       ?DriverOpen@DriverFilterMgr@@QAAKKKK@Z 1000b70c f i devcore:filter.obj
+ 0001:0000a754       ?DriverRead@DriverFilterMgr@@QAAKKPAXK0@Z 1000b754 f i devcore:filter.obj
+ 0001:0000a7b0       ?DriverWrite@DriverFilterMgr@@QAAKKPBXKPAX@Z 1000b7b0 f i devcore:filter.obj
+ 0001:0000a80c       ?DriverSeek@DriverFilterMgr@@QAAKKJK@Z 1000b80c f i devcore:filter.obj
+ 0001:0000a854       ?DriverControl@DriverFilterMgr@@QAAHKKPAEK0KPAKPAX@Z 1000b854 f i devcore:filter.obj
+ 0001:0000a900       ?RegQueryInfoKeyW@CRegistryEdit@@QAAHPAGPAK11111111PAU_FILETIME@@@Z 1000b900 f i devcore:filter.obj
+ 0001:0000a970       ?Init@FilterFile@@QAAHXZ   1000b970 f i devcore:filter.obj
+ 0001:0000aac4       ?CheckEntry@FilterFile@@IAAHPAU__DRIVER_FILTER@@@Z 1000bac4 f i devcore:filter.obj
+ 0001:0000ac7c       DriverOpen                 1000bc7c f   devcore:filter.obj
+ 0001:0000ac90       DriverPreClose             1000bc90 f   devcore:filter.obj
+ 0001:0000acd0       DriverClose                1000bcd0 f   devcore:filter.obj
+ 0001:0000ad10       DriverRead                 1000bd10 f   devcore:filter.obj
+ 0001:0000ad40       DriverWrite                1000bd40 f   devcore:filter.obj
+ 0001:0000ad70       DriverSeek                 1000bd70 f   devcore:filter.obj
+ 0001:0000ad84       DriverControl              1000bd84 f   devcore:filter.obj
+ 0001:0000ade4       DriverPowerup              1000bde4 f   devcore:filter.obj
+ 0001:0000ae24       DriverPowerdn              1000be24 f   devcore:filter.obj
+ 0001:0000ae64       DriverCancelIo             1000be64 f   devcore:filter.obj
+ 0001:0000aeb0       ??0DriverFilterMgr@@QAA@XZ 1000beb0 f   devcore:filter.obj
+ 0001:0000af0c       ??0FilterFile@@QAA@PBGPAV0@@Z 1000bf0c f i devcore:filter.obj
+ 0001:0000afe4       ??1FilterFile@@QAA@XZ      1000bfe4 f i devcore:filter.obj
+ 0001:0000b02c       ?IntializeFilter@FilterFile@@QAAPAU__DRIVER_FILTER@@PAU2@PBG@Z 1000c02c f i devcore:filter.obj
+ 0001:0000b0a4       ?InitializeFilters@FilterFolder@@QAAKPAU__DRIVER_FILTER@@PBGPAPAU2@@Z 1000c0a4 f i devcore:filter.obj
+ 0001:0000b15c       ?InitDriverFilters@DriverFilterMgr@@QAAKPBG@Z 1000c15c f   devcore:filter.obj
+ 0001:0000b230       ?Init@FilterFolder@@QAAHPBG@Z 1000c230 f i devcore:filter.obj
+ 0001:0000b534       ??1FilterFolder@@QAA@XZ    1000c534 f i devcore:filter.obj
+ 0001:0000b59c       ?CreateDriverFilter@DriverFilterMgr@@QAAPAVFilterFolder@@PBG@Z 1000c59c f   devcore:filter.obj
+ 0001:0000b614       ??1DriverFilterMgr@@UAA@XZ 1000c614 f   devcore:filter.obj
+ 0001:0000b650       ??_GDriverFilterMgr@@UAAPAXI@Z 1000c650 f i devcore:filter.obj
+ 0001:0000b650       ??_EDriverFilterMgr@@UAAPAXI@Z 1000c650 f i devcore:filter.obj
+ 0001:0000b674       ??0CRegistryEdit@@QAA@PAUHKEY__@@PBGK@Z 1000c674 f i devcore:reflector.obj
+ 0001:0000b6bc       ?IsReflectValid@@YAHPAVCReflector@@@Z 1000c6bc f   devcore:reflector.obj
+ 0001:0000b724       IsServicesRegKey           1000c724 f   devcore:reflector.obj
+ 0001:0000b748       ?DeleteReflector@@YAHPAVCReflector@@@Z 1000c748 f   devcore:reflector.obj
+ 0001:0000b7b0       ?Close@CReflector@@UAAHPAVCFileFolder@@@Z 1000c7b0 f   devcore:reflector.obj
+ 0001:0000b854       ?SendIoControl@CReflector@@QAAHKPAXK0KPAK@Z 1000c854 f   devcore:reflector.obj
+ 0001:0000b914       ?IsBufferShouldMapped@CReflector@@QAAHPBXH@Z 1000c914 f   devcore:reflector.obj
+ 0001:0000b978       ?RefLoadIntChainHandler@CReflector@@IAAPAXPBG0E@Z 1000c978 f   devcore:reflector.obj
+ 0001:0000b9f8       ?RefFreeIntChainHandler@CReflector@@IAAHPAX@Z 1000c9f8 f   devcore:reflector.obj
+ 0001:0000ba30       ??0CPhysMemoryWindow@@QAA@T_LARGE_INTEGER@@KKW4_INTERFACE_TYPE@@KPAXPAV0@@Z 1000ca30 f   devcore:reflector.obj
+ 0001:0000bab8       ?IsSystemAddrValid@CPhysMemoryWindow@@QAAHT_LARGE_INTEGER@@K@Z 1000cab8 f   devcore:reflector.obj
+ 0001:0000bb30       ?IsValidStaticAddr@CPhysMemoryWindow@@QAAHKKK@Z 1000cb30 f   devcore:reflector.obj
+ 0001:0000bbdc       ?IsSystemAlignedAddrValid@CPhysMemoryWindow@@QAAHT_LARGE_INTEGER@@K@Z 1000cbdc f   devcore:reflector.obj
+ 0001:0000bc70       ?RefMmMapIoSpace@CPhysMemoryWindow@@QAAPAXT_LARGE_INTEGER@@KE@Z 1000cc70 f   devcore:reflector.obj
+ 0001:0000bd4c       ?RefCreateStaticMapping@CPhysMemoryWindow@@QAAPAXKK@Z 1000cd4c f   devcore:reflector.obj
+ 0001:0000be1c       ??0CFileFolder@@QAA@PAVCReflector@@KKPAV0@@Z 1000ce1c f   devcore:reflector.obj
+ 0001:0000bed0       ?Init@CFileFolder@@UAAHXZ  1000ced0 f i devcore:reflector.obj
+ 0001:0000beec       ??1CFileFolder@@UAA@XZ     1000ceec f   devcore:reflector.obj
+ 0001:0000bf48       ?PreClose@CFileFolder@@QAAHXZ 1000cf48 f   devcore:reflector.obj
+ 0001:0000bfa4       ?Read@CFileFolder@@QAAKPAXK0@Z 1000cfa4 f   devcore:reflector.obj
+ 0001:0000c0dc       ?Write@CFileFolder@@QAAKPBXKPAX@Z 1000d0dc f   devcore:reflector.obj
+ 0001:0000c214       ?SeekFn@CFileFolder@@QAAKJK@Z 1000d214 f   devcore:reflector.obj
+ 0001:0000c2b4       ?Control@CFileFolder@@QAAHKPAXK0KPAK0@Z 1000d2b4 f   devcore:reflector.obj
+ 0001:0000c4a8       ?CancelIo@CFileFolder@@QAAHPAX@Z 1000d4a8 f   devcore:reflector.obj
+ 0001:0000c534       Reflector_Delete           1000d534 f   devcore:reflector.obj
+ 0001:0000c538       Reflector_InitEx           1000d538 f   devcore:reflector.obj
+ 0001:0000c57c       Reflector_Open             1000d57c f   devcore:reflector.obj
+ 0001:0000c5a8       Reflector_Close            1000d5a8 f   devcore:reflector.obj
+ 0001:0000c5e4       Reflector_PreClose         1000d5e4 f   devcore:reflector.obj
+ 0001:0000c5e8       Reflector_Read             1000d5e8 f   devcore:reflector.obj
+ 0001:0000c5ec       Reflector_Write            1000d5ec f   devcore:reflector.obj
+ 0001:0000c5f0       Reflector_SeekFn           1000d5f0 f   devcore:reflector.obj
+ 0001:0000c5f4       Reflector_Control          1000d5f4 f   devcore:reflector.obj
+ 0001:0000c628       Reflector_Powerup          1000d628 f   devcore:reflector.obj
+ 0001:0000c62c       Reflector_Powerdn          1000d62c f   devcore:reflector.obj
+ 0001:0000c630       Reflector_CancelIo         1000d630 f   devcore:reflector.obj
+ 0001:0000c634       Reflector_GetOwnerProcId   1000d634 f   devcore:reflector.obj
+ 0001:0000c678       ?CreateReflector@@YAPAVCReflector@@PBG00K@Z 1000d678 f   devcore:reflector.obj
+ 0001:0000c89c       ??0CReflector@@QAA@PAVUserDriverProcessor@@PBG11KPAV0@@Z 1000d89c f   devcore:reflector.obj
+ 0001:0000caec       ?Init@CReflector@@UAAHXZ   1000daec f i devcore:reflector.obj
+ 0001:0000cb08       ??1CReflector@@UAA@XZ      1000db08 f   devcore:reflector.obj
+ 0001:0000cbbc       ?DeInit@CReflector@@QAAHXZ 1000dbbc f   devcore:reflector.obj
+ 0001:0000cc88       ?Open@CReflector@@UAAPAVCFileFolder@@KK@Z 1000dc88 f   devcore:reflector.obj
+ 0001:0000cd2c       ?InitAccessWindow@CReflector@@IAAHAAU_DDKWINDOWINFO_tag@@PAX@Z 1000dd2c f   devcore:reflector.obj
+ 0001:0000ceac       ?RefMmMapIoSpace@CReflector@@IAAPAXT_LARGE_INTEGER@@KE@Z 1000deac f   devcore:reflector.obj
+ 0001:0000cf18       ?RefVirtualCopy@CReflector@@IAAHPAX0KK@Z 1000df18 f   devcore:reflector.obj
+ 0001:0000cfc4       ?IsValidStaticAddr@CReflector@@AAAHKKK@Z 1000dfc4 f   devcore:reflector.obj
+ 0001:0000d020       ?RefCreateStaticMapping@CReflector@@IAAPAXKK@Z 1000e020 f   devcore:reflector.obj
+ 0001:0000d07c       ?RefIntChainHandlerIoControl@CReflector@@IAAHPAXK0K0KQAK@Z 1000e07c f   devcore:reflector.obj
+ 0001:0000d1c0       ??_ECFileFolder@@UAAPAXI@Z 1000e1c0 f i devcore:reflector.obj
+ 0001:0000d1c0       ??_GCFileFolder@@UAAPAXI@Z 1000e1c0 f i devcore:reflector.obj
+ 0001:0000d1e4       Reflector_Create           1000e1e4 f   devcore:reflector.obj
+ 0001:0000d1e8       Reflector_PreDeinit        1000e1e8 f   devcore:reflector.obj
+ 0001:0000d21c       Reflector_Deinit           1000e21c f   devcore:reflector.obj
+ 0001:0000d220       ??_GCReflector@@UAAPAXI@Z  1000e220 f i devcore:reflector.obj
+ 0001:0000d220       ??_ECReflector@@UAAPAXI@Z  1000e220 f i devcore:reflector.obj
+ 0001:0000d24c       ?InitEx@CReflector@@UAAHKPAX@Z 1000e24c f   devcore:reflector.obj
+ 0001:0000d454       ?ReflService@CReflector@@QAAHKPAXK0KPAKPAU_OVERLAPPED@@@Z 1000e454 f   devcore:reflector.obj
+ 0001:0000dabc       ??0IoPacket@@QAA@AAVIoPckManager@@PAU_OVERLAPPED@@@Z 1000eabc f   devcore:iopck.obj
+ 0001:0000dc50       ?Init@IoPacket@@QAAHPAXK0K@Z 1000ec50 f   devcore:iopck.obj
+ 0001:0000dcec       ?UpdateCompletedBytesAndStatus@IoPacket@@QAAHKK@Z 1000ecec f   devcore:iopck.obj
+ 0001:0000dd84       ?AllocCopyBuffer@IoPacket@@IBAPAXPAXKHAAPAX@Z 1000ed84 f   devcore:iopck.obj
+ 0001:0000de94       ?FreeCopyBuffer@IoPacket@@IBAHPAX0KH0@Z 1000ee94 f   devcore:iopck.obj
+ 0001:0000df48       ?UnmapBuffer@IoPacket@@IAAHXZ 1000ef48 f   devcore:iopck.obj
+ 0001:0000dfd4       ?DeInit@IoPacket@@QAAHXZ   1000efd4 f   devcore:iopck.obj
+ 0001:0000e020       ?IoControl@IoPacket@@QAAHKPAXK0KPAKPAU_OVERLAPPED@@@Z 1000f020 f   devcore:iopck.obj
+ 0001:0000e0c8       ?SyncCompleteIo@IoPacket@@QAAHKK@Z 1000f0c8 f   devcore:iopck.obj
+ 0001:0000e0f4       ?UnMapAsyncBuffer@IoPacket@@QAAHXZ 1000f0f4 f   devcore:iopck.obj
+ 0001:0000e124       ??1IoPacket@@QAA@XZ        1000f124 f   devcore:iopck.obj
+ 0001:0000e174       ?AsyncCompleteIo@IoPacket@@QAAHXZ 1000f174 f   devcore:iopck.obj
+ 0001:0000e1d8       ?MapToAsyncBuffer@IoPacket@@QAAHKPAPAX0@Z 1000f1d8 f   devcore:iopck.obj
+ 0001:0000e2d4       ?FreeIoPacket@IoPacket@@QAAXXZ 1000f2d4 f   devcore:iopck.obj
+ 0001:0000e30c       ?CreateAsyncIoHandle@IoPacket@@QAAPAXKPAPAX0@Z 1000f30c f   devcore:iopck.obj
+ 0001:0000e41c       ?Init@UDServiceContainer@@QAAHXZ 1000f41c f   devcore:reflserv.obj
+ 0001:0000e464       ??1UserDriverService@@UAA@XZ 1000f464 f   devcore:reflserv.obj
+ 0001:0000e498       ?Init@UserDriverService@@UAAHXZ 1000f498 f   devcore:reflserv.obj
+ 0001:0000e4ac       ?CreateAPIHandle@UserDriverService@@UAAPAXPAX@Z 1000f4ac f   devcore:reflserv.obj
+ 0001:0000e4bc       ??1?$CLinkedContainer@VUserDriverService@@@@QAA@XZ 1000f4bc f i devcore:reflserv.obj
+ 0001:0000e50c       ?RemoveObjectBy@?$CLinkedContainer@VUserDriverService@@@@QAAPAVUserDriverService@@PAV2@@Z 1000f50c f i devcore:reflserv.obj
+ 0001:0000e58c       ?FoundObjectBy@?$CLinkedContainer@VUserDriverService@@@@QAAPAVUserDriverService@@PAV2@@Z 1000f58c f i devcore:reflserv.obj
+ 0001:0000e5f0       ??0UDServiceContainer@@QAA@XZ 1000f5f0 f   devcore:reflserv.obj
+ 0001:0000e614       ??1UDServiceContainer@@QAA@XZ 1000f614 f   devcore:reflserv.obj
+ 0001:0000e634       ?REFL_DevCloseFileHandle@@YAHPAVUserDriverService@@@Z 1000f634 f   devcore:reflserv.obj
+ 0001:0000e674       ?REFL_DevDeviceIoControl@@YAHPAVUserDriverService@@KPAXK1KPAKPAU_OVERLAPPED@@@Z 1000f674 f   devcore:reflserv.obj
+ 0001:0000e700       ?REFL_CreateDeviceServiceHandle@@YAPAXPAVCReflector@@@Z 1000f700 f   devcore:reflserv.obj
+ 0001:0000e7f0       ??_EUserDriverService@@UAAPAXI@Z 1000f7f0 f i devcore:reflserv.obj
+ 0001:0000e7f0       ??_GUserDriverService@@UAAPAXI@Z 1000f7f0 f i devcore:reflserv.obj
+ 0001:0000ecb8       IORM_ResourceMarkAsShareable 1000fcb8 f   iorm:iorm.obj
+ 0001:0000ee9c       IORM_ResourceAdjust        1000fe9c f   iorm:iorm.obj
+ 0001:0000efcc       IORM_ResourceRequestEx     1000ffcc f   iorm:iorm.obj
+ 0001:0000f108       IORM_ResourceCreateList    10010108 f   iorm:iorm.obj
+ 0001:0000f2ac       IORM_ResourceDestroyList   100102ac f   iorm:iorm.obj
+ 0001:0000f918       ResourceInitFromRegistry   10010918 f   iorm:iorm.obj
+ 0001:0000fb08       ResourceInitModule         10010b08 f   iorm:iorm.obj
+ 0001:0000fb38       PM_Init                    10010b38 f   pmif:pmif.obj
+ 0001:0000fb78       IsPowerManagerReady        10010b78 f   pmif:pmif.obj
+ 0001:0000fbf4       PM_Notify                  10010bf4 f   pmif:pmif.obj
+ 0001:0000fc48       EX_PM_SetPowerRequirement  10010c48 f   pmif:pmif.obj
+ 0001:0000fd20       PM_SetPowerRequirement     10010d20 f   pmif:pmif.obj
+ 0001:0000fd80       EX_PM_ReleasePowerRequirement 10010d80 f   pmif:pmif.obj
+ 0001:0000fde0       PM_ReleasePowerRequirement 10010de0 f   pmif:pmif.obj
+ 0001:0000fe18       EX_PM_GetSystemPowerState  10010e18 f   pmif:pmif.obj
+ 0001:0000ff18       EX_PM_SetSystemPowerState  10010f18 f   pmif:pmif.obj
+ 0001:0000ffc0       PM_DevicePowerNotify       10010fc0 f   pmif:pmif.obj
+ 0001:00010034       EX_PM_DevicePowerNotify    10011034 f   pmif:pmif.obj
+ 0001:000100e0       EX_PM_RequestPowerNotifications 100110e0 f   pmif:pmif.obj
+ 0001:00010154       PM_RequestPowerNotifications 10011154 f   pmif:pmif.obj
+ 0001:00010194       PM_StopPowerNotifications  10011194 f   pmif:pmif.obj
+ 0001:000101f8       PM_RegisterPowerRelationship 100111f8 f   pmif:pmif.obj
+ 0001:00010284       EX_PM_RegisterPowerRelationship 10011284 f   pmif:pmif.obj
+ 0001:00010334       PM_ReleasePowerRelationship 10011334 f   pmif:pmif.obj
+ 0001:00010398       EX_PM_SetDevicePower       10011398 f   pmif:pmif.obj
+ 0001:00010444       EX_PM_GetDevicePower       10011444 f   pmif:pmif.obj
+ 0001:000104e8       PM_GetSystemPowerState     100114e8 f   pmif:pmif.obj
+ 0001:00010528       PM_SetSystemPowerState     10011528 f   pmif:pmif.obj
+ 0001:00010568       PM_SetDevicePower          10011568 f   pmif:pmif.obj
+ 0001:000105a8       PM_GetDevicePower          100115a8 f   pmif:pmif.obj
+ 0001:000105e8       EventModify                100115e8 f   coredll:COREDLL.dll
+ 0001:000105f8       CeLogData                  100115f8 f   coredll:COREDLL.dll
+ 0001:00010608       __GetUserKData             10011608 f   coredll:COREDLL.dll
+ 0001:00010618       SetOOMEvent                10011618 f   coredll:COREDLL.dll
+ 0001:00010628       GetSystemInfo              10011628 f   coredll:COREDLL.dll
+ 0001:00010638       SignalStarted              10011638 f   coredll:COREDLL.dll
+ 0001:00010648       RegCloseKey                10011648 f   coredll:COREDLL.dll
+ 0001:00010658       RegEnumValueW              10011658 f   coredll:COREDLL.dll
+ 0001:00010668       RegCreateKeyExW            10011668 f   coredll:COREDLL.dll
+ 0001:00010678       WaitForSingleObject        10011678 f   coredll:COREDLL.dll
+ 0001:00010688       FreeLibrary                10011688 f   coredll:COREDLL.dll
+ 0001:00010698       GetProcAddressW            10011698 f   coredll:COREDLL.dll
+ 0001:000106a8       LoadLibraryW               100116a8 f   coredll:COREDLL.dll
+ 0001:000106b8       CloseHandle                100116b8 f   coredll:COREDLL.dll
+ 0001:000106c8       OpenEventW                 100116c8 f   coredll:COREDLL.dll
+ 0001:000106d8       SetPowerOffHandler         100116d8 f   coredll:COREDLL.dll
+ 0001:000106e8       InitializeCriticalSection  100116e8 f   coredll:COREDLL.dll
+ 0001:000106f8       RegisterAPISet             100116f8 f   coredll:COREDLL.dll
+ 0001:00010708       RegisterDirectMethods      10011708 f   coredll:COREDLL.dll
+ 0001:00010718       CreateAPISet               10011718 f   coredll:COREDLL.dll
+ 0001:00010728       CreateEventW               10011728 f   coredll:COREDLL.dll
+ 0001:00010738       WaitForAPIReady            10011738 f   coredll:COREDLL.dll
+ 0001:00010748       DisableThreadLibraryCalls  10011748 f   coredll:COREDLL.dll
+ 0001:00010758       StringCchCopyNW            10011758 f   coredll:COREDLL.dll
+ 0001:00010768       StringCchLengthW           10011768 f   coredll:COREDLL.dll
+ 0001:00010778       SetLastError               10011778 f   coredll:COREDLL.dll
+ 0001:00010788       CeSetDirectCall            10011788 f   coredll:COREDLL.dll
+ 0001:00010798       CeCloseCallerBuffer        10011798 f   coredll:COREDLL.dll
+ 0001:000107a8       StringCbCopyW              100117a8 f   coredll:COREDLL.dll
+ 0001:000107b8       CeOpenCallerBuffer         100117b8 f   coredll:COREDLL.dll
+ 0001:000107c8       StringCchCopyW             100117c8 f   coredll:COREDLL.dll
+ 0001:000107d8       LeaveCriticalSection       100117d8 f   coredll:COREDLL.dll
+ 0001:000107e8       EnterCriticalSection       100117e8 f   coredll:COREDLL.dll
+ 0001:000107f8       LocalFree                  100117f8 f   coredll:COREDLL.dll
+ 0001:00010808       GetLastError               10011808 f   coredll:COREDLL.dll
+ 0001:00010818       LocalAlloc                 10011818 f   coredll:COREDLL.dll
+ 0001:00010828       CompactAllHeaps            10011828 f   coredll:COREDLL.dll
+ 0001:00010838       MoveFileW                  10011838 f   coredll:COREDLL.dll
+ 0001:00010848       StringCchCatW              10011848 f   coredll:COREDLL.dll
+ 0001:00010858       GetFileAttributesW         10011858 f   coredll:COREDLL.dll
+ 0001:00010868       InterlockedDecrement       10011868 f   coredll:COREDLL.dll
+ 0001:00010878       InterlockedIncrement       10011878 f   coredll:COREDLL.dll
+ 0001:00010888       RegQueryValueExW           10011888 f   coredll:COREDLL.dll
+ 0001:00010898       RegOpenKeyExW              10011898 f   coredll:COREDLL.dll
+ 0001:000108a8       GetModuleFileNameW         100118a8 f   coredll:COREDLL.dll
+ 0001:000108b8       ReportFault                100118b8 f   coredll:COREDLL.dll
+ 0001:000108c8       CreateAPIHandle            100118c8 f   coredll:COREDLL.dll
+ 0001:000108d8       VirtualFreeEx              100118d8 f   coredll:COREDLL.dll
+ 0001:000108e8       CeSafeCopyMemory           100118e8 f   coredll:COREDLL.dll
+ 0001:000108f8       VirtualAllocEx             100118f8 f   coredll:COREDLL.dll
+ 0001:00010908       GetDirectCallerProcessId   10011908 f   coredll:COREDLL.dll
+ 0001:00010918       GetCallerVMProcessId       10011918 f   coredll:COREDLL.dll
+ 0001:00010928       DeleteCriticalSection      10011928 f   coredll:COREDLL.dll
+ 0001:00010938       DeviceIoControl            10011938 f   coredll:COREDLL.dll
+ 0001:00010948       ResumeThread               10011948 f   coredll:COREDLL.dll
+ 0001:00010958       CeCreateProcessEx          10011958 f   coredll:COREDLL.dll
+ 0001:00010968       lstrcmpW                   10011968 f   coredll:COREDLL.dll
+ 0001:00010978       RegEnumKeyExW              10011978 f   coredll:COREDLL.dll
+ 0001:00010988       DuplicateHandle            10011988 f   coredll:COREDLL.dll
+ 0001:00010998       StringCchPrintfW           10011998 f   coredll:COREDLL.dll
+ 0001:000109a8       lstrcmpiW                  100119a8 f   coredll:COREDLL.dll
+ 0001:000109b8       TerminateThread            100119b8 f   coredll:COREDLL.dll
+ 0001:000109c8       ExitThread                 100119c8 f   coredll:COREDLL.dll
+ 0001:000109d8       InterruptInitialize        100119d8 f   coredll:COREDLL.dll
+ 0001:000109e8       CreateThread               100119e8 f   coredll:COREDLL.dll
+ 0001:000109f8       KernelLibIoControl         100119f8 f   coredll:COREDLL.dll
+ 0001:00010a08       InterruptDisable           10011a08 f   coredll:COREDLL.dll
+ 0001:00010a18       CreateFileW                10011a18 f   coredll:COREDLL.dll
+ 0001:00010a28       RegDeleteValueW            10011a28 f   coredll:COREDLL.dll
+ 0001:00010a38       RegDeleteKeyW              10011a38 f   coredll:COREDLL.dll
+ 0001:00010a48       RegSetValueExW             10011a48 f   coredll:COREDLL.dll
+ 0001:00010a58       ActivateDevice             10011a58 f   coredll:COREDLL.dll
+ 0001:00010a68       ActivateDeviceEx           10011a68 f   coredll:COREDLL.dll
+ 0001:00010a78       MatchesWildcardMask        10011a78 f   coredll:COREDLL.dll
+ 0001:00010a88       DeregisterAFS              10011a88 f   coredll:COREDLL.dll
+ 0001:00010a98       DeregisterAFSName          10011a98 f   coredll:COREDLL.dll
+ 0001:00010aa8       RegisterAFSEx              10011aa8 f   coredll:COREDLL.dll
+ 0001:00010ab8       RegisterAFSName            10011ab8 f   coredll:COREDLL.dll
+ 0001:00010ac8       CeEventHasOccurred         10011ac8 f   coredll:COREDLL.dll
+ 0001:00010ad8       StringCbCatW               10011ad8 f   coredll:COREDLL.dll
+ 0001:00010ae8       CeSetThreadPriority        10011ae8 f   coredll:COREDLL.dll
+ 0001:00010af8       AdvertiseInterfaceEx       10011af8 f   coredll:COREDLL.dll
+ 0001:00010b08       LoadDriver                 10011b08 f   coredll:COREDLL.dll
+ 0001:00010b18       InterlockedExchange        10011b18 f   coredll:COREDLL.dll
+ 0001:00010b28       RegQueryInfoKeyW           10011b28 f   coredll:COREDLL.dll
+ 0001:00010b38       OpenDeviceKey              10011b38 f   coredll:COREDLL.dll
+ 0001:00010b48       DDKReg_GetWindowInfo       10011b48 f   coredll:COREDLL.dll
+ 0001:00010b58       DDKReg_GetIsrInfo          10011b58 f   coredll:COREDLL.dll
+ 0001:00010b68       LoadIntChainHandler        10011b68 f   coredll:COREDLL.dll
+ 0001:00010b78       FreeIntChainHandler        10011b78 f   coredll:COREDLL.dll
+ 0001:00010b88       VirtualCopyEx              10011b88 f   coredll:COREDLL.dll
+ 0001:00010b98       GetCallerProcess           10011b98 f   coredll:COREDLL.dll
+ 0001:00010ba8       CreateStaticMapping        10011ba8 f   coredll:COREDLL.dll
+ 0001:00010bb8       VirtualAllocCopyEx         10011bb8 f   coredll:COREDLL.dll
+ 0001:00010bc8       VirtualFree                10011bc8 f   coredll:COREDLL.dll
+ 0001:00010bd8       Sleep                      10011bd8 f   coredll:COREDLL.dll
+ 0001:00010be8       InterruptDone              10011be8 f   coredll:COREDLL.dll
+ 0001:00010bf8       InterruptMask              10011bf8 f   coredll:COREDLL.dll
+ 0001:00010c08       CeFreeAsynchronousBuffer   10011c08 f   coredll:COREDLL.dll
+ 0001:00010c18       CeAllocAsynchronousBuffer  10011c18 f   coredll:COREDLL.dll
+ 0001:00010c28       VirtualAlloc               10011c28 f   coredll:COREDLL.dll
+ 0001:00010c38       TranslateBusAddr           10011c38 f   ceddk:CEDDK.dll
+ 0001:00010c48       CloseBusAccessHandle       10011c48 f   ceddk:CEDDK.dll
+ 0001:00010c58       CreateBusAccessHandle      10011c58 f   ceddk:CEDDK.dll
+ 0001:00010c68       PmPowerHandler             10011c68 f   pm:PM.dll
+ 0001:00010c78       PmInit                     10011c78 f   pm:PM.dll
+ 0001:00010c88       PmNotify                   10011c88 f   pm:PM.dll
+ 0001:00010c98       PmSetPowerRequirement      10011c98 f   pm:PM.dll
+ 0001:00010ca8       PmReleasePowerRequirement  10011ca8 f   pm:PM.dll
+ 0001:00010cb8       PmGetSystemPowerState      10011cb8 f   pm:PM.dll
+ 0001:00010cc8       PmSetSystemPowerState      10011cc8 f   pm:PM.dll
+ 0001:00010cd8       PmDevicePowerNotify        10011cd8 f   pm:PM.dll
+ 0001:00010ce8       PmRequestPowerNotifications 10011ce8 f   pm:PM.dll
+ 0001:00010cf8       PmStopPowerNotifications   10011cf8 f   pm:PM.dll
+ 0001:00010d08       PmRegisterPowerRelationship 10011d08 f   pm:PM.dll
+ 0001:00010d18       PmReleasePowerRelationship 10011d18 f   pm:PM.dll
+ 0001:00010d28       PmSetDevicePower           10011d28 f   pm:PM.dll
+ 0001:00010d38       PmGetDevicePower           10011d38 f   pm:PM.dll
+ 0001:00010e40       _DllMainCRTStartup         10011e40 f   corelib0:pegdmain.obj
+ 0001:00010e6c       __GSHandlerCheckCommon     10011e6c f   corelib0:gshandler.obj
+ 0001:00010ea8       __GSHandlerCheck           10011ea8 f   corelib0:gshandler.obj
+ 0001:00010ec8       __security_init_cookie     10011ec8 f   corelib0:seccinit.obj
+ 0001:00010f14       __security_check_cookie    10011f14 f   corelib0:armsecgs.obj
+ 0001:00010f24       __gsfailure                10011f24     corelib0:armsecgs.obj
+ 0001:00010f68       __GSHandlerCheck_SEH       10011f68 f   corelib0:gshandlerseh.obj
+ 0001:00010fbc       _onexit                    10011fbc f   corelib0:onexit.obj
+ 0001:00011140       atexit                     10012140 f   corelib0:onexit.obj
+ 0001:00011240       _cexit                     10012240 f   corelib0:cexit.obj
+ 0001:00011250       _initterm                  10012250 f   corelib0:crt0dat.obj
+ 0001:0001127c       _cinit                     1001227c f   corelib0:crt0dat.obj
+ 0001:000112dc       __crt_ExitProcess          100122dc f   corelib0:exitproc_proxy.obj
+ 0001:000112e8       _wtol                      100122e8 f   corelib1:COREDLL.dll
+ 0001:000112f8       wcscmp                     100122f8 f   corelib1:COREDLL.dll
+ 0001:00011308       wcsncmp                    10012308 f   corelib1:COREDLL.dll
+ 0001:00011318       malloc                     10012318 f   corelib1:COREDLL.dll
+ 0001:00011328       __C_specific_handler       10012328 f   corelib1:COREDLL.dll
+ 0001:00011338       memcpy                     10012338 f   corelib1:COREDLL.dll
+ 0001:00011348       wcslen                     10012348 f   corelib1:COREDLL.dll
+ 0001:00011358       free                       10012358 f   corelib1:COREDLL.dll
+ 0001:00011368       memset                     10012368 f   corelib1:COREDLL.dll
+ 0001:00011378       ??3@YAXPAX@Z               10012378 f   corelib1:COREDLL.dll
+ 0001:00011388       ??2@YAPAXI@Z               10012388 f   corelib1:COREDLL.dll
+ 0001:00011398       _wcsnicmp                  10012398 f   corelib1:COREDLL.dll
+ 0001:000113a8       wcstol                     100123a8 f   corelib1:COREDLL.dll
+ 0001:000113b8       _purecall                  100123b8 f   corelib1:COREDLL.dll
+ 0001:000113c8       _wcsicmp                   100123c8 f   corelib1:COREDLL.dll
+ 0001:000113d8       wcschr                     100123d8 f   corelib1:COREDLL.dll
+ 0001:000113e8       memcmp                     100123e8 f   corelib1:COREDLL.dll
+ 0001:000113f8       wcscpy_s                   100123f8 f   corelib1:COREDLL.dll
+ 0001:00011408       ??_U@YAPAXI@Z              10012408 f   corelib1:COREDLL.dll
+ 0001:00011418       wcstoul                    10012418 f   corelib1:COREDLL.dll
+ 0001:00011428       _XcptFilter                10012428 f   corelib1:COREDLL.dll
+ 0001:00011438       __security_gen_cookie2     10012438 f   corelib1:COREDLL.dll
+ 0001:00011448       __report_gsfailure         10012448 f   corelib1:COREDLL.dll
+ 0001:00011458       realloc                    10012458 f   corelib1:COREDLL.dll
+ 0001:00011468       _msize                     10012468 f   corelib1:COREDLL.dll
+ 0001:00011478       InterlockedCompareExchange 10012478 f   coredll:COREDLL.dll
+ 0001:00011488       TerminateProcess           10012488 f   coredll:COREDLL.dll
+ 0001:0001149c       ??__Fcs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@YAXXZ 1001249c f i devcore:devinit.obj
+ 0001:00011ac4       __IMPORT_DESCRIPTOR_COREDLL 10012ac4     coredll:COREDLL.dll
+ 0001:00011ad8       __IMPORT_DESCRIPTOR_CEDDK  10012ad8     ceddk:CEDDK.dll
+ 0001:00011aec       __IMPORT_DESCRIPTOR_PM     10012aec     pm:PM.dll
+ 0001:00011b00       __NULL_IMPORT_DESCRIPTOR   10012b00     coredll:COREDLL.dll
+ 0002:00000000       __imp_CloseBusAccessHandle 10013000     ceddk:CEDDK.dll
+ 0002:00000004       __imp_TranslateBusAddr     10013004     ceddk:CEDDK.dll
+ 0002:00000008       __imp_CreateBusAccessHandle 10013008     ceddk:CEDDK.dll
+ 0002:0000000c       \177CEDDK_NULL_THUNK_DATA  1001300c     ceddk:CEDDK.dll
+ 0002:00000010       __imp_GetSystemInfo        10013010     coredll:COREDLL.dll
+ 0002:00000014       __imp_SignalStarted        10013014     coredll:COREDLL.dll
+ 0002:00000018       __imp_RegCloseKey          10013018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_RegEnumValueW        1001301c     coredll:COREDLL.dll
+ 0002:00000020       __imp_RegCreateKeyExW      10013020     coredll:COREDLL.dll
+ 0002:00000024       __imp_WaitForSingleObject  10013024     coredll:COREDLL.dll
+ 0002:00000028       __imp_FreeLibrary          10013028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_GetProcAddressW      1001302c     coredll:COREDLL.dll
+ 0002:00000030       __imp_LoadLibraryW         10013030     coredll:COREDLL.dll
+ 0002:00000034       __imp_CloseHandle          10013034     coredll:COREDLL.dll
+ 0002:00000038       __imp_OpenEventW           10013038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_SetPowerOffHandler   1001303c     coredll:COREDLL.dll
+ 0002:00000040       __imp_InitializeCriticalSection 10013040     coredll:COREDLL.dll
+ 0002:00000044       __imp_RegisterAPISet       10013044     coredll:COREDLL.dll
+ 0002:00000048       __imp_RegisterDirectMethods 10013048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_CreateAPISet         1001304c     coredll:COREDLL.dll
+ 0002:00000050       __imp_CreateEventW         10013050     coredll:COREDLL.dll
+ 0002:00000054       __imp_WaitForAPIReady      10013054     coredll:COREDLL.dll
+ 0002:00000058       __imp_DisableThreadLibraryCalls 10013058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_StringCchCopyNW      1001305c     coredll:COREDLL.dll
+ 0002:00000060       __imp_StringCchLengthW     10013060     coredll:COREDLL.dll
+ 0002:00000064       __imp_SetLastError         10013064     coredll:COREDLL.dll
+ 0002:00000068       __imp_CeSetDirectCall      10013068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_CeCloseCallerBuffer  1001306c     coredll:COREDLL.dll
+ 0002:00000070       __imp_StringCbCopyW        10013070     coredll:COREDLL.dll
+ 0002:00000074       __imp_CeOpenCallerBuffer   10013074     coredll:COREDLL.dll
+ 0002:00000078       __imp_StringCchCopyW       10013078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_LeaveCriticalSection 1001307c     coredll:COREDLL.dll
+ 0002:00000080       __imp_EnterCriticalSection 10013080     coredll:COREDLL.dll
+ 0002:00000084       __imp_LocalFree            10013084     coredll:COREDLL.dll
+ 0002:00000088       __imp_GetLastError         10013088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_LocalAlloc           1001308c     coredll:COREDLL.dll
+ 0002:00000090       __imp_CompactAllHeaps      10013090     coredll:COREDLL.dll
+ 0002:00000094       __imp_MoveFileW            10013094     coredll:COREDLL.dll
+ 0002:00000098       __imp_StringCchCatW        10013098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_GetFileAttributesW   1001309c     coredll:COREDLL.dll
+ 0002:000000a0       __imp_InterlockedDecrement 100130a0     coredll:COREDLL.dll
+ 0002:000000a4       __imp_InterlockedIncrement 100130a4     coredll:COREDLL.dll
+ 0002:000000a8       __imp_RegQueryValueExW     100130a8     coredll:COREDLL.dll
+ 0002:000000ac       __imp_RegOpenKeyExW        100130ac     coredll:COREDLL.dll
+ 0002:000000b0       __imp_GetModuleFileNameW   100130b0     coredll:COREDLL.dll
+ 0002:000000b4       __imp_ReportFault          100130b4     coredll:COREDLL.dll
+ 0002:000000b8       __imp_CreateAPIHandle      100130b8     coredll:COREDLL.dll
+ 0002:000000bc       __imp_VirtualFreeEx        100130bc     coredll:COREDLL.dll
+ 0002:000000c0       __imp_CeSafeCopyMemory     100130c0     coredll:COREDLL.dll
+ 0002:000000c4       __imp_VirtualAllocEx       100130c4     coredll:COREDLL.dll
+ 0002:000000c8       __imp_GetDirectCallerProcessId 100130c8     coredll:COREDLL.dll
+ 0002:000000cc       __imp_GetCallerVMProcessId 100130cc     coredll:COREDLL.dll
+ 0002:000000d0       __imp_SetOOMEvent          100130d0     coredll:COREDLL.dll
+ 0002:000000d4       __imp_DeviceIoControl      100130d4     coredll:COREDLL.dll
+ 0002:000000d8       __imp_ResumeThread         100130d8     coredll:COREDLL.dll
+ 0002:000000dc       __imp_CeCreateProcessEx    100130dc     coredll:COREDLL.dll
+ 0002:000000e0       __imp_lstrcmpW             100130e0     coredll:COREDLL.dll
+ 0002:000000e4       __imp_RegEnumKeyExW        100130e4     coredll:COREDLL.dll
+ 0002:000000e8       __imp_DuplicateHandle      100130e8     coredll:COREDLL.dll
+ 0002:000000ec       __imp_StringCchPrintfW     100130ec     coredll:COREDLL.dll
+ 0002:000000f0       __imp_lstrcmpiW            100130f0     coredll:COREDLL.dll
+ 0002:000000f4       __imp_TerminateThread      100130f4     coredll:COREDLL.dll
+ 0002:000000f8       __imp_ExitThread           100130f8     coredll:COREDLL.dll
+ 0002:000000fc       __imp_InterruptInitialize  100130fc     coredll:COREDLL.dll
+ 0002:00000100       __imp_CreateThread         10013100     coredll:COREDLL.dll
+ 0002:00000104       __imp_KernelLibIoControl   10013104     coredll:COREDLL.dll
+ 0002:00000108       __imp_InterruptDisable     10013108     coredll:COREDLL.dll
+ 0002:0000010c       __imp_CreateFileW          1001310c     coredll:COREDLL.dll
+ 0002:00000110       __imp_RegDeleteValueW      10013110     coredll:COREDLL.dll
+ 0002:00000114       __imp_RegDeleteKeyW        10013114     coredll:COREDLL.dll
+ 0002:00000118       __imp_RegSetValueExW       10013118     coredll:COREDLL.dll
+ 0002:0000011c       __imp_ActivateDevice       1001311c     coredll:COREDLL.dll
+ 0002:00000120       __imp_ActivateDeviceEx     10013120     coredll:COREDLL.dll
+ 0002:00000124       __imp_MatchesWildcardMask  10013124     coredll:COREDLL.dll
+ 0002:00000128       __imp_DeregisterAFS        10013128     coredll:COREDLL.dll
+ 0002:0000012c       __imp_DeregisterAFSName    1001312c     coredll:COREDLL.dll
+ 0002:00000130       __imp_RegisterAFSEx        10013130     coredll:COREDLL.dll
+ 0002:00000134       __imp_RegisterAFSName      10013134     coredll:COREDLL.dll
+ 0002:00000138       __imp_CeEventHasOccurred   10013138     coredll:COREDLL.dll
+ 0002:0000013c       __imp_StringCbCatW         1001313c     coredll:COREDLL.dll
+ 0002:00000140       __imp_CeSetThreadPriority  10013140     coredll:COREDLL.dll
+ 0002:00000144       __imp_AdvertiseInterfaceEx 10013144     coredll:COREDLL.dll
+ 0002:00000148       __imp_LoadDriver           10013148     coredll:COREDLL.dll
+ 0002:0000014c       __imp_InterlockedExchange  1001314c     coredll:COREDLL.dll
+ 0002:00000150       __imp_RegQueryInfoKeyW     10013150     coredll:COREDLL.dll
+ 0002:00000154       __imp_OpenDeviceKey        10013154     coredll:COREDLL.dll
+ 0002:00000158       __imp_DDKReg_GetWindowInfo 10013158     coredll:COREDLL.dll
+ 0002:0000015c       __imp_DDKReg_GetIsrInfo    1001315c     coredll:COREDLL.dll
+ 0002:00000160       __imp_LoadIntChainHandler  10013160     coredll:COREDLL.dll
+ 0002:00000164       __imp_FreeIntChainHandler  10013164     coredll:COREDLL.dll
+ 0002:00000168       __imp_VirtualCopyEx        10013168     coredll:COREDLL.dll
+ 0002:0000016c       __imp_GetCallerProcess     1001316c     coredll:COREDLL.dll
+ 0002:00000170       __imp_CreateStaticMapping  10013170     coredll:COREDLL.dll
+ 0002:00000174       __imp_VirtualAllocCopyEx   10013174     coredll:COREDLL.dll
+ 0002:00000178       __imp_VirtualFree          10013178     coredll:COREDLL.dll
+ 0002:0000017c       __imp_Sleep                1001317c     coredll:COREDLL.dll
+ 0002:00000180       __imp_InterruptDone        10013180     coredll:COREDLL.dll
+ 0002:00000184       __imp_InterruptMask        10013184     coredll:COREDLL.dll
+ 0002:00000188       __imp_CeFreeAsynchronousBuffer 10013188     coredll:COREDLL.dll
+ 0002:0000018c       __imp_CeAllocAsynchronousBuffer 1001318c     coredll:COREDLL.dll
+ 0002:00000190       __imp_VirtualAlloc         10013190     coredll:COREDLL.dll
+ 0002:00000194       __imp___GetUserKData       10013194     coredll:COREDLL.dll
+ 0002:00000198       __imp_CeLogData            10013198     coredll:COREDLL.dll
+ 0002:0000019c       __imp_DeleteCriticalSection 1001319c     coredll:COREDLL.dll
+ 0002:000001a0       __imp_EventModify          100131a0     coredll:COREDLL.dll
+ 0002:000001a4       __imp_InterlockedCompareExchange 100131a4     coredll:COREDLL.dll
+ 0002:000001a8       __imp__msize               100131a8     corelib1:COREDLL.dll
+ 0002:000001ac       __imp_realloc              100131ac     corelib1:COREDLL.dll
+ 0002:000001b0       __imp___report_gsfailure   100131b0     corelib1:COREDLL.dll
+ 0002:000001b4       __imp___security_gen_cookie2 100131b4     corelib1:COREDLL.dll
+ 0002:000001b8       __imp__XcptFilter          100131b8     corelib1:COREDLL.dll
+ 0002:000001bc       __imp_wcstoul              100131bc     corelib1:COREDLL.dll
+ 0002:000001c0       __imp_??_U@YAPAXI@Z        100131c0     corelib1:COREDLL.dll
+ 0002:000001c4       __imp_wcscpy_s             100131c4     corelib1:COREDLL.dll
+ 0002:000001c8       __imp_memcmp               100131c8     corelib1:COREDLL.dll
+ 0002:000001cc       __imp_wcschr               100131cc     corelib1:COREDLL.dll
+ 0002:000001d0       __imp__wcsicmp             100131d0     corelib1:COREDLL.dll
+ 0002:000001d4       __imp__purecall            100131d4     corelib1:COREDLL.dll
+ 0002:000001d8       __imp_wcstol               100131d8     corelib1:COREDLL.dll
+ 0002:000001dc       __imp__wcsnicmp            100131dc     corelib1:COREDLL.dll
+ 0002:000001e0       __imp___rt_udiv            100131e0     corelib1:COREDLL.dll
+ 0002:000001e4       __imp__wtol                100131e4     corelib1:COREDLL.dll
+ 0002:000001e8       __imp_wcscmp               100131e8     corelib1:COREDLL.dll
+ 0002:000001ec       __imp_wcsncmp              100131ec     corelib1:COREDLL.dll
+ 0002:000001f0       __imp_malloc               100131f0     corelib1:COREDLL.dll
+ 0002:000001f4       __imp___C_specific_handler 100131f4     corelib1:COREDLL.dll
+ 0002:000001f8       __imp_memcpy               100131f8     corelib1:COREDLL.dll
+ 0002:000001fc       __imp_wcslen               100131fc     corelib1:COREDLL.dll
+ 0002:00000200       __imp_free                 10013200     corelib1:COREDLL.dll
+ 0002:00000204       __imp_memset               10013204     corelib1:COREDLL.dll
+ 0002:00000208       __imp_??3@YAXPAX@Z         10013208     corelib1:COREDLL.dll
+ 0002:0000020c       __imp_??2@YAPAXI@Z         1001320c     corelib1:COREDLL.dll
+ 0002:00000210       __imp_TerminateProcess     10013210     coredll:COREDLL.dll
+ 0002:00000214       \177COREDLL_NULL_THUNK_DATA 10013214     coredll:COREDLL.dll
+ 0002:00000218       __imp_PmGetDevicePower     10013218     pm:PM.dll
+ 0002:0000021c       __imp_PmSetDevicePower     1001321c     pm:PM.dll
+ 0002:00000220       __imp_PmReleasePowerRelationship 10013220     pm:PM.dll
+ 0002:00000224       __imp_PmRegisterPowerRelationship 10013224     pm:PM.dll
+ 0002:00000228       __imp_PmStopPowerNotifications 10013228     pm:PM.dll
+ 0002:0000022c       __imp_PmRequestPowerNotifications 1001322c     pm:PM.dll
+ 0002:00000230       __imp_PmDevicePowerNotify  10013230     pm:PM.dll
+ 0002:00000234       __imp_PmSetSystemPowerState 10013234     pm:PM.dll
+ 0002:00000238       __imp_PmGetSystemPowerState 10013238     pm:PM.dll
+ 0002:0000023c       __imp_PmReleasePowerRequirement 1001323c     pm:PM.dll
+ 0002:00000240       __imp_PmSetPowerRequirement 10013240     pm:PM.dll
+ 0002:00000244       __imp_PmNotify             10013244     pm:PM.dll
+ 0002:00000248       __imp_PmInit               10013248     pm:PM.dll
+ 0002:0000024c       __imp_PmPowerHandler       1001324c     pm:PM.dll
+ 0002:00000250       \177PM_NULL_THUNK_DATA     10013250     pm:PM.dll
+ 0002:00000254       __security_cookie          10013254     corelib0:seccinit.obj
+ 0002:00000258       __security_cookie_complement 10013258     corelib0:seccinit.obj
+ 0002:00000260       g_BootPhase                10013260     devcore:devcore.obj
+ 0002:00000264       ?ghAPIHandle@@3PAXA        10013264     devcore:filemgr.obj
+ 0002:00000268       ?m_lgsPckMgrIndex@IoPckManager@@0JA 10013268     devcore:filemgr.obj
+ 0002:0000026c       ?g_pUDPContainer@@3PAVUDPContainer@@A 1001326c     devcore:promgr.obj
+ 0002:00000270       ?g_pServiceContainer@@3PAVUDServiceContainer@@A 10013270     devcore:promgr.obj
+ 0002:00000278       ??_B?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@51 10013278     devcore:devinit.obj
+ 0002:0000027c       ?cs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@3@XZ@4V43@A 1001327c     devcore:devinit.obj
+ 0002:00000290       ?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A 10013290     devcore:devinit.obj
+ 0002:00000294       ?m_lgsIoNextIndex@IoPacket@@0JA 10013294     devcore:iopck.obj
+ 0002:000002bc       _exitflag                  100132bc     corelib0:cexit.obj
+ 0002:000002c0       g_NotifyThreadState        100132c0     <common>
+ 0002:000002e0       ghDevFindAPI               100132e0     <common>
+ 0002:000002e4       gpDeviceSearchList         100132e4     <common>
+ 0002:000002e8       ghDevFSAPI                 100132e8     <common>
+ 0002:000002ec       v_NextDeviceNum            100132ec     <common>
+ 0002:000002f0       g_DevCandidateChain        100132f0     <common>
+ 0002:000002f8       g_lpOpenDevs               100132f8     <common>
+ 0002:000002fc       g_hDevFileApiHandle        100132fc     <common>
+ 0002:00000300       g_hCleanEvt                10013300     <common>
+ 0002:00000308       g_DevChain                 10013308     <common>
+ 0002:00000310       g_bSystemInitd             10013310     <common>
+ 0002:00000314       g_lpDyingOpens             10013314     <common>
+ 0002:00000318       g_hDevApiHandle            10013318     <common>
+ 0002:00000320       g_devcs                    10013320     <common>
+ 0002:00000334       __onexitend                10013334     <common>
+ 0002:00000338       __onexitbegin              10013338     <common>
+ 0002:0000033c       g_pcsExit                  1001333c     <common>
+ 0002:00000340       _pRawDllMain               10013340     <common>
+
+ entry point at        0001:00010e40
+
+ Static symbols
+
+ 0001:00001204       SignalStartedUsingReg      10002204 f   devcore:devcore.obj
+ 0001:0000220c       DevPSLNotify               1000320c f   devcore:devapi.obj
+ 0001:000039e0       ?IoCloseFileHandle@@YAHPAVIoPacket@@@Z 100049e0 f   devcore:filemgr.obj
+ 0001:00003a0c       ?IoDeviceIoControl@@YAHPAVIoPacket@@KPAXK1KPAKPAU_OVERLAPPED@@@Z 10004a0c f   devcore:filemgr.obj
+ 0001:000063e8       FindDevice                 100073e8 f   devcore:devload.obj
+ 0001:000071cc       I_FindNextDevice           100081cc f   devcore:devfsd.obj
+ 0001:00007c64       DeviceNotifyThread         10008c64 f   devcore:devpnp.obj
+ 0001:00007f48       HexStringToDword           10008f48 f   devcore:devpnp.obj
+ 0001:00008a50       ?IsDriverDisabled@@YAHPBG@Z 10009a50 f   devcore:devinit.obj
+ 0001:00008c98       ?GetDMProcAddr@@YAP6AXXZPBG0PAUHINSTANCE__@@@Z 10009c98 f   devcore:devinit.obj
+ 0001:00008d18       ?DevFileNotSupportedBool@@YAHXZ 10009d18 f   devcore:devinit.obj
+ 0001:00008d2c       ?DevFileNotSupportedDword@@YAKXZ 10009d2c f   devcore:devinit.obj
+ 0001:0000e814       SetDenseResources          1000f814 f   iorm:iorm.obj
+ 0001:0000ea70       SetSparseResources         1000fa70 f   iorm:iorm.obj
+ 0001:0000f414       ScanRange                  10010414 f   iorm:iorm.obj
+ 0001:0000f4c4       ResourceInitReserved       100104c4 f   iorm:iorm.obj
+ 0001:0000f63c       ResourceInitFromKey        1001063c f   iorm:iorm.obj
+ 0001:00010d50       _DllMainCRTStartupHelper   10011d50 f   corelib0:pegdmain.obj
+ 0001:00011158       doexit                     10012158 f   corelib0:cexit.obj
+ 0001:00011498       ??__E?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A@@YAXXZ 10012498 f   devcore:devinit.obj

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (c) Microsoft Corporation.  All rights reserved.
+-->
+<!--
+Use of this sample source code is subject to the terms of the Microsoft
+license agreement under which you licensed this sample source code. If
+you did not accept the terms of the license agreement, you are not
+authorized to use this sample source code. For the terms of the license,
+please see the license agreement between you and Microsoft or, if applicable,
+see the LICENSE.RTF on your install media or the root of your tools installation.
+THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+-->
+<ObjectSettings>
+    <SupportedFormats>
+        <!-- ================================ -->
+        <!-- GLOBAL FORMAT SETTINGS           -->
+        <!--    - WIDTH                       -->
+        <!--    - HEIGHT                      -->
+        <!--    - AudioBitRate                -->
+        <!--    - SampleRate                  -->
+        <!--    - VideoBitRate                -->
+        <!-- ================================ -->
+        <Format code="0xFFFF" name="GLOBAL DEFAULTS">
+            <ObjectProperty code="0xDC87" name="Width" datatype="0x0006" formtype="0x01">
+                <RangeForm min="0" max="4096" step="1"/>
+            </ObjectProperty>
+            <ObjectProperty code="0xDC88" name="Height" datatype="0x0006" formtype="0x01">
+                <RangeForm min="0" max="4096" step="1"/>
+            </ObjectProperty>
+            <ObjectProperty code="0xDE9A" name="AudioBitRate" datatype="0x0006" formtype="0x01">
+                <RangeForm min="0" max="2000000" step="1000"/>
+            </ObjectProperty>
+            <ObjectProperty code="0xDE93" name="SampleRate" datatype="0x0006" formtype="0x02">
+                <EnumForm value="11025"/>
+                <EnumForm value="16000"/>
+                <EnumForm value="22050"/>
+                <EnumForm value="32000"/>
+                <EnumForm value="44100"/>
+                <EnumForm value="48000"/>
+            </ObjectProperty>
+            <ObjectProperty code="0xDE9C" name="VideoBitRate" datatype="0x0006" formtype="0x01">
+                <RangeForm min="1" max="45000000" step="1000"/>
+            </ObjectProperty>
+            <ObjectProperty code="0xDE9D" name="FrameRate" datatype="0x0006" formtype="0x02">
+                <EnumForm value="23976"/>
+                <EnumForm value="24000"/>
+                <EnumForm value="25000"/>
+                <EnumForm value="29970"/>
+                <EnumForm value="30000"/>
+                <EnumForm value="50000"/>
+                <EnumForm value="60000"/>
+            </ObjectProperty>
+        </Format>
+
+        <!-- ================================ -->
+        <!-- AUDIO FORMATS                    -->
+        <!--    - AUDIOBITRATE                -->
+        <!--    - SAMPLERATE                  -->
+        <!-- ================================ -->
+        <Format code="0x3008" name="WAV">
+            <ObjectProperty code="0xDE9A" name="AudioBitRate" datatype="0x0006" formtype="0x01">
+                <RangeForm min="0" max="1500000" step="1000"/>
+            </ObjectProperty>
+            <ObjectProperty code="0xDE93" name="SampleRate" datatype="0x0006" formtype="0x02">
+                <EnumForm value="44100"/>
+            </ObjectProperty>
+        </Format>
+        <Format code="0x3009" name="MP3">
+            <ObjectProperty code="0xDE9A" name="AudioBitRate" datatype="0x0006" formtype="0x01">
+                <RangeForm min="0" max="320000" step="1000"/>
+            </ObjectProperty>
+            <ObjectProperty code="0xDE93" name="SampleRate" datatype="0x0006" formtype="0x02">
+                <EnumForm value="32000"/>
+                <EnumForm value="44100"/>
+                <EnumForm value="48000"/>
+            </ObjectProperty>
+        </Format>
+        <Format code="0xB901" name="WMA">
+            <ObjectProperty code="0xDE9A" name="AudioBitRate" datatype="0x0006" formtype="0x01">
+                <RangeForm min="0" max="1500000" step="1000"/>
+            </ObjectProperty>
+        </Format>
+
+        <!-- ================================ -->
+        <!-- VIDEO FORMATS                    -->
+        <!--    - AUDIOBITRATE                -->
+        <!--    - SAMPLERATE                  -->
+        <!--    - WIDTH                       -->
+        <!--    - HEIGHT                      -->
+        <!--    - VIDEOBITRATE                -->
+        <!--    - FRAMERATE                   -->
+        <!-- ================================ -->
+        <Format code="0x300A" name="AVI">
+            <ObjectProperty code="0xDC87" name="Width" datatype="0x0006" formtype="0x01">
+                <RangeForm min="0" max="1920" step="1"/>
+            </ObjectProperty>
+            <ObjectProperty code="0xDC88" name="Height" datatype="0x0006" formtype="0x01">
+                <RangeForm min="0" max="1080" step="1"/>
+            </ObjectProperty>
+        </Format>
+        <Format code="0x300B" name="MPEG-1">
+            <ObjectProperty code="0xDE9A" name="AudioBitRate" datatype="0x0006" formtype="0x01">
+                <RangeForm min="0" max="1500000" step="1000"/>
+            </ObjectProperty>
+            <ObjectProperty code="0xDC87" name="Width" datatype="0x0006" formtype="0x01">
+                <RangeForm min="0" max="352" step="1"/>
+            </ObjectProperty>
+            <ObjectProperty code="0xDC88" name="Height" datatype="0x0006" formtype="0x01">
+                <RangeForm min="0" max="288" step="1"/>
+            </ObjectProperty>
+            <ObjectProperty code="0xDE9C" name="VideoBitRate" datatype="0x0006" formtype="0x01">
+                <RangeForm min="1" max="1856000" step="1000"/>
+            </ObjectProperty>
+            <ObjectProperty code="0xDE9D" name="FrameRate" datatype="0x0006" formtype="0x02">
+                <EnumForm value="23976"/>
+                <EnumForm value="24000"/>
+                <EnumForm value="25000"/>
+                <EnumForm value="29970"/>
+                <EnumForm value="30000"/>
+            </ObjectProperty>
+        </Format>
+        <Format code="0x300C" name="ASF">
+            <ObjectProperty code="0xDE9A" name="AudioBitRate" datatype="0x0006" formtype="0x01">
+                <RangeForm min="0" max="1500000" step="1000"/>
+            </ObjectProperty>
+            <ObjectProperty code="0xDC87" name="Width" datatype="0x0006" formtype="0x01">
+                <RangeForm min="0" max="1920" step="1"/>
+            </ObjectProperty>
+            <ObjectProperty code="0xDC88" name="Height" datatype="0x0006" formtype="0x01">
+                <RangeForm min="0" max="1080" step="1"/>
+            </ObjectProperty>
+            <ObjectProperty code="0xDE9C" name="VideoBitRate" datatype="0x0006" formtype="0x01">
+                <RangeForm min="1" max="25000000" step="1000"/>
+            </ObjectProperty>
+            <ObjectProperty code="0xDE9D" name="FrameRate" datatype="0x0006" formtype="0x02">
+                <EnumForm value="23976"/>
+                <EnumForm value="24000"/>
+                <EnumForm value="25000"/>
+                <EnumForm value="29970"/>
+                <EnumForm value="30000"/>
+            </ObjectProperty>
+        </Format>
+        <Format code="0xB981" name="WMV-VC1">
+            <ObjectProperty code="0xDE9A" name="AudioBitRate" datatype="0x0006" formtype="0x01">
+                <RangeForm min="0" max="15000000" step="1000"/>
+            </ObjectProperty>
+            <ObjectProperty code="0xDC87" name="Width" datatype="0x0006" formtype="0x01">
+                <RangeForm min="0" max="1920" step="1"/>
+            </ObjectProperty>
+            <ObjectProperty code="0xDC88" name="Height" datatype="0x0006" formtype="0x01">
+                <RangeForm min="0" max="1080" step="1"/>
+            </ObjectProperty>
+            <ObjectProperty code="0xDE9C" name="VideoBitRate" datatype="0x0006" formtype="0x01">
+                <RangeForm min="1" max="25000000" step="1000"/>
+            </ObjectProperty>
+            <ObjectProperty code="0xDE9D" name="FrameRate" datatype="0x0006" formtype="0x02">
+                <EnumForm value="24000"/>
+                <EnumForm value="25000"/>
+                <EnumForm value="29970"/>
+                <EnumForm value="30000"/>
+            </ObjectProperty>
+        </Format>
+        <Format code="0xB982" name="MP4">
+            <ObjectProperty code="0xDE9A" name="AudioBitRate" datatype="0x0006" formtype="0x01">
+                <RangeForm min="0" max="1500000" step="1000"/>
+            </ObjectProperty>
+            <ObjectProperty code="0xDC87" name="Width" datatype="0x0006" formtype="0x01">
+                <RangeForm min="0" max="1920" step="1"/>
+            </ObjectProperty>
+            <ObjectProperty code="0xDC88" name="Height" datatype="0x0006" formtype="0x01">
+                <RangeForm min="0" max="1080" step="1"/>
+            </ObjectProperty>
+        </Format>
+    </SupportedFormats>
+</ObjectSettings>

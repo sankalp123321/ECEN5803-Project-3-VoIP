@@ -1,0 +1,710 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;
+; Copyright (c) Microsoft Corporation.  All rights reserved.
+;
+;
+; Use of this source code is subject to the terms of your Windows Mobile
+; Software Shared Source Premium Derivatives License Form or other
+; applicable Microsoft license agreement for the software. If you did not
+; accept the terms of such a license, you are not authorized to use this
+; source code.
+;
+LIBRARY ossvcs
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; NOTE: Please update the following comment as you add ordinals
+;
+; Last ordinal used:     UninitializeEventSndPerf    @485 NONAME
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+EXPORTS
+
+    OSSVCSLMEMAddTrackedItem    @7  NONAME
+    OSSVCSLMEMRemoveTrackedItem @8  NONAME
+
+;  This needs to be exported in all builds so that non-ship components
+;  which reference OnAssertionFail can actually boot
+    OnAssertionFail             @27 NONAME    ;This MUST be export 27.  cellcore components rely on it. So does notify2
+
+    CreateWorkerWindow          @28 NONAME
+    CreateWorkerWindowEx        @467 NONAME
+
+    SHRestricted                @29 NONAME  ;This MUST be export 29.  PPC shellw\os\startui\startui.cpp relies on it.
+;                               @30 NONAME  ; API Removed SHIsRestricted (not used)
+    IsFESystem                  @31 NONAME
+    GetKeyEventSource           @32 NONAME
+
+    wcsncpyX                    @33 NONAME
+    wcsncpyXIndirect            @34 NONAME
+    wcsncpyXIgnore              @35 NONAME
+    wcstail                     @36 NONAME
+    ustrcmp                     @37 NONAME
+
+    ; xmlhelp
+    XMLHGetBstrVarFromAttr                 @38 NONAME
+    XMLHGetStringAttributeVal              @39 NONAME
+    XMLHGetIntAttributeVal                 @40 NONAME
+    XMLHGetBooleanAttributeVal             @41 NONAME
+    XMLHGetTranslatedAttributeVal          @42 NONAME
+    XMLHGetCommaSeperatedIntAttributeVal   @43 NONAME
+    XMLHGetRectAttributeVal                @44 NONAME
+    XMLHGetCOLORREFAttributeVal            @45 NONAME
+    XMLHGetElementText                     @46 NONAME
+    XMLHGetSearchElementText               @47 NONAME
+    XMLHSkipXMLProlog                      @219 NONAME
+
+    ; recutil
+    FindProp                    @48 NONAME
+    PropValToString             @49 NONAME
+    StringToPropVal             @50 NONAME
+    GetPropMemSize              @51 NONAME
+    ModifyPropValString         @52 NONAME
+    ModifyPropValPrimitiveType  @53 NONAME
+    ModifyPropVal               @54 NONAME
+    SafeULONG                   @55 NONAME
+    SafeLPWSTR                  @56 NONAME
+    ComparePropVals             @57 NONAME
+    CopyPropValue               @58 NONAME
+    DuplicateCEPROPVALArray     @59 NONAME
+    SparsePvalsToRealPvals      @60 NONAME
+    TranslatePropValArray       @61 NONAME
+    CreateEmptyRecord           @62 NONAME
+    DoPropsContainData          @63 NONAME
+
+    ; statstor
+    StatStoreSetInfo            @64 NONAME
+    StatStoreSetUINT            @65 NONAME; cellcore components depend on this ordinal so don't change it without notifying cellcore team
+    StatStoreSetString          @66 NONAME
+    StatStoreGetInfo            @67 NONAME; cellcore components depend on this ordinal so don't change it without notifying cellcore team
+    StatStoreUpdateUINT         @68 NONAME; cellcore components depend on this ordinal so don't change it without notifying cellcore team
+    StatStoreSetCallback        @69 NONAME
+    StatStoreRemoveCallback     @70 NONAME
+
+    GetSystemTimeAsULL          @71 NONAME
+    GetPlatformBuildNumber      @72 NONAME ; ugh, testing depends on this ordinal so don't change it without telling DonBeck.
+    LoadStringEtc               @73 NONAME
+
+    ; phnumutil
+    IncrementSettingsVersion    @74 NONAME
+    GetSettingsVersion          @75 NONAME
+    ConvertStringToPhoneChars   @76 NONAME
+    IsSimplePrefix              @77 NONAME
+    IsPhoneNumberPrefix         @78 NONAME
+    IsPhoneNumberPrefixEx       @79 NONAME
+    ConvertCharToPhoneChar      @80 NONAME
+    ; unused                    @81 NONAME
+    Phone_FmtText               @82 NONAME
+    InitMatching                @100 NONAME
+    ClearCachedData             @118 NONAME ; tests needs this
+    ; unused                    @120 NONAME
+    IsMatchingPrefix            @123 NONAME
+    IsFilterDelim               @124 NONAME ; InitMatching must be called before calling this function
+    IsTextDelim                 @125 NONAME ; InitMatching must be called before calling this function
+
+    ; eventsnd
+    
+    PreviewEventSound           @83 ;shell needs this
+    PlayEventSound              @84 ;shell needs this
+    PlayEventSoundScript        @85 ;shell needs this
+    StopEventSounds             @86 ;shell needs this
+    StopAllEventSounds          @87 ;shell needs this
+    PlaySoundScript             @88 ;shell needs this
+    SetEventSoundTestParams     @472 NONAME  ;unittests use this.
+    PlayEventOrFile             @473 NONAME  ;SndPlayEvent needs this
+    EventSndInitializePerf      @484 NONAME  ;Perf tests need this
+    EventSndUninitializePerf    @485 NONAME  ;Perf tests need this
+
+    ; xmlhelp
+    XMLHGetCLSIDAttributeVal    @89 NONAME
+
+    LoadStringWithBufferSize    @90 NONAME
+
+    ; unused                    @91 NONAME
+
+
+    ; unused. Was SSUpdateInit @103 NONAME
+    ; unused. Was SSUpdateDeinit @104 NONAME
+
+    WC_PlayClick                @105 ;sndPlaySound needs this
+    SetWantDTMFTones            @106 NONAME
+    PlayDTMFTone                @107 NONAME
+    StopDTMFTones               @108 NONAME
+
+    SuppressFeedbackForCurrentProcess  @114 NONAME
+    SuppressFeedback            @216 NONAME
+
+    GetPhoneDeviceId            @115 NONAME
+
+    QueryPolicyImpl             @116 NONAME     ; Do not move without changing certmod as well
+    SetPolicy                   @117 NONAME
+
+    CreateStreamOnFile          @119 NONAME
+    StreamCopyTo                @121 NONAME
+    CreateStreamOnHandle        @122 NONAME
+    CreateBufferedStreamOnHandle @128 NONAME
+
+    ; These are lame wrappers. Moved here to kill a dll
+    StrCmpNA                    @126 NONAME
+    GetStringTypeExA            @127 NONAME
+
+    XMLHGetIDValueList          @129 NONAME
+    GetDataDirectory            @130 NONAME    ; cellcore components depend on this ordinal so don't change it without notifying cellcore team
+    MountDefaultDBVol           @131 NONAME  ; See also MountRegistryNamedDBVol below
+
+    GetNameWithReasonMarkup     @132 NONAME
+
+    ; registry helpers
+    Reg_SetDWord                @133 NONAME
+    Reg_GetDWord                @134 NONAME
+    Reg_GetDWordEx              @135 NONAME
+    Reg_GetVals                 @136 NONAME
+
+    GetSoundsDirectory          @137 NONAME
+
+    EncodeBase64                @138 NONAME
+    DecodeBase64                @139 NONAME
+
+    RecursiveRemoveDirectory    @140 NONAME
+
+    ; phnsettutil
+    CanShowManualNetwork        @141 NONAME
+    CanShowPreferredNetwork     @142 NONAME
+
+    DuplicateCEPROPVALArrayNoAlloc  @143 NONAME
+
+    LocalEnsureBufferSize       @145 NONAME
+    memswap                     @146 NONAME
+
+    RecursiveCreateDirectory    @147 NONAME
+
+    SHRegisterDeviceCallback    @148 NONAME
+
+    ; phnumutil
+    GetOSKMapBehavior           @149 NONAME
+    ; unused                    @150 NONAME
+
+    ;more xmlhelp
+    XMLHChangeTagName           @151 NONAME
+    XMLHDeleteNodeListFromDoc   @152 NONAME
+    XMLHDeleteNodeFromDoc       @153 NONAME
+    XMLHDeleteAttributesWithExclusions  @154 NONAME
+    XMLHGetStringWithDesiredLang        @155 NONAME
+    XMLHGetNodeWithDesiredLang  @156 NONAME
+    XMLHGetOwnerDoc             @157 NONAME
+    XMLHCreateChildElement      @158 NONAME
+    XMLHSetTextAttribute        @159 NONAME
+    XMLHInsertChildNodeByPosition       @160 NONAME
+    XMLHGetParentPosition       @161 NONAME
+    XMLHPrintNode               @162 NONAME
+    XMLHChangeTagNameEx         @163 NONAME
+
+
+    ;misc
+    BigStrcat                   @164 NONAME
+
+    IsEventSoundEvent           @165 ;shell needs this
+
+    GetLineDeviceId             @166 NONAME
+
+    GetStatStore                @167 NONAME; cellcore components depend on this ordinal so don't change it without notifying cellcore team
+
+    GetTestCon                  @168 NONAME
+
+    IsDeviceDocked              @169 NONAME
+
+    WaitForFullBoot             @170 NONAME ;This MUST be export 170.  shellw\os\notify2\tpc\platform.cxx relies on it as does cellcore simtkit
+    IsFullBoot                  @171 NONAME 
+
+    GetTapiCurrentAreaCode      @172 NONAME
+    SetTapiCurrentAreaCode      @173 NONAME
+    GetTapiCurrentCountryCode   @174 NONAME
+    SetTapiCurrentCountryCode   @175 NONAME
+
+    IsCurrentTimeInAppointment  @176 NONAME
+    GetProfileLabel             @177 NONAME
+    GetOverrideProfileForAutomatic          @474 NONAME
+
+    IsMonkeyProofed             @178 NONAME
+
+    ; phnsettutil
+    GetRingTonePurchaseLinkText @180 NONAME
+    GetRingTonePurchaseLinkURL  @181 NONAME
+    LaunchRingTonePurchaseLink  @182 NONAME
+
+    InitDialingPrefixTable      @183 NONAME
+    MapPlusToDialingPrefix      @184 NONAME
+    StripExtraneousNDD          @185 NONAME
+
+    CalcIfDST                   @186 NONAME
+    LONGLONGFromSystemTime      @187 NONAME
+
+    STHStreamBinary             @188 NONAME
+    STHStreamBufferAlloc        @189 NONAME
+    STHStreamStringAlloc        @190 NONAME
+    STHStreamElements           @191 NONAME
+    
+    ; Unused. Was SSSuspendDatabaseMonitoring  @192 NONAME
+    ; Unused. Was SSResumeDatabaseMonitoring   @193 NONAME
+
+
+    XVibrate                     @194 NONAME
+    XVibrateStop                 @195 NONAME
+    XVibrateGetDeviceCaps        @196 NONAME
+
+    GetFullPathSound                @197 NONAME
+    GetRegPathSound                 @198 NONAME
+
+    FlushSystemOnPowerOff           @199 NONAME 
+
+    OSKMappingsOn                   @200 NONAME
+
+
+    GetSmartFilterSettingsVersion   @202 NONAME
+
+
+
+
+
+
+
+
+
+    crc32                   @208 NONAME
+
+    GetPhoneVolume          @209 NONAME
+    SetPhoneVolume          @210 NONAME
+    IncrementPhoneVolume    @211 NONAME
+    InitializePhoneVolume   @212 NONAME
+
+    MountRegistryNamedDBVol @213 NONAME  ; See also MountDefaultDBVol above
+
+    ; more recutil
+    ComparePropValUnions    @215 NONAME
+    SHGetSpeakerMode        @217 NONAME
+    SHSetSpeakerMode        @218 NONAME
+    
+    GetFileVersionsInfo     @220 NONAME
+    
+    ProcessRoles            @221 NONAME
+
+    BinaryToHexString       @222 NONAME
+    HexStringToBinary       @223 NONAME
+
+    ; Open for use          @224 NONAME ; API Removed: GetWinHandleProc
+    ; Open for use          @225 NONAME ; API Removed: TrustMarshallerLaunch 
+    ; Open for use          @226 NONAME ; API Removed: TrustMarshallerInvokeFunction
+    ; Open for use          @227 NONAME ; API Removed: TrustMarshallerInvokeFunctionRV
+    ; Open for use          @228 NONAME ; API Removed: TrustMarshallerClose
+
+    ; Open for use          @230 NONAME ; API Removed: AddItemToRevocationList
+    ; Open for use          @231 NONAME ; API Removed: GetParam
+    ; Open for use          @232 NONAME ; API Removed: SetParams
+
+    ; even more xmlhelp
+    XMLHGetBstrVarFromAttr2 @233 NONAME
+
+    ; ExtMan (Extension manager)
+    CreateExtensionManager  @234 NONAME
+    
+    ; Frees up memory used for the smart dial character matching.
+    PhNumUtilShutDown       @235 NONAME
+
+    ; File/Path utility functions
+    GetModifiedFileName                 @236 NONAME
+    GetLocaleSpecificFileName           @237 NONAME
+
+    ;eventsnd
+    IsRingEventSoundOff         @239 NONAME
+
+    ;phone number processing helpers
+    ValidPhoneNumberIsValidCharacter                @240 NONAME
+    ValidPhoneNumberGetValidCharacterList           @241 NONAME
+    ValidPhoneNumberInplaceStripInvalidCharacters   @242 NONAME
+
+    ;thin_utils helpers
+    GetExeProcessId         @243 NONAME
+
+    ; xmlhelp
+    XMLHGetSubnodeAttr      @244 NONAME
+
+    SetSystemVolume   @245 NONAME
+
+    XMLHEscapeString        @246 NONAME
+
+    ; To perform character escapes
+    EscapeStringW            @247 NONAME
+    EscapeStringA            @248 NONAME
+    
+    SaveBlobToRegistry       @249 NONAME
+    LoadBlobFromRegistry     @250 NONAME
+
+    BinaryToHexStringEx      @251 NONAME
+
+    ; phnumutil
+    IsEmergencyPhoneNumber    @252 NONAME
+
+    ; eventsnd
+    CreateRingtoneFilterString @267 ;shell needs this
+    GetDefaultRing          @268 ;shell needs this
+    GetDefaultSound         @364
+
+    ; wrlspwr
+    GetPhoneState           @269 NONAME
+    AnyDevicesOn            @270 NONAME
+    GetRadioStoredState     @271 NONAME
+    UpdateRadioStoredState  @272 NONAME
+    ChangeRadioState        @273 NONAME
+    SaveWirelessState       @274 NONAME
+    GetWirelessDevices      @276 NONAME
+    GetWirelessState        @277 NONAME
+    ChangeWirelessState     @278 NONAME
+    GetNameForWirelessDevices   @279 NONAME
+    FreeDeviceList          @280 NONAME
+    SetPowerDownWirelessState   @281 NONAME
+    ChangeRadioStateSync    @282 NONAME
+    RepairRadio             @283 NONAME
+
+    ; eventsnd
+    GetCategoryInfo         @284 ;shell needs this
+    ValidateSound        @285 ;shell needs this
+    
+    ; phnumutil
+    MakeTelLinkFromNumber   @287 NONAME
+
+
+    ; Winsock Helpers
+    FilteredGetAddrInfo     @292 NONAME
+
+    ; phnumutil
+    CanonPhoneNumberW       @293 NONAME
+
+    ; eventsnd
+    SetAsRingtone     @294 ;shell needs this
+
+    ; Default mail database volume
+    ReadMailVolumeName   @296 NONAME
+
+    ; phnumutil
+    GetCchTailMin        @297 NONAME
+    
+    ; statstor cleanup
+    StatStoreCleanup        @298 NONAME
+
+    ; String Search using Boyer-Moore
+    BMHFindStrI             @299 NONAME
+    BuildSkipArray          @300 NONAME
+
+    ;for determining whether a phone number is an always-on connection
+    IsAlwaysOnConnection    @301 NONAME
+
+    ; Mount the correct database volume for a specific purpose.
+    MountDBVol           @302 NONAME
+
+    SharememDecodeNameAndSize       @303 NONAME
+    SharememRelease                 @304 NONAME
+    SharememGet                     @305 NONAME
+
+    ; VariantChangeType() for MDD that handles Japanese dates
+    VariantChangeTypeMDD    @306 NONAME
+
+
+    ; Standard binary sort
+    SearchSortedArray       @310 NONAME
+
+    ; Unicode to Multibyte conversion routines
+    UnicodeToMB             @311 NONAME
+    MBToUnicode             @312 NONAME
+
+    ; Open a line to the device
+    OpenLine                @313 NONAME
+
+    ; HTTP-formatted header parser
+    GetHeader               @314 NONAME
+
+    ; Copy string
+    CopyString              @315 NONAME
+
+    ;eventsnd
+    IsRingEvent             @316 NONAME
+    PreviewEventSoundEx     @369 NONAME
+   
+    SearchSortedArrayEx           @347 NONAME
+
+    LoadHTMLEtc                   @348 NONAME
+    LoadHTML                      @349 NONAME
+
+    IntlLowercase                   @350 NONAME
+    IntlUppercase                   @351 NONAME
+    
+    GetLangData                     @352 NONAME
+    ValidateLangData                @353 NONAME
+    
+    GetMappingResources             @354 NONAME
+    FreeMappingResources            @355 NONAME
+
+    UnmountDBVol                    @356 NONAME
+
+    ; Unused                        @357 NONAME
+    ; Unused                        @358 NONAME
+    
+    LoadBitmapOver                @359 NONAME
+
+    InvStrCmpW                    @360 NONAME
+    InvStrCmpIW                   @361 NONAME
+    InvStrCmpNW                   @362 NONAME
+    InvStrCmpNIW                  @363 NONAME
+
+     CreateRestrictedRingtoneFilterString @370 NONAME ;shell needs this
+    ; PreviewEventSoundNotify       @371 ; 
+
+    ; Decode base64-encoded Unicode string
+    DecodeBase64W                 @372 NONAME
+    EncodeBase64W                 @373 NONAME
+
+    ; Do not change the export ordinals for FileDRM functions. Code in
+    ; Shell depends on these
+    FileDrmIsDRM                      @374 NONAME
+    FileDrmCreateFile                 @375 NONAME
+    FileDrmCreateForwardableContent   @376 NONAME
+    FileDrmNotifyEnable               @377 NONAME
+    FileDrmNotifyDisable              @378 NONAME
+    FileDrmShowLicenseInfo            @379 NONAME
+    FileDrmHandleError                @380 NONAME
+    FileDrmRenewRights                @381 NONAME
+    FileDrmGetMetric                  @382 NONAME
+    FileDrmVerifyRights               @383 NONAME
+    FileDrmCommitRights               @384 NONAME
+    FileDrmDeleteFile                 @385 NONAME
+    FileDrmStoreContent               @386 NONAME
+
+    ; temporary - for checking whether persistent storage is mounted as root
+    IsPSAtRoot                  @387 NONAME
+
+
+    SafeWideCharToMultiByte          @389 NONAME
+    SafeMultiByteToWideChar          @390 NONAME
+    SAdd                             @391 NONAME
+    SMul                             @392 NONAME
+    UMul                             @393 NONAME
+    
+    ; Hash tables
+    Hash_Create                       @394 NONAME
+    Hash_Destroy                      @395 NONAME
+    Hash_DestroyCallback              @396 NONAME
+    Hash_Insert                       @397 NONAME
+    Hash_Delete                       @398 NONAME
+    Hash_Get                          @399 NONAME
+    Hash_EnumCallback                 @400 NONAME
+    Hash_SetBucketThreshold           @401 NONAME
+
+    ; LoadOver
+    LoadIconOver                      @402 NONAME
+
+    ; ISO 8601 Converters
+    SystemTimeToISO8601String         @403 NONAME
+    FileTimeToISO8601String           @404 NONAME
+    ISO8601StringToSystemTime         @405 NONAME
+    ISO8601StringToFileTime           @406 NONAME
+
+    ; phonevol utilities
+    UIVolumeToSpeakerVolume           @407 NONAME
+    SpeakerVolumeToUIVolume           @408 NONAME
+
+    ; phnumutil
+    IsOTAPhoneNumber                  @409 NONAME
+
+    ; Watson Reporting API
+    WatsonReportFault                 @410 NONAME
+
+    ; SafeMath / Integer overflow
+    SsAdd                             @414 NONAME
+    SsMul                             @415 NONAME
+    UsMul                             @416 NONAME
+
+    ; Do not change the export ordinals for FileDRM functions. Code in
+    ; Shell depends on these
+    FileDrmVerifyRightsEx             @417 NONAME
+
+    ; Shell_Ready event
+    WaitForShellReady                 @418 NONAME
+    IsShellReady                      @419 NONAME
+
+    IsCurrentTimeInBusyAppointment    @420 NONAME
+
+    ; Safe memory accesors
+    SafeStrDup                        @421 NONAME
+    SafeStrDupEx                      @459 NONAME
+
+    ; Ordinal 422 used to be MapAndCopyString
+ 
+
+
+    ; Shadow Order API
+    ShadowOrderFindFirstFile          @424 NONAME
+    ShadowOrderFindNextFile           @425 NONAME
+    ShadowOrderFindClose              @426 NONAME
+
+    ; This is exported along with OnAssertionFail @27 from EHM.CPP
+    ShouldBreakOnAssert               @427 NONAME
+
+    ; phnumutil
+    SetupPhoneNumberFiltering         @428 NONAME
+
+    ;                                 @429 ; Unused
+    ;                                 @430 ; Unused
+    ;                                 @431 ; Unused
+    ;                                 @432 ; Unused
+    
+    ; phnumutil
+    CanonPhoneNumberWithIntlPrefixW   @433 NONAME
+
+    GetProcHeapUsage                  @434 NONAME
+
+    ;call timers for VoIP
+    CumulativeCallTimers_GetAccumulatedVoIPTime     @435 NONAME
+    CumulativeCallTimers_GetLastVoIPCallDuration    @436 NONAME
+    CumulativeCallTimers_GetVoIPNumCalls            @437 NONAME
+    CumulativeCallTimers_ResetVoIPCurrentPeriod     @438 NONAME
+    CumulativeCallTimers_VoIPCallNotify             @439 NONAME
+    CumulativeCallTimers_GetVoIPLastResetTime       @440 NONAME
+
+    ExtractReasonStringFromName       @441 NONAME
+    ConvertToReasonLength             @442 NONAME
+
+    ; Sound APIs need this
+    PlaySoundScriptEx                 @443 NONAME
+    PreLoadEventSoundResources        @444 NONAME
+
+    ; This is exported along with OnAssertionFail @27 from EHM.CPP
+    SetBreakOnAssert                  @445 NONAME
+
+
+    PlayEventSoundNonOverlapped       @446 NONAME
+    FitTextInRect                     @447 NONAME
+    IsValidAccumulatorPhoneNumber     @448 NONAME
+
+    ; Shadow Order File API
+    ShadowOrderFileOpen               @449 NONAME
+    ShadowOrderFileClose              @450 NONAME
+    ShadowOrderFileGetEntryCount      @451 NONAME
+    ShadowOrderFileGetEntry           @452 NONAME
+
+    ; eventsnd
+    GetAudioDeviceID                  @454 NONAME
+
+    ; FREE                            @455 NONAME
+    IsAlphaDialingEnabled             @456 NONAME
+    MapChar                           @457 NONAME
+    MapString                         @458 NONAME
+   
+    
+    ; Ordinal 459 is used by SafeStrDupEx
+
+
+    CEPropValToPropVariant                      @460 NONAME
+    SPropValueToPropVariant                     @461 NONAME
+    CEPropIDToVarType                           @462 NONAME
+    CEPropValArrayToPropVariantArrayInPlace     @470 NONAME
+
+    ; misc
+    GetCurrentTapiValue               @463 NONAME ; Tests need this
+    SetCurrentTapiValue               @464 NONAME ; Tests need this
+
+    ; phnumutil
+    IsSubstrLang                      @465 NONAME ; Contacts needs this ordinal to stay the same
+    ShouldSubstrMatch                 @466 NONAME ; Contacts needs this ordinal to stay the same
+   
+
+    ; Ordinal 467 is used by CreateWorkerWindowEx
+
+    InitSmartMatch                    @468 NONAME
+    IsSkippableChar                   @469 NONAME ; Contacts needs this ordinal to stay the same    
+
+    ; Ordinal 470 is used by CEPropValArrayToPropVariantArrayInPlace
+    
+    GetValidSimPhoneNumberAndAddressType @471 NONAME
+
+    ; Ordinal 472 is used by SetEventSoundTestParams
+    ; Ordinal 473 is used by PlayEventOrFile
+    ; Ordinal 474 is used by GetOverrideProfileForAutomatic
+
+    SafeStringToDword                 @475 NONAME
+    SafeBinDup                        @476 NONAME
+    
+    SetSoundProfile                   @477 NONAME
+    FreeEventSoundResources           @478 NONAME
+
+    IsCurrencySymbol                  @479 NONAME
+    GetBaseCurrencySymbol             @480 NONAME
+
+    AddPlusToIntlEntries              @481 NONAME
+    
+    GetSystemSpeakerVolume            @482 NONAME
+
+    RecursiveRemoveDirectoryEx        @483 NONAME
+
+    ;Ordinal 484 is used by EventSndInitializePerf
+    ;Ordinal 485 is used by EventSndUninitializePerf

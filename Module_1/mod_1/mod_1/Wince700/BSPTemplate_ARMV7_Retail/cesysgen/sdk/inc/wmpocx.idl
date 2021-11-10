@@ -1,0 +1,524 @@
+//
+// Copyright (c) Microsoft Corporation.  All rights reserved.
+//
+//
+// Use of this source code is subject to the terms of the Microsoft
+// premium shared source license agreement under which you licensed
+// this source code. If you did not accept the terms of the license
+// agreement, you are not authorized to use this source code.
+// For the terms of the license, please see the license agreement
+// signed by you and Microsoft.
+// THE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+//
+import "unknwn.idl";
+import "oaidl.idl";
+import "ocidl.idl";
+import "objsafe.idl";
+import "wmpcore.idl";
+#include "wmpocxids.h"
+
+
+// This file contains definitions for the remainder fo the WMP OCX interfaces
+// that aren't defined in wmpcore.idl.
+
+
+//
+//
+// Public Interfaces
+//
+//
+
+
+//
+// IWMPPlayer Interface
+//
+
+[
+    object,
+    uuid(6BF52A4F-394A-11d3-B153-00C04F79FAA6),
+    dual,
+    pointer_default(unique)
+]
+interface IWMPPlayer : IWMPCore
+{
+    [ id(DISPID_WMPOCX_ENABLED), propget ]
+        HRESULT enabled([out, retval] VARIANT_BOOL *pbEnabled);
+    [ id(DISPID_WMPOCX_ENABLED), propput ]
+        HRESULT enabled([in] VARIANT_BOOL bEnabled);
+    [ id(DISPID_WMPOCX_FULLSCREEN), propget ]
+        HRESULT fullScreen([out, retval] VARIANT_BOOL *pbFullScreen);
+    [ id(DISPID_WMPOCX_FULLSCREEN), propput ]
+        HRESULT fullScreen(VARIANT_BOOL bFullScreen);
+    [ id(DISPID_WMPOCX_ENABLECONTEXTMENU), propget ]
+        HRESULT enableContextMenu([out, retval] VARIANT_BOOL *pbEnableContextMenu);
+    [ id(DISPID_WMPOCX_ENABLECONTEXTMENU), propput ]
+        HRESULT enableContextMenu(VARIANT_BOOL bEnableContextMenu);
+    [ id(DISPID_WMPOCX_UIMODE), propput ]
+        HRESULT uiMode([in] BSTR bstrMode);
+    [ id(DISPID_WMPOCX_UIMODE), propget ]
+        HRESULT uiMode([out, retval] BSTR *pbstrMode);
+}
+
+
+//
+// IWMPPlayer2 Interface
+//
+
+[
+    object,
+    uuid(0E6B01D1-D407-4c85-BF5F-1C01F6150280),
+    dual,
+    pointer_default(unique)
+]
+interface IWMPPlayer2 : IWMPCore
+{
+    //
+    // Duplicate interfaces from IWMPPlayer
+    //
+    [ id(DISPID_WMPOCX_ENABLED), propget ]
+        HRESULT enabled([out, retval] VARIANT_BOOL *pbEnabled);
+    [ id(DISPID_WMPOCX_ENABLED), propput ]
+        HRESULT enabled([in] VARIANT_BOOL bEnabled);
+    [ id(DISPID_WMPOCX_FULLSCREEN), propget ]
+        HRESULT fullScreen([out, retval] VARIANT_BOOL *pbFullScreen);
+    [ id(DISPID_WMPOCX_FULLSCREEN), propput ]
+        HRESULT fullScreen(VARIANT_BOOL bFullScreen);
+    [ id(DISPID_WMPOCX_ENABLECONTEXTMENU), propget ]
+        HRESULT enableContextMenu([out, retval] VARIANT_BOOL *pbEnableContextMenu);
+    [ id(DISPID_WMPOCX_ENABLECONTEXTMENU), propput ]
+        HRESULT enableContextMenu(VARIANT_BOOL bEnableContextMenu);
+    [ id(DISPID_WMPOCX_UIMODE), propput ]
+        HRESULT uiMode([in] BSTR bstrMode);
+    [ id(DISPID_WMPOCX_UIMODE), propget ]
+        HRESULT uiMode([out, retval] BSTR *pbstrMode);
+
+    //
+    // Additional interfaces for IWMPPlayer2
+    //
+    [ id(DISPID_WMPOCX2_STRETCHTOFIT), propget ]
+        HRESULT stretchToFit([out, retval] VARIANT_BOOL* pbEnabled);
+    [ id(DISPID_WMPOCX2_STRETCHTOFIT), propput ]
+        HRESULT stretchToFit([in] VARIANT_BOOL bEnabled);
+    [ id(DISPID_WMPOCX2_WINDOWLESSVIDEO), propget ]
+        HRESULT windowlessVideo([out, retval] VARIANT_BOOL *pbEnabled);
+    [ id(DISPID_WMPOCX2_WINDOWLESSVIDEO), propput ]
+        HRESULT windowlessVideo([in] VARIANT_BOOL bEnabled);
+}
+
+
+//
+// IWMPPlayer3 Interface
+//
+
+[
+    object,
+    uuid(54062B68-052A-4c25-A39F-8B63346511D4),
+    dual,
+    pointer_default(unique)
+]
+interface IWMPPlayer3 : IWMPCore2
+{
+    //
+    // Duplicate interfaces from IWMPPlayer
+    //
+    [ id(DISPID_WMPOCX_ENABLED), propget ]
+        HRESULT enabled([out, retval] VARIANT_BOOL *pbEnabled);
+    [ id(DISPID_WMPOCX_ENABLED), propput ]
+        HRESULT enabled([in] VARIANT_BOOL bEnabled);
+    [ id(DISPID_WMPOCX_FULLSCREEN), propget ]
+        HRESULT fullScreen([out, retval] VARIANT_BOOL *pbFullScreen);
+    [ id(DISPID_WMPOCX_FULLSCREEN), propput ]
+        HRESULT fullScreen(VARIANT_BOOL bFullScreen);
+    [ id(DISPID_WMPOCX_ENABLECONTEXTMENU), propget ]
+        HRESULT enableContextMenu([out, retval] VARIANT_BOOL *pbEnableContextMenu);
+    [ id(DISPID_WMPOCX_ENABLECONTEXTMENU), propput ]
+        HRESULT enableContextMenu(VARIANT_BOOL bEnableContextMenu);
+    [ id(DISPID_WMPOCX_UIMODE), propput ]
+        HRESULT uiMode([in] BSTR bstrMode);
+    [ id(DISPID_WMPOCX_UIMODE), propget ]
+        HRESULT uiMode([out, retval] BSTR *pbstrMode);
+
+    //
+    // Additional interfaces for IWMPPlayer2
+    //
+    [ id(DISPID_WMPOCX2_STRETCHTOFIT), propget ]
+        HRESULT stretchToFit([out, retval] VARIANT_BOOL* pbEnabled);
+    [ id(DISPID_WMPOCX2_STRETCHTOFIT), propput ]
+        HRESULT stretchToFit([in] VARIANT_BOOL bEnabled);
+    [ id(DISPID_WMPOCX2_WINDOWLESSVIDEO), propget ]
+        HRESULT windowlessVideo([out, retval] VARIANT_BOOL *pbEnabled);
+    [ id(DISPID_WMPOCX2_WINDOWLESSVIDEO), propput ]
+        HRESULT windowlessVideo([in] VARIANT_BOOL bEnabled);
+}
+
+
+//
+// IWMPPlayer4 Interface
+//
+
+[
+    object,
+    uuid(6C497D62-8919-413c-82DB-E935FB3EC584),
+    dual,
+    pointer_default(unique)
+]
+interface IWMPPlayer4 : IWMPCore3
+{
+    //
+    // Duplicate interfaces from IWMPPlayer
+    //
+    [ id(DISPID_WMPOCX_ENABLED), propget ]
+        HRESULT enabled([out, retval] VARIANT_BOOL *pbEnabled);
+    [ id(DISPID_WMPOCX_ENABLED), propput ]
+        HRESULT enabled([in] VARIANT_BOOL bEnabled);
+    [ id(DISPID_WMPOCX_FULLSCREEN), propget ]
+        HRESULT fullScreen([out, retval] VARIANT_BOOL *pbFullScreen);
+    [ id(DISPID_WMPOCX_FULLSCREEN), propput ]
+        HRESULT fullScreen(VARIANT_BOOL bFullScreen);
+    [ id(DISPID_WMPOCX_ENABLECONTEXTMENU), propget ]
+        HRESULT enableContextMenu([out, retval] VARIANT_BOOL *pbEnableContextMenu);
+    [ id(DISPID_WMPOCX_ENABLECONTEXTMENU), propput ]
+        HRESULT enableContextMenu(VARIANT_BOOL bEnableContextMenu);
+    [ id(DISPID_WMPOCX_UIMODE), propput ]
+        HRESULT uiMode([in] BSTR bstrMode);
+    [ id(DISPID_WMPOCX_UIMODE), propget ]
+        HRESULT uiMode([out, retval] BSTR *pbstrMode);
+
+    //
+    // Additional interfaces for IWMPPlayer2
+    //
+    [ id(DISPID_WMPOCX2_STRETCHTOFIT), propget ]
+        HRESULT stretchToFit([out, retval] VARIANT_BOOL* pbEnabled);
+    [ id(DISPID_WMPOCX2_STRETCHTOFIT), propput ]
+        HRESULT stretchToFit([in] VARIANT_BOOL bEnabled);
+    [ id(DISPID_WMPOCX2_WINDOWLESSVIDEO), propget ]
+        HRESULT windowlessVideo([out, retval] VARIANT_BOOL *pbEnabled);
+    [ id(DISPID_WMPOCX2_WINDOWLESSVIDEO), propput ]
+        HRESULT windowlessVideo([in] VARIANT_BOOL bEnabled);
+
+    //
+    // Additional interfaces for IWMPPlayer4
+    //
+    [ id(DISPID_WMPOCX4_ISREMOTE), propget ]
+        HRESULT isRemote([out, retval] VARIANT_BOOL* pvarfIsRemote);
+    [ id(DISPID_WMPOCX4_PLAYERAPPLICATION), propget ]
+        HRESULT playerApplication([out, retval] IWMPPlayerApplication** ppIWMPPlayerApplication);
+    [ id(DISPID_WMPOCX4_OPENPLAYER) ]
+        HRESULT openPlayer([in] BSTR bstrURL);
+}
+
+
+//
+// IWMPSettings2 Interface
+//
+
+[
+    object,
+    uuid(FDA937A4-EECE-4da5-A0B6-39BF89ADE2C2),
+    dual,
+    pointer_default(unique)
+]
+interface IWMPSettings2 : IWMPSettings
+{
+    [ id(DISPID_WMPSETTINGS2_DEFAULTAUDIOLANGUAGE), propget ]
+        HRESULT defaultAudioLanguage( [out, retval] long *plLangID );
+    [ id(DISPID_WMPSETTINGS2_LIBRARYACCESSRIGHTS), propget]
+        HRESULT mediaAccessRights( [out, retval] BSTR * pbstrRights );
+    [ id(DISPID_WMPSETTINGS2_REQUESTLIBRARYACCESSRIGHTS)]
+        HRESULT requestMediaAccessRights( [in] BSTR bstrDesiredAccess, [out, retval] VARIANT_BOOL * pvbAccepted );
+}
+
+
+//
+// The Type Library
+//
+
+[
+    uuid(6BF52A50-394A-11d3-B153-00C04F79FAA6),
+    version(1.0),
+]
+library WMPOCX
+{
+    // IWMPEvents and _WMPOCXEvents must both be located in this type library
+    // block, since they contain procedures that don't return HRESULT.
+    [
+        object,
+        uuid(19A6627B-DA9E-47c1-BB23-00B5E668236A),
+        pointer_default(unique)
+    ]
+    interface IWMPEvents : IUnknown
+    {
+        // Graph creation
+        [ id( DISPID_WMPCOREEVENT_OPENSTATECHANGE ) ]
+            void OpenStateChange( [in] long NewState );
+
+        // control
+        [ id( DISPID_WMPCOREEVENT_PLAYSTATECHANGE ) ]
+            void PlayStateChange( [in] long NewState );
+        [ id( DISPID_WMPCOREEVENT_AUDIOLANGUAGECHANGE ) ]
+            void AudioLanguageChange( [in] long LangID );
+
+        // Status
+        [ id( DISPID_WMPCOREEVENT_STATUSCHANGE ) ]
+            void StatusChange();
+
+        // content
+        [ id( DISPID_WMPCOREEVENT_SCRIPTCOMMAND ) ]
+            void ScriptCommand( [in] BSTR scType, [in] BSTR Param );
+
+        // network
+        [ id( DISPID_WMPCOREEVENT_NEWSTREAM ) ]
+            void NewStream();
+        [ id( DISPID_WMPCOREEVENT_DISCONNECT ) ]
+            void Disconnect( [in] long Result );
+        [ id( DISPID_WMPCOREEVENT_BUFFERING ) ]
+            void Buffering( [in] VARIANT_BOOL Start );
+
+        // error
+        [ id( DISPID_WMPCOREEVENT_ERROR ) ]
+            void Error();
+
+        // warning
+        [ id( DISPID_WMPCOREEVENT_WARNING ) ]
+            void Warning( [in] long WarningType, [in] long Param, [in] BSTR Description );
+
+        // seek
+        [ id( DISPID_WMPCOREEVENT_ENDOFSTREAM ) ]
+            void EndOfStream( [in] long Result );
+        [ id( DISPID_WMPCOREEVENT_POSITIONCHANGE) ]
+            void PositionChange([in] double oldPosition, [in] double newPosition);
+        [ id( DISPID_WMPCOREEVENT_MARKERHIT ) ]
+            void MarkerHit( [in] long MarkerNum );
+        [ id( DISPID_WMPCOREEVENT_DURATIONUNITCHANGE) ]
+            void DurationUnitChange( [in] long NewDurationUnit );
+
+        // cdrom
+        [ id( DISPID_WMPCOREEVENT_CDROMMEDIACHANGE) ]
+                void CdromMediaChange( [in] long CdromNum );
+
+        // playlist
+        [ id( DISPID_WMPCOREEVENT_PLAYLISTCHANGE) ]
+            void PlaylistChange( [in] IDispatch * Playlist, [in] WMPPlaylistChangeEventType change );
+        [ id( DISPID_WMPCOREEVENT_CURRENTPLAYLISTCHANGE) ]
+            void CurrentPlaylistChange( [in] WMPPlaylistChangeEventType change );
+        [ id( DISPID_WMPCOREEVENT_CURRENTPLAYLISTITEMAVAILABLE) ]
+            void CurrentPlaylistItemAvailable( [in] BSTR bstrItemName );
+        [ id( DISPID_WMPCOREEVENT_MEDIACHANGE) ]
+            void MediaChange( [in] IDispatch * Item );
+        [ id( DISPID_WMPCOREEVENT_CURRENTMEDIAITEMAVAILABLE) ]
+            void CurrentMediaItemAvailable( [in] BSTR bstrItemName );
+        [ id( DISPID_WMPCOREEVENT_CURRENTITEMCHANGE) ]
+            void CurrentItemChange( [in] IDispatch *pdispMedia);
+        [ id( DISPID_WMPCOREEVENT_MEDIACOLLECTIONCHANGE) ]
+            void MediaCollectionChange();
+        [ id( DISPID_WMPCOREEVENT_MEDIACOLLECTIONATTRIBUTESTRINGADDED) ]
+            void MediaCollectionAttributeStringAdded( [in] BSTR bstrAttribName,  [in] BSTR bstrAttribVal );
+        [ id( DISPID_WMPCOREEVENT_MEDIACOLLECTIONATTRIBUTESTRINGREMOVED) ]
+            void MediaCollectionAttributeStringRemoved( [in] BSTR bstrAttribName,  [in] BSTR bstrAttribVal );
+        [ id( DISPID_WMPCOREEVENT_MEDIACOLLECTIONATTRIBUTESTRINGCHANGED) ]
+            void MediaCollectionAttributeStringChanged([in] BSTR bstrAttribName, [in] BSTR bstrOldAttribVal, [in] BSTR bstrNewAttribVal);
+        [ id( DISPID_WMPCOREEVENT_PLAYLISTCOLLECTIONCHANGE) ]
+            void PlaylistCollectionChange();
+        [ id( DISPID_WMPCOREEVENT_PLAYLISTCOLLECTIONPLAYLISTADDED) ]
+            void PlaylistCollectionPlaylistAdded([in] BSTR bstrPlaylistName);
+        [ id( DISPID_WMPCOREEVENT_PLAYLISTCOLLECTIONPLAYLISTREMOVED) ]
+            void PlaylistCollectionPlaylistRemoved([in] BSTR bstrPlaylistName);
+        [ id( DISPID_WMPCOREEVENT_PLAYLISTCOLLECTIONPLAYLISTSETASDELETED) ]
+            void PlaylistCollectionPlaylistSetAsDeleted([in] BSTR bstrPlaylistName, [in] VARIANT_BOOL varfIsDeleted);
+        [ id( DISPID_WMPCOREEVENT_MODECHANGE) ]
+            void ModeChange([in] BSTR ModeName, [in] VARIANT_BOOL NewValue);
+        [ id( DISPID_WMPCOREEVENT_MEDIAERROR ) ]
+            void MediaError( [in] IDispatch * pMediaObject);
+        [ id( DISPID_WMPCOREEVENT_OPENPLAYLISTSWITCH) ]
+            void OpenPlaylistSwitch( [in] IDispatch *pItem );
+
+        // dvd
+        [ id( DISPID_WMPCOREEVENT_DOMAINCHANGE ) ]
+            void DomainChange([in] BSTR strDomain);
+
+        // OCX
+        [ id( DISPID_WMPOCXEVENT_SWITCHEDTOPLAYERAPPLICATION ) ]
+            void SwitchedToPlayerApplication();
+        [ id( DISPID_WMPOCXEVENT_SWITCHEDTOCONTROL ) ]
+            void SwitchedToControl();
+        [ id( DISPID_WMPOCXEVENT_PLAYERDOCKEDSTATECHANGE ) ]
+            void PlayerDockedStateChange();
+        [ id( DISPID_WMPOCXEVENT_PLAYERRECONNECT ) ]
+            void PlayerReconnect();
+        [ id( DISPID_WMPOCXEVENT_CLICK ) ]
+            void Click( [in] short nButton, [in] short nShiftState, [in] long fX, [in] long fY );
+        [ id( DISPID_WMPOCXEVENT_DOUBLECLICK ) ]
+            void DoubleClick( [in] short nButton, [in] short nShiftState, [in] long fX, [in] long fY );
+        [ id( DISPID_WMPOCXEVENT_KEYDOWN ) ]
+            void KeyDown( [in] short nKeyCode, [in] short nShiftState );
+        [ id( DISPID_WMPOCXEVENT_KEYPRESS ) ]
+            void KeyPress( [in] short nKeyAscii );
+        [ id( DISPID_WMPOCXEVENT_KEYUP ) ]
+            void KeyUp( [in] short nKeyCode, [in] short nShiftState );
+        [ id( DISPID_WMPOCXEVENT_MOUSEDOWN ) ]
+            void MouseDown( [in] short nButton, [in] short nShiftState, [in] long fX, [in] long fY );
+        [ id( DISPID_WMPOCXEVENT_MOUSEMOVE ) ]
+            void MouseMove( [in] short nButton, [in] short nShiftState, [in] long fX, [in] long fY );
+        [ id( DISPID_WMPOCXEVENT_MOUSEUP ) ]
+            void MouseUp( [in] short nButton, [in] short nShiftState, [in] long fX, [in] long fY );
+    };
+
+    [
+        uuid(6BF52A51-394A-11d3-B153-00C04F79FAA6),
+        hidden
+    ]
+    dispinterface _WMPOCXEvents
+    {
+        properties:
+        methods:
+
+        //////////////////////////////////////////////////////////////////////
+        //                     CORE EVENTS
+        //////////////////////////////////////////////////////////////////////
+
+        // Graph creation
+        [ id( DISPID_WMPCOREEVENT_OPENSTATECHANGE ) ]
+            void OpenStateChange( [in] long NewState );
+
+        // control
+        [ id( DISPID_WMPCOREEVENT_PLAYSTATECHANGE ) ]
+            void PlayStateChange( [in] long NewState );
+
+        [ id( DISPID_WMPCOREEVENT_AUDIOLANGUAGECHANGE ) ]
+            void AudioLanguageChange( [in] long LangID );
+
+        // Status
+        [ id( DISPID_WMPCOREEVENT_STATUSCHANGE ) ]
+            void StatusChange();
+
+        // content
+        [ id( DISPID_WMPCOREEVENT_SCRIPTCOMMAND ) ]
+            void ScriptCommand( [in] BSTR scType, [in] BSTR Param );
+
+        // network
+        [ id( DISPID_WMPCOREEVENT_NEWSTREAM ) ]
+            void NewStream();
+        [ id( DISPID_WMPCOREEVENT_DISCONNECT ) ]
+            void Disconnect( [in] long Result );
+
+        [ id( DISPID_WMPCOREEVENT_BUFFERING ) ]
+            void Buffering( [in] VARIANT_BOOL Start );
+
+        // error
+        [ id( DISPID_WMPCOREEVENT_ERROR ) ]
+            void Error();
+
+        // warning
+        [ id( DISPID_WMPCOREEVENT_WARNING ) ]
+            void Warning( [in] long WarningType, [in] long Param, [in] BSTR Description );
+
+
+        // seek
+        [ id( DISPID_WMPCOREEVENT_ENDOFSTREAM ) ]
+            void EndOfStream( [in] long Result );
+        [id(DISPID_WMPCOREEVENT_POSITIONCHANGE) ]
+            void PositionChange([in] double oldPosition, [in] double newPosition);
+
+        [ id( DISPID_WMPCOREEVENT_MARKERHIT ) ]
+            void MarkerHit( [in] long MarkerNum );
+
+        [id(DISPID_WMPCOREEVENT_DURATIONUNITCHANGE) ]
+            void DurationUnitChange([in] long NewDurationUnit);
+
+        // cdrom
+        [id(DISPID_WMPCOREEVENT_CDROMMEDIACHANGE) ]
+                void CdromMediaChange( [in] long CdromNum );
+
+        //playlist
+        [id(DISPID_WMPCOREEVENT_PLAYLISTCHANGE) ]
+                void PlaylistChange( [in] IDispatch * Playlist, [in] WMPPlaylistChangeEventType change );
+                
+        [id(DISPID_WMPCOREEVENT_CURRENTPLAYLISTCHANGE) ]
+                void CurrentPlaylistChange( [in] WMPPlaylistChangeEventType change );
+        [id(DISPID_WMPCOREEVENT_CURRENTPLAYLISTITEMAVAILABLE) ]
+                void CurrentPlaylistItemAvailable([in] BSTR bstrItemName);
+        [id(DISPID_WMPCOREEVENT_MEDIACHANGE) ]
+                void MediaChange( [in] IDispatch * Item);
+        [id(DISPID_WMPCOREEVENT_CURRENTMEDIAITEMAVAILABLE) ]
+                void CurrentMediaItemAvailable([in] BSTR bstrItemName);
+        [id(DISPID_WMPCOREEVENT_CURRENTITEMCHANGE) ]
+                void CurrentItemChange( [in] IDispatch *pdispMedia);
+        [id(DISPID_WMPCOREEVENT_MEDIACOLLECTIONCHANGE) ]
+                void MediaCollectionChange();
+        [id(DISPID_WMPCOREEVENT_MEDIACOLLECTIONATTRIBUTESTRINGADDED) ]
+                void MediaCollectionAttributeStringAdded([in] BSTR bstrAttribName, [in] BSTR bstrAttribVal);
+        [id(DISPID_WMPCOREEVENT_MEDIACOLLECTIONATTRIBUTESTRINGREMOVED) ]
+                void MediaCollectionAttributeStringRemoved([in] BSTR bstrAttribName, [in] BSTR bstrAttribVal);
+        [ id( DISPID_WMPCOREEVENT_MEDIACOLLECTIONATTRIBUTESTRINGCHANGED) ]
+            void MediaCollectionAttributeStringChanged([in] BSTR bstrAttribName, [in] BSTR bstrOldAttribVal, [in] BSTR bstrNewAttribVal);
+        [id(DISPID_WMPCOREEVENT_PLAYLISTCOLLECTIONCHANGE) ]
+                void PlaylistCollectionChange();
+        [id(DISPID_WMPCOREEVENT_PLAYLISTCOLLECTIONPLAYLISTADDED) ]
+                void PlaylistCollectionPlaylistAdded([in] BSTR bstrPlaylistName);
+        [id(DISPID_WMPCOREEVENT_PLAYLISTCOLLECTIONPLAYLISTREMOVED) ]
+                void PlaylistCollectionPlaylistRemoved([in] BSTR bstrPlaylistName);
+        [id(DISPID_WMPCOREEVENT_PLAYLISTCOLLECTIONPLAYLISTSETASDELETED) ]
+                void PlaylistCollectionPlaylistSetAsDeleted([in] BSTR bstrPlaylistName, [in] VARIANT_BOOL varfIsDeleted);
+        [id(DISPID_WMPCOREEVENT_MODECHANGE) ]
+                void ModeChange([in] BSTR ModeName, [in] VARIANT_BOOL NewValue);
+        [ id( DISPID_WMPCOREEVENT_MEDIAERROR ) ]
+            void MediaError( [in] IDispatch * pMediaObject);
+        [ id( DISPID_WMPCOREEVENT_OPENPLAYLISTSWITCH) ]
+            void OpenPlaylistSwitch( [in] IDispatch *pItem );
+
+        // dvd
+        [ id( DISPID_WMPCOREEVENT_DOMAINCHANGE ) ]
+            void DomainChange([in] BSTR strDomain);
+
+        // OCX
+        [ id( DISPID_WMPOCXEVENT_SWITCHEDTOPLAYERAPPLICATION ) ]
+            void SwitchedToPlayerApplication();
+        [ id( DISPID_WMPOCXEVENT_SWITCHEDTOCONTROL ) ]
+            void SwitchedToControl();
+        [ id( DISPID_WMPOCXEVENT_PLAYERDOCKEDSTATECHANGE ) ]
+            void PlayerDockedStateChange();
+        [ id( DISPID_WMPOCXEVENT_PLAYERRECONNECT ) ]
+            void PlayerReconnect();
+        [ id( DISPID_WMPOCXEVENT_CLICK ) ]
+            void Click( [in] short nButton, [in] short nShiftState, [in] long fX, [in] long fY );
+        [ id( DISPID_WMPOCXEVENT_DOUBLECLICK ) ]
+            void DoubleClick( [in] short nButton, [in] short nShiftState, [in] long fX, [in] long fY );
+        [ id( DISPID_WMPOCXEVENT_KEYDOWN ) ]
+            void KeyDown( [in] short nKeyCode, [in] short nShiftState );
+        [ id( DISPID_WMPOCXEVENT_KEYPRESS ) ]
+            void KeyPress( [in] short nKeyAscii );
+        [ id( DISPID_WMPOCXEVENT_KEYUP ) ]
+            void KeyUp( [in] short nKeyCode, [in] short nShiftState );
+        [ id( DISPID_WMPOCXEVENT_MOUSEDOWN ) ]
+            void MouseDown( [in] short nButton, [in] short nShiftState, [in] long fX, [in] long fY );
+        [ id( DISPID_WMPOCXEVENT_MOUSEMOVE ) ]
+            void MouseMove( [in] short nButton, [in] short nShiftState, [in] long fX, [in] long fY );
+        [ id( DISPID_WMPOCXEVENT_MOUSEUP ) ]
+            void MouseUp( [in] short nButton, [in] short nShiftState, [in] long fX, [in] long fY );
+    }; 
+
+
+    [
+        uuid(6BF52A52-394A-11d3-B153-00C04F79FAA6),
+        version(1.0)
+    ]
+    coclass WMPOCX
+    {
+        [default] interface IWMPPlayer;
+        interface IWMPPlayer2;
+        interface IWMPPlayer3;
+        interface IWMPPlayer4;
+        interface IWMPControls;
+        interface IWMPControls2;
+        interface IWMPControls3;
+        interface IWMPSettings;
+        interface IWMPSettings2;
+        interface IWMPNetwork;
+        interface IWMPPlaylist;
+        interface IWMPMedia;
+        interface IWMPMedia2;
+        interface IWMPError;
+        interface IWMPErrorItem;
+        [default, source] dispinterface _WMPOCXEvents;
+    };
+};

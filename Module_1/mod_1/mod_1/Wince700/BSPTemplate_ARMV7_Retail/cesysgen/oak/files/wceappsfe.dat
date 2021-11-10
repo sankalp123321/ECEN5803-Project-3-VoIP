@@ -1,0 +1,38 @@
+;
+; Copyright (c) Microsoft Corporation.  All rights reserved.
+;
+;
+; Use of this sample source code is subject to the terms of the Microsoft
+; license agreement under which you licensed this sample source code. If
+; you did not accept the terms of the license agreement, you are not
+; authorized to use this sample source code. For the terms of the license,
+; please see the license agreement between you and Microsoft or, if applicable,
+; see the LICENSE.RTF on your install media or the root of your tools installation.
+; THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+;
+root:-Directory("LOC_PROGRAMFILES_DIR")
+root:-Directory("LOC_MYDOCUMENTS_DIR")
+root:-Directory("LOC_RECENT_DIR")
+Directory("\Windows"):-Directory("LOC_DESKTOP_DIR")
+Directory("\Windows"):-Directory("LOC_PROGRAMS_DIR")
+
+; @CESYSGEN IF WCEAPPSFE_MODULES_PWORD
+Directory("\LOC_MYDOCUMENTS_DIR"):-File("LOC_TEMPLATES_LNK","\Windows\templats.lnk")
+Directory("\LOC_PROGRAMFILES_DIR"):-Directory("LOC_OFFICE_DIR")
+Directory("\LOC_PROGRAMFILES_DIR\LOC_OFFICE_DIR"):-File("LOC_MSPWORD_LNK","\Windows\wordpad.lnk")
+Directory("\LOC_PROGRAMFILES_DIR\LOC_OFFICE_DIR"):-Directory("LOC_TEMPLATES_DIR")
+Directory("\LOC_PROGRAMFILES_DIR\LOC_OFFICE_DIR\LOC_TEMPLATES_DIR"):-File(LOC_LETTER_PWT,"\Windows\letter.pwt")
+Directory("\LOC_PROGRAMFILES_DIR\LOC_OFFICE_DIR\LOC_TEMPLATES_DIR"):-File(LOC_MEETINGNOTES_PWT,"\Windows\meetnote.pwt")
+Directory("\Windows\LOC_DESKTOP_DIR"):-File("LOC_MSPWORD_LNK","\Windows\wordpad.lnk")
+Directory("\Windows\LOC_DESKTOP_DIR"):-File("LOC_MYDOCUMENTS_LNK", "\Windows\mydocs.lnk")
+Directory("\Windows\LOC_PROGRAMS_DIR"):-File("LOC_MSPWORD_LNK","\Windows\wordpad.lnk")
+; @CESYSGEN ENDIF WCEAPPSFE_MODULES_PWORD
+
+
+; @CESYSGEN IF WCESHELLFE_MODULES_PEGHELP || IE7_MODULES_HTMLHELP
+Directory("\Windows"):-Directory("LOC_HELP_DIR")
+; @CESYSGEN IF WCEAPPSFE_MODULES_PWORD
+Directory("\Windows\LOC_HELP_DIR"):-File(LOC_HLPLNK_WORD,"\Windows\wordhlp.lnk")
+; @CESYSGEN ENDIF WCEAPPSFE_MODULES_PWORD
+
+; @CESYSGEN ENDIF WCESHELLFE_MODULES_PEGHELP

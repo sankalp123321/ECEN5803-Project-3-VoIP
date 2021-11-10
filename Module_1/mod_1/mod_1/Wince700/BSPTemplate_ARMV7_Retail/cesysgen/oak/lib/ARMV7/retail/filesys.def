@@ -1,0 +1,134 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;
+; Copyright (c) Microsoft Corporation.  All rights reserved.
+;
+;
+; Use of this source code is subject to the terms of the Microsoft
+; premium shared source license agreement under which you licensed
+; this source code. If you did not accept the terms of the license
+; agreement, you are not authorized to use this source code.
+; For the terms of the license, please see the license agreement
+; signed by you and Microsoft.
+; THE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES.
+;
+LIBRARY FILESYS
+
+EXPORTS
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; NOTE: Please update the following comment as you add ordinals
+;
+; Last ordinal used: 36 (FSD_FindNextFileW)
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; @CESYSGEN IF CE_MODULES_FILESYS
+
+   FileSysMain @2
+
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF FILESYS_FSYSRAM
+
+   ; Path-based APIs
+   FSD_MountDisk            @3
+   FSD_UnmountDisk          @4
+   FSD_CreateDirectoryW     @5
+   FSD_CreateFileW          @6
+   FSD_DeleteAndRenameFileW @7
+   FSD_DeleteFileW          @8
+   FSD_FindFirstFileW       @9
+   FSD_GetDiskFreeSpaceW    @10
+   FSD_GetFileAttributesW   @12
+   FSD_GetVolumeInfo        @13
+   FSD_MoveFileW            @14
+   FSD_Notify               @15
+   FSD_RegisterFileSystemFunction   @16
+   FSD_RemoveDirectoryW     @17
+   FSD_SetFileAttributesW   @18
+   FSD_FsIoControl          @19
+
+   ; File handle-based APIs (HT_FILE API)
+   FSD_CloseFile=FS_CloseFileHandle         @20
+   FSD_ReadFile=FS_ReadFile                 @21
+   FSD_WriteFile=FS_WriteFile               @22
+   FSD_GetFileSize=FS_GetFileSize           @23
+   FSD_SetFilePointer=FS_SetFilePointer     @24
+   FSD_GetFileInformationByHandle=FS_GetFileInformationByHandle @25
+   FSD_FlushFileBuffers=FS_FlushFileBuffers @26
+   FSD_GetFileTime=FS_GetFileTime           @27
+   FSD_SetFileTime=FS_SetFileTime           @28
+   FSD_SetEndOfFile=FS_SetEndOfFile         @29
+   FSD_DeviceIoControl=FS_DeviceIoControl   @30
+   FSD_ReadFileWithSeek=FS_ReadFileWithSeek @31
+   FSD_WriteFileWithSeek=FS_WriteFileWithSeek   @32
+   FSD_LockFileEx=FS_LockFileEx             @33
+   FSD_UnlockFileEx=FS_UnlockFileEx         @34
+
+   ; Search handle-based APIs (HT_FIND API)
+   FSD_FindClose=FS_FindClose               @35
+   FSD_FindNextFileW=FS_FindNextFileW       @36
+   
+; @CESYSGEN ENDIF FILESYS_FSYSRAM

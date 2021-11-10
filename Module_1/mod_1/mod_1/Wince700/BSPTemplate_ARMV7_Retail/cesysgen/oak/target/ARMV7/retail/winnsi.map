@@ -1,0 +1,173 @@
+ winnsi
+
+ Timestamp is 5cafa2b9 (Thu Apr 11 13:25:29 2019)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 0000056aH .rdata                  CODE
+ 0001:0000058c 00000023H .rdata$debug            CODE
+ 0001:000005b0 00001684H .text                   CODE
+ 0001:00001c34 00000070H .xdata                  CODE
+ 0001:00001ca4 00000028H .idata$2                CODE
+ 0001:00001ccc 00000014H .idata$3                CODE
+ 0001:00001ce0 00000098H .idata$4                CODE
+ 0001:00001d78 000000daH .idata$6                CODE
+ 0001:00001e60 00000126H .edata                  CODE
+ 0002:00000000 00000098H .idata$5                DATA
+ 0002:00000098 00000020H .data                   DATA
+ 0002:000000c0 0000007cH .bss                    DATA
+ 0003:00000000 00000118H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:00000548       ??_C@_1BK@LHLEIFNE@?$AAN?$AAS?$AAI?$AAR?$AAp?$AAc?$AAS?$AAe?$AAr?$AAv?$AAe?$AAr?$AA?$AA@ 10001548     nsiclient.obj
+ 0001:00000564       ??_C@_1BA@EONDGCCM@?$AAn?$AAc?$AAa?$AAl?$AAr?$AAp?$AAc?$AA?$AA@ 10001564     nsiclient.obj
+ 0001:00000574       ??_C@_1BG@MBLCONLJ@?$AAw?$AAi?$AAn?$AAn?$AAs?$AAi?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10001574     init.obj
+ 0001:000005b0       RpcNsiRegisterChangeNotification 100015b0 f   nsi_c_stub.obj
+ 0001:000005f0       RpcNsiDeregisterChangeNotification 100015f0 f   nsi_c_stub.obj
+ 0001:0000062c       RpcNsiRequestChangeNotification 1000162c f   nsi_c_stub.obj
+ 0001:0000066c       PrepareRpcAsyncState       1000166c f   nsiclient.obj
+ 0001:000006c0       NsiWorkerThread            100016c0 f   nsiclient.obj
+ 0001:00000834       NsiRpcRegisterChangeNotificationEx 10001834 f   nsiclient.obj
+ 0001:00000cd4       NsiRpcRegisterChangeNotification 10001cd4 f   nsiclient.obj
+ 0001:00000d44       NsiRpcDeregisterChangeNotificationEx 10001d44 f   nsiclient.obj
+ 0001:00000fa4       NsiRpcDeregisterChangeNotification 10001fa4 f   nsiclient.obj
+ 0001:00000fe0       NsiConnectToServer         10001fe0 f   nsiclient.obj
+ 0001:0000106c       NsiDisconnectFromServer    1000206c f   nsiclient.obj
+ 0001:00001084       MIDL_user_allocate         10002084 f   midluser.obj
+ 0001:000010a4       MIDL_user_free             100020a4 f   midluser.obj
+ 0001:000010b4       NsiRemoveEventBlockFromList 100020b4 f i init.obj
+ 0001:00001120       NsiEventProcessThread      10002120 f   init.obj
+ 0001:00001344       NsiInitializeClientWorkerThread 10002344 f   init.obj
+ 0001:000013d4       NsiQueueWorkerEvent        100023d4 f   init.obj
+ 0001:000014a0       NsiRemoveWorkerEvent       100024a0 f   init.obj
+ 0001:00001574       InitializeNsiRpcClient     10002574 f   init.obj
+ 0001:00001610       CleanupNsiRpcClient        10002610 f   init.obj
+ 0001:000016a0       DllMain                    100026a0 f   init.obj
+ 0001:000016f4       EventModify                100026f4 f   coredll:COREDLL.dll
+ 0001:00001704       __GetUserKData             10002704 f   coredll:COREDLL.dll
+ 0001:00001714       GetLastError               10002714 f   coredll:COREDLL.dll
+ 0001:00001724       CreateEventW               10002724 f   coredll:COREDLL.dll
+ 0001:00001734       LeaveCriticalSection       10002734 f   coredll:COREDLL.dll
+ 0001:00001744       EnterCriticalSection       10002744 f   coredll:COREDLL.dll
+ 0001:00001754       WaitForSingleObject        10002754 f   coredll:COREDLL.dll
+ 0001:00001764       CloseHandle                10002764 f   coredll:COREDLL.dll
+ 0001:00001774       InterlockedIncrement       10002774 f   coredll:COREDLL.dll
+ 0001:00001784       LocalFree                  10002784 f   coredll:COREDLL.dll
+ 0001:00001794       LocalAlloc                 10002794 f   coredll:COREDLL.dll
+ 0001:000017a4       InterlockedDecrement       100027a4 f   coredll:COREDLL.dll
+ 0001:000017b4       InitializeCriticalSection  100027b4 f   coredll:COREDLL.dll
+ 0001:000017c4       FreeLibraryAndExitThread   100027c4 f   coredll:COREDLL.dll
+ 0001:000017d4       WaitForMultipleObjects     100027d4 f   coredll:COREDLL.dll
+ 0001:000017e4       FreeLibrary                100027e4 f   coredll:COREDLL.dll
+ 0001:000017f4       CreateThread               100027f4 f   coredll:COREDLL.dll
+ 0001:00001804       LoadLibraryW               10002804 f   coredll:COREDLL.dll
+ 0001:00001814       GetProcessHeap             10002814 f   coredll:COREDLL.dll
+ 0001:00001824       DeleteCriticalSection      10002824 f   coredll:COREDLL.dll
+ 0001:00001834       DisableThreadLibraryCalls  10002834 f   coredll:COREDLL.dll
+ 0001:00001844       NdrAsyncClientCall         10002844 f   rpcrt4:RPCRT4.dll
+ 0001:00001854       RpcAsyncInitializeHandle   10002854 f   rpcrt4:RPCRT4.dll
+ 0001:00001864       I_RpcExceptionFilter       10002864 f   rpcrt4:RPCRT4.dll
+ 0001:00001874       RpcAsyncCompleteCall       10002874 f   rpcrt4:RPCRT4.dll
+ 0001:00001884       RpcStringFreeW             10002884 f   rpcrt4:RPCRT4.dll
+ 0001:00001894       RpcBindingFromStringBindingW 10002894 f   rpcrt4:RPCRT4.dll
+ 0001:000018a4       RpcStringBindingComposeW   100028a4 f   rpcrt4:RPCRT4.dll
+ 0001:000018b4       RpcBindingFree             100028b4 f   rpcrt4:RPCRT4.dll
+ 0001:000019bc       _DllMainCRTStartup         100029bc f   corelib0:pegdmain.obj
+ 0001:00001ad0       _cexit                     10002ad0 f   corelib0:cexit.obj
+ 0001:00001ae0       _initterm                  10002ae0 f   corelib0:crt0dat.obj
+ 0001:00001b0c       _cinit                     10002b0c f   corelib0:crt0dat.obj
+ 0001:00001b6c       __security_init_cookie     10002b6c f   corelib0:seccinit.obj
+ 0001:00001bb8       __crt_ExitProcess          10002bb8 f   corelib0:exitproc_proxy.obj
+ 0001:00001bc4       __C_specific_handler       10002bc4 f   corelib1:COREDLL.dll
+ 0001:00001bd4       memset                     10002bd4 f   corelib1:COREDLL.dll
+ 0001:00001be4       _XcptFilter                10002be4 f   corelib1:COREDLL.dll
+ 0001:00001bf4       free                       10002bf4 f   corelib1:COREDLL.dll
+ 0001:00001c04       __security_gen_cookie2     10002c04 f   corelib1:COREDLL.dll
+ 0001:00001c14       InterlockedExchange        10002c14 f   coredll:COREDLL.dll
+ 0001:00001c24       TerminateProcess           10002c24 f   coredll:COREDLL.dll
+ 0001:00001ca4       __IMPORT_DESCRIPTOR_COREDLL 10002ca4     coredll:COREDLL.dll
+ 0001:00001cb8       __IMPORT_DESCRIPTOR_RPCRT4 10002cb8     rpcrt4:RPCRT4.dll
+ 0001:00001ccc       __NULL_IMPORT_DESCRIPTOR   10002ccc     coredll:COREDLL.dll
+ 0002:00000000       __imp_EventModify          10003000     coredll:COREDLL.dll
+ 0002:00000004       __imp___GetUserKData       10003004     coredll:COREDLL.dll
+ 0002:00000008       __imp_GetLastError         10003008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_CreateEventW         1000300c     coredll:COREDLL.dll
+ 0002:00000010       __imp_LeaveCriticalSection 10003010     coredll:COREDLL.dll
+ 0002:00000014       __imp_EnterCriticalSection 10003014     coredll:COREDLL.dll
+ 0002:00000018       __imp_WaitForSingleObject  10003018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_CloseHandle          1000301c     coredll:COREDLL.dll
+ 0002:00000020       __imp_InterlockedIncrement 10003020     coredll:COREDLL.dll
+ 0002:00000024       __imp_LocalFree            10003024     coredll:COREDLL.dll
+ 0002:00000028       __imp_LocalAlloc           10003028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_InterlockedDecrement 1000302c     coredll:COREDLL.dll
+ 0002:00000030       __imp_InitializeCriticalSection 10003030     coredll:COREDLL.dll
+ 0002:00000034       __imp_FreeLibraryAndExitThread 10003034     coredll:COREDLL.dll
+ 0002:00000038       __imp_WaitForMultipleObjects 10003038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_FreeLibrary          1000303c     coredll:COREDLL.dll
+ 0002:00000040       __imp_CreateThread         10003040     coredll:COREDLL.dll
+ 0002:00000044       __imp_LoadLibraryW         10003044     coredll:COREDLL.dll
+ 0002:00000048       __imp_GetProcessHeap       10003048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_DeleteCriticalSection 1000304c     coredll:COREDLL.dll
+ 0002:00000050       __imp_DisableThreadLibraryCalls 10003050     coredll:COREDLL.dll
+ 0002:00000054       __imp_TerminateProcess     10003054     coredll:COREDLL.dll
+ 0002:00000058       __imp_InterlockedExchange  10003058     coredll:COREDLL.dll
+ 0002:0000005c       __imp___security_gen_cookie2 1000305c     corelib1:COREDLL.dll
+ 0002:00000060       __imp_free                 10003060     corelib1:COREDLL.dll
+ 0002:00000064       __imp__XcptFilter          10003064     corelib1:COREDLL.dll
+ 0002:00000068       __imp_memset               10003068     corelib1:COREDLL.dll
+ 0002:0000006c       __imp___C_specific_handler 1000306c     corelib1:COREDLL.dll
+ 0002:00000070       \177COREDLL_NULL_THUNK_DATA 10003070     coredll:COREDLL.dll
+ 0002:00000074       __imp_RpcBindingFree       10003074     rpcrt4:RPCRT4.dll
+ 0002:00000078       __imp_RpcStringBindingComposeW 10003078     rpcrt4:RPCRT4.dll
+ 0002:0000007c       __imp_RpcBindingFromStringBindingW 1000307c     rpcrt4:RPCRT4.dll
+ 0002:00000080       __imp_RpcStringFreeW       10003080     rpcrt4:RPCRT4.dll
+ 0002:00000084       __imp_RpcAsyncCompleteCall 10003084     rpcrt4:RPCRT4.dll
+ 0002:00000088       __imp_RpcAsyncInitializeHandle 10003088     rpcrt4:RPCRT4.dll
+ 0002:0000008c       __imp_NdrAsyncClientCall   1000308c     rpcrt4:RPCRT4.dll
+ 0002:00000090       __imp_I_RpcExceptionFilter 10003090     rpcrt4:RPCRT4.dll
+ 0002:00000094       \177RPCRT4_NULL_THUNK_DATA 10003094     rpcrt4:RPCRT4.dll
+ 0002:000000ac       WINNSI_ClientIfHandle      100030ac     nsi_c_stub.obj
+ 0002:000000b0       __security_cookie          100030b0     corelib0:seccinit.obj
+ 0002:000000b4       __security_cookie_complement 100030b4     corelib0:seccinit.obj
+ 0002:000000c4       EchoNotificationRegistered 100030c4     nsiclient.obj
+ 0002:000000c8       Instance                   100030c8     init.obj
+ 0002:000000cc       g_fRunning                 100030cc     init.obj
+ 0002:000000d0       _exitflag                  100030d0     corelib0:cexit.obj
+ 0002:000000e0       NotificationListLock       100030e0     <common>
+ 0002:00000100       g_NsiEventCS               10003100     <common>
+ 0002:00000114       g_pEventBlockList          10003114     <common>
+ 0002:00000118       HeapHandle                 10003118     <common>
+ 0002:0000011c       g_hNotificationEvt         1000311c     <common>
+ 0002:00000120       NotificationListHead       10003120     <common>
+ 0002:00000128       g_cEventsWaiting           10003128     <common>
+ 0002:0000012c       __onexitend                1000312c     <common>
+ 0002:00000130       __onexitbegin              10003130     <common>
+ 0002:00000134       g_pcsExit                  10003134     <common>
+ 0002:00000138       _pRawDllMain               10003138     <common>
+
+ entry point at        0001:000019bc
+
+ Static symbols
+
+ 0001:000018cc       _DllMainCRTStartupHelper   100028cc f   corelib0:pegdmain.obj
+ 0001:000019e8       doexit                     100029e8 f   corelib0:cexit.obj

@@ -1,0 +1,203 @@
+;
+; Copyright (c) Microsoft Corporation.  All rights reserved.
+;
+;
+; Use of this sample source code is subject to the terms of the Microsoft
+; license agreement under which you licensed this sample source code. If
+; you did not accept the terms of the license agreement, you are not
+; authorized to use this sample source code. For the terms of the license,
+; please see the license agreement between you and Microsoft or, if applicable,
+; see the LICENSE.RTF on your install media or the root of your tools installation.
+; THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+;
+
+; ******************************************************************************
+; *                     MediaApps Registry Entries
+; ******************************************************************************
+
+
+
+; ******************************************************************************
+; *                     WMP_OCX 7.0 ENTRIES
+; ******************************************************************************
+; @CESYSGEN IF MEDIAAPPS_MODULES_WMPOCX
+; @CESYSGEN ENDIF
+
+
+; ******************************************************************************
+; *                     MEDIA LIBRARIES ENTRIES
+; ******************************************************************************
+; @CESYSGEN IF MEDIAAPPS_MODULES_MLIBDLL
+; @CESYSGEN ENDIF SYSGEN_MEDIAAPPS_MEDIALIBRARY
+;--------------------------------------------------------------
+
+; ---------------------------------------------------------------------------
+; Video Player helper/sample registry settings
+;----------------------------------------------------------------------------
+; @CESYSGEN IF MEDIAAPPS_MODULES_MVPLAYER || MEDIAAPPS_MODULES_SVPLAYER
+; @CESYSGEN ENDIF
+
+; ---------------------------------------------------------------------------
+; Music Player helper/sample registry settings
+;----------------------------------------------------------------------------
+; @CESYSGEN IF MEDIAAPPS_MODULES_MMPLAYER || MEDIAAPPS_MODULES_SMPLAYER
+; @CESYSGEN ENDIF
+
+; ---------------------------------------------------------------------------
+; Photo viewer helper/sample registry settings. TODO: add more types here.
+;----------------------------------------------------------------------------
+; @CESYSGEN IF MEDIAAPPS_MODULES_MPVIEWER || MEDIAAPPS_MODULES_SPVIEWER
+; @CESYSGEN ENDIF
+
+
+; ---------------------------------------------------------------------------
+; WIC CLSID registry entry.
+;----------------------------------------------------------------------------
+; @CESYSGEN IF MEDIAAPPS_MODULES_WINDOWSCODECS
+[HKEY_CLASSES_ROOT\CLSID\{cacaf262-9370-4615-a13b-9f5539da4c0a}]
+@="WIC Imaging Factory"
+
+[HKEY_CLASSES_ROOT\CLSID\{cacaf262-9370-4615-a13b-9f5539da4c0a}\InprocServer32]
+@="WindowsCodecs.dll"
+"ThreadingModel"="Both"
+
+; WIC Pixel Format Converters
+[HKEY_CLASSES_ROOT\CLSID\{FAE3D380-FEA4-4623-8C75-C6B61110B681}\Instance\{7835EAE8-BF14-49D1-93CE-533A407B2248}]
+"CLSID"="{7835EAE8-BF14-49D1-93CE-533A407B2248}"
+[HKEY_CLASSES_ROOT\CLSID\{FAE3D380-FEA4-4623-8C75-C6B61110B681}\Instance]
+"ColorTransformerCLSID"="{0E25DC18-9F5E-48B1-80B3-D124E81B773B}"
+
+[HKEY_CLASSES_ROOT\CLSID\{0E25DC18-9F5E-48B1-80B3-D124E81B773B}\InProcServer32]
+@="WindowsCodecsext.dll"
+"ThreadingModel"="Both"
+
+; Microsoft Default Pixel format converter
+[HKEY_CLASSES_ROOT\CLSID\{1A3F11DC-B514-4B17-8C5F-2154513852F1}\InProcServer32]
+@="WindowsCodecs.dll"
+"ThreadingModel"="Both"
+
+; Microsoft High Color Pixel Format Converter
+[HKEY_CLASSES_ROOT\CLSID\{AC75D454-9F37-48f8-B972-4E19BC856011}\InProcServer32]
+@="WindowsCodecs.dll"
+"ThreadingModel"="Both"
+
+; Microsoft N-Channel Pixel Format Converter
+[HKEY_CLASSES_ROOT\CLSID\{C17CABB2-D4A3-47D7-A557-339B2EFBD4F1}\InProcServer32]
+@="WindowsCodecsext.dll"
+"ThreadingModel"="Both"
+
+; Microsoft Windows Media Photo Pixel Format Converter
+[HKEY_CLASSES_ROOT\CLSID\{9CB5172B-D600-46BA-AB77-77BB7E3A00D9}\InProcServer32]
+@="WindowsCodecsext.dll"
+"ThreadingModel"="Both"
+
+; WIC Bitmap Decoders
+[HKEY_CLASSES_ROOT\CLSID\{FAE3D380-FEA4-4623-8C75-C6B61110B681}\Instance\{7ED96837-96F0-4812-B211-F13C24117ED3}]
+"CLSID"="{7ED96837-96F0-4812-B211-F13C24117ED3}"
+
+; WIC Bitmap Encoders
+[HKEY_CLASSES_ROOT\CLSID\{FAE3D380-FEA4-4623-8C75-C6B61110B681}\Instance\{AC757296-3522-4E11-9862-C17BE5A1767E}]
+"CLSID"="{AC757296-3522-4E11-9862-C17BE5A1767E}"
+
+; BMP Decoder
+[HKEY_CLASSES_ROOT\CLSID\{6B462062-7CBF-400D-9FDB-813DD10F2778}\InProcServer32]
+@="WindowsCodecs.dll"
+"ThreadingModel"="Both"
+
+; BMP Encoder
+[HKEY_CLASSES_ROOT\CLSID\{69BE8BB4-D66D-47C8-865A-ED1589433782}\InProcServer32]
+@="WindowsCodecs.dll"
+"ThreadingModel"="Both"
+
+; GIF Decoder
+[HKEY_CLASSES_ROOT\CLSID\{381DDA3C-9CE9-4834-A23E-1F98F8FC52BE}\InProcServer32]
+@="WindowsCodecs.dll"
+"ThreadingModel"="Both"
+
+; GIF Encoder
+[HKEY_CLASSES_ROOT\CLSID\{114F5598-0B22-40A0-86A1-C83EA495ADBD}\InProcServer32]
+@="WindowsCodecs.dll"
+"ThreadingModel"="Both"
+
+; ICO Decoder
+[HKEY_CLASSES_ROOT\CLSID\{C61BFCDF-2E0F-4AAD-A8D7-E06BAFEBCDFE}\InProcServer32]
+@="WindowsCodecs.dll"
+"ThreadingModel"="Both"
+
+; JPEG Decoder
+[HKEY_CLASSES_ROOT\CLSID\{9456A480-E88B-43EA-9E73-0B2D9B71B1CA}\InProcServer32]
+@="WindowsCodecs.dll"
+"ThreadingModel"="Both"
+
+; JPEG Encoder
+[HKEY_CLASSES_ROOT\CLSID\{1A34F5C1-4A5A-46DC-B644-1F4567E7A676}\InProcServer32]
+@="WindowsCodecs.dll"
+"ThreadingModel"="Both"
+
+; PNG Decoder
+[HKEY_CLASSES_ROOT\CLSID\{389EA17B-5078-4CDE-B6EF-25C15175C751}\InProcServer32]
+@="WindowsCodecs.dll"
+"ThreadingModel"="Both"
+
+; PNG Encoder
+[HKEY_CLASSES_ROOT\CLSID\{27949969-876A-41D7-9447-568F6A35A4DC}\InProcServer32]
+@="WindowsCodecs.dll"
+"ThreadingModel"="Both"
+
+; TIFF Decoder
+[HKEY_CLASSES_ROOT\CLSID\{B54E85D9-FE23-499F-8B88-6ACEA713752B}\InProcServer32]
+@="WindowsCodecs.dll"
+"ThreadingModel"="Both"
+
+; TIFF Encoder
+[HKEY_CLASSES_ROOT\CLSID\{0131BE10-2001-4C5F-A9B0-CC88FAB64CE8}\InProcServer32]
+@="WindowsCodecs.dll"
+"ThreadingModel"="Both"
+
+; @CESYSGEN ENDIF
+
+; ---------------------------------------------------------------------------
+; Register MediaRenderer
+; ---------------------------------------------------------------------------
+; @CESYSGEN IF MEDIAAPPS_MODULES_MEDIARENDERER
+; @CESYSGEN IF MEDIAAPPS_MODULES_MMPLAYER || MEDIAAPPS_MODULES_SMPLAYER || MEDIAAPPS_MODULES_MPVIEWER || MEDIAAPPS_MODULES_SPVIEWER || MEDIAAPPS_MODULES_MVPLAYER || MEDIAAPPS_MODULES_SVPLAYER
+; @CESYSGEN ELSE
+; @CESYSGEN ENDIF
+; @CESYSGEN IF  QUARTZ_MPGSPLIT
+; @CESYSGEN ENDIF
+; @CESYSGEN IF QUARTZ_MP2DEMUX
+; @CESYSGEN ENDIF
+; @CESYSGEN IF QUARTZ_WAVEMSR
+; @CESYSGEN ENDIF
+; @CESYSGEN IF MEDIAAPPS_MODULES_WINDOWSCODECS
+; @CESYSGEN ENDIF
+; @CESYSGEN IF QUARTZ_MP4DEMUX
+; @CESYSGEN ENDIF
+; @CESYSGEN ENDIF MEDIAAPPS_MODULES_MEDIARENDERER
+
+
+
+; @CESYSGEN IF MEDIAAPPS_MODULES_THUMBNAILSTORE
+; @CESYSGEN ENDIF MEDIAAPPS_MODULES_THUMBNAILSTORE
+
+
+
+; ------------------------------------------------------------------------------
+;   Media Transfer Protocol Configuration
+; ------------------------------------------------------------------------------
+
+
+; @CESYSGEN IF MEDIAAPPS_MODULES_MTPUSBFN
+; @CESYSGEN ENDIF MEDIAAPPS_MODULES_MTPUSBFN
+
+
+; @CESYSGEN IF MEDIAAPPS_MODULES_MTPIPSERVICE
+; @CESYSGEN ENDIF MEDIAAPPS_MODULES_MTPIPSERVICE
+
+
+; @CESYSGEN IF MEDIAAPPS_MODULES_MTPBTSERVICE
+; @CESYSGEN ENDIF MEDIAAPPS_MODULES_MTPBTSERVICE
+
+
+; @CESYSGEN IF MEDIAAPPS_MODULES_MTPSERVICE
+; @CESYSGEN ENDIF MEDIAAPPS_MODULES_MTPSERVICE

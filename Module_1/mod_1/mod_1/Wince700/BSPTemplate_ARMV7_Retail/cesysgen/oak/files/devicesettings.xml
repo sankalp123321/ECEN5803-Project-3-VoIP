@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright (c) Microsoft Corporation.  All rights reserved.
+-->
+<!--
+Use of this sample source code is subject to the terms of the Microsoft
+license agreement under which you licensed this sample source code. If
+you did not accept the terms of the license agreement, you are not
+authorized to use this sample source code. For the terms of the license,
+please see the license agreement between you and Microsoft or, if applicable,
+see the LICENSE.RTF on your install media or the root of your tools installation.
+THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+-->
+<DeviceSettings>
+    <DeviceInfo>
+        <StandardVersion>100</StandardVersion>
+        <VendorExtensionID>6</VendorExtensionID>
+        <VendorExtensionVersion>100</VendorExtensionVersion>
+        <VendorExtensionDesc>microsoft.com: 1.0; microsoft.com/DeviceServices:1.0; microsoft.com/WMPPD:11.0</VendorExtensionDesc>
+        <FunctionMode>0</FunctionMode>
+        <OperationsSupported>
+            <Base>0x1001</Base> <!--GETDEVICEINFO-->
+            <Base>0x1002</Base> <!--OPENSESSION-->
+            <Base>0x1003</Base> <!--CLOSESESSION-->
+            <Base>0x1004</Base> <!--GETSTORAGEIDS-->
+            <Base>0x1005</Base> <!--GETSTORAGEINFO-->
+            <Base>0x1006</Base> <!--GETNUMOBJECTS-->
+            <Base>0x1007</Base> <!--GETOBJECTHANDLES-->
+            <Base>0x1008</Base> <!--GETOBJECTINFO-->
+            <Base>0x1009</Base> <!--GETOBJECT-->
+            <Base>0x100B</Base> <!--DELETEOBJECT-->
+            <Base>0x100C</Base> <!--SENDOBJECTINFO-->
+            <Base>0x100D</Base> <!--SENDOBJECT-->
+            <Base>0x100F</Base> <!--FORMATSTORE-->
+            <Base>0x1014</Base> <!--GETDEVICEPROPDESC-->
+            <Base>0x1015</Base> <!--GETDEVICEPROPVALUE-->
+            <Base>0x1016</Base> <!--SETDEVICEPROPVALUE-->
+            <Base>0x1017</Base> <!--RESETDEVICEPROPVALUE-->
+            <Base>0x1019</Base> <!--MOVEOBJECT-->
+            <Base>0x9201</Base> <!--WMPREPORTADDEDDELETEDITEMS-->
+            <Base>0x9202</Base> <!--WMPREPORTACQUIREDITEMS-->
+            <Base>0x9301</Base> <!--GETSERVICEIDS-->
+            <Base>0x9302</Base> <!--GETSERVICEINFO-->
+            <Base>0x9303</Base> <!--GETSERVICECAPABILITIES-->
+            <Base>0x9304</Base> <!--GETSERVICEPROPERTIES-->
+            <Base>0x9305</Base> <!--GETSERVICEPROPERTYLIST-->
+            <Base>0x9306</Base> <!--SETSERVICEPROPERTYLIST-->
+            <Base>0x9307</Base> <!--UPDATEOBJECTPROPERTYLIST-->
+            <Base>0x9308</Base> <!--DELETEOBJECTPROPLIST -->
+            <Base>0x9309</Base> <!--DELETESERVICEPROPLIST -->
+            <Base>0x9801</Base> <!--GETOBJECTPROPSSUPPORTED-->
+            <Base>0x9802</Base> <!--GETOBJECTPROPDESC-->
+            <Base>0x9803</Base> <!--GETOBJECTPROPVALUE-->
+            <Base>0x9804</Base> <!--SETOBJECTPROPVALUE-->
+            <Base>0x9805</Base> <!--GETOBJECTPROPLIST-->
+            <Base>0x9806</Base> <!--SETOBJECTPROPLIST-->
+            <Base>0x9808</Base> <!--SENDOBJECTPROPLIST-->
+            <Base>0x9810</Base> <!--GETOBJECTREFERENCES-->
+            <Base>0x9811</Base> <!--SETOBJECTREFERENCES-->
+        </OperationsSupported>
+        <EventsSupported>
+            <Base> 0x4001</Base> <!--CANCELTRANSACTION-->
+            <Base> 0x4002</Base> <!--OBJECTADDED-->
+            <Base> 0x4003</Base> <!--OBJECTREMOVED-->
+            <Base> 0x4004</Base> <!--STOREADDED-->
+            <Base> 0x4005</Base> <!--STOREREMOVED-->
+            <Base> 0x4006</Base> <!--DEVICEPROPCHANGED-->
+            <Base> 0x4007</Base> <!--OBJECTINFOCHANGED-->
+            <Base> 0x4008</Base> <!--DEVICEINFOCHANGED-->
+            <Base> 0x4009</Base> <!--REQUESTOBJECTTRANSFER-->
+            <Base> 0x400A</Base> <!--STOREFULL-->
+            <Base> 0x400B</Base> <!--DEVICERESET-->
+            <Base> 0x400C</Base> <!--STORAGEINFOCHANGED-->
+            <Base> 0x400D</Base> <!--CAPTURECOMPLETE-->
+            <Base> 0xC301</Base> <!--SERVICEADDED-->
+            <Base> 0xC302</Base> <!--SERVICEREMOVED-->
+            <Base> 0xC303</Base> <!--SERVICEPROPCHANGED-->
+            <Base> 0xC304</Base> <!--METHODCOMPLETED-->
+            <Base> 0x400E</Base> <!--UNREPORTEDSTATUS-->
+            <Base> 0xC801</Base> <!--OBJECTPROPCHANGED-->
+            <Base> 0xC802</Base> <!--OBJECTPROPDESCCHANGED-->
+            <Base> 0xC803</Base> <!--OBJECTREFERENCESCHANGED-->
+        </EventsSupported>
+        <DevicePropertiesSupported>
+            <Base>0x5001</Base> <!--BATTERYLEVEL-->
+            <Base>0xD301</Base> <!--FUNCTIONID-->
+            <Base>0xD302</Base> <!--MODELID-->
+            <Base>0xD401</Base> <!--SYNCHRONIZATIONPARTNER-->
+            <Base>0xD402</Base> <!--DEVICEFRIENDLYNAME-->
+            <Base>0xD405</Base> <!--DEVICEICON-->
+        </DevicePropertiesSupported>
+        <CaptureFormats>
+        </CaptureFormats>
+        <PlaybackFormats>
+             <Value>0x3000</Value> <!--UNDEFINED-->
+             <Value>0x3001</Value> <!--ASSOCIATION-->
+             <!-- IMAGE FORMATS -->
+<!--
+@CESYSGEN IF IMAGING_IMG_JPEGDECODER
+@CESYSGEN ENDIF
+-->
+<!--
+@CESYSGEN IF IMAGING_IMG_BMP
+@CESYSGEN ENDIF
+-->
+<!--
+@CESYSGEN IF IMAGING_IMG_GIF
+@CESYSGEN ENDIF
+-->
+<!--
+@CESYSGEN IF IMAGING_IMG_PNG
+@CESYSGEN ENDIF
+-->
+<!--
+@CESYSGEN IF IMAGING_IMG_TIFF
+@CESYSGEN ENDIF
+-->
+             <!-- AUDIO FORMATS -->
+<!--
+@CESYSGEN IF QUARTZ_WAVEMSR
+@CESYSGEN ENDIF
+-->
+<!--
+@CESYSGEN IF QUARTZ_MP3FILTER || QUARTZ_IPPMP3FILTER
+@CESYSGEN ENDIF
+-->
+<!--
+@CESYSGEN IF DIRECTX_MODULES_WMADMOD
+@CESYSGEN ENDIF
+-->
+
+             <!-- VIDEO FORMATS -->
+<!--
+@CESYSGEN IF QUARTZ_AVIDEC
+@CESYSGEN ENDIF
+-->
+<!--
+@CESYSGEN IF QUARTZ_MPGVDEC
+@CESYSGEN ENDIF
+-->
+<!--
+@CESYSGEN IF DIRECTX_MODULES_WMVDMOD
+@CESYSGEN ENDIF
+-->
+<!--
+@CESYSGEN IF QUARTZ_MP4DEMUX
+@CESYSGEN ENDIF
+-->
+             <!-- PLAYLIST FORMATS -->
+             <Value>0xBA03</Value> <!--ABSTRACT AUDIO ALBUM-->
+             <Value>0xBA05</Value> <!--ABSTRACT AUDIO & VIDEO PLAYLIST-->
+        </PlaybackFormats>
+        <Manufacturer>@@IGNORE@@</Manufacturer>
+        <Model>@@IGNORE@@</Model>
+        <DeviceVersion>@@IGNORE@@</DeviceVersion>
+        <SerialNumber>@@IGNORE@@</SerialNumber>
+    </DeviceInfo>
+</DeviceSettings>

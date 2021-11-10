@@ -1,0 +1,335 @@
+
+
+
+
+
+LIBRARY     urlmon
+
+EXPORTS
+        DllRegisterServer           PRIVATE
+        DllUnregisterServer         PRIVATE
+        DllRegisterServerEx         PRIVATE
+        DllInstall                  PRIVATE
+
+        ; Standard Dll server/handler stuff
+        UrlMkBuildVersion
+        DllGetClassObject           PRIVATE
+        DllCanUnloadNow             PRIVATE
+
+        CreateURLMoniker
+        CreateURLMonikerEx
+        GetClassURL
+        MkParseDisplayNameEx
+        BindAsyncMoniker
+        RegisterBindStatusCallback
+        RevokeBindStatusCallback
+        CreateFormatEnumerator
+        RegisterFormatEnumerator
+        RevokeFormatEnumerator
+        RegisterMediaTypes
+        FindMediaType
+        RegisterMediaTypeClass
+        FindMediaTypeClass
+        CreateAsyncBindCtx
+        IsAsyncMoniker
+        GetClassFileOrMime
+        IsValidURL
+        UrlMkSetSessionOption
+        UrlMkGetSessionOption
+        CoGetClassObjectFromURL
+
+        CreateAsyncBindCtxEx
+        FindMimeFromData
+        ObtainUserAgentString
+        CompareSecurityIds
+
+        CoInternetCanonicalizeIUri
+        CoInternetGetSession
+        CoInternetParseUrl
+        CoInternetParseIUri
+        CoInternetCombineUrl
+        CoInternetCombineUrlEx
+        CoInternetCombineIUri
+        CoInternetCompareUrl
+        CoInternetGetSecurityUrl
+        CoInternetQueryInfo
+        CoInternetCreateSecurityManager
+        CoInternetCreateZoneManager
+        CoInternetGetProtocolFlags
+        CoInternetIsFeatureEnabled
+        CoInternetIsFeatureEnabledForUrl
+        CoInternetIsFeatureEnabledForIUri
+        CoInternetIsFeatureZoneElevationEnabled
+        CoInternetSetFeatureEnabled
+                
+        ; security zones private helper exposed for the IEAK.
+        ZonesReInit PRIVATE
+
+
+
+
+
+        
+        ; urlmon "easy" api
+        URLDownloadW
+        URLDownloadA
+        URLOpenPullStreamA
+        URLOpenPullStreamW
+        URLDownloadToFileA
+        URLDownloadToFileW
+        URLDownloadToCacheFileA
+        URLDownloadToCacheFileW
+        URLOpenBlockingStreamA
+        URLOpenBlockingStreamW
+        URLOpenStreamA
+        URLOpenStreamW
+        HlinkSimpleNavigateToString
+        HlinkSimpleNavigateToMoniker
+        HlinkGoBack
+        HlinkGoForward
+        HlinkNavigateString
+        HlinkNavigateMoniker
+
+
+
+
+
+
+        CompatFlagsFromClsid
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        CopyBindInfo
+        CopyStgMedium
+        ReleaseBindInfo
+
+        ; private export to help shdocvw mark saved web pages s.t.
+        ; the hack in the security mgr recognizes them as having been
+        ; saved from the Web.
+        GetMarkOfTheWeb                         PRIVATE
+
+        CreateUri
+        CreateUriWithFragment
+        CreateUriPriv
+        GetIUriPriv
+        GetPortFromUrlScheme
+        IsStringProperty
+        IsDWORDProperty
+        GetPropertyName
+        GetPropertyFromName
+        CoInternetGetSecurityUrlEx
+        CreateURLMonikerEx2
+
+        ; private export to help inetcpl to refresh advanced settings
+        CoInternetFeatureSettingsChanged        PRIVATE
+        
+
+
+
+
+
+        ; private export to help inetcpl do a better job of getting
+        ; the correct URL domain to display in the "Add to Trusted Sites"
+        ; dialog specifically for file:
+        GetAddSitesFileUrl                         PRIVATE
+
+        ; private export to help shdocvw show a warning dialog 
+        ; when executable content is blocked (Windows # 771532)
+        ShowTrustAlertDialog                         PRIVATE
+
+        ; private export for knowing the flags urlmon sends to wininet for encoding international hostnames
+        GetIDNFlagsForUri                           PRIVATE
+        
+        ShouldDisplayPunycodeForUri                 PRIVATE
+
+        ; private export to reset language specific cached objects
+        ; e.g. Uri Cache and Spoof-Processor
+        ; Called by inetcpl when IDN language settings are changed.
+        ResetUrlmonLanguageData                     PRIVATE
+
+        ZoneMappingToRegKey                     @100   NONAME   PRIVATE
+        
+        CoInternetIsExtensionsOff               @101   NONAME  PRIVATE 
+        CoInternetSetExtensionsOff              @102   NONAME  PRIVATE 
+        CoInternetExtensionAllowed              @103   NONAME  PRIVATE
+        CoInternetCreateExtension               @104   NONAME  PRIVATE
+        CoInternetExtensionCollectStats         @105   NONAME  PRIVATE
+        CoInternetExtensionNeedsApproval        @106   NONAME  PRIVATE 
+        CoInternetApproveExtension              @107   NONAME  PRIVATE
+        
+        ; function copied from shlwapi so urlmon and other IE binaries
+        ; can get it from a stable location (the shlwapi ordinal changed
+        ; from XP to W2K3)
+        IsInternetESCEnabled=IsInternetESCEnabledLocal @108   NONAME  PRIVATE
+
+        ; function exported for ieframe to get indirectly from shlwapi
+        SHRunIndirectRegClientCommand = shlwapi.#467 @109 NONAME PRIVATE
+
+
+
+
+
+
+
+
+
+
+
+
+        IsFileInSpecialDirs                     @113   NONAME  PRIVATE
+
+
+
+
+
+
+
+        ; Create an IUriBuilder
+        CreateIUriBuilder
+        ; Gets specified number of labels from a named host using dots as label delimiters
+        GetLabelsFromNamedHost
+
+    ; Returns whether the machine is on an intranet or not based on domain check and winsock NLA APIs
+    IsIntranetAvailable                         PRIVATE
+    ShouldShowIntranetWarningSecband            PRIVATE
+
+    ; Apply IRI Percent-encoded UTF-8 normalization rules to a string
+    IntlPercentEncodeNormalize                  PRIVATE
+
+    ; API for mime-handling associations
+    QueryAssociations                           PRIVATE
+    QueryClsidAssociation                       PRIVATE
+
+    ; Create an IUri From an MBCS. 
+        CreateUriFromMultiByteString
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ; Reset WarnOnIntranet Flag
+    ResetWarnOnIntranetFlag                     @324    NONAME  PRIVATE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    IsFileInCookieDir                           @397 NONAME PRIVATE

@@ -1,0 +1,758 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;
+; Copyright (c) Microsoft Corporation.  All rights reserved.
+;
+;
+; Use of this source code is subject to the terms of the Microsoft
+; premium shared source license agreement under which you licensed
+; this source code. If you did not accept the terms of the license
+; agreement, you are not authorized to use this source code.
+; For the terms of the license, please see the license agreement
+; signed by you and Microsoft.
+; THE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES.
+;
+
+
+LIBRARY         NDIS
+
+
+
+
+EXPORTS
+
+
+    ;
+    ; CE miscellaneous additions
+    ;
+    NdisFlushBuffer
+    NdisStallExecution
+    NdisInitializeListHead
+
+    ;
+    ; CE debug additions
+    ;
+    DbgPrint
+    DbgBreakPoint
+    NdisSetLoggingState
+    ;  RtlAssert
+
+    ;
+    ; CE specific extensions for adapter management
+    ;
+    NdisRegisterAdapter
+    NdisDeregisterAdapter
+    NdisBindProtocolsToAdapter
+    NdisUnbindProtocolsFromAdapter
+    NdisRebindProtocolsToAdapter
+    NdisMRebindProtocolsToAdapter
+    NdisPCIBusDeviceInit
+    NdisGetAdapterNames
+    NdisGetProtocolNames
+    NdisGetAdapterBindings
+    NdisGetLogData
+
+    ;
+    ; CE specific stream I/O driver interface functions
+    ;
+    NDS_Init
+    NDS_Deinit
+    NDS_Open
+    NDS_Close
+    NDS_Read
+    NDS_Write
+    NDS_Seek
+    NDS_IOControl
+
+    ;
+    ; NPagedLookAside support (CE only, Desktop maps directly to the ExxxxNPagedLookasideList)
+    ; 
+
+    NdisInitializeNPagedLookasideList
+    NdisDeleteNPagedLookasideList
+    NdisAllocateFromNPagedLookasideList
+    NdisFreeToNPagedLookasideList
+
+    ;
+    ; CE obsolete EthXxx exports
+    ;
+    EthCreateFilter
+    EthDeleteFilter
+    EthDeleteFilterOpenAdapter
+
+
+
+    ; EthShouldAddressLoopBack             ; this was never used on CE
+
+
+
+    EthQueryGlobalFilterAddresses
+    EthQueryOpenFilterAddresses
+    ; EthFilterIndicateReceive
+    ; EthFilterDprIndicateReceivePacket
+    ; EthFilterIndicateReceiveComplete
+
+    ;
+    ; Begin exports common to CE and desktop
+    ; (Desktop exports not supported by CE are commented out)
+    ;
+
+
+    EthFilterDprIndicateReceive
+    EthFilterDprIndicateReceiveComplete
+    
+    TrFilterDprIndicateReceive
+    TrFilterDprIndicateReceiveComplete
+
+    NdisAllocateBuffer
+    NdisAllocateBufferPool
+    NdisAdjustBufferLength
+    NdisBufferLength
+    NdisBufferVirtualAddress
+    NdisAllocateMemory
+    NdisAllocateMemoryWithTag
+    NdisAllocatePacket
+    NdisDprAllocatePacket=NdisAllocatePacket
+    NdisDprAllocatePacketNonInterlocked=NdisAllocatePacket
+    NdisFreePacket
+    NdisDprFreePacket=NdisFreePacket
+    NdisDprFreePacketNonInterlocked=NdisFreePacket
+    NdisAllocatePacketPool
+    NdisAllocatePacketPoolEx
+    NdisPacketPoolUsage
+    NdisPacketSize
+    NdisGetPoolFromPacket
+    NdisIMGetCurrentPacketStack
+    NdisSetPacketPoolProtocolId
+    NdisGetReceivedPacket
+    NdisCloseConfiguration
+    NdisCloseFile
+    NdisCopyBuffer
+    NdisCopyFromPacketToPacket
+
+
+
+    NdisQueryBindInstanceName
+
+    NdisFreeBufferPool
+    NdisFreePacketPool
+    NdisFreeMemory
+
+
+
+
+
+
+
+
+
+
+
+
+    NdisInitializeTimer
+    NdisInitializeWrapper
+    NdisMapFile
+    NdisOpenConfiguration
+    NdisOpenConfigurationKeyByName
+    NdisOpenConfigurationKeyByIndex
+    NdisOpenFile
+
+
+
+
+    NdisReadNetworkAddress
+    NdisInitializeString
+    NdisReadPciSlotInformation
+    NdisRegisterProtocol
+    NdisCancelTimer
+    NdisSetTimer
+    NdisSetTimerEx
+    NdisSetPeriodicTimer
+    NdisTerminateWrapper
+    NdisUnchainBufferAtFront
+    NdisUnchainBufferAtBack
+    NdisUnmapFile
+    NdisUpdateSharedMemory
+    NdisWriteErrorLogEntry
+    NdisWritePciSlotInformation
+
+    NdisOpenAdapter
+    NdisCloseAdapter
+    NdisCompleteBindAdapter
+    NdisCompleteUnbindAdapter
+    NdisOpenProtocolConfiguration
+    NdisSend
+    NdisSendPackets
+    NdisReturnPackets
+    NdisTransferData
+    NdisRequest
+    NdisAllocateOidRequest
+    NdisFreeOidRequest
+    NdisOidRequest
+    NdisRequestEx=NdisOidRequest
+    NdisCancelOidRequest
+    NdisAllocateCloneOidRequest
+    NdisFreeCloneOidRequest
+    NdisReset
+    NdisDeregisterProtocol
+    NdisGetDriverHandle
+    NdisReEnumerateProtocolBindings
+    NdisRegisterTdiCallBack
+
+
+
+    NdisQueryAdapterInstanceName
+    NdisCompletePnPEvent
+
+
+
+
+    NdisMAllocateMapRegisters
+
+
+
+    NdisMCancelTimer
+    NdisMSetPeriodicTimer
+    NdisMDeregisterIoPortRange
+    NdisMFreeMapRegisters
+    NdisMIndicateStatus
+    NdisMIndicateStatusComplete
+    NdisMIndicateStatusEx
+    NdisMInitializeTimer
+    NdisMSetTimer
+    NdisMSleep
+    NdisMQueryInformationComplete
+    NdisMRegisterIoPortRange
+    NdisMRegisterMiniport
+    NdisIMAssociateMiniport
+    NdisIMRegisterLayeredMiniport
+    NdisIMDeregisterLayeredMiniport
+
+
+
+
+    NdisMRegisterUnloadHandler
+    NdisIMInitializeDeviceInstance
+    NdisIMInitializeDeviceInstanceEx
+    NdisIMGetBindingContext
+    NdisIMGetDeviceContext
+    NdisIMDeInitializeDeviceInstance
+    NdisIMCancelInitializeDeviceInstance
+    NdisIMCopySendPerPacketInfo
+    NdisIMCopySendCompletePerPacketInfo
+    NdisIMQueueMiniportCallback
+    NdisIMSwitchToMiniport
+    NdisIMRevertBack
+    NdisMResetComplete
+    NdisMSendComplete
+    NdisMSendResourcesAvailable
+    NdisMSetAttributes
+    NdisMSetAttributesEx
+    NdisMPromoteMiniport
+    NdisMSetMiniportSecondary
+    NdisMRemoveMiniport
+    NdisMSetInformationComplete
+    NdisMTransferDataComplete
+    NdisMMapIoSpace
+    NdisMUnmapIoSpace
+    NdisMRegisterInterrupt
+    NdisMDeregisterInterrupt
+    NdisMSynchronizeWithInterrupt
+    NdisMAllocateSharedMemory
+
+
+
+    NdisMFreeSharedMemory
+
+
+
+
+
+
+
+    NdisMStartBufferPhysicalMapping
+    NdisMCompleteBufferPhysicalMapping
+    NdisMRegisterAdapterShutdownHandler
+    NdisMDeregisterAdapterShutdownHandler
+    NdisMPciAssignResources
+    NdisMQueryAdapterResources
+    NdisMCreateLog
+    NdisMCloseLog
+    NdisMFlushLog
+    NdisMWriteLogData
+    NdisMGetDeviceProperty
+    NdisMQueryAdapterInstanceName
+    NdisMNotifyPnPEvent
+    NdisIMNotifyPnPEvent
+
+
+
+    NdisMDeregisterMiniportDriver
+    NdisMRegisterMiniportDriver
+
+    NdisMWanSendComplete
+    NdisMWanIndicateReceive
+    NdisMWanIndicateReceiveComplete
+
+    NdisAllocateSpinLock
+    NdisFreeSpinLock
+    NdisAcquireSpinLock
+    NdisReleaseSpinLock
+    NdisDprAcquireSpinLock
+    NdisDprReleaseSpinLock
+    NdisInitializeReadWriteLock
+
+    NdisFreeReadWriteLock
+
+    NdisAcquireReadWriteLock
+    NdisReleaseReadWriteLock
+    NdisDprAcquireReadWriteLock
+    NdisDprReleaseReadWriteLock
+    NdisFreeBuffer
+    NdisQueryBuffer
+    NdisQueryBufferSafe
+    NdisQueryBufferOffset
+    NdisGetFirstBufferFromPacket
+    NdisGetFirstBufferFromPacketSafe
+    NDIS_BUFFER_TO_SPAN_PAGES
+    NdisGetBufferPhysicalArraySize
+
+    NdisAnsiStringToUnicodeString
+    NdisUpcaseUnicodeString
+    NdisUnicodeStringToAnsiString
+
+    NdisScheduleWorkItem
+    NdisSystemProcessorCount
+    NdisSystemActiveProcessorCount
+    NdisReadConfiguration
+    NdisWriteConfiguration
+    NdisGetCurrentProcessorCpuUsage
+    NdisGetCurrentProcessorCounts
+    NdisGetCurrentSystemTime
+    NdisQueryMapRegisterCount
+    NdisGetSystemUpTime
+
+
+
+
+    NdisInitializeEvent
+
+    NdisFreeEvent
+
+    NdisSetEvent
+    NdisResetEvent
+    NdisWaitEvent
+
+    NdisSetProtocolFilter
+
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    NdisInterlockedIncrement
+    NdisInterlockedDecrement
+    NdisInterlockedAddUlong
+    NdisInterlockedInsertHeadList
+    NdisInterlockedInsertTailList
+    NdisInterlockedRemoveHeadList
+
+    NdisEqualString
+    NdisInitAnsiString
+    NdisInitUnicodeString
+
+
+
+
+
+
+
+
+
+
+
+    NdisMatchPdoWithPacket
+
+    
+    
+    
+    
+
+
+
+
+    NdisCancelSendPackets
+    NdisQueryPendingIOCount
+    NdisGeneratePartialCancelId
+
+    NdisSetPacketCancelId
+    NdisGetPacketCancelId
+
+
+
+    NdisGetVersion
+    NdisSetPacketStatus
+
+    NdisQueryPacket
+
+    NdisMGetDmaAlignment
+
+    
+    
+    
+    NdisFRegisterFilterDriver
+    NdisFDeregisterFilterDriver
+    NdisFSetAttributes
+    NdisFRestartFilter
+    NdisFSendNetBufferLists
+    NdisFSendNetBufferListsComplete
+    NdisFIndicateReceiveNetBufferLists
+    NdisFReturnNetBufferLists
+    NdisFOidRequest
+    NdisFIndicateStatus
+    NdisFRestartComplete
+    NdisFPauseComplete
+    NdisEnumerateFilterModules
+    NdisFDevicePnPEventNotify
+    NdisFNetPnPEvent
+    NdisFCancelSendNetBufferLists
+    NdisFCancelOidRequest
+    NdisFOidRequestComplete
+
+    
+    
+    
+    NdisMOidRequestComplete
+    NdisOpenConfigurationEx
+    NdisAllocateGenericObject
+    NdisFreeGenericObject
+    NdisMQueueDpc
+    NdisMSetMiniportAttributes
+    NdisMSynchronizeWithInterruptEx
+    NdisMRegisterInterruptEx
+    NdisMDeregisterInterruptEx
+
+    
+    
+    
+    NdisAllocateNetBufferPool
+    NdisFreeNetBufferPool
+    NdisAllocateNetBuffer
+    NdisFreeNetBuffer
+    NdisAllocateNetBufferListPool
+    NdisFreeNetBufferListPool
+    NdisAllocateNetBufferList
+    NdisFreeNetBufferList
+    NdisRetreatNetBufferDataStart
+    NdisAdvanceNetBufferDataStart
+    NdisRetreatNetBufferListDataStart
+    NdisAdvanceNetBufferListDataStart
+    NdisAllocateNetBufferListContext
+    NdisFreeNetBufferListContext
+    NdisAllocateCloneNetBufferList
+    NdisFreeCloneNetBufferList
+    NdisAllocateFragmentNetBufferList
+    NdisFreeFragmentNetBufferList
+    NdisAllocateReassembledNetBufferList
+    NdisFreeReassembledNetBufferList
+    NdisAllocateNetBufferAndNetBufferList
+    NdisGetDataBuffer
+    NdisGetPoolFromNetBufferList
+    NdisGetPoolFromNetBuffer
+    NdisSendNetBufferLists
+    NdisMSendNetBufferListsComplete 
+    NdisReturnNetBufferLists
+    NdisCancelSendNetBufferLists
+    NdisAdjustNetBufferCurrentMdl
+    NdisGetNetBufferListProtocolId
+    NdisCopySendNetBufferListInfo
+    NdisCopyReceiveNetBufferListInfo
+    NdisQueryNetBufferPhysicalCount
+    NdisAllocateNetBufferMdlAndData
+    NdisAllocateMdl
+    NdisFreeMdl
+    NdisMIndicateReceiveNetBufferLists
+    NdisCopyFromNetBufferToNetBuffer
+    
+    
+    
+    
+    NdisMRegisterScatterGatherDma
+    NdisMDeregisterScatterGatherDma
+    NdisMAllocateNetBufferSGList
+    NdisMFreeNetBufferSGList
+
+
+
+
+
+    NdisGetDeviceReservedExtension
+
+    NdisAllocateIoWorkItem
+    NdisQueueIoWorkItem
+    NdisFreeIoWorkItem
+
+    
+    
+    
+    NdisInitiateOffload
+    NdisTerminateOffload
+    NdisUpdateOffload
+    NdisInvalidateOffload
+    NdisQueryOffloadState
+    NdisOffloadTcpSend
+    NdisOffloadTcpReceive
+    NdisOffloadTcpDisconnect
+    NdisOffloadTcpForward
+    NdisOffloadTcpReceiveReturn
+
+    
+    
+    
+    
+    NdisMInitiateOffloadComplete               PRIVATE
+    NdisMTerminateOffloadComplete              PRIVATE
+    NdisMUpdateOffloadComplete                 PRIVATE
+    NdisMInvalidateOffloadComplete             PRIVATE
+    NdisMQueryOffloadStateComplete             PRIVATE
+    NdisMOffloadEventIndicate                  PRIVATE
+    NdisMGetOffloadHandlers                    PRIVATE
+
+    NdisUnbindAdapter
+
+    NdisMGetBusData
+    NdisMSetBusData
+
+    NdisOpenAdapterEx
+    NdisCompleteBindAdapterEx
+    NdisCloseAdapterEx
+    NdisCompleteUnbindAdapterEx
+
+    NdisMPauseComplete
+    NdisMRestartComplete
+    NdisAllocateMdl
+    NdisAllocateMemoryWithTagPriority
+
+    NdisSetOptionalHandlers
+    NdisRegisterProtocolDriver
+    NdisDeregisterProtocolDriver
+
+    NdisIfRegisterProvider
+    NdisIfDeregisterProvider
+    NdisIfAllocateNetLuidIndex
+    NdisIfFreeNetLuidIndex
+    NdisIfRegisterInterface
+    NdisIfDeregisterInterface
+    NdisIfGetInterfaceIndexFromNetLuid
+    NdisIfGetNetLuidFromInterfaceIndex
+    NdisIfQueryBindingIfIndex
+    NdisIfAddIfStackEntry
+    NdisIfDeleteIfStackEntry
+
+
+
+
+
+
+
+    NdisGetSystemUpTimeEx
+    
+    NdisMAllocatePort
+    NdisMFreePort
+    NdisMNetPnPEvent
+    NdisCompleteNetPnPEvent
+
+    NdisGetSessionToCompartmentMappingEpochAndZero
+    NdisGetSessionCompartmentId
+    NdisSetSessionCompartmentId
+    NdisGetThreadObjectCompartmentId
+    NdisSetThreadObjectCompartmentId
+
+    
+    
+    
+    NdisMRequestDpc
+    NdisMGetMiniportInitAttributes
+    NdisGetPacketFromNetBufferList
+    NdisGetProcessorInformation
+    
+    ;
+    ; 1 entries
+    ;
+    NdisMDirectOidRequestComplete
+    NdisFDirectOidRequest
+    NdisFDirectOidRequestComplete
+    NdisDirectOidRequest
+    NdisFCancelDirectOidRequest    
+    NdisCancelDirectOidRequest
+    NdisMConfigMSIXTableEntry
+    
+    NetDmaRegisterProvider
+    NetDmaDeregisterProvider
+    NetDmaProviderStart
+    NetDmaProviderStop
+    NetDmaIsr
+    NetDmaInterruptDpc
+    NetDmaEnumerateDmaProviders
+    NetDmaRegisterClient
+    NetDmaDeregisterClient
+    NetDmaAllocateChannel
+    NetDmaFreeChannel
+    NetDmaIsDmaCopyComplete
+    NetDmaNullTransfer
+    NetDmaFlushPendingDescriptors
+    NetDmaChainCopyVirtualToVirtual
+    NetDmaSetMaxPendingDescriptors
+    NetDmaGetMaxPendingDescriptors
+    NetDmaPrefetchNextDescriptor
+    NetDmaChainCopyPhysicalToVirtual
+    NetDmaGetVersion
+    NetDmaPnPEventNotify
+

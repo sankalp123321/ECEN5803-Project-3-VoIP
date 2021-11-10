@@ -1,0 +1,83 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;
+; Copyright (c) Microsoft Corporation.  All rights reserved.
+;
+;
+; Use of this source code is subject to the terms of your Windows Mobile
+; Software Shared Source Premium Derivatives License Form or other
+; applicable Microsoft license agreement for the software. If you did not
+; accept the terms of such a license, you are not authorized to use this
+; source code.
+;
+LIBRARY syscsps
+
+EXPORTS
+        DllGetClassObject   PRIVATE
+        DllCanUnloadNow     PRIVATE
+
+        ; TODO: enable the following APIs once mailcomn and certprompt come in
+        ; StoreWizDetails     @7 NONAME
+        ; RootStorePrompt     @8
+        ; Cert_DisplayAddPromptWorker @9 NONAME

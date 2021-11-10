@@ -1,0 +1,196 @@
+ sms
+
+ Timestamp is 5ac6518a (Thu Apr 05 09:40:42 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCU                CODE
+ 0001:00000008 00000004H .CRT$XCZ                CODE
+ 0001:0000000c 00000004H .CRT$XIA                CODE
+ 0001:00000010 00000004H .CRT$XIZ                CODE
+ 0001:00000014 00000004H .CRT$XPA                CODE
+ 0001:00000018 00000004H .CRT$XPZ                CODE
+ 0001:0000001c 00000004H .CRT$XTA                CODE
+ 0001:00000020 00000004H .CRT$XTZ                CODE
+ 0001:00000030 00000114H .rdata                  CODE
+ 0001:00000144 00000020H .rdata$debug            CODE
+ 0001:00000164 000022f0H .text                   CODE
+ 0001:00002454 00000054H .text$yc                CODE
+ 0001:000024a8 00000038H .text$yd                CODE
+ 0001:000024e0 00000054H .xdata                  CODE
+ 0001:00002534 00000014H .idata$2                CODE
+ 0001:00002548 00000014H .idata$3                CODE
+ 0001:0000255c 0000008cH .idata$4                CODE
+ 0001:000025e8 0000000cH .idata$6                CODE
+ 0001:00002600 00000217H .edata                  CODE
+ 0002:00000000 0000008cH .idata$5                DATA
+ 0002:00000090 00000494H .data                   DATA
+ 0002:00000524 00000014H .bss                    DATA
+ 0003:00000000 000001f8H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000008       __xc_z                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_a                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xi_z                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_a                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xp_z                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_a                     1000101c     corelib0:crt0init.obj
+ 0001:00000020       __xt_z                     10001020     corelib0:crt0init.obj
+ 0001:0000004c       ??_C@_1M@CPJCAFJE@?$AAS?$AAM?$AAS?$AA1?$AA?3?$AA?$AA@ 1000104c     main.obj
+ 0001:00000058       ??_7?$GrowableThingCollection@UPerClientData@@@@6B@ 10001058     main.obj
+ 0001:000000a4       ??_C@_1DO@BJKOHDJH@?$AA?$CF?$AA0?$AA8?$AAx?$AA?$CF?$AA0?$AA8?$AAx?$AA?$CF?$AA0?$AA8?$AAx?$AA_?$AAS?$AAM?$AAS?$AA_?$AAE?$AAv?$AAe?$AAn?$AAt?$AA_?$AAR?$AAa?$AAd?$AAi?$AAo?$AA?$CF?$AAd?$AA?$AA@ 100010a4     main.obj
+ 0001:000000e8       ??_C@_1EK@EIMMJBH@?$AA?$CF?$AA0?$AA8?$AAx?$AA?$CF?$AA0?$AA8?$AAx?$AA?$CF?$AA0?$AA8?$AAx?$AA_?$AAS?$AAM?$AAS?$AA_?$AAS?$AAt?$AAa?$AAt?$AAu?$AAs?$AAE?$AAv?$AAe?$AAn?$AAt?$AA_?$AAR?$AAa?$AAd@ 100010e8     main.obj
+ 0001:00000134       ??_C@_1M@GDOFEOEF@?$AAR?$AAA?$AAD?$AAI?$AAO?$AA?$AA@ 10001134     toolbox:toolbox_i.obj
+ 0001:00000164       DllMain                    10001164 f   main.obj
+ 0001:000001e0       SmsSetMessageNotification  100011e0 f   main.obj
+ 0001:00000278       SmsClearMessageNotification 10001278 f   main.obj
+ 0001:00000330       SmsSendMessage             10001330 f   main.obj
+ 0001:00000540       SmsGetMessageSize          10001540 f   main.obj
+ 0001:000005fc       SmsReadMessage             100015fc f   main.obj
+ 0001:00000810       SmsGetMessageStatus        10001810 f   main.obj
+ 0001:000008dc       SmsGetSMSC                 100018dc f   main.obj
+ 0001:000009b8       SmsSetSMSC                 100019b8 f   main.obj
+ 0001:00000a74       SmsGetBroadcastMsgRanges   10001a74 f   main.obj
+ 0001:00000b38       SmsSetBroadcastMsgRanges   10001b38 f   main.obj
+ 0001:00000bec       SmsGetPhoneNumber          10001bec f   main.obj
+ 0001:00000cc0       SmsGetTime                 10001cc0 f   main.obj
+ 0001:00000d88       SmsGetProfile              10001d88 f   main.obj
+ 0001:00000e4c       SmsSetProfile              10001e4c f   main.obj
+ 0001:00000f10       SmsCalculateMessageFragments 10001f10 f   main.obj
+ 0001:00001054       ?tbSafeIntSAdd@@YAHHHPAH@Z 10002054 f i main.obj
+ 0001:00001098       ?AddThing@?$GrowableThingCollection@UPerClientData@@@@UAA_NUPerClientData@@@Z 10002098 f i main.obj
+ 0001:0000111c       ?InsertThing@?$GrowableThingCollection@UPerClientData@@@@UAA_NUPerClientData@@H@Z 1000211c f i main.obj
+ 0001:000011d4       ?RemoveThingAtIndex@?$GrowableThingCollection@UPerClientData@@@@UAA_NH@Z 100021d4 f i main.obj
+ 0001:00001258       ?RemoveThing@?$GrowableThingCollection@UPerClientData@@@@UAA_NUPerClientData@@@Z 10002258 f i main.obj
+ 0001:000012f0       ?RemoveAllThings@?$GrowableThingCollection@UPerClientData@@@@UAA_NXZ 100022f0 f i main.obj
+ 0001:00001338       ?SwapThingsAtIndices@?$GrowableThingCollection@UPerClientData@@@@UAA_NHH@Z 10002338 f i main.obj
+ 0001:000013d8       ?GetSize@?$GrowableThingCollection@UPerClientData@@@@UAAHXZ 100023d8 f i main.obj
+ 0001:000013fc       ?Lock@?$GrowableThingCollection@UPerClientData@@@@UAA_NXZ 100023fc f i main.obj
+ 0001:00001428       ?Unlock@?$GrowableThingCollection@UPerClientData@@@@UAA_NXZ 10002428 f i main.obj
+ 0001:0000146c       ?BlockModificationByOtherThreads@?$GrowableThingCollection@UPerClientData@@@@UAA_NXZ 1000246c f i main.obj
+ 0001:00001480       ?AllowModificationByOtherThreads@?$GrowableThingCollection@UPerClientData@@@@UAA_NXZ 10002480 f i main.obj
+ 0001:00001494       ?GetThingAtIndex@?$GrowableThingCollection@UPerClientData@@@@UAA?AUPerClientData@@H@Z 10002494 f i main.obj
+ 0001:000014ec       ?SetThingAtIndex@?$GrowableThingCollection@UPerClientData@@@@UAA_NUPerClientData@@H@Z 100024ec f i main.obj
+ 0001:00001544       ?GetThingIndex@?$GrowableThingCollection@UPerClientData@@@@UAAHUPerClientData@@@Z 10002544 f i main.obj
+ 0001:000015b4       ?GetFilteredThingIndex@?$GrowableThingCollection@UPerClientData@@@@UAAHP6A_NABUPerClientData@@PAX@ZQAX@Z 100025b4 f i main.obj
+ 0001:00001618       ?GetPointerToThingAtIndex@?$GrowableThingCollection@UPerClientData@@@@UAAPAUPerClientData@@H@Z 10002618 f i main.obj
+ 0001:00001664       ?GetPointerToThing@?$GrowableThingCollection@UPerClientData@@@@UAAPAUPerClientData@@U2@@Z 10002664 f i main.obj
+ 0001:000016d4       ?MakeRoomForAnotherThing@?$GrowableThingCollection@UPerClientData@@@@MAA_NXZ 100026d4 f i main.obj
+ 0001:00001768       ??_G?$GrowableThingCollection@UPerClientData@@@@UAAPAXI@Z 10002768 f i main.obj
+ 0001:00001768       ??_E?$GrowableThingCollection@UPerClientData@@@@UAAPAXI@Z 10002768 f i main.obj
+ 0001:00001868       SmsClose                   10002868 f   main.obj
+ 0001:000018fc       SmsOpenEx                  100028fc f   main.obj
+ 0001:00001b50       SmsOpen                    10002b50 f   main.obj
+ 0001:00001b7c       ?_tcsncpyz@@YAPAGQAGQBGI@Z 10002b7c f   toolbox:toolbox_i.obj
+ 0001:00001ba0       ?_sntprintfz@@YAHQAGIQBGZZ 10002ba0 f   toolbox:toolbox_i.obj
+ 0001:00001c04       ?MemoryReadable@@YA_NPBXI@Z 10002c04 f   toolbox:toolbox_i.obj
+ 0001:00001c34       ?MemoryWriteable@@YA_NPAXI@Z 10002c34 f   toolbox:toolbox_i.obj
+ 0001:00001c6c       ?_tcsReadable@@YA_NPBG@Z   10002c6c f   toolbox:toolbox_i.obj
+ 0001:00001ce0       __GetUserKData             10002ce0 f   coredll:COREDLL.dll
+ 0001:00001cf0       CloseHandle                10002cf0 f   coredll:COREDLL.dll
+ 0001:00001d00       CreateFileW                10002d00 f   coredll:COREDLL.dll
+ 0001:00001d10       DisableThreadLibraryCalls  10002d10 f   coredll:COREDLL.dll
+ 0001:00001d20       DeviceIoControl            10002d20 f   coredll:COREDLL.dll
+ 0001:00001d30       InitializeCriticalSection  10002d30 f   coredll:COREDLL.dll
+ 0001:00001d40       DeleteCriticalSection      10002d40 f   coredll:COREDLL.dll
+ 0001:00001d50       LocalFree                  10002d50 f   coredll:COREDLL.dll
+ 0001:00001d60       LeaveCriticalSection       10002d60 f   coredll:COREDLL.dll
+ 0001:00001d70       EnterCriticalSection       10002d70 f   coredll:COREDLL.dll
+ 0001:00001d80       LocalReAlloc               10002d80 f   coredll:COREDLL.dll
+ 0001:00001d90       LocalAlloc                 10002d90 f   coredll:COREDLL.dll
+ 0001:00001da0       CreateEventW               10002da0 f   coredll:COREDLL.dll
+ 0001:00001db0       GetTickCount               10002db0 f   coredll:COREDLL.dll
+ 0001:00001dc0       StringCchCopyW             10002dc0 f   coredll:COREDLL.dll
+ 0001:00001dd0       StringCchVPrintfW          10002dd0 f   coredll:COREDLL.dll
+ 0001:00001de0       StringCchLengthW           10002de0 f   coredll:COREDLL.dll
+ 0001:00001ee8       _DllMainCRTStartup         10002ee8 f   corelib0:pegdmain.obj
+ 0001:00001f14       __GSHandlerCheckCommon     10002f14 f   corelib0:gshandler.obj
+ 0001:00001f50       __GSHandlerCheck           10002f50 f   corelib0:gshandler.obj
+ 0001:00001f70       __security_init_cookie     10002f70 f   corelib0:seccinit.obj
+ 0001:00001fbc       __security_check_cookie    10002fbc f   corelib0:armsecgs.obj
+ 0001:00001fcc       __gsfailure                10002fcc     corelib0:armsecgs.obj
+ 0001:00002018       _onexit                    10003018 f   corelib0:onexit.obj
+ 0001:0000219c       atexit                     1000319c f   corelib0:onexit.obj
+ 0001:0000229c       _cexit                     1000329c f   corelib0:cexit.obj
+ 0001:000022ac       _initterm                  100032ac f   corelib0:crt0dat.obj
+ 0001:000022d8       _cinit                     100032d8 f   corelib0:crt0dat.obj
+ 0001:00002338       __crt_ExitProcess          10003338 f   corelib0:exitproc_proxy.obj
+ 0001:00002344       wcslen                     10003344 f   corelib1:COREDLL.dll
+ 0001:00002354       memcpy                     10003354 f   corelib1:COREDLL.dll
+ 0001:00002364       memset                     10003364 f   corelib1:COREDLL.dll
+ 0001:00002374       memmove                    10003374 f   corelib1:COREDLL.dll
+ 0001:00002384       memcmp                     10003384 f   corelib1:COREDLL.dll
+ 0001:00002394       ??3@YAXPAX@Z               10003394 f   corelib1:COREDLL.dll
+ 0001:000023a4       __C_specific_handler       100033a4 f   corelib1:COREDLL.dll
+ 0001:000023b4       _XcptFilter                100033b4 f   corelib1:COREDLL.dll
+ 0001:000023c4       __security_gen_cookie2     100033c4 f   corelib1:COREDLL.dll
+ 0001:000023d4       __report_gsfailure         100033d4 f   corelib1:COREDLL.dll
+ 0001:000023e4       free                       100033e4 f   corelib1:COREDLL.dll
+ 0001:000023f4       malloc                     100033f4 f   corelib1:COREDLL.dll
+ 0001:00002404       realloc                    10003404 f   corelib1:COREDLL.dll
+ 0001:00002414       _msize                     10003414 f   corelib1:COREDLL.dll
+ 0001:00002424       InterlockedCompareExchange 10003424 f   coredll:COREDLL.dll
+ 0001:00002434       InterlockedExchange        10003434 f   coredll:COREDLL.dll
+ 0001:00002444       TerminateProcess           10003444 f   coredll:COREDLL.dll
+ 0001:00002534       __IMPORT_DESCRIPTOR_COREDLL 10003534     coredll:COREDLL.dll
+ 0001:00002548       __NULL_IMPORT_DESCRIPTOR   10003548     coredll:COREDLL.dll
+ 0002:00000000       __imp___GetUserKData       10004000     coredll:COREDLL.dll
+ 0002:00000004       __imp_CloseHandle          10004004     coredll:COREDLL.dll
+ 0002:00000008       __imp_CreateFileW          10004008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_DisableThreadLibraryCalls 1000400c     coredll:COREDLL.dll
+ 0002:00000010       __imp_DeviceIoControl      10004010     coredll:COREDLL.dll
+ 0002:00000014       __imp_InitializeCriticalSection 10004014     coredll:COREDLL.dll
+ 0002:00000018       __imp_DeleteCriticalSection 10004018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_LocalFree            1000401c     coredll:COREDLL.dll
+ 0002:00000020       __imp_LeaveCriticalSection 10004020     coredll:COREDLL.dll
+ 0002:00000024       __imp_EnterCriticalSection 10004024     coredll:COREDLL.dll
+ 0002:00000028       __imp_LocalReAlloc         10004028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_LocalAlloc           1000402c     coredll:COREDLL.dll
+ 0002:00000030       __imp_CreateEventW         10004030     coredll:COREDLL.dll
+ 0002:00000034       __imp_GetTickCount         10004034     coredll:COREDLL.dll
+ 0002:00000038       __imp_StringCchCopyW       10004038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_StringCchVPrintfW    1000403c     coredll:COREDLL.dll
+ 0002:00000040       __imp_StringCchLengthW     10004040     coredll:COREDLL.dll
+ 0002:00000044       __imp_wcslen               10004044     corelib1:COREDLL.dll
+ 0002:00000048       __imp_memcpy               10004048     corelib1:COREDLL.dll
+ 0002:0000004c       __imp_memset               1000404c     corelib1:COREDLL.dll
+ 0002:00000050       __imp_memmove              10004050     corelib1:COREDLL.dll
+ 0002:00000054       __imp_memcmp               10004054     corelib1:COREDLL.dll
+ 0002:00000058       __imp_??3@YAXPAX@Z         10004058     corelib1:COREDLL.dll
+ 0002:0000005c       __imp___C_specific_handler 1000405c     corelib1:COREDLL.dll
+ 0002:00000060       __imp__XcptFilter          10004060     corelib1:COREDLL.dll
+ 0002:00000064       __imp___security_gen_cookie2 10004064     corelib1:COREDLL.dll
+ 0002:00000068       __imp___report_gsfailure   10004068     corelib1:COREDLL.dll
+ 0002:0000006c       __imp_free                 1000406c     corelib1:COREDLL.dll
+ 0002:00000070       __imp_malloc               10004070     corelib1:COREDLL.dll
+ 0002:00000074       __imp_realloc              10004074     corelib1:COREDLL.dll
+ 0002:00000078       __imp__msize               10004078     corelib1:COREDLL.dll
+ 0002:0000007c       __imp_InterlockedCompareExchange 1000407c     coredll:COREDLL.dll
+ 0002:00000080       __imp_InterlockedExchange  10004080     coredll:COREDLL.dll
+ 0002:00000084       __imp_TerminateProcess     10004084     coredll:COREDLL.dll
+ 0002:00000088       \177COREDLL_NULL_THUNK_DATA 10004088     coredll:COREDLL.dll
+ 0002:00000090       ?dpCurSettings@@3U_DBGPARAM@@A 10004090     main.obj
+ 0002:000004dc       ?g_gtcPerClientData@@3V?$GrowableThingCollection@UPerClientData@@@@A 100044dc     main.obj
+ 0002:0000051c       __security_cookie          1000451c     corelib0:seccinit.obj
+ 0002:00000520       __security_cookie_complement 10004520     corelib0:seccinit.obj
+ 0002:00000524       _exitflag                  10004524     corelib0:cexit.obj
+ 0002:00000528       __onexitend                10004528     <common>
+ 0002:0000052c       __onexitbegin              1000452c     <common>
+ 0002:00000530       g_pcsExit                  10004530     <common>
+ 0002:00000534       _pRawDllMain               10004534     <common>
+
+ entry point at        0001:00001ee8
+
+ Static symbols
+
+ 0001:000017b4       ?FreeResources@@YAXK@Z     100027b4 f   main.obj
+ 0001:00001df8       _DllMainCRTStartupHelper   10002df8 f   corelib0:pegdmain.obj
+ 0001:000021b4       doexit                     100031b4 f   corelib0:cexit.obj
+ 0001:00002454       ??__Eg_gtcPerClientData@@YAXXZ 10003454 f   main.obj
+ 0001:000024a8       ??__Fg_gtcPerClientData@@YAXXZ 100034a8 f   main.obj

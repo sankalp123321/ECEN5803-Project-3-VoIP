@@ -1,0 +1,181 @@
+ rra_stm
+
+ Timestamp is 5ac65cf8 (Thu Apr 05 10:29:28 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 000000e4H .rdata                  CODE
+ 0001:00000104 00000024H .rdata$debug            CODE
+ 0001:00000128 00002364H .text                   CODE
+ 0001:0000248c 00000018H .xdata                  CODE
+ 0001:000024a4 00000028H .idata$2                CODE
+ 0001:000024cc 00000014H .idata$3                CODE
+ 0001:000024e0 00000078H .idata$4                CODE
+ 0001:00002558 00000036H .idata$6                CODE
+ 0001:00002590 0000006aH .edata                  CODE
+ 0002:00000000 00000078H .idata$5                DATA
+ 0002:00000078 00000008H .data                   DATA
+ 0002:00000080 00000038H .bss                    DATA
+ 0003:00000000 000001a0H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:0000003c       ??_7CRRAClassFactory@@6B@  1000103c     dllrra.obj
+ 0001:00000050       CLSID_RRA_SLAVE            10001050     irepl.obj
+ 0001:00000060       IID_ICommServiceAdmin      10001060     irepl.obj
+ 0001:00000070       IID_IReplCmd               10001070     irepl.obj
+ 0001:00000080       IID_IReplServAdmin         10001080     irepl.obj
+ 0001:00000090       IID_IReplSink              10001090     irepl.obj
+ 0001:000000a0       ??_7CImpCommAdmin@@6B@     100010a0     rra.obj
+ 0001:000000b8       ??_7CImpIReplSink@@6B@     100010b8     rra.obj
+ 0001:000000d8       ??_7CRRA@@6B@              100010d8     rra.obj
+ 0001:000000e4       IID_IStream                100010e4     dcomuuid:dcomuuid.obj
+ 0001:000000f4       IID_IUnknown               100010f4     dcomuuid:dcomuuid.obj
+ 0001:00000128       DllMain                    10001128 f   dllrra.obj
+ 0001:00000140       DllCanUnloadNow            10001140 f   dllrra.obj
+ 0001:00000164       ?ObjectDestroyed@@YAXXZ    10001164 f   dllrra.obj
+ 0001:0000017c       ?QueryInterface@CRRAClassFactory@@UAAJABU_GUID@@PAPAX@Z 1000117c f   dllrra.obj
+ 0001:000001c4       ?AddRef@CRRAClassFactory@@UAAKXZ 100011c4 f   dllrra.obj
+ 0001:000001d8       ?LockServer@CRRAClassFactory@@UAAJH@Z 100011d8 f   dllrra.obj
+ 0001:000001fc       ?Release@CRRAClassFactory@@UAAKXZ 100011fc f   dllrra.obj
+ 0001:00000228       ?CreateInstance@CRRAClassFactory@@UAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10001228 f   dllrra.obj
+ 0001:000002e0       DllGetClassObject          100012e0 f   dllrra.obj
+ 0001:00000374       ?InterpretCPacket@@YAJPBDHPAHPAVCRRA@@@Z 10001374 f   irepl.obj
+ 0001:00000abc       ?NotifyObject@CImpIReplSink@@UAAJKKPAPAUIUnknown@@K@Z 10001abc f   irepl.obj
+ 0001:00000cb8       ?NotifyAck@CImpIReplSink@@UAAJKKKK@Z 10001cb8 f   irepl.obj
+ 0001:00000dc8       ?NotifyNACK@CImpIReplSink@@UAAJKKJK@Z 10001dc8 f   irepl.obj
+ 0001:00000ed8       ?NotifyLastObject@CImpIReplSink@@UAAJKK@Z 10001ed8 f   irepl.obj
+ 0001:00000ef4       ?NotifyLogs@CImpIReplSink@@UAAJKKKPAKK@Z 10001ef4 f   irepl.obj
+ 0001:00001028       ?Control@CImpCommAdmin@@UAAKK@Z 10002028 f   irepl.obj
+ 0001:00001060       ?SetOption@CImpCommAdmin@@UAAKK@Z 10002060 f   irepl.obj
+ 0001:000010f4       ?InitControl@@YAJPAVCRRA@@@Z 100020f4 f   irepl.obj
+ 0001:00001288       ?InitData@@YAJPAVCRRA@@@Z  10002288 f   irepl.obj
+ 0001:00001530       ?ServiceEntry@CImpCommAdmin@@UAAXPAUICommServiceStatus@@@Z 10002530 f   irepl.obj
+ 0001:00001820       ?QueryInterface@CImpCommAdmin@@UAAJABU_GUID@@PAPAX@Z 10002820 f i rra.obj
+ 0001:00001838       ?AddRef@CImpCommAdmin@@UAAKXZ 10002838 f i rra.obj
+ 0001:00001850       ?Release@CImpCommAdmin@@UAAKXZ 10002850 f i rra.obj
+ 0001:00001868       ?QueryInterface@CImpIReplSink@@UAAJABU_GUID@@PAPAX@Z 10002868 f i rra.obj
+ 0001:00001880       ?AddRef@CImpIReplSink@@UAAKXZ 10002880 f i rra.obj
+ 0001:00001898       ?Release@CImpIReplSink@@UAAKXZ 10002898 f i rra.obj
+ 0001:000018b0       ??0CRRA@@QAA@PAUIUnknown@@P6AXXZPAX@Z 100028b0 f   rra.obj
+ 0001:000019ac       ?closesockets@CRRA@@QAAXXZ 100029ac f   rra.obj
+ 0001:00001a00       ?QueryInterface@CRRA@@UAAJABU_GUID@@PAPAX@Z 10002a00 f   rra.obj
+ 0001:00001abc       ?AddRef@CRRA@@UAAKXZ       10002abc f   rra.obj
+ 0001:00001ac4       ?Abort@CRRA@@QAAJH@Z       10002ac4 f   rra.obj
+ 0001:00001b2c       ?cleanup@CRRA@@QAAXXZ      10002b2c f   rra.obj
+ 0001:00001c04       ??1CRRA@@QAA@XZ            10002c04 f   rra.obj
+ 0001:00001c58       ?SendCPacket@CRRA@@QAAJPBDH@Z 10002c58 f   rra.obj
+ 0001:00001cb4       ?SendDPacket@CRRA@@QAAJPBDH@Z 10002cb4 f   rra.obj
+ 0001:00001cfc       ?FInit@CRRA@@QAAHXZ        10002cfc f   rra.obj
+ 0001:00001d88       ?Release@CRRA@@UAAKXZ      10002d88 f   rra.obj
+ 0001:00001dc0       ?FlushCCache@CRRA@@QAAJXZ  10002dc0 f   rra.obj
+ 0001:00001df8       ?Flush@CRRA@@QAAJPAKK@Z    10002df8 f   rra.obj
+ 0001:00001f1c       recv                       10002f1c f   winsock:WINSOCK.dll
+ 0001:00001f2c       closesocket                10002f2c f   winsock:WINSOCK.dll
+ 0001:00001f3c       send                       10002f3c f   winsock:WINSOCK.dll
+ 0001:00001f4c       EventModify                10002f4c f   coredll:COREDLL.dll
+ 0001:00001f5c       GlobalMemoryStatus         10002f5c f   coredll:COREDLL.dll
+ 0001:00001f6c       SetThreadPriority          10002f6c f   coredll:COREDLL.dll
+ 0001:00001f7c       CloseHandle                10002f7c f   coredll:COREDLL.dll
+ 0001:00001f8c       WaitForSingleObject        10002f8c f   coredll:COREDLL.dll
+ 0001:00001f9c       CreateThread               10002f9c f   coredll:COREDLL.dll
+ 0001:00001fac       InitializeCriticalSection  10002fac f   coredll:COREDLL.dll
+ 0001:00001fbc       CreateEventW               10002fbc f   coredll:COREDLL.dll
+ 0001:00001fcc       LeaveCriticalSection       10002fcc f   coredll:COREDLL.dll
+ 0001:00001fdc       EnterCriticalSection       10002fdc f   coredll:COREDLL.dll
+ 0001:00001fec       InterlockedIncrement       10002fec f   coredll:COREDLL.dll
+ 0001:00001ffc       DeleteCriticalSection      10002ffc f   coredll:COREDLL.dll
+ 0001:0000200c       InterlockedDecrement       1000300c f   coredll:COREDLL.dll
+ 0001:00002114       _DllMainCRTStartup         10003114 f   corelib0:pegdmain.obj
+ 0001:00002140       __GSHandlerCheckCommon     10003140 f   corelib0:gshandler.obj
+ 0001:0000217c       __GSHandlerCheck           1000317c f   corelib0:gshandler.obj
+ 0001:0000219c       __security_init_cookie     1000319c f   corelib0:seccinit.obj
+ 0001:000021e8       __security_check_cookie    100031e8 f   corelib0:armsecgs.obj
+ 0001:000021f8       __gsfailure                100031f8     corelib0:armsecgs.obj
+ 0001:00002324       _cexit                     10003324 f   corelib0:cexit.obj
+ 0001:00002334       _initterm                  10003334 f   corelib0:crt0dat.obj
+ 0001:00002360       _cinit                     10003360 f   corelib0:crt0dat.obj
+ 0001:000023c0       __crt_ExitProcess          100033c0 f   corelib0:exitproc_proxy.obj
+ 0001:000023cc       memcmp                     100033cc f   corelib1:COREDLL.dll
+ 0001:000023dc       ??3@YAXPAX@Z               100033dc f   corelib1:COREDLL.dll
+ 0001:000023ec       ??2@YAPAXI@Z               100033ec f   corelib1:COREDLL.dll
+ 0001:000023fc       memcpy                     100033fc f   corelib1:COREDLL.dll
+ 0001:0000240c       memmove                    1000340c f   corelib1:COREDLL.dll
+ 0001:0000241c       _XcptFilter                1000341c f   corelib1:COREDLL.dll
+ 0001:0000242c       __C_specific_handler       1000342c f   corelib1:COREDLL.dll
+ 0001:0000243c       __security_gen_cookie2     1000343c f   corelib1:COREDLL.dll
+ 0001:0000244c       __report_gsfailure         1000344c f   corelib1:COREDLL.dll
+ 0001:0000245c       free                       1000345c f   corelib1:COREDLL.dll
+ 0001:0000246c       InterlockedExchange        1000346c f   coredll:COREDLL.dll
+ 0001:0000247c       TerminateProcess           1000347c f   coredll:COREDLL.dll
+ 0001:000024a4       __IMPORT_DESCRIPTOR_WINSOCK 100034a4     winsock:WINSOCK.dll
+ 0001:000024b8       __IMPORT_DESCRIPTOR_COREDLL 100034b8     coredll:COREDLL.dll
+ 0001:000024cc       __NULL_IMPORT_DESCRIPTOR   100034cc     winsock:WINSOCK.dll
+ 0002:00000000       __imp_TerminateProcess     10004000     coredll:COREDLL.dll
+ 0002:00000004       __imp_InterlockedExchange  10004004     coredll:COREDLL.dll
+ 0002:00000008       __imp_EventModify          10004008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_GlobalMemoryStatus   1000400c     coredll:COREDLL.dll
+ 0002:00000010       __imp_SetThreadPriority    10004010     coredll:COREDLL.dll
+ 0002:00000014       __imp_CloseHandle          10004014     coredll:COREDLL.dll
+ 0002:00000018       __imp_WaitForSingleObject  10004018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_CreateThread         1000401c     coredll:COREDLL.dll
+ 0002:00000020       __imp_InitializeCriticalSection 10004020     coredll:COREDLL.dll
+ 0002:00000024       __imp_CreateEventW         10004024     coredll:COREDLL.dll
+ 0002:00000028       __imp_LeaveCriticalSection 10004028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_EnterCriticalSection 1000402c     coredll:COREDLL.dll
+ 0002:00000030       __imp_InterlockedIncrement 10004030     coredll:COREDLL.dll
+ 0002:00000034       __imp_DeleteCriticalSection 10004034     coredll:COREDLL.dll
+ 0002:00000038       __imp_InterlockedDecrement 10004038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_memcmp               1000403c     corelib1:COREDLL.dll
+ 0002:00000040       __imp_??3@YAXPAX@Z         10004040     corelib1:COREDLL.dll
+ 0002:00000044       __imp_??2@YAPAXI@Z         10004044     corelib1:COREDLL.dll
+ 0002:00000048       __imp_memcpy               10004048     corelib1:COREDLL.dll
+ 0002:0000004c       __imp_memmove              1000404c     corelib1:COREDLL.dll
+ 0002:00000050       __imp__XcptFilter          10004050     corelib1:COREDLL.dll
+ 0002:00000054       __imp___C_specific_handler 10004054     corelib1:COREDLL.dll
+ 0002:00000058       __imp___security_gen_cookie2 10004058     corelib1:COREDLL.dll
+ 0002:0000005c       __imp___report_gsfailure   1000405c     corelib1:COREDLL.dll
+ 0002:00000060       __imp_free                 10004060     corelib1:COREDLL.dll
+ 0002:00000064       \177COREDLL_NULL_THUNK_DATA 10004064     coredll:COREDLL.dll
+ 0002:00000068       __imp_send                 10004068     winsock:WINSOCK.dll
+ 0002:0000006c       __imp_closesocket          1000406c     winsock:WINSOCK.dll
+ 0002:00000070       __imp_recv                 10004070     winsock:WINSOCK.dll
+ 0002:00000074       \177WINSOCK_NULL_THUNK_DATA 10004074     winsock:WINSOCK.dll
+ 0002:00000078       __security_cookie          10004078     corelib0:seccinit.obj
+ 0002:0000007c       __security_cookie_complement 1000407c     corelib0:seccinit.obj
+ 0002:00000080       ?g_cObj@@3KA               10004080     dllrra.obj
+ 0002:00000084       ?hgInst@@3PAUHINSTANCE__@@A 10004084     dllrra.obj
+ 0002:00000088       ?g_cLock@@3KA              10004088     dllrra.obj
+ 0002:00000090       ?CS@@3UCRITICAL_SECTION@@A 10004090     rra.obj
+ 0002:000000a4       _exitflag                  100040a4     corelib0:cexit.obj
+ 0002:000000a8       __onexitend                100040a8     <common>
+ 0002:000000ac       __onexitbegin              100040ac     <common>
+ 0002:000000b0       g_pcsExit                  100040b0     <common>
+ 0002:000000b4       _pRawDllMain               100040b4     <common>
+
+ entry point at        0001:00002114
+
+ Static symbols
+
+ 0001:0000106c       ?RecvCData@@YAHPADHPAVCRRA@@@Z 1000206c f   irepl.obj
+ 0001:00002024       _DllMainCRTStartupHelper   10003024 f   corelib0:pegdmain.obj
+ 0001:0000223c       doexit                     1000323c f   corelib0:cexit.obj

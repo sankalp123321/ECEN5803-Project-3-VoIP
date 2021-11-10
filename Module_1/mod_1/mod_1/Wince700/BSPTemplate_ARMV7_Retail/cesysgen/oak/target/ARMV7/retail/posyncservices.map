@@ -1,0 +1,635 @@
+ posyncservices
+
+ Timestamp is 5ac660a2 (Thu Apr 05 10:45:06 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000008H .CRT$XCL                CODE
+ 0001:0000000c 0000000cH .CRT$XCU                CODE
+ 0001:00000018 00000004H .CRT$XCZ                CODE
+ 0001:0000001c 00000004H .CRT$XIA                CODE
+ 0001:00000020 00000004H .CRT$XIZ                CODE
+ 0001:00000024 00000004H .CRT$XPA                CODE
+ 0001:00000028 00000004H .CRT$XPZ                CODE
+ 0001:0000002c 00000004H .CRT$XTA                CODE
+ 0001:00000030 00000004H .CRT$XTZ                CODE
+ 0001:00000040 00000aecH .rdata                  CODE
+ 0001:00000b2c 0000002bH .rdata$debug            CODE
+ 0001:00000b58 0000804cH .text                   CODE
+ 0001:00008ba4 000000b0H .text$yc                CODE
+ 0001:00008c54 00000094H .text$yd                CODE
+ 0001:00008ce8 0000007cH .xdata                  CODE
+ 0001:00008d64 00000004H ATL$__a                 CODE
+ 0001:00008d68 00000004H ATL$__m                 CODE
+ 0001:00008d6c 00000004H ATL$__z                 CODE
+ 0001:00008d70 0000003cH .idata$2                CODE
+ 0001:00008dac 00000014H .idata$3                CODE
+ 0001:00008dc0 000000c8H .idata$4                CODE
+ 0001:00008e88 0000008aH .idata$6                CODE
+ 0001:00008f20 000000a4H .edata                  CODE
+ 0002:00000000 000000c8H .idata$5                DATA
+ 0002:000000c8 00000038H .data                   DATA
+ 0002:00000100 00000164H .bss                    DATA
+ 0003:00000000 000009c0H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000018       __xc_z                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xi_a                     1000101c     corelib0:crt0init.obj
+ 0001:00000020       __xi_z                     10001020     corelib0:crt0init.obj
+ 0001:00000024       __xp_a                     10001024     corelib0:crt0init.obj
+ 0001:00000028       __xp_z                     10001028     corelib0:crt0init.obj
+ 0001:0000002c       __xt_a                     1000102c     corelib0:crt0init.obj
+ 0001:00000030       __xt_z                     10001030     corelib0:crt0init.obj
+ 0001:0000005c       _GUID_40b47a8f_c442_4f06_8304_aa1058edeea0 1000105c     dllmain.obj
+ 0001:0000006c       ??_C@_1CA@OOEGNFML@?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AAS?$AAe?$AAr?$AAv?$AAe?$AAr?$AAO?$AAn?$AA?$AA@ 1000106c     dllmain.obj
+ 0001:0000008c       ??_C@_1O@JDLOHAN@?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AA?$AA@ 1000108c     dllmain.obj
+ 0001:0000009c       ??_C@_1BC@GCKHIPE@?$AAN?$AAo?$AAR?$AAe?$AAm?$AAo?$AAv?$AAe?$AA?$AA@ 1000109c     dllmain.obj
+ 0001:000000b0       ??_C@_1BI@JFAIJMHL@?$AAF?$AAo?$AAr?$AAc?$AAe?$AAR?$AAe?$AAm?$AAo?$AAv?$AAe?$AA?$AA@ 100010b0     dllmain.obj
+ 0001:000000c8       ??_C@_17LLMMEOJD@?$AAV?$AAa?$AAl?$AA?$AA@ 100010c8     dllmain.obj
+ 0001:000000d0       ??_C@_13OPKGLAFF@?$AAB?$AA?$AA@ 100010d0     dllmain.obj
+ 0001:000000d4       ??_C@_13MKMNOPIJ@?$AAD?$AA?$AA@ 100010d4     dllmain.obj
+ 0001:000000d8       ??_C@_13LHMFKAAD@?$AAM?$AA?$AA@ 100010d8     dllmain.obj
+ 0001:000000dc       ??_C@_13HADIAKP@?$AAS?$AA?$AA@ 100010dc     dllmain.obj
+ 0001:00000100       ??_7CComClassFactory@ATL@@6B@ 10001100     dllmain.obj
+ 0001:00000118       ??_7?$CComClassFactorySingleton@VCPOSyncServices@@@ATL@@6B@ 10001118     dllmain.obj
+ 0001:00000130       ??_7?$CComContainedObject@VCPOSyncServices@@@ATL@@6B@ 10001130     dllmain.obj
+ 0001:00000170       ??_7?$CComObjectCached@VCPOSyncServices@@@ATL@@6B@ 10001170     dllmain.obj
+ 0001:000001b0       ?_entries@?1??_GetEntries@CPOSyncServices@@SAPBU_ATL_INTMAP_ENTRY@ATL@@XZ@4QBU34@B 100011b0     dllmain.obj
+ 0001:000001c8       _GUID_21e1b5a4_0010_437a_bfa7_9d1455238f39 100011c8     dllmain.obj
+ 0001:000001d8       ??_C@_1CO@FKNHKAMI@?$AAR?$AAe?$AAg?$AAi?$AAs?$AAt?$AAe?$AAr?$AAT?$AAy?$AAp?$AAe?$AAL?$AAi?$AAb?$AAF?$AAo?$AAr?$AAU?$AAs?$AAe?$AAr?$AA?$AA@ 100011d8     dllmain.obj
+ 0001:00000208       ??_C@_1BK@EDKOLFBJ@?$AAO?$AAL?$AAE?$AAA?$AAU?$AAT?$AA3?$AA2?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 10001208     dllmain.obj
+ 0001:00000224       _GUID_00000000_0000_0000_c000_000000000046 10001224     dllmain.obj
+ 0001:00000234       ??_C@_1BO@DIEAOMEK@?$AAp?$AAo?$AAs?$AAy?$AAn?$AAc?$AAs?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe?$AAs?$AA?$AA@ 10001234     dllmain.obj
+ 0001:00000254       ??_C@_1DM@DIFBLAJN@?$AAI?$AAn?$AAs?$AAi?$AAd?$AAe?$AA?5?$AAP?$AAO?$AAS?$AAy?$AAn?$AAc?$AAS?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe?$AAs?$AA?5?$AAD?$AAl?$AAl?$AAM?$AAa?$AAi?$AAn?$AA?$AA@ 10001254     dllmain.obj
+ 0001:00000290       ??_7?$CComObject@VCPOSyncServices@@@ATL@@6B@ 10001290     dllmain.obj
+ 0001:000002d0       ??_7?$CComAggObject@VCPOSyncServices@@@ATL@@6B@ 100012d0     dllmain.obj
+ 0001:000002e0       _GUID_00000146_0000_0000_c000_000000000046 100012e0     dllmain.obj
+ 0001:000002f0       ??_C@_11LOCGONAA@?$AA?$AA@ 100012f0     dllmain.obj
+ 0001:000002f4       ??_C@_1M@PPPPCDEP@?$AAA?$AAP?$AAP?$AAI?$AAD?$AA?$AA@ 100012f4     dllmain.obj
+ 0001:00000300       ??_7?$CComObjectNoLock@V?$CComClassFactorySingleton@VCPOSyncServices@@@ATL@@@ATL@@6B@ 10001300     dllmain.obj
+ 0001:00000318       ?_entries@?1??_GetEntries@CComClassFactory@ATL@@SAPBU_ATL_INTMAP_ENTRY@3@XZ@4QBU43@B 10001318     dllmain.obj
+ 0001:00000330       _GUID_00000001_0000_0000_c000_000000000046 10001330     dllmain.obj
+ 0001:00000340       ??_7CPOSyncServicesDLLModule@@6B@ 10001340     dllmain.obj
+ 0001:00000358       ??_7CPOInternalFactory@@6B@ 10001358     posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00000378       ??_7?$CComObject@V?$CPOEnumImpl@UIEnumPOSyncPartners@@@@@ATL@@6B@ 10001378     posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00000398       ?_entries@?1??_GetEntries@?$CPOEnumImpl@UIEnumPOSyncPartners@@@@SAPBU_ATL_INTMAP_ENTRY@ATL@@XZ@4QBU34@B 10001398     posyncserviceslib:podefaultinternalfactory.obj
+ 0001:000003b0       _GUID_d8706ae2_7ee3_443f_b85f_0309e3d8747f 100013b0     posyncserviceslib:podefaultinternalfactory.obj
+ 0001:000003c0       ??_7?$CComObject@V?$CPOEnumImpl@UIEnumPOItemMetadata@@@@@ATL@@6B@ 100013c0     posyncserviceslib:podefaultinternalfactory.obj
+ 0001:000003e0       ?_entries@?1??_GetEntries@?$CPOEnumImpl@UIEnumPOItemMetadata@@@@SAPBU_ATL_INTMAP_ENTRY@ATL@@XZ@4QBU34@B 100013e0     posyncserviceslib:podefaultinternalfactory.obj
+ 0001:000003f8       _GUID_03de8910_2b3a_4919_a7cb_398e6769b9f0 100013f8     posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00000408       ??_7?$CComObject@V?$CPOEnumImpl@UIEnumPOFolderMetadata@@@@@ATL@@6B@ 10001408     posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00000428       ?_entries@?1??_GetEntries@?$CPOEnumImpl@UIEnumPOFolderMetadata@@@@SAPBU_ATL_INTMAP_ENTRY@ATL@@XZ@4QBU34@B 10001428     posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00000440       _GUID_757b7146_7bcd_44f7_83bb_886d33b4d909 10001440     posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00000450       _GUID_3e8722b2_8cbf_42fc_a324_9362619e881c 10001450     posyncserviceslib:podefaultexternalfactory.obj
+ 0001:00000460       ??_7CPOExternalFactory@@6B@ 10001460     posyncserviceslib:podefaultexternalfactory.obj
+ 0001:0000046c       _GUID_528728d5_5d7c_4279_afe8_2b70bf35fcf2 1000146c     posyncserviceslib:podefaultexternalfactory.obj
+ 0001:0000047c       _GUID_9e3f6142_a5f9_492f_9dbb_955ac289276d 1000147c     posyncserviceslib:podefaultexternalfactory.obj
+ 0001:0000048c       ??_C@_1BC@GBJBKBFC@?$AAu?$AAn?$AAi?$AAs?$AAt?$AAo?$AAr?$AAe?$AA?$AA@ 1000148c     posyncserviceslib:podefaultexternalfactory.obj
+ 0001:000004a0       ??_C@_1CE@LJPOFNJP@?$AAM?$AAA?$AAP?$AAI?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AAC?$AAo?$AAn?$AAt?$AAe?$AAx?$AAt?$AA?$AA@ 100014a0     posyncserviceslib:podefaultexternalfactory.obj
+ 0001:000004c4       ??_C@_1O@BLFNKNHP@?$AAc?$AAe?$AAm?$AAa?$AAp?$AAi?$AA?$AA@ 100014c4     posyncserviceslib:podefaultexternalfactory.obj
+ 0001:000004d4       _GUID_a65ccaeb_6558_4656_ad3d_eccc00d00f0d 100014d4     posyncserviceslib:podefaultexternalfactory.obj
+ 0001:000004e4       _GUID_05058f23_20be_11d2_8f18_0000f87a4335 100014e4     posyncserviceslib:podefaultexternalfactory.obj
+ 0001:000004f4       ??_C@_1BM@DPMFOMGP@?$AAo?$AAi?$AAd?$AA?$HL?$AA?$CF?$AAx?$AA?3?$AA?$CF?$AAx?$AA?3?$AA?$CF?$AAx?$AA?$HN?$AA?$AA@ 100014f4     posyncserviceslib:posyncservices.obj
+ 0001:00000510       ??_C@_19BCIPOELD@?$AA?$CF?$AAc?$AA?$CF?$AAx?$AA?$AA@ 10001510     posyncserviceslib:posyncservicesutil.obj
+ 0001:0000053c       ??_C@_1BG@DGMPOCOO@?$AAS?$AAe?$AAn?$AAt?$AA?5?$AAI?$AAt?$AAe?$AAm?$AAs?$AA?$AA@ 1000153c     posyncserviceslib:posyncpartner.obj
+ 0001:00000554       ??_C@_1O@HPLIGHGO@?$AAD?$AAr?$AAa?$AAf?$AAt?$AAs?$AA?$AA@ 10001554     posyncserviceslib:posyncpartner.obj
+ 0001:00000564       ??_C@_1O@LPMFIEAD@?$AAO?$AAu?$AAt?$AAb?$AAo?$AAx?$AA?$AA@ 10001564     posyncserviceslib:posyncpartner.obj
+ 0001:00000574       ??_C@_1BM@FNHBIJLH@?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AAd?$AA?5?$AAI?$AAt?$AAe?$AAm?$AAs?$AA?$AA@ 10001574     posyncserviceslib:posyncpartner.obj
+ 0001:00000590       ??_C@_1BC@JGDGJPJM@?$AAC?$AAo?$AAn?$AAt?$AAa?$AAc?$AAt?$AAs?$AA?$AA@ 10001590     posyncserviceslib:posyncpartner.obj
+ 0001:000005a4       ??_C@_1M@CDCJBCAI@?$AAI?$AAn?$AAb?$AAo?$AAx?$AA?$AA@ 100015a4     posyncserviceslib:posyncpartner.obj
+ 0001:000005b0       ??_C@_1BC@NAAOKKNA@?$AAC?$AAa?$AAl?$AAe?$AAn?$AAd?$AAa?$AAr?$AA?$AA@ 100015b0     posyncserviceslib:posyncpartner.obj
+ 0001:000005c4       ??_C@_1M@LMBEFBDF@?$AAT?$AAa?$AAs?$AAk?$AAs?$AA?$AA@ 100015c4     posyncserviceslib:posyncpartner.obj
+ 0001:000005d0       ??_C@_1BC@LMKFHBDB@?$AAI?$AAP?$AAM?$AA?4?$AAR?$AAo?$AAo?$AAt?$AA?$AA@ 100015d0     posyncserviceslib:posyncpartner.obj
+ 0001:000005e8       ??_7?$CComObject@VCPOSyncPartner@@@ATL@@6B@ 100015e8     posyncserviceslib:posyncpartner.obj
+ 0001:00000654       ?_entries@?1??_GetEntries@CPOSyncPartner@@SAPBU_ATL_INTMAP_ENTRY@ATL@@XZ@4QBU34@B 10001654     posyncserviceslib:posyncpartner.obj
+ 0001:0000066c       _GUID_01d32bf7_62da_4e94_a9a6_a73cc22f8f7c 1000166c     posyncserviceslib:posyncpartner.obj
+ 0001:0000067c       ??_7IPOMetadataPrivate@@6B@ 1000167c     posyncserviceslib:poitemmetadata.obj
+ 0001:0000068c       _GUID_cd7c4535_4592_4243_9464_c99c8d64d3e3 1000168c     posyncserviceslib:poitemmetadata.obj
+ 0001:0000069c       _GUID_a86115e6_ddbf_4d49_9632_5ff63df76a31 1000169c     posyncserviceslib:poitemmetadata.obj
+ 0001:000006ac       ??_7?$CComObject@VCPOItemMetadata@@@ATL@@6BIPOItemMetadata@@@ 100016ac     posyncserviceslib:poitemmetadata.obj
+ 0001:000006e8       ??_7?$CComObject@VCPOItemMetadata@@@ATL@@6BIPOMetadataPrivate@@@ 100016e8     posyncserviceslib:poitemmetadata.obj
+ 0001:000006f8       ?_entries@?1??_GetEntries@CPOItemMetadata@@SAPBU_ATL_INTMAP_ENTRY@ATL@@XZ@4QBU34@B 100016f8     posyncserviceslib:poitemmetadata.obj
+ 0001:00000728       _GUID_edd49a70_1907_4417_ae3e_583447851bb6 10001728     posyncserviceslib:poitemmetadata.obj
+ 0001:00000738       _GUID_57f86452_f49d_4478_8bff_4a35d8e540c9 10001738     posyncserviceslib:poitemmetadata.obj
+ 0001:00000748       ??_7?$CComObject@VCPOFolderMetadata@@@ATL@@6BIPOFolderMetadata@@@ 10001748     posyncserviceslib:pofoldermetadata.obj
+ 0001:000007b4       ??_7?$CComObject@VCPOFolderMetadata@@@ATL@@6BIPOMetadataPrivate@@@ 100017b4     posyncserviceslib:pofoldermetadata.obj
+ 0001:000007c4       ?_entries@?1??_GetEntries@CPOFolderMetadata@@SAPBU_ATL_INTMAP_ENTRY@ATL@@XZ@4QBU34@B 100017c4     posyncserviceslib:pofoldermetadata.obj
+ 0001:000007f4       _GUID_1dad6e8e_2dd5_4b0b_bb79_aeb88ff6f288 100017f4     posyncserviceslib:pofoldermetadata.obj
+ 0001:00000804       _GUID_466740db_d9bb_4dea_8dfa_0211df31520b 10001804     posyncserviceslib:pochangefilter.obj
+ 0001:00000814       _GUID_5f5fd82d_4468_4c87_990a_cd216a7f14a8 10001814     posyncserviceslib:pochangefilter.obj
+ 0001:00000824       ??_7?$CComObject@VCPOChangeFilter@@@ATL@@6B@ 10001824     posyncserviceslib:pochangefilter.obj
+ 0001:00000838       ?_entries@?1??_GetEntries@CPOChangeFilter@@SAPBU_ATL_INTMAP_ENTRY@ATL@@XZ@4QBU34@B 10001838     posyncserviceslib:pochangefilter.obj
+ 0001:00000850       _GUID_f8a2d996_4176_466b_991f_0761d66ca7e1 10001850     posyncserviceslib:pochangefilter.obj
+ 0001:00000860       ??_7IPOChangeInfoPrivate@@6B@ 10001860     posyncserviceslib:pochangeinfo.obj
+ 0001:00000870       ??_7?$CComObject@VCPOChangeInfo@@@ATL@@6BIPOChangeInfo@@@ 10001870     posyncserviceslib:pochangeinfo.obj
+ 0001:00000894       ??_7?$CComObject@VCPOChangeInfo@@@ATL@@6BIPOChangeInfoPrivate@@@ 10001894     posyncserviceslib:pochangeinfo.obj
+ 0001:000008a4       ?_entries@?1??_GetEntries@CPOChangeInfo@@SAPBU_ATL_INTMAP_ENTRY@ATL@@XZ@4QBU34@B 100018a4     posyncserviceslib:pochangeinfo.obj
+ 0001:000008c8       LIBID_POSyncServicesLib    100018c8     posyncservicesuuid:posyncservices_i.obj
+ 0001:000008d8       CLSID_StdGlobalInterfaceTable 100018d8     dcomuuid:dcomuuid.obj
+ 0001:000008e8       IID_IUnknown               100018e8     dcomuuid:dcomuuid.obj
+ 0001:00000a04       ??_C@_1M@DFKENGJN@?$AA?$CF?$AAs?$AA?2?$AA?$CF?$AAs?$AA?$AA@ 10001a04     RetailLogUtils:RetailLogUtils.obj
+ 0001:00000a10       ??_C@_1BM@FIOBPDGN@?$AAR?$AAe?$AAt?$AAa?$AAi?$AAl?$AAL?$AAo?$AAg?$AAI?$AAn?$AAi?$AAt?$AA?$AA@ 10001a10     RetailLogUtils:RetailLogUtils.obj
+ 0001:00000a2c       ??_C@_1CA@LMKOGJND@?$AAR?$AAe?$AAt?$AAa?$AAi?$AAl?$AAL?$AAo?$AAg?$AAD?$AAe?$AAi?$AAn?$AAi?$AAt?$AA?$AA@ 10001a2c     RetailLogUtils:RetailLogUtils.obj
+ 0001:00000a4c       ??_C@_1CC@NAPDKAPI@?$AAR?$AAe?$AAt?$AAa?$AAi?$AAl?$AAL?$AAo?$AAg?$AAR?$AAe?$AAf?$AAr?$AAe?$AAs?$AAh?$AA?$AA@ 10001a4c     RetailLogUtils:RetailLogUtils.obj
+ 0001:00000a70       ??_C@_1BO@BPOPDOPP@?$AAR?$AAe?$AAt?$AAa?$AAi?$AAl?$AAL?$AAo?$AAg?$AAE?$AAn?$AAt?$AAe?$AAr?$AA?$AA@ 10001a70     RetailLogUtils:RetailLogUtils.obj
+ 0001:00000a90       ??_C@_1BM@PIAJCLEP@?$AAR?$AAe?$AAt?$AAa?$AAi?$AAl?$AAL?$AAo?$AAg?$AAE?$AAx?$AAi?$AAt?$AA?$AA@ 10001a90     RetailLogUtils:RetailLogUtils.obj
+ 0001:00000aac       ??_C@_1CC@CNCAJOCE@?$AAR?$AAe?$AAt?$AAa?$AAi?$AAl?$AAL?$AAo?$AAg?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AA?$AA@ 10001aac     RetailLogUtils:RetailLogUtils.obj
+ 0001:00000ad0       ??_C@_1BM@DPHKBOGP@?$AAR?$AAe?$AAt?$AAa?$AAi?$AAl?$AAL?$AAo?$AAg?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10001ad0     RetailLogUtils:RetailLogUtils.obj
+ 0001:00000aec       GUID_ATLVer30              10001aec     atls:atlbase.obj
+ 0001:00000afc       GUID_ATLVer70              10001afc     atls:atlbase.obj
+ 0001:00000b58       ?InlineIsEqualGUID@@YAHABU_GUID@@0@Z 10001b58 f i dllmain.obj
+ 0001:00000ba0       ?AtlThrowImpl@ATL@@YAXJ@Z  10001ba0 f i dllmain.obj
+ 0001:00000bcc       ?AtlCrtErrorCheck@ATL@@YAHH@Z 10001bcc f i dllmain.obj
+ 0001:00000c28       ?Init@CComCriticalSection@ATL@@QAAJXZ 10001c28 f i dllmain.obj
+ 0001:00000c80       ?AtlHresultFromLastError@ATL@@YAJXZ 10001c80 f i dllmain.obj
+ 0001:00000ca0       ?AtlCallTermFunc@ATL@@YAXPAU_ATL_MODULE70@1@@Z 10001ca0 f i dllmain.obj
+ 0001:00000cf8       ?ObjectMain@CComObjectRootBase@ATL@@SAX_N@Z 10001cf8 f i dllmain.obj
+ 0001:00000cfc       ?TraceMessage@@YAJKKPBGZZ  10001cfc f i dllmain.obj
+ 0001:00000d18       ?UpdateRegistry@CPOSyncServices@@SAJH@Z 10001d18 f i dllmain.obj
+ 0001:00000d20       GetInternalFactory         10001d20 f   dllmain.obj
+ 0001:00000d24       GetExternalFactory         10001d24 f   dllmain.obj
+ 0001:00000d28       ?GetObjectDescription@?$CComCoClass@VCPOSyncServices@@$1?CLSID_POSyncServices@@3U_GUID@@B@ATL@@SAPBGXZ 10001d28 f i dllmain.obj
+ 0001:00000d30       ??0CAtlModule@ATL@@QAA@XZ  10001d30 f i dllmain.obj
+ 0001:00000d98       ?Term@CAtlModule@ATL@@QAAXXZ 10001d98 f i dllmain.obj
+ 0001:00000df4       ?AtlLoadTypeLib@ATL@@YAJPAUHINSTANCE__@@PBGPAPAGPAPAUITypeLib@@@Z 10001df4 f i dllmain.obj
+ 0001:00000f38       ?CreateInstance@CComClassFactory@ATL@@UAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10001f38 f i dllmain.obj
+ 0001:00000fbc       ?LockServer@CComClassFactory@ATL@@UAAJH@Z 10001fbc f i dllmain.obj
+ 0001:00000ff8       ??_GCComClassFactory@ATL@@UAAPAXI@Z 10001ff8 f i dllmain.obj
+ 0001:00000ff8       ??_ECComClassFactory@ATL@@UAAPAXI@Z 10001ff8 f i dllmain.obj
+ 0001:00001038       DllCanUnloadNow            10002038 f   dllmain.obj
+ 0001:00001060       ?get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ 10002060 f i dllmain.obj
+ 0001:000010b4       ??0?$CAtlModuleT@VCPOSyncServicesDLLModule@@@ATL@@QAA@XZ 100020b4 f i dllmain.obj
+ 0001:000010f8       ??1?$CComClassFactorySingleton@VCPOSyncServices@@@ATL@@UAA@XZ 100020f8 f i dllmain.obj
+ 0001:0000114c       ??_G?$CComClassFactorySingleton@VCPOSyncServices@@@ATL@@UAAPAXI@Z 1000214c f i dllmain.obj
+ 0001:0000114c       ??_E?$CComClassFactorySingleton@VCPOSyncServices@@@ATL@@UAAPAXI@Z 1000214c f i dllmain.obj
+ 0001:00001170       ?AddRef@?$CComContainedObject@VCPOSyncServices@@@ATL@@UAAKXZ 10002170 f i dllmain.obj
+ 0001:0000118c       ?Release@?$CComContainedObject@VCPOSyncServices@@@ATL@@UAAKXZ 1000218c f i dllmain.obj
+ 0001:000011a8       ?QueryInterface@?$CComContainedObject@VCPOSyncServices@@@ATL@@UAAJABU_GUID@@PAPAX@Z 100021a8 f i dllmain.obj
+ 0001:000011c4       ?AtlInternalQueryInterface@ATL@@YAJPAXPBU_ATL_INTMAP_ENTRY@1@ABU_GUID@@PAPAX@Z 100021c4 f i dllmain.obj
+ 0001:000012f0       ?AddRef@?$CComObjectCached@VCPOSyncServices@@@ATL@@UAAKXZ 100022f0 f i dllmain.obj
+ 0001:00001324       ?Release@?$CComObjectCached@VCPOSyncServices@@@ATL@@UAAKXZ 10002324 f i dllmain.obj
+ 0001:00001384       ?QueryInterface@?$CComObjectCached@VCPOSyncServices@@@ATL@@UAAJABU_GUID@@PAPAX@Z 10002384 f i dllmain.obj
+ 0001:00001398       ??_G?$CComObjectCached@VCPOSyncServices@@@ATL@@UAAPAXI@Z 10002398 f i dllmain.obj
+ 0001:00001398       ??_E?$CComObjectCached@VCPOSyncServices@@@ATL@@UAAPAXI@Z 10002398 f i dllmain.obj
+ 0001:000013ec       ?AtlRegisterTypeLib@ATL@@YAJPAUHINSTANCE__@@PBG@Z 100023ec f i dllmain.obj
+ 0001:00001590       ?AtlComModuleRegisterServer@ATL@@YAJPAU_ATL_COM_MODULE70@1@HPBU_GUID@@@Z 10002590 f i dllmain.obj
+ 0001:0000163c       ?AtlComModuleGetClassObject@ATL@@YAJPAU_ATL_COM_MODULE70@1@ABU_GUID@@1PAPAX@Z 1000263c f i dllmain.obj
+ 0001:00001770       DllMain                    10002770 f   dllmain.obj
+ 0001:000017d4       ??0?$CAtlDllModuleT@VCPOSyncServicesDLLModule@@@ATL@@QAA@XZ 100027d4 f i dllmain.obj
+ 0001:00001824       ??1?$CAtlDllModuleT@VCPOSyncServicesDLLModule@@@ATL@@UAA@XZ 10002824 f i dllmain.obj
+ 0001:00001874       ??0?$CComObject@VCPOSyncServices@@@ATL@@QAA@PAX@Z 10002874 f i dllmain.obj
+ 0001:000018c8       ?AddRef@?$CComObject@VCPOSyncServices@@@ATL@@UAAKXZ 100028c8 f i dllmain.obj
+ 0001:000018d0       ?Release@?$CComObject@VCPOSyncServices@@@ATL@@UAAKXZ 100028d0 f i dllmain.obj
+ 0001:00001908       ??1?$CComObject@VCPOSyncServices@@@ATL@@UAA@XZ 10002908 f i dllmain.obj
+ 0001:00001958       ?QueryInterface@?$CComObject@VCPOSyncServices@@@ATL@@UAAJABU_GUID@@PAPAX@Z 10002958 f i dllmain.obj
+ 0001:0000196c       ??_G?$CComObject@VCPOSyncServices@@@ATL@@UAAPAXI@Z 1000296c f i dllmain.obj
+ 0001:0000196c       ??_E?$CComObject@VCPOSyncServices@@@ATL@@UAAPAXI@Z 1000296c f i dllmain.obj
+ 0001:00001990       ??0?$CComAggObject@VCPOSyncServices@@@ATL@@QAA@PAX@Z 10002990 f i dllmain.obj
+ 0001:000019fc       ??1?$CComAggObject@VCPOSyncServices@@@ATL@@UAA@XZ 100029fc f i dllmain.obj
+ 0001:00001a4c       ?AddRef@?$CComAggObject@VCPOSyncServices@@@ATL@@UAAKXZ 10002a4c f i dllmain.obj
+ 0001:00001a54       ?Release@?$CComAggObject@VCPOSyncServices@@@ATL@@UAAKXZ 10002a54 f i dllmain.obj
+ 0001:00001a8c       ?QueryInterface@?$CComAggObject@VCPOSyncServices@@@ATL@@UAAJABU_GUID@@PAPAX@Z 10002a8c f i dllmain.obj
+ 0001:00001b18       ??_E?$CComAggObject@VCPOSyncServices@@@ATL@@UAAPAXI@Z 10002b18 f i dllmain.obj
+ 0001:00001b18       ??_G?$CComAggObject@VCPOSyncServices@@@ATL@@UAAPAXI@Z 10002b18 f i dllmain.obj
+ 0001:00001b3c       ?CreateInstance@?$CComObjectCached@VCPOSyncServices@@@ATL@@SAJPAPAV12@@Z 10002b3c f i dllmain.obj
+ 0001:00001c04       ?GetLockCount@CAtlModule@ATL@@UAAJXZ 10002c04 f i dllmain.obj
+ 0001:00001c0c       ?GetGITPtr@CAtlModule@ATL@@UAAJPAPAUIGlobalInterfaceTable@@@Z 10002c0c f i dllmain.obj
+ 0001:00001c88       ?AddCommonRGSReplacements@?$CAtlModuleT@VCPOSyncServicesDLLModule@@@ATL@@UAAJPAUIRegistrarBase@@@Z 10002c88 f i dllmain.obj
+ 0001:00001cb0       ?Unlock@?$CAutoCleanupAtlDllModuleT@VCPOSyncServicesDLLModule@@@@UAAJXZ 10002cb0 f i dllmain.obj
+ 0001:00001cd4       ?Lock@?$CAutoCleanupAtlDllModuleT@VCPOSyncServicesDLLModule@@@@UAAJXZ 10002cd4 f i dllmain.obj
+ 0001:00001d00       DllUnregisterServer        10002d00 f   dllmain.obj
+ 0001:00001d38       ?AddRef@?$CComObjectNoLock@V?$CComClassFactorySingleton@VCPOSyncServices@@@ATL@@@ATL@@UAAKXZ 10002d38 f i dllmain.obj
+ 0001:00001d40       ?Release@?$CComObjectNoLock@V?$CComClassFactorySingleton@VCPOSyncServices@@@ATL@@@ATL@@UAAKXZ 10002d40 f i dllmain.obj
+ 0001:00001d78       ?QueryInterface@?$CComObjectNoLock@V?$CComClassFactorySingleton@VCPOSyncServices@@@ATL@@@ATL@@UAAJABU_GUID@@PAPAX@Z 10002d78 f i dllmain.obj
+ 0001:00001d8c       ??_G?$CComObjectNoLock@V?$CComClassFactorySingleton@VCPOSyncServices@@@ATL@@@ATL@@UAAPAXI@Z 10002d8c f i dllmain.obj
+ 0001:00001d8c       ??_E?$CComObjectNoLock@V?$CComClassFactorySingleton@VCPOSyncServices@@@ATL@@@ATL@@UAAPAXI@Z 10002d8c f i dllmain.obj
+ 0001:00001dcc       ?CreateInstance@?$CComClassFactorySingleton@VCPOSyncServices@@@ATL@@UAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10002dcc f i dllmain.obj
+ 0001:00001f08       ?CreateInstance@?$CComCreator@V?$CComObject@VCPOSyncServices@@@ATL@@@ATL@@SAJPAXABU_GUID@@PAPAX@Z 10002f08 f i dllmain.obj
+ 0001:00001fd4       ?CreateInstance@?$CComCreator@V?$CComAggObject@VCPOSyncServices@@@ATL@@@ATL@@SAJPAXABU_GUID@@PAPAX@Z 10002fd4 f i dllmain.obj
+ 0001:0000209c       ??_GCPOSyncServicesDLLModule@@UAAPAXI@Z 1000309c f i dllmain.obj
+ 0001:0000209c       ??_ECPOSyncServicesDLLModule@@UAAPAXI@Z 1000309c f i dllmain.obj
+ 0001:000020c0       DllGetClassObject          100030c0 f   dllmain.obj
+ 0001:000020d8       ?CreateInstance@?$CComCreator@V?$CComObjectNoLock@V?$CComClassFactorySingleton@VCPOSyncServices@@@ATL@@@ATL@@@ATL@@SAJPAXABU_GUID@@PAPAX@Z 100030d8 f i dllmain.obj
+ 0001:000021c0       ?CreateInstance@?$CComCreator2@V?$CComCreator@V?$CComObject@VCPOSyncServices@@@ATL@@@ATL@@V?$CComCreator@V?$CComAggObject@VCPOSyncServices@@@ATL@@@2@@ATL@@SAJPAXABU_GUID@@PAPAX@Z 100031c0 f i dllmain.obj
+ 0001:000021d0       ?DllRegisterServer@?$CAtlDllModuleT@VCPOSyncServicesDLLModule@@@ATL@@QAAJH@Z 100031d0 f i dllmain.obj
+ 0001:00002214       DllRegisterServer          10003214 f   dllmain.obj
+ 0001:00002224       ?CreateSyncPartner@CPOInternalFactory@@UAAJPAUIUSSyncPartner@@PAPAUIPOSyncPartner@@@Z 10003224 f   posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002230       ?CreateItemMetadata@CPOInternalFactory@@UAAJPAUIUSItemMetadata@@PAPAUIPOItemMetadata@@@Z 10003230 f   posyncserviceslib:podefaultinternalfactory.obj
+ 0001:0000223c       ?CreateFolderMetadata@CPOInternalFactory@@UAAJPAUIUSFolderMetadata@@PAPAUIPOFolderMetadata@@@Z 1000323c f   posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002248       ?CreateChangeFilter@CPOInternalFactory@@UAAJPAUIPOChangeFilter@@PAPAUIUSChangeFilter@@@Z 10003248 f   posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002254       ?CreateChangeInfo@CPOInternalFactory@@UAAJABUUSChangeInfo@@PAPAUIPOChangeInfo@@@Z 10003254 f   posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002260       ?AtlComPtrAssign@ATL@@YAPAUIUnknown@@PAPAU2@PAU2@@Z 10003260 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:000022ac       ?GetSingleton@CPOInternalFactory@@SAAAV1@XZ 100032ac f   posyncserviceslib:podefaultinternalfactory.obj
+ 0001:000022f0       ??1?$CPOEnumImpl@UIEnumPOSyncPartners@@@@QAA@XZ 100032f0 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002330       ??1?$CPOEnumImpl@UIEnumPOItemMetadata@@@@QAA@XZ 10003330 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002370       ??1?$CPOEnumImpl@UIEnumPOFolderMetadata@@@@QAA@XZ 10003370 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:000023b0       ??0?$CComObject@V?$CPOEnumImpl@UIEnumPOSyncPartners@@@@@ATL@@QAA@PAX@Z 100033b0 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002408       ??_9IPOInternalFactory@@$BM@AA 10003408 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002414       ??_9IPOInternalFactory@@$BA@AA 10003414 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002420       ?Skip@?$CPOEnumImpl@UIEnumPOSyncPartners@@@@UAAJK@Z 10003420 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002438       ?Reset@?$CPOEnumImpl@UIEnumPOSyncPartners@@@@UAAJXZ 10003438 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002450       ?AddRef@?$CComObject@V?$CPOEnumImpl@UIEnumPOSyncPartners@@@@@ATL@@UAAKXZ 10003450 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002458       ?Release@?$CComObject@V?$CPOEnumImpl@UIEnumPOSyncPartners@@@@@ATL@@UAAKXZ 10003458 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002490       ?Next@?$CPOEnumImpl@UIEnumPOSyncPartners@@@@UAAJKPAPAUIPOSyncPartner@@PAK@Z 10003490 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:000025d8       ?Clone@?$CPOEnumImpl@UIEnumPOSyncPartners@@@@UAAJPAPAUIEnumPOSyncPartners@@@Z 100035d8 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002650       ??1?$CComObject@V?$CPOEnumImpl@UIEnumPOSyncPartners@@@@@ATL@@UAA@XZ 10003650 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002690       ?QueryInterface@?$CComObject@V?$CPOEnumImpl@UIEnumPOSyncPartners@@@@@ATL@@UAAJABU_GUID@@PAPAX@Z 10003690 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:000026a4       ??_E?$CComObject@V?$CPOEnumImpl@UIEnumPOSyncPartners@@@@@ATL@@UAAPAXI@Z 100036a4 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:000026a4       ??_G?$CComObject@V?$CPOEnumImpl@UIEnumPOSyncPartners@@@@@ATL@@UAAPAXI@Z 100036a4 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:000026c8       ??0?$CComObject@V?$CPOEnumImpl@UIEnumPOItemMetadata@@@@@ATL@@QAA@PAX@Z 100036c8 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002720       ??_9IPOInternalFactory@@$BBA@AA 10003720 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:0000272c       ??_9IPOInternalFactory@@$B3AA 1000372c f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002738       ?Skip@?$CPOEnumImpl@UIEnumPOItemMetadata@@@@UAAJK@Z 10003738 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002750       ?Reset@?$CPOEnumImpl@UIEnumPOItemMetadata@@@@UAAJXZ 10003750 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002768       ?AddRef@?$CComObject@V?$CPOEnumImpl@UIEnumPOItemMetadata@@@@@ATL@@UAAKXZ 10003768 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002770       ?Release@?$CComObject@V?$CPOEnumImpl@UIEnumPOItemMetadata@@@@@ATL@@UAAKXZ 10003770 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:000027a8       ?Next@?$CPOEnumImpl@UIEnumPOItemMetadata@@@@UAAJKPAPAUIPOItemMetadata@@PAK@Z 100037a8 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:000028f0       ?Clone@?$CPOEnumImpl@UIEnumPOItemMetadata@@@@UAAJPAPAUIEnumPOItemMetadata@@@Z 100038f0 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002968       ??1?$CComObject@V?$CPOEnumImpl@UIEnumPOItemMetadata@@@@@ATL@@UAA@XZ 10003968 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:000029a8       ?QueryInterface@?$CComObject@V?$CPOEnumImpl@UIEnumPOItemMetadata@@@@@ATL@@UAAJABU_GUID@@PAPAX@Z 100039a8 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:000029bc       ??_E?$CComObject@V?$CPOEnumImpl@UIEnumPOItemMetadata@@@@@ATL@@UAAPAXI@Z 100039bc f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:000029bc       ??_G?$CComObject@V?$CPOEnumImpl@UIEnumPOItemMetadata@@@@@ATL@@UAAPAXI@Z 100039bc f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:000029e0       ??0?$CComObject@V?$CPOEnumImpl@UIEnumPOFolderMetadata@@@@@ATL@@QAA@PAX@Z 100039e0 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002a38       ??_9IPOInternalFactory@@$BBE@AA 10003a38 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002a44       ??_9IPOInternalFactory@@$B7AA 10003a44 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002a50       ?Skip@?$CPOEnumImpl@UIEnumPOFolderMetadata@@@@UAAJK@Z 10003a50 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002a68       ?Reset@?$CPOEnumImpl@UIEnumPOFolderMetadata@@@@UAAJXZ 10003a68 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002a80       ?AddRef@?$CComObject@V?$CPOEnumImpl@UIEnumPOFolderMetadata@@@@@ATL@@UAAKXZ 10003a80 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002a88       ?Release@?$CComObject@V?$CPOEnumImpl@UIEnumPOFolderMetadata@@@@@ATL@@UAAKXZ 10003a88 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002ac0       ?Next@?$CPOEnumImpl@UIEnumPOFolderMetadata@@@@UAAJKPAPAUIPOFolderMetadata@@PAK@Z 10003ac0 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002c08       ?Clone@?$CPOEnumImpl@UIEnumPOFolderMetadata@@@@UAAJPAPAUIEnumPOFolderMetadata@@@Z 10003c08 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002c80       ??1?$CComObject@V?$CPOEnumImpl@UIEnumPOFolderMetadata@@@@@ATL@@UAA@XZ 10003c80 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002cc0       ?QueryInterface@?$CComObject@V?$CPOEnumImpl@UIEnumPOFolderMetadata@@@@@ATL@@UAAJABU_GUID@@PAPAX@Z 10003cc0 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002cd4       ??_E?$CComObject@V?$CPOEnumImpl@UIEnumPOFolderMetadata@@@@@ATL@@UAAPAXI@Z 10003cd4 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002cd4       ??_G?$CComObject@V?$CPOEnumImpl@UIEnumPOFolderMetadata@@@@@ATL@@UAAPAXI@Z 10003cd4 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002cf8       ?CreateInstance@?$CComObject@V?$CPOEnumImpl@UIEnumPOSyncPartners@@@@@ATL@@SAJPAPAV12@@Z 10003cf8 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002d98       ?CreateInstance@?$CComObject@V?$CPOEnumImpl@UIEnumPOItemMetadata@@@@@ATL@@SAJPAPAV12@@Z 10003d98 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002e38       ?CreateInstance@?$CComObject@V?$CPOEnumImpl@UIEnumPOFolderMetadata@@@@@ATL@@SAJPAPAV12@@Z 10003e38 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002ed8       ?CreateInstance@?$CPOEnumImpl@UIEnumPOSyncPartners@@@@SAJPAUIEnumUSSyncPartner@@PAPAUIEnumPOSyncPartners@@@Z 10003ed8 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00002f78       ?CreateInstance@?$CPOEnumImpl@UIEnumPOItemMetadata@@@@SAJPAUIEnumUSItemMetadata@@PAPAUIEnumPOItemMetadata@@@Z 10003f78 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00003018       ?CreateInstance@?$CPOEnumImpl@UIEnumPOFolderMetadata@@@@SAJPAUIEnumUSFolderMetadata@@PAPAUIEnumPOFolderMetadata@@@Z 10004018 f i posyncserviceslib:podefaultinternalfactory.obj
+ 0001:000030b8       ?CreateSyncPartnerEnumerator@CPOInternalFactory@@UAAJPAUIEnumUSSyncPartner@@PAPAUIEnumPOSyncPartners@@@Z 100040b8 f   posyncserviceslib:podefaultinternalfactory.obj
+ 0001:000030c4       ?CreateItemMetadataEnumerator@CPOInternalFactory@@UAAJPAUIEnumUSItemMetadata@@PAPAUIEnumPOItemMetadata@@@Z 100040c4 f   posyncserviceslib:podefaultinternalfactory.obj
+ 0001:000030d0       ?CreateFolderMetadataEnumerator@CPOInternalFactory@@UAAJPAUIEnumUSFolderMetadata@@PAPAUIEnumPOFolderMetadata@@@Z 100040d0 f   posyncserviceslib:podefaultinternalfactory.obj
+ 0001:000030dc       ?GetSingleton@CPOExternalFactory@@SAAAV1@XZ 100040dc f   posyncserviceslib:podefaultexternalfactory.obj
+ 0001:0000310c       ?CreateStoreManager@CPOExternalFactory@@UAAJPAPAUIUSStoreManager@@@Z 1000410c f   posyncserviceslib:podefaultexternalfactory.obj
+ 0001:000031c8       ?CreateMAPIContext@CPOExternalFactory@@UAAJPAUIUSStoreManager@@PAPAUICEMAPIContext@@@Z 100041c8 f   posyncserviceslib:podefaultexternalfactory.obj
+ 0001:000032b8       ?CreateOutlookApp@CPOExternalFactory@@UAAJPAUIUSStoreManager@@PAPAUIPOutlookApp3@@@Z 100042b8 f   posyncserviceslib:podefaultexternalfactory.obj
+ 0001:00003378       ?IncrementBufferPointer@@YAJPAEKKPAPAEPAK@Z 10004378 f i posyncserviceslib:posyncservices.obj
+ 0001:000033e4       ?AlignBufferSize@@YAJKPAK@Z 100043e4 f i posyncserviceslib:posyncservices.obj
+ 0001:00003430       ?AlignBufferPointer@@YAJPAEKPAPAEPAK@Z 10004430 f i posyncserviceslib:posyncservices.obj
+ 0001:00003498       ?GetStoreIdFromObjectId@CPOSyncServices@@UAAJW4PO_IDTYPE@@KPBXPAK@Z 10004498 f   posyncserviceslib:posyncservices.obj
+ 0001:00003520       ?GetObjectIdFromStoreId@CPOSyncServices@@UAAJKW4PO_IDTYPE@@PAKPAX@Z 10004520 f   posyncserviceslib:posyncservices.obj
+ 0001:00003570       ?ConvertIdToString@CPOSyncServices@@UAAJW4PO_IDTYPE@@KPBXPAPAG@Z 10004570 f   posyncserviceslib:posyncservices.obj
+ 0001:0000365c       ?ConvertStringToId@CPOSyncServices@@UAAJPBGW4PO_IDTYPE@@PAKPAX@Z 1000465c f   posyncserviceslib:posyncservices.obj
+ 0001:000036d8       ?GetIDsFromNames@CPOSyncServices@@UAAJKKPBUPOPropNamed@@PAK@Z 100046d8 f   posyncserviceslib:posyncservices.obj
+ 0001:000037d4       ?CreateStore@CPOSyncServices@@UAAJPBGKPBU_CEPROPVAL@@PAK@Z 100047d4 f   posyncserviceslib:posyncservices.obj
+ 0001:00003948       ?FindStore@CPOSyncServices@@UAAJPBGPAK@Z 10004948 f   posyncserviceslib:posyncservices.obj
+ 0001:00003aec       ?DeleteStore@CPOSyncServices@@UAAJK@Z 10004aec f   posyncserviceslib:posyncservices.obj
+ 0001:00003bb8       ?GetSyncPartner@CPOSyncServices@@UAAJKABU_GUID@@PAPAUIPOSyncPartner@@@Z 10004bb8 f   posyncserviceslib:posyncservices.obj
+ 0001:00003cac       ?GetSyncPartners@CPOSyncServices@@UAAJKPAPAUIEnumPOSyncPartners@@@Z 10004cac f   posyncserviceslib:posyncservices.obj
+ 0001:00003d98       ?GetMAPIContext@CPOSyncServices@@CAJPAPAUICEMAPIContext@@@Z 10004d98 f   posyncserviceslib:posyncservices.obj
+ 0001:00003ef4       ?GetMAPISession@CPOSyncServices@@CAJPAPAUICEMAPISession@@@Z 10004ef4 f   posyncserviceslib:posyncservices.obj
+ 0001:00004034       ?CreateOutlookApp@CPOSyncServices@@CAJPAUHWND__@@PAPAUIPOutlookApp3@@@Z 10005034 f   posyncserviceslib:posyncservices.obj
+ 0001:00004100       ?TranslateUnitProp@CPOSyncServices@@CAJPAUIUSTypeManager@@KPBUPOTrackProp@@PAK@Z 10005100 f   posyncserviceslib:posyncservices.obj
+ 0001:0000420c       ?Logon@CPOSyncServices@@UAAJPAUHWND__@@W4PO_IDTYPE@@ABU_GUID@@PAPAUIUnknown@@@Z 1000520c f   posyncserviceslib:posyncservices.obj
+ 0001:000042bc       ?TranslateUnitSchema@CPOSyncServices@@CAJPAUIUSTypeManager@@KPBUPOTrackUnit@@PAUUSTrackUnit@@PAKPAPAE@Z 100052bc f   posyncserviceslib:posyncservices.obj
+ 0001:000043c0       ?TranslateTypeSchema@CPOSyncServices@@CAJPAUIUSTypeManager@@KPBUPOTrackType@@PAUUSTrackType@@PAKPAPAE@Z 100053c0 f   posyncserviceslib:posyncservices.obj
+ 0001:000044cc       ?TranslateSyncSchema@CPOSyncServices@@CAJPAUIUSTypeManager@@PBUPOTrackSchema@@PAPAUUSTrackSchema@@@Z 100054cc f   posyncserviceslib:posyncservices.obj
+ 0001:00004764       ?AddSyncPartner@CPOSyncServices@@UAAJKABU_GUID@@PBGPBUPOTrackSchema@@PAPAUIPOSyncPartner@@@Z 10005764 f   posyncserviceslib:posyncservices.obj
+ 0001:00004948       ?GlobalsUnloadLibraryCallback@@YAXKH@Z 10005948 f   posyncserviceslib:posyncservicesutil.obj
+ 0001:00004958       ?GetGlobalsLock@@YAAAVCComCriticalSection@ATL@@XZ 10005958 f   posyncserviceslib:posyncservicesutil.obj
+ 0001:0000496c       ?TranslateIdToAppId@@YAJABUUSOID@@W4PO_IDTYPE@@PAKPAE@Z 1000596c f   posyncserviceslib:posyncservicesutil.obj
+ 0001:00004ae0       ?MapNamedProps@@YAJPAUIUSTypeManager@@KPBUPOPropNamed@@PAK@Z 10005ae0 f   posyncserviceslib:posyncservicesutil.obj
+ 0001:00004c08       ?_Buynode@?$list@UGlobalCleanupInfo@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@UGlobalCleanupInfo@@@list_impl@2@PAU342@@Z 10005c08 f i posyncserviceslib:posyncservicesutil.obj
+ 0001:00004c54       ?erase@?$list@UGlobalCleanupInfo@@Vallocator@ce@@@ce@@QAA?AV?$iterator@UGlobalCleanupInfo@@@list_impl@2@V342@@Z 10005c54 f i posyncserviceslib:posyncservicesutil.obj
+ 0001:00004cb0       ?erase@?$list@UGlobalCleanupInfo@@Vallocator@ce@@@ce@@QAA?AV?$iterator@UGlobalCleanupInfo@@@list_impl@2@V342@0@Z 10005cb0 f i posyncserviceslib:posyncservicesutil.obj
+ 0001:00004d08       ??$insert@UGlobalCleanupInfo@@@?$list@UGlobalCleanupInfo@@Vallocator@ce@@@ce@@QAA?AV?$iterator@UGlobalCleanupInfo@@@list_impl@1@V231@ABUGlobalCleanupInfo@@@Z 10005d08 f i posyncserviceslib:posyncservicesutil.obj
+ 0001:00004d58       ?Cleanup@GlobalCleanup@@QAAXH@Z 10005d58 f i posyncserviceslib:posyncservicesutil.obj
+ 0001:00004dc8       ?GlobalsRegisterCallback@@YAXP6AXKH@ZK@Z 10005dc8 f   posyncserviceslib:posyncservicesutil.obj
+ 0001:00004e64       ?GlobalsRegisterObject@@YAXPAUIUnknown@@@Z 10005e64 f   posyncserviceslib:posyncservicesutil.obj
+ 0001:00004e74       ?GlobalsRegisterModule@@YAXPAUHINSTANCE__@@@Z 10005e74 f   posyncserviceslib:posyncservicesutil.obj
+ 0001:00004e84       ?GlobalsCleanup@@YAXH@Z    10005e84 f   posyncserviceslib:posyncservicesutil.obj
+ 0001:00004ef4       ?GetUSStoreManager@@YAJPAPAUIUSStoreManager@@@Z 10005ef4 f   posyncserviceslib:posyncservicesutil.obj
+ 0001:00004fe0       ?GetDeviceStoreId@@YAKXZ   10005fe0 f   posyncserviceslib:posyncservicesutil.obj
+ 0001:00005150       ?TranslateIdFromAppId@@YAJW4PO_IDTYPE@@KPBEPAUUSOID@@@Z 10006150 f   posyncserviceslib:posyncservicesutil.obj
+ 0001:0000524c       ?GetProps@CPOSyncPartner@@UAAJKPAKPAPAU_CEPROPVAL@@@Z 1000624c f   posyncserviceslib:posyncpartner.obj
+ 0001:00005264       ?SetProps@CPOSyncPartner@@UAAJKPBU_CEPROPVAL@@@Z 10006264 f   posyncserviceslib:posyncpartner.obj
+ 0001:0000527c       ?GetName@CPOSyncPartner@@UAAJPAPAG@Z 1000627c f   posyncserviceslib:posyncpartner.obj
+ 0001:00005294       ?GetGuid@CPOSyncPartner@@UAAJPAU_GUID@@@Z 10006294 f   posyncserviceslib:posyncpartner.obj
+ 0001:000052ac       ?GetStoreId@CPOSyncPartner@@UAAJW4PO_IDTYPE@@PAKPAE@Z 100062ac f   posyncserviceslib:posyncpartner.obj
+ 0001:00005314       ?EnableFolderForSync@CPOSyncPartner@@UAAJW4PO_IDTYPE@@KPBEH@Z 10006314 f   posyncserviceslib:posyncpartner.obj
+ 0001:00005384       ?IsFolderEnabledForSync@CPOSyncPartner@@UAAJW4PO_IDTYPE@@KPBEPAH@Z 10006384 f   posyncserviceslib:posyncpartner.obj
+ 0001:000053f4       ?GetNextChange@CPOSyncPartner@@UAAJPAPAUIPOChangeInfo@@@Z 100063f4 f   posyncserviceslib:posyncpartner.obj
+ 0001:00005474       ?GetChangeForObject@CPOSyncPartner@@UAAJW4PO_IDTYPE@@KPBEPAPAUIPOChangeInfo@@@Z 10006474 f   posyncserviceslib:posyncpartner.obj
+ 0001:00005534       ?SetExceptionOnChange@CPOSyncPartner@@UAAJW4PO_IDTYPE@@KPBE@Z 10006534 f   posyncserviceslib:posyncpartner.obj
+ 0001:000055a0       ?SetExceptionOnChangeUnits@CPOSyncPartner@@UAAJW4PO_IDTYPE@@KPBE_K@Z 100065a0 f   posyncserviceslib:posyncpartner.obj
+ 0001:00005614       ?ResetChangeEnumeration@CPOSyncPartner@@UAAJXZ 10006614 f   posyncserviceslib:posyncpartner.obj
+ 0001:0000562c       ?EndSyncSession@CPOSyncPartner@@UAAJW4PO_SYNCSESSION_OUTCOME@@PAPAUIUnknown@@@Z 1000662c f   posyncserviceslib:posyncpartner.obj
+ 0001:00005644       ?Delete@CPOSyncPartner@@UAAJXZ 10006644 f   posyncserviceslib:posyncpartner.obj
+ 0001:0000565c       ?GetIDsFromNames@CPOSyncPartner@@UAAJKPBUPOPropNamed@@PAK@Z 1000665c f   posyncserviceslib:posyncpartner.obj
+ 0001:00005784       ?GetSpecialFolderId@CPOSyncPartner@@UAAJW4PO_FOLDERTYPE@@W4PO_IDTYPE@@PAKPAE@Z 10006784 f   posyncserviceslib:posyncpartner.obj
+ 0001:00005be8       ?GetChangeCount@CPOSyncPartner@@UAAJW4PO_SCOPETYPE@@W4PO_IDTYPE@@KPBEPAUIPOChangeFilter@@PAK444@Z 10006be8 f   posyncserviceslib:posyncpartner.obj
+ 0001:00005cd4       ?HasChanges@CPOSyncPartner@@UAAJW4PO_SCOPETYPE@@W4PO_IDTYPE@@KPBEPAUIPOChangeFilter@@PAH@Z 10006cd4 f   posyncserviceslib:posyncpartner.obj
+ 0001:00005da8       ?StartSyncSession@CPOSyncPartner@@UAAJW4PO_SCOPETYPE@@W4PO_IDTYPE@@KPBEW4PO_CONFLICTPOLICY@@PAUIPOChangeFilter@@PAUIUnknown@@@Z 10006da8 f   posyncserviceslib:posyncpartner.obj
+ 0001:00005e84       ?GetRootFolder@CPOSyncPartner@@UAAJPAPAUIPOFolderMetadata@@@Z 10006e84 f   posyncserviceslib:posyncpartner.obj
+ 0001:00005f04       ?LookupFolderObjectId@CPOSyncPartner@@UAAJW4PO_IDTYPE@@KPBEPAPAUIPOFolderMetadata@@@Z 10006f04 f   posyncserviceslib:posyncpartner.obj
+ 0001:00005fe4       ?LookupFolderRemoteId@CPOSyncPartner@@UAAJPBGPAPAUIPOFolderMetadata@@@Z 10006fe4 f   posyncserviceslib:posyncpartner.obj
+ 0001:00006074       ?GetFolders@CPOSyncPartner@@UAAJPAPAUIEnumPOFolderMetadata@@@Z 10007074 f   posyncserviceslib:posyncpartner.obj
+ 0001:000060f4       ??1CPOSyncPartner@@QAA@XZ  100070f4 f i posyncserviceslib:posyncpartner.obj
+ 0001:00006134       ??0?$CComObject@VCPOSyncPartner@@@ATL@@QAA@PAX@Z 10007134 f i posyncserviceslib:posyncpartner.obj
+ 0001:0000618c       ?QueryInterface@?$CComObject@VCPOSyncPartner@@@ATL@@UAAJABU_GUID@@PAPAX@Z 1000718c f i posyncserviceslib:posyncpartner.obj
+ 0001:000061a0       ?AddRef@?$CComObject@VCPOSyncPartner@@@ATL@@UAAKXZ 100071a0 f i posyncserviceslib:posyncpartner.obj
+ 0001:000061a8       ?Release@?$CComObject@VCPOSyncPartner@@@ATL@@UAAKXZ 100071a8 f i posyncserviceslib:posyncpartner.obj
+ 0001:000061e0       ??1?$CComObject@VCPOSyncPartner@@@ATL@@UAA@XZ 100071e0 f i posyncserviceslib:posyncpartner.obj
+ 0001:00006220       ??_G?$CComObject@VCPOSyncPartner@@@ATL@@UAAPAXI@Z 10007220 f i posyncserviceslib:posyncpartner.obj
+ 0001:00006220       ??_E?$CComObject@VCPOSyncPartner@@@ATL@@UAAPAXI@Z 10007220 f i posyncserviceslib:posyncpartner.obj
+ 0001:00006244       ?CreateInstance@?$CComObject@VCPOSyncPartner@@@ATL@@SAJPAPAV12@@Z 10007244 f i posyncserviceslib:posyncpartner.obj
+ 0001:000062e4       ?CreateInstance@CPOSyncPartner@@SAJPAUIUSSyncPartner@@PAPAUIPOSyncPartner@@@Z 100072e4 f   posyncserviceslib:posyncpartner.obj
+ 0001:00006384       ?Delete@CPOItemMetadata@@UAAJXZ 10007384 f   posyncserviceslib:poitemmetadata.obj
+ 0001:0000639c       ??1CPOItemMetadata@@QAA@XZ 1000739c f i posyncserviceslib:poitemmetadata.obj
+ 0001:000063dc       ?GetInnerMetadata@?$CPOMetadataImpl@UIUSItemMetadata@@UIPOItemMetadata@@@@UAAJABU_GUID@@PAPAUIUnknown@@@Z 100073dc f i posyncserviceslib:poitemmetadata.obj
+ 0001:000063f4       ?GetProps@?$CPOMetadataImpl@UIUSItemMetadata@@UIPOItemMetadata@@@@UAAJKPAKPAPAU_CEPROPVAL@@@Z 100073f4 f i posyncserviceslib:poitemmetadata.obj
+ 0001:0000640c       ?SetProps@?$CPOMetadataImpl@UIUSItemMetadata@@UIPOItemMetadata@@@@UAAJKPBU_CEPROPVAL@@@Z 1000740c f i posyncserviceslib:poitemmetadata.obj
+ 0001:00006424       ?GetRemoteId@?$CPOMetadataImpl@UIUSItemMetadata@@UIPOItemMetadata@@@@UAAJPAPAG@Z 10007424 f i posyncserviceslib:poitemmetadata.obj
+ 0001:0000643c       ?SetRemoteId@?$CPOMetadataImpl@UIUSItemMetadata@@UIPOItemMetadata@@@@UAAJPBG@Z 1000743c f i posyncserviceslib:poitemmetadata.obj
+ 0001:00006454       ?GetDataType@?$CPOMetadataImpl@UIUSItemMetadata@@UIPOItemMetadata@@@@UAAJPAW4PO_DATATYPE@@@Z 10007454 f i posyncserviceslib:poitemmetadata.obj
+ 0001:000064e4       ?GetObjectId@?$CPOMetadataImpl@UIUSItemMetadata@@UIPOItemMetadata@@@@UAAJW4PO_IDTYPE@@PAKPAE@Z 100074e4 f i posyncserviceslib:poitemmetadata.obj
+ 0001:00006540       ?GetIDsFromNames@?$CPOMetadataImpl@UIUSItemMetadata@@UIPOItemMetadata@@@@UAAJKPBUPOPropNamed@@PAK@Z 10007540 f i posyncserviceslib:poitemmetadata.obj
+ 0001:000065b4       ?GetPartner@?$CPOMetadataImpl@UIUSItemMetadata@@UIPOItemMetadata@@@@UAAJPAPAUIPOSyncPartner@@@Z 100075b4 f i posyncserviceslib:poitemmetadata.obj
+ 0001:00006634       ?GetParent@?$CPOMetadataImpl@UIUSItemMetadata@@UIPOItemMetadata@@@@UAAJPAPAUIPOFolderMetadata@@@Z 10007634 f i posyncserviceslib:poitemmetadata.obj
+ 0001:000066b4       ?SetParent@?$CPOMetadataImpl@UIUSItemMetadata@@UIPOItemMetadata@@@@UAAJPAUIPOFolderMetadata@@@Z 100076b4 f i posyncserviceslib:poitemmetadata.obj
+ 0001:00006778       ??0?$CComObject@VCPOItemMetadata@@@ATL@@QAA@PAX@Z 10007778 f i posyncserviceslib:poitemmetadata.obj
+ 0001:000067e8       ?QueryInterface@?$CComObject@VCPOItemMetadata@@@ATL@@UAAJABU_GUID@@PAPAX@Z 100077e8 f i posyncserviceslib:poitemmetadata.obj
+ 0001:000067fc       ?QueryInterface@?$CComObject@VCPOItemMetadata@@@ATL@@W3AAJABU_GUID@@PAPAX@Z 100077fc f i posyncserviceslib:poitemmetadata.obj
+ 0001:00006804       ?AddRef@?$CComObject@VCPOItemMetadata@@@ATL@@UAAKXZ 10007804 f i posyncserviceslib:poitemmetadata.obj
+ 0001:0000680c       ?Release@?$CComObject@VCPOItemMetadata@@@ATL@@UAAKXZ 1000780c f i posyncserviceslib:poitemmetadata.obj
+ 0001:00006844       ?AddRef@?$CComObject@VCPOItemMetadata@@@ATL@@W3AAKXZ 10007844 f i posyncserviceslib:poitemmetadata.obj
+ 0001:0000684c       ?Release@?$CComObject@VCPOItemMetadata@@@ATL@@W3AAKXZ 1000784c f i posyncserviceslib:poitemmetadata.obj
+ 0001:00006854       ??1?$CComObject@VCPOItemMetadata@@@ATL@@UAA@XZ 10007854 f i posyncserviceslib:poitemmetadata.obj
+ 0001:000068a0       ??_G?$CComObject@VCPOItemMetadata@@@ATL@@UAAPAXI@Z 100078a0 f i posyncserviceslib:poitemmetadata.obj
+ 0001:000068a0       ??_E?$CComObject@VCPOItemMetadata@@@ATL@@UAAPAXI@Z 100078a0 f i posyncserviceslib:poitemmetadata.obj
+ 0001:000068c4       ?CreateInstance@?$CComObject@VCPOItemMetadata@@@ATL@@SAJPAPAV12@@Z 100078c4 f i posyncserviceslib:poitemmetadata.obj
+ 0001:00006964       ?CreateInstance@CPOItemMetadata@@SAJPAUIUSItemMetadata@@PAPAUIPOItemMetadata@@@Z 10007964 f   posyncserviceslib:poitemmetadata.obj
+ 0001:00006a04       ?GetFolderName@CPOFolderMetadata@@UAAJPAPAG@Z 10007a04 f   posyncserviceslib:pofoldermetadata.obj
+ 0001:00006a1c       ?GetFolderType@CPOFolderMetadata@@UAAJPAW4PO_FOLDERTYPE@@@Z 10007a1c f   posyncserviceslib:pofoldermetadata.obj
+ 0001:00006a34       ?GetRemoteKnowledge@CPOFolderMetadata@@UAAJPAPAG@Z 10007a34 f   posyncserviceslib:pofoldermetadata.obj
+ 0001:00006a4c       ?SetRemoteKnowledge@CPOFolderMetadata@@UAAJPBG@Z 10007a4c f   posyncserviceslib:pofoldermetadata.obj
+ 0001:00006a64       ?Delete@CPOFolderMetadata@@UAAJH@Z 10007a64 f   posyncserviceslib:pofoldermetadata.obj
+ 0001:00006a7c       ?AddItem@CPOFolderMetadata@@UAAJW4PO_IDTYPE@@KPBEPBGPAPAUIPOItemMetadata@@@Z 10007a7c f   posyncserviceslib:pofoldermetadata.obj
+ 0001:00006b44       ?LookupItemObjectId@CPOFolderMetadata@@UAAJW4PO_IDTYPE@@KPBEPAPAUIPOItemMetadata@@@Z 10007b44 f   posyncserviceslib:pofoldermetadata.obj
+ 0001:00006c1c       ?LookupItemRemoteId@CPOFolderMetadata@@UAAJPBGPAPAUIPOItemMetadata@@@Z 10007c1c f   posyncserviceslib:pofoldermetadata.obj
+ 0001:00006cac       ?GetItems@CPOFolderMetadata@@UAAJPAPAUIEnumPOItemMetadata@@@Z 10007cac f   posyncserviceslib:pofoldermetadata.obj
+ 0001:00006d2c       ?AddFolder@CPOFolderMetadata@@UAAJW4PO_IDTYPE@@KPBEPBGPAPAUIPOFolderMetadata@@@Z 10007d2c f   posyncserviceslib:pofoldermetadata.obj
+ 0001:00006df4       ?LookupFolderObjectId@CPOFolderMetadata@@UAAJW4PO_IDTYPE@@KPBEPAPAUIPOFolderMetadata@@@Z 10007df4 f   posyncserviceslib:pofoldermetadata.obj
+ 0001:00006ecc       ?LookupFolderRemoteId@CPOFolderMetadata@@UAAJPBGPAPAUIPOFolderMetadata@@@Z 10007ecc f   posyncserviceslib:pofoldermetadata.obj
+ 0001:00006f5c       ?GetChildFolders@CPOFolderMetadata@@UAAJPAPAUIEnumPOFolderMetadata@@@Z 10007f5c f   posyncserviceslib:pofoldermetadata.obj
+ 0001:00006fdc       ??1CPOFolderMetadata@@QAA@XZ 10007fdc f i posyncserviceslib:pofoldermetadata.obj
+ 0001:0000701c       ?GetInnerMetadata@?$CPOMetadataImpl@UIUSFolderMetadata@@UIPOFolderMetadata@@@@UAAJABU_GUID@@PAPAUIUnknown@@@Z 1000801c f i posyncserviceslib:pofoldermetadata.obj
+ 0001:00007034       ?GetProps@?$CPOMetadataImpl@UIUSFolderMetadata@@UIPOFolderMetadata@@@@UAAJKPAKPAPAU_CEPROPVAL@@@Z 10008034 f i posyncserviceslib:pofoldermetadata.obj
+ 0001:0000704c       ?SetProps@?$CPOMetadataImpl@UIUSFolderMetadata@@UIPOFolderMetadata@@@@UAAJKPBU_CEPROPVAL@@@Z 1000804c f i posyncserviceslib:pofoldermetadata.obj
+ 0001:00007064       ?GetRemoteId@?$CPOMetadataImpl@UIUSFolderMetadata@@UIPOFolderMetadata@@@@UAAJPAPAG@Z 10008064 f i posyncserviceslib:pofoldermetadata.obj
+ 0001:0000707c       ?SetRemoteId@?$CPOMetadataImpl@UIUSFolderMetadata@@UIPOFolderMetadata@@@@UAAJPBG@Z 1000807c f i posyncserviceslib:pofoldermetadata.obj
+ 0001:00007094       ?GetDataType@?$CPOMetadataImpl@UIUSFolderMetadata@@UIPOFolderMetadata@@@@UAAJPAW4PO_DATATYPE@@@Z 10008094 f i posyncserviceslib:pofoldermetadata.obj
+ 0001:00007124       ?GetObjectId@?$CPOMetadataImpl@UIUSFolderMetadata@@UIPOFolderMetadata@@@@UAAJW4PO_IDTYPE@@PAKPAE@Z 10008124 f i posyncserviceslib:pofoldermetadata.obj
+ 0001:00007180       ?GetParent@?$CPOMetadataImpl@UIUSFolderMetadata@@UIPOFolderMetadata@@@@UAAJPAPAUIPOFolderMetadata@@@Z 10008180 f i posyncserviceslib:pofoldermetadata.obj
+ 0001:00007200       ?GetIDsFromNames@?$CPOMetadataImpl@UIUSFolderMetadata@@UIPOFolderMetadata@@@@UAAJKPBUPOPropNamed@@PAK@Z 10008200 f i posyncserviceslib:pofoldermetadata.obj
+ 0001:00007274       ?GetPartner@?$CPOMetadataImpl@UIUSFolderMetadata@@UIPOFolderMetadata@@@@UAAJPAPAUIPOSyncPartner@@@Z 10008274 f i posyncserviceslib:pofoldermetadata.obj
+ 0001:000072f4       ?SetParent@?$CPOMetadataImpl@UIUSFolderMetadata@@UIPOFolderMetadata@@@@UAAJPAUIPOFolderMetadata@@@Z 100082f4 f i posyncserviceslib:pofoldermetadata.obj
+ 0001:000073b8       ??0?$CComObject@VCPOFolderMetadata@@@ATL@@QAA@PAX@Z 100083b8 f i posyncserviceslib:pofoldermetadata.obj
+ 0001:00007428       ?QueryInterface@?$CComObject@VCPOFolderMetadata@@@ATL@@UAAJABU_GUID@@PAPAX@Z 10008428 f i posyncserviceslib:pofoldermetadata.obj
+ 0001:0000743c       ?QueryInterface@?$CComObject@VCPOFolderMetadata@@@ATL@@W3AAJABU_GUID@@PAPAX@Z 1000843c f i posyncserviceslib:pofoldermetadata.obj
+ 0001:00007444       ?AddRef@?$CComObject@VCPOFolderMetadata@@@ATL@@UAAKXZ 10008444 f i posyncserviceslib:pofoldermetadata.obj
+ 0001:0000744c       ?Release@?$CComObject@VCPOFolderMetadata@@@ATL@@UAAKXZ 1000844c f i posyncserviceslib:pofoldermetadata.obj
+ 0001:00007484       ?AddRef@?$CComObject@VCPOFolderMetadata@@@ATL@@W3AAKXZ 10008484 f i posyncserviceslib:pofoldermetadata.obj
+ 0001:0000748c       ?Release@?$CComObject@VCPOFolderMetadata@@@ATL@@W3AAKXZ 1000848c f i posyncserviceslib:pofoldermetadata.obj
+ 0001:00007494       ??1?$CComObject@VCPOFolderMetadata@@@ATL@@UAA@XZ 10008494 f i posyncserviceslib:pofoldermetadata.obj
+ 0001:000074e0       ??_E?$CComObject@VCPOFolderMetadata@@@ATL@@UAAPAXI@Z 100084e0 f i posyncserviceslib:pofoldermetadata.obj
+ 0001:000074e0       ??_G?$CComObject@VCPOFolderMetadata@@@ATL@@UAAPAXI@Z 100084e0 f i posyncserviceslib:pofoldermetadata.obj
+ 0001:00007504       ?CreateInstance@?$CComObject@VCPOFolderMetadata@@@ATL@@SAJPAPAV12@@Z 10008504 f i posyncserviceslib:pofoldermetadata.obj
+ 0001:000075a4       ?CreateInstance@CPOFolderMetadata@@SAJPAUIUSFolderMetadata@@PAPAUIPOFolderMetadata@@@Z 100085a4 f   posyncserviceslib:pofoldermetadata.obj
+ 0001:00007644       ?GetChangeInfo@CPOChangeFilter@@AAAJABUUSChangeInfo@@PAPAUIPOChangeInfo@@@Z 10008644 f   posyncserviceslib:pochangefilter.obj
+ 0001:000076d8       ?GetActionForChange@CPOChangeFilter@@UAAJPBUUSChangeInfo@@PAW4US_CHANGEACTION@@@Z 100086d8 f   posyncserviceslib:pochangefilter.obj
+ 0001:00007760       ??1CPOChangeFilter@@QAA@XZ 10008760 f i posyncserviceslib:pochangefilter.obj
+ 0001:000077bc       ??0?$CComObject@VCPOChangeFilter@@@ATL@@QAA@PAX@Z 100087bc f i posyncserviceslib:pochangefilter.obj
+ 0001:00007818       ?QueryInterface@?$CComObject@VCPOChangeFilter@@@ATL@@UAAJABU_GUID@@PAPAX@Z 10008818 f i posyncserviceslib:pochangefilter.obj
+ 0001:0000782c       ?AddRef@?$CComObject@VCPOChangeFilter@@@ATL@@UAAKXZ 1000882c f i posyncserviceslib:pochangefilter.obj
+ 0001:00007834       ?Release@?$CComObject@VCPOChangeFilter@@@ATL@@UAAKXZ 10008834 f i posyncserviceslib:pochangefilter.obj
+ 0001:0000786c       ??1?$CComObject@VCPOChangeFilter@@@ATL@@UAA@XZ 1000886c f i posyncserviceslib:pochangefilter.obj
+ 0001:000078ac       ??_G?$CComObject@VCPOChangeFilter@@@ATL@@UAAPAXI@Z 100088ac f i posyncserviceslib:pochangefilter.obj
+ 0001:000078ac       ??_E?$CComObject@VCPOChangeFilter@@@ATL@@UAAPAXI@Z 100088ac f i posyncserviceslib:pochangefilter.obj
+ 0001:000078d0       ?CreateInstance@?$CComObject@VCPOChangeFilter@@@ATL@@SAJPAPAV12@@Z 100088d0 f i posyncserviceslib:pochangefilter.obj
+ 0001:00007970       ?CreateInstance@CPOChangeFilter@@SAJPAUIPOChangeFilter@@PAPAUIUSChangeFilter@@@Z 10008970 f   posyncserviceslib:pochangefilter.obj
+ 0001:000079ec       ?GetChangeType@CPOChangeInfo@@UAAJPAW4PO_CHANGETYPE@@@Z 100089ec f   posyncserviceslib:pochangeinfo.obj
+ 0001:00007a0c       ?GetObjectId@CPOChangeInfo@@UAAJW4PO_IDTYPE@@PAKPAE@Z 10008a0c f   posyncserviceslib:pochangeinfo.obj
+ 0001:00007a14       ?GetChangeMask@CPOChangeInfo@@UAAJPA_K@Z 10008a14 f   posyncserviceslib:pochangeinfo.obj
+ 0001:00007a3c       ?GetNewParentId@CPOChangeInfo@@UAAJW4PO_IDTYPE@@PAKPAE@Z 10008a3c f   posyncserviceslib:pochangeinfo.obj
+ 0001:00007a9c       ?GetPrevParentId@CPOChangeInfo@@UAAJW4PO_IDTYPE@@PAKPAE@Z 10008a9c f   posyncserviceslib:pochangeinfo.obj
+ 0001:00007afc       ??0?$CComObject@VCPOChangeInfo@@@ATL@@QAA@PAX@Z 10008afc f i posyncserviceslib:pochangeinfo.obj
+ 0001:00007b64       ?SetChangeInfo@CPOChangeInfo@@UAAXABUUSChangeInfo@@@Z 10008b64 f i posyncserviceslib:pochangeinfo.obj
+ 0001:00007b70       ?QueryInterface@?$CComObject@VCPOChangeInfo@@@ATL@@UAAJABU_GUID@@PAPAX@Z 10008b70 f i posyncserviceslib:pochangeinfo.obj
+ 0001:00007b84       ?QueryInterface@?$CComObject@VCPOChangeInfo@@@ATL@@W3AAJABU_GUID@@PAPAX@Z 10008b84 f i posyncserviceslib:pochangeinfo.obj
+ 0001:00007b8c       ??1?$CComObject@VCPOChangeInfo@@@ATL@@UAA@XZ 10008b8c f i posyncserviceslib:pochangeinfo.obj
+ 0001:00007be8       ?AddRef@?$CComObject@VCPOChangeInfo@@@ATL@@UAAKXZ 10008be8 f i posyncserviceslib:pochangeinfo.obj
+ 0001:00007bf0       ?Release@?$CComObject@VCPOChangeInfo@@@ATL@@UAAKXZ 10008bf0 f i posyncserviceslib:pochangeinfo.obj
+ 0001:00007c28       ??_E?$CComObject@VCPOChangeInfo@@@ATL@@UAAPAXI@Z 10008c28 f i posyncserviceslib:pochangeinfo.obj
+ 0001:00007c28       ??_G?$CComObject@VCPOChangeInfo@@@ATL@@UAAPAXI@Z 10008c28 f i posyncserviceslib:pochangeinfo.obj
+ 0001:00007c4c       ?Release@?$CComObject@VCPOChangeInfo@@@ATL@@W3AAKXZ 10008c4c f i posyncserviceslib:pochangeinfo.obj
+ 0001:00007c54       ?AddRef@?$CComObject@VCPOChangeInfo@@@ATL@@W3AAKXZ 10008c54 f i posyncserviceslib:pochangeinfo.obj
+ 0001:00007c5c       ?CreateInstance@?$CComObject@VCPOChangeInfo@@@ATL@@SAJPAPAV12@@Z 10008c5c f i posyncserviceslib:pochangeinfo.obj
+ 0001:00007cfc       ?CreateInstance@CPOChangeInfo@@SAJABUUSChangeInfo@@PAPAUIPOChangeInfo@@@Z 10008cfc f   posyncserviceslib:pochangeinfo.obj
+ 0001:00007d68       RaiseException             10008d68 f   coredll:COREDLL.dll
+ 0001:00007d78       EnterCriticalSection       10008d78 f   coredll:COREDLL.dll
+ 0001:00007d88       LeaveCriticalSection       10008d88 f   coredll:COREDLL.dll
+ 0001:00007d98       InitializeCriticalSection  10008d98 f   coredll:COREDLL.dll
+ 0001:00007da8       DeleteCriticalSection      10008da8 f   coredll:COREDLL.dll
+ 0001:00007db8       GetLastError               10008db8 f   coredll:COREDLL.dll
+ 0001:00007dc8       InterlockedIncrement       10008dc8 f   coredll:COREDLL.dll
+ 0001:00007dd8       InterlockedDecrement       10008dd8 f   coredll:COREDLL.dll
+ 0001:00007de8       CharNextW                  10008de8 f   coredll:COREDLL.dll
+ 0001:00007df8       GetModuleFileNameW         10008df8 f   coredll:COREDLL.dll
+ 0001:00007e08       GetProcAddressW            10008e08 f   coredll:COREDLL.dll
+ 0001:00007e18       GetModuleHandleW           10008e18 f   coredll:COREDLL.dll
+ 0001:00007e28       FreeLibrary                10008e28 f   coredll:COREDLL.dll
+ 0001:00007e38       InterlockedExchange        10008e38 f   coredll:COREDLL.dll
+ 0001:00007e48       LoadLibraryW               10008e48 f   coredll:COREDLL.dll
+ 0001:00007e58       StringCchPrintfW           10008e58 f   coredll:COREDLL.dll
+ 0001:00007e68       LocalFree                  10008e68 f   coredll:COREDLL.dll
+ 0001:00007e78       LocalAlloc                 10008e78 f   coredll:COREDLL.dll
+ 0001:00007e88       SysStringLen               10008e88 f   oleaut32:OLEAUT32.dll
+ 0001:00007e98       SysFreeString              10008e98 f   oleaut32:OLEAUT32.dll
+ 0001:00007ea8       SysAllocString             10008ea8 f   oleaut32:OLEAUT32.dll
+ 0001:00007eb8       LoadTypeLib                10008eb8 f   oleaut32:OLEAUT32.dll
+ 0001:00007ec8       RegisterTypeLib            10008ec8 f   oleaut32:OLEAUT32.dll
+ 0001:00007ed8       CoCreateInstance           10008ed8 f   ole32:ole32.dll
+ 0001:00007ee8       ?DisableRetailLog@@YAXXZ   10008ee8 f   RetailLogUtils:RetailLogUtils.obj
+ 0001:00007f28       ?RetailLogMessageEx@@YAJKKPBGPAD@Z 10008f28 f   RetailLogUtils:RetailLogUtils.obj
+ 0001:00007f5c       ?Init@RetailLogAreaConfig@@QAAJPBG@Z 10008f5c f   RetailLogUtils:RetailLogUtils.obj
+ 0001:00008028       ?GetConfigFlags@RetailLogAreaConfig@@QAAKXZ 10009028 f   RetailLogUtils:RetailLogUtils.obj
+ 0001:00008098       ?EnableRetailLog@@YAJPBG@Z 10009098 f   RetailLogUtils:RetailLogUtils.obj
+ 0001:00008298       ?Term@CAtlComModule@ATL@@QAAXXZ 10009298 f i atls:atlcommodule.obj
+ 0001:000082fc       ??0CAtlComModule@ATL@@QAA@XZ 100092fc f i atls:atlcommodule.obj
+ 0001:0000838c       AtlRawDllMain              1000938c f   atls:atlbase.obj
+ 0001:00008414       ??1CAtlBaseModule@ATL@@QAA@XZ 10009414 f   atls:atlbase.obj
+ 0001:0000844c       ??0CAtlBaseModule@ATL@@QAA@XZ 1000944c f   atls:atlbase.obj
+ 0001:000085d8       _DllMainCRTStartup         100095d8 f   corelib0:pegdmain.obj
+ 0001:00008604       __GSHandlerCheckCommon     10009604 f   corelib0:gshandler.obj
+ 0001:00008640       __GSHandlerCheck           10009640 f   corelib0:gshandler.obj
+ 0001:00008660       __security_init_cookie     10009660 f   corelib0:seccinit.obj
+ 0001:000086ac       __security_check_cookie    100096ac f   corelib0:armsecgs.obj
+ 0001:000086bc       __gsfailure                100096bc     corelib0:armsecgs.obj
+ 0001:00008708       _onexit                    10009708 f   corelib0:onexit.obj
+ 0001:0000888c       atexit                     1000988c f   corelib0:onexit.obj
+ 0001:0000898c       _cexit                     1000998c f   corelib0:cexit.obj
+ 0001:0000899c       _initterm                  1000999c f   corelib0:crt0dat.obj
+ 0001:000089c8       _cinit                     100099c8 f   corelib0:crt0dat.obj
+ 0001:00008a28       __crt_ExitProcess          10009a28 f   corelib0:exitproc_proxy.obj
+ 0001:00008a34       wcslen                     10009a34 f   corelib1:COREDLL.dll
+ 0001:00008a44       memcmp                     10009a44 f   corelib1:COREDLL.dll
+ 0001:00008a54       free                       10009a54 f   corelib1:COREDLL.dll
+ 0001:00008a64       wcscpy_s                   10009a64 f   corelib1:COREDLL.dll
+ 0001:00008a74       wcsncpy_s                  10009a74 f   corelib1:COREDLL.dll
+ 0001:00008a84       memset                     10009a84 f   corelib1:COREDLL.dll
+ 0001:00008a94       __C_specific_handler       10009a94 f   corelib1:COREDLL.dll
+ 0001:00008aa4       ??3@YAXPAX@Z               10009aa4 f   corelib1:COREDLL.dll
+ 0001:00008ab4       _purecall                  10009ab4 f   corelib1:COREDLL.dll
+ 0001:00008ac4       ??2@YAPAXI@Z               10009ac4 f   corelib1:COREDLL.dll
+ 0001:00008ad4       swscanf_s                  10009ad4 f   corelib1:COREDLL.dll
+ 0001:00008ae4       memcpy                     10009ae4 f   corelib1:COREDLL.dll
+ 0001:00008af4       _XcptFilter                10009af4 f   corelib1:COREDLL.dll
+ 0001:00008b04       __security_gen_cookie2     10009b04 f   corelib1:COREDLL.dll
+ 0001:00008b14       __report_gsfailure         10009b14 f   corelib1:COREDLL.dll
+ 0001:00008b24       malloc                     10009b24 f   corelib1:COREDLL.dll
+ 0001:00008b34       realloc                    10009b34 f   corelib1:COREDLL.dll
+ 0001:00008b44       _msize                     10009b44 f   corelib1:COREDLL.dll
+ 0001:00008b54       RegCloseKey                10009b54 f   coredll:COREDLL.dll
+ 0001:00008b64       RegCreateKeyExW            10009b64 f   coredll:COREDLL.dll
+ 0001:00008b74       RegQueryValueExW           10009b74 f   coredll:COREDLL.dll
+ 0001:00008b84       InterlockedCompareExchange 10009b84 f   coredll:COREDLL.dll
+ 0001:00008b94       TerminateProcess           10009b94 f   coredll:COREDLL.dll
+ 0001:00008c54       ??__Fcs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@YAXXZ 10009c54 f i dllmain.obj
+ 0001:00008d64       __pobjMapEntryFirst        10009d64     dllmain.obj
+ 0001:00008d68       __pobjMap_CPOSyncServices  10009d68     dllmain.obj
+ 0001:00008d6c       __pobjMapEntryLast         10009d6c     dllmain.obj
+ 0001:00008d70       __IMPORT_DESCRIPTOR_COREDLL 10009d70     coredll:COREDLL.dll
+ 0001:00008d84       __IMPORT_DESCRIPTOR_OLEAUT32 10009d84     oleaut32:OLEAUT32.dll
+ 0001:00008d98       __IMPORT_DESCRIPTOR_ole32  10009d98     ole32:ole32.dll
+ 0001:00008dac       __NULL_IMPORT_DESCRIPTOR   10009dac     coredll:COREDLL.dll
+ 0002:00000000       __imp_RaiseException       1000a000     coredll:COREDLL.dll
+ 0002:00000004       __imp_EnterCriticalSection 1000a004     coredll:COREDLL.dll
+ 0002:00000008       __imp_LeaveCriticalSection 1000a008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_InitializeCriticalSection 1000a00c     coredll:COREDLL.dll
+ 0002:00000010       __imp_DeleteCriticalSection 1000a010     coredll:COREDLL.dll
+ 0002:00000014       __imp_GetLastError         1000a014     coredll:COREDLL.dll
+ 0002:00000018       __imp_InterlockedIncrement 1000a018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_InterlockedDecrement 1000a01c     coredll:COREDLL.dll
+ 0002:00000020       __imp_CharNextW            1000a020     coredll:COREDLL.dll
+ 0002:00000024       __imp_GetModuleFileNameW   1000a024     coredll:COREDLL.dll
+ 0002:00000028       __imp_GetProcAddressW      1000a028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_GetModuleHandleW     1000a02c     coredll:COREDLL.dll
+ 0002:00000030       __imp_FreeLibrary          1000a030     coredll:COREDLL.dll
+ 0002:00000034       __imp_InterlockedExchange  1000a034     coredll:COREDLL.dll
+ 0002:00000038       __imp_LoadLibraryW         1000a038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_StringCchPrintfW     1000a03c     coredll:COREDLL.dll
+ 0002:00000040       __imp_LocalFree            1000a040     coredll:COREDLL.dll
+ 0002:00000044       __imp_LocalAlloc           1000a044     coredll:COREDLL.dll
+ 0002:00000048       __imp_TerminateProcess     1000a048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_InterlockedCompareExchange 1000a04c     coredll:COREDLL.dll
+ 0002:00000050       __imp_RegQueryValueExW     1000a050     coredll:COREDLL.dll
+ 0002:00000054       __imp_RegCreateKeyExW      1000a054     coredll:COREDLL.dll
+ 0002:00000058       __imp_RegCloseKey          1000a058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_wcslen               1000a05c     corelib1:COREDLL.dll
+ 0002:00000060       __imp_memcmp               1000a060     corelib1:COREDLL.dll
+ 0002:00000064       __imp_free                 1000a064     corelib1:COREDLL.dll
+ 0002:00000068       __imp_wcscpy_s             1000a068     corelib1:COREDLL.dll
+ 0002:0000006c       __imp_wcsncpy_s            1000a06c     corelib1:COREDLL.dll
+ 0002:00000070       __imp_memset               1000a070     corelib1:COREDLL.dll
+ 0002:00000074       __imp___C_specific_handler 1000a074     corelib1:COREDLL.dll
+ 0002:00000078       __imp_??3@YAXPAX@Z         1000a078     corelib1:COREDLL.dll
+ 0002:0000007c       __imp__purecall            1000a07c     corelib1:COREDLL.dll
+ 0002:00000080       __imp_??2@YAPAXI@Z         1000a080     corelib1:COREDLL.dll
+ 0002:00000084       __imp_swscanf_s            1000a084     corelib1:COREDLL.dll
+ 0002:00000088       __imp_memcpy               1000a088     corelib1:COREDLL.dll
+ 0002:0000008c       __imp__XcptFilter          1000a08c     corelib1:COREDLL.dll
+ 0002:00000090       __imp___security_gen_cookie2 1000a090     corelib1:COREDLL.dll
+ 0002:00000094       __imp___report_gsfailure   1000a094     corelib1:COREDLL.dll
+ 0002:00000098       __imp_malloc               1000a098     corelib1:COREDLL.dll
+ 0002:0000009c       __imp_realloc              1000a09c     corelib1:COREDLL.dll
+ 0002:000000a0       __imp__msize               1000a0a0     corelib1:COREDLL.dll
+ 0002:000000a4       \177COREDLL_NULL_THUNK_DATA 1000a0a4     coredll:COREDLL.dll
+ 0002:000000a8       __imp_SysStringLen         1000a0a8     oleaut32:OLEAUT32.dll
+ 0002:000000ac       __imp_RegisterTypeLib      1000a0ac     oleaut32:OLEAUT32.dll
+ 0002:000000b0       __imp_LoadTypeLib          1000a0b0     oleaut32:OLEAUT32.dll
+ 0002:000000b4       __imp_SysFreeString        1000a0b4     oleaut32:OLEAUT32.dll
+ 0002:000000b8       __imp_SysAllocString       1000a0b8     oleaut32:OLEAUT32.dll
+ 0002:000000bc       \177OLEAUT32_NULL_THUNK_DATA 1000a0bc     oleaut32:OLEAUT32.dll
+ 0002:000000c0       __imp_CoCreateInstance     1000a0c0     ole32:ole32.dll
+ 0002:000000c4       \177ole32_NULL_THUNK_DATA  1000a0c4     ole32:ole32.dll
+ 0002:000000cc       ?__objMap_CPOSyncServices@@3U_ATL_OBJMAP_ENTRY30@ATL@@A 1000a0cc     dllmain.obj
+ 0002:000000f4       _pRawDllMain               1000a0f4     atls:atlbase.obj
+ 0002:000000f8       __security_cookie          1000a0f8     corelib0:seccinit.obj
+ 0002:000000fc       __security_cookie_complement 1000a0fc     corelib0:seccinit.obj
+ 0002:00000100       ?m_bInitFailed@CAtlBaseModule@ATL@@2_NA 1000a100     dllmain.obj
+ 0002:00000104       ?_pPerfRegFunc@ATL@@3P6AJPAUHINSTANCE__@@@ZA 1000a104     dllmain.obj
+ 0002:00000108       ?_pPerfUnRegFunc@ATL@@3P6AJXZA 1000a108     dllmain.obj
+ 0002:0000010c       ?_AtlRegisterPerUser@ATL@@3_NA 1000a10c     dllmain.obj
+ 0002:00000110       ?_pAtlModule@ATL@@3PAVCAtlModule@1@A 1000a110     dllmain.obj
+ 0002:00000114       ?m_libid@CAtlModule@ATL@@2U_GUID@@A 1000a114     dllmain.obj
+ 0002:00000124       ??_B?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@51 1000a124     dllmain.obj
+ 0002:00000128       ?cs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@3@XZ@4V43@A 1000a128     dllmain.obj
+ 0002:0000013c       ?_AtlModule@@3VCPOSyncServicesDLLModule@@A 1000a13c     dllmain.obj
+ 0002:00000164       ?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A 1000a164     dllmain.obj
+ 0002:000001b4       ?g_csLock@?A0x77f7b18a@@3VCComAutoCriticalSection@ATL@@A 1000a1b4     posyncserviceslib:posyncservicesutil.obj
+ 0002:000001c8       __@@_PchSym_@00@UygUDAJBUkirezgvUzkkhUlfgollpUhszivwUklhbmxhvierxvhUoryUlyqUzineHUivgzroUkivxlnkOlyq@posyncserviceslib 1000a1c8     posyncserviceslib:precomp.obj
+ 0002:000001cc       ?g_pfnRetailLogEnter@@3P6AJKPBD@ZA 1000a1cc     RetailLogUtils:RetailLogUtils.obj
+ 0002:000001d0       ?g_pfnRetailLogExit@@3P6AJKJ@ZA 1000a1d0     RetailLogUtils:RetailLogUtils.obj
+ 0002:000001d4       ?g_pfnRetailLogInit@@3P6AJPBG@ZA 1000a1d4     RetailLogUtils:RetailLogUtils.obj
+ 0002:000001d8       ?g_pfnRetailLogDeinit@@3P6AJXZA 1000a1d8     RetailLogUtils:RetailLogUtils.obj
+ 0002:000001dc       ?g_pfnRetailLogRefresh@@3P6AXXZA 1000a1dc     RetailLogUtils:RetailLogUtils.obj
+ 0002:000001e0       ?g_pfnRetailLogMessage@@3P6AJKKPBGPAD@ZA 1000a1e0     RetailLogUtils:RetailLogUtils.obj
+ 0002:000001e4       ?g_fRetailLogEnabled@@3HA  1000a1e4     RetailLogUtils:RetailLogUtils.obj
+ 0002:000001e8       ?g_hinstRetailLog@@3PAUHINSTANCE__@@A 1000a1e8     RetailLogUtils:RetailLogUtils.obj
+ 0002:000001ec       ?_AtlComModule@ATL@@3VCAtlComModule@1@A 1000a1ec     atls:atlcommodule.obj
+ 0002:00000210       __afxForceAtlRawDllMain    1000a210     atls:atlbase.obj
+ 0002:00000214       ?_AtlModuleInstance@ATL@@3PAUHINSTANCE__@@A 1000a214     atls:atlbase.obj
+ 0002:00000218       ?_AtlBaseModule@ATL@@3VCAtlBaseModule@1@A 1000a218     atls:atlbase.obj
+ 0002:0000024c       ?_pAtlRawDllMain@@3P6AHPAXK0@ZA 1000a24c     atls:atlbase.obj
+ 0002:00000250       __@@_PchSym_@00@UxsvozmCBUlgsvihUzgoJUhixUzgohUlyqUzineHUivgzroUhgwzucOlyq@atls 1000a250     atls:stdafx.obj
+ 0002:00000254       _exitflag                  1000a254     corelib0:cexit.obj
+ 0002:00000258       __onexitend                1000a258     <common>
+ 0002:0000025c       __onexitbegin              1000a25c     <common>
+ 0002:00000260       g_pcsExit                  1000a260     <common>
+
+ entry point at        0001:000085d8
+
+ Static symbols
+
+ 0001:00004900       ?GlobalsReleaseObjectCallback@@YAXKH@Z 10005900 f   posyncserviceslib:posyncservicesutil.obj
+ 0001:000084e8       _DllMainCRTStartupHelper   100094e8 f   corelib0:pegdmain.obj
+ 0001:000088a4       doexit                     100098a4 f   corelib0:cexit.obj
+ 0001:00008ba4       ??__E?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A@@YAXXZ 10009ba4 f   dllmain.obj
+ 0001:00008ba8       ??__E_AtlModule@@YAXXZ     10009ba8 f   dllmain.obj
+ 0001:00008bd8       ??__Eg_csLock@?A0x77f7b18a@@YAXXZ 10009bd8 f   posyncserviceslib:posyncservicesutil.obj
+ 0001:00008c14       ??__E_AtlComModule@ATL@@YAXXZ 10009c14 f   atls:atlcommodule.obj
+ 0001:00008c34       ??__E_AtlBaseModule@ATL@@YAXXZ 10009c34 f   atls:atlbase.obj
+ 0001:00008c60       ??__F_AtlModule@@YAXXZ     10009c60 f   dllmain.obj
+ 0001:00008c6c       ??__F_internalFactory@?1??GetSingleton@CPOInternalFactory@@SAAAV1@XZ@YAXXZ 10009c6c f   posyncserviceslib:podefaultinternalfactory.obj
+ 0001:00008c84       ??__Fg_csLock@?A0x77f7b18a@@YAXXZ 10009c84 f   posyncserviceslib:posyncservicesutil.obj
+ 0001:00008c90       ??__F_gcInstance@?1??GetGlobals@@YAAAVGlobalCleanup@@XZ@YAXXZ 10009c90 f   posyncserviceslib:posyncservicesutil.obj
+ 0001:00008cd0       ??__F_AtlComModule@ATL@@YAXXZ 10009cd0 f   atls:atlcommodule.obj
+ 0001:00008cdc       ??__F_AtlBaseModule@ATL@@YAXXZ 10009cdc f   atls:atlbase.obj
+
+ Exports
+
+  ordinal    name
+
+        1    DllCanUnloadNow
+        2    DllGetClassObject
+        3    DllRegisterServer
+        4    DllUnregisterServer

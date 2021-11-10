@@ -1,0 +1,759 @@
+//
+// Copyright (c) Microsoft Corporation.  All rights reserved.
+//
+//
+// Use of this source code is subject to the terms of the Microsoft
+// premium shared source license agreement under which you licensed
+// this source code. If you did not accept the terms of the license
+// agreement, you are not authorized to use this source code.
+// For the terms of the license, please see the license agreement
+// signed by you and Microsoft.
+// THE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+//
+// medialib.idl : IDL source for medialib
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (medialib.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// MLDateTime
+//
+//////////////////////////////////////////////////////////////////////////////
+
+typedef struct _MLDateTime
+{
+    SHORT  year;
+    USHORT month;
+    USHORT day;
+    USHORT hour;
+    USHORT minute;
+    USHORT second;
+    ULONG  fraction;
+} MLDateTime;
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// MLDataSourceId
+//
+//////////////////////////////////////////////////////////////////////////////
+
+typedef enum _MLDataSourceId
+{
+    ML_DS_None       = 0, // none - default
+    ML_DS_FileSystem = 1, // File System Data Source
+    ML_DS_DLNA       = 2, // DLNA Data Source
+    ML_DS_MAX        = 16 // Max Data Sources
+} MLDataSourceId;
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// MLDataSourceFlags
+//
+//////////////////////////////////////////////////////////////////////////////
+
+typedef enum _MLDataSourceFlags
+{
+    ML_DSF_None   = 0, // no operations supported
+    ML_DSF_Pull   = 1, // Data source supports "Pull" operations
+    ML_DSF_Push   = 2, // Data source supports "Push" operations
+    ML_DSF_Browse = 4, // Data source supports "Browse" operations
+} MLDataSourceFlags;
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// MLDataSource - provider of media items
+//
+//////////////////////////////////////////////////////////////////////////////
+
+typedef struct _MLDataSource
+{
+    MLDataSourceId Id;           // Id of the data source
+    BSTR Name;                   // Name of the data source
+    BSTR Root;                   // Root of the data source (different from the Name)
+    MLDataSourceFlags Flags;     // Flags (binary combination of ML_DSF_XXX flags)
+} MLDataSource;
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// MLNotificationType - Type of notification event
+//
+//////////////////////////////////////////////////////////////////////////////
+
+typedef enum _MLNotificationType
+{
+    Inserted          = 0x0001, // Item was inserted
+    Deleted           = 0x0002, // Item was deleted
+    Modified          = 0x0004, // Item was modified
+    Connected         = 0x0008, // Storage was connected
+    Disconnected      = 0x0010, // Storage was disconnected
+    ScanStarted       = 0x0020, // Push Queue started scanning
+    ScanFinished      = 0x0040, // Push Queue finished scanning
+    WatchListModified = 0x0080, // Watchlist was modified
+    ScanResultCode    = 0x0100, // ScanLocation in background return code
+} MLNotificationType;
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// MLNotificationData - MLNotificationType specific union
+//
+//////////////////////////////////////////////////////////////////////////////
+
+typedef [switch_type(MLNotificationType)] union
+{
+    [case (Inserted, Deleted, Modified)]
+        struct
+        {
+            ULONG entity;         // ml_Entity_X type of the item
+            ULONGLONG id;         // Id of the item modified
+            ULONG logicalStorage; // logicalStorage id of the item
+            WCHAR fileURL[260];   // fileURL of the item (MAX_PATH in stdlib.h)
+        } itemInfo;
+        
+    [case (ScanStarted, ScanFinished, ScanResultCode)] 
+        struct
+        {
+            HRESULT hr;           // result code for operation
+            WCHAR location[260];  // location being scanned (MAX_PATH in stdlib.h)
+        } scanInfo;
+        
+    [case (Connected, Disconnected)]
+        struct
+        {
+            WCHAR location[260];   // storage root location (MAX_PATH in stdlib.h)
+        } storageInfo;
+        
+    [default] ;
+} MLNotificationData;
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// MLNotificationItem - IMLNotify notification structure
+//
+//////////////////////////////////////////////////////////////////////////////
+
+typedef struct _MLNotificationItem
+{
+    // Type of the event
+    MLNotificationType eventType;
+       
+    // Event data describing the event
+    [switch_is(eventType)] MLNotificationData eventData;
+} MLNotificationItem;
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// MLDSItem - one item returned by a DS plugin
+//
+//////////////////////////////////////////////////////////////////////////////
+
+typedef struct _MLDSItem
+{
+    BSTR URL;               // Location of the media item 
+    FILETIME ftTimeStamp;   // Time/Date stamp for the file (in CE FILETIME form)
+    ULONGLONG cbFileSize;   // File size in bytes
+} MLDSItem;
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// MLRange - a range of results
+//
+//////////////////////////////////////////////////////////////////////////////
+
+typedef struct _MLRange
+{
+    ULONG cSkip;
+    ULONG cRequested;
+    BOOL fReverse;
+} MLRange;
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// MLQueryFlags - query options
+//
+//////////////////////////////////////////////////////////////////////////////
+
+typedef struct _MLQueryFlags
+{
+    BOOL includeChildren;    // If true, include child locations when traversing
+    BOOL includeFolders;     // If true, include folder names when traversing
+} MLQueryFlags;
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// MLOperatorType - comparison operators used for filtering
+//
+//////////////////////////////////////////////////////////////////////////////
+
+typedef enum _MLOperatorType
+{
+    EQU = 0,    /* equal */
+    NE,         /* not equal */
+    LT,         /* lesser than */
+    LE,         /* lesser or equal */
+    GT,         /* greater than */
+    GE,         /* greater or equal */
+    LIKE,       /* pattern match */
+    MAX_OP
+} MLOperatorType;
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// MLSortOrder - a sort order of one property
+//
+//////////////////////////////////////////////////////////////////////////////
+
+typedef struct _MLSortOrder
+{
+    BOOL descending;
+    ULONG propertyId;
+} MLSortOrder;
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// IMLSortOrder - a composite sort order involving one or more properties
+//
+//////////////////////////////////////////////////////////////////////////////
+
+[
+    object,
+    uuid(379ECC33-EADC-454d-815D-5BF63EE199AC),
+    helpstring("IMLSortOrder Interface"),
+    pointer_default(unique)
+]
+interface IMLSortOrder : IUnknown
+{
+    // Returns the number of sort orders
+    [helpstring("method Count")] HRESULT Count(
+        [out] ULONG *pcSortOrders);
+
+    // Returns the sort order at the specified index in the array of sort orders
+    [helpstring("method GetAt")] HRESULT GetAt(
+        [in] ULONG index,
+        [out] MLSortOrder **pSortOrder);
+        
+    // Compares two sortorders
+    [helpstring("method Compare")] HRESULT Compare(
+        [in] IMLSortOrder *pSortOrderOther,
+        [out] BOOL *pfResult);        
+};
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// IMLSortOrderSet - an interface for setting the sort order
+//
+//////////////////////////////////////////////////////////////////////////////
+
+[
+    object,
+    uuid(1CFF49C8-5302-4eec-90A7-5C515E0F986B),
+    helpstring("IMLSortOrderSet Interface"),
+    pointer_default(unique)
+]
+interface IMLSortOrderSet : IUnknown
+{
+    // Sets the array of sort orders
+    [helpstring("method Set")] HRESULT Set(
+        [in] ULONG cSortOrder,
+        [in, size_is(cSortOrder)] MLSortOrder *pSortOrder);
+
+    // Duplicates the array of sort orders
+    [helpstring("method Dup")] HRESULT Dup(
+        [in] IMLSortOrder *pSortOrders);
+};
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// IMLPropertySet - an interface for manipulating a set of properties
+//
+//////////////////////////////////////////////////////////////////////////////
+
+[
+    object,
+    uuid(6219E8FE-A728-4570-82F2-24E132E4D324),
+    helpstring("IMLPropertySet Interface"),
+    pointer_default(unique)
+]
+interface IMLPropertySet : IUnknown
+{
+    // Returns the number of properties in the set
+    [helpstring("method Count")] HRESULT Count(
+        [out] ULONG *cPropertyBinding);
+        
+    // Returns a value indicating whether the property set is writable.
+    [helpstring("method IsWritable")] HRESULT IsWritable(
+        [out] BOOL *pfWritable);
+
+    // Reports the presence of the propertyID
+    [helpstring("method HasID")] HRESULT HasID(
+        [in] ULONG propertyID);
+
+    // Returns the property ID for the specified index
+    [helpstring("method GetIDByIndex")] HRESULT GetIDByIndex(
+        [in] ULONG iProperty,
+        [out] ULONG *pPropertyID);
+        
+    // Returns the property type for the property at the specified index
+    [helpstring("method GetTypeByIndex")] HRESULT GetTypeByIndex(
+        [in] ULONG iProperty,
+        [out] VARTYPE *pType);
+        
+    // Returns a value indicating whether the specified property is valid in the property set
+    [helpstring("method GetValid")] HRESULT GetValid(
+        [in] ULONG propertyID,
+        [out] BOOL *pfValid);
+        
+    // Returns the value of a Boolean property
+    [helpstring("method GetBOOL")] HRESULT GetBOOL(
+        [in] ULONG propertyID,
+        [out] BOOL *pfValue);
+        
+    // Sets the value of a Boolean property
+    [helpstring("method SetBOOL")] HRESULT SetBOOL(
+        [in] ULONG propertyID,
+        [in] BOOL fValue);
+        
+    // Returns the value of a short property
+    [helpstring("method GetSHORT")] HRESULT GetSHORT(
+        [in] ULONG propertyID,
+        [out] SHORT *psValue);
+        
+    // Sets the value of a short property
+    [helpstring("method SetSHORT")] HRESULT SetSHORT(
+        [in] ULONG propertyID,
+        [in] SHORT sValue);
+        
+    // Returns the value of a LONG property
+    [helpstring("method GetLONG")] HRESULT GetLONG(
+        [in] ULONG propertyID,
+        [out] LONG *plValue);
+        
+    // Sets the value of a LONG property
+    [helpstring("method SetLONG")] HRESULT SetLONG(
+        [in] ULONG propertyID,
+        [in] LONG lValue);
+        
+    // Returns the value of a LONGLONG property
+    [helpstring("method GetLONGLONG")] HRESULT GetLONGLONG(
+        [in] ULONG propertyID,
+        [out] LONGLONG *pllValue);
+        
+    // Sets the value of a LONGLONG property
+    [helpstring("method SetLONGLONG")] HRESULT SetLONGLONG(
+        [in] ULONG propertyID,
+        [in] LONGLONG llValue);
+        
+    // Returns the value of a MLDateTime property
+    [helpstring("method GetDATE")] HRESULT GetDATE(
+        [in] ULONG propertyID,
+        [out] MLDateTime *pdtValue);
+        
+    // Sets the value of a MLDateTime property
+    [helpstring("method SetDATE")] HRESULT SetDATE(
+        [in] ULONG propertyID,
+        [in] MLDateTime *pdtValue);
+        
+    // Returns the value of a BSTR property
+    [helpstring("method GetBSTR")] HRESULT GetBSTR(
+        [in] ULONG propertyID,
+        [out] BSTR *pbstrValue);
+        
+    // Sets the value of a BSTR property
+    [helpstring("method SetBSTR")] HRESULT SetBSTR(
+        [in] ULONG propertyID,
+        [in] BSTR bstrValue);
+        
+    // Returns the value of a BSTR property into a WCHAR buffer
+    [helpstring("method GetSTRING")] HRESULT GetSTRING(
+        [in] ULONG propertyID,
+        [out] WCHAR *pwchValue,
+        [out] ULONG *pcchValue);
+        
+    // Sets the value of a BSTR property from a WCHAR buffer
+    [helpstring("method SetSTRING")] HRESULT SetSTRING(
+        [in] ULONG propertyID,
+        [in] WCHAR *pwchValue,
+        [in] ULONG cchValue);
+};
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// IMLQuery - Query object
+//
+//////////////////////////////////////////////////////////////////////////////
+
+[
+    object,
+    uuid(811DCA37-22F6-4508-BBDA-4D22CE56BBFE),
+    helpstring("IMLQuery Interface"),
+    pointer_default(unique)
+]
+interface IMLQuery : IUnknown
+{
+    // Resets the IMLQuery object to its original empty state
+    [helpstring("method Reset")] HRESULT Reset();
+        
+    // Sets the maximum number of rows to return from a query
+    [helpstring("method SetMAXResultsCount")] HRESULT SetMAXResultsCount(
+        [in] ULONG cResultCount);
+
+    // Adds a Media Library property ID to the query results list
+    [helpstring("method AddResultID")] HRESULT AddResultID(
+        [in] ULONG propertyID);
+                
+    // Adds a logical AND clause with a Boolean property type to the query
+    [helpstring("method AndBOOL")] HRESULT AndBOOL(
+        [in] ULONG propertyID,
+        [in] MLOperatorType operatorType,
+        [in] BOOL fValue);
+        
+    // Adds a logical AND clause with a short integer property type to the query
+    [helpstring("method AndSHORT")] HRESULT AndSHORT(
+        [in] ULONG propertyID,
+        [in] MLOperatorType operatorType,
+        [in] SHORT sValue);
+        
+    // Adds a logical AND clause with a long integer property type to the query
+    [helpstring("method AndLONG")] HRESULT AndLONG(
+        [in] ULONG propertyID,
+        [in] MLOperatorType operatorType,
+        [in] LONG lValue);
+
+    // Adds a logical AND clause with a long long integer property type to the query
+    [helpstring("method AndLONGLONG")] HRESULT AndLONGLONG(
+        [in] ULONG propertyID,
+        [in] MLOperatorType operatorType,
+        [in] LONGLONG llValue);
+
+    // Adds a logical AND clause with a date property type to the query
+    [helpstring("method AndDATE")] HRESULT AndDATE(
+        [in] ULONG propertyID,
+        [in] MLOperatorType operatorType,
+        [in] MLDateTime *pdtValue);
+
+    // Adds a logical AND clause with a Basic String (BSTR) property type to the query
+    [helpstring("method AndBSTR")] HRESULT AndBSTR(
+        [in] ULONG propertyID,
+        [in] MLOperatorType operatorType,
+        [in] BSTR bstrValue);
+
+    // Adds a logical AND clause with a string property type to the query
+    [helpstring("method AndSTRING")] HRESULT AndSTRING(
+        [in] ULONG propertyID,
+        [in] MLOperatorType operatorType,
+        [in] WCHAR *pwchValue,
+        [in] ULONG cchValue);
+
+    // Set whether the Query should be Distinct
+    [helpstring("method SetDistinct")] HRESULT SetDistinct(
+        [in] BOOL fDistinct);
+        
+    // Prepares the IMLQuery object for use
+    [helpstring("method Prepare")] HRESULT Prepare();
+    
+    // Returns the number of rows in the results set that the IMLCore::RunQuery object returned for this query
+    [helpstring("method GetResultCount")] HRESULT GetResultCount(
+        [out] ULONG *pcResults);
+        
+    // Returns the property values for the indexed row in the query results
+    [helpstring("method GetResultByIndex")] HRESULT GetResultByIndex(
+        [in] ULONG iResult,
+        [out] IMLPropertySet **pPropertySet);  
+};
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// IMLUserStore - Storage of Property/Value pairs
+//
+//////////////////////////////////////////////////////////////////////////////
+
+[
+    object,
+    uuid(33F8A19B-D842-4911-9681-1063745B3936),
+    helpstring("IMLUserStore"),
+    pointer_default(unique)
+]
+interface IMLUserStore : IUnknown
+{
+    // Returns the value associated with an application-defined key in the Media Library's persistent store.
+    [helpstring("method GetValue")] HRESULT GetValue(
+        [in] BSTR applicationName,
+        [in] BSTR key,
+        [out] BSTR *pValue);
+
+    // Sets the value associated with an application-defined key in the Media Library's persistent store.
+    [helpstring("method PutValue")] HRESULT PutValue(
+        [in] BSTR applicationName,
+        [in] BSTR key,
+        [in] BSTR pValue);
+
+    // Deletes an application-defined key from the Media Library's persistent store
+    [helpstring("method DeleteKey")] HRESULT DeleteKey(
+        [in] BSTR applicationName,
+        [in] BSTR key);
+};
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// IMLNotify - Notification interface
+//
+//////////////////////////////////////////////////////////////////////////////
+
+[
+    object,
+    uuid(9033B38E-89E0-4ee2-9F88-6205D7A86AAD),
+    helpstring("IMLNotify Interface"),
+    pointer_default(unique)
+]
+interface IMLNotify : IUnknown
+{
+    // Returns the list of media items, such as folders or image files that have changed
+    [helpstring("method Notify")] HRESULT Notify(
+        [in] ULONG cNotificationItems,
+        [in, size_is(cNotificationItems)] MLNotificationItem *rgNotificationItems);
+};
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// IMLNotificationManager - Notification Manager interface
+//
+//////////////////////////////////////////////////////////////////////////////
+
+[
+    object,
+    uuid(0B8D1C1F-7C9B-4b09-AE91-2A0CB78F3B16),
+    helpstring("IMLNotificationManager Interface"),
+    pointer_default(unique)
+]
+interface IMLNotificationManager : IUnknown
+{
+    // Registers an application with the Media Library notification service
+    [helpstring("method Subscribe")] HRESULT Subscribe(
+        [in] IMLNotify *notificationPort,
+        [out] DWORD *pdwHandle,
+        [in] BOOL fNotifySelf);
+
+    // Unregisters a subscriber application with the Media Library notification service
+    [helpstring("method UnSubscribe")] HRESULT UnSubscribe(
+        [in] DWORD dwHandle);
+};
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// IMLFactory - Object Factory for MLCore
+//
+//////////////////////////////////////////////////////////////////////////////
+
+[
+    object,
+    uuid(DD95E8CC-A3FB-4c1b-AD4B-6A3965ED40A9),
+    helpstring("IMLFactory"),
+    pointer_default(unique)
+]
+interface IMLFactory : IUnknown
+{
+    // Creates an IMLSortOrder object that contains the sort properties
+    [helpstring("method CreateMLSortOrder")] HRESULT CreateMLSortOrder(
+        [out] IMLSortOrder **pSortOrder);
+        
+    // Creates an IMLPropertySet object
+    [helpstring("method CreateMLPropertySet")] HRESULT CreateMLPropertySet(
+        [out] IMLPropertySet **pPropertySet);
+        
+    // Creates an IMLQuery object
+    [helpstring("method CreateMLQuery")] HRESULT CreateMLQuery(
+        [out] IMLQuery **ppQuery);
+        
+    // Creates an IStream object from a file on the device
+    [helpstring("method CreateStreamOnFile")] HRESULT CreateStreamOnFile(
+        [in] BSTR bstrFile,
+        [in] BOOL fRead,
+        [out] IStream **pStream);    
+};
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// IMLPushQueue
+//
+//////////////////////////////////////////////////////////////////////////////
+
+[
+    object,
+    uuid(C390FB80-6295-426a-BF16-CC87AB8029F1),
+    helpstring("IMLPushQueue Interface"),
+    pointer_default(unique)
+]
+interface IMLPushQueue : IUnknown
+{
+    // Starts monitoring the locations listed in the watch list for Media Library updates
+    [helpstring("method Start")] HRESULT Start();
+
+    // Stops monitoring the locations listed in the watch list for Media Library updates
+    [helpstring("method Stop")] HRESULT Stop();
+
+    // Returns the current state of the push queue
+    [helpstring("method GetRunningState")] HRESULT GetRunningState(
+        [out] BOOL *pIsRunning);
+        
+    // Adds a location to the push queue for a one-time update of the contents in the Media Library
+    [helpstring("method EnqueueLocation")] HRESULT EnqueueLocation(
+        [in] MLDataSource datasource,
+        [in] MLQueryFlags flags,
+        [in] BSTR location);
+    
+    // Clears the contents of the push queue, which updates the listed items in the Media Library; any pending items will be removed
+    [helpstring("method Clear")] HRESULT Clear();
+    
+    // Adds a URL to the list of locations that the push queue monitors to update the Media Library
+    [helpstring("method AddWatchedLocation")] HRESULT AddWatchedLocation(
+        [in] MLDataSource datasource,
+        [in] BSTR location,
+        [out] BOOL *pHandled);
+        
+    // Removes a URL from the list of locations that the push queue monitors for updates to the Media Library
+    [helpstring("method RemoveWatchedLocation")] HRESULT RemoveWatchedLocation(
+        [in] MLDataSource datasource,
+        [in] BSTR location,
+        [out] BOOL *pHandled);
+        
+    // Returns the number of entries in the list of locations monitored by the push queue
+    [helpstring("method GetWatchListCount")] HRESULT GetWatchListCount(
+        [in] MLDataSource datasource,
+        [out]ULONG *pcWatchList);
+        
+    // Returns the list of locations monitored by the push queue for possible updates to the Media Library
+    [helpstring("method GetWatchList")] HRESULT GetWatchList(
+        [in] MLDataSource datasource,
+        [out] BSTR **prgWatchList,
+        [out] ULONG *pcWatchList);
+};
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// IMLStoreMetadata - callback interface implemented by an application
+//
+//////////////////////////////////////////////////////////////////////////////
+
+[
+    object,
+    uuid(3CE921FD-ED44-4bae-AB74-119BFC596C52),
+    helpstring("IMLStoreMetadata Interface"),
+    pointer_default(unique)
+]
+interface IMLStoreMetadata : IUnknown
+{
+    // Callback from the IMLCore::QueryLocation method.
+    [helpstring("method StoreMetadata")] HRESULT StoreMetadata(
+        [in] MLDSItem *pFile, 
+        [in] ULONG entityId,
+        [in] IMLPropertySet *pPropertySet);
+};
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// Media Library Core
+//
+//////////////////////////////////////////////////////////////////////////////
+[
+    object,
+    uuid(116A00E5-9507-4DDE-AD26-99239F0479A4),
+    helpstring("IMLCore Interface"),
+    pointer_default(unique)
+]
+interface IMLCore : IUnknown
+{
+    // Returns the names and IDs of the data sources connected to the Media Library
+    [helpstring("method GetDataSources")] HRESULT GetDataSources(
+        [in] BOOL fForceRefresh,
+        [in] USHORT *pcDataSources,
+        [out, size_is(, *pcDataSources)] MLDataSource **prgDataSources);
+
+    // Synchronizes the contents of a location on the data source with the Media Library
+    [helpstring("method ScanLocation")] HRESULT ScanLocation(
+        [in] MLDataSource datasource,
+        [in] MLQueryFlags flags,
+        [in] BSTR location);
+    
+    // Counts the number of media items that match the given IMLQuery
+    [helpstring("method CountItems")] HRESULT CountItems(
+        [in] IMLQuery *pQuery,
+        [out] ULONG *pcCount);
+                
+    // Runs the query and returns the media items to the query object
+    [helpstring("method RunQuery")] HRESULT RunQuery(
+        [in] IMLQuery *pQuery,
+        [in] MLRange range,
+        [in] IMLSortOrder *sortOrder);
+        
+    // Inserts an item into the Media Library by using the property set object
+    [helpstring("method InsertItem")] HRESULT InsertItem(
+        [in] ULONG entityID,
+        [in] IMLPropertySet *pPropertySet);
+        
+    // Updates items in the Media Library that match the IMLQuery with the properties in the IMLPropertySet
+    [helpstring("method UpdateItems")] HRESULT UpdateItems(
+        [in] IMLQuery *pQuery,
+        [in] IMLPropertySet *pPropertySet);
+        
+    // Deletes the media items that match the IMLQuery from the Media Library
+    [helpstring("method DeleteItems")] HRESULT DeleteItems(
+        [in] IMLQuery *pQuery);
+
+    // Queries a plug-in data source for media items that match the specified IMLQuery
+    [helpstring("method QueryLocation")] HRESULT QueryLocation(
+        [in] MLDataSource datasource,
+        [in] MLQueryFlags flags,
+        [in] BSTR location,
+        [in] IMLQuery *pQuery,
+        [in] MLRange range,
+        [in] IMLSortOrder *sortOrder,
+        [in] IMLStoreMetadata *pStoreMetadataCallback);        
+                
+    // Permanently removes media items that are no longer valid on the plug-in data source from the Media Library database
+    [helpstring("method PurgeDatabase")] HRESULT PurgeDatabase();
+    
+    // Returns a pointer to the IMLNotificationManager interface that is used to subscribe to the event notification service
+    [helpstring("method GetNotificationManager")] HRESULT GetNotificationManager(
+        [out] IMLNotificationManager **pNotificationManager);
+        
+    // Returns a pointer to the IMLUserStore interface that is used to store state information
+    [helpstring("method GetUserStore")] HRESULT GetUserStore(
+        [out] IMLUserStore **pUserStore);
+        
+    // Returns a pointer to the IMLFactory interface that is used to create Media Library objects
+    [helpstring("method GetFactory")] HRESULT GetFactory(
+        [out] IMLFactory **pFactory);
+    
+    // Returns a pointer to the IMLPushQueue interface that is used to populate the Media Library
+    [helpstring("method GetPushQueue")] HRESULT GetPushQueue(
+        [out] IMLPushQueue **pPushQueue);
+};
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// Type Library - CoCreateable objects for Media Library
+//
+//////////////////////////////////////////////////////////////////////////////
+
+[
+    uuid(FEA935D6-DEE2-4FA5-9E3A-F6118F22A81C),
+    version(1.0),
+    helpstring("Media Library 1.0 Type Library")
+]
+library MLibDll
+{
+    importlib("stdole2.tlb");
+
+    [
+        uuid(CE7919AB-BF65-4ABB-A5EB-16B1B8F0DD7D),
+        helpstring("ML Core Class")
+    ]
+    coclass MLCore
+    {
+        [default] interface IMLCore;
+    };
+};

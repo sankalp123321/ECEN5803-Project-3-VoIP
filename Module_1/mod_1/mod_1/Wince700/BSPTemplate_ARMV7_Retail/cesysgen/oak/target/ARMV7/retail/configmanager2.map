@@ -1,0 +1,1245 @@
+ configmanager2
+
+ Timestamp is 5ac65236 (Thu Apr 05 09:43:34 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000008H .CRT$XCL                CODE
+ 0001:0000000c 0000000cH .CRT$XCU                CODE
+ 0001:00000018 00000004H .CRT$XCZ                CODE
+ 0001:0000001c 00000004H .CRT$XIA                CODE
+ 0001:00000020 00000004H .CRT$XIZ                CODE
+ 0001:00000024 00000004H .CRT$XPA                CODE
+ 0001:00000028 00000004H .CRT$XPZ                CODE
+ 0001:0000002c 00000004H .CRT$XTA                CODE
+ 0001:00000030 00000004H .CRT$XTZ                CODE
+ 0001:00000040 00001b98H .rdata                  CODE
+ 0001:00001bd8 0000002bH .rdata$debug            CODE
+ 0001:00001c04 0001a5fcH .text                   CODE
+ 0001:0001c200 00000098H .text$yc                CODE
+ 0001:0001c298 00000040H .text$yd                CODE
+ 0001:0001c2d8 00000148H .xdata                  CODE
+ 0001:0001c420 00000004H ATL$__a                 CODE
+ 0001:0001c424 00000004H ATL$__z                 CODE
+ 0001:0001c428 00000064H .idata$2                CODE
+ 0001:0001c48c 00000014H .idata$3                CODE
+ 0001:0001c4a0 00000210H .idata$4                CODE
+ 0001:0001c6b0 00000168H .idata$6                CODE
+ 0001:0001c820 00000071H .edata                  CODE
+ 0002:00000000 00000210H .idata$5                DATA
+ 0002:00000210 000004f4H .data                   DATA
+ 0002:00000704 0000013cH .bss                    DATA
+ 0003:00000000 00001500H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000018       __xc_z                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xi_a                     1000101c     corelib0:crt0init.obj
+ 0001:00000020       __xi_z                     10001020     corelib0:crt0init.obj
+ 0001:00000024       __xp_a                     10001024     corelib0:crt0init.obj
+ 0001:00000028       __xp_z                     10001028     corelib0:crt0init.obj
+ 0001:0000002c       __xt_a                     1000102c     corelib0:crt0init.obj
+ 0001:00000030       __xt_z                     10001030     corelib0:crt0init.obj
+ 0001:0000005c       ??_C@_1BM@CGINJKCE@?$AAc?$AAo?$AAn?$AAf?$AAi?$AAg?$AAm?$AAa?$AAn?$AAa?$AAg?$AAe?$AAr?$AA?$AA@ 1000105c     helpers.obj
+ 0001:00000078       ??_C@_1O@EBPLMABK@?$AAd?$AAm?$AAs?$AAa?$AAp?$AAi?$AA?$AA@ 10001078     helpers.obj
+ 0001:00000088       _GUID_e34e5896_40b2_45c4_a9c0_8a9601c3b0a6 10001088     helpers.obj
+ 0001:00000098       _GUID_50a41ef1_6bfa_4b7e_973e_798ea0bebad4 10001098     helpers.obj
+ 0001:000000a8       CFGMGR_PROPERTY_ACCESS_ROLE 100010a8     nodewrapper.obj
+ 0001:000000b8       CFGMGR_PROPERTY_RW_ACCESS  100010b8     nodewrapper.obj
+ 0001:000000c8       CFGMGR_PROPERTY_DATATYPE   100010c8     nodewrapper.obj
+ 0001:000000d8       ??_7?$CComObject@VCUndoStream@@@ATL@@6B@ 100010d8     nodewrapper.obj
+ 0001:000000f0       ?_entries@?1??_GetEntries@CUndoStream@@SAPBU_ATL_INTMAP_ENTRY@ATL@@XZ@4QBU34@B 100010f0     nodewrapper.obj
+ 0001:00000108       _GUID_0c733a30_2a1c_11ce_ade5_00aa0044773d 10001108     nodewrapper.obj
+ 0001:00000118       ??_C@_1BC@JKPDMPKH@?$AAM?$AAe?$AAt?$AAa?$AAb?$AAa?$AAs?$AAe?$AA?$AA@ 10001118     nodewrapper.obj
+ 0001:00000130       ??_7?$CComObject@VCNodeWrapper@@@ATL@@6BICSPNode@@@ 10001130     nodewrapper.obj
+ 0001:00000178       ??_7?$CComObject@VCNodeWrapper@@@ATL@@6BICSPNodeTransactioning@@@ 10001178     nodewrapper.obj
+ 0001:000001d0       ?_entries@?1??_GetEntries@CNodeWrapper@@SAPBU_ATL_INTMAP_ENTRY@ATL@@XZ@4QBU34@B 100011d0     nodewrapper.obj
+ 0001:000001f4       _GUID_8a13633c_797d_46e9_b602_d982b8ec9847 100011f4     nodewrapper.obj
+ 0001:00000204       _GUID_55261a46_0f96_4f7f_95a5_a73a978b047b 10001204     nodewrapper.obj
+ 0001:00000214       _GUID_4b965405_f21f_4702_95dd_4e81c3d1bb30 10001214     nodewrapper.obj
+ 0001:00000224       _GUID_c196b2be_ba06_4049_8518_322e1e04282b 10001224     nodewrapper.obj
+ 0001:00000234       ??_C@_1CO@LIBJODAJ@?$AAC?$AAM?$AA2?$AAI?$AA_?$AAC?$AAo?$AAm?$AAm?$AAi?$AAt?$AAT?$AAr?$AAa?$AAn?$AAs?$AAa?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 10001234     configmanager2.obj
+ 0001:00000264       ??_C@_1DC@CEOBKPIG@?$AAC?$AAM?$AA2?$AAI?$AA_?$AAR?$AAo?$AAl?$AAl?$AAb?$AAa?$AAc?$AAk?$AAT?$AAr?$AAa?$AAn?$AAs?$AAa?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 10001264     configmanager2.obj
+ 0001:00000298       ??_C@_1DA@GDFLJNBO@?$AAC?$AAM?$AA2?$AAI?$AA_?$AAE?$AAx?$AAe?$AAc?$AAu?$AAt?$AAe?$AAT?$AAr?$AAa?$AAn?$AAs?$AAa?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 10001298     configmanager2.obj
+ 0001:000002c8       ??_C@_1DA@MJKHHJCA@?$AAC?$AAM?$AA2?$AAI?$AA_?$AAE?$AAn?$AAd?$AAC?$AAS?$AAP?$AAN?$AAo?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 100012c8     configmanager2.obj
+ 0001:000002f8       ??_C@_1DE@MJDJCNPL@?$AAC?$AAM?$AA2?$AAI?$AA_?$AAB?$AAe?$AAg?$AAi?$AAn?$AAC?$AAS?$AAP?$AAN?$AAo?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 100012f8     configmanager2.obj
+ 0001:0000032c       ??_C@_1CE@OFAMOD@?$AAC?$AAM?$AA2?$AAI?$AA_?$AAE?$AAx?$AAe?$AAc?$AAu?$AAt?$AAe?$AAB?$AAa?$AAt?$AAc?$AAh?$AA?$AA@ 1000132c     configmanager2.obj
+ 0001:00000350       ??_C@_1CK@NLHHFEEI@?$AAC?$AAN?$AAI?$AA_?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AAA?$AAd?$AAd?$AAC?$AAo?$AAm?$AAm?$AAa?$AAn?$AAd?$AA?$AA@ 10001350     configmanager2.obj
+ 0001:0000037c       ??_C@_1DA@DEEBPFI@?$AAC?$AAN?$AAI?$AA_?$AAG?$AAe?$AAt?$AAP?$AAr?$AAo?$AAp?$AAe?$AAr?$AAt?$AAy?$AAA?$AAn?$AAd?$AAC?$AAa?$AAc?$AAh?$AAe?$AA?$AA@ 1000137c     configmanager2.obj
+ 0001:000003ac       ??_C@_1DM@NNJGJMAM@?$AAC?$AAN?$AAI?$AA_?$AAG?$AAe?$AAt?$AAS?$AAt?$AAr?$AAu?$AAc?$AAt?$AAu?$AAr?$AAa?$AAl?$AAN?$AAo?$AAd?$AAe?$AAP?$AAr?$AAo?$AAp?$AAe?$AAr?$AAt?$AAy?$AA?$AA@ 100013ac     configmanager2.obj
+ 0001:000003e8       ??_C@_1CG@JIIPPGBI@?$AAC?$AAN?$AAI?$AA_?$AAR?$AAe?$AAs?$AAo?$AAl?$AAv?$AAe?$AAC?$AAS?$AAP?$AAN?$AAo?$AAd?$AAe?$AA?$AA@ 100013e8     configmanager2.obj
+ 0001:00000410       ??_C@_1DM@OEDBDDCK@?$AAC?$AAN?$AAI?$AA_?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AAI?$AAm?$AAp?$AAl?$AAi?$AAc?$AAi?$AAt?$AAA?$AAd?$AAd?$AAC?$AAo?$AAm?$AAm?$AAa?$AAn?$AAd?$AAs?$AA?$AA@ 10001410     configmanager2.obj
+ 0001:0000044c       ??_C@_1DK@DHGJJJCB@?$AAC?$AAS?$AAP?$AAC?$AAa?$AAc?$AAh?$AAe?$AA_?$AAA?$AAp?$AAp?$AAl?$AAy?$AAU?$AAR?$AAI?$AAT?$AAr?$AAa?$AAn?$AAs?$AAl?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 1000144c     configmanager2.obj
+ 0001:00000488       ??_C@_1DG@CDPMAKLM@?$AAC?$AAS?$AAP?$AAC?$AAa?$AAc?$AAh?$AAe?$AA_?$AAG?$AAe?$AAt?$AAC?$AAh?$AAi?$AAl?$AAd?$AAN?$AAo?$AAd?$AAe?$AAN?$AAa?$AAm?$AAe?$AAs?$AA?$AA@ 10001488     configmanager2.obj
+ 0001:000004c0       ??_C@_1CM@EIJNNKAP@?$AAC?$AAS?$AAP?$AAC?$AAa?$AAc?$AAh?$AAe?$AA_?$AAG?$AAe?$AAt?$AAC?$AAa?$AAc?$AAh?$AAe?$AAd?$AAC?$AAS?$AAP?$AA?$AA@ 100014c0     configmanager2.obj
+ 0001:000004ec       ??_C@_1DE@CJFINAFO@?$AAC?$AAS?$AAP?$AAC?$AAa?$AAc?$AAh?$AAe?$AA_?$AAT?$AAr?$AAa?$AAv?$AAe?$AAr?$AAs?$AAe?$AAR?$AAe?$AAg?$AAs?$AAi?$AAt?$AAr?$AAy?$AA?$AA@ 100014ec     configmanager2.obj
+ 0001:00000520       ??_C@_1CA@GOFHGEIF@?$AAC?$AAS?$AAP?$AAC?$AAa?$AAc?$AAh?$AAe?$AA_?$AAG?$AAe?$AAt?$AAC?$AAS?$AAP?$AA?$AA@ 10001520     configmanager2.obj
+ 0001:00000540       ??_C@_1BE@IOCANDOD@?$AAC?$AAN?$AA_?$AAE?$AAx?$AAi?$AAs?$AAt?$AAs?$AA?$AA@ 10001540     configmanager2.obj
+ 0001:00000554       ??_C@_1CE@HDBPLPOF@?$AAC?$AAN?$AA_?$AAG?$AAe?$AAt?$AAN?$AAo?$AAd?$AAe?$AAF?$AAr?$AAo?$AAm?$AAU?$AAR?$AAI?$AA?$AA@ 10001554     configmanager2.obj
+ 0001:00000578       ??_C@_1BK@GJGDDHEG@?$AAC?$AAN?$AA_?$AAG?$AAe?$AAt?$AAP?$AAa?$AAr?$AAe?$AAn?$AAt?$AA?$AA@ 10001578     configmanager2.obj
+ 0001:00000594       ??_C@_1CA@KGFMDDHA@?$AAC?$AAN?$AA_?$AAE?$AAn?$AAu?$AAm?$AAC?$AAh?$AAi?$AAl?$AAd?$AAr?$AAe?$AAn?$AA?$AA@ 10001594     configmanager2.obj
+ 0001:000005b4       ??_C@_1CE@HCJJMBDL@?$AAC?$AAN?$AA_?$AAE?$AAn?$AAu?$AAm?$AAP?$AAr?$AAo?$AAp?$AAe?$AAr?$AAt?$AAi?$AAe?$AAs?$AA?$AA@ 100015b4     configmanager2.obj
+ 0001:000005d8       ??_C@_1CE@CMODPKLC@?$AAC?$AAN?$AA_?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AAP?$AAr?$AAo?$AAp?$AAe?$AAr?$AAt?$AAy?$AA?$AA@ 100015d8     configmanager2.obj
+ 0001:000005fc       ??_C@_1BO@MBJPPKAI@?$AAC?$AAN?$AA_?$AAS?$AAe?$AAt?$AAP?$AAr?$AAo?$AAp?$AAe?$AAr?$AAt?$AAy?$AA?$AA@ 100015fc     configmanager2.obj
+ 0001:0000061c       ??_C@_1BO@NHPCBLGK@?$AAC?$AAN?$AA_?$AAG?$AAe?$AAt?$AAP?$AAr?$AAo?$AAp?$AAe?$AAr?$AAt?$AAy?$AA?$AA@ 1000161c     configmanager2.obj
+ 0001:0000063c       ??_C@_1CK@NKLOHDKM@?$AAC?$AAN?$AA_?$AAE?$AAn?$AAu?$AAm?$AAC?$AAo?$AAm?$AAm?$AAa?$AAn?$AAd?$AAS?$AAt?$AAa?$AAt?$AAe?$AAs?$AA?$AA@ 1000163c     configmanager2.obj
+ 0001:00000668       ??_C@_1DC@GGNLMJBE@?$AAC?$AAN?$AA_?$AAG?$AAe?$AAt?$AAA?$AAc?$AAt?$AAi?$AAv?$AAe?$AAC?$AAo?$AAm?$AAm?$AAa?$AAn?$AAd?$AAC?$AAo?$AAu?$AAn?$AAt?$AA?$AA@ 10001668     configmanager2.obj
+ 0001:0000069c       ??_C@_1CG@COIJGBJH@?$AAC?$AAN?$AA_?$AAD?$AAi?$AAd?$AAC?$AAo?$AAm?$AAm?$AAa?$AAn?$AAd?$AAs?$AAF?$AAa?$AAi?$AAl?$AA?$AA@ 1000169c     configmanager2.obj
+ 0001:000006c4       ??_C@_1BE@FONDGEDL@?$AAC?$AAN?$AA_?$AAG?$AAe?$AAt?$AAU?$AAR?$AAI?$AA?$AA@ 100016c4     configmanager2.obj
+ 0001:000006d8       ??_C@_1CE@PEMNNOHN@?$AAC?$AAN?$AA_?$AAG?$AAe?$AAt?$AAL?$AAo?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AAU?$AAR?$AAI?$AA?$AA@ 100016d8     configmanager2.obj
+ 0001:000006fc       ??_C@_1BI@FMOJOKMJ@?$AAC?$AAN?$AA_?$AAG?$AAe?$AAt?$AAV?$AAa?$AAl?$AAu?$AAe?$AA?$AA@ 100016fc     configmanager2.obj
+ 0001:00000714       ??_C@_1BI@HJOCGBNH@?$AAC?$AAN?$AA_?$AAS?$AAe?$AAt?$AAV?$AAa?$AAl?$AAu?$AAe?$AA?$AA@ 10001714     configmanager2.obj
+ 0001:0000072c       ??_C@_1BG@JFHKFGBP@?$AAC?$AAN?$AA_?$AAE?$AAx?$AAe?$AAc?$AAu?$AAt?$AAe?$AA?$AA@ 1000172c     configmanager2.obj
+ 0001:00000744       ??_C@_1BK@NJHGEFCO@?$AAC?$AAN?$AA_?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AAU?$AAR?$AAI?$AA?$AA@ 10001744     configmanager2.obj
+ 0001:00000760       ??_C@_1BG@FBOJIEEM@?$AAC?$AAN?$AA_?$AAM?$AAo?$AAv?$AAe?$AAU?$AAR?$AAI?$AA?$AA@ 10001760     configmanager2.obj
+ 0001:00000778       ??_C@_1BG@KDMELGGB@?$AAC?$AAN?$AA_?$AAC?$AAo?$AAp?$AAy?$AAU?$AAR?$AAI?$AA?$AA@ 10001778     configmanager2.obj
+ 0001:00000790       ??_C@_1BE@BKBKOCAK@?$AAC?$AAN?$AA_?$AAA?$AAd?$AAd?$AAU?$AAR?$AAI?$AA?$AA@ 10001790     configmanager2.obj
+ 0001:000007a4       ??_C@_1CO@EODGEODJ@?$AAC?$AAM?$AA2?$AA_?$AAS?$AAe?$AAt?$AAS?$AAe?$AAs?$AAs?$AAi?$AAo?$AAn?$AAV?$AAa?$AAr?$AAi?$AAa?$AAb?$AAl?$AAe?$AA?$AA@ 100017a4     configmanager2.obj
+ 0001:000007d4       ??_C@_1BI@GLDDALEJ@?$AAC?$AAM?$AA2?$AA_?$AAS?$AAe?$AAt?$AAH?$AAo?$AAs?$AAt?$AA?$AA@ 100017d4     configmanager2.obj
+ 0001:000007ec       ??_C@_1CG@FLOIJAAB@?$AAC?$AAM?$AA2?$AA_?$AAG?$AAe?$AAt?$AAN?$AAo?$AAd?$AAe?$AAF?$AAr?$AAo?$AAm?$AAU?$AAR?$AAI?$AA?$AA@ 100017ec     configmanager2.obj
+ 0001:00000814       ??_C@_1BI@KCENALMO@?$AAC?$AAM?$AA2?$AA_?$AAG?$AAe?$AAt?$AAN?$AAo?$AAd?$AAe?$AA?$AA@ 10001814     configmanager2.obj
+ 0001:0000082c       ??_C@_1DK@LKJGOPHE@?$AAC?$AAM?$AA2?$AA_?$AAC?$AAa?$AAn?$AAc?$AAe?$AAl?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt?$AAT?$AAr?$AAa?$AAn?$AAs?$AAa?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 1000182c     configmanager2.obj
+ 0001:00000868       ??_C@_1CM@LEICHHLO@?$AAC?$AAM?$AA2?$AA_?$AAC?$AAo?$AAm?$AAm?$AAi?$AAt?$AAT?$AAr?$AAa?$AAn?$AAs?$AAa?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 10001868     configmanager2.obj
+ 0001:00000894       ??_C@_1CK@PFCHDBLA@?$AAC?$AAM?$AA2?$AA_?$AAB?$AAe?$AAg?$AAi?$AAn?$AAT?$AAr?$AAa?$AAn?$AAs?$AAa?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 10001894     configmanager2.obj
+ 0001:000008c0       ??_C@_1BC@HEGNBIPE@?$AAC?$AAM?$AA2?$AA_?$AAS?$AAa?$AAv?$AAe?$AA?$AA@ 100018c0     configmanager2.obj
+ 0001:000008d4       ??_C@_1BC@BBCNIFOF@?$AAC?$AAM?$AA2?$AA_?$AAL?$AAo?$AAa?$AAd?$AA?$AA@ 100018d4     configmanager2.obj
+ 0001:000008e8       ??_C@_1BG@CBGHPBFC@?$AAC?$AAM?$AA2?$AA_?$AAC?$AAa?$AAn?$AAc?$AAe?$AAl?$AA?$AA@ 100018e8     configmanager2.obj
+ 0001:00000900       ??_C@_1BI@DHBGGEBB@?$AAC?$AAM?$AA2?$AA_?$AAE?$AAx?$AAe?$AAc?$AAu?$AAt?$AAe?$AA?$AA@ 10001900     configmanager2.obj
+ 0001:00000918       CFGMGR_PROPERTY_VALUE      10001918     configmanager2.obj
+ 0001:000009f4       ??_7?$CComObject@VCConfigSession2@@@ATL@@6B@ 100019f4     configmanager2.obj
+ 0001:00000a18       ??_7?$CComObject@VCConfigNode@@@ATL@@6B@ 10001a18     configmanager2.obj
+ 0001:00000a90       ?_entries@?1??_GetEntries@CConfigNode@@SAPBU_ATL_INTMAP_ENTRY@ATL@@XZ@4QBU34@B 10001a90     configmanager2.obj
+ 0001:00000aa8       _GUID_d2a685bf_868f_473b_8d37_6da07db041be 10001aa8     configmanager2.obj
+ 0001:00000ab8       ?_entries@?1??_GetEntries@CConfigSession2@@SAPBU_ATL_INTMAP_ENTRY@ATL@@XZ@4QBU34@B 10001ab8     configmanager2.obj
+ 0001:00000ad0       _GUID_8d31fc7e_b285_49a2_b38c_6e0ef9d99cdb 10001ad0     configmanager2.obj
+ 0001:00000ae0       ??_7?$CComObject@VCConfigNodeState@@@ATL@@6B@ 10001ae0     confignode.obj
+ 0001:00000afc       ?_entries@?1??_GetEntries@CConfigNodeState@@SAPBU_ATL_INTMAP_ENTRY@ATL@@XZ@4QBU34@B 10001afc     confignode.obj
+ 0001:00000b14       _GUID_d18b9f92_a955_478b_9038_08b849c2b514 10001b14     confignode.obj
+ 0001:00000b24       ??_7?$CComObject@VCConfigNodeList@@@ATL@@6B@ 10001b24     confignode.obj
+ 0001:00000b34       ?_entries@?1??_GetEntries@CConfigNodeList@@SAPBU_ATL_INTMAP_ENTRY@ATL@@XZ@4QBU34@B 10001b34     confignode.obj
+ 0001:00000b4c       _GUID_00000000_0000_0000_c000_000000000046 10001b4c     confignode.obj
+ 0001:00000b5c       ??_7?$CComObject@VCConfigCmdResultList@@@ATL@@6B@ 10001b5c     confignode.obj
+ 0001:00000b6c       ?_entries@?1??_GetEntries@CConfigCmdResultList@@SAPBU_ATL_INTMAP_ENTRY@ATL@@XZ@4QBU34@B 10001b6c     confignode.obj
+ 0001:00000b84       ??_7?$CComObject@V?$CComEnum@UIEnumCommandStates@@$1?IID_IEnumCommandStates@@3U_GUID@@BJV?$_Copy@J@ATL@@VCComMultiThreadModelNoCS@5@@ATL@@@ATL@@6B@ 10001b84     confignode.obj
+ 0001:00000ba4       ?_entries@?1??_GetEntries@?$CComEnum@UIEnumCommandStates@@$1?IID_IEnumCommandStates@@3U_GUID@@BJV?$_Copy@J@ATL@@VCComMultiThreadModelNoCS@5@@ATL@@SAPBU_ATL_INTMAP_ENTRY@3@XZ@4QBU43@B 10001ba4     confignode.obj
+ 0001:00000bbc       ?_entries@?1??_GetEntries@?$CComEnum@UIEnumCommandStates@@$1?IID_IEnumCommandStates@@3U_GUID@@BJV?$_Copy@J@ATL@@VCComMultiThreadModel@5@@ATL@@SAPBU_ATL_INTMAP_ENTRY@3@XZ@4QBU43@B 10001bbc     confignode.obj
+ 0001:00000bd4       ??_7?$CComObject@V?$CComEnum@UIEnumCommandStates@@$1?IID_IEnumCommandStates@@3U_GUID@@BJV?$_Copy@J@ATL@@VCComMultiThreadModel@5@@ATL@@@ATL@@6B@ 10001bd4     confignode.obj
+ 0001:00000bf4       ??_7?$CComObject@V?$CComEnum@UIEnumConfigNodes@@$1?IID_IEnumConfigNodes@@3U_GUID@@BPAUIConfigNode@@V?$_CopyInterface@UIConfigNode@@@ATL@@VCComMultiThreadModelNoCS@6@@ATL@@@ATL@@6B@ 10001bf4     confignode.obj
+ 0001:00000c14       ?_entries@?1??_GetEntries@?$CComEnum@UIEnumConfigNodes@@$1?IID_IEnumConfigNodes@@3U_GUID@@BPAUIConfigNode@@V?$_CopyInterface@UIConfigNode@@@ATL@@VCComMultiThreadModelNoCS@6@@ATL@@SAPBU_ATL_INTMAP_ENTRY@3@XZ@4QBU43@B 10001c14     confignode.obj
+ 0001:00000c2c       ?_entries@?1??_GetEntries@?$CComEnum@UIEnumConfigNodes@@$1?IID_IEnumConfigNodes@@3U_GUID@@BPAUIConfigNode@@V?$_CopyInterface@UIConfigNode@@@ATL@@VCComMultiThreadModel@6@@ATL@@SAPBU_ATL_INTMAP_ENTRY@3@XZ@4QBU43@B 10001c2c     confignode.obj
+ 0001:00000c44       ??_7?$CComObject@V?$CComEnum@UIEnumConfigNodes@@$1?IID_IEnumConfigNodes@@3U_GUID@@BPAUIConfigNode@@V?$_CopyInterface@UIConfigNode@@@ATL@@VCComMultiThreadModel@6@@ATL@@@ATL@@6B@ 10001c44     confignode.obj
+ 0001:00000c64       ??_7CConfigCmd@@6B@        10001c64     configcmd.obj
+ 0001:00000c94       ??_7CCmdAdd@@6B@           10001c94     configcmd.obj
+ 0001:00000cc4       ??_7CCmdCopy@@6B@          10001cc4     configcmd.obj
+ 0001:00000cf4       ??_7CCmdMove@@6B@          10001cf4     configcmd.obj
+ 0001:00000d24       ??_7CCmdClear@@6B@         10001d24     configcmd.obj
+ 0001:00000d54       ??_7CCmdDeleteChild@@6B@   10001d54     configcmd.obj
+ 0001:00000d84       ??_7CCmdExecute@@6B@       10001d84     configcmd.obj
+ 0001:00000db4       ??_7CCmdSet@@6B@           10001db4     configcmd.obj
+ 0001:00000de4       ??_7CCmdSetProperty@@6B@   10001de4     configcmd.obj
+ 0001:00000e14       ??_7CCmdDeleteProperty@@6B@ 10001e14     configcmd.obj
+ 0001:00000e54       ??_C@_1BA@JIHHIEDE@?$AAT?$AAy?$AAp?$AAe?$AAL?$AAi?$AAb?$AA?$AA@ 10001e54     main.obj
+ 0001:00000e64       ??_C@_1BC@EAHCMADO@?$AAS?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AA?$AA@ 10001e64     main.obj
+ 0001:00000e78       ??_C@_1O@GBFINDKL@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?$AA@ 10001e78     main.obj
+ 0001:00000e88       ??_C@_1BC@IBECJAAI@?$AAS?$AAE?$AAC?$AAU?$AAR?$AAI?$AAT?$AAY?$AA?$AA@ 10001e88     main.obj
+ 0001:00000e9c       ??_C@_17OMAOINJK@?$AAS?$AAA?$AAM?$AA?$AA@ 10001e9c     main.obj
+ 0001:00000ea4       ??_C@_19HLLLM@?$AAM?$AAi?$AAm?$AAe?$AA?$AA@ 10001ea4     main.obj
+ 0001:00000eb0       ??_C@_1BC@MAICEHGI@?$AAH?$AAa?$AAr?$AAd?$AAw?$AAa?$AAr?$AAe?$AA?$AA@ 10001eb0     main.obj
+ 0001:00000ec4       ??_C@_1BE@EKPAFMCP@?$AAI?$AAn?$AAt?$AAe?$AAr?$AAf?$AAa?$AAc?$AAe?$AA?$AA@ 10001ec4     main.obj
+ 0001:00000ed8       ??_C@_1BC@NKMMNMGL@?$AAF?$AAi?$AAl?$AAe?$AAT?$AAy?$AAp?$AAe?$AA?$AA@ 10001ed8     main.obj
+ 0001:00000eec       ??_C@_1CK@OEKPKBNA@?$AAC?$AAo?$AAm?$AAp?$AAo?$AAn?$AAe?$AAn?$AAt?$AA?5?$AAC?$AAa?$AAt?$AAe?$AAg?$AAo?$AAr?$AAi?$AAe?$AAs?$AA?$AA@ 10001eec     main.obj
+ 0001:00000f18       ??_C@_1M@KANJNLFF@?$AAC?$AAL?$AAS?$AAI?$AAD?$AA?$AA@ 10001f18     main.obj
+ 0001:00000f24       ??_C@_1M@EJNEECMJ@?$AAA?$AAp?$AAp?$AAI?$AAD?$AA?$AA@ 10001f24     main.obj
+ 0001:00000f30       ??_C@_1O@JDLOHAN@?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AA?$AA@ 10001f30     main.obj
+ 0001:00000f40       ??_C@_1BC@GCKHIPE@?$AAN?$AAo?$AAR?$AAe?$AAm?$AAo?$AAv?$AAe?$AA?$AA@ 10001f40     main.obj
+ 0001:00000f54       ??_C@_1BI@JFAIJMHL@?$AAF?$AAo?$AAr?$AAc?$AAe?$AAR?$AAe?$AAm?$AAo?$AAv?$AAe?$AA?$AA@ 10001f54     main.obj
+ 0001:00000f6c       ??_C@_17LLMMEOJD@?$AAV?$AAa?$AAl?$AA?$AA@ 10001f6c     main.obj
+ 0001:00000f74       ??_C@_13OPKGLAFF@?$AAB?$AA?$AA@ 10001f74     main.obj
+ 0001:00000f78       ??_C@_13MKMNOPIJ@?$AAD?$AA?$AA@ 10001f78     main.obj
+ 0001:00000f7c       ??_C@_13LHMFKAAD@?$AAM?$AA?$AA@ 10001f7c     main.obj
+ 0001:00000f80       ??_C@_13HADIAKP@?$AAS?$AA?$AA@ 10001f80     main.obj
+ 0001:00000fa4       ?rgszNeverDelete@CRegParser@ATL@@1QBQBGB 10001fa4     main.obj
+ 0001:00000fd8       ??_7?$CComObject@VCConfigManager2@@@ATL@@6B@ 10001fd8     main.obj
+ 0001:00001018       ?_entries@?1??_GetEntries@CConfigManager2@@SAPBU_ATL_INTMAP_ENTRY@ATL@@XZ@4QBU34@B 10002018     main.obj
+ 0001:00001030       _GUID_56a4bdd5_835a_4dd5_95b5_44805ca37db0 10002030     main.obj
+ 0001:00001040       ??_7?$CComContainedObject@VCConfigManager2@@@ATL@@6B@ 10002040     main.obj
+ 0001:00001080       ??_7?$CComObject@VCConfigManager2URI@@@ATL@@6B@ 10002080     main.obj
+ 0001:000010f8       ?_entries@?1??_GetEntries@CConfigManager2URI@@SAPBU_ATL_INTMAP_ENTRY@ATL@@XZ@4QBU34@B 100020f8     main.obj
+ 0001:00001110       ??_7?$CComObject@VCConfigManager2MutableURI@@@ATL@@6B@ 10002110     main.obj
+ 0001:00001188       ?_entries@?1??_GetEntries@CConfigManager2MutableURI@@SAPBU_ATL_INTMAP_ENTRY@ATL@@XZ@4QBU34@B 10002188     main.obj
+ 0001:000011ac       ??_7CComClassFactory@ATL@@6B@ 100021ac     main.obj
+ 0001:000011c4       ??_7?$CComAggObject@VCConfigManager2@@@ATL@@6B@ 100021c4     main.obj
+ 0001:000011d4       ??_7CComModule@ATL@@6B@    100021d4     main.obj
+ 0001:000011fc       _GUID_00000146_0000_0000_c000_000000000046 100021fc     main.obj
+ 0001:00001210       ?map@?1??HKeyFromString@CRegParser@ATL@@KAPAUHKEY__@@PAG@Z@4QBUkeymap@?1??123@KAPAU4@0@Z@B 10002210     main.obj
+ 0001:00001250       ??_C@_19NCHLBIN@?$AAH?$AAK?$AAC?$AAR?$AA?$AA@ 10002250     main.obj
+ 0001:0000125c       ??_C@_19JAPAIJDE@?$AAH?$AAK?$AAC?$AAU?$AA?$AA@ 1000225c     main.obj
+ 0001:00001268       ??_C@_19PEALEEJB@?$AAH?$AAK?$AAL?$AAM?$AA?$AA@ 10002268     main.obj
+ 0001:00001274       ??_C@_17PJOJPMPB@?$AAH?$AAK?$AAU?$AA?$AA@ 10002274     main.obj
+ 0001:0000127c       ??_C@_1CE@PACHPJFI@?$AAH?$AAK?$AAE?$AAY?$AA_?$AAC?$AAL?$AAA?$AAS?$AAS?$AAE?$AAS?$AA_?$AAR?$AAO?$AAO?$AAT?$AA?$AA@ 1000227c     main.obj
+ 0001:000012a0       ??_C@_1CE@HLHNCBPM@?$AAH?$AAK?$AAE?$AAY?$AA_?$AAC?$AAU?$AAR?$AAR?$AAE?$AAN?$AAT?$AA_?$AAU?$AAS?$AAE?$AAR?$AA?$AA@ 100022a0     main.obj
+ 0001:000012c4       ??_C@_1CG@GFBEANJL@?$AAH?$AAK?$AAE?$AAY?$AA_?$AAL?$AAO?$AAC?$AAA?$AAL?$AA_?$AAM?$AAA?$AAC?$AAH?$AAI?$AAN?$AAE?$AA?$AA@ 100022c4     main.obj
+ 0001:000012ec       ??_C@_1BG@BGODANIO@?$AAH?$AAK?$AAE?$AAY?$AA_?$AAU?$AAS?$AAE?$AAR?$AAS?$AA?$AA@ 100022ec     main.obj
+ 0001:00001304       ??_C@_11LOCGONAA@?$AA?$AA@ 10002304     main.obj
+ 0001:00001308       ??_C@_1M@PPPPCDEP@?$AAA?$AAP?$AAP?$AAI?$AAD?$AA?$AA@ 10002308     main.obj
+ 0001:00001314       ??_7CRegObject@ATL@@6B@    10002314     main.obj
+ 0001:0000132c       ??_C@_1BE@LJOLIMEM@?$AA?$AN?$AA?6?$AA?7?$AA?$HN?$AA?$AN?$AA?6?$AA?$HN?$AA?$AN?$AA?6?$AA?$AA@ 1000232c     main.obj
+ 0001:00001340       ??_C@_1EA@NHKLICFA@?$AAH?$AAK?$AAC?$AAU?$AA?$AN?$AA?6?$AA?$HL?$AA?7?$AAS?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AA?$AN?$AA?6?$AA?7?$AA?$HL?$AA?$AN?$AA?6?$AA?7?$AA?7?$AAC?$AAl?$AAa?$AAs?$AAs?$AAe?$AAs?$AA?$AA@ 10002340     main.obj
+ 0001:00001380       ??_7?$CComObjectNoLock@VCComClassFactory@ATL@@@ATL@@6B@ 10002380     main.obj
+ 0001:00001398       ?_entries@?1??_GetEntries@CComClassFactory@ATL@@SAPBU_ATL_INTMAP_ENTRY@3@XZ@4QBU43@B 10002398     main.obj
+ 0001:000013b0       _GUID_00000001_0000_0000_c000_000000000046 100023b0     main.obj
+ 0001:000013c0       ??_C@_1BC@KAILKFFG@?$AAR?$AAE?$AAG?$AAI?$AAS?$AAT?$AAR?$AAY?$AA?$AA@ 100023c0     main.obj
+ 0001:000013d4       ??_C@_1BG@JBACFMF@?$AAM?$AAo?$AAd?$AAu?$AAl?$AAe?$AA_?$AAR?$AAa?$AAw?$AA?$AA@ 100023d4     main.obj
+ 0001:000013ec       ??_C@_1O@MNLDABAF@?$AAM?$AAo?$AAd?$AAu?$AAl?$AAe?$AA?$AA@ 100023ec     main.obj
+ 0001:00001444       ??_C@_1BG@OJGFAOBL@?$AAT?$AAr?$AAa?$AAn?$AAs?$AAl?$AAa?$AAt?$AAo?$AAr?$AA?$AA@ 10002444     cspcache.obj
+ 0001:0000145c       ?c_LangIdSentinel@CConfigProperty@@0GB 1000245c     configproperties.obj
+ 0001:00001460       CFGMGR_PROPERTY_ACL        10002460     configproperties.obj
+ 0001:00001470       CFGMGR_PROPERTY_SEMANTICTYPE 10002470     configproperties.obj
+ 0001:00001480       CFGMGR_PROPERTY_LABEL      10002480     configproperties.obj
+ 0001:00001490       CFGMGR_PROPERTY_OPTIONS    10002490     configproperties.obj
+ 0001:000014a0       CFGMGR_PROPERTY_MAXLENGTH  100024a0     configproperties.obj
+ 0001:000014b0       CFGMGR_PROPERTY_MAXVALUE   100024b0     configproperties.obj
+ 0001:000014c0       CFGMGR_PROPERTY_MINVALUE   100024c0     configproperties.obj
+ 0001:000014d0       CFGMGR_PROPERTY_MULTIPLE   100024d0     configproperties.obj
+ 0001:000014e0       CFGMGR_PROPERTY_TSTAMP     100024e0     configproperties.obj
+ 0001:000014f0       CFGMGR_PROPERTY_SIZE       100024f0     configproperties.obj
+ 0001:00001500       _GUID_2842c0ff_7591_4615_895e_487456de0bf4 10002500     configproperties.obj
+ 0001:00001510       ??_C@_13FLOCNAAB@?$AA?$CG?$AA?$AA@ 10002510     uriquerypair.obj
+ 0001:00001514       ??_C@_13NMPKAAJP@?$AA?$DN?$AA?$AA@ 10002514     uriquerypair.obj
+ 0001:00001518       ??_C@_15DDHGOCBH@?$AA?4?$AA?4?$AA?$AA@ 10002518     parseuri.obj
+ 0001:00001520       ??_C@_13JOFGPIOO@?$AA?4?$AA?$AA@ 10002520     parseuri.obj
+ 0001:00001528       ?sc_ParserRulesParser_Start@CParseLocURI@@0QBUParserRule@1@B 10002528     parseuri.obj
+ 0001:00001564       ?sc_ParserRulesParser_QueryStart@CParseLocURI@@0QBUParserRule@1@B 10002564     parseuri.obj
+ 0001:00001588       ?sc_ParserRulesParser_MaybeAbsoluteURI@CParseLocURI@@0QBUParserRule@1@B 10002588     parseuri.obj
+ 0001:000015d0       ?sc_ParserRulesParser_EndSegment@CParseLocURI@@0QBUParserRule@1@B 100025d0     parseuri.obj
+ 0001:00001600       ?sc_ParserRulesParser_Segment@CParseLocURI@@0QBUParserRule@1@B 10002600     parseuri.obj
+ 0001:00001654       ?sc_ParserRulesParser_QueryValue@CParseLocURI@@0QBUParserRule@1@B 10002654     parseuri.obj
+ 0001:00001690       ?sc_ParserRulesParser_RelativeURI@CParseLocURI@@0QBUParserRule@1@B 10002690     parseuri.obj
+ 0001:000016e4       ?sc_ParserRulesParser_QueryName@CParseLocURI@@0QBUParserRule@1@B 100026e4     parseuri.obj
+ 0001:00001714       ?sc_QueryHashTableSize@CParseLocURI@@2KB 10002714     parseuri.obj
+ 0001:00001718       ?sc_CalculateStringLength@CParseLocURI@@2KB 10002718     parseuri.obj
+ 0001:00001720       ?sc_CharacterClass@CParseLocURI@@0QBKB 10002720     parsechstates.obj
+ 0001:00001920       ??_7CConfigManager2URIImpl@@6B@ 10002920     configuri.obj
+ 0001:00001998       ??_7CConfigManager2URI@@6B@ 10002998     configuri.obj
+ 0001:00001a10       ??_7CConfigManager2MutableURI@@6B@ 10002a10     configuri.obj
+ 0001:00001a88       _GUID_2b1c7bef_f8fb_4484_bb21_6c83a9142d8b 10002a88     configsession.obj
+ 0001:00001a98       _GUID_aca48b48_6aba_4667_954c_f794e33bc1c2 10002a98     configsession.obj
+ 0001:00001ac8       CLSID_StdGlobalInterfaceTable 10002ac8     dcomuuid:dcomuuid.obj
+ 0001:00001ad8       IID_IConfigServiceProvider2 10002ad8     cfguuid:cmgrcsp_i.obj
+ 0001:00001ae8       IID_ICSPValidate           10002ae8     cfguuid:cmgrcsp_i.obj
+ 0001:00001af8       IID_ICSPNodeTransactioning 10002af8     cfguuid:cmgrcsp_i.obj
+ 0001:00001b08       IID_IConfigManager2MutableURI 10002b08     cfguuid:cmgruri_i.obj
+ 0001:00001b18       IID_ICSPURITranslator      10002b18     cfguuid:cmgruri_i.obj
+ 0001:00001b28       IID_IEnumConfigNodes       10002b28     cfguuid:cfgmgr2_i.obj
+ 0001:00001b38       IID_IEnumCommandStates     10002b38     cfguuid:cfgmgr2_i.obj
+ 0001:00001b48       LIBID_ConfigManager2       10002b48     cfguuid:cfgmgr2_i.obj
+ 0001:00001b58       CLSID_ConfigManager2       10002b58     cfguuid:cfgmgr2_i.obj
+ 0001:00001b68       CLSID_ConfigManager2URI    10002b68     cfguuid:cfgmgr2_i.obj
+ 0001:00001b78       CLSID_ConfigManager2MutableURI 10002b78     cfguuid:cfgmgr2_i.obj
+ 0001:00001b88       IID_IConfigMetabaseEntry2  10002b88     cfguuid:metabase2_i.obj
+ 0001:00001b98       GUID_ATLVer30              10002b98     atls:atlbase.obj
+ 0001:00001ba8       GUID_ATLVer70              10002ba8     atls:atlbase.obj
+ 0001:00001c04       ?_GetProcFromDLL@@YAXPAPAUHINSTANCE__@@PBGPAP6AHXZ1@Z 10002c04 f   helpers.obj
+ 0001:00001c58       CfgUtilGetCfgMgrRecoveryFile 10002c58 f   helpers.obj
+ 0001:00001cd0       CfgUtilCreateCfgMgrRecoveryDir 10002cd0 f   helpers.obj
+ 0001:00001d34       ?StartRebootDeferral@@YAJABU_GUID@@K@Z 10002d34 f   helpers.obj
+ 0001:00001d8c       ?StopRebootDeferral@@YAJABU_GUID@@K@Z 10002d8c f   helpers.obj
+ 0001:00001de4       ?CreateURIFromStream@@YAJPAUISequentialStream@@PAPAUIConfigManager2URI@@@Z 10002de4 f   helpers.obj
+ 0001:00001e7c       ?ValidateSemanticType@@YAHW4ConfigDataType@@@Z 10002e7c f i nodewrapper.obj
+ 0001:00001edc       ?InlineIsEqualGUID@@YAHABU_GUID@@0@Z 10002edc f i nodewrapper.obj
+ 0001:00001f24       ?AtlInternalQueryInterface@ATL@@YAJPAXPBU_ATL_INTMAP_ENTRY@1@ABU_GUID@@PAPAX@Z 10002f24 f i nodewrapper.obj
+ 0001:00002050       ?Initialize@CNodeWrapper@@AAAJPAUIConfigManager2URI@@0PAUIConfigServiceProvider2@@PAUICSPNode@@KPAVCConfigSession2@@@Z 10003050 f   nodewrapper.obj
+ 0001:00002184       ?GetChildNodeNames@CNodeWrapper@@UAAJPAKPAPAPAG@Z 10003184 f   nodewrapper.obj
+ 0001:000021c0       ?Add@CNodeWrapper@@UAAJPAUIConfigManager2URI@@W4ConfigDataType@@UtagVARIANT@@PAPAUICSPNode@@PAK@Z 100031c0 f   nodewrapper.obj
+ 0001:0000232c       ?Copy@CNodeWrapper@@UAAJPAUIConfigManager2URI@@PAPAUICSPNode@@PAK@Z 1000332c f   nodewrapper.obj
+ 0001:00002450       ?DeleteChild@CNodeWrapper@@UAAJPAUIConfigManager2URI@@@Z 10003450 f   nodewrapper.obj
+ 0001:00002490       ?Clear@CNodeWrapper@@UAAJXZ 10003490 f   nodewrapper.obj
+ 0001:00002550       ?Execute@CNodeWrapper@@UAAJUtagVARIANT@@@Z 10003550 f   nodewrapper.obj
+ 0001:000025c8       ?Move@CNodeWrapper@@UAAJPAUIConfigManager2URI@@@Z 100035c8 f   nodewrapper.obj
+ 0001:000026f8       ?GetValue@CNodeWrapper@@UAAJPAUtagVARIANT@@@Z 100036f8 f   nodewrapper.obj
+ 0001:00002738       ?SetValue@CNodeWrapper@@UAAJUtagVARIANT@@@Z 10003738 f   nodewrapper.obj
+ 0001:0000278c       ?SetProperty@CNodeWrapper@@UAAJABU_GUID@@UtagVARIANT@@@Z 1000378c f   nodewrapper.obj
+ 0001:000028fc       ?DeleteProperty@CNodeWrapper@@UAAJABU_GUID@@@Z 100038fc f   nodewrapper.obj
+ 0001:00002a34       ?GetPropertyIdentifiers@CNodeWrapper@@UAAJPAKPAPAU_GUID@@@Z 10003a34 f   nodewrapper.obj
+ 0001:00002a84       ?PersistRollbackExecuteState@CNodeWrapper@@UAAJUtagVARIANT@@PAUISequentialStream@@1@Z 10003a84 f   nodewrapper.obj
+ 0001:00002b20       ?RollbackExecute@CNodeWrapper@@UAAJPAUISequentialStream@@H@Z 10003b20 f   nodewrapper.obj
+ 0001:00002b68       ?Commit@CNodeWrapper@@UAAJXZ 10003b68 f   nodewrapper.obj
+ 0001:00002b90       ?ExternalRollbackAdd@CNodeWrapper@@AAAJPAUISequentialStream@@@Z 10003b90 f   nodewrapper.obj
+ 0001:00002cf0       ?ExternalSaveSetValue@CNodeWrapper@@AAAJUtagVARIANT@@PAUISequentialStream@@@Z 10003cf0 f   nodewrapper.obj
+ 0001:00002da8       ?ExternalRollbackSetValue@CNodeWrapper@@AAAJPAUISequentialStream@@@Z 10003da8 f   nodewrapper.obj
+ 0001:00002e6c       ?SaveNodeValue@CNodeWrapper@@AAAJPAUICSPNode@@PAUISequentialStream@@@Z 10003e6c f   nodewrapper.obj
+ 0001:00002ec4       ?RestoreNodeByAdd@CNodeWrapper@@AAAJPAUICSPNode@@PAUISequentialStream@@PAPAU2@PAW4ConfigDataType@@PAPAUIConfigManager2URI@@PAK@Z 10003ec4 f   nodewrapper.obj
+ 0001:000030fc       ?GetArbitraryCSPNode@CNodeWrapper@@AAAJPAUIConfigServiceProvider2@@PAUICSPNode@@PAUIConfigManager2URI@@PAPAU3@PAK@Z 100040fc f   nodewrapper.obj
+ 0001:0000318c       ??1?$CComObject@VCUndoStream@@@ATL@@UAA@XZ 1000418c f i nodewrapper.obj
+ 0001:000031cc       ?QueryInterface@?$CComObject@VCUndoStream@@@ATL@@UAAJABU_GUID@@PAPAX@Z 100041cc f i nodewrapper.obj
+ 0001:000031e0       ??_E?$CComObject@VCUndoStream@@@ATL@@UAAPAXI@Z 100041e0 f i nodewrapper.obj
+ 0001:000031e0       ??_G?$CComObject@VCUndoStream@@@ATL@@UAAPAXI@Z 100041e0 f i nodewrapper.obj
+ 0001:00003204       ??1CNodeWrapper@@MAA@XZ    10004204 f   nodewrapper.obj
+ 0001:000032f4       ?PersistRollbackAddState@CNodeWrapper@@UAAJPAUIConfigManager2URI@@W4ConfigDataType@@UtagVARIANT@@PAUISequentialStream@@3@Z 100042f4 f   nodewrapper.obj
+ 0001:000033e0       ?PersistRollbackSetValueState@CNodeWrapper@@UAAJUtagVARIANT@@PAUISequentialStream@@1@Z 100043e0 f   nodewrapper.obj
+ 0001:0000348c       ?RollbackAdd@CNodeWrapper@@UAAJPAUISequentialStream@@H@Z 1000448c f   nodewrapper.obj
+ 0001:000034e8       ?RollbackSetValue@CNodeWrapper@@UAAJPAUISequentialStream@@H@Z 100044e8 f   nodewrapper.obj
+ 0001:00003544       ?RestoreNodeState@CNodeWrapper@@AAAJPAUICSPNode@@PAUISequentialStream@@PAPAU2@@Z 10004544 f   nodewrapper.obj
+ 0001:00003620       ??0?$CComObject@VCNodeWrapper@@@ATL@@QAA@PAX@Z 10004620 f i nodewrapper.obj
+ 0001:00003690       ?QueryInterface@?$CComObject@VCNodeWrapper@@@ATL@@UAAJABU_GUID@@PAPAX@Z 10004690 f i nodewrapper.obj
+ 0001:000036a4       ?QueryInterface@?$CComObject@VCNodeWrapper@@@ATL@@W3AAJABU_GUID@@PAPAX@Z 100046a4 f i nodewrapper.obj
+ 0001:000036ac       ??1?$CComObject@VCNodeWrapper@@@ATL@@UAA@XZ 100046ac f i nodewrapper.obj
+ 0001:000036f8       ?AddRef@?$CComObject@VCNodeWrapper@@@ATL@@UAAKXZ 100046f8 f i nodewrapper.obj
+ 0001:00003700       ?Release@?$CComObject@VCNodeWrapper@@@ATL@@UAAKXZ 10004700 f i nodewrapper.obj
+ 0001:00003738       ?AddRef@?$CComObject@VCUndoStream@@@ATL@@UAAKXZ 10004738 f i nodewrapper.obj
+ 0001:00003740       ?Release@?$CComObject@VCUndoStream@@@ATL@@UAAKXZ 10004740 f i nodewrapper.obj
+ 0001:00003778       ??_E?$CComObject@VCNodeWrapper@@@ATL@@UAAPAXI@Z 10004778 f i nodewrapper.obj
+ 0001:00003778       ??_G?$CComObject@VCNodeWrapper@@@ATL@@UAAPAXI@Z 10004778 f i nodewrapper.obj
+ 0001:0000379c       ?Release@?$CComObject@VCNodeWrapper@@@ATL@@W3AAKXZ 1000479c f i nodewrapper.obj
+ 0001:000037a4       ?AddRef@?$CComObject@VCNodeWrapper@@@ATL@@W3AAKXZ 100047a4 f i nodewrapper.obj
+ 0001:000037ac       ?ConstructWrapper@CNodeWrapper@@CAJPAUIConfigManager2URI@@0PAUIConfigServiceProvider2@@PAUICSPNode@@KPAVCConfigSession2@@PAPAU4@@Z 100047ac f   nodewrapper.obj
+ 0001:00003870       ?RollbackDeleteChild@CNodeWrapper@@UAAJPAUISequentialStream@@H@Z 10004870 f   nodewrapper.obj
+ 0001:000038fc       ?ExternalRollbackCopy@CNodeWrapper@@AAAJPAUISequentialStream@@@Z 100048fc f   nodewrapper.obj
+ 0001:00003b7c       ?ExternalRollbackMove@CNodeWrapper@@AAAJPAUISequentialStream@@@Z 10004b7c f   nodewrapper.obj
+ 0001:00003d94       ?CreateCSPNodeWrapper@CNodeWrapper@@SAJPAUIConfigManager2URI@@0PAUIConfigServiceProvider2@@PAUICSPNode@@KPAVCConfigSession2@@PAPAU4@@Z 10004d94 f   nodewrapper.obj
+ 0001:00003de8       ?GetProperty@CNodeWrapper@@UAAJABU_GUID@@PAUtagVARIANT@@@Z 10004de8 f   nodewrapper.obj
+ 0001:00003e8c       ?RollbackCopy@CNodeWrapper@@UAAJPAUISequentialStream@@H@Z 10004e8c f   nodewrapper.obj
+ 0001:00003ee8       ?RollbackMove@CNodeWrapper@@UAAJPAUISequentialStream@@H@Z 10004ee8 f   nodewrapper.obj
+ 0001:00003f44       ?GetNodeDataType@CNodeWrapper@@AAAJPAUICSPNode@@PAUIConfigManager2URI@@KPAW4ConfigDataType@@@Z 10004f44 f   nodewrapper.obj
+ 0001:00003fc0       ?ExternalRollbackClear@CNodeWrapper@@AAAJPAUISequentialStream@@H@Z 10004fc0 f   nodewrapper.obj
+ 0001:0000437c       ?ExternalSaveSetProperty@CNodeWrapper@@AAAJABU_GUID@@PAUISequentialStream@@@Z 1000537c f   nodewrapper.obj
+ 0001:000044b4       ?ExternalRollbackSetProperty@CNodeWrapper@@AAAJPAUISequentialStream@@@Z 100054b4 f   nodewrapper.obj
+ 0001:00004648       ?SaveNodeForRestoreByAdd@CNodeWrapper@@AAAJPAUIConfigManager2URI@@PAUISequentialStream@@PAW4ConfigDataType@@@Z 10005648 f   nodewrapper.obj
+ 0001:0000476c       ?PersistRollbackSetPropertyState@CNodeWrapper@@UAAJABU_GUID@@UtagVARIANT@@PAUISequentialStream@@2@Z 1000576c f   nodewrapper.obj
+ 0001:00004934       ?PersistRollbackDeletePropertyState@CNodeWrapper@@UAAJABU_GUID@@PAUISequentialStream@@1@Z 10005934 f   nodewrapper.obj
+ 0001:00004ae0       ?RollbackClear@CNodeWrapper@@UAAJPAUISequentialStream@@H@Z 10005ae0 f   nodewrapper.obj
+ 0001:00004b18       ?RollbackSetProperty@CNodeWrapper@@UAAJPAUISequentialStream@@H@Z 10005b18 f   nodewrapper.obj
+ 0001:00004bdc       ?RollbackDeleteProperty@CNodeWrapper@@UAAJPAUISequentialStream@@H@Z 10005bdc f   nodewrapper.obj
+ 0001:00004ca0       ?ExternalSaveDeleteChild@CNodeWrapper@@AAAJPAUIConfigManager2URI@@PAUISequentialStream@@@Z 10005ca0 f   nodewrapper.obj
+ 0001:00004d18       ?ExternalSaveClear@CNodeWrapper@@AAAJPAUISequentialStream@@@Z 10005d18 f   nodewrapper.obj
+ 0001:000052e8       ?SaveNodeState@CNodeWrapper@@AAAJPAUICSPNode@@PAUIConfigManager2URI@@KPAUISequentialStream@@@Z 100062e8 f   nodewrapper.obj
+ 0001:00005338       ?PersistRollbackDeleteChildState@CNodeWrapper@@UAAJPAUIConfigManager2URI@@PAUISequentialStream@@1@Z 10006338 f   nodewrapper.obj
+ 0001:000053a8       ?PersistRollbackClearState@CNodeWrapper@@UAAJPAUISequentialStream@@0@Z 100063a8 f   nodewrapper.obj
+ 0001:000054f0       ?ExternalSaveCopy@CNodeWrapper@@AAAJPAUIConfigManager2URI@@PAUISequentialStream@@@Z 100064f0 f   nodewrapper.obj
+ 0001:00005638       ?ExternalSaveMove@CNodeWrapper@@AAAJPAUIConfigManager2URI@@PAUISequentialStream@@@Z 10006638 f   nodewrapper.obj
+ 0001:00005784       ?PersistRollbackCopyState@CNodeWrapper@@UAAJPAUIConfigManager2URI@@PAUISequentialStream@@1@Z 10006784 f   nodewrapper.obj
+ 0001:000057f4       ?PersistRollbackMoveState@CNodeWrapper@@UAAJPAUIConfigManager2URI@@PAUISequentialStream@@1@Z 100067f4 f   nodewrapper.obj
+ 0001:0000597c       CePerfOpenSession          1000697c f i configmanager2.obj
+ 0001:00005a74       CePerfCloseSession         10006a74 f i configmanager2.obj
+ 0001:00005b10       CePerfRegisterBulk         10006b10 f i configmanager2.obj
+ 0001:00005b84       CePerfDeregisterBulk       10006b84 f i configmanager2.obj
+ 0001:00005bf8       CePerfBeginDuration        10006bf8 f i configmanager2.obj
+ 0001:00005c6c       CePerfEndDuration          10006c6c f i configmanager2.obj
+ 0001:00005cfc       CePerfFlushSession         10006cfc f i configmanager2.obj
+ 0001:00005df8       ?GetDescriptorCount@CePerfBasicHelper@@ABAKPAU_CEPERF_BASIC_ITEM_DESCRIPTOR@@@Z 10006df8 f i configmanager2.obj
+ 0001:00005e3c       ?Load@CConfigManager2@@UAAJPAG@Z 10006e3c f   configmanager2.obj
+ 0001:00005e48       ?Save@CConfigManager2@@UAAJPAG@Z 10006e48 f   configmanager2.obj
+ 0001:00005e54       ?DestroyConfigNode@CConfigManager2@@CAHPAX0@Z 10006e54 f   configmanager2.obj
+ 0001:00005e70       ?ClearNodePropertyCache@CConfigManager2@@CAJPAXJPAH@Z 10006e70 f   configmanager2.obj
+ 0001:00005e8c       ?UninitCePerf@CePerfBasicHelper@@QAAJXZ 10006e8c f i configmanager2.obj
+ 0001:00005f04       ?Attach@CePerfBasicHelper@@AAAJPAU_CEPERF_BASIC_ITEM_DESCRIPTOR@@K@Z 10006f04 f i configmanager2.obj
+ 0001:00005f54       ?InternalRelease@CConfigManager2@@IAAKXZ 10006f54 f   configmanager2.obj
+ 0001:00005fb8       ?SessionInitialized@CConfigManager2@@AAAHXZ 10006fb8 f   configmanager2.obj
+ 0001:00006018       ?EnsureSessionInitialized@CConfigManager2@@AAAJXZ 10007018 f   configmanager2.obj
+ 0001:000060e4       ?SetHost@CConfigManager2@@UAAJPAUIUnknown@@@Z 100070e4 f   configmanager2.obj
+ 0001:0000614c       ?InitializeAccessRoles@CConfigManager2@@UAAJK@Z 1000714c f   configmanager2.obj
+ 0001:00006170       ?SetSessionVariable@CConfigManager2@@UAAJPAGUtagVARIANT@@@Z 10007170 f   configmanager2.obj
+ 0001:00006200       ?DecInternalRef@CConfigManager2@@QAAXXZ 10007200 f   configmanager2.obj
+ 0001:00006210       ?BeginCSPNotification@CConfigManager2@@AAAJW4ConfigManager2Notification@@ABUTransactionIterator@CConfigCmdCache@@HW4CmdState@@PAK@Z 10007210 f   configmanager2.obj
+ 0001:00006340       ?EndCSPNotification@CConfigManager2@@AAAJW4ConfigManager2Notification@@ABUTransactionIterator@CConfigCmdCache@@K@Z 10007340 f   configmanager2.obj
+ 0001:0000644c       ?GetCachedData@CConfigManager2@@QAAJKPAVCDataCacheEntry@@@Z 1000744c f   configmanager2.obj
+ 0001:000064ac       ?ClearCSPNodeInfo@CConfigManager2@@CAJPAXJPAH@Z 100074ac f   configmanager2.obj
+ 0001:00006640       ?ClearDataCache@CConfigManager2@@AAAJXZ 10007640 f   configmanager2.obj
+ 0001:000066a0       ?ComputeURINodeHash@CConfigManager2@@CAIIPAX@Z 100076a0 f   configmanager2.obj
+ 0001:000066f4       ?CompareURINode@CConfigManager2@@CAJPAX0PAH@Z 100076f4 f   configmanager2.obj
+ 0001:0000675c       ?GetSafeURI@CConfigManager2@@SAJPAUIConfigManager2URI@@PAPAU2@@Z 1000775c f   configmanager2.obj
+ 0001:000067fc       ?FlushToRecoveryRollbackStream@CConfigManager2@@AAAJPAVCConfigCmd@@@Z 100077fc f   configmanager2.obj
+ 0001:000068bc       ?InitRecoveryFileName@CConfigManager2@@AAAJXZ 100078bc f   configmanager2.obj
+ 0001:00006938       ??1?$CComObject@VCConfigSession2@@@ATL@@UAA@XZ 10007938 f i configmanager2.obj
+ 0001:00006978       ??1?$CComObject@VCConfigNode@@@ATL@@UAA@XZ 10007978 f i configmanager2.obj
+ 0001:000069b8       ?QueryInterface@?$CComObject@VCConfigNode@@@ATL@@UAAJABU_GUID@@PAPAX@Z 100079b8 f i configmanager2.obj
+ 0001:000069cc       ??_E?$CComObject@VCConfigSession2@@@ATL@@UAAPAXI@Z 100079cc f i configmanager2.obj
+ 0001:000069cc       ??_G?$CComObject@VCConfigSession2@@@ATL@@UAAPAXI@Z 100079cc f i configmanager2.obj
+ 0001:000069f0       ??_G?$CComObject@VCConfigNode@@@ATL@@UAAPAXI@Z 100079f0 f i configmanager2.obj
+ 0001:000069f0       ??_E?$CComObject@VCConfigNode@@@ATL@@UAAPAXI@Z 100079f0 f i configmanager2.obj
+ 0001:00006a14       ?InitCePerf@CePerfBasicHelper@@QAAJPBG0PAU_CEPERF_BASIC_ITEM_DESCRIPTOR@@K@Z 10007a14 f i configmanager2.obj
+ 0001:00006ad4       ??0CConfigManager2@@IAA@XZ 10007ad4 f   configmanager2.obj
+ 0001:00006b5c       ??1CConfigManager2@@MAA@XZ 10007b5c f   configmanager2.obj
+ 0001:00006be4       ?ClearCaches@CConfigManager2@@AAAXXZ 10007be4 f   configmanager2.obj
+ 0001:00006c24       ?AllocateCaches@CConfigManager2@@AAAJXZ 10007c24 f   configmanager2.obj
+ 0001:00006d88       ?ClearConfigNodesCSPNodeInfo@CConfigManager2@@QAAJPAVCConfigNode@@@Z 10007d88 f   configmanager2.obj
+ 0001:00006db0       ?PrepareRecoveryRollbackFile@CConfigManager2@@AAAJXZ 10007db0 f   configmanager2.obj
+ 0001:00006ee0       ?ClearRecoveryRollbackState@CConfigManager2@@AAAJXZ 10007ee0 f   configmanager2.obj
+ 0001:00006f70       ?GetRecoveryStreamFromFile@CConfigManager2@@AAAJPAPAUISequentialStream@@@Z 10007f70 f   configmanager2.obj
+ 0001:00007154       ?AddRef@?$CComObject@VCConfigSession2@@@ATL@@UAAKXZ 10008154 f i configmanager2.obj
+ 0001:0000715c       ?Release@?$CComObject@VCConfigSession2@@@ATL@@UAAKXZ 1000815c f i configmanager2.obj
+ 0001:00007194       ?QueryInterface@?$CComObject@VCConfigSession2@@@ATL@@UAAJABU_GUID@@PAPAX@Z 10008194 f i configmanager2.obj
+ 0001:000071a8       ?AddRef@?$CComObject@VCConfigNode@@@ATL@@UAAKXZ 100081a8 f i configmanager2.obj
+ 0001:000071b0       ?Release@?$CComObject@VCConfigNode@@@ATL@@UAAKXZ 100081b0 f i configmanager2.obj
+ 0001:000071e8       ?Cancel@CConfigManager2@@UAAJXZ 100081e8 f   configmanager2.obj
+ 0001:0000724c       ?AddCommand@CConfigManager2@@QAAJPAVCConfigCmd@@@Z 1000824c f   configmanager2.obj
+ 0001:0000729c       ?AddInternalRef@CConfigManager2@@QAAJXZ 1000829c f   configmanager2.obj
+ 0001:000072e8       ?ExecuteTransaction@CConfigManager2@@AAAJABUTransactionIterator@CConfigCmdCache@@@Z 100082e8 f   configmanager2.obj
+ 0001:000074a4       ?RollbackTransaction@CConfigManager2@@AAAJABUTransactionIterator@CConfigCmdCache@@H@Z 100084a4 f   configmanager2.obj
+ 0001:00007644       ?CommitTransaction@CConfigManager2@@AAAJABUTransactionIterator@CConfigCmdCache@@@Z 10008644 f   configmanager2.obj
+ 0001:000077b0       ?AddCachedData@CConfigManager2@@QAAJPAVCDataCacheEntry@@PAH@Z 100087b0 f   configmanager2.obj
+ 0001:00007830       ?AddNodeToCache@CConfigManager2@@QAAJPAUIConfigManager2URI@@PAUIConfigNode@@@Z 10008830 f   configmanager2.obj
+ 0001:000078a0       ?_DoRecoveryRollbackSafe@CConfigManager2@@AAAJXZ 100088a0 f   configmanager2.obj
+ 0001:00007ab0       ?BeginTransaction@CConfigManager2@@UAAJXZ 10008ab0 f   configmanager2.obj
+ 0001:00007b34       ?CommitTransaction@CConfigManager2@@UAAJXZ 10008b34 f   configmanager2.obj
+ 0001:00007bb8       ?CancelCurrentTransaction@CConfigManager2@@UAAJXZ 10008bb8 f   configmanager2.obj
+ 0001:00007c3c       ?ExecuteBatch@CConfigManager2@@AAAJXZ 10008c3c f   configmanager2.obj
+ 0001:00007de0       ?GetConfigNode@CConfigManager2@@AAAJPAUIConfigManager2URI@@PAPAUIConfigNode@@@Z 10008de0 f   configmanager2.obj
+ 0001:00008030       ?DoRecoveryRollback@CConfigManager2@@AAAJXZ 10009030 f   configmanager2.obj
+ 0001:00008108       ?Execute@CConfigManager2@@UAAJXZ 10009108 f   configmanager2.obj
+ 0001:0000824c       ?GetNodeFromURIInternal@CConfigManager2@@QAAJPAUIConfigManager2URI@@HPAPAUIConfigNode@@@Z 1000924c f   configmanager2.obj
+ 0001:000083e8       ?GetNode@CConfigManager2@@UAAJPAGPAPAUIConfigNode@@@Z 100093e8 f   configmanager2.obj
+ 0001:00008450       ?GetNodeFromURI@CConfigManager2@@UAAJPAUIConfigManager2URI@@PAPAUIConfigNode@@@Z 10009450 f   configmanager2.obj
+ 0001:0000845c       ?GetCSPNode@CConfigNode@@QAAPAUICSPNode@@XZ 1000945c f   confignode.obj
+ 0001:00008484       ?AtlThrowImpl@ATL@@YAXJ@Z  10009484 f i confignode.obj
+ 0001:000084b0       ?AtlCrtErrorCheck@ATL@@YAHH@Z 100094b0 f i confignode.obj
+ 0001:00008504       ?AtlComPtrAssign@ATL@@YAPAUIUnknown@@PAPAU2@PAU2@@Z 10009504 f i confignode.obj
+ 0001:00008550       ?EnumProperties@CConfigNode@@UAAJPAPAUIEnumConfigNodeProperties@@@Z 10009550 f   confignode.obj
+ 0001:0000855c       ?UpdateCommandResult@CConfigNode@@QAAXJHH@Z 1000955c f   confignode.obj
+ 0001:000085a8       ?copy@?$_CopyInterface@UIConfigNode@@@ATL@@SAJPAPAUIConfigNode@@PBQAU3@@Z 100095a8 f i confignode.obj
+ 0001:000085ec       ?Initialize@CConfigCmdResultList@@QAAJPAU_DPA@@@Z 100095ec f i confignode.obj
+ 0001:00008648       ?ClearCSPNodeInfo@CConfigNode@@QAAJH@Z 10009648 f   confignode.obj
+ 0001:000086a4       ?InitializeNode@CConfigNode@@QAAJPAUIConfigManager2URI@@PAVCCSPCacheEntry@@PAVCConfigManager2@@H@Z 100096a4 f   confignode.obj
+ 0001:00008774       ?Add@CConfigNode@@UAAJPAGW4ConfigDataType@@UtagVARIANT@@PAPAUIConfigNode@@@Z 10009774 f   confignode.obj
+ 0001:00008824       ?Copy@CConfigNode@@UAAJPAGHPAPAUIConfigNode@@@Z 10009824 f   confignode.obj
+ 0001:000088b8       ?Move@CConfigNode@@UAAJPAGHPAPAUIConfigNode@@@Z 100098b8 f   confignode.obj
+ 0001:00008944       ?Delete@CConfigNode@@UAAJPAG@Z 10009944 f   confignode.obj
+ 0001:000089bc       ?GetLocationURI@CConfigNode@@UAAJPAPAG@Z 100099bc f   confignode.obj
+ 0001:00008a08       ?GetURI@CConfigNode@@UAAJPAPAUIConfigManager2URI@@@Z 10009a08 f   confignode.obj
+ 0001:00008a70       ?GetName@CConfigNode@@UAAJPAPAG@Z 10009a70 f   confignode.obj
+ 0001:00008afc       ?DidCommandsFail@CConfigNode@@UAAJPAH@Z 10009afc f   confignode.obj
+ 0001:00008b28       ?GetActiveCommandCount@CConfigNode@@UAAJPAK@Z 10009b28 f   confignode.obj
+ 0001:00008b68       ?GetNode@CConfigNode@@UAAJPAGPAPAUIConfigNode@@@Z 10009b68 f   confignode.obj
+ 0001:00008be8       ?GetNodeFromURI@CConfigNode@@UAAJPAUIConfigManager2URI@@PAPAUIConfigNode@@@Z 10009be8 f   confignode.obj
+ 0001:00008d20       ?WrapNode@CConfigNode@@AAAJKPAUICSPNode@@PAUIConfigManager2URI@@PAPAU2@@Z 10009d20 f   confignode.obj
+ 0001:00008e90       ?GenerateParentURI@CConfigNode@@AAAJPAPAUIConfigManager2URI@@@Z 10009e90 f   confignode.obj
+ 0001:00008f0c       ?GenerateRelativeURI@CConfigNode@@AAAJPAUIConfigManager2URI@@PAPAU2@@Z 10009f0c f   confignode.obj
+ 0001:00008fd0       ?CreateConfigNodeState@CConfigNode@@AAAJPAUIConfigNode@@PAPAV?$CComObject@VCConfigNodeState@@@ATL@@@Z 10009fd0 f   confignode.obj
+ 0001:00009060       ?CreateAddCommand@CConfigNode@@AAAJPAV1@PAUIConfigManager2URI@@1HW4ConfigDataType@@UtagVARIANT@@PAPAVCConfigCmd@@PAPAUIConfigNode@@@Z 1000a060 f   confignode.obj
+ 0001:0000930c       ?AddCommand@CConfigNode@@AAAJPAVCConfigCmd@@@Z 1000a30c f   confignode.obj
+ 0001:000093ec       ??1?$CComObject@VCConfigNodeState@@@ATL@@UAA@XZ 1000a3ec f i confignode.obj
+ 0001:0000942c       ?QueryInterface@?$CComObject@VCConfigNodeState@@@ATL@@UAAJABU_GUID@@PAPAX@Z 1000a42c f i confignode.obj
+ 0001:00009440       ??1?$CComObject@VCConfigNodeList@@@ATL@@UAA@XZ 1000a440 f i confignode.obj
+ 0001:00009480       ?QueryInterface@?$CComObject@VCConfigNodeList@@@ATL@@UAAJABU_GUID@@PAPAX@Z 1000a480 f i confignode.obj
+ 0001:00009494       ??_G?$CComObject@VCConfigNodeState@@@ATL@@UAAPAXI@Z 1000a494 f i confignode.obj
+ 0001:00009494       ??_E?$CComObject@VCConfigNodeState@@@ATL@@UAAPAXI@Z 1000a494 f i confignode.obj
+ 0001:000094b8       ??_G?$CComObject@VCConfigNodeList@@@ATL@@UAAPAXI@Z 1000a4b8 f i confignode.obj
+ 0001:000094b8       ??_E?$CComObject@VCConfigNodeList@@@ATL@@UAAPAXI@Z 1000a4b8 f i confignode.obj
+ 0001:000094dc       ??1?$CComEnumImpl@UIEnumCommandStates@@$1?IID_IEnumCommandStates@@3U_GUID@@BJV?$_Copy@J@ATL@@@ATL@@UAA@XZ 1000a4dc f i confignode.obj
+ 0001:0000950c       ??1?$CComEnumImpl@UIEnumConfigNodes@@$1?IID_IEnumConfigNodes@@3U_GUID@@BPAUIConfigNode@@V?$_CopyInterface@UIConfigNode@@@ATL@@@ATL@@UAA@XZ 1000a50c f i confignode.obj
+ 0001:0000956c       ??0CConfigNode@@IAA@XZ     1000a56c f   confignode.obj
+ 0001:000095bc       ??1CConfigNode@@MAA@XZ     1000a5bc f   confignode.obj
+ 0001:00009638       ?SetCSPNodeInfo@CConfigNode@@QAAJPAUIConfigManager2URI@@PAUICSPNode@@KH@Z 1000a638 f   confignode.obj
+ 0001:00009750       ?CopyURI@CConfigNode@@UAAJPAUIConfigManager2URI@@HPAPAUIConfigNode@@@Z 1000a750 f   confignode.obj
+ 0001:00009ae4       ?MoveURI@CConfigNode@@UAAJPAUIConfigManager2URI@@HPAPAUIConfigNode@@@Z 1000aae4 f   confignode.obj
+ 0001:00009ea8       ?DeleteURI@CConfigNode@@UAAJPAUIConfigManager2URI@@@Z 1000aea8 f   confignode.obj
+ 0001:0000a2f4       ?Execute@CConfigNode@@UAAJUtagVARIANT@@@Z 1000b2f4 f   confignode.obj
+ 0001:0000a488       ?DeleteProperty@CConfigNode@@UAAJABU_GUID@@@Z 1000b488 f   confignode.obj
+ 0001:0000a628       ?GetParent@CConfigNode@@UAAJPAPAUIConfigNode@@@Z 1000b628 f   confignode.obj
+ 0001:0000a734       ?CreateImplicitAddCommands@CConfigNode@@AAAJW4ConfigDataType@@PAUtagVARIANT@@@Z 1000b734 f   confignode.obj
+ 0001:0000ac38       ?ResolveCSPNode@CConfigNode@@QAAJXZ 1000bc38 f   confignode.obj
+ 0001:0000ae04       ?AddRef@?$CComObject@VCConfigNodeState@@@ATL@@UAAKXZ 1000be04 f i confignode.obj
+ 0001:0000ae0c       ?Release@?$CComObject@VCConfigNodeState@@@ATL@@UAAKXZ 1000be0c f i confignode.obj
+ 0001:0000ae44       ??0?$CComObject@VCConfigCmdResultList@@@ATL@@QAA@PAX@Z 1000be44 f i confignode.obj
+ 0001:0000ae84       ?QueryInterface@?$CComObject@VCConfigCmdResultList@@@ATL@@UAAJABU_GUID@@PAPAX@Z 1000be84 f i confignode.obj
+ 0001:0000ae98       ??1?$CComObject@VCConfigCmdResultList@@@ATL@@UAA@XZ 1000be98 f i confignode.obj
+ 0001:0000aed8       ?AddRef@?$CComObject@VCConfigCmdResultList@@@ATL@@UAAKXZ 1000bed8 f i confignode.obj
+ 0001:0000aee0       ?Release@?$CComObject@VCConfigCmdResultList@@@ATL@@UAAKXZ 1000bee0 f i confignode.obj
+ 0001:0000af18       ?AddRef@?$CComObject@VCConfigNodeList@@@ATL@@UAAKXZ 1000bf18 f i confignode.obj
+ 0001:0000af20       ?Release@?$CComObject@VCConfigNodeList@@@ATL@@UAAKXZ 1000bf20 f i confignode.obj
+ 0001:0000af58       ??_E?$CComObject@VCConfigCmdResultList@@@ATL@@UAAPAXI@Z 1000bf58 f i confignode.obj
+ 0001:0000af58       ??_G?$CComObject@VCConfigCmdResultList@@@ATL@@UAAPAXI@Z 1000bf58 f i confignode.obj
+ 0001:0000af7c       ?AddURI@CConfigNode@@UAAJPAUIConfigManager2URI@@W4ConfigDataType@@UtagVARIANT@@PAPAUIConfigNode@@@Z 1000bf7c f   confignode.obj
+ 0001:0000b30c       ?GetValue@CConfigNode@@UAAJPAUtagVARIANT@@@Z 1000c30c f   confignode.obj
+ 0001:0000b478       ?SetValue@CConfigNode@@UAAJUtagVARIANT@@W4ConfigDataType@@@Z 1000c478 f   confignode.obj
+ 0001:0000b7b4       ?SetProperty@CConfigNode@@UAAJABU_GUID@@UtagVARIANT@@@Z 1000c7b4 f   confignode.obj
+ 0001:0000bb30       ?Exists@CConfigNode@@UAAJPAH@Z 1000cb30 f   confignode.obj
+ 0001:0000bbd8       ?GetPropertyAndCache@CConfigNode@@AAAJABU_GUID@@PAUtagVARIANT@@@Z 1000cbd8 f   confignode.obj
+ 0001:0000bd2c       ?Init@?$CComEnumImpl@UIEnumCommandStates@@$1?IID_IEnumCommandStates@@3U_GUID@@BJV?$_Copy@J@ATL@@@ATL@@QAAJPAJ0PAUIUnknown@@W4CComEnumFlags@2@@Z 1000cd2c f i confignode.obj
+ 0001:0000bdf0       ?Init@?$CComEnumImpl@UIEnumConfigNodes@@$1?IID_IEnumConfigNodes@@3U_GUID@@BPAUIConfigNode@@V?$_CopyInterface@UIConfigNode@@@ATL@@@ATL@@QAAJPAPAUIConfigNode@@0PAUIUnknown@@W4CComEnumFlags@2@@Z 1000cdf0 f i confignode.obj
+ 0001:0000befc       ?GetStructuralNodeProperty@CConfigNode@@AAAJABU_GUID@@PAUtagVARIANT@@@Z 1000cefc f   confignode.obj
+ 0001:0000c038       ??0?$CComObject@V?$CComEnum@UIEnumCommandStates@@$1?IID_IEnumCommandStates@@3U_GUID@@BJV?$_Copy@J@ATL@@VCComMultiThreadModelNoCS@5@@ATL@@@ATL@@QAA@PAX@Z 1000d038 f i confignode.obj
+ 0001:0000c090       ?Init@CComCriticalSection@ATL@@QAAJXZ 1000d090 f i confignode.obj
+ 0001:0000c0e8       ?Reset@?$CComEnumImpl@UIEnumCommandStates@@$1?IID_IEnumCommandStates@@3U_GUID@@BJV?$_Copy@J@ATL@@@ATL@@UAAJXZ 1000d0e8 f i confignode.obj
+ 0001:0000c0fc       ?Skip@?$CComEnumImpl@UIEnumCommandStates@@$1?IID_IEnumCommandStates@@3U_GUID@@BJV?$_Copy@J@ATL@@@ATL@@UAAJK@Z 1000d0fc f i confignode.obj
+ 0001:0000c140       ?Next@?$CComEnumImpl@UIEnumCommandStates@@$1?IID_IEnumCommandStates@@3U_GUID@@BJV?$_Copy@J@ATL@@@ATL@@UAAJKPAJPAK@Z 1000d140 f i confignode.obj
+ 0001:0000c22c       ?AddRef@?$CComObject@V?$CComEnum@UIEnumCommandStates@@$1?IID_IEnumCommandStates@@3U_GUID@@BJV?$_Copy@J@ATL@@VCComMultiThreadModelNoCS@5@@ATL@@@ATL@@UAAKXZ 1000d22c f i confignode.obj
+ 0001:0000c234       ?Release@?$CComObject@V?$CComEnum@UIEnumCommandStates@@$1?IID_IEnumCommandStates@@3U_GUID@@BJV?$_Copy@J@ATL@@VCComMultiThreadModelNoCS@5@@ATL@@@ATL@@UAAKXZ 1000d234 f i confignode.obj
+ 0001:0000c26c       ?QueryInterface@?$CComObject@V?$CComEnum@UIEnumCommandStates@@$1?IID_IEnumCommandStates@@3U_GUID@@BJV?$_Copy@J@ATL@@VCComMultiThreadModelNoCS@5@@ATL@@@ATL@@UAAJABU_GUID@@PAPAX@Z 1000d26c f i confignode.obj
+ 0001:0000c280       ??1?$CComObject@V?$CComEnum@UIEnumCommandStates@@$1?IID_IEnumCommandStates@@3U_GUID@@BJV?$_Copy@J@ATL@@VCComMultiThreadModelNoCS@5@@ATL@@@ATL@@UAA@XZ 1000d280 f i confignode.obj
+ 0001:0000c2c0       ??_E?$CComObject@V?$CComEnum@UIEnumCommandStates@@$1?IID_IEnumCommandStates@@3U_GUID@@BJV?$_Copy@J@ATL@@VCComMultiThreadModelNoCS@5@@ATL@@@ATL@@UAAPAXI@Z 1000d2c0 f i confignode.obj
+ 0001:0000c2c0       ??_G?$CComObject@V?$CComEnum@UIEnumCommandStates@@$1?IID_IEnumCommandStates@@3U_GUID@@BJV?$_Copy@J@ATL@@VCComMultiThreadModelNoCS@5@@ATL@@@ATL@@UAAPAXI@Z 1000d2c0 f i confignode.obj
+ 0001:0000c2e4       ??0?$CComObject@V?$CComEnum@UIEnumCommandStates@@$1?IID_IEnumCommandStates@@3U_GUID@@BJV?$_Copy@J@ATL@@VCComMultiThreadModel@5@@ATL@@@ATL@@QAA@PAX@Z 1000d2e4 f i confignode.obj
+ 0001:0000c34c       ?AddRef@?$CComObject@V?$CComEnum@UIEnumCommandStates@@$1?IID_IEnumCommandStates@@3U_GUID@@BJV?$_Copy@J@ATL@@VCComMultiThreadModel@5@@ATL@@@ATL@@UAAKXZ 1000d34c f i confignode.obj
+ 0001:0000c354       ?Release@?$CComObject@V?$CComEnum@UIEnumCommandStates@@$1?IID_IEnumCommandStates@@3U_GUID@@BJV?$_Copy@J@ATL@@VCComMultiThreadModel@5@@ATL@@@ATL@@UAAKXZ 1000d354 f i confignode.obj
+ 0001:0000c38c       ?QueryInterface@?$CComObject@V?$CComEnum@UIEnumCommandStates@@$1?IID_IEnumCommandStates@@3U_GUID@@BJV?$_Copy@J@ATL@@VCComMultiThreadModel@5@@ATL@@@ATL@@UAAJABU_GUID@@PAPAX@Z 1000d38c f i confignode.obj
+ 0001:0000c3a0       ??1?$CComObject@V?$CComEnum@UIEnumCommandStates@@$1?IID_IEnumCommandStates@@3U_GUID@@BJV?$_Copy@J@ATL@@VCComMultiThreadModel@5@@ATL@@@ATL@@UAA@XZ 1000d3a0 f i confignode.obj
+ 0001:0000c3f8       ??_E?$CComObject@V?$CComEnum@UIEnumCommandStates@@$1?IID_IEnumCommandStates@@3U_GUID@@BJV?$_Copy@J@ATL@@VCComMultiThreadModel@5@@ATL@@@ATL@@UAAPAXI@Z 1000d3f8 f i confignode.obj
+ 0001:0000c3f8       ??_G?$CComObject@V?$CComEnum@UIEnumCommandStates@@$1?IID_IEnumCommandStates@@3U_GUID@@BJV?$_Copy@J@ATL@@VCComMultiThreadModel@5@@ATL@@@ATL@@UAAPAXI@Z 1000d3f8 f i confignode.obj
+ 0001:0000c41c       ??0?$CComObject@V?$CComEnum@UIEnumConfigNodes@@$1?IID_IEnumConfigNodes@@3U_GUID@@BPAUIConfigNode@@V?$_CopyInterface@UIConfigNode@@@ATL@@VCComMultiThreadModelNoCS@6@@ATL@@@ATL@@QAA@PAX@Z 1000d41c f i confignode.obj
+ 0001:0000c46c       ?Reset@?$CComEnumImpl@UIEnumConfigNodes@@$1?IID_IEnumConfigNodes@@3U_GUID@@BPAUIConfigNode@@V?$_CopyInterface@UIConfigNode@@@ATL@@@ATL@@UAAJXZ 1000d46c f i confignode.obj
+ 0001:0000c480       ?Skip@?$CComEnumImpl@UIEnumConfigNodes@@$1?IID_IEnumConfigNodes@@3U_GUID@@BPAUIConfigNode@@V?$_CopyInterface@UIConfigNode@@@ATL@@@ATL@@UAAJK@Z 1000d480 f i confignode.obj
+ 0001:0000c4c4       ?Next@?$CComEnumImpl@UIEnumConfigNodes@@$1?IID_IEnumConfigNodes@@3U_GUID@@BPAUIConfigNode@@V?$_CopyInterface@UIConfigNode@@@ATL@@@ATL@@UAAJKPAPAUIConfigNode@@PAK@Z 1000d4c4 f i confignode.obj
+ 0001:0000c5e4       ?AddRef@?$CComObject@V?$CComEnum@UIEnumConfigNodes@@$1?IID_IEnumConfigNodes@@3U_GUID@@BPAUIConfigNode@@V?$_CopyInterface@UIConfigNode@@@ATL@@VCComMultiThreadModelNoCS@6@@ATL@@@ATL@@UAAKXZ 1000d5e4 f i confignode.obj
+ 0001:0000c5ec       ?Release@?$CComObject@V?$CComEnum@UIEnumConfigNodes@@$1?IID_IEnumConfigNodes@@3U_GUID@@BPAUIConfigNode@@V?$_CopyInterface@UIConfigNode@@@ATL@@VCComMultiThreadModelNoCS@6@@ATL@@@ATL@@UAAKXZ 1000d5ec f i confignode.obj
+ 0001:0000c624       ?QueryInterface@?$CComObject@V?$CComEnum@UIEnumConfigNodes@@$1?IID_IEnumConfigNodes@@3U_GUID@@BPAUIConfigNode@@V?$_CopyInterface@UIConfigNode@@@ATL@@VCComMultiThreadModelNoCS@6@@ATL@@@ATL@@UAAJABU_GUID@@PAPAX@Z 1000d624 f i confignode.obj
+ 0001:0000c638       ??1?$CComObject@V?$CComEnum@UIEnumConfigNodes@@$1?IID_IEnumConfigNodes@@3U_GUID@@BPAUIConfigNode@@V?$_CopyInterface@UIConfigNode@@@ATL@@VCComMultiThreadModelNoCS@6@@ATL@@@ATL@@UAA@XZ 1000d638 f i confignode.obj
+ 0001:0000c678       ??_E?$CComObject@V?$CComEnum@UIEnumConfigNodes@@$1?IID_IEnumConfigNodes@@3U_GUID@@BPAUIConfigNode@@V?$_CopyInterface@UIConfigNode@@@ATL@@VCComMultiThreadModelNoCS@6@@ATL@@@ATL@@UAAPAXI@Z 1000d678 f i confignode.obj
+ 0001:0000c678       ??_G?$CComObject@V?$CComEnum@UIEnumConfigNodes@@$1?IID_IEnumConfigNodes@@3U_GUID@@BPAUIConfigNode@@V?$_CopyInterface@UIConfigNode@@@ATL@@VCComMultiThreadModelNoCS@6@@ATL@@@ATL@@UAAPAXI@Z 1000d678 f i confignode.obj
+ 0001:0000c69c       ??0?$CComObject@V?$CComEnum@UIEnumConfigNodes@@$1?IID_IEnumConfigNodes@@3U_GUID@@BPAUIConfigNode@@V?$_CopyInterface@UIConfigNode@@@ATL@@VCComMultiThreadModel@6@@ATL@@@ATL@@QAA@PAX@Z 1000d69c f i confignode.obj
+ 0001:0000c704       ?AddRef@?$CComObject@V?$CComEnum@UIEnumConfigNodes@@$1?IID_IEnumConfigNodes@@3U_GUID@@BPAUIConfigNode@@V?$_CopyInterface@UIConfigNode@@@ATL@@VCComMultiThreadModel@6@@ATL@@@ATL@@UAAKXZ 1000d704 f i confignode.obj
+ 0001:0000c70c       ?Release@?$CComObject@V?$CComEnum@UIEnumConfigNodes@@$1?IID_IEnumConfigNodes@@3U_GUID@@BPAUIConfigNode@@V?$_CopyInterface@UIConfigNode@@@ATL@@VCComMultiThreadModel@6@@ATL@@@ATL@@UAAKXZ 1000d70c f i confignode.obj
+ 0001:0000c744       ?QueryInterface@?$CComObject@V?$CComEnum@UIEnumConfigNodes@@$1?IID_IEnumConfigNodes@@3U_GUID@@BPAUIConfigNode@@V?$_CopyInterface@UIConfigNode@@@ATL@@VCComMultiThreadModel@6@@ATL@@@ATL@@UAAJABU_GUID@@PAPAX@Z 1000d744 f i confignode.obj
+ 0001:0000c758       ??1?$CComObject@V?$CComEnum@UIEnumConfigNodes@@$1?IID_IEnumConfigNodes@@3U_GUID@@BPAUIConfigNode@@V?$_CopyInterface@UIConfigNode@@@ATL@@VCComMultiThreadModel@6@@ATL@@@ATL@@UAA@XZ 1000d758 f i confignode.obj
+ 0001:0000c7b0       ??_E?$CComObject@V?$CComEnum@UIEnumConfigNodes@@$1?IID_IEnumConfigNodes@@3U_GUID@@BPAUIConfigNode@@V?$_CopyInterface@UIConfigNode@@@ATL@@VCComMultiThreadModel@6@@ATL@@@ATL@@UAAPAXI@Z 1000d7b0 f i confignode.obj
+ 0001:0000c7b0       ??_G?$CComObject@V?$CComEnum@UIEnumConfigNodes@@$1?IID_IEnumConfigNodes@@3U_GUID@@BPAUIConfigNode@@V?$_CopyInterface@UIConfigNode@@@ATL@@VCComMultiThreadModel@6@@ATL@@@ATL@@UAAPAXI@Z 1000d7b0 f i confignode.obj
+ 0001:0000c7d4       ?CreateInstance@?$CComObject@V?$CComEnum@UIEnumCommandStates@@$1?IID_IEnumCommandStates@@3U_GUID@@BJV?$_Copy@J@ATL@@VCComMultiThreadModel@5@@ATL@@@ATL@@SAJPAPAV12@@Z 1000d7d4 f i confignode.obj
+ 0001:0000c874       ?CreateInstance@?$CComObject@V?$CComEnum@UIEnumConfigNodes@@$1?IID_IEnumConfigNodes@@3U_GUID@@BPAUIConfigNode@@V?$_CopyInterface@UIConfigNode@@@ATL@@VCComMultiThreadModel@6@@ATL@@@ATL@@SAJPAPAV12@@Z 1000d874 f i confignode.obj
+ 0001:0000c914       ?EnumCommandStates@CConfigNode@@UAAJPAPAUIEnumCommandStates@@@Z 1000d914 f   confignode.obj
+ 0001:0000cab0       ?GetProperty@CConfigNode@@UAAJABU_GUID@@PAUtagVARIANT@@@Z 1000dab0 f   confignode.obj
+ 0001:0000cba8       ?EnumChildren@CConfigNode@@UAAJPAPAUIEnumConfigNodes@@@Z 1000dba8 f   confignode.obj
+ 0001:0000cf18       ?Clone@?$CComEnumImpl@UIEnumCommandStates@@$1?IID_IEnumCommandStates@@3U_GUID@@BJV?$_Copy@J@ATL@@@ATL@@UAAJPAPAUIEnumCommandStates@@@Z 1000df18 f i confignode.obj
+ 0001:0000d018       ?Clone@?$CComEnumImpl@UIEnumConfigNodes@@$1?IID_IEnumConfigNodes@@3U_GUID@@BPAUIConfigNode@@V?$_CopyInterface@UIConfigNode@@@ATL@@@ATL@@UAAJPAPAUIEnumConfigNodes@@@Z 1000e018 f i confignode.obj
+ 0001:0000d118       ?SetConfigNodeIFace@CConfigNodeState@@QAAXPAUIConfigNode@@@Z 1000e118 f   confignodestate.obj
+ 0001:0000d160       ?GetLocationURI@CConfigNodeState@@UAAJPAPAUIConfigManager2URI@@@Z 1000e160 f   confignodestate.obj
+ 0001:0000d1bc       ?GetName@CConfigNodeState@@UAAJPAPAG@Z 1000e1bc f   confignodestate.obj
+ 0001:0000d1f4       ?GetTreeDepth@CConfigNodeState@@UAAJPAK@Z 1000e1f4 f   confignodestate.obj
+ 0001:0000d270       ??0CConfigNodeState@@IAA@XZ 1000e270 f   confignodestate.obj
+ 0001:0000d280       ??1CConfigNodeState@@MAA@XZ 1000e280 f   confignodestate.obj
+ 0001:0000d2ac       ?GetFirstItem@CConfigNodeList@@QAAPAPAUIConfigNode@@XZ 1000e2ac f   confignodelist.obj
+ 0001:0000d2cc       ?GetLastItem@CConfigNodeList@@QAAPAPAUIConfigNode@@XZ 1000e2cc f   confignodelist.obj
+ 0001:0000d300       ?ReleaseConfigNode@CConfigNodeList@@CAHPAX0@Z 1000e300 f   confignodelist.obj
+ 0001:0000d31c       ?AddConfigNode@CConfigNodeList@@QAAJPAUIConfigNode@@@Z 1000e31c f   confignodelist.obj
+ 0001:0000d39c       ??0CConfigNodeList@@QAA@XZ 1000e39c f   confignodelist.obj
+ 0001:0000d3ac       ??1CConfigNodeList@@UAA@XZ 1000e3ac f   confignodelist.obj
+ 0001:0000d3d0       ?IsImplicitCommand@CConfigCmd@@UAAHXZ 1000e3d0 f i configcmd.obj
+ 0001:0000d3d8       ?DoExecute@CConfigCmd@@MAAJXZ 1000e3d8 f i configcmd.obj
+ 0001:0000d3e0       ?DoPersistRollback@CConfigCmd@@MAAJPAUISequentialStream@@@Z 1000e3e0 f i configcmd.obj
+ 0001:0000d3e8       ?DoRollback@CConfigCmd@@MAAJH@Z 1000e3e8 f i configcmd.obj
+ 0001:0000d3f0       ?GetRollbackURI@CConfigCmd@@MAAJPAPAUIConfigManager2URI@@@Z 1000e3f0 f i configcmd.obj
+ 0001:0000d424       ??1CConfigCmd@@UAA@XZ      1000e424 f   configcmd.obj
+ 0001:0000d4ec       ?SetCommandResultIndex@CConfigCmd@@QAAXPAVCConfigNode@@H@Z 1000e4ec f   configcmd.obj
+ 0001:0000d514       ??0CCmdAdd@@QAA@H@Z        1000e514 f   configcmd.obj
+ 0001:0000d590       ?IsImplicitCommand@CCmdAdd@@UAAHXZ 1000e590 f i configcmd.obj
+ 0001:0000d598       ??1CCmdAdd@@UAA@XZ         1000e598 f   configcmd.obj
+ 0001:0000d61c       ??0CCmdCopy@@QAA@XZ        1000e61c f   configcmd.obj
+ 0001:0000d678       ??1CCmdCopy@@UAA@XZ        1000e678 f   configcmd.obj
+ 0001:0000d6f4       ?InitializeCopy@CCmdCopy@@QAAJPAUIConfigServiceProvider2@@PAUIConfigManager2URI@@1HPAVCConfigNode@@@Z 1000e6f4 f   configcmd.obj
+ 0001:0000d764       ??0CCmdMove@@QAA@XZ        1000e764 f   configcmd.obj
+ 0001:0000d7c4       ??1CCmdMove@@UAA@XZ        1000e7c4 f   configcmd.obj
+ 0001:0000d85c       ?InitializeMove@CCmdMove@@QAAJPAUIConfigServiceProvider2@@PAUIConfigManager2URI@@1HPAVCConfigNode@@@Z 1000e85c f   configcmd.obj
+ 0001:0000d8cc       ?GetRollbackURI@CCmdMove@@MAAJPAPAUIConfigManager2URI@@@Z 1000e8cc f   configcmd.obj
+ 0001:0000d8ec       ??0CCmdClear@@QAA@XZ       1000e8ec f   configcmd.obj
+ 0001:0000d93c       ??0CCmdDeleteChild@@QAA@XZ 1000e93c f   configcmd.obj
+ 0001:0000d98c       ??1CCmdDeleteChild@@UAA@XZ 1000e98c f   configcmd.obj
+ 0001:0000d9d0       ?InitializeDeleteChild@CCmdDeleteChild@@QAAJPAUIConfigManager2URI@@@Z 1000e9d0 f   configcmd.obj
+ 0001:0000d9f0       ??0CCmdExecute@@QAA@XZ     1000e9f0 f   configcmd.obj
+ 0001:0000da4c       ??0CCmdSet@@QAA@XZ         1000ea4c f   configcmd.obj
+ 0001:0000daa8       ?InitializeSet@CCmdSet@@QAAJKK@Z 1000eaa8 f   configcmd.obj
+ 0001:0000dab8       ??0CCmdSetProperty@@QAA@XZ 1000eab8 f   configcmd.obj
+ 0001:0000db28       ?InitializeSetProperty@CCmdSetProperty@@QAAJABU_GUID@@KK@Z 1000eb28 f   configcmd.obj
+ 0001:0000db5c       ??0CCmdDeleteProperty@@QAA@XZ 1000eb5c f   configcmd.obj
+ 0001:0000dbc4       ?InitializeDeleteProperty@CCmdDeleteProperty@@QAAJABU_GUID@@@Z 1000ebc4 f   configcmd.obj
+ 0001:0000dbf0       ??_GCConfigCmd@@UAAPAXI@Z  1000ebf0 f i configcmd.obj
+ 0001:0000dbf0       ??_ECConfigCmd@@UAAPAXI@Z  1000ebf0 f i configcmd.obj
+ 0001:0000dc14       ?CreateCommand@CConfigCmd@@SAJW4CmdType@@PAPAV1@@Z 1000ec14 f   configcmd.obj
+ 0001:0000dde8       ?SetCSPNode@CConfigCmd@@IAAJPAUICSPNode@@@Z 1000ede8 f   configcmd.obj
+ 0001:0000de60       ?Initialize@CConfigCmd@@IAAJXZ 1000ee60 f   configcmd.obj
+ 0001:0000deec       ?Execute@CConfigCmd@@UAAJXZ 1000eeec f   configcmd.obj
+ 0001:0000df10       ?SaveRollbackStream@CConfigCmd@@UAAJPAUISequentialStream@@@Z 1000ef10 f   configcmd.obj
+ 0001:0000e030       ?PersistRollback@CConfigCmd@@UAAJXZ 1000f030 f   configcmd.obj
+ 0001:0000e0fc       ?Rollback@CConfigCmd@@UAAJH@Z 1000f0fc f   configcmd.obj
+ 0001:0000e15c       ?Commit@CConfigCmd@@UAAJXZ 1000f15c f   configcmd.obj
+ 0001:0000e1a0       ??_GCCmdAdd@@UAAPAXI@Z     1000f1a0 f i configcmd.obj
+ 0001:0000e1a0       ??_ECCmdAdd@@UAAPAXI@Z     1000f1a0 f i configcmd.obj
+ 0001:0000e1c4       ?InitializeAdd@CCmdAdd@@QAAJPAUIConfigServiceProvider2@@HPAUIConfigManager2URI@@1PAVCConfigNode@@W4ConfigDataType@@UtagVARIANT@@@Z 1000f1c4 f   configcmd.obj
+ 0001:0000e24c       ?DoExecute@CCmdAdd@@MAAJXZ 1000f24c f   configcmd.obj
+ 0001:0000e32c       ?DoPersistRollback@CCmdAdd@@MAAJPAUISequentialStream@@@Z 1000f32c f   configcmd.obj
+ 0001:0000e528       ?DoRollback@CCmdAdd@@MAAJH@Z 1000f528 f   configcmd.obj
+ 0001:0000e5c4       ??_ECCmdCopy@@UAAPAXI@Z    1000f5c4 f i configcmd.obj
+ 0001:0000e5c4       ??_GCCmdCopy@@UAAPAXI@Z    1000f5c4 f i configcmd.obj
+ 0001:0000e5e8       ?DoExecute@CCmdCopy@@MAAJXZ 1000f5e8 f   configcmd.obj
+ 0001:0000e724       ?DoPersistRollback@CCmdCopy@@MAAJPAUISequentialStream@@@Z 1000f724 f   configcmd.obj
+ 0001:0000e74c       ?DoRollback@CCmdCopy@@MAAJH@Z 1000f74c f   configcmd.obj
+ 0001:0000e78c       ??_GCCmdMove@@UAAPAXI@Z    1000f78c f i configcmd.obj
+ 0001:0000e78c       ??_ECCmdMove@@UAAPAXI@Z    1000f78c f i configcmd.obj
+ 0001:0000e7b0       ?DoExecute@CCmdMove@@MAAJXZ 1000f7b0 f   configcmd.obj
+ 0001:0000e8d8       ?DoPersistRollback@CCmdMove@@MAAJPAUISequentialStream@@@Z 1000f8d8 f   configcmd.obj
+ 0001:0000e900       ?DoRollback@CCmdMove@@MAAJH@Z 1000f900 f   configcmd.obj
+ 0001:0000e940       ??_GCCmdClear@@UAAPAXI@Z   1000f940 f i configcmd.obj
+ 0001:0000e940       ??_ECCmdClear@@UAAPAXI@Z   1000f940 f i configcmd.obj
+ 0001:0000e970       ?DoExecute@CCmdClear@@MAAJXZ 1000f970 f   configcmd.obj
+ 0001:0000e9bc       ?DoPersistRollback@CCmdClear@@MAAJPAUISequentialStream@@@Z 1000f9bc f   configcmd.obj
+ 0001:0000e9d8       ?DoRollback@CCmdClear@@MAAJH@Z 1000f9d8 f   configcmd.obj
+ 0001:0000e9fc       ??_ECCmdDeleteChild@@UAAPAXI@Z 1000f9fc f i configcmd.obj
+ 0001:0000e9fc       ??_GCCmdDeleteChild@@UAAPAXI@Z 1000f9fc f i configcmd.obj
+ 0001:0000ea20       ?DoExecute@CCmdDeleteChild@@MAAJXZ 1000fa20 f   configcmd.obj
+ 0001:0000ea4c       ?DoPersistRollback@CCmdDeleteChild@@MAAJPAUISequentialStream@@@Z 1000fa4c f   configcmd.obj
+ 0001:0000ea74       ?DoRollback@CCmdDeleteChild@@MAAJH@Z 1000fa74 f   configcmd.obj
+ 0001:0000ea98       ??_ECCmdExecute@@UAAPAXI@Z 1000fa98 f i configcmd.obj
+ 0001:0000ea98       ??_GCCmdExecute@@UAAPAXI@Z 1000fa98 f i configcmd.obj
+ 0001:0000ead0       ?InitializeExecute@CCmdExecute@@QAAJPAUtagVARIANT@@@Z 1000fad0 f   configcmd.obj
+ 0001:0000ead8       ?DoExecute@CCmdExecute@@MAAJXZ 1000fad8 f   configcmd.obj
+ 0001:0000eb24       ?DoPersistRollback@CCmdExecute@@MAAJPAUISequentialStream@@@Z 1000fb24 f   configcmd.obj
+ 0001:0000eb6c       ?DoRollback@CCmdExecute@@MAAJH@Z 1000fb6c f   configcmd.obj
+ 0001:0000eb90       ??_GCCmdSet@@UAAPAXI@Z     1000fb90 f i configcmd.obj
+ 0001:0000eb90       ??_ECCmdSet@@UAAPAXI@Z     1000fb90 f i configcmd.obj
+ 0001:0000ebc0       ?DoExecute@CCmdSet@@MAAJXZ 1000fbc0 f   configcmd.obj
+ 0001:0000ec60       ?DoPersistRollback@CCmdSet@@MAAJPAUISequentialStream@@@Z 1000fc60 f   configcmd.obj
+ 0001:0000ed08       ?DoRollback@CCmdSet@@MAAJH@Z 1000fd08 f   configcmd.obj
+ 0001:0000ed2c       ??_ECCmdSetProperty@@UAAPAXI@Z 1000fd2c f i configcmd.obj
+ 0001:0000ed2c       ??_GCCmdSetProperty@@UAAPAXI@Z 1000fd2c f i configcmd.obj
+ 0001:0000ed5c       ?DoExecute@CCmdSetProperty@@MAAJXZ 1000fd5c f   configcmd.obj
+ 0001:0000ee04       ?DoPersistRollback@CCmdSetProperty@@MAAJPAUISequentialStream@@@Z 1000fe04 f   configcmd.obj
+ 0001:0000eeb4       ?DoRollback@CCmdSetProperty@@MAAJH@Z 1000feb4 f   configcmd.obj
+ 0001:0000eed8       ??_GCCmdDeleteProperty@@UAAPAXI@Z 1000fed8 f i configcmd.obj
+ 0001:0000eed8       ??_ECCmdDeleteProperty@@UAAPAXI@Z 1000fed8 f i configcmd.obj
+ 0001:0000ef08       ?DoExecute@CCmdDeleteProperty@@MAAJXZ 1000ff08 f   configcmd.obj
+ 0001:0000ef34       ?DoPersistRollback@CCmdDeleteProperty@@MAAJPAUISequentialStream@@@Z 1000ff34 f   configcmd.obj
+ 0001:0000ef5c       ?DoRollback@CCmdDeleteProperty@@MAAJH@Z 1000ff5c f   configcmd.obj
+ 0001:0000ef80       ?SetNode@CConfigCmd@@QAAJPAVCConfigNode@@PAUICSPNode@@@Z 1000ff80 f   configcmd.obj
+ 0001:0000efec       ?RecoverRollbackStream@CConfigCmd@@UAAJPAVCConfigManager2@@PAUISequentialStream@@@Z 1000ffec f   configcmd.obj
+ 0001:0000f190       ??0CConfigCmdCache@@QAA@XZ 10010190 f   configcmdcache.obj
+ 0001:0000f1a4       ?ClearCache@CConfigCmdCache@@QAAXXZ 100101a4 f   configcmdcache.obj
+ 0001:0000f1e8       ?GetTransactionIterator@CConfigCmdCache@@QBAXPAUTransactionIterator@1@@Z 100101e8 f   configcmdcache.obj
+ 0001:0000f1fc       ?AdvanceTransactionIterator@CConfigCmdCache@@QBAHPAUTransactionIterator@1@@Z 100101fc f   configcmdcache.obj
+ 0001:0000f24c       ?AdvanceCommandIterator@CConfigCmdCache@@QBAHPAUCommandIterator@1@@Z 1001024c f   configcmdcache.obj
+ 0001:0000f364       ?DestroyTransactionEntry@CNestedTransaction@CConfigCmdCache@@CAHPAX0@Z 10010364 f   configcmdcache.obj
+ 0001:0000f3bc       ??1CConfigCmdCache@@QAA@XZ 100103bc f   configcmdcache.obj
+ 0001:0000f3c0       ?GetCommandIterator@CConfigCmdCache@@QBAJABUTransactionIterator@1@W4IteratorType@1@PAUCommandIterator@1@@Z 100103c0 f   configcmdcache.obj
+ 0001:0000f444       ?GetCommand@CConfigCmdCache@@QBAJABUCommandIterator@1@PAPAVCConfigCmd@@@Z 10010444 f   configcmdcache.obj
+ 0001:0000f4bc       ?Create@CNestedTransaction@CConfigCmdCache@@SAJPAV12@PAPAV12@@Z 100104bc f   configcmdcache.obj
+ 0001:0000f560       ?AddCommand@CConfigCmdCache@@QAAJPAVCConfigCmd@@@Z 10010560 f   configcmdcache.obj
+ 0001:0000f5dc       ?BeginTransaction@CConfigCmdCache@@QAAJXZ 100105dc f   configcmdcache.obj
+ 0001:0000f69c       ?CommitTransaction@CConfigCmdCache@@QAAJXZ 1001069c f   configcmdcache.obj
+ 0001:0000f6f4       ?CancelCurrentTransaction@CConfigCmdCache@@QAAJXZ 100106f4 f   configcmdcache.obj
+ 0001:0000f798       ??0CConfigDataCache@@QAA@XZ 10010798 f   configdatacache.obj
+ 0001:0000f7a4       ?GetSize@CConfigDataCache@@QAAHXZ 100107a4 f   configdatacache.obj
+ 0001:0000f7b0       ?GetCacheEntry@CConfigDataCache@@QAA?AVCDataCacheEntry@@H@Z 100107b0 f   configdatacache.obj
+ 0001:0000f7e4       ?DestroyCacheEntry@CConfigDataCache@@CAHPAX0@Z 100107e4 f   configdatacache.obj
+ 0001:0000f810       ??1CConfigDataCache@@QAA@XZ 10010810 f   configdatacache.obj
+ 0001:0000f834       ?Init@CConfigDataCache@@QAAJXZ 10010834 f   configdatacache.obj
+ 0001:0000f860       ?AddCacheEntry@CConfigDataCache@@QAA_NPAVCDataCacheEntry@@@Z 10010860 f   configdatacache.obj
+ 0001:0000f8e8       ?Reset@CUndoStream@@QAAJXZ 100108e8 f   undostream.obj
+ 0001:0000f944       ?SetToReadFromFile@CUndoStream@@QAAJPAX@Z 10010944 f   undostream.obj
+ 0001:0000f95c       ?Read@CUndoStream@@UAAJPAXKPAK@Z 1001095c f   undostream.obj
+ 0001:0000fd48       ?Write@CUndoStream@@UAAJPBXKPAK@Z 10010d48 f   undostream.obj
+ 0001:0000ff60       ?GetSize@CUndoStream@@QAAJPAK@Z 10010f60 f   undostream.obj
+ 0001:00010008       ?WriteToFile@CUndoStream@@QAAJPAX@Z 10011008 f   undostream.obj
+ 0001:00010124       ?CopyToStream@CUndoStream@@QAAJKPAUISequentialStream@@@Z 10011124 f   undostream.obj
+ 0001:000101f4       ?CopyFromStream@CUndoStream@@QAAJKPAUISequentialStream@@@Z 100111f4 f   undostream.obj
+ 0001:000102bc       ??0CUndoStream@@IAA@XZ     100112bc f   undostream.obj
+ 0001:000102d8       ??1CUndoStream@@MAA@XZ     100112d8 f   undostream.obj
+ 0001:00010310       ?UpdateRegistry@CConfigManager2@@SAJH@Z 10011310 f i main.obj
+ 0001:00010318       ?UpdateRegistry@CConfigManager2URI@@SAJH@Z 10011318 f i main.obj
+ 0001:00010320       ?UpdateRegistry@CConfigManager2MutableURI@@SAJH@Z 10011320 f i main.obj
+ 0001:00010328       ?GetObjectDescription@?$CComCoClass@VCConfigManager2@@$1?CLSID_ConfigManager2@@3U_GUID@@B@ATL@@SAPBGXZ 10011328 f i main.obj
+ 0001:00010330       ?GetObjectDescription@?$CComCoClass@VCConfigManager2URI@@$1?CLSID_ConfigManager2URI@@3U_GUID@@B@ATL@@SAPBGXZ 10011330 f i main.obj
+ 0001:00010338       ?GetObjectDescription@?$CComCoClass@VCConfigManager2MutableURI@@$1?CLSID_ConfigManager2MutableURI@@3U_GUID@@B@ATL@@SAPBGXZ 10011338 f i main.obj
+ 0001:00010340       ?Release@?$CComObject@VCConfigManager2@@@ATL@@UAAKXZ 10011340 f i main.obj
+ 0001:00010374       ??_E?$CComContainedObject@VCConfigManager2@@@ATL@@UAAPAXI@Z 10011374 f i main.obj
+ 0001:00010374       ??_G?$CComContainedObject@VCConfigManager2@@@ATL@@UAAPAXI@Z 10011374 f i main.obj
+ 0001:00010398       ?GetLockCount@CAtlModule@ATL@@UAAJXZ 10011398 f i main.obj
+ 0001:000103a0       ?Init@CComModule@ATL@@QAAJPAU_ATL_OBJMAP_ENTRY30@2@PAUHINSTANCE__@@PBU_GUID@@@Z 100113a0 f i main.obj
+ 0001:00010450       ?AtlCallTermFunc@ATL@@YAXPAU_ATL_MODULE70@1@@Z 10011450 f i main.obj
+ 0001:000104a8       ?ObjectMain@CComObjectRootBase@ATL@@SAX_N@Z 100114a8 f i main.obj
+ 0001:000104ac       DllCanUnloadNow            100114ac f   main.obj
+ 0001:000104c8       ??1?$CComObject@VCConfigManager2@@@ATL@@UAA@XZ 100114c8 f i main.obj
+ 0001:00010508       ?QueryInterface@?$CComObject@VCConfigManager2@@@ATL@@UAAJABU_GUID@@PAPAX@Z 10011508 f i main.obj
+ 0001:0001051c       ?AddRef@?$CComContainedObject@VCConfigManager2@@@ATL@@UAAKXZ 1001151c f i main.obj
+ 0001:00010538       ?Release@?$CComContainedObject@VCConfigManager2@@@ATL@@UAAKXZ 10011538 f i main.obj
+ 0001:00010554       ?QueryInterface@?$CComContainedObject@VCConfigManager2@@@ATL@@UAAJABU_GUID@@PAPAX@Z 10011554 f i main.obj
+ 0001:00010570       ??0?$CComObject@VCConfigManager2URI@@@ATL@@QAA@PAX@Z 10011570 f i main.obj
+ 0001:000105a8       ??1?$CComObject@VCConfigManager2URI@@@ATL@@UAA@XZ 100115a8 f i main.obj
+ 0001:000105e8       ?QueryInterface@?$CComObject@VCConfigManager2URI@@@ATL@@UAAJABU_GUID@@PAPAX@Z 100115e8 f i main.obj
+ 0001:000105fc       ??0?$CComObject@VCConfigManager2MutableURI@@@ATL@@QAA@PAX@Z 100115fc f i main.obj
+ 0001:00010634       ??1?$CComObject@VCConfigManager2MutableURI@@@ATL@@UAA@XZ 10011634 f i main.obj
+ 0001:00010674       ?QueryInterface@?$CComObject@VCConfigManager2MutableURI@@@ATL@@UAAJABU_GUID@@PAPAX@Z 10011674 f i main.obj
+ 0001:00010688       ??_G?$CComObject@VCConfigManager2@@@ATL@@UAAPAXI@Z 10011688 f i main.obj
+ 0001:00010688       ??_E?$CComObject@VCConfigManager2@@@ATL@@UAAPAXI@Z 10011688 f i main.obj
+ 0001:000106ac       ??_E?$CComObject@VCConfigManager2URI@@@ATL@@UAAPAXI@Z 100116ac f i main.obj
+ 0001:000106ac       ??_G?$CComObject@VCConfigManager2URI@@@ATL@@UAAPAXI@Z 100116ac f i main.obj
+ 0001:000106d0       ??_E?$CComObject@VCConfigManager2MutableURI@@@ATL@@UAAPAXI@Z 100116d0 f i main.obj
+ 0001:000106d0       ??_G?$CComObject@VCConfigManager2MutableURI@@@ATL@@UAAPAXI@Z 100116d0 f i main.obj
+ 0001:000106f4       ??0CAtlModule@ATL@@QAA@XZ  100116f4 f i main.obj
+ 0001:0001075c       ?Term@CAtlModule@ATL@@QAAXXZ 1001175c f i main.obj
+ 0001:000107b0       ?Term@CComModule@ATL@@QAAXXZ 100117b0 f i main.obj
+ 0001:0001084c       ?CreateInstance@CComClassFactory@ATL@@UAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 1001184c f i main.obj
+ 0001:000108d0       ?LockServer@CComClassFactory@ATL@@UAAJH@Z 100118d0 f i main.obj
+ 0001:0001090c       ??_ECComClassFactory@ATL@@UAAPAXI@Z 1001190c f i main.obj
+ 0001:0001090c       ??_GCComClassFactory@ATL@@UAAPAXI@Z 1001190c f i main.obj
+ 0001:0001094c       DllMain                    1001194c f   main.obj
+ 0001:00010994       ?CreateInstance@?$CComCreator@V?$CComObject@VCConfigManager2@@@ATL@@@ATL@@SAJPAXABU_GUID@@PAPAX@Z 10011994 f i main.obj
+ 0001:00010a60       ?CreateInstance@?$CComCreator@V?$CComObject@VCConfigManager2URI@@@ATL@@@ATL@@SAJPAXABU_GUID@@PAPAX@Z 10011a60 f i main.obj
+ 0001:00010b10       ?CreateInstance@?$CComCreator@V?$CComObject@VCConfigManager2MutableURI@@@ATL@@@ATL@@SAJPAXABU_GUID@@PAPAX@Z 10011b10 f i main.obj
+ 0001:00010bc0       ?AddRef@?$CComObject@VCConfigManager2@@@ATL@@UAAKXZ 10011bc0 f i main.obj
+ 0001:00010bc8       ??0?$CComAggObject@VCConfigManager2@@@ATL@@QAA@PAX@Z 10011bc8 f i main.obj
+ 0001:00010c20       ?QueryInterface@?$CComAggObject@VCConfigManager2@@@ATL@@UAAJABU_GUID@@PAPAX@Z 10011c20 f i main.obj
+ 0001:00010cac       ??1?$CComAggObject@VCConfigManager2@@@ATL@@UAA@XZ 10011cac f i main.obj
+ 0001:00010cec       ?AddRef@?$CComAggObject@VCConfigManager2@@@ATL@@UAAKXZ 10011cec f i main.obj
+ 0001:00010cf4       ?Release@?$CComAggObject@VCConfigManager2@@@ATL@@UAAKXZ 10011cf4 f i main.obj
+ 0001:00010d2c       ?AddRef@?$CComObject@VCConfigManager2URI@@@ATL@@UAAKXZ 10011d2c f i main.obj
+ 0001:00010d34       ?Release@?$CComObject@VCConfigManager2URI@@@ATL@@UAAKXZ 10011d34 f i main.obj
+ 0001:00010d6c       ?AddRef@?$CComObject@VCConfigManager2MutableURI@@@ATL@@UAAKXZ 10011d6c f i main.obj
+ 0001:00010d74       ?Release@?$CComObject@VCConfigManager2MutableURI@@@ATL@@UAAKXZ 10011d74 f i main.obj
+ 0001:00010dac       ??_G?$CComAggObject@VCConfigManager2@@@ATL@@UAAPAXI@Z 10011dac f i main.obj
+ 0001:00010dac       ??_E?$CComAggObject@VCConfigManager2@@@ATL@@UAAPAXI@Z 10011dac f i main.obj
+ 0001:00010dd0       ?ocscpy_s@@YA_NPAGIPBG@Z   10011dd0 f i main.obj
+ 0001:00010e24       ?AtlHresultFromLastError@ATL@@YAJXZ 10011e24 f i main.obj
+ 0001:00010e44       ?AtlHresultFromWin32@ATL@@YAJK@Z 10011e44 f i main.obj
+ 0001:00010e5c       ?Lock@CAtlModule@ATL@@UAAJXZ 10011e5c f i main.obj
+ 0001:00010e64       ?Unlock@CAtlModule@ATL@@UAAJXZ 10011e64 f i main.obj
+ 0001:00010e6c       ?GetGITPtr@CAtlModule@ATL@@UAAJPAPAUIGlobalInterfaceTable@@@Z 10011e6c f i main.obj
+ 0001:00010ee8       ?EscapeSingleQuote@CAtlModule@ATL@@SAXPAGIPBG@Z 10011ee8 f i main.obj
+ 0001:00010f44       ?UpdateRegistryFromResourceD@CComModule@ATL@@UAAJPBGHPAU_ATL_REGMAP_ENTRY@2@@Z 10011f44 f i main.obj
+ 0001:00010f50       ?UpdateRegistryFromResourceD@CComModule@ATL@@UAAJIHPAU_ATL_REGMAP_ENTRY@2@@Z 10011f50 f i main.obj
+ 0001:00010f5c       ?Create@CRegKey@ATL@@QAAJPAUHKEY__@@PBGPAGKKPAU_SECURITY_ATTRIBUTES@@PAK@Z 10011f5c f i main.obj
+ 0001:00010ff8       ?Open@CRegKey@ATL@@QAAJPAUHKEY__@@PBGK@Z 10011ff8 f i main.obj
+ 0001:00011064       ?SetStringValue@CRegKey@ATL@@QAAJPBG0K@Z 10012064 f i main.obj
+ 0001:000110bc       ?SetMultiStringValue@CRegKey@ATL@@QAAJPBG0@Z 100120bc f i main.obj
+ 0001:00011134       ??0CParseBuffer@CRegParser@ATL@@QAA@H@Z 10012134 f i main.obj
+ 0001:0001118c       ?Append@CParseBuffer@CRegParser@ATL@@QAAHPBGH@Z 1001218c f i main.obj
+ 0001:00011280       ?VTFromRegType@CRegParser@ATL@@KAHPBGAAG@Z 10012280 f i main.obj
+ 0001:00011348       ?ChToByte@CRegParser@ATL@@KAEG@Z 10012348 f i main.obj
+ 0001:000113a0       ?HKeyFromString@CRegParser@ATL@@KAPAUHKEY__@@PAG@Z 100123a0 f i main.obj
+ 0001:000113f0       ?StrChrW@CRegParser@ATL@@KAPAGPAGG@Z 100123f0 f i main.obj
+ 0001:00011438       ?SkipWhiteSpace@CRegParser@ATL@@IAAXXZ 10012438 f i main.obj
+ 0001:00011478       ?NextToken@CRegParser@ATL@@IAAJPAG@Z 10012478 f i main.obj
+ 0001:00011600       ?CanForceRemoveKey@CRegParser@ATL@@IAAHPBG@Z 10012600 f i main.obj
+ 0001:00011648       ?HasSubKeys@CRegParser@ATL@@IAAHPAUHKEY__@@@Z 10012648 f i main.obj
+ 0001:000116c4       ?SkipAssignment@CRegParser@ATL@@IAAJPAG@Z 100126c4 f i main.obj
+ 0001:00011750       ?RemoveAll@?$CSimpleMap@PAGPAGVCExpansionVectorEqualHelper@ATL@@@ATL@@QAAXXZ 10012750 f i main.obj
+ 0001:00011794       ?FindKey@?$CSimpleMap@PAGPAGVCExpansionVectorEqualHelper@ATL@@@ATL@@QBAHABQAG@Z 10012794 f i main.obj
+ 0001:000117e4       ?FreeHeap@?$CTempBuffer@G$0EAA@VCCRTAllocator@ATL@@@ATL@@AAAXXZ 100127e4 f i main.obj
+ 0001:000117ec       ?FreeHeap@?$CTempBuffer@G$0BAA@VCCRTAllocator@ATL@@@ATL@@AAAXXZ 100127ec f i main.obj
+ 0001:000117f4       ?FreeHeap@?$CTempBuffer@E$0BAA@VCCRTAllocator@ATL@@@ATL@@AAAXXZ 100127f4 f i main.obj
+ 0001:000117fc       ?AllocateHeap@?$CTempBuffer@G$0EAA@VCCRTAllocator@ATL@@@ATL@@AAAXI@Z 100127fc f i main.obj
+ 0001:00011828       ?AllocateHeap@?$CTempBuffer@G$0BAA@VCCRTAllocator@ATL@@@ATL@@AAAXI@Z 10012828 f i main.obj
+ 0001:00011854       ?AllocateHeap@?$CTempBuffer@E$0BAA@VCCRTAllocator@ATL@@@ATL@@AAAXI@Z 10012854 f i main.obj
+ 0001:00011888       ?RecurseDeleteKey@CRegKey@ATL@@QAAJPBG@Z 10012888 f i main.obj
+ 0001:000119b4       ?ClearReplacements@CExpansionVector@ATL@@QAAJXZ 100129b4 f i main.obj
+ 0001:00011a54       ?ClearReplacements@CRegObject@ATL@@UAAJXZ 10012a54 f i main.obj
+ 0001:00011a80       ?AddCommonRGSReplacements@?$CAtlModuleT@VCComModule@ATL@@@ATL@@UAAJPAUIRegistrarBase@@@Z 10012a80 f i main.obj
+ 0001:00011aa8       ?Lookup@?$CSimpleMap@PAGPAGVCExpansionVectorEqualHelper@ATL@@@ATL@@QBAPAGABQAG@Z 10012aa8 f i main.obj
+ 0001:00011af8       ??_GCComModule@ATL@@UAAPAXI@Z 10012af8 f i main.obj
+ 0001:00011af8       ??_ECComModule@ATL@@UAAPAXI@Z 10012af8 f i main.obj
+ 0001:00011b28       ??1CRegObject@ATL@@UAA@XZ  10012b28 f i main.obj
+ 0001:00011b84       ?QueryInterface@CRegObject@ATL@@UAAJABU_GUID@@PAPAX@Z 10012b84 f i main.obj
+ 0001:00011b90       ?AddRef@CRegObject@ATL@@UAAKXZ 10012b90 f i main.obj
+ 0001:00011b98       ?Release@CRegObject@ATL@@UAAKXZ 10012b98 f i main.obj
+ 0001:00011ba0       ??_GCRegObject@ATL@@UAAPAXI@Z 10012ba0 f i main.obj
+ 0001:00011ba0       ??_ECRegObject@ATL@@UAAPAXI@Z 10012ba0 f i main.obj
+ 0001:00011bcc       ?PreProcessBuffer@CRegParser@ATL@@QAAJPAGPAPAG@Z 10012bcc f i main.obj
+ 0001:00011f4c       ?AtlComModuleGetClassObject@ATL@@YAJPAU_ATL_COM_MODULE70@1@ABU_GUID@@1PAPAX@Z 10012f4c f i main.obj
+ 0001:00012080       ?Add@?$CSimpleMap@PAGPAGVCExpansionVectorEqualHelper@ATL@@@ATL@@QAAHABQAG0@Z 10013080 f i main.obj
+ 0001:00012110       ?Allocate@?$CTempBuffer@G$0EAA@VCCRTAllocator@ATL@@@ATL@@QAAPAGI@Z 10013110 f i main.obj
+ 0001:00012170       ?Allocate@?$CTempBuffer@G$0BAA@VCCRTAllocator@ATL@@@ATL@@QAAPAGI@Z 10013170 f i main.obj
+ 0001:000121d0       ?Allocate@?$CTempBuffer@E$0BAA@VCCRTAllocator@ATL@@@ATL@@QAAPAEI@Z 100131d0 f i main.obj
+ 0001:00012228       ?CreateInstance@?$CComCreator2@V?$CComCreator@V?$CComObject@VCConfigManager2URI@@@ATL@@@ATL@@V?$CComFailCreator@$0?HPPLPOPA@@2@@ATL@@SAJPAXABU_GUID@@PAPAX@Z 10013228 f i main.obj
+ 0001:0001225c       ?CreateInstance@?$CComCreator2@V?$CComCreator@V?$CComObject@VCConfigManager2MutableURI@@@ATL@@@ATL@@V?$CComFailCreator@$0?HPPLPOPA@@2@@ATL@@SAJPAXABU_GUID@@PAPAX@Z 1001325c f i main.obj
+ 0001:00012290       ?AddRef@?$CComObjectNoLock@VCComClassFactory@ATL@@@ATL@@UAAKXZ 10013290 f i main.obj
+ 0001:00012298       ?Release@?$CComObjectNoLock@VCComClassFactory@ATL@@@ATL@@UAAKXZ 10013298 f i main.obj
+ 0001:000122d0       ?QueryInterface@?$CComObjectNoLock@VCComClassFactory@ATL@@@ATL@@UAAJABU_GUID@@PAPAX@Z 100132d0 f i main.obj
+ 0001:000122e4       ??_G?$CComObjectNoLock@VCComClassFactory@ATL@@@ATL@@UAAPAXI@Z 100132e4 f i main.obj
+ 0001:000122e4       ??_E?$CComObjectNoLock@VCComClassFactory@ATL@@@ATL@@UAAPAXI@Z 100132e4 f i main.obj
+ 0001:0001232c       ?CreateInstance@?$CComCreator@V?$CComAggObject@VCConfigManager2@@@ATL@@@ATL@@SAJPAXABU_GUID@@PAPAX@Z 1001332c f i main.obj
+ 0001:000123dc       ?Add@CExpansionVector@ATL@@QAAHPBG0@Z 100133dc f i main.obj
+ 0001:000124dc       ?AddReplacement@CRegObject@ATL@@UAAJPBG0@Z 100134dc f i main.obj
+ 0001:00012544       ?AddValue@CRegParser@ATL@@IAAJAAVCRegKey@2@PBGPAG@Z 10013544 f i main.obj
+ 0001:0001286c       ?RegisterSubkeys@CRegParser@ATL@@IAAJPAGPAUHKEY__@@HH@Z 1001386c f i main.obj
+ 0001:00012e3c       ?GetClassObject@CComModule@ATL@@QAAJABU_GUID@@0PAPAX@Z 10013e3c f i main.obj
+ 0001:00012f4c       DllGetClassObject          10013f4c f   main.obj
+ 0001:00012f64       ?CreateInstance@?$CComCreator@V?$CComObjectNoLock@VCComClassFactory@ATL@@@ATL@@@ATL@@SAJPAXABU_GUID@@PAPAX@Z 10013f64 f i main.obj
+ 0001:00013044       ?CreateInstance@?$CComCreator2@V?$CComCreator@V?$CComObject@VCConfigManager2@@@ATL@@@ATL@@V?$CComCreator@V?$CComAggObject@VCConfigManager2@@@ATL@@@2@@ATL@@SAJPAXABU_GUID@@PAPAX@Z 10014044 f i main.obj
+ 0001:0001305c       ?RegisterBuffer@CRegParser@ATL@@QAAJPAGH@Z 1001405c f i main.obj
+ 0001:00013198       ?RegisterFromResource@CRegObject@ATL@@IAAJPBG00H@Z 10014198 f i main.obj
+ 0001:00013314       ?UpdateRegistryFromResourceS@CAtlModule@ATL@@QAAJPBGHPAU_ATL_REGMAP_ENTRY@2@@Z 10014314 f i main.obj
+ 0001:00013568       ?UpdateRegistryFromResourceS@CAtlModule@ATL@@QAAJIHPAU_ATL_REGMAP_ENTRY@2@@Z 10014568 f i main.obj
+ 0001:00013788       ?UpdateRegistryFromResourceS@CComModule@ATL@@UAAJPBGHPAU_ATL_REGMAP_ENTRY@2@@Z 10014788 f i main.obj
+ 0001:0001378c       ?UpdateRegistryFromResourceS@CComModule@ATL@@UAAJIHPAU_ATL_REGMAP_ENTRY@2@@Z 1001478c f i main.obj
+ 0001:00013790       ??0CCSPCache@@QAA@XZ       10014790 f   cspcache.obj
+ 0001:000137a4       ?SetSession@CCSPCache@@QAAJPAUIConfigSession2@@@Z 100147a4 f   cspcache.obj
+ 0001:000137d4       ??1CCSPCacheEntry@@QAA@XZ  100147d4 f   cspcache.obj
+ 0001:0001384c       ?GetCSP@CCSPCacheEntry@@QAAPAUIConfigServiceProvider2@@XZ 1001484c f   cspcache.obj
+ 0001:00013870       ?GetRootIndex@CCSPCacheEntry@@QBAKXZ 10014870 f   cspcache.obj
+ 0001:00013878       ?GetURI@CCSPCacheEntry@@QAAPAUIConfigManager2URI@@XZ 10014878 f   cspcache.obj
+ 0001:000138a0       ?SetValidationInterface@CCSPCacheEntry@@QAAJPAUICSPValidate@@@Z 100148a0 f   cspcache.obj
+ 0001:000138d8       ?GetValidationInterface@CCSPCacheEntry@@QAAPAUICSPValidate@@XZ 100148d8 f   cspcache.obj
+ 0001:00013900       ?Initialize@CCSPCache@@AAAJXZ 10014900 f   cspcache.obj
+ 0001:00013998       ?TraverseRegistry@CCSPCache@@AAAJPAUIConfigManager2URI@@PAU_GUID@@PAK@Z 10014998 f   cspcache.obj
+ 0001:00013c60       ?GetCachedCSP@CCSPCache@@AAAJPAUIConfigManager2URI@@PAPAVCCSPCacheEntry@@@Z 10014c60 f   cspcache.obj
+ 0001:00013e58       ?GetChildNodeNames@CCSPCache@@QAAJPAUIConfigManager2URI@@PAKPAPAPAG@Z 10014e58 f   cspcache.obj
+ 0001:000140d8       ?TranslateURI@CCSPCache@@AAAJABU_GUID@@KPAUIConfigManager2URI@@1PAPAU3@@Z 100150d8 f   cspcache.obj
+ 0001:00014314       ?TranslateValue@CCSPCache@@AAAJABU_GUID@@PAUIConfigManager2URI@@PAUtagVARIANT@@@Z 10015314 f   cspcache.obj
+ 0001:000143b0       ?DestroyCSPEntry@CCSPCache@@CAHPAX0@Z 100153b0 f   cspcache.obj
+ 0001:000143d4       ?SetURI@CCSPCacheEntry@@QAAJPAUIConfigManager2URI@@H@Z 100153d4 f   cspcache.obj
+ 0001:0001444c       ?GetChildNodeNames@CCSPCacheEntry@@QAAJPAKPAPAPAG@Z 1001544c f   cspcache.obj
+ 0001:00014460       ?CallCSPEndNotification@CCSPCacheEntry@@AAAJW4ConfigManager2Notification@@@Z 10015460 f   cspcache.obj
+ 0001:000144e4       ??1CCSPCache@@QAA@XZ       100154e4 f   cspcache.obj
+ 0001:0001454c       ?GetCSP@CCSPCache@@QAAJPAUIConfigManager2URI@@PAPAVCCSPCacheEntry@@@Z 1001554c f   cspcache.obj
+ 0001:0001489c       ?ApplyURITranslation@CCSPCache@@QAAJPAUIConfigManager2URI@@0PAPAU2@@Z 1001589c f   cspcache.obj
+ 0001:00014cc8       ?ApplyValueTranslation@CCSPCache@@QAAJPAUIConfigManager2URI@@PAUtagVARIANT@@@Z 10015cc8 f   cspcache.obj
+ 0001:00014eec       ?SendCommandNotification@CCSPCacheEntry@@QAAJW4ConfigManager2Notification@@@Z 10015eec f   cspcache.obj
+ 0001:00014f70       ??0CConfigProperty@@QAA@XZ 10015f70 f   configproperties.obj
+ 0001:00014fac       ??1CConfigProperty@@QAA@XZ 10015fac f   configproperties.obj
+ 0001:00014ffc       ?SetMetabaseEntry@CConfigProperty@@AAAJPAUIConfigManager2URI@@PAUIConfigMetabaseEntry@@@Z 10015ffc f   configproperties.obj
+ 0001:0001506c       ?SaveLocalizedStringToStream@CConfigProperty@@CAJGPAGPAUISequentialStream@@@Z 1001606c f   configproperties.obj
+ 0001:000150dc       ?FindPropertyIndex@@YAJABU_GUID@@PAK@Z 100160dc f   configproperties.obj
+ 0001:00015154       ?GetMetabasePresenceFlag@@YAJABU_GUID@@PAK@Z 10016154 f   configproperties.obj
+ 0001:00015198       ?CoerceStandardPropertyToPreferedType@@YAJABU_GUID@@UtagVARIANT@@PAU2@@Z 10016198 f   configproperties.obj
+ 0001:00015884       ?GetPropertyIdentifiersForNode@@YAJPAUICSPNode@@PAKPAPAU_GUID@@@Z 10016884 f   configproperties.obj
+ 0001:000159ec       ?SetValue@CConfigProperty@@QAAJABUtagVARIANT@@@Z 100169ec f   configproperties.obj
+ 0001:00015a64       ?SetPropertyInMetabase@CConfigProperty@@AAAJPAUIConfigManager2URI@@HK@Z 10016a64 f   configproperties.obj
+ 0001:00015b90       ?GetPropertyFromMetabaseNoCheck@CConfigProperty@@ABAJPAUIConfigManager2URI@@ABU_GUID@@PAUtagVARIANT@@PAPAUIConfigMetabaseEntry2@@@Z 10016b90 f   configproperties.obj
+ 0001:00015c90       ?ReadLocalizedPropertyFromStream@CConfigProperty@@AAAJABU_GUID@@PAUISequentialStream@@PAPAUIConfigMetabaseEntry2@@@Z 10016c90 f   configproperties.obj
+ 0001:00015e9c       ?SaveLocalizedPropertyToStream@CConfigProperty@@ABAJABU_GUID@@PAUIConfigMetabaseEntry2@@PAUISequentialStream@@@Z 10016e9c f   configproperties.obj
+ 0001:00016068       ?Initialize@CConfigProperty@@QAAJABU_GUID@@PAUIConfigMetabase2@@PAUIConfigManager2URI@@@Z 10017068 f   configproperties.obj
+ 0001:00016118       ?InitializeFromNode@CConfigProperty@@QAAJABU_GUID@@PAUICSPNode@@PAUIConfigManager2URI@@KPAUIConfigMetabase2@@@Z 10017118 f   configproperties.obj
+ 0001:00016284       ?InitializeFromStream@CConfigProperty@@QAAJPAUISequentialStream@@PAUIConfigMetabase2@@@Z 10017284 f   configproperties.obj
+ 0001:000163c0       ?Save@CConfigProperty@@QBAJPAUISequentialStream@@@Z 100173c0 f   configproperties.obj
+ 0001:000164b8       ?SetOnNodeHelper@CConfigProperty@@AAAJPAUICSPNode@@PAUIConfigManager2URI@@KHHK@Z 100174b8 f   configproperties.obj
+ 0001:000165f0       ?SaveProperties@@YAJPAVCConfigSession2@@PAUICSPNode@@PAUIConfigManager2URI@@KPAUISequentialStream@@@Z 100175f0 f   configproperties.obj
+ 0001:0001676c       ?RestoreProperties@@YAJPAVCConfigSession2@@PAUICSPNode@@PAUIConfigManager2URI@@KPAUISequentialStream@@@Z 1001776c f   configproperties.obj
+ 0001:000168c8       ??0CPropertyCacheEntries@@QAA@XZ 100178c8 f   propertycacheentries.obj
+ 0001:000168d4       ?CompareEntriesByGUID@CPropertyCacheEntries@@CAHPAX0J@Z 100178d4 f   propertycacheentries.obj
+ 0001:000168dc       ?DeleteEntry@CPropertyCacheEntries@@CAHPAX0@Z 100178dc f   propertycacheentries.obj
+ 0001:000168ec       ?ClearEntryIndex@CPropertyCacheEntries@@CAHPAX0@Z 100178ec f   propertycacheentries.obj
+ 0001:000168fc       ??1CPropertyCacheEntries@@QAA@XZ 100178fc f   propertycacheentries.obj
+ 0001:00016920       ?ClearCache@CPropertyCacheEntries@@QAAJXZ 10017920 f   propertycacheentries.obj
+ 0001:00016940       ?EnsurePropertyListExists@CPropertyCacheEntries@@AAAJXZ 10017940 f   propertycacheentries.obj
+ 0001:00016980       ?FindEntryIndex@CPropertyCacheEntries@@AAAJABU_GUID@@HPAH1@Z 10017980 f   propertycacheentries.obj
+ 0001:00016a7c       ?UpdateEntryByIndex@CPropertyCacheEntries@@AAAJPAVCConfigManager2@@HUtagVARIANT@@@Z 10017a7c f   propertycacheentries.obj
+ 0001:00016b08       ?InitializeByCopy@CPropertyCacheEntries@@QAAJABV1@@Z 10017b08 f   propertycacheentries.obj
+ 0001:00016bcc       ?CreateEntry@CPropertyCacheEntries@@QAAJABU_GUID@@@Z 10017bcc f   propertycacheentries.obj
+ 0001:00016ca0       ?UpdateEntryValue@CPropertyCacheEntries@@QAAJPAVCConfigManager2@@ABU_GUID@@UtagVARIANT@@@Z 10017ca0 f   propertycacheentries.obj
+ 0001:00016db0       ?GetEntryValue@CPropertyCacheEntries@@QAAJPAVCConfigManager2@@ABU_GUID@@PAUtagVARIANT@@@Z 10017db0 f   propertycacheentries.obj
+ 0001:00016e84       ?SetEntryDataCacheIndex@CPropertyCacheEntries@@QAAJABU_GUID@@H@Z 10017e84 f   propertycacheentries.obj
+ 0001:00016ef8       ?GetEntryDataCacheIndex@CPropertyCacheEntries@@QAAJABU_GUID@@PAH@Z 10017ef8 f   propertycacheentries.obj
+ 0001:00016f84       ?Destroy@QueryValuePair@@SAHPAX0@Z 10017f84 f   uriquerypair.obj
+ 0001:00016f94       ?ComputeHash@QueryValuePair@@SAIIPAX@Z 10017f94 f   uriquerypair.obj
+ 0001:00016fdc       ?CompareHash@QueryValuePair@@SAJPAX0PAH@Z 10017fdc f   uriquerypair.obj
+ 0001:00017000       ?UpdateParsedOffsets@QueryValuePair@@SAJPAXJPAH@Z 10018000 f   uriquerypair.obj
+ 0001:00017048       ?CopyToHash@QueryValuePair@@SAJPAXJPAH@Z 10018048 f   uriquerypair.obj
+ 0001:00017198       ?CalculateUnencodedSize@QueryValuePair@@SAJPAXJPAH@Z 10018198 f   uriquerypair.obj
+ 0001:00017224       ?CalculateEncodedSize@QueryValuePair@@SAJPAXJPAH@Z 10018224 f   uriquerypair.obj
+ 0001:000172ec       ?EncodeToString@QueryValuePair@@SAJPAXJPAH@Z 100182ec f   uriquerypair.obj
+ 0001:0001742c       ?CopyCharacterToParsedURI@CParseLocURI@@AAAXG@Z 1001842c f i parseuri.obj
+ 0001:00017490       ?IsRootSegmentName@CParseLocURI@@SAHPBG@Z 10018490 f   parseuri.obj
+ 0001:000174b8       ?GetCharacterClass@CParseLocURI@@CAJGPAK@Z 100184b8 f i parseuri.obj
+ 0001:000174fc       ?IsUnreservedCharacter@CParseLocURI@@CAJGPAH@Z 100184fc f i parseuri.obj
+ 0001:00017540       ?URIEncodeString@CParseLocURI@@SAJPBGKPAGPAK@Z 10018540 f   parseuri.obj
+ 0001:00017820       ?DecodeUTF8StringInPlace@CParseLocURI@@AAAJPAG@Z 10018820 f   parseuri.obj
+ 0001:00017934       ?GetNextCharacter@CParseLocURI@@AAAJPAGPAK@Z 10018934 f i parseuri.obj
+ 0001:0001798c       ?ParseInternal@CParseLocURI@@AAAJXZ 1001898c f   parseuri.obj
+ 0001:00017a74       ?ActionEndSegment@CParseLocURI@@AAAJG@Z 10018a74 f   parseuri.obj
+ 0001:00017b88       ?ActionParseEscape@CParseLocURI@@AAAJG@Z 10018b88 f   parseuri.obj
+ 0001:00017c2c       ?ActionBeginValue@CParseLocURI@@AAAJG@Z 10018c2c f   parseuri.obj
+ 0001:00017c88       ?ActionEndQuery@CParseLocURI@@AAAJG@Z 10018c88 f   parseuri.obj
+ 0001:00017d48       ?Parse@CParseLocURI@@SAJPBGKPAPAGPAIPAKPAPAU_DPA@@PAPAUHashTableTag@@@Z 10018d48 f   parseuri.obj
+ 0001:00017fd8       ?GetQueryHashTable@CConfigManager2URIImpl@@IAAPAUHashTableTag@@XZ 10018fd8 f   configuri.obj
+ 0001:0001800c       ?GetRelativeURI@CConfigManager2URIImpl@@UAAJKHPAPAUIConfigManager2URI@@@Z 1001900c f   configuri.obj
+ 0001:00018034       ?AppendQueryValue@CConfigManager2URIImpl@@UAAJPBG0H@Z 10019034 f   configuri.obj
+ 0001:00018040       ?InitializeFromString@CConfigManager2URIImpl@@UAAJPBG@Z 10019040 f   configuri.obj
+ 0001:000180c4       ?InitializeFromStream@CConfigManager2URIImpl@@UAAJPAUISequentialStream@@@Z 100190c4 f   configuri.obj
+ 0001:000182ec       ?SaveToStream@CConfigManager2URIImpl@@UAAJPAUISequentialStream@@@Z 100192ec f   configuri.obj
+ 0001:000184b0       ?CopySegments@CConfigManager2URIImpl@@IAAJPAUIConfigManager2URI@@KKK@Z 100194b0 f   configuri.obj
+ 0001:00018684       ?CopyQueryPairs@CConfigManager2URIImpl@@IAAJPAUIConfigManager2URI@@@Z 10019684 f   configuri.obj
+ 0001:00018750       ?GetCanonicalSubURI@CConfigManager2URIImpl@@IAAJKKHPAPAG@Z 10019750 f   configuri.obj
+ 0001:00018a24       ?IsAbsoluteURI@CConfigManager2URIImpl@@UAAJPAH@Z 10019a24 f   configuri.obj
+ 0001:00018aa0       ?HasQuery@CConfigManager2URIImpl@@UAAJPAH@Z 10019aa0 f   configuri.obj
+ 0001:00018b1c       ?GetCanonicalRelativeURI@CConfigManager2URIImpl@@UAAJKHPAPAG@Z 10019b1c f   configuri.obj
+ 0001:00018b8c       ?GetSegment@CConfigManager2URIImpl@@UAAJKPAPBG@Z 10019b8c f   configuri.obj
+ 0001:00018c60       ?GetSegmentCopy@CConfigManager2URIImpl@@UAAJKPAPAG@Z 10019c60 f   configuri.obj
+ 0001:00018d68       ?CompareURI@CConfigManager2URIImpl@@UAAJPAUIConfigManager2URI@@HPAH@Z 10019d68 f   configuri.obj
+ 0001:00018ec4       ?FindLastCommonSegment@CConfigManager2URIImpl@@UAAJPAUIConfigManager2URI@@HPAK@Z 10019ec4 f   configuri.obj
+ 0001:00019004       ?GetJoinedSegments@CConfigManager2URIImpl@@UAAJKGPAPAG@Z 1001a004 f   configuri.obj
+ 0001:000191d4       ?GetQueryValue@CConfigManager2URIImpl@@UAAJPBGPAPAG@Z 1001a1d4 f   configuri.obj
+ 0001:000192d4       ?GetSegmentCount@CConfigManager2URIImpl@@UAAJPAK@Z 1001a2d4 f   configuri.obj
+ 0001:00019330       ?CalculateHash@CConfigManager2URIImpl@@IAAJHPAK@Z 1001a330 f   configuri.obj
+ 0001:000193f4       ?AppendRelativeURI@CConfigManager2URIImpl@@UAAJPAUIConfigManager2URI@@K@Z 1001a3f4 f   configuri.obj
+ 0001:000194e4       ?DeleteSegment@CConfigManager2URIImpl@@UAAJK@Z 1001a4e4 f   configuri.obj
+ 0001:00019698       ??1CConfigManager2URIImpl@@MAA@XZ 1001a698 f   configuri.obj
+ 0001:000196f4       ?InitializeWithCopy@CConfigManager2URIImpl@@IAAJPAUIConfigManager2URI@@KKHK@Z 1001a6f4 f   configuri.obj
+ 0001:000197e8       ?GetHash@CConfigManager2URIImpl@@UAAJHPAK@Z 1001a7e8 f   configuri.obj
+ 0001:00019864       ??_GCConfigManager2URIImpl@@MAAPAXI@Z 1001a864 f i configuri.obj
+ 0001:00019864       ??_ECConfigManager2URIImpl@@MAAPAXI@Z 1001a864 f i configuri.obj
+ 0001:00019888       ??0CConfigManager2URI@@IAA@XZ 1001a888 f   configuri.obj
+ 0001:000198dc       ??_ECConfigManager2URI@@UAAPAXI@Z 1001a8dc f i configuri.obj
+ 0001:000198dc       ??_GCConfigManager2URI@@UAAPAXI@Z 1001a8dc f i configuri.obj
+ 0001:00019900       ??0CConfigManager2MutableURI@@IAA@XZ 1001a900 f   configuri.obj
+ 0001:00019954       ??_GCConfigManager2MutableURI@@UAAPAXI@Z 1001a954 f i configuri.obj
+ 0001:00019954       ??_ECConfigManager2MutableURI@@UAAPAXI@Z 1001a954 f i configuri.obj
+ 0001:00019978       ?CreateCOMObject@CConfigManager2URI@@SAJPAPAVCConfigManager2URIImpl@@@Z 1001a978 f   configuri.obj
+ 0001:000199d8       ?Create@CConfigManager2MutableURI@@SAJPAUIConfigManager2URI@@KKHPAPAUIConfigManager2MutableURI@@@Z 1001a9d8 f   configuri.obj
+ 0001:00019a94       ?CreateSlicedURI@CConfigManager2URIImpl@@IAAJPAUIConfigManager2URI@@KKHPAPAU2@@Z 1001aa94 f   configuri.obj
+ 0001:00019bc8       ?SplitURI@CConfigManager2URIImpl@@UAAJKHPAPAUIConfigManager2URI@@0@Z 1001abc8 f   configuri.obj
+ 0001:00019d38       ?Clone@CConfigManager2URIImpl@@UAAJHPAPAUIConfigManager2MutableURI@@@Z 1001ad38 f   configuri.obj
+ 0001:00019da4       ?AppendSegmentToCopy@CConfigManager2URIImpl@@UAAJPBGHHPAPAUIConfigManager2URI@@@Z 1001ada4 f   configuri.obj
+ 0001:00019edc       ?AppendRelativeURIToCopy@CConfigManager2URIImpl@@UAAJPAUIConfigManager2URI@@KHPAPAU2@@Z 1001aedc f   configuri.obj
+ 0001:0001a094       ?ReplaceSegment@CConfigManager2URIImpl@@UAAJKPBGH@Z 1001b094 f   configuri.obj
+ 0001:0001a1fc       ?CreateNonMutableURI@CConfigManager2URIImpl@@UAAJPAPAUIConfigManager2URI@@@Z 1001b1fc f   configuri.obj
+ 0001:0001a2cc       ?CreateFromString@CConfigManager2URI@@SAJPBGPAPAUIConfigManager2URI@@@Z 1001b2cc f   configuri.obj
+ 0001:0001a358       ?InsertSegmentImpl@CConfigManager2URIImpl@@IAAJKPBGH@Z 1001b358 f   configuri.obj
+ 0001:0001a664       ?AppendSegment@CConfigManager2URIImpl@@UAAJPBGH@Z 1001b664 f   configuri.obj
+ 0001:0001a674       ?InsertSegment@CConfigManager2URIImpl@@UAAJKPBGH@Z 1001b674 f   configuri.obj
+ 0001:0001a6ec       ?GetBaseAccessRoles@CConfigSession2@@UAAJPAK@Z 1001b6ec f   configsession.obj
+ 0001:0001a708       ?GetAccessRoles@CConfigSession2@@UAAJPAK@Z 1001b708 f   configsession.obj
+ 0001:0001a724       ?SetAccessRoles@CConfigSession2@@QAAJK@Z 1001b724 f   configsession.obj
+ 0001:0001a744       ?GetHost@CConfigSession2@@UAAJPAPAUIUnknown@@@Z 1001b744 f   configsession.obj
+ 0001:0001a778       ?SetHost@CConfigSession2@@QAAJPAUIUnknown@@@Z 1001b778 f   configsession.obj
+ 0001:0001a7cc       ?DpaLocalFree@CConfigSession2@@CAHPAX0@Z 1001b7cc f i configsession.obj
+ 0001:0001a7dc       ?DsaVariantClear@CConfigSession2@@CAHPAX0@Z 1001b7dc f i configsession.obj
+ 0001:0001a7ec       ?Initialize@CConfigSession2@@QAAJXZ 1001b7ec f   configsession.obj
+ 0001:0001a888       ?GetSessionVariable@CConfigSession2@@UAAJPAGPAUtagVARIANT@@@Z 1001b888 f   configsession.obj
+ 0001:0001a934       ?DeletePropertyFromMetabase@CConfigSession2@@AAAJPAUIConfigManager2URI@@ABU_GUID@@@Z 1001b934 f   configsession.obj
+ 0001:0001a9e4       ?SetPropertyForNode@CConfigSession2@@QAAJPAUICSPNode@@PAUIConfigManager2URI@@KABU_GUID@@UtagVARIANT@@@Z 1001b9e4 f   configsession.obj
+ 0001:0001aaa4       ?DeletePropertyForNode@CConfigSession2@@QAAJPAUICSPNode@@PAUIConfigManager2URI@@KABU_GUID@@@Z 1001baa4 f   configsession.obj
+ 0001:0001ab10       ?DeleteAllPropertiesForNode@CConfigSession2@@QAAJPAUIConfigManager2URI@@K@Z 1001bb10 f   configsession.obj
+ 0001:0001abe0       ?MoveProperties@CConfigSession2@@QAAJPAUIConfigManager2URI@@K0@Z 1001bbe0 f   configsession.obj
+ 0001:0001ae24       ?SetSessionVariable@CConfigSession2@@QAAJPAGUtagVARIANT@@@Z 1001be24 f   configsession.obj
+ 0001:0001af0c       ?SetProcessingStep@CConfigSession2@@QAAJW4ConfigManager2Notification@@@Z 1001bf0c f   configsession.obj
+ 0001:0001af6c       ??0CConfigSession2@@QAA@XZ 1001bf6c f   configsession.obj
+ 0001:0001afa0       ??1CConfigSession2@@MAA@XZ 1001bfa0 f   configsession.obj
+ 0001:0001b010       ?GetPropertyFromMetabaseNoCheck@CConfigSession2@@QAAJPAUIConfigManager2URI@@ABU_GUID@@PAPAVCConfigProperty@@@Z 1001c010 f   configsession.obj
+ 0001:0001b098       ?ReadPropertyFromStream@CConfigSession2@@QAAJPAUISequentialStream@@PAPAVCConfigProperty@@@Z 1001c098 f   configsession.obj
+ 0001:0001b118       ?GetPropertyForNode@CConfigSession2@@QAAJPAUICSPNode@@PAUIConfigManager2URI@@KABU_GUID@@PAPAVCConfigProperty@@@Z 1001c118 f   configsession.obj
+ 0001:0001b1b8       ?GetPropertyFromMetabase@CConfigSession2@@UAAJPAUIConfigManager2URI@@ABU_GUID@@PAUtagVARIANT@@@Z 1001c1b8 f   configsession.obj
+ 0001:0001b230       ?get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ 1001c230 f i precomp.obj
+ 0001:0001b284       GetProcAddressW            1001c284 f   coredll:COREDLL.dll
+ 0001:0001b294       LoadLibraryW               1001c294 f   coredll:COREDLL.dll
+ 0001:0001b2a4       FreeLibrary                1001c2a4 f   coredll:COREDLL.dll
+ 0001:0001b2b4       LocalFree                  1001c2b4 f   coredll:COREDLL.dll
+ 0001:0001b2c4       InterlockedIncrement       1001c2c4 f   coredll:COREDLL.dll
+ 0001:0001b2d4       InterlockedDecrement       1001c2d4 f   coredll:COREDLL.dll
+ 0001:0001b2e4       DPA_Destroy                1001c2e4 f   coredll:COREDLL.dll
+ 0001:0001b2f4       DPA_GetPtr                 1001c2f4 f   coredll:COREDLL.dll
+ 0001:0001b304       DPA_DeletePtr              1001c304 f   coredll:COREDLL.dll
+ 0001:0001b314       DPA_InsertPtr              1001c314 f   coredll:COREDLL.dll
+ 0001:0001b324       DPA_Create                 1001c324 f   coredll:COREDLL.dll
+ 0001:0001b334       CePerfDLLCleanup           1001c334 f   coredll:COREDLL.dll
+ 0001:0001b344       CePerfDLLSetup             1001c344 f   coredll:COREDLL.dll
+ 0001:0001b354       WaitForMultipleObjects     1001c354 f   coredll:COREDLL.dll
+ 0001:0001b364       ReleaseMutex               1001c364 f   coredll:COREDLL.dll
+ 0001:0001b374       CreateMutexW               1001c374 f   coredll:COREDLL.dll
+ 0001:0001b384       CloseHandle                1001c384 f   coredll:COREDLL.dll
+ 0001:0001b394       WriteFile                  1001c394 f   coredll:COREDLL.dll
+ 0001:0001b3a4       GetLastError               1001c3a4 f   coredll:COREDLL.dll
+ 0001:0001b3b4       CreateFileW                1001c3b4 f   coredll:COREDLL.dll
+ 0001:0001b3c4       DeleteFileW                1001c3c4 f   coredll:COREDLL.dll
+ 0001:0001b3d4       GetFileAttributesW         1001c3d4 f   coredll:COREDLL.dll
+ 0001:0001b3e4       PostMessageW               1001c3e4 f   coredll:COREDLL.dll
+ 0001:0001b3f4       RaiseException             1001c3f4 f   coredll:COREDLL.dll
+ 0001:0001b404       DPA_SetPtr                 1001c404 f   coredll:COREDLL.dll
+ 0001:0001b414       DPA_Clone                  1001c414 f   coredll:COREDLL.dll
+ 0001:0001b424       DPA_DeleteAllPtrs          1001c424 f   coredll:COREDLL.dll
+ 0001:0001b434       InitializeCriticalSection  1001c434 f   coredll:COREDLL.dll
+ 0001:0001b444       DeleteCriticalSection      1001c444 f   coredll:COREDLL.dll
+ 0001:0001b454       DPA_DestroyCallback        1001c454 f   coredll:COREDLL.dll
+ 0001:0001b464       ReadFile                   1001c464 f   coredll:COREDLL.dll
+ 0001:0001b474       CryptUnprotectData         1001c474 f   coredll:COREDLL.dll
+ 0001:0001b484       LocalAlloc                 1001c484 f   coredll:COREDLL.dll
+ 0001:0001b494       CryptProtectData           1001c494 f   coredll:COREDLL.dll
+ 0001:0001b4a4       EnterCriticalSection       1001c4a4 f   coredll:COREDLL.dll
+ 0001:0001b4b4       LeaveCriticalSection       1001c4b4 f   coredll:COREDLL.dll
+ 0001:0001b4c4       RegDeleteKeyW              1001c4c4 f   coredll:COREDLL.dll
+ 0001:0001b4d4       RegDeleteValueW            1001c4d4 f   coredll:COREDLL.dll
+ 0001:0001b4e4       RegCloseKey                1001c4e4 f   coredll:COREDLL.dll
+ 0001:0001b4f4       RegCreateKeyExW            1001c4f4 f   coredll:COREDLL.dll
+ 0001:0001b504       RegOpenKeyExW              1001c504 f   coredll:COREDLL.dll
+ 0001:0001b514       RegSetValueExW             1001c514 f   coredll:COREDLL.dll
+ 0001:0001b524       lstrcmpiW                  1001c524 f   coredll:COREDLL.dll
+ 0001:0001b534       CharNextW                  1001c534 f   coredll:COREDLL.dll
+ 0001:0001b544       RegQueryInfoKeyW           1001c544 f   coredll:COREDLL.dll
+ 0001:0001b554       RegEnumKeyExW              1001c554 f   coredll:COREDLL.dll
+ 0001:0001b564       MultiByteToWideChar        1001c564 f   coredll:COREDLL.dll
+ 0001:0001b574       SizeofResource             1001c574 f   coredll:COREDLL.dll
+ 0001:0001b584       LoadResource               1001c584 f   coredll:COREDLL.dll
+ 0001:0001b594       FindResourceW              1001c594 f   coredll:COREDLL.dll
+ 0001:0001b5a4       LoadLibraryExW             1001c5a4 f   coredll:COREDLL.dll
+ 0001:0001b5b4       GetModuleHandleW           1001c5b4 f   coredll:COREDLL.dll
+ 0001:0001b5c4       GetModuleFileNameW         1001c5c4 f   coredll:COREDLL.dll
+ 0001:0001b5d4       RegQueryValueExW           1001c5d4 f   coredll:COREDLL.dll
+ 0001:0001b5e4       DPA_EnumCallback           1001c5e4 f   coredll:COREDLL.dll
+ 0001:0001b5f4       DPA_Search                 1001c5f4 f   coredll:COREDLL.dll
+ 0001:0001b604       StringCchCopyW             1001c604 f   coredll:COREDLL.dll
+ 0001:0001b614       StringCchLengthW           1001c614 f   coredll:COREDLL.dll
+ 0001:0001b624       LocalReAlloc               1001c624 f   coredll:COREDLL.dll
+ 0001:0001b634       CharLowerW                 1001c634 f   coredll:COREDLL.dll
+ 0001:0001b644       DSA_Create                 1001c644 f   coredll:COREDLL.dll
+ 0001:0001b654       DSA_GetItemPtr             1001c654 f   coredll:COREDLL.dll
+ 0001:0001b664       DSA_InsertItem             1001c664 f   coredll:COREDLL.dll
+ 0001:0001b674       DSA_DestroyCallback        1001c674 f   coredll:COREDLL.dll
+ 0001:0001b684       ?Hash_DestroyCallback@@YAJPAUHashTableTag@@P6AHPAX1@Z1@Z 1001c684 f   ossvcs:ossvcs.dll
+ 0001:0001b694       ?Hash_EnumCallback@@YAJPAUHashTableTag@@P6AJPAXJPAH@ZJ@Z 1001c694 f   ossvcs:ossvcs.dll
+ 0001:0001b6a4       CopyString                 1001c6a4 f   ossvcs:ossvcs.dll
+ 0001:0001b6b4       ?Hash_Destroy@@YAJPAUHashTableTag@@@Z 1001c6b4 f   ossvcs:ossvcs.dll
+ 0001:0001b6c4       ?Hash_Create@@YAJIP6AIIPAX@ZP6AJ00PAH@Z0PAPAUHashTableTag@@@Z 1001c6c4 f   ossvcs:ossvcs.dll
+ 0001:0001b6d4       ?Hash_Insert@@YAJPAUHashTableTag@@PAX1@Z 1001c6d4 f   ossvcs:ossvcs.dll
+ 0001:0001b6e4       ?Hash_Get@@YAJPAUHashTableTag@@PAXPAPAX@Z 1001c6e4 f   ossvcs:ossvcs.dll
+ 0001:0001b6f4       WatsonReportFault          1001c6f4 f   ossvcs:ossvcs.dll
+ 0001:0001b704       ISO8601StringToSystemTime  1001c704 f   ossvcs:ossvcs.dll
+ 0001:0001b714       UMul                       1001c714 f   ossvcs:ossvcs.dll
+ 0001:0001b724       SafeWideCharToMultiByte    1001c724 f   ossvcs:ossvcs.dll
+ 0001:0001b734       SafeMultiByteToWideChar    1001c734 f   ossvcs:ossvcs.dll
+ 0001:0001b744       ProcessRoles               1001c744 f   ossvcs:ossvcs.dll
+ 0001:0001b754       InvStrCmpW                 1001c754 f   ossvcs:ossvcs.dll
+ 0001:0001b764       CoCreateInstance           1001c764 f   ole32:ole32.dll
+ 0001:0001b774       CoTaskMemFree              1001c774 f   ole32:ole32.dll
+ 0001:0001b784       CreateStreamOnHGlobal      1001c784 f   ole32:ole32.dll
+ 0001:0001b794       GetHGlobalFromStream       1001c794 f   ole32:ole32.dll
+ 0001:0001b7a4       CoTaskMemAlloc             1001c7a4 f   ole32:ole32.dll
+ 0001:0001b7b4       CoTaskMemRealloc           1001c7b4 f   ole32:ole32.dll
+ 0001:0001b7c4       CLSIDFromString            1001c7c4 f   ole32:ole32.dll
+ 0001:0001b7d4       VariantClear               1001c7d4 f   oleaut32:OLEAUT32.dll
+ 0001:0001b7e4       VariantInit                1001c7e4 f   oleaut32:OLEAUT32.dll
+ 0001:0001b7f4       VariantCopy                1001c7f4 f   oleaut32:OLEAUT32.dll
+ 0001:0001b804       SysFreeString              1001c804 f   oleaut32:OLEAUT32.dll
+ 0001:0001b814       VarUI4FromStr              1001c814 f   oleaut32:OLEAUT32.dll
+ 0001:0001b824       SysAllocString             1001c824 f   oleaut32:OLEAUT32.dll
+ 0001:0001b834       VariantChangeType          1001c834 f   oleaut32:OLEAUT32.dll
+ 0001:0001b844       SystemTimeToVariantTime    1001c844 f   oleaut32:OLEAUT32.dll
+ 0001:0001b854       SysAllocStringLen          1001c854 f   oleaut32:OLEAUT32.dll
+ 0001:0001b864       ?WriteVariantToStream@@YAJPBUtagVARIANT@@PAUISequentialStream@@@Z 1001c864 f   dmsapi:dmsapi.dll
+ 0001:0001b874       ?ReadVariantFromStream@@YAJPAUtagVARIANT@@PAUISequentialStream@@@Z 1001c874 f   dmsapi:dmsapi.dll
+ 0001:0001b884       ?WriteBSTRToStream@@YAJPAGPAUISequentialStream@@@Z 1001c884 f   dmsapi:dmsapi.dll
+ 0001:0001b894       ?ReadBSTRFromStream@@YAJPAPAGPAUISequentialStream@@@Z 1001c894 f   dmsapi:dmsapi.dll
+ 0001:0001b8a4       ?Term@CAtlComModule@ATL@@QAAXXZ 1001c8a4 f i atls:atlcommodule.obj
+ 0001:0001b908       ??0CAtlComModule@ATL@@QAA@XZ 1001c908 f i atls:atlcommodule.obj
+ 0001:0001b998       AtlRawDllMain              1001c998 f   atls:atlbase.obj
+ 0001:0001ba20       ??1CAtlBaseModule@ATL@@QAA@XZ 1001ca20 f   atls:atlbase.obj
+ 0001:0001ba58       ??0CAtlBaseModule@ATL@@QAA@XZ 1001ca58 f   atls:atlbase.obj
+ 0001:0001bbe4       _DllMainCRTStartup         1001cbe4 f   corelib0:pegdmain.obj
+ 0001:0001bc10       __GSHandlerCheckCommon     1001cc10 f   corelib0:gshandler.obj
+ 0001:0001bc4c       __GSHandlerCheck           1001cc4c f   corelib0:gshandler.obj
+ 0001:0001bc6c       __security_init_cookie     1001cc6c f   corelib0:seccinit.obj
+ 0001:0001bcb8       __security_check_cookie    1001ccb8 f   corelib0:armsecgs.obj
+ 0001:0001bcc8       __gsfailure                1001ccc8     corelib0:armsecgs.obj
+ 0001:0001bd14       _onexit                    1001cd14 f   corelib0:onexit.obj
+ 0001:0001be98       atexit                     1001ce98 f   corelib0:onexit.obj
+ 0001:0001bf98       _cexit                     1001cf98 f   corelib0:cexit.obj
+ 0001:0001bfa8       _initterm                  1001cfa8 f   corelib0:crt0dat.obj
+ 0001:0001bfd4       _cinit                     1001cfd4 f   corelib0:crt0dat.obj
+ 0001:0001c034       __crt_ExitProcess          1001d034 f   corelib0:exitproc_proxy.obj
+ 0001:0001c040       memcmp                     1001d040 f   corelib1:COREDLL.dll
+ 0001:0001c050       ??3@YAXPAX@Z               1001d050 f   corelib1:COREDLL.dll
+ 0001:0001c060       ??2@YAPAXI@Z               1001d060 f   corelib1:COREDLL.dll
+ 0001:0001c070       __C_specific_handler       1001d070 f   corelib1:COREDLL.dll
+ 0001:0001c080       memset                     1001d080 f   corelib1:COREDLL.dll
+ 0001:0001c090       memcpy                     1001d090 f   corelib1:COREDLL.dll
+ 0001:0001c0a0       memcpy_s                   1001d0a0 f   corelib1:COREDLL.dll
+ 0001:0001c0b0       ??_V@YAXPAX@Z              1001d0b0 f   corelib1:COREDLL.dll
+ 0001:0001c0c0       ??_U@YAPAXI@Z              1001d0c0 f   corelib1:COREDLL.dll
+ 0001:0001c0d0       _purecall                  1001d0d0 f   corelib1:COREDLL.dll
+ 0001:0001c0e0       wcsstr                     1001d0e0 f   corelib1:COREDLL.dll
+ 0001:0001c0f0       wcslen                     1001d0f0 f   corelib1:COREDLL.dll
+ 0001:0001c100       malloc                     1001d100 f   corelib1:COREDLL.dll
+ 0001:0001c110       free                       1001d110 f   corelib1:COREDLL.dll
+ 0001:0001c120       wcsncpy_s                  1001d120 f   corelib1:COREDLL.dll
+ 0001:0001c130       _recalloc                  1001d130 f   corelib1:COREDLL.dll
+ 0001:0001c140       _wcsicmp                   1001d140 f   corelib1:COREDLL.dll
+ 0001:0001c150       wcscmp                     1001d150 f   corelib1:COREDLL.dll
+ 0001:0001c160       tolower                    1001d160 f   corelib1:COREDLL.dll
+ 0001:0001c170       memmove                    1001d170 f   corelib1:COREDLL.dll
+ 0001:0001c180       _XcptFilter                1001d180 f   corelib1:COREDLL.dll
+ 0001:0001c190       __security_gen_cookie2     1001d190 f   corelib1:COREDLL.dll
+ 0001:0001c1a0       __report_gsfailure         1001d1a0 f   corelib1:COREDLL.dll
+ 0001:0001c1b0       realloc                    1001d1b0 f   corelib1:COREDLL.dll
+ 0001:0001c1c0       _msize                     1001d1c0 f   corelib1:COREDLL.dll
+ 0001:0001c1d0       InterlockedCompareExchange 1001d1d0 f   coredll:COREDLL.dll
+ 0001:0001c1e0       InterlockedExchange        1001d1e0 f   coredll:COREDLL.dll
+ 0001:0001c1f0       TerminateProcess           1001d1f0 f   coredll:COREDLL.dll
+ 0001:0001c2b4       ??__Fcs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@YAXXZ 1001d2b4 f i precomp.obj
+ 0001:0001c420       __pobjMapEntryFirst        1001d420     precomp.obj
+ 0001:0001c424       __pobjMapEntryLast         1001d424     precomp.obj
+ 0001:0001c428       __IMPORT_DESCRIPTOR_COREDLL 1001d428     coredll:COREDLL.dll
+ 0001:0001c43c       __IMPORT_DESCRIPTOR_ossvcs 1001d43c     ossvcs:ossvcs.dll
+ 0001:0001c450       __IMPORT_DESCRIPTOR_ole32  1001d450     ole32:ole32.dll
+ 0001:0001c464       __IMPORT_DESCRIPTOR_OLEAUT32 1001d464     oleaut32:OLEAUT32.dll
+ 0001:0001c478       __IMPORT_DESCRIPTOR_dmsapi 1001d478     dmsapi:dmsapi.dll
+ 0001:0001c48c       __NULL_IMPORT_DESCRIPTOR   1001d48c     coredll:COREDLL.dll
+ 0002:00000000       __imp_GetProcAddressW      1001e000     coredll:COREDLL.dll
+ 0002:00000004       __imp_LoadLibraryW         1001e004     coredll:COREDLL.dll
+ 0002:00000008       __imp_FreeLibrary          1001e008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_LocalFree            1001e00c     coredll:COREDLL.dll
+ 0002:00000010       __imp_InterlockedIncrement 1001e010     coredll:COREDLL.dll
+ 0002:00000014       __imp_InterlockedDecrement 1001e014     coredll:COREDLL.dll
+ 0002:00000018       __imp_DPA_Destroy          1001e018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_DPA_GetPtr           1001e01c     coredll:COREDLL.dll
+ 0002:00000020       __imp_DPA_DeletePtr        1001e020     coredll:COREDLL.dll
+ 0002:00000024       __imp_DPA_InsertPtr        1001e024     coredll:COREDLL.dll
+ 0002:00000028       __imp_DPA_Create           1001e028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_CePerfDLLCleanup     1001e02c     coredll:COREDLL.dll
+ 0002:00000030       __imp_CePerfDLLSetup       1001e030     coredll:COREDLL.dll
+ 0002:00000034       __imp_WaitForMultipleObjects 1001e034     coredll:COREDLL.dll
+ 0002:00000038       __imp_ReleaseMutex         1001e038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_CreateMutexW         1001e03c     coredll:COREDLL.dll
+ 0002:00000040       __imp_CloseHandle          1001e040     coredll:COREDLL.dll
+ 0002:00000044       __imp_WriteFile            1001e044     coredll:COREDLL.dll
+ 0002:00000048       __imp_GetLastError         1001e048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_CreateFileW          1001e04c     coredll:COREDLL.dll
+ 0002:00000050       __imp_DeleteFileW          1001e050     coredll:COREDLL.dll
+ 0002:00000054       __imp_GetFileAttributesW   1001e054     coredll:COREDLL.dll
+ 0002:00000058       __imp_PostMessageW         1001e058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_RaiseException       1001e05c     coredll:COREDLL.dll
+ 0002:00000060       __imp_DPA_SetPtr           1001e060     coredll:COREDLL.dll
+ 0002:00000064       __imp_DPA_Clone            1001e064     coredll:COREDLL.dll
+ 0002:00000068       __imp_DPA_DeleteAllPtrs    1001e068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_InitializeCriticalSection 1001e06c     coredll:COREDLL.dll
+ 0002:00000070       __imp_DeleteCriticalSection 1001e070     coredll:COREDLL.dll
+ 0002:00000074       __imp_DPA_DestroyCallback  1001e074     coredll:COREDLL.dll
+ 0002:00000078       __imp_ReadFile             1001e078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_CryptUnprotectData   1001e07c     coredll:COREDLL.dll
+ 0002:00000080       __imp_LocalAlloc           1001e080     coredll:COREDLL.dll
+ 0002:00000084       __imp_CryptProtectData     1001e084     coredll:COREDLL.dll
+ 0002:00000088       __imp_EnterCriticalSection 1001e088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_LeaveCriticalSection 1001e08c     coredll:COREDLL.dll
+ 0002:00000090       __imp_RegDeleteKeyW        1001e090     coredll:COREDLL.dll
+ 0002:00000094       __imp_RegDeleteValueW      1001e094     coredll:COREDLL.dll
+ 0002:00000098       __imp_RegCloseKey          1001e098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_RegCreateKeyExW      1001e09c     coredll:COREDLL.dll
+ 0002:000000a0       __imp_RegOpenKeyExW        1001e0a0     coredll:COREDLL.dll
+ 0002:000000a4       __imp_RegSetValueExW       1001e0a4     coredll:COREDLL.dll
+ 0002:000000a8       __imp_lstrcmpiW            1001e0a8     coredll:COREDLL.dll
+ 0002:000000ac       __imp_CharNextW            1001e0ac     coredll:COREDLL.dll
+ 0002:000000b0       __imp_RegQueryInfoKeyW     1001e0b0     coredll:COREDLL.dll
+ 0002:000000b4       __imp_RegEnumKeyExW        1001e0b4     coredll:COREDLL.dll
+ 0002:000000b8       __imp_MultiByteToWideChar  1001e0b8     coredll:COREDLL.dll
+ 0002:000000bc       __imp_SizeofResource       1001e0bc     coredll:COREDLL.dll
+ 0002:000000c0       __imp_LoadResource         1001e0c0     coredll:COREDLL.dll
+ 0002:000000c4       __imp_FindResourceW        1001e0c4     coredll:COREDLL.dll
+ 0002:000000c8       __imp_LoadLibraryExW       1001e0c8     coredll:COREDLL.dll
+ 0002:000000cc       __imp_GetModuleHandleW     1001e0cc     coredll:COREDLL.dll
+ 0002:000000d0       __imp_GetModuleFileNameW   1001e0d0     coredll:COREDLL.dll
+ 0002:000000d4       __imp_RegQueryValueExW     1001e0d4     coredll:COREDLL.dll
+ 0002:000000d8       __imp_DPA_EnumCallback     1001e0d8     coredll:COREDLL.dll
+ 0002:000000dc       __imp_DPA_Search           1001e0dc     coredll:COREDLL.dll
+ 0002:000000e0       __imp_StringCchCopyW       1001e0e0     coredll:COREDLL.dll
+ 0002:000000e4       __imp_StringCchLengthW     1001e0e4     coredll:COREDLL.dll
+ 0002:000000e8       __imp_LocalReAlloc         1001e0e8     coredll:COREDLL.dll
+ 0002:000000ec       __imp_CharLowerW           1001e0ec     coredll:COREDLL.dll
+ 0002:000000f0       __imp_DSA_Create           1001e0f0     coredll:COREDLL.dll
+ 0002:000000f4       __imp_DSA_GetItemPtr       1001e0f4     coredll:COREDLL.dll
+ 0002:000000f8       __imp_DSA_InsertItem       1001e0f8     coredll:COREDLL.dll
+ 0002:000000fc       __imp_DSA_DestroyCallback  1001e0fc     coredll:COREDLL.dll
+ 0002:00000100       __imp_free                 1001e100     corelib1:COREDLL.dll
+ 0002:00000104       __imp_TerminateProcess     1001e104     coredll:COREDLL.dll
+ 0002:00000108       __imp_InterlockedExchange  1001e108     coredll:COREDLL.dll
+ 0002:0000010c       __imp_malloc               1001e10c     corelib1:COREDLL.dll
+ 0002:00000110       __imp_InterlockedCompareExchange 1001e110     coredll:COREDLL.dll
+ 0002:00000114       __imp__msize               1001e114     corelib1:COREDLL.dll
+ 0002:00000118       __imp_realloc              1001e118     corelib1:COREDLL.dll
+ 0002:0000011c       __imp___report_gsfailure   1001e11c     corelib1:COREDLL.dll
+ 0002:00000120       __imp___security_gen_cookie2 1001e120     corelib1:COREDLL.dll
+ 0002:00000124       __imp__XcptFilter          1001e124     corelib1:COREDLL.dll
+ 0002:00000128       __imp_memmove              1001e128     corelib1:COREDLL.dll
+ 0002:0000012c       __imp_tolower              1001e12c     corelib1:COREDLL.dll
+ 0002:00000130       __imp_wcscmp               1001e130     corelib1:COREDLL.dll
+ 0002:00000134       __imp__wcsicmp             1001e134     corelib1:COREDLL.dll
+ 0002:00000138       __imp__recalloc            1001e138     corelib1:COREDLL.dll
+ 0002:0000013c       __imp_wcslen               1001e13c     corelib1:COREDLL.dll
+ 0002:00000140       __imp_wcsstr               1001e140     corelib1:COREDLL.dll
+ 0002:00000144       __imp__purecall            1001e144     corelib1:COREDLL.dll
+ 0002:00000148       __imp_??_U@YAPAXI@Z        1001e148     corelib1:COREDLL.dll
+ 0002:0000014c       __imp_??_V@YAXPAX@Z        1001e14c     corelib1:COREDLL.dll
+ 0002:00000150       __imp_memcpy_s             1001e150     corelib1:COREDLL.dll
+ 0002:00000154       __imp___rt_udiv            1001e154     corelib1:COREDLL.dll
+ 0002:00000158       __imp_memcpy               1001e158     corelib1:COREDLL.dll
+ 0002:0000015c       __imp_memset               1001e15c     corelib1:COREDLL.dll
+ 0002:00000160       __imp___C_specific_handler 1001e160     corelib1:COREDLL.dll
+ 0002:00000164       __imp_??2@YAPAXI@Z         1001e164     corelib1:COREDLL.dll
+ 0002:00000168       __imp_??3@YAXPAX@Z         1001e168     corelib1:COREDLL.dll
+ 0002:0000016c       __imp_memcmp               1001e16c     corelib1:COREDLL.dll
+ 0002:00000170       __imp_wcsncpy_s            1001e170     corelib1:COREDLL.dll
+ 0002:00000174       \177COREDLL_NULL_THUNK_DATA 1001e174     coredll:COREDLL.dll
+ 0002:00000178       __imp_VariantChangeType    1001e178     oleaut32:OLEAUT32.dll
+ 0002:0000017c       __imp_SystemTimeToVariantTime 1001e17c     oleaut32:OLEAUT32.dll
+ 0002:00000180       __imp_SysAllocStringLen    1001e180     oleaut32:OLEAUT32.dll
+ 0002:00000184       __imp_VariantClear         1001e184     oleaut32:OLEAUT32.dll
+ 0002:00000188       __imp_VariantInit          1001e188     oleaut32:OLEAUT32.dll
+ 0002:0000018c       __imp_VariantCopy          1001e18c     oleaut32:OLEAUT32.dll
+ 0002:00000190       __imp_SysFreeString        1001e190     oleaut32:OLEAUT32.dll
+ 0002:00000194       __imp_VarUI4FromStr        1001e194     oleaut32:OLEAUT32.dll
+ 0002:00000198       __imp_SysAllocString       1001e198     oleaut32:OLEAUT32.dll
+ 0002:0000019c       \177OLEAUT32_NULL_THUNK_DATA 1001e19c     oleaut32:OLEAUT32.dll
+ 0002:000001a0       __imp_?ReadBSTRFromStream@@YAJPAPAGPAUISequentialStream@@@Z 1001e1a0     dmsapi:dmsapi.dll
+ 0002:000001a4       __imp_?WriteBSTRToStream@@YAJPAGPAUISequentialStream@@@Z 1001e1a4     dmsapi:dmsapi.dll
+ 0002:000001a8       __imp_?ReadVariantFromStream@@YAJPAUtagVARIANT@@PAUISequentialStream@@@Z 1001e1a8     dmsapi:dmsapi.dll
+ 0002:000001ac       __imp_?WriteVariantToStream@@YAJPBUtagVARIANT@@PAUISequentialStream@@@Z 1001e1ac     dmsapi:dmsapi.dll
+ 0002:000001b0       \177dmsapi_NULL_THUNK_DATA 1001e1b0     dmsapi:dmsapi.dll
+ 0002:000001b4       __imp_CLSIDFromString      1001e1b4     ole32:ole32.dll
+ 0002:000001b8       __imp_CoTaskMemRealloc     1001e1b8     ole32:ole32.dll
+ 0002:000001bc       __imp_GetHGlobalFromStream 1001e1bc     ole32:ole32.dll
+ 0002:000001c0       __imp_CreateStreamOnHGlobal 1001e1c0     ole32:ole32.dll
+ 0002:000001c4       __imp_CoTaskMemFree        1001e1c4     ole32:ole32.dll
+ 0002:000001c8       __imp_CoCreateInstance     1001e1c8     ole32:ole32.dll
+ 0002:000001cc       __imp_CoTaskMemAlloc       1001e1cc     ole32:ole32.dll
+ 0002:000001d0       \177ole32_NULL_THUNK_DATA  1001e1d0     ole32:ole32.dll
+ 0002:000001d4       __imp_InvStrCmpW           1001e1d4     ossvcs:ossvcs.dll
+ 0002:000001d8       __imp_ProcessRoles         1001e1d8     ossvcs:ossvcs.dll
+ 0002:000001dc       __imp_SafeMultiByteToWideChar 1001e1dc     ossvcs:ossvcs.dll
+ 0002:000001e0       __imp_SafeWideCharToMultiByte 1001e1e0     ossvcs:ossvcs.dll
+ 0002:000001e4       __imp_UMul                 1001e1e4     ossvcs:ossvcs.dll
+ 0002:000001e8       __imp_ISO8601StringToSystemTime 1001e1e8     ossvcs:ossvcs.dll
+ 0002:000001ec       __imp_WatsonReportFault    1001e1ec     ossvcs:ossvcs.dll
+ 0002:000001f0       __imp_?Hash_Get@@YAJPAUHashTableTag@@PAXPAPAX@Z 1001e1f0     ossvcs:ossvcs.dll
+ 0002:000001f4       __imp_?Hash_Insert@@YAJPAUHashTableTag@@PAX1@Z 1001e1f4     ossvcs:ossvcs.dll
+ 0002:000001f8       __imp_?Hash_Create@@YAJIP6AIIPAX@ZP6AJ00PAH@Z0PAPAUHashTableTag@@@Z 1001e1f8     ossvcs:ossvcs.dll
+ 0002:000001fc       __imp_CopyString           1001e1fc     ossvcs:ossvcs.dll
+ 0002:00000200       __imp_?Hash_EnumCallback@@YAJPAUHashTableTag@@P6AJPAXJPAH@ZJ@Z 1001e200     ossvcs:ossvcs.dll
+ 0002:00000204       __imp_?Hash_DestroyCallback@@YAJPAUHashTableTag@@P6AHPAX1@Z1@Z 1001e204     ossvcs:ossvcs.dll
+ 0002:00000208       __imp_?Hash_Destroy@@YAJPAUHashTableTag@@@Z 1001e208     ossvcs:ossvcs.dll
+ 0002:0000020c       \177ossvcs_NULL_THUNK_DATA 1001e20c     ossvcs:ossvcs.dll
+ 0002:00000210       ?Cm2PerfDescriptors@@3PAU_CEPERF_BASIC_ITEM_DESCRIPTOR@@A 1001e210     configmanager2.obj
+ 0002:000006c8       ?sc_pszRootSegmentName@@3PBGB 1001e6c8     parseuri.obj
+ 0002:000006cc       ?sc_pszUpDirectoryName@@3PBGB 1001e6cc     parseuri.obj
+ 0002:000006d0       ?sc_ParserRules@CParseLocURI@@0PAPBUParserRule@1@A 1001e6d0     parseuri.obj
+ 0002:000006f8       _pRawDllMain               1001e6f8     atls:atlbase.obj
+ 0002:000006fc       __security_cookie          1001e6fc     corelib0:seccinit.obj
+ 0002:00000700       __security_cookie_complement 1001e700     corelib0:seccinit.obj
+ 0002:00000704       ?g_hInstDmsapi@@3PAUHINSTANCE__@@A 1001e704     helpers.obj
+ 0002:00000710       ?_pAtlModule@ATL@@3PAVCAtlModule@1@A 1001e710     nodewrapper.obj
+ 0002:00000714       pCePerfInternal            1001e714     configmanager2.obj
+ 0002:00000718       ?g_Cm2Perf@@3VCePerfBasicHelper@@A 1001e718     configmanager2.obj
+ 0002:00000740       ?m_bInitFailed@CAtlBaseModule@ATL@@2_NA 1001e740     main.obj
+ 0002:00000741       ?_AtlRegisterPerUser@ATL@@3_NA 1001e741     main.obj
+ 0002:00000744       ?m_libid@CAtlModule@ATL@@2U_GUID@@A 1001e744     main.obj
+ 0002:00000754       ?_pModule@ATL@@3PAVCComModule@1@A 1001e754     main.obj
+ 0002:00000758       ??_B?1??VTFromRegType@CRegParser@ATL@@KAHPBGAAG@Z@51 1001e758     main.obj
+ 0002:0000075c       ?map@?1??VTFromRegType@CRegParser@ATL@@KAHPBGAAG@Z@4QBUtypemap@?1??123@KAH01@Z@B 1001e75c     main.obj
+ 0002:0000077c       ?_Module@@3VCComModule@ATL@@A 1001e77c     main.obj
+ 0002:000007a8       __@@_PchSym_@00@UygUDAJBUkirezgvUlhhexhUkilerhrlmrmtUxlmurtnzmztviCUlyqUzineHUivgzroUkivxlnkOlyq@configmanager2 1001e7a8     precomp.obj
+ 0002:000007ac       ??_B?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@51 1001e7ac     precomp.obj
+ 0002:000007b0       ?cs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@3@XZ@4V43@A 1001e7b0     precomp.obj
+ 0002:000007c4       ?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A 1001e7c4     precomp.obj
+ 0002:000007c8       ?_AtlComModule@ATL@@3VCAtlComModule@1@A 1001e7c8     atls:atlcommodule.obj
+ 0002:000007ec       __afxForceAtlRawDllMain    1001e7ec     atls:atlbase.obj
+ 0002:000007f0       ?_AtlModuleInstance@ATL@@3PAUHINSTANCE__@@A 1001e7f0     atls:atlbase.obj
+ 0002:000007f4       ?_AtlBaseModule@ATL@@3VCAtlBaseModule@1@A 1001e7f4     atls:atlbase.obj
+ 0002:00000828       ?_pAtlRawDllMain@@3P6AHPAXK0@ZA 1001e828     atls:atlbase.obj
+ 0002:0000082c       __@@_PchSym_@00@UxsvozmCBUlgsvihUzgoJUhixUzgohUlyqUzineHUivgzroUhgwzucOlyq@atls 1001e82c     atls:stdafx.obj
+ 0002:00000830       _exitflag                  1001e830     corelib0:cexit.obj
+ 0002:00000834       __onexitend                1001e834     <common>
+ 0002:00000838       __onexitbegin              1001e838     <common>
+ 0002:0000083c       g_pcsExit                  1001e83c     <common>
+
+ entry point at        0001:0001bbe4
+
+ Static symbols
+
+ 0001:000152b0       ?GetPropertyFromMetabaseEntry@@YAJPAUIConfigMetabaseEntry@@ABU_GUID@@PAUtagVARIANT@@@Z 100162b0 f   configproperties.obj
+ 0001:0001560c       ?SetPropertyInMetabaseEntry@@YAJPAUIConfigMetabaseEntry@@ABU_GUID@@HUtagVARIANT@@K@Z 1001660c f   configproperties.obj
+ 0001:0001baf4       _DllMainCRTStartupHelper   1001caf4 f   corelib0:pegdmain.obj
+ 0001:0001beb0       doexit                     1001ceb0 f   corelib0:cexit.obj
+ 0001:0001c200       ??__Eg_Cm2Perf@@YAXXZ      1001d200 f   configmanager2.obj
+ 0001:0001c218       ??__E_Module@@YAXXZ        1001d218 f   main.obj
+ 0001:0001c254       ??__E?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A@@YAXXZ 1001d254 f   precomp.obj
+ 0001:0001c258       ??__E_AtlComModule@ATL@@YAXXZ 1001d258 f   atls:atlcommodule.obj
+ 0001:0001c278       ??__E_AtlBaseModule@ATL@@YAXXZ 1001d278 f   atls:atlbase.obj
+ 0001:0001c298       ??__F_Module@@YAXXZ        1001d298 f   main.obj
+ 0001:0001c2c0       ??__F_AtlComModule@ATL@@YAXXZ 1001d2c0 f   atls:atlcommodule.obj
+ 0001:0001c2cc       ??__F_AtlBaseModule@ATL@@YAXXZ 1001d2cc f   atls:atlbase.obj

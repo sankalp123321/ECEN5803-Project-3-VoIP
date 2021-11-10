@@ -1,0 +1,437 @@
+ alpcd
+
+ Timestamp is 5ac64a2a (Thu Apr 05 09:09:14 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000008H .CRT$XCU                CODE
+ 0001:0000000c 00000004H .CRT$XCZ                CODE
+ 0001:00000010 00000004H .CRT$XIA                CODE
+ 0001:00000014 00000004H .CRT$XIZ                CODE
+ 0001:00000018 00000004H .CRT$XPA                CODE
+ 0001:0000001c 00000004H .CRT$XPZ                CODE
+ 0001:00000020 00000004H .CRT$XTA                CODE
+ 0001:00000024 00000004H .CRT$XTZ                CODE
+ 0001:00000030 00000064H .rdata                  CODE
+ 0001:00000094 00000022H .rdata$debug            CODE
+ 0001:000000b8 00007460H .text                   CODE
+ 0001:00007518 00000008H .text$yc                CODE
+ 0001:00007520 0000001cH .text$yd                CODE
+ 0001:0000753c 00000168H .xdata                  CODE
+ 0001:000076a4 00000014H .idata$2                CODE
+ 0001:000076b8 00000014H .idata$3                CODE
+ 0001:000076cc 000000e0H .idata$4                CODE
+ 0001:000077ac 0000000cH .idata$6                CODE
+ 0001:000077c0 00000099H .edata                  CODE
+ 0002:00000000 000000e0H .idata$5                DATA
+ 0002:000000e0 00000014H .data                   DATA
+ 0002:00000100 000000b0H .bss                    DATA
+ 0003:00000000 00000820H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:0000000c       __xc_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xi_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xi_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xp_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xp_z                     1000101c     corelib0:crt0init.obj
+ 0001:00000020       __xt_a                     10001020     corelib0:crt0init.obj
+ 0001:00000024       __xt_z                     10001024     corelib0:crt0init.obj
+ 0001:0000004c       ??_C@_13CGOKJPIL@?$AA?1?$AA?$AA@ 1000104c     alpcmain.obj
+ 0001:00000050       ??_C@_1BM@ELFIJBDO@?$AA?2?$AAR?$AAP?$AAC?$AA?5?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?2?$AA?$AA@ 10001050     alpcmain.obj
+ 0001:0000006c       ??_7LPCConnection@@6B@     1000106c     alpcmain.obj
+ 0001:00000080       ??_7LPCEndpoint@@6B@       10001080     alpcmain.obj
+ 0001:000000b8       ?Unmarshal@MarshalledBuffer_t@@QAAJXZ 100010b8 f i alpcdev.obj
+ 0001:00000110       DllMain                    10001110 f   alpcdev.obj
+ 0001:00000150       LPC_Init                   10001150 f   alpcdev.obj
+ 0001:00000158       LPC_Deinit                 10001158 f   alpcdev.obj
+ 0001:00000168       LPC_Open                   10001168 f   alpcdev.obj
+ 0001:0000016c       LPC_Close                  1000116c f   alpcdev.obj
+ 0001:00000170       ?_Grow@?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@IAA_NI@Z 10001170 f i alpcdev.obj
+ 0001:00000200       ??$verify_ptr@G@ce@@YAPAGPAGKQAX@Z 10001200 f i alpcdev.obj
+ 0001:00000254       ?_Buynode@?$list@U?$pair@KV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@std@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@U?$pair@KV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@2@PAU342@@Z 10001254 f i alpcdev.obj
+ 0001:000002a0       ?_Buynode@?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@IAAPAU?$_ListNode@PAV?$psl_stub@PAX@ce@@@list_impl@2@PAU342@@Z 100012a0 f i alpcdev.obj
+ 0001:000002ec       ??$verify_ptr@X@ce@@YAPAXPAXKQAX@Z 100012ec f i alpcdev.obj
+ 0001:00000340       ??$verify_ptr@T_LARGE_INTEGER@@@ce@@YAPAT_LARGE_INTEGER@@PAT1@KQAX@Z 10001340 f i alpcdev.obj
+ 0001:00000394       ??$verify_ptr@U_PORT_MESSAGE@@@ce@@YAPAU_PORT_MESSAGE@@PAU1@KQAX@Z 10001394 f i alpcdev.obj
+ 0001:000003e8       ??$verify_ptr@K@ce@@YAPAKPAKKQAX@Z 100013e8 f i alpcdev.obj
+ 0001:0000043c       ??$verify_ptr@PAUPSL_HANDLE__@ce@@@ce@@YAPAPAUPSL_HANDLE__@0@PAPAU10@KQAX@Z 1000143c f i alpcdev.obj
+ 0001:00000490       ??$verify_ptr@U_OBJECT_ATTRIBUTES@@@ce@@YAPAU_OBJECT_ATTRIBUTES@@PAU1@KQAX@Z 10001490 f i alpcdev.obj
+ 0001:000004e4       ??$verify_ptr@U_ALPC_PORT_ATTRIBUTES@@@ce@@YAPAU_ALPC_PORT_ATTRIBUTES@@PAU1@KQAX@Z 100014e4 f i alpcdev.obj
+ 0001:00000538       ??$verify_ptr@U_UNICODE_STRING@@@ce@@YAPAU_UNICODE_STRING@@PAU1@KQAX@Z 10001538 f i alpcdev.obj
+ 0001:0000058c       ??$verify_ptr@U_ALPC_MESSAGE_ATTRIBUTES@@@ce@@YAPAU_ALPC_MESSAGE_ATTRIBUTES@@PAU1@KQAX@Z 1000158c f i alpcdev.obj
+ 0001:000005e0       ??$verify_ptr@PAK@ce@@YAPAPAKPAPAKKQAX@Z 100015e0 f i alpcdev.obj
+ 0001:00000634       ??$verify_ptr@U_ALPC_DATA_VIEW_ATTR@@@ce@@YAPAU_ALPC_DATA_VIEW_ATTR@@PAU1@KQAX@Z 10001634 f i alpcdev.obj
+ 0001:00000688       ??$verify_ptr@U_ALPC_CONTEXT_ATTR@@@ce@@YAPAU_ALPC_CONTEXT_ATTR@@PAU1@KQAX@Z 10001688 f i alpcdev.obj
+ 0001:000006dc       ??$verify_ptr@$$CBG@ce@@YAPBGPBGKQAX@Z 100016dc f i alpcdev.obj
+ 0001:00000730       ?Marshal@MarshalledBuffer_t@@QAAJPAXKKHH@Z 10001730 f i alpcdev.obj
+ 0001:000007c0       ?get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ 100017c0 f i alpcdev.obj
+ 0001:00000814       ?assign@?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@QAA_NPBGII@Z 10001814 f i alpcdev.obj
+ 0001:0000087c       ?get_lock@?$singleton@V?$psl_tls@V?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@V?$static_allocator@V?$psl_tls@V?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@@3@@ce@@KAAAVcritical_section@2@XZ 1000187c f i alpcdev.obj
+ 0001:000008d8       ??$call@JPAUPSL_HANDLE__@ce@@@?$psl_stub@PAX@ce@@QAAJP6AJPAUPSL_HANDLE__@1@@Z@Z 100018d8 f i alpcdev.obj
+ 0001:00000980       ??$call@JPAUPSL_HANDLE__@ce@@PAU12@@?$psl_stub@PAX@ce@@QAAJP6AJPAUPSL_HANDLE__@1@0@Z@Z 10001980 f i alpcdev.obj
+ 0001:00000a24       ??$insert@PAV?$psl_stub@PAX@ce@@@?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@QAA?AV?$iterator@PAV?$psl_stub@PAX@ce@@@list_impl@1@V231@ABQAV?$psl_stub@PAX@1@@Z 10001a24 f i alpcdev.obj
+ 0001:00000a6c       ?copy_arg_in@?$copy_out@PAPAUPSL_HANDLE__@ce@@@ce@@QAAXPAPAUPSL_HANDLE__@2@@Z 10001a6c f i alpcdev.obj
+ 0001:00000adc       ?copy_arg_in@?$copy_in@PAU_ALPC_PORT_ATTRIBUTES@@@ce@@QAAXPAU_ALPC_PORT_ATTRIBUTES@@@Z 10001adc f i alpcdev.obj
+ 0001:00000b2c       ?copy_arg_in@?$copy_out@PAU_ALPC_MESSAGE_ATTRIBUTES@@@ce@@QAAXPAU_ALPC_MESSAGE_ATTRIBUTES@@@Z 10001b2c f i alpcdev.obj
+ 0001:00000ba4       ?copy_arg_in@?$copy_out@PAPAK@ce@@QAAXPAPAK@Z 10001ba4 f i alpcdev.obj
+ 0001:00000c14       ?copy_arg_in@?$copy_in@PAU_PORT_MESSAGE@@@ce@@QAAXPAU_PORT_MESSAGE@@@Z 10001c14 f i alpcdev.obj
+ 0001:00000c64       ?copy_arg_in@?$copy_out@PAU_ALPC_DATA_VIEW_ATTR@@@ce@@QAAXPAU_ALPC_DATA_VIEW_ATTR@@@Z 10001c64 f i alpcdev.obj
+ 0001:00000cec       ?copy_arg_in@?$copy_in@PAU_ALPC_CONTEXT_ATTR@@@ce@@QAAXPAU_ALPC_CONTEXT_ATTR@@@Z 10001cec f i alpcdev.obj
+ 0001:00000d3c       ?erase@?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@QAA?AV?$iterator@PAV?$psl_stub@PAX@ce@@@list_impl@2@V342@@Z 10001d3c f i alpcdev.obj
+ 0001:00000d98       ?erase@?$vector@U?$pair@V?$iterator@U?$pair@KV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAAPAU?$pair@V?$iterator@U?$pair@KV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@ce@@I@std@@PAU34@0@Z 10001d98 f i alpcdev.obj
+ 0001:00000dfc       ?erase@?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@QAA?AV?$iterator@PAV?$psl_stub@PAX@ce@@@list_impl@2@V342@0@Z 10001dfc f i alpcdev.obj
+ 0001:00000e54       ?insert@?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@QAA_NV?$iterator@PAV?$psl_stub@PAX@ce@@@list_impl@2@V?$const_iterator@PAV?$psl_stub@PAX@ce@@@42@1@Z 10001e54 f i alpcdev.obj
+ 0001:00000ecc       ?erase@?$vector@U?$pair@V?$iterator@U?$pair@KV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@ce@@I@std@@V?$reference_allocator@Vallocator@ce@@@details@ce@@U?$exponential_growth@$09@5@@ce@@QAAPAU?$pair@V?$iterator@U?$pair@KV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@ce@@I@std@@PAU34@0@Z 10001ecc f i alpcdev.obj
+ 0001:00000f38       ??$call@JPAUPSL_HANDLE__@ce@@KPAU12@@?$psl_stub@PAX@ce@@QAAJP6AJPAUPSL_HANDLE__@1@K0@Z@Z 10001f38 f i alpcdev.obj
+ 0001:00000fe0       ??$push_front@PAV?$psl_stub@PAX@ce@@@?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@QAA_NABQAV?$psl_stub@PAX@1@@Z 10001fe0 f i alpcdev.obj
+ 0001:00001020       ??1?$copy_in@PAU_OBJECT_ATTRIBUTES@@@ce@@QAA@XZ 10002020 f i alpcdev.obj
+ 0001:0000105c       ??4?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@QAAAAV01@PBG@Z 1000205c f i alpcdev.obj
+ 0001:000010a8       ??0?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@QAA@ABV01@@Z 100020a8 f i alpcdev.obj
+ 0001:000010e8       ??0?$copy_in@PAU_OBJECT_ATTRIBUTES@@@ce@@QAA@PAX@Z 100020e8 f i alpcdev.obj
+ 0001:0000115c       ?copy_arg_in@?$str_copy_in_base@G@ce@@QAAXPBG@Z 1000215c f i alpcdev.obj
+ 0001:000011c4       ??$call@JPAUPSL_HANDLE__@ce@@KPAX@?$psl_stub@PAX@ce@@QAAJP6AJPAUPSL_HANDLE__@1@KPAX@Z@Z 100021c4 f i alpcdev.obj
+ 0001:00001284       ??$call@JPAUPSL_HANDLE__@ce@@W4_ALPC_PORT_INFORMATION_CLASS@@PAXKPAK@?$psl_stub@PAX@ce@@QAAJP6AJPAUPSL_HANDLE__@1@W4_ALPC_PORT_INFORMATION_CLASS@@PAXKPAK@Z@Z 10002284 f i alpcdev.obj
+ 0001:00001364       ?unmarshal@?$psl_data_wrapper@V?$marshal_arg@Vcopy_out@ce@@PAPAUPSL_HANDLE__@2@@ce@@@ce@@QAA?AV?$marshal_arg@Vcopy_out@ce@@PAPAUPSL_HANDLE__@2@@2@PAX@Z 10002364 f i alpcdev.obj
+ 0001:000013ac       ?unmarshal@?$psl_data_wrapper@V?$marshal_arg@Vcopy_in@ce@@PAU_ALPC_PORT_ATTRIBUTES@@@ce@@@ce@@QAA?AV?$marshal_arg@Vcopy_in@ce@@PAU_ALPC_PORT_ATTRIBUTES@@@2@PAX@Z 100023ac f i alpcdev.obj
+ 0001:000013f4       ?unmarshal@?$psl_data_wrapper@V?$marshal_arg@Vcopy_in@ce@@PAU_PORT_MESSAGE@@@ce@@@ce@@QAA?AV?$marshal_arg@Vcopy_in@ce@@PAU_PORT_MESSAGE@@@2@PAX@Z 100023f4 f i alpcdev.obj
+ 0001:0000143c       ?unmarshal@?$psl_data_wrapper@V?$marshal_arg@Vcopy_in@ce@@PAU_ALPC_CONTEXT_ATTR@@@ce@@@ce@@QAA?AV?$marshal_arg@Vcopy_in@ce@@PAU_ALPC_CONTEXT_ATTR@@@2@PAX@Z 1000243c f i alpcdev.obj
+ 0001:00001484       ??0?$marshal_arg@Vcopy_in@ce@@PBG@ce@@QAA@PBGPAX@Z 10002484 f i alpcdev.obj
+ 0001:000014dc       ?copy_arg_in@?$copy_in@PAU_UNICODE_STRING@@@ce@@QAAXPAU_UNICODE_STRING@@@Z 100024dc f i alpcdev.obj
+ 0001:0000155c       ?copy_arg_in@?$copy_in@PAU_OBJECT_ATTRIBUTES@@@ce@@QAAXPAU_OBJECT_ATTRIBUTES@@@Z 1000255c f i alpcdev.obj
+ 0001:000015c8       ?erase@?$list@U?$pair@KV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@KV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@2@V342@@Z 100025c8 f i alpcdev.obj
+ 0001:00001644       ?erase@?$list@U?$pair@KV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@KV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@2@V342@0@Z 10002644 f i alpcdev.obj
+ 0001:0000169c       ?_Insert_dispatch@?$vector@U?$pair@V?$iterator@U?$pair@KV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@AAA_NPAU?$pair@V?$iterator@U?$pair@KV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@ce@@I@std@@IABU34@ABUtrue_type@detail@2@@Z 1000269c f i alpcdev.obj
+ 0001:000018e4       ??$insert@U?$pair@KV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@std@@@?$list@U?$pair@KV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@KV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@1@V231@ABU?$pair@KV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@std@@@Z 100028e4 f i alpcdev.obj
+ 0001:0000193c       ?unmarshal_arg3@?$psl_message3@PAXV?$marshal_arg@Vcopy_out@ce@@PAPAUPSL_HANDLE__@2@@ce@@V?$marshal_arg@Vcopy_in@ce@@PAU_OBJECT_ATTRIBUTES@@@2@V?$marshal_arg@Vcopy_in@ce@@PAU_ALPC_PORT_ATTRIBUTES@@@2@@detail@ce@@QAA?AV?$marshal_arg@Vcopy_in@ce@@PAU_ALPC_PORT_ATTRIBUTES@@@3@PAX@Z 1000293c f i alpcdev.obj
+ 0001:00001954       ?unmarshal_arg1@?$psl_message1@PAXV?$marshal_arg@Vcopy_out@ce@@PAPAUPSL_HANDLE__@2@@ce@@@detail@ce@@QAA?AV?$marshal_arg@Vcopy_out@ce@@PAPAUPSL_HANDLE__@2@@3@PAX@Z 10002954 f i alpcdev.obj
+ 0001:0000196c       ?unmarshal_arg4@?$psl_message4@PAXV?$marshal_arg@Vcopy_out@ce@@PAPAUPSL_HANDLE__@2@@ce@@PAUPSL_HANDLE__@2@PAU32@V?$marshal_arg@Vcopy_in@ce@@PAU_PORT_MESSAGE@@@2@@detail@ce@@QAA?AV?$marshal_arg@Vcopy_in@ce@@PAU_PORT_MESSAGE@@@3@PAX@Z 1000296c f i alpcdev.obj
+ 0001:00001984       ?unmarshal_arg5@?$psl_message5@PAXPAUPSL_HANDLE__@ce@@KPAU12@KV?$marshal_arg@Vcopy_out@ce@@PAPAUPSL_HANDLE__@2@@2@@detail@ce@@QAA?AV?$marshal_arg@Vcopy_out@ce@@PAPAUPSL_HANDLE__@2@@3@PAX@Z 10002984 f i alpcdev.obj
+ 0001:0000199c       ?unmarshal_arg3@?$psl_message3@PAXPAUPSL_HANDLE__@ce@@KV?$marshal_arg@Vcopy_in@ce@@PAU_ALPC_CONTEXT_ATTR@@@2@@detail@ce@@QAA?AV?$marshal_arg@Vcopy_in@ce@@PAU_ALPC_CONTEXT_ATTR@@@3@PAX@Z 1000299c f i alpcdev.obj
+ 0001:000019b4       ?unmarshal@?$psl_data_wrapper@V?$marshal_arg@Vcopy_in_out@ce@@PAU_ALPC_MESSAGE_ATTRIBUTES@@@ce@@@ce@@QAA?AV?$marshal_arg@Vcopy_in_out@ce@@PAU_ALPC_MESSAGE_ATTRIBUTES@@@2@PAX@Z 100029b4 f i alpcdev.obj
+ 0001:000019fc       ?unmarshal@?$psl_data_wrapper@V?$marshal_arg@Vcopy_in_out@ce@@PAPAK@ce@@@ce@@QAA?AV?$marshal_arg@Vcopy_in_out@ce@@PAPAK@2@PAX@Z 100029fc f i alpcdev.obj
+ 0001:00001a44       ?unmarshal@?$psl_data_wrapper@V?$marshal_arg@Vcopy_in_out@ce@@PAU_ALPC_DATA_VIEW_ATTR@@@ce@@@ce@@QAA?AV?$marshal_arg@Vcopy_in_out@ce@@PAU_ALPC_DATA_VIEW_ATTR@@@2@PAX@Z 10002a44 f i alpcdev.obj
+ 0001:00001a8c       ??0?$marshal_arg@Vcopy_in@ce@@PAU_UNICODE_STRING@@@ce@@QAA@PAU_UNICODE_STRING@@PAX@Z 10002a8c f i alpcdev.obj
+ 0001:00001afc       ?erase@?$hash@V?$hash_map_traits@KV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@U?$hash_traits@K@2@Vallocator@2@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@KV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@3@V453@@Z 10002afc f i alpcdev.obj
+ 0001:00001b70       ??$call@JPAUPSL_HANDLE__@ce@@KPAU12@KV?$marshal_arg@Vcopy_out@ce@@PAPAUPSL_HANDLE__@2@@2@PAK@?$psl_stub@PAX@ce@@QAAJP6AJPAUPSL_HANDLE__@1@K0KV?$marshal_arg@Vcopy_out@ce@@PAPAUPSL_HANDLE__@2@@1@PAK@Z@Z 10002b70 f i alpcdev.obj
+ 0001:00001c5c       ??$call@JPAUPSL_HANDLE__@ce@@KV?$marshal_arg@Vcopy_in@ce@@PAU_ALPC_CONTEXT_ATTR@@@2@@?$psl_stub@PAX@ce@@QAAJP6AJPAUPSL_HANDLE__@1@KV?$marshal_arg@Vcopy_in@ce@@PAU_ALPC_CONTEXT_ATTR@@@1@@Z@Z 10002c5c f i alpcdev.obj
+ 0001:00001d14       ?unmarshal_arg7@?$psl_message7@PAXPAUPSL_HANDLE__@ce@@KPAU_PORT_MESSAGE@@V?$marshal_arg@Vcopy_in_out@ce@@PAU_ALPC_MESSAGE_ATTRIBUTES@@@2@PAU3@V?$marshal_arg@Vcopy_in_out@ce@@PAPAK@2@V42@@detail@ce@@QAA?AV?$marshal_arg@Vcopy_in_out@ce@@PAU_ALPC_MESSAGE_ATTRIBUTES@@@3@PAX@Z 10002d14 f i alpcdev.obj
+ 0001:00001d2c       ?unmarshal_arg6@?$psl_message6@PAXPAUPSL_HANDLE__@ce@@KPAU_PORT_MESSAGE@@V?$marshal_arg@Vcopy_in_out@ce@@PAU_ALPC_MESSAGE_ATTRIBUTES@@@2@PAU3@V?$marshal_arg@Vcopy_in_out@ce@@PAPAK@2@@detail@ce@@QAA?AV?$marshal_arg@Vcopy_in_out@ce@@PAPAK@3@PAX@Z 10002d2c f i alpcdev.obj
+ 0001:00001d44       ?unmarshal_arg4@?$psl_message4@PAXPAUPSL_HANDLE__@ce@@KPAU_PORT_MESSAGE@@V?$marshal_arg@Vcopy_in_out@ce@@PAU_ALPC_MESSAGE_ATTRIBUTES@@@2@@detail@ce@@QAA?AV?$marshal_arg@Vcopy_in_out@ce@@PAU_ALPC_MESSAGE_ATTRIBUTES@@@3@PAX@Z 10002d44 f i alpcdev.obj
+ 0001:00001d5c       ?unmarshal_arg5@?$psl_message5@PAXV?$marshal_arg@Vcopy_out@ce@@PAPAUPSL_HANDLE__@2@@ce@@PAUPSL_HANDLE__@2@PAU32@V?$marshal_arg@Vcopy_in@ce@@PAU_PORT_MESSAGE@@@2@V?$marshal_arg@Vcopy_in_out@ce@@PAU_ALPC_MESSAGE_ATTRIBUTES@@@2@@detail@ce@@QAA?AV?$marshal_arg@Vcopy_in_out@ce@@PAU_ALPC_MESSAGE_ATTRIBUTES@@@3@PAX@Z 10002d5c f i alpcdev.obj
+ 0001:00001d74       ?unmarshal_arg3@?$psl_message3@PAXPAUPSL_HANDLE__@ce@@KV?$marshal_arg@Vcopy_in_out@ce@@PAU_ALPC_DATA_VIEW_ATTR@@@2@@detail@ce@@QAA?AV?$marshal_arg@Vcopy_in_out@ce@@PAU_ALPC_DATA_VIEW_ATTR@@@3@PAX@Z 10002d74 f i alpcdev.obj
+ 0001:00001d8c       ?unmarshal_arg1@?$psl_message1@PAXV?$marshal_arg@Vcopy_in@ce@@PBG@ce@@@detail@ce@@QAA?AV?$marshal_arg@Vcopy_in@ce@@PBG@3@PAX@Z 10002d8c f i alpcdev.obj
+ 0001:00001dbc       ?resize@?$vector@U?$pair@V?$iterator@U?$pair@KV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAA_NIABU?$pair@V?$iterator@U?$pair@KV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@ce@@I@std@@@Z 10002dbc f i alpcdev.obj
+ 0001:00001e20       ??$call@JPAUPSL_HANDLE__@ce@@KPAU_PORT_MESSAGE@@V?$marshal_arg@Vcopy_in_out@ce@@PAU_ALPC_MESSAGE_ATTRIBUTES@@@2@PAU3@V?$marshal_arg@Vcopy_in_out@ce@@PAPAK@2@V42@PAT_LARGE_INTEGER@@@?$psl_stub@PAX@ce@@QAAJP6AJPAUPSL_HANDLE__@1@KPAU_PORT_MESSAGE@@V?$marshal_arg@Vcopy_in_out@ce@@PAU_ALPC_MESSAGE_ATTRIBUTES@@@1@1V?$marshal_arg@Vcopy_in_out@ce@@PAPAK@1@2PAT_LARGE_INTEGER@@@Z@Z 10002e20 f i alpcdev.obj
+ 0001:00001f64       ??$call@JV?$marshal_arg@Vcopy_out@ce@@PAPAUPSL_HANDLE__@2@@ce@@PAUPSL_HANDLE__@2@PAU32@V?$marshal_arg@Vcopy_in@ce@@PAU_PORT_MESSAGE@@@2@V?$marshal_arg@Vcopy_in_out@ce@@PAU_ALPC_MESSAGE_ATTRIBUTES@@@2@E@?$psl_stub@PAX@ce@@QAAJP6AJV?$marshal_arg@Vcopy_out@ce@@PAPAUPSL_HANDLE__@2@@1@PAUPSL_HANDLE__@1@1V?$marshal_arg@Vcopy_in@ce@@PAU_PORT_MESSAGE@@@1@V?$marshal_arg@Vcopy_in_out@ce@@PAU_ALPC_MESSAGE_ATTRIBUTES@@@1@E@Z@Z 10002f64 f i alpcdev.obj
+ 0001:00002068       ??$call@JPAUPSL_HANDLE__@ce@@KV?$marshal_arg@Vcopy_in_out@ce@@PAU_ALPC_DATA_VIEW_ATTR@@@2@@?$psl_stub@PAX@ce@@QAAJP6AJPAUPSL_HANDLE__@1@KV?$marshal_arg@Vcopy_in_out@ce@@PAU_ALPC_DATA_VIEW_ATTR@@@1@@Z@Z 10003068 f i alpcdev.obj
+ 0001:00002128       ??$call@JV?$marshal_arg@Vcopy_in@ce@@PBG@ce@@@?$psl_stub@PAX@ce@@QAAJP6AJV?$marshal_arg@Vcopy_in@ce@@PBG@1@@Z@Z 10003128 f i alpcdev.obj
+ 0001:000021d0       ?unmarshal_arg2@?$psl_message2@PAXV?$marshal_arg@Vcopy_out@ce@@PAPAUPSL_HANDLE__@2@@ce@@V?$marshal_arg@Vcopy_in@ce@@PAU_OBJECT_ATTRIBUTES@@@2@@detail@ce@@QAA?AV?$marshal_arg@Vcopy_in@ce@@PAU_OBJECT_ATTRIBUTES@@@3@PAX@Z 100031d0 f i alpcdev.obj
+ 0001:0000220c       ?unmarshal_arg2@?$psl_message2@PAXV?$marshal_arg@Vcopy_out@ce@@PAPAUPSL_HANDLE__@2@@ce@@V?$marshal_arg@Vcopy_in@ce@@PAU_UNICODE_STRING@@@2@@detail@ce@@QAA?AV?$marshal_arg@Vcopy_in@ce@@PAU_UNICODE_STRING@@@3@PAX@Z 1000320c f i alpcdev.obj
+ 0001:0000223c       ??1?$hash@V?$hash_map_traits@KV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@U?$hash_traits@K@2@Vallocator@2@@details@ce@@@details@ce@@QAA@XZ 1000323c f i alpcdev.obj
+ 0001:00002284       ??$call@JV?$marshal_arg@Vcopy_out@ce@@PAPAUPSL_HANDLE__@2@@ce@@V?$marshal_arg@Vcopy_in@ce@@PAU_OBJECT_ATTRIBUTES@@@2@V?$marshal_arg@Vcopy_in@ce@@PAU_ALPC_PORT_ATTRIBUTES@@@2@@?$psl_stub@PAX@ce@@QAAJP6AJV?$marshal_arg@Vcopy_out@ce@@PAPAUPSL_HANDLE__@2@@1@V?$marshal_arg@Vcopy_in@ce@@PAU_OBJECT_ATTRIBUTES@@@1@V?$marshal_arg@Vcopy_in@ce@@PAU_ALPC_PORT_ATTRIBUTES@@@1@@Z@Z 10003284 f i alpcdev.obj
+ 0001:00002368       ??$call@JV?$marshal_arg@Vcopy_out@ce@@PAPAUPSL_HANDLE__@2@@ce@@V?$marshal_arg@Vcopy_in@ce@@PAU_UNICODE_STRING@@@2@KPAT_LARGE_INTEGER@@@?$psl_stub@PAX@ce@@QAAJP6AJV?$marshal_arg@Vcopy_out@ce@@PAPAUPSL_HANDLE__@2@@1@V?$marshal_arg@Vcopy_in@ce@@PAU_UNICODE_STRING@@@1@KPAT_LARGE_INTEGER@@@Z@Z 10003368 f i alpcdev.obj
+ 0001:0000244c       ?_ready@?$hash@V?$hash_map_traits@KV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@U?$hash_traits@K@2@Vallocator@2@@details@ce@@@details@ce@@IAA_NXZ 1000344c f i alpcdev.obj
+ 0001:000024a4       ??0?$psl_tls@V?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@QAA@XZ 100034a4 f i alpcdev.obj
+ 0001:000024f4       ?find@?$hash@V?$hash_map_traits@KV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@U?$hash_traits@K@2@Vallocator@2@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@KV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@3@ABK@Z 100034f4 f i alpcdev.obj
+ 0001:0000256c       ?insert@?$hash@V?$hash_map_traits@KV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@U?$hash_traits@K@2@Vallocator@2@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@KV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@3@ABU?$pair@KV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@std@@@Z 1000356c f i alpcdev.obj
+ 0001:00002628       ?create@?$singleton@V?$psl_tls@V?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@V?$static_allocator@V?$psl_tls@V?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@@3@@ce@@KAXXZ 10003628 f i alpcdev.obj
+ 0001:0000268c       ?erase@?$hash@V?$hash_map_traits@KV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@U?$hash_traits@K@2@Vallocator@2@@details@ce@@@details@ce@@QAAIABK@Z 1000368c f i alpcdev.obj
+ 0001:000026d8       ?insert@?$hash_map@KV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@U?$hash_traits@K@2@Vallocator@2@@ce@@QAA?AV?$iterator@U?$pair@KV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@2@ABKABV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@2@@Z 100036d8 f i alpcdev.obj
+ 0001:0000272c       ?clean_thread_data@?$psl_tls@V?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@QAAXXZ 1000372c f i alpcdev.obj
+ 0001:00002770       ?release@?$singleton@V?$psl_tls@V?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@V?$static_allocator@V?$psl_tls@V?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@@3@@ce@@SAXXZ 10003770 f i alpcdev.obj
+ 0001:000027e4       ??A?$hash_map@KV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@U?$hash_traits@K@2@Vallocator@2@@ce@@QAAPAV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@1@ABK@Z 100037e4 f i alpcdev.obj
+ 0001:00002878       ?get_thread_data@?$psl_tls@V?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@QAAPAV?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@3@XZ 10003878 f i alpcdev.obj
+ 0001:000028c4       ??1?$psl_stub@PAX@ce@@QAA@XZ 100038c4 f i alpcdev.obj
+ 0001:00002940       ??0?$psl_stub@PAX@ce@@QAA@PAXK@Z 10003940 f i alpcdev.obj
+ 0001:00002a14       LPC_IOControl              10003a14 f   alpcdev.obj
+ 0001:00002c4c       ?AllocEntryToEndOfList@SVSLinkManager@@QAAPAXXZ 10003c4c f i alpcmain.obj
+ 0001:00002c8c       ?RemoveEntry@SVSLinkManager@@QAAHPAX@Z 10003c8c f i alpcmain.obj
+ 0001:00002d10       ?FindEntryFiltered@SVSLinkManager@@QAAPAXP6AHPAX0@Z0@Z 10003d10 f i alpcmain.obj
+ 0001:00002d6c       ?RemoveEntriesFiltered@SVSLinkManager@@QAAXP6AHPAX0@Z0@Z 10003d6c f i alpcmain.obj
+ 0001:00002e10       ??1LPCView@@QAA@XZ         10003e10 f   alpcmain.obj
+ 0001:00002e4c       ??1LPCCopiedView@@QAA@XZ   10003e4c f   alpcmain.obj
+ 0001:00002e84       ?Attach@LPCView@@QAAHXZ    10003e84 f   alpcmain.obj
+ 0001:00002eb8       ?FreeViewByViewBase@LPCSection@@QAAHPAX@Z 10003eb8 f   alpcmain.obj
+ 0001:00002f00       ?WaitForMessage@@YAJPAX@Z  10003f00 f   alpcmain.obj
+ 0001:00002f40       ?InitPortMessage@@YAXPAU_PORT_MESSAGE@@PAU_ALPC_MESSAGE_ATTRIBUTES@@K@Z 10003f40 f   alpcmain.obj
+ 0001:00002f9c       ?InitPortMessageFlags@@YAXPAU_PORT_MESSAGE@@PAU_ALPC_MESSAGE_ATTRIBUTES@@@Z 10003f9c f   alpcmain.obj
+ 0001:00003010       ?AllocAndCopyPortMessage@@YAJPAVLPCEndpoint@@PAU_PORT_MESSAGE@@PAPAU2@@Z 10004010 f   alpcmain.obj
+ 0001:000030dc       ??0LPCMessage@@AAA@PAVLPCConnection@@PAU_PORT_MESSAGE@@HK@Z 100040dc f   alpcmain.obj
+ 0001:00003170       ?DeleteLPCMessage@LPCMessage@@AAAXXZ 10004170 f   alpcmain.obj
+ 0001:000031c8       ?SetMessageAttributes@LPCMessage@@QAAXPAU_ALPC_MESSAGE_ATTRIBUTES@@@Z 100041c8 f   alpcmain.obj
+ 0001:00003278       ?IsMessageIdFilter@LPCMessage@@SAHPAX0@Z 10004278 f   alpcmain.obj
+ 0001:0000329c       ?SetContextForTarget@LPCMessage@@AAAXPAU_ALPC_MESSAGE_ATTRIBUTES@@@Z 1000429c f   alpcmain.obj
+ 0001:00003344       ?SignalMessage@LPCMessage@@QAAXXZ 10004344 f   alpcmain.obj
+ 0001:00003374       ?DeleteMessagesOfConnectionFilter@LPCMessage@@SAHPAX0@Z 10004374 f   alpcmain.obj
+ 0001:00003388       ?DeleteLpcMessage@LPCMessage@@SAXPAX@Z 10004388 f   alpcmain.obj
+ 0001:0000338c       ?NewMessage@LPCMessage@@SAPAV1@PAVLPCConnection@@PAU_PORT_MESSAGE@@HK@Z 1000438c f   alpcmain.obj
+ 0001:00003450       ?NewMessage@LPCMessage@@SAPAV1@K@Z 10004450 f   alpcmain.obj
+ 0001:000034bc       ?GetNextPendingMessageForProcess@LPCMessage@@SAPAV1@PAVLPCProcess@@@Z 100044bc f   alpcmain.obj
+ 0001:00003534       ?EndpointNameAccessCheck@@YAHPBG@Z 10004534 f   alpcmain.obj
+ 0001:000035c8       ?FindCallerProcessFilter@LPCProcess@@SAHPAX0@Z 100045c8 f   alpcmain.obj
+ 0001:000035dc       ?NewConnectionRequestMessage@LPCProcess@@QAAPAVLPCMessage@@PAVLPCConnection@@@Z 100045dc f   alpcmain.obj
+ 0001:0000367c       ?SetPendingCompletionRequest@LPCProcess@@QAAJK@Z 1000467c f   alpcmain.obj
+ 0001:000036c0       ?IsEndpointFilter@LPCEndpoint@@SAHPAX0@Z 100046c0 f   alpcmain.obj
+ 0001:000036dc       ?QueryInformation@LPCEndpoint@@UAAJW4_ALPC_PORT_INFORMATION_CLASS@@PAXKPAK@Z 100046dc f   alpcmain.obj
+ 0001:000036e8       ?QueryInformation@LPCConnection@@UAAJW4_ALPC_PORT_INFORMATION_CLASS@@PAXKPAK@Z 100046e8 f   alpcmain.obj
+ 0001:00003730       ?RecvEndingMsgForMsgId@@YAHPAVLPCMessage@@@Z 10004730 f   alpcmain.obj
+ 0001:00003798       ?ResetMsgTypeIfNeeded@@YAXPAU_PORT_MESSAGE@@K@Z 10004798 f   alpcmain.obj
+ 0001:000037dc       ?SetUpCallingProcess@@YAXK@Z 100047dc f   alpcmain.obj
+ 0001:00003854       ?RemoveLpcProcessByHandle@@YAHPAX@Z 10004854 f   alpcmain.obj
+ 0001:000038a8       ?RemoveLpcCallingProcess@@YAHXZ 100048a8 f   alpcmain.obj
+ 0001:000038b8       ??A?$SVSExpArray@VSVSPrivateHandle@@@@QAAAAVSVSPrivateHandle@@H@Z 100048b8 f i alpcmain.obj
+ 0001:00003908       ??1?$SVSMTABlock@VSVSPrivateHandle@@@@QAA@XZ 10004908 f i alpcmain.obj
+ 0001:00003974       ?AllocateBlock@?$SVSMTABlock@VSVSPrivateHandle@@@@QAAHXZ 10004974 f i alpcmain.obj
+ 0001:000039c0       ?AllocateCluster@?$SVSMTABlock@VSVSPrivateHandle@@@@QAAHH@Z 100049c0 f i alpcmain.obj
+ 0001:00003a0c       ?CloseHandle@SVSHandleSystem@@QAAPAXK@Z 10004a0c f i alpcmain.obj
+ 0001:00003ab0       ?TranslateHandle@SVSHandleSystem@@QAAPAXK@Z 10004ab0 f i alpcmain.obj
+ 0001:00003b08       ?FilterHandles@SVSHandleSystem@@QAAHP6AHKPAX@Z0@Z 10004b08 f i alpcmain.obj
+ 0001:00003b7c       ??0SVSHandleSystem@@QAA@XZ 10004b7c f i alpcmain.obj
+ 0001:00003bd0       ??1LPCProcess@@AAA@XZ      10004bd0 f i alpcmain.obj
+ 0001:00003c0c       ?FindAssoc@LPCPort@@QAAPAVLPCView@@PAX0@Z 10004c0c f   alpcmain.obj
+ 0001:00003c8c       ??0LPCView@@QAA@PAXK@Z     10004c8c f   alpcmain.obj
+ 0001:00003d24       ??0LPCCopiedView@@QAA@PAVLPCView@@@Z 10004d24 f   alpcmain.obj
+ 0001:00003dc8       ?DeleteSection@LPCSection@@SAXPAX@Z 10004dc8 f   alpcmain.obj
+ 0001:00003e2c       ?GetView@LPCSection@@QAAJPAU_ALPC_DATA_VIEW_ATTR@@@Z 10004e2c f   alpcmain.obj
+ 0001:00003ee8       ?Cancel@LPCMessage@@QAAJPAVLPCProcess@@@Z 10004ee8 f   alpcmain.obj
+ 0001:00003f40       ?ReAttachInitialDataView@LPCMessage@@QAAJXZ 10004f40 f   alpcmain.obj
+ 0001:00003fa8       ?DropCopiedDataView@LPCMessage@@QAAXXZ 10004fa8 f   alpcmain.obj
+ 0001:00003fd8       ?CopyDataView@LPCMessage@@QAAJPAU_ALPC_MESSAGE_ATTRIBUTES@@@Z 10004fd8 f   alpcmain.obj
+ 0001:000040a8       ?CopyMessageForCaller@LPCMessage@@QAAJPAU_PORT_MESSAGE@@PAKPAU_ALPC_MESSAGE_ATTRIBUTES@@@Z 100050a8 f   alpcmain.obj
+ 0001:00004188       ?PostCanceledMessageToClient@LPCMessage@@QAAXXZ 10005188 f   alpcmain.obj
+ 0001:00004228       ?EndpointCloseMessageFilter@LPCMessage@@SAHPAX0@Z 10005228 f   alpcmain.obj
+ 0001:0000425c       ?FindEndpointGlobal@LPCProcess@@SAPAVLPCEndpoint@@PBG@Z 1000525c f   alpcmain.obj
+ 0001:000042dc       ?RecvMessageForProcess@LPCProcess@@QAAJPAU_PORT_MESSAGE@@PAKPAU_ALPC_MESSAGE_ATTRIBUTES@@@Z 100052dc f   alpcmain.obj
+ 0001:000043f4       ??_GSVSLinkManager@@QAAPAXI@Z 100053f4 f i alpcmain.obj
+ 0001:00004458       ?DeleteLPCEndpoint@LPCEndpoint@@AAAXXZ 10005458 f   alpcmain.obj
+ 0001:00004530       ?GetLPCConnection@LPCConnection@@SAPAV1@KPAJ@Z 10005530 f   alpcmain.obj
+ 0001:000045c8       ?RemoveFromHandleTable@LPCConnection@@QAAXXZ 100055c8 f   alpcmain.obj
+ 0001:00004618       ?RecvMessageForMsgId@@YAJKPAVLPCConnection@@PAU_PORT_MESSAGE@@PAKPAU_ALPC_MESSAGE_ATTRIBUTES@@PAVLPCMessage@@@Z 10005618 f   alpcmain.obj
+ 0001:000046cc       ?AlpcDeletePortSection@@YAJPAUPSL_HANDLE__@ce@@K0@Z 100056cc f   alpcmain.obj
+ 0001:0000477c       ?AlpcDeleteSectionView@@YAJPAUPSL_HANDLE__@ce@@KPAX@Z 1000577c f   alpcmain.obj
+ 0001:00004870       ?AlpcSetInformation@@YAJPAUPSL_HANDLE__@ce@@0@Z 10005870 f   alpcmain.obj
+ 0001:000049b8       ?AlpcQueryInformation@@YAJPAUPSL_HANDLE__@ce@@W4_ALPC_PORT_INFORMATION_CLASS@@PAXKPAK@Z 100059b8 f   alpcmain.obj
+ 0001:00004aac       ?AlpcSetPendingCompletionRequest@@YAJPAUPSL_HANDLE__@ce@@@Z 10005aac f   alpcmain.obj
+ 0001:00004b0c       ?SRealloc@?$SVSExpArray@VSVSPrivateHandle@@@@QAAHH@Z 10005b0c f i alpcmain.obj
+ 0001:00004ca8       ?AllocHandle@SVSHandleSystem@@QAAKPAX@Z 10005ca8 f i alpcmain.obj
+ 0001:00004da0       ?DeleteLPCEndpoint@LPCEndpoint@@SAXPAX@Z 10005da0 f i alpcmain.obj
+ 0001:00004da4       ?InitializeSection@LPCSection@@QAAHK@Z 10005da4 f   alpcmain.obj
+ 0001:00004e20       ?DetachDataView@LPCMessage@@QAAHPAU_ALPC_MESSAGE_ATTRIBUTES@@@Z 10005e20 f   alpcmain.obj
+ 0001:00004ed4       ??0LPCProcess@@AAA@XZ      10005ed4 f   alpcmain.obj
+ 0001:00004f30       ?AddLPCProcess@LPCProcess@@SAPAV1@XZ 10005f30 f   alpcmain.obj
+ 0001:00004fa4       ?AcceptConnectPort@LPCProcess@@QAAJKPAU_PORT_MESSAGE@@PAXH@Z 10005fa4 f   alpcmain.obj
+ 0001:000050d8       ?SendMessageW@LPCProcess@@QAAJPAVLPCPort@@PAU_PORT_MESSAGE@@PAU_ALPC_MESSAGE_ATTRIBUTES@@PAPAVLPCMessage@@KH@Z 100060d8 f   alpcmain.obj
+ 0001:00005340       ??0LPCConnection@@AAA@PAVLPCProcess@@PAVLPCEndpoint@@K@Z 10006340 f   alpcmain.obj
+ 0001:00005458       ?GetOwnerProcess@LPCConnection@@UAAPAVLPCProcess@@XZ 10006458 f i alpcmain.obj
+ 0001:00005484       ?ShouldCloseWithProcess@LPCConnection@@UAAHPAVLPCProcess@@@Z 10006484 f i alpcmain.obj
+ 0001:00005498       ?IsClientOrServerProcess@LPCConnection@@UAAHPAVLPCProcess@@@Z 10006498 f i alpcmain.obj
+ 0001:000054c8       ?HasAccess@LPCConnection@@UAAHPAVLPCProcess@@@Z 100064c8 f i alpcmain.obj
+ 0001:00005514       ?DeleteLPCConnection@LPCConnection@@AAAXXZ 10006514 f   alpcmain.obj
+ 0001:00005588       ?Disconnect@LPCConnection@@QAAJPAVLPCProcess@@K@Z 10006588 f   alpcmain.obj
+ 0001:000056ac       ?AddLpcCallingProcess@@YAKXZ 100066ac f   alpcmain.obj
+ 0001:000056d8       ?DisconnectPort@@YAJPAVLPCProcess@@K@Z 100066d8 f   alpcmain.obj
+ 0001:0000573c       ?CloseFuncOnProcessShutdown@@YAHKPAX@Z 1000673c f   alpcmain.obj
+ 0001:00005794       ?AlpcDisconnectPort@@YAJPAUPSL_HANDLE__@ce@@@Z 10006794 f   alpcmain.obj
+ 0001:000057f4       ??1?$SVSExpArray@VSVSPrivateHandle@@@@QAA@XZ 100067f4 f i alpcmain.obj
+ 0001:00005854       ?DeleteLpcConnection@LPCConnection@@SAXPAX@Z 10006854 f i alpcmain.obj
+ 0001:00005858       ??0LPCEndpoint@@AAA@PBGPAVLPCProcess@@PAU_ALPC_PORT_ATTRIBUTES@@@Z 10006858 f   alpcmain.obj
+ 0001:000059b4       ?GetOwnerProcess@LPCEndpoint@@UAAPAVLPCProcess@@XZ 100069b4 f i alpcmain.obj
+ 0001:000059bc       ?ShouldCloseWithProcess@LPCEndpoint@@UAAHPAVLPCProcess@@@Z 100069bc f i alpcmain.obj
+ 0001:000059d0       ?IsClientOrServerProcess@LPCEndpoint@@UAAHPAVLPCProcess@@@Z 100069d0 f i alpcmain.obj
+ 0001:000059e4       ?HasAccess@LPCEndpoint@@UAAHPAVLPCProcess@@@Z 100069e4 f i alpcmain.obj
+ 0001:000059f8       ?NewConnection@LPCEndpoint@@QAAPAVLPCConnection@@K@Z 100069f8 f   alpcmain.obj
+ 0001:00005a90       ?AlpcDeleteEndpoint@@YAJV?$marshal_arg@Vcopy_in@ce@@PBG@ce@@@Z 10006a90 f   alpcmain.obj
+ 0001:00005b28       ??1SVSHandleSystem@@QAA@XZ 10006b28 f i alpcmain.obj
+ 0001:00005b64       ?ShutdownLPCProcess@LPCProcess@@QAAXXZ 10006b64 f   alpcmain.obj
+ 0001:00005c18       ?DeleteLpcProcess@LPCProcess@@SAXPAX@Z 10006c18 f   alpcmain.obj
+ 0001:00005c1c       ?NewEndpoint@LPCProcess@@QAAPAVLPCEndpoint@@PBGPAU_ALPC_PORT_ATTRIBUTES@@@Z 10006c1c f   alpcmain.obj
+ 0001:00005c90       ?ConnectPort@LPCProcess@@QAAJPAVLPCEndpoint@@PBGKPAPAUPSL_HANDLE__@ce@@@Z 10006c90 f   alpcmain.obj
+ 0001:00005dcc       ?HandleServiceUnload@@YAXXZ 10006dcc f   alpcmain.obj
+ 0001:00005e3c       ?AlpcCreatePort@@YAJV?$marshal_arg@Vcopy_out@ce@@PAPAUPSL_HANDLE__@2@@ce@@V?$marshal_arg@Vcopy_in@ce@@PAU_OBJECT_ATTRIBUTES@@@2@V?$marshal_arg@Vcopy_in@ce@@PAU_ALPC_PORT_ATTRIBUTES@@@2@@Z 10006e3c f   alpcmain.obj
+ 0001:00005fa8       ?AlpcConnectPort@@YAJV?$marshal_arg@Vcopy_out@ce@@PAPAUPSL_HANDLE__@2@@ce@@V?$marshal_arg@Vcopy_in@ce@@PAU_UNICODE_STRING@@@2@KPAT_LARGE_INTEGER@@@Z 10006fa8 f   alpcmain.obj
+ 0001:000060f4       ?AlpcCreatePortSection@@YAJPAUPSL_HANDLE__@ce@@K0KV?$marshal_arg@Vcopy_out@ce@@PAPAUPSL_HANDLE__@2@@2@PAK@Z 100070f4 f   alpcmain.obj
+ 0001:00006220       ?AlpcCancelMessage@@YAJPAUPSL_HANDLE__@ce@@KV?$marshal_arg@Vcopy_in@ce@@PAU_ALPC_CONTEXT_ATTR@@@2@@Z 10007220 f   alpcmain.obj
+ 0001:000062e8       ?LPCDUninitialize@@YAXXZ   100072e8 f   alpcmain.obj
+ 0001:000063cc       ?AlpcAcceptConnectPort@@YAJV?$marshal_arg@Vcopy_out@ce@@PAPAUPSL_HANDLE__@2@@ce@@PAUPSL_HANDLE__@2@1V?$marshal_arg@Vcopy_in@ce@@PAU_PORT_MESSAGE@@@2@V?$marshal_arg@Vcopy_in_out@ce@@PAU_ALPC_MESSAGE_ATTRIBUTES@@@2@E@Z 100073cc f   alpcmain.obj
+ 0001:00006508       ?AlpcCreateSectionView@@YAJPAUPSL_HANDLE__@ce@@KV?$marshal_arg@Vcopy_in_out@ce@@PAU_ALPC_DATA_VIEW_ATTR@@@2@@Z 10007508 f   alpcmain.obj
+ 0001:000066b8       ?AlpcSendWaitReceivePort@@YAJPAUPSL_HANDLE__@ce@@KPAU_PORT_MESSAGE@@V?$marshal_arg@Vcopy_in_out@ce@@PAU_ALPC_MESSAGE_ATTRIBUTES@@@2@1V?$marshal_arg@Vcopy_in_out@ce@@PAPAK@2@2PAT_LARGE_INTEGER@@@Z 100076b8 f   alpcmain.obj
+ 0001:0000692c       ?LPCDInitialize@@YAHXZ     1000792c f   alpcmain.obj
+ 0001:00006ac4       __GetUserKData             10007ac4 f   coredll:COREDLL.dll
+ 0001:00006ad4       SetLastError               10007ad4 f   coredll:COREDLL.dll
+ 0001:00006ae4       InitializeCriticalSection  10007ae4 f   coredll:COREDLL.dll
+ 0001:00006af4       DeleteCriticalSection      10007af4 f   coredll:COREDLL.dll
+ 0001:00006b04       EnterCriticalSection       10007b04 f   coredll:COREDLL.dll
+ 0001:00006b14       LeaveCriticalSection       10007b14 f   coredll:COREDLL.dll
+ 0001:00006b24       CeCloseCallerBuffer        10007b24 f   coredll:COREDLL.dll
+ 0001:00006b34       CeFreeAsynchronousBuffer   10007b34 f   coredll:COREDLL.dll
+ 0001:00006b44       DisableThreadLibraryCalls  10007b44 f   coredll:COREDLL.dll
+ 0001:00006b54       GetProcessId               10007b54 f   coredll:COREDLL.dll
+ 0001:00006b64       GetDirectCallerProcessId   10007b64 f   coredll:COREDLL.dll
+ 0001:00006b74       CeAllocAsynchronousBuffer  10007b74 f   coredll:COREDLL.dll
+ 0001:00006b84       CeOpenCallerBuffer         10007b84 f   coredll:COREDLL.dll
+ 0001:00006b94       InterlockedIncrement       10007b94 f   coredll:COREDLL.dll
+ 0001:00006ba4       InterlockedDecrement       10007ba4 f   coredll:COREDLL.dll
+ 0001:00006bb4       CloseHandle                10007bb4 f   coredll:COREDLL.dll
+ 0001:00006bc4       GetLastError               10007bc4 f   coredll:COREDLL.dll
+ 0001:00006bd4       OpenProcess                10007bd4 f   coredll:COREDLL.dll
+ 0001:00006be4       CeSafeCopyMemory           10007be4 f   coredll:COREDLL.dll
+ 0001:00006bf4       EventModify                10007bf4 f   coredll:COREDLL.dll
+ 0001:00006c04       VirtualFreeEx              10007c04 f   coredll:COREDLL.dll
+ 0001:00006c14       VirtualFree                10007c14 f   coredll:COREDLL.dll
+ 0001:00006c24       VirtualCopyEx              10007c24 f   coredll:COREDLL.dll
+ 0001:00006c34       WaitForSingleObject        10007c34 f   coredll:COREDLL.dll
+ 0001:00006c44       ReportFault                10007c44 f   coredll:COREDLL.dll
+ 0001:00006c54       CreateEventW               10007c54 f   coredll:COREDLL.dll
+ 0001:00006c64       LocalFree                  10007c64 f   coredll:COREDLL.dll
+ 0001:00006c74       StringCbCopyW              10007c74 f   coredll:COREDLL.dll
+ 0001:00006c84       LocalAlloc                 10007c84 f   coredll:COREDLL.dll
+ 0001:00006c94       ReleaseSemaphore           10007c94 f   coredll:COREDLL.dll
+ 0001:00006ca4       VirtualAllocEx             10007ca4 f   coredll:COREDLL.dll
+ 0001:00006cb4       VirtualAlloc               10007cb4 f   coredll:COREDLL.dll
+ 0001:00006cc4       CreateSemaphoreW           10007cc4 f   coredll:COREDLL.dll
+ 0001:00006cd4       StringCchCopyW             10007cd4 f   coredll:COREDLL.dll
+ 0001:00006ce4       svsutil_Initialize         10007ce4 f   ceosutil:utilmem.obj
+ 0001:00006ce8       svsutil_DeInitialize       10007ce8 f   ceosutil:utilmem.obj
+ 0001:00006cec       svsutil_Alloc              10007cec f   ceosutil:utilmem.obj
+ 0001:00006cf0       svsutil_ReAlloc            10007cf0 f   ceosutil:utilmem.obj
+ 0001:00006cf4       svsutil_Free               10007cf4 f   ceosutil:utilmem.obj
+ 0001:00006cf8       svsutil_AllocFixedMemDescrSynch 10007cf8 f   ceosutil:utilmemf.obj
+ 0001:00006d60       svsutil_AllocFixedMemDescr 10007d60 f   ceosutil:utilmemf.obj
+ 0001:00006d68       svsutil_GetFixed           10007d68 f   ceosutil:utilmemf.obj
+ 0001:00006e3c       svsutil_FreeFixed          10007e3c f   ceosutil:utilmemf.obj
+ 0001:00006e78       svsutil_ReleaseFixedNonEmpty 10007e78 f   ceosutil:utilmemf.obj
+ 0001:00006eec       svsutil_ReleaseFixedEmpty  10007eec f   ceosutil:utilmemf.obj
+ 0001:0000701c       _DllMainCRTStartup         1000801c f   corelib0:pegdmain.obj
+ 0001:00007050       _onexit                    10008050 f   corelib0:onexit.obj
+ 0001:000071d4       atexit                     100081d4 f   corelib0:onexit.obj
+ 0001:000072d4       _cexit                     100082d4 f   corelib0:cexit.obj
+ 0001:000072e4       _initterm                  100082e4 f   corelib0:crt0dat.obj
+ 0001:00007310       _cinit                     10008310 f   corelib0:crt0dat.obj
+ 0001:00007370       __security_init_cookie     10008370 f   corelib0:seccinit.obj
+ 0001:000073bc       __crt_ExitProcess          100083bc f   corelib0:exitproc_proxy.obj
+ 0001:000073c8       ??2@YAPAXI@Z               100083c8 f   corelib1:COREDLL.dll
+ 0001:000073d8       ??3@YAXPAX@Z               100083d8 f   corelib1:COREDLL.dll
+ 0001:000073e8       memmove                    100083e8 f   corelib1:COREDLL.dll
+ 0001:000073f8       memcpy                     100083f8 f   corelib1:COREDLL.dll
+ 0001:00007408       __C_specific_handler       10008408 f   corelib1:COREDLL.dll
+ 0001:00007418       ??_V@YAXPAX@Z              10008418 f   corelib1:COREDLL.dll
+ 0001:00007428       ??_U@YAPAXI@Z              10008428 f   corelib1:COREDLL.dll
+ 0001:00007438       memset                     10008438 f   corelib1:COREDLL.dll
+ 0001:00007448       wcstok_s                   10008448 f   corelib1:COREDLL.dll
+ 0001:00007458       wcslen                     10008458 f   corelib1:COREDLL.dll
+ 0001:00007468       wcsncmp                    10008468 f   corelib1:COREDLL.dll
+ 0001:00007478       wcscmp                     10008478 f   corelib1:COREDLL.dll
+ 0001:00007488       malloc                     10008488 f   corelib1:COREDLL.dll
+ 0001:00007498       realloc                    10008498 f   corelib1:COREDLL.dll
+ 0001:000074a8       free                       100084a8 f   corelib1:COREDLL.dll
+ 0001:000074b8       _XcptFilter                100084b8 f   corelib1:COREDLL.dll
+ 0001:000074c8       _msize                     100084c8 f   corelib1:COREDLL.dll
+ 0001:000074d8       __security_gen_cookie2     100084d8 f   corelib1:COREDLL.dll
+ 0001:000074e8       InterlockedCompareExchange 100084e8 f   coredll:COREDLL.dll
+ 0001:000074f8       InterlockedExchange        100084f8 f   coredll:COREDLL.dll
+ 0001:00007508       TerminateProcess           10008508 f   coredll:COREDLL.dll
+ 0001:00007520       ??__Fcs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@YAXXZ 10008520 f i alpcdev.obj
+ 0001:0000752c       ??__Fcs@?1??get_lock@?$singleton@V?$psl_tls@V?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@V?$static_allocator@V?$psl_tls@V?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@@3@@ce@@KAAAVcritical_section@2@XZ@YAXXZ 1000852c f i alpcdev.obj
+ 0001:00007538       ??__Fpsl_tls_lifetime@?4???0?$psl_stub@PAX@ce@@QAA@PAXK@Z@YAXXZ 10008538 f i alpcdev.obj
+ 0001:000076a4       __IMPORT_DESCRIPTOR_COREDLL 100086a4     coredll:COREDLL.dll
+ 0001:000076b8       __NULL_IMPORT_DESCRIPTOR   100086b8     coredll:COREDLL.dll
+ 0002:00000000       __imp___GetUserKData       10009000     coredll:COREDLL.dll
+ 0002:00000004       __imp_SetLastError         10009004     coredll:COREDLL.dll
+ 0002:00000008       __imp_InitializeCriticalSection 10009008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_DeleteCriticalSection 1000900c     coredll:COREDLL.dll
+ 0002:00000010       __imp_EnterCriticalSection 10009010     coredll:COREDLL.dll
+ 0002:00000014       __imp_LeaveCriticalSection 10009014     coredll:COREDLL.dll
+ 0002:00000018       __imp_CeCloseCallerBuffer  10009018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_CeFreeAsynchronousBuffer 1000901c     coredll:COREDLL.dll
+ 0002:00000020       __imp_DisableThreadLibraryCalls 10009020     coredll:COREDLL.dll
+ 0002:00000024       __imp_GetProcessId         10009024     coredll:COREDLL.dll
+ 0002:00000028       __imp_GetDirectCallerProcessId 10009028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_CeAllocAsynchronousBuffer 1000902c     coredll:COREDLL.dll
+ 0002:00000030       __imp_CeOpenCallerBuffer   10009030     coredll:COREDLL.dll
+ 0002:00000034       __imp_InterlockedIncrement 10009034     coredll:COREDLL.dll
+ 0002:00000038       __imp_InterlockedDecrement 10009038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_CloseHandle          1000903c     coredll:COREDLL.dll
+ 0002:00000040       __imp_GetLastError         10009040     coredll:COREDLL.dll
+ 0002:00000044       __imp_OpenProcess          10009044     coredll:COREDLL.dll
+ 0002:00000048       __imp_CeSafeCopyMemory     10009048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_EventModify          1000904c     coredll:COREDLL.dll
+ 0002:00000050       __imp_VirtualFreeEx        10009050     coredll:COREDLL.dll
+ 0002:00000054       __imp_VirtualFree          10009054     coredll:COREDLL.dll
+ 0002:00000058       __imp_VirtualCopyEx        10009058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_WaitForSingleObject  1000905c     coredll:COREDLL.dll
+ 0002:00000060       __imp_ReportFault          10009060     coredll:COREDLL.dll
+ 0002:00000064       __imp_CreateEventW         10009064     coredll:COREDLL.dll
+ 0002:00000068       __imp_LocalFree            10009068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_StringCbCopyW        1000906c     coredll:COREDLL.dll
+ 0002:00000070       __imp_LocalAlloc           10009070     coredll:COREDLL.dll
+ 0002:00000074       __imp_ReleaseSemaphore     10009074     coredll:COREDLL.dll
+ 0002:00000078       __imp_VirtualAllocEx       10009078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_VirtualAlloc         1000907c     coredll:COREDLL.dll
+ 0002:00000080       __imp_CreateSemaphoreW     10009080     coredll:COREDLL.dll
+ 0002:00000084       __imp_StringCchCopyW       10009084     coredll:COREDLL.dll
+ 0002:00000088       __imp_??2@YAPAXI@Z         10009088     corelib1:COREDLL.dll
+ 0002:0000008c       __imp_??3@YAXPAX@Z         1000908c     corelib1:COREDLL.dll
+ 0002:00000090       __imp_memmove              10009090     corelib1:COREDLL.dll
+ 0002:00000094       __imp_memcpy               10009094     corelib1:COREDLL.dll
+ 0002:00000098       __imp___C_specific_handler 10009098     corelib1:COREDLL.dll
+ 0002:0000009c       __imp_??_V@YAXPAX@Z        1000909c     corelib1:COREDLL.dll
+ 0002:000000a0       __imp_??_U@YAPAXI@Z        100090a0     corelib1:COREDLL.dll
+ 0002:000000a4       __imp_memset               100090a4     corelib1:COREDLL.dll
+ 0002:000000a8       __imp_wcstok_s             100090a8     corelib1:COREDLL.dll
+ 0002:000000ac       __imp_wcslen               100090ac     corelib1:COREDLL.dll
+ 0002:000000b0       __imp_wcsncmp              100090b0     corelib1:COREDLL.dll
+ 0002:000000b4       __imp_wcscmp               100090b4     corelib1:COREDLL.dll
+ 0002:000000b8       __imp_malloc               100090b8     corelib1:COREDLL.dll
+ 0002:000000bc       __imp_realloc              100090bc     corelib1:COREDLL.dll
+ 0002:000000c0       __imp_free                 100090c0     corelib1:COREDLL.dll
+ 0002:000000c4       __imp__XcptFilter          100090c4     corelib1:COREDLL.dll
+ 0002:000000c8       __imp__msize               100090c8     corelib1:COREDLL.dll
+ 0002:000000cc       __imp___security_gen_cookie2 100090cc     corelib1:COREDLL.dll
+ 0002:000000d0       __imp_InterlockedCompareExchange 100090d0     coredll:COREDLL.dll
+ 0002:000000d4       __imp_InterlockedExchange  100090d4     coredll:COREDLL.dll
+ 0002:000000d8       __imp_TerminateProcess     100090d8     coredll:COREDLL.dll
+ 0002:000000dc       \177COREDLL_NULL_THUNK_DATA 100090dc     coredll:COREDLL.dll
+ 0002:000000e0       g_funcAlloc                100090e0     ceosutil:utilmem.obj
+ 0002:000000e4       g_funcFree                 100090e4     ceosutil:utilmem.obj
+ 0002:000000e8       g_funcRealloc              100090e8     ceosutil:utilmem.obj
+ 0002:000000ec       __security_cookie          100090ec     corelib0:seccinit.obj
+ 0002:000000f0       __security_cookie_complement 100090f0     corelib0:seccinit.obj
+ 0002:00000100       ?memory@?1??allocate@?$static_allocator@V?$psl_tls@V?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@@ce@@SAPAXI@Z@4PADA 10009100     alpcdev.obj
+ 0002:00000134       ??_B?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@51 10009134     alpcdev.obj
+ 0002:00000138       ?cs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@3@XZ@4V43@A 10009138     alpcdev.obj
+ 0002:0000014c       ??_B?1??get_lock@?$singleton@V?$psl_tls@V?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@V?$static_allocator@V?$psl_tls@V?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@@3@@ce@@KAAAVcritical_section@2@XZ@51 1000914c     alpcdev.obj
+ 0002:00000150       ?cs@?1??get_lock@?$singleton@V?$psl_tls@V?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@V?$static_allocator@V?$psl_tls@V?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@@3@@ce@@KAAAVcritical_section@3@XZ@4V43@A 10009150     alpcdev.obj
+ 0002:00000164       ?pInstance@?$singleton@V?$psl_tls@V?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@V?$static_allocator@V?$psl_tls@V?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@@3@@ce@@1RAV?$psl_tls@V?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@detail@2@A 10009164     alpcdev.obj
+ 0002:00000168       ?lRefCount@?$singleton@V?$psl_tls@V?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@V?$static_allocator@V?$psl_tls@V?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@@3@@ce@@1JA 10009168     alpcdev.obj
+ 0002:0000016c       ??_B?4???0?$psl_stub@PAX@ce@@QAA@PAXK@Z@54 1000916c     alpcdev.obj
+ 0002:00000170       ?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A 10009170     alpcdev.obj
+ 0002:00000171       ?_factory@?$singleton@V?$psl_tls@V?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@V?$static_allocator@V?$psl_tls@V?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@@3@@ce@@1Ulock_factory@12@A 10009171     alpcdev.obj
+ 0002:00000174       ?g_pSectionHandleTable@@3PAVSVSHandleSystem@@A 10009174     alpcmain.obj
+ 0002:00000178       ?g_pSync@@3PAVSVSSynch@@A  10009178     alpcmain.obj
+ 0002:0000017c       ?g_pProcessList@@3PAVSVSLinkManager@@A 1000917c     alpcmain.obj
+ 0002:00000180       ?g_pMessageList@@3PAVSVSLinkManager@@A 10009180     alpcmain.obj
+ 0002:00000184       ?g_pPortHandleTable@@3PAVSVSHandleSystem@@A 10009184     alpcmain.obj
+ 0002:00000188       ?g_dwMessageId@@3KA        10009188     alpcmain.obj
+ 0002:0000018c       ?dummy@?1???A?$SVSExpArray@VSVSPrivateHandle@@@@QAAAAVSVSPrivateHandle@@H@Z@4V2@A 1000918c     alpcmain.obj
+ 0002:00000194       g_pvAllocData              10009194     ceosutil:utilmem.obj
+ 0002:00000198       g_pvFreeData               10009198     ceosutil:utilmem.obj
+ 0002:0000019c       _exitflag                  1000919c     corelib0:cexit.obj
+ 0002:000001a0       __onexitend                100091a0     <common>
+ 0002:000001a4       __onexitbegin              100091a4     <common>
+ 0002:000001a8       g_pcsExit                  100091a8     <common>
+ 0002:000001ac       _pRawDllMain               100091ac     <common>
+
+ entry point at        0001:0000701c
+
+ Static symbols
+
+ 0001:00006f2c       _DllMainCRTStartupHelper   10007f2c f   corelib0:pegdmain.obj
+ 0001:000071ec       doexit                     100081ec f   corelib0:cexit.obj
+ 0001:00007518       ??__E?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A@@YAXXZ 10008518 f   alpcdev.obj
+ 0001:0000751c       ??__E?_factory@?$singleton@V?$psl_tls@V?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@V?$static_allocator@V?$psl_tls@V?$list@PAV?$psl_stub@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@@3@@ce@@1Ulock_factory@12@A@@YAXXZ 1000851c f   alpcdev.obj

@@ -1,0 +1,728 @@
+<!--
+Copyright (c) Microsoft Corporation.  All rights reserved.
+-->
+<!--
+Use of this sample source code is subject to the terms of the Microsoft
+license agreement under which you licensed this sample source code. If
+you did not accept the terms of the license agreement, you are not
+authorized to use this sample source code. For the terms of the license,
+please see the license agreement between you and Microsoft or, if applicable,
+see the LICENSE.RTF on your install media or the root of your tools installation.
+THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+-->
+<!DOCTYPE HTML PUBLIC"-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Htm-Help" CONTENT="wince.htm#Main_Contents">
+<TITLE>Werken met Windows Embedded Compact</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<!-- PegHelp -->
+
+<P><A NAME="Main_Contents"></A><B>Windows Embedded Compact Basics</B></P><UL></UL> <A HREF="wince.htm#UsingPrograms">Programma's starten</A><BR> <A HREF="wince.htm#view_toolbar_button">Contextafhankelijke Help gebruiken</A><BR> <A HREF="wince.htm#contextmenu">Een contextmenu openen</A><BR> <A HREF="wince.htm#reading_taskbar_icons">Pictogrammen op de taakbalk</A><BR> <A HREF="wince.htm#switch_between_menu_and_toolbar_display">Schakelen tussen menu's en werkbalkknoppen</A><BR> <A HREF="wince.htm#move_data">Een bestand naar een geheugenkaart verplaatsen</A><BR> <A HREF="wince.htm#windows_explorer_help">Windows Verkenner gebruiken</A><BR> <A HREF="wince.htm#pocket_internet_explorer">Pocket Internet Explorer gebruiken</A><BR> <A HREF="wince.htm#protecting">Belangrijke gegevens beveiligen</A><BR> <A HREF="wince.htm#index">Index</A><BR>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+
+<!-- ************************Topic Break************************* -->
+
+
+<P><A NAME="UsingPrograms"></A><B>Programma's starten</B></P><UL></UL>
+
+<P>Als u een programma wilt openen dat niet op het bureaublad staat, selecteert u het menu <B>Start</B>, selecteert u <B>Programma's</B> en selecteert u vervolgens de programmanaam.</P>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+
+<!-- ************************Topic Break************************* --> <A NAME="view_toolbar_button"></A><B>Contextafhankelijke Help gebruiken</B> <UL>
+<LI>Selecteer de knop<B>?</B> voor meer informatie over een programma of dialoogvenster terwijl u het programma of dialoogvenster gebruikt. <LI> Als u de naam van een werkbalkknop wilt zien, moet u met de stift op de knop tikken en deze dan vasthouden. Als u wilt voorkomen dat de taak wordt uitgevoerd, moet u de stift van de knop slepen terwijl u deze vasthoudt.<LI> Als u de naam van een werkbalkknop wilt zien met behulp van de muis, moet u met de muisaanwijzer de knop aanwijzen. </UL>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+
+<!-- ************************Topic Break************************* --> <A NAME="contextmenu"></A><B> Een contextmenu openen</B><BR>
+
+<UL>
+<LI>Als u een stift gebruikt, moet u op de ALT-toets klikken en vervolgens op het item tikken om een contextmenu te openen.<li>Als u een muis gebruikt, moet u met de rechtermuisknop op een contextmenu klikken. </UL>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+
+<!-- ************************Topic Break************************* --> <A NAME="reading_taskbar_icons"></A><B>Pictogrammen op de taakbalk</B><UL></UL>
+
+<P>Afhankelijk van de fabrikant van het apparaat kunnen de volgende pictogrammen in het statusgebied van de taakbalk worden weergegeven.</P><UL></UL> <B>Pictogram met de accustatus</B><BR>
+<TABLE BORDER=1>
+<TR><TD ALIGN=CENTER><B>Pictogram</B></TD><TD ALIGN=CENTER><B>Definitie</B></TD></TR>
+<TR>
+<TD ALIGN=CENTER VALIGN=MIDDLE><IMG HEIGHT=9 WIDTH=16 SRC="batlow.2bp"></TD>
+<TD ALIGN=LEFT VALIGN=MIDDLE>Spanning reserveaccu is laag</TD>
+</TR>
+<TR>
+<TD ALIGN=CENTER VALIGN=MIDDLE><IMG HEIGHT=16 WIDTH=16 SRC="bvlow.2bp"></TD>
+<TD ALIGN=LEFT VALIGN=MIDDLE>Spanning reserveaccu is erg laag</TD>
+</TR>
+<TR>
+<TD ALIGN=CENTER VALIGN=MIDDLE><IMG HEIGHT=15 WIDTH=16 SRC="batchg.2bp"></TD>
+<TD ALIGN=LEFT VALIGN=MIDDLE>Hoofdaccu's worden opgeladen</TD>
+</TR>
+<TR>
+<TD ALIGN=CENTER VALIGN=MIDDLE><IMG HEIGHT=16 WIDTH=16 SRC="mainlow.2bp"></TD>
+<TD ALIGN=LEFT VALIGN=MIDDLE>Spanning hoofdaccu's is laag</TD>
+</TR>
+<TR>
+<TD ALIGN=CENTER VALIGN=MIDDLE><IMG HEIGHT=16 WIDTH=16 SRC="mvlow.2bp"></TD>
+<TD ALIGN=LEFT VALIGN=MIDDLE>Spanning hoofdaccu's is erg laag</TD>
+</TR>
+<TR>
+<TD ALIGN=CENTER VALIGN=MIDDLE><IMG HEIGHT=16 WIDTH=16 SRC="srcnt.2bp"></TD>
+<TD ALIGN=CENTER VALIGN=MIDDLE>Er is een externe voedingsbron aan gesloten</TD>
+</TR>
+</TABLE>
+
+<UL></UL> <B>Pictogrammen met de verbindingsstatus</B><BR>
+<TABLE BORDER=1>
+<TR><TD ALIGN=CENTER><B>Pictogram</B></TD><TD ALIGN=CENTER><B>Definitie</B></TD>
+</TR>
+<TR>
+<TD ALIGN=CENTER VALIGN=MIDDLE><IMG HEIGHT=32 WIDTH=32 SRC="dialcnct.2bp"></TD><TD ALIGN=LEFT VALIGN=MIDDLE>Inbelverbinding</TD>
+</TR>
+<TR>
+<TD ALIGN=CENTER VALIGN=MIDDLE><IMG HEIGHT=32 WIDTH=32 SRC="drtcnct.2bp"></TD>
+<TD ALIGN=LEFT VALIGN=MIDDLE>Directe verbinding</TD>
+</TR>
+</TABLE><BR><OL></OL> <B>Zie ook</B><BR> <A HREF="ctpnl.htm#hide_the_taskbar">De taakbalk verbergen</A><BR> <A HREF="ctpnl.htm#change_the_taskbar_settings">Instellingen van de taakbalk wijzigen</A><BR>
+
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+
+<!-- ************************Topic Break************************* --> <A NAME="switch_between_menu_and_toolbar_display"></A><B>Schakelen tussen menu's en werkbalkknoppen</B><UL></UL>
+
+<P>Gebruik de schuifknop om de weergave van menu's en de werkbalk te regelen.<BR>
+<IMG HEIGHT=24 WIDTH=9 SRC="wgripper.2bp">
+<UL>
+<LI>Als u snel wilt schakelen tussen menu's en werkbalkknoppen, selecteert u de schuifknop. <LI>Sleep de schuifknop naar links of naar rechts als u menu's, werkbalkknoppen of een combinatie van beide wilt weergeven. <BR>
+<LI>Als u zowel menu's als werkbalkknoppen wilt zien, sleept u de schuifknop onder de menu's. </UL></P>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+
+<!-- ************************Topic Break************************* -->
+
+<P><A NAME="move_data"></A><B>Een bestand naar een geheugenkaart verplaatsen</B> <OL>
+<LI>Open het bestand dat u wilt verplaatsen. <LI>Selecteer <B>Bestand</B> > <B>Opslaan als</B>. <LI>Sla het bestand op in de map met de naam van de geheugenkaart. </OL>
+
+<BR><!-- PegHelp --><HR>
+
+
+
+
+
+<!-- ************************Topic Break************************* --> <A NAME="windows_explorer_help"></A><B>Windows Verkenner gebruiken</B></P><UL></UL>
+
+<P>Windows Verkenner werkt op uw mobiele apparaat bijna hetzelfde als op uw pc. Zie de volgende onderwerpen voor informatie over de verschillen in Windows Verkenner op uw apparaat.</P><UL></UL> <A HREF="wince.htm#navigating_in_file_view">Navigeren in de bestandsweergave</A><BR> <A HREF="wince.htm#view_files_as_icons_or_as_a_list">Bestanden als pictogrammen of lijsten bekijken</A><BR> <A HREF="wince.htm#working_with_files_and_folders">Werken met bestanden en mappen</A><BR> <A HREF="wince.htm#create_a_desktop_shortcut">Snelkoppelingen op het bureaublad maken</A><BR> <A HREF="wince.htm#switching_to_the_internet">Naar het Internet gaan</A><BR>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="navigating_in_file_view"></A><B>Navigeren in de bestandsweergave</B></P><UL></UL> <A HREF="wince.htm#go_to_the_previous_folder">Naar de vorige of volgende map gaan</A><BR> <A HREF="wince.htm#go_to_the_my_documents_folder">Het menu Ga naar gebruiken</A><BR>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="go_to_the_previous_folder"></A><B>Naar de vorige of volgende map gaan</B> <UL>
+<LI>Als u naar de vorige map wilt gaan, selecteert u <B>Ga naar</B> > <B>Vorige</B>. <LI>Als u naar de volgende map wilt gaan (die u zojuist hebt bekeken), selecteert u <B>Ga naar</B> > <B>Volgende</B>. </UL>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="go_to_the_my_documents_folder"></A><B>Het menu Ga naar gebruiken</B> <UL>
+<LI>Als u snel de map My Documents wilt openen, selecteert u <B>Ga naar</B> > <B>My Documents</B>. <LI>Als u alle mappen wilt zien die u eerder hebt geopend, selecteert u <B>Ga naar</B> > <B>Geschiedenis</B>. Dubbeltik of dubbelklik op de map waarnaar u wilt terugkeren. </UL>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="view_files_as_icons_or_as_a_list"></A><B>Bestanden als pictogrammen of lijsten bekijken</B> <OL>
+<LI>Als u pictogrammen wilt weergeven, selecteert u <B>Beeld</B> > <B>Grote pictogrammen</B> of <B>Kleine pictogrammen</B>. <LI>Als u een lijst wilt weergeven, selecteert u <B>Beeld</B> > <B>Details</B>. </OL>
+
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="working_with_files_and_folders"></A><B>Werken met bestanden en mappen</B><UL></UL> <A HREF="wince.htm#create_a_new_folder">Een nieuwe map maken</A><BR> <A HREF="wince.htm#add_a_folder_to_your_favorites_list">Een map toevoegen aan de lijst Favorieten</A><BR> <A HREF="wince.htm#sendir">Een bestand via infrarood verzenden</A><BR>
+
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="create_a_new_folder"></A><B>Een nieuwe map maken</B> <OL>
+<LI>Open de map waarin u de nieuwe map wilt plaatsen. <LI>Selecteer <B>Bestand</B> > <B>Nieuwe map</B>. </OL>
+
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="add_a_folder_to_your_favorites_list"></A><B>Een map toevoegen aan de lijst Favorieten.</B><BR>
+
+<OL>
+<LI>Open de map. <LI>Selecteer <B>Favorieten</B> > <B>Toevoegen aan Favorieten</B>. <LI>Typ in het vak <B>Naam</B> de naam voor de snelkoppeling. </OL> <B>Tips</B> <UL>
+<LI>Als u een favoriet bestand of een favoriete map wilt openen, selecteert u <B>Favorieten</B> en selecteert u vervolgens de map. <LI>Als u uw favorieten wilt ordenen, selecteert u <B>Favorieten</B> > <B>Favorieten indelen</B>. </UL>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* -->
+
+
+<!-- This text appears in Contacts, Note Taker, Voice Recorder, and Windows Explorer information in wince.htm.  If it is updated in one help file it should be updated in all the help files.  We are repeating the text because we don't know which programs the OEM's will ship.  4/23/98 SB --> <A NAME="sendir"></A><B>Een bestand via infrarood verzenden</B><BR>
+
+<UL>
+<LI>Als u een bestand wilt verzenden, selecteert u het, lijnt u de infrarood-poorten uit en selecteert u <B>Bestand</B> > <B>Verzenden naar</B> > <B>Infrarood-ontvanger</B>. <LI>Als u een bestand wilt ontvangen, lijnt u de infrarood-poorten uit en selecteert u <B>Bestand</B> > <B>Ontvangen</B>. </UL>
+
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="create_a_desktop_shortcut"></A><B>Snelkoppelingen op het bureaublad maken</B> <OL>
+<LI>Geef het bestand of de webpagina weer waarvoor u een snelkoppeling wilt maken. <LI>Selecteer <B>Bestand</B> > <B>Verzenden naar</B>. <LI>Selecteer <B>Bureaublad als snelkoppeling</B>. </OL>
+
+<UL></UL>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+
+<!-- ************************Topic Break************************* --> <A NAME="switching_to_the_internet"></A><B>Naar het Internet gaan</B> <UL>
+<LI>Typ een URL in de adresbalk. </UL>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* -->
+
+<P><A NAME="pocket_internet_explorer"></A><B>Pocket Internet Explorer gebruiken</B></P><UL></UL> <A HREF="wince.htm#overview">Pocket Internet Explorer</A><BR> <A HREF="wince.htm#getting_connected">Verbinding maken</A><BR> <A HREF="wince.htm#viewing_pages_on_the_internet">Websites zoeken en bekijken</A><BR> <A HREF="wince.htm#saving,_storing,_and_sending_web_pages">Webpagina's opslaan, in cache plaatsen en kopi&euml;ren</A><BR> <A HREF="wince.htm#securityfeatures">Beveiligingsfuncties gebruiken</A><BR> <A HREF="wince.htm#changing_the_pocket_internet_explorer_display">De weergave van Pocket Internet Explorer wijzigen</A><BR> <A HREF="wince.htm#index">Index</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="overview"></A><B>Pocket Internet Explorer</B><BR><UL></UL>
+
+
+<P>Met Pocket Internet Explorer kunt u webpagina's van het Internet of een intranet op uw apparatuur bekijken. U hebt een modem of een Ethernet-kaart nodig om verbinding te maken met een Internet-provider of een netwerk.</P><UL></UL> <B>Zie ook</B><BR> <A HREF="wince.htm#getting_connected">Verbinding maken</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="getting_connected"></A><B>Verbinding maken</B><UL></UL> <A HREF="wince.htm#connect_to_the_internet">Verbinding maken met het Internet</A><BR> <A HREF="wince.htm#set_up_an_automatic_internet_connection">Een automatische Internet-verbinding instellen</A><BR> <A HREF="wince.htm#change_the_proxy_server_setting">Een proxyserver instellen</A><BR> <A HREF="wince.htm#enable_custom_viewing_cookies">Cookies inschakelen</A><BR>
+
+
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+
+<P><A NAME="connect_to_the_internet"></A><B>Verbinding maken met het Internet</B></P><UL></UL>
+
+
+<P>Voordat u webpagina's kunt bekijken, dient u een externe verbinding met de Internet-provider of het netwerk in te stellen. Zie <A HREF="rnetw.htm#Main_Contents">Externe verbindingen</A> als u nog geen verbinding met de Internet-provider of het netwerk hebt ingesteld.</P>
+
+<OL>
+<LI>Selecteer <B>Start</B> > <B>Programma's</B> > <B>Communicatie</B> > <B>Extern netwerk</B>. Dubbeltik of dubbelklik op de verbinding die u wilt gebruiken. <LI>Voer alle benodigde gebruikersgegevens in. Als u de wijze wilt aanpassen waarop het nummer wordt gekozen, selecteert u <B>Kieseigenschappen</B>. <LI>Selecteer <B>Verbinden</B>. </OL>
+
+<P><B>Opmerking</B> Als u problemen hebt met het maken van een verbinding, moet u misschien een proxyserver gebruiken voor de toegang tot het Internet.</P><UL></UL> <B>Zie ook</B><BR> <A HREF="wince.htm#change_the_proxy_server_setting">Een proxyserver instellen</A><BR>
+
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+<P><A NAME="set_up_an_automatic_internet_connection"></A><B>Een automatische Internet-verbinding instellen</B></P><UL></UL>
+
+<P>Als u een automatische Internet-verbinding instelt, wordt de externe verbinding die u hebt gekozen automatisch gebruikt wanneer Pocket Internet Explorer toegang nodig heeft tot het Internet of een bedrijfsnetwerk.</P>
+
+<OL>
+<LI>Selecteer <B>Beeld</B> > <B>Opties</B> > tabblad <B>Automatisch kiezen</B>. <LI>Selecteer <B>Automatisch verbinden</B>. <LI>Geef de <A HREF="rnetw.htm#Main_Contents">externe verbinding</A> op die moet worden gebruikt. <LI>Als u de verbinding met het Internet automatisch wilt verbreken na een bepaalde tijd waarin het apparaat niet actief is (niet is gebruikt), selecteert u <B>Automatisch verbreken</B>. <LI>Voer bij <B>Verbreken indien niet-actief gedurende</B> in hoe lang het apparaat niet actief moet zijn geweest, voordat de verbinding met het Internet wordt verbroken. </OL> <B>Zie ook</B><BR> <A HREF="wince.htm#connect_to_the_internet">Verbinding maken met het Internet</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="change_the_proxy_server_setting"></A><B>Een proxyserver instellen</B><UL></UL>
+
+<P>Proxyservers worden vaak gebruikt voor een verbinding met het Internet via een lokaal netwerk, bijvoorbeeld een bedrijfsnetwerk, voor extra beveiliging.</P>
+
+<OL>
+<LI>Selecteer <B>Beeld</B> > <B>Opties</B> > tabblad <B>Proxyserver</B>. <LI>Selecteer <B>Proxyserver gebruiken</B>. <LI>Voer het adres en de poort van de proxyserver in. Raadpleeg de netwerkbeheerder voor meer informatie. <LI>Als u de proxyserver wilt negeren voor lokale adressen, zoals pagina's van een intranet, selecteert u <B>Proxy negeren voor lokale adressen</B>. </OL> <B>Zie ook</B><BR> <A HREF="wince.htm#connect_to_the_internet">Verbinding maken met het Internet</A><BR> <A HREF="wince.htm#change_security_options">Beveiligingsopties selecteren</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="enable_custom_viewing_cookies"></A><B>Cookies inschakelen</B><UL></UL>
+
+<P>Een cookiebestand bevat informatie over uw identiteit en uw voorkeuren zodat een website informatie kan aanpassen aan uw behoeften. De website verzendt het cookiebestand en het wordt opgeslagen op uw mobiele apparaat.</P>
+
+<OL>
+<LI>Selecteer <B>Beeld</B> > <B>Opties</B> > tabblad <B>Geavanceerd</B>. <LI>Selecteer <B>Cookies inschakelen</B>. </OL> <B>Zie ook</B><BR> <A HREF="wince.htm#change_security_options">Beveiligingsopties selecteren</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="viewing_pages_on_the_internet"></A><B>Websites zoeken en bekijken</B><UL></UL> <A HREF="wince.htm#search_for_an_internet_site">Een Internet-site zoeken</A> <BR> <A HREF="wince.htm#go_to_an_internet_address">Naar een Internet-adres gaan</A><BR> <A HREF="wince.htm#view_previously_visited_sites">Eerder bezochte sites bekijken</A><BR> <A HREF="wince.htm#add_an_item_to_your_favorites_list">Favorieten toevoegen en bekijken</A><BR> <A HREF="wince.htm#go_to_the_next_page">Webpagina's bekijken</A><BR> <A HREF="wince.htm#refresh">Huidige pagina vernieuwen</A><BR> <A HREF="wince.htm#stop_loading_a_page">Het laden van een pagina stoppen</A><BR> <A HREF="wince.htm#view_information_about_the_current_page">Eigenschappen van huidige pagina bekijken</A><BR> <A HREF="wince.htm#viewhtml">HTML-broncode bekijken</A><BR> <A HREF="wince.htm#change_home_and_search_page_settings">Instellingen van start- en zoekpagina wijzigen</A><BR>
+
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="search_for_an_internet_site"></A><B>Een Internet-site zoeken</B> <UL>
+<LI>Selecteer <B>Ga naar</B> > <B>Zoeken op het web</B>. </UL> <B>Zie ook</B><BR> <A HREF="wince.htm#change_home_and_search_page_settings">Instellingen van start- en zoekpagina wijzigen</A><BR>
+
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="go_to_an_internet_address"></A><B>Naar een Internet-adres gaan</B> <OL>
+<LI>Selecteer <B>Beeld</B> > <B>Adresbalk</B> als de adresbalk niet is weergegeven. <LI>Voer het adres in. <LI>Druk op ENTER. </OL> <B>Zie ook</B><BR> <A HREF="wince.htm#add_an_item_to_your_favorites_list">Favorieten toevoegen en bekijken</A><BR> <A HREF="wince.htm#go_to_the_next_page">Webpagina's bekijken</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="view_previously_visited_sites"></A><B>Eerder bezochte sites bekijken</B> <OL>
+<LI>Selecteer <B>Ga naar</B> > <B>Geschiedenis</B>. <LI>Selecteer de pagina die u wilt bekijken. </OL> <B>Zie ook</B><BR> <A HREF="wince.htm#add_an_item_to_your_favorites_list">Favorieten toevoegen en bekijken</A><BR> <A HREF="wince.htm#go_to_an_internet_address">Naar een Internet-adres gaan</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="add_an_item_to_your_favorites_list"></A><B>Favorieten toevoegen en bekijken</B> <OL>
+<LI>Ga naar de pagina die u wilt toevoegen. <LI>Selecteer <B>Favorieten</B> > <B>Toevoegen aan Favorieten</B>. <LI>Zoek als het nodig is de gewenste map. <LI>Bevestig of wijzig de naam. </OL>
+
+<UL>
+<LI>Als u uw favoriete websites wilt bekijken, selecteert u <B>Favorieten</B> en vervolgens de website die u wilt bekijken. </UL>
+
+<P><B>Opmerking</B> Als u uw favorieten wilt ordenen, selecteert u <B>Favorieten</B> > <B>Favorieten indelen</B>.</P><UL></UL> <B>Zie ook</B><BR> <A HREF="wince.htm#go_to_an_internet_address">Naar een Internet-adres gaan</A><BR> <A HREF="wince.htm#view_previously_visited_sites">Eerder bezochte sites bekijken</A><BR>
+
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="go_to_the_next_page"></A><B>Webpagina's bekijken</B> <UL>
+<LI>Als u naar een pagina wilt gaan die u eerder hebt bekeken, selecteert u <B>Ga naar</B> > <B>Vorige</B>. <LI>Als u naar de volgende pagina wilt gaan (als u deze eerder hebt bekeken), selecteert u <B>Ga naar</B> > <B>Volgende</B>. <LI>Als u naar uw startpagina wilt terugkeren, selecteert u <B>Ga naar</B> > <B>Startpagina</B>. </UL> <B>Zie ook</B><BR> <A HREF="wince.htm#refresh">Huidige pagina vernieuwen</A><BR> <A HREF="wince.htm#stop_loading_a_page">Het laden van een pagina stoppen</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="refresh"></A><B>Huidige pagina vernieuwen</B><BR>
+
+<UL>
+<LI>Selecteer <B>Beeld</B> > <B>Vernieuwen</B>. </UL> <B>Zie ook</B><BR> <A HREF="wince.htm#go_to_the_next_page">Webpagina's bekijken</A><BR> <A HREF="wince.htm#stop_loading_a_page">Het laden van een pagina stoppen</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="stop_loading_a_page"></A><B>Het laden van een pagina stoppen</B> <UL>
+<LI>Selecteer <B>Beeld</B> > <B>Stoppen</B>. </UL> <B>Zie ook</B><BR> <A HREF="wince.htm#go_to_the_next_page">Webpagina's bekijken</A><BR> <A HREF="wince.htm#refresh">Huidige pagina vernieuwen</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="view_information_about_the_current_page"></A><B>Eigenschappen van huidige pagina bekijken</B> <OL>
+<LI>Selecteer <B>Bestand</B> > <B>Eigenschappen</B>. <LI>Als u het protocol of het type, de grootte en het adres van de pagina wilt bekijken, selecteert u het tabblad <B>Algemeen</B>. <LI>Als u de beveiligingsgegevens van de pagina wilt bekijken, selecteert u het tabblad <B>Beveiliging</B>. </OL>
+
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="viewhtml"></A><B>HTML-broncode bekijken</B><BR>
+
+<OL>
+<LI>Terwijl u de pagina bekijkt, selecteert u <B>Bestand</B> > <B>Opslaan als</B> en slaat u het bestand op als een .txt-bestand. <LI>Open het bestand in een tekstverwerker, bijvoorbeeld WordPad. </OL>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="change_home_and_search_page_settings"></A><B>Instellingen van start- en zoekpagina wijzigen</B> <OL>
+<LI>Open de pagina die u als start- of zoekpagina wilt gebruiken. <LI>Selecteer <B>Beeld</B> > <B>Opties</B> > tabblad <B>Standaardpagina's</B>. <LI>Selecteer in de lijst de optie <B>Startpagina</B> of <B>Zoekpagina</B>. <LI>Selecteer <B>Huidige pagina gebruiken</B> als de huidige pagina de standaardpagina moet worden. </OL> <B>Opmerking</B> Als u de standaardpagina weer wilt gebruiken, selecteert u <B>Standaardpagina gebruiken</B>.<UL></UL> <B>Zie ook</B><BR> <A HREF="wince.htm#search_for_an_internet_site">Een Internet-site zoeken</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+
+<!-- ************************Topic Break************************* --> <A NAME="saving,_storing,_and_sending_web_pages"></A><B>Webpagina's opslaan, in cache plaatsen en kopi&euml;ren</B><UL></UL> <A HREF="wince.htm#save_a_copy_of_the_current_page">Een kopie van de huidige pagina opslaan</A><BR> <A HREF="wince.htm#browse_stored_pages">Een pagina in cache bekijken terwijl u geen verbinding hebt</A><BR> <A HREF="wince.htm#adjust_settings_for_temporarily_storing_pages"> Instellingen voor cachegeheugen aanpassen</A><BR> <A HREF="wince.htm#copy_information_from_an_internet_site_to_a_document">Een webpagina naar een document kopi&euml;ren</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="save_a_copy_of_the_current_page"></A><B>Een kopie van de huidige pagina opslaan</B><UL></UL>
+
+<P>U kunt webpagina's opslaan en deze later bekijken wanneer u geen verbinding met het Internet of het intranet hebt, zonder cachegeheugen te gebruiken.</P>
+
+<OL>
+<LI>Selecteer <B>Bestand</B> > <B>Opslaan als</B>. <LI>Geef een locatie voor de map op en geef het bestand een naam. </OL>
+
+<P><B>Opmerkingen</B> <UL>
+<LI>Afbeeldingen worden niet weergegeven en koppelingen zijn uitgeschakeld. <LI>Webpagina's met frames worden niet weergegeven of u ziet alleen de structuur van de frames. <LI>Als u een enkel frame wilt opslaan, moet u op ALT tikken of op het frame klikken. Selecteer <B>Opslaan als</B> of <B>Figuur opslaan als</B> in het menu <B>Context</B>. Sommige frames zijn zo ontworpen dat ze niet kunnen worden opgeslagen. Zulke frames worden niet weergegeven als u ze opent als opgeslagen bestanden van Windows Explorer. </UL></P> <B>Zie ook</B><BR> <A HREF="wince.htm#browse_stored_pages">Een pagina in cache bekijken terwijl u geen verbinding hebt</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="browse_stored_pages"></A><B>Een pagina in cache bekijken terwijl u geen verbinding hebt</B><UL></UL>
+
+<P>Wanneer u pagina's op het Internet bekijkt, worden deze opgeslagen in de map Tijdelijke Internet-bestanden in Deze computer. Bladeren door pagina's in cache is sneller dan terugkeren naar de Internet-sites.</P>
+
+<OL>
+<LI>Voordat u de verbinding verbreekt, selecteert u <B>Bestand</B> > <B>Off line werken</B>. <LI>Nadat u de verbinding hebt verbroken, selecteert u <B>Ga naar</B> > <B>Geschiedenis</B>. <LI>Selecteer de pagina die u wilt bekijken. </OL>
+
+<P><B>Opmerkingen</B> <UL>
+<LI>Koppelingen zijn uitgeschakeld. <LI>Wanneer u opgeslagen webpagina's met frames bekijkt, wordt alleen het eerste frame van elke frameset weergegeven. Sommige frames zijn zodanig ontworpen dat ze niet in de cache kunnen worden opgeslagen. Dergelijke frames worden niet weergegeven wanneer u deze opent vanuit de cache. </UL> <B>Zie ook</B><BR> <A HREF="wince.htm#adjust_settings_for_temporarily_storing_pages"> Instellingen voor cachegeheugen aanpassen</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="adjust_settings_for_temporarily_storing_pages"></A><B>Instellingen voor cachegeheugen aanpassen</B><UL></UL>
+
+<P>Standaard bestaat het cachegeheugen van Pocket Internet Explorer uit tien procent van de totale geheugenopslag van het apparaat. Als u problemen hebt met geheugenopslag, probeert u dit te verhelpen door het cachegeheugen van Pocket Internet Explorer te wissen.</P>
+
+<OL>
+<LI>Selecteer <B>Beeld</B> > <B>Opties</B> > tabblad <B>Geavanceerd</B>. <LI>Als u het gebruik van cachegeheugen (tijdelijke opslag) wilt toestaan, selecteert u <B>Caching inschakelen</B>.<BR>Let erop dat caching geheugen gebruikt. <LI>Verplaats de schuifknop <B>Cachegrootte</B> als u de opslagruimte voor caching wilt vergroten of verkleinen. <LI>Als u wilt dat de map wordt leeggemaakt wanneer u Pocket Internet Explorer sluit, selecteert u <B>Cache leegmaken bij afsluiten</B>. <LI>Als u de map onmiddellijk wilt leegmaken, selecteert u <B>Cache nu leegmaken</B>. </OL>
+
+
+<!-- See also choices reflect the fact that all three of these topics cover the Advanced tab.  Conext sensivity for the Advanced tab links to this topic.  --> <B>Zie ook</B><BR> <A HREF="wince.htm#enable_custom_viewing_cookies">Cookies inschakelen</A><BR> <A HREF="wince.htm#change_security_options">Beveiligingsopties selecteren</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="copy_information_from_an_internet_site_to_a_document"></A><B>Een webpagina naar een document kopi&euml;ren</B> <OL>
+<LI>Selecteer de gehele webpagina of een gedeelte van de webpagina die u wilt kopi&euml;ren. <LI>Selecteer <B>Bewerken</B> > <B>Kopi&euml;ren</B>. <LI>Ga naar het document waarin u de gegevens wilt plaatsen en selecteer de locatie. <LI>Selecteer <B>Bewerken</B> > <B>Plakken</B>. </OL>
+
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="securityfeatures"></A><B>Beveiligingsfuncties gebruiken</B><UL></UL> <A HREF="wince.htm#securesites">Beveiliging</A><BR> <A HREF="wince.htm#change_security_options">Beveiligingsopties selecteren</A><BR>
+
+
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="securesites"></A><B>Beveiliging</B><BR><UL></UL>
+
+<P>Pocket Internet Explorer ondersteunt de beveiligingsprotocollen die door beveiligde sites worden gebruikt. Wanneer u een beveiligde site bezoekt, kunt u veilig persoonlijke gegevens verzenden. Als u wilt weten of een website beveiligd is, kijkt u of er een pictogram van een slot wordt weergegeven op de knop van Pocket Internet Explorer op de statusbalk.</P><UL></UL> <B>Zie ook</B><BR> <A HREF="wince.htm#change_security_options">Beveiligingsopties selecteren</A><BR>
+
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="change_security_options"></A><B>Beveiligingsopties selecteren</B> <OL>
+<LI>Selecteer <B>Beeld</B> > <B>Opties</B> > tabblad <B>Geavanceerd</B>. <LI>Selecteer <B>Beveiligingsinstellingen</B>. <LI>Selecteer de gewenste beveiligingsprotocollen.<BR>
+
+  <UL>
+  <LI><B>PCT</B> Private Communications Technology, een protocol dat door Microsoft is ontwikkeld en dat aanzienlijk veiliger is dan SSL2. Windows Embedded Compact OS ondersteunt PCT niet. <LI><B>SSL2</B> is Secured Sockets Layer Level 2, een standaardprotocol voor beveiligde verzendingen. Alle beveiligde Internet-sites ondersteunen dit protocol. <LI><B>SSL3</B> is Secured Sockets Layer Level 3, een protocol dat veiliger is dan SSL2. Sommige Internet-sites ondersteunen dit protocol niet. </UL>
+</OL> <B>Zie ook</B><BR> <A HREF="wince.htm#connect_to_the_internet">Verbinding maken met het Internet</A><BR> <A HREF="wince.htm#enable_custom_viewing_cookies">Cookies inschakelen</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="aboutsecurity"></A><B>Website is niet beveiligd</B><BR><UL></UL>
+
+<!-- This is a hidden topic used for context sensitivity only. -->
+
+<P>De website die u wilt bezoeken, heeft geen certificaat en is niet beveiligd. Aan de hand van wat u weet over uw mobiele apparaat en deze website, moet u beslissen of u deze website wilt bezoeken. Als u deze website liever niet bezoekt, selecteert u <B>Nee</B>.</P><UL></UL> <B>Zie ook</B><BR> <A HREF="wince.htm#securesites">Beveiliging</A><BR> <A HREF="wince.htm#change_security_options">Beveiligingsopties selecteren</A><BR>
+
+
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="changing_the_pocket_internet_explorer_display"></A><B>De weergave van Pocket Internet Explorer wijzigen</B></P><UL></UL> <A HREF="wince.htm#change_the_font_size">De lettergrootte wijzigen</A><BR> <A HREF="wince.htm#display_a_page_in_a_new_window">Een pagina in een nieuw venster weergeven</A><BR> <A HREF="wince.htm#fit_the_page_to_the_window">De pagina aan het venster aanpassen</A><BR> <A HREF="wince.htm#display_or_hide_the_address_bar">De adresbalk weergeven of verbergen</A><BR> <A HREF="wince.htm#change_the_default_appearance_of_pages">De standaardweergave van pagina's wijzigen</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="change_the_font_size"></A><B>De lettergrootte wijzigen</B> <UL>
+<LI>Selecteer <B>Beeld</B> > <B>Lettertypen</B> en selecteer de gewenste grootte. </UL> <B>Zie ook</B><BR> <A HREF="wince.htm#change_the_default_appearance_of_pages">De standaardweergave van pagina's wijzigen</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="display_a_page_in_a_new_window"></A><B>Een pagina in een nieuw venster weergeven</B> <UL>
+<LI>Selecteer <B>Bestand</B> > <B>Nieuw venster</B>. </UL> <B>Zie ook</B><BR> <A HREF="wince.htm#fit_the_page_to_the_window">De pagina aan het venster aanpassen</A><BR>
+
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="fit_the_page_to_the_window"></A><B>De pagina aan het venster aanpassen</B> <UL>
+<LI>Selecteer <B>Beeld</B> > <B>Aanpassen aan venster</B>. </UL> <B>Zie ook</B><BR> <A HREF="wince.htm#display_a_page_in_a_new_window">Een pagina in een nieuw venster weergeven</A><BR> <A HREF="wince.htm#change_the_default_appearance_of_pages">De standaardweergave van pagina's wijzigen</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="display_or_hide_the_address_bar"></A><B>De adresbalk weergeven of verbergen</B> <UL>
+<LI>Selecteer <B>Beeld</B> > <B>Adresbalk</B>. </UL>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="change_the_default_appearance_of_pages"></A><B>De standaardweergave van pagina's wijzigen</B> <OL>
+<LI>Selecteer <B>Beeld</B> > <B>Opties</B> > tabblad <B>Vormgeving</B>. <LI>Selecteer de gewenste opties. </OL>
+
+<P><B>Opmerking</B> Als u geheugen wilt sparen, schakelt u <B>Figuren weergeven</B> en <B>Geluiden afspelen</B> uit.</P><UL></UL> <B>Zie ook</B><BR> <A HREF="wince.htm#change_the_font_size">De lettergrootte wijzigen</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="protecting"></A><B>Belangrijke gegevens beveiligen</B><BR><UL></UL>
+
+<P>Waarschijnlijk bewaart u waardevolle gegevens in uw apparatuur, zoals namen en telefoonnummers van belangrijke contactpersonen, creditcardnummers en vertrouwelijke documenten. Hier volgen een aantal manieren om uw belangrijke gegevens te beveiligen.</P><UL></UL>
+
+<UL>
+<LI>Gebruik een wachtwoord om het apparaat te vergrendelen.<BR> U kunt een wachtwoord instellen dat u moet invoeren voordat u het apparaat kunt gebruiken of iemand anders. Selecteer <B>Start</B> > <B>Instellingen</B> > <B>Configuratiescherm</B>. Open het pictogram <B>Wachtwoord</B>.<br><br> <B>Belangrijk</B><br> Kies een wachtwoord dat u gemakkelijk kunt onthouden. Als u het vergeet, moet u het apparaat volledig opnieuw instellen. In dit geval zullen al uw gegevens worden gewist.<br><br>
+<LI>Maak een reservekopie van uw gegevens.<BR> U kunt een reservekopie maken en onderhouden die de programmagegevens van uw apparaat bevatten. Als u bijvoorbeeld per ongeluk zowel de hoodaccu als de reserveaccu hebt verwijderd en uw gegevens hebt verloren, kunt u dit herstellen met de reservekopie.</UL>
+
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* -->
+
+<P><A NAME="index"></A><B>Index</B></P><UL></UL> 
+
+
+<A HREF="wince.htm#display_or_hide_the_address_bar">Adresbalk, weergeven en verbergen</A><BR> 
+<A HREF="wince.htm#go_to_the_next_page">bekijken, webpagina's</A><BR> 
+<A HREF="wince.htm#view_files_as_icons_or_as_a_list">bestanden, bekijken als een lijst</A><BR> 
+<A HREF="wince.htm#view_files_as_icons_or_as_a_list">bestanden, bekijken als pictogrammen</A><BR> 
+<A HREF="wince.htm#sendir">bestanden, verzenden via infrarood</A><BR> 
+<A HREF="wince.htm#protecting">beveiligen, gegevens </A><BR> 
+<A HREF="wince.htm#change_security_options">beveiligingsopties</A><BR> 
+<A HREF="wince.htm#viewhtml">broncode, bekijken</A><BR> 
+<A HREF="wince.htm#create_a_desktop_shortcut">bureaubladsnelkoppelingen</A><BR>
+<A HREF="wince.htm#browse_stored_pages">cachegeheugen, bekijken</A><BR> 
+<A HREF="wince.htm#adjust_settings_for_temporarily_storing_pages">cachegeheugen, instellingen aanpassen</A><BR> 
+<A HREF="wince.htm#contextmenu">Context, menu</A><BR> 
+<A HREF="wince.htm#enable_custom_viewing_cookies">cookies</A><BR> 
+<A HREF="wince.htm#add_a_folder_to_your_favorites_list">Favorieten, lijst</A><BR> 
+<A HREF="wince.htm#add_an_item_to_your_favorites_list">Favorieten, opdracht </A><BR> 
+<A HREF="wince.htm#go_to_the_my_documents_folder">Ga naar, menu</A><BR> 
+<A HREF="wince.htm#move_data">geheugenkaart, gegevens verplaatsen naar</A><BR> 
+<A HREF="wince.htm#view_previously_visited_sites">Geschiedenis, opdracht</A><BR>
+<A HREF="wince.htm#view_toolbar_button">Help, contextafhankelijk</A><BR> 
+<A HREF="wince.htm#viewhtml">HTML-code, bekijken</A><BR> 
+<A HREF="wince.htm#sendir">infrarood</A><BR> 
+<A HREF="wince.htm#add_an_item_to_your_favorites_list">Internet-sites, favorieten</A><BR> 
+<A HREF="wince.htm#go_to_an_internet_address">Internet-sites, gaan naar</A><BR>
+<A HREF="wince.htm#view_previously_visited_sites">Internet-sites, geschiedenis bekijken</A><BR>
+<A HREF="wince.htm#search_for_an_internet_site">Internet-sites, zoeken</A> <BR> 
+<A HREF="wince.htm#connect_to_the_internet">Internet-verbinding</A><BR> 
+<A HREF="wince.htm#set_up_an_automatic_internet_connection">Internet-verbinding, automatische</A><BR> 
+<A HREF="wince.htm#change_security_options">Internet-verbinding, beveiligingsopties</A><BR> 
+<A HREF="wince.htm#change_the_proxy_server_setting">Internet-verbinding, proxyserver</A><BR> 
+<A HREF="wince.htm#copy_information_from_an_internet_site_to_a_document">kopi&euml;ren, webpagina's</A><BR> 
+<A HREF="wince.htm#change_the_font_size">lettergrootte</A><BR> 
+<A HREF="wince.htm#view_files_as_icons_or_as_a_list">lijsten, bestanden bekijken als</A><BR> 
+<A HREF="wince.htm#create_a_new_folder">map, maken</A><BR> 
+<A HREF="wince.htm#add_a_folder_to_your_favorites_list">map, toevoegen aan lijst met favorieten</A><BR> 
+<A HREF="wince.htm#switch_between_menu_and_toolbar_display">menu, schakelen naar</A><BR> 
+<A HREF="wince.htm#view_information_about_the_current_page">pagina-eigenschappen</A><BR> 
+<A HREF="wince.htm#view_files_as_icons_or_as_a_list">pictogrammen, bestanden bekijken als</A><BR> 
+<A HREF="wince.htm#reading_taskbar_icons">pictogrammen, taakbalk</A><BR> 
+<A HREF="wince.htm#UsingPrograms">programma's, starten</A><BR> 
+<A HREF="wince.htm#change_the_proxy_server_setting">proxyservers</A><BR> 
+<A HREF="wince.htm#go_to_the_next_page">startpagina</A><BR> 
+<A HREF="wince.htm#change_home_and_search_page_settings">startpagina, instellingen</A><BR> 
+<A HREF="wince.htm#stop_loading_a_page">stoppen, laden van een pagina</A><BR> 
+<A HREF="wince.htm#reading_taskbar_icons">taakbalkpictogrammen</A><BR> 
+<A HREF="wince.htm#connect_to_the_internet">verbinding</A><BR> 
+<A HREF="wince.htm#set_up_an_automatic_internet_connection">verbinding, automatische</A><BR> 
+<A HREF="wince.htm#change_security_options">verbinding, beveiligingsopties</A><BR> 
+<A HREF="wince.htm#change_the_proxy_server_setting">verbinding, proxyserver</A><BR> 
+<A HREF="wince.htm#refresh">Vernieuwen, opdracht</A><BR> 
+<A HREF="wince.htm#go_to_the_next_page">Volgende, opdracht van Pocket Internet Explorer</A><BR> 
+<A HREF="wince.htm#go_to_the_previous_folder">Volgende, opdracht van Windows Explorer</A><BR> 
+<A HREF="wince.htm#go_to_the_next_page">Vorige, opdracht van Pocket Internet Explorer</A><BR> 
+<A HREF="wince.htm#go_to_the_previous_folder">Vorige, opdracht van Windows Verkenner</A><BR> 
+<A HREF="wince.htm#go_to_the_next_page">webpagina's, bekijken</A><BR> 
+<A HREF="wince.htm#view_information_about_the_current_page">webpagina's, eigenschappen</A><BR> 
+<A HREF="wince.htm#copy_information_from_an_internet_site_to_a_document">webpagina's, kopi&euml;ren naar een document</A><BR> 
+<A HREF="wince.htm#save_a_copy_of_the_current_page">webpagina's, opslaan</A><BR>
+<A HREF="wince.htm#browse_stored_pages">webpagina's, pagina's in cache bekijken</A><BR> 
+<A HREF="wince.htm#stop_loading_a_page">webpagina's, stoppen met laden</A><BR> 
+<A HREF="wince.htm#refresh">webpagina's, vernieuwen</A><BR> 
+<A HREF="wince.htm#change_the_default_appearance_of_pages">webpagina's, vormgeving</A><BR> 
+<A HREF="wince.htm#display_a_page_in_a_new_window">webpagina's, weergeven in een nieuw venster</A><BR> 
+<A HREF="wince.htm#switch_between_menu_and_toolbar_display">werkbalk, schakelen naar</A><BR> 
+<A HREF="wince.htm#change_home_and_search_page_settings">zoeken, instellingen</A><BR> 
+<A HREF="wince.htm#search_for_an_internet_site">zoeken naar Internet-sites</A> <BR>
+
+
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* -->
+
+<!-- 4/1/98 The following topics do not have direct links.  They are included for context-sensitive help only.  Pocket Office and a few other programs do not have the select and hold context-sensitivity feature.  Future writers may want to check with the developers to see if the situation has changed.  SB -->
+
+
+<!-- ************************Topic Break************************* -->
+
+<P><A NAME="save_as_dialog_box"></A><B>Dialoogvenster Opslaan als</B></P><UL></UL>
+
+<P><B>Bovenliggende map</B><BR> Hiermee gaat u omhoog in de mapstructuur.</P><UL></UL>
+
+<P><B>Nieuwe map maken</B><BR> Voer de gewenste naam in.</P><UL></UL>
+
+<P><B>Lijst</B><BR> Hiermee geeft u mappen en bestanden als pictogrammen weer.</P><UL></UL>
+
+<P><B>Details</B><BR> Hiermee geeft u mappen en bestanden in een lijst weer en worden bestandsdetails weergegeven, zoals de grootte, het type en de datum waarop het bestand het laatst is gewijzigd.</P><UL></UL>
+
+<P><B>Naam</B><BR> Typ een naam voor het bestand. De naam kan een pad bevatten. U kunt bijvoorbeeld een bestand met de naam "MijnBestand" opslaan naar "My Documents" door \My Documents\MijnBestand te typen. </P><UL></UL>
+
+<P><B>Type</B><BR> Selecteer het bestandstype voor het bestand dat u opslaat. De beschikbare typen zijn afhankelijk van het programma dat u gebruikt.</P>
+
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="print_dialog_box"></A><B>Dialoogvenster Afdrukken</B><UL></UL>
+
+
+<P><B>Opmerking</B> De beschikbare opties zijn afhankelijk van het programma dat u gebruikt. Sommige opties zijn niet zichtbaar of zijn uitgeschakeld in bepaalde programma's. Zie de Help-bestanden van de afzonderlijke programma's voor meer informatie over speciale afdrukfuncties.</P><UL></UL>
+
+<P><B>Printer</B><BR> Geeft een lijst met beschikbare printers weer. De printer die u selecteert, blijft de standaardprinter totdat u deze wijzigt.</P><UL></UL>
+
+<P><B>Poort</B><BR> Geeft een lijst met beschikbare printerpoorten weer.</P><UL></UL>
+
+<P><B>Netpad</B><BR> Wanneer u <B>Netwerk</B> hebt geselecteerd in de lijst <B>Poort</B>, voert u het pad naar de netwerkprinter in.</P><UL></UL>
+
+<P><B>Papiergrootte</B><BR> Geeft een lijst met de beschikbare papiergrootten weer.</P><UL></UL>
+
+<P><B>Conceptmodus</B><BR> Hiermee kunt u een document afdrukken met een lagere resolutie. Dit is gewoonlijk sneller.<BR>Deze optie hoeft niet beschikbaar te zijn voor de geselecteerde printer.</P><UL></UL>
+
+<P><B>Kleur</B><BR> Hiermee drukt u af in kleur.</P><UL></UL>
+
+<P><B>Afdrukbereik</B><BR> Hiermee geeft u aan of het gehele document of alleen het geselecteerde gedeelte wordt afgedrukt.</P><UL></UL>
+
+<P><B>Afdrukstand</B><BR> Hier kunt u <B>Staand</B> of <B>Liggend</B> opgeven.</P><UL></UL>
+
+<P><B>Marges</B><BR> Hiermee herstelt u de marges.</P><UL></UL>
+
+
+
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="browse_dialog_box"></A><B>Dialoogvenster Bladeren</B><UL></UL>
+
+<P><B>Bovenliggende map</B><BR> Hiermee gaat u omhoog in de mapstructuur.</P><UL></UL>
+
+<P><B>Nieuwe map maken</B><BR> Hiermee maakt u een nieuwe map. Voer de gewenste naam in.</P><UL></UL>
+
+<P><B>Lijst</B><BR> Hiermee geeft u mappen en bestanden als pictogrammen weer.</P><UL></UL>
+
+<P><B>Details</B><BR> Hiermee geeft u mappen en bestanden in een lijst weer en worden bestandsdetails weergegeven, zoals de grootte, het type en de datum waarop het bestand het laatst is gewijzigd.</P><UL></UL>
+
+<P><B>Naam</B><BR> Hier wordt de naam van de geselecteerde map of het geselecteerde bestand weergegeven.</P><UL></UL>
+
+<P><B>Type</B><BR> Selecteer het bestandstype dat u wilt weergeven. Als u alle bestanden in de huidige map wilt weergeven, selecteert u <B>Alle documenten (*.*)</B>.</P><UL></UL>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="color_dialog_box"></A><B>Dialoogvenster Kleur</B><UL></UL>
+
+<P><B>Basiskleuren</B><BR> Hier worden de beschikbare basiskleuren weergegeven. Als u een aangepaste kleur wilt defini&euml;ren, selecteert u de basiskleur die er het meest op lijkt en selecteert u vervolgens <B>Defini&euml;ren</B>.</P><UL></UL>
+
+<P><B>Aangepaste kleuren</B><BR> Hiermee geeft u alle aangepaste kleuren weer die u hebt gedefinieerd.<BR> Als u de instellingen voor een aangepaste kleur wilt wijzigen, klikt u op een vak met een aangepaste kleur en selecteert u vervolgens een andere kleur.<BR> Als u een nieuwe aangepaste kleur wilt defini&euml;ren, klikt u op een leeg vak, selecteert u een andere kleur en selecteert u vervolgens <B>Toevoegen aan kleuren</B>.</P><UL></UL>
+
+<P><B>Defini&euml;ren</B><BR> Hiermee definieert u een aangepaste kleur. Als deze optie niet beschikbaar is, bekijkt u de aangepaste kleuren al.<BR> Als u een aangepaste kleur wilt defini&euml;ren, maakt u een selectie in de kleurenmatrix of selecteert u de kleur met de instellingen voor tint, intensiteit en helderheid van de definities voor rood, groen en blauw.</P><UL></UL>
+
+<P><B>Toevoegen aan kleuren</B><BR> Hiermee voegt u de gedefinieerde kleur toe.</P><UL></UL>
+
+<P><B>Kleur/Effen</B><BR> Links in dit vak wordt de hoeveelheid wit en zwart in de huidige kleur weergegeven. Rechts in dit vak wordt 100% van de kleur zonder wit en zwart weergegeven. Gebruik de schuifknop rechts als u de instelling wilt aanpassen.<BR> Als u 100% kleur zonder wit of zwart wilt selecteren, typt u ALT+O.<BR> Als u de kleur wilt wijzigen, wijzigt u de waarden die hierna worden beschreven. Of experimenteer met selecteren en slepen naar de kleurenmatrix.</P><UL></UL>
+
+<P><B>Tint</B><BR> De waarde van een kleurenwiel. Rood = 0, Geel = 60, Groen = 120, Cyaan = 180, Magenta = 200 en Blauw = 240.<BR><UL></UL>
+
+<P><B>Intensiteit</B><BR> De hoeveelheid kleur in een bepaalde tint, maximaal 240.</P><UL></UL>
+
+<P><B>Helderheid</B><BR> De helderheid van de kleur. Als u de helderheid wijzigt, veranderen de waarden voor rood, groen en blauw.</P><UL></UL>
+
+<P><B>Rood</B><BR> De hoeveelheid rood in de geselecteerde kleur.</P><UL></UL>
+
+<P><B>Groen</B><BR> De hoeveelheid groen in de geselecteerde kleur.</P><UL></UL>
+
+<P><B>Blauw</B><BR> De hoeveelheid blauw in de geselecteerde kleur.</P><UL></UL>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="font_dialog_box"></A><B>Dialoogvenster Lettertype</B></P><UL></UL>
+
+<P><B>Opmerking</B> De beschikbare opties zijn afhankelijk van het programma dat u gebruikt. Sommige opties zijn niet zichtbaar of zijn uitgeschakeld in bepaalde programma's.</P><UL></UL>
+
+<P><B>Lettertype</B><BR> Hier wordt het huidige lettertype weergegeven. Als u een ander lettertype wilt gebruiken, selecteert u de pijl en selecteert u het gewenste lettertype in de lijst.</P><UL></UL>
+
+<P><B>Grootte</B><BR> Hier wordt de huidige grootte weergegeven. Als u een andere grootte wilt gebruiken, selecteert u de pijl en selecteert u de gewenste grootte in de lijst.</P><UL></UL>
+
+<P><B>Tekenstijl</B><BR> Hiermee maakt u tekst op: vet, cursief, onderstreept of een combinatie van deze mogelijkheden.</P><UL></UL>
+
+<P><B>Kleur</B><BR> Hier wordt de huidige kleur weergegeven als de apparatuur kleur ondersteunt. Als u een andere kleur wilt gebruiken, selecteert u de pijl en selecteert u de gewenste kleur in de lijst.</P><UL></UL>
+
+<P><B>Voorbeeld</B><BR> Hier wordt de tekst weergegeven met de geselecteerde opties.</P><UL></UL>
+
+<P><B>Standaard toepassen</B><BR> Hiermee herstelt u de standaardopmaak en overschrijft u alle wijzigingen die u hebt aangebracht.</P><UL></UL>
+
+<P><B>Als standaard instellen</B><BR> De huidige instellingen worden als standaardinstellingen voor het opmaken van tekst gebruikt en worden toegepast op nieuwe documenten die u maakt.</P><UL></UL>
+
+
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="open_dialog_box"></A><B>Dialoogvenster Openen</B><UL></UL>
+
+<P><B>Bovenliggende map</B><BR> Hiermee gaat u omhoog in de mapstructuur.</P><UL></UL>
+
+<P><B>Nieuwe map maken</B><BR> Hiermee maakt u een nieuwe map. Voer de gewenste naam in.</P><UL></UL>
+
+<P><B>Lijst</B><BR> Hiermee geeft u mappen en bestanden als pictogrammen weer.</P><UL></UL>
+
+<P><B>Details</B><BR> Hiermee geeft u mappen en bestanden in een lijst weer en worden bestandsdetails weergegeven, zoals de grootte, het type en de datum waarop het bestand het laatst is gewijzigd.</P><UL></UL>
+
+<P><B>Naam</B><BR> Hier wordt de naam van de geselecteerde map of het geselecteerde bestand weergegeven.</P><UL></UL>
+
+<P><B>Type</B><BR> Selecteer het bestandstype dat u wilt weergeven. Als u alle bestanden in de huidige map wilt weergeven, selecteert u <B>Alle documenten (*.*)</B>.</P><UL></UL>
+
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="setting_a_password_for_a_document"></A><B>Een wachtwoord instellen voor een bestand</B> <!-- This topic covers a dialog box that is displayed in InkWriter, PWord and PExcel. -->
+
+<OL>
+<LI>Selecteer <B>Bestand</B> > <B>Wachtwoord</B>. <LI>Typ en bevestig het wachtwoord. <LI>U moet het bestand opslaan (<B>Bestand</B> > <B>Opslaan</B>) als u het wachtwoord wilt behouden. </OL>
+
+<P><B>Opmerking</B> U kunt bestanden die met een wachtwoord zijn beveiligd niet synchroniseren. U moet de wachtwoordbeveiliging verwijderen uit het desbetreffende programma op uw pc of apparatuur en vervolgens synchroniseren. Na de synchronisatie kunt u de wachtwoordbeveiliging opnieuw instellen.</P>
+
+
+<BR CLEAR=ALL><!-- PegHelp -->
+
+</BODY>
+</HTML>

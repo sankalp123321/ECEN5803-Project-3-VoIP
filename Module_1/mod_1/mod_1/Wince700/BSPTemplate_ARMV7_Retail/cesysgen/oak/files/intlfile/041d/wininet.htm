@@ -1,0 +1,92 @@
+<!--
+Copyright (c) Microsoft Corporation.  All rights reserved.
+-->
+<!--
+Use of this sample source code is subject to the terms of the Microsoft
+license agreement under which you licensed this sample source code. If
+you did not accept the terms of the license agreement, you are not
+authorized to use this sample source code. For the terms of the license,
+please see the license agreement between you and Microsoft or, if applicable,
+see the LICENSE.RTF on your install media or the root of your tools installation.
+THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+-->
+<html>
+<body>
+ 
+<!-- Main topic --> <a name="certificate_intro"></a> <h2>Certifikat - översikt</h2>
+
+<p>Ett certifikat är en digital kupong som innehåller information om den enhet som presenterar kupongen ifråga. En enhet såsom en webbserver kan ha ett certifikat och det certifikatet innehåller information om den webbservern. Giltiga certifikat signeras av en certifikatutfärdare och dessa certifikat innehåller information om vem som auktoriserade certifikatet, dess offentliga nycklar och förfallodatum. </p>
+
+<p>När du är ansluten till Internet är det viktigt för dig att kunna lita på certifieringen för de webbplatser som du besöker. Webbplatser som inte är tillförlitliga eller rätt certifierade kan innebära en risk för den information som finns lagrad på enheten. Om du är osäker kan du visa webbservercertifikatet från din enhet och besluta dig för huruvida du vill besöka webbplatsen eller ej. </p>
+
+<p>Din enhets säkerhets- och sekretessfunktioner hjälper till att skydda din anonymitet och att se till att din personliga information är säker. Med dessa sekretessfunktioner kan du skydda din personligt identifierbara information (PII). Funktionerna hjälper dig att styra hur de webbplatser som du besöker kan använda din personligt identifierbara information. Med de sekretesskontroller som finns på din enhet kan du också ange sekretessinställningar som avgör vilken information som delas när du besöker en webbplats och vilken information som kan sparas till din enhet när du besöker en webbplats.</p>
+
+ 
+<!-- Sub topic --> <a name="certificates"></a> <h2>Klientcertifikat</h2>
+
+<p>Ett klientcertifikat är ett digitalt uttalande som verifierar identiteten för en användare eller enhet, såsom en PC. Klientcertifikat utfärdas i syfte att etablera identitet och för att tillhandahålla en hög verifierings- och säkerhetsnivå för information som utbyts genom att använda en rad olika enheter. Vissa webbplatser kräver att du identifierar dig genom att använda klientcertifikat. När du skickar ett klientcertifikat till en annan dator använder du offentliga och privata nycklar som ger dig möjlighet att dela data med den enheten på ett säkert sätt. Dessutom hjälper offentliga och privata nycklar dig också att förhindra ej auktoriserade användare att nå din enhet och dess information.</p>
+
+<p>Följande lista visar den information som finns i certifikat:</p>
+
+
+<ul>
+<li>Ämnets offentliga nyckelvärde och identifierarinformation</li>
+<li>Utfärdarens identifierarinformation</li>
+<li>Giltighetsperioden</li>
+<li>Utfärdarens digitala signatur</li>
+</ul>
+
+<p>Ämnet är den enhet som tar emot certifikatet, den som utfärdar certifikatet är certifikatutfärdaren.</p>
+
+<h3>Personliga certifikat och rotcertifikat</h3>
+
+<p>Du kan lagra två typer av certifikat på enheten: personliga certifikat som etablerar din identitet och rotcertifikat som etablerar webbservrarnas identitet. När du exempelvis skickar personlig information över Internet verifierar ett personligt certifikat dig för den webbplats som du besöker, samtidigt som ett rotcertifikat hjälper till att skydda din personliga information när du besöker webbplatsen.</p>
+
+ 
+<!-- Sub topic --> <a name="privacy"></a> <h2>Sekretess - översikt</h2>
+
+<p>Med din enhets sekretessfunktioner kan du skydda din personligt identifierbara information (PII). Sekretessfunktionerna hjälper dig att styra hur de webbplatser som du besöker använder din personligt identifierbara information. Med dessa funktioner kan du ange sekretessinställningar som avgör huruvida du vill tillåta webbplatser att spara information eller ej på PC:n. Ett exempel är så kallade cookies.</p>
+
+<h3>Cookies</h3>
+
+<p>Varje gång du besöker en webbplats lagrar den webbplatsen en liten fil som kallas för en cookie på din PC. Webbplatsen skapar cookies i syfte att lagra information såsom de önskemål du har när du besöker den webbplatsen. Vissa cookies innehåller en post över de webbsidor som du visat inom den webbplats som du besökt. På så sätt kan webbplatsen anpassa vyn åt dig nästa gång du besöker den webbplatsen. </p>
+
+<p>Cookies kan dessutom lagra personligt identifierbar information såsom ditt namn, din e-postadress, hem- eller arbetsadress eller ditt telefonnummer. En webbplats har dock bara åtkomst till den personligt identifierbara information som du förser den med.</p>
+
+<p>Följande lista visar vilka sekretessfunktioner som finns på din enhet:</p>
+
+<ul>
+<li>Sekretessinställningar som anger hur datorn hanterar cookies</li> 
+<li>Sekretessvarningar som talar om när du försöker få åtkomst till en plats som inte uppfyller kriterierna i dina sekretessinställningar</li> 
+<li>Möjligheten att visa en webbplats P3P-sekretesspolicy</li>
+</ul>
+
+<p>Du kan använda din enhets sekretessfunktioner till att begränsa användningen av cookies. Men eftersom många program är beroende av den information som finns i cookies är det inte alltid den bästa lösningen att avaktivera cookies helt och hållet. </p>
+
+<h3>Förstapartsinnehåll jämfört med tredjepartsinnehåll</h3>
+
+<p>Förstapartsinnehåll omfattar information som är associerad med värddomänen eller med den webbplats som du besöker. Tredjepartsinnehåll kan ha sitt ursprung från vilken annan domän som helst. När du exempelvis besöker en webbplats som innehåller en webbannons anses den webbplats som du besöker vara förstapartsinnehåll medan webbannonser anses vara tredjepartsinnehåll.</p>
+
+<p>Många kommersiella webbsidor använder en kombination av första- och tredjepartscookies i syfte att samla ihop och vidaresända data som är relevanta för dessa sidor. Sekretessfunktionerna på din enhet skiljer mellan första- och tredjepartsinnehåll och etablerar ett annorlunda förhållande med förstaparter än vad de gör med tredjeparter. Faktum är att standardinställningarna för tredjepartsinnehålls sekretess är strängare än för förstaparter. Med hjälp av sekretessinställningarna på din Windows Embedded Compact-baserade enhet kan du välja att inte tillåta cookies från tredje part och antingen tillåta cookies från första part eller instruera dessa förstaparter att fråga dig om du vill tillåta dem eller ej.</p>
+
+
+<!-- Sub topic --> <a name="security"></a> <h2>Säkerhet - översikt</h2>
+
+<p>Din enhets säkerhetsfunktioner hjälper till att förhindra andra från att få åtkomst till information som du inte har gett dem behörighet till. Exempel är kreditkortsinformation som du anger när du shoppar på Internet. Säkerhetsfunktionen kan dessutom skydda din PC eller trådlösa enhet från programvara som inte är säker.</p>
+
+<p>Du kan också känna dig säker när du besöker en webbplats som använder HTTPS (Hypertext Transfer Protocol over Secure Socket Layer). HTTPS är ett säkert webbkommunikationsprotokoll som krypterar data som skickas genom denna anslutning eller valfri anslutning som använder HTTPS. Data som krypteras genom att använda HTTPS kan inte brytas in på och förstås av en tredje part.</p>
+
+
+<h3>Säkerhetsvarningar</h3>
+
+<p>Säkerhetsvarningar kan visas av följande anledningar:</p>
+
+<ul>
+<li>Den webbserver som du ansluter till innehåller ett ogiltigt servercertifikat </li>
+<li>Den webbserver som du ansluter till innehåller blandad säkerhet (säkra och osäkra data)</li>
+<li>Du lämnar en säker anslutning.</li>
+</ul>
+
+
+</body>
+</html>

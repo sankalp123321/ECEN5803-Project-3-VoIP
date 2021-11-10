@@ -1,0 +1,499 @@
+ nlslocale
+
+ Timestamp is 5cafa2b2 (Thu Apr 11 13:25:22 2019)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 0000157eH .rdata                  CODE
+ 0001:000015a0 00000026H .rdata$debug            CODE
+ 0001:000015c8 0001050cH .text                   CODE
+ 0001:00011ad4 00000088H .xdata                  CODE
+ 0001:00011b5c 00000014H .idata$2                CODE
+ 0001:00011b70 00000014H .idata$3                CODE
+ 0001:00011b84 000000e0H .idata$4                CODE
+ 0001:00011c64 0000000cH .idata$6                CODE
+ 0001:00011c70 000003a2H .edata                  CODE
+ 0002:00000000 000000e0H .idata$5                DATA
+ 0002:000000e0 0000000cH .data                   DATA
+ 0002:000000ec 00000090H .bss                    DATA
+ 0003:00000000 00000808H .pdata                  DATA
+ 0004:00000000 00001c00H .rsrc$01                DATA
+ 0004:00001c00 0000ed98H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:0000003c       ??_C@_1DI@HFDNKLGP@?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?5?$AAP?$AAa?$AAn?$AAe?$AAl?$AA?2?$AAI?$AAn?$AAt?$AAe?$AAr?$AAn?$AAa?$AAt?$AAi?$AAo?$AAn?$AAa?$AAl?$AA?$AA@ 1000103c     locale.obj
+ 0001:00000074       ??_C@_1CM@BFAMBNFD@?$AA?$CB?$AAx?$AA?9?$AAs?$AAy?$AAs?$AA?9?$AAd?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AA?9?$AAl?$AAo?$AAc?$AAa?$AAl?$AAe?$AA?$AA@ 10001074     locale.obj
+ 0001:000000a0       ??_C@_1GE@KAABDDFJ@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?2?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAS?$AAe?$AAt?$AA?2?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl@ 100010a0     locale.obj
+ 0001:00000104       ??_C@_15KNBIKKIN@?$AA?$CF?$AAd?$AA?$AA@ 10001104     locale.obj
+ 0001:0000010c       ??_C@_1M@CLNBBOPM@?$AAz?$AAh?$AA?9?$AAT?$AAW?$AA?$AA@ 1000110c     locale.obj
+ 0001:00000118       ??_C@_11LOCGONAA@?$AA?$AA@ 10001118     locale.obj
+ 0001:00000120       ??_C@_1GM@GOIOMKOA@?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?5?$AAP?$AAa?$AAn?$AAe?$AAl?$AA?2?$AAI?$AAn?$AAt?$AAe?$AAr?$AAn?$AAa?$AAt?$AAi?$AAo?$AAn?$AAa?$AAl?$AA?2?$AAC?$AAa?$AAl?$AAe@ 10001120     locale.obj
+ 0001:00000190       ??_C@_1KE@IJAEKJDM@?$AAS?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AA?2?$AAP?$AAo?$AAl?$AAi?$AAc?$AAi?$AAe?$AAs?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAC?$AAo?$AAn?$AAt@ 10001190     locale.obj
+ 0001:00000234       ??_C@_1BM@CKEFHKKC@?$AAi?$AAC?$AAa?$AAl?$AAe?$AAn?$AAd?$AAa?$AAr?$AAT?$AAy?$AAp?$AAe?$AA?$AA@ 10001234     locale.obj
+ 0001:00000250       ??_C@_1BI@GBIDBDIF@?$AAs?$AAT?$AAi?$AAm?$AAe?$AAF?$AAo?$AAr?$AAm?$AAa?$AAt?$AA?$AA@ 10001250     locale.obj
+ 0001:00000268       ??_C@_1BG@FDKKJJHG@?$AAs?$AAS?$AAh?$AAo?$AAr?$AAt?$AAT?$AAi?$AAm?$AAe?$AA?$AA@ 10001268     locale.obj
+ 0001:00000280       ??_C@_1BG@IDDIFAHI@?$AAs?$AAS?$AAh?$AAo?$AAr?$AAt?$AAD?$AAa?$AAt?$AAe?$AA?$AA@ 10001280     locale.obj
+ 0001:00000298       ??_C@_1BE@INEJIBGA@?$AAs?$AAL?$AAo?$AAn?$AAg?$AAD?$AAa?$AAt?$AAe?$AA?$AA@ 10001298     locale.obj
+ 0001:000002ac       ??_C@_1BG@BCHDPHMF@?$AAs?$AAY?$AAe?$AAa?$AAr?$AAM?$AAo?$AAn?$AAt?$AAh?$AA?$AA@ 100012ac     locale.obj
+ 0001:000002c4       ??_C@_1BI@PGMDLDHF@?$AA?6?$AA0?$AA1?$AA2?$AA3?$AA4?$AA5?$AA6?$AA7?$AA8?$AA9?$AA?$AA@ 100012c4     locale.obj
+ 0001:000002dc       ??_C@_1CC@IKPEMJKB@?$AAi?$AAF?$AAi?$AAr?$AAs?$AAt?$AAW?$AAe?$AAe?$AAk?$AAO?$AAf?$AAY?$AAe?$AAa?$AAr?$AA?$AA@ 100012dc     locale.obj
+ 0001:00000300       ??_C@_1CA@BHFEBCHP@?$AAi?$AAF?$AAi?$AAr?$AAs?$AAt?$AAD?$AAa?$AAy?$AAO?$AAf?$AAW?$AAe?$AAe?$AAk?$AA?$AA@ 10001300     locale.obj
+ 0001:00000320       ??_C@_1BC@DHBCKFIL@?$AAN?$AAu?$AAm?$AAS?$AAh?$AAa?$AAp?$AAe?$AA?$AA@ 10001320     locale.obj
+ 0001:00000334       ??_C@_1BG@EJPGAAIC@?$AAi?$AAN?$AAe?$AAg?$AAN?$AAu?$AAm?$AAb?$AAe?$AAr?$AA?$AA@ 10001334     locale.obj
+ 0001:0000034c       ??_C@_1BG@ECGECKCC@?$AAi?$AAP?$AAa?$AAp?$AAe?$AAr?$AAS?$AAi?$AAz?$AAe?$AA?$AA@ 1000134c     locale.obj
+ 0001:00000364       ??_C@_17PAACMGPA@?$AA0?$AA3?$AA7?$AA?$AA@ 10001364     locale.obj
+ 0001:0000036c       ??_C@_19EJJGGCFF@?$AAd?$AAf?$AAl?$AAt?$AA?$AA@ 1000136c     locale.obj
+ 0001:00000378       ??_C@_13BGNNJOKC@?50?$AA?$AA@ 10001378     locale.obj
+ 0001:0000037c       ??_C@_1BM@BJIIIMHC@?$AAs?$AAN?$AAe?$AAg?$AAa?$AAt?$AAi?$AAv?$AAe?$AAS?$AAi?$AAg?$AAn?$AA?$AA@ 1000137c     locale.obj
+ 0001:00000398       ??_C@_1BM@LKJGNIEF@?$AAs?$AAP?$AAo?$AAs?$AAi?$AAt?$AAi?$AAv?$AAe?$AAS?$AAi?$AAg?$AAn?$AA?$AA@ 10001398     locale.obj
+ 0001:000003b4       ??_C@_1M@GJCOENDK@?$AAs?$AA2?$AA3?$AA5?$AA9?$AA?$AA@ 100013b4     locale.obj
+ 0001:000003c0       ??_C@_1M@MADMPBEE@?$AAs?$AA1?$AA1?$AA5?$AA9?$AA?$AA@ 100013c0     locale.obj
+ 0001:000003cc       ??_C@_1BC@MLIFGDBH@?$AAi?$AAN?$AAe?$AAg?$AAC?$AAu?$AAr?$AAr?$AA?$AA@ 100013cc     locale.obj
+ 0001:000003e0       ??_C@_1BE@HLCODNEK@?$AAi?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAc?$AAy?$AA?$AA@ 100013e0     locale.obj
+ 0001:000003f4       ??_C@_1BI@KMFAMONH@?$AAi?$AAC?$AAu?$AAr?$AAr?$AAD?$AAi?$AAg?$AAi?$AAt?$AAs?$AA?$AA@ 100013f4     locale.obj
+ 0001:0000040c       ??_C@_1BK@DPHLLBEP@?$AAs?$AAM?$AAo?$AAn?$AAG?$AAr?$AAo?$AAu?$AAp?$AAi?$AAn?$AAg?$AA?$AA@ 1000140c     locale.obj
+ 0001:00000428       ??_C@_1CA@EADILEGO@?$AAs?$AAM?$AAo?$AAn?$AAT?$AAh?$AAo?$AAu?$AAs?$AAa?$AAn?$AAd?$AAS?$AAe?$AAp?$AA?$AA@ 10001428     locale.obj
+ 0001:00000448       ??_C@_1BO@PJHAOMOA@?$AAs?$AAM?$AAo?$AAn?$AAD?$AAe?$AAc?$AAi?$AAm?$AAa?$AAl?$AAS?$AAe?$AAp?$AA?$AA@ 10001448     locale.obj
+ 0001:00000468       ??_C@_1BE@MMPNDGFB@?$AAs?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAc?$AAy?$AA?$AA@ 10001468     locale.obj
+ 0001:0000047c       ??_C@_1BM@NGLHILHI@?$AAs?$AAN?$AAa?$AAt?$AAi?$AAv?$AAe?$AAD?$AAi?$AAg?$AAi?$AAt?$AAs?$AA?$AA@ 1000147c     locale.obj
+ 0001:00000498       ??_C@_1O@CKDEPPOB@?$AAi?$AAL?$AAZ?$AAe?$AAr?$AAo?$AA?$AA@ 10001498     locale.obj
+ 0001:000004a8       ??_C@_1BA@PDGPNLM@?$AAi?$AAD?$AAi?$AAg?$AAi?$AAt?$AAs?$AA?$AA@ 100014a8     locale.obj
+ 0001:000004b8       ??_C@_1BE@FIGGMMFN@?$AAs?$AAG?$AAr?$AAo?$AAu?$AAp?$AAi?$AAn?$AAg?$AA?$AA@ 100014b8     locale.obj
+ 0001:000004cc       ??_C@_1BE@KELAMGMN@?$AAs?$AAT?$AAh?$AAo?$AAu?$AAs?$AAa?$AAn?$AAd?$AA?$AA@ 100014cc     locale.obj
+ 0001:000004e0       ??_C@_1BC@MCLDJCMN@?$AAs?$AAD?$AAe?$AAc?$AAi?$AAm?$AAa?$AAl?$AA?$AA@ 100014e0     locale.obj
+ 0001:000004f4       ??_C@_1BC@KIENJPBL@?$AAi?$AAM?$AAe?$AAa?$AAs?$AAu?$AAr?$AAe?$AA?$AA@ 100014f4     locale.obj
+ 0001:00000508       ??_C@_1M@PFDHHOIO@?$AAs?$AAL?$AAi?$AAs?$AAt?$AA?$AA@ 10001508     locale.obj
+ 0001:00000514       ??_C@_1BC@GNPFBONO@?$AAs?$AAC?$AAo?$AAu?$AAn?$AAt?$AAr?$AAy?$AA?$AA@ 10001514     locale.obj
+ 0001:00000528       ??_C@_1BC@FBNDIHEJ@?$AAi?$AAC?$AAo?$AAu?$AAn?$AAt?$AAr?$AAy?$AA?$AA@ 10001528     locale.obj
+ 0001:0000053c       ??_C@_15EAPNPEJE@QC?$FOt?$AA?$AA@ 1000153c     locale.obj
+ 0001:00000544       ??_C@_15DGELOCF@?$AA1?$FOt?$AA?$AA@ 10001544     locale.obj
+ 0001:0000054c       ??_C@_13NOLLCAOD@?$AA?$AA?$AA?$AA@ 1000154c     locale.obj
+ 0001:00000550       ??_C@_1FI@IFFDAPGE@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?2?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAS?$AAe?$AAt?$AA?2?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl@ 10001550     tables.obj
+ 0001:000005a8       ??_C@_1BG@LNIKIHKG@?$AAl?$AAo?$AAc?$AAa?$AAl?$AAe?$AA?4?$AAn?$AAl?$AAs?$AA?$AA@ 100015a8     tables.obj
+ 0001:000005c0       ??_C@_1BE@JIHFKFIP@?$AA?$CI?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AA?$CJ?$AA?$AA@ 100015c0     tables.obj
+ 0001:000005d4       ??_C@_1BE@IBBOHCDA@?$AA?2?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AA?2?$AA?$AA@ 100015d4     tables.obj
+ 0001:000005e8       ??_C@_1O@EKJBMENL@?$AAL?$AAo?$AAc?$AAa?$AAl?$AAe?$AA?$AA@ 100015e8     tables.obj
+ 0001:000005f8       ??_C@_1BG@IDPMNIFP@?$AAL?$AAo?$AAc?$AAa?$AAl?$AAe?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 100015f8     tables.obj
+ 0001:00000610       ??_C@_19FJDNFBDB@?$AA?4?$AAn?$AAl?$AAx?$AA?$AA@ 10001610     tables.obj
+ 0001:00000620       ??_C@_1GI@JOKDMDMG@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?2?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAS?$AAe?$AAt?$AA?2?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl@ 10001620     tables.obj
+ 0001:00000688       ??_C@_19JMIJHJNO@?$AA?4?$AAn?$AAl?$AAp?$AA?$AA@ 10001688     tables.obj
+ 0001:00000694       ??_C@_15LHNHECKK@?$AA?$CF?$AAx?$AA?$AA@ 10001694     nlsutil.obj
+ 0001:0000069c       ??_C@_19BBJCHFGG@?$AA?$CF?$AAl?$AAl?$AAu?$AA?$AA@ 1000169c     datetime.obj
+ 0001:000006a8       ??_C@_1M@HPNHIDJI@?$AAj?$AAa?$AA?9?$AAJ?$AAP?$AA?$AA@ 100016a8     datetime.obj
+ 0001:0000147c       ?DaysPerYear@@3HB          1000247c     calendar.obj
+ 0001:00001480       ?DaysPer4Years@@3HB        10002480     calendar.obj
+ 0001:00001484       ?DaysPer100Years@@3HB      10002484     calendar.obj
+ 0001:00001488       ?DaysPer400Years@@3HB      10002488     calendar.obj
+ 0001:00001490       ??_C@_1HK@FGDAIDEH@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?2?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAS?$AAe?$AAt?$AA?2?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl@ 10002490     erasfromreg.obj
+ 0001:00001510       ??_C@_1HA@IENKLJNI@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?2?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAS?$AAe?$AAt?$AA?2?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl@ 10002510     erasfromreg.obj
+ 0001:00001580       ??_C@_1BO@OJANDDEL@?$AAI?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAE?$AAr?$AAa?$AAY?$AAe?$AAa?$AAr?$AA?$AA@ 10002580     erasfromreg.obj
+ 0001:000015c8       ?NlsIsUserDefaultLocale@@YAHPAUloc_hash_s@@@Z 100025c8 f i locale.obj
+ 0001:00001608       ?GetUserSettingKey@@YAPAUHKEY__@@XZ 10002608 f i locale.obj
+ 0001:00001674       ?NlsConvertStringToIntegerW@@YAHPBGIHPAI@Z 10002674 f i locale.obj
+ 0001:00001764       InternalGetUserDefaultLocaleName 10002764 f   locale.obj
+ 0001:000017e4       InternalGetSystemDefaultLocaleName 100027e4 f   locale.obj
+ 0001:00001860       InternalIsValidLocaleName  10002860 f   locale.obj
+ 0001:000018b8       ?Internal_EnumSystemLocales@@YAHP6AHPAGKJ@ZKJ@Z 100028b8 f   locale.obj
+ 0001:00001c2c       ?IsValidCalendarType@@YAGPAUloc_hash_s@@K@Z 10002c2c f   locale.obj
+ 0001:00001c70       ?ParseUIntDownTempBuffer@@YAPAGKPAGI@Z 10002c70 f i locale.obj
+ 0001:00001cdc       ?GetTwoDigitYearInfo@@YAHKPAGI0@Z 10002cdc f   locale.obj
+ 0001:00001e2c       ?GetCalendar@@YAPAUCalendarNlsDataItems@@PAUloc_hash_s@@K@Z 10002e2c f   locale.obj
+ 0001:00001e9c       ?GetPtrCalData@@YAPAUCalendarEraDataItems@@KPAGPAKG@Z 10002e9c f   locale.obj
+ 0001:00001ecc       ?GetPtrCalDataArray@@YAPAKKPAGK@Z 10002ecc f   locale.obj
+ 0001:00001f14       ?GetEraNameCountedString@@YAPAGKPAUCalendarNlsDataItems@@HH@Z 10002f14 f   locale.obj
+ 0001:00002008       ?GetCurrentJaEraIndex@@YAGXZ 10003008 f   locale.obj
+ 0001:000020bc       ?Internal_EnumCalendarInfo@@YAHP6AHPAX@ZPAUloc_hash_s@@KKJ@Z 100030bc f   locale.obj
+ 0001:00002a30       ?GetUserInfoWord@@YAHPAUloc_hash_s@@PBGPAG@Z 10003a30 f   locale.obj
+ 0001:00002b78       ?GetUserInfoHelper@@YAHPBGPAGIH@Z 10003b78 f   locale.obj
+ 0001:00002c58       ?GetUserInfo@@YAHPAUloc_hash_s@@PBGPAGIH@Z 10003c58 f   locale.obj
+ 0001:00002cac       ?EnumDateTime@@YAHP6AHPAX@ZKPBGPAUloc_hash_s@@KHHJ@Z 10003cac f   locale.obj
+ 0001:00002f88       ?Internal_EnumTimeFormats@@YAHP6AHPAX@ZPAUloc_hash_s@@KJ@Z 10003f88 f   locale.obj
+ 0001:00003000       ?Internal_EnumDateFormats@@YAHP6AHPAX@ZPAUloc_hash_s@@KHJ@Z 10004000 f   locale.obj
+ 0001:000030fc       ?GetFallbackLanguageName@@YAPAGPAUloc_hash_s@@@Z 100040fc f   locale.obj
+ 0001:00003130       ?GetFallbackDisplayName@@YAPAGPAUloc_hash_s@@@Z 10004130 f   locale.obj
+ 0001:00003164       ?GetFallbackRegionDisplayName@@YAPAGPAUloc_hash_s@@@Z 10004164 f   locale.obj
+ 0001:00003198       ?GetLocaleInfoNativeDigits@@YAPAGPAULocaleNlsDataItems@@PAG1I@Z 10004198 f   locale.obj
+ 0001:00003218       ?GetIDATE@@YAGQAUNlsCountedString@@@Z 10004218 f   locale.obj
+ 0001:000032f0       ?GetStringTableEntry@@YAHIPAGHH@Z 100042f0 f   locale.obj
+ 0001:00003404       InternalResolveLocaleName  10004404 f   locale.obj
+ 0001:00003590       InternalEnumDateFormatsExEx 10004590 f   locale.obj
+ 0001:000035d8       InternalEnumTimeFormatsEx  100045d8 f   locale.obj
+ 0001:00003614       InternalEnumCalendarInfoExEx 10004614 f   locale.obj
+ 0001:0000367c       InternalEnumSystemLocalesEx 1000467c f   locale.obj
+ 0001:000036a0       InternalLocaleNameToLCID   100046a0 f   locale.obj
+ 0001:00003710       InternalLCIDToLocaleName   10004710 f   locale.obj
+ 0001:000037fc       ?GetPtrCalDataByEra@@YAPAUCalendarEraDataItems@@KPAGKG@Z 100047fc f   locale.obj
+ 0001:00003874       ?GetLocaleInfoHelper@@YAHPAUloc_hash_s@@KPAGH@Z 10004874 f   locale.obj
+ 0001:00005a64       ?GetCalendarInfoWorker@@YAHPAUloc_hash_s@@KPBGKPAGHPAK@Z 10006a64 f   locale.obj
+ 0001:000063c4       InternalGetCalendarInfoEx  100073c4 f   locale.obj
+ 0001:00006448       InternalGetLocaleInfoEx    10007448 f   locale.obj
+ 0001:000064a8       ?GetSystemLocaleKey@@YAPAUHKEY__@@XZ 100074a8 f i tables.obj
+ 0001:00006514       ?AllocLocHashTables@@YAHXZ 10007514 f   tables.obj
+ 0001:00006568       ?GetLocaleFileMappingAddress@@YAHPAPAXPAUHINSTANCE__@@@Z 10007568 f   tables.obj
+ 0001:000066f0       ?GetLocaleFileInfo@@YAXPAE@Z 100076f0 f   tables.obj
+ 0001:00006788       ?SetupMainNlsFiles@@YAHPAUHINSTANCE__@@@Z 10007788 f   tables.obj
+ 0001:000067c8       NlsProcessCleanup          100077c8 f   tables.obj
+ 0001:00006848       ?NlsGetSystemDefaultHashNode@@YAPAUloc_hash_s@@XZ 10007848 f   tables.obj
+ 0001:00006988       ?GetNameHashValue@@YAHPBG@Z 10007988 f i tables.obj
+ 0001:000069d4       ?NlsCompareInvariantNoCase@@YAHPBG0HH@Z 100079d4 f   tables.obj
+ 0001:00006a84       ?InsertLocaleHashNode@@YAPAUloc_hash_s@@PAU1@@Z 10007a84 f   tables.obj
+ 0001:00006b2c       ?MakeLocHashNodeFromSystemLocale@@YAPAUloc_hash_s@@PAULocaleNlsDataItems@@KG@Z 10007b2c f   tables.obj
+ 0001:00006c34       ?LocaleNameIsSafe@@YAHPBG@Z 10007c34 f   tables.obj
+ 0001:00006ca4       ?ValidateLocaleRegistryKey@@YAHPBGPAGPAEK@Z 10007ca4 f   tables.obj
+ 0001:00006d2c       ?GetNTFileName@@YAHPBGPAGK@Z 10007d2c f   tables.obj
+ 0001:00006d7c       ?NlsCreateDataFile@@YAHPAPAXPAG@Z 10007d7c f i tables.obj
+ 0001:00006dd4       ?CreateAndMapFileSection@@YAPAEPAGPAT_LARGE_INTEGER@@@Z 10007dd4 f   tables.obj
+ 0001:00006eac       ?CheckAndGetTheString@@YAPAGPAGKK0@Z 10007eac f i tables.obj
+ 0001:00006f00       ?ValidateString@@YAHPAGKK@Z 10007f00 f i tables.obj
+ 0001:00006f48       ?ValidateUintArray@@YAHPAGKK@Z 10007f48 f i tables.obj
+ 0001:00006fa8       ?ValidateStringArray@@YAHPAGKK@Z 10007fa8 f i tables.obj
+ 0001:0000701c       ?FindNamedLocaleHashNode@@YAPAUloc_hash_s@@PBG@Z 1000801c f i tables.obj
+ 0001:000070b8       ?NlsGetUserDefaultHashNode@@YAPAUloc_hash_s@@XZ 100080b8 f   tables.obj
+ 0001:00007170       ?GetWindowsLocaleDataByName@@YAPAULocaleNlsDataItems@@PBGPAK@Z 10008170 f i tables.obj
+ 0001:00007228       ?ValidateLocaleFile@@YAHPAEPBGPAT_LARGE_INTEGER@@@Z 10008228 f   tables.obj
+ 0001:00007aec       ?MakeNamedLocaleHashNode@@YAPAUloc_hash_s@@PBGG@Z 10008aec f   tables.obj
+ 0001:00007ef8       GetNamedLocaleHashNode     10008ef8 f   tables.obj
+ 0001:00007f6c       ?InternalLcidToName@@YAPBGK@Z 10008f6c f   tables.obj
+ 0001:00008034       ?PreLoadInstalledHashNode@@YAXXZ 10009034 f   tables.obj
+ 0001:00008098       NlsProcessInitialize       10009098 f   tables.obj
+ 0001:0000817c       ?NlsConvertIntegerToString@@YAHIIIPAGI@Z 1000917c f   nlsutil.obj
+ 0001:000082b0       ?NlsStrLenW@@YAHPBG@Z      100092b0 f   nlsutil.obj
+ 0001:00008388       ?NlsStrEqualW@@YAHPBG0@Z   10009388 f   nlsutil.obj
+ 0001:00008464       DllMain                    10009464 f   localedll.obj
+ 0001:000084a8       ?NlsConvertGroupingStringToUINT@@YAIPAG@Z 100094a8 f i number.obj
+ 0001:00008514       ?IsValidNumberFormat@@YAHPBU_numberfmtW@@@Z 10009514 f   number.obj
+ 0001:000085ac       ?IsValidCurrencyFormat@@YAHPBU_currencyfmtW@@@Z 100095ac f   number.obj
+ 0001:00008670       ?ConvertGroupingWordsToInt@@YAIPAG@Z 10009670 f   number.obj
+ 0001:000086bc       ?GetNumberString@@YAHPAUloc_hash_s@@PAGPAU_numberfmtW@@PAPAGHPAH4H@Z 100096bc f   number.obj
+ 0001:00008c50       ?DoFormatNumber@@YAHPAUloc_hash_s@@HPAGPAU_numberfmtW@@PAPAGHPAHH@Z 10009c50 f   number.obj
+ 0001:00008e4c       ?DoFormatCurrency@@YAHPAUloc_hash_s@@HPAGPAU_currencyfmtW@@PAPAGHPAHH@Z 10009e4c f   number.obj
+ 0001:000094a0       ?GetNumberFormatWorker@@YAHPAUloc_hash_s@@KPBGPBU_numberfmtW@@PAGH@Z 1000a4a0 f   number.obj
+ 0001:000097d0       InternalGetNumberFormatEx  1000a7d0 f   number.obj
+ 0001:00009864       ?GetCurrencyFormatWorker@@YAHPAUloc_hash_s@@KPBGPBU_currencyfmtW@@PAGH@Z 1000a864 f   number.obj
+ 0001:00009c10       InternalGetCurrencyFormatEx 1000ac10 f   number.obj
+ 0001:00009c9c       ?IsValidSeparatorString@@YAHPBGKH@Z 1000ac9c f   util.obj
+ 0001:00009cf8       ?NlsGregorianLeapYear@@YAHI@Z 1000acf8 f i datetime.obj
+ 0001:00009d4c       ?IsHebrewCustomLocale@@YAHPAUloc_hash_s@@@Z 1000ad4c f i datetime.obj
+ 0001:00009d9c       ?NlsPadIntToUnicodeString@@YAHKKIPAPAGPAI@Z 1000ad9c f i datetime.obj
+ 0001:00009e2c       ?NlsPadInt64ToUnicodeStr@@YAH_KIHPAGH@Z 1000ae2c f i datetime.obj
+ 0001:00009f94       ?NlsInsertBidiMark@@YAHPAPAGKPAI@Z 1000af94 f i datetime.obj
+ 0001:00009fe8       ?IsValidTime@@YAHPAU_SYSTEMTIME@@@Z 1000afe8 f   datetime.obj
+ 0001:0000a024       ?IsValidDate@@YAHPAU_SYSTEMTIME@@@Z 1000b024 f   datetime.obj
+ 0001:0000a0a4       ?IsValidDate@@YAHGGG@Z     1000b0a4 f   datetime.obj
+ 0001:0000a108       ?GetCalendarYear@@YAGPAPAUCalendarEraDataItems@@PAGKQAUCalendarNlsDataItems@@QAGGGG@Z 1000b108 f   datetime.obj
+ 0001:0000a270       ?DoFormatDuration@@YAH_KPBGPAGH@Z 1000b270 f   datetime.obj
+ 0001:0000a58c       ?DoFormatTime@@YAHPAUloc_hash_s@@PAU_SYSTEMTIME@@PAG2K@Z 1000b58c f   datetime.obj
+ 0001:0000ac00       ?MachinePrefersNumericFirstYear@@YAHXZ 1000bc00 f   datetime.obj
+ 0001:0000aca0       ?GetUmAlQuraDate@@YAHPAU_SYSTEMTIME@@@Z 1000bca0 f   datetime.obj
+ 0001:0000ad00       ?GetHijriDate@@YAHPAU_SYSTEMTIME@@K@Z 1000bd00 f   datetime.obj
+ 0001:0000ad50       ?GetHebrewDate@@YAHPAU_SYSTEMTIME@@PAH@Z 1000bd50 f   datetime.obj
+ 0001:0000adb8       ?NumberToHebrewLetter@@YAHKPAGH@Z 1000bdb8 f   datetime.obj
+ 0001:0000b078       ?GetDurationFormatWorker@@YAHPAUloc_hash_s@@KPBU_SYSTEMTIME@@_KPBGPAGH@Z 1000c078 f   datetime.obj
+ 0001:0000b170       InternalGetDurationFormatEx 1000c170 f   datetime.obj
+ 0001:0000b244       ?GetTimeFormatWorker@@YAHPAUloc_hash_s@@KPBU_SYSTEMTIME@@PBGPAGH@Z 1000c244 f   datetime.obj
+ 0001:0000b3f8       InternalGetTimeFormatEx    1000c3f8 f   datetime.obj
+ 0001:0000b4b8       ?DoFormatDate@@YAHPAUloc_hash_s@@KPAU_SYSTEMTIME@@PAG2KPAUCalendarNlsDataItems@@HIH@Z 1000c4b8 f   datetime.obj
+ 0001:0000bdfc       ?GetDateFormatWorker@@YAHPAUloc_hash_s@@KPBU_SYSTEMTIME@@PBGPAGHK@Z 1000cdfc f   datetime.obj
+ 0001:0000c2ec       InternalGetDateFormatEx    1000d2ec f   datetime.obj
+ 0001:0000c430       ?LargeIntegerDivide@@YA?AT_LARGE_INTEGER@@T1@0@Z 1000d430 f   time.obj
+ 0001:0000c4b4       ?ElapsedDaysToYears@@YAKK@Z 1000d4b4 f   time.obj
+ 0001:0000c54c       ?TimeFieldsToTime@@YA_NPAU_TIME_FIELDS@@PAT_LARGE_INTEGER@@@Z 1000d54c f   time.obj
+ 0001:0000c754       ?TimeToTimeFields@@YAXPAT_LARGE_INTEGER@@PAU_TIME_FIELDS@@@Z 1000d754 f   time.obj
+ 0001:0000c91c       ?GetGregorianSupportedDateRange@@YAHPAUCALDATETIME@@0@Z 1000d91c f   gregorian.obj
+ 0001:0000c98c       ?IsValidGregorianTime@@YAHQAUCALDATETIME@@PAI@Z 1000d98c f   gregorian.obj
+ 0001:0000c9e0       ?IsValidGregorianYear@@YAHII@Z 1000d9e0 f   gregorian.obj
+ 0001:0000ca14       ?GetGregorianMonthsInYear@@YAIII@Z 1000da14 f   gregorian.obj
+ 0001:0000ca2c       ?IsGregorianLeapYear@@YAHII@Z 1000da2c f   gregorian.obj
+ 0001:0000ca98       ?GetAbsoluteDateFromGregorian@@YAKIII@Z 1000da98 f   gregorian.obj
+ 0001:0000cb8c       ?ConvertGregorianDateTimeToSystemTime@@YAHQAUCALDATETIME@@PAU_SYSTEMTIME@@@Z 1000db8c f   gregorian.obj
+ 0001:0000cc0c       ?GetGregorianDifferenceInDays@@YAHQAUCALDATETIME@@0@Z 1000dc0c f   gregorian.obj
+ 0001:0000cc40       ?GetGregorianWeekOfYearFullDays@@YAIQAUCALDATETIME@@IHI@Z 1000dc40 f   gregorian.obj
+ 0001:0000cdcc       ?GetGregorianDaysInMonth@@YAIIII@Z 1000ddcc f   gregorian.obj
+ 0001:0000ce30       ?IsValidGregorianMonthAndDay@@YAHIIIPAI@Z 1000de30 f   gregorian.obj
+ 0001:0000ce90       ?GetGregorianDayOfYear@@YAIQAUCALDATETIME@@@Z 1000de90 f   gregorian.obj
+ 0001:0000cecc       ?GetGregorianDayOfWeekHelper@@YAHQAUCALDATETIME@@@Z 1000decc f   gregorian.obj
+ 0001:0000cf14       ?GetGregorianDaysInYear@@YAIII@Z 1000df14 f   gregorian.obj
+ 0001:0000cf4c       ?IsValidGregorianDateTime@@YAHQAUCALDATETIME@@PAIH@Z 1000df4c f   gregorian.obj
+ 0001:0000cff0       ?UpdateGregorianDayOfWeek@@YAHPAUCALDATETIME@@@Z 1000dff0 f   gregorian.obj
+ 0001:0000d034       ?ConvertSystemTimeToGregorianDateTime@@YAHPBU_SYSTEMTIME@@KPAUCALDATETIME@@@Z 1000e034 f   gregorian.obj
+ 0001:0000d0e4       ?GetGregorianFromAbsoluteDate@@YAHKPAUCALDATETIME@@@Z 1000e0e4 f   gregorian.obj
+ 0001:0000d2cc       ?AdjustGregorianDays@@YAHPAUCALDATETIME@@H@Z 1000e2cc f   gregorian.obj
+ 0001:0000d36c       ?GetHebrewSupportedDateRange@@YAHPAUCALDATETIME@@0@Z 1000e36c f   hebrew.obj
+ 0001:0000d3e4       ?GetHebrewDaysInYear@@YAIII@Z 1000e3e4 f   hebrew.obj
+ 0001:0000d43c       ?IsHebrewLeapYear@@YAHII@Z 1000e43c f   hebrew.obj
+ 0001:0000d4b4       ?GetHebrewMonthsInYear@@YAIII@Z 1000e4b4 f   hebrew.obj
+ 0001:0000d4fc       ?GetLunarMonthDay@@YAIIPAUCALDATETIME@@@Z 1000e4fc f   hebrew.obj
+ 0001:0000d5a0       ?GetDayDifference@@YAHIIIII@Z 1000e5a0 f   hebrew.obj
+ 0001:0000d62c       ?HebrewToGregorian@@YAHPAUCALDATETIME@@@Z 1000e62c f   hebrew.obj
+ 0001:0000d714       ?GregorianToHebrew@@YAHPAUCALDATETIME@@@Z 1000e714 f   hebrew.obj
+ 0001:0000d8b0       ?IsValidHebrewMonth@@YAHIII@Z 1000e8b0 f   hebrew.obj
+ 0001:0000d908       ?GetHebrewDaysInMonth@@YAIIII@Z 1000e908 f   hebrew.obj
+ 0001:0000d94c       ?HebrewToAbsolute@@YAKQAUCALDATETIME@@@Z 1000e94c f   hebrew.obj
+ 0001:0000d998       ?AbsoluteToHebrew@@YAHKPAUCALDATETIME@@@Z 1000e998 f   hebrew.obj
+ 0001:0000d9fc       ?ConvertHebrewDateTimeToSystemTime@@YAHQAUCALDATETIME@@PAU_SYSTEMTIME@@@Z 1000e9fc f   hebrew.obj
+ 0001:0000da50       ?ConvertSystemTimeToHebrewDateTime@@YAHPBU_SYSTEMTIME@@PAUCALDATETIME@@@Z 1000ea50 f   hebrew.obj
+ 0001:0000daa8       ?IsValidHebrewDay@@YAHIIII@Z 1000eaa8 f   hebrew.obj
+ 0001:0000daf4       ?GetHebrewDayOfWeekHelper@@YAIQAUCALDATETIME@@@Z 1000eaf4 f   hebrew.obj
+ 0001:0000db24       ?IsValidHebrewDateTime@@YAHQAUCALDATETIME@@PAIH@Z 1000eb24 f   hebrew.obj
+ 0001:0000dbc4       ?GetHebrewDayOfYear@@YAIQAUCALDATETIME@@@Z 1000ebc4 f   hebrew.obj
+ 0001:0000dc40       ?UpdateHebrewDayOfWeek@@YAHQAUCALDATETIME@@@Z 1000ec40 f   hebrew.obj
+ 0001:0000dc74       ?AdjustHebrewDays@@YAHPAUCALDATETIME@@H@Z 1000ec74 f   hebrew.obj
+ 0001:0000dcc4       ?AdjustHebrewYears@@YAHPAUCALDATETIME@@H@Z 1000ecc4 f   hebrew.obj
+ 0001:0000dd48       ?AdjustHebrewMonths@@YAHPAUCALDATETIME@@H@Z 1000ed48 f   hebrew.obj
+ 0001:0000de50       ?GetUmAlQuraSupportedDateRange@@YAHPAUCALDATETIME@@0@Z 1000ee50 f   umalquara.obj
+ 0001:0000dec4       ?IsValidUmAlQuraMonth@@YAHIII@Z 1000eec4 f   umalquara.obj
+ 0001:0000df04       ?GetUmAlQuraDaysInMonth@@YAIIII@Z 1000ef04 f   umalquara.obj
+ 0001:0000df4c       ?GetUmAlQuraDaysInYearHelper@@YAII@Z 1000ef4c f   umalquara.obj
+ 0001:0000df90       ?GetUmAlQuraDaysInYear@@YAIII@Z 1000ef90 f   umalquara.obj
+ 0001:0000dfc8       ?GregorianToUmAlQura@@YAHPAUCALDATETIME@@@Z 1000efc8 f   umalquara.obj
+ 0001:0000e14c       ?UmAlQuraToGregorian@@YAHPAUCALDATETIME@@@Z 1000f14c f   umalquara.obj
+ 0001:0000e240       ?ConvertUmAlQuraDateTimeToSystemTime@@YAHQAUCALDATETIME@@PAU_SYSTEMTIME@@@Z 1000f240 f   umalquara.obj
+ 0001:0000e294       ?ConvertSystemTimeToUmAlQuraDateTime@@YAHPBU_SYSTEMTIME@@PAUCALDATETIME@@@Z 1000f294 f   umalquara.obj
+ 0001:0000e2ec       ?GetUmAlQuraMonthsInYear@@YAIII@Z 1000f2ec f   umalquara.obj
+ 0001:0000e324       ?IsValidUmAlQuraDay@@YAHIIII@Z 1000f324 f   umalquara.obj
+ 0001:0000e370       ?UmAlQuraToAbsolute@@YAKQAUCALDATETIME@@@Z 1000f370 f   umalquara.obj
+ 0001:0000e3b8       ?AbsoluteToUmAlQura@@YAHKPAUCALDATETIME@@@Z 1000f3b8 f   umalquara.obj
+ 0001:0000e41c       ?GetUmAlQuraDayOfWeekHelper@@YAIQAUCALDATETIME@@@Z 1000f41c f   umalquara.obj
+ 0001:0000e44c       ?IsValidUmAlQuraDateTime@@YAHQAUCALDATETIME@@PAIH@Z 1000f44c f   umalquara.obj
+ 0001:0000e4ec       ?UpdateUmAlQuraDayOfWeek@@YAHQAUCALDATETIME@@@Z 1000f4ec f   umalquara.obj
+ 0001:0000e520       ?AdjustUmAlQuraDays@@YAHPAUCALDATETIME@@H@Z 1000f520 f   umalquara.obj
+ 0001:0000e56c       ?AdjustUmAlQuraMonths@@YAHPAUCALDATETIME@@H@Z 1000f56c f   umalquara.obj
+ 0001:0000e64c       ?GetUmAlQuraDayOfYear@@YAIQAUCALDATETIME@@@Z 1000f64c f   umalquara.obj
+ 0001:0000e6d0       ?AdjustUmAlQuraYears@@YAHPAUCALDATETIME@@H@Z 1000f6d0 f   umalquara.obj
+ 0001:0000e6dc       ?GetHijriSupportedDateRange@@YAHPAUCALDATETIME@@0@Z 1000f6dc f   hijri.obj
+ 0001:0000e750       ?IsValidHijriMonth@@YAHIII@Z 1000f750 f   hijri.obj
+ 0001:0000e7b4       ?GetAdvanceHijriDate@@YAJK@Z 1000f7b4 f   hijri.obj
+ 0001:0000e888       ?DaysUpToHijriYear@@YAKK@Z 1000f888 f   hijri.obj
+ 0001:0000e914       ?IsHijriLeapYear@@YAHII@Z  1000f914 f   hijri.obj
+ 0001:0000e984       ?HijriToAbsolute@@YAKQAUCALDATETIME@@@Z 1000f984 f   hijri.obj
+ 0001:0000e9cc       ?ConvertHijriDateTimeToSystemTime@@YAHQAUCALDATETIME@@PAU_SYSTEMTIME@@@Z 1000f9cc f   hijri.obj
+ 0001:0000ea38       ?GetHijriMonthsInYear@@YAIII@Z 1000fa38 f   hijri.obj
+ 0001:0000ea70       ?GetHijriDayOfWeekHelper@@YAIQAUCALDATETIME@@@Z 1000fa70 f   hijri.obj
+ 0001:0000eaa0       ?GetHijriDaysInMonth@@YAIIII@Z 1000faa0 f   hijri.obj
+ 0001:0000eaf8       ?GetHijriDaysInYear@@YAIII@Z 1000faf8 f   hijri.obj
+ 0001:0000eb40       ?AbsoluteToHijri@@YAHKPAUCALDATETIME@@K@Z 1000fb40 f   hijri.obj
+ 0001:0000ec84       ?ConvertSystemTimeToHijriDateTimeEx@@YAHPBU_SYSTEMTIME@@PAUCALDATETIME@@K@Z 1000fc84 f   hijri.obj
+ 0001:0000ed00       ?ConvertSystemTimeToHijriDateTime@@YAHPBU_SYSTEMTIME@@PAUCALDATETIME@@@Z 1000fd00 f   hijri.obj
+ 0001:0000ed08       ?AdjustHijriMonths@@YAHPAUCALDATETIME@@H@Z 1000fd08 f   hijri.obj
+ 0001:0000ee0c       ?IsValidHijriDay@@YAHIIII@Z 1000fe0c f   hijri.obj
+ 0001:0000ee58       ?IsValidHijriDateTime@@YAHQAUCALDATETIME@@PAIH@Z 1000fe58 f   hijri.obj
+ 0001:0000eef8       ?GetHijriDayOfYear@@YAIQAUCALDATETIME@@@Z 1000fef8 f   hijri.obj
+ 0001:0000ef64       ?UpdateHijriDayOfWeek@@YAHQAUCALDATETIME@@@Z 1000ff64 f   hijri.obj
+ 0001:0000ef98       ?AdjustHijriDays@@YAHPAUCALDATETIME@@H@Z 1000ff98 f   hijri.obj
+ 0001:0000efe4       ?AdjustHijriYears@@YAHPAUCALDATETIME@@H@Z 1000ffe4 f   hijri.obj
+ 0001:0000eff0       GetCalendarDaysInMonth     1000fff0 f   calendar.obj
+ 0001:0000f0bc       ?IsValidCalDateTime@@YAHQAUCALDATETIME@@PAI@Z 100100bc f   calendar.obj
+ 0001:0000f194       InternalUpdateCalendarDayOfWeek 10010194 f   calendar.obj
+ 0001:0000f240       InternalConvertCalDateTimeToSystemTime 10010240 f   calendar.obj
+ 0001:0000f334       ?InternalGetCalendarDateFormatEx@@YAHPBGKQAUCALDATETIME@@0PAGH@Z 10010334 f   calendar.obj
+ 0001:0000f63c       ?CopyCalDateTime@@YAHPAUCALDATETIME@@QAU1@@Z 1001063c f   calendar.obj
+ 0001:0000f668       GetCalendarDaysInYear      10010668 f   calendar.obj
+ 0001:0000f714       GetCalendarDayOfYear       10010714 f   calendar.obj
+ 0001:0000f7a4       ?GetMinSupportedCalendarYear@@YAIK@Z 100107a4 f   calendar.obj
+ 0001:0000f808       GetFirstDayWeekOfYear      10010808 f   calendar.obj
+ 0001:0000f8a4       GetCalendarSupportedDateRange 100108a4 f   calendar.obj
+ 0001:0000f990       GetCalendarMonthsInYear    10010990 f   calendar.obj
+ 0001:0000fa4c       ?AdjustMonthsInTwelveMonthCalendars@@YAHPAUCALDATETIME@@H@Z 10010a4c f   calendar.obj
+ 0001:0000fb90       InternalConvertSystemTimeToCalDateTime 10010b90 f   calendar.obj
+ 0001:0000fc48       ?AdjustCalendarDate@@YAHPAUCALDATETIME@@KH@Z 10010c48 f   calendar.obj
+ 0001:0000fe84       ?GetWeekOfYearFullDays@@YAIQAUCALDATETIME@@IIH@Z 10010e84 f   calendar.obj
+ 0001:0000ff80       GetCalendarWeekNumber      10010f80 f   calendar.obj
+ 0001:0001007c       ?OpenJapaneseErasKey@@YAKPAPAUHKEY__@@@Z 1001107c f i erasfromreg.obj
+ 0001:000100bc       ?OpenJapaneseCalendarKey@@YAKPAPAUHKEY__@@@Z 100110bc f i erasfromreg.obj
+ 0001:000100fc       ?GetInternalJapaneseErasCount@@YAGXZ 100110fc f   erasfromreg.obj
+ 0001:00010134       ?ConvertDecimalToWord@@YAHPAGH0@Z 10011134 f   erasfromreg.obj
+ 0001:00010198       ?ConvertDateStringToTokenizedWords@@YAHPAGH000@Z 10011198 f   erasfromreg.obj
+ 0001:000101dc       ?CompareEraDates@@YAHPAUCalendarEraDataItems@@0@Z 100111dc f   erasfromreg.obj
+ 0001:00010234       ?EraBubbleSort@@YAXPAPAUCalendarEraDataItemsWithStrings@@@Z 10011234 f   erasfromreg.obj
+ 0001:000102a8       ?IndexEras@@YAXPAPAUCalendarEraDataItemsWithStrings@@@Z 100112a8 f   erasfromreg.obj
+ 0001:000102f0       ?FreeCalendarEraMem@@YAXPAPAUCalendarEraDataItemsWithStrings@@@Z 100112f0 f   erasfromreg.obj
+ 0001:0001038c       ?HexVal@@YAEG@Z            1001138c f i erasfromreg.obj
+ 0001:000103dc       ?ParseUnicodeString@@YAXPAGK0@Z 100113dc f   erasfromreg.obj
+ 0001:000104b4       ?BuildCalEraFromReg@@YAPAPAUCalendarEraDataItemsWithStrings@@XZ 100114b4 f   erasfromreg.obj
+ 0001:00010978       ?InitJapaneseEraStruct@@YAKXZ 10011978 f   erasfromreg.obj
+ 0001:000109c8       ?GetJapaneseEraItems@@YAPAPAUCalendarEraDataItemsWithStrings@@XZ 100119c8 f   greghelper.obj
+ 0001:00010a20       ?GetJapaneseEraDataByIndex@@YAPAUCalendarEraDataItems@@G@Z 10011a20 f   greghelper.obj
+ 0001:00010a50       ?GetMaxJapanEras@@YAGXZ    10011a50 f   greghelper.obj
+ 0001:00010a80       ?GetMaxJapanYears@@YAGXZ   10011a80 f   greghelper.obj
+ 0001:00010aac       ?GetGregBasedSupportedDateRange@@YAHKPAUCALDATETIME@@0@Z 10011aac f   greghelper.obj
+ 0001:00010c20       ?GetEraOffsets@@YAHKPAIK0@Z 10011c20 f   greghelper.obj
+ 0001:00010cd8       ?GetGregorianYear@@YAIKII@Z 10011cd8 f   greghelper.obj
+ 0001:00010d9c       ?UpdateGregBasedYearAndEra@@YAHKIIIPAUCALDATETIME@@@Z 10011d9c f   greghelper.obj
+ 0001:00010e48       ?IsValidJapanDate@@YAHIIIIPAI@Z 10011e48 f   greghelper.obj
+ 0001:00010ee8       ?IsValidGregBasedDate@@YAHKIIIIPAI@Z 10011ee8 f   greghelper.obj
+ 0001:00010fc4       ?IsGregBasedLeapYear@@YAHKII@Z 10011fc4 f   greghelper.obj
+ 0001:00011024       ?ConvertSystemTimeToGregBasedDateTime@@YAHPBU_SYSTEMTIME@@PAUCALDATETIME@@@Z 10012024 f   greghelper.obj
+ 0001:00011094       ?GetGregBasedDaysInYear@@YAIKII@Z 10012094 f   greghelper.obj
+ 0001:000110bc       ?ConvertGregBasedToGregDateTime@@YAHPAUCALDATETIME@@QAU1@@Z 100120bc f   greghelper.obj
+ 0001:00011100       ?GetGregBasedDaysInMonth@@YAIKIII@Z 10012100 f   greghelper.obj
+ 0001:0001116c       ?GetGregBasedMonthsInYear@@YAIKII@Z 1001216c f   greghelper.obj
+ 0001:000111ac       ?UpdateGregBasedDayOfWeek@@YAHPAUCALDATETIME@@@Z 100121ac f   greghelper.obj
+ 0001:0001120c       ?ConvertGregBasedDateTimeToSysTime@@YAHQAUCALDATETIME@@PAU_SYSTEMTIME@@@Z 1001220c f   greghelper.obj
+ 0001:00011248       ?GetGregBasedDayOfYear@@YAIQAUCALDATETIME@@@Z 10012248 f   greghelper.obj
+ 0001:0001127c       ?IsValidGregBasedDateTime@@YAHQAUCALDATETIME@@PAIH@Z 1001227c f   greghelper.obj
+ 0001:00011324       ?AdjustGregBasedDateTime@@YAHPAUCALDATETIME@@KH@Z 10012324 f   greghelper.obj
+ 0001:000113e4       GetUserDefaultLCID         100123e4 f   coredll:COREDLL.dll
+ 0001:000113f4       RegCloseKey                100123f4 f   coredll:COREDLL.dll
+ 0001:00011404       InterlockedCompareExchange 10012404 f   coredll:COREDLL.dll
+ 0001:00011414       RegOpenKeyExW              10012414 f   coredll:COREDLL.dll
+ 0001:00011424       StringCchLengthW           10012424 f   coredll:COREDLL.dll
+ 0001:00011434       StringCchCopyW             10012434 f   coredll:COREDLL.dll
+ 0001:00011444       SetLastError               10012444 f   coredll:COREDLL.dll
+ 0001:00011454       RegEnumValueW              10012454 f   coredll:COREDLL.dll
+ 0001:00011464       RegQueryValueExW           10012464 f   coredll:COREDLL.dll
+ 0001:00011474       GetLastError               10012474 f   coredll:COREDLL.dll
+ 0001:00011484       GetLocalTime               10012484 f   coredll:COREDLL.dll
+ 0001:00011494       GetUserDefaultUILanguage   10012494 f   coredll:COREDLL.dll
+ 0001:000114a4       LoadResource               100124a4 f   coredll:COREDLL.dll
+ 0001:000114b4       FindResourceW              100124b4 f   coredll:COREDLL.dll
+ 0001:000114c4       StringCchCopyExW           100124c4 f   coredll:COREDLL.dll
+ 0001:000114d4       StringCchCopyNW            100124d4 f   coredll:COREDLL.dll
+ 0001:000114e4       GetSystemDefaultUILanguage 100124e4 f   coredll:COREDLL.dll
+ 0001:000114f4       HeapAlloc                  100124f4 f   coredll:COREDLL.dll
+ 0001:00011504       GetProcessHeap             10012504 f   coredll:COREDLL.dll
+ 0001:00011514       HeapFree                   10012514 f   coredll:COREDLL.dll
+ 0001:00011524       CloseHandle                10012524 f   coredll:COREDLL.dll
+ 0001:00011534       MapViewOfFile              10012534 f   coredll:COREDLL.dll
+ 0001:00011544       CreateFileMappingW         10012544 f   coredll:COREDLL.dll
+ 0001:00011554       GetFileSize                10012554 f   coredll:COREDLL.dll
+ 0001:00011564       CreateFileW                10012564 f   coredll:COREDLL.dll
+ 0001:00011574       GetModuleFileNameW         10012574 f   coredll:COREDLL.dll
+ 0001:00011584       DeleteCriticalSection      10012584 f   coredll:COREDLL.dll
+ 0001:00011594       InterlockedExchange        10012594 f   coredll:COREDLL.dll
+ 0001:000115a4       StringCchCatW              100125a4 f   coredll:COREDLL.dll
+ 0001:000115b4       UnmapViewOfFile            100125b4 f   coredll:COREDLL.dll
+ 0001:000115c4       LeaveCriticalSection       100125c4 f   coredll:COREDLL.dll
+ 0001:000115d4       EnterCriticalSection       100125d4 f   coredll:COREDLL.dll
+ 0001:000115e4       GetVersionExW              100125e4 f   coredll:COREDLL.dll
+ 0001:000115f4       InitializeCriticalSection  100125f4 f   coredll:COREDLL.dll
+ 0001:00011604       StringCchPrintfExW         10012604 f   coredll:COREDLL.dll
+ 0001:00011614       StringCchPrintfW           10012614 f   coredll:COREDLL.dll
+ 0001:00011624       GetCalendarInfoEx          10012624 f   coredll:COREDLL.dll
+ 0001:00011634       RegQueryInfoKeyW           10012634 f   coredll:COREDLL.dll
+ 0001:0001173c       _DllMainCRTStartup         1001273c f   corelib0:pegdmain.obj
+ 0001:00011768       __GSHandlerCheckCommon     10012768 f   corelib0:gshandler.obj
+ 0001:000117a4       __GSHandlerCheck           100127a4 f   corelib0:gshandler.obj
+ 0001:000117c4       __security_init_cookie     100127c4 f   corelib0:seccinit.obj
+ 0001:00011810       __security_check_cookie    10012810 f   corelib0:armsecgs.obj
+ 0001:00011820       __gsfailure                10012820     corelib0:armsecgs.obj
+ 0001:0001194c       _cexit                     1001294c f   corelib0:cexit.obj
+ 0001:0001195c       _initterm                  1001295c f   corelib0:crt0dat.obj
+ 0001:00011988       _cinit                     10012988 f   corelib0:crt0dat.obj
+ 0001:000119e8       __crt_ExitProcess          100129e8 f   corelib0:exitproc_proxy.obj
+ 0001:000119f4       swscanf_s                  100129f4 f   corelib1:COREDLL.dll
+ 0001:00011a04       memcpy                     10012a04 f   corelib1:COREDLL.dll
+ 0001:00011a14       wcscpy_s                   10012a14 f   corelib1:COREDLL.dll
+ 0001:00011a24       memset                     10012a24 f   corelib1:COREDLL.dll
+ 0001:00011a34       wcslen                     10012a34 f   corelib1:COREDLL.dll
+ 0001:00011a44       memmove                    10012a44 f   corelib1:COREDLL.dll
+ 0001:00011a54       wcsncmp                    10012a54 f   corelib1:COREDLL.dll
+ 0001:00011a64       wcsnlen                    10012a64 f   corelib1:COREDLL.dll
+ 0001:00011a74       _XcptFilter                10012a74 f   corelib1:COREDLL.dll
+ 0001:00011a84       __C_specific_handler       10012a84 f   corelib1:COREDLL.dll
+ 0001:00011a94       __security_gen_cookie2     10012a94 f   corelib1:COREDLL.dll
+ 0001:00011aa4       __report_gsfailure         10012aa4 f   corelib1:COREDLL.dll
+ 0001:00011ab4       free                       10012ab4 f   corelib1:COREDLL.dll
+ 0001:00011ac4       TerminateProcess           10012ac4 f   coredll:COREDLL.dll
+ 0001:00011b5c       __IMPORT_DESCRIPTOR_COREDLL 10012b5c     coredll:COREDLL.dll
+ 0001:00011b70       __NULL_IMPORT_DESCRIPTOR   10012b70     coredll:COREDLL.dll
+ 0002:00000000       __imp_GetUserDefaultLCID   10014000     coredll:COREDLL.dll
+ 0002:00000004       __imp_RegCloseKey          10014004     coredll:COREDLL.dll
+ 0002:00000008       __imp_InterlockedCompareExchange 10014008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_RegOpenKeyExW        1001400c     coredll:COREDLL.dll
+ 0002:00000010       __imp_StringCchLengthW     10014010     coredll:COREDLL.dll
+ 0002:00000014       __imp_StringCchCopyW       10014014     coredll:COREDLL.dll
+ 0002:00000018       __imp_SetLastError         10014018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_RegEnumValueW        1001401c     coredll:COREDLL.dll
+ 0002:00000020       __imp_RegQueryValueExW     10014020     coredll:COREDLL.dll
+ 0002:00000024       __imp_GetLastError         10014024     coredll:COREDLL.dll
+ 0002:00000028       __imp_GetLocalTime         10014028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_GetUserDefaultUILanguage 1001402c     coredll:COREDLL.dll
+ 0002:00000030       __imp_LoadResource         10014030     coredll:COREDLL.dll
+ 0002:00000034       __imp_FindResourceW        10014034     coredll:COREDLL.dll
+ 0002:00000038       __imp_StringCchCopyExW     10014038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_StringCchCopyNW      1001403c     coredll:COREDLL.dll
+ 0002:00000040       __imp_GetSystemDefaultUILanguage 10014040     coredll:COREDLL.dll
+ 0002:00000044       __imp_HeapAlloc            10014044     coredll:COREDLL.dll
+ 0002:00000048       __imp_GetProcessHeap       10014048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_HeapFree             1001404c     coredll:COREDLL.dll
+ 0002:00000050       __imp_CloseHandle          10014050     coredll:COREDLL.dll
+ 0002:00000054       __imp_MapViewOfFile        10014054     coredll:COREDLL.dll
+ 0002:00000058       __imp_CreateFileMappingW   10014058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_GetFileSize          1001405c     coredll:COREDLL.dll
+ 0002:00000060       __imp_CreateFileW          10014060     coredll:COREDLL.dll
+ 0002:00000064       __imp_GetModuleFileNameW   10014064     coredll:COREDLL.dll
+ 0002:00000068       __imp_DeleteCriticalSection 10014068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_InterlockedExchange  1001406c     coredll:COREDLL.dll
+ 0002:00000070       __imp_StringCchCatW        10014070     coredll:COREDLL.dll
+ 0002:00000074       __imp_UnmapViewOfFile      10014074     coredll:COREDLL.dll
+ 0002:00000078       __imp_LeaveCriticalSection 10014078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_EnterCriticalSection 1001407c     coredll:COREDLL.dll
+ 0002:00000080       __imp_GetVersionExW        10014080     coredll:COREDLL.dll
+ 0002:00000084       __imp_InitializeCriticalSection 10014084     coredll:COREDLL.dll
+ 0002:00000088       __imp_StringCchPrintfExW   10014088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_StringCchPrintfW     1001408c     coredll:COREDLL.dll
+ 0002:00000090       __imp_GetCalendarInfoEx    10014090     coredll:COREDLL.dll
+ 0002:00000094       __imp_RegQueryInfoKeyW     10014094     coredll:COREDLL.dll
+ 0002:00000098       __imp_swscanf_s            10014098     corelib1:COREDLL.dll
+ 0002:0000009c       __imp_memcpy               1001409c     corelib1:COREDLL.dll
+ 0002:000000a0       __imp_wcscpy_s             100140a0     corelib1:COREDLL.dll
+ 0002:000000a4       __imp_memset               100140a4     corelib1:COREDLL.dll
+ 0002:000000a8       __imp___rt_sdiv            100140a8     corelib1:COREDLL.dll
+ 0002:000000ac       __imp_wcslen               100140ac     corelib1:COREDLL.dll
+ 0002:000000b0       __imp___rt_urem64by64      100140b0     corelib1:COREDLL.dll
+ 0002:000000b4       __imp___rt_udiv64by64      100140b4     corelib1:COREDLL.dll
+ 0002:000000b8       __imp_memmove              100140b8     corelib1:COREDLL.dll
+ 0002:000000bc       __imp_wcsncmp              100140bc     corelib1:COREDLL.dll
+ 0002:000000c0       __imp_wcsnlen              100140c0     corelib1:COREDLL.dll
+ 0002:000000c4       __imp__XcptFilter          100140c4     corelib1:COREDLL.dll
+ 0002:000000c8       __imp___C_specific_handler 100140c8     corelib1:COREDLL.dll
+ 0002:000000cc       __imp___security_gen_cookie2 100140cc     corelib1:COREDLL.dll
+ 0002:000000d0       __imp___report_gsfailure   100140d0     corelib1:COREDLL.dll
+ 0002:000000d4       __imp_free                 100140d4     corelib1:COREDLL.dll
+ 0002:000000d8       __imp_TerminateProcess     100140d8     coredll:COREDLL.dll
+ 0002:000000dc       \177COREDLL_NULL_THUNK_DATA 100140dc     coredll:COREDLL.dll
+ 0002:000000e0       ?pTblPtrs@@3PAUtbl_ptrs_s@@A 100140e0     tables.obj
+ 0002:000000e4       __security_cookie          100140e4     corelib0:seccinit.obj
+ 0002:000000e8       __security_cookie_complement 100140e8     corelib0:seccinit.obj
+ 0002:000000ec       ?gpapsJapaneseEraItems@@3PAPAUCalendarEraDataItemsWithStrings@@A 100140ec     locale.obj
+ 0002:000000f0       ?gPreferNumericInitialJapaneseEra@@3HA 100140f0     locale.obj
+ 0002:00000108       ?gcsTblPtrs@@3UCRITICAL_SECTION@@A 10014108     tables.obj
+ 0002:0000011c       ?TblPtrs@@3Utbl_ptrs_s@@A  1001411c     tables.obj
+ 0002:00000140       ?gIsVistaOrUp@@3HA         10014140     tables.obj
+ 0002:00000144       ?gCurrentUserRegKey@@3PAUHKEY__@@A 10014144     tables.obj
+ 0002:00000148       ?gSystemLocaleRegKey@@3PAUHKEY__@@A 10014148     tables.obj
+ 0002:00000150       ?gInitializedSuccessfully@@3HA 10014150     localedll.obj
+ 0002:00000154       ?ghModule@@3PAUHINSTANCE__@@A 10014154     localedll.obj
+ 0002:00000160       ?gJapaneseEraItems@@3PAPAUCalendarEraDataItemsWithStrings@@A 10014160     greghelper.obj
+ 0002:00000168       _exitflag                  10014168     corelib0:cexit.obj
+ 0002:0000016c       __onexitend                1001416c     <common>
+ 0002:00000170       __onexitbegin              10014170     <common>
+ 0002:00000174       g_pcsExit                  10014174     <common>
+ 0002:00000178       _pRawDllMain               10014178     <common>
+
+ entry point at        0001:0001173c
+
+ Static symbols
+
+ 0001:0001164c       _DllMainCRTStartupHelper   1001264c f   corelib0:pegdmain.obj
+ 0001:00011864       doexit                     10012864 f   corelib0:cexit.obj

@@ -1,0 +1,112 @@
+ dhcpsrv
+
+ Timestamp is 5ac64a21 (Thu Apr 05 09:09:05 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 00000020H .rdata                  CODE
+ 0001:00000040 00000024H .rdata$debug            CODE
+ 0001:00000064 00000c94H .text                   CODE
+ 0001:00000cf8 00000014H .xdata                  CODE
+ 0001:00000d0c 00000014H .idata$2                CODE
+ 0001:00000d20 00000014H .idata$3                CODE
+ 0001:00000d34 00000040H .idata$4                CODE
+ 0001:00000d74 0000000cH .idata$6                CODE
+ 0001:00000d80 000000c8H .edata                  CODE
+ 0002:00000000 00000040H .idata$5                DATA
+ 0002:00000040 00000034H .data                   DATA
+ 0002:00000074 00000018H .bss                    DATA
+ 0003:00000000 000000c8H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:00000064       DllMain                    10001064 f   debug.obj
+ 0001:00000088       ?DHCPParseOptions@@YAHPAEKPAUDhcpOptions@@@Z 10001088 f   dhcp.obj
+ 0001:000001a4       ?DhcpPacketOptionAddDwords@@YAPAEPAEEPAKK@Z 100011a4 f   dhcp.obj
+ 0001:000001e8       ?DHCPSessionAddPacketOptions@@YAPAEPAUDhcpServerSession@@PAE1K1K@Z 100011e8 f   dhcp.obj
+ 0001:000003d8       ?DHCPServerGetPacket@@YAPAUDhcpPkt@@PAUDhcpServerSession@@@Z 100013d8 f   dhcp.obj
+ 0001:0000040c       DHCPServerFreePacket       1000140c f   dhcp.obj
+ 0001:00000418       ?DHCPServerBuildStandardReplyHeader@@YAXPAUDhcpServerSession@@PAUDhcpPkt@@1@Z 10001418 f   dhcp.obj
+ 0001:000004d0       ?isAllowedToReplyToDHCPClientMAC@@YA_NPAUDhcpServerSession@@PAUDhcpPkt@@@Z 100014d0 f   dhcp.obj
+ 0001:00000508       ?DHCPServerProcessDiscover@@YAHPAUDhcpServerSession@@PAUDhcpPkt@@PAUDhcpOptions@@@Z 10001508 f   dhcp.obj
+ 0001:00000638       ?DHCPServerProcessRequest@@YAHPAUDhcpServerSession@@PAUDhcpPkt@@PAUDhcpOptions@@@Z 10001638 f   dhcp.obj
+ 0001:000007cc       ?DHCPServerProcessDecline@@YAHPAUDhcpServerSession@@PAUDhcpPkt@@PAUDhcpOptions@@@Z 100017cc f   dhcp.obj
+ 0001:000007d4       ?DHCPServerProcessRelease@@YAHPAUDhcpServerSession@@PAUDhcpPkt@@PAUDhcpOptions@@@Z 100017d4 f   dhcp.obj
+ 0001:000007dc       ?DHCPServerProcessInform@@YAHPAUDhcpServerSession@@PAUDhcpPkt@@PAUDhcpOptions@@@Z 100017dc f   dhcp.obj
+ 0001:000007e4       DHCPServerProcessPacket    100017e4 f   dhcp.obj
+ 0001:0000087c       DHCPServerSessionNew       1000187c f   dhcp.obj
+ 0001:000008e8       DHCPServerSessionDelete    100018e8 f   dhcp.obj
+ 0001:00000908       DisableThreadLibraryCalls  10001908 f   coredll:COREDLL.dll
+ 0001:00000918       LocalAlloc                 10001918 f   coredll:COREDLL.dll
+ 0001:00000928       LocalFree                  10001928 f   coredll:COREDLL.dll
+ 0001:00000a30       _DllMainCRTStartup         10001a30 f   corelib0:pegdmain.obj
+ 0001:00000b44       _cexit                     10001b44 f   corelib0:cexit.obj
+ 0001:00000b54       _initterm                  10001b54 f   corelib0:crt0dat.obj
+ 0001:00000b80       _cinit                     10001b80 f   corelib0:crt0dat.obj
+ 0001:00000be0       __security_init_cookie     10001be0 f   corelib0:seccinit.obj
+ 0001:00000c2c       __crt_ExitProcess          10001c2c f   corelib0:exitproc_proxy.obj
+ 0001:00000c38       memchr                     10001c38 f   corelib1:COREDLL.dll
+ 0001:00000c48       memset                     10001c48 f   corelib1:COREDLL.dll
+ 0001:00000c58       memcpy                     10001c58 f   corelib1:COREDLL.dll
+ 0001:00000c68       strlen                     10001c68 f   corelib1:COREDLL.dll
+ 0001:00000c78       memcmp                     10001c78 f   corelib1:COREDLL.dll
+ 0001:00000c88       _XcptFilter                10001c88 f   corelib1:COREDLL.dll
+ 0001:00000c98       __C_specific_handler       10001c98 f   corelib1:COREDLL.dll
+ 0001:00000ca8       free                       10001ca8 f   corelib1:COREDLL.dll
+ 0001:00000cb8       __security_gen_cookie2     10001cb8 f   corelib1:COREDLL.dll
+ 0001:00000cc8       DeleteCriticalSection      10001cc8 f   coredll:COREDLL.dll
+ 0001:00000cd8       InterlockedExchange        10001cd8 f   coredll:COREDLL.dll
+ 0001:00000ce8       TerminateProcess           10001ce8 f   coredll:COREDLL.dll
+ 0001:00000d0c       __IMPORT_DESCRIPTOR_COREDLL 10001d0c     coredll:COREDLL.dll
+ 0001:00000d20       __NULL_IMPORT_DESCRIPTOR   10001d20     coredll:COREDLL.dll
+ 0002:00000000       __imp_DisableThreadLibraryCalls 10002000     coredll:COREDLL.dll
+ 0002:00000004       __imp_LocalAlloc           10002004     coredll:COREDLL.dll
+ 0002:00000008       __imp_LocalFree            10002008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_memchr               1000200c     corelib1:COREDLL.dll
+ 0002:00000010       __imp_memset               10002010     corelib1:COREDLL.dll
+ 0002:00000014       __imp_memcpy               10002014     corelib1:COREDLL.dll
+ 0002:00000018       __imp_strlen               10002018     corelib1:COREDLL.dll
+ 0002:0000001c       __imp_memcmp               1000201c     corelib1:COREDLL.dll
+ 0002:00000020       __imp__XcptFilter          10002020     corelib1:COREDLL.dll
+ 0002:00000024       __imp___C_specific_handler 10002024     corelib1:COREDLL.dll
+ 0002:00000028       __imp_free                 10002028     corelib1:COREDLL.dll
+ 0002:0000002c       __imp___security_gen_cookie2 1000202c     corelib1:COREDLL.dll
+ 0002:00000030       __imp_DeleteCriticalSection 10002030     coredll:COREDLL.dll
+ 0002:00000034       __imp_InterlockedExchange  10002034     coredll:COREDLL.dll
+ 0002:00000038       __imp_TerminateProcess     10002038     coredll:COREDLL.dll
+ 0002:0000003c       \177COREDLL_NULL_THUNK_DATA 1000203c     coredll:COREDLL.dll
+ 0002:00000048       ?DHCPServerRxPacketHandlers@@3PAP6AHPAUDhcpServerSession@@PAUDhcpPkt@@PAUDhcpOptions@@@ZA 10002048     dhcp.obj
+ 0002:0000006c       __security_cookie          1000206c     corelib0:seccinit.obj
+ 0002:00000070       __security_cookie_complement 10002070     corelib0:seccinit.obj
+ 0002:00000074       ?v_hInstDLL@@3PAUHINSTANCE__@@A 10002074     debug.obj
+ 0002:00000078       _exitflag                  10002078     corelib0:cexit.obj
+ 0002:0000007c       __onexitend                1000207c     <common>
+ 0002:00000080       __onexitbegin              10002080     <common>
+ 0002:00000084       g_pcsExit                  10002084     <common>
+ 0002:00000088       _pRawDllMain               10002088     <common>
+
+ entry point at        0001:00000a30
+
+ Static symbols
+
+ 0001:00000940       _DllMainCRTStartupHelper   10001940 f   corelib0:pegdmain.obj
+ 0001:00000a5c       doexit                     10001a5c f   corelib0:cexit.obj

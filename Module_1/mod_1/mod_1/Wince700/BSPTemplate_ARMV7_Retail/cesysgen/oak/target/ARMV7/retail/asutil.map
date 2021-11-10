@@ -1,0 +1,1028 @@
+ asutil
+
+ Timestamp is 618b15d9 (Tue Nov 09 17:44:09 2021)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000010H .CRT$XCU                CODE
+ 0001:00000014 00000004H .CRT$XCZ                CODE
+ 0001:00000018 00000004H .CRT$XIA                CODE
+ 0001:0000001c 00000004H .CRT$XIZ                CODE
+ 0001:00000020 00000004H .CRT$XPA                CODE
+ 0001:00000024 00000004H .CRT$XPZ                CODE
+ 0001:00000028 00000004H .CRT$XTA                CODE
+ 0001:0000002c 00000004H .CRT$XTZ                CODE
+ 0001:00000030 00002918H .rdata                  CODE
+ 0001:00002948 00000023H .rdata$debug            CODE
+ 0001:0000296c 0000c0a4H .text                   CODE
+ 0001:0000ea10 00000150H .text$yc                CODE
+ 0001:0000eb60 00000030H .text$yd                CODE
+ 0001:0000eb90 000001b8H .xdata                  CODE
+ 0001:0000ed48 00000000H ATL$__a                 CODE
+ 0001:0000ed48 00000000H ATL$__z                 CODE
+ 0001:0000ed48 0000008cH .idata$2                CODE
+ 0001:0000edd4 00000014H .idata$3                CODE
+ 0001:0000ede8 00000254H .idata$4                CODE
+ 0001:0000f03c 00000214H .idata$6                CODE
+ 0001:0000f250 0000041dH .edata                  CODE
+ 0002:00000000 00000254H .idata$5                DATA
+ 0002:00000258 00001418H .data                   DATA
+ 0002:00001670 00000198H .bss                    DATA
+ 0003:00000000 00000c18H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000014       __xc_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xi_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xi_z                     1000101c     corelib0:crt0init.obj
+ 0001:00000020       __xp_a                     10001020     corelib0:crt0init.obj
+ 0001:00000024       __xp_z                     10001024     corelib0:crt0init.obj
+ 0001:00000028       __xt_a                     10001028     corelib0:crt0init.obj
+ 0001:0000002c       __xt_z                     1000102c     corelib0:crt0init.obj
+ 0001:0000004c       _GUID_ccd8750c_c7d5_4090_85ae_ad98547a091a 1000104c     asutil:SyncInfo.obj
+ 0001:0000005c       ??_C@_1O@JDLOHAN@?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AA?$AA@ 1000105c     asutil:SyncInfo.obj
+ 0001:0000006c       ??_C@_1BC@GCKHIPE@?$AAN?$AAo?$AAR?$AAe?$AAm?$AAo?$AAv?$AAe?$AA?$AA@ 1000106c     asutil:SyncInfo.obj
+ 0001:00000080       ??_C@_1BI@JFAIJMHL@?$AAF?$AAo?$AAr?$AAc?$AAe?$AAR?$AAe?$AAm?$AAo?$AAv?$AAe?$AA?$AA@ 10001080     asutil:SyncInfo.obj
+ 0001:00000098       ??_C@_17LLMMEOJD@?$AAV?$AAa?$AAl?$AA?$AA@ 10001098     asutil:SyncInfo.obj
+ 0001:000000a0       ??_C@_13OPKGLAFF@?$AAB?$AA?$AA@ 100010a0     asutil:SyncInfo.obj
+ 0001:000000a4       ??_C@_13MKMNOPIJ@?$AAD?$AA?$AA@ 100010a4     asutil:SyncInfo.obj
+ 0001:000000a8       ??_C@_13LHMFKAAD@?$AAM?$AA?$AA@ 100010a8     asutil:SyncInfo.obj
+ 0001:000000ac       ??_C@_13HADIAKP@?$AAS?$AA?$AA@ 100010ac     asutil:SyncInfo.obj
+ 0001:000000d0       ?s_qit@CSyncInfo@@1QBUQITAB@@B 100010d0     asutil:SyncInfo.obj
+ 0001:000000e0       __real@4096800000000000    100010e0     asutil:SyncInfo.obj
+ 0001:000000e8       ??_7?$CComObjectAuto@VCSyncInfo@@@SYNC@@6B@ 100010e8     asutil:SyncInfo.obj
+ 0001:00000108       ??_7?$CComObject@VCSyncInfo@@@SYNC@@6B@ 10001108     asutil:SyncInfo.obj
+ 0001:00000148       __real@3fe0000000000000    10001148     asutil:CalcSchedule.obj
+ 0001:00000150       __real@3f95555555555555    10001150     asutil:CalcSchedule.obj
+ 0001:00000158       __real@3fa5555555555555    10001158     asutil:CalcSchedule.obj
+ 0001:00000160       __real@3f26c16c16c16c17    10001160     asutil:CalcSchedule.obj
+ 0001:00000168       __real@4146924080000000    10001168     asutil:CalcSchedule.obj
+ 0001:00000170       __real@0000000000000000    10001170     asutil:CalcSchedule.obj
+ 0001:0000024c       ??_C@_03GIJBMBD@?$CFd?$AA?$AA@ 1000124c     asutil:ipv6util.obj
+ 0001:00000250       ??_C@_13FPGAJAPJ@?$AA?2?$AA?$AA@ 10001250     asutil:FileUtil.obj
+ 0001:00000254       ??_C@_1BE@ONHIOHDP@?$AA?$CF?$AAs?$AA?2?$AA?$CF?$AAs?$AA?4?$AAt?$AAx?$AAt?$AA?$AA@ 10001254     asutil:FileUtil.obj
+ 0001:00000268       ??_C@_1M@DFKENGJN@?$AA?$CF?$AAs?$AA?2?$AA?$CF?$AAs?$AA?$AA@ 10001268     asutil:FileUtil.obj
+ 0001:00000274       ??_C@_1BM@BDIKFIFJ@?$AA?$CF?$AAs?$AA?2?$AAS?$AAK?$AAZ?$AA?5?$AA?$CF?$AAs?$AA?4?$AAt?$AAx?$AAt?$AA?$AA@ 10001274     asutil:FileUtil.obj
+ 0001:00000290       ??_C@_1BI@MJLONLJA@?$AA?$CF?$AAs?$AA?2?$AA?$CF?$AAs?$AA?$CF?$AAd?$AA?4?$AAt?$AAx?$AAt?$AA?$AA@ 10001290     asutil:FileUtil.obj
+ 0001:000002a8       ??_C@_1CC@CGNGBJOA@?$AA?$CF?$AAs?$AA?2?$AAP?$AAi?$AAn?$AAg?$AA?5?$AA?$CF?$AAs?$AA?$CF?$AAd?$AA?4?$AAt?$AAx?$AAt?$AA?$AA@ 100012a8     asutil:FileUtil.obj
+ 0001:000002cc       ??_C@_1BE@KAMLAOJP@?$AAS?$AAe?$AAr?$AAv?$AAe?$AAr?$AAL?$AAo?$AAg?$AA?$AA@ 100012cc     asutil:FileUtil.obj
+ 0001:000002e0       ??_C@_1BC@MPMHLLCC@?$AA?$CF?$AAs?$AA?$CF?$AAd?$AA?4?$AAt?$AAx?$AAt?$AA?$AA@ 100012e0     asutil:TraceSync.obj
+ 0001:000002f4       ??_C@_1M@MHANIHNB@?$AA?$CF?$AAS?$AA?7?$AA?$CF?$AAS?$AA?$AA@ 100012f4     asutil:TraceSync.obj
+ 0001:00000300       ??_C@_1DC@IHNNMDFB@?$AA?$EA?$AA?$CD?$AA?$EA?$AA?$CD?$AA?$EA?$AAT?$AAr?$AAa?$AAc?$AAe?$AAS?$AAy?$AAn?$AAc?$AAM?$AAu?$AAt?$AAe?$AAx?$AA?$EA?$AA?$CD?$AA?$EA?$AA?$CD?$AA?$EA?$AA?$AA@ 10001300     asutil:TraceSync.obj
+ 0001:00000334       ??_C@_0CC@LEEGMKMN@?$CF04d?9?$CF02d?9?$CF02d?5?$CF02d?3?$CF02d?3?$CF02d?7?$CFs@ 10001334     asutil:TraceSync.obj
+ 0001:00000358       ?c_wszControllerLogFilename@@3QBGB 10001358     asutil:RegistryUtils.obj
+ 0001:00000390       ?c_wszCtrlLogMaxSize@@3QBGB 10001390     asutil:RegistryUtils.obj
+ 0001:000003b0       ?c_wszControllerLogging@@3QBGB 100013b0     asutil:RegistryUtils.obj
+ 0001:000003d4       ?c_wszCtrlLogNumFiles@@3QBGB 100013d4     asutil:RegistryUtils.obj
+ 0001:000003f4       ?c_wszCtrlLogCurrFile@@3QBGB 100013f4     asutil:RegistryUtils.obj
+ 0001:00000414       ?c_wszActiveSyncKey@@3QBGB 10001414     asutil:RegistryUtils.obj
+ 0001:00000450       ?c_wszActiveSyncSources@@3QBGB 10001450     asutil:RegistryUtils.obj
+ 0001:000004a0       ?c_wszLegacyPartners@@3QBGB 100014a0     asutil:RegistryUtils.obj
+ 0001:00000500       ?c_wszCurrentPartnerId@@3QBGB 10001500     asutil:RegistryUtils.obj
+ 0001:00000508       ?c_wszLegacyPartner1@@3QBGB 10001508     asutil:RegistryUtils.obj
+ 0001:00000510       ?c_wszLegacyPartner2@@3QBGB 10001510     asutil:RegistryUtils.obj
+ 0001:00000518       ?c_wszEngine@@3QBGB        10001518     asutil:RegistryUtils.obj
+ 0001:00000528       ?c_wszRASCustom@@3QBGB     10001528     asutil:RegistryUtils.obj
+ 0001:00000544       ?c_wszDataSourceID@@3QBGB  10001544     asutil:RegistryUtils.obj
+ 0001:00000560       ?c_wszPCur@@3QBGB          10001560     asutil:RegistryUtils.obj
+ 0001:00000570       ?c_wszPartnerIdKey@@3QBGB  10001570     asutil:RegistryUtils.obj
+ 0001:000005d8       ?c_wszHardwareStatStore@@3QBGB 100015d8     asutil:RegistryUtils.obj
+ 0001:00000604       ?c_wszCradled@@3QBGB       10001604     asutil:RegistryUtils.obj
+ 0001:00000614       ?c_wszActiveSyncStatStore@@3QBGB 10001614     asutil:RegistryUtils.obj
+ 0001:00000644       ?c_wszSynchronizing@@3QBGB 10001644     asutil:RegistryUtils.obj
+ 0001:00000660       ?c_wszNumLogsValueName@@3QBGB 10001660     asutil:RegistryUtils.obj
+ 0001:0000067c       ?c_wszSyncDirectory@@3QBGB 1000167c     asutil:RegistryUtils.obj
+ 0001:000006a4       ?c_wszExtension@@3QBGB     100016a4     asutil:RegistryUtils.obj
+ 0001:000006b0       ?c_wszProvisionLogFileName@@3QBGB 100016b0     asutil:RegistryUtils.obj
+ 0001:000006d4       ?c_wszSyncDebugControlFlags@@3QBGB 100016d4     asutil:RegistryUtils.obj
+ 0001:00000700       ?c_wszEnableSyncPerf@@3QBGB 10001700     asutil:RegistryUtils.obj
+ 0001:00000720       ?c_wszErrorSeverity@@3QBGB 10001720     asutil:RegistryUtils.obj
+ 0001:0000073c       ?c_wszLastSyncResult@@3QBGB 1000173c     asutil:RegistryUtils.obj
+ 0001:0000075c       ?c_wszLastSyncAttempt@@3QBGB 1000175c     asutil:RegistryUtils.obj
+ 0001:0000077c       ?c_wszLastSyncSuccess@@3QBGB 1000177c     asutil:RegistryUtils.obj
+ 0001:0000079c       ?c_wszLastSyncResultDesktop@@3QBGB 1000179c     asutil:RegistryUtils.obj
+ 0001:000007c8       ?c_wszErrorSeverityDesktop@@3QBGB 100017c8     asutil:RegistryUtils.obj
+ 0001:000007f4       ?c_wszEnableNonLocalCrossPollination@@3QBGB 100017f4     asutil:RegistryUtils.obj
+ 0001:00000834       ?c_wszSyncWhenRoaming@@3QBGB 10001834     asutil:RegistryUtils.obj
+ 0001:00000854       ?c_wszEmailAddress@@3QBGB  10001854     asutil:RegistryUtils.obj
+ 0001:00000870       ?c_wszEmailAgeFilter@@3QBGB 10001870     asutil:RegistryUtils.obj
+ 0001:00000890       ?c_wszSendMailItemsImmediately@@3QBGB 10001890     asutil:RegistryUtils.obj
+ 0001:000008c4       ?c_wszCalendarAgeFilter@@3QBGB 100018c4     asutil:RegistryUtils.obj
+ 0001:000008e8       ?c_wszPreferredBodyType@@3QBGB 100018e8     asutil:RegistryUtils.obj
+ 0001:0000090c       ?c_wszMailFileAttachments@@3QBGB 1000190c     asutil:RegistryUtils.obj
+ 0001:00000934       ?c_wszMailBodyTruncation@@3QBGB 10001934     asutil:RegistryUtils.obj
+ 0001:0000095c       ?c_wszHTMLTruncation@@3QBGB 1000195c     asutil:RegistryUtils.obj
+ 0001:0000097c       ?c_wszDesktopEmailAndPIMSync@@3QBGB 1000197c     asutil:RegistryUtils.obj
+ 0001:000009b8       ?c_wszPeakDays@@3QBGB      100019b8     asutil:RegistryUtils.obj
+ 0001:000009cc       ?c_wszPeakStartTime@@3QBGB 100019cc     asutil:RegistryUtils.obj
+ 0001:000009e8       ?c_wszPeakEndTime@@3QBGB   100019e8     asutil:RegistryUtils.obj
+ 0001:00000a00       ?c_wszLogLineEnd@@3QBGB    10001a00     asutil:RegistryUtils.obj
+ 0001:00000a04       ?c_wszLastUIState@@3QBGB   10001a04     asutil:RegistryUtils.obj
+ 0001:00000a1c       ?c_wszDeviceSMSAddress@@3QBGB 10001a1c     asutil:RegistryUtils.obj
+ 0001:00000a40       ?c_wszCarrierConnector@@3QBGB 10001a40     asutil:RegistryUtils.obj
+ 0001:00000a64       ?c_wszDevicePhoneNumber@@3QBGB 10001a64     asutil:RegistryUtils.obj
+ 0001:00000a88       ?c_wszDeviceAddressingMethod@@3QBGB 10001a88     asutil:RegistryUtils.obj
+ 0001:00000ab8       ?c_wszCarrierConnectorList@@3QBGB 10001ab8     asutil:RegistryUtils.obj
+ 0001:00000ae4       ?c_wszRetryInterval@@3QBGB 10001ae4     asutil:RegistryUtils.obj
+ 0001:00000b00       ?c_wszRetryCount@@3QBGB    10001b00     asutil:RegistryUtils.obj
+ 0001:00000b18       ?c_wszImmediateRetryCount@@3QBGB 10001b18     asutil:RegistryUtils.obj
+ 0001:00000b40       ?c_wszRepllogExe@@3QBGB    10001b40     asutil:RegistryUtils.obj
+ 0001:00000b58       ?c_wszActiveSyncSvcName@@3QBGB 10001b58     asutil:RegistryUtils.obj
+ 0001:00000b70       ?c_wszHttpVerbPost@@3QBGB  10001b70     asutil:RegistryUtils.obj
+ 0001:00000b7c       ?c_wszHtmlView@@3QBGB      10001b7c     asutil:RegistryUtils.obj
+ 0001:00000b98       ?c_wszSyncSchedulerFile@@3QBGB 10001b98     asutil:RegistryUtils.obj
+ 0001:00000bdc       ?c_wszDataStoresLockName@@3QBGB 10001bdc     asutil:RegistryUtils.obj
+ 0001:00000c10       ?c_wszServerValName@@3QBGB 10001c10     asutil:RegistryUtils.obj
+ 0001:00000c20       ?c_wszServerNameChanged@@3QBGB 10001c20     asutil:RegistryUtils.obj
+ 0001:00000c44       ?c_wszStoreType@@3QBGB     10001c44     asutil:RegistryUtils.obj
+ 0001:00000c58       ?c_wszStoreId@@3QBGB       10001c58     asutil:RegistryUtils.obj
+ 0001:00000c68       ?c_wszNPWRunOnDevice@@3QBGB 10001c68     asutil:RegistryUtils.obj
+ 0001:00000c88       ?c_wszEnableValueName@@3QBGB 10001c88     asutil:RegistryUtils.obj
+ 0001:00000c98       ?c_wszSyncSecureSubkey@@3QBGB 10001c98     asutil:RegistryUtils.obj
+ 0001:00000ce8       ?c_wszName@@3QBGB          10001ce8     asutil:RegistryUtils.obj
+ 0001:00000cf4       ?c_wszMaxCalendarAgeFilter@@3QBGB 10001cf4     asutil:RegistryUtils.obj
+ 0001:00000d20       ?c_wszMaxEmailAgeFilter@@3QBGB 10001d20     asutil:RegistryUtils.obj
+ 0001:00000d44       ?c_wszMaxMailBodyTruncation@@3QBGB 10001d44     asutil:RegistryUtils.obj
+ 0001:00000d70       ?c_wszMaxMailFileAttachments@@3QBGB 10001d70     asutil:RegistryUtils.obj
+ 0001:00000da0       ?c_wszMaxHTMLTruncation@@3QBGB 10001da0     asutil:RegistryUtils.obj
+ 0001:00000dc4       ?c_wszMaxPeakFrequency@@3QBGB 10001dc4     asutil:RegistryUtils.obj
+ 0001:00000de8       ?c_wszMaxOffPeakFrequency@@3QBGB 10001de8     asutil:RegistryUtils.obj
+ 0001:00000e10       ?c_wszPeakDaysDeleted@@3QBGB 10001e10     asutil:RegistryUtils.obj
+ 0001:00000e30       ?c_wszPerItemErrors@@3QBGB 10001e30     asutil:RegistryUtils.obj
+ 0001:00000e4c       ?c_wszPerItemIndex@@3QBGB  10001e4c     asutil:RegistryUtils.obj
+ 0001:00000e68       ?c_wszPerItemField@@3QBGB  10001e68     asutil:RegistryUtils.obj
+ 0001:00000e8c       ?c_wszPerItemTimeLO@@3QBGB 10001e8c     asutil:RegistryUtils.obj
+ 0001:00000eac       ?c_wszPerItemTimeHI@@3QBGB 10001eac     asutil:RegistryUtils.obj
+ 0001:00000ecc       ?c_wszPerItemPriority@@3QBGB 10001ecc     asutil:RegistryUtils.obj
+ 0001:00000ef0       ??_C@_11LOCGONAA@?$AA?$AA@ 10001ef0     asutil:RegistryUtils.obj
+ 0001:00000f14       ?gc_PolicyInfoCalendarAgeFilter@@3UPolicyInfo@@B 10001f14     asutil:PolicyConst.obj
+ 0001:00000f34       ?gc_PolicyInfoEmailAgeFilter@@3UPolicyInfo@@B 10001f34     asutil:PolicyConst.obj
+ 0001:00000f5c       ?gc_PolicyInfoPreferredBodyType@@3UPolicyInfo@@B 10001f5c     asutil:PolicyConst.obj
+ 0001:00000fa4       ?gc_PolicyInfoMailBodyTruncation@@3UPolicyInfo@@B 10001fa4     asutil:PolicyConst.obj
+ 0001:00000ff0       ?gc_PolicyInfoHTMLTruncation@@3UPolicyInfo@@B 10001ff0     asutil:PolicyConst.obj
+ 0001:00001010       ?gc_PolicyInfoMailFileAttachments@@3UPolicyInfo@@B 10002010     asutil:PolicyConst.obj
+ 0001:00001054       ?gc_PolicyInfoPeakFrequency@@3UPolicyInfo@@B 10002054     asutil:PolicyConst.obj
+ 0001:00001074       ?gc_PolicyInfoOffPeakFrequency@@3UPolicyInfo@@B 10002074     asutil:PolicyConst.obj
+ 0001:00001094       ?gc_PolicyInfoSyncWhenRoaming@@3UPolicyInfo@@B 10002094     asutil:PolicyConst.obj
+ 0001:000010b4       ?gc_PolicyInfoDisableDesktopEmailAndPIMSync@@3UPolicyInfo@@B 100020b4     asutil:PolicyConst.obj
+ 0001:000010d4       ?gc_PolicyInfoPeakStartTime@@3UPolicyInfo@@B 100020d4     asutil:PolicyConst.obj
+ 0001:000010f4       ?gc_PolicyInfoPeakEndTime@@3UPolicyInfo@@B 100020f4     asutil:PolicyConst.obj
+ 0001:00001114       ?gc_PolicyInfoPeakDays@@3UPolicyInfo@@B 10002114     asutil:PolicyConst.obj
+ 0001:00001134       ?gc_PolicyInfoServerName@@3UPolicyInfo@@B 10002134     asutil:PolicyConst.obj
+ 0001:000011cc       _GUID_de9a742b_bfb1_4ec9_8326_353b488b0713 100021cc     asutil:ASUtil.obj
+ 0001:000011dc       _GUID_f96e0af6_3be4_4c5e_abef_7a588701f3a2 100021dc     asutil:ASUtil.obj
+ 0001:0000195c       ??_C@_1BC@MHOMGHJB@?$AAs?$AAy?$AAn?$AAc?$AAu?$AAt?$AAi?$AAl?$AA?$AA@ 1000295c     asutil:SyncDS.obj
+ 0001:00001970       _GUID_563477bf_cdcd_4fd5_8abc_c69d66ee0317 10002970     asutil:SyncDS.obj
+ 0001:00001980       _GUID_999254b8_24f2_4d0a_b4f6_6d44dff95d57 10002980     asutil:SyncDS.obj
+ 0001:00001990       WINDOWSMOBILE_SYNCSTATUS_PUBLISHER 10002990     asutil:SyncStatusNotification.obj
+ 0001:000019a0       SYNCSTATUS_EVENT           100029a0     asutil:SyncStatusNotification.obj
+ 0001:000019b0       ??_7_CUnknownBase@@6B@     100029b0     asutil:SyncStatusNotification.obj
+ 0001:000019c0       ??_7CUnknownPrivate@@6B@   100029c0     asutil:SyncStatusNotification.obj
+ 0001:000019d0       ??_7CSyncStatusNotification@@6BIActiveSyncStatusNotification@@@ 100029d0     asutil:SyncStatusNotification.obj
+ 0001:000019e8       ??_7CSyncStatusNotification@@6BCUnknownPrivate@@@ 100029e8     asutil:SyncStatusNotification.obj
+ 0001:000019f8       ?qit@?1??QueryInterface@CSyncStatusNotification@@UAAJABU_GUID@@PAPAX@Z@4QBUQITAB@@B 100029f8     asutil:SyncStatusNotification.obj
+ 0001:00001a08       _GUID_f569e32b_c82b_4e05_8a77_642ddd06916b 10002a08     asutil:SyncStatusNotification.obj
+ 0001:00001a18       ??_7CSyncStatusNotificationFactory@@6BIActiveSyncStatusNotification@@@ 10002a18     asutil:SyncStatusNotification.obj
+ 0001:00001a30       ??_7CSyncStatusNotificationFactory@@6BCUnknownPrivate@@@ 10002a30     asutil:SyncStatusNotification.obj
+ 0001:00001a40       ?qit@?1??QueryInterface@CSyncStatusNotificationFactory@@UAAJABU_GUID@@PAPAX@Z@4QBUQITAB@@B 10002a40     asutil:SyncStatusNotification.obj
+ 0001:00001a50       ??_C@_1GA@MJJFHBFP@?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?9?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AAM?$AAo?$AAb?$AAi?$AAl?$AAe?$AA?9?$AAS?$AAy?$AAn?$AAc?$AAS?$AAt?$AAa?$AAt@ 10002a50     asutil:SyncStatusNotification.obj
+ 0001:00001ac4       ?g_cftThisDll@@3QBUtagOBJECTINFO@@B 10002ac4     asutil:ProxyFactory.obj
+ 0001:00001adc       ??_C@_1CE@GHBINCLL@?$AAK?$AAe?$AAe?$AAp?$AAA?$AAw?$AAa?$AAk?$AAe?$AAI?$AAn?$AAt?$AAe?$AAr?$AAv?$AAa?$AAl?$AA?$AA@ 10002adc     asutil:PowerManager.obj
+ 0001:00001b00       ??_C@_1DG@GFNMFAAO@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAA?$AAc?$AAt?$AAi?$AAv?$AAe?$AAS?$AAy?$AAn?$AAc?$AA?2?$AAS?$AAe?$AAt?$AAt?$AAi?$AAn?$AAg?$AAs?$AA?$AA@ 10002b00     asutil:PowerManager.obj
+ 0001:00001b40       ??_7KeepAwakeEngine@@6B@   10002b40     asutil:PowerManager.obj
+ 0001:00001b54       ??_7KeepAwakeEngineImpl@@6B@ 10002b54     asutil:PowerManager.obj
+ 0001:00001b68       ??_7KeepAwakeEngineNop@@6B@ 10002b68     asutil:PowerManager.obj
+ 0001:00001b7c       ??_C@_1O@JCDEDDIF@?$AA?2?$AA?$CF?$AAs?$AA?2?$AA?$CF?$AAs?$AA?$AA@ 10002b7c     asutil_CEBase:syncperf.obj
+ 0001:00001b8c       ??_C@_1BO@CFDPMCFD@?$AAS?$AAy?$AAn?$AAc?$AAP?$AAe?$AAr?$AAf?$AAI?$AAn?$AAi?$AAt?$AAE?$AAx?$AA?$AA@ 10002b8c     asutil_CEBase:syncperf.obj
+ 0001:00001bac       ??_C@_1CC@OEMGBIGP@?$AAS?$AAy?$AAn?$AAc?$AAP?$AAe?$AAr?$AAf?$AAD?$AAe?$AAi?$AAn?$AAi?$AAt?$AAE?$AAx?$AA?$AA@ 10002bac     asutil_CEBase:syncperf.obj
+ 0001:00001bd0       ??_C@_1DA@LIOKDAFP@?$AAS?$AAy?$AAn?$AAc?$AAP?$AAe?$AAr?$AAf?$AAB?$AAe?$AAg?$AAi?$AAn?$AAD?$AAu?$AAr?$AAa?$AAt?$AAi?$AAo?$AAn?$AAE?$AAx?$AA?$AA@ 10002bd0     asutil_CEBase:syncperf.obj
+ 0001:00001c00       ??_C@_1CM@IKKENACB@?$AAS?$AAy?$AAn?$AAc?$AAP?$AAe?$AAr?$AAf?$AAE?$AAn?$AAd?$AAD?$AAu?$AAr?$AAa?$AAt?$AAi?$AAo?$AAn?$AAE?$AAx?$AA?$AA@ 10002c00     asutil_CEBase:syncperf.obj
+ 0001:00001c2c       ??_C@_1DA@MDAPJBHP@?$AAS?$AAy?$AAn?$AAc?$AAP?$AAe?$AAr?$AAf?$AAF?$AAl?$AAu?$AAs?$AAh?$AAA?$AAn?$AAd?$AAC?$AAl?$AAe?$AAa?$AAr?$AAE?$AAx?$AA?$AA@ 10002c2c     asutil_CEBase:syncperf.obj
+ 0001:00001c5c       ??_C@_1BK@EOOIDLAP@?$AAS?$AAy?$AAn?$AAc?$AAU?$AAt?$AAi?$AAl?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10002c5c     asutil_CEBase:syncperf.obj
+ 0001:00001c78       ??_C@_1BK@ICCCBMFA@?$AAs?$AAy?$AAn?$AAc?$AAp?$AAe?$AAr?$AAf?$AA?4?$AAt?$AAx?$AAt?$AA?$AA@ 10002c78     asutil_CEBase:syncperf.obj
+ 0001:00001c98       _GUID_6ef5edb3_822a_430c_a417_22af6ab0acbb 10002c98     SyncScheduler:SyncScheduler.obj
+ 0001:00001ca8       ?s_qit@CSyncScheduler@@1QBUQITAB@@B 10002ca8     SyncScheduler:SyncScheduler.obj
+ 0001:00001ce8       ?s_ScheduleDataDefault@CSyncScheduler@@1UScheduleData@1@B 10002ce8     SyncScheduler:SyncScheduler.obj
+ 0001:00001d08       ?s_DefaultScheduleGuid@CSyncScheduler@@1U_GUID@@B 10002d08     SyncScheduler:SyncScheduler.obj
+ 0001:00001d18       ?s_SchedulerMutex@CSyncScheduler@@1QBGB 10002d18     SyncScheduler:SyncScheduler.obj
+ 0001:00001d40       ??_C@_0BM@FPJFLGJB@?$CITime?5won?8t?5convert?$CJ?5?$CFs?$DN?$DN?$CFf?$AA@ 10002d40     SyncScheduler:SyncScheduler.obj
+ 0001:00001d5c       ??_C@_0CC@LOKDLIPG@?$CFs?$DN?$DN?$CF04d?9?$CF02d?9?$CF02d?5?$CF02d?3?$CF02d?3?$CF02@ 10002d5c     SyncScheduler:SyncScheduler.obj
+ 0001:00001d80       ??_7CSyncScheduler@@6B@    10002d80     SyncScheduler:SyncScheduler.obj
+ 0001:00001da8       ??_7?$CComObjectAuto@VCSyncSchedule@@@SYNC@@6B@ 10002da8     SyncScheduler:SyncScheduler.obj
+ 0001:00001df0       ??_7?$CComObject@VCSyncSchedule@@@SYNC@@6B@ 10002df0     SyncScheduler:SyncScheduler.obj
+ 0001:00001e34       ??_C@_07NHKNIGKF@MinTime?$AA@ 10002e34     SyncScheduler:SyncScheduler.obj
+ 0001:00001e3c       ??_C@_0CO@NOJFKJIM@Schedule?5Flags?3?5Enabled?$CI?$CFi?$CJ?0?5Exe@ 10002e3c     SyncScheduler:SyncScheduler.obj
+ 0001:00001e6c       ??_C@_0BM@BMPKBFOJ@CSyncScheduler?3?3FindMinTime?$AA@ 10002e6c     SyncScheduler:SyncScheduler.obj
+ 0001:00001e88       __real@3f36c16c16c16c17    10002e88     SyncScheduler:SyncScheduler.obj
+ 0001:00001e90       __real@3f46c16c16c16c17    10002e90     SyncScheduler:SyncScheduler.obj
+ 0001:00001e98       ??_C@_0DG@BPJDABOE@?$CF04d?9?$CF02d?9?$CF02d?5?$CF02d?3?$CF02d?3?$CF02d?0?5h@ 10002e98     SyncScheduler:SyncScheduler.obj
+ 0001:00001ed0       ??_C@_09GNBCACMP@Scheduled?$AA@ 10002ed0     SyncScheduler:SyncScheduler.obj
+ 0001:00001edc       ??_C@_1DO@IFDHFLNB@?$AA?2?$AA?2?$AA?4?$AA?2?$AAN?$AAo?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AAs?$AA?2?$AAN?$AAa?$AAm?$AAe?$AAd?$AAE?$AAv?$AAe?$AAn?$AAt?$AAs?$AA?2?$AA?$AA@ 10002edc     SyncScheduler:SyncScheduler.obj
+ 0001:00001f1c       ??_C@_0DF@GJFLELGA@Scheduling?5for?5the?5past?5?$CB?$CB?$CB?5Movi@ 10002f1c     SyncScheduler:SyncScheduler.obj
+ 0001:00001f54       ??_C@_0P@HPAHHINE@SQL?5Workaround?$AA@ 10002f54     SyncScheduler:SyncScheduler.obj
+ 0001:00001f64       ??_C@_0BB@PCFAFEJN@Result?5?$DN?$DN?50x?$CF08X?$AA@ 10002f64     SyncScheduler:SyncScheduler.obj
+ 0001:00001f78       ??_C@_0BP@BGIGCEMG@OS?5notify?50x?$CF08X?0?5ours?50x?$CF08X?5?$AA@ 10002f78     SyncScheduler:SyncScheduler.obj
+ 0001:00001f98       ??_C@_09EKGEPHIM@Verifying?$AA@ 10002f98     SyncScheduler:SyncScheduler.obj
+ 0001:00001fa4       ??_C@_0CF@KMMFCJMJ@CSyncScheduler?3?3VerifyOSNotifica@ 10002fa4     SyncScheduler:SyncScheduler.obj
+ 0001:00001fcc       ??_C@_0P@MDDOKCMM@Not?5scheduling?$AA@ 10002fcc     SyncScheduler:SyncScheduler.obj
+ 0001:00001fdc       ??_C@_0BM@BJBDODOP@CSyncScheduler?3?3ScheduleFor?$AA@ 10002fdc     SyncScheduler:SyncScheduler.obj
+ 0001:00001ff8       ??_7?$CComObject@VCSyncScheduler@@@SYNC@@6B@ 10002ff8     SyncScheduler:SyncScheduler.obj
+ 0001:0000201c       ??_C@_0BA@KIEFDDED@Reschedule?5Done?$AA@ 1000301c     SyncScheduler:SyncScheduler.obj
+ 0001:0000202c       ??_C@_0BL@IOJOKLCH@CSyncScheduler?3?3Reschedule?$AA@ 1000302c     SyncScheduler:SyncScheduler.obj
+ 0001:00002048       ??_C@_0BH@IAIMDAEH@Schedule?5Save?5COMPLETE?$AA@ 10003048     SyncScheduler:SyncScheduler.obj
+ 0001:00002060       ??_C@_0BH@DDKILKBA@CSyncScheduler?3?3DoSave?$AA@ 10003060     SyncScheduler:SyncScheduler.obj
+ 0001:00002078       __real@7fefffffffffffff    10003078     SyncScheduler:SyncScheduler.obj
+ 0001:00002080       ??_C@_0BD@NOAGGKCC@Exit?0?5hr?5?$DN?$DN?50x?$CF08X?$AA@ 10003080     SyncScheduler:SyncScheduler.obj
+ 0001:00002094       ??_C@_0BD@BCEBGDBN@Disabling?5schedule?$AA@ 10003094     SyncScheduler:SyncScheduler.obj
+ 0001:000020a8       ??_C@_0CB@NLKNAGLG@CSyncScheduler?3?3DoVerifySchedule@ 100030a8     SyncScheduler:SyncScheduler.obj
+ 0001:000020ec       ??_C@_1BM@IJACJCOD@?$AAS?$AAy?$AAn?$AAc?$AAS?$AAc?$AAh?$AAe?$AAd?$AAu?$AAl?$AAe?$AAr?$AA?$AA@ 100030ec     SyncScheduler:SchedulerDatabase.obj
+ 0001:00002108       _GUID_b206a8d3_ef96_42ae_bd18_e49806e99f46 10003108     SyncScheduler:SyncSchedule.obj
+ 0001:00002250       ?s_qit@CSyncSchedule@@1QBUQITAB@@B 10003250     SyncScheduler:SyncSchedule.obj
+ 0001:00002260       ??_C@_1CM@KKKNDEHJ@?$AAG?$AAe?$AAt?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAF?$AAe?$AAa?$AAt?$AAu?$AAr?$AAe?$AAL?$AAe?$AAv?$AAe?$AAl?$AA?$AA@ 10003260     SyncScheduler:SyncSchedule.obj
+ 0001:0000228c       ??_C@_1BO@LLFHENEM@?$AAC?$AAE?$AAa?$AAy?$AAg?$AAs?$AAh?$AAe?$AAl?$AAl?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 1000328c     SyncScheduler:SyncSchedule.obj
+ 0001:000022ac       ??_C@_0BI@FCCBEEHN@CSyncSchedule?3?3Override?$AA@ 100032ac     SyncScheduler:SyncSchedule.obj
+ 0001:000022c4       ??_C@_0CN@PIKJFDEO@Peak?$DN?$CFu?0?5Offp?$DN?$CFu?0?5Enable?$DN?$CFi?0?5Exe@ 100032c4     SyncScheduler:SyncSchedule.obj
+ 0001:000022f4       ??_C@_05EHPGHEDK@Begin?$AA@ 100032f4     SyncScheduler:SyncSchedule.obj
+ 0001:000022fc       ??_C@_03DBKJMAGF@End?$AA@  100032fc     SyncScheduler:SyncSchedule.obj
+ 0001:00002300       ??_C@_0BJ@BPDCDIJC@CSyncSchedule?3?3SaveProps?$AA@ 10003300     SyncScheduler:SyncSchedule.obj
+ 0001:0000242c       ??_C@_1BM@FIOBPDGN@?$AAR?$AAe?$AAt?$AAa?$AAi?$AAl?$AAL?$AAo?$AAg?$AAI?$AAn?$AAi?$AAt?$AA?$AA@ 1000342c     RetailLogUtils:RetailLogUtils.obj
+ 0001:00002448       ??_C@_1CA@LMKOGJND@?$AAR?$AAe?$AAt?$AAa?$AAi?$AAl?$AAL?$AAo?$AAg?$AAD?$AAe?$AAi?$AAn?$AAi?$AAt?$AA?$AA@ 10003448     RetailLogUtils:RetailLogUtils.obj
+ 0001:00002468       ??_C@_1CC@NAPDKAPI@?$AAR?$AAe?$AAt?$AAa?$AAi?$AAl?$AAL?$AAo?$AAg?$AAR?$AAe?$AAf?$AAr?$AAe?$AAs?$AAh?$AA?$AA@ 10003468     RetailLogUtils:RetailLogUtils.obj
+ 0001:0000248c       ??_C@_1BO@BPOPDOPP@?$AAR?$AAe?$AAt?$AAa?$AAi?$AAl?$AAL?$AAo?$AAg?$AAE?$AAn?$AAt?$AAe?$AAr?$AA?$AA@ 1000348c     RetailLogUtils:RetailLogUtils.obj
+ 0001:000024ac       ??_C@_1BM@PIAJCLEP@?$AAR?$AAe?$AAt?$AAa?$AAi?$AAl?$AAL?$AAo?$AAg?$AAE?$AAx?$AAi?$AAt?$AA?$AA@ 100034ac     RetailLogUtils:RetailLogUtils.obj
+ 0001:000024c8       ??_C@_1CC@CNCAJOCE@?$AAR?$AAe?$AAt?$AAa?$AAi?$AAl?$AAL?$AAo?$AAg?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AA?$AA@ 100034c8     RetailLogUtils:RetailLogUtils.obj
+ 0001:000024ec       ??_C@_1BM@DPHKBOGP@?$AAR?$AAe?$AAt?$AAa?$AAi?$AAl?$AAL?$AAo?$AAg?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 100034ec     RetailLogUtils:RetailLogUtils.obj
+ 0001:00002508       ??_C@_1CG@OKLECKOC@?$AAR?$AAe?$AAm?$AAo?$AAt?$AAe?$AAS?$AAy?$AAn?$AAc?$AAS?$AAe?$AAr?$AAv?$AAe?$AAr?$AAO?$AAn?$AA?$AA@ 10003508     SyncAppProxy:SyncAppProxy.obj
+ 0001:00002530       ??_C@_1BM@KJACCPCE@?$AAR?$AAe?$AAm?$AAo?$AAt?$AAe?$AAS?$AAy?$AAn?$AAc?$AAA?$AAp?$AAp?$AA?$AA@ 10003530     SyncAppProxy:SyncAppProxy.obj
+ 0001:00002584       ??_7CSyncProxy@@6BIActiveSyncAppPriv@@@ 10003584     SyncAppProxy:SyncAppProxy.obj
+ 0001:000025b4       ??_7CSyncProxy@@6BCUnknownPrivate@@@ 100035b4     SyncAppProxy:SyncAppProxy.obj
+ 0001:000025c4       ??_C@_1CG@ODGDNOAC@?$AAA?$AAc?$AAt?$AAi?$AAv?$AAe?$AAS?$AAy?$AAn?$AAc?$AA?3?$AAS?$AAt?$AAa?$AAr?$AAt?$AAe?$AAd?$AA?$AA@ 100035c4     SyncAppProxy:SyncAppProxy.obj
+ 0001:000025ec       ??_C@_1BI@CFDKNLLC@?$AAr?$AAe?$AAp?$AAl?$AAl?$AAo?$AAg?$AA?4?$AAe?$AAx?$AAe?$AA?$AA@ 100035ec     SyncAppProxy:SyncAppProxy.obj
+ 0001:00002604       ??_C@_1BA@EONDGCCM@?$AAn?$AAc?$AAa?$AAl?$AAr?$AAp?$AAc?$AA?$AA@ 10003604     SyncAppProxy:SyncAppProxy.obj
+ 0001:000027f0       SyncDataMail               100037f0     ASUUID:ActiveSyncUuid.obj
+ 0001:00002800       SyncDataContacts           10003800     ASUUID:ActiveSyncUuid.obj
+ 0001:00002810       SyncDataCalendar           10003810     ASUUID:ActiveSyncUuid.obj
+ 0001:00002820       SyncDataTasks              10003820     ASUUID:ActiveSyncUuid.obj
+ 0001:00002830       SyncDataNotes              10003830     ASUUID:ActiveSyncUuid.obj
+ 0001:00002840       SyncDataFavorites          10003840     ASUUID:ActiveSyncUuid.obj
+ 0001:00002850       SyncDataFiles              10003850     ASUUID:ActiveSyncUuid.obj
+ 0001:00002860       SyncDataDesktopSSP         10003860     ASUUID:ActiveSyncUuid.obj
+ 0001:00002870       SyncDataAccess             10003870     ASUUID:ActiveSyncUuid.obj
+ 0001:00002880       SyncDataMedia              10003880     ASUUID:ActiveSyncUuid.obj
+ 0001:00002890       SyncDataSMS                10003890     ASUUID:ActiveSyncUuid.obj
+ 0001:000028a0       CLSID_DesktopSyncEngine    100038a0     ASUUID:ActiveSyncUuid.obj
+ 0001:000028b0       CLSID_ServerSyncEngine     100038b0     ASUUID:ActiveSyncUuid.obj
+ 0001:000028c0       CLSID_ServerSyncEngineDsktp 100038c0     ASUUID:ActiveSyncUuid.obj
+ 0001:000028d0       CLSID_ServerSyncEngineWelcome 100038d0     ASUUID:ActiveSyncUuid.obj
+ 0001:000028e0       IID_IActiveSyncScheduler   100038e0     IActiveSyncPrivate:ActiveSyncCtrl_i.obj
+ 0001:000028f0       IID_IActiveSyncAppPriv     100038f0     IActiveSyncPrivate:ActiveSyncCtrl_i.obj
+ 0001:00002900       CLSID_ActiveSyncScheduler  10003900     IActiveSyncPrivate:ActiveSyncCtrl_i.obj
+ 0001:00002910       GUID_NULL                  10003910     uuid:dcomuuid.obj
+ 0001:00002920       IID_IUnknown               10003920     uuid:dcomuuid.obj
+ 0001:00002930       IID_IClassFactory          10003930     uuid:dcomuuid.obj
+ 0001:00002940       __imp_?c_wszRepllogExe@@3QBGB 10003940     <linker-defined>
+ 0001:00002944       __imp_?c_wszSyncSchedulerFile@@3QBGB 10003944     <linker-defined>
+ 0001:0000296c       DllMain                    1000396c f   asutil:dllmain.obj
+ 0001:0000299c       ?IsCradled@CSyncInfo@@UAAHXZ 1000399c f   asutil:SyncInfo.obj
+ 0001:000029d4       ?IsSynchronizing@CSyncInfo@@UAAHXZ 100039d4 f   asutil:SyncInfo.obj
+ 0001:000029dc       ?CurrentPeakTime@CSyncInfo@@CAXAAUCalcPeak@1@@Z 100039dc f   asutil:SyncInfo.obj
+ 0001:00002ac8       ?QueryInterface@?$CComObjectAuto@VCSyncInfo@@@SYNC@@UAAJABU_GUID@@PAPAX@Z 10003ac8 f i asutil:SyncInfo.obj
+ 0001:00002adc       ?AddRef@?$CComObjectAuto@VCSyncInfo@@@SYNC@@UAAKXZ 10003adc f i asutil:SyncInfo.obj
+ 0001:00002ae4       ?Release@?$CComObjectAuto@VCSyncInfo@@@SYNC@@UAAKXZ 10003ae4 f i asutil:SyncInfo.obj
+ 0001:00002aec       CSyncInfo_GetSyncInfo      10003aec f   asutil:SyncInfo.obj
+ 0001:00002b0c       ?IsPeakTime@CSyncInfo@@UAAHXZ 10003b0c f   asutil:SyncInfo.obj
+ 0001:00002b48       ?GetTimeTillTransition@CSyncInfo@@UAAJPAK@Z 10003b48 f   asutil:SyncInfo.obj
+ 0001:00002bf4       ?ReadPeakTimes@@YAJPAUPeakTimes@@@Z 10003bf4 f   asutil:SyncInfo.obj
+ 0001:00002c5c       ?QueryInterface@?$CComObject@VCSyncInfo@@@SYNC@@UAAJABU_GUID@@PAPAX@Z 10003c5c f i asutil:SyncInfo.obj
+ 0001:00002c70       ?AddRef@?$CComObject@VCSyncInfo@@@SYNC@@UAAKXZ 10003c70 f i asutil:SyncInfo.obj
+ 0001:00002c78       ?GetPeakTimes@CSyncInfo@@UAAJPAUPeakTimes@@@Z 10003c78 f   asutil:SyncInfo.obj
+ 0001:00002c80       ?Release@?$CComObject@VCSyncInfo@@@SYNC@@UAAKXZ 10003c80 f i asutil:SyncInfo.obj
+ 0001:00002cc0       ?CreateInstance@?$CComObject@VCSyncInfo@@@SYNC@@SAJPAPAVCSyncInfo@@@Z 10003cc0 f i asutil:SyncInfo.obj
+ 0001:00002d10       ?CActiveSyncInfo_Create@@YAJPAUIUnknown@@PAPAU1@PAVCClassFactory@@@Z 10003d10 f   asutil:SyncInfo.obj
+ 0001:00002d88       GetLocalVariantTime        10003d88 f   asutil:CalcSchedule.obj
+ 0001:00002dc4       GetSystemVariantTime       10003dc4 f   asutil:CalcSchedule.obj
+ 0001:00002fbc       SchedFileTimeToVariantTime 10003fbc f   asutil:CalcSchedule.obj
+ 0001:00003050       SchedVariantTimeToFileTime 10004050 f   asutil:CalcSchedule.obj
+ 0001:000032a8       ?CalculateScheduleTime@@YAJW4eSchedulerEvents@@PAUIActiveSyncInfo@@KKKPAUSyncTime@@@Z 100042a8 f   asutil:CalcSchedule.obj
+ 0001:000033e8       IsSilentRetryInProgress    100043e8 f   asutil:CalcSchedule.obj
+ 0001:0000343c       IsRetryInProgress          1000443c f   asutil:CalcSchedule.obj
+ 0001:0000348c       ?ConnectThruAddrInfo@@YAIPAUaddrinfo@@K@Z 1000448c f   asutil:ipv6util.obj
+ 0001:00003550       ?SetIPPort@@YAXPAUsockaddr_storage_xp@@G@Z 10004550 f   asutil:ipv6util.obj
+ 0001:00003588       ?ConnectToServer@@YAIPBDGKPAUsockaddr_storage_xp@@@Z 10004588 f   asutil:ipv6util.obj
+ 0001:000036a8       ?ConnectToServerW@@YAIPBGGKPAUsockaddr_storage_xp@@@Z 100046a8 f   asutil:ipv6util.obj
+ 0001:00003768       ?CreatePath@@YAJPBG@Z      10004768 f   asutil:FileUtil.obj
+ 0001:0000382c       ?CreatePathAndOpenFile@@YAJPBGKKPAPAX@Z 1000482c f   asutil:FileUtil.obj
+ 0001:00003918       ?DeleteLogs@@YAJU_GUID@@@Z 10004918 f   asutil:FileUtil.obj
+ 0001:00003b64       ?GetCanonicalDataDirectory@@YAJPAGK@Z 10004b64 f   asutil:FileUtil.obj
+ 0001:00003c54       ?GetErrorFilePath@@YAJPAGIPBG@Z 10004c54 f   asutil:FileUtil.obj
+ 0001:00003d30       ?GetDataFileName@@YAJPBGPAGI@Z 10004d30 f   asutil:FileUtil.obj
+ 0001:00003d64       ?GetSyncFilePath@@YAJPBGPAGI@Z 10004d64 f   asutil:FileUtil.obj
+ 0001:00003dd8       ?VWriteFormattedStringToFile@@YAJPAXPBDPAD@Z 10004dd8 f   asutil:FileUtil.obj
+ 0001:00003eac       ?WriteFormattedStringToFile@@YAJPAXPBDZZ 10004eac f   asutil:FileUtil.obj
+ 0001:00003ee4       ?TraceMessage@@YAJKKPBGZZ  10004ee4 f i asutil:TraceSync.obj
+ 0001:00003f00       ??0CTraceSync@@AAA@XZ      10004f00 f   asutil:TraceSync.obj
+ 0001:00003fc8       ?GetInstance@CTraceSync@@SAPAV1@XZ 10004fc8 f   asutil:TraceSync.obj
+ 0001:00003ff8       ?GetCurrentLogFileName@CTraceSync@@QAAJPAGK@Z 10004ff8 f   asutil:TraceSync.obj
+ 0001:00004044       ?GetCurrentTraceFileName@@YAJPAGK@Z 10005044 f   asutil:TraceSync.obj
+ 0001:0000406c       ?OpenFile@CTraceSync@@AAAPAXXZ 1000506c f   asutil:TraceSync.obj
+ 0001:000040dc       ?TraceSyncOpen@CTraceSync@@AAAPAXK@Z 100050dc f   asutil:TraceSync.obj
+ 0001:000041ac       ?Trace@CTraceSync@@QAAXKPADK@Z 100051ac f   asutil:TraceSync.obj
+ 0001:00004218       ?TraceSync@@YAXKPBD0ZZ     10005218 f   asutil:TraceSync.obj
+ 0001:000043f0       ?GetRank@@YAJPBUPolicyInfo@@KPAKPAH@Z 100053f0 f   asutil:PolicyUtil.obj
+ 0001:00004498       ?GetPolicyValue@@YAJPBUPolicyInfo@@PAKPAH@Z 10005498 f   asutil:PolicyUtil.obj
+ 0001:0000459c       ?GetPolicyCompliantSetting@@YAJPBUPolicyInfo@@PBK1PAK@Z 1000559c f   asutil:PolicyUtil.obj
+ 0001:00004804       GetRegSZ                   10005804 f   asutil:RegistryUtils.obj
+ 0001:00004854       SetRegSZ                   10005854 f   asutil:RegistryUtils.obj
+ 0001:0000492c       GetRegSZSize               1000592c f   asutil:RegistryUtils.obj
+ 0001:000049f0       GetRegDWORD                100059f0 f   asutil:RegistryUtils.obj
+ 0001:00004ad4       SetRegDWORD                10005ad4 f   asutil:RegistryUtils.obj
+ 0001:00004b8c       GetRegFileTime             10005b8c f   asutil:RegistryUtils.obj
+ 0001:00004c70       SetRegFileTime             10005c70 f   asutil:RegistryUtils.obj
+ 0001:00004d24       GetRegBSTR                 10005d24 f   asutil:RegistryUtils.obj
+ 0001:00004dcc       GetRegGUID                 10005dcc f   asutil:RegistryUtils.obj
+ 0001:00004e3c       ?DeleteRegValue@@YAJPAUHKEY__@@PBG1@Z 10005e3c f   asutil:RegistryUtils.obj
+ 0001:00004ec8       SyncCreateRegKey           10005ec8 f   asutil:RegistryUtils.obj
+ 0001:00005020       SyncOpenRegKey             10006020 f   asutil:RegistryUtils.obj
+ 0001:00005148       SyncDeleteRegValue         10006148 f   asutil:RegistryUtils.obj
+ 0001:000051bc       DeleteLegacyRegistry       100061bc f   asutil:RegistryUtils.obj
+ 0001:00005328       GetCurrentPartnerBit       10006328 f   asutil:RegistryUtils.obj
+ 0001:000053a0       GetDataSource              100063a0 f   asutil:RegistryUtils.obj
+ 0001:000054b8       GetStatStorCradled         100064b8 f   asutil:RegistryUtils.obj
+ 0001:000054e8       SetStatStorCradled         100064e8 f   asutil:RegistryUtils.obj
+ 0001:00005500       GetStatStorSynchronizing   10006500 f   asutil:RegistryUtils.obj
+ 0001:00005530       SetStatStorSynchronizing   10006530 f   asutil:RegistryUtils.obj
+ 0001:00005548       SyncGetRegistryDWORD       10006548 f   asutil:RegistryUtils.obj
+ 0001:000055c8       SyncGetRegistryDWORDAsBOOL 100065c8 f   asutil:RegistryUtils.obj
+ 0001:00005600       SyncGetRegistryDWORDAsPositiveInt 10006600 f   asutil:RegistryUtils.obj
+ 0001:00005640       SyncGetRegistrySZ          10006640 f   asutil:RegistryUtils.obj
+ 0001:000056f4       SyncGetRegistrySZSize      100066f4 f   asutil:RegistryUtils.obj
+ 0001:0000576c       SyncGetRegistryBSTR        1000676c f   asutil:RegistryUtils.obj
+ 0001:00005864       SyncGetRegistryFileTime    10006864 f   asutil:RegistryUtils.obj
+ 0001:000058e0       SyncSetRegistryDWORD       100068e0 f   asutil:RegistryUtils.obj
+ 0001:00005948       SyncSetRegistrySZ          10006948 f   asutil:RegistryUtils.obj
+ 0001:000059b0       SyncSetRegistryFileTime    100069b0 f   asutil:RegistryUtils.obj
+ 0001:00005a18       ReadAndAllocStringFromReg  10006a18 f   asutil:RegistryUtils.obj
+ 0001:00005ae0       GetCurrentDataSource       10006ae0 f   asutil:RegistryUtils.obj
+ 0001:00005af8       ReleaseDataStoreLock       10006af8 f   asutil:SourceLock.obj
+ 0001:00005b1c       ReleaseDataStoreLockAll    10006b1c f   asutil:SourceLock.obj
+ 0001:00005b48       AcquireDataStoreLockEx     10006b48 f   asutil:SourceLock.obj
+ 0001:00005c0c       AcquireDataStoreLock       10006c0c f   asutil:SourceLock.obj
+ 0001:00005cb8       IsNetworkError             10006cb8 f   asutil:ASUtil.obj
+ 0001:00005cf8       WriteCurrentFileTimeToReg  10006cf8 f   asutil:ASUtil.obj
+ 0001:00005d44       TrimWhiteSpaces            10006d44 f   asutil:ASUtil.obj
+ 0001:00005dec       PostMessageToSyncApp       10006dec f   asutil:ASUtil.obj
+ 0001:00005e2c       GetDesktopHostAddress      10006e2c f   asutil:ASUtil.obj
+ 0001:00005eb8       SetDesktopHostAddress      10006eb8 f   asutil:ASUtil.obj
+ 0001:00005f80       ClearDesktopHostAddress    10006f80 f   asutil:ASUtil.obj
+ 0001:00005f90       WideCharToMultiByteEx2     10006f90 f   asutil:ASUtil.obj
+ 0001:0000612c       WideCharToMultiByteEx      1000712c f   asutil:ASUtil.obj
+ 0001:00006150       EnableDefaultSchedule      10007150 f   asutil:ASUtil.obj
+ 0001:00006258       ?_GetProcFromDLL@@YAXPAPAUHINSTANCE__@@PBGPAP6AHXZ1@Z 10007258 f   asutil:SyncDS.obj
+ 0001:000062ac       ?fnDeletePwd@@YAJABU_GUID@@@Z 100072ac f   asutil:SyncDS.obj
+ 0001:000062fc       EnumDataSourceNext         100072fc f   asutil:SyncDS.obj
+ 0001:0000631c       EnumDataSourceClose        1000731c f   asutil:SyncDS.obj
+ 0001:00006340       EnumDataTypeNext           10007340 f   asutil:SyncDS.obj
+ 0001:00006360       EnumDataTypeClose          10007360 f   asutil:SyncDS.obj
+ 0001:0000638c       ?OpenDataSourceKey@@YAJABU_GUID@@PAPAUHKEY__@@@Z 1000738c f   asutil:SyncDS.obj
+ 0001:00006458       ?CreateDataSourceKey@@YAJABU_GUID@@PAPAUHKEY__@@@Z 10007458 f   asutil:SyncDS.obj
+ 0001:00006584       GetDataSourceProps         10007584 f   asutil:SyncDS.obj
+ 0001:00006700       EnumAllDataSources         10007700 f   asutil:SyncDS.obj
+ 0001:00006764       ?CountEnginesSources@@YAJABU_GUID@@PAK@Z 10007764 f   asutil:SyncDS.obj
+ 0001:00006858       CountServerSources         10007858 f   asutil:SyncDS.obj
+ 0001:00006870       CountSources               10007870 f   asutil:SyncDS.obj
+ 0001:000069c0       GetServerSource            100079c0 f   asutil:SyncDS.obj
+ 0001:00006b7c       IsSourceDataTypeEnabled    10007b7c f   asutil:SyncDS.obj
+ 0001:00006c34       GetSyncStoreId             10007c34 f   asutil:SyncDS.obj
+ 0001:00006cd8       EnumAllDataTypes           10007cd8 f   asutil:SyncDS.obj
+ 0001:00006d54       CountDataTypes             10007d54 f   asutil:SyncDS.obj
+ 0001:00006f18       IsDataTypeAvailable        10007f18 f   asutil:SyncDS.obj
+ 0001:000070c0       IsAnySourceDataTypeEnabled 100080c0 f   asutil:SyncDS.obj
+ 0001:00007180       FindDataTypeInfo           10008180 f   asutil:SyncDS.obj
+ 0001:000072e8       GetDatatypeOwners          100082e8 f   asutil:SyncDS.obj
+ 0001:0000765c       RenameSyncStore            1000865c f   asutil:SyncDS.obj
+ 0001:00007744       SetDataSourceProps         10008744 f   asutil:SyncDS.obj
+ 0001:00007994       IsDataTypeEnabled          10008994 f   asutil:SyncDS.obj
+ 0001:000079c4       CreateSyncStore            100089c4 f   asutil:SyncDS.obj
+ 0001:00007b3c       DeleteSyncStore            10008b3c f   asutil:SyncDS.obj
+ 0001:00007c44       DeleteDataSource           10008c44 f   asutil:SyncDS.obj
+ 0001:00007dc8       CreateDataSource           10008dc8 f   asutil:SyncDS.obj
+ 0001:0000804c       ?QueryInterface@_CUnknownBase@@UAAJABU_GUID@@PAPAX@Z 1000904c f i asutil:SyncStatusNotification.obj
+ 0001:00008058       ?AddRef@_CUnknownBase@@UAAKXZ 10009058 f i asutil:SyncStatusNotification.obj
+ 0001:00008060       ?Release@_CUnknownBase@@UAAKXZ 10009060 f i asutil:SyncStatusNotification.obj
+ 0001:00008098       ??_G_CUnknownBase@@MAAPAXI@Z 10009098 f i asutil:SyncStatusNotification.obj
+ 0001:00008098       ??_E_CUnknownBase@@MAAPAXI@Z 10009098 f i asutil:SyncStatusNotification.obj
+ 0001:000080bc       ?ExitNotificationThread@CSyncStatusNotification@@AAAXXZ 100090bc f   asutil:SyncStatusNotification.obj
+ 0001:00008114       ??_ECUnknownPrivate@@UAAPAXI@Z 10009114 f i asutil:SyncStatusNotification.obj
+ 0001:00008114       ??_GCUnknownPrivate@@UAAPAXI@Z 10009114 f i asutil:SyncStatusNotification.obj
+ 0001:00008138       ?Init@CSyncStatusNotification@@QAAJXZ 10009138 f   asutil:SyncStatusNotification.obj
+ 0001:00008188       ?SendNotification@CSyncStatusNotification@@UAAJPAUSyncStatusEventData@@@Z 10009188 f   asutil:SyncStatusNotification.obj
+ 0001:000082a4       ?NotifySink@CSyncStatusNotification@@AAAJPAUSyncStatusEventData@@PAUIActiveSyncAppNotify@@@Z 100092a4 f   asutil:SyncStatusNotification.obj
+ 0001:000083c0       ?get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ 100093c0 f i asutil:SyncStatusNotification.obj
+ 0001:00008414       ?get_lock@?$singleton@VCSyncStatusNotification@@$0A@V?$static_allocator@VCSyncStatusNotification@@$0A@@ce@@@ce@@KAAAVcritical_section@2@XZ 10009414 f i asutil:SyncStatusNotification.obj
+ 0001:00008468       ?erase@?$vector@PAUIActiveSyncAppNotify@@Vallocator@ce@@U?$exponential_growth@$09@3@@ce@@QAAPAPAUIActiveSyncAppNotify@@PAPAU3@0@Z 10009468 f i asutil:SyncStatusNotification.obj
+ 0001:000084c0       ?release@?$singleton@VCSyncStatusNotification@@$0A@V?$static_allocator@VCSyncStatusNotification@@$0A@@ce@@@ce@@SAXXZ 100094c0 f i asutil:SyncStatusNotification.obj
+ 0001:00008538       ?erase@?$vector@PAUIActiveSyncAppNotify@@V?$reference_allocator@Vallocator@ce@@@details@ce@@U?$exponential_growth@$09@4@@ce@@QAAPAPAUIActiveSyncAppNotify@@PAPAU3@0@Z 10009538 f i asutil:SyncStatusNotification.obj
+ 0001:00008590       ?Unadvise@CSyncStatusNotification@@UAAJPAUIActiveSyncAppNotify@@@Z 10009590 f   asutil:SyncStatusNotification.obj
+ 0001:00008640       ?ClearSinks@CSyncStatusNotification@@AAAXXZ 10009640 f   asutil:SyncStatusNotification.obj
+ 0001:00008674       ??0CSyncStatusNotification@@QAA@XZ 10009674 f   asutil:SyncStatusNotification.obj
+ 0001:000086ec       ?AddRef@CSyncStatusNotification@@UAAKXZ 100096ec f i asutil:SyncStatusNotification.obj
+ 0001:000086f4       ?Release@CSyncStatusNotification@@UAAKXZ 100096f4 f i asutil:SyncStatusNotification.obj
+ 0001:0000872c       ?QueryInterface@CSyncStatusNotification@@UAAJABU_GUID@@PAPAX@Z 1000972c f i asutil:SyncStatusNotification.obj
+ 0001:00008740       ?Release@CSyncStatusNotification@@W3AAKXZ 10009740 f i asutil:SyncStatusNotification.obj
+ 0001:00008748       ??_ECSyncStatusNotification@@W3AAPAXI@Z 10009748 f i asutil:SyncStatusNotification.obj
+ 0001:00008750       ?AddRef@CSyncStatusNotification@@W3AAKXZ 10009750 f i asutil:SyncStatusNotification.obj
+ 0001:00008758       ?QueryInterface@CSyncStatusNotification@@W3AAJABU_GUID@@PAPAX@Z 10009758 f i asutil:SyncStatusNotification.obj
+ 0001:00008760       ??1CSyncStatusNotification@@UAA@XZ 10009760 f   asutil:SyncStatusNotification.obj
+ 0001:000087d0       ?create@?$singleton@VCSyncStatusNotification@@$0A@V?$static_allocator@VCSyncStatusNotification@@$0A@@ce@@@ce@@KAXXZ 100097d0 f i asutil:SyncStatusNotification.obj
+ 0001:00008834       ?_Insert_dispatch@?$vector@PAUIActiveSyncAppNotify@@Vallocator@ce@@U?$exponential_growth@$09@3@@ce@@AAA_NPAPAUIActiveSyncAppNotify@@IABQAU3@ABUtrue_type@detail@2@@Z 10009834 f i asutil:SyncStatusNotification.obj
+ 0001:00008a54       ??_GCSyncStatusNotification@@UAAPAXI@Z 10009a54 f i asutil:SyncStatusNotification.obj
+ 0001:00008a54       ??_ECSyncStatusNotification@@UAAPAXI@Z 10009a54 f i asutil:SyncStatusNotification.obj
+ 0001:00008a78       ?Advise@CSyncStatusNotificationFactory@@UAAJPAUIActiveSyncAppNotify@@@Z 10009a78 f   asutil:SyncStatusNotification.obj
+ 0001:00008abc       ?Unadvise@CSyncStatusNotificationFactory@@UAAJPAUIActiveSyncAppNotify@@@Z 10009abc f   asutil:SyncStatusNotification.obj
+ 0001:00008b00       ?SendNotification@CSyncStatusNotificationFactory@@UAAJPAUSyncStatusEventData@@@Z 10009b00 f   asutil:SyncStatusNotification.obj
+ 0001:00008b3c       ?insert@?$vector@PAUIActiveSyncAppNotify@@Vallocator@ce@@U?$exponential_growth@$09@3@@ce@@QAAPAPAUIActiveSyncAppNotify@@PAPAU3@ABQAU3@@Z 10009b3c f i asutil:SyncStatusNotification.obj
+ 0001:00008b88       ??0CSyncStatusNotificationFactory@@IAA@XZ 10009b88 f i asutil:SyncStatusNotification.obj
+ 0001:00008be4       ?AddRef@CSyncStatusNotificationFactory@@UAAKXZ 10009be4 f i asutil:SyncStatusNotification.obj
+ 0001:00008bec       ?Release@CSyncStatusNotificationFactory@@UAAKXZ 10009bec f i asutil:SyncStatusNotification.obj
+ 0001:00008c24       ?QueryInterface@CSyncStatusNotificationFactory@@UAAJABU_GUID@@PAPAX@Z 10009c24 f i asutil:SyncStatusNotification.obj
+ 0001:00008c38       ?QueryInterface@CSyncStatusNotificationFactory@@W3AAJABU_GUID@@PAPAX@Z 10009c38 f i asutil:SyncStatusNotification.obj
+ 0001:00008c40       ?Release@CSyncStatusNotificationFactory@@W3AAKXZ 10009c40 f i asutil:SyncStatusNotification.obj
+ 0001:00008c48       ??_ECSyncStatusNotificationFactory@@W3AAPAXI@Z 10009c48 f i asutil:SyncStatusNotification.obj
+ 0001:00008c50       ?AddRef@CSyncStatusNotificationFactory@@W3AAKXZ 10009c50 f i asutil:SyncStatusNotification.obj
+ 0001:00008c58       ??_ECSyncStatusNotificationFactory@@UAAPAXI@Z 10009c58 f i asutil:SyncStatusNotification.obj
+ 0001:00008c58       ??_GCSyncStatusNotificationFactory@@UAAPAXI@Z 10009c58 f i asutil:SyncStatusNotification.obj
+ 0001:00008c94       CreateSyncStatusNotification 10009c94 f   asutil:SyncStatusNotification.obj
+ 0001:00008d20       ?NotifyAllSinks@CSyncStatusNotification@@AAAJPAUSyncStatusEventData@@@Z 10009d20 f   asutil:SyncStatusNotification.obj
+ 0001:00008e18       ?_SyncStatusNotificationThreadProc@CSyncStatusNotification@@CAKPAX@Z 10009e18 f   asutil:SyncStatusNotification.obj
+ 0001:00008f30       ?ListenOnNotification@CSyncStatusNotification@@AAAJXZ 10009f30 f   asutil:SyncStatusNotification.obj
+ 0001:00008fe4       ?Advise@CSyncStatusNotification@@UAAJPAUIActiveSyncAppNotify@@@Z 10009fe4 f   asutil:SyncStatusNotification.obj
+ 0001:00009048       DllAddRef                  1000a048 f   asutil:ProxyFactory.obj
+ 0001:00009054       DllRelease                 1000a054 f   asutil:ProxyFactory.obj
+ 0001:00009060       DllCanUnloadNow            1000a060 f   asutil:ProxyFactory.obj
+ 0001:0000907c       DllGetClassObject          1000a07c f   asutil:ProxyFactory.obj
+ 0001:000090b0       ?AddRef@CThisDllCF@@QAAKXZ 1000a0b0 f   asutil:ProxyFactory.obj
+ 0001:000090c8       ?Release@CThisDllCF@@QAAKXZ 1000a0c8 f   asutil:ProxyFactory.obj
+ 0001:000090e0       ?QueryInterface@CThisDllCF@@QAAJABU_GUID@@PAPAX@Z 1000a0e0 f   asutil:ProxyFactory.obj
+ 0001:00009100       ?CreateInstance@CThisDllCF@@QAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 1000a100 f   asutil:ProxyFactory.obj
+ 0001:00009104       ?LockServer@CThisDllCF@@QAAJH@Z 1000a104 f   asutil:ProxyFactory.obj
+ 0001:00009130       ?Initialize@CGuidEnumerator@@IAAJPAUHKEY__@@W4GUID_VALIDATION_TYPE@@@Z 1000a130 f   asutil:GuidEnumerator.obj
+ 0001:00009220       ?IsValid@CGuidEnumerator@@AAAHXZ 1000a220 f   asutil:GuidEnumerator.obj
+ 0001:000092d0       GuidEnumerator_Initialize  1000a2d0 f   asutil:GuidEnumerator.obj
+ 0001:000092f0       GuidEnumerator_InitializeEx 1000a2f0 f   asutil:GuidEnumerator.obj
+ 0001:0000930c       ?Next@CGuidEnumerator@@IAAJXZ 1000a30c f   asutil:GuidEnumerator.obj
+ 0001:000093e8       GuidEnumerator_Next        1000a3e8 f   asutil:GuidEnumerator.obj
+ 0001:00009404       ??_EKeepAwakeEngine@@UAAPAXI@Z 1000a404 f i asutil:PowerManager.obj
+ 0001:00009404       ??_GKeepAwakeEngine@@UAAPAXI@Z 1000a404 f i asutil:PowerManager.obj
+ 0001:00009428       ?InitKeepAwake@@YAXXZ      1000a428 f   asutil:PowerManager.obj
+ 0001:00009434       ?DeInitKeepAwake@@YAXXZ    1000a434 f   asutil:PowerManager.obj
+ 0001:00009470       ?Initialize@KeepAwakeEngineImpl@@UAAJKPAUCRITICAL_SECTION@@@Z 1000a470 f   asutil:PowerManager.obj
+ 0001:000094b8       ?CleanUpThreadResources@KeepAwakeEngineImpl@@AAAXPAX0@Z 1000a4b8 f   asutil:PowerManager.obj
+ 0001:00009508       ?CalculateTimesToReset@KeepAwakeEngineImpl@@AAAKK@Z 1000a508 f   asutil:PowerManager.obj
+ 0001:000095b8       ?TaskCompleted@KeepAwakeEngineImpl@@AAAHXZ 1000a5b8 f   asutil:PowerManager.obj
+ 0001:000095f0       ?Initialize@KeepAwakeEngineNop@@UAAJKPAUCRITICAL_SECTION@@@Z 1000a5f0 f i asutil:PowerManager.obj
+ 0001:000095f8       ?AddRequest@KeepAwakeEngineNop@@UAAJXZ 1000a5f8 f i asutil:PowerManager.obj
+ 0001:00009600       ?ReleaseRequest@KeepAwakeEngineNop@@UAAJXZ 1000a600 f i asutil:PowerManager.obj
+ 0001:00009608       ?AddTempRequest@KeepAwakeEngineNop@@UAAJK@Z 1000a608 f i asutil:PowerManager.obj
+ 0001:00009610       ??_EKeepAwakeEngineNop@@UAAPAXI@Z 1000a610 f i asutil:PowerManager.obj
+ 0001:00009610       ??_GKeepAwakeEngineNop@@UAAPAXI@Z 1000a610 f i asutil:PowerManager.obj
+ 0001:000097c4       ??1KeepAwakeEngineImpl@@UAA@XZ 1000a7c4 f   asutil:PowerManager.obj
+ 0001:0000981c       ?ReleaseRequest@KeepAwakeEngineImpl@@UAAJXZ 1000a81c f   asutil:PowerManager.obj
+ 0001:00009894       ?WorkerThread@KeepAwakeEngineImpl@@AAAKXZ 1000a894 f   asutil:PowerManager.obj
+ 0001:00009938       ?UpdateResetCounter@KeepAwakeEngineImpl@@AAAXK@Z 1000a938 f   asutil:PowerManager.obj
+ 0001:00009970       SMAddKeepAwakeRef          1000a970 f   asutil:PowerManager.obj
+ 0001:000099a0       SMReleaseKeepAwakeRef      1000a9a0 f   asutil:PowerManager.obj
+ 0001:000099d0       SMAddTempKeepAwakeRef      1000a9d0 f   asutil:PowerManager.obj
+ 0001:00009a24       ??_GKeepAwakeEngineImpl@@UAAPAXI@Z 1000aa24 f i asutil:PowerManager.obj
+ 0001:00009a24       ??_EKeepAwakeEngineImpl@@UAAPAXI@Z 1000aa24 f i asutil:PowerManager.obj
+ 0001:00009a48       ?CreateWorkerThread@KeepAwakeEngineImpl@@AAAJXZ 1000aa48 f   asutil:PowerManager.obj
+ 0001:00009b2c       ?AddRequest@KeepAwakeEngineImpl@@UAAJXZ 1000ab2c f   asutil:PowerManager.obj
+ 0001:00009bdc       ?AddTempRequest@KeepAwakeEngineImpl@@UAAJK@Z 1000abdc f   asutil:PowerManager.obj
+ 0001:00009c98       ??0CEnumSourceRegSimple@@QAA@XZ 1000ac98 f   asutil:EnumSourceRegSimple.obj
+ 0001:00009ce8       ??1CEnumSourceRegSimple@@QAA@XZ 1000ace8 f   asutil:EnumSourceRegSimple.obj
+ 0001:00009d0c       ?MoveNext@CEnumSourceRegSimple@@QAAJPAU_GUID@@@Z 1000ad0c f   asutil:EnumSourceRegSimple.obj
+ 0001:00009e38       ??0CEnumDataTypeReg@@QAA@XZ 1000ae38 f   asutil:EnumDataTypeReg.obj
+ 0001:00009e78       ?MoveNext@CEnumDataTypeReg@@QAAJPAU_GUID@@@Z 1000ae78 f   asutil:EnumDataTypeReg.obj
+ 0001:00009f20       ?_SortGUIDS@CEnumDataTypeReg@@AAAXPBU_GUID@@KPAU2@K@Z 1000af20 f   asutil:EnumDataTypeReg.obj
+ 0001:00009ffc       ??1CEnumDataTypeReg@@QAA@XZ 1000affc f   asutil:EnumDataTypeReg.obj
+ 0001:0000a028       ?Initialize@CEnumDataTypeReg@@QAAJABU_GUID@@@Z 1000b028 f   asutil:EnumDataTypeReg.obj
+ 0001:0000a1f8       SyncPerfDeinit             1000b1f8 f   asutil_CEBase:syncperf.obj
+ 0001:0000a228       SyncPerfFlushAndClear      1000b228 f   asutil_CEBase:syncperf.obj
+ 0001:0000a250       SyncPerfBeginDuration      1000b250 f   asutil_CEBase:syncperf.obj
+ 0001:0000a280       SyncPerfEndDuration        1000b280 f   asutil_CEBase:syncperf.obj
+ 0001:0000a2b8       SyncPerfInitEx             1000b2b8 f   asutil_CEBase:syncperf.obj
+ 0001:0000a4d8       SyncPerfInit               1000b4d8 f   asutil_CEBase:syncperf.obj
+ 0001:0000a4ec       ?_GetDataDirectory@@YAKPAGK@Z 1000b4ec f   asutil_CEBase:thunks_CEBase.obj
+ 0001:0000a504       CUnk_QISearch              1000b504 f   asutil_CEBase:thunks_CEBase.obj
+ 0001:0000a5a4       ?QueryInterface@CClassFactory@@QAAJABU_GUID@@PAPAX@Z 1000b5a4 f   asutil_CEBase:cclsfact.obj
+ 0001:0000a608       CCF_QueryInterface         1000b608 f   asutil_CEBase:cclsfact.obj
+ 0001:0000a60c       ?CreateInstance@CClassFactory@@QAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 1000b60c f   asutil_CEBase:cclsfact.obj
+ 0001:0000a6ac       CCF_CreateInstance         1000b6ac f   asutil_CEBase:cclsfact.obj
+ 0001:0000a6b0       CCF_GCOSearch              1000b6b0 f   asutil_CEBase:cclsfact.obj
+ 0001:0000a750       TraceScheduleTime          1000b750 f   SyncScheduler:SyncScheduler.obj
+ 0001:0000a7f0       ??1CSyncScheduler@@UAA@XZ  1000b7f0 f   SyncScheduler:SyncScheduler.obj
+ 0001:0000a82c       ?GetDefaultSchedule@CSyncScheduler@@UAAJPAPAUIActiveSyncSchedule@@@Z 1000b82c f   SyncScheduler:SyncScheduler.obj
+ 0001:0000a84c       ?EnsureSchedulerMutex@CSyncScheduler@@IAAJXZ 1000b84c f   SyncScheduler:SyncScheduler.obj
+ 0001:0000a8b8       ?SeekToSchedule@CSyncScheduler@@IAAJABU_GUID@@PAK@Z 1000b8b8 f   SyncScheduler:SyncScheduler.obj
+ 0001:0000a96c       ?QueryInterface@?$CComObjectAuto@VCSyncSchedule@@@SYNC@@UAAJABU_GUID@@PAPAX@Z 1000b96c f i SyncScheduler:SyncScheduler.obj
+ 0001:0000a980       ?AddRef@?$CComObjectAuto@VCSyncSchedule@@@SYNC@@UAAKXZ 1000b980 f i SyncScheduler:SyncScheduler.obj
+ 0001:0000a988       ?Release@?$CComObjectAuto@VCSyncSchedule@@@SYNC@@UAAKXZ 1000b988 f i SyncScheduler:SyncScheduler.obj
+ 0001:0000a990       ?QueryInterface@?$CComObject@VCSyncSchedule@@@SYNC@@UAAJABU_GUID@@PAPAX@Z 1000b990 f i SyncScheduler:SyncScheduler.obj
+ 0001:0000a9a4       ?AddRef@?$CComObject@VCSyncSchedule@@@SYNC@@UAAKXZ 1000b9a4 f i SyncScheduler:SyncScheduler.obj
+ 0001:0000a9ac       ??_GCSyncScheduler@@UAAPAXI@Z 1000b9ac f i SyncScheduler:SyncScheduler.obj
+ 0001:0000a9ac       ??_ECSyncScheduler@@UAAPAXI@Z 1000b9ac f i SyncScheduler:SyncScheduler.obj
+ 0001:0000a9d0       ?EnumSchedules@CSyncScheduler@@UAAJPAPAUIEnumUnknown@@@Z 1000b9d0 f   SyncScheduler:SyncScheduler.obj
+ 0001:0000a9dc       ?AcquireSchedulerMutex@CSyncScheduler@@IAAJXZ 1000b9dc f   SyncScheduler:SyncScheduler.obj
+ 0001:0000aa18       ?FindMinTime@CSyncScheduler@@IAAJPAN@Z 1000ba18 f   SyncScheduler:SyncScheduler.obj
+ 0001:0000abec       ?UpdateNotification@CSyncScheduler@@IAAJPAUScheduleData@1@@Z 1000bbec f   SyncScheduler:SyncScheduler.obj
+ 0001:0000ae08       ?OpenSchedulerFile@CSyncScheduler@@KAJPAPAXK@Z 1000be08 f   SyncScheduler:SyncScheduler.obj
+ 0001:0000aee8       ?CreateInstance@?$CComObject@VCSyncSchedule@@@SYNC@@SAJPAPAVCSyncSchedule@@@Z 1000bee8 f i SyncScheduler:SyncScheduler.obj
+ 0001:0000af40       ?DoGetSchedule@CSyncScheduler@@AAAJABU_GUID@@PAPAUIActiveSyncSchedule@@@Z 1000bf40 f   SyncScheduler:SyncScheduler.obj
+ 0001:0000b02c       ?VerifyOSNotification@CSyncScheduler@@AAAJPAUScheduleData@1@@Z 1000c02c f   SyncScheduler:SyncScheduler.obj
+ 0001:0000b21c       ?LoadScheduleData@CSyncScheduler@@KAJPAUScheduleData@1@@Z 1000c21c f   SyncScheduler:SyncScheduler.obj
+ 0001:0000b2a8       ?SaveScheduleData@CSyncScheduler@@KAJPAUScheduleData@1@@Z 1000c2a8 f   SyncScheduler:SyncScheduler.obj
+ 0001:0000b370       ?Release@?$CComObject@VCSyncSchedule@@@SYNC@@UAAKXZ 1000c370 f i SyncScheduler:SyncScheduler.obj
+ 0001:0000b3c0       ?GetSchedule@CSyncScheduler@@UAAJABU_GUID@@PAPAUIActiveSyncSchedule@@@Z 1000c3c0 f   SyncScheduler:SyncScheduler.obj
+ 0001:0000b444       ?ScheduleFor@CSyncScheduler@@IAAJPAN@Z 1000c444 f   SyncScheduler:SyncScheduler.obj
+ 0001:0000b4f0       ??0?$CComObject@VCSyncScheduler@@@SYNC@@IAA@K@Z 1000c4f0 f i SyncScheduler:SyncScheduler.obj
+ 0001:0000b530       ?QueryInterface@?$CComObject@VCSyncScheduler@@@SYNC@@UAAJABU_GUID@@PAPAX@Z 1000c530 f i SyncScheduler:SyncScheduler.obj
+ 0001:0000b544       ?AddRef@?$CComObject@VCSyncScheduler@@@SYNC@@UAAKXZ 1000c544 f i SyncScheduler:SyncScheduler.obj
+ 0001:0000b54c       ?Release@?$CComObject@VCSyncScheduler@@@SYNC@@UAAKXZ 1000c54c f i SyncScheduler:SyncScheduler.obj
+ 0001:0000b584       ??_G?$CComObject@VCSyncScheduler@@@SYNC@@MAAPAXI@Z 1000c584 f i SyncScheduler:SyncScheduler.obj
+ 0001:0000b584       ??_E?$CComObject@VCSyncScheduler@@@SYNC@@MAAPAXI@Z 1000c584 f i SyncScheduler:SyncScheduler.obj
+ 0001:0000b5bc       ?Reschedule@CSyncScheduler@@IAAJXZ 1000c5bc f   SyncScheduler:SyncScheduler.obj
+ 0001:0000b61c       ?CreateInstance@?$CComObject@VCSyncScheduler@@@SYNC@@SAJPAPAVCSyncScheduler@@@Z 1000c61c f i SyncScheduler:SyncScheduler.obj
+ 0001:0000b65c       ?DoDeleteSchedule@CSyncScheduler@@AAAJABU_GUID@@@Z 1000c65c f   SyncScheduler:SyncScheduler.obj
+ 0001:0000b6f4       ?DoSave@CSyncScheduler@@QAAJPAVCSyncSchedule@@@Z 1000c6f4 f   SyncScheduler:SyncScheduler.obj
+ 0001:0000b88c       ?CActiveSyncScheduler_Create@@YAJPAUIUnknown@@PAPAU1@PAVCClassFactory@@@Z 1000c88c f   SyncScheduler:SyncScheduler.obj
+ 0001:0000b8cc       ?DeleteSchedule@CSyncScheduler@@UAAJABU_GUID@@@Z 1000c8cc f   SyncScheduler:SyncScheduler.obj
+ 0001:0000b93c       ?Save@CSyncScheduler@@QAAJPAVCSyncSchedule@@@Z 1000c93c f   SyncScheduler:SyncScheduler.obj
+ 0001:0000b9a8       ?DoVerifySchedule@CSyncScheduler@@AAAJXZ 1000c9a8 f   SyncScheduler:SyncScheduler.obj
+ 0001:0000bb80       ?VerifySchedule@CSyncScheduler@@UAAJXZ 1000cb80 f   SyncScheduler:SyncScheduler.obj
+ 0001:0000bbe0       ?UnMount@CSchedulerDatabase@@CAJXZ 1000cbe0 f   SyncScheduler:SchedulerDatabase.obj
+ 0001:0000bc5c       ?Create@CSchedulerDatabase@@CAJXZ 1000cc5c f   SyncScheduler:SchedulerDatabase.obj
+ 0001:0000bcd0       ?Close@CSchedulerDatabase@@SAJPAPAX@Z 1000ccd0 f   SyncScheduler:SchedulerDatabase.obj
+ 0001:0000bcfc       ?Mount@CSchedulerDatabase@@CAJXZ 1000ccfc f   SyncScheduler:SchedulerDatabase.obj
+ 0001:0000bd54       ?Open@CSchedulerDatabase@@CAJPAU__EDB_SORTORDERSPECEX@@PAPAX@Z 1000cd54 f   SyncScheduler:SchedulerDatabase.obj
+ 0001:0000be68       ?OpenDatabaseNoSort@CSchedulerDatabase@@SAJPAPAX@Z 1000ce68 f   SyncScheduler:SchedulerDatabase.obj
+ 0001:0000be74       ?OpenDatabaseTimeSort@CSchedulerDatabase@@SAJPAPAX@Z 1000ce74 f   SyncScheduler:SchedulerDatabase.obj
+ 0001:0000be88       ?OpenDatabaseGuidSort@CSchedulerDatabase@@SAJPAPAX@Z 1000ce88 f   SyncScheduler:SchedulerDatabase.obj
+ 0001:0000be9c       ?fnGetDeviceFeatureLevel@@YAJKPAK@Z 1000ce9c f   SyncScheduler:SyncSchedule.obj
+ 0001:0000bef8       ?SetCommand@CSyncSchedule@@UAAJPAG@Z 1000cef8 f   SyncScheduler:SyncSchedule.obj
+ 0001:0000bf60       ?GetPeriodCradled@CSyncSchedule@@UAAJPAK@Z 1000cf60 f   SyncScheduler:SyncSchedule.obj
+ 0001:0000bf7c       ?SetPeriodCradled@CSyncSchedule@@UAAJK@Z 1000cf7c f   SyncScheduler:SyncSchedule.obj
+ 0001:0000bf88       ?GetPeriodPeak@CSyncSchedule@@UAAJPAK@Z 1000cf88 f   SyncScheduler:SyncSchedule.obj
+ 0001:0000bfa4       ?SetPeriodPeak@CSyncSchedule@@UAAJK@Z 1000cfa4 f   SyncScheduler:SyncSchedule.obj
+ 0001:0000bfb0       ?GetPeriodOffPeak@CSyncSchedule@@UAAJPAK@Z 1000cfb0 f   SyncScheduler:SyncSchedule.obj
+ 0001:0000bfcc       ?SetPeriodOffPeak@CSyncSchedule@@UAAJK@Z 1000cfcc f   SyncScheduler:SyncSchedule.obj
+ 0001:0000bfd8       ?GetEnabled@CSyncSchedule@@UAAJPAH@Z 1000cfd8 f   SyncScheduler:SyncSchedule.obj
+ 0001:0000c004       ?SetEnabled@CSyncSchedule@@UAAJH@Z 1000d004 f   SyncScheduler:SyncSchedule.obj
+ 0001:0000c020       ?IsExecuting@CSyncSchedule@@UAAJPAH@Z 1000d020 f   SyncScheduler:SyncSchedule.obj
+ 0001:0000c04c       ?ResolveFlags@CSyncSchedule@@AAAJK@Z 1000d04c f   SyncScheduler:SyncSchedule.obj
+ 0001:0000c0ac       ?LoadFlag@CSyncSchedule@@AAAJPAU_CEPROPVAL@@@Z 1000d0ac f   SyncScheduler:SyncSchedule.obj
+ 0001:0000c0c8       ?LoadPeak@CSyncSchedule@@AAAJPAU_CEPROPVAL@@@Z 1000d0c8 f   SyncScheduler:SyncSchedule.obj
+ 0001:0000c0dc       ?LoadOffp@CSyncSchedule@@AAAJPAU_CEPROPVAL@@@Z 1000d0dc f   SyncScheduler:SyncSchedule.obj
+ 0001:0000c0f0       ?LoadCrdl@CSyncSchedule@@AAAJPAU_CEPROPVAL@@@Z 1000d0f0 f   SyncScheduler:SyncSchedule.obj
+ 0001:0000c104       ?LoadCmd@CSyncSchedule@@AAAJPAU_CEPROPVAL@@@Z 1000d104 f   SyncScheduler:SyncSchedule.obj
+ 0001:0000c13c       ?CalcGuid@CSyncSchedule@@AAAJPAK@Z 1000d13c f   SyncScheduler:SyncSchedule.obj
+ 0001:0000c14c       ?CalcZero@CSyncSchedule@@AAAJPAK@Z 1000d14c f   SyncScheduler:SyncSchedule.obj
+ 0001:0000c15c       ?CalcCmd@CSyncSchedule@@AAAJPAK@Z 1000d15c f   SyncScheduler:SyncSchedule.obj
+ 0001:0000c190       ?SaveFlag@CSyncSchedule@@AAAJPAU_CEPROPVAL@@PAXPAK@Z 1000d190 f   SyncScheduler:SyncSchedule.obj
+ 0001:0000c1ac       ?SavePeak@CSyncSchedule@@AAAJPAU_CEPROPVAL@@PAXPAK@Z 1000d1ac f   SyncScheduler:SyncSchedule.obj
+ 0001:0000c1c8       ?SaveOffp@CSyncSchedule@@AAAJPAU_CEPROPVAL@@PAXPAK@Z 1000d1c8 f   SyncScheduler:SyncSchedule.obj
+ 0001:0000c1e4       ?SaveCrdl@CSyncSchedule@@AAAJPAU_CEPROPVAL@@PAXPAK@Z 1000d1e4 f   SyncScheduler:SyncSchedule.obj
+ 0001:0000c200       ?SaveCmd@CSyncSchedule@@AAAJPAU_CEPROPVAL@@PAXPAK@Z 1000d200 f   SyncScheduler:SyncSchedule.obj
+ 0001:0000c270       ?AtlComPtrAssign@ATL@@YAPAUIUnknown@@PAPAU2@PAU2@@Z 1000d270 f i SyncScheduler:SyncSchedule.obj
+ 0001:0000c2bc       ??1CSyncSchedule@@QAA@XZ   1000d2bc f   SyncScheduler:SyncSchedule.obj
+ 0001:0000c2e4       ?GetCommand@CSyncSchedule@@UAAJPAPAG@Z 1000d2e4 f   SyncScheduler:SyncSchedule.obj
+ 0001:0000c348       ?GetScheduler@CSyncSchedule@@UAAJPAPAUIActiveSyncScheduler@@@Z 1000d348 f   SyncScheduler:SyncSchedule.obj
+ 0001:0000c384       ?Override@CSyncSchedule@@UAAJPAUSyncTime@@@Z 1000d384 f   SyncScheduler:SyncSchedule.obj
+ 0001:0000c454       ?Save@CSyncSchedule@@UAAJXZ 1000d454 f   SyncScheduler:SyncSchedule.obj
+ 0001:0000c460       ?ValidateSchedule@CSyncSchedule@@AAAJPAXK@Z 1000d460 f   SyncScheduler:SyncSchedule.obj
+ 0001:0000c5ac       ?LoadProps@CSyncSchedule@@AAAJPAXPAKG@Z 1000d5ac f   SyncScheduler:SyncSchedule.obj
+ 0001:0000c6b0       ?SaveProps@CSyncSchedule@@AAAJPAXPAKG@Z 1000d6b0 f   SyncScheduler:SyncSchedule.obj
+ 0001:0000c8e8       ?LoadGuid@CSyncSchedule@@AAAJPAU_CEPROPVAL@@@Z 1000d8e8 f   SyncScheduler:SyncSchedule.obj
+ 0001:0000c94c       ?LoadTime@CSyncSchedule@@AAAJPAU_CEPROPVAL@@@Z 1000d94c f   SyncScheduler:SyncSchedule.obj
+ 0001:0000c998       ?SaveGuid@CSyncSchedule@@AAAJPAU_CEPROPVAL@@PAXPAK@Z 1000d998 f   SyncScheduler:SyncSchedule.obj
+ 0001:0000c9d4       ?SaveTime@CSyncSchedule@@AAAJPAU_CEPROPVAL@@PAXPAK@Z 1000d9d4 f   SyncScheduler:SyncSchedule.obj
+ 0001:0000ca20       ?CalculateNext@CSyncSchedule@@QAAJW4eSchedulerEvents@@PAUIActiveSyncInfo@@@Z 1000da20 f   SyncScheduler:SyncSchedule.obj
+ 0001:0000cabc       ??0CSyncSchedule@@QAA@XZ   1000dabc f   SyncScheduler:SyncSchedule.obj
+ 0001:0000cb38       ?Initialize@CSyncSchedule@@QAAJPAVCSyncScheduler@@ABU_GUID@@K@Z 1000db38 f   SyncScheduler:SyncSchedule.obj
+ 0001:0000cbcc       ?Load@CSyncSchedule@@QAAJPAX@Z 1000dbcc f   SyncScheduler:SyncSchedule.obj
+ 0001:0000cbdc       ?Save@CSyncSchedule@@QAAJPAXK@Z 1000dbdc f   SyncScheduler:SyncSchedule.obj
+ 0001:0000cc18       ?DisableRetailLog@@YAXXZ   1000dc18 f   RetailLogUtils:RetailLogUtils.obj
+ 0001:0000cc58       ?RetailLogEnterEx@@YAXKPBD@Z 1000dc58 f   RetailLogUtils:RetailLogUtils.obj
+ 0001:0000cc80       ?RetailLogExitEx@@YAXKJ@Z  1000dc80 f   RetailLogUtils:RetailLogUtils.obj
+ 0001:0000cca8       ?RetailLogMessageEx@@YAJKKPBGPAD@Z 1000dca8 f   RetailLogUtils:RetailLogUtils.obj
+ 0001:0000ccdc       ?Init@RetailLogAreaConfig@@QAAJPBG@Z 1000dcdc f   RetailLogUtils:RetailLogUtils.obj
+ 0001:0000cda8       ?GetConfigFlags@RetailLogAreaConfig@@QAAKXZ 1000dda8 f   RetailLogUtils:RetailLogUtils.obj
+ 0001:0000ce18       ?EnableRetailLog@@YAJPBG@Z 1000de18 f   RetailLogUtils:RetailLogUtils.obj
+ 0001:0000d018       ?RefreshRetailLog@@YAXPBG@Z 1000e018 f   RetailLogUtils:RetailLogUtils.obj
+ 0001:0000d04c       MIDL_user_allocate         1000e04c f   SyncAppProxy:SyncAppProxy.obj
+ 0001:0000d050       MIDL_user_free             1000e050 f   SyncAppProxy:SyncAppProxy.obj
+ 0001:0000d054       ??1CSyncProxy@@UAA@XZ      1000e054 f   SyncAppProxy:SyncAppProxy.obj
+ 0001:0000d0ac       ?AddRef@CSyncProxy@@UAAKXZ 1000e0ac f i SyncAppProxy:SyncAppProxy.obj
+ 0001:0000d0b4       ?Release@CSyncProxy@@UAAKXZ 1000e0b4 f i SyncAppProxy:SyncAppProxy.obj
+ 0001:0000d0ec       ?Release@CSyncProxy@@W3AAKXZ 1000e0ec f i SyncAppProxy:SyncAppProxy.obj
+ 0001:0000d0f4       ??_ECSyncProxy@@W3AAPAXI@Z 1000e0f4 f i SyncAppProxy:SyncAppProxy.obj
+ 0001:0000d0fc       ?AddRef@CSyncProxy@@W3AAKXZ 1000e0fc f i SyncAppProxy:SyncAppProxy.obj
+ 0001:0000d104       ?QueryInterface@CSyncProxy@@UAAJABU_GUID@@PAPAX@Z 1000e104 f   SyncAppProxy:SyncAppProxy.obj
+ 0001:0000d188       ?LaunchSyncApplication@@YAJXZ 1000e188 f   SyncAppProxy:SyncAppProxy.obj
+ 0001:0000d250       ?Advise@CSyncProxy@@UAAJPAUIActiveSyncAppNotify@@@Z 1000e250 f   SyncAppProxy:SyncAppProxy.obj
+ 0001:0000d27c       ?Unadvise@CSyncProxy@@UAAJPAUIActiveSyncAppNotify@@@Z 1000e27c f   SyncAppProxy:SyncAppProxy.obj
+ 0001:0000d294       ?QueryInterface@CSyncProxy@@W3AAJABU_GUID@@PAPAX@Z 1000e294 f i SyncAppProxy:SyncAppProxy.obj
+ 0001:0000d29c       ?SyncAppProxyInit@@YAJPBGPAPAX@Z 1000e29c f   SyncAppProxy:SyncAppProxy.obj
+ 0001:0000d338       ??0CSyncProxy@@QAA@XZ      1000e338 f   SyncAppProxy:SyncAppProxy.obj
+ 0001:0000d398       ??_GCSyncProxy@@UAAPAXI@Z  1000e398 f i SyncAppProxy:SyncAppProxy.obj
+ 0001:0000d398       ??_ECSyncProxy@@UAAPAXI@Z  1000e398 f i SyncAppProxy:SyncAppProxy.obj
+ 0001:0000d3c4       ?Start@CSyncProxy@@UAAJPAGPAUIActiveSyncAppNotify@@@Z 1000e3c4 f   SyncAppProxy:SyncAppProxy.obj
+ 0001:0000d4b0       ?Stop@CSyncProxy@@UAAJXZ   1000e4b0 f   SyncAppProxy:SyncAppProxy.obj
+ 0001:0000d528       ?Pause@CSyncProxy@@UAAJXZ  1000e528 f   SyncAppProxy:SyncAppProxy.obj
+ 0001:0000d5a0       ?Resume@CSyncProxy@@UAAJXZ 1000e5a0 f   SyncAppProxy:SyncAppProxy.obj
+ 0001:0000d618       ?SetError@CSyncProxy@@UAAJW4ACTIVESYNC_ERROR_SEVERITY@@J@Z 1000e618 f   SyncAppProxy:SyncAppProxy.obj
+ 0001:0000d6a0       ?SetCredentials@CSyncProxy@@UAAJABU_GUID@@PBG1H@Z 1000e6a0 f   SyncAppProxy:SyncAppProxy.obj
+ 0001:0000d734       ?IsPwdSaved@CSyncProxy@@UAAJABU_GUID@@PAH@Z 1000e734 f   SyncAppProxy:SyncAppProxy.obj
+ 0001:0000d7b4       RemoteActiveSyncStart      1000e7b4 f   SyncAppProxy:SyncAppProxy.obj
+ 0001:0000d830       RemoteActiveSyncStop       1000e830 f   SyncAppProxy:SyncAppProxy.obj
+ 0001:0000d8a4       ?CActiveSyncApp_Create@@YAJPAUIUnknown@@PAPAU1@PAVCClassFactory@@@Z 1000e8a4 f   SyncAppProxy:SyncAppProxy.obj
+ 0001:0000d948       StartSync                  1000e948 f   SyncAppProxy:SyncAppRemote_c.obj
+ 0001:0000d9a0       StopSync                   1000e9a0 f   SyncAppProxy:SyncAppRemote_c.obj
+ 0001:0000d9f4       PauseSync                  1000e9f4 f   SyncAppProxy:SyncAppRemote_c.obj
+ 0001:0000da48       ResumeSync                 1000ea48 f   SyncAppProxy:SyncAppRemote_c.obj
+ 0001:0000da9c       SetSyncError               1000ea9c f   SyncAppProxy:SyncAppRemote_c.obj
+ 0001:0000daf8       SetSyncCredentials         1000eaf8 f   SyncAppProxy:SyncAppRemote_c.obj
+ 0001:0000db54       IsSyncPwdSaved             1000eb54 f   SyncAppProxy:SyncAppRemote_c.obj
+ 0001:0000dbb0       closesocket                1000ebb0 f   winsock:WINSOCK.dll
+ 0001:0000dbc0       htons                      1000ebc0 f   winsock:WINSOCK.dll
+ 0001:0000dbd0       connect                    1000ebd0 f   winsock:WINSOCK.dll
+ 0001:0000dbe0       socket                     1000ebe0 f   winsock:WINSOCK.dll
+ 0001:0000dbf0       getpeername                1000ebf0 f   winsock:WINSOCK.dll
+ 0001:0000dc00       WSAGetLastError            1000ec00 f   ws2:WS2.dll
+ 0001:0000dc10       WSASetLastError            1000ec10 f   ws2:WS2.dll
+ 0001:0000dc20       freeaddrinfo               1000ec20 f   ws2:WS2.dll
+ 0001:0000dc30       getaddrinfo                1000ec30 f   ws2:WS2.dll
+ 0001:0000dc40       StringFromCLSID            1000ec40 f   ole32:ole32.dll
+ 0001:0000dc50       CLSIDFromString            1000ec50 f   ole32:ole32.dll
+ 0001:0000dc60       StringFromGUID2            1000ec60 f   ole32:ole32.dll
+ 0001:0000dc70       CoCreateInstance           1000ec70 f   ole32:ole32.dll
+ 0001:0000dc80       CoTaskMemFree              1000ec80 f   ole32:ole32.dll
+ 0001:0000dc90       SystemTimeToVariantTime    1000ec90 f   oleaut32:OLEAUT32.dll
+ 0001:0000dca0       VariantTimeToSystemTime    1000eca0 f   oleaut32:OLEAUT32.dll
+ 0001:0000dcb0       SysFreeString              1000ecb0 f   oleaut32:OLEAUT32.dll
+ 0001:0000dcc0       SysAllocStringLen          1000ecc0 f   oleaut32:OLEAUT32.dll
+ 0001:0000dcd0       SysAllocString             1000ecd0 f   oleaut32:OLEAUT32.dll
+ 0001:0000dce0       SysStringByteLen           1000ece0 f   oleaut32:OLEAUT32.dll
+ 0001:0000dcf0       UnmountDBVol               1000ecf0 f   ossvcs:ossvcs.dll
+ 0001:0000dd00       MountDBVol                 1000ed00 f   ossvcs:ossvcs.dll
+ 0001:0000dd10       RpcBindingFree             1000ed10 f   rpcrt4:RPCRT4.dll
+ 0001:0000dd20       RpcStringFreeW             1000ed20 f   rpcrt4:RPCRT4.dll
+ 0001:0000dd30       RpcBindingFromStringBindingW 1000ed30 f   rpcrt4:RPCRT4.dll
+ 0001:0000dd40       RpcStringBindingComposeW   1000ed40 f   rpcrt4:RPCRT4.dll
+ 0001:0000dd50       NdrClientCall2             1000ed50 f   rpcrt4:RPCRT4.dll
+ 0001:0000dd60       DisableThreadLibraryCalls  1000ed60 f   coredll:COREDLL.dll
+ 0001:0000dd70       GetLocalTime               1000ed70 f   coredll:COREDLL.dll
+ 0001:0000dd80       RegCloseKey                1000ed80 f   coredll:COREDLL.dll
+ 0001:0000dd90       RegSetValueExW             1000ed90 f   coredll:COREDLL.dll
+ 0001:0000dda0       RegCreateKeyExW            1000eda0 f   coredll:COREDLL.dll
+ 0001:0000ddb0       InterlockedIncrement       1000edb0 f   coredll:COREDLL.dll
+ 0001:0000ddc0       InterlockedDecrement       1000edc0 f   coredll:COREDLL.dll
+ 0001:0000ddd0       GetSystemTime              1000edd0 f   coredll:COREDLL.dll
+ 0001:0000dde0       FileTimeToSystemTime       1000ede0 f   coredll:COREDLL.dll
+ 0001:0000ddf0       GetLastError               1000edf0 f   coredll:COREDLL.dll
+ 0001:0000de00       FileTimeToLocalFileTime    1000ee00 f   coredll:COREDLL.dll
+ 0001:0000de10       LocalFileTimeToFileTime    1000ee10 f   coredll:COREDLL.dll
+ 0001:0000de20       SystemTimeToFileTime       1000ee20 f   coredll:COREDLL.dll
+ 0001:0000de30       RegQueryValueExW           1000ee30 f   coredll:COREDLL.dll
+ 0001:0000de40       RegOpenKeyExW              1000ee40 f   coredll:COREDLL.dll
+ 0001:0000de50       StringCchPrintfA           1000ee50 f   coredll:COREDLL.dll
+ 0001:0000de60       LocalFree                  1000ee60 f   coredll:COREDLL.dll
+ 0001:0000de70       LocalAlloc                 1000ee70 f   coredll:COREDLL.dll
+ 0001:0000de80       WideCharToMultiByte        1000ee80 f   coredll:COREDLL.dll
+ 0001:0000de90       CreateDirectoryW           1000ee90 f   coredll:COREDLL.dll
+ 0001:0000dea0       StringCchCopyW             1000eea0 f   coredll:COREDLL.dll
+ 0001:0000deb0       CreateFileW                1000eeb0 f   coredll:COREDLL.dll
+ 0001:0000dec0       DeleteFileW                1000eec0 f   coredll:COREDLL.dll
+ 0001:0000ded0       StringCchPrintfW           1000eed0 f   coredll:COREDLL.dll
+ 0001:0000dee0       StringCchCatW              1000eee0 f   coredll:COREDLL.dll
+ 0001:0000def0       StringCchLengthW           1000eef0 f   coredll:COREDLL.dll
+ 0001:0000df00       StringCchCopyExW           1000ef00 f   coredll:COREDLL.dll
+ 0001:0000df10       StringCchCatExW            1000ef10 f   coredll:COREDLL.dll
+ 0001:0000df20       WriteFile                  1000ef20 f   coredll:COREDLL.dll
+ 0001:0000df30       StringCchLengthA           1000ef30 f   coredll:COREDLL.dll
+ 0001:0000df40       StringCchVPrintfA          1000ef40 f   coredll:COREDLL.dll
+ 0001:0000df50       SetFilePointer             1000ef50 f   coredll:COREDLL.dll
+ 0001:0000df60       SetEndOfFile               1000ef60 f   coredll:COREDLL.dll
+ 0001:0000df70       CloseHandle                1000ef70 f   coredll:COREDLL.dll
+ 0001:0000df80       GetFileSize                1000ef80 f   coredll:COREDLL.dll
+ 0001:0000df90       ReleaseMutex               1000ef90 f   coredll:COREDLL.dll
+ 0001:0000dfa0       WaitForSingleObject        1000efa0 f   coredll:COREDLL.dll
+ 0001:0000dfb0       CreateMutexW               1000efb0 f   coredll:COREDLL.dll
+ 0001:0000dfc0       StringCchVPrintfExA        1000efc0 f   coredll:COREDLL.dll
+ 0001:0000dfd0       StringCchPrintfExA         1000efd0 f   coredll:COREDLL.dll
+ 0001:0000dfe0       StringCbCopyW              1000efe0 f   coredll:COREDLL.dll
+ 0001:0000dff0       RegDeleteValueW            1000eff0 f   coredll:COREDLL.dll
+ 0001:0000e000       RegDeleteKeyW              1000f000 f   coredll:COREDLL.dll
+ 0001:0000e010       StringCbLengthW            1000f010 f   coredll:COREDLL.dll
+ 0001:0000e020       WaitForMultipleObjects     1000f020 f   coredll:COREDLL.dll
+ 0001:0000e030       PostMessageW               1000f030 f   coredll:COREDLL.dll
+ 0001:0000e040       FindWindowW                1000f040 f   coredll:COREDLL.dll
+ 0001:0000e050       GetProcAddressW            1000f050 f   coredll:COREDLL.dll
+ 0001:0000e060       LoadLibraryW               1000f060 f   coredll:COREDLL.dll
+ 0001:0000e070       RegEnumKeyExW              1000f070 f   coredll:COREDLL.dll
+ 0001:0000e080       RegistryGetDWORD           1000f080 f   coredll:COREDLL.dll
+ 0001:0000e090       RegFlushKey                1000f090 f   coredll:COREDLL.dll
+ 0001:0000e0a0       EventModify                1000f0a0 f   coredll:COREDLL.dll
+ 0001:0000e0b0       InitializeCriticalSection  1000f0b0 f   coredll:COREDLL.dll
+ 0001:0000e0c0       DeleteCriticalSection      1000f0c0 f   coredll:COREDLL.dll
+ 0001:0000e0d0       EnterCriticalSection       1000f0d0 f   coredll:COREDLL.dll
+ 0001:0000e0e0       LeaveCriticalSection       1000f0e0 f   coredll:COREDLL.dll
+ 0001:0000e0f0       EventRegister              1000f0f0 f   coredll:COREDLL.dll
+ 0001:0000e100       EventWrite                 1000f100 f   coredll:COREDLL.dll
+ 0001:0000e110       EventEnabled               1000f110 f   coredll:COREDLL.dll
+ 0001:0000e120       EventUnregister            1000f120 f   coredll:COREDLL.dll
+ 0001:0000e130       CeEventClose               1000f130 f   coredll:COREDLL.dll
+ 0001:0000e140       CeEventNext                1000f140 f   coredll:COREDLL.dll
+ 0001:0000e150       CeEventRead                1000f150 f   coredll:COREDLL.dll
+ 0001:0000e160       CeEventSubscribe           1000f160 f   coredll:COREDLL.dll
+ 0001:0000e170       CreateThread               1000f170 f   coredll:COREDLL.dll
+ 0001:0000e180       CreateEventW               1000f180 f   coredll:COREDLL.dll
+ 0001:0000e190       RegQueryInfoKeyW           1000f190 f   coredll:COREDLL.dll
+ 0001:0000e1a0       TerminateThread            1000f1a0 f   coredll:COREDLL.dll
+ 0001:0000e1b0       GetTickCount               1000f1b0 f   coredll:COREDLL.dll
+ 0001:0000e1c0       SystemIdleTimerReset       1000f1c0 f   coredll:COREDLL.dll
+ 0001:0000e1d0       ResumeThread               1000f1d0 f   coredll:COREDLL.dll
+ 0001:0000e1e0       DSA_GetItemPtr             1000f1e0 f   coredll:COREDLL.dll
+ 0001:0000e1f0       DSA_Destroy                1000f1f0 f   coredll:COREDLL.dll
+ 0001:0000e200       DSA_InsertItem             1000f200 f   coredll:COREDLL.dll
+ 0001:0000e210       DSA_Create                 1000f210 f   coredll:COREDLL.dll
+ 0001:0000e220       StringCbPrintfW            1000f220 f   coredll:COREDLL.dll
+ 0001:0000e230       CeSeekDatabaseEx           1000f230 f   coredll:COREDLL.dll
+ 0001:0000e240       CeClearUserNotification    1000f240 f   coredll:COREDLL.dll
+ 0001:0000e250       CeReadRecordPropsEx        1000f250 f   coredll:COREDLL.dll
+ 0001:0000e260       CeSetUserNotificationEx    1000f260 f   coredll:COREDLL.dll
+ 0001:0000e270       CeGetUserNotification      1000f270 f   coredll:COREDLL.dll
+ 0001:0000e280       ReadFile                   1000f280 f   coredll:COREDLL.dll
+ 0001:0000e290       CeDeleteRecord             1000f290 f   coredll:COREDLL.dll
+ 0001:0000e2a0       CeGetDBInformationByHandle 1000f2a0 f   coredll:COREDLL.dll
+ 0001:0000e2b0       CeCreateDatabaseWithProps  1000f2b0 f   coredll:COREDLL.dll
+ 0001:0000e2c0       InterlockedExchange        1000f2c0 f   coredll:COREDLL.dll
+ 0001:0000e2d0       CeOpenDatabaseEx2          1000f2d0 f   coredll:COREDLL.dll
+ 0001:0000e2e0       CeWriteRecordProps         1000f2e0 f   coredll:COREDLL.dll
+ 0001:0000e2f0       FreeLibrary                1000f2f0 f   coredll:COREDLL.dll
+ 0001:0000e300       ShellExecuteEx             1000f300 f   coredll:COREDLL.dll
+ 0001:0000e408       _DllMainCRTStartup         1000f408 f   corelib0:pegdmain.obj
+ 0001:0000e43c       _onexit                    1000f43c f   corelib0:onexit.obj
+ 0001:0000e5c0       atexit                     1000f5c0 f   corelib0:onexit.obj
+ 0001:0000e5d8       __GSHandlerCheckCommon     1000f5d8 f   corelib0:gshandler.obj
+ 0001:0000e614       __GSHandlerCheck           1000f614 f   corelib0:gshandler.obj
+ 0001:0000e634       __security_init_cookie     1000f634 f   corelib0:seccinit.obj
+ 0001:0000e680       __security_check_cookie    1000f680 f   corelib0:armsecgs.obj
+ 0001:0000e690       __gsfailure                1000f690     corelib0:armsecgs.obj
+ 0001:0000e6d4       __GSHandlerCheck_SEH       1000f6d4 f   corelib0:gshandlerseh.obj
+ 0001:0000e808       _cexit                     1000f808 f   corelib0:cexit.obj
+ 0001:0000e818       _initterm                  1000f818 f   corelib0:crt0dat.obj
+ 0001:0000e844       _cinit                     1000f844 f   corelib0:crt0dat.obj
+ 0001:0000e8a4       __crt_ExitProcess          1000f8a4 f   corelib0:exitproc_proxy.obj
+ 0001:0000e8b0       ??3@YAXPAX@Z               1000f8b0 f   corelib1:COREDLL.dll
+ 0001:0000e8c0       ??2@YAPAXI@Z               1000f8c0 f   corelib1:COREDLL.dll
+ 0001:0000e8d0       rand_s                     1000f8d0 f   corelib1:COREDLL.dll
+ 0001:0000e8e0       memset                     1000f8e0 f   corelib1:COREDLL.dll
+ 0001:0000e8f0       memcmp                     1000f8f0 f   corelib1:COREDLL.dll
+ 0001:0000e900       free                       1000f900 f   corelib1:COREDLL.dll
+ 0001:0000e910       malloc                     1000f910 f   corelib1:COREDLL.dll
+ 0001:0000e920       memcpy                     1000f920 f   corelib1:COREDLL.dll
+ 0001:0000e930       wcsstr                     1000f930 f   corelib1:COREDLL.dll
+ 0001:0000e940       wcslen                     1000f940 f   corelib1:COREDLL.dll
+ 0001:0000e950       iswctype                   1000f950 f   corelib1:COREDLL.dll
+ 0001:0000e960       _purecall                  1000f960 f   corelib1:COREDLL.dll
+ 0001:0000e970       wcscmp                     1000f970 f   corelib1:COREDLL.dll
+ 0001:0000e980       __C_specific_handler       1000f980 f   corelib1:COREDLL.dll
+ 0001:0000e990       wcsncpy_s                  1000f990 f   corelib1:COREDLL.dll
+ 0001:0000e9a0       _XcptFilter                1000f9a0 f   corelib1:COREDLL.dll
+ 0001:0000e9b0       realloc                    1000f9b0 f   corelib1:COREDLL.dll
+ 0001:0000e9c0       _msize                     1000f9c0 f   corelib1:COREDLL.dll
+ 0001:0000e9d0       __security_gen_cookie2     1000f9d0 f   corelib1:COREDLL.dll
+ 0001:0000e9e0       __report_gsfailure         1000f9e0 f   corelib1:COREDLL.dll
+ 0001:0000e9f0       InterlockedCompareExchange 1000f9f0 f   coredll:COREDLL.dll
+ 0001:0000ea00       TerminateProcess           1000fa00 f   coredll:COREDLL.dll
+ 0001:0000eb78       ??__Fcs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@YAXXZ 1000fb78 f i asutil:SyncStatusNotification.obj
+ 0001:0000eb84       ??__Fcs@?1??get_lock@?$singleton@VCSyncStatusNotification@@$0A@V?$static_allocator@VCSyncStatusNotification@@$0A@@ce@@@ce@@KAAAVcritical_section@2@XZ@YAXXZ 1000fb84 f i asutil:SyncStatusNotification.obj
+ 0001:0000ed48       __IMPORT_DESCRIPTOR_WINSOCK 1000fd48     winsock:WINSOCK.dll
+ 0001:0000ed5c       __IMPORT_DESCRIPTOR_WS2    1000fd5c     ws2:WS2.dll
+ 0001:0000ed70       __IMPORT_DESCRIPTOR_ole32  1000fd70     ole32:ole32.dll
+ 0001:0000ed84       __IMPORT_DESCRIPTOR_OLEAUT32 1000fd84     oleaut32:OLEAUT32.dll
+ 0001:0000ed98       __IMPORT_DESCRIPTOR_ossvcs 1000fd98     ossvcs:ossvcs.dll
+ 0001:0000edac       __IMPORT_DESCRIPTOR_RPCRT4 1000fdac     rpcrt4:RPCRT4.dll
+ 0001:0000edc0       __IMPORT_DESCRIPTOR_COREDLL 1000fdc0     coredll:COREDLL.dll
+ 0001:0000edd4       __NULL_IMPORT_DESCRIPTOR   1000fdd4     winsock:WINSOCK.dll
+ 0002:00000000       __imp_WaitForSingleObject  10011000     coredll:COREDLL.dll
+ 0002:00000004       __imp_InterlockedCompareExchange 10011004     coredll:COREDLL.dll
+ 0002:00000008       __imp___report_gsfailure   10011008     corelib1:COREDLL.dll
+ 0002:0000000c       __imp___security_gen_cookie2 1001100c     corelib1:COREDLL.dll
+ 0002:00000010       __imp__msize               10011010     corelib1:COREDLL.dll
+ 0002:00000014       __imp_realloc              10011014     corelib1:COREDLL.dll
+ 0002:00000018       __imp__XcptFilter          10011018     corelib1:COREDLL.dll
+ 0002:0000001c       __imp_wcsncpy_s            1001101c     corelib1:COREDLL.dll
+ 0002:00000020       __imp___C_specific_handler 10011020     corelib1:COREDLL.dll
+ 0002:00000024       __imp_wcscmp               10011024     corelib1:COREDLL.dll
+ 0002:00000028       __imp___rt_udiv            10011028     corelib1:COREDLL.dll
+ 0002:0000002c       __imp__purecall            1001102c     corelib1:COREDLL.dll
+ 0002:00000030       __imp_iswctype             10011030     corelib1:COREDLL.dll
+ 0002:00000034       __imp_wcslen               10011034     corelib1:COREDLL.dll
+ 0002:00000038       __imp_wcsstr               10011038     corelib1:COREDLL.dll
+ 0002:0000003c       __imp_memcpy               1001103c     corelib1:COREDLL.dll
+ 0002:00000040       __imp_malloc               10011040     corelib1:COREDLL.dll
+ 0002:00000044       __imp_free                 10011044     corelib1:COREDLL.dll
+ 0002:00000048       __imp_memcmp               10011048     corelib1:COREDLL.dll
+ 0002:0000004c       __imp_memset               1001104c     corelib1:COREDLL.dll
+ 0002:00000050       __imp_rand_s               10011050     corelib1:COREDLL.dll
+ 0002:00000054       __imp_??2@YAPAXI@Z         10011054     corelib1:COREDLL.dll
+ 0002:00000058       __imp_??3@YAXPAX@Z         10011058     corelib1:COREDLL.dll
+ 0002:0000005c       __imp_floor                1001105c     corelib1:COREDLL.dll
+ 0002:00000060       __imp_ShellExecuteEx       10011060     coredll:COREDLL.dll
+ 0002:00000064       __imp_FreeLibrary          10011064     coredll:COREDLL.dll
+ 0002:00000068       __imp_CeWriteRecordProps   10011068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_CeOpenDatabaseEx2    1001106c     coredll:COREDLL.dll
+ 0002:00000070       __imp_InterlockedExchange  10011070     coredll:COREDLL.dll
+ 0002:00000074       __imp_CeCreateDatabaseWithProps 10011074     coredll:COREDLL.dll
+ 0002:00000078       __imp_CeGetDBInformationByHandle 10011078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_CeDeleteRecord       1001107c     coredll:COREDLL.dll
+ 0002:00000080       __imp_ReadFile             10011080     coredll:COREDLL.dll
+ 0002:00000084       __imp_CeGetUserNotification 10011084     coredll:COREDLL.dll
+ 0002:00000088       __imp_CeSetUserNotificationEx 10011088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_CeReadRecordPropsEx  1001108c     coredll:COREDLL.dll
+ 0002:00000090       __imp_CeClearUserNotification 10011090     coredll:COREDLL.dll
+ 0002:00000094       __imp_CeSeekDatabaseEx     10011094     coredll:COREDLL.dll
+ 0002:00000098       __imp_StringCbPrintfW      10011098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_DSA_Create           1001109c     coredll:COREDLL.dll
+ 0002:000000a0       __imp_DSA_InsertItem       100110a0     coredll:COREDLL.dll
+ 0002:000000a4       __imp_DSA_Destroy          100110a4     coredll:COREDLL.dll
+ 0002:000000a8       __imp_DSA_GetItemPtr       100110a8     coredll:COREDLL.dll
+ 0002:000000ac       __imp_DisableThreadLibraryCalls 100110ac     coredll:COREDLL.dll
+ 0002:000000b0       __imp_GetLocalTime         100110b0     coredll:COREDLL.dll
+ 0002:000000b4       __imp_RegCloseKey          100110b4     coredll:COREDLL.dll
+ 0002:000000b8       __imp_RegSetValueExW       100110b8     coredll:COREDLL.dll
+ 0002:000000bc       __imp_RegCreateKeyExW      100110bc     coredll:COREDLL.dll
+ 0002:000000c0       __imp_InterlockedIncrement 100110c0     coredll:COREDLL.dll
+ 0002:000000c4       __imp_InterlockedDecrement 100110c4     coredll:COREDLL.dll
+ 0002:000000c8       __imp_GetSystemTime        100110c8     coredll:COREDLL.dll
+ 0002:000000cc       __imp_FileTimeToSystemTime 100110cc     coredll:COREDLL.dll
+ 0002:000000d0       __imp_GetLastError         100110d0     coredll:COREDLL.dll
+ 0002:000000d4       __imp_FileTimeToLocalFileTime 100110d4     coredll:COREDLL.dll
+ 0002:000000d8       __imp_LocalFileTimeToFileTime 100110d8     coredll:COREDLL.dll
+ 0002:000000dc       __imp_SystemTimeToFileTime 100110dc     coredll:COREDLL.dll
+ 0002:000000e0       __imp_RegQueryValueExW     100110e0     coredll:COREDLL.dll
+ 0002:000000e4       __imp_RegOpenKeyExW        100110e4     coredll:COREDLL.dll
+ 0002:000000e8       __imp_StringCchPrintfA     100110e8     coredll:COREDLL.dll
+ 0002:000000ec       __imp_LocalFree            100110ec     coredll:COREDLL.dll
+ 0002:000000f0       __imp_LocalAlloc           100110f0     coredll:COREDLL.dll
+ 0002:000000f4       __imp_WideCharToMultiByte  100110f4     coredll:COREDLL.dll
+ 0002:000000f8       __imp_CreateDirectoryW     100110f8     coredll:COREDLL.dll
+ 0002:000000fc       __imp_StringCchCopyW       100110fc     coredll:COREDLL.dll
+ 0002:00000100       __imp_CreateFileW          10011100     coredll:COREDLL.dll
+ 0002:00000104       __imp_DeleteFileW          10011104     coredll:COREDLL.dll
+ 0002:00000108       __imp_StringCchPrintfW     10011108     coredll:COREDLL.dll
+ 0002:0000010c       __imp_StringCchCatW        1001110c     coredll:COREDLL.dll
+ 0002:00000110       __imp_StringCchLengthW     10011110     coredll:COREDLL.dll
+ 0002:00000114       __imp_StringCchCopyExW     10011114     coredll:COREDLL.dll
+ 0002:00000118       __imp_StringCchCatExW      10011118     coredll:COREDLL.dll
+ 0002:0000011c       __imp_WriteFile            1001111c     coredll:COREDLL.dll
+ 0002:00000120       __imp_StringCchLengthA     10011120     coredll:COREDLL.dll
+ 0002:00000124       __imp_StringCchVPrintfA    10011124     coredll:COREDLL.dll
+ 0002:00000128       __imp_SetFilePointer       10011128     coredll:COREDLL.dll
+ 0002:0000012c       __imp_SetEndOfFile         1001112c     coredll:COREDLL.dll
+ 0002:00000130       __imp_CloseHandle          10011130     coredll:COREDLL.dll
+ 0002:00000134       __imp_GetFileSize          10011134     coredll:COREDLL.dll
+ 0002:00000138       __imp_ReleaseMutex         10011138     coredll:COREDLL.dll
+ 0002:0000013c       __imp_TerminateProcess     1001113c     coredll:COREDLL.dll
+ 0002:00000140       __imp_CreateMutexW         10011140     coredll:COREDLL.dll
+ 0002:00000144       __imp_StringCchVPrintfExA  10011144     coredll:COREDLL.dll
+ 0002:00000148       __imp_StringCchPrintfExA   10011148     coredll:COREDLL.dll
+ 0002:0000014c       __imp_StringCbCopyW        1001114c     coredll:COREDLL.dll
+ 0002:00000150       __imp_RegDeleteValueW      10011150     coredll:COREDLL.dll
+ 0002:00000154       __imp_RegDeleteKeyW        10011154     coredll:COREDLL.dll
+ 0002:00000158       __imp_StringCbLengthW      10011158     coredll:COREDLL.dll
+ 0002:0000015c       __imp_WaitForMultipleObjects 1001115c     coredll:COREDLL.dll
+ 0002:00000160       __imp_PostMessageW         10011160     coredll:COREDLL.dll
+ 0002:00000164       __imp_FindWindowW          10011164     coredll:COREDLL.dll
+ 0002:00000168       __imp_GetProcAddressW      10011168     coredll:COREDLL.dll
+ 0002:0000016c       __imp_LoadLibraryW         1001116c     coredll:COREDLL.dll
+ 0002:00000170       __imp_RegEnumKeyExW        10011170     coredll:COREDLL.dll
+ 0002:00000174       __imp_RegistryGetDWORD     10011174     coredll:COREDLL.dll
+ 0002:00000178       __imp_RegFlushKey          10011178     coredll:COREDLL.dll
+ 0002:0000017c       __imp_EventModify          1001117c     coredll:COREDLL.dll
+ 0002:00000180       __imp_InitializeCriticalSection 10011180     coredll:COREDLL.dll
+ 0002:00000184       __imp_DeleteCriticalSection 10011184     coredll:COREDLL.dll
+ 0002:00000188       __imp_EnterCriticalSection 10011188     coredll:COREDLL.dll
+ 0002:0000018c       __imp_LeaveCriticalSection 1001118c     coredll:COREDLL.dll
+ 0002:00000190       __imp_EventRegister        10011190     coredll:COREDLL.dll
+ 0002:00000194       __imp_EventWrite           10011194     coredll:COREDLL.dll
+ 0002:00000198       __imp_EventEnabled         10011198     coredll:COREDLL.dll
+ 0002:0000019c       __imp_EventUnregister      1001119c     coredll:COREDLL.dll
+ 0002:000001a0       __imp_CeEventClose         100111a0     coredll:COREDLL.dll
+ 0002:000001a4       __imp_CeEventNext          100111a4     coredll:COREDLL.dll
+ 0002:000001a8       __imp_CeEventRead          100111a8     coredll:COREDLL.dll
+ 0002:000001ac       __imp_CeEventSubscribe     100111ac     coredll:COREDLL.dll
+ 0002:000001b0       __imp_CreateThread         100111b0     coredll:COREDLL.dll
+ 0002:000001b4       __imp_CreateEventW         100111b4     coredll:COREDLL.dll
+ 0002:000001b8       __imp_RegQueryInfoKeyW     100111b8     coredll:COREDLL.dll
+ 0002:000001bc       __imp_TerminateThread      100111bc     coredll:COREDLL.dll
+ 0002:000001c0       __imp_GetTickCount         100111c0     coredll:COREDLL.dll
+ 0002:000001c4       __imp_SystemIdleTimerReset 100111c4     coredll:COREDLL.dll
+ 0002:000001c8       __imp_ResumeThread         100111c8     coredll:COREDLL.dll
+ 0002:000001cc       \177COREDLL_NULL_THUNK_DATA 100111cc     coredll:COREDLL.dll
+ 0002:000001d0       __imp_SystemTimeToVariantTime 100111d0     oleaut32:OLEAUT32.dll
+ 0002:000001d4       __imp_SysAllocString       100111d4     oleaut32:OLEAUT32.dll
+ 0002:000001d8       __imp_SysStringByteLen     100111d8     oleaut32:OLEAUT32.dll
+ 0002:000001dc       __imp_SysFreeString        100111dc     oleaut32:OLEAUT32.dll
+ 0002:000001e0       __imp_VariantTimeToSystemTime 100111e0     oleaut32:OLEAUT32.dll
+ 0002:000001e4       __imp_SysAllocStringLen    100111e4     oleaut32:OLEAUT32.dll
+ 0002:000001e8       \177OLEAUT32_NULL_THUNK_DATA 100111e8     oleaut32:OLEAUT32.dll
+ 0002:000001ec       __imp_RpcBindingFromStringBindingW 100111ec     rpcrt4:RPCRT4.dll
+ 0002:000001f0       __imp_RpcStringBindingComposeW 100111f0     rpcrt4:RPCRT4.dll
+ 0002:000001f4       __imp_NdrClientCall2       100111f4     rpcrt4:RPCRT4.dll
+ 0002:000001f8       __imp_RpcStringFreeW       100111f8     rpcrt4:RPCRT4.dll
+ 0002:000001fc       __imp_RpcBindingFree       100111fc     rpcrt4:RPCRT4.dll
+ 0002:00000200       \177RPCRT4_NULL_THUNK_DATA 10011200     rpcrt4:RPCRT4.dll
+ 0002:00000204       __imp_htons                10011204     winsock:WINSOCK.dll
+ 0002:00000208       __imp_connect              10011208     winsock:WINSOCK.dll
+ 0002:0000020c       __imp_socket               1001120c     winsock:WINSOCK.dll
+ 0002:00000210       __imp_getpeername          10011210     winsock:WINSOCK.dll
+ 0002:00000214       __imp_closesocket          10011214     winsock:WINSOCK.dll
+ 0002:00000218       \177WINSOCK_NULL_THUNK_DATA 10011218     winsock:WINSOCK.dll
+ 0002:0000021c       __imp_freeaddrinfo         1001121c     ws2:WS2.dll
+ 0002:00000220       __imp_WSASetLastError      10011220     ws2:WS2.dll
+ 0002:00000224       __imp_WSAGetLastError      10011224     ws2:WS2.dll
+ 0002:00000228       __imp_getaddrinfo          10011228     ws2:WS2.dll
+ 0002:0000022c       \177WS2_NULL_THUNK_DATA    1001122c     ws2:WS2.dll
+ 0002:00000230       __imp_CLSIDFromString      10011230     ole32:ole32.dll
+ 0002:00000234       __imp_StringFromGUID2      10011234     ole32:ole32.dll
+ 0002:00000238       __imp_CoCreateInstance     10011238     ole32:ole32.dll
+ 0002:0000023c       __imp_CoTaskMemFree        1001123c     ole32:ole32.dll
+ 0002:00000240       __imp_StringFromCLSID      10011240     ole32:ole32.dll
+ 0002:00000244       \177ole32_NULL_THUNK_DATA  10011244     ole32:ole32.dll
+ 0002:00000248       __imp_MountDBVol           10011248     ossvcs:ossvcs.dll
+ 0002:0000024c       __imp_UnmountDBVol         1001124c     ossvcs:ossvcs.dll
+ 0002:00000250       \177ossvcs_NULL_THUNK_DATA 10011250     ossvcs:ossvcs.dll
+ 0002:00000278       ?hrWaitingForNetwork@@3PAJA 10011278     asutil:ASUtil.obj
+ 0002:000002c8       ?g_fShouldStopOnAssert@@3HA 100112c8     asutil_CEBase:thunks_CEBase.obj
+ 0002:000002d0       ?c_wszSyncScheduler@@3PBGB 100112d0     SyncScheduler:SchedulerDatabase.obj
+ 0002:000002d4       ?s_dbVol@CSchedulerDatabase@@0U_CEGUID@@A 100112d4     SyncScheduler:SchedulerDatabase.obj
+ 0002:000015a8       ?s_Persistor@CSyncSchedule@@1PAUPersistorEntry@1@A 100125a8     SyncScheduler:SyncSchedule.obj
+ 0002:00001664       SyncAppRemote_v1_0_c_ifspec 10012664     SyncAppProxy:SyncAppRemote_c.obj
+ 0002:00001668       __security_cookie          10012668     corelib0:seccinit.obj
+ 0002:0000166c       __security_cookie_complement 1001266c     corelib0:seccinit.obj
+ 0002:00001690       ?memory@?1??allocate@?$static_allocator@VCSyncStatusNotification@@$0A@@ce@@SAPAXI@Z@4PADA 10012690     asutil:SyncStatusNotification.obj
+ 0002:000016d0       ??_B?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@51 100126d0     asutil:SyncStatusNotification.obj
+ 0002:000016d4       ?cs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@3@XZ@4V43@A 100126d4     asutil:SyncStatusNotification.obj
+ 0002:000016e8       ??_B?1??get_lock@?$singleton@VCSyncStatusNotification@@$0A@V?$static_allocator@VCSyncStatusNotification@@$0A@@ce@@@ce@@KAAAVcritical_section@2@XZ@51 100126e8     asutil:SyncStatusNotification.obj
+ 0002:000016ec       ?cs@?1??get_lock@?$singleton@VCSyncStatusNotification@@$0A@V?$static_allocator@VCSyncStatusNotification@@$0A@@ce@@@ce@@KAAAVcritical_section@3@XZ@4V43@A 100126ec     asutil:SyncStatusNotification.obj
+ 0002:00001700       ?pInstance@?$singleton@VCSyncStatusNotification@@$0A@V?$static_allocator@VCSyncStatusNotification@@$0A@@ce@@@ce@@1RAVCSyncStatusNotification@@A 10012700     asutil:SyncStatusNotification.obj
+ 0002:00001704       ?lRefCount@?$singleton@VCSyncStatusNotification@@$0A@V?$static_allocator@VCSyncStatusNotification@@$0A@@ce@@@ce@@1JA 10012704     asutil:SyncStatusNotification.obj
+ 0002:00001708       ?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A 10012708     asutil:SyncStatusNotification.obj
+ 0002:00001709       ?_factory@?$singleton@VCSyncStatusNotification@@$0A@V?$static_allocator@VCSyncStatusNotification@@$0A@@ce@@@ce@@1Ulock_factory@12@A 10012709     asutil:SyncStatusNotification.obj
+ 0002:0000170c       ?g_cRefThisDll@@3JA        1001270c     asutil:ProxyFactory.obj
+ 0002:000017a0       ?g_fSyncPerfOn@@3HA        100127a0     asutil_CEBase:syncperf.obj
+ 0002:000017a8       ?g_pfnSyncPerfInitEx@@3P6AJPAG0@ZA 100127a8     asutil_CEBase:syncperf.obj
+ 0002:000017ac       ?g_pfnSyncPerfDeinit@@3P6AJXZA 100127ac     asutil_CEBase:syncperf.obj
+ 0002:000017b0       ?g_pfnSyncPerfBeginDuration@@3P6AJPBG@ZA 100127b0     asutil_CEBase:syncperf.obj
+ 0002:000017b4       ?g_pfnSyncPerfEndDuration@@3P6AJPBG@ZA 100127b4     asutil_CEBase:syncperf.obj
+ 0002:000017b8       ?g_pfnSyncPerfFlushAndClear@@3P6AJXZA 100127b8     asutil_CEBase:syncperf.obj
+ 0002:000017bc       __@@_PchSym_@00@UygUDAJBUkirezgvUwzgzhbmxUzkkhUhxsvwfoviUlyqUzineHUivgzroUsvzwvihOlyq@SyncScheduler 100127bc     SyncScheduler:Headers.obj
+ 0002:000017c0       ?s_dbOid@CSchedulerDatabase@@0KA 100127c0     SyncScheduler:SchedulerDatabase.obj
+ 0002:000017c4       ?s_dwRef@CSchedulerDatabase@@0KA 100127c4     SyncScheduler:SchedulerDatabase.obj
+ 0002:000017d0       ?g_pfnRetailLogEnter@@3P6AJKPBD@ZA 100127d0     RetailLogUtils:RetailLogUtils.obj
+ 0002:000017d4       ?g_pfnRetailLogExit@@3P6AJKJ@ZA 100127d4     RetailLogUtils:RetailLogUtils.obj
+ 0002:000017d8       ?g_pfnRetailLogInit@@3P6AJPBG@ZA 100127d8     RetailLogUtils:RetailLogUtils.obj
+ 0002:000017dc       ?g_pfnRetailLogDeinit@@3P6AJXZA 100127dc     RetailLogUtils:RetailLogUtils.obj
+ 0002:000017e0       ?g_pfnRetailLogRefresh@@3P6AXXZA 100127e0     RetailLogUtils:RetailLogUtils.obj
+ 0002:000017e4       ?g_pfnRetailLogMessage@@3P6AJKKPBGPAD@ZA 100127e4     RetailLogUtils:RetailLogUtils.obj
+ 0002:000017e8       ?g_fRetailLogEnabled@@3HA  100127e8     RetailLogUtils:RetailLogUtils.obj
+ 0002:000017ec       ?g_hinstRetailLog@@3PAUHINSTANCE__@@A 100127ec     RetailLogUtils:RetailLogUtils.obj
+ 0002:000017f0       _exitflag                  100127f0     corelib0:cexit.obj
+ 0002:000017f4       SyncAppRemote_IfHandle     100127f4     <common>
+ 0002:000017f8       __onexitend                100127f8     <common>
+ 0002:000017fc       __onexitbegin              100127fc     <common>
+ 0002:00001800       g_pcsExit                  10012800     <common>
+ 0002:00001804       _pRawDllMain               10012804     <common>
+
+ entry point at        0001:0000e408
+
+ Static symbols
+
+ 0001:00002e00       ?CalcNextTransition@@YAJAAUCalculateInfo@@@Z 10003e00 f   asutil:CalcSchedule.obj
+ 0001:000030f8       ?CalculateWaitTime@@YAJAAUCalculateInfo@@@Z 100040f8 f   asutil:CalcSchedule.obj
+ 0001:00004754       ?GetRegSZ@@YAJPAUHKEY__@@PBG1PAGK@Z 10005754 f   asutil:RegistryUtils.obj
+ 0001:00009634       ?GetKeepAwakeEngine@@YAPAVKeepAwakeEngine@@XZ 1000a634 f   asutil:PowerManager.obj
+ 0001:00009a08       ?WorkerThreadProc@@YAKPAX@Z 1000aa08 f   asutil:PowerManager.obj
+ 0001:0000e318       _DllMainCRTStartupHelper   1000f318 f   corelib0:pegdmain.obj
+ 0001:0000e720       doexit                     1000f720 f   corelib0:cexit.obj
+ 0001:0000ea10       ??__Es_SyncInfo@@YAXXZ     1000fa10 f   asutil:SyncInfo.obj
+ 0001:0000ea1c       ??__E?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A@@YAXXZ 1000fa1c f   asutil:SyncStatusNotification.obj
+ 0001:0000ea20       ??__E?_factory@?$singleton@VCSyncStatusNotification@@$0A@V?$static_allocator@VCSyncStatusNotification@@$0A@@ce@@@ce@@1Ulock_factory@12@A@@YAXXZ 1000fa20 f   asutil:SyncStatusNotification.obj
+ 0001:0000ea24       ??__EDataTypeGuidSort@@YAXXZ 1000fa24 f   asutil:EnumDataTypeReg.obj
+ 0001:0000eb60       ??__Fs_SyncInfo@@YAXXZ     1000fb60 f   asutil:SyncInfo.obj

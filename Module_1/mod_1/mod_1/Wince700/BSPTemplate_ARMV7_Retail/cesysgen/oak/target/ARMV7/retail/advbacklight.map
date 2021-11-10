@@ -1,0 +1,106 @@
+ AdvBacklight
+
+ Timestamp is 5ac6570e (Thu Apr 05 10:04:14 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 000000a2H .rdata                  CODE
+ 0001:000000c4 00000029H .rdata$debug            CODE
+ 0001:000000f0 0000079cH .text                   CODE
+ 0001:0000088c 00000000H .xdata                  CODE
+ 0001:0000088c 00000028H .idata$2                CODE
+ 0001:000008b4 00000014H .idata$3                CODE
+ 0001:000008c8 00000048H .idata$4                CODE
+ 0001:00000910 0000001aH .idata$6                CODE
+ 0001:00000930 00000056H .edata                  CODE
+ 0002:00000000 00000048H .idata$5                DATA
+ 0002:00000048 00000008H .data                   DATA
+ 0002:00000050 00000048H .bss                    DATA
+ 0003:00000000 00000060H .pdata                  DATA
+ 0004:00000000 000000a0H .rsrc$01                DATA
+ 0004:000000a0 000002a8H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:000000f0       DllEntry                   100010f0 f   advbacklight.obj
+ 0001:00000128       ?GetFromRegistry@@YAXPAK0PBG11@Z 10001128 f   advbacklight.obj
+ 0001:000001c8       ?SetToRegistry@@YAXPAK0PBG11@Z 100011c8 f   advbacklight.obj
+ 0001:00000250       ?AdvancedDlgProc@@YAHPAUHWND__@@IIJ@Z 10001250 f   advbacklight.obj
+ 0001:00000454       BacklightAdvApplet         10001454 f   advbacklight.obj
+ 0001:0000056c       PropertySheetW             1000156c f   commctrl:commctrl.dll
+ 0001:0000057c       RegCloseKey                1000157c f   coredll:COREDLL.dll
+ 0001:0000058c       RegQueryValueExW           1000158c f   coredll:COREDLL.dll
+ 0001:0000059c       RegOpenKeyExW              1000159c f   coredll:COREDLL.dll
+ 0001:000005ac       RegSetValueExW             100015ac f   coredll:COREDLL.dll
+ 0001:000005bc       GetWindowLongW             100015bc f   coredll:COREDLL.dll
+ 0001:000005cc       SendMessageW               100015cc f   coredll:COREDLL.dll
+ 0001:000005dc       GetDlgItem                 100015dc f   coredll:COREDLL.dll
+ 0001:000005ec       SetWindowLongW             100015ec f   coredll:COREDLL.dll
+ 0001:000005fc       LocalFree                  100015fc f   coredll:COREDLL.dll
+ 0001:0000060c       LocalAlloc                 1000160c f   coredll:COREDLL.dll
+ 0001:0000061c       _DllEntryCRTStartup        1000161c f   corelib0:pegdentry.obj
+ 0001:00000748       _cexit                     10001748 f   corelib0:cexit.obj
+ 0001:00000758       _initterm                  10001758 f   corelib0:crt0dat.obj
+ 0001:00000784       _cinit                     10001784 f   corelib0:crt0dat.obj
+ 0001:000007e4       __security_init_cookie     100017e4 f   corelib0:seccinit.obj
+ 0001:00000830       __crt_ExitProcess          10001830 f   corelib0:exitproc_proxy.obj
+ 0001:0000083c       free                       1000183c f   corelib1:COREDLL.dll
+ 0001:0000084c       __security_gen_cookie2     1000184c f   corelib1:COREDLL.dll
+ 0001:0000085c       DeleteCriticalSection      1000185c f   coredll:COREDLL.dll
+ 0001:0000086c       InterlockedExchange        1000186c f   coredll:COREDLL.dll
+ 0001:0000087c       TerminateProcess           1000187c f   coredll:COREDLL.dll
+ 0001:0000088c       __IMPORT_DESCRIPTOR_commctrl 1000188c     commctrl:commctrl.dll
+ 0001:000008a0       __IMPORT_DESCRIPTOR_COREDLL 100018a0     coredll:COREDLL.dll
+ 0001:000008b4       __NULL_IMPORT_DESCRIPTOR   100018b4     commctrl:commctrl.dll
+ 0002:00000000       __imp_free                 10002000     corelib1:COREDLL.dll
+ 0002:00000004       __imp_RegCloseKey          10002004     coredll:COREDLL.dll
+ 0002:00000008       __imp_RegQueryValueExW     10002008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_RegOpenKeyExW        1000200c     coredll:COREDLL.dll
+ 0002:00000010       __imp_RegSetValueExW       10002010     coredll:COREDLL.dll
+ 0002:00000014       __imp_GetWindowLongW       10002014     coredll:COREDLL.dll
+ 0002:00000018       __imp_SendMessageW         10002018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_GetDlgItem           1000201c     coredll:COREDLL.dll
+ 0002:00000020       __imp_SetWindowLongW       10002020     coredll:COREDLL.dll
+ 0002:00000024       __imp_LocalFree            10002024     coredll:COREDLL.dll
+ 0002:00000028       __imp_LocalAlloc           10002028     coredll:COREDLL.dll
+ 0002:0000002c       __imp___security_gen_cookie2 1000202c     corelib1:COREDLL.dll
+ 0002:00000030       __imp_DeleteCriticalSection 10002030     coredll:COREDLL.dll
+ 0002:00000034       __imp_InterlockedExchange  10002034     coredll:COREDLL.dll
+ 0002:00000038       __imp_TerminateProcess     10002038     coredll:COREDLL.dll
+ 0002:0000003c       \177COREDLL_NULL_THUNK_DATA 1000203c     coredll:COREDLL.dll
+ 0002:00000040       __imp_PropertySheetW       10002040     commctrl:commctrl.dll
+ 0002:00000044       \177commctrl_NULL_THUNK_DATA 10002044     commctrl:commctrl.dll
+ 0002:00000048       __security_cookie          10002048     corelib0:seccinit.obj
+ 0002:0000004c       __security_cookie_complement 1000204c     corelib0:seccinit.obj
+ 0002:00000050       ?rgPropPages@@3PAU_PROPSHEETPAGEW@@A 10002050     advbacklight.obj
+ 0002:00000054       ?PropHdr@@3U_PROPSHEETHEADERW@@A 10002054     advbacklight.obj
+ 0002:0000007c       ?g_hInst@@3PAUHINSTANCE__@@A 1000207c     advbacklight.obj
+ 0002:00000088       _exitflag                  10002088     corelib0:cexit.obj
+ 0002:0000008c       __onexitend                1000208c     <common>
+ 0002:00000090       __onexitbegin              10002090     <common>
+ 0002:00000094       g_pcsExit                  10002094     <common>
+
+ entry point at        0001:0000061c
+
+ Static symbols
+
+ 0001:00000660       doexit                     10001660 f   corelib0:cexit.obj

@@ -1,0 +1,681 @@
+ msls31
+
+ Timestamp is 5ac64e94 (Thu Apr 05 09:28:04 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 000000f4H .rdata                  CODE
+ 0001:00000114 00000023H .rdata$debug            CODE
+ 0001:00000138 0002df24H .text                   CODE
+ 0001:0002e05c 00000018H .xdata                  CODE
+ 0001:0002e074 00000014H .idata$2                CODE
+ 0001:0002e088 00000014H .idata$3                CODE
+ 0001:0002e09c 0000003cH .idata$4                CODE
+ 0001:0002e0d8 0000000cH .idata$6                CODE
+ 0001:0002e0f0 0000095aH .edata                  CODE
+ 0002:00000000 0000003cH .idata$5                DATA
+ 0002:0000003c 00000048H .data                   DATA
+ 0002:000000a0 00000014H .bss                    DATA
+ 0003:00000000 000012c0H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:00000138       AutonumCreateILSObj        10001138 f   autonum.obj
+ 0001:00000190       SetAutonumConfig           10001190 f   autonum.obj
+ 0001:000001ac       AutonumDestroyILSObj       100011ac f   autonum.obj
+ 0001:000001c8       AutonumSetDoc              100011c8 f   autonum.obj
+ 0001:000001d0       AutonumCreateLNObj         100011d0 f   autonum.obj
+ 0001:000001dc       AutonumDestroyLNObj        100011dc f   autonum.obj
+ 0001:000001e4       AutonumGetSpecialEffectsInside 100011e4 f   autonum.obj
+ 0001:000001ec       AutonumCalcPresentation    100011ec f   autonum.obj
+ 0001:000001f4       AutonumQueryPointPcp       100011f4 f   autonum.obj
+ 0001:000001fc       AutonumQueryCpPpoint       100011fc f   autonum.obj
+ 0001:00000204       AutonumTruncateChunk       10001204 f   autonum.obj
+ 0001:0000020c       AutonumFindPrevBreakChunk  1000120c f   autonum.obj
+ 0001:00000214       AutonumFindNextBreakChunk  10001214 f   autonum.obj
+ 0001:0000021c       AutonumForceBreakChunk     1000121c f   autonum.obj
+ 0001:00000224       AutonumSetBreak            10001224 f   autonum.obj
+ 0001:0000022c       AutonumDisplay             1000122c f   autonum.obj
+ 0001:00000280       AutonumDestroyDobj         10001280 f   autonum.obj
+ 0001:000002c0       AllignAutonum95            100012c0 f   autonum.obj
+ 0001:0000035c       AllignAutonum              1000135c f   autonum.obj
+ 0001:00000414       AutonumEnumerate           10001414 f   autonum.obj
+ 0001:00000428       AutonumFmt                 10001428 f   autonum.obj
+ 0001:000009b0       BreakQuickCase             100019b0 f   BREAK.obj
+ 0001:00000b84       SqueezeSublineCore         10001b84 f   BREAK.obj
+ 0001:00000ee8       GetLineDurCore             10001ee8 f   BREAK.obj
+ 0001:00000f94       FCanBreakBeforeNextChunkCore 10001f94 f   BREAK.obj
+ 0001:00001ea0       TruncateSublineCore        10002ea0 f   BREAK.obj
+ 0001:00001ef0       FindPrevBreakSublineCore   10002ef0 f   BREAK.obj
+ 0001:00002178       FindNextBreakSublineCore   10003178 f   BREAK.obj
+ 0001:0000240c       ForceBreakSublineCore      1000340c f   BREAK.obj
+ 0001:0000268c       GetMinDurBreaksCore        1000368c f   BREAK.obj
+ 0001:00002e6c       SetBreakSublineCore        10003e6c f   BREAK.obj
+ 0001:00003038       BreakGeneralCase           10004038 f   BREAK.obj
+ 0001:000037f8       SetPosInChunk              100047f8 f   CHNUTILS.obj
+ 0001:00003838       InitGroupChunkExt          10004838 f   CHNUTILS.obj
+ 0001:00003f08       GetTrailingInfoForTextGroupChunk 10004f08 f   CHNUTILS.obj
+ 0001:000041e0       AllocChunkArrays           100051e0 f   CHNUTILS.obj
+ 0001:00004310       GetUrPenAtBeginingOfLastChunk 10005310 f   CHNUTILS.obj
+ 0001:000043e4       FindPointOffset            100053e4 f   CHNUTILS.obj
+ 0001:0000479c       DisposeChunkArrays         1000579c f   CHNUTILS.obj
+ 0001:00004b60       DuplicateChunkContext      10005b60 f   CHNUTILS.obj
+ 0001:00004dec       DestroyChunkContext        10005dec f   CHNUTILS.obj
+ 0001:00004e14       FillChunkArray             10005e14 f   CHNUTILS.obj
+ 0001:000050a0       CollectTextGroupChunk      100060a0 f   CHNUTILS.obj
+ 0001:000056fc       CollectPreviousTextGroupChunk 100066fc f   CHNUTILS.obj
+ 0001:000057b4       CollectChunkAround         100067b4 f   CHNUTILS.obj
+ 0001:00005a28       CollectPreviousChunk       10006a28 f   CHNUTILS.obj
+ 0001:00005b38       CollectNextChunk           10006b38 f   CHNUTILS.obj
+ 0001:0000664c       DisplaySublineCore         1000764c f   DISPMAIN.obj
+ 0001:00006a90       DestroyDisplayTree         10007a90 f   DISPMISC.obj
+ 0001:00006b34       CreateDisplayTree          10007b34 f   DISPMISC.obj
+ 0001:00006e08       AdvanceToNextDnode         10007e08 f   DISPMISC.obj
+ 0001:00006e5c       AdvanceToFirstDnode        10007e5c f   DISPMISC.obj
+ 0001:00006e98       AdvanceToNextSubmittingDnode 10007e98 f   DISPMISC.obj
+ 0001:00006eec       AdvanceToFirstSubmittingDnode 10007eec f   DISPMISC.obj
+ 0001:00007314       CalcPresentationText       10008314 f   DISPTEXT.obj
+ 0001:0000732c       DisplayText                1000832c f   DISPTEXT.obj
+ 0001:00007964       GetUnderlineMergeMetric    10008964 f   dispul.obj
+ 0001:00007d0c       DrawUnderlineMerge         10008d0c f   dispul.obj
+ 0001:00008028       GetStrikeMetric            10009028 f   dispul.obj
+ 0001:00008140       StrikeDnode                10009140 f   dispul.obj
+ 0001:00008268       FindListDup                10009268 f   DNUTILS.obj
+ 0001:000082b4       FindListFinalPenMovement   100092b4 f   DNUTILS.obj
+ 0001:0000834c       FindListDims               1000934c f   DNUTILS.obj
+ 0001:0000859c       DestroyDnodeList           1000959c f   DNUTILS.obj
+ 0001:000086a0       DurBorderFromDnodeInside   100096a0 f   DNUTILS.obj
+ 0001:000086c8       FSpacesOnly                100096c8 f   DNUTILS.obj
+ 0001:0000889c       EnumSublineCore            1000989c f   EnumCore.obj
+ 0001:00008a44       HihCreateILSObj            10009a44 f   hih.obj
+ 0001:00008ae0       HihDestroyILSObj           10009ae0 f   hih.obj
+ 0001:00008afc       HihSetDoc                  10009afc f   hih.obj
+ 0001:00008b04       HihCreateLNObj             10009b04 f   hih.obj
+ 0001:00008b10       HihDestroyLNObj            10009b10 f   hih.obj
+ 0001:00008b18       HihFmt                     10009b18 f   hih.obj
+ 0001:00008c78       HihGetSpecialEffectsInside 10009c78 f   hih.obj
+ 0001:00008c80       HihCalcPresentation        10009c80 f   hih.obj
+ 0001:00008c88       HihQueryPointPcp           10009c88 f   hih.obj
+ 0001:00008cb4       HihQueryCpPpoint           10009cb4 f   hih.obj
+ 0001:00008ce0       HihDisplay                 10009ce0 f   hih.obj
+ 0001:00008cf0       HihDestroyDobj             10009cf0 f   hih.obj
+ 0001:00008d30       HihEnum                    10009d30 f   hih.obj
+ 0001:00008d94       LsGetHihLsimethods         10009d94 f   hih.obj
+ 0001:00008f34       LsDestroyContext           10009f34 f   LSCONTXT.obj
+ 0001:00009028       LsCreateContext            1000a028 f   LSCONTXT.obj
+ 0001:00009264       LsModifyLineHeight         1000a264 f   LSCRLINE.obj
+ 0001:000092f4       LsGetLineDur               1000a2f4 f   LSCRLINE.obj
+ 0001:0000939c       LsGetMinDurBreaks          1000a39c f   LSCRLINE.obj
+ 0001:00009cb8       LsDestroyLine              1000acb8 f   LSCRLINE.obj
+ 0001:0000a950       LsCreateLine               1000b950 f   LSCRLINE.obj
+ 0001:0000ab1c       LsCreateSubline            1000bb1c f   LSCRSUBL.obj
+ 0001:0000abc8       LsFetchAppendToCurrentSubline 1000bbc8 f   LSCRSUBL.obj
+ 0001:0000ad84       LsFetchAppendToCurrentSublineResume 1000bd84 f   LSCRSUBL.obj
+ 0001:0000af88       LsAppendRunToCurrentSubline 1000bf88 f   LSCRSUBL.obj
+ 0001:0000b0d8       LsResetRMInCurrentSubline  1000c0d8 f   LSCRSUBL.obj
+ 0001:0000b124       LsFinishCurrentSubline     1000c124 f   LSCRSUBL.obj
+ 0001:0000b16c       LsTruncateSubline          1000c16c f   LSCRSUBL.obj
+ 0001:0000b1c4       LsFindPrevBreakSubline     1000c1c4 f   LSCRSUBL.obj
+ 0001:0000b23c       LsFindNextBreakSubline     1000c23c f   LSCRSUBL.obj
+ 0001:0000b2b4       LsForceBreakSubline        1000c2b4 f   LSCRSUBL.obj
+ 0001:0000b324       LsSetBreakSubline          1000c324 f   LSCRSUBL.obj
+ 0001:0000b384       LsDestroySubline           1000c384 f   LSCRSUBL.obj
+ 0001:0000b3d8       LsMatchPresSubline         1000c3d8 f   LSCRSUBL.obj
+ 0001:0000b404       LsExpandSubline            1000c404 f   LSCRSUBL.obj
+ 0001:0000b434       LsCompressSubline          1000c434 f   LSCRSUBL.obj
+ 0001:0000b464       LsGetSpecialEffectsSubline 1000c464 f   LSCRSUBL.obj
+ 0001:0000b49c       LsSqueezeSubline           1000c49c f   LSCRSUBL.obj
+ 0001:0000b4e8       LsdnFinishRegular          1000c4e8 f   LSDNFIN.obj
+ 0001:0000b68c       LsdnFinishRegularAddAdvancePen 1000c68c f   LSDNFIN.obj
+ 0001:0000b790       LsdnFinishDelete           1000c790 f   LSDNFIN.obj
+ 0001:0000b844       LsdnFinishByPen            1000c844 f   LSDNFIN.obj
+ 0001:0000b9b8       LsdnFinishBySubline        1000c9b8 f   LSDNFIN.obj
+ 0001:0000bb94       LsdnFinishDeleteAll        1000cb94 f   LSDNFIN.obj
+ 0001:0000bd44       LsdnFinishByOneChar        1000cd44 f   LSDNFIN.obj
+ 0001:0000be58       LsdnQueryObjDimRange       1000ce58 f   LSDNSET.obj
+ 0001:0000c04c       LsdnGetCurTabInfo          1000d04c f   LSDNSET.obj
+ 0001:0000c1b8       LsdnResolvePrevTab         1000d1b8 f   LSDNSET.obj
+ 0001:0000c258       LsdnSkipCurTab             1000d258 f   LSDNSET.obj
+ 0001:0000c300       LsdnSetRigidDup            1000d300 f   LSDNSET.obj
+ 0001:0000c378       LsdnGetDup                 1000d378 f   LSDNSET.obj
+ 0001:0000c3f4       LsdnResetObjDim            1000d3f4 f   LSDNSET.obj
+ 0001:0000c4b4       LsdnResetPenNode           1000d4b4 f   LSDNSET.obj
+ 0001:0000c5e4       LsdnQueryPenNode           1000d5e4 f   LSDNSET.obj
+ 0001:0000c66c       LsdnSetAbsBaseLine         1000d66c f   LSDNSET.obj
+ 0001:0000c6bc       LsdnModifyParaEnding       1000d6bc f   LSDNSET.obj
+ 0001:0000c70c       LsdnDistribute             1000d70c f   LSDNSET.obj
+ 0001:0000c86c       LsdnSubmitSublines         1000d86c f   LSDNSET.obj
+ 0001:0000cb34       LsdnGetFormatDepth         1000db34 f   LSDNSET.obj
+ 0001:0000cb7c       LsdnSetTextDup             1000db7c f   LSDNTEXT.obj
+ 0001:0000cb88       LsdnModifyTextDup          1000db88 f   LSDNTEXT.obj
+ 0001:0000cb9c       LsdnGetObjDim              1000db9c f   LSDNTEXT.obj
+ 0001:0000cbb8       LsdnGetCpFirst             1000dbb8 f   LSDNTEXT.obj
+ 0001:0000cbc8       LsdnGetPlsrun              1000dbc8 f   LSDNTEXT.obj
+ 0001:0000cbd8       LsdnModifySimpleWidth      1000dbd8 f   LSDNTEXT.obj
+ 0001:0000cc70       LsdnSetSimpleWidth         1000dc70 f   LSDNTEXT.obj
+ 0001:0000ccec       LsdnFInChildList           1000dcec f   LSDNTEXT.obj
+ 0001:0000cd0c       LsdnSetHyphenated          1000dd0c f   LSDNTEXT.obj
+ 0001:0000cd1c       LsdnResetWidthInPreviousDnodes 1000dd1c f   LSDNTEXT.obj
+ 0001:0000cdd0       LsdnGetUrPenAtBeginningOfChunk 1000ddd0 f   LSDNTEXT.obj
+ 0001:0000d070       LsdnGetBorderAfter         1000e070 f   LSDNTEXT.obj
+ 0001:0000d0c4       LsdnGetLeftIndentDur       1000e0c4 f   LSDNTEXT.obj
+ 0001:0000d0d4       LsdnSetStopr               1000e0d4 f   LSDNTEXT.obj
+ 0001:0000d154       LsdnFCanBreakBeforeNextChunk 1000e154 f   LSDNTEXT.obj
+ 0001:0000d158       LsdnFStoppedAfterChunk     1000e158 f   LSDNTEXT.obj
+ 0001:0000d1a8       LsdnResetDcpMerge          1000e1a8 f   LSDNTEXT.obj
+ 0001:0000d1c4       LsdnResetDcp               1000e1c4 f   LSDNTEXT.obj
+ 0001:0000d2f4       LsDisplayLine              1000e2f4 f   LSDSPLY.obj
+ 0001:0000d53c       LsDisplaySubline           1000e53c f   lsdssubl.obj
+ 0001:0000d5a0       LsEnumSubline              1000e5a0 f   lsensubl.obj
+ 0001:0000d5fc       LsEnumLine                 1000e5fc f   lsenum.obj
+ 0001:0000d748       InitializeAutoDecTab       1000e748 f   LSFETCH.obj
+ 0001:0000d8ac       HandleTab                  1000e8ac f   LSFETCH.obj
+ 0001:0000dae0       CreateSublineCore          1000eae0 f   LSFETCH.obj
+ 0001:0000de9c       CloseCurrentBorder         1000ee9c f   LSFETCH.obj
+ 0001:0000dfb4       RightMarginIncreasing      1000efb4 f   LSFETCH.obj
+ 0001:0000e064       ProcessOneRun              1000f064 f   LSFETCH.obj
+ 0001:0000e7a0       QuickFormatting            1000f7a0 f   LSFETCH.obj
+ 0001:0000ec08       FormatAnm                  1000fc08 f   LSFETCH.obj
+ 0001:0000ef40       FinishSublineCore          1000ff40 f   LSFETCH.obj
+ 0001:0000f058       FetchAppendEscCore         10010058 f   LSFETCH.obj
+ 0001:0000f374       FetchAppendEscResumeCore   10010374 f   LSFETCH.obj
+ 0001:0000f9f8       QuerySublineCpPpointCore   100109f8 f   LSQCORE.obj
+ 0001:0000fdb8       QuerySublinePointPcpCore   10010db8 f   LSQCORE.obj
+ 0001:00010174       LsQueryTextCellDetails     10011174 f   LSQLINE.obj
+ 0001:000101f0       LsQueryLineDup             100111f0 f   LSQLINE.obj
+ 0001:00010280       LsQueryFLineEmpty          10011280 f   LSQLINE.obj
+ 0001:00010334       AdjustForLeftIndent        10011334 f   LSQLINE.obj
+ 0001:00010380       LsQueryLineCpPpoint        10011380 f   LSQLINE.obj
+ 0001:00010494       LsQueryLinePointPcp        10011494 f   LSQLINE.obj
+ 0001:000105a4       LsQueryCpPpointSubline     100115a4 f   LSQSUBL.obj
+ 0001:000105f0       LsQueryPointPcpSubline     100115f0 f   LSQSUBL.obj
+ 0001:0001063c       LsSetModWidthPairs         1001163c f   LSSETDOC.obj
+ 0001:00010710       LsSetCompression           10011710 f   LSSETDOC.obj
+ 0001:000107ec       LsSetExpansion             100117ec f   LSSETDOC.obj
+ 0001:000108c0       LsSetBreaking              100118c0 f   LSSETDOC.obj
+ 0001:00010994       LsSetDoc                   10011994 f   LSSETDOC.obj
+ 0001:00010b64       FillRegularPresWidths      10011b64 f   LSSTRING.obj
+ 0001:00010c20       GetOneCharDur              10011c20 f   LSSTRING.obj
+ 0001:00010c80       GetOneCharDup              10011c80 f   LSSTRING.obj
+ 0001:00010d1c       GetVisiCharDup             10011d1c f   LSSTRING.obj
+ 0001:00010d9c       FixSpaces                  10011d9c f   LSSTRING.obj
+ 0001:000111d4       FlushStringState           100121d4 f   LSSTRING.obj
+ 0001:000111ec       GetWidths                  100121ec f   LSSTRING.obj
+ 0001:0001141c       FormatString               1001241c f   LSSTRING.obj
+ 0001:00011598       AddCharacterWithWidth      10012598 f   LSSTRING.obj
+ 0001:00011668       AddSpaces                  10012668 f   LSSTRING.obj
+ 0001:000116c0       IncreaseWchMacBy2          100126c0 f   LSSTRING.obj
+ 0001:00011744       LssbGetObjDimSubline       10012744 f   LSSUBSET.obj
+ 0001:0001178c       LssbGetDupSubline          1001278c f   LSSUBSET.obj
+ 0001:000117d4       LssbFDonePresSubline       100127d4 f   LSSUBSET.obj
+ 0001:0001181c       LssbFDoneDisplay           1001281c f   LSSUBSET.obj
+ 0001:00011854       LssbGetPlsrunsFromSubline  10012854 f   LSSUBSET.obj
+ 0001:00011888       LssbGetNumberDnodesInSubline 10012888 f   LSSUBSET.obj
+ 0001:000118bc       LssbGetVisibleDcpInSubline 100128bc f   LSSUBSET.obj
+ 0001:000118f0       LssbGetDurTrailInSubline   100128f0 f   LSSUBSET.obj
+ 0001:00011924       LssbGetDurTrailWithPensInSubline 10012924 f   LSSUBSET.obj
+ 0001:00011958       LssbFIsSublineEmpty        10012958 f   LSSUBSET.obj
+ 0001:0001198c       LsPointUV2FromPointUV1     1001298c f   LSTFSET.obj
+ 0001:00011a74       LsPointXYFromPointUV       10012a74 f   LSTFSET.obj
+ 0001:00011b78       QuickBreakText             10012b78 f   LSTXTBR1.obj
+ 0001:00011e78       SetBreakText               10012e78 f   LSTXTBR1.obj
+ 0001:00012520       ForceBreakText             10013520 f   LSTXTBR1.obj
+ 0001:00012760       TruncateText               10013760 f   LSTXTBR1.obj
+ 0001:00014fbc       FindPrevBreakText          10015fbc f   LSTXTBRK.obj
+ 0001:00015354       FindNextBreakText          10016354 f   LSTXTBRK.obj
+ 0001:000156cc       FindNonSpaceBefore         100166cc f   LSTXTBRS.obj
+ 0001:000157d0       FindNonSpaceAfter          100167d0 f   LSTXTBRS.obj
+ 0001:000158dc       FindPrevChar               100168dc f   LSTXTBRS.obj
+ 0001:00015954       FindNextChar               10016954 f   LSTXTBRS.obj
+ 0001:000159e4       CalcPartWidths             100169e4 f   LSTXTBRS.obj
+ 0001:00015a68       CalcPartWidthsGlyphs       10016a68 f   LSTXTBRS.obj
+ 0001:00015ae8       CheckHotZone               10016ae8 f   LSTXTBRS.obj
+ 0001:00015bcc       GetPbrkinf                 10016bcc f   LSTXTBRS.obj
+ 0001:00015f98       ProcessYsr                 10016f98 f   LSTXTBRS.obj
+ 0001:0001679c       GetCompLastCharInfo        1001779c f   LSTXTCMP.obj
+ 0001:0001683c       CompressLastCharRight      1001783c f   LSTXTCMP.obj
+ 0001:000168d0       ApplyDistribution          100178d0 f   LSTXTCMP.obj
+ 0001:000173c8       ApplyCompress              100183c8 f   LSTXTCMP.obj
+ 0001:00017db8       FetchCompressInfo          10018db8 f   LSTXTCMP.obj
+ 0001:0001835c       ApplyExpand                1001935c f   LSTXTCMP.obj
+ 0001:00018478       DestroyDObjText            10019478 f   LSTXTFMT.obj
+ 0001:00018480       LsSublineFinishedText      10019480 f   LSTXTFMT.obj
+ 0001:00019578       FmtText                    1001a578 f   LSTXTFMT.obj
+ 0001:0001b2b8       ApplyGlyphExpand           1001c2b8 f   LSTXTGLF.obj
+ 0001:0001b518       CreateILSObjText           1001c518 f   LSTXTINI.obj
+ 0001:0001b56c       DestroyLNObjText           1001c56c f   LSTXTINI.obj
+ 0001:0001b71c       SetDocText                 1001c71c f   LSTXTINI.obj
+ 0001:0001b804       SetTextBreaking            1001c804 f   LSTXTINI.obj
+ 0001:0001b928       SetTextLineParams          1001c928 f   LSTXTINI.obj
+ 0001:0001b980       ModifyTextLineEnding       1001c980 f   LSTXTINI.obj
+ 0001:0001bb90       DestroyILSObjText          1001cb90 f   LSTXTINI.obj
+ 0001:0001be48       CreateLNObjText            1001ce48 f   LSTXTINI.obj
+ 0001:0001c424       SetTextModWidthPairs       1001d424 f   LSTXTINI.obj
+ 0001:0001c528       SetTextCompression         1001d528 f   LSTXTINI.obj
+ 0001:0001c630       SetTextExpansion           1001d630 f   LSTXTINI.obj
+ 0001:0001c734       SetTextConfig              1001d734 f   LSTXTINI.obj
+ 0001:0001cb38       DistributeInText           1001db38 f   LSTXTJST.obj
+ 0001:0001cd0c       GetTrailInfoText           1001dd0c f   LSTXTJST.obj
+ 0001:0001cef0       FSuspectDeviceDifferent    1001def0 f   LSTXTJST.obj
+ 0001:0001cefc       FQuickScaling              1001defc f   LSTXTJST.obj
+ 0001:0001cf38       QuickAdjustExact           1001df38 f   LSTXTJST.obj
+ 0001:0001e338       AdjustText                 1001f338 f   LSTXTJST.obj
+ 0001:0001e7b4       CanCompressText            1001f7b4 f   LSTXTJST.obj
+ 0001:0001ede8       IgindFirstFromIwch         1001fde8 f   LSTXTMAP.obj
+ 0001:0001ee28       IgindFirstFromIwchVeryFirst 1001fe28 f   LSTXTMAP.obj
+ 0001:0001ee40       IgindLastFromIwchVeryFirst 1001fe40 f   LSTXTMAP.obj
+ 0001:0001ee78       IgindLastFromIwch          1001fe78 f   LSTXTMAP.obj
+ 0001:0001eeb4       IgindBaseFromIgind         1001feb4 f   LSTXTMAP.obj
+ 0001:0001eee8       IwchFirstFromIgind         1001fee8 f   LSTXTMAP.obj
+ 0001:0001ef58       IwchLastFromIwch           1001ff58 f   LSTXTMAP.obj
+ 0001:0001ef84       IwchPrevLastFromIwch       1001ff84 f   LSTXTMAP.obj
+ 0001:0001efc8       FIwchOneToOne              1001ffc8 f   LSTXTMAP.obj
+ 0001:0001efd8       FIwchLastInContext         1001ffd8 f   LSTXTMAP.obj
+ 0001:0001efe8       FIwchFirstInContext        1001ffe8 f   LSTXTMAP.obj
+ 0001:0001eff8       FIgindLastInContext        1001fff8 f   LSTXTMAP.obj
+ 0001:0001f008       FIgindFirstInContext       10020008 f   LSTXTMAP.obj
+ 0001:0001f018       DcpAfterContextFromDcp     10020018 f   LSTXTMAP.obj
+ 0001:0001f054       InterpretMap               10020054 f   LSTXTMAP.obj
+ 0001:0001f1c0       GetChanges                 100201c0 f   LSTXTMOD.obj
+ 0001:0001f2a4       TranslateChanges           100202a4 f   LSTXTMOD.obj
+ 0001:0001f354       ApplyChanges               10020354 f   LSTXTMOD.obj
+ 0001:0001f3e4       ApplyGlyphChanges          100203e4 f   LSTXTMOD.obj
+ 0001:0001f40c       CutTextDobj                1002040c f   LSTXTNTI.obj
+ 0001:00020104       GetFirstCharInChunk        10021104 f   LSTXTNTI.obj
+ 0001:000201d8       GetLastCharInChunk         100211d8 f   LSTXTNTI.obj
+ 0001:000202c4       ModifyFirstCharInChunk     100212c4 f   LSTXTNTI.obj
+ 0001:0002032c       ModifyLastCharInChunk      1002132c f   LSTXTNTI.obj
+ 0001:00021b64       NominalToIdealText         10022b64 f   LSTXTNTI.obj
+ 0001:00021ec0       QueryCpPpointText          10022ec0 f   LSTXTQRY.obj
+ 0001:00021ff0       QueryPointPcpText          10022ff0 f   LSTXTQRY.obj
+ 0001:00022278       QueryTextCellDetails       10023278 f   LSTXTQRY.obj
+ 0001:00022378       ScaleSpaces                10023378 f   LSTXTSCL.obj
+ 0001:000224d0       UpdateGlyphOffsets         100234d0 f   LSTXTSCL.obj
+ 0001:00022604       SetBeforeJustCopy          10023604 f   LSTXTSCL.obj
+ 0001:00022680       ScaleExtNonText            10023680 f   LSTXTSCL.obj
+ 0001:000226fc       GetDupLastChar             100236fc f   LSTXTSCL.obj
+ 0001:00022718       FillDupPen                 10023718 f   LSTXTSCL.obj
+ 0001:00022a60       FinalAdjustmentOnPres      10023a60 f   LSTXTSCL.obj
+ 0001:00023470       ApplyWysi                  10024470 f   LSTXTSCL.obj
+ 0001:000237fc       ScaleCharSides             100247fc f   LSTXTSCL.obj
+ 0001:000239c8       ScaleGlyphSides            100249c8 f   LSTXTSCL.obj
+ 0001:00023b78       SetTabLeader               10024b78 f   LSTXTTAB.obj
+ 0001:00023b84       LsGetDecimalPoint          10024b84 f   LSTXTTAB.obj
+ 0001:000247b4       FullPositiveSpaceJustification 100257b4 f   LSTXTWRD.obj
+ 0001:00024858       NegativeSpaceJustification 10025858 f   LSTXTWRD.obj
+ 0001:0002491c       ApplyNominalToIdeal        1002591c f   NTIMAN.obj
+ 0001:00024b34       ApplyModWidthToPrecedingChar 10025b34 f   NTIMAN.obj
+ 0001:00024c7c       CutPossibleContextViolation 10025c7c f   NTIMAN.obj
+ 0001:00024cac       GetBreakRecordIndex        10025cac f   objhelp.obj
+ 0001:00024ce4       FormatResumedLine          10025ce4 f   objhelp.obj
+ 0001:00024ec4       CreateQueryResult          10025ec4 f   objhelp.obj
+ 0001:00024f40       ObjHelpFmtResume           10025f40 f   objhelp.obj
+ 0001:00024f48       ObjHelpGetModWidthChar     10025f48 f   objhelp.obj
+ 0001:00024f5c       ObjHelpSetBreak            10025f5c f   objhelp.obj
+ 0001:00024f70       ObjHelpFExpandWithPrecedingChar 10025f70 f   objhelp.obj
+ 0001:00024f84       ObjHelpFExpandWithFollowingChar 10025f84 f   objhelp.obj
+ 0001:00024f98       FormatLine                 10025f98 f   objhelp.obj
+ 0001:000262f4       MatchPresSubline           100272f4 f   PREPDISP.obj
+ 0001:000265d0       AdjustSubline              100275d0 f   PREPDISP.obj
+ 0001:000267a8       PrepareLineForDisplayProc  100277a8 f   PREPDISP.obj
+ 0001:00026cfc       CreateQuickHeap            10027cfc f   qheap.obj
+ 0001:00026dcc       DestroyQuickHeap           10027dcc f   qheap.obj
+ 0001:00026e14       PvNewQuickProc             10027e14 f   qheap.obj
+ 0001:00026ee4       DisposeQuickPvProc         10027ee4 f   qheap.obj
+ 0001:00026ef8       FlushQuickHeap             10027ef8 f   qheap.obj
+ 0001:00027070       ReverseCreateILSObj        10028070 f   robj.obj
+ 0001:0002711c       ReverseDestroyILSObj       1002811c f   robj.obj
+ 0001:00027138       ReverseSetDoc              10028138 f   robj.obj
+ 0001:00027140       ReverseCreateLNObj         10028140 f   robj.obj
+ 0001:0002714c       ReverseDestroyLNObj        1002814c f   robj.obj
+ 0001:00027154       ReverseFmt                 10028154 f   robj.obj
+ 0001:0002723c       ReverseFmtResume           1002823c f   robj.obj
+ 0001:00027348       ReverseTruncateChunk       10028348 f   robj.obj
+ 0001:000273e4       ReverseFindPrevBreakChunk  100283e4 f   robj.obj
+ 0001:00027628       ReverseFindNextBreakChunk  10028628 f   robj.obj
+ 0001:00027814       ReverseForceBreakChunk     10028814 f   robj.obj
+ 0001:000279a8       ReverseSetBreak            100289a8 f   robj.obj
+ 0001:00027a80       ReverseGetSpecialEffectsInside 10028a80 f   robj.obj
+ 0001:00027a88       ReverseCalcPresentation    10028a88 f   robj.obj
+ 0001:00027ac4       ReverseQueryPointPcp       10028ac4 f   robj.obj
+ 0001:00027af4       ReverseQueryCpPpoint       10028af4 f   robj.obj
+ 0001:00027b24       ReverseDisplay             10028b24 f   robj.obj
+ 0001:00027ba0       ReverseDestroyDobj         10028ba0 f   robj.obj
+ 0001:00027be0       ReverseEnum                10028be0 f   robj.obj
+ 0001:00027c4c       LsGetReverseLsimethods     10028c4c f   robj.obj
+ 0001:00028118       RubyCreateILSObj           10029118 f   ruby.obj
+ 0001:000281dc       RubyDestroyILSObj          100291dc f   ruby.obj
+ 0001:000281f8       RubySetDoc                 100291f8 f   ruby.obj
+ 0001:00028224       RubyCreateLNObj            10029224 f   ruby.obj
+ 0001:00028230       RubyDestroyLNObj           10029230 f   ruby.obj
+ 0001:00028238       RubyFmt                    10029238 f   ruby.obj
+ 0001:0002867c       RubyGetModWidthPrecedingChar 1002967c f   ruby.obj
+ 0001:000286d0       RubyGetModWidthFollowingChar 100296d0 f   ruby.obj
+ 0001:00028768       RubySetBreak               10029768 f   ruby.obj
+ 0001:0002877c       RubyGetSpecialEffectsInside 1002977c f   ruby.obj
+ 0001:000287c0       RubyCalcPresentation       100297c0 f   ruby.obj
+ 0001:000288f8       RubyQueryPointPcp          100298f8 f   ruby.obj
+ 0001:0002895c       RubyQueryCpPpoint          1002995c f   ruby.obj
+ 0001:000289d4       RubyDisplay                100299d4 f   ruby.obj
+ 0001:00028a6c       RubyDestroyDobj            10029a6c f   ruby.obj
+ 0001:00028ad0       RubyEnum                   10029ad0 f   ruby.obj
+ 0001:00028c30       LsGetRubyLsimethods        10029c30 f   ruby.obj
+ 0001:00028d50       SobjTruncateChunk          10029d50 f   sobjhelp.obj
+ 0001:00028db0       SobjFindPrevBreakChunk     10029db0 f   sobjhelp.obj
+ 0001:00028ed0       SobjFindNextBreakChunk     10029ed0 f   sobjhelp.obj
+ 0001:00028f74       SobjForceBreakChunk        10029f74 f   sobjhelp.obj
+ 0001:00029028       GetSpecialEffectsSublineCore 1002a028 f   SUBLUTIL.obj
+ 0001:000290f8       GetObjDimSublineCore       1002a0f8 f   SUBLUTIL.obj
+ 0001:0002914c       GetDupSublineCore          1002a14c f   SUBLUTIL.obj
+ 0001:00029168       FIsSublineEmpty            1002a168 f   SUBLUTIL.obj
+ 0001:000291d4       DestroySublineCore         1002a1d4 f   SUBLUTIL.obj
+ 0001:00029250       FAreTabsPensInSubline      1002a250 f   SUBLUTIL.obj
+ 0001:000292a0       GetPlsrunFromSublineCore   1002a2a0 f   SUBLUTIL.obj
+ 0001:00029300       GetNumberDnodesCore        1002a300 f   SUBLUTIL.obj
+ 0001:00029344       GetVisibleDcpInSublineCore 1002a344 f   SUBLUTIL.obj
+ 0001:00029394       GetDurTrailInSubline       1002a394 f   SUBLUTIL.obj
+ 0001:00029420       GetDurTrailWithPensInSubline 1002a420 f   SUBLUTIL.obj
+ 0001:00029528       ResolvePrevTabCore         1002a528 f   TABUTILS.obj
+ 0001:0002979c       InitTabsContextForAutoDecimalTab 1002a79c f   TABUTILS.obj
+ 0001:000297d4       GetMarginAfterBreakThroughTab 1002a7d4 f   TABUTILS.obj
+ 0001:00029d28       GetCurTabInfoCore          1002ad28 f   TABUTILS.obj
+ 0001:00029e58       EnumObjText                1002ae58 f   TEXTENUM.obj
+ 0001:00029fa0       WaFindNextBreakSubline     1002afa0 f   warichu.obj
+ 0001:0002a008       WaFindPrevBreakSubline     1002b008 f   warichu.obj
+ 0001:0002a0dc       WaMatchPresSubline         1002b0dc f   warichu.obj
+ 0001:0002ac7c       WarichuCreateILSObj        1002bc7c f   warichu.obj
+ 0001:0002ad68       WarichuDestroyILSObj       1002bd68 f   warichu.obj
+ 0001:0002ad84       WarichuSetDoc              1002bd84 f   warichu.obj
+ 0001:0002adb0       WarichuCreateLNObj         1002bdb0 f   warichu.obj
+ 0001:0002adbc       WarichuDestroyLNObj        1002bdbc f   warichu.obj
+ 0001:0002adc4       ReformatClosingBraceForWord9 1002bdc4 f   warichu.obj
+ 0001:0002b424       WarichuFmt                 1002c424 f   warichu.obj
+ 0001:0002b450       WarichuFmtResume           1002c450 f   warichu.obj
+ 0001:0002b484       WarichuGetModWidthPrecedingChar 1002c484 f   warichu.obj
+ 0001:0002b4f4       WarichuGetModWidthFollowingChar 1002c4f4 f   warichu.obj
+ 0001:0002b564       TryBreakWarichuAtCp        1002c564 f   warichu.obj
+ 0001:0002c398       WarichuTruncateChunk       1002d398 f   warichu.obj
+ 0001:0002c480       WarichuFindPrevBreakChunk  1002d480 f   warichu.obj
+ 0001:0002c704       WarichuFindNextBreakChunk  1002d704 f   warichu.obj
+ 0001:0002c8e8       WarichuForceBreakChunk     1002d8e8 f   warichu.obj
+ 0001:0002ca98       WarichuSetBreak            1002da98 f   warichu.obj
+ 0001:0002cb88       WarichuGetSpecialEffectsInside 1002db88 f   warichu.obj
+ 0001:0002cc58       WarichuCalcPresentation    1002dc58 f   warichu.obj
+ 0001:0002ce28       WarichuQueryPointPcp       1002de28 f   warichu.obj
+ 0001:0002cecc       WarichuQueryCpPpoint       1002decc f   warichu.obj
+ 0001:0002cfc8       WarichuDisplay             1002dfc8 f   warichu.obj
+ 0001:0002d0e4       WarichuDestroyDobj         1002e0e4 f   warichu.obj
+ 0001:0002d0e8       WarichuEnum                1002e0e8 f   warichu.obj
+ 0001:0002d280       LsGetWarichuLsimethods     1002e280 f   warichu.obj
+ 0001:0002d3a0       ZqFromZa_C                 1002e3a0 f   zqfromza.obj
+ 0001:0002d408       ZaFromZq                   1002e408 f   zqfromza.obj
+ 0001:0002d468       LsLwMultDivR               1002e468 f   zqfromza.obj
+ 0001:0002d538       TatenakayokoCreateILSObj   1002e538 f   tatenak.obj
+ 0001:0002d5ec       TatenakayokoDestroyILSObj  1002e5ec f   tatenak.obj
+ 0001:0002d608       TatenakayokoSetDoc         1002e608 f   tatenak.obj
+ 0001:0002d634       TatenakayokoCreateLNObj    1002e634 f   tatenak.obj
+ 0001:0002d640       TatenakayokoDestroyLNObj   1002e640 f   tatenak.obj
+ 0001:0002d648       TatenakayokoFmt            1002e648 f   tatenak.obj
+ 0001:0002d840       TatenakayokoGetSpecialEffectsInside 1002e840 f   tatenak.obj
+ 0001:0002d848       GetUFromLstflow            1002e848 f   tatenak.obj
+ 0001:0002d880       GetVFromLstflow            1002e880 f   tatenak.obj
+ 0001:0002d8b8       TatenakayokoCalcPresentation 1002e8b8 f   tatenak.obj
+ 0001:0002d978       TatenakayokoQueryPointPcp  1002e978 f   tatenak.obj
+ 0001:0002d9a4       TatenakayokoQueryCpPpoint  1002e9a4 f   tatenak.obj
+ 0001:0002d9d0       TatenakayokoDisplay        1002e9d0 f   tatenak.obj
+ 0001:0002da20       TatenakayokoDestroyDobj    1002ea20 f   tatenak.obj
+ 0001:0002da60       TatenakayokoEnum           1002ea60 f   tatenak.obj
+ 0001:0002dacc       LsGetTatenakayokoLsimethods 1002eacc f   tatenak.obj
+ 0001:0002dbe8       DllMain                    1002ebe8 f   corelib0:dllmain.obj
+ 0001:0002dcf4       _DllMainCRTStartup         1002ecf4 f   corelib0:pegdmain.obj
+ 0001:0002dd20       __GSHandlerCheckCommon     1002ed20 f   corelib0:gshandler.obj
+ 0001:0002dd5c       __GSHandlerCheck           1002ed5c f   corelib0:gshandler.obj
+ 0001:0002dd7c       __security_init_cookie     1002ed7c f   corelib0:seccinit.obj
+ 0001:0002ddc8       __security_check_cookie    1002edc8 f   corelib0:armsecgs.obj
+ 0001:0002ddd8       __gsfailure                1002edd8     corelib0:armsecgs.obj
+ 0001:0002df04       _cexit                     1002ef04 f   corelib0:cexit.obj
+ 0001:0002df14       _initterm                  1002ef14 f   corelib0:crt0dat.obj
+ 0001:0002df40       _cinit                     1002ef40 f   corelib0:crt0dat.obj
+ 0001:0002dfa0       __crt_ExitProcess          1002efa0 f   corelib0:exitproc_proxy.obj
+ 0001:0002dfac       memcpy                     1002efac f   corelib1:COREDLL.dll
+ 0001:0002dfbc       memset                     1002efbc f   corelib1:COREDLL.dll
+ 0001:0002dfcc       _XcptFilter                1002efcc f   corelib1:COREDLL.dll
+ 0001:0002dfdc       __C_specific_handler       1002efdc f   corelib1:COREDLL.dll
+ 0001:0002dfec       __security_gen_cookie2     1002efec f   corelib1:COREDLL.dll
+ 0001:0002dffc       __report_gsfailure         1002effc f   corelib1:COREDLL.dll
+ 0001:0002e00c       free                       1002f00c f   corelib1:COREDLL.dll
+ 0001:0002e01c       DisableThreadLibraryCalls  1002f01c f   coredll:COREDLL.dll
+ 0001:0002e02c       DeleteCriticalSection      1002f02c f   coredll:COREDLL.dll
+ 0001:0002e03c       InterlockedExchange        1002f03c f   coredll:COREDLL.dll
+ 0001:0002e04c       TerminateProcess           1002f04c f   coredll:COREDLL.dll
+ 0001:0002e074       __IMPORT_DESCRIPTOR_COREDLL 1002f074     corelib1:COREDLL.dll
+ 0001:0002e088       __NULL_IMPORT_DESCRIPTOR   1002f088     corelib1:COREDLL.dll
+ 0002:00000000       __imp_memcpy               10030000     corelib1:COREDLL.dll
+ 0002:00000004       __imp_memset               10030004     corelib1:COREDLL.dll
+ 0002:00000008       __imp___rt_sdiv            10030008     corelib1:COREDLL.dll
+ 0002:0000000c       __imp___rt_udiv            1003000c     corelib1:COREDLL.dll
+ 0002:00000010       __imp___rt_sdiv64by64      10030010     corelib1:COREDLL.dll
+ 0002:00000014       __imp__XcptFilter          10030014     corelib1:COREDLL.dll
+ 0002:00000018       __imp___C_specific_handler 10030018     corelib1:COREDLL.dll
+ 0002:0000001c       __imp___security_gen_cookie2 1003001c     corelib1:COREDLL.dll
+ 0002:00000020       __imp___report_gsfailure   10030020     corelib1:COREDLL.dll
+ 0002:00000024       __imp_free                 10030024     corelib1:COREDLL.dll
+ 0002:00000028       __imp_DisableThreadLibraryCalls 10030028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_DeleteCriticalSection 1003002c     coredll:COREDLL.dll
+ 0002:00000030       __imp_InterlockedExchange  10030030     coredll:COREDLL.dll
+ 0002:00000034       __imp_TerminateProcess     10030034     coredll:COREDLL.dll
+ 0002:00000038       \177COREDLL_NULL_THUNK_DATA 10030038     corelib1:COREDLL.dll
+ 0002:0000007c       __security_cookie          1003007c     corelib0:seccinit.obj
+ 0002:00000080       __security_cookie_complement 10030080     corelib0:seccinit.obj
+ 0002:000000a0       _exitflag                  100300a0     corelib0:cexit.obj
+ 0002:000000a4       __onexitend                100300a4     <common>
+ 0002:000000a8       __onexitbegin              100300a8     <common>
+ 0002:000000ac       g_pcsExit                  100300ac     <common>
+ 0002:000000b0       _pRawDllMain               100300b0     <common>
+
+ entry point at        0001:0002dcf4
+
+ Static symbols
+
+ 0001:000005b4       ApplyBordersForTruncation  100015b4 f   BREAK.obj
+ 0001:000007b4       MoveBreakAfterPreviousDnode 100017b4 f   BREAK.obj
+ 0001:0000088c       BreakTabPenSplat           1000188c f   BREAK.obj
+ 0001:00000958       RemoveBorderDnodeFromList  10001958 f   BREAK.obj
+ 0001:00000c70       GetPosInLineTruncateFromCp 10001c70 f   BREAK.obj
+ 0001:00000e14       FindFirstDnodeContainsRightMargin 10001e14 f   BREAK.obj
+ 0001:000010a4       TruncateCore               100020a4 f   BREAK.obj
+ 0001:000013c8       FindPrevBreakCore          100023c8 f   BREAK.obj
+ 0001:000016e4       FindNextBreakCore          100026e4 f   BREAK.obj
+ 0001:000019f0       ForceBreakCore             100029f0 f   BREAK.obj
+ 0001:00001c84       MoveClosingBorderAfterBreak 10002c84 f   BREAK.obj
+ 0001:00002b28       SetBreakCore               10003b28 f   BREAK.obj
+ 0001:00003630       LocateChunk                10004630 f   CHNUTILS.obj
+ 0001:00003860       ContinueGroupChunk         10004860 f   CHNUTILS.obj
+ 0001:000039f4       GetNextDnodeInGroupChunk   100049f4 f   CHNUTILS.obj
+ 0001:00003b68       DestroyGroupChunkIterator  10004b68 f   CHNUTILS.obj
+ 0001:00003bb0       FExpandBeforeNonTextObject 10004bb0 f   CHNUTILS.obj
+ 0001:00003c7c       FExpandAfterNonTextObject  10004c7c f   CHNUTILS.obj
+ 0001:00003d48       ConvertChunkToGroupChunk   10004d48 f   CHNUTILS.obj
+ 0001:00004868       SetChunkArraysSize         10005868 f   CHNUTILS.obj
+ 0001:000049d0       IncreaseChunkArrays        100059d0 f   CHNUTILS.obj
+ 0001:00005c10       DrawBorders                10006c10 f   DISPMAIN.obj
+ 0001:00005fec       DisplayDnode               10006fec f   DISPMAIN.obj
+ 0001:000060fc       ShadeSubline               100070fc f   DISPMAIN.obj
+ 0001:00006c88       AdvanceToNextVisualDnodeCore 10007c88 f   DISPMISC.obj
+ 0001:00006f38       DisplayTabLeader           10007f38 f   DISPTEXT.obj
+ 0001:0000718c       DisplayGlyphs              1000818c f   DISPTEXT.obj
+ 0001:0000780c       GetULMetric                1000880c f   dispul.obj
+ 0001:00008748       EnumerateDnode             10009748 f   EnumCore.obj
+ 0001:00008eb0       InitObject                 10009eb0 f   LSCONTXT.obj
+ 0001:00009444       GetYsrChangeAfterRun       1000a444 f   LSCRLINE.obj
+ 0001:000095cc       FillTextParams             1000a5cc f   LSCRLINE.obj
+ 0001:00009894       FetchUntilVisible          1000a894 f   LSCRLINE.obj
+ 0001:00009a48       InitCurLine                1000aa48 f   LSCRLINE.obj
+ 0001:00009b20       FiniEndLine                1000ab20 f   LSCRLINE.obj
+ 0001:00009e30       InitTextParams             1000ae30 f   LSCRLINE.obj
+ 0001:0000a06c       CannotCreateLine           1000b06c f   LSCRLINE.obj
+ 0001:0000a0a4       FiniFormatGeneralCase      1000b0a4 f   LSCRLINE.obj
+ 0001:0000a3a0       CreateLineCore             1000b3a0 f   LSCRLINE.obj
+ 0001:0000aadc       ErrorInCurrentSubline      1000badc f   LSCRSUBL.obj
+ 0001:0000ce14       ResetDcpCore               1000de14 f   LSDNTEXT.obj
+ 0001:0000d1e8       LSDrawBreaks               1000e1e8 f   LSDSPLY.obj
+ 0001:0000d6a0       CheckNewPara               1000e6a0 f   LSFETCH.obj
+ 0001:0000da08       HandleSplat                1000ea08 f   LSFETCH.obj
+ 0001:0000dc64       UndoLastDnode              1000ec64 f   LSFETCH.obj
+ 0001:0000dd70       OpenBorder                 1000ed70 f   LSFETCH.obj
+ 0001:0000f598       FillInQueryResults         10010598 f   LSQCORE.obj
+ 0001:0000f74c       FillInTextCellInfo         1001074c f   LSQCORE.obj
+ 0001:0000f820       BacktrackToPreviousDnode   10010820 f   LSQCORE.obj
+ 0001:0000f868       TransformPointsOnLowerLevels 10010868 f   LSQCORE.obj
+ 0001:00010de0       CheckReallocCharArrays     10011de0 f   LSSTRING.obj
+ 0001:00011078       CopySpacesToDispList       10012078 f   LSSTRING.obj
+ 0001:00012a8c       FindPrevSpace              10013a8c f   LSTXTBRK.obj
+ 0001:00012ca4       FindNextSpace              10013ca4 f   LSTXTBRK.obj
+ 0001:00012eb4       TryBreakWithHyphen         10013eb4 f   LSTXTBRK.obj
+ 0001:00013320       CheckBreakAtLastChar       10014320 f   LSTXTBRK.obj
+ 0001:000134e0       TryBreakAtNonReqHyphen     100144e0 f   LSTXTBRK.obj
+ 0001:0001382c       CanBreakBeforeText         1001482c f   LSTXTBRK.obj
+ 0001:0001391c       CanBreakAfterText          1001491c f   LSTXTBRK.obj
+ 0001:00013a10       FillPtboPbrkinf            10014a10 f   LSTXTBRK.obj
+ 0001:00013b24       TryPrevBreakRegular        10014b24 f   LSTXTBRK.obj
+ 0001:00013dbc       TryNextBreakRegular        10014dbc f   LSTXTBRK.obj
+ 0001:00014080       TryBreakAtOptBreak         10015080 f   LSTXTBRK.obj
+ 0001:000140f8       TryBreakAtEOL              100150f8 f   LSTXTBRK.obj
+ 0001:00014174       TryBreakAfterChunk         10015174 f   LSTXTBRK.obj
+ 0001:0001436c       TryBreakBeforeChunk        1001536c f   LSTXTBRK.obj
+ 0001:00014434       TryPrevBreakFindYsr        10015434 f   LSTXTBRK.obj
+ 0001:00014608       TryNextBreakFindYsr        10015608 f   LSTXTBRK.obj
+ 0001:000147b0       TryBreakAcrossSpaces       100157b0 f   LSTXTBRK.obj
+ 0001:00014c68       TryBreakAtSpaceWrap        10015c68 f   LSTXTBRK.obj
+ 0001:00014df0       TryBreakAtSpaceNormal      10015df0 f   LSTXTBRK.obj
+ 0001:00014ee4       TryBreakAtSpace            10015ee4 f   LSTXTBRK.obj
+ 0001:00015d20       GetWidthOfChar             10016d20 f   LSTXTBRS.obj
+ 0001:00015e0c       GetWidthOfGlyph            10016e0c f   LSTXTBRS.obj
+ 0001:00016b28       CheckExpandOnRun           10017b28 f   LSTXTCMP.obj
+ 0001:00016c38       GetNextRun                 10017c38 f   LSTXTCMP.obj
+ 0001:00016cc4       GetPrevCharRun             10017cc4 f   LSTXTCMP.obj
+ 0001:00016d74       ApplyPriorExpansion        10017d74 f   LSTXTCMP.obj
+ 0001:00016f40       ApplyFullExpansion         10017f40 f   LSTXTCMP.obj
+ 0001:000170f4       GetCompressInfo            100180f4 f   LSTXTCMP.obj
+ 0001:000171e8       ApplyPriorCompression      100181e8 f   LSTXTCMP.obj
+ 0001:00017510       GetExpandInfo              10018510 f   LSTXTCMP.obj
+ 0001:00017b0c       CheckCompSpace             10018b0c f   LSTXTCMP.obj
+ 0001:00017c60       CheckCompOnRun             10018c60 f   LSTXTCMP.obj
+ 0001:00018484       GetTextDobj                10019484 f   LSTXTFMT.obj
+ 0001:00018530       FillRealFmtOut             10019530 f   LSTXTFMT.obj
+ 0001:000185e8       CreateFillTextDobj         100195e8 f   LSTXTFMT.obj
+ 0001:000186ac       FormatStartEmptyDobj       100196ac f   LSTXTFMT.obj
+ 0001:000187d8       FormatStartTab             100197d8 f   LSTXTFMT.obj
+ 0001:0001890c       FormatStartBorderedSpaces  1001990c f   LSTXTFMT.obj
+ 0001:00018a2c       FormatStartOneRegularChar  10019a2c f   LSTXTFMT.obj
+ 0001:00018b24       FormatStartToReplace       10019b24 f   LSTXTFMT.obj
+ 0001:00018c28       FormatStartEol             10019c28 f   LSTXTFMT.obj
+ 0001:00018e04       FormatSpecial              10019e04 f   LSTXTFMT.obj
+ 0001:00019080       FormatRegularCharacters    1001a080 f   LSTXTFMT.obj
+ 0001:00019bac       CollectGlyphExpInfo        1001abac f   LSTXTGLF.obj
+ 0001:0001a068       CalcExpandChanges          1001b068 f   LSTXTGLF.obj
+ 0001:0001a0f8       ApplyDiscrete              1001b0f8 f   LSTXTGLF.obj
+ 0001:0001a43c       ApplyOneEachContinuous     1001b43c f   LSTXTGLF.obj
+ 0001:0001a60c       ApplyFullWhiteContinuous   1001b60c f   LSTXTGLF.obj
+ 0001:0001a86c       ApplyPropWhiteContinuous   1001b86c f   LSTXTGLF.obj
+ 0001:0001ae78       ApplyResidualGlyphExp      1001be78 f   LSTXTGLF.obj
+ 0001:0001b054       ApplyPriorGlyphExp         1001c054 f   LSTXTGLF.obj
+ 0001:0001b990       CkeckModWidthClasses       1001c990 f   LSTXTINI.obj
+ 0001:0001ba14       TxtAddSpec                 1001ca14 f   LSTXTINI.obj
+ 0001:0001ba8c       TxtSortSpec                1001ca8c f   LSTXTINI.obj
+ 0001:0001d200       GetFirstPosAfterStartSpaces 1001e200 f   LSTXTJST.obj
+ 0001:0001d384       HandleSimpleTextWysi       1001e384 f   LSTXTJST.obj
+ 0001:0001d4b8       HandleSimpleTextPres       1001e4b8 f   LSTXTJST.obj
+ 0001:0001d630       HandleGeneralSpacesExactSync 1001e630 f   LSTXTJST.obj
+ 0001:0001d7e0       HandleGeneralSpacesPres    1001e7e0 f   LSTXTJST.obj
+ 0001:0001da58       HandleTablesBased          1001ea58 f   LSTXTJST.obj
+ 0001:0001df58       HandleFullGlyphsExactSync  1001ef58 f   LSTXTJST.obj
+ 0001:0001e0e4       HandleFullGlyphsPres       1001f0e4 f   LSTXTJST.obj
+ 0001:0001f6dc       CheckApplyKernBetweenRuns  100206dc f   LSTXTNTI.obj
+ 0001:0001f8a0       ApplyKernToRun             100208a0 f   LSTXTNTI.obj
+ 0001:0001fa5c       GetNextImportantRun        10020a5c f   LSTXTNTI.obj
+ 0001:0001faa4       GetModWidthClasses         10020aa4 f   LSTXTNTI.obj
+ 0001:0001fbac       CheckApplyModWidthOnRun    10020bac f   LSTXTNTI.obj
+ 0001:0001fcd0       CleanUpGrid                10020cd0 f   LSTXTNTI.obj
+ 0001:0001fd20       CalcSnapped                10020d20 f   LSTXTNTI.obj
+ 0001:0001fd88       FixTxtobjs                 10020d88 f   LSTXTNTI.obj
+ 0001:0001ffa4       Realloc                    10020fa4 f   LSTXTNTI.obj
+ 0001:0001ffec       FixGlyphSpaces             10020fec f   LSTXTNTI.obj
+ 0001:000203a8       ApplyKern                  100213a8 f   LSTXTNTI.obj
+ 0001:00020484       ApplyModWidthToRun         10021484 f   LSTXTNTI.obj
+ 0001:0002098c       CheckApplyModWidthBetweenRuns 1002198c f   LSTXTNTI.obj
+ 0001:00020bf8       ApplySnapGrid              10021bf8 f   LSTXTNTI.obj
+ 0001:0002120c       CheckReallocGlyphs         1002220c f   LSTXTNTI.obj
+ 0001:000213d4       PrepareAllArraysGetModWidth 100223d4 f   LSTXTNTI.obj
+ 0001:00021584       ApplyModWidth              10022584 f   LSTXTNTI.obj
+ 0001:0002168c       ApplyGlyphsToRange         1002268c f   LSTXTNTI.obj
+ 0001:000219cc       ApplyGlyphs                100229cc f   LSTXTNTI.obj
+ 0001:00021c34       GetCellDimensions          10022c34 f   LSTXTQRY.obj
+ 0001:00021cdc       AddHyphenationToCell       10022cdc f   LSTXTQRY.obj
+ 0001:00021d88       QueryDcpPcell              10022d88 f   LSTXTQRY.obj
+ 0001:00022e70       ApplyWysiGlyphs            10023e70 f   LSTXTSCL.obj
+ 0001:00023378       CopyRefToPresForScaleCharSides 10024378 f   LSTXTSCL.obj
+ 0001:00023f90       GetNumberOfSpaces          10024f90 f   LSTXTWRD.obj
+ 0001:000240e4       DistributeInDobjsSpaces    100250e4 f   LSTXTWRD.obj
+ 0001:00024348       GetSqueezingInfo           10025348 f   LSTXTWRD.obj
+ 0001:0002453c       SqueezeInDobjs             1002553c f   LSTXTWRD.obj
+ 0001:00024ff8       ScaleDownLevel             10025ff8 f   PREPDISP.obj
+ 0001:000251a8       FindWallToCollectSublinesAfter 100261a8 f   PREPDISP.obj
+ 0001:000252e8       CalcPresAutonumbers        100262e8 f   PREPDISP.obj
+ 0001:000254b4       GetDistanceToDecimalPoint  100264b4 f   PREPDISP.obj
+ 0001:00025580       WidenNonTextObjects        10026580 f   PREPDISP.obj
+ 0001:00025608       CalcPresForDnodeWithSublines 10026608 f   PREPDISP.obj
+ 0001:000256dc       CalcPresChunk              100266dc f   PREPDISP.obj
+ 0001:000257f8       UpdateUpLimUnderline       100267f8 f   PREPDISP.obj
+ 0001:0002584c       PrepareLineForDisplay      1002684c f   PREPDISP.obj
+ 0001:00026f08       InitDobj                   10027f08 f   robj.obj
+ 0001:00026fa0       FinishFmt                  10027fa0 f   robj.obj
+ 0001:00027d68       RubyFmtFailed              10028d68 f   ruby.obj
+ 0001:00027db4       GetRunsForSubline          10028db4 f   ruby.obj
+ 0001:00027e5c       DoRubySpaceDistribution    10028e5c f   ruby.obj
+ 0001:00028008       ModWidthHandler            10029008 f   ruby.obj
+ 0001:000298a0       ItbdMergeTabs              1002a8a0 f   TABUTILS.obj
+ 0001:00029ae0       FindTab                    1002aae0 f   TABUTILS.obj
+ 0001:00029c70       FillTabsContext            1002ac70 f   TABUTILS.obj
+ 0001:0002a130       NewWBrkArray               1002b130 f   warichu.obj
+ 0001:0002a19c       DestroyWLayout             1002b19c f   warichu.obj
+ 0001:0002a1fc       NewDobj                    1002b1fc f   warichu.obj
+ 0001:0002a324       DestroyDobj                1002b324 f   warichu.obj
+ 0001:0002a458       FormatWWholeSubline        1002b458 f   warichu.obj
+ 0001:0002a54c       FormatWSublineUntilCpBreak 1002b54c f   warichu.obj
+ 0001:0002a7e8       FormatWSublineUntilRM      1002b7e8 f   warichu.obj
+ 0001:0002a884       FormatWSublineUntilEscape  1002b884 f   warichu.obj
+ 0001:0002a918       ChooseNearestBreak         1002b918 f   warichu.obj
+ 0001:0002aa90       FinishObjDimWLayout        1002ba90 f   warichu.obj
+ 0001:0002ab44       SubmitWLayoutSublines      1002bb44 f   warichu.obj
+ 0001:0002af3c       FindWLayoutOfUnbrokenWarichu 1002bf3c f   warichu.obj
+ 0001:0002b0f8       FormatWarichuCore          1002c0f8 f   warichu.obj
+ 0001:0002b80c       CalcJisRange               1002c80c f   warichu.obj
+ 0001:0002b960       FindPrevBreakWarichuDobj   1002c960 f   warichu.obj
+ 0001:0002bad4       FindNextBreakWarichuDobj   1002cad4 f   warichu.obj
+ 0001:0002bc2c       WaTruncatePrevForce        1002cc2c f   warichu.obj
+ 0001:0002bcd8       ForceBreakWarichuDobjCore  1002ccd8 f   warichu.obj
+ 0001:0002bff0       ForceBreakWarichuDobj      1002cff0 f   warichu.obj
+ 0001:0002c100       TruncateWarichuDobj        1002d100 f   warichu.obj
+ 0001:0002c340       PutBreakAtWarichuEnd       1002d340 f   warichu.obj
+ 0001:0002dc04       _DllMainCRTStartupHelper   1002ec04 f   corelib0:pegdmain.obj
+ 0001:0002de1c       doexit                     1002ee1c f   corelib0:cexit.obj

@@ -1,0 +1,115 @@
+ toolhelp
+
+ Timestamp is 5ac64a29 (Thu Apr 05 09:09:13 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 0000001cH .rdata                  CODE
+ 0001:0000003c 00000025H .rdata$debug            CODE
+ 0001:00000064 00000d40H .text                   CODE
+ 0001:00000da4 00000064H .xdata                  CODE
+ 0001:00000e08 00000014H .idata$2                CODE
+ 0001:00000e1c 00000014H .idata$3                CODE
+ 0001:00000e30 00000048H .idata$4                CODE
+ 0001:00000e78 0000000cH .idata$6                CODE
+ 0001:00000e90 0000019fH .edata                  CODE
+ 0002:00000000 00000048H .idata$5                DATA
+ 0002:00000048 00000008H .data                   DATA
+ 0002:00000050 00000014H .bss                    DATA
+ 0003:00000000 000000e0H .pdata                  DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000060H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:00000064       DllMain                    10001064 f   toolhelp.obj
+ 0001:00000078       CreateToolhelp32Snapshot   10001078 f   toolhelp.obj
+ 0001:000000cc       CloseToolhelp32Snapshot    100010cc f   toolhelp.obj
+ 0001:000000e8       Toolhelp32ReadProcessMemory 100010e8 f   toolhelp.obj
+ 0001:00000188       Process32First             10001188 f   toolhelp.obj
+ 0001:000001f8       Process32Next              100011f8 f   toolhelp.obj
+ 0001:00000288       Thread32First              10001288 f   toolhelp.obj
+ 0001:00000310       Thread32Next               10001310 f   toolhelp.obj
+ 0001:000003bc       Module32First              100013bc f   toolhelp.obj
+ 0001:00000434       Module32Next               10001434 f   toolhelp.obj
+ 0001:000004d0       IsValidHeapList            100014d0 f   toolhelp.obj
+ 0001:00000514       Heap32ListFirst            10001514 f   toolhelp.obj
+ 0001:00000630       Heap32ListNext             10001630 f   toolhelp.obj
+ 0001:00000738       Heap32First                10001738 f   toolhelp.obj
+ 0001:000008a0       Heap32Next                 100018a0 f   toolhelp.obj
+ 0001:00000994       __GetUserKData             10001994 f   coredll:COREDLL.dll
+ 0001:000009a4       DisableThreadLibraryCalls  100019a4 f   coredll:COREDLL.dll
+ 0001:000009b4       GetHeapSnapshot            100019b4 f   coredll:COREDLL.dll
+ 0001:000009c4       THCreateSnapshot           100019c4 f   coredll:COREDLL.dll
+ 0001:000009d4       VirtualFree                100019d4 f   coredll:COREDLL.dll
+ 0001:000009e4       CloseHandle                100019e4 f   coredll:COREDLL.dll
+ 0001:000009f4       ReadProcessMemory          100019f4 f   coredll:COREDLL.dll
+ 0001:00000a04       SetLastError               10001a04 f   coredll:COREDLL.dll
+ 0001:00000a14       OpenProcess                10001a14 f   coredll:COREDLL.dll
+ 0001:00000b1c       _DllMainCRTStartup         10001b1c f   corelib0:pegdmain.obj
+ 0001:00000c30       _cexit                     10001c30 f   corelib0:cexit.obj
+ 0001:00000c40       _initterm                  10001c40 f   corelib0:crt0dat.obj
+ 0001:00000c6c       _cinit                     10001c6c f   corelib0:crt0dat.obj
+ 0001:00000ccc       __security_init_cookie     10001ccc f   corelib0:seccinit.obj
+ 0001:00000d18       __crt_ExitProcess          10001d18 f   corelib0:exitproc_proxy.obj
+ 0001:00000d24       memcpy                     10001d24 f   corelib1:COREDLL.dll
+ 0001:00000d34       __C_specific_handler       10001d34 f   corelib1:COREDLL.dll
+ 0001:00000d44       _XcptFilter                10001d44 f   corelib1:COREDLL.dll
+ 0001:00000d54       free                       10001d54 f   corelib1:COREDLL.dll
+ 0001:00000d64       __security_gen_cookie2     10001d64 f   corelib1:COREDLL.dll
+ 0001:00000d74       DeleteCriticalSection      10001d74 f   coredll:COREDLL.dll
+ 0001:00000d84       InterlockedExchange        10001d84 f   coredll:COREDLL.dll
+ 0001:00000d94       TerminateProcess           10001d94 f   coredll:COREDLL.dll
+ 0001:00000e08       __IMPORT_DESCRIPTOR_COREDLL 10001e08     coredll:COREDLL.dll
+ 0001:00000e1c       __NULL_IMPORT_DESCRIPTOR   10001e1c     coredll:COREDLL.dll
+ 0002:00000000       __imp___GetUserKData       10003000     coredll:COREDLL.dll
+ 0002:00000004       __imp_DisableThreadLibraryCalls 10003004     coredll:COREDLL.dll
+ 0002:00000008       __imp_GetHeapSnapshot      10003008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_THCreateSnapshot     1000300c     coredll:COREDLL.dll
+ 0002:00000010       __imp_VirtualFree          10003010     coredll:COREDLL.dll
+ 0002:00000014       __imp_CloseHandle          10003014     coredll:COREDLL.dll
+ 0002:00000018       __imp_ReadProcessMemory    10003018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_SetLastError         1000301c     coredll:COREDLL.dll
+ 0002:00000020       __imp_OpenProcess          10003020     coredll:COREDLL.dll
+ 0002:00000024       __imp_memcpy               10003024     corelib1:COREDLL.dll
+ 0002:00000028       __imp___C_specific_handler 10003028     corelib1:COREDLL.dll
+ 0002:0000002c       __imp__XcptFilter          1000302c     corelib1:COREDLL.dll
+ 0002:00000030       __imp_free                 10003030     corelib1:COREDLL.dll
+ 0002:00000034       __imp___security_gen_cookie2 10003034     corelib1:COREDLL.dll
+ 0002:00000038       __imp_DeleteCriticalSection 10003038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_InterlockedExchange  1000303c     coredll:COREDLL.dll
+ 0002:00000040       __imp_TerminateProcess     10003040     coredll:COREDLL.dll
+ 0002:00000044       \177COREDLL_NULL_THUNK_DATA 10003044     coredll:COREDLL.dll
+ 0002:00000048       __security_cookie          10003048     corelib0:seccinit.obj
+ 0002:0000004c       __security_cookie_complement 1000304c     corelib0:seccinit.obj
+ 0002:00000050       _exitflag                  10003050     corelib0:cexit.obj
+ 0002:00000054       __onexitend                10003054     <common>
+ 0002:00000058       __onexitbegin              10003058     <common>
+ 0002:0000005c       g_pcsExit                  1000305c     <common>
+ 0002:00000060       _pRawDllMain               10003060     <common>
+
+ entry point at        0001:00000b1c
+
+ Static symbols
+
+ 0001:00000a2c       _DllMainCRTStartupHelper   10001a2c f   corelib0:pegdmain.obj
+ 0001:00000b48       doexit                     10001b48 f   corelib0:cexit.obj

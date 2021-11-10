@@ -1,0 +1,503 @@
+ DDI_NOP
+
+ Timestamp is 5ac64c62 (Thu Apr 05 09:18:42 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCU                CODE
+ 0001:00000008 00000004H .CRT$XCZ                CODE
+ 0001:0000000c 00000004H .CRT$XIA                CODE
+ 0001:00000010 00000004H .CRT$XIZ                CODE
+ 0001:00000014 00000004H .CRT$XPA                CODE
+ 0001:00000018 00000004H .CRT$XPZ                CODE
+ 0001:0000001c 00000004H .CRT$XTA                CODE
+ 0001:00000020 00000004H .CRT$XTZ                CODE
+ 0001:00000030 0000971aH .rdata                  CODE
+ 0001:0000974c 00000024H .rdata$debug            CODE
+ 0001:00009780 0001c878H .text                   CODE
+ 0001:00025ff8 00000034H .text$yc                CODE
+ 0001:0002602c 00000074H .xdata                  CODE
+ 0001:000260a0 00000014H .idata$2                CODE
+ 0001:000260b4 00000014H .idata$3                CODE
+ 0001:000260c8 00000088H .idata$4                CODE
+ 0001:00026150 0000000cH .idata$6                CODE
+ 0001:00026160 0000004aH .edata                  CODE
+ 0002:00000000 00000088H .idata$5                DATA
+ 0002:00000088 00002968H .data                   DATA
+ 0002:000029f0 00004004H .bss                    DATA
+ 0003:00000000 00000888H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000008       __xc_z                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_a                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xi_z                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_a                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xp_z                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_a                     1000101c     corelib0:crt0init.obj
+ 0001:00000020       __xt_z                     10001020     corelib0:crt0init.obj
+ 0001:0000004c       ??_7GPESurf@@6B@           1000104c     wrap2bpp.obj
+ 0001:00000050       ??_7Wrap2bpp@@6B@          10001050     wrap2bpp.obj
+ 0001:000000d0       g_NullBlendFunction        100010d0     gpe:ddi_if.obj
+ 0001:00000154       ??_C@_17BJMBELJK@?$AAG?$AAP?$AAE?$AA?$AA@ 10001154     gpe:ddi_if.obj
+ 0001:0000015c       EGPEFormatToBpp            1000115c     gpe:gpe.obj
+ 0001:00000180       EGPEFormatToIFormat        10001180     gpe:gpe.obj
+ 0001:000001a4       IFormatToEGPEFormat        100011a4     gpe:gpe.obj
+ 0001:000001d0       ??_7GPE@@6B@               100011d0     gpe:gpe.obj
+ 0001:00000250       ??_C@_1CA@BGCHCNGF@?$AAT?$AAo?$AAu?$AAc?$AAh?$AAT?$AAa?$AAr?$AAg?$AAe?$AAt?$AAS?$AAi?$AAz?$AAe?$AA?$AA@ 10001250     gpe:gpe.obj
+ 0001:00000270       ??_C@_1BM@OHJNPODK@?$AAA?$AAs?$AAp?$AAe?$AAc?$AAt?$AAR?$AAa?$AAt?$AAi?$AAo?$AAX?$AAY?$AA?$AA@ 10001270     gpe:gpe.obj
+ 0001:0000028c       ??_C@_1BK@GPCKCPMK@?$AAA?$AAs?$AAp?$AAe?$AAc?$AAt?$AAR?$AAa?$AAt?$AAi?$AAo?$AAY?$AA?$AA@ 1000128c     gpe:gpe.obj
+ 0001:000002a8       ??_C@_1BK@NHJGEIKP@?$AAA?$AAs?$AAp?$AAe?$AAc?$AAt?$AAR?$AAa?$AAt?$AAi?$AAo?$AAX?$AA?$AA@ 100012a8     gpe:gpe.obj
+ 0001:000002c4       ??_C@_1BO@ONBCMHFO@?$AAL?$AAo?$AAg?$AAi?$AAc?$AAa?$AAl?$AAP?$AAi?$AAx?$AAe?$AAl?$AAs?$AAY?$AA?$AA@ 100012c4     gpe:gpe.obj
+ 0001:000002e4       ??_C@_1BO@FFKOKADL@?$AAL?$AAo?$AAg?$AAi?$AAc?$AAa?$AAl?$AAP?$AAi?$AAx?$AAe?$AAl?$AAs?$AAX?$AA?$AA@ 100012e4     gpe:gpe.obj
+ 0001:00000304       ??_C@_1BK@HNDINEGH@?$AAV?$AAe?$AAr?$AAt?$AAi?$AAc?$AAa?$AAl?$AAS?$AAi?$AAz?$AAe?$AA?$AA@ 10001304     gpe:gpe.obj
+ 0001:00000320       ??_C@_1BO@CPEMBNKP@?$AAH?$AAo?$AAr?$AAi?$AAz?$AAo?$AAn?$AAt?$AAa?$AAl?$AAS?$AAi?$AAz?$AAe?$AA?$AA@ 10001320     gpe:gpe.obj
+ 0001:000003ec       __real@00000000            100013ec     gpe:aablt.obj
+ 0001:000003f0       __real@3d800000            100013f0     gpe:aablt.obj
+ 0001:000003f4       __real@47800000            100013f4     gpe:aablt.obj
+ 0001:000003f8       __real@3f800000            100013f8     gpe:aablt.obj
+ 0001:000003fc       __real@447a0000            100013fc     gpe:aablt.obj
+ 0001:0000970c       ??_C@_1CG@OBEKLLDK@?$AAE?$AAx?$AAp?$AAe?$AAn?$AAs?$AAi?$AAv?$AAe?$AAA?$AAn?$AAt?$AAi?$AAa?$AAl?$AAi?$AAa?$AAs?$AA?$AA@ 1000a70c     gpe:ebalph16.obj
+ 0001:00009734       ??_C@_1BG@FOPGPEPM@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAG?$AAD?$AAI?$AA?$AA@ 1000a734     gpe:ebalph16.obj
+ 0001:00009780       ??0GPESurf@@QAA@HHPAXHW4EGPEFormat@@@Z 1000a780 f i wrap2bpp.obj
+ 0001:000097d4       ??_EGPESurf@@UAAPAXI@Z     1000a7d4 f i wrap2bpp.obj
+ 0001:000097d4       ??_GGPESurf@@UAAPAXI@Z     1000a7d4 f i wrap2bpp.obj
+ 0001:000097f8       DrvEnableDriver            1000a7f8 f   wrap2bpp.obj
+ 0001:000097fc       ??0Wrap2bpp@@QAA@XZ        1000a7fc f   wrap2bpp.obj
+ 0001:00009958       ?SetMode@Wrap2bpp@@UAAJHPAPAUHPALETTE__@@@Z 1000a958 f   wrap2bpp.obj
+ 0001:000099c0       ?GetModeInfo@Wrap2bpp@@UAAJPAUGPEMode@@H@Z 1000a9c0 f   wrap2bpp.obj
+ 0001:000099f0       ?NumModes@Wrap2bpp@@UAAHXZ 1000a9f0 f   wrap2bpp.obj
+ 0001:000099f8       ?SetPointerShape@Wrap2bpp@@UAAJPAVGPESurf@@0HHHH@Z 1000a9f8 f   wrap2bpp.obj
+ 0001:00009a00       ?MovePointer@Wrap2bpp@@UAAJHH@Z 1000aa00 f   wrap2bpp.obj
+ 0001:00009a40       ?WaitForNotBusy@Wrap2bpp@@UAAXXZ 1000aa40 f   wrap2bpp.obj
+ 0001:00009a44       ?IsBusy@Wrap2bpp@@UAAHXZ   1000aa44 f   wrap2bpp.obj
+ 0001:00009a4c       ?GetPhysicalVideoMemory@Wrap2bpp@@UAAXPAK0@Z 1000aa4c f   wrap2bpp.obj
+ 0001:00009a8c       ?AllocSurface@Wrap2bpp@@UAAJPAPAVGPESurf@@HHW4EGPEFormat@@H@Z 1000aa8c f   wrap2bpp.obj
+ 0001:00009b0c       ?WrappedEmulatedLine@Wrap2bpp@@AAAJPAUGPELineParms@@@Z 1000ab0c f   wrap2bpp.obj
+ 0001:00009d00       ?Line@Wrap2bpp@@UAAJPAUGPELineParms@@W4EGPEPhase@@@Z 1000ad00 f   wrap2bpp.obj
+ 0001:00009d48       ?WrappedEmulatedBlt@Wrap2bpp@@AAAJPAUGPEBltParms@@@Z 1000ad48 f   wrap2bpp.obj
+ 0001:00009db0       ?BltPrepare@Wrap2bpp@@UAAJPAUGPEBltParms@@@Z 1000adb0 f   wrap2bpp.obj
+ 0001:00009de8       ?BltComplete@Wrap2bpp@@UAAJPAUGPEBltParms@@@Z 1000ade8 f   wrap2bpp.obj
+ 0001:00009df0       ?InVBlank@Wrap2bpp@@UAAHXZ 1000adf0 f   wrap2bpp.obj
+ 0001:00009df8       ?SetPalette@Wrap2bpp@@UAAJPBUtagPALETTEENTRY@@GG@Z 1000adf8 f   wrap2bpp.obj
+ 0001:00009e00       ?RegisterDDHALAPI@@YAXXZ   1000ae00 f   wrap2bpp.obj
+ 0001:00009e04       DrvGetMasks                1000ae04 f   wrap2bpp.obj
+ 0001:00009e10       GetGPE                     1000ae10 f   wrap2bpp.obj
+ 0001:00009e50       ??_GWrap2bpp@@UAAPAXI@Z    1000ae50 f i wrap2bpp.obj
+ 0001:00009e50       ??_EWrap2bpp@@UAAPAXI@Z    1000ae50 f i wrap2bpp.obj
+ 0001:00009e74       DispDrvrInitialize         1000ae74 f   dispdrvr.obj
+ 0001:00009e78       DispDrvrDirtyRectDump      1000ae78 f   dispdrvr.obj
+ 0001:00009e7c       DispDrvrSetDibBuffer       1000ae7c f   dispdrvr.obj
+ 0001:00009e80       DispDrvrMoveCursor         1000ae80 f   dispdrvr.obj
+ 0001:00009e84       DllMain                    1000ae84 f   gpe:ddi_if.obj
+ 0001:00009ebc       ?SafeGetGPE@@YAPAVGPE@@PAX@Z 1000aebc f   gpe:ddi_if.obj
+ 0001:00009f20       ?SetSurfaceFormat@@YAXPAVGPESurf@@PAU_XLATEOBJ@@KPAK@Z 1000af20 f   gpe:ddi_if.obj
+ 0001:0000a0dc       DrvContrastControl         1000b0dc f   gpe:ddi_if.obj
+ 0001:0000a0f8       DrvPowerHandler            1000b0f8 f   gpe:ddi_if.obj
+ 0001:0000a118       DrvEscape                  1000b118 f   gpe:ddi_if.obj
+ 0001:0000a248       DrvDisableDriver           1000b248 f   gpe:ddi_if.obj
+ 0001:0000a270       DrvDisablePDEV             1000b270 f   gpe:ddi_if.obj
+ 0001:0000a294       DrvDisableSurface          1000b294 f   gpe:ddi_if.obj
+ 0001:0000a2b0       DrvEnableSurface           1000b2b0 f   gpe:ddi_if.obj
+ 0001:0000a2ec       DrvCreateDeviceBitmap      1000b2ec f   gpe:ddi_if.obj
+ 0001:0000a380       DrvDeleteDeviceBitmap      1000b380 f   gpe:ddi_if.obj
+ 0001:0000a3b4       DrvMovePointer             1000b3b4 f   gpe:ddi_if.obj
+ 0001:0000a3cc       DrvSetPointerShape         1000b3cc f   gpe:ddi_if.obj
+ 0001:0000a4dc       DrvSetPalette              1000b4dc f   gpe:ddi_if.obj
+ 0001:0000a558       DrvFillPath                1000b558 f   gpe:ddi_if.obj
+ 0001:0000a90c       DrvRealizeBrush            1000b90c f   gpe:ddi_if.obj
+ 0001:0000ab9c       DrvGetModes                1000bb9c f   gpe:ddi_if.obj
+ 0001:0000ac98       DrvEnablePDEV              1000bc98 f   gpe:ddi_if.obj
+ 0001:0000afc8       DrvCopyBits                1000bfc8 f   gpe:ddi_if.obj
+ 0001:0000afd8       ?ClipBlt@@YAJPAVGPE@@PAUGPEBltParms@@@Z 1000bfd8 f   gpe:ddi_if.obj
+ 0001:0000b234       ?AAGetMaskBits@@YAXPAK00@Z 1000c234 f   gpe:ddi_if.obj
+ 0001:0000b270       ?GPEEnableDriver@@YAHKKPAUtagDrvEnableData@@PAU_ENGCALLBACKS@@@Z 1000c270 f   gpe:ddi_if.obj
+ 0001:0000b39c       AnyBlt                     1000c39c f   gpe:ddi_if.obj
+ 0001:0000bbf4       DrvAnyBlt                  1000cbf4 f   gpe:ddi_if.obj
+ 0001:0000bc64       DrvTransparentBlt          1000cc64 f   gpe:ddi_if.obj
+ 0001:0000bcdc       DrvBitBlt                  1000ccdc f   gpe:ddi_if.obj
+ 0001:0000bdbc       DrvPaint                   1000cdbc f   gpe:ddi_if.obj
+ 0001:0000be28       ??0GPE@@QAA@XZ             1000ce28 f   gpe:gpe.obj
+ 0001:0000be6c       ??1GPE@@UAA@XZ             1000ce6c f   gpe:gpe.obj
+ 0001:0000be7c       ?ContrastControl@GPE@@UAAHKPAK@Z 1000ce7c f   gpe:gpe.obj
+ 0001:0000be84       ?PowerHandler@GPE@@UAAXH@Z 1000ce84 f   gpe:gpe.obj
+ 0001:0000be88       ?GetPalette@GPE@@UAAJPAPAUtagPALETTEENTRY@@PAG@Z 1000ce88 f   gpe:gpe.obj
+ 0001:0000bed0       ?DrvEscape@GPE@@UAAKPAU_SURFOBJ@@KKPAXK1@Z 1000ced0 f   gpe:gpe.obj
+ 0001:0000bed8       ?GetGraphicsCaps@GPE@@UAAKXZ 1000ced8 f   gpe:gpe.obj
+ 0001:0000bee0       ?GetPhysicalVideoMemory@GPE@@UAAXPAK0@Z 1000cee0 f   gpe:gpe.obj
+ 0001:0000bee4       ?GetVirtualVideoMemory@GPE@@UAAXPAK0@Z 1000cee4 f   gpe:gpe.obj
+ 0001:0000bee8       ?SetVisibleSurface@GPE@@UAAXPAVGPESurf@@@Z 1000cee8 f   gpe:gpe.obj
+ 0001:0000beec       ?FlipInProgress@GPE@@UAAHXZ 1000ceec f   gpe:gpe.obj
+ 0001:0000bef4       ?WaitForVBlank@GPE@@UAAXXZ 1000cef4 f   gpe:gpe.obj
+ 0001:0000bef8       ?SurfaceBusyFlipping@GPE@@UAAHPAVGPESurf@@@Z 1000cef8 f   gpe:gpe.obj
+ 0001:0000bf00       ?IsBusy@GPE@@UAAHXZ        1000cf00 f   gpe:gpe.obj
+ 0001:0000bf08       ?WaitForNotBusy@GPE@@UAAXXZ 1000cf08 f   gpe:gpe.obj
+ 0001:0000bf0c       ?AvailableVideoMemory@GPE@@UAAKXZ 1000cf0c f   gpe:gpe.obj
+ 0001:0000bf14       ?ScanLine@GPE@@UAAHXZ      1000cf14 f   gpe:gpe.obj
+ 0001:0000bf1c       ?ProcessCommandBlock@GPE@@UAAJPAE@Z 1000cf1c f   gpe:gpe.obj
+ 0001:0000bf28       ?GetScreenDimensions@GPE@@UAAHPAUGPEScreenProps@@@Z 1000cf28 f   gpe:gpe.obj
+ 0001:0000c1c0       ?IsPaletteSettable@GPE@@UAAHXZ 1000d1c0 f   gpe:gpe.obj
+ 0001:0000c1d8       ?GetClearTypeRGBMasks@GPE@@UAAPAKXZ 1000d1d8 f   gpe:gpe.obj
+ 0001:0000c1dc       ?DisablePrimary@GPE@@UAAHXZ 1000d1dc f   gpe:gpe.obj
+ 0001:0000c210       ?Init@GPESurf@@QAAXHHPAXHW4EGPEFormat@@@Z 1000d210 f   gpe:gpe.obj
+ 0001:0000c264       ?RotateLineParms@GPESurf@@QAAXPAUGPELineParms@@@Z 1000d264 f   gpe:gpe.obj
+ 0001:0000c324       ?SetRotation@GPESurf@@QAAXHHH@Z 1000d324 f   gpe:gpe.obj
+ 0001:0000c34c       ?RotateRectl@GPESurf@@QAAXPAU_RECTL@@@Z 1000d34c f   gpe:gpe.obj
+ 0001:0000c3f8       ?RotateRectlBack@GPESurf@@QAAXPAU_RECTL@@@Z 1000d3f8 f   gpe:gpe.obj
+ 0001:0000c4a4       ?GetPtr@GPESurf@@QAAPAEHH@Z 1000d4a4 f   gpe:gpe.obj
+ 0001:0000c580       ??1GPEFormat@@QAA@XZ       1000d580 f   gpe:gpe.obj
+ 0001:0000c5ac       ??_EGPE@@UAAPAXI@Z         1000d5ac f i gpe:gpe.obj
+ 0001:0000c5ac       ??_GGPE@@UAAPAXI@Z         1000d5ac f i gpe:gpe.obj
+ 0001:0000c5d0       ??0GPESurf@@QAA@HHW4EGPEFormat@@@Z 1000d5d0 f   gpe:gpe.obj
+ 0001:0000c6d4       ??1GPESurf@@UAA@XZ         1000d6d4 f   gpe:gpe.obj
+ 0001:0000c728       ?EmulatedLine@GPE@@QAAJPAUGPELineParms@@@Z 1000d728 f   gpe:swline.obj
+ 0001:0000cdd4       ?EmulatedBlt_Internal@GPE@@QAAJPAUGPEBltParms@@@Z 1000ddd4 f   gpe:swblt.obj
+ 0001:0000ef4c       ?EmulatedBlt_Bilinear@GPE@@QAAJPAUGPEBltParms@@@Z 1000ff4c f   gpe:swblt.obj
+ 0001:0000f7ac       ?EmulatedBlt_Halftone@GPE@@QAAJPAUGPEBltParms@@@Z 100107ac f   gpe:swblt.obj
+ 0001:00010000       ?EmulatedBltRotate_Internal@GPE@@QAAJPAUGPEBltParms@@@Z 10011000 f   gpe:swblt.obj
+ 0001:00012dd0       ?EmulatedBltRotate_Bilinear@GPE@@QAAJPAUGPEBltParms@@@Z 10013dd0 f   gpe:swblt.obj
+ 0001:00013c84       ?EmulatedBltRotate_Halftone@GPE@@QAAJPAUGPEBltParms@@@Z 10014c84 f   gpe:swblt.obj
+ 0001:00014938       ?SelectBlt@GPE@@IAAJPAUGPEBltParms@@P81@AAJ0@Z@Z 10015938 f   gpe:swblt.obj
+ 0001:00014f48       ?EmulatedBlt@GPE@@QAAJPAUGPEBltParms@@@Z 10015f48 f   gpe:swblt.obj
+ 0001:00014f54       ?Init@LRU@@QAAHG@Z         10015f54 f   gpe:swconvrt.obj
+ 0001:0001503c       ?Find@LRU@@QAAFK@Z         1001603c f   gpe:swconvrt.obj
+ 0001:00015114       ?Add@LRU@@QAAFK@Z          10016114 f   gpe:swconvrt.obj
+ 0001:0001517c       ?Fill@LRU@@QAAXK@Z         1001617c f   gpe:swconvrt.obj
+ 0001:000151b8       ?Free@LRU@@QAAXXZ          100161b8 f   gpe:swconvrt.obj
+ 0001:00015228       ?InitMaskInfo@MaskInfo@@QAAXPAU_XLATEOBJ@@KG@Z 10016228 f   gpe:swconvrt.obj
+ 0001:00015308       ?Init@GroupColorConverter@@QAAXPAU_XLATEOBJ@@@Z 10016308 f   gpe:swconvrt.obj
+ 0001:000154f4       ?RGBToFromBGR@MaskColorConverter@@QAAKK@Z 100164f4 f   gpe:swconvrt.obj
+ 0001:00015528       ?MaskedSrcToRGB@MaskColorConverter@@QAAKK@Z 10016528 f   gpe:swconvrt.obj
+ 0001:0001558c       ?MaskedSrcToRGB@GroupColorConverter@@QAAKK@Z 1001658c f   gpe:swconvrt.obj
+ 0001:000155f0       ?MaskedSrcToBGR@MaskColorConverter@@QAAKK@Z 100165f0 f   gpe:swconvrt.obj
+ 0001:00015654       ?RGBSrcToMaskedDst@MaskColorConverter@@QAAKK@Z 10016654 f   gpe:swconvrt.obj
+ 0001:00015694       ?BGRSrcToMaskedDst@MaskColorConverter@@QAAKK@Z 10016694 f   gpe:swconvrt.obj
+ 0001:000156d4       ?MaskedSrcToMaskedDst@MaskColorConverter@@QAAKK@Z 100166d4 f   gpe:swconvrt.obj
+ 0001:0001573c       ?AnyToMono@MonoColorConverter@@QAAKK@Z 1001673c f   gpe:swconvrt.obj
+ 0001:00015750       DrvRealizeColor            10016750 f   gpe:swconvrt.obj
+ 0001:000158b4       DrvUnrealizeColor          100168b4 f   gpe:swconvrt.obj
+ 0001:000159b8       ?Init@LookupColorConverter@@QAAXPAU_XLATEOBJ@@@Z 100169b8 f   gpe:swconvrt.obj
+ 0001:00015b74       ?MaskedSrcToPaletteDst@GroupColorConverter@@QAAKK@Z 10016b74 f   gpe:swconvrt.obj
+ 0001:00015d10       ?AllocConverters@@YAHXZ    10016d10 f   gpe:swconvrt.obj
+ 0001:00015db8       ?FreeConverters@@YAXXZ     10016db8 f   gpe:swconvrt.obj
+ 0001:00015e14       ?InitConverter@ColorConverter@@SAXPAU_XLATEOBJ@@PAPAV1@PAP81@AAKK@ZPAPAK@Z 10016e14 f   gpe:swconvrt.obj
+ 0001:0001606c       ?SafeCallLine@@YAJPAVGPE@@PAUGPELineParms@@@Z 1001706c f   gpe:drvstrok.obj
+ 0001:000160b4       DrvStrokePath              100170b4 f   gpe:drvstrok.obj
+ 0001:000169c0       ?AATextBltInit@@YAHP6AXPAK00@Z@Z 100179c0 f   gpe:aablt.obj
+ 0001:000169d8       ?AATextBltDst8@AATextBlt@@QAAJPAUGPEBltParms@@@Z 100179d8 f   gpe:aablt.obj
+ 0001:00016b84       ?SetGamma@AAMASKINFO@@QAAXM@Z 10017b84 f i gpe:aablt.obj
+ 0001:00016c84       ?BlendPixelAA@AAMASKINFO@@QAAKKE@Z 10017c84 f   gpe:aablt.obj
+ 0001:00016f50       ?SetAAGammaValue@@YAHKH@Z  10017f50 f   gpe:aablt.obj
+ 0001:00017054       ?AATextBltDst16@AATextBlt@@QAAJPAUGPEBltParms@@@Z 10018054 f   gpe:aablt.obj
+ 0001:000172b0       ?AATextBltDst24@AATextBlt@@QAAJPAUGPEBltParms@@@Z 100182b0 f   gpe:aablt.obj
+ 0001:0001752c       ?AATextBltDst32@AATextBlt@@QAAJPAUGPEBltParms@@@Z 1001852c f   gpe:aablt.obj
+ 0001:00017780       ?AATextBltSelect@@YAJPAUGPEBltParms@@@Z 10018780 f   gpe:aablt.obj
+ 0001:000178bc       ?vClearTypeLookupTableLoop@@YAXKPAU_BLENDINFO@@KK@Z 100188bc f   gpe:rctblt.obj
+ 0001:00017c94       ?pvFillOpaqTableCT@@YAPAXKKKPAU_BLENDINFO@@@Z 10018c94 f   gpe:rctblt.obj
+ 0001:00017d0c       ?ulBlendPixelCT@@YAKPAU_BLENDINFO@@KPAU_F_RGB@@@Z 10018d0c f   gpe:rctblt.obj
+ 0001:00017e44       ?ulBlendPixelCT8bpp@@YAKPAU_BLENDINFO@@KPAU_F_RGB@@@Z 10018e44 f   gpe:rctblt.obj
+ 0001:00017f1c       ?ClearTypeBltDst16@ClearTypeBlt@@QAAJPAUGPEBltParms@@@Z 10018f1c f   gpe:rctblt.obj
+ 0001:000180ec       ?ClearTypeBltDst24@ClearTypeBlt@@QAAJPAUGPEBltParms@@@Z 100190ec f   gpe:rctblt.obj
+ 0001:000182d4       ?ClearTypeBltDst32@ClearTypeBlt@@QAAJPAUGPEBltParms@@@Z 100192d4 f   gpe:rctblt.obj
+ 0001:00018498       ?ClearTypeBltDst8@ClearTypeBlt@@QAAJPAUGPEBltParms@@@Z 10019498 f   gpe:rctblt.obj
+ 0001:0001865c       ?SetClearTypeBltMasks@@YAXKKK@Z 1001965c f   gpe:rctblt.obj
+ 0001:00018734       ?SetClearTypeBltGamma@@YAXK@Z 10019734 f   gpe:rctblt.obj
+ 0001:000188ac       ?GetGammaValue@@YAHPAK@Z   100198ac f   gpe:rctblt.obj
+ 0001:000188c8       ?SetGammaValue@@YAHKH@Z    100198c8 f   gpe:rctblt.obj
+ 0001:00018984       ?ClearTypeBltInit@@YAHPAUGPEMode@@PAKPAUtagPALETTEENTRY@@I@Z 10019984 f   gpe:rctblt.obj
+ 0001:00018a84       ?ClearTypeBltSelect@@YAJPAUGPEBltParms@@@Z 10019a84 f   gpe:rctblt.obj
+ 0001:00018b48       ??0TmpGPESurf@@QAA@PAU_SURFOBJ@@0PAV0@K@Z 10019b48 f   gpe:TmpGPESurf.obj
+ 0001:00018c60       ??0EdgeList@@QAA@H@Z       10019c60 f   gpe:swfill.obj
+ 0001:00018cc8       ??1EdgeList@@QAA@XZ        10019cc8 f   gpe:swfill.obj
+ 0001:00018ce0       ?AddEdge@EdgeList@@QAAJJJJJ@Z 10019ce0 f   gpe:swfill.obj
+ 0001:00018f08       ?Fill@EdgeList@@QAAJPAUGPEBltParms@@PAU_RECTL@@PAVGPE@@@Z 10019f08 f   gpe:swfill.obj
+ 0001:000193c4       ?drvRectFill32@@YAXPAVGPESurf@@PAU_DRVGRADIENTRECTDATA@@@Z 1001a3c4 f   gpe:rdrvgradfill.obj
+ 0001:00019b0c       ?drvRectFill24@@YAXPAVGPESurf@@PAU_DRVGRADIENTRECTDATA@@@Z 1001ab0c f   gpe:rdrvgradfill.obj
+ 0001:0001a154       ?drvRectFill16@@YAXPAVGPESurf@@PAU_DRVGRADIENTRECTDATA@@H@Z 1001b154 f   gpe:rdrvgradfill.obj
+ 0001:0001a640       ?drvRectFill16_565@@YAXPAVGPESurf@@PAU_DRVGRADIENTRECTDATA@@@Z 1001b640 f   gpe:rdrvgradfill.obj
+ 0001:0001a648       ?drvRectFill16_555@@YAXPAVGPESurf@@PAU_DRVGRADIENTRECTDATA@@@Z 1001b648 f   gpe:rdrvgradfill.obj
+ 0001:0001a69c       ?drvRectFill16Bitfields@@YAXPAVGPESurf@@PAU_DRVGRADIENTRECTDATA@@@Z 1001b69c f   gpe:rdrvgradfill.obj
+ 0001:0001a6a4       ?drvRectFillPalIndex@@YAXPAVGPESurf@@PAU_DRVGRADIENTRECTDATA@@H@Z 1001b6a4 f   gpe:rdrvgradfill.obj
+ 0001:0001ab70       ?drvRectFill8@@YAXPAVGPESurf@@PAU_DRVGRADIENTRECTDATA@@@Z 1001bb70 f   gpe:rdrvgradfill.obj
+ 0001:0001ab78       ?drvRectFill4@@YAXPAVGPESurf@@PAU_DRVGRADIENTRECTDATA@@@Z 1001bb78 f   gpe:rdrvgradfill.obj
+ 0001:0001ab80       ?drvRectFill1@@YAXPAVGPESurf@@PAU_DRVGRADIENTRECTDATA@@@Z 1001bb80 f   gpe:rdrvgradfill.obj
+ 0001:0001b294       DrvGradientFill            1001c294 f   gpe:rdrvgradfill.obj
+ 0001:0001bae0       DrvAlphaBlend              1001cae0 f   gpe:drvalphablend.obj
+ 0001:0001bb64       GenBltInitialize           1001cb64 f   gpe:genblt.obj
+ 0001:0001bd18       ?ClockOverflow@@YAXXZ      1001cd18 f   gpe:genblt.obj
+ 0001:0001bd58       ?FunctionCacheLookup@@YAPAUGenBltFunction@@PAUGenBltSignature@@@Z 1001cd58 f   gpe:genblt.obj
+ 0001:0001bdbc       ?GetFnCacheMem@@YAPAUGenBltFunction@@PAUGenBltSignature@@@Z 1001cdbc f   gpe:genblt.obj
+ 0001:0001be38       ?GetBltFunction@@YAPAUGenBltFunction@@PAUGenBltSignature@@@Z 1001ce38 f   gpe:genblt.obj
+ 0001:0001bee4       ?GPEFormatToGenBltFormat@@YA?AW4GenBltFormat@@PAVGPEFormat@@W4EGPEFormat@@@Z 1001cee4 f   gpe:genblt.obj
+ 0001:0001c040       GenBltSetMode              1001d040 f   gpe:genblt.obj
+ 0001:0001c230       ?GenerateSignature@@YAHPAUGPEBltParms@@PAUGenBltSignature@@@Z 1001d230 f   gpe:genblt.obj
+ 0001:0001c6a4       ?ProcessROP3@@YAKKKKEE@Z   1001d6a4 f   gpe:BltHelpers.obj
+ 0001:0001c764       ?RGBError@@YAKKK@Z         1001d764 f   gpe:BltHelpers.obj
+ 0001:0001c7a4       ?FillMasksAndShifts@@YAXPAVGPESurf@@PAK1@Z 1001d7a4 f   gpe:BltHelpers.obj
+ 0001:0001c810       ?ClipRect@@YA_NPAU_RECTL@@PBU1@1@Z 1001d810 f   gpe:BltHelpers.obj
+ 0001:0001c88c       ?AveragePixels@@YAKKKHHPAK0@Z 1001d88c f   gpe:BltHelpers.obj
+ 0001:0001c9dc       ?AverageAndClampPixels@@YAKKKHHPAK0@Z 1001d9dc f   gpe:BltHelpers.obj
+ 0001:0001cb74       ?HalftoneBlend16Bpp@@YAXPAEKHHPAK1@Z 1001db74 f   gpe:BltHelpers.obj
+ 0001:0001cba8       ?HalftoneBlend24Bpp@@YAXPAEKHHPAK1@Z 1001dba8 f   gpe:BltHelpers.obj
+ 0001:0001cbf8       ?HalftoneBlend32Bpp@@YAXPAEKHHPAK1@Z 1001dbf8 f   gpe:BltHelpers.obj
+ 0001:0001cc28       ?InitPixelIterator@PixelIterator@@QAAXPAVGPESurf@@HHPAU_RECTL@@HH@Z 1001dc28 f   gpe:PixelIterator.obj
+ 0001:0001cdf0       ?InitPixelIterator@PixelIteratorRotate@@QAAXPAVGPESurf@@HHPAU_RECTL@@HH@Z 1001ddf0 f   gpe:PixelIterator.obj
+ 0001:0001cf50       ?GetPtr@PixelIteratorRotate@@QAAPAEXZ 1001df50 f   gpe:PixelIterator.obj
+ 0001:0001d034       ?InitBrushPixelIterator@BrushPixelIterator@@QAAXPAVGPESurf@@HHPAU_RECTL@@@Z 1001e034 f   gpe:PixelIterator.obj
+ 0001:0001d118       ?WrappedGeneratedBlt@GPE@@QAAJPAUGPEBltParms@@@Z 1001e118 f   gpe:GenBltGpe.obj
+ 0001:0001d208       GeneratedBltSelect         1001e208 f   gpe:GenBltGpe.obj
+ 0001:0001d254       EmulatedBltSelect02        1001e254 f   gpe:ebbltsel.obj
+ 0001:0001d25c       EmulatedBltSelect08        1001e25c f   gpe:ebbltsel.obj
+ 0001:0001d460       EmulatedBltSelect16        1001e460 f   gpe:ebbltsel.obj
+ 0001:0001d618       EmulatedBltSelect32        1001e618 f   gpe:ebbltsel.obj
+ 0001:0001d718       ?IsSurface_R5_G6_B5@@YAHPAVGPESurf@@@Z 1001e718 f i gpe:FastBlt.obj
+ 0001:0001d770       ?IsSurface_A8_R8_G8_B8@@YAHPAVGPESurf@@@Z 1001e770 f i gpe:FastBlt.obj
+ 0001:0001d7d4       ?CanUse_Blt_Stretch_Alpha_32To16at565@@YAHPAUGPEBltParms@@@Z 1001e7d4 f i gpe:FastBlt.obj
+ 0001:0001d8c4       ?Blt_Stretch_Alpha_32To16at565@Emulator@@QAAJPAUGPEBltParms@@@Z 1001e8c4 f   gpe:FastBlt.obj
+ 0001:0001e05c       ?Blt_NoStretch_Alpha_32To16at565@Emulator@@QAAJPAUGPEBltParms@@@Z 1001f05c f   gpe:FastBlt.obj
+ 0001:0001e39c       ?CanUse_Blt_NoStretch_Alpha_24To24@@YAHPAUGPEBltParms@@@Z 1001f39c f i gpe:FastBlt.obj
+ 0001:0001e430       ?Blt_NoStretch_Alpha_24To24_Aligned@@YAJPAKH0HHHK@Z 1001f430 f   gpe:FastBlt.obj
+ 0001:0001e554       ?Blt_NoStretch_Alpha_24To24@Emulator@@QAAJPAUGPEBltParms@@@Z 1001f554 f   gpe:FastBlt.obj
+ 0001:0001e720       ?CanUse_Blt_NoStretch_Alpha_16To16@@YAHPAUGPEBltParms@@@Z 1001f720 f i gpe:FastBlt.obj
+ 0001:0001e7bc       ?Blt_NoStretch_Alpha_16To16@Emulator@@QAAJPAUGPEBltParms@@@Z 1001f7bc f   gpe:FastBlt.obj
+ 0001:0001e994       ?CanUse_Blt_NoStretch_Trans_16To16@@YAHPAUGPEBltParms@@@Z 1001f994 f i gpe:FastBlt.obj
+ 0001:0001ea2c       ?Blt_NoStretch_Trans_16To16@Emulator@@QAAJPAUGPEBltParms@@@Z 1001fa2c f   gpe:FastBlt.obj
+ 0001:0001eaec       ?CanUse_Blt_Stretch_Trans_16To16@@YAHPAUGPEBltParms@@@Z 1001faec f i gpe:FastBlt.obj
+ 0001:0001eb88       ?CanUse_Blt_NoStretch_NoTrans_32To16at565@@YAHPAUGPEBltParms@@@Z 1001fb88 f i gpe:FastBlt.obj
+ 0001:0001ec14       ?Blt_NoStretch_NoTrans_32To16at565@Emulator@@QAAJPAUGPEBltParms@@@Z 1001fc14 f   gpe:FastBlt.obj
+ 0001:0001ecdc       ?CanUse_Blt_NoStretch_NoTrans_16at565To32@@YAHPAUGPEBltParms@@@Z 1001fcdc f i gpe:FastBlt.obj
+ 0001:0001ed74       ?Blt_NoStretch_NoTrans_16at565To32@Emulator@@QAAJPAUGPEBltParms@@@Z 1001fd74 f   gpe:FastBlt.obj
+ 0001:0001ee38       ?CanUse_Blt_NoStretch_NoTrans_24To24@@YAHPAUGPEBltParms@@@Z 1001fe38 f i gpe:FastBlt.obj
+ 0001:0001eecc       ?Blt_NoStretch_NoTrans_24To24@Emulator@@QAAJPAUGPEBltParms@@@Z 1001fecc f   gpe:FastBlt.obj
+ 0001:0001ef84       ?CanUse_Blt_NoStretch_NoTrans_16To16@@YAHPAUGPEBltParms@@@Z 1001ff84 f i gpe:FastBlt.obj
+ 0001:0001f018       ?Blt_NoStretch_NoTrans_16To16@Emulator@@QAAJPAUGPEBltParms@@@Z 10020018 f   gpe:FastBlt.obj
+ 0001:0001f0cc       ?CanUse_Blt_Text_32@@YAHPAUGPEBltParms@@@Z 100200cc f i gpe:FastBlt.obj
+ 0001:0001f154       ?Blt_Text_32@Emulator@@QAAJPAUGPEBltParms@@@Z 10020154 f   gpe:FastBlt.obj
+ 0001:0001f240       ?CanUse_Blt_Fill_32@@YAHPAUGPEBltParms@@@Z 10020240 f i gpe:FastBlt.obj
+ 0001:0001f298       ?Blt_Fill_32@Emulator@@QAAJPAUGPEBltParms@@@Z 10020298 f   gpe:FastBlt.obj
+ 0001:0001f32c       ?CanUse_Blt_Fill_24@@YAHPAUGPEBltParms@@@Z 1002032c f i gpe:FastBlt.obj
+ 0001:0001f384       ?Blt_Fill_24@Emulator@@QAAJPAUGPEBltParms@@@Z 10020384 f   gpe:FastBlt.obj
+ 0001:0001f438       ?Blt_Stretch_Trans_16To16@Emulator@@QAAJPAUGPEBltParms@@@Z 10020438 f   gpe:FastBlt.obj
+ 0001:0001fad4       FastBltSelect              10020ad4 f   gpe:FastBlt.obj
+ 0001:0001fcc8       GenBltCpuInitialize        10020cc8 f   gpe:genblt_arm.obj
+ 0001:0001fcf4       ?RopRecurse@@YAFPBKF@Z     10020cf4 f   gpe:parse.obj
+ 0001:0001fdf4       ?ConvertRecurse@@YAFPBKKF@Z 10020df4 f   gpe:parse.obj
+ 0001:0001ffc0       ?GenBltInvariantParser@@YA_NPBKPAKPAUGenBltSignature@@@Z 10020fc0 f   gpe:parse.obj
+ 0001:00020290       ?InvariantRecurse@@YAFPBKKKHF@Z 10021290 f   gpe:parse.obj
+ 0001:000205bc       ?InvariantInitialize@@YAHPBK@Z 100215bc f   gpe:parse.obj
+ 0001:000207c8       ?BRegFromBltSig@@YAKPAUGenBltSignature@@@Z 100217c8 f   gpe:InitRegs.obj
+ 0001:000208fc       ?InitPCodeRegs@@YAXPAUGPEBltParms@@PAUPCodeRegisters_t@@@Z 100218fc f   gpe:InitRegs.obj
+ 0001:00021644       ?EmulatedBltSrcCopy0108@Emulator@@QAAJPAUGPEBltParms@@@Z 10022644 f   gpe:ebcp0108.obj
+ 0001:00021a90       ?EmulatedBltSrcCopy0408@Emulator@@QAAJPAUGPEBltParms@@@Z 10022a90 f   gpe:ebcp0408.obj
+ 0001:00021c18       ?EmulatedBltSrcCopy0808@Emulator@@QAAJPAUGPEBltParms@@@Z 10022c18 f   gpe:ebcopy08.obj
+ 0001:00021f88       ?EmulatedBltSrcPaint0808@Emulator@@QAAJPAUGPEBltParms@@@Z 10022f88 f   gpe:ebspnt08.obj
+ 0001:00022364       ?EmulatedBltPatternCopy08@Emulator@@QAAJPAUGPEBltParms@@@Z 10023364 f   gpe:ebpcpy08.obj
+ 0001:00022728       ?EmulatedBltAlphaText08@Emulator@@QAAJPAUGPEBltParms@@@Z 10023728 f   gpe:ebalph08.obj
+ 0001:0002273c       ?EmulatedBltText08@Emulator@@QAAJPAUGPEBltParms@@@Z 1002373c f   gpe:ebtext08.obj
+ 0001:00022890       ?EmulatedBltFill08@Emulator@@QAAJPAUGPEBltParms@@@Z 10023890 f   gpe:ebfill08.obj
+ 0001:00022920       ?EmulatedBltDstInvert08@Emulator@@QAAJPAUGPEBltParms@@@Z 10023920 f   gpe:ebdinv08.obj
+ 0001:00022a24       ?EmulatedBltPatInvert08@Emulator@@QAAJPAUGPEBltParms@@@Z 10023a24 f   gpe:ebpinv08.obj
+ 0001:00022b48       ?EmulatedBltPatternInvert08@Emulator@@QAAJPAUGPEBltParms@@@Z 10023b48 f   gpe:ebp08.obj
+ 0001:00022d88       ?EmulatedBltSrcInvert0808@Emulator@@QAAJPAUGPEBltParms@@@Z 10023d88 f   gpe:ebsinv08.obj
+ 0001:00023164       ?EmulatedBltSrcAnd0808@Emulator@@QAAJPAUGPEBltParms@@@Z 10024164 f   gpe:ebsand08.obj
+ 0001:00023540       ?EmulatedBltSrcPaint1616@Emulator@@QAAJPAUGPEBltParms@@@Z 10024540 f   gpe:EBSPNT16.obj
+ 0001:00023930       ?EmulatedBltSrcCopy0116@Emulator@@QAAJPAUGPEBltParms@@@Z 10024930 f   gpe:ebcp0116.obj
+ 0001:00023d80       ?EmulatedBltSrcCopy0416@Emulator@@QAAJPAUGPEBltParms@@@Z 10024d80 f   gpe:ebcp0416.obj
+ 0001:00023f0c       ?EmulatedBltSrcCopy1616@Emulator@@QAAJPAUGPEBltParms@@@Z 10024f0c f   gpe:EBCOPY16.obj
+ 0001:000242a8       ?EmulatedBltFill16@Emulator@@QAAJPAUGPEBltParms@@@Z 100252a8 f   gpe:ebfill16.obj
+ 0001:00024364       ?EmulatedBltSrcInvert1616@Emulator@@QAAJPAUGPEBltParms@@@Z 10025364 f   gpe:EBSINV16.obj
+ 0001:00024754       ?EmulatedBltSrcAnd1616@Emulator@@QAAJPAUGPEBltParms@@@Z 10025754 f   gpe:ebsand16.obj
+ 0001:00024e20       ?EmulatedBltAlphaText16@Emulator@@QAAJPAUGPEBltParms@@@Z 10025e20 f   gpe:ebalph16.obj
+ 0001:00024ee8       ?EmulatedBltText16@Emulator@@QAAJPAUGPEBltParms@@@Z 10025ee8 f   gpe:ebtext16.obj
+ 0001:0002503c       ?EmulatedBltFill32@Emulator@@QAAJPAUGPEBltParms@@@Z 1002603c f   gpe:EmulatedBltFill32.obj
+ 0001:00025148       ?EmulatedBltText32@Emulator@@QAAJPAUGPEBltParms@@@Z 10026148 f   gpe:EmulatedBltText32.obj
+ 0001:000252a0       ?EmulatedBltSrcCopy0132@Emulator@@QAAJPAUGPEBltParms@@@Z 100262a0 f   gpe:EmulatedBltSrcCopy0132.obj
+ 0001:0002578c       ?EmulatedBltSrcCopy32@Emulator@@QAAJPAUGPEBltParms@@@Z 1002678c f   gpe:EmulatedBltSrcCopy32.obj
+ 0001:00025b28       VirtualCopy                10026b28 f   coredll:COREDLL.dll
+ 0001:00025b38       VirtualAlloc               10026b38 f   coredll:COREDLL.dll
+ 0001:00025b48       DisableThreadLibraryCalls  10026b48 f   coredll:COREDLL.dll
+ 0001:00025b58       SetLastError               10026b58 f   coredll:COREDLL.dll
+ 0001:00025b68       RegCloseKey                10026b68 f   coredll:COREDLL.dll
+ 0001:00025b78       RegQueryValueExW           10026b78 f   coredll:COREDLL.dll
+ 0001:00025b88       RegOpenKeyExW              10026b88 f   coredll:COREDLL.dll
+ 0001:00025b98       RegSetValueExW             10026b98 f   coredll:COREDLL.dll
+ 0001:00025ba8       RegCreateKeyExW            10026ba8 f   coredll:COREDLL.dll
+ 0001:00025bb8       LocalAlloc                 10026bb8 f   coredll:COREDLL.dll
+ 0001:00025bc8       LocalFree                  10026bc8 f   coredll:COREDLL.dll
+ 0001:00025bd8       LocalReAlloc               10026bd8 f   coredll:COREDLL.dll
+ 0001:00025be8       VirtualFree                10026be8 f   coredll:COREDLL.dll
+ 0001:00025bf8       CeSetExtendedPdata         10026bf8 f   coredll:COREDLL.dll
+ 0001:00025c08       CacheRangeFlush            10026c08 f   coredll:COREDLL.dll
+ 0001:00025d10       _DllMainCRTStartup         10026d10 f   corelib0:pegdmain.obj
+ 0001:00025e24       _cexit                     10026e24 f   corelib0:cexit.obj
+ 0001:00025e34       _initterm                  10026e34 f   corelib0:crt0dat.obj
+ 0001:00025e60       _cinit                     10026e60 f   corelib0:crt0dat.obj
+ 0001:00025ec0       __security_init_cookie     10026ec0 f   corelib0:seccinit.obj
+ 0001:00025f0c       __crt_ExitProcess          10026f0c f   corelib0:exitproc_proxy.obj
+ 0001:00025f18       ??3@YAXPAX@Z               10026f18 f   corelib1:COREDLL.dll
+ 0001:00025f28       ??2@YAPAXI@Z               10026f28 f   corelib1:COREDLL.dll
+ 0001:00025f38       memcpy                     10026f38 f   corelib1:COREDLL.dll
+ 0001:00025f48       __C_specific_handler       10026f48 f   corelib1:COREDLL.dll
+ 0001:00025f58       memset                     10026f58 f   corelib1:COREDLL.dll
+ 0001:00025f68       _purecall                  10026f68 f   corelib1:COREDLL.dll
+ 0001:00025f78       malloc                     10026f78 f   corelib1:COREDLL.dll
+ 0001:00025f88       free                       10026f88 f   corelib1:COREDLL.dll
+ 0001:00025f98       memmove                    10026f98 f   corelib1:COREDLL.dll
+ 0001:00025fa8       _XcptFilter                10026fa8 f   corelib1:COREDLL.dll
+ 0001:00025fb8       __security_gen_cookie2     10026fb8 f   corelib1:COREDLL.dll
+ 0001:00025fc8       DeleteCriticalSection      10026fc8 f   coredll:COREDLL.dll
+ 0001:00025fd8       InterlockedExchange        10026fd8 f   coredll:COREDLL.dll
+ 0001:00025fe8       TerminateProcess           10026fe8 f   coredll:COREDLL.dll
+ 0001:000260a0       __IMPORT_DESCRIPTOR_COREDLL 100270a0     coredll:COREDLL.dll
+ 0001:000260b4       __NULL_IMPORT_DESCRIPTOR   100270b4     coredll:COREDLL.dll
+ 0002:00000000       __imp_VirtualCopy          10028000     coredll:COREDLL.dll
+ 0002:00000004       __imp_VirtualAlloc         10028004     coredll:COREDLL.dll
+ 0002:00000008       __imp_DisableThreadLibraryCalls 10028008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_SetLastError         1002800c     coredll:COREDLL.dll
+ 0002:00000010       __imp_RegCloseKey          10028010     coredll:COREDLL.dll
+ 0002:00000014       __imp_RegQueryValueExW     10028014     coredll:COREDLL.dll
+ 0002:00000018       __imp_RegOpenKeyExW        10028018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_RegSetValueExW       1002801c     coredll:COREDLL.dll
+ 0002:00000020       __imp_RegCreateKeyExW      10028020     coredll:COREDLL.dll
+ 0002:00000024       __imp_LocalAlloc           10028024     coredll:COREDLL.dll
+ 0002:00000028       __imp_LocalFree            10028028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_LocalReAlloc         1002802c     coredll:COREDLL.dll
+ 0002:00000030       __imp_VirtualFree          10028030     coredll:COREDLL.dll
+ 0002:00000034       __imp_CeSetExtendedPdata   10028034     coredll:COREDLL.dll
+ 0002:00000038       __imp_CacheRangeFlush      10028038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_??3@YAXPAX@Z         1002803c     corelib1:COREDLL.dll
+ 0002:00000040       __imp_??2@YAPAXI@Z         10028040     corelib1:COREDLL.dll
+ 0002:00000044       __imp_memcpy               10028044     corelib1:COREDLL.dll
+ 0002:00000048       __imp___rt_udiv            10028048     corelib1:COREDLL.dll
+ 0002:0000004c       __imp___C_specific_handler 1002804c     corelib1:COREDLL.dll
+ 0002:00000050       __imp_memset               10028050     corelib1:COREDLL.dll
+ 0002:00000054       __imp__purecall            10028054     corelib1:COREDLL.dll
+ 0002:00000058       __imp___rt_sdiv            10028058     corelib1:COREDLL.dll
+ 0002:0000005c       __imp_malloc               1002805c     corelib1:COREDLL.dll
+ 0002:00000060       __imp_free                 10028060     corelib1:COREDLL.dll
+ 0002:00000064       __imp_pow                  10028064     corelib1:COREDLL.dll
+ 0002:00000068       __imp___rt_sdiv64by64      10028068     corelib1:COREDLL.dll
+ 0002:0000006c       __imp_memmove              1002806c     corelib1:COREDLL.dll
+ 0002:00000070       __imp__XcptFilter          10028070     corelib1:COREDLL.dll
+ 0002:00000074       __imp___security_gen_cookie2 10028074     corelib1:COREDLL.dll
+ 0002:00000078       __imp_DeleteCriticalSection 10028078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_InterlockedExchange  1002807c     coredll:COREDLL.dll
+ 0002:00000080       __imp_TerminateProcess     10028080     coredll:COREDLL.dll
+ 0002:00000084       \177COREDLL_NULL_THUNK_DATA 10028084     coredll:COREDLL.dll
+ 0002:00000088       ?_rgb2bpp@@3PAUtagRGBQUAD@@A 10028088     wrap2bpp.obj
+ 0002:00000098       ?BitMasks@@3PAKA           10028098     wrap2bpp.obj
+ 0002:000000a4       DispDrvr_cxScreen          100280a4     dispdrvr.obj
+ 0002:000000a8       DispDrvr_cyScreen          100280a8     dispdrvr.obj
+ 0002:000000ac       DispDrvr_HORZSIZE          100280ac     dispdrvr.obj
+ 0002:000000b0       DispDrvr_VERTSIZE          100280b0     dispdrvr.obj
+ 0002:000000b4       DispDrvr_LOGPIXELSX        100280b4     dispdrvr.obj
+ 0002:000000b8       DispDrvr_LOGPIXELSY        100280b8     dispdrvr.obj
+ 0002:000000bc       DispDrvr_cdwStride         100280bc     dispdrvr.obj
+ 0002:000000e0       ?gaMix@@3PAEA              100280e0     gpe:ddi_if.obj
+ 0002:00000528       ?gulGamma@@3KA             10028528     gpe:rctblt.obj
+ 0002:0000052c       ?szGamma@@3PAGA            1002852c     gpe:rctblt.obj
+ 0002:00000550       ?szGammaValue@@3PAGA       10028550     gpe:rctblt.obj
+ 0002:00000568       ?alAlpha@@3PAJA            10028568     gpe:rctblt.obj
+ 0002:00000588       ?ajGammaCT_10@@3PAEA       10028588     gpe:rctblt.obj
+ 0002:00000688       ?ajGammaCT_11@@3PAEA       10028688     gpe:rctblt.obj
+ 0002:00000788       ?ajGammaInvCT_11@@3PAEA    10028788     gpe:rctblt.obj
+ 0002:00000888       ?ajGammaCT_12@@3PAEA       10028888     gpe:rctblt.obj
+ 0002:00000988       ?ajGammaInvCT_12@@3PAEA    10028988     gpe:rctblt.obj
+ 0002:00000a88       ?ajGammaCT_13@@3PAEA       10028a88     gpe:rctblt.obj
+ 0002:00000b88       ?ajGammaInvCT_13@@3PAEA    10028b88     gpe:rctblt.obj
+ 0002:00000c88       ?ajGammaCT_14@@3PAEA       10028c88     gpe:rctblt.obj
+ 0002:00000d88       ?ajGammaInvCT_14@@3PAEA    10028d88     gpe:rctblt.obj
+ 0002:00000e88       ?ajGammaCT_15@@3PAEA       10028e88     gpe:rctblt.obj
+ 0002:00000f88       ?ajGammaInvCT_15@@3PAEA    10028f88     gpe:rctblt.obj
+ 0002:00001088       ?ajGammaCT_16@@3PAEA       10029088     gpe:rctblt.obj
+ 0002:00001188       ?ajGammaInvCT_16@@3PAEA    10029188     gpe:rctblt.obj
+ 0002:00001288       ?ajGammaCT_17@@3PAEA       10029288     gpe:rctblt.obj
+ 0002:00001388       ?ajGammaInvCT_17@@3PAEA    10029388     gpe:rctblt.obj
+ 0002:00001488       ?ajGammaCT_18@@3PAEA       10029488     gpe:rctblt.obj
+ 0002:00001588       ?ajGammaInvCT_18@@3PAEA    10029588     gpe:rctblt.obj
+ 0002:00001688       ?ajGammaCT_19@@3PAEA       10029688     gpe:rctblt.obj
+ 0002:00001788       ?ajGammaInvCT_19@@3PAEA    10029788     gpe:rctblt.obj
+ 0002:00001888       ?ajGammaCT_20@@3PAEA       10029888     gpe:rctblt.obj
+ 0002:00001988       ?ajGammaInvCT_20@@3PAEA    10029988     gpe:rctblt.obj
+ 0002:00001a88       ?ajGammaCT_21@@3PAEA       10029a88     gpe:rctblt.obj
+ 0002:00001b88       ?ajGammaInvCT_21@@3PAEA    10029b88     gpe:rctblt.obj
+ 0002:00001c88       ?ajGammaCT_22@@3PAEA       10029c88     gpe:rctblt.obj
+ 0002:00001d88       ?ajGammaInvCT_22@@3PAEA    10029d88     gpe:rctblt.obj
+ 0002:00001e88       ?gaOutTable@@3PAU_F_RGB@@A 10029e88     gpe:rctblt.obj
+ 0002:00002058       ?pfnDrvGradientFill@@3P6AHPAU_SURFOBJ@@PAU_CLIPOBJ@@PAU_XLATEOBJ@@PAU_TRIVERTEX@@KPAXKPAU_RECTL@@PAU_POINTL@@K@ZA 1002a058     gpe:rdrvgradfill.obj
+ 0002:00002060       ?gulDither32@@3PAKA        1002a060     gpe:rdrvgradfill.obj
+ 0002:000020a0       ?gDitherMatrix16x16Halftone@@3PAEA 1002a0a0     gpe:rdrvgradfill.obj
+ 0002:000021a0       ?gDitherMatrix16x16Default@@3PAEA 1002a1a0     gpe:rdrvgradfill.obj
+ 0002:000022a0       ?vTranslateIdentity@@3PAEA 1002a2a0     gpe:rdrvgradfill.obj
+ 0002:000023a0       ?DefaultSaturationTable@@3PAEA 1002a3a0     gpe:rdrvgradfill.obj
+ 0002:00002520       ?Saturation16_5@@3PAEA     1002a520     gpe:rdrvgradfill.obj
+ 0002:00002560       ?Saturation16_6@@3PAEA     1002a560     gpe:rdrvgradfill.obj
+ 0002:000025e0       ?pfnDrvAlphaBlend@@3P6AHPAU_SURFOBJ@@0PAU_CLIPOBJ@@PAU_XLATEOBJ@@PAU_RECTL@@3PAUtagBLENDOBJ@@K@ZA 1002a5e0     gpe:drvalphablend.obj
+ 0002:000025e8       ?uAlas@@3PAIA              1002a5e8     gpe:ebalph16.obj
+ 0002:000029e8       __security_cookie          1002a9e8     corelib0:seccinit.obj
+ 0002:000029ec       __security_cookie_complement 1002a9ec     corelib0:seccinit.obj
+ 0002:000029f4       DispDrvrPhysicalFrameBuffer 1002a9f4     dispdrvr.obj
+ 0002:000029f8       PATHOBJ_vGetBounds         1002a9f8     gpe:ddi_if.obj
+ 0002:000029fc       PATHOBJ_bEnum              1002a9fc     gpe:ddi_if.obj
+ 0002:00002a00       PALOBJ_cGetColors          1002aa00     gpe:ddi_if.obj
+ 0002:00002a04       CLIPOBJ_bEnum              1002aa04     gpe:ddi_if.obj
+ 0002:00002a08       EngGetPaletteFromPool      1002aa08     gpe:ddi_if.obj
+ 0002:00002a0c       EngAddPaletteToPool        1002aa0c     gpe:ddi_if.obj
+ 0002:00002a10       BRUSHOBJ_pvAllocRbrush     1002aa10     gpe:ddi_if.obj
+ 0002:00002a14       BRUSHOBJ_pvGetRbrush       1002aa14     gpe:ddi_if.obj
+ 0002:00002a18       CLIPOBJ_cEnumStart         1002aa18     gpe:ddi_if.obj
+ 0002:00002a1c       XLATEOBJ_cGetPalette       1002aa1c     gpe:ddi_if.obj
+ 0002:00002a20       PATHOBJ_vEnumStart         1002aa20     gpe:ddi_if.obj
+ 0002:00002a24       EngCreatePalette           1002aa24     gpe:ddi_if.obj
+ 0002:00002a28       EngCreateDeviceSurface     1002aa28     gpe:ddi_if.obj
+ 0002:00002a2c       EngDeleteSurface           1002aa2c     gpe:ddi_if.obj
+ 0002:00002a30       EngCreateDeviceBitmap      1002aa30     gpe:ddi_if.obj
+ 0002:00002a34       EngReleasePooledPalette    1002aa34     gpe:ddi_if.obj
+ 0002:00002a38       pfnGetGPEPerCard           1002aa38     gpe:ddi_if.obj
+ 0002:00002a3c       g_hmodDisplayDll           1002aa3c     gpe:ddi_if.obj
+ 0002:00002a40       ?g_pxlo@@3PAU_XLATEOBJ@@A  1002aa40     gpe:ddi_if.obj
+ 0002:00002a50       ?gMaskedConverter@@3PAVMaskColorConverter@@A 1002aa50     gpe:swconvrt.obj
+ 0002:00002cd0       ?gLookupConverter@@3PAVLookupColorConverter@@A 1002acd0     gpe:swconvrt.obj
+ 0002:00003d50       ?gMonoConverter@@3PAVMonoColorConverter@@A 1002bd50     gpe:swconvrt.obj
+ 0002:00003d78       ?gMaskedLRU@@3VLRU@@A      1002bd78     gpe:swconvrt.obj
+ 0002:00003d90       ?gLookupLRU@@3VLRU@@A      1002bd90     gpe:swconvrt.obj
+ 0002:00003da8       ?gMonoLRU@@3VLRU@@A        1002bda8     gpe:swconvrt.obj
+ 0002:00003dc0       ?gGroupLRU@@3VLRU@@A       1002bdc0     gpe:swconvrt.obj
+ 0002:00003dd8       ?gGroupConverter@@3PAVGroupColorConverter@@A 1002bdd8     gpe:swconvrt.obj
+ 0002:00004c68       ?pfnGetAAMaskBits@@3P6AXPAK00@ZA 1002cc68     gpe:aablt.obj
+ 0002:00004c70       ?uBCacheCT@@3KA            1002cc70     gpe:rctblt.obj
+ 0002:00004c74       ?uFCacheCT@@3KA            1002cc74     gpe:rctblt.obj
+ 0002:00004c78       ?aulCacheCT@@3PAKA         1002cc78     gpe:rctblt.obj
+ 0002:00004e44       ?sizeCacheCT@@3KA          1002ce44     gpe:rctblt.obj
+ 0002:00004e48       ?uGammaCacheCT@@3KA        1002ce48     gpe:rctblt.obj
+ 0002:00004e84       ?gbHateMmx@@3HA            1002ce84     gpe:rctblt.obj
+ 0002:00005110       ?g_BltFnPData@@3U_xpdata@@A 1002d110     gpe:genblt.obj
+ 0002:00005198       ?g_CpuFuncs@@3UGenBltCpuFuncs@@A 1002d198     gpe:genblt.obj
+ 0002:000051b4       ?g_pPCodeRegisters@@3PAUPCodeRegisters_t@@A 1002d1b4     gpe:genblt.obj
+ 0002:000051b8       ?g_BltClock@@3KA           1002d1b8     gpe:genblt.obj
+ 0002:000051bc       ?g_fUseFastBlt@@3HA        1002d1bc     gpe:FastBlt.obj
+ 0002:000069e0       _exitflag                  1002e9e0     corelib0:cexit.obj
+ 0002:000069e4       __onexitend                1002e9e4     <common>
+ 0002:000069e8       __onexitbegin              1002e9e8     <common>
+ 0002:000069ec       g_pcsExit                  1002e9ec     <common>
+ 0002:000069f0       _pRawDllMain               1002e9f0     <common>
+
+ entry point at        0001:00025d10
+
+ Static symbols
+
+ 0001:00016d94       ?GetAAMaskInfo@@YAXKKK@Z   10017d94 f   gpe:aablt.obj
+ 0001:00016e80       ?InitGamma@@YAXXZ          10017e80 f   gpe:aablt.obj
+ 0001:00017828       ?GetNearestIndex@@YAKK@Z   10018828 f   gpe:rctblt.obj
+ 0001:00019310       ?MDiv64@@YA_J_J00@Z        1001a310 f   gpe:rdrvgradfill.obj
+ 0001:0001b064       ?RectFillBlt@@YAHPAU_SURFOBJ@@PAU_DRVGRADIENTRECTDATA@@P6AXPAVGPESurf@@1@Z@Z 1001c064 f   gpe:rdrvgradfill.obj
+ 0001:0001b258       ?GFGetShift@@YAXKPAK0@Z    1001c258 f   gpe:rdrvgradfill.obj
+ 0001:00024b44       ?EmulatedBltAlphaText16Venus@@YAJPAUGPEBltParms@@@Z 10025b44 f   gpe:ebalph16.obj
+ 0001:00025c20       _DllMainCRTStartupHelper   10026c20 f   corelib0:pegdmain.obj
+ 0001:00025d3c       doexit                     10026d3c f   corelib0:cexit.obj
+ 0001:00025ff8       ??__EgGroupConverter@@YAXXZ 10026ff8 f   gpe:swconvrt.obj

@@ -1,0 +1,114 @@
+//
+// Copyright (c) Microsoft Corporation.  All rights reserved.
+//
+//
+// Use of this sample source code is subject to the terms of the Microsoft
+// license agreement under which you licensed this sample source code. If
+// you did not accept the terms of the license agreement, you are not
+// authorized to use this sample source code. For the terms of the license,
+// please see the license agreement between you and Microsoft or, if applicable,
+// see the LICENSE.RTF on your install media or the root of your tools installation.
+// THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+//
+
+// project.reg translations
+
+// Localize these Special Folders name. Ensure it is in sync with the same strings in Explorer.exe
+
+#define LOC_RECYCLEBINDISPLAY       "ごみ箱"
+#define LOC_MYCOMPUTERDISPLAY       "マイ コンピュータ"
+#define LOC_DATABASEDISPLAY         "データベース"
+
+// Registry entry with the file name for the deafult page. Used by PIE when started. Must be consistent with the LOC_STARTPAGEFILE entry in Project.bib section
+
+#define LOC_STARTPAGE       "file:///windows/default.htm"
+
+// Registry entries for the search pages. If a localized search page exist, change it. If not, leave it in English
+
+#define LOC_SEARCHPAGE      "http://home.microsoft.com/intl/ja/access/allinone.asp"
+#define LOC_SEARCHURL       "http://home.microsoft.com/access/autosearch.asp?p=%s"
+
+// Registry entries for Applications type
+
+#define LOC_APPLICATION             "アプリケーション"
+#define LOC_HTMLDOCUMENT            "HTML ドキュメント"
+#define LOC_GIFIMAGE                "GIF イメージ"
+#define LOC_BMPIMAGE                "ビットマップ イメージ"
+#define LOC_JPEGIMAGE               "JPEG イメージ"
+#define LOC_URLLOCATION             "URL ロケーション"
+#define LOC_HELPFILE                "ヘルプ ファイル"
+#define LOC_DLLFILE                 "ダイナミック リンク ライブラリ"
+#define LOC_TTFFILE                 "TrueType フォント ファイル"
+#define LOC_CPLFILE                 "コントロール パネル"
+#define LOC_WAVFILE                 "WAVE サウンド"
+
+// project.dat translations
+
+// Special Folder names. Keep consistent with the same names in the previous section and what follows.
+// Needs to be consistent with Explorer.exe as well, or the build will break
+
+#define LOC_MYDOCUMENTS_DIR         ~"My Documents"
+#define LOC_PROGRAMFILES_DIR        ~"Program Files"
+#define LOC_COMMUNICATION_DIR       ~"通信"
+#define LOC_FAVORITES_DIR           ~"お気に入り"
+#define LOC_DESKTOP_DIR             ~"デスクトップ"
+#define LOC_PROGRAMS_DIR            ~"プログラム"
+#define LOC_RECENT_DIR              ~"最近使ったファイル"
+#define LOC_HELP_DIR                ~"Help"
+
+// Links used on the desktop and Start Menu
+
+#define LOC_CONTROLPANEL_LNK        ~"コントロール パネル.lnk"
+#define LOC_WINDOWSEXPLORER_LNK     ~"エクスプローラ.lnk"
+#define LOC_INTERNETEXPLORER_LNK    ~"Internet Explorer.lnk"
+#define LOC_REMOTENETWORKING_LNK    ~"リモート ネットワーク.lnk"
+#define LOC_TERMINAL_LNK            ~"ターミナル.lnk"
+#define LOC_CMD_LNK                 ~"コマンド プロンプト.lnk"
+#define LOC_MSTSC_LNK               ~"リモート デスクトップ接続.lnk"
+#define LOC_SOLITAIRE_LNK           ~"ソリティア.lnk"
+#define LOC_FREECELL_LNK            ~"フリーセル.lnk"
+
+// Links used for Help
+
+#define LOC_HLPLNK_BASICS           "Windows Embedded Compact の基礎知識.lnk"
+#define LOC_HLPLNK_COMMUNICATIONS   "リモート接続.lnk"
+#define LOC_HLPLNK_SETTINGS         "設定.lnk"
+#define LOC_HLPLNK_COPYRIGHT        "著作権情報.lnk"
+#define LOC_HLPLNK_MSTSC            "リモート デスクトップ接続.lnk"
+#define LOC_HLPLNK_SOLTR            "Solitaire.lnk"
+
+// Must be consistent with the Registry entry LOC_STARTPAGE. Used by Pie when started without an address
+
+#define LOC_STARTPAGEFILE           "default.htm"
+
+// Comm CPL
+#define LOC_DESKTOPCONNECT          "`デスクトップ @ 19200`"
+
+// Sounds CPL, scheme name
+#define LOC_ALLSOUNDS               "すべてのサウンド"
+#define LOC_NOSOUNDS                "サウンドなし"
+#define LOC_DEFAULTSOUNDS           "Windows Embedded Compact 既定の設定"
+
+// INTL.CPL Support for an extra locale-specfic currency symbol (e.g. Euro). Set to 0 to disable
+#define LOC_EXTRACURRENCY           ~"20ac"
+
+// Color scheme names
+#define LOC_SCHEME_STANDARD         "Windows スタンダード"
+#define LOC_SCHEME_WHEAT            "ピクニック"
+#define LOC_SCHEME_MARINE           "バカンス"
+#define LOC_SCHEME_ROSE             "ローズ"
+#define LOC_SCHEME_BRICK            "ワインレッド"
+#define LOC_SCHEME_DESERT           "アースカラー"
+#define LOC_SCHEME_EGGPLANT         "モダンパープル"
+#define LOC_SCHEME_HCBLACK          "ハイ コントラスト 黒"
+#define LOC_SCHEME_HCWHITE          "ハイ コントラスト 白"
+#define LOC_SCHEME_LILAC            "ライラック"
+#define LOC_SCHEME_MAPLE            "メープル"
+#define LOC_SCHEME_SPRUCE           "アイスグリーン"
+#define LOC_SCHEME_STORM            "ミッドナイト"
+
+
+// to prevent build break
+#define LOCALIZED_SPIMNAME          "ShuangPin IM (for Pocket IME)"
+#define LOCALIZED_SSKIMNAME         "ShuangPin IM (for MSPY3)"
+#define LOCALIZED_SSK3DIMNAME       "ShuangPin IM 3D (for MSPY3)"

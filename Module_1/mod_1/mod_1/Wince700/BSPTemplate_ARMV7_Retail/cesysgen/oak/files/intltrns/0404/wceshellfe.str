@@ -1,0 +1,117 @@
+//
+// Copyright (c) Microsoft Corporation.  All rights reserved.
+//
+//
+// Use of this sample source code is subject to the terms of the Microsoft
+// license agreement under which you licensed this sample source code. If
+// you did not accept the terms of the license agreement, you are not
+// authorized to use this sample source code. For the terms of the license,
+// please see the license agreement between you and Microsoft or, if applicable,
+// see the LICENSE.RTF on your install media or the root of your tools installation.
+// THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+//
+
+// project.reg translations
+
+// Localize these Special Folders name. Ensure it is in sync with the same strings in Explorer.exe
+
+#define LOC_RECYCLEBINDISPLAY       "資源回收筒"
+#define LOC_MYCOMPUTERDISPLAY       "我的電腦"
+#define LOC_DATABASEDISPLAY         "資料庫"
+
+// Registry entries for Chinese IMs
+#define    LOCALIZED_SPIMNAME       "拼音輸入"
+#define    LOCALIZED_SSKIMNAME      "拼音輸入"
+#define    LOCALIZED_SSK3DIMNAME    "拼音輸入"
+#define    LOCALIZED_PHONIMNAME     "注音"
+#define    LOCALIZED_CHAJEIIMNAME   "倉頡"
+
+// Registry entry with the file name for the deafult page. Used by PIE when started. Must be consistent with the LOC_STARTPAGEFILE entry in Project.bib section
+
+#define LOC_STARTPAGE       "file:///windows/default.htm"
+
+// Registry entries for the search pages. If a localized search page exist, change it. If not, leave it in English
+
+#define LOC_SEARCHPAGE      "http://www.msn.com/access/allinone.htm"
+#define LOC_SEARCHURL       "http://home.microsoft.com/access/autosearch.asp?p=%s"
+
+// Registry entries for Applications type
+
+#define LOC_APPLICATION             "應用程式"
+#define LOC_HTMLDOCUMENT            "HTML 檔案"
+#define LOC_GIFIMAGE                "GIF 影像"
+#define LOC_BMPIMAGE                "BMP 檔案"
+#define LOC_JPEGIMAGE               "JPEG 影像"
+#define LOC_URLLOCATION             "Internet 捷徑"
+#define LOC_HELPFILE                "說明檔"
+#define LOC_DLLFILE                 "應用程式延伸檔案"
+#define LOC_TTFFILE                 "TrueType 字型檔案"
+#define LOC_CPLFILE                 "控制台延伸檔案"
+#define LOC_WAVFILE                 "Wave 音效檔案"
+
+// project.dat translations
+
+// Special Folder names. Keep consistent with the same names in the previous section and what follows.
+// Needs to be consistent with Explorer.exe as well, or the build will break
+
+#define LOC_MYDOCUMENTS_DIR         ~"My Documents"
+#define LOC_PROGRAMFILES_DIR        ~"Program Files"
+#define LOC_COMMUNICATION_DIR       ~"Communication"
+#define LOC_FAVORITES_DIR           ~"我的最愛"
+#define LOC_DESKTOP_DIR             ~"桌面"
+#define LOC_PROGRAMS_DIR            ~"程式集"
+#define LOC_RECENT_DIR              ~"最近的檔案"
+#define LOC_HELP_DIR                ~"Help"
+
+// Links used on the desktop and Start Menu
+
+#define LOC_CONTROLPANEL_LNK        ~"控制台.lnk"
+#define LOC_WINDOWSEXPLORER_LNK     ~"Windows 檔案總管.lnk"
+#define LOC_INTERNETEXPLORER_LNK    ~"Internet Explorer.lnk"
+#define LOC_REMOTENETWORKING_LNK    ~"遠端網路.lnk"
+#define LOC_TERMINAL_LNK            ~"終端機.lnk"
+#define LOC_CMD_LNK                 ~"指令提示.lnk"
+#define LOC_MSTSC_LNK               ~"遠端桌面連線.lnk"
+#define LOC_SOLITAIRE_LNK           ~"接龍.lnk"
+#define LOC_FREECELL_LNK            ~"新接龍.lnk"
+
+// Links used for Help
+
+#define LOC_HLPLNK_BASICS           "Windows Embedded Compact 基礎.lnk"
+#define LOC_HLPLNK_COMMUNICATIONS   "遠端連線.lnk"
+#define LOC_HLPLNK_SETTINGS         "設定.lnk"
+#define LOC_HLPLNK_COPYRIGHT        "著作權資訊.lnk"
+#define LOC_HLPLNK_MSTSC            "遠端桌面連線.lnk"
+#define LOC_HLPLNK_SOLTR            "Solitaire.lnk"
+
+// Must be consistent with the Registry entry LOC_STARTPAGE. Used by Pie when started without an address
+
+#define LOC_STARTPAGEFILE   "default.htm"
+
+// Comm CPL
+#define LOC_DESKTOPCONNECT          "`桌面 @ 19200`"
+
+// Sounds CPL, scheme name
+#define LOC_ALLSOUNDS               "所有聲音"
+#define LOC_NOSOUNDS                "沒有聲音"
+#define LOC_DEFAULTSOUNDS           "Windows Embedded Compact 預設"
+
+// INTL.CPL Support for an extra locale-specfic currency symbol (e.g. Euro). Set to 0 to disable
+#define LOC_EXTRACURRENCY           ~"20ac"
+
+// Color scheme names
+#define LOC_SCHEME_STANDARD         "Windows 標準配色"
+#define LOC_SCHEME_WHEAT            "小麥色系"
+#define LOC_SCHEME_MARINE           "水手藍色系"
+#define LOC_SCHEME_ROSE             "玫瑰色系"
+#define LOC_SCHEME_BRICK            "紅磚色系"
+#define LOC_SCHEME_DESERT           "沙漠色系"
+#define LOC_SCHEME_EGGPLANT         "茄子色系"
+#define LOC_SCHEME_HCBLACK          "高對比黑色"
+#define LOC_SCHEME_HCWHITE          "高對比白色"
+#define LOC_SCHEME_LILAC            "紫丁香色系"
+#define LOC_SCHEME_MAPLE            "楓葉色系"
+#define LOC_SCHEME_SPRUCE           "藍綠色"
+#define LOC_SCHEME_STORM            "陰雨色系"
+
+

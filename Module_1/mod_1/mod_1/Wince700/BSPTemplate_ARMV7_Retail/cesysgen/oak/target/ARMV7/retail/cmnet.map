@@ -1,0 +1,363 @@
+ CmNet
+
+ Timestamp is 5cafa2ba (Thu Apr 11 13:25:30 2019)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCU                CODE
+ 0001:00000008 00000004H .CRT$XCZ                CODE
+ 0001:0000000c 00000004H .CRT$XIA                CODE
+ 0001:00000010 00000004H .CRT$XIZ                CODE
+ 0001:00000014 00000004H .CRT$XPA                CODE
+ 0001:00000018 00000004H .CRT$XPZ                CODE
+ 0001:0000001c 00000004H .CRT$XTA                CODE
+ 0001:00000020 00000004H .CRT$XTZ                CODE
+ 0001:00000030 00000064H .rdata                  CODE
+ 0001:00000094 00000022H .rdata$debug            CODE
+ 0001:000000b8 000066c8H .text                   CODE
+ 0001:00006780 00000004H .text$yc                CODE
+ 0001:00006784 0000000cH .text$yd                CODE
+ 0001:00006790 00000040H .xdata                  CODE
+ 0001:000067d0 0000003cH .idata$2                CODE
+ 0001:0000680c 00000014H .idata$3                CODE
+ 0001:00006820 000000b4H .idata$4                CODE
+ 0001:000068d4 00000068H .idata$6                CODE
+ 0001:00006940 00000564H .edata                  CODE
+ 0002:00000000 000000b4H .idata$5                DATA
+ 0002:000000b8 00000450H .data                   DATA
+ 0002:00000508 0000004cH .bss                    DATA
+ 0003:00000000 00000630H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000008       __xc_z                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_a                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xi_z                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_a                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xp_z                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_a                     1000101c     corelib0:crt0init.obj
+ 0001:00000020       __xt_z                     10001020     corelib0:crt0init.obj
+ 0001:0000004c       ??_7CmRefCount@@6B@        1000104c     CmClientApi.obj
+ 0001:00000050       ??_7RequirementsVersionHandlerV1@CmClient@@6B@ 10001050     CmClientApi.obj
+ 0001:0000005c       ??_7PreferencesVersionHandlerV1@CmClient@@6B@ 1000105c     CmClientApi.obj
+ 0001:00000068       ??_7SessionMain@CmClient@@6B@ 10001068     CmClientApi.obj
+ 0001:0000006c       ??_C@_1BK@EJPFHFNN@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAC?$AAo?$AAn?$AAn?$AAM?$AAg?$AAr?$AA?$AA@ 1000106c     CmClientApiPriv.obj
+ 0001:00000088       ??_C@_1M@OINGDLMN@?$AAC?$AAM?$AAS?$AA0?$AA?3?$AA?$AA@ 10001088     CmClientMain.obj
+ 0001:000000b8       ??_GCmRefCount@@UAAPAXI@Z  100010b8 f i CmClientApi.obj
+ 0001:000000b8       ??_ECmRefCount@@UAAPAXI@Z  100010b8 f i CmClientApi.obj
+ 0001:000000dc       ??0Config@PolicyConfig@CmClient@@QAA@PAUCM_POLICY_CONFIG_KEY@@KPAUCM_POLICY_CONFIG_DATA@@K@Z 100010dc f i CmClientApi.obj
+ 0001:00000150       CmAcquireConnection        10001150 f   CmClientApi.obj
+ 0001:00000180       CmReleaseConnection        10001180 f   CmClientApi.obj
+ 0001:000001b0       CmGetFirstIpAddr           100011b0 f   CmClientApi.obj
+ 0001:0000021c       CmGetNextIpAddr            1000121c f   CmClientApi.obj
+ 0001:0000026c       CmGetConnectionSelectionResult 1000126c f   CmClientApi.obj
+ 0001:00000274       CmGetConnectionDetailsByHandle 10001274 f   CmClientApi.obj
+ 0001:000002c8       ?psl_call@?$psl_proxy@PAX@ce@@IAAKPAXK@Z 100012c8 f i CmClientApi.obj
+ 0001:00000380       ?_Buynode@?$list@KVallocator@ce@@@ce@@IAAPAU?$_ListNode@K@list_impl@2@PAU342@@Z 10001380 f i CmClientApi.obj
+ 0001:000003cc       ?_Buynode@?$list@UEntry@LastGoodConnectionCache@CmClient@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@UEntry@LastGoodConnectionCache@CmClient@@@list_impl@2@PAU342@@Z 100013cc f i CmClientApi.obj
+ 0001:00000418       ?_Buynode@?$list@PAVSession@CmClient@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@PAVSession@CmClient@@@list_impl@2@PAU342@@Z 10001418 f i CmClientApi.obj
+ 0001:00000464       ?_Buynode@?$list@PAUData@ConnectionConfig@CmClient@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@PAUData@ConnectionConfig@CmClient@@@list_impl@2@PAU342@@Z 10001464 f i CmClientApi.obj
+ 0001:000004b0       ?_Buynode@?$list@PAUConfig@PolicyConfig@CmClient@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@PAUConfig@PolicyConfig@CmClient@@@list_impl@2@PAU342@@Z 100014b0 f i CmClientApi.obj
+ 0001:000004fc       ?_Buynode@?$list@PAUCM_NOTIFICATIONS_LISTENER_HANDLE__@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@PAUCM_NOTIFICATIONS_LISTENER_HANDLE__@@@list_impl@2@PAU342@@Z 100014fc f i CmClientApi.obj
+ 0001:00000548       ?Set@RequirementsVersionHandlerV1@CmClient@@UAA?AW4CM_RESULT@@PBUCM_REQUIREMENTS@@K@Z 10001548 f i CmClientApi.obj
+ 0001:0000066c       ?Get@RequirementsVersionHandlerV1@CmClient@@UBAPBUCM_REQUIREMENTS@@XZ 1000166c f i CmClientApi.obj
+ 0001:00000680       ?Size@RequirementsVersionHandlerV1@CmClient@@UBAKXZ 10001680 f i CmClientApi.obj
+ 0001:00000694       ?Set@PreferencesVersionHandlerV1@CmClient@@UAA?AW4CM_RESULT@@PBUCM_PREFERENCES@@K@Z 10001694 f i CmClientApi.obj
+ 0001:000007ec       ?Get@PreferencesVersionHandlerV1@CmClient@@UBAPBUCM_PREFERENCES@@XZ 100017ec f i CmClientApi.obj
+ 0001:00000800       ?Size@PreferencesVersionHandlerV1@CmClient@@UBAKXZ 10001800 f i CmClientApi.obj
+ 0001:00000814       ?Set@Requirements@CmClient@@QAA?AW4CM_RESULT@@PBUCM_REQUIREMENTS@@K@Z 10001814 f i CmClientApi.obj
+ 0001:000008a4       ?Set@Preferences@CmClient@@QAA?AW4CM_RESULT@@PBUCM_PREFERENCES@@K@Z 100018a4 f i CmClientApi.obj
+ 0001:00000934       CmApiInit                  10001934 f   CmClientApi.obj
+ 0001:00000974       CmApiDeinit                10001974 f   CmClientApi.obj
+ 0001:000009b4       ?erase@?$list@PAVSession@CmClient@@Vallocator@ce@@@ce@@QAA?AV?$iterator@PAVSession@CmClient@@@list_impl@2@V342@@Z 100019b4 f i CmClientApi.obj
+ 0001:00000a10       ?erase@?$list@PAUData@ConnectionConfig@CmClient@@Vallocator@ce@@@ce@@QAA?AV?$iterator@PAUData@ConnectionConfig@CmClient@@@list_impl@2@V342@@Z 10001a10 f i CmClientApi.obj
+ 0001:00000a6c       ?erase@?$list@PAUConfig@PolicyConfig@CmClient@@Vallocator@ce@@@ce@@QAA?AV?$iterator@PAUConfig@PolicyConfig@CmClient@@@list_impl@2@V342@@Z 10001a6c f i CmClientApi.obj
+ 0001:00000ac8       ?get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ 10001ac8 f i CmClientApi.obj
+ 0001:00000b1c       ?erase@?$list@KVallocator@ce@@@ce@@QAA?AV?$iterator@K@list_impl@2@V342@@Z 10001b1c f i CmClientApi.obj
+ 0001:00000b78       ?erase@?$list@KVallocator@ce@@@ce@@QAA?AV?$iterator@K@list_impl@2@V342@0@Z 10001b78 f i CmClientApi.obj
+ 0001:00000bd0       ?erase@?$list@PAUCM_NOTIFICATIONS_LISTENER_HANDLE__@@Vallocator@ce@@@ce@@QAA?AV?$iterator@PAUCM_NOTIFICATIONS_LISTENER_HANDLE__@@@list_impl@2@V342@@Z 10001bd0 f i CmClientApi.obj
+ 0001:00000c2c       ?remove@?$list@KVallocator@ce@@@ce@@QAAXABK@Z 10001c2c f i CmClientApi.obj
+ 0001:00000c84       ??$insert@K@?$list@KVallocator@ce@@@ce@@QAA?AV?$iterator@K@list_impl@1@V231@ABK@Z 10001c84 f i CmClientApi.obj
+ 0001:00000ccc       ??$insert@PAVSession@CmClient@@@?$list@PAVSession@CmClient@@Vallocator@ce@@@ce@@QAA?AV?$iterator@PAVSession@CmClient@@@list_impl@1@V231@ABQAVSession@CmClient@@@Z 10001ccc f i CmClientApi.obj
+ 0001:00000d14       ??$insert@PAUData@ConnectionConfig@CmClient@@@?$list@PAUData@ConnectionConfig@CmClient@@Vallocator@ce@@@ce@@QAA?AV?$iterator@PAUData@ConnectionConfig@CmClient@@@list_impl@1@V231@ABQAUData@ConnectionConfig@CmClient@@@Z 10001d14 f i CmClientApi.obj
+ 0001:00000d5c       ??$insert@PAUConfig@PolicyConfig@CmClient@@@?$list@PAUConfig@PolicyConfig@CmClient@@Vallocator@ce@@@ce@@QAA?AV?$iterator@PAUConfig@PolicyConfig@CmClient@@@list_impl@1@V231@ABQAUConfig@PolicyConfig@CmClient@@@Z 10001d5c f i CmClientApi.obj
+ 0001:00000da4       ??$insert@PAUCM_NOTIFICATIONS_LISTENER_HANDLE__@@@?$list@PAUCM_NOTIFICATIONS_LISTENER_HANDLE__@@Vallocator@ce@@@ce@@QAA?AV?$iterator@PAUCM_NOTIFICATIONS_LISTENER_HANDLE__@@@list_impl@1@V231@ABQAUCM_NOTIFICATIONS_LISTENER_HANDLE__@@@Z 10001da4 f i CmClientApi.obj
+ 0001:00000dec       ?insert@?$list@KVallocator@ce@@@ce@@QAA_NV?$iterator@K@list_impl@2@V?$const_iterator@K@42@1@Z 10001dec f i CmClientApi.obj
+ 0001:00000e64       ?GetNextCandidateConnection@SessionMain@CmClient@@QAA?AW4CM_RESULT@@PAPAUCM_CONNECTION_HANDLE__@@@Z 10001e64 f i CmClientApi.obj
+ 0001:00000f50       ?ClearConnectionIdList@SessionMain@CmClient@@AAAXXZ 10001f50 f i CmClientApi.obj
+ 0001:00000fc0       ?remove@?$list@PAUCM_NOTIFICATIONS_LISTENER_HANDLE__@@Vallocator@ce@@@ce@@QAAXABQAUCM_NOTIFICATIONS_LISTENER_HANDLE__@@@Z 10001fc0 f i CmClientApi.obj
+ 0001:00001018       ??$push_front@K@?$list@KVallocator@ce@@@ce@@QAA_NABK@Z 10002018 f i CmClientApi.obj
+ 0001:00001058       ??0?$list@KVallocator@ce@@@ce@@QAA@ABV01@@Z 10002058 f i CmClientApi.obj
+ 0001:00001098       ??0SessionMain@CmClient@@QAA@PAVConnections@1@PAVLastGoodConnectionCache@1@@Z 10002098 f i CmClientApi.obj
+ 0001:00001128       ?_Buynode@?$list@KV?$reference_allocator@Vallocator@ce@@@details@ce@@@ce@@IAAPAU?$_ListNode@K@list_impl@2@PAU342@@Z 10002128 f i CmClientApi.obj
+ 0001:00001174       ?erase@?$list@KV?$reference_allocator@Vallocator@ce@@@details@ce@@@ce@@QAA?AV?$iterator@K@list_impl@2@V342@@Z 10002174 f i CmClientApi.obj
+ 0001:000011d0       ??$_Swap@Vallocator@ce@@@?$list@KV?$reference_allocator@Vallocator@ce@@@details@ce@@@ce@@IAAXAAV?$list@KVallocator@ce@@@1@@Z 100021d0 f i CmClientApi.obj
+ 0001:00001298       ??$insert@K@?$list@KV?$reference_allocator@Vallocator@ce@@@details@ce@@@ce@@QAA?AV?$iterator@K@list_impl@1@V231@ABK@Z 10002298 f i CmClientApi.obj
+ 0001:000012e0       ?insert@?$list@KV?$reference_allocator@Vallocator@ce@@@details@ce@@@ce@@QAA_NV?$iterator@K@list_impl@2@V?$const_iterator@K@42@1@Z 100022e0 f i CmClientApi.obj
+ 0001:00001358       ?erase@?$list@KV?$reference_allocator@Vallocator@ce@@@details@ce@@@ce@@QAA?AV?$iterator@K@list_impl@2@V342@0@Z 10002358 f i CmClientApi.obj
+ 0001:000013b0       ?Create@Sessions@CmClient@@QAAPAUCM_SESSION_HANDLE__@@XZ 100023b0 f i CmClientApi.obj
+ 0001:00001480       ?Find@Sessions@CmClient@@QAAPAVSession@2@PAUCM_SESSION_HANDLE__@@@Z 10002480 f i CmClientApi.obj
+ 0001:000014ec       ?FindAndRemove@Sessions@CmClient@@QAAPAVSession@2@PAUCM_SESSION_HANDLE__@@@Z 100024ec f i CmClientApi.obj
+ 0001:0000156c       ?Close@Sessions@CmClient@@QAA?AW4CM_RESULT@@PAUCM_SESSION_HANDLE__@@@Z 1000256c f i CmClientApi.obj
+ 0001:000015e4       ?Delete@ConnectionConfig@CmClient@@QAA?AW4CM_RESULT@@PBG@Z 100025e4 f i CmClientApi.obj
+ 0001:00001660       ?Unregister@Notifications@CmClient@@QAA?AW4CM_RESULT@@PAUCM_NOTIFICATIONS_LISTENER_HANDLE__@@@Z 10002660 f i CmClientApi.obj
+ 0001:000016e0       CmCreateSession            100026e0 f   CmClientApi.obj
+ 0001:000016f0       CmCloseSession             100026f0 f   CmClientApi.obj
+ 0001:00001704       CmSetRequirements          10002704 f   CmClientApi.obj
+ 0001:00001778       CmSetPreferences           10002778 f   CmClientApi.obj
+ 0001:000017ec       CmSetPriority              100027ec f   CmClientApi.obj
+ 0001:00001838       CmGetNextCandidateConnection 10002838 f   CmClientApi.obj
+ 0001:0000187c       CmDeleteConnectionConfig   1000287c f   CmClientApi.obj
+ 0001:000018a4       CmUnregisterNotificationsListener 100028a4 f   CmClientApi.obj
+ 0001:000018b8       ?CreateSessionId@SessionMain@CmClient@@QAA?AW4CM_RESULT@@PAK@Z 100028b8 f i CmClientApi.obj
+ 0001:000019b4       ?assign@?$list@KVallocator@ce@@@ce@@QAA_NABV12@@Z 100029b4 f i CmClientApi.obj
+ 0001:00001a48       ?erase@?$list@UEntry@LastGoodConnectionCache@CmClient@@Vallocator@ce@@@ce@@QAA?AV?$iterator@UEntry@LastGoodConnectionCache@CmClient@@@list_impl@2@V342@@Z 10002a48 f i CmClientApi.obj
+ 0001:00001ac4       ??$call@PBGV?$psl_buffer_wrapper@PAUCM_CONNECTION_CONFIG@@@ce@@KPAW4CM_RESULT@@@?$psl_proxy@PAX@ce@@QAAKGPBGV?$psl_buffer_wrapper@PAUCM_CONNECTION_CONFIG@@@1@KPAW4CM_RESULT@@@Z 10002ac4 f i CmClientApi.obj
+ 0001:00001b20       ??$call@PBGV?$psl_buffer_wrapper@PAUCM_CONNECTION_CONFIG@@@ce@@PAKPAW4CM_RESULT@@@?$psl_proxy@PAX@ce@@QAAKGPBGV?$psl_buffer_wrapper@PAUCM_CONNECTION_CONFIG@@@1@PAKPAW4CM_RESULT@@@Z 10002b20 f i CmClientApi.obj
+ 0001:00001b7c       ??$call@V?$psl_buffer_wrapper@PAUCM_CONNECTION_NAME_LIST@@@ce@@PAKPAW4CM_RESULT@@@?$psl_proxy@PAX@ce@@QAAKGV?$psl_buffer_wrapper@PAUCM_CONNECTION_NAME_LIST@@@1@PAKPAW4CM_RESULT@@@Z 10002b7c f i CmClientApi.obj
+ 0001:00001bd4       ??$call@PBGV?$psl_buffer_wrapper@PAUCM_CONNECTION_DETAILS@@@ce@@PAKPAW4CM_RESULT@@@?$psl_proxy@PAX@ce@@QAAKGPBGV?$psl_buffer_wrapper@PAUCM_CONNECTION_DETAILS@@@1@PAKPAW4CM_RESULT@@@Z 10002bd4 f i CmClientApi.obj
+ 0001:00001c30       ??$call@PBGKV?$psl_buffer_wrapper@PAX@ce@@PAKPAW4CM_RESULT@@@?$psl_proxy@PAX@ce@@QAAKGPBGKV?$psl_buffer_wrapper@PAX@1@PAKPAW4CM_RESULT@@@Z 10002c30 f i CmClientApi.obj
+ 0001:00001c90       ??$call@W4CM_POLICY_TYPE@@V?$psl_buffer_wrapper@PAUCM_POLICY_CONFIG_KEY@@@ce@@PAKPAW4CM_RESULT@@@?$psl_proxy@PAX@ce@@QAAKGW4CM_POLICY_TYPE@@V?$psl_buffer_wrapper@PAUCM_POLICY_CONFIG_KEY@@@1@PAKPAW4CM_RESULT@@@Z 10002c90 f i CmClientApi.obj
+ 0001:00001cec       ??$call@PAUPSL_HANDLE__@ce@@V?$psl_buffer_wrapper@PAUCM_NOTIFICATION@@@2@PAKPAW4CM_RESULT@@@?$psl_proxy@PAX@ce@@QAAKGPAUPSL_HANDLE__@1@V?$psl_buffer_wrapper@PAUCM_NOTIFICATION@@@1@PAKPAW4CM_RESULT@@@Z 10002cec f i CmClientApi.obj
+ 0001:00001d48       ??0?$psl_message6@PAXV?$psl_buffer_wrapper@PAUCM_POLICY_CONFIG_KEY@@@ce@@KV?$psl_buffer_wrapper@PAUCM_POLICY_CONFIG_DATA@@@2@KV32@K@detail@ce@@QAA@GPAXV?$psl_buffer_wrapper@PAUCM_POLICY_CONFIG_KEY@@@2@KV?$psl_buffer_wrapper@PAUCM_POLICY_CONFIG_DATA@@@2@K2K@Z 10002d48 f i CmClientApi.obj
+ 0001:00001dcc       ??$insert@UEntry@LastGoodConnectionCache@CmClient@@@?$list@UEntry@LastGoodConnectionCache@CmClient@@Vallocator@ce@@@ce@@QAA?AV?$iterator@UEntry@LastGoodConnectionCache@CmClient@@@list_impl@1@V231@ABUEntry@LastGoodConnectionCache@CmClient@@@Z 10002dcc f i CmClientApi.obj
+ 0001:00001e2c       ?Lookup@LastGoodConnectionCache@CmClient@@AAA?AV?$iterator@UEntry@LastGoodConnectionCache@CmClient@@@list_impl@ce@@PBV?$list@KVallocator@ce@@@5@@Z 10002e2c f i CmClientApi.obj
+ 0001:00001f1c       ?RemoveExpiredEntries@LastGoodConnectionCache@CmClient@@AAAKXZ 10002f1c f i CmClientApi.obj
+ 0001:00001f8c       ?ProxyCallSetDataActivityState@SessionMain@CmClient@@QBA?AW4CM_RESULT@@W4CM_DATA_ACTIVITY_STATE@@@Z 10002f8c f i CmClientApi.obj
+ 0001:0000200c       ?SetDataActivityState@SessionMain@CmClient@@QAA?AW4CM_RESULT@@W4CM_DATA_ACTIVITY_STATE@@@Z 1000300c f i CmClientApi.obj
+ 0001:00002080       ?Add@ConnectionConfig@CmClient@@QAA?AW4CM_RESULT@@PBGPAUCM_CONNECTION_CONFIG@@K@Z 10003080 f i CmClientApi.obj
+ 0001:00002108       ?Get@ConnectionConfig@CmClient@@QAA?AW4CM_RESULT@@PBGPAUCM_CONNECTION_CONFIG@@PAK@Z 10003108 f i CmClientApi.obj
+ 0001:00002190       ?GetToUpdate@ConnectionConfig@CmClient@@QAA?AW4CM_RESULT@@PBGPAUCM_CONNECTION_CONFIG@@PAKPAPAUCM_CONFIG_CHANGE_HANDLE__@@@Z 10003190 f i CmClientApi.obj
+ 0001:000022a0       ?Enum@ConnectionConfig@CmClient@@QAA?AW4CM_RESULT@@PAUCM_CONNECTION_NAME_LIST@@PAK@Z 100032a0 f i CmClientApi.obj
+ 0001:000022f8       ?GetDetails@ConnectionConfig@CmClient@@QAA?AW4CM_RESULT@@PBGPAUCM_CONNECTION_DETAILS@@PAK@Z 100032f8 f i CmClientApi.obj
+ 0001:00002358       ?GetTypeSpecificInfo@ConnectionConfig@CmClient@@QAA?AW4CM_RESULT@@PBGKPAXPAK@Z 10003358 f i CmClientApi.obj
+ 0001:000023c0       ?Enum@PolicyConfig@CmClient@@QAA?AW4CM_RESULT@@PAUCM_POLICY_CONFIG_KEY@@PAK@Z 100033c0 f i CmClientApi.obj
+ 0001:00002434       ?Get@Notifications@CmClient@@QAA?AW4CM_RESULT@@PAUCM_NOTIFICATIONS_LISTENER_HANDLE__@@PAUCM_NOTIFICATION@@PAK@Z 10003434 f i CmClientApi.obj
+ 0001:00002494       CmSetDataActivityState     10003494 f   CmClientApi.obj
+ 0001:000024e0       CmAddConnectionConfig      100034e0 f   CmClientApi.obj
+ 0001:0000251c       CmGetConnectionConfig      1000351c f   CmClientApi.obj
+ 0001:00002560       CmGetToUpdateConnectionConfig 10003560 f   CmClientApi.obj
+ 0001:000025c4       CmEnumConnectionsConfig    100035c4 f   CmClientApi.obj
+ 0001:000025f4       CmEnumPolicyConfig         100035f4 f   CmClientApi.obj
+ 0001:00002624       CmGetConnectionDetailsByName 10003624 f   CmClientApi.obj
+ 0001:00002668       CmGetTypeSpecificInfoByConnectionName 10003668 f   CmClientApi.obj
+ 0001:000026cc       CmGetNotification          100036cc f   CmClientApi.obj
+ 0001:000026e8       ??$push_front@UEntry@LastGoodConnectionCache@CmClient@@@?$list@UEntry@LastGoodConnectionCache@CmClient@@Vallocator@ce@@@ce@@QAA_NABUEntry@LastGoodConnectionCache@CmClient@@@Z 100036e8 f i CmClientApi.obj
+ 0001:00002728       ??$call@V?$psl_buffer_wrapper@PAU_GUID@@@ce@@V?$psl_buffer_wrapper@PAUCM_CONNECTION_NAME_LIST@@@2@PAKPAW4CM_RESULT@@@?$psl_proxy@PAX@ce@@QAAKGV?$psl_buffer_wrapper@PAU_GUID@@@1@V?$psl_buffer_wrapper@PAUCM_CONNECTION_NAME_LIST@@@1@PAKPAW4CM_RESULT@@@Z 10003728 f i CmClientApi.obj
+ 0001:00002790       ??$call@V?$psl_buffer_wrapper@PAUCM_POLICY_CONFIG_KEY@@@ce@@KV?$psl_buffer_wrapper@PAUCM_POLICY_CONFIG_DATA@@@2@PAKPAW4CM_RESULT@@@?$psl_proxy@PAX@ce@@QAAKGV?$psl_buffer_wrapper@PAUCM_POLICY_CONFIG_KEY@@@1@KV?$psl_buffer_wrapper@PAUCM_POLICY_CONFIG_DATA@@@1@PAKPAW4CM_RESULT@@@Z 10003790 f i CmClientApi.obj
+ 0001:00002800       ??$call@V?$psl_buffer_wrapper@PAUCM_NOTIFICATIONS_LISTENER_REGISTRATION@@@ce@@KPAPAUPSL_HANDLE__@2@PAW4CM_RESULT@@@?$psl_proxy@PAX@ce@@QAAKGV?$psl_buffer_wrapper@PAUCM_NOTIFICATIONS_LISTENER_REGISTRATION@@@1@KPAPAUPSL_HANDLE__@1@PAW4CM_RESULT@@@Z 10003800 f i CmClientApi.obj
+ 0001:00002860       ??0?$psl_message7@PAXV?$psl_buffer_wrapper@PAUCM_POLICY_CONFIG_KEY@@@ce@@KV?$psl_buffer_wrapper@PAUCM_POLICY_CONFIG_DATA@@@2@KV32@KPAW4CM_RESULT@@@detail@ce@@QAA@GPAXV?$psl_buffer_wrapper@PAUCM_POLICY_CONFIG_KEY@@@2@KV?$psl_buffer_wrapper@PAUCM_POLICY_CONFIG_DATA@@@2@K2KPAW4CM_RESULT@@@Z 10003860 f i CmClientApi.obj
+ 0001:000028cc       ??0?$psl_message6@PAXV?$psl_buffer_wrapper@PAE@ce@@KV12@KPBGV?$psl_buffer_wrapper@PAK@2@@detail@ce@@QAA@GPAXV?$psl_buffer_wrapper@PAE@2@K1KPBGV?$psl_buffer_wrapper@PAK@2@@Z 100038cc f i CmClientApi.obj
+ 0001:00002950       ?Insert@LastGoodConnectionCache@CmClient@@QAA_NPBV?$list@KVallocator@ce@@@ce@@K@Z 10003950 f i CmClientApi.obj
+ 0001:00002adc       ?LookupAndReorder@LastGoodConnectionCache@CmClient@@QAA_NPAV?$list@KVallocator@ce@@@ce@@@Z 10003adc f i CmClientApi.obj
+ 0001:00002b90       ??1SessionMain@CmClient@@EAA@XZ 10003b90 f i CmClientApi.obj
+ 0001:00002ca8       ??_GSessionMain@CmClient@@EAAPAXI@Z 10003ca8 f i CmClientApi.obj
+ 0001:00002ca8       ??_ESessionMain@CmClient@@EAAPAXI@Z 10003ca8 f i CmClientApi.obj
+ 0001:00002ccc       ?EnumByType@ConnectionConfig@CmClient@@QAA?AW4CM_RESULT@@PAU_GUID@@PAUCM_CONNECTION_NAME_LIST@@PAK@Z 10003ccc f i CmClientApi.obj
+ 0001:00002d50       ?Get@PolicyConfig@CmClient@@QAA?AW4CM_RESULT@@PAUCM_POLICY_CONFIG_KEY@@KPAUCM_POLICY_CONFIG_DATA@@PAK@Z 10003d50 f i CmClientApi.obj
+ 0001:00002dfc       ?GetToUpdate@PolicyConfig@CmClient@@QAA?AW4CM_RESULT@@PAUCM_POLICY_CONFIG_KEY@@KPAUCM_POLICY_CONFIG_DATA@@PAKPAPAUCM_CONFIG_CHANGE_HANDLE__@@@Z 10003dfc f i CmClientApi.obj
+ 0001:00002f1c       ?Register@Notifications@CmClient@@QAA?AW4CM_RESULT@@PAUCM_NOTIFICATIONS_LISTENER_REGISTRATION@@KPAPAUCM_NOTIFICATIONS_LISTENER_HANDLE__@@@Z 10003f1c f i CmClientApi.obj
+ 0001:0000306c       CmEnumConnectionsConfigByType 1000406c f   CmClientApi.obj
+ 0001:00003108       CmGetPolicyConfig          10004108 f   CmClientApi.obj
+ 0001:00003160       CmGetToUpdatePolicyConfig  10004160 f   CmClientApi.obj
+ 0001:000031c8       CmRegisterNotificationsListener 100041c8 f   CmClientApi.obj
+ 0001:000031e4       ??$call@V?$psl_buffer_wrapper@PAUCM_POLICY_CONFIG_KEY@@@ce@@KV?$psl_buffer_wrapper@PAUCM_POLICY_CONFIG_DATA@@@2@KV32@KPAW4CM_RESULT@@@?$psl_proxy@PAX@ce@@QAAKGV?$psl_buffer_wrapper@PAUCM_POLICY_CONFIG_KEY@@@1@KV?$psl_buffer_wrapper@PAUCM_POLICY_CONFIG_DATA@@@1@K1KPAW4CM_RESULT@@@Z 100041e4 f i CmClientApi.obj
+ 0001:00003274       ??0?$psl_message7@PAXV?$psl_buffer_wrapper@PAE@ce@@KV12@KPBGV?$psl_buffer_wrapper@PAK@2@PAK@detail@ce@@QAA@GPAXV?$psl_buffer_wrapper@PAE@2@K1KPBGV?$psl_buffer_wrapper@PAK@2@PAK@Z 10004274 f i CmClientApi.obj
+ 0001:000032e0       ?Update@PolicyConfig@CmClient@@QAA?AW4CM_RESULT@@PAUCM_CONFIG_CHANGE_HANDLE__@@PAUCM_POLICY_CONFIG_DATA@@K@Z 100042e0 f i CmClientApi.obj
+ 0001:00003438       CmUpdatePolicyConfig       10004438 f   CmClientApi.obj
+ 0001:00003474       ??$call@PAGW4CM_CONFIG_OPTION@@V?$psl_buffer_wrapper@PAUCM_CONNECTION_CONFIG@@@ce@@KV23@KPAW4CM_RESULT@@@?$psl_proxy@PAX@ce@@QAAKGPAGW4CM_CONFIG_OPTION@@V?$psl_buffer_wrapper@PAUCM_CONNECTION_CONFIG@@@1@K2KPAW4CM_RESULT@@@Z 10004474 f i CmClientApi.obj
+ 0001:000034f4       ??0?$psl_message8@PAXV?$psl_buffer_wrapper@PAE@ce@@KV12@KPBGV?$psl_buffer_wrapper@PAK@2@PAKPAW4CM_RESULT@@@detail@ce@@QAA@GPAXV?$psl_buffer_wrapper@PAE@2@K1KPBGV?$psl_buffer_wrapper@PAK@2@PAKPAW4CM_RESULT@@@Z 100044f4 f i CmClientApi.obj
+ 0001:0000356c       ?Update@ConnectionConfig@CmClient@@QAA?AW4CM_RESULT@@QAUCM_CONFIG_CHANGE_HANDLE__@@W4CM_CONFIG_OPTION@@PAUCM_CONNECTION_CONFIG@@K@Z 1000456c f i CmClientApi.obj
+ 0001:00003690       CmUpdateConnectionConfig   10004690 f   CmClientApi.obj
+ 0001:000036e0       ??$call@V?$psl_buffer_wrapper@PAE@ce@@KV12@KPBGV?$psl_buffer_wrapper@PAK@2@PAKPAW4CM_RESULT@@@?$psl_proxy@PAX@ce@@QAAKGV?$psl_buffer_wrapper@PAE@1@K0KPBGV?$psl_buffer_wrapper@PAK@1@PAKPAW4CM_RESULT@@@Z 100046e0 f i CmClientApi.obj
+ 0001:0000377c       ?GetFirstCandidateConnection@SessionMain@CmClient@@QAA?AW4CM_RESULT@@PBGW4CM_CONNECTION_SELECTION_OPTION@@PAPAUCM_CONNECTION_HANDLE__@@@Z 1000477c f i CmClientApi.obj
+ 0001:00003a94       CmGetFirstCandidateConnection 10004a94 f   CmClientApi.obj
+ 0001:00003af0       CmIsPolicyAssociatedWithCaller 10004af0 f   CmClientApiPriv.obj
+ 0001:00003af8       ?AreConnectionsSame@Sessions@CmClient@@QAA_NPAUCM_CONNECTION_HANDLE__@@0@Z 10004af8 f i CmClientApiPriv.obj
+ 0001:00003b78       ?Open@CReg@@QAAHPAUHKEY__@@PBGK@Z 10004b78 f i CmClientApiPriv.obj
+ 0001:00003be0       CmIsServiceAvailable       10004be0 f   CmClientApiPriv.obj
+ 0001:00003c50       CmAreConnectionsSame       10004c50 f   CmClientApiPriv.obj
+ 0001:00003c68       CmReevaluateAlwaysConnectedConnections 10004c68 f   CmClientApiPriv.obj
+ 0001:00003cc4       ?CreateReference@Sessions@CmClient@@QAAPAUCM_SESSION_HANDLE__@@PAU3@@Z 10004cc4 f i CmClientApiPriv.obj
+ 0001:00003d70       CmCreateSessionReference   10004d70 f   CmClientApiPriv.obj
+ 0001:00003d84       CmCreateSessionId          10004d84 f   CmClientApiPriv.obj
+ 0001:00003dc4       CmGetDeviceIdFromSessionId 10004dc4 f   CmClientApiPriv.obj
+ 0001:00003e64       CmGetDeviceInfo            10004e64 f   CmClientApiPriv.obj
+ 0001:00003fa4       ?erase@?$list@PAUData@ConnectionConfig@CmClient@@Vallocator@ce@@@ce@@QAA?AV?$iterator@PAUData@ConnectionConfig@CmClient@@@list_impl@2@V342@0@Z 10004fa4 f i CmClientMain.obj
+ 0001:00003ffc       ?erase@?$list@PAUConfig@PolicyConfig@CmClient@@Vallocator@ce@@@ce@@QAA?AV?$iterator@PAUConfig@PolicyConfig@CmClient@@@list_impl@2@V342@0@Z 10004ffc f i CmClientMain.obj
+ 0001:00004054       ?erase@?$list@PAVSession@CmClient@@Vallocator@ce@@@ce@@QAA?AV?$iterator@PAVSession@CmClient@@@list_impl@2@V342@0@Z 10005054 f i CmClientMain.obj
+ 0001:000040ac       ?erase@?$list@PAUCM_NOTIFICATIONS_LISTENER_HANDLE__@@Vallocator@ce@@@ce@@QAA?AV?$iterator@PAUCM_NOTIFICATIONS_LISTENER_HANDLE__@@@list_impl@2@V342@0@Z 100050ac f i CmClientMain.obj
+ 0001:00004104       ?erase@?$list@PAVConnection@CmClient@@Vallocator@ce@@@ce@@QAA?AV?$iterator@PAVConnection@CmClient@@@list_impl@2@V342@@Z 10005104 f i CmClientMain.obj
+ 0001:00004160       ?erase@?$list@PAVConnection@CmClient@@Vallocator@ce@@@ce@@QAA?AV?$iterator@PAVConnection@CmClient@@@list_impl@2@V342@0@Z 10005160 f i CmClientMain.obj
+ 0001:000041b8       ??1ConnectionConfig@CmClient@@QAA@XZ 100051b8 f i CmClientMain.obj
+ 0001:00004250       ??1PolicyConfig@CmClient@@QAA@XZ 10005250 f i CmClientMain.obj
+ 0001:000042f8       ??1Notifications@CmClient@@QAA@XZ 100052f8 f i CmClientMain.obj
+ 0001:0000438c       ?erase@?$list@UEntry@LastGoodConnectionCache@CmClient@@Vallocator@ce@@@ce@@QAA?AV?$iterator@UEntry@LastGoodConnectionCache@CmClient@@@list_impl@2@V342@0@Z 1000538c f i CmClientMain.obj
+ 0001:000043e4       ??1Sessions@CmClient@@QAA@XZ 100053e4 f i CmClientMain.obj
+ 0001:000044b0       ??0Sessions@CmClient@@QAA@XZ 100054b0 f i CmClientMain.obj
+ 0001:00004534       DllMain                    10005534 f   CmClientMain.obj
+ 0001:000047b0       IN6_IS_ADDR_LOOPBACK       100057b0 f i CmClientConnection.obj
+ 0001:00004820       ?IsAddrV6ZeroAddr@@YAHPAUin6_addr@@@Z 10005820 f i CmClientConnection.obj
+ 0001:00004890       ?IsIpv4AddrPairPromising@IpAddresses@CmClient@@AAA_NUin_addr@@0@Z 10005890 f i CmClientConnection.obj
+ 0001:00004908       ?IsIpv6AddrPairPromising@IpAddresses@CmClient@@AAA_NUin6_addr@@0@Z 10005908 f i CmClientConnection.obj
+ 0001:00004a48       ?_MoveForward@?$vector@Usockaddr_storage_xp@@Vallocator@ce@@U?$exponential_growth@$09@3@@ce@@AAAXPAUsockaddr_storage_xp@@0@Z 10005a48 f i CmClientConnection.obj
+ 0001:00004a90       ?_Buynode@?$list@PAVConnection@CmClient@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@PAVConnection@CmClient@@@list_impl@2@PAU342@@Z 10005a90 f i CmClientConnection.obj
+ 0001:00004adc       ?GetNextWorker@IpAddresses@CmClient@@AAA?AW4CM_RESULT@@PAUCM_ADDRESS_PAIR@@PAK@Z 10005adc f i CmClientConnection.obj
+ 0001:00004e9c       ??0Connection@CmClient@@QAA@KHPAVcritical_section@ce@@KPBVSessionMain@1@@Z 10005e9c f   CmClientConnection.obj
+ 0001:00004f14       ?GetNextAddr@Connection@CmClient@@QAA?AW4CM_RESULT@@PAUCM_ADDRESS_PAIR@@PAK@Z 10005f14 f   CmClientConnection.obj
+ 0001:00004f88       ?erase@?$vector@Usockaddr_storage_xp@@Vallocator@ce@@U?$exponential_growth@$09@3@@ce@@QAAPAUsockaddr_storage_xp@@PAU3@0@Z 10005f88 f i CmClientConnection.obj
+ 0001:00004ff0       ?erase@?$vector@Usockaddr_storage_xp@@V?$reference_allocator@Vallocator@ce@@@details@ce@@U?$exponential_growth@$09@4@@ce@@QAAPAUsockaddr_storage_xp@@PAU3@0@Z 10005ff0 f i CmClientConnection.obj
+ 0001:00005058       ??$insert@PAVConnection@CmClient@@@?$list@PAVConnection@CmClient@@Vallocator@ce@@@ce@@QAA?AV?$iterator@PAVConnection@CmClient@@@list_impl@1@V231@ABQAVConnection@CmClient@@@Z 10006058 f i CmClientConnection.obj
+ 0001:000050a0       ?FindHelper@Connections@CmClient@@AAA?AV?$iterator@PAVConnection@CmClient@@@list_impl@ce@@PAUCM_CONNECTION_HANDLE__@@PAPAVConnection@2@@Z 100060a0 f   CmClientConnection.obj
+ 0001:000050e8       ?Find@Connections@CmClient@@QAAPAVConnection@2@PAUCM_CONNECTION_HANDLE__@@@Z 100060e8 f   CmClientConnection.obj
+ 0001:00005130       ?_Insert_dispatch@?$vector@Usockaddr_storage_xp@@Vallocator@ce@@U?$exponential_growth@$09@3@@ce@@AAA_NPAUsockaddr_storage_xp@@IABU3@ABUtrue_type@detail@2@@Z 10006130 f i CmClientConnection.obj
+ 0001:0000535c       ??1IpAddresses@CmClient@@QAA@XZ 1000635c f i CmClientConnection.obj
+ 0001:00005398       ?reserve@?$vector@Usockaddr_storage_xp@@Vallocator@ce@@U?$exponential_growth@$09@3@@ce@@QAA_NI@Z 10006398 f i CmClientConnection.obj
+ 0001:000054b0       ??$call@KV?$psl_buffer_wrapper@PAUCM_CONNECTION_DETAILS@@@ce@@PAKPAW4CM_RESULT@@@?$psl_proxy@PAX@ce@@QAAKGKV?$psl_buffer_wrapper@PAUCM_CONNECTION_DETAILS@@@1@PAKPAW4CM_RESULT@@@Z 100064b0 f i CmClientConnection.obj
+ 0001:0000550c       ?GetDetails@Connection@CmClient@@QAA?AW4CM_RESULT@@PAUCM_CONNECTION_DETAILS@@PAK@Z 1000650c f   CmClientConnection.obj
+ 0001:00005588       ?insert@?$vector@Usockaddr_storage_xp@@Vallocator@ce@@U?$exponential_growth@$09@3@@ce@@QAAPAUsockaddr_storage_xp@@PAU3@ABU3@@Z 10006588 f i CmClientConnection.obj
+ 0001:000055d4       ??1Connection@CmClient@@QAA@XZ 100065d4 f   CmClientConnection.obj
+ 0001:00005614       ?Acquire@Connection@CmClient@@QAA?AW4CM_RESULT@@XZ 10006614 f   CmClientConnection.obj
+ 0001:000056c8       ?Release@Connection@CmClient@@QAA?AW4CM_RESULT@@XZ 100066c8 f   CmClientConnection.obj
+ 0001:000057c4       ?Create@Connections@CmClient@@QAAPAUCM_CONNECTION_HANDLE__@@KHPAVcritical_section@ce@@KPBVSessionMain@2@@Z 100067c4 f   CmClientConnection.obj
+ 0001:00005884       ?Destroy@Connections@CmClient@@QAAXPAUCM_CONNECTION_HANDLE__@@@Z 10006884 f   CmClientConnection.obj
+ 0001:00005900       ??0IpAddresses@CmClient@@QAA@PAUCM_CONNECTION_DETAILS@@K@Z 10006900 f i CmClientConnection.obj
+ 0001:000059f4       ?DoResolveName@IpAddresses@CmClient@@QAA?AW4CM_RESULT@@PBGG@Z 100069f4 f i CmClientConnection.obj
+ 0001:00005bc0       ?GetFirst@IpAddresses@CmClient@@QAA?AW4CM_RESULT@@PBGGGGPAUCM_ADDRESS_PAIR@@PAK@Z 10006bc0 f i CmClientConnection.obj
+ 0001:00005de0       ?GetFirstAddr@Connection@CmClient@@QAA?AW4CM_RESULT@@PBGGGGPAUCM_ADDRESS_PAIR@@PAK@Z 10006de0 f   CmClientConnection.obj
+ 0001:00005f20       ??1Connections@CmClient@@QAA@XZ 10006f20 f   CmClientConnection.obj
+ 0001:00005f9c       InitializeCriticalSection  10006f9c f   coredll:COREDLL.dll
+ 0001:00005fac       DeleteCriticalSection      10006fac f   coredll:COREDLL.dll
+ 0001:00005fbc       EnterCriticalSection       10006fbc f   coredll:COREDLL.dll
+ 0001:00005fcc       LeaveCriticalSection       10006fcc f   coredll:COREDLL.dll
+ 0001:00005fdc       InterlockedDecrement       10006fdc f   coredll:COREDLL.dll
+ 0001:00005fec       StringCchCopyW             10006fec f   coredll:COREDLL.dll
+ 0001:00005ffc       GetLastError               10006ffc f   coredll:COREDLL.dll
+ 0001:0000600c       DeviceIoControl            1000700c f   coredll:COREDLL.dll
+ 0001:0000601c       CloseHandle                1000701c f   coredll:COREDLL.dll
+ 0001:0000602c       InterlockedCompareExchange 1000702c f   coredll:COREDLL.dll
+ 0001:0000603c       CreateFileW                1000703c f   coredll:COREDLL.dll
+ 0001:0000604c       GetTickCount               1000704c f   coredll:COREDLL.dll
+ 0001:0000605c       InterlockedIncrement       1000705c f   coredll:COREDLL.dll
+ 0001:0000606c       LocalFree                  1000706c f   coredll:COREDLL.dll
+ 0001:0000607c       RegCloseKey                1000707c f   coredll:COREDLL.dll
+ 0001:0000608c       RegOpenKeyExW              1000708c f   coredll:COREDLL.dll
+ 0001:0000609c       DisableThreadLibraryCalls  1000709c f   coredll:COREDLL.dll
+ 0001:000060ac       MultiByteToWideChar        100070ac f   coredll:COREDLL.dll
+ 0001:000060bc       WideCharToMultiByte        100070bc f   coredll:COREDLL.dll
+ 0001:000060cc       ntohl                      100070cc f   ws2:WS2.dll
+ 0001:000060dc       getaddrinfo                100070dc f   ws2:WS2.dll
+ 0001:000060ec       WSAStringToAddressW        100070ec f   ws2:WS2.dll
+ 0001:000060fc       htons                      100070fc f   ws2:WS2.dll
+ 0001:0000610c       GetAdapterIndex            1000710c f   iphlpapi:iphlpapi.dll
+ 0001:00006214       _DllMainCRTStartup         10007214 f   corelib0:pegdmain.obj
+ 0001:00006248       _onexit                    10007248 f   corelib0:onexit.obj
+ 0001:000063cc       atexit                     100073cc f   corelib0:onexit.obj
+ 0001:000063e4       __GSHandlerCheckCommon     100073e4 f   corelib0:gshandler.obj
+ 0001:00006420       __GSHandlerCheck           10007420 f   corelib0:gshandler.obj
+ 0001:00006440       __security_init_cookie     10007440 f   corelib0:seccinit.obj
+ 0001:0000648c       __security_check_cookie    1000748c f   corelib0:armsecgs.obj
+ 0001:0000649c       __gsfailure                1000749c     corelib0:armsecgs.obj
+ 0001:000065c8       _cexit                     100075c8 f   corelib0:cexit.obj
+ 0001:000065d8       _initterm                  100075d8 f   corelib0:crt0dat.obj
+ 0001:00006604       _cinit                     10007604 f   corelib0:crt0dat.obj
+ 0001:00006664       __crt_ExitProcess          10007664 f   corelib0:exitproc_proxy.obj
+ 0001:00006670       ??2@YAPAXI@Z               10007670 f   corelib1:COREDLL.dll
+ 0001:00006680       ??3@YAXPAX@Z               10007680 f   corelib1:COREDLL.dll
+ 0001:00006690       ??_U@YAPAXI@Z              10007690 f   corelib1:COREDLL.dll
+ 0001:000066a0       memcpy                     100076a0 f   corelib1:COREDLL.dll
+ 0001:000066b0       ??_V@YAXPAX@Z              100076b0 f   corelib1:COREDLL.dll
+ 0001:000066c0       memcmp                     100076c0 f   corelib1:COREDLL.dll
+ 0001:000066d0       memset                     100076d0 f   corelib1:COREDLL.dll
+ 0001:000066e0       _XcptFilter                100076e0 f   corelib1:COREDLL.dll
+ 0001:000066f0       __C_specific_handler       100076f0 f   corelib1:COREDLL.dll
+ 0001:00006700       free                       10007700 f   corelib1:COREDLL.dll
+ 0001:00006710       malloc                     10007710 f   corelib1:COREDLL.dll
+ 0001:00006720       realloc                    10007720 f   corelib1:COREDLL.dll
+ 0001:00006730       _msize                     10007730 f   corelib1:COREDLL.dll
+ 0001:00006740       __security_gen_cookie2     10007740 f   corelib1:COREDLL.dll
+ 0001:00006750       __report_gsfailure         10007750 f   corelib1:COREDLL.dll
+ 0001:00006760       InterlockedExchange        10007760 f   coredll:COREDLL.dll
+ 0001:00006770       TerminateProcess           10007770 f   coredll:COREDLL.dll
+ 0001:00006784       ??__Fcs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@YAXXZ 10007784 f i CmClientApi.obj
+ 0001:000067d0       __IMPORT_DESCRIPTOR_COREDLL 100077d0     coredll:COREDLL.dll
+ 0001:000067e4       __IMPORT_DESCRIPTOR_WS2    100077e4     ws2:WS2.dll
+ 0001:000067f8       __IMPORT_DESCRIPTOR_iphlpapi 100077f8     iphlpapi:iphlpapi.dll
+ 0001:0000680c       __NULL_IMPORT_DESCRIPTOR   1000780c     coredll:COREDLL.dll
+ 0002:00000000       __imp_InitializeCriticalSection 10008000     coredll:COREDLL.dll
+ 0002:00000004       __imp_DeleteCriticalSection 10008004     coredll:COREDLL.dll
+ 0002:00000008       __imp_EnterCriticalSection 10008008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_LeaveCriticalSection 1000800c     coredll:COREDLL.dll
+ 0002:00000010       __imp_InterlockedDecrement 10008010     coredll:COREDLL.dll
+ 0002:00000014       __imp_StringCchCopyW       10008014     coredll:COREDLL.dll
+ 0002:00000018       __imp_GetLastError         10008018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_DeviceIoControl      1000801c     coredll:COREDLL.dll
+ 0002:00000020       __imp_CloseHandle          10008020     coredll:COREDLL.dll
+ 0002:00000024       __imp_InterlockedCompareExchange 10008024     coredll:COREDLL.dll
+ 0002:00000028       __imp_CreateFileW          10008028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_GetTickCount         1000802c     coredll:COREDLL.dll
+ 0002:00000030       __imp_InterlockedIncrement 10008030     coredll:COREDLL.dll
+ 0002:00000034       __imp_LocalFree            10008034     coredll:COREDLL.dll
+ 0002:00000038       __imp_RegCloseKey          10008038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_RegOpenKeyExW        1000803c     coredll:COREDLL.dll
+ 0002:00000040       __imp_DisableThreadLibraryCalls 10008040     coredll:COREDLL.dll
+ 0002:00000044       __imp_MultiByteToWideChar  10008044     coredll:COREDLL.dll
+ 0002:00000048       __imp_WideCharToMultiByte  10008048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_InterlockedExchange  1000804c     coredll:COREDLL.dll
+ 0002:00000050       __imp___report_gsfailure   10008050     corelib1:COREDLL.dll
+ 0002:00000054       __imp___security_gen_cookie2 10008054     corelib1:COREDLL.dll
+ 0002:00000058       __imp_TerminateProcess     10008058     coredll:COREDLL.dll
+ 0002:0000005c       __imp__msize               1000805c     corelib1:COREDLL.dll
+ 0002:00000060       __imp_realloc              10008060     corelib1:COREDLL.dll
+ 0002:00000064       __imp_malloc               10008064     corelib1:COREDLL.dll
+ 0002:00000068       __imp_??2@YAPAXI@Z         10008068     corelib1:COREDLL.dll
+ 0002:0000006c       __imp_??3@YAXPAX@Z         1000806c     corelib1:COREDLL.dll
+ 0002:00000070       __imp_??_U@YAPAXI@Z        10008070     corelib1:COREDLL.dll
+ 0002:00000074       __imp_memcpy               10008074     corelib1:COREDLL.dll
+ 0002:00000078       __imp_??_V@YAXPAX@Z        10008078     corelib1:COREDLL.dll
+ 0002:0000007c       __imp_memcmp               1000807c     corelib1:COREDLL.dll
+ 0002:00000080       __imp_memset               10008080     corelib1:COREDLL.dll
+ 0002:00000084       __imp___rt_udiv            10008084     corelib1:COREDLL.dll
+ 0002:00000088       __imp__XcptFilter          10008088     corelib1:COREDLL.dll
+ 0002:0000008c       __imp___C_specific_handler 1000808c     corelib1:COREDLL.dll
+ 0002:00000090       __imp_free                 10008090     corelib1:COREDLL.dll
+ 0002:00000094       \177COREDLL_NULL_THUNK_DATA 10008094     coredll:COREDLL.dll
+ 0002:00000098       __imp_ntohl                10008098     ws2:WS2.dll
+ 0002:0000009c       __imp_WSAStringToAddressW  1000809c     ws2:WS2.dll
+ 0002:000000a0       __imp_getaddrinfo          100080a0     ws2:WS2.dll
+ 0002:000000a4       __imp_htons                100080a4     ws2:WS2.dll
+ 0002:000000a8       \177WS2_NULL_THUNK_DATA    100080a8     ws2:WS2.dll
+ 0002:000000ac       __imp_GetAdapterIndex      100080ac     iphlpapi:iphlpapi.dll
+ 0002:000000b0       \177iphlpapi_NULL_THUNK_DATA 100080b0     iphlpapi:iphlpapi.dll
+ 0002:000000b8       ?dpCurSettings@@3U_DBGPARAM@@A 100080b8     CmClientMain.obj
+ 0002:000004fc       ?s_ConnectionCount@Connection@CmClient@@0KA 100084fc     CmClientConnection.obj
+ 0002:00000500       __security_cookie          10008500     corelib0:seccinit.obj
+ 0002:00000504       __security_cookie_complement 10008504     corelib0:seccinit.obj
+ 0002:00000508       ??_B?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@51 10008508     CmClientApi.obj
+ 0002:0000050c       ?cs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@3@XZ@4V43@A 1000850c     CmClientApi.obj
+ 0002:00000520       ?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A 10008520     CmClientApi.obj
+ 0002:00000524       ?g_pPolicyConfig@@3PAVPolicyConfig@CmClient@@A 10008524     CmClientMain.obj
+ 0002:00000528       ?g_pNotifications@@3PAVNotifications@CmClient@@A 10008528     CmClientMain.obj
+ 0002:0000052c       ?g_pSerialize@@3PAVcritical_section@ce@@A 1000852c     CmClientMain.obj
+ 0002:00000530       ?g_pProxy@@3PAV?$psl_proxy@PAX@ce@@A 10008530     CmClientMain.obj
+ 0002:00000534       ?g_cInitCount@@3KA         10008534     CmClientMain.obj
+ 0002:00000538       ?g_pSessions@@3PAVSessions@CmClient@@A 10008538     CmClientMain.obj
+ 0002:0000053c       ?g_pConnectionConfig@@3PAVConnectionConfig@CmClient@@A 1000853c     CmClientMain.obj
+ 0002:00000540       _exitflag                  10008540     corelib0:cexit.obj
+ 0002:00000544       __onexitend                10008544     <common>
+ 0002:00000548       __onexitbegin              10008548     <common>
+ 0002:0000054c       g_pcsExit                  1000854c     <common>
+ 0002:00000550       _pRawDllMain               10008550     <common>
+
+ entry point at        0001:00006214
+
+ Static symbols
+
+ 0001:00006124       _DllMainCRTStartupHelper   10007124 f   corelib0:pegdmain.obj
+ 0001:000064e0       doexit                     100074e0 f   corelib0:cexit.obj
+ 0001:00006780       ??__E?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A@@YAXXZ 10007780 f   CmClientApi.obj

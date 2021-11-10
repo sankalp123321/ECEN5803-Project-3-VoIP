@@ -1,0 +1,343 @@
+ TaskSchedulerV1
+
+ Timestamp is 5ac660a9 (Thu Apr 05 10:45:13 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 00000886H .rdata                  CODE
+ 0001:000008a8 0000002cH .rdata$debug            CODE
+ 0001:000008d4 00004fccH .text                   CODE
+ 0001:000058a0 00000064H .xdata                  CODE
+ 0001:00005904 0000003cH .idata$2                CODE
+ 0001:00005940 00000014H .idata$3                CODE
+ 0001:00005954 00000138H .idata$4                CODE
+ 0001:00005a8c 000000ecH .idata$6                CODE
+ 0001:00005b80 00000191H .edata                  CODE
+ 0002:00000000 00000138H .idata$5                DATA
+ 0002:00000138 00000298H .data                   DATA
+ 0002:000003d0 00000014H .bss                    DATA
+ 0003:00000000 00000188H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:00000054       ??_C@_1CA@HAFLIPND@?$AA?$CD?$AAT?$AAa?$AAs?$AAk?$AAS?$AAc?$AAh?$AAe?$AAd?$AAu?$AAl?$AAe?$AAr?$AA?$CD?$AA?$AA@ 10001054     schedule.obj
+ 0001:00000074       ??_C@_1CE@DCGLGILF@?$AAC?$AAr?$AAe?$AAa?$AAt?$AAi?$AAn?$AAg?$AA?5?$AAs?$AAc?$AAh?$AAe?$AAd?$AAu?$AAl?$AAe?$AA?$AA@ 10001074     schedule.obj
+ 0001:00000098       ??_C@_1CE@KCDEFKND@?$AAU?$AAp?$AAd?$AAa?$AAt?$AAi?$AAn?$AAg?$AA?5?$AAs?$AAc?$AAh?$AAe?$AAd?$AAu?$AAl?$AAe?$AA?$AA@ 10001098     schedule.obj
+ 0001:00000160       ??_C@_1FE@GHMOFFBD@?$AAF?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AAl?$AAo?$AAa?$AAd?$AAi?$AAn?$AAg?$AA?5?$AAl?$AAi?$AAb?$AAr?$AAa?$AAr?$AAy?$AA?5?$AA?9?$AA?5?$AA?$CC?$AA?$CF?$AAs?$AA?$CC?$AA?0?$AA?5?$AAh@ 10001160     scheduleutil.obj
+ 0001:000001b8       ??_C@_1FO@OBCEKKCI@?$AAF?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AAf?$AAi?$AAn?$AAd?$AAi?$AAn?$AAg?$AA?5?$AAp?$AAr?$AAo?$AAc?$AA?5?$AAa?$AAd?$AAd?$AAr?$AAe?$AAs?$AAs?$AA?5?$AA?9?$AA?5?$AA?$CC?$AA?$CF@ 100011b8     scheduleutil.obj
+ 0001:00000218       ??_C@_1EI@FPKCJMPC@?$AAF?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AAe?$AAx?$AAe?$AAc?$AAu?$AAt?$AAi?$AAn?$AAg?$AA?5?$AA?9?$AA?5?$AA?$CC?$AA?$CF?$AAs?$AA?$CC?$AA?0?$AA?5?$AAh?$AAr?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AA8@ 10001218     scheduleutil.obj
+ 0001:00000260       ??_C@_1BO@NKOPFHGK@?$AAE?$AAx?$AAe?$AAc?$AAu?$AAt?$AAi?$AAn?$AAg?$AA?5?$AA?9?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 10001260     scheduleutil.obj
+ 0001:00000280       __real@40e1d1c000000000    10001280     scheduleutil.obj
+ 0001:00000288       __real@4096800000000000    10001288     scheduleutil.obj
+ 0001:00000290       __real@0000000000000000    10001290     scheduleutil.obj
+ 0001:00000298       ??_C@_1HC@NEABOPHF@?$AAN?$AAe?$AAx?$AAt?$AA?5?$AAS?$AAc?$AAh?$AAe?$AAd?$AAu?$AAl?$AAe?$AA?5?$AAr?$AAu?$AAn?$AA?5?$AAf?$AAo?$AAr?$AA?5?$AA?$CF?$AAs?$AA?5?$AA?9?$AA?5?$AA?$CC?$AA?$CF?$AAs?$AA?$CC?$AA?5@ 10001298     scheduleutil.obj
+ 0001:0000030c       ??_C@_1BO@IAEJKPK@?$AA?$CF?$AAs?$AA?5?$AA?$CF?$AAs?$AA?5?$AA?$CF?$AAs?$AA?5?$AA?$CF?$AAs?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 1000130c     scheduleutil.obj
+ 0001:0000032c       __real@3f7c71c71c71c71c    1000132c     scheduleutil.obj
+ 0001:00000334       ??_C@_1DI@GKPHJNCA@?$AAD?$AAe?$AAl?$AAe?$AAt?$AAi?$AAn?$AAg?$AA?5?$AAs?$AAc?$AAh?$AAe?$AAd?$AAu?$AAl?$AAe?$AA?5?$AA?9?$AA?5?$AA?$CF?$AAs?$AA?5?$AA?$CC?$AA?$CF?$AAs?$AA?$CC?$AA?$AA@ 10001334     scheduleutil.obj
+ 0001:0000036c       ??_C@_1BO@COHEAKEO@?$AAc?$AAo?$AAu?$AAn?$AAt?$AA?5?$AA?$CF?$AAd?$AA?5?$AAo?$AAf?$AA?5?$AA?$CF?$AAd?$AA?$AA@ 1000136c     scheduleutil.obj
+ 0001:0000038c       ??_C@_1DK@MEBDIFDH@?$AAF?$AAo?$AAu?$AAn?$AAd?$AA?5?$AAb?$AAa?$AAd?$AA?5?$AAs?$AAc?$AAh?$AAe?$AAd?$AAu?$AAl?$AAe?$AA?5?$AA?9?$AA?5?$AA?$CF?$AAs?$AA?5?$AA?$CC?$AA?$CF?$AAs?$AA?$CC?$AA?$AA@ 1000138c     scheduleutil.obj
+ 0001:000003c8       ??_C@_1CM@PJLNEIFG@?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AAp?$AAs?$AAz?$AAF?$AAu?$AAn?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 100013c8     scheduleutil.obj
+ 0001:000003f4       ??_C@_1CA@DFPNAIAN@?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AAc?$AAA?$AAr?$AAg?$AAs?$AA?5?$AA?$CF?$AAd?$AA?$AA@ 100013f4     scheduleutil.obj
+ 0001:00000414       ??_C@_1DC@JCAHCMGF@?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AAp?$AAs?$AAz?$AAC?$AAo?$AAm?$AAm?$AAa?$AAn?$AAd?$AAL?$AAi?$AAn?$AAe?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 10001414     scheduleutil.obj
+ 0001:00000448       ??_C@_1CI@JFEPFPOD@?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AAp?$AAs?$AAz?$AAM?$AAo?$AAd?$AAu?$AAl?$AAe?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 10001448     scheduleutil.obj
+ 0001:00000470       ??_C@_11LOCGONAA@?$AA?$AA@ 10001470     scheduleutil.obj
+ 0001:00000474       ??_C@_1CK@PANIADKL@?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AAA?$AAc?$AAt?$AAi?$AAo?$AAn?$AAT?$AAy?$AAp?$AAe?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 10001474     scheduleutil.obj
+ 0001:000004a0       ??_C@_17DJMMGLBL@?$AAD?$AAl?$AAl?$AA?$AA@ 100014a0     scheduleutil.obj
+ 0001:000004a8       ??_C@_17BACJGEIC@?$AAE?$AAx?$AAe?$AA?$AA@ 100014a8     scheduleutil.obj
+ 0001:000004b0       ??_C@_1BK@NLCOFLHI@?$AA?5?$AA?5?$AA?5?$AA?5?$AA?9?$AA?9?$AA?9?$AAI?$AAd?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 100014b0     scheduleutil.obj
+ 0001:000004cc       ??_C@_1BA@JNCDCOGG@?$AA?$CF?$AAs?$AA?5?$AA?9?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 100014cc     scheduleutil.obj
+ 0001:000004dc       ??_C@_1BO@MGIEHCMN@?$AA?5?$AA?5?$AA?5?$AA?5?$AAR?$AAe?$AAc?$AAu?$AAr?$AA?5?$AA?9?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 100014dc     scheduleutil.obj
+ 0001:000004fc       ??_C@_1DI@CMAOIPOE@?$AA?5?$AA?5?$AA?5?$AA?5?$AAd?$AAw?$AAI?$AAn?$AAt?$AAe?$AAr?$AAv?$AAa?$AAl?$AAD?$AAu?$AAr?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AAd?$AA?$AA@ 100014fc     scheduleutil.obj
+ 0001:00000534       ??_C@_1DO@LAIIODCP@?$AA?5?$AA?5?$AA?5?$AA?5?$AAd?$AAw?$AAI?$AAn?$AAt?$AAe?$AAr?$AAv?$AAa?$AAl?$AAR?$AAe?$AAp?$AAe?$AAa?$AAt?$AAC?$AAo?$AAu?$AAn?$AAt?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AAd?$AA?$AA@ 10001534     scheduleutil.obj
+ 0001:00000578       ??_C@_1EE@NHPENGFM@?$AA?5?$AA?5?$AA?5?$AA?5?$AAS?$AAt?$AAa?$AAr?$AAt?$AA?5?$AA?$CF?$AAd?$AA?1?$AA?$CF?$AAd?$AA?1?$AA?$CF?$AAd?$AA?5?$AA?$CF?$AAd?$AA?3?$AA?$CF?$AA2?$AA?4?$AA2?$AAd?$AA?3?$AA?$CF?$AA2?$AA?4?$AA2@ 10001578     scheduleutil.obj
+ 0001:000005c0       ??_C@_1EA@CFAPDMFA@?$AA?5?$AA?5?$AA?5?$AA?5?$AAE?$AAn?$AAd?$AA?5?$AA?$CF?$AAd?$AA?1?$AA?$CF?$AAd?$AA?1?$AA?$CF?$AAd?$AA?5?$AA?$CF?$AAd?$AA?3?$AA?$CF?$AA2?$AA?4?$AA2?$AAd?$AA?3?$AA?$CF?$AA2?$AA?4?$AA2?$AAd?$AA?$AA@ 100015c0     scheduleutil.obj
+ 0001:00000600       ??_C@_1DE@FCDJFJDE@?$AA?5?$AA?5?$AA?5?$AA?5?$AAf?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AAW?$AAh?$AAe?$AAn?$AAE?$AAx?$AAp?$AAi?$AAr?$AAe?$AAd?$AA?5?$AA?$CF?$AAd?$AA?$AA@ 10001600     scheduleutil.obj
+ 0001:00000634       ??_C@_1CA@GDNHKHGA@?$AA?5?$AA?5?$AA?5?$AA?5?$AAc?$AAA?$AAc?$AAt?$AAi?$AAo?$AAn?$AAs?$AA?5?$AA?$CF?$AAd?$AA?$AA@ 10001634     scheduleutil.obj
+ 0001:00000658       ??_C@_1FG@KEIPMPGB@?$AA?$CK?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AAS?$AAc?$AAh?$AAe?$AAd?$AAu?$AAl?$AAe?$AAs?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5@ 10001658     scheduleutil.obj
+ 0001:000006b0       ??_C@_1FG@IOAPNDFL@?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK@ 100016b0     scheduleutil.obj
+ 0001:00000708       ??_C@_1EE@MNGHAJEL@?$AAF?$AAo?$AAu?$AAn?$AAd?$AA?5?$AAt?$AAa?$AAs?$AAk?$AA?5?$AAt?$AAo?$AA?5?$AAr?$AAu?$AAn?$AA?5?$AAa?$AAt?$AA?5?$AAb?$AAo?$AAo?$AAt?$AA?5?$AA?$CF?$AAs?$AA?5?$AA?9?$AA?5?$AA?$CF@ 10001708     scheduleutil.obj
+ 0001:0000074c       ??_C@_1DM@BFGEFAKN@?$AA?$CD?$AA?$CD?$AA?$CD?$AA?5?$AAR?$AAu?$AAn?$AAn?$AAi?$AAn?$AAg?$AA?5?$AAS?$AAc?$AAh?$AAe?$AAd?$AAu?$AAl?$AAe?$AA?5?$AA?9?$AA?5?$AA?$CF?$AAs?$AA?5?$AA?$CD?$AA?$CD?$AA?$CD?$AA?$AA@ 1000174c     scheduleutil.obj
+ 0001:00000788       ?wszSchedulerKey@@3QBGB    10001788     schedulerlogging.obj
+ 0001:0000085c       ??_C@_1M@BDDAEIGE@?$AA?2?$AAl?$AAo?$AAg?$AAs?$AA?$AA@ 1000185c     schedulerlogging.obj
+ 0001:00000868       ??_C@_15JNBOKNOG@?$AA?$AN?$AA?6?$AA?$AA@ 10001868     schedulerlogging.obj
+ 0001:00000870       ??_C@_1DG@NLEJJOJC@?$AA?$CF?$AAd?$AA?1?$AA?$CF?$AAd?$AA?1?$AA?$CF?$AAd?$AA?5?$AA?9?$AA?5?$AA?$CF?$AAd?$AA?3?$AA?$CF?$AA2?$AA?4?$AA2?$AAd?$AA?3?$AA?$CF?$AA2?$AA?4?$AA2?$AAd?$AA?5?$AA?$AA@ 10001870     schedulerlogging.obj
+ 0001:000008d4       DllMain                    100018d4 f   dll.obj
+ 0001:000008dc       ?CeTaskSchedulerCloseHandle@@YAXPAX@Z 100018dc f   schedule.obj
+ 0001:00000904       ?CeTaskSchedulerFreeSchedule@@YAXPAUtagCETASKSCHEDULE@@@Z 10001904 f   schedule.obj
+ 0001:000009b0       ?CeTaskSchedulerDeleteSchedule@@YAJABU_GUID@@QBG@Z 100019b0 f   schedule.obj
+ 0001:00000ca0       ?_TaskSchedulerFirstSchedule@@YAJABU_GUID@@PAPAX@Z 10001ca0 f   schedule.obj
+ 0001:00000e40       ?_TaskSchedulerNextSchedule@@YAJPAX@Z 10001e40 f   schedule.obj
+ 0001:00001784       ?FindSchedule@@YAJABU_GUID@@QBGPAUCeTaskScheduleEnum@@@Z 10002784 f   schedule.obj
+ 0001:000019f8       ?CeTaskSchedulerCreateSchedule@@YAJPAUtagCETASKSCHEDULE@@@Z 100029f8 f   schedule.obj
+ 0001:000020f0       ?_TaskSchedulerGetInfo@@YAJPAXPAPAUtagCETASKSCHEDULE@@@Z 100030f0 f   schedule.obj
+ 0001:000021d0       ?CeTaskSchedulerFirstSchedule@@YAJPAPAXPAPAUtagCETASKSCHEDULE@@@Z 100031d0 f   schedule.obj
+ 0001:00002338       ?CeTaskSchedulerNextSchedule@@YAJPAXPAPAUtagCETASKSCHEDULE@@@Z 10003338 f   schedule.obj
+ 0001:00002470       ?CeTaskSchedulerGetSchedule@@YAJABU_GUID@@QBGPAPAUtagCETASKSCHEDULE@@@Z 10003470 f   schedule.obj
+ 0001:0000253c       ?_TaskSchedulerGroupCloseHandle@@YAXPAX@Z 1000353c f   schedulergroup.obj
+ 0001:0000255c       ?_TaskSchedulerGroupFirst@@YAJPAPAX@Z 1000355c f   schedulergroup.obj
+ 0001:000026a0       ?_TaskSchedulerGroupNext@@YAJPAX@Z 100036a0 f   schedulergroup.obj
+ 0001:000027c0       ?_TaskSchedulerGetGroupInfo@@YAJPAXPAPAUtagCETASKSCHEDULEGROUP@@@Z 100037c0 f   schedulergroup.obj
+ 0001:0000296c       ?_TaskSchedulerGetGroup@@YAJABU_GUID@@PAPAUtagCETASKSCHEDULEGROUP@@@Z 1000396c f   schedulergroup.obj
+ 0001:000029ec       ?_TaskSchedulerCreateGroup@@YAJPAUtagCETASKSCHEDULEGROUP@@@Z 100039ec f   schedulergroup.obj
+ 0001:00002ba8       ?_TaskSchedulerDeleteGroup@@YAJABU_GUID@@@Z 10003ba8 f   schedulergroup.obj
+ 0001:00002dd4       ?RunActions@@YAJPAUtagCETASKSCHEDULE@@@Z 10003dd4 f   scheduleutil.obj
+ 0001:00002f88       ?OpenGroupDatabase@@YAJPAPAXH@Z 10003f88 f   scheduleutil.obj
+ 0001:000030a0       ?OpenScheduleDatabase@@YAJPAPAXH@Z 100040a0 f   scheduleutil.obj
+ 0001:000031c0       ?FindGroupSchedule@@YAJABU_GUID@@PAHPAK@Z 100041c0 f   scheduleutil.obj
+ 0001:000032e8       ?ScheduleNextRunTime@@YAJPAUtagCETASKSCHEDULE@@PAUCeTaskScheduleEnum@@PAU_SYSTEMTIME@@PAPAX@Z 100042e8 f   scheduleutil.obj
+ 0001:000036c8       ?ExecuteSchedule@@YAHPBG0H@Z 100046c8 f   scheduleutil.obj
+ 0001:00003b0c       ?_TaskSchedulerExecuteSchedule@@YAJPAUtagCETASKSCHEDULE@@HH@Z 10004b0c f   scheduleutil.obj
+ 0001:00003c54       ?_TaskSchedulerUpdateSchedules@@YAJXZ 10004c54 f   scheduleutil.obj
+ 0001:00003fd4       ?_TaskSchedulerVerifySchedules@@YAJXZ 10004fd4 f   scheduleutil.obj
+ 0001:0000442c       ?DumpSchedule@@YAXXZ       1000542c f   scheduleutil.obj
+ 0001:000046c8       ?_TaskSchedulerRunAtBoot@@YAJXZ 100056c8 f   scheduleutil.obj
+ 0001:00004ab0       ?_TaskSchedulerHandleEvent@@YAHPAG@Z 10005ab0 f   scheduleutil.obj
+ 0001:00004c08       ?WriteToFile@@YAXW4SCHEDULERFILE@@PBG@Z 10005c08 f   schedulerlogging.obj
+ 0001:00004e74       ?SchedulerLog@@YAXPBGZZ    10005e74 f   schedulerlogging.obj
+ 0001:00004fd0       ?SchedulerDump@@YAXPBGZZ   10005fd0 f   schedulerlogging.obj
+ 0001:00005040       CreateMutexW               10006040 f   coredll:COREDLL.dll
+ 0001:00005050       WaitForSingleObject        10006050 f   coredll:COREDLL.dll
+ 0001:00005060       ReleaseMutex               10006060 f   coredll:COREDLL.dll
+ 0001:00005070       CloseHandle                10006070 f   coredll:COREDLL.dll
+ 0001:00005080       LocalFree                  10006080 f   coredll:COREDLL.dll
+ 0001:00005090       GetLastError               10006090 f   coredll:COREDLL.dll
+ 0001:000050a0       CeDeleteRecord             100060a0 f   coredll:COREDLL.dll
+ 0001:000050b0       CeClearUserNotification    100060b0 f   coredll:COREDLL.dll
+ 0001:000050c0       CeReadRecordPropsEx        100060c0 f   coredll:COREDLL.dll
+ 0001:000050d0       CeSeekDatabase             100060d0 f   coredll:COREDLL.dll
+ 0001:000050e0       StringCbCopyExW            100060e0 f   coredll:COREDLL.dll
+ 0001:000050f0       LocalAlloc                 100060f0 f   coredll:COREDLL.dll
+ 0001:00005100       StringCchLengthW           10006100 f   coredll:COREDLL.dll
+ 0001:00005110       CeFlushDBVol               10006110 f   coredll:COREDLL.dll
+ 0001:00005120       CeWriteRecordProps         10006120 f   coredll:COREDLL.dll
+ 0001:00005130       SystemTimeToFileTime       10006130 f   coredll:COREDLL.dll
+ 0001:00005140       FileTimeToSystemTime       10006140 f   coredll:COREDLL.dll
+ 0001:00005150       StringCchCopyW             10006150 f   coredll:COREDLL.dll
+ 0001:00005160       FreeLibrary                10006160 f   coredll:COREDLL.dll
+ 0001:00005170       GetProcAddressW            10006170 f   coredll:COREDLL.dll
+ 0001:00005180       LoadLibraryW               10006180 f   coredll:COREDLL.dll
+ 0001:00005190       ShellExecuteEx             10006190 f   coredll:COREDLL.dll
+ 0001:000051a0       CeCreateDatabaseEx         100061a0 f   coredll:COREDLL.dll
+ 0001:000051b0       CeOpenDatabase             100061b0 f   coredll:COREDLL.dll
+ 0001:000051c0       CeSetUserNotificationEx    100061c0 f   coredll:COREDLL.dll
+ 0001:000051d0       FileTimeToLocalFileTime    100061d0 f   coredll:COREDLL.dll
+ 0001:000051e0       StringCbPrintfW            100061e0 f   coredll:COREDLL.dll
+ 0001:000051f0       GetSystemTime              100061f0 f   coredll:COREDLL.dll
+ 0001:00005200       CreateProcessW             10006200 f   coredll:COREDLL.dll
+ 0001:00005210       CeGetUserNotification      10006210 f   coredll:COREDLL.dll
+ 0001:00005220       RegCloseKey                10006220 f   coredll:COREDLL.dll
+ 0001:00005230       RegSetValueExW             10006230 f   coredll:COREDLL.dll
+ 0001:00005240       RegQueryValueExW           10006240 f   coredll:COREDLL.dll
+ 0001:00005250       RegCreateKeyExW            10006250 f   coredll:COREDLL.dll
+ 0001:00005260       StringCchCopyNW            10006260 f   coredll:COREDLL.dll
+ 0001:00005270       SetEndOfFile               10006270 f   coredll:COREDLL.dll
+ 0001:00005280       WriteFile                  10006280 f   coredll:COREDLL.dll
+ 0001:00005290       ReadFile                   10006290 f   coredll:COREDLL.dll
+ 0001:000052a0       SetFilePointer             100062a0 f   coredll:COREDLL.dll
+ 0001:000052b0       GetFileSize                100062b0 f   coredll:COREDLL.dll
+ 0001:000052c0       CreateFileW                100062c0 f   coredll:COREDLL.dll
+ 0001:000052d0       CreateDirectoryW           100062d0 f   coredll:COREDLL.dll
+ 0001:000052e0       StringCchCatW              100062e0 f   coredll:COREDLL.dll
+ 0001:000052f0       SHGetSpecialFolderPath     100062f0 f   coredll:COREDLL.dll
+ 0001:00005300       WideCharToMultiByte        10006300 f   coredll:COREDLL.dll
+ 0001:00005310       StringCchVPrintfW          10006310 f   coredll:COREDLL.dll
+ 0001:00005320       StringCchPrintfExW         10006320 f   coredll:COREDLL.dll
+ 0001:00005330       GetLocalTime               10006330 f   coredll:COREDLL.dll
+ 0001:00005340       StringFromGUID2            10006340 f   ole32:ole32.dll
+ 0001:00005350       CLSIDFromString            10006350 f   ole32:ole32.dll
+ 0001:00005360       VariantClear               10006360 f   oleaut32:OLEAUT32.dll
+ 0001:00005370       SafeArrayUnaccessData      10006370 f   oleaut32:OLEAUT32.dll
+ 0001:00005380       SafeArrayAccessData        10006380 f   oleaut32:OLEAUT32.dll
+ 0001:00005390       SafeArrayCreate            10006390 f   oleaut32:OLEAUT32.dll
+ 0001:000053a0       VariantInit                100063a0 f   oleaut32:OLEAUT32.dll
+ 0001:000053b0       SysAllocString             100063b0 f   oleaut32:OLEAUT32.dll
+ 0001:000053c0       VariantTimeToSystemTime    100063c0 f   oleaut32:OLEAUT32.dll
+ 0001:000053d0       SystemTimeToVariantTime    100063d0 f   oleaut32:OLEAUT32.dll
+ 0001:000054d8       _DllMainCRTStartup         100064d8 f   corelib0:pegdmain.obj
+ 0001:00005504       __GSHandlerCheckCommon     10006504 f   corelib0:gshandler.obj
+ 0001:00005540       __GSHandlerCheck           10006540 f   corelib0:gshandler.obj
+ 0001:00005560       __security_init_cookie     10006560 f   corelib0:seccinit.obj
+ 0001:000055ac       __security_check_cookie    100065ac f   corelib0:armsecgs.obj
+ 0001:000055bc       __gsfailure                100065bc     corelib0:armsecgs.obj
+ 0001:000056e8       _cexit                     100066e8 f   corelib0:cexit.obj
+ 0001:000056f8       _initterm                  100066f8 f   corelib0:crt0dat.obj
+ 0001:00005724       _cinit                     10006724 f   corelib0:crt0dat.obj
+ 0001:00005784       __crt_ExitProcess          10006784 f   corelib0:exitproc_proxy.obj
+ 0001:00005790       ??3@YAXPAX@Z               10006790 f   corelib1:COREDLL.dll
+ 0001:000057a0       wcscmp                     100067a0 f   corelib1:COREDLL.dll
+ 0001:000057b0       ??2@YAPAXI@Z               100067b0 f   corelib1:COREDLL.dll
+ 0001:000057c0       memcpy                     100067c0 f   corelib1:COREDLL.dll
+ 0001:000057d0       memcmp                     100067d0 f   corelib1:COREDLL.dll
+ 0001:000057e0       memset                     100067e0 f   corelib1:COREDLL.dll
+ 0001:000057f0       wcsstr                     100067f0 f   corelib1:COREDLL.dll
+ 0001:00005800       wcsncmp                    10006800 f   corelib1:COREDLL.dll
+ 0001:00005810       strlen                     10006810 f   corelib1:COREDLL.dll
+ 0001:00005820       _XcptFilter                10006820 f   corelib1:COREDLL.dll
+ 0001:00005830       __C_specific_handler       10006830 f   corelib1:COREDLL.dll
+ 0001:00005840       __security_gen_cookie2     10006840 f   corelib1:COREDLL.dll
+ 0001:00005850       __report_gsfailure         10006850 f   corelib1:COREDLL.dll
+ 0001:00005860       free                       10006860 f   corelib1:COREDLL.dll
+ 0001:00005870       DeleteCriticalSection      10006870 f   coredll:COREDLL.dll
+ 0001:00005880       InterlockedExchange        10006880 f   coredll:COREDLL.dll
+ 0001:00005890       TerminateProcess           10006890 f   coredll:COREDLL.dll
+ 0001:00005904       __IMPORT_DESCRIPTOR_COREDLL 10006904     coredll:COREDLL.dll
+ 0001:00005918       __IMPORT_DESCRIPTOR_ole32  10006918     ole32:ole32.dll
+ 0001:0000592c       __IMPORT_DESCRIPTOR_OLEAUT32 1000692c     oleaut32:OLEAUT32.dll
+ 0001:00005940       __NULL_IMPORT_DESCRIPTOR   10006940     coredll:COREDLL.dll
+ 0002:00000000       __imp_CreateMutexW         10007000     coredll:COREDLL.dll
+ 0002:00000004       __imp_WaitForSingleObject  10007004     coredll:COREDLL.dll
+ 0002:00000008       __imp_ReleaseMutex         10007008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_CloseHandle          1000700c     coredll:COREDLL.dll
+ 0002:00000010       __imp_LocalFree            10007010     coredll:COREDLL.dll
+ 0002:00000014       __imp_GetLastError         10007014     coredll:COREDLL.dll
+ 0002:00000018       __imp_CeDeleteRecord       10007018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_CeClearUserNotification 1000701c     coredll:COREDLL.dll
+ 0002:00000020       __imp_CeReadRecordPropsEx  10007020     coredll:COREDLL.dll
+ 0002:00000024       __imp_CeSeekDatabase       10007024     coredll:COREDLL.dll
+ 0002:00000028       __imp_StringCbCopyExW      10007028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_LocalAlloc           1000702c     coredll:COREDLL.dll
+ 0002:00000030       __imp_StringCchLengthW     10007030     coredll:COREDLL.dll
+ 0002:00000034       __imp_CeFlushDBVol         10007034     coredll:COREDLL.dll
+ 0002:00000038       __imp_CeWriteRecordProps   10007038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_SystemTimeToFileTime 1000703c     coredll:COREDLL.dll
+ 0002:00000040       __imp_FileTimeToSystemTime 10007040     coredll:COREDLL.dll
+ 0002:00000044       __imp_StringCchCopyW       10007044     coredll:COREDLL.dll
+ 0002:00000048       __imp_FreeLibrary          10007048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_GetProcAddressW      1000704c     coredll:COREDLL.dll
+ 0002:00000050       __imp_LoadLibraryW         10007050     coredll:COREDLL.dll
+ 0002:00000054       __imp_ShellExecuteEx       10007054     coredll:COREDLL.dll
+ 0002:00000058       __imp_CeCreateDatabaseEx   10007058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_CeOpenDatabase       1000705c     coredll:COREDLL.dll
+ 0002:00000060       __imp_CeSetUserNotificationEx 10007060     coredll:COREDLL.dll
+ 0002:00000064       __imp_FileTimeToLocalFileTime 10007064     coredll:COREDLL.dll
+ 0002:00000068       __imp_StringCbPrintfW      10007068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_GetSystemTime        1000706c     coredll:COREDLL.dll
+ 0002:00000070       __imp_CreateProcessW       10007070     coredll:COREDLL.dll
+ 0002:00000074       __imp_CeGetUserNotification 10007074     coredll:COREDLL.dll
+ 0002:00000078       __imp_RegCloseKey          10007078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_RegSetValueExW       1000707c     coredll:COREDLL.dll
+ 0002:00000080       __imp_RegQueryValueExW     10007080     coredll:COREDLL.dll
+ 0002:00000084       __imp_RegCreateKeyExW      10007084     coredll:COREDLL.dll
+ 0002:00000088       __imp_StringCchCopyNW      10007088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_SetEndOfFile         1000708c     coredll:COREDLL.dll
+ 0002:00000090       __imp_WriteFile            10007090     coredll:COREDLL.dll
+ 0002:00000094       __imp_ReadFile             10007094     coredll:COREDLL.dll
+ 0002:00000098       __imp_SetFilePointer       10007098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_GetFileSize          1000709c     coredll:COREDLL.dll
+ 0002:000000a0       __imp_CreateFileW          100070a0     coredll:COREDLL.dll
+ 0002:000000a4       __imp_CreateDirectoryW     100070a4     coredll:COREDLL.dll
+ 0002:000000a8       __imp_StringCchCatW        100070a8     coredll:COREDLL.dll
+ 0002:000000ac       __imp_SHGetSpecialFolderPath 100070ac     coredll:COREDLL.dll
+ 0002:000000b0       __imp_WideCharToMultiByte  100070b0     coredll:COREDLL.dll
+ 0002:000000b4       __imp_StringCchVPrintfW    100070b4     coredll:COREDLL.dll
+ 0002:000000b8       __imp_StringCchPrintfExW   100070b8     coredll:COREDLL.dll
+ 0002:000000bc       __imp_GetLocalTime         100070bc     coredll:COREDLL.dll
+ 0002:000000c0       __imp_TerminateProcess     100070c0     coredll:COREDLL.dll
+ 0002:000000c4       __imp_InterlockedExchange  100070c4     coredll:COREDLL.dll
+ 0002:000000c8       __imp_DeleteCriticalSection 100070c8     coredll:COREDLL.dll
+ 0002:000000cc       __imp_free                 100070cc     corelib1:COREDLL.dll
+ 0002:000000d0       __imp___report_gsfailure   100070d0     corelib1:COREDLL.dll
+ 0002:000000d4       __imp___security_gen_cookie2 100070d4     corelib1:COREDLL.dll
+ 0002:000000d8       __imp_??3@YAXPAX@Z         100070d8     corelib1:COREDLL.dll
+ 0002:000000dc       __imp_wcscmp               100070dc     corelib1:COREDLL.dll
+ 0002:000000e0       __imp_??2@YAPAXI@Z         100070e0     corelib1:COREDLL.dll
+ 0002:000000e4       __imp_memcpy               100070e4     corelib1:COREDLL.dll
+ 0002:000000e8       __imp_memcmp               100070e8     corelib1:COREDLL.dll
+ 0002:000000ec       __imp_memset               100070ec     corelib1:COREDLL.dll
+ 0002:000000f0       __imp_wcsstr               100070f0     corelib1:COREDLL.dll
+ 0002:000000f4       __imp_wcsncmp              100070f4     corelib1:COREDLL.dll
+ 0002:000000f8       __imp_strlen               100070f8     corelib1:COREDLL.dll
+ 0002:000000fc       __imp__XcptFilter          100070fc     corelib1:COREDLL.dll
+ 0002:00000100       __imp___C_specific_handler 10007100     corelib1:COREDLL.dll
+ 0002:00000104       \177COREDLL_NULL_THUNK_DATA 10007104     coredll:COREDLL.dll
+ 0002:00000108       __imp_SystemTimeToVariantTime 10007108     oleaut32:OLEAUT32.dll
+ 0002:0000010c       __imp_VariantTimeToSystemTime 1000710c     oleaut32:OLEAUT32.dll
+ 0002:00000110       __imp_SysAllocString       10007110     oleaut32:OLEAUT32.dll
+ 0002:00000114       __imp_VariantInit          10007114     oleaut32:OLEAUT32.dll
+ 0002:00000118       __imp_SafeArrayCreate      10007118     oleaut32:OLEAUT32.dll
+ 0002:0000011c       __imp_SafeArrayAccessData  1000711c     oleaut32:OLEAUT32.dll
+ 0002:00000120       __imp_SafeArrayUnaccessData 10007120     oleaut32:OLEAUT32.dll
+ 0002:00000124       __imp_VariantClear         10007124     oleaut32:OLEAUT32.dll
+ 0002:00000128       \177OLEAUT32_NULL_THUNK_DATA 10007128     oleaut32:OLEAUT32.dll
+ 0002:0000012c       __imp_StringFromGUID2      1000712c     ole32:ole32.dll
+ 0002:00000130       __imp_CLSIDFromString      10007130     ole32:ole32.dll
+ 0002:00000134       \177ole32_NULL_THUNK_DATA  10007134     ole32:ole32.dll
+ 0002:00000138       ?c_wszSecureGroupDatabase@@3PAGA 10007138     scheduleutil.obj
+ 0002:00000158       ?c_wszUnsecureGroupDatabase@@3PAGA 10007158     scheduleutil.obj
+ 0002:00000178       ?c_wszSecureDatabase@@3PAGA 10007178     scheduleutil.obj
+ 0002:0000018c       ?c_wszUnsecureDatabase@@3PAGA 1000718c     scheduleutil.obj
+ 0002:000001a0       ?c_wszTskSchProcess@@3PAGA 100071a0     scheduleutil.obj
+ 0002:000001c0       ?c_wszTskSchProcessU@@3PAGA 100071c0     scheduleutil.obj
+ 0002:000003c8       __security_cookie          100073c8     corelib0:seccinit.obj
+ 0002:000003cc       __security_cookie_complement 100073cc     corelib0:seccinit.obj
+ 0002:000003d0       _exitflag                  100073d0     corelib0:cexit.obj
+ 0002:000003d4       __onexitend                100073d4     <common>
+ 0002:000003d8       __onexitbegin              100073d8     <common>
+ 0002:000003dc       g_pcsExit                  100073dc     <common>
+ 0002:000003e0       _pRawDllMain               100073e0     <common>
+
+ entry point at        0001:000054d8
+
+ Static symbols
+
+ 0001:00000f90       ?CreateActionBlob@@YAJKPAUtagCETASKSCHEDULEACTION@@PAPAEPAK@Z 10001f90 f   schedule.obj
+ 0001:000015a8       ?FixPointers@@YAJPAUtagCETASKSCHEDULEACTION@@K@Z 100025a8 f   schedule.obj
+ 0001:00001df0       ?CreateScheduleStruct@@YAJPAU_CEPROPVAL@@GPAPAUtagCETASKSCHEDULE@@@Z 10002df0 f   schedule.obj
+ 0001:000053e8       _DllMainCRTStartupHelper   100063e8 f   corelib0:pegdmain.obj
+ 0001:00005600       doexit                     10006600 f   corelib0:cexit.obj
+
+ Exports
+
+  ordinal    name
+
+        1    ?_TaskSchedulerGroupFirst@@YAJPAPAX@Z (long __cdecl _TaskSchedulerGroupFirst(void * *))
+        2    ?_TaskSchedulerGroupNext@@YAJPAX@Z (long __cdecl _TaskSchedulerGroupNext(void *))
+        3    ?_TaskSchedulerGetGroupInfo@@YAJPAXPAPAUtagCETASKSCHEDULEGROUP@@@Z (long __cdecl _TaskSchedulerGetGroupInfo(void *,struct tagCETASKSCHEDULEGROUP * *))
+        4    ?_TaskSchedulerCreateGroup@@YAJPAUtagCETASKSCHEDULEGROUP@@@Z (long __cdecl _TaskSchedulerCreateGroup(struct tagCETASKSCHEDULEGROUP *))
+        5    ?_TaskSchedulerDeleteGroup@@YAJABU_GUID@@@Z (long __cdecl _TaskSchedulerDeleteGroup(struct _GUID const &))
+        6    ?_TaskSchedulerGroupCloseHandle@@YAXPAX@Z (void __cdecl _TaskSchedulerGroupCloseHandle(void *))
+        7    ?_TaskSchedulerFirstSchedule@@YAJABU_GUID@@PAPAX@Z (long __cdecl _TaskSchedulerFirstSchedule(struct _GUID const &,void * *))
+        8    ?_TaskSchedulerNextSchedule@@YAJPAX@Z (long __cdecl _TaskSchedulerNextSchedule(void *))
+        9    ?_TaskSchedulerGetInfo@@YAJPAXPAPAUtagCETASKSCHEDULE@@@Z (long __cdecl _TaskSchedulerGetInfo(void *,struct tagCETASKSCHEDULE * *))
+       10    ?_TaskSchedulerGetGroup@@YAJABU_GUID@@PAPAUtagCETASKSCHEDULEGROUP@@@Z (long __cdecl _TaskSchedulerGetGroup(struct _GUID const &,struct tagCETASKSCHEDULEGROUP * *))
+       11    ?OpenGroupDatabase@@YAJPAPAXH@Z (long __cdecl OpenGroupDatabase(void * *,int))
+       12    ?FindGroupSchedule@@YAJABU_GUID@@PAHPAK@Z (long __cdecl FindGroupSchedule(struct _GUID const &,int *,unsigned long *))
+       13    ?_TaskSchedulerHandleEvent@@YAHPAG@Z (int __cdecl _TaskSchedulerHandleEvent(unsigned short *))
+       14    ?_TaskSchedulerRunAtBoot@@YAJXZ (long __cdecl _TaskSchedulerRunAtBoot(void))
+       15    ?_TaskSchedulerVerifySchedules@@YAJXZ (long __cdecl _TaskSchedulerVerifySchedules(void))
+       16    ?FindSchedule@@YAJABU_GUID@@QBGPAUCeTaskScheduleEnum@@@Z (long __cdecl FindSchedule(struct _GUID const &,unsigned short const * const,struct CeTaskScheduleEnum *))
+       17    ?OpenScheduleDatabase@@YAJPAPAXH@Z (long __cdecl OpenScheduleDatabase(void * *,int))
+       18    ?_TaskSchedulerExecuteSchedule@@YAJPAUtagCETASKSCHEDULE@@HH@Z (long __cdecl _TaskSchedulerExecuteSchedule(struct tagCETASKSCHEDULE *,int,int))
+       19    ?CeTaskSchedulerCloseHandle@@YAXPAX@Z (void __cdecl CeTaskSchedulerCloseHandle(void *))
+               exported name: CeTaskSchedulerCloseHandle
+       20    ?CeTaskSchedulerCreateSchedule@@YAJPAUtagCETASKSCHEDULE@@@Z (long __cdecl CeTaskSchedulerCreateSchedule(struct tagCETASKSCHEDULE *))
+               exported name: CeTaskSchedulerCreateSchedule
+       21    ?CeTaskSchedulerDeleteSchedule@@YAJABU_GUID@@QBG@Z (long __cdecl CeTaskSchedulerDeleteSchedule(struct _GUID const &,unsigned short const * const))
+               exported name: CeTaskSchedulerDeleteSchedule
+       22    ?CeTaskSchedulerFirstSchedule@@YAJPAPAXPAPAUtagCETASKSCHEDULE@@@Z (long __cdecl CeTaskSchedulerFirstSchedule(void * *,struct tagCETASKSCHEDULE * *))
+               exported name: CeTaskSchedulerFirstSchedule
+       23    ?CeTaskSchedulerFreeSchedule@@YAXPAUtagCETASKSCHEDULE@@@Z (void __cdecl CeTaskSchedulerFreeSchedule(struct tagCETASKSCHEDULE *))
+               exported name: CeTaskSchedulerFreeSchedule
+       24    ?CeTaskSchedulerGetSchedule@@YAJABU_GUID@@QBGPAPAUtagCETASKSCHEDULE@@@Z (long __cdecl CeTaskSchedulerGetSchedule(struct _GUID const &,unsigned short const * const,struct tagCETASKSCHEDULE * *))
+               exported name: CeTaskSchedulerGetSchedule
+       25    ?CeTaskSchedulerNextSchedule@@YAJPAXPAPAUtagCETASKSCHEDULE@@@Z (long __cdecl CeTaskSchedulerNextSchedule(void *,struct tagCETASKSCHEDULE * *))
+               exported name: CeTaskSchedulerNextSchedule

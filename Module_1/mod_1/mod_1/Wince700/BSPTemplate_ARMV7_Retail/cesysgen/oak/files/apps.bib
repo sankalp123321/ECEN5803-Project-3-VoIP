@@ -1,0 +1,185 @@
+;
+; Copyright (c) Microsoft Corporation.  All rights reserved.
+;
+;
+; Use of this sample source code is subject to the terms of the Microsoft
+; license agreement under which you licensed this sample source code. If
+; you did not accept the terms of the license agreement, you are not
+; authorized to use this sample source code. For the terms of the license,
+; please see the license agreement between you and Microsoft or, if applicable,
+; see the LICENSE.RTF on your install media or the root of your tools installation.
+; THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+;
+
+MODULES
+
+
+;  Name            Path                                           Memory Type
+;  --------------  ---------------------------------------------  -----------
+
+; @CESYSGEN IF APPS_MODULES_OUTRES
+    outres.dll      $(_FLATRELEASEDIR)\outres.dll           NK  S
+; @CESYSGEN ENDIF APPS_MODULES_OUTRES
+
+; @CESYSGEN IF APPS_MODULES_CHNGTRK
+   chngtrk.dll     $(_FLATRELEASEDIR)\chngtrk.dll                 NK  S
+; @CESYSGEN ENDIF APPS_MODULES_CHNGTRK
+
+
+; @CESYSGEN IF APPS_MODULES_PIMUTIL
+   pimutil.dll     $(_FLATRELEASEDIR)\pimutil.dll                 NK  S
+; @CESYSGEN ENDIF APPS_MODULES_PIMUTIL
+
+; @CESYSGEN IF APPS_MODULES_CABINSTL
+; @CESYSGEN ENDIF APPS_MODULES_CABINSTL
+
+
+; @CESYSGEN IF APPS_MODULES_SHPTUTIL
+   shptutil.dll    $(_FLATRELEASEDIR)\shptutil.dll                NK  S
+; @CESYSGEN ENDIF APPS_MODULES_SHPTUTIL
+
+
+; @CESYSGEN IF APPS_MODULES_CEMAPI
+   cemapi.dll       $(_FLATRELEASEDIR)\cemapi.dll                   NK  S
+; @CESYSGEN ENDIF APPS_MODULES_CEMAPI
+
+; @CESYSGEN IF APPS_MODULES_MAILCSP2
+   mailcsp2.dll     $(_FLATRELEASEDIR)\mailcsp2.dll                 NK  S
+; @CESYSGEN ENDIF APPS_MODULES_MAILCSP2
+
+; @CESYSGEN IF APPS_MODULES_COREDPUS
+; @CESYSGEN ENDIF APPS_MODULES_COREDPUS
+
+; @CESYSGEN IF APPS_MODULES_MAILTRNS
+   mailtrns.dll     $(_FLATRELEASEDIR)\mailtrns.dll                 NK  S
+; @CESYSGEN ENDIF APPS_MODULES_MAILTRNS
+
+; @CESYSGEN IF APPS_MODULES_PHONTRNS
+; @CESYSGEN ENDIF APPS_MODULES_PHONTRNS
+
+; @CESYSGEN IF APPS_MODULES_PIMSTORE
+   pimstore.dll        $(_FLATRELEASEDIR)\pimstore.dll                  NK  S
+; @CESYSGEN ENDIF APPS_MODULES_PIMSTORE
+
+; @CESYSGEN IF APPS_MODULES_UNISTORE
+   unistore.dll    $(_FLATRELEASEDIR)\unistore.dll                  NK  S
+; @CESYSGEN ENDIF APPS_MODULES_UNISTORE
+
+; @CESYSGEN IF APPS_MODULES_POSYNCSERVICES
+   posyncservices.dll  $(_FLATRELEASEDIR)\posyncservices.dll        NK  S
+; @CESYSGEN ENDIF APPS_MODULES_POSYNCSERVICES
+
+; @CESYSGEN IF APPS_MODULES_SYNCUTIL
+   syncutil.dll    $(_FLATRELEASEDIR)\syncutil.dll                  NK  S
+; @CESYSGEN ENDIF APPS_MODULES_SYNCUTIL
+
+; @CESYSGEN IF APPS_MODULES_SYNCMGR
+   syncmgr.dll     $(_FLATRELEASEDIR)\syncmgr.dll                   NK  S
+; @CESYSGEN ENDIF APPS_MODULES_SYNCMGR
+
+; @CESYSGEN IF APPS_MODULES_RETAILLOG
+   retaillog.dll   $(_FLATRELEASEDIR)\retaillog.dll                 NK  S
+; @CESYSGEN ENDIF APPS_MODULES_RETAILLOG
+
+; @CESYSGEN IF APPS_MODULES_ACTSYNCC
+   actsyncc.dll    $(_FLATRELEASEDIR)\actsyncc.dll                  NK  S
+; @CESYSGEN ENDIF APPS_MODULES_ACTSYNCC
+
+; @CESYSGEN IF APPS_MODULES_SYNCCSP
+   synccsp.dll    $(_FLATRELEASEDIR)\synccsp.dll                   NK  S
+; @CESYSGEN ENDIF APPS_MODULES_SYNCCSP
+
+; @CESYSGEN IF APPS_MODULES_SYNCRES
+#if (defined IMG_SCREEN_SMALL)
+    #if defined IMG_SCREEN_MEDIUM || defined IMG_SCREEN_LARGE
+        #error Two conflicting IMG_SCREEN_??? size settings were found
+    #endif
+#elif (defined IMG_SCREEN_LARGE)
+    #if defined IMG_SCREEN_MEDIUM || defined IMG_SCREEN_SMALL
+        #error Two conflicting IMG_SCREEN_??? size settings were found
+    #endif
+#endif
+#if (defined IMG_SCREEN_SMALL)
+   syncres.dll     $(_FLATRELEASEDIR)\syncres_small.dll            NK  S
+#elif (defined IMG_SCREEN_LARGE)
+   syncres.dll     $(_FLATRELEASEDIR)\syncres_large.dll            NK  S
+#else
+   syncres.dll     $(_FLATRELEASEDIR)\syncres_medium.dll           NK  S
+#endif
+; @CESYSGEN ENDIF APPS_MODULES_SYNCRES
+
+; @CESYSGEN IF APPS_MODULES_SYNCLAP
+   synclap.dll     $(_FLATRELEASEDIR)\synclap.dll                   NK  S
+; @CESYSGEN ENDIF APPS_MODULES_SYNCLAP
+
+; @CESYSGEN IF APPS_MODULES_ARINVALID
+   arinvalid.exe     $(_FLATRELEASEDIR)\arinvalid.exe               NK  S
+; @CESYSGEN ENDIF APPS_MODULES_ARINVALID
+
+; @CESYSGEN IF APPS_MODULES_TASKSCHEDULERV1
+   taskschedulerv1.dll  $(_FLATRELEASEDIR)\taskschedulerv1.dll     NK  S
+; @CESYSGEN ENDIF APPS_MODULES_TASKSCHEDULERV1
+
+; @CESYSGEN IF APPS_MODULES_TSKSCHEDULE
+   tskschedule.exe      $(_FLATRELEASEDIR)\tskschedule.exe         NK  S
+; @CESYSGEN ENDIF APPS_MODULES_TSKSCHEDULE
+
+; @CESYSGEN IF APPS_MODULES_TSKSCHCSP
+   tskschcsp.dll    $(_FLATRELEASEDIR)\tskschcsp.dll       NK  S
+; @CESYSGEN ENDIF APPS_MODULES_TSKSCHCSP
+
+; @CESYSGEN IF APPS_MODULES_CALNOT
+   calnot.exe    $(_FLATRELEASEDIR)\calnot.exe       NK
+; @CESYSGEN ENDIF APPS_MODULES_CALNOT
+
+
+; @CESYSGEN IF APPS_MODULES_WCELOAD1
+; @CESYSGEN ENDIF APPS_MODULES_WCELOAD1
+
+; @CESYSGEN IF APPS_MODULES_WCELOAD1RES_SMR || APPS_MODULES_WCELOAD1RES_MID
+; @CESYSGEN ENDIF APPS_MODULES_WCELOAD1RES_SMR || APPS_MODULES_WCELOAD1RES_MID
+
+; @CESYSGEN IF APPS_MODULES_INSTALLHOST
+; @CESYSGEN ENDIF APPS_MODULES_INSTALLHOST
+
+; @CESYSGEN IF APPS_MODULES_TRUSTREGSERVER
+; @CESYSGEN ENDIF APPS_MODULES_TRUSTREGSERVER
+
+
+; @CESYSGEN IF APPS_MODULES_TMAILUTL
+   tmailutl.dll     $(_FLATRELEASEDIR)\tmailutl.dll                 NK  S
+; @CESYSGEN ENDIF APPS_MODULES_TMAILUTL
+
+; @CESYSGEN IF APPS_MODULES_TMAILUTLPRIV
+   tmailutlpriv.dll     $(_FLATRELEASEDIR)\tmailutlpriv.dll         NK  S
+; @CESYSGEN ENDIF APPS_MODULES_TMAILUTLPRIV
+
+
+; @CESYSGEN IF APPS_MODULES_MSGRES
+    msgres.dll      $(_FLATRELEASEDIR)\msgres.dll                   NK  S
+; @CESYSGEN ENDIF APPS_MODULES_MSGRES
+
+
+; @CESYSGEN IF APPS_MODULES_BTHASPLUGIN
+; @CESYSGEN ENDIF APPS_MODULES_BTHASPLUGIN
+
+
+; @CESYSGEN IF APPS_MODULES_APPINSTALLER
+; @CESYSGEN ENDIF APPS_MODULES_APPINSTALLER
+
+
+; @CESYSGEN IF APPS_MODULES_TSKSCHEDULE
+;  We need this to appear in debug, IMGNOAPP'd builds as well.
+   tskscheduleu.exe     $(_FLATRELEASEDIR)\tskschedule.exe         NK  SCN
+; @CESYSGEN ENDIF APPS_MODULES_TSKSCHEDULE
+
+
+; @CESYSGEN IF APPS_MODULES_CESHUTIL
+   CEshutil.dll      $(_FLATRELEASEDIR)\CEshutil.dll            NK  SH
+; @CESYSGEN ENDIF APPS_MODULES_CESHUTIL
+
+; @CESYSGEN IF APPS_MODULES_CEAYGSHELL
+   CEaygshell.dll      $(_FLATRELEASEDIR)\CEaygshell.dll        NK  SH
+; @CESYSGEN ENDIF APPS_MODULES_CEAYGSHELL
+
+FILES

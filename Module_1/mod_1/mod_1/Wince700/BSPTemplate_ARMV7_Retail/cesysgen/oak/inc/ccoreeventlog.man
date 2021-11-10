@@ -1,0 +1,217 @@
+<!-- <?xml version="1.0" encoding="UTF-16"?> -->
+<instrumentationManifest
+            xmlns="http://schemas.microsoft.com/win/2004/08/events"
+            xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <instrumentation>
+    <events>
+      <!--Publisher Info -->
+      <provider name="Microsoft-WindowsMobile-CellCoreLogPublisher"
+          guid="{6CFD3E24-A2CC-4c2c-9496-00C3BF31DD9C}"
+          symbol="WINDOWSMOBILE_CELLCORELOG_PUBLISHER">
+
+        <!--Channel to which this Publisher can publish -->
+        <channels>
+
+          <!--Phone Log Channel -->
+          <channel chid="CellularLogChannel"
+              name="Microsoft-WindowsMobile-CellularLogPublisher-Channel"
+              type="Operational"
+              symbol="CELLULARLOGCHANNEL"
+              enabled="true"
+              value="61"/>
+
+        </channels>
+
+        <!--Keywords for Cellular Name Space, Note: it is 64bit value -->
+        <keywords>
+            <keyword name="INFO"    mask="0x00000001" />
+            <keyword name="ERROR"   mask="0x00000002" />
+            
+            <keyword name="SMS"     mask="0x00010000" />
+            <keyword name="VOICE"   mask="0x00020000" />
+            <keyword name="SUPSVC"  mask="0x00040000" />
+            <keyword name="SIM"     mask="0x00080000" />
+            <keyword name="DATA"    mask="0x00100000" />
+            <keyword name="NETWORK"     mask="0x00200000" />
+            <keyword name="WAP"     mask="0x00400000" />
+            <keyword name="RADIO"   mask="0x00800000" />
+            <keyword name="RIL"     mask="0x01000000" />
+            <keyword name="MISC"    mask="0x02000000" />
+            
+        </keywords>
+
+        <!--Event Templates -->
+        <templates>
+
+          <template tid="InfoLogTemplate">
+            <data name="LoggingString" inType="win:UnicodeString" />
+ 
+            <UserData>
+              <CellCoreLogEvent1 xmlns="CellCoreLogNs">
+                <Prop_UnicodeString> %1 </Prop_UnicodeString>
+               </CellCoreLogEvent1>
+            </UserData>
+
+          </template>
+
+        </templates>
+
+        <!--All the Events that can be published by this Publisher -->
+        <events>
+        <event value="1000"
+              level="win:Informational"
+              template="InfoLogTemplate"
+              channel="CellularLogChannel"
+              keyword="INFO"
+              symbol="FUNCTION_TRACE_EVENT"/>
+              
+          <event value="1001"
+              level="win:Informational"
+              template="InfoLogTemplate"
+              channel="CellularLogChannel"
+              keyword="SMS INFO"
+              symbol="SMS_INFO_EVENT"/>
+
+          <event value="1002"
+              level="win:Error"
+              template="InfoLogTemplate"
+              channel="CellularLogChannel"
+              keyword="SMS ERROR"
+              symbol="SMS_ERROR_EVENT"/>
+
+          <event value="1003"
+              level="win:Informational"
+              template="InfoLogTemplate"
+              channel="CellularLogChannel"
+              keyword="VOICE INFO"
+              symbol="VOICE_INFO_EVENT"/>
+
+          <event value="1004"
+              level="win:Error"
+              template="InfoLogTemplate"
+              channel="CellularLogChannel"
+              keyword="VOICE ERROR"
+              symbol="VOICE_ERROR_EVENT"/>
+
+          <event value="1005"
+              level="win:Informational"
+              template="InfoLogTemplate"
+              channel="CellularLogChannel"
+              keyword="SUPSVC INFO"
+              symbol="SUPSVC_INFO_EVENT"/>
+
+          <event value="1006"
+              level="win:Error"
+              template="InfoLogTemplate"
+              channel="CellularLogChannel"
+              keyword="SUPSVC ERROR"
+              symbol="SUPSVC_ERROR_EVENT"/>
+
+          <event value="1007"
+              level="win:Informational"
+              template="InfoLogTemplate"
+              channel="CellularLogChannel"
+              keyword="SIM INFO"
+              symbol="SIM_INFO_EVENT"/>
+
+          <event value="1008"
+              level="win:Error"
+              template="InfoLogTemplate"
+              channel="CellularLogChannel"
+              keyword="SIM ERROR"
+              symbol="SIM_ERROR_EVENT"/>
+
+          <event value="1009"
+              level="win:Informational"
+              template="InfoLogTemplate"
+              channel="CellularLogChannel"
+              keyword="DATA INFO"
+              symbol="DATA_INFO_EVENT"/>
+
+          <event value="1010"
+              level="win:Error"
+              template="InfoLogTemplate"
+              channel="CellularLogChannel"
+              keyword="DATA ERROR"
+              symbol="DATA_ERROR_EVENT"/>
+
+          <event value="1011"
+              level="win:Informational"
+              template="InfoLogTemplate"
+              channel="CellularLogChannel"
+              keyword="NETWORK INFO"
+              symbol="NETWORK_INFO_EVENT"/>
+
+          <event value="1012"
+              level="win:Error"
+              template="InfoLogTemplate"
+              channel="CellularLogChannel"
+              keyword="NETWORK ERROR"
+              symbol="NETWORK_ERROR_EVENT"/>
+
+          <event value="1013"
+              level="win:Informational"
+              template="InfoLogTemplate"
+              channel="CellularLogChannel"
+              keyword="WAP INFO"
+              symbol="WAP_INFO_EVENT"/>
+
+          <event value="1014"
+              level="win:Error"
+              template="InfoLogTemplate"
+              channel="CellularLogChannel"
+              keyword="WAP ERROR"
+              symbol="WAP_ERROR_EVENT"/>
+
+          <event value="1015"
+              level="win:Informational"
+              template="InfoLogTemplate"
+              channel="CellularLogChannel"
+              keyword="RADIO INFO"
+              symbol="RADIO_INFO_EVENT"/>
+
+          <event value="1016"
+              level="win:Error"
+              template="InfoLogTemplate"
+              channel="CellularLogChannel"
+              keyword="RADIO ERROR"
+              symbol="RADIO_ERROR_EVENT"/>
+
+          <event value="1017"
+              level="win:Informational"
+              template="InfoLogTemplate"
+              channel="CellularLogChannel"
+              keyword="RIL INFO"
+              symbol="RIL_INFO_EVENT"/>
+
+          <event value="1018"
+              level="win:Error"
+              template="InfoLogTemplate"
+              channel="CellularLogChannel"
+              keyword="RIL ERROR"
+              symbol="RIL_ERROR_EVENT"/>
+
+          <event value="1019"
+              level="win:Informational"
+              template="InfoLogTemplate"
+              channel="CellularLogChannel"
+              keyword="MISC INFO"
+              symbol="MISC_INFO_EVENT"/>
+
+          <event value="1020"
+              level="win:Error"
+              template="InfoLogTemplate"
+              channel="CellularLogChannel"
+              keyword="MISC ERROR"
+              symbol="MISC_ERROR_EVENT"/>
+          
+        </events>
+
+      </provider>
+
+    </events>
+
+  </instrumentation>
+
+</instrumentationManifest>

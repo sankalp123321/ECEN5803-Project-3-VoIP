@@ -1,0 +1,98 @@
+//
+// Copyright (c) Microsoft Corporation.  All rights reserved.
+//
+//
+// Use of this source code is subject to the terms of the Microsoft
+// premium shared source license agreement under which you licensed
+// this source code. If you did not accept the terms of the license
+// agreement, you are not authorized to use this source code.
+// For the terms of the license, please see the license agreement
+// signed by you and Microsoft.
+// THE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+//
+// thumbnailstore.idl : IDL source for MTP and ML
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (thumbnailstore.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// IThumbnailStore - thumbnail store interface
+//
+[
+    object,
+    uuid(6AD5852E-827B-473f-B7F1-B574F763908E),
+    helpstring("IThumbnailStore Interface"),
+    pointer_default(unique)
+]
+interface IThumbnailStore : IUnknown
+{
+    //
+    //  Creates a thumbnail file fullpath string
+    //
+    [helpstring("method CreateThumbnailFilepath")]
+    HRESULT
+    CreateThumbnailFilepath(
+        [in]  LPCWSTR       lpszExtension,
+        [out] WCHAR*        lpszDest,
+        [in]  DWORD*        pcchDest);
+
+    //
+    //  Get thumbnail size constraints
+    //
+    [helpstring("method GetThumbnailSizeConstraints")]
+    HRESULT
+    GetThumbnailSizeConstraints(
+        [out] DWORD*        pdwMinimumSize,
+        [out] DWORD*        pdwMaximumSize,
+        [out] DWORD*        pdwStepSize);
+
+    //
+    //  Get thumbnail width constraints
+    //
+    [helpstring("method GetThumbnailWidthConstraints")]
+    HRESULT
+    GetThumbnailWidthConstraints(
+        [out] DWORD*        pdwMinimumWidth,
+        [out] DWORD*        pdwMaximumWidth,
+        [out] DWORD*        pdwStepWidth);
+
+    //
+    //  Get thumbnail height constraints
+    //
+    [helpstring("method GetThumbnailHeightConstraints")]
+    HRESULT
+    GetThumbnailHeightConstraints(
+        [out] DWORD*        pdwMinimumHeight,
+        [out] DWORD*        pdwMaximumHeight,
+        [out] DWORD*        pdwStepHeight);
+};
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Exposed CoCreateable objects need an entry below
+//////////////////////////////////////////////////////////////////////////////
+
+[
+    uuid(A8A8C6D2-7B78-4ced-B921-FFDB68C88C82),
+    version(1.0),
+    helpstring("Thumbnail Store Library 1.0 Type Library")
+]
+library ThumbnailStoreLib
+{
+    importlib("stdole2.tlb");
+
+    [
+        uuid(F5DF83A3-047F-44d2-9C2B-884E50C80F8E),
+        helpstring("Thumbnail Store Class")
+    ]
+    coclass ThumbnailStore
+    {
+        [default] interface IThumbnailStore;
+    };
+};

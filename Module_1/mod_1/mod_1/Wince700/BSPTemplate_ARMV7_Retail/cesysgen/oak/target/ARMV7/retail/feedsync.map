@@ -1,0 +1,687 @@
+ feedsync
+
+ Timestamp is 5ac65a38 (Thu Apr 05 10:17:44 2018)
+
+ Preferred load address is 50060000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 000020d4H .rdata                  CODE
+ 0001:000020f4 00000025H .rdata$debug            CODE
+ 0001:0000211c 00011d2cH .text                   CODE
+ 0001:00013e48 0000002cH .xdata                  CODE
+ 0001:00013e74 0000003cH .idata$2                CODE
+ 0001:00013eb0 00000014H .idata$3                CODE
+ 0001:00013ec4 000000c8H .idata$4                CODE
+ 0001:00013f8c 000000e0H .idata$6                CODE
+ 0001:00014070 000000c8H .edata                  CODE
+ 0002:00000000 000000c8H .idata$5                DATA
+ 0002:000000c8 00000008H .data                   DATA
+ 0002:000000d0 00000028H .bss                    DATA
+ 0003:00000000 00000a90H .pdata                  DATA
+ 0004:00000000 00000010H .rsrc$01                DATA
+ 0004:00000010 00000000H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:00000000       __xc_a                     50061000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     50061004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     50061008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     5006100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     50061010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     50061014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     50061018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     5006101c     corelib0:crt0init.obj
+ 0001:0000003c       ??_7CHarmonicaClassFactory@@6B@ 5006103c     clsfact.obj
+ 0001:00000050       ??_C@_19OBNAGCDI@?$AAB?$AAo?$AAt?$AAh?$AA?$AA@ 50061050     dll.obj
+ 0001:0000005c       ??_C@_1BO@NMEHGCBD@?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AAi?$AAn?$AAg?$AAM?$AAo?$AAd?$AAe?$AAl?$AA?$AA@ 5006105c     dll.obj
+ 0001:0000007c       ??_C@_1BO@MNKPAJEP@?$AAI?$AAn?$AAp?$AAr?$AAo?$AAc?$AAS?$AAe?$AAr?$AAv?$AAe?$AAr?$AA3?$AA2?$AA?$AA@ 5006107c     dll.obj
+ 0001:0000009c       ??_C@_1BC@MCAABAB@?$AAC?$AAL?$AAS?$AAI?$AAD?$AA?2?$AA?$CF?$AAs?$AA?$AA@ 5006109c     dll.obj
+ 0001:000000b0       ??_C@_1CE@JAFHFPIN@?$AAF?$AAe?$AAe?$AAd?$AAS?$AAy?$AAn?$AAc?$AA?5?$AAS?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe?$AAs?$AA?$AA@ 500610b0     dll.obj
+ 0001:000000d4       IID_IFeedItemHistory       500610d4     feedsync:feedsync_i.obj
+ 0001:000000e4       IID_IFeedItemMetadata      500610e4     feedsync:feedsync_i.obj
+ 0001:000000f4       IID_IFeedSharingInformation 500610f4     feedsync:feedsync_i.obj
+ 0001:00000104       IID_IFeedMetadata          50061104     feedsync:feedsync_i.obj
+ 0001:00000114       IID_IFeedItemDataMerger    50061114     feedsync:feedsync_i.obj
+ 0001:00000124       IID_IFeedBuilder           50061124     feedsync:feedsync_i.obj
+ 0001:00000134       IID_IFeedIdConverterCallback 50061134     feedsync:feedsync_i.obj
+ 0001:00000144       IID_IFeedIdConverter       50061144     feedsync:feedsync_i.obj
+ 0001:00000154       IID_IFeedSyncServices      50061154     feedsync:feedsync_i.obj
+ 0001:00000164       IID_IFeedXMLDocumentLoader 50061164     feedsync:feedsync_i.obj
+ 0001:00000174       IID_IFeedItemConverterCallback 50061174     feedsync:feedsync_i.obj
+ 0001:00000184       IID_IEndpointState         50061184     feedsync:feedsync_i.obj
+ 0001:00000194       IID_IFeedProducer          50061194     feedsync:feedsync_i.obj
+ 0001:000001a4       IID_IFeedConsumer          500611a4     feedsync:feedsync_i.obj
+ 0001:000001b4       IID_IFeedProducerConsumerServices 500611b4     feedsync:feedsync_i.obj
+ 0001:000001c4       CLSID_FeedSyncServices     500611c4     feedsync:feedsync_i.obj
+ 0001:00000320       ??_7ISSEItemChangeDataTextLoader@@6B@ 50061320     feedsync_private:FeedSyncServices.obj
+ 0001:00000330       ??_7ISSEItemDataFactory@@6B@ 50061330     feedsync_private:FeedSyncServices.obj
+ 0001:00000340       ??_7ISSEItemChangeDataSaver@@6B@ 50061340     feedsync_private:FeedSyncServices.obj
+ 0001:00000358       _GUID_9a78389e_1036_4dec_8c2b_0544c4b7e545 50061358     feedsync_private:FeedSyncServices.obj
+ 0001:00000368       _GUID_4d260620_7146_4d80_afae_4a6f742ee9ef 50061368     feedsync_private:FeedSyncServices.obj
+ 0001:00000378       _GUID_d1bf568b_a3d6_41b1_b592_b7f27792fe89 50061378     feedsync_private:FeedSyncServices.obj
+ 0001:00000388       _GUID_8de8026c_0629_47d8_b202_5ade98460765 50061388     feedsync_private:FeedSyncServices.obj
+ 0001:00000398       _GUID_cc8cf26b_2241_4b56_b1d2_6b38ba56815c 50061398     feedsync_private:FeedSyncServices.obj
+ 0001:000003a8       ??_7SSEFeedBuilder@@6BIFeedBuilder@@@ 500613a8     feedsync_private:FeedSyncServices.obj
+ 0001:000003c0       ??_7SSEFeedBuilder@@6BISSEItemDataFactory@@@ 500613c0     feedsync_private:FeedSyncServices.obj
+ 0001:000003d0       ??_7SSEFeedBuilder@@6BISSEItemChangeDataSaver@@@ 500613d0     feedsync_private:FeedSyncServices.obj
+ 0001:000003e8       ??_7SSEFeedBuilder@@6BISupportErrorInfo@@@ 500613e8     feedsync_private:FeedSyncServices.obj
+ 0001:000003f8       ??_7SSEProducerConsumer@@6BIFeedConsumer@@@ 500613f8     feedsync_private:FeedSyncServices.obj
+ 0001:00000408       ??_7SSEProducerConsumer@@6BIFeedProducer@@@ 50061408     feedsync_private:FeedSyncServices.obj
+ 0001:00000418       ??_7SSEDefaultIdConverter@@6B@ 50061418     feedsync_private:FeedSyncServices.obj
+ 0001:0000043c       ??_7SSEIdConversionCallback@@6B@ 5006143c     feedsync_private:FeedSyncServices.obj
+ 0001:00000468       ??_7FeedSyncServices@@6BIFeedSyncServicesPrivate@@@ 50061468     feedsync_private:FeedSyncServices.obj
+ 0001:000004b8       ??_7FeedSyncServices@@6BISynchronousDataRetriever@@@ 500614b8     feedsync_private:FeedSyncServices.obj
+ 0001:000004cc       ??_7FeedSyncServices@@6BIFeedXMLDocumentLoader@@@ 500614cc     feedsync_private:FeedSyncServices.obj
+ 0001:000004dc       ??_7FeedSyncServices@@6BISSEItemChangeDataTextLoader@@@ 500614dc     feedsync_private:FeedSyncServices.obj
+ 0001:000004ec       ??_7FeedSyncServices@@6BIFeedProducerConsumerServices@@@ 500614ec     feedsync_private:FeedSyncServices.obj
+ 0001:00000504       ??_7FeedSyncServices@@6BISupportErrorInfo@@@ 50061504     feedsync_private:FeedSyncServices.obj
+ 0001:00000514       ??_7SSEMetadata@@6B@       50061514     feedsync_private:FeedSyncServices.obj
+ 0001:0000053c       ??_7SSEEndpointState@@6B@  5006153c     feedsync_private:FeedSyncServices.obj
+ 0001:00000558       _GUID_7eccbb0f_f04d_47d7_80f1_0c1a72152ecc 50061558     feedsync_private:FeedSyncServices.obj
+ 0001:00000568       _GUID_cebe34d5_598c_4aa3_a987_733dcdcaffb8 50061568     feedsync_private:FeedSyncServices.obj
+ 0001:000006c0       ??_7IFeedItemMetadataLoader@@6B@ 500616c0     feedsync_private:FeedBuilder.obj
+ 0001:000006d0       ??_C@_1M@HLGKFCJM@?$AAf?$AAa?$AAl?$AAs?$AAe?$AA?$AA@ 500616d0     feedsync_private:FeedBuilder.obj
+ 0001:000006dc       ??_C@_19FKLFLPMF@?$AAt?$AAr?$AAu?$AAe?$AA?$AA@ 500616dc     feedsync_private:FeedBuilder.obj
+ 0001:000006e8       ??_C@_1LO@LBCLAEMM@?$AA?1?$AA?$CK?$AA?$FL?$AAl?$AAo?$AAc?$AAa?$AAl?$AA?9?$AAn?$AAa?$AAm?$AAe?$AA?$CI?$AA?$CJ?$AA?$DN?$AA?8?$AAr?$AAs?$AAs?$AA?8?$AA?5?$AAa?$AAn?$AAd?$AA?5?$AAn?$AAa?$AAm?$AAe?$AAs?$AAp@ 500616e8     feedsync_private:FeedBuilder.obj
+ 0001:000007a8       ??_C@_1JE@KFGLEEDN@?$AA?1?$AA?$CK?$AA?$FL?$AAl?$AAo?$AAc?$AAa?$AAl?$AA?9?$AAn?$AAa?$AAm?$AAe?$AA?$CI?$AA?$CJ?$AA?$DN?$AA?8?$AAf?$AAe?$AAe?$AAd?$AA?8?$AA?5?$AAa?$AAn?$AAd?$AA?5?$AAn?$AAa?$AAm?$AAe?$AAs@ 500617a8     feedsync_private:FeedBuilder.obj
+ 0001:0000083c       _GUID_d4969b40_b658_4c8d_883c_669f099e0d03 5006183c     feedsync_private:FeedBuilder.obj
+ 0001:0000084c       _GUID_190a9410_9fad_4631_8519_b312bb8587fa 5006184c     feedsync_private:FeedBuilder.obj
+ 0001:00000860       ??_C@_1BHK@BAKCJKBO@?$AA?1?$AA?$CK?$AA?$FL?$AAl?$AAo?$AAc?$AAa?$AAl?$AA?9?$AAn?$AAa?$AAm?$AAe?$AA?$CI?$AA?$CJ?$AA?$DN?$AA?8?$AAr?$AAs?$AAs?$AA?8?$AA?5?$AAa?$AAn?$AAd?$AA?5?$AAn?$AAa?$AAm?$AAe?$AAs?$AAp@ 50061860     feedsync_private:FeedBuilder.obj
+ 0001:000009e0       ??_C@_1BFA@OOLDGJGF@?$AA?1?$AA?$CK?$AA?$FL?$AAl?$AAo?$AAc?$AAa?$AAl?$AA?9?$AAn?$AAa?$AAm?$AAe?$AA?$CI?$AA?$CJ?$AA?$DN?$AA?8?$AAf?$AAe?$AAe?$AAd?$AA?8?$AA?5?$AAa?$AAn?$AAd?$AA?5?$AAn?$AAa?$AAm?$AAe?$AAs@ 500619e0     feedsync_private:FeedBuilder.obj
+ 0001:00000b30       ??_C@_1EE@BHEPDCJC@?$AAh?$AAt?$AAt?$AAp?$AA?3?$AA?1?$AA?1?$AAf?$AAe?$AAe?$AAd?$AAs?$AAy?$AAn?$AAc?$AA?4?$AAo?$AAr?$AAg?$AA?1?$AA2?$AA0?$AA0?$AA7?$AA?1?$AAf?$AAe?$AAe?$AAd?$AAs?$AAy?$AAn@ 50061b30     feedsync_private:FeedBuilder.obj
+ 0001:00000b74       ??_C@_19IICOKMLP@?$AAw?$AAh?$AAe?$AAn?$AA?$AA@ 50061b74     feedsync_private:FeedBuilder.obj
+ 0001:00000b80       ??_C@_15BNDGBPBL@?$AAb?$AAy?$AA?$AA@ 50061b80     feedsync_private:FeedBuilder.obj
+ 0001:00000b88       ??_C@_1BC@EDKMIKKG@?$AAs?$AAe?$AAq?$AAu?$AAe?$AAn?$AAc?$AAe?$AA?$AA@ 50061b88     feedsync_private:FeedBuilder.obj
+ 0001:00000b9c       ??_C@_1BG@CLEIFBLL@?$AAs?$AAx?$AA?3?$AAh?$AAi?$AAs?$AAt?$AAo?$AAr?$AAy?$AA?$AA@ 50061b9c     feedsync_private:FeedBuilder.obj
+ 0001:00000bb4       ??_C@_1BI@DDHNHBCI@?$AAn?$AAo?$AAc?$AAo?$AAn?$AAf?$AAl?$AAi?$AAc?$AAt?$AAs?$AA?$AA@ 50061bb4     feedsync_private:FeedBuilder.obj
+ 0001:00000bcc       ??_C@_1BA@EAMMFPCI@?$AAu?$AAp?$AAd?$AAa?$AAt?$AAe?$AAs?$AA?$AA@ 50061bcc     feedsync_private:FeedBuilder.obj
+ 0001:00000be0       ??_7SSEItemMetadata@@6BIFeedItemMetadataPrivate@@@ 50061be0     feedsync_private:FeedBuilder.obj
+ 0001:00000c20       ??_7SSEItemMetadata@@6BIFeedItemMetadataLoader@@@ 50061c20     feedsync_private:FeedBuilder.obj
+ 0001:00000c30       ??_C@_1BA@CILLBLIE@?$AAd?$AAe?$AAl?$AAe?$AAt?$AAe?$AAd?$AA?$AA@ 50061c30     feedsync_private:FeedBuilder.obj
+ 0001:00000c40       ??_C@_15NFICGAJK@?$AAi?$AAd?$AA?$AA@ 50061c40     feedsync_private:FeedBuilder.obj
+ 0001:00000c48       ??_C@_1BA@HHMOECLA@?$AAs?$AAx?$AA?3?$AAs?$AAy?$AAn?$AAc?$AA?$AA@ 50061c48     feedsync_private:FeedBuilder.obj
+ 0001:00000c58       ??_C@_1JO@DCGKIIBE@?$AA?$CK?$AA?$FL?$AAl?$AAo?$AAc?$AAa?$AAl?$AA?9?$AAn?$AAa?$AAm?$AAe?$AA?$CI?$AA?$CJ?$AA?$DN?$AA?8?$AAs?$AAy?$AAn?$AAc?$AA?8?$AA?5?$AAa?$AAn?$AAd?$AA?5?$AAn?$AAa?$AAm?$AAe?$AAs?$AAp@ 50061c58     feedsync_private:FeedBuilder.obj
+ 0001:00000cf8       ??_C@_19IIOIJGGO@?$AAi?$AAt?$AAe?$AAm?$AA?$AA@ 50061cf8     feedsync_private:FeedBuilder.obj
+ 0001:00000d04       ??_C@_1M@IDDCMKPN@?$AAe?$AAn?$AAt?$AAr?$AAy?$AA?$AA@ 50061d04     feedsync_private:FeedBuilder.obj
+ 0001:00000d10       ??_C@_1DI@NOKBAJDI@?$AAh?$AAt?$AAt?$AAp?$AA?3?$AA?1?$AA?1?$AAw?$AAw?$AAw?$AA?4?$AAw?$AA3?$AA?4?$AAo?$AAr?$AAg?$AA?1?$AA2?$AA0?$AA0?$AA5?$AA?1?$AAA?$AAt?$AAo?$AAm?$AA?$AA@ 50061d10     feedsync_private:FeedBuilder.obj
+ 0001:00000d48       ??_C@_1BK@MLDMNHAD@?$AAs?$AAx?$AA?3?$AAc?$AAo?$AAn?$AAf?$AAl?$AAi?$AAc?$AAt?$AAs?$AA?$AA@ 50061d48     feedsync_private:FeedBuilder.obj
+ 0001:00000d68       ??_C@_1KI@KGAPLCHA@?$AA?$CK?$AA?$FL?$AAl?$AAo?$AAc?$AAa?$AAl?$AA?9?$AAn?$AAa?$AAm?$AAe?$AA?$CI?$AA?$CJ?$AA?$DN?$AA?8?$AAc?$AAo?$AAn?$AAf?$AAl?$AAi?$AAc?$AAt?$AAs?$AA?8?$AA?5?$AAa?$AAn?$AAd?$AA?5?$AAn@ 50061d68     feedsync_private:FeedBuilder.obj
+ 0001:00000e10       _GUID_489824ea_c149_49fd_9c43_f3f17fc10f0e 50061e10     feedsync_private:FeedBuilder.obj
+ 0001:00000e20       ??_7FeedProducerConsumerProvider@@6BIKnowledgeSyncProvider@@@ 50061e20     feedsync_private:FeedProducerConsumer.obj
+ 0001:00000e4c       ??_7FeedProducerConsumerProvider@@6BISynchronousDataRetriever@@@ 50061e4c     feedsync_private:FeedProducerConsumer.obj
+ 0001:00000e60       ??_7FeedProducerConsumerProvider@@6BISynchronousNotifyingChangeApplierTarget@@@ 50061e60     feedsync_private:FeedProducerConsumer.obj
+ 0001:00000e8c       ??_7FeedProducerConsumerProvider@@6BISyncCallback@@@ 50061e8c     feedsync_private:FeedProducerConsumer.obj
+ 0001:00000ff8       _GUID_7ea27517_c5f0_4065_8c79_23e58d924e59 50061ff8     feedsync_private:FeedIdConverter.obj
+ 0001:00001008       ??_C@_1BK@NEOLIADO@?$AAs?$AAy?$AAn?$AAc?$AA?3?$AA?1?$AA?1?$AA?$CF?$AAs?$AA?$CD?$AA?$CF?$AAd?$AA?$AA@ 50062008     feedsync_private:FeedIdConverter.obj
+ 0001:00001170       ??_7SSESharingInformation@@6BIFeedSharingInformationPrivate@@@ 50062170     feedsync_private:FeedMetadata.obj
+ 0001:0000118c       ??_7SSESharingInformation@@6BIFeedSharingInformationLoader@@@ 5006218c     feedsync_private:FeedMetadata.obj
+ 0001:0000119c       ??_7IFeedSharingInformationLoader@@6B@ 5006219c     feedsync_private:FeedMetadata.obj
+ 0001:000011ac       ??_C@_1BE@LLBIODOA@?$AAc?$AAo?$AAn?$AAf?$AAl?$AAi?$AAc?$AAt?$AAs?$AA?$AA@ 500621ac     feedsync_private:FeedMetadata.obj
+ 0001:000011c0       ??_C@_1BI@CHHAENBH@?$AAu?$AAn?$AAp?$AAu?$AAb?$AAl?$AAi?$AAs?$AAh?$AAe?$AAd?$AA?$AA@ 500621c0     feedsync_private:FeedMetadata.obj
+ 0001:000011d8       ??_C@_19KJHJBFGO@?$AAs?$AAy?$AAn?$AAc?$AA?$AA@ 500621d8     feedsync_private:FeedMetadata.obj
+ 0001:000011e4       _GUID_ff7556bb_5302_4d10_9a18_6592f5843338 500621e4     feedsync_private:FeedMetadata.obj
+ 0001:000011f4       _GUID_6abc36d8_0354_49c1_9fca_6c0bfaf0ea0b 500621f4     feedsync_private:FeedMetadata.obj
+ 0001:00001204       ??_C@_11LOCGONAA@?$AA?$AA@ 50062204     feedsync_private:FeedMetadata.obj
+ 0001:00001208       ??_C@_1BA@EPBEOAHA@?$AAe?$AAx?$AAp?$AAi?$AAr?$AAe?$AAs?$AA?$AA@ 50062208     feedsync_private:FeedMetadata.obj
+ 0001:00001218       ??_C@_1M@IBPMHCPE@?$AAu?$AAn?$AAt?$AAi?$AAl?$AA?$AA@ 50062218     feedsync_private:FeedMetadata.obj
+ 0001:00001224       ??_C@_1M@LNPFINGC@?$AAs?$AAi?$AAn?$AAc?$AAe?$AA?$AA@ 50062224     feedsync_private:FeedMetadata.obj
+ 0001:00001230       ??_C@_1MO@NIIIBJKD@?$AA?$CK?$AA?$FL?$AAl?$AAo?$AAc?$AAa?$AAl?$AA?9?$AAn?$AAa?$AAm?$AAe?$AA?$CI?$AA?$CJ?$AA?$DN?$AA?8?$AAr?$AAe?$AAl?$AAa?$AAt?$AAe?$AAd?$AA?8?$AA?5?$AAa?$AAn?$AAd?$AA?5?$AAn?$AAa?$AAm@ 50062230     feedsync_private:FeedMetadata.obj
+ 0001:00001300       _GUID_cdffb9d5_4fb7_4d98_8c19_e8d2926a9b4e 50062300     feedsync_private:FeedMetadata.obj
+ 0001:00001310       _GUID_0b1f0e15_0928_4cf4_a62d_374686f23bc1 50062310     feedsync_private:FeedMetadata.obj
+ 0001:00001320       ??_7IFeedItemHistoryLoader@@6B@ 50062320     feedsync_private:FeedMetadata.obj
+ 0001:00001330       ??_C@_1M@HFCJKDDE@?$AAX?$AAP?$AAa?$AAt?$AAh?$AA?$AA@ 50062330     feedsync_private:FeedMetadata.obj
+ 0001:0000133c       ??_C@_1CE@CPDIBCNA@?$AAS?$AAe?$AAl?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn?$AAL?$AAa?$AAn?$AAg?$AAu?$AAa?$AAg?$AAe?$AA?$AA@ 5006233c     feedsync_private:FeedMetadata.obj
+ 0001:00001360       ??_7?$VectorEnumerator@PAUIFeedItemHistory@@UIEnumFeedItemHistory@@@@6B@ 50062360     feedsync_private:FeedMetadata.obj
+ 0001:0000137c       _GUID_624249ad_cd72_4d99_bf2f_5964e42d00cd 5006237c     feedsync_private:FeedMetadata.obj
+ 0001:0000138c       ??_7?$VectorEnumerator@PAUIFeedItemMetadata@@UIEnumFeedItemMetadata@@@@6B@ 5006238c     feedsync_private:FeedMetadata.obj
+ 0001:000013a8       _GUID_bbe68507_87c2_480d_a309_f668dcaa9fc5 500623a8     feedsync_private:FeedMetadata.obj
+ 0001:000013b8       ??_7SSEItemHistory@@6BIFeedItemHistoryPrivate@@@ 500623b8     feedsync_private:FeedMetadata.obj
+ 0001:000013dc       ??_7SSEItemHistory@@6BIFeedItemHistoryLoader@@@ 500623dc     feedsync_private:FeedMetadata.obj
+ 0001:000013f0       ??_C@_1BEK@NGDDKBME@?$AA?$CK?$AA?$FL?$AAl?$AAo?$AAc?$AAa?$AAl?$AA?9?$AAn?$AAa?$AAm?$AAe?$AA?$CI?$AA?$CJ?$AA?$DN?$AA?8?$AAc?$AAo?$AAn?$AAf?$AAl?$AAi?$AAc?$AAt?$AAs?$AA?8?$AA?5?$AAa?$AAn?$AAd?$AA?5?$AAn@ 500623f0     feedsync_private:FeedMetadata.obj
+ 0001:00001540       ??_C@_1KE@HIEAKJHC@?$AA?$CK?$AA?$FL?$AAl?$AAo?$AAc?$AAa?$AAl?$AA?9?$AAn?$AAa?$AAm?$AAe?$AA?$CI?$AA?$CJ?$AA?$DN?$AA?8?$AAh?$AAi?$AAs?$AAt?$AAo?$AAr?$AAy?$AA?8?$AA?5?$AAa?$AAn?$AAd?$AA?5?$AAn?$AAa?$AAm@ 50062540     feedsync_private:FeedMetadata.obj
+ 0001:000015e8       ??_C@_1BGA@GJJAFOFI@?$AA?1?$AA?$CK?$AA?$FL?$AAl?$AAo?$AAc?$AAa?$AAl?$AA?9?$AAn?$AAa?$AAm?$AAe?$AA?$CI?$AA?$CJ?$AA?$DN?$AA?8?$AAr?$AAs?$AAs?$AA?8?$AA?5?$AAa?$AAn?$AAd?$AA?5?$AAn?$AAa?$AAm?$AAe?$AAs?$AAp@ 500625e8     feedsync_private:FeedMetadata.obj
+ 0001:00001748       ??_C@_1BMG@GAHAJPKF@?$AA?1?$AA?$CK?$AA?$FL?$AAl?$AAo?$AAc?$AAa?$AAl?$AA?9?$AAn?$AAa?$AAm?$AAe?$AA?$CI?$AA?$CJ?$AA?$DN?$AA?8?$AAf?$AAe?$AAe?$AAd?$AA?8?$AA?5?$AAa?$AAn?$AAd?$AA?5?$AAn?$AAa?$AAm?$AAe?$AAs@ 50062748     feedsync_private:FeedMetadata.obj
+ 0001:00001910       ??_C@_1BGC@MNNKIBOI@?$AA?1?$AA?$CK?$AA?$FL?$AAl?$AAo?$AAc?$AAa?$AAl?$AA?9?$AAn?$AAa?$AAm?$AAe?$AA?$CI?$AA?$CJ?$AA?$DN?$AA?8?$AAr?$AAs?$AAs?$AA?8?$AA?5?$AAa?$AAn?$AAd?$AA?5?$AAn?$AAa?$AAm?$AAe?$AAs?$AAp@ 50062910     feedsync_private:FeedMetadata.obj
+ 0001:00001a78       ??_C@_1BDI@NFODMANI@?$AA?1?$AA?$CK?$AA?$FL?$AAl?$AAo?$AAc?$AAa?$AAl?$AA?9?$AAn?$AAa?$AAm?$AAe?$AA?$CI?$AA?$CJ?$AA?$DN?$AA?8?$AAf?$AAe?$AAe?$AAd?$AA?8?$AA?5?$AAa?$AAn?$AAd?$AA?5?$AAn?$AAa?$AAm?$AAe?$AAs@ 50062a78     feedsync_private:FeedMetadata.obj
+ 0001:00001bb0       ??_C@_1FM@GFEFCABD@?$AA?1?$AA?$CK?$AA?$FL?$AAl?$AAo?$AAc?$AAa?$AAl?$AA?9?$AAn?$AAa?$AAm?$AAe?$AA?$CI?$AA?$CJ?$AA?$DN?$AA?8?$AAr?$AAs?$AAs?$AA?8?$AA?5?$AAa?$AAn?$AAd?$AA?5?$AAn?$AAa?$AAm?$AAe?$AAs?$AAp@ 50062bb0     feedsync_private:FeedMetadata.obj
+ 0001:00001d58       _GUID_c0a03654_1cee_4712_a743_5851b766c5b0 50062d58     feedsync_private:EndpointState.obj
+ 0001:00001eb0       ??_7FeedItemConverterCallback@@6B@ 50062eb0     feedsync_private:FeedProducerConsumerProvider.obj
+ 0001:00001ecc       ??_C@_1DK@BMOBKDHA@?$AA?$CF?$AAd?$AA?9?$AA?$CF?$AA0?$AA2?$AAd?$AA?9?$AA?$CF?$AA0?$AA2?$AAd?$AAT?$AA?$CF?$AA0?$AA2?$AAd?$AA?3?$AA?$CF?$AA0?$AA2?$AAd?$AA?3?$AA?$CF?$AA0?$AA2?$AAd?$AAZ?$AA?$AA@ 50062ecc     syncutils:Rfc3339Date.obj
+ 0001:00001f08       ??_C@_1EE@ODFBAMGO@?$AA?$CF?$AAd?$AA?9?$AA?$CF?$AA0?$AA2?$AAd?$AA?9?$AA?$CF?$AA0?$AA2?$AAd?$AAT?$AA?$CF?$AA0?$AA2?$AAd?$AA?3?$AA?$CF?$AA0?$AA2?$AAd?$AA?3?$AA?$CF?$AA0?$AA2?$AAd?$AA?4?$AA?$CF?$AA0?$AA3?$AAd@ 50062f08     syncutils:Rfc3339Date.obj
+ 0001:00001f4c       _GUID_1cf2b120_547d_101b_8e65_08002b2bd119 50062f4c     syncutils:utils.obj
+ 0001:00001f5c       ??_C@_1CG@FKGIGFBM@?$AA?$CF?$AAs?$AAr?$AAe?$AAs?$AA?4?$AAd?$AAl?$AAl?$AA?4?$AA?$CF?$AA0?$AA4?$AAx?$AA?4?$AAm?$AAu?$AAi?$AA?$AA@ 50062f5c     resload:resload.obj
+ 0001:00001f84       GUID_NULL                  50062f84     dcomuuid:dcomuuid.obj
+ 0001:00001f94       IID_ISupportErrorInfo      50062f94     dcomuuid:dcomuuid.obj
+ 0001:00001fa4       IID_IPersistStream         50062fa4     dcomuuid:dcomuuid.obj
+ 0001:00001fb4       IID_IUnknown               50062fb4     dcomuuid:dcomuuid.obj
+ 0001:00001fc4       IID_IClassFactory          50062fc4     dcomuuid:dcomuuid.obj
+ 0001:00001fd4       IID_IXMLDOMNode            50062fd4     ieuuid:ieuuid.obj
+ 0001:00001fe4       IID_IXMLDOMDocument2       50062fe4     ieuuid:ieuuid.obj
+ 0001:00001ff4       IID_IXMLDOMElement         50062ff4     ieuuid:ieuuid.obj
+ 0001:00002004       CLSID_DOMDocument          50063004     ieuuid:ieuuid.obj
+ 0001:00002014       IID_ISyncKnowledge         50063014     synchronization:synchronization_i.obj
+ 0001:00002024       IID_IClockVector           50063024     synchronization:synchronization_i.obj
+ 0001:00002034       IID_IFeedClockVector       50063034     synchronization:synchronization_i.obj
+ 0001:00002044       IID_IEnumClockVector       50063044     synchronization:synchronization_i.obj
+ 0001:00002054       IID_IEnumFeedClockVector   50063054     synchronization:synchronization_i.obj
+ 0001:00002064       IID_IKnowledgeSyncProvider 50063064     synchronization:synchronization_i.obj
+ 0001:00002074       IID_ISynchronousDataRetriever 50063074     synchronization:synchronization_i.obj
+ 0001:00002084       IID_ISynchronousNotifyingChangeApplierTarget 50063084     synchronization:synchronization_i.obj
+ 0001:00002094       IID_ISyncCallback          50063094     synchronization:synchronization_i.obj
+ 0001:000020a4       IID_ISyncSessionState      500630a4     synchronization:synchronization_i.obj
+ 0001:000020b4       IID_IApplicationSyncServices 500630b4     synchronization:synchronization_i.obj
+ 0001:000020c4       IID_IProviderFilteredSyncServices 500630c4     synchronization:synchronization_i.obj
+ 0001:000020d4       IID_IClockVectorServices   500630d4     synchronization:synchronization_i.obj
+ 0001:000020e4       CLSID_SyncServices         500630e4     synchronization:synchronization_i.obj
+ 0001:0000211c       ?QueryInterface@CHarmonicaClassFactory@@UAAJABU_GUID@@PAPAX@Z 5006311c f   clsfact.obj
+ 0001:000021a8       ?AddRef@CHarmonicaClassFactory@@UAAKXZ 500631a8 f   clsfact.obj
+ 0001:000021b0       ?CreateInstance@CHarmonicaClassFactory@@UAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 500631b0 f   clsfact.obj
+ 0001:00002208       ?LockServer@CHarmonicaClassFactory@@UAAJH@Z 50063208 f   clsfact.obj
+ 0001:0000222c       ?Release@CHarmonicaClassFactory@@UAAKXZ 5006322c f   clsfact.obj
+ 0001:0000226c       ?GetHRForLastWin32Error@@YAJXZ 5006326c f i dll.obj
+ 0001:000022ac       ?RegisterHarmonicaComponent@@YAJPBG0PBU_GUID@@@Z 500632ac f   dll.obj
+ 0001:00002504       ?UnregisterHarmonicaComponent@@YAJPBU_GUID@@@Z 50063504 f   dll.obj
+ 0001:00002640       DllRegisterServer          50063640 f   dll.obj
+ 0001:000026b0       DllUnregisterServer        500636b0 f   dll.obj
+ 0001:000026bc       DllCanUnloadNow            500636bc f   dll.obj
+ 0001:000026d8       LoadSyncResourceLibrary    500636d8 f   dll.obj
+ 0001:000026dc       DllAddRef                  500636dc f   dll.obj
+ 0001:000026e8       DllRelease                 500636e8 f   dll.obj
+ 0001:000026f4       DllMain                    500636f4 f   dll.obj
+ 0001:0000272c       ??0CHarmonicaClassFactory@@QAA@ABU_GUID@@@Z 5006372c f i dll.obj
+ 0001:0000277c       DllGetClassObject          5006377c f   dll.obj
+ 0001:00002814       ?IsPrime@@YA_NK@Z          50063814 f i feedsync_private:FeedSyncServices.obj
+ 0001:00002898       ?GetNextPrimeNumber@@YAKK@Z 50063898 f i feedsync_private:FeedSyncServices.obj
+ 0001:00002900       ??0IdParameters@@QAA@PBU_ID_PARAMETERS@@@Z 50063900 f i feedsync_private:FeedSyncServices.obj
+ 0001:00002970       ?QueryInterface@FeedSyncServices@@UAAJABU_GUID@@PAPAX@Z 50063970 f   feedsync_private:FeedSyncServices.obj
+ 0001:00002af8       ?AddRef@FeedSyncServices@@UAAKXZ 50063af8 f   feedsync_private:FeedSyncServices.obj
+ 0001:00002b00       ?AllocateId@IdParameterPair@@QAAJPAPAEG@Z 50063b00 f i feedsync_private:FeedSyncServices.obj
+ 0001:00002b5c       ?AllocateAndCopyId@IdParameterPair@@QAAJPAPAEPBE@Z 50063b5c f i feedsync_private:FeedSyncServices.obj
+ 0001:00002be0       ?GetFeedMetadata@FeedSyncServices@@UAAJPAPAUIFeedMetadata@@@Z 50063be0 f   feedsync_private:FeedSyncServices.obj
+ 0001:00002c48       ?IsMaxId@IdParameterPair@@QBAHPBE@Z 50063c48 f i feedsync_private:FeedSyncServices.obj
+ 0001:00002cbc       ?InvalidateComputedSSEKnowledge@FeedSyncServices@@UAAJXZ 50063cbc f   feedsync_private:FeedSyncServices.obj
+ 0001:00002d08       ?UpdateItemKnowledge@FeedSyncServices@@UAAJPBEPAUISyncKnowledge@@@Z 50063d08 f   feedsync_private:FeedSyncServices.obj
+ 0001:00002d90       ?GetParameters@IdParameters@@QAAJPAU_ID_PARAMETERS@@@Z 50063d90 f i feedsync_private:FeedSyncServices.obj
+ 0001:00002de4       ?UpdateItemKnowledgeWithConflicts@FeedSyncServices@@UAAJPBEPAUISyncKnowledge@@@Z 50063de4 f   feedsync_private:FeedSyncServices.obj
+ 0001:00002e30       ?EqualParameters@IdParameters@@SAHPBU_ID_PARAMETERS@@0@Z 50063e30 f i feedsync_private:FeedSyncServices.obj
+ 0001:00002e98       ?ValidParameters@IdParameters@@SAHPBU_ID_PARAMETERS@@@Z 50063e98 f i feedsync_private:FeedSyncServices.obj
+ 0001:00002f40       ?OnSSEFeedBuilderDestroyed@FeedSyncServices@@UAAJXZ 50063f40 f   feedsync_private:FeedSyncServices.obj
+ 0001:00002f50       ?SetProduceFeed@FeedSyncServices@@UAAJXZ 50063f50 f   feedsync_private:FeedSyncServices.obj
+ 0001:00002f60       ?LoadChangeDataText@FeedSyncServices@@UAAJPAUILoadChangeContext@@PAUISSEItemChangeDataTextLoaderCallback@@@Z 50063f60 f   feedsync_private:FeedSyncServices.obj
+ 0001:00003074       ?GetItemHistoryVersion@FeedSyncServices@@AAAJPAUIFeedItemHistory@@HPAUIReplicaKeyMap@@PAUIKnowledgeBuilder@@PAPAUSyncVersionEx@@@Z 50064074 f   feedsync_private:FeedSyncServices.obj
+ 0001:00003388       ?AddItemMetadataToChangeBatch@FeedSyncServices@@AAAJPAUIFeedItemMetadata@@PAUISyncChangeBatch@@PAUIDestinationChangeVersionsBuilder@@HPAUISyncKnowledge@@PAUIFeedItemMetadataFilter@@3@Z 50064388 f   feedsync_private:FeedSyncServices.obj
+ 0001:00003778       ?FindSyncChangeItemMetadata@FeedSyncServices@@AAAJPBEPAPAUIFeedItemMetadata@@@Z 50064778 f   feedsync_private:FeedSyncServices.obj
+ 0001:00003848       ?FindSyncVersionItemMetadata@FeedSyncServices@@AAAJPAUIFeedItemMetadata@@ABU_SYNC_VERSION@@PAPAU2@@Z 50064848 f   feedsync_private:FeedSyncServices.obj
+ 0001:000039a0       ?GetProduceChangeFlag@FeedSyncServices@@AAAJPAUISyncChange@@PAUISyncKnowledge@@PAK@Z 500649a0 f   feedsync_private:FeedSyncServices.obj
+ 0001:00003c24       ?AddReplicaKeysToBuilder@FeedSyncServices@@AAAJPAUIKnowledgeBuilder@@@Z 50064c24 f   feedsync_private:FeedSyncServices.obj
+ 0001:00003d04       ?CreateInitializeKnowledgeBuilder@FeedSyncServices@@AAAJPAPAUIKnowledgeBuilder@@@Z 50064d04 f   feedsync_private:FeedSyncServices.obj
+ 0001:00003eac       ?ResetState@FeedSyncServices@@AAAJXZ 50064eac f   feedsync_private:FeedSyncServices.obj
+ 0001:00003ef8       ?Pop@?$Stack@PAUIEnumFeedItemMetadata@@@@QAAJPAPAUIEnumFeedItemMetadata@@@Z 50064ef8 f i feedsync_private:FeedSyncServices.obj
+ 0001:00003f50       ?GetNextElement@?$TableEnumerator@KPAUSyncVersionEx@@V?$KeyHashCalculator@K@@@@QAAPAV?$TableElement@KPAUSyncVersionEx@@V?$KeyHashCalculator@K@@@@XZ 50064f50 f i feedsync_private:FeedSyncServices.obj
+ 0001:00003fcc       ??0SSEFeedBuilder@@QAA@PAUIFeedSyncServices@@PAVIdParameters@@PAEPAUIFeedIdConverter@@PAVSSEIdConversionCallback@@@Z 50064fcc f i feedsync_private:FeedSyncServices.obj
+ 0001:000040b0       ?InterfaceSupportsErrorInfo@SSEFeedBuilder@@UAAJABU_GUID@@@Z 500650b0 f i feedsync_private:FeedSyncServices.obj
+ 0001:000040b8       ?Release@SSEFeedBuilder@@W7AAKXZ 500650b8 f i feedsync_private:FeedSyncServices.obj
+ 0001:000040c0       ?Release@SSEFeedBuilder@@WM@AAKXZ 500650c0 f i feedsync_private:FeedSyncServices.obj
+ 0001:000040c8       ?AddRef@SSEFeedBuilder@@W3AAKXZ 500650c8 f i feedsync_private:FeedSyncServices.obj
+ 0001:000040d0       ?AddRef@SSEFeedBuilder@@W7AAKXZ 500650d0 f i feedsync_private:FeedSyncServices.obj
+ 0001:000040d8       ?AddRef@SSEFeedBuilder@@WM@AAKXZ 500650d8 f i feedsync_private:FeedSyncServices.obj
+ 0001:000040e0       ?QueryInterface@SSEFeedBuilder@@W3AAJABU_GUID@@PAPAX@Z 500650e0 f i feedsync_private:FeedSyncServices.obj
+ 0001:000040e8       ?QueryInterface@SSEFeedBuilder@@W7AAJABU_GUID@@PAPAX@Z 500650e8 f i feedsync_private:FeedSyncServices.obj
+ 0001:000040f0       ?QueryInterface@SSEFeedBuilder@@WM@AAJABU_GUID@@PAPAX@Z 500650f0 f i feedsync_private:FeedSyncServices.obj
+ 0001:000040f8       ?Release@SSEFeedBuilder@@W3AAKXZ 500650f8 f i feedsync_private:FeedSyncServices.obj
+ 0001:00004100       ?Release@SSEProducerConsumer@@W3AAKXZ 50065100 f i feedsync_private:FeedSyncServices.obj
+ 0001:00004108       ?AddRef@SSEProducerConsumer@@W3AAKXZ 50065108 f i feedsync_private:FeedSyncServices.obj
+ 0001:00004110       ?QueryInterface@SSEProducerConsumer@@W3AAJABU_GUID@@PAPAX@Z 50065110 f i feedsync_private:FeedSyncServices.obj
+ 0001:00004118       ?CopyIdFromInput@IdParameterPair@@QAAJPAPAEPBE@Z 50065118 f i feedsync_private:FeedSyncServices.obj
+ 0001:00004178       ?GetIdParameters@FeedSyncServices@@UAAJPAU_ID_PARAMETERS@@@Z 50065178 f   feedsync_private:FeedSyncServices.obj
+ 0001:000041ac       ?LoadChangeData@FeedSyncServices@@UAAJPAUILoadChangeContext@@PAPAUIUnknown@@@Z 500651ac f   feedsync_private:FeedSyncServices.obj
+ 0001:000043a8       ?ValidId@IdParameterPair@@QBAHPBE@Z 500653a8 f i feedsync_private:FeedSyncServices.obj
+ 0001:000043f8       ?CreateFeedBuilder@FeedSyncServices@@UAAJPAPAUIFeedBuilder@@@Z 500653f8 f   feedsync_private:FeedSyncServices.obj
+ 0001:000044e4       ?SetSSEMetadata@FeedSyncServices@@UAAJPAUIFeedMetadata@@@Z 500654e4 f   feedsync_private:FeedSyncServices.obj
+ 0001:00004548       ?CreateFeedProducer@FeedSyncServices@@UAAJPAPAUIFeedProducer@@@Z 50065548 f   feedsync_private:FeedSyncServices.obj
+ 0001:000045e8       ?CreateFeedConsumer@FeedSyncServices@@UAAJPAPAUIFeedConsumer@@@Z 500655e8 f   feedsync_private:FeedSyncServices.obj
+ 0001:00004688       ?GetLocalChangeVersions@FeedSyncServices@@AAAJPAUISyncChangeBatch@@PAUISyncKnowledge@@PAPAUIDestinationChangeVersionsBuilder@@@Z 50065688 f   feedsync_private:FeedSyncServices.obj
+ 0001:000049f8       ?FillChangeBatchWithItemChanges@FeedSyncServices@@AAAJPAUISyncChangeBatch@@PAUISyncKnowledge@@1PAUIFeedItemMetadataFilter@@KPAK@Z 500659f8 f   feedsync_private:FeedSyncServices.obj
+ 0001:00004aec       ?ClearItemEnumerationStack@FeedSyncServices@@AAAXXZ 50065aec f   feedsync_private:FeedSyncServices.obj
+ 0001:00004b34       ?Push@?$Stack@PAUIEnumFeedItemMetadata@@@@QAAJABQAUIEnumFeedItemMetadata@@@Z 50065b34 f i feedsync_private:FeedSyncServices.obj
+ 0001:00004b7c       ?Enqueue@?$PriorityQueue@K@@QAAJABK@Z 50065b7c f i feedsync_private:FeedSyncServices.obj
+ 0001:00004c08       ?Heapify@?$PriorityQueue@K@@AAAXK@Z 50065c08 f i feedsync_private:FeedSyncServices.obj
+ 0001:00004c88       ?FindNewBucket@?$HashTable@KPAUSyncVersionEx@@V?$KeyHashCalculator@K@@@@ABAJABKPAV?$TableBucket@KPAUSyncVersionEx@@V?$KeyHashCalculator@K@@@@KPAK@Z 50065c88 f i feedsync_private:FeedSyncServices.obj
+ 0001:00004d28       ?FindExistingBucket@?$HashTable@KPAUSyncVersionEx@@V?$KeyHashCalculator@K@@@@ABAJABKPAV?$TableBucket@KPAUSyncVersionEx@@V?$KeyHashCalculator@K@@@@KPAK@Z 50065d28 f i feedsync_private:FeedSyncServices.obj
+ 0001:00004dd0       ??0SSEIdConversionCallback@@QAA@PAVIdParameters@@@Z 50065dd0 f i feedsync_private:FeedSyncServices.obj
+ 0001:00004e14       ??0FeedSyncServices@@QAA@XZ 50065e14 f i feedsync_private:FeedSyncServices.obj
+ 0001:00004ecc       ?InterfaceSupportsErrorInfo@FeedSyncServices@@UAAJABU_GUID@@@Z 50065ecc f i feedsync_private:FeedSyncServices.obj
+ 0001:00004ed4       ?AddRef@FeedSyncServices@@W3AAKXZ 50065ed4 f i feedsync_private:FeedSyncServices.obj
+ 0001:00004edc       ?AddRef@FeedSyncServices@@W7AAKXZ 50065edc f i feedsync_private:FeedSyncServices.obj
+ 0001:00004ee4       ?QueryInterface@FeedSyncServices@@W3AAJABU_GUID@@PAPAX@Z 50065ee4 f i feedsync_private:FeedSyncServices.obj
+ 0001:00004eec       ?AddRef@FeedSyncServices@@WM@AAKXZ 50065eec f i feedsync_private:FeedSyncServices.obj
+ 0001:00004ef4       ?QueryInterface@FeedSyncServices@@W7AAJABU_GUID@@PAPAX@Z 50065ef4 f i feedsync_private:FeedSyncServices.obj
+ 0001:00004efc       ?AddRef@FeedSyncServices@@WBA@AAKXZ 50065efc f i feedsync_private:FeedSyncServices.obj
+ 0001:00004f04       ?QueryInterface@FeedSyncServices@@WM@AAJABU_GUID@@PAPAX@Z 50065f04 f i feedsync_private:FeedSyncServices.obj
+ 0001:00004f0c       ?AddRef@FeedSyncServices@@WBE@AAKXZ 50065f0c f i feedsync_private:FeedSyncServices.obj
+ 0001:00004f14       ?QueryInterface@FeedSyncServices@@WBA@AAJABU_GUID@@PAPAX@Z 50065f14 f i feedsync_private:FeedSyncServices.obj
+ 0001:00004f1c       ?QueryInterface@FeedSyncServices@@WBE@AAJABU_GUID@@PAPAX@Z 50065f1c f i feedsync_private:FeedSyncServices.obj
+ 0001:00004f24       ?LoadChangeData@FeedSyncServices@@W3AAJPAUILoadChangeContext@@PAPAUIUnknown@@@Z 50065f24 f i feedsync_private:FeedSyncServices.obj
+ 0001:00004f2c       ??0SSEMetadata@@QAA@PAVIdParameters@@@Z 50065f2c f i feedsync_private:FeedSyncServices.obj
+ 0001:00004f84       ?CreateSSESyncService@@YAJABU_GUID@@PAPAX@Z 50065f84 f   feedsync_private:FeedSyncServices.obj
+ 0001:000050bc       ?LoadFeed@FeedSyncServices@@UAAJPAUIStream@@@Z 500660bc f   feedsync_private:FeedSyncServices.obj
+ 0001:00005220       ?LoadFeedFromXMLDocument@FeedSyncServices@@UAAJPAUIXMLDOMDocument2@@@Z 50066220 f   feedsync_private:FeedSyncServices.obj
+ 0001:00005308       ?CreateEndpointState@FeedSyncServices@@UAAJPAPAUIEndpointState@@@Z 50066308 f   feedsync_private:FeedSyncServices.obj
+ 0001:000053a4       ?Dequeue@?$PriorityQueue@K@@QAAJPAK@Z 500663a4 f i feedsync_private:FeedSyncServices.obj
+ 0001:00005408       ?Initialize@?$HashTable@KPAUSyncVersionEx@@V?$KeyHashCalculator@K@@@@QAAJPAV?$KeyHashCalculator@K@@K@Z 50066408 f i feedsync_private:FeedSyncServices.obj
+ 0001:000054e4       ?LookupItem@?$HashTable@KPAUSyncVersionEx@@V?$KeyHashCalculator@K@@@@QBA_NABKAAPAUSyncVersionEx@@@Z 500664e4 f i feedsync_private:FeedSyncServices.obj
+ 0001:00005534       ?ContainsItem@?$HashTable@KPAUSyncVersionEx@@V?$KeyHashCalculator@K@@@@QBA_NABK@Z 50066534 f i feedsync_private:FeedSyncServices.obj
+ 0001:00005568       ?Resize@?$HashTable@KPAUSyncVersionEx@@V?$KeyHashCalculator@K@@@@QAAJXZ 50066568 f i feedsync_private:FeedSyncServices.obj
+ 0001:000056a8       ??1FeedSyncServices@@QAA@XZ 500666a8 f i feedsync_private:FeedSyncServices.obj
+ 0001:000057f8       ?Initialize@FeedSyncServices@@UAAJPBU_ID_PARAMETERS@@PBEPAUIFeedIdConverter@@@Z 500667f8 f   feedsync_private:FeedSyncServices.obj
+ 0001:00005b64       ?Initialize@?$HashTable@KPAUSyncVersionEx@@V?$KeyHashCalculator@K@@@@QAAJK@Z 50066b64 f i feedsync_private:FeedSyncServices.obj
+ 0001:00005bcc       ?AddItem@?$HashTable@KPAUSyncVersionEx@@V?$KeyHashCalculator@K@@@@QAAJABKABQAUSyncVersionEx@@@Z 50066bcc f i feedsync_private:FeedSyncServices.obj
+ 0001:00005c90       ?Release@FeedSyncServices@@UAAKXZ 50066c90 f   feedsync_private:FeedSyncServices.obj
+ 0001:00005cc8       ?CreateItemKnowledgeHelper@FeedSyncServices@@AAAJPAUIProviderSyncServices@@PAUIFeedItemMetadata@@PA_KHPAUIReplicaKeyMap@@PAUIKnowledgeBuilder@@@Z 50066cc8 f   feedsync_private:FeedSyncServices.obj
+ 0001:000063f0       ?FillChangeBatchWithConflictChanges@FeedSyncServices@@AAAJPAUIProviderSyncServices@@PAUISyncChangeBatch@@PAUISyncKnowledge@@2PAUIFeedItemMetadataFilter@@KPAK@Z 500673f0 f   feedsync_private:FeedSyncServices.obj
+ 0001:000066f4       ?Release@FeedSyncServices@@WM@AAKXZ 500676f4 f i feedsync_private:FeedSyncServices.obj
+ 0001:000066fc       ?Release@FeedSyncServices@@WBA@AAKXZ 500676fc f i feedsync_private:FeedSyncServices.obj
+ 0001:00006704       ?Release@FeedSyncServices@@WBE@AAKXZ 50067704 f i feedsync_private:FeedSyncServices.obj
+ 0001:0000670c       ?Release@FeedSyncServices@@W3AAKXZ 5006770c f i feedsync_private:FeedSyncServices.obj
+ 0001:00006714       ?Release@FeedSyncServices@@W7AAKXZ 50067714 f i feedsync_private:FeedSyncServices.obj
+ 0001:0000671c       ?CreateItemKnowledge@FeedSyncServices@@UAAJPAUIFeedItemMetadata@@PAPAUISyncKnowledge@@@Z 5006771c f   feedsync_private:FeedSyncServices.obj
+ 0001:000067e4       ?CreateKnowledgeForConflictItemMetadataEnum@FeedSyncServices@@AAAJPAUIProviderSyncServices@@PAUIEnumFeedItemMetadata@@HPA_KPAPAUISyncKnowledge@@@Z 500677e4 f   feedsync_private:FeedSyncServices.obj
+ 0001:00006aa0       ?CreateKnowledgeForItemMetadataEnum@FeedSyncServices@@AAAJPAUIProviderSyncServices@@PAUIEnumFeedItemMetadata@@HPA_KPAPAUISyncKnowledge@@@Z 50067aa0 f   feedsync_private:FeedSyncServices.obj
+ 0001:00006d20       ?GetKnowledgeAndCurrentTickCount@FeedSyncServices@@AAAJHPAPAUISyncKnowledge@@PA_K@Z 50067d20 f   feedsync_private:FeedSyncServices.obj
+ 0001:00006f1c       ?GetKnowledgeWithoutConflicts@FeedSyncServices@@AAAJPAPAUISyncKnowledge@@@Z 50067f1c f   feedsync_private:FeedSyncServices.obj
+ 0001:00006f9c       ?GetKnowledge@FeedSyncServices@@UAAJPAPAUISyncKnowledge@@@Z 50067f9c f   feedsync_private:FeedSyncServices.obj
+ 0001:0000701c       ?GetCurrentTickCount@FeedSyncServices@@UAAJPA_K@Z 5006801c f   feedsync_private:FeedSyncServices.obj
+ 0001:000070a0       ?GetChangeBatch@FeedSyncServices@@UAAJKPAUISyncKnowledge@@PAUISyncFilterInfo@@PAUIFeedItemMetadataFilter@@PAPAUISyncChangeBatch@@PAPAUIUnknown@@@Z 500680a0 f   feedsync_private:FeedSyncServices.obj
+ 0001:00007470       ?ProcessChangeBatch@FeedSyncServices@@UAAJW4__MIDL___MIDL_itf_synchronization_0000_0000_0001@@PAUISyncChangeBatch@@PAUIUnknown@@PAUISynchronousNotifyingChangeApplierTarget@@PAUISyncSessionState@@PAUISyncCallback@@@Z 50068470 f   feedsync_private:FeedSyncServices.obj
+ 0001:00007684       ?GetLatestItemHistoryVersion@FeedSyncServices@@UAAJPAUIFeedItemMetadata@@PAU_SYNC_VERSION@@@Z 50068684 f   feedsync_private:FeedSyncServices.obj
+ 0001:000077f8       ?InitializeFeedSyncLibrary@@YAJXZ 500687f8 f   feedsync_private:main.obj
+ 0001:00007800       ?ShutdownFeedSyncLibrary@@YAJXZ 50068800 f   feedsync_private:main.obj
+ 0001:00007808       ?WriteXmlAttributeValue@@YAJPAUIXMLDOMElement@@PBG1@Z 50068808 f   feedsync_private:FeedBuilder.obj
+ 0001:000078a8       ?WriteXmlAttributeValue@@YAJPAUIXMLDOMElement@@PBGH@Z 500688a8 f   feedsync_private:FeedBuilder.obj
+ 0001:00007958       ?WriteXmlAttributeValue@@YAJPAUIXMLDOMElement@@PBGK@Z 50068958 f   feedsync_private:FeedBuilder.obj
+ 0001:000079d4       ?Initialize@SSEFeedBuilder@@QAAJPAUIFeedMetadata@@@Z 500689d4 f   feedsync_private:FeedBuilder.obj
+ 0001:00007b6c       ?QueryInterface@SSEFeedBuilder@@UAAJABU_GUID@@PAPAX@Z 50068b6c f   feedsync_private:FeedBuilder.obj
+ 0001:00007c80       ?AddRef@SSEFeedBuilder@@UAAKXZ 50068c80 f   feedsync_private:FeedBuilder.obj
+ 0001:00007c88       ?Save@SSEFeedBuilder@@UAAJPAUIStream@@@Z 50068c88 f   feedsync_private:FeedBuilder.obj
+ 0001:00007d04       ?CreateSSEItemData@SSEFeedBuilder@@UAAJPBGPAPAUIUnknown@@@Z 50068d04 f   feedsync_private:FeedBuilder.obj
+ 0001:00007e90       ?MergeFeedItemDataText@SSEFeedBuilder@@AAAJPAUISSEItemDataTextMerger@@PAUIXMLDOMElement@@1PAPAU3@@Z 50068e90 f   feedsync_private:FeedBuilder.obj
+ 0001:00007fe4       ?VerifyExpectedLocalChangeVersion@SSEFeedBuilder@@AAAJPAUISaveChangeContext@@PAUISyncChange@@@Z 50068fe4 f   feedsync_private:FeedBuilder.obj
+ 0001:000082b0       ?FindItemXmlElement@SSEFeedBuilder@@AAAJPAGPAPAUIXMLDOMElement@@@Z 500692b0 f   feedsync_private:FeedBuilder.obj
+ 0001:00008498       ?CreateXmlElement@SSEFeedBuilder@@AAAJPAUIXMLDOMNode@@PAG1PAPAUIXMLDOMElement@@@Z 50069498 f   feedsync_private:FeedBuilder.obj
+ 0001:0000856c       ?OverwriteItemData@SSEFeedBuilder@@AAAJPAUIXMLDOMElement@@0@Z 5006956c f   feedsync_private:FeedBuilder.obj
+ 0001:0000879c       ?WriteHistoryVersion@SSEFeedBuilder@@AAAJPAUIXMLDOMElement@@PAUIReplicaKeyMap@@PAUSyncVersion@@H@Z 5006979c f   feedsync_private:FeedBuilder.obj
+ 0001:00008b14       ?WriteLastUpdateVersionForClockVector@SSEFeedBuilder@@AAAJPAUIClockVector@@PAUIReplicaKeyMap@@PAU_SYNC_VERSION@@PAUIXMLDOMElement@@@Z 50069b14 f   feedsync_private:FeedBuilder.obj
+ 0001:00008cf0       ?WriteLastUpdateVersionForFeedClockVector@SSEFeedBuilder@@AAAJPAUIFeedClockVector@@PAUIReplicaKeyMap@@PAU_SYNC_VERSION@@PAUIXMLDOMElement@@PAKPAH@Z 50069cf0 f   feedsync_private:FeedBuilder.obj
+ 0001:00008f70       ?NotifyFeedBuilderDestroyed@SSEFeedBuilder@@AAAXXZ 50069f70 f   feedsync_private:FeedBuilder.obj
+ 0001:00008fcc       ??1?$Vector@PAUIFeedItemMetadata@@$00@@QAA@XZ 50069fcc f i feedsync_private:FeedBuilder.obj
+ 0001:00009024       ?Add@?$Vector@PAUIFeedItemMetadata@@$00@@QAAJABQAUIFeedItemMetadata@@@Z 5006a024 f i feedsync_private:FeedBuilder.obj
+ 0001:00009124       ?CreateXmlElement@SSEFeedBuilder@@AAAJPAUIXMLDOMNode@@PBG1PAPAUIXMLDOMElement@@@Z 5006a124 f   feedsync_private:FeedBuilder.obj
+ 0001:000091b4       ?WriteItemHistory@SSEFeedBuilder@@AAAJPAUIXMLDOMElement@@PAUISyncChange@@PBEPAUISyncKnowledge@@@Z 5006a1b4 f   feedsync_private:FeedBuilder.obj
+ 0001:000095cc       ??0SSEItemMetadata@@QAA@PAVIdParameters@@W4SSE_FEED_TYPE@@@Z 5006a5cc f i feedsync_private:FeedBuilder.obj
+ 0001:00009640       ?QueryInterface@SSEItemMetadata@@W3AAJABU_GUID@@PAPAX@Z 5006a640 f i feedsync_private:FeedBuilder.obj
+ 0001:00009648       ?Release@SSEItemMetadata@@W3AAKXZ 5006a648 f i feedsync_private:FeedBuilder.obj
+ 0001:00009650       ?AddRef@SSEItemMetadata@@W3AAKXZ 5006a650 f i feedsync_private:FeedBuilder.obj
+ 0001:00009658       ?ClearSavedConflicts@SSEFeedBuilder@@AAAJPAUIXMLDOMElement@@PAUIFeedItemMetadata@@PBEPAUISyncKnowledge@@@Z 5006a658 f   feedsync_private:FeedBuilder.obj
+ 0001:00009ab8       ?WriteItemSSEMetadata@SSEFeedBuilder@@AAAJPAUIXMLDOMElement@@PAUISyncChange@@PBEPBGPAUISyncKnowledge@@HPAPAUIFeedItemMetadata@@@Z 5006aab8 f   feedsync_private:FeedBuilder.obj
+ 0001:00009fcc       ??1SSEFeedBuilder@@QAA@XZ  5006afcc f i feedsync_private:FeedBuilder.obj
+ 0001:0000a0a4       ?SaveConflictHelper@SSEFeedBuilder@@AAAJPAUISyncChange@@PAUIUnknown@@PBGPAUISyncKnowledge@@@Z 5006b0a4 f   feedsync_private:FeedBuilder.obj
+ 0001:0000a9e0       ?InternalSaveChange@SSEFeedBuilder@@AAAJPAUISaveChangeContext@@PAUISyncChange@@PAUISyncKnowledge@@PAUIUnknown@@HPAUIFeedItemDataMerger@@@Z 5006b9e0 f   feedsync_private:FeedBuilder.obj
+ 0001:0000af84       ?Release@SSEFeedBuilder@@UAAKXZ 5006bf84 f   feedsync_private:FeedBuilder.obj
+ 0001:0000afbc       ?SaveConflict@SSEFeedBuilder@@UAAJPAUISyncChange@@PAUIUnknown@@PAUISyncKnowledge@@@Z 5006bfbc f   feedsync_private:FeedBuilder.obj
+ 0001:0000afdc       ?SaveConflictDataText@SSEFeedBuilder@@UAAJPAUISyncChange@@PBGPAUISyncKnowledge@@@Z 5006bfdc f   feedsync_private:FeedBuilder.obj
+ 0001:0000b004       ?SaveChangeHelper@SSEFeedBuilder@@AAAJW4__MIDL___MIDL_itf_synchronization_0000_0009_0001@@PAUISyncChange@@PAUISaveChangeContext@@PAUIUnknown@@PBGPAUIFeedItemDataMerger@@@Z 5006c004 f   feedsync_private:FeedBuilder.obj
+ 0001:0000b1bc       ?SaveChange@SSEFeedBuilder@@UAAJW4__MIDL___MIDL_itf_synchronization_0000_0009_0001@@PAUISyncChange@@PAUISaveChangeContext@@PAUIFeedItemDataMerger@@@Z 5006c1bc f   feedsync_private:FeedBuilder.obj
+ 0001:0000b1e4       ?SaveChangeData@SSEFeedBuilder@@UAAJW4__MIDL___MIDL_itf_synchronization_0000_0009_0001@@PAUISyncChange@@PAUISaveChangeContext@@PAUIUnknown@@@Z 5006c1e4 f   feedsync_private:FeedBuilder.obj
+ 0001:0000b210       ?SaveChangeDataText@SSEFeedBuilder@@UAAJW4__MIDL___MIDL_itf_synchronization_0000_0009_0001@@PAUISyncChange@@PAUISaveChangeContext@@PBGPAUISSEItemDataTextMerger@@@Z 5006c210 f   feedsync_private:FeedBuilder.obj
+ 0001:0000b2c8       ?QueryInterface@SSEProducerConsumer@@UAAJABU_GUID@@PAPAX@Z 5006c2c8 f   feedsync_private:FeedProducerConsumer.obj
+ 0001:0000b388       ?AddRef@SSEProducerConsumer@@UAAKXZ 5006c388 f   feedsync_private:FeedProducerConsumer.obj
+ 0001:0000b390       ?Release@SSEProducerConsumer@@UAAKXZ 5006c390 f   feedsync_private:FeedProducerConsumer.obj
+ 0001:0000b3dc       ??0FeedProducerConsumerProvider@@QAA@PAUIFeedSyncServices@@PAUIStream@@PAUIFeedItemConverter@@PAU_ID_PARAMETERS@@PAUISyncKnowledge@@K@Z 5006c3dc f i feedsync_private:FeedProducerConsumer.obj
+ 0001:0000b4c0       ?GetDestinationVersion@FeedProducerConsumerProvider@@UAAJPAUISyncChange@@PAPAU2@@Z 5006c4c0 f i feedsync_private:FeedProducerConsumer.obj
+ 0001:0000b4cc       ?SaveChangeWithChangeUnits@FeedProducerConsumerProvider@@UAAJPAUISyncChange@@PAUISaveChangeWithChangeUnitsContext@@@Z 5006c4cc f i feedsync_private:FeedProducerConsumer.obj
+ 0001:0000b4d8       ?OnProgress@FeedProducerConsumerProvider@@UAAJW4__MIDL___MIDL_itf_synchronization_0000_0000_0003@@W4__MIDL___MIDL_itf_synchronization_0000_0000_0002@@KK@Z 5006c4d8 f i feedsync_private:FeedProducerConsumer.obj
+ 0001:0000b4e0       ?OnChange@FeedProducerConsumerProvider@@UAAJPAUISyncChange@@@Z 5006c4e0 f i feedsync_private:FeedProducerConsumer.obj
+ 0001:0000b4e8       ?OnConflict@FeedProducerConsumerProvider@@UAAJPAUIChangeConflict@@@Z 5006c4e8 f i feedsync_private:FeedProducerConsumer.obj
+ 0001:0000b504       ?OnFullEnumerationNeeded@FeedProducerConsumerProvider@@UAAJPAW4__MIDL___MIDL_itf_synchronization_0000_0038_0001@@@Z 5006c504 f i feedsync_private:FeedProducerConsumer.obj
+ 0001:0000b514       ?OnRecoverableError@FeedProducerConsumerProvider@@UAAJPAUIRecoverableError@@@Z 5006c514 f i feedsync_private:FeedProducerConsumer.obj
+ 0001:0000b51c       ?QueryInterface@FeedProducerConsumerProvider@@WM@AAJABU_GUID@@PAPAX@Z 5006c51c f i feedsync_private:FeedProducerConsumer.obj
+ 0001:0000b524       ?GetIdParameters@FeedProducerConsumerProvider@@W7AAJPAU_ID_PARAMETERS@@@Z 5006c524 f i feedsync_private:FeedProducerConsumer.obj
+ 0001:0000b52c       ?Release@FeedProducerConsumerProvider@@W3AAKXZ 5006c52c f i feedsync_private:FeedProducerConsumer.obj
+ 0001:0000b534       ?Release@FeedProducerConsumerProvider@@W7AAKXZ 5006c534 f i feedsync_private:FeedProducerConsumer.obj
+ 0001:0000b53c       ?Release@FeedProducerConsumerProvider@@WM@AAKXZ 5006c53c f i feedsync_private:FeedProducerConsumer.obj
+ 0001:0000b544       ?AddRef@FeedProducerConsumerProvider@@W3AAKXZ 5006c544 f i feedsync_private:FeedProducerConsumer.obj
+ 0001:0000b54c       ?AddRef@FeedProducerConsumerProvider@@W7AAKXZ 5006c54c f i feedsync_private:FeedProducerConsumer.obj
+ 0001:0000b554       ?QueryInterface@FeedProducerConsumerProvider@@W3AAJABU_GUID@@PAPAX@Z 5006c554 f i feedsync_private:FeedProducerConsumer.obj
+ 0001:0000b55c       ?AddRef@FeedProducerConsumerProvider@@WM@AAKXZ 5006c55c f i feedsync_private:FeedProducerConsumer.obj
+ 0001:0000b564       ?QueryInterface@FeedProducerConsumerProvider@@W7AAJABU_GUID@@PAPAX@Z 5006c564 f i feedsync_private:FeedProducerConsumer.obj
+ 0001:0000b56c       ?GetIdParameters@FeedProducerConsumerProvider@@W3AAJPAU_ID_PARAMETERS@@@Z 5006c56c f i feedsync_private:FeedProducerConsumer.obj
+ 0001:0000b574       ?ProduceFeed@SSEProducerConsumer@@UAAJPAUISyncProvider@@PAUIFeedIdConverter@@PAUIFeedItemConverter@@PAUIEndpointState@@PAUIStream@@@Z 5006c574 f   feedsync_private:FeedProducerConsumer.obj
+ 0001:0000bdb0       ?ConsumeFeed@SSEProducerConsumer@@UAAJPAUISyncProvider@@PAUIFeedIdConverter@@PAUIFeedItemConverter@@W4__MIDL___MIDL_itf_synchronization_0000_0000_0001@@PAUISyncCallback@@PAUIStream@@PAPAUIEndpointState@@@Z 5006cdb0 f   feedsync_private:FeedProducerConsumer.obj
+ 0001:0000c1e8       ?QueryInterface@SSEDefaultIdConverter@@UAAJABU_GUID@@PAPAX@Z 5006d1e8 f   feedsync_private:FeedIdConverter.obj
+ 0001:0000c278       ?AddRef@SSEDefaultIdConverter@@UAAKXZ 5006d278 f   feedsync_private:FeedIdConverter.obj
+ 0001:0000c280       ?ConvertReplicaIdToString@SSEDefaultIdConverter@@UAAJPBEPAUIFeedIdConverterCallback@@@Z 5006d280 f   feedsync_private:FeedIdConverter.obj
+ 0001:0000c2dc       ?ConvertItemIdToString@SSEDefaultIdConverter@@UAAJPBEPAUIFeedIdConverterCallback@@@Z 5006d2dc f   feedsync_private:FeedIdConverter.obj
+ 0001:0000c33c       ?QueryInterface@SSEIdConversionCallback@@UAAJABU_GUID@@PAPAX@Z 5006d33c f   feedsync_private:FeedIdConverter.obj
+ 0001:0000c3e8       ?AddRef@SSEIdConversionCallback@@UAAKXZ 5006d3e8 f   feedsync_private:FeedIdConverter.obj
+ 0001:0000c3f0       ?GetString@SSEIdConversionCallback@@UAAJPAPAG@Z 5006d3f0 f   feedsync_private:FeedIdConverter.obj
+ 0001:0000c42c       ?StringConversionComplete@SSEIdConversionCallback@@AAAJPBG@Z 5006d42c f   feedsync_private:FeedIdConverter.obj
+ 0001:0000c4c0       ?GetIdParameters@SSEDefaultIdConverter@@UAAJPAU_ID_PARAMETERS@@@Z 5006d4c0 f   feedsync_private:FeedIdConverter.obj
+ 0001:0000c4c8       ?ConvertStringToReplicaId@SSEDefaultIdConverter@@UAAJPBGPAUIFeedIdConverterCallback@@@Z 5006d4c8 f   feedsync_private:FeedIdConverter.obj
+ 0001:0000c53c       ?ConvertStringToItemId@SSEDefaultIdConverter@@UAAJPBGPAUIFeedIdConverterCallback@@@Z 5006d53c f   feedsync_private:FeedIdConverter.obj
+ 0001:0000c5b4       ?GenerateAnonymousReplicaId@SSEDefaultIdConverter@@UAAJPBGKPAUIFeedIdConverterCallback@@@Z 5006d5b4 f   feedsync_private:FeedIdConverter.obj
+ 0001:0000c6f4       ?ConvertReplicaIdToStringComplete@SSEIdConversionCallback@@UAAJPBG@Z 5006d6f4 f   feedsync_private:FeedIdConverter.obj
+ 0001:0000c6f8       ?ConvertItemIdToStringComplete@SSEIdConversionCallback@@UAAJPBG@Z 5006d6f8 f   feedsync_private:FeedIdConverter.obj
+ 0001:0000c6fc       ?GetId@SSEIdConversionCallback@@UAAJPAPAE@Z 5006d6fc f   feedsync_private:FeedIdConverter.obj
+ 0001:0000c744       ?Clear@SSEIdConversionCallback@@UAAJXZ 5006d744 f   feedsync_private:FeedIdConverter.obj
+ 0001:0000c788       ?IdConversionComplete@SSEIdConversionCallback@@AAAJPBEPAUIdParameterPair@@@Z 5006d788 f   feedsync_private:FeedIdConverter.obj
+ 0001:0000c7dc       ??1SSEDefaultIdConverter@@QAA@XZ 5006d7dc f i feedsync_private:FeedIdConverter.obj
+ 0001:0000c818       ??1SSEIdConversionCallback@@QAA@XZ 5006d818 f i feedsync_private:FeedIdConverter.obj
+ 0001:0000c87c       ?ConvertStringToReplicaIdComplete@SSEIdConversionCallback@@UAAJPBE@Z 5006d87c f   feedsync_private:FeedIdConverter.obj
+ 0001:0000c884       ?ConvertStringToItemIdComplete@SSEIdConversionCallback@@UAAJPBE@Z 5006d884 f   feedsync_private:FeedIdConverter.obj
+ 0001:0000c890       ?GenerateAnonymousReplicaIdComplete@SSEIdConversionCallback@@UAAJPBE@Z 5006d890 f   feedsync_private:FeedIdConverter.obj
+ 0001:0000c898       ?Release@SSEDefaultIdConverter@@UAAKXZ 5006d898 f   feedsync_private:FeedIdConverter.obj
+ 0001:0000c8d0       ?Release@SSEIdConversionCallback@@UAAKXZ 5006d8d0 f   feedsync_private:FeedIdConverter.obj
+ 0001:0000c908       ??1SSESharingInformation@@QAA@XZ 5006d908 f i feedsync_private:FeedMetadata.obj
+ 0001:0000c948       ?ReadXmlAttributeValue@@YAJPAUIXMLDOMNamedNodeMap@@PBGHHPAPAG@Z 5006d948 f   feedsync_private:FeedMetadata.obj
+ 0001:0000caa4       ?ReadXmlAttributeValue@@YAJPAUIXMLDOMNamedNodeMap@@PBGHKPAK@Z 5006daa4 f   feedsync_private:FeedMetadata.obj
+ 0001:0000cbac       ?ReadXmlAttributeValue@@YAJPAUIXMLDOMNamedNodeMap@@PBGHHPAH@Z 5006dbac f   feedsync_private:FeedMetadata.obj
+ 0001:0000ccd4       ?RemoveXmlAttribute@@YAJPAUIXMLDOMNamedNodeMap@@PBG@Z 5006dcd4 f   feedsync_private:FeedMetadata.obj
+ 0001:0000cd24       ?HToNCopyLPCWSTR@@YAXPAEPBG@Z 5006dd24 f i feedsync_private:FeedMetadata.obj
+ 0001:0000cd64       ?SetXmlDocumentProperty@@YAJPAUIXMLDOMDocument2@@PBG1@Z 5006dd64 f   feedsync_private:FeedMetadata.obj
+ 0001:0000ce04       ?VerifySSENamespaceURI@@YAJPAUIXMLDOMNode@@@Z 5006de04 f   feedsync_private:FeedMetadata.obj
+ 0001:0000ce80       ?NToHCopyLPWSTR@@YAXPAGKPBEK@Z 5006de80 f i feedsync_private:FeedMetadata.obj
+ 0001:0000ced4       ?ClearItemSSEMetadata@@YAJPAUIXMLDOMElement@@HH@Z 5006ded4 f   feedsync_private:FeedMetadata.obj
+ 0001:0000d3c8       ?LoadFromXmlNode@SSEItemHistory@@QAAJPAUIXMLDOMNode@@@Z 5006e3c8 f   feedsync_private:FeedMetadata.obj
+ 0001:0000d560       ?QueryInterface@SSEItemHistory@@UAAJABU_GUID@@PAPAX@Z 5006e560 f   feedsync_private:FeedMetadata.obj
+ 0001:0000d634       ?AddRef@SSEItemHistory@@UAAKXZ 5006e634 f   feedsync_private:FeedMetadata.obj
+ 0001:0000d63c       ?GetSequence@SSEItemHistory@@UAAJPAK@Z 5006e63c f   feedsync_private:FeedMetadata.obj
+ 0001:0000d65c       ?GetWhen@SSEItemHistory@@UAAJPAKPAG@Z 5006e65c f   feedsync_private:FeedMetadata.obj
+ 0001:0000d704       ?GetBy@SSEItemHistory@@UAAJPAKPAG@Z 5006e704 f   feedsync_private:FeedMetadata.obj
+ 0001:0000d7ac       ?GetWhenInternal@SSEItemHistory@@UAAJPAPAG@Z 5006e7ac f   feedsync_private:FeedMetadata.obj
+ 0001:0000d7bc       ?GetByInternal@SSEItemHistory@@UAAJPAPAG@Z 5006e7bc f   feedsync_private:FeedMetadata.obj
+ 0001:0000d7cc       ?GetReplicaId@SSEItemHistory@@UAAJPAUIFeedIdConverter@@PAUIFeedIdConverterCallback@@PAPAE@Z 5006e7cc f   feedsync_private:FeedMetadata.obj
+ 0001:0000d8e8       ?LoadSSEItemHistory@SSEItemHistory@@UAAJPAUIFeedItemHistoryLoaderCallback@@@Z 5006e8e8 f   feedsync_private:FeedMetadata.obj
+ 0001:0000d938       ?QueryInterface@SSEItemMetadata@@UAAJABU_GUID@@PAPAX@Z 5006e938 f   feedsync_private:FeedMetadata.obj
+ 0001:0000da0c       ?AddRef@SSEItemMetadata@@UAAKXZ 5006ea0c f   feedsync_private:FeedMetadata.obj
+ 0001:0000da14       ?GetItemId@SSEItemMetadata@@UAAJPAKPAG@Z 5006ea14 f   feedsync_private:FeedMetadata.obj
+ 0001:0000daa4       ?GetUpdateCount@SSEItemMetadata@@UAAJPAK@Z 5006eaa4 f   feedsync_private:FeedMetadata.obj
+ 0001:0000dac4       ?GetIsTombstone@SSEItemMetadata@@UAAJPAH@Z 5006eac4 f   feedsync_private:FeedMetadata.obj
+ 0001:0000dae4       ?GetIsNoConflicts@SSEItemMetadata@@UAAJPAH@Z 5006eae4 f   feedsync_private:FeedMetadata.obj
+ 0001:0000db04       ?GetItemData@SSEItemMetadata@@UAAJPAPAUIUnknown@@@Z 5006eb04 f   feedsync_private:FeedMetadata.obj
+ 0001:0000db44       ?CreateItemKnowledge@SSEItemMetadata@@UAAJPAUIFeedSyncServices@@PAPAUISyncKnowledge@@@Z 5006eb44 f   feedsync_private:FeedMetadata.obj
+ 0001:0000dbd8       ?GetItemIdInternal@SSEItemMetadata@@UAAJPAPAG@Z 5006ebd8 f   feedsync_private:FeedMetadata.obj
+ 0001:0000dbf8       ?LoadSSEItemMetadata@SSEItemMetadata@@UAAJPAUIFeedItemMetadataLoaderCallback@@@Z 5006ebf8 f   feedsync_private:FeedMetadata.obj
+ 0001:0000dcc0       ?LoadFromXmlNode@SSESharingInformation@@QAAJPAUIXMLDOMNode@@@Z 5006ecc0 f   feedsync_private:FeedMetadata.obj
+ 0001:0000df18       ?QueryInterface@SSESharingInformation@@UAAJABU_GUID@@PAPAX@Z 5006ef18 f   feedsync_private:FeedMetadata.obj
+ 0001:0000dfec       ?AddRef@SSESharingInformation@@UAAKXZ 5006efec f   feedsync_private:FeedMetadata.obj
+ 0001:0000dff4       ?GetSince@SSESharingInformation@@UAAJPAKPAG@Z 5006eff4 f   feedsync_private:FeedMetadata.obj
+ 0001:0000e0bc       ?GetUntil@SSESharingInformation@@UAAJPAKPAG@Z 5006f0bc f   feedsync_private:FeedMetadata.obj
+ 0001:0000e184       ?GetExpires@SSESharingInformation@@UAAJPAKPAG@Z 5006f184 f   feedsync_private:FeedMetadata.obj
+ 0001:0000e24c       ?GetIsPartialFeed@SSESharingInformation@@UAAJPAH@Z 5006f24c f   feedsync_private:FeedMetadata.obj
+ 0001:0000e26c       ?LoadSSESharingInformation@SSESharingInformation@@UAAJPAUIFeedSharingInformationLoaderCallback@@@Z 5006f26c f   feedsync_private:FeedMetadata.obj
+ 0001:0000e2c4       ?QueryInterface@SSEMetadata@@UAAJABU_GUID@@PAPAX@Z 5006f2c4 f   feedsync_private:FeedMetadata.obj
+ 0001:0000e370       ?AddRef@SSEMetadata@@UAAKXZ 5006f370 f   feedsync_private:FeedMetadata.obj
+ 0001:0000e378       ?GetSharingInformation@SSEMetadata@@UAAJPAPAUIFeedSharingInformation@@@Z 5006f378 f   feedsync_private:FeedMetadata.obj
+ 0001:0000e3cc       ?GetFeedXmlDocument@SSEMetadata@@UAAJPAPAUIXMLDOMDocument2@@@Z 5006f3cc f   feedsync_private:FeedMetadata.obj
+ 0001:0000e40c       ?Save@SSEMetadata@@UAAJPAUIStream@@@Z 5006f40c f   feedsync_private:FeedMetadata.obj
+ 0001:0000e48c       ?GetFeedType@SSEMetadata@@UAAJPAW4SSE_FEED_TYPE@@@Z 5006f48c f   feedsync_private:FeedMetadata.obj
+ 0001:0000e4ac       ??1?$Vector@PAUIFeedItemHistory@@$00@@QAA@XZ 5006f4ac f i feedsync_private:FeedMetadata.obj
+ 0001:0000e504       ?Add@?$Vector@PAUIFeedItemHistory@@$00@@QAAJABQAUIFeedItemHistory@@@Z 5006f504 f i feedsync_private:FeedMetadata.obj
+ 0001:0000e604       ?Remove@?$Vector@PAUIFeedItemMetadata@@$00@@QAAJK@Z 5006f604 f i feedsync_private:FeedMetadata.obj
+ 0001:0000e72c       ?GetNextElement@?$TableEnumerator@PAGPAUIFeedItemMetadata@@V?$KeyHashCalculator@PAG@@@@QAAPAV?$TableElement@PAGPAUIFeedItemMetadata@@V?$KeyHashCalculator@PAG@@@@XZ 5006f72c f i feedsync_private:FeedMetadata.obj
+ 0001:0000e7a8       ?AddRef@SSESharingInformation@@W3AAKXZ 5006f7a8 f i feedsync_private:FeedMetadata.obj
+ 0001:0000e7b0       ?QueryInterface@SSESharingInformation@@W3AAJABU_GUID@@PAPAX@Z 5006f7b0 f i feedsync_private:FeedMetadata.obj
+ 0001:0000e7b8       ?HashKey@?$KeyHashCalculator@PAG@@QAAKABQAG@Z 5006f7b8 f i feedsync_private:FeedMetadata.obj
+ 0001:0000e834       ??_G?$HashTable@PAGPAUIFeedItemMetadata@@V?$KeyHashCalculator@PAG@@@@QAAPAXI@Z 5006f834 f i feedsync_private:FeedMetadata.obj
+ 0001:0000e87c       ?CreateXmlDocument@@YAJPAPAUIXMLDOMDocument2@@@Z 5006f87c f   feedsync_private:FeedMetadata.obj
+ 0001:0000e918       ?RemoveItemConflict@SSEItemMetadata@@UAAJPAUIFeedItemMetadata@@@Z 5006f918 f   feedsync_private:FeedMetadata.obj
+ 0001:0000e9c4       ?HasItemConflicts@SSEItemMetadata@@UAAJPAH@Z 5006f9c4 f   feedsync_private:FeedMetadata.obj
+ 0001:0000e9f0       ?Release@SSESharingInformation@@UAAKXZ 5006f9f0 f   feedsync_private:FeedMetadata.obj
+ 0001:0000ea28       ?CleanupItemMetadataTable@SSEMetadata@@AAAXPAV?$TableEnumerator@PAGPAUIFeedItemMetadata@@V?$KeyHashCalculator@PAG@@@@@Z 5006fa28 f   feedsync_private:FeedMetadata.obj
+ 0001:0000ea64       ??0?$VectorEnumerator@PAUIFeedItemHistory@@UIEnumFeedItemHistory@@@@QAA@PAV?$EnumerableVector@PAUIFeedItemHistory@@UIEnumFeedItemHistory@@@@K@Z 5006fa64 f i feedsync_private:FeedMetadata.obj
+ 0001:0000eab4       ?QueryInterface@?$VectorEnumerator@PAUIFeedItemHistory@@UIEnumFeedItemHistory@@@@UAAJABU_GUID@@PAPAX@Z 5006fab4 f i feedsync_private:FeedMetadata.obj
+ 0001:0000eb44       ?AddRef@?$VectorEnumerator@PAUIFeedItemHistory@@UIEnumFeedItemHistory@@@@UAAKXZ 5006fb44 f i feedsync_private:FeedMetadata.obj
+ 0001:0000eb4c       ?Reset@?$VectorEnumerator@PAUIFeedItemHistory@@UIEnumFeedItemHistory@@@@UAAJXZ 5006fb4c f i feedsync_private:FeedMetadata.obj
+ 0001:0000eb5c       ?GetBatch@?$Vector@PAUIFeedItemHistory@@$00@@QBAJKKPAPAUIFeedItemHistory@@PAK@Z 5006fb5c f i feedsync_private:FeedMetadata.obj
+ 0001:0000ebe0       ?Next@?$VectorEnumerator@PAUIFeedItemHistory@@UIEnumFeedItemHistory@@@@UAAJKPAPAUIFeedItemHistory@@PAK@Z 5006fbe0 f i feedsync_private:FeedMetadata.obj
+ 0001:0000ec80       ?Skip@?$VectorEnumerator@PAUIFeedItemHistory@@UIEnumFeedItemHistory@@@@UAAJK@Z 5006fc80 f i feedsync_private:FeedMetadata.obj
+ 0001:0000ecb4       ?Clone@?$VectorEnumerator@PAUIFeedItemHistory@@UIEnumFeedItemHistory@@@@UAAJPAPAUIEnumFeedItemHistory@@@Z 5006fcb4 f i feedsync_private:FeedMetadata.obj
+ 0001:0000ed3c       ??0?$VectorEnumerator@PAUIFeedItemMetadata@@UIEnumFeedItemMetadata@@@@QAA@PAV?$EnumerableVector@PAUIFeedItemMetadata@@UIEnumFeedItemMetadata@@@@K@Z 5006fd3c f i feedsync_private:FeedMetadata.obj
+ 0001:0000ed8c       ?QueryInterface@?$VectorEnumerator@PAUIFeedItemMetadata@@UIEnumFeedItemMetadata@@@@UAAJABU_GUID@@PAPAX@Z 5006fd8c f i feedsync_private:FeedMetadata.obj
+ 0001:0000ee1c       ?AddRef@?$VectorEnumerator@PAUIFeedItemMetadata@@UIEnumFeedItemMetadata@@@@UAAKXZ 5006fe1c f i feedsync_private:FeedMetadata.obj
+ 0001:0000ee24       ?Skip@?$VectorEnumerator@PAUIFeedItemMetadata@@UIEnumFeedItemMetadata@@@@UAAJK@Z 5006fe24 f i feedsync_private:FeedMetadata.obj
+ 0001:0000ee58       ?Reset@?$VectorEnumerator@PAUIFeedItemMetadata@@UIEnumFeedItemMetadata@@@@UAAJXZ 5006fe58 f i feedsync_private:FeedMetadata.obj
+ 0001:0000ee68       ?GetBatch@?$Vector@PAUIFeedItemMetadata@@$00@@QBAJKKPAPAUIFeedItemMetadata@@PAK@Z 5006fe68 f i feedsync_private:FeedMetadata.obj
+ 0001:0000eeec       ?Next@?$VectorEnumerator@PAUIFeedItemMetadata@@UIEnumFeedItemMetadata@@@@UAAJKPAPAUIFeedItemMetadata@@PAK@Z 5006feec f i feedsync_private:FeedMetadata.obj
+ 0001:0000ef8c       ?Clone@?$VectorEnumerator@PAUIFeedItemMetadata@@UIEnumFeedItemMetadata@@@@UAAJPAPAUIEnumFeedItemMetadata@@@Z 5006ff8c f i feedsync_private:FeedMetadata.obj
+ 0001:0000f014       ?FindNewBucket@?$HashTable@PAGPAUIFeedItemMetadata@@V?$KeyHashCalculator@PAG@@@@ABAJABQAGPAV?$TableBucket@PAGPAUIFeedItemMetadata@@V?$KeyHashCalculator@PAG@@@@KPAK@Z 50070014 f i feedsync_private:FeedMetadata.obj
+ 0001:0000f0b4       ?FindExistingBucket@?$HashTable@PAGPAUIFeedItemMetadata@@V?$KeyHashCalculator@PAG@@@@ABAJABQAGPAV?$TableBucket@PAGPAUIFeedItemMetadata@@V?$KeyHashCalculator@PAG@@@@KPAK@Z 500700b4 f i feedsync_private:FeedMetadata.obj
+ 0001:0000f16c       ?Release@SSESharingInformation@@W3AAKXZ 5007016c f i feedsync_private:FeedMetadata.obj
+ 0001:0000f174       ??0SSESharingInformation@@QAA@XZ 50070174 f i feedsync_private:FeedMetadata.obj
+ 0001:0000f1d0       ?GetIdFromString@@YAJPBGPAUIdParameterPair@@PAPAE@Z 500701d0 f   feedsync_private:FeedMetadata.obj
+ 0001:0000f28c       ?GetStringFromId@@YAJPBEPAUIdParameterPair@@PAPAG@Z 5007028c f   feedsync_private:FeedMetadata.obj
+ 0001:0000f328       ?AddItemConflict@SSEItemMetadata@@UAAJPAUIFeedItemMetadata@@@Z 50070328 f   feedsync_private:FeedMetadata.obj
+ 0001:0000f41c       ?GetEnumerator@?$EnumerableVector@PAUIFeedItemHistory@@UIEnumFeedItemHistory@@@@QAAJPAPAUIEnumFeedItemHistory@@@Z 5007041c f i feedsync_private:FeedMetadata.obj
+ 0001:0000f4a4       ?GetEnumerator@?$EnumerableVector@PAUIFeedItemMetadata@@UIEnumFeedItemMetadata@@@@QAAJPAPAUIEnumFeedItemMetadata@@@Z 500704a4 f i feedsync_private:FeedMetadata.obj
+ 0001:0000f52c       ?Initialize@?$HashTable@PAGPAUIFeedItemMetadata@@V?$KeyHashCalculator@PAG@@@@QAAJPAV?$KeyHashCalculator@PAG@@K@Z 5007052c f i feedsync_private:FeedMetadata.obj
+ 0001:0000f608       ??1?$VectorEnumerator@PAUIFeedItemHistory@@UIEnumFeedItemHistory@@@@QAA@XZ 50070608 f i feedsync_private:FeedMetadata.obj
+ 0001:0000f668       ??1?$VectorEnumerator@PAUIFeedItemMetadata@@UIEnumFeedItemMetadata@@@@QAA@XZ 50070668 f i feedsync_private:FeedMetadata.obj
+ 0001:0000f6c8       ?LookupItem@?$HashTable@PAGPAUIFeedItemMetadata@@V?$KeyHashCalculator@PAG@@@@QBA_NABQAGAAPAUIFeedItemMetadata@@@Z 500706c8 f i feedsync_private:FeedMetadata.obj
+ 0001:0000f718       ?Resize@?$HashTable@PAGPAUIFeedItemMetadata@@V?$KeyHashCalculator@PAG@@@@QAAJXZ 50070718 f i feedsync_private:FeedMetadata.obj
+ 0001:0000f858       ?ContainsItem@?$HashTable@PAGPAUIFeedItemMetadata@@V?$KeyHashCalculator@PAG@@@@QBA_NABQAG@Z 50070858 f i feedsync_private:FeedMetadata.obj
+ 0001:0000f88c       ??0SSEItemHistory@@QAA@PAVIdParameters@@@Z 5007088c f i feedsync_private:FeedMetadata.obj
+ 0001:0000f8f4       ?QueryInterface@SSEItemHistory@@W3AAJABU_GUID@@PAPAX@Z 500708f4 f i feedsync_private:FeedMetadata.obj
+ 0001:0000f8fc       ?AddRef@SSEItemHistory@@W3AAKXZ 500708fc f i feedsync_private:FeedMetadata.obj
+ 0001:0000f904       ??1SSEItemHistory@@QAA@XZ  50070904 f i feedsync_private:FeedMetadata.obj
+ 0001:0000f97c       ??1SSEItemMetadata@@QAA@XZ 5007097c f i feedsync_private:FeedMetadata.obj
+ 0001:0000fa4c       ??1SSEMetadata@@QAA@XZ     50070a4c f i feedsync_private:FeedMetadata.obj
+ 0001:0000fb1c       ?GetItemHistoryEnumerator@SSEItemMetadata@@UAAJPAPAUIEnumFeedItemHistory@@@Z 50070b1c f   feedsync_private:FeedMetadata.obj
+ 0001:0000fb3c       ?GetItemConflictEnumerator@SSEItemMetadata@@UAAJPAPAUIEnumFeedItemMetadata@@@Z 50070b3c f   feedsync_private:FeedMetadata.obj
+ 0001:0000fb5c       ?LoadFromXmlNode@SSEItemMetadata@@UAAJPAUIXMLDOMNode@@@Z 50070b5c f   feedsync_private:FeedMetadata.obj
+ 0001:00010178       ?GetItemMetadataEnumerator@SSEMetadata@@UAAJPAPAUIEnumFeedItemMetadata@@@Z 50071178 f   feedsync_private:FeedMetadata.obj
+ 0001:000101fc       ?LookupItemMetadata@SSEMetadata@@UAAJPBGPAPAUIFeedItemMetadata@@@Z 500711fc f   feedsync_private:FeedMetadata.obj
+ 0001:00010264       ?Initialize@?$HashTable@PAGPAUIFeedItemMetadata@@V?$KeyHashCalculator@PAG@@@@QAAJK@Z 50071264 f i feedsync_private:FeedMetadata.obj
+ 0001:000102cc       ?AddItem@?$HashTable@PAGPAUIFeedItemMetadata@@V?$KeyHashCalculator@PAG@@@@QAAJABQAGABQAUIFeedItemMetadata@@@Z 500712cc f i feedsync_private:FeedMetadata.obj
+ 0001:00010390       ?Release@SSEItemHistory@@UAAKXZ 50071390 f   feedsync_private:FeedMetadata.obj
+ 0001:000103c8       ?Release@SSEItemMetadata@@UAAKXZ 500713c8 f   feedsync_private:FeedMetadata.obj
+ 0001:00010400       ?Release@SSEMetadata@@UAAKXZ 50071400 f   feedsync_private:FeedMetadata.obj
+ 0001:00010438       ?AddItemMetadata@SSEMetadata@@UAAJPBGPAUIFeedItemMetadata@@@Z 50071438 f   feedsync_private:FeedMetadata.obj
+ 0001:000105d4       ?LoadItemMetadataFromFeedDocument@SSEMetadata@@AAAJPAUIXMLDOMDocument@@@Z 500715d4 f   feedsync_private:FeedMetadata.obj
+ 0001:00010940       ?Release@?$VectorEnumerator@PAUIFeedItemHistory@@UIEnumFeedItemHistory@@@@UAAKXZ 50071940 f i feedsync_private:FeedMetadata.obj
+ 0001:00010978       ?Release@?$VectorEnumerator@PAUIFeedItemMetadata@@UIEnumFeedItemMetadata@@@@UAAKXZ 50071978 f i feedsync_private:FeedMetadata.obj
+ 0001:000109b0       ?Release@SSEItemHistory@@W3AAKXZ 500719b0 f i feedsync_private:FeedMetadata.obj
+ 0001:000109b8       ?LoadFromFeedDocument@SSEMetadata@@QAAJPAUIXMLDOMDocument2@@@Z 500719b8 f   feedsync_private:FeedMetadata.obj
+ 0001:00010c04       ?QueryInterface@SSEEndpointState@@UAAJABU_GUID@@PAPAX@Z 50071c04 f   feedsync_private:EndpointState.obj
+ 0001:00010cb0       ?AddRef@SSEEndpointState@@UAAKXZ 50071cb0 f   feedsync_private:EndpointState.obj
+ 0001:00010cb8       ??_GSSEEndpointState@@QAAPAXI@Z 50071cb8 f i feedsync_private:EndpointState.obj
+ 0001:00010d00       ?Combine@SSEEndpointState@@UAAJPAUIEndpointState@@@Z 50071d00 f   feedsync_private:EndpointState.obj
+ 0001:00010de4       ?GetKnowledge@SSEEndpointState@@UAAJPAPAUISyncKnowledge@@@Z 50071de4 f   feedsync_private:EndpointState.obj
+ 0001:00010e3c       ?GetSyncBatchParametersFromProvider@SSEEndpointState@@SAJPAUISyncProvider@@PAPAUISyncKnowledge@@PAK@Z 50071e3c f   feedsync_private:EndpointState.obj
+ 0001:00010eb0       ?LoadFromFeedServices@SSEEndpointState@@QAAJPAUIFeedSyncServices@@@Z 50071eb0 f   feedsync_private:EndpointState.obj
+ 0001:00010f40       ?Release@SSEEndpointState@@UAAKXZ 50071f40 f   feedsync_private:EndpointState.obj
+ 0001:00010f70       ?LoadFromProvider@SSEEndpointState@@UAAJPAUISyncProvider@@@Z 50071f70 f   feedsync_private:EndpointState.obj
+ 0001:00011048       ?GetMetadataAndReplicaId@SSEEndpointState@@SAJPAUIStream@@PAUIFeedIdConverter@@PAVIdParameters@@PAPAUIFeedMetadata@@PAPAE@Z 50072048 f   feedsync_private:EndpointState.obj
+ 0001:00011324       ?LoadFromFeed@SSEEndpointState@@UAAJPAUIStream@@PAUIFeedIdConverter@@@Z 50072324 f   feedsync_private:EndpointState.obj
+ 0001:00011578       ??1FeedProducerConsumerProvider@@QAA@XZ 50072578 f i feedsync_private:FeedProducerConsumerProvider.obj
+ 0001:0001163c       ?QueryInterface@FeedItemConverterCallback@@UAAJABU_GUID@@PAPAX@Z 5007263c f   feedsync_private:FeedProducerConsumerProvider.obj
+ 0001:000116cc       ?AddRef@FeedItemConverterCallback@@UAAKXZ 500726cc f   feedsync_private:FeedProducerConsumerProvider.obj
+ 0001:000116d4       ?ConvertItemDataToXmlComplete@FeedItemConverterCallback@@UAAJPAUIUnknown@@@Z 500726d4 f   feedsync_private:FeedProducerConsumerProvider.obj
+ 0001:0001172c       ?ConvertItemDataToXmlTextComplete@FeedItemConverterCallback@@UAAJPBG@Z 5007272c f   feedsync_private:FeedProducerConsumerProvider.obj
+ 0001:000117c4       ?ConvertXmlToItemDataComplete@FeedItemConverterCallback@@UAAJPAUIUnknown@@@Z 500727c4 f   feedsync_private:FeedProducerConsumerProvider.obj
+ 0001:0001181c       ?ConvertXmlTextToItemDataComplete@FeedItemConverterCallback@@UAAJPAUIUnknown@@@Z 5007281c f   feedsync_private:FeedProducerConsumerProvider.obj
+ 0001:00011874       ?GetItemData@FeedItemConverterCallback@@QAAJPAPAUIUnknown@@@Z 50072874 f   feedsync_private:FeedProducerConsumerProvider.obj
+ 0001:000118cc       ?GetXml@FeedItemConverterCallback@@QAAJPAPAUIUnknown@@@Z 500728cc f   feedsync_private:FeedProducerConsumerProvider.obj
+ 0001:00011924       ?Clear@FeedItemConverterCallback@@QAAXXZ 50072924 f   feedsync_private:FeedProducerConsumerProvider.obj
+ 0001:00011978       ?QueryInterface@FeedProducerConsumerProvider@@UAAJABU_GUID@@PAPAX@Z 50072978 f   feedsync_private:FeedProducerConsumerProvider.obj
+ 0001:00011a8c       ?AddRef@FeedProducerConsumerProvider@@UAAKXZ 50072a8c f   feedsync_private:FeedProducerConsumerProvider.obj
+ 0001:00011a94       ?GetIdParameters@FeedProducerConsumerProvider@@UAAJPAU_ID_PARAMETERS@@@Z 50072a94 f   feedsync_private:FeedProducerConsumerProvider.obj
+ 0001:00011ac8       ?GetDataRetriever@FeedProducerConsumerProvider@@UAAJPAPAUIUnknown@@@Z 50072ac8 f   feedsync_private:FeedProducerConsumerProvider.obj
+ 0001:00011b10       ?BeginSession@FeedProducerConsumerProvider@@UAAJW4__MIDL___MIDL_itf_synchronization_0000_0000_0003@@PAUISyncSessionState@@@Z 50072b10 f   feedsync_private:FeedProducerConsumerProvider.obj
+ 0001:00011b48       ?EndSession@FeedProducerConsumerProvider@@UAAJPAUISyncSessionState@@@Z 50072b48 f   feedsync_private:FeedProducerConsumerProvider.obj
+ 0001:00011b84       ?GetCurrentTickCount@FeedProducerConsumerProvider@@UAAJPA_K@Z 50072b84 f   feedsync_private:FeedProducerConsumerProvider.obj
+ 0001:00011b9c       ?GetSyncBatchParameters@FeedProducerConsumerProvider@@UAAJPAPAUISyncKnowledge@@PAK@Z 50072b9c f   feedsync_private:FeedProducerConsumerProvider.obj
+ 0001:00011cc0       ?SaveKnowledge@FeedProducerConsumerProvider@@UAAJPAUISyncKnowledge@@PAUIForgottenKnowledge@@@Z 50072cc0 f   feedsync_private:FeedProducerConsumerProvider.obj
+ 0001:00011cc8       ?GetChangeBatch@FeedProducerConsumerProvider@@UAAJKPAUISyncKnowledge@@PAPAUISyncChangeBatch@@PAPAUIUnknown@@@Z 50072cc8 f   feedsync_private:FeedProducerConsumerProvider.obj
+ 0001:00011d2c       ?GetFullEnumerationChangeBatch@FeedProducerConsumerProvider@@UAAJKPBEPAUISyncKnowledge@@PAPAUISyncFullEnumerationChangeBatch@@PAPAUIUnknown@@@Z 50072d2c f   feedsync_private:FeedProducerConsumerProvider.obj
+ 0001:00011d38       ?ProcessChangeBatch@FeedProducerConsumerProvider@@UAAJW4__MIDL___MIDL_itf_synchronization_0000_0000_0001@@PAUISyncChangeBatch@@PAUIUnknown@@PAUISyncCallback@@PAU_SYNC_SESSION_STATISTICS@@@Z 50072d38 f   feedsync_private:FeedProducerConsumerProvider.obj
+ 0001:00011e48       ?ProcessFullEnumerationChangeBatch@FeedProducerConsumerProvider@@UAAJW4__MIDL___MIDL_itf_synchronization_0000_0000_0001@@PAUISyncFullEnumerationChangeBatch@@PAUIUnknown@@PAUISyncCallback@@PAU_SYNC_SESSION_STATISTICS@@@Z 50072e48 f   feedsync_private:FeedProducerConsumerProvider.obj
+ 0001:00011e54       ?LookupReplicaId@FeedProducerConsumerProvider@@AAAJPAUIReplicaKeyMap@@KPAPAEPAK@Z 50072e54 f   feedsync_private:FeedProducerConsumerProvider.obj
+ 0001:00011f18       ?Release@FeedProducerConsumerProvider@@UAAKXZ 50072f18 f   feedsync_private:FeedProducerConsumerProvider.obj
+ 0001:00011f50       ?CheckForObsoleteChange@FeedProducerConsumerProvider@@AAAJPAUISyncChange@@@Z 50072f50 f   feedsync_private:FeedProducerConsumerProvider.obj
+ 0001:00012224       ?Release@FeedItemConverterCallback@@UAAKXZ 50073224 f   feedsync_private:FeedProducerConsumerProvider.obj
+ 0001:0001226c       ?GetItemCallback@FeedProducerConsumerProvider@@AAAJPAPAVFeedItemConverterCallback@@@Z 5007326c f   feedsync_private:FeedProducerConsumerProvider.obj
+ 0001:00012310       ?LoadChangeData@FeedProducerConsumerProvider@@UAAJPAUILoadChangeContext@@PAPAUIUnknown@@@Z 50073310 f   feedsync_private:FeedProducerConsumerProvider.obj
+ 0001:00012488       ?SaveChange@FeedProducerConsumerProvider@@UAAJW4__MIDL___MIDL_itf_synchronization_0000_0009_0001@@PAUISyncChange@@PAUISaveChangeContext@@@Z 50073488 f   feedsync_private:FeedProducerConsumerProvider.obj
+ 0001:000126ec       ?SaveConflict@FeedProducerConsumerProvider@@UAAJPAUISyncChange@@PAUIUnknown@@PAUISyncKnowledge@@@Z 500736ec f   feedsync_private:FeedProducerConsumerProvider.obj
+ 0001:0001289c       ?IsLeapYear@@YA_NK@Z       5007389c f i syncutils:Rfc3339Date.obj
+ 0001:00012900       ?IsDateTimeValid@@YAJGGGGGGGG@Z 50073900 f   syncutils:Rfc3339Date.obj
+ 0001:00012c88       ?Rfc3339DateTimeToSyncTime@@YAJPBGPAU_SYNC_TIME@@@Z 50073c88 f   syncutils:Rfc3339Date.obj
+ 0001:00013044       ?SyncTimeToRfc3339DateTime@@YAJABU_SYNC_TIME@@PAPAG@Z 50074044 f   syncutils:Rfc3339Date.obj
+ 0001:00013188       ?NormalizeRfc3339DateTime@@YAJPBGPAPAG@Z 50074188 f   syncutils:Rfc3339Date.obj
+ 0001:000131d8       ?CreateErrorDescriptionForHR@@YAJJPAGK@Z 500741d8 f   syncutils:utils.obj
+ 0001:0001329c       ?SetErrorInfoHelper@@YAXJABU_GUID@@0@Z 5007429c f   syncutils:utils.obj
+ 0001:00013428       FreeResourceLibrary        50074428 f   resload:resload.obj
+ 0001:00013710       LoadResourceLibraryWithLanguage 50074710 f   resload:resload.obj
+ 0001:00013774       LoadResourceLibrary        50074774 f   resload:resload.obj
+ 0001:00013790       ??2@YAPAXI@Z               50074790 f   memory:CeMemory.obj
+ 0001:000137ac       ??3@YAXPAX@Z               500747ac f   memory:CeMemory.obj
+ 0001:000137c8       InterlockedIncrement       500747c8 f   coredll:COREDLL.dll
+ 0001:000137d8       InterlockedDecrement       500747d8 f   coredll:COREDLL.dll
+ 0001:000137e8       GetLastError               500747e8 f   coredll:COREDLL.dll
+ 0001:000137f8       RegCloseKey                500747f8 f   coredll:COREDLL.dll
+ 0001:00013808       RegSetValueExW             50074808 f   coredll:COREDLL.dll
+ 0001:00013818       RegCreateKeyExW            50074818 f   coredll:COREDLL.dll
+ 0001:00013828       StringCchPrintfW           50074828 f   coredll:COREDLL.dll
+ 0001:00013838       RegDeleteKeyW              50074838 f   coredll:COREDLL.dll
+ 0001:00013848       GetModuleFileNameW         50074848 f   coredll:COREDLL.dll
+ 0001:00013858       StringCchCopyW             50074858 f   coredll:COREDLL.dll
+ 0001:00013868       FormatMessageW             50074868 f   coredll:COREDLL.dll
+ 0001:00013878       LoadLibraryW               50074878 f   coredll:COREDLL.dll
+ 0001:00013888       FreeLibrary                50074888 f   coredll:COREDLL.dll
+ 0001:00013898       FindClose                  50074898 f   coredll:COREDLL.dll
+ 0001:000138a8       FindFirstFileW             500748a8 f   coredll:COREDLL.dll
+ 0001:000138b8       SetLastError               500748b8 f   coredll:COREDLL.dll
+ 0001:000138c8       GetUserDefaultUILanguage   500748c8 f   coredll:COREDLL.dll
+ 0001:000138d8       HeapAlloc                  500748d8 f   coredll:COREDLL.dll
+ 0001:000138e8       GetProcessHeap             500748e8 f   coredll:COREDLL.dll
+ 0001:000138f8       HeapFree                   500748f8 f   coredll:COREDLL.dll
+ 0001:00013908       StringFromGUID2            50074908 f   ole32:ole32.dll
+ 0001:00013918       CoCreateInstance           50074918 f   ole32:ole32.dll
+ 0001:00013928       SysFreeString              50074928 f   oleaut32:OLEAUT32.dll
+ 0001:00013938       VariantInit                50074938 f   oleaut32:OLEAUT32.dll
+ 0001:00013948       SysAllocString             50074948 f   oleaut32:OLEAUT32.dll
+ 0001:00013958       VariantClear               50074958 f   oleaut32:OLEAUT32.dll
+ 0001:00013968       SysStringLen               50074968 f   oleaut32:OLEAUT32.dll
+ 0001:00013978       VariantChangeType          50074978 f   oleaut32:OLEAUT32.dll
+ 0001:00013988       SetErrorInfo               50074988 f   oleaut32:OLEAUT32.dll
+ 0001:00013998       CreateErrorInfo            50074998 f   oleaut32:OLEAUT32.dll
+ 0001:000139a8       GetErrorInfo               500749a8 f   oleaut32:OLEAUT32.dll
+ 0001:00013ab0       _DllMainCRTStartup         50074ab0 f   corelib0:pegdmain.obj
+ 0001:00013adc       __GSHandlerCheckCommon     50074adc f   corelib0:gshandler.obj
+ 0001:00013b18       __GSHandlerCheck           50074b18 f   corelib0:gshandler.obj
+ 0001:00013b38       __security_init_cookie     50074b38 f   corelib0:seccinit.obj
+ 0001:00013b84       __security_check_cookie    50074b84 f   corelib0:armsecgs.obj
+ 0001:00013b94       __gsfailure                50074b94     corelib0:armsecgs.obj
+ 0001:00013cc0       _cexit                     50074cc0 f   corelib0:cexit.obj
+ 0001:00013cd0       _initterm                  50074cd0 f   corelib0:crt0dat.obj
+ 0001:00013cfc       _cinit                     50074cfc f   corelib0:crt0dat.obj
+ 0001:00013d5c       __crt_ExitProcess          50074d5c f   corelib0:exitproc_proxy.obj
+ 0001:00013d68       memcmp                     50074d68 f   corelib1:COREDLL.dll
+ 0001:00013d78       wcslen                     50074d78 f   corelib1:COREDLL.dll
+ 0001:00013d88       _purecall                  50074d88 f   corelib1:COREDLL.dll
+ 0001:00013d98       memcpy                     50074d98 f   corelib1:COREDLL.dll
+ 0001:00013da8       memset                     50074da8 f   corelib1:COREDLL.dll
+ 0001:00013db8       wcscmp                     50074db8 f   corelib1:COREDLL.dll
+ 0001:00013dc8       _XcptFilter                50074dc8 f   corelib1:COREDLL.dll
+ 0001:00013dd8       __C_specific_handler       50074dd8 f   corelib1:COREDLL.dll
+ 0001:00013de8       __security_gen_cookie2     50074de8 f   corelib1:COREDLL.dll
+ 0001:00013df8       __report_gsfailure         50074df8 f   corelib1:COREDLL.dll
+ 0001:00013e08       free                       50074e08 f   corelib1:COREDLL.dll
+ 0001:00013e18       DeleteCriticalSection      50074e18 f   coredll:COREDLL.dll
+ 0001:00013e28       InterlockedExchange        50074e28 f   coredll:COREDLL.dll
+ 0001:00013e38       TerminateProcess           50074e38 f   coredll:COREDLL.dll
+ 0001:00013e74       __IMPORT_DESCRIPTOR_COREDLL 50074e74     coredll:COREDLL.dll
+ 0001:00013e88       __IMPORT_DESCRIPTOR_ole32  50074e88     ole32:ole32.dll
+ 0001:00013e9c       __IMPORT_DESCRIPTOR_OLEAUT32 50074e9c     oleaut32:OLEAUT32.dll
+ 0001:00013eb0       __NULL_IMPORT_DESCRIPTOR   50074eb0     coredll:COREDLL.dll
+ 0002:00000000       __imp_InterlockedIncrement 50076000     coredll:COREDLL.dll
+ 0002:00000004       __imp_InterlockedDecrement 50076004     coredll:COREDLL.dll
+ 0002:00000008       __imp_GetLastError         50076008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_RegCloseKey          5007600c     coredll:COREDLL.dll
+ 0002:00000010       __imp_RegSetValueExW       50076010     coredll:COREDLL.dll
+ 0002:00000014       __imp_RegCreateKeyExW      50076014     coredll:COREDLL.dll
+ 0002:00000018       __imp_StringCchPrintfW     50076018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_RegDeleteKeyW        5007601c     coredll:COREDLL.dll
+ 0002:00000020       __imp_GetModuleFileNameW   50076020     coredll:COREDLL.dll
+ 0002:00000024       __imp_StringCchCopyW       50076024     coredll:COREDLL.dll
+ 0002:00000028       __imp_FormatMessageW       50076028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_LoadLibraryW         5007602c     coredll:COREDLL.dll
+ 0002:00000030       __imp_FreeLibrary          50076030     coredll:COREDLL.dll
+ 0002:00000034       __imp_FindClose            50076034     coredll:COREDLL.dll
+ 0002:00000038       __imp_FindFirstFileW       50076038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_SetLastError         5007603c     coredll:COREDLL.dll
+ 0002:00000040       __imp_GetUserDefaultUILanguage 50076040     coredll:COREDLL.dll
+ 0002:00000044       __imp_HeapAlloc            50076044     coredll:COREDLL.dll
+ 0002:00000048       __imp_GetProcessHeap       50076048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_HeapFree             5007604c     coredll:COREDLL.dll
+ 0002:00000050       __imp_TerminateProcess     50076050     coredll:COREDLL.dll
+ 0002:00000054       __imp_InterlockedExchange  50076054     coredll:COREDLL.dll
+ 0002:00000058       __imp_DeleteCriticalSection 50076058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_free                 5007605c     corelib1:COREDLL.dll
+ 0002:00000060       __imp___report_gsfailure   50076060     corelib1:COREDLL.dll
+ 0002:00000064       __imp___security_gen_cookie2 50076064     corelib1:COREDLL.dll
+ 0002:00000068       __imp_memcmp               50076068     corelib1:COREDLL.dll
+ 0002:0000006c       __imp_wcslen               5007606c     corelib1:COREDLL.dll
+ 0002:00000070       __imp__purecall            50076070     corelib1:COREDLL.dll
+ 0002:00000074       __imp___rt_udiv            50076074     corelib1:COREDLL.dll
+ 0002:00000078       __imp_memcpy               50076078     corelib1:COREDLL.dll
+ 0002:0000007c       __imp_memset               5007607c     corelib1:COREDLL.dll
+ 0002:00000080       __imp_wcscmp               50076080     corelib1:COREDLL.dll
+ 0002:00000084       __imp___rt_sdiv            50076084     corelib1:COREDLL.dll
+ 0002:00000088       __imp__XcptFilter          50076088     corelib1:COREDLL.dll
+ 0002:0000008c       __imp___C_specific_handler 5007608c     corelib1:COREDLL.dll
+ 0002:00000090       \177COREDLL_NULL_THUNK_DATA 50076090     coredll:COREDLL.dll
+ 0002:00000094       __imp_GetErrorInfo         50076094     oleaut32:OLEAUT32.dll
+ 0002:00000098       __imp_CreateErrorInfo      50076098     oleaut32:OLEAUT32.dll
+ 0002:0000009c       __imp_SetErrorInfo         5007609c     oleaut32:OLEAUT32.dll
+ 0002:000000a0       __imp_VariantChangeType    500760a0     oleaut32:OLEAUT32.dll
+ 0002:000000a4       __imp_VariantClear         500760a4     oleaut32:OLEAUT32.dll
+ 0002:000000a8       __imp_SysAllocString       500760a8     oleaut32:OLEAUT32.dll
+ 0002:000000ac       __imp_VariantInit          500760ac     oleaut32:OLEAUT32.dll
+ 0002:000000b0       __imp_SysFreeString        500760b0     oleaut32:OLEAUT32.dll
+ 0002:000000b4       __imp_SysStringLen         500760b4     oleaut32:OLEAUT32.dll
+ 0002:000000b8       \177OLEAUT32_NULL_THUNK_DATA 500760b8     oleaut32:OLEAUT32.dll
+ 0002:000000bc       __imp_StringFromGUID2      500760bc     ole32:ole32.dll
+ 0002:000000c0       __imp_CoCreateInstance     500760c0     ole32:ole32.dll
+ 0002:000000c4       \177ole32_NULL_THUNK_DATA  500760c4     ole32:ole32.dll
+ 0002:000000c8       __security_cookie          500760c8     corelib0:seccinit.obj
+ 0002:000000cc       __security_cookie_complement 500760cc     corelib0:seccinit.obj
+ 0002:000000d0       ?g_hInstance@@3PAUHINSTANCE__@@A 500760d0     dll.obj
+ 0002:000000d4       ?g_cRefThisDll@@3JC        500760d4     dll.obj
+ 0002:000000d8       __@@_PchSym_@00@UygUDAJBUkirezgvUnhuUhbmxUhixUckilxUuvvwhbmxUoryUlyqUzineHUivgzroUkivxlnkOlyq@feedsync_private 500760d8     feedsync_private:precomp.obj
+ 0002:000000dc       __@@_PchSym_@00@UygUDAJBUkirezgvUnhuUhbmxUhixUckilxUfgroUlyqUzineHUivgzroUkivxlnkOlyq@syncutils 500760dc     syncutils:precomp.obj
+ 0002:000000e0       __@@_PchSym_@00@UygUDAJBUkirezgvUnhuUhbmxUhixUckilxUnvnlibUlyqUzineHUivgzroUkivxlnkOlyq@memory 500760e0     memory:precomp.obj
+ 0002:000000e4       _exitflag                  500760e4     corelib0:cexit.obj
+ 0002:000000e8       __onexitend                500760e8     <common>
+ 0002:000000ec       __onexitbegin              500760ec     <common>
+ 0002:000000f0       g_pcsExit                  500760f0     <common>
+ 0002:000000f4       _pRawDllMain               500760f4     <common>
+
+ entry point at        0001:00013ab0
+
+ Static symbols
+
+ 0001:0001342c       ?CopyString@@YA_NPAGIPBG@Z 5007442c f   resload:resload.obj
+ 0001:000134ac       ?GetResourceLibraryPathInternal@@YA_NPAUHINSTANCE__@@GPAGIPBG@Z 500744ac f   resload:resload.obj
+ 0001:000139c0       _DllMainCRTStartupHelper   500749c0 f   corelib0:pegdmain.obj
+ 0001:00013bd8       doexit                     50074bd8 f   corelib0:cexit.obj

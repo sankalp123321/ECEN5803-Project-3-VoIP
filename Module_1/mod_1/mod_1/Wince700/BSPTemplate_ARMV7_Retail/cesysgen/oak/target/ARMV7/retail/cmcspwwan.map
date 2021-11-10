@@ -1,0 +1,488 @@
+ CmCspWwan
+
+ Timestamp is 5cafa2ba (Thu Apr 11 13:25:30 2019)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000008H .CRT$XCU                CODE
+ 0001:0000000c 00000004H .CRT$XCZ                CODE
+ 0001:00000010 00000004H .CRT$XIA                CODE
+ 0001:00000014 00000004H .CRT$XIZ                CODE
+ 0001:00000018 00000004H .CRT$XPA                CODE
+ 0001:0000001c 00000004H .CRT$XPZ                CODE
+ 0001:00000020 00000004H .CRT$XTA                CODE
+ 0001:00000024 00000004H .CRT$XTZ                CODE
+ 0001:00000030 000002c0H .rdata                  CODE
+ 0001:000002f0 00000026H .rdata$debug            CODE
+ 0001:00000318 000072d0H .text                   CODE
+ 0001:000075e8 00000008H .text$yc                CODE
+ 0001:000075f0 00000018H .text$yd                CODE
+ 0001:00007608 00000098H .xdata                  CODE
+ 0001:000076a0 0000003cH .idata$2                CODE
+ 0001:000076dc 00000014H .idata$3                CODE
+ 0001:000076f0 00000114H .idata$4                CODE
+ 0001:00007804 000000caH .idata$6                CODE
+ 0001:000078d0 000001f8H .edata                  CODE
+ 0002:00000000 00000114H .idata$5                DATA
+ 0002:00000118 00000458H .data                   DATA
+ 0002:00000570 00000258H .bss                    DATA
+ 0003:00000000 00000740H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:0000000c       __xc_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xi_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xi_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xp_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xp_z                     1000101c     corelib0:crt0init.obj
+ 0001:00000020       __xt_a                     10001020     corelib0:crt0init.obj
+ 0001:00000024       __xt_z                     10001024     corelib0:crt0init.obj
+ 0001:0000004c       CMCD_CELLULAR              1000104c     CmCspWwanApi.obj
+ 0001:0000005c       CMCN_CELLULAR_UNKNOWN      1000105c     CmCspWwanApi.obj
+ 0001:0000006c       CMCN_CELLULAR_GPRS         1000106c     CmCspWwanApi.obj
+ 0001:0000007c       CMCN_CELLULAR_EDGE         1000107c     CmCspWwanApi.obj
+ 0001:0000008c       CMCN_CELLULAR_WCDMA_UMTS   1000108c     CmCspWwanApi.obj
+ 0001:0000009c       CMCN_CELLULAR_HSPA_HSDPA   1000109c     CmCspWwanApi.obj
+ 0001:000000bc       ??_7IpAddrControllerObserver@@6B@ 100010bc     CmCspWwanConnection.obj
+ 0001:000000c4       ??_7ConnectionState@@6B@   100010c4     CmCspWwanConnection.obj
+ 0001:000000d8       ??_7ConnectedState@@6B@    100010d8     CmCspWwanConnection.obj
+ 0001:000000ec       ??_7DisconnectedState@@6B@ 100010ec     CmCspWwanConnection.obj
+ 0001:00000100       ??_7ConnectingState@@6B@   10001100     CmCspWwanConnection.obj
+ 0001:00000114       ??_7DisconnectingState@@6B@ 10001114     CmCspWwanConnection.obj
+ 0001:00000128       ??_C@_0N@PJGDCNMB@WWAN1?9?$CFS?9?$CFld?$AA@ 10001128     CmCspWwanConnection.obj
+ 0001:00000138       ??_7WwanConnection@@6BWwanControllerObserver@@@ 10001138     CmCspWwanConnection.obj
+ 0001:0000013c       ??_7WwanConnection@@6BIpAddrControllerObserver@@@ 1000113c     CmCspWwanConnection.obj
+ 0001:00000144       ??_C@_00CNPNBAHC@?$AA@     10001144     CmCspWwanConnection.obj
+ 0001:00000148       ??_C@_1CC@ELKKIEJM@?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$CK?$AA?$AA@ 10001148     CmCspWwanContext.obj
+ 0001:0000016c       ??_C@_11LOCGONAA@?$AA?$AA@ 1000116c     CmCspWwanContext.obj
+ 0001:00000170       ??_7AdaptersAddresses@@6B@ 10001170     CmCspWwanIpAddr.obj
+ 0001:00000180       ??_7IpAddrController@@6B@  10001180     CmCspWwanIpAddr.obj
+ 0001:000001c0       ??_C@_1DA@DBJHJOKB@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAC?$AAe?$AAl?$AAl?$AAu?$AAl?$AAa?$AAr?$AA?2?$AAD?$AAa?$AAt?$AAa?$AAS?$AAp?$AAe?$AAe?$AAd?$AA?$AA@ 100011c0     CmCspWwanProvider.obj
+ 0001:000001f0       ??_C@_19KNMLHBCG@?$AAG?$AAP?$AAR?$AAS?$AA?$AA@ 100011f0     CmCspWwanProvider.obj
+ 0001:000001fc       ??_C@_19HHKGAFKB@?$AAE?$AAD?$AAG?$AAE?$AA?$AA@ 100011fc     CmCspWwanProvider.obj
+ 0001:00000208       ??_C@_19LPHHOHBE@?$AAU?$AAM?$AAT?$AAS?$AA?$AA@ 10001208     CmCspWwanProvider.obj
+ 0001:00000214       ??_C@_1M@GCJHDOGN@?$AAH?$AAS?$AAD?$AAP?$AAA?$AA?$AA@ 10001214     CmCspWwanProvider.obj
+ 0001:00000220       ??_C@_1CA@LKKHNPGE@?$AAR?$AAI?$AAL?$AA_?$AAD?$AAa?$AAt?$AAa?$AAD?$AAo?$AAr?$AAm?$AAa?$AAn?$AAt?$AA?$AA@ 10001220     CmCspWwanProvider.obj
+ 0001:00000240       ??_C@_1DC@PJFLMCNI@?$AAR?$AAI?$AAL?$AA_?$AAS?$AAe?$AAt?$AAD?$AAa?$AAt?$AAa?$AAA?$AAc?$AAt?$AAi?$AAv?$AAi?$AAt?$AAy?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?$AA@ 10001240     CmCspWwanProvider.obj
+ 0001:00000274       ??_C@_1BA@EPKCGJII@?$AAr?$AAi?$AAl?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10001274     CmCspWwanProvider.obj
+ 0001:00000284       ??_7Provider@@6B@          10001284     CmCspWwanProvider.obj
+ 0001:00000290       ??_C@_1M@OCFACEGK@?$AAU?$AAI?$AAO?$AA1?$AA?3?$AA?$AA@ 10001290     CmCspWwanWwanController.obj
+ 0001:0000029c       ??_C@_1M@PPDCBIJ@?$AAW?$AAW?$AAA?$AAN?$AA1?$AA?$AA@ 1000129c     CmCspWwanWwanController.obj
+ 0001:000002a8       ??_7WwanController@@6B@    100012a8     CmCspWwanWwanController.obj
+ 0001:000002d8       ??_7EventWaitThread@@6B@   100012d8     EventWaitThread.obj
+ 0001:00000318       CmCspClaimConnection       10001318 f   CmCspWwanApi.obj
+ 0001:00000320       CmCspGetTypeSpecificInfo   10001320 f   CmCspWwanApi.obj
+ 0001:00000328       ??1_buffer@?$_string_t@D$0BA@U?$char_traits@D@ce@@Vallocator@2@@ce@@QAA@XZ 10001328 f i CmCspWwanApi.obj
+ 0001:00000370       ?get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ 10001370 f i CmCspWwanApi.obj
+ 0001:000003c4       ?get_lock@?$singleton@VProvider@@$0A@V?$static_allocator@VProvider@@$0A@@ce@@@ce@@KAAAVcritical_section@2@XZ 100013c4 f i CmCspWwanApi.obj
+ 0001:00000418       ?create@?$singleton@VProvider@@$0A@V?$static_allocator@VProvider@@$0A@@ce@@@ce@@KAXXZ 10001418 f i CmCspWwanApi.obj
+ 0001:0000047c       CmCspInitialize            1000147c f   CmCspWwanApi.obj
+ 0001:00000548       CmCspDeinitialize          10001548 f   CmCspWwanApi.obj
+ 0001:0000056c       CmCspAddConnectionConfig   1000156c f   CmCspWwanApi.obj
+ 0001:000005fc       CmCspGetConnectionConfig   100015fc f   CmCspWwanApi.obj
+ 0001:00000630       CmCspUpdateConnectionConfig 10001630 f   CmCspWwanApi.obj
+ 0001:00000684       CmCspDeleteConnectionConfig 10001684 f   CmCspWwanApi.obj
+ 0001:000006a8       CmCspGetResource           100016a8 f   CmCspWwanApi.obj
+ 0001:000006f4       CmCspConnect               100016f4 f   CmCspWwanApi.obj
+ 0001:00000804       CmCspDisconnect            10001804 f   CmCspWwanApi.obj
+ 0001:00000830       CmCspGetConnectionInfo     10001830 f   CmCspWwanApi.obj
+ 0001:00000888       CmCspCompareConnectionConfig 10001888 f   CmCspWwanApi.obj
+ 0001:00000910       CmCspSetDataActivityState  10001910 f   CmCspWwanApi.obj
+ 0001:00000944       ??_EIpAddrControllerObserver@@UAAPAXI@Z 10001944 f i CmCspWwanConnection.obj
+ 0001:00000944       ??_GIpAddrControllerObserver@@UAAPAXI@Z 10001944 f i CmCspWwanConnection.obj
+ 0001:00000968       ??_EConnectionState@@UAAPAXI@Z 10001968 f i CmCspWwanConnection.obj
+ 0001:00000968       ??_GConnectionState@@UAAPAXI@Z 10001968 f i CmCspWwanConnection.obj
+ 0001:0000098c       ??_EConnectedState@@UAAPAXI@Z 1000198c f i CmCspWwanConnection.obj
+ 0001:0000098c       ??_GConnectedState@@UAAPAXI@Z 1000198c f i CmCspWwanConnection.obj
+ 0001:000009b0       ?Connect@ConnectedState@@UAA?AW4CM_RESULT@@ABVWwanContextEx_t@@@Z 100019b0 f   CmCspWwanConnection.obj
+ 0001:000009b8       ??_GDisconnectedState@@UAAPAXI@Z 100019b8 f i CmCspWwanConnection.obj
+ 0001:000009b8       ??_EDisconnectedState@@UAAPAXI@Z 100019b8 f i CmCspWwanConnection.obj
+ 0001:000009dc       ?Disconnect@DisconnectedState@@UAA?AW4CM_RESULT@@ABVWwanContextEx_t@@@Z 100019dc f   CmCspWwanConnection.obj
+ 0001:000009e4       ?IpAddrUpdate@DisconnectedState@@UAAXABVAdaptersAddresses@@@Z 100019e4 f   CmCspWwanConnection.obj
+ 0001:000009e8       ?WwanUpdate@DisconnectedState@@UAAXABVNdisUioNotification@@@Z 100019e8 f   CmCspWwanConnection.obj
+ 0001:000009ec       ??_GConnectingState@@UAAPAXI@Z 100019ec f i CmCspWwanConnection.obj
+ 0001:000009ec       ??_EConnectingState@@UAAPAXI@Z 100019ec f i CmCspWwanConnection.obj
+ 0001:00000a10       ?Connect@ConnectingState@@UAA?AW4CM_RESULT@@ABVWwanContextEx_t@@@Z 10001a10 f   CmCspWwanConnection.obj
+ 0001:00000a18       ??_GDisconnectingState@@UAAPAXI@Z 10001a18 f i CmCspWwanConnection.obj
+ 0001:00000a18       ??_EDisconnectingState@@UAAPAXI@Z 10001a18 f i CmCspWwanConnection.obj
+ 0001:00000a3c       ?Connect@DisconnectingState@@UAA?AW4CM_RESULT@@ABVWwanContextEx_t@@@Z 10001a3c f   CmCspWwanConnection.obj
+ 0001:00000a44       ?Disconnect@DisconnectingState@@UAA?AW4CM_RESULT@@ABVWwanContextEx_t@@@Z 10001a44 f   CmCspWwanConnection.obj
+ 0001:00000a4c       ?Update@WwanConnection@@QAA?AW4CM_RESULT@@PAVWwanContextEx_t@@ABV3@@Z 10001a4c f   CmCspWwanConnection.obj
+ 0001:00000a88       ?GetContext@WwanConnection@@QAAABVWwanContextEx_t@@XZ 10001a88 f   CmCspWwanConnection.obj
+ 0001:00000a90       ?GetResourceHandle@WwanConnection@@QAAKXZ 10001a90 f   CmCspWwanConnection.obj
+ 0001:00000a98       ?CompareContext@WwanConnection@@QAAHPAVWwanContextEx_t@@@Z 10001a98 f   CmCspWwanConnection.obj
+ 0001:00000aa0       ?SetDataActivityState@WwanConnection@@QAAXW4CM_DATA_ACTIVITY_STATE@@@Z 10001aa0 f   CmCspWwanConnection.obj
+ 0001:00000aa8       ?GetDataActivityState@WwanConnection@@QBA?AW4CM_DATA_ACTIVITY_STATE@@XZ 10001aa8 f   CmCspWwanConnection.obj
+ 0001:00000ab0       ?_Grow@?$_string_t@D$0BA@U?$char_traits@D@ce@@Vallocator@2@@ce@@IAA_NI@Z 10001ab0 f i CmCspWwanConnection.obj
+ 0001:00000b34       ?_Grow@?$_string_t@D$0BA@U?$i_char_traits@D@ce@@Vallocator@2@@ce@@IAA_NI@Z 10001b34 f i CmCspWwanConnection.obj
+ 0001:00000bb8       ?_Grow@?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@IAA_NI@Z 10001bb8 f i CmCspWwanConnection.obj
+ 0001:00000c48       ?IsInitialized@WwanConnection@@AAAHXZ 10001c48 f   CmCspWwanConnection.obj
+ 0001:00000cb0       ?SignalFinalState@WwanConnection@@AAAXW4CM_RESULT@@@Z 10001cb0 f   CmCspWwanConnection.obj
+ 0001:00000ce4       ?SetDisconnectedState@WwanConnection@@AAAXXZ 10001ce4 f   CmCspWwanConnection.obj
+ 0001:00000d44       ?SetConnectedState@WwanConnection@@AAAXXZ 10001d44 f   CmCspWwanConnection.obj
+ 0001:00000d78       ?SetDisconnectingState@WwanConnection@@AAAXHH@Z 10001d78 f   CmCspWwanConnection.obj
+ 0001:00000de8       ?IpAddrUpdate@WwanConnection@@EAAXABVAdaptersAddresses@@@Z 10001de8 f   CmCspWwanConnection.obj
+ 0001:00000e20       ?WwanUpdate@WwanConnection@@EAAXABVNdisUioNotification@@@Z 10001e20 f   CmCspWwanConnection.obj
+ 0001:00000e64       ?IsActive@WwanConnection@@QAAHXZ 10001e64 f   CmCspWwanConnection.obj
+ 0001:00000e7c       ?GetState@WwanConnection@@QBA?AW4CM_CONNECTION_STATE@@XZ 10001e7c f   CmCspWwanConnection.obj
+ 0001:00000ec4       ?assign@?$_string_t@D$0BA@U?$char_traits@D@ce@@Vallocator@2@@ce@@QAA_NPBDII@Z 10001ec4 f i CmCspWwanConnection.obj
+ 0001:00000f28       ?assign@?$_string_t@D$0BA@U?$i_char_traits@D@ce@@Vallocator@2@@ce@@QAA_NPBDII@Z 10001f28 f i CmCspWwanConnection.obj
+ 0001:00000f8c       ?assign@?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@QAA_NPBGII@Z 10001f8c f i CmCspWwanConnection.obj
+ 0001:00000ffc       ?Disconnect@ConnectedState@@UAA?AW4CM_RESULT@@ABVWwanContextEx_t@@@Z 10001ffc f   CmCspWwanConnection.obj
+ 0001:00001078       ?WwanIndicationHandler@ConnectedState@@AAAXABVNdisUioNotification@@@Z 10002078 f   CmCspWwanConnection.obj
+ 0001:000010c0       ?Connect@DisconnectedState@@UAA?AW4CM_RESULT@@ABVWwanContextEx_t@@@Z 100020c0 f   CmCspWwanConnection.obj
+ 0001:00001154       ?Disconnect@ConnectingState@@UAA?AW4CM_RESULT@@ABVWwanContextEx_t@@@Z 10002154 f   CmCspWwanConnection.obj
+ 0001:000011f0       ?SetDisconnectedState@ConnectionState@@IAAXXZ 100021f0 f   CmCspWwanConnection.obj
+ 0001:0000122c       ?WwanUpdate@ConnectedState@@UAAXABVNdisUioNotification@@@Z 1000222c f   CmCspWwanConnection.obj
+ 0001:00001240       ?WwanAsyncResponseHandler@ConnectingState@@AAAXABVNdisUioNotification@@@Z 10002240 f   CmCspWwanConnection.obj
+ 0001:000012d8       ?WwanIndicationHandler@ConnectingState@@AAAXABVNdisUioNotification@@@Z 100022d8 f   CmCspWwanConnection.obj
+ 0001:00001390       ?WwanAsyncResponseHandler@DisconnectingState@@AAAXABVNdisUioNotification@@@Z 10002390 f   CmCspWwanConnection.obj
+ 0001:00001448       ?WwanIndicationHandler@DisconnectingState@@AAAXABVNdisUioNotification@@@Z 10002448 f   CmCspWwanConnection.obj
+ 0001:00001500       ?Initialize@WwanConnection@@QAAHXZ 10002500 f   CmCspWwanConnection.obj
+ 0001:000016d4       ?Deinitialize@WwanConnection@@QAAXXZ 100026d4 f   CmCspWwanConnection.obj
+ 0001:000017d8       ?GetExpectedAdapterName@WwanConnection@@AAAHPAV?$_string_t@D$0BA@U?$i_char_traits@D@ce@@Vallocator@2@@ce@@@Z 100027d8 f   CmCspWwanConnection.obj
+ 0001:000018c4       ?GetAdapterName@WwanConnection@@QAAHPAV?$_string_t@D$0BA@U?$char_traits@D@ce@@Vallocator@2@@ce@@@Z 100028c4 f   CmCspWwanConnection.obj
+ 0001:000018fc       ??0?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@QAA@ABV01@@Z 100028fc f i CmCspWwanConnection.obj
+ 0001:00001944       ??4?$_string_t@D$0BA@U?$char_traits@D@ce@@Vallocator@2@@ce@@QAAAAV01@PBD@Z 10002944 f i CmCspWwanConnection.obj
+ 0001:00001994       ?FindAdapterIpAddress@ConnectionState@@IAAHABVAdaptersAddresses@@PAV?$_string_t@D$0BA@U?$char_traits@D@ce@@Vallocator@2@@ce@@PAK@Z 10002994 f   CmCspWwanConnection.obj
+ 0001:00001a68       ?IpAddrUpdate@ConnectedState@@UAAXABVAdaptersAddresses@@@Z 10002a68 f   CmCspWwanConnection.obj
+ 0001:00001b8c       ?IpAddrUpdate@ConnectingState@@UAAXABVAdaptersAddresses@@@Z 10002b8c f   CmCspWwanConnection.obj
+ 0001:00001c60       ?WwanUpdate@ConnectingState@@UAAXABVNdisUioNotification@@@Z 10002c60 f   CmCspWwanConnection.obj
+ 0001:00001c88       ?IpAddrUpdate@DisconnectingState@@UAAXABVAdaptersAddresses@@@Z 10002c88 f   CmCspWwanConnection.obj
+ 0001:00001cec       ?WwanUpdate@DisconnectingState@@UAAXABVNdisUioNotification@@@Z 10002cec f   CmCspWwanConnection.obj
+ 0001:00001d14       ??0WwanConnection@@QAA@PAVProvider@@PAVWwanController@@PAVIpAddrController@@ABV?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@ABVWwanContextEx_t@@@Z 10002d14 f   CmCspWwanConnection.obj
+ 0001:00001dec       ??_EWwanConnection@@W3AAPAXI@Z 10002dec f i CmCspWwanConnection.obj
+ 0001:00001df4       ??1WwanConnection@@UAA@XZ  10002df4 f   CmCspWwanConnection.obj
+ 0001:00001eec       ?DisconnectCleanup@WwanConnection@@AAAXXZ 10002eec f   CmCspWwanConnection.obj
+ 0001:00001f1c       ??_GWwanConnection@@UAAPAXI@Z 10002f1c f i CmCspWwanConnection.obj
+ 0001:00001f1c       ??_EWwanConnection@@UAAPAXI@Z 10002f1c f i CmCspWwanConnection.obj
+ 0001:00001f48       ?Disconnect@WwanConnection@@AAA?AW4CM_RESULT@@HH@Z 10002f48 f   CmCspWwanConnection.obj
+ 0001:000020a0       ?Connect@WwanConnection@@QAA?AW4CM_RESULT@@KPAV?$_string_t@D$0BA@U?$char_traits@D@ce@@Vallocator@2@@ce@@@Z 100030a0 f   CmCspWwanConnection.obj
+ 0001:00002210       ?Disconnect@WwanConnection@@QAA?AW4CM_RESULT@@XZ 10003210 f   CmCspWwanConnection.obj
+ 0001:0000221c       ?Get@WwanContextEx_t@@QAAPBU_WWAN_CONTEXT_EX@@XZ 1000321c f   CmCspWwanContext.obj
+ 0001:00002220       ?SetActivationState@WwanContextEx_t@@QAA?AW4_WWAN_ACTIVATION_STATE@@W42@@Z 10003220 f   CmCspWwanContext.obj
+ 0001:0000222c       ?SetContextId@WwanContextEx_t@@QAAKK@Z 1000322c f   CmCspWwanContext.obj
+ 0001:00002238       ?GetNeededCspRasSpecificInfoSize@WwanContextEx_t@@SAKXZ 10003238 f   CmCspWwanContext.obj
+ 0001:00002240       ?Encrypt@WwanContextEx_t@@QAAHXZ 10003240 f   CmCspWwanContext.obj
+ 0001:000022cc       ?Decrypt@WwanContextEx_t@@QAAHXZ 100032cc f   CmCspWwanContext.obj
+ 0001:0000236c       ?IsEqual@WwanContextEx_t@@QAAHPAV1@@Z 1000336c f   CmCspWwanContext.obj
+ 0001:00002414       ?GetCspRasSpecificInfo@WwanContextEx_t@@QAA?AW4CM_RESULT@@PAUCspRasSpecificInfo@@PAK@Z 10003414 f   CmCspWwanContext.obj
+ 0001:00002518       ??1WwanContextEx_t@@QAA@XZ 10003518 f   CmCspWwanContext.obj
+ 0001:00002550       ??0WwanContextEx_t@@QAA@XZ 10003550 f   CmCspWwanContext.obj
+ 0001:00002580       ?Initialize@WwanContextEx_t@@QAAHPBUCspRasSpecificInfo@@K@Z 10003580 f   CmCspWwanContext.obj
+ 0001:0000276c       ?Set@WwanContextEx_t@@QAAHABV1@@Z 1000376c f   CmCspWwanContext.obj
+ 0001:000028bc       ??0WwanContextEx_t@@QAA@ABV0@@Z 100038bc f   CmCspWwanContext.obj
+ 0001:000028e0       ?find@?$i_char_traits@D@ce@@SAPBDPBDABDI@Z 100038e0 f i CmCspWwanIpAddr.obj
+ 0001:00002938       ?GetAdaptersAddresses@AdaptersAddresses@@MAAKKKPAXPAU_IP_ADAPTER_ADDRESSES_LH@@PAK@Z 10003938 f i CmCspWwanIpAddr.obj
+ 0001:00002970       ?Refresh@AdaptersAddresses@@QAAKXZ 10003970 f   CmCspWwanIpAddr.obj
+ 0001:00002a60       ?AssignEvent@IpAddrController@@EAAXXZ 10003a60 f   CmCspWwanIpAddr.obj
+ 0001:00002a78       ?IpAddr_DeInitialize@IpAddrController@@IAAXXZ 10003a78 f   CmCspWwanIpAddr.obj
+ 0001:00002ab8       ?find@?$_string_t@D$0BA@U?$i_char_traits@D@ce@@Vallocator@2@@ce@@QBAIPBDII@Z 10003ab8 f i CmCspWwanIpAddr.obj
+ 0001:00002b84       ?_Buynode@?$list@PAVIpAddrControllerObserver@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@PAVIpAddrControllerObserver@@@list_impl@2@PAU342@@Z 10003b84 f i CmCspWwanIpAddr.obj
+ 0001:00002bd0       ??_GAdaptersAddresses@@UAAPAXI@Z 10003bd0 f i CmCspWwanIpAddr.obj
+ 0001:00002bd0       ??_EAdaptersAddresses@@UAAPAXI@Z 10003bd0 f i CmCspWwanIpAddr.obj
+ 0001:00002c0c       ?Deinitialize@IpAddrController@@UAAXXZ 10003c0c f   CmCspWwanIpAddr.obj
+ 0001:00002c2c       ?IpAddr_Initialize@IpAddrController@@IAAJXZ 10003c2c f   CmCspWwanIpAddr.obj
+ 0001:00002d38       ?erase@?$list@PAVIpAddrControllerObserver@@Vallocator@ce@@@ce@@QAA?AV?$iterator@PAVIpAddrControllerObserver@@@list_impl@2@V342@@Z 10003d38 f i CmCspWwanIpAddr.obj
+ 0001:00002d94       ?erase@?$list@PAVIpAddrControllerObserver@@Vallocator@ce@@@ce@@QAA?AV?$iterator@PAVIpAddrControllerObserver@@@list_impl@2@V342@0@Z 10003d94 f i CmCspWwanIpAddr.obj
+ 0001:00002dec       ?Initialize@IpAddrController@@UAAHXZ 10003dec f   CmCspWwanIpAddr.obj
+ 0001:00002e1c       ?remove@?$list@PAVIpAddrControllerObserver@@Vallocator@ce@@@ce@@QAAXABQAVIpAddrControllerObserver@@@Z 10003e1c f i CmCspWwanIpAddr.obj
+ 0001:00002e74       ??$insert@PAVIpAddrControllerObserver@@@?$list@PAVIpAddrControllerObserver@@Vallocator@ce@@@ce@@QAA?AV?$iterator@PAVIpAddrControllerObserver@@@list_impl@1@V231@ABQAVIpAddrControllerObserver@@@Z 10003e74 f i CmCspWwanIpAddr.obj
+ 0001:00002ebc       ?Notify@IpAddrController@@AAAXABVAdaptersAddresses@@@Z 10003ebc f   CmCspWwanIpAddr.obj
+ 0001:00002f10       ?Detach@IpAddrController@@UAAXPAVIpAddrControllerObserver@@@Z 10003f10 f   CmCspWwanIpAddr.obj
+ 0001:00002f44       ??0?$_string_t@D$0BA@U?$i_char_traits@D@ce@@Vallocator@2@@ce@@QAA@PBD@Z 10003f44 f i CmCspWwanIpAddr.obj
+ 0001:00002fb8       ?FindAdapter@AdaptersAddresses@@ABAHABV?$_string_t@D$0BA@U?$i_char_traits@D@ce@@Vallocator@2@@ce@@PAV?$_string_t@D$0BA@U?$char_traits@D@ce@@Vallocator@2@@3@PAPAU_IP_ADAPTER_ADDRESSES_LH@@@Z 10003fb8 f   CmCspWwanIpAddr.obj
+ 0001:000030a8       ?FindIpAddrByName@AdaptersAddresses@@UBAHABV?$_string_t@D$0BA@U?$i_char_traits@D@ce@@Vallocator@2@@ce@@PAV?$_string_t@D$0BA@U?$char_traits@D@ce@@Vallocator@2@@3@PAK@Z 100040a8 f   CmCspWwanIpAddr.obj
+ 0001:00003140       ?FindByName@AdaptersAddresses@@UBAHABV?$_string_t@D$0BA@U?$i_char_traits@D@ce@@Vallocator@2@@ce@@PAV?$_string_t@D$0BA@U?$char_traits@D@ce@@Vallocator@2@@3@@Z 10004140 f   CmCspWwanIpAddr.obj
+ 0001:00003148       ??0IpAddrController@@QAA@XZ 10004148 f   CmCspWwanIpAddr.obj
+ 0001:000031ac       ?SetWaitEvent@EventWaitThread@@MAAXPAX@Z 100041ac f i CmCspWwanIpAddr.obj
+ 0001:000031b4       ??1IpAddrController@@UAA@XZ 100041b4 f   CmCspWwanIpAddr.obj
+ 0001:00003224       ?EventHandler@IpAddrController@@EAAHXZ 10004224 f   CmCspWwanIpAddr.obj
+ 0001:000032c8       ?Attach@IpAddrController@@UAAHPAVIpAddrControllerObserver@@@Z 100042c8 f   CmCspWwanIpAddr.obj
+ 0001:0000333c       ??_GIpAddrController@@UAAPAXI@Z 1000433c f i CmCspWwanIpAddr.obj
+ 0001:0000333c       ??_EIpAddrController@@UAAPAXI@Z 1000433c f i CmCspWwanIpAddr.obj
+ 0001:00003360       DllMain                    10004360 f   CmCspWwanMain.obj
+ 0001:000033a8       ?Dump@NdisUioNotification@@QAAXXZ 100043a8 f   CmCspWwanNdisUioNotification.obj
+ 0001:000033ac       ??1NdisUioNotification@@QAA@XZ 100043ac f   CmCspWwanNdisUioNotification.obj
+ 0001:000033c4       ?InitializeAsyncResponse@NdisUioNotification@@AAAHPBUNDISUIO_DEVICE_NOTIFICATION@@@Z 100043c4 f   CmCspWwanNdisUioNotification.obj
+ 0001:00003444       ?InitializeIndication@NdisUioNotification@@AAAHPBUNDISUIO_DEVICE_NOTIFICATION@@@Z 10004444 f   CmCspWwanNdisUioNotification.obj
+ 0001:0000352c       ??0NdisUioNotification@@QAA@XZ 1000452c f   CmCspWwanNdisUioNotification.obj
+ 0001:00003584       ??4?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@QAAAAV01@PBG@Z 10004584 f i CmCspWwanNdisUioNotification.obj
+ 0001:000035d0       ?Initialize@NdisUioNotification@@QAAHPBUNDISUIO_DEVICE_NOTIFICATION@@@Z 100045d0 f   CmCspWwanNdisUioNotification.obj
+ 0001:0000363c       ?ValueDW@CReg@@QAAKPBGK@Z  1000463c f i CmCspWwanProvider.obj
+ 0001:00003688       ?_Buynode@?$list@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VWwanConnection@@@2@@std@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VWwanConnection@@@2@@std@@@list_impl@2@PAU342@@Z 10004688 f i CmCspWwanProvider.obj
+ 0001:000036d4       ?Open@CReg@@QAAHPAUHKEY__@@PBGK@Z 100046d4 f i CmCspWwanProvider.obj
+ 0001:0000373c       ?Initialize@Provider@@QAAHP6AXQBUCM_CSP_NOTIFICATION@@KK@ZK@Z 1000473c f   CmCspWwanProvider.obj
+ 0001:000037b4       ?Deinitialize@Provider@@QAAXXZ 100047b4 f   CmCspWwanProvider.obj
+ 0001:000037ec       ?SendNotification@Provider@@AAAXPBV?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@PAUCM_CSP_NOTIFICATION@@@Z 100047ec f   CmCspWwanProvider.obj
+ 0001:00003850       ?SendStatusNotification@Provider@@UAAXPBV?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@W4CM_CONNECTION_STATE@@@Z 10004850 f   CmCspWwanProvider.obj
+ 0001:000038b8       ?SendCharacteristicNotification@Provider@@AAAXPBV?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@W4CM_CHARACTERISTIC@@K@Z 100048b8 f   CmCspWwanProvider.obj
+ 0001:00003928       ?SendNetworkTypeNotification@Provider@@AAAXPBV?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@PAU_GUID@@@Z 10004928 f   CmCspWwanProvider.obj
+ 0001:000039b0       ?GetDataClassValues@Provider@@AAAHKPAU_GUID@@PAK@Z 100049b0 f   CmCspWwanProvider.obj
+ 0001:00003af4       ?hash_function@?$hash_traits@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@@ce@@QBAIABV?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@2@@Z 10004af4 f i CmCspWwanProvider.obj
+ 0001:00003b40       ?allocate@?$free_list@$0GE@Vallocator@ce@@@ce@@QBAPAXI@Z 10004b40 f i CmCspWwanProvider.obj
+ 0001:00003bb0       ?deallocate@?$free_list@$0GE@Vallocator@ce@@@ce@@QBAXPAXI@Z 10004bb0 f i CmCspWwanProvider.obj
+ 0001:00003c10       ??_G?$free_list@$0GE@Vallocator@ce@@@ce@@QAAPAXI@Z 10004c10 f i CmCspWwanProvider.obj
+ 0001:00003c5c       ?create@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAXXZ 10004c5c f i CmCspWwanProvider.obj
+ 0001:00003cd4       ?erase@?$vector@U?$pair@V?$iterator@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VWwanConnection@@@2@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAAPAU?$pair@V?$iterator@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VWwanConnection@@@2@@std@@@list_impl@ce@@I@std@@PAU34@0@Z 10004cd4 f i CmCspWwanProvider.obj
+ 0001:00003d38       ?release@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@SAXXZ 10004d38 f i CmCspWwanProvider.obj
+ 0001:00003da4       ?erase@?$vector@U?$pair@V?$iterator@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VWwanConnection@@@2@@std@@@list_impl@ce@@I@std@@V?$reference_allocator@Vallocator@ce@@@details@ce@@U?$exponential_growth@$09@5@@ce@@QAAPAU?$pair@V?$iterator@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VWwanConnection@@@2@@std@@@list_impl@ce@@I@std@@PAU34@0@Z 10004da4 f i CmCspWwanProvider.obj
+ 0001:00003e08       ??$?8G$0BA@$0BA@U?$char_traits@G@ce@@Vallocator@1@V21@@ce@@YA_NABV?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@0@0@Z 10004e08 f i CmCspWwanProvider.obj
+ 0001:00003e54       ??0?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@QAA@PBG@Z 10004e54 f i CmCspWwanProvider.obj
+ 0001:00003ec4       ?create@?$_ref_counting_t@V?$singleton_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@@ce@@IAA_NXZ 10004ec4 f i CmCspWwanProvider.obj
+ 0001:00003f00       ?release@?$_ref_counting_t@V?$singleton_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@@ce@@IAA_NXZ 10004f00 f i CmCspWwanProvider.obj
+ 0001:00003f60       ??4?$auto_xxx@PAVWwanController@@P6AXPAV1@@Z$1??$_delete@VWwanController@@@ce@@YAX0@Z$0A@V?$_ref_counting_t@V?$singleton_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@@2@@ce@@QAAAAV01@ABQAVWwanController@@@Z 10004f60 f i CmCspWwanProvider.obj
+ 0001:00003fa4       ??4?$auto_xxx@PAVIpAddrController@@P6AXPAV1@@Z$1??$_delete@VIpAddrController@@@ce@@YAX0@Z$0A@V?$_ref_counting_t@V?$singleton_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@@2@@ce@@QAAAAV01@ABQAVIpAddrController@@@Z 10004fa4 f i CmCspWwanProvider.obj
+ 0001:00003fe8       ??0?$auto_xxx@PAVWwanConnection@@P6AXPAV1@@Z$1??$_delete@VWwanConnection@@@ce@@YAX0@Z$0A@V?$_ref_counting_t@V?$singleton_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@@2@@ce@@QAA@PAVWwanConnection@@@Z 10004fe8 f i CmCspWwanProvider.obj
+ 0001:00004048       ?_Insert_dispatch@?$vector@U?$pair@V?$iterator@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VWwanConnection@@@2@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@AAA_NPAU?$pair@V?$iterator@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VWwanConnection@@@2@@std@@@list_impl@ce@@I@std@@IABU34@ABUtrue_type@detail@2@@Z 10005048 f i CmCspWwanProvider.obj
+ 0001:00004290       ??0?$auto_xxx@PAVWwanConnection@@P6AXPAV1@@Z$1??$_delete@VWwanConnection@@@ce@@YAX0@Z$0A@V?$_ref_counting_t@V?$singleton_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@@2@@ce@@QAA@ABV01@@Z 10005290 f i CmCspWwanProvider.obj
+ 0001:000042d8       ?RegisterStateUpdate@Provider@@AAAXW4_WWAN_REGISTER_STATE@@@Z 100052d8 f   CmCspWwanProvider.obj
+ 0001:000043cc       ?PacketServiceUpdate@Provider@@AAAXK@Z 100053cc f   CmCspWwanProvider.obj
+ 0001:000044a4       ?HaveActiveDataConnections@Provider@@QAA_NXZ 100054a4 f   CmCspWwanProvider.obj
+ 0001:00004548       ??1?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VWwanConnection@@@2@@std@@QAA@XZ 10005548 f i CmCspWwanProvider.obj
+ 0001:00004590       ?resize@?$vector@U?$pair@V?$iterator@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VWwanConnection@@@2@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAA_NIABU?$pair@V?$iterator@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VWwanConnection@@@2@@std@@@list_impl@ce@@I@std@@@Z 10005590 f i CmCspWwanProvider.obj
+ 0001:000045ec       ?WwanUpdate@Provider@@UAAXABVNdisUioNotification@@@Z 100055ec f   CmCspWwanProvider.obj
+ 0001:00004630       ?erase@?$list@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VWwanConnection@@@2@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VWwanConnection@@@2@@std@@@list_impl@2@V342@@Z 10005630 f i CmCspWwanProvider.obj
+ 0001:00004698       ?erase@?$list@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VWwanConnection@@@2@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VWwanConnection@@@2@@std@@@list_impl@2@V342@0@Z 10005698 f i CmCspWwanProvider.obj
+ 0001:000046f0       ??$insert@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VWwanConnection@@@2@@std@@@?$list@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VWwanConnection@@@2@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VWwanConnection@@@2@@std@@@list_impl@1@V231@ABU?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VWwanConnection@@@2@@std@@@Z 100056f0 f i CmCspWwanProvider.obj
+ 0001:0000474c       ?erase@?$hash@V?$hash_map_traits@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VWwanConnection@@@2@U?$hash_traits@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@@2@Vallocator@2@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VWwanConnection@@@2@@std@@@list_impl@3@V453@@Z 1000574c f i CmCspWwanProvider.obj
+ 0001:000047c4       ?_ready@?$hash@V?$hash_map_traits@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VWwanConnection@@@2@U?$hash_traits@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@@2@Vallocator@2@@details@ce@@@details@ce@@IAA_NXZ 100057c4 f i CmCspWwanProvider.obj
+ 0001:0000481c       ?find@?$hash@V?$hash_map_traits@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VWwanConnection@@@2@U?$hash_traits@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@@2@Vallocator@2@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VWwanConnection@@@2@@std@@@list_impl@3@ABV?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@3@@Z 1000581c f i CmCspWwanProvider.obj
+ 0001:000048a4       ?insert@?$hash@V?$hash_map_traits@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VWwanConnection@@@2@U?$hash_traits@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@@2@Vallocator@2@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VWwanConnection@@@2@@std@@@list_impl@3@ABU?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VWwanConnection@@@2@@std@@@Z 100058a4 f i CmCspWwanProvider.obj
+ 0001:00004978       ??1?$hash@V?$hash_map_traits@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VWwanConnection@@@2@U?$hash_traits@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@@2@Vallocator@2@@details@ce@@@details@ce@@QAA@XZ 10005978 f i CmCspWwanProvider.obj
+ 0001:000049b8       ?Connect@Provider@@QAA?AW4CM_RESULT@@PBGKPAV?$_string_t@D$0BA@U?$char_traits@D@ce@@Vallocator@2@@ce@@@Z 100059b8 f   CmCspWwanProvider.obj
+ 0001:00004a54       ?Disconnect@Provider@@QAA?AW4CM_RESULT@@PBG@Z 10005a54 f   CmCspWwanProvider.obj
+ 0001:00004adc       ?DeleteConnection@Provider@@QAA?AW4CM_RESULT@@PBG@Z 10005adc f   CmCspWwanProvider.obj
+ 0001:00004cb0       ?GetConnectionConfig@Provider@@QAA?AW4CM_RESULT@@PBGPAEPAK@Z 10005cb0 f   CmCspWwanProvider.obj
+ 0001:00004e88       ?GetConnectionInfo@Provider@@QAA?AW4CM_RESULT@@PBGPAUCM_CSP_CONNECTION_INFO@@PAK@Z 10005e88 f   CmCspWwanProvider.obj
+ 0001:00005158       ?GetResource@Provider@@QAA?AW4CM_RESULT@@PBGPAU_GUID@@PAK2@Z 10006158 f   CmCspWwanProvider.obj
+ 0001:00005344       ?CompareConnectionConfig@Provider@@QAAHPBGPBU_GUID@@PBEK@Z 10006344 f   CmCspWwanProvider.obj
+ 0001:000054d0       ?SetDataActivityState@Provider@@QAA?AW4CM_RESULT@@PBGW4CM_DATA_ACTIVITY_STATE@@K@Z 100064d0 f   CmCspWwanProvider.obj
+ 0001:00005700       ?insert@?$hash_map@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VWwanConnection@@@2@U?$hash_traits@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@@2@Vallocator@2@@ce@@QAA?AV?$iterator@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VWwanConnection@@@2@@std@@@list_impl@2@ABV?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@2@ABV?$smart_ptr@VWwanConnection@@@2@@Z 10006700 f i CmCspWwanProvider.obj
+ 0001:00005768       ??1Provider@@UAA@XZ        10006768 f   CmCspWwanProvider.obj
+ 0001:000057e4       ?AddConnection@Provider@@QAA?AW4CM_RESULT@@PBGU_GUID@@PBEK@Z 100067e4 f   CmCspWwanProvider.obj
+ 0001:00005ae8       ?UpdateConnection@Provider@@QAA?AW4CM_RESULT@@PBGPBEK1KPAH@Z 10006ae8 f   CmCspWwanProvider.obj
+ 0001:00005f48       ??0Provider@@QAA@XZ        10006f48 f   CmCspWwanProvider.obj
+ 0001:00006040       ??_GProvider@@UAAPAXI@Z    10007040 f i CmCspWwanProvider.obj
+ 0001:00006040       ??_EProvider@@UAAPAXI@Z    10007040 f i CmCspWwanProvider.obj
+ 0001:00006064       ?_Buynode@?$list@PAVWwanControllerObserver@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@PAVWwanControllerObserver@@@list_impl@2@PAU342@@Z 10007064 f i CmCspWwanWwanController.obj
+ 0001:000060b0       ?Initialize@WwanController@@UAAHXZ 100070b0 f   CmCspWwanWwanController.obj
+ 0001:000061e8       ?Deinitialize@WwanController@@UAAXXZ 100071e8 f   CmCspWwanWwanController.obj
+ 0001:00006228       ?AssignEvent@WwanController@@MAAXXZ 10007228 f   CmCspWwanWwanController.obj
+ 0001:00006240       ?SetWwanAsycRequest@WwanController@@AAAHKPAKPAEK@Z 10007240 f   CmCspWwanWwanController.obj
+ 0001:00006338       ?erase@?$list@PAVWwanControllerObserver@@Vallocator@ce@@@ce@@QAA?AV?$iterator@PAVWwanControllerObserver@@@list_impl@2@V342@@Z 10007338 f i CmCspWwanWwanController.obj
+ 0001:00006394       ?erase@?$list@PAVWwanControllerObserver@@Vallocator@ce@@@ce@@QAA?AV?$iterator@PAVWwanControllerObserver@@@list_impl@2@V342@0@Z 10007394 f i CmCspWwanWwanController.obj
+ 0001:000063ec       ?Activate@WwanController@@UAAKPAVWwanContextEx_t@@@Z 100073ec f   CmCspWwanWwanController.obj
+ 0001:0000649c       ?Deactivate@WwanController@@UAAKPAVWwanContextEx_t@@@Z 1000749c f   CmCspWwanWwanController.obj
+ 0001:00006520       ?remove@?$list@PAVWwanControllerObserver@@Vallocator@ce@@@ce@@QAAXABQAVWwanControllerObserver@@@Z 10007520 f i CmCspWwanWwanController.obj
+ 0001:00006578       ??$insert@PAVWwanControllerObserver@@@?$list@PAVWwanControllerObserver@@Vallocator@ce@@@ce@@QAA?AV?$iterator@PAVWwanControllerObserver@@@list_impl@1@V231@ABQAVWwanControllerObserver@@@Z 10007578 f i CmCspWwanWwanController.obj
+ 0001:000065c8       ?Notify@WwanController@@AAAXPBUNDISUIO_DEVICE_NOTIFICATION@@@Z 100075c8 f   CmCspWwanWwanController.obj
+ 0001:0000667c       ?Detach@WwanController@@UAAXPAVWwanControllerObserver@@@Z 1000767c f   CmCspWwanWwanController.obj
+ 0001:000066b0       ??0WwanController@@QAA@XZ  100076b0 f   CmCspWwanWwanController.obj
+ 0001:00006710       ?CreateFileW@WwanController@@MAAPAXPBGKKPAU_SECURITY_ATTRIBUTES@@KKPAX@Z 10007710 f i CmCspWwanWwanController.obj
+ 0001:00006758       ?DeviceIoControl@WwanController@@MAAHPAXK0K0KPAKPAU_OVERLAPPED@@@Z 10007758 f i CmCspWwanWwanController.obj
+ 0001:000067a8       ??1WwanController@@UAA@XZ  100077a8 f   CmCspWwanWwanController.obj
+ 0001:00006818       ?EventHandler@WwanController@@MAAHXZ 10007818 f   CmCspWwanWwanController.obj
+ 0001:000068c0       ?Attach@WwanController@@UAAHPAVWwanControllerObserver@@@Z 100078c0 f   CmCspWwanWwanController.obj
+ 0001:00006934       ??_GWwanController@@UAAPAXI@Z 10007934 f i CmCspWwanWwanController.obj
+ 0001:00006934       ??_EWwanController@@UAAPAXI@Z 10007934 f i CmCspWwanWwanController.obj
+ 0001:00006958       ??0EventWaitThread@@QAA@XZ 10007958 f   EventWaitThread.obj
+ 0001:00006994       ?StopThread@EventWaitThread@@AAAXXZ 10007994 f   EventWaitThread.obj
+ 0001:00006a08       ?EventThread@EventWaitThread@@AAAKXZ 10007a08 f   EventWaitThread.obj
+ 0001:00006ab4       ?Deinitialize@EventWaitThread@@UAAXXZ 10007ab4 f   EventWaitThread.obj
+ 0001:00006acc       ?EventThreadThunk@EventWaitThread@@SAKPAX@Z 10007acc f   EventWaitThread.obj
+ 0001:00006ad0       ??1EventWaitThread@@UAA@XZ 10007ad0 f   EventWaitThread.obj
+ 0001:00006b18       ?StartThread@EventWaitThread@@AAAJXZ 10007b18 f   EventWaitThread.obj
+ 0001:00006c10       ??_EEventWaitThread@@UAAPAXI@Z 10007c10 f i EventWaitThread.obj
+ 0001:00006c10       ??_GEventWaitThread@@UAAPAXI@Z 10007c10 f i EventWaitThread.obj
+ 0001:00006c34       ?Initialize@EventWaitThread@@UAAHXZ 10007c34 f   EventWaitThread.obj
+ 0001:00006c74       InitializeCriticalSection  10007c74 f   coredll:COREDLL.dll
+ 0001:00006c84       DeleteCriticalSection      10007c84 f   coredll:COREDLL.dll
+ 0001:00006c94       EnterCriticalSection       10007c94 f   coredll:COREDLL.dll
+ 0001:00006ca4       LeaveCriticalSection       10007ca4 f   coredll:COREDLL.dll
+ 0001:00006cb4       MultiByteToWideChar        10007cb4 f   coredll:COREDLL.dll
+ 0001:00006cc4       EventModify                10007cc4 f   coredll:COREDLL.dll
+ 0001:00006cd4       CloseHandle                10007cd4 f   coredll:COREDLL.dll
+ 0001:00006ce4       WaitForSingleObject        10007ce4 f   coredll:COREDLL.dll
+ 0001:00006cf4       CreateEventW               10007cf4 f   coredll:COREDLL.dll
+ 0001:00006d04       StringCchPrintfA           10007d04 f   coredll:COREDLL.dll
+ 0001:00006d14       LocalFree                  10007d14 f   coredll:COREDLL.dll
+ 0001:00006d24       CryptProtectData           10007d24 f   coredll:COREDLL.dll
+ 0001:00006d34       StringCchCopyW             10007d34 f   coredll:COREDLL.dll
+ 0001:00006d44       CryptUnprotectData         10007d44 f   coredll:COREDLL.dll
+ 0001:00006d54       CeSafeCopyMemory           10007d54 f   coredll:COREDLL.dll
+ 0001:00006d64       FreeLibrary                10007d64 f   coredll:COREDLL.dll
+ 0001:00006d74       DisableThreadLibraryCalls  10007d74 f   coredll:COREDLL.dll
+ 0001:00006d84       RegCloseKey                10007d84 f   coredll:COREDLL.dll
+ 0001:00006d94       RegQueryValueExW           10007d94 f   coredll:COREDLL.dll
+ 0001:00006da4       InterlockedIncrement       10007da4 f   coredll:COREDLL.dll
+ 0001:00006db4       RegOpenKeyExW              10007db4 f   coredll:COREDLL.dll
+ 0001:00006dc4       InterlockedDecrement       10007dc4 f   coredll:COREDLL.dll
+ 0001:00006dd4       GetProcAddressW            10007dd4 f   coredll:COREDLL.dll
+ 0001:00006de4       LoadLibraryW               10007de4 f   coredll:COREDLL.dll
+ 0001:00006df4       CloseMsgQueue              10007df4 f   coredll:COREDLL.dll
+ 0001:00006e04       CreateMsgQueue             10007e04 f   coredll:COREDLL.dll
+ 0001:00006e14       CreateFileW                10007e14 f   coredll:COREDLL.dll
+ 0001:00006e24       DeviceIoControl            10007e24 f   coredll:COREDLL.dll
+ 0001:00006e34       ReadMsgQueue               10007e34 f   coredll:COREDLL.dll
+ 0001:00006e44       WaitForMultipleObjects     10007e44 f   coredll:COREDLL.dll
+ 0001:00006e54       CreateThread               10007e54 f   coredll:COREDLL.dll
+ 0001:00006e64       GetLastError               10007e64 f   coredll:COREDLL.dll
+ 0001:00006e74       WSACloseEvent              10007e74 f   ws2:WS2.dll
+ 0001:00006e84       closesocket                10007e84 f   ws2:WS2.dll
+ 0001:00006e94       WSAGetLastError            10007e94 f   ws2:WS2.dll
+ 0001:00006ea4       WSAIoctl                   10007ea4 f   ws2:WS2.dll
+ 0001:00006eb4       WSAEventSelect             10007eb4 f   ws2:WS2.dll
+ 0001:00006ec4       WSACreateEvent             10007ec4 f   ws2:WS2.dll
+ 0001:00006ed4       socket                     10007ed4 f   ws2:WS2.dll
+ 0001:00006ee4       WSAStartup                 10007ee4 f   ws2:WS2.dll
+ 0001:00006ef4       WSAEnumNetworkEvents       10007ef4 f   ws2:WS2.dll
+ 0001:00006f04       GetAdaptersAddresses       10007f04 f   iphlpapi:iphlpapi.dll
+ 0001:0000700c       _DllMainCRTStartup         1000800c f   corelib0:pegdmain.obj
+ 0001:00007040       _onexit                    10008040 f   corelib0:onexit.obj
+ 0001:000071c4       atexit                     100081c4 f   corelib0:onexit.obj
+ 0001:000071dc       __GSHandlerCheckCommon     100081dc f   corelib0:gshandler.obj
+ 0001:00007218       __GSHandlerCheck           10008218 f   corelib0:gshandler.obj
+ 0001:00007238       __security_init_cookie     10008238 f   corelib0:seccinit.obj
+ 0001:00007284       __security_check_cookie    10008284 f   corelib0:armsecgs.obj
+ 0001:00007294       __gsfailure                10008294     corelib0:armsecgs.obj
+ 0001:000073c0       _cexit                     100083c0 f   corelib0:cexit.obj
+ 0001:000073d0       _initterm                  100083d0 f   corelib0:crt0dat.obj
+ 0001:000073fc       _cinit                     100083fc f   corelib0:crt0dat.obj
+ 0001:0000745c       __crt_ExitProcess          1000845c f   corelib0:exitproc_proxy.obj
+ 0001:00007468       ??3@YAXPAX@Z               10008468 f   corelib1:COREDLL.dll
+ 0001:00007478       ??2@YAPAXI@Z               10008478 f   corelib1:COREDLL.dll
+ 0001:00007488       _purecall                  10008488 f   corelib1:COREDLL.dll
+ 0001:00007498       memmove                    10008498 f   corelib1:COREDLL.dll
+ 0001:000074a8       wcslen                     100084a8 f   corelib1:COREDLL.dll
+ 0001:000074b8       ??_V@YAXPAX@Z              100084b8 f   corelib1:COREDLL.dll
+ 0001:000074c8       memcmp                     100084c8 f   corelib1:COREDLL.dll
+ 0001:000074d8       memcpy                     100084d8 f   corelib1:COREDLL.dll
+ 0001:000074e8       wcscmp                     100084e8 f   corelib1:COREDLL.dll
+ 0001:000074f8       memset                     100084f8 f   corelib1:COREDLL.dll
+ 0001:00007508       ??_U@YAPAXI@Z              10008508 f   corelib1:COREDLL.dll
+ 0001:00007518       _strnicmp                  10008518 f   corelib1:COREDLL.dll
+ 0001:00007528       toupper                    10008528 f   corelib1:COREDLL.dll
+ 0001:00007538       free                       10008538 f   corelib1:COREDLL.dll
+ 0001:00007548       malloc                     10008548 f   corelib1:COREDLL.dll
+ 0001:00007558       _XcptFilter                10008558 f   corelib1:COREDLL.dll
+ 0001:00007568       __C_specific_handler       10008568 f   corelib1:COREDLL.dll
+ 0001:00007578       realloc                    10008578 f   corelib1:COREDLL.dll
+ 0001:00007588       _msize                     10008588 f   corelib1:COREDLL.dll
+ 0001:00007598       __security_gen_cookie2     10008598 f   corelib1:COREDLL.dll
+ 0001:000075a8       __report_gsfailure         100085a8 f   corelib1:COREDLL.dll
+ 0001:000075b8       InterlockedCompareExchange 100085b8 f   coredll:COREDLL.dll
+ 0001:000075c8       InterlockedExchange        100085c8 f   coredll:COREDLL.dll
+ 0001:000075d8       TerminateProcess           100085d8 f   coredll:COREDLL.dll
+ 0001:000075f0       ??__Fcs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@YAXXZ 100085f0 f i CmCspWwanApi.obj
+ 0001:000075fc       ??__Fcs@?1??get_lock@?$singleton@VProvider@@$0A@V?$static_allocator@VProvider@@$0A@@ce@@@ce@@KAAAVcritical_section@2@XZ@YAXXZ 100085fc f i CmCspWwanApi.obj
+ 0001:000076a0       __IMPORT_DESCRIPTOR_COREDLL 100086a0     coredll:COREDLL.dll
+ 0001:000076b4       __IMPORT_DESCRIPTOR_WS2    100086b4     ws2:WS2.dll
+ 0001:000076c8       __IMPORT_DESCRIPTOR_iphlpapi 100086c8     iphlpapi:iphlpapi.dll
+ 0001:000076dc       __NULL_IMPORT_DESCRIPTOR   100086dc     coredll:COREDLL.dll
+ 0002:00000000       __imp_InitializeCriticalSection 10009000     coredll:COREDLL.dll
+ 0002:00000004       __imp_DeleteCriticalSection 10009004     coredll:COREDLL.dll
+ 0002:00000008       __imp_EnterCriticalSection 10009008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_LeaveCriticalSection 1000900c     coredll:COREDLL.dll
+ 0002:00000010       __imp_MultiByteToWideChar  10009010     coredll:COREDLL.dll
+ 0002:00000014       __imp_EventModify          10009014     coredll:COREDLL.dll
+ 0002:00000018       __imp_CloseHandle          10009018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_WaitForSingleObject  1000901c     coredll:COREDLL.dll
+ 0002:00000020       __imp_CreateEventW         10009020     coredll:COREDLL.dll
+ 0002:00000024       __imp_StringCchPrintfA     10009024     coredll:COREDLL.dll
+ 0002:00000028       __imp_LocalFree            10009028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_CryptProtectData     1000902c     coredll:COREDLL.dll
+ 0002:00000030       __imp_StringCchCopyW       10009030     coredll:COREDLL.dll
+ 0002:00000034       __imp_CryptUnprotectData   10009034     coredll:COREDLL.dll
+ 0002:00000038       __imp_CeSafeCopyMemory     10009038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_FreeLibrary          1000903c     coredll:COREDLL.dll
+ 0002:00000040       __imp_DisableThreadLibraryCalls 10009040     coredll:COREDLL.dll
+ 0002:00000044       __imp_RegCloseKey          10009044     coredll:COREDLL.dll
+ 0002:00000048       __imp_RegQueryValueExW     10009048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_InterlockedIncrement 1000904c     coredll:COREDLL.dll
+ 0002:00000050       __imp_RegOpenKeyExW        10009050     coredll:COREDLL.dll
+ 0002:00000054       __imp_InterlockedDecrement 10009054     coredll:COREDLL.dll
+ 0002:00000058       __imp_GetProcAddressW      10009058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_LoadLibraryW         1000905c     coredll:COREDLL.dll
+ 0002:00000060       __imp_CloseMsgQueue        10009060     coredll:COREDLL.dll
+ 0002:00000064       __imp_CreateMsgQueue       10009064     coredll:COREDLL.dll
+ 0002:00000068       __imp_CreateFileW          10009068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_DeviceIoControl      1000906c     coredll:COREDLL.dll
+ 0002:00000070       __imp_ReadMsgQueue         10009070     coredll:COREDLL.dll
+ 0002:00000074       __imp_WaitForMultipleObjects 10009074     coredll:COREDLL.dll
+ 0002:00000078       __imp_CreateThread         10009078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_GetLastError         1000907c     coredll:COREDLL.dll
+ 0002:00000080       __imp_InterlockedExchange  10009080     coredll:COREDLL.dll
+ 0002:00000084       __imp_TerminateProcess     10009084     coredll:COREDLL.dll
+ 0002:00000088       __imp_InterlockedCompareExchange 10009088     coredll:COREDLL.dll
+ 0002:0000008c       __imp___report_gsfailure   1000908c     corelib1:COREDLL.dll
+ 0002:00000090       __imp___security_gen_cookie2 10009090     corelib1:COREDLL.dll
+ 0002:00000094       __imp__msize               10009094     corelib1:COREDLL.dll
+ 0002:00000098       __imp_realloc              10009098     corelib1:COREDLL.dll
+ 0002:0000009c       __imp___C_specific_handler 1000909c     corelib1:COREDLL.dll
+ 0002:000000a0       __imp__XcptFilter          100090a0     corelib1:COREDLL.dll
+ 0002:000000a4       __imp_malloc               100090a4     corelib1:COREDLL.dll
+ 0002:000000a8       __imp_free                 100090a8     corelib1:COREDLL.dll
+ 0002:000000ac       __imp_toupper              100090ac     corelib1:COREDLL.dll
+ 0002:000000b0       __imp_??3@YAXPAX@Z         100090b0     corelib1:COREDLL.dll
+ 0002:000000b4       __imp_??2@YAPAXI@Z         100090b4     corelib1:COREDLL.dll
+ 0002:000000b8       __imp__purecall            100090b8     corelib1:COREDLL.dll
+ 0002:000000bc       __imp_memmove              100090bc     corelib1:COREDLL.dll
+ 0002:000000c0       __imp_wcslen               100090c0     corelib1:COREDLL.dll
+ 0002:000000c4       __imp_??_V@YAXPAX@Z        100090c4     corelib1:COREDLL.dll
+ 0002:000000c8       __imp_memcmp               100090c8     corelib1:COREDLL.dll
+ 0002:000000cc       __imp_memcpy               100090cc     corelib1:COREDLL.dll
+ 0002:000000d0       __imp_wcscmp               100090d0     corelib1:COREDLL.dll
+ 0002:000000d4       __imp_memset               100090d4     corelib1:COREDLL.dll
+ 0002:000000d8       __imp_??_U@YAPAXI@Z        100090d8     corelib1:COREDLL.dll
+ 0002:000000dc       __imp__strnicmp            100090dc     corelib1:COREDLL.dll
+ 0002:000000e0       \177COREDLL_NULL_THUNK_DATA 100090e0     coredll:COREDLL.dll
+ 0002:000000e4       __imp_WSACreateEvent       100090e4     ws2:WS2.dll
+ 0002:000000e8       __imp_WSACloseEvent        100090e8     ws2:WS2.dll
+ 0002:000000ec       __imp_WSAEnumNetworkEvents 100090ec     ws2:WS2.dll
+ 0002:000000f0       __imp_WSAStartup           100090f0     ws2:WS2.dll
+ 0002:000000f4       __imp_socket               100090f4     ws2:WS2.dll
+ 0002:000000f8       __imp_closesocket          100090f8     ws2:WS2.dll
+ 0002:000000fc       __imp_WSAEventSelect       100090fc     ws2:WS2.dll
+ 0002:00000100       __imp_WSAIoctl             10009100     ws2:WS2.dll
+ 0002:00000104       __imp_WSAGetLastError      10009104     ws2:WS2.dll
+ 0002:00000108       \177WS2_NULL_THUNK_DATA    10009108     ws2:WS2.dll
+ 0002:0000010c       __imp_GetAdaptersAddresses 1000910c     iphlpapi:iphlpapi.dll
+ 0002:00000110       \177iphlpapi_NULL_THUNK_DATA 10009110     iphlpapi:iphlpapi.dll
+ 0002:00000118       ?m_szDummyPassword@WwanContextEx_t@@0PBGB 10009118     CmCspWwanContext.obj
+ 0002:00000120       ?dpCurSettings@@3U_DBGPARAM@@A 10009120     CmCspWwanDebugZone.obj
+ 0002:00000568       __security_cookie          10009568     corelib0:seccinit.obj
+ 0002:0000056c       __security_cookie_complement 1000956c     corelib0:seccinit.obj
+ 0002:00000570       ?memory@?1??allocate@?$static_allocator@VProvider@@$0A@@ce@@SAPAXI@Z@4PADA 10009570     CmCspWwanApi.obj
+ 0002:000005b4       ??_B?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@51 100095b4     CmCspWwanApi.obj
+ 0002:000005b8       ?cs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@3@XZ@4V43@A 100095b8     CmCspWwanApi.obj
+ 0002:000005cc       ??_B?1??get_lock@?$singleton@VProvider@@$0A@V?$static_allocator@VProvider@@$0A@@ce@@@ce@@KAAAVcritical_section@2@XZ@51 100095cc     CmCspWwanApi.obj
+ 0002:000005d0       ?cs@?1??get_lock@?$singleton@VProvider@@$0A@V?$static_allocator@VProvider@@$0A@@ce@@@ce@@KAAAVcritical_section@3@XZ@4V43@A 100095d0     CmCspWwanApi.obj
+ 0002:000005e4       ?pInstance@?$singleton@VProvider@@$0A@V?$static_allocator@VProvider@@$0A@@ce@@@ce@@1RAVProvider@@A 100095e4     CmCspWwanApi.obj
+ 0002:000005e8       ?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A 100095e8     CmCspWwanApi.obj
+ 0002:000005e9       ?_factory@?$singleton@VProvider@@$0A@V?$static_allocator@VProvider@@$0A@@ce@@@ce@@1Ulock_factory@12@A 100095e9     CmCspWwanApi.obj
+ 0002:000005ec       ?g_hRILDll@@3PAUHINSTANCE__@@A 100095ec     CmCspWwanProvider.obj
+ 0002:000005f0       ?g_pRILDataDormant@@3P6AXXZA 100095f0     CmCspWwanProvider.obj
+ 0002:000005f4       ?g_pRILSetDataActivityState@@3P6AXW4CM_DATA_ACTIVITY_STATE@@I@ZA 100095f4     CmCspWwanProvider.obj
+ 0002:00000600       ?memory@?1??allocate@?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@SAPAXI@Z@4PADA 10009600     CmCspWwanProvider.obj
+ 0002:000007ac       ?pInstance@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1RAV?$free_list@$0GE@Vallocator@ce@@@2@A 100097ac     CmCspWwanProvider.obj
+ 0002:000007b0       ?lRefCount@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1JA 100097b0     CmCspWwanProvider.obj
+ 0002:000007b4       _exitflag                  100097b4     corelib0:cexit.obj
+ 0002:000007b8       __onexitend                100097b8     <common>
+ 0002:000007bc       __onexitbegin              100097bc     <common>
+ 0002:000007c0       g_pcsExit                  100097c0     <common>
+ 0002:000007c4       _pRawDllMain               100097c4     <common>
+
+ entry point at        0001:0000700c
+
+ Static symbols
+
+ 0001:00006f1c       _DllMainCRTStartupHelper   10007f1c f   corelib0:pegdmain.obj
+ 0001:000072d8       doexit                     100082d8 f   corelib0:cexit.obj
+ 0001:000075e8       ??__E?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A@@YAXXZ 100085e8 f   CmCspWwanApi.obj
+ 0001:000075ec       ??__E?_factory@?$singleton@VProvider@@$0A@V?$static_allocator@VProvider@@$0A@@ce@@@ce@@1Ulock_factory@12@A@@YAXXZ 100085ec f   CmCspWwanApi.obj

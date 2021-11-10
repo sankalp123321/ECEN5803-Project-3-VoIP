@@ -1,0 +1,73 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; ExSMime.def : Declares the module parameters.
+
+LIBRARY      "ExSMime.DLL"
+
+EXPORTS
+	DllCanUnloadNow    = DllCanUnloadNow PRIVATE
+	DllGetClassObject  = DllGetClassObject PRIVATE
+	DllRegisterServer  = DllRegisterServer PRIVATE
+	DllUnregisterServer = DllUnregisterServer PRIVATE
+	

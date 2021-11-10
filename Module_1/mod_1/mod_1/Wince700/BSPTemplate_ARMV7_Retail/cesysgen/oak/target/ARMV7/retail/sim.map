@@ -1,0 +1,179 @@
+ sim
+
+ Timestamp is 5ac6518a (Thu Apr 05 09:40:42 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 00000028H .rdata                  CODE
+ 0001:00000048 00000020H .rdata$debug            CODE
+ 0001:00000068 000023fcH .text                   CODE
+ 0001:00002464 00000050H .xdata                  CODE
+ 0001:000024b4 00000014H .idata$2                CODE
+ 0001:000024c8 00000014H .idata$3                CODE
+ 0001:000024dc 00000068H .idata$4                CODE
+ 0001:00002544 0000000cH .idata$6                CODE
+ 0001:00002550 00000349H .edata                  CODE
+ 0002:00000000 00000068H .idata$5                DATA
+ 0002:00000068 0000044cH .data                   DATA
+ 0002:000004b4 00000014H .bss                    DATA
+ 0003:00000000 00000238H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:0000003c       ??_C@_1M@EPEIIGPH@?$AAS?$AAI?$AAM?$AA1?$AA?3?$AA?$AA@ 1000103c     simproxy.obj
+ 0001:00000068       DllMain                    10001068 f   simproxy.obj
+ 0001:00000094       ??1CSimProxy@@QAA@XZ       10001094 f   simproxy.obj
+ 0001:00000100       ?CallbackThreadProc@CSimProxy@@IAAKXZ 10001100 f   simproxy.obj
+ 0001:0000023c       ?GetInfo@CSimProxy@@QAAJPAUsiminfo_tag@@@Z 1000123c f   simproxy.obj
+ 0001:000002f8       ?GetDevCaps@CSimProxy@@QAAJKPAUsimcaps_tag@@@Z 100012f8 f   simproxy.obj
+ 0001:000003a8       ?GetIMSI@CSimProxy@@QAAJPAGPAK@Z 100013a8 f   simproxy.obj
+ 0001:00000478       ?GetPhonebookStatus@CSimProxy@@QAAJKPAK0@Z 10001478 f   simproxy.obj
+ 0001:00000538       ?ReadPhonebookEntry@CSimProxy@@QAAJKKPAUsimphonebookentry_tag@@@Z 10001538 f   simproxy.obj
+ 0001:00000614       ?WritePhonebookEntry@CSimProxy@@QAAJKKPAUsimphonebookentry_tag@@@Z 10001614 f   simproxy.obj
+ 0001:000006ec       ?DeletePhonebookEntry@CSimProxy@@QAAJKK@Z 100016ec f   simproxy.obj
+ 0001:00000778       ?GetSmsStorageStatus@CSimProxy@@QAAJKPAK0@Z 10001778 f   simproxy.obj
+ 0001:00000838       ?ReadMessage@CSimProxy@@QAAJKKPAUsimmessage_tag@@@Z 10001838 f   simproxy.obj
+ 0001:00000914       ?WriteMessage@CSimProxy@@QAAJKPAKPAUsimmessage_tag@@@Z 10001914 f   simproxy.obj
+ 0001:00000a00       ?DeleteMessage@CSimProxy@@QAAJKK@Z 10001a00 f   simproxy.obj
+ 0001:00000a94       ?ReadRILMessage@CSimProxy@@QAAJKKPAUrilmessageinfo_tag@@@Z 10001a94 f   simproxy.obj
+ 0001:00000b4c       ?GetPhoneLockedState@CSimProxy@@QAAJPAK@Z 10001b4c f   simproxy.obj
+ 0001:00000bd0       ?UnlockPhone@CSimProxy@@QAAJPAG0@Z 10001bd0 f   simproxy.obj
+ 0001:00000cd8       ?GetLockingStatus@CSimProxy@@QAAJKPAGPAH@Z 10001cd8 f   simproxy.obj
+ 0001:00000ddc       ?SetLockingStatus@CSimProxy@@QAAJKPAGH@Z 10001ddc f   simproxy.obj
+ 0001:00000ec8       ?ChangeLockingPassword@CSimProxy@@QAAJKPAG0@Z 10001ec8 f   simproxy.obj
+ 0001:00000fe0       ?ReadRecord@CSimProxy@@QAAJKKKPAEKPAK@Z 10001fe0 f   simproxy.obj
+ 0001:000010fc       ?WriteRecord@CSimProxy@@QAAJKKKPAEK@Z 100020fc f   simproxy.obj
+ 0001:000011c4       ?GetRecordInfo@CSimProxy@@QAAJKPAUsimrecordinfo_tag@@@Z 100021c4 f   simproxy.obj
+ 0001:0000128c       ?PhonebookCapabilities@CSimProxy@@QAAJPAUsimphonebookcaps_tag@@@Z 1000228c f   simproxy.obj
+ 0001:00001348       ?ReadPhonebookTag@CSimProxy@@QAAJKKPAGK@Z 10002348 f   simproxy.obj
+ 0001:00001404       ?WritePhonebookTag@CSimProxy@@QAAJKKPAG@Z 10002404 f   simproxy.obj
+ 0001:000014bc       ?WritePhonebookEntryEx@CSimProxy@@QAAJKKPAUsimphonebookentryex_tag@@@Z 100024bc f   simproxy.obj
+ 0001:00001578       ?ReadPhonebookEntries@CSimProxy@@QAAJKKPAKPAUsimphonebookentryex_tag@@0@Z 10002578 f   simproxy.obj
+ 0001:00001698       SimEnumModules             10002698 f   simproxy.obj
+ 0001:00001810       SimDeinitialize            10002810 f   simproxy.obj
+ 0001:00001840       SimGetInfo                 10002840 f   simproxy.obj
+ 0001:0000185c       SimGetDevCaps              1000285c f   simproxy.obj
+ 0001:00001878       ?SimGetIMSI@@YAJPAXPAGPAK@Z 10002878 f   simproxy.obj
+ 0001:00001894       SimReadPhonebookEntry      10002894 f   simproxy.obj
+ 0001:000018b0       SimGetPhonebookStatus      100028b0 f   simproxy.obj
+ 0001:000018cc       SimWritePhonebookEntry     100028cc f   simproxy.obj
+ 0001:000018e8       SimDeletePhonebookEntry    100028e8 f   simproxy.obj
+ 0001:00001904       SimGetSmsStorageStatus     10002904 f   simproxy.obj
+ 0001:00001920       SimReadMessage             10002920 f   simproxy.obj
+ 0001:0000193c       ?SimReadRILMessage@@YAJPAXKKPAUrilmessageinfo_tag@@@Z 1000293c f   simproxy.obj
+ 0001:00001958       SimWriteMessage            10002958 f   simproxy.obj
+ 0001:00001974       SimDeleteMessage           10002974 f   simproxy.obj
+ 0001:00001990       SimGetPhoneLockedState     10002990 f   simproxy.obj
+ 0001:000019ac       SimGetLockingStatus        100029ac f   simproxy.obj
+ 0001:000019c8       SimSetLockingStatus        100029c8 f   simproxy.obj
+ 0001:000019e4       SimChangeLockingPassword   100029e4 f   simproxy.obj
+ 0001:00001a00       SimUnlockPhone             10002a00 f   simproxy.obj
+ 0001:00001a1c       SimReadRecord              10002a1c f   simproxy.obj
+ 0001:00001a74       SimWriteRecord             10002a74 f   simproxy.obj
+ 0001:00001abc       SimGetRecordInfo           10002abc f   simproxy.obj
+ 0001:00001ad8       SimWritePhonebookEntryEx   10002ad8 f   simproxy.obj
+ 0001:00001af4       SimReadPhonebookEntries    10002af4 f   simproxy.obj
+ 0001:00001b3c       SimGetPhonebookCapabilities 10002b3c f   simproxy.obj
+ 0001:00001b58       SimReadPhonebookTag        10002b58 f   simproxy.obj
+ 0001:00001b90       SimWritePhonebookTag       10002b90 f   simproxy.obj
+ 0001:00001bac       ?SimCallbackThreadProc@@YAKPAX@Z 10002bac f i simproxy.obj
+ 0001:00001bb8       ?Initialize@CSimProxy@@QAAJKKP6AXKPBXKK@ZP6AXPAXK0KK@ZK@Z 10002bb8 f   simproxy.obj
+ 0001:00001dbc       SimInitializeEx            10002dbc f   simproxy.obj
+ 0001:00001e78       SimInitialize              10002e78 f   simproxy.obj
+ 0001:00001f24       EventModify                10002f24 f   coredll:COREDLL.dll
+ 0001:00001f34       RegisterDbgZones           10002f34 f   coredll:COREDLL.dll
+ 0001:00001f44       DisableThreadLibraryCalls  10002f44 f   coredll:COREDLL.dll
+ 0001:00001f54       WaitForSingleObject        10002f54 f   coredll:COREDLL.dll
+ 0001:00001f64       CloseHandle                10002f64 f   coredll:COREDLL.dll
+ 0001:00001f74       DeviceIoControl            10002f74 f   coredll:COREDLL.dll
+ 0001:00001f84       StringCchCopyW             10002f84 f   coredll:COREDLL.dll
+ 0001:00001f94       LocalFree                  10002f94 f   coredll:COREDLL.dll
+ 0001:00001fa4       LocalAlloc                 10002fa4 f   coredll:COREDLL.dll
+ 0001:00001fb4       CreateFileW                10002fb4 f   coredll:COREDLL.dll
+ 0001:00001fc4       CreateThread               10002fc4 f   coredll:COREDLL.dll
+ 0001:00001fd4       CreateEventW               10002fd4 f   coredll:COREDLL.dll
+ 0001:000020dc       _DllMainCRTStartup         100030dc f   corelib0:pegdmain.obj
+ 0001:00002108       __GSHandlerCheckCommon     10003108 f   corelib0:gshandler.obj
+ 0001:00002144       __GSHandlerCheck           10003144 f   corelib0:gshandler.obj
+ 0001:00002164       __security_init_cookie     10003164 f   corelib0:seccinit.obj
+ 0001:000021b0       __security_check_cookie    100031b0 f   corelib0:armsecgs.obj
+ 0001:000021c0       __gsfailure                100031c0     corelib0:armsecgs.obj
+ 0001:000022ec       _cexit                     100032ec f   corelib0:cexit.obj
+ 0001:000022fc       _initterm                  100032fc f   corelib0:crt0dat.obj
+ 0001:00002328       _cinit                     10003328 f   corelib0:crt0dat.obj
+ 0001:00002388       __crt_ExitProcess          10003388 f   corelib0:exitproc_proxy.obj
+ 0001:00002394       wcslen                     10003394 f   corelib1:COREDLL.dll
+ 0001:000023a4       memcpy                     100033a4 f   corelib1:COREDLL.dll
+ 0001:000023b4       memset                     100033b4 f   corelib1:COREDLL.dll
+ 0001:000023c4       ??3@YAXPAX@Z               100033c4 f   corelib1:COREDLL.dll
+ 0001:000023d4       ??2@YAPAXI@Z               100033d4 f   corelib1:COREDLL.dll
+ 0001:000023e4       _XcptFilter                100033e4 f   corelib1:COREDLL.dll
+ 0001:000023f4       __C_specific_handler       100033f4 f   corelib1:COREDLL.dll
+ 0001:00002404       __security_gen_cookie2     10003404 f   corelib1:COREDLL.dll
+ 0001:00002414       __report_gsfailure         10003414 f   corelib1:COREDLL.dll
+ 0001:00002424       free                       10003424 f   corelib1:COREDLL.dll
+ 0001:00002434       DeleteCriticalSection      10003434 f   coredll:COREDLL.dll
+ 0001:00002444       InterlockedExchange        10003444 f   coredll:COREDLL.dll
+ 0001:00002454       TerminateProcess           10003454 f   coredll:COREDLL.dll
+ 0001:000024b4       __IMPORT_DESCRIPTOR_COREDLL 100034b4     coredll:COREDLL.dll
+ 0001:000024c8       __NULL_IMPORT_DESCRIPTOR   100034c8     coredll:COREDLL.dll
+ 0002:00000000       __imp_EventModify          10004000     coredll:COREDLL.dll
+ 0002:00000004       __imp_RegisterDbgZones     10004004     coredll:COREDLL.dll
+ 0002:00000008       __imp_DisableThreadLibraryCalls 10004008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_WaitForSingleObject  1000400c     coredll:COREDLL.dll
+ 0002:00000010       __imp_CloseHandle          10004010     coredll:COREDLL.dll
+ 0002:00000014       __imp_DeviceIoControl      10004014     coredll:COREDLL.dll
+ 0002:00000018       __imp_StringCchCopyW       10004018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_LocalFree            1000401c     coredll:COREDLL.dll
+ 0002:00000020       __imp_LocalAlloc           10004020     coredll:COREDLL.dll
+ 0002:00000024       __imp_CreateFileW          10004024     coredll:COREDLL.dll
+ 0002:00000028       __imp_CreateThread         10004028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_CreateEventW         1000402c     coredll:COREDLL.dll
+ 0002:00000030       __imp_wcslen               10004030     corelib1:COREDLL.dll
+ 0002:00000034       __imp_memcpy               10004034     corelib1:COREDLL.dll
+ 0002:00000038       __imp_memset               10004038     corelib1:COREDLL.dll
+ 0002:0000003c       __imp_??3@YAXPAX@Z         1000403c     corelib1:COREDLL.dll
+ 0002:00000040       __imp_??2@YAPAXI@Z         10004040     corelib1:COREDLL.dll
+ 0002:00000044       __imp__XcptFilter          10004044     corelib1:COREDLL.dll
+ 0002:00000048       __imp___C_specific_handler 10004048     corelib1:COREDLL.dll
+ 0002:0000004c       __imp___security_gen_cookie2 1000404c     corelib1:COREDLL.dll
+ 0002:00000050       __imp___report_gsfailure   10004050     corelib1:COREDLL.dll
+ 0002:00000054       __imp_free                 10004054     corelib1:COREDLL.dll
+ 0002:00000058       __imp_DeleteCriticalSection 10004058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_InterlockedExchange  1000405c     coredll:COREDLL.dll
+ 0002:00000060       __imp_TerminateProcess     10004060     coredll:COREDLL.dll
+ 0002:00000064       \177COREDLL_NULL_THUNK_DATA 10004064     coredll:COREDLL.dll
+ 0002:00000068       ?dpCurSettings@@3U_DBGPARAM@@A 10004068     simproxy.obj
+ 0002:000004ac       __security_cookie          100044ac     corelib0:seccinit.obj
+ 0002:000004b0       __security_cookie_complement 100044b0     corelib0:seccinit.obj
+ 0002:000004b4       _exitflag                  100044b4     corelib0:cexit.obj
+ 0002:000004b8       __onexitend                100044b8     <common>
+ 0002:000004bc       __onexitbegin              100044bc     <common>
+ 0002:000004c0       g_pcsExit                  100044c0     <common>
+ 0002:000004c4       _pRawDllMain               100044c4     <common>
+
+ entry point at        0001:000020dc
+
+ Static symbols
+
+ 0001:00001fec       _DllMainCRTStartupHelper   10002fec f   corelib0:pegdmain.obj
+ 0001:00002204       doexit                     10003204 f   corelib0:cexit.obj

@@ -1,0 +1,200 @@
+//
+// Copyright (c) Microsoft Corporation.  All rights reserved.
+//
+//
+// Use of this source code is subject to the terms of the Microsoft
+// premium shared source license agreement under which you licensed
+// this source code. If you did not accept the terms of the license
+// agreement, you are not authorized to use this source code.
+// For the terms of the license, please see the license agreement
+// signed by you and Microsoft.
+// THE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+//
+// medialib.idl : IDL source for medialib
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (medialib.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+import "mlibdll.idl";
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// IMLDSItemSink
+//
+//////////////////////////////////////////////////////////////////////////////
+
+[
+    object,
+    uuid(308CCAD2-B71F-4e27-828E-6296257052A8),
+    helpstring("IMLDSItemSink Interface"),
+    pointer_default(unique)
+]
+interface IMLDSItemSink : IMLStoreMetadata
+{
+    // instructs the Media Library to update the information for the specified MLDSItem
+    [helpstring("method ProcessFile")] HRESULT ProcessFile(
+        [in] MLDSItem file);
+};
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// IMLDSPlugin - Interface of a DS Plugin
+//
+//////////////////////////////////////////////////////////////////////////////
+
+[
+    object,
+    uuid(B7986A03-6C88-4c5a-BB4A-89C3B26A5CEF),
+    helpstring("IMLDSPlugin Interface"),
+    pointer_default(unique)
+]
+interface IMLDSPlugin : IUnknown
+{
+    // Initializes the data source plug-in
+    [helpstring("method Init")] HRESULT Init(
+        [in] IMLDSItemSink *pDSItemSink,
+        [in] IMLCore *pCore);    
+
+    // Returns an array of MLDataSource structures that describe the
+    // connected data sources for the plug-in
+    [helpstring("method GetDataSources")] HRESULT GetDataSources(
+        [in] BOOL fForceRefresh,
+        [in] USHORT *pcDataSources,
+        [out, size_is(, *pcDataSources)] MLDataSource **prgDataSources);
+
+    // Adds or removes a location to the list of monitored locations
+    [helpstring("method UpdateWatchList")] HRESULT UpdateWatchList(
+        [in] MLDataSource datasource,
+        [in] BSTR location,
+        [in] BOOL fAdd,
+        [out] BOOL *pfHandled);
+        
+    // Returns the number of locations currently monitored
+    [helpstring("method GetWatchListCount")] HRESULT GetWatchListCount(
+        [in] MLDataSource datasource,
+        [out]ULONG *pcWatchList);
+        
+    // Returns the list of locations currently monitored 
+    [helpstring("method GetWatchList")] HRESULT GetWatchList(
+        [in] MLDataSource datasource,
+        [out] BSTR **prgWatchList,
+        [out] ULONG *pcWatchList);
+
+    // Enumerates all files and calls the IMLDSItemSink::ProcessFile method for each file
+    [helpstring("method GetFileList")] HRESULT GetFileList(
+        [in] MLDataSource datasource,
+        [in] IMLSortOrder *sortOrder, 
+        [in] MLRange range,
+        [in] IMLPropertySet *pPropertySetWanted,
+        [in] BSTR folderName, 
+        [in] MLQueryFlags flags);
+        
+    // Returns a DWORD that is composed of multiple MLDataSourceFlags values
+    // to indicate what type of operations the data source supports
+    [helpstring("method GetPluginCaps")] HRESULT GetPluginCaps(
+        [out] DWORD *pdwPluginCaps);        
+};
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// IMLMediaParser - Interface of a Media Parser
+//
+//////////////////////////////////////////////////////////////////////////////
+
+[
+    object,
+    uuid(A3B4056A-C068-4c2e-ADE6-797F855216EE),
+    helpstring("IMLMediaParser Interface"),
+    pointer_default(unique)
+]
+interface IMLMediaParser : IUnknown
+{
+    // Initialize the Media Parser
+    [helpstring("method Init")] HRESULT Init();
+
+    // Return the list of file extensions that this media parser supports
+    [helpstring("method GetKnownFileExtensions")] HRESULT GetKnownFileExtensions(
+        [out] ULONG *pcFileExtensions,
+        [out, size_is(, *pcFileExtensions)] BSTR **prgFileExtensions);
+
+    // Get the entity media type of a file
+    [helpstring("method GetEntityType")] HRESULT GetEntityType(
+        [in] MLDSItem file,
+        [out] ULONG *pEntityType);
+
+    // Extract metdata from the specified MLDSItem
+    [helpstring("method ExtractMetadata")] HRESULT ExtractMetadata(
+        [in] MLDSItem file,
+        [in] IMLPropertySet *pPropertySetWanted,
+        [in] IMLPropertySet *pFileMetadata);
+};
+
+//////////////////////////////////////////////////////////////////////////////
+
+[
+    uuid(B588CCE5-315A-4d93-BA07-B566A6B3DCC4),
+    version(1.0),
+    helpstring("Media Library Plugin Type Library")
+]
+library MLibDllPlugin
+{
+    importlib("stdole2.tlb");
+    
+    [
+        uuid(14A8EF7D-9580-4386-A4CB-AC34B2DC6C2C),
+        helpstring("DS FileSystem Plugin Class")
+    ]
+    coclass MLDSFileSystemPlugin
+    {
+        [default] interface IUnknown;
+    };
+    
+    [
+        uuid(60F69E85-C73A-4827-8E40-C9861A44703A),
+        helpstring("DS DLNA Plugin Class")
+    ]
+    coclass MLDSDLNAPlugin
+    {
+        [default] interface IUnknown;
+    };
+
+    [
+        uuid(9ABC2CD4-3CE0-4fb3-95D5-A6DFCACFF9AA),
+        helpstring("ASF MetadataParser Class")
+    ]
+    coclass MLASFMetadataParser
+    {
+        [default] interface IUnknown;
+    };
+    
+    [
+        uuid(289CEE60-D768-4574-9BF3-E00D2EE14AD6),
+        helpstring("AVI MetadataParser Class")
+    ]
+    coclass MLAVIMetadataParser
+    {
+        [default] interface IUnknown;
+    };
+    
+    [
+        uuid(1C19C217-6908-4390-A801-995C800BAE5F),
+        helpstring("MP3 MetadataParser Class")
+    ]
+    coclass MLMP3MetadataParser
+    {
+        [default] interface IUnknown;
+    };
+    
+    [
+        uuid(C52555CE-7E5F-4f3c-98EF-9BDEBE8C443D),
+        helpstring("Image MetadataParser Class")
+    ]
+    coclass MLImageMetadataParser
+    {
+        [default] interface IUnknown;
+    };
+};
+

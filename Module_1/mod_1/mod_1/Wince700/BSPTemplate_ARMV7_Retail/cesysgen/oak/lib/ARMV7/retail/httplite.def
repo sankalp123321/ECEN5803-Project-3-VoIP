@@ -1,0 +1,128 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;
+; Copyright (c) Microsoft Corporation.  All rights reserved.
+;
+;
+; Use of this source code is subject to the terms of your Microsoft Windows CE
+; Source Alliance Program license form.  If you did not accept the terms of
+; such a license, you are not authorized to use this source code.
+;
+LIBRARY			HTTPLITE
+
+EXPORTS
+
+; Export DllMain required for componentization. Otherwise, the linker defaulted
+; to the dll entry for libc.lib which we are linking to.
+
+        DllMain
+
+; General Internet APIs
+
+		InternetCrackUrlA
+		InternetCanonicalizeUrlA
+        InternetCombineUrlA
+		InternetCreateUrlA
+        InternetTimeFromSystemTimeA
+        InternetTimeFromSystemTimeW
+        InternetTimeToSystemTimeA
+        InternetTimeToSystemTimeW
+		InternetOpenA
+		InternetOpenW
+		InternetCloseHandle
+        InternetConnectA
+        InternetConnectW
+        InternetReadFile
+        InternetWriteFile
+        InternetSetFilePointer
+        InternetSetOptionA
+        InternetSetOptionW
+        InternetQueryOptionA
+        InternetQueryOptionW
+        InternetQueryDataAvailable
+        InternetAttemptConnect
+        InternetErrorDlg
+        InternetSetStatusCallback
+        InternetFindNextFileA
+        InternetFindNextFileW
+        InternetGetLastResponseInfoA
+        InternetGetLastResponseInfoW
+        InternetOpenUrlA
+        InternetOpenUrlW
+
+; HTTP APIs
+
+        HttpOpenRequestA
+        HttpOpenRequestW
+        HttpSendRequestA
+        HttpSendRequestW
+        HttpQueryInfoA
+        HttpQueryInfoW
+        HttpAddRequestHeadersA
+        HttpAddRequestHeadersW
+        HttpSendRequestExA
+        HttpEndRequestA
+
+; @CESYSGEN IF HTTPLITE_HTTPFTP
+; @CESYSGEN ENDIF

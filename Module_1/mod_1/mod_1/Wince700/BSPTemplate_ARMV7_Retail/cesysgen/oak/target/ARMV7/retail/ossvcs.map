@@ -1,0 +1,1769 @@
+ ossvcs
+
+ Timestamp is 618b15b3 (Tue Nov 09 17:43:31 2021)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 0000001cH .CRT$XCU                CODE
+ 0001:00000020 00000004H .CRT$XCZ                CODE
+ 0001:00000024 00000004H .CRT$XIA                CODE
+ 0001:00000028 00000004H .CRT$XIZ                CODE
+ 0001:0000002c 00000004H .CRT$XPA                CODE
+ 0001:00000030 00000004H .CRT$XPZ                CODE
+ 0001:00000034 00000004H .CRT$XTA                CODE
+ 0001:00000038 00000004H .CRT$XTZ                CODE
+ 0001:00000040 00008184H .rdata                  CODE
+ 0001:000081c4 00000023H .rdata$debug            CODE
+ 0001:000081e8 0002110cH .text                   CODE
+ 0001:000292f4 0000019cH .text$yc                CODE
+ 0001:00029490 00000060H .text$yd                CODE
+ 0001:000294f0 00000214H .xdata                  CODE
+ 0001:00029704 00000000H ATL$__a                 CODE
+ 0001:00029704 00000000H ATL$__z                 CODE
+ 0001:00029704 0000003cH .idata$2                CODE
+ 0001:00029740 00000014H .idata$3                CODE
+ 0001:00029754 00000370H .idata$4                CODE
+ 0001:00029ac4 00000094H .idata$6                CODE
+ 0001:00029b60 000008f1H .edata                  CODE
+ 0002:00000000 00000370H .idata$5                DATA
+ 0002:00000370 00000380H .data                   DATA
+ 0002:000006f0 00000f3cH .bss                    DATA
+ 0003:00000000 000017d8H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000020       __xc_z                     10001020     corelib0:crt0init.obj
+ 0001:00000024       __xi_a                     10001024     corelib0:crt0init.obj
+ 0001:00000028       __xi_z                     10001028     corelib0:crt0init.obj
+ 0001:0000002c       __xp_a                     1000102c     corelib0:crt0init.obj
+ 0001:00000030       __xp_z                     10001030     corelib0:crt0init.obj
+ 0001:00000034       __xt_a                     10001034     corelib0:crt0init.obj
+ 0001:00000038       __xt_z                     10001038     corelib0:crt0init.obj
+ 0001:0000005c       ??_C@_11LOCGONAA@?$AA?$AA@ 1000105c     ossvcs_ALL:recutil.obj
+ 0001:00000060       ??_C@_17HLKIKBMH@?$AA?$CF?$AAh?$AAd?$AA?$AA@ 10001060     ossvcs_ALL:recutil.obj
+ 0001:00000068       ??_C@_17OADJODNB@?$AA?$CF?$AAl?$AAd?$AA?$AA@ 10001068     ossvcs_ALL:recutil.obj
+ 0001:00000070       ??_C@_17JDANJBDN@?$AA?$CF?$AAh?$AAu?$AA?$AA@ 10001070     ossvcs_ALL:recutil.obj
+ 0001:00000078       ??_C@_17IJMNDCL@?$AA?$CF?$AAl?$AAu?$AA?$AA@ 10001078     ossvcs_ALL:recutil.obj
+ 0001:00000080       ??_C@_1CA@NONKKJPD@?$AAR?$AAi?$AAn?$AAg?$AAT?$AAo?$AAn?$AAe?$AAL?$AAi?$AAn?$AAk?$AAU?$AAR?$AAL?$AA?$AA@ 10001080     ossvcs_ALL:phnsettutil.obj
+ 0001:000000a0       ??_C@_1CC@ILOHDEMC@?$AAR?$AAi?$AAn?$AAg?$AAT?$AAo?$AAn?$AAe?$AAL?$AAi?$AAn?$AAk?$AAT?$AAe?$AAx?$AAt?$AA?$AA@ 100010a0     ossvcs_ALL:phnsettutil.obj
+ 0001:000000c4       ??_C@_1CC@IMFPCGIE@?$AAP?$AAr?$AAe?$AAf?$AAe?$AAr?$AAr?$AAe?$AAd?$AAD?$AAi?$AAs?$AAa?$AAb?$AAl?$AAe?$AA?$AA@ 100010c4     ossvcs_ALL:phnsettutil.obj
+ 0001:000000e8       ??_C@_1BM@ELNONKPP@?$AAM?$AAa?$AAn?$AAu?$AAa?$AAl?$AAD?$AAi?$AAs?$AAa?$AAb?$AAl?$AAe?$AA?$AA@ 100010e8     ossvcs_ALL:phnsettutil.obj
+ 0001:00000104       ??_C@_1BO@GPKEDHOB@?$AAS?$AAe?$AAc?$AAu?$AAr?$AAi?$AAt?$AAy?$AA?2?$AAP?$AAh?$AAo?$AAn?$AAe?$AA?$AA@ 10001104     ossvcs_ALL:phnsettutil.obj
+ 0001:00000138       ??_C@_19BDAJEHDN@?$AAo?$AAp?$AAe?$AAn?$AA?$AA@ 10001138     ossvcs_ALL:phnsettutil.obj
+ 0001:00000144       ??_C@_1DC@KAKJBAHD@?$AAS?$AAe?$AAc?$AAu?$AAr?$AAi?$AAt?$AAy?$AA?2?$AAE?$AAC?$AAa?$AAl?$AAl?$AAW?$AAi?$AAt?$AAh?$AAo?$AAu?$AAt?$AAS?$AAi?$AAm?$AA?$AA@ 10001144     ossvcs_ALL:phnumutil.obj
+ 0001:00000178       ??_C@_1CM@HFFPKOHB@?$AAS?$AAe?$AAc?$AAu?$AAr?$AAi?$AAt?$AAy?$AA?2?$AAE?$AAC?$AAa?$AAl?$AAl?$AAW?$AAi?$AAt?$AAh?$AAS?$AAi?$AAm?$AA?$AA@ 10001178     ossvcs_ALL:phnumutil.obj
+ 0001:000001a4       ??_C@_1BK@POLNAFME@?$AAM?$AAa?$AAp?$AAp?$AAi?$AAn?$AAg?$AAM?$AAu?$AAt?$AAe?$AAx?$AA?$AA@ 100011a4     ossvcs_ALL:phnumutil.obj
+ 0001:00000288       ?gc_rgCharToPhoneTable@@3QBEB 10001288     ossvcs_ALL:phnumutil.obj
+ 0001:00000ffc       ??_C@_1CG@LJBEDMCE@?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAP?$AAa?$AAn?$AAe?$AAl?$AA?2?$AAP?$AAh?$AAo?$AAn?$AAe?$AA?$AA@ 10001ffc     ossvcs_ALL:phnumutil.obj
+ 0001:00001024       ??_C@_1O@IJPIJCFP@?$AAF?$AAl?$AAa?$AAg?$AAs?$AA2?$AA?$AA@ 10002024     ossvcs_ALL:phnumutil.obj
+ 0001:00001034       ??_C@_1DK@FJEJFFLK@?$AAS?$AAe?$AAc?$AAu?$AAr?$AAi?$AAt?$AAy?$AA?2?$AAP?$AAh?$AAo?$AAn?$AAe?$AA?2?$AAP?$AAh?$AAo?$AAn?$AAe?$AAK?$AAe?$AAy?$AAM?$AAa?$AAt?$AAc?$AAh?$AA?$AA@ 10002034     ossvcs_ALL:phnumutil.obj
+ 0001:00001070       ??_C@_1CC@GJLOHOMC@?$AAS?$AAm?$AAa?$AAr?$AAt?$AAF?$AAi?$AAl?$AAt?$AAe?$AAr?$AAF?$AAl?$AAa?$AAg?$AAs?$AA?$AA@ 10002070     ossvcs_ALL:phnumutil.obj
+ 0001:00001094       ??_C@_1BC@IKIMBMPN@?$AA?$DM?$AAt?$AAe?$AAl?$AA?3?$AA?$CF?$AAs?$AA?$DO?$AA?$AA@ 10002094     ossvcs_ALL:phnumutil.obj
+ 0001:000010a8       ??_C@_1BI@BDBEKLMG@?$AAC?$AAa?$AAl?$AAl?$AAI?$AAD?$AAM?$AAa?$AAt?$AAc?$AAh?$AA?$AA@ 100020a8     ossvcs_ALL:phnumutil.obj
+ 0001:000010c0       ??_C@_17LGKOMLJ@?$AA?4?$AA?4?$AA?4?$AA?$AA@ 100020c0     ossvcs_ALL:phnumutil.obj
+ 0001:000010c8       ??_C@_1M@DDLFNGMM@?$AA?$CI?$AA?9?$AA?4?$AA?5?$AA?1?$AA?$AA@ 100020c8     ossvcs_ALL:phnumutil.obj
+ 0001:000010d4       ??_C@_1M@FFFOEHJD@?$AA?$CF?$AAs?$AA?9?$AA?$CF?$AAs?$AA?$AA@ 100020d4     ossvcs_ALL:phnumutil.obj
+ 0001:000010e0       ??_C@_1O@HHMIPOHD@?$AA?$HO?$AAG?$AAP?$AAR?$AAS?$AA?$CB?$AA?$AA@ 100020e0     ossvcs_ALL:phnumutil.obj
+ 0001:000010f0       ??_C@_1FI@FFKPDOFP@?$AAS?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAC?$AAo?$AAn?$AAn?$AAM?$AAg?$AAr?$AA?2?$AAP?$AAl?$AAa?$AAn?$AAn@ 100020f0     ossvcs_ALL:phnumutil.obj
+ 0001:00001148       ??_C@_1BM@BDCMBJLE@?$AAS?$AAu?$AAs?$AAp?$AAe?$AAn?$AAd?$AAR?$AAe?$AAs?$AAu?$AAm?$AAe?$AA?$AA@ 10002148     ossvcs_ALL:phnumutil.obj
+ 0001:00001168       ??_C@_1GG@GDJBEPJD@?$AAS?$AAe?$AAc?$AAu?$AAr?$AAi?$AAt?$AAy?$AA?2?$AAP?$AAh?$AAo?$AAn?$AAe?$AA?2?$AAP?$AAh?$AAo?$AAn?$AAe?$AAK?$AAe?$AAy?$AAM?$AAa?$AAt?$AAc?$AAh?$AA?2?$AAT?$AAe?$AAm@ 10002168     ossvcs_ALL:phnumutil.obj
+ 0001:000011d0       ??_C@_1FM@BPGHEGID@?$AAS?$AAe?$AAc?$AAu?$AAr?$AAi?$AAt?$AAy?$AA?2?$AAP?$AAh?$AAo?$AAn?$AAe?$AA?2?$AAP?$AAh?$AAo?$AAn?$AAe?$AAK?$AAe?$AAy?$AAM?$AAa?$AAt?$AAc?$AAh?$AA?2?$AAK?$AAe?$AAy@ 100021d0     ossvcs_ALL:phnumutil.obj
+ 0001:0000122c       ??_C@_1BM@OCBCMONE@?$AAR?$AAe?$AAf?$AAr?$AAe?$AAs?$AAh?$AAK?$AAe?$AAy?$AAM?$AAa?$AAp?$AA?$AA@ 1000222c     ossvcs_ALL:phnumutil.obj
+ 0001:00001248       ??_C@_1BO@FAEOOLAB@?$AAR?$AAe?$AAf?$AAr?$AAe?$AAs?$AAh?$AAL?$AAa?$AAn?$AAg?$AAM?$AAa?$AAp?$AA?$AA@ 10002248     ossvcs_ALL:phnumutil.obj
+ 0001:00001268       ??_C@_1BC@FAJNAPEM@?$AAW?$AAi?$AAl?$AAd?$AAc?$AAa?$AAr?$AAd?$AA?$AA@ 10002268     ossvcs_ALL:phnumutil.obj
+ 0001:0000127c       ??_C@_1BM@KJFGGJPB@?$AA0?$AA1?$AA2?$AA3?$AA4?$AA5?$AA6?$AA7?$AA8?$AA9?$AA?$CL?$AA?$CK?$AA?$CD?$AA?$AA@ 1000227c     ossvcs_ALL:phnumutil.obj
+ 0001:00001298       ??_C@_1DC@BJIHMAKB@?$AAA?$AAl?$AAp?$AAh?$AAa?$AAD?$AAi?$AAa?$AAl?$AAi?$AAn?$AAg?$AAT?$AAr?$AAa?$AAn?$AAs?$AAl?$AAa?$AAt?$AAi?$AAo?$AAn?$AAs?$AA?$AA@ 10002298     ossvcs_ALL:phnumutil.obj
+ 0001:000012cc       ??_C@_1CI@NPKOHHAJ@?$AAA?$AAl?$AAp?$AAh?$AAa?$AAD?$AAi?$AAa?$AAl?$AAi?$AAn?$AAg?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AAd?$AA?$AA@ 100022cc     ossvcs_ALL:phnumutil.obj
+ 0001:000012f4       ??_C@_13IEJJBAMJ@?$AA2?$AA?$AA@ 100022f4     ossvcs_ALL:phnumutil.obj
+ 0001:000012f8       ??_C@_13JGCMLPCH@?$AA1?$AA?$AA@ 100022f8     ossvcs_ALL:phnumutil.obj
+ 0001:000012fc       ??_C@_13COJANIEC@?$AA0?$AA?$AA@ 100022fc     ossvcs_ALL:phnumutil.obj
+ 0001:00001300       ??_C@_1CO@LNCBNNMP@?$AAP?$AAh?$AAE?$AAx?$AAt?$AAF?$AAo?$AAr?$AAm?$AAa?$AAt?$AAP?$AAh?$AAo?$AAn?$AAe?$AAN?$AAu?$AAm?$AAb?$AAe?$AAr?$AA?$AA@ 10002300     ossvcs_ALL:phnumutil.obj
+ 0001:00001330       ??_C@_1DM@HFBENNBF@?$AAS?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAD?$AAi?$AAa?$AAl?$AAP?$AAa?$AAr?$AAs?$AAe?$AAr?$AA?$AA@ 10002330     ossvcs_ALL:phnumutil.obj
+ 0001:0000136c       ??_C@_1BA@MLNLNBGE@?$AAD?$AAL?$AAL?$AA?9?$AAO?$AAE?$AAM?$AA?$AA@ 1000236c     ossvcs_ALL:phnumutil.obj
+ 0001:0000137c       ??_C@_15PMDGOLLG@?$AA8?$AA2?$AA?$AA@ 1000237c     ossvcs_ALL:phnumutil.obj
+ 0001:00001384       ??_C@_13IMODFHAA@?$AA?9?$AA?$AA@ 10002384     ossvcs_ALL:phnumutil.obj
+ 0001:00001388       ??_C@_19BEGACOPO@?$AA?$CL?$AA8?$AA2?$AA?5?$AA?$AA@ 10002388     ossvcs_ALL:phnumutil.obj
+ 0001:00001394       ??_C@_1BM@LKEJKMBJ@?$AA?$CI?$AA?$CF?$AAs?$AA?$CJ?$AA?5?$AA?$CF?$AAs?$AA?9?$AA?$CF?$AAs?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 10002394     ossvcs_ALL:phnumutil.obj
+ 0001:000013b0       ??_C@_17JOKFMCIC@?$AA?$CI?$AA?$CF?$AAs?$AA?$AA@ 100023b0     ossvcs_ALL:phnumutil.obj
+ 0001:000013b8       ??_C@_1BA@JKOMEJC@?$AA?$CI?$AA?$CF?$AAs?$AA?$CJ?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 100023b8     ossvcs_ALL:phnumutil.obj
+ 0001:000013c8       ??_C@_1M@JBCNDBLB@?$AA?$CI?$AA?$CF?$AAs?$AA?$CJ?$AA?5?$AA?$AA@ 100023c8     ossvcs_ALL:phnumutil.obj
+ 0001:000013d4       ??_C@_1BG@KCMGEAJK@?$AA?$CI?$AA?$CF?$AAs?$AA?$CJ?$AA?5?$AA?$CF?$AAs?$AA?9?$AA?$CF?$AAs?$AA?$AA@ 100023d4     ossvcs_ALL:phnumutil.obj
+ 0001:000013ec       ??_C@_15CBCJCFGK@?$AA1?$AA?5?$AA?$AA@ 100023ec     ossvcs_ALL:phnumutil.obj
+ 0001:000013f4       ??_C@_17FBNFCFKA@?$AA?$CL?$AA1?$AA?5?$AA?$AA@ 100023f4     ossvcs_ALL:phnumutil.obj
+ 0001:00001404       ??_C@_1CK@CECJDBPC@?$AAS?$AAe?$AAc?$AAu?$AAr?$AAi?$AAt?$AAy?$AA?2?$AAP?$AAh?$AAo?$AAn?$AAe?$AA?2?$AAN?$AAo?$AAL?$AAo?$AAg?$AA?$AA@ 10002404     ossvcs_ALL:phnumutil.obj
+ 0001:00001430       ??_C@_19DOLMIDJD@?$AAL?$AAi?$AAs?$AAt?$AA?$AA@ 10002430     ossvcs_ALL:phnumutil.obj
+ 0001:00001468       ??_C@_1GI@PKGFOOPK@?$AAS?$AAe?$AAc?$AAu?$AAr?$AAi?$AAt?$AAy?$AA?2?$AAP?$AAh?$AAo?$AAn?$AAe?$AA?2?$AAP?$AAh?$AAo?$AAn?$AAe?$AAK?$AAe?$AAy?$AAM?$AAa?$AAt?$AAc?$AAh?$AA?2?$AAO?$AAn?$AAS@ 10002468     ossvcs_ALL:phnumutil.obj
+ 0001:0000153c       ??_7ExtensionManager@@6B@  1000253c     ossvcs_ALL:extman.obj
+ 0001:0000155c       ??_C@_1CC@LBGBAMCN@?$AAC?$AAo?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AAI?$AAn?$AAs?$AAt?$AAa?$AAn?$AAc?$AAe?$AA?$AA@ 1000255c     ossvcs_ALL:eventsndperf.obj
+ 0001:00001580       ??_C@_1BO@EDPAAENI@?$AAC?$AAo?$AAI?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz?$AAe?$AAE?$AAx?$AA?$AA@ 10002580     ossvcs_ALL:eventsndperf.obj
+ 0001:000015a0       ??_C@_1CM@GIAMHIAG@?$AAE?$AAv?$AAe?$AAn?$AAt?$AAS?$AAo?$AAu?$AAn?$AAd?$AAC?$AAo?$AAn?$AAf?$AAi?$AAg?$AA_?$AAF?$AAr?$AAe?$AAe?$AA?$AA@ 100025a0     ossvcs_ALL:eventsndperf.obj
+ 0001:000015cc       ??_C@_1CM@CNHEPHGO@?$AAE?$AAv?$AAe?$AAn?$AAt?$AAS?$AAo?$AAu?$AAn?$AAd?$AAC?$AAo?$AAn?$AAf?$AAi?$AAg?$AA_?$AAI?$AAn?$AAi?$AAt?$AA?$AA@ 100025cc     ossvcs_ALL:eventsndperf.obj
+ 0001:000015f8       ??_C@_1DI@GBOFPIOA@?$AAE?$AAv?$AAe?$AAn?$AAt?$AAS?$AAo?$AAu?$AAn?$AAd?$AAC?$AAo?$AAn?$AAf?$AAi?$AAg?$AA_?$AAF?$AAr?$AAe?$AAe?$AAC?$AAo?$AAn?$AAf?$AAi?$AAg?$AA?$AA@ 100025f8     ossvcs_ALL:eventsndperf.obj
+ 0001:00001630       ??_C@_1DI@NKDJKAGL@?$AAE?$AAv?$AAe?$AAn?$AAt?$AAS?$AAo?$AAu?$AAn?$AAd?$AAC?$AAo?$AAn?$AAf?$AAi?$AAg?$AA_?$AAI?$AAn?$AAi?$AAt?$AAC?$AAo?$AAn?$AAf?$AAi?$AAg?$AA?$AA@ 10002630     ossvcs_ALL:eventsndperf.obj
+ 0001:00001668       ??_C@_1DO@FLJJPANO@?$AAE?$AAv?$AAe?$AAn?$AAt?$AAS?$AAo?$AAu?$AAn?$AAd?$AAC?$AAo?$AAn?$AAf?$AAi?$AAg?$AA_?$AAC?$AAa?$AAc?$AAh?$AAi?$AAn?$AAg?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AA?$AA@ 10002668     ossvcs_ALL:eventsndperf.obj
+ 0001:000016a8       ??_C@_1DA@KHAFIDB@?$AAC?$AAS?$AAc?$AAr?$AAi?$AAp?$AAt?$AAP?$AAl?$AAa?$AAy?$AAe?$AAr?$AA_?$AAI?$AAn?$AAi?$AAt?$AA_?$AAO?$AAp?$AAe?$AAn?$AA?$AA@ 100026a8     ossvcs_ALL:eventsndperf.obj
+ 0001:000016d8       ??_C@_1CG@GEMCBDJK@?$AAC?$AAS?$AAc?$AAr?$AAi?$AAp?$AAt?$AAP?$AAl?$AAa?$AAy?$AAe?$AAr?$AA_?$AAI?$AAn?$AAi?$AAt?$AA?$AA@ 100026d8     ossvcs_ALL:eventsndperf.obj
+ 0001:00001700       ??_C@_1DC@DFMKIMEB@?$AAC?$AAS?$AAc?$AAr?$AAi?$AAp?$AAt?$AAP?$AAl?$AAa?$AAy?$AAe?$AAr?$AA_?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 10002700     ossvcs_ALL:eventsndperf.obj
+ 0001:00001734       ??_C@_1DG@MHEBCMLH@?$AAC?$AAS?$AAc?$AAr?$AAi?$AAp?$AAt?$AAP?$AAl?$AAa?$AAy?$AAe?$AAr?$AA_?$AAP?$AAl?$AAa?$AAy?$AAS?$AAc?$AAr?$AAi?$AAp?$AAt?$AAE?$AAx?$AA?$AA@ 10002734     ossvcs_ALL:eventsndperf.obj
+ 0001:0000176c       ??_C@_1CE@BBDHKCGB@?$AAG?$AAe?$AAt?$AAE?$AAv?$AAe?$AAn?$AAt?$AAS?$AAo?$AAu?$AAn?$AAd?$AAI?$AAn?$AAf?$AAo?$AA?$AA@ 1000276c     ossvcs_ALL:eventsndperf.obj
+ 0001:00001790       ??_C@_1CG@IACJMPAD@?$AAS?$AAt?$AAo?$AAp?$AAA?$AAl?$AAl?$AAE?$AAv?$AAe?$AAn?$AAt?$AAS?$AAo?$AAu?$AAn?$AAd?$AAs?$AA?$AA@ 10002790     ossvcs_ALL:eventsndperf.obj
+ 0001:000017b8       ??_C@_1CA@BEMODMGH@?$AAS?$AAt?$AAo?$AAp?$AAE?$AAv?$AAe?$AAn?$AAt?$AAS?$AAo?$AAu?$AAn?$AAd?$AAs?$AA?$AA@ 100027b8     ossvcs_ALL:eventsndperf.obj
+ 0001:000017d8       ??_C@_1BO@LFCBBKLH@?$AAP?$AAl?$AAa?$AAy?$AAE?$AAv?$AAe?$AAn?$AAt?$AAS?$AAo?$AAu?$AAn?$AAd?$AA?$AA@ 100027d8     ossvcs_ALL:eventsndperf.obj
+ 0001:000017f8       ??_C@_1CC@LNEEKPPA@?$AAP?$AAl?$AAa?$AAy?$AAE?$AAv?$AAe?$AAn?$AAt?$AAS?$AAo?$AAu?$AAn?$AAd?$AA_?$AAI?$AA?$AA@ 100027f8     ossvcs_ALL:eventsndperf.obj
+ 0001:0000181c       ??_C@_1DA@HAJNNODJ@?$AAI?$AAn?$AAc?$AAr?$AAe?$AAm?$AAe?$AAn?$AAt?$AAP?$AAl?$AAa?$AAy?$AAi?$AAn?$AAg?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AAs?$AA?$AA@ 1000281c     ossvcs_ALL:eventsndperf.obj
+ 0001:0000184c       ??_C@_1DA@JEGKCOGD@?$AAP?$AAl?$AAa?$AAy?$AAS?$AAn?$AAd?$AAS?$AAc?$AAr?$AAi?$AAp?$AAt?$AAE?$AAx?$AAI?$AAn?$AAt?$AAe?$AAr?$AAn?$AAa?$AAl?$AA?$AA@ 1000284c     ossvcs_ALL:eventsndperf.obj
+ 0001:0000187c       ??_C@_1CA@OBLMIAAJ@?$AAP?$AAl?$AAa?$AAy?$AAE?$AAv?$AAe?$AAn?$AAt?$AAO?$AAr?$AAF?$AAi?$AAl?$AAe?$AA?$AA@ 1000287c     ossvcs_ALL:eventsndperf.obj
+ 0001:0000189c       ??_C@_1CM@FKGBPHPH@?$AAF?$AAr?$AAe?$AAe?$AAE?$AAv?$AAe?$AAn?$AAt?$AAS?$AAn?$AAd?$AAR?$AAe?$AAs?$AAo?$AAu?$AAr?$AAc?$AAe?$AAs?$AA?$AA@ 1000289c     ossvcs_ALL:eventsndperf.obj
+ 0001:000018c8       ??_C@_1DC@KKIBPLKL@?$AAP?$AAr?$AAe?$AAL?$AAo?$AAa?$AAd?$AAE?$AAv?$AAe?$AAn?$AAt?$AAS?$AAn?$AAd?$AAR?$AAe?$AAs?$AAo?$AAu?$AAr?$AAc?$AAe?$AAs?$AA?$AA@ 100028c8     ossvcs_ALL:eventsndperf.obj
+ 0001:000018fc       ??_C@_1BO@GPADPFKA@?$AA?2?$AAm?$AAd?$AAd?$AAc?$AAe?$AAp?$AAe?$AAr?$AAf?$AA?4?$AAl?$AAo?$AAg?$AA?$AA@ 100028fc     ossvcs_ALL:eventsndperf.obj
+ 0001:0000191c       ??_C@_1CM@BHNDAECO@?$AAM?$AAD?$AAP?$AAG?$AA?2?$AAS?$AAh?$AAe?$AAl?$AAl?$AA?2?$AAE?$AAv?$AAe?$AAn?$AAt?$AAS?$AAo?$AAu?$AAn?$AAd?$AA?$AA@ 1000291c     ossvcs_ALL:eventsndperf.obj
+ 0001:00001948       ??_C@_1EA@HEDEEJAM@?$AAB?$AAl?$AAu?$AAe?$AAt?$AAo?$AAo?$AAt?$AAh?$AA?5?$AAA?$AAd?$AAv?$AAa?$AAn?$AAc?$AAe?$AAd?$AA?5?$AAA?$AAu?$AAd?$AAi?$AAo?$AA?5?$AAO?$AAu?$AAt?$AAp?$AAu?$AAt?$AA?$AA@ 10002948     ossvcs_ALL:eventsnd.obj
+ 0001:00001988       ??_C@_1BK@LEFBICHD@?$AAA?$AAu?$AAd?$AAi?$AAo?$AA?5?$AAO?$AAu?$AAt?$AAp?$AAu?$AAt?$AA?$AA@ 10002988     ossvcs_ALL:eventsnd.obj
+ 0001:000019a4       ??_C@_1CK@IBGANPKE@?$AA?2?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AA?2?$AAH?$AAW?$AAA?$AAn?$AAd?$AAS?$AAW?$AA?4?$AAw?$AAa?$AAv?$AA?$AA@ 100029a4     ossvcs_ALL:eventsnd.obj
+ 0001:000019d0       ??_C@_1BC@DPBIJNIL@?$AAk?$AAe?$AAy?$AAp?$AAr?$AAe?$AAs?$AAs?$AA?$AA@ 100029d0     ossvcs_ALL:eventsnd.obj
+ 0001:00001c88       ??_C@_1O@DFEOLOBC@?$AA?$CK?$AA?4?$AA?$CF?$AAs?$AA?$CF?$AAc?$AA?$AA@ 10002c88     ossvcs_ALL:eventsnd.obj
+ 0001:00001c98       ??_C@_1O@ICEPKHKK@?$AA?$CK?$AAn?$AAo?$AAn?$AAe?$AA?$CK?$AA?$AA@ 10002c98     ossvcs_ALL:eventsnd.obj
+ 0001:00001ca8       ??_C@_1BE@LKKGEKKL@?$AA?$CK?$AAv?$AAi?$AAb?$AAr?$AAa?$AAt?$AAe?$AA?$CK?$AA?$AA@ 10002ca8     ossvcs_ALL:eventsnd.obj
+ 0001:00001cbc       ??_C@_1BE@JADPCIIM@?$AAK?$AAe?$AAe?$AAp?$AAA?$AAw?$AAa?$AAk?$AAe?$AA?$AA@ 10002cbc     ossvcs_ALL:eventsnd.obj
+ 0001:00001cd0       ??_C@_1M@DFKENGJN@?$AA?$CF?$AAs?$AA?2?$AA?$CF?$AAs?$AA?$AA@ 10002cd0     ossvcs_ALL:eventsnd.obj
+ 0001:00001cdc       ??_C@_1DK@JIIDCAAJ@?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAP?$AAa?$AAn?$AAe?$AAl?$AA?2?$AAS?$AAo?$AAu?$AAn?$AAd?$AAs?$AA?2?$AAK?$AAe?$AAy?$AAP?$AAr?$AAe?$AAs?$AAs?$AA?$AA@ 10002cdc     ossvcs_ALL:eventsnd.obj
+ 0001:00001d18       ??_C@_1BC@LFIDGPAK@?$AAB?$AAe?$AAe?$AAp?$AAM?$AAo?$AAd?$AAe?$AA?$AA@ 10002d18     ossvcs_ALL:eventsnd.obj
+ 0001:00001d2c       ??_C@_1BE@IBBOHCDA@?$AA?2?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AA?2?$AA?$AA@ 10002d2c     ossvcs_ALL:eventsnd.obj
+ 0001:00001d40       ??_C@_1BI@OJJKBKMF@?$AAR?$AAi?$AAn?$AAg?$AAP?$AAr?$AAe?$AAv?$AAi?$AAe?$AAw?$AA?$AA@ 10002d40     ossvcs_ALL:eventsnd.obj
+ 0001:00001d58       ??_C@_1BE@HAOOPGAJ@?$AAr?$AAi?$AAn?$AAg?$AAt?$AAo?$AAn?$AAe?$AA0?$AA?$AA@ 10002d58     ossvcs_ALL:eventsnd.obj
+ 0001:00001d6c       ??_C@_1M@HLLBNMHH@?$AAc?$AAl?$AAo?$AAc?$AAk?$AA?$AA@ 10002d6c     ossvcs_ALL:eventsnd.obj
+ 0001:00001d78       ??_C@_1CM@EFELCBFN@?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAP?$AAa?$AAn?$AAe?$AAl?$AA?2?$AAP?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?$AA@ 10002d78     ossvcs_ALL:eventsnd.obj
+ 0001:00001da4       ??_C@_1BM@DJBNDKFA@?$AAA?$AAc?$AAt?$AAi?$AAv?$AAe?$AAP?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AA?$AA@ 10002da4     ossvcs_ALL:eventsnd.obj
+ 0001:00001dc0       ??_C@_15DDKANJJC@?$AAs?$AA0?$AA?$AA@ 10002dc0     ossvcs_ALL:eventsnd.obj
+ 0001:00001dc8       ??_C@_1BM@HEKOBJMH@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AA?$AA@ 10002dc8     ossvcs_ALL:eventsnd.obj
+ 0001:00001de4       ??_C@_13LFIEIAHP@?$AAp?$AA?$AA@ 10002de4     ossvcs_ALL:eventsnd.obj
+ 0001:00001de8       ??_C@_15MBCAGJNM@?$AAl?$AA0?$AA?$AA@ 10002de8     ossvcs_ALL:eventsnd.obj
+ 0001:00001df0       ??_C@_19OJCMAFAG@?$AA?$CF?$AAs?$AA?$CF?$AAc?$AA?$AA@ 10002df0     ossvcs_ALL:eventsnd.obj
+ 0001:00001dfc       ??_C@_1BG@LNNABKHF@?$AAB?$AAe?$AAe?$AAp?$AAS?$AAc?$AAr?$AAi?$AAp?$AAt?$AA?$AA@ 10002dfc     ossvcs_ALL:eventsnd.obj
+ 0001:00001e14       ??_C@_1DK@NNPEEDMB@?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAP?$AAa?$AAn?$AAe?$AAl?$AA?2?$AAS?$AAo?$AAu?$AAn?$AAd?$AAs?$AA?2?$AAk?$AAe?$AAy?$AAp?$AAr?$AAe?$AAs?$AAs?$AA?$AA@ 10002e14     ossvcs_ALL:eventsnd.obj
+ 0001:00001e50       ??_C@_1CE@IFCMOEND@?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAP?$AAa?$AAn?$AAe?$AAl?$AA?2?$AAD?$AAi?$AAa?$AAl?$AA?$AA@ 10002e50     ossvcs_ALL:dialloc.obj
+ 0001:00001e74       ??_C@_1BG@EMGOGLHO@?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt?$AAL?$AAo?$AAc?$AA?$AA@ 10002e74     ossvcs_ALL:dialloc.obj
+ 0001:00001e8c       ??_C@_1DI@DOHFJDBC@?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAP?$AAa?$AAn?$AAe?$AAl?$AA?2?$AAD?$AAi?$AAa?$AAl?$AA?2?$AAL?$AAo?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AAs?$AA?$AA@ 10002e8c     ossvcs_ALL:dialloc.obj
+ 0001:00002c30       ??_C@_13PJJBFPED@?$AA?$DL?$AA?$AA@ 10003c30     ossvcs_ALL:dlprefix.obj
+ 0001:00002c34       ??_C@_1BK@BKBIDOMK@?$AA0?$AA1?$AA2?$AA3?$AA4?$AA5?$AA6?$AA7?$AA8?$AA9?$AA?$CK?$AA?$CD?$AA?$AA@ 10003c34     ossvcs_ALL:dlprefix.obj
+ 0001:00002c50       ??_C@_1CE@BONKNHAL@?$AAD?$AAi?$AAa?$AAl?$AAi?$AAn?$AAg?$AAP?$AAr?$AAe?$AAf?$AAi?$AAx?$AAD?$AAa?$AAt?$AAa?$AA?$AA@ 10003c50     ossvcs_ALL:dlprefix.obj
+ 0001:00002c74       ??_C@_13DEFPDAGF@?$AA?0?$AA?$AA@ 10003c74     ossvcs_ALL:dlprefix.obj
+ 0001:00002c78       ??_C@_1M@MOFLFCEC@?$AA?$CF?$AAs?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 10003c78     ossvcs_ALL:dlprefix.obj
+ 0001:00002c84       ??_C@_13LLDNKHDC@?$AA?$CI?$AA?$AA@ 10003c84     ossvcs_ALL:dlprefix.obj
+ 0001:00002c88       ??_C@_19FANKADGM@?$AA?$CJ?$AA?9?$AA?4?$AA?5?$AA?$AA@ 10003c88     ossvcs_ALL:dlprefix.obj
+ 0001:00002cec       gc_szRegMode               10003cec     ossvcs_ALL:altlang.obj
+ 0001:00002cf8       ??_C@_1GG@FFMMFFKE@?$AAS?$AAE?$AAC?$AAU?$AAR?$AAI?$AAT?$AAY?$AA?2?$AAP?$AAh?$AAo?$AAn?$AAe?$AA?2?$AAP?$AAh?$AAo?$AAn?$AAe?$AAK?$AAe?$AAy?$AAM?$AAa?$AAt?$AAc?$AAh?$AA?2?$AAT?$AAe?$AAm@ 10003cf8     ossvcs_ALL:altlang.obj
+ 0001:00002df4       ??_C@_1O@NAHGALKK@?$AAW?$AAo?$AAr?$AAk?$AAe?$AAr?$AA?$AA@ 10003df4     ossvcs_ALL:helpers.obj
+ 0001:00002e04       ??_C@_1BA@LNBGBPMP@g?$AIpkl4g?$CI?$JB?QW?$BPe?e?$AA?$AA@ 10003e04     ossvcs_ALL:helpers.obj
+ 0001:00002e14       ??_C@_17EGAILEMK@?$AA?$CD?$AA2?$AA3?$AA?$AA@ 10003e14     ossvcs_ALL:helpers.obj
+ 0001:00002e1c       ??_C@_1BA@DLDNJIDM@?$AAL?$AAo?$AAc?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 10003e1c     ossvcs_ALL:helpers.obj
+ 0001:00002e2c       ??_C@_1BC@KIEKGFE@?$AAE?$AAd?$AAi?$AAt?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 10003e2c     ossvcs_ALL:helpers.obj
+ 0001:00002e40       ??_C@_1O@DMLCJFNF@?$AAV?$AAo?$AAl?$AAu?$AAm?$AAe?$AA?$AA@ 10003e40     ossvcs_ALL:helpers.obj
+ 0001:00002e50       ??_C@_13FPGAJAPJ@?$AA?2?$AA?$AA@ 10003e50     ossvcs_ALL:helpers.obj
+ 0001:00002e54       ??_C@_1BG@ODPHMGDJ@?$AA4?$AA2?$AA9?$AA4?$AA9?$AA6?$AA7?$AA2?$AA9?$AA5?$AA?$AA@ 10003e54     ossvcs_ALL:helpers.obj
+ 0001:00002e6c       ??_C@_1BG@JALELEKG@?$AA0?$AAx?$AAF?$AAF?$AAF?$AAF?$AAF?$AAF?$AAF?$AAF?$AA?$AA@ 10003e6c     ossvcs_ALL:helpers.obj
+ 0001:00002e84       ??_C@_1BM@LMNNDCFO@?$AAC?$AAe?$AAl?$AAl?$AAu?$AAl?$AAa?$AAr?$AA?5?$AAL?$AAi?$AAn?$AAe?$AA?$AA@ 10003e84     ossvcs_ALL:helpers.obj
+ 0001:00002ea0       ??_C@_19CFMCKEMN@?$AA?2?$AA?$CK?$AA?4?$AA?$CK?$AA?$AA@ 10003ea0     ossvcs_ALL:helpers.obj
+ 0001:00002eac       ??_C@_15JNBOKNOG@?$AA?$AN?$AA?6?$AA?$AA@ 10003eac     ossvcs_ALL:helpers.obj
+ 0001:00002eec       _GUID_f2a74447_b681_451a_8a67_cca245af561e 10003eec     ossvcs_ALL:EventSndConfig.obj
+ 0001:00002efc       ??_C@_1BC@JDOPIGAJ@?$AAL?$AAu?$AAc?$AAy?$AAT?$AAe?$AAs?$AAt?$AA?$AA@ 10003efc     ossvcs_ALL:sharemem.obj
+ 0001:00002f10       ??_C@_1CC@ODJAEOLC@?$AAS?$AAt?$AAa?$AAt?$AAS?$AAt?$AAo?$AAr?$AAe?$AA?5?$AAW?$AAo?$AAr?$AAk?$AAe?$AAr?$AA?$AA@ 10003f10     ossvcs_ALL:statstor2.obj
+ 0001:00002f34       ??_C@_1DA@JCJDNGDP@?$AAS?$AAt?$AAo?$AAr?$AAe?$AAs?$AA?5?$AAT?$AAa?$AAs?$AAk?$AA?5?$AAI?$AAn?$AAf?$AAo?$AAr?$AAm?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 10003f34     ossvcs_ALL:statstor2.obj
+ 0001:00002f64       ??_C@_1DE@DFFMIBMM@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAT?$AAa?$AAs?$AAk?$AAs?$AA?2?$AAS?$AAt?$AAo?$AAr?$AAe?$AAs?$AA?$AA@ 10003f64     ossvcs_ALL:statstor2.obj
+ 0001:00002f98       ??_C@_1CO@OAPGIAJO@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAT?$AAa?$AAs?$AAk?$AAs?$AA?2?$AAA?$AAl?$AAl?$AA?$AA@ 10003f98     ossvcs_ALL:statstor2.obj
+ 0001:00002fc8       ??_C@_1BE@DMAIKMAN@?$AAL?$AAo?$AAc?$AAa?$AAl?$AAD?$AAa?$AAt?$AAe?$AA?$AA@ 10003fc8     ossvcs_ALL:statstor2.obj
+ 0001:00002fdc       ??_C@_1BA@ECDNBCJA@?$AAI?$AAt?$AAe?$AAm?$AA?5?$AAI?$AAD?$AA?$AA@ 10003fdc     ossvcs_ALL:statstor2.obj
+ 0001:00002fec       ??_C@_1CE@PMPCHLIM@?$AAN?$AAI?$AAT?$AAZ?$AA?5?$AAN?$AAo?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 10003fec     ossvcs_ALL:statstor2.obj
+ 0001:00003010       ??_C@_1BK@HBINNCDB@?$AAB?$AAl?$AAo?$AAc?$AAk?$AAS?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe?$AA?$AA@ 10004010     ossvcs_ALL:statstor2.obj
+ 0001:0000302c       ??_C@_1CI@KGGDBJLN@?$AAS?$AAe?$AAc?$AAu?$AAr?$AAi?$AAt?$AAy?$AA?2?$AAP?$AAh?$AAo?$AAn?$AAe?$AA?2?$AAV?$AAo?$AAI?$AAP?$AA?$AA@ 1000402c     ossvcs_ALL:statstor2.obj
+ 0001:00003054       ??_C@_1CA@LHBAJBPP@?$AAN?$AAe?$AAt?$AAw?$AAo?$AAr?$AAk?$AAC?$AAo?$AAn?$AAt?$AAe?$AAx?$AAt?$AAs?$AA?$AA@ 10004054     ossvcs_ALL:statstor2.obj
+ 0001:00003074       ??_C@_1CE@JPIGAEEL@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAC?$AAe?$AAl?$AAl?$AAu?$AAl?$AAa?$AAr?$AA?2?$AAR?$AAi?$AAl?$AA?$AA@ 10004074     ossvcs_ALL:statstor2.obj
+ 0001:00003098       ??_C@_1CA@HMDPEHJF@?$AAI?$AAn?$AAt?$AAe?$AAr?$AAn?$AAe?$AAt?$AAS?$AAh?$AAa?$AAr?$AAi?$AAn?$AAg?$AA?$AA@ 10004098     ossvcs_ALL:statstor2.obj
+ 0001:000030b8       ??_C@_1CA@KCKAODCH@?$AAC?$AAa?$AAl?$AAl?$AA?5?$AAS?$AAt?$AAa?$AAr?$AAt?$AA?5?$AAT?$AAi?$AAm?$AAe?$AA?$AA@ 100040b8     ossvcs_ALL:statstor2.obj
+ 0001:000030d8       ??_C@_1CG@KKOJHHOG@?$AAL?$AAK?$AAG?$AAV?$AAo?$AAi?$AAc?$AAe?$AAF?$AAo?$AAr?$AAw?$AAa?$AAr?$AAd?$AAi?$AAn?$AAg?$AA?$AA@ 100040d8     ossvcs_ALL:statstor2.obj
+ 0001:00003100       ??_C@_1BO@KFIJAGFF@?$AAL?$AAK?$AAG?$AAC?$AAa?$AAl?$AAl?$AAB?$AAa?$AAr?$AAr?$AAi?$AAn?$AAg?$AA?$AA@ 10004100     ossvcs_ALL:statstor2.obj
+ 0001:00003120       ??_C@_1BO@EJGDNMGI@?$AAL?$AAK?$AAG?$AAC?$AAa?$AAl?$AAl?$AAW?$AAa?$AAi?$AAt?$AAi?$AAn?$AAg?$AA?$AA@ 10004120     ossvcs_ALL:statstor2.obj
+ 0001:00003140       ??_C@_1BE@HMKIMDIH@?$AAL?$AAK?$AAG?$AAC?$AAa?$AAl?$AAl?$AAI?$AAD?$AA?$AA@ 10004140     ossvcs_ALL:statstor2.obj
+ 0001:00003154       ??_C@_1DA@ICPECMB@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAL?$AAK?$AAG?$AAS?$AAe?$AAt?$AAt?$AAi?$AAn?$AAg?$AA?$AA@ 10004154     ossvcs_ALL:statstor2.obj
+ 0001:00003184       ??_C@_1CA@LNGIIBJB@?$AAU?$AAp?$AAd?$AAa?$AAt?$AAe?$AAd?$AAS?$AAe?$AAt?$AAt?$AAi?$AAn?$AAg?$AAs?$AA?$AA@ 10004184     ossvcs_ALL:statstor2.obj
+ 0001:000031a4       ??_C@_1DM@EHNHCLEO@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAV?$AAo?$AAI?$AAP?$AA?2?$AAP?$AAh?$AAo?$AAn?$AAe?$AA?2?$AAN?$AAi?$AAg?$AAh?$AAt?$AA?$AA@ 100041a4     ossvcs_ALL:statstor2.obj
+ 0001:000031e0       ??_C@_1CI@HCHENCDI@?$AAN?$AAe?$AAt?$AAw?$AAo?$AAr?$AAk?$AA?5?$AAP?$AAr?$AAe?$AAf?$AAe?$AAr?$AAe?$AAn?$AAc?$AAe?$AAs?$AA?$AA@ 100041e0     ossvcs_ALL:statstor2.obj
+ 0001:00003208       ??_C@_1DA@BNHMABDA@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAV?$AAo?$AAI?$AAP?$AA?2?$AAP?$AAh?$AAo?$AAn?$AAe?$AA?$AA@ 10004208     ossvcs_ALL:statstor2.obj
+ 0001:00003238       ??_C@_1CC@HFFHHGMP@?$AAV?$AAo?$AAi?$AAc?$AAe?$AAm?$AAa?$AAi?$AAl?$AA?5?$AAN?$AAu?$AAm?$AAb?$AAe?$AAr?$AA?$AA@ 10004238     ossvcs_ALL:statstor2.obj
+ 0001:0000325c       ??_C@_1BK@JBDGAPHO@?$AAP?$AAh?$AAo?$AAn?$AAe?$AA?5?$AAN?$AAu?$AAm?$AAb?$AAe?$AAr?$AA?$AA@ 1000425c     ossvcs_ALL:statstor2.obj
+ 0001:00003278       ??_C@_1CE@DJAOGOED@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAV?$AAo?$AAI?$AAP?$AA?$AA@ 10004278     ossvcs_ALL:statstor2.obj
+ 0001:0000329c       ??_C@_1DE@HGEENKHL@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAV?$AAo?$AAI?$AAP?$AA?2?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt?$AA?$AA@ 1000429c     ossvcs_ALL:statstor2.obj
+ 0001:000032d0       ??_C@_1DE@CAHJBJL@?$AAC?$AAe?$AAl?$AAl?$AAu?$AAl?$AAa?$AAr?$AA?5?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?5?$AAC?$AAo?$AAn?$AAn?$AAe?$AAc?$AAt?$AAe?$AAd?$AA?$AA@ 100042d0     ossvcs_ALL:statstor2.obj
+ 0001:00003304       ??_C@_1BK@FGGPCNPM@?$AAD?$AAe?$AAs?$AAc?$AAr?$AAi?$AAp?$AAt?$AAi?$AAo?$AAn?$AAs?$AA?$AA@ 10004304     ossvcs_ALL:statstor2.obj
+ 0001:00003320       ??_C@_1EC@ICHMO@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAC?$AAo?$AAn?$AAn?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn?$AAs?$AA?2?$AAN?$AAe?$AAt?$AAw?$AAo?$AAr?$AAk@ 10004320     ossvcs_ALL:statstor2.obj
+ 0001:00003364       ??_C@_19BHDGOANA@?$AAW?$AAi?$AAF?$AAi?$AA?$AA@ 10004364     ossvcs_ALL:statstor2.obj
+ 0001:00003370       ??_C@_1CG@MGNFEMPK@?$AAM?$AAe?$AAm?$AAo?$AAr?$AAy?$AAR?$AAe?$AAc?$AAo?$AAv?$AAe?$AAr?$AAy?$AAH?$AAi?$AAn?$AAt?$AA?$AA@ 10004370     ossvcs_ALL:statstor2.obj
+ 0001:00003398       ??_C@_1CA@HBGJLPEC@?$AAE?$AAx?$AAt?$AAe?$AAn?$AAd?$AAe?$AAd?$AA?5?$AAS?$AAt?$AAa?$AAt?$AAu?$AAs?$AA?$AA@ 10004398     ossvcs_ALL:statstor2.obj
+ 0001:000033b8       ??_C@_1DE@CDHLDMEM@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAS?$AAh?$AAe?$AAl?$AAl?$AA?2?$AAA?$AAl?$AAa?$AAr?$AAm?$AAs?$AA?$AA@ 100043b8     ossvcs_ALL:statstor2.obj
+ 0001:000033ec       ??_C@_1BE@OJLLDPHP@?$AAH?$AAa?$AAn?$AAd?$AAs?$AAf?$AAr?$AAe?$AAe?$AA?$AA@ 100043ec     ossvcs_ALL:statstor2.obj
+ 0001:00003400       ??_C@_1DE@EJHFIKLF@?$AAC?$AAe?$AAl?$AAl?$AAu?$AAl?$AAa?$AAr?$AA?5?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?5?$AAA?$AAv?$AAa?$AAi?$AAl?$AAa?$AAb?$AAl?$AAe?$AA?$AA@ 10004400     ossvcs_ALL:statstor2.obj
+ 0001:00003434       ??_C@_1CI@LCCOMKNM@?$AAS?$AAi?$AAg?$AAn?$AAa?$AAl?$AA?5?$AAS?$AAt?$AAr?$AAe?$AAn?$AAg?$AAt?$AAh?$AA?5?$AAR?$AAa?$AAw?$AA?$AA@ 10004434     ossvcs_ALL:statstor2.obj
+ 0001:0000345c       ??_C@_1BM@EJMEFIIH@?$AAR?$AAa?$AAd?$AAi?$AAo?$AA?5?$AAv?$AAe?$AAr?$AAs?$AAi?$AAo?$AAn?$AA?$AA@ 1000445c     ossvcs_ALL:statstor2.obj
+ 0001:00003478       ??_C@_1CG@OALEOJOL@?$AAR?$AAa?$AAd?$AAi?$AAo?$AA?5?$AAM?$AAa?$AAn?$AAu?$AAf?$AAa?$AAc?$AAt?$AAu?$AAr?$AAe?$AAr?$AA?$AA@ 10004478     ossvcs_ALL:statstor2.obj
+ 0001:000034a0       ??_C@_1BG@PDMDCOFE@?$AAR?$AAa?$AAd?$AAi?$AAo?$AA?5?$AAI?$AAM?$AAE?$AAI?$AA?$AA@ 100044a0     ossvcs_ALL:statstor2.obj
+ 0001:000034b8       ??_C@_1BC@INFHNCCP@?$AAA?$AAP?$AAN?$AA?5?$AAI?$AAn?$AAf?$AAo?$AA?$AA@ 100044b8     ossvcs_ALL:statstor2.obj
+ 0001:000034cc       ??_C@_1DE@GNCEMOKJ@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAC?$AAo?$AAn?$AAn?$AAe?$AAc?$AAt?$AAi?$AAv?$AAi?$AAt?$AAy?$AA?$AA@ 100044cc     ossvcs_ALL:statstor2.obj
+ 0001:00003500       ??_C@_1BA@GKFHEMHD@?$AAE?$AAl?$AAa?$AAp?$AAs?$AAe?$AAd?$AA?$AA@ 10004500     ossvcs_ALL:statstor2.obj
+ 0001:00003510       ??_C@_1BO@IPBJDJPP@?$AAW?$AAM?$AA?1?$AAT?$AAr?$AAa?$AAc?$AAk?$AAN?$AAu?$AAm?$AAb?$AAe?$AAr?$AA?$AA@ 10004510     ossvcs_ALL:statstor2.obj
+ 0001:00003530       ??_C@_1BA@MNOLBALH@?$AAB?$AAi?$AAt?$AAr?$AAa?$AAt?$AAe?$AA?$AA@ 10004530     ossvcs_ALL:statstor2.obj
+ 0001:00003540       ??_C@_1BM@BAIAKLEO@?$AAT?$AAo?$AAt?$AAa?$AAl?$AAD?$AAu?$AAr?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 10004540     ossvcs_ALL:statstor2.obj
+ 0001:0000355c       ??_C@_1BE@ODIGIDNF@?$AAP?$AAr?$AAo?$AAt?$AAe?$AAc?$AAt?$AAe?$AAd?$AA?$AA@ 1000455c     ossvcs_ALL:statstor2.obj
+ 0001:00003570       ??_C@_1BG@JFOBOJND@?$AAU?$AAs?$AAe?$AAr?$AAR?$AAa?$AAt?$AAi?$AAn?$AAg?$AA?$AA@ 10004570     ossvcs_ALL:statstor2.obj
+ 0001:00003588       ??_C@_1BC@KNGGOGBK@?$AAW?$AAM?$AA?1?$AAG?$AAe?$AAn?$AAr?$AAe?$AA?$AA@ 10004588     ossvcs_ALL:statstor2.obj
+ 0001:0000359c       ??_C@_1M@MNHBCACD@?$AAT?$AAi?$AAt?$AAl?$AAe?$AA?$AA@ 1000459c     ossvcs_ALL:statstor2.obj
+ 0001:000035a8       ??_C@_1BO@PCMKBKJP@?$AAW?$AAM?$AA?1?$AAA?$AAl?$AAb?$AAu?$AAm?$AAA?$AAr?$AAt?$AAi?$AAs?$AAt?$AA?$AA@ 100045a8     ossvcs_ALL:statstor2.obj
+ 0001:000035c8       ??_C@_1BM@FIBHMDFM@?$AAW?$AAM?$AA?1?$AAA?$AAl?$AAb?$AAu?$AAm?$AAT?$AAi?$AAt?$AAl?$AAe?$AA?$AA@ 100045c8     ossvcs_ALL:statstor2.obj
+ 0001:000035e4       ??_C@_1CE@GCICNIGM@?$AAW?$AAM?$AA?1?$AAO?$AAr?$AAi?$AAg?$AAi?$AAn?$AAa?$AAl?$AAA?$AAr?$AAt?$AAi?$AAs?$AAt?$AA?$AA@ 100045e4     ossvcs_ALL:statstor2.obj
+ 0001:00003608       ??_C@_1DC@LPLEOIAC@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAM?$AAe?$AAd?$AAi?$AAa?$AAP?$AAl?$AAa?$AAy?$AAe?$AAr?$AA?$AA@ 10004608     ossvcs_ALL:statstor2.obj
+ 0001:0000363c       ??_C@_1M@JJBFPLJB@?$AAE?$AAv?$AAe?$AAn?$AAt?$AA?$AA@ 1000463c     ossvcs_ALL:statstor2.obj
+ 0001:00003648       ??_C@_1CI@NDIPGOEO@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?5?$AAC?$AAa?$AAp?$AAa?$AAb?$AAi?$AAl?$AAi?$AAt?$AAi?$AAe?$AAs?$AA?$AA@ 10004648     ossvcs_ALL:statstor2.obj
+ 0001:00003670       ??_C@_1BM@PIOEDBLP@?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AA?5?$AAP?$AAr?$AAo?$AAp?$AAI?$AAD?$AA?$AA@ 10004670     ossvcs_ALL:statstor2.obj
+ 0001:0000368c       ??_C@_1BG@MIBMFNKG@?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AA?5?$AAO?$AAI?$AAD?$AA?$AA@ 1000468c     ossvcs_ALL:statstor2.obj
+ 0001:000036a4       ??_C@_1CA@CBEPBFD@?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AA?5?$AAP?$AAr?$AAo?$AAp?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 100046a4     ossvcs_ALL:statstor2.obj
+ 0001:000036c4       ??_C@_1BM@LOBADFIH@?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AA?5?$AAN?$AAu?$AAm?$AAb?$AAe?$AAr?$AA?$AA@ 100046c4     ossvcs_ALL:statstor2.obj
+ 0001:000036e0       ??_C@_1CO@BCMJLIMA@?$AAI?$AAn?$AAc?$AAo?$AAm?$AAi?$AAn?$AAg?$AA?5?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AA?5?$AAP?$AAr?$AAo?$AAp?$AAI?$AAD?$AA?$AA@ 100046e0     ossvcs_ALL:statstor2.obj
+ 0001:00003710       ??_C@_1CI@GCJECDKD@?$AAI?$AAn?$AAc?$AAo?$AAm?$AAi?$AAn?$AAg?$AA?5?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AA?5?$AAO?$AAI?$AAD?$AA?$AA@ 10004710     ossvcs_ALL:statstor2.obj
+ 0001:00003738       ??_C@_1DC@LPFJDABP@?$AAI?$AAn?$AAc?$AAo?$AAm?$AAi?$AAn?$AAg?$AA?5?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AA?5?$AAP?$AAr?$AAo?$AAp?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 10004738     ossvcs_ALL:statstor2.obj
+ 0001:0000376c       ??_C@_1CO@FEDNLMPI@?$AAI?$AAn?$AAc?$AAo?$AAm?$AAi?$AAn?$AAg?$AA?5?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AA?5?$AAN?$AAu?$AAm?$AAb?$AAe?$AAr?$AA?$AA@ 1000476c     ossvcs_ALL:statstor2.obj
+ 0001:0000379c       ??_C@_1DA@DJCDEBHL@?$AAI?$AAn?$AAc?$AAo?$AAm?$AAi?$AAn?$AAg?$AA?5?$AAC?$AAa?$AAl?$AAl?$AA?5?$AAI?$AAD?$AA?5?$AAS?$AAt?$AAa?$AAt?$AAu?$AAs?$AA?$AA@ 1000479c     ossvcs_ALL:statstor2.obj
+ 0001:000037cc       ??_C@_1CK@MOEHLNNO@?$AAI?$AAn?$AAc?$AAo?$AAm?$AAi?$AAn?$AAg?$AA?5?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AA?5?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 100047cc     ossvcs_ALL:statstor2.obj
+ 0001:000037f8       ??_C@_1BO@BKDBLCOB@?$AAS?$AAH?$AAN?$AAo?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 100047f8     ossvcs_ALL:statstor2.obj
+ 0001:00003818       ??_C@_1CA@IMGAJECP@?$AAS?$AAy?$AAn?$AAc?$AAi?$AAn?$AAg?$AA?5?$AAA?$AAc?$AAc?$AAo?$AAu?$AAn?$AAt?$AA?$AA@ 10004818     ossvcs_ALL:statstor2.obj
+ 0001:00003838       ??_C@_1DM@BBBMLPOD@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AAs?$AA?2?$AAS?$AAy?$AAn?$AAc?$AAi?$AAn?$AAg?$AA?$AA@ 10004838     ossvcs_ALL:statstor2.obj
+ 0001:00003874       ??_C@_1BA@OAIGKGCG@?$AAO?$AAv?$AAe?$AAr?$AAd?$AAu?$AAe?$AA?$AA@ 10004874     ossvcs_ALL:statstor2.obj
+ 0001:00003884       ??_C@_1BE@LGHOFBPN@?$AAD?$AAu?$AAe?$AA?5?$AAT?$AAo?$AAd?$AAa?$AAy?$AA?$AA@ 10004884     ossvcs_ALL:statstor2.obj
+ 0001:00003898       ??_C@_1BM@OBCBPIFG@?$AAH?$AAi?$AAg?$AAh?$AA?5?$AAP?$AAr?$AAi?$AAo?$AAr?$AAi?$AAt?$AAy?$AA?$AA@ 10004898     ossvcs_ALL:statstor2.obj
+ 0001:000038b4       ??_C@_1O@EMLLFJNI@?$AAA?$AAc?$AAt?$AAi?$AAv?$AAe?$AA?$AA@ 100048b4     ossvcs_ALL:statstor2.obj
+ 0001:000038c4       ??_C@_1CG@IAJGHABC@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAT?$AAa?$AAs?$AAk?$AAs?$AA?$AA@ 100048c4     ossvcs_ALL:statstor2.obj
+ 0001:000038f0       ??_C@_1EK@GKGAFIJO@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAA?$AAp?$AAp?$AAo?$AAi?$AAn?$AAt?$AAm?$AAe?$AAn?$AAt?$AAs?$AA?2?$AAH?$AAo?$AAm?$AAe?$AAS?$AAc@ 100048f0     ossvcs_ALL:statstor2.obj
+ 0001:0000393c       ??_C@_1BG@MNOJCJND@?$AAH?$AAo?$AAm?$AAe?$AAS?$AAc?$AAr?$AAe?$AAe?$AAn?$AA?$AA@ 1000493c     ossvcs_ALL:statstor2.obj
+ 0001:00003958       ??_C@_1EE@CAEAKHIO@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAA?$AAp?$AAp?$AAo?$AAi?$AAn?$AAt?$AAm?$AAe?$AAn?$AAt?$AAs?$AA?2?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn@ 10004958     ossvcs_ALL:statstor2.obj
+ 0001:0000399c       ??_C@_1BA@OFLJGHK@?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt?$AA?$AA@ 1000499c     ossvcs_ALL:statstor2.obj
+ 0001:000039ac       ??_C@_1BG@MACGLBCC@?$AAC?$AAa?$AAt?$AAe?$AAg?$AAo?$AAr?$AAi?$AAe?$AAs?$AA?$AA@ 100049ac     ossvcs_ALL:statstor2.obj
+ 0001:000039c4       ??_C@_1BI@NDFNJCD@?$AAB?$AAu?$AAs?$AAy?$AA?5?$AAS?$AAt?$AAa?$AAt?$AAu?$AAs?$AA?$AA@ 100049c4     ossvcs_ALL:statstor2.obj
+ 0001:000039dc       ??_C@_19HCBLGCC@?$AAN?$AAe?$AAx?$AAt?$AA?$AA@ 100049dc     ossvcs_ALL:statstor2.obj
+ 0001:000039e8       ??_C@_1DE@FMGGCPAP@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAA?$AAp?$AAp?$AAo?$AAi?$AAn?$AAt?$AAm?$AAe?$AAn?$AAt?$AAs?$AA?$AA@ 100049e8     ossvcs_ALL:statstor2.obj
+ 0001:00003a1c       ??_C@_1CO@NNELEPJI@?$AAM?$AAu?$AAl?$AAt?$AAi?$AAL?$AAi?$AAn?$AAe?$AA?5?$AAC?$AAa?$AAp?$AAa?$AAb?$AAi?$AAl?$AAi?$AAt?$AAi?$AAe?$AAs?$AA?$AA@ 10004a1c     ossvcs_ALL:statstor2.obj
+ 0001:00003a4c       ??_C@_1DI@CLOGPJFK@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AAs?$AA?2?$AAv?$AAm?$AAa?$AAi?$AAl?$AA?$AA@ 10004a4c     ossvcs_ALL:statstor2.obj
+ 0001:00003a84       ??_C@_1BE@DJCFELKD@?$AAB?$AAl?$AAu?$AAe?$AAt?$AAo?$AAo?$AAt?$AAh?$AA?$AA@ 10004a84     ossvcs_ALL:statstor2.obj
+ 0001:00003a98       ??_C@_1DC@MFGOMCED@?$AAS?$AAI?$AAM?$AA?5?$AAS?$AAu?$AAp?$AAp?$AAo?$AAr?$AAt?$AA?5?$AAC?$AAa?$AAp?$AAa?$AAb?$AAi?$AAl?$AAi?$AAt?$AAi?$AAe?$AAs?$AA?$AA@ 10004a98     ossvcs_ALL:statstor2.obj
+ 0001:00003acc       ??_C@_1BE@GPNFHDCF@?$AAD?$AAT?$AAM?$AAF?$AA?5?$AAM?$AAo?$AAd?$AAe?$AA?$AA@ 10004acc     ossvcs_ALL:statstor2.obj
+ 0001:00003ae0       ??_C@_1CM@JHBDBGON@?$AAC?$AAo?$AAn?$AAt?$AAa?$AAc?$AAt?$AA?5?$AAC?$AAa?$AAt?$AAe?$AAg?$AAo?$AAr?$AAy?$AA?5?$AAL?$AAi?$AAs?$AAt?$AA?$AA@ 10004ae0     ossvcs_ALL:statstor2.obj
+ 0001:00003b0c       ??_C@_1BE@LDEJDCDA@?$AAS?$AAt?$AAa?$AAr?$AAt?$AA?5?$AAM?$AAR?$AAU?$AA?$AA@ 10004b0c     ossvcs_ALL:statstor2.obj
+ 0001:00003b20       ??_C@_1BA@ICOAEFDM@?$AAS?$AAp?$AAe?$AAa?$AAk?$AAe?$AAr?$AA?$AA@ 10004b20     ossvcs_ALL:statstor2.obj
+ 0001:00003b30       ??_C@_1BA@DNFNDDKE@?$AAC?$AAa?$AAr?$AA?5?$AAK?$AAi?$AAt?$AA?$AA@ 10004b30     ossvcs_ALL:statstor2.obj
+ 0001:00003b40       ??_C@_1BA@LDBHIHGH@?$AAH?$AAe?$AAa?$AAd?$AAs?$AAe?$AAt?$AA?$AA@ 10004b40     ossvcs_ALL:statstor2.obj
+ 0001:00003b50       ??_C@_1CM@EMKLBGBG@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAH?$AAa?$AAr?$AAd?$AAw?$AAa?$AAr?$AAe?$AA?$AA@ 10004b50     ossvcs_ALL:statstor2.obj
+ 0001:00003b7c       ??_C@_1CE@KMDDJFMI@?$AAM?$AAi?$AAs?$AAs?$AAe?$AAd?$AA?5?$AAC?$AAa?$AAl?$AAl?$AA?5?$AAC?$AAo?$AAu?$AAn?$AAt?$AA?$AA@ 10004b7c     ossvcs_ALL:statstor2.obj
+ 0001:00003ba0       ??_C@_1O@GDMEKBD@?$AAN?$AAo?$AAt?$AAi?$AAf?$AAy?$AA?$AA@ 10004ba0     ossvcs_ALL:statstor2.obj
+ 0001:00003bb0       ??_C@_1CG@KHLAPNIK@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAS?$AAh?$AAe?$AAl?$AAl?$AA?$AA@ 10004bb0     ossvcs_ALL:statstor2.obj
+ 0001:00003bd8       ??_C@_19PDHPMPEG@?$AAL?$AAo?$AAc?$AAk?$AA?$AA@ 10004bd8     ossvcs_ALL:statstor2.obj
+ 0001:00003be4       ??_C@_1BM@BIDONILN@?$AAS?$AAy?$AAn?$AAc?$AAh?$AAr?$AAo?$AAn?$AAi?$AAz?$AAi?$AAn?$AAg?$AA?$AA@ 10004be4     ossvcs_ALL:statstor2.obj
+ 0001:00003c00       ??_C@_1DA@DCDMNFMM@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAA?$AAc?$AAt?$AAi?$AAv?$AAe?$AAS?$AAy?$AAn?$AAc?$AA?$AA@ 10004c00     ossvcs_ALL:statstor2.obj
+ 0001:00003c30       ??_C@_1M@HEDNAMHC@?$AAN?$AAo?$AAt?$AAe?$AAs?$AA?$AA@ 10004c30     ossvcs_ALL:statstor2.obj
+ 0001:00003c3c       ??_C@_1O@LJDPMHO@?$AAE?$AA?9?$AAm?$AAa?$AAi?$AAl?$AA?$AA@ 10004c3c     ossvcs_ALL:statstor2.obj
+ 0001:00003c4c       ??_C@_1BE@CPGCIMNI@?$AAT?$AAe?$AAl?$AAe?$AAp?$AAh?$AAo?$AAn?$AAe?$AA?$AA@ 10004c4c     ossvcs_ALL:statstor2.obj
+ 0001:00003c60       ??_C@_19DINFBLAK@?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 10004c60     ossvcs_ALL:statstor2.obj
+ 0001:00003c6c       ??_C@_1CG@HKJOALLH@?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAP?$AAa?$AAn?$AAe?$AAl?$AA?2?$AAO?$AAw?$AAn?$AAe?$AAr?$AA?$AA@ 10004c6c     ossvcs_ALL:statstor2.obj
+ 0001:00003c98       ??_C@_1FC@KOEIGABC@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AAs?$AA?2?$AAv?$AAm?$AAa?$AAi?$AAl?$AA?2?$AAL?$AAi?$AAn?$AAe@ 10004c98     ossvcs_ALL:statstor2.obj
+ 0001:00003cf0       ??_C@_1FC@EEMOLNHA@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AAs?$AA?2?$AAv?$AAm?$AAa?$AAi?$AAl?$AA?2?$AAL?$AAi?$AAn?$AAe@ 10004cf0     ossvcs_ALL:statstor2.obj
+ 0001:00003d48       ??_C@_1FC@BMAEDEOP@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AAs?$AA?2?$AAv?$AAm?$AAa?$AAi?$AAl?$AA?2?$AAT?$AAo?$AAt?$AAa@ 10004d48     ossvcs_ALL:statstor2.obj
+ 0001:00003d9c       ??_C@_1DI@LJKHHPOJ@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AAs?$AA?2?$AAo?$AAt?$AAh?$AAe?$AAr?$AA?$AA@ 10004d9c     ossvcs_ALL:statstor2.obj
+ 0001:00003dd4       ??_C@_1DG@ICFBAODM@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AAs?$AA?2?$AAs?$AAy?$AAn?$AAc?$AA?$AA@ 10004dd4     ossvcs_ALL:statstor2.obj
+ 0001:00003e0c       ??_C@_1DE@FEBFJFMO@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AAs?$AA?2?$AAm?$AAm?$AAs?$AA?$AA@ 10004e0c     ossvcs_ALL:statstor2.obj
+ 0001:00003e40       ??_C@_1BK@CAPBFEEA@?$AAA?$AAc?$AAc?$AAo?$AAu?$AAn?$AAt?$AA?5?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 10004e40     ossvcs_ALL:statstor2.obj
+ 0001:00003e5c       ??_C@_1DE@DNCELGNH@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AAs?$AA?2?$AAs?$AAm?$AAs?$AA?$AA@ 10004e5c     ossvcs_ALL:statstor2.obj
+ 0001:00003e90       ??_C@_1CM@FILOLDHH@?$AAL?$AAa?$AAs?$AAt?$AA?5?$AAR?$AAe?$AAc?$AAe?$AAi?$AAv?$AAe?$AAd?$AA?5?$AAA?$AAc?$AAc?$AAo?$AAu?$AAn?$AAt?$AA?$AA@ 10004e90     ossvcs_ALL:statstor2.obj
+ 0001:00003ebc       ??_C@_1CM@BOJBBMDL@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AAs?$AA?$AA@ 10004ebc     ossvcs_ALL:statstor2.obj
+ 0001:00003ee8       ??_C@_1FA@NLMGEEBF@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AAs?$AA?2?$AAO?$AAt?$AAh?$AAe?$AAr?$AAE?$AAm?$AAa?$AAi?$AAl@ 10004ee8     ossvcs_ALL:statstor2.obj
+ 0001:00003f38       ??_C@_19DHKNKHAD@?$AAT?$AAe?$AAx?$AAt?$AA?$AA@ 10004f38     ossvcs_ALL:statstor2.obj
+ 0001:00003f48       ??_C@_1EE@ODHNAFIP@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AAs?$AA?2?$AAs?$AAy?$AAn?$AAc?$AA?2?$AAU?$AAn?$AAr?$AAe?$AAa@ 10004f48     ossvcs_ALL:statstor2.obj
+ 0001:00003f90       ??_C@_1EC@EMCEAPJM@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AAs?$AA?2?$AAm?$AAm?$AAs?$AA?2?$AAU?$AAn?$AAr?$AAe?$AAa?$AAd@ 10004f90     ossvcs_ALL:statstor2.obj
+ 0001:00003fd8       ??_C@_1EC@COGBDJFN@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AAs?$AA?2?$AAs?$AAm?$AAs?$AA?2?$AAU?$AAn?$AAr?$AAe?$AAa?$AAd@ 10004fd8     ossvcs_ALL:statstor2.obj
+ 0001:0000401c       ??_C@_1M@NBCIMFHI@?$AAC?$AAo?$AAu?$AAn?$AAt?$AA?$AA@ 1000501c     ossvcs_ALL:statstor2.obj
+ 0001:00004028       ??_C@_1FA@PEJMHCFA@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AAs?$AA?2?$AAT?$AAo?$AAt?$AAa?$AAl?$AAE?$AAm?$AAa?$AAi?$AAl@ 10005028     ossvcs_ALL:statstor2.obj
+ 0001:00004078       ??_C@_1EA@DPKOLKIE@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAA?$AAp?$AAp?$AAo?$AAi?$AAn?$AAt?$AAm?$AAe?$AAn?$AAt?$AAs?$AA?2?$AAE?$AAv?$AAe?$AAn?$AAt?$AA?$AA@ 10005078     ossvcs_ALL:statstor2.obj
+ 0001:000040b8       ??_C@_1BC@JBCPHBBN@?$AAC?$AAo?$AAn?$AAf?$AAl?$AAi?$AAc?$AAt?$AA?$AA@ 100050b8     ossvcs_ALL:statstor2.obj
+ 0001:000040cc       ??_C@_1BG@PAFMLDMC@?$AAS?$AAt?$AAa?$AAr?$AAt?$AA?5?$AAT?$AAi?$AAm?$AAe?$AA?$AA@ 100050cc     ossvcs_ALL:statstor2.obj
+ 0001:000040e4       ??_C@_1BC@NICNPKDN@?$AAL?$AAo?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 100050e4     ossvcs_ALL:statstor2.obj
+ 0001:000040f8       ??_C@_1BA@GMIDJHNK@?$AAS?$AAu?$AAb?$AAj?$AAe?$AAc?$AAt?$AA?$AA@ 100050f8     ossvcs_ALL:statstor2.obj
+ 0001:00004108       ??_C@_1DO@HMJHAKCG@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAA?$AAp?$AAp?$AAo?$AAi?$AAn?$AAt?$AAm?$AAe?$AAn?$AAt?$AAs?$AA?2?$AAN?$AAe?$AAx?$AAt?$AA?$AA@ 10005108     ossvcs_ALL:statstor2.obj
+ 0001:00004148       ??_C@_1BC@JFNJAHME@?$AAE?$AAn?$AAd?$AA?5?$AAT?$AAi?$AAm?$AAe?$AA?$AA@ 10005148     ossvcs_ALL:statstor2.obj
+ 0001:00004160       ??_C@_1EG@LAFHELNF@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAA?$AAp?$AAp?$AAo?$AAi?$AAn?$AAt?$AAm?$AAe?$AAn?$AAt?$AAs?$AA?2?$AAP?$AAr?$AAe?$AAv?$AAi?$AAo@ 10005160     ossvcs_ALL:statstor2.obj
+ 0001:000041a8       ??_C@_1BO@NBMIAKLJ@?$AAC?$AAe?$AAl?$AAl?$AA?5?$AAB?$AAr?$AAo?$AAa?$AAd?$AAc?$AAa?$AAs?$AAt?$AA?$AA@ 100051a8     ossvcs_ALL:statstor2.obj
+ 0001:000041c8       ??_C@_1BK@CGMOIIGH@?$AAS?$AAi?$AAm?$AAt?$AAk?$AAi?$AAt?$AA?5?$AAI?$AAd?$AAl?$AAe?$AA?$AA@ 100051c8     ossvcs_ALL:statstor2.obj
+ 0001:000041e4       ??_C@_1BA@OKEJPPOI@?$AAP?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AA?$AA@ 100051e4     ossvcs_ALL:statstor2.obj
+ 0001:000041f4       ??_C@_1CE@CEPGNHAK@?$AAA?$AAc?$AAt?$AAi?$AAv?$AAe?$AA?5?$AAC?$AAa?$AAl?$AAl?$AA?5?$AAC?$AAo?$AAu?$AAn?$AAt?$AA?$AA@ 100051f4     ossvcs_ALL:statstor2.obj
+ 0001:00004218       ??_C@_1BO@FOAPFOL@?$AAC?$AAa?$AAl?$AAl?$AA?5?$AAI?$AAD?$AA?5?$AAS?$AAt?$AAa?$AAt?$AAu?$AAs?$AA?$AA@ 10005218     ossvcs_ALL:statstor2.obj
+ 0001:00004238       ??_C@_1BI@EINLPCI@?$AAC?$AAa?$AAl?$AAl?$AAe?$AAr?$AA?5?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 10005238     ossvcs_ALL:statstor2.obj
+ 0001:00004250       ??_C@_1CM@CFPNKFEJ@?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt?$AA?5?$AAO?$AAp?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?5?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 10005250     ossvcs_ALL:statstor2.obj
+ 0001:0000427c       ??_C@_1CA@JFCGGOAB@?$AAS?$AAi?$AAg?$AAn?$AAa?$AAl?$AA?5?$AAS?$AAt?$AAr?$AAe?$AAn?$AAg?$AAt?$AAh?$AA?$AA@ 1000527c     ossvcs_ALL:statstor2.obj
+ 0001:0000429c       ??_C@_1CE@IFEIBKGN@?$AAR?$AAa?$AAd?$AAi?$AAo?$AA?5?$AAR?$AAe?$AAa?$AAd?$AAy?$AA?5?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?$AA@ 1000529c     ossvcs_ALL:statstor2.obj
+ 0001:000042c0       ??_C@_1O@GGDILBNB@?$AAS?$AAt?$AAa?$AAt?$AAu?$AAs?$AA?$AA@ 100052c0     ossvcs_ALL:statstor2.obj
+ 0001:000042d0       ??_C@_1CG@HBCONNDD@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAP?$AAh?$AAo?$AAn?$AAe?$AA?$AA@ 100052d0     ossvcs_ALL:statstor2.obj
+ 0001:000042f8       ??_C@_1O@LKOFKKHD@?$AAB?$AAa?$AAc?$AAk?$AAu?$AAp?$AA?$AA@ 100052f8     ossvcs_ALL:statstor2.obj
+ 0001:00004308       ??_C@_19JPHCGFBO@?$AAM?$AAa?$AAi?$AAn?$AA?$AA@ 10005308     ossvcs_ALL:statstor2.obj
+ 0001:00004314       ??_C@_1CK@JJMAEGBI@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAB?$AAa?$AAt?$AAt?$AAe?$AAr?$AAy?$AA?$AA@ 10005314     ossvcs_ALL:statstor2.obj
+ 0001:00004340       ??_C@_1BM@HCBJFKKI@?$AAT?$AAi?$AAm?$AAe?$AAz?$AAo?$AAn?$AAe?$AA?5?$AAB?$AAi?$AAa?$AAs?$AA?$AA@ 10005340     ossvcs_ALL:statstor2.obj
+ 0001:0000435c       ??_C@_1BI@LAIHDHHL@?$AAI?$AAn?$AAp?$AAu?$AAt?$AA?5?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?$AA@ 1000535c     ossvcs_ALL:statstor2.obj
+ 0001:00004374       ??_C@_1BK@GBHNCNGF@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?$AA@ 10005374     ossvcs_ALL:statstor2.obj
+ 0001:00004390       ??_C@_19LCONIJA@?$AAD?$AAa?$AAt?$AAe?$AA?$AA@ 10005390     ossvcs_ALL:statstor2.obj
+ 0001:0000439c       ??_C@_19NLLMBBJO@?$AAT?$AAi?$AAm?$AAe?$AA?$AA@ 1000539c     ossvcs_ALL:statstor2.obj
+ 0001:000043a8       ??_C@_1CM@LGDKHLON@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AAD?$AAa?$AAt?$AAe?$AAT?$AAi?$AAm?$AAe?$AA?$AA@ 100053a8     ossvcs_ALL:statstor2.obj
+ 0001:00004fcc       ??_7CStatStore@@6B@        10005fcc     ossvcs_ALL:statstor2.obj
+ 0001:00004ffc       ??_C@_1BA@KHKANIPN@?$AA?$CC?$AA?$CG?$AAq?$AAu?$AAo?$AAt?$AA?$DL?$AA?$AA@ 10005ffc     ossvcs_ALL:xmlhelp.obj
+ 0001:0000500c       ??_C@_1BA@CKMNBDOL@?$AA?8?$AA?$CG?$AAa?$AAp?$AAo?$AAs?$AA?$DL?$AA?$AA@ 1000600c     ossvcs_ALL:xmlhelp.obj
+ 0001:0000501c       ??_C@_1O@LFCNGDAL@?$AA?$CG?$AA?$CG?$AAa?$AAm?$AAp?$AA?$DL?$AA?$AA@ 1000601c     ossvcs_ALL:xmlhelp.obj
+ 0001:0000502c       ??_C@_1M@FGMGDGMI@?$AA?$DO?$AA?$CG?$AAg?$AAt?$AA?$DL?$AA?$AA@ 1000602c     ossvcs_ALL:xmlhelp.obj
+ 0001:00005038       ??_C@_1M@OHJHLEAB@?$AA?$DM?$AA?$CG?$AAl?$AAt?$AA?$DL?$AA?$AA@ 10006038     ossvcs_ALL:xmlhelp.obj
+ 0001:00005058       _GUID_2933bf81_7b36_11d2_b20e_00c04f983e60 10006058     ossvcs_ALL:xmlhelp.obj
+ 0001:00005068       _GUID_2933bf86_7b36_11d2_b20e_00c04f983e60 10006068     ossvcs_ALL:xmlhelp.obj
+ 0001:00005078       ??_C@_1BI@PAIIMFGH@?$AAt?$AAr?$AAa?$AAn?$AAs?$AAp?$AAa?$AAr?$AAe?$AAn?$AAt?$AA?$AA@ 10006078     ossvcs_ALL:xmlhelp.obj
+ 0001:00005090       ??_C@_19HHIIBINK@?$AAn?$AAa?$AAm?$AAe?$AA?$AA@ 10006090     ossvcs_ALL:xmlhelp.obj
+ 0001:0000509c       _GUID_2933bf85_7b36_11d2_b20e_00c04f983e60 1000609c     ossvcs_ALL:xmlhelp.obj
+ 0001:000050ac       ??_C@_19FPOAHCMC@?$AAl?$AAa?$AAn?$AAg?$AA?$AA@ 100060ac     ossvcs_ALL:xmlhelp.obj
+ 0001:000050b8       ??_C@_17JMNFEICH@?$AAm?$AAo?$AAd?$AA?$AA@ 100060b8     ossvcs_ALL:xmlhelp.obj
+ 0001:000050c0       ??_C@_17FFBLCHOA@?$AAr?$AAe?$AAs?$AA?$AA@ 100060c0     ossvcs_ALL:xmlhelp.obj
+ 0001:000050c8       ??_C@_1BE@JLHPFODL@?$AA?$DM?$AA?$CB?$AAD?$AAO?$AAC?$AAT?$AAY?$AAP?$AAE?$AA?$AA@ 100060c8     ossvcs_ALL:xmlhelp.obj
+ 0001:000050dc       ??_C@_15KLOFGELG@?$AA?$DP?$AA?$DO?$AA?$AA@ 100060dc     ossvcs_ALL:xmlhelp.obj
+ 0001:000050e4       ??_C@_1M@LGNOEFLK@?$AA?$DM?$AA?$DP?$AAx?$AAm?$AAl?$AA?$AA@ 100060e4     ossvcs_ALL:xmlhelp.obj
+ 0001:00005284       ??_C@_1BG@HIDPGIHG@?$AAt?$AAs?$AAh?$AAr?$AAe?$AAs?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10006284     ossvcs_ALL:wrlspwr.obj
+ 0001:0000529c       ??_C@_1BE@CCIMLDOK@?$AAS?$AAe?$AAt?$AAF?$AAr?$AAo?$AAm?$AAU?$AAI?$AA?$AA@ 1000629c     ossvcs_ALL:wrlspwr.obj
+ 0001:000052b0       ??_C@_1GC@CDKIKBC@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAS?$AAe?$AAt?$AA?2?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl@ 100062b0     ossvcs_ALL:wrlspwr.obj
+ 0001:00005314       ??_C@_1CI@GFGINAAG@?$AAO?$AAE?$AAM?$AAG?$AAe?$AAt?$AAB?$AAt?$AAh?$AAP?$AAo?$AAw?$AAe?$AAr?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?$AA@ 10006314     ossvcs_ALL:wrlspwr.obj
+ 0001:0000533c       ??_C@_1CI@NCNHINHN@?$AAO?$AAE?$AAM?$AAS?$AAe?$AAt?$AAB?$AAt?$AAh?$AAP?$AAo?$AAw?$AAe?$AAr?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?$AA@ 1000633c     ossvcs_ALL:wrlspwr.obj
+ 0001:00005364       ??_C@_1CO@EHCDBAEN@?$AAO?$AAn?$AAR?$AAa?$AAd?$AAi?$AAo?$AAP?$AAo?$AAw?$AAe?$AAr?$AAT?$AAr?$AAa?$AAn?$AAs?$AAi?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 10006364     ossvcs_ALL:wrlspwr.obj
+ 0001:00005394       ??_C@_1BI@EEKPCHLN@?$AAD?$AAi?$AAs?$AAp?$AAl?$AAa?$AAy?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 10006394     ossvcs_ALL:wrlspwr.obj
+ 0001:000053b0       ??_C@_1EO@CIOFCGCG@?$AA?$HL?$AA9?$AA8?$AAC?$AA5?$AA2?$AA5?$AA0?$AAD?$AA?9?$AAC?$AA2?$AA9?$AAA?$AA?9?$AA4?$AA9?$AA8?$AA5?$AA?9?$AAA?$AAE?$AA5?$AAF?$AA?9?$AAA?$AAF?$AAE?$AA5?$AA3?$AA6?$AA7@ 100063b0     ossvcs_ALL:wrlspwr.obj
+ 0001:00005400       ??_7CFileStream@@6B@       10006400     ossvcs_ALL:StreamOnFile.obj
+ 0001:0000543c       ??_7CFileStreamOnFile@@6B@ 1000643c     ossvcs_ALL:StreamOnFile.obj
+ 0001:00005478       ??_7CBufferedFileStream@@6B@ 10006478     ossvcs_ALL:StreamOnFile.obj
+ 0001:000054b4       ??_C@_19ONFJJICG@?$AAL?$AAa?$AAs?$AAt?$AA?$AA@ 100064b4     ossvcs_ALL:calltimers.obj
+ 0001:000054c0       ??_C@_1BM@OABCNFIL@?$AAP?$AAh?$AAo?$AAn?$AAe?$AAL?$AAi?$AAf?$AAe?$AAT?$AAi?$AAm?$AAe?$AA?$AA@ 100064c0     ossvcs_ALL:calltimers.obj
+ 0001:000054dc       ??_C@_1BA@EKLBNHNF@?$AAR?$AAo?$AAa?$AAm?$AAi?$AAn?$AAg?$AA?$AA@ 100064dc     ossvcs_ALL:calltimers.obj
+ 0001:000054ec       ??_C@_1BK@FJJNKGDE@?$AAO?$AAu?$AAt?$AAg?$AAo?$AAi?$AAn?$AAg?$AAD?$AAa?$AAt?$AAa?$AA?$AA@ 100064ec     ossvcs_ALL:calltimers.obj
+ 0001:00005508       ??_C@_1BK@MHBKFIBO@?$AAI?$AAn?$AAc?$AAo?$AAm?$AAi?$AAn?$AAg?$AAD?$AAa?$AAt?$AAa?$AA?$AA@ 10006508     ossvcs_ALL:calltimers.obj
+ 0001:00005524       ??_C@_1BM@NMPLGNKH@?$AAO?$AAu?$AAt?$AAg?$AAo?$AAi?$AAn?$AAg?$AAV?$AAo?$AAi?$AAc?$AAe?$AA?$AA@ 10006524     ossvcs_ALL:calltimers.obj
+ 0001:00005540       ??_C@_1BM@OJJFOABD@?$AAI?$AAn?$AAc?$AAo?$AAm?$AAi?$AAn?$AAg?$AAV?$AAo?$AAi?$AAc?$AAe?$AA?$AA@ 10006540     ossvcs_ALL:calltimers.obj
+ 0001:0000555c       ??_C@_17HBCMGFHP@?$AAA?$AAl?$AAl?$AA?$AA@ 1000655c     ossvcs_ALL:calltimers.obj
+ 0001:000057f0       ??_C@_17DJMMGLBL@?$AAD?$AAl?$AAl?$AA?$AA@ 100067f0     ossvcs_ALL:FDRMAPI.obj
+ 0001:000057f8       ??_C@_1CK@MACAHCF@?$AAS?$AAe?$AAc?$AAu?$AAr?$AAi?$AAt?$AAy?$AA?2?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAF?$AAD?$AAR?$AAM?$AA?$AA@ 100067f8     ossvcs_ALL:FDRMAPI.obj
+ 0001:00005824       ??_C@_1BA@PKMPFILN@?$AAP?$AAr?$AAe?$AAv?$AAi?$AAe?$AAw?$AA?$AA@ 10006824     ossvcs_ALL:FDRMAPI.obj
+ 0001:00005834       ??_C@_1M@NCFKPMDG@?$AAD?$AAe?$AAl?$AAa?$AAy?$AA?$AA@ 10006834     ossvcs_ALL:FDRMAPI.obj
+ 0001:00005840       ??_C@_1BC@NALMFBIP@?$AAR?$AAe?$AAV?$AAe?$AAr?$AAi?$AAf?$AAy?$AA?$AA@ 10006840     ossvcs_ALL:FDRMAPI.obj
+ 0001:00005a98       ?c_szDatapathKey@@3QBGB    10006a98     ossvcs_ALL:dataloc.obj
+ 0001:00005ab8       ?c_szDataPath@@3QBGB       10006ab8     ossvcs_ALL:dataloc.obj
+ 0001:00005acc       ?c_szDbPath@@3QBGB         10006acc     ossvcs_ALL:dataloc.obj
+ 0001:00005ae0       ??_C@_19DOGDICKI@?$AA?4?$AAe?$AAx?$AAe?$AA?$AA@ 10006ae0     ossvcs_ALL:thin_utils.obj
+ 0001:00005aec       ??_C@_17JFAEKECD@?$AA?4?$AA?$CF?$AAd?$AA?$AA@ 10006aec     ossvcs_ALL:pathutils.obj
+ 0001:00005af4       ??_C@_1M@MIMBMIGJ@?$AA?4?$AA?$CF?$AA0?$AA4?$AAX?$AA?$AA@ 10006af4     ossvcs_ALL:pathutils.obj
+ 0001:00005b00       ??_C@_17IBMGCPOD@?$AAV?$AAo?$AAl?$AA?$AA@ 10006b00     ossvcs_ALL:phonevol.obj
+ 0001:00005b08       ??_C@_1BO@KAKKKBKI@?$AAC?$AAe?$AAl?$AAl?$AAu?$AAl?$AAa?$AAr?$AA?5?$AAP?$AAh?$AAo?$AAn?$AAe?$AA?$AA@ 10006b08     ossvcs_ALL:phonevol.obj
+ 0001:00005b28       ??_C@_1CO@CFMDANKK@?$AAS?$AAy?$AAn?$AAc?$AAM?$AAg?$AAr?$AAI?$AAs?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAC?$AAr?$AAa?$AAd?$AAl?$AAe?$AAd?$AA?$AA@ 10006b28     ossvcs_ALL:DockStat.obj
+ 0001:00005b58       ??_C@_1BI@MHCEBPCM@?$AAs?$AAy?$AAn?$AAc?$AAm?$AAg?$AAr?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10006b58     ossvcs_ALL:DockStat.obj
+ 0001:00005b78       ??_C@_1BI@MINIDHNP@?$AAS?$AAh?$AAe?$AAl?$AAl?$AA_?$AAR?$AAe?$AAa?$AAd?$AAy?$AA?$AA@ 10006b78     ossvcs_ALL:boot.obj
+ 0001:00005b90       ??_C@_1BE@HJKCFCKP@?$AAA?$AAl?$AAl?$AA_?$AAA?$AAw?$AAa?$AAk?$AAe?$AA?$AA@ 10006b90     ossvcs_ALL:boot.obj
+ 0001:00005bac       ??_C@_1CK@MGOEHGKG@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?1?$AAS?$AAh?$AAe?$AAl?$AAl?$AAA?$AAP?$AAI?$AAR?$AAe?$AAa?$AAd?$AAy?$AA?$AA@ 10006bac     ossvcs_ALL:boot.obj
+ 0001:00005cd0       ??_C@_1BM@FBLLMKEN@?$AAF?$AAu?$AAn?$AAc?$AAt?$AAi?$AAo?$AAn?$AAB?$AAe?$AAg?$AAi?$AAn?$AA?$AA@ 10006cd0     ossvcs_ALL:mountvol.obj
+ 0001:00005cec       ??_C@_1M@CDCAHPKB@?$AA?$CF?$AAs?$AA?3?$AA?$CF?$AAs?$AA?$AA@ 10006cec     ossvcs_ALL:mountvol.obj
+ 0001:00005cf8       ??_C@_1BI@KDCLFEN@?$AAF?$AAu?$AAn?$AAc?$AAt?$AAi?$AAo?$AAn?$AAE?$AAn?$AAd?$AA?$AA@ 10006cf8     ossvcs_ALL:mountvol.obj
+ 0001:00005d10       ??_C@_1BC@LPHEKCHG@?$AAP?$AAS?$AAA?$AAt?$AAR?$AAo?$AAo?$AAt?$AA?$AA@ 10006d10     ossvcs_ALL:mountvol.obj
+ 0001:00005d24       ??_C@_1CA@KDMAFKLJ@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAP?$AAl?$AAa?$AAt?$AAf?$AAo?$AAr?$AAm?$AA?$AA@ 10006d24     ossvcs_ALL:mountvol.obj
+ 0001:00005d44       ??_C@_1BO@BDKHPBJL@?$AAC?$AAe?$AAM?$AAo?$AAu?$AAn?$AAt?$AAD?$AAB?$AAV?$AAo?$AAl?$AAE?$AAx?$AA?$AA@ 10006d44     ossvcs_ALL:mountvol.obj
+ 0001:00005d64       ??_C@_1BG@CMGFIAIN@?$AAB?$AAu?$AAf?$AAf?$AAe?$AAr?$AAP?$AAo?$AAo?$AAl?$AA?$AA@ 10006d64     ossvcs_ALL:mountvol.obj
+ 0001:00005d7c       ??_C@_1O@CEACDOLH@?$AAB?$AAa?$AAs?$AAe?$AAI?$AAd?$AA?$AA@ 10006d7c     ossvcs_ALL:bmphelpr.obj
+ 0001:00005d8c       ??_C@_1DC@ODCINLCC@?$AAS?$AAe?$AAc?$AAu?$AAr?$AAi?$AAt?$AAy?$AA?2?$AAR?$AAe?$AAs?$AAO?$AAv?$AAe?$AAr?$AA?2?$AAB?$AAi?$AAt?$AAm?$AAa?$AAp?$AAs?$AA?$AA@ 10006d8c     ossvcs_ALL:bmphelpr.obj
+ 0001:00005dc0       ??_C@_1BA@GMEDNONB@?$AAB?$AAa?$AAs?$AAe?$AAD?$AAl?$AAl?$AA?$AA@ 10006dc0     ossvcs_ALL:bmphelpr.obj
+ 0001:00005fcc       ??_C@_1M@OLNOBINK@?$AA?$CF?$AA0?$AA8?$AAl?$AAx?$AA?$AA@ 10006fcc     ossvcs_ALL:restrict2.obj
+ 0001:00005fd8       ??_C@_1O@BEPAPEGE@?$AAC?$AAa?$AAr?$AAk?$AAi?$AAt?$AA?$AA@ 10006fd8     ossvcs_ALL:devnotify.obj
+ 0001:0000602c       ??_C@_19LJDFFCJJ@?$AA?$CF?$AAs?$AA?$CF?$AAs?$AA?$AA@ 1000702c     ossvcs_ALL:devnotify.obj
+ 0001:000061d4       ?c_szSOF@@3QBGB            100071d4     ossvcs_ALL:soimp.obj
+ 0001:00006600       ??_C@_1BC@KFCFGPON@?$AAc?$AAc?$AAo?$AAr?$AAe?$AAu?$AAt?$AAl?$AA?$AA@ 10007600     ossvcs_ALL:dllload.obj
+ 0001:00006614       ??_C@_1DC@FNFOMNNG@?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AAT?$AAo?$AAo?$AAl?$AAh?$AAe?$AAl?$AAp?$AA3?$AA2?$AAS?$AAn?$AAa?$AAp?$AAs?$AAh?$AAo?$AAt?$AA?$AA@ 10007614     ossvcs_ALL:dllload.obj
+ 0001:00006648       ??_C@_1BK@NKALKHPI@?$AAT?$AAO?$AAO?$AAL?$AAH?$AAE?$AAL?$AAP?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 10007648     ossvcs_ALL:dllload.obj
+ 0001:00006664       ??_C@_1DA@EEJMMFPN@?$AAC?$AAl?$AAo?$AAs?$AAe?$AAT?$AAo?$AAo?$AAl?$AAh?$AAe?$AAl?$AAp?$AA3?$AA2?$AAS?$AAn?$AAa?$AAp?$AAs?$AAh?$AAo?$AAt?$AA?$AA@ 10007664     ossvcs_ALL:dllload.obj
+ 0001:00006694       ??_C@_1BO@DPFEGDBD@?$AAP?$AAr?$AAo?$AAc?$AAe?$AAs?$AAs?$AA3?$AA2?$AAF?$AAi?$AAr?$AAs?$AAt?$AA?$AA@ 10007694     ossvcs_ALL:dllload.obj
+ 0001:000066b4       ??_C@_1BM@FIDBEMNN@?$AAP?$AAr?$AAo?$AAc?$AAe?$AAs?$AAs?$AA3?$AA2?$AAN?$AAe?$AAx?$AAt?$AA?$AA@ 100076b4     ossvcs_ALL:dllload.obj
+ 0001:000066d0       ??_C@_1BO@EICBLBJB@?$AAH?$AAe?$AAa?$AAp?$AA3?$AA2?$AAL?$AAi?$AAs?$AAt?$AAN?$AAe?$AAx?$AAt?$AA?$AA@ 100076d0     ossvcs_ALL:dllload.obj
+ 0001:000066f0       ??_C@_1BG@MDFLEOCN@?$AAH?$AAe?$AAa?$AAp?$AA3?$AA2?$AAN?$AAe?$AAx?$AAt?$AA?$AA@ 100076f0     ossvcs_ALL:dllload.obj
+ 0001:00006708       ??_C@_1BI@MFOGHIOI@?$AAH?$AAe?$AAa?$AAp?$AA3?$AA2?$AAF?$AAi?$AAr?$AAs?$AAt?$AA?$AA@ 10007708     ossvcs_ALL:dllload.obj
+ 0001:00006720       ??_C@_1CA@KAJEPNKL@?$AAH?$AAe?$AAa?$AAp?$AA3?$AA2?$AAL?$AAi?$AAs?$AAt?$AAF?$AAi?$AAr?$AAs?$AAt?$AA?$AA@ 10007720     ossvcs_ALL:dllload.obj
+ 0001:00006740       ??_C@_1BO@KEAMHHIL@?$AAS?$AAy?$AAs?$AAA?$AAl?$AAl?$AAo?$AAc?$AAS?$AAt?$AAr?$AAi?$AAn?$AAg?$AA?$AA@ 10007740     ossvcs_ALL:dllload.obj
+ 0001:00006760       ??_C@_1BK@OKLHPKFH@?$AAo?$AAl?$AAe?$AAa?$AAu?$AAt?$AA3?$AA2?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 10007760     ossvcs_ALL:dllload.obj
+ 0001:0000677c       ??_C@_1BM@IPMMHKAH@?$AAS?$AAy?$AAs?$AAF?$AAr?$AAe?$AAe?$AAS?$AAt?$AAr?$AAi?$AAn?$AAg?$AA?$AA@ 1000777c     ossvcs_ALL:dllload.obj
+ 0001:00006798       ??_C@_1BI@GBMCEBEE@?$AAV?$AAa?$AAr?$AAi?$AAa?$AAn?$AAt?$AAI?$AAn?$AAi?$AAt?$AA?$AA@ 10007798     ossvcs_ALL:dllload.obj
+ 0001:000067b0       ??_C@_1CE@FINPMBLI@?$AAV?$AAa?$AAr?$AAi?$AAa?$AAn?$AAt?$AAC?$AAh?$AAa?$AAn?$AAg?$AAe?$AAT?$AAy?$AAp?$AAe?$AA?$AA@ 100077b0     ossvcs_ALL:dllload.obj
+ 0001:000067d4       ??_C@_1CM@EPPFAJMA@?$AAS?$AAy?$AAs?$AAA?$AAl?$AAl?$AAo?$AAc?$AAS?$AAt?$AAr?$AAi?$AAn?$AAg?$AAB?$AAy?$AAt?$AAe?$AAL?$AAe?$AAn?$AA?$AA@ 100077d4     ossvcs_ALL:dllload.obj
+ 0001:00006800       ??_C@_1BK@LOIOEMOJ@?$AAV?$AAa?$AAr?$AAi?$AAa?$AAn?$AAt?$AAC?$AAl?$AAe?$AAa?$AAr?$AA?$AA@ 10007800     ossvcs_ALL:dllload.obj
+ 0001:0000681c       ??_C@_1BA@BGEJPNHJ@?$AAb?$AAt?$AAh?$AAu?$AAt?$AAi?$AAl?$AA?$AA@ 1000781c     ossvcs_ALL:dllload.obj
+ 0001:0000682c       ??_C@_1BG@BIHOOKEN@?$AAI?$AAs?$AAV?$AAa?$AAl?$AAi?$AAd?$AAU?$AAR?$AAL?$AA?$AA@ 1000782c     ossvcs_ALL:dllload.obj
+ 0001:00006844       ??_C@_1BG@HKDCOFCA@?$AAU?$AAR?$AAL?$AAM?$AAO?$AAN?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 10007844     ossvcs_ALL:dllload.obj
+ 0001:0000685c       ??_C@_1BE@OJBPLFIF@?$AAp?$AAh?$AAo?$AAn?$AAe?$AAu?$AAt?$AAi?$AAl?$AA?$AA@ 1000785c     ossvcs_ALL:dllload.obj
+ 0001:00006870       ??_C@_1BO@IONGGIHH@?$AAW?$AAl?$AAa?$AAn?$AAO?$AAp?$AAe?$AAn?$AAH?$AAa?$AAn?$AAd?$AAl?$AAe?$AA?$AA@ 10007870     ossvcs_ALL:dllload.obj
+ 0001:00006890       ??_C@_1BI@KNLOMCPH@?$AAW?$AAl?$AAa?$AAn?$AAA?$AAp?$AAi?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 10007890     ossvcs_ALL:dllload.obj
+ 0001:000068a8       ??_C@_1CG@BHHGIIIL@?$AAW?$AAl?$AAa?$AAn?$AAE?$AAn?$AAu?$AAm?$AAI?$AAn?$AAt?$AAe?$AAr?$AAf?$AAa?$AAc?$AAe?$AAs?$AA?$AA@ 100078a8     ossvcs_ALL:dllload.obj
+ 0001:000068d0       ??_C@_1CA@LOPHBKKI@?$AAW?$AAl?$AAa?$AAn?$AAC?$AAl?$AAo?$AAs?$AAe?$AAH?$AAa?$AAn?$AAd?$AAl?$AAe?$AA?$AA@ 100078d0     ossvcs_ALL:dllload.obj
+ 0001:000068f0       ??_C@_1BO@KCEDAOAN@?$AAW?$AAl?$AAa?$AAn?$AAF?$AAr?$AAe?$AAe?$AAM?$AAe?$AAm?$AAo?$AAr?$AAy?$AA?$AA@ 100078f0     ossvcs_ALL:dllload.obj
+ 0001:00006b84       ?gc_cMappingsNeeded_JPN@@3GB 10007b84     ossvcs_ALL:altlangJPN.obj
+ 0001:00006b88       ?gc_cchMaxMapping_JPN@@3GB 10007b88     ossvcs_ALL:altlangJPN.obj
+ 0001:00006eec       ?gc_cMappingsNeeded_KOR@@3GB 10007eec     ossvcs_ALL:altlangKOR.obj
+ 0001:00006f48       ?gc_cchMaxMapping_KOR@@3GB 10007f48     ossvcs_ALL:altlangKOR.obj
+ 0001:000071c0       ??_C@_1O@JBBHAGJJ@?$AA?$CF?$AAs?$AA?$CF?$AAs?$AA?$CF?$AAs?$AA?$AA@ 100081c0     ossvcs_ALL:altlangKOR.obj
+ 0001:000071d0       ?gc_cMappingsNeeded_CHT@@3GB 100081d0     ossvcs_ALL:CHTLang.obj
+ 0001:000071d4       ?gc_cchMaxMapping_CHT@@3GB 100081d4     ossvcs_ALL:CHTLang.obj
+ 0001:000071d8       ??_C@_1CM@FAEHEOAJ@?$AA?2?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AA?2?$AAC?$AAH?$AAN?$AAB?$AAP?$AAM?$AAF?$AAR?$AA?4?$AAT?$AAB?$AAL?$AA?$AA@ 100081d8     ossvcs_ALL:CHTLang.obj
+ 0001:00007204       ??_C@_1CK@DFNEGCNL@?$AA?2?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AA?2?$AAC?$AAH?$AAN?$AAB?$AAP?$AAM?$AAF?$AA?4?$AAT?$AAB?$AAL?$AA?$AA@ 10008204     ossvcs_ALL:CHTLang.obj
+ 0001:00007230       ?gc_cMappingsNeeded_CHS@@3GB 10008230     ossvcs_ALL:CHSLang.obj
+ 0001:00007234       ?gc_cchMaxMapping_CHS@@3GB 10008234     ossvcs_ALL:CHSLang.obj
+ 0001:00007238       ??_C@_1CI@PIDDEAAD@?$AA?2?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AA?2?$AAC?$AAH?$AAN?$AAP?$AAY?$AAM?$AA?4?$AAT?$AAB?$AAL?$AA?$AA@ 10008238     ossvcs_ALL:CHSLang.obj
+ 0001:00007260       ??_C@_1CI@IGLPDCIO@?$AA?2?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AA?2?$AAC?$AAH?$AAN?$AAP?$AAY?$AAR?$AA?4?$AAT?$AAB?$AAL?$AA?$AA@ 10008260     ossvcs_ALL:CHSLang.obj
+ 0001:00007288       ??_C@_1CG@FOLGEDKG@?$AA?2?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AA?2?$AAC?$AAH?$AAN?$AAP?$AAY?$AA?4?$AAT?$AAB?$AAL?$AA?$AA@ 10008288     ossvcs_ALL:CHSLang.obj
+ 0001:000072b0       ??_C@_1BI@FKKHBPBG@?$AAL?$AAe?$AAd?$AAR?$AAe?$AAf?$AAC?$AAo?$AAu?$AAn?$AAt?$AA?$AA@ 100082b0     ossvcs_ALL:vibrate.obj
+ 0001:000072c8       ??_C@_1EG@HFGNADFD@?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAP?$AAa?$AAn?$AAe?$AAl?$AA?2?$AAN?$AAo?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AAs?$AA?2?$AAD?$AAe?$AAf?$AAa?$AAu@ 100082c8     ossvcs_ALL:vibrate.obj
+ 0001:0000731c       ??_C@_1DO@IFDHFLNB@?$AA?2?$AA?2?$AA?4?$AA?2?$AAN?$AAo?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AAs?$AA?2?$AAN?$AAa?$AAm?$AAe?$AAd?$AAE?$AAv?$AAe?$AAn?$AAt?$AAs?$AA?2?$AA?$AA@ 1000831c     ossvcs_ALL:script.obj
+ 0001:0000735c       ??_C@_1BM@NBEBJKFL@?$AA?$CF?$AAs?$AAS?$AAC?$AAR?$AAI?$AAP?$AAT?$AA?3?$AA0?$AAx?$AA?$CF?$AAp?$AA?$AA@ 1000835c     ossvcs_ALL:script.obj
+ 0001:00007378       __real@3fe0000000000000    10008378     ossvcs_ALL:script.obj
+ 0001:00007380       __real@c01a36c8b4395810    10008380     ossvcs_ALL:script.obj
+ 0001:00007388       __real@bfc38811b1d92b80    10008388     ossvcs_ALL:script.obj
+ 0001:00007390       ??_C@_13JAOPNPKD@?$AAv?$AA?$AA@ 10008390     ossvcs_ALL:script.obj
+ 0001:00007394       ??_C@_1BG@JJJJDMMN@?$AAI?$AAn?$AAC?$AAa?$AAl?$AAl?$AAB?$AAu?$AAz?$AAz?$AA?$AA@ 10008394     ossvcs_ALL:script.obj
+ 0001:0000777c       ??_C@_1CK@GEDPHJPH@?$AA?2?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AA?2?$AAC?$AAH?$AAN?$AAS?$AAT?$AAK?$AA3?$AA?4?$AAT?$AAB?$AAL?$AA?$AA@ 1000877c     ossvcs_ALL:altlangCHN.obj
+ 0001:000077a8       ??_C@_1CK@PPJKDFJI@?$AA?2?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AA?2?$AAC?$AAH?$AAN?$AAS?$AAT?$AAK?$AA2?$AA?4?$AAT?$AAB?$AAL?$AA?$AA@ 100087a8     ossvcs_ALL:altlangCHN.obj
+ 0001:000077d4       ??_C@_1CK@IIAEOHGI@?$AA?2?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AA?2?$AAC?$AAH?$AAN?$AAS?$AAT?$AAK?$AA1?$AA?4?$AAT?$AAB?$AAL?$AA?$AA@ 100087d4     ossvcs_ALL:altlangCHN.obj
+ 0001:00007800       ??_C@_1O@JDLOHAN@?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AA?$AA@ 10008800     ossvcs_ALL:delayld.obj
+ 0001:00007810       ??_C@_1BC@GCKHIPE@?$AAN?$AAo?$AAR?$AAe?$AAm?$AAo?$AAv?$AAe?$AA?$AA@ 10008810     ossvcs_ALL:delayld.obj
+ 0001:00007824       ??_C@_1BI@JFAIJMHL@?$AAF?$AAo?$AAr?$AAc?$AAe?$AAR?$AAe?$AAm?$AAo?$AAv?$AAe?$AA?$AA@ 10008824     ossvcs_ALL:delayld.obj
+ 0001:0000783c       ??_C@_17LLMMEOJD@?$AAV?$AAa?$AAl?$AA?$AA@ 1000883c     ossvcs_ALL:delayld.obj
+ 0001:00007844       ??_C@_13OPKGLAFF@?$AAB?$AA?$AA@ 10008844     ossvcs_ALL:delayld.obj
+ 0001:00007848       ??_C@_13MKMNOPIJ@?$AAD?$AA?$AA@ 10008848     ossvcs_ALL:delayld.obj
+ 0001:0000784c       ??_C@_13LHMFKAAD@?$AAM?$AA?$AA@ 1000884c     ossvcs_ALL:delayld.obj
+ 0001:00007850       ??_C@_13HADIAKP@?$AAS?$AA?$AA@ 10008850     ossvcs_ALL:delayld.obj
+ 0001:00007874       ??_C@_1BG@MDNKFDFP@?$AAB?$AAt?$AAh?$AAG?$AAe?$AAt?$AAM?$AAo?$AAd?$AAe?$AA?$AA@ 10008874     ossvcs_ALL:delayld.obj
+ 0001:0000788c       ??_C@_1BI@CEFKDKMC@?$AAb?$AAt?$AAh?$AAu?$AAt?$AAi?$AAl?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 1000888c     ossvcs_ALL:delayld.obj
+ 0001:000078a4       ??_C@_1BG@PBMMCBEG@?$AAB?$AAt?$AAh?$AAS?$AAe?$AAt?$AAM?$AAo?$AAd?$AAe?$AA?$AA@ 100088a4     ossvcs_ALL:delayld.obj
+ 0001:000078bc       ??_C@_1CK@BKDACMPK@?$AAB?$AAt?$AAh?$AAG?$AAe?$AAt?$AAH?$AAa?$AAr?$AAd?$AAw?$AAa?$AAr?$AAe?$AAS?$AAt?$AAa?$AAt?$AAu?$AAs?$AA?$AA@ 100088bc     ossvcs_ALL:delayld.obj
+ 0001:000078e8       ??_C@_1BE@EDAGHPCI@?$AAb?$AAt?$AAd?$AAr?$AAt?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 100088e8     ossvcs_ALL:delayld.obj
+ 0001:000078fc       ??_C@_1BC@HMFJOIOI@?$AAa?$AAy?$AAg?$AAs?$AAh?$AAe?$AAl?$AAl?$AA?$AA@ 100088fc     ossvcs_ALL:delayld.obj
+ 0001:00007910       ??_C@_1BI@NAMJMGAL@?$AAg?$AAe?$AAt?$AAa?$AAd?$AAd?$AAr?$AAi?$AAn?$AAf?$AAo?$AA?$AA@ 10008910     ossvcs_ALL:delayld.obj
+ 0001:00007928       ??_C@_1BA@KNMBDCF@?$AAw?$AAs?$AA2?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 10008928     ossvcs_ALL:delayld.obj
+ 0001:00007938       ??_C@_1CM@NDOJAMIM@?$AAP?$AAk?$AAg?$AA_?$AAO?$AAp?$AAe?$AAn?$AAP?$AAa?$AAc?$AAk?$AAa?$AAg?$AAe?$AAB?$AAy?$AAG?$AAU?$AAI?$AAD?$AA?$AA@ 10008938     ossvcs_ALL:delayld.obj
+ 0001:00007964       ??_C@_1CG@IKDAPIHN@?$AAp?$AAa?$AAc?$AAk?$AAa?$AAg?$AAe?$AAi?$AAn?$AAf?$AAo?$AAa?$AAp?$AAi?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 10008964     ossvcs_ALL:delayld.obj
+ 0001:0000798c       ??_C@_1CA@BJBDKNLJ@?$AAP?$AAk?$AAg?$AA_?$AAG?$AAe?$AAt?$AAN?$AAe?$AAx?$AAt?$AAF?$AAi?$AAl?$AAe?$AA?$AA@ 1000898c     ossvcs_ALL:delayld.obj
+ 0001:000079ac       ??_C@_1BE@IOIMJFFB@?$AAP?$AAk?$AAg?$AA_?$AAC?$AAl?$AAo?$AAs?$AAe?$AA?$AA@ 100089ac     ossvcs_ALL:delayld.obj
+ 0001:00008164       GUID_NULL                  10009164     uuid:dcomuuid.obj
+ 0001:00008174       IID_IDispatch              10009174     uuid:dcomuuid.obj
+ 0001:00008184       IID_ISequentialStream      10009184     uuid:dcomuuid.obj
+ 0001:00008194       IID_IStream                10009194     uuid:dcomuuid.obj
+ 0001:000081a4       IID_IObjectWithSite        100091a4     uuid:dcomuuid.obj
+ 0001:000081b4       IID_IUnknown               100091b4     uuid:dcomuuid.obj
+ 0001:000081e8       DllMain                    100091e8 f   ossvcs_ALL:main.obj
+ 0001:00008270       ?FindProp@@YAJPBU_CEPROPVAL@@IKPAPBU1@@Z 10009270 f   ossvcs_ALL:recutil.obj
+ 0001:000082ac       ?StringToPropVal@@YAHPAU_CEPROPVAL@@PBG@Z 100092ac f   ossvcs_ALL:recutil.obj
+ 0001:00008360       ?GetPropMemSize@@YAIPBU_CEPROPVAL@@@Z 10009360 f   ossvcs_ALL:recutil.obj
+ 0001:000083c8       ?ReallocPropVal@@YAJPAPAU_CEPROPVAL@@IKI@Z 100093c8 f   ossvcs_ALL:recutil.obj
+ 0001:0000857c       ?SafeULONG@@YAKPBU_CEPROPVAL@@@Z 1000957c f   ossvcs_ALL:recutil.obj
+ 0001:0000859c       ?SafeLPWSTR@@YAPBGPBU_CEPROPVAL@@@Z 1000959c f   ossvcs_ALL:recutil.obj
+ 0001:000085c0       ?ComparePropValUnions@@YAHKKPBT_CEVALUNION@@0@Z 100095c0 f   ossvcs_ALL:recutil.obj
+ 0001:00008738       ?ComparePropVals@@YAHKPBU_CEPROPVAL@@0@Z 10009738 f   ossvcs_ALL:recutil.obj
+ 0001:000087b8       ?DoPropsContainData@@YAHPBU_CEPROPVAL@@I@Z 100097b8 f   ossvcs_ALL:recutil.obj
+ 0001:000087f0       ?PropValToString@@YAJPAGIPBU_CEPROPVAL@@@Z 100097f0 f   ossvcs_ALL:recutil.obj
+ 0001:00008908       ?CopyPropValue@@YAJPBU_CEPROPVAL@@PAU1@KPAPAX@Z 10009908 f   ossvcs_ALL:recutil.obj
+ 0001:00008a68       ?GetPropValArraySize@@YAJPBU_CEPROPVAL@@IIPAI@Z 10009a68 f   ossvcs_ALL:recutil.obj
+ 0001:00008b24       ?DuplicateCEPROPVALArrayNoAlloc@@YAJPBU_CEPROPVAL@@IIPAU1@I@Z 10009b24 f   ossvcs_ALL:recutil.obj
+ 0001:00008ccc       ?DuplicateCEPROPVALArray@@YAJPBU_CEPROPVAL@@IIPAPAU1@@Z 10009ccc f   ossvcs_ALL:recutil.obj
+ 0001:00008d50       ?SparsePvalsToRealPvals@@YAJIPBU_CEPROPVAL@@PAIPAPAU1@@Z 10009d50 f   ossvcs_ALL:recutil.obj
+ 0001:00008e1c       ?TranslatePropValArray@@YAJPBU_CEPROPVAL@@IPBKIPAPAU1@K@Z 10009e1c f   ossvcs_ALL:recutil.obj
+ 0001:00008fb0       ?CreateEmptyRecord@@YAJPBKIIPAPAU_CEPROPVAL@@PAPAE@Z 10009fb0 f   ossvcs_ALL:recutil.obj
+ 0001:00009084       ?CEPropValToPropVariant@@YAJPBU_CEPROPVAL@@PAUtagPROPVARIANT@@@Z 1000a084 f   ossvcs_ALL:recutil.obj
+ 0001:0000920c       ?CEPropIDToVarType@@YAJKPAG@Z 1000a20c f   ossvcs_ALL:recutil.obj
+ 0001:000092e0       ?CEPropValArrayToPropVariantArrayInPlace@@YAJPAU_CEPROPVAL@@IPAPAUtagPROPVARIANT@@@Z 1000a2e0 f   ossvcs_ALL:recutil.obj
+ 0001:00009380       ?SPropValueToPropVariant@@YAJPBU_SPropValue@@PAUtagPROPVARIANT@@@Z 1000a380 f   ossvcs_ALL:recutil.obj
+ 0001:00009474       ?ModifyPropVal@@YAJPAPAU_CEPROPVAL@@PAIPBU1@@Z 1000a474 f   ossvcs_ALL:recutil.obj
+ 0001:0000966c       ?ModifyPropValPrimitiveType@@YAJPAPAU_CEPROPVAL@@PAIKPBT_CEVALUNION@@@Z 1000a66c f   ossvcs_ALL:recutil.obj
+ 0001:000096fc       ?ModifyPropValString@@YAJPAPAU_CEPROPVAL@@PAIKPBG@Z 1000a6fc f   ossvcs_ALL:recutil.obj
+ 0001:00009748       ?ValueDW@CReg@@QAAKPBGK@Z  1000a748 f i ossvcs_ALL:phnsettutil.obj
+ 0001:00009794       ?Open@CReg@@QAAHPAUHKEY__@@PBGK@Z 1000a794 f i ossvcs_ALL:phnsettutil.obj
+ 0001:000097fc       ?CanShowManualNetwork@@YAHXZ 1000a7fc f   ossvcs_ALL:phnsettutil.obj
+ 0001:0000988c       ?CanShowPreferredNetwork@@YAHH@Z 1000a88c f   ossvcs_ALL:phnsettutil.obj
+ 0001:00009948       ?GetRingTonePurchaseLinkInfo@@YAJPAGKPAPAG@Z 1000a948 f   ossvcs_ALL:phnsettutil.obj
+ 0001:00009afc       ?GetRingTonePurchaseLinkText@@YAJPAPAG@Z 1000aafc f   ossvcs_ALL:phnsettutil.obj
+ 0001:00009b10       ?GetRingTonePurchaseLinkURL@@YAJPAPAG@Z 1000ab10 f   ossvcs_ALL:phnsettutil.obj
+ 0001:00009b7c       ?LaunchRingTonePurchaseLink@@YAJXZ 1000ab7c f   ossvcs_ALL:phnsettutil.obj
+ 0001:00009c2c       wmemmove                   1000ac2c f i ossvcs_ALL:phnumutil.obj
+ 0001:00009c84       ?CharIsNotDigit@@YAHG@Z    1000ac84 f i ossvcs_ALL:phnumutil.obj
+ 0001:00009cc8       ?CharIsSameDigit@@YAHGG@Z  1000acc8 f i ossvcs_ALL:phnumutil.obj
+ 0001:00009d18       ?IsSubstrLang@@YAHGK@Z     1000ad18 f   ossvcs_ALL:phnumutil.obj
+ 0001:00009d6c       ?CharToPhoneValueHelper@@YAGG@Z 1000ad6c f   ossvcs_ALL:phnumutil.obj
+ 0001:00009de0       ?CHARTOPHONE_SetTableEntry@@YAHPAEGH@Z 1000ade0 f i ossvcs_ALL:phnumutil.obj
+ 0001:00009e2c       ?FreeMappingResources@@YAXPAX@Z 1000ae2c f   ossvcs_ALL:phnumutil.obj
+ 0001:00009e40       ?UninitializeTable@@YAXPAPAE@Z 1000ae40 f   ossvcs_ALL:phnumutil.obj
+ 0001:00009e70       ?ClearKeyMap@@YAXXZ        1000ae70 f   ossvcs_ALL:phnumutil.obj
+ 0001:00009ec0       ?KeyMapRegistryNotifyCallbackFunc@@YAXPAUHREGNOTIFY__@@KQAEI@Z 1000aec0 f   ossvcs_ALL:phnumutil.obj
+ 0001:00009ed0       ?MapLcidToLangid@@YAGK@Z   1000aed0 f   ossvcs_ALL:phnumutil.obj
+ 0001:00009f2c       GetLangData                1000af2c f   ossvcs_ALL:phnumutil.obj
+ 0001:00009f90       ?ECallListRegistryNotifyCallbackFunc@@YAXPAUHREGNOTIFY__@@KQAEI@Z 1000af90 f   ossvcs_ALL:phnumutil.obj
+ 0001:00009fbc       ?ReadPhoneFlags2@@YAKH@Z   1000afbc f   ossvcs_ALL:phnumutil.obj
+ 0001:0000a038       ?ReadSMFMatchType@@YAXXZ   1000b038 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000a0ac       IncrementSettingsVersion   1000b0ac f   ossvcs_ALL:phnumutil.obj
+ 0001:0000a0c4       GetSettingsVersion         1000b0c4 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000a0d4       GetSmartFilterSettingsVersion 1000b0d4 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000a0ec       ?InitSpecialKey@@YAHPBGPAGG@Z 1000b0ec f   ossvcs_ALL:phnumutil.obj
+ 0001:0000a19c       ?GetBaseCurrencySymbol@@YAGXZ 1000b19c f i ossvcs_ALL:phnumutil.obj
+ 0001:0000a1a4       ?IsBaseCurrencySymbol@@YAHG@Z 1000b1a4 f i ossvcs_ALL:phnumutil.obj
+ 0001:0000a214       ?IsCurrencySymbol@@YAHG@Z  1000b214 f i ossvcs_ALL:phnumutil.obj
+ 0001:0000a25c       MakeTelLinkFromNumber      1000b25c f   ossvcs_ALL:phnumutil.obj
+ 0001:0000a290       CanonPhonePos              1000b290 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000a320       CanonPhoneNumberW          1000b320 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000a39c       GetCchTailMin              1000b39c f   ossvcs_ALL:phnumutil.obj
+ 0001:0000a40c       OSKMappingsOn              1000b40c f   ossvcs_ALL:phnumutil.obj
+ 0001:0000a428       SetupPhoneNumberFiltering  1000b428 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000a490       IsPhoneNumberPrefix        1000b490 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000a53c       IsPhoneNumberPrefixEx      1000b53c f   ossvcs_ALL:phnumutil.obj
+ 0001:0000a60c       ?GetNextWord@@YAPBGPBG@Z   1000b60c f   ossvcs_ALL:phnumutil.obj
+ 0001:0000a644       IsTextDelim                1000b644 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000a668       IsFilterDelim              1000b668 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000a6bc       IsFullMatch                1000b6bc f   ossvcs_ALL:phnumutil.obj
+ 0001:0000a710       IsSpace                    1000b710 f i ossvcs_ALL:phnumutil.obj
+ 0001:0000a724       ?RemoveOuterSkipped@@YAXPAEH@Z 1000b724 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000a7dc       ?UpdateReasonBufferEx@@YAXPAE0HHH@Z 1000b7dc f   ossvcs_ALL:phnumutil.obj
+ 0001:0000a8b0       UpdateReasonBuffer         1000b8b0 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000a8d0       ConvertToReasonLength      1000b8d0 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000a970       ?FormatLocalKoreanNumber@@YAJIPBGPAGH@Z 1000b970 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000aa28       ?GetDialableLength@@YAIPBG@Z 1000ba28 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000aa60       ValidPhoneNumberIsValidCharacter 1000ba60 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000aaa4       ?IsAlwaysOnConnection@@YAHPBGH@Z 1000baa4 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000aba8       ?Safe_tcstol@@YAJPBGPAPBGHPAH@Z 1000bba8 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000ac04       ?ShouldSubstrMatch@@YAHPBGIK@Z 1000bc04 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000ac84       ?IntlMapChar@@YAGGK@Z      1000bc84 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000ace0       IntlLowercase              1000bce0 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000ace8       IntlUppercase              1000bce8 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000acf0       ?CharToBaseChar@@YAGG@Z    1000bcf0 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000ad98       ?IsSkippableChar@@YAHG@Z   1000bd98 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000ae24       CharToPhoneValue           1000be24 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000ae94       ?ParseValues@@YAJPAEHPBGGH@Z 1000be94 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000b0a4       ?GetMappingResources@@YAPAXXZ 1000c0a4 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000b104       ?LoadFromReg@@YAPAEPBGQAEK@Z 1000c104 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000b44c       ?InitTable@@YAJPAPAEPBGQAEK@Z 1000c44c f   ossvcs_ALL:phnumutil.obj
+ 0001:0000b4c0       ?RegisterForKeyMapNotifications@@YAJXZ 1000c4c0 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000b534       ValidateLangData           1000c534 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000b5a8       ?ClearLangMap@@YAXXZ       1000c5a8 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000b5e8       ?LangMapRegistryNotifyCallbackFunc@@YAXPAUHREGNOTIFY__@@KQAEI@Z 1000c5e8 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000b5f8       ?RegisterForLangMapNotifications@@YAJXZ 1000c5f8 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000b66c       ?ClearCachedDataForThisProcess@@YAXXZ 1000c66c f   ossvcs_ALL:phnumutil.obj
+ 0001:0000b69c       ?CCDRegistryNotifyCallbackFunc@@YAXPAUHREGNOTIFY__@@KQAEI@Z 1000c69c f   ossvcs_ALL:phnumutil.obj
+ 0001:0000b6e0       ?RegisterForClearCachedDataNotifications@@YAJXZ 1000c6e0 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000b738       ?RegisterForECallListNotifications@@YAJXZ 1000c738 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000b81c       CharToMappedChar           1000c81c f   ossvcs_ALL:phnumutil.obj
+ 0001:0000b8c0       ?InitWildcard@@YAXXZ       1000c8c0 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000b908       ?ShouldUseMapID@@YAHKK@Z   1000c908 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000b974       ?DoesCharMatchFilter@@YAHGPBGK@Z 1000c974 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000bb4c       IsAlphaDialingEnabled      1000cb4c f   ossvcs_ALL:phnumutil.obj
+ 0001:0000bc64       ?CanonPhoneNumberWithIntlPrefixW@@YAHPAGPBGH@Z 1000cc64 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000bcb8       GetOSKMapBehavior          1000ccb8 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000bd64       ?LoadAreaInfo@@YAJXZ       1000cd64 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000bfa0       ExtractReasonStringFromName 1000cfa0 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000c1c8       ?CallFormatOverrideFunction@@YAJPBG0PAGK@Z 1000d1c8 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000c2e4       ?FindFormatEngine@@YA?AW4NUMBER_FORMAT@@PBG@Z 1000d2e4 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000c370       ?FormatKorea@@YAJIPBGPAGH@Z 1000d370 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000c4e0       ?FormatNorthAmerica@@YAJHPBGPAGH@Z 1000d4e0 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000c778       Phone_FmtText              1000d778 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000c8d8       FitTextInRect              1000d8d8 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000ca8c       ValidPhoneNumberGetValidCharacterList 1000da8c f   ossvcs_ALL:phnumutil.obj
+ 0001:0000cb28       ValidPhoneNumberInplaceStripInvalidCharacters 1000db28 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000cc3c       GetValidSimPhoneNumberAndAddressType 1000dc3c f   ossvcs_ALL:phnumutil.obj
+ 0001:0000cd3c       AddPlusToIntlEntries       1000dd3c f   ossvcs_ALL:phnumutil.obj
+ 0001:0000ce4c       ?IsPhoneNumberInList@@YAHKPBG0PAPBG@Z 1000de4c f   ossvcs_ALL:phnumutil.obj
+ 0001:0000cf04       IsEmergencyPhoneNumber     1000df04 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000cf84       IsOTAPhoneNumber           1000df84 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000d068       PhNumUtilShutDown          1000e068 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000d150       ClearCachedData            1000e150 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000d194       ?EnableLanguage@@YAJK@Z    1000e194 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000d200       ?InputLangRegistryNotifyCallbackFunc@@YAXPAUHREGNOTIFY__@@KQAEI@Z 1000e200 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000d220       ?RegisterForInputLangNotifications@@YAJXZ 1000e220 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000d278       ?InitSpaceKey@@YAXXZ       1000e278 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000d334       EnsureTables               1000e334 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000d468       InitMatching               1000e468 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000d48c       MapChar                    1000e48c f   ossvcs_ALL:phnumutil.obj
+ 0001:0000d5c8       ConvertCharToPhoneChar     1000e5c8 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000d5d0       MapString                  1000e5d0 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000d640       ConvertStringToPhoneChars  1000e640 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000d650       ?IsSimplePrefixWorker@@YAIPBG0KPAEHI@Z 1000e650 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000dd74       IsSimplePrefix             1000ed74 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000ddb8       IsSubstrMatch              1000edb8 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000dfc0       ?DoesDelimMatchFirst@@YAHPBGK@Z 1000efc0 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000e04c       IsMatchingPrefix           1000f04c f   ossvcs_ALL:phnumutil.obj
+ 0001:0000e648       GetNameWithReasonMarkup    1000f648 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000e854       ?IsValidAccumulatorPhoneNumber@@YAHPBG@Z 1000f854 f   ossvcs_ALL:phnumutil.obj
+ 0001:0000e8ec       ?Reset@ExtensionManager@@AAAXXZ 1000f8ec f   ossvcs_ALL:extman.obj
+ 0001:0000e970       ?QueryInterface@ExtensionManager@@UAAJABU_GUID@@PAPAX@Z 1000f970 f   ossvcs_ALL:extman.obj
+ 0001:0000e97c       ?AddRef@ExtensionManager@@UAAKXZ 1000f97c f   ossvcs_ALL:extman.obj
+ 0001:0000e984       ?Release@ExtensionManager@@UAAKXZ 1000f984 f   ossvcs_ALL:extman.obj
+ 0001:0000e9c4       ?FreeDISPPARAMS@@YAJPAUtagDISPPARAMS@@@Z 1000f9c4 f   ossvcs_ALL:extman.obj
+ 0001:0000ea14       ?Shutdown@ExtensionManager@@UAAJXZ 1000fa14 f   ossvcs_ALL:extman.obj
+ 0001:0000ea24       ??_GExtensionManager@@EAAPAXI@Z 1000fa24 f i ossvcs_ALL:extman.obj
+ 0001:0000ea24       ??_EExtensionManager@@EAAPAXI@Z 1000fa24 f i ossvcs_ALL:extman.obj
+ 0001:0000ea5c       ?LoadExtension@ExtensionManager@@AAAJPAUHKEY__@@PBG@Z 1000fa5c f   ossvcs_ALL:extman.obj
+ 0001:0000ebdc       ?Initialize@ExtensionManager@@AAAJPBG0PAUIUnknown@@@Z 1000fbdc f   ossvcs_ALL:extman.obj
+ 0001:0000ed34       ?DISPPARAMSFromVA@@YAJKPADPAPAUtagDISPPARAMS@@@Z 1000fd34 f   ossvcs_ALL:extman.obj
+ 0001:0000ee90       ?SendEvent@ExtensionManager@@UAAJJKZZ 1000fe90 f   ossvcs_ALL:extman.obj
+ 0001:0000ef48       ?RefreshExtensions@ExtensionManager@@UAAJXZ 1000ff48 f   ossvcs_ALL:extman.obj
+ 0001:0000ef54       ?GetExtension@ExtensionManager@@UAAJHPAPAUIUnknown@@@Z 1000ff54 f   ossvcs_ALL:extman.obj
+ 0001:0000efb4       ??0ExtensionManager@@AAA@XZ 1000ffb4 f   ossvcs_ALL:extman.obj
+ 0001:0000efe8       ?CreateExtensionManager@@YAJPBG0PAUIUnknown@@PAPAVIExtensionManager@@@Z 1000ffe8 f   ossvcs_ALL:extman.obj
+ 0001:0000f0a0       CePerfOpenSession          100100a0 f i ossvcs_ALL:eventsndperf.obj
+ 0001:0000f198       CePerfCloseSession         10010198 f i ossvcs_ALL:eventsndperf.obj
+ 0001:0000f234       CePerfRegisterBulk         10010234 f i ossvcs_ALL:eventsndperf.obj
+ 0001:0000f2a8       CePerfBeginDuration        100102a8 f i ossvcs_ALL:eventsndperf.obj
+ 0001:0000f31c       CePerfEndDuration          1001031c f i ossvcs_ALL:eventsndperf.obj
+ 0001:0000f3ac       ?MDPGPerfOpenSession@@YAJPAPAXPBG@Z 100103ac f i ossvcs_ALL:eventsndperf.obj
+ 0001:0000f438       ?EventSndPerfOpen@@YAXXZ   10010438 f   ossvcs_ALL:eventsndperf.obj
+ 0001:0000f46c       ?EventSndBeginDuration@@YAXW4EVENTSND_PERF_MARKER@@@Z 1001046c f   ossvcs_ALL:eventsndperf.obj
+ 0001:0000f47c       ?EventSndEndDuration@@YAXW4EVENTSND_PERF_MARKER@@@Z 1001047c f   ossvcs_ALL:eventsndperf.obj
+ 0001:0000f49c       ?EventSndInitializePerf@@YAXXZ 1001049c f   ossvcs_ALL:eventsndperf.obj
+ 0001:0000f4a0       ?EventSndUninitializePerf@@YAXXZ 100104a0 f   ossvcs_ALL:eventsndperf.obj
+ 0001:0000f4c8       ValidateSound              100104c8 f   ossvcs_ALL:eventsnd.obj
+ 0001:0000f4d0       ?FreeEventSoundInfoMembers@@YAXPAUEventSoundInfo@@@Z 100104d0 f   ossvcs_ALL:eventsnd.obj
+ 0001:0000f540       ?DecrementPlayingThreads@@YAXXZ 10010540 f   ossvcs_ALL:eventsnd.obj
+ 0001:0000f558       SuppressFeedbackForCurrentProcess 10010558 f   ossvcs_ALL:eventsnd.obj
+ 0001:0000f578       ?GetAudioDeviceID@@YAHPBGPAI@Z 10010578 f   ossvcs_ALL:eventsnd.obj
+ 0001:0000f8b8       CreateRingtoneFilterString 100108b8 f   ossvcs_ALL:eventsnd.obj
+ 0001:0000f8c4       CreateRestrictedRingtoneFilterString 100108c4 f   ossvcs_ALL:eventsnd.obj
+ 0001:0000f900       ?VerifyPreviewRights@@YAJPBGPAUHWND__@@@Z 10010900 f   ossvcs_ALL:eventsnd.obj
+ 0001:0000f99c       SetAsRingtone              1001099c f   ossvcs_ALL:eventsnd.obj
+ 0001:0000fa54       PreLoadEventSoundResources 10010a54 f   ossvcs_ALL:eventsnd.obj
+ 0001:0000faec       ?IncrementPlayingThreads@@YAJXZ 10010aec f   ossvcs_ALL:eventsnd.obj
+ 0001:0000fb7c       ?AreEventsPlaying@@YAHXZ   10010b7c f   ossvcs_ALL:eventsnd.obj
+ 0001:0000fbe0       GetCategoryInfo            10010be0 f   ossvcs_ALL:eventsnd.obj
+ 0001:0000fd84       ?GetInfoFromProfile@@YAJPAUHKEY__@@PBG1PAEPAK@Z 10010d84 f i ossvcs_ALL:eventsnd.obj
+ 0001:0000fe04       StopEventSounds            10010e04 f   ossvcs_ALL:eventsnd.obj
+ 0001:0000fe98       StopAllEventSounds         10010e98 f   ossvcs_ALL:eventsnd.obj
+ 0001:0000ff00       ?GetBeepMode@@YAJPAK@Z     10010f00 f   ossvcs_ALL:eventsnd.obj
+ 0001:0000ff9c       SetWantDTMFTones           10010f9c f   ossvcs_ALL:eventsnd.obj
+ 0001:0000ffd8       StopDTMFTones              10010fd8 f   ossvcs_ALL:eventsnd.obj
+ 0001:0000ffdc       ?GetSystemSpeakerVolumeInternal@@YAJPAUHKEY__@@PAK@Z 10010fdc f   ossvcs_ALL:eventsnd.obj
+ 0001:000100f0       GetSystemSpeakerVolume     100110f0 f   ossvcs_ALL:eventsnd.obj
+ 0001:000100fc       SetSystemVolume            100110fc f   ossvcs_ALL:eventsnd.obj
+ 0001:00010270       SuppressFeedback           10011270 f   ossvcs_ALL:eventsnd.obj
+ 0001:00010354       GetSoundsDirectory         10011354 f   ossvcs_ALL:eventsnd.obj
+ 0001:00010448       GetFullPathSound           10011448 f   ossvcs_ALL:eventsnd.obj
+ 0001:000104b0       GetRegPathSound            100114b0 f   ossvcs_ALL:eventsnd.obj
+ 0001:0001058c       IsEventSoundEvent          1001158c f   ossvcs_ALL:eventsnd.obj
+ 0001:00010618       ?IsEventInCategory@@YAHPBG0@Z 10011618 f   ossvcs_ALL:eventsnd.obj
+ 0001:000106c4       IsRingEvent                100116c4 f   ossvcs_ALL:eventsnd.obj
+ 0001:000106d0       ?get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ 100116d0 f i ossvcs_ALL:eventsnd.obj
+ 0001:0001072c       ?GetDefaultSoundFromCategory@@YAJPAUHKEY__@@PAPAGPAK@Z 1001172c f   ossvcs_ALL:eventsnd.obj
+ 0001:0001087c       GetDefaultSound            1001187c f   ossvcs_ALL:eventsnd.obj
+ 0001:00010910       GetDefaultRing             10011910 f   ossvcs_ALL:eventsnd.obj
+ 0001:00010924       FreeEventSoundResources    10011924 f   ossvcs_ALL:eventsnd.obj
+ 0001:0001098c       ?GetEventSoundInfo@@YAJPBG0PAUEventSoundInfo@@@Z 1001198c f   ossvcs_ALL:eventsnd.obj
+ 0001:00010fb8       ?PlaySoundScriptExInternal@@YAJPBG00PAUHWND__@@PAXHHH@Z 10011fb8 f   ossvcs_ALL:eventsnd.obj
+ 0001:00011204       ?PlayEventSound_I@@YAJPBG0HPAX@Z 10012204 f   ossvcs_ALL:eventsnd.obj
+ 0001:0001137c       ?PrivatePlayEventSoundScript@@YAJPBG0PAUHWND__@@@Z 1001237c f   ossvcs_ALL:eventsnd.obj
+ 0001:00011448       PlayEventSoundScript       10012448 f   ossvcs_ALL:eventsnd.obj
+ 0001:00011454       IsRingEventSoundOff        10012454 f   ossvcs_ALL:eventsnd.obj
+ 0001:000115b0       PlaySoundScriptEx          100125b0 f   ossvcs_ALL:eventsnd.obj
+ 0001:000115e0       PlaySoundScript            100125e0 f   ossvcs_ALL:eventsnd.obj
+ 0001:0001160c       ?PreviewEventSoundI@@YAJPBG0PAUHWND__@@@Z 1001260c f   ossvcs_ALL:eventsnd.obj
+ 0001:00011654       PreviewEventSound          10012654 f   ossvcs_ALL:eventsnd.obj
+ 0001:0001165c       PreviewEventSoundEx        1001265c f   ossvcs_ALL:eventsnd.obj
+ 0001:00011660       ?PlayEventSoundNonOverlapped@@YAJPBG0@Z 10012660 f   ossvcs_ALL:eventsnd.obj
+ 0001:0001166c       PlayEventSound             1001266c f   ossvcs_ALL:eventsnd.obj
+ 0001:000116a8       PlayEventOrFile            100126a8 f   ossvcs_ALL:eventsnd.obj
+ 0001:000117a8       ?WC_PlayClick@@YAHHGK@Z    100127a8 f   ossvcs_ALL:eventsnd.obj
+ 0001:000117fc       PlayDTMFTone               100127fc f   ossvcs_ALL:eventsnd.obj
+ 0001:00011948       ?GetTapiCurrentLocation@@YAJPAK@Z 10012948 f   ossvcs_ALL:dialloc.obj
+ 0001:000119a8       ?ReadTapiBuffer@@YAJPAPAGPAKKPAPAUHKEY__@@@Z 100129a8 f   ossvcs_ALL:dialloc.obj
+ 0001:00011ae8       ?GetTapiValue@@YAJPAGHW4TapiDialLocations@@K@Z 10012ae8 f   ossvcs_ALL:dialloc.obj
+ 0001:00011be0       ?SetTapiValue@@YAJPBGW4TapiDialLocations@@K@Z 10012be0 f   ossvcs_ALL:dialloc.obj
+ 0001:00011e38       ?GetCurrentTapiValue@@YAJPAGHW4TapiDialLocations@@@Z 10012e38 f   ossvcs_ALL:dialloc.obj
+ 0001:00011e7c       ?SetCurrentTapiValue@@YAJPBGW4TapiDialLocations@@@Z 10012e7c f   ossvcs_ALL:dialloc.obj
+ 0001:00011eb8       GetTapiCurrentAreaCode     10012eb8 f   ossvcs_ALL:dialloc.obj
+ 0001:00011ec0       SetTapiCurrentAreaCode     10012ec0 f   ossvcs_ALL:dialloc.obj
+ 0001:00011ec8       GetTapiCurrentCountryCode  10012ec8 f   ossvcs_ALL:dialloc.obj
+ 0001:00011ed0       SetTapiCurrentCountryCode  10012ed0 f   ossvcs_ALL:dialloc.obj
+ 0001:00011ed8       ?GetTestCon@@YAJPAPAVITestCon@@@Z 10012ed8 f   ossvcs_ALL:testcon.obj
+ 0001:00011ee4       ?DPACompareWrapper@@YAHPAX0J@Z 10012ee4 f   ossvcs_ALL:hashlist.obj
+ 0001:00011f14       ?HashEnumWrapper@@YAJPAXJPAH@Z 10012f14 f   ossvcs_ALL:hashlist.obj
+ 0001:00011f38       ?FindEntryIndexInDPA@@YAJPAU_DPA@@P6AJPAX1PAH@Z1H22@Z 10012f38 f   ossvcs_ALL:hashlist.obj
+ 0001:00012018       ?InsertItemIntoDPA@@YAJPAU_DPA@@P6AJPAX1PAH@Z11@Z 10013018 f   ossvcs_ALL:hashlist.obj
+ 0001:00012098       ?Hash_Create@@YAJIP6AIIPAX@ZP6AJ00PAH@Z0PAPAUHashTableTag@@@Z 10013098 f   ossvcs_ALL:hashlist.obj
+ 0001:000121b4       ?Hash_Destroy@@YAJPAUHashTableTag@@@Z 100131b4 f   ossvcs_ALL:hashlist.obj
+ 0001:00012288       ?Hash_Insert@@YAJPAUHashTableTag@@PAX1@Z 10013288 f   ossvcs_ALL:hashlist.obj
+ 0001:000123ac       ?Hash_Delete@@YAJPAUHashTableTag@@PAXPAPAX@Z 100133ac f   ossvcs_ALL:hashlist.obj
+ 0001:000124a0       ?Hash_Get@@YAJPAUHashTableTag@@PAXPAPAX@Z 100134a0 f   ossvcs_ALL:hashlist.obj
+ 0001:000125b4       ?Hash_EnumCallback@@YAJPAUHashTableTag@@P6AJPAXJPAH@ZJ@Z 100135b4 f   ossvcs_ALL:hashlist.obj
+ 0001:000126ac       ?Hash_SetBucketThreshold@@YAJPAUHashTableTag@@HP6AX0@Z@Z 100136ac f   ossvcs_ALL:hashlist.obj
+ 0001:00012708       ?Hash_DestroyCallback@@YAJPAUHashTableTag@@P6AHPAX1@Z1@Z 10013708 f   ossvcs_ALL:hashlist.obj
+ 0001:00012754       ?ComputeCountryCodeHash@@YAIIPAX@Z 10013754 f   ossvcs_ALL:dlprefix.obj
+ 0001:00012784       ?HashCompareCountryCode@@YAJPAX0PAH@Z 10013784 f   ossvcs_ALL:dlprefix.obj
+ 0001:000127a0       ?CleanUpCountryData@@YAHPAX0@Z 100137a0 f   ossvcs_ALL:dlprefix.obj
+ 0001:000127b0       ?GetCurrentCountryCode@@YAJPAGI@Z 100137b0 f   ossvcs_ALL:dlprefix.obj
+ 0001:00012808       ?DeinitDialingPrefixTable@@YAJXZ 10013808 f   ossvcs_ALL:dlprefix.obj
+ 0001:00012874       ?LoadDialingPrefixInfo@@YAJPAG@Z 10013874 f   ossvcs_ALL:dlprefix.obj
+ 0001:00012a08       ?LoadDialingPrefixTable@@YAJXZ 10013a08 f   ossvcs_ALL:dlprefix.obj
+ 0001:00012b08       ?InitDialingPrefixTable@@YAJXZ 10013b08 f   ossvcs_ALL:dlprefix.obj
+ 0001:00012b74       ?GetCurrentIDD@@YAJPAGI@Z  10013b74 f   ossvcs_ALL:dlprefix.obj
+ 0001:00012c24       ?GetDialingPrefixes@@YAJPBGPAGI1I1I@Z 10013c24 f   ossvcs_ALL:dlprefix.obj
+ 0001:00012df8       ?StripExtraneousNDD@@YAJPAGI@Z 10013df8 f   ossvcs_ALL:dlprefix.obj
+ 0001:00012f90       ?MapPlusToDialingPrefix@@YAJPBGPAGI@Z 10013f90 f   ossvcs_ALL:dlprefix.obj
+ 0001:00013148       ?DeallocMappingTable@@YAXPAPAPAGK@Z 10014148 f   ossvcs_ALL:altlang.obj
+ 0001:000131bc       ?AllocMappingTable@@YAHPAPAPAGKK@Z 100141bc f   ossvcs_ALL:altlang.obj
+ 0001:0001324c       ?DeleteMappingTables@@YAXXZ 1001424c f   ossvcs_ALL:altlang.obj
+ 0001:000132a4       ?IsAltLangEnabled@@YAHXZ   100142a4 f   ossvcs_ALL:altlang.obj
+ 0001:000133dc       ?GetAltMappedString@@YAPBGKK@Z 100143dc f   ossvcs_ALL:altlang.obj
+ 0001:0001345c       ?GetCurrentLangid@@YAGXZ   1001445c f   ossvcs_ALL:altlang.obj
+ 0001:000134a4       ?IsAltChar@@YAHG@Z         100144a4 f   ossvcs_ALL:altlang.obj
+ 0001:00013510       ?IsAltSkippableChar@@YAHG@Z 10014510 f   ossvcs_ALL:altlang.obj
+ 0001:00013560       ?IsAltWildcard@@YAHGK@Z    10014560 f   ossvcs_ALL:altlang.obj
+ 0001:000135a8       ?LoadSMFSettings@@YAXXZ    100145a8 f   ossvcs_ALL:altlang.obj
+ 0001:000135d4       ?IsPhoneticPrefix@@YAIPBG0KPAEHI@Z 100145d4 f   ossvcs_ALL:altlang.obj
+ 0001:0001366c       ?InitMapTableInfo@@YAJXZ   1001466c f   ossvcs_ALL:altlang.obj
+ 0001:00013720       ?InitMappingTables@@YAJXZ  10014720 f   ossvcs_ALL:altlang.obj
+ 0001:00013924       ?GetAltMapping@@YAHPBGKPAGIPAUMULTIMAPPARAM@@PAH@Z 10014924 f   ossvcs_ALL:altlang.obj
+ 0001:000139fc       ?InitSmartMatch@@YAJXZ     100149fc f   ossvcs_ALL:altlang.obj
+ 0001:00013a7c       ?TempWndProc@@YAJPAUHWND__@@IIJ@Z 10014a7c f   ossvcs_ALL:helpers.obj
+ 0001:00013af8       CreateWorkerWindowEx       10014af8 f   ossvcs_ALL:helpers.obj
+ 0001:00013bc8       CreateWorkerWindow         10014bc8 f   ossvcs_ALL:helpers.obj
+ 0001:00013c04       IsFESystem                 10014c04 f   ossvcs_ALL:helpers.obj
+ 0001:00013c6c       GetKeyEventSource          10014c6c f   ossvcs_ALL:helpers.obj
+ 0001:00013d14       GetSystemTimeAsULL         10014d14 f   ossvcs_ALL:helpers.obj
+ 0001:00013d4c       GetPlatformBuildNumber     10014d4c f   ossvcs_ALL:helpers.obj
+ 0001:00013d5c       LoadStringEtc              10014d5c f   ossvcs_ALL:helpers.obj
+ 0001:00013d90       LoadStringWithBufferSize   10014d90 f   ossvcs_ALL:helpers.obj
+ 0001:00013dc4       GetPhoneDeviceId           10014dc4 f   ossvcs_ALL:helpers.obj
+ 0001:00013ed8       GetLineDeviceId            10014ed8 f   ossvcs_ALL:helpers.obj
+ 0001:00013ff8       SHGetValue                 10014ff8 f   ossvcs_ALL:helpers.obj
+ 0001:000140a4       Reg_GetDWord               100150a4 f   ossvcs_ALL:helpers.obj
+ 0001:000140f0       Reg_SetDWord               100150f0 f   ossvcs_ALL:helpers.obj
+ 0001:00014178       Reg_GetVals                10015178 f   ossvcs_ALL:helpers.obj
+ 0001:000141ec       ?IsMonkeyProofed@@YAHXZ    100151ec f   ossvcs_ALL:helpers.obj
+ 0001:000141f4       LONGLONGFromSystemTime     100151f4 f   ossvcs_ALL:helpers.obj
+ 0001:0001437c       ProcessRoles               1001537c f   ossvcs_ALL:helpers.obj
+ 0001:000143b0       ?TToSemiByte@@YAHGPAE@Z    100153b0 f   ossvcs_ALL:helpers.obj
+ 0001:000143fc       SHTruncateString           100153fc f   ossvcs_ALL:helpers.obj
+ 0001:00014470       SafeWideCharToMultiByte    10015470 f   ossvcs_ALL:helpers.obj
+ 0001:00014554       SafeMultiByteToWideChar    10015554 f   ossvcs_ALL:helpers.obj
+ 0001:0001461c       EscapeStringA              1001561c f   ossvcs_ALL:helpers.obj
+ 0001:00014748       EscapeStringW              10015748 f   ossvcs_ALL:helpers.obj
+ 0001:00014884       FilteredGetAddrInfo        10015884 f   ossvcs_ALL:helpers.obj
+ 0001:000149e0       BMHFindStrI                100159e0 f   ossvcs_ALL:helpers.obj
+ 0001:00014afc       VariantChangeTypeMDD       10015afc f   ossvcs_ALL:helpers.obj
+ 0001:00014bfc       LocalEnsureBufferSize      10015bfc f   ossvcs_ALL:helpers.obj
+ 0001:00014c88       memswap                    10015c88 f   ossvcs_ALL:helpers.obj
+ 0001:00014cb8       InvStrCmpW                 10015cb8 f   ossvcs_ALL:helpers.obj
+ 0001:00014d24       InvStrCmpIW                10015d24 f   ossvcs_ALL:helpers.obj
+ 0001:00014d90       InvStrCmpNW                10015d90 f   ossvcs_ALL:helpers.obj
+ 0001:00014e0c       InvStrCmpNIW               10015e0c f   ossvcs_ALL:helpers.obj
+ 0001:00014e88       WatsonReportFault          10015e88 f   ossvcs_ALL:helpers.obj
+ 0001:00014ea0       LoadHTML                   10015ea0 f   ossvcs_ALL:helpers.obj
+ 0001:00014f78       LoadHTMLEtc                10015f78 f   ossvcs_ALL:helpers.obj
+ 0001:00015018       Reg_GetDWordEx             10016018 f   ossvcs_ALL:helpers.obj
+ 0001:000150b8       BigStrcat                  100160b8 f   ossvcs_ALL:helpers.obj
+ 0001:000151a8       IsCurrentTimeInBusyAppointment 100161a8 f   ossvcs_ALL:helpers.obj
+ 0001:000152dc       IsCurrentTimeInAppointment 100162dc f   ossvcs_ALL:helpers.obj
+ 0001:000153e0       GetOverrideProfileForAutomatic 100163e0 f   ossvcs_ALL:helpers.obj
+ 0001:00015428       ?GetProfileInfo@@YAJPBGPAPAGPAK@Z 10016428 f   ossvcs_ALL:helpers.obj
+ 0001:00015644       GetProfileLabel            10016644 f   ossvcs_ALL:helpers.obj
+ 0001:0001564c       SetSoundProfile            1001664c f   ossvcs_ALL:helpers.obj
+ 0001:00015754       CalcIfDST                  10016754 f   ossvcs_ALL:helpers.obj
+ 0001:00015970       GetFileVersionsInfo        10016970 f   ossvcs_ALL:helpers.obj
+ 0001:00015a54       BinaryToHexStringEx        10016a54 f   ossvcs_ALL:helpers.obj
+ 0001:00015be0       BinaryToHexString          10016be0 f   ossvcs_ALL:helpers.obj
+ 0001:00015c04       ?TToByte@@YAHPBGPAE@Z      10016c04 f   ossvcs_ALL:helpers.obj
+ 0001:00015c8c       HexStringToBinary          10016c8c f   ossvcs_ALL:helpers.obj
+ 0001:00015d54       UnicodeToMB                10016d54 f   ossvcs_ALL:helpers.obj
+ 0001:00015e8c       MBToUnicode                10016e8c f   ossvcs_ALL:helpers.obj
+ 0001:00015fb8       SafeStringToDword          10016fb8 f   ossvcs_ALL:helpers.obj
+ 0001:0001610c       ?GetTSPLineDeviceID@@YAKQBUHLINEAPP__@@KKKQBG@Z 1001710c f   ossvcs_ALL:helpers.obj
+ 0001:00016224       OpenLine                   10017224 f   ossvcs_ALL:helpers.obj
+ 0001:00016340       CopyString                 10017340 f   ossvcs_ALL:helpers.obj
+ 0001:0001644c       RecursiveCreateDirectory   1001744c f   ossvcs_ALL:helpers.obj
+ 0001:00016864       RecursiveRemoveDirectoryEx 10017864 f   ossvcs_ALL:helpers.obj
+ 0001:00016884       RecursiveRemoveDirectory   10017884 f   ossvcs_ALL:helpers.obj
+ 0001:00016894       GetVolatileGlobalValue     10017894 f   ossvcs_ALL:helpers.obj
+ 0001:0001694c       BuildSkipArray             1001794c f   ossvcs_ALL:helpers.obj
+ 0001:000169e8       SearchSortedArrayEx        100179e8 f   ossvcs_ALL:helpers.obj
+ 0001:00016b18       SearchSortedArray          10017b18 f   ossvcs_ALL:helpers.obj
+ 0001:00016b7c       StreamCopyTo               10017b7c f   ossvcs_ALL:helpers.obj
+ 0001:00016c9c       GetProcHeapUsage           10017c9c f   ossvcs_ALL:helpers.obj
+ 0001:00016da0       GetHeader                  10017da0 f   ossvcs_ALL:helpers.obj
+ 0001:00016fc8       SetVolatileGlobalValue     10017fc8 f   ossvcs_ALL:helpers.obj
+ 0001:00017064       ?CheckStreamerParams@@YAJKPAUIStream@@PAXJPAI@Z 10018064 f   ossvcs_ALL:StreamHelp.obj
+ 0001:000170d8       ?STHStreamBinary@@YAJKPAUIStream@@PAXJPAI@Z 100180d8 f   ossvcs_ALL:StreamHelp.obj
+ 0001:0001718c       ?STHStreamBufferAlloc@@YAJKPAUIStream@@PAXJPAI@Z 1001818c f   ossvcs_ALL:StreamHelp.obj
+ 0001:000172e0       ?STHStreamStringAlloc@@YAJKPAUIStream@@PAXJPAI@Z 100182e0 f   ossvcs_ALL:StreamHelp.obj
+ 0001:00017358       ?STHStreamElements@@YAJKPAUIStream@@PAXJPAI@Z 10018358 f   ossvcs_ALL:StreamHelp.obj
+ 0001:000173c0       ?SetEventSoundTestParams@@YAJPBU_GUID@@@Z 100183c0 f   ossvcs_ALL:EventSndConfig.obj
+ 0001:00017400       ??0EventSoundConfig@@AAA@XZ 10018400 f   ossvcs_ALL:EventSndConfig.obj
+ 0001:00017448       ?CachingThread@EventSoundConfig@@IAAKXZ 10018448 f   ossvcs_ALL:EventSndConfig.obj
+ 0001:0001753c       ?s_CacheIPlayAudioThread@EventSoundConfig@@SAKPAX@Z 1001853c f   ossvcs_ALL:EventSndConfig.obj
+ 0001:00017540       ?FreeConfig@EventSoundConfig@@IAAXXZ 10018540 f   ossvcs_ALL:EventSndConfig.obj
+ 0001:000175fc       ??1EventSoundConfig@@QAA@XZ 100185fc f   ossvcs_ALL:EventSndConfig.obj
+ 0001:00017680       ?InitConfig@EventSoundConfig@@IAAJXZ 10018680 f   ossvcs_ALL:EventSndConfig.obj
+ 0001:00017864       ?Free@EventSoundConfig@@SAXXZ 10018864 f   ossvcs_ALL:EventSndConfig.obj
+ 0001:000178a8       ?Init@EventSoundConfig@@SAJXZ 100188a8 f   ossvcs_ALL:EventSndConfig.obj
+ 0001:00017930       ?SharememRelease@@YAXPAX0@Z 10018930 f   ossvcs_ALL:sharemem.obj
+ 0001:00017950       ?SharememDecodeNameAndSize@@YAJKPAKPAGHPBG@Z 10018950 f   ossvcs_ALL:sharemem.obj
+ 0001:00017a18       ?SharememGet@@YAJPAPAX0KPBG@Z 10018a18 f   ossvcs_ALL:sharemem.obj
+ 0001:00017b44       ?QueryInterface@CStatStore@@UAAJABU_GUID@@PAPAX@Z 10018b44 f   ossvcs_ALL:statstor2.obj
+ 0001:00017b50       ?AddRef@CStatStore@@UAAKXZ 10018b50 f   ossvcs_ALL:statstor2.obj
+ 0001:00017b68       ?_GetExtraBytes@CStatStore@@KAKK@Z 10018b68 f   ossvcs_ALL:statstor2.obj
+ 0001:00017bd8       ?_WndProc@CStatStore@@KAJPAUHWND__@@IIJ@Z 10018bd8 f   ossvcs_ALL:statstor2.obj
+ 0001:00017ca4       ?RemoveCallback@CStatStore@@UAAJPAUHWND__@@@Z 10018ca4 f   ossvcs_ALL:statstor2.obj
+ 0001:00017cdc       ?ClearAll@CStatStore@@UAAJXZ 10018cdc f   ossvcs_ALL:statstor2.obj
+ 0001:00017d2c       ?_Grow@?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@IAA_NI@Z 10018d2c f i ossvcs_ALL:statstor2.obj
+ 0001:00017dbc       ?_Buynode@?$list@U?$pair@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@@std@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@U?$pair@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@@std@@@list_impl@2@PAU342@@Z 10018dbc f i ossvcs_ALL:statstor2.obj
+ 0001:00017e08       ?_IsValidSDID@CStatStore@@KAHK@Z 10018e08 f   ossvcs_ALL:statstor2.obj
+ 0001:00017e44       ?_VerifyParams@CStatStore@@KAJIPBKPBU_CEPROPVAL@@@Z 10018e44 f   ossvcs_ALL:statstor2.obj
+ 0001:00017f48       ?_PropValToReg@CStatStore@@KAJPBU_CEPROPVAL@@PAPAEPAK2@Z 10018f48 f   ossvcs_ALL:statstor2.obj
+ 0001:00018038       ?RegisterForNotifications@CStatStore@@UAAJPAUHWND__@@P6AJIPBKJ@ZJI1@Z 10019038 f   ossvcs_ALL:statstor2.obj
+ 0001:00018140       ?StatStoreSetCallback@@YAJPAUHWND__@@P6AJIPBKJ@ZJ@Z 10019140 f   ossvcs_ALL:statstor2.obj
+ 0001:0001814c       ?StatStoreRemoveCallback@@YAJPAUHWND__@@@Z 1001914c f   ossvcs_ALL:statstor2.obj
+ 0001:00018158       ?StatStoreCleanup@@YAJXZ   10019158 f   ossvcs_ALL:statstor2.obj
+ 0001:00018164       ?erase@?$list@U?$pair@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@@std@@@list_impl@2@V342@@Z 10019164 f i ossvcs_ALL:statstor2.obj
+ 0001:000181d4       ?hash_function@?$hash_traits@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@@ce@@QBAIABV?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@2@@Z 100191d4 f i ossvcs_ALL:statstor2.obj
+ 0001:00018220       ?erase@?$list@U?$pair@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@@std@@@list_impl@2@V342@0@Z 10019220 f i ossvcs_ALL:statstor2.obj
+ 0001:00018278       ?assign@?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@QAA_NPBGII@Z 10019278 f i ossvcs_ALL:statstor2.obj
+ 0001:000182e0       ??0CStatStore@@IAA@XZ      100192e0 f   ossvcs_ALL:statstor2.obj
+ 0001:00018324       GetStatStore               10019324 f   ossvcs_ALL:statstor2.obj
+ 0001:00018374       ?erase@?$vector@U?$pair@V?$iterator@U?$pair@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAAPAU?$pair@V?$iterator@U?$pair@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@@std@@@list_impl@ce@@I@std@@PAU34@0@Z 10019374 f i ossvcs_ALL:statstor2.obj
+ 0001:000183d8       ??0?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@QAA@ABV01@@Z 100193d8 f i ossvcs_ALL:statstor2.obj
+ 0001:00018420       ?erase@?$vector@U?$pair@V?$iterator@U?$pair@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@@std@@@list_impl@ce@@I@std@@V?$reference_allocator@Vallocator@ce@@@details@ce@@U?$exponential_growth@$09@5@@ce@@QAAPAU?$pair@V?$iterator@U?$pair@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@@std@@@list_impl@ce@@I@std@@PAU34@0@Z 10019420 f i ossvcs_ALL:statstor2.obj
+ 0001:00018484       ??$?8G$0BA@$0BA@U?$i_char_traits@G@ce@@Vallocator@1@V21@@ce@@YA_NABV?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@0@0@Z 10019484 f i ossvcs_ALL:statstor2.obj
+ 0001:000184d0       ?Release@CStatStore@@UAAKXZ 100194d0 f   ossvcs_ALL:statstor2.obj
+ 0001:00018520       ?erase@?$hash@V?$hash_map_traits@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@U?$hash_traits@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@@2@Vallocator@2@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@@std@@@list_impl@3@V453@@Z 10019520 f i ossvcs_ALL:statstor2.obj
+ 0001:00018598       ??0?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@QAA@PBG@Z 10019598 f i ossvcs_ALL:statstor2.obj
+ 0001:00018608       ??$insert@U?$pair@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@@std@@@?$list@U?$pair@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@@std@@@list_impl@1@V231@ABU?$pair@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@@std@@@Z 10019608 f i ossvcs_ALL:statstor2.obj
+ 0001:00018660       ??1?$hash@V?$hash_map_traits@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@U?$hash_traits@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@@2@Vallocator@2@@details@ce@@@details@ce@@QAA@XZ 10019660 f i ossvcs_ALL:statstor2.obj
+ 0001:000186a0       ?_Insert_dispatch@?$vector@U?$pair@V?$iterator@U?$pair@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@AAA_NPAU?$pair@V?$iterator@U?$pair@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@@std@@@list_impl@ce@@I@std@@IABU34@ABUtrue_type@detail@2@@Z 100196a0 f i ossvcs_ALL:statstor2.obj
+ 0001:000188e8       ?resize@?$vector@U?$pair@V?$iterator@U?$pair@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAA_NIABU?$pair@V?$iterator@U?$pair@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@@std@@@list_impl@ce@@I@std@@@Z 100198e8 f i ossvcs_ALL:statstor2.obj
+ 0001:00018944       ?_ready@?$hash@V?$hash_map_traits@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@U?$hash_traits@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@@2@Vallocator@2@@details@ce@@@details@ce@@IAA_NXZ 10019944 f i ossvcs_ALL:statstor2.obj
+ 0001:0001899c       ?find@?$hash@V?$hash_map_traits@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@U?$hash_traits@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@@2@Vallocator@2@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@@std@@@list_impl@3@ABV?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@3@@Z 1001999c f i ossvcs_ALL:statstor2.obj
+ 0001:00018a24       ?insert@?$hash@V?$hash_map_traits@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@U?$hash_traits@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@@2@Vallocator@2@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@@std@@@list_impl@3@ABU?$pair@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@@std@@@Z 10019a24 f i ossvcs_ALL:statstor2.obj
+ 0001:00018af8       ?_GetCachedRegistryKey@CStatStore@@KAHKPAPAUHKEY__@@@Z 10019af8 f   ossvcs_ALL:statstor2.obj
+ 0001:00018bf4       ?insert@?$hash_map@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@U?$hash_traits@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@@2@Vallocator@2@@ce@@QAA?AV?$iterator@U?$pair@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@@std@@@list_impl@2@ABV?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@2@ABQAUHKEY__@@@Z 10019bf4 f i ossvcs_ALL:statstor2.obj
+ 0001:00018c60       ?_CreateKey@CStatStore@@KAJKPAPAUHKEY__@@@Z 10019c60 f   ossvcs_ALL:statstor2.obj
+ 0001:00018d40       ?_OpenKey@CStatStore@@KAJKPAPAUHKEY__@@@Z 10019d40 f   ossvcs_ALL:statstor2.obj
+ 0001:00018dfc       ?_RegToPropVal@CStatStore@@KAJKPAU_CEPROPVAL@@PAEPAK@Z 10019dfc f   ossvcs_ALL:statstor2.obj
+ 0001:00018fa0       ?_SetInfo@CStatStore@@KAJIPBKPBU_CEPROPVAL@@@Z 10019fa0 f   ossvcs_ALL:statstor2.obj
+ 0001:000190e8       ?_SetUINT@CStatStore@@KAJKHI@Z 1001a0e8 f   ossvcs_ALL:statstor2.obj
+ 0001:00019130       ?_SetString@CStatStore@@KAJKHPBG@Z 1001a130 f   ossvcs_ALL:statstor2.obj
+ 0001:00019198       ?_GetInfo@CStatStore@@KAJIPBKPAPAU_CEPROPVAL@@@Z 1001a198 f   ossvcs_ALL:statstor2.obj
+ 0001:00019394       ?_UpdateUINT@CStatStore@@KAJKHII@Z 1001a394 f   ossvcs_ALL:statstor2.obj
+ 0001:000194f4       ?SetInfo@CStatStore@@UAAJIPBKPBU_CEPROPVAL@@@Z 1001a4f4 f   ossvcs_ALL:statstor2.obj
+ 0001:00019514       ?SetUINT@CStatStore@@UAAJKHI@Z 1001a514 f   ossvcs_ALL:statstor2.obj
+ 0001:00019534       ?SetString@CStatStore@@UAAJKHPBG@Z 1001a534 f   ossvcs_ALL:statstor2.obj
+ 0001:00019554       ?GetInfo@CStatStore@@UAAJIPBKPAPAU_CEPROPVAL@@@Z 1001a554 f   ossvcs_ALL:statstor2.obj
+ 0001:00019574       ?UpdateUINT@CStatStore@@UAAJKHII@Z 1001a574 f   ossvcs_ALL:statstor2.obj
+ 0001:0001959c       ?ChangeCallbackIDs@CStatStore@@UAAJKIPBK@Z 1001a59c f   ossvcs_ALL:statstor2.obj
+ 0001:000196dc       ?StatStoreSetInfo@@YAJIPBKPBU_CEPROPVAL@@@Z 1001a6dc f   ossvcs_ALL:statstor2.obj
+ 0001:000196e0       ?StatStoreSetUINT@@YAJKHI@Z 1001a6e0 f   ossvcs_ALL:statstor2.obj
+ 0001:000196e4       ?StatStoreSetString@@YAJKHPBG@Z 1001a6e4 f   ossvcs_ALL:statstor2.obj
+ 0001:000196e8       ?StatStoreGetInfo@@YAJIPBKPAPAU_CEPROPVAL@@@Z 1001a6e8 f   ossvcs_ALL:statstor2.obj
+ 0001:000196ec       ?StatStoreUpdateUINT@@YAJKHII@Z 1001a6ec f   ossvcs_ALL:statstor2.obj
+ 0001:0001974c       ?XMLHGetOwnerDoc@@YAJPAUIXMLDOMNode@@PAPAUIXMLDOMDocument@@@Z 1001a74c f   ossvcs_ALL:xmlhelp.obj
+ 0001:0001978c       ?XMLHPrintNode@@YAJPAUIXMLDOMNode@@H@Z 1001a78c f   ossvcs_ALL:xmlhelp.obj
+ 0001:00019794       ?XMLHGetSearchElementText@@YAJPAUIXMLDOMNode@@PBG1PAGI@Z 1001a794 f   ossvcs_ALL:xmlhelp.obj
+ 0001:00019888       ?XMLHGetElementText@@YAJPAUIXMLDOMNode@@PBGPAGI@Z 1001a888 f   ossvcs_ALL:xmlhelp.obj
+ 0001:00019940       ?XMLHGetTranslatedAttributeVal@@YAJPAUIXMLDOMNode@@PBGKPAKZZ 1001a940 f   ossvcs_ALL:xmlhelp.obj
+ 0001:00019aa4       ?XMLHGetBstrVarFromAttr@@YAJPAUIXMLDOMNode@@PBGPAUtagVARIANT@@@Z 1001aaa4 f   ossvcs_ALL:xmlhelp.obj
+ 0001:00019bc4       ?XMLHGetBstrVarFromAttr2@@YAJPAUIXMLDOMNode@@PBGPAUtagVARIANT@@@Z 1001abc4 f   ossvcs_ALL:xmlhelp.obj
+ 0001:00019cfc       ?XMLHGetBooleanAttributeVal@@YAJPAUIXMLDOMNode@@PBGHPAH@Z 1001acfc f   ossvcs_ALL:xmlhelp.obj
+ 0001:00019d98       ?XMLHGetCLSIDAttributeVal@@YAJPAUIXMLDOMNode@@PBGPAU_GUID@@@Z 1001ad98 f   ossvcs_ALL:xmlhelp.obj
+ 0001:00019e00       ?XMLHGetIntAttributeVal@@YAJPAUIXMLDOMNode@@PBGHPAH@Z 1001ae00 f   ossvcs_ALL:xmlhelp.obj
+ 0001:00019e84       ?XMLHGetStringAttributeVal@@YAJPAUIXMLDOMNode@@PBG1PAGI@Z 1001ae84 f   ossvcs_ALL:xmlhelp.obj
+ 0001:00019f28       ?GetNextElement@@YAJPAPBG0@Z 1001af28 f   ossvcs_ALL:xmlhelp.obj
+ 0001:00019fbc       ?XMLHGetCommaSeperatedIntAttributeVal@@YAJPAUIXMLDOMNode@@PBGHZZ 1001afbc f   ossvcs_ALL:xmlhelp.obj
+ 0001:0001a0fc       ?XMLHGetRectAttributeVal@@YAJPAUIXMLDOMNode@@PBGPBUtagRECT@@PAU2@@Z 1001b0fc f   ossvcs_ALL:xmlhelp.obj
+ 0001:0001a1b8       ?XMLHGetCOLORREFAttributeVal@@YAJPAUIXMLDOMNode@@PBGKPAKHPAH@Z 1001b1b8 f   ossvcs_ALL:xmlhelp.obj
+ 0001:0001a358       ?XMLHGetIDValueList@@YAJPAUIXMLDOMNodeList@@QBUNameIDMapElem@@HP6AJPAUIXMLDOMNode@@PAX@ZPAPAH5PAH@Z 1001b358 f   ossvcs_ALL:xmlhelp.obj
+ 0001:0001a654       ?XMLHChangeTagNameEx@@YAJPAUIXMLDOMElement@@PBGPAPAUIXMLDOMNode@@PAPAU1@@Z 1001b654 f   ossvcs_ALL:xmlhelp.obj
+ 0001:0001aa30       ?XMLHGetNodeWithDesiredLang@@YAJPAUIXMLDOMNode@@PBGPAPAU1@@Z 1001ba30 f   ossvcs_ALL:xmlhelp.obj
+ 0001:0001ac90       ?XMLHGetParentPosition@@YAJPAUIXMLDOMNode@@PAJ@Z 1001bc90 f   ossvcs_ALL:xmlhelp.obj
+ 0001:0001ad80       ?XMLHInsertChildNodeByPosition@@YAJPAUIXMLDOMNode@@0JPAPAU1@@Z 1001bd80 f   ossvcs_ALL:xmlhelp.obj
+ 0001:0001ae74       ?XMLHGetStringWithDesiredLang@@YAJPAUIXMLDOMNode@@PBGPAUHINSTANCE__@@1PAGI@Z 1001be74 f   ossvcs_ALL:xmlhelp.obj
+ 0001:0001b078       ?XMLHSetTextAttribute@@YAJPAUIXMLDOMElement@@PBG1@Z 1001c078 f   ossvcs_ALL:xmlhelp.obj
+ 0001:0001b0f8       ?XMLHCreateChildElement@@YAJPAUIXMLDOMNode@@PBGPAUIXMLDOMDocument@@PAPAUIXMLDOMElement@@@Z 1001c0f8 f   ossvcs_ALL:xmlhelp.obj
+ 0001:0001b1ec       ?XMLHDeleteAttributesWithExclusions@@YAJPAUIXMLDOMNode@@IZZ 1001c1ec f   ossvcs_ALL:xmlhelp.obj
+ 0001:0001b3e0       ?XMLHDeleteNodeFromDoc@@YAJPAUIXMLDOMNode@@@Z 1001c3e0 f   ossvcs_ALL:xmlhelp.obj
+ 0001:0001b460       ?XMLHSkipXMLProlog@@YAJPAGPAPAG@Z 1001c460 f   ossvcs_ALL:xmlhelp.obj
+ 0001:0001b574       ?XMLHGetSubnodeAttr@@YAJPAUIXMLDOMNode@@PBG1PAPAG@Z 1001c574 f   ossvcs_ALL:xmlhelp.obj
+ 0001:0001b750       ?XMLHEscapeString@@YAJPBGPAPAGPAK@Z 1001c750 f   ossvcs_ALL:xmlhelp.obj
+ 0001:0001b840       ?XMLHChangeTagName@@YAJPAUIXMLDOMElement@@PBGPAPAUIXMLDOMNode@@@Z 1001c840 f   ossvcs_ALL:xmlhelp.obj
+ 0001:0001b848       ?XMLHDeleteNodeListFromDoc@@YAJPAUIXMLDOMNodeList@@@Z 1001c848 f   ossvcs_ALL:xmlhelp.obj
+ 0001:0001b918       ?XVibrate@@YAJKPBUVIBRATENOTE@@HK@Z 1001c918 f   ossvcs_ALL:vibratesdk.obj
+ 0001:0001b968       ?XVibrateStop@@YAJXZ       1001c968 f   ossvcs_ALL:vibratesdk.obj
+ 0001:0001b994       ?XVibrateGetDeviceCaps@@YAHW4VIBRATEDEVICECAPS@@@Z 1001c994 f   ossvcs_ALL:vibratesdk.obj
+ 0001:0001ba24       GetNameForWirelessDevices  1001ca24 f   ossvcs_ALL:wrlspwr.obj
+ 0001:0001bac8       AnyDevicesOn               1001cac8 f   ossvcs_ALL:wrlspwr.obj
+ 0001:0001baf8       ?BthSetModeWorkerThreadProc@@YAKPAX@Z 1001caf8 f   ossvcs_ALL:wrlspwr.obj
+ 0001:0001bb4c       ?SetBluetoothFromUI@@YAJH@Z 1001cb4c f   ossvcs_ALL:wrlspwr.obj
+ 0001:0001bbc0       SaveWirelessState          1001cbc0 f   ossvcs_ALL:wrlspwr.obj
+ 0001:0001bbc8       ?NewRootDevice@@YAPAURDD@@PAU1@@Z 1001cbc8 f   ossvcs_ALL:wrlspwr.obj
+ 0001:0001bdd4       GetPhoneState              1001cdd4 f   ossvcs_ALL:wrlspwr.obj
+ 0001:0001beb4       ?FillListStoredState@@YAJPAURDD@@@Z 1001ceb4 f   ossvcs_ALL:wrlspwr.obj
+ 0001:0001bf64       GetRadioStoredState        1001cf64 f   ossvcs_ALL:wrlspwr.obj
+ 0001:0001c000       UpdateRadioStoredState     1001d000 f   ossvcs_ALL:wrlspwr.obj
+ 0001:0001c0a0       ?AsyncBthSetMode@@YAJK@Z   1001d0a0 f   ossvcs_ALL:wrlspwr.obj
+ 0001:0001c26c       ChangeRadioState           1001d26c f   ossvcs_ALL:wrlspwr.obj
+ 0001:0001c274       ChangeRadioStateSync       1001d274 f   ossvcs_ALL:wrlspwr.obj
+ 0001:0001c27c       GetWirelessState           1001d27c f   ossvcs_ALL:wrlspwr.obj
+ 0001:0001c314       FreeDeviceList             1001d314 f   ossvcs_ALL:wrlspwr.obj
+ 0001:0001c34c       RepairRadio                1001d34c f   ossvcs_ALL:wrlspwr.obj
+ 0001:0001c390       ?GetWirelessFriendlyName@@YAPAGPAG@Z 1001d390 f   ossvcs_ALL:wrlspwr.obj
+ 0001:0001c4d4       GetWirelessDevices         1001d4d4 f   ossvcs_ALL:wrlspwr.obj
+ 0001:0001c870       SetPowerDownWirelessState  1001d870 f   ossvcs_ALL:wrlspwr.obj
+ 0001:0001c8b8       ChangeWirelessState        1001d8b8 f   ossvcs_ALL:wrlspwr.obj
+ 0001:0001c9d8       ??1CFileStream@@UAA@XZ     1001d9d8 f   ossvcs_ALL:StreamOnFile.obj
+ 0001:0001ca08       ?AddRef@CFileStream@@UAAKXZ 1001da08 f   ossvcs_ALL:StreamOnFile.obj
+ 0001:0001ca20       ?Release@CFileStream@@UAAKXZ 1001da20 f   ossvcs_ALL:StreamOnFile.obj
+ 0001:0001ca58       ?Commit@CFileStream@@UAAJK@Z 1001da58 f   ossvcs_ALL:StreamOnFile.obj
+ 0001:0001ca60       ?CopyTo@CFileStream@@UAAJPAUIStream@@T_ULARGE_INTEGER@@PAT3@2@Z 1001da60 f   ossvcs_ALL:StreamOnFile.obj
+ 0001:0001ca94       ?Revert@CFileStream@@UAAJXZ 1001da94 f   ossvcs_ALL:StreamOnFile.obj
+ 0001:0001caa0       ?LockRegion@CFileStream@@UAAJT_ULARGE_INTEGER@@0K@Z 1001daa0 f   ossvcs_ALL:StreamOnFile.obj
+ 0001:0001cab8       ?UnlockRegion@CFileStream@@UAAJT_ULARGE_INTEGER@@0K@Z 1001dab8 f   ossvcs_ALL:StreamOnFile.obj
+ 0001:0001cad0       ?Clone@CFileStream@@UAAJPAPAUIStream@@@Z 1001dad0 f   ossvcs_ALL:StreamOnFile.obj
+ 0001:0001cadc       ??1CFileStreamOnFile@@UAA@XZ 1001dadc f   ossvcs_ALL:StreamOnFile.obj
+ 0001:0001cb18       ??1CBufferedFileStream@@UAA@XZ 1001db18 f   ossvcs_ALL:StreamOnFile.obj
+ 0001:0001cb48       ?Write@CBufferedFileStream@@UAAJPBXKPAK@Z 1001db48 f   ossvcs_ALL:StreamOnFile.obj
+ 0001:0001cb54       ?SetSize@CBufferedFileStream@@UAAJT_ULARGE_INTEGER@@@Z 1001db54 f   ossvcs_ALL:StreamOnFile.obj
+ 0001:0001cb6c       ??_ECFileStream@@UAAPAXI@Z 1001db6c f i ossvcs_ALL:StreamOnFile.obj
+ 0001:0001cb6c       ??_GCFileStream@@UAAPAXI@Z 1001db6c f i ossvcs_ALL:StreamOnFile.obj
+ 0001:0001cb90       ?QueryInterface@CFileStream@@UAAJABU_GUID@@PAPAX@Z 1001db90 f   ossvcs_ALL:StreamOnFile.obj
+ 0001:0001cc38       ?Read@CFileStream@@UAAJPAXKPAK@Z 1001dc38 f   ossvcs_ALL:StreamOnFile.obj
+ 0001:0001ccd8       ?Write@CFileStream@@UAAJPBXKPAK@Z 1001dcd8 f   ossvcs_ALL:StreamOnFile.obj
+ 0001:0001cd84       ?Stat@CFileStream@@UAAJPAUtagSTATSTG@@K@Z 1001dd84 f   ossvcs_ALL:StreamOnFile.obj
+ 0001:0001cdb4       ?Init@CFileStream@@QAAJPAX@Z 1001ddb4 f   ossvcs_ALL:StreamOnFile.obj
+ 0001:0001cdfc       ?SetFilePointerI@CFileStream@@IAAJJKPAK@Z 1001ddfc f   ossvcs_ALL:StreamOnFile.obj
+ 0001:0001ce74       ??_GCFileStreamOnFile@@UAAPAXI@Z 1001de74 f i ossvcs_ALL:StreamOnFile.obj
+ 0001:0001ce74       ??_ECFileStreamOnFile@@UAAPAXI@Z 1001de74 f i ossvcs_ALL:StreamOnFile.obj
+ 0001:0001ce98       ?Init@CFileStreamOnFile@@QAAJPBGK@Z 1001de98 f   ossvcs_ALL:StreamOnFile.obj
+ 0001:0001d03c       ??_ECBufferedFileStream@@UAAPAXI@Z 1001e03c f i ossvcs_ALL:StreamOnFile.obj
+ 0001:0001d03c       ??_GCBufferedFileStream@@UAAPAXI@Z 1001e03c f i ossvcs_ALL:StreamOnFile.obj
+ 0001:0001d060       ?Read@CBufferedFileStream@@UAAJPAXKPAK@Z 1001e060 f   ossvcs_ALL:StreamOnFile.obj
+ 0001:0001d190       ?Seek@CBufferedFileStream@@UAAJT_LARGE_INTEGER@@KPAT_ULARGE_INTEGER@@@Z 1001e190 f   ossvcs_ALL:StreamOnFile.obj
+ 0001:0001d37c       ?Init@CBufferedFileStream@@QAAJPAXK@Z 1001e37c f   ossvcs_ALL:StreamOnFile.obj
+ 0001:0001d49c       ?Seek@CFileStream@@UAAJT_LARGE_INTEGER@@KPAT_ULARGE_INTEGER@@@Z 1001e49c f   ossvcs_ALL:StreamOnFile.obj
+ 0001:0001d530       ?SetSize@CFileStream@@UAAJT_ULARGE_INTEGER@@@Z 1001e530 f   ossvcs_ALL:StreamOnFile.obj
+ 0001:0001d5c0       CreateStreamOnHandle       1001e5c0 f   ossvcs_ALL:StreamOnFile.obj
+ 0001:0001d65c       CreateStreamOnFile         1001e65c f   ossvcs_ALL:StreamOnFile.obj
+ 0001:0001d704       CreateBufferedStreamOnHandle 1001e704 f   ossvcs_ALL:StreamOnFile.obj
+ 0001:0001da14       ?__Add@@YAIII@Z            1001ea14 f   ossvcs_ALL:calltimers.obj
+ 0001:0001db54       ?helperCallAtomicIncrementFourTimes@@YAJPAUHKEY__@@W4_TimerType@@I@Z 1001eb54 f   ossvcs_ALL:calltimers.obj
+ 0001:0001dc68       CumulativeCallTimers_GetAccumulatedVoIPTime 1001ec68 f   ossvcs_ALL:calltimers.obj
+ 0001:0001dd58       CumulativeCallTimers_GetLastVoIPCallDuration 1001ed58 f   ossvcs_ALL:calltimers.obj
+ 0001:0001ddfc       CumulativeCallTimers_GetVoIPNumCalls 1001edfc f   ossvcs_ALL:calltimers.obj
+ 0001:0001dee0       CumulativeCallTimers_ResetVoIPCurrentPeriod 1001eee0 f   ossvcs_ALL:calltimers.obj
+ 0001:0001e094       CumulativeCallTimers_VoIPCallNotify 1001f094 f   ossvcs_ALL:calltimers.obj
+ 0001:0001e194       CumulativeCallTimers_GetVoIPLastResetTime 1001f194 f   ossvcs_ALL:calltimers.obj
+ 0001:0001e224       EncodeBase64               1001f224 f   ossvcs_ALL:base64.obj
+ 0001:0001e3dc       DecodeBase64               1001f3dc f   ossvcs_ALL:base64.obj
+ 0001:0001e5c0       EncodeBase64W              1001f5c0 f   ossvcs_ALL:base64.obj
+ 0001:0001e73c       DecodeBase64W              1001f73c f   ossvcs_ALL:base64.obj
+ 0001:0001e8b8       ?RegistryGetDWORD@@YAJPAUHKEY__@@PBG1PAK@Z 1001f8b8 f   ossvcs_ALL:FDRMAPI.obj
+ 0001:0001e958       ?RegistryGetString@@YAJPAUHKEY__@@PBG1PAGI@Z 1001f958 f   ossvcs_ALL:FDRMAPI.obj
+ 0001:0001ec20       ?VerifyFileExists@@YAJPBG@Z 1001fc20 f   ossvcs_ALL:FDRMAPI.obj
+ 0001:0001ec84       FileDrmIsDRM               1001fc84 f   ossvcs_ALL:FDRMAPI.obj
+ 0001:0001ed00       FileDrmCreateFile          1001fd00 f   ossvcs_ALL:FDRMAPI.obj
+ 0001:0001ee08       FileDrmCreateForwardableContent 1001fe08 f   ossvcs_ALL:FDRMAPI.obj
+ 0001:0001ee84       FileDrmNotifyEnable        1001fe84 f   ossvcs_ALL:FDRMAPI.obj
+ 0001:0001ef0c       FileDrmNotifyDisable       1001ff0c f   ossvcs_ALL:FDRMAPI.obj
+ 0001:0001ef68       FileDrmShowLicenseInfo     1001ff68 f   ossvcs_ALL:FDRMAPI.obj
+ 0001:0001efd0       FileDrmHandleError         1001ffd0 f   ossvcs_ALL:FDRMAPI.obj
+ 0001:0001f07c       FileDrmRenewRights         1002007c f   ossvcs_ALL:FDRMAPI.obj
+ 0001:0001f0f4       FileDrmGetMetric           100200f4 f   ossvcs_ALL:FDRMAPI.obj
+ 0001:0001f230       FileDrmVerifyRights        10020230 f   ossvcs_ALL:FDRMAPI.obj
+ 0001:0001f2b0       FileDrmVerifyRightsEx      100202b0 f   ossvcs_ALL:FDRMAPI.obj
+ 0001:0001f350       FileDrmCommitRights        10020350 f   ossvcs_ALL:FDRMAPI.obj
+ 0001:0001f3c4       FileDrmDeleteFile          100203c4 f   ossvcs_ALL:FDRMAPI.obj
+ 0001:0001f448       FileDrmStoreContent        10020448 f   ossvcs_ALL:FDRMAPI.obj
+ 0001:0001f54c       SystemTimeToISO8601String  1002054c f   ossvcs_ALL:iso8601.obj
+ 0001:0001f690       FileTimeToISO8601String    10020690 f   ossvcs_ALL:iso8601.obj
+ 0001:0001fcbc       ISO8601StringToSystemTime  10020cbc f   ossvcs_ALL:iso8601.obj
+ 0001:0001fe64       ISO8601StringToFileTime    10020e64 f   ossvcs_ALL:iso8601.obj
+ 0001:0001ff20       FlushSystemOnPowerOff      10020f20 f   ossvcs_ALL:poweroff.obj
+ 0001:0001ff24       ?Reg_GetStr@@YAJPBG0PAGPAK@Z 10020f24 f   ossvcs_ALL:dataloc.obj
+ 0001:0001ffa4       ?Reg_GetStrFromHKLM@@YAJPBG0PAGPAK@Z 10020fa4 f   ossvcs_ALL:dataloc.obj
+ 0001:00020024       GetDataDirectory           10021024 f   ossvcs_ALL:dataloc.obj
+ 0001:000200f4       GetExeProcessId            100210f4 f   ossvcs_ALL:thin_utils.obj
+ 0001:0002034c       GetModifiedFileName        1002134c f   ossvcs_ALL:pathutils.obj
+ 0001:0002044c       GetLocaleSpecificFileName  1002144c f   ossvcs_ALL:pathutils.obj
+ 0001:000204fc       ?Reset@CPhoneVolume@@AAAXXZ 100214fc f   ossvcs_ALL:phonevol.obj
+ 0001:00020534       ?WritePersistedVolume@CPhoneVolume@@AAAJK@Z 10021534 f   ossvcs_ALL:phonevol.obj
+ 0001:0002056c       UIVolumeToSpeakerVolume    1002156c f   ossvcs_ALL:phonevol.obj
+ 0001:00020588       SpeakerVolumeToUIVolume    10021588 f   ossvcs_ALL:phonevol.obj
+ 0001:000205b4       ?OpenPhone@CPhoneVolume@@AAAJXZ 100215b4 f   ossvcs_ALL:phonevol.obj
+ 0001:000206d8       ?ReadPersistedVolume@CPhoneVolume@@AAAJPAK@Z 100216d8 f   ossvcs_ALL:phonevol.obj
+ 0001:0002072c       ?GetVolume@CPhoneVolume@@QAAJPAK@Z 1002172c f   ossvcs_ALL:phonevol.obj
+ 0001:00020790       ?SetVolume@CPhoneVolume@@QAAJK@Z 10021790 f   ossvcs_ALL:phonevol.obj
+ 0001:000207e8       GetPhoneVolume             100217e8 f   ossvcs_ALL:phonevol.obj
+ 0001:00020830       SetPhoneVolume             10021830 f   ossvcs_ALL:phonevol.obj
+ 0001:00020878       IncrementPhoneVolume       10021878 f   ossvcs_ALL:phonevol.obj
+ 0001:00020910       InitializePhoneVolume      10021910 f   ossvcs_ALL:phonevol.obj
+ 0001:00020968       StrCmpNA                   10021968 f   ossvcs_ALL:ansiwrap.obj
+ 0001:000209c0       GetStringTypeExA           100219c0 f   ossvcs_ALL:ansiwrap.obj
+ 0001:00020a84       IsDeviceDocked             10021a84 f   ossvcs_ALL:DockStat.obj
+ 0001:00020af4       WaitForFullBoot            10021af4 f   ossvcs_ALL:boot.obj
+ 0001:00020b30       IsFullBoot                 10021b30 f   ossvcs_ALL:boot.obj
+ 0001:00020b80       ?IsShellAvailable@@YAHXZ   10021b80 f   ossvcs_ALL:boot.obj
+ 0001:00020bb8       WaitForShellReady          10021bb8 f   ossvcs_ALL:boot.obj
+ 0001:00020bd4       IsShellReady               10021bd4 f   ossvcs_ALL:boot.obj
+ 0001:00020c2c       ??0PHLogger@@QAA@PBG@Z     10021c2c f i ossvcs_ALL:mountvol.obj
+ 0001:00020cc8       ??1PHLogger@@QAA@XZ        10021cc8 f i ossvcs_ALL:mountvol.obj
+ 0001:00020d58       MountDefaultDBVol          10021d58 f   ossvcs_ALL:mountvol.obj
+ 0001:00020de8       MountRegistryNamedDBVol    10021de8 f   ossvcs_ALL:mountvol.obj
+ 0001:00020e70       ReadMailVolumeName         10021e70 f   ossvcs_ALL:mountvol.obj
+ 0001:00020e88       IsPSAtRoot                 10021e88 f   ossvcs_ALL:mountvol.obj
+ 0001:00020f0c       MountDBVol                 10021f0c f   ossvcs_ALL:mountvol.obj
+ 0001:0002129c       UnmountDBVol               1002229c f   ossvcs_ALL:mountvol.obj
+ 0001:00021560       LoadBitmapOver             10022560 f   ossvcs_ALL:bmphelpr.obj
+ 0001:00021568       LoadIconOver               10022568 f   ossvcs_ALL:bmphelpr.obj
+ 0001:00021578       SaveBlobToRegistry         10022578 f   ossvcs_ALL:regblob.obj
+ 0001:0002170c       LoadBlobFromRegistry       1002270c f   ossvcs_ALL:regblob.obj
+ 0001:00021940       OSSVCSLMEMAddTrackedItem   10022940 f   ossvcs_ALL:debugmem.obj
+ 0001:00021948       OSSVCSLMEMRemoveTrackedItem 10022948 f   ossvcs_ALL:debugmem.obj
+ 0001:0002194c       ShouldBreakOnAssert        1002294c f   ossvcs_ALL:ehm.obj
+ 0001:00021954       OnAssertionFail            10022954 f   ossvcs_ALL:ehm.obj
+ 0001:0002195c       SetBreakOnAssert           1002295c f   ossvcs_ALL:ehm.obj
+ 0001:0002196c       ?SHUpdateRestriction@@YAHPBG00KHPAK@Z 1002296c f   ossvcs_ALL:restrict2.obj
+ 0001:00021ab0       ?SHRestrictionLookup@@YAHW4RESTRICTIONS@@PBGPBUtagRESTICTIONITEMS@@KHPAK@Z 10022ab0 f   ossvcs_ALL:restrict2.obj
+ 0001:00021b98       SHRestricted               10022b98 f   ossvcs_ALL:restrict2.obj
+ 0001:00021be4       QueryPolicyImpl            10022be4 f   ossvcs_ALL:restrict2.obj
+ 0001:00021bf4       SMul                       10022bf4 f   ossvcs_ALL:safemath.obj
+ 0001:00021c30       SsMul                      10022c30 f   ossvcs_ALL:safemath.obj
+ 0001:00021c54       UMul                       10022c54 f   ossvcs_ALL:safemath.obj
+ 0001:00021c6c       UsMul                      10022c6c f   ossvcs_ALL:safemath.obj
+ 0001:00021c8c       SAdd                       10022c8c f   ossvcs_ALL:safemath.obj
+ 0001:00021cdc       SsAdd                      10022cdc f   ossvcs_ALL:safemath.obj
+ 0001:00021d38       ?GetCallbackDevInfo@@YAJW4tagRegisterDeviceCallbackDevice@@HPAPAGPAI@Z 10022d38 f   ossvcs_ALL:devnotify.obj
+ 0001:00021e8c       SHRegisterDeviceCallback   10022e8c f   ossvcs_ALL:devnotify.obj
+ 0001:00021f9c       SHGetSpeakerMode           10022f9c f   ossvcs_ALL:devnotify.obj
+ 0001:00022074       SHSetSpeakerMode           10023074 f   ossvcs_ALL:devnotify.obj
+ 0001:00022138       SafeStrDupEx               10023138 f   ossvcs_ALL:safemem.obj
+ 0001:00022358       SafeStrDup                 10023358 f   ossvcs_ALL:safemem.obj
+ 0001:00022368       SafeBinDup                 10023368 f   ossvcs_ALL:safemem.obj
+ 0001:00022464       SetPolicy                  10023464 f   ossvcs_ALL:restrict.obj
+ 0001:00022578       ?FindCompareFunc@@YAHPBX0@Z 10023578 f   ossvcs_ALL:soimp.obj
+ 0001:00022584       ?SafeRealloc@@YAJPAPAXI@Z  10023584 f   ossvcs_ALL:soimp.obj
+ 0001:000225e0       ?Open@CShadowOrderFile@@QAAJXZ 100235e0 f   ossvcs_ALL:soimp.obj
+ 0001:000226ec       ?Close@CShadowOrderFile@@QAAJXZ 100236ec f   ossvcs_ALL:soimp.obj
+ 0001:00022750       ?GetEntry@CShadowOrderFile@@QAAJKPAU_GUID@@@Z 10023750 f   ossvcs_ALL:soimp.obj
+ 0001:000227bc       ?FindNextPackage@CShadowOrderFindHandle@@AAAJXZ 100237bc f   ossvcs_ALL:soimp.obj
+ 0001:00022988       ?FindNext@CShadowOrderFindHandle@@QAAJPAUtagShadowOrderFindData@@@Z 10023988 f   ossvcs_ALL:soimp.obj
+ 0001:00022aa8       ShadowOrderFindNextFile    10023aa8 f   ossvcs_ALL:soimp.obj
+ 0001:00022aec       ShadowOrderFileGetEntryCount 10023aec f   ossvcs_ALL:soimp.obj
+ 0001:00022b2c       ShadowOrderFileGetEntry    10023b2c f   ossvcs_ALL:soimp.obj
+ 0001:00022b70       ??0CShadowOrderFindHandle@@QAA@XZ 10023b70 f i ossvcs_ALL:soimp.obj
+ 0001:00022be4       ?FindFirst@CShadowOrderFindHandle@@QAAJPBGPAUtagShadowOrderFindData@@@Z 10023be4 f   ossvcs_ALL:soimp.obj
+ 0001:00022cc0       ShadowOrderFindClose       10023cc0 f   ossvcs_ALL:soimp.obj
+ 0001:00022d34       ShadowOrderFileClose       10023d34 f   ossvcs_ALL:soimp.obj
+ 0001:00022d70       ShadowOrderFindFirstFile   10023d70 f   ossvcs_ALL:soimp.obj
+ 0001:00022e40       ShadowOrderFileOpen        10023e40 f   ossvcs_ALL:soimp.obj
+ 0001:00022ed4       crc32                      10023ed4 f   ossvcs_ALL:crc32.obj
+ 0001:00022fdc       wcsncpyX                   10023fdc f   ossvcs_ALL:strutil.obj
+ 0001:00023028       wcsncpyXIndirect           10024028 f   ossvcs_ALL:strutil.obj
+ 0001:00023068       wcsncpyXIgnore             10024068 f   ossvcs_ALL:strutil.obj
+ 0001:000230f0       wcstail                    100240f0 f   ossvcs_ALL:strutil.obj
+ 0001:0002311c       ustrcmp                    1002411c f   ossvcs_ALL:strutil.obj
+ 0001:00023154       _GetProcFromDLL            10024154 f   ossvcs_ALL:dllload.obj
+ 0001:000231a8       GetEmergencyCallList       100241a8 f   ossvcs_ALL:dllload.obj
+ 0001:00023200       RestoreLastRadioTransmitReceiveState 10024200 f   ossvcs_ALL:dllload.obj
+ 0001:00023250       RestoreLastRadioTransmitReceiveStateSync 10024250 f   ossvcs_ALL:dllload.obj
+ 0001:000232a0       CreateToolhelp32Snapshot   100242a0 f   ossvcs_ALL:dllload.obj
+ 0001:000232f8       CloseToolhelp32Snapshot    100242f8 f   ossvcs_ALL:dllload.obj
+ 0001:00023348       Process32First             10024348 f   ossvcs_ALL:dllload.obj
+ 0001:000233a0       Process32Next              100243a0 f   ossvcs_ALL:dllload.obj
+ 0001:000233f8       Heap32ListNext             100243f8 f   ossvcs_ALL:dllload.obj
+ 0001:00023450       Heap32Next                 10024450 f   ossvcs_ALL:dllload.obj
+ 0001:000234a8       Heap32First                100244a8 f   ossvcs_ALL:dllload.obj
+ 0001:00023514       Heap32ListFirst            10024514 f   ossvcs_ALL:dllload.obj
+ 0001:0002356c       SysAllocString             1002456c f   ossvcs_ALL:dllload.obj
+ 0001:000235bc       SysFreeString              100245bc f   ossvcs_ALL:dllload.obj
+ 0001:0002362c       VariantInit                1002462c f   ossvcs_ALL:dllload.obj
+ 0001:0002369c       VariantChangeType          1002469c f   ossvcs_ALL:dllload.obj
+ 0001:0002370c       SysAllocStringByteLen      1002470c f   ossvcs_ALL:dllload.obj
+ 0001:00023764       VariantClear               10024764 f   ossvcs_ALL:dllload.obj
+ 0001:000237b8       IsValidURL                 100247b8 f   ossvcs_ALL:dllload.obj
+ 0001:0002381c       GetDialableNumberEtc       1002481c f   ossvcs_ALL:dllload.obj
+ 0001:0002387c       WlanOpenHandle             1002487c f   ossvcs_ALL:dllload.obj
+ 0001:000238e8       WlanEnumInterfaces         100248e8 f   ossvcs_ALL:dllload.obj
+ 0001:00023948       WlanCloseHandle            10024948 f   ossvcs_ALL:dllload.obj
+ 0001:000239a0       WlanFreeMemory             100249a0 f   ossvcs_ALL:dllload.obj
+ 0001:00023a10       ?IsFullWidthNonJPN@@YAHG@Z 10024a10 f   ossvcs_ALL:altcommon.obj
+ 0001:00023a70       ?InitMapTableInfo_JPN@@YAXXZ 10024a70 f   ossvcs_ALL:altlangJPN.obj
+ 0001:00023ad4       ?GetKanaIndexFromHalfWidthString@@YAHPBGPAH@Z 10024ad4 f   ossvcs_ALL:altlangJPN.obj
+ 0001:00023be4       ?IsJPNChar@@YAHG@Z         10024be4 f   ossvcs_ALL:altlangJPN.obj
+ 0001:00023c20       ?ConvertToFullWidthKatakana@@YAXPAG@Z 10024c20 f   ossvcs_ALL:altlangJPN.obj
+ 0001:00023e9c       ?IsMatchWithSoundMark@@YAHGGG@Z 10024e9c f   ossvcs_ALL:altlangJPN.obj
+ 0001:00023f74       ?GetJPNMapping@@YAHPBGKPAGIPAH@Z 10024f74 f   ossvcs_ALL:altlangJPN.obj
+ 0001:000240ac       ?IsJPNSkippableChar@@YAHG@Z 100250ac f   ossvcs_ALL:altlangJPN.obj
+ 0001:00024178       ?IsJapanesePhoneticPrefix@@YAIPBG0KPAEHI@Z 10025178 f   ossvcs_ALL:altlangJPN.obj
+ 0001:00024584       ?InitMapTableInfo_KOR@@YAXXZ 10025584 f   ossvcs_ALL:altlangKOR.obj
+ 0001:000245f0       ?IsKORChar@@YAHG@Z         100255f0 f   ossvcs_ALL:altlangKOR.obj
+ 0001:00024610       ?InitializePhoneticSearch@@YAHQAEHPAG@Z 10025610 f   ossvcs_ALL:altlangKOR.obj
+ 0001:000247ec       ?GetKORMapping@@YAHGKPAGI@Z 100257ec f   ossvcs_ALL:altlangKOR.obj
+ 0001:00024930       ?IsKoreanPhoneticPrefix@@YAIPBG0KPAEHI@Z 10025930 f   ossvcs_ALL:altlangKOR.obj
+ 0001:00025238       ?InitBoPoMoFoTables@@YAJXZ 10026238 f   ossvcs_ALL:CHTLang.obj
+ 0001:000252e4       ?InitPinYinTables@@YAJXZ   100262e4 f   ossvcs_ALL:CHSLang.obj
+ 0001:000253b4       ??0CPlayingThreads@@QAA@XZ 100263b4 f   ossvcs_ALL:PlayThds.obj
+ 0001:00025408       ?Increment@CPlayingThreads@@QAAXXZ 10026408 f   ossvcs_ALL:PlayThds.obj
+ 0001:00025444       ?Decrement@CPlayingThreads@@QAAXXZ 10026444 f   ossvcs_ALL:PlayThds.obj
+ 0001:00025480       ?WaitUntilNone@CPlayingThreads@@QAAXXZ 10026480 f   ossvcs_ALL:PlayThds.obj
+ 0001:0002548c       ?AreEventsPlaying@CPlayingThreads@@QAAHXZ 1002648c f   ossvcs_ALL:PlayThds.obj
+ 0001:000254c4       ?GetLEDIndices@@YAXXZ      100264c4 f   ossvcs_ALL:vibrate.obj
+ 0001:00025588       ?VIBRA_StopAlerting@@YAJXZ 10026588 f   ossvcs_ALL:vibrate.obj
+ 0001:000255d8       ?VIBRA_TurnOn@@YAJXZ       100265d8 f   ossvcs_ALL:vibrate.obj
+ 0001:00025628       ?UpdateLEDRegistySetting@@YAHH@Z 10026628 f   ossvcs_ALL:vibrate.obj
+ 0001:000256d8       ?LED_StopFlashing@@YAJXZ   100266d8 f   ossvcs_ALL:vibrate.obj
+ 0001:0002573c       ?LED_StartFlashing@@YAJXZ  1002673c f   ossvcs_ALL:vibrate.obj
+ 0001:000257c8       ?IsSpecialSound@@YAHPBG0@Z 100267c8 f   ossvcs_ALL:script.obj
+ 0001:0002580c       ?SetMaxVolume@CScriptPlayer@@AAAJK@Z 1002680c f   ossvcs_ALL:script.obj
+ 0001:00025858       ?InCall@@YAHXZ             10026858 f   ossvcs_ALL:script.obj
+ 0001:000258c0       ?IncomingCall@@YAHXZ       100268c0 f   ossvcs_ALL:script.obj
+ 0001:00025928       ?FlashLED@CScriptPlayer@@AAAJK@Z 10026928 f   ossvcs_ALL:script.obj
+ 0001:0002596c       ?WaitForActionToComplete@CScriptPlayer@@AAAJKH@Z 1002696c f   ossvcs_ALL:script.obj
+ 0001:00025bfc       ?Initialize@CScript@@QAAJPBG@Z 10026bfc f   ossvcs_ALL:script.obj
+ 0001:00025c50       ?NextAction@CScript@@QAAJPAW4EventSounds_ScriptAction@@PAK@Z 10026c50 f   ossvcs_ALL:script.obj
+ 0001:00025e94       ?SeekPastNextRepeat@CScript@@QAAJXZ 10026e94 f   ossvcs_ALL:script.obj
+ 0001:00025ee8       ?ESPlay@CScriptPlayer@@AAAJH@Z 10026ee8 f   ossvcs_ALL:script.obj
+ 0001:00025f50       ?ESGetVolume@CScriptPlayer@@AAAJPAK@Z 10026f50 f   ossvcs_ALL:script.obj
+ 0001:00025fe8       ?ESSetVolume@CScriptPlayer@@AAAJK@Z 10026fe8 f   ossvcs_ALL:script.obj
+ 0001:00026050       ?Initialize@CScriptPlayer@@AAAJPAUEventSoundInfo@@PAUHWND__@@@Z 10027050 f   ossvcs_ALL:script.obj
+ 0001:00026284       ??1CScriptPlayer@@AAA@XZ   10027284 f   ossvcs_ALL:script.obj
+ 0001:000262e8       ?PlaySoundW@CScriptPlayer@@AAAJXZ 100272e8 f   ossvcs_ALL:script.obj
+ 0001:00026390       ?PlayLoop@CScriptPlayer@@AAAJK@Z 10027390 f   ossvcs_ALL:script.obj
+ 0001:00026438       ?PlayVibrate@CScriptPlayer@@AAAJK@Z 10027438 f   ossvcs_ALL:script.obj
+ 0001:000264a0       ?ChangeVolume@CScriptPlayer@@AAAJI@Z 100274a0 f   ossvcs_ALL:script.obj
+ 0001:0002652c       ?PlayScript@CScriptPlayer@@AAAJXZ 1002752c f   ossvcs_ALL:script.obj
+ 0001:00026750       ?PlayInCallBuzz@CScriptPlayer@@AAAJXZ 10027750 f   ossvcs_ALL:script.obj
+ 0001:00026860       ?PlayScriptExThreadProc@CScriptPlayer@@CAKPAX@Z 10027860 f   ossvcs_ALL:script.obj
+ 0001:000269a0       ?PlayScriptEx@CScriptPlayer@@CAJPAUEventSoundInfo@@PAUHWND__@@PAXH@Z 100279a0 f   ossvcs_ALL:script.obj
+ 0001:00026b80       ?PlayScriptAsync@CScriptPlayer@@SAJPAUEventSoundInfo@@PAUHWND__@@PAX@Z 10027b80 f   ossvcs_ALL:script.obj
+ 0001:00026b88       ?PlayScriptSync@CScriptPlayer@@SAJPAUEventSoundInfo@@@Z 10027b88 f   ossvcs_ALL:script.obj
+ 0001:00026b98       ?ReleaseCHNTables@@YAXXZ   10027b98 f   ossvcs_ALL:altlangCHN.obj
+ 0001:00026cdc       ?ReadChineseSMFMode@@YAXXZ 10027cdc f   ossvcs_ALL:altlangCHN.obj
+ 0001:00026d60       ?InitMapTableInfo_CHN@@YAXXZ 10027d60 f   ossvcs_ALL:altlangCHN.obj
+ 0001:00026e24       ?IsCHNChar@@YAHG@Z         10027e24 f   ossvcs_ALL:altlangCHN.obj
+ 0001:00026e44       ?IsCHNWildcard@@YAHGK@Z    10027e44 f   ossvcs_ALL:altlangCHN.obj
+ 0001:00026e94       ?LoadCHNSMFSettings@@YAXXZ 10027e94 f   ossvcs_ALL:altlangCHN.obj
+ 0001:00026e98       ?QueryTableOverride@@YAJPBGPAGK@Z 10027e98 f   ossvcs_ALL:altlangCHN.obj
+ 0001:00026f2c       ?InitLanguageTable@@YAJPAPAXPBG0@Z 10027f2c f   ossvcs_ALL:altlangCHN.obj
+ 0001:00027078       ?InitStrokeTables@@YAJXZ   10028078 f   ossvcs_ALL:altlangCHN.obj
+ 0001:00027244       ?InitChinese@@YAJXZ        10028244 f   ossvcs_ALL:altlangCHN.obj
+ 0001:000273d0       ?GetReading@@YAJGKPAGH@Z   100283d0 f   ossvcs_ALL:altlangCHN.obj
+ 0001:000274a0       ?GetCHNMapping@@YAHGKPAGIPAUMULTIMAPPARAM@@@Z 100284a0 f   ossvcs_ALL:altlangCHN.obj
+ 0001:00027884       ?_GetProcFromDLL@@YAXPAPAUHINSTANCE__@@PBGPAP6AHXZ1@Z 10028884 f   ossvcs_ALL:delayld.obj
+ 0001:000278d8       BthGetMode                 100288d8 f   ossvcs_ALL:delayld.obj
+ 0001:00027944       BthSetMode                 10028944 f   ossvcs_ALL:delayld.obj
+ 0001:000279b0       BthGetHardwareStatus       100289b0 f   ossvcs_ALL:delayld.obj
+ 0001:00027a1c       GetDeviceFeatureLevel      10028a1c f   ossvcs_ALL:delayld.obj
+ 0001:00027a90       IsBluetoothVisibleAllowed  10028a90 f   ossvcs_ALL:delayld.obj
+ 0001:00027af0       ?ossvcsgetaddrinfo@@YAHPBD0PBUaddrinfo@@PAPAU1@@Z 10028af0 f   ossvcs_ALL:delayld.obj
+ 0001:00027b5c       Pkg_OpenPackageByGUID      10028b5c f   ossvcs_ALL:delayld.obj
+ 0001:00027bb8       Pkg_GetNextFile            10028bb8 f   ossvcs_ALL:delayld.obj
+ 0001:00027c1c       Pkg_Close                  10028c1c f   ossvcs_ALL:delayld.obj
+ 0001:00027c78       ?CreateCallHistoryDatabase@@YAJPAU_CEGUID@@@Z 10028c78 f   ossvcs_ALL:PhoneDatabases.obj
+ 0001:00027dbc       ?CreateSpeedDialDatabase@@YAJPAU_CEGUID@@@Z 10028dbc f   ossvcs_ALL:PhoneDatabases.obj
+ 0001:00027f00       ?CreateXBase@@YAJPAU_CEGUID@@@Z 10028f00 f   ossvcs_ALL:PhoneDatabases.obj
+ 0001:00028030       CoCreateInstance           10029030 f   ole32:ole32.dll
+ 0001:00028040       CLSIDFromString            10029040 f   ole32:ole32.dll
+ 0001:00028050       CoUninitialize             10029050 f   ole32:ole32.dll
+ 0001:00028060       CoInitializeEx             10029060 f   ole32:ole32.dll
+ 0001:00028070       PathFindExtensionW         10029070 f   shlwapi:shlwapi.dll
+ 0001:00028080       PathMatchSpecW             10029080 f   shlwapi:shlwapi.dll
+ 0001:00028090       CloseHandle                10029090 f   coredll:COREDLL.dll
+ 0001:000280a0       DeleteCriticalSection      100290a0 f   coredll:COREDLL.dll
+ 0001:000280b0       InitializeCriticalSection  100290b0 f   coredll:COREDLL.dll
+ 0001:000280c0       DisableThreadLibraryCalls  100290c0 f   coredll:COREDLL.dll
+ 0001:000280d0       LocalFree                  100290d0 f   coredll:COREDLL.dll
+ 0001:000280e0       LocalAlloc                 100290e0 f   coredll:COREDLL.dll
+ 0001:000280f0       LocalReAlloc               100290f0 f   coredll:COREDLL.dll
+ 0001:00028100       CompareFileTime            10029100 f   coredll:COREDLL.dll
+ 0001:00028110       GetDateFormatW             10029110 f   coredll:COREDLL.dll
+ 0001:00028120       FileTimeToSystemTime       10029120 f   coredll:COREDLL.dll
+ 0001:00028130       RegCloseKey                10029130 f   coredll:COREDLL.dll
+ 0001:00028140       RegQueryValueExW           10029140 f   coredll:COREDLL.dll
+ 0001:00028150       RegOpenKeyExW              10029150 f   coredll:COREDLL.dll
+ 0001:00028160       GetLastError               10029160 f   coredll:COREDLL.dll
+ 0001:00028170       ShellExecuteEx             10029170 f   coredll:COREDLL.dll
+ 0001:00028180       EnterCriticalSection       10029180 f   coredll:COREDLL.dll
+ 0001:00028190       LeaveCriticalSection       10029190 f   coredll:COREDLL.dll
+ 0001:000281a0       ReleaseMutex               100291a0 f   coredll:COREDLL.dll
+ 0001:000281b0       StringCchPrintfW           100291b0 f   coredll:COREDLL.dll
+ 0001:000281c0       GetTextExtentExPointW      100291c0 f   coredll:COREDLL.dll
+ 0001:000281d0       StringCchCopyW             100291d0 f   coredll:COREDLL.dll
+ 0001:000281e0       StringCchCopyNW            100291e0 f   coredll:COREDLL.dll
+ 0001:000281f0       LCMapStringW               100291f0 f   coredll:COREDLL.dll
+ 0001:00028200       WaitForSingleObject        10029200 f   coredll:COREDLL.dll
+ 0001:00028210       CreateMutexW               10029210 f   coredll:COREDLL.dll
+ 0001:00028220       RegEnumValueW              10029220 f   coredll:COREDLL.dll
+ 0001:00028230       RegistryNotifyCallback     10029230 f   coredll:COREDLL.dll
+ 0001:00028240       CompareStringW             10029240 f   coredll:COREDLL.dll
+ 0001:00028250       RegistryGetString          10029250 f   coredll:COREDLL.dll
+ 0001:00028260       RegistryGetDWORD           10029260 f   coredll:COREDLL.dll
+ 0001:00028270       lstrcmpW                   10029270 f   coredll:COREDLL.dll
+ 0001:00028280       GetLocaleInfoW             10029280 f   coredll:COREDLL.dll
+ 0001:00028290       FreeLibrary                10029290 f   coredll:COREDLL.dll
+ 0001:000282a0       GetProcAddressW            100292a0 f   coredll:COREDLL.dll
+ 0001:000282b0       LoadLibraryW               100292b0 f   coredll:COREDLL.dll
+ 0001:000282c0       StringCchCatW              100292c0 f   coredll:COREDLL.dll
+ 0001:000282d0       GetSystemDefaultLCID       100292d0 f   coredll:COREDLL.dll
+ 0001:000282e0       StringCchLengthW           100292e0 f   coredll:COREDLL.dll
+ 0001:000282f0       RegistryCloseNotification  100292f0 f   coredll:COREDLL.dll
+ 0001:00028300       RegistrySetDWORD           10029300 f   coredll:COREDLL.dll
+ 0001:00028310       GetTickCount               10029310 f   coredll:COREDLL.dll
+ 0001:00028320       StringCchCatNW             10029320 f   coredll:COREDLL.dll
+ 0001:00028330       InterlockedIncrement       10029330 f   coredll:COREDLL.dll
+ 0001:00028340       InterlockedDecrement       10029340 f   coredll:COREDLL.dll
+ 0001:00028350       RegEnumKeyExW              10029350 f   coredll:COREDLL.dll
+ 0001:00028360       CePerfDLLCleanup           10029360 f   coredll:COREDLL.dll
+ 0001:00028370       CePerfDLLSetup             10029370 f   coredll:COREDLL.dll
+ 0001:00028380       EventModify                10029380 f   coredll:COREDLL.dll
+ 0001:00028390       waveOutGetDevCaps          10029390 f   coredll:COREDLL.dll
+ 0001:000283a0       waveOutGetNumDevs          100293a0 f   coredll:COREDLL.dll
+ 0001:000283b0       RegQueryInfoKeyW           100293b0 f   coredll:COREDLL.dll
+ 0001:000283c0       RegSetValueExW             100293c0 f   coredll:COREDLL.dll
+ 0001:000283d0       CreateEventW               100293d0 f   coredll:COREDLL.dll
+ 0001:000283e0       waveOutGetVolume           100293e0 f   coredll:COREDLL.dll
+ 0001:000283f0       waveOutSetVolume           100293f0 f   coredll:COREDLL.dll
+ 0001:00028400       GetFileAttributesW         10029400 f   coredll:COREDLL.dll
+ 0001:00028410       PostMessageW               10029410 f   coredll:COREDLL.dll
+ 0001:00028420       sndPlaySoundW              10029420 f   coredll:COREDLL.dll
+ 0001:00028430       HeapAlloc                  10029430 f   coredll:COREDLL.dll
+ 0001:00028440       HeapFree                   10029440 f   coredll:COREDLL.dll
+ 0001:00028450       DPA_GetPtr                 10029450 f   coredll:COREDLL.dll
+ 0001:00028460       DPA_Search                 10029460 f   coredll:COREDLL.dll
+ 0001:00028470       DPA_InsertPtr              10029470 f   coredll:COREDLL.dll
+ 0001:00028480       DPA_Destroy                10029480 f   coredll:COREDLL.dll
+ 0001:00028490       DPA_CreateEx               10029490 f   coredll:COREDLL.dll
+ 0001:000284a0       DPA_DeletePtr              100294a0 f   coredll:COREDLL.dll
+ 0001:000284b0       StringCbCopyW              100294b0 f   coredll:COREDLL.dll
+ 0001:000284c0       GetCurrentInputLanguage    100294c0 f   coredll:COREDLL.dll
+ 0001:000284d0       __GetUserKData             100294d0 f   coredll:COREDLL.dll
+ 0001:000284e0       SetWindowLongW             100294e0 f   coredll:COREDLL.dll
+ 0001:000284f0       DefWindowProcW             100294f0 f   coredll:COREDLL.dll
+ 0001:00028500       CreateWindowExW            10029500 f   coredll:COREDLL.dll
+ 0001:00028510       RegisterClassW             10029510 f   coredll:COREDLL.dll
+ 0001:00028520       LoadCursorW                10029520 f   coredll:COREDLL.dll
+ 0001:00028530       GetSystemDefaultUILanguage 10029530 f   coredll:COREDLL.dll
+ 0001:00028540       GetUserDefaultUILanguage   10029540 f   coredll:COREDLL.dll
+ 0001:00028550       PeekMessageW               10029550 f   coredll:COREDLL.dll
+ 0001:00028560       GetAsyncKeyState           10029560 f   coredll:COREDLL.dll
+ 0001:00028570       GetMessageSource           10029570 f   coredll:COREDLL.dll
+ 0001:00028580       SystemTimeToFileTime       10029580 f   coredll:COREDLL.dll
+ 0001:00028590       GetSystemTime              10029590 f   coredll:COREDLL.dll
+ 0001:000285a0       LoadStringW                100295a0 f   coredll:COREDLL.dll
+ 0001:000285b0       phoneGetDevCaps            100295b0 f   coredll:COREDLL.dll
+ 0001:000285c0       phoneNegotiateAPIVersion   100295c0 f   coredll:COREDLL.dll
+ 0001:000285d0       lineGetDevCaps             100295d0 f   coredll:COREDLL.dll
+ 0001:000285e0       lineNegotiateAPIVersion    100295e0 f   coredll:COREDLL.dll
+ 0001:000285f0       RegCreateKeyExW            100295f0 f   coredll:COREDLL.dll
+ 0001:00028600       IsDBCSLeadByte             10029600 f   coredll:COREDLL.dll
+ 0001:00028610       SetLastError               10029610 f   coredll:COREDLL.dll
+ 0001:00028620       WideCharToMultiByte        10029620 f   coredll:COREDLL.dll
+ 0001:00028630       MultiByteToWideChar        10029630 f   coredll:COREDLL.dll
+ 0001:00028640       GetSystemDefaultLangID     10029640 f   coredll:COREDLL.dll
+ 0001:00028650       LocalSize                  10029650 f   coredll:COREDLL.dll
+ 0001:00028660       ReportFault                10029660 f   coredll:COREDLL.dll
+ 0001:00028670       StringCchCopyNExW          10029670 f   coredll:COREDLL.dll
+ 0001:00028680       SizeofResource             10029680 f   coredll:COREDLL.dll
+ 0001:00028690       LoadResource               10029690 f   coredll:COREDLL.dll
+ 0001:000286a0       FindResourceW              100296a0 f   coredll:COREDLL.dll
+ 0001:000286b0       StringCbPrintfW            100296b0 f   coredll:COREDLL.dll
+ 0001:000286c0       RegistrySetString          100296c0 f   coredll:COREDLL.dll
+ 0001:000286d0       VerQueryValueW             100296d0 f   coredll:COREDLL.dll
+ 0001:000286e0       GetFileVersionInfoW        100296e0 f   coredll:COREDLL.dll
+ 0001:000286f0       GetFileVersionInfoSizeW    100296f0 f   coredll:COREDLL.dll
+ 0001:00028700       lineShutdown               10029700 f   coredll:COREDLL.dll
+ 0001:00028710       lineClose                  10029710 f   coredll:COREDLL.dll
+ 0001:00028720       lineNegotiateExtVersion    10029720 f   coredll:COREDLL.dll
+ 0001:00028730       lineOpen                   10029730 f   coredll:COREDLL.dll
+ 0001:00028740       lineInitializeEx           10029740 f   coredll:COREDLL.dll
+ 0001:00028750       StringCbCopyNW             10029750 f   coredll:COREDLL.dll
+ 0001:00028760       CreateDirectoryW           10029760 f   coredll:COREDLL.dll
+ 0001:00028770       DeleteFileW                10029770 f   coredll:COREDLL.dll
+ 0001:00028780       SetFileAttributesW         10029780 f   coredll:COREDLL.dll
+ 0001:00028790       RemoveDirectoryW           10029790 f   coredll:COREDLL.dll
+ 0001:000287a0       FindNextFileW              100297a0 f   coredll:COREDLL.dll
+ 0001:000287b0       FindClose                  100297b0 f   coredll:COREDLL.dll
+ 0001:000287c0       FindFirstFileW             100297c0 f   coredll:COREDLL.dll
+ 0001:000287d0       CreateThread               100297d0 f   coredll:COREDLL.dll
+ 0001:000287e0       UnmapViewOfFile            100297e0 f   coredll:COREDLL.dll
+ 0001:000287f0       MapViewOfFile              100297f0 f   coredll:COREDLL.dll
+ 0001:00028800       CreateFileMappingW         10029800 f   coredll:COREDLL.dll
+ 0001:00028810       GetWindowLongW             10029810 f   coredll:COREDLL.dll
+ 0001:00028820       DestroyWindow              10029820 f   coredll:COREDLL.dll
+ 0001:00028830       RegDeleteValueW            10029830 f   coredll:COREDLL.dll
+ 0001:00028840       CeRegTestSetValueW         10029840 f   coredll:COREDLL.dll
+ 0001:00028850       RegistryNotifyWindow       10029850 f   coredll:COREDLL.dll
+ 0001:00028860       SetDevicePower             10029860 f   coredll:COREDLL.dll
+ 0001:00028870       GetDevicePower             10029870 f   coredll:COREDLL.dll
+ 0001:00028880       ReadFile                   10029880 f   coredll:COREDLL.dll
+ 0001:00028890       WriteFile                  10029890 f   coredll:COREDLL.dll
+ 0001:000288a0       GetFileSize                100298a0 f   coredll:COREDLL.dll
+ 0001:000288b0       SetFilePointer             100298b0 f   coredll:COREDLL.dll
+ 0001:000288c0       CreateFileW                100298c0 f   coredll:COREDLL.dll
+ 0001:000288d0       GetSystemInfo              100298d0 f   coredll:COREDLL.dll
+ 0001:000288e0       SetEndOfFile               100298e0 f   coredll:COREDLL.dll
+ 0001:000288f0       FormatMessageW             100298f0 f   coredll:COREDLL.dll
+ 0001:00028900       GetModuleFileNameW         10029900 f   coredll:COREDLL.dll
+ 0001:00028910       OpenProcess                10029910 f   coredll:COREDLL.dll
+ 0001:00028920       phoneShutdown              10029920 f   coredll:COREDLL.dll
+ 0001:00028930       phoneClose                 10029930 f   coredll:COREDLL.dll
+ 0001:00028940       phoneOpen                  10029940 f   coredll:COREDLL.dll
+ 0001:00028950       phoneNegotiateExtVersion   10029950 f   coredll:COREDLL.dll
+ 0001:00028960       phoneInitializeEx          10029960 f   coredll:COREDLL.dll
+ 0001:00028970       phoneGetVolume             10029970 f   coredll:COREDLL.dll
+ 0001:00028980       phoneSetVolume             10029980 f   coredll:COREDLL.dll
+ 0001:00028990       GetStringTypeExW           10029990 f   coredll:COREDLL.dll
+ 0001:000289a0       OpenEventW                 100299a0 f   coredll:COREDLL.dll
+ 0001:000289b0       WaitForAPIReady            100299b0 f   coredll:COREDLL.dll
+ 0001:000289c0       CeLogData                  100299c0 f   coredll:COREDLL.dll
+ 0001:000289d0       CeMountDBVol               100299d0 f   coredll:COREDLL.dll
+ 0001:000289e0       CeUnmountDBVol             100299e0 f   coredll:COREDLL.dll
+ 0001:000289f0       CeMountDBVolEx             100299f0 f   coredll:COREDLL.dll
+ 0001:00028a00       LoadIconW                  10029a00 f   coredll:COREDLL.dll
+ 0001:00028a10       LoadBitmapW                10029a10 f   coredll:COREDLL.dll
+ 0001:00028a20       LoadLibraryExW             10029a20 f   coredll:COREDLL.dll
+ 0001:00028a30       DeviceIoControl            10029a30 f   coredll:COREDLL.dll
+ 0001:00028a40       SHGetSpecialFolderPath     10029a40 f   coredll:COREDLL.dll
+ 0001:00028a50       StringCbLengthW            10029a50 f   coredll:COREDLL.dll
+ 0001:00028a60       NLedGetDeviceInfo          10029a60 f   coredll:COREDLL.dll
+ 0001:00028a70       NLedSetDevice              10029a70 f   coredll:COREDLL.dll
+ 0001:00028a80       CeClearUserNotification    10029a80 f   coredll:COREDLL.dll
+ 0001:00028a90       WaitForMultipleObjects     10029a90 f   coredll:COREDLL.dll
+ 0001:00028aa0       SystemIdleTimerReset       10029aa0 f   coredll:COREDLL.dll
+ 0001:00028ab0       CeSetUserNotificationEx    10029ab0 f   coredll:COREDLL.dll
+ 0001:00028ac0       GetLocalTime               10029ac0 f   coredll:COREDLL.dll
+ 0001:00028ad0       CeCreateDatabaseWithProps  10029ad0 f   coredll:COREDLL.dll
+ 0001:00028bd8       _DllMainCRTStartup         10029bd8 f   corelib0:pegdmain.obj
+ 0001:00028c04       __GSHandlerCheckCommon     10029c04 f   corelib0:gshandler.obj
+ 0001:00028c40       __GSHandlerCheck           10029c40 f   corelib0:gshandler.obj
+ 0001:00028c60       __security_init_cookie     10029c60 f   corelib0:seccinit.obj
+ 0001:00028cac       __security_check_cookie    10029cac f   corelib0:armsecgs.obj
+ 0001:00028cbc       __gsfailure                10029cbc     corelib0:armsecgs.obj
+ 0001:00028d08       _onexit                    10029d08 f   corelib0:onexit.obj
+ 0001:00028e8c       atexit                     10029e8c f   corelib0:onexit.obj
+ 0001:00028f8c       _cexit                     10029f8c f   corelib0:cexit.obj
+ 0001:00028f9c       _initterm                  10029f9c f   corelib0:crt0dat.obj
+ 0001:00028fc8       _cinit                     10029fc8 f   corelib0:crt0dat.obj
+ 0001:00029028       __crt_ExitProcess          1002a028 f   corelib0:exitproc_proxy.obj
+ 0001:00029034       wcslen                     1002a034 f   corelib1:COREDLL.dll
+ 0001:00029044       _wtol                      1002a044 f   corelib1:COREDLL.dll
+ 0001:00029054       memcpy                     1002a054 f   corelib1:COREDLL.dll
+ 0001:00029064       _wcsicmp                   1002a064 f   corelib1:COREDLL.dll
+ 0001:00029074       memcmp                     1002a074 f   corelib1:COREDLL.dll
+ 0001:00029084       wcscmp                     1002a084 f   corelib1:COREDLL.dll
+ 0001:00029094       swprintf_s                 1002a094 f   corelib1:COREDLL.dll
+ 0001:000290a4       wcscpy_s                   1002a0a4 f   corelib1:COREDLL.dll
+ 0001:000290b4       memset                     1002a0b4 f   corelib1:COREDLL.dll
+ 0001:000290c4       wcschr                     1002a0c4 f   corelib1:COREDLL.dll
+ 0001:000290d4       wcspbrk                    1002a0d4 f   corelib1:COREDLL.dll
+ 0001:000290e4       wcsspn                     1002a0e4 f   corelib1:COREDLL.dll
+ 0001:000290f4       wcscspn                    1002a0f4 f   corelib1:COREDLL.dll
+ 0001:00029104       wcstol                     1002a104 f   corelib1:COREDLL.dll
+ 0001:00029114       iswctype                   1002a114 f   corelib1:COREDLL.dll
+ 0001:00029124       wcsncmp                    1002a124 f   corelib1:COREDLL.dll
+ 0001:00029134       wcstoul                    1002a134 f   corelib1:COREDLL.dll
+ 0001:00029144       ??3@YAXPAX@Z               1002a144 f   corelib1:COREDLL.dll
+ 0001:00029154       ??2@YAPAXI@Z               1002a154 f   corelib1:COREDLL.dll
+ 0001:00029164       __C_specific_handler       1002a164 f   corelib1:COREDLL.dll
+ 0001:00029174       wcsrchr                    1002a174 f   corelib1:COREDLL.dll
+ 0001:00029184       wcsstr                     1002a184 f   corelib1:COREDLL.dll
+ 0001:00029194       _wcsnicmp                  1002a194 f   corelib1:COREDLL.dll
+ 0001:000291a4       _ultow_s                   1002a1a4 f   corelib1:COREDLL.dll
+ 0001:000291b4       wcstok_s                   1002a1b4 f   corelib1:COREDLL.dll
+ 0001:000291c4       memmove                    1002a1c4 f   corelib1:COREDLL.dll
+ 0001:000291d4       toupper                    1002a1d4 f   corelib1:COREDLL.dll
+ 0001:000291e4       strncpy_s                  1002a1e4 f   corelib1:COREDLL.dll
+ 0001:000291f4       strlen                     1002a1f4 f   corelib1:COREDLL.dll
+ 0001:00029204       towupper                   1002a204 f   corelib1:COREDLL.dll
+ 0001:00029214       _wcsdup                    1002a214 f   corelib1:COREDLL.dll
+ 0001:00029224       qsort                      1002a224 f   corelib1:COREDLL.dll
+ 0001:00029234       _wcsupr_s                  1002a234 f   corelib1:COREDLL.dll
+ 0001:00029244       _wtoi                      1002a244 f   corelib1:COREDLL.dll
+ 0001:00029254       _XcptFilter                1002a254 f   corelib1:COREDLL.dll
+ 0001:00029264       __security_gen_cookie2     1002a264 f   corelib1:COREDLL.dll
+ 0001:00029274       __report_gsfailure         1002a274 f   corelib1:COREDLL.dll
+ 0001:00029284       free                       1002a284 f   corelib1:COREDLL.dll
+ 0001:00029294       malloc                     1002a294 f   corelib1:COREDLL.dll
+ 0001:000292a4       realloc                    1002a2a4 f   corelib1:COREDLL.dll
+ 0001:000292b4       _msize                     1002a2b4 f   corelib1:COREDLL.dll
+ 0001:000292c4       InterlockedCompareExchange 1002a2c4 f   coredll:COREDLL.dll
+ 0001:000292d4       InterlockedExchange        1002a2d4 f   coredll:COREDLL.dll
+ 0001:000292e4       TerminateProcess           1002a2e4 f   coredll:COREDLL.dll
+ 0001:000294a8       ??__Fcs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@YAXXZ 1002a4a8 f i ossvcs_ALL:eventsnd.obj
+ 0001:00029704       __IMPORT_DESCRIPTOR_ole32  1002a704     ole32:ole32.dll
+ 0001:00029718       __IMPORT_DESCRIPTOR_shlwapi 1002a718     shlwapi:shlwapi.dll
+ 0001:0002972c       __IMPORT_DESCRIPTOR_COREDLL 1002a72c     coredll:COREDLL.dll
+ 0001:00029740       __NULL_IMPORT_DESCRIPTOR   1002a740     ole32:ole32.dll
+ 0002:00000000       __imp_RegistrySetString    1002c000     coredll:COREDLL.dll
+ 0002:00000004       __imp_InterlockedExchange  1002c004     coredll:COREDLL.dll
+ 0002:00000008       __imp_InterlockedCompareExchange 1002c008     coredll:COREDLL.dll
+ 0002:0000000c       __imp__msize               1002c00c     corelib1:COREDLL.dll
+ 0002:00000010       __imp_realloc              1002c010     corelib1:COREDLL.dll
+ 0002:00000014       __imp_malloc               1002c014     corelib1:COREDLL.dll
+ 0002:00000018       __imp_free                 1002c018     corelib1:COREDLL.dll
+ 0002:0000001c       __imp___report_gsfailure   1002c01c     corelib1:COREDLL.dll
+ 0002:00000020       __imp_CloseHandle          1002c020     coredll:COREDLL.dll
+ 0002:00000024       __imp_DeleteCriticalSection 1002c024     coredll:COREDLL.dll
+ 0002:00000028       __imp_InitializeCriticalSection 1002c028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_DisableThreadLibraryCalls 1002c02c     coredll:COREDLL.dll
+ 0002:00000030       __imp_LocalFree            1002c030     coredll:COREDLL.dll
+ 0002:00000034       __imp_LocalAlloc           1002c034     coredll:COREDLL.dll
+ 0002:00000038       __imp_LocalReAlloc         1002c038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_CompareFileTime      1002c03c     coredll:COREDLL.dll
+ 0002:00000040       __imp_GetDateFormatW       1002c040     coredll:COREDLL.dll
+ 0002:00000044       __imp_FileTimeToSystemTime 1002c044     coredll:COREDLL.dll
+ 0002:00000048       __imp_RegCloseKey          1002c048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_RegQueryValueExW     1002c04c     coredll:COREDLL.dll
+ 0002:00000050       __imp_RegOpenKeyExW        1002c050     coredll:COREDLL.dll
+ 0002:00000054       __imp_GetLastError         1002c054     coredll:COREDLL.dll
+ 0002:00000058       __imp_ShellExecuteEx       1002c058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_EnterCriticalSection 1002c05c     coredll:COREDLL.dll
+ 0002:00000060       __imp_LeaveCriticalSection 1002c060     coredll:COREDLL.dll
+ 0002:00000064       __imp_ReleaseMutex         1002c064     coredll:COREDLL.dll
+ 0002:00000068       __imp_StringCchPrintfW     1002c068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_GetTextExtentExPointW 1002c06c     coredll:COREDLL.dll
+ 0002:00000070       __imp_StringCchCopyW       1002c070     coredll:COREDLL.dll
+ 0002:00000074       __imp_StringCchCopyNW      1002c074     coredll:COREDLL.dll
+ 0002:00000078       __imp_LCMapStringW         1002c078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_WaitForSingleObject  1002c07c     coredll:COREDLL.dll
+ 0002:00000080       __imp_CreateMutexW         1002c080     coredll:COREDLL.dll
+ 0002:00000084       __imp_RegEnumValueW        1002c084     coredll:COREDLL.dll
+ 0002:00000088       __imp_RegistryNotifyCallback 1002c088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_CompareStringW       1002c08c     coredll:COREDLL.dll
+ 0002:00000090       __imp_RegistryGetString    1002c090     coredll:COREDLL.dll
+ 0002:00000094       __imp_RegistryGetDWORD     1002c094     coredll:COREDLL.dll
+ 0002:00000098       __imp_lstrcmpW             1002c098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_GetLocaleInfoW       1002c09c     coredll:COREDLL.dll
+ 0002:000000a0       __imp_FreeLibrary          1002c0a0     coredll:COREDLL.dll
+ 0002:000000a4       __imp_GetProcAddressW      1002c0a4     coredll:COREDLL.dll
+ 0002:000000a8       __imp_LoadLibraryW         1002c0a8     coredll:COREDLL.dll
+ 0002:000000ac       __imp_StringCchCatW        1002c0ac     coredll:COREDLL.dll
+ 0002:000000b0       __imp_GetSystemDefaultLCID 1002c0b0     coredll:COREDLL.dll
+ 0002:000000b4       __imp_StringCchLengthW     1002c0b4     coredll:COREDLL.dll
+ 0002:000000b8       __imp_RegistryCloseNotification 1002c0b8     coredll:COREDLL.dll
+ 0002:000000bc       __imp_RegistrySetDWORD     1002c0bc     coredll:COREDLL.dll
+ 0002:000000c0       __imp_GetTickCount         1002c0c0     coredll:COREDLL.dll
+ 0002:000000c4       __imp_StringCchCatNW       1002c0c4     coredll:COREDLL.dll
+ 0002:000000c8       __imp_InterlockedIncrement 1002c0c8     coredll:COREDLL.dll
+ 0002:000000cc       __imp_InterlockedDecrement 1002c0cc     coredll:COREDLL.dll
+ 0002:000000d0       __imp_RegEnumKeyExW        1002c0d0     coredll:COREDLL.dll
+ 0002:000000d4       __imp_CePerfDLLCleanup     1002c0d4     coredll:COREDLL.dll
+ 0002:000000d8       __imp_CePerfDLLSetup       1002c0d8     coredll:COREDLL.dll
+ 0002:000000dc       __imp_EventModify          1002c0dc     coredll:COREDLL.dll
+ 0002:000000e0       __imp_waveOutGetDevCaps    1002c0e0     coredll:COREDLL.dll
+ 0002:000000e4       __imp_waveOutGetNumDevs    1002c0e4     coredll:COREDLL.dll
+ 0002:000000e8       __imp_RegQueryInfoKeyW     1002c0e8     coredll:COREDLL.dll
+ 0002:000000ec       __imp_RegSetValueExW       1002c0ec     coredll:COREDLL.dll
+ 0002:000000f0       __imp_CreateEventW         1002c0f0     coredll:COREDLL.dll
+ 0002:000000f4       __imp_waveOutGetVolume     1002c0f4     coredll:COREDLL.dll
+ 0002:000000f8       __imp_waveOutSetVolume     1002c0f8     coredll:COREDLL.dll
+ 0002:000000fc       __imp_GetFileAttributesW   1002c0fc     coredll:COREDLL.dll
+ 0002:00000100       __imp_PostMessageW         1002c100     coredll:COREDLL.dll
+ 0002:00000104       __imp_sndPlaySoundW        1002c104     coredll:COREDLL.dll
+ 0002:00000108       __imp_HeapAlloc            1002c108     coredll:COREDLL.dll
+ 0002:0000010c       __imp_HeapFree             1002c10c     coredll:COREDLL.dll
+ 0002:00000110       __imp_DPA_GetPtr           1002c110     coredll:COREDLL.dll
+ 0002:00000114       __imp_DPA_Search           1002c114     coredll:COREDLL.dll
+ 0002:00000118       __imp_DPA_InsertPtr        1002c118     coredll:COREDLL.dll
+ 0002:0000011c       __imp_DPA_Destroy          1002c11c     coredll:COREDLL.dll
+ 0002:00000120       __imp_DPA_CreateEx         1002c120     coredll:COREDLL.dll
+ 0002:00000124       __imp_DPA_DeletePtr        1002c124     coredll:COREDLL.dll
+ 0002:00000128       __imp_StringCbCopyW        1002c128     coredll:COREDLL.dll
+ 0002:0000012c       __imp_GetCurrentInputLanguage 1002c12c     coredll:COREDLL.dll
+ 0002:00000130       __imp___GetUserKData       1002c130     coredll:COREDLL.dll
+ 0002:00000134       __imp_SetWindowLongW       1002c134     coredll:COREDLL.dll
+ 0002:00000138       __imp_DefWindowProcW       1002c138     coredll:COREDLL.dll
+ 0002:0000013c       __imp_CreateWindowExW      1002c13c     coredll:COREDLL.dll
+ 0002:00000140       __imp_RegisterClassW       1002c140     coredll:COREDLL.dll
+ 0002:00000144       __imp_LoadCursorW          1002c144     coredll:COREDLL.dll
+ 0002:00000148       __imp_GetSystemDefaultUILanguage 1002c148     coredll:COREDLL.dll
+ 0002:0000014c       __imp_GetUserDefaultUILanguage 1002c14c     coredll:COREDLL.dll
+ 0002:00000150       __imp_PeekMessageW         1002c150     coredll:COREDLL.dll
+ 0002:00000154       __imp_GetAsyncKeyState     1002c154     coredll:COREDLL.dll
+ 0002:00000158       __imp_GetMessageSource     1002c158     coredll:COREDLL.dll
+ 0002:0000015c       __imp_SystemTimeToFileTime 1002c15c     coredll:COREDLL.dll
+ 0002:00000160       __imp_GetSystemTime        1002c160     coredll:COREDLL.dll
+ 0002:00000164       __imp_LoadStringW          1002c164     coredll:COREDLL.dll
+ 0002:00000168       __imp_phoneGetDevCaps      1002c168     coredll:COREDLL.dll
+ 0002:0000016c       __imp_phoneNegotiateAPIVersion 1002c16c     coredll:COREDLL.dll
+ 0002:00000170       __imp_lineGetDevCaps       1002c170     coredll:COREDLL.dll
+ 0002:00000174       __imp_lineNegotiateAPIVersion 1002c174     coredll:COREDLL.dll
+ 0002:00000178       __imp_RegCreateKeyExW      1002c178     coredll:COREDLL.dll
+ 0002:0000017c       __imp_IsDBCSLeadByte       1002c17c     coredll:COREDLL.dll
+ 0002:00000180       __imp_SetLastError         1002c180     coredll:COREDLL.dll
+ 0002:00000184       __imp_WideCharToMultiByte  1002c184     coredll:COREDLL.dll
+ 0002:00000188       __imp_MultiByteToWideChar  1002c188     coredll:COREDLL.dll
+ 0002:0000018c       __imp_GetSystemDefaultLangID 1002c18c     coredll:COREDLL.dll
+ 0002:00000190       __imp_LocalSize            1002c190     coredll:COREDLL.dll
+ 0002:00000194       __imp_ReportFault          1002c194     coredll:COREDLL.dll
+ 0002:00000198       __imp_StringCchCopyNExW    1002c198     coredll:COREDLL.dll
+ 0002:0000019c       __imp_SizeofResource       1002c19c     coredll:COREDLL.dll
+ 0002:000001a0       __imp_LoadResource         1002c1a0     coredll:COREDLL.dll
+ 0002:000001a4       __imp_FindResourceW        1002c1a4     coredll:COREDLL.dll
+ 0002:000001a8       __imp_StringCbPrintfW      1002c1a8     coredll:COREDLL.dll
+ 0002:000001ac       __imp_TerminateProcess     1002c1ac     coredll:COREDLL.dll
+ 0002:000001b0       __imp_VerQueryValueW       1002c1b0     coredll:COREDLL.dll
+ 0002:000001b4       __imp_GetFileVersionInfoW  1002c1b4     coredll:COREDLL.dll
+ 0002:000001b8       __imp_GetFileVersionInfoSizeW 1002c1b8     coredll:COREDLL.dll
+ 0002:000001bc       __imp_lineShutdown         1002c1bc     coredll:COREDLL.dll
+ 0002:000001c0       __imp_lineClose            1002c1c0     coredll:COREDLL.dll
+ 0002:000001c4       __imp_lineNegotiateExtVersion 1002c1c4     coredll:COREDLL.dll
+ 0002:000001c8       __imp_lineOpen             1002c1c8     coredll:COREDLL.dll
+ 0002:000001cc       __imp_lineInitializeEx     1002c1cc     coredll:COREDLL.dll
+ 0002:000001d0       __imp_StringCbCopyNW       1002c1d0     coredll:COREDLL.dll
+ 0002:000001d4       __imp_CreateDirectoryW     1002c1d4     coredll:COREDLL.dll
+ 0002:000001d8       __imp_DeleteFileW          1002c1d8     coredll:COREDLL.dll
+ 0002:000001dc       __imp_SetFileAttributesW   1002c1dc     coredll:COREDLL.dll
+ 0002:000001e0       __imp_RemoveDirectoryW     1002c1e0     coredll:COREDLL.dll
+ 0002:000001e4       __imp_FindNextFileW        1002c1e4     coredll:COREDLL.dll
+ 0002:000001e8       __imp_FindClose            1002c1e8     coredll:COREDLL.dll
+ 0002:000001ec       __imp_FindFirstFileW       1002c1ec     coredll:COREDLL.dll
+ 0002:000001f0       __imp_CreateThread         1002c1f0     coredll:COREDLL.dll
+ 0002:000001f4       __imp_UnmapViewOfFile      1002c1f4     coredll:COREDLL.dll
+ 0002:000001f8       __imp_MapViewOfFile        1002c1f8     coredll:COREDLL.dll
+ 0002:000001fc       __imp_CreateFileMappingW   1002c1fc     coredll:COREDLL.dll
+ 0002:00000200       __imp_GetWindowLongW       1002c200     coredll:COREDLL.dll
+ 0002:00000204       __imp_DestroyWindow        1002c204     coredll:COREDLL.dll
+ 0002:00000208       __imp_RegDeleteValueW      1002c208     coredll:COREDLL.dll
+ 0002:0000020c       __imp_CeRegTestSetValueW   1002c20c     coredll:COREDLL.dll
+ 0002:00000210       __imp_RegistryNotifyWindow 1002c210     coredll:COREDLL.dll
+ 0002:00000214       __imp_SetDevicePower       1002c214     coredll:COREDLL.dll
+ 0002:00000218       __imp_GetDevicePower       1002c218     coredll:COREDLL.dll
+ 0002:0000021c       __imp_ReadFile             1002c21c     coredll:COREDLL.dll
+ 0002:00000220       __imp_WriteFile            1002c220     coredll:COREDLL.dll
+ 0002:00000224       __imp_GetFileSize          1002c224     coredll:COREDLL.dll
+ 0002:00000228       __imp_SetFilePointer       1002c228     coredll:COREDLL.dll
+ 0002:0000022c       __imp_CreateFileW          1002c22c     coredll:COREDLL.dll
+ 0002:00000230       __imp_GetSystemInfo        1002c230     coredll:COREDLL.dll
+ 0002:00000234       __imp_SetEndOfFile         1002c234     coredll:COREDLL.dll
+ 0002:00000238       __imp_FormatMessageW       1002c238     coredll:COREDLL.dll
+ 0002:0000023c       __imp_GetModuleFileNameW   1002c23c     coredll:COREDLL.dll
+ 0002:00000240       __imp_OpenProcess          1002c240     coredll:COREDLL.dll
+ 0002:00000244       __imp_phoneShutdown        1002c244     coredll:COREDLL.dll
+ 0002:00000248       __imp_phoneClose           1002c248     coredll:COREDLL.dll
+ 0002:0000024c       __imp_phoneOpen            1002c24c     coredll:COREDLL.dll
+ 0002:00000250       __imp_phoneNegotiateExtVersion 1002c250     coredll:COREDLL.dll
+ 0002:00000254       __imp_phoneInitializeEx    1002c254     coredll:COREDLL.dll
+ 0002:00000258       __imp_phoneGetVolume       1002c258     coredll:COREDLL.dll
+ 0002:0000025c       __imp_phoneSetVolume       1002c25c     coredll:COREDLL.dll
+ 0002:00000260       __imp_GetStringTypeExW     1002c260     coredll:COREDLL.dll
+ 0002:00000264       __imp_OpenEventW           1002c264     coredll:COREDLL.dll
+ 0002:00000268       __imp_WaitForAPIReady      1002c268     coredll:COREDLL.dll
+ 0002:0000026c       __imp_CeLogData            1002c26c     coredll:COREDLL.dll
+ 0002:00000270       __imp_CeMountDBVol         1002c270     coredll:COREDLL.dll
+ 0002:00000274       __imp_CeUnmountDBVol       1002c274     coredll:COREDLL.dll
+ 0002:00000278       __imp_CeMountDBVolEx       1002c278     coredll:COREDLL.dll
+ 0002:0000027c       __imp_LoadIconW            1002c27c     coredll:COREDLL.dll
+ 0002:00000280       __imp_LoadBitmapW          1002c280     coredll:COREDLL.dll
+ 0002:00000284       __imp_LoadLibraryExW       1002c284     coredll:COREDLL.dll
+ 0002:00000288       __imp_DeviceIoControl      1002c288     coredll:COREDLL.dll
+ 0002:0000028c       __imp_SHGetSpecialFolderPath 1002c28c     coredll:COREDLL.dll
+ 0002:00000290       __imp_StringCbLengthW      1002c290     coredll:COREDLL.dll
+ 0002:00000294       __imp_NLedGetDeviceInfo    1002c294     coredll:COREDLL.dll
+ 0002:00000298       __imp_NLedSetDevice        1002c298     coredll:COREDLL.dll
+ 0002:0000029c       __imp_CeClearUserNotification 1002c29c     coredll:COREDLL.dll
+ 0002:000002a0       __imp_WaitForMultipleObjects 1002c2a0     coredll:COREDLL.dll
+ 0002:000002a4       __imp_SystemIdleTimerReset 1002c2a4     coredll:COREDLL.dll
+ 0002:000002a8       __imp_CeSetUserNotificationEx 1002c2a8     coredll:COREDLL.dll
+ 0002:000002ac       __imp_GetLocalTime         1002c2ac     coredll:COREDLL.dll
+ 0002:000002b0       __imp_CeCreateDatabaseWithProps 1002c2b0     coredll:COREDLL.dll
+ 0002:000002b4       __imp_wcslen               1002c2b4     corelib1:COREDLL.dll
+ 0002:000002b8       __imp__wtol                1002c2b8     corelib1:COREDLL.dll
+ 0002:000002bc       __imp_memcpy               1002c2bc     corelib1:COREDLL.dll
+ 0002:000002c0       __imp__wcsicmp             1002c2c0     corelib1:COREDLL.dll
+ 0002:000002c4       __imp_memcmp               1002c2c4     corelib1:COREDLL.dll
+ 0002:000002c8       __imp_wcscmp               1002c2c8     corelib1:COREDLL.dll
+ 0002:000002cc       __imp_swprintf_s           1002c2cc     corelib1:COREDLL.dll
+ 0002:000002d0       __imp_wcscpy_s             1002c2d0     corelib1:COREDLL.dll
+ 0002:000002d4       __imp_memset               1002c2d4     corelib1:COREDLL.dll
+ 0002:000002d8       __imp___rt_udiv            1002c2d8     corelib1:COREDLL.dll
+ 0002:000002dc       __imp_wcschr               1002c2dc     corelib1:COREDLL.dll
+ 0002:000002e0       __imp_wcspbrk              1002c2e0     corelib1:COREDLL.dll
+ 0002:000002e4       __imp_wcsspn               1002c2e4     corelib1:COREDLL.dll
+ 0002:000002e8       __imp_wcscspn              1002c2e8     corelib1:COREDLL.dll
+ 0002:000002ec       __imp_wcstol               1002c2ec     corelib1:COREDLL.dll
+ 0002:000002f0       __imp_iswctype             1002c2f0     corelib1:COREDLL.dll
+ 0002:000002f4       __imp_wcsncmp              1002c2f4     corelib1:COREDLL.dll
+ 0002:000002f8       __imp_wcstoul              1002c2f8     corelib1:COREDLL.dll
+ 0002:000002fc       __imp_??3@YAXPAX@Z         1002c2fc     corelib1:COREDLL.dll
+ 0002:00000300       __imp_??2@YAPAXI@Z         1002c300     corelib1:COREDLL.dll
+ 0002:00000304       __imp___C_specific_handler 1002c304     corelib1:COREDLL.dll
+ 0002:00000308       __imp_wcsrchr              1002c308     corelib1:COREDLL.dll
+ 0002:0000030c       __imp_wcsstr               1002c30c     corelib1:COREDLL.dll
+ 0002:00000310       __imp__wcsnicmp            1002c310     corelib1:COREDLL.dll
+ 0002:00000314       __imp__ultow_s             1002c314     corelib1:COREDLL.dll
+ 0002:00000318       __imp_wcstok_s             1002c318     corelib1:COREDLL.dll
+ 0002:0000031c       __imp_memmove              1002c31c     corelib1:COREDLL.dll
+ 0002:00000320       __imp_toupper              1002c320     corelib1:COREDLL.dll
+ 0002:00000324       __imp_strncpy_s            1002c324     corelib1:COREDLL.dll
+ 0002:00000328       __imp_strlen               1002c328     corelib1:COREDLL.dll
+ 0002:0000032c       __imp_towupper             1002c32c     corelib1:COREDLL.dll
+ 0002:00000330       __imp__wcsdup              1002c330     corelib1:COREDLL.dll
+ 0002:00000334       __imp___rt_udiv64by64      1002c334     corelib1:COREDLL.dll
+ 0002:00000338       __imp_qsort                1002c338     corelib1:COREDLL.dll
+ 0002:0000033c       __imp__wcsupr_s            1002c33c     corelib1:COREDLL.dll
+ 0002:00000340       __imp__wtoi                1002c340     corelib1:COREDLL.dll
+ 0002:00000344       __imp__XcptFilter          1002c344     corelib1:COREDLL.dll
+ 0002:00000348       __imp___security_gen_cookie2 1002c348     corelib1:COREDLL.dll
+ 0002:0000034c       \177COREDLL_NULL_THUNK_DATA 1002c34c     coredll:COREDLL.dll
+ 0002:00000350       __imp_CLSIDFromString      1002c350     ole32:ole32.dll
+ 0002:00000354       __imp_CoUninitialize       1002c354     ole32:ole32.dll
+ 0002:00000358       __imp_CoInitializeEx       1002c358     ole32:ole32.dll
+ 0002:0000035c       __imp_CoCreateInstance     1002c35c     ole32:ole32.dll
+ 0002:00000360       \177ole32_NULL_THUNK_DATA  1002c360     ole32:ole32.dll
+ 0002:00000364       __imp_PathFindExtensionW   1002c364     shlwapi:shlwapi.dll
+ 0002:00000368       __imp_PathMatchSpecW       1002c368     shlwapi:shlwapi.dll
+ 0002:0000036c       \177shlwapi_NULL_THUNK_DATA 1002c36c     shlwapi:shlwapi.dll
+ 0002:00000370       ?gc_szMappingMutex@@3PBGB  1002c370     ossvcs_ALL:phnumutil.obj
+ 0002:00000374       ?gc_cmsMutexTimeout@@3KA   1002c374     ossvcs_ALL:phnumutil.obj
+ 0002:00000378       ?g_fReadSMFMatchTypeFromRegistry@@3HA 1002c378     ossvcs_ALL:phnumutil.obj
+ 0002:0000037c       ?g_iCCDNextRequest@@3KA    1002c37c     ossvcs_ALL:phnumutil.obj
+ 0002:00000380       ?c_rgszECallListKeys@@3PAPBGA 1002c380     ossvcs_ALL:phnumutil.obj
+ 0002:00000388       ?g_iSetChgID@@3IA          1002c388     ossvcs_ALL:phnumutil.obj
+ 0002:0000038c       ?g_iSmartFilterSetChgID@@3IA 1002c38c     ossvcs_ALL:phnumutil.obj
+ 0002:000003d0       ?ghEventSoundPerfSession@@3PAXA 1002c3d0     ossvcs_ALL:eventsndperf.obj
+ 0002:000003d4       ?CASSERT@@3HA              1002c3d4     ossvcs_ALL:eventsndperf.obj
+ 0002:000003d8       ?g_rgPerfItems@@3PAU_CEPERF_BASIC_ITEM_DESCRIPTOR@@A 1002c3d8     ossvcs_ALL:eventsndperf.obj
+ 0002:00000528       ?g_mpUIVolumeToWaveVolume@@3PAKA 1002c528     ossvcs_ALL:eventsnd.obj
+ 0002:0000062c       ?g_langid@@3GA             1002c62c     ossvcs_ALL:altlang.obj
+ 0002:00000630       ?g_clsid@@3U_GUID@@A       1002c630     ossvcs_ALL:EventSndConfig.obj
+ 0002:00000640       ?m_pszStatStoreWorkerWindowClass@CStatStore@@1PBGB 1002c640     ossvcs_ALL:statstor2.obj
+ 0002:0000069c       ?g_hDllOverride@@3PAUHINSTANCE__@@A 1002c69c     ossvcs_ALL:bmphelpr.obj
+ 0002:000006a0       ?g_dwIdBase@@3KA           1002c6a0     ossvcs_ALL:bmphelpr.obj
+ 0002:000006a4       ?g_fShouldStopOnAssert@@3HA 1002c6a4     ossvcs_ALL:ehm.obj
+ 0002:000006a8       ?PSZ_NOTIFICATIONS_DEFAULT@@3PBGB 1002c6a8     ossvcs_ALL:vibrate.obj
+ 0002:000006ac       ?PSZ_LED_REF_COUNT@@3PBGB  1002c6ac     ossvcs_ALL:vibrate.obj
+ 0002:000006e8       __security_cookie          1002c6e8     corelib0:seccinit.obj
+ 0002:000006ec       __security_cookie_complement 1002c6ec     corelib0:seccinit.obj
+ 0002:000006f0       ?g_csDbVol@@3UCRITICAL_SECTION@@A 1002c6f0     ossvcs_ALL:main.obj
+ 0002:00000704       ?g_csOssvcs@@3UCRITICAL_SECTION@@A 1002c704     ossvcs_ALL:main.obj
+ 0002:00000718       ?cs_DRMAPI@@3UCRITICAL_SECTION@@A 1002c718     ossvcs_ALL:main.obj
+ 0002:00000738       ?g_dwSMFMatchType@@3KA     1002c738     ossvcs_ALL:phnumutil.obj
+ 0002:00000740       ?g_szEmergencyNumberList@@3PAGA 1002c740     ossvcs_ALL:phnumutil.obj
+ 0002:00000948       ?g_rghRegNotifyECallList@@3PAPAUHREGNOTIFY__@@A 1002c948     ossvcs_ALL:phnumutil.obj
+ 0002:00000960       ?g_hRegNotifyCCD@@3PAUHREGNOTIFY__@@A 1002c960     ossvcs_ALL:phnumutil.obj
+ 0002:00000964       ?g_dwPhoneFlags2@@3KA      1002c964     ossvcs_ALL:phnumutil.obj
+ 0002:000009a0       ?g_rgNoMatchesTranslations@@3PAGA 1002c9a0     ossvcs_ALL:phnumutil.obj
+ 0002:00000ba4       ?g_hMappingMutex@@3PAXA    1002cba4     ossvcs_ALL:phnumutil.obj
+ 0002:00000ba8       ?g_iCCDIgnoreRequest@@3KA  1002cba8     ossvcs_ALL:phnumutil.obj
+ 0002:00000bac       ?g_hRegNotifyKeyMaps@@3PAUHREGNOTIFY__@@A 1002cbac     ossvcs_ALL:phnumutil.obj
+ 0002:00000bb0       ?g_hRegNotifyInputLang@@3PAUHREGNOTIFY__@@A 1002cbb0     ossvcs_ALL:phnumutil.obj
+ 0002:00000bb4       ?g_hRegNotifyLangMaps@@3PAUHREGNOTIFY__@@A 1002cbb4     ossvcs_ALL:phnumutil.obj
+ 0002:00000bb8       ?g_chWildCard@@3GA         1002cbb8     ossvcs_ALL:phnumutil.obj
+ 0002:00000bbc       ?g_chSpaceKeyHW@@3GA       1002cbbc     ossvcs_ALL:phnumutil.obj
+ 0002:00000bc0       ?g_chSpaceKeyFW@@3GA       1002cbc0     ossvcs_ALL:phnumutil.obj
+ 0002:00000bc4       ?g_rgCharToPhoneTable@@3PBEB 1002cbc4     ossvcs_ALL:phnumutil.obj
+ 0002:00000bc8       ?g_rgCharToCharTable@@3PBGB 1002cbc8     ossvcs_ALL:phnumutil.obj
+ 0002:00000cd8       ?g_scsLoadAreaInfo@@3VSaferCriticalSection@@A 1002ccd8     ossvcs_ALL:phnumutil.obj
+ 0002:00000cf0       ?sc_chBaseCurrencySymbol@?1??IsBaseCurrencySymbol@@YAHG@Z@4GB 1002ccf0     ossvcs_ALL:phnumutil.obj
+ 0002:00000cf4       ??_B?1??IsBaseCurrencySymbol@@YAHG@Z@51 1002ccf4     ossvcs_ALL:phnumutil.obj
+ 0002:00000f30       pCePerfInternal            1002cf30     ossvcs_ALL:eventsndperf.obj
+ 0002:00000f34       ?g_fShouldKeepAwakeDuringScript@@3HA 1002cf34     ossvcs_ALL:eventsnd.obj
+ 0002:00000f38       ?g_fInited@@3HA            1002cf38     ossvcs_ALL:eventsnd.obj
+ 0002:00000f40       ?g_csInitEvents@@3Vcritical_section@ce@@A 1002cf40     ossvcs_ALL:eventsnd.obj
+ 0002:00000f54       ?s_PlayingThreads@@3VCPlayingThreads@@A 1002cf54     ossvcs_ALL:eventsnd.obj
+ 0002:00000f70       ??_B?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@51 1002cf70     ossvcs_ALL:eventsnd.obj
+ 0002:00000f74       ?cs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@3@XZ@4V43@A 1002cf74     ossvcs_ALL:eventsnd.obj
+ 0002:00000f88       ?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A 1002cf88     ossvcs_ALL:eventsnd.obj
+ 0002:00000f8c       ?g_hPrefixTable@@3PAUHashTableTag@@A 1002cf8c     ossvcs_ALL:dlprefix.obj
+ 0002:00000f90       ?g_pszPrefixOverrides@@3PAGA 1002cf90     ossvcs_ALL:dlprefix.obj
+ 0002:00000f94       ?g_pszPrefixDefaults@@3PAGA 1002cf94     ossvcs_ALL:dlprefix.obj
+ 0002:00000f98       ?g_rgMapTableInfo@@3PAU_MAPTABLEINFO@@A 1002cf98     ossvcs_ALL:altlang.obj
+ 0002:00000fc8       ?g_bAltLangChecked@@3HA    1002cfc8     ossvcs_ALL:altlang.obj
+ 0002:00000fd8       ?s_pEventSoundConfig@EventSoundConfig@@0PAV1@A 1002cfd8     ossvcs_ALL:EventSndConfig.obj
+ 0002:00000fdc       ?s_pHKEYCURRENTUSERCache@CStatStore@@1V?$hash_map@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@U?$hash_traits@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@@2@Vallocator@2@@ce@@A 1002cfdc     ossvcs_ALL:statstor2.obj
+ 0002:00000ffc       ?s_pHKEYLOCALMACHINECache@CStatStore@@1V?$hash_map@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@U?$hash_traits@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@@2@Vallocator@2@@ce@@A 1002cffc     ossvcs_ALL:statstor2.obj
+ 0002:000010a0       ?g_hCreateDBMutex@@3PAXA   1002d0a0     ossvcs_ALL:mountvol.obj
+ 0002:000010a8       g_hinstCRYPT32             1002d0a8     ossvcs_ALL:dllload.obj
+ 0002:00001150       ?g_rgCharType@@3PAEA       1002d150     ossvcs_ALL:altlangKOR.obj
+ 0002:00001250       ?g_szCurSearchStr@@3PAGA   1002d250     ossvcs_ALL:altlangKOR.obj
+ 0002:00001448       ?g_rgBoPoMoFoKeystrokes@@3PAY0CG@GA 1002d448     ossvcs_ALL:CHTLang.obj
+ 0002:000014e0       ?g_rgPinYinKeystrokes@@3PAY0BL@GA 1002d4e0     ossvcs_ALL:CHSLang.obj
+ 0002:0000154c       ?g_iLED@@3HA               1002d54c     ossvcs_ALL:vibrate.obj
+ 0002:00001550       ?g_iVibration@@3HA         1002d550     ossvcs_ALL:vibrate.obj
+ 0002:00001554       ?g_hPhoneticReadingTbl@@3PAXA 1002d554     ossvcs_ALL:altlangCHN.obj
+ 0002:00001558       ?g_hStrokeTbl3@@3PAXA      1002d558     ossvcs_ALL:altlangCHN.obj
+ 0002:0000155c       ?g_rgStrokeKeystrokes@@3PAY151GA 1002d55c     ossvcs_ALL:altlangCHN.obj
+ 0002:0000158c       ?g_hPhoneticTbl@@3PAXA     1002d58c     ossvcs_ALL:altlangCHN.obj
+ 0002:00001590       ?g_pPhoneticMultiMapTbl@@3PAGA 1002d590     ossvcs_ALL:altlangCHN.obj
+ 0002:00001594       ?g_hStrokeTbl2@@3PAXA      1002d594     ossvcs_ALL:altlangCHN.obj
+ 0002:00001598       ?g_pStrokeTbl3@@3PAEA      1002d598     ossvcs_ALL:altlangCHN.obj
+ 0002:0000159c       ?g_pPhoneticReadingTbl@@3PAEA 1002d59c     ossvcs_ALL:altlangCHN.obj
+ 0002:000015a0       ?g_hStrokeTbl1@@3PAXA      1002d5a0     ossvcs_ALL:altlangCHN.obj
+ 0002:000015a4       ?g_cPhoneticReadingCharCount@@3GA 1002d5a4     ossvcs_ALL:altlangCHN.obj
+ 0002:000015a8       ?g_pPhoneticTbl@@3PAGA     1002d5a8     ossvcs_ALL:altlangCHN.obj
+ 0002:000015ac       ?g_prgPhoneticKeystrokes@@3PAPAGA 1002d5ac     ossvcs_ALL:altlangCHN.obj
+ 0002:000015b4       ?g_hPhoneticMultiMapTbl@@3PAXA 1002d5b4     ossvcs_ALL:altlangCHN.obj
+ 0002:000015b8       ?g_bOEMCustomizedAlphaNumeric@@3PAHA 1002d5b8     ossvcs_ALL:altlangCHN.obj
+ 0002:000015c0       ?g_cMaxPhoneticLen@@3GA    1002d5c0     ossvcs_ALL:altlangCHN.obj
+ 0002:000015c4       ?g_pStrokeTbl1@@3PAEA      1002d5c4     ossvcs_ALL:altlangCHN.obj
+ 0002:000015c8       ?g_pStrokeTbl2@@3PAEA      1002d5c8     ossvcs_ALL:altlangCHN.obj
+ 0002:000015cc       ?g_eChineseMode@@3W4ChineseModeEnum@@A 1002d5cc     ossvcs_ALL:altlangCHN.obj
+ 0002:000015e0       g_hPimUtil                 1002d5e0     ossvcs_ALL:delayld.obj
+ 0002:000015e4       ?g_hinstWs2Dll@@3PAUHINSTANCE__@@A 1002d5e4     ossvcs_ALL:delayld.obj
+ 0002:000015ec       ?g_hinstConnectUx@@3PAUHINSTANCE__@@A 1002d5ec     ossvcs_ALL:delayld.obj
+ 0002:00001600       _exitflag                  1002d600     corelib0:cexit.obj
+ 0002:00001604       g_hinstCCoreUtl            1002d604     <common>
+ 0002:00001608       g_hinstToolHelp            1002d608     <common>
+ 0002:0000160c       g_hinstPhoneUtil           1002d60c     <common>
+ 0002:00001610       g_hinstOleAut32            1002d610     <common>
+ 0002:00001614       g_hinstWlanApi             1002d614     <common>
+ 0002:00001618       g_hinstUrlmon              1002d618     <common>
+ 0002:0000161c       __onexitend                1002d61c     <common>
+ 0002:00001620       __onexitbegin              1002d620     <common>
+ 0002:00001624       g_pcsExit                  1002d624     <common>
+ 0002:00001628       _pRawDllMain               1002d628     <common>
+
+ entry point at        0001:00028bd8
+
+ Static symbols
+
+ 0001:0000f63c       ?Internal_CreateSoundTypeFilterString@@YAJPAPAGPAKGPBG@Z 1001063c f   ossvcs_ALL:eventsnd.obj
+ 0001:000132e4       ?DecodeKeyLayout@@YAHPBGPAU_MAPTABLEINFO@@K@Z 100142e4 f   ossvcs_ALL:altlang.obj
+ 0001:0001650c       ?ForceDelete@@YAJW4DIRECTORY_SCAN_STATE@@PBGPAU_WIN32_FIND_DATAW@@PAX@Z 1001750c f   ossvcs_ALL:helpers.obj
+ 0001:00016610       ?DeleteAndAbortOnFailure@@YAJW4DIRECTORY_SCAN_STATE@@PBGPAU_WIN32_FIND_DATAW@@PAX@Z 10017610 f   ossvcs_ALL:helpers.obj
+ 0001:000166a0       ?RecursiveScanDirectory@@YAJPBGQ6AJW4DIRECTORY_SCAN_STATE@@0PAU_WIN32_FIND_DATAW@@PAX@Z3@Z 100176a0 f   ossvcs_ALL:helpers.obj
+ 0001:000196f0       ?checkPriAndSwap@@YAHPAPAUIXMLDOMNode@@0PAII@Z 1001a6f0 f   ossvcs_ALL:xmlhelp.obj
+ 0001:0001b9d0       ?MyLoadString@@YAPAGH@Z    1001c9d0 f   ossvcs_ALL:wrlspwr.obj
+ 0001:0001bc04       ?EnableBthOverride@@YAXXZ  1001cc04 f   ossvcs_ALL:wrlspwr.obj
+ 0001:0001bce8       ?CallOnRadioPowerTransition@@YAJW4_RADIODEVTYPE@@PBGKPAH@Z 1001cce8 f   ossvcs_ALL:wrlspwr.obj
+ 0001:0001c0f4       ?InternalChangeRadioState@@YAJPAURDD@@KW4_SAVEACTION@@H@Z 1001d0f4 f   ossvcs_ALL:wrlspwr.obj
+ 0001:0001d7c4       ?AtomicRegUINTOperate@@YAJPAUHKEY__@@PBGIP6AIII@Z@Z 1001e7c4 f   ossvcs_ALL:calltimers.obj
+ 0001:0001d8d8       ?AtomicRegCopyAndReset@@YAJPAUHKEY__@@PBG1@Z 1001e8d8 f   ossvcs_ALL:calltimers.obj
+ 0001:0001da1c       ?GetTimerRegValueName@@YAPAGW4_TimerType@@W4_TimerPeriod@@HPAGI@Z 1001ea1c f   ossvcs_ALL:calltimers.obj
+ 0001:0001daa0       ?TimerOpenVoIPRegKey@@YAJPAPAUHKEY__@@@Z 1001eaa0 f   ossvcs_ALL:calltimers.obj
+ 0001:0001ea14       ?Init@@YAJXZ               1001fa14 f   ossvcs_ALL:FDRMAPI.obj
+ 0001:0001eb5c       ?CheckProvider@@YAJPAH@Z   1001fb5c f   ossvcs_ALL:FDRMAPI.obj
+ 0001:0001f4e0       ?ParseGetNumber@@YAHPBGIPAG@Z 100204e0 f   ossvcs_ALL:iso8601.obj
+ 0001:0001f738       ?ExtractDate@@YAJPBGPAU_SYSTEMTIME@@PAHPAK@Z 10020738 f   ossvcs_ALL:iso8601.obj
+ 0001:0001f860       ?HandleTimeZone@@YAJPBGHHHPAU_SYSTEMTIME@@@Z 10020860 f   ossvcs_ALL:iso8601.obj
+ 0001:0001fad4       ?ExtractTime@@YAJPBGHPAU_SYSTEMTIME@@PAHPAK@Z 10020ad4 f   ossvcs_ALL:iso8601.obj
+ 0001:000213cc       ?LoadResOver@@YAPAXPAUHINSTANCE__@@IIPBG@Z 100223cc f   ossvcs_ALL:bmphelpr.obj
+ 0001:000270f0       ?DecodeKeyLayout@@YAHPBGK@Z 100280f0 f   ossvcs_ALL:altlangCHN.obj
+ 0001:00028ae8       _DllMainCRTStartupHelper   10029ae8 f   corelib0:pegdmain.obj
+ 0001:00028ea4       doexit                     10029ea4 f   corelib0:cexit.obj
+ 0001:000292f4       ??__Eg_scsLoadAreaInfo@@YAXXZ 1002a2f4 f   ossvcs_ALL:phnumutil.obj
+ 0001:00029314       ??__Ec_rgLangMapData@@YAXXZ 1002a314 f   ossvcs_ALL:phnumutil.obj
+ 0001:000293a4       ??__E?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A@@YAXXZ 1002a3a4 f   ossvcs_ALL:eventsnd.obj
+ 0001:000293a8       ??__Es_PlayingThreads@@YAXXZ 1002a3a8 f   ossvcs_ALL:eventsnd.obj
+ 0001:000293c8       ??__Eg_csInitEvents@@YAXXZ 1002a3c8 f   ossvcs_ALL:eventsnd.obj
+ 0001:000293e8       ??__E?s_pHKEYLOCALMACHINECache@CStatStore@@1V?$hash_map@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@U?$hash_traits@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@@2@Vallocator@2@@ce@@A@@YAXXZ 1002a3e8 f   ossvcs_ALL:statstor2.obj
+ 0001:0002943c       ??__E?s_pHKEYCURRENTUSERCache@CStatStore@@1V?$hash_map@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@U?$hash_traits@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@@2@Vallocator@2@@ce@@A@@YAXXZ 1002a43c f   ossvcs_ALL:statstor2.obj
+ 0001:00029490       ??__Fg_scsLoadAreaInfo@@YAXXZ 1002a490 f   ossvcs_ALL:phnumutil.obj
+ 0001:0002949c       ??__Fg_csInitEvents@@YAXXZ 1002a49c f   ossvcs_ALL:eventsnd.obj
+ 0001:000294b4       ??__Fs_PlayingThreads@@YAXXZ 1002a4b4 f   ossvcs_ALL:eventsnd.obj
+ 0001:000294d8       ??__F?s_pHKEYCURRENTUSERCache@CStatStore@@1V?$hash_map@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@U?$hash_traits@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@@2@Vallocator@2@@ce@@A@@YAXXZ 1002a4d8 f   ossvcs_ALL:statstor2.obj
+ 0001:000294e4       ??__F?s_pHKEYLOCALMACHINECache@CStatStore@@1V?$hash_map@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@PAUHKEY__@@U?$hash_traits@V?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@@2@Vallocator@2@@ce@@A@@YAXXZ 1002a4e4 f   ossvcs_ALL:statstor2.obj

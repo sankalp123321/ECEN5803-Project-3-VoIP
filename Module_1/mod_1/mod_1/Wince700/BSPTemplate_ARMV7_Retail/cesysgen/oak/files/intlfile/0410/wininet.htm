@@ -1,0 +1,92 @@
+<!--
+Copyright (c) Microsoft Corporation.  All rights reserved.
+-->
+<!--
+Use of this sample source code is subject to the terms of the Microsoft
+license agreement under which you licensed this sample source code. If
+you did not accept the terms of the license agreement, you are not
+authorized to use this sample source code. For the terms of the license,
+please see the license agreement between you and Microsoft or, if applicable,
+see the LICENSE.RTF on your install media or the root of your tools installation.
+THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+-->
+<html>
+<body>
+ 
+<!-- Main topic --> <a name="certificate_intro"></a> <h2>Panoramica sui certificati</h2>
+
+<p>Per certificato si intende un voucher digitale contenente informazioni relative alla periferica che l'ha presentato. Ad esempio, un server Web può disporre di un certificato che contenga informazioni relative al server stesso. I certificati validi sono firmati da un'autorità di certificazione (CA) e includono informazioni relative a chi ha autorizzato il certificato, alle chiavi pubbliche e alla data di scadenza. </p>
+
+<p>Quando si è connessi a Internet, è importante che la certificazione dei siti Web visitati sia affidabile. Infatti, i siti Web che non risultano affidabili o correttamente certificati sono potenzialmente pericolosi per le informazioni archiviate sulla periferica. Se non si è sicuri dell'affidabilità di un sito, è possibile visualizzarne il certificato del server Web dalla propria periferica e decidere se visitare o meno il sito Web. </p>
+
+<p>Le funzionalità di protezione e di privacy della periferica consentono di proteggere la riservatezza dei dati e di tutelare le informazioni personali. Grazie a queste funzionalità è possibile proteggere le informazioni che consentono l'identificazione personale dell'utente. Queste funzionalità permettono infatti di controllare in che modo i siti Web visitati utilizzano tali informazioni. Con l'attivazione dei controlli di privacy sulla periferica, è inoltre possibile specificare le impostazioni di privacy che determineranno quali informazioni verranno condivise e quali informazioni sarà possibile salvare quando si visita un sito Web.</p>
+
+ 
+<!-- Sub topic --> <a name="certificates"></a> <h2>Certificati client</h2>
+
+<p>Un certificato client è una dichiarazione digitale che verifica l'identità di un utente o di una periferica (ad esempio un PC). I certificati client vengono rilasciati per stabilire l'identità e fornire un livello di autenticazione e di protezione per le informazioni scambiate mediante l'utilizzo di varie periferiche. Nel caso di alcuni siti Web, è necessario che l'utente si identifichi utilizzando i certificati client. Per inviare un certificato client a un altro computer si utilizzano chiavi pubbliche e private che consentono di condividere i dati con quella periferica in maniera protetta. Le chiavi pubbliche e private, inoltre, impediscono agli utenti non autorizzati di accedere alla periferica e alle informazioni in essa contenute.</p>
+
+<p>Nel seguente elenco sono illustrate le informazioni contenute nei certificati:</p>
+
+
+<ul>
+<li>Valore della chiave pubblica del soggetto e informazioni di identificazione</li>
+<li>Informazioni di identificazione dell'autorità che ha emesso il certificato</li>
+<li>Periodo di validità</li>
+<li>Firma digitale dell'autorità emittente</li>
+</ul>
+
+<p>Il soggetto è l'entità che riceve il certificato, che viene emesso dall'autorità di certificazione.</p>
+
+<h3>Certificati personali e di autenticazione all'origine</h3>
+
+<p>Su una periferica è possibile archiviare due tipi di certificati: certificati personali che stabiliscono l'identità e certificati di autenticazione all'origine che stabiliscono l'identità dei server Web. Ad esempio, quando si inviano informazioni personali su Internet, un certificato personale autentica l'utente rispetto al sito Web visitato, mentre il certificato di autenticazione all'origine consente di proteggere le informazioni personali quando si visita il sito.</p>
+
+ 
+<!-- Sub topic --> <a name="privacy"></a> <h2>Panoramica sulla privacy</h2>
+
+<p>Grazie alle funzionalità di privacy della periferica, è possibile proteggere le informazioni che consentono l'identificazione personale dell'utente. Queste funzionalità permettono infatti di controllare in che modo i siti Web visitati utilizzano tali informazioni. Le funzionalità di privacy consentono di specificare le impostazioni per consentire o meno ai siti Web di salvare informazioni sul PC, come ad esempio i cookie.</p>
+
+<h3>Cookie</h3>
+
+<p>Ogni volta che si visita un sito Web, sul computer viene archiviato un piccolo file chiamato cookie. I cookie vengono creati dal sito per consentire di archiviare informazioni derivate dalla visita del sito Web, come le preferenze personali. Alcuni cookie contengono una registrazione delle pagine visualizzate all'interno del sito Web visitato, al fine di consentire la visualizzazione nel corso di successive visite al sito. </p>
+
+<p>I cookie possono anche archiviare informazioni che consentono l'identificazione personale dell'utente, quali nome, indirizzo di posta elettronica, indirizzo di casa o dell'ufficio o numero di telefono. Tuttavia, un sito Web può accedere esclusivamente alle informazioni di identificazione personale fornite dall'utente stesso.</p>
+
+<p>Nel seguente elenco sono illustrate le funzionalità di privacy contenute sulla periferica:</p>
+
+<ul>
+<li>Impostazioni di privacy che determinano in che modo il computer gestisce i cookie</li> 
+<li>Avvisi di privacy che consentono di sapere quando si sta tentando di accedere a un sito che non soddisfa i criteri definiti nelle impostazioni di privacy</li> 
+<li>Capacità di visualizzare l'informativa sulla privacy P3P del sito Web</li>
+</ul>
+
+<p>Utilizzando le funzionalità di privacy della periferica è possibile limitare l'uso dei cookie. Tuttavia, dal momento che molte applicazioni variano in base alle informazioni contenute nei cookie, la disattivazione di tutti i cookie non sempre è la soluzione migliore. </p>
+
+<h3>Contenuto originario e contenuto di terze parti</h3>
+
+<p>Il contenuto originario contiene informazioni associate al dominio host o al sito Web visitato. Il contenuto di terze parti ha invece origine in un altro dominio. Ad esempio, quando si visita un sito Web che contiene un annuncio di intestazione, il sito Web visitato è considerato contenuto originario, mentre l'annuncio di intestazione è considerato contenuto di terze parti.</p>
+
+<p>Molte pagine Web commerciali utilizzano una combinazione di cookie e cookie di terze parti per raccogliere e inoltrare i dati relativi a queste pagine. Le funzionalità di privacy della periferica distinguono fra contenuto originario e contenuto di terze parti e stabiliscono una diversa relazione con i due tipi di contenuto. In effetti, le impostazioni di privacy predefinite per il contenuto di terze parti sono più restrittive rispetto al contenuto originario. In base alle impostazioni di privacy di un dispositivo con sistema operativo Windows Embedded Compact, l'utente può non accettare i cookie originati da terze parti accettando invece i cookie originari oppure di volta in volta gli viene richiesto se desidera accettarli o meno.</p>
+
+
+<!-- Sub topic --> <a name="security"></a> <h2>Panoramica sulla protezione</h2>
+
+<p>Le funzionalità di protezione della periferica impediscono che altri utenti accedano a informazioni per le quali non dispongono di autorizzazioni di accesso, come i dati relativi alle carte di credito immessi quando si fanno acquisti su Internet. Inoltre, le funzionalità di protezione consentono di proteggere il PC o i dispositivi senza fili dall'impiego di software non protetto.</p>
+
+<p>In questo modo, sarà possibile navigare in maniera sicura in un sito Web che utilizza il protocollo HTTPS (Hypertext Transfer Protocol over Secure Socket Layer). HTTPS è un protocollo per le comunicazioni sul Web che crittografa i dati inviati attraverso una connessione HTTPS. I dati crittografati mediante il protocollo HTTPS non possono essere intercettati e compresi da terze parti.</p>
+
+
+<h3>Avvisi di protezione</h3>
+
+<p>Gli avvisi di protezione possono essere visualizzati per i seguenti motivi:</p>
+
+<ul>
+<li>Il server Web a cui ci si connette contiene un certificato server non valido</li>
+<li>Il server Web a cui ci si connette contiene un livello di protezione misto (dati protetti e non protetti)</li>
+<li>Si sta abbandonando una connessione protetta</li>
+</ul>
+
+
+</body>
+</html>

@@ -1,0 +1,1546 @@
+//
+// Copyright (c) Microsoft Corporation.  All rights reserved.
+//
+//
+// Use of this sample source code is subject to the terms of the Microsoft
+// license agreement under which you licensed this sample source code. If
+// you did not accept the terms of the license agreement, you are not
+// authorized to use this sample source code. For the terms of the license,
+// please see the license agreement between you and Microsoft or, if applicable,
+// see the LICENSE.RTF on your install media or the root of your tools installation.
+// THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+//
+// ***********************************************************************
+//
+// posyncservices.idl
+//
+// Pocket Outlook synchronization services interfaces
+//
+/// <file_topic_scope tref="POSyncServices" />
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+interface IPOSyncServices;
+interface IPOChangeInfo;
+interface IPOSyncPartner;
+interface IPOMetadata;
+interface IPOItemMetadata;
+interface IPOFolderMetadata;
+interface IEnumPOSyncPartners;
+interface IEnumPOItemMetadata;
+interface IEnumPOFolderMetadata;
+
+typedef const BYTE  *LPCBYTE;
+typedef const void  *LPCVOID;
+
+cpp_quote("#ifdef MIDL_PASS")
+
+typedef struct _CEBLOB
+{
+    DWORD   dwCount;
+    BYTE*   lpb;
+} CEBLOB;
+
+typedef [switch_type(int)] union __CEVALUNION
+{
+    [case(2)]       short           iVal;       // CEVT_I2
+    [case(18)]      USHORT          uiVal;      // CEVT_UI2
+    [case(3)]       long            lVal;       // CEVT_I4
+    [case(19,102)]  ULONG           ulVal;      // CEVT_UI4, CEVT_AUTO_I4
+    [case(64)]      FILETIME        filetime;   // CEVT_FILETIME
+    [case(31)]      WCHAR*          lpwstr;     // CEVT_LPWSTR
+    [case(65,103,101,100)] CEBLOB   blob;       // CEVT_BLOB, CEVT_AUTO_I8, CEVT_RECID, CEVT_STREAM
+    [case(11)]      BOOL            boolVal;    // CEVT_BOOL
+    [case(5)]       double          dblVal;     // CEVT_R8
+} _CEVALUNION; 
+
+typedef struct _CEPROPVAL
+{
+    DWORD           propid;
+    WORD            wLenData;
+    WORD            wFlags;
+    [switch_is(propid & 0xFFFF)] _CEVALUNION      val;
+} CEPROPVAL;
+
+typedef CEPROPVAL* LPCEPROPVAL;
+
+
+typedef BYTE        *LPBYTE;
+
+cpp_quote("#endif")
+
+/// <summary>
+/// PO_IDTYPE determines the type of identifier
+/// </summary>
+typedef enum PO_IDTYPE
+{
+    /// <summary>
+    /// The identifier is a POOM identifier
+    /// </summary>
+    PO_IDTYPE_POOM,
+
+    /// <summary>
+    /// The identifier is a CEMAPI identifier
+    /// </summary>
+    PO_IDTYPE_CEMAPI,
+
+    /// <summary>
+    /// The identifier is an internal identifier
+    /// </summary>
+    PO_IDTYPE_INTERNAL,
+
+} PO_IDTYPE;
+
+/// <summary>
+/// PO_TRACKLEVEL determines how chages are reflected in the metadata
+/// </summary>
+typedef enum PO_TRACKLEVEL
+{
+    /// <summary>
+    /// The changes will not be reflected in the metadata
+    /// </summary>
+    PO_TRACKLEVEL_NONE    = 0x00000000,
+
+    /// <summary>
+    /// The metadata will be updated whenever an object is added, removed or any of its properties are touched
+    /// </summary>
+    PO_TRACKLEVEL_OBJECT  = 0x00000001,
+
+    /// <summary>
+    /// The metadata will be updated whenever and object is added, removed or any of its defined units are touched
+    /// </summary>
+    PO_TRACKLEVEL_UNIT    = 0x00000002,
+
+} PO_TRACKLEVEL;
+
+/// <summary>
+/// PO_DATATYPE determines how a unit is to be tracked
+/// </summary>
+typedef enum PO_DATATYPE
+{
+    /// <summary>
+    /// The metadata refers to a folder
+    /// </summary>
+    PO_DATATYPE_FOLDER,
+
+    /// <summary>
+    /// The metadata refers to a Contact.
+    /// </summary>
+    PO_DATATYPE_CONTACT,
+
+    /// <summary>
+    /// The metadata refers to a Message.
+    /// </summary>
+    PO_DATATYPE_MESSAGE,
+
+    /// <summary>
+    /// The metadata refers to an Appointment.
+    /// </summary>
+    PO_DATATYPE_APPOINTMENT,
+
+    /// <summary>
+    /// The metadata refers to a Task.
+    /// </summary>
+    PO_DATATYPE_TASK,
+
+    /// <summary>
+    /// The metadata refers to a Note.
+    /// </summary>
+    PO_DATATYPE_NOTE,
+
+    /// <summary>
+    /// Upper bound for metadata types
+    /// </summary>
+    PO_DATATYPE_COUNT,
+
+    /// <summary>
+    /// Upper bound for metadata types
+    /// </summary>
+    PO_DATATYPE_INVALID = PO_DATATYPE_COUNT,
+} PO_DATATYPE;
+
+/// <summary>
+/// PO_FOLDERTYPE defines all possible types of folders for the IPM hierarchy
+/// </summary>
+typedef enum PO_FOLDERTYPE
+{
+    /// <summary>
+    /// Generic folder
+    /// </summary>
+    PO_FOLDERTYPE_UNDEFINED             = 0x00000000,
+
+    /// <summary>
+    /// Default folder (must be combined with another type)
+    /// </summary>
+    PO_FOLDERTYPE_DEFAULT_FOLDER        = 0x00010000,
+
+    /// <summary>
+    /// Custom mail folder
+    /// </summary>
+    PO_FOLDERTYPE_MESSAGE               = PO_DATATYPE_MESSAGE,
+
+    /// <summary>
+    /// Custom folder for appointment items
+    /// </summary>
+    PO_FOLDERTYPE_APPOINTMENT           = PO_DATATYPE_APPOINTMENT,
+
+    /// <summary>
+    /// Custom folder for task items
+    /// </summary>
+    PO_FOLDERTYPE_TASK                  = PO_DATATYPE_TASK,
+
+    /// <summary>
+    /// Custom folder for note items
+    /// </summary>
+    PO_FOLDERTYPE_NOTE                  = PO_DATATYPE_NOTE,
+
+    /// <summary>
+    /// Custome folder for appointment items
+    /// </summary>
+    PO_FOLDERTYPE_CONTACT               = PO_DATATYPE_CONTACT,
+
+    /// <summary>
+    /// Default folder for appointment items
+    /// </summary>
+    PO_FOLDERTYPE_DEFAULT_APPOINTMENT   = PO_FOLDERTYPE_DEFAULT_FOLDER | PO_FOLDERTYPE_APPOINTMENT,
+
+    /// <summary>
+    /// Default folder for task items
+    /// </summary>
+    PO_FOLDERTYPE_DEFAULT_TASK          = PO_FOLDERTYPE_DEFAULT_FOLDER | PO_FOLDERTYPE_TASK,
+
+    /// <summary>
+    /// Default folder for contact items
+    /// </summary>
+    PO_FOLDERTYPE_DEFAULT_CONTACT       = PO_FOLDERTYPE_DEFAULT_FOLDER | PO_FOLDERTYPE_CONTACT,
+
+    /// <summary>
+    /// Default folder for note items
+    /// </summary>
+    PO_FOLDERTYPE_DEFAULT_NOTE          = PO_FOLDERTYPE_DEFAULT_FOLDER | PO_FOLDERTYPE_NOTE,
+
+    /// <summary>
+    /// Inbox folder (default mail folder)
+    /// </summary>
+    PO_FOLDERTYPE_INBOX                 = PO_FOLDERTYPE_DEFAULT_FOLDER | PO_FOLDERTYPE_MESSAGE,
+
+    /// <summary>
+    /// The trash folder. 
+    /// </summary>
+    PO_FOLDERTYPE_IPM_ROOT              = 0x00030000 | PO_FOLDERTYPE_MESSAGE,
+
+    /// <summary>
+    /// The trash folder. 
+    /// </summary>
+    PO_FOLDERTYPE_TRASH                 = 0x00040000 | PO_FOLDERTYPE_MESSAGE,
+
+    /// <summary>
+    /// Mail sent items folder
+    /// </summary>
+    PO_FOLDERTYPE_SENTITEMS             = 0x00050000 | PO_FOLDERTYPE_MESSAGE,
+
+    /// <summary>
+    /// Mail drafts folder
+    /// </summary>
+    PO_FOLDERTYPE_DRAFTS                = 0x00060000 | PO_FOLDERTYPE_MESSAGE,
+
+    /// <summary>
+    /// Mail outgoing folder
+    /// </summary>
+    PO_FOLDERTYPE_OUTBOX                = 0x00070000 | PO_FOLDERTYPE_MESSAGE,
+
+} PO_FOLDERTYPE;
+
+
+/// <summary>
+/// PO_CHANGETYPE is an enumeration of all change types.
+/// </summary>
+typedef enum PO_CHANGETYPE
+{
+    /// <summary>
+    /// No change. 
+    /// </summary>
+    PO_CHANGETYPE_NONE = 0x00000000,
+
+    /// <summary>
+    /// Change type associated with a newly created object
+    /// </summary>
+    PO_CHANGETYPE_ADDITION = 0x00000001,
+
+    /// <summary>
+    /// Change type associated with an updated object
+    /// </summary>
+    PO_CHANGETYPE_MODIFICATION = 0x00000002,
+
+    /// <summary>
+    /// Change type associated with a deleted object
+    /// </summary>
+    PO_CHANGETYPE_DELETION = 0x00000004,
+
+    /// <summary>
+    /// Change type associated with a moved object
+    /// </summary>
+    PO_CHANGETYPE_MOVE = 0x00000008,
+
+    /// <summary>
+    /// All possible change types
+    /// </summary>
+    PO_CHANGETYPE_ANY = (PO_CHANGETYPE_ADDITION|PO_CHANGETYPE_MODIFICATION|PO_CHANGETYPE_DELETION|PO_CHANGETYPE_MOVE),
+} PO_CHANGETYPE;
+
+/// <summary>
+/// PO_CHANGEACTION determines how/if a change should be processed 
+/// </summary>
+typedef enum PO_CHANGEACTION
+{
+    /// <summary>
+    /// The change should be reported. 
+    /// </summary>
+    PO_CHANGEACTION_ACCEPT,
+
+    /// <summary>
+    /// The change should be skipped during the current enumeration but detected again next time changes 
+    /// will be enumerated
+    /// </summary>
+    PO_CHANGEACTION_SKIP,
+
+    /// <summary>
+    /// The change should be forgotten
+    /// </summary>
+    PO_CHANGEACTION_FORGET,
+
+} PO_CHANGEACTION;
+
+/// <summary>
+/// PO_CONFLICTPOLICY determines how conflicts should be resolved
+/// </summary>
+typedef enum PO_CONFLICTPOLICY
+{
+    /// <summary>
+    /// Remote changes will overwrite local changes 
+    /// </summary>
+    PO_CONFLICTPOLICY_KEEP_REMOTE,
+
+    /// <summary>
+    /// Remote changes will not overwrite local changes 
+    /// </summary>
+    PO_CONFLICTPOLICY_KEEP_LOCAL,
+
+    /// <summary>
+    /// Default conflict policy (overwrite local changes)
+    /// </summary>
+    PO_CONFLICTPOLICY_DEFAULT = PO_CONFLICTPOLICY_KEEP_REMOTE
+
+} PO_CONFLICTPOLICY;
+
+
+/// <summary>
+/// PO_SYNCSESSION_OUTCOME determines how a sync session ends.
+/// </summary>
+typedef enum PO_SYNCSESSION_OUTCOME
+{
+    /// <summary>
+    /// The session failed, all changes made during the session will be reverted
+    /// </summary>
+    PO_SYNCSESSION_FAILED,
+
+    /// <summary>
+    /// The session was successful but the changes retrieved during the session
+    /// were not yet acknowledged by the remote partner
+    /// </summary>
+    PO_SYNCSESSION_SUSPEND,
+
+    /// <summary>
+    /// The session was successful and the changes retrieved during the session
+    /// will be marked as seen by the partner
+    /// </summary>
+    PO_SYNCSESSION_FORGET,
+
+} PO_SYNCSESSION_OUTCOME;
+
+/// <summary>
+/// PO_SCOPETYPE determines the type of scope for enumerating or applying changes.
+/// </summary>
+typedef enum PO_SCOPETYPE
+{
+    /// <summary>
+    /// The scope is for enumerating and applying item changes in a folder
+    /// </summary>
+    PO_SCOPETYPE_FOLDER,
+
+    /// <summary>
+    /// The scope is for enumerating and applying folder hierarchy changes
+    /// </summary>
+    PO_SCOPETYPE_HIERARCHY,
+
+    /// <summary>
+    /// The scope is for enumerating and applying item moves accross all folders
+    /// </summary>
+    PO_SCOPETYPE_MOVES,
+
+} PO_SCOPETYPE;
+
+
+/// <summary>
+/// PO_PROPKIND determines the type of property identifier for a unit property
+/// </summary>
+typedef enum PO_PROPKIND
+{
+    /// <summary>
+    /// The unit property is a well known identifier
+    /// </summary>
+    PO_PROPKIND_ID,
+
+    /// <summary>
+    /// The unit property is a named property
+    /// </summary>
+    PO_PROPKIND_NAMED
+} PO_PROPKIND;
+
+/// <summary>
+/// PO_NAMEKIND determines the type of name to be used when mapping named properties.
+/// </summary>
+typedef enum PO_NAMEKIND
+{
+    /// <summary>
+    /// The named property will be mapped using a string value
+    /// </summary>
+    PO_NAMEKIND_STRING,
+
+    /// <summary>
+    /// The named property will be mapped using an integer value
+    /// </summary>
+    PO_NAMEKIND_ID,
+
+} PO_NAMEKIND;
+
+/// <summary>
+/// PO_UNITTYPE determines how the unit will be tracked
+/// </summary>
+typedef enum PO_UNITTYPE
+{
+    /// <summary>
+    /// The unit will be marked as changed if any of the changed properties are in its schema
+    /// </summary>
+    PO_UNITTYPE_INCLUSIVE,
+
+    /// <summary>
+    /// The unit will be marked as changed if none of the changed properties are in its schema
+    /// </summary>
+    PO_UNITTYPE_EXCLUSIVE,
+
+} PO_UNITTYPE;
+
+
+/// <summary>
+/// Definition for a named property name
+/// </summary>
+typedef [switch_type(PO_NAMEKIND)] union POPropName
+{
+    /// <summary>
+    /// The property name id
+    /// </summary>
+    [case(PO_NAMEKIND_ID)]       ULONG   lID;
+
+    /// <summary>
+    /// The property name string
+    /// </summary>
+    [case(PO_NAMEKIND_STRING)]   LPCWSTR lpwstrName;
+} POPropName;
+
+/// <summary>
+/// Definition for a named property
+/// </summary>
+typedef struct POPropNamed
+{
+    /// <summary>
+    /// The property type (a CEVT value)
+    /// </summary>
+    DWORD   dwPropType;
+
+    /// <summary>
+    /// The name type (see PO_NAMEKIND)
+    /// </summary>
+    PO_NAMEKIND eNameKind;
+
+    /// <summary>
+    /// The property name
+    /// </summary>
+    [switch_is(eNameKind)] POPropName Name;
+} POPropNamed;
+
+/// <summary>
+/// Definition for an application specific property id
+/// </summary>
+typedef struct POPropId
+{
+    /// <summary>
+    /// The property identifier type (see PO_IDTYPE)
+    /// </summary>
+    PO_IDTYPE eIdType;
+
+    /// <summary>
+    /// The property identifier
+    /// </summary>
+    DWORD       dwPropId;
+} POPropId;
+
+/// <summary>
+/// Definition for a tracking unit property
+/// </summary>
+typedef union POTrackProp switch (PO_PROPKIND ePropKind) Prop
+{
+    case PO_PROPKIND_ID:
+        POPropId      Id;
+
+    case PO_PROPKIND_NAMED:
+        POPropNamed   Named;
+} POTrackProp;
+
+
+/// <summary>
+/// Schema definition for a single tracking unit
+/// </summary>
+typedef struct POTrackUnit
+{
+    /// <summary>
+    /// The type tracking for the unit's properties
+    /// </summary>
+    PO_UNITTYPE  eType;
+
+    /// <summary>
+    /// Count of elements in the rgProps array
+    /// </summary>
+    DWORD   cProps;
+
+    /// <summary>
+    /// Array of properties tracked by this unit
+    /// </summary>
+    [size_is(cProps)]
+    const POTrackProp *rgProps;
+} POTrackUnit;
+
+
+/// <summary>
+/// Schema definition for data type tracking
+/// </summary>
+typedef struct POTrackType
+{
+    /// <summary>
+    /// The type's tracking level (see PO_TRACKLEVEL)
+    /// </summary>
+    PO_TRACKLEVEL   eTrackLevel;
+
+    /// <summary>
+    /// Number of elements in the rgUnits array (ignored unless eTrackLevel is above 
+    /// PO_TRACKLEVEL_OBJECT
+    /// </summary>
+    DWORD  cUnits;
+
+    /// <summary>
+    /// Array of unit definitions for the object (ignored unless eTrackLevel is above 
+    /// PO_TRACKLEVEL_OBJECT
+    /// </summary>
+    [size_is(cUnits)]
+    const POTrackUnit *rgUnits;
+} POTrackType;
+
+/// <summary>
+/// Schema definition for tracking data types in a store
+/// </summary>
+typedef struct POTrackSchema
+{
+    /// <summary>
+    /// Array of schema definitions for each data type
+    /// </summary>
+    POTrackType    rgTypes[PO_DATATYPE_COUNT];
+
+} POTrackSchema;   
+
+
+/// <summary>
+/// Interface for the Pocket Outlook synchronization services.
+/// </summary>
+[
+    object,
+    uuid(21E1B5A4-0010-437a-BFA7-9D1455238F39)
+]
+interface IPOSyncServices : IUnknown
+{
+    /// <summary>
+    /// Creates and returns an application session such as IMAPISession or IPOutlookApp 
+    /// </summary>
+    /// <param name="hWnd"> [in] The window handle used to initialize the session.</param>
+    /// <param name="eIdType"> [in] The type of session to return (one of the PO_IDTYPE enumerated values) .</param>
+    /// <param name="riid"> [in] The requested interface identifier.</param>
+    /// <param name="ppSession"> [out] The session instance.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    /// <remarks>
+    /// The caller is responsible for calling the appropriate logoff method on the retrieved session instance
+    /// </remarks>
+    HRESULT Logon([in] HWND hWnd, [in] PO_IDTYPE eIdType, [in] REFIID riid, [out, retval, iid_is(riid)] IUnknown **ppSession);
+
+    /// <summary>
+    /// Maps an array of named properies to their property identifiers
+    /// </summary>
+    /// <param name="dwStoreId"> [in] The store identifier.</param>
+    /// <param name="ceProps">[in] The number of named properties to map.</param>
+    /// <param name="rgNamedProps">[in] The array of named properties to map.</param>
+    /// <param name="rgPropIds">[out] The array of mapped property identifiers.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT GetIDsFromNames([in] DWORD dwStoreId, [in] DWORD ceProps, [in, size_is(ceProps)] const POPropNamed *rgNamedProps, [out, retval, size_is(ceProps)] DWORD *rgPropIds);
+
+    /// <summary>
+    /// Creates a new store
+    /// </summary>
+    /// <param name="pwszName"> [in] The store name.</param>
+    /// <param name="ceInitProps"> [in] The number of elements provided in the rgInitProps array.</param>
+    /// <param name="rgInitProps"> [in] The array of property values used to initialize the new store.</param>
+    /// <param name="pdwStoreId"> [out] The store identifier.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT CreateStore([in] LPCWSTR pwszName, [in] DWORD ceInitProps, [in, size_is(ceInitProps)] const CEPROPVAL *rgInitProps, [out, retval] DWORD *pdwStoreId);
+
+    /// <summary>
+    /// Looks-up the store identifier corresponding to the given store name
+    /// </summary>
+    /// <param name="pwszName"> [in] The store name.</param>
+    /// <param name="pdwStoreId"> [out] The store identifier.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT FindStore([in] LPCWSTR pwszName, [out, retval] DWORD *pdwStoreId);
+
+    /// <summary>
+    /// Deletes an existing store
+    /// </summary>
+    /// <param name="dwStoreId"> [in] The store identifier.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT DeleteStore([in] DWORD dwStoreId);
+
+    /// <summary>
+    /// Translates a POSyncServices store identifier from an application specific store identifier
+    /// </summary>
+    /// <param name="eIdType"> [in] The object identifier format (one of the PO_IDTYPE enumerated values) .</param>
+    /// <param name="cbObjectId"> [in] The size, in bytes, of the object identifier.</param>
+    /// <param name="pvObjectId"> [in] The object identifier.</param>
+    /// <param name="pdwStoreId"> [out] The store identifier.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    [local]
+    HRESULT GetStoreIdFromObjectId([in] PO_IDTYPE eIdType, [in] ULONG cbObjectId, [in, size_is(cbObjectId)] LPCVOID pvObjectId, [out] DWORD *pdwStoreId);
+    [call_as(GetStoreIdFromObjectId)]
+    HRESULT RemoteGetStoreIdFromObjectId([in] PO_IDTYPE eIdType, [in] ULONG cbObjectId, [in, size_is(cbObjectId)] LPCBYTE pbObjectId, [out] DWORD *pdwStoreId);
+
+    /// <summary>
+    /// Translates a POSyncSesvices store identifier to an application specific store identifier
+    /// </summary>
+    /// <param name="dwStoreId"> [in] The store identifier.</param>
+    /// <param name="eIdType"> [in] The object identifier format (one of the PO_IDTYPE enumerated values) .</param>
+    /// <param name="pcbObjectId"> [inout] The size, in bytes, of the object identifier.</param>
+    /// <param name="pvObjectId"> [out] The object identifier.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    [local]
+    HRESULT GetObjectIdFromStoreId([in] DWORD dwStoreId, [in] PO_IDTYPE eIdType, [in, out] ULONG *pcbObjectId, [out, size_is(*pcbObjectId)] LPVOID pvObjectId);
+    [call_as(GetObjectIdFromStoreId)]
+    HRESULT RemoteGetObjectIdFromStoreId([in] DWORD dwStoreId, [in] PO_IDTYPE eIdType, [in, out] ULONG *pcbObjectId, [out, size_is(*pcbObjectId)] LPBYTE pvObjectId);
+
+    /// <summary>
+    /// Converts an object id into string format
+    /// </summary>
+    /// <param name="eIdType"> [in] The requested id format.</param>
+    /// <param name="cbObjectId"> [in] The size, in bytes, for the identifier.</param>
+    /// <param name="pvObjectId"> [in] The identifier to be converted.</param>
+    /// <param name="pbstrObjectId"> [out] The string format for the given identifier.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    [local]
+    HRESULT ConvertIdToString([in] PO_IDTYPE eIdType, [in] ULONG cbObjectId, [in, size_is(cbObjectId)] LPCVOID pvObjectId, [out, retval] BSTR *pbstrObjectId);
+    [call_as(ConvertIdToString)]
+    HRESULT RemoteConvertIdToString([in] PO_IDTYPE eIdType, [in] ULONG cbObjectId, [in, size_is(cbObjectId)] LPCBYTE pbObjectId, [out, retval] BSTR *pbstrObjectId);
+
+    /// <summary>
+    /// Converts an object id from string format
+    /// </summary>
+    /// <param name="pwszObjectId"> [in] The string to be converted.</param>
+    /// <param name="eIdType"> [in] The requested id format.</param>
+    /// <param name="pcbObjectId"> [inout] The size, in bytes, for the identifier.</param>
+    /// <param name="pvObjectId"> [out] The converted identifier.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    [local]
+    HRESULT ConvertStringToId([in] LPCWSTR pwszObjectId, [in] PO_IDTYPE eIdType, [in, out] ULONG *pcbObjectId, [out, size_is(*pcbObjectId)] LPVOID pvObjectId);
+    [call_as(ConvertStringToId)]
+    HRESULT RemoteConvertStringToId([in] LPCWSTR pwszObjectId, [in] PO_IDTYPE eIdType, [in, out] ULONG *pcbObjectId, [out, size_is(*pcbObjectId)] LPBYTE pbObjectId);
+
+    /// <summary>
+    /// Associates a new sync partner with the given store
+    /// </summary>
+    /// <param name="dwStoreId"> [in] The store identifier.</param>
+    /// <param name="gidPartner"> [in] The partner identifier.</param>
+    /// <param name="pwszDisplayName"> [in] The friendly name for the partner.</param>
+    /// <param name="pSyncSchema"> [in] The schema definition.</param>
+    /// <param name="ppPartner"> [out] The sync partner object.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT AddSyncPartner([in] DWORD dwStoreId, [in] REFGUID gidPartner, [in] LPCWSTR pwszDisplayName, [in] const POTrackSchema *pSyncSchema, [out, retval] IPOSyncPartner **ppPartner);
+
+    /// <summary>
+    /// Returns the sync partner object corresponding to the given partner and store identifiers
+    /// </summary>
+    /// <param name="dwStoreId"> [in] The store identifier.</param>
+    /// <param name="gidPartner"> [in] The partner identifier.</param>
+    /// <param name="ppPartner"> [out] The sync partner object.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT GetSyncPartner([in] DWORD dwStoreId, [in] REFGUID gidPartner, [out, retval] IPOSyncPartner **ppPartner);
+
+    /// <summary>
+    /// Returns an enumerator used to iterate all sync partners associated with the given store 
+    /// </summary>
+    /// <param name="dwStoreId"> [in] The store identifier.</param>
+    /// <param name="ppEnum"> [out] The sync partners enumerator.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT GetSyncPartners([in] DWORD dwStoreId, [out, retval] IEnumPOSyncPartners **ppEnum);
+};
+
+
+/// <summary>
+/// Interface used to retrieve information about a change
+/// </summary>
+[
+    object,
+    uuid(466740DB-D9BB-4dea-8DFA-0211DF31520B)
+]
+interface IPOChangeInfo : IUnknown
+{
+    /// <summary>
+    /// Returns the type of change
+    /// </summary>
+    /// <param name="peChangeType"> [in] The type of change.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT GetChangeType([out, retval] PO_CHANGETYPE *peChangeType);
+
+    /// <summary>
+    /// Returns the identifier for the changed object
+    /// </summary>
+    /// <param name="eIdType"> [in] The requested id format.</param>
+    /// <param name="pcbObjectId"> [inout] The size, in bytes, for the identifier.</param>
+    /// <param name="pbObjectId"> [out] The object identifier.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT GetObjectId([in] PO_IDTYPE eIdType, [in, out] ULONG *pcbObjectId, [out, size_is(*pcbObjectId)] LPBYTE pbObjectId);
+
+    /// <summary>
+    /// Returns the identifier for the new parent
+    /// </summary>
+    /// <param name="eIdType"> [in] The requested id format.</param>
+    /// <param name="pcbParentId"> [inout] The size, in bytes, for the identifier.</param>
+    /// <param name="pbParentId"> [out] The new parent identifier.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    /// <remarks>
+    /// This method will fail with E_UNEXPECTED unless the change type is PO_CHANGETYPE_MOVE
+    /// </remarks>
+    HRESULT GetNewParentId([in] PO_IDTYPE eIdType, [in, out] ULONG *pcbParentId, [out, size_is(*pcbParentId)] LPBYTE pbParentId);
+
+    /// <summary>
+    /// Returns the identifier for the previous parent
+    /// </summary>
+    /// <param name="eIdType"> [in] The requested id format.</param>
+    /// <param name="pcbParentId"> [inout] The size, in bytes, for the identifier.</param>
+    /// <param name="pbParentId"> [out] The previous parent identifier.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    /// <remarks>
+    /// This method will fail with E_UNEXPECTED unless the change type is PO_CHANGETYPE_MOVE
+    /// </remarks>
+    HRESULT GetPrevParentId([in] PO_IDTYPE eIdType, [in, out] ULONG *pcbParentId, [out, size_is(*pcbParentId)] LPBYTE pbParentId);
+
+    /// <summary>
+    /// Returns the bitmask of changed units 
+    /// </summary>
+    /// <param name="pullChangedUnits"> [out] The bitmask of changed units .</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT GetChangeMask([out, retval] ULONGLONG *pullChangedUnits);
+};
+
+/// <summary>
+/// Callback interface used to filter changes
+/// </summary>
+[
+    object,
+    uuid(FFCB64D1-6C7B-496b-B5DA-3EC2C1EB16CA)
+]
+interface IPOChangeFilter : IUnknown
+{
+    /// <summary>
+    /// Determines which action should be taken for the given change
+    /// </summary>
+    /// <param name="pChangeInfo"> [in] The change information.</param>
+    /// <param name="peAction"> [out] One of the PO_CHANGEACTION enumerated values that indicates which action should be taken for the given change.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT GetActionForChange([in] IPOChangeInfo *pChangeInfo, [out, retval] PO_CHANGEACTION *peAction);
+};
+
+/// <summary>
+/// Provides sync services for simple participants
+/// </summary>
+[
+    object,
+    uuid(01D32BF7-62DA-4e94-A9A6-A73CC22F8F7C)
+]
+interface IPOSyncPartner : IUnknown
+{
+    /// <summary>
+    /// Maps an array of named properies to their property identifiers
+    /// </summary>
+    /// <param name="ceProps">[in] The number of named properties to map.</param>
+    /// <param name="rgNamedProps">[in] The array of named properties to map.</param>
+    /// <param name="rgPropIds">[out] The array of mapped property identifiers.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT GetIDsFromNames([in] DWORD ceProps, [in, size_is(ceProps)] const POPropNamed *rgNamedProps, [out, retval, size_is(ceProps)] DWORD *rgPropIds);
+
+    /// <summary>
+    /// Retrieves the property values for the given set of identifiers
+    /// </summary>
+    /// <param name="ceProps">[in] The number of properties to retrieve.</param>
+    /// <param name="rgPropIds">[in] The array of property ids to retrieve.</param>
+    /// <param name="prgProps">[out] The corresponding property values.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT GetProps([in] DWORD ceProps, [in, size_is(ceProps)] DWORD *rgPropIds, [out, retval, size_is(ceProps)] CEPROPVAL **prgProps);
+
+    /// <summary>
+    /// Stores a set of property values
+    /// </summary>
+    /// <param name="ceProps">[in] The number of properties to store.</param>
+    /// <param name="rgProps">[in] The array of property values to store.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT SetProps([in] DWORD ceProps, [in, size_is(ceProps)] const CEPROPVAL *rgProps);
+
+    /// <summary>
+    /// Retrieves the friendly name for the partner
+    /// </summary>
+    /// <param name="pbstrName"> [out] The friendly name for the partner.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT GetName([out, retval] BSTR *pbstrName);
+    
+    /// <summary>
+    /// Retrieves the partner identifier
+    /// </summary>
+    /// <param name="pgidPartner"> [out] The partner identifier.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT GetGuid([out, retval] GUID *pgidPartner);
+
+    /// <summary>
+    /// Returns the identifier for the associated store
+    /// </summary>
+    /// <param name="eIdType"> [in] The requested id format.</param>
+    /// <param name="pcbStoreId"> [inout] The size, in bytes, for the identifier.</param>
+    /// <param name="pbStoreId"> [out] The identifier for the associated store.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT GetStoreId([in] PO_IDTYPE eIdType, [in, out] ULONG *pcbStoreId, [out, size_is(*pcbStoreId)] LPBYTE pbStoreId);
+
+    /// <summary>
+    /// Returns the identifier for the given standard folder type
+    /// </summary>
+    /// <param name="eFolderType"> [in] The folder type (must designate a special folder).</param>
+    /// <param name="eIdType"> [in] The requested id format.</param>
+    /// <param name="pcbFolderId"> [inout] The size, in bytes, for the identifier.</param>
+    /// <param name="pbFolderId"> [out] The identifier for the corresponding folder.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT GetSpecialFolderId([in] PO_FOLDERTYPE eFolderType, [in] PO_IDTYPE eIdType, [in, out] ULONG *pcbFolderId, [out, size_is(*pcbFolderId)] LPBYTE pbFolderId);
+
+    /// <summary>
+    /// Used to enable/disable a folder for synchronization with the this partner 
+    /// </summary>
+    /// <param name="eIdType"> [in] The folder identifier format (one of the PO_IDTYPE enumerated values) .</param>
+    /// <param name="cbFolderId"> [in] The size, in bytes, of the folder identifier.</param>
+    /// <param name="pbFolderId"> [in] The folder identifier.</param>
+    /// <param name="fEnable"> [in] The enabled status to be set.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT EnableFolderForSync([in] PO_IDTYPE eIdType, [in] ULONG cbFolderId, [in, size_is(cbFolderId)] LPCBYTE pbFolderId, [in] BOOL fEnable);
+
+    /// <summary>
+    /// Used to determine whether or not a folder is enabled for synchronization with this partner 
+    /// </summary>
+    /// <param name="eIdType"> [in] The folder identifier format (one of the PO_IDTYPE enumerated values) .</param>
+    /// <param name="cbFolderId"> [in] The size, in bytes, of the folder identifier.</param>
+    /// <param name="pbFolderId"> [in] The folder identifier.</param>
+    /// <param name="pfEnabled"> [out] The enabled status.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT IsFolderEnabledForSync([in] PO_IDTYPE eIdType, [in] ULONG cbFolderId, [in, size_is(cbFolderId)] LPCBYTE pbFolderId, [out, retval] BOOL *pfEnabled);
+
+    /// <summary>
+    /// Determines whteher or not the given scope has any changes matching the specified filter
+    /// </summary>
+    /// <param name="eScopeType"> [in] The scope type (one of the PO_SCOPETYPE enumerated values).</param>
+    /// <param name="eIdType"> [in] The object identifier format (one of the PO_IDTYPE enumerated values) .</param>
+    /// <param name="cbFolderId"> [in] The size, in bytes, of the folder identifier.</param>
+    /// <param name="pbFolderId"> [in] The folder identifier.</param>
+    /// <param name="pFilter"> [in] Optional callback interface used to filter-out irrelevant changes.</param>
+    /// <param name="pfHasChanges"> [out] Whether or not the given scope has any changes matching the specified filter.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    /// <remarks>
+    /// eIdType, cbFolderId and pbFolderId will be ignored for all scope types except PO_SCOPETYPE_FOLDER
+    /// </remarks>
+    HRESULT HasChanges([in] PO_SCOPETYPE eScopeType, [in] PO_IDTYPE eIdType, [in] ULONG cbFolderId, [in, size_is(cbFolderId)] LPCBYTE pbFolderId, [in] IPOChangeFilter *pFilter, [out] BOOL *pfHasChanges);
+
+    /// <summary>
+    /// Retrieves the estimated number of pending changes for the given scope
+    /// </summary>
+    /// <param name="eScopeType"> [in] The scope type (one of the PO_SCOPETYPE enumerated values).</param>
+    /// <param name="eIdType"> [in] The object identifier format (one of the PO_IDTYPE enumerated values) .</param>
+    /// <param name="cbFolderId"> [in] The size, in bytes, of the folder identifier.</param>
+    /// <param name="pbFolderId"> [in] The folder identifier.</param>
+    /// <param name="pFilter"> [in] Optional callback interface used to filter-out irrelevant changes.</param>
+    /// <param name="pulAdditions"> [out] The number of pending additions.</param>
+    /// <param name="pulModification"> [out] The number of pending modifications.</param>
+    /// <param name="pulDeletions"> [out] The number of pending deletions.</param>
+    /// <param name="pulMoves"> [out] The number of pending moves.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    /// <remarks>
+    /// eIdType, cbFolderId and pbFolderId will be ignored for all scope types except PO_SCOPETYPE_FOLDER
+    /// </remarks>
+    HRESULT GetChangeCount([in] PO_SCOPETYPE eScopeType, [in] PO_IDTYPE eIdType, [in] ULONG cbFolderId, [in, size_is(cbFolderId)] LPCBYTE pbFolderId, [in] IPOChangeFilter *pFilter, [out] ULONG *pulAdditions, [out] ULONG *pulModification, [out] ULONG *pulDeletions, [out] ULONG *pulMoves);
+
+    /// <summary>
+    /// Begins a sync session for the given scope 
+    /// </summary>
+    /// <param name="eScopeType"> [in] The scope type (one of the PO_SCOPETYPE enumerated values).</param>
+    /// <param name="eIdType"> [in] The object identifier format (one of the PO_IDTYPE enumerated values) .</param>
+    /// <param name="cbFolderId"> [in] The size, in bytes, of the folder identifier.</param>
+    /// <param name="pbFolderId"> [in] The folder identifier.</param>
+    /// <param name="eConflictPolicy"> [in] The conflict policy.</param>
+    /// <param name="pFilter"> [in] Optional callback interface used to filter-out irrelevant changes.</param>
+    /// <param name="pUnkPrevState"> [in] The previous state obtained from EndSyncSession or NULL.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    /// <remarks>
+    /// eIdType, cbFolderId and pbFolderId will be ignored for all scope types except PO_SCOPETYPE_FOLDER
+    /// </remarks>
+    HRESULT StartSyncSession([in] PO_SCOPETYPE eScopeType, [in] PO_IDTYPE eIdType, [in] ULONG cbFolderId, [in, size_is(cbFolderId)] LPCBYTE pbFolderId, [in] PO_CONFLICTPOLICY eConflictPolicy, [in] IPOChangeFilter *pFilter, [in] IUnknown *pUnkPrevState);
+
+    /// <summary>
+    /// Retrieves the next change matching the session criteria
+    /// </summary>
+    /// <param name="ppChange"> [out] The next change matching the session criteria.</param>
+    /// <returns>
+    /// S_OK if a matching change was found
+    /// S_FALSE if no more changes matching the criteria are avaiable
+    /// Standard error HRESULT otherwise
+    /// </returns>
+    HRESULT GetNextChange([out, retval] IPOChangeInfo **ppChange);
+
+    /// <summary>
+    /// Returns the change information for the given object
+    /// </summary>
+    /// <param name="eIdType"> [in] The object identifier format (one of the PO_IDTYPE enumerated values) .</param>
+    /// <param name="cbObjectId"> [in] The size, in bytes, of the object identifier.</param>
+    /// <param name="pbObjectId"> [in] The object identifier.</param>
+    /// <param name="ppChange"> [out] The change information for the given object.</param>
+    /// <returns>
+    /// S_OK if the object is changed
+    /// S_FALSE if there are no relevant changes for the given object
+    /// Standard error HRESULT otherwise
+    /// </returns>
+    HRESULT GetChangeForObject([in] PO_IDTYPE eIdType, [in] ULONG cbObjectId, [in, size_is(cbObjectId)] LPCBYTE pbObjectId, [out, retval] IPOChangeInfo **ppChange);
+
+    /// <summary>
+    /// Causes the change associated with the given object to be enumerated again during the next session
+    /// </summary>
+    /// <param name="eIdType"> [in] The object identifier format (one of the PO_IDTYPE enumerated values) .</param>
+    /// <param name="cbObjectId"> [in] The size, in bytes, of the object identifier.</param>
+    /// <param name="pbObjectId"> [in] The object identifier.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT SetExceptionOnChange([in] PO_IDTYPE eIdType, [in] ULONG cbObjectId, [in, size_is(cbObjectId)] LPCBYTE pbObjectId);
+
+    /// <summary>
+    /// Causes the change associated with the given object & change units to be enumerated again during the next session
+    /// </summary>
+    /// <param name="eIdType"> [in] The object identifier format (one of the PO_IDTYPE enumerated values) .</param>
+    /// <param name="cbObjectId"> [in] The size, in bytes, of the object identifier.</param>
+    /// <param name="pbObjectId"> [in] The object identifier.</param>
+    /// <param name="ullChangeUnits"> [in] The bitmask of change units to be enumerated in the next session.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT SetExceptionOnChangeUnits([in] PO_IDTYPE eIdType, [in] ULONG cbObjectId, [in, size_is(cbObjectId)] LPCBYTE pbObjectId, [in] ULONGLONG ullChangeUnits);
+
+    /// <summary>
+    /// Resets the session state 
+    /// </summary>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT ResetChangeEnumeration();
+
+    /// <summary>
+    /// Ends a previously started session
+    /// </summary>
+    /// <param name="eOutcome"> [in] The session outcome.</param>
+    /// <param name="ppUnkState"> [out] The session state.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT EndSyncSession([in] PO_SYNCSESSION_OUTCOME eOutcome, [out, retval] IUnknown **ppUnkState);
+
+    /// <summary>
+    /// Returns the folder metadata corresponding to the local IPM root folder
+    /// </summary>
+    /// <param name="ppMetadata"> [out] The corresponding folder metadata.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT GetRootFolder([out, retval] IPOFolderMetadata **ppMetadata);
+
+    /// <summary>
+    /// Returns the folder metadata corresponding to the given local identifier
+    /// </summary>
+    /// <param name="eIdType"> [in] The provided id format.</param>
+    /// <param name="cbObjectId"> [in] The size, in bytes, of the local identifier.</param>
+    /// <param name="pbObjectId"> [in] The local identifier for the associated object.</param>
+    /// <param name="ppMetadata"> [out] The corresponding object metadata or NULL if not found.</param>
+    /// <returns>
+    /// S_OK if the identifier is found
+    /// S_FALSE if the partner does not have metadata for the requested identifier
+    /// Standard error HRESULT otherwise
+    /// </returns>
+    HRESULT LookupFolderObjectId([in] PO_IDTYPE eIdType, [in] ULONG cbObjectId, [in, size_is(cbObjectId)] LPCBYTE pbObjectId, [out, retval] IPOFolderMetadata **ppMetadata);
+
+    /// <summary>
+    /// Returns the folder metadata corresponding to the given remote identifier
+    /// </summary>
+    /// <param name="pwszFolderId"> [in] The remote identifier for which metadata is requested.</param>
+    /// <param name="ppMetadata"> [out] The corresponding folder metadata or NULL if not found.</param>
+    /// <returns>
+    /// S_OK if the identifier is found
+    /// S_FALSE if the partner does not have metadata for the requested identifier
+    /// Standard error HRESULT otherwise
+    /// </returns>
+    HRESULT LookupFolderRemoteId([in] LPCWSTR pwszFolderId, [out, retval] IPOFolderMetadata **ppMetadata);
+
+    /// <summary>
+    /// Returns an enumerator used to iterate folder metadata for this provider
+    /// </summary>
+    /// <param name="ppEnum"> [out] The folders enumerator.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT GetFolders([out, retval] IEnumPOFolderMetadata **ppEnum);
+
+    /// <summary>
+    /// Deletes this partner
+    /// </summary>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT Delete();
+};
+
+
+/// <summary>
+/// Interface used by simple participants to manipulate object metadata
+/// </summary>
+[
+    object,
+    uuid(EDD49A70-1907-4417-AE3E-583447851BB6)
+]
+interface IPOMetadata : IUnknown
+{
+    /// <summary>
+    /// Maps an array of named properies to their property identifiers
+    /// </summary>
+    /// <param name="ceProps">[in] The number of named properties to map.</param>
+    /// <param name="rgNamedProps">[in] The array of named properties to map.</param>
+    /// <param name="rgPropIds">[out] The array of mapped property identifiers.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT GetIDsFromNames([in] DWORD ceProps, [in, size_is(ceProps)] const POPropNamed *rgNamedProps, [out, retval, size_is(ceProps)] DWORD *rgPropIds);
+
+    /// <summary>
+    /// Retrieves the property values for the given set of identifiers
+    /// </summary>
+    /// <param name="ceProps">[in] The number of properties to retrieve.</param>
+    /// <param name="rgPropIds">[in] The array of property ids to retrieve.</param>
+    /// <param name="prgProps">[out] The corresponding property values.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT GetProps([in] DWORD ceProps, [in, size_is(ceProps)] DWORD *rgPropIds, [out, retval, size_is(ceProps)] CEPROPVAL **prgProps);
+
+    /// <summary>
+    /// Stores a set of property values
+    /// </summary>
+    /// <param name="ceProps">[in] The number of properties to store.</param>
+    /// <param name="rgProps">[in] The array of property values to store.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT SetProps([in] DWORD ceProps, [in, size_is(ceProps)] const CEPROPVAL *rgProps);
+
+    /// <summary>
+    /// Returns the type for the associated object
+    /// </summary>
+    /// <param name="peType"> [out] The object type.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT GetDataType([out, retval] PO_DATATYPE *peType);
+
+    /// <summary>
+    /// Returns the local identifier for the associated object
+    /// </summary>
+    /// <param name="eIdType"> [in] The requested id format.</param>
+    /// <param name="pcbObjectId"> [inout] The size, in bytes, for the returned identifier.</param>
+    /// <param name="pbObjectId"> [out] The local identifier.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT GetObjectId([in] PO_IDTYPE eIdType, [in, out] ULONG *pcbObjectId, [out, size_is(*pcbObjectId)] LPBYTE pbObjectId);
+
+    /// <summary>
+    /// Returns the partner to which this metadata belongs
+    /// </summary>
+    /// <param name="ppPartner"> [out] The partner object.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT GetPartner([out, retval] IPOSyncPartner **ppPartner);
+
+    /// <summary>
+    /// Returns the remote identifier for the associated object
+    /// </summary>
+    /// <param name="pbstrObjectId"> [out] The remote identifier.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT GetRemoteId([out, retval] BSTR *pbstrObjectId);
+
+    /// <summary>
+    /// Sets the remote identifier for the associated object
+    /// </summary>
+    /// <param name="pwszObjectId"> [in] The remote identifier.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT SetRemoteId([in] LPCWSTR pwszObjectId);
+
+    /// <summary>
+    /// Returns the metadata instance corresponding to the associated object's parent
+    /// </summary>
+    /// <param name="ppMetadata"> [out] The parent metadata.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT GetParent([out, retval] IPOFolderMetadata **ppMetadata);
+
+    /// <summary>
+    /// Sets the metadata instance corresponding to the associated object's parent
+    /// </summary>
+    /// <param name="pMetadata"> [in] The parent metadata.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT SetParent([in] IPOFolderMetadata *pMetadata);
+};
+
+/// <summary>
+/// Interface used by simple participants to manipulate item metadata
+/// </summary>
+[
+    object,
+    uuid(57F86452-F49D-4478-8BFF-4A35D8E540C9)
+]
+interface IPOItemMetadata : IPOMetadata
+{
+    /// <summary>
+    /// Deletes this metadata instance
+    /// </summary>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT Delete();
+};
+
+/// <summary>
+/// Interface used by simple participants to manipulate folder metadata
+/// </summary>
+[
+    object,
+    uuid(1DAD6E8E-2DD5-4b0b-BB79-AEB88FF6F288)
+]
+interface IPOFolderMetadata : IPOMetadata
+{
+    /// <summary>
+    /// Returns the name for the associated folder
+    /// </summary>
+    /// <param name="pbstrName"> [out] The associated folder's name.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT GetFolderName([out, retval] BSTR *pbstrName);
+
+    /// <summary>
+    /// Returns the folder type for the associated folder
+    /// </summary>
+    /// <param name="peType"> [out] The associated folder's type.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT GetFolderType([out, retval] PO_FOLDERTYPE *peType);
+
+    /// <summary>
+    /// Returns the opaque knowledge last received from the remote replica for this folder
+    /// </summary>
+    /// <param name="pbstrRemoteKnowledge"> [out] The the opaque knowledge last received from the remote replica.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT GetRemoteKnowledge([out, retval] BSTR *pbstrRemoteKnowledge);
+
+    /// <summary>
+    /// Saves the opaque knowledge as received from the remote replica for this folder
+    /// </summary>
+    /// <param name="pwszRemoteKnowledge"> [in] The the opaque knowledge as received from the remote replica.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT SetRemoteKnowledge([in] LPCWSTR pwszRemoteKnowledge);
+
+    /// <summary>
+    /// Creates metadata for an item in this folder
+    /// </summary>
+    /// <param name="eIdType"> [in] The provided id format.</param>
+    /// <param name="cbObjectId"> [in] The size, in bytes, of the local identifier.</param>
+    /// <param name="pbObjectId"> [in] The local identifier for the associated object.</param>
+    /// <param name="pwszObjectId"> [in] The remote identifier for the child object.</param>
+    /// <param name="ppMetadata"> [out] The metadata associated with the child object.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT AddItem([in] PO_IDTYPE eIdType, [in] ULONG cbObjectId, [in, size_is(cbObjectId)] LPCBYTE pbObjectId, [in] LPCWSTR pwszObjectId, [out, retval] IPOItemMetadata **ppMetadata);
+
+    /// <summary>
+    /// Returns the item metadata corresponding to the given local identifier
+    /// </summary>
+    /// <param name="eIdType"> [in] The provided id format.</param>
+    /// <param name="cbObjectId"> [in] The size, in bytes, of the local identifier.</param>
+    /// <param name="pbObjectId"> [in] The local identifier for the associated object.</param>
+    /// <param name="ppMetadata"> [out] The corresponding object metadata or NULL if not found.</param>
+    /// <returns>
+    /// S_OK if the identifier is found in this folder
+    /// S_FALSE if the folder does not contain metadata for the requested identifier
+    /// Standard error HRESULT otherwise
+    /// </returns>
+    HRESULT LookupItemObjectId([in] PO_IDTYPE eIdType, [in] ULONG cbObjectId, [in, size_is(cbObjectId)] LPCBYTE pbObjectId, [out, retval] IPOItemMetadata **ppMetadata);
+
+    /// <summary>
+    /// Returns the item metadata corresponding to the given remote identifier
+    /// </summary>
+    /// <param name="pwszItemId"> [in] The remote identifier for which metadata is requested.</param>
+    /// <param name="ppMetadata"> [out] The corresponding object metadata or NULL if not found.</param>
+    /// <returns>
+    /// S_OK if the identifier is found in this folder
+    /// S_FALSE if the folder does not contain metadata for the requested identifier
+    /// Standard error HRESULT otherwise
+    /// </returns>
+    HRESULT LookupItemRemoteId([in] LPCWSTR pwszItemId, [out, retval] IPOItemMetadata **ppMetadata);
+
+    /// <summary>
+    /// Returns an enumerator used to iterate metadata for items in this folder
+    /// </summary>
+    /// <param name="ppEnum"> [out] The enumerator used to iterate metadata for items in this folder.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT GetItems([out, retval] IEnumPOItemMetadata **ppEnum);
+
+    /// <summary>
+    /// Creates metadata for a child folder 
+    /// </summary>
+    /// <param name="eIdType"> [in] The provided id format.</param>
+    /// <param name="cbObjectId"> [in] The size, in bytes, of the local identifier.</param>
+    /// <param name="pbObjectId"> [in] The local identifier for the associated object.</param>
+    /// <param name="pwszObjectId"> [in] The remote identifier for the child object.</param>
+    /// <param name="ppMetadata"> [out] The metadata associated with the child object.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT AddFolder([in] PO_IDTYPE eIdType, [in] ULONG cbObjectId, [in, size_is(cbObjectId)] LPCBYTE pbObjectId, [in] LPCWSTR pwszObjectId, [out, retval] IPOFolderMetadata **ppMetadata);
+
+    /// <summary>
+    /// Returns the childe folder metadata corresponding to the given local identifier
+    /// </summary>
+    /// <param name="eIdType"> [in] The provided id format.</param>
+    /// <param name="cbObjectId"> [in] The size, in bytes, of the local identifier.</param>
+    /// <param name="pbObjectId"> [in] The local identifier for the associated object.</param>
+    /// <param name="ppMetadata"> [out] The corresponding object metadata or NULL if not found.</param>
+    /// <returns>
+    /// S_OK if the identifier is found in this folder
+    /// S_FALSE if the folder does not contain metadata for the requested identifier
+    /// Standard error HRESULT otherwise
+    /// </returns>
+    HRESULT LookupFolderObjectId([in] PO_IDTYPE eIdType, [in] ULONG cbObjectId, [in, size_is(cbObjectId)] LPCBYTE pbObjectId, [out, retval] IPOFolderMetadata **ppMetadata);
+
+    /// <summary>
+    /// Returns the folder metadata corresponding to the given remote identifier
+    /// </summary>
+    /// <param name="pwszFolderId"> [in] The remote identifier for which metadata is requested.</param>
+    /// <param name="ppMetadata"> [out] The corresponding object metadata or NULL if not found.</param>
+    /// <returns>
+    /// S_OK if the identifier is found in this folder
+    /// S_FALSE if the folder does not contain metadata for the requested identifier
+    /// Standard error HRESULT otherwise
+    /// </returns>
+    HRESULT LookupFolderRemoteId([in] LPCWSTR pwszFolderId, [out, retval] IPOFolderMetadata **ppMetadata);
+
+    /// <summary>
+    /// Returns an enumerator used to iterate metadata for the child folders
+    /// </summary>
+    /// <param name="ppEnum"> [out] The metadata enumerator.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT GetChildFolders([out, retval] IEnumPOFolderMetadata **ppEnum);
+
+    /// <summary>
+    /// Deletes this metadata instance 
+    /// </summary>
+    /// <param name="fDeleteChildFolders"> [in] Whether or not to delete the object if it has child folders.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT Delete([in] BOOL fDeleteChildFolders);
+};
+
+
+/// <summary>
+/// Interface used to enumerate sync partners
+/// </summary>
+[
+    object,
+    uuid(D8706AE2-7EE3-443f-B85F-0309E3D8747F)
+]
+interface IEnumPOSyncPartners : IUnknown
+{
+    /// <summary>
+    /// Returns the next elements in the collection, if available.  
+    /// </summary>
+    /// <param name="ceRequested"> [in] The number of elements requested.</param>
+    /// <param name="rgpPartners"> [in] The buffer in which to store requested partner pointers.</param>
+    /// <param name="pceFetched"> [out] The number of elements fetched.</param>
+    /// <returns>
+    /// S_OK if any elements are returned (the number of elements returned is stored in pcFetched)
+    /// S_FALSE if no more elements are available. 
+    /// Standard HRESULT error otherwise
+    /// </returns>
+    /// <remarks>
+    /// The caller is responsible for releasing the returned interfaces
+    /// </remarks>
+    HRESULT Next([in] ULONG ceRequested, [out, size_is(ceRequested), length_is(*pceFetched)] IPOSyncPartner **rgpPartners, [out] ULONG *pceFetched);
+
+    /// <summary>
+    /// Skips the specified number of elements. 
+    /// </summary>
+    /// <param name="ceSkip"> [in] The number of elements to be skipped.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT Skip([in] ULONG ceSkip);
+
+    /// <summary>
+    /// Resets the enumerator to the beginning of the collection
+    /// </summary>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT Reset();
+
+    /// <summary>
+    /// Clones the enumerator and returns a new enumerator that is in the same state as the current one.
+    /// </summary>
+    /// <param name="ppEnum"> [out] The new enumerator object.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT Clone([out, retval] IEnumPOSyncPartners **ppEnum);
+};
+
+
+
+/// <summary>
+/// Interface used by simple participants to enumerate objects metadata
+/// </summary>
+[
+    object,
+    uuid(03DE8910-2B3A-4919-A7CB-398E6769B9F0)
+]
+interface IEnumPOItemMetadata : IUnknown
+{
+    /// <summary>
+    /// Returns the next elements in the collection, if available.  
+    /// </summary>
+    /// <param name="ceRequested"> [in] The number of elements requested.</param>
+    /// <param name="rgpMetadata"> [in] The buffer in which to store requested metadata pointers.</param>
+    /// <param name="pceFetched"> [out] The number of metadata objects fetched.</param>
+    /// <returns>
+    /// S_OK if any elements are returned (the number of elements returned is stored in pcFetched)
+    /// S_FALSE if no more elements are available. 
+    /// Standard HRESULT error otherwise
+    /// </returns>
+    /// <remarks>
+    /// The caller is responsible for releasing the returned interfaces
+    /// </remarks>
+    HRESULT Next([in] ULONG ceRequested, [out, size_is(ceRequested), length_is(*pceFetched)] IPOItemMetadata **rgpMetadata, [out] ULONG *pceFetched);
+
+    /// <summary>
+    /// Skips the specified number of elements. 
+    /// </summary>
+    /// <param name="ceSkip"> [in] The number of elements to be skipped.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT Skip([in] ULONG ceSkip);
+
+    /// <summary>
+    /// Resets the enumerator to the beginning of the collection
+    /// </summary>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT Reset();
+
+    /// <summary>
+    /// Clones the enumerator and returns a new enumerator that is in the same state as the current one.
+    /// </summary>
+    /// <param name="ppEnum"> [out] The new enumerator object.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT Clone([out, retval] IEnumPOItemMetadata **ppEnum);
+};
+
+/// <summary>
+/// Interface used by simple participants to enumerate folders
+/// </summary>
+[
+    object,
+    uuid(757B7146-7BCD-44f7-83BB-886D33B4D909)
+]
+interface IEnumPOFolderMetadata : IUnknown
+{
+    /// <summary>
+    /// Returns the next elements in the collection, if available.  
+    /// </summary>
+    /// <param name="ceRequested"> [in] The number of elements requested.</param>
+    /// <param name="rgpMetadata"> [in] The buffer in which to store requested metadata pointers.</param>
+    /// <param name="pceFetched"> [out] The number of metadata objects fetched.</param>
+    /// <returns>
+    /// S_OK if any elements are returned (the number of elements returned is stored in pcFetched)
+    /// S_FALSE if no more elements are available. 
+    /// Standard HRESULT error otherwise
+    /// </returns>
+    /// <remarks>
+    /// The caller is responsible for releasing the returned interfaces
+    /// </remarks>
+    HRESULT Next([in] ULONG ceRequested, [out, size_is(ceRequested), length_is(*pceFetched)] IPOFolderMetadata **rgpMetadata, [out] ULONG *pceFetched);
+
+    /// <summary>
+    /// Skips the specified number of elements. 
+    /// </summary>
+    /// <param name="ceSkip"> [in] The number of elements to be skipped.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT Skip([in] ULONG ceSkip);
+
+    /// <summary>
+    /// Resets the enumerator to the beginning of the collection
+    /// </summary>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT Reset();
+
+    /// <summary>
+    /// Clones the enumerator and returns a new enumerator that is in the same state as the current one.
+    /// </summary>
+    /// <param name="ppEnum"> [out] The new enumerator object.</param>
+    /// <returns>
+    /// Standard HRESULT
+    /// </returns>
+    HRESULT Clone([out, retval] IEnumPOFolderMetadata **ppEnum);
+};
+
+
+/// <summary>
+/// Type Library for PO SyncServices
+/// </summary>
+[
+    uuid(EB581927-0AFB-43d6-ABCB-CA3589EC0685),
+    version(1.0)
+]
+library POSyncServicesLib
+{
+    importlib("stdole2.tlb");
+    [
+        uuid(40B47A8F-C442-4f06-8304-AA1058EDEEA0),
+    ]
+    coclass POSyncServices
+    {
+        [default] interface IPOSyncServices;
+    };
+};

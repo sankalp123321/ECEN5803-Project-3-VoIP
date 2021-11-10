@@ -1,0 +1,1337 @@
+ shlwapi
+
+ Timestamp is 618b1595 (Tue Nov 09 17:43:01 2021)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 0000ae54H .rdata                  CODE
+ 0001:0000ae74 00000024H .rdata$debug            CODE
+ 0001:0000ae98 0001a7e0H .text                   CODE
+ 0001:00025678 000001b4H .xdata                  CODE
+ 0001:0002582c 00000000H ATL$__a                 CODE
+ 0001:0002582c 00000000H ATL$__z                 CODE
+ 0001:0002582c 0000003cH .idata$2                CODE
+ 0001:00025868 00000014H .idata$3                CODE
+ 0001:0002587c 00000220H .idata$4                CODE
+ 0001:00025a9c 0000008cH .idata$6                CODE
+ 0001:00025b30 0000221fH .edata                  CODE
+ 0002:00000000 00000220H .idata$5                DATA
+ 0002:00000220 000000e0H .data                   DATA
+ 0002:00000300 000001d8H .bss                    DATA
+ 0003:00000000 000013d8H .pdata                  DATA
+ 0004:00000000 000001a8H .rsrc$01                DATA
+ 0004:000001b0 00000b20H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:0000003c       c_szErrorDbg               1000103c     shlwapi_lib:dll.obj
+ 0001:0000003d       c_szWarningDbg             1000103d     shlwapi_lib:dll.obj
+ 0001:0000003e       c_szTrace                  1000103e     shlwapi_lib:dll.obj
+ 0001:0000003f       c_szAssertMsg              1000103f     shlwapi_lib:dll.obj
+ 0001:00000040       c_szAssertFailed           10001040     shlwapi_lib:dll.obj
+ 0001:00000041       c_szRipNoFn                10001041     shlwapi_lib:dll.obj
+ 0001:00000042       c_szRipMsg                 10001042     shlwapi_lib:dll.obj
+ 0001:00000043       c_szCcshellIniSecDebug     10001043     shlwapi_lib:dll.obj
+ 0001:00000044       c_szCcshellIniFile         10001044     shlwapi_lib:dll.obj
+ 0001:00000048       c_wszErrorDbg              10001048     shlwapi_lib:dll.obj
+ 0001:0000004c       c_wszWarningDbg            1000104c     shlwapi_lib:dll.obj
+ 0001:00000050       c_wszTrace                 10001050     shlwapi_lib:dll.obj
+ 0001:00000054       c_wszAssertMsg             10001054     shlwapi_lib:dll.obj
+ 0001:00000058       c_wszAssertFailed          10001058     shlwapi_lib:dll.obj
+ 0001:0000005c       c_wszRipNoFn               1000105c     shlwapi_lib:dll.obj
+ 0001:00000060       ??_C@_1BI@DPHNNMJ@?$AAT?$AAe?$AAr?$AAm?$AAP?$AAa?$AAl?$AAe?$AAt?$AAt?$AAe?$AA?$AA@ 10001060     shlwapi_lib:dll.obj
+ 0001:00000078       IID_IShellBrowser          10001078     shlwapi_lib:shdocvw6util.obj
+ 0001:00000088       SID_STopLevelBrowser       10001088     shlwapi_lib:shdocvw6util.obj
+ 0001:00000098       IID_IQueryAssociations     10001098     shlwapi_lib:shdocvw6util.obj
+ 0001:000000a8       CLSID_QueryAssociations    100010a8     shlwapi_lib:shdocvw6util.obj
+ 0001:000000b8       POLID_ScanWithAntiVirus    100010b8     shlwapi_lib:shdocvw6util.obj
+ 0001:000000c8       POLID_SaveZoneInformation  100010c8     shlwapi_lib:shdocvw6util.obj
+ 0001:000000d8       POLID_UseTrustedHandlers   100010d8     shlwapi_lib:shdocvw6util.obj
+ 0001:000000e8       POLID_HideZoneInfoOnProperties 100010e8     shlwapi_lib:shdocvw6util.obj
+ 0001:000000f8       POLID_DefaultFileTypeRisk  100010f8     shlwapi_lib:shdocvw6util.obj
+ 0001:00000108       POLID_HighRiskFileTypes    10001108     shlwapi_lib:shdocvw6util.obj
+ 0001:00000118       POLID_ModRiskFileTypes     10001118     shlwapi_lib:shdocvw6util.obj
+ 0001:00000128       POLID_LowRiskFileTypes     10001128     shlwapi_lib:shdocvw6util.obj
+ 0001:00000138       POLID_UsePathEnvVarForCommandTemplates 10001138     shlwapi_lib:shdocvw6util.obj
+ 0001:00000148       POLID_EnableShellExecuteHooks 10001148     shlwapi_lib:shdocvw6util.obj
+ 0001:00000158       POLID_PerInstanceIconHandlerForOffline 10001158     shlwapi_lib:shdocvw6util.obj
+ 0001:00000168       ??_C@_1BE@HHHFKALA@?$AAg?$AAa?$AAm?$AAe?$AAm?$AAe?$AAd?$AAi?$AAa?$AA?$AA@ 10001168     shlwapi_lib:assocapi.obj
+ 0001:0000017c       ??_C@_1BI@GPOLOPBB@?$AAa?$AAp?$AAp?$AAl?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 1000117c     shlwapi_lib:assocapi.obj
+ 0001:00000194       ??_C@_1O@KFLILLAF@?$AAs?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?$AA@ 10001194     shlwapi_lib:assocapi.obj
+ 0001:000001a4       ??_C@_1BG@NMMOFMGA@?$AAc?$AAo?$AAm?$AAp?$AAr?$AAe?$AAs?$AAs?$AAe?$AAd?$AA?$AA@ 100011a4     shlwapi_lib:assocapi.obj
+ 0001:000001bc       ??_C@_1M@NHCOFMD@?$AAv?$AAi?$AAd?$AAe?$AAo?$AA?$AA@ 100011bc     shlwapi_lib:assocapi.obj
+ 0001:000001c8       ??_C@_19HIPAKEND@?$AAt?$AAe?$AAx?$AAt?$AA?$AA@ 100011c8     shlwapi_lib:assocapi.obj
+ 0001:000001d4       ??_C@_1BC@OFMIOBLB@?$AAd?$AAo?$AAc?$AAu?$AAm?$AAe?$AAn?$AAt?$AA?$AA@ 100011d4     shlwapi_lib:assocapi.obj
+ 0001:000001e8       ??_C@_1M@DPKCEAKN@?$AAa?$AAu?$AAd?$AAi?$AAo?$AA?$AA@ 100011e8     shlwapi_lib:assocapi.obj
+ 0001:000001f4       ??_C@_1M@BAIAHIDP@?$AAi?$AAm?$AAa?$AAg?$AAe?$AA?$AA@ 100011f4     shlwapi_lib:assocapi.obj
+ 0001:00000200       ??_C@_11LOCGONAA@?$AA?$AA@ 10001200     shlwapi_lib:assocapi.obj
+ 0001:00000204       ??_C@_1BC@HINEMLFB@?$AA?4?$AAv?$AAf?$AAo?$AAl?$AAd?$AAe?$AAr?$AA?$AA@ 10001204     shlwapi_lib:assocapi.obj
+ 0001:00000218       ??_C@_1M@FKJKLOKH@?$AA?4?$AAh?$AAt?$AAm?$AAl?$AA?$AA@ 10001218     shlwapi_lib:assocapi.obj
+ 0001:00000224       ??_C@_19BHBAHPON@?$AA?4?$AAh?$AAt?$AAm?$AA?$AA@ 10001224     shlwapi_lib:assocapi.obj
+ 0001:00000230       ??_C@_19GPFKLHM@?$AA?4?$AAm?$AAh?$AAt?$AA?$AA@ 10001230     shlwapi_lib:assocapi.obj
+ 0001:0000023c       ??_C@_19DELFNHLM@?$AA?4?$AAz?$AAi?$AAp?$AA?$AA@ 1000123c     shlwapi_lib:assocapi.obj
+ 0001:00000248       ??_C@_1BA@CHNACMIO@?$AA?4?$AAd?$AAv?$AAr?$AA?9?$AAm?$AAs?$AA?$AA@ 10001248     shlwapi_lib:assocapi.obj
+ 0001:00000258       ??_C@_19JIIEFKMM@?$AA?4?$AAw?$AAv?$AAx?$AA?$AA@ 10001258     shlwapi_lib:assocapi.obj
+ 0001:00000264       ??_C@_19BBEKNPKH@?$AA?4?$AAw?$AAm?$AAv?$AA?$AA@ 10001264     shlwapi_lib:assocapi.obj
+ 0001:00000270       ??_C@_17KJEKECFF@?$AA?4?$AAw?$AAm?$AA?$AA@ 10001270     shlwapi_lib:assocapi.obj
+ 0001:00000278       ??_C@_1M@HKDKPBNA@?$AA?4?$AAm?$AAp?$AAv?$AA2?$AA?$AA@ 10001278     shlwapi_lib:assocapi.obj
+ 0001:00000284       ??_C@_19KLNMNDPL@?$AA?4?$AAm?$AAp?$AAg?$AA?$AA@ 10001284     shlwapi_lib:assocapi.obj
+ 0001:00000290       ??_C@_1M@DKLHOHF@?$AA?4?$AAm?$AAp?$AAe?$AAg?$AA?$AA@ 10001290     shlwapi_lib:assocapi.obj
+ 0001:0000029c       ??_C@_19BNFBLHA@?$AA?4?$AAm?$AAp?$AAe?$AA?$AA@ 1000129c     shlwapi_lib:assocapi.obj
+ 0001:000002a8       ??_C@_19IOLHIMCH@?$AA?4?$AAm?$AAp?$AAa?$AA?$AA@ 100012a8     shlwapi_lib:assocapi.obj
+ 0001:000002b4       ??_C@_1M@PKIFHGMA@?$AA?4?$AAm?$AAp?$AA2?$AAv?$AA?$AA@ 100012b4     shlwapi_lib:assocapi.obj
+ 0001:000002c0       ??_C@_19IHHNDKMI@?$AA?4?$AAm?$AA1?$AAv?$AA?$AA@ 100012c0     shlwapi_lib:assocapi.obj
+ 0001:000002cc       ??_C@_19BPJLJBCH@?$AA?4?$AAI?$AAV?$AAF?$AA?$AA@ 100012cc     shlwapi_lib:assocapi.obj
+ 0001:000002d8       ??_C@_19HCJNPDND@?$AA?4?$AAa?$AAs?$AAx?$AA?$AA@ 100012d8     shlwapi_lib:assocapi.obj
+ 0001:000002e4       ??_C@_19MKPFFCJK@?$AA?4?$AAa?$AAv?$AAi?$AA?$AA@ 100012e4     shlwapi_lib:assocapi.obj
+ 0001:000002f0       ??_C@_19IGFHGIOP@?$AA?4?$AAw?$AAa?$AAx?$AA?$AA@ 100012f0     shlwapi_lib:assocapi.obj
+ 0001:000002fc       ??_C@_19OJIEDMOH@?$AA?4?$AAs?$AAn?$AAd?$AA?$AA@ 100012fc     shlwapi_lib:assocapi.obj
+ 0001:00000308       ??_C@_19FBNAJGAK@?$AA?4?$AAr?$AAm?$AAi?$AA?$AA@ 10001308     shlwapi_lib:assocapi.obj
+ 0001:00000314       ??_C@_19NIAADECN@?$AA?4?$AAm?$AA3?$AAu?$AA?$AA@ 10001314     shlwapi_lib:assocapi.obj
+ 0001:00000320       ??_C@_17OJGINMKD@?$AA?4?$AAa?$AAu?$AA?$AA@ 10001320     shlwapi_lib:assocapi.obj
+ 0001:00000328       ??_C@_1M@EEELKBDA@?$AA?4?$AAa?$AAi?$AAf?$AAf?$AA?$AA@ 10001328     shlwapi_lib:assocapi.obj
+ 0001:00000334       ??_C@_1M@HDJFFBAC@?$AA?4?$AAa?$AAi?$AAf?$AAc?$AA?$AA@ 10001334     shlwapi_lib:assocapi.obj
+ 0001:00000340       ??_C@_19GABGPCIC@?$AA?4?$AAa?$AAi?$AAf?$AA?$AA@ 10001340     shlwapi_lib:assocapi.obj
+ 0001:0000034c       ??_C@_1M@ELNMPAOD@?$AA?4?$AAm?$AAi?$AAd?$AAi?$AA?$AA@ 1000134c     shlwapi_lib:assocapi.obj
+ 0001:00000358       ??_C@_19JNLACPEG@?$AA?4?$AAm?$AAi?$AAd?$AA?$AA@ 10001358     shlwapi_lib:assocapi.obj
+ 0001:00000364       ??_C@_19NMIELAIB@?$AA?4?$AAw?$AAm?$AAa?$AA?$AA@ 10001364     shlwapi_lib:assocapi.obj
+ 0001:00000370       ??_C@_19GGIIBPNM@?$AA?4?$AAw?$AAa?$AAv?$AA?$AA@ 10001370     shlwapi_lib:assocapi.obj
+ 0001:0000037c       ??_C@_19OPLDELAO@?$AA?4?$AAm?$AAp?$AA3?$AA?$AA@ 1000137c     shlwapi_lib:assocapi.obj
+ 0001:00000388       ??_C@_19PBJFKIJE@?$AA?4?$AAw?$AAm?$AAx?$AA?$AA@ 10001388     shlwapi_lib:assocapi.obj
+ 0001:00000394       ??_C@_19MCFLNDHP@?$AA?4?$AAa?$AAs?$AAf?$AA?$AA@ 10001394     shlwapi_lib:assocapi.obj
+ 0001:000003a0       ??_C@_19HCGEHDLH@?$AA?4?$AAm?$AAp?$AA4?$AA?$AA@ 100013a0     shlwapi_lib:assocapi.obj
+ 0001:000003ac       ??_C@_19FHAPCMGL@?$AA?4?$AAm?$AAp?$AA2?$AA?$AA@ 100013ac     shlwapi_lib:assocapi.obj
+ 0001:000003b8       ??_C@_19EBFDIIDI@?$AA?4?$AAw?$AAm?$AAf?$AA?$AA@ 100013b8     shlwapi_lib:assocapi.obj
+ 0001:000003c4       ??_C@_1M@IFMMOLJM@?$AA?4?$AAt?$AAi?$AAf?$AAf?$AA?$AA@ 100013c4     shlwapi_lib:assocapi.obj
+ 0001:000003d0       ??_C@_19FEENMNMN@?$AA?4?$AAt?$AAi?$AAf?$AA?$AA@ 100013d0     shlwapi_lib:assocapi.obj
+ 0001:000003dc       ??_C@_19NAFKPKBH@?$AA?4?$AAr?$AAl?$AAe?$AA?$AA@ 100013dc     shlwapi_lib:assocapi.obj
+ 0001:000003e8       ??_C@_19HFLOJEOK@?$AA?4?$AAp?$AAn?$AAg?$AA?$AA@ 100013e8     shlwapi_lib:assocapi.obj
+ 0001:000003f4       ??_C@_1M@OBHHGFAM@?$AA?4?$AAj?$AAp?$AAe?$AAg?$AA?$AA@ 100013f4     shlwapi_lib:assocapi.obj
+ 0001:00000400       ??_C@_19LBABCGJ@?$AA?4?$AAj?$AAp?$AAe?$AA?$AA@ 10001400     shlwapi_lib:assocapi.obj
+ 0001:0000040c       ??_C@_19KBBJNKOC@?$AA?4?$AAj?$AAp?$AAg?$AA?$AA@ 1000140c     shlwapi_lib:assocapi.obj
+ 0001:00000418       ??_C@_1M@JENNPKLO@?$AA?4?$AAj?$AAf?$AAi?$AAf?$AA?$AA@ 10001418     shlwapi_lib:assocapi.obj
+ 0001:00000424       ??_C@_19GPGAIFNL@?$AA?4?$AAi?$AAc?$AAo?$AA?$AA@ 10001424     shlwapi_lib:assocapi.obj
+ 0001:00000430       ??_C@_19KGHJPLAF@?$AA?4?$AAg?$AAi?$AAf?$AA?$AA@ 10001430     shlwapi_lib:assocapi.obj
+ 0001:0000043c       ??_C@_19HPMNLOGO@?$AA?4?$AAe?$AAm?$AAf?$AA?$AA@ 1000143c     shlwapi_lib:assocapi.obj
+ 0001:00000448       ??_C@_19KHJEGLLB@?$AA?4?$AAd?$AAi?$AAb?$AA?$AA@ 10001448     shlwapi_lib:assocapi.obj
+ 0001:00000454       ??_C@_19HKLPDE@?$AA?4?$AAb?$AAm?$AAp?$AA?$AA@ 10001454     shlwapi_lib:assocapi.obj
+ 0001:00000460       ??_C@_19JIFAJMOA@?$AA?4?$AAw?$AAs?$AAh?$AA?$AA@ 10001460     shlwapi_lib:assocapi.obj
+ 0001:0000046c       ??_C@_19HIIPOLND@?$AA?4?$AAw?$AAs?$AAf?$AA?$AA@ 1000146c     shlwapi_lib:assocapi.obj
+ 0001:00000478       ??_C@_19EPFBBLOB@?$AA?4?$AAw?$AAs?$AAc?$AA?$AA@ 10001478     shlwapi_lib:assocapi.obj
+ 0001:00000484       ??_C@_17BJIMGCPJ@?$AA?4?$AAw?$AAs?$AA?$AA@ 10001484     shlwapi_lib:assocapi.obj
+ 0001:0000048c       ??_C@_19FMIANLLH@?$AA?4?$AAv?$AAs?$AAw?$AA?$AA@ 1000148c     shlwapi_lib:assocapi.obj
+ 0001:00000498       ??_C@_19EODFHEFJ@?$AA?4?$AAv?$AAs?$AAt?$AA?$AA@ 10001498     shlwapi_lib:assocapi.obj
+ 0001:000004a4       ??_C@_19NDOCEMOA@?$AA?4?$AAv?$AAs?$AAs?$AA?$AA@ 100014a4     shlwapi_lib:assocapi.obj
+ 0001:000004b0       ??_C@_1BE@BOMJBEEO@?$AA?4?$AAv?$AAs?$AAm?$AAa?$AAc?$AAr?$AAo?$AAs?$AA?$AA@ 100014b0     shlwapi_lib:assocapi.obj
+ 0001:000004c4       ??_C@_19BLGIJNNO@?$AA?4?$AAv?$AAb?$AAs?$AA?$AA@ 100014c4     shlwapi_lib:assocapi.obj
+ 0001:000004d0       ??_C@_19GOBKJFJN@?$AA?4?$AAv?$AAb?$AAe?$AA?$AA@ 100014d0     shlwapi_lib:assocapi.obj
+ 0001:000004dc       ??_C@_17DKHFIBKG@?$AA?4?$AAv?$AAb?$AA?$AA@ 100014dc     shlwapi_lib:assocapi.obj
+ 0001:000004e4       ??_C@_19JOELNPGP@?$AA?4?$AAu?$AAr?$AAl?$AA?$AA@ 100014e4     shlwapi_lib:assocapi.obj
+ 0001:000004f0       ??_C@_19LKKOIHJI@?$AA?4?$AAt?$AAm?$AAp?$AA?$AA@ 100014f0     shlwapi_lib:assocapi.obj
+ 0001:000004fc       ??_C@_19PCBDLANM@?$AA?4?$AAs?$AAh?$AAs?$AA?$AA@ 100014fc     shlwapi_lib:assocapi.obj
+ 0001:00000508       ??_C@_19BKLGIACG@?$AA?4?$AAs?$AAh?$AAb?$AA?$AA@ 10001508     shlwapi_lib:assocapi.obj
+ 0001:00000514       ??_C@_19FADHIKG@?$AA?4?$AAs?$AAc?$AAt?$AA?$AA@ 10001514     shlwapi_lib:assocapi.obj
+ 0001:00000520       ??_C@_19CAGICHHK@?$AA?4?$AAs?$AAc?$AAr?$AA?$AA@ 10001520     shlwapi_lib:assocapi.obj
+ 0001:0000052c       ??_C@_19PPBDOHLC@?$AA?4?$AAs?$AAc?$AAf?$AA?$AA@ 1000152c     shlwapi_lib:assocapi.obj
+ 0001:00000538       ??_C@_19FNFMGDFE@?$AA?4?$AAr?$AAe?$AAg?$AA?$AA@ 10001538     shlwapi_lib:assocapi.obj
+ 0001:00000544       ??_C@_19IIFKHNNO@?$AA?4?$AAp?$AAs?$AAt?$AA?$AA@ 10001544     shlwapi_lib:assocapi.obj
+ 0001:00000550       ??_C@_19BKKFGAK@?$AA?4?$AAp?$AAr?$AAg?$AA?$AA@ 10001550     shlwapi_lib:assocapi.obj
+ 0001:0000055c       ??_C@_19LJBGDBGP@?$AA?4?$AAp?$AAr?$AAf?$AA?$AA@ 1000155c     shlwapi_lib:assocapi.obj
+ 0001:00000568       ??_C@_17MPDBFII@?$AA?4?$AAp?$AAl?$AA?$AA@ 10001568     shlwapi_lib:assocapi.obj
+ 0001:00000570       ??_C@_19NAAHMDDH@?$AA?4?$AAp?$AAi?$AAf?$AA?$AA@ 10001570     shlwapi_lib:assocapi.obj
+ 0001:0000057c       ??_C@_19NLJFCINK@?$AA?4?$AAp?$AAc?$AAd?$AA?$AA@ 1000157c     shlwapi_lib:assocapi.obj
+ 0001:00000588       ??_C@_19DGICBEEO@?$AA?4?$AAo?$AAp?$AAs?$AA?$AA@ 10001588     shlwapi_lib:assocapi.obj
+ 0001:00000594       ??_C@_19GPOEFJCE@?$AA?4?$AAm?$AAs?$AAt?$AA?$AA@ 10001594     shlwapi_lib:assocapi.obj
+ 0001:000005a0       ??_C@_19OAIGMOHD@?$AA?4?$AAm?$AAs?$AAp?$AA?$AA@ 100015a0     shlwapi_lib:assocapi.obj
+ 0001:000005ac       ??_C@_19MNJHNGGG@?$AA?4?$AAm?$AAs?$AAi?$AA?$AA@ 100015ac     shlwapi_lib:assocapi.obj
+ 0001:000005b8       ??_C@_1BA@DEBFAPJE@?$AA?4?$AAm?$AAs?$AAh?$AAx?$AAm?$AAl?$AA?$AA@ 100015b8     shlwapi_lib:assocapi.obj
+ 0001:000005c8       ??_C@_19HFCLLBAD@?$AA?4?$AAm?$AAs?$AAh?$AA?$AA@ 100015c8     shlwapi_lib:assocapi.obj
+ 0001:000005d4       ??_C@_19KCCKDGAC@?$AA?4?$AAm?$AAs?$AAc?$AA?$AA@ 100015d4     shlwapi_lib:assocapi.obj
+ 0001:000005e0       ??_C@_19JBOIBMDE@?$AA?4?$AAm?$AAd?$AAz?$AA?$AA@ 100015e0     shlwapi_lib:assocapi.obj
+ 0001:000005ec       ??_C@_19GDICMEOJ@?$AA?4?$AAm?$AAd?$AAw?$AA?$AA@ 100015ec     shlwapi_lib:assocapi.obj
+ 0001:000005f8       ??_C@_19HBDHGLAH@?$AA?4?$AAm?$AAd?$AAt?$AA?$AA@ 100015f8     shlwapi_lib:assocapi.obj
+ 0001:00000604       ??_C@_19JJJCFLPN@?$AA?4?$AAm?$AAd?$AAe?$AA?$AA@ 10001604     shlwapi_lib:assocapi.obj
+ 0001:00000610       ??_C@_19EEFGDEE@?$AA?4?$AAm?$AAd?$AAb?$AA?$AA@ 10001610     shlwapi_lib:assocapi.obj
+ 0001:0000061c       ??_C@_19BGPAMMKK@?$AA?4?$AAm?$AAd?$AAa?$AA?$AA@ 1000161c     shlwapi_lib:assocapi.obj
+ 0001:00000628       ??_C@_19JGCCMEKL@?$AA?4?$AAm?$AAc?$AAf?$AA?$AA@ 10001628     shlwapi_lib:assocapi.obj
+ 0001:00000634       ??_C@_19DDEPFFFK@?$AA?4?$AAm?$AAa?$AAw?$AA?$AA@ 10001634     shlwapi_lib:assocapi.obj
+ 0001:00000640       ??_C@_19ILPDDCDP@?$AA?4?$AAm?$AAa?$AAv?$AA?$AA@ 10001640     shlwapi_lib:assocapi.obj
+ 0001:0000064c       ??_C@_19JJEGJNNB@?$AA?4?$AAm?$AAa?$AAu?$AA?$AA@ 1000164c     shlwapi_lib:assocapi.obj
+ 0001:00000658       ??_C@_19CBPKPKLE@?$AA?4?$AAm?$AAa?$AAt?$AA?$AA@ 10001658     shlwapi_lib:assocapi.obj
+ 0001:00000664       ??_C@_19LMCNMCAN@?$AA?4?$AAm?$AAa?$AAs?$AA?$AA@ 10001664     shlwapi_lib:assocapi.obj
+ 0001:00000670       ??_C@_19EJBKFGI@?$AA?4?$AAm?$AAa?$AAr?$AA?$AA@ 10001670     shlwapi_lib:assocapi.obj
+ 0001:0000067c       ??_C@_19BGCEAKIG@?$AA?4?$AAm?$AAa?$AAq?$AA?$AA@ 1000167c     shlwapi_lib:assocapi.obj
+ 0001:00000688       ??_C@_19MOLOCKB@?$AA?4?$AAm?$AAa?$AAm?$AA?$AA@ 10001688     shlwapi_lib:assocapi.obj
+ 0001:00000694       ??_C@_19GDFGACMF@?$AA?4?$AAm?$AAa?$AAg?$AA?$AA@ 10001694     shlwapi_lib:assocapi.obj
+ 0001:000006a0       ??_C@_19NLOKGFKA@?$AA?4?$AAm?$AAa?$AAf?$AA?$AA@ 100016a0     shlwapi_lib:assocapi.obj
+ 0001:000006ac       ??_C@_19HBODKNCL@?$AA?4?$AAm?$AAa?$AAd?$AA?$AA@ 100016ac     shlwapi_lib:assocapi.obj
+ 0001:000006b8       ??_C@_19BEHMAPDG@?$AA?4?$AAl?$AAn?$AAk?$AA?$AA@ 100016b8     shlwapi_lib:assocapi.obj
+ 0001:000006c4       ??_C@_19LDEELIIE@?$AA?4?$AAk?$AAs?$AAh?$AA?$AA@ 100016c4     shlwapi_lib:assocapi.obj
+ 0001:000006d0       ??_C@_19INIEGAMH@?$AA?4?$AAj?$AAs?$AAe?$AA?$AA@ 100016d0     shlwapi_lib:assocapi.obj
+ 0001:000006dc       ??_C@_17KGMEHDLM@?$AA?4?$AAj?$AAs?$AA?$AA@ 100016dc     shlwapi_lib:assocapi.obj
+ 0001:000006e4       ??_C@_19GLHMFPNP@?$AA?4?$AAi?$AAt?$AAs?$AA?$AA@ 100016e4     shlwapi_lib:assocapi.obj
+ 0001:000006f0       ??_C@_19GEMMMAIJ@?$AA?4?$AAi?$AAs?$AAp?$AA?$AA@ 100016f0     shlwapi_lib:assocapi.obj
+ 0001:000006fc       ??_C@_19MJDBHOCC@?$AA?4?$AAi?$AAn?$AAs?$AA?$AA@ 100016fc     shlwapi_lib:assocapi.obj
+ 0001:00000708       ??_C@_19KOPGNJIP@?$AA?4?$AAi?$AAn?$AAf?$AA?$AA@ 10001708     shlwapi_lib:assocapi.obj
+ 0001:00000714       ??_C@_19FNMGMAFF@?$AA?4?$AAh?$AAt?$AAa?$AA?$AA@ 10001714     shlwapi_lib:assocapi.obj
+ 0001:00000720       ??_C@_19FKOGHAFJ@?$AA?4?$AAh?$AAl?$AAp?$AA?$AA@ 10001720     shlwapi_lib:assocapi.obj
+ 0001:0000072c       ??_C@_19LKBKABBO@?$AA?4?$AAg?$AAr?$AAp?$AA?$AA@ 1000172c     shlwapi_lib:assocapi.obj
+ 0001:00000738       ??_C@_19NHCLCCOG@?$AA?4?$AAf?$AAx?$AAp?$AA?$AA@ 10001738     shlwapi_lib:assocapi.obj
+ 0001:00000744       ??_C@_19DOGDICKI@?$AA?4?$AAe?$AAx?$AAe?$AA?$AA@ 10001744     shlwapi_lib:assocapi.obj
+ 0001:00000750       ??_C@_19GAKBKDDB@?$AA?4?$AAc?$AAs?$AAh?$AA?$AA@ 10001750     shlwapi_lib:assocapi.obj
+ 0001:0000075c       ??_C@_19LBDCJILD@?$AA?4?$AAc?$AAr?$AAt?$AA?$AA@ 1000175c     shlwapi_lib:assocapi.obj
+ 0001:00000768       ??_C@_19GJFHEGMI@?$AA?4?$AAc?$AAp?$AAl?$AA?$AA@ 10001768     shlwapi_lib:assocapi.obj
+ 0001:00000774       ??_C@_19CDGLJBOD@?$AA?4?$AAc?$AAo?$AAm?$AA?$AA@ 10001774     shlwapi_lib:assocapi.obj
+ 0001:00000780       ??_C@_19BDKLHPGC@?$AA?4?$AAc?$AAm?$AAd?$AA?$AA@ 10001780     shlwapi_lib:assocapi.obj
+ 0001:0000078c       ??_C@_19DOGOKBFL@?$AA?4?$AAc?$AAh?$AAm?$AA?$AA@ 1000178c     shlwapi_lib:assocapi.obj
+ 0001:00000798       ??_C@_19IKIKPFEM@?$AA?4?$AAc?$AAe?$AAr?$AA?$AA@ 10001798     shlwapi_lib:assocapi.obj
+ 0001:000007a4       ??_C@_19PINKOIBI@?$AA?4?$AAb?$AAa?$AAt?$AA?$AA@ 100017a4     shlwapi_lib:assocapi.obj
+ 0001:000007b0       ??_C@_19GFANNAKB@?$AA?4?$AAb?$AAa?$AAs?$AA?$AA@ 100017b0     shlwapi_lib:assocapi.obj
+ 0001:000007bc       ??_C@_19LHCJNLDM@?$AA?4?$AAa?$AAs?$AAp?$AA?$AA@ 100017bc     shlwapi_lib:assocapi.obj
+ 0001:000007c8       ??_C@_19DBLNKJJC@?$AA?4?$AAa?$AAp?$AAp?$AA?$AA@ 100017c8     shlwapi_lib:assocapi.obj
+ 0001:000007d4       ??_C@_19KJPKOJBP@?$AA?4?$AAa?$AAd?$AAp?$AA?$AA@ 100017d4     shlwapi_lib:assocapi.obj
+ 0001:000007e0       ??_C@_19MODNEOLC@?$AA?4?$AAa?$AAd?$AAe?$AA?$AA@ 100017e0     shlwapi_lib:assocapi.obj
+ 0001:00000b30       ??_C@_1BM@DKHLGIOM@?$AAP?$AAe?$AAr?$AAc?$AAe?$AAi?$AAv?$AAe?$AAd?$AAT?$AAy?$AAp?$AAe?$AA?$AA@ 10001b30     shlwapi_lib:assocapi.obj
+ 0001:00000b4c       _GUID_c46ca590_3c3f_11d2_bee6_0000f805ca57 10001b4c     shlwapi_lib:assocapi.obj
+ 0001:00000b5c       ??_C@_0BL@BIEHGGMJ@SaferiIsExecutableFileType?$AA@ 10001b5c     shlwapi_lib:assocapi.obj
+ 0001:00000b78       ??_C@_1BK@JHLNAEJL@?$AAa?$AAd?$AAv?$AAa?$AAp?$AAi?$AA3?$AA2?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10001b78     shlwapi_lib:assocapi.obj
+ 0001:00000b94       c_aOrders                  10001b94     shlwapi_lib:strings.obj
+ 0001:00000ba4       ??_C@_19MNDKMKJC@?$AA?$CF?$AA0?$AA2?$AAd?$AA?$AA@ 10001ba4     shlwapi_lib:strings.obj
+ 0001:00000bb0       ??_C@_15KNBIKKIN@?$AA?$CF?$AAd?$AA?$AA@ 10001bb0     shlwapi_lib:strings.obj
+ 0001:00000bb8       GUID_Restrictions          10001bb8     shlwapi_lib:util.obj
+ 0001:00000bd0       ??_C@_1GG@JIBOPEHI@?$AAS?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AA?2?$AAC?$AAu?$AAr?$AAr?$AAe@ 10001bd0     shlwapi_lib:util.obj
+ 0001:00000c38       _GUID_b196b284_bab4_101a_b69c_00aa00341d07 10001c38     shlwapi_lib:util.obj
+ 0001:00000c48       _GUID_b722bccb_4e68_101b_a2bc_00aa00404770 10001c48     shlwapi_lib:util.obj
+ 0001:00000c58       _GUID_00000000_0000_0000_c000_000000000046 10001c58     shlwapi_lib:util.obj
+ 0001:00000c68       _GUID_000214e3_0000_0000_c000_000000000046 10001c68     shlwapi_lib:util.obj
+ 0001:00000c78       _GUID_79eac9ed_baf9_11ce_8c82_00aa004ba90b 10001c78     shlwapi_lib:util.obj
+ 0001:00000c88       _GUID_00000114_0000_0000_c000_000000000046 10001c88     shlwapi_lib:util.obj
+ 0001:00000c98       _GUID_5836fb00_8187_11cf_a12b_00aa004ae837 10001c98     shlwapi_lib:util.obj
+ 0001:00000ca8       _GUID_924502a7_cc8e_4f60_ae1f_f70c0a2b7a7c 10001ca8     shlwapi_lib:util.obj
+ 0001:00000cb8       _GUID_79eac9ee_baf9_11ce_8c82_00aa004ba90b 10001cb8     shlwapi_lib:util.obj
+ 0001:00000cc8       _GUID_fc4801a3_2ba9_11cf_a229_00aa003d7352 10001cc8     shlwapi_lib:util.obj
+ 0001:00000cd8       _GUID_000214ea_0000_0000_c000_000000000046 10001cd8     shlwapi_lib:util.obj
+ 0001:00000ce8       _GUID_0000010c_0000_0000_c000_000000000046 10001ce8     shlwapi_lib:util.obj
+ 0001:00000cf8       _GUID_6d5140c1_7436_11ce_8034_00aa006009fa 10001cf8     shlwapi_lib:util.obj
+ 0001:00000d08       _GUID_d30c1661_cdaf_11d0_8a3e_00c04fc9e26e 10001d08     shlwapi_lib:util.obj
+ 0001:00000d18       _GUID_37d84f60_42cb_11ce_8135_00aa004bb851 10001d18     shlwapi_lib:util.obj
+ 0001:00000d28       _GUID_b196b289_bab4_101a_b69c_00aa00341d07 10001d28     shlwapi_lib:util.obj
+ 0001:00000d38       _GUID_eab22ac1_30c1_11cf_a7eb_0000c05bae0b 10001d38     shlwapi_lib:util.obj
+ 0001:00000d48       ??_C@_1CG@JIEHKHEF@?$AAS?$AAk?$AAi?$AAp?$AA?5?$AAB?$AAi?$AAn?$AAd?$AAi?$AAn?$AAg?$AA?5?$AAC?$AAL?$AAS?$AAI?$AAD?$AA?$AA@ 10001d48     shlwapi_lib:util.obj
+ 0001:00000dd4       ??_C@_0P@KEPNMJBE@AcceptLanguage?$AA@ 10001dd4     shlwapi_lib:httpfnc.obj
+ 0001:00000de4       ??_C@_1BO@FOMFCFEN@?$AAA?$AAc?$AAc?$AAe?$AAp?$AAt?$AAL?$AAa?$AAn?$AAg?$AAu?$AAa?$AAg?$AAe?$AA?$AA@ 10001de4     shlwapi_lib:httpfnc.obj
+ 0001:00000e04       ??_C@_0DD@HKJCGKLK@Software?2Microsoft?2Internet?5Expl@ 10001e04     shlwapi_lib:httpfnc.obj
+ 0001:00000e38       ??_C@_1DC@MJFFBHFC@?$AAR?$AAe?$AAg?$AAi?$AAs?$AAt?$AAe?$AAr?$AAF?$AAo?$AAr?$AAm?$AAa?$AAt?$AAE?$AAn?$AAu?$AAm?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$AA@ 10001e38     shlwapi_lib:httpfnc.obj
+ 0001:00000e6c       ??_C@_1CO@GHEADOCI@?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AAF?$AAo?$AAr?$AAm?$AAa?$AAt?$AAE?$AAn?$AAu?$AAm?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$AA@ 10001e6c     shlwapi_lib:httpfnc.obj
+ 0001:00000e9c       ??_C@_17FFBLCHOA@?$AAr?$AAe?$AAs?$AA?$AA@ 10001e9c     shlwapi_lib:urlpars.obj
+ 0001:00000ea4       ??_C@_1BC@PKLEEMMC@?$AAv?$AAb?$AAs?$AAc?$AAr?$AAi?$AAp?$AAt?$AA?$AA@ 10001ea4     shlwapi_lib:urlpars.obj
+ 0001:00000eb8       ??_C@_1BG@IDOPBDEC@?$AAj?$AAa?$AAv?$AAa?$AAs?$AAc?$AAr?$AAi?$AAp?$AAt?$AA?$AA@ 10001eb8     shlwapi_lib:urlpars.obj
+ 0001:00000ed0       ??_C@_1M@LCMPGCNK@?$AAs?$AAo?$AAc?$AAk?$AAs?$AA?$AA@ 10001ed0     shlwapi_lib:urlpars.obj
+ 0001:00000edc       ??_C@_1O@PPNEGLOB@?$AAm?$AAa?$AAi?$AAl?$AAt?$AAo?$AA?$AA@ 10001edc     shlwapi_lib:urlpars.obj
+ 0001:00000eec       ??_C@_19CEPNDPJO@?$AAn?$AAe?$AAw?$AAs?$AA?$AA@ 10001eec     shlwapi_lib:urlpars.obj
+ 0001:00000ef8       ??_C@_19HMOGJADO@?$AAf?$AAi?$AAl?$AAe?$AA?$AA@ 10001ef8     shlwapi_lib:urlpars.obj
+ 0001:00000f04       ??_C@_1M@PGEJLFN@?$AAh?$AAt?$AAt?$AAp?$AAs?$AA?$AA@ 10001f04     shlwapi_lib:urlpars.obj
+ 0001:00000f10       ??_C@_19NNDKDCM@?$AAh?$AAt?$AAt?$AAp?$AA?$AA@ 10001f10     shlwapi_lib:urlpars.obj
+ 0001:00000f1c       ??_C@_1O@PBNKJIMA@?$AAg?$AAo?$AAp?$AAh?$AAe?$AAr?$AA?$AA@ 10001f1c     shlwapi_lib:urlpars.obj
+ 0001:00000f2c       ??_C@_17HHNFGGOB@?$AAf?$AAt?$AAp?$AA?$AA@ 10001f2c     shlwapi_lib:urlpars.obj
+ 0001:00000f34       ??_C@_1M@KKONCPLP@?$AA?4?$AAx?$AAb?$AAa?$AAp?$AA?$AA@ 10001f34     shlwapi_lib:urlpars.obj
+ 0001:00000f40       ??_C@_05ENDMHGHN@?4xbap?$AA@ 10001f40     shlwapi_lib:urlpars.obj
+ 0001:00000f48       ??_C@_19EAPMCMHM@?$AA?4?$AAx?$AAp?$AAs?$AA?$AA@ 10001f48     shlwapi_lib:urlpars.obj
+ 0001:00000f54       ??_C@_04LJEEFDJB@?4xps?$AA@ 10001f54     shlwapi_lib:urlpars.obj
+ 0001:00000f5c       ??_C@_19GMJJNAOJ@?$AA?4?$AAp?$AAd?$AAf?$AA?$AA@ 10001f5c     shlwapi_lib:urlpars.obj
+ 0001:00000f68       ??_C@_04FAGKJGMG@?4pdf?$AA@ 10001f68     shlwapi_lib:urlpars.obj
+ 0001:00000f70       ??_C@_19PMEOLPDO@?$AA?4?$AAp?$AAo?$AAt?$AA?$AA@ 10001f70     shlwapi_lib:urlpars.obj
+ 0001:00000f7c       ??_C@_04CEMLAJPE@?4pot?$AA@ 10001f7c     shlwapi_lib:urlpars.obj
+ 0001:00000f84       ??_C@_04JGKANMAB@?4hta?$AA@ 10001f84     shlwapi_lib:urlpars.obj
+ 0001:00000f8c       ??_C@_19KJDPNGCF@?$AA?4?$AAx?$AAl?$AAt?$AA?$AA@ 10001f8c     shlwapi_lib:urlpars.obj
+ 0001:00000f98       ??_C@_04ODDJJPEC@?4xlt?$AA@ 10001f98     shlwapi_lib:urlpars.obj
+ 0001:00000fa0       ??_C@_19JDBJDHMJ@?$AA?4?$AAp?$AAp?$AAs?$AA?$AA@ 10001fa0     shlwapi_lib:urlpars.obj
+ 0001:00000fac       ??_C@_04HMPAHLHO@?4pps?$AA@ 10001fac     shlwapi_lib:urlpars.obj
+ 0001:00000fb4       ??_C@_19LLIKHJML@?$AA?4?$AAx?$AAl?$AAw?$AA?$AA@ 10001fb4     shlwapi_lib:urlpars.obj
+ 0001:00000fc0       ??_C@_04MIBEMMIB@?4xlw?$AA@ 10001fc0     shlwapi_lib:urlpars.obj
+ 0001:00000fc8       ??_C@_19ELPIAOP@?$AA?4?$AAd?$AAo?$AAt?$AA?$AA@ 10001fc8     shlwapi_lib:urlpars.obj
+ 0001:00000fd4       ??_C@_04PLLAMJDM@?4dot?$AA@ 10001fd4     shlwapi_lib:urlpars.obj
+ 0001:00000fdc       ??_C@_19CNGKNFAP@?$AA?4?$AAr?$AAt?$AAf?$AA?$AA@ 10001fdc     shlwapi_lib:urlpars.obj
+ 0001:00000fe8       ??_C@_04OGEFPNDN@?4rtf?$AA@ 10001fe8     shlwapi_lib:urlpars.obj
+ 0001:00000ff0       ??_C@_19OMOAPHA@?$AA?4?$AAp?$AAp?$AAt?$AA?$AA@ 10001ff0     shlwapi_lib:urlpars.obj
+ 0001:00000ffc       ??_C@_04DDLBONLJ@?4ppt?$AA@ 10001ffc     shlwapi_lib:urlpars.obj
+ 0001:00001004       ??_C@_19DEOIOOJM@?$AA?4?$AAx?$AAl?$AAs?$AA?$AA@ 10002004     shlwapi_lib:urlpars.obj
+ 0001:00001010       ??_C@_04KMHIAJIF@?4xls?$AA@ 10002010     shlwapi_lib:urlpars.obj
+ 0001:00001018       ??_C@_19MJHBOPMJ@?$AA?4?$AAd?$AAo?$AAc?$AA?$AA@ 10002018     shlwapi_lib:urlpars.obj
+ 0001:00001024       ??_C@_04PODDENKK@?4doc?$AA@ 10002024     shlwapi_lib:urlpars.obj
+ 0001:0000102c       ??_C@_19PHMOHKPA@?$AA?4?$AAx?$AAm?$AAl?$AA?$AA@ 1000202c     shlwapi_lib:urlpars.obj
+ 0001:00001038       ??_C@_04GAOAGNCM@?4xml?$AA@ 10002038     shlwapi_lib:urlpars.obj
+ 0001:00001040       ??_C@_04DKBFJDAN@?4htm?$AA@ 10002040     shlwapi_lib:urlpars.obj
+ 0001:00001048       ??_C@_05LHMDENIF@?4html?$AA@ 10002048     shlwapi_lib:urlpars.obj
+ 0001:00001610       ??_C@_1BE@JDLPANCI@?$AAl?$AAo?$AAc?$AAa?$AAl?$AAh?$AAo?$AAs?$AAt?$AA?$AA@ 10002610     shlwapi_lib:urlpars.obj
+ 0001:00001624       ??_C@_17IPPFFGEB@?$AA?3?$AA2?$AA1?$AA?$AA@ 10002624     shlwapi_lib:urlpars.obj
+ 0001:0000162c       ??_C@_17JGNCBCEC@?$AA?3?$AA8?$AA0?$AA?$AA@ 1000262c     shlwapi_lib:urlpars.obj
+ 0001:00001634       ??_C@_17GHIEKAJH@?$AA?3?$AA7?$AA0?$AA?$AA@ 10002634     shlwapi_lib:urlpars.obj
+ 0001:0000163c       ??_C@_19BPFGMKAL@?$AA?3?$AA4?$AA4?$AA3?$AA?$AA@ 1000263c     shlwapi_lib:urlpars.obj
+ 0001:00001648       ??_C@_19IMNOLHKF@?$AA?1?$AA?1?$AA?1?$AA?1?$AA?$AA@ 10002648     shlwapi_lib:urlpars.obj
+ 0001:00001654       ??_C@_15EAJGFGNH@?$AA?1?$AA?1?$AA?$AA@ 10002654     shlwapi_lib:urlpars.obj
+ 0001:0000165c       ??_C@_0DH@NCLBNPOK@Software?2Microsoft?2Windows?2Curre@ 1000265c     shlwapi_lib:urlpars.obj
+ 0001:00001694       ??_C@_1BK@IBPJPEFD@?$AAU?$AAR?$AAL?$AA?5?$AAP?$AAr?$AAo?$AAt?$AAo?$AAc?$AAo?$AAl?$AA?$AA@ 10002694     shlwapi_lib:urlpars.obj
+ 0001:000016b0       ??_C@_17IAHLGHKI@?$AA?3?$AA?1?$AA?1?$AA?$AA@ 100026b0     shlwapi_lib:urlpars.obj
+ 0001:000016b8       ??_C@_19ENFJPNAJ@?$AA?3?$AA?1?$AA?1?$AA?1?$AA?$AA@ 100026b8     shlwapi_lib:urlpars.obj
+ 0001:000016c2       ??_C@_00CNPNBAHC@?$AA@     100026c2     shlwapi_lib:urlpars.obj
+ 0001:000016d0       adwData                    100026d0     shlwapi_lib:strtype.obj
+ 0001:00001a38       abIndex                    10002a38     shlwapi_lib:strtype.obj
+ 0001:00001d48       abType1Alpha               10002d48     shlwapi_lib:strtype.obj
+ 0001:00001e48       abType1Punct               10002e48     shlwapi_lib:strtype.obj
+ 0001:00001f48       abType1Digit               10002f48     shlwapi_lib:strtype.obj
+ 0001:00002048       abType1Upper               10003048     shlwapi_lib:strtype.obj
+ 0001:00002148       abType1Lower               10003148     shlwapi_lib:strtype.obj
+ 0001:00002248       ??_C@_0BO@FIGLPLIC@MIME?2Database?2Content?5Type?2?$CFs?$AA@ 10003248     shlwapi_lib:mime.obj
+ 0001:00002268       ??_C@_1BE@CKKDHEH@?$AAE?$AAx?$AAt?$AAe?$AAn?$AAs?$AAi?$AAo?$AAn?$AA?$AA@ 10003268     shlwapi_lib:mime.obj
+ 0001:0000228c       ??_C@_1DG@KAEEFMFO@?$AAG?$AAe?$AAt?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAU?$AAI?$AAL?$AAa?$AAn?$AAg?$AAu?$AAa?$AAg?$AAe?$AA?$AA@ 1000328c     shlwapi_lib:mlui.obj
+ 0001:000022c4       ??_C@_1BI@CJKPFBEK@?$AAc?$AAo?$AAr?$AAe?$AAd?$AAl?$AAl?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 100032c4     shlwapi_lib:mlui.obj
+ 0001:000022e4       ??_C@_01KICIPPFI@?2?$AA@   100032e4     shlwapi_lib:patha.obj
+ 0001:000022e8       ??_C@_07BCPCOLOG@?3?3$DATA?$AA@ 100032e8     shlwapi_lib:patha.obj
+ 0001:000022fc       ??_C@_13FPGAJAPJ@?$AA?2?$AA?$AA@ 100032fc     shlwapi_lib:pathw.obj
+ 0001:00002300       ?s_szGuid@?1??StringIsGUIDWorker@@YAHPBG@Z@4QBGB 10003300     shlwapi_lib:pathw.obj
+ 0001:00002350       ??_C@_1BG@CPJCOMEA@?$AA?2?$AA?2?$AA?$DP?$AA?2?$AAV?$AAo?$AAl?$AAu?$AAm?$AAe?$AA?$AA@ 10003350     shlwapi_lib:pathw.obj
+ 0001:00002368       ??_C@_1M@NGGGHLBG@?$AA?2?$AAU?$AAN?$AAC?$AA?2?$AA?$AA@ 10003368     shlwapi_lib:pathw.obj
+ 0001:00002374       ??_C@_19MJCDBCKE@?$AA?2?$AA?2?$AA?$DP?$AA?2?$AA?$AA@ 10003374     shlwapi_lib:pathw.obj
+ 0001:00002380       ??_C@_15GKAHMKIN@?$AA?3?$AA?2?$AA?$AA@ 10003380     shlwapi_lib:pathw.obj
+ 0001:00002388       ??_C@_1BA@LCOICFNN@?$AA?3?$AA?3?$AA$?$AAD?$AAA?$AAT?$AAA?$AA?$AA@ 10003388     shlwapi_lib:pathw.obj
+ 0001:00002398       ??_C@_15LEKKCGMK@?$AA?2?$AA?2?$AA?$AA@ 10003398     shlwapi_lib:pathw.obj
+ 0001:000023a0       ??_C@_1BC@NAEGMMKI@?$AA?2?$AA?2?$AA?$DP?$AA?2?$AAU?$AAN?$AAC?$AA?2?$AA?$AA@ 100033a0     shlwapi_lib:pathw.obj
+ 0001:000023c8       ??_C@_19GEOKAPKA@?$AA?4?$AA?4?$AA?4?$AA?1?$AA?$AA@ 100033c8     shlwapi_lib:path_uiw.obj
+ 0001:000023d4       ??_C@_17LGKOMLJ@?$AA?4?$AA?4?$AA?4?$AA?$AA@ 100033d4     shlwapi_lib:path_uiw.obj
+ 0001:000023dc       ??_C@_1O@JDLOHAN@?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AA?$AA@ 100033dc     shlwapi_lib:regwrap.obj
+ 0001:000023ec       ??_C@_1BC@GCKHIPE@?$AAN?$AAo?$AAR?$AAe?$AAm?$AAo?$AAv?$AAe?$AA?$AA@ 100033ec     shlwapi_lib:regwrap.obj
+ 0001:00002400       ??_C@_1BI@JFAIJMHL@?$AAF?$AAo?$AAr?$AAc?$AAe?$AAR?$AAe?$AAm?$AAo?$AAv?$AAe?$AA?$AA@ 10003400     shlwapi_lib:regwrap.obj
+ 0001:00002418       ??_C@_17LLMMEOJD@?$AAV?$AAa?$AAl?$AA?$AA@ 10003418     shlwapi_lib:regwrap.obj
+ 0001:00002420       ??_C@_13OPKGLAFF@?$AAB?$AA?$AA@ 10003420     shlwapi_lib:regwrap.obj
+ 0001:00002424       ??_C@_13MKMNOPIJ@?$AAD?$AA?$AA@ 10003424     shlwapi_lib:regwrap.obj
+ 0001:00002428       ??_C@_13LHMFKAAD@?$AAM?$AA?$AA@ 10003428     shlwapi_lib:regwrap.obj
+ 0001:0000242c       ??_C@_13HADIAKP@?$AAS?$AA?$AA@ 1000342c     shlwapi_lib:regwrap.obj
+ 0001:000024a8       ??_C@_1JO@NCPGAKEG@?$AAS?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AA?2?$AAC?$AAu?$AAr?$AAr?$AAe@ 100034a8     shlwapi_lib:httpfnc_ui.obj
+ 0001:00002548       ??_C@_1DM@CBCGPJCG@?$AAC?$AAo?$AAn?$AAv?$AAe?$AAr?$AAt?$AAI?$AAN?$AAe?$AAt?$AAM?$AAu?$AAl?$AAt?$AAi?$AAB?$AAy?$AAt?$AAe?$AAT?$AAo?$AAU?$AAn?$AAi?$AAc?$AAo?$AAd?$AAe?$AA?$AA@ 10003548     shlwapi_lib:dllload.obj
+ 0001:00002584       ??_C@_1BE@BFBLHKBI@?$AAm?$AAl?$AAa?$AAn?$AAg?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10003584     shlwapi_lib:dllload.obj
+ 0001:00002598       ??_C@_1DM@GGPPAHKI@?$AAC?$AAo?$AAn?$AAv?$AAe?$AAr?$AAt?$AAI?$AAN?$AAe?$AAt?$AAU?$AAn?$AAi?$AAc?$AAo?$AAd?$AAe?$AAT?$AAo?$AAM?$AAu?$AAl?$AAt?$AAi?$AAB?$AAy?$AAt?$AAe?$AA?$AA@ 10003598     shlwapi_lib:dllload.obj
+ 0001:000025d4       ??_C@_1BO@JKALJJGH@?$AAL?$AAc?$AAi?$AAd?$AAT?$AAo?$AAR?$AAf?$AAc?$AA1?$AA7?$AA6?$AA6?$AAW?$AA?$AA@ 100035d4     shlwapi_lib:dllload.obj
+ 0001:000025f4       ??_C@_1BI@IGBINLPG@?$AAc?$AAe?$AAs?$AAh?$AAe?$AAl?$AAl?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 100035f4     shlwapi_lib:dllload.obj
+ 0001:0000260c       ??_C@_1CK@JFAMMOLI@?$AAS?$AAH?$AAG?$AAe?$AAt?$AAP?$AAa?$AAt?$AAh?$AAF?$AAr?$AAo?$AAm?$AAI?$AAD?$AAL?$AAi?$AAs?$AAt?$AAW?$AA?$AA@ 1000360c     shlwapi_lib:dllload.obj
+ 0001:00002638       ??_C@_1BO@IBKNADCL@?$AAS?$AAH?$AAC?$AAh?$AAa?$AAn?$AAg?$AAe?$AAN?$AAo?$AAt?$AAi?$AAf?$AAy?$AA?$AA@ 10003638     shlwapi_lib:dllload.obj
+ 0001:00002658       ??_C@_1BA@JFOAGKIG@?$AAW?$AAo?$AAr?$AAk?$AAe?$AAr?$AAW?$AA?$AA@ 10003658     shlwapi_lib:util_ui.obj
+ 0001:00002680       _GUID_0000000c_0000_0000_c000_000000000046 10003680     shlwapi_lib:stream.obj
+ 0001:00002690       _GUID_0c733a30_2a1c_11ce_ade5_00aa0044773d 10003690     shlwapi_lib:stream.obj
+ 0001:000026a0       ??_7CMemStream@@6B@        100036a0     shlwapi_lib:stream.obj
+ 0001:000026d8       ??_C@_1BG@GAGPAMFN@?$AA?$CF?$AAs?$AAC?$AAL?$AAS?$AAI?$AAD?$AA?2?$AA?$CF?$AAs?$AA?$AA@ 100036d8     shlwapi_lib:reg.obj
+ 0001:000026f0       ??_C@_1BM@HCBAKHCD@?$AA?$CF?$AAs?$AAC?$AAL?$AAS?$AAI?$AAD?$AA?2?$AA?$CF?$AAs?$AA?2?$AA?$CF?$AAs?$AA?$AA@ 100036f0     shlwapi_lib:reg.obj
+ 0001:00002710       ??_C@_1GI@MJCKHLJ@?$AAS?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AA?2?$AAC?$AAu?$AAr?$AAr?$AAe@ 10003710     shlwapi_lib:reg.obj
+ 0001:00002778       ??_C@_13COJANIEC@?$AA0?$AA?$AA@ 10003778     shlwapi_lib:reg.obj
+ 0001:0000277c       ??_C@_1M@HCOOECOK@?$AAF?$AAA?$AAL?$AAS?$AAE?$AA?$AA@ 1000377c     shlwapi_lib:reg.obj
+ 0001:00002788       ??_C@_15LIBIHNCL@?$AAN?$AAO?$AA?$AA@ 10003788     shlwapi_lib:reg.obj
+ 0001:00002790       ??_C@_13JGCMLPCH@?$AA1?$AA?$AA@ 10003790     shlwapi_lib:reg.obj
+ 0001:00002794       ??_C@_19ELAAHEEL@?$AAT?$AAR?$AAU?$AAE?$AA?$AA@ 10003794     shlwapi_lib:reg.obj
+ 0001:000027a0       ??_C@_17FGJJPDOI@?$AAY?$AAE?$AAS?$AA?$AA@ 100037a0     shlwapi_lib:reg.obj
+ 0001:000027a8       ??_C@_1M@DFKENGJN@?$AA?$CF?$AAs?$AA?2?$AA?$CF?$AAs?$AA?$AA@ 100037a8     shlwapi_lib:nativew.obj
+ 0001:000027b8       g_abCMAP                   100037b8     shlwapi_lib:palette.obj
+ 0001:0000a7b8       ??_C@_1EC@NPLDGGCL@?$AAP?$AAe?$AAr?$AAI?$AAn?$AAs?$AAt?$AAa?$AAn?$AAc?$AAe?$AAI?$AAc?$AAo?$AAn?$AAH?$AAa?$AAn?$AAd?$AAl?$AAe?$AAr?$AAF?$AAo?$AAr?$AAO?$AAf?$AAf?$AAl?$AAi?$AAn?$AAe@ 1000b7b8     shlwapi_lib:winpolicy.obj
+ 0001:0000a7fc       ??_C@_1CC@FMJECAGC@?$AAL?$AAo?$AAw?$AAR?$AAi?$AAs?$AAk?$AAF?$AAi?$AAl?$AAe?$AAT?$AAy?$AAp?$AAe?$AAs?$AA?$AA@ 1000b7fc     shlwapi_lib:winpolicy.obj
+ 0001:0000a820       ??_C@_1CC@EMFLGIEO@?$AAM?$AAo?$AAd?$AAR?$AAi?$AAs?$AAk?$AAF?$AAi?$AAl?$AAe?$AAT?$AAy?$AAp?$AAe?$AAs?$AA?$AA@ 1000b820     shlwapi_lib:winpolicy.obj
+ 0001:0000a844       ??_C@_1CE@NHFPFDIG@?$AAH?$AAi?$AAg?$AAh?$AAR?$AAi?$AAs?$AAk?$AAF?$AAi?$AAl?$AAe?$AAT?$AAy?$AAp?$AAe?$AAs?$AA?$AA@ 1000b844     shlwapi_lib:winpolicy.obj
+ 0001:0000a868       ??_C@_1CI@MHEKBEDM@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAF?$AAi?$AAl?$AAe?$AAT?$AAy?$AAp?$AAe?$AAR?$AAi?$AAs?$AAk?$AA?$AA@ 1000b868     shlwapi_lib:winpolicy.obj
+ 0001:0000a890       ??_C@_1BK@LNMKDKNA@?$AAA?$AAs?$AAs?$AAo?$AAc?$AAi?$AAa?$AAt?$AAi?$AAo?$AAn?$AAs?$AA?$AA@ 1000b890     shlwapi_lib:winpolicy.obj
+ 0001:0000a8ac       ??_C@_1DC@BODPKGGM@?$AAH?$AAi?$AAd?$AAe?$AAZ?$AAo?$AAn?$AAe?$AAI?$AAn?$AAf?$AAo?$AAO?$AAn?$AAP?$AAr?$AAo?$AAp?$AAe?$AAr?$AAt?$AAi?$AAe?$AAs?$AA?$AA@ 1000b8ac     shlwapi_lib:winpolicy.obj
+ 0001:0000a8e0       ??_C@_1CG@FLKKLGBB@?$AAU?$AAs?$AAe?$AAT?$AAr?$AAu?$AAs?$AAt?$AAe?$AAd?$AAH?$AAa?$AAn?$AAd?$AAl?$AAe?$AAr?$AAs?$AA?$AA@ 1000b8e0     shlwapi_lib:winpolicy.obj
+ 0001:0000a908       ??_C@_1CI@NEOCIPNM@?$AAS?$AAa?$AAv?$AAe?$AAZ?$AAo?$AAn?$AAe?$AAI?$AAn?$AAf?$AAo?$AAr?$AAm?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 1000b908     shlwapi_lib:winpolicy.obj
+ 0001:0000a930       ??_C@_1CE@GOPLJOFM@?$AAS?$AAc?$AAa?$AAn?$AAW?$AAi?$AAt?$AAh?$AAA?$AAn?$AAt?$AAi?$AAV?$AAi?$AAr?$AAu?$AAs?$AA?$AA@ 1000b930     shlwapi_lib:winpolicy.obj
+ 0001:0000a954       ??_C@_1BI@MHJAPEEM@?$AAA?$AAt?$AAt?$AAa?$AAc?$AAh?$AAm?$AAe?$AAn?$AAt?$AAs?$AA?$AA@ 1000b954     shlwapi_lib:winpolicy.obj
+ 0001:0000a96c       ??_C@_1DA@DKCMNDPG@?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AAS?$AAh?$AAe?$AAl?$AAl?$AAE?$AAx?$AAe?$AAc?$AAu?$AAt?$AAe?$AAH?$AAo?$AAo?$AAk?$AAs?$AA?$AA@ 1000b96c     shlwapi_lib:winpolicy.obj
+ 0001:0000a9a0       ??_C@_1EC@FCPNFIGK@?$AAU?$AAs?$AAe?$AAP?$AAa?$AAt?$AAh?$AAE?$AAn?$AAv?$AAV?$AAa?$AAr?$AAF?$AAo?$AAr?$AAC?$AAo?$AAm?$AAm?$AAa?$AAn?$AAd?$AAT?$AAe?$AAm?$AAp?$AAl?$AAa?$AAt?$AAe?$AAs@ 1000b9a0     shlwapi_lib:winpolicy.obj
+ 0001:0000a9e4       ??_C@_1BC@PKEHKAEB@?$AAE?$AAx?$AAp?$AAl?$AAo?$AAr?$AAe?$AAr?$AA?$AA@ 1000b9e4     shlwapi_lib:winpolicy.obj
+ 0001:0000aafc       c_spcBool                  1000bafc     shlwapi_lib:shpolicy.obj
+ 0001:0000ab08       c_spdBool                  1000bb08     shlwapi_lib:shpolicy.obj
+ 0001:0000ab10       c_spcString                1000bb10     shlwapi_lib:shpolicy.obj
+ 0001:0000ab20       ??_C@_1IK@HMNCOO@?$AAS?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AA?2?$AAC?$AAu?$AAr?$AAr?$AAe@ 1000bb20     shlwapi_lib:shpolicy.obj
+ 0001:0000abac       ??_C@_1O@MPKBHDFA@?$AAP?$AAo?$AAl?$AAi?$AAc?$AAy?$AA?$AA@ 1000bbac     shlwapi_lib:shpolicy.obj
+ 0001:0000abbc       ??_C@_1M@LHGLMLD@?$AAG?$AAr?$AAo?$AAu?$AAp?$AA?$AA@ 1000bbbc     shlwapi_lib:shpolicy.obj
+ 0001:0000abc8       ??_C@_1M@OBKMGAH@?$AA?$CF?$AAI?$AA6?$AA4?$AAd?$AA?$AA@ 1000bbc8     shlwapi_lib:util.obj
+ 0001:0000abd4       ??_C@_1BM@KADAJJA@?$AAL?$AAo?$AAc?$AAa?$AAl?$AAS?$AAe?$AAr?$AAv?$AAe?$AAr?$AA3?$AA2?$AA?$AA@ 1000bbd4     shlwapi_lib:extensions.obj
+ 0001:0000abf0       ??_C@_1BO@ECHKLJPO@?$AAI?$AAn?$AAP?$AAr?$AAo?$AAc?$AAS?$AAe?$AAr?$AAv?$AAe?$AAr?$AA3?$AA2?$AA?$AA@ 1000bbf0     shlwapi_lib:extensions.obj
+ 0001:0000ad60       c_idlDesktop               1000bd60     shlwapi_lib:idllib.obj
+ 0001:0000ada4       CLSID_InternetSecurityManager 1000bda4     uuid:ieuuid.obj
+ 0001:0000adb4       IID_IWebBrowserApp         1000bdb4     uuid:ieuuid.obj
+ 0001:0000adc4       IID_IDocHostUIHandler      1000bdc4     uuid:ieuuid.obj
+ 0001:0000add4       IID_IInternetSecurityMgrSite 1000bdd4     uuid:ieuuid.obj
+ 0001:0000ade4       GUID_NULL                  1000bde4     uuid:dcomuuid.obj
+ 0001:0000adf4       IID_IDispatch              1000bdf4     uuid:dcomuuid.obj
+ 0001:0000ae04       IID_IEnumFORMATETC         1000be04     uuid:dcomuuid.obj
+ 0001:0000ae14       IID_IConnectionPointContainer 1000be14     uuid:dcomuuid.obj
+ 0001:0000ae24       IID_IPropertyNotifySink    1000be24     uuid:dcomuuid.obj
+ 0001:0000ae34       IID_IOleInPlaceActiveObject 1000be34     uuid:dcomuuid.obj
+ 0001:0000ae44       IID_IOleInPlaceFrame       1000be44     uuid:dcomuuid.obj
+ 0001:0000ae54       IID_IUnknown               1000be54     uuid:dcomuuid.obj
+ 0001:0000ae64       IID_IClassFactory          1000be64     uuid:dcomuuid.obj
+ 0001:0000ae98       DllMain                    1000be98 f   shlwapi_lib:dll.obj
+ 0001:0000af10       ?IUnknown_EnableModless@@YAJPAUIUnknown@@H@Z 1000bf10 f   shlwapi_lib:shdocvw6util.obj
+ 0001:0000b0d8       ?_IsExtKnown@@YAHPBGPBQBG@Z 1000c0d8 f   shlwapi_lib:assocapi.obj
+ 0001:0000b130       ?_LookupKnownTypeByExt@@YAPBUKNOWNTYPE@@PBG@Z 1000c130 f   shlwapi_lib:assocapi.obj
+ 0001:0000b180       ?_LookupKnownTypeByType@@YAPBUKNOWNTYPE@@PBG@Z 1000c180 f   shlwapi_lib:assocapi.obj
+ 0001:0000b1d8       AssocGetPerceivedType      1000c1d8 f   shlwapi_lib:assocapi.obj
+ 0001:0000b2dc       AssocCreate                1000c2dc f   shlwapi_lib:assocapi.obj
+ 0001:0000b384       AssocQueryStringW          1000c384 f   shlwapi_lib:assocapi.obj
+ 0001:0000b450       AssocQueryKeyW             1000c450 f   shlwapi_lib:assocapi.obj
+ 0001:0000b51c       AssocQueryKeyA             1000c51c f   shlwapi_lib:assocapi.obj
+ 0001:0000b5c8       ?_AssocIsDangerous@@YAHPBG@Z 1000c5c8 f   shlwapi_lib:assocapi.obj
+ 0001:0000b750       AssocGetUrlAction          1000c750 f   shlwapi_lib:assocapi.obj
+ 0001:0000b800       AssocIsDangerous           1000c800 f   shlwapi_lib:assocapi.obj
+ 0001:0000b81c       ChrCmpA_inline             1000c81c f i shlwapi_lib:strings.obj
+ 0001:0000b85c       ChrCmpIA                   1000c85c f   shlwapi_lib:strings.obj
+ 0001:0000b8b4       StrNCatA                   1000c8b4 f   shlwapi_lib:strings.obj
+ 0001:0000b8f4       StrCpyW                    1000c8f4 f   shlwapi_lib:strings.obj
+ 0001:0000b920       StrCpyNXW                  1000c920 f   shlwapi_lib:strings.obj
+ 0001:0000b964       StrCpyNW                   1000c964 f   shlwapi_lib:strings.obj
+ 0001:0000b978       StrCatW                    1000c978 f   shlwapi_lib:strings.obj
+ 0001:0000b9b8       StrCatBuffW                1000c9b8 f   shlwapi_lib:strings.obj
+ 0001:0000b9e0       StrCatBuffA                1000c9e0 f   shlwapi_lib:strings.obj
+ 0001:0000ba08       StrChrA_MB                 1000ca08 f   shlwapi_lib:strings.obj
+ 0001:0000ba90       StrChrA                    1000ca90 f   shlwapi_lib:strings.obj
+ 0001:0000bb08       StrChrW                    1000cb08 f   shlwapi_lib:strings.obj
+ 0001:0000bb34       StrChrNW                   1000cb34 f   shlwapi_lib:strings.obj
+ 0001:0000bb6c       StrChrIA                   1000cb6c f   shlwapi_lib:strings.obj
+ 0001:0000bbd4       StrPBrkW                   1000cbd4 f   shlwapi_lib:strings.obj
+ 0001:0000bc30       StrToIntA                  1000cc30 f   shlwapi_lib:strings.obj
+ 0001:0000bc84       StrToIntW                  1000cc84 f   shlwapi_lib:strings.obj
+ 0001:0000bcd8       StrToInt64ExW              1000ccd8 f   shlwapi_lib:strings.obj
+ 0001:0000be70       StrToInt64ExA              1000ce70 f   shlwapi_lib:strings.obj
+ 0001:0000bef8       StrToIntExA                1000cef8 f   shlwapi_lib:strings.obj
+ 0001:0000bf24       StrToIntExW                1000cf24 f   shlwapi_lib:strings.obj
+ 0001:0000bf50       StrSpnW                    1000cf50 f   shlwapi_lib:strings.obj
+ 0001:0000bfb4       StrCSpnW                   1000cfb4 f   shlwapi_lib:strings.obj
+ 0001:0000c028       _StrCmpNA                  1000d028 f   shlwapi_lib:strings.obj
+ 0001:0000c184       StrCmpNA                   1000d184 f   shlwapi_lib:strings.obj
+ 0001:0000c1f0       _StrCmpLocaleW             1000d1f0 f   shlwapi_lib:strings.obj
+ 0001:0000c254       StrCmpNW                   1000d254 f   shlwapi_lib:strings.obj
+ 0001:0000c2d0       StrCmpNIA                  1000d2d0 f   shlwapi_lib:strings.obj
+ 0001:0000c3d8       StrCmpNIW                  1000d3d8 f   shlwapi_lib:strings.obj
+ 0001:0000c408       StrStrA                    1000d408 f   shlwapi_lib:strings.obj
+ 0001:0000c4cc       StrStrW                    1000d4cc f   shlwapi_lib:strings.obj
+ 0001:0000c550       StrStrIA                   1000d550 f   shlwapi_lib:strings.obj
+ 0001:0000c5c8       StrDupA                    1000d5c8 f   shlwapi_lib:strings.obj
+ 0001:0000c60c       StrDupW                    1000d60c f   shlwapi_lib:strings.obj
+ 0001:0000c658       _StrOut                    1000d658 f   shlwapi_lib:strings.obj
+ 0001:0000c7c4       _StrFromTimeInterval       1000d7c4 f   shlwapi_lib:strings.obj
+ 0001:0000caa0       StrFromTimeIntervalW       1000daa0 f   shlwapi_lib:strings.obj
+ 0001:0000cb18       StrIsIntlEqualA            1000db18 f   shlwapi_lib:strings.obj
+ 0001:0000cb20       StrIsIntlEqualW            1000db20 f   shlwapi_lib:strings.obj
+ 0001:0000cb68       StrFormatByteSizeW         1000db68 f   shlwapi_lib:strings.obj
+ 0001:0000ccfc       StrFormatKBSizeW           1000dcfc f   shlwapi_lib:strings.obj
+ 0001:0000cdb8       StrCmpW                    1000ddb8 f   shlwapi_lib:strings.obj
+ 0001:0000cde4       StrCmpIW                   1000dde4 f   shlwapi_lib:strings.obj
+ 0001:0000ce10       StrTrimA                   1000de10 f   shlwapi_lib:strings.obj
+ 0001:0000cf04       StrTrimW                   1000df04 f   shlwapi_lib:strings.obj
+ 0001:0000d018       StrCmpNCA                  1000e018 f   shlwapi_lib:strings.obj
+ 0001:0000d064       StrCmpNCW                  1000e064 f   shlwapi_lib:strings.obj
+ 0001:0000d0b0       StrCmpNICA                 1000e0b0 f   shlwapi_lib:strings.obj
+ 0001:0000d104       StrCmpNICW                 1000e104 f   shlwapi_lib:strings.obj
+ 0001:0000d158       StrCmpCA                   1000e158 f   shlwapi_lib:strings.obj
+ 0001:0000d18c       StrCmpCW                   1000e18c f   shlwapi_lib:strings.obj
+ 0001:0000d1c0       StrCmpICA                  1000e1c0 f   shlwapi_lib:strings.obj
+ 0001:0000d1fc       StrCmpICW                  1000e1fc f   shlwapi_lib:strings.obj
+ 0001:0000d238       DupWideToAnsi              1000e238 f   shlwapi_lib:strings.obj
+ 0001:0000d2b4       DupAnsiToAnsi              1000e2b4 f   shlwapi_lib:strings.obj
+ 0001:0000d30c       StrRetToStrA               1000e30c f   shlwapi_lib:strings.obj
+ 0001:0000d3a0       StrRetToBufA               1000e3a0 f   shlwapi_lib:strings.obj
+ 0001:0000d44c       StrRetToBufW               1000e44c f   shlwapi_lib:strings.obj
+ 0001:0000d504       SHStrDupA                  1000e504 f   shlwapi_lib:strings.obj
+ 0001:0000d5bc       SHStrDupW                  1000e5bc f   shlwapi_lib:strings.obj
+ 0001:0000d640       ChrCmpIW                   1000e640 f   shlwapi_lib:strings.obj
+ 0001:0000d68c       StrRChrA                   1000e68c f   shlwapi_lib:strings.obj
+ 0001:0000d6fc       StrRChrW                   1000e6fc f   shlwapi_lib:strings.obj
+ 0001:0000d754       StrChrIW                   1000e754 f   shlwapi_lib:strings.obj
+ 0001:0000d798       StrStrIW                   1000e798 f   shlwapi_lib:strings.obj
+ 0001:0000d814       StrRetToStrW               1000e814 f   shlwapi_lib:strings.obj
+ 0001:0000d8a4       SHTruncateString           1000e8a4 f   shlwapi_lib:util.obj
+ 0001:0000d918       IUnknown_AtomicRelease     1000e918 f   shlwapi_lib:util.obj
+ 0001:0000d944       SHSetWindowBits            1000e944 f   shlwapi_lib:util.obj
+ 0001:0000d984       SHSetParentHwnd            1000e984 f   shlwapi_lib:util.obj
+ 0001:0000da38       SHWeakQueryInterface       1000ea38 f   shlwapi_lib:util.obj
+ 0001:0000daa4       SHWeakReleaseInterface     1000eaa4 f   shlwapi_lib:util.obj
+ 0001:0000dae4       IStream_Read               1000eae4 f   shlwapi_lib:util.obj
+ 0001:0000db20       IStream_Write              1000eb20 f   shlwapi_lib:util.obj
+ 0001:0000db5c       IStream_Reset              1000eb5c f   shlwapi_lib:util.obj
+ 0001:0000dbb0       IStream_Size               1000ebb0 f   shlwapi_lib:util.obj
+ 0001:0000dc28       SHRegisterClassW           1000ec28 f   shlwapi_lib:util.obj
+ 0001:0000dc6c       SHUnregisterClassesW       1000ec6c f   shlwapi_lib:util.obj
+ 0001:0000dcb8       SHRestrictedMessageBox     1000ecb8 f   shlwapi_lib:util.obj
+ 0001:0000dcbc       SHSimulateDrop             1000ecbc f   shlwapi_lib:util.obj
+ 0001:0000dd80       SHSearchMapInt             1000ed80 f   shlwapi_lib:util.obj
+ 0001:0000ddb8       IUnknown_Set               1000edb8 f   shlwapi_lib:util.obj
+ 0001:0000de08       SHStripMneumonicW          1000ee08 f   shlwapi_lib:util.obj
+ 0001:0000def4       SHIsChildOrSelf            1000eef4 f   shlwapi_lib:util.obj
+ 0001:0000df2c       SHInterlockedCompareExchange 1000ef2c f   shlwapi_lib:util.obj
+ 0001:0000df38       SHGetRestriction           1000ef38 f   shlwapi_lib:util.obj
+ 0001:0000dfec       WhichPlatform              1000efec f   shlwapi_lib:util.obj
+ 0001:0000dff4       RegisterGlobalHotkeyW      1000eff4 f   shlwapi_lib:util.obj
+ 0001:0000dffc       RegisterGlobalHotkeyA      1000effc f   shlwapi_lib:util.obj
+ 0001:0000e004       SHGetObjectCompatFlags     1000f004 f   shlwapi_lib:util.obj
+ 0001:0000e014       SHPinDllOfCLSID            1000f014 f   shlwapi_lib:util.obj
+ 0001:0000e070       ConnectToConnectionPoint   1000f070 f   shlwapi_lib:util.obj
+ 0001:0000e184       IUnknown_QueryStatus       1000f184 f   shlwapi_lib:util.obj
+ 0001:0000e210       IUnknown_Exec              1000f210 f   shlwapi_lib:util.obj
+ 0001:0000e2a4       SHIsSameObject             1000f2a4 f   shlwapi_lib:util.obj
+ 0001:0000e360       IUnknown_GetWindow         1000f360 f   shlwapi_lib:util.obj
+ 0001:0000e488       IUnknown_SetOwner          1000f488 f   shlwapi_lib:util.obj
+ 0001:0000e4f4       IUnknown_SetSite           1000f4f4 f   shlwapi_lib:util.obj
+ 0001:0000e614       IUnknown_GetSite           1000f614 f   shlwapi_lib:util.obj
+ 0001:0000e698       IUnknown_GetClassID        1000f698 f   shlwapi_lib:util.obj
+ 0001:0000e740       IUnknown_QueryService      1000f740 f   shlwapi_lib:util.obj
+ 0001:0000e7cc       IUnknown_QueryServiceForWebBrowserApp 1000f7cc f   shlwapi_lib:util.obj
+ 0001:0000e854       IUnknown_ShowBrowserBar    1000f854 f   shlwapi_lib:util.obj
+ 0001:0000e92c       SHLoadFromPropertyBag      1000f92c f   shlwapi_lib:util.obj
+ 0001:0000e994       IUnknown_TranslateAcceleratorOCS 1000f994 f   shlwapi_lib:util.obj
+ 0001:0000ea10       IUnknown_OnFocusOCS        1000fa10 f   shlwapi_lib:util.obj
+ 0001:0000ea84       SHRestrictionLookup        1000fa84 f   shlwapi_lib:util.obj
+ 0001:0000eb00       IUnknown_QueryServiceExec  1000fb00 f   shlwapi_lib:util.obj
+ 0001:0000eb78       IWebBrowser_Navigate       1000fb78 f   shlwapi_lib:util.obj
+ 0001:0000ec14       SHSkipJunction             1000fc14 f   shlwapi_lib:util.obj
+ 0001:0000ecc0       FreeGlobalSecurityAttributes 1000fcc0 f   shlwapi_lib:gcount.obj
+ 0001:0000ecdc       CreateAllAccessSecurityAttributes 1000fcdc f   shlwapi_lib:gcount.obj
+ 0001:0000ece4       SHStringFromGUIDW          1000fce4 f   shlwapi_lib:ole2dup.obj
+ 0001:0000ed80       HexStringToDword           1000fd80 f   shlwapi_lib:ole2dup.obj
+ 0001:0000ee24       GUIDFromStringA            1000fe24 f   shlwapi_lib:ole2dup.obj
+ 0001:0000efec       GUIDFromStringW            1000ffec f   shlwapi_lib:ole2dup.obj
+ 0001:0000f038       ?GetAcceptLanguageFromLCID@@YAJPAGK@Z 10010038 f   shlwapi_lib:httpfnc.obj
+ 0001:0000f070       common_GetAcceptLanguages  10010070 f   shlwapi_lib:httpfnc.obj
+ 0001:0000f1ec       ?wrap_RegisterFormatEnumerator@@YAJPAUIBindCtx@@PAUIEnumFORMATETC@@K@Z 100101ec f   shlwapi_lib:httpfnc.obj
+ 0001:0000f270       ?wrap_CreateFormatEnumerator@@YAJIPAUtagFORMATETC@@PAPAUIEnumFORMATETC@@@Z 10010270 f   shlwapi_lib:httpfnc.obj
+ 0001:0000f2f4       GetAcceptLanguagesW        100102f4 f   shlwapi_lib:httpfnc.obj
+ 0001:0000f2f8       ??2@YAPAXI@Z               100102f8 f   shlwapi_lib:urlpars.obj
+ 0001:0000f314       ??3@YAXPAX@Z               10010314 f   shlwapi_lib:urlpars.obj
+ 0001:0000f334       ?IsValidSchemeCharW@@YAHG@Z 10010334 f   shlwapi_lib:urlpars.obj
+ 0001:0000f388       ?_StrCmpNMixed@@YAHPBDPBGK@Z 10010388 f   shlwapi_lib:urlpars.obj
+ 0001:0000f3f8       ?GetSchemeTypeAndFlagsW@@YA?AW4URL_SCHEME@@PBGKPAK@Z 100103f8 f   shlwapi_lib:urlpars.obj
+ 0001:0000f4b0       ?GetSchemeTypeAndFlagsA@@YA?AW4URL_SCHEME@@PBDKPAK@Z 100104b0 f   shlwapi_lib:urlpars.obj
+ 0001:0000f528       ?SchemeTypeFromStringA@@YA?AW4URL_SCHEME@@PBDK@Z 10010528 f   shlwapi_lib:urlpars.obj
+ 0001:0000f58c       ?SchemeTypeFromStringW@@YA?AW4URL_SCHEME@@PBGK@Z 1001058c f   shlwapi_lib:urlpars.obj
+ 0001:0000f5f0       ?NextLiveSegment@@YAPAGPAGPAKK@Z 100105f0 f   shlwapi_lib:urlpars.obj
+ 0001:0000f678       ?LastLiveSegment@@YAPAGPAGKH@Z 10010678 f   shlwapi_lib:urlpars.obj
+ 0001:0000f6fc       ?FirstLiveSegment@@YAPAGPAGPAKK@Z 100106fc f   shlwapi_lib:urlpars.obj
+ 0001:0000f734       ?IsCLSIDPath@@YAHPBG@Z     10010734 f   shlwapi_lib:urlpars.obj
+ 0001:0000f784       ?WininetFixFileSlashes@@YAXPAG@Z 10010784 f   shlwapi_lib:urlpars.obj
+ 0001:0000f7dc       ?TrimAndStripInsignificantWhite@@YAXPAG@Z 100107dc f   shlwapi_lib:urlpars.obj
+ 0001:0000f878       ?CompareExtA@@YAHPBDK@Z    10010878 f i shlwapi_lib:urlpars.obj
+ 0001:0000f8d4       ?CompareExtW@@YAHPBGK@Z    100108d4 f i shlwapi_lib:urlpars.obj
+ 0001:0000f930       ?FindFragmentA@@YAPBDPBDHH@Z 10010930 f   shlwapi_lib:urlpars.obj
+ 0001:0000f9b0       ?FindFragmentW@@YAPBGPBGH@Z 100109b0 f   shlwapi_lib:urlpars.obj
+ 0001:0000fa24       ?BreakFragment@@YAXPBQBGPAU_UrlParts@@@Z 10010a24 f   shlwapi_lib:urlpars.obj
+ 0001:0000fa70       ?IsUrlPrefixA@@YAHPBD@Z    10010a70 f i shlwapi_lib:urlpars.obj
+ 0001:0000fabc       ?IsUrlPrefixW@@YAHPBG@Z    10010abc f i shlwapi_lib:urlpars.obj
+ 0001:0000fb08       ?FindSchemeA@@YAPBDPBDPAK@Z 10010b08 f   shlwapi_lib:urlpars.obj
+ 0001:0000fbbc       ?FindSchemeW@@YAPBGPBGPAKH@Z 10010bbc f   shlwapi_lib:urlpars.obj
+ 0001:0000fc60       ?CountSlashes@@YAKPAPBG@Z  10010c60 f   shlwapi_lib:urlpars.obj
+ 0001:0000fc94       ?FindDosPath@@YAPBGPBG@Z   10010c94 f   shlwapi_lib:urlpars.obj
+ 0001:0000fd44       ?WininetCopyUrlForParse@@YAJPAVShStrW@@PBG@Z 10010d44 f   shlwapi_lib:urlpars.obj
+ 0001:0000fda8       ?BreakScheme@@YAXPAPAGPAU_UrlParts@@@Z 10010da8 f   shlwapi_lib:urlpars.obj
+ 0001:0000fe54       ?BreakQuery@@YAXPAPAGPAU_UrlParts@@@Z 10010e54 f   shlwapi_lib:urlpars.obj
+ 0001:0000feb8       ?MkBreakServer@@YAXPAPAGPAU_UrlParts@@@Z 10010eb8 f   shlwapi_lib:urlpars.obj
+ 0001:0000ff28       ?DefaultBreakServer@@YAXPAPAGPAU_UrlParts@@@Z 10010f28 f   shlwapi_lib:urlpars.obj
+ 0001:0000ffcc       ?FileBreakServer@@YAXPAPAGPAU_UrlParts@@@Z 10010fcc f   shlwapi_lib:urlpars.obj
+ 0001:00010168       ?BreakServer@@YAXPAPAGPAU_UrlParts@@H@Z 10011168 f   shlwapi_lib:urlpars.obj
+ 0001:000101e0       ?DefaultBreakSegments@@YAXPAGPAU_UrlParts@@@Z 100111e0 f   shlwapi_lib:urlpars.obj
+ 0001:00010290       ?DefaultBreakPath@@YAXPAPAGPAU_UrlParts@@@Z 10011290 f   shlwapi_lib:urlpars.obj
+ 0001:000102e8       ?BreakPath@@YAXPAPAGPAU_UrlParts@@@Z 100112e8 f   shlwapi_lib:urlpars.obj
+ 0001:00010350       ?_ShouldBreakBase@@YAHPBU_UrlParts@@PBG@Z 10011350 f   shlwapi_lib:urlpars.obj
+ 0001:000103b8       ?BlendScheme@@YAXPAU_UrlParts@@00@Z 100113b8 f   shlwapi_lib:urlpars.obj
+ 0001:00010468       ?BlendServer@@YAXPAU_UrlParts@@00@Z 10011468 f   shlwapi_lib:urlpars.obj
+ 0001:000104c0       ?BlendPath@@YAXPAU_UrlParts@@00@Z 100114c0 f   shlwapi_lib:urlpars.obj
+ 0001:000106a8       ?BlendQuery@@YAXPAU_UrlParts@@00@Z 100116a8 f   shlwapi_lib:urlpars.obj
+ 0001:000106fc       ?BlendFragment@@YAXPAU_UrlParts@@00@Z 100116fc f   shlwapi_lib:urlpars.obj
+ 0001:00010754       ?BlendParts@@YAXPAU_UrlParts@@00@Z 10011754 f   shlwapi_lib:urlpars.obj
+ 0001:000107c8       ?CanonServer@@YAXPAU_UrlParts@@@Z 100117c8 f   shlwapi_lib:urlpars.obj
+ 0001:00010888       ?CanonCombineSegs@@YAXPAU_UrlParts@@@Z 10011888 f   shlwapi_lib:urlpars.obj
+ 0001:00010958       ?CanonSegments@@YAXPAGKH@Z 10011958 f   shlwapi_lib:urlpars.obj
+ 0001:00010a7c       ?CanonPath@@YAXPAU_UrlParts@@@Z 10011a7c f   shlwapi_lib:urlpars.obj
+ 0001:00010acc       ?BuildScheme@@YAJPBU_UrlParts@@KPAVShStrW@@@Z 10011acc f   shlwapi_lib:urlpars.obj
+ 0001:00010b1c       ?BuildServer@@YAJPBU_UrlParts@@KPAVShStrW@@@Z 10011b1c f   shlwapi_lib:urlpars.obj
+ 0001:00010c04       ?BuildSegments@@YAJPAGKPAVShStrW@@HPAH@Z 10011c04 f   shlwapi_lib:urlpars.obj
+ 0001:00010d08       ?BuildPath@@YAJPAU_UrlParts@@KPAVShStrW@@@Z 10011d08 f   shlwapi_lib:urlpars.obj
+ 0001:00010e48       ?BuildQuery@@YAJPBU_UrlParts@@KPAVShStrW@@@Z 10011e48 f   shlwapi_lib:urlpars.obj
+ 0001:00010e9c       ?BuildFragment@@YAJPBU_UrlParts@@KPAVShStrW@@@Z 10011e9c f   shlwapi_lib:urlpars.obj
+ 0001:00010ef0       ?BuildUrl@@YAJPAU_UrlParts@@KPAVShStrW@@@Z 10011ef0 f   shlwapi_lib:urlpars.obj
+ 0001:00010f64       ?EscapeSpaces@@YAJPBGPAVShStrW@@K@Z 10011f64 f   shlwapi_lib:urlpars.obj
+ 0001:00011090       ?GetEscapeStringSize@@YAHPBGKPAK@Z 10012090 f   shlwapi_lib:urlpars.obj
+ 0001:00011128       ?EscapeSegmentsGetNeededSize@@YAKPAGKK@Z 10012128 f   shlwapi_lib:urlpars.obj
+ 0001:000111b0       ?EscapeString@@YAXPBGKPAPAG@Z 100121b0 f   shlwapi_lib:urlpars.obj
+ 0001:00011260       ?EscapeSegments@@YAJPAGKKPAU_UrlParts@@PAVShStrW@@@Z 10012260 f   shlwapi_lib:urlpars.obj
+ 0001:00011320       ?EscapePath@@YAJPAU_UrlParts@@K0PAVShStrW@@@Z 10012320 f   shlwapi_lib:urlpars.obj
+ 0001:00011374       ?HexToWord@@YAGG@Z         10012374 f   shlwapi_lib:urlpars.obj
+ 0001:000113d0       ?IsEscapedOctetW@@YAHPBG@Z 100123d0 f i shlwapi_lib:urlpars.obj
+ 0001:00011438       ?IsEscapedOctetA@@YAHPBD@Z 10012438 f i shlwapi_lib:urlpars.obj
+ 0001:000114a8       ?SHUrlUnescapeA@@YAJPADK@Z 100124a8 f   shlwapi_lib:urlpars.obj
+ 0001:00011554       ?SHUrlUnescapeW@@YAJPAGK@Z 10012554 f   shlwapi_lib:urlpars.obj
+ 0001:000115f8       ?BuildDosPath@@YAJPAU_UrlParts@@PAVShStrW@@K@Z 100125f8 f   shlwapi_lib:urlpars.obj
+ 0001:0001172c       ?SHUrlCreateFromPath@@YAJPBGPAVShStrW@@K@Z 1001272c f   shlwapi_lib:urlpars.obj
+ 0001:00011974       ?BreakLogon@@YAXPAGPAU_LOGON@@@Z 10012974 f   shlwapi_lib:urlpars.obj
+ 0001:00011a10       ?InternetGetPart@@YAJKPAU_UrlParts@@PAVShStrW@@K@Z 10012a10 f   shlwapi_lib:urlpars.obj
+ 0001:00011ab8       ?UrlGuessScheme@@YAJPBGPAVShStrW@@@Z 10012ab8 f   shlwapi_lib:urlpars.obj
+ 0001:00011c8c       ?UrlApplyDefaultScheme@@YAJPBGPAVShStrW@@@Z 10012c8c f   shlwapi_lib:urlpars.obj
+ 0001:00011d4c       ?SHUrlApplyScheme@@YAJPBGPAVShStrW@@K@Z 10012d4c f   shlwapi_lib:urlpars.obj
+ 0001:00011dfc       ?CopyOutA@@YAJPAVShStrA@@PADPAK@Z 10012dfc f   shlwapi_lib:urlpars.obj
+ 0001:00011e68       ?StrCopyOutW@@YAJPBGPAGPAK@Z 10012e68 f   shlwapi_lib:urlpars.obj
+ 0001:00011ed4       ?CopyOutW@@YAJPAVShStrW@@PAGPAK@Z 10012ed4 f   shlwapi_lib:urlpars.obj
+ 0001:00011f4c       UrlGetLocationA            10012f4c f   shlwapi_lib:urlpars.obj
+ 0001:00012000       UrlGetLocationW            10013000 f   shlwapi_lib:urlpars.obj
+ 0001:00012070       UrlUnescapeA               10013070 f   shlwapi_lib:urlpars.obj
+ 0001:00012148       UrlCompareW                10013148 f   shlwapi_lib:urlpars.obj
+ 0001:000122b4       UrlUnescapeW               100132b4 f   shlwapi_lib:urlpars.obj
+ 0001:00012390       UrlCreateFromPathW         10013390 f   shlwapi_lib:urlpars.obj
+ 0001:00012448       UrlApplySchemeW            10013448 f   shlwapi_lib:urlpars.obj
+ 0001:000124f4       ?_HashData@@YAXPBEKPAEK@Z  100134f4 f   shlwapi_lib:urlpars.obj
+ 0001:00012564       HashData                   10013564 f   shlwapi_lib:urlpars.obj
+ 0001:00012590       ParseURLA                  10013590 f   shlwapi_lib:urlpars.obj
+ 0001:00012664       ParseURLW                  10013664 f   shlwapi_lib:urlpars.obj
+ 0001:0001273c       ?GetSchemeTypeAndFlagsSpecialW@@YA?AW4URL_SCHEME@@PAGKPAK@Z 1001373c f   shlwapi_lib:urlpars.obj
+ 0001:00012804       ?baseAccept@URL_STRING@@IAAXG@Z 10013804 f   shlwapi_lib:urlpars.obj
+ 0001:000128bc       ?Accept@URL_STRING@@QAAXG@Z 100138bc f   shlwapi_lib:urlpars.obj
+ 0001:00012ac8       ?Contract@URL_STRING@@QAAXH@Z 10013ac8 f   shlwapi_lib:urlpars.obj
+ 0001:00012b90       ?CompareMarkWith@URL_STRING@@QAAKPBG@Z 10013b90 f   shlwapi_lib:urlpars.obj
+ 0001:00012bd4       ?EnableMunging@URL_STRING@@QAAXXZ 10013bd4 f   shlwapi_lib:urlpars.obj
+ 0001:00012c4c       ?Setup@URL@@QAAXPBGK@Z     10013c4c f   shlwapi_lib:urlpars.obj
+ 0001:00012c90       ?PeekNext@URL@@QAAGXZ      10013c90 f   shlwapi_lib:urlpars.obj
+ 0001:00012ce0       ?FeedUntil@URL@@AAAPBGPBGPAVURL_STRING@@GGGG@Z 10013ce0 f i shlwapi_lib:urlpars.obj
+ 0001:00012d8c       ?DetectMkServer@URL@@AAAHXZ 10013d8c f   shlwapi_lib:urlpars.obj
+ 0001:00012e00       ?FeedMkServer@URL@@AAAXPAVURL_STRING@@@Z 10013e00 f   shlwapi_lib:urlpars.obj
+ 0001:00012eb0       ?FeedLocalDrive@URL@@QAAXPAVURL_STRING@@@Z 10013eb0 f   shlwapi_lib:urlpars.obj
+ 0001:00012f58       ?FeedPort@URL@@AAAPBGPBGPAVURL_STRING@@@Z 10013f58 f   shlwapi_lib:urlpars.obj
+ 0001:00013030       ?CopySegment@URL@@QAAPBGPBGPAVURL_STRING@@PAH@Z 10014030 f   shlwapi_lib:urlpars.obj
+ 0001:000131c8       ?DetectDots@URL@@QAAKPAPBG@Z 100141c8 f   shlwapi_lib:urlpars.obj
+ 0001:000132d4       ?FeedQueryAndFragment@URL@@QAAXPAVURL_STRING@@@Z 100142d4 f   shlwapi_lib:urlpars.obj
+ 0001:000136a0       ?ColonSlashSlashW@@YAJPBG0PAGH@Z 100146a0 f   shlwapi_lib:urlpars.obj
+ 0001:000137b0       UrlFixupW                  100147b0 f   shlwapi_lib:urlpars.obj
+ 0001:00013aac       ?ScanSchemes@@YAHPBGKPAK@Z 10014aac f   shlwapi_lib:urlpars.obj
+ 0001:00013b18       ?ProbeWriteBuffer@@YAKPAXK@Z 10014b18 f   shlwapi_lib:urlpars.obj
+ 0001:00013bc4       ?ProbeStringW@@YAKPBGPAK@Z 10014bc4 f   shlwapi_lib:urlpars.obj
+ 0001:00013c48       ?DecodeUrl@@YAKPBGKPAGPAK@Z 10014c48 f   shlwapi_lib:urlpars.obj
+ 0001:00013d34       ?GetUrlAddressInfo@@YAKPAPAGPAK01PAH012@Z 10014d34 f   shlwapi_lib:urlpars.obj
+ 0001:00013e30       ?GetUrlAddress@@YAKPAPAGPAK010101PAGPAH@Z 10014e30 f   shlwapi_lib:urlpars.obj
+ 0001:000141a0       ?CrackUrl@@YAKPAGKHPAW4SHINTERNET_SCHEME@@PAPAGPAK23023232323PAH@Z 100151a0 f   shlwapi_lib:urlpars.obj
+ 0001:0001451c       ?CopyUrlForParse@@YAJPBGPAVShStrW@@K@Z 1001551c f   shlwapi_lib:urlpars.obj
+ 0001:0001458c       ?BreakUrls@@YAJPAGPAU_UrlParts@@PBGPAVShStrW@@1K@Z 1001558c f   shlwapi_lib:urlpars.obj
+ 0001:0001469c       ?SHUrlEscape@@YAJPBGPAVShStrW@@K@Z 1001569c f   shlwapi_lib:urlpars.obj
+ 0001:00014850       ?SHPathCreateFromUrl@@YAJPBGPAVShStrW@@K@Z 10015850 f   shlwapi_lib:urlpars.obj
+ 0001:0001490c       ?SHUrlParse@@YAJPBG0PAVShStrW@@K@Z 1001590c f   shlwapi_lib:urlpars.obj
+ 0001:00014b2c       ?SHUrlGetPart@@YAJPAVShStrW@@0KK@Z 10015b2c f   shlwapi_lib:urlpars.obj
+ 0001:00014c4c       UrlGetPartA                10015c4c f   shlwapi_lib:urlpars.obj
+ 0001:00014d70       UrlIsW                     10015d70 f   shlwapi_lib:urlpars.obj
+ 0001:00014ee4       UrlIsOpaqueW               10015ee4 f   shlwapi_lib:urlpars.obj
+ 0001:00014eec       UrlIsNoHistoryW            10015eec f   shlwapi_lib:urlpars.obj
+ 0001:00014efc       PathCreateFromUrlA         10015efc f   shlwapi_lib:urlpars.obj
+ 0001:0001500c       UrlEscapeW                 1001600c f   shlwapi_lib:urlpars.obj
+ 0001:000150c0       PathCreateFromUrlW         100160c0 f   shlwapi_lib:urlpars.obj
+ 0001:00015174       PathCreateFromUrlAlloc     10016174 f   shlwapi_lib:urlpars.obj
+ 0001:0001521c       UrlGetPartW                1001621c f   shlwapi_lib:urlpars.obj
+ 0001:000152fc       ?IsUrlPrefix@URL@@AAAPBGPBG@Z 100162fc f i shlwapi_lib:urlpars.obj
+ 0001:00015408       ?IsLocalDrive@URL@@AAAHPBG@Z 10016408 f i shlwapi_lib:urlpars.obj
+ 0001:000154c8       ?IsQualifiedDrive@URL@@AAAHPBG@Z 100164c8 f i shlwapi_lib:urlpars.obj
+ 0001:00015550       ?DetectSymbols@URL@@AAAHGGG@Z 10016550 f i shlwapi_lib:urlpars.obj
+ 0001:000155b4       ?DetectAnything@URL@@QAAHXZ 100165b4 f   shlwapi_lib:urlpars.obj
+ 0001:000155f0       ?DetectAndFeedScheme@URL@@QAAHPAVURL_STRING@@H@Z 100165f0 f   shlwapi_lib:urlpars.obj
+ 0001:00015878       ?DetectFileServer@URL@@AAAHXZ 10016878 f   shlwapi_lib:urlpars.obj
+ 0001:000158b4       ?DefaultDetectServer@URL@@AAAHXZ 100168b4 f   shlwapi_lib:urlpars.obj
+ 0001:00015920       ?FeedFileServer@URL@@AAAXPAVURL_STRING@@@Z 10016920 f   shlwapi_lib:urlpars.obj
+ 0001:00015b3c       ?FeedFtpServer@URL@@AAAXPAVURL_STRING@@@Z 10016b3c f   shlwapi_lib:urlpars.obj
+ 0001:00015da8       ?FeedHttpServer@URL@@AAAXPAVURL_STRING@@@Z 10016da8 f   shlwapi_lib:urlpars.obj
+ 0001:00016108       ?FeedDefaultServer@URL@@AAAXPAVURL_STRING@@@Z 10017108 f   shlwapi_lib:urlpars.obj
+ 0001:00016348       ?DetectAbsolutePath@URL@@QAAHXZ 10017348 f   shlwapi_lib:urlpars.obj
+ 0001:000163b8       ?DetectPath@URL@@QAAHXZ    100173b8 f   shlwapi_lib:urlpars.obj
+ 0001:00016414       ?FeedPath@URL@@QAAXPAVURL_STRING@@H@Z 10017414 f   shlwapi_lib:urlpars.obj
+ 0001:0001653c       UrlCrackW                  1001753c f   shlwapi_lib:urlpars.obj
+ 0001:00016c44       ?FeedServer@URL@@QAAXPAVURL_STRING@@@Z 10017c44 f   shlwapi_lib:urlpars.obj
+ 0001:00016c84       ?BlendUrls@@YAJAAVURL@@0PAVURL_STRING@@K@Z 10017c84 f   shlwapi_lib:urlpars.obj
+ 0001:000172b8       ?FormUrlCombineResultW@@YAJPBG0PAGPAKK@Z 100182b8 f   shlwapi_lib:urlpars.obj
+ 0001:0001748c       ?FormUrlCombineResultA@@YAJPBD0PADPAKK@Z 1001848c f   shlwapi_lib:urlpars.obj
+ 0001:0001774c       UrlCombineW                1001874c f   shlwapi_lib:urlpars.obj
+ 0001:00017784       UrlCombineA                10018784 f   shlwapi_lib:urlpars.obj
+ 0001:000177d0       UrlCanonicalizeA           100187d0 f   shlwapi_lib:urlpars.obj
+ 0001:00017874       UrlCanonicalizeW           10018874 f   shlwapi_lib:urlpars.obj
+ 0001:000179d0       SHPackDispParamsV          100189d0 f   shlwapi_lib:connect.obj
+ 0001:00017ab0       SHPackDispParams           10018ab0 f   shlwapi_lib:connect.obj
+ 0001:00017acc       ?GetConnectionPointSink@@YAJPAUIUnknown@@PBU_GUID@@PAPAU1@@Z 10018acc f   shlwapi_lib:connect.obj
+ 0001:00017b10       ?EnumConnectionPointSinks@@YAJPAUIConnectionPoint@@PBU_GUID@@1P6AJPAUIUnknown@@J@ZJ@Z 10018b10 f   shlwapi_lib:connect.obj
+ 0001:00017c24       ?EnumInvokeCallback@@YAJPAUIUnknown@@J@Z 10018c24 f   shlwapi_lib:connect.obj
+ 0001:00017d8c       IConnectionPoint_InvokeIndirect 10018d8c f   shlwapi_lib:connect.obj
+ 0001:00017f34       ?InvokeWithCancelProc@@YAJPAUIDispatch@@PAUSHINVOKEPARAMS@@@Z 10018f34 f   shlwapi_lib:connect.obj
+ 0001:00017f78       IConnectionPoint_InvokeWithCancel 10018f78 f   shlwapi_lib:connect.obj
+ 0001:00017fcc       IConnectionPoint_SimpleInvoke 10018fcc f   shlwapi_lib:connect.obj
+ 0001:00018000       IConnectionPoint_InvokeParamV 10019000 f   shlwapi_lib:connect.obj
+ 0001:00018078       ?OnChangedCallback@@YAJPAUIUnknown@@J@Z 10019078 f   shlwapi_lib:connect.obj
+ 0001:00018090       IUnknown_FindConnectionPoint 10019090 f   shlwapi_lib:connect.obj
+ 0001:00018118       IUnknown_CPContainerInvokeParam 10019118 f   shlwapi_lib:connect.obj
+ 0001:00018180       IUnknown_CPContainerOnChanged 10019180 f   shlwapi_lib:connect.obj
+ 0001:000181e4       IsCharSpaceW               100191e4 f   shlwapi_lib:strtype.obj
+ 0001:00018250       IsCharDigitW               10019250 f   shlwapi_lib:strtype.obj
+ 0001:0001828c       IsCharXDigitW              1001928c f   shlwapi_lib:strtype.obj
+ 0001:000182d8       IsCharCntrlW               100192d8 f   shlwapi_lib:strtype.obj
+ 0001:000182f0       IsCharBlankW               100192f0 f   shlwapi_lib:strtype.obj
+ 0001:00018324       IsOS                       10019324 f   shlwapi_lib:isos.obj
+ 0001:00018334       GetMIMETypeSubKeyA         10019334 f   shlwapi_lib:mime.obj
+ 0001:000183a8       GetMIMETypeSubKeyW         100193a8 f   shlwapi_lib:mime.obj
+ 0001:00018444       GetMIMEValueW              10019444 f   shlwapi_lib:mime.obj
+ 0001:000184c0       GetMIMETypeStringValueW    100194c0 f   shlwapi_lib:mime.obj
+ 0001:00018520       MIME_GetExtensionW         10019520 f   shlwapi_lib:mime.obj
+ 0001:000185c4       ?GetInstallLanguage@@YAGXZ 100195c4 f   shlwapi_lib:mlui.obj
+ 0001:00018638       ?PathCatW@@YAHPAGKPBG@Z    10019638 f   shlwapi_lib:mlui.obj
+ 0001:000186c8       MLFreeLibrary              100196c8 f   shlwapi_lib:mlui.obj
+ 0001:000186d4       MLLoadLibraryW             100196d4 f   shlwapi_lib:mlui.obj
+ 0001:000187c4       MLBuildResURLW             100197c4 f   shlwapi_lib:mlui.obj
+ 0001:00018924       ?PathIsUNCExA@@YAHPBDPAPBD@Z 10019924 f i shlwapi_lib:patha.obj
+ 0001:0001896c       ?PathCchIsRootA@@YAHPBD@Z  1001996c f i shlwapi_lib:patha.obj
+ 0001:00018a40       ?PathCchAddBackslashExA@@YAJPADIPAPADPAI@Z 10019a40 f i shlwapi_lib:patha.obj
+ 0001:00018b10       ?PathCchRemoveBackslashExA@@YAJPADIPAPADPAI@Z 10019b10 f i shlwapi_lib:patha.obj
+ 0001:00018bb4       ?PathCchSkipRootA@@YAJPBDPAPBD@Z 10019bb4 f i shlwapi_lib:patha.obj
+ 0001:00018cb8       ?PathCchStripToRootA@@YAJPADI@Z 10019cb8 f i shlwapi_lib:patha.obj
+ 0001:00018d80       ?PathCchRemoveFileSpecA@@YAJPADI@Z 10019d80 f i shlwapi_lib:patha.obj
+ 0001:00018e68       ?PathCchFindExtensionA@@YAJPBDIPAPBD@Z 10019e68 f i shlwapi_lib:patha.obj
+ 0001:00018f04       ?PathIsRelativeWorkerA@@YAHPBD@Z 10019f04 f i shlwapi_lib:patha.obj
+ 0001:00018f44       PathFileExistsA            10019f44 f   shlwapi_lib:patha.obj
+ 0001:00018f4c       PathCommonPrefixA          10019f4c f   shlwapi_lib:patha.obj
+ 0001:000190d8       PathIsPrefixA              1001a0d8 f   shlwapi_lib:patha.obj
+ 0001:00019120       PathRemoveBlanksA          1001a120 f   shlwapi_lib:patha.obj
+ 0001:000191b0       PathFindFileNameA          1001a1b0 f   shlwapi_lib:patha.obj
+ 0001:0001920c       PathIsUNCA                 1001a20c f   shlwapi_lib:patha.obj
+ 0001:00019240       PathIsUNCServerA           1001a240 f   shlwapi_lib:patha.obj
+ 0001:0001928c       PathIsUNCServerShareA      1001a28c f   shlwapi_lib:patha.obj
+ 0001:000192f0       PathGetDriveNumberA        1001a2f0 f   shlwapi_lib:patha.obj
+ 0001:0001934c       PathStripPathA             1001a34c f   shlwapi_lib:patha.obj
+ 0001:00019388       ?IsTrailByte@@YAHPBD0@Z    1001a388 f   shlwapi_lib:patha.obj
+ 0001:000193d0       PathUnquoteSpacesA         1001a3d0 f   shlwapi_lib:patha.obj
+ 0001:00019428       PathQuoteSpacesA           1001a428 f   shlwapi_lib:patha.obj
+ 0001:00019494       PathSkipRootA              1001a494 f   shlwapi_lib:patha.obj
+ 0001:000194e0       PathGetCharTypeA           1001a4e0 f   shlwapi_lib:patha.obj
+ 0001:00019574       PathAddBackslashA          1001a574 f   shlwapi_lib:patha.obj
+ 0001:000195ac       PathRemoveBackslashA       1001a5ac f   shlwapi_lib:patha.obj
+ 0001:00019608       ?PathFindExtensionExA@@YAPADPBDI@Z 1001a608 f   shlwapi_lib:patha.obj
+ 0001:0001964c       PathFindExtensionA         1001a64c f   shlwapi_lib:patha.obj
+ 0001:00019654       PathIsRootA                1001a654 f   shlwapi_lib:patha.obj
+ 0001:00019658       PathRemoveFileSpecExA      1001a658 f   shlwapi_lib:patha.obj
+ 0001:000196a8       PathRenameExtensionA       1001a6a8 f   shlwapi_lib:patha.obj
+ 0001:0001970c       ?PathCchCanonicalizeA@@YAJPADIPBD@Z 1001a70c f i shlwapi_lib:patha.obj
+ 0001:00019aec       ?PathCchCombineA@@YAJPADIPBD1@Z 1001aaec f i shlwapi_lib:patha.obj
+ 0001:00019d38       ?PathCchAppendA@@YAJPADIPBD@Z 1001ad38 f i shlwapi_lib:patha.obj
+ 0001:00019da8       PathUndecorateA            1001ada8 f   shlwapi_lib:patha.obj
+ 0001:00019eb0       PathAppendA                1001aeb0 f   shlwapi_lib:patha.obj
+ 0001:00019ee4       PathCombineA               1001aee4 f   shlwapi_lib:patha.obj
+ 0001:00019f18       PathRemoveFileSpecA        1001af18 f   shlwapi_lib:patha.obj
+ 0001:00019f20       ?PathCchAddBackslashEx@@YAJPAGIPAPAGPAI@Z 1001af20 f i shlwapi_lib:pathw.obj
+ 0001:00019fd8       ?PathCchFindExtension@@YAJPBGIPAPBG@Z 1001afd8 f i shlwapi_lib:pathw.obj
+ 0001:0001a070       ?StrIsEqualWorker@@YAHPBG0H@Z 1001b070 f i shlwapi_lib:pathw.obj
+ 0001:0001a0c8       ?IsHexDigitWorker@@YAHG@Z  1001b0c8 f i shlwapi_lib:pathw.obj
+ 0001:0001a108       ?StringIsGUIDWorker@@YAHPBG@Z 1001b108 f i shlwapi_lib:pathw.obj
+ 0001:0001a164       ?PathIsVolumeGUIDWorker@@YAHPBG@Z 1001b164 f i shlwapi_lib:pathw.obj
+ 0001:0001a1a0       PathGetArgsW               1001b1a0 f   shlwapi_lib:pathw.obj
+ 0001:0001a1f8       PathRemoveArgsW            1001b1f8 f   shlwapi_lib:pathw.obj
+ 0001:0001a240       PathFileExistsW            1001b240 f   shlwapi_lib:pathw.obj
+ 0001:0001a280       PathFileExistsAndAttributesW 1001b280 f   shlwapi_lib:pathw.obj
+ 0001:0001a2d8       PathCommonPrefixW          1001b2d8 f   shlwapi_lib:pathw.obj
+ 0001:0001a450       PathIsPrefixW              1001b450 f   shlwapi_lib:pathw.obj
+ 0001:0001a498       PathRemoveBlanksW          1001b498 f   shlwapi_lib:pathw.obj
+ 0001:0001a514       PathFindFileNameW          1001b514 f   shlwapi_lib:pathw.obj
+ 0001:0001a56c       PathGetDriveNumberW        1001b56c f   shlwapi_lib:pathw.obj
+ 0001:0001a5e0       PathStripPathW             1001b5e0 f   shlwapi_lib:pathw.obj
+ 0001:0001a61c       PathIsDirectoryW           1001b61c f   shlwapi_lib:pathw.obj
+ 0001:0001a638       PathUnquoteSpacesW         1001b638 f   shlwapi_lib:pathw.obj
+ 0001:0001a694       PathQuoteSpacesW           1001b694 f   shlwapi_lib:pathw.obj
+ 0001:0001a704       PathFindNextComponentW     1001b704 f   shlwapi_lib:pathw.obj
+ 0001:0001a75c       ?PathMatchSingleSpecW@@YAHPBG0K@Z 1001b75c f   shlwapi_lib:pathw.obj
+ 0001:0001a8f4       ?PathMatchSpecHelper@@YAHPBG0K@Z 1001b8f4 f   shlwapi_lib:pathw.obj
+ 0001:0001a990       PathMatchSpecW             1001b990 f   shlwapi_lib:pathw.obj
+ 0001:0001a998       PathParseIconLocationW     1001b998 f   shlwapi_lib:pathw.obj
+ 0001:0001aa40       PathIsURLW                 1001ba40 f   shlwapi_lib:pathw.obj
+ 0001:0001aa7c       PathGetCharTypeW           1001ba7c f   shlwapi_lib:pathw.obj
+ 0001:0001ab10       PathAddBackslashW          1001bb10 f   shlwapi_lib:pathw.obj
+ 0001:0001ab48       ?PathFindExtensionExW@@YAPAGPBGI@Z 1001bb48 f   shlwapi_lib:pathw.obj
+ 0001:0001ab8c       PathFindExtensionW         1001bb8c f   shlwapi_lib:pathw.obj
+ 0001:0001ab94       PathRenameExtensionW       1001bb94 f   shlwapi_lib:pathw.obj
+ 0001:0001abf8       ?PathIsUNCEx@@YAHPBGPAPBG@Z 1001bbf8 f i shlwapi_lib:pathw.obj
+ 0001:0001ac70       ?PathCchIsRoot@@YAHPBG@Z   1001bc70 f i shlwapi_lib:pathw.obj
+ 0001:0001ad90       ?PathCchRemoveBackslashEx@@YAJPAGIPAPAGPAI@Z 1001bd90 f i shlwapi_lib:pathw.obj
+ 0001:0001ae2c       ?PathCchSkipRoot@@YAJPBGPAPBG@Z 1001be2c f i shlwapi_lib:pathw.obj
+ 0001:0001af5c       ?PathCchStripToRoot@@YAJPAGI@Z 1001bf5c f i shlwapi_lib:pathw.obj
+ 0001:0001b024       ?PathCchRemoveFileSpec@@YAJPAGI@Z 1001c024 f i shlwapi_lib:pathw.obj
+ 0001:0001b10c       ?PathCchRemoveExtension@@YAJPAGI@Z 1001c10c f i shlwapi_lib:pathw.obj
+ 0001:0001b1a4       ?PathCchCanonicalizeEx@@YAJPAGIPBGK@Z 1001c1a4 f i shlwapi_lib:pathw.obj
+ 0001:0001b724       ?PathCchCombineEx@@YAJPAGIPBG1K@Z 1001c724 f i shlwapi_lib:pathw.obj
+ 0001:0001b980       ?PathCchAppendEx@@YAJPAGIPBGK@Z 1001c980 f i shlwapi_lib:pathw.obj
+ 0001:0001ba04       PathIsUNCW                 1001ca04 f   shlwapi_lib:pathw.obj
+ 0001:0001ba20       PathIsUNCServerW           1001ca20 f   shlwapi_lib:pathw.obj
+ 0001:0001ba6c       PathIsUNCServerShareW      1001ca6c f   shlwapi_lib:pathw.obj
+ 0001:0001bad0       PathSkipRootW              1001cad0 f   shlwapi_lib:pathw.obj
+ 0001:0001bb24       PathIsContentTypeW         1001cb24 f   shlwapi_lib:pathw.obj
+ 0001:0001bbc8       PathUndecorateW            1001cbc8 f   shlwapi_lib:pathw.obj
+ 0001:0001bc78       PathRemoveBackslashW       1001cc78 f   shlwapi_lib:pathw.obj
+ 0001:0001bcd4       PathIsRootW                1001ccd4 f   shlwapi_lib:pathw.obj
+ 0001:0001bcd8       PathRemoveExtensionW       1001ccd8 f   shlwapi_lib:pathw.obj
+ 0001:0001bcec       PathRemoveFileSpecExW      1001ccec f   shlwapi_lib:pathw.obj
+ 0001:0001bd40       PathStripToRootW           1001cd40 f   shlwapi_lib:pathw.obj
+ 0001:0001bd9c       PathAppendW                1001cd9c f   shlwapi_lib:pathw.obj
+ 0001:0001bdd4       PathCanonicalizeW          1001cdd4 f   shlwapi_lib:pathw.obj
+ 0001:0001be3c       PathCombineW               1001ce3c f   shlwapi_lib:pathw.obj
+ 0001:0001be80       PathRemoveFileSpecW        1001ce80 f   shlwapi_lib:pathw.obj
+ 0001:0001be90       PathCompactPathW           1001ce90 f   shlwapi_lib:path_uiw.obj
+ 0001:0001c17c       PathCompactPathExW         1001d17c f   shlwapi_lib:path_uiw.obj
+ 0001:0001c30c       QISearch                   1001d30c f   shlwapi_lib:qisearch.obj
+ 0001:0001c3ac       ?AtlW2AHelper@@YAPADPADPBGHI@Z 1001d3ac f i shlwapi_lib:regwrap.obj
+ 0001:0001c410       ?AtlThrowImpl@ATL@@YAXJ@Z  1001d410 f i shlwapi_lib:regwrap.obj
+ 0001:0001c43c       ?AtlThrowLastWin32@ATL@@YAXXZ 1001d43c f i shlwapi_lib:regwrap.obj
+ 0001:0001c460       ?strcpyAW@@YAHPADKPBG@Z    1001d460 f i shlwapi_lib:regwrap.obj
+ 0001:0001c4c0       RegEnumValueA              1001d4c0 f   shlwapi_lib:regwrap.obj
+ 0001:0001c640       RegEnumKeyExA              1001d640 f   shlwapi_lib:regwrap.obj
+ 0001:0001c648       RegEnumKeyW                1001d648 f   shlwapi_lib:regwrap.obj
+ 0001:0001c67c       RegEnumKeyA                1001d67c f   shlwapi_lib:regwrap.obj
+ 0001:0001c738       ??$AtlConvAllocMemory@G@ATL@@YAXPAPAGHPAGH@Z 1001d738 f i shlwapi_lib:regwrap.obj
+ 0001:0001c7f4       ?Init@CA2W_WithLength@?A0x3517926b@@AAAXPBDIH@Z 1001d7f4 f i shlwapi_lib:regwrap.obj
+ 0001:0001c8e4       ?Init@?$CA2WEX@$0IA@@ATL@@AAAXPBDI@Z 1001d8e4 f i shlwapi_lib:regwrap.obj
+ 0001:0001c9d0       RegDeleteKeyA              1001d9d0 f   shlwapi_lib:regwrap.obj
+ 0001:0001ca40       RegCreateKeyExA            1001da40 f   shlwapi_lib:regwrap.obj
+ 0001:0001cb10       RegDeleteValueA            1001db10 f   shlwapi_lib:regwrap.obj
+ 0001:0001cb80       RegSetValueExA             1001db80 f   shlwapi_lib:regwrap.obj
+ 0001:0001cca8       RegOpenKeyExA              1001dca8 f   shlwapi_lib:regwrap.obj
+ 0001:0001cd30       RegQueryValueExA           1001dd30 f   shlwapi_lib:regwrap.obj
+ 0001:0001cf48       RegQueryValueA             1001df48 f   shlwapi_lib:regwrap.obj
+ 0001:0001cf7c       CreateDefaultAcceptHeaders 1001df7c f   shlwapi_lib:httpfnc_ui.obj
+ 0001:0001d250       RegisterDefaultAcceptHeaders 1001e250 f   shlwapi_lib:httpfnc_ui.obj
+ 0001:0001d37c       SHAnsiToUnicodeNativeCP    1001e37c f   shlwapi_lib:uniansi.obj
+ 0001:0001d44c       SHAnsiToUnicodeInetCP      1001e44c f   shlwapi_lib:uniansi.obj
+ 0001:0001d534       SHUnicodeToUnicode         1001e534 f   shlwapi_lib:uniansi.obj
+ 0001:0001d58c       SHUnicodeToAnsiNativeCP    1001e58c f   shlwapi_lib:uniansi.obj
+ 0001:0001d688       SHUnicodeToAnsiInetCP      1001e688 f   shlwapi_lib:uniansi.obj
+ 0001:0001d790       SHAnsiToUnicodeCP          1001e790 f   shlwapi_lib:uniansi.obj
+ 0001:0001d854       SHAnsiToUnicode            1001e854 f   shlwapi_lib:uniansi.obj
+ 0001:0001d868       SHUnicodeToAnsiCP          1001e868 f   shlwapi_lib:uniansi.obj
+ 0001:0001d92c       SHUnicodeToAnsi            1001e92c f   shlwapi_lib:uniansi.obj
+ 0001:0001d940       _GetProcFromDLL            1001e940 f   shlwapi_lib:dllload.obj
+ 0001:0001d990       ConvertINetMultiByteToUnicode 1001e990 f   shlwapi_lib:dllload.obj
+ 0001:0001da18       ConvertINetUnicodeToMultiByte 1001ea18 f   shlwapi_lib:dllload.obj
+ 0001:0001daa0       LcidToRfc1766W             1001eaa0 f   shlwapi_lib:dllload.obj
+ 0001:0001db00       _SHGetPathFromIDListW      1001eb00 f   shlwapi_lib:dllload.obj
+ 0001:0001db54       _SHChangeNotify            1001eb54 f   shlwapi_lib:dllload.obj
+ 0001:0001dbb0       SHEnableMenuItem           1001ebb0 f   shlwapi_lib:util_ui.obj
+ 0001:0001dbc4       SHCheckMenuItem            1001ebc4 f   shlwapi_lib:util_ui.obj
+ 0001:0001dbd8       SHGetMenuFromID            1001ebd8 f   shlwapi_lib:util_ui.obj
+ 0001:0001dc20       SHGetCurColorRes           1001ec20 f   shlwapi_lib:util_ui.obj
+ 0001:0001dc60       SHCreateWorkerWindowW      1001ec60 f   shlwapi_lib:util_ui.obj
+ 0001:0001dd5c       SHSetDefaultDialogFont     1001ed5c f   shlwapi_lib:util_ui.obj
+ 0001:0001dd60       SHRemoveDefaultDialogFont  1001ed60 f   shlwapi_lib:util_ui.obj
+ 0001:0001dd64       SHDefWindowProc            1001ed64 f   shlwapi_lib:util_ui.obj
+ 0001:0001dd68       SHPropagateMessage         1001ed68 f   shlwapi_lib:util_ui.obj
+ 0001:0001dd6c       ?QueryInterface@CMemStream@@UAAJABU_GUID@@PAPAX@Z 1001ed6c f   shlwapi_lib:stream.obj
+ 0001:0001dd80       ?AddRef@CMemStream@@UAAKXZ 1001ed80 f   shlwapi_lib:stream.obj
+ 0001:0001dd94       ?WriteToReg@CMemStream@@AAAHXZ 1001ed94 f   shlwapi_lib:stream.obj
+ 0001:0001de20       ?Release@CMemStream@@UAAKXZ 1001ee20 f   shlwapi_lib:stream.obj
+ 0001:0001de78       ?Read@CMemStream@@UAAJPAXKPAK@Z 1001ee78 f   shlwapi_lib:stream.obj
+ 0001:0001def4       ?GrowBuffer@CMemStream@@QAAPAEK@Z 1001eef4 f   shlwapi_lib:stream.obj
+ 0001:0001df4c       ?Write@CMemStream@@UAAJPBXKPAK@Z 1001ef4c f   shlwapi_lib:stream.obj
+ 0001:0001e0a0       ?Seek@CMemStream@@UAAJT_LARGE_INTEGER@@KPAT_ULARGE_INTEGER@@@Z 1001f0a0 f   shlwapi_lib:stream.obj
+ 0001:0001e108       ?SetSize@CMemStream@@UAAJT_ULARGE_INTEGER@@@Z 1001f108 f   shlwapi_lib:stream.obj
+ 0001:0001e170       ?CopyTo@CMemStream@@UAAJPAUIStream@@T_ULARGE_INTEGER@@PAT3@2@Z 1001f170 f   shlwapi_lib:stream.obj
+ 0001:0001e21c       ?Commit@CMemStream@@UAAJK@Z 1001f21c f   shlwapi_lib:stream.obj
+ 0001:0001e228       ?Revert@CMemStream@@UAAJXZ 1001f228 f   shlwapi_lib:stream.obj
+ 0001:0001e234       ?LockRegion@CMemStream@@UAAJT_ULARGE_INTEGER@@0K@Z 1001f234 f   shlwapi_lib:stream.obj
+ 0001:0001e24c       ?UnlockRegion@CMemStream@@UAAJT_ULARGE_INTEGER@@0K@Z 1001f24c f   shlwapi_lib:stream.obj
+ 0001:0001e264       ?Stat@CMemStream@@UAAJPAUtagSTATSTG@@K@Z 1001f264 f   shlwapi_lib:stream.obj
+ 0001:0001e2a0       ?Clone@CMemStream@@UAAJPAPAUIStream@@@Z 1001f2a0 f   shlwapi_lib:stream.obj
+ 0001:0001e2b4       ?CreateMemStreamEx@@YAPAVCMemStream@@PBEIPBD@Z 1001f2b4 f   shlwapi_lib:stream.obj
+ 0001:0001e374       SHCreateMemStream          1001f374 f   shlwapi_lib:stream.obj
+ 0001:0001e37c       SHOpenRegStream2A          1001f37c f   shlwapi_lib:stream.obj
+ 0001:0001e518       SHOpenRegStream2W          1001f518 f   shlwapi_lib:stream.obj
+ 0001:0001e600       DeleteKeyRecursivelyW      1001f600 f   shlwapi_lib:reg.obj
+ 0001:0001e760       SHDeleteKeyW               1001f760 f   shlwapi_lib:reg.obj
+ 0001:0001e764       RestrictArguments          1001f764 f i shlwapi_lib:reg.obj
+ 0001:0001e7bc       RestrictRegType            1001f7bc f i shlwapi_lib:reg.obj
+ 0001:0001e890       _SHRegQueryValueA          1001f890 f   shlwapi_lib:reg.obj
+ 0001:0001e944       _SHRegQueryValueW          1001f944 f   shlwapi_lib:reg.obj
+ 0001:0001e9f8       SHRegGetValueA             1001f9f8 f   shlwapi_lib:reg.obj
+ 0001:0001eafc       SHRegGetValueW             1001fafc f   shlwapi_lib:reg.obj
+ 0001:0001ec00       SHEnumKeyExA               1001fc00 f   shlwapi_lib:reg.obj
+ 0001:0001ec28       SHEnumKeyExW               1001fc28 f   shlwapi_lib:reg.obj
+ 0001:0001ec50       SHEnumValueA               1001fc50 f   shlwapi_lib:reg.obj
+ 0001:0001ec84       SHEnumValueW               1001fc84 f   shlwapi_lib:reg.obj
+ 0001:0001ecb8       SHQueryInfoKeyW            1001fcb8 f   shlwapi_lib:reg.obj
+ 0001:0001ed14       SHRegGetCLSIDKey           1001fd14 f   shlwapi_lib:reg.obj
+ 0001:0001ee24       SHRegDuplicateHKey         1001fe24 f   shlwapi_lib:reg.obj
+ 0001:0001ee58       SHRegGetValueFromHKCUHKLM  1001fe58 f   shlwapi_lib:reg.obj
+ 0001:0001eed8       SHRegGetBoolValueFromHKCUHKLM 1001fed8 f   shlwapi_lib:reg.obj
+ 0001:0001f010       SHGetValueA                10020010 f   shlwapi_lib:reg.obj
+ 0001:0001f040       SHGetValueW                10020040 f   shlwapi_lib:reg.obj
+ 0001:0001f070       SHGetValueGoodBootW        10020070 f   shlwapi_lib:reg.obj
+ 0001:0001f0a4       SHQueryValueExA            100200a4 f   shlwapi_lib:reg.obj
+ 0001:0001f0dc       SHQueryValueExW            100200dc f   shlwapi_lib:reg.obj
+ 0001:0001f11c       SHDeleteKeyA               1002011c f   shlwapi_lib:reg.obj
+ 0001:0001f180       SHRegGetIntW               10020180 f   shlwapi_lib:reg.obj
+ 0001:0001f218       ?_ExpandRegString@@YAJPAGKPAK@Z 10020218 f   shlwapi_lib:nativew.obj
+ 0001:0001f26c       NullTerminateRegSzStringW  1002026c f   shlwapi_lib:nativew.obj
+ 0001:0001f300       NullTerminateRegExpandSzStringW 10020300 f   shlwapi_lib:nativew.obj
+ 0001:0001f4e8       NullTerminateRegMultiSzStringW 100204e8 f   shlwapi_lib:nativew.obj
+ 0001:0001f5d0       FixRegDataW                100205d0 f   shlwapi_lib:nativew.obj
+ 0001:0001f6c4       SHSetValueW                100206c4 f   shlwapi_lib:nativew.obj
+ 0001:0001f778       SHDeleteValueW             10020778 f   shlwapi_lib:nativew.obj
+ 0001:0001f7c4       SHRegQueryUSValueW         100207c4 f   shlwapi_lib:nativew.obj
+ 0001:0001f904       SHRegWriteUSValueW         10020904 f   shlwapi_lib:nativew.obj
+ 0001:0001fa48       SHRegGetUSValueW           10020a48 f   shlwapi_lib:nativew.obj
+ 0001:0001fb30       SHRegSetUSValueW           10020b30 f   shlwapi_lib:nativew.obj
+ 0001:0001fb9c       SHRegEnumUSKeyW            10020b9c f   shlwapi_lib:nativew.obj
+ 0001:0001fcc4       SHRegEnumUSValueW          10020cc4 f   shlwapi_lib:nativew.obj
+ 0001:0001fe24       SHRegQueryInfoUSKeyW       10020e24 f   shlwapi_lib:nativew.obj
+ 0001:0001ff64       ?GetRelativeTimeFormat@@YAHKPAKPBU_SYSTEMTIME@@PAGH@Z 10020f64 f   shlwapi_lib:time.obj
+ 0001:000200e4       ?GetRelativeDateFormat@@YAHKPAKPBU_SYSTEMTIME@@PAGH@Z 100210e4 f   shlwapi_lib:time.obj
+ 0001:0002035c       SHFormatDateTimeW          1002135c f   shlwapi_lib:time.obj
+ 0001:000205d0       SHGetInverseCMAP           100215d0 f   shlwapi_lib:palette.obj
+ 0001:00020620       TermPalette                10021620 f   shlwapi_lib:palette.obj
+ 0001:00020624       SHLoadRegUIStringW         10021624 f   shlwapi_lib:regw.obj
+ 0001:00020754       SHLoadRegUIStringA         10021754 f   shlwapi_lib:regw.obj
+ 0001:000207ec       SHMirrorIcon               100217ec f   shlwapi_lib:mirror.obj
+ 0001:00020b00       ?_PrivPathAddBackslashW@@YAJPAGI@Z 10021b00 f   shlwapi_lib:regus.obj
+ 0001:00020b94       ?_PrivCreateNonRelativeUSKeyW@@YAJPBGKKPAUtagUSKEY@@@Z 10021b94 f   shlwapi_lib:regus.obj
+ 0001:00020cc0       ?_PrivCreateRelativeUSKeyW@@YAJPAUtagUSKEY@@PBGKK0@Z 10021cc0 f   shlwapi_lib:regus.obj
+ 0001:00020f54       ?_PrivOpenNonRelativeUSKeyW@@YAJPBGKHPAUtagUSKEY@@@Z 10021f54 f   shlwapi_lib:regus.obj
+ 0001:0002102c       ?_PrivOpenRelativeUSKeyW@@YAJPAUtagUSKEY@@PBGKH0@Z 1002202c f   shlwapi_lib:regus.obj
+ 0001:00021288       ?_PrivUpdateUSKeyComponent@@YAJPAPAUHKEY__@@0PAGKH@Z 10022288 f   shlwapi_lib:regus.obj
+ 0001:0002134c       ?_PrivUpdateUSKeyHKCU@@YAJPAUtagUSKEY@@H@Z 1002234c f   shlwapi_lib:regus.obj
+ 0001:00021374       ?_PrivUpdateUSKeyHKLM@@YAJPAUtagUSKEY@@H@Z 10022374 f   shlwapi_lib:regus.obj
+ 0001:000213a0       ?_PrivDeleteUSKeyOrValueW@@YAJPAXPBGW4SHREGDEL_FLAGS@@H@Z 100223a0 f   shlwapi_lib:regus.obj
+ 0001:00021500       SHRegCreateUSKeyW          10022500 f   shlwapi_lib:regus.obj
+ 0001:000215d8       SHRegCreateUSKeyA          100225d8 f   shlwapi_lib:regus.obj
+ 0001:00021664       SHRegOpenUSKeyW            10022664 f   shlwapi_lib:regus.obj
+ 0001:00021730       SHRegOpenUSKeyA            10022730 f   shlwapi_lib:regus.obj
+ 0001:000217bc       SHRegDeleteUSValueW        100227bc f   shlwapi_lib:regus.obj
+ 0001:000217cc       SHRegDeleteUSValueA        100227cc f   shlwapi_lib:regus.obj
+ 0001:0002184c       SHRegDeleteEmptyUSKeyW     1002284c f   shlwapi_lib:regus.obj
+ 0001:0002185c       SHRegDeleteEmptyUSKeyA     1002285c f   shlwapi_lib:regus.obj
+ 0001:000218dc       SHRegCloseUSKey            100228dc f   shlwapi_lib:regus.obj
+ 0001:00021960       SHRegGetBoolUSValueW       10022960 f   shlwapi_lib:regus.obj
+ 0001:00021ab4       SHRegGetBoolUSValueA       10022ab4 f   shlwapi_lib:regus.obj
+ 0001:00021b64       ?_ExpandRegString@@YAJPADKPAK@Z 10022b64 f   shlwapi_lib:nativea.obj
+ 0001:00021bb8       NullTerminateRegSzStringA  10022bb8 f   shlwapi_lib:nativea.obj
+ 0001:00021c38       NullTerminateRegExpandSzStringA 10022c38 f   shlwapi_lib:nativea.obj
+ 0001:00021e18       NullTerminateRegMultiSzStringA 10022e18 f   shlwapi_lib:nativea.obj
+ 0001:00021ef8       FixRegDataA                10022ef8 f   shlwapi_lib:nativea.obj
+ 0001:00021fec       SHSetValueA                10022fec f   shlwapi_lib:nativea.obj
+ 0001:000220a0       SHDeleteValueA             100230a0 f   shlwapi_lib:nativea.obj
+ 0001:000220ec       SHRegQueryUSValueA         100230ec f   shlwapi_lib:nativea.obj
+ 0001:0002222c       SHRegWriteUSValueA         1002322c f   shlwapi_lib:nativea.obj
+ 0001:00022370       SHRegGetUSValueA           10023370 f   shlwapi_lib:nativea.obj
+ 0001:00022458       SHRegSetUSValueA           10023458 f   shlwapi_lib:nativea.obj
+ 0001:000224c4       SHRegEnumUSKeyA            100234c4 f   shlwapi_lib:nativea.obj
+ 0001:000225ec       SHRegEnumUSValueA          100235ec f   shlwapi_lib:nativea.obj
+ 0001:0002274c       SHWindowsPolicyGetValue    1002374c f   shlwapi_lib:winpolicy.obj
+ 0001:00022764       SHWindowsPolicy            10023764 f   shlwapi_lib:winpolicy.obj
+ 0001:000227a8       ShellMessageBoxW           100237a8 f   shlwapi_lib:msgboxw.obj
+ 0001:000228a0       ?_GetCachedZonesManager@@YAJABU_GUID@@PAPAX@Z 100238a0 f   shlwapi_lib:security.obj
+ 0001:0002292c       ZoneCheckHostEx            1002392c f   shlwapi_lib:security.obj
+ 0001:000229b8       ZoneCheckHost              100239b8 f   shlwapi_lib:security.obj
+ 0001:000229f0       ZoneConfigureW             100239f0 f   shlwapi_lib:security.obj
+ 0001:000229f4       ZoneCheckUrlExCacheW       100239f4 f   shlwapi_lib:security.obj
+ 0001:00022b4c       ZoneCheckUrlExCacheA       10023b4c f   shlwapi_lib:security.obj
+ 0001:00022bf0       ZoneCheckUrlExW            10023bf0 f   shlwapi_lib:security.obj
+ 0001:00022c34       ZoneCheckUrlExA            10023c34 f   shlwapi_lib:security.obj
+ 0001:00022cd8       ZoneCheckUrlW              10023cd8 f   shlwapi_lib:security.obj
+ 0001:00022d24       ZoneCheckUrlA              10023d24 f   shlwapi_lib:security.obj
+ 0001:00022d94       ZoneCheckPathW             10023d94 f   shlwapi_lib:security.obj
+ 0001:00022da4       ZoneCheckPathA             10023da4 f   shlwapi_lib:security.obj
+ 0001:00022e14       ZoneComputePaneSize        10023e14 f   shlwapi_lib:security_ui.obj
+ 0001:00022e1c       ualstrcpynW                10023e1c f   shlwapi_lib:uastrfnc.obj
+ 0001:00022e7c       ualstrlenW                 10023e7c f   shlwapi_lib:uastrfnc.obj
+ 0001:00022eb8       ualstrcmpiW                10023eb8 f   shlwapi_lib:uastrfnc.obj
+ 0001:0002305c       ualstrcmpW                 1002405c f   shlwapi_lib:uastrfnc.obj
+ 0001:000231f8       wvnsprintfA                100241f8 f   shlwapi_lib:wsprintf.obj
+ 0001:0002324c       wnsprintfA                 1002424c f   shlwapi_lib:wsprintf.obj
+ 0001:000232b0       wnsprintfW                 100242b0 f   shlwapi_lib:wsprintf.obj
+ 0001:00023318       ??0ShStrW@@QAA@XZ          10024318 f   shlwapi_lib:shstr.obj
+ 0001:00023330       ?CloneStrW@ShStrW@@QAAPAGXZ 10024330 f   shlwapi_lib:shstr.obj
+ 0001:00023350       ?Reset@ShStrW@@QAAXXZ      10024350 f   shlwapi_lib:shstr.obj
+ 0001:0002337c       ?SetSize@ShStrW@@QAAJK@Z   1002437c f   shlwapi_lib:shstr.obj
+ 0001:0002345c       ?_SetStr@ShStrW@@AAAJPBD@Z 1002445c f   shlwapi_lib:shstr.obj
+ 0001:000234c8       ?_SetStr@ShStrW@@AAAJPBGK@Z 100244c8 f   shlwapi_lib:shstr.obj
+ 0001:00023564       ?SetStr@ShStrW@@QAAJPBD@Z  10024564 f   shlwapi_lib:shstr.obj
+ 0001:000235a0       ?SetStr@ShStrW@@QAAJPBGK@Z 100245a0 f   shlwapi_lib:shstr.obj
+ 0001:000235e4       ?Append@ShStrW@@QAAJPBGK@Z 100245e4 f   shlwapi_lib:shstr.obj
+ 0001:00023694       SHRegGetStringExW          10024694 f   shlwapi_lib:RegistryHelpers.obj
+ 0001:00023700       SHRegGetStringW            10024700 f   shlwapi_lib:RegistryHelpers.obj
+ 0001:00023728       staticIsOS                 10024728 f   shlwapi_lib:ieisos.obj
+ 0001:00023740       IsTypeInList               10024740 f   shlwapi_lib:typelist.obj
+ 0001:00023888       InDelimitedList            10024888 f   shlwapi_lib:typelist.obj
+ 0001:00023900       ?SHPolicyGetValue@@YAJPBG00PBUSHPOLICY_CONSTRAINT_@@PAKPAX2@Z 10024900 f   shlwapi_lib:shpolicy.obj
+ 0001:00023a34       ?_CacheResult@CPolicyCache@@AAAXJPBUSHPOLICY_CONSTRAINT_@@PAXPAKI@Z 10024a34 f   shlwapi_lib:shpolicy.obj
+ 0001:00023a90       ?_GetCachedValue@CPolicyCache@@AAAHIPAXPAKPAJ@Z 10024a90 f   shlwapi_lib:shpolicy.obj
+ 0001:00023af8       ?_OpenQfePolicyKey@CPolicyCache@@CAPAUHKEY__@@ABU_GUID@@0@Z 10024af8 f   shlwapi_lib:shpolicy.obj
+ 0001:00023ba8       ?_GetQfeValue@CPolicyCache@@CAJPBUSHPOLICYTABLE_@@ABU_GUID@@PAXPAK@Z 10024ba8 f   shlwapi_lib:shpolicy.obj
+ 0001:00023c98       ?GetValue@CPolicyCache@@SAJPBUSHPOLICYTABLE_@@ABU_GUID@@PAXPAK@Z 10024c98 f   shlwapi_lib:shpolicy.obj
+ 0001:00023df0       SHPolicyTableGetValue      10024df0 f   shlwapi_lib:shpolicy.obj
+ 0001:00023dfc       SHWindowsPolicyAllocValue  10024dfc f   shlwapi_lib:shpolicy.obj
+ 0001:00023eec       CharNextA                  10024eec f   shlwapi_lib:charnext.obj
+ 0001:00023f1c       UnicodeFromAnsi            10024f1c f   shlwapi_lib:debug.obj
+ 0001:00024008       ?GetNLSGrouping@@YAIXZ     10025008 f   shlwapi_lib:util.obj
+ 0001:000240b0       AddCommas64                100250b0 f   shlwapi_lib:util.obj
+ 0001:00024188       ?Ext_GetModulePath@@YAJABU_GUID@@PAGIH@Z 10025188 f   shlwapi_lib:extensions.obj
+ 0001:000242fc       ??0ShStrA@@QAA@XZ          100252fc f   shlwapi_lib:shstra.obj
+ 0001:00024314       ?Reset@ShStrA@@QAAXXZ      10025314 f   shlwapi_lib:shstra.obj
+ 0001:00024340       ?SetSize@ShStrA@@QAAJK@Z   10025340 f   shlwapi_lib:shstra.obj
+ 0001:00024420       ?_SetStr@ShStrA@@AAAJPBD@Z 10025420 f   shlwapi_lib:shstra.obj
+ 0001:0002446c       ?_SetStr@ShStrA@@AAAJPBGK@Z 1002546c f   shlwapi_lib:shstra.obj
+ 0001:0002458c       ?SetStr@ShStrA@@QAAJPBD@Z  1002558c f   shlwapi_lib:shstra.obj
+ 0001:000245c8       ?SetStr@ShStrA@@QAAJPBGK@Z 100255c8 f   shlwapi_lib:shstra.obj
+ 0001:0002460c       ?IsDrive@@YAHPBG@Z         1002560c f   shlwapi_lib:filefunctions.obj
+ 0001:00024694       ?IsDosDrive@@YAHPBG@Z      10025694 f   shlwapi_lib:filefunctions.obj
+ 0001:00024698       ?CharPrevExA@@YAPADGPBD0K@Z 10025698 f   shlwapi_lib:charprev.obj
+ 0001:00024704       CharPrevA                  10025704 f   shlwapi_lib:charprev.obj
+ 0001:00024718       ?SetErrorMode@@YAII@Z      10025718 f   shlwapi_lib:errmodewrap.obj
+ 0001:00024720       ?Free@CConvertStrW@@IAAXXZ 10025720 f   shlwapi_lib:unicwrap.obj
+ 0001:0002474c       ?Init@CStrInW@@IAAXPBDH@Z  1002574c f   shlwapi_lib:unicwrap.obj
+ 0001:00024864       ?ConvertIncludingNul@CStrOutW@@QAAHXZ 10025864 f   shlwapi_lib:unicwrap.obj
+ 0001:000248c0       ??0CStrOutW@@QAA@PADH@Z    100258c0 f   shlwapi_lib:unicwrap.obj
+ 0001:0002493c       ??1CStrOutW@@QAA@XZ        1002593c f   shlwapi_lib:unicwrap.obj
+ 0001:00024974       ResourceCStrToStrW         10025974 f   shlwapi_lib:msgbox.obj
+ 0001:00024a2c       ConstructMessageStringW    10025a2c f   shlwapi_lib:msgbox.obj
+ 0001:00024a88       CoTaskMemFree              10025a88 f   ole32:ole32.dll
+ 0001:00024a98       CoTaskMemAlloc             10025a98 f   ole32:ole32.dll
+ 0001:00024aa8       CoGetClassObject           10025aa8 f   ole32:ole32.dll
+ 0001:00024ab8       SysAllocString             10025ab8 f   oleaut32:OLEAUT32.dll
+ 0001:00024ac8       SysFreeString              10025ac8 f   oleaut32:OLEAUT32.dll
+ 0001:00024ad8       VariantClear               10025ad8 f   oleaut32:OLEAUT32.dll
+ 0001:00024ae8       DeleteCriticalSection      10025ae8 f   coredll:COREDLL.dll
+ 0001:00024af8       GetProcAddressW            10025af8 f   coredll:COREDLL.dll
+ 0001:00024b08       InitializeCriticalSection  10025b08 f   coredll:COREDLL.dll
+ 0001:00024b18       DisableThreadLibraryCalls  10025b18 f   coredll:COREDLL.dll
+ 0001:00024b28       StringCchCatW              10025b28 f   coredll:COREDLL.dll
+ 0001:00024b38       RegCreateKeyExW            10025b38 f   coredll:COREDLL.dll
+ 0001:00024b48       RegOpenKeyExW              10025b48 f   coredll:COREDLL.dll
+ 0001:00024b58       FreeLibrary                10025b58 f   coredll:COREDLL.dll
+ 0001:00024b68       GetProcAddressA            10025b68 f   coredll:COREDLL.dll
+ 0001:00024b78       LoadLibraryW               10025b78 f   coredll:COREDLL.dll
+ 0001:00024b88       LocalFree                  10025b88 f   coredll:COREDLL.dll
+ 0001:00024b98       IsDBCSLeadByte             10025b98 f   coredll:COREDLL.dll
+ 0001:00024ba8       StringCchCopyA             10025ba8 f   coredll:COREDLL.dll
+ 0001:00024bb8       StringCchCatA              10025bb8 f   coredll:COREDLL.dll
+ 0001:00024bc8       GetCPInfo                  10025bc8 f   coredll:COREDLL.dll
+ 0001:00024bd8       CompareStringW             10025bd8 f   coredll:COREDLL.dll
+ 0001:00024be8       GetUserDefaultLCID         10025be8 f   coredll:COREDLL.dll
+ 0001:00024bf8       StringCchLengthW           10025bf8 f   coredll:COREDLL.dll
+ 0001:00024c08       LocalAlloc                 10025c08 f   coredll:COREDLL.dll
+ 0001:00024c18       StringCchCopyW             10025c18 f   coredll:COREDLL.dll
+ 0001:00024c28       StringCchPrintfW           10025c28 f   coredll:COREDLL.dll
+ 0001:00024c38       LoadStringW                10025c38 f   coredll:COREDLL.dll
+ 0001:00024c48       GetLocaleInfoW             10025c48 f   coredll:COREDLL.dll
+ 0001:00024c58       WideCharToMultiByte        10025c58 f   coredll:COREDLL.dll
+ 0001:00024c68       MultiByteToWideChar        10025c68 f   coredll:COREDLL.dll
+ 0001:00024c78       SetWindowLongW             10025c78 f   coredll:COREDLL.dll
+ 0001:00024c88       GetWindowLongW             10025c88 f   coredll:COREDLL.dll
+ 0001:00024c98       SendMessageW               10025c98 f   coredll:COREDLL.dll
+ 0001:00024ca8       SetParent                  10025ca8 f   coredll:COREDLL.dll
+ 0001:00024cb8       GetParent                  10025cb8 f   coredll:COREDLL.dll
+ 0001:00024cc8       RegisterClassW             10025cc8 f   coredll:COREDLL.dll
+ 0001:00024cd8       GetClassInfoW              10025cd8 f   coredll:COREDLL.dll
+ 0001:00024ce8       UnregisterClassW           10025ce8 f   coredll:COREDLL.dll
+ 0001:00024cf8       IsChild                    10025cf8 f   coredll:COREDLL.dll
+ 0001:00024d08       InterlockedCompareExchange 10025d08 f   coredll:COREDLL.dll
+ 0001:00024d18       LoadLibraryExW             10025d18 f   coredll:COREDLL.dll
+ 0001:00024d28       GetLastError               10025d28 f   coredll:COREDLL.dll
+ 0001:00024d38       RegCloseKey                10025d38 f   coredll:COREDLL.dll
+ 0001:00024d48       RegQueryValueExW           10025d48 f   coredll:COREDLL.dll
+ 0001:00024d58       GetModuleHandleW           10025d58 f   coredll:COREDLL.dll
+ 0001:00024d68       HeapAlloc                  10025d68 f   coredll:COREDLL.dll
+ 0001:00024d78       GetProcessHeap             10025d78 f   coredll:COREDLL.dll
+ 0001:00024d88       HeapFree                   10025d88 f   coredll:COREDLL.dll
+ 0001:00024d98       CharLowerW                 10025d98 f   coredll:COREDLL.dll
+ 0001:00024da8       SetLastError               10025da8 f   coredll:COREDLL.dll
+ 0001:00024db8       InterlockedExchange        10025db8 f   coredll:COREDLL.dll
+ 0001:00024dc8       StringCchPrintfA           10025dc8 f   coredll:COREDLL.dll
+ 0001:00024dd8       RegDeleteKeyW              10025dd8 f   coredll:COREDLL.dll
+ 0001:00024de8       GetModuleFileNameW         10025de8 f   coredll:COREDLL.dll
+ 0001:00024df8       StringCchCopyExA           10025df8 f   coredll:COREDLL.dll
+ 0001:00024e08       StringCchCopyNA            10025e08 f   coredll:COREDLL.dll
+ 0001:00024e18       StringCchCopyExW           10025e18 f   coredll:COREDLL.dll
+ 0001:00024e28       CharPrevW                  10025e28 f   coredll:COREDLL.dll
+ 0001:00024e38       GetFileAttributesW         10025e38 f   coredll:COREDLL.dll
+ 0001:00024e48       lstrcmpiW                  10025e48 f   coredll:COREDLL.dll
+ 0001:00024e58       StringCchCopyNW            10025e58 f   coredll:COREDLL.dll
+ 0001:00024e68       CharUpperW                 10025e68 f   coredll:COREDLL.dll
+ 0001:00024e78       StringCchCopyNExW          10025e78 f   coredll:COREDLL.dll
+ 0001:00024e88       ReleaseDC                  10025e88 f   coredll:COREDLL.dll
+ 0001:00024e98       GetTextExtentExPointW      10025e98 f   coredll:COREDLL.dll
+ 0001:00024ea8       GetDC                      10025ea8 f   coredll:COREDLL.dll
+ 0001:00024eb8       RaiseException             10025eb8 f   coredll:COREDLL.dll
+ 0001:00024ec8       RegEnumValueW              10025ec8 f   coredll:COREDLL.dll
+ 0001:00024ed8       RegEnumKeyExW              10025ed8 f   coredll:COREDLL.dll
+ 0001:00024ee8       RegDeleteValueW            10025ee8 f   coredll:COREDLL.dll
+ 0001:00024ef8       RegSetValueExW             10025ef8 f   coredll:COREDLL.dll
+ 0001:00024f08       RegisterClipboardFormatW   10025f08 f   coredll:COREDLL.dll
+ 0001:00024f18       EnableMenuItem             10025f18 f   coredll:COREDLL.dll
+ 0001:00024f28       CheckMenuItem              10025f28 f   coredll:COREDLL.dll
+ 0001:00024f38       GetMenuItemInfoW           10025f38 f   coredll:COREDLL.dll
+ 0001:00024f48       GetDeviceCaps              10025f48 f   coredll:COREDLL.dll
+ 0001:00024f58       CreateWindowExW            10025f58 f   coredll:COREDLL.dll
+ 0001:00024f68       LoadCursorW                10025f68 f   coredll:COREDLL.dll
+ 0001:00024f78       DefWindowProcW             10025f78 f   coredll:COREDLL.dll
+ 0001:00024f88       LocalReAlloc               10025f88 f   coredll:COREDLL.dll
+ 0001:00024f98       RegQueryInfoKeyW           10025f98 f   coredll:COREDLL.dll
+ 0001:00024fa8       GetTimeFormatW             10025fa8 f   coredll:COREDLL.dll
+ 0001:00024fb8       GetLocalTime               10025fb8 f   coredll:COREDLL.dll
+ 0001:00024fc8       FileTimeToSystemTime       10025fc8 f   coredll:COREDLL.dll
+ 0001:00024fd8       SystemTimeToFileTime       10025fd8 f   coredll:COREDLL.dll
+ 0001:00024fe8       GetDateFormatW             10025fe8 f   coredll:COREDLL.dll
+ 0001:00024ff8       FileTimeToLocalFileTime    10025ff8 f   coredll:COREDLL.dll
+ 0001:00025008       SHLoadIndirectString       10026008 f   coredll:COREDLL.dll
+ 0001:00025018       DestroyIcon                10026018 f   coredll:COREDLL.dll
+ 0001:00025028       LeaveCriticalSection       10026028 f   coredll:COREDLL.dll
+ 0001:00025038       CreateIconIndirect         10026038 f   coredll:COREDLL.dll
+ 0001:00025048       DrawIconEx                 10026048 f   coredll:COREDLL.dll
+ 0001:00025058       SelectObject               10026058 f   coredll:COREDLL.dll
+ 0001:00025068       CreateBitmap               10026068 f   coredll:COREDLL.dll
+ 0001:00025078       CreateCompatibleBitmap     10026078 f   coredll:COREDLL.dll
+ 0001:00025088       DeleteObject               10026088 f   coredll:COREDLL.dll
+ 0001:00025098       GetObjectW                 10026098 f   coredll:COREDLL.dll
+ 0001:000250a8       GetIconInfo                100260a8 f   coredll:COREDLL.dll
+ 0001:000250b8       DeleteDC                   100260b8 f   coredll:COREDLL.dll
+ 0001:000250c8       SetLayout                  100260c8 f   coredll:COREDLL.dll
+ 0001:000250d8       CreateCompatibleDC         100260d8 f   coredll:COREDLL.dll
+ 0001:000250e8       EnterCriticalSection       100260e8 f   coredll:COREDLL.dll
+ 0001:000250f8       MessageBoxW                100260f8 f   coredll:COREDLL.dll
+ 0001:00025108       GetWindowTextW             10026108 f   coredll:COREDLL.dll
+ 0001:00025118       lstrcmpW                   10026118 f   coredll:COREDLL.dll
+ 0001:00025128       StringCchVPrintfExA        10026128 f   coredll:COREDLL.dll
+ 0001:00025138       StringCchVPrintfExW        10026138 f   coredll:COREDLL.dll
+ 0001:00025148       FormatMessageW             10026148 f   coredll:COREDLL.dll
+ 0001:00025158       IsDBCSLeadByteEx           10026158 f   coredll:COREDLL.dll
+ 0001:00025168       GetNumberFormatW           10026168 f   coredll:COREDLL.dll
+ 0001:00025270       _DllMainCRTStartup         10026270 f   corelib0:pegdmain.obj
+ 0001:0002529c       __GSHandlerCheckCommon     1002629c f   corelib0:gshandler.obj
+ 0001:000252d8       __GSHandlerCheck           100262d8 f   corelib0:gshandler.obj
+ 0001:000252f8       __security_init_cookie     100262f8 f   corelib0:seccinit.obj
+ 0001:00025344       __security_check_cookie    10026344 f   corelib0:armsecgs.obj
+ 0001:00025354       __gsfailure                10026354     corelib0:armsecgs.obj
+ 0001:00025480       _cexit                     10026480 f   corelib0:cexit.obj
+ 0001:00025490       _initterm                  10026490 f   corelib0:crt0dat.obj
+ 0001:000254bc       _cinit                     100264bc f   corelib0:crt0dat.obj
+ 0001:0002551c       __crt_ExitProcess          1002651c f   corelib0:exitproc_proxy.obj
+ 0001:00025528       memcmp                     10026528 f   corelib1:COREDLL.dll
+ 0001:00025538       _stricmp                   10026538 f   corelib1:COREDLL.dll
+ 0001:00025548       wcslen                     10026548 f   corelib1:COREDLL.dll
+ 0001:00025558       strlen                     10026558 f   corelib1:COREDLL.dll
+ 0001:00025568       strcmp                     10026568 f   corelib1:COREDLL.dll
+ 0001:00025578       memmove                    10026578 f   corelib1:COREDLL.dll
+ 0001:00025588       memcpy                     10026588 f   corelib1:COREDLL.dll
+ 0001:00025598       memset                     10026598 f   corelib1:COREDLL.dll
+ 0001:000255a8       iswctype                   100265a8 f   corelib1:COREDLL.dll
+ 0001:000255b8       __C_specific_handler       100265b8 f   corelib1:COREDLL.dll
+ 0001:000255c8       strchr                     100265c8 f   corelib1:COREDLL.dll
+ 0001:000255d8       _strnicmp                  100265d8 f   corelib1:COREDLL.dll
+ 0001:000255e8       wcschr                     100265e8 f   corelib1:COREDLL.dll
+ 0001:000255f8       free                       100265f8 f   corelib1:COREDLL.dll
+ 0001:00025608       calloc                     10026608 f   corelib1:COREDLL.dll
+ 0001:00025618       _recalloc                  10026618 f   corelib1:COREDLL.dll
+ 0001:00025628       malloc                     10026628 f   corelib1:COREDLL.dll
+ 0001:00025638       _XcptFilter                10026638 f   corelib1:COREDLL.dll
+ 0001:00025648       __security_gen_cookie2     10026648 f   corelib1:COREDLL.dll
+ 0001:00025658       __report_gsfailure         10026658 f   corelib1:COREDLL.dll
+ 0001:00025668       TerminateProcess           10026668 f   coredll:COREDLL.dll
+ 0001:0002582c       __IMPORT_DESCRIPTOR_ole32  1002682c     ole32:ole32.dll
+ 0001:00025840       __IMPORT_DESCRIPTOR_OLEAUT32 10026840     oleaut32:OLEAUT32.dll
+ 0001:00025854       __IMPORT_DESCRIPTOR_COREDLL 10026854     coredll:COREDLL.dll
+ 0001:00025868       __NULL_IMPORT_DESCRIPTOR   10026868     ole32:ole32.dll
+ 0002:00000000       __imp___report_gsfailure   10029000     corelib1:COREDLL.dll
+ 0002:00000004       __imp___security_gen_cookie2 10029004     corelib1:COREDLL.dll
+ 0002:00000008       __imp__XcptFilter          10029008     corelib1:COREDLL.dll
+ 0002:0000000c       __imp_malloc               1002900c     corelib1:COREDLL.dll
+ 0002:00000010       __imp__recalloc            10029010     corelib1:COREDLL.dll
+ 0002:00000014       __imp_calloc               10029014     corelib1:COREDLL.dll
+ 0002:00000018       __imp_DeleteCriticalSection 10029018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_GetProcAddressW      1002901c     coredll:COREDLL.dll
+ 0002:00000020       __imp_InitializeCriticalSection 10029020     coredll:COREDLL.dll
+ 0002:00000024       __imp_DisableThreadLibraryCalls 10029024     coredll:COREDLL.dll
+ 0002:00000028       __imp_StringCchCatW        10029028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_RegCreateKeyExW      1002902c     coredll:COREDLL.dll
+ 0002:00000030       __imp_RegOpenKeyExW        10029030     coredll:COREDLL.dll
+ 0002:00000034       __imp_FreeLibrary          10029034     coredll:COREDLL.dll
+ 0002:00000038       __imp_GetProcAddressA      10029038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_LoadLibraryW         1002903c     coredll:COREDLL.dll
+ 0002:00000040       __imp_LocalFree            10029040     coredll:COREDLL.dll
+ 0002:00000044       __imp_IsDBCSLeadByte       10029044     coredll:COREDLL.dll
+ 0002:00000048       __imp_StringCchCopyA       10029048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_StringCchCatA        1002904c     coredll:COREDLL.dll
+ 0002:00000050       __imp_GetCPInfo            10029050     coredll:COREDLL.dll
+ 0002:00000054       __imp_CompareStringW       10029054     coredll:COREDLL.dll
+ 0002:00000058       __imp_GetUserDefaultLCID   10029058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_StringCchLengthW     1002905c     coredll:COREDLL.dll
+ 0002:00000060       __imp_LocalAlloc           10029060     coredll:COREDLL.dll
+ 0002:00000064       __imp_StringCchCopyW       10029064     coredll:COREDLL.dll
+ 0002:00000068       __imp_StringCchPrintfW     10029068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_LoadStringW          1002906c     coredll:COREDLL.dll
+ 0002:00000070       __imp_GetLocaleInfoW       10029070     coredll:COREDLL.dll
+ 0002:00000074       __imp_WideCharToMultiByte  10029074     coredll:COREDLL.dll
+ 0002:00000078       __imp_MultiByteToWideChar  10029078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_SetWindowLongW       1002907c     coredll:COREDLL.dll
+ 0002:00000080       __imp_GetWindowLongW       10029080     coredll:COREDLL.dll
+ 0002:00000084       __imp_SendMessageW         10029084     coredll:COREDLL.dll
+ 0002:00000088       __imp_SetParent            10029088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_GetParent            1002908c     coredll:COREDLL.dll
+ 0002:00000090       __imp_RegisterClassW       10029090     coredll:COREDLL.dll
+ 0002:00000094       __imp_GetClassInfoW        10029094     coredll:COREDLL.dll
+ 0002:00000098       __imp_UnregisterClassW     10029098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_IsChild              1002909c     coredll:COREDLL.dll
+ 0002:000000a0       __imp_InterlockedCompareExchange 100290a0     coredll:COREDLL.dll
+ 0002:000000a4       __imp_LoadLibraryExW       100290a4     coredll:COREDLL.dll
+ 0002:000000a8       __imp_GetLastError         100290a8     coredll:COREDLL.dll
+ 0002:000000ac       __imp_RegCloseKey          100290ac     coredll:COREDLL.dll
+ 0002:000000b0       __imp_RegQueryValueExW     100290b0     coredll:COREDLL.dll
+ 0002:000000b4       __imp_GetModuleHandleW     100290b4     coredll:COREDLL.dll
+ 0002:000000b8       __imp_HeapAlloc            100290b8     coredll:COREDLL.dll
+ 0002:000000bc       __imp_GetProcessHeap       100290bc     coredll:COREDLL.dll
+ 0002:000000c0       __imp_HeapFree             100290c0     coredll:COREDLL.dll
+ 0002:000000c4       __imp_CharLowerW           100290c4     coredll:COREDLL.dll
+ 0002:000000c8       __imp_SetLastError         100290c8     coredll:COREDLL.dll
+ 0002:000000cc       __imp_InterlockedExchange  100290cc     coredll:COREDLL.dll
+ 0002:000000d0       __imp_StringCchPrintfA     100290d0     coredll:COREDLL.dll
+ 0002:000000d4       __imp_RegDeleteKeyW        100290d4     coredll:COREDLL.dll
+ 0002:000000d8       __imp_GetModuleFileNameW   100290d8     coredll:COREDLL.dll
+ 0002:000000dc       __imp_StringCchCopyExA     100290dc     coredll:COREDLL.dll
+ 0002:000000e0       __imp_StringCchCopyNA      100290e0     coredll:COREDLL.dll
+ 0002:000000e4       __imp_StringCchCopyExW     100290e4     coredll:COREDLL.dll
+ 0002:000000e8       __imp_CharPrevW            100290e8     coredll:COREDLL.dll
+ 0002:000000ec       __imp_GetFileAttributesW   100290ec     coredll:COREDLL.dll
+ 0002:000000f0       __imp_lstrcmpiW            100290f0     coredll:COREDLL.dll
+ 0002:000000f4       __imp_StringCchCopyNW      100290f4     coredll:COREDLL.dll
+ 0002:000000f8       __imp_CharUpperW           100290f8     coredll:COREDLL.dll
+ 0002:000000fc       __imp_StringCchCopyNExW    100290fc     coredll:COREDLL.dll
+ 0002:00000100       __imp_ReleaseDC            10029100     coredll:COREDLL.dll
+ 0002:00000104       __imp_GetTextExtentExPointW 10029104     coredll:COREDLL.dll
+ 0002:00000108       __imp_GetDC                10029108     coredll:COREDLL.dll
+ 0002:0000010c       __imp_RaiseException       1002910c     coredll:COREDLL.dll
+ 0002:00000110       __imp_RegEnumValueW        10029110     coredll:COREDLL.dll
+ 0002:00000114       __imp_RegEnumKeyExW        10029114     coredll:COREDLL.dll
+ 0002:00000118       __imp_RegDeleteValueW      10029118     coredll:COREDLL.dll
+ 0002:0000011c       __imp_RegSetValueExW       1002911c     coredll:COREDLL.dll
+ 0002:00000120       __imp_RegisterClipboardFormatW 10029120     coredll:COREDLL.dll
+ 0002:00000124       __imp_EnableMenuItem       10029124     coredll:COREDLL.dll
+ 0002:00000128       __imp_CheckMenuItem        10029128     coredll:COREDLL.dll
+ 0002:0000012c       __imp_GetMenuItemInfoW     1002912c     coredll:COREDLL.dll
+ 0002:00000130       __imp_TerminateProcess     10029130     coredll:COREDLL.dll
+ 0002:00000134       __imp_GetDeviceCaps        10029134     coredll:COREDLL.dll
+ 0002:00000138       __imp_CreateWindowExW      10029138     coredll:COREDLL.dll
+ 0002:0000013c       __imp_LoadCursorW          1002913c     coredll:COREDLL.dll
+ 0002:00000140       __imp_DefWindowProcW       10029140     coredll:COREDLL.dll
+ 0002:00000144       __imp_LocalReAlloc         10029144     coredll:COREDLL.dll
+ 0002:00000148       __imp_RegQueryInfoKeyW     10029148     coredll:COREDLL.dll
+ 0002:0000014c       __imp_GetTimeFormatW       1002914c     coredll:COREDLL.dll
+ 0002:00000150       __imp_GetLocalTime         10029150     coredll:COREDLL.dll
+ 0002:00000154       __imp_FileTimeToSystemTime 10029154     coredll:COREDLL.dll
+ 0002:00000158       __imp_SystemTimeToFileTime 10029158     coredll:COREDLL.dll
+ 0002:0000015c       __imp_GetDateFormatW       1002915c     coredll:COREDLL.dll
+ 0002:00000160       __imp_FileTimeToLocalFileTime 10029160     coredll:COREDLL.dll
+ 0002:00000164       __imp_SHLoadIndirectString 10029164     coredll:COREDLL.dll
+ 0002:00000168       __imp_DestroyIcon          10029168     coredll:COREDLL.dll
+ 0002:0000016c       __imp_LeaveCriticalSection 1002916c     coredll:COREDLL.dll
+ 0002:00000170       __imp_CreateIconIndirect   10029170     coredll:COREDLL.dll
+ 0002:00000174       __imp_DrawIconEx           10029174     coredll:COREDLL.dll
+ 0002:00000178       __imp_SelectObject         10029178     coredll:COREDLL.dll
+ 0002:0000017c       __imp_CreateBitmap         1002917c     coredll:COREDLL.dll
+ 0002:00000180       __imp_CreateCompatibleBitmap 10029180     coredll:COREDLL.dll
+ 0002:00000184       __imp_DeleteObject         10029184     coredll:COREDLL.dll
+ 0002:00000188       __imp_GetObjectW           10029188     coredll:COREDLL.dll
+ 0002:0000018c       __imp_GetIconInfo          1002918c     coredll:COREDLL.dll
+ 0002:00000190       __imp_DeleteDC             10029190     coredll:COREDLL.dll
+ 0002:00000194       __imp_SetLayout            10029194     coredll:COREDLL.dll
+ 0002:00000198       __imp_CreateCompatibleDC   10029198     coredll:COREDLL.dll
+ 0002:0000019c       __imp_EnterCriticalSection 1002919c     coredll:COREDLL.dll
+ 0002:000001a0       __imp_MessageBoxW          100291a0     coredll:COREDLL.dll
+ 0002:000001a4       __imp_GetWindowTextW       100291a4     coredll:COREDLL.dll
+ 0002:000001a8       __imp_lstrcmpW             100291a8     coredll:COREDLL.dll
+ 0002:000001ac       __imp_StringCchVPrintfExA  100291ac     coredll:COREDLL.dll
+ 0002:000001b0       __imp_StringCchVPrintfExW  100291b0     coredll:COREDLL.dll
+ 0002:000001b4       __imp_FormatMessageW       100291b4     coredll:COREDLL.dll
+ 0002:000001b8       __imp_IsDBCSLeadByteEx     100291b8     coredll:COREDLL.dll
+ 0002:000001bc       __imp_GetNumberFormatW     100291bc     coredll:COREDLL.dll
+ 0002:000001c0       __imp_memcmp               100291c0     corelib1:COREDLL.dll
+ 0002:000001c4       __imp__stricmp             100291c4     corelib1:COREDLL.dll
+ 0002:000001c8       __imp_wcslen               100291c8     corelib1:COREDLL.dll
+ 0002:000001cc       __imp_strlen               100291cc     corelib1:COREDLL.dll
+ 0002:000001d0       __imp_strcmp               100291d0     corelib1:COREDLL.dll
+ 0002:000001d4       __imp___rt_udiv            100291d4     corelib1:COREDLL.dll
+ 0002:000001d8       __imp_memmove              100291d8     corelib1:COREDLL.dll
+ 0002:000001dc       __imp_memcpy               100291dc     corelib1:COREDLL.dll
+ 0002:000001e0       __imp_memset               100291e0     corelib1:COREDLL.dll
+ 0002:000001e4       __imp_iswctype             100291e4     corelib1:COREDLL.dll
+ 0002:000001e8       __imp___C_specific_handler 100291e8     corelib1:COREDLL.dll
+ 0002:000001ec       __imp_strchr               100291ec     corelib1:COREDLL.dll
+ 0002:000001f0       __imp__strnicmp            100291f0     corelib1:COREDLL.dll
+ 0002:000001f4       __imp_wcschr               100291f4     corelib1:COREDLL.dll
+ 0002:000001f8       __imp_free                 100291f8     corelib1:COREDLL.dll
+ 0002:000001fc       \177COREDLL_NULL_THUNK_DATA 100291fc     coredll:COREDLL.dll
+ 0002:00000200       __imp_VariantClear         10029200     oleaut32:OLEAUT32.dll
+ 0002:00000204       __imp_SysFreeString        10029204     oleaut32:OLEAUT32.dll
+ 0002:00000208       __imp_SysAllocString       10029208     oleaut32:OLEAUT32.dll
+ 0002:0000020c       \177OLEAUT32_NULL_THUNK_DATA 1002920c     oleaut32:OLEAUT32.dll
+ 0002:00000210       __imp_CoGetClassObject     10029210     ole32:ole32.dll
+ 0002:00000214       __imp_CoTaskMemAlloc       10029214     ole32:ole32.dll
+ 0002:00000218       __imp_CoTaskMemFree        10029218     ole32:ole32.dll
+ 0002:0000021c       \177ole32_NULL_THUNK_DATA  1002921c     ole32:ole32.dll
+ 0002:00000220       ?UrlSchemeList@@3PAUURL_SCHEME_INFO@@A 10029220     shlwapi_lib:urlpars.obj
+ 0002:000002e0       ?g_hWindowsPolicies@@3USHPOLICYTABLE_@@A 100292e0     shlwapi_lib:winpolicy.obj
+ 0002:000002f8       __security_cookie          100292f8     corelib0:seccinit.obj
+ 0002:000002fc       __security_cookie_complement 100292fc     corelib0:seccinit.obj
+ 0002:00000300       g_bRunningOnNT             10029300     shlwapi_lib:dll.obj
+ 0002:00000304       g_bRunningOnNT5OrHigher    10029304     shlwapi_lib:dll.obj
+ 0002:00000308       g_bRunningOnMemphis        10029308     shlwapi_lib:dll.obj
+ 0002:0000030c       g_hinst                    1002930c     shlwapi_lib:dll.obj
+ 0002:00000310       g_csDll                    10029310     shlwapi_lib:dll.obj
+ 0002:00000324       g_bDllTerminating          10029324     shlwapi_lib:dll.obj
+ 0002:00000328       g_pfTermPalette            10029328     shlwapi_lib:dll.obj
+ 0002:0000032c       g_hdc                      1002932c     shlwapi_lib:dll.obj
+ 0002:00000330       g_hdcMask                  10029330     shlwapi_lib:dll.obj
+ 0002:00000334       g_bMirroredOS              10029334     shlwapi_lib:dll.obj
+ 0002:00000358       ?g_sa@@3U_SECURITY_ATTRIBUTES@@A 10029358     shlwapi_lib:gcount.obj
+ 0002:00000364       ?g_psd@@3PAU_SECURITY_DESCRIPTOR@@A 10029364     shlwapi_lib:gcount.obj
+ 0002:00000368       ?g_lockUC@@3JA             10029368     shlwapi_lib:urlpars.obj
+ 0002:0000036c       ?g_iScheme@@3HA            1002936c     shlwapi_lib:urlpars.obj
+ 0002:00000370       ?g_szUCCanon@@3PAGA        10029370     shlwapi_lib:urlpars.obj
+ 0002:000003f0       ?g_dwUCFlags@@3KA          100293f0     shlwapi_lib:urlpars.obj
+ 0002:000003f4       ?wszBogus@@3PAGA           100293f4     shlwapi_lib:urlpars.obj
+ 0002:000003f8       ?g_atmML@@3GA              100293f8     shlwapi_lib:mlui.obj
+ 0002:00000404       g_hinstMLANG               10029404     shlwapi_lib:dllload.obj
+ 0002:00000414       g_hinstSHELL32             10029414     shlwapi_lib:dllload.obj
+ 0002:00000470       g_hinstWINMM               10029470     shlwapi_lib:dllload.obj
+ 0002:0000047c       g_hinstMPR                 1002947c     shlwapi_lib:dllload.obj
+ 0002:00000490       g_hinstVERSION             10029490     shlwapi_lib:dllload.obj
+ 0002:000004a0       g_hmodMSI                  100294a0     shlwapi_lib:dllload.obj
+ 0002:000004ac       ?g_pcf@@3PAUIClassFactory@@A 100294ac     shlwapi_lib:security.obj
+ 0002:000004b0       __@@_PchSym_@00@UygUDAJBUkirezgvUrvHUrmvgxlivUrvuiznvUhsodzkrUhixdUrvnlyrovUlyqUzineHUivgzroUkireOlyq@shlwuni 100294b0     shlwapi_lib:priv.obj
+ 0002:000004b4       __@@_PchSym_@00@UygUDAJBUkirezgvUrvHUrmvgxlivUoryUhglxpUhglxpxvUlyqUzineHUivgzroUhglxpOlyq@stock_ie 100294b4     shlwapi_lib:stock.obj
+ 0002:000004b8       __@@_PchSym_@00@UygUDAJBUkirezgvUrvHUhsvooUoryUxfoUrvnlyrovUlyqUzineHUivgzroUkivxlnkOlyq@CommonUtilityLibrary 100294b8     shlwapi_lib:Precomp.obj
+ 0002:000004bc       __@@_PchSym_@00@UygUDAJBUkirezgvUrvHUrmvgxlivUoryUhglxpUhglxpxvzUlyqUzineHUivgzroUhglxpzOlyq@stock_iea 100294bc     shlwapi_lib:stocka.obj
+ 0002:000004c0       _exitflag                  100294c0     corelib0:cexit.obj
+ 0002:000004c4       __@@_PchSym_@00@UygUDAJBUkirezgvUrvHUrmvgxlivUrvuiznvUhsodzkrUwooUlyqUzineHUivgzroUkireOlyq@shlwapi_lib 100294c4     <common>
+ 0002:000004c8       __onexitend                100294c8     <common>
+ 0002:000004cc       __onexitbegin              100294cc     <common>
+ 0002:000004d0       g_pcsExit                  100294d0     <common>
+ 0002:000004d4       _pRawDllMain               100294d4     <common>
+
+ entry point at        0001:00025270
+
+ Static symbols
+
+ 0001:00025180       _DllMainCRTStartupHelper   10026180 f   corelib0:pegdmain.obj
+ 0001:00025398       doexit                     10026398 f   corelib0:cexit.obj

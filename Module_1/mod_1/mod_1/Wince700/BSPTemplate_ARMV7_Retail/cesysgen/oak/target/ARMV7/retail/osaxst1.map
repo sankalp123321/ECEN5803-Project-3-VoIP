@@ -1,0 +1,129 @@
+ osaxst1
+
+ Timestamp is 5ac64a28 (Thu Apr 05 09:09:12 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000024H .rdata                  CODE
+ 0001:00000024 00000024H .rdata$debug            CODE
+ 0001:00000048 000028c0H .text                   CODE
+ 0001:00002908 00000004H .xdata                  CODE
+ 0001:0000290c 00000014H .idata$2                CODE
+ 0001:00002920 00000014H .idata$3                CODE
+ 0001:00002934 0000000cH .idata$4                CODE
+ 0001:00002940 0000000cH .idata$6                CODE
+ 0001:00002950 00000064H .edata                  CODE
+ 0002:00000000 0000000cH .idata$5                DATA
+ 0002:00000010 00000954H .data                   DATA
+ 0002:00000968 00000278H .bss                    DATA
+ 0003:00000000 00000150H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:00000048       PCBFunctionArea            10001048 f   armpcb.obj
+ 0001:0000007c       MultiCorePCBGetDwordAtOffset 1000107c f   armpcb.obj
+ 0001:000000c8       MultiCoreGetPCB            100010c8 f   armpcb.obj
+ 0001:000000d0       __PCBGetDwordAtOffset      100010d0 f   armpcb.obj
+ 0001:000000d8       PCBSetDwordAtOffset        100010d8 f   armpcb.obj
+ 0001:000000e0       PCBAddAtOffset             100010e0 f   armpcb.obj
+ 0001:000000e8       __GetPCB                   100010e8 f   armpcb.obj
+ 0001:000000f0       InitPCBFunctions           100010f0 f   armpcb.obj
+ 0001:00000140       ThreadStopFunc             10001140 f   wmmx.obj
+ 0001:00000148       GetWr0                     10001148 f   wmmx.obj
+ 0001:00000150       GetWr1                     10001150 f   wmmx.obj
+ 0001:00000158       GetWr2                     10001158 f   wmmx.obj
+ 0001:00000160       GetWr3                     10001160 f   wmmx.obj
+ 0001:00000168       GetWr4                     10001168 f   wmmx.obj
+ 0001:00000170       GetWr5                     10001170 f   wmmx.obj
+ 0001:00000178       GetWr6                     10001178 f   wmmx.obj
+ 0001:00000180       GetWr7                     10001180 f   wmmx.obj
+ 0001:00000188       GetWr8                     10001188 f   wmmx.obj
+ 0001:00000190       GetWr9                     10001190 f   wmmx.obj
+ 0001:00000198       GetWr10                    10001198 f   wmmx.obj
+ 0001:000001a0       GetWr11                    100011a0 f   wmmx.obj
+ 0001:000001a8       GetWr12                    100011a8 f   wmmx.obj
+ 0001:000001b0       GetWr13                    100011b0 f   wmmx.obj
+ 0001:000001b8       GetWr14                    100011b8 f   wmmx.obj
+ 0001:000001c0       GetWr15                    100011c0 f   wmmx.obj
+ 0001:000001c8       SetWr0                     100011c8 f   wmmx.obj
+ 0001:000001d0       SetWr1                     100011d0 f   wmmx.obj
+ 0001:000001d8       SetWr2                     100011d8 f   wmmx.obj
+ 0001:000001e0       SetWr3                     100011e0 f   wmmx.obj
+ 0001:000001e8       SetWr4                     100011e8 f   wmmx.obj
+ 0001:000001f0       SetWr5                     100011f0 f   wmmx.obj
+ 0001:000001f8       SetWr6                     100011f8 f   wmmx.obj
+ 0001:00000200       SetWr7                     10001200 f   wmmx.obj
+ 0001:00000208       SetWr8                     10001208 f   wmmx.obj
+ 0001:00000210       SetWr9                     10001210 f   wmmx.obj
+ 0001:00000218       SetWr10                    10001218 f   wmmx.obj
+ 0001:00000220       SetWr11                    10001220 f   wmmx.obj
+ 0001:00000228       SetWr12                    10001228 f   wmmx.obj
+ 0001:00000230       SetWr13                    10001230 f   wmmx.obj
+ 0001:00000238       SetWr14                    10001238 f   wmmx.obj
+ 0001:00000240       SetWr15                    10001240 f   wmmx.obj
+ 0001:00000248       ?ARMCheckConditionCodes@@YAHK@Z 10001248 f   armstep.obj
+ 0001:000003a0       ?ARMRegister@@YAKK@Z       100013a0 f   armstep.obj
+ 0001:000003d8       ?ARMComputeNextOffset@@YAHPAK0PAH1@Z 100013d8 f   armstep.obj
+ 0001:000009ac       ?CpuSetup@SingleStep@@AAAJXZ 100019ac f   armstep.obj
+ 0001:00000ab0       ?GetNextPC@SingleStep@@SAJPAK@Z 10001ab0 f   armstep.obj
+ 0001:00000ae4       ?SimulateDebugBreakExecution@SingleStep@@SAXXZ 10001ae4 f   armstep.obj
+ 0001:00000c9c       ?Thumb2FindNextITInstruction@@YAKKKH@Z 10001c9c f   thmbstep.obj
+ 0001:000016d8       ?ThumbComputeNextOffset@@YAHPAK0PAH1@Z 100026d8 f   thmbstep.obj
+ 0001:00001794       ?GetWin32ExeName@@YAPADPAU_PROCESS@@@Z 10002794 f   initt1.obj
+ 0001:000017d0       ?GetModuleInfo@@YAHPAU_PROCESS@@KPAU_KD_MODULE_INFO@@HH@Z 100027d0 f   initt1.obj
+ 0001:0000188c       ?DisplayModuleChange@@YAXKH@Z 1000288c f   initt1.obj
+ 0001:000018e0       ?OsaxsT1ModLoad@@YAHK@Z    100028e0 f   initt1.obj
+ 0001:000018f4       ?OsaxsT1ModUnload@@YAHK@Z  100028f4 f   initt1.obj
+ 0001:00001908       OsaxsT1Init                10002908 f   initt1.obj
+ 0001:00001a24       OsaxsT1DLLEntry            10002a24 f   initt1.obj
+ 0001:00001a90       ?BoostThreadPriority@@YAJPAU_THREAD@@PAE1PAK@Z 10002a90 f   step.obj
+ 0001:00001af4       ?RestoreThreadPriority@@YAJPAU_THREAD@@EEK@Z 10002af4 f   step.obj
+ 0001:00001b48       ?Find@SingleStep@@SAPAU1@K@Z 10002b48 f   step.obj
+ 0001:00001b88       ?ReadMem@@YAHKPAXK@Z       10002b88 f   step.obj
+ 0001:00001c44       ?ReadWord@@YAHKPAG@Z       10002c44 f   step.obj
+ 0001:00001c4c       ?ReadDword@@YAHKPAK@Z      10002c4c f   step.obj
+ 0001:00001c54       ?Delete@SingleStep@@AAAXXZ 10002c54 f   step.obj
+ 0001:00001d04       ?New@SingleStep@@AAAJH@Z   10002d04 f   step.obj
+ 0001:00001d9c       ?AllocSingleStep@SingleStep@@CAJPAK@Z 10002d9c f   step.obj
+ 0001:00001e60       ?StepThread@SingleStep@@SAJXZ 10002e60 f   step.obj
+ 0001:00001eb4       ?SetBP@SingleStep@@AAAJPAXHPAPAUBreakpoint@@@Z 10002eb4 f   step.obj
+ 0001:00001f64       ?DeleteAll@SingleStep@@SAXXZ 10002f64 f   step.obj
+ 0001:00001f94       ?Trap@SingleStep@@SAHPAU_EXCEPTION_RECORD@@PAU_CONTEXT@@HPAH@Z 10002f94 f   step.obj
+ 0001:000020a8       ?ModuleUnload@SingleStep@@SAHK@Z 100030a8 f   step.obj
+ 0001:00002248       ?AddCBP@SingleStep@@AAAJH@Z 10003248 f   step.obj
+ 0001:000023e4       ?AddDBP@SingleStep@@AAAJH@Z 100033e4 f   step.obj
+ 0001:000025c0       ?StepCBP@SingleStep@@SAJH@Z 100035c0 f   step.obj
+ 0001:00002608       ?StepDBP@SingleStep@@SAJH@Z 10003608 f   step.obj
+ 0001:0000264c       ?HandleBreakpoint@ThreadAffinity@@SAHXZ 1000364c f   threadaffinity.obj
+ 0001:000027d0       ?Trap@ThreadAffinity@@SAHPAU_EXCEPTION_RECORD@@PAU_CONTEXT@@HPAH@Z 100037d0 f   threadaffinity.obj
+ 0001:00002838       __GSHandlerCheckCommon     10003838 f   corelib0:gshandler.obj
+ 0001:00002874       __GSHandlerCheck           10003874 f   corelib0:gshandler.obj
+ 0001:00002894       __security_check_cookie    10003894 f   corelib0:armsecgs.obj
+ 0001:000028a4       __gsfailure                100038a4     corelib0:armsecgs.obj
+ 0001:000028e8       memset                     100038e8 f   corelib1:COREDLL.dll
+ 0001:000028f8       __report_gsfailure         100038f8 f   corelib1:COREDLL.dll
+ 0001:0000290c       __IMPORT_DESCRIPTOR_COREDLL 1000390c     coredll:COREDLL.dll
+ 0001:00002920       __NULL_IMPORT_DESCRIPTOR   10003920     coredll:COREDLL.dll
+ 0002:00000000       __imp_memset               10004000     corelib1:COREDLL.dll
+ 0002:00000004       __imp___report_gsfailure   10004004     corelib1:COREDLL.dll
+ 0002:00000008       \177COREDLL_NULL_THUNK_DATA 10004008     coredll:COREDLL.dll
+ 0002:00000518       dpCurSettings              10004518     targdbg.obj
+ 0002:0000095c       __security_cookie          1000495c     corelib0:seccinit.obj
+ 0002:00000960       __security_cookie_complement 10004960     corelib0:seccinit.obj
+ 0002:00000968       ?g_fOverrideWMMXDetection@@3HA 10004968     armcontext.obj
+ 0002:0000096c       ?g_fWMMXPresent@@3HA       1000496c     armcontext.obj
+ 0002:00000970       ?lpszModuleName@@3PADA     10004970     initt1.obj
+ 0002:00000a74       ?g_pDebuggerData@@3PAUDEBUGGER_DATA@@A 10004a74     initt1.obj
+ 0002:00000a78       ?stepStates@SingleStep@@2PAU1@A 10004a78     step.obj
+
+ entry point at        0001:00001a24
+
+ Static symbols
+
+ 0001:00000b40       ?ThumbDecipherInstruction@@YAHKPAU_DcfInst@@@Z 10001b40 f   thmbstep.obj
+ 0001:00000d3c       ?DetermineIfCall@@YAHKPAU_structThumbInstrInterp@@@Z 10001d3c f   thmbstep.obj
+ 0001:00000e54       ?ThumbCheckConditionCodes@@YAHKK@Z 10001e54 f   thmbstep.obj
+ 0001:00000f30       ?ThumbInterpretInstruction@@YAHKPAEPAU_structThumbInstrInterp@@@Z 10001f30 f   thmbstep.obj

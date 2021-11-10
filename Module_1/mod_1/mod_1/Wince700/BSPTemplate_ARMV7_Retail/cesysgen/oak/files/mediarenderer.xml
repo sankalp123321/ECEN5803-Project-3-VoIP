@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+    <specVersion>
+        <major>1</major>
+        <minor>0</minor>
+    </specVersion>
+
+    <device>
+        <deviceType>urn:schemas-upnp-org:device:MediaRenderer:1</deviceType>
+    <friendlyName>%!HOST_NAME!: Microsoft MediaRenderer</friendlyName>
+        <manufacturer>Microsoft</manufacturer>
+        <manufacturerURL>http://www.microsoft.com/</manufacturerURL>
+        <modelDescription>Windows CE Sample UPnP MediaRenderer</modelDescription>
+        <modelName>MediaRenderer</modelName>
+        <modelNumber>1</modelNumber>
+        <modelURL>http://www.microsoft.com/</modelURL>
+        <serialNumber>0000001</serialNumber>
+    <dlna:X_DLNADOC xmlns:dlna="urn:schemas-dlna-org:device-1-0">DMR-1.50</dlna:X_DLNADOC>
+    <UDN>uuid:A1DF31F3-405F-14ee-940D-7CA2DAC16C64</UDN>
+    <UPC>00000-00001</UPC>
+
+        <serviceList>
+            <service>
+                <serviceType>urn:schemas-upnp-org:service:ConnectionManager:1</serviceType>
+                <serviceId>urn:upnp-org:serviceId:ConnectionManager</serviceId>
+                <controlURL></controlURL>
+                <eventSubURL></eventSubURL>
+                <SCPDURL>MediaRendererConnectionManagerService.xml</SCPDURL>
+            </service>
+            <service>
+                <serviceType>urn:schemas-upnp-org:service:AVTransport:1</serviceType>
+                <serviceId>urn:upnp-org:serviceId:AVTransport</serviceId>
+                <controlURL></controlURL>
+                <eventSubURL></eventSubURL>
+                <SCPDURL>MediaRendererAVTransportService.xml</SCPDURL>
+            </service>
+            <service>
+                <serviceType>urn:schemas-upnp-org:service:RenderingControl:1</serviceType>
+                <serviceId>urn:upnp-org:serviceId:RenderingControl</serviceId>
+                <controlURL></controlURL>
+                <eventSubURL></eventSubURL>
+                <SCPDURL>MediaRendererRenderingControlService.xml</SCPDURL>
+            </service>
+        </serviceList>
+
+        <presentationURL></presentationURL>
+
+    </device>
+    
+</root>

@@ -1,0 +1,344 @@
+ Mux07_10
+
+ Timestamp is 5ac651ad (Thu Apr 05 09:41:17 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000008H .CRT$XCU                CODE
+ 0001:0000000c 00000004H .CRT$XCZ                CODE
+ 0001:00000010 00000004H .CRT$XIA                CODE
+ 0001:00000014 00000004H .CRT$XIZ                CODE
+ 0001:00000018 00000004H .CRT$XPA                CODE
+ 0001:0000001c 00000004H .CRT$XPZ                CODE
+ 0001:00000020 00000004H .CRT$XTA                CODE
+ 0001:00000024 00000004H .CRT$XTZ                CODE
+ 0001:00000030 000002d0H .rdata                  CODE
+ 0001:00000300 00000025H .rdata$debug            CODE
+ 0001:00000328 000061a0H .text                   CODE
+ 0001:000064c8 00000040H .text$yc                CODE
+ 0001:00006508 0000002cH .text$yd                CODE
+ 0001:00006534 00000108H .xdata                  CODE
+ 0001:0000663c 00000014H .idata$2                CODE
+ 0001:00006650 00000014H .idata$3                CODE
+ 0001:00006664 000000e8H .idata$4                CODE
+ 0001:0000674c 0000000cH .idata$6                CODE
+ 0001:00006760 00000134H .edata                  CODE
+ 0002:00000000 000000e8H .idata$5                DATA
+ 0002:000000e8 00000114H .data                   DATA
+ 0002:00000200 00000480H .bss                    DATA
+ 0003:00000000 00000478H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:0000000c       __xc_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xi_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xi_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xp_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xp_z                     1000101c     corelib0:crt0init.obj
+ 0001:00000020       __xt_a                     10001020     corelib0:crt0init.obj
+ 0001:00000024       __xt_z                     10001024     corelib0:crt0init.obj
+ 0001:0000004c       ??_7CChanel@@6B@           1000104c     chanel.obj
+ 0001:00000064       ??_7CUserChanel@@6B@       10001064     chanel.obj
+ 0001:0000007c       ??_7CCtrlChanel@@6B@       1000107c     chanel.obj
+ 0001:00000094       ??_C@_19HGPIFADB@?$AAC?$AAt?$AAr?$AAl?$AA?$AA@ 10001094     chanel.obj
+ 0001:000000a0       ??_C@_0BO@KNPJCIJD@AT?$CLCMUX?$DN?$CFu?00?05?0?$CFu?0?$CFu?03?0?$CFu?0?$CFu?$AN?$AA@ 100010a0     dispatcher.obj
+ 0001:000000c0       ??_C@_06MGFOAJFK@?$AN?6OK?$AN?6?$AA@ 100010c0     dispatcher.obj
+ 0001:000000c8       ??_C@_0L@EOGNNMDA@AT?$CLIPR?$DN?$CFu?$AN?$AA@ 100010c8     dispatcher.obj
+ 0001:000000d4       ??_C@_1BO@EIIAJID@?$AAR?$AAe?$AAb?$AAo?$AAo?$AAt?$AAK?$AAO?$AAE?$AAv?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 100010d4     dispatcher.obj
+ 0001:000000f4       ??_C@_1BO@NLBBJCAC@?$AAR?$AAe?$AAb?$AAo?$AAo?$AAt?$AAO?$AAK?$AAE?$AAv?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 100010f4     dispatcher.obj
+ 0001:00000114       ??_C@_1CI@EHNJGLOM@?$AAD?$AAr?$AAi?$AAv?$AAe?$AAr?$AAs?$AA?2?$AAB?$AAu?$AAi?$AAl?$AAt?$AAI?$AAn?$AA?2?$AAR?$AAI?$AAL?$AA?$AA@ 10001114     dispatcher.obj
+ 0001:0000013c       ??_C@_1BE@KKHEPBEL@?$AAF?$AAr?$AAa?$AAm?$AAe?$AAS?$AAi?$AAz?$AAe?$AA?$AA@ 1000113c     dispatcher.obj
+ 0001:00000150       ??_C@_1BI@DDIIFCLA@?$AAF?$AAr?$AAa?$AAm?$AAe?$AAO?$AAp?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 10001150     dispatcher.obj
+ 0001:00000168       ??_C@_1BC@MIOHADKO@?$AAB?$AAa?$AAu?$AAd?$AAR?$AAa?$AAt?$AAe?$AA?$AA@ 10001168     dispatcher.obj
+ 0001:0000017c       ??_C@_1BA@GKCOAPMF@?$AAC?$AAo?$AAm?$AAP?$AAo?$AAr?$AAt?$AA?$AA@ 1000117c     dispatcher.obj
+ 0001:0000018c       ??_C@_1DI@LPDAPGLB@?$AAS?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAG?$AAS?$AAM?$AA0?$AA7?$AA_?$AA1?$AA0?$AA?$AA@ 1000118c     dispatcher.obj
+ 0001:000001c4       ??_C@_1BG@JEAEPEFK@?$AAR?$AAx?$AAP?$AAa?$AAc?$AAk?$AAe?$AAt?$AAT?$AAh?$AA?$AA@ 100011c4     pktio.obj
+ 0001:000001dc       ??_7CPktChanel@@6B@        100011dc     pktio.obj
+ 0001:000001f4       ??_C@_1BK@HJMFJJGO@?$AAP?$AAk?$AAt?$AAC?$AAh?$AAa?$AAn?$AAn?$AAe?$AAl?$AAT?$AAh?$AA?$AA@ 100011f4     pktio.obj
+ 0001:00000210       ??_C@_1BM@HNPMPOMH@?$AAG?$AAS?$AAM?$AA_?$AA0?$AA7?$AA1?$AA0?$AA_?$AAD?$AAL?$AAC?$AAI?$AA?$AA@ 10001210     pktio.obj
+ 0001:0000022c       ??_C@_17KGHANLFO@?$AAC?$AAi?$AAd?$AA?$AA@ 1000122c     pktio.obj
+ 0001:00000238       ??_C@_1EE@BMIACHMI@?$AAS?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAG?$AAS?$AAM?$AA0?$AA7?$AA_?$AA1?$AA0?$AA?2?$AAP?$AAK?$AAT?$AAI@ 10001238     pktio.obj
+ 0001:0000027c       ??_C@_1BO@CJBLNGKF@?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AAP?$AAa?$AAc?$AAk?$AAe?$AAt?$AAI?$AAO?$AA?$AA@ 1000127c     ser_intf.obj
+ 0001:0000029c       ??_C@_1DE@MKBGAELG@?$AAG?$AAS?$AAM?$AA_?$AA0?$AA7?$AA1?$AA0?$AA_?$AAA?$AAC?$AAT?$AAI?$AAV?$AAI?$AAT?$AAY?$AA_?$AAT?$AAI?$AAM?$AAE?$AAO?$AAU?$AAT?$AA?$AA@ 1000129c     ser_intf.obj
+ 0001:000002d0       ??_C@_1BM@KBJNIPON@?$AAG?$AAS?$AAM?$AA_?$AA0?$AA7?$AA1?$AA0?$AA_?$AAT?$AAY?$AAP?$AAE?$AA?$AA@ 100012d0     ser_intf.obj
+ 0001:000002ec       ??_C@_19DINFBLAK@?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 100012ec     ser_intf.obj
+ 0001:000002f8       ??_C@_17KACEIPNC@?$AAK?$AAe?$AAy?$AA?$AA@ 100012f8     ser_intf.obj
+ 0001:00000328       ?ChannelFilterException@@YAKKPAG@Z 10001328 f   chanel.obj
+ 0001:00000330       ?InitBuffers@CChanel@@MAAXXZ 10001330 f   chanel.obj
+ 0001:00000378       ??7CChanel@@QAA_NXZ        10001378 f   chanel.obj
+ 0001:000003b4       ?WriteFrame@@YAKPAE0K@Z    100013b4 f i chanel.obj
+ 0001:00000404       ?AdvancedModeSend@CChanel@@AAAHPAUtFrameData@1@@Z 10001404 f   chanel.obj
+ 0001:00000538       ?BasicModeSend@CChanel@@AAAHPAUtFrameData@1@@Z 10001538 f   chanel.obj
+ 0001:0000066c       ?AdvancedModeSendPacket@CChanel@@AAAHPAEKPAUrilndispacket_tag@@@Z 1000166c f   chanel.obj
+ 0001:00000990       ?BasicModeSendPacket@CChanel@@AAAHPAEKPAUrilndispacket_tag@@@Z 10001990 f   chanel.obj
+ 0001:00000d7c       ?SendFrameWaitAck@CChanel@@AAA_NE@Z 10001d7c f   chanel.obj
+ 0001:00000e34       ?SendSABM@CChanel@@QAA_NXZ 10001e34 f   chanel.obj
+ 0001:00000e44       ?SendUIH@CChanel@@QAAKPAEKE@Z 10001e44 f   chanel.obj
+ 0001:00000ea0       ?SendPacket@CChanel@@QAAHPAEKPAUrilndispacket_tag@@@Z 10001ea0 f   chanel.obj
+ 0001:00000eb8       ?SendUA@CChanel@@QAAXXZ    10001eb8 f   chanel.obj
+ 0001:00000f14       ?SignalData@CChanel@@MAAXXZ 10001f14 f   chanel.obj
+ 0001:00000f18       ?SetModemStatus@CChanel@@UAAXE@Z 10001f18 f   chanel.obj
+ 0001:00000f1c       ?SignalEndOfFrame@CChanel@@UAAXEPAEK@Z 10001f1c f   chanel.obj
+ 0001:00000fcc       ?GetRxBytesAvailable@CUserChanel@@AAAKXZ 10001fcc f   chanel.obj
+ 0001:00000ff4       ?ReadData@CUserChanel@@AAAKPAEK@Z 10001ff4 f   chanel.obj
+ 0001:00001060       ?GetModemStatus@CUserChanel@@QAAKXZ 10002060 f   chanel.obj
+ 0001:00001068       ?SetModemStatus@CUserChanel@@UAAXE@Z 10002068 f   chanel.obj
+ 0001:0000109c       ?SendModemStatus@CUserChanel@@QAA_NK@Z 1000209c f   chanel.obj
+ 0001:000010f0       ?NotifyIdle@CUserChanel@@QAAXXZ 100020f0 f   chanel.obj
+ 0001:00001120       ?NotifyBusy@CUserChanel@@QAAXXZ 10002120 f   chanel.obj
+ 0001:00001164       ?SignalData@CUserChanel@@MAAXXZ 10002164 f   chanel.obj
+ 0001:0000118c       ?UserChnlTerminate@@YA_NPAX@Z 1000218c f   chanel.obj
+ 0001:000011f0       ?UserChannelTh@@YAKPAX@Z   100021f0 f   chanel.obj
+ 0001:000012e0       ?MonitorActivityTh@@YAKPAX@Z 100022e0 f   chanel.obj
+ 0001:0000145c       ?NegotiateParams@CCtrlChanel@@QAA_NPAEK@Z 1000245c f   chanel.obj
+ 0001:000015a4       ?NegotiateService@CCtrlChanel@@QAA_NE@Z 100025a4 f   chanel.obj
+ 0001:0000169c       ?SendModemStatus@CCtrlChanel@@QAA_NEE@Z 1000269c f   chanel.obj
+ 0001:00001774       ?EnterPowerSavingMode@CCtrlChanel@@QAA_NXZ 10002774 f   chanel.obj
+ 0001:00001810       ?GetNextCtrlMsg@CCtrlChanel@@AAA_NPAUtCtrlMsg@@@Z 10002810 f   chanel.obj
+ 0001:0000194c       ?ParseUIH@CCtrlChanel@@AAA_NXZ 1000294c f   chanel.obj
+ 0001:00001bf8       ?SignalData@CCtrlChanel@@MAAXXZ 10002bf8 f   chanel.obj
+ 0001:00001c0c       ?CtrlChannelTh@@YAKPAX@Z   10002c0c f   chanel.obj
+ 0001:00001d34       ?CtrlChnlTerminate@@YA_NPAX@Z 10002d34 f   chanel.obj
+ 0001:00001d84       ??0CChanel@@QAA@EP6AKPAX@ZP6A_N0@Z@Z 10002d84 f   chanel.obj
+ 0001:00001e48       ?Init@CChanel@@UAA_NXZ     10002e48 f   chanel.obj
+ 0001:00002018       ?Terminate@CChanel@@UAAXXZ 10003018 f   chanel.obj
+ 0001:00002154       ?Init@CUserChanel@@UAA_NXZ 10003154 f   chanel.obj
+ 0001:00002304       ?Init@CCtrlChanel@@UAA_NXZ 10003304 f   chanel.obj
+ 0001:000023a8       ??1CChanel@@QAA@XZ         100033a8 f   chanel.obj
+ 0001:000023e4       ??0CUserChanel@@QAA@E_NKPBG@Z 100033e4 f   chanel.obj
+ 0001:000024c4       ??1CUserChanel@@QAA@XZ     100034c4 f   chanel.obj
+ 0001:00002544       ??0CCtrlChanel@@QAA@E@Z    10003544 f   chanel.obj
+ 0001:000025a4       ??1CCtrlChanel@@QAA@XZ     100035a4 f   chanel.obj
+ 0001:000025d0       ?ResetInternalData@CDispatcher@@QAAXXZ 100035d0 f   dispatcher.obj
+ 0001:0000266c       ?ReinitAll@CDispatcher@@QAA_NXZ 1000366c f   dispatcher.obj
+ 0001:000026b8       ?TerminateSerialIntf@CDispatcher@@QAAXXZ 100036b8 f   dispatcher.obj
+ 0001:00002750       ??7CDispatcher@@QAA_NXZ    10003750 f   dispatcher.obj
+ 0001:0000276c       ?Register@CDispatcher@@QAA_NPAVCChanel@@PAUtFrameParam@@@Z 1000376c f   dispatcher.obj
+ 0001:000027b4       ?Unregister@CDispatcher@@QAA_NPAVCChanel@@@Z 100037b4 f   dispatcher.obj
+ 0001:000027e0       ?IsDlciAlreadyBooked@CDispatcher@@QAA_NPAVCChanel@@@Z 100037e0 f   dispatcher.obj
+ 0001:00002810       ?NegotiateParams@CDispatcher@@QAA_NEPAUtDlcParam@@@Z 10003810 f   dispatcher.obj
+ 0001:00002914       ?NegotiateService@CDispatcher@@QAA_NE@Z 10003914 f   dispatcher.obj
+ 0001:0000291c       ?SetModemStatus@CDispatcher@@QAA_NEE@Z 1000391c f   dispatcher.obj
+ 0001:00002950       ?SendModemStatus@CDispatcher@@QAA_NEE@Z 10003950 f   dispatcher.obj
+ 0001:00002958       ?EnterPowerSavingMode@CDispatcher@@QAA_NXZ 10003958 f   dispatcher.obj
+ 0001:00002980       ?Send@CDispatcher@@QAAKPAEK@Z 10003980 f   dispatcher.obj
+ 0001:00002a40       ?WakeupResponse@CDispatcher@@AAAXXZ 10003a40 f   dispatcher.obj
+ 0001:00002ac4       ?ReadAdvancedModeFrame@CDispatcher@@AAAKPAXPAEK@Z 10003ac4 f   dispatcher.obj
+ 0001:00002bc0       ?ReadBasicModeFrame@CDispatcher@@AAAKPAXPAEK@Z 10003bc0 f   dispatcher.obj
+ 0001:00002d00       ?ParseRecBytes@CDispatcher@@AAAXPAUtParseData@1@PAEK@Z 10003d00 f   dispatcher.obj
+ 0001:00002ebc       ?CancelResetRequest@CDispatcher@@QAAXXZ 10003ebc f   dispatcher.obj
+ 0001:00002ed8       ?BroadcastChnlIdleStatus@CDispatcher@@QAAXXZ 10003ed8 f   dispatcher.obj
+ 0001:00002f0c       ?SenseComTh@@YAKPAX@Z      10003f0c f   dispatcher.obj
+ 0001:00003150       ?TimeOutTh@@YAKPAX@Z       10004150 f   dispatcher.obj
+ 0001:000031e0       ??0CDispatcher@@QAA@XZ     100041e0 f   dispatcher.obj
+ 0001:00003200       ?Terminate@CDispatcher@@QAAXXZ 10004200 f   dispatcher.obj
+ 0001:00003384       ?ResetRadioTh@@YAKPAX@Z    10004384 f   dispatcher.obj
+ 0001:00003488       ?TryTerminate@CDispatcher@@QAAXXZ 10004488 f   dispatcher.obj
+ 0001:000034a8       ?RequestResetIn@CDispatcher@@QAAXK@Z 100044a8 f   dispatcher.obj
+ 0001:000034f8       ?WakeUpTh@@YAKPAX@Z        100044f8 f   dispatcher.obj
+ 0001:00003684       ??1CDispatcher@@QAA@XZ     10004684 f   dispatcher.obj
+ 0001:000036a4       ?Init@CDispatcher@@QAA_NXZ 100046a4 f   dispatcher.obj
+ 0001:00003f40       ?NdisShutdown@@YAJXZ       10004f40 f   pktio.obj
+ 0001:00003f48       ??0CRxPacketList@@QAA@XZ   10004f48 f   pktio.obj
+ 0001:00003f80       ?RxGetFree@CRxPacketList@@QAAPAURXPACKET_ENTRY@@XZ 10004f80 f   pktio.obj
+ 0001:00003fec       ?RxGetPendingPacket@CRxPacketList@@QAAPAUrilndispacket_tag@@XZ 10004fec f   pktio.obj
+ 0001:00004060       ?RxPutPending@CRxPacketList@@QAAXPAURXPACKET_ENTRY@@@Z 10005060 f   pktio.obj
+ 0001:00004098       ?RxPutFree@CRxPacketList@@QAAXPAURXPACKET_ENTRY@@@Z 10005098 f   pktio.obj
+ 0001:000040d0       ?RxPacketFree@CRxPacketList@@QAAXPAUrilndispacket_tag@@@Z 100050d0 f   pktio.obj
+ 0001:0000414c       ?FreeRxPacketList@CRxPacketList@@QAAXXZ 1000514c f   pktio.obj
+ 0001:00004208       ?RxPacketTh@@YAKPAX@Z      10005208 f   pktio.obj
+ 0001:000042d0       ??1CPktChanel@@QAA@XZ      100052d0 f   pktio.obj
+ 0001:00004354       ?InitBuffers@CPktChanel@@MAAXXZ 10005354 f   pktio.obj
+ 0001:00004394       ?Init@CPktChanel@@UAA_NXZ  10005394 f   pktio.obj
+ 0001:00004444       ?SignalEndOfFrame@CPktChanel@@UAAXEPAEK@Z 10005444 f   pktio.obj
+ 0001:000045dc       ?SendIPPacket@CPktChanel@@QAAHPAUrilndispacket_tag@@@Z 100055dc f   pktio.obj
+ 0001:00004628       ?SetModemStatus@CPktChanel@@UAAXE@Z 10005628 f   pktio.obj
+ 0001:000046c8       ?PktChnlTerminate@@YA_NPAX@Z 100056c8 f   pktio.obj
+ 0001:000046e0       ?PktChannelTh@@YAKPAX@Z    100056e0 f   pktio.obj
+ 0001:000047b4       ?TermPacketIO@@YAXXZ       100057b4 f   pktio.obj
+ 0001:00004864       ?FCPacketIO@@YAXH@Z        10005864 f   pktio.obj
+ 0001:000048e4       ?NdisRxPacketFree@@YAXPAUrilndispacket_tag@@@Z 100058e4 f   pktio.obj
+ 0001:000048f4       ?NdisTxPacketSend@@YAXPAUrilndispacket_tag@@@Z 100058f4 f   pktio.obj
+ 0001:000049dc       ?RxPacketListInit@CRxPacketList@@QAAHK@Z 100059dc f   pktio.obj
+ 0001:00004a8c       ??0CPktChanel@@QAA@EKKPBG@Z 10005a8c f   pktio.obj
+ 0001:00004b40       ?InitPacketIO@@YA_NXZ      10005b40 f   pktio.obj
+ 0001:00004e84       ?NdisInitialize@@YAJPAUoemndisinitialize_tag@@@Z 10005e84 f   pktio.obj
+ 0001:00004f48       DllMain                    10005f48 f   ser_intf.obj
+ 0001:00004f5c       ?COM_Deinit@@YAHK@Z        10005f5c f   ser_intf.obj
+ 0001:00004fa0       ?COM_Open@@YAKKKK@Z        10005fa0 f   ser_intf.obj
+ 0001:00005028       ?COM_Close@@YAHK@Z         10006028 f   ser_intf.obj
+ 0001:00005070       ?COM_Read@@YAKKPAXK@Z      10006070 f   ser_intf.obj
+ 0001:00005074       ?COM_Write@@YAKKPBXK@Z     10006074 f   ser_intf.obj
+ 0001:00005118       ?COM_IOControl@@YAHKKPAEK0KPAK@Z 10006118 f   ser_intf.obj
+ 0001:000058e8       ?COM_Seek@@YAKKJK@Z        100068e8 f   ser_intf.obj
+ 0001:000058f0       ?COM_PowerDown@@YAXK@Z     100068f0 f   ser_intf.obj
+ 0001:000058fc       ?COM_PowerUp@@YAXK@Z       100068fc f   ser_intf.obj
+ 0001:00005910       ?COM_Init@@YAKPBGPBX@Z     10006910 f   ser_intf.obj
+ 0001:00005bc8       ?SwitchRadioOn@CDispatcher@@QAA_NXZ 10006bc8 f   hw_related.obj
+ 0001:00005bd0       ?ResetRadio@CDispatcher@@QAA_NXZ 10006bd0 f   hw_related.obj
+ 0001:00005bd8       ?NotifyActivity@CUserChanel@@AAAXW4tActivityStatus@@@Z 10006bd8 f   hw_related.obj
+ 0001:00005bdc       ?SwitchRadioOff@CDispatcher@@QAA_NXZ 10006bdc f   hw_related.obj
+ 0001:00005be4       EventModify                10006be4 f   coredll:COREDLL.dll
+ 0001:00005bf4       InterlockedExchange        10006bf4 f   coredll:COREDLL.dll
+ 0001:00005c04       EnterCriticalSection       10006c04 f   coredll:COREDLL.dll
+ 0001:00005c14       LeaveCriticalSection       10006c14 f   coredll:COREDLL.dll
+ 0001:00005c24       HeapAlloc                  10006c24 f   coredll:COREDLL.dll
+ 0001:00005c34       GetProcessHeap             10006c34 f   coredll:COREDLL.dll
+ 0001:00005c44       WaitForSingleObject        10006c44 f   coredll:COREDLL.dll
+ 0001:00005c54       SetLastError               10006c54 f   coredll:COREDLL.dll
+ 0001:00005c64       GetTickCount               10006c64 f   coredll:COREDLL.dll
+ 0001:00005c74       CloseHandle                10006c74 f   coredll:COREDLL.dll
+ 0001:00005c84       SetThreadPriority          10006c84 f   coredll:COREDLL.dll
+ 0001:00005c94       WaitForMultipleObjects     10006c94 f   coredll:COREDLL.dll
+ 0001:00005ca4       TryEnterCriticalSection    10006ca4 f   coredll:COREDLL.dll
+ 0001:00005cb4       InitializeCriticalSection  10006cb4 f   coredll:COREDLL.dll
+ 0001:00005cc4       InterlockedIncrement       10006cc4 f   coredll:COREDLL.dll
+ 0001:00005cd4       CreateThread               10006cd4 f   coredll:COREDLL.dll
+ 0001:00005ce4       CreateEventW               10006ce4 f   coredll:COREDLL.dll
+ 0001:00005cf4       HeapFree                   10006cf4 f   coredll:COREDLL.dll
+ 0001:00005d04       InterlockedDecrement       10006d04 f   coredll:COREDLL.dll
+ 0001:00005d14       DeleteCriticalSection      10006d14 f   coredll:COREDLL.dll
+ 0001:00005d24       WriteFile                  10006d24 f   coredll:COREDLL.dll
+ 0001:00005d34       ReadFile                   10006d34 f   coredll:COREDLL.dll
+ 0001:00005d44       ClearCommBreak             10006d44 f   coredll:COREDLL.dll
+ 0001:00005d54       ClearCommError             10006d54 f   coredll:COREDLL.dll
+ 0001:00005d64       WaitCommEvent              10006d64 f   coredll:COREDLL.dll
+ 0001:00005d74       SetCommMask                10006d74 f   coredll:COREDLL.dll
+ 0001:00005d84       Sleep                      10006d84 f   coredll:COREDLL.dll
+ 0001:00005d94       StringCchPrintfA           10006d94 f   coredll:COREDLL.dll
+ 0001:00005da4       SetCommTimeouts            10006da4 f   coredll:COREDLL.dll
+ 0001:00005db4       SetCommState               10006db4 f   coredll:COREDLL.dll
+ 0001:00005dc4       GetCommState               10006dc4 f   coredll:COREDLL.dll
+ 0001:00005dd4       CreateFileW                10006dd4 f   coredll:COREDLL.dll
+ 0001:00005de4       RegCloseKey                10006de4 f   coredll:COREDLL.dll
+ 0001:00005df4       RegQueryValueExW           10006df4 f   coredll:COREDLL.dll
+ 0001:00005e04       RegOpenKeyExW              10006e04 f   coredll:COREDLL.dll
+ 0001:00005e14       LocalFree                  10006e14 f   coredll:COREDLL.dll
+ 0001:00005e24       LocalAlloc                 10006e24 f   coredll:COREDLL.dll
+ 0001:00005e34       RegEnumKeyExW              10006e34 f   coredll:COREDLL.dll
+ 0001:00005e44       CeSafeCopyMemory           10006e44 f   coredll:COREDLL.dll
+ 0001:00005e54       DisableThreadLibraryCalls  10006e54 f   coredll:COREDLL.dll
+ 0001:00005f5c       _DllMainCRTStartup         10006f5c f   corelib0:pegdmain.obj
+ 0001:00005f88       __GSHandlerCheckCommon     10006f88 f   corelib0:gshandler.obj
+ 0001:00005fc4       __GSHandlerCheck           10006fc4 f   corelib0:gshandler.obj
+ 0001:00005fe4       __security_init_cookie     10006fe4 f   corelib0:seccinit.obj
+ 0001:00006030       __security_check_cookie    10007030 f   corelib0:armsecgs.obj
+ 0001:00006040       __gsfailure                10007040     corelib0:armsecgs.obj
+ 0001:0000608c       _onexit                    1000708c f   corelib0:onexit.obj
+ 0001:00006210       atexit                     10007210 f   corelib0:onexit.obj
+ 0001:00006310       _cexit                     10007310 f   corelib0:cexit.obj
+ 0001:00006320       _initterm                  10007320 f   corelib0:crt0dat.obj
+ 0001:0000634c       _cinit                     1000734c f   corelib0:crt0dat.obj
+ 0001:000063ac       __crt_ExitProcess          100073ac f   corelib0:exitproc_proxy.obj
+ 0001:000063b8       memcpy                     100073b8 f   corelib1:COREDLL.dll
+ 0001:000063c8       __C_specific_handler       100073c8 f   corelib1:COREDLL.dll
+ 0001:000063d8       wcslen                     100073d8 f   corelib1:COREDLL.dll
+ 0001:000063e8       memset                     100073e8 f   corelib1:COREDLL.dll
+ 0001:000063f8       strstr                     100073f8 f   corelib1:COREDLL.dll
+ 0001:00006408       ??3@YAXPAX@Z               10007408 f   corelib1:COREDLL.dll
+ 0001:00006418       ??2@YAPAXI@Z               10007418 f   corelib1:COREDLL.dll
+ 0001:00006428       strlen                     10007428 f   corelib1:COREDLL.dll
+ 0001:00006438       _XcptFilter                10007438 f   corelib1:COREDLL.dll
+ 0001:00006448       __security_gen_cookie2     10007448 f   corelib1:COREDLL.dll
+ 0001:00006458       __report_gsfailure         10007458 f   corelib1:COREDLL.dll
+ 0001:00006468       free                       10007468 f   corelib1:COREDLL.dll
+ 0001:00006478       malloc                     10007478 f   corelib1:COREDLL.dll
+ 0001:00006488       realloc                    10007488 f   corelib1:COREDLL.dll
+ 0001:00006498       _msize                     10007498 f   corelib1:COREDLL.dll
+ 0001:000064a8       InterlockedCompareExchange 100074a8 f   coredll:COREDLL.dll
+ 0001:000064b8       TerminateProcess           100074b8 f   coredll:COREDLL.dll
+ 0001:0000663c       __IMPORT_DESCRIPTOR_COREDLL 1000763c     coredll:COREDLL.dll
+ 0001:00006650       __NULL_IMPORT_DESCRIPTOR   10007650     coredll:COREDLL.dll
+ 0002:00000000       __imp_EventModify          10008000     coredll:COREDLL.dll
+ 0002:00000004       __imp_InterlockedExchange  10008004     coredll:COREDLL.dll
+ 0002:00000008       __imp_EnterCriticalSection 10008008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_LeaveCriticalSection 1000800c     coredll:COREDLL.dll
+ 0002:00000010       __imp_HeapAlloc            10008010     coredll:COREDLL.dll
+ 0002:00000014       __imp_GetProcessHeap       10008014     coredll:COREDLL.dll
+ 0002:00000018       __imp_WaitForSingleObject  10008018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_SetLastError         1000801c     coredll:COREDLL.dll
+ 0002:00000020       __imp_GetTickCount         10008020     coredll:COREDLL.dll
+ 0002:00000024       __imp_CloseHandle          10008024     coredll:COREDLL.dll
+ 0002:00000028       __imp_SetThreadPriority    10008028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_WaitForMultipleObjects 1000802c     coredll:COREDLL.dll
+ 0002:00000030       __imp_TryEnterCriticalSection 10008030     coredll:COREDLL.dll
+ 0002:00000034       __imp_InitializeCriticalSection 10008034     coredll:COREDLL.dll
+ 0002:00000038       __imp_InterlockedIncrement 10008038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_CreateThread         1000803c     coredll:COREDLL.dll
+ 0002:00000040       __imp_CreateEventW         10008040     coredll:COREDLL.dll
+ 0002:00000044       __imp_HeapFree             10008044     coredll:COREDLL.dll
+ 0002:00000048       __imp_InterlockedDecrement 10008048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_DeleteCriticalSection 1000804c     coredll:COREDLL.dll
+ 0002:00000050       __imp_WriteFile            10008050     coredll:COREDLL.dll
+ 0002:00000054       __imp_ReadFile             10008054     coredll:COREDLL.dll
+ 0002:00000058       __imp_ClearCommBreak       10008058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_ClearCommError       1000805c     coredll:COREDLL.dll
+ 0002:00000060       __imp_WaitCommEvent        10008060     coredll:COREDLL.dll
+ 0002:00000064       __imp_SetCommMask          10008064     coredll:COREDLL.dll
+ 0002:00000068       __imp_Sleep                10008068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_StringCchPrintfA     1000806c     coredll:COREDLL.dll
+ 0002:00000070       __imp_SetCommTimeouts      10008070     coredll:COREDLL.dll
+ 0002:00000074       __imp_SetCommState         10008074     coredll:COREDLL.dll
+ 0002:00000078       __imp_GetCommState         10008078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_CreateFileW          1000807c     coredll:COREDLL.dll
+ 0002:00000080       __imp_RegCloseKey          10008080     coredll:COREDLL.dll
+ 0002:00000084       __imp_RegQueryValueExW     10008084     coredll:COREDLL.dll
+ 0002:00000088       __imp_RegOpenKeyExW        10008088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_LocalFree            1000808c     coredll:COREDLL.dll
+ 0002:00000090       __imp_LocalAlloc           10008090     coredll:COREDLL.dll
+ 0002:00000094       __imp_RegEnumKeyExW        10008094     coredll:COREDLL.dll
+ 0002:00000098       __imp_CeSafeCopyMemory     10008098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_DisableThreadLibraryCalls 1000809c     coredll:COREDLL.dll
+ 0002:000000a0       __imp_memcpy               100080a0     corelib1:COREDLL.dll
+ 0002:000000a4       __imp___C_specific_handler 100080a4     corelib1:COREDLL.dll
+ 0002:000000a8       __imp_wcslen               100080a8     corelib1:COREDLL.dll
+ 0002:000000ac       __imp_memset               100080ac     corelib1:COREDLL.dll
+ 0002:000000b0       __imp_strstr               100080b0     corelib1:COREDLL.dll
+ 0002:000000b4       __imp_??3@YAXPAX@Z         100080b4     corelib1:COREDLL.dll
+ 0002:000000b8       __imp_??2@YAPAXI@Z         100080b8     corelib1:COREDLL.dll
+ 0002:000000bc       __imp_strlen               100080bc     corelib1:COREDLL.dll
+ 0002:000000c0       __imp__XcptFilter          100080c0     corelib1:COREDLL.dll
+ 0002:000000c4       __imp___security_gen_cookie2 100080c4     corelib1:COREDLL.dll
+ 0002:000000c8       __imp___report_gsfailure   100080c8     corelib1:COREDLL.dll
+ 0002:000000cc       __imp_free                 100080cc     corelib1:COREDLL.dll
+ 0002:000000d0       __imp_malloc               100080d0     corelib1:COREDLL.dll
+ 0002:000000d4       __imp_realloc              100080d4     corelib1:COREDLL.dll
+ 0002:000000d8       __imp__msize               100080d8     corelib1:COREDLL.dll
+ 0002:000000dc       __imp_InterlockedCompareExchange 100080dc     coredll:COREDLL.dll
+ 0002:000000e0       __imp_TerminateProcess     100080e0     coredll:COREDLL.dll
+ 0002:000000e4       \177COREDLL_NULL_THUNK_DATA 100080e4     coredll:COREDLL.dll
+ 0002:000000e8       ?s_ucCrcTbl@CChanel@@1PAEA 100080e8     chanel.obj
+ 0002:000001e8       ?g_szNullName@@3PAGA       100081e8     chanel.obj
+ 0002:000001ec       ?g_FlowOn@@3HA             100081ec     pktio.obj
+ 0002:000001f0       ?g_fTerminated@@3HA        100081f0     pktio.obj
+ 0002:000001f4       __security_cookie          100081f4     corelib0:seccinit.obj
+ 0002:000001f8       __security_cookie_complement 100081f8     corelib0:seccinit.obj
+ 0002:00000200       ?s_hFCONEv@CChanel@@1PAXA  10008200     chanel.obj
+ 0002:00000208       ?s_Dispatcher@CChanel@@1VCDispatcher@@A 10008208     chanel.obj
+ 0002:00000378       ?g_OemNdisInitialize@@3Uoemndisinitialize_tag@@A 10008378     pktio.obj
+ 0002:00000624       ?g_pPktChannels@@3PAPAVCPktChanel@@A 10008624     pktio.obj
+ 0002:00000634       ?g_RxPacketEvent@@3PAXA    10008634     pktio.obj
+ 0002:00000638       ?g_RxPacketTh@@3PAXA       10008638     pktio.obj
+ 0002:0000063c       ?g_RxPacketList@@3VCRxPacketList@@A 1000863c     pktio.obj
+ 0002:00000668       ?g_PacketIoContext@@3KA    10008668     ser_intf.obj
+ 0002:0000066c       _exitflag                  1000866c     corelib0:cexit.obj
+ 0002:00000670       __onexitend                10008670     <common>
+ 0002:00000674       __onexitbegin              10008674     <common>
+ 0002:00000678       g_pcsExit                  10008678     <common>
+ 0002:0000067c       _pRawDllMain               1000867c     <common>
+
+ entry point at        0001:00005f5c
+
+ Static symbols
+
+ 0001:00005e6c       _DllMainCRTStartupHelper   10006e6c f   corelib0:pegdmain.obj
+ 0001:00006228       doexit                     10007228 f   corelib0:cexit.obj
+ 0001:000064c8       ??__E?s_Dispatcher@CChanel@@1VCDispatcher@@A@@YAXXZ 100074c8 f   chanel.obj
+ 0001:000064e8       ??__Eg_RxPacketList@@YAXXZ 100074e8 f   pktio.obj
+ 0001:00006508       ??__F?s_Dispatcher@CChanel@@1VCDispatcher@@A@@YAXXZ 10007508 f   chanel.obj
+ 0001:00006514       ??__Fg_RxPacketList@@YAXXZ 10007514 f   pktio.obj

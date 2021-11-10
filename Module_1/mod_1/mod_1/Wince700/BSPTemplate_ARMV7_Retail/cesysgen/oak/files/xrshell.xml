@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (c) Microsoft Corporation.  All rights reserved.
+-->
+<!--
+Use of this sample source code is subject to the terms of the Microsoft
+license agreement under which you licensed this sample source code. If
+you did not accept the terms of the license agreement, you are not
+authorized to use this sample source code. For the terms of the license,
+please see the license agreement between you and Microsoft or, if applicable,
+see the LICENSE.RTF on your install media or the root of your tools installation.
+THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+-->
+
+<XRShell>
+ 
+  <XRShellWidget Name="Main_Container"  Ordinal="1002"      Implementation="TopContainer"    DLL="XRShell_Builtin.dll">
+      <Configuration Path="\xrshell\__storage\Main"/>
+  </XRShellWidget>
+  
+  <XRShellWidget Name="Main_Item"       Ordinal="1003"     Implementation="Item"         DLL="XRShell_Builtin.dll"/>
+
+  <XRShellWidget Name="Setting_Container"    Ordinal="1004" Implementation="Container"    DLL="XRShell_Builtin.dll">
+    <Configuration Path="\xrshell\__storage\Setting"/>
+  </XRShellWidget>
+  
+  <XRShellWidget Name="Setting_Item"    Ordinal="1005"     Implementation="SettingItem"         DLL="XRShell_Builtin.dll"/>
+
+  <XRShellWidget Name="Status_Container"   Ordinal="1006"  Implementation="Container"     DLL="XRShell_Builtin.dll">
+    <Configuration Path="\xrshell\__storage\Status"/>
+  </XRShellWidget>
+
+<!-- We always have the clock -->
+    <XRShellWidget Name="Status_ItemClock"     Ordinal="1013" DLL="XRShell_Builtin.dll"         />
+
+<!--
+; @CESYSGEN IF SHELL_MODULES_XRSHELL_BLUETOOTHSTATUS
+; @CESYSGEN ENDIF
+-->
+
+<!--
+; @CESYSGEN IF SHELL_MODULES_XRSHELL_NETWORKSTATUS
+; @CESYSGEN ENDIF
+-->
+
+<!--
+; @CESYSGEN IF SHELL_MODULES_XRSHELL_POWERSTATUS
+; @CESYSGEN ENDIF
+-->
+
+<!--
+; @CESYSGEN IF SHELL_MODULES_XRSHELL_VOLUMESTATUS
+; @CESYSGEN ENDIF
+-->
+
+</XRShell>

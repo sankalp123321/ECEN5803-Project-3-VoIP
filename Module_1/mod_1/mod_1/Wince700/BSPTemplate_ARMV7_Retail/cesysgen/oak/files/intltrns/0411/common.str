@@ -1,0 +1,146 @@
+// set LCID in common.str, *not* directly in common.reg
+#define LOC_LCID 	~"411"
+#define LOC_ACP 	~"3a4"
+
+// this string gets inserted in NLSCFG.INF (formerly NLSCFG.TXT)
+#define LOC_INCLUDELOCALES ~"0411"
+
+// Timezone
+#define LOC_DEFAULT_TIMEZONE        "Tokyo Standard Time"
+
+
+// This value defines the weight of the font used for Buttons. FW_BOLD is 700 or 0x2BC,
+// which is the value that should be used for US, European etc locales. FW_NORMAL is
+// MEDPG 213744:EA Locales should use same font weight as non-EA locales
+#define LOC_BUTTONFONTWEIGHT  ~"2BC"
+#define LOC_MENUBARFONTWEIGHT ~"2BC"
+
+// common.reg translations
+#define LOC_FRIENDLYHAYESCOMPAT "COM1: 上のヘイズ互換モデム"
+
+// Home and Work dialing properties.
+// LOCATIONNAME is the friendly name of the settings, LOCALFMT is the local call format,
+// LDFMT is the Long Distance format, INTNTLFMT is the International format
+// (G means local number, F means area code, E means Country Code)
+// AREACODE is the area code for the default city
+// CWCODE is the "disable call waiting" code, COUNTRYCODE is the country code
+// OPTIONS is 0 for Tone, 1 for Pulse
+#define LOC_HOMELOCATIONNAME    "自宅"
+#define LOC_HOMELOCALFMT        "G"
+#define LOC_HOMELDFMT           "FG"
+#define LOC_HOMEINTNTLFMT       "001,EFG"
+#define LOC_HOMEAREACODE        "03"
+#define LOC_HOMECWCODE          " "
+#define LOC_HOMECOUNTRYCODE     "81"
+#define LOC_HOMEOPTIONS         "0"
+#define LOC_WORKLOCATIONNAME    "勤務先"
+#define LOC_WORKLOCALFMT        "0,G"
+#define LOC_WORKLDFMT           "0,FG"
+#define LOC_WORKINTNTLFMT       "0,001,EFG"
+#define LOC_WORKAREACODE        "03"
+#define LOC_WORKCWCODE          " "
+#define LOC_WORKCOUNTRYCODE     "81"
+#define LOC_WORKOPTIONS         "0"
+
+// Setting up Japanese as the default HKL.
+#define LOC_HKL_DEFAULT     "00000411"
+
+// Comm CPL
+#define LOC_DESKTOPCONNECT   "`デスクトップ @ 19200`"
+
+// Sounds CPL, scheme name
+#define LOC_ALLSOUNDS		"すべてのサウンド"
+
+// Console FONT -- NOTE: This *must* be a proportional font!
+// Size requires a ~ in front so quotes are stripped (since this a dword reg value)
+#define LOC_CONSOLEFONTNAME	"Courier New"
+#define LOC_CONSOLEFONTSIZE	~"a"
+// If you have painting/display problem in CMD (e.g. some FE locales) set
+// LOC_CONSOLEPAINTFIX to 1. Don't set it to 1 for USA since it is slower
+#define LOC_CONSOLEPAINTFIX ~"1"
+
+// INTL.CPL Support for an extra locale-specfic currency symbol (e.g. Euro). Set to 0 to disable
+#define LOC_EXTRACURRENCY	~"20ac"
+
+// Driver values
+#define LOC_FRIENDLYHAYESFAX		"Hayes 28.8 + Fax"
+#define LOC_FRIENDLYMEGAHERTZ		"Megahertz 28.8"
+#define LOC_FRIENDLYMEGAHERTZCELL	"Megahertz 28.8 Cellular"
+#define LOC_FRIENDLYMEGAHERTZCRUISE	"Megahertz Cruise Card 28.8"
+#define LOC_FRIENDLYMEGAHERTZ144	"Megahertz 14.4"
+#define LOC_FRIENDLYSPORTSTER288	"Sportster 28.8"
+#define LOC_FRIENDLYPROCLASS288		"ProClass 28.8"
+#define LOC_FRIENDLYXIRCOM336		"Xircom 33.6"
+#define LOC_FRIENDLYXIRCOMETHER336	"Xircom Ether Modem 33.6"
+#define LOC_FRIENDLYMOTOMONTANA288	"Motorola Montana 28.8"
+#define LOC_FRIENDLYMOTOPOWER144	"Motorola Power 14.4"
+#define LOC_FRIENDLYSOCKETDUALA		"ソケット デュアル I/O ポート A"
+#define LOC_FRIENDLYSOCKETDUALB		"ソケット デュアル I/O ポート B"
+#define LOC_FRIENDLYNE2000COMPAT	"NE2000 互換イーサネット ドライバ"
+#define LOC_FRIENDLYINFRARED		"赤外線ポート"
+#define LOC_FRIENDLYRNDISHOST           "Remote-NDIS ホスト"
+#define LOC_FRIENDLYRNDISFUNCTION       "Microsoft USB ネットワーク アダプタ　(RNDIS)"
+#define LOC_FRIENDLYXIRCCE2             "Xircom CE2 イーサネット ドライバ"
+#define LOC_FRIENDLYPCX500              "Cisco 802.11 ミニポート"
+#define LOC_FRIENDLYVMINI               "Microsoft null イーサネット ミニポート ドライバ"
+#define LOC_FRIENDLYMBRIDGE             "Microsoft Mac Bridge ミニポート"
+#define LOC_FRIENDLYASYNCMAC            "AsyncMac NDISWAN ミニポート"
+#define LOC_FRIENDLYPPTP                "PPTP NDISWAN ミニポート"
+#define LOC_FRIENDLYL2TP                "L2TP NDISWAN ミニポート"
+#define LOC_FRIENDLYRTL8139             "Realtek RTL8139 ベース高速イーサネット ドライバ"
+#define LOC_FRIENDLYDC21X4              "DC21X4 イーサネット ドライバ"
+#define LOC_DISPLAYNAME_IRSIR           "シリアル (COM) IrDA ドライバ"
+
+#define LOC_STORE_HD_FOLDER             "ハード ディスク"
+#define LOC_STORE_REMOVABLE_FOLDER      "メモリ カード"
+#define LOC_STORE_CD_FOLDER             "CDROM ドライブ"
+#define LOC_STORE_FLOPPY_FOLDER         "フロッピー ディスク ドライブ"
+#define LOC_STORE_DOC_FOLDER            "DiskOnChip"
+#define LOC_STORE_RFA_FOLDER            "RFA ディスク"
+#define LOC_STORE_DEFAULT_FOLDER        "マウントされたボリューム"
+
+// Paths for SHGetSpecialFolderPath
+#define LOC_PATH_WINDOWS                "\\Windows"
+#define LOC_PATH_DESKTOP                "\\Windows\\デスクトップ"
+#define LOC_PATH_STARTUP                "\\Windows\\スタートアップ"
+#define LOC_PATH_RECENT                 "\\Windows\\最近使ったファイル"
+#define LOC_PATH_PROGRAMS               "\\Windows\\プログラム"
+#define LOC_PATH_FAVORITES              "\\Windows\\お気に入り"
+#define LOC_PATH_FONTS                  "\\Windows\\Fonts"
+#define LOC_PATH_MYDOCUMENTS            "\\My Documents"
+#define LOC_PATH_MYMUSIC                "\\My Documents\\My Music"
+#define LOC_PATH_MYPICTURES             "\\My Documents\\My Pictures"
+#define LOC_PATH_MYVIDEOS               "\\My Documents\\My Videos"
+#define LOC_PATH_PROGRAMFILES           "\\Program Files"
+#define LOC_PATH_APPDATA                "\\Application Data"
+#define LOC_PATH_STARTMENU              "\\Windows\\Start Menu"
+#define LOC_PATH_STARTMENU_PROGRAMS     "\\Windows\\Start Menu\\Programs"
+
+
+// --- This is some SIP stuff --------------------------------------------------
+// [HKEY_CLASSES_ROOT\CLSID\{42429667-ae04-11d0-a4f8-00aa00a749b9}]
+#define LOC_KEYBOARD "キーボード"
+// [HKEY_CLASSES_ROOT\CLSID\{0CBEA010-F68E-11D1-8C63-0060977B4593}]
+#define LOC_MULTIBOX "手書き入力"
+
+
+// Traditional Chinese IM name
+#define LOC_MBOXCHT  "CHT IM"
+#define LOC_PHONIMNAME "Phonetic IM Name"
+#define LOC_CHAJEIIMNAME "Chajei IM Name"
+
+// Korean IM name
+#define LOC_MBOXKOR "韓国語 IM"
+
+
+// Japanese IM names
+#define LOC_MSROMA     "英数字"
+#define LOC_MSKANA     "ひらがな/カタカナ"
+#define LOC_MSSTRKLIST "総画数検索"
+#define LOC_MSRADLIST  "部首画数検索"
+#define LOC_CACJPN     "手書き検索"
+#define LOC_MSALLCHAR  "文字一覧"
+
+
+
+

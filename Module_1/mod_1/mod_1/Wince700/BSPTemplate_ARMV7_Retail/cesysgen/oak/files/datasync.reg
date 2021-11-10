@@ -1,0 +1,154 @@
+;
+; Copyright (c) Microsoft Corporation.  All rights reserved.
+;
+;
+; Use of this sample source code is subject to the terms of the Microsoft
+; license agreement under which you licensed this sample source code. If
+; you did not accept the terms of the license agreement, you are not
+; authorized to use this sample source code. For the terms of the license,
+; please see the license agreement between you and Microsoft or, if applicable,
+; see the LICENSE.RTF on your install media or the root of your tools installation.
+; THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+;
+; ---------------------------------------------------------------------------
+; Shell32 registry keys
+; ---------------------------------------------------------------------------
+;
+; We have a  restriction on where the user is allowed
+; to create subfolders.  Active Sync reads this setting and
+; enforces that restriction.
+;
+; @CESYSGEN IF DATASYNC_MODULES_REPLLOG || DATASYNC_MODULES_RAPISRV
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows CE Services]
+        "Version"=dword:20000
+        "PIMRTF"=dword:1
+; @CESYSGEN ENDIF
+
+
+
+
+;;
+;;   Repllog.exe stuff
+;;
+;;
+
+;;  Repllog.exe requires the use of Launch95 init registry value. It must not be used
+;;  elsewhere
+
+; @CESYSGEN IF DATASYNC_MODULES_REPLLOG
+[HKEY_CLASSES_ROOT\CLSID\{F96E0AF6-3BE4-4C5E-ABEF-7A588701F3A2}]
+@="Active Sync Scheduler"
+[HKEY_CLASSES_ROOT\CLSID\{F96E0AF6-3BE4-4C5E-ABEF-7A588701F3A2}\InProcServer32]
+@="ASUtil.dll"
+
+; Stub for ActiveSync registry values
+[HKEY_CLASSES_ROOT\.asy]
+@="ActiveSync"
+[HKEY_CLASSES_ROOT\ActiveSync\Shell\Open\Command]
+@="repllog.exe /remote"
+
+; @CESYSGEN ENDIF DATASYNC_MODULES_REPLLOG
+
+
+;;
+;;  rapiclnt.exe stuff
+;;
+; @CESYSGEN IF DATASYNC_MODULES_RAPICLNT
+
+;AE_DESKTOP_SYNC_START
+[HKEY_LOCAL_MACHINE\Comm\Security\LASSD\AE\{0a4f30c6-e7f6-4129-b8ba-0acf9ffb78b4}]
+; FT_Minutes_Idle
+"AEFrequencyType"=dword:0
+"AEFrequencyValue"=dword:0
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RAPI]
+    "PlatformName"="PocketPC"
+
+; Default Restricted Mode for SECPOLICY_RAPI when RAPICLNT present
+[HKEY_LOCAL_MACHINE\Security\Policies\Policies]
+"00001001"=dword:2
+
+; Default enable SECPOLICY_LASS_DESKTOP_QUICK_CONNECT when RAPICLNT present
+[HKEY_LOCAL_MACHINE\Security\Policies\Policies]
+"00001032"=dword:1
+
+; @CESYSGEN ENDIF DATASYNC_MODULES_RAPICLNT
+
+
+; @CESYSGEN IF DATASYNC_MODULES_RRA_STM
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows CE Services]
+    "NoSubFolderIn"=LOC_NOSUBFOLDERIN
+    "FileSyncPath"=LOC_FILESYNCPATH
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF DATASYNC_MODULES_CEFOBJ
+; Default ActiveSync service providers
+[HKEY_LOCAL_MACHINE\Windows CE Services\Synchronization\Objects\File]
+    "Store"="cefobj.dll"
+; @CESYSGEN ENDIF
+
+
+; @CESYSGEN IF DATASYNC_MODULES_WCELOAD || DATASYNC_MODULES_WCELDCMD
+; BEGIN: AppInstall reg settings
+;
+[HKEY_CLASSES_ROOT\.cab]
+@="cabfile"
+
+[HKEY_CLASSES_ROOT\cabfile]
+@="CAB File"
+
+; @CESYSGEN IF DATASYNC_MODULES_WCELOAD
+[HKEY_CLASSES_ROOT\cabfile\DefaultIcon]
+@="\\Windows\\wceload.exe,-101"
+
+[HKEY_CLASSES_ROOT\cabfile\Shell\Open\Command]
+@="\\Windows\\wceload.exe \"%1\""
+; @CESYSGEN ENDIF
+
+
+; @CESYSGEN IF DATASYNC_MODULES_WCELDCMD
+; @CESYSGEN ENDIF
+
+[HKEY_LOCAL_MACHINE\Software\Apps\Microsoft Application Installer]
+"fAskOptions"=dword:0
+"fAskDest"=dword:1
+"nDynamicDelete"=dword:2
+; END:   AppInstall reg settings
+; @CESYSGEN ENDIF
+
+
+; @CESYSGEN IF DATASYNC_MODULES_UDP2TCP
+[HKEY_LOCAL_MACHINE\Comm\UDP2TCP]
+    "Port"=dword:1D0E
+[HKEY_LOCAL_MACHINE\Comm\UDP2TCP\DNS]
+    "Port"=dword:35
+; @CESYSGEN ENDIF
+
+
+; @CESYSGEN IF DATASYNC_MODULES_TSKSCHSRV
+; @CESYSGEN ENDIF
+
+
+; @CESYSGEN IF DATASYNC_MODULES_ASUTIL
+; ================================================================================
+; # active sync notifications
+
+[HKEY_LOCAL_MACHINE\System\EventLog\Channel\Microsoft-WindowsMobile-SyncStatusEvent-Channel]
+    "ChannelType"=dword:1
+    "DefaultEnable"=dword:1
+    "value"=dword:12
+
+[HKEY_LOCAL_MACHINE\System\EventLog\Channel\Microsoft-WindowsMobile-SyncStatusEvent-Channel\Publishing]
+    "Level"=dword:5
+    "AllKeywordHigh"=dword:0
+    "AllKeywordLow"=dword:0
+    "AnyKeywordHigh"=dword:0
+    "AnyKeywordLow"=dword:0
+    "ClockType"=dword:0
+    "Latency"=dword:2
+    "MaxBuffers"=dword:4000
+
+[HKEY_LOCAL_MACHINE\System\EventLog\Provider\{D5B308C8-27EC-444c-8D1F-D4DB7604E8DA}\Channels]
+    "ChannelNames"=multi_sz:"Microsoft-WindowsMobile-SyncStatusEvent-Channel"
+
+; @CESYSGEN ENDIF DATASYNC_MODULES_ASUTIL

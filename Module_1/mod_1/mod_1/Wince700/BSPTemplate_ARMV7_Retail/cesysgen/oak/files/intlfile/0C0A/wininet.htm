@@ -1,0 +1,92 @@
+<!--
+Copyright (c) Microsoft Corporation.  All rights reserved.
+-->
+<!--
+Use of this sample source code is subject to the terms of the Microsoft
+license agreement under which you licensed this sample source code. If
+you did not accept the terms of the license agreement, you are not
+authorized to use this sample source code. For the terms of the license,
+please see the license agreement between you and Microsoft or, if applicable,
+see the LICENSE.RTF on your install media or the root of your tools installation.
+THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+-->
+<html>
+<body>
+ 
+<!-- Main topic --> <a name="certificate_intro"></a> <h2>Información general sobre certificados</h2>
+
+<p>Un certificado es un justificante digital que contiene información sobre el dispositivo al que acompaña. Por ejemplo, un dispositivo como un servidor Web puede disponer de un certificado que facilite información sobre el mismo. Los certificados válidos se firman por una autoridad certificadora e incluyen información sobre quién autorizó el certificado, sus claves públicas y su fecha de caducidad. </p>
+
+<p>Cuando se conecta a Internet, es importante que confíe en la certificación de los sitios Web que visita. En cuanto a los sitios Web que no sean de confianza o que no se hayan certificado de forma correcta, existe la posibilidad de que dañen la información almacenada en el dispositivo. Si no está seguro, puede consultar el certificado del servidor Web del dispositivo y decidir por sí mismo si es conveniente o no visitar el sitio Web. </p>
+
+<p>Las características de privacidad y seguridad del dispositivo le ayudan a proteger su privacidad y le garantizan que su información personal se mantiene segura. Estas características de privacidad permiten proteger la información identificable individual (PII). Las características le ayudan a controlar la forma en que los sitios Web que visite pueden utilizar su PII. Con los controles de privacidad del dispositivo, también podrá especificar los valores de configuración de privacidad que determinarán qué información se compartirá y almacenará en su dispositivo cuando visite un sitio Web. </p>
+
+ 
+<!-- Sub topic --> <a name="certificates"></a> <h2>Certificados de cliente</h2>
+
+<p>Un certificado de cliente es una declaración digital que comprueba la identidad de un usuario o un dispositivo como, por ejemplo, un PC. Se emiten certificados de cliente para establecer la identidad y facilitar un nivel de autenticación y seguridad para la información intercambiada a través de una gran variedad de dispositivos. Algunos sitios Web exigen la identificación a través de certificados de cliente. Cuando envíe un certificado de cliente a otro equipo, utilizará claves públicas y privadas que le permitirán compartir datos con ese dispositivo de forma segura. Las claves públicas y privadas también contribuyen a evitar que usuarios no autorizados tengan acceso al dispositivo y a su información.</p>
+
+<p>La siguiente lista muestra la información contenida en los certificados:</p>
+
+
+<ul>
+<li>La información de identificación y el valor de la clave pública del individuo</li>
+<li>La información de identificación del emisor</li>
+<li>El período de validez</li>
+<li>La firma digital del emisor</li>
+</ul>
+
+<p>El individuo es la entidad que recibe el certificado mientras que el emisor del certificado se refiere a la autoridad de certificación.</p>
+
+<h3>Certificados raíz y personales</h3>
+
+<p>Puede almacenar dos tipos de certificados en el dispositivo: certificados personales que establecen su identidad y certificados raíz que establecen la identidad de los servidores Web. Por ejemplo, cuando envía información personal a través de Internet, un certificado personal le autentica con el sitio Web que visita, mientras que un certificado raíz le ayuda a proteger la información personal cuando visita el sitio Web.</p>
+
+ 
+<!-- Sub topic --> <a name="privacy"></a> <h2>Información general de privacidad</h2>
+
+<p>Gracias a las características de privacidad del dispositivo, puede proteger su información identificable individual (PII), además de ayudarle a controlar la forma en que utilizarán su PII los sitios Web que visite. Estas características permiten especificar la configuración de privacidad que determinará si desea o no permitir a los sitios Web guardar información en su PC, como por ejemplo cookies.</p>
+
+<h3>Cookies</h3>
+
+<p>Cada vez que visita un sitio Web, éste almacena en su PC un pequeño archivo denominado cookie. El sitio Web crea cookies para almacenar información como, por ejemplo, sus preferencias cuando lo visita. Algunas cookies contienen un registro de las páginas Web que consultó cuando visitó el sitio Web. Este registro sirve para personalizar la presentación de las páginas la próxima vez que lo visite. </p>
+
+<p>Asimismo, las cookies pueden almacenar información identificable individual, como el nombre, la dirección de correo electrónico, la dirección particular y del trabajo o el número de teléfono. Sin embargo, un sitio Web sólo tiene acceso a la información identificable que facilita.</p>
+
+<p>La siguiente lista muestra las características de privacidad del dispositivo:</p>
+
+<ul>
+<li>La configuración de privacidad que especifica la forma en que el PC trata las cookies</li> 
+<li>Las alertas de privacidad gracias a las cuales se le informa de aquellos sitios que no cumplen los criterios de configuración de privacidad cuando intenta obtener acceso a un sitio</li> 
+<li>La capacidad para ver una política de privacidad P3P del sitio Web</li>
+</ul>
+
+<p>Puede utilizar las características de privacidad del dispositivo para limitar el uso de cookies. Sin embargo, dado que un gran número de aplicaciones dependen de la información contenida en las cookies, optar por deshabilitarlas no es siempre la mejor solución. </p>
+
+<h3>Contenido del fabricante frente a contenido de terceros</h3>
+
+<p>El contenido del fabricante contiene información relacionada con el dominio host o el sitio Web que visita. El contenido de terceros se origina a partir de cualquier otro dominio. Por ejemplo, cuando visita un sitio Web que contiene anuncios publicitarios en forma de titulares, el sitio Web que visita se considera contenido del fabricante mientras que estos anuncios serán contenido de terceros. </p>
+
+<p>Un gran número de páginas Web comerciales utilizan una combinación de cookies del fabricante o de terceros para recopilar y retransmitir datos relevantes a estas páginas. Las características de privacidad del dispositivo distinguen entre contenido del fabricante y de terceros, por lo que establecen una relación distinta según el tipo de contenido de que se trate. De hecho, la configuración de privacidad predeterminada para el contenido de terceros es más estricta que para el contenido del fabricante. A través de la configuración de privacidad del dispositivo basado en Windows Embedded Compact se pueden desactivar cookies de terceros y activar cookies del fabricante, o bien, mostrar un mensaje al usuario para que éste decida si desea activarlas o desactivarlas. </p>
+
+
+<!-- Sub topic --> <a name="security"></a> <h2>Información general sobre seguridad</h2>
+
+<p>Las características de seguridad del dispositivo contribuyen a evitar el acceso a información no autorizada como, por ejemplo, los datos de la tarjeta de crédito que utiliza al comprar en Internet. Asimismo, las características de seguridad pueden proteger su PC o dispositivo inalámbrico de software no seguro.</p>
+
+<p>También puede explorar de forma segura los sitios Web que visite y que utilicen el protocolo de transferencias de hipertexto HTPPS a través de nivel de socket seguro. HTTPS es un protocolo de comunicaciones Web seguro que cifra los datos enviados a través de cualquier conexión que lo utilice. Los datos cifrados que utilicen HTTPS no se pueden interceptar ni descifrar por terceros.</p>
+
+
+<h3>Alertas de seguridad</h3>
+
+<p>Se podrán mostrar alertas de seguridad cuando se den las siguientes circunstancias:</p>
+
+<ul>
+<li>El servidor Web al que se conecta contiene un certificado de servidor no válido</li>
+<li>El servidor Web al que se conecta contiene distintos niveles de seguridad (datos seguros e inseguros)</li>
+<li>El usuario va a dejar una conexión segura</li>
+</ul>
+
+
+</body>
+</html>

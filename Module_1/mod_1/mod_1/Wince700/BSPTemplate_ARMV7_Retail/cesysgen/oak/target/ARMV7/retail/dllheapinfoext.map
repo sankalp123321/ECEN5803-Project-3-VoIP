@@ -1,0 +1,353 @@
+ DllHeapInfoExt
+
+ Timestamp is 5ac64a2b (Thu Apr 05 09:09:15 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 00000c60H .rdata                  CODE
+ 0001:00000c80 0000002bH .rdata$debug            CODE
+ 0001:00000cac 000059fcH .text                   CODE
+ 0001:000066a8 0000003cH .xdata                  CODE
+ 0001:000066e4 00000028H .idata$2                CODE
+ 0001:0000670c 00000014H .idata$3                CODE
+ 0001:00006720 00000084H .idata$4                CODE
+ 0001:000067a4 000000d2H .idata$6                CODE
+ 0001:00006880 00000052H .edata                  CODE
+ 0002:00000000 00000084H .idata$5                DATA
+ 0002:00000084 00000008H .data                   DATA
+ 0002:0000008c 00000014H .bss                    DATA
+ 0003:00000000 00000590H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:0000003c       ??_C@_13HGPDMIBE@?$AA?$DP?$AA?$AA@ 1000103c     ShellExtMain.obj
+ 0001:00000040       ??_C@_1BC@ELIFHPPF@?$AAh?$AAe?$AAa?$AAp?$AAi?$AAn?$AAf?$AAo?$AA?$AA@ 10001040     ShellExtMain.obj
+ 0001:00000054       ??_C@_1BE@DHAJNCNB@?$AAa?$AAl?$AAl?$AAo?$AAc?$AAl?$AAi?$AAs?$AAt?$AA?$AA@ 10001054     ShellExtMain.obj
+ 0001:00000068       ??_C@_1BI@GFFCCJPK@?$AAd?$AAl?$AAl?$AAh?$AAe?$AAa?$AAp?$AAi?$AAn?$AAf?$AAo?$AA?$AA@ 10001068     ShellExtMain.obj
+ 0001:000000a0       ??_7Logger@@6B@            100010a0     ShellExtMain.obj
+ 0001:000000b0       ??_C@_15GANGMFKL@?$AA?$CF?$AAs?$AA?$AA@ 100010b0     ShellExtMain.obj
+ 0001:000000b8       ??_C@_1HM@KHIGMGKC@?$AA?5?$AAd?$AAl?$AAl?$AAh?$AAe?$AAa?$AAp?$AAi?$AAn?$AAf?$AAo?$AA?5?$AA?$FL?$AA?$DM?$AAp?$AAr?$AAo?$AAc?$AA?$DO?$AA?$FN?$AA?5?$AA?3?$AA?5?$AAD?$AAi?$AAs?$AAp?$AAl?$AAa?$AAy?$AA?5@ 100010b8     ShellExtMain.obj
+ 0001:00000138       ??_C@_1IK@MIDCJFIK@?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?$DM?$AAp?$AAr?$AAo?$AAc?$AA?$DO?$AA?5?$AA?3?$AA?5?$AAC?$AAa?$AAn?$AA?5?$AAb?$AAe?$AA?5?$AAP?$AAI?$AAD?$AA?0?$AA?5?$AAp?$AAr?$AAo?$AAc?$AAe?$AAs@ 10001138     ShellExtMain.obj
+ 0001:000001c8       ??_C@_1GO@IJMNONBP@?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AAU?$AAs?$AAe?$AA?5?$AAq?$AAu?$AAo?$AAt?$AAe?$AAs?$AA?5?$AAf?$AAo?$AAr?$AA?5?$AAn?$AAa?$AAm@ 100011c8     ShellExtMain.obj
+ 0001:00000238       ??_C@_1HM@MFOPIIMN@?$AA?5?$AAa?$AAl?$AAl?$AAo?$AAc?$AAl?$AAi?$AAs?$AAt?$AA?5?$AA?$FL?$AA?$DM?$AAp?$AAr?$AAo?$AAc?$AA?$DO?$AA?$FN?$AA?5?$AA?3?$AA?5?$AAD?$AAi?$AAs?$AAp?$AAl?$AAa?$AAy?$AA?5?$AAh?$AAe@ 10001238     ShellExtMain.obj
+ 0001:000002b8       ??_C@_1JI@FBLNLAMM@?$AA?5?$AAh?$AAe?$AAa?$AAp?$AAi?$AAn?$AAf?$AAo?$AA?5?$AA?3?$AA?5?$AAD?$AAi?$AAs?$AAp?$AAl?$AAa?$AAy?$AA?5?$AAh?$AAe?$AAa?$AAp?$AA?5?$AAa?$AAl?$AAl?$AAo?$AAc?$AAa?$AAt@ 100012b8     ShellExtMain.obj
+ 0001:00000350       ??_C@_15JNBOKNOG@?$AA?$AN?$AA?6?$AA?$AA@ 10001350     ShellExtMain.obj
+ 0001:00000358       ??_7ShellExtLogger@@6B@    10001358     ShellExtMain.obj
+ 0001:00000368       ??_C@_17IIFKAHCJ@?$AAa?$AAl?$AAl?$AA?$AA@ 10001368     ShellExtMain.obj
+ 0001:00000370       ??_7HeapLog@@6B@           10001370     HeapInfo_lib:HeapLog.obj
+ 0001:00000530       ??_7ModuleEntry@@6B@       10001530     HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00000534       ??_7HeapEntry@@6B@         10001534     HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00000538       ??_7?$PtrList@VModuleEntry@@@@6B@ 10001538     HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00000570       ??_7?$PtrList@VHeapEntry@@@@6B@ 10001570     HeapInfo_lib:HeapAllocInfo.obj
+ 0001:000005a8       ??_7?$PtrList@VProcessEntry@@@@6B@ 100015a8     HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00000614       ??_7ProcessEntry@@6B@      10001614     HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00000654       ??_7HeapAllocInfo@@6B@     10001654     HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00000730       ??_7HeapLogFormatter@@6B@  10001730     HeapInfo_lib:TextFormatter.obj
+ 0001:00000774       ??_7TextFormatter@@6B@     10001774     HeapInfo_lib:TextFormatter.obj
+ 0001:00000788       ??_C@_1JA@LFKKIKCA@?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN@ 10001788     HeapInfo_lib:TextFormatter.obj
+ 0001:00000818       ??_C@_1DM@BMLGAHMM@?$AA?5?$AA?5?$AA?$CF?$AA7?$AAd?$AA?5?$AA?5?$AA?5?$AA?$CF?$AA1?$AA0?$AAd?$AA?5?$AA?5?$AA?5?$AA?5?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAx?$AA?5?$AA?5?$AA?5?$AA?5?$AA?$CF?$AAs?$AA?6?$AA?$AA@ 10001818     HeapInfo_lib:TextFormatter.obj
+ 0001:00000854       ??_C@_1DO@MIJIIOHA@?$AA?5?$AAH?$AAe?$AAa?$AAp?$AA?5?$AAa?$AAl?$AAl?$AAo?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AAs?$AA?5?$AAb?$AAy?$AA?5?$AAp?$AAr?$AAo?$AAc?$AAe?$AAs?$AAs?$AA?3?$AA?6?$AA?$AA@ 10001854     HeapInfo_lib:TextFormatter.obj
+ 0001:00000894       ??_C@_13LBAGMAIH@?$AA?6?$AA?$AA@ 10001894     HeapInfo_lib:TextFormatter.obj
+ 0001:00000898       ??_C@_1FM@LMKHMKBA@?$AA?5?$AA?5?$AA?$CD?$AA?5?$AAI?$AAt?$AAe?$AAm?$AAs?$AA?5?$AA?5?$AA?5?$AAT?$AAo?$AAt?$AAa?$AAl?$AA?5?$AAS?$AAi?$AAz?$AAe?$AA?5?$AA?5?$AA?5?$AA?5?$AAP?$AAI?$AAD?$AA?5?$AA?5?$AA?5@ 10001898     HeapInfo_lib:TextFormatter.obj
+ 0001:000008f8       ??_C@_1GA@GEKGNFKC@?$AA?5?$AA?5?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9@ 100018f8     HeapInfo_lib:TextFormatter.obj
+ 0001:00000958       ??_C@_1CI@DPJHJCDB@?$AA?5?$AA?5?$AA?$CF?$AA7?$AAd?$AA?5?$AA?5?$AA?5?$AA?$CF?$AA1?$AA0?$AAd?$AA?5?$AA?5?$AA?5?$AA?5?$AA?$CF?$AAs?$AA?6?$AA?$AA@ 10001958     HeapInfo_lib:TextFormatter.obj
+ 0001:00000980       ??_C@_1GM@CIHMKFCB@?$AA?5?$AAT?$AAo?$AAt?$AAa?$AAl?$AA?5?$AAh?$AAe?$AAa?$AAp?$AA?5?$AAa?$AAl?$AAl?$AAo?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AAs?$AA?5?$AAb?$AAy?$AA?5?$AAm?$AAo?$AAd?$AAu?$AAl@ 10001980     HeapInfo_lib:TextFormatter.obj
+ 0001:000009f0       ??_C@_1EE@CNIILICG@?$AA?5?$AA?5?$AA?$CD?$AA?5?$AAI?$AAt?$AAe?$AAm?$AAs?$AA?5?$AA?5?$AA?5?$AAT?$AAo?$AAt?$AAa?$AAl?$AA?5?$AAS?$AAi?$AAz?$AAe?$AA?5?$AA?5?$AA?5?$AA?5?$AAM?$AAo?$AAd?$AAu?$AAl?$AAe@ 100019f0     HeapInfo_lib:TextFormatter.obj
+ 0001:00000a38       ??_C@_1EM@INIHJFNM@?$AA?5?$AA?5?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9@ 10001a38     HeapInfo_lib:TextFormatter.obj
+ 0001:00000a84       ??_C@_1CA@NEKBNGDG@?$AAU?$AAn?$AAk?$AAn?$AAo?$AAw?$AAn?$AA?1?$AAP?$AAr?$AAo?$AAc?$AAe?$AAs?$AAs?$AA?$AA@ 10001a84     HeapInfo_lib:TextFormatter.obj
+ 0001:00000aa4       ??_C@_1DM@PKCIKEIP@?$AA?5?$AAH?$AAe?$AAa?$AAp?$AA?5?$AAa?$AAl?$AAl?$AAo?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AAs?$AA?5?$AAb?$AAy?$AA?5?$AAm?$AAo?$AAd?$AAu?$AAl?$AAe?$AA?3?$AA?6?$AA?$AA@ 10001aa4     HeapInfo_lib:TextFormatter.obj
+ 0001:00000ae0       ??_C@_1DA@BNNGAEIO@?$AA?5?$AA?5?$AA?$CF?$AA7?$AAd?$AA?5?$AA?5?$AA?5?$AA?$CF?$AA1?$AA0?$AAd?$AA?5?$AA?5?$AA?5?$AA?5?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAx?$AA?6?$AA?$AA@ 10001ae0     HeapInfo_lib:TextFormatter.obj
+ 0001:00000b10       ??_C@_1EM@KFHAKOKB@?$AA?5?$AA?5?$AA?$CF?$AA7?$AAd?$AA?5?$AA?5?$AA?5?$AA?$CF?$AA1?$AA0?$AAd?$AA?5?$AA?5?$AA?5?$AA?5?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAx?$AA?5?$AA?$CI?$AA?$CF?$AAs?$AA?5?$AA?$CL?$AA?5?$AA0?$AAx?$AA?$CF@ 10001b10     HeapInfo_lib:TextFormatter.obj
+ 0001:00000b60       ??_C@_1EC@MJOJLPLB@?$AA?5?$AAH?$AAe?$AAa?$AAp?$AA?5?$AAa?$AAl?$AAl?$AAo?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AAs?$AA?5?$AAb?$AAy?$AA?5?$AAa?$AAl?$AAl?$AAo?$AAc?$AAa?$AAt?$AAo?$AAr?$AA?3?$AA?6@ 10001b60     HeapInfo_lib:TextFormatter.obj
+ 0001:00000ba8       ??_C@_1EK@DLDKPIPG@?$AA?5?$AA?5?$AA?$CD?$AA?5?$AAI?$AAt?$AAe?$AAm?$AAs?$AA?5?$AA?5?$AA?5?$AAT?$AAo?$AAt?$AAa?$AAl?$AA?5?$AAS?$AAi?$AAz?$AAe?$AA?5?$AA?5?$AA?5?$AA?5?$AAA?$AAl?$AAl?$AAo?$AAc?$AAa@ 10001ba8     HeapInfo_lib:TextFormatter.obj
+ 0001:00000bf8       ??_C@_1FM@BALDGPBA@?$AAP?$AAI?$AAD?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AAN?$AAa?$AAm?$AAe?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5@ 10001bf8     HeapInfo_lib:TextFormatter.obj
+ 0001:00000c54       ??_C@_1CG@NIFGPLC@?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAx?$AA?5?$AA?5?$AA?5?$AA?$CF?$AA?9?$AA2?$AA0?$AAs?$AA?5?$AA?$CF?$AAd?$AA?6?$AA?$AA@ 10001c54     HeapInfo_lib:TextFormatter.obj
+ 0001:00000c7c       ??_7ToolHelpSnap@@6B@      10001c7c     HeapInfo_lib:ToolHelpSnap.obj
+ 0001:00000cac       ??_ELogger@@UAAPAXI@Z      10001cac f i ShellExtMain.obj
+ 0001:00000cac       ??_GLogger@@UAAPAXI@Z      10001cac f i ShellExtMain.obj
+ 0001:00000cd0       ?LogMsg@ShellExtLogger@@UAAJPBG@Z 10001cd0 f   ShellExtMain.obj
+ 0001:00000d74       DllMain                    10001d74 f   ShellExtMain.obj
+ 0001:00000d88       ?BeginLog@ShellExtLogger@@UAAJXZ 10001d88 f i ShellExtMain.obj
+ 0001:00000d90       ?EndLog@ShellExtLogger@@UAAJXZ 10001d90 f i ShellExtMain.obj
+ 0001:00000d98       ??_GShellExtLogger@@UAAPAXI@Z 10001d98 f i ShellExtMain.obj
+ 0001:00000d98       ??_EShellExtLogger@@UAAPAXI@Z 10001d98 f i ShellExtMain.obj
+ 0001:00001144       ParseCommand               10002144 f   ShellExtMain.obj
+ 0001:000011cc       ?CmdLineToArgs@@YAJPAGPAHQAPAG@Z 100021cc f   Utils.obj
+ 0001:000012d8       DisableThreadLibraryCalls  100022d8 f   coredll:COREDLL.dll
+ 0001:000013cc       ??1HeapLog@@UAA@XZ         100023cc f   HeapInfo_lib:HeapLog.obj
+ 0001:00001438       ??$_Allocate@U_HEAPBLOCK@@@std@@YAPAU_HEAPBLOCK@@IPAU1@@Z 10002438 f i HeapInfo_lib:HeapLog.obj
+ 0001:00001480       ??$_Allocate@PAVProcessEntry@@@std@@YAPAPAVProcessEntry@@IPAPAV1@@Z 10002480 f i HeapInfo_lib:HeapLog.obj
+ 0001:000014c8       ??$_Allocate@U_AGGREGATEMODULEBUCKET@@@std@@YAPAU_AGGREGATEMODULEBUCKET@@IPAU1@@Z 100024c8 f i HeapInfo_lib:HeapLog.obj
+ 0001:00001514       ??$_Allocate@U_ALLOCBUCKET@@@std@@YAPAU_ALLOCBUCKET@@IPAU1@@Z 10002514 f i HeapInfo_lib:HeapLog.obj
+ 0001:0000155c       ??$_Allocate@U_MODULEBUCKET@@@std@@YAPAU_MODULEBUCKET@@IPAU1@@Z 1000255c f i HeapInfo_lib:HeapLog.obj
+ 0001:000015a8       ??$_Unguarded_insert@PAPAVProcessEntry@@PAV1@P6A_NAAPAV1@0@Z@std@@YAXPAPAVProcessEntry@@PAV1@P6A_NAAPAV1@2@Z@Z 100025a8 f i HeapInfo_lib:HeapLog.obj
+ 0001:00001600       ??$_Unguarded_insert@PAU_MODULEBUCKET@@U1@P6A_NABU1@0@Z@std@@YAXPAU_MODULEBUCKET@@U1@P6A_NABU1@2@Z@Z 10002600 f i HeapInfo_lib:HeapLog.obj
+ 0001:00001680       ??$_Unguarded_insert@PAU_AGGREGATEMODULEBUCKET@@U1@P6A_NABU1@0@Z@std@@YAXPAU_AGGREGATEMODULEBUCKET@@U1@P6A_NABU1@2@Z@Z 10002680 f i HeapInfo_lib:HeapLog.obj
+ 0001:00001710       ??$_Unguarded_insert@PAU_HEAPBLOCK@@U1@P6A_NABU1@0@Z@std@@YAXPAU_HEAPBLOCK@@U1@P6A_NABU1@2@Z@Z 10002710 f i HeapInfo_lib:HeapLog.obj
+ 0001:00001778       ??$_Unguarded_insert@PAU_ALLOCBUCKET@@U1@P6A_NABU1@0@Z@std@@YAXPAU_ALLOCBUCKET@@U1@P6A_NABU1@2@Z@Z 10002778 f i HeapInfo_lib:HeapLog.obj
+ 0001:00001800       ??$_Insertion_sort_1@PAPAVProcessEntry@@PAV1@P6A_NAAPAV1@0@Z@std@@YAXPAPAVProcessEntry@@0P6A_NAAPAV1@1@Z0@Z 10002800 f i HeapInfo_lib:HeapLog.obj
+ 0001:0000188c       ??$_Median@PAVProcessEntry@@P6A_NAAPAV1@0@Z@std@@YAPAVProcessEntry@@PAV1@00P6A_NAAPAV1@1@Z@Z 1000288c f i HeapInfo_lib:HeapLog.obj
+ 0001:00001918       ??$_Insertion_sort_1@PAU_MODULEBUCKET@@U1@P6A_NABU1@0@Z@std@@YAXPAU_MODULEBUCKET@@0P6A_NABU1@1@Z0@Z 10002918 f i HeapInfo_lib:HeapLog.obj
+ 0001:000019e0       ??$_Median@U_MODULEBUCKET@@P6A_NABU1@0@Z@std@@YA?AU_MODULEBUCKET@@U1@00P6A_NABU1@1@Z@Z 100029e0 f i HeapInfo_lib:HeapLog.obj
+ 0001:00001a94       ??$_Insertion_sort_1@PAU_AGGREGATEMODULEBUCKET@@U1@P6A_NABU1@0@Z@std@@YAXPAU_AGGREGATEMODULEBUCKET@@0P6A_NABU1@1@Z0@Z 10002a94 f i HeapInfo_lib:HeapLog.obj
+ 0001:00001b80       ??$_Median@U_AGGREGATEMODULEBUCKET@@P6A_NABU1@0@Z@std@@YA?AU_AGGREGATEMODULEBUCKET@@U1@00P6A_NABU1@1@Z@Z 10002b80 f i HeapInfo_lib:HeapLog.obj
+ 0001:00001c88       ??$_Insertion_sort_1@PAU_HEAPBLOCK@@U1@P6A_NABU1@0@Z@std@@YAXPAU_HEAPBLOCK@@0P6A_NABU1@1@Z0@Z 10002c88 f i HeapInfo_lib:HeapLog.obj
+ 0001:00001d34       ??$_Median@U_HEAPBLOCK@@P6A_NABU1@0@Z@std@@YA?AU_HEAPBLOCK@@U1@00P6A_NABU1@1@Z@Z 10002d34 f i HeapInfo_lib:HeapLog.obj
+ 0001:00001ddc       ??$_Insertion_sort_1@PAU_ALLOCBUCKET@@U1@P6A_NABU1@0@Z@std@@YAXPAU_ALLOCBUCKET@@0P6A_NABU1@1@Z0@Z 10002ddc f i HeapInfo_lib:HeapLog.obj
+ 0001:00001ec4       ??$_Median@U_ALLOCBUCKET@@P6A_NABU1@0@Z@std@@YA?AU_ALLOCBUCKET@@U1@00P6A_NABU1@1@Z@Z 10002ec4 f i HeapInfo_lib:HeapLog.obj
+ 0001:00001f88       ??_EHeapLog@@UAAPAXI@Z     10002f88 f i HeapInfo_lib:HeapLog.obj
+ 0001:00001f88       ??_GHeapLog@@UAAPAXI@Z     10002f88 f i HeapInfo_lib:HeapLog.obj
+ 0001:00001fac       ?CaptureHeapAllocInfo@HeapLog@@QAAJXZ 10002fac f   HeapInfo_lib:HeapLog.obj
+ 0001:00001fd8       ?Init@HeapLog@@QAAJPAULogger@@@Z 10002fd8 f   HeapInfo_lib:HeapLog.obj
+ 0001:0000202c       ??$_Unguarded_partition@PAPAVProcessEntry@@PAV1@P6A_NAAPAV1@0@Z@std@@YAPAPAVProcessEntry@@PAPAV1@0PAV1@P6A_NAAPAV1@2@Z@Z 1000302c f i HeapInfo_lib:HeapLog.obj
+ 0001:000020a4       ??$_Unguarded_partition@PAU_MODULEBUCKET@@U1@P6A_NABU1@0@Z@std@@YAPAU_MODULEBUCKET@@PAU1@0U1@P6A_NABU1@2@Z@Z 100030a4 f i HeapInfo_lib:HeapLog.obj
+ 0001:0000214c       ??$_Unguarded_partition@PAU_AGGREGATEMODULEBUCKET@@U1@P6A_NABU1@0@Z@std@@YAPAU_AGGREGATEMODULEBUCKET@@PAU1@0U1@P6A_NABU1@2@Z@Z 1000314c f i HeapInfo_lib:HeapLog.obj
+ 0001:00002228       ??$_Unguarded_partition@PAU_HEAPBLOCK@@U1@P6A_NABU1@0@Z@std@@YAPAU_HEAPBLOCK@@PAU1@0U1@P6A_NABU1@2@Z@Z 10003228 f i HeapInfo_lib:HeapLog.obj
+ 0001:000022b8       ??$_Unguarded_partition@PAU_ALLOCBUCKET@@U1@P6A_NABU1@0@Z@std@@YAPAU_ALLOCBUCKET@@PAU1@0U1@P6A_NABU1@2@Z@Z 100032b8 f i HeapInfo_lib:HeapLog.obj
+ 0001:0000236c       ?CreateHeapLog@@YAJPAULogger@@PAPAVHeapLog@@@Z 1000336c f   HeapInfo_lib:HeapLog.obj
+ 0001:00002430       ??1?$vector@U_HEAPBLOCK@@V?$allocator@U_HEAPBLOCK@@@std@@@std@@QAA@XZ 10003430 f i HeapInfo_lib:HeapLog.obj
+ 0001:00002454       ??1?$vector@PAVProcessEntry@@V?$allocator@PAVProcessEntry@@@std@@@std@@QAA@XZ 10003454 f i HeapInfo_lib:HeapLog.obj
+ 0001:00002478       ??1?$vector@U_AGGREGATEMODULEBUCKET@@V?$allocator@U_AGGREGATEMODULEBUCKET@@@std@@@std@@QAA@XZ 10003478 f i HeapInfo_lib:HeapLog.obj
+ 0001:0000249c       ??1?$vector@U_ALLOCBUCKET@@V?$allocator@U_ALLOCBUCKET@@@std@@@std@@QAA@XZ 1000349c f i HeapInfo_lib:HeapLog.obj
+ 0001:000024c0       ??1?$vector@U_MODULEBUCKET@@V?$allocator@U_MODULEBUCKET@@@std@@@std@@QAA@XZ 100034c0 f i HeapInfo_lib:HeapLog.obj
+ 0001:000024e4       ?insert@?$vector@U_HEAPBLOCK@@V?$allocator@U_HEAPBLOCK@@@std@@@std@@QAAXPAU_HEAPBLOCK@@IABU3@@Z 100034e4 f i HeapInfo_lib:HeapLog.obj
+ 0001:00002760       ?insert@?$vector@PAVProcessEntry@@V?$allocator@PAVProcessEntry@@@std@@@std@@QAAXPAPAVProcessEntry@@IABQAV3@@Z 10003760 f i HeapInfo_lib:HeapLog.obj
+ 0001:00002984       ?insert@?$vector@U_AGGREGATEMODULEBUCKET@@V?$allocator@U_AGGREGATEMODULEBUCKET@@@std@@@std@@QAAXPAU_AGGREGATEMODULEBUCKET@@IABU3@@Z 10003984 f i HeapInfo_lib:HeapLog.obj
+ 0001:00002c90       ?insert@?$vector@U_ALLOCBUCKET@@V?$allocator@U_ALLOCBUCKET@@@std@@@std@@QAAXPAU_ALLOCBUCKET@@IABU3@@Z 10003c90 f i HeapInfo_lib:HeapLog.obj
+ 0001:00002f9c       ?insert@?$vector@U_MODULEBUCKET@@V?$allocator@U_MODULEBUCKET@@@std@@@std@@QAAXPAU_MODULEBUCKET@@IABU3@@Z 10003f9c f i HeapInfo_lib:HeapLog.obj
+ 0001:000032b8       ??$_Sort@PAPAVProcessEntry@@PAV1@P6A_NAAPAV1@0@Z@std@@YAXPAPAVProcessEntry@@0P6A_NAAPAV1@1@Z0@Z 100042b8 f i HeapInfo_lib:HeapLog.obj
+ 0001:00003354       ??$_Sort@PAU_MODULEBUCKET@@U1@P6A_NABU1@0@Z@std@@YAXPAU_MODULEBUCKET@@0P6A_NABU1@1@Z0@Z 10004354 f i HeapInfo_lib:HeapLog.obj
+ 0001:00003470       ??$_Sort@PAU_AGGREGATEMODULEBUCKET@@U1@P6A_NABU1@0@Z@std@@YAXPAU_AGGREGATEMODULEBUCKET@@0P6A_NABU1@1@Z0@Z 10004470 f i HeapInfo_lib:HeapLog.obj
+ 0001:000035a0       ??$_Sort@PAU_HEAPBLOCK@@U1@P6A_NABU1@0@Z@std@@YAXPAU_HEAPBLOCK@@0P6A_NABU1@1@Z0@Z 100045a0 f i HeapInfo_lib:HeapLog.obj
+ 0001:00003668       ??$_Sort@PAU_ALLOCBUCKET@@U1@P6A_NABU1@0@Z@std@@YAXPAU_ALLOCBUCKET@@0P6A_NABU1@1@Z0@Z 10004668 f i HeapInfo_lib:HeapLog.obj
+ 0001:0000378c       ?insert@?$vector@U_AGGREGATEMODULEBUCKET@@V?$allocator@U_AGGREGATEMODULEBUCKET@@@std@@@std@@QAAPAU_AGGREGATEMODULEBUCKET@@PAU3@ABU3@@Z 1000478c f i HeapInfo_lib:HeapLog.obj
+ 0001:000037d0       ?insert@?$vector@U_MODULEBUCKET@@V?$allocator@U_MODULEBUCKET@@@std@@@std@@QAAPAU_MODULEBUCKET@@PAU3@ABU3@@Z 100047d0 f i HeapInfo_lib:HeapLog.obj
+ 0001:00003814       ??$_Sort_0@PAPAVProcessEntry@@PAV1@P6A_NAAPAV1@0@Z@std@@YAXPAPAVProcessEntry@@0P6A_NAAPAV1@1@Z0@Z 10004814 f i HeapInfo_lib:HeapLog.obj
+ 0001:0000387c       ??$_Sort_0@PAU_MODULEBUCKET@@U1@P6A_NABU1@0@Z@std@@YAXPAU_MODULEBUCKET@@0P6A_NABU1@1@Z0@Z 1000487c f i HeapInfo_lib:HeapLog.obj
+ 0001:0000390c       ??$_Sort_0@PAU_AGGREGATEMODULEBUCKET@@U1@P6A_NABU1@0@Z@std@@YAXPAU_AGGREGATEMODULEBUCKET@@0P6A_NABU1@1@Z0@Z 1000490c f i HeapInfo_lib:HeapLog.obj
+ 0001:000039ac       ??$_Sort_0@PAU_HEAPBLOCK@@U1@P6A_NABU1@0@Z@std@@YAXPAU_HEAPBLOCK@@0P6A_NABU1@1@Z0@Z 100049ac f i HeapInfo_lib:HeapLog.obj
+ 0001:00003a18       ??$_Sort_0@PAU_ALLOCBUCKET@@U1@P6A_NABU1@0@Z@std@@YAXPAU_ALLOCBUCKET@@0P6A_NABU1@1@Z0@Z 10004a18 f i HeapInfo_lib:HeapLog.obj
+ 0001:00003aa0       ?GenerateSummaryProcessLog@HeapLog@@AAAJPAV?$vector@PAVProcessEntry@@V?$allocator@PAVProcessEntry@@@std@@@std@@@Z 10004aa0 f   HeapInfo_lib:HeapLog.obj
+ 0001:00003b50       ?GenerateProcessLog@HeapLog@@AAAJPAVProcessEntry@@PAV?$vector@U_ALLOCBUCKET@@V?$allocator@U_ALLOCBUCKET@@@std@@@std@@PAV?$vector@U_MODULEBUCKET@@V?$allocator@U_MODULEBUCKET@@@std@@@4@PAU_MODULEBUCKET@@@Z 10004b50 f   HeapInfo_lib:HeapLog.obj
+ 0001:00003f7c       ?CreateSummaryProcessLog@HeapLog@@QAAJXZ 10004f7c f   HeapInfo_lib:HeapLog.obj
+ 0001:00004024       ?CreateDetailedProcessLog@HeapLog@@AAAJPAVProcessEntry@@HH@Z 10005024 f   HeapInfo_lib:HeapLog.obj
+ 0001:00004198       ?GenerateAggregateModuleLog@HeapLog@@AAAJPAV?$vector@U_AGGREGATEMODULEBUCKET@@V?$allocator@U_AGGREGATEMODULEBUCKET@@@std@@@std@@PAU_AGGREGATEMODULEBUCKET@@@Z 10005198 f   HeapInfo_lib:HeapLog.obj
+ 0001:00004528       ?CreateAggregateModuleLog@HeapLog@@QAAJXZ 10005528 f   HeapInfo_lib:HeapLog.obj
+ 0001:00004600       ?CreateDetailedProcessLogForAllProcs@HeapLog@@QAAJHH@Z 10005600 f   HeapInfo_lib:HeapLog.obj
+ 0001:000046b4       ?CreateDetailedProcessLogByProcId@HeapLog@@QAAJHHK@Z 100056b4 f   HeapInfo_lib:HeapLog.obj
+ 0001:00004778       ?CreateDetailedProcessLogByProcName@HeapLog@@QAAJHHPBG@Z 10005778 f   HeapInfo_lib:HeapLog.obj
+ 0001:0000485c       ?GetAllocBlocks@HeapEntry@@QAAPAV?$vector@U_HEAPBLOCK@@V?$allocator@U_HEAPBLOCK@@@std@@@std@@XZ 1000585c f   HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00004864       ??0ModuleEntry@@QAA@AAUtagMODULEENTRY32@@@Z 10005864 f   HeapInfo_lib:HeapAllocInfo.obj
+ 0001:000048a4       ?GetModuleName@ModuleEntry@@QAAPBGXZ 100058a4 f   HeapInfo_lib:HeapAllocInfo.obj
+ 0001:000048ac       ?GetBaseAddr@ModuleEntry@@QAAPAEXZ 100058ac f   HeapInfo_lib:HeapAllocInfo.obj
+ 0001:000048b4       ?GetBaseSize@ModuleEntry@@QAAKXZ 100058b4 f   HeapInfo_lib:HeapAllocInfo.obj
+ 0001:000048bc       ?GetAllocSize@ProcessEntry@@QAAKXZ 100058bc f   HeapInfo_lib:HeapAllocInfo.obj
+ 0001:000048c4       ?GetNumBlocks@ProcessEntry@@QAAKXZ 100058c4 f   HeapInfo_lib:HeapAllocInfo.obj
+ 0001:000048cc       ?GetProcName@ProcessEntry@@QAAPBGXZ 100058cc f   HeapInfo_lib:HeapAllocInfo.obj
+ 0001:000048d4       ?GetProcId@ProcessEntry@@QAAKXZ 100058d4 f   HeapInfo_lib:HeapAllocInfo.obj
+ 0001:000048dc       ?GetHeapList@ProcessEntry@@QAAPAV?$PtrList@VHeapEntry@@@@XZ 100058dc f   HeapInfo_lib:HeapAllocInfo.obj
+ 0001:000048e4       ?GetModuleList@ProcessEntry@@QAAPAV?$PtrList@VModuleEntry@@@@XZ 100058e4 f   HeapInfo_lib:HeapAllocInfo.obj
+ 0001:000048ec       ?IsCaptured@HeapAllocInfo@@QAAHXZ 100058ec f   HeapInfo_lib:HeapAllocInfo.obj
+ 0001:000048f4       ?GetProcessList@HeapAllocInfo@@QAAPAV?$PtrList@VProcessEntry@@@@XZ 100058f4 f   HeapInfo_lib:HeapAllocInfo.obj
+ 0001:000048fc       ??_GModuleEntry@@UAAPAXI@Z 100058fc f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:000048fc       ??_EModuleEntry@@UAAPAXI@Z 100058fc f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00004920       ?erase@?$list@PAVModuleEntry@@V?$allocator@PAVModuleEntry@@@std@@@std@@QAA?AViterator@12@V312@@Z 10005920 f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00004980       ?erase@?$list@PAVHeapEntry@@V?$allocator@PAVHeapEntry@@@std@@@std@@QAA?AViterator@12@V312@@Z 10005980 f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:000049e0       ?erase@?$list@PAVProcessEntry@@V?$allocator@PAVProcessEntry@@@std@@@std@@QAA?AViterator@12@V312@@Z 100059e0 f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00004a40       ?insert@?$list@PAVModuleEntry@@V?$allocator@PAVModuleEntry@@@std@@@std@@QAA?AViterator@12@V312@ABQAVModuleEntry@@@Z 10005a40 f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00004ab0       ?insert@?$list@PAVHeapEntry@@V?$allocator@PAVHeapEntry@@@std@@@std@@QAA?AViterator@12@V312@ABQAVHeapEntry@@@Z 10005ab0 f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00004b20       ?insert@?$list@PAVProcessEntry@@V?$allocator@PAVProcessEntry@@@std@@@std@@QAA?AViterator@12@V312@ABQAVProcessEntry@@@Z 10005b20 f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00004b90       ?erase@?$list@PAVModuleEntry@@V?$allocator@PAVModuleEntry@@@std@@@std@@QAA?AViterator@12@V312@0@Z 10005b90 f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00004be8       ?erase@?$list@PAVHeapEntry@@V?$allocator@PAVHeapEntry@@@std@@@std@@QAA?AViterator@12@V312@0@Z 10005be8 f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00004c40       ?erase@?$list@PAVProcessEntry@@V?$allocator@PAVProcessEntry@@@std@@@std@@QAA?AViterator@12@V312@0@Z 10005c40 f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00004c98       ??1HeapEntry@@UAA@XZ       10005c98 f   HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00004cc8       ?clear@?$PtrList@VModuleEntry@@@@QAAXXZ 10005cc8 f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00004d20       ??1?$list@PAVModuleEntry@@V?$allocator@PAVModuleEntry@@@std@@@std@@QAA@XZ 10005d20 f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00004d58       ?clear@?$PtrList@VHeapEntry@@@@QAAXXZ 10005d58 f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00004db0       ??1?$list@PAVHeapEntry@@V?$allocator@PAVHeapEntry@@@std@@@std@@QAA@XZ 10005db0 f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00004de8       ?clear@?$PtrList@VProcessEntry@@@@QAAXXZ 10005de8 f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00004e40       ??1?$list@PAVProcessEntry@@V?$allocator@PAVProcessEntry@@@std@@@std@@QAA@XZ 10005e40 f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00004e78       ??_GHeapEntry@@UAAPAXI@Z   10005e78 f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00004e78       ??_EHeapEntry@@UAAPAXI@Z   10005e78 f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00004ea4       ?PopulateModuleListInfo@ProcessEntry@@AAAJPAVToolHelpSnap@@@Z 10005ea4 f   HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00004f68       ??1?$PtrList@VModuleEntry@@@@UAA@XZ 10005f68 f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00004fe4       ??1?$PtrList@VHeapEntry@@@@UAA@XZ 10005fe4 f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00005060       ??1?$PtrList@VProcessEntry@@@@UAA@XZ 10006060 f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:000050d4       ??_G?$PtrList@VModuleEntry@@@@UAAPAXI@Z 100060d4 f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:000050d4       ??_E?$PtrList@VModuleEntry@@@@UAAPAXI@Z 100060d4 f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:000050f8       ??_E?$PtrList@VHeapEntry@@@@UAAPAXI@Z 100060f8 f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:000050f8       ??_G?$PtrList@VHeapEntry@@@@UAAPAXI@Z 100060f8 f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:0000511c       ??_G?$PtrList@VProcessEntry@@@@UAAPAXI@Z 1000611c f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:0000511c       ??_E?$PtrList@VProcessEntry@@@@UAAPAXI@Z 1000611c f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00005140       ?CaptureHeapInfo@HeapEntry@@QAAJPAVToolHelpSnap@@@Z 10006140 f   HeapInfo_lib:HeapAllocInfo.obj
+ 0001:000051f4       ??0ProcessEntry@@QAA@AAUtagPROCESSENTRY32@@@Z 100061f4 f   HeapInfo_lib:HeapAllocInfo.obj
+ 0001:000052b4       ??1ProcessEntry@@UAA@XZ    100062b4 f   HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00005304       ?PopulateHeapListInfo@ProcessEntry@@AAAJPAVToolHelpSnap@@@Z 10006304 f   HeapInfo_lib:HeapAllocInfo.obj
+ 0001:0000541c       ??0HeapAllocInfo@@QAA@XZ   1000641c f   HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00005468       ??1HeapAllocInfo@@UAA@XZ   10006468 f   HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00005478       ??_EProcessEntry@@UAAPAXI@Z 10006478 f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00005478       ??_GProcessEntry@@UAAPAXI@Z 10006478 f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:000054a4       ?CaptureProcessInfo@ProcessEntry@@QAAJXZ 100064a4 f   HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00005520       ??_EHeapAllocInfo@@UAAPAXI@Z 10006520 f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00005520       ??_GHeapAllocInfo@@UAAPAXI@Z 10006520 f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00005558       ?PopulateProcessListInfo@HeapAllocInfo@@AAAJPAVToolHelpSnap@@@Z 10006558 f   HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00005648       ?CaptureHeapAllocInfo@HeapAllocInfo@@QAAJXZ 10006648 f   HeapInfo_lib:HeapAllocInfo.obj
+ 0001:000056b8       ??1HeapLogFormatter@@UAA@XZ 100066b8 f i HeapInfo_lib:TextFormatter.obj
+ 0001:000056c8       ??_GHeapLogFormatter@@UAAPAXI@Z 100066c8 f i HeapInfo_lib:TextFormatter.obj
+ 0001:000056c8       ??_EHeapLogFormatter@@UAAPAXI@Z 100066c8 f i HeapInfo_lib:TextFormatter.obj
+ 0001:000056f4       ??1TextFormatter@@UAA@XZ   100066f4 f   HeapInfo_lib:TextFormatter.obj
+ 0001:00005754       ?SetLogger@TextFormatter@@QAAJPAULogger@@@Z 10006754 f   HeapInfo_lib:TextFormatter.obj
+ 0001:0000578c       ??_GTextFormatter@@UAAPAXI@Z 1000678c f i HeapInfo_lib:TextFormatter.obj
+ 0001:0000578c       ??_ETextFormatter@@UAAPAXI@Z 1000678c f i HeapInfo_lib:TextFormatter.obj
+ 0001:000057b8       ?LogSummaryProcess@TextFormatter@@UAAJPAV?$vector@PAVProcessEntry@@V?$allocator@PAVProcessEntry@@@std@@@std@@@Z 100067b8 f   HeapInfo_lib:TextFormatter.obj
+ 0001:00005940       ?LogAggregateModule@TextFormatter@@UAAJPAV?$vector@U_AGGREGATEMODULEBUCKET@@V?$allocator@U_AGGREGATEMODULEBUCKET@@@std@@@std@@PAU_AGGREGATEMODULEBUCKET@@@Z 10006940 f   HeapInfo_lib:TextFormatter.obj
+ 0001:00005aa8       ?LogModuleAllocs@TextFormatter@@AAAJPAV?$vector@U_MODULEBUCKET@@V?$allocator@U_MODULEBUCKET@@@std@@@std@@PAU_MODULEBUCKET@@@Z 10006aa8 f   HeapInfo_lib:TextFormatter.obj
+ 0001:00005c38       ?LogCallerAllocs@TextFormatter@@AAAJPAV?$vector@U_ALLOCBUCKET@@V?$allocator@U_ALLOCBUCKET@@@std@@@std@@@Z 10006c38 f   HeapInfo_lib:TextFormatter.obj
+ 0001:00005dbc       ?CreateTextFormatter@@YAJPAULogger@@PAPAVTextFormatter@@@Z 10006dbc f   HeapInfo_lib:TextFormatter.obj
+ 0001:00005e5c       ?LogDetailedProcess@TextFormatter@@UAAJPAVProcessEntry@@PAV?$vector@U_ALLOCBUCKET@@V?$allocator@U_ALLOCBUCKET@@@std@@@std@@PAV?$vector@U_MODULEBUCKET@@V?$allocator@U_MODULEBUCKET@@@std@@@4@PAU_MODULEBUCKET@@HH@Z 10006e5c f   HeapInfo_lib:TextFormatter.obj
+ 0001:00005fd8       ??0ToolHelpSnap@@QAA@XZ    10006fd8 f   HeapInfo_lib:ToolHelpSnap.obj
+ 0001:00005ff0       ?CreateSnapshot@ToolHelpSnap@@QAAJKK@Z 10006ff0 f   HeapInfo_lib:ToolHelpSnap.obj
+ 0001:00006034       ?CloseSnapshot@ToolHelpSnap@@QAAJXZ 10007034 f   HeapInfo_lib:ToolHelpSnap.obj
+ 0001:0000606c       ??1ToolHelpSnap@@UAA@XZ    1000706c f   HeapInfo_lib:ToolHelpSnap.obj
+ 0001:00006080       ??_GToolHelpSnap@@UAAPAXI@Z 10007080 f i HeapInfo_lib:ToolHelpSnap.obj
+ 0001:00006080       ??_EToolHelpSnap@@UAAPAXI@Z 10007080 f i HeapInfo_lib:ToolHelpSnap.obj
+ 0001:000061a8       _DllMainCRTStartup         100071a8 f   corelib0:pegdmain.obj
+ 0001:000061d4       __GSHandlerCheckCommon     100071d4 f   corelib0:gshandler.obj
+ 0001:00006210       __GSHandlerCheck           10007210 f   corelib0:gshandler.obj
+ 0001:00006230       __security_init_cookie     10007230 f   corelib0:seccinit.obj
+ 0001:0000627c       __security_check_cookie    1000727c f   corelib0:armsecgs.obj
+ 0001:0000628c       __gsfailure                1000728c     corelib0:armsecgs.obj
+ 0001:000062d0       __GSHandlerCheck_EH        100072d0 f   corelib0:gshandlereh.obj
+ 0001:00006430       _cexit                     10007430 f   corelib0:cexit.obj
+ 0001:00006440       _initterm                  10007440 f   corelib0:crt0dat.obj
+ 0001:0000646c       _cinit                     1000746c f   corelib0:crt0dat.obj
+ 0001:000064cc       __crt_ExitProcess          100074cc f   corelib0:exitproc_proxy.obj
+ 0001:000064d8       _purecall                  100074d8 f   corelib1:COREDLL.dll
+ 0001:000064e8       ??3@YAXPAX@Z               100074e8 f   corelib1:COREDLL.dll
+ 0001:000064f8       ??2@YAPAXI@Z               100074f8 f   corelib1:COREDLL.dll
+ 0001:00006508       wcstoul                    10007508 f   corelib1:COREDLL.dll
+ 0001:00006518       _wcsicmp                   10007518 f   corelib1:COREDLL.dll
+ 0001:00006528       iswctype                   10007528 f   corelib1:COREDLL.dll
+ 0001:00006538       __CxxFrameHandler3         10007538 f   corelib1:COREDLL.dll
+ 0001:00006548       memcpy                     10007548 f   corelib1:COREDLL.dll
+ 0001:00006558       memset                     10007558 f   corelib1:COREDLL.dll
+ 0001:00006568       _XcptFilter                10007568 f   corelib1:COREDLL.dll
+ 0001:00006578       __C_specific_handler       10007578 f   corelib1:COREDLL.dll
+ 0001:00006588       __security_gen_cookie2     10007588 f   corelib1:COREDLL.dll
+ 0001:00006598       __report_gsfailure         10007598 f   corelib1:COREDLL.dll
+ 0001:000065a8       free                       100075a8 f   corelib1:COREDLL.dll
+ 0001:000065b8       StringCchCopyW             100075b8 f   coredll:COREDLL.dll
+ 0001:000065c8       StringCchPrintfW           100075c8 f   coredll:COREDLL.dll
+ 0001:000065d8       DeleteCriticalSection      100075d8 f   coredll:COREDLL.dll
+ 0001:000065e8       InterlockedExchange        100075e8 f   coredll:COREDLL.dll
+ 0001:000065f8       TerminateProcess           100075f8 f   coredll:COREDLL.dll
+ 0001:00006608       Module32Next               10007608 f   toolhelp:toolhelp.dll
+ 0001:00006618       Module32First              10007618 f   toolhelp:toolhelp.dll
+ 0001:00006628       Heap32Next                 10007628 f   toolhelp:toolhelp.dll
+ 0001:00006638       Heap32First                10007638 f   toolhelp:toolhelp.dll
+ 0001:00006648       Heap32ListNext             10007648 f   toolhelp:toolhelp.dll
+ 0001:00006658       Heap32ListFirst            10007658 f   toolhelp:toolhelp.dll
+ 0001:00006668       Process32Next              10007668 f   toolhelp:toolhelp.dll
+ 0001:00006678       Process32First             10007678 f   toolhelp:toolhelp.dll
+ 0001:00006688       CreateToolhelp32Snapshot   10007688 f   toolhelp:toolhelp.dll
+ 0001:00006698       CloseToolhelp32Snapshot    10007698 f   toolhelp:toolhelp.dll
+ 0001:000066e4       __IMPORT_DESCRIPTOR_COREDLL 100076e4     coredll:COREDLL.dll
+ 0001:000066f8       __IMPORT_DESCRIPTOR_toolhelp 100076f8     toolhelp:toolhelp.dll
+ 0001:0000670c       __NULL_IMPORT_DESCRIPTOR   1000770c     coredll:COREDLL.dll
+ 0002:00000000       __imp_DisableThreadLibraryCalls 10008000     coredll:COREDLL.dll
+ 0002:00000004       __imp__purecall            10008004     corelib1:COREDLL.dll
+ 0002:00000008       __imp_??3@YAXPAX@Z         10008008     corelib1:COREDLL.dll
+ 0002:0000000c       __imp_??2@YAPAXI@Z         1000800c     corelib1:COREDLL.dll
+ 0002:00000010       __imp_wcstoul              10008010     corelib1:COREDLL.dll
+ 0002:00000014       __imp__wcsicmp             10008014     corelib1:COREDLL.dll
+ 0002:00000018       __imp_iswctype             10008018     corelib1:COREDLL.dll
+ 0002:0000001c       __imp___CxxFrameHandler3   1000801c     corelib1:COREDLL.dll
+ 0002:00000020       __imp_memcpy               10008020     corelib1:COREDLL.dll
+ 0002:00000024       __imp___rt_udiv            10008024     corelib1:COREDLL.dll
+ 0002:00000028       __imp_memset               10008028     corelib1:COREDLL.dll
+ 0002:0000002c       __imp__XcptFilter          1000802c     corelib1:COREDLL.dll
+ 0002:00000030       __imp___C_specific_handler 10008030     corelib1:COREDLL.dll
+ 0002:00000034       __imp___security_gen_cookie2 10008034     corelib1:COREDLL.dll
+ 0002:00000038       __imp___report_gsfailure   10008038     corelib1:COREDLL.dll
+ 0002:0000003c       __imp_free                 1000803c     corelib1:COREDLL.dll
+ 0002:00000040       __imp_StringCchCopyW       10008040     coredll:COREDLL.dll
+ 0002:00000044       __imp_StringCchPrintfW     10008044     coredll:COREDLL.dll
+ 0002:00000048       __imp_DeleteCriticalSection 10008048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_InterlockedExchange  1000804c     coredll:COREDLL.dll
+ 0002:00000050       __imp_TerminateProcess     10008050     coredll:COREDLL.dll
+ 0002:00000054       \177COREDLL_NULL_THUNK_DATA 10008054     coredll:COREDLL.dll
+ 0002:00000058       __imp_Module32Next         10008058     toolhelp:toolhelp.dll
+ 0002:0000005c       __imp_Module32First        1000805c     toolhelp:toolhelp.dll
+ 0002:00000060       __imp_Heap32Next           10008060     toolhelp:toolhelp.dll
+ 0002:00000064       __imp_Heap32First          10008064     toolhelp:toolhelp.dll
+ 0002:00000068       __imp_Heap32ListNext       10008068     toolhelp:toolhelp.dll
+ 0002:0000006c       __imp_Heap32ListFirst      1000806c     toolhelp:toolhelp.dll
+ 0002:00000070       __imp_Process32Next        10008070     toolhelp:toolhelp.dll
+ 0002:00000074       __imp_Process32First       10008074     toolhelp:toolhelp.dll
+ 0002:00000078       __imp_CreateToolhelp32Snapshot 10008078     toolhelp:toolhelp.dll
+ 0002:0000007c       __imp_CloseToolhelp32Snapshot 1000807c     toolhelp:toolhelp.dll
+ 0002:00000080       \177toolhelp_NULL_THUNK_DATA 10008080     toolhelp:toolhelp.dll
+ 0002:00000084       __security_cookie          10008084     corelib0:seccinit.obj
+ 0002:00000088       __security_cookie_complement 10008088     corelib0:seccinit.obj
+ 0002:0000008c       _exitflag                  1000808c     corelib0:cexit.obj
+ 0002:00000090       __onexitend                10008090     <common>
+ 0002:00000094       __onexitbegin              10008094     <common>
+ 0002:00000098       g_pcsExit                  10008098     <common>
+ 0002:0000009c       _pRawDllMain               1000809c     <common>
+
+ entry point at        0001:000061a8
+
+ Static symbols
+
+ 0001:00000d04       ?ShowHelpCmd@@YAJPAGP6AX0ZZP6APAG0H@Z@Z 10001d04 f   ShellExtMain.obj
+ 0001:00000dbc       ?DoProcessInfoLog@@YAJPAGP6AX0ZZHH@Z 10001dbc f   ShellExtMain.obj
+ 0001:00000fe0       ?DllHeapInfoCmd@@YAJPAGP6AX0ZZP6APAG0H@Z@Z 10001fe0 f   ShellExtMain.obj
+ 0001:00001030       ?AllocListCmd@@YAJPAGP6AX0ZZP6APAG0H@Z@Z 10002030 f   ShellExtMain.obj
+ 0001:00001080       ?HeapInfoCmd@@YAJPAGP6AX0ZZP6APAG0H@Z@Z 10002080 f   ShellExtMain.obj
+ 0001:000012e8       ?CompareHeapBlocksByCaller@@YA_NABU_HEAPBLOCK@@0@Z 100022e8 f   HeapInfo_lib:HeapLog.obj
+ 0001:00001300       ?CompareAllocBucketsByAllocSize@@YA_NABU_ALLOCBUCKET@@0@Z 10002300 f   HeapInfo_lib:HeapLog.obj
+ 0001:00001318       ?CompareAllocBucketsByModule@@YA_NABU_ALLOCBUCKET@@0@Z 10002318 f   HeapInfo_lib:HeapLog.obj
+ 0001:00001330       ?CompareModuleBucketsByAllocSize@@YA_NABU_MODULEBUCKET@@0@Z 10002330 f   HeapInfo_lib:HeapLog.obj
+ 0001:00001348       ?CompareModuleBucketsByModuleName@@YA_NABU_MODULEBUCKET@@0@Z 10002348 f   HeapInfo_lib:HeapLog.obj
+ 0001:00001380       ?CompareAggregateModuleBucketsByAllocSize@@YA_NABU_AGGREGATEMODULEBUCKET@@0@Z 10002380 f   HeapInfo_lib:HeapLog.obj
+ 0001:00001398       ?CompareProcessEntryByAllocSize@@YA_NAAPAVProcessEntry@@0@Z 10002398 f   HeapInfo_lib:HeapLog.obj
+ 0001:0000141c       __unwind$46112             1000241c f   HeapInfo_lib:HeapLog.obj
+ 0001:0000241c       __unwind$49088             1000341c f   HeapInfo_lib:HeapLog.obj
+ 0001:00003f54       __unwind$51956             10004f54 f   HeapInfo_lib:HeapLog.obj
+ 0001:0000400c       __unwind$52582             1000500c f   HeapInfo_lib:HeapLog.obj
+ 0001:00004160       __unwind$52673             10005160 f   HeapInfo_lib:HeapLog.obj
+ 0001:00004178       __unwind$52674             10005178 f   HeapInfo_lib:HeapLog.obj
+ 0001:000044cc       __unwind$52819             100054cc f   HeapInfo_lib:HeapLog.obj
+ 0001:000044e4       __unwind$52820             100054e4 f   HeapInfo_lib:HeapLog.obj
+ 0001:000044fc       __unwind$52821             100054fc f   HeapInfo_lib:HeapLog.obj
+ 0001:000045ec       __unwind$53361             100055ec f   HeapInfo_lib:HeapLog.obj
+ 0001:00004fc0       __unwind$46199             10005fc0 f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:0000503c       __unwind$46381             1000603c f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:000050b8       __unwind$46562             100060b8 f i HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00005288       __unwind$46752             10006288 f   HeapInfo_lib:HeapAllocInfo.obj
+ 0001:000052e8       __unwind$46972             100062e8 f   HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00005510       __unwind$47250             10006510 f   HeapInfo_lib:HeapAllocInfo.obj
+ 0001:0000562c       __unwind$47306             1000662c f   HeapInfo_lib:HeapAllocInfo.obj
+ 0001:000056a8       __unwind$47411             100066a8 f   HeapInfo_lib:HeapAllocInfo.obj
+ 0001:00005738       __unwind$42884             10006738 f   HeapInfo_lib:TextFormatter.obj
+ 0001:000060b8       _DllMainCRTStartupHelper   100070b8 f   corelib0:pegdmain.obj
+ 0001:00006348       doexit                     10007348 f   corelib0:cexit.obj

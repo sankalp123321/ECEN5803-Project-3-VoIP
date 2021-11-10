@@ -1,0 +1,245 @@
+//
+// Copyright (c) Microsoft Corporation.  All rights reserved.
+//
+//
+// Use of this sample source code is subject to the terms of the Microsoft
+// license agreement under which you licensed this sample source code. If
+// you did not accept the terms of the license agreement, you are not
+// authorized to use this sample source code. For the terms of the license,
+// please see the license agreement between you and Microsoft or, if applicable,
+// see the LICENSE.RTF on your install media or the root of your tools installation.
+// THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+//
+// ad1ex.idl : AD2 extensions to the AD1 API
+
+import "activdbg.idl";
+
+interface IDebugApplicationEx;
+interface IRemoteDebugApplicationEx;
+interface IRemoteDebugApplicationThreadEx;
+interface IRemoteDebugApplicationThread;
+interface IEnumDebugExpressionContexts;
+interface IDebugHelperEx;
+interface IDebugSetValueCallback;
+
+cpp_quote("DEFINE_GUID(IID_IDebugHelperExOld, 0xE0284F00, 0xEDA1, 0x11d0, 0xB4, 0x52, 0x00, 0xA0, 0x24, 0x4A, 0x1D, 0xD2);")
+
+// IDebugApplicationEx
+//
+// Purpose:
+//
+// Implemented by: PDM
+//
+// Used by: LE
+[
+    object,
+    uuid(51973C00-CB0C-11d0-B5C9-00A0244A0E7A),
+    pointer_default(unique)
+]
+interface IDebugApplicationEx: IUnknown
+{
+    // called on method entry
+    HRESULT onCallEnter (
+        [in] DWORD dwLim);
+
+    // called before making method call
+    HRESULT onCallOut (
+        [in] DWORD dwLim,
+        [in] DWORD dwAddrDest);
+
+        // called after returning from method call
+    HRESULT onCallReturn (
+        [in] DWORD dwLim);
+
+        // called on method exit
+    HRESULT onCallExit (
+        [in] DWORD dwLim,
+        [in] DWORD dwAddrDest);
+}
+
+// IRemoteDebugApplicationEx
+//
+// Purpose:
+//
+// Implemented by: PDM
+//
+// Used by: IDE
+[
+    object,
+    uuid(51973C01-CB0C-11d0-B5C9-00A0244A0E7A),
+    pointer_default(unique)
+]
+interface IRemoteDebugApplicationEx: IUnknown
+{
+    HRESULT GetHostPid(
+        [out] DWORD* dwHostPid);
+
+    HRESULT GetHostMachineName(
+        [out] BSTR* pbstrHostMachineName);
+
+    HRESULT SetLocale(
+        [in] DWORD dwLangID);
+
+#ifdef STEP_HACK
+    HRESULT ForceStepMode(
+        [in] IRemoteDebugApplicationThread* pStepThread);
+#endif
+
+    HRESULT RevokeBreak (void);
+
+// HACK: These next two functions are for setting the proxy security.
+// They are only here because IIS sources the document and therefore
+// owns the connection point for document events. In order for a DCOM
+// client to call to a Win95 DCOM server, the authentication level must
+// be RPC_C_AUTHN_LEVEL_CONNECT or lower.
+    HRESULT SetProxyBlanketAndAddRef(
+        [in] IUnknown* pUnk);
+    HRESULT ReleaseFromSetProxyBlanket(
+        [in] IUnknown* pUnk);
+};
+
+// IRemoteDebugApplication7
+//
+// Purpose:
+//
+// Implemented by: PDM
+//
+// Used by: IDE
+[
+    object,
+    uuid(EF718CD4-3738-498d-8E15-8029A11BDFA8),
+    pointer_default(unique)
+]
+interface IRemoteDebugApplicationEx7: IUnknown
+{
+    HRESULT GetApartmentThreadId(
+        [out] DWORD* pdwAptThreadId);
+};
+
+// IRemoteDebugApplicationThreadEx
+//
+// Purpose:
+//
+// Implemented by: PDM
+//
+// Used by: IDE
+[
+    object,
+    uuid(B9B32B0C-9147-11d1-94EA-00C04FA302A1),
+    pointer_default(unique)
+]
+interface IRemoteDebugApplicationThreadEx: IUnknown
+{
+    HRESULT EnumGlobalExpressionContexts(
+        [out] IEnumDebugExpressionContexts** ppEnum);
+};
+
+// IDebugDocumentHelperEx
+//
+// Purpose:
+//
+// Implemented by: PDM
+//
+// Used by: host
+[
+    object,
+    uuid(51973C02-CB0C-11d0-B5C9-00A0244A0E7A),
+    pointer_default(unique)
+]
+interface IDebugDocumentHelperEx : IUnknown
+{
+    HRESULT SetDocumentClassId(
+        [in] CLSID clsidDocument);
+};
+
+[
+    object,
+    uuid(51973C08-CB0C-11d0-B5C9-00A0244A0E7A),
+    helpstring("IDebugHelperEx Interface"),
+    pointer_default(unique),
+    local
+]
+interface IDebugHelperEx: IUnknown
+{
+    // Returns a property browser that wraps an error
+    HRESULT CreatePropertyBrowserFromError(
+        [in] IActiveScriptError* pase,
+        [in] LPCOLESTR pszName,
+        [in] IDebugApplicationThread* pdat,
+        [in] IDebugFormatter* pdf,
+        [out] IDebugProperty** ppdp);
+
+    // Returns a property browser that wraps a VARIANT,
+    // and allows for custom conversion of variants or VARTYPEs to strings,
+    // and allows setting values.
+    HRESULT CreateWriteablePropertyBrowser (
+        [in] VARIANT *pvar,                    // root variant to browse
+        [in] LPCOLESTR bstrName,            // name to give the root
+        [in] IDebugApplicationThread *pdat, // thread to request properties on
+                                            // (or NULL for no marshalling)
+        [in] IDebugFormatter*pdf,            // provides custom formatting of variants
+        [in] IDebugSetValueCallback *pdsvcb,
+        [out] IDebugProperty**ppdob);
+
+    HRESULT CreatePropertyBrowserFromCodeContext (
+        [in] IDebugCodeContext* pdcc,
+        [in] LPCOLESTR pszName,
+        [in] IDebugApplicationThread* pdat,
+        [out] IDebugProperty** ppdp);
+};
+
+[
+    object,
+    uuid(51973C06-CB0C-11d0-B5C9-00A0244A0E7A),
+    helpstring("IDebugSetValueCallback Interface"),
+    pointer_default(unique),
+    local
+]
+interface IDebugSetValueCallback : IUnknown
+{
+    // Sets the value in a property browser
+    HRESULT SetValue (
+        [in] VARIANT    *pvarNode,
+        [in] DISPID        dispid,
+        [in] ULONG        cIndices,
+        [in, size_is (cIndices)] LONG        *rgIndices,
+        [in] LPCOLESTR    pszValue,
+        [in] UINT        nRadix,
+        [out] BSTR        *pbstrError);
+};
+
+[
+    object,
+    uuid(51973C03-CB0C-11d0-B5C9-00A0244A0E7A),
+    helpstring("ISetNextStatement Interface"),
+    pointer_default(unique),
+]
+interface ISetNextStatement : IUnknown
+{
+    HRESULT CanSetNextStatement(
+        [in] IDebugStackFrame *pStackFrame,
+        [in] IDebugCodeContext *pCodeContext);
+
+    HRESULT SetNextStatement (
+        [in] IDebugStackFrame *pStackFrame,
+        [in] IDebugCodeContext *pCodeContext);
+}
+
+[
+    object,
+    uuid(51973C09-CB0C-11d0-B5C9-00A0244A0E7A),
+    helpstring("IDebugSessionProviderEx Interface"),
+    pointer_default(unique)
+]
+interface IDebugSessionProviderEx : IUnknown
+{
+    // Initiates a debug session with the specified application. The debugger should
+    // call IRemoteDebugApplication::ConnectDebugger before returning from this call.
+    HRESULT StartDebugSession(
+        [in]    IRemoteDebugApplication *pda,
+        [in]    BOOL fQuery);
+
+    HRESULT CanJITDebug (
+        [in] DWORD pid);
+
+};

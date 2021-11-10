@@ -1,0 +1,1582 @@
+ mailtrns
+
+ Timestamp is 5cafb4a4 (Thu Apr 11 14:41:56 2019)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCU                CODE
+ 0001:00000008 00000004H .CRT$XCZ                CODE
+ 0001:0000000c 00000004H .CRT$XIA                CODE
+ 0001:00000010 00000004H .CRT$XIZ                CODE
+ 0001:00000014 00000004H .CRT$XPA                CODE
+ 0001:00000018 00000004H .CRT$XPZ                CODE
+ 0001:0000001c 00000004H .CRT$XTA                CODE
+ 0001:00000020 00000004H .CRT$XTZ                CODE
+ 0001:00000030 00002db6H .rdata                  CODE
+ 0001:00002de8 00000025H .rdata$debug            CODE
+ 0001:00002e10 0002a464H .text                   CODE
+ 0001:0002d274 00000004H .text$yc                CODE
+ 0001:0002d278 0000000cH .text$yd                CODE
+ 0001:0002d284 0000020cH .xdata                  CODE
+ 0001:0002d490 00000000H ATL$__a                 CODE
+ 0001:0002d490 00000000H ATL$__z                 CODE
+ 0001:0002d490 000000c8H .idata$2                CODE
+ 0001:0002d558 00000014H .idata$3                CODE
+ 0001:0002d56c 00000320H .idata$4                CODE
+ 0001:0002d88c 00000488H .idata$6                CODE
+ 0001:0002dd20 00000052H .edata                  CODE
+ 0002:00000000 00000320H .idata$5                DATA
+ 0002:00000320 000006c0H .data                   DATA
+ 0002:000009e0 00000078H .bss                    DATA
+ 0003:00000000 00001a08H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000008       __xc_z                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_a                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xi_z                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_a                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xp_z                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_a                     1000101c     corelib0:crt0init.obj
+ 0001:00000020       __xt_z                     10001020     corelib0:crt0init.obj
+ 0001:0000004c       ??_C@_19LLMMJODI@?$AAP?$AAO?$AAP?$AA3?$AA?$AA@ 1000104c     dllmain.obj
+ 0001:00000058       ??_C@_19KANMDILN@?$AAS?$AAM?$AAT?$AAP?$AA?$AA@ 10001058     dllmain.obj
+ 0001:00000064       ??_C@_1M@NEFEJNJD@?$AAI?$AAM?$AAA?$AAP?$AA4?$AA?$AA@ 10001064     dllmain.obj
+ 0001:00000070       PS_MAPI                    10001070     dllmain.obj
+ 0001:00000080       ??_C@_1BG@OHIKBBLA@?$AAo?$AAu?$AAt?$AAr?$AAe?$AAs?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10001080     dllmain.obj
+ 0001:00000220       ??_7CMessageTrackerSink@@6B@ 10001220     imap_lib:onestop_imap.obj
+ 0001:00000244       ??_C@_09JPDHDICP@NAMESPACE?$AA@ 10001244     imap_lib:onestop_imap.obj
+ 0001:00000250       ??_7CImapSyncHandler@@6BIMailSyncHandler@@@ 10001250     imap_lib:onestop_imap.obj
+ 0001:0000029c       ??_7CImapSyncHandler@@6BCMessageTrackerSink@@@ 1000129c     imap_lib:onestop_imap.obj
+ 0001:000002c0       ??_C@_19MDELLKLE@?$AAI?$AAM?$AAA?$AAP?$AA?$AA@ 100012c0     imap_lib:onestop_imap.obj
+ 0001:000002cc       ??_C@_1M@DCJMNJIG@?$AAI?$AAN?$AAB?$AAO?$AAX?$AA?$AA@ 100012cc     imap_lib:onestop_imap.obj
+ 0001:000002d8       ??_C@_07JEPHAMII@EXPUNGE?$AA@ 100012d8     imap_lib:onestop_imap.obj
+ 0001:000002e0       ??_C@_0BD@LANGPACG@?5?$CLFLAGS?5?$CI?2Deleted?$CJ?$AA@ 100012e0     imap_lib:onestop_imap.obj
+ 0001:000002f4       ??_C@_07BEDJAEFM@CREATE?5?$AA@ 100012f4     imap_lib:onestop_imap.obj
+ 0001:000002fc       ??_C@_01BJJEKLCA@?$CC?$AA@ 100012fc     imap_lib:onestop_imap.obj
+ 0001:00000300       ??_C@_02JPEBCGCN@?5?$CC?$AA@ 10001300     imap_lib:onestop_imap.obj
+ 0001:00000304       ??_C@_09DNJIBDDH@UID?5COPY?5?$AA@ 10001304     imap_lib:onestop_imap.obj
+ 0001:00000310       ??_C@_0BA@HFECFJPN@?5?9FLAGS?5?$CI?2Seen?$CJ?$AA@ 10001310     imap_lib:onestop_imap.obj
+ 0001:00000320       ??_C@_0BA@FHLIINAP@?5?$CLFLAGS?5?$CI?2Seen?$CJ?$AA@ 10001320     imap_lib:onestop_imap.obj
+ 0001:00000330       ??_C@_0L@FIGGPJLB@UID?5STORE?5?$AA@ 10001330     imap_lib:onestop_imap.obj
+ 0001:0000033c       ??_C@_1CC@GJMAKGOP@?$AAM?$AAS?$AAG?$AA_?$AAP?$AAE?$AAR?$AAF?$AA_?$AAE?$AAN?$AAD?$AA?3?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 1000133c     imap_lib:onestop_imap.obj
+ 0001:00000360       ??_C@_1CK@OLGPJICI@?$AAI?$AAM?$AAA?$AAP?$AA?3?$AA?$CF?$AA0?$AA8?$AAx?$AA?3?$AAM?$AAo?$AAv?$AAe?$AAd?$AAI?$AAt?$AAe?$AAm?$AAs?$AA?$AA@ 10001360     imap_lib:onestop_imap.obj
+ 0001:0000038c       ??_C@_1CG@NPBEJMOG@?$AAI?$AAM?$AAA?$AAP?$AA?3?$AAB?$AAo?$AAd?$AAy?$AAS?$AAt?$AAr?$AAu?$AAc?$AAt?$AAu?$AAr?$AAe?$AA?$AA@ 1000138c     imap_lib:onestop_imap.obj
+ 0001:000003b4       ??_C@_1CA@PFMIODIA@?$AAI?$AAM?$AAA?$AAP?$AA?3?$AAF?$AAe?$AAt?$AAc?$AAh?$AAI?$AAn?$AAd?$AAe?$AAx?$AA?$AA@ 100013b4     imap_lib:onestop_imap.obj
+ 0001:000003d4       ??_C@_1CE@DPIPGMC@?$AAI?$AAM?$AAA?$AAP?$AA?3?$AAM?$AAi?$AAm?$AAe?$AAB?$AAo?$AAu?$AAn?$AAd?$AAa?$AAr?$AAy?$AA?$AA@ 100013d4     imap_lib:onestop_imap.obj
+ 0001:000003f8       ??_C@_1CA@BDOBHIHN@?$AAI?$AAM?$AAA?$AAP?$AA?3?$AAP?$AAa?$AAr?$AAt?$AAN?$AAu?$AAm?$AAb?$AAe?$AAr?$AA?$AA@ 100013f8     imap_lib:onestop_imap.obj
+ 0001:00000418       ??_C@_1DE@FGJKDFOF@?$AAI?$AAM?$AAA?$AAP?$AA?3?$AAI?$AAg?$AAn?$AAo?$AAr?$AAe?$AA_?$AAP?$AAR?$AA_?$AAM?$AAS?$AAG?$AA_?$AAS?$AAT?$AAA?$AAT?$AAU?$AAS?$AA?$AA@ 10001418     imap_lib:onestop_imap.obj
+ 0001:0000044c       ??_C@_1CE@PFJPPCL@?$AAT?$AAM?$AAA?$AAI?$AAL?$AA?3?$AAF?$AAo?$AAl?$AAd?$AAe?$AAr?$AAF?$AAl?$AAa?$AAg?$AAs?$AA?$AA@ 1000144c     imap_lib:onestop_imap.obj
+ 0001:00000470       ??_C@_1CK@OJMPNHMP@?$AAI?$AAM?$AAA?$AAP?$AA?3?$AAF?$AAo?$AAl?$AAd?$AAe?$AAr?$AAS?$AAy?$AAn?$AAc?$AAF?$AAl?$AAa?$AAg?$AAs?$AA?$AA@ 10001470     imap_lib:onestop_imap.obj
+ 0001:0000049c       ??_C@_1BO@FNJLKEGO@?$AAI?$AAM?$AAA?$AAP?$AA?3?$AAF?$AAo?$AAl?$AAd?$AAe?$AAr?$AAA?$AAg?$AAe?$AA?$AA@ 1000149c     imap_lib:onestop_imap.obj
+ 0001:000004bc       ??_C@_1CK@HDGKNOLF@?$AAI?$AAM?$AAA?$AAP?$AA?3?$AAF?$AAo?$AAl?$AAd?$AAe?$AAr?$AAF?$AAe?$AAt?$AAc?$AAh?$AAS?$AAi?$AAz?$AAe?$AA?$AA@ 100014bc     imap_lib:onestop_imap.obj
+ 0001:000004e8       ??_C@_1CM@MGBPGHKF@?$AAI?$AAM?$AAA?$AAP?$AA?3?$AAF?$AAo?$AAl?$AAd?$AAe?$AAr?$AAA?$AAt?$AAt?$AAa?$AAc?$AAh?$AAS?$AAi?$AAz?$AAe?$AA?$AA@ 100014e8     imap_lib:onestop_imap.obj
+ 0001:00000514       ??_C@_1CE@EOGPBHCK@?$AAI?$AAM?$AAA?$AAP?$AA?3?$AAP?$AAa?$AAr?$AAt?$AAE?$AAn?$AAc?$AAo?$AAd?$AAi?$AAn?$AAg?$AA?$AA@ 10001514     imap_lib:onestop_imap.obj
+ 0001:00000538       ??_C@_1CK@MBCFENAA@?$AAI?$AAM?$AAA?$AAP?$AA?3?$AAF?$AAo?$AAl?$AAd?$AAe?$AAr?$AAD?$AAe?$AAl?$AAi?$AAm?$AAi?$AAt?$AAe?$AAr?$AA?$AA@ 10001538     imap_lib:onestop_imap.obj
+ 0001:00000564       ??_C@_1CG@ONKMIDDO@?$AAM?$AAS?$AAG?$AA_?$AAP?$AAE?$AAR?$AAF?$AA_?$AAB?$AAE?$AAG?$AAI?$AAN?$AA?3?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 10001564     imap_lib:onestop_imap.obj
+ 0001:0000058c       ??_C@_1BE@OBODAEMH@?$AA?3?$AAF?$AAl?$AAd?$AAr?$AAP?$AAa?$AAt?$AAh?$AA?$AA@ 1000158c     imap_lib:onestop_imap.obj
+ 0001:000005a0       ??_C@_1M@CDCJBCAI@?$AAI?$AAn?$AAb?$AAo?$AAx?$AA?$AA@ 100015a0     imap_lib:onestop_imap.obj
+ 0001:000005ac       ??_C@_1BM@FNHBIJLH@?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AAd?$AA?5?$AAI?$AAt?$AAe?$AAm?$AAs?$AA?$AA@ 100015ac     imap_lib:onestop_imap.obj
+ 0001:000005c8       ??_C@_1BG@DGMPOCOO@?$AAS?$AAe?$AAn?$AAt?$AA?5?$AAI?$AAt?$AAe?$AAm?$AAs?$AA?$AA@ 100015c8     imap_lib:onestop_imap.obj
+ 0001:000005e0       ??_C@_1O@JDLOHAN@?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AA?$AA@ 100015e0     imap_lib:stdinc_imap_lib.obj
+ 0001:000005f0       ??_C@_1BC@GCKHIPE@?$AAN?$AAo?$AAR?$AAe?$AAm?$AAo?$AAv?$AAe?$AA?$AA@ 100015f0     imap_lib:stdinc_imap_lib.obj
+ 0001:00000604       ??_C@_1BI@JFAIJMHL@?$AAF?$AAo?$AAr?$AAc?$AAe?$AAR?$AAe?$AAm?$AAo?$AAv?$AAe?$AA?$AA@ 10001604     imap_lib:stdinc_imap_lib.obj
+ 0001:0000061c       ??_C@_17LLMMEOJD@?$AAV?$AAa?$AAl?$AA?$AA@ 1000161c     imap_lib:stdinc_imap_lib.obj
+ 0001:00000624       ??_C@_13OPKGLAFF@?$AAB?$AA?$AA@ 10001624     imap_lib:stdinc_imap_lib.obj
+ 0001:00000628       ??_C@_13MKMNOPIJ@?$AAD?$AA?$AA@ 10001628     imap_lib:stdinc_imap_lib.obj
+ 0001:0000062c       ??_C@_13LHMFKAAD@?$AAM?$AA?$AA@ 1000162c     imap_lib:stdinc_imap_lib.obj
+ 0001:00000630       ??_C@_13HADIAKP@?$AAS?$AA?$AA@ 10001630     imap_lib:stdinc_imap_lib.obj
+ 0001:00000634       ??_C@_1CA@OOEGNFML@?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AAS?$AAe?$AAr?$AAv?$AAe?$AAr?$AAO?$AAn?$AA?$AA@ 10001634     imap_lib:stdinc_imap_lib.obj
+ 0001:0000069c       ??_C@_0BN@EHILHMJD@UID?5STORE?5?$CFd?5?$CFcFLAGS?5?$CI?2Seen?$CJ?$AA@ 1000169c     imap_lib:utils_imap.obj
+ 0001:000006dc       ??_C@_07GOAKFIAN@DELETE?5?$AA@ 100016dc     imap_lib:folderops.obj
+ 0001:000006e4       ??_C@_03ELHPEHJG@?$CC?5?$CC?$AA@ 100016e4     imap_lib:folderops.obj
+ 0001:000006e8       ??_C@_07EBIHHPHP@RENAME?5?$AA@ 100016e8     imap_lib:folderops.obj
+ 0001:00000740       ??_7CCapGenericResponse@@6B@ 10001740     imap_lib:imapcomm.obj
+ 0001:00000760       ??_C@_03KOLNNKD@BAD?$AA@   10001760     imap_lib:imapcomm.obj
+ 0001:00000764       ??_C@_02NFLNFON@NO?$AA@    10001764     imap_lib:imapcomm.obj
+ 0001:00000768       ??_C@_02GIPFHKNO@OK?$AA@   10001768     imap_lib:imapcomm.obj
+ 0001:0000076c       ??_C@_03IPHJCBHH@YES?$AA@  1000176c     imap_lib:imapcomm.obj
+ 0001:00000770       ??_7CCapResponseSink@@6B@  10001770     imap_lib:imapcomm.obj
+ 0001:00000790       ??_C@_09NEFPBGEO@AUTH?$DNNTLM?$AA@ 10001790     imap_lib:imapcomm.obj
+ 0001:0000079c       ??_C@_08EBJFDHCC@STARTTLS?$AA@ 1000179c     imap_lib:imapcomm.obj
+ 0001:000007a8       ??_7CIMAPComm@@6B@         100017a8     imap_lib:imapcomm.obj
+ 0001:000007b8       ??_C@_03MJDGODDN@UID?$AA@  100017b8     imap_lib:imapcomm.obj
+ 0001:000007bc       ??_C@_03LFNJCDHL@?$HN?$AN?6?$AA@ 100017bc     imap_lib:imapcomm.obj
+ 0001:000007c0       ??_C@_04PCOPKCKE@LIST?$AA@ 100017c0     imap_lib:imapcomm.obj
+ 0001:000007c8       ??_C@_05JDMAOHF@FETCH?$AA@ 100017c8     imap_lib:imapcomm.obj
+ 0001:000007d0       ??_C@_02PCIJFNDE@?$AN?6?$AA@ 100017d0     imap_lib:imapcomm.obj
+ 0001:000007d4       ??_C@_04BBPIGBEJ@A?$CFd?5?$AA@ 100017d4     imap_lib:imapcomm.obj
+ 0001:000007dc       ??_C@_04NMBEDBAI@NOOP?$AA@ 100017dc     imap_lib:imapcomm.obj
+ 0001:000007e4       ??_C@_0L@LNNPCDBM@CAPABILITY?$AA@ 100017e4     imap_lib:imapcomm.obj
+ 0001:000007f0       ??_C@_06ICDCDPAM@LOGOUT?$AA@ 100017f0     imap_lib:imapcomm.obj
+ 0001:000007f8       ??_C@_0BC@JJPNKFLD@AUTHENTICATE?5NTLM?$AA@ 100017f8     imap_lib:imapcomm.obj
+ 0001:0000080c       ??_C@_06PMHJJALD@LOGIN?5?$AA@ 1000180c     imap_lib:imapcomm.obj
+ 0001:000008a4       ??_7CNamespaceResponse@@6B@ 100018a4     imap_lib:folders.obj
+ 0001:000008c4       ??_C@_0N@KCCLEFGN@?2NoInferiors?$AA@ 100018c4     imap_lib:folders.obj
+ 0001:000008d4       ??_C@_0P@CICMNBGB@?2HasNoChildren?$AA@ 100018d4     imap_lib:folders.obj
+ 0001:000008e4       ??_7CFolderTreeFetcher@@6B@ 100018e4     imap_lib:folders.obj
+ 0001:00000904       ??_C@_09IANJHEJK@LIST?5?$CC?$CC?5?$CF?$AA@ 10001904     imap_lib:folders.obj
+ 0001:00000910       ??_C@_05HFCKIMLP@Inbox?$AA@ 10001910     imap_lib:folders.obj
+ 0001:00000918       ??_C@_03IDKGMNJO@?$CC?5?$CK?$AA@ 10001918     imap_lib:folders.obj
+ 0001:0000091c       ??_C@_06GNEMEJAG@LIST?5?$CC?$AA@ 1000191c     imap_lib:folders.obj
+ 0001:00000928       ?kszNIL@@3QBDB             10001928     imap_lib:consts.obj
+ 0001:0000092c       ?kszExcludeFolders@@3QBGB  1000192c     imap_lib:consts.obj
+ 0001:0000093c       ?kszDeleteFolderPath@@3QBGB 1000193c     imap_lib:consts.obj
+ 0001:00000958       ?kszInboxFolderPath@@3QBGB 10001958     imap_lib:consts.obj
+ 0001:00000964       ?kszSentFolderPath@@3QBGB  10001964     imap_lib:consts.obj
+ 0001:00000978       ?kszDefaultValueKey@@3QBGB 10001978     imap_lib:consts.obj
+ 0001:000009c0       ?kszContentTypeTextPlain@@3QBDB 100019c0     imap_lib:consts.obj
+ 0001:000009dc       ?kszContentTypeTextHTML@@3QBDB 100019dc     imap_lib:consts.obj
+ 0001:000009f8       ??_C@_08IDHINGOK@UPLOAD00?$AA@ 100019f8     imap_lib:Append.obj
+ 0001:00000a04       ??_C@_09NFNIFHBC@UPLOAD00?5?$AA@ 10001a04     imap_lib:Append.obj
+ 0001:00000a10       ??_C@_08JFDDFEDJ@APPEND?5?$CC?$AA@ 10001a10     imap_lib:Append.obj
+ 0001:00000a1c       ??_C@_0M@GLPAMEKN@?$CC?5?$CI?2Seen?$CJ?5?$HL?$AA@ 10001a1c     imap_lib:Append.obj
+ 0001:00000a28       ??_C@_1CA@OJEHGAFD@?$AA?$DM?$AA?$CF?$AA0?$AA8?$AAx?$AA?$CF?$AA0?$AA8?$AAx?$AA?4?$AA?$CF?$AA0?$AA8?$AAx?$AA?$DO?$AA?$AA@ 10001a28     imap_lib:Append.obj
+ 0001:00000a48       ??_C@_0N@HOCLLBA@MAC?9BINHEX40?$AA@ 10001a48     imap_lib:fetch.obj
+ 0001:00000a58       ??_C@_0L@DFENHHBF@x?9uuencode?$AA@ 10001a58     imap_lib:fetch.obj
+ 0001:00000a64       ??_C@_04DFPGIIHA@8bit?$AA@ 10001a64     imap_lib:fetch.obj
+ 0001:00000a6c       ??_C@_04LHKGBPKB@7bit?$AA@ 10001a6c     imap_lib:fetch.obj
+ 0001:00000a74       ??_C@_0BB@CAHAECFA@quoted?9printable?$AA@ 10001a74     imap_lib:fetch.obj
+ 0001:00000a88       ??_C@_06JEFEFGEJ@base64?$AA@ 10001a88     imap_lib:fetch.obj
+ 0001:00000b28       ??_7CHeaderParser@@6B@     10001b28     imap_lib:fetch.obj
+ 0001:00000b50       ??_C@_1BC@MENDFJLG@?$AA?$CF?$AAs?$AA?3?$AA?$CF?$AAs?$AA?3?$AA?$CF?$AAd?$AA?$AA@ 10001b50     imap_lib:fetch.obj
+ 0001:00000b64       ??_C@_06BCACMGKH@?2draft?$AA@ 10001b64     imap_lib:fetch.obj
+ 0001:00000b6c       ??_C@_07KENMPCBD@?2delete?$AA@ 10001b6c     imap_lib:fetch.obj
+ 0001:00000b74       ??_C@_05DCJJEEBM@?2seen?$AA@ 10001b74     imap_lib:fetch.obj
+ 0001:00000b7c       ??_C@_08NMPMGMD@Subject?3?$AA@ 10001b7c     imap_lib:fetch.obj
+ 0001:00000b88       ??_C@_0O@OMEKFJA@Thread?9Topic?3?$AA@ 10001b88     imap_lib:fetch.obj
+ 0001:00000b98       ??_C@_0M@JGONFMHK@Importance?3?$AA@ 10001b98     imap_lib:fetch.obj
+ 0001:00000ba4       ??_C@_0M@GOFCDOKO@X?9Priority?3?$AA@ 10001ba4     imap_lib:fetch.obj
+ 0001:00000bb0       ??_C@_05BCMNGFNN@From?3?$AA@ 10001bb0     imap_lib:fetch.obj
+ 0001:00000bb8       ??_C@_0M@FICLDPLP@Message?9ID?3?$AA@ 10001bb8     imap_lib:fetch.obj
+ 0001:00000bc4       ??_C@_0P@DIEAKPHJ@content?9class?3?$AA@ 10001bc4     imap_lib:fetch.obj
+ 0001:00000bd4       ??_C@_0BF@DCGIMDNK@X?9MS?9TNEF?9Correlator?$AA@ 10001bd4     imap_lib:fetch.obj
+ 0001:00000bec       ??_7CMinHeaderParser@@6B@  10001bec     imap_lib:fetch.obj
+ 0001:00000c14       ??_7CSelectParser@@6B@     10001c14     imap_lib:fetch.obj
+ 0001:00000c34       ??_C@_06OCAFOCEK@EXISTS?$AA@ 10001c34     imap_lib:fetch.obj
+ 0001:00000c3c       ??_7CSearchParser@@6B@     10001c3c     imap_lib:fetch.obj
+ 0001:00000c5c       ??_7CBodyParser@@6B@       10001c5c     imap_lib:fetch.obj
+ 0001:00000c7c       ??_C@_01PKGAHCOL@?$CJ?$AA@ 10001c7c     imap_lib:fetch.obj
+ 0001:00000c80       ??_C@_01CLKCMJKC@?5?$AA@   10001c80     imap_lib:fetch.obj
+ 0001:00000c84       ??_C@_01ODHLEDKK@?$CI?$AA@ 10001c84     imap_lib:fetch.obj
+ 0001:00000c88       ??_C@_05OKJIEIJE@?$CFs?$CFd?5?$AA@ 10001c88     imap_lib:fetch.obj
+ 0001:00000c90       ??_C@_06PFFBCHML@?$CFs?$CFd?$CFs?$AA@ 10001c90     imap_lib:fetch.obj
+ 0001:00000c98       ??_C@_13CGOKJPIL@?$AA?1?$AA?$AA@ 10001c98     imap_lib:fetch.obj
+ 0001:00000c9c       ??_C@_00CNPNBAHC@?$AA@     10001c9c     imap_lib:fetch.obj
+ 0001:00000ca0       ??_C@_03CGLHDMIP@?$CC?$AN?6?$AA@ 10001ca0     imap_lib:fetch.obj
+ 0001:00000ca4       ??_C@_0L@OGNAANAE@?7charset?$DN?$CC?$AA@ 10001ca4     imap_lib:fetch.obj
+ 0001:00000cb0       ??_C@_02BAABKJLB@?9?9?$AA@ 10001cb0     imap_lib:fetch.obj
+ 0001:00000cb4       ??_C@_03PMPGOKHC@To?3?$AA@ 10001cb4     imap_lib:fetch.obj
+ 0001:00000cb8       ??_C@_03DICCHMDA@Cc?3?$AA@ 10001cb8     imap_lib:fetch.obj
+ 0001:00000cbc       ??_C@_0M@DKMLMGHB@RFC822?4SIZE?$AA@ 10001cbc     imap_lib:fetch.obj
+ 0001:00000cc8       ??_C@_0O@HGIKMLN@RFC822?4HEADER?$AA@ 10001cc8     imap_lib:fetch.obj
+ 0001:00000cd8       ??_C@_04MEHDIIKB@BODY?$AA@ 10001cd8     imap_lib:fetch.obj
+ 0001:00000ce0       ??_C@_0O@GFDBCOIJ@BODYSTRUCTURE?$AA@ 10001ce0     imap_lib:fetch.obj
+ 0001:00000cf0       ??_C@_05MNNEKIOP@FLAGS?$AA@ 10001cf0     imap_lib:fetch.obj
+ 0001:00000cf8       ??_C@_0N@DBAANFJK@INTERNALDATE?$AA@ 10001cf8     imap_lib:fetch.obj
+ 0001:00000d08       ??_C@_09LCENMFDK@boundary?$DN?$AA@ 10001d08     imap_lib:fetch.obj
+ 0001:00000d14       ??_C@_0O@PEGDCNGN@Content?9type?3?$AA@ 10001d14     imap_lib:fetch.obj
+ 0001:00000d24       ??_C@_03MKABNOCG@Dec?$AA@  10001d24     imap_lib:headerfetcher.obj
+ 0001:00000d28       ??_C@_03JPJOFNIA@Nov?$AA@  10001d28     imap_lib:headerfetcher.obj
+ 0001:00000d2c       ??_C@_03BMAOKBAD@Oct?$AA@  10001d2c     imap_lib:headerfetcher.obj
+ 0001:00000d30       ??_C@_03GGCAPAJC@Sep?$AA@  10001d30     imap_lib:headerfetcher.obj
+ 0001:00000d34       ??_C@_03IFJFEIGA@Aug?$AA@  10001d34     imap_lib:headerfetcher.obj
+ 0001:00000d38       ??_C@_03LBGABGKK@Jul?$AA@  10001d38     imap_lib:headerfetcher.obj
+ 0001:00000d3c       ??_C@_03IDFGHECI@Jun?$AA@  10001d3c     imap_lib:headerfetcher.obj
+ 0001:00000d40       ??_C@_03CNMDKL@May?$AA@    10001d40     imap_lib:headerfetcher.obj
+ 0001:00000d44       ??_C@_03LEOLGMJP@Apr?$AA@  10001d44     imap_lib:headerfetcher.obj
+ 0001:00000d48       ??_C@_03ODNJBKGA@Mar?$AA@  10001d48     imap_lib:headerfetcher.obj
+ 0001:00000d4c       ??_C@_03HJBDCHOM@Feb?$AA@  10001d4c     imap_lib:headerfetcher.obj
+ 0001:00000d50       ??_C@_03JIHJHPIE@Jan?$AA@  10001d50     imap_lib:headerfetcher.obj
+ 0001:00000efc       ??_C@_08KPAHIJHB@?$CFd?9?$CFs?9?$CFd?$AA@ 10001efc     imap_lib:headerfetcher.obj
+ 0001:00000f08       ??_7CNTLMLogonSink@@6B@    10001f08     imap_lib:secntlm.obj
+ 0001:00000f28       ??_C@_07DGHJNBND@AUTH?$DN?$CK?$EA?$AA@ 10001f28     imap_lib:secntlm.obj
+ 0001:00000f30       ??_C@_0L@GBMJHMIE@AUTH?$DNNTLM?$EA?$AA@ 10001f30     imap_lib:secntlm.obj
+ 0001:00000f3c       ??_C@_09BGFFCIKP@?$FLREFERRAL?$AA@ 10001f3c     imap_lib:secntlm.obj
+ 0001:00000f48       ??_C@_19FMIOBHFB@?$AAN?$AAT?$AAL?$AAM?$AA?$AA@ 10001f48     imap_lib:secntlm.obj
+ 0001:00000f54       ??_C@_13NEIAEHFG@?$AA?$CC?$AA?$AA@ 10001f54     imap_lib:helpers.obj
+ 0001:00000f58       ??_C@_17GCMDLOIJ@?$AA?2?$AA?2?$AA?2?$AA?$AA@ 10001f58     imap_lib:helpers.obj
+ 0001:00000f60       ??_C@_17FAPJOKIE@?$AA?$CC?$AA?2?$AA?$CC?$AA?$AA@ 10001f60     imap_lib:helpers.obj
+ 0001:00000f68       ??_C@_01IHBHIGKO@?0?$AA@   10001f68     imap_lib:messageset.obj
+ 0001:00000f6c       ??_C@_01JLIPDDHJ@?3?$AA@   10001f6c     imap_lib:messageset.obj
+ 0001:00000f70       ??_C@_06MHOMHIDM@report?$AA@ 10001f70     imap_lib:bs.obj
+ 0001:00000f78       ??_C@_06CPIODIKA@signed?$AA@ 10001f78     imap_lib:bs.obj
+ 0001:00000f80       ??_C@_07BAKMHNGL@MESSAGE?$AA@ 10001f80     imap_lib:bs.obj
+ 0001:00000f88       ??_C@_05BNHKIGFN@IMAGE?$AA@ 10001f88     imap_lib:bs.obj
+ 0001:00000f90       ??_C@_05NEMPFMAF@VIDEO?$AA@ 10001f90     imap_lib:bs.obj
+ 0001:00000f98       ??_C@_05GGBGONMB@AUDIO?$AA@ 10001f98     imap_lib:bs.obj
+ 0001:00000fa0       ??_C@_0M@GPGGNAFB@APPLICATION?$AA@ 10001fa0     imap_lib:bs.obj
+ 0001:00000fac       ??_C@_07NNJCNEEG@related?$AA@ 10001fac     imap_lib:bs.obj
+ 0001:00000fb4       ??_C@_05IPHDHIPP@mixed?$AA@ 10001fb4     imap_lib:bs.obj
+ 0001:00000fbc       ??_C@_0M@HAJLPECN@alternative?$AA@ 10001fbc     imap_lib:bs.obj
+ 0001:00000fc8       ??_C@_04OEPMCOLO@TEXT?$AA@ 10001fc8     imap_lib:bs.obj
+ 0001:00000fd0       ??_C@_04MEMAJGDJ@name?$AA@ 10001fd0     imap_lib:bs.obj
+ 0001:00000fd8       ??_C@_07EAJPFAFH@charset?$AA@ 10001fd8     imap_lib:bs.obj
+ 0001:00000fe0       ??_C@_08BABJIOEM@filename?$AA@ 10001fe0     imap_lib:bs.obj
+ 0001:00000fec       ??_C@_08KIKGFOKI@boundary?$AA@ 10001fec     imap_lib:bs.obj
+ 0001:00000ff8       ??_C@_0L@DLCDAPFJ@MAC?9BINHEX?$AA@ 10001ff8     imap_lib:bs.obj
+ 0001:00001004       ??_C@_07OHGAPDMF@MS?9TNEF?$AA@ 10002004     imap_lib:bs.obj
+ 0001:0000100c       ??_C@_06OPILKGDG@RFC822?$AA@ 1000200c     imap_lib:bs.obj
+ 0001:00001014       ??_C@_0N@EGCJLBCP@?$CCattachment?$CC?$AA@ 10002014     imap_lib:bs.obj
+ 0001:00001024       ??_C@_0L@ONOOEIKN@?$CCCALENDAR?$CC?$AA@ 10002024     imap_lib:bs.obj
+ 0001:00001030       ??_C@_06KDGFFLFK@?$CCHTML?$CC?$AA@ 10002030     imap_lib:bs.obj
+ 0001:00001038       ??_C@_07CEPIOGLJ@?$CCPLAIN?$CC?$AA@ 10002038     imap_lib:bs.obj
+ 0001:00001040       ??_C@_1BO@OOFKALJF@?$AAP?$AAa?$AAt?$AAh?$AAM?$AAa?$AAt?$AAc?$AAh?$AAS?$AAp?$AAe?$AAc?$AAW?$AA?$AA@ 10002040     imap_lib:delayload.obj
+ 0001:00001060       ??_C@_1BI@BBABAIPH@?$AAs?$AAh?$AAl?$AAw?$AAa?$AAp?$AAi?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 10002060     imap_lib:delayload.obj
+ 0001:000012f0       ??_7CLocalSink@@6B@        100022f0     pop3_lib:onestop_pop3.obj
+ 0001:00001300       ??_C@_01LFCBOECM@?4?$AA@   10002300     pop3_lib:onestop_pop3.obj
+ 0001:00001304       ??_C@_04HDOCAJNK@?$CFs?$CFs?$AA@ 10002304     pop3_lib:onestop_pop3.obj
+ 0001:00001310       ??_7CPopSyncHandler@@6B@   10002310     pop3_lib:onestop_pop3.obj
+ 0001:0000145c       ??_7CCEPOP3Transport@@6B@  1000245c     pop3_lib:pop3.obj
+ 0001:00001488       ??_7CMailDatabase@@6B@     10002488     pop3_lib:MailDatabase.obj
+ 0001:00001490       ??_7CDeleteItemQueue@@6B@  10002490     pop3_lib:MailDatabase.obj
+ 0001:00001498       ??_7CUidlTable@@6B@        10002498     pop3_lib:amc.obj
+ 0001:000014a0       ??_7CAgedMessageCache@@6B@ 100024a0     pop3_lib:amc.obj
+ 0001:000014dc       ??_C@_09PKLOBKAG@?$CFs?$CFd?5?$CFd?$AN?6?$AA@ 100024dc     pop3_lib:cmds.obj
+ 0001:000014e8       ??_C@_07HGJGONDK@?$CFs?5?$CFd?$CFs?$AA@ 100024e8     pop3_lib:cmds.obj
+ 0001:000014f8       ??_C@_04OKBHFPDP@STLS?$AA@ 100024f8     pop3_lib:CmdHandlers.obj
+ 0001:00001500       ??_C@_03FLKJCPLP@TOP?$AA@  10002500     pop3_lib:CmdHandlers.obj
+ 0001:00001504       ??_C@_04EGNHKPL@UIDL?$AA@  10002504     pop3_lib:CmdHandlers.obj
+ 0001:000015bc       ??_C@_03GMGBIDDH@?4?$AN?6?$AA@ 100025bc     pop3_lib:parse.obj
+ 0001:000016d0       ??_7CSMTPSyncHandler@@6B@  100026d0     smtp_lib:onestop_smtp.obj
+ 0001:00001710       ??_C@_1BK@HNJHCGFJ@?$AAS?$AAM?$AAT?$AAP?$AAC?$AAr?$AAe?$AAd?$AAI?$AAn?$AAi?$AAt?$AA?$AA@ 10002710     smtp_lib:onestop_smtp.obj
+ 0001:0000172c       ??_C@_1BC@LECBLPHC@?$AAS?$AAM?$AAT?$AAP?$AAC?$AAr?$AAe?$AAd?$AA?$AA@ 1000272c     smtp_lib:onestop_smtp.obj
+ 0001:00001740       ??_C@_1O@PGPKKGDJ@?$AAS?$AAT?$AAS?$AAM?$AAT?$AAP?$AA?$AA@ 10002740     smtp_lib:onestop_smtp.obj
+ 0001:00001860       ??_7CCESMTPDriver@@6B@     10002860     smtp_lib:smtp.obj
+ 0001:000018dc       ??_C@_13GEEGGHPK@?$AA?$DM?$AA?$AA@ 100028dc     smtp_lib:send.obj
+ 0001:000018e0       ??_C@_13MOEPKPHB@?$AA?$DO?$AA?$AA@ 100028e0     smtp_lib:send.obj
+ 0001:000018e4       ??_C@_04JHCEEOPB@?$AN?6?4?4?$AA@ 100028e4     smtp_lib:send.obj
+ 0001:000018ec       ??_C@_15JNBOKNOG@?$AA?$AN?$AA?6?$AA?$AA@ 100028ec     smtp_lib:send.obj
+ 0001:000018f4       ??_C@_11LOCGONAA@?$AA?$AA@ 100028f4     smtp_lib:send.obj
+ 0001:000018f8       ??_C@_01PPODPGHN@?$DO?$AA@ 100028f8     smtp_lib:send.obj
+ 0001:000018fc       ??_C@_01MNNFJEPP@?$DM?$AA@ 100028fc     smtp_lib:send.obj
+ 0001:00001998       ??_C@_1BE@EFOMHEIG@?$AAM?$AAE?$AAS?$AAS?$AAA?$AAG?$AAI?$AAN?$AAG?$AA?$AA@ 10002998     mailtrns_support:socket.obj
+ 0001:000019ac       ??_7CSocket@@6B@           100029ac     mailtrns_support:socket.obj
+ 0001:000019c0       ??_7CBufferedSocket@@6B@   100029c0     mailtrns_support:socket.obj
+ 0001:000019f0       ??_C@_1DA@FFEKONDC@?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AAT?$AAr?$AAa?$AAc?$AAk?$AAe?$AAr?$AA?3?$AAO?$AAn?$AAN?$AAo?$AAt?$AAi?$AAf?$AAy?$AA?$AA@ 100029f0     mailtrns_support:perf.obj
+ 0001:00001a20       ??_C@_1CO@EOCJOPDO@?$AAB?$AAu?$AAf?$AAf?$AAe?$AAr?$AAe?$AAd?$AAS?$AAo?$AAc?$AAk?$AAe?$AAt?$AA?3?$AAR?$AAe?$AAc?$AAe?$AAi?$AAv?$AAe?$AA?$AA@ 10002a20     mailtrns_support:perf.obj
+ 0001:00001a50       ??_C@_1CI@HPLADJHL@?$AAB?$AAu?$AAf?$AAf?$AAe?$AAr?$AAe?$AAd?$AAS?$AAo?$AAc?$AAk?$AAe?$AAt?$AA?3?$AAS?$AAe?$AAn?$AAd?$AA?$AA@ 10002a50     mailtrns_support:perf.obj
+ 0001:00001a78       ??_C@_1BO@LCOFICIB@?$AAS?$AAo?$AAc?$AAk?$AAe?$AAt?$AA?3?$AAR?$AAe?$AAc?$AAe?$AAi?$AAv?$AAe?$AA?$AA@ 10002a78     mailtrns_support:perf.obj
+ 0001:00001a98       ??_C@_1BI@FLDKJJJC@?$AAS?$AAo?$AAc?$AAk?$AAe?$AAt?$AA?3?$AAS?$AAe?$AAn?$AAd?$AA?$AA@ 10002a98     mailtrns_support:perf.obj
+ 0001:00001ab0       ??_C@_1DG@DCOAJOEM@?$AAS?$AAo?$AAc?$AAk?$AAe?$AAt?$AA?3?$AAP?$AAe?$AAr?$AAf?$AAo?$AAr?$AAm?$AAS?$AAS?$AAL?$AAH?$AAa?$AAn?$AAd?$AAs?$AAh?$AAa?$AAk?$AAe?$AA?$AA@ 10002ab0     mailtrns_support:perf.obj
+ 0001:00001ae8       ??_C@_1CE@COOPKKOC@?$AAS?$AAo?$AAc?$AAk?$AAe?$AAt?$AA?3?$AAS?$AAe?$AAt?$AAS?$AAo?$AAc?$AAk?$AAO?$AAp?$AAt?$AA?$AA@ 10002ae8     mailtrns_support:perf.obj
+ 0001:00001b0c       ??_C@_1DC@EODNILOM@?$AAS?$AAo?$AAc?$AAk?$AAe?$AAt?$AA?3?$AAS?$AAt?$AAo?$AAr?$AAe?$AAA?$AAc?$AAc?$AAe?$AAp?$AAt?$AAe?$AAd?$AAC?$AAe?$AAr?$AAt?$AA?$AA@ 10002b0c     mailtrns_support:perf.obj
+ 0001:00001b40       ??_C@_1CE@FPDMHIAE@?$AAS?$AAo?$AAc?$AAk?$AAe?$AAt?$AA?3?$AAV?$AAe?$AAr?$AAi?$AAf?$AAy?$AAC?$AAe?$AAr?$AAt?$AA?$AA@ 10002b40     mailtrns_support:perf.obj
+ 0001:00001b64       ??_C@_1BK@OECIGLPI@?$AAS?$AAo?$AAc?$AAk?$AAe?$AAt?$AA?3?$AAC?$AAl?$AAo?$AAs?$AAe?$AA?$AA@ 10002b64     mailtrns_support:perf.obj
+ 0001:00001b80       ??_C@_1BO@KCMDLLJB@?$AAS?$AAo?$AAc?$AAk?$AAe?$AAt?$AA?3?$AAC?$AAo?$AAn?$AAn?$AAe?$AAc?$AAt?$AA?$AA@ 10002b80     mailtrns_support:perf.obj
+ 0001:00001ba0       ??_C@_1CC@DKCHAGP@?$AAS?$AAM?$AAT?$AAP?$AA?3?$AA?3?$AAI?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz?$AAe?$AA?$AA@ 10002ba0     mailtrns_support:perf.obj
+ 0001:00001bc4       ??_C@_1CA@PHBHIHLL@?$AAP?$AAO?$AAP?$AA?3?$AA?3?$AAI?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz?$AAe?$AA?$AA@ 10002bc4     mailtrns_support:perf.obj
+ 0001:00001be4       ??_C@_1CC@CNHMBHHL@?$AAI?$AAM?$AAA?$AAP?$AA?3?$AA?3?$AAI?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz?$AAe?$AA?$AA@ 10002be4     mailtrns_support:perf.obj
+ 0001:00001c08       ??_C@_1CA@EEBHEODD@?$AAS?$AAM?$AAS?$AA?3?$AA?3?$AAI?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz?$AAe?$AA?$AA@ 10002c08     mailtrns_support:perf.obj
+ 0001:00001c28       ??_C@_1BO@NJCDNNML@?$AAB?$AAy?$AAt?$AAe?$AAs?$AA?5?$AAR?$AAe?$AAc?$AAe?$AAi?$AAv?$AAe?$AAd?$AA?$AA@ 10002c28     mailtrns_support:perf.obj
+ 0001:00001c48       ??_C@_1CO@KPNKJEE@?$AAS?$AAM?$AAS?$AA?3?$AA?3?$AAS?$AAe?$AAn?$AAd?$AAM?$AAs?$AAg?$AAT?$AAo?$AAO?$AAn?$AAe?$AAR?$AAe?$AAc?$AAi?$AAp?$AA?$AA@ 10002c48     mailtrns_support:perf.obj
+ 0001:00001c78       ??_C@_1DI@NMPOIFMF@?$AAS?$AAM?$AAS?$AA?3?$AA?3?$AAS?$AAc?$AAe?$AAn?$AA_?$AAU?$AAs?$AAe?$AAr?$AAS?$AAn?$AAd?$AAT?$AAo?$AAT?$AAr?$AAa?$AAn?$AAs?$AAS?$AAn?$AAt?$AA?$AA@ 10002c78     mailtrns_support:perf.obj
+ 0001:00001cb0       ??_C@_1BO@GPADPFKA@?$AA?2?$AAm?$AAd?$AAd?$AAc?$AAe?$AAp?$AAe?$AAr?$AAf?$AA?4?$AAl?$AAo?$AAg?$AA?$AA@ 10002cb0     mailtrns_support:perf.obj
+ 0001:00001cd0       ??_C@_1BG@PJBDKEII@?$AAM?$AAD?$AAP?$AAG?$AA?2?$AAI?$AAn?$AAb?$AAo?$AAx?$AA?$AA@ 10002cd0     mailtrns_support:perf.obj
+ 0001:00001ce8       ??_C@_1BI@CLPDKHJC@?$AAS?$AAo?$AAc?$AAk?$AAs?$AA4?$AAP?$AAr?$AAo?$AAx?$AAy?$AA?$AA@ 10002ce8     mailtrns_support:mailconnect.obj
+ 0001:00001d48       ??_7CMessageTracker@@6B@   10002d48     mailtrns_support:msgtrack.obj
+ 0001:00001d80       ??_C@_1CI@IOMCNBD@?$AAi?$AAm?$AAa?$AAp?$AA?4?$AAg?$AAo?$AAo?$AAg?$AAl?$AAe?$AAm?$AAa?$AAi?$AAl?$AA?4?$AAc?$AAo?$AAm?$AA?$AA@ 10002d80     mailtrns_support:preauth.obj
+ 0001:00001da8       ??_C@_1BO@GGGDEJHC@?$AAi?$AAm?$AAa?$AAp?$AA?4?$AAg?$AAm?$AAa?$AAi?$AAl?$AA?4?$AAc?$AAo?$AAm?$AA?$AA@ 10002da8     mailtrns_support:preauth.obj
+ 0001:00001dc8       ??_C@_1CG@JGIENFOO@?$AAp?$AAo?$AAp?$AA?4?$AAg?$AAo?$AAo?$AAg?$AAl?$AAe?$AAm?$AAa?$AAi?$AAl?$AA?4?$AAc?$AAo?$AAm?$AA?$AA@ 10002dc8     mailtrns_support:preauth.obj
+ 0001:00001df0       ??_C@_1BM@GAHNLDDG@?$AAp?$AAo?$AAp?$AA?4?$AAg?$AAm?$AAa?$AAi?$AAl?$AA?4?$AAc?$AAo?$AAm?$AA?$AA@ 10002df0     mailtrns_support:preauth.obj
+ 0001:00001e0c       ??_C@_1CC@KJDIGDNL@?$AAG?$AAm?$AAa?$AAi?$AAl?$AAI?$AAM?$AAA?$AAP?$AAS?$AAe?$AAr?$AAv?$AAe?$AAr?$AAs?$AA?$AA@ 10002e0c     mailtrns_support:preauth.obj
+ 0001:00001e30       ??_C@_1EG@CFIJGFDP@?$AAS?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAI?$AAn?$AAb?$AAo?$AAx?$AA?2?$AAS?$AAv?$AAc?$AA?2?$AAI?$AAM?$AAA@ 10002e30     mailtrns_support:preauth.obj
+ 0001:00001e78       ??_C@_1FG@JILEPHNF@?$AA?1?$AAm?$AAa?$AAi?$AAl?$AA?1?$AAx?$AAn?$AAo?$AAt?$AAi?$AAf?$AAy?$AA?1?$AAe?$AAn?$AAa?$AAb?$AAl?$AAe?$AAi?$AAm?$AAa?$AAp?$AA?$DP?$AAp?$AAa?$AAr?$AAt?$AAn?$AAe?$AAr@ 10002e78     mailtrns_support:preauth.obj
+ 0001:00001ed0       ??_C@_1CC@CDMHAJKO@?$AAG?$AAm?$AAa?$AAi?$AAl?$AAP?$AAO?$AAP?$AA3?$AAS?$AAe?$AAr?$AAv?$AAe?$AAr?$AAs?$AA?$AA@ 10002ed0     mailtrns_support:preauth.obj
+ 0001:00001ef8       ??_C@_1EE@BHGOGEDE@?$AAS?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAI?$AAn?$AAb?$AAo?$AAx?$AA?2?$AAS?$AAv?$AAc?$AA?2?$AAP?$AAO?$AAP@ 10002ef8     mailtrns_support:preauth.obj
+ 0001:00001f40       ??_C@_1FE@MPKMEBD@?$AA?1?$AAm?$AAa?$AAi?$AAl?$AA?1?$AAx?$AAn?$AAo?$AAt?$AAi?$AAf?$AAy?$AA?1?$AAe?$AAn?$AAa?$AAb?$AAl?$AAe?$AAp?$AAo?$AAp?$AA?$DP?$AAp?$AAa?$AAr?$AAt?$AAn?$AAe?$AAr?$AA?$DN@ 10002f40     mailtrns_support:preauth.obj
+ 0001:000020ec       ??_7CGmailPreAuthPiece@PreAuth@@6B@ 100030ec     mailtrns_support:preauth.obj
+ 0001:000020f4       ??_C@_13PJJBFPED@?$AA?$DL?$AA?$AA@ 100030f4     mailtrns_support:preauth.obj
+ 0001:00002138       ??_C@_04ELPDIOFA@?9ERR?$AA@ 10003138     mailtrns_support:RfcParse.obj
+ 0001:00002140       ??_C@_03MBMDFEOP@?$CLOK?$AA@ 10003140     mailtrns_support:RfcParse.obj
+ 0001:00002144       ??_C@_1BI@HLLGKMIP@?$AAs?$AAe?$AAc?$AAu?$AAr?$AA3?$AA2?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10003144     mailtrns_support:authsic.obj
+ 0001:000029e8       ??_C@_1FC@BAMBKEHA@?$AAC?$AAa?$AAn?$AAn?$AAo?$AAt?$AA?5?$AAg?$AAe?$AAt?$AA?5?$AAt?$AAh?$AAe?$AA?5?$AAs?$AAe?$AAc?$AAu?$AAr?$AAi?$AAt?$AAy?$AA?5?$AAf?$AAu?$AAn?$AAc?$AAt?$AAi?$AAo?$AAn@ 100039e8     mailtrns_support:authsic.obj
+ 0001:00002a3c       ??_C@_1CO@OCJOELHN@?$AAC?$AAa?$AAn?$AAn?$AAo?$AAt?$AA?5?$AAf?$AAi?$AAn?$AAd?$AA?5?$AA?$CF?$AAs?$AA?5?$AAi?$AAn?$AA?5?$AA?$CF?$AAs?$AA?$AN?$AA?6?$AA?$AA@ 10003a3c     mailtrns_support:authsic.obj
+ 0001:00002a6c       ??_C@_1CO@KFPLCCGJ@?$AAI?$AAn?$AAi?$AAt?$AAS?$AAe?$AAc?$AAu?$AAr?$AAi?$AAt?$AAy?$AAI?$AAn?$AAt?$AAe?$AAr?$AAf?$AAa?$AAc?$AAe?$AAW?$AA?$AA@ 10003a6c     mailtrns_support:authsic.obj
+ 0001:00002aa0       ??_C@_1EE@IJKOBBDE@?$AAF?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AAt?$AAo?$AA?5?$AAg?$AAe?$AAt?$AA?5?$AAC?$AAr?$AAe?$AAd?$AAe?$AAn?$AAt?$AAi?$AAa?$AAl?$AA?5?$AAH?$AAa?$AAn?$AAd?$AAl?$AAe?$AA?$AN@ 10003aa0     mailtrns_support:authsic.obj
+ 0001:00002ae4       ??_C@_1DA@MKLFNCNO@?$AAS?$AAi?$AAc?$AAi?$AAl?$AAy?$AA?5?$AAD?$AAL?$AAL?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAl?$AAo?$AAa?$AAd?$AAe?$AAd?$AA?$AN?$AA?6?$AA?$AA@ 10003ae4     mailtrns_support:authsic.obj
+ 0001:00002b18       ??_C@_1JI@CIFBJLME@?$AAS?$AAi?$AAc?$AAi?$AAl?$AAy?$AAL?$AAo?$AAg?$AAo?$AAn?$AA?5?$AAc?$AAa?$AAl?$AAl?$AAe?$AAd?$AA?5?$AAf?$AAo?$AAr?$AA?5?$AAP?$AAA?$AAC?$AAK?$AAA?$AAG?$AAE?$AA?$DN?$AA?$CF@ 10003b18     mailtrns_support:authsic.obj
+ 0001:00002bb0       ??_C@_1EI@NOJILNDN@?$AAE?$AAn?$AAu?$AAm?$AAe?$AAr?$AAa?$AAt?$AAe?$AAS?$AAe?$AAc?$AAu?$AAr?$AAi?$AAt?$AAy?$AAP?$AAa?$AAc?$AAk?$AAa?$AAg?$AAe?$AAs?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd@ 10003bb0     mailtrns_support:authsic.obj
+ 0001:00002bf8       ??_C@_1FI@DMAIGHKK@?$AAR?$AAe?$AAt?$AAr?$AAe?$AAi?$AAv?$AAe?$AAd?$AA?5?$AA?$CF?$AAl?$AAd?$AA?5?$AAi?$AAn?$AAs?$AAt?$AAa?$AAl?$AAl?$AAe?$AAd?$AA?5?$AAs?$AAe?$AAc?$AAu?$AAr?$AAi?$AAt?$AAy@ 10003bf8     mailtrns_support:authsic.obj
+ 0001:00002c50       ??_C@_1CO@NKBIHGLE@?$AAG?$AAe?$AAt?$AAI?$AAn?$AAs?$AAt?$AAa?$AAl?$AAl?$AAe?$AAd?$AAP?$AAa?$AAc?$AAk?$AAa?$AAg?$AAe?$AAs?$AA?$AN?$AA?6?$AA?$AA@ 10003c50     mailtrns_support:authsic.obj
+ 0001:00002c80       ??_C@_1EK@CNANKBNJ@?$AAF?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AAt?$AAo?$AA?5?$AAb?$AAu?$AAi?$AAl?$AAd?$AA?5?$AAN?$AAe?$AAg?$AAo?$AAt?$AAi?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAS?$AAt?$AAr?$AAi@ 10003c80     mailtrns_support:authsic.obj
+ 0001:00002cd0       ??_C@_1FK@LHKHHCLC@?$AAS?$AAi?$AAc?$AAi?$AAl?$AAy?$AAG?$AAe?$AAt?$AAN?$AAe?$AAg?$AAo?$AAt?$AAi?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAc?$AAa?$AAl?$AAl?$AAe?$AAd?$AA?5?$AAf?$AAo?$AAr?$AA?5@ 10003cd0     mailtrns_support:authsic.obj
+ 0001:00002d30       ??_C@_1EO@JLGFMIMJ@?$AAG?$AAe?$AAt?$AAI?$AAn?$AAs?$AAt?$AAa?$AAl?$AAl?$AAe?$AAd?$AAP?$AAa?$AAc?$AAk?$AAa?$AAg?$AAe?$AAs?$AA?$CI?$AA?$CJ?$AA?5?$AAr?$AAe?$AAt?$AAu?$AAr?$AAn?$AAs?$AA?5?$AAF@ 10003d30     mailtrns_support:authsic.obj
+ 0001:00002d80       ??_C@_1EM@OLAJPLAB@?$AAG?$AAe?$AAt?$AAI?$AAn?$AAs?$AAt?$AAa?$AAl?$AAl?$AAe?$AAd?$AAP?$AAa?$AAc?$AAk?$AAa?$AAg?$AAe?$AAs?$AA?5?$AAc?$AAa?$AAl?$AAl?$AAe?$AAd?$AA?5?$AAw?$AAi?$AAt?$AAh@ 10003d80     mailtrns_support:authsic.obj
+ 0001:00002dcc       ??_C@_1BK@HMIGFADK@?$AAI?$AAn?$AAb?$AAo?$AAx?$AAM?$AAo?$AAn?$AAi?$AAt?$AAo?$AAr?$AA?$AA@ 10003dcc     mailtrns_support:qanotify.obj
+ 0001:00002e10       ?GetSMTPClient@@YAJPAPAVIMailSyncHandler@@@Z 10003e10 f   dllmain.obj
+ 0001:00002e20       DllMain                    10003e20 f   dllmain.obj
+ 0001:00002e54       OneStopFactory             10003e54 f   dllmain.obj
+ 0001:00002ec8       CePerfBeginDuration        10003ec8 f i imap_lib:onestop_imap.obj
+ 0001:00002f3c       CePerfEndDuration          10003f3c f i imap_lib:onestop_imap.obj
+ 0001:0000306c       ?AtlComPtrAssign@ATL@@YAPAUIUnknown@@PAPAU2@PAU2@@Z 1000406c f i imap_lib:onestop_imap.obj
+ 0001:000030b8       ?OnMessageStatusChange@CMessageTrackerSink@@UAAXPAUIMessage@@PAU_OBJECT_NOTIFICATION@@@Z 100040b8 f i imap_lib:onestop_imap.obj
+ 0001:000030bc       ?OnMessageFlagChange@CMessageTrackerSink@@UAAXPAUIMessage@@KPAUENTRYID@@@Z 100040bc f i imap_lib:onestop_imap.obj
+ 0001:000030c0       ?OnMoveToWastebasket@CMessageTrackerSink@@UAAXPAU_NOTIFICATION@@@Z 100040c0 f i imap_lib:onestop_imap.obj
+ 0001:000030c4       ?OnMoveFromWastebasket@CMessageTrackerSink@@UAAXPAU_NOTIFICATION@@@Z 100040c4 f i imap_lib:onestop_imap.obj
+ 0001:000030c8       ?OnMoveToOutbox@CMessageTrackerSink@@UAAXPAU_NOTIFICATION@@@Z 100040c8 f i imap_lib:onestop_imap.obj
+ 0001:000030cc       ?OnObjectCreated@CMessageTrackerSink@@UAAXPAU_OBJECT_NOTIFICATION@@@Z 100040cc f i imap_lib:onestop_imap.obj
+ 0001:000030d0       ?OnObjectDeleted@CMessageTrackerSink@@UAAXPAU_OBJECT_NOTIFICATION@@@Z 100040d0 f i imap_lib:onestop_imap.obj
+ 0001:000030d4       ?OnObjectMoved@CMessageTrackerSink@@UAAXPAU_OBJECT_NOTIFICATION@@@Z 100040d4 f i imap_lib:onestop_imap.obj
+ 0001:000030d8       ?OnObjectModified@CMessageTrackerSink@@UAAXPAU_OBJECT_NOTIFICATION@@@Z 100040d8 f i imap_lib:onestop_imap.obj
+ 0001:000030dc       ?IsFolderToSync@CImapSyncHandler@@QAAHPAU_SPropValue@@0@Z 100040dc f   imap_lib:onestop_imap.obj
+ 0001:00003124       ?GetFolderHierarchy@CImapSyncHandler@@UAAJPAPAU_FOLDERNODE@@@Z 10004124 f   imap_lib:onestop_imap.obj
+ 0001:00003130       ?OnFolderOptions_QueryDownload@CImapSyncHandler@@AAAJPAUIMAPIFolder@@PAU_SPropValue@@@Z 10004130 f   imap_lib:onestop_imap.obj
+ 0001:000031d4       ?UnMarkFolderForSync@CImapSyncHandler@@AAAJPAUIMAPIFolder@@@Z 100041d4 f   imap_lib:onestop_imap.obj
+ 0001:000032a0       ?OnFolderOptions_QueryCreate@CImapSyncHandler@@AAAJPAUIMAPIFolder@@PAU_SPropValue@@@Z 100042a0 f   imap_lib:onestop_imap.obj
+ 0001:0000333c       ?OnFolderOptions_SetFetchOption@CImapSyncHandler@@AAAJW4FOLDEROPTIONS@IMailSyncHandler@@PAUIMAPIFolder@@PAU_SPropValue@@@Z 1000433c f   imap_lib:onestop_imap.obj
+ 0001:000033c0       ?OnFolderOptions_GetFetchOption@CImapSyncHandler@@AAAJW4FOLDEROPTIONS@IMailSyncHandler@@PAUIMAPIFolder@@PAU_SPropValue@@@Z 100043c0 f   imap_lib:onestop_imap.obj
+ 0001:00003498       ?QueryInterface@CImapSyncHandler@@UAAJABU_GUID@@PAPAX@Z 10004498 f   imap_lib:onestop_imap.obj
+ 0001:000034a4       ?AddRef@CImapSyncHandler@@UAAKXZ 100044a4 f   imap_lib:onestop_imap.obj
+ 0001:000034ac       ?OnMessageStatusChange@CImapSyncHandler@@UAAXPAUIMessage@@PAU_OBJECT_NOTIFICATION@@@Z 100044ac f   imap_lib:onestop_imap.obj
+ 0001:00003568       ?OnMessageFlagChange@CImapSyncHandler@@UAAXPAUIMessage@@KPAUENTRYID@@@Z 10004568 f   imap_lib:onestop_imap.obj
+ 0001:00003704       ?OnMoveFromWastebasket@CImapSyncHandler@@UAAXPAU_NOTIFICATION@@@Z 10004704 f   imap_lib:onestop_imap.obj
+ 0001:0000371c       ?OnMoveToWastebasket@CImapSyncHandler@@UAAXPAU_NOTIFICATION@@@Z 1000471c f   imap_lib:onestop_imap.obj
+ 0001:00003734       ?OnObjectModified@CImapSyncHandler@@UAAXPAU_OBJECT_NOTIFICATION@@@Z 10004734 f   imap_lib:onestop_imap.obj
+ 0001:0000379c       ?OnObjectDeleted@CImapSyncHandler@@UAAXPAU_OBJECT_NOTIFICATION@@@Z 1000479c f   imap_lib:onestop_imap.obj
+ 0001:000037cc       ?DoProperties@CImapSyncHandler@@UAAJPAUHWND__@@@Z 100047cc f   imap_lib:onestop_imap.obj
+ 0001:000037d8       ?GetCapability@CImapSyncHandler@@UAAJPBGPAU_SPropValue@@@Z 100047d8 f   imap_lib:onestop_imap.obj
+ 0001:000038bc       ?SetCapability@CImapSyncHandler@@UAAJPBGPAU_SPropValue@@@Z 100048bc f   imap_lib:onestop_imap.obj
+ 0001:00003910       ?FixupExcludeFolders@CImapSyncHandler@@AAAJXZ 10004910 f   imap_lib:onestop_imap.obj
+ 0001:00003a1c       ?QueryNamespace@CImapSyncHandler@@AAAJXZ 10004a1c f   imap_lib:onestop_imap.obj
+ 0001:00003a5c       ?GetModifiedUTF7Path@CImapSyncHandler@@AAAIPBGPAPAD@Z 10004a5c f   imap_lib:onestop_imap.obj
+ 0001:00003b14       ?SetFolderPath@CImapSyncHandler@@AAAJPAUIMAPIFolder@@PAD1@Z 10004b14 f   imap_lib:onestop_imap.obj
+ 0001:00003b98       ?IsBadFolderName@CImapSyncHandler@@AAAHPBG@Z 10004b98 f   imap_lib:onestop_imap.obj
+ 0001:00003bcc       ?_SyncCheckDuplicateInWastebasketCallback@CImapSyncHandler@@CAJJKPAU_SPropValue@@PAUIMAPIFolder@@1@Z 10004bcc f   imap_lib:onestop_imap.obj
+ 0001:00003c10       ?Disconnect@CImapSyncHandler@@UAAJK@Z 10004c10 f   imap_lib:onestop_imap.obj
+ 0001:00003c48       ?IsExcludeFolder@CImapSyncHandler@@AAAHPBD@Z 10004c48 f   imap_lib:onestop_imap.obj
+ 0001:00003c94       ?CheckHTMLPolicy@CImapSyncHandler@@AAAXXZ 10004c94 f   imap_lib:onestop_imap.obj
+ 0001:00003ccc       ?_Grow@?$_string_t@D$0BA@U?$char_traits@D@ce@@Vallocator@2@@ce@@IAA_NI@Z 10004ccc f i imap_lib:onestop_imap.obj
+ 0001:00003d50       ??1_buffer@?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@QAA@XZ 10004d50 f i imap_lib:onestop_imap.obj
+ 0001:00003da0       ??1_buffer@?$_string_t@D$0BA@U?$char_traits@D@ce@@Vallocator@2@@ce@@QAA@XZ 10004da0 f i imap_lib:onestop_imap.obj
+ 0001:00003de8       ?Set@CEntryId@@QAAJKPAUENTRYID@@@Z 10004de8 f i imap_lib:onestop_imap.obj
+ 0001:00003e7c       ??1CImapSyncHandler@@QAA@XZ 10004e7c f   imap_lib:onestop_imap.obj
+ 0001:00004000       ?GetDeletePath@CImapSyncHandler@@UAAPADXZ 10005000 f i imap_lib:onestop_imap.obj
+ 0001:00004008       ?GetSentItemsPath@CImapSyncHandler@@UAAPADXZ 10005008 f i imap_lib:onestop_imap.obj
+ 0001:00004010       ?MarkFolderForSync@CImapSyncHandler@@AAAJPAUIMAPIFolder@@@Z 10005010 f   imap_lib:onestop_imap.obj
+ 0001:000040d0       ?OnFolderOptions_Create@CImapSyncHandler@@AAAJPAUIMAPIFolder@@PAU_SPropValue@@@Z 100050d0 f   imap_lib:onestop_imap.obj
+ 0001:0000415c       ?SetFolderOptions@CImapSyncHandler@@UAAJPAUIMAPIFolder@@PAU_FOLDERNODE@@W4FOLDEROPTIONS@IMailSyncHandler@@PAU_SPropValue@@@Z 1000515c f   imap_lib:onestop_imap.obj
+ 0001:000042a4       ?OnObjectMoved@CImapSyncHandler@@UAAXPAU_OBJECT_NOTIFICATION@@@Z 100052a4 f   imap_lib:onestop_imap.obj
+ 0001:000044d4       ?OnMoveToOutbox@CImapSyncHandler@@UAAXPAU_NOTIFICATION@@@Z 100054d4 f   imap_lib:onestop_imap.obj
+ 0001:0000457c       ?RestoreSettings@CImapSyncHandler@@AAAJXZ 1000557c f   imap_lib:onestop_imap.obj
+ 0001:00004c04       ?Install@CImapSyncHandler@@UAAJPBG00PAU_GUID@@@Z 10005c04 f   imap_lib:onestop_imap.obj
+ 0001:00004c60       ?LogEvent@CImapSyncHandler@@AAAJJ@Z 10005c60 f   imap_lib:onestop_imap.obj
+ 0001:00004cec       ?GetMsgStoreValues@CImapSyncHandler@@AAAJXZ 10005cec f   imap_lib:onestop_imap.obj
+ 0001:00004e50       ?Connect@CImapSyncHandler@@UAAJKPAU_SYNCCREDENTIALS@@@Z 10005e50 f   imap_lib:onestop_imap.obj
+ 0001:000050c0       ?SendMessages@CImapSyncHandler@@AAAJXZ 100060c0 f   imap_lib:onestop_imap.obj
+ 0001:00005124       ?_SendThreadProc@CImapSyncHandler@@CAKPAX@Z 10006124 f   imap_lib:onestop_imap.obj
+ 0001:00005158       ?TreeFetcherCallback@CImapSyncHandler@@UAAJPAUIMAPIFolder@@PBD1DPAPAU2@@Z 10006158 f   imap_lib:onestop_imap.obj
+ 0001:000053c4       ?assign@?$_string_t@D$0BA@U?$char_traits@D@ce@@Vallocator@2@@ce@@QAA_NPBDII@Z 100063c4 f i imap_lib:onestop_imap.obj
+ 0001:00005428       ?get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ 10006428 f i imap_lib:onestop_imap.obj
+ 0001:0000547c       ?_Grow@?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@IAA_NI@Z 1000647c f i imap_lib:onestop_imap.obj
+ 0001:0000550c       ?_BodyFetchEnumCallback@CImapSyncHandler@@CAJJKPAU_SPropValue@@PAUIMAPIFolder@@1@Z 1000650c f   imap_lib:onestop_imap.obj
+ 0001:000057ac       ?PopulateFetchQueue@CImapSyncHandler@@AAAJPAUIMAPIFolder@@H@Z 100067ac f   imap_lib:onestop_imap.obj
+ 0001:00005854       ?SyncMoveMessagesFromFolder@CImapSyncHandler@@AAAJPAUCSvcCtx@@@Z 10006854 f   imap_lib:onestop_imap.obj
+ 0001:000061a4       ?Release@CImapSyncHandler@@UAAKXZ 100071a4 f   imap_lib:onestop_imap.obj
+ 0001:000061dc       ?ShutDown@CImapSyncHandler@@UAAJK@Z 100071dc f   imap_lib:onestop_imap.obj
+ 0001:0000621c       ?UnInstall@CImapSyncHandler@@UAAJXZ 1000721c f   imap_lib:onestop_imap.obj
+ 0001:00006240       ?EmptyFolder@CImapSyncHandler@@CAJPAUIMAPIFolder@@@Z 10007240 f   imap_lib:onestop_imap.obj
+ 0001:00006380       ?assign@?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@QAA_NPBGII@Z 10007380 f i imap_lib:onestop_imap.obj
+ 0001:000063e8       ??$MultiByteToWideChar@$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@YAHIPBDHPAV?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@0@K@Z 100073e8 f i imap_lib:onestop_imap.obj
+ 0001:000064a8       ??$WideCharToMultiByte@$0BA@U?$char_traits@D@ce@@Vallocator@2@@ce@@YAHIPBGHPAV?$_string_t@D$0BA@U?$char_traits@D@ce@@Vallocator@2@@0@KPBDPAH@Z 100074a8 f i imap_lib:onestop_imap.obj
+ 0001:00006584       ??0CImapSyncHandler@@QAA@XZ 10007584 f   imap_lib:onestop_imap.obj
+ 0001:000066f0       ?Initialize@CImapSyncHandler@@UAAJPAVIMailSyncCallBack@@PBGPAUIMsgStore@@@Z 100076f0 f   imap_lib:onestop_imap.obj
+ 0001:00006c40       ?GetUTF7Wastebasket@CImapSyncHandler@@AAAJPAPADPAI@Z 10007c40 f   imap_lib:onestop_imap.obj
+ 0001:00006dc8       ?IsFolderInWastebasket@CImapSyncHandler@@AAAHPBD@Z 10007dc8 f   imap_lib:onestop_imap.obj
+ 0001:00006e2c       ?GetFolderPath@CImapSyncHandler@@AAAJPAUIMAPIFolder@@PAPADPAD@Z 10007e2c f   imap_lib:onestop_imap.obj
+ 0001:00006f60       ?GetFolderPrefix@CImapSyncHandler@@AAAJPAUIMAPIFolder@@PAV?$_string_t@D$0BA@U?$char_traits@D@ce@@Vallocator@2@@ce@@PAD@Z 10007f60 f   imap_lib:onestop_imap.obj
+ 0001:00007138       ?_SubfolderRenamePath@CImapSyncHandler@@AAAJKKPADPAUIMAPIFolder@@@Z 10008138 f   imap_lib:onestop_imap.obj
+ 0001:00007214       ?_SyncDeleteFolder@CImapSyncHandler@@AAAJPAUIMAPIFolder@@0PAU_SPropValue@@H@Z 10008214 f   imap_lib:onestop_imap.obj
+ 0001:00007304       ?_SyncSentItemCallback@CImapSyncHandler@@CAJPAUIMAPIFolder@@KPAU_SPropValue@@J@Z 10008304 f   imap_lib:onestop_imap.obj
+ 0001:00007714       ?SyncSentItems@CImapSyncHandler@@AAAJPAUCSvcCtx@@@Z 10008714 f   imap_lib:onestop_imap.obj
+ 0001:000078b0       ?_EmptyFolderEnumCallback@CImapSyncHandler@@CAJJKPAU_SPropValue@@PAUIMAPIFolder@@1@Z 100088b0 f   imap_lib:onestop_imap.obj
+ 0001:000078e0       ?_MarkFoldersCallback@CImapSyncHandler@@CAJJKPAU_SPropValue@@PAUIMAPIFolder@@1@Z 100088e0 f   imap_lib:onestop_imap.obj
+ 0001:00007a50       ?IMAP_OneStopFactory@@YAJPBGPAPAVIMailSyncHandler@@@Z 10008a50 f   imap_lib:onestop_imap.obj
+ 0001:00007a8c       ?ProcessFetchFolderList@CImapSyncHandler@@AAAJPAUCSvcCtx@@PAVCFolderList@@@Z 10008a8c f   imap_lib:onestop_imap.obj
+ 0001:00007de8       ?GetNewFolderPath@CImapSyncHandler@@AAAJPAUIMAPIFolder@@PBGPAPADPAD@Z 10008de8 f   imap_lib:onestop_imap.obj
+ 0001:00007f60       ?SyncCreateFolder@CImapSyncHandler@@AAAJPAU_MAILSYNCREQUEST@@@Z 10008f60 f   imap_lib:onestop_imap.obj
+ 0001:0000814c       ?_SyncDeleteEnumCallback@CImapSyncHandler@@CAJJKPAU_SPropValue@@PAUIMAPIFolder@@1@Z 1000914c f   imap_lib:onestop_imap.obj
+ 0001:0000817c       ?MakeMovePathUnique@CImapSyncHandler@@AAAJPAUIMAPIFolder@@PBGPAPAG@Z 1000917c f   imap_lib:onestop_imap.obj
+ 0001:00008350       ?_SubfolderRenameCallback@CImapSyncHandler@@CAJJKPAU_SPropValue@@PAUIMAPIFolder@@1@Z 10009350 f   imap_lib:onestop_imap.obj
+ 0001:0000837c       ?DeleteFoldersPermanently@CImapSyncHandler@@AAAJPAUIMAPIFolder@@0H@Z 1000937c f   imap_lib:onestop_imap.obj
+ 0001:00008450       ?EmptyWastebasket@CImapSyncHandler@@AAAJXZ 10009450 f   imap_lib:onestop_imap.obj
+ 0001:00008574       ?_FixFolderPathsCallback@CImapSyncHandler@@CAJJKPAU_SPropValue@@PAUIMAPIFolder@@1@Z 10009574 f   imap_lib:onestop_imap.obj
+ 0001:000087b8       ?SetSpecialFolderPaths@CImapSyncHandler@@AAAJXZ 100097b8 f   imap_lib:onestop_imap.obj
+ 0001:00008be4       ?SyncFoldersWithServer@CImapSyncHandler@@AAAJPAVCIMAPComm@@@Z 10009be4 f   imap_lib:onestop_imap.obj
+ 0001:00008d74       ?ProcessFetchQueue@CImapSyncHandler@@AAAJPAUCSvcCtx@@@Z 10009d74 f   imap_lib:onestop_imap.obj
+ 0001:00008df8       ?SyncFolder@CImapSyncHandler@@AAAJPAUCSvcCtx@@KPAUENTRYID@@PBD@Z 10009df8 f   imap_lib:onestop_imap.obj
+ 0001:00008f3c       ?DecodeEvent@CImapSyncHandler@@UAAJPAU_TRANSPORTEVENT@@PAPAG@Z 10009f3c f   imap_lib:onestop_imap.obj
+ 0001:00009330       ?SyncFolderSync@CImapSyncHandler@@AAAJPAU_MAILSYNCREQUEST@@@Z 1000a330 f   imap_lib:onestop_imap.obj
+ 0001:000094dc       ?RenameFolderPath@CImapSyncHandler@@AAAJPAUIMAPIFolder@@PAD1PAGD@Z 1000a4dc f   imap_lib:onestop_imap.obj
+ 0001:000095ec       ?_FolderSyncEnumCallback@CImapSyncHandler@@CAJJKPAU_SPropValue@@PAUIMAPIFolder@@1@Z 1000a5ec f   imap_lib:onestop_imap.obj
+ 0001:00009854       ?_SyncRenameFolder@CImapSyncHandler@@AAAJPAUIMAPIFolder@@0PAGPAU_SPropValue@@@Z 1000a854 f   imap_lib:onestop_imap.obj
+ 0001:00009950       ?MoveFolderToWastebasket@CImapSyncHandler@@AAAJPAUIMAPIFolder@@@Z 1000a950 f   imap_lib:onestop_imap.obj
+ 0001:00009af4       ?FullSync@CImapSyncHandler@@AAAJK@Z 1000aaf4 f   imap_lib:onestop_imap.obj
+ 0001:00009e98       ?SyncRenameFolder@CImapSyncHandler@@AAAJPAU_MAILSYNCREQUEST@@@Z 1000ae98 f   imap_lib:onestop_imap.obj
+ 0001:0000a040       ?SyncDeleteFolders@CImapSyncHandler@@AAAJPAU_MAILSYNCREQUEST@@@Z 1000b040 f   imap_lib:onestop_imap.obj
+ 0001:0000a250       ?Synchronize@CImapSyncHandler@@UAAJPAU_MAILSYNCREQUEST@@@Z 1000b250 f   imap_lib:onestop_imap.obj
+ 0001:0000a3fc       ?FreeItem@CFolderList@@QAAXPAUMSGQUEUEITEM@1@@Z 1000b3fc f   imap_lib:queues.obj
+ 0001:0000a40c       ??0CFolderFetchQueue@@QAA@XZ 1000b40c f   imap_lib:queues.obj
+ 0001:0000a42c       ??1CFolderFetchQueue@@QAA@XZ 1000b42c f   imap_lib:queues.obj
+ 0001:0000a448       ?AddFolderList@CFolderFetchQueue@@AAAJPAVCFolderList@@@Z 1000b448 f   imap_lib:queues.obj
+ 0001:0000a48c       ??0CFolderList@@QAA@XZ     1000b48c f   imap_lib:queues.obj
+ 0001:0000a4bc       ??1CFolderList@@QAA@XZ     1000b4bc f   imap_lib:queues.obj
+ 0001:0000a4f4       ?NewItem@CFolderList@@AAAJKPAUENTRYID@@KPAPAUMSGQUEUEITEM@1@@Z 1000b4f4 f   imap_lib:queues.obj
+ 0001:0000a598       ?FindMessageById@CFolderList@@QAAJKPAUENTRYID@@@Z 1000b598 f   imap_lib:queues.obj
+ 0001:0000a608       ?AddMessage@CFolderList@@QAAJKPAUENTRYID@@K@Z 1000b608 f   imap_lib:queues.obj
+ 0001:0000a648       ?PopItem@CFolderList@@QAAJPAPAUMSGQUEUEITEM@1@@Z 1000b648 f   imap_lib:queues.obj
+ 0001:0000a67c       ?Count@CFolderFetchQueue@@QAAKXZ 1000b67c f   imap_lib:queues.obj
+ 0001:0000a6c4       ?PopItem@CFolderFetchQueue@@QAAJPAPAVCFolderList@@@Z 1000b6c4 f   imap_lib:queues.obj
+ 0001:0000a710       ?GetEntryId@CFolderList@@QAAJPAVCEntryId@@@Z 1000b710 f   imap_lib:queues.obj
+ 0001:0000a724       ?Reset@CFolderFetchQueue@@QAAXXZ 1000b724 f   imap_lib:queues.obj
+ 0001:0000a778       ?FindFolderById@CFolderFetchQueue@@AAAJKPAUENTRYID@@PAPAVCFolderList@@@Z 1000b778 f   imap_lib:queues.obj
+ 0001:0000a840       ?AddMessage@CFolderFetchQueue@@QAAJKPAUENTRYID@@K0K@Z 1000b840 f   imap_lib:queues.obj
+ 0001:0000a968       ?SyncUpdateFlags@@YAJPAUCSvcCtx@@PAUIMAPIFolder@@@Z 1000b968 f   imap_lib:utils_imap.obj
+ 0001:0000ac04       ?RemoveUnwantedLineBreaks@@YAXPAD@Z 1000bc04 f   imap_lib:utils_imap.obj
+ 0001:0000ac78       ?WaitForSendThread@@YAXPAX@Z 1000bc78 f   imap_lib:utils_imap.obj
+ 0001:0000ac9c       ??0CStringStream@@QAA@XZ   1000bc9c f   imap_lib:utils_imap.obj
+ 0001:0000acbc       ??1CStringStream@@QAA@XZ   1000bcbc f   imap_lib:utils_imap.obj
+ 0001:0000acc4       ?InitSize@CStringStream@@QAAJK@Z 1000bcc4 f   imap_lib:utils_imap.obj
+ 0001:0000ad64       ?Write@CStringStream@@QAAJPBXKPAK@Z 1000bd64 f   imap_lib:utils_imap.obj
+ 0001:0000adec       ?Append@CStringStream@@QAAJPBD@Z 1000bdec f   imap_lib:utils_imap.obj
+ 0001:0000ae18       ?Lock@CStringStream@@QAAJPAPAD@Z 1000be18 f   imap_lib:utils_imap.obj
+ 0001:0000ae3c       ?UnLock@CStringStream@@QAAJXZ 1000be3c f   imap_lib:utils_imap.obj
+ 0001:0000ae54       ??0CIMAPMoveItemQueue@@QAA@XZ 1000be54 f   imap_lib:utils_imap.obj
+ 0001:0000ae98       ?Lock@CIMAPMoveItemQueue@@QAAXXZ 1000be98 f   imap_lib:utils_imap.obj
+ 0001:0000aea0       ?UnLock@CIMAPMoveItemQueue@@QAAXXZ 1000bea0 f   imap_lib:utils_imap.obj
+ 0001:0000aea8       ?UnInit@CIMAPMoveItemQueue@@QAAJXZ 1000bea8 f   imap_lib:utils_imap.obj
+ 0001:0000af10       ?MoveFirst@CIMAPMoveItemQueue@@QAAJXZ 1000bf10 f   imap_lib:utils_imap.obj
+ 0001:0000af80       ?MoveNext@CIMAPMoveItemQueue@@QAAJXZ 1000bf80 f   imap_lib:utils_imap.obj
+ 0001:0000afec       ?DeleteItem@CIMAPMoveItemQueue@@QAAJK@Z 1000bfec f   imap_lib:utils_imap.obj
+ 0001:0000b000       ?FreeItem@CIMAPMoveItemQueue@@QAAJPAUITEM@1@@Z 1000c000 f   imap_lib:utils_imap.obj
+ 0001:0000b014       ?IsSameEntryID@@YAHPAUIMAPIProp@@KPAUENTRYID@@@Z 1000c014 f   imap_lib:utils_imap.obj
+ 0001:0000b090       ??1CIMAPMoveItemQueue@@QAA@XZ 1000c090 f   imap_lib:utils_imap.obj
+ 0001:0000b0cc       ?Init@CIMAPMoveItemQueue@@QAAJPAUIMsgStore@@PBG@Z 1000c0cc f   imap_lib:utils_imap.obj
+ 0001:0000b28c       ?AddItem@CIMAPMoveItemQueue@@QAAJPAU_OBJECT_NOTIFICATION@@KK@Z 1000c28c f   imap_lib:utils_imap.obj
+ 0001:0000b400       ?UpdateItem@CIMAPMoveItemQueue@@QAAJPAUITEM@1@@Z 1000c400 f   imap_lib:utils_imap.obj
+ 0001:0000b480       ?ItemFromVal@CIMAPMoveItemQueue@@AAAJPAU_CEPROPVAL@@PAPAUITEM@1@@Z 1000c480 f   imap_lib:utils_imap.obj
+ 0001:0000b590       ?GetCurItem@CIMAPMoveItemQueue@@QAAJPAPAUITEM@1@@Z 1000c590 f   imap_lib:utils_imap.obj
+ 0001:0000b634       ?FindItem@CIMAPMoveItemQueue@@QAAJKPAUENTRYID@@PAPAUITEM@1@@Z 1000c634 f   imap_lib:utils_imap.obj
+ 0001:0000b73c       ?SyncEnumFolder@@YAJW4enmType@@PAUIMAPIFolder@@PAUCSvcCtx@@@Z 1000c73c f   imap_lib:utils_imap.obj
+ 0001:0000baac       ?IssueDeleteFolderCmd@CImapSyncHandler@@AAAJPBD@Z 1000caac f   imap_lib:folderops.obj
+ 0001:0000bb4c       ?IssueRenameFolderCmd@CImapSyncHandler@@AAAJPBD0@Z 1000cb4c f   imap_lib:folderops.obj
+ 0001:0000bc14       ?OnFolderSyncBegin@CRemoteFolderMan@@QAAXXZ 1000cc14 f   imap_lib:folderops.obj
+ 0001:0000bc20       ?OnFolderSyncEnd@CRemoteFolderMan@@QAAXXZ 1000cc20 f   imap_lib:folderops.obj
+ 0001:0000bc2c       ?CreateFolder@CRemoteFolderMan@@QAAJPBD@Z 1000cc2c f   imap_lib:folderops.obj
+ 0001:0000bc7c       ?SetHierarchyDirty@CRemoteFolderMan@@QAAJH@Z 1000cc7c f   imap_lib:folderops.obj
+ 0001:0000bcd4       ?IsHierarchyDirty@CRemoteFolderMan@@QAAHXZ 1000ccd4 f   imap_lib:folderops.obj
+ 0001:0000bd1c       ?Reset@CRemoteFolderMan@@QAAJXZ 1000cd1c f   imap_lib:folderops.obj
+ 0001:0000bd38       ?Initialize@CRemoteFolderMan@@QAAJPAVCIMAPComm@@PAUIMsgStore@@@Z 1000cd38 f   imap_lib:folderops.obj
+ 0001:0000bd84       ?SelectFolder@CRemoteFolderMan@@QAAJPBDK@Z 1000cd84 f   imap_lib:folderops.obj
+ 0001:0000befc       ?OnDetach@IResponseSink@@UAAXXZ 1000cefc f i imap_lib:imapcomm.obj
+ 0001:0000bf00       ?OnError@IResponseSink@@UAAXJ@Z 1000cf00 f i imap_lib:imapcomm.obj
+ 0001:0000bf04       ?OnResponse@IResponseSink@@UAAXPBDH@Z 1000cf04 f i imap_lib:imapcomm.obj
+ 0001:0000bf08       ?OnEndResponse@IResponseSink@@UAAXPBD@Z 1000cf08 f i imap_lib:imapcomm.obj
+ 0001:0000bf0c       ?OnBeginItem@IResponseSink@@UAAXPBDK@Z 1000cf0c f i imap_lib:imapcomm.obj
+ 0001:0000bf10       ?OnEndItem@IResponseSink@@UAAXPBD@Z 1000cf10 f i imap_lib:imapcomm.obj
+ 0001:0000bf14       ?OnItemData@IResponseSink@@UAAXPBD@Z 1000cf14 f i imap_lib:imapcomm.obj
+ 0001:0000bf18       ?GetResponse@IResponseSink@@UAAJPADPAPAD@Z 1000cf18 f i imap_lib:imapcomm.obj
+ 0001:0000bf24       ?OnEndResponse@CCapGenericResponse@@UAAXPBD@Z 1000cf24 f i imap_lib:imapcomm.obj
+ 0001:0000bf84       ?SetSSLRequired@CIMAPComm@@QAAXH@Z 1000cf84 f   imap_lib:imapcomm.obj
+ 0001:0000bf8c       ?AbortConnection@CIMAPComm@@QAAJXZ 1000cf8c f   imap_lib:imapcomm.obj
+ 0001:0000bfec       ?CanServerStartTLS@CIMAPComm@@UAAJPAH@Z 1000cfec f   imap_lib:imapcomm.obj
+ 0001:0000bffc       ?RawSend@CIMAPComm@@QAAJPBD@Z 1000cffc f   imap_lib:imapcomm.obj
+ 0001:0000c054       ?CheckForEnd@CIMAPComm@@AAAHXZ 1000d054 f   imap_lib:imapcomm.obj
+ 0001:0000c1e8       ?SkipWhiteSpace@CIMAPComm@@AAAJXZ 1000d1e8 f   imap_lib:imapcomm.obj
+ 0001:0000c228       ?SendText@CIMAPComm@@AAAJPBD@Z 1000d228 f   imap_lib:imapcomm.obj
+ 0001:0000c274       ?OnItemData@CCapResponseSink@@UAAXPBD@Z 1000d274 f i imap_lib:imapcomm.obj
+ 0001:0000c2b8       ??1CIMAPComm@@QAA@XZ       1000d2b8 f   imap_lib:imapcomm.obj
+ 0001:0000c310       ?SSLCallback@CIMAPComm@@QAAHKKPAUtagBLOB@@K@Z 1000d310 f   imap_lib:imapcomm.obj
+ 0001:0000c3c4       ?SendStream@CIMAPComm@@QAAJPAUIStream@@@Z 1000d3c4 f   imap_lib:imapcomm.obj
+ 0001:0000c4a0       ?OnResponse@CIMAPComm@@AAAXPBDH@Z 1000d4a0 f   imap_lib:imapcomm.obj
+ 0001:0000c504       ?OnEndResponse@CIMAPComm@@AAAXPBD@Z 1000d504 f   imap_lib:imapcomm.obj
+ 0001:0000c54c       ?OnBeginItem@CIMAPComm@@AAAXPBD0K@Z 1000d54c f   imap_lib:imapcomm.obj
+ 0001:0000c5b4       ?OnEndItem@CIMAPComm@@AAAXPBD0@Z 1000d5b4 f   imap_lib:imapcomm.obj
+ 0001:0000c614       ?OnItemData@CIMAPComm@@AAAXPBD0@Z 1000d614 f   imap_lib:imapcomm.obj
+ 0001:0000c674       ?OnError@CIMAPComm@@AAAXPBDJ@Z 1000d674 f   imap_lib:imapcomm.obj
+ 0001:0000c6dc       ?RegisterForResponse@CIMAPComm@@QAAJPBDPAVIResponseSink@@PAK@Z 1000d6dc f   imap_lib:imapcomm.obj
+ 0001:0000c7bc       ?UnRegisterSink@CIMAPComm@@QAAJK@Z 1000d7bc f   imap_lib:imapcomm.obj
+ 0001:0000c808       ?ReceiveText@CIMAPComm@@AAAJPADKPAK@Z 1000d808 f   imap_lib:imapcomm.obj
+ 0001:0000c898       ??0CIMAPComm@@QAA@XZ       1000d898 f   imap_lib:imapcomm.obj
+ 0001:0000c958       ?s_SSLCallback@CIMAPComm@@SAHKPAXKPAUtagBLOB@@K@Z 1000d958 f   imap_lib:imapcomm.obj
+ 0001:0000c980       ?RawRecieve@CIMAPComm@@QAAJPADK@Z 1000d980 f   imap_lib:imapcomm.obj
+ 0001:0000c988       ?GetBlock@CIMAPComm@@AAAJPADH@Z 1000d988 f   imap_lib:imapcomm.obj
+ 0001:0000cad4       ?AtCRLF@CIMAPComm@@AAAHXZ  1000dad4 f   imap_lib:imapcomm.obj
+ 0001:0000cb14       ?GetNextTokenData@CIMAPComm@@AAAJPADKH@Z 1000db14 f   imap_lib:imapcomm.obj
+ 0001:0000cdd0       ?erase@?$list@UCONNAGENT_PROBE_PARAMS@@Vallocator@ce@@@ce@@QAA?AV?$iterator@UCONNAGENT_PROBE_PARAMS@@@list_impl@2@V342@@Z 1000ddd0 f i imap_lib:imapcomm.obj
+ 0001:0000ce2c       ?Init@CIMAPComm@@QAAJPAVIMailSyncCallBack@@PBG@Z 1000de2c f   imap_lib:imapcomm.obj
+ 0001:0000ceac       ?ProcessResponse@CIMAPComm@@AAAJXZ 1000deac f   imap_lib:imapcomm.obj
+ 0001:0000d5c4       ?erase@?$list@UCONNAGENT_PROBE_PARAMS@@Vallocator@ce@@@ce@@QAA?AV?$iterator@UCONNAGENT_PROBE_PARAMS@@@list_impl@2@V342@0@Z 1000e5c4 f i imap_lib:imapcomm.obj
+ 0001:0000d61c       ?IssueCommandRaw@CIMAPComm@@AAAJPAVIResponseSink@@PBD@Z 1000e61c f   imap_lib:imapcomm.obj
+ 0001:0000d6c0       ?IssueCommandV@CIMAPComm@@QAAJPAVIResponseSink@@HZZ 1000e6c0 f   imap_lib:imapcomm.obj
+ 0001:0000d850       ?IssueCommand@CIMAPComm@@QAAJPBDPAVIResponseSink@@@Z 1000e850 f   imap_lib:imapcomm.obj
+ 0001:0000d86c       ?Preamble@CIMAPComm@@UAAJXZ 1000e86c f   imap_lib:imapcomm.obj
+ 0001:0000d8d0       ?Disconnect@CIMAPComm@@QAAJXZ 1000e8d0 f   imap_lib:imapcomm.obj
+ 0001:0000d938       ?StartTLS@CIMAPComm@@UAAJXZ 1000e938 f   imap_lib:imapcomm.obj
+ 0001:0000d998       ?AuthenticateNTLM@CIMAPComm@@AAAJPAUIMAPACCOUNTINFO@@@Z 1000e998 f   imap_lib:imapcomm.obj
+ 0001:0000daec       ?AuthenticatePlaintext@CIMAPComm@@AAAJPAUIMAPACCOUNTINFO@@@Z 1000eaec f   imap_lib:imapcomm.obj
+ 0001:0000dccc       ??1ConnAgent@@QAA@XZ       1000eccc f i imap_lib:imapcomm.obj
+ 0001:0000dd18       ?Authenticate@CIMAPComm@@UAAJXZ 1000ed18 f   imap_lib:imapcomm.obj
+ 0001:0000dd5c       ?Logon@CIMAPComm@@QAAJPAUIMAPACCOUNTINFO@@PAVCConnection@@PAVSyncProgress@@PAUIMsgStore@@K@Z 1000ed5c f   imap_lib:imapcomm.obj
+ 0001:0000dfd4       ?StrStrIA_@@YAPAGPBD0@Z    1000efd4 f   imap_lib:folders.obj
+ 0001:0000e038       ??0CNamespaceResponse@@QAA@XZ 1000f038 f   imap_lib:folders.obj
+ 0001:0000e06c       ?GetNamespaceNodeList@CNamespaceResponse@@QAAPAUtagNAMESPACENODE@@K@Z 1000f06c f   imap_lib:folders.obj
+ 0001:0000e078       ?_ClearSubfolder@CFolderHierarchy@@AAAXPAUSUBFOLDER@@@Z 1000f078 f   imap_lib:folders.obj
+ 0001:0000e0ac       ?_CreateSubfolder@CFolderHierarchy@@AAAJPBDKKDPAUSUBFOLDER@@PAPAU2@@Z 1000f0ac f   imap_lib:folders.obj
+ 0001:0000e11c       ?_FindSubfolder@CFolderHierarchy@@AAAHPBDPAUSUBFOLDER@@PAPAU2@@Z 1000f11c f   imap_lib:folders.obj
+ 0001:0000e16c       ?OnBeginItem@CFolderTreeFetcher@@UAAXPBDK@Z 1000f16c f   imap_lib:folders.obj
+ 0001:0000e1e8       ?OnItemData@CFolderTreeFetcher@@UAAXPBD@Z 1000f1e8 f   imap_lib:folders.obj
+ 0001:0000e2f8       ?_Buynode@?$list@PAUSUBFOLDER@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@PAUSUBFOLDER@@@list_impl@2@PAU342@@Z 1000f2f8 f i imap_lib:folders.obj
+ 0001:0000e344       ?BuildUpNamespaceNode@CNamespaceResponse@@IAAJPBD0@Z 1000f344 f   imap_lib:folders.obj
+ 0001:0000e584       ?OnItemData@CNamespaceResponse@@UAAXPBD@Z 1000f584 f   imap_lib:folders.obj
+ 0001:0000e654       ?FindNodeInNamespace@CNamespaceResponse@@QAAPAUtagNAMESPACENODE@@KPBD@Z 1000f654 f   imap_lib:folders.obj
+ 0001:0000e704       ?CleanUpNodeMemory@CNamespaceResponse@@IAAXXZ 1000f704 f   imap_lib:folders.obj
+ 0001:0000e74c       ??1CFolderHierarchy@@QAA@XZ 1000f74c f   imap_lib:folders.obj
+ 0001:0000e784       ?AddRootFolder@CFolderHierarchy@@QAAJPBDKKDH@Z 1000f784 f   imap_lib:folders.obj
+ 0001:0000e7d0       ??1CFolderTreeFetcher@@QAA@XZ 1000f7d0 f   imap_lib:folders.obj
+ 0001:0000e7f8       ?erase@?$list@PAUSUBFOLDER@@Vallocator@ce@@@ce@@QAA?AV?$iterator@PAUSUBFOLDER@@@list_impl@2@V342@@Z 1000f7f8 f i imap_lib:folders.obj
+ 0001:0000e854       ??1CNamespaceResponse@@QAA@XZ 1000f854 f   imap_lib:folders.obj
+ 0001:0000e868       ?Reset@CNamespaceResponse@@QAAXXZ 1000f868 f   imap_lib:folders.obj
+ 0001:0000e89c       ?FindNamespaceForPath@CNamespaceResponse@@QAAKPBD@Z 1000f89c f   imap_lib:folders.obj
+ 0001:0000e960       ?_CommitFolders@CFolderHierarchy@@AAAJPAUIMAPIFolder@@PAUSUBFOLDER@@@Z 1000f960 f   imap_lib:folders.obj
+ 0001:0000ea3c       ?_CreateFolderPassOne@CFolderTreeFetcher@@AAAJPBDK@Z 1000fa3c f   imap_lib:folders.obj
+ 0001:0000eb60       ?erase@?$list@PAUSUBFOLDER@@Vallocator@ce@@@ce@@QAA?AV?$iterator@PAUSUBFOLDER@@@list_impl@2@V342@0@Z 1000fb60 f i imap_lib:folders.obj
+ 0001:0000ebb8       ??$insert@PAUSUBFOLDER@@@?$list@PAUSUBFOLDER@@Vallocator@ce@@@ce@@QAA?AV?$iterator@PAUSUBFOLDER@@@list_impl@1@V231@ABQAUSUBFOLDER@@@Z 1000fbb8 f i imap_lib:folders.obj
+ 0001:0000ec00       ??0CFolderHierarchy@@QAA@PAVCImapSyncHandler@@@Z 1000fc00 f   imap_lib:folders.obj
+ 0001:0000ec4c       ?FindSpecialFolderOffset@CFolderHierarchy@@AAAJPAPADDPAK@Z 1000fc4c f   imap_lib:folders.obj
+ 0001:0000ee34       ??0CFolderTreeFetcher@@QAA@PAPADPAVCImapSyncHandler@@@Z 1000fe34 f   imap_lib:folders.obj
+ 0001:0000ee98       ?AddPath@CFolderHierarchy@@QAAJPBDD@Z 1000fe98 f   imap_lib:folders.obj
+ 0001:0000f248       ?CreateFolder@CFolderTreeFetcher@@AAAJPBDK@Z 10010248 f   imap_lib:folders.obj
+ 0001:0000f390       ?OnResponse@CFolderTreeFetcher@@UAAXPBDH@Z 10010390 f   imap_lib:folders.obj
+ 0001:0000f3b8       ?OnEndResponse@CFolderTreeFetcher@@UAAXPBD@Z 100103b8 f   imap_lib:folders.obj
+ 0001:0000f3d8       ?PassTwo@CFolderTreeFetcher@@AAAJPAVCIMAPComm@@@Z 100103d8 f   imap_lib:folders.obj
+ 0001:0000f538       ?Run@CFolderTreeFetcher@@QAAJPAVCIMAPComm@@@Z 10010538 f   imap_lib:folders.obj
+ 0001:0000f60c       ??0SyncProgress@@QAA@XZ    1001060c f   imap_lib:SyncProgress.obj
+ 0001:0000f628       ?Initialize@SyncProgress@@QAAJPAVIMailSyncCallBack@@PBG@Z 10010628 f   imap_lib:SyncProgress.obj
+ 0001:0000f634       ?Reset@SyncProgress@@QAAXXZ 10010634 f   imap_lib:SyncProgress.obj
+ 0001:0000f648       ?SetStatus@SyncProgress@@AAAXKKK@Z 10010648 f   imap_lib:SyncProgress.obj
+ 0001:0000f6d0       ?CancelStatus@SyncProgress@@AAAXK@Z 100106d0 f   imap_lib:SyncProgress.obj
+ 0001:0000f730       ?OnConnecting@SyncProgress@@QAAXXZ 10010730 f   imap_lib:SyncProgress.obj
+ 0001:0000f748       ?OnLoggingOn@SyncProgress@@QAAXXZ 10010748 f   imap_lib:SyncProgress.obj
+ 0001:0000f760       ?OnLookingForChanges@SyncProgress@@QAAXXZ 10010760 f   imap_lib:SyncProgress.obj
+ 0001:0000f778       ?OnReceivingFolders@SyncProgress@@QAAXXZ 10010778 f   imap_lib:SyncProgress.obj
+ 0001:0000f790       ?OnFetchHeaders@SyncProgress@@QAAXXZ 10010790 f   imap_lib:SyncProgress.obj
+ 0001:0000f7a8       ?OnFetchEnd@SyncProgress@@QAAXXZ 100107a8 f   imap_lib:SyncProgress.obj
+ 0001:0000f7e8       ?OnUpdatingFolders@SyncProgress@@QAAXXZ 100107e8 f   imap_lib:SyncProgress.obj
+ 0001:0000f7f8       ?OnUpdatingFoldersEnd@SyncProgress@@QAAXXZ 100107f8 f   imap_lib:SyncProgress.obj
+ 0001:0000f800       ?OnDisconnect@SyncProgress@@QAAXXZ 10010800 f   imap_lib:SyncProgress.obj
+ 0001:0000f858       ?IncrementProgressMax@SyncProgress@@QAAXK@Z 10010858 f   imap_lib:SyncProgress.obj
+ 0001:0000f884       ?Cancel@SyncProgress@@QAAXXZ 10010884 f   imap_lib:SyncProgress.obj
+ 0001:0000f8c8       ?OnParseExistingMessage@SyncProgress@@QAAXXZ 100108c8 f   imap_lib:SyncProgress.obj
+ 0001:0000f8ec       ?OnReceiveMessageBody@SyncProgress@@QAAXXZ 100108ec f   imap_lib:SyncProgress.obj
+ 0001:0000f918       ?AppendMessageToServer@Append@@YAJPAUCSvcCtx@@PAUIMessage@@PBDPAK@Z 10010918 f   imap_lib:Append.obj
+ 0001:0000fc3c       ?swap@?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@QAAXAAV12@@Z 10010c3c f i imap_lib:Append.obj
+ 0001:0000fd18       ?insert@?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@QAA_NIPBGI@Z 10010d18 f i imap_lib:Append.obj
+ 0001:0000fdb0       ??$strprintf@G@ce@@YAJPAV?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@0@PBGZZ 10010db0 f i imap_lib:Append.obj
+ 0001:0000ff1c       ?SetTempDeliveryId@Append@@YAJPAUIMessage@@KPBGPAV?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@@Z 10010f1c f   imap_lib:Append.obj
+ 0001:00010034       ?FinalizeDeliveryId@Append@@YAJPAV?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@PBGK@Z 10011034 f   imap_lib:Append.obj
+ 0001:00010238       ??0CHeaderParser@@QAA@PAUCSvcCtx@@@Z 10011238 f   imap_lib:fetch.obj
+ 0001:000102d8       ??1CHeaderParser@@QAA@XZ   100112d8 f   imap_lib:fetch.obj
+ 0001:00010310       ?OnParseExistingMessage@CHeaderParser@@MAAXXZ 10011310 f   imap_lib:fetch.obj
+ 0001:0001031c       ?OnResponse@CHeaderParser@@UAAXPBDH@Z 1001131c f   imap_lib:fetch.obj
+ 0001:000107f0       ?OnEndResponse@CHeaderParser@@UAAXPBD@Z 100117f0 f   imap_lib:fetch.obj
+ 0001:00010808       ?OnBeginItem@CHeaderParser@@UAAXPBDK@Z 10011808 f   imap_lib:fetch.obj
+ 0001:00010820       ?OnItemData@CHeaderParser@@UAAXPBD@Z 10011820 f   imap_lib:fetch.obj
+ 0001:00010904       ?ProcessBodyStructure@CHeaderParser@@IAAXXZ 10011904 f   imap_lib:fetch.obj
+ 0001:00010964       ?ProcessFlags@CHeaderParser@@IAAXXZ 10011964 f   imap_lib:fetch.obj
+ 0001:000109f4       ?ProcessBody@CHeaderParser@@IAAXXZ 100119f4 f   imap_lib:fetch.obj
+ 0001:000110f8       ??0CMinHeaderParser@@QAA@PAUCSvcCtx@@PAVCMessageSet@@@Z 100120f8 f   imap_lib:fetch.obj
+ 0001:00011120       ??1CMinHeaderParser@@QAA@XZ 10012120 f   imap_lib:fetch.obj
+ 0001:00011134       ?CreateNewMessage@CMinHeaderParser@@EAAXH@Z 10012134 f   imap_lib:fetch.obj
+ 0001:0001113c       ?OnParseExistingMessage@CMinHeaderParser@@EAAXXZ 1001213c f   imap_lib:fetch.obj
+ 0001:00011140       ??0CSelectParser@@QAA@XZ   10012140 f   imap_lib:fetch.obj
+ 0001:00011158       ?OnResponse@CSelectParser@@UAAXPBDH@Z 10012158 f   imap_lib:fetch.obj
+ 0001:00011184       ??0CSearchParser@@QAA@PAVCMessageSet@@@Z 10012184 f   imap_lib:fetch.obj
+ 0001:0001119c       ?OnResponse@CSearchParser@@UAAXPBDH@Z 1001219c f   imap_lib:fetch.obj
+ 0001:000111a0       ?OnItemData@CSearchParser@@UAAXPBD@Z 100121a0 f   imap_lib:fetch.obj
+ 0001:000111c0       ?OnEndResponse@CSearchParser@@UAAXPBD@Z 100121c0 f   imap_lib:fetch.obj
+ 0001:000111c4       ??0CBodyParser@@QAA@KPAUBODYPART@@PAUBSNODE@@KPBQBDPAV?$_string_t@D$0BA@U?$char_traits@D@ce@@Vallocator@2@@ce@@@Z 100121c4 f   imap_lib:fetch.obj
+ 0001:0001126c       ?ReleaseStreams@CMessageFetcher@@AAAXXZ 1001226c f   imap_lib:fetch.obj
+ 0001:00011330       ?DestroyAttachment@CMessageFetcher@@AAAJPAUBODYPART@@PAUIAttach@@@Z 10012330 f   imap_lib:fetch.obj
+ 0001:000113a8       ?BuildCommand@CMessageFetcher@@AAAJXZ 100123a8 f   imap_lib:fetch.obj
+ 0001:000116a0       ?CountParts@CMessageFetcher@@AAAJXZ 100126a0 f   imap_lib:fetch.obj
+ 0001:00011f00       ?CountPartsForEntireBody@CMessageFetcher@@AAAJXZ 10012f00 f   imap_lib:fetch.obj
+ 0001:00012010       ?SetAttachments@CHeaderParser@@IAAXPAUIMessage@@AAKPAUBSNODE@@2@Z 10013010 f   imap_lib:fetch.obj
+ 0001:0001253c       ?CreateNewMessage@CHeaderParser@@MAAXH@Z 1001353c f   imap_lib:fetch.obj
+ 0001:00012c2c       ?WriteMIMEHeadersForTextPart@CBodyParser@@AAAJPAUBODYPART@@@Z 10013c2c f   imap_lib:fetch.obj
+ 0001:00012f9c       ?OnBeginTextItem@CBodyParser@@AAAXPAUBODYPART@@K@Z 10013f9c f   imap_lib:fetch.obj
+ 0001:00013030       ?OnBeginItem@CBodyParser@@UAAXPBDK@Z 10014030 f   imap_lib:fetch.obj
+ 0001:00013134       ?ProcessDelayedStreams@CBodyParser@@AAAJXZ 10014134 f   imap_lib:fetch.obj
+ 0001:000132b4       ?IssueCommand@CMessageFetcher@@AAAJXZ 100142b4 f   imap_lib:fetch.obj
+ 0001:00013340       ?SetRecipients@CMessageFetcher@@AAAJXZ 10014340 f   imap_lib:fetch.obj
+ 0001:00013448       ?GetDecodeStreamFilter@@YAJPBDPAPBUFILTERMAPITEM@@@Z 10014448 f   imap_lib:fetch.obj
+ 0001:000134b8       ?OpenStreams@CMessageFetcher@@AAAJXZ 100144b8 f   imap_lib:fetch.obj
+ 0001:000137e0       ?InitBodyStructure@CMessageFetcher@@AAAJXZ 100147e0 f   imap_lib:fetch.obj
+ 0001:00013a0c       ?OnEndItem@CHeaderParser@@UAAXPBD@Z 10014a0c f   imap_lib:fetch.obj
+ 0001:00013b2c       ?PostReceive@CMessageFetcher@@AAAJXZ 10014b2c f   imap_lib:fetch.obj
+ 0001:000140dc       ?ProcessRfc822Header@CBodyParser@@AAAJXZ 100150dc f   imap_lib:fetch.obj
+ 0001:00014268       ?OnItemData@CBodyParser@@UAAXPBD@Z 10015268 f   imap_lib:fetch.obj
+ 0001:00014368       ??1CMessageFetcher@@QAA@XZ 10015368 f   imap_lib:fetch.obj
+ 0001:00014494       ?CallStep@CMessageFetcher@@AAAJH@Z 10015494 f   imap_lib:fetch.obj
+ 0001:00014534       ?FetchMessage@CMessageFetcher@@QAAJPAUCSvcCtx@@PAUIMessage@@KK@Z 10015534 f   imap_lib:fetch.obj
+ 0001:0001460c       ?OnEndItem@CBodyParser@@UAAXPBD@Z 1001560c f   imap_lib:fetch.obj
+ 0001:0001464c       ??0CMessageFetcher@@QAA@XZ 1001564c f   imap_lib:fetch.obj
+ 0001:00014720       ?FetchMessage@@YAJPAUCSvcCtx@@PAUIMessage@@KK@Z 10015720 f   imap_lib:fetch.obj
+ 0001:00014788       ??1CHeaderFetcher@@QAA@XZ  10015788 f   imap_lib:headerfetcher.obj
+ 0001:00014790       ?GetRegistrySettings@CHeaderFetcher@@IAAXXZ 10015790 f   imap_lib:headerfetcher.obj
+ 0001:0001483c       ??0CHeaderFetcher@@QAA@PAUCSvcCtx@@@Z 1001583c f   imap_lib:headerfetcher.obj
+ 0001:0001486c       ?GetAgeFilterTime@CHeaderFetcher@@IAAJPAU_FILETIME@@PA_K@Z 1001586c f   imap_lib:headerfetcher.obj
+ 0001:00014938       ?GetLastSyncTime@CHeaderFetcher@@IAAJPAU_FILETIME@@@Z 10015938 f   imap_lib:headerfetcher.obj
+ 0001:0001498c       ?UpdateLastSyncTime@CHeaderFetcher@@SAJPAUIMsgStore@@@Z 1001598c f   imap_lib:headerfetcher.obj
+ 0001:00014a34       ?ShouldFetchMinHeaders@CHeaderFetcher@@IAAHXZ 10015a34 f   imap_lib:headerfetcher.obj
+ 0001:00014b00       ?IssueFetch@CHeaderFetcher@@IAAJPAVCHeaderParser@@PAVCMessageSet@@PBD@Z 10015b00 f   imap_lib:headerfetcher.obj
+ 0001:00014b74       ?FormatSearchDate@CHeaderFetcher@@IAAJPAPAD@Z 10015b74 f   imap_lib:headerfetcher.obj
+ 0001:00014c54       ?FetchNextBatch@CHeaderFetcher@@QAAJXZ 10015c54 f   imap_lib:headerfetcher.obj
+ 0001:00014d50       ?GetMessagesInSearchRange@CHeaderFetcher@@IAAJPAVCMessageSet@@@Z 10015d50 f   imap_lib:headerfetcher.obj
+ 0001:00014ea0       ?FetchHeaders@CHeaderFetcher@@QAAJXZ 10015ea0 f   imap_lib:headerfetcher.obj
+ 0001:00014fc4       ??0CNTLMLogonSink@@QAA@XZ  10015fc4 f   imap_lib:secntlm.obj
+ 0001:00015000       ??1CNTLMLogonSink@@QAA@XZ  10016000 f   imap_lib:secntlm.obj
+ 0001:00015030       ?OnEndResponse@CNTLMLogonSink@@UAAXPBD@Z 10016030 f   imap_lib:secntlm.obj
+ 0001:0001514c       ?Init@CNTLMLogonSink@@QAAJPAUIMAPACCOUNTINFO@@@Z 1001614c f   imap_lib:secntlm.obj
+ 0001:00015184       ?GetResponse@CNTLMLogonSink@@UAAJPADPAPAD@Z 10016184 f   imap_lib:secntlm.obj
+ 0001:0001528c       ?MakeQuotedString@@YAJPBGPAPAG@Z 1001628c f   imap_lib:helpers.obj
+ 0001:000153cc       ?_Buynode@?$list@U_IMAPIDRANGE@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@U_IMAPIDRANGE@@@list_impl@2@PAU342@@Z 100163cc f i imap_lib:messageset.obj
+ 0001:00015418       ?erase@?$list@U_IMAPIDRANGE@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U_IMAPIDRANGE@@@list_impl@2@V342@@Z 10016418 f i imap_lib:messageset.obj
+ 0001:00015474       ?erase@?$list@U_IMAPIDRANGE@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U_IMAPIDRANGE@@@list_impl@2@V342@0@Z 10016474 f i imap_lib:messageset.obj
+ 0001:000154cc       ??$insert@U_IMAPIDRANGE@@@?$list@U_IMAPIDRANGE@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U_IMAPIDRANGE@@@list_impl@1@V231@ABU_IMAPIDRANGE@@@Z 100164cc f i imap_lib:messageset.obj
+ 0001:0001551c       ??$push_front@U_IMAPIDRANGE@@@?$list@U_IMAPIDRANGE@@Vallocator@ce@@@ce@@QAA_NABU_IMAPIDRANGE@@@Z 1001651c f i imap_lib:messageset.obj
+ 0001:0001555c       ?InsertRange@CMessageSet@@AAAJABV?$iterator@U_IMAPIDRANGE@@@list_impl@ce@@HH@Z 1001655c f   imap_lib:messageset.obj
+ 0001:000155cc       ?CheckMergeRanges@CMessageSet@@AAAXABV?$iterator@U_IMAPIDRANGE@@@list_impl@ce@@0@Z 100165cc f   imap_lib:messageset.obj
+ 0001:00015608       ?CheckMergePrev@CMessageSet@@AAAXABV?$iterator@U_IMAPIDRANGE@@@list_impl@ce@@@Z 10016608 f   imap_lib:messageset.obj
+ 0001:0001563c       ?Set@CMessageSet@@QAAJHH@Z 1001663c f   imap_lib:messageset.obj
+ 0001:000156b0       ?ToString@CMessageSet@@QAAJPAPAD@Z 100166b0 f   imap_lib:messageset.obj
+ 0001:000158a8       ?Clear@CMessageSet@@QAAXXZ 100168a8 f   imap_lib:messageset.obj
+ 0001:000158d0       ?CopyTo@CMessageSet@@QAAJPAV1@@Z 100168d0 f   imap_lib:messageset.obj
+ 0001:0001597c       ?PopBatch@CMessageSet@@QAAJPAV1@K@Z 1001697c f   imap_lib:messageset.obj
+ 0001:00015a7c       ??0CMessageSet@@QAA@XZ     10016a7c f   imap_lib:messageset.obj
+ 0001:00015aac       ??1CMessageSet@@QAA@XZ     10016aac f   imap_lib:messageset.obj
+ 0001:00015acc       ?Add@CMessageSet@@QAAJH@Z  10016acc f   imap_lib:messageset.obj
+ 0001:00015d78       ?_ParseBodyTextParamCallback@@YAXPAUBSNODE@@PAD1@Z 10016d78 f   imap_lib:bs.obj
+ 0001:00015dd8       ?_ParseAttachmentCallBack@@YAXPAUBSNODE@@PAD1@Z 10016dd8 f   imap_lib:bs.obj
+ 0001:00015e84       ?FindNode@@YAJPAUBSNODE@@W4partType@@W4partSubType@@PAPAU1@@Z 10016e84 f   imap_lib:bs.obj
+ 0001:00015f04       ?GetBodyPartPath@@YAJPAUBSNODE@@PAPADPAI0@Z 10016f04 f   imap_lib:bs.obj
+ 0001:000161dc       ?_ParseMixedAlternativeCallBack@@YAXPAUBSNODE@@PAD1@Z 100171dc f   imap_lib:bs.obj
+ 0001:00016224       ?_ParseMixedAlternative@@YAJPADPAPADPAUBSNODE@@@Z 10017224 f   imap_lib:bs.obj
+ 0001:000162b8       ?_ParseTNEF@@YAJPADPAPADPAUBSNODE@@@Z 100172b8 f   imap_lib:bs.obj
+ 0001:000163f0       ?_ParseAttachment@@YAJPADPAPADPAUBSNODE@@@Z 100173f0 f   imap_lib:bs.obj
+ 0001:000167dc       ?_ParseEmbeddedMessage@@YAJPADPAPADPAUBSNODE@@@Z 100177dc f   imap_lib:bs.obj
+ 0001:00016c74       ?_ParseBodyText@@YAJPADPAPADPAUBSNODE@@@Z 10017c74 f   imap_lib:bs.obj
+ 0001:00016fe8       ?FreeBodyStructureTree@@YAXPAUBSNODE@@@Z 10017fe8 f   imap_lib:bs.obj
+ 0001:000171e0       ?ParseBodyStructure@@YAJPADPAPAUBSNODE@@@Z 100181e0 f   imap_lib:bs.obj
+ 0001:000172cc       ?fnPathMatchSpec@@YAHPBG0@Z 100182cc f   imap_lib:delayload.obj
+ 0001:000173cc       ?OnNotify@CLocalSink@@UAAKKPAU_NOTIFICATION@@@Z 100183cc f   pop3_lib:onestop_pop3.obj
+ 0001:000173e4       ?QueryInterface@CPopSyncHandler@@UAAJABU_GUID@@PAPAX@Z 100183e4 f   pop3_lib:onestop_pop3.obj
+ 0001:000173f0       ?AddRef@CPopSyncHandler@@UAAKXZ 100183f0 f   pop3_lib:onestop_pop3.obj
+ 0001:000173f8       ?ResetSession@CPopSyncHandler@@AAAJXZ 100183f8 f   pop3_lib:onestop_pop3.obj
+ 0001:00017428       ?IsMessagePendingServerDelete@CPopSyncHandler@@AAAHPAUIMAPIFolder@@KKPAEPAPAUITEM@CDeleteItemQueue@@@Z 10018428 f   pop3_lib:onestop_pop3.obj
+ 0001:00017498       ?OnMoveFromWaste@CPopSyncHandler@@AAAJPAU_NOTIFICATION@@@Z 10018498 f   pop3_lib:onestop_pop3.obj
+ 0001:000174f0       ?GetCapability@CPopSyncHandler@@UAAJPBGPAU_SPropValue@@@Z 100184f0 f   pop3_lib:onestop_pop3.obj
+ 0001:000175c8       ?Install@CPopSyncHandler@@UAAJPBG00PAU_GUID@@@Z 100185c8 f   pop3_lib:onestop_pop3.obj
+ 0001:00017634       ?InitializePOP3ServiceProps@CPopSyncHandler@@AAAJXZ 10018634 f   pop3_lib:onestop_pop3.obj
+ 0001:00017700       ?GetMsgStoreValues@CPopSyncHandler@@AAAJXZ 10018700 f   pop3_lib:onestop_pop3.obj
+ 0001:000177e8       ?InitUidlSuffix@CPopSyncHandler@@AAAJPAG@Z 100187e8 f   pop3_lib:onestop_pop3.obj
+ 0001:000178ac       ?ShutDown@CPopSyncHandler@@UAAJK@Z 100188ac f   pop3_lib:onestop_pop3.obj
+ 0001:000178c4       ?SetLastAgeFilter@CPopSyncHandler@@AAAJK@Z 100188c4 f   pop3_lib:onestop_pop3.obj
+ 0001:00017960       ?RestoreSettings@CPopSyncHandler@@AAAJXZ 10018960 f   pop3_lib:onestop_pop3.obj
+ 0001:00017cc8       ?IsUIDLOptimizable@CPopSyncHandler@@AAAHKK@Z 10018cc8 f   pop3_lib:onestop_pop3.obj
+ 0001:00017dbc       ?IsHeaderInAgeFilterWindow@CPopSyncHandler@@AAAHPAUPOP3_SYNC_CONTEXT@@PAVCMessageBuffer@@PBD@Z 10018dbc f   pop3_lib:onestop_pop3.obj
+ 0001:00017e48       ?GetLastSyncTime@CPopSyncHandler@@AAAJPA_J@Z 10018e48 f   pop3_lib:onestop_pop3.obj
+ 0001:00017ea0       ?UpdateLastSyncTime@CPopSyncHandler@@AAAXXZ 10018ea0 f   pop3_lib:onestop_pop3.obj
+ 0001:00017efc       ?UntagMessage@CPopSyncHandler@@AAAJPAUIMessage@@K@Z 10018efc f   pop3_lib:onestop_pop3.obj
+ 0001:00017fac       ?SyncMarkedForDownload@CPopSyncHandler@@AAAJPAUIMAPIFolder@@@Z 10018fac f   pop3_lib:onestop_pop3.obj
+ 0001:00018208       ?SendOutgoingMessages@CPopSyncHandler@@AAAJXZ 10019208 f   pop3_lib:onestop_pop3.obj
+ 0001:00018278       ?OnMoveToWaste@CPopSyncHandler@@AAAJPAU_NOTIFICATION@@@Z 10019278 f   pop3_lib:onestop_pop3.obj
+ 0001:00018380       ?LogEvent@CPopSyncHandler@@AAAJJ@Z 10019380 f   pop3_lib:onestop_pop3.obj
+ 0001:00018424       ?QueryInterface@CLocalSink@@UAAJABU_GUID@@PAPAX@Z 10019424 f i pop3_lib:onestop_pop3.obj
+ 0001:00018430       ?AddRef@CLocalSink@@UAAKXZ 10019430 f i pop3_lib:onestop_pop3.obj
+ 0001:00018438       ?Release@CLocalSink@@UAAKXZ 10019438 f i pop3_lib:onestop_pop3.obj
+ 0001:00018440       ?UnInstall@CPopSyncHandler@@UAAJXZ 10019440 f   pop3_lib:onestop_pop3.obj
+ 0001:00018468       ?Connect@CPopSyncHandler@@UAAJKPAU_SYNCCREDENTIALS@@@Z 10019468 f   pop3_lib:onestop_pop3.obj
+ 0001:000186b8       ?Disconnect@CPopSyncHandler@@UAAJK@Z 100196b8 f   pop3_lib:onestop_pop3.obj
+ 0001:00018724       ?SyncNewMessage@CPopSyncHandler@@AAAJPAUPOP3_SYNC_CONTEXT@@KPBDPBG@Z 10019724 f   pop3_lib:onestop_pop3.obj
+ 0001:00018958       ?GetAgeFilterParams@CPopSyncHandler@@AAAJPAUPOP3_SYNC_CONTEXT@@@Z 10019958 f   pop3_lib:onestop_pop3.obj
+ 0001:00018a18       ?IsOkayToSkipUidl@CPopSyncHandler@@AAAHPAUIMAPIFolder@@PBDKH@Z 10019a18 f   pop3_lib:onestop_pop3.obj
+ 0001:00018bb8       ?OnOneNotify@CPopSyncHandler@@AAAKPAU_NOTIFICATION@@@Z 10019bb8 f   pop3_lib:onestop_pop3.obj
+ 0001:00018cf4       ?erase@?$list@KVallocator@ce@@@ce@@QAA?AV?$iterator@K@list_impl@2@V342@@Z 10019cf4 f i pop3_lib:onestop_pop3.obj
+ 0001:00018d50       ??0CUIDTracker@@QAA@PAUIMsgStore@@@Z 10019d50 f i pop3_lib:onestop_pop3.obj
+ 0001:00018dac       ?Initialize@CPopSyncHandler@@UAAJPAVIMailSyncCallBack@@PBGPAUIMsgStore@@@Z 10019dac f   pop3_lib:onestop_pop3.obj
+ 0001:00019130       ?ReadUIDLs@CPopSyncHandler@@AAAJPAUIMAPIFolder@@PAHHPAKPAVCUIDTracker@@@Z 1001a130 f   pop3_lib:onestop_pop3.obj
+ 0001:0001940c       ?SyncOutOfAgeMails@CPopSyncHandler@@AAAJPAUIMAPIFolder@@_J@Z 1001a40c f   pop3_lib:onestop_pop3.obj
+ 0001:000195e0       ?OnNotify@CPopSyncHandler@@UAAKKPAU_NOTIFICATION@@@Z 1001a5e0 f   pop3_lib:onestop_pop3.obj
+ 0001:0001962c       ?DeleteMessage@CPopSyncHandler@@AAAJPAUIMAPIFolder@@KPAUITEM@CDeleteItemQueue@@H@Z 1001a62c f   pop3_lib:onestop_pop3.obj
+ 0001:000197a4       ?PurgeDeletedItems@CPopSyncHandler@@AAAJXZ 1001a7a4 f   pop3_lib:onestop_pop3.obj
+ 0001:000198ec       ?SetCapability@CPopSyncHandler@@UAAJPBGPAU_SPropValue@@@Z 1001a8ec f   pop3_lib:onestop_pop3.obj
+ 0001:000199b8       ?erase@?$list@KVallocator@ce@@@ce@@QAA?AV?$iterator@K@list_impl@2@V342@0@Z 1001a9b8 f i pop3_lib:onestop_pop3.obj
+ 0001:00019a10       ?SyncMessageNumber@CPopSyncHandler@@AAAJPAUPOP3_SYNC_CONTEXT@@KPBD@Z 1001aa10 f   pop3_lib:onestop_pop3.obj
+ 0001:00019ba8       ?IsLastKnownUIDValid@CPopSyncHandler@@AAAHPAVCUIDTracker@@@Z 1001aba8 f   pop3_lib:onestop_pop3.obj
+ 0001:00019c9c       ?SyncFolderOptimizedUIDL@CPopSyncHandler@@AAAJPAUPOP3_SYNC_CONTEXT@@@Z 1001ac9c f   pop3_lib:onestop_pop3.obj
+ 0001:00019f48       ?SyncFolderFullUIDL@CPopSyncHandler@@AAAJPAUPOP3_SYNC_CONTEXT@@@Z 1001af48 f   pop3_lib:onestop_pop3.obj
+ 0001:0001a1fc       ?DecodeEvent@CPopSyncHandler@@UAAJPAU_TRANSPORTEVENT@@PAPAG@Z 1001b1fc f   pop3_lib:onestop_pop3.obj
+ 0001:0001a62c       ??1CPopSyncHandler@@QAA@XZ 1001b62c f   pop3_lib:onestop_pop3.obj
+ 0001:0001a748       ?DoProperties@CPopSyncHandler@@UAAJPAUHWND__@@@Z 1001b748 f i pop3_lib:onestop_pop3.obj
+ 0001:0001a754       ?GetFolderHierarchy@CPopSyncHandler@@UAAJPAPAU_FOLDERNODE@@@Z 1001b754 f i pop3_lib:onestop_pop3.obj
+ 0001:0001a760       ?SetFolderOptions@CPopSyncHandler@@UAAJPAUIMAPIFolder@@PAU_FOLDERNODE@@W4FOLDEROPTIONS@IMailSyncHandler@@PAU_SPropValue@@@Z 1001b760 f i pop3_lib:onestop_pop3.obj
+ 0001:0001a76c       ?SyncFolder@CPopSyncHandler@@AAAJPAUIMAPIFolder@@0@Z 1001b76c f   pop3_lib:onestop_pop3.obj
+ 0001:0001a864       ??0CPopSyncHandler@@QAA@XZ 1001b864 f   pop3_lib:onestop_pop3.obj
+ 0001:0001a9a0       ?Release@CPopSyncHandler@@UAAKXZ 1001b9a0 f   pop3_lib:onestop_pop3.obj
+ 0001:0001a9d8       ?Synchronize@CPopSyncHandler@@UAAJPAU_MAILSYNCREQUEST@@@Z 1001b9d8 f   pop3_lib:onestop_pop3.obj
+ 0001:0001acdc       ?POP3_OneStopFactory@@YAJPBGPAPAVIMailSyncHandler@@@Z 1001bcdc f   pop3_lib:onestop_pop3.obj
+ 0001:0001ad18       ?_GetProcFromDLL@@YAXPAPAUHINSTANCE__@@PBGPAP6AHXZ1@Z 1001bd18 f   pop3_lib:dllload.obj
+ 0001:0001ad6c       ?ConvertUidlToNarrow@@YAJPBGIPAPAD@Z 1001bd6c f   pop3_lib:utils_pop3.obj
+ 0001:0001adcc       ?DeleteMapiMessage@@YAJPAUIMAPIFolder@@PAUIMessage@@@Z 1001bdcc f   pop3_lib:utils_pop3.obj
+ 0001:0001ae78       ?GetAgeFilterTime@@YAXHPA_J@Z 1001be78 f   pop3_lib:utils_pop3.obj
+ 0001:0001aed0       ?ReceiveDataAck@@YAJPAVCBufferedSocket@@PAPBD@Z 1001bed0 f   pop3_lib:utils_pop3.obj
+ 0001:0001afec       ?ConvertUidlToWide@@YAJPBDPAPAGPAK@Z 1001bfec f   pop3_lib:utils_pop3.obj
+ 0001:0001b094       ?FindMessageByUid@@YAJPAUIMAPIFolder@@PBGKPAPAUIMessage@@@Z 1001c094 f   pop3_lib:utils_pop3.obj
+ 0001:0001b15c       ?FreeUIDLCache@CCEPOP3Transport@@AAAXXZ 1001c15c f   pop3_lib:pop3.obj
+ 0001:0001b194       ?SetCachedUIDL@CCEPOP3Transport@@AAAJKPADK@Z 1001c194 f   pop3_lib:pop3.obj
+ 0001:0001b1f8       ?GetCachedUIDL@CCEPOP3Transport@@AAAPADK@Z 1001c1f8 f   pop3_lib:pop3.obj
+ 0001:0001b220       ?SetupInitialCacheRange@CCEPOP3Transport@@AAAXK@Z 1001c220 f   pop3_lib:pop3.obj
+ 0001:0001b248       ?SetupNextCacheRange@CCEPOP3Transport@@AAAXXZ 1001c248 f   pop3_lib:pop3.obj
+ 0001:0001b25c       ?MsgInCacheRange@CCEPOP3Transport@@AAAHK@Z 1001c25c f   pop3_lib:pop3.obj
+ 0001:0001b284       ?POP3Disconnect@CCEPOP3Transport@@AAAJXZ 1001c284 f   pop3_lib:pop3.obj
+ 0001:0001b310       ?AbortConnection@CCEPOP3Transport@@QAAJXZ 1001c310 f   pop3_lib:pop3.obj
+ 0001:0001b36c       ?AddMessageToFetchQueue@CCEPOP3Transport@@QAAJKPAUENTRYID@@K@Z 1001c36c f   pop3_lib:pop3.obj
+ 0001:0001b3ac       ??1CCEPOP3Transport@@QAA@XZ 1001c3ac f   pop3_lib:pop3.obj
+ 0001:0001b430       ??0CCEPOP3Transport@@QAA@XZ 1001c430 f   pop3_lib:pop3.obj
+ 0001:0001b4e4       ?Init@CCEPOP3Transport@@QAAJPAVIMailSyncCallBack@@PBGPAVCPopSyncProgress@@@Z 1001c4e4 f   pop3_lib:pop3.obj
+ 0001:0001b5ac       ?Logon@CCEPOP3Transport@@QAAJPAUPOPACCOUNTINFO@@PAVCConnection@@PAUIMsgStore@@@Z 1001c5ac f   pop3_lib:pop3.obj
+ 0001:0001b790       ?MoveFirst@CDeleteItemQueue@@QAAJXZ 1001c790 f   pop3_lib:MailDatabase.obj
+ 0001:0001b800       ?MoveNext@CDeleteItemQueue@@QAAJXZ 1001c800 f   pop3_lib:MailDatabase.obj
+ 0001:0001b86c       ?FreeItem@CDeleteItemQueue@@QAAJPAUITEM@1@@Z 1001c86c f   pop3_lib:MailDatabase.obj
+ 0001:0001b880       ?MarkDeleted@CDeleteItemQueue@@QAAJKPAUENTRYID@@@Z 1001c880 f   pop3_lib:MailDatabase.obj
+ 0001:0001b9a8       ?CreateDatabaseTable@CDeleteItemQueue@@MAAKPAU_CEGUID@@PAU__EDB_CEDBASEINFOEX@@@Z 1001c9a8 f   pop3_lib:MailDatabase.obj
+ 0001:0001b9f8       ?CreateDatabaseName@CMailDatabase@@SAXPAGKPBGPAUENTRYID@@K@Z 1001c9f8 f   pop3_lib:MailDatabase.obj
+ 0001:0001ba3c       ??0CMailDatabase@@QAA@K@Z  1001ca3c f   pop3_lib:MailDatabase.obj
+ 0001:0001ba88       ?Open@CMailDatabase@@QAAJPAGPAH@Z 1001ca88 f   pop3_lib:MailDatabase.obj
+ 0001:0001bc58       ?Delete@CMailDatabase@@QAAJXZ 1001cc58 f   pop3_lib:MailDatabase.obj
+ 0001:0001bcb4       ?CreateDatabaseTable@CMailDatabase@@MAAKPAU_CEGUID@@PAU__EDB_CEDBASEINFOEX@@@Z 1001ccb4 f   pop3_lib:MailDatabase.obj
+ 0001:0001bcd8       ?UnInit@CDeleteItemQueue@@QAAJXZ 1001ccd8 f   pop3_lib:MailDatabase.obj
+ 0001:0001bcdc       ?AddItem@CDeleteItemQueue@@QAAJKPAUENTRYID@@KPAE@Z 1001ccdc f   pop3_lib:MailDatabase.obj
+ 0001:0001be00       ?ItemFromVal@CDeleteItemQueue@@AAAJPAU_CEPROPVAL@@PAPAUITEM@1@@Z 1001ce00 f   pop3_lib:MailDatabase.obj
+ 0001:0001bed4       ?Mount@CMailDatabase@@QAAJPAUIMsgStore@@@Z 1001ced4 f   pop3_lib:MailDatabase.obj
+ 0001:0001bf84       ?Unmount@CMailDatabase@@QAAXXZ 1001cf84 f   pop3_lib:MailDatabase.obj
+ 0001:0001bfbc       ?_Buynode@?$list@KVallocator@ce@@@ce@@IAAPAU?$_ListNode@K@list_impl@2@PAU342@@Z 1001cfbc f i pop3_lib:MailDatabase.obj
+ 0001:0001c008       ?Init@CDeleteItemQueue@@QAAJPAUIMsgStore@@PBG@Z 1001d008 f   pop3_lib:MailDatabase.obj
+ 0001:0001c030       ?GetCurItem@CDeleteItemQueue@@QAAJPAPAUITEM@1@@Z 1001d030 f   pop3_lib:MailDatabase.obj
+ 0001:0001c0ec       ?FindItem@CDeleteItemQueue@@QAAJKPAUENTRYID@@PAPAUITEM@1@@Z 1001d0ec f   pop3_lib:MailDatabase.obj
+ 0001:0001c208       ?FindItem@CDeleteItemQueue@@QAAJKPAEPAPAUITEM@1@@Z 1001d208 f   pop3_lib:MailDatabase.obj
+ 0001:0001c324       ??1CMailDatabase@@UAA@XZ   1001d324 f   pop3_lib:MailDatabase.obj
+ 0001:0001c338       ?remove@?$list@KVallocator@ce@@@ce@@QAAXABK@Z 1001d338 f i pop3_lib:MailDatabase.obj
+ 0001:0001c390       ??$insert@K@?$list@KVallocator@ce@@@ce@@QAA?AV?$iterator@K@list_impl@1@V231@ABK@Z 1001d390 f i pop3_lib:MailDatabase.obj
+ 0001:0001c3d8       ?DeleteItem@CDeleteItemQueue@@QAAJK@Z 1001d3d8 f   pop3_lib:MailDatabase.obj
+ 0001:0001c408       ?RemoveFromSnapshot@CDeleteItemQueue@@QAAHK@Z 1001d408 f   pop3_lib:MailDatabase.obj
+ 0001:0001c454       ??_GCMailDatabase@@UAAPAXI@Z 1001d454 f i pop3_lib:MailDatabase.obj
+ 0001:0001c454       ??_ECMailDatabase@@UAAPAXI@Z 1001d454 f i pop3_lib:MailDatabase.obj
+ 0001:0001c484       ?TakeSnapshot@CDeleteItemQueue@@QAAJXZ 1001d484 f   pop3_lib:MailDatabase.obj
+ 0001:0001c56c       ?FreeSnapshot@CDeleteItemQueue@@QAAJXZ 1001d56c f   pop3_lib:MailDatabase.obj
+ 0001:0001c590       ??0CDeleteItemQueue@@QAA@XZ 1001d590 f   pop3_lib:MailDatabase.obj
+ 0001:0001c5fc       ??_ECDeleteItemQueue@@UAAPAXI@Z 1001d5fc f i pop3_lib:MailDatabase.obj
+ 0001:0001c5fc       ??_GCDeleteItemQueue@@UAAPAXI@Z 1001d5fc f i pop3_lib:MailDatabase.obj
+ 0001:0001c648       ?DeleteCache@CUidlTable@@QAAJXZ 1001d648 f   pop3_lib:amc.obj
+ 0001:0001c64c       ?RemoveInvalidEntries@CUidlTable@@IAAJ_J@Z 1001d64c f   pop3_lib:amc.obj
+ 0001:0001c744       ?CreateDatabaseTable@CUidlTable@@MAAKPAU_CEGUID@@PAU__EDB_CEDBASEINFOEX@@@Z 1001d744 f   pop3_lib:amc.obj
+ 0001:0001c7fc       ?Init@CUidlTable@@QAAJPAUIMsgStore@@PBG@Z 1001d7fc f   pop3_lib:amc.obj
+ 0001:0001c868       ?InvalidateCache@CUidlTable@@IAAJH@Z 1001d868 f   pop3_lib:amc.obj
+ 0001:0001c8f8       ?Find@CUidlTable@@IAAJPBDPAK@Z 1001d8f8 f   pop3_lib:amc.obj
+ 0001:0001cabc       ?Insert@CUidlTable@@QAAJPBDPAU_FILETIME@@@Z 1001dabc f   pop3_lib:amc.obj
+ 0001:0001cbc8       ?_Lrotate@?$_Tree@KKU_Kfn@?$set@KU?$less@K@std@@V?$allocator@K@2@@std@@U?$less@K@3@V?$allocator@K@3@@std@@IAAXPAU_Node@12@@Z 1001dbc8 f i pop3_lib:amc.obj
+ 0001:0001cc38       ?_Rrotate@?$_Tree@KKU_Kfn@?$set@KU?$less@K@std@@V?$allocator@K@2@@std@@U?$less@K@3@V?$allocator@K@3@@std@@IAAXPAU_Node@12@@Z 1001dc38 f i pop3_lib:amc.obj
+ 0001:0001ccb0       ?_Inc@const_iterator@?$_Tree@KKU_Kfn@?$set@KU?$less@K@std@@V?$allocator@K@2@@std@@U?$less@K@3@V?$allocator@K@3@@std@@QAAXXZ 1001dcb0 f i pop3_lib:amc.obj
+ 0001:0001cd30       ?_Dec@const_iterator@?$_Tree@KKU_Kfn@?$set@KU?$less@K@std@@V?$allocator@K@2@@std@@U?$less@K@3@V?$allocator@K@3@@std@@QAAXXZ 1001dd30 f i pop3_lib:amc.obj
+ 0001:0001cdc4       ?ValidateCache@CAgedMessageCache@@QAAJH@Z 1001ddc4 f   pop3_lib:amc.obj
+ 0001:0001cdfc       ?_Erase@?$_Tree@KKU_Kfn@?$set@KU?$less@K@std@@V?$allocator@K@2@@std@@U?$less@K@3@V?$allocator@K@3@@std@@IAAXPAU_Node@12@@Z 1001ddfc f i pop3_lib:amc.obj
+ 0001:0001ce4c       ?Init@CAgedMessageCache@@QAAJPAUIMsgStore@@PBGHH@Z 1001de4c f   pop3_lib:amc.obj
+ 0001:0001ce70       ?erase@?$_Tree@KKU_Kfn@?$set@KU?$less@K@std@@V?$allocator@K@2@@std@@U?$less@K@3@V?$allocator@K@3@@std@@QAA?AViterator@12@V312@@Z 1001de70 f i pop3_lib:amc.obj
+ 0001:0001d238       ?erase@?$_Tree@KKU_Kfn@?$set@KU?$less@K@std@@V?$allocator@K@2@@std@@U?$less@K@3@V?$allocator@K@3@@std@@QAA?AViterator@12@V312@0@Z 1001e238 f i pop3_lib:amc.obj
+ 0001:0001d300       ?_Init@?$_Tree@KKU_Kfn@?$set@KU?$less@K@std@@V?$allocator@K@2@@std@@U?$less@K@3@V?$allocator@K@3@@std@@IAAXXZ 1001e300 f i pop3_lib:amc.obj
+ 0001:0001d384       ?_Insert@?$_Tree@KKU_Kfn@?$set@KU?$less@K@std@@V?$allocator@K@2@@std@@U?$less@K@3@V?$allocator@K@3@@std@@IAA?AViterator@12@PAU_Node@12@0ABK@Z 1001e384 f i pop3_lib:amc.obj
+ 0001:0001d57c       ??1?$_Tree@KKU_Kfn@?$set@KU?$less@K@std@@V?$allocator@K@2@@std@@U?$less@K@3@V?$allocator@K@3@@std@@QAA@XZ 1001e57c f i pop3_lib:amc.obj
+ 0001:0001d5e4       ?insert@?$_Tree@KKU_Kfn@?$set@KU?$less@K@std@@V?$allocator@K@2@@std@@U?$less@K@3@V?$allocator@K@3@@std@@QAA?AU?$pair@Viterator@?$_Tree@KKU_Kfn@?$set@KU?$less@K@std@@V?$allocator@K@2@@std@@U?$less@K@3@V?$allocator@K@3@@std@@_N@2@ABK@Z 1001e5e4 f i pop3_lib:amc.obj
+ 0001:0001d714       ??1CUidlTable@@UAA@XZ      1001e714 f   pop3_lib:amc.obj
+ 0001:0001d738       ?FreeSnapshot@CUidlTable@@QAAJXZ 1001e738 f   pop3_lib:amc.obj
+ 0001:0001d760       ?RemoveFromSnapshot@CUidlTable@@QAAJPBD@Z 1001e760 f   pop3_lib:amc.obj
+ 0001:0001d7d0       ?DeleteSnapshotRecords@CUidlTable@@QAAJXZ 1001e7d0 f   pop3_lib:amc.obj
+ 0001:0001d870       ??1CAgedMessageCache@@UAA@XZ 1001e870 f   pop3_lib:amc.obj
+ 0001:0001d894       ??0CUidlTable@@QAA@XZ      1001e894 f   pop3_lib:amc.obj
+ 0001:0001d8d8       ??_ECUidlTable@@UAAPAXI@Z  1001e8d8 f i pop3_lib:amc.obj
+ 0001:0001d8d8       ??_GCUidlTable@@UAAPAXI@Z  1001e8d8 f i pop3_lib:amc.obj
+ 0001:0001d910       ?TakeSnapshot@CUidlTable@@QAAJXZ 1001e910 f   pop3_lib:amc.obj
+ 0001:0001da38       ??0CAgedMessageCache@@QAA@XZ 1001ea38 f   pop3_lib:amc.obj
+ 0001:0001da60       ??_GCAgedMessageCache@@UAAPAXI@Z 1001ea60 f i pop3_lib:amc.obj
+ 0001:0001da60       ??_ECAgedMessageCache@@UAAPAXI@Z 1001ea60 f i pop3_lib:amc.obj
+ 0001:0001da98       ??0CMessageBuffer@@QAA@XZ  1001ea98 f   pop3_lib:msgbuf.obj
+ 0001:0001dadc       ??1CMessageBuffer@@QAA@XZ  1001eadc f   pop3_lib:msgbuf.obj
+ 0001:0001db20       ?GotAllRequiredHeaderFields@CMessageBuffer@@QAAHXZ 1001eb20 f   pop3_lib:msgbuf.obj
+ 0001:0001db54       ?GetDate@CMessageBuffer@@QAAJPAU_FILETIME@@@Z 1001eb54 f   pop3_lib:msgbuf.obj
+ 0001:0001db80       ?GetHeaderData@CMessageBuffer@@QAAPADW4HeaderDataEnum@@@Z 1001eb80 f   pop3_lib:msgbuf.obj
+ 0001:0001dba4       ?SetHeaderData@CMessageBuffer@@QAAJW4HeaderDataEnum@@PBD@Z 1001eba4 f   pop3_lib:msgbuf.obj
+ 0001:0001dc50       ?AppendToLastHeaderData@CMessageBuffer@@QAAJPBD@Z 1001ec50 f   pop3_lib:msgbuf.obj
+ 0001:0001dd44       ?GetStream@CMessageBuffer@@QAAJPAPAUIStream@@@Z 1001ed44 f   pop3_lib:msgbuf.obj
+ 0001:0001ddac       ?CopyStream@CMessageBuffer@@QAAJPAUIStream@@@Z 1001edac f   pop3_lib:msgbuf.obj
+ 0001:0001ded0       ?Initialize@CPopSyncProgress@@QAAXPAVIMailSyncCallBack@@PAG@Z 1001eed0 f   pop3_lib:PopSyncProgress.obj
+ 0001:0001ded8       ?Reset@CPopSyncProgress@@QAAXXZ 1001eed8 f   pop3_lib:PopSyncProgress.obj
+ 0001:0001def0       ?OnUidsQueued@CPopSyncProgress@@QAAXK@Z 1001eef0 f   pop3_lib:PopSyncProgress.obj
+ 0001:0001df04       ?SetStatus@CPopSyncProgress@@AAAXKKK@Z 1001ef04 f   pop3_lib:PopSyncProgress.obj
+ 0001:0001df8c       ?CancelStatus@CPopSyncProgress@@AAAXK@Z 1001ef8c f   pop3_lib:PopSyncProgress.obj
+ 0001:0001dfec       ??0CPopSyncProgress@@QAA@XZ 1001efec f   pop3_lib:PopSyncProgress.obj
+ 0001:0001e00c       ?Cancel@CPopSyncProgress@@QAAXXZ 1001f00c f   pop3_lib:PopSyncProgress.obj
+ 0001:0001e064       ?OnConnecting@CPopSyncProgress@@QAAXXZ 1001f064 f   pop3_lib:PopSyncProgress.obj
+ 0001:0001e07c       ?OnLoggingOn@CPopSyncProgress@@QAAXXZ 1001f07c f   pop3_lib:PopSyncProgress.obj
+ 0001:0001e094       ?OnLookingForChanges@CPopSyncProgress@@QAAXXZ 1001f094 f   pop3_lib:PopSyncProgress.obj
+ 0001:0001e0ac       ?OnCheckingMessagesDone@CPopSyncProgress@@QAAXXZ 1001f0ac f   pop3_lib:PopSyncProgress.obj
+ 0001:0001e0ec       ?OnNewMessageReceived@CPopSyncProgress@@QAAXXZ 1001f0ec f   pop3_lib:PopSyncProgress.obj
+ 0001:0001e12c       ?OnMarkedMessageReceived@CPopSyncProgress@@QAAXXZ 1001f12c f   pop3_lib:PopSyncProgress.obj
+ 0001:0001e160       ?OnOldMessageChecked@CPopSyncProgress@@QAAXXZ 1001f160 f   pop3_lib:PopSyncProgress.obj
+ 0001:0001e194       ?GetWideHeader@CCEPOP3Transport@@AAAJIPADPAPAG@Z 1001f194 f   pop3_lib:receive.obj
+ 0001:0001e208       ?SetBodyByteCount@CCEPOP3Transport@@AAAXK@Z 1001f208 f   pop3_lib:receive.obj
+ 0001:0001e238       ?FetchingHeadersFirstForPartialMessages@CCEPOP3Transport@@AAAHXZ 1001f238 f   pop3_lib:receive.obj
+ 0001:0001e268       ?DownloadPartialMessage@CCEPOP3Transport@@AAAJPAVCMessageBuffer@@PAUIStream@@KK@Z 1001f268 f   pop3_lib:receive.obj
+ 0001:0001e2ac       ?HandleFullyDownloadedMessage@CCEPOP3Transport@@AAAJPAUIMessage@@PAUIStream@@K@Z 1001f2ac f   pop3_lib:receive.obj
+ 0001:0001e3e0       ?SetRecipients@CCEPOP3Transport@@AAAJPAVCMessageBuffer@@PAUIMessage@@@Z 1001f3e0 f   pop3_lib:receive.obj
+ 0001:0001e58c       ?GetRestOfPartialMessage@CCEPOP3Transport@@AAAJPAVCMessageBuffer@@PAUIMessage@@K@Z 1001f58c f   pop3_lib:receive.obj
+ 0001:0001e694       ?DownloadMessage@CCEPOP3Transport@@AAAJPAUIMessage@@K@Z 1001f694 f   pop3_lib:receive.obj
+ 0001:0001e940       ?ReceiveHeader@CCEPOP3Transport@@AAAJPAVCMessageBuffer@@K@Z 1001f940 f   pop3_lib:receive.obj
+ 0001:0001ea4c       ?UpdateMessageInFolder@CCEPOP3Transport@@AAAJPAVCMessageBuffer@@PAUIMessage@@KPBGPAG@Z 1001fa4c f   pop3_lib:receive.obj
+ 0001:0001f0fc       ?CmdLIST@CCEPOP3Transport@@AAAJKPAK@Z 100200fc f   pop3_lib:cmds.obj
+ 0001:0001f1f8       ?CmdRETR@CCEPOP3Transport@@AAAJK@Z 100201f8 f   pop3_lib:cmds.obj
+ 0001:0001f29c       ?CmdTOP@CCEPOP3Transport@@AAAJKK@Z 1002029c f   pop3_lib:cmds.obj
+ 0001:0001f340       ?CmdDELE@CCEPOP3Transport@@AAAJK@Z 10020340 f   pop3_lib:cmds.obj
+ 0001:0001f3dc       ?CmdSTAT@CCEPOP3Transport@@AAAJPAK@Z 100203dc f   pop3_lib:cmds.obj
+ 0001:0001f48c       ?CmdUIDL@CCEPOP3Transport@@AAAJKPAV?$_string_t@D$0BA@U?$char_traits@D@ce@@Vallocator@2@@ce@@@Z 1002048c f   pop3_lib:cmds.obj
+ 0001:0001f5c8       ?Equals@CUIDTracker@@QAAHKPBD@Z 100205c8 f   pop3_lib:uidtracker.obj
+ 0001:0001f61c       ?Restore@CUIDTracker@@QAAJXZ 1002061c f   pop3_lib:uidtracker.obj
+ 0001:0001f720       ?Set@CUIDTracker@@QAAJKPBD@Z 10020720 f   pop3_lib:uidtracker.obj
+ 0001:0001f7b0       ?Commit@CUIDTracker@@QAAJXZ 100207b0 f   pop3_lib:uidtracker.obj
+ 0001:0001f8b4       ?Invalidate@CUIDTracker@@QAAJXZ 100208b4 f   pop3_lib:uidtracker.obj
+ 0001:0001f9b0       ??1CapaCmdHandler@POP3@@QAA@XZ 100209b0 f   pop3_lib:CmdHandlers.obj
+ 0001:0001f9b4       ?IsEnabled@CapaCmdHandler@POP3@@QAAHW4POP3_CAPABILITY@2@@Z 100209b4 f   pop3_lib:CmdHandlers.obj
+ 0001:0001f9c8       ??0CapaCmdHandler@POP3@@QAA@XZ 100209c8 f   pop3_lib:CmdHandlers.obj
+ 0001:0001f9dc       ?IssueCommand@CapaCmdHandler@POP3@@QAAJPAVCBufferedSocket@@@Z 100209dc f   pop3_lib:CmdHandlers.obj
+ 0001:0001fba0       ?AuthenticateUserPass@CCEPOP3Transport@@AAAJXZ 10020ba0 f   pop3_lib:connect.obj
+ 0001:0001fdac       ?GetSupportedAuth@CCEPOP3Transport@@AAAJPADK@Z 10020dac f   pop3_lib:connect.obj
+ 0001:0001feb0       ?Preamble@CCEPOP3Transport@@UAAJXZ 10020eb0 f   pop3_lib:connect.obj
+ 0001:0001ff00       ?SSLCallback@CCEPOP3Transport@@AAAHKKPAUtagBLOB@@K@Z 10020f00 f   pop3_lib:connect.obj
+ 0001:0001ffac       ?StartTLS@CCEPOP3Transport@@UAAJXZ 10020fac f   pop3_lib:connect.obj
+ 0001:0002005c       ?CanServerStartTLS@CCEPOP3Transport@@UAAJPAH@Z 1002105c f   pop3_lib:connect.obj
+ 0001:000200a0       ?AuthenticateLogin@CCEPOP3Transport@@AAAJPAVCSicily@@PADKPAG22@Z 100210a0 f   pop3_lib:connect.obj
+ 0001:0002039c       ?AuthenticatePackage@CCEPOP3Transport@@AAAJPAVCSicily@@PADKPAG222PBD@Z 1002139c f   pop3_lib:connect.obj
+ 0001:000205c8       ?s_SSLCallback@CCEPOP3Transport@@CAHKPAXKPAUtagBLOB@@K@Z 100215c8 f   pop3_lib:connect.obj
+ 0001:000205f8       ?AuthenticateUser@CCEPOP3Transport@@AAAJPAD@Z 100215f8 f   pop3_lib:connect.obj
+ 0001:00020750       ?Authenticate@CCEPOP3Transport@@UAAJXZ 10021750 f   pop3_lib:connect.obj
+ 0001:00020870       ?HandleField@CCEPOP3Transport@@AAAJPAVCMessageBuffer@@PBD1@Z 10021870 f   pop3_lib:parse.obj
+ 0001:0002097c       ?ParseHeaders@CCEPOP3Transport@@AAAJPAVCMessageBuffer@@PAUIStream@@K@Z 1002197c f   pop3_lib:parse.obj
+ 0001:00020e00       ?QueryInterface@CSMTPSyncHandler@@UAAJABU_GUID@@PAPAX@Z 10021e00 f   smtp_lib:onestop_smtp.obj
+ 0001:00020e0c       ?AddRef@CSMTPSyncHandler@@UAAKXZ 10021e0c f   smtp_lib:onestop_smtp.obj
+ 0001:00020e14       ?Install@CSMTPSyncHandler@@UAAJPBG00PAU_GUID@@@Z 10021e14 f   smtp_lib:onestop_smtp.obj
+ 0001:00020e1c       ?UnInstall@CSMTPSyncHandler@@UAAJXZ 10021e1c f   smtp_lib:onestop_smtp.obj
+ 0001:00020e24       ??1CSMTPSyncHandler@@QAA@XZ 10021e24 f   smtp_lib:onestop_smtp.obj
+ 0001:00020f30       ?DoProperties@CSMTPSyncHandler@@UAAJPAUHWND__@@@Z 10021f30 f i smtp_lib:onestop_smtp.obj
+ 0001:00020f3c       ?GetCapability@CSMTPSyncHandler@@UAAJPBGPAU_SPropValue@@@Z 10021f3c f i smtp_lib:onestop_smtp.obj
+ 0001:00020f48       ?SetCapability@CSMTPSyncHandler@@UAAJPBGPAU_SPropValue@@@Z 10021f48 f i smtp_lib:onestop_smtp.obj
+ 0001:00020f54       ?GetFolderHierarchy@CSMTPSyncHandler@@UAAJPAPAU_FOLDERNODE@@@Z 10021f54 f i smtp_lib:onestop_smtp.obj
+ 0001:00020f60       ?DecodeEvent@CSMTPSyncHandler@@UAAJPAU_TRANSPORTEVENT@@PAPAG@Z 10021f60 f i smtp_lib:onestop_smtp.obj
+ 0001:00020f6c       ?SetFolderOptions@CSMTPSyncHandler@@UAAJPAUIMAPIFolder@@PAU_FOLDERNODE@@W4FOLDEROPTIONS@IMailSyncHandler@@PAU_SPropValue@@@Z 10021f6c f i smtp_lib:onestop_smtp.obj
+ 0001:00020f78       ?InitializeSmtpServiceProps@CSMTPSyncHandler@@AAAJXZ 10021f78 f   smtp_lib:onestop_smtp.obj
+ 0001:00021038       ?RestoreSettings@CSMTPSyncHandler@@AAAJXZ 10022038 f   smtp_lib:onestop_smtp.obj
+ 0001:00021194       ?SaveSettings@CSMTPSyncHandler@@AAAJXZ 10022194 f   smtp_lib:onestop_smtp.obj
+ 0001:000211d4       ?ShutDown@CSMTPSyncHandler@@UAAJK@Z 100221d4 f   smtp_lib:onestop_smtp.obj
+ 0001:00021200       ?ConnectToUserDefinedServer@CSMTPSyncHandler@@AAAJXZ 10022200 f   smtp_lib:onestop_smtp.obj
+ 0001:000212c4       ?LogEvent@CSMTPSyncHandler@@AAAJJ@Z 100222c4 f   smtp_lib:onestop_smtp.obj
+ 0001:00021368       ??0CSMTPSyncHandler@@QAA@XZ 10022368 f   smtp_lib:onestop_smtp.obj
+ 0001:000213fc       ?Release@CSMTPSyncHandler@@UAAKXZ 100223fc f   smtp_lib:onestop_smtp.obj
+ 0001:00021434       ?ReadBackupSMTPFromRegistry@CSMTPSyncHandler@@AAAJQAGKPAH@Z 10022434 f   smtp_lib:onestop_smtp.obj
+ 0001:00021500       ?Disconnect@CSMTPSyncHandler@@UAAJK@Z 10022500 f   smtp_lib:onestop_smtp.obj
+ 0001:00021548       ?IsSynchronizeNeeded@CSMTPSyncHandler@@AAAJPAHPAK@Z 10022548 f   smtp_lib:onestop_smtp.obj
+ 0001:000216b8       ?SMTP_OneStopFactory@@YAJPBGPAPAVIMailSyncHandler@@@Z 100226b8 f   smtp_lib:onestop_smtp.obj
+ 0001:000216f4       ?Initialize@CSMTPSyncHandler@@UAAJPAVIMailSyncCallBack@@PBGPAUIMsgStore@@@Z 100226f4 f   smtp_lib:onestop_smtp.obj
+ 0001:00021994       ?ConnectToBackupServer@CSMTPSyncHandler@@AAAJXZ 10022994 f   smtp_lib:onestop_smtp.obj
+ 0001:00021a30       ?ConnectToAppropriateServer@CSMTPSyncHandler@@AAAJXZ 10022a30 f   smtp_lib:onestop_smtp.obj
+ 0001:00021a84       ?ReSendWithNewConnection@CSMTPSyncHandler@@AAAJV?$CComPtr@UIMessage@@@ATL@@@Z 10022a84 f   smtp_lib:onestop_smtp.obj
+ 0001:00021b08       ?Connect@CSMTPSyncHandler@@UAAJKPAU_SYNCCREDENTIALS@@@Z 10022b08 f   smtp_lib:onestop_smtp.obj
+ 0001:00021c74       ?SendMessageW@CSMTPSyncHandler@@AAAJPAU_SBinary@@HH@Z 10022c74 f   smtp_lib:onestop_smtp.obj
+ 0001:00021df4       ?Synchronize@CSMTPSyncHandler@@UAAJPAU_MAILSYNCREQUEST@@@Z 10022df4 f   smtp_lib:onestop_smtp.obj
+ 0001:00021fb8       ?SetSSLRequired@CCESMTPDriver@@QAAXH@Z 10022fb8 f   smtp_lib:smtp.obj
+ 0001:00021fc0       ?SSLCallback@CCESMTPDriver@@QAAHKKPAUtagBLOB@@K@Z 10022fc0 f   smtp_lib:smtp.obj
+ 0001:00022068       ?Reset@CCESMTPDriver@@QAAJXZ 10023068 f   smtp_lib:smtp.obj
+ 0001:0002208c       ?HandleSentMsg@CCESMTPDriver@@QAAJPAUIMessage@@PAU_SBinaryArray@@HPAUIMAPIFolder@@2@Z 1002308c f   smtp_lib:smtp.obj
+ 0001:00022290       ?CanServerStartTLS@CCESMTPDriver@@UAAJPAH@Z 10023290 f   smtp_lib:smtp.obj
+ 0001:000222a0       ?s_SSLCallback@CCESMTPDriver@@SAHKPAXKPAUtagBLOB@@K@Z 100232a0 f   smtp_lib:smtp.obj
+ 0001:000222c8       ?Initialize@CCESMTPDriver@@QAAJPAUIMAPISupport@@PAVIMailSyncCallBack@@PBG@Z 100232c8 f   smtp_lib:smtp.obj
+ 0001:00022364       ?Uninitialize@CCESMTPDriver@@QAAJXZ 10023364 f   smtp_lib:smtp.obj
+ 0001:000223e0       ?SendDomain@CCESMTPDriver@@AAAJXZ 100233e0 f   smtp_lib:smtp.obj
+ 0001:000226e0       ?AuthenticateLogin@CCESMTPDriver@@AAAJPAVCSicily@@PADKPAG22@Z 100236e0 f   smtp_lib:smtp.obj
+ 0001:000229f0       ?AuthenticatePackage@CCESMTPDriver@@AAAJPAVCSicily@@PADKPAG22PBD@Z 100239f0 f   smtp_lib:smtp.obj
+ 0001:00022c54       ??1CCESMTPDriver@@QAA@XZ   10023c54 f   smtp_lib:smtp.obj
+ 0001:00022c88       ?Preamble@CCESMTPDriver@@UAAJXZ 10023c88 f   smtp_lib:smtp.obj
+ 0001:00022cdc       ?AuthenticateUser@CCESMTPDriver@@AAAJPAU_SYNCCREDENTIALS@@PAD@Z 10023cdc f   smtp_lib:smtp.obj
+ 0001:00022e30       ??0CCESMTPDriver@@QAA@XZ   10023e30 f   smtp_lib:smtp.obj
+ 0001:00022e94       ?Disconnect@CCESMTPDriver@@QAAJXZ 10023e94 f   smtp_lib:smtp.obj
+ 0001:00022f1c       ?StartTLS@CCESMTPDriver@@UAAJXZ 10023f1c f   smtp_lib:smtp.obj
+ 0001:00022ff8       ?Authenticate@CCESMTPDriver@@UAAJXZ 10023ff8 f   smtp_lib:smtp.obj
+ 0001:00023024       ?Connect@CCESMTPDriver@@QAAJPAVCConnection@@PBG1PAU_SYNCCREDENTIALS@@PAUIMsgStore@@@Z 10024024 f   smtp_lib:smtp.obj
+ 0001:000232b4       ?ExtractEmailAddress@@YAJPBGPAPAG@Z 100242b4 f   smtp_lib:send.obj
+ 0001:000233e0       ?ReadAChars@@YAKPAUIStream@@PADK@Z 100243e0 f   smtp_lib:send.obj
+ 0001:00023420       ?WriteAChars@@YAJPAUIStream@@PBDK@Z 10024420 f   smtp_lib:send.obj
+ 0001:00023474       ?CreateBounce@CCESMTPDriver@@AAAJPAUIMAPIFolder@@@Z 10024474 f   smtp_lib:send.obj
+ 0001:00023708       ?SendEfwdStr@CCESMTPDriver@@AAAJPBG@Z 10024708 f   smtp_lib:send.obj
+ 0001:000237e4       ?QuoteReturnAddress@@YAJPBGPAPAG@Z 100247e4 f   smtp_lib:send.obj
+ 0001:00023950       ?PreEncodeTextStream@@YAJPAUIStream@@PAPAU1@@Z 10024950 f   smtp_lib:send.obj
+ 0001:00023b58       ?UpdateBounceText@CCESMTPDriver@@AAAJPAUIMessage@@PADPAG@Z 10024b58 f   smtp_lib:send.obj
+ 0001:00023e38       ?SendMessageWithMimeOle@CCESMTPDriver@@AAAJPAUIMessage@@H@Z 10024e38 f   smtp_lib:send.obj
+ 0001:00024100       ?SetBaseMsgPropertyForAttachments@@YAJPAUIMessage@@@Z 10025100 f   smtp_lib:send.obj
+ 0001:00024384       ?SendFromStr@CCESMTPDriver@@AAAJXZ 10025384 f   smtp_lib:send.obj
+ 0001:0002462c       ?HandleSendErrorResponse@CCESMTPDriver@@AAAJHPADPAV?$_string_t@D$0BA@U?$char_traits@D@ce@@Vallocator@2@@ce@@@Z 1002562c f   smtp_lib:send.obj
+ 0001:000247bc       ?SendToStr@CCESMTPDriver@@AAAJPAUIMessage@@PAUIMAPIFolder@@@Z 100257bc f   smtp_lib:send.obj
+ 0001:00024c70       ?SendMailMsg@CCESMTPDriver@@QAAJPAUIMsgStore@@PAUIMessage@@PAUIMAPIFolder@@2H@Z 10025c70 f   smtp_lib:send.obj
+ 0001:00024f78       ?ReceiveDataCode@CCESMTPDriver@@AAAJPAHPAPAD@Z 10025f78 f   smtp_lib:response_smtp.obj
+ 0001:00025070       ?_DupAllocHelper@@YAJPAPAGIPBG@Z 10026070 f   msglib_dupstring:dupstring.obj
+ 0001:000250cc       ?DupStringRes@@YAJPAPAGPAUHINSTANCE__@@I@Z 100260cc f   msglib_dupstring:dupstring.obj
+ 0001:00025120       ?DupString@@YAJPAPAGPBG@Z  10026120 f   msglib_dupstring:dupstring.obj
+ 0001:00025160       ?DupStringA@@YAJPAPADPBD@Z 10026160 f   msglib_dupstring:dupstring.obj
+ 0001:000251dc       ?DupStringNA@@YAJPAPADPBDI@Z 100261dc f   msglib_dupstring:dupstring.obj
+ 0001:00025254       ?MAPIDupString@@YAJPAPAGPBG@Z 10026254 f   msglib_mapiutilpriv:mapiutilpriv.obj
+ 0001:000252d0       ?MAPIDupString@@YAJPAPAGPBGKPAX@Z 100262d0 f   msglib_mapiutilpriv:mapiutilpriv.obj
+ 0001:000253b0       ?_AddressListsToAdrList@@YAJPAUtagADDRESSPROPS@@KPAU_SRow@@PAX@Z 100263b0 f   msglib_mapiutilpriv:mapiutilpriv.obj
+ 0001:00025564       ?AddressListsToAdrList@@YAJPAUtagADDRESSLIST@@PAKKPAPAU_ADRLIST@@@Z 10026564 f   msglib_mapiutilpriv:mapiutilpriv.obj
+ 0001:00025758       ??0XPtrList@@QAA@H@Z       10026758 f   msglib_xlist:xlist.obj
+ 0001:00025778       ?RemoveAll@XPtrList@@QAAXXZ 10026778 f   msglib_xlist:xlist.obj
+ 0001:000257b0       ?NewNode@XPtrList@@AAAPAVXNode@1@PAV21@0@Z 100267b0 f   msglib_xlist:xlist.obj
+ 0001:00025838       ?AddHead@XPtrList@@QAAPAXPAX@Z 10026838 f   msglib_xlist:xlist.obj
+ 0001:0002587c       ?AddTail@XPtrList@@QAAPAXPAX@Z 1002687c f   msglib_xlist:xlist.obj
+ 0001:000258c0       ?RemoveAt@XPtrList@@QAAXPAX@Z 100268c0 f   msglib_xlist:xlist.obj
+ 0001:00025950       ??1XPtrList@@QAA@XZ        10026950 f   msglib_xlist:xlist.obj
+ 0001:00025954       ?FreeDataChain@CPlex@@QAAXXZ 10026954 f   msglib_xlist:plex.obj
+ 0001:00025978       ?Create@CPlex@@SAPAU1@AAPAU1@II@Z 10026978 f   msglib_xlist:plex.obj
+ 0001:000259d0       ?IsToxicSupported@@YAHXZ   100269d0 f   mailtrns_support:toxiclog.obj
+ 0001:000259e0       CePerfAddStatistic         100269e0 f i mailtrns_support:socket.obj
+ 0001:00025af4       ?SetMsgType@CSocket@@QAAXK@Z 10026af4 f   mailtrns_support:socket.obj
+ 0001:00025afc       ?SetProfileName@CSocket@@QAAXPBG@Z 10026afc f   mailtrns_support:socket.obj
+ 0001:00025b04       ?SetTimeOut@CSocket@@QAAXH@Z 10026b04 f   mailtrns_support:socket.obj
+ 0001:00025b14       ?GetTimeOut@CSocket@@QAAHXZ 10026b14 f   mailtrns_support:socket.obj
+ 0001:00025b1c       ?SetSSLSocketOpts@CSocket@@QAAHI@Z 10026b1c f   mailtrns_support:socket.obj
+ 0001:00025c78       ?BeginConnect@CSocket@@IAAJXZ 10026c78 f   mailtrns_support:socket.obj
+ 0001:00025d24       ?EndConnect@CSocket@@IAAJXZ 10026d24 f   mailtrns_support:socket.obj
+ 0001:00025d6c       ?IsCertInStore@@YAHPAXPBU_CERT_CONTEXT@@PAPBU1@@Z 10026d6c f   mailtrns_support:socket.obj
+ 0001:00025dcc       ?IsCertDateValid@@YAHPBU_CERT_CONTEXT@@@Z 10026dcc f   mailtrns_support:socket.obj
+ 0001:00025e5c       ?IsCertDateValidInStore@@YAHPBU_CERT_CONTEXT@@@Z 10026e5c f   mailtrns_support:socket.obj
+ 0001:00025ec4       ?StoreCertInStore@@YAJPAXPBU_CERT_CONTEXT@@@Z 10026ec4 f   mailtrns_support:socket.obj
+ 0001:00025f70       ?IsSSLHookSet@CSocket@@QAAHXZ 10026f70 f   mailtrns_support:socket.obj
+ 0001:00025f84       ?SetSSLHook@CSocket@@QAAXPAU_SSLVALIDATECERTHOOK@@@Z 10026f84 f   mailtrns_support:socket.obj
+ 0001:00025f8c       ?ChangeSSLType@CSocket@@UAAXH@Z 10026f8c f   mailtrns_support:socket.obj
+ 0001:00025f94       ?BytesAvailable@CSocket@@QAAJPAK@Z 10026f94 f   mailtrns_support:socket.obj
+ 0001:00025fd4       ?HrGetLastError@CSocket@@QAAJXZ 10026fd4 f   mailtrns_support:socket.obj
+ 0001:00025fe8       ?TimedOut@CSocket@@QAAHXZ  10026fe8 f   mailtrns_support:socket.obj
+ 0001:00026000       ?SendCommand@CBufferedSocket@@UAAJPBDK@Z 10027000 f   mailtrns_support:socket.obj
+ 0001:00026028       ?IsMoreDataAvailable@CBufferedSocket@@UAAHXZ 10027028 f   mailtrns_support:socket.obj
+ 0001:00026080       ?BinaryFindCRLF@@YAPADPADK@Z 10027080 f   mailtrns_support:socket.obj
+ 0001:000260cc       ?GotCRLF@CBufferedSocket@@AAAHXZ 100270cc f   mailtrns_support:socket.obj
+ 0001:00026108       ?GrowReadBuffer@CBufferedSocket@@AAAJXZ 10027108 f   mailtrns_support:socket.obj
+ 0001:00026170       ?SetSockOpt@CSocket@@QAAHHHPBDH@Z 10027170 f   mailtrns_support:socket.obj
+ 0001:000261f0       ?Close@CSocket@@UAAXXZ     100271f0 f   mailtrns_support:socket.obj
+ 0001:000262ac       ?ConnectUsingAddrPair@CSocket@@IAAJABUCM_ADDRESS_PAIR@@ABU_PROXY_CONFIG@@PBGG@Z 100272ac f   mailtrns_support:socket.obj
+ 0001:00026604       ?VerifyCert@CSocket@@QAAJKKPAUtagBLOB@@K@Z 10027604 f   mailtrns_support:socket.obj
+ 0001:0002673c       ?StoreAcceptedCert@CSocket@@QAAJPAUtagBLOB@@@Z 1002773c f   mailtrns_support:socket.obj
+ 0001:000267b8       ?PerformSSLHandshake@CSocket@@QAAJXZ 100277b8 f   mailtrns_support:socket.obj
+ 0001:0002684c       ?Receive@CSocket@@UAAHPAXHH@Z 1002784c f   mailtrns_support:socket.obj
+ 0001:000269d4       ?Send@CSocket@@UAAHPBXHH@Z 100279d4 f   mailtrns_support:socket.obj
+ 0001:00026a80       ?GetLastBadResponse@CSocket@@QAAPBDXZ 10027a80 f   mailtrns_support:socket.obj
+ 0001:00026a94       ?SendSza@CBufferedSocket@@UAAJPBDH@Z 10027a94 f   mailtrns_support:socket.obj
+ 0001:00026b38       ?SendCommand@CBufferedSocket@@UAAJPBDKK@Z 10027b38 f   mailtrns_support:socket.obj
+ 0001:00026bc4       ?ReceiveLine@CBufferedSocket@@UAAJPAPADPAHHH1@Z 10027bc4 f   mailtrns_support:socket.obj
+ 0001:00026e08       ?erase@?$_string_t@D$0BA@U?$char_traits@D@ce@@Vallocator@2@@ce@@QAAXII@Z 10027e08 f i mailtrns_support:socket.obj
+ 0001:00026e5c       ??1CSocket@@QAA@XZ         10027e5c f   mailtrns_support:socket.obj
+ 0001:00026eb4       ?ClearSocketError@CSocket@@QAAXXZ 10027eb4 f   mailtrns_support:socket.obj
+ 0001:00026ecc       ??4?$auto_xxx@PAV?$_string_t@D$0BA@U?$char_traits@D@ce@@Vallocator@2@@ce@@P6AXPAV12@@Z$1??$_delete@V?$_string_t@D$0BA@U?$char_traits@D@ce@@Vallocator@2@@ce@@@2@YAX0@Z$0A@Vno_copy@2@@ce@@QAAAAV01@ABQAV?$_string_t@D$0BA@U?$char_traits@D@ce@@Vallocator@2@@1@@Z 10027ecc f i mailtrns_support:socket.obj
+ 0001:00026f0c       ??0CSocket@@QAA@XZ         10027f0c f   mailtrns_support:socket.obj
+ 0001:00027074       ?TryCandidateConnection@CSocket@@IAAJPBGGK@Z 10028074 f   mailtrns_support:socket.obj
+ 0001:00027214       ?Connect@CSocket@@UAAJPBGG@Z 10028214 f   mailtrns_support:socket.obj
+ 0001:0002731c       ?SetLastBadResponse@CSocket@@QAAJPBD@Z 1002831c f   mailtrns_support:socket.obj
+ 0001:00027384       ??1CBufferedSocket@@QAA@XZ 10028384 f   mailtrns_support:socket.obj
+ 0001:000273dc       ??0CBufferedSocket@@QAA@XZ 100283dc f   mailtrns_support:socket.obj
+ 0001:00027414       ?Reset@CBufferedSocket@@UAAXXZ 10028414 f   mailtrns_support:socket.obj
+ 0001:00027470       ?SendCommand@CBufferedSocket@@UAAJPBDK0K@Z 10028470 f   mailtrns_support:socket.obj
+ 0001:00027694       CePerfOpenSession          10028694 f i mailtrns_support:perf.obj
+ 0001:0002778c       CePerfCloseSession         1002878c f i mailtrns_support:perf.obj
+ 0001:00027828       CePerfRegisterBulk         10028828 f i mailtrns_support:perf.obj
+ 0001:0002789c       ?MDPGPerfOpenSession@@YAJPAPAXPBG@Z 1002889c f i mailtrns_support:perf.obj
+ 0001:00027928       ?TransportsPerfOpen@@YAXXZ 10028928 f   mailtrns_support:perf.obj
+ 0001:00027960       ?TransportsPerfClose@@YAXXZ 10028960 f   mailtrns_support:perf.obj
+ 0001:0002797c       ??0CConnection@@QAA@XZ     1002897c f   mailtrns_support:mailconnect.obj
+ 0001:00027990       ?GetFirstIpAddr@CConnection@@QAAJPBGGPAUCM_ADDRESS_PAIR@@PAK@Z 10028990 f   mailtrns_support:mailconnect.obj
+ 0001:000279dc       ?GetNextIpAddr@CConnection@@QAAJPAUCM_ADDRESS_PAIR@@PAK@Z 100289dc f   mailtrns_support:mailconnect.obj
+ 0001:000279fc       ?Initialize@CConnection@@QAAJHW4CONN_ROAMING_FLAG@@@Z 100289fc f   mailtrns_support:mailconnect.obj
+ 0001:00027aa0       ?ReleaseConnection@CConnection@@QAAJXZ 10028aa0 f   mailtrns_support:mailconnect.obj
+ 0001:00027ae4       ?GetFirstCandidateConnection@CConnection@@QAAJPBG@Z 10028ae4 f   mailtrns_support:mailconnect.obj
+ 0001:00027b58       ?GetNextCandidateConnection@CConnection@@QAAJXZ 10028b58 f   mailtrns_support:mailconnect.obj
+ 0001:00027bc0       ?GetProxyConfig@CConnection@@QAAJPAU_PROXY_CONFIG@@@Z 10028bc0 f   mailtrns_support:mailconnect.obj
+ 0001:00027c24       ?CloseSession@CConnection@@QAAJXZ 10028c24 f   mailtrns_support:mailconnect.obj
+ 0001:00027c6c       ??1CConnection@@QAA@XZ     10028c6c f   mailtrns_support:mailconnect.obj
+ 0001:00027d18       ?InitMessageTracking@CMessageTracker@@QAAJPAVCMessageTrackerSink@@PAUIMsgStore@@PBGK@Z 10028d18 f   mailtrns_support:msgtrack.obj
+ 0001:00027df4       ?ShutDownMessageTracking@CMessageTracker@@QAAJXZ 10028df4 f   mailtrns_support:msgtrack.obj
+ 0001:00027e54       ?OnObjectModified@CMessageTracker@@IAAXPAU_OBJECT_NOTIFICATION@@@Z 10028e54 f   mailtrns_support:msgtrack.obj
+ 0001:00027fc8       ??1CMessageTracker@@QAA@XZ 10028fc8 f   mailtrns_support:msgtrack.obj
+ 0001:00027fe8       ?QueryInterface@CMessageTracker@@UAAJABU_GUID@@PAPAX@Z 10028fe8 f i mailtrns_support:msgtrack.obj
+ 0001:00027ff4       ?AddRef@CMessageTracker@@UAAKXZ 10028ff4 f i mailtrns_support:msgtrack.obj
+ 0001:00027ffc       ?Release@CMessageTracker@@UAAKXZ 10028ffc f i mailtrns_support:msgtrack.obj
+ 0001:00028004       ?OnOneNotify@CMessageTracker@@IAAKPAU_NOTIFICATION@@@Z 10029004 f   mailtrns_support:msgtrack.obj
+ 0001:00028178       ??0CMessageTracker@@QAA@XZ 10029178 f   mailtrns_support:msgtrack.obj
+ 0001:000281b4       ?OnNotify@CMessageTracker@@UAAKKPAU_NOTIFICATION@@@Z 100291b4 f   mailtrns_support:msgtrack.obj
+ 0001:000281f8       ?SyncEnumFolder@@YAJW4enmType@@PAUIMAPIFolder@@PAVCMsgFetchQueue@@PBG@Z 100291f8 f   mailtrns_support:utils_support.obj
+ 0001:0002855c       ?IsValidCredentials@@YAHPAU_SYNCCREDENTIALS@@@Z 1002955c f   mailtrns_support:utils_support.obj
+ 0001:0002859c       ?DeleteCredentials@@YAJPAPAU_SYNCCREDENTIALS@@@Z 1002959c f   mailtrns_support:utils_support.obj
+ 0001:000285dc       ?CopyCredentials@@YAJPAU_SYNCCREDENTIALS@@PAPAU1@@Z 100295dc f   mailtrns_support:utils_support.obj
+ 0001:0002876c       ?ExtractHostAndPort@@YAJPBGPAPAGPAG@Z 1002976c f   mailtrns_support:utils_support.obj
+ 0001:00028850       ?FindToken@@YAHPBGPAG0@Z   10029850 f   mailtrns_support:preauth.obj
+ 0001:000288b4       ?PreAuthPieceFactory@PreAuth@@YAJPAUPREAUTH_FACTORY_PARAM@1@PAPAVIPreAuthPiece@1@@Z 100298b4 f   mailtrns_support:preauth.obj
+ 0001:00028934       ?IsNecessary@CGmailPreAuthPiece@PreAuth@@CAHPAUIMsgStore@@@Z 10029934 f   mailtrns_support:preauth.obj
+ 0001:00028984       ?InternetOpenW@CGmailPreAuthPiece@PreAuth@@AAAJPAPAX@Z 10029984 f   mailtrns_support:preauth.obj
+ 0001:00028a38       ?PreAuthenticate@PreAuth@@YAJPAUIMsgStore@@PBGPAU_SYNCCREDENTIALS@@@Z 10029a38 f   mailtrns_support:preauth.obj
+ 0001:00028b64       ?Initialize@CGmailPreAuthPiece@PreAuth@@UAAJPAUIMsgStore@@PBGPAU_SYNCCREDENTIALS@@@Z 10029b64 f   mailtrns_support:preauth.obj
+ 0001:00028bc8       ?RegFindServerName@CGmailPreAuthPiece@PreAuth@@CAJPBGKPAH@Z 10029bc8 f   mailtrns_support:preauth.obj
+ 0001:00028cec       ?IsApplicable@CGmailPreAuthPiece@PreAuth@@CAHPBGPAK@Z 10029cec f   mailtrns_support:preauth.obj
+ 0001:00028d9c       ?CreateObject@CGmailPreAuthPiece@PreAuth@@SAJPAUPREAUTH_FACTORY_PARAM@2@PAPAVIPreAuthPiece@2@@Z 10029d9c f   mailtrns_support:preauth.obj
+ 0001:00028e78       ?EncodeCredentials@CGmailPreAuthPiece@PreAuth@@AAAJPAPAG@Z 10029e78 f   mailtrns_support:preauth.obj
+ 0001:000291e0       ?ConstructHttpRequest@CGmailPreAuthPiece@PreAuth@@AAAJPAXPAPAX@Z 1002a1e0 f   mailtrns_support:preauth.obj
+ 0001:000294f8       ?PreAuthenticate@CGmailPreAuthPiece@PreAuth@@UAAJXZ 1002a4f8 f   mailtrns_support:preauth.obj
+ 0001:00029658       ?EnumMapiMessages@@YAJPAUIMAPIFolder@@PAU_SPropTagArray@@P6AJ0KPAU_SPropValue@@J@ZJ@Z 1002a658 f   mailtrns_support:fldrenum.obj
+ 0001:00029910       ?EnumMapiFolders@@YAJPAUIMAPIFolder@@PBUENUMCTX@@@Z 1002a910 f   mailtrns_support:fldrenum.obj
+ 0001:00029a3c       ?EnumMapiFolders@@YAJPAUIMAPIFolder@@PAU_SPropTagArray@@JP6AJJKPAU_SPropValue@@00@ZK@Z 1002aa3c f   mailtrns_support:fldrenum.obj
+ 0001:00029b10       ?_Buynode@?$list@UCONNAGENT_PROBE_PARAMS@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@UCONNAGENT_PROBE_PARAMS@@@list_impl@2@PAU342@@Z 1002ab10 f i mailtrns_support:connagent.obj
+ 0001:00029b5c       ?RestoreSettings@ConnAgent@@AAAJXZ 1002ab5c f   mailtrns_support:connagent.obj
+ 0001:00029ca4       ?SaveSettings@ConnAgent@@AAAJXZ 1002aca4 f   mailtrns_support:connagent.obj
+ 0001:00029cf4       ?SaveLoginResult@ConnAgent@@AAAJJ@Z 1002acf4 f   mailtrns_support:connagent.obj
+ 0001:00029d5c       ?remove@?$list@UCONNAGENT_PROBE_PARAMS@@Vallocator@ce@@@ce@@QAAXABUCONNAGENT_PROBE_PARAMS@@@Z 1002ad5c f i mailtrns_support:connagent.obj
+ 0001:00029ddc       ??$insert@UCONNAGENT_PROBE_PARAMS@@@?$list@UCONNAGENT_PROBE_PARAMS@@Vallocator@ce@@@ce@@QAA?AV?$iterator@UCONNAGENT_PROBE_PARAMS@@@list_impl@1@V231@ABUCONNAGENT_PROBE_PARAMS@@@Z 1002addc f i mailtrns_support:connagent.obj
+ 0001:00029e2c       ?Initialize@ConnAgent@@QAAJPAUIConnAgentHost@@PAUIMsgStore@@PAUISocket@@PAUCONNAGENT_TRANSPORT_PARAMS@@@Z 1002ae2c f   mailtrns_support:connagent.obj
+ 0001:00029ef4       ?Probe@ConnAgent@@AAAJPAUCONNAGENT_PROBE_PARAMS@@@Z 1002aef4 f   mailtrns_support:connagent.obj
+ 0001:0002a074       ?AddProbeScriptStep@ConnAgent@@AAAJGK@Z 1002b074 f   mailtrns_support:connagent.obj
+ 0001:0002a128       ?GenerateProbeScript@ConnAgent@@AAAJXZ 1002b128 f   mailtrns_support:connagent.obj
+ 0001:0002a29c       ?Run@ConnAgent@@QAAJXZ     1002b29c f   mailtrns_support:connagent.obj
+ 0001:0002a384       ?IsTSpecial@RFC2045@@YAHD@Z 1002b384 f i mailtrns_support:RfcParse.obj
+ 0001:0002a3e4       ?ParseWord@ASCII@@YAJPBDPAPBDPAPADPAI@Z 1002b3e4 f   mailtrns_support:RfcParse.obj
+ 0001:0002a494       ?ParseQuotedString@RFC822@@YAJPBDPAPBDPAPAD@Z 1002b494 f   mailtrns_support:RfcParse.obj
+ 0001:0002a55c       ?ParseToken@RFC2045@@YAJPBDPAPAD@Z 1002b55c f   mailtrns_support:RfcParse.obj
+ 0001:0002a5fc       ?ParseParameter@RFC2045@@YAJPBD0PAPAD@Z 1002b5fc f   mailtrns_support:RfcParse.obj
+ 0001:0002a684       ?ParseCapaTag@RFC2449@@YAJPBDPAPAD@Z 1002b684 f   mailtrns_support:RfcParse.obj
+ 0001:0002a6f8       ?ParseStatusIndicator@RFC1939@@YAJPBDPAPBDPAH@Z 1002b6f8 f   mailtrns_support:RfcParse.obj
+ 0001:0002a7c0       ?ParseMessageNumber@RFC1939@@YAJPBDPAPBDPAK@Z 1002b7c0 f   mailtrns_support:RfcParse.obj
+ 0001:0002a83c       ?ParseUniqueId@RFC1939@@YAJPBDPAPAD@Z 1002b83c f   mailtrns_support:RfcParse.obj
+ 0001:0002a8e8       ?ParseUidListingArg@RFC1939@@YAJPBDPAKPAPAD@Z 1002b8e8 f   mailtrns_support:RfcParse.obj
+ 0001:0002a9bc       ?DbgTrace@@YAXPBGZZ        1002b9bc f   mailtrns_support:authsic.obj
+ 0001:0002a9cc       ??0CSicily@@QAA@XZ         1002b9cc f   mailtrns_support:authsic.obj
+ 0001:0002a9e8       ?Init@CSicily@@QAAHXZ      1002b9e8 f   mailtrns_support:authsic.obj
+ 0001:0002aac8       ?FreeSicInfo@CSicily@@QAAXXZ 1002bac8 f   mailtrns_support:authsic.obj
+ 0001:0002ab30       ?SicilyLogon@CSicily@@AAAHPBG000@Z 1002bb30 f   mailtrns_support:authsic.obj
+ 0001:0002ac7c       ?ContinueResponse@CSicily@@QAAHXZ 1002bc7c f   mailtrns_support:authsic.obj
+ 0001:0002ac90       ?encode@@YAHHPAEKPADK@Z    1002bc90 f   mailtrns_support:authsic.obj
+ 0001:0002adc0       ?decode@@YAHHPAD0PAK@Z     1002bdc0 f   mailtrns_support:authsic.obj
+ 0001:0002af0c       ?FreePackages@CSicily@@AAAXXZ 1002bf0c f   mailtrns_support:authsic.obj
+ 0001:0002af98       ?MakeOutBoundMsg@CSicily@@AAAHPAUtagSICINFO@@HPAUtagSICMSG@@PAU_SecBufferDesc@@PAU_SecHandle@@3PBG@Z 1002bf98 f   mailtrns_support:authsic.obj
+ 0001:0002b174       ?Encode@CSicily@@QAAHHPAD0K@Z 1002c174 f   mailtrns_support:authsic.obj
+ 0001:0002b218       ?Decode@CSicily@@QAAHHPAD0K@Z 1002c218 f   mailtrns_support:authsic.obj
+ 0001:0002b2b4       ?GetResponse@CSicily@@AAAHHPAUtagSICMSG@@0PAG@Z 1002c2b4 f   mailtrns_support:authsic.obj
+ 0001:0002b3bc       ??1CSicily@@QAA@XZ         1002c3bc f   mailtrns_support:authsic.obj
+ 0001:0002b3e4       ?GetInstalledPackages@CSicily@@AAAHXZ 1002c3e4 f   mailtrns_support:authsic.obj
+ 0001:0002b5d4       ?SicilyGetNegotiation@CSicily@@AAAHHPAUtagSICMSG@@PBG@Z 1002c5d4 f   mailtrns_support:authsic.obj
+ 0001:0002b680       ?GetResponseFromChallenge@CSicily@@QAAHPAGPAD1K@Z 1002c680 f   mailtrns_support:authsic.obj
+ 0001:0002b704       ?IsPackageSupported@CSicily@@QAAHPBG@Z 1002c704 f   mailtrns_support:authsic.obj
+ 0001:0002b794       ?GetNegotiationString@CSicily@@QAAHPBG0000PADK@Z 1002c794 f   mailtrns_support:authsic.obj
+ 0001:0002b824       ??0CMsgFetchQueue@@QAA@XZ  1002c824 f   mailtrns_support:msgqueue.obj
+ 0001:0002b848       ??1CMsgFetchQueue@@QAA@XZ  1002c848 f   mailtrns_support:msgqueue.obj
+ 0001:0002b860       ?GetCount@CMsgFetchQueue@@QAAHXZ 1002c860 f   mailtrns_support:msgqueue.obj
+ 0001:0002b868       ?AddMessage@CMsgFetchQueue@@QAAJKPAUENTRYID@@K@Z 1002c868 f   mailtrns_support:msgqueue.obj
+ 0001:0002b8f4       ?FindMessage@CMsgFetchQueue@@QAAJKPAUENTRYID@@K@Z 1002c8f4 f   mailtrns_support:msgqueue.obj
+ 0001:0002b978       ?RemoveFromTail@CMsgFetchQueue@@QAAJPAPAUMSGQUEUEITEM@1@@Z 1002c978 f   mailtrns_support:msgqueue.obj
+ 0001:0002b9c0       ?FreeItem@CMsgFetchQueue@@QAAJPAUMSGQUEUEITEM@1@@Z 1002c9c0 f   mailtrns_support:msgqueue.obj
+ 0001:0002b9d4       ?Send@SocksUtil@@YAJIPAEI@Z 1002c9d4 f   mailtrns_support:SocksProxy.obj
+ 0001:0002ba4c       ?ResolveAddress@SocksUtil@@YAJPBDGPAK@Z 1002ca4c f   mailtrns_support:SocksProxy.obj
+ 0001:0002bb5c       ?Receive@SocksUtil@@YAJIPAEI@Z 1002cb5c f   mailtrns_support:SocksProxy.obj
+ 0001:0002bc9c       ?ConstructConnectPacket@Socks4@@YAJPBGG0PAPAEPAI@Z 1002cc9c f   mailtrns_support:SocksProxy.obj
+ 0001:0002bf34       ?PerformHandshake@Socks4@@YAJIABU_PROXY_CONFIG@@PBGG@Z 1002cf34 f   mailtrns_support:SocksProxy.obj
+ 0001:0002c04c       ?PackAndSendConnAgentNotify@CQANotify@@CAXPAUHWND__@@W4ENotifyType@@@Z 1002d04c f   mailtrns_support:qanotify.obj
+ 0001:0002c098       ?PackAndSendPreAuthNotify@CQANotify@@CAXPAUHWND__@@W4ENotifyType@@@Z 1002d098 f   mailtrns_support:qanotify.obj
+ 0001:0002c0e4       ?Notify@CQANotify@@SAXW4ENotifyType@@IJ@Z 1002d0e4 f   mailtrns_support:qanotify.obj
+ 0001:0002c160       LoadLibraryW               1002d160 f   coredll:COREDLL.dll
+ 0001:0002c170       InitializeCriticalSection  1002d170 f   coredll:COREDLL.dll
+ 0001:0002c180       DeleteCriticalSection      1002d180 f   coredll:COREDLL.dll
+ 0001:0002c190       CeLogData                  1002d190 f   coredll:COREDLL.dll
+ 0001:0002c1a0       StringCchLengthW           1002d1a0 f   coredll:COREDLL.dll
+ 0001:0002c1b0       StringCchVPrintfW          1002d1b0 f   coredll:COREDLL.dll
+ 0001:0002c1c0       RegQueryValueExW           1002d1c0 f   coredll:COREDLL.dll
+ 0001:0002c1d0       InterlockedIncrement       1002d1d0 f   coredll:COREDLL.dll
+ 0001:0002c1e0       RegCloseKey                1002d1e0 f   coredll:COREDLL.dll
+ 0001:0002c1f0       RegOpenKeyExW              1002d1f0 f   coredll:COREDLL.dll
+ 0001:0002c200       MultiByteToWideChar        1002d200 f   coredll:COREDLL.dll
+ 0001:0002c210       InterlockedDecrement       1002d210 f   coredll:COREDLL.dll
+ 0001:0002c220       WideCharToMultiByte        1002d220 f   coredll:COREDLL.dll
+ 0001:0002c230       StringCchPrintfW           1002d230 f   coredll:COREDLL.dll
+ 0001:0002c240       StringCchCatW              1002d240 f   coredll:COREDLL.dll
+ 0001:0002c250       StringCchCopyW             1002d250 f   coredll:COREDLL.dll
+ 0001:0002c260       StringCchCopyA             1002d260 f   coredll:COREDLL.dll
+ 0001:0002c270       StringCchCatA              1002d270 f   coredll:COREDLL.dll
+ 0001:0002c280       GetTickCount               1002d280 f   coredll:COREDLL.dll
+ 0001:0002c290       LoadStringW                1002d290 f   coredll:COREDLL.dll
+ 0001:0002c2a0       lstrcmpW                   1002d2a0 f   coredll:COREDLL.dll
+ 0001:0002c2b0       CloseHandle                1002d2b0 f   coredll:COREDLL.dll
+ 0001:0002c2c0       GetExitCodeThread          1002d2c0 f   coredll:COREDLL.dll
+ 0001:0002c2d0       CreateThread               1002d2d0 f   coredll:COREDLL.dll
+ 0001:0002c2e0       EnterCriticalSection       1002d2e0 f   coredll:COREDLL.dll
+ 0001:0002c2f0       LeaveCriticalSection       1002d2f0 f   coredll:COREDLL.dll
+ 0001:0002c300       StringCchPrintfA           1002d300 f   coredll:COREDLL.dll
+ 0001:0002c310       WaitForSingleObject        1002d310 f   coredll:COREDLL.dll
+ 0001:0002c320       StringCchCopyNA            1002d320 f   coredll:COREDLL.dll
+ 0001:0002c330       GetLastError               1002d330 f   coredll:COREDLL.dll
+ 0001:0002c340       CeDeleteDatabaseEx         1002d340 f   coredll:COREDLL.dll
+ 0001:0002c350       CeSeekDatabaseEx           1002d350 f   coredll:COREDLL.dll
+ 0001:0002c360       CeDeleteRecord             1002d360 f   coredll:COREDLL.dll
+ 0001:0002c370       CeUnmountDBVol             1002d370 f   coredll:COREDLL.dll
+ 0001:0002c380       CeCreateDatabaseWithProps  1002d380 f   coredll:COREDLL.dll
+ 0001:0002c390       CeOpenDatabaseInSession    1002d390 f   coredll:COREDLL.dll
+ 0001:0002c3a0       CeMountDBVolEx             1002d3a0 f   coredll:COREDLL.dll
+ 0001:0002c3b0       CeWriteRecordProps         1002d3b0 f   coredll:COREDLL.dll
+ 0001:0002c3c0       CeReadRecordPropsEx        1002d3c0 f   coredll:COREDLL.dll
+ 0001:0002c3d0       StringCchCatExA            1002d3d0 f   coredll:COREDLL.dll
+ 0001:0002c3e0       StringCchPrintfExA         1002d3e0 f   coredll:COREDLL.dll
+ 0001:0002c3f0       SystemTimeToFileTime       1002d3f0 f   coredll:COREDLL.dll
+ 0001:0002c400       GetSystemTime              1002d400 f   coredll:COREDLL.dll
+ 0001:0002c410       SystemIdleTimerReset       1002d410 f   coredll:COREDLL.dll
+ 0001:0002c420       StringCchCopyExA           1002d420 f   coredll:COREDLL.dll
+ 0001:0002c430       GetLocalTime               1002d430 f   coredll:COREDLL.dll
+ 0001:0002c440       FileTimeToSystemTime       1002d440 f   coredll:COREDLL.dll
+ 0001:0002c450       LocalFree                  1002d450 f   coredll:COREDLL.dll
+ 0001:0002c460       StringCchLengthA           1002d460 f   coredll:COREDLL.dll
+ 0001:0002c470       GetProcAddressW            1002d470 f   coredll:COREDLL.dll
+ 0001:0002c480       ReleaseMutex               1002d480 f   coredll:COREDLL.dll
+ 0001:0002c490       CreateMutexW               1002d490 f   coredll:COREDLL.dll
+ 0001:0002c4a0       CompareFileTime            1002d4a0 f   coredll:COREDLL.dll
+ 0001:0002c4b0       CePerfDLLCleanup           1002d4b0 f   coredll:COREDLL.dll
+ 0001:0002c4c0       CePerfDLLSetup             1002d4c0 f   coredll:COREDLL.dll
+ 0001:0002c4d0       RegistryGetString          1002d4d0 f   coredll:COREDLL.dll
+ 0001:0002c4e0       StringCchCopyNW            1002d4e0 f   coredll:COREDLL.dll
+ 0001:0002c4f0       lstrcmpiW                  1002d4f0 f   coredll:COREDLL.dll
+ 0001:0002c500       FreeLibrary                1002d500 f   coredll:COREDLL.dll
+ 0001:0002c510       SendMessageW               1002d510 f   coredll:COREDLL.dll
+ 0001:0002c520       FindWindowW                1002d520 f   coredll:COREDLL.dll
+ 0001:0002c530       UMul                       1002d530 f   ossvcs:ossvcs.dll
+ 0001:0002c540       WatsonReportFault          1002d540 f   ossvcs:ossvcs.dll
+ 0001:0002c550       EscapeStringW              1002d550 f   ossvcs:ossvcs.dll
+ 0001:0002c560       CoUninitialize             1002d560 f   ole32:ole32.dll
+ 0001:0002c570       CoInitializeEx             1002d570 f   ole32:ole32.dll
+ 0001:0002c580       CreateStreamOnHGlobal      1002d580 f   ole32:ole32.dll
+ 0001:0002c590       MAPIFreeBuffer             1002d590 f   cemapi:CEMAPI.dll
+ 0001:0002c5a0       ?MAPI_CompareEntryIDs@@YAHKPAUENTRYID@@K0@Z 1002d5a0 f   cemapi:CEMAPI.dll
+ 0001:0002c5b0       MAPIAllocateBuffer         1002d5b0 f   cemapi:CEMAPI.dll
+ 0001:0002c5c0       HrGetOneProp               1002d5c0 f   cemapi:CEMAPI.dll
+ 0001:0002c5d0       FreeProws                  1002d5d0 f   cemapi:CEMAPI.dll
+ 0001:0002c5e0       ReadMailVolumeNameEx       1002d5e0 f   cemapi:CEMAPI.dll
+ 0001:0002c5f0       HrSetOneProp               1002d5f0 f   cemapi:CEMAPI.dll
+ 0001:0002c600       MAPIAllocateMore           1002d600 f   cemapi:CEMAPI.dll
+ 0001:0002c610       WSAIoctl                   1002d610 f   ws2:WS2.dll
+ 0001:0002c620       setsockopt                 1002d620 f   ws2:WS2.dll
+ 0001:0002c630       WSAStartup                 1002d630 f   ws2:WS2.dll
+ 0001:0002c640       WSAGetLastError            1002d640 f   ws2:WS2.dll
+ 0001:0002c650       ioctlsocket                1002d650 f   ws2:WS2.dll
+ 0001:0002c660       WSACleanup                 1002d660 f   ws2:WS2.dll
+ 0001:0002c670       closesocket                1002d670 f   ws2:WS2.dll
+ 0001:0002c680       WSASetLastError            1002d680 f   ws2:WS2.dll
+ 0001:0002c690       __WSAFDIsSet               1002d690 f   ws2:WS2.dll
+ 0001:0002c6a0       select                     1002d6a0 f   ws2:WS2.dll
+ 0001:0002c6b0       connect                    1002d6b0 f   ws2:WS2.dll
+ 0001:0002c6c0       bind                       1002d6c0 f   ws2:WS2.dll
+ 0001:0002c6d0       socket                     1002d6d0 f   ws2:WS2.dll
+ 0001:0002c6e0       recv                       1002d6e0 f   ws2:WS2.dll
+ 0001:0002c6f0       send                       1002d6f0 f   ws2:WS2.dll
+ 0001:0002c700       freeaddrinfo               1002d700 f   ws2:WS2.dll
+ 0001:0002c710       getaddrinfo                1002d710 f   ws2:WS2.dll
+ 0001:0002c720       htons                      1002d720 f   ws2:WS2.dll
+ 0001:0002c730       InternetCloseHandle        1002d730 f   wininet:WININET.dll
+ 0001:0002c740       InternetOpenW              1002d740 f   wininet:WININET.dll
+ 0001:0002c750       HttpAddRequestHeadersW     1002d750 f   wininet:WININET.dll
+ 0001:0002c760       HttpOpenRequestW           1002d760 f   wininet:WININET.dll
+ 0001:0002c770       HttpQueryInfoW             1002d770 f   wininet:WININET.dll
+ 0001:0002c780       HttpSendRequestW           1002d780 f   wininet:WININET.dll
+ 0001:0002c790       InternetConnectW           1002d790 f   wininet:WININET.dll
+ 0001:0002c7a0       CertFreeCertificateContext 1002d7a0 f   crypt32:CRYPT32.dll
+ 0001:0002c7b0       CertFindCertificateInStore 1002d7b0 f   crypt32:CRYPT32.dll
+ 0001:0002c7c0       CertGetCertificateContextProperty 1002d7c0 f   crypt32:CRYPT32.dll
+ 0001:0002c7d0       CertAddCertificateContextToStore 1002d7d0 f   crypt32:CRYPT32.dll
+ 0001:0002c7e0       CertSetCertificateContextProperty 1002d7e0 f   crypt32:CRYPT32.dll
+ 0001:0002c7f0       CertOpenSystemStoreW       1002d7f0 f   crypt32:CRYPT32.dll
+ 0001:0002c800       CertCreateCertificateContext 1002d800 f   crypt32:CRYPT32.dll
+ 0001:0002c810       CertCloseStore             1002d810 f   crypt32:CRYPT32.dll
+ 0001:0002c820       CmGetFirstIpAddr           1002d820 f   CmNet:CmNet.dll
+ 0001:0002c830       CmGetNextIpAddr            1002d830 f   CmNet:CmNet.dll
+ 0001:0002c840       CmSetRequirements          1002d840 f   CmNet:CmNet.dll
+ 0001:0002c850       CmSetPriority              1002d850 f   CmNet:CmNet.dll
+ 0001:0002c860       CmCreateSession            1002d860 f   CmNet:CmNet.dll
+ 0001:0002c870       CmReleaseConnection        1002d870 f   CmNet:CmNet.dll
+ 0001:0002c880       CmAcquireConnection        1002d880 f   CmNet:CmNet.dll
+ 0001:0002c890       CmGetFirstCandidateConnection 1002d890 f   CmNet:CmNet.dll
+ 0001:0002c8a0       CmGetNextCandidateConnection 1002d8a0 f   CmNet:CmNet.dll
+ 0001:0002c8b0       CmCloseSession             1002d8b0 f   CmNet:CmNet.dll
+ 0001:0002c8c0       ?RemoveServiceMessagesFromFolder@@YAJPAUIMAPIFolder@@PBG@Z 1002d8c0 f   tmailutl:TMAILUTL.dll
+ 0001:0002c8d0       ?UnicodeToModifiedUTF7@@YAHPBGHPADH@Z 1002d8d0 f   tmailutl:TMAILUTL.dll
+ 0001:0002c8e0       ?IsHTMLEnabled@@YAHXZ      1002d8e0 f   tmailutl:TMAILUTL.dll
+ 0001:0002c8f0       ?ModifiedUTF7Decode@@YAJPAGK@Z 1002d8f0 f   tmailutl:TMAILUTL.dll
+ 0001:0002c900       GetSupportedImageFileExtensions 1002d900 f   tmailutl:TMAILUTL.dll
+ 0001:0002c910       ?InitializeServiceProps@@YAJPAUIMsgStore@@PAPAUSServiceProp@@@Z 1002d910 f   tmailutl:TMAILUTL.dll
+ 0001:0002c920       ?MsgSqmIncrementForSendRecv@@YAXPAUIMsgStore@@W4MSGSQMEMAILACTIONS@@K@Z 1002d920 f   tmailutl:TMAILUTL.dll
+ 0001:0002c930       ?CreateBinHexDecodeStreamFilter@@YAJPAUIStream@@PAPAU1@@Z 1002d930 f   tmailutl:TMAILUTL.dll
+ 0001:0002c940       ?CreateUUDecodeStreamFilter@@YAJPAUIStream@@PAPAU1@@Z 1002d940 f   tmailutl:TMAILUTL.dll
+ 0001:0002c950       ?CreateQPDecodeStreamFilter@@YAJPAUIStream@@PAPAU1@@Z 1002d950 f   tmailutl:TMAILUTL.dll
+ 0001:0002c960       ?CreateBase64StreamFilter@@YAJPAUIStream@@PAPAU1@@Z 1002d960 f   tmailutl:TMAILUTL.dll
+ 0001:0002c970       ?ConvertToWideHeader@@YAJIPADHPAGPAI@Z 1002d970 f   tmailutl:TMAILUTL.dll
+ 0001:0002c980       ?Decode1522HeaderField@@YAXPAPAD0PAI@Z 1002d980 f   tmailutl:TMAILUTL.dll
+ 0001:0002c990       ?TranslateToDeviceImportance@@YAKPAGW4MIMEHEADER_T@@@Z 1002d990 f   tmailutl:TMAILUTL.dll
+ 0001:0002c9a0       ?SvcParseDate@@YAJPAU_FILETIME@@PBD@Z 1002d9a0 f   tmailutl:TMAILUTL.dll
+ 0001:0002c9b0       ?CreateTempFileStm@@YAJPAPAUIStream@@@Z 1002d9b0 f   tmailutl:TMAILUTL.dll
+ 0001:0002c9c0       MimeFreeAddressList        1002d9c0 f   tmailutl:TMAILUTL.dll
+ 0001:0002c9d0       MimeParseAddress           1002d9d0 f   tmailutl:TMAILUTL.dll
+ 0001:0002c9e0       ?CreateIcalParserEx@@YAJPAPAVIIcalParser@@PAD1@Z 1002d9e0 f   tmailutl:TMAILUTL.dll
+ 0001:0002c9f0       ?CreateTnefDecoder@@YAJPAPAVITnefDecoder@@@Z 1002d9f0 f   tmailutl:TMAILUTL.dll
+ 0001:0002ca00       ?GetWideSz@@YAJPADPAPAG@Z  1002da00 f   tmailutl:TMAILUTL.dll
+ 0001:0002ca10       ?GetMimeStreamFromMessage@@YAJPAUIMessage@@PBDPAPAUIStream@@PAU2@3HH@Z 1002da10 f   tmailutlpriv:TMAILUTLPRIV.dll
+ 0001:0002ca20       ?HandleMimeAttachments@@YAJPAUIMessage@@PAUIStream@@H@Z 1002da20 f   tmailutlpriv:TMAILUTLPRIV.dll
+ 0001:0002ca30       ?Decode1522Header@@YAJPADPAI@Z 1002da30 f   tmailutlpriv:TMAILUTLPRIV.dll
+ 0001:0002cb38       _DllMainCRTStartup         1002db38 f   corelib0:pegdmain.obj
+ 0001:0002cb64       __GSHandlerCheckCommon     1002db64 f   corelib0:gshandler.obj
+ 0001:0002cba0       __GSHandlerCheck           1002dba0 f   corelib0:gshandler.obj
+ 0001:0002cbc0       __security_init_cookie     1002dbc0 f   corelib0:seccinit.obj
+ 0001:0002cc0c       __security_check_cookie    1002dc0c f   corelib0:armsecgs.obj
+ 0001:0002cc1c       __gsfailure                1002dc1c     corelib0:armsecgs.obj
+ 0001:0002cc68       _onexit                    1002dc68 f   corelib0:onexit.obj
+ 0001:0002cdec       atexit                     1002ddec f   corelib0:onexit.obj
+ 0001:0002ceec       _cexit                     1002deec f   corelib0:cexit.obj
+ 0001:0002cefc       _initterm                  1002defc f   corelib0:crt0dat.obj
+ 0001:0002cf28       _cinit                     1002df28 f   corelib0:crt0dat.obj
+ 0001:0002cf88       __crt_ExitProcess          1002df88 f   corelib0:exitproc_proxy.obj
+ 0001:0002cf94       _wcsicmp                   1002df94 f   corelib1:COREDLL.dll
+ 0001:0002cfa4       wcslen                     1002dfa4 f   corelib1:COREDLL.dll
+ 0001:0002cfb4       ??2@YAPAXI@Z               1002dfb4 f   corelib1:COREDLL.dll
+ 0001:0002cfc4       ??3@YAXPAX@Z               1002dfc4 f   corelib1:COREDLL.dll
+ 0001:0002cfd4       __C_specific_handler       1002dfd4 f   corelib1:COREDLL.dll
+ 0001:0002cfe4       wcscmp                     1002dfe4 f   corelib1:COREDLL.dll
+ 0001:0002cff4       ??_U@YAPAXI@Z              1002dff4 f   corelib1:COREDLL.dll
+ 0001:0002d004       memset                     1002e004 f   corelib1:COREDLL.dll
+ 0001:0002d014       ??_V@YAXPAX@Z              1002e014 f   corelib1:COREDLL.dll
+ 0001:0002d024       strlen                     1002e024 f   corelib1:COREDLL.dll
+ 0001:0002d034       strcmp                     1002e034 f   corelib1:COREDLL.dll
+ 0001:0002d044       _stricmp                   1002e044 f   corelib1:COREDLL.dll
+ 0001:0002d054       memmove                    1002e054 f   corelib1:COREDLL.dll
+ 0001:0002d064       memcpy                     1002e064 f   corelib1:COREDLL.dll
+ 0001:0002d074       _itoa_s                    1002e074 f   corelib1:COREDLL.dll
+ 0001:0002d084       strncmp                    1002e084 f   corelib1:COREDLL.dll
+ 0001:0002d094       _ultow_s                   1002e094 f   corelib1:COREDLL.dll
+ 0001:0002d0a4       _ultoa_s                   1002e0a4 f   corelib1:COREDLL.dll
+ 0001:0002d0b4       strstr                     1002e0b4 f   corelib1:COREDLL.dll
+ 0001:0002d0c4       strchr                     1002e0c4 f   corelib1:COREDLL.dll
+ 0001:0002d0d4       atoi                       1002e0d4 f   corelib1:COREDLL.dll
+ 0001:0002d0e4       _isctype                   1002e0e4 f   corelib1:COREDLL.dll
+ 0001:0002d0f4       _strnicmp                  1002e0f4 f   corelib1:COREDLL.dll
+ 0001:0002d104       _itow_s                    1002e104 f   corelib1:COREDLL.dll
+ 0001:0002d114       tolower                    1002e114 f   corelib1:COREDLL.dll
+ 0001:0002d124       _strlwr_s                  1002e124 f   corelib1:COREDLL.dll
+ 0001:0002d134       _strrev                    1002e134 f   corelib1:COREDLL.dll
+ 0001:0002d144       memcmp                     1002e144 f   corelib1:COREDLL.dll
+ 0001:0002d154       strtok_s                   1002e154 f   corelib1:COREDLL.dll
+ 0001:0002d164       wcsrchr                    1002e164 f   corelib1:COREDLL.dll
+ 0001:0002d174       wcschr                     1002e174 f   corelib1:COREDLL.dll
+ 0001:0002d184       iswctype                   1002e184 f   corelib1:COREDLL.dll
+ 0001:0002d194       _wtoi                      1002e194 f   corelib1:COREDLL.dll
+ 0001:0002d1a4       wcstok_s                   1002e1a4 f   corelib1:COREDLL.dll
+ 0001:0002d1b4       _wcsnicmp                  1002e1b4 f   corelib1:COREDLL.dll
+ 0001:0002d1c4       strtoul                    1002e1c4 f   corelib1:COREDLL.dll
+ 0001:0002d1d4       _XcptFilter                1002e1d4 f   corelib1:COREDLL.dll
+ 0001:0002d1e4       __security_gen_cookie2     1002e1e4 f   corelib1:COREDLL.dll
+ 0001:0002d1f4       __report_gsfailure         1002e1f4 f   corelib1:COREDLL.dll
+ 0001:0002d204       free                       1002e204 f   corelib1:COREDLL.dll
+ 0001:0002d214       malloc                     1002e214 f   corelib1:COREDLL.dll
+ 0001:0002d224       realloc                    1002e224 f   corelib1:COREDLL.dll
+ 0001:0002d234       _msize                     1002e234 f   corelib1:COREDLL.dll
+ 0001:0002d244       InterlockedCompareExchange 1002e244 f   coredll:COREDLL.dll
+ 0001:0002d254       InterlockedExchange        1002e254 f   coredll:COREDLL.dll
+ 0001:0002d264       TerminateProcess           1002e264 f   coredll:COREDLL.dll
+ 0001:0002d278       ??__Fcs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@YAXXZ 1002e278 f i imap_lib:onestop_imap.obj
+ 0001:0002d490       __IMPORT_DESCRIPTOR_COREDLL 1002e490     coredll:COREDLL.dll
+ 0001:0002d4a4       __IMPORT_DESCRIPTOR_ossvcs 1002e4a4     ossvcs:ossvcs.dll
+ 0001:0002d4b8       __IMPORT_DESCRIPTOR_ole32  1002e4b8     ole32:ole32.dll
+ 0001:0002d4cc       __IMPORT_DESCRIPTOR_CEMAPI 1002e4cc     cemapi:CEMAPI.dll
+ 0001:0002d4e0       __IMPORT_DESCRIPTOR_WS2    1002e4e0     ws2:WS2.dll
+ 0001:0002d4f4       __IMPORT_DESCRIPTOR_WININET 1002e4f4     wininet:WININET.dll
+ 0001:0002d508       __IMPORT_DESCRIPTOR_CRYPT32 1002e508     crypt32:CRYPT32.dll
+ 0001:0002d51c       __IMPORT_DESCRIPTOR_CmNet  1002e51c     CmNet:CmNet.dll
+ 0001:0002d530       __IMPORT_DESCRIPTOR_TMAILUTL 1002e530     tmailutl:TMAILUTL.dll
+ 0001:0002d544       __IMPORT_DESCRIPTOR_TMAILUTLPRIV 1002e544     tmailutlpriv:TMAILUTLPRIV.dll
+ 0001:0002d558       __NULL_IMPORT_DESCRIPTOR   1002e558     coredll:COREDLL.dll
+ 0002:00000000       __imp_HrSetOneProp         1002f000     cemapi:CEMAPI.dll
+ 0002:00000004       __imp_ReadMailVolumeNameEx 1002f004     cemapi:CEMAPI.dll
+ 0002:00000008       __imp_FreeProws            1002f008     cemapi:CEMAPI.dll
+ 0002:0000000c       __imp_HrGetOneProp         1002f00c     cemapi:CEMAPI.dll
+ 0002:00000010       __imp_MAPIAllocateBuffer   1002f010     cemapi:CEMAPI.dll
+ 0002:00000014       __imp_?MAPI_CompareEntryIDs@@YAHKPAUENTRYID@@K0@Z 1002f014     cemapi:CEMAPI.dll
+ 0002:00000018       __imp_MAPIFreeBuffer       1002f018     cemapi:CEMAPI.dll
+ 0002:0000001c       __imp_MAPIAllocateMore     1002f01c     cemapi:CEMAPI.dll
+ 0002:00000020       \177CEMAPI_NULL_THUNK_DATA 1002f020     cemapi:CEMAPI.dll
+ 0002:00000024       __imp_RegOpenKeyExW        1002f024     coredll:COREDLL.dll
+ 0002:00000028       __imp_MultiByteToWideChar  1002f028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_InterlockedDecrement 1002f02c     coredll:COREDLL.dll
+ 0002:00000030       __imp_WideCharToMultiByte  1002f030     coredll:COREDLL.dll
+ 0002:00000034       __imp_StringCchPrintfW     1002f034     coredll:COREDLL.dll
+ 0002:00000038       __imp_StringCchCatW        1002f038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_StringCchCopyW       1002f03c     coredll:COREDLL.dll
+ 0002:00000040       __imp_StringCchCopyA       1002f040     coredll:COREDLL.dll
+ 0002:00000044       __imp_StringCchCatA        1002f044     coredll:COREDLL.dll
+ 0002:00000048       __imp_GetTickCount         1002f048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_LoadStringW          1002f04c     coredll:COREDLL.dll
+ 0002:00000050       __imp_lstrcmpW             1002f050     coredll:COREDLL.dll
+ 0002:00000054       __imp_CloseHandle          1002f054     coredll:COREDLL.dll
+ 0002:00000058       __imp_GetExitCodeThread    1002f058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_CreateThread         1002f05c     coredll:COREDLL.dll
+ 0002:00000060       __imp_EnterCriticalSection 1002f060     coredll:COREDLL.dll
+ 0002:00000064       __imp_LeaveCriticalSection 1002f064     coredll:COREDLL.dll
+ 0002:00000068       __imp_StringCchPrintfA     1002f068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_WaitForSingleObject  1002f06c     coredll:COREDLL.dll
+ 0002:00000070       __imp_StringCchCopyNA      1002f070     coredll:COREDLL.dll
+ 0002:00000074       __imp_GetLastError         1002f074     coredll:COREDLL.dll
+ 0002:00000078       __imp_CeDeleteDatabaseEx   1002f078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_CeSeekDatabaseEx     1002f07c     coredll:COREDLL.dll
+ 0002:00000080       __imp_CeDeleteRecord       1002f080     coredll:COREDLL.dll
+ 0002:00000084       __imp_CeUnmountDBVol       1002f084     coredll:COREDLL.dll
+ 0002:00000088       __imp_CeCreateDatabaseWithProps 1002f088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_CeOpenDatabaseInSession 1002f08c     coredll:COREDLL.dll
+ 0002:00000090       __imp_CeMountDBVolEx       1002f090     coredll:COREDLL.dll
+ 0002:00000094       __imp_CeWriteRecordProps   1002f094     coredll:COREDLL.dll
+ 0002:00000098       __imp_CeReadRecordPropsEx  1002f098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_RegCloseKey          1002f09c     coredll:COREDLL.dll
+ 0002:000000a0       __imp_StringCchPrintfExA   1002f0a0     coredll:COREDLL.dll
+ 0002:000000a4       __imp_SystemTimeToFileTime 1002f0a4     coredll:COREDLL.dll
+ 0002:000000a8       __imp_GetSystemTime        1002f0a8     coredll:COREDLL.dll
+ 0002:000000ac       __imp_SystemIdleTimerReset 1002f0ac     coredll:COREDLL.dll
+ 0002:000000b0       __imp_StringCchCopyExA     1002f0b0     coredll:COREDLL.dll
+ 0002:000000b4       __imp_GetLocalTime         1002f0b4     coredll:COREDLL.dll
+ 0002:000000b8       __imp_FileTimeToSystemTime 1002f0b8     coredll:COREDLL.dll
+ 0002:000000bc       __imp_LocalFree            1002f0bc     coredll:COREDLL.dll
+ 0002:000000c0       __imp_StringCchLengthA     1002f0c0     coredll:COREDLL.dll
+ 0002:000000c4       __imp_GetProcAddressW      1002f0c4     coredll:COREDLL.dll
+ 0002:000000c8       __imp_ReleaseMutex         1002f0c8     coredll:COREDLL.dll
+ 0002:000000cc       __imp_CreateMutexW         1002f0cc     coredll:COREDLL.dll
+ 0002:000000d0       __imp_CompareFileTime      1002f0d0     coredll:COREDLL.dll
+ 0002:000000d4       __imp_CePerfDLLCleanup     1002f0d4     coredll:COREDLL.dll
+ 0002:000000d8       __imp_CePerfDLLSetup       1002f0d8     coredll:COREDLL.dll
+ 0002:000000dc       __imp_RegistryGetString    1002f0dc     coredll:COREDLL.dll
+ 0002:000000e0       __imp_StringCchCopyNW      1002f0e0     coredll:COREDLL.dll
+ 0002:000000e4       __imp_lstrcmpiW            1002f0e4     coredll:COREDLL.dll
+ 0002:000000e8       __imp_FreeLibrary          1002f0e8     coredll:COREDLL.dll
+ 0002:000000ec       __imp_SendMessageW         1002f0ec     coredll:COREDLL.dll
+ 0002:000000f0       __imp_FindWindowW          1002f0f0     coredll:COREDLL.dll
+ 0002:000000f4       __imp_InterlockedExchange  1002f0f4     coredll:COREDLL.dll
+ 0002:000000f8       __imp_InterlockedCompareExchange 1002f0f8     coredll:COREDLL.dll
+ 0002:000000fc       __imp__msize               1002f0fc     corelib1:COREDLL.dll
+ 0002:00000100       __imp_realloc              1002f100     corelib1:COREDLL.dll
+ 0002:00000104       __imp_malloc               1002f104     corelib1:COREDLL.dll
+ 0002:00000108       __imp_free                 1002f108     corelib1:COREDLL.dll
+ 0002:0000010c       __imp___report_gsfailure   1002f10c     corelib1:COREDLL.dll
+ 0002:00000110       __imp___security_gen_cookie2 1002f110     corelib1:COREDLL.dll
+ 0002:00000114       __imp_InterlockedIncrement 1002f114     coredll:COREDLL.dll
+ 0002:00000118       __imp_RegQueryValueExW     1002f118     coredll:COREDLL.dll
+ 0002:0000011c       __imp_StringCchVPrintfW    1002f11c     coredll:COREDLL.dll
+ 0002:00000120       __imp_StringCchLengthW     1002f120     coredll:COREDLL.dll
+ 0002:00000124       __imp_CeLogData            1002f124     coredll:COREDLL.dll
+ 0002:00000128       __imp_DeleteCriticalSection 1002f128     coredll:COREDLL.dll
+ 0002:0000012c       __imp_InitializeCriticalSection 1002f12c     coredll:COREDLL.dll
+ 0002:00000130       __imp_StringCchCatExA      1002f130     coredll:COREDLL.dll
+ 0002:00000134       __imp_LoadLibraryW         1002f134     coredll:COREDLL.dll
+ 0002:00000138       __imp__XcptFilter          1002f138     corelib1:COREDLL.dll
+ 0002:0000013c       __imp_strtoul              1002f13c     corelib1:COREDLL.dll
+ 0002:00000140       __imp__wcsnicmp            1002f140     corelib1:COREDLL.dll
+ 0002:00000144       __imp_wcstok_s             1002f144     corelib1:COREDLL.dll
+ 0002:00000148       __imp__wtoi                1002f148     corelib1:COREDLL.dll
+ 0002:0000014c       __imp_iswctype             1002f14c     corelib1:COREDLL.dll
+ 0002:00000150       __imp_wcschr               1002f150     corelib1:COREDLL.dll
+ 0002:00000154       __imp_wcsrchr              1002f154     corelib1:COREDLL.dll
+ 0002:00000158       __imp_strtok_s             1002f158     corelib1:COREDLL.dll
+ 0002:0000015c       __imp_memcmp               1002f15c     corelib1:COREDLL.dll
+ 0002:00000160       __imp___rt_udiv            1002f160     corelib1:COREDLL.dll
+ 0002:00000164       __imp__strrev              1002f164     corelib1:COREDLL.dll
+ 0002:00000168       __imp___rt_udiv64by64      1002f168     corelib1:COREDLL.dll
+ 0002:0000016c       __imp__strlwr_s            1002f16c     corelib1:COREDLL.dll
+ 0002:00000170       __imp_tolower              1002f170     corelib1:COREDLL.dll
+ 0002:00000174       __imp__itow_s              1002f174     corelib1:COREDLL.dll
+ 0002:00000178       __imp__strnicmp            1002f178     corelib1:COREDLL.dll
+ 0002:0000017c       __imp__isctype             1002f17c     corelib1:COREDLL.dll
+ 0002:00000180       __imp_atoi                 1002f180     corelib1:COREDLL.dll
+ 0002:00000184       __imp_strchr               1002f184     corelib1:COREDLL.dll
+ 0002:00000188       __imp_strstr               1002f188     corelib1:COREDLL.dll
+ 0002:0000018c       __imp_TerminateProcess     1002f18c     coredll:COREDLL.dll
+ 0002:00000190       __imp__ultoa_s             1002f190     corelib1:COREDLL.dll
+ 0002:00000194       __imp__ultow_s             1002f194     corelib1:COREDLL.dll
+ 0002:00000198       __imp_strncmp              1002f198     corelib1:COREDLL.dll
+ 0002:0000019c       __imp__itoa_s              1002f19c     corelib1:COREDLL.dll
+ 0002:000001a0       __imp_memcpy               1002f1a0     corelib1:COREDLL.dll
+ 0002:000001a4       __imp_memmove              1002f1a4     corelib1:COREDLL.dll
+ 0002:000001a8       __imp__stricmp             1002f1a8     corelib1:COREDLL.dll
+ 0002:000001ac       __imp_strcmp               1002f1ac     corelib1:COREDLL.dll
+ 0002:000001b0       __imp_strlen               1002f1b0     corelib1:COREDLL.dll
+ 0002:000001b4       __imp_??_V@YAXPAX@Z        1002f1b4     corelib1:COREDLL.dll
+ 0002:000001b8       __imp_memset               1002f1b8     corelib1:COREDLL.dll
+ 0002:000001bc       __imp_??_U@YAPAXI@Z        1002f1bc     corelib1:COREDLL.dll
+ 0002:000001c0       __imp_wcscmp               1002f1c0     corelib1:COREDLL.dll
+ 0002:000001c4       __imp___C_specific_handler 1002f1c4     corelib1:COREDLL.dll
+ 0002:000001c8       __imp_??3@YAXPAX@Z         1002f1c8     corelib1:COREDLL.dll
+ 0002:000001cc       __imp_??2@YAPAXI@Z         1002f1cc     corelib1:COREDLL.dll
+ 0002:000001d0       __imp_wcslen               1002f1d0     corelib1:COREDLL.dll
+ 0002:000001d4       __imp__wcsicmp             1002f1d4     corelib1:COREDLL.dll
+ 0002:000001d8       \177COREDLL_NULL_THUNK_DATA 1002f1d8     coredll:COREDLL.dll
+ 0002:000001dc       __imp_CertOpenSystemStoreW 1002f1dc     crypt32:CRYPT32.dll
+ 0002:000001e0       __imp_CertCloseStore       1002f1e0     crypt32:CRYPT32.dll
+ 0002:000001e4       __imp_CertCreateCertificateContext 1002f1e4     crypt32:CRYPT32.dll
+ 0002:000001e8       __imp_CertSetCertificateContextProperty 1002f1e8     crypt32:CRYPT32.dll
+ 0002:000001ec       __imp_CertAddCertificateContextToStore 1002f1ec     crypt32:CRYPT32.dll
+ 0002:000001f0       __imp_CertGetCertificateContextProperty 1002f1f0     crypt32:CRYPT32.dll
+ 0002:000001f4       __imp_CertFreeCertificateContext 1002f1f4     crypt32:CRYPT32.dll
+ 0002:000001f8       __imp_CertFindCertificateInStore 1002f1f8     crypt32:CRYPT32.dll
+ 0002:000001fc       \177CRYPT32_NULL_THUNK_DATA 1002f1fc     crypt32:CRYPT32.dll
+ 0002:00000200       __imp_CmGetNextCandidateConnection 1002f200     CmNet:CmNet.dll
+ 0002:00000204       __imp_CmReleaseConnection  1002f204     CmNet:CmNet.dll
+ 0002:00000208       __imp_CmGetFirstCandidateConnection 1002f208     CmNet:CmNet.dll
+ 0002:0000020c       __imp_CmAcquireConnection  1002f20c     CmNet:CmNet.dll
+ 0002:00000210       __imp_CmCloseSession       1002f210     CmNet:CmNet.dll
+ 0002:00000214       __imp_CmGetFirstIpAddr     1002f214     CmNet:CmNet.dll
+ 0002:00000218       __imp_CmGetNextIpAddr      1002f218     CmNet:CmNet.dll
+ 0002:0000021c       __imp_CmSetRequirements    1002f21c     CmNet:CmNet.dll
+ 0002:00000220       __imp_CmSetPriority        1002f220     CmNet:CmNet.dll
+ 0002:00000224       __imp_CmCreateSession      1002f224     CmNet:CmNet.dll
+ 0002:00000228       \177CmNet_NULL_THUNK_DATA  1002f228     CmNet:CmNet.dll
+ 0002:0000022c       __imp_?SvcParseDate@@YAJPAU_FILETIME@@PBD@Z 1002f22c     tmailutl:TMAILUTL.dll
+ 0002:00000230       __imp_?CreateTempFileStm@@YAJPAPAUIStream@@@Z 1002f230     tmailutl:TMAILUTL.dll
+ 0002:00000234       __imp_MimeFreeAddressList  1002f234     tmailutl:TMAILUTL.dll
+ 0002:00000238       __imp_MimeParseAddress     1002f238     tmailutl:TMAILUTL.dll
+ 0002:0000023c       __imp_?CreateIcalParserEx@@YAJPAPAVIIcalParser@@PAD1@Z 1002f23c     tmailutl:TMAILUTL.dll
+ 0002:00000240       __imp_?CreateTnefDecoder@@YAJPAPAVITnefDecoder@@@Z 1002f240     tmailutl:TMAILUTL.dll
+ 0002:00000244       __imp_?GetWideSz@@YAJPADPAPAG@Z 1002f244     tmailutl:TMAILUTL.dll
+ 0002:00000248       __imp_?UnicodeToModifiedUTF7@@YAHPBGHPADH@Z 1002f248     tmailutl:TMAILUTL.dll
+ 0002:0000024c       __imp_?IsHTMLEnabled@@YAHXZ 1002f24c     tmailutl:TMAILUTL.dll
+ 0002:00000250       __imp_?ModifiedUTF7Decode@@YAJPAGK@Z 1002f250     tmailutl:TMAILUTL.dll
+ 0002:00000254       __imp_GetSupportedImageFileExtensions 1002f254     tmailutl:TMAILUTL.dll
+ 0002:00000258       __imp_?TranslateToDeviceImportance@@YAKPAGW4MIMEHEADER_T@@@Z 1002f258     tmailutl:TMAILUTL.dll
+ 0002:0000025c       __imp_?Decode1522HeaderField@@YAXPAPAD0PAI@Z 1002f25c     tmailutl:TMAILUTL.dll
+ 0002:00000260       __imp_?ConvertToWideHeader@@YAJIPADHPAGPAI@Z 1002f260     tmailutl:TMAILUTL.dll
+ 0002:00000264       __imp_?CreateBase64StreamFilter@@YAJPAUIStream@@PAPAU1@@Z 1002f264     tmailutl:TMAILUTL.dll
+ 0002:00000268       __imp_?CreateQPDecodeStreamFilter@@YAJPAUIStream@@PAPAU1@@Z 1002f268     tmailutl:TMAILUTL.dll
+ 0002:0000026c       __imp_?CreateUUDecodeStreamFilter@@YAJPAUIStream@@PAPAU1@@Z 1002f26c     tmailutl:TMAILUTL.dll
+ 0002:00000270       __imp_?CreateBinHexDecodeStreamFilter@@YAJPAUIStream@@PAPAU1@@Z 1002f270     tmailutl:TMAILUTL.dll
+ 0002:00000274       __imp_?MsgSqmIncrementForSendRecv@@YAXPAUIMsgStore@@W4MSGSQMEMAILACTIONS@@K@Z 1002f274     tmailutl:TMAILUTL.dll
+ 0002:00000278       __imp_?InitializeServiceProps@@YAJPAUIMsgStore@@PAPAUSServiceProp@@@Z 1002f278     tmailutl:TMAILUTL.dll
+ 0002:0000027c       __imp_?RemoveServiceMessagesFromFolder@@YAJPAUIMAPIFolder@@PBG@Z 1002f27c     tmailutl:TMAILUTL.dll
+ 0002:00000280       \177TMAILUTL_NULL_THUNK_DATA 1002f280     tmailutl:TMAILUTL.dll
+ 0002:00000284       __imp_?HandleMimeAttachments@@YAJPAUIMessage@@PAUIStream@@H@Z 1002f284     tmailutlpriv:TMAILUTLPRIV.dll
+ 0002:00000288       __imp_?GetMimeStreamFromMessage@@YAJPAUIMessage@@PBDPAPAUIStream@@PAU2@3HH@Z 1002f288     tmailutlpriv:TMAILUTLPRIV.dll
+ 0002:0000028c       __imp_?Decode1522Header@@YAJPADPAI@Z 1002f28c     tmailutlpriv:TMAILUTLPRIV.dll
+ 0002:00000290       \177TMAILUTLPRIV_NULL_THUNK_DATA 1002f290     tmailutlpriv:TMAILUTLPRIV.dll
+ 0002:00000294       __imp_InternetConnectW     1002f294     wininet:WININET.dll
+ 0002:00000298       __imp_HttpSendRequestW     1002f298     wininet:WININET.dll
+ 0002:0000029c       __imp_HttpQueryInfoW       1002f29c     wininet:WININET.dll
+ 0002:000002a0       __imp_HttpOpenRequestW     1002f2a0     wininet:WININET.dll
+ 0002:000002a4       __imp_InternetOpenW        1002f2a4     wininet:WININET.dll
+ 0002:000002a8       __imp_InternetCloseHandle  1002f2a8     wininet:WININET.dll
+ 0002:000002ac       __imp_HttpAddRequestHeadersW 1002f2ac     wininet:WININET.dll
+ 0002:000002b0       \177WININET_NULL_THUNK_DATA 1002f2b0     wininet:WININET.dll
+ 0002:000002b4       __imp_htons                1002f2b4     ws2:WS2.dll
+ 0002:000002b8       __imp_getaddrinfo          1002f2b8     ws2:WS2.dll
+ 0002:000002bc       __imp_freeaddrinfo         1002f2bc     ws2:WS2.dll
+ 0002:000002c0       __imp_send                 1002f2c0     ws2:WS2.dll
+ 0002:000002c4       __imp_recv                 1002f2c4     ws2:WS2.dll
+ 0002:000002c8       __imp_socket               1002f2c8     ws2:WS2.dll
+ 0002:000002cc       __imp_bind                 1002f2cc     ws2:WS2.dll
+ 0002:000002d0       __imp_connect              1002f2d0     ws2:WS2.dll
+ 0002:000002d4       __imp_select               1002f2d4     ws2:WS2.dll
+ 0002:000002d8       __imp___WSAFDIsSet         1002f2d8     ws2:WS2.dll
+ 0002:000002dc       __imp_WSASetLastError      1002f2dc     ws2:WS2.dll
+ 0002:000002e0       __imp_closesocket          1002f2e0     ws2:WS2.dll
+ 0002:000002e4       __imp_WSACleanup           1002f2e4     ws2:WS2.dll
+ 0002:000002e8       __imp_ioctlsocket          1002f2e8     ws2:WS2.dll
+ 0002:000002ec       __imp_WSAGetLastError      1002f2ec     ws2:WS2.dll
+ 0002:000002f0       __imp_WSAStartup           1002f2f0     ws2:WS2.dll
+ 0002:000002f4       __imp_setsockopt           1002f2f4     ws2:WS2.dll
+ 0002:000002f8       __imp_WSAIoctl             1002f2f8     ws2:WS2.dll
+ 0002:000002fc       \177WS2_NULL_THUNK_DATA    1002f2fc     ws2:WS2.dll
+ 0002:00000300       __imp_CreateStreamOnHGlobal 1002f300     ole32:ole32.dll
+ 0002:00000304       __imp_CoInitializeEx       1002f304     ole32:ole32.dll
+ 0002:00000308       __imp_CoUninitialize       1002f308     ole32:ole32.dll
+ 0002:0000030c       \177ole32_NULL_THUNK_DATA  1002f30c     ole32:ole32.dll
+ 0002:00000310       __imp_WatsonReportFault    1002f310     ossvcs:ossvcs.dll
+ 0002:00000314       __imp_UMul                 1002f314     ossvcs:ossvcs.dll
+ 0002:00000318       __imp_EscapeStringW        1002f318     ossvcs:ossvcs.dll
+ 0002:0000031c       \177ossvcs_NULL_THUNK_DATA 1002f31c     ossvcs:ossvcs.dll
+ 0002:00000320       ?rgFactoryMap@@3PAUTypeMapItem@@A 1002f320     dllmain.obj
+ 0002:00000340       ?dpCurSettings@@3U_DBGPARAM@@A 1002f340     DebugZones.obj
+ 0002:00000788       ?s_rgszCaps@?1??OnItemData@CCapResponseSink@@UAAXPBD@Z@4PAPBDA 1002f788     imap_lib:imapcomm.obj
+ 0002:00000794       ?nFetchMessageFailureIndex@@3HA 1002f794     imap_lib:fetch.obj
+ 0002:000007d0       ?rgMap@@3PAUNODETYPEMAPITEM@@A 1002f7d0     imap_lib:bs.obj
+ 0002:00000888       ?g_rgPerfItems@@3PAU_CEPERF_BASIC_ITEM_DESCRIPTOR@@A 1002f888     mailtrns_support:perf.obj
+ 0002:000009b8       ?rgfnFactories@PreAuth@@3PAP6AJPAUPREAUTH_FACTORY_PARAM@1@PAPAVIPreAuthPiece@1@@ZA 1002f9b8     mailtrns_support:preauth.obj
+ 0002:000009c8       ?SECURITY_PACKAGE@@3PAGA   1002f9c8     mailtrns_support:authsic.obj
+ 0002:000009d8       __security_cookie          1002f9d8     corelib0:seccinit.obj
+ 0002:000009dc       __security_cookie_complement 1002f9dc     corelib0:seccinit.obj
+ 0002:000009e0       ?ghInst@@3PAUHINSTANCE__@@A 1002f9e0     dllmain.obj
+ 0002:000009e4       ?ghInstRes@@3PAUHINSTANCE__@@A 1002f9e4     dllmain.obj
+ 0002:000009e8       ?s_szImageExtensions@CImapSyncHandler@@0PAGA 1002f9e8     imap_lib:onestop_imap.obj
+ 0002:000009ec       ??_B?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@51 1002f9ec     imap_lib:onestop_imap.obj
+ 0002:000009f0       ?cs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@3@XZ@4V43@A 1002f9f0     imap_lib:onestop_imap.obj
+ 0002:00000a04       ?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A 1002fa04     imap_lib:onestop_imap.obj
+ 0002:00000a08       __@@_PchSym_@00@UygUDBFDUkirezgvUzkkhUlfgollpUgizmhklighUnzroUrnzkUlyqUzineHUivgzroUhgwrmxPrnzkPoryOlyq@imap_lib 1002fa08     imap_lib:stdinc_imap_lib.obj
+ 0002:00000a0c       ?g_hinstSHLWAPI@@3PAUHINSTANCE__@@A 1002fa0c     imap_lib:delayload.obj
+ 0002:00000a20       __@@_PchSym_@00@UygUDBFDUkirezgvUzkkhUlfgollpUgizmhklighUnzroUklkDUlyqUzineHUivgzroUhgwrmxPklkDPoryOlyq@pop3_lib 1002fa20     pop3_lib:stdinc_pop3_lib.obj
+ 0002:00000a24       ?_Nil@?$_Tree@KKU_Kfn@?$set@KU?$less@K@std@@V?$allocator@K@2@@std@@U?$less@K@3@V?$allocator@K@3@@std@@1PAU_Node@12@A 1002fa24     pop3_lib:amc.obj
+ 0002:00000a28       ?_Nilrefs@?$_Tree@KKU_Kfn@?$set@KU?$less@K@std@@V?$allocator@K@2@@std@@U?$less@K@3@V?$allocator@K@3@@std@@1IA 1002fa28     pop3_lib:amc.obj
+ 0002:00000a2c       __@@_PchSym_@00@UygUDBFDUkirezgvUzkkhUlfgollpUgizmhklighUnzroUhngkUlyqUzineHUivgzroUhgwrmxPhngkPoryOlyq@smtp_lib 1002fa2c     smtp_lib:stdinc_smtp_lib.obj
+ 0002:00000a30       ?g_hinstToxicLog@@3PAUHINSTANCE__@@A 1002fa30     mailtrns_support:toxiclog.obj
+ 0002:00000a34       pCePerfInternal            1002fa34     mailtrns_support:perf.obj
+ 0002:00000a38       ?g_hPerfSession@@3PAXA     1002fa38     mailtrns_support:perf.obj
+ 0002:00000a3c       ?m_hWndListener@CQANotify@@0PAUHWND__@@A 1002fa3c     mailtrns_support:qanotify.obj
+ 0002:00000a40       ?m_fInitialized@CQANotify@@0HA 1002fa40     mailtrns_support:qanotify.obj
+ 0002:00000a44       _exitflag                  1002fa44     corelib0:cexit.obj
+ 0002:00000a48       __onexitend                1002fa48     <common>
+ 0002:00000a4c       __onexitbegin              1002fa4c     <common>
+ 0002:00000a50       g_pcsExit                  1002fa50     <common>
+ 0002:00000a54       _pRawDllMain               1002fa54     <common>
+
+ entry point at        0001:0002cb38
+
+ Static symbols
+
+ 0001:00002fcc       CeLogMsg                   10003fcc f   imap_lib:onestop_imap.obj
+ 0001:00010120       ?GetSubString@@YAHPBD0PAPAD1@Z 10011120 f   imap_lib:fetch.obj
+ 0001:0001138c       ?CreateNullStreamFilter@@YAJPAUIStream@@PAPAU1@@Z 1001238c f   imap_lib:fetch.obj
+ 0001:00015c00       ?SkipSection@@YAXPAPAD@Z   10016c00 f   imap_lib:bs.obj
+ 0001:00015c3c       ?SkipParam@@YAPADPAD@Z     10016c3c f   imap_lib:bs.obj
+ 0001:00015e20       ?_FindNode@@YAPAUBSNODE@@PAU1@W4partType@@W4partSubType@@@Z 10016e20 f   imap_lib:bs.obj
+ 0001:00016020       ?ProcessParamList@@YAXPAPADPAUBSNODE@@P6AX1PAD2@Z@Z 10017020 f   imap_lib:bs.obj
+ 0001:00016fac       ?_FreeBodyNode@@YAXPAUBSNODE@@@Z 10017fac f   imap_lib:bs.obj
+ 0001:00017024       ?AddBodyPartNode@@YAPAUBSNODE@@PAPAD@Z 10018024 f   imap_lib:bs.obj
+ 0001:0001732c       CeLogMsg                   1001832c f   pop3_lib:onestop_pop3.obj
+ 0001:00020d60       CeLogMsg                   10021d60 f   smtp_lib:onestop_smtp.obj
+ 0001:00025a54       CeLogMsg                   10026a54 f   mailtrns_support:socket.obj
+ 0001:00027c78       CeLogMsg                   10028c78 f   mailtrns_support:msgtrack.obj
+ 0001:00029784       ?_EnumMapiFolders@@YAJPAUIMAPIFolder@@PAU_SRow@@PBUENUMCTX@@@Z 1002a784 f   mailtrns_support:fldrenum.obj
+ 0001:0002ca48       _DllMainCRTStartupHelper   1002da48 f   corelib0:pegdmain.obj
+ 0001:0002ce04       doexit                     1002de04 f   corelib0:cexit.obj
+ 0001:0002d274       ??__E?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A@@YAXXZ 1002e274 f   imap_lib:onestop_imap.obj
+
+ Exports
+
+  ordinal    name
+
+        1    OneStopFactory
+        2    ?IsToxicSupported@@YAHXZ (int __cdecl IsToxicSupported(void))

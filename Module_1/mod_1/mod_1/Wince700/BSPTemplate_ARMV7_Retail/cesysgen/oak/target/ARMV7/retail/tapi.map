@@ -1,0 +1,517 @@
+ Tapi
+
+ Timestamp is 5ac64a22 (Thu Apr 05 09:09:06 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 000008e8H .rdata                  CODE
+ 0001:00000908 00000021H .rdata$debug            CODE
+ 0001:0000092c 0000f390H .text                   CODE
+ 0001:0000fcbc 000004f0H .xdata                  CODE
+ 0001:000101ac 00000014H .idata$2                CODE
+ 0001:000101c0 00000014H .idata$3                CODE
+ 0001:000101d4 00000100H .idata$4                CODE
+ 0001:000102d4 0000000cH .idata$6                CODE
+ 0001:000102e0 00000051H .edata                  CODE
+ 0002:00000000 00000100H .idata$5                DATA
+ 0002:00000100 00000010H .data                   DATA
+ 0002:00000120 000001f4H .bss                    DATA
+ 0003:00000000 00000b58H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:00000050       VTableEXT                  10001050     init.obj
+ 0001:000001c8       VTableINT                  100011c8     init.obj
+ 0001:00000340       SigTable                   10001340     init.obj
+ 0001:00000628       ??_C@_1BK@PKKGKJBJ@?$AAu?$AAn?$AAi?$AAm?$AAo?$AAd?$AAe?$AAm?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10001628     init.obj
+ 0001:00000644       ??_C@_1BC@DOOGAEFK@?$AAT?$AAA?$AAP?$AAI?$AA?2?$AAT?$AAS?$AAP?$AA?$AA@ 10001644     init.obj
+ 0001:00000658       ??_C@_1CE@CKCBILE@?$AAA?$AAs?$AAy?$AAn?$AAc?$AAR?$AAe?$AAp?$AAl?$AAy?$AAD?$AAe?$AAl?$AAa?$AAy?$AAM?$AAs?$AA?$AA@ 10001658     init.obj
+ 0001:0000067c       ??_C@_1CC@JIGKLBFB@?$AAI?$AAd?$AAl?$AAe?$AAC?$AAa?$AAl?$AAl?$AAE?$AAx?$AAp?$AAi?$AAr?$AAe?$AAM?$AAs?$AA?$AA@ 1000167c     init.obj
+ 0001:000006a0       ??_C@_19KDCPGMII@?$AAT?$AAA?$AAP?$AAI?$AA?$AA@ 100016a0     init.obj
+ 0001:000006ac       ??_C@_04JKOBIEEN@TAPI?$AA@ 100016ac     init.obj
+ 0001:000006d8       ??_C@_1CA@GOGEMIHH@?$AAW?$AAa?$AAi?$AAt?$AAF?$AAo?$AAr?$AAA?$AAP?$AAI?$AAR?$AAe?$AAa?$AAd?$AAy?$AA?$AA@ 100016d8     line.obj
+ 0001:000006f8       ??_C@_1BM@LLINKHBA@?$AAk?$AA?4?$AAc?$AAo?$AAr?$AAe?$AAd?$AAl?$AAl?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 100016f8     line.obj
+ 0001:00000714       ??_C@_1BO@KLPJMMP@?$AAC?$AAe?$AAC?$AAa?$AAl?$AAl?$AAU?$AAs?$AAe?$AAr?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 10001714     line.obj
+ 0001:00000734       ??_C@_1CO@DHLNCAHF@?$AAL?$AAi?$AAn?$AAe?$AAT?$AAr?$AAa?$AAn?$AAs?$AAl?$AAa?$AAt?$AAe?$AAD?$AAi?$AAa?$AAl?$AAo?$AAg?$AAE?$AAx?$AAt?$AA?$AA@ 10001734     line.obj
+ 0001:00000764       ??_C@_1BE@BOHEBICI@?$AAn?$AAe?$AAt?$AAu?$AAi?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10001764     line.obj
+ 0001:00000778       ??_C@_1BK@IIJLEGPE@?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AA?$AA@ 10001778     line.obj
+ 0001:00000794       ??_C@_1CI@JAKJNLIB@?$AAS?$AAe?$AAt?$AAF?$AAo?$AAr?$AAe?$AAg?$AAr?$AAo?$AAu?$AAn?$AAd?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AA?$AA@ 10001794     line.obj
+ 0001:000007bc       ??_C@_1BI@IENOMFML@?$AAC?$AAO?$AAR?$AAE?$AAD?$AAL?$AAL?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 100017bc     line.obj
+ 0001:000007d4       ??_C@_1BC@EPDMNHDI@?$AAI?$AAs?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AA?$AA@ 100017d4     misc.obj
+ 0001:000007e8       ??_C@_17KNDIACFJ@?$AAT?$AAs?$AAp?$AA?$AA@ 100017e8     misc.obj
+ 0001:000007f0       ??_C@_13FPGAJAPJ@?$AA?2?$AA?$AA@ 100017f0     misc.obj
+ 0001:000007f4       ??_C@_1CM@MELDJJHI@?$AAT?$AAS?$AAP?$AAI?$AA_?$AAl?$AAi?$AAn?$AAe?$AAG?$AAe?$AAt?$AAP?$AAr?$AAo?$AAc?$AAT?$AAa?$AAb?$AAl?$AAe?$AA?$AA@ 100017f4     misc.obj
+ 0001:00000820       ??_C@_1BI@LCMFBLAO@?$AAT?$AAA?$AAP?$AAI?$AA?$CF?$AAs?$AA?$CF?$AA0?$AA8?$AAl?$AAx?$AA?$AA@ 10001820     object.obj
+ 0001:00000838       ??_C@_1M@FMBJDHJK@?$AAP?$AAH?$AAO?$AAN?$AAE?$AA?$AA@ 10001838     object.obj
+ 0001:00000844       ??_C@_19DHLJGKHC@?$AAL?$AAI?$AAN?$AAE?$AA?$AA@ 10001844     object.obj
+ 0001:00000850       ??_C@_13HOIJIPNN@?$AA?5?$AA?$AA@ 10001850     translat.obj
+ 0001:00000854       ??_C@_11LOCGONAA@?$AA?$AA@ 10001854     translat.obj
+ 0001:000008d4       ??_C@_13JGCMLPCH@?$AA1?$AA?$AA@ 100018d4     translat.obj
+ 0001:000008d8       ??_C@_19FIGFOIE@?$AAn?$AAo?$AAC?$AAW?$AA?$AA@ 100018d8     translat.obj
+ 0001:000008e4       ??_C@_15KNBIKKIN@?$AA?$CF?$AAd?$AA?$AA@ 100018e4     translat.obj
+ 0001:000008ec       ??_C@_1BC@KGEIDEBF@?$AA?$CF?$AAs?$AA?2?$AA?$CF?$AAs?$AA?2?$AA?$CF?$AAd?$AA?$AA@ 100018ec     translat.obj
+ 0001:00000900       ??_C@_13JKNELIBG@?$AAT?$AA?$AA@ 10001900     translat.obj
+ 0001:00000904       ??_C@_13BFLGCPEB@?$AAP?$AA?$AA@ 10001904     translat.obj
+ 0001:00000934       DerefAsyncNode             10001934 f   asynctbl.obj
+ 0001:000009e0       FindAsyncNode              100019e0 f   asynctbl.obj
+ 0001:00000a90       removeAsyncNode            10001a90 f   asynctbl.obj
+ 0001:00000ac8       removeAsyncTable           10001ac8 f   asynctbl.obj
+ 0001:00000aec       makeEntryinAsyncTable      10001aec f   asynctbl.obj
+ 0001:00000b98       CleanupCall                10001b98 f   asynctbl.obj
+ 0001:00000c20       AsyncCleanup               10001c20 f   asynctbl.obj
+ 0001:00000cd8       invalidateAsyncTableEntries 10001cd8 f   asynctbl.obj
+ 0001:00000e30       SendAsyncReply             10001e30 f   asynctbl.obj
+ 0001:00000f1c       TapiAsyncReplyThread       10001f1c f   asynctbl.obj
+ 0001:00000ff4       StartTapiAsyncReplyThread  10001ff4 f   asynctbl.obj
+ 0001:000010b8       SetAsyncReady              100020b8 f   asynctbl.obj
+ 0001:00001160       SetAsyncComplete           10002160 f   asynctbl.obj
+ 0001:000011fc       NotifyTSPs                 100021fc f   init.obj
+ 0001:00001290       TAPINotifyCallback         10002290 f   init.obj
+ 0001:0000131c       TAPISysWait                1000231c f   init.obj
+ 0001:00001328       TAPIStartup                10002328 f   init.obj
+ 0001:000015e8       TAPIDLL_Load               100025e8 f   init.obj
+ 0001:000017cc       DllEntry                   100027cc f   init.obj
+ 0001:000017e8       TAPIPnpThread              100027e8 f   init.obj
+ 0001:000018fc       TapiPslApiErrorHandler     100028fc f   init.obj
+ 0001:00001914       Init                       10002914 f   init.obj
+ 0001:00001a00       Deinit                     10002a00 f   init.obj
+ 0001:00001a08       WaitForAPIReadyWrapper     10002a08 f i line.obj
+ 0001:00001a78       CeCallUserProcWrapper      10002a78 f i line.obj
+ 0001:00001b14       CallKLineTranslateDialog   10002b14 f i line.obj
+ 0001:00001cec       DoSetAppPriority           10002cec f   line.obj
+ 0001:00001dd4       TAPIlineAccept             10002dd4 f   line.obj
+ 0001:00001ec0       RegPPID                    10002ec0 f   line.obj
+ 0001:00001f8c       TAPIlineAddProvider        10002f8c f   line.obj
+ 0001:00002158       TAPIlineAddToConference    10003158 f   line.obj
+ 0001:00002290       TAPIlineAnswer             10003290 f   line.obj
+ 0001:0000237c       TAPIlineBlindTransfer      1000337c f   line.obj
+ 0001:00002434       TAPIlineClose              10003434 f   line.obj
+ 0001:000028cc       TAPIlineDeallocateCall     100038cc f   line.obj
+ 0001:0000292c       TAPIlineDevSpecific        1000392c f   line.obj
+ 0001:00002a4c       TAPIlineDial               10003a4c f   line.obj
+ 0001:00002b0c       TAPIlineDrop               10003b0c f   line.obj
+ 0001:00002e28       TAPIlineGenerateDigits     10003e28 f   line.obj
+ 0001:00002fa4       TAPIlineStartDTMF          10003fa4 f   line.obj
+ 0001:00002ff0       TAPIlineStopDTMF           10003ff0 f   line.obj
+ 0001:0000329c       TAPIlineGetAppPriority     1000429c f   line.obj
+ 0001:00003a74       TAPIlineGetIcon            10004a74 f   line.obj
+ 0001:00004154       TAPIlineGetNumRings        10005154 f   line.obj
+ 0001:000044b4       TAPIlineGetStatusMessages  100054b4 f   line.obj
+ 0001:00004900       TAPIlineHandoff            10005900 f   line.obj
+ 0001:00004bf4       TAPIlineHold               10005bf4 f   line.obj
+ 0001:00004c78       TAPIlineInitialize         10005c78 f   line.obj
+ 0001:00005048       TAPIlineMonitorDigits      10006048 f   line.obj
+ 0001:0000513c       TAPIlineMonitorMedia       1000613c f   line.obj
+ 0001:000053f8       TAPIlineNegotiateExtVersion 100063f8 f   line.obj
+ 0001:000054e0       TAPIlinePickup             100064e0 f   line.obj
+ 0001:0000580c       TAPIlineRedirect           1000680c f   line.obj
+ 0001:000058bc       TAPIlineReleaseUserUserInfo 100068bc f   line.obj
+ 0001:00005940       TAPIlineRemoveFromConference 10006940 f   line.obj
+ 0001:000059d4       TAPIlineSendUserUserInfo   100069d4 f   line.obj
+ 0001:00005aa8       TAPIlineSetAppPriority     10006aa8 f   line.obj
+ 0001:00005c48       TAPIlineSetCallPrivilege   10006c48 f   line.obj
+ 0001:00005d3c       TAPIlineSetCurrentLocation 10006d3c f   line.obj
+ 0001:00005e94       TAPIlineSetDevConfig       10006e94 f   line.obj
+ 0001:00005f34       TAPIlineSetMediaMode       10006f34 f   line.obj
+ 0001:00005fbc       TAPIlineSetNumRings        10006fbc f   line.obj
+ 0001:0000606c       TAPIlineSetStatusMessages  1000706c f   line.obj
+ 0001:000061d8       TAPIlineSetTerminal        100071d8 f   line.obj
+ 0001:0000633c       TAPIlineSetTollList        1000733c f   line.obj
+ 0001:00006878       TAPIlineShutdown           10007878 f   line.obj
+ 0001:00006998       TAPIlineSwapHold           10007998 f   line.obj
+ 0001:00006bb0       TAPIlineTranslateDialog    10007bb0 f   line.obj
+ 0001:00006d54       TAPIlineUnhold             10007d54 f   line.obj
+ 0001:00006dd8       TAPIEXT_lineCompleteTransfer 10007dd8 f   line.obj
+ 0001:00006df4       TAPIEXT_lineConfigDialogEdit 10007df4 f   line.obj
+ 0001:00006e20       TAPIEXT_lineForward        10007e20 f   line.obj
+ 0001:00006e54       TAPIEXT_lineGenerateTone   10007e54 f   line.obj
+ 0001:00006e78       TAPIEXT_lineGetAddressCaps 10007e78 f   line.obj
+ 0001:00006ea4       TAPIEXT_lineGetAddressID   10007ea4 f   line.obj
+ 0001:00006ec8       TAPIEXT_lineGetAddressStatus 10007ec8 f   line.obj
+ 0001:00006ed0       TAPIEXT_lineGetCallInfo    10007ed0 f   line.obj
+ 0001:00006ed8       TAPIEXT_lineGetCallStatus  10007ed8 f   line.obj
+ 0001:00006ee0       TAPIEXT_lineGetConfRelatedCalls 10007ee0 f   line.obj
+ 0001:00006ee8       TAPIEXT_lineGetDevCaps     10007ee8 f   line.obj
+ 0001:00006f0c       TAPIEXT_lineGetDevConfig   10007f0c f   line.obj
+ 0001:00006f14       TAPIEXT_lineGetID          10007f14 f   line.obj
+ 0001:00006f40       TAPIEXT_lineGetLineDevStatus 10007f40 f   line.obj
+ 0001:00006f48       TAPIEXT_lineGetMessage     10007f48 f   line.obj
+ 0001:00006f50       TAPIEXT_lineGetNewCalls    10007f50 f   line.obj
+ 0001:00006f6c       TAPIEXT_lineGetProviderList 10007f6c f   line.obj
+ 0001:00006f74       TAPIEXT_lineGetTranslateCaps 10007f74 f   line.obj
+ 0001:00006f7c       TAPIEXT_lineInitializeEx   10007f7c f   line.obj
+ 0001:00006fb0       TAPIEXT_lineMakeCall       10007fb0 f   line.obj
+ 0001:00006fd4       TAPIEXT_lineNegotiateAPIVersion 10007fd4 f   line.obj
+ 0001:00007000       TAPIEXT_linePrepareAddToConference 10008000 f   line.obj
+ 0001:00007008       TAPIEXT_lineSetCallParams  10008008 f   line.obj
+ 0001:0000702c       TAPIEXT_lineSetupConference 1000802c f   line.obj
+ 0001:00007058       TAPIEXT_lineSetupTransfer  10008058 f   line.obj
+ 0001:00007060       TAPIEXT_lineTranslateAddress 10008060 f   line.obj
+ 0001:00007094       TAPIINT_lineCompleteTransfer 10008094 f   line.obj
+ 0001:000070b0       TAPIINT_lineConfigDialogEdit 100080b0 f   line.obj
+ 0001:000070dc       TAPIINT_lineForward        100080dc f   line.obj
+ 0001:00007110       TAPIINT_lineGenerateTone   10008110 f   line.obj
+ 0001:00007134       TAPIINT_lineGetAddressCaps 10008134 f   line.obj
+ 0001:00007160       TAPIINT_lineGetAddressID   10008160 f   line.obj
+ 0001:00007184       TAPIINT_lineGetAddressStatus 10008184 f   line.obj
+ 0001:0000718c       TAPIINT_lineGetCallInfo    1000818c f   line.obj
+ 0001:00007194       TAPIINT_lineGetCallStatus  10008194 f   line.obj
+ 0001:0000719c       TAPIINT_lineGetConfRelatedCalls 1000819c f   line.obj
+ 0001:000071a4       TAPIINT_lineGetDevCaps     100081a4 f   line.obj
+ 0001:000071c8       TAPIINT_lineGetDevConfig   100081c8 f   line.obj
+ 0001:000071d0       TAPIINT_lineGetID          100081d0 f   line.obj
+ 0001:000071fc       TAPIINT_lineGetLineDevStatus 100081fc f   line.obj
+ 0001:00007204       TAPIINT_lineGetMessage     10008204 f   line.obj
+ 0001:0000720c       TAPIINT_lineGetNewCalls    1000820c f   line.obj
+ 0001:00007228       TAPIINT_lineGetProviderList 10008228 f   line.obj
+ 0001:00007230       TAPIINT_lineGetTranslateCaps 10008230 f   line.obj
+ 0001:00007238       TAPIINT_lineInitializeEx   10008238 f   line.obj
+ 0001:0000726c       TAPIINT_lineMakeCall       1000826c f   line.obj
+ 0001:00007290       TAPIINT_lineNegotiateAPIVersion 10008290 f   line.obj
+ 0001:000072bc       TAPIINT_linePrepareAddToConference 100082bc f   line.obj
+ 0001:000072c4       TAPIINT_lineSetCallParams  100082c4 f   line.obj
+ 0001:000072e8       TAPIINT_lineSetupConference 100082e8 f   line.obj
+ 0001:00007314       TAPIINT_lineSetupTransfer  10008314 f   line.obj
+ 0001:0000731c       TAPIINT_lineTranslateAddress 1000831c f   line.obj
+ 0001:00007734       TAPIEXT_lineOpen           10008734 f   line.obj
+ 0001:00007778       TAPIINT_lineOpen           10008778 f   line.obj
+ 0001:000077bc       EnterTapiCS                100087bc f   misc.obj
+ 0001:000077d8       LeaveTapiCS                100087d8 f   misc.obj
+ 0001:000077f4       AddVariantInfo             100087f4 f   misc.obj
+ 0001:00007890       GetMsgEntry                10008890 f   misc.obj
+ 0001:00007960       FreeMsgEntry               10008960 f   misc.obj
+ 0001:00007a00       QueueAppMsg                10008a00 f   misc.obj
+ 0001:00007acc       GetQueuedMessage           10008acc f   misc.obj
+ 0001:00007bc4       LineSyncGeneralEpilog      10008bc4 f   misc.obj
+ 0001:00007c20       CopyUserData               10008c20 f   misc.obj
+ 0001:00007d04       CopyUserString             10008d04 f   misc.obj
+ 0001:00007dbc       CopyToUserData             10008dbc f   misc.obj
+ 0001:00007e68       CheckWindow                10008e68 f   misc.obj
+ 0001:00007ed8       SafeReadLPDWORD            10008ed8 f   misc.obj
+ 0001:00007f20       SafeWriteLPDWORD           10008f20 f   misc.obj
+ 0001:00007f68       GetTLineAppFromProcess     10008f68 f   misc.obj
+ 0001:00008098       GetTLineFromDeviceID       10009098 f   misc.obj
+ 0001:0000814c       GetTPhoneAppFromProcess    1000914c f   misc.obj
+ 0001:00008240       GetTPhoneFromDeviceID      10009240 f   misc.obj
+ 0001:000082ec       GetMediaModePrioIndex      100092ec f   misc.obj
+ 0001:00008410       GetNumAddresses            10009410 f   misc.obj
+ 0001:00008470       GetProviderFromDll         10009470 f   misc.obj
+ 0001:00008510       IsTCallClientDeallocatable 10009510 f   misc.obj
+ 0001:00008544       IsAPIVersionInRange        10009544 f   misc.obj
+ 0001:00008588       IsValidExtVersion          10009588 f   misc.obj
+ 0001:000085a4       IsEntryInList              100095a4 f   misc.obj
+ 0001:00008634       IsSufficientLinePrivilege  10009634 f   misc.obj
+ 0001:00008674       IsValidCall                10009674 f   misc.obj
+ 0001:0000870c       IsValidProvider            1000970c f   misc.obj
+ 0001:00008724       IsValidLineApp             10009724 f   misc.obj
+ 0001:000087bc       IsValidLine                100097bc f   misc.obj
+ 0001:000087ec       IsValidOpenLine            100097ec f   misc.obj
+ 0001:000088a8       IsValidPhoneApp            100098a8 f   misc.obj
+ 0001:0000892c       IsValidPhone               1000992c f   misc.obj
+ 0001:00008948       IsValidOpenPhone           10009948 f   misc.obj
+ 0001:000089e0       IsPhoneAPI                 100099e0 f   misc.obj
+ 0001:00008a04       SetLineMediaModes          10009a04 f   misc.obj
+ 0001:00008ae4       TryCloseTCall              10009ae4 f   misc.obj
+ 0001:00008b30       TryCloseCallClient         10009b30 f   misc.obj
+ 0001:00008b88       OldAddTapiDevice           10009b88 f   misc.obj
+ 0001:00008cf0       AddTapiDevice              10009cf0 f   misc.obj
+ 0001:00008f2c       TAPIloadProvider           10009f2c f   misc.obj
+ 0001:00008f98       IsBadSizeOffset            10009f98 f   misc.obj
+ 0001:00008fd4       ValidateCallParams         10009fd4 f   misc.obj
+ 0001:000093ec       GetListArray               1000a3ec f   misc.obj
+ 0001:000094f4       AgeIdleCallClients         1000a4f4 f   misc.obj
+ 0001:0000957c       CopyFromUserVarData        1000a57c f   misc.obj
+ 0001:000096cc       CopyToUserVarData          1000a6cc f   misc.obj
+ 0001:000096ec       CheckCallClient            1000a6ec f   misc.obj
+ 0001:000097b4       FindOpenLine               1000a7b4 f   misc.obj
+ 0001:000098a0       FindCallClient             1000a8a0 f   misc.obj
+ 0001:000099b8       GetCallIDs                 1000a9b8 f   misc.obj
+ 0001:00009a14       GetPriorityApp             1000aa14 f   misc.obj
+ 0001:00009ac4       GetPriorityAppCallClient   1000aac4 f   misc.obj
+ 0001:00009cac       SendMsgToLineClients       1000acac f   misc.obj
+ 0001:00009db8       SendMsgToPhoneClients      1000adb8 f   misc.obj
+ 0001:00009ed0       SendCallStateMsgToMonitors 1000aed0 f   misc.obj
+ 0001:0000a008       RemoveTapiDevice           1000b008 f   misc.obj
+ 0001:0000a080       TapiDeviceChange           1000b080 f   misc.obj
+ 0001:0000a090       LineGeneralProlog          1000b090 f   misc.obj
+ 0001:0000a3a0       CompletionProc             1000b3a0 f   misc.obj
+ 0001:0000a508       PhoneEventProc             1000b508 f   misc.obj
+ 0001:0000a5c0       SendMsgToCallClients       1000b5c0 f   misc.obj
+ 0001:0000a738       LineEventProc              1000b738 f   misc.obj
+ 0001:0000abf4       TAPIinitProvider           1000bbf4 f   misc.obj
+ 0001:0000ad44       TakeCallClientOffLists     1000bd44 f   object.obj
+ 0001:0000ada4       TakeOpenLineOffLists       1000bda4 f   object.obj
+ 0001:0000ae04       TakeOpenPhoneOffLists      1000be04 f   object.obj
+ 0001:0000ae90       createTCall                1000be90 f   object.obj
+ 0001:0000af40       destroyTCall               1000bf40 f   object.obj
+ 0001:0000b0d4       createOpenLine             1000c0d4 f   object.obj
+ 0001:0000b3b8       createLine                 1000c3b8 f   object.obj
+ 0001:0000b500       tapi_create_event          1000c500 f   object.obj
+ 0001:0000b5c0       createLineApp              1000c5c0 f   object.obj
+ 0001:0000b6b4       destroyMsgQueue            1000c6b4 f   object.obj
+ 0001:0000b754       createPhone                1000c754 f   object.obj
+ 0001:0000b898       createOpenPhone            1000c898 f   object.obj
+ 0001:0000bb0c       destroyOpenPhone           1000cb0c f   object.obj
+ 0001:0000bc8c       createPhoneApp             1000cc8c f   object.obj
+ 0001:0000bd94       DerefTCall                 1000cd94 f   object.obj
+ 0001:0000be2c       DerefOpenPhone             1000ce2c f   object.obj
+ 0001:0000bebc       destroyTCallClient         1000cebc f   object.obj
+ 0001:0000c014       destroyPhoneApp            1000d014 f   object.obj
+ 0001:0000c134       DerefCallClient            1000d134 f   object.obj
+ 0001:0000c1cc       DerefPhoneApp              1000d1cc f   object.obj
+ 0001:0000c25c       destroyOpenLine            1000d25c f   object.obj
+ 0001:0000c458       I_destroyPhone             1000d458 f   object.obj
+ 0001:0000c588       destroyPhone               1000d588 f   object.obj
+ 0001:0000c5e0       DerefOpenLine              1000d5e0 f   object.obj
+ 0001:0000c678       createTCallClient          1000d678 f   object.obj
+ 0001:0000c870       createCallInstance         1000d870 f   object.obj
+ 0001:0000c8d8       destroyLineApp             1000d8d8 f   object.obj
+ 0001:0000cb24       DerefLineApp               1000db24 f   object.obj
+ 0001:0000cbb4       I_destroyLine              1000dbb4 f   object.obj
+ 0001:0000cce4       destroyLine                1000dce4 f   object.obj
+ 0001:0000cd34       MapLINEERR2PHONEERR        1000dd34 f   phone.obj
+ 0001:0000ced4       TAPIphoneClose             1000ded4 f   phone.obj
+ 0001:0000cf60       TAPIphoneConfigDialog      1000df60 f   phone.obj
+ 0001:0000cf6c       TAPIphoneDevSpecific       1000df6c f   phone.obj
+ 0001:0000d154       TAPIphoneGetGain           1000e154 f   phone.obj
+ 0001:0000d1fc       TAPIphoneGetHookSwitch     1000e1fc f   phone.obj
+ 0001:0000d270       TAPIphoneGetIcon           1000e270 f   phone.obj
+ 0001:0000d308       TAPIphoneGetID             1000e308 f   phone.obj
+ 0001:0000d570       TAPIphoneGetRing           1000e570 f   phone.obj
+ 0001:0000d800       TAPIphoneGetStatusMessages 1000e800 f   phone.obj
+ 0001:0000d884       TAPIphoneGetVolume         1000e884 f   phone.obj
+ 0001:0000db84       TAPIphoneNegotiateExtVersion 1000eb84 f   phone.obj
+ 0001:0000dc5c       TAPIphoneOpen              1000ec5c f   phone.obj
+ 0001:0000dd70       TAPIphoneSetGain           1000ed70 f   phone.obj
+ 0001:0000de54       TAPIphoneSetHookSwitch     1000ee54 f   phone.obj
+ 0001:0000df34       TAPIphoneSetRing           1000ef34 f   phone.obj
+ 0001:0000dff4       TAPIphoneSetStatusMessages 1000eff4 f   phone.obj
+ 0001:0000e200       TAPIphoneSetVolume         1000f200 f   phone.obj
+ 0001:0000e2ec       TAPIphoneShutdown          1000f2ec f   phone.obj
+ 0001:0000e408       TAPIEXT_phoneGetDevCaps    1000f408 f   phone.obj
+ 0001:0000e42c       TAPIEXT_phoneGetMessage    1000f42c f   phone.obj
+ 0001:0000e434       TAPIEXT_phoneGetStatus     1000f434 f   phone.obj
+ 0001:0000e43c       TAPIEXT_phoneInitializeEx  1000f43c f   phone.obj
+ 0001:0000e470       TAPIEXT_phoneNegotiateAPIVersion 1000f470 f   phone.obj
+ 0001:0000e49c       TAPIINT_phoneGetDevCaps    1000f49c f   phone.obj
+ 0001:0000e4c0       TAPIINT_phoneGetMessage    1000f4c0 f   phone.obj
+ 0001:0000e4c8       TAPIINT_phoneGetStatus     1000f4c8 f   phone.obj
+ 0001:0000e4d0       TAPIINT_phoneInitializeEx  1000f4d0 f   phone.obj
+ 0001:0000e504       TAPIINT_phoneNegotiateAPIVersion 1000f504 f   phone.obj
+ 0001:0000e530       GetNextToken               1000f530 f   translat.obj
+ 0001:0000e5a4       OpenTranslateStrings       1000f5a4 f   translat.obj
+ 0001:0000e748       ParseTranslateStrings      1000f748 f   translat.obj
+ 0001:0000e8d4       wcsdelchr                  1000f8d4 f   translat.obj
+ 0001:0000e930       OpenTollList               1000f930 f   translat.obj
+ 0001:0000eac4       IsPrefixInTollList         1000fac4 f   translat.obj
+ 0001:0000eb50       GetPrefix                  1000fb50 f   translat.obj
+ 0001:0000ebf8       IsAddressInTollList        1000fbf8 f   translat.obj
+ 0001:0000ec60       SetTollList                1000fc60 f   translat.obj
+ 0001:0000ed44       ReadTollList               1000fd44 f   translat.obj
+ 0001:0000eecc       CreateDialableNumber       1000fecc f   translat.obj
+ 0001:0000f354       TranslateAddress           10010354 f   translat.obj
+ 0001:0000f5fc       EventModify                100105fc f   coredll:COREDLL.dll
+ 0001:0000f60c       LeaveCriticalSection       1001060c f   coredll:COREDLL.dll
+ 0001:0000f61c       EnterCriticalSection       1001061c f   coredll:COREDLL.dll
+ 0001:0000f62c       LocalFree                  1001062c f   coredll:COREDLL.dll
+ 0001:0000f63c       InterlockedIncrement       1001063c f   coredll:COREDLL.dll
+ 0001:0000f64c       LocalAlloc                 1001064c f   coredll:COREDLL.dll
+ 0001:0000f65c       WaitForSingleObject        1001065c f   coredll:COREDLL.dll
+ 0001:0000f66c       Sleep                      1001066c f   coredll:COREDLL.dll
+ 0001:0000f67c       CloseHandle                1001067c f   coredll:COREDLL.dll
+ 0001:0000f68c       CreateThread               1001068c f   coredll:COREDLL.dll
+ 0001:0000f69c       RegQueryValueExW           1001069c f   coredll:COREDLL.dll
+ 0001:0000f6ac       RegEnumKeyExW              100106ac f   coredll:COREDLL.dll
+ 0001:0000f6bc       RegCloseKey                100106bc f   coredll:COREDLL.dll
+ 0001:0000f6cc       RegSetValueExW             100106cc f   coredll:COREDLL.dll
+ 0001:0000f6dc       RegCreateKeyExW            100106dc f   coredll:COREDLL.dll
+ 0001:0000f6ec       RegOpenKeyExW              100106ec f   coredll:COREDLL.dll
+ 0001:0000f6fc       InitializeCriticalSection  100106fc f   coredll:COREDLL.dll
+ 0001:0000f70c       CreateEventW               1001070c f   coredll:COREDLL.dll
+ 0001:0000f71c       DisableThreadLibraryCalls  1001071c f   coredll:COREDLL.dll
+ 0001:0000f72c       StopDeviceNotifications    1001072c f   coredll:COREDLL.dll
+ 0001:0000f73c       RegOpenProcessKey          1001073c f   coredll:COREDLL.dll
+ 0001:0000f74c       ReadMsgQueue               1001074c f   coredll:COREDLL.dll
+ 0001:0000f75c       RequestDeviceNotifications 1001075c f   coredll:COREDLL.dll
+ 0001:0000f76c       CreateMsgQueue             1001076c f   coredll:COREDLL.dll
+ 0001:0000f77c       RegisterAPISet             1001077c f   coredll:COREDLL.dll
+ 0001:0000f78c       RegisterDirectMethods      1001078c f   coredll:COREDLL.dll
+ 0001:0000f79c       SetAPIErrorHandler         1001079c f   coredll:COREDLL.dll
+ 0001:0000f7ac       CreateAPISet               100107ac f   coredll:COREDLL.dll
+ 0001:0000f7bc       SetLastError               100107bc f   coredll:COREDLL.dll
+ 0001:0000f7cc       FreeLibrary                100107cc f   coredll:COREDLL.dll
+ 0001:0000f7dc       GetProcAddressW            100107dc f   coredll:COREDLL.dll
+ 0001:0000f7ec       LoadLibraryW               100107ec f   coredll:COREDLL.dll
+ 0001:0000f7fc       RegDeleteKeyW              100107fc f   coredll:COREDLL.dll
+ 0001:0000f80c       CeCloseCallerBuffer        1001080c f   coredll:COREDLL.dll
+ 0001:0000f81c       CeOpenCallerBuffer         1001081c f   coredll:COREDLL.dll
+ 0001:0000f82c       GetTickCount               1001082c f   coredll:COREDLL.dll
+ 0001:0000f83c       InterlockedExchange        1001083c f   coredll:COREDLL.dll
+ 0001:0000f84c       CeSafeCopyMemory           1001084c f   coredll:COREDLL.dll
+ 0001:0000f85c       StringCchLengthW           1001085c f   coredll:COREDLL.dll
+ 0001:0000f86c       GetDeviceKeys              1001086c f   coredll:COREDLL.dll
+ 0001:0000f87c       CeGetThreadPriority        1001087c f   coredll:COREDLL.dll
+ 0001:0000f88c       GetLastError               1001088c f   coredll:COREDLL.dll
+ 0001:0000f89c       StringCchPrintfW           1001089c f   coredll:COREDLL.dll
+ 0001:0000f8ac       GetDirectCallerProcessId   100108ac f   coredll:COREDLL.dll
+ 0001:0000f8bc       RegQueryInfoKeyW           100108bc f   coredll:COREDLL.dll
+ 0001:0000f8cc       RegDeleteValueW            100108cc f   coredll:COREDLL.dll
+ 0001:0000f8dc       RegEnumValueW              100108dc f   coredll:COREDLL.dll
+ 0001:0000f8ec       _DllEntryCRTStartup        100108ec f   corelib0:pegdentry.obj
+ 0001:0000f930       __GSHandlerCheckCommon     10010930 f   corelib0:gshandler.obj
+ 0001:0000f96c       __GSHandlerCheck           1001096c f   corelib0:gshandler.obj
+ 0001:0000f98c       __security_init_cookie     1001098c f   corelib0:seccinit.obj
+ 0001:0000f9d8       __security_check_cookie    100109d8 f   corelib0:armsecgs.obj
+ 0001:0000f9e8       __gsfailure                100109e8     corelib0:armsecgs.obj
+ 0001:0000fb14       _cexit                     10010b14 f   corelib0:cexit.obj
+ 0001:0000fb24       _initterm                  10010b24 f   corelib0:crt0dat.obj
+ 0001:0000fb50       _cinit                     10010b50 f   corelib0:crt0dat.obj
+ 0001:0000fbb0       __crt_ExitProcess          10010bb0 f   corelib0:exitproc_proxy.obj
+ 0001:0000fbbc       __C_specific_handler       10010bbc f   corelib1:COREDLL.dll
+ 0001:0000fbcc       memcpy                     10010bcc f   corelib1:COREDLL.dll
+ 0001:0000fbdc       memset                     10010bdc f   corelib1:COREDLL.dll
+ 0001:0000fbec       wcscpy                     10010bec f   corelib1:COREDLL.dll
+ 0001:0000fbfc       wcslen                     10010bfc f   corelib1:COREDLL.dll
+ 0001:0000fc0c       wcstol                     10010c0c f   corelib1:COREDLL.dll
+ 0001:0000fc1c       _wcsicmp                   10010c1c f   corelib1:COREDLL.dll
+ 0001:0000fc2c       wcscat                     10010c2c f   corelib1:COREDLL.dll
+ 0001:0000fc3c       wcschr                     10010c3c f   corelib1:COREDLL.dll
+ 0001:0000fc4c       wcsncmp                    10010c4c f   corelib1:COREDLL.dll
+ 0001:0000fc5c       wcscmp                     10010c5c f   corelib1:COREDLL.dll
+ 0001:0000fc6c       __security_gen_cookie2     10010c6c f   corelib1:COREDLL.dll
+ 0001:0000fc7c       __report_gsfailure         10010c7c f   corelib1:COREDLL.dll
+ 0001:0000fc8c       free                       10010c8c f   corelib1:COREDLL.dll
+ 0001:0000fc9c       DeleteCriticalSection      10010c9c f   coredll:COREDLL.dll
+ 0001:0000fcac       TerminateProcess           10010cac f   coredll:COREDLL.dll
+ 0001:000101ac       __IMPORT_DESCRIPTOR_COREDLL 100111ac     coredll:COREDLL.dll
+ 0001:000101c0       __NULL_IMPORT_DESCRIPTOR   100111c0     coredll:COREDLL.dll
+ 0002:00000000       __imp_EventModify          10012000     coredll:COREDLL.dll
+ 0002:00000004       __imp_LeaveCriticalSection 10012004     coredll:COREDLL.dll
+ 0002:00000008       __imp_EnterCriticalSection 10012008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_LocalFree            1001200c     coredll:COREDLL.dll
+ 0002:00000010       __imp_InterlockedIncrement 10012010     coredll:COREDLL.dll
+ 0002:00000014       __imp_LocalAlloc           10012014     coredll:COREDLL.dll
+ 0002:00000018       __imp_WaitForSingleObject  10012018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_Sleep                1001201c     coredll:COREDLL.dll
+ 0002:00000020       __imp_CloseHandle          10012020     coredll:COREDLL.dll
+ 0002:00000024       __imp_CreateThread         10012024     coredll:COREDLL.dll
+ 0002:00000028       __imp_RegQueryValueExW     10012028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_RegEnumKeyExW        1001202c     coredll:COREDLL.dll
+ 0002:00000030       __imp_RegCloseKey          10012030     coredll:COREDLL.dll
+ 0002:00000034       __imp_RegSetValueExW       10012034     coredll:COREDLL.dll
+ 0002:00000038       __imp_RegCreateKeyExW      10012038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_RegOpenKeyExW        1001203c     coredll:COREDLL.dll
+ 0002:00000040       __imp_InitializeCriticalSection 10012040     coredll:COREDLL.dll
+ 0002:00000044       __imp_CreateEventW         10012044     coredll:COREDLL.dll
+ 0002:00000048       __imp_DisableThreadLibraryCalls 10012048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_StopDeviceNotifications 1001204c     coredll:COREDLL.dll
+ 0002:00000050       __imp_RegOpenProcessKey    10012050     coredll:COREDLL.dll
+ 0002:00000054       __imp_ReadMsgQueue         10012054     coredll:COREDLL.dll
+ 0002:00000058       __imp_RequestDeviceNotifications 10012058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_CreateMsgQueue       1001205c     coredll:COREDLL.dll
+ 0002:00000060       __imp_RegisterAPISet       10012060     coredll:COREDLL.dll
+ 0002:00000064       __imp_RegisterDirectMethods 10012064     coredll:COREDLL.dll
+ 0002:00000068       __imp_SetAPIErrorHandler   10012068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_CreateAPISet         1001206c     coredll:COREDLL.dll
+ 0002:00000070       __imp_SetLastError         10012070     coredll:COREDLL.dll
+ 0002:00000074       __imp_FreeLibrary          10012074     coredll:COREDLL.dll
+ 0002:00000078       __imp_GetProcAddressW      10012078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_LoadLibraryW         1001207c     coredll:COREDLL.dll
+ 0002:00000080       __imp_RegDeleteKeyW        10012080     coredll:COREDLL.dll
+ 0002:00000084       __imp_CeCloseCallerBuffer  10012084     coredll:COREDLL.dll
+ 0002:00000088       __imp_CeOpenCallerBuffer   10012088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_GetTickCount         1001208c     coredll:COREDLL.dll
+ 0002:00000090       __imp_InterlockedExchange  10012090     coredll:COREDLL.dll
+ 0002:00000094       __imp_CeSafeCopyMemory     10012094     coredll:COREDLL.dll
+ 0002:00000098       __imp_StringCchLengthW     10012098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_GetDeviceKeys        1001209c     coredll:COREDLL.dll
+ 0002:000000a0       __imp_CeGetThreadPriority  100120a0     coredll:COREDLL.dll
+ 0002:000000a4       __imp_GetLastError         100120a4     coredll:COREDLL.dll
+ 0002:000000a8       __imp_StringCchPrintfW     100120a8     coredll:COREDLL.dll
+ 0002:000000ac       __imp_GetDirectCallerProcessId 100120ac     coredll:COREDLL.dll
+ 0002:000000b0       __imp_RegQueryInfoKeyW     100120b0     coredll:COREDLL.dll
+ 0002:000000b4       __imp_RegDeleteValueW      100120b4     coredll:COREDLL.dll
+ 0002:000000b8       __imp_RegEnumValueW        100120b8     coredll:COREDLL.dll
+ 0002:000000bc       __imp___C_specific_handler 100120bc     corelib1:COREDLL.dll
+ 0002:000000c0       __imp_memcpy               100120c0     corelib1:COREDLL.dll
+ 0002:000000c4       __imp_memset               100120c4     corelib1:COREDLL.dll
+ 0002:000000c8       __imp_wcscpy               100120c8     corelib1:COREDLL.dll
+ 0002:000000cc       __imp_wcslen               100120cc     corelib1:COREDLL.dll
+ 0002:000000d0       __imp_wcstol               100120d0     corelib1:COREDLL.dll
+ 0002:000000d4       __imp__wcsicmp             100120d4     corelib1:COREDLL.dll
+ 0002:000000d8       __imp_wcscat               100120d8     corelib1:COREDLL.dll
+ 0002:000000dc       __imp_wcschr               100120dc     corelib1:COREDLL.dll
+ 0002:000000e0       __imp_wcsncmp              100120e0     corelib1:COREDLL.dll
+ 0002:000000e4       __imp_wcscmp               100120e4     corelib1:COREDLL.dll
+ 0002:000000e8       __imp___security_gen_cookie2 100120e8     corelib1:COREDLL.dll
+ 0002:000000ec       __imp___report_gsfailure   100120ec     corelib1:COREDLL.dll
+ 0002:000000f0       __imp_free                 100120f0     corelib1:COREDLL.dll
+ 0002:000000f4       __imp_DeleteCriticalSection 100120f4     coredll:COREDLL.dll
+ 0002:000000f8       __imp_TerminateProcess     100120f8     coredll:COREDLL.dll
+ 0002:000000fc       \177COREDLL_NULL_THUNK_DATA 100120fc     coredll:COREDLL.dll
+ 0002:00000108       __security_cookie          10012108     corelib0:seccinit.obj
+ 0002:0000010c       __security_cookie_complement 1001210c     corelib0:seccinit.obj
+ 0002:00000124       _exitflag                  10012124     corelib0:cexit.obj
+ 0002:00000140       TapiGlobals                10012140     <common>
+ 0002:00000220       PnpBuf                     10012220     <common>
+ 0002:00000308       __onexitend                10012308     <common>
+ 0002:0000030c       __onexitbegin              1001230c     <common>
+ 0002:00000310       g_pcsExit                  10012310     <common>
+
+ entry point at        0001:0000f8ec
+
+ Static symbols
+
+ 0001:00001bb8       i_lineOpen                 10002bb8 f   line.obj
+ 0001:00002560       TAPIlineCompleteTransfer   10003560 f   line.obj
+ 0001:000027b0       TAPIlineConfigDialogEdit   100037b0 f   line.obj
+ 0001:00002bfc       TAPIlineForward            10003bfc f   line.obj
+ 0001:00002ecc       TAPIlineGenerateTone       10003ecc f   line.obj
+ 0001:00003034       TAPIlineGetAddressCaps     10004034 f   line.obj
+ 0001:00003148       TAPIlineGetAddressID       10004148 f   line.obj
+ 0001:00003200       TAPIlineGetAddressStatus   10004200 f   line.obj
+ 0001:00003330       TAPIlineGetCallInfo        10004330 f   line.obj
+ 0001:000034cc       TAPIlineGetCallStatus      100044cc f   line.obj
+ 0001:0000356c       TAPIlineGetConfRelatedCalls 1000456c f   line.obj
+ 0001:00003898       TAPIlineGetDevCaps         10004898 f   line.obj
+ 0001:000039cc       TAPIlineGetDevConfig       100049cc f   line.obj
+ 0001:00003b10       TAPIlineGetID              10004b10 f   line.obj
+ 0001:00003c70       TAPIlineGetLineDevStatus   10004c70 f   line.obj
+ 0001:00003d38       TAPIlineGetMessage         10004d38 f   line.obj
+ 0001:00003ecc       TAPIlineGetNewCalls        10004ecc f   line.obj
+ 0001:0000427c       TAPIlineGetProviderList    1000527c f   line.obj
+ 0001:00004534       TAPIlineGetTranslateCaps   10005534 f   line.obj
+ 0001:00004c84       TAPIlineInitializeEx       10005c84 f   line.obj
+ 0001:00004de0       TAPIlineMakeCall           10005de0 f   line.obj
+ 0001:00005238       TAPIlineNegotiateAPIVersion 10006238 f   line.obj
+ 0001:00005668       TAPIlinePrepareAddToConference 10006668 f   line.obj
+ 0001:00005b44       TAPIlineSetCallParams      10006b44 f   line.obj
+ 0001:00006404       TAPIlineSetupConference    10007404 f   line.obj
+ 0001:000066ec       TAPIlineSetupTransfer      100076ec f   line.obj
+ 0001:00006a60       TAPIlineTranslateAddress   10007a60 f   line.obj
+ 0001:00007350       TAPIlineOpen               10008350 f   line.obj
+ 0001:0000d064       TAPIphoneGetDevCaps        1000e064 f   phone.obj
+ 0001:0000d3d8       TAPIphoneGetMessage        1000e3d8 f   phone.obj
+ 0001:0000d60c       TAPIphoneGetStatus         1000e60c f   phone.obj
+ 0001:0000d92c       TAPIphoneInitializeEx      1000e92c f   phone.obj
+ 0001:0000da50       TAPIphoneNegotiateAPIVersion 1000ea50 f   phone.obj
+ 0001:0000fa2c       doexit                     10010a2c f   corelib0:cexit.obj

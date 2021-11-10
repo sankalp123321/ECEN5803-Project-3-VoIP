@@ -1,0 +1,743 @@
+ snmp_mibii
+
+ Timestamp is 618b154a (Tue Nov 09 17:41:46 2021)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 00000190H .rdata                  CODE
+ 0001:000001b0 00000027H .rdata$debug            CODE
+ 0001:000001d8 00004de4H .text                   CODE
+ 0001:00004fbc 00000074H .xdata                  CODE
+ 0001:00005030 00000050H .idata$2                CODE
+ 0001:00005080 00000014H .idata$3                CODE
+ 0001:00005094 000000d4H .idata$4                CODE
+ 0001:00005168 000001eaH .idata$6                CODE
+ 0001:00005360 000000a5H .edata                  CODE
+ 0002:00000000 000000d4H .idata$5                DATA
+ 0002:000000d8 000034f0H .data                   DATA
+ 0002:000035c8 00000038H .bss                    DATA
+ 0003:00000000 000008e0H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:0000003c       ??_C@_1BK@KLLNBFOI@?$AAG?$AAe?$AAt?$AAS?$AAy?$AAs?$AAO?$AAR?$AAI?$AAn?$AAf?$AAo?$AA?$AA@ 1000103c     snmp_mibii:mibii.obj
+ 0001:00000058       ??_C@_1BM@PJDECBMO@?$AAG?$AAe?$AAt?$AAS?$AAn?$AAm?$AAp?$AAS?$AAt?$AAr?$AAu?$AAc?$AAt?$AA?$AA@ 10001058     snmp_mibii:mibii.obj
+ 0001:00000074       ??_C@_1BC@LGFHGGIK@?$AAs?$AAn?$AAm?$AAp?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10001074     snmp_mibii:mibii.obj
+ 0001:00000088       ??_C@_0CO@MMDHPMHK@Microsoft?5Windows?5CE?5Version?5?$CFd?4@ 10001088     snmp_mibii:system.obj
+ 0001:000000b8       ??_C@_1BC@EGDLJCOK@?$AAs?$AAy?$AAs?$AAD?$AAe?$AAs?$AAc?$AAr?$AA?$AA@ 100010b8     snmp_mibii:system.obj
+ 0001:000000d0       ??_C@_1GI@HBJOBGEG@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?2?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAS?$AAe?$AAt?$AA?2?$AAS?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe@ 100010d0     snmp_mibii:system.obj
+ 0001:00000138       ??_C@_1BI@LEIEMOOD@?$AAs?$AAy?$AAs?$AAO?$AAb?$AAj?$AAe?$AAc?$AAt?$AAI?$AAD?$AA?$AA@ 10001138     snmp_mibii:system.obj
+ 0001:00000150       ??_C@_1BG@EFKOOMF@?$AAs?$AAy?$AAs?$AAC?$AAo?$AAn?$AAt?$AAa?$AAc?$AAt?$AA?$AA@ 10001150     snmp_mibii:system.obj
+ 0001:00000168       ??_C@_19DINFBLAK@?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 10001168     snmp_mibii:system.obj
+ 0001:00000174       ??_C@_1M@LPEEOHMF@?$AAI?$AAd?$AAe?$AAn?$AAt?$AA?$AA@ 10001174     snmp_mibii:system.obj
+ 0001:00000180       ??_C@_1BI@MGKOICPN@?$AAs?$AAy?$AAs?$AAL?$AAo?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 10001180     snmp_mibii:system.obj
+ 0001:00000198       ??_C@_1BI@CJIEKDHM@?$AAs?$AAy?$AAs?$AAS?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe?$AAs?$AA?$AA@ 10001198     snmp_mibii:system.obj
+ 0001:000001d8       DllMain                    100011d8 f   snmp_mibii:mibii.obj
+ 0001:000001ec       SnmpExtensionInit          100011ec f   snmp_mibii:mibii.obj
+ 0001:0000028c       SnmpExtensionInitEx        1000128c f   snmp_mibii:mibii.obj
+ 0001:000002dc       SnmpExtensionTrap          100012dc f   snmp_mibii:mibii.obj
+ 0001:000002e4       SnmpExtensionQuery         100012e4 f   snmp_mibii:mibii.obj
+ 0001:000003c0       GroupFindInstance          100013c0 f   snmp_mibii:resolve.obj
+ 0001:000003e0       GroupFindNextInstance      100013e0 f   snmp_mibii:resolve.obj
+ 0001:00000408       GroupConvertInstance       10001408 f   snmp_mibii:resolve.obj
+ 0001:00000410       GroupFreeInstance          10001410 f   snmp_mibii:resolve.obj
+ 0001:00000414       FindSubClass               10001414 f   snmp_mibii:resolve.obj
+ 0001:000004fc       FindClass                  100014fc f   snmp_mibii:resolve.obj
+ 0001:000005ac       FindInstance               100015ac f   snmp_mibii:resolve.obj
+ 0001:0000088c       ResolveVarBind             1000188c f   snmp_mibii:resolve.obj
+ 0001:000009c8       getudpentry                100019c8 f   snmp_mibii:udp.obj
+ 0001:00000aac       udpfindinst                10001aac f   snmp_mibii:udp.obj
+ 0001:00000bac       GetUdpInDatagrams          10001bac f   snmp_mibii:udp.obj
+ 0001:00000be0       GetUdpNoPorts              10001be0 f   snmp_mibii:udp.obj
+ 0001:00000c14       GetUdpInErrors             10001c14 f   snmp_mibii:udp.obj
+ 0001:00000c48       GetUdpOutDatagrams         10001c48 f   snmp_mibii:udp.obj
+ 0001:00000c7c       GetUdpLocalAddress         10001c7c f   snmp_mibii:udp.obj
+ 0001:00000cb0       GetUdpLocalPort            10001cb0 f   snmp_mibii:udp.obj
+ 0001:00000ce4       UdpEntryFindInstance       10001ce4 f   snmp_mibii:udp.obj
+ 0001:00000cf0       UdpEntryFindNextInstance   10001cf0 f   snmp_mibii:udp.obj
+ 0001:00000cf8       UdpEntryConvertInstance    10001cf8 f   snmp_mibii:udp.obj
+ 0001:00000d04       UdpEntryFreeInstance       10001d04 f   snmp_mibii:udp.obj
+ 0001:00000d08       gettcpconntableentry       10001d08 f   snmp_mibii:tcp.obj
+ 0001:00000dec       tcpindextoinst             10001dec f   snmp_mibii:tcp.obj
+ 0001:00000e34       tcpfindinst                10001e34 f   snmp_mibii:tcp.obj
+ 0001:00000f38       GetTcpRtoAlgorithm         10001f38 f   snmp_mibii:tcp.obj
+ 0001:00000f6c       GetTcpRtoMin               10001f6c f   snmp_mibii:tcp.obj
+ 0001:00000fa0       GetTcpRtoMax               10001fa0 f   snmp_mibii:tcp.obj
+ 0001:00000fd4       GetTcpMaxConn              10001fd4 f   snmp_mibii:tcp.obj
+ 0001:00001008       GetTcpActiveOpens          10002008 f   snmp_mibii:tcp.obj
+ 0001:0000103c       GetTcpPassiveOpens         1000203c f   snmp_mibii:tcp.obj
+ 0001:00001070       GetTcpAttemptFails         10002070 f   snmp_mibii:tcp.obj
+ 0001:000010a4       GetTcpEstabResets          100020a4 f   snmp_mibii:tcp.obj
+ 0001:000010d8       GetTcpCurrEstab            100020d8 f   snmp_mibii:tcp.obj
+ 0001:0000110c       GetTcpInSegs               1000210c f   snmp_mibii:tcp.obj
+ 0001:00001140       GetTcpOutSegs              10002140 f   snmp_mibii:tcp.obj
+ 0001:00001174       GetTcpRetransSegs          10002174 f   snmp_mibii:tcp.obj
+ 0001:000011a8       GetTcpConnState            100021a8 f   snmp_mibii:tcp.obj
+ 0001:000011dc       GetTcpConnLocalAddress     100021dc f   snmp_mibii:tcp.obj
+ 0001:00001210       GetTcpConnLocalPort        10002210 f   snmp_mibii:tcp.obj
+ 0001:00001244       GetTcpConnRemAddress       10002244 f   snmp_mibii:tcp.obj
+ 0001:00001278       GetTcpConnRemPort          10002278 f   snmp_mibii:tcp.obj
+ 0001:000012ac       GetTcpInErrs               100022ac f   snmp_mibii:tcp.obj
+ 0001:000012e0       GetTcpOutRsts              100022e0 f   snmp_mibii:tcp.obj
+ 0001:00001314       SetTcpConnState            10002314 f   snmp_mibii:tcp.obj
+ 0001:0000131c       TcpConnEntryFindInstance   1000231c f   snmp_mibii:tcp.obj
+ 0001:00001328       TcpConnEntryFindNextInstance 10002328 f   snmp_mibii:tcp.obj
+ 0001:00001330       TcpConnEntryConvertInstance 10002330 f   snmp_mibii:tcp.obj
+ 0001:0000133c       TcpConnEntryFreeInstance   1000233c f   snmp_mibii:tcp.obj
+ 0001:00001340       setipnettomediaentry       10002340 f   snmp_mibii:ipnettomediaentry.obj
+ 0001:0000137c       AllocAndGetIpNetTable      1000237c f   snmp_mibii:ipnettomediaentry.obj
+ 0001:000013ec       findnmeinst                100023ec f   snmp_mibii:ipnettomediaentry.obj
+ 0001:00001560       GetIpNetToMediaIfIndex     10002560 f   snmp_mibii:ipnettomediaentry.obj
+ 0001:000015b4       GetIpNetToMediaPhysAddress 100025b4 f   snmp_mibii:ipnettomediaentry.obj
+ 0001:00001638       GetIpNetToMediaNetAddress  10002638 f   snmp_mibii:ipnettomediaentry.obj
+ 0001:0000168c       GetIpNetToMediaType        1000268c f   snmp_mibii:ipnettomediaentry.obj
+ 0001:000016e0       SetIpNetToMediaIfIndex     100026e0 f   snmp_mibii:ipnettomediaentry.obj
+ 0001:00001750       SetIpNetToMediaPhysAddress 10002750 f   snmp_mibii:ipnettomediaentry.obj
+ 0001:000017d0       SetIpNetToMediaNetAddress  100027d0 f   snmp_mibii:ipnettomediaentry.obj
+ 0001:00001840       SetIpNetToMediaType        10002840 f   snmp_mibii:ipnettomediaentry.obj
+ 0001:000018a8       IpNetToMediaEntryFindInstance 100028a8 f   snmp_mibii:ipnettomediaentry.obj
+ 0001:000018b4       IpNetToMediaEntryFindNextInstance 100028b4 f   snmp_mibii:ipnettomediaentry.obj
+ 0001:000018bc       IpNetToMediaEntryConvertInstance 100028bc f   snmp_mibii:ipnettomediaentry.obj
+ 0001:000018c8       IpNetToMediaEntryFreeInstance 100028c8 f   snmp_mibii:ipnettomediaentry.obj
+ 0001:000018cc       ntohIPRouteEntry           100028cc f   snmp_mibii:iprouteentry.obj
+ 0001:00001904       GetIpRouteEntryList        10002904 f   snmp_mibii:iprouteentry.obj
+ 0001:000019b8       findroutedest              100029b8 f   snmp_mibii:iprouteentry.obj
+ 0001:00001aec       GetIpRouteDest             10002aec f   snmp_mibii:iprouteentry.obj
+ 0001:00001b1c       GetIpRouteIfIndex          10002b1c f   snmp_mibii:iprouteentry.obj
+ 0001:00001b4c       GetIpRouteMetric1          10002b4c f   snmp_mibii:iprouteentry.obj
+ 0001:00001b7c       GetIpRouteMetric2          10002b7c f   snmp_mibii:iprouteentry.obj
+ 0001:00001bac       GetIpRouteMetric3          10002bac f   snmp_mibii:iprouteentry.obj
+ 0001:00001bdc       GetIpRouteMetric4          10002bdc f   snmp_mibii:iprouteentry.obj
+ 0001:00001c0c       GetIpRouteNextHop          10002c0c f   snmp_mibii:iprouteentry.obj
+ 0001:00001c3c       GetIpRouteType             10002c3c f   snmp_mibii:iprouteentry.obj
+ 0001:00001c6c       GetIpRouteProto            10002c6c f   snmp_mibii:iprouteentry.obj
+ 0001:00001c9c       GetIpRouteAge              10002c9c f   snmp_mibii:iprouteentry.obj
+ 0001:00001ccc       GetIpRouteMask             10002ccc f   snmp_mibii:iprouteentry.obj
+ 0001:00001cfc       GetIpRouteMetric5          10002cfc f   snmp_mibii:iprouteentry.obj
+ 0001:00001d2c       GetIpRouteInfo             10002d2c f   snmp_mibii:iprouteentry.obj
+ 0001:00001d4c       SetIpRouteDest             10002d4c f   snmp_mibii:iprouteentry.obj
+ 0001:00001dbc       SetIpRouteIfIndex          10002dbc f   snmp_mibii:iprouteentry.obj
+ 0001:00001e2c       SetIpRouteMetric1          10002e2c f   snmp_mibii:iprouteentry.obj
+ 0001:00001e9c       SetIpRouteMetric2          10002e9c f   snmp_mibii:iprouteentry.obj
+ 0001:00001f0c       SetIpRouteMetric3          10002f0c f   snmp_mibii:iprouteentry.obj
+ 0001:00001f7c       SetIpRouteMetric4          10002f7c f   snmp_mibii:iprouteentry.obj
+ 0001:00001fec       SetIpRouteNextHop          10002fec f   snmp_mibii:iprouteentry.obj
+ 0001:0000205c       SetIpRouteType             1000305c f   snmp_mibii:iprouteentry.obj
+ 0001:000020cc       SetIpRouteAge              100030cc f   snmp_mibii:iprouteentry.obj
+ 0001:0000213c       SetIpRouteMask             1000313c f   snmp_mibii:iprouteentry.obj
+ 0001:000021ac       SetIpRouteMetric5          100031ac f   snmp_mibii:iprouteentry.obj
+ 0001:0000221c       IpRouteEntryFindInstance   1000321c f   snmp_mibii:iprouteentry.obj
+ 0001:00002228       IpRouteEntryFindNextInstance 10003228 f   snmp_mibii:iprouteentry.obj
+ 0001:00002230       IpRouteEntryConvertInstance 10003230 f   snmp_mibii:iprouteentry.obj
+ 0001:0000223c       IpRouteEntryFreeInstance   1000323c f   snmp_mibii:iprouteentry.obj
+ 0001:00002240       GetIpAddrEntryTable        10003240 f   snmp_mibii:ipaddrentry.obj
+ 0001:000022d0       ipaddrtoinst               100032d0 f   snmp_mibii:ipaddrentry.obj
+ 0001:000022ec       findipaddrentry            100032ec f   snmp_mibii:ipaddrentry.obj
+ 0001:00002430       GetIpAdEntAddr             10003430 f   snmp_mibii:ipaddrentry.obj
+ 0001:00002460       GetIpAdEntIfIndex          10003460 f   snmp_mibii:ipaddrentry.obj
+ 0001:00002490       GetIpAdEntNetMask          10003490 f   snmp_mibii:ipaddrentry.obj
+ 0001:000024c0       GetIpAdEntBcastAddr        100034c0 f   snmp_mibii:ipaddrentry.obj
+ 0001:000024f4       GetIpAdEntReasmMaxSize     100034f4 f   snmp_mibii:ipaddrentry.obj
+ 0001:00002524       IpAddrEntryFindInstance    10003524 f   snmp_mibii:ipaddrentry.obj
+ 0001:00002530       IpAddrEntryFindNextInstance 10003530 f   snmp_mibii:ipaddrentry.obj
+ 0001:00002538       IpAddrEntryConvertInstance 10003538 f   snmp_mibii:ipaddrentry.obj
+ 0001:00002544       IpAddrEntryFreeInstance    10003544 f   snmp_mibii:ipaddrentry.obj
+ 0001:00002550       GetAtIfIndex               10003550 f   snmp_mibii:at.obj
+ 0001:000025a4       GetAtPhysAddress           100035a4 f   snmp_mibii:at.obj
+ 0001:00002628       GetAtNetAddress            10003628 f   snmp_mibii:at.obj
+ 0001:0000267c       SetAtIfIndex               1000367c f   snmp_mibii:at.obj
+ 0001:000026ec       SetAtPhysAddress           100036ec f   snmp_mibii:at.obj
+ 0001:0000276c       SetAtNetAddress            1000376c f   snmp_mibii:at.obj
+ 0001:000027d4       AtEntryFindInstance        100037d4 f   snmp_mibii:at.obj
+ 0001:000027f8       AtEntryFindNextInstance    100037f8 f   snmp_mibii:at.obj
+ 0001:00002800       AtEntryConvertInstance     10003800 f   snmp_mibii:at.obj
+ 0001:0000280c       AtEntryFreeInstance        1000380c f   snmp_mibii:at.obj
+ 0001:00002814       getIfRow                   10003814 f   snmp_mibii:interfaces.obj
+ 0001:000028d0       getIfRowDwordAttribute     100038d0 f   snmp_mibii:interfaces.obj
+ 0001:0000291c       GetIfNumber                1000391c f   snmp_mibii:interfaces.obj
+ 0001:00002960       GetIfIndex                 10003960 f   snmp_mibii:interfaces.obj
+ 0001:000029c4       GetIfDescr                 100039c4 f   snmp_mibii:interfaces.obj
+ 0001:00002a44       GetIfType                  10003a44 f   snmp_mibii:interfaces.obj
+ 0001:00002a60       GetIfMtu                   10003a60 f   snmp_mibii:interfaces.obj
+ 0001:00002a7c       GetIfSpeed                 10003a7c f   snmp_mibii:interfaces.obj
+ 0001:00002aa0       GetIfPhysAddress           10003aa0 f   snmp_mibii:interfaces.obj
+ 0001:00002b28       GetIfAdminStatus           10003b28 f   snmp_mibii:interfaces.obj
+ 0001:00002b98       GetIfOperStatus            10003b98 f   snmp_mibii:interfaces.obj
+ 0001:00002c00       GetIfLastChange            10003c00 f   snmp_mibii:interfaces.obj
+ 0001:00002c1c       GetIfInOctets              10003c1c f   snmp_mibii:interfaces.obj
+ 0001:00002c38       GetIfInUcastPkts           10003c38 f   snmp_mibii:interfaces.obj
+ 0001:00002c54       GetIfInNUcastPkts          10003c54 f   snmp_mibii:interfaces.obj
+ 0001:00002c70       GetIfInDiscards            10003c70 f   snmp_mibii:interfaces.obj
+ 0001:00002c8c       GetIfInErrors              10003c8c f   snmp_mibii:interfaces.obj
+ 0001:00002ca8       GetIfInUnknownProtos       10003ca8 f   snmp_mibii:interfaces.obj
+ 0001:00002cc4       GetIfOutOctets             10003cc4 f   snmp_mibii:interfaces.obj
+ 0001:00002ce0       GetIfOutUcastPkts          10003ce0 f   snmp_mibii:interfaces.obj
+ 0001:00002cfc       GetIfOutNUcastPkts         10003cfc f   snmp_mibii:interfaces.obj
+ 0001:00002d18       GetIfOutDiscards           10003d18 f   snmp_mibii:interfaces.obj
+ 0001:00002d34       GetIfOutErrors             10003d34 f   snmp_mibii:interfaces.obj
+ 0001:00002d50       GetIfOutQLen               10003d50 f   snmp_mibii:interfaces.obj
+ 0001:00002d6c       GetIfSpecific              10003d6c f   snmp_mibii:interfaces.obj
+ 0001:00002d8c       SetIfAdminStatus           10003d8c f   snmp_mibii:interfaces.obj
+ 0001:00002d94       findifentrybyindex         10003d94 f   snmp_mibii:interfaces.obj
+ 0001:00002dfc       findfirstifentry           10003dfc f   snmp_mibii:interfaces.obj
+ 0001:00002e44       IfEntryFindInstance        10003e44 f   snmp_mibii:interfaces.obj
+ 0001:00002e6c       IfEntryFindNextInstance    10003e6c f   snmp_mibii:interfaces.obj
+ 0001:00002eb8       IfEntryConvertInstance     10003eb8 f   snmp_mibii:interfaces.obj
+ 0001:00002ef8       IfEntryFreeInstance        10003ef8 f   snmp_mibii:interfaces.obj
+ 0001:00002f00       GetRegistryValue           10003f00 f   snmp_mibii:system.obj
+ 0001:00002f84       GetRegistryIntegerValue    10003f84 f   snmp_mibii:system.obj
+ 0001:00002ff4       GetRegistryDisplayStringValue 10003ff4 f   snmp_mibii:system.obj
+ 0001:000030ec       GetRegistryOIDValue        100040ec f   snmp_mibii:system.obj
+ 0001:000031fc       GetSysDescr                100041fc f   snmp_mibii:system.obj
+ 0001:000032d0       GetSysObjectID             100042d0 f   snmp_mibii:system.obj
+ 0001:00003338       GetSysUpTime               10004338 f   snmp_mibii:system.obj
+ 0001:00003350       GetSysContact              10004350 f   snmp_mibii:system.obj
+ 0001:00003364       GetSysName                 10004364 f   snmp_mibii:system.obj
+ 0001:00003378       GetSysLocation             10004378 f   snmp_mibii:system.obj
+ 0001:0000338c       GetSysServices             1000438c f   snmp_mibii:system.obj
+ 0001:000033c4       SetRegistryDisplayStringValue 100043c4 f   snmp_mibii:system.obj
+ 0001:000034a4       SetSysContact              100044a4 f   snmp_mibii:system.obj
+ 0001:000034b8       SetSysName                 100044b8 f   snmp_mibii:system.obj
+ 0001:000034cc       SetSysLocation             100044cc f   snmp_mibii:system.obj
+ 0001:000034e0       SysOREntryFindInstance     100044e0 f   snmp_mibii:system.obj
+ 0001:0000354c       SysOREntryFindNextInstance 1000454c f   snmp_mibii:system.obj
+ 0001:000035c8       SysOREntryConvertInstance  100045c8 f   snmp_mibii:system.obj
+ 0001:000035fc       SysOREntryFreeInstance     100045fc f   snmp_mibii:system.obj
+ 0001:00003600       GetSysORLastChange         10004600 f   snmp_mibii:system.obj
+ 0001:00003634       GetSysORID                 10004634 f   snmp_mibii:system.obj
+ 0001:000036b8       GetSysORDescr              100046b8 f   snmp_mibii:system.obj
+ 0001:00003764       GetSysORUpTime             10004764 f   snmp_mibii:system.obj
+ 0001:000037d0       GetSnmpInPkts              100047d0 f   snmp_mibii:snmp.obj
+ 0001:00003804       GetSnmpOutPkts             10004804 f   snmp_mibii:snmp.obj
+ 0001:00003838       GetSnmpInBadVersions       10004838 f   snmp_mibii:snmp.obj
+ 0001:0000386c       GetSnmpInBadCommunityNames 1000486c f   snmp_mibii:snmp.obj
+ 0001:000038a0       GetSnmpInBadCommunityUses  100048a0 f   snmp_mibii:snmp.obj
+ 0001:000038d4       GetSnmpInASNParseErrs      100048d4 f   snmp_mibii:snmp.obj
+ 0001:00003908       GetSnmpInTooBigs           10004908 f   snmp_mibii:snmp.obj
+ 0001:0000393c       GetSnmpInNoSuchNames       1000493c f   snmp_mibii:snmp.obj
+ 0001:00003970       GetSnmpInBadValues         10004970 f   snmp_mibii:snmp.obj
+ 0001:000039a4       GetSnmpInReadOnlys         100049a4 f   snmp_mibii:snmp.obj
+ 0001:000039d8       GetSnmpInGenErrs           100049d8 f   snmp_mibii:snmp.obj
+ 0001:00003a0c       GetSnmpInTotalReqVars      10004a0c f   snmp_mibii:snmp.obj
+ 0001:00003a40       GetSnmpInTotalSetVars      10004a40 f   snmp_mibii:snmp.obj
+ 0001:00003a74       GetSnmpInGetRequests       10004a74 f   snmp_mibii:snmp.obj
+ 0001:00003aa8       GetSnmpInGetResponses      10004aa8 f   snmp_mibii:snmp.obj
+ 0001:00003adc       GetSnmpInGetNexts          10004adc f   snmp_mibii:snmp.obj
+ 0001:00003b10       GetSnmpInSetRequests       10004b10 f   snmp_mibii:snmp.obj
+ 0001:00003b44       GetSnmpInTraps             10004b44 f   snmp_mibii:snmp.obj
+ 0001:00003b78       GetSnmpOutTooBigs          10004b78 f   snmp_mibii:snmp.obj
+ 0001:00003bac       GetSnmpOutNoSuchNames      10004bac f   snmp_mibii:snmp.obj
+ 0001:00003be0       GetSnmpOutBadValues        10004be0 f   snmp_mibii:snmp.obj
+ 0001:00003c14       GetSnmpOutGenErrs          10004c14 f   snmp_mibii:snmp.obj
+ 0001:00003c48       GetSnmpOutGetRequests      10004c48 f   snmp_mibii:snmp.obj
+ 0001:00003c7c       GetSnmpOutGetNexts         10004c7c f   snmp_mibii:snmp.obj
+ 0001:00003cb0       GetSnmpOutSetRequests      10004cb0 f   snmp_mibii:snmp.obj
+ 0001:00003ce4       GetSnmpOutGetResponses     10004ce4 f   snmp_mibii:snmp.obj
+ 0001:00003d18       GetSnmpOutTraps            10004d18 f   snmp_mibii:snmp.obj
+ 0001:00003d4c       GetSnmpEnableAuthenTraps   10004d4c f   snmp_mibii:snmp.obj
+ 0001:00003d90       GetSnmpSilentDrops         10004d90 f   snmp_mibii:snmp.obj
+ 0001:00003dc4       GetSnmpProxyDrops          10004dc4 f   snmp_mibii:snmp.obj
+ 0001:00003df8       GetIcmpCounterValue        10004df8 f   snmp_mibii:icmp.obj
+ 0001:00003e34       GetIcmpInMsgs              10004e34 f   snmp_mibii:icmp.obj
+ 0001:00003e3c       GetIcmpInErrors            10004e3c f   snmp_mibii:icmp.obj
+ 0001:00003e44       GetIcmpInDestUnreachs      10004e44 f   snmp_mibii:icmp.obj
+ 0001:00003e4c       GetIcmpInTimeExcds         10004e4c f   snmp_mibii:icmp.obj
+ 0001:00003e54       GetIcmpInParmProbs         10004e54 f   snmp_mibii:icmp.obj
+ 0001:00003e5c       GetIcmpInSrcQuenchs        10004e5c f   snmp_mibii:icmp.obj
+ 0001:00003e64       GetIcmpInRedirects         10004e64 f   snmp_mibii:icmp.obj
+ 0001:00003e6c       GetIcmpInEchos             10004e6c f   snmp_mibii:icmp.obj
+ 0001:00003e74       GetIcmpInEchoReps          10004e74 f   snmp_mibii:icmp.obj
+ 0001:00003e7c       GetIcmpInTimestamps        10004e7c f   snmp_mibii:icmp.obj
+ 0001:00003e84       GetIcmpInTimestampReps     10004e84 f   snmp_mibii:icmp.obj
+ 0001:00003e8c       GetIcmpInAddrMasks         10004e8c f   snmp_mibii:icmp.obj
+ 0001:00003e94       GetIcmpInAddrMaskReps      10004e94 f   snmp_mibii:icmp.obj
+ 0001:00003e9c       GetIcmpOutMsgs             10004e9c f   snmp_mibii:icmp.obj
+ 0001:00003ea4       GetIcmpOutErrors           10004ea4 f   snmp_mibii:icmp.obj
+ 0001:00003eac       GetIcmpOutDestUnreachs     10004eac f   snmp_mibii:icmp.obj
+ 0001:00003eb4       GetIcmpOutTimeExcds        10004eb4 f   snmp_mibii:icmp.obj
+ 0001:00003ebc       GetIcmpOutParmProbs        10004ebc f   snmp_mibii:icmp.obj
+ 0001:00003ec4       GetIcmpOutSrcQuenchs       10004ec4 f   snmp_mibii:icmp.obj
+ 0001:00003ecc       GetIcmpOutRedirects        10004ecc f   snmp_mibii:icmp.obj
+ 0001:00003ed4       GetIcmpOutEchos            10004ed4 f   snmp_mibii:icmp.obj
+ 0001:00003edc       GetIcmpOutEchoReps         10004edc f   snmp_mibii:icmp.obj
+ 0001:00003ee4       GetIcmpOutTimestamps       10004ee4 f   snmp_mibii:icmp.obj
+ 0001:00003eec       GetIcmpOutTimestampReps    10004eec f   snmp_mibii:icmp.obj
+ 0001:00003ef4       GetIcmpOutAddrMasks        10004ef4 f   snmp_mibii:icmp.obj
+ 0001:00003efc       IPAddressToSubIds          10004efc f   snmp_mibii:ip.obj
+ 0001:00003f1c       getipsnmpinfo              10004f1c f   snmp_mibii:ip.obj
+ 0001:00003f34       GetIpForwarding            10004f34 f   snmp_mibii:ip.obj
+ 0001:00003f68       GetIpDefaultTTL            10004f68 f   snmp_mibii:ip.obj
+ 0001:00003f9c       GetIpInReceives            10004f9c f   snmp_mibii:ip.obj
+ 0001:00003fd0       GetIpInHdrErrors           10004fd0 f   snmp_mibii:ip.obj
+ 0001:00004004       GetIpInAddrErrors          10005004 f   snmp_mibii:ip.obj
+ 0001:00004038       GetIpForwDatagrams         10005038 f   snmp_mibii:ip.obj
+ 0001:0000406c       GetIpInUnknownProtos       1000506c f   snmp_mibii:ip.obj
+ 0001:000040a0       GetIpInDiscards            100050a0 f   snmp_mibii:ip.obj
+ 0001:000040d4       GetIpInDelivers            100050d4 f   snmp_mibii:ip.obj
+ 0001:00004108       GetIpOutRequests           10005108 f   snmp_mibii:ip.obj
+ 0001:0000413c       GetIpOutDiscards           1000513c f   snmp_mibii:ip.obj
+ 0001:00004170       GetIpOutNoRoutes           10005170 f   snmp_mibii:ip.obj
+ 0001:000041a4       GetIpReasmReqds            100051a4 f   snmp_mibii:ip.obj
+ 0001:000041d8       GetIpReasmOKs              100051d8 f   snmp_mibii:ip.obj
+ 0001:0000420c       GetIpReasmTimeout          1000520c f   snmp_mibii:ip.obj
+ 0001:00004240       GetIpReasmFails            10005240 f   snmp_mibii:ip.obj
+ 0001:00004274       GetIpFragOKs               10005274 f   snmp_mibii:ip.obj
+ 0001:000042a8       GetIpFragFails             100052a8 f   snmp_mibii:ip.obj
+ 0001:000042dc       GetIpFragCreates           100052dc f   snmp_mibii:ip.obj
+ 0001:00004310       GetIpRoutingDiscards       10005310 f   snmp_mibii:ip.obj
+ 0001:00004344       SetIpForwarding            10005344 f   snmp_mibii:ip.obj
+ 0001:000043c0       SetIpDefaultTTL            100053c0 f   snmp_mibii:ip.obj
+ 0001:000043c8       IsValidDisplayString       100053c8 f   snmp_mibii:smint.obj
+ 0001:0000443c       SMIGetInteger              1000543c f   snmp_mibii:smint.obj
+ 0001:00004484       SMIGetOctetString          10005484 f   snmp_mibii:smint.obj
+ 0001:000044cc       SMIGetObjectId             100054cc f   snmp_mibii:smint.obj
+ 0001:00004514       SMIGetCounter              10005514 f   snmp_mibii:smint.obj
+ 0001:0000455c       SMIGetGauge                1000555c f   snmp_mibii:smint.obj
+ 0001:000045a4       SMIGetTimeTicks            100055a4 f   snmp_mibii:smint.obj
+ 0001:000045ec       SMIGetIpAddress            100055ec f   snmp_mibii:smint.obj
+ 0001:00004690       SMIGetDispString           10005690 f   snmp_mibii:smint.obj
+ 0001:000046d8       SMISetInteger              100056d8 f   snmp_mibii:smint.obj
+ 0001:00004710       SMISetOctetString          10005710 f   snmp_mibii:smint.obj
+ 0001:00004748       SMISetObjectId             10005748 f   snmp_mibii:smint.obj
+ 0001:00004780       SMISetCounter              10005780 f   snmp_mibii:smint.obj
+ 0001:000047b8       SMISetGauge                100057b8 f   snmp_mibii:smint.obj
+ 0001:000047f0       SMISetTimeTicks            100057f0 f   snmp_mibii:smint.obj
+ 0001:00004828       SMISetIpAddress            10005828 f   snmp_mibii:smint.obj
+ 0001:0000489c       SMISetDispString           1000589c f   snmp_mibii:smint.obj
+ 0001:000048fc       ntohs                      100058fc f   ws2:WS2.dll
+ 0001:0000490c       ntohl                      1000590c f   ws2:WS2.dll
+ 0001:0000491c       SnmpUtilOidCpy             1000591c f   snmpapi:snmpapi.dll
+ 0001:0000492c       SnmpUtilOidFree            1000592c f   snmpapi:snmpapi.dll
+ 0001:0000493c       SnmpUtilOidNCmp            1000593c f   snmpapi:snmpapi.dll
+ 0001:0000494c       SnmpUtilOidAppend          1000594c f   snmpapi:snmpapi.dll
+ 0001:0000495c       SnmpUtilMemAlloc           1000595c f   snmpapi:snmpapi.dll
+ 0001:0000496c       SnmpUtilMemFree            1000596c f   snmpapi:snmpapi.dll
+ 0001:0000497c       SnmpUtilOidCmp             1000597c f   snmpapi:snmpapi.dll
+ 0001:0000498c       SnmpSvcGetEnterpriseOID    1000598c f   snmpapi:snmpapi.dll
+ 0001:0000499c       SnmpSvcGetUptime           1000599c f   snmpapi:snmpapi.dll
+ 0001:000049ac       GetUdpStatistics           100059ac f   iphlpapi:iphlpapi.dll
+ 0001:000049bc       GetUdpTable                100059bc f   iphlpapi:iphlpapi.dll
+ 0001:000049cc       GetTcpStatistics           100059cc f   iphlpapi:iphlpapi.dll
+ 0001:000049dc       GetTcpTable                100059dc f   iphlpapi:iphlpapi.dll
+ 0001:000049ec       SetIpNetEntry              100059ec f   iphlpapi:iphlpapi.dll
+ 0001:000049fc       GetIpNetTable              100059fc f   iphlpapi:iphlpapi.dll
+ 0001:00004a0c       GetIpForwardTable          10005a0c f   iphlpapi:iphlpapi.dll
+ 0001:00004a1c       SetIpForwardEntry          10005a1c f   iphlpapi:iphlpapi.dll
+ 0001:00004a2c       GetIpAddrTable             10005a2c f   iphlpapi:iphlpapi.dll
+ 0001:00004a3c       GetIfTable                 10005a3c f   iphlpapi:iphlpapi.dll
+ 0001:00004a4c       GetNumberOfInterfaces      10005a4c f   iphlpapi:iphlpapi.dll
+ 0001:00004a5c       GetIcmpStatistics          10005a5c f   iphlpapi:iphlpapi.dll
+ 0001:00004a6c       GetIpStatistics            10005a6c f   iphlpapi:iphlpapi.dll
+ 0001:00004a7c       SetIpStatistics            10005a7c f   iphlpapi:iphlpapi.dll
+ 0001:00004a8c       DisableThreadLibraryCalls  10005a8c f   coredll:COREDLL.dll
+ 0001:00004a9c       GetProcAddressW            10005a9c f   coredll:COREDLL.dll
+ 0001:00004aac       GetModuleHandleW           10005aac f   coredll:COREDLL.dll
+ 0001:00004abc       LocalAlloc                 10005abc f   coredll:COREDLL.dll
+ 0001:00004acc       LocalFree                  10005acc f   coredll:COREDLL.dll
+ 0001:00004adc       RegCloseKey                10005adc f   coredll:COREDLL.dll
+ 0001:00004aec       RegQueryValueExW           10005aec f   coredll:COREDLL.dll
+ 0001:00004afc       RegOpenKeyExW              10005afc f   coredll:COREDLL.dll
+ 0001:00004b0c       WideCharToMultiByte        10005b0c f   coredll:COREDLL.dll
+ 0001:00004b1c       StringCbPrintfA            10005b1c f   coredll:COREDLL.dll
+ 0001:00004b2c       GetVersionExW              10005b2c f   coredll:COREDLL.dll
+ 0001:00004b3c       RegSetValueExW             10005b3c f   coredll:COREDLL.dll
+ 0001:00004b4c       MultiByteToWideChar        10005b4c f   coredll:COREDLL.dll
+ 0001:00004c54       _DllMainCRTStartup         10005c54 f   corelib0:pegdmain.obj
+ 0001:00004c80       __GSHandlerCheckCommon     10005c80 f   corelib0:gshandler.obj
+ 0001:00004cbc       __GSHandlerCheck           10005cbc f   corelib0:gshandler.obj
+ 0001:00004cdc       __security_init_cookie     10005cdc f   corelib0:seccinit.obj
+ 0001:00004d28       __security_check_cookie    10005d28 f   corelib0:armsecgs.obj
+ 0001:00004d38       __gsfailure                10005d38     corelib0:armsecgs.obj
+ 0001:00004e64       _cexit                     10005e64 f   corelib0:cexit.obj
+ 0001:00004e74       _initterm                  10005e74 f   corelib0:crt0dat.obj
+ 0001:00004ea0       _cinit                     10005ea0 f   corelib0:crt0dat.obj
+ 0001:00004f00       __crt_ExitProcess          10005f00 f   corelib0:exitproc_proxy.obj
+ 0001:00004f0c       memcpy                     10005f0c f   corelib1:COREDLL.dll
+ 0001:00004f1c       strlen                     10005f1c f   corelib1:COREDLL.dll
+ 0001:00004f2c       wcstoul                    10005f2c f   corelib1:COREDLL.dll
+ 0001:00004f3c       _XcptFilter                10005f3c f   corelib1:COREDLL.dll
+ 0001:00004f4c       __C_specific_handler       10005f4c f   corelib1:COREDLL.dll
+ 0001:00004f5c       __security_gen_cookie2     10005f5c f   corelib1:COREDLL.dll
+ 0001:00004f6c       __report_gsfailure         10005f6c f   corelib1:COREDLL.dll
+ 0001:00004f7c       free                       10005f7c f   corelib1:COREDLL.dll
+ 0001:00004f8c       DeleteCriticalSection      10005f8c f   coredll:COREDLL.dll
+ 0001:00004f9c       InterlockedExchange        10005f9c f   coredll:COREDLL.dll
+ 0001:00004fac       TerminateProcess           10005fac f   coredll:COREDLL.dll
+ 0001:00005030       __IMPORT_DESCRIPTOR_WS2    10006030     ws2:WS2.dll
+ 0001:00005044       __IMPORT_DESCRIPTOR_snmpapi 10006044     snmpapi:snmpapi.dll
+ 0001:00005058       __IMPORT_DESCRIPTOR_iphlpapi 10006058     iphlpapi:iphlpapi.dll
+ 0001:0000506c       __IMPORT_DESCRIPTOR_COREDLL 1000606c     coredll:COREDLL.dll
+ 0001:00005080       __NULL_IMPORT_DESCRIPTOR   10006080     ws2:WS2.dll
+ 0002:00000000       __imp_GetModuleHandleW     10007000     coredll:COREDLL.dll
+ 0002:00000004       __imp_TerminateProcess     10007004     coredll:COREDLL.dll
+ 0002:00000008       __imp_InterlockedExchange  10007008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_DeleteCriticalSection 1000700c     coredll:COREDLL.dll
+ 0002:00000010       __imp_free                 10007010     corelib1:COREDLL.dll
+ 0002:00000014       __imp___report_gsfailure   10007014     corelib1:COREDLL.dll
+ 0002:00000018       __imp___security_gen_cookie2 10007018     corelib1:COREDLL.dll
+ 0002:0000001c       __imp___C_specific_handler 1000701c     corelib1:COREDLL.dll
+ 0002:00000020       __imp__XcptFilter          10007020     corelib1:COREDLL.dll
+ 0002:00000024       __imp_wcstoul              10007024     corelib1:COREDLL.dll
+ 0002:00000028       __imp_strlen               10007028     corelib1:COREDLL.dll
+ 0002:0000002c       __imp_memcpy               1000702c     corelib1:COREDLL.dll
+ 0002:00000030       __imp_MultiByteToWideChar  10007030     coredll:COREDLL.dll
+ 0002:00000034       __imp_RegSetValueExW       10007034     coredll:COREDLL.dll
+ 0002:00000038       __imp_GetVersionExW        10007038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_StringCbPrintfA      1000703c     coredll:COREDLL.dll
+ 0002:00000040       __imp_WideCharToMultiByte  10007040     coredll:COREDLL.dll
+ 0002:00000044       __imp_RegOpenKeyExW        10007044     coredll:COREDLL.dll
+ 0002:00000048       __imp_RegQueryValueExW     10007048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_RegCloseKey          1000704c     coredll:COREDLL.dll
+ 0002:00000050       __imp_LocalFree            10007050     coredll:COREDLL.dll
+ 0002:00000054       __imp_DisableThreadLibraryCalls 10007054     coredll:COREDLL.dll
+ 0002:00000058       __imp_GetProcAddressW      10007058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_LocalAlloc           1000705c     coredll:COREDLL.dll
+ 0002:00000060       \177COREDLL_NULL_THUNK_DATA 10007060     coredll:COREDLL.dll
+ 0002:00000064       __imp_ntohs                10007064     ws2:WS2.dll
+ 0002:00000068       __imp_ntohl                10007068     ws2:WS2.dll
+ 0002:0000006c       \177WS2_NULL_THUNK_DATA    1000706c     ws2:WS2.dll
+ 0002:00000070       __imp_GetIcmpStatistics    10007070     iphlpapi:iphlpapi.dll
+ 0002:00000074       __imp_GetNumberOfInterfaces 10007074     iphlpapi:iphlpapi.dll
+ 0002:00000078       __imp_GetIfTable           10007078     iphlpapi:iphlpapi.dll
+ 0002:0000007c       __imp_GetIpAddrTable       1000707c     iphlpapi:iphlpapi.dll
+ 0002:00000080       __imp_SetIpForwardEntry    10007080     iphlpapi:iphlpapi.dll
+ 0002:00000084       __imp_GetIpStatistics      10007084     iphlpapi:iphlpapi.dll
+ 0002:00000088       __imp_GetIpNetTable        10007088     iphlpapi:iphlpapi.dll
+ 0002:0000008c       __imp_SetIpNetEntry        1000708c     iphlpapi:iphlpapi.dll
+ 0002:00000090       __imp_GetTcpTable          10007090     iphlpapi:iphlpapi.dll
+ 0002:00000094       __imp_GetTcpStatistics     10007094     iphlpapi:iphlpapi.dll
+ 0002:00000098       __imp_GetUdpTable          10007098     iphlpapi:iphlpapi.dll
+ 0002:0000009c       __imp_GetUdpStatistics     1000709c     iphlpapi:iphlpapi.dll
+ 0002:000000a0       __imp_SetIpStatistics      100070a0     iphlpapi:iphlpapi.dll
+ 0002:000000a4       __imp_GetIpForwardTable    100070a4     iphlpapi:iphlpapi.dll
+ 0002:000000a8       \177iphlpapi_NULL_THUNK_DATA 100070a8     iphlpapi:iphlpapi.dll
+ 0002:000000ac       __imp_SnmpUtilOidCmp       100070ac     snmpapi:snmpapi.dll
+ 0002:000000b0       __imp_SnmpUtilMemFree      100070b0     snmpapi:snmpapi.dll
+ 0002:000000b4       __imp_SnmpUtilMemAlloc     100070b4     snmpapi:snmpapi.dll
+ 0002:000000b8       __imp_SnmpUtilOidAppend    100070b8     snmpapi:snmpapi.dll
+ 0002:000000bc       __imp_SnmpUtilOidNCmp      100070bc     snmpapi:snmpapi.dll
+ 0002:000000c0       __imp_SnmpUtilOidFree      100070c0     snmpapi:snmpapi.dll
+ 0002:000000c4       __imp_SnmpUtilOidCpy       100070c4     snmpapi:snmpapi.dll
+ 0002:000000c8       __imp_SnmpSvcGetUptime     100070c8     snmpapi:snmpapi.dll
+ 0002:000000cc       __imp_SnmpSvcGetEnterpriseOID 100070cc     snmpapi:snmpapi.dll
+ 0002:000000d0       \177snmpapi_NULL_THUNK_DATA 100070d0     snmpapi:snmpapi.dll
+ 0002:000000d8       zero_oid                   100070d8     snmp_mibii:mib.obj
+ 0002:000000fc       Subroot_oid                100070fc     snmp_mibii:mib.obj
+ 0002:00000120       system_oid                 10007120     snmp_mibii:mib.obj
+ 0002:00000144       interfaces_oid             10007144     snmp_mibii:mib.obj
+ 0002:00000168       at_oid                     10007168     snmp_mibii:mib.obj
+ 0002:0000018c       ip_oid                     1000718c     snmp_mibii:mib.obj
+ 0002:000001b0       icmp_oid                   100071b0     snmp_mibii:mib.obj
+ 0002:000001d4       tcp_oid                    100071d4     snmp_mibii:mib.obj
+ 0002:000001f8       udp_oid                    100071f8     snmp_mibii:mib.obj
+ 0002:0000021c       egp_oid                    1000721c     snmp_mibii:mib.obj
+ 0002:00000240       transmission_oid           10007240     snmp_mibii:mib.obj
+ 0002:00000264       snmp_oid                   10007264     snmp_mibii:mib.obj
+ 0002:0000026c       g_pSupportedViews          1000726c     snmp_mibii:mib.obj
+ 0002:0000028c       g_dwViewsLeftToLoad        1000728c     snmp_mibii:mib.obj
+ 0002:000002b0       sysDescr_oid               100072b0     snmp_mibii:mib.obj
+ 0002:000002d8       sysObjectID_oid            100072d8     snmp_mibii:mib.obj
+ 0002:00000300       sysUpTime_oid              10007300     snmp_mibii:mib.obj
+ 0002:00000328       sysContact_oid             10007328     snmp_mibii:mib.obj
+ 0002:00000350       sysName_oid                10007350     snmp_mibii:mib.obj
+ 0002:00000378       sysLocation_oid            10007378     snmp_mibii:mib.obj
+ 0002:000003a0       sysServices_oid            100073a0     snmp_mibii:mib.obj
+ 0002:000003c8       sysORLastChange_oid        100073c8     snmp_mibii:mib.obj
+ 0002:000003f4       sysOREntry_oid             100073f4     snmp_mibii:mib.obj
+ 0002:00000424       sysORID_oid                10007424     snmp_mibii:mib.obj
+ 0002:00000454       sysORDescr_oid             10007454     snmp_mibii:mib.obj
+ 0002:00000484       sysORUpTime_oid            10007484     snmp_mibii:mib.obj
+ 0002:000004b0       sysOREntry_var_table       100074b0     snmp_mibii:mib.obj
+ 0002:00000560       system_var_table           10007560     snmp_mibii:mib.obj
+ 0002:0000067c       ifNumber_oid               1000767c     snmp_mibii:mib.obj
+ 0002:000006ac       ifIndex_oid                100076ac     snmp_mibii:mib.obj
+ 0002:000006dc       ifDescr_oid                100076dc     snmp_mibii:mib.obj
+ 0002:0000070c       ifType_oid                 1000770c     snmp_mibii:mib.obj
+ 0002:0000073c       ifMtu_oid                  1000773c     snmp_mibii:mib.obj
+ 0002:0000076c       ifSpeed_oid                1000776c     snmp_mibii:mib.obj
+ 0002:0000079c       ifPhysAddress_oid          1000779c     snmp_mibii:mib.obj
+ 0002:000007cc       ifAdminStatus_oid          100077cc     snmp_mibii:mib.obj
+ 0002:000007fc       ifOperStatus_oid           100077fc     snmp_mibii:mib.obj
+ 0002:0000082c       ifLastChange_oid           1000782c     snmp_mibii:mib.obj
+ 0002:0000085c       ifInOctets_oid             1000785c     snmp_mibii:mib.obj
+ 0002:0000088c       ifInUcastPkts_oid          1000788c     snmp_mibii:mib.obj
+ 0002:000008bc       ifInNUcastPkts_oid         100078bc     snmp_mibii:mib.obj
+ 0002:000008ec       ifInDiscards_oid           100078ec     snmp_mibii:mib.obj
+ 0002:0000091c       ifInErrors_oid             1000791c     snmp_mibii:mib.obj
+ 0002:0000094c       ifInUnknownProtos_oid      1000794c     snmp_mibii:mib.obj
+ 0002:0000097c       ifOutOctets_oid            1000797c     snmp_mibii:mib.obj
+ 0002:000009ac       ifOutUcastPkts_oid         100079ac     snmp_mibii:mib.obj
+ 0002:000009dc       ifOutNUcastPkts_oid        100079dc     snmp_mibii:mib.obj
+ 0002:00000a0c       ifOutDiscards_oid          10007a0c     snmp_mibii:mib.obj
+ 0002:00000a3c       ifOutErrors_oid            10007a3c     snmp_mibii:mib.obj
+ 0002:00000a6c       ifOutQLen_oid              10007a6c     snmp_mibii:mib.obj
+ 0002:00000a9c       ifSpecific_oid             10007a9c     snmp_mibii:mib.obj
+ 0002:00000aa4       ifEntry_oid                10007aa4     snmp_mibii:mib.obj
+ 0002:00000ad0       ifEntry_var_table          10007ad0     snmp_mibii:mib.obj
+ 0002:00000d78       interfaces_var_table       10007d78     snmp_mibii:mib.obj
+ 0002:00000df4       atIfIndex_oid              10007df4     snmp_mibii:mib.obj
+ 0002:00000e24       atPhysAddress_oid          10007e24     snmp_mibii:mib.obj
+ 0002:00000e54       atNetAddress_oid           10007e54     snmp_mibii:mib.obj
+ 0002:00000e5c       atEntry_oid                10007e5c     snmp_mibii:mib.obj
+ 0002:00000e88       atEntry_var_table          10007e88     snmp_mibii:mib.obj
+ 0002:00000ef8       at_var_table               10007ef8     snmp_mibii:mib.obj
+ 0002:00000f50       ipForwarding_oid           10007f50     snmp_mibii:mib.obj
+ 0002:00000f78       ipDefaultTTL_oid           10007f78     snmp_mibii:mib.obj
+ 0002:00000fa0       ipInReceives_oid           10007fa0     snmp_mibii:mib.obj
+ 0002:00000fc8       ipInHdrErrors_oid          10007fc8     snmp_mibii:mib.obj
+ 0002:00000ff0       ipInAddrErrors_oid         10007ff0     snmp_mibii:mib.obj
+ 0002:00001018       ipForwDatagrams_oid        10008018     snmp_mibii:mib.obj
+ 0002:00001040       ipInUnknownProtos_oid      10008040     snmp_mibii:mib.obj
+ 0002:00001068       ipInDiscards_oid           10008068     snmp_mibii:mib.obj
+ 0002:00001090       ipInDelivers_oid           10008090     snmp_mibii:mib.obj
+ 0002:000010b8       ipOutRequests_oid          100080b8     snmp_mibii:mib.obj
+ 0002:000010e0       ipOutDiscards_oid          100080e0     snmp_mibii:mib.obj
+ 0002:00001108       ipOutNoRoutes_oid          10008108     snmp_mibii:mib.obj
+ 0002:00001130       ipReasmTimeout_oid         10008130     snmp_mibii:mib.obj
+ 0002:00001158       ipReasmReqds_oid           10008158     snmp_mibii:mib.obj
+ 0002:00001180       ipReasmOKs_oid             10008180     snmp_mibii:mib.obj
+ 0002:000011a8       ipReasmFails_oid           100081a8     snmp_mibii:mib.obj
+ 0002:000011d0       ipFragOKs_oid              100081d0     snmp_mibii:mib.obj
+ 0002:000011f8       ipFragFails_oid            100081f8     snmp_mibii:mib.obj
+ 0002:00001220       ipFragCreates_oid          10008220     snmp_mibii:mib.obj
+ 0002:00001250       ipAdEntAddr_oid            10008250     snmp_mibii:mib.obj
+ 0002:00001280       ipAdEntIfIndex_oid         10008280     snmp_mibii:mib.obj
+ 0002:000012b0       ipAdEntNetMask_oid         100082b0     snmp_mibii:mib.obj
+ 0002:000012e0       ipAdEntBcastAddr_oid       100082e0     snmp_mibii:mib.obj
+ 0002:00001310       ipAdEntReasmMaxSize_oid    10008310     snmp_mibii:mib.obj
+ 0002:00001318       ipAddrEntry_oid            10008318     snmp_mibii:mib.obj
+ 0002:00001320       ipAddrEntry_var_table      10008320     snmp_mibii:mib.obj
+ 0002:000013c8       ipRouteEntry_oid           100083c8     snmp_mibii:mib.obj
+ 0002:000013f8       ipRouteDest_oid            100083f8     snmp_mibii:mib.obj
+ 0002:00001428       ipRouteIfIndex_oid         10008428     snmp_mibii:mib.obj
+ 0002:00001458       ipRouteMetric1_oid         10008458     snmp_mibii:mib.obj
+ 0002:00001488       ipRouteMetric2_oid         10008488     snmp_mibii:mib.obj
+ 0002:000014b8       ipRouteMetric3_oid         100084b8     snmp_mibii:mib.obj
+ 0002:000014e8       ipRouteMetric4_oid         100084e8     snmp_mibii:mib.obj
+ 0002:00001518       ipRouteNextHop_oid         10008518     snmp_mibii:mib.obj
+ 0002:00001548       ipRouteType_oid            10008548     snmp_mibii:mib.obj
+ 0002:00001578       ipRouteProto_oid           10008578     snmp_mibii:mib.obj
+ 0002:000015a8       ipRouteAge_oid             100085a8     snmp_mibii:mib.obj
+ 0002:000015d8       ipRouteMask_oid            100085d8     snmp_mibii:mib.obj
+ 0002:00001608       ipRouteMetric5_oid         10008608     snmp_mibii:mib.obj
+ 0002:00001638       ipRouteInfo_oid            10008638     snmp_mibii:mib.obj
+ 0002:00001640       ipRouteEntry_var_table     10008640     snmp_mibii:mib.obj
+ 0002:000017c8       ipNetToMediaEntry_oid      100087c8     snmp_mibii:mib.obj
+ 0002:000017f8       ipNetToMediaIfIndex_oid    100087f8     snmp_mibii:mib.obj
+ 0002:00001828       ipNetToMediaPhysAddress_oid 10008828     snmp_mibii:mib.obj
+ 0002:00001858       ipNetToMediaNetAddress_oid 10008858     snmp_mibii:mib.obj
+ 0002:00001888       ipNetToMediaType_oid       10008888     snmp_mibii:mib.obj
+ 0002:00001890       ipNetToMediaEntry_var_table 10008890     snmp_mibii:mib.obj
+ 0002:0000193c       ipRoutingDiscards_oid      1000893c     snmp_mibii:mib.obj
+ 0002:00001944       tcpConnEntry_array         10008944     snmp_mibii:mib.obj
+ 0002:00001968       ip_var_table               10008968     snmp_mibii:mib.obj
+ 0002:00001c08       icmpInMsgs_array           10008c08     snmp_mibii:mib.obj
+ 0002:00001c28       icmpInMsgs_oid             10008c28     snmp_mibii:mib.obj
+ 0002:00001c30       icmpInErrors_array         10008c30     snmp_mibii:mib.obj
+ 0002:00001c50       icmpInErrors_oid           10008c50     snmp_mibii:mib.obj
+ 0002:00001c58       icmpInDestUnreachs_array   10008c58     snmp_mibii:mib.obj
+ 0002:00001c78       icmpInDestUnreachs_oid     10008c78     snmp_mibii:mib.obj
+ 0002:00001c80       icmpInTimeExcds_array      10008c80     snmp_mibii:mib.obj
+ 0002:00001ca0       icmpInTimeExcds_oid        10008ca0     snmp_mibii:mib.obj
+ 0002:00001ca8       icmpInParmProbs_array      10008ca8     snmp_mibii:mib.obj
+ 0002:00001cc8       icmpInParmProbs_oid        10008cc8     snmp_mibii:mib.obj
+ 0002:00001cd0       icmpInSrcQuenchs_array     10008cd0     snmp_mibii:mib.obj
+ 0002:00001cf0       icmpInSrcQuenchs_oid       10008cf0     snmp_mibii:mib.obj
+ 0002:00001cf8       icmpInRedirects_array      10008cf8     snmp_mibii:mib.obj
+ 0002:00001d18       icmpInRedirects_oid        10008d18     snmp_mibii:mib.obj
+ 0002:00001d20       icmpInEchos_array          10008d20     snmp_mibii:mib.obj
+ 0002:00001d40       icmpInEchos_oid            10008d40     snmp_mibii:mib.obj
+ 0002:00001d48       icmpInEchoReps_array       10008d48     snmp_mibii:mib.obj
+ 0002:00001d68       icmpInEchoReps_oid         10008d68     snmp_mibii:mib.obj
+ 0002:00001d70       icmpInTimestamps_array     10008d70     snmp_mibii:mib.obj
+ 0002:00001d90       icmpInTimestamps_oid       10008d90     snmp_mibii:mib.obj
+ 0002:00001d98       icmpInTimestampReps_array  10008d98     snmp_mibii:mib.obj
+ 0002:00001db8       icmpInTimestampReps_oid    10008db8     snmp_mibii:mib.obj
+ 0002:00001dc0       icmpInAddrMasks_array      10008dc0     snmp_mibii:mib.obj
+ 0002:00001de0       icmpInAddrMasks_oid        10008de0     snmp_mibii:mib.obj
+ 0002:00001de8       icmpInAddrMaskReps_array   10008de8     snmp_mibii:mib.obj
+ 0002:00001e08       icmpInAddrMaskReps_oid     10008e08     snmp_mibii:mib.obj
+ 0002:00001e10       icmpOutMsgs_array          10008e10     snmp_mibii:mib.obj
+ 0002:00001e30       icmpOutMsgs_oid            10008e30     snmp_mibii:mib.obj
+ 0002:00001e38       icmpOutErrors_array        10008e38     snmp_mibii:mib.obj
+ 0002:00001e58       icmpOutErrors_oid          10008e58     snmp_mibii:mib.obj
+ 0002:00001e60       icmpOutDestUnreachs_array  10008e60     snmp_mibii:mib.obj
+ 0002:00001e80       icmpOutDestUnreachs_oid    10008e80     snmp_mibii:mib.obj
+ 0002:00001e88       icmpOutTimeExcds_array     10008e88     snmp_mibii:mib.obj
+ 0002:00001ea8       icmpOutTimeExcds_oid       10008ea8     snmp_mibii:mib.obj
+ 0002:00001eb0       icmpOutParmProbs_array     10008eb0     snmp_mibii:mib.obj
+ 0002:00001ed0       icmpOutParmProbs_oid       10008ed0     snmp_mibii:mib.obj
+ 0002:00001ed8       icmpOutSrcQuenchs_array    10008ed8     snmp_mibii:mib.obj
+ 0002:00001ef8       icmpOutSrcQuenchs_oid      10008ef8     snmp_mibii:mib.obj
+ 0002:00001f00       icmpOutRedirects_array     10008f00     snmp_mibii:mib.obj
+ 0002:00001f20       icmpOutRedirects_oid       10008f20     snmp_mibii:mib.obj
+ 0002:00001f28       icmpOutEchos_array         10008f28     snmp_mibii:mib.obj
+ 0002:00001f48       icmpOutEchos_oid           10008f48     snmp_mibii:mib.obj
+ 0002:00001f50       icmpOutEchoReps_array      10008f50     snmp_mibii:mib.obj
+ 0002:00001f70       icmpOutEchoReps_oid        10008f70     snmp_mibii:mib.obj
+ 0002:00001f78       icmpOutTimestamps_array    10008f78     snmp_mibii:mib.obj
+ 0002:00001f98       icmpOutTimestamps_oid      10008f98     snmp_mibii:mib.obj
+ 0002:00001fa0       icmpOutTimestampReps_array 10008fa0     snmp_mibii:mib.obj
+ 0002:00001fc0       icmpOutTimestampReps_oid   10008fc0     snmp_mibii:mib.obj
+ 0002:00001fc8       icmpOutAddrMasks_array     10008fc8     snmp_mibii:mib.obj
+ 0002:00001fe8       icmpOutAddrMasks_oid       10008fe8     snmp_mibii:mib.obj
+ 0002:00001ff0       icmpOutAddrMaskReps_array  10008ff0     snmp_mibii:mib.obj
+ 0002:00002010       icmpOutAddrMaskReps_oid    10009010     snmp_mibii:mib.obj
+ 0002:00002018       icmp_var_table             10009018     snmp_mibii:mib.obj
+ 0002:0000230c       tcpRtoAlgorithm_array      1000930c     snmp_mibii:mib.obj
+ 0002:0000232c       tcpRtoAlgorithm_oid        1000932c     snmp_mibii:mib.obj
+ 0002:00002334       tcpRtoMin_array            10009334     snmp_mibii:mib.obj
+ 0002:00002354       tcpRtoMin_oid              10009354     snmp_mibii:mib.obj
+ 0002:0000235c       tcpRtoMax_array            1000935c     snmp_mibii:mib.obj
+ 0002:0000237c       tcpRtoMax_oid              1000937c     snmp_mibii:mib.obj
+ 0002:00002384       tcpMaxConn_array           10009384     snmp_mibii:mib.obj
+ 0002:000023a4       tcpMaxConn_oid             100093a4     snmp_mibii:mib.obj
+ 0002:000023ac       tcpActiveOpens_array       100093ac     snmp_mibii:mib.obj
+ 0002:000023cc       tcpActiveOpens_oid         100093cc     snmp_mibii:mib.obj
+ 0002:000023d4       tcpPassiveOpens_array      100093d4     snmp_mibii:mib.obj
+ 0002:000023f4       tcpPassiveOpens_oid        100093f4     snmp_mibii:mib.obj
+ 0002:000023fc       tcpAttemptFails_array      100093fc     snmp_mibii:mib.obj
+ 0002:0000241c       tcpAttemptFails_oid        1000941c     snmp_mibii:mib.obj
+ 0002:00002424       tcpEstabResets_array       10009424     snmp_mibii:mib.obj
+ 0002:00002444       tcpEstabResets_oid         10009444     snmp_mibii:mib.obj
+ 0002:0000244c       tcpCurrEstab_array         1000944c     snmp_mibii:mib.obj
+ 0002:0000246c       tcpCurrEstab_oid           1000946c     snmp_mibii:mib.obj
+ 0002:00002474       tcpInSegs_array            10009474     snmp_mibii:mib.obj
+ 0002:00002494       tcpInSegs_oid              10009494     snmp_mibii:mib.obj
+ 0002:0000249c       tcpOutSegs_array           1000949c     snmp_mibii:mib.obj
+ 0002:000024bc       tcpOutSegs_oid             100094bc     snmp_mibii:mib.obj
+ 0002:000024c4       tcpRetransSegs_array       100094c4     snmp_mibii:mib.obj
+ 0002:000024e4       tcpRetransSegs_oid         100094e4     snmp_mibii:mib.obj
+ 0002:000024ec       tcpConnEntry_oid           100094ec     snmp_mibii:mib.obj
+ 0002:000024f4       tcpConnState_array         100094f4     snmp_mibii:mib.obj
+ 0002:0000251c       tcpConnState_oid           1000951c     snmp_mibii:mib.obj
+ 0002:00002524       tcpConnLocalAddress_array  10009524     snmp_mibii:mib.obj
+ 0002:0000254c       tcpConnLocalAddress_oid    1000954c     snmp_mibii:mib.obj
+ 0002:00002554       tcpConnLocalPort_array     10009554     snmp_mibii:mib.obj
+ 0002:0000257c       tcpConnLocalPort_oid       1000957c     snmp_mibii:mib.obj
+ 0002:00002584       tcpConnRemAddress_array    10009584     snmp_mibii:mib.obj
+ 0002:000025ac       tcpConnRemAddress_oid      100095ac     snmp_mibii:mib.obj
+ 0002:000025b4       tcpConnRemPort_array       100095b4     snmp_mibii:mib.obj
+ 0002:000025dc       tcpConnRemPort_oid         100095dc     snmp_mibii:mib.obj
+ 0002:000025e4       udpEntry_array             100095e4     snmp_mibii:mib.obj
+ 0002:00002608       tcpConnEntry_var_table     10009608     snmp_mibii:mib.obj
+ 0002:000026b0       tcpInErrs_array            100096b0     snmp_mibii:mib.obj
+ 0002:000026d0       tcpInErrs_oid              100096d0     snmp_mibii:mib.obj
+ 0002:000026d8       tcpOutRsts_array           100096d8     snmp_mibii:mib.obj
+ 0002:000026f8       tcpOutRsts_oid             100096f8     snmp_mibii:mib.obj
+ 0002:00002700       tcp_var_table              10009700     snmp_mibii:mib.obj
+ 0002:000028c0       udpInDatagrams_array       100098c0     snmp_mibii:mib.obj
+ 0002:000028e0       udpInDatagrams_oid         100098e0     snmp_mibii:mib.obj
+ 0002:000028e8       udpNoPorts_array           100098e8     snmp_mibii:mib.obj
+ 0002:00002908       udpNoPorts_oid             10009908     snmp_mibii:mib.obj
+ 0002:00002910       udpInErrors_array          10009910     snmp_mibii:mib.obj
+ 0002:00002930       udpInErrors_oid            10009930     snmp_mibii:mib.obj
+ 0002:00002938       udpOutDatagrams_array      10009938     snmp_mibii:mib.obj
+ 0002:00002958       udpOutDatagrams_oid        10009958     snmp_mibii:mib.obj
+ 0002:00002960       udpEntry_oid               10009960     snmp_mibii:mib.obj
+ 0002:00002968       udpLocalAddress_array      10009968     snmp_mibii:mib.obj
+ 0002:00002990       udpLocalAddress_oid        10009990     snmp_mibii:mib.obj
+ 0002:00002998       udpLocalPort_array         10009998     snmp_mibii:mib.obj
+ 0002:000029c0       udpLocalPort_oid           100099c0     snmp_mibii:mib.obj
+ 0002:000029c8       udpEntry_var_table         100099c8     snmp_mibii:mib.obj
+ 0002:00002a20       udp_var_table              10009a20     snmp_mibii:mib.obj
+ 0002:00002ac8       snmpInPkts_array           10009ac8     snmp_mibii:mib.obj
+ 0002:00002ae8       snmpInPkts_oid             10009ae8     snmp_mibii:mib.obj
+ 0002:00002af0       snmpOutPkts_array          10009af0     snmp_mibii:mib.obj
+ 0002:00002b10       snmpOutPkts_oid            10009b10     snmp_mibii:mib.obj
+ 0002:00002b18       snmpInBadVersions_array    10009b18     snmp_mibii:mib.obj
+ 0002:00002b38       snmpInBadVersions_oid      10009b38     snmp_mibii:mib.obj
+ 0002:00002b40       snmpInBadCommunityNames_array 10009b40     snmp_mibii:mib.obj
+ 0002:00002b60       snmpInBadCommunityNames_oid 10009b60     snmp_mibii:mib.obj
+ 0002:00002b68       snmpInBadCommunityUses_array 10009b68     snmp_mibii:mib.obj
+ 0002:00002b88       snmpInBadCommunityUses_oid 10009b88     snmp_mibii:mib.obj
+ 0002:00002b90       snmpInASNParseErrs_array   10009b90     snmp_mibii:mib.obj
+ 0002:00002bb0       snmpInASNParseErrs_oid     10009bb0     snmp_mibii:mib.obj
+ 0002:00002bb8       snmpInTooBigs_array        10009bb8     snmp_mibii:mib.obj
+ 0002:00002bd8       snmpInTooBigs_oid          10009bd8     snmp_mibii:mib.obj
+ 0002:00002be0       snmpInNoSuchNames_array    10009be0     snmp_mibii:mib.obj
+ 0002:00002c00       snmpInNoSuchNames_oid      10009c00     snmp_mibii:mib.obj
+ 0002:00002c08       snmpInBadValues_array      10009c08     snmp_mibii:mib.obj
+ 0002:00002c28       snmpInBadValues_oid        10009c28     snmp_mibii:mib.obj
+ 0002:00002c30       snmpInreadOnlys_array      10009c30     snmp_mibii:mib.obj
+ 0002:00002c50       snmpInreadOnlys_oid        10009c50     snmp_mibii:mib.obj
+ 0002:00002c58       snmpInGenErrs_array        10009c58     snmp_mibii:mib.obj
+ 0002:00002c78       snmpInGenErrs_oid          10009c78     snmp_mibii:mib.obj
+ 0002:00002c80       snmpInTotalReqVars_array   10009c80     snmp_mibii:mib.obj
+ 0002:00002ca0       snmpInTotalReqVars_oid     10009ca0     snmp_mibii:mib.obj
+ 0002:00002ca8       snmpInTotalSetVars_array   10009ca8     snmp_mibii:mib.obj
+ 0002:00002cc8       snmpInTotalSetVars_oid     10009cc8     snmp_mibii:mib.obj
+ 0002:00002cd0       snmpInGetRequests_array    10009cd0     snmp_mibii:mib.obj
+ 0002:00002cf0       snmpInGetRequests_oid      10009cf0     snmp_mibii:mib.obj
+ 0002:00002cf8       snmpInGetNexts_array       10009cf8     snmp_mibii:mib.obj
+ 0002:00002d18       snmpInGetNexts_oid         10009d18     snmp_mibii:mib.obj
+ 0002:00002d20       snmpInSetRequests_array    10009d20     snmp_mibii:mib.obj
+ 0002:00002d40       snmpInSetRequests_oid      10009d40     snmp_mibii:mib.obj
+ 0002:00002d48       snmpInGetResponses_array   10009d48     snmp_mibii:mib.obj
+ 0002:00002d68       snmpInGetResponses_oid     10009d68     snmp_mibii:mib.obj
+ 0002:00002d70       snmpInTraps_array          10009d70     snmp_mibii:mib.obj
+ 0002:00002d90       snmpInTraps_oid            10009d90     snmp_mibii:mib.obj
+ 0002:00002d98       snmpOutTooBigs_array       10009d98     snmp_mibii:mib.obj
+ 0002:00002db8       snmpOutTooBigs_oid         10009db8     snmp_mibii:mib.obj
+ 0002:00002dc0       snmpOutNoSuchNames_array   10009dc0     snmp_mibii:mib.obj
+ 0002:00002de0       snmpOutNoSuchNames_oid     10009de0     snmp_mibii:mib.obj
+ 0002:00002de8       snmpOutBadValues_array     10009de8     snmp_mibii:mib.obj
+ 0002:00002e08       snmpOutBadValues_oid       10009e08     snmp_mibii:mib.obj
+ 0002:00002e10       snmpInReadOnlys_array      10009e10     snmp_mibii:mib.obj
+ 0002:00002e30       snmpInReadOnlys_oid        10009e30     snmp_mibii:mib.obj
+ 0002:00002e38       snmpOutGenErrs_array       10009e38     snmp_mibii:mib.obj
+ 0002:00002e58       snmpOutGenErrs_oid         10009e58     snmp_mibii:mib.obj
+ 0002:00002e60       snmpOutGetRequests_array   10009e60     snmp_mibii:mib.obj
+ 0002:00002e80       snmpOutGetRequests_oid     10009e80     snmp_mibii:mib.obj
+ 0002:00002e88       snmpOutGetNexts_array      10009e88     snmp_mibii:mib.obj
+ 0002:00002ea8       snmpOutGetNexts_oid        10009ea8     snmp_mibii:mib.obj
+ 0002:00002eb0       snmpOutSetRequests_array   10009eb0     snmp_mibii:mib.obj
+ 0002:00002ed0       snmpOutSetRequests_oid     10009ed0     snmp_mibii:mib.obj
+ 0002:00002ed8       snmpOutGetResponses_array  10009ed8     snmp_mibii:mib.obj
+ 0002:00002ef8       snmpOutGetResponses_oid    10009ef8     snmp_mibii:mib.obj
+ 0002:00002f00       snmpOutTraps_array         10009f00     snmp_mibii:mib.obj
+ 0002:00002f20       snmpOutTraps_oid           10009f20     snmp_mibii:mib.obj
+ 0002:00002f28       snmpEnableAuthenTraps_array 10009f28     snmp_mibii:mib.obj
+ 0002:00002f48       snmpEnableAuthenTraps_oid  10009f48     snmp_mibii:mib.obj
+ 0002:00002f50       snmpSilentDrops_array      10009f50     snmp_mibii:mib.obj
+ 0002:00002f70       snmpSilentDrops_oid        10009f70     snmp_mibii:mib.obj
+ 0002:00002f78       snmpProxyDrops_array       10009f78     snmp_mibii:mib.obj
+ 0002:00002f98       snmpProxyDrops_oid         10009f98     snmp_mibii:mib.obj
+ 0002:00002fa0       snmp_var_table             10009fa0     snmp_mibii:mib.obj
+ 0002:00003340       class_info                 1000a340     snmp_mibii:mib.obj
+ 0002:000035c0       __security_cookie          1000a5c0     corelib0:seccinit.obj
+ 0002:000035c4       __security_cookie_complement 1000a5c4     corelib0:seccinit.obj
+ 0002:000035c8       dwTimeZero                 1000a5c8     snmp_mibii:mibii.obj
+ 0002:000035e4       _exitflag                  1000a5e4     corelib0:cexit.obj
+ 0002:000035e8       g_pfnGetSysORInfo          1000a5e8     <common>
+ 0002:000035ec       g_pfnGetSnmpInfo           1000a5ec     <common>
+ 0002:000035f0       __onexitend                1000a5f0     <common>
+ 0002:000035f4       __onexitbegin              1000a5f4     <common>
+ 0002:000035f8       g_pcsExit                  1000a5f8     <common>
+ 0002:000035fc       _pRawDllMain               1000a5fc     <common>
+
+ entry point at        0001:00004c54
+
+ Static symbols
+
+ 0001:00004b64       _DllMainCRTStartupHelper   10005b64 f   corelib0:pegdmain.obj
+ 0001:00004d7c       doexit                     10005d7c f   corelib0:cexit.obj

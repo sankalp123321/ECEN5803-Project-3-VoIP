@@ -1,0 +1,565 @@
+ credsvc
+
+ Timestamp is 5ac64a22 (Thu Apr 05 09:09:06 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000018H .CRT$XCU                CODE
+ 0001:0000001c 00000004H .CRT$XCZ                CODE
+ 0001:00000020 00000004H .CRT$XIA                CODE
+ 0001:00000024 00000004H .CRT$XIZ                CODE
+ 0001:00000028 00000004H .CRT$XPA                CODE
+ 0001:0000002c 00000004H .CRT$XPZ                CODE
+ 0001:00000030 00000004H .CRT$XTA                CODE
+ 0001:00000034 00000004H .CRT$XTZ                CODE
+ 0001:00000040 0000286cH .rdata                  CODE
+ 0001:000028ac 00000024H .rdata$debug            CODE
+ 0001:000028d0 00008770H .text                   CODE
+ 0001:0000b040 00000074H .text$yc                CODE
+ 0001:0000b0b4 00000070H .text$yd                CODE
+ 0001:0000b124 00000174H .xdata                  CODE
+ 0001:0000b298 00000014H .idata$2                CODE
+ 0001:0000b2ac 00000014H .idata$3                CODE
+ 0001:0000b2c0 000000dcH .idata$4                CODE
+ 0001:0000b39c 0000000cH .idata$6                CODE
+ 0001:0000b3b0 00000115H .edata                  CODE
+ 0002:00000000 000000dcH .idata$5                DATA
+ 0002:000000e0 0000045cH .data                   DATA
+ 0002:00000540 00000158H .bss                    DATA
+ 0003:00000000 00000808H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:0000001c       __xc_z                     1000101c     corelib0:crt0init.obj
+ 0001:00000020       __xi_a                     10001020     corelib0:crt0init.obj
+ 0001:00000024       __xi_z                     10001024     corelib0:crt0init.obj
+ 0001:00000028       __xp_a                     10001028     corelib0:crt0init.obj
+ 0001:0000002c       __xp_z                     1000102c     corelib0:crt0init.obj
+ 0001:00000030       __xt_a                     10001030     corelib0:crt0init.obj
+ 0001:00000034       __xt_z                     10001034     corelib0:crt0init.obj
+ 0001:0000005c       ??_C@_1DA@DGDPLFED@?$AAD?$AAl?$AAl?$AAE?$AAn?$AAt?$AAr?$AAy?$AA?5?$AAP?$AAr?$AAo?$AAc?$AAe?$AAs?$AAs?$AA?5?$AAD?$AAe?$AAt?$AAa?$AAc?$AAh?$AA?$AA@ 1000105c     credsvc.obj
+ 0001:0000008c       ??_C@_1DG@HBPBGKBC@?$AAI?$AAn?$AA?5?$AAD?$AAl?$AAl?$AAE?$AAn?$AAt?$AAr?$AAy?$AA?5?$AAP?$AAr?$AAo?$AAc?$AAe?$AAs?$AAs?$AA?5?$AAA?$AAt?$AAt?$AAa?$AAc?$AAh?$AA?$AA@ 1000108c     credsvc.obj
+ 0001:000000c4       ??_C@_1BC@KNKHLKCB@?$AAI?$AAn?$AAi?$AAt?$AA?$CI?$AA?$CF?$AAu?$AA?$CJ?$AA?$AA@ 100010c4     credsvc.obj
+ 0001:000000d8       ??_C@_1BG@PAPEFEEJ@?$AAD?$AAe?$AAI?$AAn?$AAi?$AAt?$AA?$CI?$AA?$CF?$AAu?$AA?$CJ?$AA?$AA@ 100010d8     credsvc.obj
+ 0001:000000f0       ??_C@_1BC@KJKEFKCB@?$AAO?$AAp?$AAe?$AAn?$AA?$CI?$AA?$CF?$AAu?$AA?$CJ?$AA?$AA@ 100010f0     credsvc.obj
+ 0001:00000104       ??_C@_1BE@GLNEAMBP@?$AAC?$AAl?$AAo?$AAs?$AAe?$AA?$CI?$AA?$CF?$AAu?$AA?$CJ?$AA?$AA@ 10001104     credsvc.obj
+ 0001:00000118       ??_C@_1CC@JIIHHBHL@?$AAI?$AAo?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AA?$CI?$AA?$CF?$AAu?$AA?0?$AA?$CF?$AAu?$AA?$CJ?$AA?$AA@ 10001118     credsvc.obj
+ 0001:00000140       ??_C@_1FG@LGCMKFAJ@?$AAC?$AAT?$AAy?$AAp?$AAe?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?3?$AA?3?$AAM?$AAa?$AAt?$AAc?$AAh?$AAT?$AAa?$AAr?$AAg?$AAe?$AAt?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe@ 10001140     typeprov.obj
+ 0001:00000198       ??_C@_1FE@OMGLEAMK@?$AAC?$AAT?$AAy?$AAp?$AAe?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?3?$AA?3?$AAM?$AAa?$AAt?$AAc?$AAh?$AAT?$AAa?$AAr?$AAg?$AAe?$AAt?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe@ 10001198     typeprov.obj
+ 0001:000001f0       ??_C@_1KG@GOAHGAGA@?$AAL?$AAo?$AAa?$AAd?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?3?$AA?5?$AAL?$AAo?$AAa?$AAd?$AA?5?$AAe?$AAn?$AAt?$AAr?$AAy?$AA?5?$AAp?$AAo?$AAi?$AAn?$AAt?$AA?5?$AAf@ 100011f0     typeprov.obj
+ 0001:00000298       ??_C@_1JG@LPCGKLIB@?$AAL?$AAo?$AAa?$AAd?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?3?$AA?5?$AAE?$AAr?$AAr?$AAo?$AAr?$AA?5?$AAc?$AAa?$AAl?$AAl?$AAi?$AAn?$AAg?$AA?5?$AAL?$AAo?$AAa?$AAd@ 10001298     typeprov.obj
+ 0001:00000330       ??_C@_1IC@DCIMAPMA@?$AAL?$AAo?$AAa?$AAd?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?3?$AA?5?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?5?$AA?$CF?$AAs?$AA?5?$AAd?$AAo?$AAe?$AAs?$AA?5?$AAn@ 10001330     typeprov.obj
+ 0001:000003b8       ??_C@_1HO@COGJJBOL@?$AAL?$AAo?$AAa?$AAd?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?3?$AA?5?$AAL?$AAo?$AAa?$AAd?$AAe?$AAd?$AA?5?$AAM?$AAa?$AAt?$AAc?$AAh?$AAU?$AAs?$AAe?$AAr?$AA?5?$AAe@ 100013b8     typeprov.obj
+ 0001:00000438       ??_C@_1KG@LDMKDJEM@?$AAL?$AAo?$AAa?$AAd?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?3?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAo?$AAb?$AAt?$AAa?$AAi?$AAn?$AA?5?$AAM@ 10001438     typeprov.obj
+ 0001:000004e0       ??_C@_1BE@EKECNOGD@?$AAM?$AAa?$AAt?$AAc?$AAh?$AAU?$AAs?$AAe?$AAr?$AA?$AA@ 100014e0     typeprov.obj
+ 0001:000004f8       ??_C@_1IG@IJLEMKHP@?$AAL?$AAo?$AAa?$AAd?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?3?$AA?5?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?5?$AA?$CF?$AAs?$AA?5?$AAd?$AAo?$AAe?$AAs?$AA?5?$AAn@ 100014f8     typeprov.obj
+ 0001:00000580       ??_C@_1IC@BABLEEFP@?$AAL?$AAo?$AAa?$AAd?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?3?$AA?5?$AAL?$AAo?$AAa?$AAd?$AAe?$AAd?$AA?5?$AAM?$AAa?$AAt?$AAc?$AAh?$AAT?$AAa?$AAr?$AAg?$AAe?$AAt@ 10001580     typeprov.obj
+ 0001:00000608       ??_C@_1KK@LKNJMJJN@?$AAL?$AAo?$AAa?$AAd?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?3?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAo?$AAb?$AAt?$AAa?$AAi?$AAn?$AA?5?$AAM@ 10001608     typeprov.obj
+ 0001:000006b4       ??_C@_1BI@MKKDFLDH@?$AAM?$AAa?$AAt?$AAc?$AAh?$AAT?$AAa?$AAr?$AAg?$AAe?$AAt?$AA?$AA@ 100016b4     typeprov.obj
+ 0001:000006d0       ??_C@_1IE@KAIONEAI@?$AAL?$AAo?$AAa?$AAd?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?3?$AA?5?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?5?$AA?$CF?$AAs?$AA?5?$AAd?$AAo?$AAe?$AAs?$AA?5?$AAn@ 100016d0     typeprov.obj
+ 0001:00000758       ??_C@_1IA@CCENKAPA@?$AAL?$AAo?$AAa?$AAd?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?3?$AA?5?$AAL?$AAo?$AAa?$AAd?$AAe?$AAd?$AA?5?$AAH?$AAa?$AAn?$AAd?$AAl?$AAe?$AAB?$AAl?$AAo?$AAb?$AA?5@ 10001758     typeprov.obj
+ 0001:000007d8       ??_C@_1KI@OMHIFGFJ@?$AAL?$AAo?$AAa?$AAd?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?3?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAo?$AAb?$AAt?$AAa?$AAi?$AAn?$AA?5?$AAH@ 100017d8     typeprov.obj
+ 0001:00000880       ??_C@_1BG@BOHBHOCI@?$AAH?$AAa?$AAn?$AAd?$AAl?$AAe?$AAB?$AAl?$AAo?$AAb?$AA?$AA@ 10001880     typeprov.obj
+ 0001:00000898       ??_C@_1HI@FDFBMBKC@?$AAL?$AAo?$AAa?$AAd?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?3?$AA?5?$AAL?$AAo?$AAa?$AAd?$AAe?$AAd?$AA?5?$AAU?$AAn?$AAL?$AAo?$AAa?$AAd?$AA?5?$AAe?$AAn?$AAt?$AAr@ 10001898     typeprov.obj
+ 0001:00000910       ??_C@_1KA@IMBHPADJ@?$AAL?$AAo?$AAa?$AAd?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?3?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAo?$AAb?$AAt?$AAa?$AAi?$AAn?$AA?5?$AAU@ 10001910     typeprov.obj
+ 0001:000009b0       ??_C@_1HE@IAPEAHAG@?$AAL?$AAo?$AAa?$AAd?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?3?$AA?5?$AAL?$AAo?$AAa?$AAd?$AAe?$AAd?$AA?5?$AAL?$AAo?$AAa?$AAd?$AA?5?$AAe?$AAn?$AAt?$AAr?$AAy?$AA?5@ 100019b0     typeprov.obj
+ 0001:00000a24       ??_C@_1O@LGCOHFEM@?$AAU?$AAn?$AAL?$AAo?$AAa?$AAd?$AA?$AA@ 10001a24     typeprov.obj
+ 0001:00000a38       ??_C@_1JM@PDJCPLG@?$AAL?$AAo?$AAa?$AAd?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?3?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAo?$AAb?$AAt?$AAa?$AAi?$AAn?$AA?5?$AAL@ 10001a38     typeprov.obj
+ 0001:00000ad8       ??_C@_1GC@JEDJDODA@?$AAL?$AAo?$AAa?$AAd?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?3?$AA?5?$AAL?$AAo?$AAa?$AAd?$AAe?$AAd?$AA?5?$AAp?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?5?$AAd?$AAl@ 10001ad8     typeprov.obj
+ 0001:00000b3c       ??_C@_19OGNEHOBL@?$AAL?$AAo?$AAa?$AAd?$AA?$AA@ 10001b3c     typeprov.obj
+ 0001:00000b48       ??_C@_1JA@JGIENDOG@?$AAL?$AAo?$AAa?$AAd?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?3?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAl?$AAo?$AAa?$AAd?$AA?5?$AAt?$AAy?$AAp@ 10001b48     typeprov.obj
+ 0001:00000bd8       ??_C@_1IM@GJPHOIIB@?$AAU?$AAn?$AAL?$AAo?$AAa?$AAd?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?3?$AA?5?$AAC?$AAa?$AAl?$AAl?$AAi?$AAn?$AAg?$AA?5?$AAU?$AAn?$AAL?$AAo?$AAa?$AAd?$AA?5?$AAe@ 10001bd8     typeprov.obj
+ 0001:00000c68       ??_C@_1GC@GDJFODNF@?$AAU?$AAn?$AAl?$AAo?$AAa?$AAd?$AAi?$AAn?$AAg?$AA?5?$AAp?$AAr?$AAi?$AAm?$AAi?$AAt?$AAi?$AAv?$AAe?$AA?5?$AAt?$AAy?$AAp?$AAe?$AA?5?$AAp?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe@ 10001c68     typeprov.obj
+ 0001:00000cd0       ??_C@_1JC@PBLHDNFD@?$AAL?$AAo?$AAa?$AAd?$AAV?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?3?$AA?5?$AAL?$AAo?$AAa?$AAd?$AAe?$AAd?$AA?5?$AA?$CF?$AAu?$AA?5?$AAp?$AAr?$AAi?$AAm?$AAt?$AAi?$AAv@ 10001cd0     typeprov.obj
+ 0001:00000d68       ??_C@_1IG@JIOJCEKK@?$AAL?$AAo?$AAa?$AAd?$AAV?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?3?$AA?5?$AAN?$AAo?$AA?5?$AAp?$AAr?$AAi?$AAm?$AAi?$AAt?$AAi?$AAv?$AAe?$AA?5?$AAt?$AAy?$AAp?$AAe@ 10001d68     typeprov.obj
+ 0001:00000df0       ??_C@_13DEFPDAGF@?$AA?0?$AA?$AA@ 10001df0     typeprov.obj
+ 0001:00000df8       ??_C@_1IK@IJBILDLL@?$AAV?$AAa?$AAl?$AAi?$AAd?$AAa?$AAt?$AAe?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AAs?$AA?3?$AA?5?$AAV?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AA?5?$AAt?$AAy?$AAp?$AAe?$AA?5@ 10001df8     typeprov.obj
+ 0001:00000e88       ??_C@_1IM@PNLHCANM@?$AAV?$AAa?$AAl?$AAi?$AAd?$AAa?$AAt?$AAe?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AAs?$AA?3?$AA?5?$AAV?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AA?5?$AAt?$AAy?$AAp?$AAe?$AA?5@ 10001e88     typeprov.obj
+ 0001:00000f18       ??_C@_1HO@JIEHFDAL@?$AAV?$AAa?$AAl?$AAi?$AAd?$AAa?$AAt?$AAe?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AAs?$AA?3?$AA?5?$AAT?$AAh?$AAe?$AAr?$AAe?$AA?5?$AAs?$AAh?$AAo?$AAu?$AAl?$AAd?$AA?5@ 10001f18     typeprov.obj
+ 0001:00000f98       ??_C@_1HK@EPKFGDAG@?$AAL?$AAo?$AAa?$AAd?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AAs?$AA?3?$AA?5?$AAT?$AAh?$AAe?$AAr?$AAe?$AA?5?$AAa?$AAr?$AAe?$AA?5?$AAn?$AAo?$AA?5?$AAp?$AAr?$AAi?$AAm@ 10001f98     typeprov.obj
+ 0001:00001018       ??_C@_1HK@KNDHKHJH@?$AAL?$AAo?$AAa?$AAd?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AAs?$AA?3?$AA?5?$AAL?$AAo?$AAa?$AAd?$AAe?$AAd?$AA?5?$AAp?$AAr?$AAi?$AAm?$AAi?$AAt?$AAi?$AAv?$AAe?$AA?5@ 10002018     typeprov.obj
+ 0001:00001098       ??_C@_1IM@MBNDAKOJ@?$AAL?$AAo?$AAa?$AAd?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AAs?$AA?3?$AA?5?$AAI?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5?$AAp?$AAr?$AAi?$AAm?$AAi?$AAt?$AAi?$AAv?$AAe@ 10002098     typeprov.obj
+ 0001:00001124       ??_C@_1M@PIKEIEDD@?$AAf?$AAl?$AAa?$AAg?$AAs?$AA?$AA@ 10002124     typeprov.obj
+ 0001:00001130       ??_C@_17MALKAJEN@?$AAd?$AAl?$AAl?$AA?$AA@ 10002130     typeprov.obj
+ 0001:00001138       ??_C@_1HM@INOKNBHD@?$AAL?$AAo?$AAa?$AAd?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AAs?$AA?3?$AA?5?$AAL?$AAo?$AAa?$AAd?$AAi?$AAn?$AAg?$AA?5?$AAp?$AAr?$AAi?$AAm?$AAi?$AAt?$AAi?$AAv?$AAe@ 10002138     typeprov.obj
+ 0001:000011b8       ??_C@_1EM@BHKJPBOE@?$AAc?$AAo?$AAm?$AAm?$AA?2?$AAs?$AAe?$AAc?$AAu?$AAr?$AAi?$AAt?$AAy?$AA?2?$AAc?$AAr?$AAe?$AAd?$AAm?$AAa?$AAn?$AA?2?$AAt?$AAy?$AAp?$AAe?$AAs?$AA?2?$AAp?$AAr?$AAi?$AAm@ 100021b8     typeprov.obj
+ 0001:00001208       ??_C@_1GA@PPGHCHMN@?$AAL?$AAo?$AAa?$AAd?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AAs?$AA?3?$AA?5?$AAL?$AAo?$AAa?$AAd?$AAi?$AAn?$AAg?$AA?5?$AAp?$AAr?$AAi?$AAm?$AAi?$AAt?$AAi?$AAv?$AAe@ 10002208     typeprov.obj
+ 0001:00001268       ??_C@_1HI@LKJEMJBG@?$AAL?$AAo?$AAa?$AAd?$AAV?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AAs?$AA?3?$AA?5?$AAT?$AAh?$AAe?$AAr?$AAe?$AA?5?$AAa?$AAr?$AAe?$AA?5?$AAn?$AAo?$AA?5?$AAv?$AAi?$AAr@ 10002268     typeprov.obj
+ 0001:000012e0       ??_C@_1HI@GACDJHLI@?$AAL?$AAo?$AAa?$AAd?$AAV?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AAs?$AA?3?$AA?5?$AAL?$AAo?$AAa?$AAd?$AAe?$AAd?$AA?5?$AAv?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AA?5?$AAt@ 100022e0     typeprov.obj
+ 0001:00001358       ??_C@_17LPJGNJDI@?$AAi?$AAd?$AAs?$AA?$AA@ 10002358     typeprov.obj
+ 0001:00001360       ??_C@_1HK@GENBONDF@?$AAL?$AAo?$AAa?$AAd?$AAV?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AAs?$AA?3?$AA?5?$AAL?$AAo?$AAa?$AAd?$AAi?$AAn?$AAg?$AA?5?$AAv?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AA?5@ 10002360     typeprov.obj
+ 0001:000013e0       ??_C@_1EI@EBFIMMOP@?$AAc?$AAo?$AAm?$AAm?$AA?2?$AAs?$AAe?$AAc?$AAu?$AAr?$AAi?$AAt?$AAy?$AA?2?$AAc?$AAr?$AAe?$AAd?$AAm?$AAa?$AAn?$AA?2?$AAt?$AAy?$AAp?$AAe?$AAs?$AA?2?$AAv?$AAi?$AAr?$AAt@ 100023e0     typeprov.obj
+ 0001:00001428       ??_C@_1FO@IOPIHHB@?$AAL?$AAo?$AAa?$AAd?$AAV?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AAs?$AA?3?$AA?5?$AAL?$AAo?$AAa?$AAd?$AAi?$AAn?$AAg?$AA?5?$AAv?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AA?5@ 10002428     typeprov.obj
+ 0001:00001490       ??_C@_1EI@JFINBOFK@?$AAP?$AAe?$AAr?$AAs?$AAi?$AAs?$AAt?$AAC?$AAr?$AAe?$AAd?$AA?3?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAe?$AAn?$AAc?$AAr?$AAy?$AAp?$AAt?$AA?5?$AAc@ 10002490     CredList.obj
+ 0001:000014d8       ??_C@_1EA@DJOJAENK@?$AAP?$AAe?$AAr?$AAs?$AAi?$AAs?$AAt?$AAC?$AAr?$AAe?$AAd?$AA?3?$AA?5?$AAN?$AAo?$AA?5?$AAm?$AAo?$AAr?$AAe?$AA?5?$AAf?$AAr?$AAe?$AAe?$AA?5?$AAs?$AAl?$AAo?$AAt?$AAs?$AA?$AA@ 100024d8     CredList.obj
+ 0001:00001518       ??_C@_1IG@CGFADDPK@?$AAU?$AAp?$AAd?$AAa?$AAt?$AAe?$AAC?$AAr?$AAe?$AAd?$AA?3?$AA?5?$AAC?$AAa?$AAn?$AAn?$AAo?$AAt?$AA?5?$AAd?$AAo?$AAw?$AAn?$AAg?$AAr?$AAa?$AAd?$AAe?$AA?5?$AAf?$AAr?$AAo@ 10002518     CredList.obj
+ 0001:000015a0       ??_C@_1GI@CLMBLENF@?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AAC?$AAr?$AAe?$AAd?$AA?3?$AA?5?$AAF?$AAo?$AAu?$AAn?$AAd?$AA?5?$AAc?$AAr?$AAe?$AAd?$AA?5?$AAo?$AAf?$AA?5?$AAt?$AAy?$AAp?$AAe?$AA?5?$AA?$FL@ 100025a0     CredList.obj
+ 0001:00001608       ??_C@_1HE@PIOPLHOD@?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AAC?$AAr?$AAe?$AAd?$AA?3?$AA?5?$AAN?$AAo?$AA?5?$AAm?$AAa?$AAt?$AAc?$AAh?$AAi?$AAn?$AAg?$AA?5?$AAc?$AAr?$AAe?$AAd?$AA?5?$AAo?$AAf?$AA?5@ 10002608     CredList.obj
+ 0001:00001680       ??_C@_1FO@EDGLDDEN@?$AAR?$AAe?$AAa?$AAd?$AAC?$AAr?$AAe?$AAd?$AA?3?$AA?5?$AAN?$AAo?$AA?5?$AAc?$AAr?$AAe?$AAd?$AA?5?$AAo?$AAf?$AA?5?$AAt?$AAy?$AAp?$AAe?$AA?5?$AA?$FL?$AA?$CF?$AAu?$AA?$FN?$AA?5?$AAf@ 10002680     CredList.obj
+ 0001:000016e0       ??_C@_1FC@KAIIPNLM@?$AAA?$AAd?$AAd?$AAC?$AAr?$AAe?$AAd?$AA?3?$AA?5?$AAR?$AAe?$AAs?$AAe?$AAt?$AAt?$AAi?$AAn?$AAg?$AA?5?$AAp?$AAr?$AAe?$AAv?$AAi?$AAo?$AAu?$AAs?$AA?5?$AAd?$AAe?$AAf?$AAa@ 100026e0     CredList.obj
+ 0001:00001738       ??_C@_1GA@OOGLHNK@?$AAA?$AAd?$AAd?$AAC?$AAr?$AAe?$AAd?$AA?3?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAp?$AAe?$AAr?$AAs?$AAi?$AAs?$AAt?$AA?5?$AAc?$AAr?$AAe?$AAd?$AA?5@ 10002738     CredList.obj
+ 0001:00001798       ??_C@_1GM@DACNACEJ@?$AAA?$AAd?$AAd?$AAC?$AAr?$AAe?$AAd?$AA?3?$AA?5?$AAA?$AAd?$AAd?$AAi?$AAn?$AAg?$AA?5?$AAn?$AAe?$AAw?$AA?5?$AAc?$AAr?$AAe?$AAd?$AA?5?$AAo?$AAf?$AA?5?$AAt?$AAy?$AAp?$AAe@ 10002798     CredList.obj
+ 0001:00001808       ??_C@_1JC@DCNGPHFO@?$AAA?$AAd?$AAd?$AAC?$AAr?$AAe?$AAd?$AA?3?$AA?5?$AAF?$AAo?$AAu?$AAn?$AAd?$AA?5?$AAe?$AAx?$AAi?$AAs?$AAt?$AAi?$AAn?$AAg?$AA?5?$AAc?$AAr?$AAe?$AAd?$AA?5?$AAo?$AAf?$AA?5@ 10002808     CredList.obj
+ 0001:000018a0       ??_C@_1FE@HKKNKAOL@?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AAC?$AAr?$AAe?$AAd?$AA?3?$AA?5?$AAN?$AAo?$AA?5?$AAc?$AAr?$AAe?$AAd?$AAs?$AA?5?$AAe?$AAx?$AAi?$AAs?$AAt?$AAs?$AA?5?$AAf?$AAo?$AAr?$AA?5@ 100028a0     CredList.obj
+ 0001:000018f8       ??_C@_1FA@HDHGJLIG@?$AAR?$AAe?$AAa?$AAd?$AAC?$AAr?$AAe?$AAd?$AA?3?$AA?5?$AAN?$AAo?$AA?5?$AAc?$AAr?$AAe?$AAd?$AAs?$AA?5?$AAe?$AAx?$AAi?$AAs?$AAt?$AAs?$AA?5?$AAf?$AAo?$AAr?$AA?5?$AAt?$AAy@ 100028f8     CredList.obj
+ 0001:00001948       ??_C@_1II@HCIGAHNP@?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AAC?$AAr?$AAe?$AAd?$AA?3?$AA?5?$AAE?$AAr?$AAr?$AAo?$AAr?$AA?5?$AA?$FL?$AA?$CF?$AAX?$AA?$FN?$AA?5?$AAd?$AAe?$AAl?$AAe?$AAt?$AAi?$AAn?$AAg?$AA?5@ 10002948     CredList.obj
+ 0001:000019d0       ??_C@_1FG@FOBLECCO@?$AAA?$AAd?$AAd?$AAC?$AAr?$AAe?$AAd?$AA?3?$AA?5?$AAA?$AAd?$AAd?$AAi?$AAn?$AAg?$AA?5?$AAc?$AAr?$AAe?$AAd?$AA?5?$AAt?$AAo?$AA?5?$AAe?$AAx?$AAi?$AAs?$AAt?$AAi?$AAn?$AAg@ 100029d0     CredList.obj
+ 0001:00001a28       ??_C@_1EG@LGDNBGHO@?$AAA?$AAd?$AAd?$AAC?$AAr?$AAe?$AAd?$AA?3?$AA?5?$AAN?$AAe?$AAw?$AA?5?$AAt?$AAy?$AAp?$AAe?$AA?5?$AA?$FL?$AA?$CF?$AAu?$AA?$FN?$AA?5?$AAe?$AAn?$AAc?$AAo?$AAu?$AAn?$AAt?$AAe?$AAr@ 10002a28     CredList.obj
+ 0001:00001a70       ??_C@_1HO@JNHLCEEJ@?$AAA?$AAd?$AAd?$AAC?$AAr?$AAe?$AAd?$AA?3?$AA?5?$AAE?$AAr?$AAr?$AAo?$AAr?$AA?5?$AA?$FL?$AA?$CF?$AAX?$AA?$FN?$AA?5?$AAa?$AAd?$AAd?$AAi?$AAn?$AAg?$AA?5?$AAs?$AAu?$AAb?$AA?5?$AAt@ 10002a70     CredList.obj
+ 0001:00001af0       ??_C@_1DM@ILBJBKAB@?$AAA?$AAt?$AAt?$AAa?$AAc?$AAh?$AA?5?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?3?$AA?5?$AA?$FL?$AA?$CF?$AAx?$AA?$FN?$AA?5?$AA?$AA@ 10002af0     ops.obj
+ 0001:00001b2c       ??_C@_1DI@CDHLGFJB@?$AAL?$AAo?$AAa?$AAd?$AA?5?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?3?$AA?5?$AA?$FL?$AA?$CF?$AAx?$AA?$FN?$AA?5?$AA?$AA@ 10002b2c     ops.obj
+ 0001:00001b64       ??_C@_1CE@HFHLCKFE@?$AAS?$AAt?$AAa?$AAr?$AAt?$AAi?$AAn?$AAg?$AA?5?$AAC?$AAr?$AAe?$AAd?$AA?5?$AAS?$AAv?$AAc?$AA?$AA@ 10002b64     ops.obj
+ 0001:00001b88       ??_C@_1CE@KBDGDLFL@?$AAS?$AAt?$AAo?$AAp?$AAp?$AAi?$AAn?$AAg?$AA?5?$AAC?$AAr?$AAe?$AAd?$AA?5?$AAS?$AAv?$AAc?$AA?$AA@ 10002b88     ops.obj
+ 0001:00001bb0       ??_C@_1GE@BCABBONP@?$AAC?$AAr?$AAe?$AAd?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AA?3?$AA?5?$AAI?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5?$AAd?$AAe?$AAl?$AAe?$AAt?$AAe?$AA?5?$AAo?$AAp?$AAe?$AAr?$AAa@ 10002bb0     ops.obj
+ 0001:00001c18       ??_C@_1FM@PABKLDAO@?$AAC?$AAr?$AAe?$AAd?$AAR?$AAe?$AAa?$AAd?$AA?3?$AA?5?$AAI?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5?$AAr?$AAe?$AAa?$AAd?$AA?5?$AAo?$AAp?$AAe?$AAr?$AAa?$AAt?$AAi?$AAo?$AAn@ 10002c18     ops.obj
+ 0001:00001c78       ??_C@_1GA@HLJBMFMM@?$AAC?$AAr?$AAe?$AAd?$AAW?$AAr?$AAi?$AAt?$AAe?$AA?3?$AA?5?$AAI?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5?$AAw?$AAr?$AAi?$AAt?$AAe?$AA?5?$AAo?$AAp?$AAe?$AAr?$AAa?$AAt?$AAi@ 10002c78     ops.obj
+ 0001:00001cd8       ??_C@_1FC@LCACHFAJ@?$AAC?$AAr?$AAe?$AAd?$AAW?$AAr?$AAi?$AAt?$AAe?$AA?3?$AA?5?$AAI?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5?$AAc?$AAr?$AAe?$AAd?$AAe?$AAn?$AAt?$AAi?$AAa?$AAl?$AA?5?$AAf?$AAl@ 10002cd8     ops.obj
+ 0001:00001d2c       ??_C@_1CO@KDAFJNLM@?$AAC?$AAr?$AAe?$AAd?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AA?3?$AA?5?$AAP?$AAa?$AAr?$AAa?$AAm?$AAe?$AAt?$AAe?$AAr?$AAs?$AA?$AA@ 10002d2c     ops.obj
+ 0001:00001d5c       ??_C@_1BO@GKJFBGA@?$AA?7?$AAO?$AAp?$AAF?$AAl?$AAa?$AAg?$AAs?$AA?3?$AA?5?$AA?$FL?$AA?$CF?$AAu?$AA?$FN?$AA?$AA@ 10002d5c     ops.obj
+ 0001:00001d7c       ??_C@_1BI@HODKPLIC@?$AA?7?$AAT?$AAy?$AAp?$AAe?$AA?3?$AA?5?$AA?$FL?$AA?$CF?$AAu?$AA?$FN?$AA?$AA@ 10002d7c     ops.obj
+ 0001:00001d94       ??_C@_1BM@EIJFJIKG@?$AA?7?$AAT?$AAa?$AAr?$AAg?$AAe?$AAt?$AA?3?$AA?5?$AA?$FL?$AA?$CF?$AAs?$AA?$FN?$AA?$AA@ 10002d94     ops.obj
+ 0001:00001db0       ??_C@_1DM@OAGKEAGI@?$AAC?$AAr?$AAe?$AAd?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AA?3?$AA?5?$AAR?$AAe?$AAt?$AAu?$AAr?$AAn?$AA?5?$AAC?$AAo?$AAd?$AAe?$AA?3?$AA?5?$AA?$FL?$AA?$CF?$AAx?$AA?$FN?$AA?$AA@ 10002db0     ops.obj
+ 0001:00001dec       ??_C@_1DI@NLCKJFKK@?$AAC?$AAr?$AAe?$AAd?$AAR?$AAe?$AAa?$AAd?$AA?3?$AA?5?$AAR?$AAe?$AAt?$AAu?$AAr?$AAn?$AA?5?$AAC?$AAo?$AAd?$AAe?$AA?3?$AA?5?$AA?$FL?$AA?$CF?$AAx?$AA?$FN?$AA?$AA@ 10002dec     ops.obj
+ 0001:00001e24       ??_C@_1CC@EGLLDIOG@?$AA?7?$AAC?$AAr?$AAe?$AAd?$AAB?$AAu?$AAf?$AA?3?$AA?5?$AA?$FL?$AAN?$AAU?$AAL?$AAL?$AA?$FN?$AA?$AA@ 10002e24     ops.obj
+ 0001:00001e48       ??_C@_1CI@FDJDIEEF@?$AA?7?$AAC?$AAr?$AAe?$AAd?$AAB?$AAu?$AAf?$AA?3?$AA?5?$AA?$FL?$AAP?$AAR?$AAE?$AAS?$AAE?$AAN?$AAT?$AA?$FN?$AA?$AA@ 10002e48     ops.obj
+ 0001:00001e70       ??_C@_1CG@LALCJIMC@?$AA?7?$AAC?$AAr?$AAe?$AAd?$AAB?$AAu?$AAf?$AAS?$AAi?$AAz?$AAe?$AA?3?$AA?5?$AA?$FL?$AA?$CF?$AAu?$AA?$FN?$AA?$AA@ 10002e70     ops.obj
+ 0001:00001e98       ??_C@_1CK@BBHNMFAL@?$AAC?$AAr?$AAe?$AAd?$AAR?$AAe?$AAa?$AAd?$AA?3?$AA?5?$AAP?$AAa?$AAr?$AAa?$AAm?$AAe?$AAt?$AAe?$AAr?$AAs?$AA?$AA@ 10002e98     ops.obj
+ 0001:00001ec4       ??_C@_1DK@FLCICPJ@?$AAC?$AAr?$AAe?$AAd?$AAW?$AAr?$AAi?$AAt?$AAe?$AA?3?$AA?5?$AAR?$AAe?$AAt?$AAu?$AAr?$AAn?$AA?5?$AAC?$AAo?$AAd?$AAe?$AA?3?$AA?5?$AA?$FL?$AA?$CF?$AAx?$AA?$FN?$AA?$AA@ 10002ec4     ops.obj
+ 0001:00001f00       ??_C@_1BM@BNEJHBNG@?$AA?7?$AAB?$AAl?$AAo?$AAb?$AA?3?$AA?5?$AA?$FL?$AAN?$AAU?$AAL?$AAL?$AA?$FN?$AA?$AA@ 10002f00     ops.obj
+ 0001:00001f1c       ??_C@_1CC@EOIMKGKN@?$AA?7?$AAB?$AAl?$AAo?$AAb?$AA?3?$AA?5?$AA?$FL?$AAP?$AAR?$AAE?$AAS?$AAE?$AAN?$AAT?$AA?$FN?$AA?$AA@ 10002f1c     ops.obj
+ 0001:00001f40       ??_C@_1CA@OFOBNNGP@?$AA?7?$AAB?$AAl?$AAo?$AAb?$AAS?$AAi?$AAz?$AAe?$AA?3?$AA?5?$AA?$FL?$AA?$CF?$AAu?$AA?$FN?$AA?$AA@ 10002f40     ops.obj
+ 0001:00001f60       ??_C@_1CM@GMMFKGAH@?$AAC?$AAr?$AAe?$AAd?$AAW?$AAr?$AAi?$AAt?$AAe?$AA?3?$AA?5?$AAP?$AAa?$AAr?$AAa?$AAm?$AAe?$AAt?$AAe?$AAr?$AAs?$AA?$AA@ 10002f60     ops.obj
+ 0001:00001f8c       ??_C@_1BI@DJNJCHHF@?$AA?7?$AAU?$AAs?$AAe?$AAr?$AA?3?$AA?5?$AA?$FL?$AA?$CF?$AAs?$AA?$FN?$AA?$AA@ 10002f8c     ops.obj
+ 0001:00001fa4       ??_C@_1BK@JKOHHHNE@?$AA?7?$AAF?$AAl?$AAa?$AAg?$AAs?$AA?3?$AA?5?$AA?$FL?$AA?$CF?$AAu?$AA?$FN?$AA?$AA@ 10002fa4     ops.obj
+ 0001:00001fc0       ??_7CopyInOutStream@ce@@6B@ 10002fc0     ops.obj
+ 0001:00001fc4       ??_7?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@6B@ 10002fc4     ops.obj
+ 0001:00001fc8       ??_7?$pc_stub@PAX@ce@@6B@  10002fc8     ops.obj
+ 0001:00001fd0       ??_C@_1GK@OFHJAJOG@?$AAC?$AAr?$AAe?$AAd?$AAS?$AAt?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAe?$AAn?$AAu?$AAm?$AAe?$AAr?$AAa?$AAt?$AAe?$AA?5?$AAc@ 10002fd0     store.obj
+ 0001:00002040       ??_C@_1FM@KLFFGMGM@?$AAC?$AAr?$AAe?$AAd?$AAS?$AAt?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAa?$AAd?$AAd?$AA?5?$AAc?$AAr?$AAe?$AAd?$AA?5?$AAd?$AAu@ 10003040     store.obj
+ 0001:000020a0       ??_C@_1EK@BNOOIIGN@?$AAC?$AAr?$AAe?$AAd?$AAS?$AAt?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAu?$AAn?$AAm?$AAa?$AAr?$AAs?$AAh?$AAa?$AAl?$AAl?$AA?5@ 100030a0     store.obj
+ 0001:000020f0       ??_C@_1GE@OLOOFLOP@?$AAC?$AAr?$AAe?$AAd?$AAS?$AAt?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAd?$AAe?$AAc?$AAr?$AAy?$AAp?$AAt?$AA?5?$AAc?$AAr?$AAe@ 100030f0     store.obj
+ 0001:00002158       ??_C@_1FO@NCPNBNJP@?$AAC?$AAr?$AAe?$AAd?$AAS?$AAt?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAR?$AAe?$AAa?$AAd?$AA?5?$AAc?$AAr?$AAe?$AAd?$AA?5?$AAo?$AAf?$AA?5?$AAs?$AAi?$AAz?$AAe?$AA?5?$AA?$FL?$AA?$CF?$AAu@ 10003158     store.obj
+ 0001:000021b8       ??_C@_1EI@OEGIJJKM@?$AAC?$AAr?$AAe?$AAd?$AAS?$AAt?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAL?$AAo?$AAa?$AAd?$AAi?$AAn?$AAg?$AA?5?$AAc?$AAr?$AAe?$AAd?$AAs?$AA?5?$AAf?$AAr?$AAo?$AAm?$AA?5?$AAs?$AAt@ 100031b8     store.obj
+ 0001:00002200       ??_C@_1FG@JJHOBJCO@?$AAC?$AAr?$AAe?$AAd?$AAS?$AAt?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAR?$AAe?$AAg?$AAi?$AAs?$AAt?$AAr?$AAy?$AA?5?$AAp?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?5?$AAD?$AAe?$AAI@ 10003200     regstore.obj
+ 0001:00002258       ??_C@_1EM@BDCIEMPE@?$AAC?$AAr?$AAe?$AAd?$AAS?$AAt?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAG?$AAe?$AAt?$AAF?$AAr?$AAe?$AAe?$AAS?$AAl?$AAo?$AAt?$AA?5?$AAr?$AAe?$AAt?$AAu?$AAr?$AAn?$AAi?$AAn?$AAg@ 10003258     regstore.obj
+ 0001:000022a4       ??_C@_1BC@EMEJCIK@?$AAF?$AAr?$AAe?$AAe?$AAS?$AAl?$AAo?$AAt?$AA?$AA@ 100032a4     regstore.obj
+ 0001:000022b8       ??_C@_1EO@PMLBNILP@?$AAC?$AAr?$AAe?$AAd?$AAS?$AAt?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAu?$AAp?$AAd?$AAa?$AAt?$AAe?$AA?5?$AAc?$AAr?$AAe?$AAd@ 100032b8     regstore.obj
+ 0001:00002308       ??_C@_1BC@GCPJBPGC@?$AAN?$AAu?$AAm?$AAC?$AAr?$AAe?$AAd?$AAs?$AA?$AA@ 10003308     regstore.obj
+ 0001:00002320       ??_C@_1EM@OEBKKAAD@?$AAC?$AAr?$AAe?$AAd?$AAS?$AAt?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAD?$AAe?$AAl?$AAe?$AAt?$AAi?$AAn?$AAg?$AA?5?$AAc?$AAr?$AAe?$AAd?$AA?5?$AAa?$AAt?$AA?5?$AAs?$AAl?$AAo?$AAt@ 10003320     regstore.obj
+ 0001:0000236c       ??_7CRegStoreProvider@@6B@ 1000336c     regstore.obj
+ 0001:00002388       ??_C@_1FC@PCPNPLJM@?$AAC?$AAr?$AAe?$AAd?$AAS?$AAt?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAR?$AAe?$AAg?$AAi?$AAs?$AAt?$AAr?$AAy?$AA?5?$AAp?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?5?$AAI?$AAn?$AAi@ 10003388     regstore.obj
+ 0001:000023e0       ??_C@_1HC@HMAKKLBL@?$AAC?$AAr?$AAe?$AAd?$AAS?$AAt?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAr?$AAe?$AAa?$AAd?$AA?1?$AAc?$AAr?$AAe?$AAa?$AAt?$AAe@ 100033e0     regstore.obj
+ 0001:00002458       ??_C@_1HC@HOAPOHLF@?$AAC?$AAr?$AAe?$AAd?$AAS?$AAt?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAr?$AAe?$AAa?$AAd?$AA?1?$AAc?$AAr?$AAe?$AAa?$AAt?$AAe@ 10003458     regstore.obj
+ 0001:000024cc       ??_C@_19PEALEEJB@?$AAH?$AAK?$AAL?$AAM?$AA?$AA@ 100034cc     regstore.obj
+ 0001:000024d8       ??_C@_1JC@HEFMHHGJ@?$AAC?$AAr?$AAe?$AAd?$AAS?$AAt?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAo?$AAp?$AAe?$AAn?$AA?5?$AAo?$AAr?$AA?5?$AAc?$AAr?$AAe@ 100034d8     regstore.obj
+ 0001:0000256c       ??_C@_1DI@FHHGODDI@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAS?$AAe?$AAc?$AAu?$AAr?$AAi?$AAt?$AAy?$AA?2?$AAC?$AAr?$AAe?$AAd?$AAm?$AAa?$AAn?$AA?2?$AAC?$AAr?$AAe?$AAd?$AAs?$AA?$AA@ 1000356c     regstore.obj
+ 0001:000025a8       ??_C@_1GC@FNMLBHFO@?$AAC?$AAr?$AAe?$AAd?$AAS?$AAt?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAS?$AAt?$AAo?$AAr?$AAe?$AAd?$AA?5?$AAc?$AAr?$AAe?$AAd?$AA?5?$AAo?$AAf?$AA?5?$AAs?$AAi?$AAz?$AAe?$AA?5?$AA?$FL@ 100035a8     regstore.obj
+ 0001:00002610       ??_C@_1FM@GPNPNMBO@?$AAC?$AAr?$AAe?$AAd?$AAS?$AAt?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAs?$AAt?$AAo?$AAr?$AAe?$AA?5?$AAc?$AAr?$AAe?$AAd?$AA?5@ 10003610     regstore.obj
+ 0001:0000266c       ??_C@_19GLPAEDHK@?$AAC?$AAr?$AAe?$AAd?$AA?$AA@ 1000366c     regstore.obj
+ 0001:00002678       ??_C@_1GC@KGANDJAE@?$AAC?$AAr?$AAe?$AAd?$AAS?$AAt?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAo?$AAp?$AAe?$AAn?$AA?1?$AAc?$AAr?$AAe?$AAa?$AAt?$AAe@ 10003678     regstore.obj
+ 0001:000026e0       ??_C@_1EK@MLPPIPOD@?$AAC?$AAr?$AAe?$AAd?$AAS?$AAt?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAI?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5?$AAs?$AAl?$AAo?$AAt?$AA?5?$AAs?$AAu?$AAb?$AA?5?$AAk?$AAe?$AAy?$AA?5@ 100036e0     regstore.obj
+ 0001:00002730       ??_C@_1FK@MLNOMFBJ@?$AAC?$AAr?$AAe?$AAd?$AAS?$AAt?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAr?$AAe?$AAa?$AAd?$AA?5?$AAc?$AAr?$AAe?$AAd?$AA?5?$AAi@ 10003730     regstore.obj
+ 0001:00002790       ??_C@_1FI@JJKNLFFL@?$AAC?$AAr?$AAe?$AAd?$AAS?$AAt?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAr?$AAe?$AAa?$AAd?$AA?5?$AAc?$AAr?$AAe?$AAd?$AA?5?$AAs@ 10003790     regstore.obj
+ 0001:000027e8       ??_C@_1GK@EFMMNMAN@?$AAC?$AAr?$AAe?$AAd?$AAS?$AAt?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAR?$AAe?$AAt?$AAu?$AAr?$AAn?$AAe?$AAd?$AA?5?$AAc?$AAr?$AAe?$AAd?$AA?5?$AAo?$AAf?$AA?5?$AAs?$AAi?$AAz?$AAe@ 100037e8     regstore.obj
+ 0001:00002858       ??_C@_1FE@GEFMCBIN@?$AAC?$AAr?$AAe?$AAd?$AAS?$AAt?$AAo?$AAr?$AAe?$AA?3?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAo?$AAp?$AAe?$AAn?$AA?5?$AAs?$AAl?$AAo?$AAt?$AA?5?$AAe@ 10003858     regstore.obj
+ 0001:000028d0       ?svsutil_RunFunctionOnThreadAndBlockUntilComplete@@YAKP6AKPAX@Z0P6AKQAX@Z@Z 100038d0 f i credsvc.obj
+ 0001:00002974       ?svsutil_WaitUntilEventSignalled@@YAKQAX@Z 10003974 f i credsvc.obj
+ 0001:00002994       DllMain                    10003994 f   credsvc.obj
+ 0001:00002a14       ?CredInitThread@@YAKPAX@Z  10003a14 f   credsvc.obj
+ 0001:00002a5c       CRD_Init                   10003a5c f   credsvc.obj
+ 0001:00002b08       CRD_Deinit                 10003b08 f   credsvc.obj
+ 0001:00002b7c       CRD_Open                   10003b7c f   credsvc.obj
+ 0001:00002bac       CRD_Close                  10003bac f   credsvc.obj
+ 0001:00002be4       CRD_IOControl              10003be4 f   credsvc.obj
+ 0001:00002ca8       CRD_Read                   10003ca8 f   credsvc.obj
+ 0001:00002cb0       CRD_Write                  10003cb0 f   credsvc.obj
+ 0001:00002cb8       CRD_Seek                   10003cb8 f   credsvc.obj
+ 0001:00002cc0       CRD_PowerUp                10003cc0 f   credsvc.obj
+ 0001:00002cc4       CRD_PowerDown              10003cc4 f   credsvc.obj
+ 0001:00002cc8       ?get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ 10003cc8 f i credsvc.obj
+ 0001:00002d24       TraceMsg                   10003d24 f   trace.obj
+ 0001:00002d84       ?EnumKey@CReg@@QAAHPAGK@Z  10003d84 f i typeprov.obj
+ 0001:00002df0       ?ValueSZ@CReg@@QAAPBGPBG@Z 10003df0 f i typeprov.obj
+ 0001:00002ed4       ?ValueDW@CReg@@QAAKPBGK@Z  10003ed4 f i typeprov.obj
+ 0001:00002f28       ?LoadProvider@CTypeProvider@@QAAKXZ 10003f28 f   typeprov.obj
+ 0001:00002f80       ?UnLoadProvider@CTypeProvider@@QAAKXZ 10003f80 f   typeprov.obj
+ 0001:00002fd8       ?MatchTarget@CTypeProvider@@QAAKPBG0PAH@Z 10003fd8 f   typeprov.obj
+ 0001:000030bc       ?MatchUser@CTypeProvider@@QAAKPBG0PAH@Z 100040bc f   typeprov.obj
+ 0001:000031a0       ?HandleBlob@CTypeProvider@@QAAKPBG0QAEKPAEPAK@Z 100041a0 f   typeprov.obj
+ 0001:00003284       ??0CTypeProvider@@QAA@XZ   10004284 f   typeprov.obj
+ 0001:000032a8       ?Load@CTypeProvider@@QAAKPBG@Z 100042a8 f   typeprov.obj
+ 0001:00003568       ?Unload@CTypeProvider@@QAAKXZ 10004568 f   typeprov.obj
+ 0001:000035e8       ?_Buynode@?$list@KVallocator@ce@@@ce@@IAAPAU?$_ListNode@K@list_impl@2@PAU342@@Z 100045e8 f i typeprov.obj
+ 0001:00003634       ?_Buynode@?$list@U?$pair@KVCTypeProvider@@@std@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@U?$pair@KVCTypeProvider@@@std@@@list_impl@2@PAU342@@Z 10004634 f i typeprov.obj
+ 0001:00003680       ?_Buynode@?$list@U?$pair@KVCVTypeProvider@@@std@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@U?$pair@KVCVTypeProvider@@@std@@@list_impl@2@PAU342@@Z 10004680 f i typeprov.obj
+ 0001:000036cc       ?Open@CReg@@QAAHPAUHKEY__@@PBGK@Z 100046cc f i typeprov.obj
+ 0001:00003734       ?erase@?$list@KVallocator@ce@@@ce@@QAA?AV?$iterator@K@list_impl@2@V342@@Z 10004734 f i typeprov.obj
+ 0001:00003790       ?erase@?$list@KVallocator@ce@@@ce@@QAA?AV?$iterator@K@list_impl@2@V342@0@Z 10004790 f i typeprov.obj
+ 0001:000037e8       ?erase@?$list@U?$pair@KVCTypeProvider@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@KVCTypeProvider@@@std@@@list_impl@2@V342@@Z 100047e8 f i typeprov.obj
+ 0001:00003844       ??$_Swap@Vallocator@ce@@@?$list@KV?$reference_allocator@Vallocator@ce@@@details@ce@@@ce@@IAAXAAV?$list@KVallocator@ce@@@1@@Z 10004844 f i typeprov.obj
+ 0001:0000390c       ?erase@?$list@U?$pair@KVCTypeProvider@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@KVCTypeProvider@@@std@@@list_impl@2@V342@0@Z 1000490c f i typeprov.obj
+ 0001:00003964       ?erase@?$vector@U?$pair@V?$iterator@K@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAAPAU?$pair@V?$iterator@K@list_impl@ce@@I@std@@PAU34@0@Z 10004964 f i typeprov.obj
+ 0001:000039c8       ?erase@?$vector@KVallocator@ce@@U?$exponential_growth@$09@2@@ce@@QAAPAKPAK0@Z 100049c8 f i typeprov.obj
+ 0001:00003a20       ?erase@?$vector@U?$pair@V?$iterator@U?$pair@KVCTypeProvider@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAAPAU?$pair@V?$iterator@U?$pair@KVCTypeProvider@@@std@@@list_impl@ce@@I@std@@PAU34@0@Z 10004a20 f i typeprov.obj
+ 0001:00003a84       ?erase@?$vector@U?$pair@V?$iterator@U?$pair@KVCVTypeProvider@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAAPAU?$pair@V?$iterator@U?$pair@KVCVTypeProvider@@@std@@@list_impl@ce@@I@std@@PAU34@0@Z 10004a84 f i typeprov.obj
+ 0001:00003ae8       ?erase@?$list@KV?$reference_allocator@Vallocator@ce@@@details@ce@@@ce@@QAA?AV?$iterator@K@list_impl@2@V342@@Z 10004ae8 f i typeprov.obj
+ 0001:00003b44       ?erase@?$vector@U?$pair@V?$iterator@K@list_impl@ce@@I@std@@V?$reference_allocator@Vallocator@ce@@@details@ce@@U?$exponential_growth@$09@5@@ce@@QAAPAU?$pair@V?$iterator@K@list_impl@ce@@I@std@@PAU34@0@Z 10004b44 f i typeprov.obj
+ 0001:00003ba8       ?erase@?$vector@U?$pair@V?$iterator@U?$pair@KVCTypeProvider@@@std@@@list_impl@ce@@I@std@@V?$reference_allocator@Vallocator@ce@@@details@ce@@U?$exponential_growth@$09@5@@ce@@QAAPAU?$pair@V?$iterator@U?$pair@KVCTypeProvider@@@std@@@list_impl@ce@@I@std@@PAU34@0@Z 10004ba8 f i typeprov.obj
+ 0001:00003c0c       ?erase@?$vector@U?$pair@V?$iterator@U?$pair@KVCVTypeProvider@@@std@@@list_impl@ce@@I@std@@V?$reference_allocator@Vallocator@ce@@@details@ce@@U?$exponential_growth@$09@5@@ce@@QAAPAU?$pair@V?$iterator@U?$pair@KVCVTypeProvider@@@std@@@list_impl@ce@@I@std@@PAU34@0@Z 10004c0c f i typeprov.obj
+ 0001:00003c70       ??$insert@K@?$list@KVallocator@ce@@@ce@@QAA?AV?$iterator@K@list_impl@1@V231@ABK@Z 10004c70 f i typeprov.obj
+ 0001:00003cb8       ??$insert@U?$pair@KVCTypeProvider@@@std@@@?$list@U?$pair@KVCTypeProvider@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@KVCTypeProvider@@@std@@@list_impl@1@V231@ABU?$pair@KVCTypeProvider@@@std@@@Z 10004cb8 f i typeprov.obj
+ 0001:00003d0c       ?erase@?$hash@V?$hash_set_traits@KU?$hash_traits@K@ce@@Vallocator@2@@details@ce@@@details@ce@@QAA?AV?$iterator@K@list_impl@3@V453@@Z 10004d0c f i typeprov.obj
+ 0001:00003d78       ?clear@?$hash@V?$hash_set_traits@KU?$hash_traits@K@ce@@Vallocator@2@@details@ce@@@details@ce@@QAAXXZ 10004d78 f i typeprov.obj
+ 0001:00003dc8       ?clear@?$hash@V?$hash_map_traits@KVCTypeProvider@@U?$hash_traits@K@ce@@Vallocator@3@@details@ce@@@details@ce@@QAAXXZ 10004dc8 f i typeprov.obj
+ 0001:00003e18       ?erase@?$list@KV?$reference_allocator@Vallocator@ce@@@details@ce@@@ce@@QAA?AV?$iterator@K@list_impl@2@V342@0@Z 10004e18 f i typeprov.obj
+ 0001:00003e70       ?UnloadTypeProviders@CProviders@@QAAKXZ 10004e70 f   typeprov.obj
+ 0001:00003ed0       ??1?$hash@V?$hash_set_traits@KU?$hash_traits@K@ce@@Vallocator@2@@details@ce@@@details@ce@@QAA@XZ 10004ed0 f i typeprov.obj
+ 0001:00003f10       ?_Insert_dispatch@?$vector@U?$pair@V?$iterator@K@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@AAA_NPAU?$pair@V?$iterator@K@list_impl@ce@@I@std@@IABU34@ABUtrue_type@detail@2@@Z 10004f10 f i typeprov.obj
+ 0001:00004158       ?_Insert_dispatch@?$vector@U?$pair@V?$iterator@U?$pair@KVCTypeProvider@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@AAA_NPAU?$pair@V?$iterator@U?$pair@KVCTypeProvider@@@std@@@list_impl@ce@@I@std@@IABU34@ABUtrue_type@detail@2@@Z 10005158 f i typeprov.obj
+ 0001:000043a0       ?_Insert_dispatch@?$vector@U?$pair@V?$iterator@U?$pair@KVCVTypeProvider@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@AAA_NPAU?$pair@V?$iterator@U?$pair@KVCVTypeProvider@@@std@@@list_impl@ce@@I@std@@IABU34@ABUtrue_type@detail@2@@Z 100053a0 f i typeprov.obj
+ 0001:000045e8       ??0CVTypeProvider@@QAA@XZ  100055e8 f   typeprov.obj
+ 0001:0000462c       ?erase@?$list@U?$pair@KVCVTypeProvider@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@KVCVTypeProvider@@@std@@@list_impl@2@V342@@Z 1000562c f i typeprov.obj
+ 0001:00004694       ?erase@?$list@U?$pair@KVCVTypeProvider@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@KVCVTypeProvider@@@std@@@list_impl@2@V342@0@Z 10005694 f i typeprov.obj
+ 0001:000046ec       ?resize@?$vector@U?$pair@V?$iterator@K@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAA_NIABU?$pair@V?$iterator@K@list_impl@ce@@I@std@@@Z 100056ec f i typeprov.obj
+ 0001:00004748       ?resize@?$vector@U?$pair@V?$iterator@U?$pair@KVCTypeProvider@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAA_NIABU?$pair@V?$iterator@U?$pair@KVCTypeProvider@@@std@@@list_impl@ce@@I@std@@@Z 10005748 f i typeprov.obj
+ 0001:000047a4       ?resize@?$vector@U?$pair@V?$iterator@U?$pair@KVCVTypeProvider@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAA_NIABU?$pair@V?$iterator@U?$pair@KVCVTypeProvider@@@std@@@list_impl@ce@@I@std@@@Z 100057a4 f i typeprov.obj
+ 0001:00004800       ?erase@?$hash@V?$hash_map_traits@KVCVTypeProvider@@U?$hash_traits@K@ce@@Vallocator@3@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@KVCVTypeProvider@@@std@@@list_impl@3@V453@@Z 10005800 f i typeprov.obj
+ 0001:0000486c       ?clear@?$hash@V?$hash_map_traits@KVCVTypeProvider@@U?$hash_traits@K@ce@@Vallocator@3@@details@ce@@@details@ce@@QAAXXZ 1000586c f i typeprov.obj
+ 0001:000048bc       ?_copy@?$hash@V?$hash_set_traits@KU?$hash_traits@K@ce@@Vallocator@2@@details@ce@@@details@ce@@IAA_NABV123@@Z 100058bc f i typeprov.obj
+ 0001:000049c8       ?UnloadVTypeProviders@CProviders@@QAAKXZ 100059c8 f   typeprov.obj
+ 0001:00004a10       ??0?$hash@V?$hash_set_traits@KU?$hash_traits@K@ce@@Vallocator@2@@details@ce@@@details@ce@@QAA@ABV012@@Z 10005a10 f i typeprov.obj
+ 0001:00004a50       ?assign@?$hash@V?$hash_set_traits@KU?$hash_traits@K@ce@@Vallocator@2@@details@ce@@@details@ce@@QAA_NABV123@@Z 10005a50 f i typeprov.obj
+ 0001:00004b88       ?_ready@?$hash@V?$hash_set_traits@KU?$hash_traits@K@ce@@Vallocator@2@@details@ce@@@details@ce@@IAA_NXZ 10005b88 f i typeprov.obj
+ 0001:00004be0       ?_ready@?$hash@V?$hash_map_traits@KVCTypeProvider@@U?$hash_traits@K@ce@@Vallocator@3@@details@ce@@@details@ce@@IAA_NXZ 10005be0 f i typeprov.obj
+ 0001:00004c38       ?_ready@?$hash@V?$hash_map_traits@KVCVTypeProvider@@U?$hash_traits@K@ce@@Vallocator@3@@details@ce@@@details@ce@@IAA_NXZ 10005c38 f i typeprov.obj
+ 0001:00004c90       ?UnloadProviders@CProviders@@QAAKXZ 10005c90 f   typeprov.obj
+ 0001:00004cac       ?insert@?$hash@V?$hash_set_traits@KU?$hash_traits@K@ce@@Vallocator@2@@details@ce@@@details@ce@@QAA?AV?$iterator@K@list_impl@3@ABK@Z 10005cac f i typeprov.obj
+ 0001:00004d68       ?insert@?$hash@V?$hash_map_traits@KVCTypeProvider@@U?$hash_traits@K@ce@@Vallocator@3@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@KVCTypeProvider@@@std@@@list_impl@3@ABU?$pair@KVCTypeProvider@@@std@@@Z 10005d68 f i typeprov.obj
+ 0001:00004e24       ?find@?$hash@V?$hash_map_traits@KVCTypeProvider@@U?$hash_traits@K@ce@@Vallocator@3@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@KVCTypeProvider@@@std@@@list_impl@3@ABK@Z 10005e24 f i typeprov.obj
+ 0001:00004e9c       ?find@?$hash@V?$hash_map_traits@KVCVTypeProvider@@U?$hash_traits@K@ce@@Vallocator@3@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@KVCVTypeProvider@@@std@@@list_impl@3@ABK@Z 10005e9c f i typeprov.obj
+ 0001:00004f14       ?Load@CVTypeProvider@@QAAKPAG@Z 10005f14 f   typeprov.obj
+ 0001:00004fd4       ?Validate@CProviders@@QAAKXZ 10005fd4 f   typeprov.obj
+ 0001:00005138       ?LoadTypeProviders@CProviders@@QAAKXZ 10006138 f   typeprov.obj
+ 0001:0000542c       ?GetPriTypeProvider@CProviders@@QAAKKAAVCTypeProvider@@@Z 1000642c f   typeprov.obj
+ 0001:00005484       ??$insert@U?$pair@KVCVTypeProvider@@@std@@@?$list@U?$pair@KVCVTypeProvider@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@KVCVTypeProvider@@@std@@@list_impl@1@V231@ABU?$pair@KVCVTypeProvider@@@std@@@Z 10006484 f i typeprov.obj
+ 0001:000054e4       ?GetVirTypeProvider@CProviders@@QAAKKAAVCVTypeProvider@@@Z 100064e4 f   typeprov.obj
+ 0001:00005544       ?insert@?$hash@V?$hash_map_traits@KVCVTypeProvider@@U?$hash_traits@K@ce@@Vallocator@3@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@KVCVTypeProvider@@@std@@@list_impl@3@ABU?$pair@KVCVTypeProvider@@@std@@@Z 10006544 f i typeprov.obj
+ 0001:00005608       ?LoadVTypeProviders@CProviders@@QAAKXZ 10006608 f   typeprov.obj
+ 0001:000058e8       ?LoadProviders@CProviders@@QAAKXZ 100068e8 f   typeprov.obj
+ 0001:00005908       ?erase@?$vector@U?$pair@V?$iterator@U?$pair@KVCCredList@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAAPAU?$pair@V?$iterator@U?$pair@KVCCredList@@@std@@@list_impl@ce@@I@std@@PAU34@0@Z 10006908 f i globals.obj
+ 0001:0000596c       ?erase@?$list@VCCred@@Vallocator@ce@@@ce@@QAA?AV?$iterator@VCCred@@@list_impl@2@V342@@Z 1000696c f i globals.obj
+ 0001:000059c8       ?erase@?$list@VCCred@@Vallocator@ce@@@ce@@QAA?AV?$iterator@VCCred@@@list_impl@2@V342@0@Z 100069c8 f i globals.obj
+ 0001:00005a20       ??1?$hash@V?$hash_map_traits@KVCTypeProvider@@U?$hash_traits@K@ce@@Vallocator@3@@details@ce@@@details@ce@@QAA@XZ 10006a20 f i globals.obj
+ 0001:00005a60       ?erase@?$list@U?$pair@KVCCredList@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@KVCCredList@@@std@@@list_impl@2@V342@@Z 10006a60 f i globals.obj
+ 0001:00005adc       ?erase@?$list@U?$pair@KVCCredList@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@KVCCredList@@@std@@@list_impl@2@V342@0@Z 10006adc f i globals.obj
+ 0001:00005b34       ??1?$hash@V?$hash_map_traits@KVCCredList@@U?$hash_traits@K@ce@@Vallocator@3@@details@ce@@@details@ce@@QAA@XZ 10006b34 f i globals.obj
+ 0001:00005b74       ??1?$hash@V?$hash_map_traits@KVCVTypeProvider@@U?$hash_traits@K@ce@@Vallocator@3@@details@ce@@@details@ce@@QAA@XZ 10006b74 f i globals.obj
+ 0001:00005bb4       ??0CProviders@@QAA@XZ      10006bb4 f i globals.obj
+ 0001:00005c2c       ?ReleaseCredResources@CCred@@QAAXXZ 10006c2c f   CredList.obj
+ 0001:00005cb4       ?UnPersistCred@CCred@@QAAKPAVCStoreProvider@@@Z 10006cb4 f   CredList.obj
+ 0001:00005d30       ?MakeCred@CCred@@QAAXPAU_CRED@@H@Z 10006d30 f   CredList.obj
+ 0001:00005d8c       ?CopyUserTarget@CCred@@AAAKQAU_CRED@@@Z 10006d8c f   CredList.obj
+ 0001:00005e50       ?CopyUser@CCred@@AAAKQAU_CRED@@@Z 10006e50 f   CredList.obj
+ 0001:00005ea4       ?CopyBlob@CCred@@AAAKQAEKKPAVCTypeProvider@@@Z 10006ea4 f   CredList.obj
+ 0001:00005fc0       ?_Buynode@?$list@VCCred@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@VCCred@@@list_impl@2@PAU342@@Z 10006fc0 f i CredList.obj
+ 0001:0000600c       ?_Buynode@?$list@U?$pair@KVCCredList@@@std@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@U?$pair@KVCCredList@@@std@@@list_impl@2@PAU342@@Z 1000700c f i CredList.obj
+ 0001:00006058       ?EncryptCred@CCred@@AAAPAEPAK@Z 10007058 f   CredList.obj
+ 0001:00006108       ?CopyTarget@CCred@@AAAKQAU_CRED@@@Z 10007108 f   CredList.obj
+ 0001:00006170       ?PersistCred@CCred@@QAAKPAVCStoreProvider@@@Z 10007170 f   CredList.obj
+ 0001:0000628c       ?NewCred@CCred@@QAAKQAU_CRED@@KPAVCTypeProvider@@@Z 1000728c f   CredList.obj
+ 0001:0000634c       ?UpdateHelper@CCred@@QAAKQAU_CRED@@KPAVCTypeProvider@@@Z 1000734c f   CredList.obj
+ 0001:00006474       ?erase@?$vector@U?$pair@V?$iterator@U?$pair@KVCCredList@@@std@@@list_impl@ce@@I@std@@V?$reference_allocator@Vallocator@ce@@@details@ce@@U?$exponential_growth@$09@5@@ce@@QAAPAU?$pair@V?$iterator@U?$pair@KVCCredList@@@std@@@list_impl@ce@@I@std@@PAU34@0@Z 10007474 f i CredList.obj
+ 0001:000064d8       ??$insert@VCCred@@@?$list@VCCred@@Vallocator@ce@@@ce@@QAA?AV?$iterator@VCCred@@@list_impl@1@V231@ABVCCred@@@Z 100074d8 f i CredList.obj
+ 0001:0000652c       ?DeleteCreds@CCredList@@QAAXH@Z 1000752c f   CredList.obj
+ 0001:00006594       ?DeleteCred@CCredList@@QAAKQAUI_CRED_DELETE@@@Z 10007594 f   CredList.obj
+ 0001:000066f8       ?GetSuitableCredentials@CCredList@@AAAKPAVCTypeProvider@@PBGKKPAV?$iterator@VCCred@@@list_impl@ce@@2@Z 100076f8 f   CredList.obj
+ 0001:00006864       ?PropagateBlobChange@CCredList@@AAAXPAVCTypeProvider@@PBGQAEK@Z 10007864 f   CredList.obj
+ 0001:00006940       ?insert@?$list@VCCred@@Vallocator@ce@@@ce@@QAA_NV?$iterator@VCCred@@@list_impl@2@V?$const_iterator@VCCred@@@42@1@Z 10007940 f i CredList.obj
+ 0001:000069b8       ?ReadCred@CCredList@@QAAKQAUI_CRED_READ@@@Z 100079b8 f   CredList.obj
+ 0001:00006adc       ?AddCred@CCredList@@QAAKQAUI_CRED_WRITE@@K@Z 10007adc f   CredList.obj
+ 0001:00006d88       ??0?$list@VCCred@@Vallocator@ce@@@ce@@QAA@ABV01@@Z 10007d88 f i CredList.obj
+ 0001:00006dcc       ?_Insert_dispatch@?$vector@U?$pair@V?$iterator@U?$pair@KVCCredList@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@AAA_NPAU?$pair@V?$iterator@U?$pair@KVCCredList@@@std@@@list_impl@ce@@I@std@@IABU34@ABUtrue_type@detail@2@@Z 10007dcc f i CredList.obj
+ 0001:00007014       ??$insert@U?$pair@KVCCredList@@@std@@@?$list@U?$pair@KVCCredList@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@KVCCredList@@@std@@@list_impl@1@V231@ABU?$pair@KVCCredList@@@std@@@Z 10008014 f i CredList.obj
+ 0001:0000706c       ?clear@?$hash@V?$hash_map_traits@KVCCredList@@U?$hash_traits@K@ce@@Vallocator@3@@details@ce@@@details@ce@@QAAXXZ 1000806c f i CredList.obj
+ 0001:000070bc       ?resize@?$vector@U?$pair@V?$iterator@U?$pair@KVCCredList@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAA_NIABU?$pair@V?$iterator@U?$pair@KVCCredList@@@std@@@list_impl@ce@@I@std@@@Z 100080bc f i CredList.obj
+ 0001:00007118       ?DeleteCreds@CCredMap@@QAAXH@Z 10008118 f   CredList.obj
+ 0001:00007158       ?_ready@?$hash@V?$hash_map_traits@KVCCredList@@U?$hash_traits@K@ce@@Vallocator@3@@details@ce@@@details@ce@@IAA_NXZ 10008158 f i CredList.obj
+ 0001:000071b0       ?find@?$hash@V?$hash_map_traits@KVCCredList@@U?$hash_traits@K@ce@@Vallocator@3@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@KVCCredList@@@std@@@list_impl@3@ABK@Z 100081b0 f i CredList.obj
+ 0001:00007228       ?insert@?$hash@V?$hash_map_traits@KVCCredList@@U?$hash_traits@K@ce@@Vallocator@3@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@KVCCredList@@@std@@@list_impl@3@ABU?$pair@KVCCredList@@@std@@@Z 10008228 f i CredList.obj
+ 0001:000072e4       ??0CCredMap@@QAA@XZ        100082e4 f   CredList.obj
+ 0001:00007328       ?DeletePrimitiveCred@CCredMap@@QAAKQAUI_CRED_DELETE@@@Z 10008328 f   CredList.obj
+ 0001:0000739c       ?ReadPrimitiveCred@CCredMap@@QAAKQAUI_CRED_READ@@@Z 1000839c f   CredList.obj
+ 0001:00007410       ?insert@?$hash_map@KVCCredList@@U?$hash_traits@K@ce@@Vallocator@3@@ce@@QAA?AV?$iterator@U?$pair@KVCCredList@@@std@@@list_impl@2@ABKABVCCredList@@@Z 10008410 f i CredList.obj
+ 0001:00007464       ?DeleteVirtualCred@CCredMap@@QAAKQAUI_CRED_DELETE@@@Z 10008464 f   CredList.obj
+ 0001:00007594       ?ReadVirtualCred@CCredMap@@QAAKQAUI_CRED_READ@@@Z 10008594 f   CredList.obj
+ 0001:0000765c       ?AddPrimitiveCred@CCredMap@@QAAKQAUI_CRED_WRITE@@K@Z 1000865c f   CredList.obj
+ 0001:00007748       ?AddVirtualCred@CCredMap@@QAAKQAUI_CRED_WRITE@@@Z 10008748 f   CredList.obj
+ 0001:00007884       ?CredSvcInit@@YAKK@Z       10008884 f   ops.obj
+ 0001:00007954       ?CredSvcDeinit@@YAHK@Z     10008954 f   ops.obj
+ 0001:000079cc       ?HandleServiceStatus@@YAKQAEKPAEK@Z 100089cc f   ops.obj
+ 0001:00007a34       ?ICredDelete@@YAKQAUI_CRED_DELETE@@@Z 10008a34 f   ops.obj
+ 0001:00007a94       ?ICredRead@@YAKQAUI_CRED_READ@@@Z 10008a94 f   ops.obj
+ 0001:00007b00       ?ICredWrite@@YAKQAUI_CRED_WRITE@@K@Z 10008b00 f   ops.obj
+ 0001:00007b94       ?_Grow@?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@IAA_NI@Z 10008b94 f i ops.obj
+ 0001:00007c24       ?_Buynode@?$list@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@2@PAU342@@Z 10008c24 f i ops.obj
+ 0001:00007c70       ?_Buynode@?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@IAAPAU?$_ListNode@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@@list_impl@2@PAU342@@Z 10008c70 f i ops.obj
+ 0001:00007cbc       ?unmarshal@?$pc_marshaler_for_psl_buffer_wrapper@EU_CRED@@@ce@@QBA?AV?$psl_buffer_wrapper@PAE@2@AAVStream@2@@Z 10008cbc f i ops.obj
+ 0001:00007d40       ?verify_ptr@AllocatedStream@ce@@UAAPAXII@Z 10008d40 f i ops.obj
+ 0001:00007d6c       ?HandleCredDelete@@YAKPBGKKK@Z 10008d6c f   ops.obj
+ 0001:00007e3c       ?HandleCredRead@@YAKPBGKKKVCRED_OUT@@PAK@Z 10008e3c f   ops.obj
+ 0001:00007f8c       ?HandleCredWrite@@YAKPAU_CRED@@K@Z 10008f8c f   ops.obj
+ 0001:00008158       ?unmarshal@?$pc_marshaler_for_psl_buffer_wrapper@EE@ce@@QBA?AV?$psl_buffer_wrapper@PAE@2@AAVStream@2@@Z 10009158 f i ops.obj
+ 0001:000081dc       ?assign@?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@QAA_NPBGII@Z 100091dc f i ops.obj
+ 0001:00008244       ?get_lock@?$singleton@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@V?$static_allocator@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@@3@@ce@@KAAAVcritical_section@2@XZ 10009244 f i ops.obj
+ 0001:00008298       ??$insert@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@@?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@QAA?AV?$iterator@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@@list_impl@1@V231@ABQAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@1@@Z 10009298 f i ops.obj
+ 0001:000082e0       ?erase@?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@QAA?AV?$iterator@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@@list_impl@2@V342@@Z 100092e0 f i ops.obj
+ 0001:0000833c       ?erase@?$vector@U?$pair@V?$iterator@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAAPAU?$pair@V?$iterator@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@ce@@I@std@@PAU34@0@Z 1000933c f i ops.obj
+ 0001:000083a0       ?erase@?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@QAA?AV?$iterator@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@@list_impl@2@V342@0@Z 100093a0 f i ops.obj
+ 0001:000083f8       ?insert@?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@QAA_NV?$iterator@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@@list_impl@2@V?$const_iterator@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@@42@1@Z 100093f8 f i ops.obj
+ 0001:00008470       ?erase@?$vector@U?$pair@V?$iterator@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@ce@@I@std@@V?$reference_allocator@Vallocator@ce@@@details@ce@@U?$exponential_growth@$09@5@@ce@@QAAPAU?$pair@V?$iterator@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@ce@@I@std@@PAU34@0@Z 10009470 f i ops.obj
+ 0001:000084d4       ??$push_front@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@@?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@QAA_NABQAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@1@@Z 100094d4 f i ops.obj
+ 0001:00008514       ??0CopyInOutStream@ce@@QAA@PAEI@Z 10009514 f i ops.obj
+ 0001:0000858c       ??1CopyInOutStream@ce@@QAA@XZ 1000958c f i ops.obj
+ 0001:000085c8       ??0?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@QAA@PBG@Z 100095c8 f i ops.obj
+ 0001:00008638       ??0?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@QAA@ABV01@@Z 10009638 f i ops.obj
+ 0001:00008680       ?unmarshal@?$pc_marshaler_string@$$CBG@ce@@QBAPBGAAVStream@2@@Z 10009680 f i ops.obj
+ 0001:00008738       ?unmarshal@?$pc_marshaler@PAU_CRED@@@ce@@QBAPAU_CRED@@AAVStream@2@@Z 10009738 f i ops.obj
+ 0001:000087c4       ?erase@?$list@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@2@V342@@Z 100097c4 f i ops.obj
+ 0001:00008840       ?erase@?$list@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@2@V342@0@Z 10009840 f i ops.obj
+ 0001:00008898       ?_Insert_dispatch@?$vector@U?$pair@V?$iterator@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@AAA_NPAU?$pair@V?$iterator@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@ce@@I@std@@IABU34@ABUtrue_type@detail@2@@Z 10009898 f i ops.obj
+ 0001:00008ae0       ??$insert@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@?$list@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@1@V231@ABU?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@Z 10009ae0 f i ops.obj
+ 0001:00008b38       ?erase@?$hash@V?$hash_map_traits@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@U?$hash_traits@K@2@Vallocator@2@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@3@V453@@Z 10009b38 f i ops.obj
+ 0001:00008bac       ??$call@KPBGKKK@?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@QAAKP6AKPBGKKK@Z@Z 10009bac f i ops.obj
+ 0001:00008c3c       ??$call@KPBGKKKVCRED_OUT@@PAK@?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@QAAKP6AKPBGKKKVCRED_OUT@@PAK@Z@Z 10009c3c f i ops.obj
+ 0001:00008d30       ?resize@?$vector@U?$pair@V?$iterator@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAA_NIABU?$pair@V?$iterator@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@ce@@I@std@@@Z 10009d30 f i ops.obj
+ 0001:00008d94       ??$call@KPAU_CRED@@K@?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@QAAKP6AKPAU_CRED@@K@Z@Z 10009d94 f i ops.obj
+ 0001:00008e0c       ??1?$hash@V?$hash_map_traits@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@U?$hash_traits@K@2@Vallocator@2@@details@ce@@@details@ce@@QAA@XZ 10009e0c f i ops.obj
+ 0001:00008e4c       ?_ready@?$hash@V?$hash_map_traits@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@U?$hash_traits@K@2@Vallocator@2@@details@ce@@@details@ce@@IAA_NXZ 10009e4c f i ops.obj
+ 0001:00008ea4       ??0?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@QAA@XZ 10009ea4 f i ops.obj
+ 0001:00008ef4       ?find@?$hash@V?$hash_map_traits@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@U?$hash_traits@K@2@Vallocator@2@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@3@ABK@Z 10009ef4 f i ops.obj
+ 0001:00008f6c       ?insert@?$hash@V?$hash_map_traits@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@U?$hash_traits@K@2@Vallocator@2@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@3@ABU?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@Z 10009f6c f i ops.obj
+ 0001:00009028       ?create@?$singleton@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@V?$static_allocator@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@@3@@ce@@KAXXZ 1000a028 f i ops.obj
+ 0001:0000908c       ?erase@?$hash@V?$hash_map_traits@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@U?$hash_traits@K@2@Vallocator@2@@details@ce@@@details@ce@@QAAIABK@Z 1000a08c f i ops.obj
+ 0001:000090d8       ?insert@?$hash_map@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@U?$hash_traits@K@2@Vallocator@2@@ce@@QAA?AV?$iterator@U?$pair@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@std@@@list_impl@2@ABKABV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@2@@Z 1000a0d8 f i ops.obj
+ 0001:0000912c       ?release@?$singleton@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@V?$static_allocator@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@@3@@ce@@SAXXZ 1000a12c f i ops.obj
+ 0001:000091a0       ?clean_thread_data@?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@QAAXXZ 1000a1a0 f i ops.obj
+ 0001:000091e4       ??A?$hash_map@KV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@U?$hash_traits@K@2@Vallocator@2@@ce@@QAAPAV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@1@ABK@Z 1000a1e4 f i ops.obj
+ 0001:00009278       ?get_thread_data@?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@QAAPAV?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@3@XZ 1000a278 f i ops.obj
+ 0001:000092c4       ??1?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@UAA@XZ 1000a2c4 f i ops.obj
+ 0001:0000933c       ??_E?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@UAAPAXI@Z 1000a33c f i ops.obj
+ 0001:0000933c       ??_G?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@UAAPAXI@Z 1000a33c f i ops.obj
+ 0001:00009360       ??0?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@QAA@PAXK@Z 1000a360 f i ops.obj
+ 0001:00009428       ??_G?$pc_stub@PAX@ce@@UAAPAXI@Z 1000a428 f i ops.obj
+ 0001:00009428       ??_E?$pc_stub@PAX@ce@@UAAPAXI@Z 1000a428 f i ops.obj
+ 0001:0000944c       ?HandleIoControl@@YAKKQAEKPAEKPAK@Z 1000a44c f   ops.obj
+ 0001:00009554       ?EncryptBuf@@YAPAEQAEKPAK@Z 1000a554 f   utils.obj
+ 0001:000095dc       ?DecryptBuf@@YAPAEQAEKPAK@Z 1000a5dc f   utils.obj
+ 0001:00009664       ?ValidateStr@@YAHPBGKKH@Z  1000a664 f   utils.obj
+ 0001:000096c4       ?ValidateBuf@@YAHQAEKKH@Z  1000a6c4 f   utils.obj
+ 0001:000096ec       ?newStr@@YAPAGPBGK@Z       1000a6ec f   utils.obj
+ 0001:0000978c       ?newBuf@@YAPAEQAEK@Z       1000a78c f   utils.obj
+ 0001:000097d8       ?MarshallCred@@YAKQAU_CRED@@PAU1@PAK@Z 1000a7d8 f   utils.obj
+ 0001:000098f8       ?UnMarshallCred@@YAKPAU_CRED@@K@Z 1000a8f8 f i store.obj
+ 0001:00009994       ??0CStore@@QAA@XZ          1000a994 f   store.obj
+ 0001:000099a0       ?AttachProvider@CStore@@QAAKPAVCStoreProvider@@@Z 1000a9a0 f   store.obj
+ 0001:000099ec       ?DetachProvider@CStore@@QAAXXZ 1000a9ec f   store.obj
+ 0001:00009a18       ?LoadCreds@CStore@@QAAKXZ  1000aa18 f   store.obj
+ 0001:00009c24       ?SetDW@CReg@@QAAHPBGK@Z    1000ac24 f i regstore.obj
+ 0001:00009c6c       ?DeInit@CRegStoreProvider@@UAAXXZ 1000ac6c f   regstore.obj
+ 0001:00009cbc       ?GetFreeSlot@CRegStoreProvider@@UAAKXZ 1000acbc f   regstore.obj
+ 0001:00009d1c       ?DeleteCred@CRegStoreProvider@@UAAKK@Z 1000ad1c f   regstore.obj
+ 0001:00009e14       ?Create@CReg@@QAAHPAUHKEY__@@PBG@Z 1000ae14 f i regstore.obj
+ 0001:00009e94       ??0CRegStoreProvider@@QAA@XZ 1000ae94 f   regstore.obj
+ 0001:00009ec4       ?Init@CRegStoreProvider@@UAAKXZ 1000aec4 f   regstore.obj
+ 0001:0000a028       ?StoreCred@CRegStoreProvider@@UAAKKQAEK@Z 1000b028 f   regstore.obj
+ 0001:0000a280       ?EnumCreds@CRegStoreProvider@@UAAKKPAKPAPAE0@Z 1000b280 f   regstore.obj
+ 0001:0000a548       ?GetCred@CRegStoreProvider@@UAAPAEKPAK@Z 1000b548 f   regstore.obj
+ 0001:0000a778       svsutil_Initialize         1000b778 f   ceosutil:utilmem.obj
+ 0001:0000a77c       svsutil_DeInitialize       1000b77c f   ceosutil:utilmem.obj
+ 0001:0000a780       svsutil_Alloc              1000b780 f   ceosutil:utilmem.obj
+ 0001:0000a784       svsutil_ReAlloc            1000b784 f   ceosutil:utilmem.obj
+ 0001:0000a788       svsutil_Free               1000b788 f   ceosutil:utilmem.obj
+ 0001:0000a78c       InitializeCriticalSection  1000b78c f   coredll:COREDLL.dll
+ 0001:0000a79c       DeleteCriticalSection      1000b79c f   coredll:COREDLL.dll
+ 0001:0000a7ac       CloseHandle                1000b7ac f   coredll:COREDLL.dll
+ 0001:0000a7bc       GetExitCodeThread          1000b7bc f   coredll:COREDLL.dll
+ 0001:0000a7cc       CeSetThreadPriority        1000b7cc f   coredll:COREDLL.dll
+ 0001:0000a7dc       GetLastError               1000b7dc f   coredll:COREDLL.dll
+ 0001:0000a7ec       CreateThread               1000b7ec f   coredll:COREDLL.dll
+ 0001:0000a7fc       WaitForSingleObject        1000b7fc f   coredll:COREDLL.dll
+ 0001:0000a80c       DisableThreadLibraryCalls  1000b80c f   coredll:COREDLL.dll
+ 0001:0000a81c       LeaveCriticalSection       1000b81c f   coredll:COREDLL.dll
+ 0001:0000a82c       EnterCriticalSection       1000b82c f   coredll:COREDLL.dll
+ 0001:0000a83c       SetLastError               1000b83c f   coredll:COREDLL.dll
+ 0001:0000a84c       LocalFree                  1000b84c f   coredll:COREDLL.dll
+ 0001:0000a85c       RegCloseKey                1000b85c f   coredll:COREDLL.dll
+ 0001:0000a86c       RegEnumKeyExW              1000b86c f   coredll:COREDLL.dll
+ 0001:0000a87c       LocalAlloc                 1000b87c f   coredll:COREDLL.dll
+ 0001:0000a88c       RegQueryValueExW           1000b88c f   coredll:COREDLL.dll
+ 0001:0000a89c       FreeLibrary                1000b89c f   coredll:COREDLL.dll
+ 0001:0000a8ac       GetProcAddressW            1000b8ac f   coredll:COREDLL.dll
+ 0001:0000a8bc       LoadLibraryExW             1000b8bc f   coredll:COREDLL.dll
+ 0001:0000a8cc       RegOpenKeyExW              1000b8cc f   coredll:COREDLL.dll
+ 0001:0000a8dc       __GetUserKData             1000b8dc f   coredll:COREDLL.dll
+ 0001:0000a8ec       InterlockedIncrement       1000b8ec f   coredll:COREDLL.dll
+ 0001:0000a8fc       InterlockedDecrement       1000b8fc f   coredll:COREDLL.dll
+ 0001:0000a90c       CryptProtectData           1000b90c f   coredll:COREDLL.dll
+ 0001:0000a91c       CryptUnprotectData         1000b91c f   coredll:COREDLL.dll
+ 0001:0000a92c       StringCchCopyNW            1000b92c f   coredll:COREDLL.dll
+ 0001:0000a93c       StringCchLengthW           1000b93c f   coredll:COREDLL.dll
+ 0001:0000a94c       RegSetValueExW             1000b94c f   coredll:COREDLL.dll
+ 0001:0000a95c       RegDeleteKeyW              1000b95c f   coredll:COREDLL.dll
+ 0001:0000a96c       RegCreateKeyExW            1000b96c f   coredll:COREDLL.dll
+ 0001:0000a97c       InterlockedCompareExchange 1000b97c f   coredll:COREDLL.dll
+ 0001:0000aa84       _DllMainCRTStartup         1000ba84 f   corelib0:pegdmain.obj
+ 0001:0000aab8       _onexit                    1000bab8 f   corelib0:onexit.obj
+ 0001:0000ac3c       atexit                     1000bc3c f   corelib0:onexit.obj
+ 0001:0000ac54       __GSHandlerCheckCommon     1000bc54 f   corelib0:gshandler.obj
+ 0001:0000ac90       __GSHandlerCheck           1000bc90 f   corelib0:gshandler.obj
+ 0001:0000acb0       __security_init_cookie     1000bcb0 f   corelib0:seccinit.obj
+ 0001:0000acfc       __security_check_cookie    1000bcfc f   corelib0:armsecgs.obj
+ 0001:0000ad0c       __gsfailure                1000bd0c     corelib0:armsecgs.obj
+ 0001:0000ae38       _cexit                     1000be38 f   corelib0:cexit.obj
+ 0001:0000ae48       _initterm                  1000be48 f   corelib0:crt0dat.obj
+ 0001:0000ae74       _cinit                     1000be74 f   corelib0:crt0dat.obj
+ 0001:0000aed4       __crt_ExitProcess          1000bed4 f   corelib0:exitproc_proxy.obj
+ 0001:0000aee0       __C_specific_handler       1000bee0 f   corelib1:COREDLL.dll
+ 0001:0000aef0       _vsnwprintf_s              1000bef0 f   corelib1:COREDLL.dll
+ 0001:0000af00       ??2@YAPAXI@Z               1000bf00 f   corelib1:COREDLL.dll
+ 0001:0000af10       ??3@YAXPAX@Z               1000bf10 f   corelib1:COREDLL.dll
+ 0001:0000af20       _wcsicmp                   1000bf20 f   corelib1:COREDLL.dll
+ 0001:0000af30       memcpy                     1000bf30 f   corelib1:COREDLL.dll
+ 0001:0000af40       memset                     1000bf40 f   corelib1:COREDLL.dll
+ 0001:0000af50       wcstok_s                   1000bf50 f   corelib1:COREDLL.dll
+ 0001:0000af60       _wtoi                      1000bf60 f   corelib1:COREDLL.dll
+ 0001:0000af70       wcsstr                     1000bf70 f   corelib1:COREDLL.dll
+ 0001:0000af80       memmove                    1000bf80 f   corelib1:COREDLL.dll
+ 0001:0000af90       ??_U@YAPAXI@Z              1000bf90 f   corelib1:COREDLL.dll
+ 0001:0000afa0       _itow_s                    1000bfa0 f   corelib1:COREDLL.dll
+ 0001:0000afb0       malloc                     1000bfb0 f   corelib1:COREDLL.dll
+ 0001:0000afc0       realloc                    1000bfc0 f   corelib1:COREDLL.dll
+ 0001:0000afd0       free                       1000bfd0 f   corelib1:COREDLL.dll
+ 0001:0000afe0       _XcptFilter                1000bfe0 f   corelib1:COREDLL.dll
+ 0001:0000aff0       _msize                     1000bff0 f   corelib1:COREDLL.dll
+ 0001:0000b000       __security_gen_cookie2     1000c000 f   corelib1:COREDLL.dll
+ 0001:0000b010       __report_gsfailure         1000c010 f   corelib1:COREDLL.dll
+ 0001:0000b020       InterlockedExchange        1000c020 f   coredll:COREDLL.dll
+ 0001:0000b030       TerminateProcess           1000c030 f   coredll:COREDLL.dll
+ 0001:0000b0b4       ??__Fcs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@YAXXZ 1000c0b4 f i credsvc.obj
+ 0001:0000b114       ??__Fcs@?1??get_lock@?$singleton@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@V?$static_allocator@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@@3@@ce@@KAAAVcritical_section@2@XZ@YAXXZ 1000c114 f i ops.obj
+ 0001:0000b120       ??__Fpsl_tls_lifetime@?1???0?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@QAA@PAXK@Z@YAXXZ 1000c120 f i ops.obj
+ 0001:0000b298       __IMPORT_DESCRIPTOR_COREDLL 1000c298     coredll:COREDLL.dll
+ 0001:0000b2ac       __NULL_IMPORT_DESCRIPTOR   1000c2ac     coredll:COREDLL.dll
+ 0002:00000000       __imp_InitializeCriticalSection 1000d000     coredll:COREDLL.dll
+ 0002:00000004       __imp_DeleteCriticalSection 1000d004     coredll:COREDLL.dll
+ 0002:00000008       __imp_CloseHandle          1000d008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_GetExitCodeThread    1000d00c     coredll:COREDLL.dll
+ 0002:00000010       __imp_CeSetThreadPriority  1000d010     coredll:COREDLL.dll
+ 0002:00000014       __imp_GetLastError         1000d014     coredll:COREDLL.dll
+ 0002:00000018       __imp_CreateThread         1000d018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_WaitForSingleObject  1000d01c     coredll:COREDLL.dll
+ 0002:00000020       __imp_DisableThreadLibraryCalls 1000d020     coredll:COREDLL.dll
+ 0002:00000024       __imp_LeaveCriticalSection 1000d024     coredll:COREDLL.dll
+ 0002:00000028       __imp_EnterCriticalSection 1000d028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_SetLastError         1000d02c     coredll:COREDLL.dll
+ 0002:00000030       __imp_LocalFree            1000d030     coredll:COREDLL.dll
+ 0002:00000034       __imp_RegCloseKey          1000d034     coredll:COREDLL.dll
+ 0002:00000038       __imp_RegEnumKeyExW        1000d038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_LocalAlloc           1000d03c     coredll:COREDLL.dll
+ 0002:00000040       __imp_RegQueryValueExW     1000d040     coredll:COREDLL.dll
+ 0002:00000044       __imp_FreeLibrary          1000d044     coredll:COREDLL.dll
+ 0002:00000048       __imp_GetProcAddressW      1000d048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_LoadLibraryExW       1000d04c     coredll:COREDLL.dll
+ 0002:00000050       __imp_RegOpenKeyExW        1000d050     coredll:COREDLL.dll
+ 0002:00000054       __imp___GetUserKData       1000d054     coredll:COREDLL.dll
+ 0002:00000058       __imp_InterlockedIncrement 1000d058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_InterlockedDecrement 1000d05c     coredll:COREDLL.dll
+ 0002:00000060       __imp_CryptProtectData     1000d060     coredll:COREDLL.dll
+ 0002:00000064       __imp_CryptUnprotectData   1000d064     coredll:COREDLL.dll
+ 0002:00000068       __imp_StringCchCopyNW      1000d068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_StringCchLengthW     1000d06c     coredll:COREDLL.dll
+ 0002:00000070       __imp_RegSetValueExW       1000d070     coredll:COREDLL.dll
+ 0002:00000074       __imp_RegDeleteKeyW        1000d074     coredll:COREDLL.dll
+ 0002:00000078       __imp_RegCreateKeyExW      1000d078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_InterlockedCompareExchange 1000d07c     coredll:COREDLL.dll
+ 0002:00000080       __imp___C_specific_handler 1000d080     corelib1:COREDLL.dll
+ 0002:00000084       __imp__vsnwprintf_s        1000d084     corelib1:COREDLL.dll
+ 0002:00000088       __imp_??2@YAPAXI@Z         1000d088     corelib1:COREDLL.dll
+ 0002:0000008c       __imp_??3@YAXPAX@Z         1000d08c     corelib1:COREDLL.dll
+ 0002:00000090       __imp__wcsicmp             1000d090     corelib1:COREDLL.dll
+ 0002:00000094       __imp_memcpy               1000d094     corelib1:COREDLL.dll
+ 0002:00000098       __imp_memset               1000d098     corelib1:COREDLL.dll
+ 0002:0000009c       __imp_wcstok_s             1000d09c     corelib1:COREDLL.dll
+ 0002:000000a0       __imp__wtoi                1000d0a0     corelib1:COREDLL.dll
+ 0002:000000a4       __imp_wcsstr               1000d0a4     corelib1:COREDLL.dll
+ 0002:000000a8       __imp_memmove              1000d0a8     corelib1:COREDLL.dll
+ 0002:000000ac       __imp_??_U@YAPAXI@Z        1000d0ac     corelib1:COREDLL.dll
+ 0002:000000b0       __imp__itow_s              1000d0b0     corelib1:COREDLL.dll
+ 0002:000000b4       __imp_malloc               1000d0b4     corelib1:COREDLL.dll
+ 0002:000000b8       __imp_realloc              1000d0b8     corelib1:COREDLL.dll
+ 0002:000000bc       __imp_free                 1000d0bc     corelib1:COREDLL.dll
+ 0002:000000c0       __imp__XcptFilter          1000d0c0     corelib1:COREDLL.dll
+ 0002:000000c4       __imp__msize               1000d0c4     corelib1:COREDLL.dll
+ 0002:000000c8       __imp___security_gen_cookie2 1000d0c8     corelib1:COREDLL.dll
+ 0002:000000cc       __imp___report_gsfailure   1000d0cc     corelib1:COREDLL.dll
+ 0002:000000d0       __imp_InterlockedExchange  1000d0d0     coredll:COREDLL.dll
+ 0002:000000d4       __imp_TerminateProcess     1000d0d4     coredll:COREDLL.dll
+ 0002:000000d8       \177COREDLL_NULL_THUNK_DATA 1000d0d8     coredll:COREDLL.dll
+ 0002:000000e0       dpCurSettings              1000d0e0     debug.obj
+ 0002:00000524       g_ThreadPriority256        1000d524     ceosutil:regwait.obj
+ 0002:00000528       g_funcAlloc                1000d528     ceosutil:utilmem.obj
+ 0002:0000052c       g_funcFree                 1000d52c     ceosutil:utilmem.obj
+ 0002:00000530       g_funcRealloc              1000d530     ceosutil:utilmem.obj
+ 0002:00000534       __security_cookie          1000d534     corelib0:seccinit.obj
+ 0002:00000538       __security_cookie_complement 1000d538     corelib0:seccinit.obj
+ 0002:00000540       ??_B?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@51 1000d540     credsvc.obj
+ 0002:00000544       ?cs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@3@XZ@4V43@A 1000d544     credsvc.obj
+ 0002:00000558       ?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A 1000d558     credsvc.obj
+ 0002:00000560       ?gcsSvc@@3UCRITICAL_SECTION@@A 1000d560     globals.obj
+ 0002:00000574       ?gbInitialized@@3HA        1000d574     globals.obj
+ 0002:00000578       ?gRegStoreProvider@@3VCRegStoreProvider@@A 1000d578     globals.obj
+ 0002:00000594       ?gCredMap@@3VCCredMap@@A   1000d594     globals.obj
+ 0002:000005b4       ?gStore@@3VCStore@@A       1000d5b4     globals.obj
+ 0002:000005b8       ?gProvs@@3VCProviders@@A   1000d5b8     globals.obj
+ 0002:00000600       ?memory@?1??allocate@?$static_allocator@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@@ce@@SAPAXI@Z@4PADA 1000d600     ops.obj
+ 0002:00000634       ??_B?1??get_lock@?$singleton@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@V?$static_allocator@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@@3@@ce@@KAAAVcritical_section@2@XZ@51 1000d634     ops.obj
+ 0002:00000638       ?cs@?1??get_lock@?$singleton@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@V?$static_allocator@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@@3@@ce@@KAAAVcritical_section@3@XZ@4V43@A 1000d638     ops.obj
+ 0002:0000064c       ?pInstance@?$singleton@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@V?$static_allocator@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@@3@@ce@@1RAV?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@2@A 1000d64c     ops.obj
+ 0002:00000650       ?lRefCount@?$singleton@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@V?$static_allocator@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@@3@@ce@@1JA 1000d650     ops.obj
+ 0002:00000654       ??_B?1???0?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@QAA@PAXK@Z@51 1000d654     ops.obj
+ 0002:00000658       ?_factory@?$singleton@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@V?$static_allocator@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@@3@@ce@@1Ulock_factory@12@A 1000d658     ops.obj
+ 0002:0000065c       ?g_pWaitForEventsMgr@@3PAVCWaitForEventsManager@@A 1000d65c     ceosutil:regwait.obj
+ 0002:00000664       g_pvAllocData              1000d664     ceosutil:utilmem.obj
+ 0002:00000668       g_pvFreeData               1000d668     ceosutil:utilmem.obj
+ 0002:0000066c       ?g_cTimerQueueCookie@@3KA  1000d66c     ceosutil:TimerQueue.obj
+ 0002:00000670       ?g_pCeOsUtilThreadPool@@3PAVSVSThreadPool@@A 1000d670     ceosutil:TimerQueue.obj
+ 0002:00000674       ?g_pDefaultTimer@@3PAVCTimerManager@@A 1000d674     ceosutil:TimerQueue.obj
+ 0002:00000678       ?g_pTimerBlockList@@3PAVSVSLinkManager@@A 1000d678     ceosutil:TimerQueue.obj
+ 0002:0000067c       ?g_pTimerManagerLock@@3PAVSVSSynch@@A 1000d67c     ceosutil:TimerQueue.obj
+ 0002:00000680       ?g_pTimerManagerList@@3PAVSVSLinkManager@@A 1000d680     ceosutil:TimerQueue.obj
+ 0002:00000684       _exitflag                  1000d684     corelib0:cexit.obj
+ 0002:00000688       __onexitend                1000d688     <common>
+ 0002:0000068c       __onexitbegin              1000d68c     <common>
+ 0002:00000690       g_pcsExit                  1000d690     <common>
+ 0002:00000694       _pRawDllMain               1000d694     <common>
+
+ entry point at        0001:0000aa84
+
+ Static symbols
+
+ 0001:0000a994       _DllMainCRTStartupHelper   1000b994 f   corelib0:pegdmain.obj
+ 0001:0000ad50       doexit                     1000bd50 f   corelib0:cexit.obj
+ 0001:0000b040       ??__E?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A@@YAXXZ 1000c040 f   credsvc.obj
+ 0001:0000b044       ??__EgProvs@@YAXXZ         1000c044 f   globals.obj
+ 0001:0000b064       ??__EgCredMap@@YAXXZ       1000c064 f   globals.obj
+ 0001:0000b084       ??__EgRegStoreProvider@@YAXXZ 1000c084 f   globals.obj
+ 0001:0000b0a4       ??__EgStore@@YAXXZ         1000c0a4 f   globals.obj
+ 0001:0000b0b0       ??__E?_factory@?$singleton@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@V?$static_allocator@V?$psl_tls@V?$list@PAV?$pc_stub_base@VCopyInOutStream@ce@@PAX@ce@@Vallocator@2@@ce@@@detail@ce@@$0A@@3@@ce@@1Ulock_factory@12@A@@YAXXZ 1000c0b0 f   ops.obj
+ 0001:0000b0c0       ??__FgRegStoreProvider@@YAXXZ 1000c0c0 f   globals.obj
+ 0001:0000b0e8       ??__FgCredMap@@YAXXZ       1000c0e8 f   globals.obj
+ 0001:0000b0f4       ??__FgProvs@@YAXXZ         1000c0f4 f   globals.obj

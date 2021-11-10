@@ -1,0 +1,322 @@
+ regextdev
+
+ Timestamp is 5ac64a26 (Thu Apr 05 09:09:10 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000008H .CRT$XCU                CODE
+ 0001:0000000c 00000004H .CRT$XCZ                CODE
+ 0001:00000010 00000004H .CRT$XIA                CODE
+ 0001:00000014 00000004H .CRT$XIZ                CODE
+ 0001:00000018 00000004H .CRT$XPA                CODE
+ 0001:0000001c 00000004H .CRT$XPZ                CODE
+ 0001:00000020 00000004H .CRT$XTA                CODE
+ 0001:00000024 00000004H .CRT$XTZ                CODE
+ 0001:00000030 00000230H .rdata                  CODE
+ 0001:00000260 00000026H .rdata$debug            CODE
+ 0001:00000288 00004648H .text                   CODE
+ 0001:000048d0 0000002cH .text$yc                CODE
+ 0001:000048fc 00000028H .text$yd                CODE
+ 0001:00004924 00000048H .xdata                  CODE
+ 0001:0000496c 00000014H .idata$2                CODE
+ 0001:00004980 00000014H .idata$3                CODE
+ 0001:00004994 00000120H .idata$4                CODE
+ 0001:00004ab4 0000000cH .idata$6                CODE
+ 0001:00004ac0 000000d7H .edata                  CODE
+ 0002:00000000 00000120H .idata$5                DATA
+ 0002:00000120 0000000cH .data                   DATA
+ 0002:0000012c 00000040H .bss                    DATA
+ 0003:00000000 000002c8H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:0000000c       __xc_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xi_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xi_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xp_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xp_z                     1000101c     corelib0:crt0init.obj
+ 0001:00000020       __xt_a                     10001020     corelib0:crt0init.obj
+ 0001:00000024       __xt_z                     10001024     corelib0:crt0init.obj
+ 0001:0000004c       ?m_szDefaultRegistryValue@CNotify@@1QBGB 1000104c     notifybase.obj
+ 0001:0000005c       ??_7CNotify@@6B@           1000105c     notifybase.obj
+ 0001:00000078       ??_C@_13FPGAJAPJ@?$AA?2?$AA?$AA@ 10001078     notifybase.obj
+ 0001:0000007c       ??_C@_1CK@JANDOEEM@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAN?$AAo?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AAs?$AA?$AA@ 1000107c     device.obj
+ 0001:000000a8       ?m_szNotifySwitch@CNotifyApp@@1QBGB 100010a8     notify.obj
+ 0001:000000b8       ?m_dwWaitCycles@CNotifyApp@@1KB 100010b8     notify.obj
+ 0001:000000bc       ?m_dwWaitTimeout@CNotifyApp@@1KB 100010bc     notify.obj
+ 0001:000000c0       ??_7CNotifyApp@@6B@        100010c0     notify.obj
+ 0001:000000dc       ??_C@_13NEIAEHFG@?$AA?$CC?$AA?$AA@ 100010dc     notify.obj
+ 0001:000000e0       ??_C@_15EDKKDMNP@?$AA?5?$AA?$CC?$AA?$AA@ 100010e0     notify.obj
+ 0001:000000e8       ??_C@_13HOIJIPNN@?$AA?5?$AA?$AA@ 100010e8     notify.obj
+ 0001:000000ec       ?m_dwGrow@CNotifyAppList@@1KB 100010ec     notifyapplist.obj
+ 0001:000000f0       ?m_szSystemNotifications@PersistentNotifications@@2QBGB 100010f0     persist.obj
+ 0001:0000011c       ?m_szHKEY@PersistentNotifications@@2QBGB 1000111c     persist.obj
+ 0001:00000128       ?m_szSubKey@PersistentNotifications@@2QBGB 10001128     persist.obj
+ 0001:00000130       ?m_szValueName@PersistentNotifications@@2QBGB 10001130     persist.obj
+ 0001:00000148       ?m_szApp@PersistentNotifications@@2QBGB 10001148     persist.obj
+ 0001:00000160       ?m_szClass@PersistentNotifications@@2QBGB 10001160     persist.obj
+ 0001:00000178       ?m_szWindow@PersistentNotifications@@2QBGB 10001178     persist.obj
+ 0001:00000190       ?m_szMsg@PersistentNotifications@@2QBGB 10001190     persist.obj
+ 0001:000001a0       ?m_szFlags@PersistentNotifications@@2QBGB 100011a0     persist.obj
+ 0001:000001ac       ?m_szConditionalComparison@PersistentNotifications@@2QBGB 100011ac     persist.obj
+ 0001:000001dc       ?m_szConditionalMask@PersistentNotifications@@2QBGB 100011dc     persist.obj
+ 0001:00000200       ?m_szConditionalTarget@PersistentNotifications@@2QBGB 10001200     persist.obj
+ 0001:00000228       ?m_szToken@PersistentNotifications@@2QBGB 10001228     persist.obj
+ 0001:00000244       ?m_dwThreadDeathTimeout@CHandleArray@@1KB 10001244     handlearray:handlearray.obj
+ 0001:00000248       ??_7CNotifiable@@6B@       10001248     handlearray:handlearray.obj
+ 0001:00000288       ??0CNotify@@QAA@XZ         10001288 f   notifybase.obj
+ 0001:000002e8       ?Refresh@CNotify@@UAAJXZ   100012e8 f i notifybase.obj
+ 0001:000002f4       ?Reset@CNotify@@IAAXXZ     100012f4 f   notifybase.obj
+ 0001:000003b4       ?GetWaitObject@CNotify@@UAAPAXXZ 100013b4 f   notifybase.obj
+ 0001:000003bc       ?GetWaitTimeout@CNotify@@UAAKK@Z 100013bc f   notifybase.obj
+ 0001:00000450       ??1CNotify@@UAA@XZ         10001450 f   notifybase.obj
+ 0001:00000474       ?GetRegistryInfo@@YAJPAUHKEY__@@PAU_CE_REGISTRY_INFO@@@Z 10001474 f   notifybase.obj
+ 0001:00000820       ?Initialize@CNotify@@QAAJPAUHKEY__@@PBG1PAUtagNOTIFICATIONCONDITION@@@Z 10001820 f   notifybase.obj
+ 0001:00000b34       ?HandleConditional@CNotify@@IAAJKPAEKK@Z 10001b34 f   notifybase.obj
+ 0001:00000e20       ?HandleBatching@CNotify@@IAAJKK@Z 10001e20 f   notifybase.obj
+ 0001:00000eb0       ?HandleNotification@CNotify@@IAAJK@Z 10001eb0 f   notifybase.obj
+ 0001:0000108c       ?Notify@CNotify@@UAAJK@Z   1000208c f   notifybase.obj
+ 0001:00001388       ?Timeout@CNotify@@UAAJK@Z  10002388 f   notifybase.obj
+ 0001:00001538       ??_ECNotify@@UAAPAXI@Z     10002538 f i notifybase.obj
+ 0001:00001538       ??_GCNotify@@UAAPAXI@Z     10002538 f i notifybase.obj
+ 0001:00001570       ??1CNotifyList@@IAA@XZ     10002570 f   notifylist.obj
+ 0001:000015b0       ?InsertNewNode@CNotifyList@@IAAJPAPAUCNotifyListNode@1@@Z 100025b0 f   notifylist.obj
+ 0001:00001640       ?Insert@CNotifyList@@SAJPAVCNotify@@@Z 10002640 f   notifylist.obj
+ 0001:000016f0       ?Remove@CNotifyList@@SAJPAVCNotify@@H@Z 100026f0 f   notifylist.obj
+ 0001:00001904       ?Refresh@CNotifyList@@SAJPAVCNotify@@@Z 10002904 f   notifylist.obj
+ 0001:00001968       ?DetermineElapsedMillisecondsBetweenTickCounts@@YAKKK@Z 10002968 f   regext.obj
+ 0001:000019b4       ?CompareStringI@@YAHPBG0H@Z 100029b4 f   regext.obj
+ 0001:000019ec       ?StrStrI@@YAPBGPBG0@Z      100029ec f   regext.obj
+ 0001:00001a68       XRegistryNotifyApp         10002a68 f   api.obj
+ 0001:00001ba4       XRegistryStopNotification  10002ba4 f   api.obj
+ 0001:00001bc0       ?UnMapString@@YAHPBG0@Z    10002bc0 f   device.obj
+ 0001:00001c00       SNA_Init                   10002c00 f   device.obj
+ 0001:00001cf8       SNA_Deinit                 10002cf8 f   device.obj
+ 0001:00001d20       SNA_Open                   10002d20 f   device.obj
+ 0001:00001d28       SNA_Close                  10002d28 f   device.obj
+ 0001:00001d30       SNA_Read                   10002d30 f   device.obj
+ 0001:00001d44       SNA_Write                  10002d44 f   device.obj
+ 0001:00001d58       SNA_Seek                   10002d58 f   device.obj
+ 0001:00001db8       ?HandleNotifyApp@@YAJPATRegExtArgs@@@Z 10002db8 f   device.obj
+ 0001:0000223c       ?HandleStopNotification@@YAJPATRegExtArgs@@@Z 1000323c f   device.obj
+ 0001:000022fc       SNA_IOControl              100032fc f   device.obj
+ 0001:000023fc       ??0CNotifyApp@@QAA@XZ      100033fc f   notify.obj
+ 0001:00002448       ?Reset@CNotifyApp@@IAAXXZ  10003448 f   notify.obj
+ 0001:000024f8       ?ParsePath@CNotifyApp@@IAAJPBG@Z 100034f8 f   notify.obj
+ 0001:000026c0       ?SetAppInfo@CNotifyApp@@QAAJPBG000IKPAXK@Z 100036c0 f   notify.obj
+ 0001:000028b4       ?LaunchApp@CNotifyApp@@IAAJXZ 100038b4 f   notify.obj
+ 0001:00002acc       ?FireNotification@CNotifyApp@@UAAJKQAEK@Z 10003acc f   notify.obj
+ 0001:00002bf8       ??_GCNotifyApp@@UAAPAXI@Z  10003bf8 f i notify.obj
+ 0001:00002bf8       ??_ECNotifyApp@@UAAPAXI@Z  10003bf8 f i notify.obj
+ 0001:00002c30       ?Clean@CNotifyAppList@@IAAJXZ 10003c30 f   notifyapplist.obj
+ 0001:00002cac       ?Find@CNotifyAppList@@IAAPAPAVCNotifyApp@@PBG@Z 10003cac f   notifyapplist.obj
+ 0001:00002d20       ?Remove@CNotifyAppList@@IAAJPBG@Z 10003d20 f   notifyapplist.obj
+ 0001:00002dc8       ?RemoveItem@CNotifyAppList@@SAJPBG@Z 10003dc8 f   notifyapplist.obj
+ 0001:00002dd8       ?RemoveAll@CNotifyAppList@@SAJXZ 10003dd8 f   notifyapplist.obj
+ 0001:00002de4       ?Insert@CNotifyAppList@@IAAJPAVCNotifyApp@@@Z 10003de4 f   notifyapplist.obj
+ 0001:00002ee4       ?InsertItem@CNotifyAppList@@SAJPAVCNotifyApp@@@Z 10003ee4 f   notifyapplist.obj
+ 0001:00002ef4       ?GetPersistedString@PersistentNotifications@@SAJPAUHKEY__@@PBGPAPAG@Z 10003ef4 f   persist.obj
+ 0001:0000301c       ?SetPersistedString@PersistentNotifications@@SAJPAUHKEY__@@PBG1@Z 1000401c f   persist.obj
+ 0001:00003064       ?Load@PersistentNotifications@@SAJPBG@Z 10004064 f   persist.obj
+ 0001:00003428       ?Save@PersistentNotifications@@SAJPAUHKEY__@@PBG11111IKPAUtagNOTIFICATIONCONDITION@@PAXK@Z 10004428 f   persist.obj
+ 0001:00003814       ?Delete@PersistentNotifications@@SAJPBG@Z 10004814 f   persist.obj
+ 0001:000038c0       DllMain                    100048c0 f   regextdev.obj
+ 0001:000038d4       ??0CNotifiable@@QAA@XZ     100048d4 f   handlearray:handlearray.obj
+ 0001:000038ec       ??1CNotifiable@@UAA@XZ     100048ec f   handlearray:handlearray.obj
+ 0001:000038fc       ?AddRef@CNotifiable@@QAAKXZ 100048fc f   handlearray:handlearray.obj
+ 0001:00003914       ?Release@CNotifiable@@QAAKXZ 10004914 f   handlearray:handlearray.obj
+ 0001:0000394c       ??0CHandleArray@@QAA@XZ    1000494c f   handlearray:handlearray.obj
+ 0001:00003990       ??1CHandleArray@@QAA@XZ    10004990 f   handlearray:handlearray.obj
+ 0001:00003a1c       ?ProcessNotifications@CHandleArray@@IAAXXZ 10004a1c f   handlearray:handlearray.obj
+ 0001:00003c34       ??_GCNotifiable@@UAAPAXI@Z 10004c34 f i handlearray:handlearray.obj
+ 0001:00003c34       ??_ECNotifiable@@UAAPAXI@Z 10004c34 f i handlearray:handlearray.obj
+ 0001:00003c58       ?ThreadProc@CHandleArray@@KAKPAX@Z 10004c58 f   handlearray:handlearray.obj
+ 0001:00003c68       ?Add@CHandleArray@@QAAJPAVCNotifiable@@@Z 10004c68 f   handlearray:handlearray.obj
+ 0001:00003d7c       ?Remove@CHandleArray@@QAAJPAVCNotifiable@@@Z 10004d7c f   handlearray:handlearray.obj
+ 0001:00003e54       ?Refresh@CHandleArray@@QAAJPAVCNotifiable@@@Z 10004e54 f   handlearray:handlearray.obj
+ 0001:00003f0c       CeFindCloseRegChange       10004f0c f   coredll:COREDLL.dll
+ 0001:00003f1c       LocalFree                  10004f1c f   coredll:COREDLL.dll
+ 0001:00003f2c       StringCchLengthW           10004f2c f   coredll:COREDLL.dll
+ 0001:00003f3c       RegCloseKey                10004f3c f   coredll:COREDLL.dll
+ 0001:00003f4c       RegOpenKeyExW              10004f4c f   coredll:COREDLL.dll
+ 0001:00003f5c       LocalAlloc                 10004f5c f   coredll:COREDLL.dll
+ 0001:00003f6c       GetLastError               10004f6c f   coredll:COREDLL.dll
+ 0001:00003f7c       CeRegGetInfo               10004f7c f   coredll:COREDLL.dll
+ 0001:00003f8c       StringCchCopyW             10004f8c f   coredll:COREDLL.dll
+ 0001:00003f9c       StringCchCatW              10004f9c f   coredll:COREDLL.dll
+ 0001:00003fac       StringCbLengthW            10004fac f   coredll:COREDLL.dll
+ 0001:00003fbc       RegistryGetDWORD           10004fbc f   coredll:COREDLL.dll
+ 0001:00003fcc       CeFindFirstRegChange       10004fcc f   coredll:COREDLL.dll
+ 0001:00003fdc       RegQueryValueExW           10004fdc f   coredll:COREDLL.dll
+ 0001:00003fec       CeGetFileNotificationInfo  10004fec f   coredll:COREDLL.dll
+ 0001:00003ffc       CeFindNextRegChange        10004ffc f   coredll:COREDLL.dll
+ 0001:0000400c       InterlockedCompareExchange 1000500c f   coredll:COREDLL.dll
+ 0001:0000401c       IsBadReadPtr               1000501c f   coredll:COREDLL.dll
+ 0001:0000402c       CompareStringW             1000502c f   coredll:COREDLL.dll
+ 0001:0000403c       __GetUserKData             1000503c f   coredll:COREDLL.dll
+ 0001:0000404c       CeCloseCallerBuffer        1000504c f   coredll:COREDLL.dll
+ 0001:0000405c       RegEnumKeyExW              1000505c f   coredll:COREDLL.dll
+ 0001:0000406c       SetLastError               1000506c f   coredll:COREDLL.dll
+ 0001:0000407c       CeOpenCallerBuffer         1000507c f   coredll:COREDLL.dll
+ 0001:0000408c       DuplicateHandle            1000508c f   coredll:COREDLL.dll
+ 0001:0000409c       GetCallerVMProcessId       1000509c f   coredll:COREDLL.dll
+ 0001:000040ac       CeSafeCopyMemory           100050ac f   coredll:COREDLL.dll
+ 0001:000040bc       StringCbCopyW              100050bc f   coredll:COREDLL.dll
+ 0001:000040cc       CloseHandle                100050cc f   coredll:COREDLL.dll
+ 0001:000040dc       CreateProcessW             100050dc f   coredll:COREDLL.dll
+ 0001:000040ec       PostMessageW               100050ec f   coredll:COREDLL.dll
+ 0001:000040fc       Sleep                      100050fc f   coredll:COREDLL.dll
+ 0001:0000410c       FindWindowW                1000510c f   coredll:COREDLL.dll
+ 0001:0000411c       InitializeCriticalSection  1000511c f   coredll:COREDLL.dll
+ 0001:0000412c       LeaveCriticalSection       1000512c f   coredll:COREDLL.dll
+ 0001:0000413c       EnterCriticalSection       1000513c f   coredll:COREDLL.dll
+ 0001:0000414c       DeleteCriticalSection      1000514c f   coredll:COREDLL.dll
+ 0001:0000415c       RegistryGetString          1000515c f   coredll:COREDLL.dll
+ 0001:0000416c       RegistrySetString          1000516c f   coredll:COREDLL.dll
+ 0001:0000417c       RegDeleteKeyW              1000517c f   coredll:COREDLL.dll
+ 0001:0000418c       RegistrySetDWORD           1000518c f   coredll:COREDLL.dll
+ 0001:0000419c       CeFsIoControlW             1000519c f   coredll:COREDLL.dll
+ 0001:000041ac       RegCreateKeyExW            100051ac f   coredll:COREDLL.dll
+ 0001:000041bc       DisableThreadLibraryCalls  100051bc f   coredll:COREDLL.dll
+ 0001:000041cc       EventModify                100051cc f   coredll:COREDLL.dll
+ 0001:000041dc       InterlockedIncrement       100051dc f   coredll:COREDLL.dll
+ 0001:000041ec       InterlockedDecrement       100051ec f   coredll:COREDLL.dll
+ 0001:000041fc       CreateEventW               100051fc f   coredll:COREDLL.dll
+ 0001:0000420c       WaitForSingleObject        1000520c f   coredll:COREDLL.dll
+ 0001:0000421c       WaitForMultipleObjects     1000521c f   coredll:COREDLL.dll
+ 0001:0000422c       GetTickCount               1000522c f   coredll:COREDLL.dll
+ 0001:0000423c       CreateThread               1000523c f   coredll:COREDLL.dll
+ 0001:00004344       _DllMainCRTStartup         10005344 f   corelib0:pegdmain.obj
+ 0001:00004378       _onexit                    10005378 f   corelib0:onexit.obj
+ 0001:000044fc       atexit                     100054fc f   corelib0:onexit.obj
+ 0001:00004514       __GSHandlerCheckCommon     10005514 f   corelib0:gshandler.obj
+ 0001:00004550       __GSHandlerCheck           10005550 f   corelib0:gshandler.obj
+ 0001:00004570       __security_init_cookie     10005570 f   corelib0:seccinit.obj
+ 0001:000045bc       __security_check_cookie    100055bc f   corelib0:armsecgs.obj
+ 0001:000045cc       __gsfailure                100055cc     corelib0:armsecgs.obj
+ 0001:000046f8       _cexit                     100056f8 f   corelib0:cexit.obj
+ 0001:00004708       _initterm                  10005708 f   corelib0:crt0dat.obj
+ 0001:00004734       _cinit                     10005734 f   corelib0:crt0dat.obj
+ 0001:00004794       __crt_ExitProcess          10005794 f   corelib0:exitproc_proxy.obj
+ 0001:000047a0       memset                     100057a0 f   corelib1:COREDLL.dll
+ 0001:000047b0       _purecall                  100057b0 f   corelib1:COREDLL.dll
+ 0001:000047c0       ??3@YAXPAX@Z               100057c0 f   corelib1:COREDLL.dll
+ 0001:000047d0       ??2@YAPAXI@Z               100057d0 f   corelib1:COREDLL.dll
+ 0001:000047e0       memcpy                     100057e0 f   corelib1:COREDLL.dll
+ 0001:000047f0       wcslen                     100057f0 f   corelib1:COREDLL.dll
+ 0001:00004800       _wcsicmp                   10005800 f   corelib1:COREDLL.dll
+ 0001:00004810       __C_specific_handler       10005810 f   corelib1:COREDLL.dll
+ 0001:00004820       _isctype                   10005820 f   corelib1:COREDLL.dll
+ 0001:00004830       memmove                    10005830 f   corelib1:COREDLL.dll
+ 0001:00004840       _XcptFilter                10005840 f   corelib1:COREDLL.dll
+ 0001:00004850       free                       10005850 f   corelib1:COREDLL.dll
+ 0001:00004860       malloc                     10005860 f   corelib1:COREDLL.dll
+ 0001:00004870       realloc                    10005870 f   corelib1:COREDLL.dll
+ 0001:00004880       _msize                     10005880 f   corelib1:COREDLL.dll
+ 0001:00004890       __security_gen_cookie2     10005890 f   corelib1:COREDLL.dll
+ 0001:000048a0       __report_gsfailure         100058a0 f   corelib1:COREDLL.dll
+ 0001:000048b0       InterlockedExchange        100058b0 f   coredll:COREDLL.dll
+ 0001:000048c0       TerminateProcess           100058c0 f   coredll:COREDLL.dll
+ 0001:0000496c       __IMPORT_DESCRIPTOR_COREDLL 1000596c     coredll:COREDLL.dll
+ 0001:00004980       __NULL_IMPORT_DESCRIPTOR   10005980     coredll:COREDLL.dll
+ 0002:00000000       __imp_CeFindCloseRegChange 10006000     coredll:COREDLL.dll
+ 0002:00000004       __imp_LocalFree            10006004     coredll:COREDLL.dll
+ 0002:00000008       __imp_StringCchLengthW     10006008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_RegCloseKey          1000600c     coredll:COREDLL.dll
+ 0002:00000010       __imp_RegOpenKeyExW        10006010     coredll:COREDLL.dll
+ 0002:00000014       __imp_LocalAlloc           10006014     coredll:COREDLL.dll
+ 0002:00000018       __imp_GetLastError         10006018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_CeRegGetInfo         1000601c     coredll:COREDLL.dll
+ 0002:00000020       __imp_StringCchCopyW       10006020     coredll:COREDLL.dll
+ 0002:00000024       __imp_StringCchCatW        10006024     coredll:COREDLL.dll
+ 0002:00000028       __imp_StringCbLengthW      10006028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_RegistryGetDWORD     1000602c     coredll:COREDLL.dll
+ 0002:00000030       __imp_CeFindFirstRegChange 10006030     coredll:COREDLL.dll
+ 0002:00000034       __imp_RegQueryValueExW     10006034     coredll:COREDLL.dll
+ 0002:00000038       __imp_CeGetFileNotificationInfo 10006038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_CeFindNextRegChange  1000603c     coredll:COREDLL.dll
+ 0002:00000040       __imp_InterlockedCompareExchange 10006040     coredll:COREDLL.dll
+ 0002:00000044       __imp_IsBadReadPtr         10006044     coredll:COREDLL.dll
+ 0002:00000048       __imp_CompareStringW       10006048     coredll:COREDLL.dll
+ 0002:0000004c       __imp___GetUserKData       1000604c     coredll:COREDLL.dll
+ 0002:00000050       __imp_CeCloseCallerBuffer  10006050     coredll:COREDLL.dll
+ 0002:00000054       __imp_RegEnumKeyExW        10006054     coredll:COREDLL.dll
+ 0002:00000058       __imp_SetLastError         10006058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_CeOpenCallerBuffer   1000605c     coredll:COREDLL.dll
+ 0002:00000060       __imp_DuplicateHandle      10006060     coredll:COREDLL.dll
+ 0002:00000064       __imp_GetCallerVMProcessId 10006064     coredll:COREDLL.dll
+ 0002:00000068       __imp_CeSafeCopyMemory     10006068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_StringCbCopyW        1000606c     coredll:COREDLL.dll
+ 0002:00000070       __imp_CloseHandle          10006070     coredll:COREDLL.dll
+ 0002:00000074       __imp_CreateProcessW       10006074     coredll:COREDLL.dll
+ 0002:00000078       __imp_PostMessageW         10006078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_Sleep                1000607c     coredll:COREDLL.dll
+ 0002:00000080       __imp_FindWindowW          10006080     coredll:COREDLL.dll
+ 0002:00000084       __imp_InitializeCriticalSection 10006084     coredll:COREDLL.dll
+ 0002:00000088       __imp_LeaveCriticalSection 10006088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_EnterCriticalSection 1000608c     coredll:COREDLL.dll
+ 0002:00000090       __imp_DeleteCriticalSection 10006090     coredll:COREDLL.dll
+ 0002:00000094       __imp_RegistryGetString    10006094     coredll:COREDLL.dll
+ 0002:00000098       __imp_RegistrySetString    10006098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_RegDeleteKeyW        1000609c     coredll:COREDLL.dll
+ 0002:000000a0       __imp_RegistrySetDWORD     100060a0     coredll:COREDLL.dll
+ 0002:000000a4       __imp_CeFsIoControlW       100060a4     coredll:COREDLL.dll
+ 0002:000000a8       __imp_RegCreateKeyExW      100060a8     coredll:COREDLL.dll
+ 0002:000000ac       __imp_DisableThreadLibraryCalls 100060ac     coredll:COREDLL.dll
+ 0002:000000b0       __imp_EventModify          100060b0     coredll:COREDLL.dll
+ 0002:000000b4       __imp_InterlockedIncrement 100060b4     coredll:COREDLL.dll
+ 0002:000000b8       __imp_InterlockedDecrement 100060b8     coredll:COREDLL.dll
+ 0002:000000bc       __imp_CreateEventW         100060bc     coredll:COREDLL.dll
+ 0002:000000c0       __imp_WaitForSingleObject  100060c0     coredll:COREDLL.dll
+ 0002:000000c4       __imp_WaitForMultipleObjects 100060c4     coredll:COREDLL.dll
+ 0002:000000c8       __imp_GetTickCount         100060c8     coredll:COREDLL.dll
+ 0002:000000cc       __imp_CreateThread         100060cc     coredll:COREDLL.dll
+ 0002:000000d0       __imp_memset               100060d0     corelib1:COREDLL.dll
+ 0002:000000d4       __imp__purecall            100060d4     corelib1:COREDLL.dll
+ 0002:000000d8       __imp_??3@YAXPAX@Z         100060d8     corelib1:COREDLL.dll
+ 0002:000000dc       __imp_??2@YAPAXI@Z         100060dc     corelib1:COREDLL.dll
+ 0002:000000e0       __imp_memcpy               100060e0     corelib1:COREDLL.dll
+ 0002:000000e4       __imp_wcslen               100060e4     corelib1:COREDLL.dll
+ 0002:000000e8       __imp__wcsicmp             100060e8     corelib1:COREDLL.dll
+ 0002:000000ec       __imp___C_specific_handler 100060ec     corelib1:COREDLL.dll
+ 0002:000000f0       __imp__isctype             100060f0     corelib1:COREDLL.dll
+ 0002:000000f4       __imp_memmove              100060f4     corelib1:COREDLL.dll
+ 0002:000000f8       __imp__XcptFilter          100060f8     corelib1:COREDLL.dll
+ 0002:000000fc       __imp_free                 100060fc     corelib1:COREDLL.dll
+ 0002:00000100       __imp_malloc               10006100     corelib1:COREDLL.dll
+ 0002:00000104       __imp_realloc              10006104     corelib1:COREDLL.dll
+ 0002:00000108       __imp__msize               10006108     corelib1:COREDLL.dll
+ 0002:0000010c       __imp___security_gen_cookie2 1000610c     corelib1:COREDLL.dll
+ 0002:00000110       __imp___report_gsfailure   10006110     corelib1:COREDLL.dll
+ 0002:00000114       __imp_InterlockedExchange  10006114     coredll:COREDLL.dll
+ 0002:00000118       __imp_TerminateProcess     10006118     coredll:COREDLL.dll
+ 0002:0000011c       \177COREDLL_NULL_THUNK_DATA 1000611c     coredll:COREDLL.dll
+ 0002:00000124       __security_cookie          10006124     corelib0:seccinit.obj
+ 0002:00000128       __security_cookie_complement 10006128     corelib0:seccinit.obj
+ 0002:0000012c       ?sm_NumRemovedNotPurged@CNotifyList@@1IA 1000612c     notifylist.obj
+ 0002:00000130       ?sm_ppRemovedNotPurged@CNotifyList@@1PAPAVCNotify@@A 10006130     notifylist.obj
+ 0002:00000134       ?sm_NotifyList@CNotifyList@@1V1@A 10006134     notifylist.obj
+ 0002:00000138       ?m_NotifyAppList@CNotifyAppList@@1V1@A 10006138     notifyapplist.obj
+ 0002:00000158       _exitflag                  10006158     corelib0:cexit.obj
+ 0002:0000015c       __onexitend                1000615c     <common>
+ 0002:00000160       __onexitbegin              10006160     <common>
+ 0002:00000164       g_pcsExit                  10006164     <common>
+ 0002:00000168       _pRawDllMain               10006168     <common>
+
+ entry point at        0001:00004344
+
+ Static symbols
+
+ 0001:00000590       ?OpenDeepestKey@@YAJPAU_CE_REGISTRY_INFO@@PBGPAPAUHKEY__@@PAPAG@Z 10001590 f   notifybase.obj
+ 0001:00001d60       ?InternalMapAndCopyString@@YAJPAPAGPBG@Z 10002d60 f   device.obj
+ 0001:00004254       _DllMainCRTStartupHelper   10005254 f   corelib0:pegdmain.obj
+ 0001:00004610       doexit                     10005610 f   corelib0:cexit.obj
+ 0001:000048d0       ??__E?sm_NotifyList@CNotifyList@@1V1@A@@YAXXZ 100058d0 f   notifylist.obj
+ 0001:000048dc       ??__E?m_NotifyAppList@CNotifyAppList@@1V1@A@@YAXXZ 100058dc f   notifyapplist.obj
+ 0001:000048fc       ??__F?sm_NotifyList@CNotifyList@@1V1@A@@YAXXZ 100058fc f   notifylist.obj
+ 0001:00004908       ??__F?m_NotifyAppList@CNotifyAppList@@1V1@A@@YAXXZ 10005908 f   notifyapplist.obj

@@ -1,0 +1,857 @@
+ metastore
+
+ Timestamp is 5ac65a38 (Thu Apr 05 10:17:44 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 000038c4H .rdata                  CODE
+ 0001:000038e4 00000026H .rdata$debug            CODE
+ 0001:0000390c 00018de0H .text                   CODE
+ 0001:0001c6ec 000000b0H .xdata                  CODE
+ 0001:0001c79c 0000003cH .idata$2                CODE
+ 0001:0001c7d8 00000014H .idata$3                CODE
+ 0001:0001c7ec 00000110H .idata$4                CODE
+ 0001:0001c8fc 000000bcH .idata$6                CODE
+ 0001:0001c9c0 000000a6H .edata                  CODE
+ 0002:00000000 00000110H .idata$5                DATA
+ 0002:00000110 00000008H .data                   DATA
+ 0002:00000118 00000024H .bss                    DATA
+ 0003:00000000 00000d58H .pdata                  DATA
+ 0004:00000000 00000010H .rsrc$01                DATA
+ 0004:00000010 00000000H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:0000003c       ?SYNC_METADATA_STORE@@3QBGB 1000103c     clsfact.obj
+ 0001:00000064       ??_7CSyncMetadataStoreClassFactory@@6B@ 10001064     clsfact.obj
+ 0001:00000078       ??_C@_19OBNAGCDI@?$AAB?$AAo?$AAt?$AAh?$AA?$AA@ 10001078     DllMain.obj
+ 0001:00000084       ??_C@_1BO@NMEHGCBD@?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AAi?$AAn?$AAg?$AAM?$AAo?$AAd?$AAe?$AAl?$AA?$AA@ 10001084     DllMain.obj
+ 0001:000000a4       ??_C@_1BO@MNKPAJEP@?$AAI?$AAn?$AAp?$AAr?$AAo?$AAc?$AAS?$AAe?$AAr?$AAv?$AAe?$AAr?$AA3?$AA2?$AA?$AA@ 100010a4     DllMain.obj
+ 0001:000000c4       ??_C@_1BC@MCAABAB@?$AAC?$AAL?$AAS?$AAI?$AAD?$AA?2?$AA?$CF?$AAs?$AA?$AA@ 100010c4     DllMain.obj
+ 0001:000000d8       IID_IProviderFilteredSyncServices 100010d8     synchronization:synchronization_i.obj
+ 0001:000000e8       CLSID_SyncServices         100010e8     synchronization:synchronization_i.obj
+ 0001:000000f8       IID_ISyncMetadataStore     100010f8     metastore:metastore_i.obj
+ 0001:00000108       IID_ISqlSyncMetadataStore  10001108     metastore:metastore_i.obj
+ 0001:00000118       IID_IReplicaMetadata       10001118     metastore:metastore_i.obj
+ 0001:00000128       IID_IFieldValue            10001128     metastore:metastore_i.obj
+ 0001:00000138       IID_IItemMetadata          10001138     metastore:metastore_i.obj
+ 0001:00000148       IID_IChangeUnitMetadata    10001148     metastore:metastore_i.obj
+ 0001:00000158       IID_IItemMetadataEnumerator 10001158     metastore:metastore_i.obj
+ 0001:00000168       IID_IChangeUnitMetadataEnumerator 10001168     metastore:metastore_i.obj
+ 0001:00000178       CLSID_SyncMetadataStore    10001178     metastore:metastore_i.obj
+ 0001:000002d0       ?SQLCMD_CREATE_REPLICA_TABLE@@3QBGB 100012d0     metastore_private:SyncMetadataStore.obj
+ 0001:00000a88       ?SQLCMD_CREATE_VERSION_TABLE@@3QBGB 10001a88     metastore_private:SyncMetadataStore.obj
+ 0001:00000c2c       DBPROPSET_DBINIT           10001c2c     metastore_private:SyncMetadataStore.obj
+ 0001:00000c3c       DBGUID_SQL                 10001c3c     metastore_private:SyncMetadataStore.obj
+ 0001:00000c4c       IID_ICommandText           10001c4c     metastore_private:SyncMetadataStore.obj
+ 0001:00000c5c       IID_IDBCreateCommand       10001c5c     metastore_private:SyncMetadataStore.obj
+ 0001:00000c6c       IID_IDBCreateSession       10001c6c     metastore_private:SyncMetadataStore.obj
+ 0001:00000c7c       IID_IDBProperties          10001c7c     metastore_private:SyncMetadataStore.obj
+ 0001:00000c8c       IID_IDBInitialize          10001c8c     metastore_private:SyncMetadataStore.obj
+ 0001:00000c9c       IID_IDBDataSourceAdmin     10001c9c     metastore_private:SyncMetadataStore.obj
+ 0001:00000cac       IID_ISessionProperties     10001cac     metastore_private:SyncMetadataStore.obj
+ 0001:00000cbc       IID_ITransactionLocal      10001cbc     metastore_private:SyncMetadataStore.obj
+ 0001:00000ccc       CLSID_SQLSERVERCE_3_5      10001ccc     metastore_private:SyncMetadataStore.obj
+ 0001:00000cdc       DBPROPSET_SSCE_DBINIT      10001cdc     metastore_private:SyncMetadataStore.obj
+ 0001:00000cec       DBPROPSET_SSCE_SESSION     10001cec     metastore_private:SyncMetadataStore.obj
+ 0001:00000cfc       ?REPLICA_TABLE_NAME@@3QBGB 10001cfc     metastore_private:SyncMetadataStore.obj
+ 0001:00000d24       ?VERSION_TABLE_NAME@@3QBGB 10001d24     metastore_private:SyncMetadataStore.obj
+ 0001:00000d50       ?ITEM_TABLE_NAME_PREFIX@@3QBGB 10001d50     metastore_private:SyncMetadataStore.obj
+ 0001:00000d74       ?REPLICA_KEY_COL_NAME@@3QBGB 10001d74     metastore_private:SyncMetadataStore.obj
+ 0001:00000d8c       ?REPLICA_ID_COL_NAME@@3QBGB 10001d8c     metastore_private:SyncMetadataStore.obj
+ 0001:00000da0       ?REPLICA_ID_HASH_COL_NAME@@3QBGB 10001da0     metastore_private:SyncMetadataStore.obj
+ 0001:00000dbc       ?REPLICA_REPLICA_VERIFICATION_PARAMETERS_COL_NAME@@3QBGB 10001dbc     metastore_private:SyncMetadataStore.obj
+ 0001:00000df8       ?REPLICA_INITIALIZATION_PARAMETERS_COL_NAME@@3QBGB 10001df8     metastore_private:SyncMetadataStore.obj
+ 0001:00000e38       ?REPLICA_MAJOR_VERSION_COL_NAME@@3QBGB 10001e38     metastore_private:SyncMetadataStore.obj
+ 0001:00000e54       ?REPLICA_MINOR_VERSION_COL_NAME@@3QBGB 10001e54     metastore_private:SyncMetadataStore.obj
+ 0001:00000e70       ?ITEM_TOUCH_WATERMARK_COL_NAME@@3QBGB 10001e70     metastore_private:SyncMetadataStore.obj
+ 0001:00000e90       ?ITEM_CUSTOM_INDEX_COL_NAME_FORMAT_STRING@@3QBGB 10001e90     metastore_private:SyncMetadataStore.obj
+ 0001:00000eac       ?ITEM_CUSTOM_INDEX_PREFIX_FORMAT_STRING@@3QBGB 10001eac     metastore_private:SyncMetadataStore.obj
+ 0001:00000eb8       ??_C@_1GA@GJBKOKEJ@?$AAI?$AAD?$AAB?$AAD?$AAa?$AAt?$AAa?$AAS?$AAo?$AAu?$AAr?$AAc?$AAe?$AAA?$AAd?$AAm?$AAi?$AAn?$AA?9?$AA?$DO?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AAD?$AAa?$AAt?$AAa?$AAS?$AAo@ 10001eb8     metastore_private:SyncMetadataStore.obj
+ 0001:00000f18       ??_C@_1FC@CAFLPOJK@?$AAI?$AAD?$AAB?$AAI?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz?$AAe?$AA?9?$AA?$DO?$AAQ?$AAu?$AAe?$AAr?$AAy?$AAI?$AAn?$AAt?$AAe?$AAr?$AAf?$AAa?$AAc?$AAe?$AA?5?$AAf?$AAa@ 10001f18     metastore_private:SyncMetadataStore.obj
+ 0001:00000f70       ??_C@_1GG@ENIJGNNO@?$AAC?$AAo?$AAu?$AAl?$AAd?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAc?$AAr?$AAe?$AAa?$AAt?$AAe?$AA?5?$AAS?$AAQ?$AAL?$AAC?$AAE?$AA?5?$AAI?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz@ 10001f70     metastore_private:SyncMetadataStore.obj
+ 0001:00000fd8       ??_C@_1FG@GDJAPIEF@?$AAI?$AAD?$AAB?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AAS?$AAe?$AAs?$AAs?$AAi?$AAo?$AAn?$AA?9?$AA?$DO?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AAS?$AAe?$AAs?$AAs?$AAi?$AAo?$AAn?$AA?5@ 10001fd8     metastore_private:SyncMetadataStore.obj
+ 0001:00001030       ??_C@_1EK@GHOCJMNI@?$AAI?$AAD?$AAB?$AAI?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz?$AAe?$AA?9?$AA?$DO?$AAI?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz?$AAe?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd@ 10002030     metastore_private:SyncMetadataStore.obj
+ 0001:00001080       ??_C@_1FA@HAENDGFF@?$AAI?$AAD?$AAB?$AAP?$AAr?$AAo?$AAp?$AAe?$AAr?$AAt?$AAi?$AAe?$AAs?$AA?9?$AA?$DO?$AAS?$AAe?$AAt?$AAP?$AAr?$AAo?$AAp?$AAe?$AAr?$AAt?$AAi?$AAe?$AAs?$AA?5?$AAf?$AAa?$AAi@ 10002080     metastore_private:SyncMetadataStore.obj
+ 0001:000010d0       ??_C@_13NOLLCAOD@?$AA?$AA?$AA?$AA@ 100020d0     metastore_private:SyncMetadataStore.obj
+ 0001:000010d4       ??_C@_15OEMMNBIC@?$AA0?$AAx?$AA?$AA@ 100020d4     metastore_private:SyncMetadataStore.obj
+ 0001:000010dc       ??_C@_17ODDKLJAA@?$AA?5?$AA?$CJ?$AA?5?$AA?$AA@ 100020dc     metastore_private:SyncMetadataStore.obj
+ 0001:000010e4       ??_C@_15KNBIKKIN@?$AA?$CF?$AAd?$AA?$AA@ 100020e4     metastore_private:SyncMetadataStore.obj
+ 0001:000010ec       ??_C@_1BG@FGBJMJIM@?$AA?$CJ?$AA?5?$AAv?$AAa?$AAl?$AAu?$AAe?$AAs?$AA?5?$AA?$CI?$AA?$AA@ 100020ec     metastore_private:SyncMetadataStore.obj
+ 0001:00001104       ??_C@_17LDPHCILD@?$AA?5?$AA?0?$AA?5?$AA?$AA@ 10002104     metastore_private:SyncMetadataStore.obj
+ 0001:0000110c       ??_C@_15CMBHNMLL@?$AA?5?$AA?$CI?$AA?$AA@ 1000210c     metastore_private:SyncMetadataStore.obj
+ 0001:00001114       ??_C@_1BC@KPNNIHKL@?$AA?5?$AAI?$AAN?$AAS?$AAE?$AAR?$AAT?$AA?5?$AA?$AA@ 10002114     metastore_private:SyncMetadataStore.obj
+ 0001:00001128       ??_C@_1BA@DMCECEDB@?$AA?$CJ?$AA?5?$AAf?$AAr?$AAo?$AAm?$AA?5?$AA?$AA@ 10002128     metastore_private:SyncMetadataStore.obj
+ 0001:00001138       ??_C@_1BI@EOOBNPFM@?$AAS?$AAE?$AAL?$AAE?$AAC?$AAT?$AA?5?$AAM?$AAA?$AAX?$AA?$CI?$AA?$AA@ 10002138     metastore_private:SyncMetadataStore.obj
+ 0001:00001150       ??_C@_1FOC@EAMOGDB@?$AAC?$AAr?$AAe?$AAa?$AAt?$AAi?$AAo?$AAn?$AAP?$AAa?$AAr?$AAt?$AAn?$AAe?$AAr?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AAi?$AAn?$AAt?$AA?5?$AAn?$AAu?$AAl?$AAl?$AA?0?$AA?5?$AA?5@ 10002150     metastore_private:SyncMetadataStore.obj
+ 0001:00001734       ??_C@_1BK@BKFDDECA@?$AA?5?$AA?$CJ?$AAn?$AAo?$AAt?$AA?5?$AAn?$AAu?$AAl?$AAl?$AA?0?$AA?5?$AA?$AA@ 10002734     metastore_private:SyncMetadataStore.obj
+ 0001:00001750       ??_C@_1BO@DEIDAHDI@?$AA?5?$AAG?$AAl?$AAo?$AAb?$AAa?$AAl?$AAI?$AAt?$AAe?$AAm?$AAI?$AAd?$AA?5?$AA?$AA@ 10002750     metastore_private:SyncMetadataStore.obj
+ 0001:00001770       ??_C@_1GK@MAJCDINA@?$AA?5?$AA?$CI?$AA?5?$AAI?$AAt?$AAe?$AAm?$AAK?$AAe?$AAy?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AAi?$AAn?$AAt?$AA?5?$AAi?$AAd?$AAe?$AAn@ 10002770     metastore_private:SyncMetadataStore.obj
+ 0001:000017dc       ??_C@_1BM@CEFFPINI@?$AAC?$AAR?$AAE?$AAA?$AAT?$AAE?$AA?5?$AAT?$AAA?$AAB?$AAL?$AAE?$AA?5?$AA?$AA@ 100027dc     metastore_private:SyncMetadataStore.obj
+ 0001:000017f8       ??_C@_1O@HFLOEMBP@?$AAb?$AAi?$AAn?$AAa?$AAr?$AAy?$AA?$AA@ 100027f8     metastore_private:SyncMetadataStore.obj
+ 0001:00001808       ??_C@_1BE@LAGOIAHD@?$AAv?$AAa?$AAr?$AAb?$AAi?$AAn?$AAa?$AAr?$AAy?$AA?$AA@ 10002808     metastore_private:SyncMetadataStore.obj
+ 0001:0000181c       ??_C@_15EFLNJKHH@?$AA?$CF?$AAu?$AA?$AA@ 1000281c     metastore_private:SyncMetadataStore.obj
+ 0001:00001824       ??_C@_1M@FCJBAGGI@?$AA?5?$AA?$DN?$AA?5?$AA0?$AAx?$AA?$AA@ 10002824     metastore_private:SyncMetadataStore.obj
+ 0001:00001830       ??_C@_1BA@OAOFGDDK@?$AA?5?$AAW?$AAH?$AAE?$AAR?$AAE?$AA?5?$AA?$AA@ 10002830     metastore_private:SyncMetadataStore.obj
+ 0001:00001840       ??_C@_1CC@POOBEOKJ@?$AA?5?$AAS?$AAE?$AAL?$AAE?$AAC?$AAT?$AA?5?$AA?$CK?$AA?5?$AAF?$AAR?$AAO?$AAM?$AA?5?$AA?5?$AA?$AA@ 10002840     metastore_private:SyncMetadataStore.obj
+ 0001:00001864       ??_C@_1O@GCNGNMEI@?$AA?5?$AAF?$AAR?$AAO?$AAM?$AA?5?$AA?$AA@ 10002864     metastore_private:SyncMetadataStore.obj
+ 0001:00001874       ??_C@_1BA@OKAKEHOE@?$AAS?$AAE?$AAL?$AAE?$AAC?$AAT?$AA?5?$AA?$AA@ 10002874     metastore_private:SyncMetadataStore.obj
+ 0001:00001884       ??_C@_13DIBMAFH@?$AA?$CJ?$AA?$AA@ 10002884     metastore_private:SyncMetadataStore.obj
+ 0001:00001888       ??_C@_13LLDNKHDC@?$AA?$CI?$AA?$AA@ 10002888     metastore_private:SyncMetadataStore.obj
+ 0001:0000188c       ??_C@_19MICPOHFK@?$AA?5?$AAo?$AAn?$AA?5?$AA?$AA@ 1000288c     metastore_private:SyncMetadataStore.obj
+ 0001:00001898       ??_C@_1BM@PAGEKCBE@?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AA?5?$AAi?$AAn?$AAd?$AAe?$AAx?$AA?5?$AA?$AA@ 10002898     metastore_private:SyncMetadataStore.obj
+ 0001:000018b4       ??_C@_1CK@GKCLACGB@?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AA?5?$AAu?$AAn?$AAi?$AAq?$AAu?$AAe?$AA?5?$AAi?$AAn?$AAd?$AAe?$AAx?$AA?5?$AA?$AA@ 100028b4     metastore_private:SyncMetadataStore.obj
+ 0001:000018e0       ??_C@_13DEFPDAGF@?$AA?0?$AA?$AA@ 100028e0     metastore_private:SyncMetadataStore.obj
+ 0001:000018e4       ??_C@_1CG@LDOCINEH@?$AA?5?$AAu?$AAn?$AAi?$AAq?$AAu?$AAe?$AAi?$AAd?$AAe?$AAn?$AAt?$AAi?$AAf?$AAi?$AAe?$AAr?$AA?5?$AA?$AA@ 100028e4     metastore_private:SyncMetadataStore.obj
+ 0001:0000190c       ??_C@_1BI@HJBCBLBA@?$AA?5?$AAv?$AAa?$AAr?$AAb?$AAi?$AAn?$AAa?$AAr?$AAy?$AA?$CI?$AA?$AA@ 1000290c     metastore_private:SyncMetadataStore.obj
+ 0001:00001924       ??_C@_1BG@BAFIFFNH@?$AA?5?$AAn?$AAv?$AAa?$AAr?$AAc?$AAh?$AAa?$AAr?$AA?$CI?$AA?$AA@ 10002924     metastore_private:SyncMetadataStore.obj
+ 0001:0000193c       ??_C@_15MOKMKFJM@?$AA?$CJ?$AA?5?$AA?$AA@ 1000293c     metastore_private:SyncMetadataStore.obj
+ 0001:00001944       ??_C@_1BC@BFAMNGC@?$AA?5?$AAb?$AAi?$AAn?$AAa?$AAr?$AAy?$AA?$CI?$AA?$AA@ 10002944     metastore_private:SyncMetadataStore.obj
+ 0001:00001958       ??_C@_1BC@NNBAKIFC@?$AA?5?$AAb?$AAi?$AAg?$AAi?$AAn?$AAt?$AA?5?$AA?$AA@ 10002958     metastore_private:SyncMetadataStore.obj
+ 0001:0000196c       ??_C@_1BG@GPAJJDNE@?$AA?5?$AAs?$AAm?$AAa?$AAl?$AAl?$AAi?$AAn?$AAt?$AA?5?$AA?$AA@ 1000296c     metastore_private:SyncMetadataStore.obj
+ 0001:00001984       ??_C@_1M@EEAJJPLC@?$AA?5?$AAi?$AAn?$AAt?$AA?5?$AA?$AA@ 10002984     metastore_private:SyncMetadataStore.obj
+ 0001:00001990       ??_C@_1BE@OKJLOIHI@?$AA?5?$AAt?$AAi?$AAn?$AAy?$AAi?$AAn?$AAt?$AA?5?$AA?$AA@ 10002990     metastore_private:SyncMetadataStore.obj
+ 0001:000019a4       ??_C@_1M@MFMIMBBF@?$AA?5?$AAa?$AAd?$AAd?$AA?5?$AA?$AA@ 100029a4     metastore_private:SyncMetadataStore.obj
+ 0001:000019b0       ??_C@_1BK@JCDGKGPB@?$AAA?$AAl?$AAt?$AAe?$AAr?$AA?5?$AAt?$AAa?$AAb?$AAl?$AAe?$AA?5?$AA?$AA@ 100029b0     metastore_private:SyncMetadataStore.obj
+ 0001:000019cc       ??_C@_1CE@LOJCIIPH@?$AA?5?$AA?$CI?$AAT?$AAo?$AAu?$AAc?$AAh?$AAW?$AAa?$AAt?$AAe?$AAr?$AAm?$AAa?$AAr?$AAk?$AA?$CJ?$AA?$AA@ 100029cc     metastore_private:SyncMetadataStore.obj
+ 0001:000019f0       ??_C@_1EI@HHJAPBO@?$AAC?$AAR?$AAE?$AAA?$AAT?$AAE?$AA?5?$AAI?$AAN?$AAD?$AAE?$AAX?$AA?5?$AAI?$AAd?$AAx?$AA_?$AAT?$AAo?$AAu?$AAc?$AAh?$AAW?$AAa?$AAt?$AAe?$AAr?$AAm?$AAa?$AAr?$AAk?$AA?5@ 100029f0     metastore_private:SyncMetadataStore.obj
+ 0001:00001a38       ??_C@_1CA@FCEBOAHJ@?$AA?5?$AA?$CI?$AAG?$AAl?$AAo?$AAb?$AAa?$AAl?$AAI?$AAt?$AAe?$AAm?$AAI?$AAd?$AA?$CJ?$AA?$AA@ 10002a38     metastore_private:SyncMetadataStore.obj
+ 0001:00001a58       ??_C@_1FC@FKEMKAAK@?$AAC?$AAR?$AAE?$AAA?$AAT?$AAE?$AA?5?$AAU?$AAN?$AAI?$AAQ?$AAU?$AAE?$AA?5?$AAI?$AAN?$AAD?$AAE?$AAX?$AA?5?$AAI?$AAd?$AAx?$AA_?$AAG?$AAl?$AAo?$AAb?$AAa?$AAl?$AAI?$AAt@ 10002a58     metastore_private:SyncMetadataStore.obj
+ 0001:00001aac       ??_C@_1BG@KAHCKPOB@?$AA?5?$AA?$CI?$AAI?$AAt?$AAe?$AAm?$AAK?$AAe?$AAy?$AA?$CJ?$AA?$AA@ 10002aac     metastore_private:SyncMetadataStore.obj
+ 0001:00001ac8       ??_C@_1EI@BHJDNOMM@?$AAC?$AAR?$AAE?$AAA?$AAT?$AAE?$AA?5?$AAU?$AAN?$AAI?$AAQ?$AAU?$AAE?$AA?5?$AAI?$AAN?$AAD?$AAE?$AAX?$AA?5?$AAI?$AAd?$AAx?$AA_?$AAI?$AAt?$AAe?$AAm?$AAK?$AAe?$AAy?$AA?5@ 10002ac8     metastore_private:SyncMetadataStore.obj
+ 0001:00001b10       ??_C@_1CM@EKEEDPFP@?$AA?5?$AA?$CI?$AAA?$AAs?$AAO?$AAf?$AAL?$AAo?$AAc?$AAa?$AAl?$AAT?$AAi?$AAc?$AAk?$AAC?$AAo?$AAu?$AAn?$AAt?$AA?$CJ?$AA?$AA@ 10002b10     metastore_private:SyncMetadataStore.obj
+ 0001:00001b40       ??_C@_1FA@JOELAHPG@?$AAC?$AAR?$AAE?$AAA?$AAT?$AAE?$AA?5?$AAI?$AAN?$AAD?$AAE?$AAX?$AA?5?$AAI?$AAd?$AAx?$AA_?$AAA?$AAs?$AAO?$AAf?$AAL?$AAo?$AAc?$AAa?$AAl?$AAT?$AAi?$AAc?$AAk?$AAC?$AAo@ 10002b40     metastore_private:SyncMetadataStore.obj
+ 0001:00001b90       ??_C@_1FC@CAMDBMGL@?$AAL?$AAe?$AAa?$AAv?$AAi?$AAn?$AAg?$AA?5?$AAC?$AAS?$AAq?$AAl?$AAC?$AAE?$AAS?$AAy?$AAn?$AAc?$AAM?$AAe?$AAt?$AAa?$AAd?$AAa?$AAt?$AAa?$AAS?$AAt?$AAo?$AAr?$AAe?$AA?3@ 10002b90     metastore_private:SyncMetadataStore.obj
+ 0001:00001be4       ??_C@_17JOPFNIFB@?$AA?0?$AA0?$AAx?$AA?$AA@ 10002be4     metastore_private:SyncMetadataStore.obj
+ 0001:00001bec       ??_C@_1BK@IKAIHGEL@?$AA?$CJ?$AA?5?$AAv?$AAa?$AAl?$AAu?$AAe?$AAs?$AA?5?$AA?$CI?$AA0?$AAx?$AA?$AA@ 10002bec     metastore_private:SyncMetadataStore.obj
+ 0001:00001c08       ??_7CSqlCESyncMetadataStore@@6BISqlSyncMetadataStore@@@ 10002c08     metastore_private:SyncMetadataStore.obj
+ 0001:00001c38       ??_7CSqlCESyncMetadataStore@@6BISupportErrorInfo@@@ 10002c38     metastore_private:SyncMetadataStore.obj
+ 0001:00001c48       ??_C@_1DK@LADIEFMH@?$AAR?$AAo?$AAl?$AAl?$AAb?$AAa?$AAc?$AAk?$AA?5?$AAT?$AAr?$AAa?$AAn?$AAs?$AAa?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?3?$AA?5?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAx?$AA?$AA@ 10002c48     metastore_private:SyncMetadataStore.obj
+ 0001:00001c84       ??_C@_1BK@MGEPNNNB@?$AAD?$AAE?$AAL?$AAE?$AAT?$AAE?$AA?5?$AAF?$AAR?$AAO?$AAM?$AA?5?$AA?$AA@ 10002c84     metastore_private:SyncMetadataStore.obj
+ 0001:00001ca0       ??_C@_1BI@BKMAPNMG@?$AAD?$AAR?$AAO?$AAP?$AA?5?$AAT?$AAA?$AAB?$AAL?$AAE?$AA?5?$AA?$AA@ 10002ca0     metastore_private:SyncMetadataStore.obj
+ 0001:00001cb8       ??_C@_1FA@FPJEPKEL@?$AAD?$AAe?$AAl?$AAe?$AAt?$AAi?$AAn?$AAg?$AA?5?$AAC?$AAS?$AAq?$AAl?$AAC?$AAE?$AAS?$AAy?$AAn?$AAc?$AAM?$AAe?$AAt?$AAa?$AAd?$AAa?$AAt?$AAa?$AAS?$AAt?$AAo?$AAr?$AAe@ 10002cb8     metastore_private:SyncMetadataStore.obj
+ 0001:00001d08       ??_C@_1FE@BDKFONIE@?$AAE?$AAn?$AAt?$AAe?$AAr?$AAi?$AAn?$AAg?$AA?5?$AAC?$AAS?$AAq?$AAl?$AAC?$AAE?$AAS?$AAy?$AAn?$AAc?$AAM?$AAe?$AAt?$AAa?$AAd?$AAa?$AAt?$AAa?$AAS?$AAt?$AAo?$AAr?$AAe@ 10002d08     metastore_private:SyncMetadataStore.obj
+ 0001:00001d5c       DB_NULLID                  10002d5c     metastore_private:precomp.obj
+ 0001:00001d74       DBPROPSET_ROWSET           10002d74     metastore_private:precomp.obj
+ 0001:00001d84       IID_IAccessor              10002d84     metastore_private:precomp.obj
+ 0001:00001d94       IID_IRowset                10002d94     metastore_private:precomp.obj
+ 0001:00001da4       IID_IRowsetChange          10002da4     metastore_private:precomp.obj
+ 0001:00001db4       IID_IRowsetUpdate          10002db4     metastore_private:precomp.obj
+ 0001:00001dc4       IID_IRowsetIndex           10002dc4     metastore_private:precomp.obj
+ 0001:00001dd4       IID_ICommandPrepare        10002dd4     metastore_private:precomp.obj
+ 0001:00001de4       IID_ICommandWithParameters 10002de4     metastore_private:precomp.obj
+ 0001:00001df4       IID_IColumnsInfo           10002df4     metastore_private:precomp.obj
+ 0001:00001e04       IID_IOpenRowset            10002e04     metastore_private:precomp.obj
+ 0001:00001e14       IID_IErrorRecords          10002e14     metastore_private:precomp.obj
+ 0001:00001e24       ?REPLICA_TABLE_INDEX_NAME@@3QBGB 10002e24     metastore_private:precomp.obj
+ 0001:00001e40       ?ITEM_TABLE_ITEM_KEY_INDEX_NAME@@3QBGB 10002e40     metastore_private:precomp.obj
+ 0001:00001e58       ?ITEM_TABLE_LOCAL_ID_HASH_INDEX_NAME@@3QBGB 10002e58     metastore_private:precomp.obj
+ 0001:00001e78       ?ITEM_TABLE_GLOBAL_ITEM_ID_INDEX_NAME@@3QBGB 10002e78     metastore_private:precomp.obj
+ 0001:00001e9c       ?REPLICA_TICKCOUNT_COL_NAME@@3QBGB 10002e9c     metastore_private:precomp.obj
+ 0001:00001eb0       ?REPLICA_KNOWLEDGE_COL_NAME@@3QBGB 10002eb0     metastore_private:precomp.obj
+ 0001:00001ec4       ?REPLICA_FORGOTTEN_KNOWLEDGE_COL_NAME@@3QBGB 10002ec4     metastore_private:precomp.obj
+ 0001:00001eec       ?REPLICA_CUSTOM_METADATA_COL_NAME@@3QBGB 10002eec     metastore_private:precomp.obj
+ 0001:00001f14       ?REPLICA_DELETED_ITEMS_CLEANUP_KNOWLEDGE_COL_NAME@@3QBGB 10002f14     metastore_private:precomp.obj
+ 0001:00001f50       ?REPLICA_DELETED_ITEMS_CLEANUP_TIME_COL_NAME@@3QBGB 10002f50     metastore_private:precomp.obj
+ 0001:00001f80       ?ITEM_ITEM_KEY_COL_NAME@@3QBGB 10002f80     metastore_private:precomp.obj
+ 0001:00001f90       ?ITEM_GLOBAL_ITEM_ID_COL_NAME@@3QBGB 10002f90     metastore_private:precomp.obj
+ 0001:00001fac       ?ITEM_CREATION_PARTNER_COL_NAME@@3QBGB 10002fac     metastore_private:precomp.obj
+ 0001:00001fcc       ?ITEM_CREATION_TICKCOUNT_COL_NAME@@3QBGB 10002fcc     metastore_private:precomp.obj
+ 0001:00001ff0       ?ITEM_UPDATE_PARTNER_COL_NAME@@3QBGB 10002ff0     metastore_private:precomp.obj
+ 0001:0000200c       ?ITEM_UPDATE_TICKCOUNT_COL_NAME@@3QBGB 1000300c     metastore_private:precomp.obj
+ 0001:0000202c       ?ITEM_AS_OF_LOCAL_TICKCOUNT_COL_NAME@@3QBGB 1000302c     metastore_private:precomp.obj
+ 0001:00002054       ?ITEM_TOMBSTONE_STATUS_COL_NAME@@3QBGB 10003054     metastore_private:precomp.obj
+ 0001:00002074       ?ITEM_CHANGE_UNITS_COL_NAME@@3QBGB 10003074     metastore_private:precomp.obj
+ 0001:0000208c       ?ITEM_CUSTOM_INDEX_INDEX_NAME_FORMAT_STRING@@3QBGB 1000308c     metastore_private:precomp.obj
+ 0001:00002340       ??_C@_1BA@IONIIAHE@?$AAS?$AAe?$AAl?$AAe?$AAc?$AAt?$AA?5?$AA?$AA@ 10003340     metastore_private:SyncStoreUtility.obj
+ 0001:00002350       ??_C@_1EM@PNAHHEOG@?$AAC?$AAo?$AAl?$AAu?$AAm?$AAn?$AAs?$AAI?$AAn?$AAf?$AAo?$AA?9?$AA?$DO?$AAG?$AAe?$AAt?$AAC?$AAo?$AAl?$AAu?$AAm?$AAn?$AAI?$AAn?$AAf?$AAo?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe@ 10003350     metastore_private:SyncStoreUtility.obj
+ 0001:000023a0       ??_C@_1EE@OBDAPDLD@?$AAR?$AAo?$AAw?$AAs?$AAe?$AAt?$AA?9?$AA?$DO?$AAQ?$AAu?$AAe?$AAr?$AAy?$AAI?$AAn?$AAt?$AAe?$AAr?$AAf?$AAa?$AAc?$AAe?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AA?$CB?$AA?$CB@ 100033a0     metastore_private:SyncStoreUtility.obj
+ 0001:000023e8       ??_C@_1EC@IIJBAJB@?$AAI?$AAR?$AAo?$AAw?$AAs?$AAe?$AAt?$AAU?$AAp?$AAd?$AAa?$AAt?$AAe?$AA?9?$AA?$DO?$AAU?$AAp?$AAd?$AAa?$AAt?$AAe?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AA?$CB?$AA?$CB?$AA?$CB@ 100033e8     metastore_private:SyncStoreUtility.obj
+ 0001:0000242c       ??_C@_1DO@FEOHNKHP@?$AAI?$AAR?$AAo?$AAw?$AAs?$AAe?$AAt?$AAU?$AAp?$AAd?$AAa?$AAt?$AAe?$AA?9?$AA?$DO?$AAU?$AAn?$AAd?$AAo?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AA?$CB?$AA?$CB?$AA?$CB?$AA?$AA@ 1000342c     metastore_private:SyncStoreUtility.obj
+ 0001:0000246c       ??_C@_0BB@JGGOGLEG@0123456789ABCDEF?$AA@ 1000346c     metastore_private:SyncStoreUtility.obj
+ 0001:00002480       ??_C@_1EE@ILKIKEHA@?$AAG?$AAe?$AAt?$AAE?$AAr?$AAr?$AAo?$AAr?$AAI?$AAn?$AAf?$AAo?$AA?$CI?$AA?$CJ?$AA?5?$AAF?$AAA?$AAI?$AAL?$AAE?$AAD?$AA?5?$AAw?$AAi?$AAt?$AAh?$AA?5?$AA0?$AAx?$AA?$CF?$AA0?$AA8@ 10003480     metastore_private:SyncStoreUtility.obj
+ 0001:000024c8       ??_C@_1HA@MHMAIHME@?$AAQ?$AAu?$AAe?$AAr?$AAy?$AAI?$AAn?$AAt?$AAe?$AAr?$AAf?$AAa?$AAc?$AAe?$AA?5?$AAf?$AAo?$AAr?$AA?5?$AAI?$AAI?$AAD?$AA_?$AAI?$AAE?$AAr?$AAr?$AAo?$AAr?$AAR?$AAe?$AAc@ 100034c8     metastore_private:SyncStoreUtility.obj
+ 0001:00002538       ??_C@_0CM@JOGFPCFP@SyncStoreUtility?3?3GetSqlCEExtend@ 10003538     metastore_private:SyncStoreUtility.obj
+ 0001:00002568       ??_C@_1HI@FIKGPBLM@?$AA?$CF?$AAs?$AA?3?$AA?5?$AA?$FL?$AAH?$AAR?$AAE?$AAS?$AAU?$AAL?$AAT?$AA?$DN?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAx?$AA?0?$AA?5?$AAE?$AAr?$AAr?$AAo?$AAr?$AAC?$AAo?$AAd?$AAe?$AA?$DN?$AA?$CF@ 10003568     metastore_private:SyncStoreUtility.obj
+ 0001:000025e0       ??_C@_11LOCGONAA@?$AA?$AA@ 100035e0     metastore_private:SyncStoreUtility.obj
+ 0001:000025e4       ??_C@_19DBPMJLCP@?$AA?$CF?$AAd?$AA?0?$AA?5?$AA?$AA@ 100035e4     metastore_private:SyncStoreUtility.obj
+ 0001:000025f0       ??_C@_19EHICKDBN@?$AA?$CF?$AAs?$AA?0?$AA?5?$AA?$AA@ 100035f0     metastore_private:SyncStoreUtility.obj
+ 0001:00002600       ??_C@_1HO@DFIMCKMD@?$AAI?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5?$AAD?$AAi?$AAs?$AAp?$AAP?$AAa?$AAr?$AAa?$AAm?$AA?5?$AAt?$AAy?$AAp?$AAe?$AA?5?$AAw?$AAh?$AAe?$AAn?$AA?5?$AAg?$AAe?$AAt?$AAt@ 10003600     metastore_private:SyncStoreUtility.obj
+ 0001:00002680       ??_C@_15IJKOILGG@?$AA?8?$AA?$CJ?$AA?$AA@ 10003680     metastore_private:SyncStoreUtility.obj
+ 0001:00002688       ??_C@_1JA@BLHIKMKD@?$AAS?$AAE?$AAL?$AAE?$AAC?$AAT?$AA?5?$AAt?$AAa?$AAb?$AAl?$AAe?$AA_?$AAn?$AAa?$AAm?$AAe?$AA?5?$AAF?$AAR?$AAO?$AAM?$AA?5?$AAI?$AAN?$AAF?$AAO?$AAR?$AAM?$AAA?$AAT?$AAI@ 10003688     metastore_private:SyncStoreUtility.obj
+ 0001:00002718       ??_C@_1EK@ONOCFMKB@?$AAI?$AAA?$AAc?$AAc?$AAe?$AAs?$AAs?$AAo?$AAr?$AA?9?$AA?$DO?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AAA?$AAc?$AAc?$AAe?$AAs?$AAs?$AAo?$AAr?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd@ 10003718     metastore_private:SyncStoreUtility.obj
+ 0001:00002768       ??_C@_1EO@PNAIGPHK@?$AAI?$AAC?$AAo?$AAl?$AAu?$AAm?$AAn?$AAs?$AAI?$AAn?$AAf?$AAo?$AA?9?$AA?$DO?$AAG?$AAe?$AAt?$AAC?$AAo?$AAl?$AAu?$AAm?$AAn?$AAI?$AAn?$AAf?$AAo?$AA?5?$AAf?$AAa?$AAi?$AAl@ 10003768     metastore_private:SyncStoreUtility.obj
+ 0001:000027b8       ??_C@_1EG@MLBILPCC@?$AAI?$AAR?$AAo?$AAw?$AAs?$AAe?$AAt?$AA?9?$AA?$DO?$AAQ?$AAu?$AAe?$AAr?$AAy?$AAI?$AAn?$AAt?$AAe?$AAr?$AAf?$AAa?$AAc?$AAe?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AA?$CB@ 100037b8     metastore_private:SyncStoreUtility.obj
+ 0001:00002800       ??_C@_1EC@PLGFNBCO@?$AAI?$AAC?$AAo?$AAm?$AAm?$AAa?$AAn?$AAd?$AAT?$AAe?$AAx?$AAt?$AA?9?$AA?$DO?$AAE?$AAx?$AAe?$AAc?$AAu?$AAt?$AAe?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AA?$CB?$AA?$CB?$AA?$CB@ 10003800     metastore_private:SyncStoreUtility.obj
+ 0001:00002844       ??_C@_1DG@EKEMDEJM@?$AAR?$AAo?$AAw?$AAs?$AAe?$AAt?$AA?9?$AA?$DO?$AAG?$AAe?$AAt?$AAD?$AAa?$AAt?$AAa?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AA?$CB?$AA?$CB?$AA?$CB?$AA?$AA@ 10003844     metastore_private:SyncStoreUtility.obj
+ 0001:00002b50       ??_C@_19LJDFFCJJ@?$AA?$CF?$AAs?$AA?$CF?$AAs?$AA?$AA@ 10003b50     metastore_private:SyncReplicaMetadata.obj
+ 0001:00002b5c       _GUID_456e0f96_6036_452b_9f9d_bcc4b4a85db2 10003b5c     metastore_private:SyncReplicaMetadata.obj
+ 0001:00002b6c       _GUID_d04e0deb_5a79_4f44_8a37_2ee45a348c14 10003b6c     metastore_private:SyncReplicaMetadata.obj
+ 0001:00002b7c       ??_C@_1M@JHHEPCIA@?$AA?5?$AA?$DN?$AA?5?$AA1?$AA?5?$AA?$AA@ 10003b7c     metastore_private:SyncReplicaMetadata.obj
+ 0001:00002b88       ??_C@_1BA@JFJCJLHJ@?$AA?$CJ?$AA?5?$AAF?$AAR?$AAO?$AAM?$AA?5?$AA?$AA@ 10003b88     metastore_private:SyncReplicaMetadata.obj
+ 0001:00002b98       ??_C@_1BM@ELPALKEH@?$AAS?$AAE?$AAL?$AAE?$AAC?$AAT?$AA?5?$AAC?$AAo?$AAu?$AAn?$AAt?$AA?$CI?$AA?$AA@ 10003b98     metastore_private:SyncReplicaMetadata.obj
+ 0001:00002bb4       ??_C@_19ECOBECNK@?$AA?5?$AAO?$AAR?$AA?5?$AA?$AA@ 10003bb4     metastore_private:SyncReplicaMetadata.obj
+ 0001:00002bc0       ??_C@_19CNBAOGBB@?$AA?$DN?$AA?5?$AA?$DP?$AA?5?$AA?$AA@ 10003bc0     metastore_private:SyncReplicaMetadata.obj
+ 0001:00002bcc       ??_C@_1BC@DMOMHLMM@?$AA?5?$AAS?$AAE?$AAL?$AAE?$AAC?$AAT?$AA?5?$AA?$AA@ 10003bcc     metastore_private:SyncReplicaMetadata.obj
+ 0001:00002be0       ??_C@_1BG@EHJHJMCD@?$AA?5?$AAO?$AAR?$AAD?$AAE?$AAR?$AA?5?$AAB?$AAY?$AA?5?$AA?$AA@ 10003be0     metastore_private:SyncReplicaMetadata.obj
+ 0001:00002bf8       ??_C@_1M@LNFDGNFG@?$AA?5?$AA?$DM?$AA?5?$AA0?$AAx?$AA?$AA@ 10003bf8     metastore_private:SyncReplicaMetadata.obj
+ 0001:00002c04       ??_C@_1M@OFIPLJGN@?$AA?5?$AAA?$AAN?$AAD?$AA?5?$AA?$AA@ 10003c04     metastore_private:SyncReplicaMetadata.obj
+ 0001:00002c10       ??_C@_1O@NALCPPPK@?$AA?5?$AA?$DO?$AA?$DN?$AA?5?$AA0?$AAx?$AA?$AA@ 10003c10     metastore_private:SyncReplicaMetadata.obj
+ 0001:00002c20       ??_C@_17PNOJILCD@?$AA?5?$AA?$DO?$AA?5?$AA?$AA@ 10003c20     metastore_private:SyncReplicaMetadata.obj
+ 0001:00002c28       ??_C@_1M@OGLPPGPN@?$AA?$CF?$AAI?$AA6?$AA4?$AAu?$AA?$AA@ 10003c28     metastore_private:SyncReplicaMetadata.obj
+ 0001:00002c38       ??_7CSyncReplicaMetadata@@6BIReplicaMetadata@@@ 10003c38     metastore_private:SyncReplicaMetadata.obj
+ 0001:00002cb8       ??_7CSyncReplicaMetadata@@6BISupportErrorInfo@@@ 10003cb8     metastore_private:SyncReplicaMetadata.obj
+ 0001:00002cc8       ??_C@_1M@FMCICBCF@?$AA?5?$AA?$DN?$AA?5?$AA0?$AA?5?$AA?$AA@ 10003cc8     metastore_private:SyncReplicaMetadata.obj
+ 0001:00002cd4       ??_C@_1M@FHICGMHK@?$AA?5?$AA?$DM?$AA?$DN?$AA?5?$AA?5?$AA?$AA@ 10003cd4     metastore_private:SyncReplicaMetadata.obj
+ 0001:00002ce0       ??_C@_13ODFOLHGE@?$AA?8?$AA?$AA@ 10003ce0     metastore_private:SyncReplicaMetadata.obj
+ 0001:00002ce4       ??_C@_19HHKJEAEE@?$AA?5?$AA?$DN?$AA?5?$AA?8?$AA?$AA@ 10003ce4     metastore_private:SyncReplicaMetadata.obj
+ 0001:00002cf0       ??_C@_1O@DMIJGBGF@?$AA?5?$AA?$DM?$AA?$DN?$AA?5?$AA0?$AAx?$AA?$AA@ 10003cf0     metastore_private:SyncReplicaMetadata.obj
+ 0001:00002d00       ??_C@_19OCAEDPDE@?$AA?5?$AA?$DN?$AA?5?$AA?$DP?$AA?$AA@ 10003d00     metastore_private:SyncReplicaMetadata.obj
+ 0001:00002d0c       ??_C@_1BE@JAPNCHKI@?$AAS?$AAE?$AAL?$AAE?$AAC?$AAT?$AA?5?$AA?$CK?$AA?5?$AA?$AA@ 10003d0c     metastore_private:SyncReplicaMetadata.obj
+ 0001:00002d20       ??_C@_1BE@LHNEKAIO@?$AA?5?$AA?$DN?$AA?5?$AA0?$AA?5?$AAA?$AAN?$AAD?$AA?5?$AA?$AA@ 10003d20     metastore_private:SyncReplicaMetadata.obj
+ 0001:00002d34       ??_C@_17JODCPGIK@?$AA?5?$AA?$CJ?$AA?$CJ?$AA?$AA@ 10003d34     metastore_private:SyncReplicaMetadata.obj
+ 0001:00002d3c       ??_C@_1BM@GBBEBFIA@?$AA?5?$AAW?$AAI?$AAT?$AAH?$AA?5?$AA?$CI?$AAI?$AAN?$AAD?$AAE?$AAX?$AA?$CI?$AA?$AA@ 10003d3c     metastore_private:SyncReplicaMetadata.obj
+ 0001:00002d58       ??_C@_1EA@BMJPHHNB@?$AAN?$AAu?$AAm?$AAb?$AAe?$AAr?$AA?5?$AAo?$AAf?$AA?5?$AAc?$AAh?$AAa?$AAn?$AAg?$AAe?$AAs?$AA?5?$AAi?$AAn?$AA?5?$AAb?$AAa?$AAt?$AAc?$AAh?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AAd?$AA?$AA@ 10003d58     metastore_private:SyncReplicaMetadata.obj
+ 0001:00002d98       _GUID_52f6e694_6a71_4494_a184_a8311bf5d227 10003d98     metastore_private:SyncReplicaMetadata.obj
+ 0001:00002da8       _GUID_70c64dee_380f_4c2e_8f70_31c55bd5f9b3 10003da8     metastore_private:SyncReplicaMetadata.obj
+ 0001:00002db8       _GUID_ef64197d_4f44_4ea2_b355_4524713e3bed 10003db8     metastore_private:SyncReplicaMetadata.obj
+ 0001:00002f10       ??_7CSyncItemMetadataEnumerator@@6BIItemMetadataEnumerator@@@ 10003f10     metastore_private:SyncEnumerator.obj
+ 0001:00002f2c       ??_7CSyncItemMetadataEnumerator@@6BISupportErrorInfo@@@ 10003f2c     metastore_private:SyncEnumerator.obj
+ 0001:000030b0       ??_7ISyncItemMetadataInternal@@6B@ 100040b0     metastore_private:SyncItemMetadata.obj
+ 0001:000030c0       ??_7CSyncItemMetadata@@6BIItemMetadata@@@ 100040c0     metastore_private:SyncItemMetadata.obj
+ 0001:00003134       ??_7CSyncItemMetadata@@6BISupportErrorInfo@@@ 10004134     metastore_private:SyncItemMetadata.obj
+ 0001:00003144       ??_7CSyncItemMetadata@@6BISyncItemMetadataInternal@@@ 10004144     metastore_private:SyncItemMetadata.obj
+ 0001:000033e8       ??_7CSyncChangeUnitMetadataEnumerator@@6BIChangeUnitMetadataEnumerator@@@ 100043e8     metastore_private:SyncChangeUnitsEnumerator.obj
+ 0001:00003404       ??_7CSyncChangeUnitMetadataEnumerator@@6BISupportErrorInfo@@@ 10004404     metastore_private:SyncChangeUnitsEnumerator.obj
+ 0001:00003560       ??_7CSyncFieldValue@@6BIFieldValue@@@ 10004560     metastore_private:SyncFieldValue.obj
+ 0001:000035a8       ??_7CSyncFieldValue@@6BISupportErrorInfo@@@ 100045a8     metastore_private:SyncFieldValue.obj
+ 0001:00003848       ??_7CSyncChangeUnitMetadata@@6BIChangeUnitMetadata@@@ 10004848     metastore_private:SyncChangeUnitMetadata.obj
+ 0001:0000385c       ??_7CSyncChangeUnitMetadata@@6BISupportErrorInfo@@@ 1000485c     metastore_private:SyncChangeUnitMetadata.obj
+ 0001:0000386c       ??_C@_1CG@FKGIGFBM@?$AA?$CF?$AAs?$AAr?$AAe?$AAs?$AA?4?$AAd?$AAl?$AAl?$AA?4?$AA?$CF?$AA0?$AA4?$AAx?$AA?4?$AAm?$AAu?$AAi?$AA?$AA@ 1000486c     resload:resload.obj
+ 0001:00003894       IID_IErrorInfo             10004894     dcomuuid:dcomuuid.obj
+ 0001:000038a4       IID_ISupportErrorInfo      100048a4     dcomuuid:dcomuuid.obj
+ 0001:000038b4       IID_ISequentialStream      100048b4     dcomuuid:dcomuuid.obj
+ 0001:000038c4       IID_IUnknown               100048c4     dcomuuid:dcomuuid.obj
+ 0001:000038d4       IID_IClassFactory          100048d4     dcomuuid:dcomuuid.obj
+ 0001:0000390c       ?HaCeTraceMesage@@YAXHPAGZZ 1000490c f i clsfact.obj
+ 0001:0000391c       ?QueryInterface@CSyncMetadataStoreClassFactory@@UAAJABU_GUID@@PAPAX@Z 1000491c f   clsfact.obj
+ 0001:000039a8       ?AddRef@CSyncMetadataStoreClassFactory@@UAAKXZ 100049a8 f   clsfact.obj
+ 0001:000039b0       ?CreateInstance@CSyncMetadataStoreClassFactory@@UAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 100049b0 f   clsfact.obj
+ 0001:000039d0       ?LockServer@CSyncMetadataStoreClassFactory@@UAAJH@Z 100049d0 f   clsfact.obj
+ 0001:000039f4       ?InitializeMDSTracing@@YAJXZ 100049f4 f   clsfact.obj
+ 0001:000039fc       ?ShutdownMDSTracing@@YAJXZ 100049fc f   clsfact.obj
+ 0001:00003a04       ?Release@CSyncMetadataStoreClassFactory@@UAAKXZ 10004a04 f   clsfact.obj
+ 0001:00003a44       ?GetHRForLastWin32Error@@YAJXZ 10004a44 f i DllMain.obj
+ 0001:00003a84       ?RegisterSyncMetadataStoreComponent@@YAJPBG0PBU_GUID@@@Z 10004a84 f   DllMain.obj
+ 0001:00003cdc       ?UnregisterSyncMetadataStoreComponent@@YAJPBU_GUID@@@Z 10004cdc f   DllMain.obj
+ 0001:00003e18       DllRegisterServer          10004e18 f   DllMain.obj
+ 0001:00003e88       DllUnregisterServer        10004e88 f   DllMain.obj
+ 0001:00003e94       DllCanUnloadNow            10004e94 f   DllMain.obj
+ 0001:00003eb0       DllAddRef                  10004eb0 f   DllMain.obj
+ 0001:00003ebc       DllRelease                 10004ebc f   DllMain.obj
+ 0001:00003ec8       DllMain                    10004ec8 f   DllMain.obj
+ 0001:00003f00       ?CreateSyncService@@YAJABU_GUID@@PAPAX@Z 10004f00 f   DllMain.obj
+ 0001:00003f30       DllGetClassObject          10004f30 f   DllMain.obj
+ 0001:00003fd8       ?IsPrime@@YA_NK@Z          10004fd8 f i metastore_private:SyncMetadataStore.obj
+ 0001:0000405c       ?GetNextPrimeNumber@@YAKK@Z 1000505c f i metastore_private:SyncMetadataStore.obj
+ 0001:000040c4       ??0IdParameters@@QAA@PBU_ID_PARAMETERS@@@Z 100050c4 f i metastore_private:SyncMetadataStore.obj
+ 0001:00004134       ?HToNCopyLPCWSTR@@YAXPAEPBG@Z 10005134 f i metastore_private:SyncMetadataStore.obj
+ 0001:00004174       ?SerializeParameterPair@IdParameterPair@@QAAJPAPAEPBE@Z 10005174 f i metastore_private:SyncMetadataStore.obj
+ 0001:000041e4       ?Deserialize@IdParameterPair@@SAJPAPAEPBEPAU_ID_PARAMETER_PAIR@@@Z 100051e4 f i metastore_private:SyncMetadataStore.obj
+ 0001:00004274       ?NToHCopyLPWSTR@@YAXPAGKPBEK@Z 10005274 f i metastore_private:SyncMetadataStore.obj
+ 0001:000042c8       ?ReleaseRows@@YAJPAUIRowset@@PAKJ@Z 100052c8 f i metastore_private:SyncMetadataStore.obj
+ 0001:000043a4       ?ReleaseResources@@YAJPAPAUIDBCreateCommand@@PAPAUIRowset@@PAPAUIRowsetIndex@@PAPAUIOpenRowset@@PAKPAPAEPAPAUtagDBBINDING@@J@Z 100053a4 f i metastore_private:SyncMetadataStore.obj
+ 0001:000044dc       ?FailedHresultFromWin32@@YAJXZ 100054dc f i metastore_private:SyncMetadataStore.obj
+ 0001:00004514       ?CompareSyncId@@YAHPBE0ABU_ID_PARAMETER_PAIR@@@Z 10005514 f i metastore_private:SyncMetadataStore.obj
+ 0001:000045e4       ?QueryInterface@CSqlCESyncMetadataStore@@UAAJABU_GUID@@PAPAX@Z 100055e4 f   metastore_private:SyncMetadataStore.obj
+ 0001:000046b4       ?AddRef@CSqlCESyncMetadataStore@@UAAKXZ 100056b4 f   metastore_private:SyncMetadataStore.obj
+ 0001:000046bc       ?CheckDisposedState@CSqlCESyncMetadataStore@@QAAJXZ 100056bc f   metastore_private:SyncMetadataStore.obj
+ 0001:00004708       ?GetIDBCreateCommand@CSqlCESyncMetadataStore@@QAAJPAPAUIDBCreateCommand@@@Z 10005708 f   metastore_private:SyncMetadataStore.obj
+ 0001:00004740       ?GetICommandText@CSqlCESyncMetadataStore@@QAAJPAPAUICommandText@@@Z 10005740 f   metastore_private:SyncMetadataStore.obj
+ 0001:00004778       ?InvalidateStoreConnection@CSqlCESyncMetadataStore@@QAAXXZ 10005778 f   metastore_private:SyncMetadataStore.obj
+ 0001:00004784       ?ReleaseReplicaPointer@CSqlCESyncMetadataStore@@QAAXXZ 10005784 f   metastore_private:SyncMetadataStore.obj
+ 0001:00004790       ?CreateIndexedHashColumnDefinition@CSqlCESyncMetadataStore@@AAAJPAUtagCUSTOM_FIELD_DEFINITION_OLETYPE@@PAU_CUSTOM_FIELDS_INDEX@@K@Z 10005790 f   metastore_private:SyncMetadataStore.obj
+ 0001:000047d8       ?ReleaseDataSource@CSqlCESyncMetadataStore@@AAAJXZ 100057d8 f   metastore_private:SyncMetadataStore.obj
+ 0001:0000498c       ?CreateStore@CSqlCESyncMetadataStore@@AAAJKPBG@Z 1000598c f   metastore_private:SyncMetadataStore.obj
+ 0001:00004c10       ?OpenStore@CSqlCESyncMetadataStore@@AAAJKPBG@Z 10005c10 f   metastore_private:SyncMetadataStore.obj
+ 0001:00004f14       ?CreateTableIfNotExist@CSqlCESyncMetadataStore@@AAAJPAUICommandText@@PBGPAH@Z 10005f14 f   metastore_private:SyncMetadataStore.obj
+ 0001:00004f70       ?SerializeReplicaInitializationParameters@CSqlCESyncMetadataStore@@AAAJPAU_CUSTOM_FIELD_DEFINITION@@KPAU_CUSTOM_FIELDS_INDEX@@EPAVWstring@@@Z 10005f70 f   metastore_private:SyncMetadataStore.obj
+ 0001:00005250       ?InsertVersionInformation@CSqlCESyncMetadataStore@@AAAJPAUICommandText@@@Z 10006250 f   metastore_private:SyncMetadataStore.obj
+ 0001:000053bc       ?DeserializeReplicaVerificationParameters@CSqlCESyncMetadataStore@@AAAJPAEKPAPAU_ID_PARAMETERS@@PAPAG@Z 100063bc f   metastore_private:SyncMetadataStore.obj
+ 0001:0000552c       ?GetTouchWatermarkFromItemTable@CSqlCESyncMetadataStore@@AAAJPAUICommandText@@PBGPA_K@Z 1000652c f   metastore_private:SyncMetadataStore.obj
+ 0001:0000565c       ?CheckEqualIdParameters@CSqlCESyncMetadataStore@@AAAHPAU_ID_PARAMETERS@@0@Z 1000665c f   metastore_private:SyncMetadataStore.obj
+ 0001:000056e4       ?FormatCommandTextForCreateItemTableQuery@CSqlCESyncMetadataStore@@AAAJPAVWstring@@PBGPAU_ID_PARAMETERS@@@Z 100066e4 f   metastore_private:SyncMetadataStore.obj
+ 0001:000057c0       ?GetDefaultItemTableName@CSqlCESyncMetadataStore@@AAAJPBEPAGK@Z 100067c0 f   metastore_private:SyncMetadataStore.obj
+ 0001:00005874       ?CommitOrRollbackTransaction@CSqlCESyncMetadataStore@@AAAJH@Z 10006874 f   metastore_private:SyncMetadataStore.obj
+ 0001:00005a64       ?ValidateCustomColumnDefinition@CSqlCESyncMetadataStore@@AAAJPAU_CUSTOM_FIELD_DEFINITION@@@Z 10006a64 f   metastore_private:SyncMetadataStore.obj
+ 0001:00005ad8       ?VerifyMetadataStoreTableConsistency@CSqlCESyncMetadataStore@@AAAJPAUICommandText@@PBE@Z 10006ad8 f   metastore_private:SyncMetadataStore.obj
+ 0001:00005d98       ?VerifyMetadataStoreVersion@CSqlCESyncMetadataStore@@AAAJPAUICommandText@@@Z 10006d98 f   metastore_private:SyncMetadataStore.obj
+ 0001:00005f40       ?AddCustomItemTableSchema@@YAJPAUICommandText@@PBGPAEPBUtagCUSTOM_FIELD_DEFINITION_OLETYPE@@K@Z 10006f40 f   metastore_private:SyncMetadataStore.obj
+ 0001:000062cc       ?GetNextElement@?$TableEnumerator@PAVCSyncItemMetadataEnumerator@@EV?$KeyHashCalculator@PAVCSyncItemMetadataEnumerator@@@@@@QAAPAV?$TableElement@PAVCSyncItemMetadataEnumerator@@EV?$KeyHashCalculator@PAVCSyncItemMetadataEnumerator@@@@@@XZ 100072cc f i metastore_private:SyncMetadataStore.obj
+ 0001:00006350       ?CreateOrOpenStore@CSqlCESyncMetadataStore@@AAAJPBGKH@Z 10007350 f   metastore_private:SyncMetadataStore.obj
+ 0001:000064f8       ?BeginTransaction@CSqlCESyncMetadataStore@@UAAJJ@Z 100074f8 f   metastore_private:SyncMetadataStore.obj
+ 0001:00006764       ?CommitTransaction@CSqlCESyncMetadataStore@@UAAJXZ 10007764 f   metastore_private:SyncMetadataStore.obj
+ 0001:00006790       ?RollbackTransaction@CSqlCESyncMetadataStore@@UAAJXZ 10007790 f   metastore_private:SyncMetadataStore.obj
+ 0001:000067bc       ?GetIsTransactionActive@CSqlCESyncMetadataStore@@UAAJPAJPAH@Z 100077bc f   metastore_private:SyncMetadataStore.obj
+ 0001:00006834       ?CreateItemTable@CSqlCESyncMetadataStore@@AAAJPAUICommandText@@PBEPAU_ID_PARAMETERS@@@Z 10007834 f   metastore_private:SyncMetadataStore.obj
+ 0001:00006a48       ?SerializeReplicaVerificationParameters@CSqlCESyncMetadataStore@@AAAJPAU_ID_PARAMETERS@@PBEPAVWstring@@@Z 10007a48 f   metastore_private:SyncMetadataStore.obj
+ 0001:00006bf0       ?GetReplicaInfoFromReplicaTable@CSqlCESyncMetadataStore@@AAAJPAUICommandText@@PBEPAHPAPAU_ID_PARAMETERS@@PAPAG@Z 10007bf0 f   metastore_private:SyncMetadataStore.obj
+ 0001:00006e38       ?FindNewBucket@?$HashTable@PAVCSyncItemMetadataEnumerator@@EV?$KeyHashCalculator@PAVCSyncItemMetadataEnumerator@@@@@@ABAJABQAVCSyncItemMetadataEnumerator@@PAV?$TableBucket@PAVCSyncItemMetadataEnumerator@@EV?$KeyHashCalculator@PAVCSyncItemMetadataEnumerator@@@@@@KPAK@Z 10007e38 f i metastore_private:SyncMetadataStore.obj
+ 0001:00006ee8       ?FindExistingBucket@?$HashTable@PAVCSyncItemMetadataEnumerator@@EV?$KeyHashCalculator@PAVCSyncItemMetadataEnumerator@@@@@@ABAJABQAVCSyncItemMetadataEnumerator@@PAV?$TableBucket@PAVCSyncItemMetadataEnumerator@@EV?$KeyHashCalculator@PAVCSyncItemMetadataEnumerator@@@@@@KPAK@Z 10007ee8 f i metastore_private:SyncMetadataStore.obj
+ 0001:00006fa0       ??_G?$HashTable@PAVCSyncItemMetadataEnumerator@@EV?$KeyHashCalculator@PAVCSyncItemMetadataEnumerator@@@@@@QAAPAXI@Z 10007fa0 f i metastore_private:SyncMetadataStore.obj
+ 0001:00006fe8       ?CreateStore@CSqlCESyncMetadataStore@@UAAJPBGK@Z 10007fe8 f   metastore_private:SyncMetadataStore.obj
+ 0001:00007010       ?OpenStore@CSqlCESyncMetadataStore@@UAAJPBGK@Z 10008010 f   metastore_private:SyncMetadataStore.obj
+ 0001:00007040       ?GetReplicaMetadata@CSqlCESyncMetadataStore@@UAAJPAEPAU_ID_PARAMETERS@@PAPAUIReplicaMetadata@@@Z 10008040 f   metastore_private:SyncMetadataStore.obj
+ 0001:00007450       ?ReleaseOpenEnumerators@CSqlCESyncMetadataStore@@AAAJXZ 10008450 f   metastore_private:SyncMetadataStore.obj
+ 0001:000074c8       ?InsertReplicaMetadata@CSqlCESyncMetadataStore@@AAAJPAUICommandText@@PAEPBEPAU_ID_PARAMETERS@@PAU_CUSTOM_FIELD_DEFINITION@@KPAU_CUSTOM_FIELDS_INDEX@@E@Z 100084c8 f   metastore_private:SyncMetadataStore.obj
+ 0001:00007760       ?Initialize@?$HashTable@PAVCSyncItemMetadataEnumerator@@EV?$KeyHashCalculator@PAVCSyncItemMetadataEnumerator@@@@@@QAAJPAV?$KeyHashCalculator@PAVCSyncItemMetadataEnumerator@@@@K@Z 10008760 f i metastore_private:SyncMetadataStore.obj
+ 0001:0000783c       ?RemoveItem@?$HashTable@PAVCSyncItemMetadataEnumerator@@EV?$KeyHashCalculator@PAVCSyncItemMetadataEnumerator@@@@@@QAAJABQAVCSyncItemMetadataEnumerator@@@Z 1000883c f i metastore_private:SyncMetadataStore.obj
+ 0001:000078a0       ?ContainsItem@?$HashTable@PAVCSyncItemMetadataEnumerator@@EV?$KeyHashCalculator@PAVCSyncItemMetadataEnumerator@@@@@@QBA_NABQAVCSyncItemMetadataEnumerator@@@Z 100088a0 f i metastore_private:SyncMetadataStore.obj
+ 0001:000078d4       ?Resize@?$HashTable@PAVCSyncItemMetadataEnumerator@@EV?$KeyHashCalculator@PAVCSyncItemMetadataEnumerator@@@@@@QAAJXZ 100088d4 f i metastore_private:SyncMetadataStore.obj
+ 0001:00007a14       ??0CSqlCESyncMetadataStore@@QAA@XZ 10008a14 f   metastore_private:SyncMetadataStore.obj
+ 0001:00007a90       ?InterfaceSupportsErrorInfo@CSqlCESyncMetadataStore@@UAAJABU_GUID@@@Z 10008a90 f i metastore_private:SyncMetadataStore.obj
+ 0001:00007a98       ?AddRef@CSqlCESyncMetadataStore@@W3AAKXZ 10008a98 f i metastore_private:SyncMetadataStore.obj
+ 0001:00007aa0       ?QueryInterface@CSqlCESyncMetadataStore@@W3AAJABU_GUID@@PAPAX@Z 10008aa0 f i metastore_private:SyncMetadataStore.obj
+ 0001:00007aa8       ?Dispose@CSqlCESyncMetadataStore@@UAAJXZ 10008aa8 f   metastore_private:SyncMetadataStore.obj
+ 0001:00007b64       ?InitializeReplicaMetadata@CSqlCESyncMetadataStore@@UAAJPAEPAU_ID_PARAMETERS@@PAU_CUSTOM_FIELD_DEFINITION@@KPAU_CUSTOM_FIELDS_INDEX@@E@Z 10008b64 f   metastore_private:SyncMetadataStore.obj
+ 0001:000082c4       ?UnRegisterEnumerator@CSqlCESyncMetadataStore@@QAAXPAVCSyncItemMetadataEnumerator@@@Z 100092c4 f   metastore_private:SyncMetadataStore.obj
+ 0001:000082fc       ?SqlCESyncMetadataStore_CreateInstance@@YAJABU_GUID@@PAPAX@Z 100092fc f   metastore_private:SyncMetadataStore.obj
+ 0001:0000836c       ?Initialize@?$HashTable@PAVCSyncItemMetadataEnumerator@@EV?$KeyHashCalculator@PAVCSyncItemMetadataEnumerator@@@@@@QAAJK@Z 1000936c f i metastore_private:SyncMetadataStore.obj
+ 0001:000083d4       ?AddItem@?$HashTable@PAVCSyncItemMetadataEnumerator@@EV?$KeyHashCalculator@PAVCSyncItemMetadataEnumerator@@@@@@QAAJABQAVCSyncItemMetadataEnumerator@@ABE@Z 100093d4 f i metastore_private:SyncMetadataStore.obj
+ 0001:00008498       ?RegisterEnumerator@CSqlCESyncMetadataStore@@QAAJPAVCSyncItemMetadataEnumerator@@@Z 10009498 f   metastore_private:SyncMetadataStore.obj
+ 0001:00008544       ?Release@CSqlCESyncMetadataStore@@UAAKXZ 10009544 f   metastore_private:SyncMetadataStore.obj
+ 0001:000085c8       ?Release@CSqlCESyncMetadataStore@@W3AAKXZ 100095c8 f i metastore_private:SyncMetadataStore.obj
+ 0001:000085d0       ?LoadMetadataResourceString@@YAJGPAGK@Z 100095d0 f   metastore_private:metaerrorinfo.obj
+ 0001:0000863c       ?CreateMetadataBasicErrorInfo@@YAJPAGABU_GUID@@PAPAUIErrorInfo@@@Z 1000963c f   metastore_private:metaerrorinfo.obj
+ 0001:00008704       ?SetMetadataResourceErrorInfo@@YAXGABU_GUID@@@Z 10009704 f   metastore_private:metaerrorinfo.obj
+ 0001:000087d4       ?SetHRESULTMetadataResourceErrorInfo@@YAXJABU_GUID@@@Z 100097d4 f   metastore_private:metaerrorinfo.obj
+ 0001:000088ec       ?SetErrorInfoForSQLCEErrors@@YAXJKABU_GUID@@@Z 100098ec f   metastore_private:metaerrorinfo.obj
+ 0001:00008a6c       ?ClearMetadataErrorInfo@@YAXXZ 10009a6c f   metastore_private:metaerrorinfo.obj
+ 0001:00008aac       ?ExecuteSQLGetAffectedRows@SyncStoreUtility@@SAJPAUICommandText@@PBGPAK@Z 10009aac f   metastore_private:SyncStoreUtility.obj
+ 0001:00008cac       ?FindStoreFile@SyncStoreUtility@@SAJPBG@Z 10009cac f   metastore_private:SyncStoreUtility.obj
+ 0001:00008d58       ?FormatString@SyncStoreUtility@@SAJPAVWstring@@PBGZZ 10009d58 f   metastore_private:SyncStoreUtility.obj
+ 0001:00008dd0       ?GetColumnIndex@SyncStoreUtility@@SAJPBUtagDBCOLUMNINFO@@KQBGPAK@Z 10009dd0 f   metastore_private:SyncStoreUtility.obj
+ 0001:00008e50       ?GetColumnInfo@SyncStoreUtility@@SAJPAUICommandText@@PAKPAPAUtagDBCOLUMNINFO@@PAPAG@Z 10009e50 f   metastore_private:SyncStoreUtility.obj
+ 0001:00008f98       ?CommitOrUndoChangeToStore@SyncStoreUtility@@CAJJPAUIRowsetChange@@PAUIRowsetUpdate@@PBK@Z 10009f98 f   metastore_private:SyncStoreUtility.obj
+ 0001:00009168       ?GetFixedColumnData@SyncStoreUtility@@CAJPBEPBUtagDBBINDING@@KPAX@Z 1000a168 f   metastore_private:SyncStoreUtility.obj
+ 0001:000093a4       ?GetStringColumnData@SyncStoreUtility@@SAJPBEPBUtagDBBINDING@@KPAPAGPAK@Z 1000a3a4 f   metastore_private:SyncStoreUtility.obj
+ 0001:00009490       ?GetBinaryColumnData@SyncStoreUtility@@SAJPBEPBUtagDBBINDING@@KPAPAEPAK@Z 1000a490 f   metastore_private:SyncStoreUtility.obj
+ 0001:0000957c       ?ReadImageColumnIntoBuffer@SyncStoreUtility@@SAJPAUISequentialStream@@PAPAEPAK@Z 1000a57c f   metastore_private:SyncStoreUtility.obj
+ 0001:00009638       ?GetSizeOfId@SyncStoreUtility@@SAJPBEPAGU_ID_PARAMETER_PAIR@@@Z 1000a638 f   metastore_private:SyncStoreUtility.obj
+ 0001:0000968c       ?AllocateAndZeroMemory@SyncStoreUtility@@SAJPAPAEK@Z 1000a68c f   metastore_private:SyncStoreUtility.obj
+ 0001:000096d0       ?SetupSessionProperties@SyncStoreUtility@@SAJPAUIDBCreateCommand@@PAPAUIOpenRowset@@PAPAUIRowsetIndex@@PBG3@Z 1000a6d0 f   metastore_private:SyncStoreUtility.obj
+ 0001:00009974       ?GetGlobalIdFromStore@SyncStoreUtility@@SAJPAU_ID_PARAMETER_PAIR@@PBEPBUtagDBBINDING@@KPAVCSyncItemMetadata@@@Z 1000a974 f   metastore_private:SyncStoreUtility.obj
+ 0001:00009a50       ?CreateSHA2Hash@SyncStoreUtility@@SAJPAKPBEKPAE@Z 1000aa50 f   metastore_private:SyncStoreUtility.obj
+ 0001:00009b6c       ?GetFieldSize@SyncStoreUtility@@SAJPAUIFieldValue@@PAK@Z 1000ab6c f   metastore_private:SyncStoreUtility.obj
+ 0001:00009c68       ?CheckColumnSchema@SyncStoreUtility@@SAJPBUtagDBCOLUMNINFO@@KQBGPAK22@Z 1000ac68 f   metastore_private:SyncStoreUtility.obj
+ 0001:00009ea4       ?GetCustomFieldInfo@SyncStoreUtility@@SAJPBUtagDBCOLUMNINFO@@KQBGPAK2@Z 1000aea4 f   metastore_private:SyncStoreUtility.obj
+ 0001:0000a014       ?ConvertByteToHexString@SyncStoreUtility@@SAJPBEKPAGK@Z 1000b014 f   metastore_private:SyncStoreUtility.obj
+ 0001:0000a0bc       ?CopyFieldValueDataIntoBuffer@SyncStoreUtility@@SAJPAUIFieldValue@@PAXK@Z 1000b0bc f   metastore_private:SyncStoreUtility.obj
+ 0001:0000a204       ?ValidateId@SyncStoreUtility@@SAJPBEPBU_ID_PARAMETER_PAIR@@ABU_GUID@@@Z 1000b204 f   metastore_private:SyncStoreUtility.obj
+ 0001:0000a24c       ?ValidateAndCopyId@SyncStoreUtility@@SAJPBEKPAEPAKPBU_ID_PARAMETER_PAIR@@ABU_GUID@@@Z 1000b24c f   metastore_private:SyncStoreUtility.obj
+ 0001:0000a308       ?GetSqlCEExtendedErrorInfo@SyncStoreUtility@@SAJPAJ@Z 1000b308 f   metastore_private:SyncStoreUtility.obj
+ 0001:0000a65c       ?GlobalIdCompare@@YAHPBX0@Z 1000b65c f   metastore_private:SyncStoreUtility.obj
+ 0001:0000a674       ?Add@?$Vector@PAU_CUSTOM_FIELD_COLUMN@@$00@@QAAJABQAU_CUSTOM_FIELD_COLUMN@@@Z 1000b674 f i metastore_private:SyncStoreUtility.obj
+ 0001:0000a774       ?Add@?$Vector@PAE$0A@@@QAAJABQAE@Z 1000b774 f i metastore_private:SyncStoreUtility.obj
+ 0001:0000a874       ?Add@?$Vector@PAUMetadataSyncId@@$00@@QAAJABQAUMetadataSyncId@@@Z 1000b874 f i metastore_private:SyncStoreUtility.obj
+ 0001:0000a974       ?GetBatch@?$Vector@PAUMetadataSyncId@@$00@@QBAJKKPAPAUMetadataSyncId@@PAK@Z 1000b974 f i metastore_private:SyncStoreUtility.obj
+ 0001:0000a9f8       ?ExecuteSQLDDL@SyncStoreUtility@@SAJPAUICommandText@@PBG@Z 1000b9f8 f   metastore_private:SyncStoreUtility.obj
+ 0001:0000aa18       ?CheckTableExistence@SyncStoreUtility@@SAJPAUICommandText@@PBG@Z 1000ba18 f   metastore_private:SyncStoreUtility.obj
+ 0001:0000aaac       ?SetRowData@SyncStoreUtility@@SAJPAUIRowsetIndex@@PAEPBUtagDBBINDING@@KH@Z 1000baac f   metastore_private:SyncStoreUtility.obj
+ 0001:0000adf4       ?DeleteRowFromTable@SyncStoreUtility@@SAJPAUIRowsetIndex@@PAEPBUtagDBBINDING@@K@Z 1000bdf4 f   metastore_private:SyncStoreUtility.obj
+ 0001:0000b09c       ?InsertSingleRowIntoTable@SyncStoreUtility@@SAJPAUIRowsetIndex@@PAEPBUtagDBBINDING@@K@Z 1000c09c f   metastore_private:SyncStoreUtility.obj
+ 0001:0000b320       ?GetIntColumnData@SyncStoreUtility@@SAJPBEPBUtagDBBINDING@@KPAH@Z 1000c320 f   metastore_private:SyncStoreUtility.obj
+ 0001:0000b324       ?GetUInt8ColumnData@SyncStoreUtility@@SAJPBEPBUtagDBBINDING@@KPAE@Z 1000c324 f   metastore_private:SyncStoreUtility.obj
+ 0001:0000b328       ?GetUInt64ColumnData@SyncStoreUtility@@SAJPBEPBUtagDBBINDING@@KPA_K@Z 1000c328 f   metastore_private:SyncStoreUtility.obj
+ 0001:0000b32c       ?ReadImageColumnIntoBuffer@SyncStoreUtility@@SAJPBEPBUtagDBBINDING@@KPAPAEPAK@Z 1000c32c f   metastore_private:SyncStoreUtility.obj
+ 0001:0000b424       ?GetIdPointerAndSizeFromInputId@SyncStoreUtility@@SAJPAU_ID_PARAMETER_PAIR@@PBEPAPBEPAG@Z 1000c424 f   metastore_private:SyncStoreUtility.obj
+ 0001:0000b4b0       ?AllocateMemoryForDBBinding@SyncStoreUtility@@SAJPAPAUtagDBBINDING@@K@Z 1000c4b0 f   metastore_private:SyncStoreUtility.obj
+ 0001:0000b4bc       ?GetSyncVersions@SyncStoreUtility@@SAJPBEPBUtagDBBINDING@@KPAPAU_SYNC_VERSION@@@Z 1000c4bc f   metastore_private:SyncStoreUtility.obj
+ 0001:0000b59c       ?CheckHRESULTAndSetErrorInfo@SyncStoreUtility@@SAJJABU_GUID@@@Z 1000c59c f   metastore_private:SyncStoreUtility.obj
+ 0001:0000b67c       ??1?$Vector@PAUMetadataSyncId@@$00@@QAA@XZ 1000c67c f i metastore_private:SyncStoreUtility.obj
+ 0001:0000b6c8       ?RemoveAll@?$Vector@PAUMetadataSyncId@@$00@@QAAXXZ 1000c6c8 f i metastore_private:SyncStoreUtility.obj
+ 0001:0000b72c       ?GetRowset@SyncStoreUtility@@SAJPAUICommandText@@PAPAUIRowset@@PAPAUIAccessor@@PAUtagDBPARAMS@@PAK4PAPAUtagDBBINDING@@@Z 1000c72c f   metastore_private:SyncStoreUtility.obj
+ 0001:0000bd14       ?ReadColumnsFromItemMetadataTable@SyncStoreUtility@@SAJPAVCSyncReplicaMetadata@@PBUtagDBCOLUMNINFO@@KPBUtagDBBINDING@@PBEPAVCSyncItemMetadata@@@Z 1000cd14 f   metastore_private:SyncStoreUtility.obj
+ 0001:0000c24c       ?CreateNewItemMetadata@SyncStoreUtility@@SAJPAVCSyncReplicaMetadata@@PAUIDBCreateCommand@@PAUtagDBBINDING@@PBEPAPAUIItemMetadata@@@Z 1000d24c f   metastore_private:SyncStoreUtility.obj
+ 0001:0000c300       ?SortAndRemoveDuplicates@SyncStoreUtility@@SAJPAV?$Vector@PAE$0A@@@PAU_ID_PARAMETER_PAIR@@@Z 1000d300 f   metastore_private:SyncStoreUtility.obj
+ 0001:0000c4c8       ?GetSingleRowDataFromRowset@SyncStoreUtility@@SAJPAUICommandText@@PAPAUIRowset@@PAKPAPAEPAPAUtagDBBINDING@@@Z 1000d4c8 f   metastore_private:SyncStoreUtility.obj
+ 0001:0000c628       ?ExecuteSQLScalarInt32Query@SyncStoreUtility@@SAJPAUICommandText@@PBGPAK@Z 1000d628 f   metastore_private:SyncStoreUtility.obj
+ 0001:0000c704       ??0Wstring@@QAA@XZ         1000d704 f   metastore_private:Wstring.obj
+ 0001:0000c718       ?GetString@Wstring@@QAAPBGXZ 1000d718 f   metastore_private:Wstring.obj
+ 0001:0000c720       ?GetLength@Wstring@@QAAKXZ 1000d720 f   metastore_private:Wstring.obj
+ 0001:0000c728       ??1Wstring@@QAA@XZ         1000d728 f   metastore_private:Wstring.obj
+ 0001:0000c754       ?Append@Wstring@@QAAJPBG@Z 1000d754 f   metastore_private:Wstring.obj
+ 0001:0000c8a4       ?Clear@Wstring@@QAAXXZ     1000d8a4 f   metastore_private:Wstring.obj
+ 0001:0000c8d0       ?ReleaseResources@@YAXPAPAUIDBCreateCommand@@PAPAUICommandText@@PAPAUICommandPrepare@@PAPAUICommandWithParameters@@PAPAUIAccessor@@PBKPAPAEPAPAUtagDBBINDING@@@Z 1000d8d0 f i metastore_private:SyncReplicaMetadata.obj
+ 0001:0000c9e8       ?QueryInterface@CSyncReplicaMetadata@@UAAJABU_GUID@@PAPAX@Z 1000d9e8 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000ca9c       ?AddRef@CSyncReplicaMetadata@@UAAKXZ 1000da9c f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000caa4       ?GetReplicaId@CSyncReplicaMetadata@@QAAJPAPAE@Z 1000daa4 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000cac0       ?GetIdParameters@CSyncReplicaMetadata@@QAAJPAPAU_ID_PARAMETERS@@@Z 1000dac0 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000cad0       ?GetIDBCreateCommand@CSyncReplicaMetadata@@QAAJPAPAUIDBCreateCommand@@@Z 1000dad0 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000cad8       ?GetCryptProvider@CSyncReplicaMetadata@@QAAJPAK@Z 1000dad8 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000cb3c       ?GetNextTouchWatermark@CSyncReplicaMetadata@@QAA_KXZ 1000db3c f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000cb68       ?GetItemTableColumnInfo@CSyncReplicaMetadata@@QAAJPAPAUtagDBCOLUMNINFO@@PAK@Z 1000db68 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000cb88       ?GetItemTableName@CSyncReplicaMetadata@@QAAJPAPBG@Z 1000db88 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000cb98       ?GetCustomFieldsIndexes@CSyncReplicaMetadata@@QAAJPAEPAPAU_CUSTOM_FIELDS_INDEX@@@Z 1000db98 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000cbb8       ?UnRegisterEnumerator@CSyncReplicaMetadata@@QAAXPAVCSyncItemMetadataEnumerator@@@Z 1000dbb8 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000cbc0       ?DisposeMutex@CSyncReplicaMetadata@@AAAXXZ 1000dbc0 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000cbf0       ?ReleaseCachedCommands@CSyncReplicaMetadata@@AAAXXZ 1000dbf0 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000cc0c       ?ClearTransactionCommitStatus@CSyncReplicaMetadata@@AAAXXZ 1000dc0c f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000cc18       ?SetSingleBindingInfo@CSyncReplicaMetadata@@AAAJPAUtagDBBINDING@@KPAUtagDBCOLUMNINFO@@KK@Z 1000dc18 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000ce54       ?GetSerializedKnowledgeSize@CSyncReplicaMetadata@@AAAJPAKPAUISyncKnowledge@@@Z 1000de54 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000ce9c       ?GetKnowledgeColumnData@CSyncReplicaMetadata@@AAAJPBEPAUtagDBBINDING@@KPAPAUIUnknown@@H@Z 1000de9c f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000cf44       ?CreateNewKnowledge@CSyncReplicaMetadata@@AAAJPAPAUISyncKnowledge@@@Z 1000df44 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000cfd8       ?CreateNewForgottenKnowledge@CSyncReplicaMetadata@@AAAJPAPAUIForgottenKnowledge@@@Z 1000dfd8 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000d060       ?GetCustomIndexHashFromFieldValues@CSyncReplicaMetadata@@AAAJPAPAUIFieldValue@@EPAEK@Z 1000e060 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000d204       ?GetCustomIndexNameFromFieldValues@CSyncReplicaMetadata@@AAAJPAPBGPAPAUIFieldValue@@EPAGK2KPAH@Z 1000e204 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000d308       ?GetCustomIndexFieldNameAndValueFromFieldValues@CSyncReplicaMetadata@@AAAJPAPBGPAPAUIFieldValue@@EHPAGKPAK2K1@Z 1000e308 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000d618       ?AddToChangeBatch@CSyncReplicaMetadata@@AAAJPAVCSyncItemMetadata@@PAUISyncKnowledge@@PAUISyncChangeBatchBase@@@Z 1000e618 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000d804       ?AddAllChangeUnitsToSyncChange@CSyncReplicaMetadata@@AAAJPAUISyncChangeBuilder@@PAVCSyncItemMetadata@@@Z 1000e804 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000d898       ?SetupCommandWithParameters@CSyncReplicaMetadata@@AAAJPAUIDBCreateCommand@@PAPAUICommandPrepare@@PAPAUICommandWithParameters@@PAPAUICommandText@@PAPAUIAccessor@@PBG@Z 1000e898 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000d9b4       ?DefineDBParamsStructure@CSyncReplicaMetadata@@AAAJPAUtagDBPARAMS@@PAEKPBK@Z 1000e9b4 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000da1c       ?ReadMinChangeBatchColumnsFromItemMetadataTable@CSyncReplicaMetadata@@AAAJPAUtagDBBINDING@@PBEPAVCSyncItemMetadata@@@Z 1000ea1c f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000db28       ?CleanupCustomFieldsIndexes@CSyncReplicaMetadata@@AAAXXZ 1000eb28 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000dba4       ?ValidateCorrectState@CSyncReplicaMetadata@@AAAJH@Z 1000eba4 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000dc04       ?Add@?$Vector@K$00@@QAAJABK@Z 1000ec04 f i metastore_private:SyncReplicaMetadata.obj
+ 0001:0000dd04       ??1?$Vector@PAUISyncChange@@$00@@QAA@XZ 1000ed04 f i metastore_private:SyncReplicaMetadata.obj
+ 0001:0000dd5c       ?Add@?$Vector@PAUISyncChange@@$00@@QAAJABQAUISyncChange@@@Z 1000ed5c f i metastore_private:SyncReplicaMetadata.obj
+ 0001:0000de5c       ?RemoveAll@?$Vector@PAUISyncChange@@$00@@QAAXXZ 1000ee5c f i metastore_private:SyncReplicaMetadata.obj
+ 0001:0000dec4       ??1?$Vector@PAVCSyncItemMetadata@@$00@@QAA@XZ 1000eec4 f i metastore_private:SyncReplicaMetadata.obj
+ 0001:0000df1c       ?Add@?$Vector@PAVCSyncItemMetadata@@$00@@QAAJABQAVCSyncItemMetadata@@@Z 1000ef1c f i metastore_private:SyncReplicaMetadata.obj
+ 0001:0000e01c       ?RemoveAll@?$Vector@PAVCSyncItemMetadata@@$00@@QAAXXZ 1000f01c f i metastore_private:SyncReplicaMetadata.obj
+ 0001:0000e084       ?GetReplicaId@CSyncReplicaMetadata@@UAAJPAEPAK@Z 1000f084 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000e0d4       ?SetForgottenKnowledge@CSyncReplicaMetadata@@UAAJPAUIForgottenKnowledge@@@Z 1000f0d4 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000e1c4       ?SetCustomFieldMetadata@CSyncReplicaMetadata@@UAAJPAEK@Z 1000f1c4 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000e294       ?CreateEmptyFieldValue@CSyncReplicaMetadata@@UAAJPAPAUIFieldValue@@@Z 1000f294 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000e320       ?CreateNewItemMetadata@CSyncReplicaMetadata@@UAAJPAPAUIItemMetadata@@@Z 1000f320 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000e3a8       ?SaveItemMetadata@CSyncReplicaMetadata@@UAAJPAUIItemMetadata@@@Z 1000f3a8 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000e45c       ?ResetReportingWatermark@CSyncReplicaMetadata@@UAAJXZ 1000f45c f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000e4c0       ?ReportLiveItemByIndexedFields@CSyncReplicaMetadata@@UAAJPAPBGPAPAUIFieldValue@@E@Z 1000f4c0 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000e92c       ?ReportLiveItemByGlobalId@CSyncReplicaMetadata@@UAAJPBE@Z 1000f92c f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000ecec       ?GetItemCount@CSyncReplicaMetadata@@UAAJPAK0@Z 1000fcec f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000ee9c       ?GetItemTableColumnOrdinals@CSyncReplicaMetadata@@QAAJPAPAV?$Vector@K$00@@@Z 1000fe9c f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000efc4       ?Dispose@CSyncReplicaMetadata@@AAAXXZ 1000ffc4 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000efe4       ?ReleaseCachedMemoryFromObject@CSyncReplicaMetadata@@AAAXXZ 1000ffe4 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000f0e4       ?CreateCachedCommandFromText@CSyncReplicaMetadata@@AAAJPBGPAPAUICommandText@@@Z 100100e4 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000f1c8       ?GetColumnOrdinalsForSave@CSyncReplicaMetadata@@AAAJEPAV?$Vector@K$00@@PAK@Z 100101c8 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000f2d4       ?SetBindingInfoForSaveChanges@CSyncReplicaMetadata@@AAAJPAUtagDBBINDING@@KPAV?$Vector@K$00@@PAPAE@Z 100102d4 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000f8e4       ?SetBindingInfoForDeleteChanges@CSyncReplicaMetadata@@AAAJPAUtagDBBINDING@@KKPBEPAPAE@Z 100108e4 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000fa58       ?SetBindingInfoForUnReportedItems@CSyncReplicaMetadata@@AAAJPAUtagDBBINDING@@KPBEPAUIFieldValue@@KPAPAE@Z 10010a58 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000fc10       ?SetBindingInfoItemBatchVersions@CSyncReplicaMetadata@@AAAJPAUtagDBBINDING@@PAV?$Vector@PAE$0A@@@PAPAE@Z 10010c10 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000fe04       ?InternalRemoveItemMetadataById@CSyncReplicaMetadata@@AAAJKPBE@Z 10010e04 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0000ff38       ?AddDestinationVersionsForSyncChange@CSyncReplicaMetadata@@AAAJPAVCSyncItemMetadata@@PAUISyncChange@@PBEHPAUIDestinationChangeVersionsBuilder@@@Z 10010f38 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:000102c0       ?CreateItemMetadataEnumeratorFromCommandText@CSyncReplicaMetadata@@AAAJPAUICommandText@@KPAUtagDBPARAMS@@HPAVCSyncCachedQueryPlan@@PAPAUIItemMetadataEnumerator@@PAPAUIItemMetadata@@@Z 100112c0 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:000106c4       ?SortAndAddChangeBatchItems@CSyncReplicaMetadata@@AAAJPAV?$Vector@PAVCSyncItemMetadata@@$00@@KPAUISyncKnowledge@@PAUISyncChangeBatchBase@@PAKPAPAVCSyncItemMetadata@@@Z 100116c4 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:00010804       ?GetItemMetadataInfoFromCommandText@CSyncReplicaMetadata@@AAAJPAUICommandText@@PAUIRowset@@PAUIAccessor@@PBKPAUtagDBBINDING@@KPAUIChangeBatchCallback@@PAV?$Vector@PAVCSyncItemMetadata@@$00@@K@Z 10011804 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:00010a5c       ?FormatCommandTextToGetColumnsFromItemTable@CSyncReplicaMetadata@@AAAJPAVWstring@@@Z 10011a5c f   metastore_private:SyncReplicaMetadata.obj
+ 0001:00010b54       ?FormatCommandTextForGetItemBatchVersions@CSyncReplicaMetadata@@AAAJPAVWstring@@PAV?$Vector@PAE$0A@@@@Z 10011b54 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:00010cbc       ?FormatCommandTextForGetChangeBatch@CSyncReplicaMetadata@@AAAJPAVWstring@@PAUIChangeBatchCallback@@PAUISyncKnowledge@@HPBE@Z 10011cbc f   metastore_private:SyncReplicaMetadata.obj
+ 0001:00010fe8       ?InitializeReplicaParameters@CSyncReplicaMetadata@@AAAJPBEK@Z 10011fe8 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:00011210       ?CleanupByteVector@@YAXPAV?$Vector@PAE$0A@@@@Z 10012210 f i metastore_private:SyncReplicaMetadata.obj
+ 0001:0001126c       ??0CSyncReplicaMetadata@@QAA@PAVCSqlCESyncMetadataStore@@HPAU_ID_PARAMETERS@@PAXPBG_K@Z 1001226c f   metastore_private:SyncReplicaMetadata.obj
+ 0001:000113a4       ?InterfaceSupportsErrorInfo@CSyncReplicaMetadata@@UAAJABU_GUID@@@Z 100123a4 f i metastore_private:SyncReplicaMetadata.obj
+ 0001:000113ac       ?AddRef@CSyncReplicaMetadata@@W3AAKXZ 100123ac f i metastore_private:SyncReplicaMetadata.obj
+ 0001:000113b4       ?QueryInterface@CSyncReplicaMetadata@@W3AAJABU_GUID@@PAPAX@Z 100123b4 f i metastore_private:SyncReplicaMetadata.obj
+ 0001:000113bc       ?SaveReplicaMetadata@CSyncReplicaMetadata@@UAAJXZ 100123bc f   metastore_private:SyncReplicaMetadata.obj
+ 0001:00011548       ?RemoveItemMetadataByGlobalId@CSyncReplicaMetadata@@UAAJPBE@Z 10012548 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:000115c4       ?GetUnreportedItems@CSyncReplicaMetadata@@UAAJPAPAUIItemMetadataEnumerator@@@Z 100125c4 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:000117b4       ?InternalSaveReplicaMetadata@CSyncReplicaMetadata@@QAAJXZ 100127b4 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:000119b8       ?GetDataFromReplicaTable@CSyncReplicaMetadata@@AAAJPBG@Z 100129b8 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:00011da4       ?SaveTickCountToStore@CSyncReplicaMetadata@@AAAJXZ 10012da4 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:00011f48       ?InternalGetForgottenKnowledge@CSyncReplicaMetadata@@AAAJPAPAUIForgottenKnowledge@@@Z 10012f48 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:00011f9c       ?CreateItemsInRangeEnumerator@CSyncReplicaMetadata@@AAAJPBU_SYNC_RANGE@@PAPAUIItemMetadataEnumerator@@@Z 10012f9c f   metastore_private:SyncReplicaMetadata.obj
+ 0001:000121f8       ?CreateDeletedItemsEnumerator@CSyncReplicaMetadata@@AAAJPAPAUIItemMetadataEnumerator@@@Z 100131f8 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0001230c       ?InternalCleanupDeletedItems@CSyncReplicaMetadata@@AAAJPAUISyncKnowledge@@PAUIForgottenKnowledge@@@Z 1001330c f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0001248c       ?CreateItemMetadataEnumeratorHelper@CSyncReplicaMetadata@@AAAJPAUICommandText@@KPAUIFieldValue@@PBEKHPAVCSyncCachedQueryPlan@@PAPAUIItemMetadataEnumerator@@PAPAUIItemMetadata@@@Z 1001348c f   metastore_private:SyncReplicaMetadata.obj
+ 0001:00012614       ?GetChangeBatchForUnsortedGlobalId@CSyncReplicaMetadata@@AAAJPAUICommandText@@KPAUISyncKnowledge@@PAUIChangeBatchCallback@@HPAKPAHPAPAVCSyncItemMetadata@@PAUISyncChangeBatchBase@@@Z 10013614 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:00012c1c       ?GetChangeBatchForSortedGlobalId@CSyncReplicaMetadata@@AAAJPAUICommandText@@KPAUISyncKnowledge@@PAUIChangeBatchCallback@@HPAKPAHPAPAVCSyncItemMetadata@@PAUISyncChangeBatchBase@@@Z 10013c1c f   metastore_private:SyncReplicaMetadata.obj
+ 0001:00013008       ?CreateSyncChangeBatchForGetItemBatchVersions@CSyncReplicaMetadata@@AAAJPAUICommandText@@PAUtagDBPARAMS@@PAV?$Vector@PAE$0A@@@PAV?$Vector@PAUISyncChange@@$00@@HPAUIDestinationChangeVersionsBuilder@@@Z 10014008 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:00013284       ??1CSyncReplicaMetadata@@QAA@XZ 10014284 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:000134b8       ?GetNextTickCount@CSyncReplicaMetadata@@UAAJPA_K@Z 100144b8 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:00013590       ?GetForgottenKnowledge@CSyncReplicaMetadata@@UAAJPAPAUIForgottenKnowledge@@@Z 10014590 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0001368c       ?GetCustomFieldMetadata@CSyncReplicaMetadata@@UAAJPAEPAK@Z 1001468c f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0001375c       ?FindItemMetadataByGlobalId@CSyncReplicaMetadata@@UAAJPBEPAPAUIItemMetadata@@@Z 1001475c f   metastore_private:SyncReplicaMetadata.obj
+ 0001:000139b4       ?GetLastDeletedItemsCleanupTime@CSyncReplicaMetadata@@UAAJPAU_SYSTEMTIME@@@Z 100149b4 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:00013ab8       ?GetCachedTickCount@CSyncReplicaMetadata@@QAAJPA_KH@Z 10014ab8 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:00013b38       ?Initialize@CSyncReplicaMetadata@@AAAJXZ 10014b38 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:00013df0       ?InternalGetLocalKnowledge@CSyncReplicaMetadata@@AAAJPAPAUISyncKnowledge@@@Z 10014df0 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:00013eb0       ?InternalFindItemMetadataByIndexedFields@CSyncReplicaMetadata@@AAAJPAPBGPAPAUIFieldValue@@EPAVCSyncCachedQueryPlan@@HHPAPAUIItemMetadataEnumerator@@@Z 10014eb0 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:000142b4       ?AddItemIdsInRangeToVector@CSyncReplicaMetadata@@AAAJPAV?$Vector@PAE$0A@@@PBU_SYNC_RANGE@@@Z 100152b4 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:000143f8       ?AddItemVersionsToBatch@CSyncReplicaMetadata@@AAAJPAV?$Vector@PAE$0A@@@PAV?$Vector@PAUISyncChange@@$00@@HPAUIDestinationChangeVersionsBuilder@@@Z 100153f8 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:000145d0       ?GetChangeBatchForCommandText@CSyncReplicaMetadata@@AAAJPAVWstring@@KPAUISyncKnowledge@@PAUIChangeBatchCallback@@HKPAKPAHPAPAVCSyncItemMetadata@@PAUISyncChangeBatchBase@@@Z 100155d0 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:000146d4       ?FinalizeChangeBatch@CSyncReplicaMetadata@@AAAJPAUISyncChangeBatchBase@@PAHKPAE@Z 100156d4 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0001479c       ?Release@CSyncReplicaMetadata@@UAAKXZ 1001579c f   metastore_private:SyncReplicaMetadata.obj
+ 0001:000147d4       ?GetKnowledge@CSyncReplicaMetadata@@UAAJPAPAUISyncKnowledge@@@Z 100157d4 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:0001487c       ?SetKnowledge@CSyncReplicaMetadata@@UAAJPAUISyncKnowledge@@@Z 1001587c f   metastore_private:SyncReplicaMetadata.obj
+ 0001:00014a38       ?FindItemMetadataByUniqueIndexedFields@CSyncReplicaMetadata@@UAAJPAPBGPAPAUIFieldValue@@EPAPAUIItemMetadata@@@Z 10015a38 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:00014b64       ?FindItemMetadataByIndexedFields@CSyncReplicaMetadata@@UAAJPAPBGPAPAUIFieldValue@@EPAPAUIItemMetadataEnumerator@@@Z 10015b64 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:00014c3c       ?GetUnreportedItemsByIndexedFields@CSyncReplicaMetadata@@UAAJPAPBGPAPAUIFieldValue@@EPAPAUIItemMetadataEnumerator@@@Z 10015c3c f   metastore_private:SyncReplicaMetadata.obj
+ 0001:00014d38       ?CleanupDeletedItems@CSyncReplicaMetadata@@UAAJ_K@Z 10015d38 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:00015044       ?SetReplicaId@CSyncReplicaMetadata@@QAAJPBEK@Z 10016044 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:000150b4       ?InternalGetChangeBatch@CSyncReplicaMetadata@@AAAJKPAUISyncKnowledge@@PAUISyncFilterInfo@@PAUIChangeBatchCallback@@HHPBEPAPAUISyncChangeBatchBase@@@Z 100160b4 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:000155cc       ?InternalGetItemBatchVersions@CSyncReplicaMetadata@@AAAJPAUISyncChangeBatch@@PAPAUIEnumSyncChanges@@@Z 100165cc f   metastore_private:SyncReplicaMetadata.obj
+ 0001:00015838       ?InternalGetFullEnumerationItemBatchVersions@CSyncReplicaMetadata@@AAAJPAUISyncFullEnumerationChangeBatch@@PAPAUIEnumSyncChanges@@@Z 10016838 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:00015e54       ?Release@CSyncReplicaMetadata@@W3AAKXZ 10016e54 f i metastore_private:SyncReplicaMetadata.obj
+ 0001:00015e5c       ?GetItemBatchVersions@CSyncReplicaMetadata@@UAAJPAUISyncChangeBatch@@PAPAUIEnumSyncChanges@@@Z 10016e5c f   metastore_private:SyncReplicaMetadata.obj
+ 0001:00015ed4       ?GetFullEnumerationItemBatchVersions@CSyncReplicaMetadata@@UAAJPAUISyncFullEnumerationChangeBatch@@PAPAUIEnumSyncChanges@@@Z 10016ed4 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:00015f4c       ?GetFilteredChangeBatch@CSyncReplicaMetadata@@UAAJKPAUISyncKnowledge@@PAUISyncFilterInfo@@PAUIChangeBatchCallback@@PAPAUISyncChangeBatch@@@Z 10016f4c f   metastore_private:SyncReplicaMetadata.obj
+ 0001:00016024       ?GetFullEnumerationChangeBatch@CSyncReplicaMetadata@@UAAJKPBEPAUISyncKnowledge@@PAPAUISyncFullEnumerationChangeBatch@@@Z 10017024 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:000160f8       ?GetChangeBatch@CSyncReplicaMetadata@@UAAJKPAUISyncKnowledge@@PAPAUISyncChangeBatch@@@Z 100170f8 f   metastore_private:SyncReplicaMetadata.obj
+ 0001:000161c4       ?QueryInterface@CSyncItemMetadataEnumerator@@UAAJABU_GUID@@PAPAX@Z 100171c4 f   metastore_private:SyncEnumerator.obj
+ 0001:00016278       ?AddRef@CSyncItemMetadataEnumerator@@UAAKXZ 10017278 f   metastore_private:SyncEnumerator.obj
+ 0001:00016280       ?CheckDisposedState@CSyncItemMetadataEnumerator@@AAAJXZ 10017280 f   metastore_private:SyncEnumerator.obj
+ 0001:000162b0       ?ReleaseEnumeratorResources@CSyncItemMetadataEnumerator@@AAAJJ@Z 100172b0 f   metastore_private:SyncEnumerator.obj
+ 0001:00016348       ??0CSyncItemMetadataEnumerator@@QAA@PAVCSyncReplicaMetadata@@KPAVCSyncCachedQueryPlan@@J@Z 10017348 f   metastore_private:SyncEnumerator.obj
+ 0001:000163cc       ?InterfaceSupportsErrorInfo@CSyncItemMetadataEnumerator@@UAAJABU_GUID@@@Z 100173cc f i metastore_private:SyncEnumerator.obj
+ 0001:000163d4       ?Reset@CSyncItemMetadataEnumerator@@UAAJXZ 100173d4 f i metastore_private:SyncEnumerator.obj
+ 0001:000163e0       ?Clone@CSyncItemMetadataEnumerator@@UAAJPAPAUIItemMetadata@@@Z 100173e0 f i metastore_private:SyncEnumerator.obj
+ 0001:000163ec       ?QueryInterface@CSyncItemMetadataEnumerator@@W3AAJABU_GUID@@PAPAX@Z 100173ec f i metastore_private:SyncEnumerator.obj
+ 0001:000163f4       ?AddRef@CSyncItemMetadataEnumerator@@W3AAKXZ 100173f4 f i metastore_private:SyncEnumerator.obj
+ 0001:000163fc       ??1CSyncItemMetadataEnumerator@@QAA@XZ 100173fc f   metastore_private:SyncEnumerator.obj
+ 0001:00016488       ?Next@CSyncItemMetadataEnumerator@@UAAJKPAPAUIItemMetadata@@PAK@Z 10017488 f   metastore_private:SyncEnumerator.obj
+ 0001:00016650       ?Skip@CSyncItemMetadataEnumerator@@UAAJK@Z 10017650 f   metastore_private:SyncEnumerator.obj
+ 0001:00016754       ?Dispose@CSyncItemMetadataEnumerator@@QAAJXZ 10017754 f   metastore_private:SyncEnumerator.obj
+ 0001:000167c0       ??0CSyncItemMetadataEnumerator@@QAA@PAVCSyncReplicaMetadata@@KPAVCSyncCachedQueryPlan@@PAUIDBCreateCommand@@PAUIRowset@@PAUtagDBBINDING@@PAUIAccessor@@PAKK@Z 100177c0 f   metastore_private:SyncEnumerator.obj
+ 0001:00016864       ?Release@CSyncItemMetadataEnumerator@@UAAKXZ 10017864 f   metastore_private:SyncEnumerator.obj
+ 0001:0001689c       ?Release@CSyncItemMetadataEnumerator@@W3AAKXZ 1001789c f i metastore_private:SyncEnumerator.obj
+ 0001:000168a4       ?QueryInterface@CSyncItemMetadata@@UAAJABU_GUID@@PAPAX@Z 100178a4 f   metastore_private:SyncItemMetadata.obj
+ 0001:00016990       ?AddRef@CSyncItemMetadata@@UAAKXZ 10017990 f   metastore_private:SyncItemMetadata.obj
+ 0001:00016998       ?GetGlobalId@CSyncItemMetadata@@UAAJPAEPAK@Z 10017998 f   metastore_private:SyncItemMetadata.obj
+ 0001:00016aac       ?SetGlobalId@CSyncItemMetadata@@UAAJPBE@Z 10017aac f   metastore_private:SyncItemMetadata.obj
+ 0001:00016b9c       ?GetChangeVersion@CSyncItemMetadata@@UAAJPAU_SYNC_VERSION@@@Z 10017b9c f   metastore_private:SyncItemMetadata.obj
+ 0001:00016c30       ?SetChangeVersion@CSyncItemMetadata@@UAAJPBU_SYNC_VERSION@@@Z 10017c30 f   metastore_private:SyncItemMetadata.obj
+ 0001:00016d04       ?GetChangeUnitVersion@CSyncItemMetadata@@UAAJPAEPAU_SYNC_VERSION@@@Z 10017d04 f   metastore_private:SyncItemMetadata.obj
+ 0001:00016ddc       ?GetCreationVersion@CSyncItemMetadata@@UAAJPAU_SYNC_VERSION@@@Z 10017ddc f   metastore_private:SyncItemMetadata.obj
+ 0001:00016e58       ?SetCreationVersion@CSyncItemMetadata@@UAAJPBU_SYNC_VERSION@@@Z 10017e58 f   metastore_private:SyncItemMetadata.obj
+ 0001:00016f14       ?GetIsDeleted@CSyncItemMetadata@@UAAJPAH@Z 10017f14 f   metastore_private:SyncItemMetadata.obj
+ 0001:00016f70       ?MarkAsDeleted@CSyncItemMetadata@@UAAJPBU_SYNC_VERSION@@@Z 10017f70 f   metastore_private:SyncItemMetadata.obj
+ 0001:00016fe4       ?ResurrectDeletedItem@CSyncItemMetadata@@UAAJXZ 10017fe4 f   metastore_private:SyncItemMetadata.obj
+ 0001:00017044       ?GetChangeUnitEnumeratorInternal@CSyncItemMetadata@@AAAJPAPAVCSyncChangeUnitMetadataEnumerator@@@Z 10018044 f   metastore_private:SyncItemMetadata.obj
+ 0001:0001708c       ?SetAsOfLocalTickCount@CSyncItemMetadata@@AAAJXZ 1001808c f   metastore_private:SyncItemMetadata.obj
+ 0001:000170d4       ?GetNextElement@?$TableEnumerator@PAEU_SYNC_VERSION@@UIdParameterPair@@@@QAAPAV?$TableElement@PAEU_SYNC_VERSION@@UIdParameterPair@@@@XZ 100180d4 f i metastore_private:SyncItemMetadata.obj
+ 0001:0001714c       ?GetChangeUnitEnumerator@CSyncItemMetadata@@UAAJPAPAUIChangeUnitMetadataEnumerator@@@Z 1001814c f   metastore_private:SyncItemMetadata.obj
+ 0001:000171c0       ?AddCustomColumnIndexToColumnNamesToSave@CSyncItemMetadata@@AAAJK@Z 100181c0 f   metastore_private:SyncItemMetadata.obj
+ 0001:00017218       ?GetColumnOrdinalsForSave@CSyncItemMetadata@@AAAJPAV?$Vector@K$00@@PAK@Z 10018218 f   metastore_private:SyncItemMetadata.obj
+ 0001:000173cc       ?GetIFieldValueForSettingCustomField@CSyncItemMetadata@@AAAJPBGPAPAUIFieldValue@@H@Z 100183cc f   metastore_private:SyncItemMetadata.obj
+ 0001:0001752c       ??1?$Vector@PAU_CUSTOM_FIELD_COLUMN@@$00@@QAA@XZ 1001852c f i metastore_private:SyncItemMetadata.obj
+ 0001:00017578       ?RemoveAll@?$Vector@PAU_CUSTOM_FIELD_COLUMN@@$00@@QAAXXZ 10018578 f i metastore_private:SyncItemMetadata.obj
+ 0001:000175d4       ??0CSyncItemMetadata@@QAA@PAVCSyncReplicaMetadata@@@Z 100185d4 f   metastore_private:SyncItemMetadata.obj
+ 0001:00017690       ?InterfaceSupportsErrorInfo@CSyncItemMetadata@@UAAJABU_GUID@@@Z 10018690 f i metastore_private:SyncItemMetadata.obj
+ 0001:00017698       ?QueryInterface@CSyncItemMetadata@@W3AAJABU_GUID@@PAPAX@Z 10018698 f i metastore_private:SyncItemMetadata.obj
+ 0001:000176a0       ?QueryInterface@CSyncItemMetadata@@W7AAJABU_GUID@@PAPAX@Z 100186a0 f i metastore_private:SyncItemMetadata.obj
+ 0001:000176a8       ?AddRef@CSyncItemMetadata@@W3AAKXZ 100186a8 f i metastore_private:SyncItemMetadata.obj
+ 0001:000176b0       ?AddRef@CSyncItemMetadata@@W7AAKXZ 100186b0 f i metastore_private:SyncItemMetadata.obj
+ 0001:000176b8       ??1CSyncItemMetadata@@QAA@XZ 100186b8 f   metastore_private:SyncItemMetadata.obj
+ 0001:00017818       ?SetFieldValue@CSyncItemMetadata@@AAAJPBGW4__MIDL___MIDL_itf_metastore_0000_0000_0001@@KPAXK@Z 10018818 f   metastore_private:SyncItemMetadata.obj
+ 0001:00017994       ?TryGetFieldValue@CSyncItemMetadata@@AAAJPBGW4__MIDL___MIDL_itf_metastore_0000_0000_0001@@PAXPAK@Z 10018994 f   metastore_private:SyncItemMetadata.obj
+ 0001:00017ad8       ?UpdateCustomIndexes@CSyncItemMetadata@@AAAJK@Z 10018ad8 f   metastore_private:SyncItemMetadata.obj
+ 0001:00017ee0       ?GetLengthOfCustomFieldColumnValue@CSyncItemMetadata@@AAAJPBGPAK@Z 10018ee0 f   metastore_private:SyncItemMetadata.obj
+ 0001:00017fe0       ?GetLengthOfSerializedChangeUnits@CSyncItemMetadata@@AAAJPAK@Z 10018fe0 f   metastore_private:SyncItemMetadata.obj
+ 0001:000180a0       ?SerializeChangeUnits@CSyncItemMetadata@@AAAJPAEK@Z 100190a0 f   metastore_private:SyncItemMetadata.obj
+ 0001:0001821c       ?CopyCustomFieldColumnValue@CSyncItemMetadata@@AAAJPBGPAXK@Z 1001921c f   metastore_private:SyncItemMetadata.obj
+ 0001:0001829c       ?Release@CSyncItemMetadata@@UAAKXZ 1001929c f   metastore_private:SyncItemMetadata.obj
+ 0001:000182d4       ?SetCustomFieldInternal@CSyncItemMetadata@@AAAJPBGW4__MIDL___MIDL_itf_metastore_0000_0000_0001@@PAXK@Z 100192d4 f   metastore_private:SyncItemMetadata.obj
+ 0001:000183e0       ?TryGetCustomFieldInternal@CSyncItemMetadata@@AAAJPBGW4__MIDL___MIDL_itf_metastore_0000_0000_0001@@PAXPAK@Z 100193e0 f   metastore_private:SyncItemMetadata.obj
+ 0001:000184ec       ?UpdateHashColumns@CSyncItemMetadata@@AAAJXZ 100194ec f   metastore_private:SyncItemMetadata.obj
+ 0001:00018528       ?SetBindingInfoForSaveChanges@CSyncItemMetadata@@AAAJPAUtagDBBINDING@@KPAV?$Vector@K$00@@PAPAE@Z 10019528 f   metastore_private:SyncItemMetadata.obj
+ 0001:00018d88       ??1?$HashTable@PAEU_SYNC_VERSION@@UIdParameterPair@@@@QAA@XZ 10019d88 f i metastore_private:SyncItemMetadata.obj
+ 0001:00018dc8       ?Initialize@?$HashTable@PAEU_SYNC_VERSION@@UIdParameterPair@@@@QAAJPAUIdParameterPair@@K@Z 10019dc8 f i metastore_private:SyncItemMetadata.obj
+ 0001:00018ea8       ?Release@CSyncItemMetadata@@W3AAKXZ 10019ea8 f i metastore_private:SyncItemMetadata.obj
+ 0001:00018eb0       ?Release@CSyncItemMetadata@@W7AAKXZ 10019eb0 f i metastore_private:SyncItemMetadata.obj
+ 0001:00018eb8       ?TryGetFieldByteArray@CSyncItemMetadata@@UAAJPBGPAEPAK@Z 10019eb8 f   metastore_private:SyncItemMetadata.obj
+ 0001:00018f00       ?TryGetFieldString@CSyncItemMetadata@@UAAJPBGPAGPAK@Z 10019f00 f   metastore_private:SyncItemMetadata.obj
+ 0001:00018f48       ?TryGetFieldUInt8@CSyncItemMetadata@@UAAJPBGPAE@Z 10019f48 f   metastore_private:SyncItemMetadata.obj
+ 0001:00018f90       ?TryGetFieldUInt16@CSyncItemMetadata@@UAAJPBGPAG@Z 10019f90 f   metastore_private:SyncItemMetadata.obj
+ 0001:00018fd8       ?TryGetFieldUInt32@CSyncItemMetadata@@UAAJPBGPAK@Z 10019fd8 f   metastore_private:SyncItemMetadata.obj
+ 0001:00019020       ?TryGetFieldUInt64@CSyncItemMetadata@@UAAJPBGPA_K@Z 1001a020 f   metastore_private:SyncItemMetadata.obj
+ 0001:00019068       ?TryGetFieldGuid@CSyncItemMetadata@@UAAJPBGPAU_GUID@@@Z 1001a068 f   metastore_private:SyncItemMetadata.obj
+ 0001:000190b0       ?SetFieldByteArray@CSyncItemMetadata@@UAAJPBGPAEK@Z 1001a0b0 f   metastore_private:SyncItemMetadata.obj
+ 0001:00019100       ?SetFieldGuid@CSyncItemMetadata@@UAAJPBGU_GUID@@@Z 1001a100 f   metastore_private:SyncItemMetadata.obj
+ 0001:0001918c       ?SetFieldString@CSyncItemMetadata@@UAAJPBG0@Z 1001a18c f   metastore_private:SyncItemMetadata.obj
+ 0001:000191e8       ?SetFieldUInt8@CSyncItemMetadata@@UAAJPBGE@Z 1001a1e8 f   metastore_private:SyncItemMetadata.obj
+ 0001:00019234       ?SetFieldUInt16@CSyncItemMetadata@@UAAJPBGG@Z 1001a234 f   metastore_private:SyncItemMetadata.obj
+ 0001:00019280       ?SetFieldUInt32@CSyncItemMetadata@@UAAJPBGK@Z 1001a280 f   metastore_private:SyncItemMetadata.obj
+ 0001:000192cc       ?SetFieldUInt64@CSyncItemMetadata@@UAAJPBG_K@Z 1001a2cc f   metastore_private:SyncItemMetadata.obj
+ 0001:00019318       ?InternalSaveChanges@CSyncItemMetadata@@UAAJXZ 1001a318 f   metastore_private:SyncItemMetadata.obj
+ 0001:00019560       ?InitializeChangeUnits@CSyncItemMetadata@@AAAJXZ 1001a560 f   metastore_private:SyncItemMetadata.obj
+ 0001:0001965c       ?SetChangeUnitVersion@CSyncItemMetadata@@UAAJPAEPBU_SYNC_VERSION@@@Z 1001a65c f   metastore_private:SyncItemMetadata.obj
+ 0001:00019778       ?DeserializeChangeUnits@CSyncItemMetadata@@QAAJPAEK@Z 1001a778 f   metastore_private:SyncItemMetadata.obj
+ 0001:000198dc       ??0CSyncCachedQueryPlan@@QAA@XZ 1001a8dc f   metastore_private:SyncCachedQueryPlan.obj
+ 0001:000198f4       ?GetNextElement@?$TableEnumerator@KPAUCachedQueryPlan@CSyncCachedQueryPlan@@V?$KeyHashCalculator@K@@@@QAAPAV?$TableElement@KPAUCachedQueryPlan@CSyncCachedQueryPlan@@V?$KeyHashCalculator@K@@@@XZ 1001a8f4 f i metastore_private:SyncCachedQueryPlan.obj
+ 0001:00019970       ?AddRef@CSyncCachedQueryPlan@@QAAKXZ 1001a970 f   metastore_private:SyncCachedQueryPlan.obj
+ 0001:00019974       ?ReleaseCachedCommands@CSyncCachedQueryPlan@@QAAJXZ 1001a974 f   metastore_private:SyncCachedQueryPlan.obj
+ 0001:000199e0       ?FindNewBucket@?$HashTable@KPAUCachedQueryPlan@CSyncCachedQueryPlan@@V?$KeyHashCalculator@K@@@@ABAJABKPAV?$TableBucket@KPAUCachedQueryPlan@CSyncCachedQueryPlan@@V?$KeyHashCalculator@K@@@@KPAK@Z 1001a9e0 f i metastore_private:SyncCachedQueryPlan.obj
+ 0001:00019a80       ?FindExistingBucket@?$HashTable@KPAUCachedQueryPlan@CSyncCachedQueryPlan@@V?$KeyHashCalculator@K@@@@ABAJABKPAV?$TableBucket@KPAUCachedQueryPlan@CSyncCachedQueryPlan@@V?$KeyHashCalculator@K@@@@KPAK@Z 1001aa80 f i metastore_private:SyncCachedQueryPlan.obj
+ 0001:00019b28       ??_G?$HashTable@KPAUCachedQueryPlan@CSyncCachedQueryPlan@@V?$KeyHashCalculator@K@@@@QAAPAXI@Z 1001ab28 f i metastore_private:SyncCachedQueryPlan.obj
+ 0001:00019b70       ?Initialize@?$HashTable@KPAUCachedQueryPlan@CSyncCachedQueryPlan@@V?$KeyHashCalculator@K@@@@QAAJPAV?$KeyHashCalculator@K@@K@Z 1001ab70 f i metastore_private:SyncCachedQueryPlan.obj
+ 0001:00019c4c       ?LookupItem@?$HashTable@KPAUCachedQueryPlan@CSyncCachedQueryPlan@@V?$KeyHashCalculator@K@@@@QBA_NABKAAPAUCachedQueryPlan@CSyncCachedQueryPlan@@@Z 1001ac4c f i metastore_private:SyncCachedQueryPlan.obj
+ 0001:00019c9c       ?Resize@?$HashTable@KPAUCachedQueryPlan@CSyncCachedQueryPlan@@V?$KeyHashCalculator@K@@@@QAAJXZ 1001ac9c f i metastore_private:SyncCachedQueryPlan.obj
+ 0001:00019ddc       ?ContainsItem@?$HashTable@KPAUCachedQueryPlan@CSyncCachedQueryPlan@@V?$KeyHashCalculator@K@@@@QBA_NABK@Z 1001addc f i metastore_private:SyncCachedQueryPlan.obj
+ 0001:00019e10       ??1CSyncCachedQueryPlan@@QAA@XZ 1001ae10 f   metastore_private:SyncCachedQueryPlan.obj
+ 0001:00019ea0       ?Initialize@?$HashTable@KPAUCachedQueryPlan@CSyncCachedQueryPlan@@V?$KeyHashCalculator@K@@@@QAAJK@Z 1001aea0 f i metastore_private:SyncCachedQueryPlan.obj
+ 0001:00019f08       ?AddItem@?$HashTable@KPAUCachedQueryPlan@CSyncCachedQueryPlan@@V?$KeyHashCalculator@K@@@@QAAJABKABQAUCachedQueryPlan@CSyncCachedQueryPlan@@@Z 1001af08 f i metastore_private:SyncCachedQueryPlan.obj
+ 0001:00019fcc       ?Release@CSyncCachedQueryPlan@@QAAKXZ 1001afcc f   metastore_private:SyncCachedQueryPlan.obj
+ 0001:0001a000       ?Initialize@CSyncCachedQueryPlan@@AAAJXZ 1001b000 f   metastore_private:SyncCachedQueryPlan.obj
+ 0001:0001a0b4       ?CacheCommandTextForQuery@CSyncCachedQueryPlan@@QAAJPAKPAUICommandText@@PAH@Z 1001b0b4 f   metastore_private:SyncCachedQueryPlan.obj
+ 0001:0001a1ac       ?GetCachedCommandTextIfAvailable@CSyncCachedQueryPlan@@QAAJPAKPAPAUICommandText@@PAH2@Z 1001b1ac f   metastore_private:SyncCachedQueryPlan.obj
+ 0001:0001a254       ?MarkCommandTextNotInUse@CSyncCachedQueryPlan@@QAAJPAK@Z 1001b254 f   metastore_private:SyncCachedQueryPlan.obj
+ 0001:0001a2ac       ??1CSyncChangeUnitMetadataEnumerator@@QAA@XZ 1001b2ac f   metastore_private:SyncChangeUnitsEnumerator.obj
+ 0001:0001a308       ?InterfaceSupportsErrorInfo@CSyncChangeUnitMetadataEnumerator@@UAAJABU_GUID@@@Z 1001b308 f i metastore_private:SyncChangeUnitsEnumerator.obj
+ 0001:0001a310       ?Skip@CSyncChangeUnitMetadataEnumerator@@UAAJK@Z 1001b310 f i metastore_private:SyncChangeUnitsEnumerator.obj
+ 0001:0001a31c       ?Clone@CSyncChangeUnitMetadataEnumerator@@UAAJPAPAUIChangeUnitMetadata@@@Z 1001b31c f i metastore_private:SyncChangeUnitsEnumerator.obj
+ 0001:0001a328       ?QueryInterface@CSyncChangeUnitMetadataEnumerator@@UAAJABU_GUID@@PAPAX@Z 1001b328 f   metastore_private:SyncChangeUnitsEnumerator.obj
+ 0001:0001a3dc       ?AddRef@CSyncChangeUnitMetadataEnumerator@@UAAKXZ 1001b3dc f   metastore_private:SyncChangeUnitsEnumerator.obj
+ 0001:0001a3e4       ?AddRef@CSyncChangeUnitMetadataEnumerator@@W3AAKXZ 1001b3e4 f i metastore_private:SyncChangeUnitsEnumerator.obj
+ 0001:0001a3ec       ?QueryInterface@CSyncChangeUnitMetadataEnumerator@@W3AAJABU_GUID@@PAPAX@Z 1001b3ec f i metastore_private:SyncChangeUnitsEnumerator.obj
+ 0001:0001a3f4       ?Release@CSyncChangeUnitMetadataEnumerator@@UAAKXZ 1001b3f4 f   metastore_private:SyncChangeUnitsEnumerator.obj
+ 0001:0001a42c       ?Release@CSyncChangeUnitMetadataEnumerator@@W3AAKXZ 1001b42c f i metastore_private:SyncChangeUnitsEnumerator.obj
+ 0001:0001a434       ??0CSyncChangeUnitMetadataEnumerator@@QAA@PAVCSyncChangeUnitVersions@@@Z 1001b434 f   metastore_private:SyncChangeUnitsEnumerator.obj
+ 0001:0001a484       ?EnsureTableEnumerator@CSyncChangeUnitMetadataEnumerator@@AAAJXZ 1001b484 f   metastore_private:SyncChangeUnitsEnumerator.obj
+ 0001:0001a4e8       ?Reset@CSyncChangeUnitMetadataEnumerator@@UAAJXZ 1001b4e8 f   metastore_private:SyncChangeUnitsEnumerator.obj
+ 0001:0001a520       ?GetNext@CSyncChangeUnitMetadataEnumerator@@AAAJPAPAEPAU_SYNC_VERSION@@@Z 1001b520 f   metastore_private:SyncChangeUnitsEnumerator.obj
+ 0001:0001a58c       ?Next@CSyncChangeUnitMetadataEnumerator@@UAAJKPAPAUIChangeUnitMetadata@@PAK@Z 1001b58c f   metastore_private:SyncChangeUnitsEnumerator.obj
+ 0001:0001a684       ??1CSyncFieldValue@@QAA@XZ 1001b684 f   metastore_private:SyncFieldValue.obj
+ 0001:0001a6d8       ?InterfaceSupportsErrorInfo@CSyncFieldValue@@UAAJABU_GUID@@@Z 1001b6d8 f i metastore_private:SyncFieldValue.obj
+ 0001:0001a6e0       ?QueryInterface@CSyncFieldValue@@UAAJABU_GUID@@PAPAX@Z 1001b6e0 f   metastore_private:SyncFieldValue.obj
+ 0001:0001a794       ?AddRef@CSyncFieldValue@@UAAKXZ 1001b794 f   metastore_private:SyncFieldValue.obj
+ 0001:0001a79c       ?GetFieldType@CSyncFieldValue@@UAAJPAK@Z 1001b79c f   metastore_private:SyncFieldValue.obj
+ 0001:0001a7bc       ?GetInternalFieldValue@CSyncFieldValue@@AAAJW4__MIDL___MIDL_itf_metastore_0000_0000_0001@@PAXPAK@Z 1001b7bc f   metastore_private:SyncFieldValue.obj
+ 0001:0001a950       ?AddRef@CSyncFieldValue@@W3AAKXZ 1001b950 f i metastore_private:SyncFieldValue.obj
+ 0001:0001a958       ?QueryInterface@CSyncFieldValue@@W3AAJABU_GUID@@PAPAX@Z 1001b958 f i metastore_private:SyncFieldValue.obj
+ 0001:0001a960       ?Release@CSyncFieldValue@@UAAKXZ 1001b960 f   metastore_private:SyncFieldValue.obj
+ 0001:0001a998       ?GetByteArrayValue@CSyncFieldValue@@UAAJPAEPAK@Z 1001b998 f   metastore_private:SyncFieldValue.obj
+ 0001:0001a9a8       ?SetByteArrayValue@CSyncFieldValue@@UAAJPAEK@Z 1001b9a8 f   metastore_private:SyncFieldValue.obj
+ 0001:0001aa84       ?GetStringValue@CSyncFieldValue@@UAAJPAGPAK@Z 1001ba84 f   metastore_private:SyncFieldValue.obj
+ 0001:0001aa94       ?SetStringValue@CSyncFieldValue@@UAAJPBG@Z 1001ba94 f   metastore_private:SyncFieldValue.obj
+ 0001:0001ab7c       ?GetUInt8Value@CSyncFieldValue@@UAAJPAE@Z 1001bb7c f   metastore_private:SyncFieldValue.obj
+ 0001:0001aba4       ?SetUInt8Value@CSyncFieldValue@@UAAJE@Z 1001bba4 f   metastore_private:SyncFieldValue.obj
+ 0001:0001ac28       ?GetUInt16Value@CSyncFieldValue@@UAAJPAG@Z 1001bc28 f   metastore_private:SyncFieldValue.obj
+ 0001:0001ac50       ?SetUInt16Value@CSyncFieldValue@@UAAJG@Z 1001bc50 f   metastore_private:SyncFieldValue.obj
+ 0001:0001acd4       ?GetUInt32Value@CSyncFieldValue@@UAAJPAK@Z 1001bcd4 f   metastore_private:SyncFieldValue.obj
+ 0001:0001acfc       ?SetUInt32Value@CSyncFieldValue@@UAAJK@Z 1001bcfc f   metastore_private:SyncFieldValue.obj
+ 0001:0001ad80       ?GetUInt64Value@CSyncFieldValue@@UAAJPA_K@Z 1001bd80 f   metastore_private:SyncFieldValue.obj
+ 0001:0001ada8       ?SetUInt64Value@CSyncFieldValue@@UAAJ_K@Z 1001bda8 f   metastore_private:SyncFieldValue.obj
+ 0001:0001ae34       ?GetGuidValue@CSyncFieldValue@@UAAJPAU_GUID@@@Z 1001be34 f   metastore_private:SyncFieldValue.obj
+ 0001:0001ae64       ?SetGuidValue@CSyncFieldValue@@UAAJU_GUID@@@Z 1001be64 f   metastore_private:SyncFieldValue.obj
+ 0001:0001af48       ?Release@CSyncFieldValue@@W3AAKXZ 1001bf48 f i metastore_private:SyncFieldValue.obj
+ 0001:0001af50       ??0CSyncFieldValue@@QAA@XZ 1001bf50 f   metastore_private:SyncFieldValue.obj
+ 0001:0001afa4       ?IsEqual@IdParameterPair@@QBAHPBE0@Z 1001bfa4 f i metastore_private:SyncChangeUnitsMetadata.obj
+ 0001:0001b024       ?AllocateId@IdParameterPair@@QAAJPAPAEG@Z 1001c024 f i metastore_private:SyncChangeUnitsMetadata.obj
+ 0001:0001b080       ?AllocateAndCopyId@IdParameterPair@@QAAJPAPAEPBE@Z 1001c080 f i metastore_private:SyncChangeUnitsMetadata.obj
+ 0001:0001b104       ?AddRef@CSyncChangeUnitVersions@@QAAKXZ 1001c104 f   metastore_private:SyncChangeUnitsMetadata.obj
+ 0001:0001b108       ?HashKey@IdParameterPair@@QBAKPBE@Z 1001c108 f i metastore_private:SyncChangeUnitsMetadata.obj
+ 0001:0001b1b8       ?CopyIdFromInput@IdParameterPair@@QAAJPAPAEPBE@Z 1001c1b8 f i metastore_private:SyncChangeUnitsMetadata.obj
+ 0001:0001b218       ??0CSyncChangeUnitVersions@@QAA@KPAV?$HashTable@PAEU_SYNC_VERSION@@UIdParameterPair@@@@PAUIdParameterPair@@@Z 1001c218 f   metastore_private:SyncChangeUnitsMetadata.obj
+ 0001:0001b250       ?FindNewBucket@?$HashTable@PAEU_SYNC_VERSION@@UIdParameterPair@@@@ABAJABQAEPAV?$TableBucket@PAEU_SYNC_VERSION@@UIdParameterPair@@@@KPAK@Z 1001c250 f i metastore_private:SyncChangeUnitsMetadata.obj
+ 0001:0001b2f0       ?FindExistingBucket@?$HashTable@PAEU_SYNC_VERSION@@UIdParameterPair@@@@ABAJABQAEPAV?$TableBucket@PAEU_SYNC_VERSION@@UIdParameterPair@@@@KPAK@Z 1001c2f0 f i metastore_private:SyncChangeUnitsMetadata.obj
+ 0001:0001b3c0       ?SetItemData@?$HashTable@PAEU_SYNC_VERSION@@UIdParameterPair@@@@QAAJABQAEABU_SYNC_VERSION@@@Z 1001c3c0 f i metastore_private:SyncChangeUnitsMetadata.obj
+ 0001:0001b430       ?LookupItem@?$HashTable@PAEU_SYNC_VERSION@@UIdParameterPair@@@@QBA_NABQAEAAU_SYNC_VERSION@@@Z 1001c430 f i metastore_private:SyncChangeUnitsMetadata.obj
+ 0001:0001b49c       ?ContainsItem@?$HashTable@PAEU_SYNC_VERSION@@UIdParameterPair@@@@QBA_NABQAE@Z 1001c49c f i metastore_private:SyncChangeUnitsMetadata.obj
+ 0001:0001b4d0       ?Resize@?$HashTable@PAEU_SYNC_VERSION@@UIdParameterPair@@@@QAAJXZ 1001c4d0 f i metastore_private:SyncChangeUnitsMetadata.obj
+ 0001:0001b618       ?GetChangeUnitVersion@CSyncChangeUnitVersions@@QAAJPAEPAU_SYNC_VERSION@@@Z 1001c618 f   metastore_private:SyncChangeUnitsMetadata.obj
+ 0001:0001b644       ?AddItem@?$HashTable@PAEU_SYNC_VERSION@@UIdParameterPair@@@@QAAJABQAEABU_SYNC_VERSION@@@Z 1001c644 f i metastore_private:SyncChangeUnitsMetadata.obj
+ 0001:0001b71c       ?SetChangeUnitVersion@CSyncChangeUnitVersions@@QAAJPAEPBU_SYNC_VERSION@@@Z 1001c71c f   metastore_private:SyncChangeUnitsMetadata.obj
+ 0001:0001b7a0       ??1CSyncChangeUnitVersions@@QAA@XZ 1001c7a0 f   metastore_private:SyncChangeUnitsMetadata.obj
+ 0001:0001b85c       ?Release@CSyncChangeUnitVersions@@QAAKXZ 1001c85c f   metastore_private:SyncChangeUnitsMetadata.obj
+ 0001:0001b890       ??1CSyncChangeUnitMetadata@@QAA@XZ 1001c890 f   metastore_private:SyncChangeUnitMetadata.obj
+ 0001:0001b8f4       ?InterfaceSupportsErrorInfo@CSyncChangeUnitMetadata@@UAAJABU_GUID@@@Z 1001c8f4 f i metastore_private:SyncChangeUnitMetadata.obj
+ 0001:0001b8fc       ?QueryInterface@CSyncChangeUnitMetadata@@UAAJABU_GUID@@PAPAX@Z 1001c8fc f   metastore_private:SyncChangeUnitMetadata.obj
+ 0001:0001b9b0       ?AddRef@CSyncChangeUnitMetadata@@UAAKXZ 1001c9b0 f   metastore_private:SyncChangeUnitMetadata.obj
+ 0001:0001b9b8       ?GetChangeUnitId@CSyncChangeUnitMetadata@@UAAJPAEPAK@Z 1001c9b8 f   metastore_private:SyncChangeUnitMetadata.obj
+ 0001:0001ba00       ?GetChangeUnitVersion@CSyncChangeUnitMetadata@@UAAJPAU_SYNC_VERSION@@@Z 1001ca00 f   metastore_private:SyncChangeUnitMetadata.obj
+ 0001:0001ba5c       ?Init@CSyncChangeUnitMetadata@@AAAJPAEPAU_SYNC_VERSION@@PAUIdParameterPair@@@Z 1001ca5c f   metastore_private:SyncChangeUnitMetadata.obj
+ 0001:0001bafc       ?QueryInterface@CSyncChangeUnitMetadata@@W3AAJABU_GUID@@PAPAX@Z 1001cafc f i metastore_private:SyncChangeUnitMetadata.obj
+ 0001:0001bb04       ?AddRef@CSyncChangeUnitMetadata@@W3AAKXZ 1001cb04 f i metastore_private:SyncChangeUnitMetadata.obj
+ 0001:0001bb0c       ?Release@CSyncChangeUnitMetadata@@UAAKXZ 1001cb0c f   metastore_private:SyncChangeUnitMetadata.obj
+ 0001:0001bb44       ?Release@CSyncChangeUnitMetadata@@W3AAKXZ 1001cb44 f i metastore_private:SyncChangeUnitMetadata.obj
+ 0001:0001bb4c       ??0CSyncChangeUnitMetadata@@QAA@PAVCSyncChangeUnitMetadataEnumerator@@@Z 1001cb4c f   metastore_private:SyncChangeUnitMetadata.obj
+ 0001:0001bb9c       FreeResourceLibrary        1001cb9c f   resload:resload.obj
+ 0001:0001be84       LoadResourceLibraryWithLanguage 1001ce84 f   resload:resload.obj
+ 0001:0001bee8       LoadResourceLibrary        1001cee8 f   resload:resload.obj
+ 0001:0001bf04       ??2@YAPAXI@Z               1001cf04 f   memory:CeMemory.obj
+ 0001:0001bf20       ??3@YAXPAX@Z               1001cf20 f   memory:CeMemory.obj
+ 0001:0001bf3c       InterlockedIncrement       1001cf3c f   coredll:COREDLL.dll
+ 0001:0001bf4c       InterlockedDecrement       1001cf4c f   coredll:COREDLL.dll
+ 0001:0001bf5c       GetLastError               1001cf5c f   coredll:COREDLL.dll
+ 0001:0001bf6c       RegCloseKey                1001cf6c f   coredll:COREDLL.dll
+ 0001:0001bf7c       RegSetValueExW             1001cf7c f   coredll:COREDLL.dll
+ 0001:0001bf8c       RegCreateKeyExW            1001cf8c f   coredll:COREDLL.dll
+ 0001:0001bf9c       StringCchPrintfW           1001cf9c f   coredll:COREDLL.dll
+ 0001:0001bfac       RegDeleteKeyW              1001cfac f   coredll:COREDLL.dll
+ 0001:0001bfbc       GetModuleFileNameW         1001cfbc f   coredll:COREDLL.dll
+ 0001:0001bfcc       StringCchCopyW             1001cfcc f   coredll:COREDLL.dll
+ 0001:0001bfdc       lstrcmpiW                  1001cfdc f   coredll:COREDLL.dll
+ 0001:0001bfec       StringCchCatW              1001cfec f   coredll:COREDLL.dll
+ 0001:0001bffc       StringCchCopyNW            1001cffc f   coredll:COREDLL.dll
+ 0001:0001c00c       CloseHandle                1001d00c f   coredll:COREDLL.dll
+ 0001:0001c01c       ReleaseMutex               1001d01c f   coredll:COREDLL.dll
+ 0001:0001c02c       CreateMutexW               1001d02c f   coredll:COREDLL.dll
+ 0001:0001c03c       CryptReleaseContext        1001d03c f   coredll:COREDLL.dll
+ 0001:0001c04c       LoadStringW                1001d04c f   coredll:COREDLL.dll
+ 0001:0001c05c       FormatMessageW             1001d05c f   coredll:COREDLL.dll
+ 0001:0001c06c       FindClose                  1001d06c f   coredll:COREDLL.dll
+ 0001:0001c07c       FindFirstFileW             1001d07c f   coredll:COREDLL.dll
+ 0001:0001c08c       CryptDestroyHash           1001d08c f   coredll:COREDLL.dll
+ 0001:0001c09c       CryptGetHashParam          1001d09c f   coredll:COREDLL.dll
+ 0001:0001c0ac       CryptHashData              1001d0ac f   coredll:COREDLL.dll
+ 0001:0001c0bc       CryptCreateHash            1001d0bc f   coredll:COREDLL.dll
+ 0001:0001c0cc       CryptAcquireContextW       1001d0cc f   coredll:COREDLL.dll
+ 0001:0001c0dc       StringCchLengthW           1001d0dc f   coredll:COREDLL.dll
+ 0001:0001c0ec       lstrcmpW                   1001d0ec f   coredll:COREDLL.dll
+ 0001:0001c0fc       FileTimeToSystemTime       1001d0fc f   coredll:COREDLL.dll
+ 0001:0001c10c       FileTimeToLocalFileTime    1001d10c f   coredll:COREDLL.dll
+ 0001:0001c11c       SystemTimeToFileTime       1001d11c f   coredll:COREDLL.dll
+ 0001:0001c12c       GetSystemTime              1001d12c f   coredll:COREDLL.dll
+ 0001:0001c13c       LoadLibraryW               1001d13c f   coredll:COREDLL.dll
+ 0001:0001c14c       FreeLibrary                1001d14c f   coredll:COREDLL.dll
+ 0001:0001c15c       SetLastError               1001d15c f   coredll:COREDLL.dll
+ 0001:0001c16c       GetUserDefaultUILanguage   1001d16c f   coredll:COREDLL.dll
+ 0001:0001c17c       HeapAlloc                  1001d17c f   coredll:COREDLL.dll
+ 0001:0001c18c       GetProcessHeap             1001d18c f   coredll:COREDLL.dll
+ 0001:0001c19c       HeapFree                   1001d19c f   coredll:COREDLL.dll
+ 0001:0001c1ac       StringFromGUID2            1001d1ac f   ole32:ole32.dll
+ 0001:0001c1bc       CoCreateInstance           1001d1bc f   ole32:ole32.dll
+ 0001:0001c1cc       CoTaskMemFree              1001d1cc f   ole32:ole32.dll
+ 0001:0001c1dc       SetErrorInfo               1001d1dc f   oleaut32:OLEAUT32.dll
+ 0001:0001c1ec       GetErrorInfo               1001d1ec f   oleaut32:OLEAUT32.dll
+ 0001:0001c1fc       VariantClear               1001d1fc f   oleaut32:OLEAUT32.dll
+ 0001:0001c20c       SysAllocString             1001d20c f   oleaut32:OLEAUT32.dll
+ 0001:0001c21c       VariantInit                1001d21c f   oleaut32:OLEAUT32.dll
+ 0001:0001c22c       CreateErrorInfo            1001d22c f   oleaut32:OLEAUT32.dll
+ 0001:0001c334       _DllMainCRTStartup         1001d334 f   corelib0:pegdmain.obj
+ 0001:0001c360       __GSHandlerCheckCommon     1001d360 f   corelib0:gshandler.obj
+ 0001:0001c39c       __GSHandlerCheck           1001d39c f   corelib0:gshandler.obj
+ 0001:0001c3bc       __security_init_cookie     1001d3bc f   corelib0:seccinit.obj
+ 0001:0001c408       __security_check_cookie    1001d408 f   corelib0:armsecgs.obj
+ 0001:0001c418       __gsfailure                1001d418     corelib0:armsecgs.obj
+ 0001:0001c544       _cexit                     1001d544 f   corelib0:cexit.obj
+ 0001:0001c554       _initterm                  1001d554 f   corelib0:crt0dat.obj
+ 0001:0001c580       _cinit                     1001d580 f   corelib0:crt0dat.obj
+ 0001:0001c5e0       __crt_ExitProcess          1001d5e0 f   corelib0:exitproc_proxy.obj
+ 0001:0001c5ec       memcmp                     1001d5ec f   corelib1:COREDLL.dll
+ 0001:0001c5fc       wcslen                     1001d5fc f   corelib1:COREDLL.dll
+ 0001:0001c60c       memset                     1001d60c f   corelib1:COREDLL.dll
+ 0001:0001c61c       _wcsnicmp                  1001d61c f   corelib1:COREDLL.dll
+ 0001:0001c62c       wcscmp                     1001d62c f   corelib1:COREDLL.dll
+ 0001:0001c63c       memcpy                     1001d63c f   corelib1:COREDLL.dll
+ 0001:0001c64c       qsort                      1001d64c f   corelib1:COREDLL.dll
+ 0001:0001c65c       _purecall                  1001d65c f   corelib1:COREDLL.dll
+ 0001:0001c66c       _XcptFilter                1001d66c f   corelib1:COREDLL.dll
+ 0001:0001c67c       __C_specific_handler       1001d67c f   corelib1:COREDLL.dll
+ 0001:0001c68c       __security_gen_cookie2     1001d68c f   corelib1:COREDLL.dll
+ 0001:0001c69c       __report_gsfailure         1001d69c f   corelib1:COREDLL.dll
+ 0001:0001c6ac       free                       1001d6ac f   corelib1:COREDLL.dll
+ 0001:0001c6bc       DeleteCriticalSection      1001d6bc f   coredll:COREDLL.dll
+ 0001:0001c6cc       InterlockedExchange        1001d6cc f   coredll:COREDLL.dll
+ 0001:0001c6dc       TerminateProcess           1001d6dc f   coredll:COREDLL.dll
+ 0001:0001c79c       __IMPORT_DESCRIPTOR_COREDLL 1001d79c     coredll:COREDLL.dll
+ 0001:0001c7b0       __IMPORT_DESCRIPTOR_ole32  1001d7b0     ole32:ole32.dll
+ 0001:0001c7c4       __IMPORT_DESCRIPTOR_OLEAUT32 1001d7c4     oleaut32:OLEAUT32.dll
+ 0001:0001c7d8       __NULL_IMPORT_DESCRIPTOR   1001d7d8     coredll:COREDLL.dll
+ 0002:00000000       __imp_InterlockedIncrement 1001e000     coredll:COREDLL.dll
+ 0002:00000004       __imp_InterlockedDecrement 1001e004     coredll:COREDLL.dll
+ 0002:00000008       __imp_GetLastError         1001e008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_RegCloseKey          1001e00c     coredll:COREDLL.dll
+ 0002:00000010       __imp_RegSetValueExW       1001e010     coredll:COREDLL.dll
+ 0002:00000014       __imp_RegCreateKeyExW      1001e014     coredll:COREDLL.dll
+ 0002:00000018       __imp_StringCchPrintfW     1001e018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_RegDeleteKeyW        1001e01c     coredll:COREDLL.dll
+ 0002:00000020       __imp_GetModuleFileNameW   1001e020     coredll:COREDLL.dll
+ 0002:00000024       __imp_StringCchCopyW       1001e024     coredll:COREDLL.dll
+ 0002:00000028       __imp_lstrcmpiW            1001e028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_StringCchCatW        1001e02c     coredll:COREDLL.dll
+ 0002:00000030       __imp_StringCchCopyNW      1001e030     coredll:COREDLL.dll
+ 0002:00000034       __imp_CloseHandle          1001e034     coredll:COREDLL.dll
+ 0002:00000038       __imp_ReleaseMutex         1001e038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_CreateMutexW         1001e03c     coredll:COREDLL.dll
+ 0002:00000040       __imp_CryptReleaseContext  1001e040     coredll:COREDLL.dll
+ 0002:00000044       __imp_LoadStringW          1001e044     coredll:COREDLL.dll
+ 0002:00000048       __imp_FormatMessageW       1001e048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_FindClose            1001e04c     coredll:COREDLL.dll
+ 0002:00000050       __imp_FindFirstFileW       1001e050     coredll:COREDLL.dll
+ 0002:00000054       __imp_CryptDestroyHash     1001e054     coredll:COREDLL.dll
+ 0002:00000058       __imp_CryptGetHashParam    1001e058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_CryptHashData        1001e05c     coredll:COREDLL.dll
+ 0002:00000060       __imp_CryptCreateHash      1001e060     coredll:COREDLL.dll
+ 0002:00000064       __imp_CryptAcquireContextW 1001e064     coredll:COREDLL.dll
+ 0002:00000068       __imp_StringCchLengthW     1001e068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_lstrcmpW             1001e06c     coredll:COREDLL.dll
+ 0002:00000070       __imp_FileTimeToSystemTime 1001e070     coredll:COREDLL.dll
+ 0002:00000074       __imp_FileTimeToLocalFileTime 1001e074     coredll:COREDLL.dll
+ 0002:00000078       __imp_SystemTimeToFileTime 1001e078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_GetSystemTime        1001e07c     coredll:COREDLL.dll
+ 0002:00000080       __imp_LoadLibraryW         1001e080     coredll:COREDLL.dll
+ 0002:00000084       __imp_FreeLibrary          1001e084     coredll:COREDLL.dll
+ 0002:00000088       __imp_SetLastError         1001e088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_GetUserDefaultUILanguage 1001e08c     coredll:COREDLL.dll
+ 0002:00000090       __imp_HeapAlloc            1001e090     coredll:COREDLL.dll
+ 0002:00000094       __imp_GetProcessHeap       1001e094     coredll:COREDLL.dll
+ 0002:00000098       __imp_HeapFree             1001e098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_TerminateProcess     1001e09c     coredll:COREDLL.dll
+ 0002:000000a0       __imp_InterlockedExchange  1001e0a0     coredll:COREDLL.dll
+ 0002:000000a4       __imp_DeleteCriticalSection 1001e0a4     coredll:COREDLL.dll
+ 0002:000000a8       __imp_free                 1001e0a8     corelib1:COREDLL.dll
+ 0002:000000ac       __imp___report_gsfailure   1001e0ac     corelib1:COREDLL.dll
+ 0002:000000b0       __imp_memcmp               1001e0b0     corelib1:COREDLL.dll
+ 0002:000000b4       __imp_wcslen               1001e0b4     corelib1:COREDLL.dll
+ 0002:000000b8       __imp___rt_udiv            1001e0b8     corelib1:COREDLL.dll
+ 0002:000000bc       __imp_memset               1001e0bc     corelib1:COREDLL.dll
+ 0002:000000c0       __imp__wcsnicmp            1001e0c0     corelib1:COREDLL.dll
+ 0002:000000c4       __imp_wcscmp               1001e0c4     corelib1:COREDLL.dll
+ 0002:000000c8       __imp_memcpy               1001e0c8     corelib1:COREDLL.dll
+ 0002:000000cc       __imp_qsort                1001e0cc     corelib1:COREDLL.dll
+ 0002:000000d0       __imp__purecall            1001e0d0     corelib1:COREDLL.dll
+ 0002:000000d4       __imp__XcptFilter          1001e0d4     corelib1:COREDLL.dll
+ 0002:000000d8       __imp___C_specific_handler 1001e0d8     corelib1:COREDLL.dll
+ 0002:000000dc       __imp___security_gen_cookie2 1001e0dc     corelib1:COREDLL.dll
+ 0002:000000e0       \177COREDLL_NULL_THUNK_DATA 1001e0e0     coredll:COREDLL.dll
+ 0002:000000e4       __imp_CreateErrorInfo      1001e0e4     oleaut32:OLEAUT32.dll
+ 0002:000000e8       __imp_VariantInit          1001e0e8     oleaut32:OLEAUT32.dll
+ 0002:000000ec       __imp_SysAllocString       1001e0ec     oleaut32:OLEAUT32.dll
+ 0002:000000f0       __imp_VariantClear         1001e0f0     oleaut32:OLEAUT32.dll
+ 0002:000000f4       __imp_GetErrorInfo         1001e0f4     oleaut32:OLEAUT32.dll
+ 0002:000000f8       __imp_SetErrorInfo         1001e0f8     oleaut32:OLEAUT32.dll
+ 0002:000000fc       \177OLEAUT32_NULL_THUNK_DATA 1001e0fc     oleaut32:OLEAUT32.dll
+ 0002:00000100       __imp_CoCreateInstance     1001e100     ole32:ole32.dll
+ 0002:00000104       __imp_StringFromGUID2      1001e104     ole32:ole32.dll
+ 0002:00000108       __imp_CoTaskMemFree        1001e108     ole32:ole32.dll
+ 0002:0000010c       \177ole32_NULL_THUNK_DATA  1001e10c     ole32:ole32.dll
+ 0002:00000110       __security_cookie          1001e110     corelib0:seccinit.obj
+ 0002:00000114       __security_cookie_complement 1001e114     corelib0:seccinit.obj
+ 0002:00000118       ?g_hInstance@@3PAUHINSTANCE__@@A 1001e118     DllMain.obj
+ 0002:0000011c       ?g_cRefThisDll@@3JC        1001e11c     DllMain.obj
+ 0002:00000120       __@@_PchSym_@00@UygUDAJBUkirezgvUnhuUhbmxUhixUckilxUnvgzhglivUhjoxvnvgzhglivUlyqUzineHUivgzroUkivxlnkOlyq@metastore_private 1001e120     metastore_private:precomp.obj
+ 0002:00000124       __@@_PchSym_@00@UygUDAJBUkirezgvUnhuUhbmxUhixUckilxUnvnlibUlyqUzineHUivgzroUkivxlnkOlyq@memory 1001e124     memory:precomp.obj
+ 0002:00000128       _exitflag                  1001e128     corelib0:cexit.obj
+ 0002:0000012c       __onexitend                1001e12c     <common>
+ 0002:00000130       __onexitbegin              1001e130     <common>
+ 0002:00000134       g_pcsExit                  1001e134     <common>
+ 0002:00000138       _pRawDllMain               1001e138     <common>
+
+ entry point at        0001:0001c334
+
+ Static symbols
+
+ 0001:0001bba0       ?CopyString@@YA_NPAGIPBG@Z 1001cba0 f   resload:resload.obj
+ 0001:0001bc20       ?GetResourceLibraryPathInternal@@YA_NPAUHINSTANCE__@@GPAGIPBG@Z 1001cc20 f   resload:resload.obj
+ 0001:0001c244       _DllMainCRTStartupHelper   1001d244 f   corelib0:pegdmain.obj
+ 0001:0001c45c       doexit                     1001d45c f   corelib0:cexit.obj

@@ -1,0 +1,49 @@
+<!--
+Copyright (c) Microsoft Corporation.  All rights reserved.
+-->
+<!--
+Use of this sample source code is subject to the terms of the Microsoft
+license agreement under which you licensed this sample source code. If
+you did not accept the terms of the license agreement, you are not
+authorized to use this sample source code. For the terms of the license,
+please see the license agreement between you and Microsoft or, if applicable,
+see the LICENSE.RTF on your install media or the root of your tools installation.
+THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+-->
+<HTML>
+<HEAD>
+<TITLE>Page d'administration de MSMQ</TITLE>
+</HEAD>
+<B>Page d'administration de MSMQ</B>
+      
+
+<P>Table des raccourcis de commandes
+<TABLE BORDER =0 WIDTH=40%>
+<TR>
+<TD><FORM ACTION = "/MsmqAdmin" METHOD = "post"><INPUT TYPE = submit NAME = "register install netreg" VALUE = "Installer"></FORM></TD>
+<TD><FORM ACTION = "/MsmqAdmin" METHOD = "post"><INPUT TYPE = submit NAME = "register" VALUE = "Enregistrer" ></FORM></TD>
+<TD><FORM ACTION = "/MsmqAdmin" METHOD = "post"><INPUT TYPE = submit NAME = "status" VALUE = "&Eacute;tat" ></FORM></TD>
+<TD><FORM ACTION = "/MsmqAdmin" METHOD = "post"><INPUT TYPE = submit NAME = "net connect" VALUE = "Connexion r&eacute;seau" ></FORM></TD>
+<TD><FORM ACTION = "/MsmqAdmin" METHOD = "post"><INPUT TYPE = submit NAME = "start" VALUE = "D&eacute;marrer" ></FORM></TD>
+</TR>
+<TR>
+<TD><FORM ACTION = "/MsmqAdmin" METHOD = "post"><INPUT TYPE = submit NAME = "register uninstall" VALUE = "D&eacute;sinstaller" ></FORM></TD>
+<TD><FORM ACTION = "/MsmqAdmin" METHOD = "post"><INPUT TYPE = submit NAME = "verify" VALUE = "V&eacute;rifier"></FORM></TD>
+<TD><FORM ACTION = "/MsmqAdmin" METHOD = "post"><INPUT TYPE = submit NAME = "log" VALUE = "Journal" ></FORM></TD>
+<TD><FORM ACTION = "/MsmqAdmin" METHOD = "post"><INPUT TYPE = submit NAME = "enum queues" VALUE = "Files d'attente" ></FORM></TD>
+<TD><FORM ACTION = "/MsmqAdmin" METHOD = "post"><INPUT TYPE = submit NAME = "stop" VALUE = "Arr&ecirc;ter" ></FORM></TD>
+</TR>
+</TABLE>
+
+
+<FORM METHOD="post">
+Entrez une commande personnalis&eacute;e&#160;:  <INPUT NAME = "run" width=50>
+<INPUT TYPE = SUBMIT VALUE = "Soumettre">
+</FORM>
+<HR>
+
+
+<B>R&eacute;sultat</B>
+<P>
+<!--  The script appends the output to this page, so don't terminated with </HTML> tags in this file -->
+

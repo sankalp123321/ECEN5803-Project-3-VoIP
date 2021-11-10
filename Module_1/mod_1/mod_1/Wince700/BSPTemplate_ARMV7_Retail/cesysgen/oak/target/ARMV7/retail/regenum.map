@@ -1,0 +1,136 @@
+ regenum
+
+ Timestamp is 5ac64c62 (Thu Apr 05 09:18:42 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 00000088H .rdata                  CODE
+ 0001:000000a8 00000024H .rdata$debug            CODE
+ 0001:000000cc 00000f90H .text                   CODE
+ 0001:0000105c 00000030H .xdata                  CODE
+ 0001:0000108c 00000014H .idata$2                CODE
+ 0001:000010a0 00000014H .idata$3                CODE
+ 0001:000010b4 00000070H .idata$4                CODE
+ 0001:00001124 0000000cH .idata$6                CODE
+ 0001:00001130 00000063H .edata                  CODE
+ 0002:00000000 00000070H .idata$5                DATA
+ 0002:00000070 00000008H .data                   DATA
+ 0002:00000078 00000014H .bss                    DATA
+ 0003:00000000 000000a0H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:0000003c       ??_C@_1M@OAJFFPML@?$AAF?$AAl?$AAa?$AAg?$AAs?$AA?$AA@ 1000103c     regenum.obj
+ 0001:00000048       ??_C@_17DJMMGLBL@?$AAD?$AAl?$AAl?$AA?$AA@ 10001048     regenum.obj
+ 0001:00000050       ??_C@_1M@JLADBBAF@?$AAE?$AAn?$AAt?$AAr?$AAy?$AA?$AA@ 10001050     regenum.obj
+ 0001:0000005c       ??_C@_1M@PJMPBMAL@?$AAO?$AAr?$AAd?$AAe?$AAr?$AA?$AA@ 1000105c     regenum.obj
+ 0001:00000068       ??_C@_1BK@HJELJNPF@?$AAR?$AAe?$AAg?$AAe?$AAn?$AAu?$AAm?$AAP?$AAa?$AAr?$AAm?$AAs?$AA?$AA@ 10001068     regenum.obj
+ 0001:00000084       ??_C@_1BM@MHMIAMLB@?$AAI?$AAn?$AAt?$AAe?$AAr?$AAf?$AAa?$AAc?$AAe?$AAT?$AAy?$AAp?$AAe?$AA?$AA@ 10001084     regenum.obj
+ 0001:000000a0       ??_C@_17KACEIPNC@?$AAK?$AAe?$AAy?$AA?$AA@ 100010a0     regenum.obj
+ 0001:000000cc       DllMain                    100010cc f   regenum.obj
+ 0001:000000e0       RegenumActivateDeviceEx    100010e0 f   regenum.obj
+ 0001:00000108       Enum2                      10001108 f   regenum.obj
+ 0001:00000624       Enum                       10001624 f   regenum.obj
+ 0001:00000634       Init                       10001634 f   regenum.obj
+ 0001:00000a60       Deinit                     10001a60 f   regenum.obj
+ 0001:00000ab0       DisableThreadLibraryCalls  10001ab0 f   coredll:COREDLL.dll
+ 0001:00000ac0       ActivateDevice             10001ac0 f   coredll:COREDLL.dll
+ 0001:00000ad0       ActivateDeviceEx           10001ad0 f   coredll:COREDLL.dll
+ 0001:00000ae0       FreeLibrary                10001ae0 f   coredll:COREDLL.dll
+ 0001:00000af0       GetProcAddressW            10001af0 f   coredll:COREDLL.dll
+ 0001:00000b00       LoadDriver                 10001b00 f   coredll:COREDLL.dll
+ 0001:00000b10       LoadLibraryW               10001b10 f   coredll:COREDLL.dll
+ 0001:00000b20       RegQueryValueExW           10001b20 f   coredll:COREDLL.dll
+ 0001:00000b30       RegEnumKeyExW              10001b30 f   coredll:COREDLL.dll
+ 0001:00000b40       StringCchCopyW             10001b40 f   coredll:COREDLL.dll
+ 0001:00000b50       LocalAlloc                 10001b50 f   coredll:COREDLL.dll
+ 0001:00000b60       RegCloseKey                10001b60 f   coredll:COREDLL.dll
+ 0001:00000b70       RegQueryInfoKeyW           10001b70 f   coredll:COREDLL.dll
+ 0001:00000b80       RegOpenKeyExW              10001b80 f   coredll:COREDLL.dll
+ 0001:00000b90       LocalFree                  10001b90 f   coredll:COREDLL.dll
+ 0001:00000ba0       DeactivateDevice           10001ba0 f   coredll:COREDLL.dll
+ 0001:00000bb0       OpenDeviceKey              10001bb0 f   coredll:COREDLL.dll
+ 0001:00000cb8       _DllMainCRTStartup         10001cb8 f   corelib0:pegdmain.obj
+ 0001:00000ce4       __GSHandlerCheck_SEH       10001ce4 f   corelib0:gshandlerseh.obj
+ 0001:00000d30       __security_init_cookie     10001d30 f   corelib0:seccinit.obj
+ 0001:00000d7c       __security_check_cookie    10001d7c f   corelib0:armsecgs.obj
+ 0001:00000d8c       __gsfailure                10001d8c     corelib0:armsecgs.obj
+ 0001:00000dd0       __GSHandlerCheckCommon     10001dd0 f   corelib0:gshandler.obj
+ 0001:00000e0c       __GSHandlerCheck           10001e0c f   corelib0:gshandler.obj
+ 0001:00000f14       _cexit                     10001f14 f   corelib0:cexit.obj
+ 0001:00000f24       _initterm                  10001f24 f   corelib0:crt0dat.obj
+ 0001:00000f50       _cinit                     10001f50 f   corelib0:crt0dat.obj
+ 0001:00000fb0       __crt_ExitProcess          10001fb0 f   corelib0:exitproc_proxy.obj
+ 0001:00000fbc       free                       10001fbc f   corelib1:COREDLL.dll
+ 0001:00000fcc       malloc                     10001fcc f   corelib1:COREDLL.dll
+ 0001:00000fdc       wcslen                     10001fdc f   corelib1:COREDLL.dll
+ 0001:00000fec       _XcptFilter                10001fec f   corelib1:COREDLL.dll
+ 0001:00000ffc       __C_specific_handler       10001ffc f   corelib1:COREDLL.dll
+ 0001:0000100c       __security_gen_cookie2     1000200c f   corelib1:COREDLL.dll
+ 0001:0000101c       __report_gsfailure         1000201c f   corelib1:COREDLL.dll
+ 0001:0000102c       DeleteCriticalSection      1000202c f   coredll:COREDLL.dll
+ 0001:0000103c       InterlockedExchange        1000203c f   coredll:COREDLL.dll
+ 0001:0000104c       TerminateProcess           1000204c f   coredll:COREDLL.dll
+ 0001:0000108c       __IMPORT_DESCRIPTOR_COREDLL 1000208c     coredll:COREDLL.dll
+ 0001:000010a0       __NULL_IMPORT_DESCRIPTOR   100020a0     coredll:COREDLL.dll
+ 0002:00000000       __imp_DisableThreadLibraryCalls 10003000     coredll:COREDLL.dll
+ 0002:00000004       __imp_ActivateDevice       10003004     coredll:COREDLL.dll
+ 0002:00000008       __imp_ActivateDeviceEx     10003008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_FreeLibrary          1000300c     coredll:COREDLL.dll
+ 0002:00000010       __imp_GetProcAddressW      10003010     coredll:COREDLL.dll
+ 0002:00000014       __imp_LoadDriver           10003014     coredll:COREDLL.dll
+ 0002:00000018       __imp_LoadLibraryW         10003018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_RegQueryValueExW     1000301c     coredll:COREDLL.dll
+ 0002:00000020       __imp_RegEnumKeyExW        10003020     coredll:COREDLL.dll
+ 0002:00000024       __imp_StringCchCopyW       10003024     coredll:COREDLL.dll
+ 0002:00000028       __imp_LocalAlloc           10003028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_RegCloseKey          1000302c     coredll:COREDLL.dll
+ 0002:00000030       __imp_RegQueryInfoKeyW     10003030     coredll:COREDLL.dll
+ 0002:00000034       __imp_RegOpenKeyExW        10003034     coredll:COREDLL.dll
+ 0002:00000038       __imp_LocalFree            10003038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_DeactivateDevice     1000303c     coredll:COREDLL.dll
+ 0002:00000040       __imp_OpenDeviceKey        10003040     coredll:COREDLL.dll
+ 0002:00000044       __imp_free                 10003044     corelib1:COREDLL.dll
+ 0002:00000048       __imp_malloc               10003048     corelib1:COREDLL.dll
+ 0002:0000004c       __imp_wcslen               1000304c     corelib1:COREDLL.dll
+ 0002:00000050       __imp__XcptFilter          10003050     corelib1:COREDLL.dll
+ 0002:00000054       __imp___C_specific_handler 10003054     corelib1:COREDLL.dll
+ 0002:00000058       __imp___security_gen_cookie2 10003058     corelib1:COREDLL.dll
+ 0002:0000005c       __imp___report_gsfailure   1000305c     corelib1:COREDLL.dll
+ 0002:00000060       __imp_DeleteCriticalSection 10003060     coredll:COREDLL.dll
+ 0002:00000064       __imp_InterlockedExchange  10003064     coredll:COREDLL.dll
+ 0002:00000068       __imp_TerminateProcess     10003068     coredll:COREDLL.dll
+ 0002:0000006c       \177COREDLL_NULL_THUNK_DATA 1000306c     coredll:COREDLL.dll
+ 0002:00000070       __security_cookie          10003070     corelib0:seccinit.obj
+ 0002:00000074       __security_cookie_complement 10003074     corelib0:seccinit.obj
+ 0002:00000078       _exitflag                  10003078     corelib0:cexit.obj
+ 0002:0000007c       __onexitend                1000307c     <common>
+ 0002:00000080       __onexitbegin              10003080     <common>
+ 0002:00000084       g_pcsExit                  10003084     <common>
+ 0002:00000088       _pRawDllMain               10003088     <common>
+
+ entry point at        0001:00000cb8
+
+ Static symbols
+
+ 0001:00000bc8       _DllMainCRTStartupHelper   10001bc8 f   corelib0:pegdmain.obj
+ 0001:00000e2c       doexit                     10001e2c f   corelib0:cexit.obj

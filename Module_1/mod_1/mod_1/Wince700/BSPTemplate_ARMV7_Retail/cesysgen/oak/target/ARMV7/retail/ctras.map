@@ -1,0 +1,1458 @@
+ ctras
+
+ Timestamp is 5da10abb (Fri Oct 11 16:05:31 2019)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000020H .CRT$XCU                CODE
+ 0001:00000024 00000004H .CRT$XCZ                CODE
+ 0001:00000028 00000004H .CRT$XIA                CODE
+ 0001:0000002c 00000004H .CRT$XIZ                CODE
+ 0001:00000030 00000004H .CRT$XPA                CODE
+ 0001:00000034 00000004H .CRT$XPZ                CODE
+ 0001:00000038 00000004H .CRT$XTA                CODE
+ 0001:0000003c 00000004H .CRT$XTZ                CODE
+ 0001:00000040 00007662H .rdata                  CODE
+ 0001:000076a4 00000022H .rdata$debug            CODE
+ 0001:000076c8 00044a68H .text                   CODE
+ 0001:0004c130 0000006cH .text$yc                CODE
+ 0001:0004c19c 00000024H .text$yd                CODE
+ 0001:0004c1c0 0000005cH .xdata                  CODE
+ 0001:0004c21c 0000009cH .xdata$x                CODE
+ 0001:0004c2b8 00000014H .idata$2                CODE
+ 0001:0004c2cc 00000014H .idata$3                CODE
+ 0001:0004c2e0 0000018cH .idata$4                CODE
+ 0001:0004c46c 0000000cH .idata$6                CODE
+ 0001:0004c480 000008a8H .edata                  CODE
+ 0002:00000000 0000018cH .idata$5                DATA
+ 0002:00000190 00000258H .data                   DATA
+ 0002:000003e8 0002d544H .bss                    DATA
+ 0003:00000000 000022b0H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000024       __xc_z                     10001024     corelib0:crt0init.obj
+ 0001:00000028       __xi_a                     10001028     corelib0:crt0init.obj
+ 0001:0000002c       __xi_z                     1000102c     corelib0:crt0init.obj
+ 0001:00000030       __xp_a                     10001030     corelib0:crt0init.obj
+ 0001:00000034       __xp_z                     10001034     corelib0:crt0init.obj
+ 0001:00000038       __xt_a                     10001038     corelib0:crt0init.obj
+ 0001:0000003c       __xt_z                     1000103c     corelib0:crt0init.obj
+ 0001:00002ca0       __real@4059000000000000    10003ca0     CTC_RasIFace.obj
+ 0001:00002ca8       __real@406fe00000000000    10003ca8     CTC_RasIFace.obj
+ 0001:00002cb0       __real@3fe0000000000000    10003cb0     CTC_RasIFace.obj
+ 0001:00002cb8       __real@44800000            10003cb8     CTC_RasIFace.obj
+ 0001:00002cbc       __real@46340000            10003cbc     CTC_RasIFace.obj
+ 0001:00002cc0       __real@40490fdb            10003cc0     CTC_RasIFace.obj
+ 0001:00002cc4       ??_7Font@@6B@              10003cc4     CTC_RasIFace.obj
+ 0001:00002ce0       ??_C@_1BA@JNLDHCKO@?$AAR?$AAe?$AAg?$AAu?$AAl?$AAa?$AAr?$AA?$AA@ 10003ce0     CTC_SysHelp.obj
+ 0001:00002cf0       ??_C@_1O@FJOOOIMH@?$AAI?$AAt?$AAa?$AAl?$AAi?$AAc?$AA?$AA@ 10003cf0     CTC_SysHelp.obj
+ 0001:00002d00       ??_C@_19EEIDFNHG@?$AAB?$AAo?$AAl?$AAd?$AA?$AA@ 10003d00     CTC_SysHelp.obj
+ 0001:00002d10       ??_C@_1HO@MFFBIMDG@?$AAS?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AA?5?$AAN?$AAT?$AA?2?$AAC?$AAu@ 10003d10     CTC_SysHelp.obj
+ 0001:00006750       ??_C@_1BI@GNONBDFP@?$AAC?$AAo?$AAu?$AAr?$AAi?$AAe?$AAr?$AA?5?$AAN?$AAe?$AAw?$AA?$AA@ 10007750     Win_API_Instance.obj
+ 0001:00006768       __real@3f800000            10007768     Win_API_Instance.obj
+ 0001:0000676c       __real@00000000            1000776c     Win_API_Instance.obj
+ 0001:00006a24       ??_C@_1DM@MHDIGJJL@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAG?$AAD?$AAI?$AA?2?$AAF?$AAo?$AAn?$AAt?$AAF?$AAi?$AAl?$AAe?$AAs?$AA?2?$AAT?$AAr?$AAu?$AAe?$AAT?$AAy?$AAp?$AAe?$AA?$AA@ 10007a24     Win_API_Instance.obj
+ 0001:00006a60       __real@bf000000            10007a60     Win_API_Instance.obj
+ 0001:00006a64       __real@3f000000            10007a64     Win_API_Instance.obj
+ 0001:00006eac       ??_C@_13BBDEGPLJ@?$AA?$CK?$AA?$AA@ 10007eac     Win_API_Instance.obj
+ 0001:00006eb0       ??_C@_13FPGAJAPJ@?$AA?2?$AA?$AA@ 10007eb0     Win_API_Instance.obj
+ 0001:00006eb4       ??_C@_1BC@HIBBLOLI@?$AA?2?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AA?$AA@ 10007eb4     Win_API_Instance.obj
+ 0001:00006ec8       ??_C@_1DI@LHOABIF@?$AAS?$AAO?$AAF?$AAT?$AAW?$AAA?$AAR?$AAE?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAF?$AAo?$AAn?$AAt?$AAP?$AAa?$AAt?$AAh?$AA?$AA@ 10007ec8     Win_API_Instance.obj
+ 0001:00006f00       ??_C@_1BC@DAMAMAJO@?$AAF?$AAo?$AAn?$AAt?$AAP?$AAa?$AAt?$AAh?$AA?$AA@ 10007f00     Win_API_Instance.obj
+ 0001:00006fec       __real@3f91df46a2506b91    10007fec     Win_API_Instance.obj
+ 0001:00007060       ??_C@_1DO@FJNFGNOK@?$AAI?$AAt?$AAa?$AAl?$AAi?$AAc?$AAB?$AAl?$AAu?$AAe?$AAC?$AAo?$AAl?$AAo?$AAr?$AAF?$AAi?$AAl?$AAt?$AAe?$AAr?$AAR?$AAe?$AAd?$AAF?$AAa?$AAc?$AAt?$AAo?$AAr?$AA?$AA@ 10008060     Win_API_Registry.obj
+ 0001:000070a0       ??_C@_1EA@OHJAFPKM@?$AAI?$AAt?$AAa?$AAl?$AAi?$AAc?$AAB?$AAl?$AAu?$AAe?$AAC?$AAo?$AAl?$AAo?$AAr?$AAF?$AAi?$AAl?$AAt?$AAe?$AAr?$AAB?$AAl?$AAu?$AAe?$AAF?$AAa?$AAc?$AAt?$AAo?$AAr?$AA?$AA@ 100080a0     Win_API_Registry.obj
+ 0001:000070e0       ??_C@_1EC@CJKFFIIH@?$AAI?$AAt?$AAa?$AAl?$AAi?$AAc?$AAB?$AAl?$AAu?$AAe?$AAC?$AAo?$AAl?$AAo?$AAr?$AAF?$AAi?$AAl?$AAt?$AAe?$AAr?$AAG?$AAr?$AAe?$AAe?$AAn?$AAF?$AAa?$AAc?$AAt?$AAo?$AAr@ 100080e0     Win_API_Registry.obj
+ 0001:00007124       ??_C@_1DC@MCFKGOPM@?$AAI?$AAt?$AAa?$AAl?$AAi?$AAc?$AAB?$AAl?$AAu?$AAe?$AAC?$AAo?$AAl?$AAo?$AAr?$AAT?$AAh?$AAr?$AAe?$AAs?$AAh?$AAo?$AAl?$AAd?$AA?$AA@ 10008124     Win_API_Registry.obj
+ 0001:00007158       ??_C@_1DK@HNKEOFDC@?$AAI?$AAt?$AAa?$AAl?$AAi?$AAc?$AAC?$AAo?$AAl?$AAo?$AAr?$AAF?$AAi?$AAl?$AAt?$AAe?$AAr?$AAG?$AAr?$AAe?$AAe?$AAn?$AAF?$AAa?$AAc?$AAt?$AAo?$AAr?$AA?$AA@ 10008158     Win_API_Registry.obj
+ 0001:00007194       ??_C@_1DG@MJFKDDDF@?$AAI?$AAt?$AAa?$AAl?$AAi?$AAc?$AAC?$AAo?$AAl?$AAo?$AAr?$AAF?$AAi?$AAl?$AAt?$AAe?$AAr?$AAR?$AAe?$AAd?$AAF?$AAa?$AAc?$AAt?$AAo?$AAr?$AA?$AA@ 10008194     Win_API_Registry.obj
+ 0001:000071cc       ??_C@_1CK@EEIAJHKI@?$AAI?$AAt?$AAa?$AAl?$AAi?$AAc?$AAC?$AAo?$AAl?$AAo?$AAr?$AAT?$AAh?$AAr?$AAe?$AAs?$AAh?$AAo?$AAl?$AAd?$AA?$AA@ 100081cc     Win_API_Registry.obj
+ 0001:000071f8       ??_C@_1CE@EPHJIPN@?$AAI?$AAt?$AAa?$AAl?$AAi?$AAc?$AAF?$AAi?$AAl?$AAt?$AAe?$AAr?$AAL?$AAe?$AAv?$AAe?$AAl?$AA?$AA@ 100081f8     Win_API_Registry.obj
+ 0001:0000721c       ??_C@_1CO@JFIIKGOD@?$AAI?$AAt?$AAa?$AAl?$AAi?$AAc?$AAE?$AAn?$AAh?$AAa?$AAn?$AAc?$AAe?$AAd?$AAC?$AAo?$AAn?$AAt?$AAr?$AAa?$AAs?$AAt?$AA?$AA@ 1000821c     Win_API_Registry.obj
+ 0001:0000724c       ??_C@_1DC@CHJFICEJ@?$AAB?$AAl?$AAu?$AAe?$AAC?$AAo?$AAl?$AAo?$AAr?$AAF?$AAi?$AAl?$AAt?$AAe?$AAr?$AAR?$AAe?$AAd?$AAF?$AAa?$AAc?$AAt?$AAo?$AAr?$AA?$AA@ 1000824c     Win_API_Registry.obj
+ 0001:00007280       ??_C@_1DE@FCAPDBCP@?$AAB?$AAl?$AAu?$AAe?$AAC?$AAo?$AAl?$AAo?$AAr?$AAF?$AAi?$AAl?$AAt?$AAe?$AAr?$AAB?$AAl?$AAu?$AAe?$AAF?$AAa?$AAc?$AAt?$AAo?$AAr?$AA?$AA@ 10008280     Win_API_Registry.obj
+ 0001:000072b4       ??_C@_1DG@JDABGKMP@?$AAB?$AAl?$AAu?$AAe?$AAC?$AAo?$AAl?$AAo?$AAr?$AAF?$AAi?$AAl?$AAt?$AAe?$AAr?$AAG?$AAr?$AAe?$AAe?$AAn?$AAF?$AAa?$AAc?$AAt?$AAo?$AAr?$AA?$AA@ 100082b4     Win_API_Registry.obj
+ 0001:000072ec       ??_C@_1CG@FDKFFGKO@?$AAB?$AAl?$AAu?$AAe?$AAC?$AAo?$AAl?$AAo?$AAr?$AAT?$AAh?$AAr?$AAe?$AAs?$AAh?$AAo?$AAl?$AAd?$AA?$AA@ 100082ec     Win_API_Registry.obj
+ 0001:00007314       ??_C@_1CO@PJIJFPNA@?$AAC?$AAo?$AAl?$AAo?$AAr?$AAF?$AAi?$AAl?$AAt?$AAe?$AAr?$AAG?$AAr?$AAe?$AAe?$AAn?$AAF?$AAa?$AAc?$AAt?$AAo?$AAr?$AA?$AA@ 10008314     Win_API_Registry.obj
+ 0001:00007344       ??_C@_1CK@JGAKBOJE@?$AAC?$AAo?$AAl?$AAo?$AAr?$AAF?$AAi?$AAl?$AAt?$AAe?$AAr?$AAR?$AAe?$AAd?$AAF?$AAa?$AAc?$AAt?$AAo?$AAr?$AA?$AA@ 10008344     Win_API_Registry.obj
+ 0001:00007370       ??_C@_1BO@FDIKEHJJ@?$AAC?$AAo?$AAl?$AAo?$AAr?$AAT?$AAh?$AAr?$AAe?$AAs?$AAh?$AAo?$AAl?$AAd?$AA?$AA@ 10008370     Win_API_Registry.obj
+ 0001:00007390       ??_C@_1BI@BBNPLMDP@?$AAF?$AAi?$AAl?$AAt?$AAe?$AAr?$AAL?$AAe?$AAv?$AAe?$AAl?$AA?$AA@ 10008390     Win_API_Registry.obj
+ 0001:000073a8       ??_C@_1CC@CJKKGBFK@?$AAE?$AAn?$AAh?$AAa?$AAn?$AAc?$AAe?$AAd?$AAC?$AAo?$AAn?$AAt?$AAr?$AAa?$AAs?$AAt?$AA?$AA@ 100083a8     Win_API_Registry.obj
+ 0001:000073cc       ??_C@_1BK@COKOFLFH@?$AAN?$AAC?$AAT?$AAT?$AAH?$AAi?$AAg?$AAh?$AAP?$AAp?$AAe?$AAm?$AA?$AA@ 100083cc     Win_API_Registry.obj
+ 0001:000073e8       ??_C@_1BG@PKCOLAFD@?$AAN?$AAC?$AAT?$AAT?$AAL?$AAo?$AAP?$AAp?$AAe?$AAm?$AA?$AA@ 100083e8     Win_API_Registry.obj
+ 0001:00007400       ??_C@_1BO@CDFHAIMP@?$AAU?$AAs?$AAe?$AAG?$AAa?$AAs?$AAp?$AAN?$AAo?$AAn?$AAC?$AAT?$AAA?$AAA?$AA?$AA@ 10008400     Win_API_Registry.obj
+ 0001:00007420       ??_C@_1CC@NNJEGKJL@?$AAG?$AAa?$AAm?$AAm?$AAa?$AAC?$AAl?$AAa?$AAm?$AAp?$AAB?$AAo?$AAt?$AAt?$AAo?$AAm?$AA?$AA@ 10008420     Win_API_Registry.obj
+ 0001:00007444       ??_C@_1BM@HOEILANF@?$AAG?$AAa?$AAm?$AAm?$AAa?$AAC?$AAl?$AAa?$AAm?$AAp?$AAT?$AAo?$AAp?$AA?$AA@ 10008444     Win_API_Registry.obj
+ 0001:00007460       ??_C@_1M@ICOKDBCJ@?$AAG?$AAa?$AAm?$AAm?$AAa?$AA?$AA@ 10008460     Win_API_Registry.obj
+ 0001:0000746c       ??_C@_1BC@BACAJDDL@?$AAU?$AAs?$AAe?$AAG?$AAa?$AAm?$AAm?$AAa?$AA?$AA@ 1000846c     Win_API_Registry.obj
+ 0001:00007480       ??_C@_1BG@LGENDEGJ@?$AAD?$AAe?$AAc?$AAi?$AAm?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 10008480     Win_API_Registry.obj
+ 0001:00007498       ??_C@_17ICDMBIPL@?$AAB?$AAG?$AAR?$AA?$AA@ 10008498     Win_API_Registry.obj
+ 0001:000074a0       ??_C@_1BG@GIDEBCDM@?$AAH?$AAo?$AAr?$AAi?$AAz?$AAo?$AAn?$AAt?$AAa?$AAl?$AA?$AA@ 100084a0     Win_API_Registry.obj
+ 0001:000074b8       ??_C@_15IDJOLOGL@?$AAC?$AAT?$AA?$AA@ 100084b8     Win_API_Registry.obj
+ 0001:000074c0       ??_C@_1GK@FFILDHOO@?$AAS?$AAO?$AAF?$AAT?$AAW?$AAA?$AAR?$AAE?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAS?$AAh?$AAa?$AAr?$AAe?$AAd?$AA?5?$AAT?$AAo?$AAo?$AAl?$AAs?$AA?2@ 100084c0     Win_API_Registry.obj
+ 0001:0000752c       ??_C@_11LOCGONAA@?$AA?$AA@ 1000852c     Win_API_Registry.obj
+ 0001:00007530       ??_C@_19HCAHOCPL@?$AAV?$AAD?$AAO?$AAC?$AA?$AA@ 10008530     Win_API_Registry.obj
+ 0001:00007540       ??_C@_1GK@EHLLFHNH@?$AAS?$AAO?$AAF?$AAT?$AAW?$AAA?$AAR?$AAE?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAS?$AAh?$AAa?$AAr?$AAe?$AAd?$AA?5?$AAT?$AAo?$AAo?$AAl?$AAs?$AA?2@ 10008540     Win_API_Registry.obj
+ 0001:000075ac       ??_C@_1BO@PHIKFFMF@?$AAH?$AAi?$AAn?$AAt?$AAA?$AAt?$AAE?$AAm?$AAS?$AAq?$AAu?$AAa?$AAr?$AAe?$AA?$AA@ 100085ac     Win_API_Registry.obj
+ 0001:000075cc       ??_C@_1BE@NHBCHKBD@?$AAN?$AAo?$AAH?$AAi?$AAn?$AAt?$AAi?$AAn?$AAg?$AA?$AA@ 100085cc     Win_API_Registry.obj
+ 0001:000075e0       ??_C@_1BC@IAJDEJNN@?$AAC?$AAT?$AAD?$AAI?$AAR?$AAS?$AAP?$AAP?$AA?$AA@ 100085e0     Win_API_Registry.obj
+ 0001:000075f4       ??_C@_1BG@GDCDPPPM@?$AAN?$AAo?$AAn?$AAC?$AAT?$AAD?$AAI?$AAR?$AAA?$AAA?$AA?$AA@ 100085f4     Win_API_Registry.obj
+ 0001:0000760c       ??_C@_1CA@IMBBADGJ@?$AAC?$AAo?$AAm?$AAp?$AAa?$AAt?$AAi?$AAb?$AAl?$AAe?$AAW?$AAi?$AAd?$AAt?$AAh?$AA?$AA@ 1000860c     Win_API_Registry.obj
+ 0001:00007630       ??_C@_1GA@IKPKHNKA@?$AAS?$AAO?$AAF?$AAT?$AAW?$AAA?$AAR?$AAE?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAS?$AAh?$AAa?$AAr?$AAe?$AAd?$AA?5?$AAT?$AAo?$AAo?$AAl?$AAs?$AA?2@ 10008630     Win_API_Registry.obj
+ 0001:000076c8       ?MakeBIHFromGlyphMap@@YA?AUtagBITMAPINFOHEADER@@PAUCTC_GlyphMap@@@Z 100086c8 f   CTC_Display.obj
+ 0001:00007738       CTC_FillGlyphBackground    10008738 f   CTC_Display.obj
+ 0001:0000792c       CTC_DisplayGlyph           1000892c f   CTC_Display.obj
+ 0001:00007e10       ?SAR_ColorConvFrom32@@YAXPAUSAR_Color@@W4CTWAPI_PixelFormat@@PAE@Z 10008e10 f i CTC_RasIFace.obj
+ 0001:00007f18       ?SAR_ColorConvTo32@@YAXPAEW4CTWAPI_PixelFormat@@PAUSAR_Color@@@Z 10008f18 f i CTC_RasIFace.obj
+ 0001:00008014       ?TableBuilder@@YAXXZ       10009014 f   CTC_RasIFace.obj
+ 0001:00008128       ?IsFEUnicodePointUpright@@YA_NG@Z 10009128 f   CTC_RasIFace.obj
+ 0001:00008180       ?CheckDefaultGaspConditions@@YA_N_N0JPA_N1@Z 10009180 f   CTC_RasIFace.obj
+ 0001:0000821c       ?ClearTypeAlgorithm@Font@@AAAXPAUSAR_Color@@0JJPAEJJJJ0JJ@Z 1000921c f   CTC_RasIFace.obj
+ 0001:00009820       ?IncludePointInBounds@@YAXJJPAJ000@Z 1000a820 f   CTC_RasIFace.obj
+ 0001:00009874       ?CalcWindowsMetrics@@YAXPAUCTC_GlyphMtx@@PAUMatrix@@JJ@Z 1000a874 f   CTC_RasIFace.obj
+ 0001:00009aa4       ?CalcWindowsBounds@@YAXPAUCTC_GlyphMtx@@JJPAUMatrix@@JJ@Z 1000aaa4 f   CTC_RasIFace.obj
+ 0001:00009cd4       ?CalcEscapeCoords@@YAXQAJ0PAUMatrix@@PAUCTC_GlyphMtx@@JPAJ3@Z 1000acd4 f   CTC_RasIFace.obj
+ 0001:00009db0       ?CalcLTWHs@@YAXPAUCTC_GlyphMap@@JJ0PAJ11111@Z 1000adb0 f   CTC_RasIFace.obj
+ 0001:00009f44       ?GlyphBitBlT@@YAXPAUCTC_GlyphMap@@JJ0JJ@Z 1000af44 f   CTC_RasIFace.obj
+ 0001:0000a1b0       ?GlyphByteBlT@Font@@AAAXPAUCTC_GlyphMap@@JJ0JJ_N@Z 1000b1b0 f   CTC_RasIFace.obj
+ 0001:0000a700       ?IntersectClipRect@@YAXPAJ00000PBUtagRECT@@@Z 1000b700 f   CTC_RasIFace.obj
+ 0001:0000a7c0       ?GlyphByteBlend@Font@@AAAXPAUSAR_Color@@0PAUCTC_GlyphMap@@JJ1JJ@Z 1000b7c0 f   CTC_RasIFace.obj
+ 0001:0000a8ac       ?ClearTypeAlgorithm_Any@Font@@AAAXPAUSAR_Color@@PAEJJ1JJJJ1JJW4CTWAPI_PixelFormat@@@Z 1000b8ac f   CTC_RasIFace.obj
+ 0001:0000bf28       ?GlyphByteBlend_Any@Font@@AAAXPAUSAR_Color@@PAEPAUCTC_GlyphMap@@JJ2JJW4CTWAPI_PixelFormat@@PBUtagRECT@@@Z 1000cf28 f   CTC_RasIFace.obj
+ 0001:0000c098       ?GlyphRGBQBlend_Any@Font@@AAAXPAUSAR_Color@@PAEPAUCTC_GlyphMap@@JJ2JJW4CTWAPI_PixelFormat@@PBUtagRECT@@@Z 1000d098 f   CTC_RasIFace.obj
+ 0001:0000cbf4       ?GlyphRGBQBlend@Font@@AAAXPAUSAR_Color@@0PAUCTC_GlyphMap@@JJ1JJ@Z 1000dbf4 f   CTC_RasIFace.obj
+ 0001:0000d734       ?FillRect@@YAXPAUCTC_GlyphMap@@PAUMatrix@@JJJJ@Z 1000e734 f   CTC_RasIFace.obj
+ 0001:0000da44       ?CreateVirtualDropInTable@@YAXQAGJJJ@Z 1000ea44 f   CTC_RasIFace.obj
+ 0001:0000dee8       ?VirtualDropOutCtrlBitBlT@@YAXPAUCTC_GlyphMap@@JJ0JJ_N1@Z 1000eee8 f   CTC_RasIFace.obj
+ 0001:0000e5e4       ?ExtraBleedBits@@YAJJJ@Z   1000f5e4 f   CTC_RasIFace.obj
+ 0001:0000e628       ?PackBitsClassic@@YAE_NJ@Z 1000f628 f   CTC_RasIFace.obj
+ 0001:0000e690       ?RotateGlyphMap@Font@@AAAXPAUCTC_GlyphMap@@J_N@Z 1000f690 f   CTC_RasIFace.obj
+ 0001:0000ea68       ?SetupNewTrans@Font@@AAAXJJJPAUTransMatrix@@@Z 1000fa68 f   CTC_RasIFace.obj
+ 0001:0000ec24       ?ValidateGlobalCTParameters@@YAXPAUGlobalCTParameters@@PAUCTC_Parameters@@@Z 1000fc24 f   CTC_RasIFace.obj
+ 0001:0000eddc       ?AssertColorPalette@Font@@AAA_NXZ 1000fddc f   CTC_RasIFace.obj
+ 0001:0000ef80       ?FlushColorPalette@Font@@AAAXXZ 1000ff80 f   CTC_RasIFace.obj
+ 0001:0000efbc       ?AssertCache@Font@@AAA_NXZ 1000ffbc f   CTC_RasIFace.obj
+ 0001:0000f080       ?BuildSubstitutions@Font@@AAA_NPAXP6APAX0JJ@ZP6AX0@Z@Z 10010080 f   CTC_RasIFace.obj
+ 0001:0000f1ec       ?FlushSubstitutions@Font@@AAAXXZ 100101ec f   CTC_RasIFace.obj
+ 0001:0000f220       CTC_GetCTParameters        10010220 f   CTC_RasIFace.obj
+ 0001:0000f240       CTC_InstallMemoryManager   10010240 f   CTC_RasIFace.obj
+ 0001:0000f268       CTC_GetLastErrorNumber     10010268 f   CTC_RasIFace.obj
+ 0001:0000f278       CTC_TermFont               10010278 f   CTC_RasIFace.obj
+ 0001:0000f2f4       CTC_InitGlyphMapNoAlloc    100102f4 f   CTC_RasIFace.obj
+ 0001:0000f41c       ?CTC_InitGlyphMap@@YA_NJPAUCTC_GlyphMtx@@JJPAPAUCTC_GlyphMap@@@Z 1001041c f   CTC_RasIFace.obj
+ 0001:0000f580       CTC_TermGlyphMap           10010580 f   CTC_RasIFace.obj
+ 0001:0000f60c       ?CreateScaledDownGlyphMap@Font@@AAA_NPAUCTC_GlyphMap@@PAPAU2@@Z 1001060c f   CTC_RasIFace.obj
+ 0001:000109b4       ??0Font@@QAA@PAXP6APAX0JJ@ZP6AX0@ZJJJJJPAUSAR_GlyphTransformation@@K@Z 100119b4 f   CTC_RasIFace.obj
+ 0001:00011914       ?SetTextColor@Font@@QAA_NPAUSAR_Color@@@Z 10012914 f   CTC_RasIFace.obj
+ 0001:00011978       ?GetTextColor@Font@@QAA_NPAUSAR_Color@@@Z 10012978 f   CTC_RasIFace.obj
+ 0001:000119d8       ?SetBackColor@Font@@QAA_NPAUSAR_Color@@@Z 100129d8 f   CTC_RasIFace.obj
+ 0001:00011a3c       ?GetBackColor@Font@@QAA_NPAUSAR_Color@@@Z 10012a3c f   CTC_RasIFace.obj
+ 0001:00011a9c       ?GetGlyphMap@Font@@QAA_NGPAPAUCTC_GlyphMap@@H@Z 10012a9c f   CTC_RasIFace.obj
+ 0001:000123a8       ?ScaleFUnit@Font@@QAA_NKQAJ@Z 100133a8 f   CTC_RasIFace.obj
+ 0001:00012454       ?FlushCachedBitMaps@Font@@AAAXXZ 10013454 f   CTC_RasIFace.obj
+ 0001:000124d0       ?FlushAllCachedData@Font@@AAA_N_N00@Z 100134d0 f   CTC_RasIFace.obj
+ 0001:00012564       CTC_InitFont               10013564 f   CTC_RasIFace.obj
+ 0001:0001266c       CTC_SetWinHeights          1001366c f   CTC_RasIFace.obj
+ 0001:000126dc       CTC_SetGlyphAccessMethod   100136dc f   CTC_RasIFace.obj
+ 0001:00012734       CTC_GetGlyphAccessMethod   10013734 f   CTC_RasIFace.obj
+ 0001:00012790       CTC_SetTextColor           10013790 f   CTC_RasIFace.obj
+ 0001:000127d8       CTC_GetTextColor           100137d8 f   CTC_RasIFace.obj
+ 0001:00012820       CTC_SetBackColor           10013820 f   CTC_RasIFace.obj
+ 0001:00012868       CTC_GetBackColor           10013868 f   CTC_RasIFace.obj
+ 0001:000128b0       CTC_GetMetricsPrecision    100138b0 f   CTC_RasIFace.obj
+ 0001:0001290c       CTC_GetGlyphMap            1001390c f   CTC_RasIFace.obj
+ 0001:00012954       CTC_ScaleFUnit             10013954 f   CTC_RasIFace.obj
+ 0001:0001299c       ??1Font@@UAA@XZ            1001399c f   CTC_RasIFace.obj
+ 0001:00012a88       ?SetCTParameters@Font@@SA_NPAUCTC_Parameters@@@Z 10013a88 f   CTC_RasIFace.obj
+ 0001:00012bb4       ?SetMetricsPrecision@Font@@QAA_N_N@Z 10013bb4 f   CTC_RasIFace.obj
+ 0001:00012c0c       ?GetGlyphMtx@Font@@QAA_NGPAUCTC_GlyphMtx@@@Z 10013c0c f   CTC_RasIFace.obj
+ 0001:00012c70       ?GetMultiGlyphMtx@Font@@QAA_NGQAJ0QBGPAUCTC_GlyphMtx@@@Z 10013c70 f   CTC_RasIFace.obj
+ 0001:00013070       ?GetMultiGlyphMapDirect@Font@@QAA_NPAXJJ_NGQAJ2QBGPAPAUCTC_GlyphMap@@QAUCTWAPIDIRECTDESC@@@Z 10014070 f   CTC_RasIFace.obj
+ 0001:000137c0       ?GetMultiGlyphMap@Font@@QAA_NPAXJJ_NP6A_N0JJPAUCTC_GlyphMap@@@ZGQAJ4QBGPAPAU2@@Z 100147c0 f   CTC_RasIFace.obj
+ 0001:00013ff4       CTC_SetCTParameters        10014ff4 f   CTC_RasIFace.obj
+ 0001:00013ff8       CTC_ResetCTParameters      10014ff8 f   CTC_RasIFace.obj
+ 0001:00014004       CTC_SetMetricsPrecision    10015004 f   CTC_RasIFace.obj
+ 0001:0001404c       CTC_GetMultiGlyphMtx       1001504c f   CTC_RasIFace.obj
+ 0001:000140b4       CTC_GetMultiGlyphMap       100150b4 f   CTC_RasIFace.obj
+ 0001:00014158       CTC_GetMultiGlyphMapDirect 10015158 f   CTC_RasIFace.obj
+ 0001:000141fc       ??_EFont@@UAAPAXI@Z        100151fc f i CTC_RasIFace.obj
+ 0001:000141fc       ??_GFont@@UAAPAXI@Z        100151fc f i CTC_RasIFace.obj
+ 0001:00014230       ?UShort@SfntTable@@QAAGK@Z 10015230 f   CTC_SfntHelp.obj
+ 0001:0001429c       ?Short@SfntTable@@QAAFK@Z  1001529c f   CTC_SfntHelp.obj
+ 0001:00014308       ?ULong@SfntTable@@QAAKK@Z  10015308 f   CTC_SfntHelp.obj
+ 0001:00014380       ?Long@SfntTable@@QAAJK@Z   10015380 f   CTC_SfntHelp.obj
+ 0001:000143f8       ?GetTable@Sfnt@@QBA?AVSfntTable@@K@Z 100153f8 f   CTC_SfntHelp.obj
+ 0001:000145bc       ?GetNumGlyphs@@YAJPAXQ6APAX0JJ@ZQ6AX0@Z@Z 100155bc f   CTC_SfntHelp.obj
+ 0001:00014620       ?GetEmHeight@@YAJPAXQ6APAX0JJ@ZQ6AX0@Z@Z 10015620 f   CTC_SfntHelp.obj
+ 0001:00014684       ?GetUnderlineData@@YA_NPAXQ6APAX0JJ@ZQ6AX0@ZPAF3@Z 10015684 f   CTC_SfntHelp.obj
+ 0001:00014728       ?GetStrikeoutData@@YA_NPAXQ6APAX0JJ@ZQ6AX0@ZPAF3@Z 10015728 f   CTC_SfntHelp.obj
+ 0001:000147cc       ?GetItalicAngle@@YAHPAXQ6APAX0JJ@ZQ6AX0@Z@Z 100157cc f   CTC_SfntHelp.obj
+ 0001:00014830       ?GetFontStyle@@YA_NPAXQ6APAX0JJ@ZQ6AX0@ZPA_N3@Z 10015830 f   CTC_SfntHelp.obj
+ 0001:000148d4       ?CheckGaspConditions@@YA_NPAXQ6APAX0JJ@ZQ6AX0@ZJPA_N3@Z 100158d4 f   CTC_SfntHelp.obj
+ 0001:00014a04       ?LangSys@OtlLangSysRecord@@QAA?AVOtlLangSys@@XZ 10015a04 f i CTC_SfntHelp.obj
+ 0001:00014a58       ?DefaultLangSys@OtlScript@@QAA?AVOtlLangSys@@XZ 10015a58 f i CTC_SfntHelp.obj
+ 0001:00014ad4       ?Script@OtlScriptRecord@@QAA?AVOtlScript@@XZ 10015ad4 f i CTC_SfntHelp.obj
+ 0001:00014b28       ?Feature@OtlFeatureRecord@@QAA?AVOtlFeature@@XZ 10015b28 f i CTC_SfntHelp.obj
+ 0001:00014b7c       ?SubTable@OtlLookup@@QAA?AVOtlLookupSubTable@@G@Z 10015b7c f i CTC_SfntHelp.obj
+ 0001:00014bd4       ?Lookup@OtlLookupList@@QAA?AVOtlLookup@@G@Z 10015bd4 f i CTC_SfntHelp.obj
+ 0001:00014c2c       ?Coverage@OtlSingleSubstFormat1@@QAA?AVOtlCoverage@@XZ 10015c2c f i CTC_SfntHelp.obj
+ 0001:00014c80       ?Coverage@OtlSingleSubstFormat2@@QAA?AVOtlCoverage@@XZ 10015c80 f i CTC_SfntHelp.obj
+ 0001:00014cd4       ?ScriptList@OtlGSubHeader@@QAA?AVOtlScriptList@@XZ 10015cd4 f i CTC_SfntHelp.obj
+ 0001:00014d28       ?FeatureList@OtlGSubHeader@@QAA?AVOtlFeatureList@@XZ 10015d28 f i CTC_SfntHelp.obj
+ 0001:00014d7c       ?LookupList@OtlGSubHeader@@QAA?AVOtlLookupList@@XZ 10015d7c f i CTC_SfntHelp.obj
+ 0001:00014dd0       ?GetIndex@OtlCoverageFormat1@@QAAGG@Z 10015dd0 f   CTC_SfntHelp.obj
+ 0001:00014e68       ?GetIndex@OtlCoverageFormat2@@QAAGG@Z 10015e68 f   CTC_SfntHelp.obj
+ 0001:00014fec       ?FindScript@@YA?AVOtlScript@@AAVOtlScriptList@@I@Z 10015fec f   CTC_SfntHelp.obj
+ 0001:00015130       ?FindLangSys@@YA?AVOtlLangSys@@AAVOtlScript@@I@Z 10016130 f   CTC_SfntHelp.obj
+ 0001:00015288       ?FindVertFeature@@YA?AVOtlFeature@@AAVOtlLangSys@@AAVOtlFeatureList@@@Z 10016288 f   CTC_SfntHelp.obj
+ 0001:00015464       ?GetIndex@OtlCoverage@@QAAGG@Z 10016464 f   CTC_SfntHelp.obj
+ 0001:00015530       ?Apply@OtlSingleSubstFormat1@@QAAGG@Z 10016530 f   CTC_SfntHelp.obj
+ 0001:00015600       ?Apply@OtlSingleSubstFormat2@@QAAGG@Z 10016600 f   CTC_SfntHelp.obj
+ 0001:00015714       ?Apply@OtlSingleSubstLookupSubTable@@QAAGG@Z 10016714 f   CTC_SfntHelp.obj
+ 0001:000157e0       ?GetGlyphSubstitutes@@YA_NPAG0JPAXQ6APAX1JJ@ZQ6AX1@Z@Z 100167e0 f   CTC_SfntHelp.obj
+ 0001:00015cdc       ?atodw@@YA_NPAPAGPAGKPAK@Z 10016cdc f   CTC_SysHelp.obj
+ 0001:00015d6c       ?CheckDefaultSysGaspConditions@@YA_N_N0JPA_N1@Z 10016d6c f   CTC_SysHelp.obj
+ 0001:00015f2c       ?ShortFracMul@@YAHHF@Z     10016f2c f   fontmath.obj
+ 0001:00015f50       ?ShortFracDot@@YAFFF@Z     10016f50 f   fontmath.obj
+ 0001:00015f64       ?Mul26Dot6@@YAHHH@Z        10016f64 f   fontmath.obj
+ 0001:00016008       ?FixMul@@YAHHH@Z           10017008 f   fontmath.obj
+ 0001:00016078       ?FracMul@@YAHHH@Z          10017078 f   fontmath.obj
+ 0001:000160e8       ?FracSqrt@@YAHH@Z          100170e8 f   fontmath.obj
+ 0001:00016154       ?mth_MxConcat2x2@@YAXPBUTransMatrix@@PAU1@@Z 10017154 f   fontmath.obj
+ 0001:00016264       ?mth_Max45Trick@@YA_NHH@Z  10017264 f   fontmath.obj
+ 0001:000162a0       ?mth_IsMatrixStretched@@YA_NPBUTransMatrix@@@Z 100172a0 f   fontmath.obj
+ 0001:000162d0       ?mth_PositiveSquare@@YA_NPBUTransMatrix@@@Z 100172d0 f   fontmath.obj
+ 0001:00016314       ?mth_Identity@@YA_NPBUTransMatrix@@@Z 10017314 f   fontmath.obj
+ 0001:00016354       ?mth_PositiveRectangle@@YA_NPBUTransMatrix@@@Z 10017354 f   fontmath.obj
+ 0001:00016394       ?mth_UnitarySquare@@YA_NPBUTransMatrix@@@Z 10017394 f   fontmath.obj
+ 0001:000163f4       ?mth_SameStretch@@YA_NHH@Z 100173f4 f   fontmath.obj
+ 0001:0001640c       ?mth_GeneralRotation@@YA_NPBUTransMatrix@@@Z 1001740c f   fontmath.obj
+ 0001:00016454       ?mth_90degRotationFactor@@YAGPBUTransMatrix@@@Z 10017454 f   fontmath.obj
+ 0001:000164f4       ?mth_90degRotationFactorForEmboldening@@YAGPBUTransMatrix@@@Z 100174f4 f   fontmath.obj
+ 0001:00016598       ?mth_90degClosestRotationFactor@@YAGPBUTransMatrix@@@Z 10017598 f   fontmath.obj
+ 0001:00016868       ?mth_Non90DegreeTransformation@@YAXPBUTransMatrix@@PA_N1@Z 10017868 f   fontmath.obj
+ 0001:000169ac       ?mth_CountLowZeros@@YAHI@Z 100179ac f   fontmath.obj
+ 0001:000169cc       ?mth_max_abs@@YAHHH@Z      100179cc f   fontmath.obj
+ 0001:000169e8       ?PowerOf2@@YAHH@Z          100179e8 f   fontmath.obj
+ 0001:00016a94       ?mth_DivShiftLong@@YAHHF@Z 10017a94 f   fontmath.obj
+ 0001:00016b30       ?mth_GetShift@@YAHI@Z      10017b30 f   fontmath.obj
+ 0001:00016b70       ?mth_DivShiftShort@@YAFFF@Z 10017b70 f   fontmath.obj
+ 0001:00016b80       ?Divide@?$DivisionHelper@_J_JVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@$04@SafeIntForTrueTypeRasterizer@@SA_J_J0@Z 10017b80 f i fontmath.obj
+ 0001:00016c00       ?Divide@?$DivisionHelper@HHVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@$04@SafeIntForTrueTypeRasterizer@@SAHHH@Z 10017c00 f i fontmath.obj
+ 0001:00016c6c       ??$?K_J_JVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@YA?AV?$SafeInt@_JVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@0@_JV10@@Z 10017c6c f i fontmath.obj
+ 0001:00016ce8       ??$?KHHVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@YA?AV?$SafeInt@HVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@0@HV10@@Z 10017ce8 f i fontmath.obj
+ 0001:00016dbc       ?LongMulDiv@@YAHHHH@Z      10017dbc f   fontmath.obj
+ 0001:00016de0       ?ShortMulDiv@@YAHHFF@Z     10017de0 f   fontmath.obj
+ 0001:00016e04       ?ShortFracDiv@@YAFFF@Z     10017e04 f   fontmath.obj
+ 0001:00016e54       ?FixDiv@@YAHHH@Z           10017e54 f   fontmath.obj
+ 0001:00016eac       ?FixRatio@@YAHFF@Z         10017eac f   fontmath.obj
+ 0001:00016f04       ?FracDiv@@YAHHH@Z          10017f04 f   fontmath.obj
+ 0001:00016f5c       ?mth_FixXYMul@@YAXPAH0PBUTransMatrix@@@Z 10017f5c f   fontmath.obj
+ 0001:00017028       ?mth_ReduceMatrix@@YAXPAUTransMatrix@@@Z 10018028 f   fontmath.obj
+ 0001:000170f8       ?mth_IntelMul@@YAXHPAH0PBUTransMatrix@@HH@Z 100180f8 f   fontmath.obj
+ 0001:0001723c       ?mth_FoldPointSizeResolution@@YAXHFFPAUTransMatrix@@@Z 1001823c f   fontmath.obj
+ 0001:000173a0       ?fs_OpenFonts@@YIHPAUfs_GlyphInputType@@PAUfs_GlyphInfoType@@@Z 100183a0 f   fscaler.obj
+ 0001:00017418       ?fs_Initialize@@YIHPAUfs_GlyphInputType@@PAUfs_GlyphInfoType@@@Z 10018418 f   fscaler.obj
+ 0001:0001777c       ?fs_CloseFonts@@YIXPAUfs_GlyphInputType@@PAUfs_GlyphInfoType@@@Z 1001877c f   fscaler.obj
+ 0001:00017780       ?Addition@?$AdditionHelper@IHVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@$05@SafeIntForTrueTypeRasterizer@@SAIIH@Z 10018780 f i fscaler.obj
+ 0001:000177c0       ?Multiply@?$MultiplicationHelper@FHVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@$00@SafeIntForTrueTypeRasterizer@@SAFFH@Z 100187c0 f i fscaler.obj
+ 0001:0001780c       ?Subtract@?$SubtractionHelper@GHVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@$02@SafeIntForTrueTypeRasterizer@@SAGGH@Z 1001880c f i fscaler.obj
+ 0001:00017858       ?Multiply@?$MultiplicationHelper@IHVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@$00@SafeIntForTrueTypeRasterizer@@SAIIH@Z 10018858 f i fscaler.obj
+ 0001:000178a0       ?Multiply@?$MultiplicationHelper@HHVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@$00@SafeIntForTrueTypeRasterizer@@SAHHH@Z 100188a0 f i fscaler.obj
+ 0001:000178e8       ?Multiply@?$MultiplicationHelper@HIVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@$00@SafeIntForTrueTypeRasterizer@@SAHHI@Z 100188e8 f i fscaler.obj
+ 0001:00018324       ?fs_NewGlyph@@YIHPAUfs_GlyphInputType@@PAUfs_GlyphInfoType@@@Z 10019324 f   fscaler.obj
+ 0001:00018b18       ?fs_ContourNoGridFit@@YIHPAUfs_GlyphInputType@@PAUfs_GlyphInfoType@@@Z 10019b18 f   fscaler.obj
+ 0001:00018b20       ?fs_ContourGridFit@@YIHPAUfs_GlyphInputType@@PAUfs_GlyphInfoType@@@Z 10019b20 f   fscaler.obj
+ 0001:00018b28       ?fs_NewSfnt@@YIHPAUfs_GlyphInputType@@PAUfs_GlyphInfoType@@@Z 10019b28 f   fscaler.obj
+ 0001:00018c4c       ?fs_NewTransformNoGridFit@@YIHPAUfs_GlyphInputType@@PAUfs_GlyphInfoType@@@Z 10019c4c f   fscaler.obj
+ 0001:00018c54       ?fs_NewTransformation@@YIHPAUfs_GlyphInputType@@PAUfs_GlyphInfoType@@@Z 10019c54 f   fscaler.obj
+ 0001:00018c5c       ??$?YDIVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@YAAAPADAAPADV?$SafeInt@IVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@0@@Z 10019c5c f i fscaler.obj
+ 0001:00018cbc       ?fs_FindBitMapSize@@YIHPAUfs_GlyphInputType@@PAUfs_GlyphInfoType@@@Z 10019cbc f   fscaler.obj
+ 0001:000199c8       ?fs_ContourScan@@YIHPAUfs_GlyphInputType@@PAUfs_GlyphInfoType@@@Z 1001a9c8 f   fscaler.obj
+ 0001:0001a0a4       ?fsg_UpdateWorkSpaceElement@@YAXPAUfsg_WorkSpaceOffsets@@PAUfsg_WorkSpaceAddr@@@Z 1001b0a4 f   fsglue.obj
+ 0001:0001a140       ?fsg_QueryPPEMXY@@YAXPAUfnt_GlobalGraphicStateType@@PBUfsg_TransformRec@@PAG22@Z 1001b140 f   fsglue.obj
+ 0001:0001a174       ?fsg_GetContourData@@YAXPAUfsg_WorkSpaceAddr@@GGGPAPAH1PAPAF2PAPAE3PAG@Z 1001b174 f   fsglue.obj
+ 0001:0001a214       ?fsg_GetDevAdvanceWidth@@YAXPAUfsg_WorkSpaceAddr@@PAUpoint@@@Z 1001b214 f   fsglue.obj
+ 0001:0001a21c       ?fsg_GetDevAdvanceHeight@@YAXPAUfsg_WorkSpaceAddr@@PAUpoint@@@Z 1001b21c f   fsglue.obj
+ 0001:0001a224       ?fsg_45DegreePhaseShift@@YAXPAUfsg_WorkSpaceAddr@@@Z 1001b224 f   fsglue.obj
+ 0001:0001a22c       ?fsg_UpdateAdvanceWidth@@YAXPBUfsg_TransformRec@@PBUfnt_GlobalGraphicStateType@@GPAUVectorType@@@Z 1001b22c f   fsglue.obj
+ 0001:0001a26c       ?fsg_UpdateAdvanceHeight@@YAXPBUfsg_TransformRec@@PBUfnt_GlobalGraphicStateType@@GPAUVectorType@@@Z 1001b26c f   fsglue.obj
+ 0001:0001a2ac       ?fsg_CalcLSBsAndAdvanceWidths@@YAXPAUfsg_WorkSpaceAddr@@HHPAUpoint@@1111@Z 1001b2ac f   fsglue.obj
+ 0001:0001a2e4       ?fsg_CalcTSBsAndAdvanceHeights@@YAXPAUfsg_WorkSpaceAddr@@HHPAUpoint@@1111@Z 1001b2e4 f   fsglue.obj
+ 0001:0001a31c       ?fsg_InitInterpreterTrans@@YAHPAUfsg_TransformRec@@PAUfnt_GlobalGraphicStateType@@_NHFF2GGFH222PAF3@Z 1001b31c f   fsglue.obj
+ 0001:0001a468       ?fsg_SetHintFlags@@YAXPAUfnt_GlobalGraphicStateType@@_NG@Z 1001b468 f   fsglue.obj
+ 0001:0001a46c       ?fsg_RunFontProgram@@YAHPAUfnt_GlobalGraphicStateType@@PAUfsg_WorkSpaceAddr@@PAXP6AXPAUfnt_LocalGraphicStateType@@PBE@Z@Z 1001b46c f   fsglue.obj
+ 0001:0001bf80       ?fsg_CopyFontProgramResults@@YAXPAUfnt_GlobalGraphicStateType@@0@Z 1001cf80 f   fsglue.obj
+ 0001:0001c06c       ?fsg_ScaleUpToSubPixelOverscale@@YAXPAUfsg_WorkSpaceAddr@@HH@Z 1001d06c f   fsglue.obj
+ 0001:0001c074       ?fsg_AdjustCompatibleMetrics@@YAXPAUfsg_WorkSpaceAddr@@HH@Z 1001d074 f   fsglue.obj
+ 0001:0001c07c       ?fsg_CalcDevHorMetrics@@YAXPAUfsg_WorkSpaceAddr@@PAH11@Z 1001d07c f   fsglue.obj
+ 0001:0001ca10       ?Multiply@?$MultiplicationHelper@IIVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@$02@SafeIntForTrueTypeRasterizer@@SAIII@Z 1001da10 f i fsglue.obj
+ 0001:0001ca54       ?Divide@?$DivisionHelper@IIVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@$0A@@SafeIntForTrueTypeRasterizer@@SAIII@Z 1001da54 f i fsglue.obj
+ 0001:0001ca98       ?Subtract@?$SubtractionHelper@HHVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@$02@SafeIntForTrueTypeRasterizer@@SAHHH@Z 1001da98 f i fsglue.obj
+ 0001:0001cae0       ?Multiply@?$MultiplicationHelper@IGVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@$02@SafeIntForTrueTypeRasterizer@@SAIIG@Z 1001dae0 f i fsglue.obj
+ 0001:0001cb24       ?Subtract@?$SubtractionHelper@IHVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@$02@SafeIntForTrueTypeRasterizer@@SAIIH@Z 1001db24 f i fsglue.obj
+ 0001:0001d360       ??H?$SafeInt@IVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@QBA?AV01@V01@@Z 1001e360 f i fsglue.obj
+ 0001:0001d3a4       ??Y?$SafeInt@IVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@QAAAAV01@V01@@Z 1001e3a4 f i fsglue.obj
+ 0001:0001d3e4       ??G?$SafeInt@IVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@QBA?AV01@V01@@Z 1001e3e4 f i fsglue.obj
+ 0001:0001d428       ??$?HIIVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@YA?AV?$SafeInt@IVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@0@IV10@@Z 1001e428 f i fsglue.obj
+ 0001:0001d464       ??$?YIIVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@YAAAIAAIV?$SafeInt@IVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@0@@Z 1001e464 f i fsglue.obj
+ 0001:0001d4a4       ??$?YDHVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@YAAAPADAAPADV?$SafeInt@HVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@0@@Z 1001e4a4 f i fsglue.obj
+ 0001:0001d4e4       ?MAX_NESTED_GLYPHS@@YA?AV?$SafeInt@IVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@PBULocalMaxProfile@@@Z 1001e4e4 f i fsglue.obj
+ 0001:0001d540       ?fsg_CheckWorkSpaceForFit@@YAXPAUfsg_WorkSpaceOffsets@@HHPAH1@Z 1001e540 f   fsglue.obj
+ 0001:0001ddac       ??$AlignOffset@FI@@YAXAAV?$SafeInt@IVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@@Z 1001edac f i fsglue.obj
+ 0001:0001ddec       ??$AlignOffset@_NI@@YAXAAV?$SafeInt@IVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@@Z 1001edec f i fsglue.obj
+ 0001:0001de2c       ??$AlignOffset@PAXI@@YAXAAV?$SafeInt@IVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@@Z 1001ee2c f i fsglue.obj
+ 0001:0001de6c       ??$AlignOffset@HI@@YAXAAV?$SafeInt@IVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@@Z 1001ee6c f i fsglue.obj
+ 0001:0001deac       ?fsg_RunPreProgram@@YAHPBUsfac_ClientRec@@PBULocalMaxProfile@@PBUfsg_TransformRec@@PAUfnt_GlobalGraphicStateType@@PAUfsg_WorkSpaceAddr@@PAXP6AXPAUfnt_LocalGraphicStateType@@PBE@Z@Z 1001eeac f   fsglue.obj
+ 0001:0001e13c       ??$?HDHVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@YAPADV?$SafeInt@HVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@0@PAD@Z 1001f13c f i fsglue.obj
+ 0001:0001e320       ?fsg_GridFit@@YAHPBUsfac_ClientRec@@PBULocalMaxProfile@@PBUfsg_TransformRec@@PAUfnt_GlobalGraphicStateType@@PAUfsg_WorkSpaceAddr@@PAXP6AXPAUfnt_LocalGraphicStateType@@PBE@Z_NPAGPA_NPAG99GG@Z 1001f320 f   fsglue.obj
+ 0001:0001e47c       ??$?HDIVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@YAPADV?$SafeInt@IVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@0@PAD@Z 1001f47c f i fsglue.obj
+ 0001:0001e4b0       ?fsg_PrivateFontSpaceSize@@YAIPBUsfac_ClientRec@@PBULocalMaxProfile@@PAUfsg_PrivateSpaceOffsets@@@Z 1001f4b0 f   fsglue.obj
+ 0001:0001e86c       ?fsg_WorkSpaceSetOffsets@@YAIPBULocalMaxProfile@@PAUfsg_WorkSpaceOffsets@@PAH@Z 1001f86c f   fsglue.obj
+ 0001:0001ea88       ?fsg_UpdatePrivateSpaceAddresses@@YAXPBUsfac_ClientRec@@PBULocalMaxProfile@@PADIPAUfsg_PrivateSpaceOffsets@@PAXPAPAXPAI56@Z 1001fa88 f   fsglue.obj
+ 0001:0001ed08       ?fsg_UpdateWorkSpaceAddresses@@YAXPADIPBUfsg_WorkSpaceOffsets@@PAUfsg_WorkSpaceAddr@@@Z 1001fd08 f   fsglue.obj
+ 0001:0001ed9c       ?fsg_QueryGlobalGS@@YAPAUfnt_GlobalGraphicStateType@@PADIPAUfsg_PrivateSpaceOffsets@@@Z 1001fd9c f   fsglue.obj
+ 0001:0001edc4       ?fsg_QueryGlobalGSSubPixel@@YAPAUfnt_GlobalGraphicStateType@@PADIPAUfsg_PrivateSpaceOffsets@@@Z 1001fdc4 f   fsglue.obj
+ 0001:0001edec       ?fsg_QueryTwilightElement@@YAPAXPADIPAUfsg_PrivateSpaceOffsets@@@Z 1001fdec f   fsglue.obj
+ 0001:0001eec4       ?fsg_QueryTwilightElementSubPixel@@YAPAXPADIPAUfsg_PrivateSpaceOffsets@@@Z 1001fec4 f   fsglue.obj
+ 0001:0001ef90       ?fsg_GetScaledCVT@@YAXPADIPBUfsg_PrivateSpaceOffsets@@PAPAH@Z 1001ff90 f   fsglue.obj
+ 0001:0001efc0       ?IsSideBearingPoint@@YA_NPAUfnt_ElementType@@H@Z 1001ffc0 f   interp.obj
+ 0001:0001eff4       ?InitPhaseControl@@YAXPAUfnt_ElementType@@@Z 1001fff4 f   interp.obj
+ 0001:0001f06c       ?IndirectlyDependsOn@@YA_NPAUfnt_ElementType@@HHH@Z 1002006c f   interp.obj
+ 0001:0001f110       ?AddDistance@@YAXPAUfnt_LocalGraphicStateType@@PAUfnt_ElementType@@HHH@Z 10020110 f   interp.obj
+ 0001:0001f268       ?AddProportion@@YAXPAUfnt_LocalGraphicStateType@@PAUfnt_ElementType@@HHH@Z 10020268 f   interp.obj
+ 0001:0001f364       ?CalcAvgXPhaseShift@@YAHPAUfnt_ElementType@@HHHHH@Z 10020364 f   interp.obj
+ 0001:0001f3fc       ?PhaseShift@@YAHPAUfnt_LocalGraphicStateType@@PAUfnt_ElementType@@FH@Z 100203fc f   interp.obj
+ 0001:0001f648       ?ExecutePhaseControl@@YAXPAUfnt_LocalGraphicStateType@@PAUfnt_ElementType@@@Z 10020648 f   interp.obj
+ 0001:0001f6dc       ?ContNum@@YAHPAUfnt_ElementType@@H@Z 100206dc f   interp.obj
+ 0001:0001f720       ?DoubleCheckLinkColor@@YAHPAUfnt_ElementType@@HHH@Z 10020720 f   interp.obj
+ 0001:0001f8bc       ?InterAlign@@YA_NPAUfnt_ElementType@@HHH@Z 100208bc f   interp.obj
+ 0001:0001f900       ?itrp_bApplyHints@@YA_NPAUfnt_GlobalGraphicStateType@@@Z 10020900 f   interp.obj
+ 0001:0001f91c       ?itrp_QueryScanInfo@@YAXPAUfnt_GlobalGraphicStateType@@PAG1@Z 1002091c f   interp.obj
+ 0001:0001f930       ?itrp_SetCompositeFlag@@YAXPAUfnt_GlobalGraphicStateType@@E@Z 10020930 f   interp.obj
+ 0001:0001f95c       ?itrp_SetSameTransformFlag@@YAXPAUfnt_GlobalGraphicStateType@@_N@Z 1002095c f   interp.obj
+ 0001:0001f988       ?itrp_ResetMaxInstructionCounter@@YAXPAUfnt_GlobalGraphicStateType@@@Z 10020988 f   interp.obj
+ 0001:0001f998       ?itrp_SetDefaults@@YAHPAUfnt_GlobalGraphicStateType@@H@Z 10020998 f   interp.obj
+ 0001:0001fa40       ?itrp_Normalize@@YAXHHPAUVECTOR@@@Z 10020a40 f   interp.obj
+ 0001:0002166c       ?itrp_ExecuteFontPgm@@YAHPAUfnt_ElementType@@0PAUfnt_GlobalGraphicStateType@@P6AXPAUfnt_LocalGraphicStateType@@PBE@Z@Z 1002266c f   interp.obj
+ 0001:00021738       ?itrp_ExecutePrePgm@@YAHPAUfnt_ElementType@@0PAUfnt_GlobalGraphicStateType@@P6AXPAUfnt_LocalGraphicStateType@@PBE@Z@Z 10022738 f   interp.obj
+ 0001:000217cc       ?itrp_ExecuteGlyphPgm@@YAHPAUfnt_ElementType@@0PBE1PAUfnt_GlobalGraphicStateType@@P6AXPAUfnt_LocalGraphicStateType@@1@ZPAG5PA_N@Z 100227cc f   interp.obj
+ 0001:00021a50       ?itrp_UpdateGlobalGS@@YAXPAUfnt_GlobalGraphicStateType@@PAX1111PBULocalMaxProfile@@GIPBXI31@Z 10022a50 f   interp.obj
+ 0001:00021b38       ??$?Y$$CBEHVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@YAAAPBEAAPBEV?$SafeInt@HVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@0@@Z 10022b38 f i interp.obj
+ 0001:00027ed8       ??$?YHGVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@YAAAPAHAAPAHV?$SafeInt@GVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@0@@Z 10028ed8 f i interp.obj
+ 0001:000288fc       ??$?YHIVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@YAAAPAHAAPAHV?$SafeInt@IVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@0@@Z 100298fc f i interp.obj
+ 0001:00029404       ?sbit_NewTransform@@YAHPAUsbit_State@@GFFGGG@Z 1002a404 f   sbit.obj
+ 0001:00029468       ?sbit_SearchForBitmap@@YAHPAUsbit_State@@PBUsfac_ClientRec@@GGPAG2@Z 1002a468 f   sbit.obj
+ 0001:00029584       ?sbit_Embolden@@YAXPAEGGGFF@Z 1002a584 f   sbit.obj
+ 0001:00029b38       ?sbit_EmboldenGray@@YAXPAEGGGGFF@Z 1002ab38 f   sbit.obj
+ 0001:00029f08       ?sbit_EmboldenSubPixel@@YAXPAEGGGFF@Z 1002af08 f   sbit.obj
+ 0001:0002a398       ?Addition@?$AdditionHelper@HHVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@$05@SafeIntForTrueTypeRasterizer@@SAHHH@Z 1002b398 f i sbit.obj
+ 0001:0002a3e0       ?Multiply@?$MultiplicationHelper@GHVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@$00@SafeIntForTrueTypeRasterizer@@SAGGH@Z 1002b3e0 f i sbit.obj
+ 0001:0002a42c       ?Addition@?$AdditionHelper@GHVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@$05@SafeIntForTrueTypeRasterizer@@SAGGH@Z 1002b42c f i sbit.obj
+ 0001:0002a478       ?Addition@?$AdditionHelper@FHVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@$05@SafeIntForTrueTypeRasterizer@@SAFFH@Z 1002b478 f i sbit.obj
+ 0001:0002a4cc       ?Subtract@?$SubtractionHelper@FHVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@$02@SafeIntForTrueTypeRasterizer@@SAFFH@Z 1002b4cc f i sbit.obj
+ 0001:0002a520       ??D?$SafeInt@GVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@QBA?AV01@V01@@Z 1002b520 f i sbit.obj
+ 0001:0002a568       ??H?$SafeInt@GVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@QBA?AV01@V01@@Z 1002b568 f i sbit.obj
+ 0001:0002a5b0       ??Y?$SafeInt@GVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@QAAAAV01@V01@@Z 1002b5b0 f i sbit.obj
+ 0001:0002a5f4       ??Z?$SafeInt@GVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@QAAAAV01@V01@@Z 1002b5f4 f i sbit.obj
+ 0001:0002a634       ??$?GFFVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@YA?AV?$SafeInt@FVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@0@FV10@@Z 1002b634 f i sbit.obj
+ 0001:0002a678       ??$?HFFVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@YA?AV?$SafeInt@FVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@0@FV10@@Z 1002b678 f i sbit.obj
+ 0001:0002a6bc       ??$ROWBYTESLONG@G@@YAGG@Z  1002b6bc f i sbit.obj
+ 0001:0002a6f8       ??$?YEHVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@YAAAPAEAAPAEV?$SafeInt@HVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@0@@Z 1002b6f8 f i sbit.obj
+ 0001:0002a850       ??$ROWBYTESLONG@H@@YAGH@Z  1002b850 f i sbit.obj
+ 0001:0002a88c       ??$?YEGVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@YAAAPAEAAPAEV?$SafeInt@GVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@0@@Z 1002b88c f i sbit.obj
+ 0001:0002a8c4       ??$?ZEGVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@YAAAPAEAAPAEV?$SafeInt@GVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@0@@Z 1002b8c4 f i sbit.obj
+ 0001:0002a8fc       ??$?Y$$CBEGVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@YAAAPBEAAPBEV?$SafeInt@GVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@0@@Z 1002b8fc f i sbit.obj
+ 0001:0002a934       ??$?Z$$CBEGVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@YAAAPBEAAPBEV?$SafeInt@GVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@0@@Z 1002b934 f i sbit.obj
+ 0001:0002a96c       ?sbit_ExpandGrayFromMono@@YAXPAE0GGG@Z 1002b96c f   sbit.obj
+ 0001:0002ad90       ??$?0H@?$SafeInt@FVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@QAA@V?$SafeInt@HVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@1@@Z 1002bd90 f i sbit.obj
+ 0001:0002b328       ?sbit_EmboldenGrayFromMono@@YAXPAEGG@Z 1002c328 f   sbit.obj
+ 0001:0002cd14       ??$?YEIVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@YAAAPAEAAPAEV?$SafeInt@IVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@0@@Z 1002dd14 f i sbit.obj
+ 0001:0002ce80       ?sbit_GetDevAdvanceWidth@@YAHPAUsbit_State@@PBUsfac_ClientRec@@PAUpoint@@@Z 1002de80 f   sbit.obj
+ 0001:0002cfc0       ?sbit_CalcDevHorMetrics@@YAHPAUsbit_State@@PBUsfac_ClientRec@@PAH22@Z 1002dfc0 f   sbit.obj
+ 0001:0002d1b4       ?sbit_GetDevAdvanceHeight@@YAHPAUsbit_State@@PBUsfac_ClientRec@@PAUpoint@@@Z 1002e1b4 f   sbit.obj
+ 0001:0002d2f4       ?sbit_GetBitmap@@YAHPBUsbit_State@@PBUsfac_ClientRec@@PAE2@Z 1002e2f4 f   sbit.obj
+ 0001:0002da64       ?sbit_GetMetrics@@YAHPAUsbit_State@@PBUsfac_ClientRec@@PAUpoint@@22222PAURect@@PAGPAI5@Z 1002ea64 f   sbit.obj
+ 0001:0002e034       ?scl_SetHintFlags@@YAXPAUfnt_GlobalGraphicStateType@@_NG@Z 1002f034 f   scale.obj
+ 0001:0002e364       ?scl_ScaleOldCharPoints@@YAXPAUfnt_ElementType@@PBUfnt_GlobalGraphicStateType@@@Z 1002f364 f   scale.obj
+ 0001:0002e448       ?scl_ScaleFixedCurrentCharPoints@@YAXPAUfnt_ElementType@@PBUfnt_GlobalGraphicStateType@@@Z 1002f448 f   scale.obj
+ 0001:0002e52c       ?scl_ScaleOldPhantomPoints@@YAXPAUfnt_ElementType@@PBUfnt_GlobalGraphicStateType@@@Z 1002f52c f   scale.obj
+ 0001:0002e5e4       ?scl_ScaleFixedCurrentPhantomPoints@@YAXPAUfnt_ElementType@@PBUfnt_GlobalGraphicStateType@@@Z 1002f5e4 f   scale.obj
+ 0001:0002e650       ?scl_ScaleBackCurrentCharPoints@@YAXPAUfnt_ElementType@@PBUfnt_GlobalGraphicStateType@@@Z 1002f650 f   scale.obj
+ 0001:0002e764       ?scl_ScaleBackCurrentPhantomPoints@@YAXPAUfnt_ElementType@@PBUfnt_GlobalGraphicStateType@@@Z 1002f764 f   scale.obj
+ 0001:0002e83c       ?scl_OriginalCharPointsToCurrentFixedFUnits@@YAXPAUfnt_ElementType@@@Z 1002f83c f   scale.obj
+ 0001:0002e8c4       ?scl_OriginalPhantomPointsToCurrentFixedFUnits@@YAXPAUfnt_ElementType@@@Z 1002f8c4 f   scale.obj
+ 0001:0002e93c       ?scl_ScaleCVT@@YAXPAUfnt_GlobalGraphicStateType@@PBH@Z 1002f93c f   scale.obj
+ 0001:0002e970       ?scl_CalcOrigPhantomPoints@@YAXPAUfnt_ElementType@@PBUBBOX@@FFGGF@Z 1002f970 f   scale.obj
+ 0001:0002eb8c       ?scl_AdjustOldSideBearingPoints@@YAXPAUfnt_ElementType@@PBUfnt_GlobalGraphicStateType@@@Z 1002fb8c f   scale.obj
+ 0001:0002ec28       ?scl_CopyOldCharPoints@@YAXPAUfnt_ElementType@@@Z 1002fc28 f   scale.obj
+ 0001:0002ec84       ?scl_CopyCurrentCharPoints@@YAXPAUfnt_ElementType@@@Z 1002fc84 f   scale.obj
+ 0001:0002ece0       ?scl_CopyCurrentPhantomPoints@@YAXPAUfnt_ElementType@@@Z 1002fce0 f   scale.obj
+ 0001:0002ed34       ?scl_RoundCurrentSideBearingPnt@@YAXPAUfnt_ElementType@@PBUfnt_GlobalGraphicStateType@@G@Z 1002fd34 f   scale.obj
+ 0001:0002ee90       ?scl_ShiftCurrentCharPoints@@YAXPAUfnt_ElementType@@HH@Z 1002fe90 f   scale.obj
+ 0001:0002ef5c       ?scl_CalcComponentOffset@@YAXPBUfnt_GlobalGraphicStateType@@FF_N11PBUTransMatrix@@W4RotationParity@@PAH4@Z 1002ff5c f   scale.obj
+ 0001:0002f10c       ?scl_CalcComponentAnchorOffset@@YAXPBUfnt_ElementType@@G0GPAH1@Z 1003010c f   scale.obj
+ 0001:0002f14c       ?scl_SetSideBearingPoints@@YAXPAUfnt_ElementType@@PBUpoint@@1@Z 1003014c f   scale.obj
+ 0001:0002f1a4       ?scl_SaveSideBearingPoints@@YAXPBUfnt_ElementType@@PAUpoint@@1@Z 100301a4 f   scale.obj
+ 0001:0002f1fc       ?scl_InitializeTwilightContours@@YAXPAUfnt_ElementType@@FF@Z 100301fc f   scale.obj
+ 0001:0002f220       ?scl_ZeroOutlineData@@YAXPAUfnt_ElementType@@GG@Z 10030220 f   scale.obj
+ 0001:0002f2d4       ?scl_ZeroOutlineFlags@@YAXPAUfnt_ElementType@@@Z 100302d4 f   scale.obj
+ 0001:0002f2f8       ?scl_IncrementChildElement@@YAXPAUfnt_ElementType@@0@Z 100302f8 f   scale.obj
+ 0001:0002f3d8       ?scl_UpdateParentElement@@YAXPBUfnt_ElementType@@PAU1@@Z 100303d8 f   scale.obj
+ 0001:0002f468       ?scl_ScaleAdvanceWidth@@YAXPBUfnt_GlobalGraphicStateType@@PAUVectorType@@G_NGPBUTransMatrix@@@Z 10030468 f   scale.obj
+ 0001:0002f544       ?scl_ScaleAdvanceHeight@@YAXPBUfnt_GlobalGraphicStateType@@PAUVectorType@@G_NGPBUTransMatrix@@@Z 10030544 f   scale.obj
+ 0001:0002f5b0       ?scl_CalcDevAdvanceWidth@@YAXPBUfnt_ElementType@@PAUpoint@@@Z 100305b0 f   scale.obj
+ 0001:0002f658       ?scl_CalcDevAdvanceHeight@@YAXPBUfnt_ElementType@@PAUpoint@@@Z 10030658 f   scale.obj
+ 0001:0002f700       ?scl_QueryPPEMXY@@YAXPBUfnt_GlobalGraphicStateType@@PAG1@Z 10030700 f   scale.obj
+ 0001:0002f724       ?scl_45DegreePhaseShift@@YAXPAUfnt_ElementType@@@Z 10030724 f   scale.obj
+ 0001:0002f760       ?scl_PostTransformGlyph@@YAXPBUfnt_GlobalGraphicStateType@@PAUfnt_ElementType@@PBUTransMatrix@@@Z 10030760 f   scale.obj
+ 0001:0002f7f4       ?scl_ApplyTranslation@@YAXPAUfnt_ElementType@@PBUTransMatrix@@_N22GG@Z 100307f4 f   scale.obj
+ 0001:0002f8fc       ?scl_LocalPostTransformGlyph@@YAXPAUfnt_ElementType@@PBUTransMatrix@@@Z 100308fc f   scale.obj
+ 0001:0002f940       ?scl_ScaleDownFromSubPixelOverscale@@YAXPAUfnt_ElementType@@GG@Z 10030940 f   scale.obj
+ 0001:0002f9e8       ?scl_ScaleUpToSubPixelOverscale@@YAXPAUfnt_ElementType@@HH@Z 100309e8 f   scale.obj
+ 0001:0002fa74       ?scl_AdjustCompatibleMetrics@@YAXPAUfnt_ElementType@@HH@Z 10030a74 f   scale.obj
+ 0001:0002fb08       ?scl_CalcDevHorMetrics@@YAXPBUfnt_ElementType@@PAH11@Z 10030b08 f   scale.obj
+ 0001:0002fbe0       ?scl_InitializeScaling@@YAHPAUfnt_GlobalGraphicStateType@@_NPAUTransMatrix@@1GHFFGGFH111PAF31PAI@Z 10030be0 f   scale.obj
+ 0001:00030294       ?scl_InitializeChildScaling@@YAXPAUfnt_GlobalGraphicStateType@@PBUTransMatrix@@G@Z 10031294 f   scale.obj
+ 0001:00030308       ?scl_AdjustOldCharSideBearing@@YAXPAUfnt_ElementType@@PBUfnt_GlobalGraphicStateType@@@Z 10031308 f   scale.obj
+ 0001:0003038c       ?scl_AdjustOldPhantomSideBearing@@YAXPAUfnt_ElementType@@PBUfnt_GlobalGraphicStateType@@@Z 1003138c f   scale.obj
+ 0001:00030410       ?scl_CalcLSBsAndAdvanceWidths@@YAXPBUfnt_ElementType@@HHPAUpoint@@1111@Z 10031410 f   scale.obj
+ 0001:00030548       ?scl_CalcTSBsAndAdvanceHeights@@YAXPBUfnt_ElementType@@HHPAUpoint@@1111@Z 10031548 f   scale.obj
+ 0001:00030680       ?fsc_SetupRevRoots@@YAPAURevRoots@@PADH@Z 10031680 f   scanlist.obj
+ 0001:000306cc       ?fsc_GetReversalCount@@YAHPAURevRoots@@@Z 100316cc f   scanlist.obj
+ 0001:000306e0       ?fsc_GetRevMemSize@@YAHPAURevRoots@@@Z 100316e0 f   scanlist.obj
+ 0001:00030794       ?fsc_SetupCallBacks@@YAXPAUStateVars@@FP6AHHPBH1@Z2@Z 10031794 f   scanlist.obj
+ 0001:000307a4       ?fsc_BeginContourScan@@YAHPAUStateVars@@GHH@Z 100317a4 f   scanlist.obj
+ 0001:000307f4       ?fsc_BeginElement@@YAHPAUStateVars@@GHHHPBH1PAP6AH0HH@Z2@Z 100317f4 f   scanlist.obj
+ 0001:00030920       ?fsc_AddYReversal@@YAHPAURevRoots@@HF@Z 10031920 f   scanlist.obj
+ 0001:00030998       ?fsc_AddXReversal@@YAHPAURevRoots@@HF@Z 10031998 f   scanlist.obj
+ 0001:00030a10       ?fsc_GetHIxEstimate@@YAHPAURevRoots@@@Z 10031a10 f   scanlist.obj
+ 0001:00030a58       ?fsc_GetVIxEstimate@@YAHPAURevRoots@@@Z 10031a58 f   scanlist.obj
+ 0001:00030aa0       ?Subtract@?$SubtractionHelper@HFVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@$02@SafeIntForTrueTypeRasterizer@@SAHHF@Z 10031aa0 f i scanlist.obj
+ 0001:00030ae8       ?Subtract@?$SubtractionHelper@HJVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@$02@SafeIntForTrueTypeRasterizer@@SAHHJ@Z 10031ae8 f i scanlist.obj
+ 0001:00030b30       ??$?Y$$CBDHVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@YAAAPBDAAPBDV?$SafeInt@HVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@0@@Z 10031b30 f i scanlist.obj
+ 0001:00030e28       ??$?YIHVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@YAAAPAIAAPAIV?$SafeInt@HVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@0@@Z 10031e28 f i scanlist.obj
+ 0001:00030e68       ?fsc_SetupScan@@YAHPAUStateVars@@PBURect@@G_NHHHHPAURevRoots@@@Z 10031e68 f   scanlist.obj
+ 0001:000315ec       ??$AlignOffset@PAXH@@YAXAAV?$SafeInt@HVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@@Z 100325ec f i scanlist.obj
+ 0001:0003161c       ?fsc_GetScanHMem@@YAHGV?$SafeInt@HVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@0@Z 1003261c f   scanlist.obj
+ 0001:0003166c       ?fsc_GetScanVMem@@YAHGV?$SafeInt@HVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@00@Z 1003266c f   scanlist.obj
+ 0001:00031ccc       ?fsc_FillBitMap@@YAHPAUStateVars@@PADHG@Z 10032ccc f   scanlist.obj
+ 0001:00031f3c       ?fsc_ClearBitMap@@YAXIPAI@Z 10032f3c f   scbitmap.obj
+ 0001:00031f50       ?fsc_BLTHoriz@@YAXHHPAI@Z  10032f50 f   scbitmap.obj
+ 0001:00032004       ?fsc_BLTHorizReverseBitOrder@@YAXHHPAI@Z 10033004 f   scbitmap.obj
+ 0001:00032060       ?fsc_GetBit@@YAIHPBI@Z     10033060 f   scbitmap.obj
+ 0001:00032098       ?fsc_GetBitReverseBitOrder@@YAIHPBI@Z 10033098 f   scbitmap.obj
+ 0001:000320b0       ?fsc_SetBit@@YAXHPAI@Z     100330b0 f   scbitmap.obj
+ 0001:000320ec       ?fsc_SetBitReverseBitOrder@@YAXHPAI@Z 100330ec f   scbitmap.obj
+ 0001:00032108       ?fsc_BeginContourEndpoint@@YAXPAUStateVars@@HH@Z 10033108 f   scendpt.obj
+ 0001:000322bc       ?fsc_SetupEndPt@@YAXPAUStateVars@@@Z 100332bc f   scendpt.obj
+ 0001:00032494       ?fsc_CheckEndPoint@@YAHPAUStateVars@@HHG@Z 10033494 f   scendpt.obj
+ 0001:00032578       ?fsc_EndContourEndpoint@@YAHPAUStateVars@@G@Z 10033578 f   scendpt.obj
+ 0001:000325e8       ?fsc_RemoveDups@@YAXPAUContourList@@@Z 100335e8 f   scentry.obj
+ 0001:000329d8       ?fsc_OverScaleOutline@@YAHPAUContourList@@G@Z 100339d8 f   scentry.obj
+ 0001:00032ae0       ?fsc_CalcGrayMap@@YAHPAUGlyphBitMap@@0G@Z 10033ae0 f   scentry.obj
+ 0001:00033240       ?Multiply@?$MultiplicationHelper@HFVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@$00@SafeIntForTrueTypeRasterizer@@SAHHF@Z 10034240 f i scentry.obj
+ 0001:00033288       ?Addition@?$AdditionHelper@HIVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@$06@SafeIntForTrueTypeRasterizer@@SAHHI@Z 10034288 f i scentry.obj
+ 0001:000332c8       ?Subtract@?$SubtractionHelper@HHVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@$0M@@SafeIntForTrueTypeRasterizer@@SAHHH@Z 100342c8 f i scentry.obj
+ 0001:00033310       ??$?0H@?$SafeInt@GVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@QAA@V?$SafeInt@HVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@1@@Z 10034310 f i scentry.obj
+ 0001:00033354       ?fsc_FillGlyph@@YAHPAUContourList@@PAUGlyphBitMap@@PAUWorkScan@@G_N@Z 10034354 f   scentry.obj
+ 0001:000336dc       ?fsc_MeasureGlyph@@YAHPBUContourList@@PAUGlyphBitMap@@PAUWorkScan@@GGFF@Z 100346dc f   scentry.obj
+ 0001:00033e74       ?fsc_CalcLine@@YAHPAUStateVars@@HHHHG@Z 10034e74 f   scline.obj
+ 0001:00034308       ?fsc_SetupLine@@YAXPAUStateVars@@@Z 10035308 f   scline.obj
+ 0001:00034320       ?fsc_SetupMem@@YAXPAUStateVars@@PADH1H@Z 10035320 f   scmemory.obj
+ 0001:00034374       ?fsc_AllocHMem@@YAPAXPAUStateVars@@V?$SafeInt@HVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@@Z 10035374 f   scmemory.obj
+ 0001:000343b8       ?fsc_AllocVMem@@YAPAXPAUStateVars@@V?$SafeInt@HVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@@Z 100353b8 f   scmemory.obj
+ 0001:000343fc       ?fsc_CalcSpline@@YAHPAUStateVars@@HHHHHHG@Z 100353fc f   scspline.obj
+ 0001:00034d90       ?fsc_SetupSpline@@YAXPAUStateVars@@@Z 10035d90 f   scspline.obj
+ 0001:00035000       ?sfac_ReadComponentData@@YAHPAUsfac_GHandle@@PAW4sfac_ComponentTypes@@PA_N222PAGPAF433PAUTransMatrix@@22@Z 10036000 f   sfntaccs.obj
+ 0001:00035280       ?sfac_ReleaseGlyph@@YAXPBUsfac_ClientRec@@PAUsfac_GHandle@@@Z 10036280 f   sfntaccs.obj
+ 0001:000352bc       ??1AutoReleaseSfntFrag@@QAA@XZ 100362bc f i sfntaccs.obj
+ 0001:000352dc       ?Addition@?$AdditionHelper@IFVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@$05@SafeIntForTrueTypeRasterizer@@SAIIF@Z 100362dc f i sfntaccs.obj
+ 0001:0003531c       ?Subtract@?$SubtractionHelper@IJVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@$02@SafeIntForTrueTypeRasterizer@@SAIIJ@Z 1003631c f i sfntaccs.obj
+ 0001:0003535c       ??G?$SafeInt@GVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@QBA?AV01@V01@@Z 1003635c f i sfntaccs.obj
+ 0001:000353a0       ??D?$SafeInt@FVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@QBA?AV01@V01@@Z 100363a0 f i sfntaccs.obj
+ 0001:000353ec       ??Z?$SafeInt@FVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@QAAAAV01@V01@@Z 100363ec f i sfntaccs.obj
+ 0001:00035434       ??$?GIGVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@YA?AV?$SafeInt@IVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@0@GV10@@Z 10036434 f i sfntaccs.obj
+ 0001:00035474       ??$?GGGVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@YA?AV?$SafeInt@GVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@0@GV10@@Z 10036474 f i sfntaccs.obj
+ 0001:000354b0       ??$?DGGVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@YA?AV?$SafeInt@GVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@0@GV10@@Z 100364b0 f i sfntaccs.obj
+ 0001:000354f0       ??$?ZGGVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@YAAAGAAGV?$SafeInt@GVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@0@@Z 100364f0 f i sfntaccs.obj
+ 0001:00035530       ??$?HGGVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@YA?AV?$SafeInt@GVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@0@GV10@@Z 10036530 f i sfntaccs.obj
+ 0001:00035570       ??$?Y$$CBDIVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@YAAAPBDAAPBDV?$SafeInt@IVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@0@@Z 10036570 f i sfntaccs.obj
+ 0001:000355d8       ?sfac_DoOffsetTableMap@@YAHPAUsfac_ClientRec@@@Z 100365d8 f   sfntaccs.obj
+ 0001:00035738       ??$?Y$$CBEIVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@YAAAPBEAAPBEV?$SafeInt@IVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@0@@Z 10036738 f i sfntaccs.obj
+ 0001:00035798       ??$?Y$$CBFFVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@YAAAPBFAAPBFV?$SafeInt@FVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@0@@Z 10036798 f i sfntaccs.obj
+ 0001:000357d4       ??$?Y$$CBFIVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@YAAAPBFAAPBFV?$SafeInt@IVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@0@@Z 100367d4 f i sfntaccs.obj
+ 0001:00035930       ?sfac_ReadNumLongVertMetrics@@YAHPBUsfac_ClientRec@@PAGPA_N@Z 10036930 f   sfntaccs.obj
+ 0001:00035c78       ?sfac_CopyFontAndPrePrograms@@YAHPBUsfac_ClientRec@@PAXI1I@Z 10036c78 f   sfntaccs.obj
+ 0001:00035e48       ?sfac_CopyCVT@@YAHPBUsfac_ClientRec@@PAH@Z 10036e48 f   sfntaccs.obj
+ 0001:00035f60       ?sfac_ReadGlyphHeader@@YAHPBUsfac_ClientRec@@GPAUsfac_GHandle@@PA_N2PAFPAUBBOX@@@Z 10036f60 f   sfntaccs.obj
+ 0001:00036270       ?sfac_GetSbitMetrics@@YAHPBUsfac_ClientRec@@GGIPAG1PAF22211PA_N3@Z 10037270 f   sfntaccs.obj
+ 0001:000363f4       ?sfac_ShaveSbitMetrics@@YAHPBUsfac_ClientRec@@GIIGPAG11111PAF222@Z 100373f4 f   sfntaccs.obj
+ 0001:00036a38       ??$?Y$$CBGGVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@YAAAPBGAAPBGV?$SafeInt@GVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@0@@Z 10037a38 f i sfntaccs.obj
+ 0001:00036a70       ??$?YDGVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@YAAAPADAAPADV?$SafeInt@GVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@0@@Z 10037a70 f i sfntaccs.obj
+ 0001:00036aa8       ??$?Y$$CBDGVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@YAAAPBDAAPBDV?$SafeInt@GVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@0@@Z 10037aa8 f i sfntaccs.obj
+ 0001:00036ae8       ?sfac_GetGlyphIndex@@YAHPAUsfac_ClientRec@@G@Z 10037ae8 f   sfntaccs.obj
+ 0001:00036be8       ?sfac_LoadCriticalSfntMetrics@@YAHPAUsfac_ClientRec@@PAGPA_NPAULocalMaxProfile@@@Z 10037be8 f   sfntaccs.obj
+ 0001:000371a8       ?sfac_ReadGlyphHorMetrics@@YAHPBUsfac_ClientRec@@GPAGPAF@Z 100381a8 f   sfntaccs.obj
+ 0001:00037444       ?sfac_ReadGlyphVertMetrics@@YAHPBUsfac_ClientRec@@GPAGPAF@Z 10038444 f   sfntaccs.obj
+ 0001:000375c4       ?sfac_ReadGlyphMetrics@@YAHPBUsfac_ClientRec@@GPAG1PAF22_N@Z 100385c4 f   sfntaccs.obj
+ 0001:00037994       ?sfac_SearchForBitmap@@YAHPBUsfac_ClientRec@@GIPA_NPAG2PAI233@Z 10038994 f   sfntaccs.obj
+ 0001:00038940       ?sfac_GetSbitComponentInfo@@YAHPBUsfac_ClientRec@@GIIPAG11@Z 10039940 f   sfntaccs.obj
+ 0001:000394f4       ?sfac_ComputeMapping@@YAHPAUsfac_ClientRec@@GG@Z 1003a4f4 f   sfntaccs.obj
+ 0001:00039914       ?sfac_ReadOutlineData@@YAHPAHPAE00PAUsfac_GHandle@@PBULocalMaxProfile@@_NFPAF5PAGPAPBEPAI8@Z 1003a914 f   sfntaccs.obj
+ 0001:00039e90       ?sfac_ReadCompositeInstructions@@YAHPAUsfac_GHandle@@PAPBEPAG@Z 1003ae90 f   sfntaccs.obj
+ 0001:00039efc       ?sfac_SearchForStrike@@YAHPBUsfac_ClientRec@@GGGPAG111PAI@Z 1003aefc f   sfntaccs.obj
+ 0001:0003a140       ?sfac_GetSbitBitmap@@YAHPBUsfac_ClientRec@@GIIGGGGGGGGGPAEPAG@Z 1003b140 f   sfntaccs.obj
+ 0001:0003aac4       ?Multiply@?$MultiplicationHelper@IFVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@$00@SafeIntForTrueTypeRasterizer@@SAIIF@Z 1003bac4 f i subpixel.obj
+ 0001:0003acdc       ?fsc_OverscaleToBold@@YAXGPAUGlyphBitMap@@0@Z 1003bcdc f   subpixel.obj
+ 0001:0003b370       ?fsc_OverscaleToSubPixel@@YAXPAUGlyphBitMap@@0@Z 1003c370 f   subpixel.obj
+ 0001:0003b598       ??1TTFDigError@@QAA@XZ     1003c598 f i CT_Ras_FontHandle.obj
+ 0001:0003b59c       ??1CTError@@QAA@XZ         1003c59c f i CT_Ras_FontHandle.obj
+ 0001:0003b5a0       ?Map@ErrorMap@@QAAJJJ@Z    1003c5a0 f i CT_Ras_FontHandle.obj
+ 0001:0003b5f4       ??2FontMemoryAlloc@@SAPAXI@Z 1003c5f4 f   CT_Ras_FontHandle.obj
+ 0001:0003b618       ??3FontMemoryAlloc@@SAXPAX@Z 1003c618 f   CT_Ras_FontHandle.obj
+ 0001:0003b63c       ??0FontHandle@@QAA@PAEKG@Z 1003c63c f   CT_Ras_FontHandle.obj
+ 0001:0003b9d4       ?GetFontFragment@FontHandle@@QAAPAXJJ@Z 1003c9d4 f   CT_Ras_FontHandle.obj
+ 0001:0003ba3c       ?GetPlatformID@FontHandle@@QBAGXZ 1003ca3c f   CT_Ras_FontHandle.obj
+ 0001:0003ba48       ?GetEncodingID@FontHandle@@QBAGXZ 1003ca48 f   CT_Ras_FontHandle.obj
+ 0001:0003ba54       ?GetNumKerningPairs@FontHandle@@QAAKXZ 1003ca54 f   CT_Ras_FontHandle.obj
+ 0001:0003bb28       ?compareKerningPairs@@YAHPBX0@Z 1003cb28 f   CT_Ras_FontHandle.obj
+ 0001:0003bb68       ?GetKerningPairs@FontHandle@@QAAKPAURAWKERNINGPAIRS@@@Z 1003cb68 f   CT_Ras_FontHandle.obj
+ 0001:0003bc58       ?GetGlyphId@FontHandle@@QAAGG@Z 1003cc58 f   CT_Ras_FontHandle.obj
+ 0001:0003bc74       ?GetKeyChars@FontHandle@@QBAXPAG000@Z 1003cc74 f   CT_Ras_FontHandle.obj
+ 0001:0003bd2c       ?GetAvgCharWidth@FontHandle@@QBAFXZ 1003cd2c f   CT_Ras_FontHandle.obj
+ 0001:0003bd94       ?GetUnitsPerEm@FontHandle@@QBAFXZ 1003cd94 f   CT_Ras_FontHandle.obj
+ 0001:0003bdf8       ??1FontHandle@@QAA@XZ      1003cdf8 f   CT_Ras_FontHandle.obj
+ 0001:0003beb0       ?GetFontFrag@@YAPAXPAXJJ@Z 1003ceb0 f   CT_Ras_FontInstance.obj
+ 0001:0003bef0       ?ReleaseFontFrag@@YAXPAX@Z 1003cef0 f   CT_Ras_FontInstance.obj
+ 0001:0003bef4       ??0FontInstance@@QAA@PAVFontHandle@@JJJJJKP6A_NPAXJJ1@Z2@Z 1003cef4 f   CT_Ras_FontInstance.obj
+ 0001:0003c260       ??1FontInstance@@QAA@XZ    1003d260 f   CT_Ras_FontInstance.obj
+ 0001:0003c2a0       ?SetWinHeights@FontInstance@@QAAXJJ@Z 1003d2a0 f   CT_Ras_FontInstance.obj
+ 0001:0003c2f0       ?GetCharDimensions@FontInstance@@QAAXGGPAUCHARDIMENSIONS@@@Z 1003d2f0 f   CT_Ras_FontInstance.obj
+ 0001:0003c3d0       ?SetBkMode@FontInstance@@QAAXK@Z 1003d3d0 f   CT_Ras_FontInstance.obj
+ 0001:0003c3d8       ?GetBkColor@FontInstance@@QAAXPAUSAR_Color@@@Z 1003d3d8 f   CT_Ras_FontInstance.obj
+ 0001:0003c444       ?SetBkColor@FontInstance@@QAAXPAUSAR_Color@@@Z 1003d444 f   CT_Ras_FontInstance.obj
+ 0001:0003c4b0       ?GetTextColor@FontInstance@@QAAXPAUSAR_Color@@@Z 1003d4b0 f   CT_Ras_FontInstance.obj
+ 0001:0003c51c       ?SetTextColor@FontInstance@@QAAXPAUSAR_Color@@@Z 1003d51c f   CT_Ras_FontInstance.obj
+ 0001:0003c588       ?SetGlyphIdOutputMode@FontInstance@@QAAX_N@Z 1003d588 f   CT_Ras_FontInstance.obj
+ 0001:0003c5d8       ?GetGlyphIdOutputMode@FontInstance@@QAAXPA_N@Z 1003d5d8 f   CT_Ras_FontInstance.obj
+ 0001:0003c65c       ?SetMetricsPrecision@FontInstance@@QAAX_N@Z 1003d65c f   CT_Ras_FontInstance.obj
+ 0001:0003c6ac       ?GetMetricsPrecision@FontInstance@@QAAXPA_N@Z 1003d6ac f   CT_Ras_FontInstance.obj
+ 0001:0003c730       ?GetNumKerningPairs@FontInstance@@QBAKXZ 1003d730 f   CT_Ras_FontInstance.obj
+ 0001:0003c738       ?GetKerningPairs@FontInstance@@QBAKPAUCTKERNINGPAIRFRACT@@@Z 1003d738 f   CT_Ras_FontInstance.obj
+ 0001:0003c7a8       ?GetTextOutInfo@FontInstance@@QAAXPBGKPAJ1PAUTEXTOUTINFO@@@Z 1003d7a8 f   CT_Ras_FontInstance.obj
+ 0001:0003c864       ?TextOut@FontInstance@@QAAXPAXJJPBGKPAJ2PAUTEXTOUTINFO@@QAUCTWAPIDIRECTDESC@@@Z 1003d864 f   CT_Ras_FontInstance.obj
+ 0001:0003caa8       CTGetLastError             1003daa8 f   CT_Ras_Interface.obj
+ 0001:0003cac0       CTCloseFont                1003dac0 f   CT_Ras_Interface.obj
+ 0001:0003cb8c       CTDeleteFontInstance       1003db8c f   CT_Ras_Interface.obj
+ 0001:0003cc58       CTSetWinHeights            1003dc58 f   CT_Ras_Interface.obj
+ 0001:0003cd14       CTGetKeyChars              1003dd14 f   CT_Ras_Interface.obj
+ 0001:0003cdec       CTGetCharDimensions        1003ddec f   CT_Ras_Interface.obj
+ 0001:0003cea8       CTGetGlyphId               1003dea8 f   CT_Ras_Interface.obj
+ 0001:0003cf74       CTSetBkMode                1003df74 f   CT_Ras_Interface.obj
+ 0001:0003d030       CTSetTextColor             1003e030 f   CT_Ras_Interface.obj
+ 0001:0003d110       CTGetTextColor             1003e110 f   CT_Ras_Interface.obj
+ 0001:0003d1cc       CTSetBkColor               1003e1cc f   CT_Ras_Interface.obj
+ 0001:0003d2ac       CTGetBkColor               1003e2ac f   CT_Ras_Interface.obj
+ 0001:0003d368       CTSetGlyphIdOutputMode     1003e368 f   CT_Ras_Interface.obj
+ 0001:0003d448       CTSetMetricsPrecision      1003e448 f   CT_Ras_Interface.obj
+ 0001:0003d528       CTGetKerningPairs          1003e528 f   CT_Ras_Interface.obj
+ 0001:0003d600       CTGetTextOutInfo           1003e600 f   CT_Ras_Interface.obj
+ 0001:0003d6dc       CTTextOut                  1003e6dc f   CT_Ras_Interface.obj
+ 0001:0003d7e8       CTTextOutDirect            1003e7e8 f   CT_Ras_Interface.obj
+ 0001:0003d8ec       CTGetParameters            1003e8ec f   CT_Ras_Interface.obj
+ 0001:0003db74       CTSetParameters            1003eb74 f   CT_Ras_Interface.obj
+ 0001:0003de1c       CTResetParameters          1003ee1c f   CT_Ras_Interface.obj
+ 0001:0003de28       CTOpenFontFromMemoryImage  1003ee28 f   CT_Ras_Interface.obj
+ 0001:0003df70       CTCreateFontInstance       1003ef70 f   CT_Ras_Interface.obj
+ 0001:0003e0b8       ??1WAPIError@@QAA@XZ       1003f0b8 f i ct_ras_win.obj
+ 0001:0003e0bc       ?CheckSig@WAPIFontInstance@@QAAXXZ 1003f0bc f i ct_ras_win.obj
+ 0001:0003e0f8       ?fnAlloc@@YAPAXK@Z         1003f0f8 f   ct_ras_win.obj
+ 0001:0003e114       ?fnReAlloc@@YAPAXPAXK@Z    1003f114 f   ct_ras_win.obj
+ 0001:0003e138       ?fnFree@@YAXPAX@Z          1003f138 f   ct_ras_win.obj
+ 0001:0003e154       ?OutputCallback@@YA_NPAXJJ0@Z 1003f154 f   ct_ras_win.obj
+ 0001:0003e158       ?ReadBackGroundCallback@@YA_NPAXJJ0@Z 1003f158 f   ct_ras_win.obj
+ 0001:0003e15c       ?compare@@YAHPBX0@Z        1003f15c f   ct_ras_win.obj
+ 0001:0003e214       ?AddKey@WAPIEZMap@@QAAXPAUHDC__@@PAX@Z 1003f214 f   ct_ras_win.obj
+ 0001:0003e3a4       ?RemoveKey@WAPIEZMap@@QAAPAXPAUHFONT__@@@Z 1003f3a4 f   ct_ras_win.obj
+ 0001:0003e520       ?KeyToInst@WAPIEZMap@@QAAPAXPAUHFONT__@@@Z 1003f520 f   ct_ras_win.obj
+ 0001:0003e614       ?KeyToInst@WAPIEZMap@@QAAPAXPAUHDC__@@@Z 1003f614 f   ct_ras_win.obj
+ 0001:0003e72c       ?UpdateParameters@@YAHXZ   1003f72c f   ct_ras_win.obj
+ 0001:0003e900       WAPI_CTGetLastError        1003f900 f   ct_ras_win.obj
+ 0001:0003e934       WAPI_CTOverrideDefaultMemoryFunctions 1003f934 f   ct_ras_win.obj
+ 0001:0003ea34       WAPI_CTCreateFontInstance  1003fa34 f   ct_ras_win.obj
+ 0001:0003eb98       WAPI_CTDeleteFontInstance  1003fb98 f   ct_ras_win.obj
+ 0001:0003ec84       WAPI_CTGetTextFaceW        1003fc84 f   ct_ras_win.obj
+ 0001:0003ed78       WAPI_CTGetTextMetricsW     1003fd78 f   ct_ras_win.obj
+ 0001:0003ee5c       WAPI_CTGetOutlineTextMetricsW 1003fe5c f   ct_ras_win.obj
+ 0001:0003ef50       WAPI_CTGetCharABCWidthsW   1003ff50 f   ct_ras_win.obj
+ 0001:0003f044       WAPI_CTGetCharABCWidthsI   10040044 f   ct_ras_win.obj
+ 0001:0003f140       WAPI_CTGetCharABCWidthsFractW 10040140 f   ct_ras_win.obj
+ 0001:0003f234       WAPI_CTGetCharABCWidthsFractI 10040234 f   ct_ras_win.obj
+ 0001:0003f330       WAPI_CTGetCharWidthW       10040330 f   ct_ras_win.obj
+ 0001:0003f424       WAPI_CTGetCharWidthI       10040424 f   ct_ras_win.obj
+ 0001:0003f520       WAPI_CTGetCharWidthFractW  10040520 f   ct_ras_win.obj
+ 0001:0003f614       WAPI_CTGetCharWidthFractI  10040614 f   ct_ras_win.obj
+ 0001:0003f710       WAPI_CTGetTextExtentPointW 10040710 f   ct_ras_win.obj
+ 0001:0003f804       WAPI_CTGetTextExtentExPointFractW 10040804 f   ct_ras_win.obj
+ 0001:0003f910       WAPI_CTGetTextExtentExPointW 10040910 f   ct_ras_win.obj
+ 0001:0003fa1c       WAPI_CTSetTextColor        10040a1c f   ct_ras_win.obj
+ 0001:0003fb14       WAPI_CTGetTextColor        10040b14 f   ct_ras_win.obj
+ 0001:0003fbf8       WAPI_CTSetBkColor          10040bf8 f   ct_ras_win.obj
+ 0001:0003fcf0       WAPI_CTGetBkColor          10040cf0 f   ct_ras_win.obj
+ 0001:0003fdd4       WAPI_CTSetBkMode           10040dd4 f   ct_ras_win.obj
+ 0001:0003fecc       WAPI_CTGetBkMode           10040ecc f   ct_ras_win.obj
+ 0001:0003ffb0       WAPI_CTSetTransparentMode  10040fb0 f   ct_ras_win.obj
+ 0001:0004008c       WAPI_CTGetTransparentMode  1004108c f   ct_ras_win.obj
+ 0001:00040170       WAPI_CTSetTextAlign        10041170 f   ct_ras_win.obj
+ 0001:00040268       WAPI_CTGetTextAlign        10041268 f   ct_ras_win.obj
+ 0001:0004034c       WAPI_CTGetKerningPairsFractW 1004134c f   ct_ras_win.obj
+ 0001:00040440       WAPI_CTSetStatesFromDC     10041440 f   ct_ras_win.obj
+ 0001:00040530       WAPI_CTGetGlyphIndicesW    10041530 f   ct_ras_win.obj
+ 0001:0004062c       WAPI_CTSetSystemParameters 1004162c f   ct_ras_win.obj
+ 0001:00040634       WAPI_CTSetUserParameters   10041634 f   ct_ras_win.obj
+ 0001:0004063c       WAPI_CTGetParameters       1004163c f   ct_ras_win.obj
+ 0001:0004064c       WAPI_CTSetParameter        1004164c f   ct_ras_win.obj
+ 0001:00040768       WAPI_CTGetParameter        10041768 f   ct_ras_win.obj
+ 0001:00040858       WAPI_CTRestoreDefaultParameters 10041858 f   ct_ras_win.obj
+ 0001:00040908       WAPI_CTTextOutW            10041908 f   ct_ras_win.obj
+ 0001:00040a24       WAPI_CTExtTextOutW         10041a24 f   ct_ras_win.obj
+ 0001:00040b40       WAPI_CTTextOutFractW       10041b40 f   ct_ras_win.obj
+ 0001:00040c5c       WAPI_CTExtTextOutFractW    10041c5c f   ct_ras_win.obj
+ 0001:00040d78       WAPI_EZCTCreateFontInstance 10041d78 f   ct_ras_win.obj
+ 0001:00040f64       WAPI_EZCTDeleteFontInstance 10041f64 f   ct_ras_win.obj
+ 0001:0004107c       WAPI_EZCTFontInstanceExists 1004207c f   ct_ras_win.obj
+ 0001:00041158       WAPI_EZCTDcToFontInst      10042158 f   ct_ras_win.obj
+ 0001:0004125c       WAPI_EZCTTextOutW          1004225c f   ct_ras_win.obj
+ 0001:000413b0       WAPI_EZCTExtTextOutW       100423b0 f   ct_ras_win.obj
+ 0001:00041504       WAPI_EZCTTextOutFractW     10042504 f   ct_ras_win.obj
+ 0001:00041650       WAPI_IsDirectAccessSupport 10042650 f   ct_ras_win.obj
+ 0001:000416c4       WAPI_EZCTExtTextOutFractDirectW 100426c4 f   ct_ras_win.obj
+ 0001:00041860       WAPI_EZCTExtTextOutFractW  10042860 f   ct_ras_win.obj
+ 0001:000419b4       WAPI_EZCTGetCharABCWidthsW 100429b4 f   ct_ras_win.obj
+ 0001:00041ad4       WAPI_EZCTGetCharABCWidthsI 10042ad4 f   ct_ras_win.obj
+ 0001:00041bfc       WAPI_EZCTGetCharABCWidthsFractW 10042bfc f   ct_ras_win.obj
+ 0001:00041d1c       WAPI_EZCTGetCharABCWidthsFractI 10042d1c f   ct_ras_win.obj
+ 0001:00041e44       WAPI_EZCTGetCharWidthW     10042e44 f   ct_ras_win.obj
+ 0001:00041f64       WAPI_EZCTGetCharWidthI     10042f64 f   ct_ras_win.obj
+ 0001:0004208c       WAPI_EZCTGetCharWidthFractW 1004308c f   ct_ras_win.obj
+ 0001:000421ac       WAPI_EZCTGetCharWidthFractI 100431ac f   ct_ras_win.obj
+ 0001:000422d4       WAPI_EZCTGetKerningPairsFractW 100432d4 f   ct_ras_win.obj
+ 0001:000423f4       WAPI_EZCTGetGlyphIndicesW  100433f4 f   ct_ras_win.obj
+ 0001:00042524       WAPI_EZCTGetTextExtentExPointFractW 10043524 f   ct_ras_win.obj
+ 0001:00042654       DllMain                    10043654 f   ct_ras_win.obj
+ 0001:000426e4       ??1WAPIEZMap@@QAA@XZ       100436e4 f   ct_ras_win.obj
+ 0001:000427c8       ??2TtfElement@@SAPAXI@Z    100437c8 f   ttfdig.obj
+ 0001:000427ec       ??3TtfElement@@SAXPAX@Z    100437ec f   ttfdig.obj
+ 0001:00042808       ?UShort@TtfElement@@QBAGK@Z 10043808 f   ttfdig.obj
+ 0001:0004285c       ?Short@TtfElement@@QBAFK@Z 1004385c f   ttfdig.obj
+ 0001:000428b0       ?ULong@TtfElement@@QBAKK@Z 100438b0 f   ttfdig.obj
+ 0001:00042914       ?GetDataPtr@TtfElement@@QBAPAXKK@Z 10043914 f   ttfdig.obj
+ 0001:00042958       ??0CmapTable@@QAA@ABVTtfTable@@@Z 10043958 f   ttfdig.obj
+ 0001:00042ed4       ??1CmapTable@@QAA@XZ       10043ed4 f   ttfdig.obj
+ 0001:00042f78       ?compareShort@@YAHPAG0@Z   10043f78 f   ttfdig.obj
+ 0001:00042f98       ?GlyphId@CmapTable@@QBAGG@Z 10043f98 f   ttfdig.obj
+ 0001:00042ff8       ?CharCode@CmapTable@@QBAPAXGPAXPAG@Z 10043ff8 f   ttfdig.obj
+ 0001:00043034       ??0KernTable@@QAA@ABVTtfTable@@@Z 10044034 f   ttfdig.obj
+ 0001:000431e0       ??1KernTable@@QAA@XZ       100441e0 f   ttfdig.obj
+ 0001:00043228       ?GetPair@KernTable@@QBAXGPAURAWKERNINGPAIRS@@@Z 10044228 f   ttfdig.obj
+ 0001:00043258       ??0Ttf@@QAA@PBEKG@Z        10044258 f   ttfdig.obj
+ 0001:0004330c       ?GetFontFragment@Ttf@@QBAPAXJJ@Z 1004430c f   ttfdig.obj
+ 0001:00043330       ?GetTable@Ttf@@QBA?AVTtfTable@@K@Z 10044330 f   ttfdig.obj
+ 0001:0004353c       ?CompareOffsets@@YAHPBX0@Z 1004453c f   Win_API_Instance.obj
+ 0001:00043590       ?CompareTags@@YAHPBX0@Z    10044590 f   Win_API_Instance.obj
+ 0001:000435e4       ??0WAPIFontInstance@@QAA@XZ 100445e4 f   Win_API_Instance.obj
+ 0001:00043684       ??1WAPIFontInstance@@QAA@XZ 10044684 f   Win_API_Instance.obj
+ 0001:000436ac       ??2WAPIFontInstance@@SAPAXI@Z 100446ac f   Win_API_Instance.obj
+ 0001:000436d0       ??3WAPIFontInstance@@SAXPAX@Z 100446d0 f   Win_API_Instance.obj
+ 0001:000436ec       ?GetTextFaceW@WAPIFontInstance@@QAAHHPAG@Z 100446ec f   Win_API_Instance.obj
+ 0001:00043790       ?GetTextMetricsW@WAPIFontInstance@@QAAXPAUtagTEXTMETRICW@@@Z 10044790 f   Win_API_Instance.obj
+ 0001:000437f0       ?GetOutlineTextMetricsW@WAPIFontInstance@@QAAIIPAU_OUTLINETEXTMETRICW@@@Z 100447f0 f   Win_API_Instance.obj
+ 0001:0004387c       ?GetCharABCWidthsI@WAPIFontInstance@@QAAXIIPAGPAU_ABC@@@Z 1004487c f   Win_API_Instance.obj
+ 0001:00043b50       ?GetCharWidthI@WAPIFontInstance@@QAAXIIPAGPAH@Z 10044b50 f   Win_API_Instance.obj
+ 0001:00043df4       ?GetCharABCWidthsFractI@WAPIFontInstance@@QAAXIIPAGPAUABCFRACT@@@Z 10044df4 f   Win_API_Instance.obj
+ 0001:00044058       ?GetCharWidthFractI@WAPIFontInstance@@QAAXIIPAGPAJ@Z 10045058 f   Win_API_Instance.obj
+ 0001:000442b0       ?SetTextColor@WAPIFontInstance@@QAAKK@Z 100452b0 f   Win_API_Instance.obj
+ 0001:0004436c       ?GetTextColor@WAPIFontInstance@@QAAKXZ 1004536c f   Win_API_Instance.obj
+ 0001:000443f4       ?SetBkColor@WAPIFontInstance@@QAAKK@Z 100453f4 f   Win_API_Instance.obj
+ 0001:000444b0       ?GetBkColor@WAPIFontInstance@@QAAKXZ 100454b0 f   Win_API_Instance.obj
+ 0001:00044538       ?GetTransparentMode@WAPIFontInstance@@QAAJXZ 10045538 f   Win_API_Instance.obj
+ 0001:00044540       ?SetTransparentMode@WAPIFontInstance@@QAAXJ@Z 10045540 f   Win_API_Instance.obj
+ 0001:000445cc       ?SetBkMode@WAPIFontInstance@@QAAHH@Z 100455cc f   Win_API_Instance.obj
+ 0001:00044668       ?GetBkMode@WAPIFontInstance@@QAAHXZ 10045668 f   Win_API_Instance.obj
+ 0001:00044670       ?SetTextAlign@WAPIFontInstance@@QAAKK@Z 10045670 f   Win_API_Instance.obj
+ 0001:00044680       ?GetTextAlign@WAPIFontInstance@@QAAKXZ 10045680 f   Win_API_Instance.obj
+ 0001:00044688       ?SetModesFromDC@WAPIFontInstance@@QAAXPAUHDC__@@_N@Z 10045688 f   Win_API_Instance.obj
+ 0001:00044818       ?GetKerningPairsW@WAPIFontInstance@@QAAKKPAUKERNINGPAIRFRACT@@@Z 10045818 f   Win_API_Instance.obj
+ 0001:00044908       ?GetGlyphIndicesW@WAPIFontInstance@@QAAKPBGHPAGK@Z 10045908 f   Win_API_Instance.obj
+ 0001:00044a08       ?GetSFNTImageFromDC@WAPIFontInstance@@AAAXPAUHDC__@@@Z 10045a08 f   Win_API_Instance.obj
+ 0001:000450dc       ?FreeSFNTImageFromFileMappingDC@WAPIFontInstance@@AAAXXZ 100460dc f   Win_API_Instance.obj
+ 0001:000452ac       ?FreeMetricsStructures@WAPIFontInstance@@AAAXXZ 100462ac f   Win_API_Instance.obj
+ 0001:00045314       ?AdjustStartForAlignment@WAPIFontInstance@@AAAXPAJ0KPBGPBHK@Z 10046314 f   Win_API_Instance.obj
+ 0001:00045550       ?AdjustStartForAlignmentFract@WAPIFontInstance@@AAAXPAJ0KPBGPBJK@Z 10046550 f   Win_API_Instance.obj
+ 0001:00045770       ?FillRect@WAPIFontInstance@@AAAXPAUHDC__@@PBUtagRECT@@@Z 10046770 f   Win_API_Instance.obj
+ 0001:0004583c       ?IsSymbol@WAPIFontInstance@@AAA_NXZ 1004683c f   Win_API_Instance.obj
+ 0001:00045884       ?GetAllocSymbolString@WAPIFontInstance@@AAAPAGPAPAGPBGK@Z 10046884 f   Win_API_Instance.obj
+ 0001:00045918       ?CheckIsTrueType@WAPIFontInstance@@AAAXPAUHDC__@@@Z 10046918 f   Win_API_Instance.obj
+ 0001:00045974       ?IsTypeFaceAlreadyLoaded@WAPIFontInstance@@AAA_NPAUHDC__@@@Z 10046974 f   Win_API_Instance.obj
+ 0001:00045a58       ?ShouldApplyExtraBleed@WAPIFontInstance@@AAA_NPAG_N1@Z 10046a58 f   Win_API_Instance.obj
+ 0001:00045c68       ?GetCharABCWidthsW@WAPIFontInstance@@QAAXIIPAU_ABC@@@Z 10046c68 f   Win_API_Instance.obj
+ 0001:00045ef4       ?GetCharWidthW@WAPIFontInstance@@QAAXIIPAH@Z 10046ef4 f   Win_API_Instance.obj
+ 0001:00046150       ?GetCharABCWidthsFractW@WAPIFontInstance@@QAAXIIPAUABCFRACT@@@Z 10047150 f   Win_API_Instance.obj
+ 0001:0004636c       ?GetCharWidthFractW@WAPIFontInstance@@QAAXIIPAJ@Z 1004736c f   Win_API_Instance.obj
+ 0001:00046584       ?GetTextExtentExPointW@WAPIFontInstance@@QAAXPBGHHPAH1PAUtagSIZE@@@Z 10047584 f   Win_API_Instance.obj
+ 0001:0004681c       ?GetTextExtentExPointFractW@WAPIFontInstance@@QAAXPBGHJPAHPAJPAUtagSIZE@@@Z 1004781c f   Win_API_Instance.obj
+ 0001:00046aac       ?ExtTextOutFractDirectW@WAPIFontInstance@@QAAXPAUHDC__@@JJIPBURECTFRACT@@PBGIPBJQAUCTWAPIDIRECTDESC@@@Z 10047aac f   Win_API_Instance.obj
+ 0001:00047480       ?ExtTextOutFractW@WAPIFontInstance@@QAAXPAUHDC__@@JJIPBURECTFRACT@@PBGIPBJ@Z 10048480 f   Win_API_Instance.obj
+ 0001:00047e28       ?ExtTextOutBackDoorW@WAPIFontInstance@@QAAXPAUHDC__@@HHIPBUtagRECT@@PBGI@Z 10048e28 f   Win_API_Instance.obj
+ 0001:00048324       ?GetFontCheckSumFromFile@WAPIFontInstance@@AAAHPBGPAK@Z 10049324 f   Win_API_Instance.obj
+ 0001:00048580       ?GetSFNTImageFromFileMappingDC@WAPIFontInstance@@AAAHPAUHDC__@@@Z 10049580 f   Win_API_Instance.obj
+ 0001:00048a3c       ?FillMetricsStructures@WAPIFontInstance@@AAAXPAUHDC__@@@Z 10049a3c f   Win_API_Instance.obj
+ 0001:00048c7c       ?DeleteFontInstance@WAPIFontInstance@@AAAXXZ 10049c7c f   Win_API_Instance.obj
+ 0001:00048d54       ?GetTextExtentPointW@WAPIFontInstance@@QAAXPBGHPAUtagSIZE@@@Z 10049d54 f   Win_API_Instance.obj
+ 0001:00048d88       ?ExtTextOutW@WAPIFontInstance@@QAAXPAUHDC__@@HHIPBUtagRECT@@PBGIPBH@Z 10049d88 f   Win_API_Instance.obj
+ 0001:00049658       ?Release@WAPIFontInstance@@QAAJXZ 1004a658 f   Win_API_Instance.obj
+ 0001:00049684       ?CreateFontInstance@WAPIFontInstance@@QAAXPAUHDC__@@K@Z 1004a684 f   Win_API_Instance.obj
+ 0001:00049b98       ?GetRegCTParams@@YAXPBKPAKPA_NG@Z 1004ab98 f   Win_API_Registry.obj
+ 0001:0004a3d4       ?SetRegCTParams@@YAXPBK0G@Z 1004b3d4 f   Win_API_Registry.obj
+ 0001:0004acac       ?RemoveRegCTParams@@YAXXZ  1004bcac f   Win_API_Registry.obj
+ 0001:0004aeec       ?ReadAllocRegExtraBleed@@YA_NPAPAUExtraBleed@@PAKP6APAXK@Z@Z 1004beec f   Win_API_Registry.obj
+ 0001:0004b060       ?FreeExtraBleed@@YAXPAPAUExtraBleed@@PAKP6AXPAX@Z@Z 1004c060 f   Win_API_Registry.obj
+ 0001:0004b078       ?GetBackDoorFlags@@YAXPA_N0000@Z 1004c078 f   Win_API_Registry.obj
+ 0001:0004b27c       ?CreateDIBitmap@@YAPAUHBITMAP__@@PAUHDC__@@PBUtagBITMAPINFOHEADER@@KPBXPBUtagBITMAPINFO@@I@Z 1004c27c f   wmcmn.obj
+ 0001:0004b35c       ?GetDIBits@@YAHPAUHDC__@@PAUHBITMAP__@@IIPAXPAUtagBITMAPINFO@@I@Z 1004c35c f   wmcmn.obj
+ 0001:0004b5c4       DeleteDC                   1004c5c4 f   coredll:COREDLL.dll
+ 0001:0004b5d4       DeleteObject               1004c5d4 f   coredll:COREDLL.dll
+ 0001:0004b5e4       BitBlt                     1004c5e4 f   coredll:COREDLL.dll
+ 0001:0004b5f4       SelectObject               1004c5f4 f   coredll:COREDLL.dll
+ 0001:0004b604       CreateCompatibleBitmap     1004c604 f   coredll:COREDLL.dll
+ 0001:0004b614       CreateCompatibleDC         1004c614 f   coredll:COREDLL.dll
+ 0001:0004b624       SetTextColor               1004c624 f   coredll:COREDLL.dll
+ 0001:0004b634       SetBkColor                 1004c634 f   coredll:COREDLL.dll
+ 0001:0004b644       GetTextColor               1004c644 f   coredll:COREDLL.dll
+ 0001:0004b654       GetBkColor                 1004c654 f   coredll:COREDLL.dll
+ 0001:0004b664       CreateBitmap               1004c664 f   coredll:COREDLL.dll
+ 0001:0004b674       IntersectRect              1004c674 f   coredll:COREDLL.dll
+ 0001:0004b684       GetClipBox                 1004c684 f   coredll:COREDLL.dll
+ 0001:0004b694       RegCloseKey                1004c694 f   coredll:COREDLL.dll
+ 0001:0004b6a4       RegQueryValueExW           1004c6a4 f   coredll:COREDLL.dll
+ 0001:0004b6b4       RegOpenKeyExW              1004c6b4 f   coredll:COREDLL.dll
+ 0001:0004b6c4       RaiseException             1004c6c4 f   coredll:COREDLL.dll
+ 0001:0004b6d4       HeapAlloc                  1004c6d4 f   coredll:COREDLL.dll
+ 0001:0004b6e4       GetProcessHeap             1004c6e4 f   coredll:COREDLL.dll
+ 0001:0004b6f4       HeapReAlloc                1004c6f4 f   coredll:COREDLL.dll
+ 0001:0004b704       HeapFree                   1004c704 f   coredll:COREDLL.dll
+ 0001:0004b714       lstrcmpiW                  1004c714 f   coredll:COREDLL.dll
+ 0001:0004b724       GetObjectW                 1004c724 f   coredll:COREDLL.dll
+ 0001:0004b734       GetCurrentObject           1004c734 f   coredll:COREDLL.dll
+ 0001:0004b744       LeaveCriticalSection       1004c744 f   coredll:COREDLL.dll
+ 0001:0004b754       EnterCriticalSection       1004c754 f   coredll:COREDLL.dll
+ 0001:0004b764       DeleteCriticalSection      1004c764 f   coredll:COREDLL.dll
+ 0001:0004b774       DisableThreadLibraryCalls  1004c774 f   coredll:COREDLL.dll
+ 0001:0004b784       InitializeCriticalSection  1004c784 f   coredll:COREDLL.dll
+ 0001:0004b794       StringCchCopyW             1004c794 f   coredll:COREDLL.dll
+ 0001:0004b7a4       StringCchCopyNW            1004c7a4 f   coredll:COREDLL.dll
+ 0001:0004b7b4       GetTextAlign               1004c7b4 f   coredll:COREDLL.dll
+ 0001:0004b7c4       GetBkMode                  1004c7c4 f   coredll:COREDLL.dll
+ 0001:0004b7d4       GetFontData                1004c7d4 f   coredll:COREDLL.dll
+ 0001:0004b7e4       StringCchLengthW           1004c7e4 f   coredll:COREDLL.dll
+ 0001:0004b7f4       RegEnumValueW              1004c7f4 f   coredll:COREDLL.dll
+ 0001:0004b804       CloseHandle                1004c804 f   coredll:COREDLL.dll
+ 0001:0004b814       UnmapViewOfFile            1004c814 f   coredll:COREDLL.dll
+ 0001:0004b824       PatBlt                     1004c824 f   coredll:COREDLL.dll
+ 0001:0004b834       CreateSolidBrush           1004c834 f   coredll:COREDLL.dll
+ 0001:0004b844       GetTextMetricsW            1004c844 f   coredll:COREDLL.dll
+ 0001:0004b854       CompareStringW             1004c854 f   coredll:COREDLL.dll
+ 0001:0004b864       MoveToEx                   1004c864 f   coredll:COREDLL.dll
+ 0001:0004b874       GetCurrentPositionEx       1004c874 f   coredll:COREDLL.dll
+ 0001:0004b884       SelectClipRgn              1004c884 f   coredll:COREDLL.dll
+ 0001:0004b894       IntersectClipRect          1004c894 f   coredll:COREDLL.dll
+ 0001:0004b8a4       GetClipRgn                 1004c8a4 f   coredll:COREDLL.dll
+ 0001:0004b8b4       CreateRectRgnIndirect      1004c8b4 f   coredll:COREDLL.dll
+ 0001:0004b8c4       SetFilePointer             1004c8c4 f   coredll:COREDLL.dll
+ 0001:0004b8d4       ReadFile                   1004c8d4 f   coredll:COREDLL.dll
+ 0001:0004b8e4       CreateFileW                1004c8e4 f   coredll:COREDLL.dll
+ 0001:0004b8f4       MapViewOfFile              1004c8f4 f   coredll:COREDLL.dll
+ 0001:0004b904       CreateFileMappingW         1004c904 f   coredll:COREDLL.dll
+ 0001:0004b914       GetFileSize                1004c914 f   coredll:COREDLL.dll
+ 0001:0004b924       FindClose                  1004c924 f   coredll:COREDLL.dll
+ 0001:0004b934       FindNextFileW              1004c934 f   coredll:COREDLL.dll
+ 0001:0004b944       FindFirstFileW             1004c944 f   coredll:COREDLL.dll
+ 0001:0004b954       StringCchCatW              1004c954 f   coredll:COREDLL.dll
+ 0001:0004b964       GetTextFaceW               1004c964 f   coredll:COREDLL.dll
+ 0001:0004b974       GetOutlineTextMetricsW     1004c974 f   coredll:COREDLL.dll
+ 0001:0004b984       RegSetValueExW             1004c984 f   coredll:COREDLL.dll
+ 0001:0004b994       RegCreateKeyExW            1004c994 f   coredll:COREDLL.dll
+ 0001:0004b9a4       RegDeleteValueW            1004c9a4 f   coredll:COREDLL.dll
+ 0001:0004b9b4       RegQueryInfoKeyW           1004c9b4 f   coredll:COREDLL.dll
+ 0001:0004b9c4       SetDIBitsToDevice          1004c9c4 f   coredll:COREDLL.dll
+ 0001:0004b9d4       GetDIBColorTable           1004c9d4 f   coredll:COREDLL.dll
+ 0001:0004b9e4       CreateDIBSection           1004c9e4 f   coredll:COREDLL.dll
+ 0001:0004baec       _DllMainCRTStartup         1004caec f   corelib0:pegdmain.obj
+ 0001:0004bb18       __GSHandlerCheckCommon     1004cb18 f   corelib0:gshandler.obj
+ 0001:0004bb54       __GSHandlerCheck           1004cb54 f   corelib0:gshandler.obj
+ 0001:0004bb74       __security_init_cookie     1004cb74 f   corelib0:seccinit.obj
+ 0001:0004bbc0       __security_check_cookie    1004cbc0 f   corelib0:armsecgs.obj
+ 0001:0004bbd0       __gsfailure                1004cbd0     corelib0:armsecgs.obj
+ 0001:0004bc1c       _onexit                    1004cc1c f   corelib0:onexit.obj
+ 0001:0004bda0       atexit                     1004cda0 f   corelib0:onexit.obj
+ 0001:0004bdb8       __GSHandlerCheck_EH        1004cdb8 f   corelib0:gshandlereh.obj
+ 0001:0004bf18       _cexit                     1004cf18 f   corelib0:cexit.obj
+ 0001:0004bf28       _initterm                  1004cf28 f   corelib0:crt0dat.obj
+ 0001:0004bf54       _cinit                     1004cf54 f   corelib0:crt0dat.obj
+ 0001:0004bfb4       __crt_ExitProcess          1004cfb4 f   corelib0:exitproc_proxy.obj
+ 0001:0004bfc0       memcpy                     1004cfc0 f   corelib1:COREDLL.dll
+ 0001:0004bfd0       memset                     1004cfd0 f   corelib1:COREDLL.dll
+ 0001:0004bfe0       memcmp                     1004cfe0 f   corelib1:COREDLL.dll
+ 0001:0004bff0       __CxxFrameHandler3         1004cff0 f   corelib1:COREDLL.dll
+ 0001:0004c000       __CxxThrowException        1004d000 f   corelib1:COREDLL.dll
+ 0001:0004c010       ??_7type_info@@6B@         1004d010 f   corelib1:COREDLL.dll
+ 0001:0004c020       qsort                      1004d020 f   corelib1:COREDLL.dll
+ 0001:0004c030       memmove                    1004d030 f   corelib1:COREDLL.dll
+ 0001:0004c040       bsearch                    1004d040 f   corelib1:COREDLL.dll
+ 0001:0004c050       ??2@YAPAXI@Z               1004d050 f   corelib1:COREDLL.dll
+ 0001:0004c060       wcscmp                     1004d060 f   corelib1:COREDLL.dll
+ 0001:0004c070       ??3@YAXPAX@Z               1004d070 f   corelib1:COREDLL.dll
+ 0001:0004c080       _XcptFilter                1004d080 f   corelib1:COREDLL.dll
+ 0001:0004c090       __C_specific_handler       1004d090 f   corelib1:COREDLL.dll
+ 0001:0004c0a0       __security_gen_cookie2     1004d0a0 f   corelib1:COREDLL.dll
+ 0001:0004c0b0       __report_gsfailure         1004d0b0 f   corelib1:COREDLL.dll
+ 0001:0004c0c0       free                       1004d0c0 f   corelib1:COREDLL.dll
+ 0001:0004c0d0       malloc                     1004d0d0 f   corelib1:COREDLL.dll
+ 0001:0004c0e0       realloc                    1004d0e0 f   corelib1:COREDLL.dll
+ 0001:0004c0f0       _msize                     1004d0f0 f   corelib1:COREDLL.dll
+ 0001:0004c100       InterlockedCompareExchange 1004d100 f   coredll:COREDLL.dll
+ 0001:0004c110       InterlockedExchange        1004d110 f   coredll:COREDLL.dll
+ 0001:0004c120       TerminateProcess           1004d120 f   coredll:COREDLL.dll
+ 0001:0004c21c       _TI1?AVCTError@@           1004d21c     CT_Ras_FontHandle.obj
+ 0001:0004c22c       _CTA1?AVCTError@@          1004d22c     CT_Ras_FontHandle.obj
+ 0001:0004c234       _CT??_R0?AVCTError@@@84    1004d234     CT_Ras_FontHandle.obj
+ 0001:0004c250       _TI1?AVWAPIError@@         1004d250     ct_ras_win.obj
+ 0001:0004c260       _CTA1?AVWAPIError@@        1004d260     ct_ras_win.obj
+ 0001:0004c268       _CT??_R0?AVWAPIError@@@84  1004d268     ct_ras_win.obj
+ 0001:0004c284       _TI1?AVTTFDigError@@       1004d284     ttfdig.obj
+ 0001:0004c294       _CTA1?AVTTFDigError@@      1004d294     ttfdig.obj
+ 0001:0004c29c       _CT??_R0?AVTTFDigError@@@84 1004d29c     ttfdig.obj
+ 0001:0004c2b8       __IMPORT_DESCRIPTOR_COREDLL 1004d2b8     coredll:COREDLL.dll
+ 0001:0004c2cc       __NULL_IMPORT_DESCRIPTOR   1004d2cc     coredll:COREDLL.dll
+ 0002:00000000       __imp_DeleteDC             1004e000     coredll:COREDLL.dll
+ 0002:00000004       __imp_DeleteObject         1004e004     coredll:COREDLL.dll
+ 0002:00000008       __imp_BitBlt               1004e008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_SelectObject         1004e00c     coredll:COREDLL.dll
+ 0002:00000010       __imp_CreateCompatibleBitmap 1004e010     coredll:COREDLL.dll
+ 0002:00000014       __imp_CreateCompatibleDC   1004e014     coredll:COREDLL.dll
+ 0002:00000018       __imp_SetTextColor         1004e018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_SetBkColor           1004e01c     coredll:COREDLL.dll
+ 0002:00000020       __imp_GetTextColor         1004e020     coredll:COREDLL.dll
+ 0002:00000024       __imp_GetBkColor           1004e024     coredll:COREDLL.dll
+ 0002:00000028       __imp_CreateBitmap         1004e028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_IntersectRect        1004e02c     coredll:COREDLL.dll
+ 0002:00000030       __imp_GetClipBox           1004e030     coredll:COREDLL.dll
+ 0002:00000034       __imp_RegCloseKey          1004e034     coredll:COREDLL.dll
+ 0002:00000038       __imp_RegQueryValueExW     1004e038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_RegOpenKeyExW        1004e03c     coredll:COREDLL.dll
+ 0002:00000040       __imp_RaiseException       1004e040     coredll:COREDLL.dll
+ 0002:00000044       __imp_HeapAlloc            1004e044     coredll:COREDLL.dll
+ 0002:00000048       __imp_GetProcessHeap       1004e048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_HeapReAlloc          1004e04c     coredll:COREDLL.dll
+ 0002:00000050       __imp_HeapFree             1004e050     coredll:COREDLL.dll
+ 0002:00000054       __imp_lstrcmpiW            1004e054     coredll:COREDLL.dll
+ 0002:00000058       __imp_GetObjectW           1004e058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_GetCurrentObject     1004e05c     coredll:COREDLL.dll
+ 0002:00000060       __imp_LeaveCriticalSection 1004e060     coredll:COREDLL.dll
+ 0002:00000064       __imp_EnterCriticalSection 1004e064     coredll:COREDLL.dll
+ 0002:00000068       __imp_DeleteCriticalSection 1004e068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_DisableThreadLibraryCalls 1004e06c     coredll:COREDLL.dll
+ 0002:00000070       __imp_InitializeCriticalSection 1004e070     coredll:COREDLL.dll
+ 0002:00000074       __imp_StringCchCopyW       1004e074     coredll:COREDLL.dll
+ 0002:00000078       __imp_StringCchCopyNW      1004e078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_GetTextAlign         1004e07c     coredll:COREDLL.dll
+ 0002:00000080       __imp_GetBkMode            1004e080     coredll:COREDLL.dll
+ 0002:00000084       __imp_GetFontData          1004e084     coredll:COREDLL.dll
+ 0002:00000088       __imp_StringCchLengthW     1004e088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_RegEnumValueW        1004e08c     coredll:COREDLL.dll
+ 0002:00000090       __imp_CloseHandle          1004e090     coredll:COREDLL.dll
+ 0002:00000094       __imp_UnmapViewOfFile      1004e094     coredll:COREDLL.dll
+ 0002:00000098       __imp_PatBlt               1004e098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_CreateSolidBrush     1004e09c     coredll:COREDLL.dll
+ 0002:000000a0       __imp_GetTextMetricsW      1004e0a0     coredll:COREDLL.dll
+ 0002:000000a4       __imp_CompareStringW       1004e0a4     coredll:COREDLL.dll
+ 0002:000000a8       __imp_MoveToEx             1004e0a8     coredll:COREDLL.dll
+ 0002:000000ac       __imp_GetCurrentPositionEx 1004e0ac     coredll:COREDLL.dll
+ 0002:000000b0       __imp_SelectClipRgn        1004e0b0     coredll:COREDLL.dll
+ 0002:000000b4       __imp_IntersectClipRect    1004e0b4     coredll:COREDLL.dll
+ 0002:000000b8       __imp_GetClipRgn           1004e0b8     coredll:COREDLL.dll
+ 0002:000000bc       __imp_CreateRectRgnIndirect 1004e0bc     coredll:COREDLL.dll
+ 0002:000000c0       __imp_SetFilePointer       1004e0c0     coredll:COREDLL.dll
+ 0002:000000c4       __imp_ReadFile             1004e0c4     coredll:COREDLL.dll
+ 0002:000000c8       __imp_CreateFileW          1004e0c8     coredll:COREDLL.dll
+ 0002:000000cc       __imp_MapViewOfFile        1004e0cc     coredll:COREDLL.dll
+ 0002:000000d0       __imp_CreateFileMappingW   1004e0d0     coredll:COREDLL.dll
+ 0002:000000d4       __imp_GetFileSize          1004e0d4     coredll:COREDLL.dll
+ 0002:000000d8       __imp_FindClose            1004e0d8     coredll:COREDLL.dll
+ 0002:000000dc       __imp_FindNextFileW        1004e0dc     coredll:COREDLL.dll
+ 0002:000000e0       __imp_FindFirstFileW       1004e0e0     coredll:COREDLL.dll
+ 0002:000000e4       __imp_StringCchCatW        1004e0e4     coredll:COREDLL.dll
+ 0002:000000e8       __imp_GetTextFaceW         1004e0e8     coredll:COREDLL.dll
+ 0002:000000ec       __imp_GetOutlineTextMetricsW 1004e0ec     coredll:COREDLL.dll
+ 0002:000000f0       __imp_RegSetValueExW       1004e0f0     coredll:COREDLL.dll
+ 0002:000000f4       __imp_RegCreateKeyExW      1004e0f4     coredll:COREDLL.dll
+ 0002:000000f8       __imp_RegDeleteValueW      1004e0f8     coredll:COREDLL.dll
+ 0002:000000fc       __imp_RegQueryInfoKeyW     1004e0fc     coredll:COREDLL.dll
+ 0002:00000100       __imp_SetDIBitsToDevice    1004e100     coredll:COREDLL.dll
+ 0002:00000104       __imp_GetDIBColorTable     1004e104     coredll:COREDLL.dll
+ 0002:00000108       __imp_CreateDIBSection     1004e108     coredll:COREDLL.dll
+ 0002:0000010c       __imp_memcpy               1004e10c     corelib1:COREDLL.dll
+ 0002:00000110       __imp___rt_sdiv            1004e110     corelib1:COREDLL.dll
+ 0002:00000114       __imp_floor                1004e114     corelib1:COREDLL.dll
+ 0002:00000118       __imp_exp                  1004e118     corelib1:COREDLL.dll
+ 0002:0000011c       __imp_log                  1004e11c     corelib1:COREDLL.dll
+ 0002:00000120       __imp_memset               1004e120     corelib1:COREDLL.dll
+ 0002:00000124       __imp_sin                  1004e124     corelib1:COREDLL.dll
+ 0002:00000128       __imp_cos                  1004e128     corelib1:COREDLL.dll
+ 0002:0000012c       __imp___rt_sdiv64by64      1004e12c     corelib1:COREDLL.dll
+ 0002:00000130       __imp___rt_udiv            1004e130     corelib1:COREDLL.dll
+ 0002:00000134       __imp_memcmp               1004e134     corelib1:COREDLL.dll
+ 0002:00000138       __imp___CxxFrameHandler3   1004e138     corelib1:COREDLL.dll
+ 0002:0000013c       __imp___CxxThrowException  1004e13c     corelib1:COREDLL.dll
+ 0002:00000140       __imp_??_7type_info@@6B@   1004e140     corelib1:COREDLL.dll
+ 0002:00000144       __imp_qsort                1004e144     corelib1:COREDLL.dll
+ 0002:00000148       __imp_memmove              1004e148     corelib1:COREDLL.dll
+ 0002:0000014c       __imp_bsearch              1004e14c     corelib1:COREDLL.dll
+ 0002:00000150       __imp_??2@YAPAXI@Z         1004e150     corelib1:COREDLL.dll
+ 0002:00000154       __imp_wcscmp               1004e154     corelib1:COREDLL.dll
+ 0002:00000158       __imp_??3@YAXPAX@Z         1004e158     corelib1:COREDLL.dll
+ 0002:0000015c       __imp__XcptFilter          1004e15c     corelib1:COREDLL.dll
+ 0002:00000160       __imp___C_specific_handler 1004e160     corelib1:COREDLL.dll
+ 0002:00000164       __imp___security_gen_cookie2 1004e164     corelib1:COREDLL.dll
+ 0002:00000168       __imp___report_gsfailure   1004e168     corelib1:COREDLL.dll
+ 0002:0000016c       __imp_free                 1004e16c     corelib1:COREDLL.dll
+ 0002:00000170       __imp_malloc               1004e170     corelib1:COREDLL.dll
+ 0002:00000174       __imp_realloc              1004e174     corelib1:COREDLL.dll
+ 0002:00000178       __imp__msize               1004e178     corelib1:COREDLL.dll
+ 0002:0000017c       __imp_InterlockedCompareExchange 1004e17c     coredll:COREDLL.dll
+ 0002:00000180       __imp_InterlockedExchange  1004e180     coredll:COREDLL.dll
+ 0002:00000184       __imp_TerminateProcess     1004e184     coredll:COREDLL.dll
+ 0002:00000188       \177COREDLL_NULL_THUNK_DATA 1004e188     coredll:COREDLL.dll
+ 0002:00000198       ?errNum@Font@@0JA          1004e198     CTC_RasIFace.obj
+ 0002:000001a0       ?rawGlobalParams@Font@@0UCTC_Parameters@@A 1004e1a0     CTC_RasIFace.obj
+ 0002:0000024c       ??_R0?AVCTError@@@8        1004e24c     CT_Ras_FontHandle.obj
+ 0002:00000264       ??_R0?AVTTFDigError@@@8    1004e264     CT_Ras_FontHandle.obj
+ 0002:00000338       ??_R0?AVWAPIError@@@8      1004e338     ct_ras_win.obj
+ 0002:000003e0       __security_cookie          1004e3e0     corelib0:seccinit.obj
+ 0002:000003e4       __security_cookie_complement 1004e3e4     corelib0:seccinit.obj
+ 0002:000007f0       ?g_1555ToARGB_High@@3PAKA  1004e7f0     CTC_RasIFace.obj
+ 0002:00000bf0       ?g_565ToARGB_High@@3PAKA   1004ebf0     CTC_RasIFace.obj
+ 0002:00000ff0       ?bitCount@Font@@2PAEA      1004eff0     CTC_RasIFace.obj
+ 0002:000011f0       ?g_555ToARGB_Low@@3PAKA    1004f1f0     CTC_RasIFace.obj
+ 0002:000015f0       ?g_565ToARGB_Low@@3PAKA    1004f5f0     CTC_RasIFace.obj
+ 0002:000019f0       ?g_555ToARGB_High@@3PAKA   1004f9f0     CTC_RasIFace.obj
+ 0002:00001df0       ?g_1555ToARGB_Low@@3PAKA   1004fdf0     CTC_RasIFace.obj
+ 0002:000021f0       ?alloc@Font@@0P6APAXK@ZA   100501f0     CTC_RasIFace.obj
+ 0002:000021f4       ?reAlloc@Font@@0P6APAXPAXK@ZA 100501f4     CTC_RasIFace.obj
+ 0002:000021f8       ?free@Font@@0P6AXPAX@ZA    100501f8     CTC_RasIFace.obj
+ 0002:000021fc       ?font@Font@@0PAV1@A        100501fc     CTC_RasIFace.obj
+ 0002:00002200       ?bitCountValid@Font@@2_NA  10050200     CTC_RasIFace.obj
+ 0002:00002208       ?validGlobalParams@Font@@0UGlobalCTParameters@@A 10050208     CTC_RasIFace.obj
+ 0002:0000ccc0       ?fnAlloc@FontMemoryAlloc@@1P6APAXK@ZA 1005acc0     CT_Ras_FontHandle.obj
+ 0002:0000ccc4       ?fnReAlloc@FontMemoryAlloc@@1P6APAXPAXK@ZA 1005acc4     CT_Ras_FontHandle.obj
+ 0002:0000ccc8       ?fnFree@FontMemoryAlloc@@1P6AXPAX@ZA 1005acc8     CT_Ras_FontHandle.obj
+ 0002:0000ccd0       ?g_ctrasLock@@3UCRITICAL_SECTION@@A 1005acd0     ct_ras_win.obj
+ 0002:0000ccf4       ?fnAlloc@TtfElement@@1P6APAXK@ZA 1005acf4     ttfdig.obj
+ 0002:0000ccf8       ?fnReAlloc@TtfElement@@1P6APAXPAXK@ZA 1005acf8     ttfdig.obj
+ 0002:0000ccfc       ?fnFree@TtfElement@@1P6AXPAX@ZA 1005acfc     ttfdig.obj
+ 0002:0000cd00       ?fnAlloc@WAPIFontInstance@@0P6APAXK@ZA 1005ad00     Win_API_Instance.obj
+ 0002:0000cd04       ?fnReAlloc@WAPIFontInstance@@0P6APAXPAXK@ZA 1005ad04     Win_API_Instance.obj
+ 0002:0000cd08       ?fnFree@WAPIFontInstance@@0P6AXPAX@ZA 1005ad08     Win_API_Instance.obj
+ 0002:0000cd0c       ?s_pInstanceList@WAPIFontInstance@@0PAV1@A 1005ad0c     Win_API_Instance.obj
+ 0002:0002d918       _exitflag                  1007b918     corelib0:cexit.obj
+ 0002:0002d91c       __onexitend                1007b91c     <common>
+ 0002:0002d920       __onexitbegin              1007b920     <common>
+ 0002:0002d924       g_pcsExit                  1007b924     <common>
+ 0002:0002d928       _pRawDllMain               1007b928     <common>
+
+ entry point at        0001:0004baec
+
+ Static symbols
+
+ 0001:00016d40       ?CompDiv@@YA_JH_J@Z        10017d40 f   fontmath.obj
+ 0001:000172fc       ?dummyReleaseSfntFrag@@YAXPAX@Z 100182fc f   fscaler.obj
+ 0001:00017300       ?fs_SetUpKey@@YAPAUfs_SplineKey@@PAUfs_GlyphInputType@@PAUfs_GlyphInfoType@@IPAH@Z 10018300 f   fscaler.obj
+ 0001:00017498       ?fs_ConvertGrayLevels@@YAHPAUfs_GlyphInfoType@@GG@Z 10018498 f   fscaler.obj
+ 0001:00017938       ?fs__NewTransformation@@YAHPAUfs_GlyphInputType@@PAUfs_GlyphInfoType@@_N@Z 10018938 f   fscaler.obj
+ 0001:000184a4       ?fs__Contour@@YAHPAUfs_GlyphInputType@@PAUfs_GlyphInfoType@@_N@Z 100194a4 f   fscaler.obj
+ 0001:0001a49c       ?fsg_SimpleInnerGridFit@@YAHPAUfnt_GlobalGraphicStateType@@PAUfnt_ElementType@@1_NP6AXPAUfnt_LocalGraphicStateType@@PBE@ZGGGFFF2PBUTransMatrix@@PBUBBOX@@G4PAG8PA_N@Z 1001b49c f   fsglue.obj
+ 0001:0001a668       ?fsg_CompositeInnerGridFit@@YAHPAUfnt_GlobalGraphicStateType@@PAUfnt_ElementType@@1_NP6AXPAUfnt_LocalGraphicStateType@@PBE@ZGGGFFF2PBUTransMatrix@@PBUBBOX@@G4PAG8PA_N@Z 1001b668 f   fsglue.obj
+ 0001:0001a810       ?fsg_InitializeGlyphData@@YAXPAUGlyphData@@PAUfsg_WorkSpaceAddr@@GG@Z 1001b810 f   fsglue.obj
+ 0001:0001a904       ?Intersect26Dot6@@YAXUF26Dot6VECTOR@@000PAU1@@Z 1001b904 f   fsglue.obj
+ 0001:0001aac0       ?EmboldPoint@@YAXHH_N0UF26Dot6VECTOR@@11HHHHH0PAUfnt_ElementType@@@Z 1001bac0 f   fsglue.obj
+ 0001:0001adac       ?fsg_Embold@@YAXPAUfsg_WorkSpaceAddr@@PAUfnt_GlobalGraphicStateType@@_N22@Z 1001bdac f   fsglue.obj
+ 0001:0001b11c       ?QDiv2@@YA_J_J0@Z          1001c11c f   fsglue.obj
+ 0001:0001b2b8       ?FQuadraticEqn@@YAX_J00PAHPA_J2@Z 1001c2b8 f   fsglue.obj
+ 0001:0001b488       ?CurveTransitionsSegment@@YAHUVector@@000@Z 1001c488 f   fsglue.obj
+ 0001:0001b660       ?CurveTransitions@@YAHUVector@@0000@Z 1001c660 f   fsglue.obj
+ 0001:0001b8fc       ?CalculateXExtremum@@YAX_NHH0HHHH0PAH1@Z 1001c8fc f   fsglue.obj
+ 0001:0001bc40       ?CalculateYExtremum@@YAX_NHH0HHHH0PAH1@Z 1001cc40 f   fsglue.obj
+ 0001:0001c084       ?fsg_MergeGlyphData@@YAHPAUfnt_GlobalGraphicStateType@@PAUGlyphData@@G@Z 1001d084 f   fsglue.obj
+ 0001:0001c288       ?CheckBoundingBoxCurve@@YA_NUVector@@000F@Z 1001d288 f   fsglue.obj
+ 0001:0001c384       ?Misoriented@@YA_NHGFUVector@@PAUfnt_ElementType@@@Z 1001d384 f   fsglue.obj
+ 0001:0001cb6c       ?fsg_CheckOutlineOrientation@@YAXPAUfnt_ElementType@@@Z 1001db6c f   fsglue.obj
+ 0001:0001d6b0       ?fsg_ExecuteGlyph@@YAHPBUsfac_ClientRec@@PBULocalMaxProfile@@PBUfsg_TransformRec@@IPAUfnt_GlobalGraphicStateType@@PAUGlyphData@@PAUfsg_WorkSpaceAddr@@PAUfnt_ElementType@@P6AXPAUfnt_LocalGraphicStateType@@PBE@Z_NPA_NPAIPAI@Z 1001e6b0 f   fsglue.obj
+ 0001:0001df64       ?fsg_CreateGlyphData@@YAHPBUsfac_ClientRec@@PBULocalMaxProfile@@PBUfsg_TransformRec@@PAUfnt_GlobalGraphicStateType@@PAUfsg_WorkSpaceAddr@@PAUfnt_ElementType@@P6AXPAUfnt_LocalGraphicStateType@@PBE@Z_NPAGPA_NPAG@Z 1001ef64 f   fsglue.obj
+ 0001:0001e170       ?fsg_GetOutlineSizeAndOffsets@@YAXV?$SafeInt@GVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@0PAUfsg_OutlineFieldInfo@@PAV?$SafeInt@IVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@2@PAI@Z 1001f170 f   fsglue.obj
+ 0001:0001fa2c       ?itrp_IllegalInstruction@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10020a2c f   interp.obj
+ 0001:0001fb44       ?itrp_RoundToDoubleGrid@@YAHAAUfnt_LocalGraphicStateType@@HH@Z 10020b44 f   interp.obj
+ 0001:0001fb78       ?itrp_RoundToDoubleGridSP@@YAHAAUfnt_LocalGraphicStateType@@HH@Z 10020b78 f   interp.obj
+ 0001:0001fbb4       ?itrp_RoundDownToGrid@@YAHAAUfnt_LocalGraphicStateType@@HH@Z 10020bb4 f   interp.obj
+ 0001:0001fbe0       ?itrp_RoundUpToGrid@@YAHAAUfnt_LocalGraphicStateType@@HH@Z 10020be0 f   interp.obj
+ 0001:0001fc14       ?itrp_RoundUpToGridSP@@YAHAAUfnt_LocalGraphicStateType@@HH@Z 10020c14 f   interp.obj
+ 0001:0001fc50       ?itrp_RoundToGrid@@YAHAAUfnt_LocalGraphicStateType@@HH@Z 10020c50 f   interp.obj
+ 0001:0001fc84       ?itrp_RoundToGridSP@@YAHAAUfnt_LocalGraphicStateType@@HH@Z 10020c84 f   interp.obj
+ 0001:0001fcc0       ?itrp_RoundToHalfGrid@@YAHAAUfnt_LocalGraphicStateType@@HH@Z 10020cc0 f   interp.obj
+ 0001:0001fd04       ?itrp_RoundToHalfGridSP@@YAHAAUfnt_LocalGraphicStateType@@HH@Z 10020d04 f   interp.obj
+ 0001:0001fd4c       ?itrp_RoundOff@@YAHAAUfnt_LocalGraphicStateType@@HH@Z 10020d4c f   interp.obj
+ 0001:0001fd6c       ?itrp_RoundOffSP@@YAHAAUfnt_LocalGraphicStateType@@HH@Z 10020d6c f   interp.obj
+ 0001:0001fd90       ?itrp_SuperRound@@YAHAAUfnt_LocalGraphicStateType@@HH@Z 10020d90 f   interp.obj
+ 0001:0001fe04       ?itrp_Super45Round@@YAHAAUfnt_LocalGraphicStateType@@HH@Z 10020e04 f   interp.obj
+ 0001:0001fea0       ?itrp_MovePoint@@YAXAAUfnt_LocalGraphicStateType@@PAUfnt_ElementType@@HH@Z 10020ea0 f   interp.obj
+ 0001:0001ffb0       ?itrp_XMovePoint@@YAXAAUfnt_LocalGraphicStateType@@PAUfnt_ElementType@@HH@Z 10020fb0 f   interp.obj
+ 0001:0001ffd8       ?itrp_YMovePoint@@YAXAAUfnt_LocalGraphicStateType@@PAUfnt_ElementType@@HH@Z 10020fd8 f   interp.obj
+ 0001:00020000       ?itrp_Project@@YAHAAUfnt_LocalGraphicStateType@@HH@Z 10021000 f   interp.obj
+ 0001:00020034       ?itrp_OldProject@@YAHAAUfnt_LocalGraphicStateType@@HH@Z 10021034 f   interp.obj
+ 0001:00020068       ?itrp_XProject@@YAHAAUfnt_LocalGraphicStateType@@HH@Z 10021068 f   interp.obj
+ 0001:00020070       ?itrp_YProject@@YAHAAUfnt_LocalGraphicStateType@@HH@Z 10021070 f   interp.obj
+ 0001:00020078       ?itrp_GetCVTScale@@YAHAAUfnt_LocalGraphicStateType@@@Z 10021078 f   interp.obj
+ 0001:00020138       ?itrp_GetCVTEntryFast@@YAHAAUfnt_LocalGraphicStateType@@H@Z 10021138 f   interp.obj
+ 0001:00020148       ?itrp_GetCVTEntrySlow@@YAHAAUfnt_LocalGraphicStateType@@H@Z 10021148 f   interp.obj
+ 0001:00020170       ?itrp_GetSingleWidthFast@@YAHAAUfnt_LocalGraphicStateType@@@Z 10021170 f   interp.obj
+ 0001:0002017c       ?itrp_GetSingleWidthSlow@@YAHAAUfnt_LocalGraphicStateType@@@Z 1002117c f   interp.obj
+ 0001:0002019c       ?itrp_ChangeCvtFast@@YAXAAUfnt_LocalGraphicStateType@@PAUfnt_ElementType@@HH@Z 1002119c f   interp.obj
+ 0001:000201b4       ?itrp_ChangeCvtSlow@@YAXAAUfnt_LocalGraphicStateType@@PAUfnt_ElementType@@HH@Z 100211b4 f   interp.obj
+ 0001:000201ec       ?itrp_InnerTraceExecute@@YAXAAUfnt_LocalGraphicStateType@@PBE1@Z 100211ec f   interp.obj
+ 0001:00020278       ?itrp_InnerExecute@@YAXAAUfnt_LocalGraphicStateType@@PBE1@Z 10021278 f   interp.obj
+ 0001:000202dc       ?itrp_Execute@@YAHPAUfnt_ElementType@@0PBE1PAUfnt_GlobalGraphicStateType@@P6AXPAUfnt_LocalGraphicStateType@@1@Z@Z 100212dc f   interp.obj
+ 0001:000205ec       ?itrp_ComputeAndCheck_PF_Proj@@YAXAAUfnt_LocalGraphicStateType@@@Z 100215ec f   interp.obj
+ 0001:0002064c       ?itrp_SVTCA_0@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 1002164c f   interp.obj
+ 0001:0002072c       ?itrp_SVTCA_1@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 1002172c f   interp.obj
+ 0001:0002080c       ?itrp_SPVTCA_0@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 1002180c f   interp.obj
+ 0001:00020900       ?itrp_SPVTCA_1@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10021900 f   interp.obj
+ 0001:000209f4       ?itrp_SFVTCA_0@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 100219f4 f   interp.obj
+ 0001:00020a50       ?itrp_SFVTCA_1@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10021a50 f   interp.obj
+ 0001:00020aac       ?itrp_SFVTPV@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10021aac f   interp.obj
+ 0001:00020b0c       ?itrp_RTG@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10021b0c f   interp.obj
+ 0001:00020b6c       ?itrp_RTHG@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10021b6c f   interp.obj
+ 0001:00020bd8       ?itrp_RTDG@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10021bd8 f   interp.obj
+ 0001:00020c3c       ?itrp_ROFF@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10021c3c f   interp.obj
+ 0001:00020ca8       ?itrp_RDTG@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10021ca8 f   interp.obj
+ 0001:00020d14       ?itrp_RUTG@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10021d14 f   interp.obj
+ 0001:00020d80       ?itrp_SetRoundValues@@YAXAAUfnt_LocalGraphicStateType@@HH@Z 10021d80 f   interp.obj
+ 0001:00020e9c       ?itrp_CLEAR@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10021e9c f   interp.obj
+ 0001:00020eb4       ?itrp_IUP@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10021eb4 f   interp.obj
+ 0001:000213bc       ?itrp_SH_Common@@YAPAUfnt_ElementType@@AAUfnt_LocalGraphicStateType@@PAH11H@Z 100223bc f   interp.obj
+ 0001:000214ac       ?itrp_FLIPON@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 100224ac f   interp.obj
+ 0001:000214c0       ?itrp_FLIPOFF@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 100224c0 f   interp.obj
+ 0001:000214d4       ?itrp_EIF@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 100224d4 f   interp.obj
+ 0001:000214dc       ?itrp_IDefPatch@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 100224dc f   interp.obj
+ 0001:000215f4       ?itrp_RoundDownToGridSP@@YAHAAUfnt_LocalGraphicStateType@@HH@Z 100225f4 f   interp.obj
+ 0001:00021848       ?itrp_SHP_Common@@YAPBEAAUfnt_LocalGraphicStateType@@PBEHEHH@Z 10022848 f   interp.obj
+ 0001:00021b78       ?itrp_SPVTL@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10022b78 f   interp.obj
+ 0001:00021db8       ?itrp_SDPVTL@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10022db8 f   interp.obj
+ 0001:0002204c       ?itrp_SFVTL@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 1002304c f   interp.obj
+ 0001:000221c8       ?itrp_WPV@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 100231c8 f   interp.obj
+ 0001:00022334       ?itrp_WFV@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10023334 f   interp.obj
+ 0001:000223d8       ?itrp_ISECT@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 100233d8 f   interp.obj
+ 0001:00022888       ?itrp_LMD@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10023888 f   interp.obj
+ 0001:000228f4       ?itrp_LWTCI@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 100238f4 f   interp.obj
+ 0001:00022960       ?itrp_LSWCI@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10023960 f   interp.obj
+ 0001:000229d4       ?itrp_LSW@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 100239d4 f   interp.obj
+ 0001:00022a64       ?itrp_SRP0@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10023a64 f   interp.obj
+ 0001:00022ad0       ?itrp_SRP1@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10023ad0 f   interp.obj
+ 0001:00022b3c       ?itrp_SRP2@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10023b3c f   interp.obj
+ 0001:00022ba8       ?itrp_LLOOP@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10023ba8 f   interp.obj
+ 0001:00022c18       ?itrp_POP@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10023c18 f   interp.obj
+ 0001:00022c7c       ?itrp_SetElementPtr@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10023c7c f   interp.obj
+ 0001:00022d70       ?itrp_SROUND@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10023d70 f   interp.obj
+ 0001:00022e4c       ?itrp_S45ROUND@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10023e4c f   interp.obj
+ 0001:00022f28       ?itrp_SWAP@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10023f28 f   interp.obj
+ 0001:00022f98       ?itrp_ROTATE@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10023f98 f   interp.obj
+ 0001:00023010       ?itrp_MDAP@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10024010 f   interp.obj
+ 0001:00023140       ?itrp_MIAP@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10024140 f   interp.obj
+ 0001:0002332c       ?itrp_SHP@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 1002432c f   interp.obj
+ 0001:000234a8       ?itrp_SHC@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 100244a8 f   interp.obj
+ 0001:000237ac       ?itrp_SHE@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 100247ac f   interp.obj
+ 0001:00023abc       ?itrp_SHPIX@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10024abc f   interp.obj
+ 0001:00023bb4       ?itrp_IP@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10024bb4 f   interp.obj
+ 0001:00024254       ?itrp_MSIRP@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10025254 f   interp.obj
+ 0001:00024524       ?itrp_ALIGNRP@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10025524 f   interp.obj
+ 0001:0002476c       ?itrp_ALIGNPTS@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 1002576c f   interp.obj
+ 0001:00024918       ?itrp_SANGW@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10025918 f   interp.obj
+ 0001:00024984       ?itrp_FLIPPT@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10025984 f   interp.obj
+ 0001:00024a90       ?itrp_FLIPRGON@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10025a90 f   interp.obj
+ 0001:00024bb0       ?itrp_FLIPRGOFF@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10025bb0 f   interp.obj
+ 0001:00024ce0       ?itrp_SCANCTRL@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10025ce0 f   interp.obj
+ 0001:00024d58       ?itrp_SCANTYPE@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10025d58 f   interp.obj
+ 0001:00024dd0       ?itrp_INSTCTRL@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10025dd0 f   interp.obj
+ 0001:00024e9c       ?itrp_AA@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10025e9c f   interp.obj
+ 0001:00024f00       ?itrp_WS@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10025f00 f   interp.obj
+ 0001:00024fb4       ?itrp_RS@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10025fb4 f   interp.obj
+ 0001:000250c4       ?itrp_WCVT@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 100260c4 f   interp.obj
+ 0001:000251bc       ?itrp_WCVTFOD@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 100261bc f   interp.obj
+ 0001:00025284       ?itrp_RCVT@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10026284 f   interp.obj
+ 0001:0002535c       ?itrp_RC@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 1002635c f   interp.obj
+ 0001:0002547c       ?itrp_WC@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 1002647c f   interp.obj
+ 0001:000255ac       ?itrp_MD@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 100265ac f   interp.obj
+ 0001:00025820       ?itrp_GETINFO@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10026820 f   interp.obj
+ 0001:0002595c       ?itrp_DEBUG@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 1002695c f   interp.obj
+ 0001:000259c0       ?itrp_LT@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 100269c0 f   interp.obj
+ 0001:00025a44       ?itrp_LTEQ@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10026a44 f   interp.obj
+ 0001:00025ac8       ?itrp_GT@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10026ac8 f   interp.obj
+ 0001:00025b4c       ?itrp_GTEQ@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10026b4c f   interp.obj
+ 0001:00025bd0       ?itrp_EQ@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10026bd0 f   interp.obj
+ 0001:00025c54       ?itrp_NEQ@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10026c54 f   interp.obj
+ 0001:00025cd8       ?itrp_AND@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10026cd8 f   interp.obj
+ 0001:00025d5c       ?itrp_OR@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10026d5c f   interp.obj
+ 0001:00025de0       ?itrp_ADD@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10026de0 f   interp.obj
+ 0001:00025e58       ?itrp_SUB@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10026e58 f   interp.obj
+ 0001:00025ed0       ?itrp_MUL@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10026ed0 f   interp.obj
+ 0001:00025f4c       ?itrp_DIV@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10026f4c f   interp.obj
+ 0001:00026000       ?itrp_MAX@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10027000 f   interp.obj
+ 0001:0002607c       ?itrp_MIN@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 1002707c f   interp.obj
+ 0001:000260f8       ?itrp_ODD@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 100270f8 f   interp.obj
+ 0001:00026194       ?itrp_EVEN@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10027194 f   interp.obj
+ 0001:00026234       ?itrp_NOT@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10027234 f   interp.obj
+ 0001:000262a8       ?itrp_ABS@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 100272a8 f   interp.obj
+ 0001:00026318       ?itrp_NEG@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10027318 f   interp.obj
+ 0001:00026380       ?itrp_CEILING@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10027380 f   interp.obj
+ 0001:000263ec       ?itrp_FLOOR@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 100273ec f   interp.obj
+ 0001:00026454       ?itrp_JMPR@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10027454 f   interp.obj
+ 0001:000264fc       ?itrp_JROT@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 100274fc f   interp.obj
+ 0001:000265b8       ?itrp_JROF@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 100275b8 f   interp.obj
+ 0001:00026674       ?itrp_ROUND@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10027674 f   interp.obj
+ 0001:00026710       ?itrp_NROUND@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10027710 f   interp.obj
+ 0001:000267b4       ?itrp_MDRP@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 100277b4 f   interp.obj
+ 0001:00026bc0       ?itrp_MIRP@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10027bc0 f   interp.obj
+ 0001:000273c0       ?itrp_CALL@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 100283c0 f   interp.obj
+ 0001:0002773c       ?itrp_LOOPCALL@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 1002873c f   interp.obj
+ 0001:000278c0       ?itrp_UTP@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 100288c0 f   interp.obj
+ 0001:000279b4       ?itrp_SDB@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 100289b4 f   interp.obj
+ 0001:00027a20       ?itrp_SDS@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10028a20 f   interp.obj
+ 0001:00027a8c       ?itrp_DeltaEngine@@YAPBEAAUfnt_LocalGraphicStateType@@PBEP6AX0PAUfnt_ElementType@@HH@ZFF@Z 10028a8c f   interp.obj
+ 0001:00027dc8       ?itrp_DELTAP1@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10028dc8 f   interp.obj
+ 0001:00027df0       ?itrp_DELTAP2@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10028df0 f   interp.obj
+ 0001:00027e20       ?itrp_DELTAP3@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10028e20 f   interp.obj
+ 0001:00027e50       ?itrp_DELTAC1@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10028e50 f   interp.obj
+ 0001:00027e78       ?itrp_DELTAC2@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10028e78 f   interp.obj
+ 0001:00027ea8       ?itrp_DELTAC3@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10028ea8 f   interp.obj
+ 0001:00027f10       ?itrp_SkipPushData@@YAPBEAAUfnt_LocalGraphicStateType@@PBE@Z 10028f10 f   interp.obj
+ 0001:00028020       ?itrp_IF@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10029020 f   interp.obj
+ 0001:000281f4       ?itrp_ELSE@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 100291f4 f   interp.obj
+ 0001:000282a4       ?itrp_FDEF@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 100292a4 f   interp.obj
+ 0001:00028720       ?itrp_IDEF@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10029720 f   interp.obj
+ 0001:0002895c       ?itrp_CINDEX@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 1002995c f   interp.obj
+ 0001:00028a60       ?itrp_MINDEX@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10029a60 f   interp.obj
+ 0001:00028b88       ?itrp_RPV@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10029b88 f   interp.obj
+ 0001:00028c1c       ?itrp_RFV@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10029c1c f   interp.obj
+ 0001:00028cb0       ?itrp_RAW@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10029cb0 f   interp.obj
+ 0001:00028d70       ?itrp_DUP@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10029d70 f   interp.obj
+ 0001:00028e38       ?itrp_DEPTH@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 10029e38 f   interp.obj
+ 0001:00028ec0       ?itrp_PushSomeBytes@@YAPBEAAUfnt_LocalGraphicStateType@@HPBE@Z 10029ec0 f   interp.obj
+ 0001:00028f98       ?itrp_PushSomeWords@@YAPBEAAUfnt_LocalGraphicStateType@@HPBE@Z 10029f98 f   interp.obj
+ 0001:00029084       ?itrp_PUSHB1@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 1002a084 f   interp.obj
+ 0001:00029134       ?itrp_PUSHB@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 1002a134 f   interp.obj
+ 0001:00029144       ?itrp_NPUSHB@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 1002a144 f   interp.obj
+ 0001:000291ac       ?itrp_PUSHW1@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 1002a1ac f   interp.obj
+ 0001:0002926c       ?itrp_PUSHW@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 1002a26c f   interp.obj
+ 0001:0002927c       ?itrp_NPUSHW@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 1002a27c f   interp.obj
+ 0001:000292e4       ?itrp_MPPEM@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 1002a2e4 f   interp.obj
+ 0001:00029384       ?itrp_MPS@@YAPBEAAUfnt_LocalGraphicStateType@@PBEH@Z 1002a384 f   interp.obj
+ 0001:0002a738       ?CopyBit@@YAXPBEPAEV?$SafeInt@GVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@222222@Z 1002b738 f   sbit.obj
+ 0001:0002aaf4       ?UScaleX@@YA?AV?$SafeInt@GVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@PBUsbit_State@@V12@@Z 1002baf4 f   sbit.obj
+ 0001:0002abac       ?UScaleY@@YA?AV?$SafeInt@GVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@PBUsbit_State@@V12@@Z 1002bbac f   sbit.obj
+ 0001:0002ac4c       ?UEmScaleX@@YA?AV?$SafeInt@GVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@PBUsbit_State@@V12@@Z 1002bc4c f   sbit.obj
+ 0001:0002acfc       ?UEmScaleY@@YA?AV?$SafeInt@GVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@PBUsbit_State@@V12@@Z 1002bcfc f   sbit.obj
+ 0001:0002add4       ?CapCorrection@@YAXPAEGG@Z 1002bdd4 f   sbit.obj
+ 0001:0002b550       ?ExpandSbitToBytePerPixel@@YAXV?$SafeInt@GVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@000GPAE1@Z 1002c550 f   sbit.obj
+ 0001:0002b7d0       ?GetSbitComponent@@YAHPBUsfac_ClientRec@@IGIIGGGGGGGGGGPAE1@Z 1002c7d0 f   sbit.obj
+ 0001:0002bc74       ?SScaleX@@YA?AV?$SafeInt@FVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@PBUsbit_State@@V12@@Z 1002cc74 f   sbit.obj
+ 0001:0002bda4       ?SScaleY@@YA?AV?$SafeInt@FVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@PBUsbit_State@@V12@@Z 1002cda4 f   sbit.obj
+ 0001:0002bed4       ?SEmScaleX@@YA?AV?$SafeInt@FVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@PBUsbit_State@@V12@@Z 1002ced4 f   sbit.obj
+ 0001:0002bfec       ?SEmScaleY@@YA?AV?$SafeInt@FVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@PBUsbit_State@@V12@@Z 1002cfec f   sbit.obj
+ 0001:0002c104       ?ScaleVertical@@YAXPAEV?$SafeInt@GVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@11@Z 1002d104 f   sbit.obj
+ 0001:0002c3a4       ?ScaleHorizontal@@YAXPAEV?$SafeInt@GVSafeIntDefaultErrorPolicy@SafeIntForTrueTypeRasterizer@@@SafeIntForTrueTypeRasterizer@@11111@Z 1002d3a4 f   sbit.obj
+ 0001:0002cd74       ?SubstituteVertMetrics@@YAHPAUsbit_State@@PBUsfac_ClientRec@@@Z 1002dd74 f   sbit.obj
+ 0001:0002ce0c       ?SubstituteHorMetrics@@YAHPAUsbit_State@@PBUsfac_ClientRec@@@Z 1002de0c f   sbit.obj
+ 0001:0002d894       ?GetSbitMetrics@@YAHPAUsbit_State@@PBUsfac_ClientRec@@@Z 1002e894 f   sbit.obj
+ 0001:0002e044       ?scl_FRound@@YAHPBUfnt_ScaleRecord@@H@Z 1002f044 f   scale.obj
+ 0001:0002e064       ?scl_SRound@@YAHPBUfnt_ScaleRecord@@H@Z 1002f064 f   scale.obj
+ 0001:0002e0a8       ?scl_FixRound@@YAHPBUfnt_ScaleRecord@@H@Z 1002f0a8 f   scale.obj
+ 0001:0002e0b8       ?scl_ComputeScaling@@YAP6AHPBUfnt_ScaleRecord@@H@ZPAU1@HH@Z 1002f0b8 f   scale.obj
+ 0001:0002e140       ?scl_Scale@@YAXPBUfnt_ScaleRecord@@P6AH0H@ZPBHPAHH@Z 1002f140 f   scale.obj
+ 0001:0002e244       ?scl_ScaleFromFixedFUnits@@YAXPBUfnt_ScaleRecord@@P6AH0H@ZPBHPAHH@Z 1002f244 f   scale.obj
+ 0001:000306ec       ?FixPointers@@YAXPAURevRoots@@@Z 100316ec f   scanlist.obj
+ 0001:00030b70       ?AddHorizSimpleScan@@YAHPAUStateVars@@HH@Z 10031b70 f   scanlist.obj
+ 0001:00030c18       ?AddVertSimpleScan@@YAHPAUStateVars@@HH@Z 10031c18 f   scanlist.obj
+ 0001:00030cc4       ?AddHorizSmartScan@@YAHPAUStateVars@@HH@Z 10031cc4 f   scanlist.obj
+ 0001:00030d74       ?AddVertSmartScan@@YAHPAUStateVars@@HH@Z 10031d74 f   scanlist.obj
+ 0001:00031310       ?HorizCrossings@@YAHPBUStateVars@@HH@Z 10032310 f   scanlist.obj
+ 0001:000313cc       ?VertCrossings@@YAHPBUStateVars@@HH@Z 100323cc f   scanlist.obj
+ 0001:0003148c       ?GetBitAbs@@YAIPBUStateVars@@PBDHH@Z 1003248c f   scanlist.obj
+ 0001:00031538       ?SetBitAbs@@YAHPBUStateVars@@PADHH@Z 10032538 f   scanlist.obj
+ 0001:00031704       ?DoHorizDropout@@YAHPBUStateVars@@PBF1HPADG@Z 10032704 f   scanlist.obj
+ 0001:000318dc       ?DoVertDropout@@YAHPBUStateVars@@PBF1HPADG@Z 100328dc f   scanlist.obj
+ 0001:00031ae0       ?LookForDropouts@@YAHPBUStateVars@@PADG@Z 10032ae0 f   scanlist.obj
+ 0001:0003211c       ?AddHorizOn@@YAHPAUStateVars@@G@Z 1003311c f   scendpt.obj
+ 0001:00032180       ?AddHorizOff@@YAHPAUStateVars@@G@Z 10033180 f   scendpt.obj
+ 0001:000321e4       ?AddVertOn@@YAHPAUStateVars@@G@Z 100331e4 f   scendpt.obj
+ 0001:00032248       ?AddVertOff@@YAHPAUStateVars@@G@Z 10033248 f   scendpt.obj
+ 0001:000322ac       ?CalcHorizEpSubpix@@YAHHPBH0@Z 100332ac f   scendpt.obj
+ 0001:000322b4       ?CalcVertEpSubpix@@YAHHPBH0@Z 100332b4 f   scendpt.obj
+ 0001:000322d4       ?CheckHorizTopology@@YAHPAUStateVars@@HHG@Z 100332d4 f   scendpt.obj
+ 0001:000323b0       ?CheckVertTopology@@YAHPAUStateVars@@HHG@Z 100333b0 f   scendpt.obj
+ 0001:00032734       ?fsc_CheckYReversal@@YAHPAURevRoots@@HHPAF11@Z 10033734 f   scentry.obj
+ 0001:000327e0       ?fsc_CheckYReversalInSpline@@YAHPAURevRoots@@PAF11HHHHHH@Z 100337e0 f   scentry.obj
+ 0001:00032dc4       ?FindExtrema@@YAHPBUContourList@@PAUGlyphBitMap@@@Z 10033dc4 f   scentry.obj
+ 0001:00032f78       ?EvaluateSpline@@YAHPAUStateVars@@HHHHHHG@Z 10033f78 f   scentry.obj
+ 0001:00034298       ?CalcHorizLineSubpix@@YAHHPBH0@Z 10035298 f   scline.obj
+ 0001:000342d0       ?CalcVertLineSubpix@@YAHHPBH0@Z 100352d0 f   scline.obj
+ 0001:00034c58       ?CalcHorizSpSubpix@@YAHHPBH0@Z 10035c58 f   scspline.obj
+ 0001:00034cf4       ?CalcVertSpSubpix@@YAHHPBH0@Z 10035cf4 f   scspline.obj
+ 0001:00034da8       ?sfac_Classify@@YAXPAUsfac_OffsetLength@@PBE@Z 10035da8 f   sfntaccs.obj
+ 0001:00034fe4       ?sfac_ComputeUnkownIndex@@YAGPBEIGPBUsfac_ClientRec@@@Z 10035fe4 f   sfntaccs.obj
+ 0001:00034fec       ?sfac_ComputeIndex0@@YAGPBEIGPBUsfac_ClientRec@@@Z 10035fec f   sfntaccs.obj
+ 0001:00035728       __unwind$58867             10036728 f   sfntaccs.obj
+ 0001:00035834       ?sfac_GetDataPtr@@YAHPBUsfac_ClientRec@@IIW4sfnt_tableIndex@@_NPAPBXPAPAX@Z 10036834 f   sfntaccs.obj
+ 0001:000359e8       ?sfac_GetGlyphLocation@@YAHPBUsfac_ClientRec@@GPAI1PAW4sfnt_tableIndex@@@Z 100369e8 f   sfntaccs.obj
+ 0001:00035c58       __unwind$60374             10036c58 f   sfntaccs.obj
+ 0001:00035e30       __unwind$60513             10036e30 f   sfntaccs.obj
+ 0001:00036120       ?sfac_ReadGlyphBbox@@YAHPBUsfac_ClientRec@@GPAUBBOX@@@Z 10037120 f   sfntaccs.obj
+ 0001:00036bc8       __unwind$64263             10037bc8 f   sfntaccs.obj
+ 0001:00037148       __unwind$64602             10038148 f   sfntaccs.obj
+ 0001:00037160       __unwind$64603             10038160 f   sfntaccs.obj
+ 0001:00037178       __unwind$64604             10038178 f   sfntaccs.obj
+ 0001:00037190       __unwind$64605             10038190 f   sfntaccs.obj
+ 0001:000375ac       __unwind$65386             100385ac f   sfntaccs.obj
+ 0001:00037654       ?FindBlocStrike@@YA_NPBEIGGGPAGPAI@Z 10038654 f   sfntaccs.obj
+ 0001:000378a8       ?FindBscaStrike@@YA_NPBEIGGPAI@Z 100388a8 f   sfntaccs.obj
+ 0001:00038a28       ?sfac_ComputeIndex2@@YAGPBEIGPBUsfac_ClientRec@@@Z 10039a28 f   sfntaccs.obj
+ 0001:00038be4       ?sfac_ComputeIndex4@@YAGPBEIGPBUsfac_ClientRec@@@Z 10039be4 f   sfntaccs.obj
+ 0001:000393e8       ?sfac_ComputeIndex6@@YAGPBEIGPBUsfac_ClientRec@@@Z 1003a3e8 f   sfntaccs.obj
+ 0001:0003a128       __unwind$73421             1003b128 f   sfntaccs.obj
+ 0001:0003a8b4       ?FindNext@@YA_NGGGPAE0EPAPAE0@Z 1003b8b4 f   subpixel.obj
+ 0001:0003ab0c       ?EmboldenOverscaleConst@@YAXPAUGlyphBitMap@@@Z 1003bb0c f   subpixel.obj
+ 0001:0003b928       __catch$5866               1003c928 f   CT_Ras_FontHandle.obj
+ 0001:0003b954       __unwind$5867              1003c954 f   CT_Ras_FontHandle.obj
+ 0001:0003b964       __unwind$5868              1003c964 f   CT_Ras_FontHandle.obj
+ 0001:0003b974       __unwind$5871              1003c974 f   CT_Ras_FontHandle.obj
+ 0001:0003b984       __unwind$5873              1003c984 f   CT_Ras_FontHandle.obj
+ 0001:0003b994       __unwind$5875              1003c994 f   CT_Ras_FontHandle.obj
+ 0001:0003b9a4       __unwind$5877              1003c9a4 f   CT_Ras_FontHandle.obj
+ 0001:0003ba24       __catch$6274               1003ca24 f   CT_Ras_FontHandle.obj
+ 0001:0003bcf0       __catch$6428               1003ccf0 f   CT_Ras_FontHandle.obj
+ 0001:0003bd58       __catch$6488               1003cd58 f   CT_Ras_FontHandle.obj
+ 0001:0003bdc4       __catch$6541               1003cdc4 f   CT_Ras_FontHandle.obj
+ 0001:0003bedc       __catch$33566              1003cedc f   CT_Ras_FontInstance.obj
+ 0001:0003ca78       __catch$34186              1003da78 f   CT_Ras_FontInstance.obj
+ 0001:0003cb34       __catch$8248               1003db34 f   CT_Ras_Interface.obj
+ 0001:0003cb58       __catch$8249               1003db58 f   CT_Ras_Interface.obj
+ 0001:0003cc00       __catch$8334               1003dc00 f   CT_Ras_Interface.obj
+ 0001:0003cc24       __catch$8335               1003dc24 f   CT_Ras_Interface.obj
+ 0001:0003ccbc       __catch$8404               1003dcbc f   CT_Ras_Interface.obj
+ 0001:0003cce0       __catch$8405               1003dce0 f   CT_Ras_Interface.obj
+ 0001:0003cd94       __catch$8472               1003dd94 f   CT_Ras_Interface.obj
+ 0001:0003cdb8       __catch$8473               1003ddb8 f   CT_Ras_Interface.obj
+ 0001:0003ce50       __catch$8539               1003de50 f   CT_Ras_Interface.obj
+ 0001:0003ce74       __catch$8540               1003de74 f   CT_Ras_Interface.obj
+ 0001:0003cf1c       __catch$8608               1003df1c f   CT_Ras_Interface.obj
+ 0001:0003cf40       __catch$8609               1003df40 f   CT_Ras_Interface.obj
+ 0001:0003cfd8       __catch$8676               1003dfd8 f   CT_Ras_Interface.obj
+ 0001:0003cffc       __catch$8677               1003dffc f   CT_Ras_Interface.obj
+ 0001:0003d0b8       __catch$8810               1003e0b8 f   CT_Ras_Interface.obj
+ 0001:0003d0dc       __catch$8811               1003e0dc f   CT_Ras_Interface.obj
+ 0001:0003d174       __catch$8878               1003e174 f   CT_Ras_Interface.obj
+ 0001:0003d198       __catch$8879               1003e198 f   CT_Ras_Interface.obj
+ 0001:0003d254       __catch$8945               1003e254 f   CT_Ras_Interface.obj
+ 0001:0003d278       __catch$8946               1003e278 f   CT_Ras_Interface.obj
+ 0001:0003d310       __catch$9013               1003e310 f   CT_Ras_Interface.obj
+ 0001:0003d334       __catch$9014               1003e334 f   CT_Ras_Interface.obj
+ 0001:0003d3f0       __catch$9080               1003e3f0 f   CT_Ras_Interface.obj
+ 0001:0003d414       __catch$9081               1003e414 f   CT_Ras_Interface.obj
+ 0001:0003d4d0       __catch$9215               1003e4d0 f   CT_Ras_Interface.obj
+ 0001:0003d4f4       __catch$9216               1003e4f4 f   CT_Ras_Interface.obj
+ 0001:0003d5a8       __catch$9350               1003e5a8 f   CT_Ras_Interface.obj
+ 0001:0003d5cc       __catch$9351               1003e5cc f   CT_Ras_Interface.obj
+ 0001:0003d684       __catch$9420               1003e684 f   CT_Ras_Interface.obj
+ 0001:0003d6a8       __catch$9421               1003e6a8 f   CT_Ras_Interface.obj
+ 0001:0003d790       __catch$9489               1003e790 f   CT_Ras_Interface.obj
+ 0001:0003d7b4       __catch$9490               1003e7b4 f   CT_Ras_Interface.obj
+ 0001:0003d89c       __catch$9558               1003e89c f   CT_Ras_Interface.obj
+ 0001:0003d8c0       __catch$9559               1003e8c0 f   CT_Ras_Interface.obj
+ 0001:0003defc       __catch$9828               1003eefc f   CT_Ras_Interface.obj
+ 0001:0003df20       __catch$9829               1003ef20 f   CT_Ras_Interface.obj
+ 0001:0003df3c       __unwind$9830              1003ef3c f   CT_Ras_Interface.obj
+ 0001:0003e050       __catch$9945               1003f050 f   CT_Ras_Interface.obj
+ 0001:0003e074       __catch$9946               1003f074 f   CT_Ras_Interface.obj
+ 0001:0003e090       __unwind$9947              1003f090 f   CT_Ras_Interface.obj
+ 0001:0003e8ac       __catch$35587              1003f8ac f   ct_ras_win.obj
+ 0001:0003e8d0       __catch$35588              1003f8d0 f   ct_ras_win.obj
+ 0001:0003e9cc       __catch$35674              1003f9cc f   ct_ras_win.obj
+ 0001:0003e9f0       __catch$35675              1003f9f0 f   ct_ras_win.obj
+ 0001:0003eaec       __catch$35764              1003faec f   ct_ras_win.obj
+ 0001:0003eb30       __catch$35765              1003fb30 f   ct_ras_win.obj
+ 0001:0003eb6c       __unwind$35766             1003fb6c f   ct_ras_win.obj
+ 0001:0003ec28       __catch$35855              1003fc28 f   ct_ras_win.obj
+ 0001:0003ec4c       __catch$35856              1003fc4c f   ct_ras_win.obj
+ 0001:0003ed1c       __catch$35927              1003fd1c f   ct_ras_win.obj
+ 0001:0003ed40       __catch$35928              1003fd40 f   ct_ras_win.obj
+ 0001:0003ee00       __catch$35995              1003fe00 f   ct_ras_win.obj
+ 0001:0003ee24       __catch$35996              1003fe24 f   ct_ras_win.obj
+ 0001:0003eef4       __catch$36064              1003fef4 f   ct_ras_win.obj
+ 0001:0003ef18       __catch$36065              1003ff18 f   ct_ras_win.obj
+ 0001:0003efe8       __catch$36132              1003ffe8 f   ct_ras_win.obj
+ 0001:0003f00c       __catch$36133              1004000c f   ct_ras_win.obj
+ 0001:0003f0e4       __catch$36203              100400e4 f   ct_ras_win.obj
+ 0001:0003f108       __catch$36204              10040108 f   ct_ras_win.obj
+ 0001:0003f1d8       __catch$36274              100401d8 f   ct_ras_win.obj
+ 0001:0003f1fc       __catch$36275              100401fc f   ct_ras_win.obj
+ 0001:0003f2d4       __catch$36345              100402d4 f   ct_ras_win.obj
+ 0001:0003f2f8       __catch$36346              100402f8 f   ct_ras_win.obj
+ 0001:0003f3c8       __catch$36416              100403c8 f   ct_ras_win.obj
+ 0001:0003f3ec       __catch$36417              100403ec f   ct_ras_win.obj
+ 0001:0003f4c4       __catch$36487              100404c4 f   ct_ras_win.obj
+ 0001:0003f4e8       __catch$36488              100404e8 f   ct_ras_win.obj
+ 0001:0003f5b8       __catch$36558              100405b8 f   ct_ras_win.obj
+ 0001:0003f5dc       __catch$36559              100405dc f   ct_ras_win.obj
+ 0001:0003f6b4       __catch$36629              100406b4 f   ct_ras_win.obj
+ 0001:0003f6d8       __catch$36630              100406d8 f   ct_ras_win.obj
+ 0001:0003f7a8       __catch$36700              100407a8 f   ct_ras_win.obj
+ 0001:0003f7cc       __catch$36701              100407cc f   ct_ras_win.obj
+ 0001:0003f8b4       __catch$36771              100408b4 f   ct_ras_win.obj
+ 0001:0003f8d8       __catch$36772              100408d8 f   ct_ras_win.obj
+ 0001:0003f9c0       __catch$36842              100409c0 f   ct_ras_win.obj
+ 0001:0003f9e4       __catch$36843              100409e4 f   ct_ras_win.obj
+ 0001:0003fab8       __catch$36913              10040ab8 f   ct_ras_win.obj
+ 0001:0003fadc       __catch$36914              10040adc f   ct_ras_win.obj
+ 0001:0003fb9c       __catch$36983              10040b9c f   ct_ras_win.obj
+ 0001:0003fbc0       __catch$36984              10040bc0 f   ct_ras_win.obj
+ 0001:0003fc94       __catch$37049              10040c94 f   ct_ras_win.obj
+ 0001:0003fcb8       __catch$37050              10040cb8 f   ct_ras_win.obj
+ 0001:0003fd78       __catch$37119              10040d78 f   ct_ras_win.obj
+ 0001:0003fd9c       __catch$37120              10040d9c f   ct_ras_win.obj
+ 0001:0003fe70       __catch$37185              10040e70 f   ct_ras_win.obj
+ 0001:0003fe94       __catch$37186              10040e94 f   ct_ras_win.obj
+ 0001:0003ff54       __catch$37255              10040f54 f   ct_ras_win.obj
+ 0001:0003ff78       __catch$37256              10040f78 f   ct_ras_win.obj
+ 0001:00040030       __catch$37321              10041030 f   ct_ras_win.obj
+ 0001:00040054       __catch$37322              10041054 f   ct_ras_win.obj
+ 0001:00040114       __catch$37390              10041114 f   ct_ras_win.obj
+ 0001:00040138       __catch$37391              10041138 f   ct_ras_win.obj
+ 0001:0004020c       __catch$37459              1004120c f   ct_ras_win.obj
+ 0001:00040230       __catch$37460              10041230 f   ct_ras_win.obj
+ 0001:000402f0       __catch$37529              100412f0 f   ct_ras_win.obj
+ 0001:00040314       __catch$37530              10041314 f   ct_ras_win.obj
+ 0001:000403e4       __catch$37595              100413e4 f   ct_ras_win.obj
+ 0001:00040408       __catch$37596              10041408 f   ct_ras_win.obj
+ 0001:000404d4       __catch$37663              100414d4 f   ct_ras_win.obj
+ 0001:000404f8       __catch$37664              100414f8 f   ct_ras_win.obj
+ 0001:000405d8       __catch$37732              100415d8 f   ct_ras_win.obj
+ 0001:000405fc       __catch$37733              100415fc f   ct_ras_win.obj
+ 0001:0004070c       __catch$37830              1004170c f   ct_ras_win.obj
+ 0001:00040730       __catch$37831              10041730 f   ct_ras_win.obj
+ 0001:0004080c       __catch$37909              1004180c f   ct_ras_win.obj
+ 0001:00040828       __catch$37910              10041828 f   ct_ras_win.obj
+ 0001:000408b0       __catch$37982              100418b0 f   ct_ras_win.obj
+ 0001:000408d4       __catch$37983              100418d4 f   ct_ras_win.obj
+ 0001:000409c8       __catch$38039              100419c8 f   ct_ras_win.obj
+ 0001:000409ec       __catch$38040              100419ec f   ct_ras_win.obj
+ 0001:00040ae4       __catch$38111              10041ae4 f   ct_ras_win.obj
+ 0001:00040b08       __catch$38112              10041b08 f   ct_ras_win.obj
+ 0001:00040c00       __catch$38182              10041c00 f   ct_ras_win.obj
+ 0001:00040c24       __catch$38183              10041c24 f   ct_ras_win.obj
+ 0001:00040d1c       __catch$38254              10041d1c f   ct_ras_win.obj
+ 0001:00040d40       __catch$38255              10041d40 f   ct_ras_win.obj
+ 0001:00040e94       __catch$38337              10041e94 f   ct_ras_win.obj
+ 0001:00040ed8       __catch$38338              10041ed8 f   ct_ras_win.obj
+ 0001:00040f1c       __unwind$38339             10041f1c f   ct_ras_win.obj
+ 0001:0004101c       __catch$38442              1004201c f   ct_ras_win.obj
+ 0001:00041040       __catch$38443              10042040 f   ct_ras_win.obj
+ 0001:00041108       __catch$38518              10042108 f   ct_ras_win.obj
+ 0001:00041124       __catch$38519              10042124 f   ct_ras_win.obj
+ 0001:000411fc       __catch$38588              100421fc f   ct_ras_win.obj
+ 0001:00041220       __catch$38589              10042220 f   ct_ras_win.obj
+ 0001:00041350       __catch$38664              10042350 f   ct_ras_win.obj
+ 0001:00041374       __catch$38665              10042374 f   ct_ras_win.obj
+ 0001:000414a4       __catch$38747              100424a4 f   ct_ras_win.obj
+ 0001:000414c8       __catch$38748              100424c8 f   ct_ras_win.obj
+ 0001:000415f8       __catch$38829              100425f8 f   ct_ras_win.obj
+ 0001:0004161c       __catch$38830              1004261c f   ct_ras_win.obj
+ 0001:00041800       __catch$38925              10042800 f   ct_ras_win.obj
+ 0001:00041824       __catch$38926              10042824 f   ct_ras_win.obj
+ 0001:00041954       __catch$39016              10042954 f   ct_ras_win.obj
+ 0001:00041978       __catch$39017              10042978 f   ct_ras_win.obj
+ 0001:00041a74       __catch$39098              10042a74 f   ct_ras_win.obj
+ 0001:00041a98       __catch$39099              10042a98 f   ct_ras_win.obj
+ 0001:00041b9c       __catch$39180              10042b9c f   ct_ras_win.obj
+ 0001:00041bc0       __catch$39181              10042bc0 f   ct_ras_win.obj
+ 0001:00041cbc       __catch$39262              10042cbc f   ct_ras_win.obj
+ 0001:00041ce0       __catch$39263              10042ce0 f   ct_ras_win.obj
+ 0001:00041de4       __catch$39344              10042de4 f   ct_ras_win.obj
+ 0001:00041e08       __catch$39345              10042e08 f   ct_ras_win.obj
+ 0001:00041f04       __catch$39426              10042f04 f   ct_ras_win.obj
+ 0001:00041f28       __catch$39427              10042f28 f   ct_ras_win.obj
+ 0001:0004202c       __catch$39508              1004302c f   ct_ras_win.obj
+ 0001:00042050       __catch$39509              10043050 f   ct_ras_win.obj
+ 0001:0004214c       __catch$39590              1004314c f   ct_ras_win.obj
+ 0001:00042170       __catch$39591              10043170 f   ct_ras_win.obj
+ 0001:00042274       __catch$39672              10043274 f   ct_ras_win.obj
+ 0001:00042298       __catch$39673              10043298 f   ct_ras_win.obj
+ 0001:00042394       __catch$39754              10043394 f   ct_ras_win.obj
+ 0001:000423b8       __catch$39755              100433b8 f   ct_ras_win.obj
+ 0001:000424c4       __catch$39833              100434c4 f   ct_ras_win.obj
+ 0001:000424e8       __catch$39834              100434e8 f   ct_ras_win.obj
+ 0001:000425fc       __catch$39913              100435fc f   ct_ras_win.obj
+ 0001:00042620       __catch$39914              10043620 f   ct_ras_win.obj
+ 0001:000427bc       __catch$40017              100437bc f   ct_ras_win.obj
+ 0001:00043b14       __catch$36424              10044b14 f   Win_API_Instance.obj
+ 0001:00043db8       __catch$36539              10044db8 f   Win_API_Instance.obj
+ 0001:0004401c       __catch$36651              1004501c f   Win_API_Instance.obj
+ 0001:0004427c       __catch$36763              1004527c f   Win_API_Instance.obj
+ 0001:00044e00       __catch$37340              10045e00 f   Win_API_Instance.obj
+ 0001:00044e3c       __catch$37341              10045e3c f   Win_API_Instance.obj
+ 0001:00044ea0       __catch$37343              10045ea0 f   Win_API_Instance.obj
+ 0001:00044ef4       ?WhichFontFiles@@YAHQAPAGK@Z 10045ef4 f   Win_API_Instance.obj
+ 0001:00045118       ?AdjustTextMetrics@@YAXPAUHDC__@@PAUtagLOGFONTW@@PAU_OUTLINETEXTMETRICW@@@Z 10046118 f   Win_API_Instance.obj
+ 0001:00045eb8       __catch$38022              10046eb8 f   Win_API_Instance.obj
+ 0001:00046114       __catch$38123              10047114 f   Win_API_Instance.obj
+ 0001:00046330       __catch$38222              10047330 f   Win_API_Instance.obj
+ 0001:00046548       __catch$38321              10047548 f   Win_API_Instance.obj
+ 0001:000467e0       __catch$38422              100477e0 f   Win_API_Instance.obj
+ 0001:00046a70       __catch$38529              10047a70 f   Win_API_Instance.obj
+ 0001:000473e0       __catch$38677              100483e0 f   Win_API_Instance.obj
+ 0001:00047d88       __catch$38954              10048d88 f   Win_API_Instance.obj
+ 0001:000482b8       __catch$39208              100492b8 f   Win_API_Instance.obj
+ 0001:000489ec       __catch$39452              100499ec f   Win_API_Instance.obj
+ 0001:00048c50       __catch$39556              10049c50 f   Win_API_Instance.obj
+ 0001:000495c0       __catch$39733              1004a5c0 f   Win_API_Instance.obj
+ 0001:00049b54       __catch$40000              1004ab54 f   Win_API_Instance.obj
+ 0001:0004b9fc       _DllMainCRTStartupHelper   1004c9fc f   corelib0:pegdmain.obj
+ 0001:0004be30       doexit                     1004ce30 f   corelib0:cexit.obj
+ 0001:0004c130       ??__E?validGlobalParams@Font@@0UGlobalCTParameters@@A@@YAXXZ 1004d130 f   CTC_RasIFace.obj
+ 0001:0004c148       ??__Eg_mapHandleErr@@YAXXZ 1004d148 f   CT_Ras_FontHandle.obj
+ 0001:0004c154       ??__Eg_mapCtcErr@@YAXXZ    1004d154 f   CT_Ras_FontInstance.obj
+ 0001:0004c160       ??__Eg_leCTLastError@@YAXXZ 1004d160 f   CT_Ras_Interface.obj
+ 0001:0004c16c       ??__Eg_mapLineErr@@YAXXZ   1004d16c f   ct_ras_win.obj
+ 0001:0004c178       ??__Eg_ezMap@@YAXXZ        1004d178 f   ct_ras_win.obj
+ 0001:0004c184       ??__Eg_leWAPILastError@@YAXXZ 1004d184 f   ct_ras_win.obj
+ 0001:0004c190       ??__Eg_mapCTErr@@YAXXZ     1004d190 f   Win_API_Instance.obj
+ 0001:0004c19c       ??__Fg_mapHandleErr@@YAXXZ 1004d19c f   CT_Ras_FontHandle.obj
+ 0001:0004c1a0       ??__Fg_mapCtcErr@@YAXXZ    1004d1a0 f   CT_Ras_FontInstance.obj
+ 0001:0004c1a4       ??__Fg_leCTLastError@@YAXXZ 1004d1a4 f   CT_Ras_Interface.obj
+ 0001:0004c1a8       ??__Fg_mapLineErr@@YAXXZ   1004d1a8 f   ct_ras_win.obj
+ 0001:0004c1ac       ??__Fg_leWAPILastError@@YAXXZ 1004d1ac f   ct_ras_win.obj
+ 0001:0004c1b0       ??__Fg_ezMap@@YAXXZ        1004d1b0 f   ct_ras_win.obj
+ 0001:0004c1bc       ??__Fg_mapCTErr@@YAXXZ     1004d1bc f   Win_API_Instance.obj

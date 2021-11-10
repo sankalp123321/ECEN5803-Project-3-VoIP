@@ -1,0 +1,895 @@
+ dcomssd
+
+ Timestamp is 5ac64ca8 (Thu Apr 05 09:19:52 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000010H .CRT$XCU                CODE
+ 0001:00000014 00000004H .CRT$XCZ                CODE
+ 0001:00000018 00000004H .CRT$XIA                CODE
+ 0001:0000001c 00000004H .CRT$XIZ                CODE
+ 0001:00000020 00000004H .CRT$XPA                CODE
+ 0001:00000024 00000004H .CRT$XPZ                CODE
+ 0001:00000028 00000004H .CRT$XTA                CODE
+ 0001:0000002c 00000004H .CRT$XTZ                CODE
+ 0001:00000030 00002988H .rdata                  CODE
+ 0001:000029b8 00000024H .rdata$debug            CODE
+ 0001:000029dc 00011c1cH .text                   CODE
+ 0001:000145f8 0000005cH .text$yc                CODE
+ 0001:00014654 00000024H .text$yd                CODE
+ 0001:00014678 00000100H .xdata                  CODE
+ 0001:00014778 0000003cH .idata$2                CODE
+ 0001:000147b4 00000014H .idata$3                CODE
+ 0001:000147c8 000001f4H .idata$4                CODE
+ 0001:000149bc 000003c4H .idata$6                CODE
+ 0001:00014d80 00000074H .edata                  CODE
+ 0002:00000000 000001f4H .idata$5                DATA
+ 0002:000001f8 0000076cH .data                   DATA
+ 0002:00000968 00000210H .bss                    DATA
+ 0003:00000000 00000c68H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000014       __xc_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xi_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xi_z                     1000101c     corelib0:crt0init.obj
+ 0001:00000020       __xp_a                     10001020     corelib0:crt0init.obj
+ 0001:00000024       __xp_z                     10001024     corelib0:crt0init.obj
+ 0001:00000028       __xt_a                     10001028     corelib0:crt0init.obj
+ 0001:0000002c       __xt_z                     1000102c     corelib0:crt0init.obj
+ 0001:0000004c       ??_C@_1BC@PHFBHPP@?$AAe?$AAp?$AAm?$AAa?$AAp?$AAp?$AAe?$AAr?$AA?$AA@ 1000104c     EPTS.obj
+ 0001:00000060       ??_C@_1BA@EONDGCCM@?$AAn?$AAc?$AAa?$AAl?$AAr?$AAp?$AAc?$AA?$AA@ 10001060     EPTS.obj
+ 0001:00000070       ??_C@_17JGKBAOOF@?$AA1?$AA3?$AA5?$AA?$AA@ 10001070     EPTS.obj
+ 0001:00000078       ??_C@_1BK@BPGFLIHL@?$AAn?$AAc?$AAa?$AAc?$AAn?$AA_?$AAi?$AAp?$AA_?$AAt?$AAc?$AAp?$AA?$AA@ 10001078     EPTS.obj
+ 0001:00000094       ??_C@_1CO@IFCEPGFC@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?1?$AAD?$AAC?$AAO?$AAM?$AAA?$AAp?$AAi?$AAS?$AAe?$AAt?$AAR?$AAe?$AAa?$AAd?$AAy?$AA?$AA@ 10001094     cestart.obj
+ 0001:000000c4       ??_C@_1CE@GCFEFJPL@?$AAB?$AAa?$AAs?$AAe?$AAN?$AAu?$AAm?$AAb?$AAe?$AAr?$AAO?$AAf?$AAP?$AAi?$AAn?$AAg?$AAs?$AA?$AA@ 100010c4     objex:WORKER.obj
+ 0001:000000e8       ??_C@_1CC@NOIENJCB@?$AAB?$AAa?$AAs?$AAe?$AAP?$AAi?$AAn?$AAg?$AAI?$AAn?$AAt?$AAe?$AAr?$AAv?$AAa?$AAl?$AA?$AA@ 100010e8     objex:WORKER.obj
+ 0001:0000010c       ??_C@_1CO@KOLKKKBD@?$AAs?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAo?$AAl?$AAe?$AA?$AA@ 1000110c     objex:WORKER.obj
+ 0001:0000013c       ??_C@_1DC@JHMJCIJJ@?$AAA?$AAp?$AAp?$AAR?$AAu?$AAn?$AAA?$AAf?$AAt?$AAe?$AAr?$AAE?$AAx?$AAt?$AAe?$AAn?$AAd?$AAe?$AAd?$AAE?$AAv?$AAe?$AAn?$AAt?$AA?$AA@ 1000113c     objex:WORKER.obj
+ 0001:00000170       ??_C@_1CO@CIHJDPGF@?$AAD?$AAC?$AAO?$AAM?$AAS?$AAS?$AA?2?$AAR?$AAe?$AAf?$AAr?$AAe?$AAs?$AAh?$AAS?$AAe?$AAt?$AAt?$AAi?$AAn?$AAg?$AAs?$AA?$AA@ 10001170     objex:WORKER.obj
+ 0001:000001a0       ??_C@_1CC@KBANFJBO@?$AAD?$AAB?$AA_?$AAn?$AAo?$AAt?$AAi?$AAf?$AAy?$AA_?$AAe?$AAv?$AAe?$AAn?$AAt?$AAs?$AA?$AA@ 100011a0     objex:WORKER.obj
+ 0001:000001c8       ??_C@_1GK@CGCCDIIG@?$AA?2?$AA?2?$AA?4?$AA?2?$AAN?$AAo?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AAs?$AA?2?$AAN?$AAa?$AAm?$AAe?$AAd?$AAE?$AAv?$AAe?$AAn?$AAt?$AAs?$AA?2?$AAD?$AAC@ 100011c8     objex:WORKER.obj
+ 0001:00000234       ??_C@_1CA@DIPGFDEH@?$AAC?$AAe?$AAR?$AAu?$AAn?$AAA?$AAp?$AAp?$AAA?$AAt?$AAE?$AAv?$AAe?$AAn?$AAt?$AA?$AA@ 10001234     objex:WORKER.obj
+ 0001:00000254       ??_C@_1DM@KPOECDDP@?$AAs?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?1?$AAe?$AAv?$AAe?$AAn?$AAt?$AAs?$AA?1?$AAn?$AAo?$AAt?$AAi?$AAf?$AAy?$AA?1?$AAA?$AAP?$AAI?$AAR?$AAe?$AAa?$AAd?$AAy?$AA?$AA@ 10001254     objex:WORKER.obj
+ 0001:00000290       ??_C@_1BI@CJKPFBEK@?$AAc?$AAo?$AAr?$AAe?$AAd?$AAl?$AAl?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10001290     objex:WORKER.obj
+ 0001:000002a8       ??_C@_1CC@NOICFPED@?$AAD?$AAC?$AAO?$AAM?$AAS?$AAS?$AAU?$AAn?$AAl?$AAo?$AAa?$AAd?$AAa?$AAb?$AAl?$AAe?$AA?$AA@ 100012a8     objex:MISC.obj
+ 0001:000002cc       ??_C@_1CO@GBMPEPJK@?$AAS?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAo?$AAl?$AAe?$AA?$AA@ 100012cc     objex:MISC.obj
+ 0001:000002fc       ??_7CReferencedObject@@6B@ 100012fc     objex:MISC.obj
+ 0001:00000308       ??_7CMid@@6B@              10001308     objex:MISC.obj
+ 0001:00000320       ??_C@_1BO@JGMOHJBI@?$AAD?$AAC?$AAO?$AAM?$AA?5?$AAP?$AAr?$AAo?$AAt?$AAo?$AAc?$AAo?$AAl?$AAs?$AA?$AA@ 10001320     objex:OBJEX.obj
+ 0001:00000340       ??_C@_1CO@COHIJEAK@?$AAS?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAR?$AAp?$AAc?$AA?$AA@ 10001340     objex:OBJEX.obj
+ 0001:00000378       ??_C@_1CO@KFPLCCGJ@?$AAI?$AAn?$AAi?$AAt?$AAS?$AAe?$AAc?$AAu?$AAr?$AAi?$AAt?$AAy?$AAI?$AAn?$AAt?$AAe?$AAr?$AAf?$AAa?$AAc?$AAe?$AAW?$AA?$AA@ 10001378     objex:OBJEX.obj
+ 0001:000003a8       ??_C@_1CA@HAFKJHDB@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?$AA@ 100013a8     objex:OBJEX.obj
+ 0001:000003c8       ??_C@_1EO@MDJINKJE@?$AAS?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAR?$AAp?$AAc?$AA?2?$AAS?$AAe?$AAc?$AAu?$AAr?$AAi?$AAt?$AAy?$AAS@ 100013c8     objex:OBJEX.obj
+ 0001:00000418       ??_C@_1CO@BJGOLOPF@?$AAL?$AAe?$AAg?$AAa?$AAc?$AAy?$AAS?$AAe?$AAc?$AAu?$AAr?$AAe?$AAR?$AAe?$AAf?$AAe?$AAr?$AAe?$AAn?$AAc?$AAe?$AAs?$AA?$AA@ 10001418     objex:OBJEX.obj
+ 0001:00000448       ??_C@_1DG@GJLHGAEM@?$AAL?$AAe?$AAg?$AAa?$AAc?$AAy?$AAM?$AAu?$AAt?$AAu?$AAa?$AAl?$AAA?$AAu?$AAt?$AAh?$AAe?$AAn?$AAt?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 10001448     objex:OBJEX.obj
+ 0001:00000480       ??_C@_1DC@ODPDABNE@?$AAL?$AAe?$AAg?$AAa?$AAc?$AAy?$AAI?$AAm?$AAp?$AAe?$AAr?$AAs?$AAo?$AAn?$AAa?$AAt?$AAi?$AAo?$AAn?$AAL?$AAe?$AAv?$AAe?$AAl?$AA?$AA@ 10001480     objex:OBJEX.obj
+ 0001:000004b4       ??_C@_1DE@HLBFFEMC@?$AAL?$AAe?$AAg?$AAa?$AAc?$AAy?$AAA?$AAu?$AAt?$AAh?$AAe?$AAn?$AAt?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AAL?$AAe?$AAv?$AAe?$AAl?$AA?$AA@ 100014b4     objex:OBJEX.obj
+ 0001:000004e8       ??_C@_1DI@CKLJMCNA@?$AAL?$AAe?$AAg?$AAa?$AAc?$AAy?$AAA?$AAu?$AAt?$AAh?$AAe?$AAn?$AAt?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AAS?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe?$AA?$AA@ 100014e8     objex:OBJEX.obj
+ 0001:00000520       ??_C@_1CO@KFBHHLOP@?$AAI?$AAg?$AAn?$AAo?$AAr?$AAe?$AAS?$AAe?$AAr?$AAv?$AAe?$AAr?$AAE?$AAx?$AAc?$AAe?$AAp?$AAt?$AAi?$AAo?$AAn?$AAs?$AA?$AA@ 10001520     objex:OBJEX.obj
+ 0001:00000550       ??_C@_1BG@OHHPKIKG@?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AAD?$AAC?$AAO?$AAM?$AA?$AA@ 10001550     objex:OBJEX.obj
+ 0001:00000568       ??_C@_1CO@LGJNIHNE@?$AAS?$AAO?$AAF?$AAT?$AAW?$AAA?$AAR?$AAE?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAO?$AAL?$AAE?$AA?$AA@ 10001568     objex:OBJEX.obj
+ 0001:00000598       ??_C@_1BM@PGCFBOA@?$AAD?$AAC?$AAO?$AAM?$AA?5?$AAS?$AAe?$AAc?$AAu?$AAr?$AAi?$AAt?$AAy?$AA?$AA@ 10001598     objex:OBJEX.obj
+ 0001:000005b4       ??_C@_1CO@FMDOBC@?$AAS?$AAO?$AAF?$AAT?$AAW?$AAA?$AAR?$AAE?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAR?$AAP?$AAC?$AA?$AA@ 100015b4     objex:OBJEX.obj
+ 0001:000005e4       ??_7CServerOid@@6B@        100015e4     objex:ORSVR.obj
+ 0001:000005fc       ??_7CServerOxid@@6B@       100015fc     objex:ORSVR.obj
+ 0001:00000614       ??_7CIdKey@@6B@            10001614     objex:ORSVR.obj
+ 0001:0000061c       ??_7CClientOid@@6B@        1000161c     objex:ORCLNT.obj
+ 0001:00000634       ??_7CProcess@@6B@          10001634     objex:PROCESS.obj
+ 0001:0000068c       ??_C@_13EBCNDICG@?$AA?3?$AA?$AA@ 1000168c     objex:STRING.obj
+ 0001:00000690       ??_C@_1EG@IPBHPONK@?$AAS?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAO?$AAL?$AAE?$AA?2?$AAC?$AAh?$AAa?$AAn?$AAn?$AAe?$AAl?$AAH?$AAo@ 10001690     objex:MANAGER.obj
+ 0001:000006d8       ??_7CMidKey@@6B@           100016d8     objex:MANAGER.obj
+ 0001:000006e0       ??_7CClientOxid@@6B@       100016e0     objex:MANAGER.obj
+ 0001:000006f8       ??_7CId2Key@@6B@           100016f8     objex:MANAGER.obj
+ 0001:00000700       ??_7CClientSet@@6B@        10001700     objex:MANAGER.obj
+ 0001:00000718       ??_C@_19HHIIBINK@?$AAn?$AAa?$AAm?$AAe?$AA?$AA@ 10001718     olescm:SCMSVC.obj
+ 0001:00000724       ??_C@_1M@LPEEOHMF@?$AAI?$AAd?$AAe?$AAn?$AAt?$AA?$AA@ 10001724     olescm:SCMSVC.obj
+ 0001:00000730       ??_7CStringID@@6B@         10001730     olescm:SCMSVC.obj
+ 0001:00000734       ??_C@_15A@?$PP?$PP?$PP?$PP?$AA?$AA@ 10001734     olescm:SCMSVC.obj
+ 0001:0000073c       ??_C@_1CA@KJBJLIMB@?$AAS?$AAc?$AAm?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AAd?$AAE?$AAv?$AAe?$AAn?$AAt?$AA?$AA@ 1000173c     olescm:SCMSVC.obj
+ 0001:0000075c       ??_C@_1CE@EIMMPCOI@?$AA?2?$AAT?$AAe?$AAm?$AAp?$AA?2?$AA?$CF?$AAs?$AA?5?$AA?9?$AA?5?$AA?$CF?$AAs?$AA?4?$AAl?$AAo?$AAg?$AA?$AA@ 1000175c     olescm:CLS.obj
+ 0001:00000780       ??_C@_13FNCBLAIF@?$AAa?$AA?$AA@ 10001780     olescm:CLS.obj
+ 0001:00000784       ??_C@_1BI@JAIEGCCE@?$AA$?$AAl?$AAo?$AAc?$AAa?$AAl?$AAh?$AAo?$AAs?$AAt?$AA$?$AA?$AA@ 10001784     olescm:CLS.obj
+ 0001:0000079c       ??_C@_15IABLJNFO@?$AA?6?$AA?6?$AA?$AA@ 1000179c     olescm:CLS.obj
+ 0001:000007a4       ??_C@_1M@OMOAGDNC@?$AA?$CF?$AA0?$AA2?$AAx?$AA?5?$AA?$AA@ 100017a4     olescm:CLS.obj
+ 0001:000007b0       ??_C@_15JCKODCLA@?$AA?6?$AA?7?$AA?$AA@ 100017b0     olescm:CLS.obj
+ 0001:000007b8       ??_C@_19LDPNEPHK@?$AA?7?$AA?$CF?$AAs?$AA?6?$AA?$AA@ 100017b8     olescm:CLS.obj
+ 0001:000007c8       ??_C@_1HG@LEHPEGJK@?$AAE?$AAv?$AAe?$AAn?$AAt?$AA?5?$AA?$CF?$AA0?$AA4?$AAx?$AA?9?$AA?$CF?$AA0?$AA4?$AAx?$AA?9?$AA?$CF?$AA0?$AA8?$AAx?$AA?5?$AA?$EA?$AA?5?$AA?$CF?$AA0?$AA2?$AAd?$AA?3?$AA?$CF?$AA0?$AA2?$AAd@ 100017c8     olescm:CLS.obj
+ 0001:00000840       ??_7CClassID@@6B@          10001840     olescm:CLS.obj
+ 0001:00000844       ??_7COleStaticMutexSem@@6B@ 10001844     olescm:CLS.obj
+ 0001:00000848       ??_C@_19LLEGMNAE@?$AAD?$AAC?$AAO?$AAM?$AA?$AA@ 10001848     olescm:CLS.obj
+ 0001:00000854       ??_C@_13HOIJIPNN@?$AA?5?$AA?$AA@ 10001854     olescm:CLS.obj
+ 0001:00000858       ??_C@_1CM@JEBLOPBI@?$AAW?$AAN?$AAe?$AAt?$AAG?$AAe?$AAt?$AAU?$AAn?$AAi?$AAv?$AAe?$AAr?$AAs?$AAa?$AAl?$AAN?$AAa?$AAm?$AAe?$AAW?$AA?$AA@ 10001858     olescm:CLS.obj
+ 0001:00000884       ??_7CClassData@@6B@        10001884     olescm:CLS.obj
+ 0001:00000888       ??_C@_1CA@EBEJJEPK@?$AA_?$AAS?$AAU?$AAR?$AAR?$AAO?$AAG?$AAA?$AAT?$AAE?$AA_?$AAE?$AAX?$AAE?$AA_?$AA?$AA@ 10001888     olescm:CLS.obj
+ 0001:000008a8       ??_C@_1BA@BPGNHKCG@?$AAT?$AAr?$AAe?$AAa?$AAt?$AAA?$AAs?$AA?$AA@ 100018a8     olescm:INIT.obj
+ 0001:000008b8       ??_C@_1BM@HBDLLMFJ@?$AAA?$AAu?$AAt?$AAo?$AAC?$AAo?$AAn?$AAv?$AAe?$AAr?$AAt?$AAT?$AAo?$AA?$AA@ 100018b8     olescm:INIT.obj
+ 0001:000008d4       ??_C@_1M@EJNEECMJ@?$AAA?$AAp?$AAp?$AAI?$AAD?$AA?$AA@ 100018d4     olescm:INIT.obj
+ 0001:000008e0       ??_C@_1M@BGPCLKND@?$AAC?$AAl?$AAs?$AAI?$AAD?$AA?$AA@ 100018e0     olescm:INIT.obj
+ 0001:000008ec       CLSID_FileMoniker          100018ec     olescm:headers.obj
+ 0001:000008fc       ??_C@_1BI@MMMDFPMJ@?$AA?5?$AA?9?$AAE?$AAm?$AAb?$AAe?$AAd?$AAd?$AAi?$AAn?$AAg?$AA?$AA@ 100018fc     olescm:CLSDATA.obj
+ 0001:00000914       ??_7CLocalServer@@6B@      10001914     olescm:CLSDATA.obj
+ 0001:00000918       ??_C@_17IJMNDCL@?$AA?$CF?$AAl?$AAu?$AA?$AA@ 10001918     olescm:REMACT.obj
+ 0001:00000920       ??_7CRemoteServer@@6B@     10001920     olescm:REMACT.obj
+ 0001:0000115c       ??_C@_1BK@BKPKNBDK@?$AAR?$AAo?$AAt?$AAH?$AAi?$AAn?$AAt?$AAT?$AAa?$AAb?$AAl?$AAe?$AA?$AA@ 1000215c     olescm:ROTIF.obj
+ 0001:00001178       ??_C@_1BE@JDLPANCI@?$AAl?$AAo?$AAc?$AAa?$AAl?$AAh?$AAo?$AAs?$AAt?$AA?$AA@ 10002178     olescm:actmisc.obj
+ 0001:00001598       ??_7CScmHashEntry@@6B@     10002598     olescm:SCMHASH.obj
+ 0001:000015a0       ??_7CScmRotEntry@@6B@      100025a0     olescm:SCMROT.obj
+ 0001:000029dc       UseProtseqIfNecessary      100039dc f   EPTS.obj
+ 0001:00002a80       GetProtseq                 10003a80 f   EPTS.obj
+ 0001:00002aa0       GetEndpoint                10003aa0 f   EPTS.obj
+ 0001:00002ac0       GetProtseqId               10003ac0 f   EPTS.obj
+ 0001:00002b18       InitializeEndpointManager  10003b18 f   EPTS.obj
+ 0001:00002b20       IsLocal                    10003b20 f   EPTS.obj
+ 0001:00002b38       ?rpcss_start@@YAKPAX@Z     10003b38 f   cestart.obj
+ 0001:00002c14       DCM_Init                   10003c14 f   cestart.obj
+ 0001:00002c7c       DCM_Deinit                 10003c7c f   cestart.obj
+ 0001:00002c84       DCM_IOControl              10003c84 f   cestart.obj
+ 0001:00002cc8       ?SetPingIntervals@@YAXXZ   10003cc8 f   objex:WORKER.obj
+ 0001:00002dd4       ?DeleteNotifyEvent@@YAXXZ  10003dd4 f   objex:WORKER.obj
+ 0001:00002f90       ObjectExporterTaskThread   10003f90 f   objex:WORKER.obj
+ 0001:00003254       ObjectExporterWorkerThread 10004254 f   objex:WORKER.obj
+ 0001:00003630       ?IP_BuildAddressVector@@YAJPAPAUNETWORK_ADDRESS_VECTOR@@@Z 10004630 f   objex:MISC.obj
+ 0001:0000377c       ?RegisterForIPAddressChange@@YAJXZ 1000477c f   objex:MISC.obj
+ 0001:00003860       RegisterAuthInfoIfNecessary 10004860 f   objex:MISC.obj
+ 0001:000038a8       ?InitHeaps@@YAJXZ          100048a8 f   objex:MISC.obj
+ 0001:00003900       OrAlloc                    10004900 f i objex:MISC.obj
+ 0001:00003960       OrFree                     10004960 f i objex:MISC.obj
+ 0001:000039c0       ??2@YAPAXI@Z               100049c0 f   objex:MISC.obj
+ 0001:000039c8       ??2@YAPAXII@Z              100049c8 f   objex:MISC.obj
+ 0001:000039d8       time                       100049d8 f i objex:MISC.obj
+ 0001:00003a48       ??3@YAXPAX@Z               10004a48 f   objex:MISC.obj
+ 0001:00003a5c       ?Reference@CReferencedObject@@UAAXXZ 10004a5c f i objex:MISC.obj
+ 0001:00003a64       ??_GCReferencedObject@@UAAPAXI@Z 10004a64 f i objex:MISC.obj
+ 0001:00003a64       ??_ECReferencedObject@@UAAPAXI@Z 10004a64 f i objex:MISC.obj
+ 0001:00003a8c       ?dsaCompare@@YAKPAUtagDUALSTRINGARRAY@@0@Z 10004a8c f i objex:MISC.obj
+ 0001:00003ad4       ?AllocateId@@YA_KJ@Z       10004ad4 f   objex:MISC.obj
+ 0001:00003b1c       ?Release@CReferencedObject@@UAAKXZ 10004b1c f i objex:MISC.obj
+ 0001:00003b5c       ??0CMid@@QAA@PAUtagDUALSTRINGARRAY@@H_K@Z 10004b5c f i objex:MISC.obj
+ 0001:00003c4c       ?dsaHash@@YAKPAUtagDUALSTRINGARRAY@@@Z 10004c4c f i objex:MISC.obj
+ 0001:00003c88       ?Hash@CMid@@UAAKXZ         10004c88 f i objex:MISC.obj
+ 0001:00003c90       ?Compare@CMid@@UAAHAAVCTableKey@@@Z 10004c90 f i objex:MISC.obj
+ 0001:00003ca0       ?Compare@CMid@@UAAHPBVCTableElement@@@Z 10004ca0 f i objex:MISC.obj
+ 0001:00003cac       ??_ECMid@@UAAPAXI@Z        10004cac f i objex:MISC.obj
+ 0001:00003cac       ??_GCMid@@UAAPAXI@Z        10004cac f i objex:MISC.obj
+ 0001:00003cfc       ?StartListeningIfNecessary@@YAJXZ 10004cfc f   objex:MISC.obj
+ 0001:000041e4       ?GetMyDSABindingsHelper@@YAJXZ 100051e4 f   objex:MISC.obj
+ 0001:0000448c       ?CopyMyOrBindings@@YAJPAPAUtagDUALSTRINGARRAY@@@Z 1000548c f   objex:MISC.obj
+ 0001:0000453c       ?GetSecurityProvider@@YAPAU_SECURITY_FUNCTION_TABLE_W@@XZ 1000553c f   objex:OBJEX.obj
+ 0001:0000466c       ?FindSvc@@YAKGPAGK@Z       1000566c f   objex:OBJEX.obj
+ 0001:000046ac       ?ComputeSecurity@@YAXXZ    100056ac f   objex:OBJEX.obj
+ 0001:00004d98       ??0CServerSetTable@@QAA@AAJ@Z 10005d98 f i objex:OBJEX.obj
+ 0001:00004df8       StartObjectExporter        10005df8 f   objex:OBJEX.obj
+ 0001:000053f4       ?Remove@CList@@QAAPAVCListElement@@PAV2@@Z 100063f4 f i objex:PLIST.obj
+ 0001:00005458       ?Insert@CPList@@QAAXPAVCPListElement@@@Z 10006458 f   objex:PLIST.obj
+ 0001:000054c0       ?PeekMin@CPList@@QAAHAAVCTime@@@Z 100064c0 f   objex:PLIST.obj
+ 0001:00005500       ?Remove@CPList@@QAAPAVCPListElement@@PAV2@@Z 10006500 f   objex:PLIST.obj
+ 0001:00005534       ?MaybeRemoveMin@CPList@@QAAPAVCListElement@@AAVCTime@@@Z 10006534 f   objex:PLIST.obj
+ 0001:00005588       ??0CSharedLock@@QAA@AAJ@Z  10006588 f   objex:LOCKS.obj
+ 0001:000055e8       ?LockShared@CSharedLock@@QAAXXZ 100065e8 f   objex:LOCKS.obj
+ 0001:00005640       ?UnlockShared@CSharedLock@@QAAXXZ 10006640 f   objex:LOCKS.obj
+ 0001:00005670       ?LockExclusive@CSharedLock@@QAAXXZ 10006670 f   objex:LOCKS.obj
+ 0001:000056b0       ?UnlockExclusive@CSharedLock@@QAAXXZ 100066b0 f   objex:LOCKS.obj
+ 0001:000056d4       ?Unlock@CSharedLock@@QAAXXZ 100066d4 f   objex:LOCKS.obj
+ 0001:00005718       ?ConvertToExclusive@CSharedLock@@QAAXXZ 10006718 f   objex:LOCKS.obj
+ 0001:00005780       ?ProcessRelease@CServerOxid@@IAAXXZ 10006780 f   objex:ORSVR.obj
+ 0001:000057a4       ?Lookup@CServerSetTable@@QAAPAVCServerSet@@_K@Z 100067a4 f   objex:ORSVR.obj
+ 0001:000057d4       ?Next@CBListIterator@@QAAPAXXZ 100067d4 f i objex:ORSVR.obj
+ 0001:00005828       ?Reference@CServerOid@@UAAXXZ 10006828 f   objex:ORSVR.obj
+ 0001:00005864       ?Release@CServerOid@@UAAKXZ 10006864 f   objex:ORSVR.obj
+ 0001:000058e0       ??1CServerOid@@UAA@XZ      100068e0 f   objex:ORSVR.obj
+ 0001:00005928       ?Hash@CIdTableElement@@UAAKXZ 10006928 f i objex:ORSVR.obj
+ 0001:00005938       ?Compare@CIdTableElement@@UAAHAAVCTableKey@@@Z 10006938 f i objex:ORSVR.obj
+ 0001:0000595c       ?Compare@CIdTableElement@@UAAHPBVCTableElement@@@Z 1000695c f i objex:ORSVR.obj
+ 0001:00005980       ?KeepAlive@CServerOid@@QAAXXZ 10006980 f   objex:ORSVR.obj
+ 0001:000059c4       ??1CServerOxid@@UAA@XZ     100069c4 f   objex:ORSVR.obj
+ 0001:000059f8       ?GetInfo@CServerOxid@@QAAJPAUtagOXID_INFO@@H@Z 100069f8 f   objex:ORSVR.obj
+ 0001:00005ab8       ?RundownOids@CServerOxid@@QAAXGQA_KQAE@Z 10006ab8 f   objex:ORSVR.obj
+ 0001:00005b48       ?GetRemoteInfo@CServerOxid@@QAAJPAUtagOXID_INFO@@GQAG@Z 10006b48 f   objex:ORSVR.obj
+ 0001:00005ba8       ?LazyUseProtseq@CServerOxid@@QAAJGQAG@Z 10006ba8 f   objex:ORSVR.obj
+ 0001:00005c2c       ?ValidateObjects@CServerSet@@AAAHH@Z 10006c2c f   objex:ORSVR.obj
+ 0001:00005cc4       ?Hash@CIdKey@@UAAKXZ       10006cc4 f i objex:ORSVR.obj
+ 0001:00005cd4       ?Compare@CIdKey@@UAAHAAVCTableKey@@@Z 10006cd4 f i objex:ORSVR.obj
+ 0001:00005cf8       ??0CServerSet@@QAA@GH@Z    10006cf8 f i objex:ORSVR.obj
+ 0001:00005d5c       ??_GCServerOxid@@UAAPAXI@Z 10006d5c f i objex:ORSVR.obj
+ 0001:00005d5c       ??_ECServerOxid@@UAAPAXI@Z 10006d5c f i objex:ORSVR.obj
+ 0001:00005d80       ??_GCServerOid@@UAAPAXI@Z  10006d80 f i objex:ORSVR.obj
+ 0001:00005d80       ??_ECServerOid@@UAAPAXI@Z  10006d80 f i objex:ORSVR.obj
+ 0001:00005da4       ?MaybeRemoveMatchingOxid@CServerOidPList@@QAAPAVCServerOid@@AAVCTime@@PAV2@@Z 10006da4 f   objex:ORSVR.obj
+ 0001:00005e1c       ?AddObject@CServerSet@@QAAJAA_K@Z 10006e1c f   objex:ORSVR.obj
+ 0001:00005e98       ?RemoveObject@CServerSet@@QAAXAA_K@Z 10006e98 f   objex:ORSVR.obj
+ 0001:00005f14       ?Rundown@CServerSet@@QAAHXZ 10006f14 f   objex:ORSVR.obj
+ 0001:00005f90       ?Allocate@CServerSetTable@@QAAPAVCServerSet@@GHAA_K@Z 10006f90 f   objex:ORSVR.obj
+ 0001:00006100       ?CheckForRundowns@CServerSetTable@@QAA_KXZ 10007100 f   objex:ORSVR.obj
+ 0001:00006188       ?RundownSetIfNeeded@CServerSetTable@@QAAH_K@Z 10007188 f   objex:ORSVR.obj
+ 0001:00006228       ?GetInfo@CClientOxid@@QAAJHPAUtagOXID_INFO@@@Z 10007228 f   objex:ORCLNT.obj
+ 0001:000063e4       ??1CClientOid@@UAA@XZ      100073e4 f   objex:ORCLNT.obj
+ 0001:0000643c       ?Hash@CId2TableElement@@UAAKXZ 1000743c f i objex:ORCLNT.obj
+ 0001:00006460       ?Compare@CId2TableElement@@UAAHAAVCTableKey@@@Z 10007460 f i objex:ORCLNT.obj
+ 0001:000064ac       ?Compare@CId2TableElement@@UAAHPBVCTableElement@@@Z 100074ac f i objex:ORCLNT.obj
+ 0001:000064f8       ?UpdateInfo@CClientOxid@@QAAJPAUtagOXID_INFO@@@Z 100074f8 f   objex:ORCLNT.obj
+ 0001:000065d4       ?Reference@CClientOxid@@UAAXXZ 100075d4 f   objex:ORCLNT.obj
+ 0001:00006610       ?Release@CClientOxid@@UAAKXZ 10007610 f   objex:ORCLNT.obj
+ 0001:00006640       ?RegisterObject@CClientSet@@QAAJPAVCClientOid@@@Z 10007640 f   objex:ORCLNT.obj
+ 0001:00006674       ?PingServer@CClientSet@@QAAJXZ 10007674 f   objex:ORCLNT.obj
+ 0001:00006bf0       ??_GCClientOid@@UAAPAXI@Z  10007bf0 f i objex:ORCLNT.obj
+ 0001:00006bf0       ??_ECClientOid@@UAAPAXI@Z  10007bf0 f i objex:ORCLNT.obj
+ 0001:00006c14       ?RemoveMatching@CTableElement@@IAAPAV1@PAV1@PAPAV1@@Z 10007c14 f   objex:GENTABLE.obj
+ 0001:00006c74       ??0CHashTable@@QAA@AAJI@Z  10007c74 f   objex:GENTABLE.obj
+ 0001:00006ce8       ??1CHashTable@@QAA@XZ      10007ce8 f   objex:GENTABLE.obj
+ 0001:00006cec       ?Remove@CHashTable@@QAAXPAVCTableElement@@@Z 10007cec f   objex:GENTABLE.obj
+ 0001:00006d7c       ?Lookup@CHashTable@@QAAPAVCTableElement@@AAVCTableKey@@@Z 10007d7c f   objex:GENTABLE.obj
+ 0001:00006df0       ?Add@CHashTable@@QAAXPAVCTableElement@@@Z 10007df0 f   objex:GENTABLE.obj
+ 0001:00006f14       ?AddOxid@CProcess@@QAAJPAVCServerOxid@@@Z 10007f14 f   objex:PROCESS.obj
+ 0001:00006f74       ?RemoveOxid@CProcess@@QAAHPAVCServerOxid@@@Z 10007f74 f   objex:PROCESS.obj
+ 0001:00006fb8       ?AddRemoteOxid@CProcess@@QAAJPAVCClientOxid@@@Z 10007fb8 f   objex:PROCESS.obj
+ 0001:00007014       ?RemoveRemoteOxid@CProcess@@QAAXPAVCClientOxid@@@Z 10008014 f   objex:PROCESS.obj
+ 0001:0000703c       ?IsOwner@CProcess@@QAAHPAVCServerOxid@@@Z 1000803c f   objex:PROCESS.obj
+ 0001:00007044       ?dsaValid@@YAHPAUtagDUALSTRINGARRAY@@@Z 10008044 f i objex:PROCESS.obj
+ 0001:000070c4       ??1CProcess@@UAA@XZ        100080c4 f   objex:PROCESS.obj
+ 0001:00007138       ?AddOid@CProcess@@QAAJPAVCClientOid@@@Z 10008138 f   objex:PROCESS.obj
+ 0001:00007170       ?RemoveOid@CProcess@@QAAPAVCClientOid@@PAV2@@Z 10008170 f   objex:PROCESS.obj
+ 0001:000071b8       ?AddClassReg@CProcess@@QAAXU_GUID@@K@Z 100081b8 f   objex:PROCESS.obj
+ 0001:00007298       ??0CProcess@@QAA@AAJ@Z     10008298 f   objex:PROCESS.obj
+ 0001:00007388       ??_GCProcess@@UAAPAXI@Z    10008388 f i objex:PROCESS.obj
+ 0001:00007388       ??_ECProcess@@UAAPAXI@Z    10008388 f i objex:PROCESS.obj
+ 0001:000073ac       ?ProcessBindings@CProcess@@QAAJPAUtagDUALSTRINGARRAY@@0@Z 100083ac f   objex:PROCESS.obj
+ 0001:000074bc       ?GetLocalBindings@CProcess@@QAAPAUtagDUALSTRINGARRAY@@XZ 100084bc f   objex:PROCESS.obj
+ 0001:0000752c       ?GetRemoteBindings@CProcess@@QAAPAUtagDUALSTRINGARRAY@@XZ 1000852c f   objex:PROCESS.obj
+ 0001:000075dc       ?RemoveClassReg@CProcess@@QAAXU_GUID@@K@Z 100085dc f   objex:PROCESS.obj
+ 0001:0000766c       ?GetBindingHandle@CProcess@@QAAPAXXZ 1000866c f   objex:PROCESS.obj
+ 0001:000076dc       ?EnsureRealBinding@CProcess@@AAAXXZ 100086dc f   objex:PROCESS.obj
+ 0001:0000772c       ?AllocateBinding@CProcess@@AAAPAXXZ 1000872c f   objex:PROCESS.obj
+ 0001:000077b8       ?RundownOids@CProcess@@QAAXGQA_KU_GUID@@QAE@Z 100087b8 f   objex:PROCESS.obj
+ 0001:00007a10       ?UseProtseqIfNeeded@CProcess@@QAAJGQAG@Z 10008a10 f   objex:PROCESS.obj
+ 0001:00007cb8       ?ReferenceProcess@@YAPAVCProcess@@PAXH@Z 10008cb8 f   objex:PROCESS.obj
+ 0001:00007d08       ?Rundown@CProcess@@QAAXXZ  10008d08 f   objex:PROCESS.obj
+ 0001:00007e74       ?ReleaseProcess@@YAXPAVCProcess@@@Z 10008e74 f   objex:PROCESS.obj
+ 0001:00007ec8       ?BindingFailed@CMid@@QAAXG@Z 10008ec8 f   objex:MID.obj
+ 0001:00007f20       ?GetBinding@CMid@@QAAPAXAAG@Z 10008f20 f   objex:MID.obj
+ 0001:00007fcc       ?GetBinding@@YAPAXPAG@Z    10008fcc f   objex:STRING.obj
+ 0001:00008128       ?GetBindingToOr@@YAPAXPAG@Z 10009128 f   objex:STRING.obj
+ 0001:00008264       ?GetStringBinding@@YAPAUtagDUALSTRINGARRAY@@PAG0@Z 10009264 f   objex:STRING.obj
+ 0001:00008394       ?ConvertToRemote@@YAJPAUtagDUALSTRINGARRAY@@PAPAU1@@Z 10009394 f   objex:STRING.obj
+ 0001:000084c4       ?CompressStringArray@@YAPAUtagDUALSTRINGARRAY@@PAU1@@Z 100094c4 f   objex:STRING.obj
+ 0001:0000863c       ?FindMatchingProtseq@@YAPAGPAGG0@Z 1000963c f   objex:STRING.obj
+ 0001:00008708       ?FindMatchingProtseq@@YAGGQAGPAG@Z 10009708 f   objex:STRING.obj
+ 0001:00008780       ?FindMatchingProtseq@@YAPAGGPAG@Z 10009780 f   objex:STRING.obj
+ 0001:000087c4       ?TestBinding@@YAHPAG@Z     100097c4 f   objex:STRING.obj
+ 0001:000088bc       ?Insert@CBList@@QAAJPAX@Z  100098bc f   objex:BLIST.obj
+ 0001:000089e0       ?Remove@CBList@@QAAPAXPAX@Z 100099e0 f   objex:BLIST.obj
+ 0001:00008a80       ?Member@CBList@@QAAHPAX@Z  10009a80 f   objex:BLIST.obj
+ 0001:00008b0c       ?CheckLocalSecurity@@YAXPAXPAVCProcess@@@Z 10009b0c f   objex:MANAGER.obj
+ 0001:00008b5c       ?UpdateChannelHooks@@YAXPAJPAPAU_GUID@@@Z 10009b5c f   objex:MANAGER.obj
+ 0001:00008d94       _AllocateReservedIds       10009d94 f   objex:MANAGER.obj
+ 0001:00008dfc       ?NegotiateDCOMVersion@@YAJPAUtagCOMVERSION@@@Z 10009dfc f   objex:MANAGER.obj
+ 0001:00008e2c       _ServerAlive               10009e2c f   objex:MANAGER.obj
+ 0001:00008e34       PHPROCESS_rundown          10009e34 f   objex:MANAGER.obj
+ 0001:00008e48       ?Hash@CMidKey@@UAAKXZ      10009e48 f i objex:MANAGER.obj
+ 0001:00008e50       ?Compare@CMidKey@@UAAHAAVCTableKey@@@Z 10009e50 f i objex:MANAGER.obj
+ 0001:00008e60       ??0CClientOxid@@QAA@AA_KPAVCMid@@GPAGH@Z 10009e60 f i objex:MANAGER.obj
+ 0001:00008efc       ??1CClientOxid@@UAA@XZ     10009efc f i objex:MANAGER.obj
+ 0001:00008f4c       ??_ECClientOxid@@UAAPAXI@Z 10009f4c f i objex:MANAGER.obj
+ 0001:00008f4c       ??_GCClientOxid@@UAAPAXI@Z 10009f4c f i objex:MANAGER.obj
+ 0001:00008f70       ??0CClientOid@@QAA@AA_K0PAVCClientOxid@@PAVCClientSet@@@Z 10009f70 f i objex:MANAGER.obj
+ 0001:00008ff4       ?Ping@CServerSet@@QAAHH@Z  10009ff4 f i objex:MANAGER.obj
+ 0001:00009070       ??0CServerOxid@@QAA@PAVCProcess@@HPAUtagOXID_INFO@@@Z 1000a070 f i objex:MANAGER.obj
+ 0001:00009150       ??0CServerOid@@QAA@PAVCServerOxid@@@Z 1000a150 f i objex:MANAGER.obj
+ 0001:000091c0       _Connect                   1000a1c0 f   objex:MANAGER.obj
+ 0001:00009438       _SimplePing                1000a438 f   objex:MANAGER.obj
+ 0001:000094e8       _ComplexPing               1000a4e8 f   objex:MANAGER.obj
+ 0001:0000967c       ?Hash@CId2Key@@UAAKXZ      1000a67c f i objex:MANAGER.obj
+ 0001:000096a0       ?Compare@CId2Key@@UAAHAAVCTableKey@@@Z 1000a6a0 f i objex:MANAGER.obj
+ 0001:000096ec       ??0CClientSet@@QAA@PAVCMid@@@Z 1000a6ec f i objex:MANAGER.obj
+ 0001:0000978c       ??1CClientSet@@UAA@XZ      1000a78c f i objex:MANAGER.obj
+ 0001:000097dc       ??_ECClientSet@@UAAPAXI@Z  1000a7dc f i objex:MANAGER.obj
+ 0001:000097dc       ??_GCClientSet@@UAAPAXI@Z  1000a7dc f i objex:MANAGER.obj
+ 0001:00009800       ?ResolveClientOXID@@YAKPAX0PA_KPAUtagDUALSTRINGARRAY@@JGPAGPAUtagOXID_INFO@@1H@Z 1000a800 f   objex:MANAGER.obj
+ 0001:00009edc       _ServerAllocateOIDs        1000aedc f   objex:MANAGER.obj
+ 0001:0000a010       _ServerFreeOXIDAndOIDs     1000b010 f   objex:MANAGER.obj
+ 0001:0000a174       _ResolveOxid2              1000b174 f   objex:MANAGER.obj
+ 0001:0000a2e4       _ClientResolveOXID         1000b2e4 f   objex:MANAGER.obj
+ 0001:0000a328       _BulkUpdateOIDs            1000b328 f   objex:MANAGER.obj
+ 0001:0000a918       _ServerAllocateOXIDAndOIDs 1000b918 f   objex:MANAGER.obj
+ 0001:0000aa58       _ResolveOxid               1000ba58 f   objex:MANAGER.obj
+ 0001:0000aa8c       ?AllocateCallId@@YAHAAU_GUID@@@Z 1000ba8c f   objex:CALLID.obj
+ 0001:0000ab58       ?FreeCallId@@YAXH@Z        1000bb58 f   objex:CALLID.obj
+ 0001:0000ab7c       GetComputerName            1000bb7c f i olescm:SCMSVC.obj
+ 0001:0000acc4       ??1CStringID@@UAA@XZ       1000bcc4 f i olescm:SCMSVC.obj
+ 0001:0000ad00       ??_ECStringID@@UAAPAXI@Z   1000bd00 f i olescm:SCMSVC.obj
+ 0001:0000ad00       ??_GCStringID@@UAAPAXI@Z   1000bd00 f i olescm:SCMSVC.obj
+ 0001:0000ad40       ??0CLocSrvList@@QAA@AAJ@Z  1000bd40 f i olescm:SCMSVC.obj
+ 0001:0000ada4       ??0CRemSrvList@@QAA@AAJ@Z  1000bda4 f i olescm:SCMSVC.obj
+ 0001:0000ae08       InitializeSCM              1000be08 f   olescm:SCMSVC.obj
+ 0001:0000af88       InitializeSCMAfterListen   1000bf88 f   olescm:SCMSVC.obj
+ 0001:0000afb4       ServerRegisterClsid        1000bfb4 f   olescm:SCMIF.obj
+ 0001:0000b088       ServerRevokeClsid          1000c088 f   olescm:SCMIF.obj
+ 0001:0000b104       GetThreadID                1000c104 f   olescm:SCMIF.obj
+ 0001:0000b134       UpdateActivationSettings   1000c134 f   olescm:SCMIF.obj
+ 0001:0000b160       ?UpdateActivationSettingsLocal@@YAXXZ 1000c160 f   olescm:SCMIF.obj
+ 0001:0000b17c       ?CopyDualStringArray@@YAJPAUtagDUALSTRINGARRAY@@PAPAU1@@Z 1000c17c f   olescm:SCMIF.obj
+ 0001:0000b1dc       ?GetEntry@CWIPTable@@QAAJKKHPAUtagSTDOBJREF@@PAUtagOXID_INFO@@@Z 1000c1dc f   olescm:SCMIF.obj
+ 0001:0000b2cc       ?Grow@CWIPTable@@AAAKXZ    1000c2cc f   olescm:SCMIF.obj
+ 0001:0000b39c       GetWindowPropInterface     1000c39c f   olescm:SCMIF.obj
+ 0001:0000b3f0       ?AddEntry@CWIPTable@@QAAJKPAUtagSTDOBJREF@@PAUtagOXID_INFO@@PAK@Z 1000c3f0 f   olescm:SCMIF.obj
+ 0001:0000b4f0       RegisterWindowPropInterface 1000c4f0 f   olescm:SCMIF.obj
+ 0001:0000b53c       MIDL_user_allocate         1000c53c f   olescm:RPCALLOC.obj
+ 0001:0000b568       MIDL_user_free             1000c568 f   olescm:RPCALLOC.obj
+ 0001:0000b59c       RegisterEventSource        1000c59c f i olescm:CLS.obj
+ 0001:0000b620       ReportEvent                1000c620 f i olescm:CLS.obj
+ 0001:0000b748       ??_ECOleStaticMutexSem@@UAAPAXI@Z 1000c748 f i olescm:CLS.obj
+ 0001:0000b748       ??_GCOleStaticMutexSem@@UAAPAXI@Z 1000c748 f i olescm:CLS.obj
+ 0001:0000b774       ?SetEndPoint@CClassData@@QAAKPAX_KU_GUID@@K@Z 1000c774 f i olescm:CLS.obj
+ 0001:0000b7dc       ?ResolveORInfo@@YAJPAU_ACTIVATION_PARAMS@@H@Z 1000c7dc f   olescm:CLS.obj
+ 0001:0000b9f0       ?Release@CClassData@@QAAXXZ 1000c9f0 f   olescm:CLS.obj
+ 0001:0000ba4c       ?LogRegisterTimeout@@YAXAAU_GUID@@PAU_ACTIVATION_PARAMS@@@Z 1000ca4c f   olescm:CLS.obj
+ 0001:0000bae8       ?GetSurrogateCmdLine@CClassData@@QAAJPAGPAPAG@Z 1000cae8 f   olescm:CLS.obj
+ 0001:0000bc04       ?GetInProcServerInfo@CClassData@@QAAJPAPAG@Z 1000cc04 f   olescm:CLS.obj
+ 0001:0000bd28       ?CheckForAccessUL@@YAJPAG@Z 1000cd28 f   olescm:CLS.obj
+ 0001:0000bfc8       ?CkIfCallAllowed@CClassData@@AAAJPAU_ACTIVATION_PARAMS@@@Z 1000cfc8 f   olescm:CLS.obj
+ 0001:0000c0f8       ?SkipListCompareClassIDs@@YAHPAX0@Z 1000d0f8 f   olescm:CLS.obj
+ 0001:0000c108       ?SkipListDeleteClassData@@YAXPAX@Z 1000d108 f   olescm:CLS.obj
+ 0001:0000c12c       ?GetClassData@CClassCacheList@@QAAJABU_GUID@@PAPAVCClassData@@HH@Z 1000d12c f   olescm:CLS.obj
+ 0001:0000c398       ?StopServer@CClassCacheList@@QAAXABU_GUID@@K@Z 1000d398 f   olescm:CLS.obj
+ 0001:0000c450       ?ReadRemoteActivationKeys@CClassCacheList@@QAAXXZ 1000d450 f   olescm:CLS.obj
+ 0001:0000c61c       ?SCMRemoveRegistration@@YAXU_GUID@@K@Z 1000d61c f   olescm:CLS.obj
+ 0001:0000c690       ?GetMachineName@@YAJPAGQAGH@Z 1000d690 f   olescm:CLS.obj
+ 0001:0000c7fc       ?CheckLocalCall@@YAXPAX@Z  1000d7fc f   olescm:CLS.obj
+ 0001:0000c840       ?FindCompatibleSurrogate@CClassCacheList@@QAAHPAPAVCClassData@@PAGAAVCPortableRpcHandle@@@Z 1000d840 f   olescm:CLS.obj
+ 0001:0000c8f8       ??_ECClassID@@UAAPAXI@Z    1000d8f8 f i olescm:CLS.obj
+ 0001:0000c8f8       ??_GCClassID@@UAAPAXI@Z    1000d8f8 f i olescm:CLS.obj
+ 0001:0000c91c       ??1CClassData@@UAA@XZ      1000d91c f i olescm:CLS.obj
+ 0001:0000ca08       ??_GCClassData@@UAAPAXI@Z  1000da08 f i olescm:CLS.obj
+ 0001:0000ca08       ??_ECClassData@@UAAPAXI@Z  1000da08 f i olescm:CLS.obj
+ 0001:0000ca48       ??0CClassData@@QAA@ABVCClassID@@PAGPBG1HH2AAJ@Z 1000da48 f   olescm:CLS.obj
+ 0001:0000cbf4       ??0CClassData@@QAA@ABVCClassID@@AAJ@Z 1000dbf4 f   olescm:CLS.obj
+ 0001:0000cc78       ?ActivateAtStorage@CClassData@@QAAHPAJPAU_ACTIVATION_PARAMS@@@Z 1000dc78 f   olescm:CLS.obj
+ 0001:0000cda8       ?ValidateRSN@CClassData@@QAAXXZ 1000dda8 f   olescm:CLS.obj
+ 0001:0000ced4       ??0CClassCacheList@@QAA@AAJ@Z 1000ded4 f   olescm:CLS.obj
+ 0001:0000cf94       ?SetEndPoints@CClassCacheList@@QAAJPAXPAU_RegInput@@PAU_RegOutput@@@Z 1000df94 f   olescm:CLS.obj
+ 0001:0000d378       ?ActivateRemote@CClassData@@QAAHPAJPAU_ACTIVATION_PARAMS@@@Z 1000e378 f   olescm:CLS.obj
+ 0001:0000d490       ?GetServer@CClassData@@QAAJPAU_ACTIVATION_PARAMS@@AAVCPortableRpcHandle@@AAH22@Z 1000e490 f   olescm:CLS.obj
+ 0001:0000d8d0       ?Activation@@YAJPAU_ACTIVATION_PARAMS@@@Z 1000e8d0 f   olescm:CLS.obj
+ 0001:0000dfb8       ?GetRegistrySecDescUL@@YAJPAUHKEY__@@PAGPAPAG@Z 1000efb8 f   olescm:INIT.obj
+ 0001:0000e140       ?HexStringToDword@@YAHAAPBGAAKHG@Z 1000f140 f   olescm:INIT.obj
+ 0001:0000e204       GUIDFromString             1000f204 f   olescm:INIT.obj
+ 0001:0000e3c4       ?Cleanup@CAppIDData@@QAAXXZ 1000f3c4 f   olescm:INIT.obj
+ 0001:0000e424       ??0CClassRegistryReader@@QAA@XZ 1000f424 f   olescm:INIT.obj
+ 0001:0000e460       ?QueryStripRegValue@@YAJPAUHKEY__@@PBGPAGPAJ@Z 1000f460 f   olescm:INIT.obj
+ 0001:0000e574       ?QueryStripRegNamedValue@@YAJPAUHKEY__@@PBGPAGPAJPAH@Z 1000f574 f   olescm:INIT.obj
+ 0001:0000e668       ?ReadEntries@CAppIDData@@QAAJPAG@Z 1000f668 f   olescm:INIT.obj
+ 0001:0000e830       ?ReadClassEntry@CClassRegistryReader@@AAAJPAUHKEY__@@HH@Z 1000f830 f   olescm:INIT.obj
+ 0001:0000eba4       ?ReadSingleClass@CClassRegistryReader@@QAAJABU_GUID@@HH@Z 1000fba4 f   olescm:INIT.obj
+ 0001:0000ec34       ?NewClassData@CClassRegistryReader@@QAAPAVCClassData@@AAJ@Z 1000fc34 f   olescm:INIT.obj
+ 0001:0000ee58       ?InitSCMRegistry@@YAJXZ    1000fe58 f   olescm:INIT.obj
+ 0001:0000ef04       ??1CClassRegistryReader@@QAA@XZ 1000ff04 f   olescm:INIT.obj
+ 0001:0000ef54       ?StartServer@CLocalServer@@QAAHAAU_GUID@@PAGPAPAX1H@Z 1000ff54 f   olescm:CLSDATA.obj
+ 0001:0000f0d0       ??0CStringID@@QAA@PBGAAJ@Z 100100d0 f   olescm:CLSDATA.obj
+ 0001:0000f1b8       ?Release@CLocalServer@@QAAKAAVCLocSrvList@@@Z 100101b8 f   olescm:CLSDATA.obj
+ 0001:0000f1fc       ?SkipListCompareStringIDs@@YAHPAX0@Z 100101fc f   olescm:CLSDATA.obj
+ 0001:0000f218       ?SkipListDeleteLocalServer@@YAXPAX@Z 10010218 f   olescm:CLSDATA.obj
+ 0001:0000f234       ??_GCLocalServer@@UAAPAXI@Z 10010234 f i olescm:CLSDATA.obj
+ 0001:0000f234       ??_ECLocalServer@@UAAPAXI@Z 10010234 f i olescm:CLSDATA.obj
+ 0001:0000f288       ?Add@CLocSrvList@@QAAPAVCLocalServer@@PBGAAJ@Z 10010288 f   olescm:CLSDATA.obj
+ 0001:0000f3ac       ?LogRemoteSideUnavailable@@YAXPAU_ACTIVATION_PARAMS@@PAG@Z 100103ac f   olescm:REMACT.obj
+ 0001:0000f424       ?LogRemoteSideFailure@@YAXPAU_ACTIVATION_PARAMS@@PAG1J@Z 10010424 f   olescm:REMACT.obj
+ 0001:0000f51c       ?CreateRemoteBinding@@YAJPAGHHPAU_COAUTHINFO@@PAPAX@Z 1001051c f   olescm:REMACT.obj
+ 0001:0000f688       ?CallRemoteSCM@@YAJPAXGPAU_ACTIVATION_PARAMS@@PAGPAJ@Z 10010688 f   olescm:REMACT.obj
+ 0001:0000f794       ??0CRemoteServer@@QAA@PBGAAJ@Z 10010794 f   olescm:REMACT.obj
+ 0001:0000f7cc       ?ReleaseHandle@CRemoteServer@@QAAXPAX@Z 100107cc f   olescm:REMACT.obj
+ 0001:0000f838       ?InvalidateHandle@CRemoteServer@@QAAXPAX@Z 10010838 f   olescm:REMACT.obj
+ 0001:0000f8a8       ?GetProtseqId@CRemoteServer@@QAAGPAX@Z 100108a8 f   olescm:REMACT.obj
+ 0001:0000f904       ?Add@CRemSrvList@@QAAPAVCRemoteServer@@PBGAAJ@Z 10010904 f   olescm:REMACT.obj
+ 0001:0000fa0c       ?CopyAuthIdentity@CRemoteServer@@CAJPAPAU_COAUTHIDENTITY@@PAU2@@Z 10010a0c f   olescm:REMACT.obj
+ 0001:0000fc20       ?CopyAuthInfo@CRemoteServer@@CAJPAPAU_COAUTHINFO@@PAU2@@Z 10010c20 f   olescm:REMACT.obj
+ 0001:0000fd78       ?FEquivalentAuthIdent@CRemoteServer@@CAHPAU_COAUTHIDENTITY@@0@Z 10010d78 f   olescm:REMACT.obj
+ 0001:0000fe80       ?FEquivalentAuthInfo@CRemoteServer@@CAHPAU_COAUTHINFO@@0@Z 10010e80 f   olescm:REMACT.obj
+ 0001:0000ff80       ?SkipListDeleteRemoteServer@@YAXPAX@Z 10010f80 f   olescm:REMACT.obj
+ 0001:0000ff9c       ??_GCRemoteServer@@UAAPAXI@Z 10010f9c f i olescm:REMACT.obj
+ 0001:0000ff9c       ??_ECRemoteServer@@UAAPAXI@Z 10010f9c f i olescm:REMACT.obj
+ 0001:0000ffe8       ?LookupHandle@CRemoteServer@@QAAPAXPAU_COAUTHINFO@@H@Z 10010fe8 f   olescm:REMACT.obj
+ 0001:00010084       ?InsertHandle@CRemoteServer@@QAAXGPAXPAU_COAUTHINFO@@H@Z 10011084 f   olescm:REMACT.obj
+ 0001:000101a0       ?Activate@CRemoteServer@@QAAJPAJPAU_ACTIVATION_PARAMS@@PAG2H@Z 100111a0 f   olescm:REMACT.obj
+ 0001:000103f8       ?RemoteActivationCall@@YAJPAU_ACTIVATION_PARAMS@@PAG1@Z 100113f8 f   olescm:REMACT.obj
+ 0001:000105b8       ??0CScmHashTable@@QAA@K@Z  100115b8 f i olescm:ROTIF.obj
+ 0001:00010628       IrotRegister               10011628 f   olescm:ROTIF.obj
+ 0001:0001069c       IrotRevoke                 1001169c f   olescm:ROTIF.obj
+ 0001:000106fc       IrotIsRunning              100116fc f   olescm:ROTIF.obj
+ 0001:0001073c       IrotGetObject              1001173c f   olescm:ROTIF.obj
+ 0001:00010794       IrotNoteChangeTime         10011794 f   olescm:ROTIF.obj
+ 0001:000107dc       IrotGetTimeOfLastChange    100117dc f   olescm:ROTIF.obj
+ 0001:00010820       IrotEnumRunning            10011820 f   olescm:ROTIF.obj
+ 0001:00010868       ?GetObjectFromRot@@YAJPAGPAPAUtagInterfaceData@@@Z 10011868 f   olescm:ROTIF.obj
+ 0001:000108f4       ??0CScmRot@@QAA@AAJPAG@Z   100118f4 f i olescm:ROTIF.obj
+ 0001:00010950       ??_GCScmRot@@QAAPAXI@Z     10011950 f i olescm:ROTIF.obj
+ 0001:000109ac       ?InitScmRot@@YAJXZ         100119ac f   olescm:ROTIF.obj
+ 0001:00010a78       ??0CPortableServerLock@@QAA@AAVCSafeLocalServer@@@Z 10011a78 f   olescm:PORT.obj
+ 0001:00010a98       ??0CPortableServerEvent@@QAA@PAVCClassData@@@Z 10011a98 f   olescm:PORT.obj
+ 0001:00010abc       ??0CScmArrayFValue@@QAA@I@Z 10011abc f   olescm:ARRAY_FV.obj
+ 0001:00010ad8       ??1CScmArrayFValue@@QAA@XZ 10011ad8 f   olescm:ARRAY_FV.obj
+ 0001:00010b04       ?SetSize@CScmArrayFValue@@QAAHHH@Z 10011b04 f   olescm:ARRAY_FV.obj
+ 0001:00010ca4       ?InsertAt@CScmArrayFValue@@QAAHHPAXH@Z 10011ca4 f   olescm:ARRAY_FV.obj
+ 0001:00010d60       ?Free@SSrvRegistration@@QAAXXZ 10011d60 f   olescm:SRVREG.obj
+ 0001:00010db0       ??1CSrvRegList@@QAA@XZ     10011db0 f   olescm:SRVREG.obj
+ 0001:00010e18       ?Insert@CSrvRegList@@QAAKPAX_KU_GUID@@K@Z 10011e18 f   olescm:SRVREG.obj
+ 0001:00010fd0       ?Delete@CSrvRegList@@QAAHPAX@Z 10011fd0 f   olescm:SRVREG.obj
+ 0001:00011064       ?GetHandle@CSrvRegList@@QAAHAAVCPortableRpcHandle@@H@Z 10012064 f   olescm:SRVREG.obj
+ 0001:0001116c       ?FindCompatibleSurrogate@CSrvRegList@@QAAHAAVCPortableRpcHandle@@@Z 1001216c f   olescm:SRVREG.obj
+ 0001:00011174       ?InUse@CSrvRegList@@QAAHXZ 10012174 f   olescm:SRVREG.obj
+ 0001:000111d8       ?InvalidateHandle@CSrvRegList@@QAAXPAX@Z 100121d8 f   olescm:SRVREG.obj
+ 0001:00011250       ?GetAnonymousHandle@CSrvRegList@@QAAXAAVCPortableRpcHandle@@PAPAX@Z 10012250 f   olescm:SRVREG.obj
+ 0001:0001144c       ?DecHandleCount@CSrvRegList@@QAAXPAX@Z 1001244c f   olescm:SRVREG.obj
+ 0001:0001150c       ?GetBaseServerName@@YAPAGPAG@Z 1001250c f   olescm:actmisc.obj
+ 0001:00011530       ?IsLocalMachine@@YAHPAG@Z  10012530 f   olescm:actmisc.obj
+ 0001:00011594       ?IsValidMachine@@YAHPAG@Z  10012594 f   olescm:actmisc.obj
+ 0001:000115c8       ObjectServerGetClassObject 100125c8 f   olescm:objsrv_c.obj
+ 0001:00011624       ObjectServerCreateInstance 10012624 f   olescm:objsrv_c.obj
+ 0001:00011680       ObjectServerGetInstance    10012680 f   olescm:objsrv_c.obj
+ 0001:000116e0       ObjectServerLoadDll        100126e0 f   olescm:objsrv_c.obj
+ 0001:000117f4       SCMGetClassObject          100127f4 f   olescm:DSCMIF.obj
+ 0001:00011950       SCMCreateInstance          10012950 f   olescm:DSCMIF.obj
+ 0001:00011ab4       SCMGetPersistentInstance   10012ab4 f   olescm:DSCMIF.obj
+ 0001:00011c48       DummyQueryInterfaceIDSCM   10012c48 f   olescm:DSCMIF.obj
+ 0001:00011c60       DummyAddRefIDSCM           10012c60 f   olescm:DSCMIF.obj
+ 0001:00011c78       DummyReleaseIDSCM          10012c78 f   olescm:DSCMIF.obj
+ 0001:00011c90       ??1CScmHashEntry@@UAA@XZ   10012c90 f   olescm:SCMHASH.obj
+ 0001:00011ca0       ??1CScmHashTable@@QAA@XZ   10012ca0 f   olescm:SCMHASH.obj
+ 0001:00011d20       ?SetAt@CScmHashTable@@QAAXKPAVCScmHashEntry@@@Z 10012d20 f   olescm:SCMHASH.obj
+ 0001:00011d64       ?RemoveEntry@CScmHashTable@@QAAHKPAVCScmHashEntry@@@Z 10012d64 f   olescm:SCMHASH.obj
+ 0001:00011dc8       ?FindNextBucketWithEntry@CScmHashIter@@AAAPAVCScmHashEntry@@XZ 10012dc8 f   olescm:SCMHASH.obj
+ 0001:00011e20       ?GetNext@CScmHashIter@@QAAPAVCScmHashEntry@@XZ 10012e20 f   olescm:SCMHASH.obj
+ 0001:00011e48       ??_ECScmHashEntry@@UAAPAXI@Z 10012e48 f i olescm:SCMHASH.obj
+ 0001:00011e48       ??_GCScmHashEntry@@UAAPAXI@Z 10012e48 f i olescm:SCMHASH.obj
+ 0001:00011e8c       ?AllocateAndCopy@@YAPAUtagInterfaceData@@PAU1@@Z 10012e8c f   olescm:SCMROT.obj
+ 0001:00011ec4       ?GetEntryFromScmReg@@YAPAVCScmRotEntry@@PAU_SCMREGKEY@@@Z 10012ec4 f   olescm:SCMROT.obj
+ 0001:00011f24       ??0CScmRotEntry@@QAA@KPAU_MnkEqBuf@@PAU_FILETIME@@KPAUtagInterfaceData@@2@Z 10012f24 f   olescm:SCMROT.obj
+ 0001:00012000       ??_ECScmRotEntry@@UAAPAXI@Z 10013000 f i olescm:SCMROT.obj
+ 0001:00012000       ??_GCScmRotEntry@@UAAPAXI@Z 10013000 f i olescm:SCMROT.obj
+ 0001:00012058       ?IsEqual@CScmRotEntry@@UAAHPAXI@Z 10013058 f   olescm:SCMROT.obj
+ 0001:00012094       ?Revoke@CScmRot@@QAAJPAU_SCMREGKEY@@HPAPAUtagInterfaceData@@1@Z 10013094 f   olescm:SCMROT.obj
+ 0001:0001214c       ?NoteChangeTime@CScmRot@@QAAJPAU_SCMREGKEY@@PAU_FILETIME@@@Z 1001314c f   olescm:SCMROT.obj
+ 0001:00012198       ?EnumRunning@CScmRot@@QAAJPAPAU_MkInterfaceList@@@Z 10013198 f   olescm:SCMROT.obj
+ 0001:0001227c       ?GetRotEntry@CScmRot@@AAAPAVCScmRotEntry@@PAU_MnkEqBuf@@@Z 1001327c f   olescm:SCMROT.obj
+ 0001:000122d8       ?Register@CScmRot@@QAAJPAU_MnkEqBuf@@PAUtagInterfaceData@@1PAU_FILETIME@@KPAGPAU_SCMREGKEY@@@Z 100132d8 f   olescm:SCMROT.obj
+ 0001:00012418       ?IsRunning@CScmRot@@QAAJPAU_MnkEqBuf@@@Z 10013418 f   olescm:SCMROT.obj
+ 0001:00012450       ?GetObjectW@CScmRot@@QAAJKPAU_MnkEqBuf@@PAU_SCMREGKEY@@PAPAUtagInterfaceData@@@Z 10013450 f   olescm:SCMROT.obj
+ 0001:00012528       ?GetTimeOfLastChange@CScmRot@@QAAJPAU_MnkEqBuf@@PAU_FILETIME@@@Z 10013528 f   olescm:SCMROT.obj
+ 0001:00012578       ??0CScmRotHintTable@@QAA@PAG@Z 10013578 f   olescm:SROTHINT.obj
+ 0001:000125ec       IROT_IrotIsRunning         100135ec f   olescm:irot_s.obj
+ 0001:00012878       ?Init@COleStaticMutexSem@@QAAXXZ 10013878 f   common:OLESEM.obj
+ 0001:000128b0       ??1COleStaticMutexSem@@UAA@XZ 100138b0 f   common:OLESEM.obj
+ 0001:000128e4       ?Request@COleStaticMutexSem@@QAAXXZ 100138e4 f   common:OLESEM.obj
+ 0001:00012928       ?PrivHeapAlloc@@YAPAXPAXKK@Z 10013928 f   common:CCOMPAPI.obj
+ 0001:00012974       ?PrivHeapFree@@YAHPAXK0@Z  10013974 f   common:CCOMPAPI.obj
+ 0001:0001297c       ?wStringFromUUID@@YAJABU_GUID@@PAG@Z 1001397c f   common:CCOMPAPI.obj
+ 0001:000129f4       ?wStringFromGUID2@@YAHABU_GUID@@PAGH@Z 100139f4 f   common:CCOMPAPI.obj
+ 0001:00012a30       RpcServerUseProtseqEpExW   10013a30 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012a40       RpcMgmtIsServerListening   10013a40 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012a50       RpcServerListen            10013a50 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012a60       I_RpcAllocate              10013a60 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012a70       RpcServerRegisterAuthInfoW 10013a70 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012a80       RpcBindingVectorFree       10013a80 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012a90       RpcStringFreeW             10013a90 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012aa0       RpcStringBindingParseW     10013aa0 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012ab0       RpcBindingToStringBindingW 10013ab0 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012ac0       RpcServerInqBindings       10013ac0 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012ad0       I_RpcFree                  10013ad0 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012ae0       RpcServerRegisterIf        10013ae0 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012af0       RpcBindingFree             10013af0 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012b00       RpcBindingReset            10013b00 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012b10       RpcBindingSetAuthInfoExW   10013b10 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012b20       I_RpcBindingSetAsync       10013b20 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012b30       RpcBindingCopy             10013b30 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012b40       RpcBindingSetObject        10013b40 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012b50       RpcBindingFromStringBindingW 10013b50 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012b60       RpcRaiseException          10013b60 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012b70       I_RpcBindingInqTransportType 10013b70 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012b80       RpcBindingSetAuthInfoW     10013b80 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012b90       RpcImpersonateClient       10013b90 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012ba0       UuidCreate                 10013ba0 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012bb0       I_RpcBindingInqClientGroupsW 10013bb0 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012bc0       RpcBindingInqAuthClientW   10013bc0 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012bd0       I_RpcBindingIsClientLocal  10013bd0 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012be0       RpcRevertToSelf            10013be0 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012bf0       RpcStringBindingComposeW   10013bf0 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012c00       NdrServerCall2             10013c00 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012c10       NdrClientCall2             10013c10 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012c20       I_RpcGetBuffer             10013c20 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012c30       NdrConformantStructUnmarshall 10013c30 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012c40       NdrPointerUnmarshall       10013c40 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012c50       NdrServerContextUnmarshall 10013c50 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012c60       NdrConvert                 10013c60 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012c70       NdrServerInitializeNew     10013c70 f   rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:00012c80       WSAStartup                 10013c80 f   winsock:WINSOCK.dll
+ 0001:00012c90       inet_ntoa                  10013c90 f   winsock:WINSOCK.dll
+ 0001:00012ca0       gethostbyname              10013ca0 f   winsock:WINSOCK.dll
+ 0001:00012cb0       gethostname                10013cb0 f   winsock:WINSOCK.dll
+ 0001:00012cc0       lstrcmpW                   10013cc0 f   coredll:COREDLL.dll
+ 0001:00012cd0       EventModify                10013cd0 f   coredll:COREDLL.dll
+ 0001:00012ce0       CreateEventW               10013ce0 f   coredll:COREDLL.dll
+ 0001:00012cf0       Sleep                      10013cf0 f   coredll:COREDLL.dll
+ 0001:00012d00       InitializeCriticalSection  10013d00 f   coredll:COREDLL.dll
+ 0001:00012d10       CloseHandle                10013d10 f   coredll:COREDLL.dll
+ 0001:00012d20       CreateThread               10013d20 f   coredll:COREDLL.dll
+ 0001:00012d30       SetLastError               10013d30 f   coredll:COREDLL.dll
+ 0001:00012d40       RegCloseKey                10013d40 f   coredll:COREDLL.dll
+ 0001:00012d50       RegQueryValueExW           10013d50 f   coredll:COREDLL.dll
+ 0001:00012d60       RegOpenKeyExW              10013d60 f   coredll:COREDLL.dll
+ 0001:00012d70       LocalFree                  10013d70 f   coredll:COREDLL.dll
+ 0001:00012d80       GetLastError               10013d80 f   coredll:COREDLL.dll
+ 0001:00012d90       CeDeleteRecord             10013d90 f   coredll:COREDLL.dll
+ 0001:00012da0       CeReadRecordPropsEx        10013da0 f   coredll:COREDLL.dll
+ 0001:00012db0       CeOpenDatabaseEx2          10013db0 f   coredll:COREDLL.dll
+ 0001:00012dc0       GetTickCount               10013dc0 f   coredll:COREDLL.dll
+ 0001:00012dd0       WaitForSingleObject        10013dd0 f   coredll:COREDLL.dll
+ 0001:00012de0       InterlockedIncrement       10013de0 f   coredll:COREDLL.dll
+ 0001:00012df0       InterlockedDecrement       10013df0 f   coredll:COREDLL.dll
+ 0001:00012e00       FreeLibrary                10013e00 f   coredll:COREDLL.dll
+ 0001:00012e10       GetProcAddressW            10013e10 f   coredll:COREDLL.dll
+ 0001:00012e20       LoadLibraryW               10013e20 f   coredll:COREDLL.dll
+ 0001:00012e30       MultiByteToWideChar        10013e30 f   coredll:COREDLL.dll
+ 0001:00012e40       HeapCreate                 10013e40 f   coredll:COREDLL.dll
+ 0001:00012e50       GetProcessHeap             10013e50 f   coredll:COREDLL.dll
+ 0001:00012e60       HeapAlloc                  10013e60 f   coredll:COREDLL.dll
+ 0001:00012e70       HeapFree                   10013e70 f   coredll:COREDLL.dll
+ 0001:00012e80       SystemTimeToFileTime       10013e80 f   coredll:COREDLL.dll
+ 0001:00012e90       GetLocalTime               10013e90 f   coredll:COREDLL.dll
+ 0001:00012ea0       LeaveCriticalSection       10013ea0 f   coredll:COREDLL.dll
+ 0001:00012eb0       EnterCriticalSection       10013eb0 f   coredll:COREDLL.dll
+ 0001:00012ec0       DeleteCriticalSection      10013ec0 f   coredll:COREDLL.dll
+ 0001:00012ed0       __GetUserKData             10013ed0 f   coredll:COREDLL.dll
+ 0001:00012ee0       IsBadWritePtr              10013ee0 f   coredll:COREDLL.dll
+ 0001:00012ef0       RegEnumValueW              10013ef0 f   coredll:COREDLL.dll
+ 0001:00012f00       RegQueryInfoKeyW           10013f00 f   coredll:COREDLL.dll
+ 0001:00012f10       InterlockedExchange        10013f10 f   coredll:COREDLL.dll
+ 0001:00012f20       LocalAlloc                 10013f20 f   coredll:COREDLL.dll
+ 0001:00012f30       GetUserNameExW             10013f30 f   coredll:COREDLL.dll
+ 0001:00012f40       lstrcmpiW                  10013f40 f   coredll:COREDLL.dll
+ 0001:00012f50       FindClose                  10013f50 f   coredll:COREDLL.dll
+ 0001:00012f60       FindFirstFileW             10013f60 f   coredll:COREDLL.dll
+ 0001:00012f70       TerminateProcess           10013f70 f   coredll:COREDLL.dll
+ 0001:00012f80       GetStringTypeW             10013f80 f   coredll:COREDLL.dll
+ 0001:00012f90       RegCreateKeyExW            10013f90 f   coredll:COREDLL.dll
+ 0001:00012fa0       CreateProcessW             10013fa0 f   coredll:COREDLL.dll
+ 0001:00012fb0       CharUpperW                 10013fb0 f   coredll:COREDLL.dll
+ 0001:00012fc0       StringCchPrintfW           10013fc0 f   coredll:COREDLL.dll
+ 0001:00012fd0       IsBadReadPtr               10013fd0 f   coredll:COREDLL.dll
+ 0001:00012fe0       fclose                     10013fe0 f   olestubs:olefst1.obj
+ 0001:00012fe8       fwprintf                   10013fe8 f   olestubs:olefst5.obj
+ 0001:00012ffc       DllMain                    10013ffc f   corelib0:dllmain.obj
+ 0001:00013108       _DllMainCRTStartup         10014108 f   corelib0:pegdmain.obj
+ 0001:00013134       __GSHandlerCheckCommon     10014134 f   corelib0:gshandler.obj
+ 0001:00013170       __GSHandlerCheck           10014170 f   corelib0:gshandler.obj
+ 0001:00013190       __security_init_cookie     10014190 f   corelib0:seccinit.obj
+ 0001:000131dc       __security_check_cookie    100141dc f   corelib0:armsecgs.obj
+ 0001:000131ec       __gsfailure                100141ec     corelib0:armsecgs.obj
+ 0001:00013230       __GSHandlerCheck_SEH       10014230 f   corelib0:gshandlerseh.obj
+ 0001:00013284       _onexit                    10014284 f   corelib0:onexit.obj
+ 0001:00013408       atexit                     10014408 f   corelib0:onexit.obj
+ 0001:00013508       _cexit                     10014508 f   corelib0:cexit.obj
+ 0001:00013518       _initterm                  10014518 f   corelib0:crt0dat.obj
+ 0001:00013544       _cinit                     10014544 f   corelib0:crt0dat.obj
+ 0001:000135a4       __crt_ExitProcess          100145a4 f   corelib0:exitproc_proxy.obj
+ 0001:000135b0       wcsstr                     100145b0 f   corelib1:COREDLL.dll
+ 0001:000135c0       wcschr                     100145c0 f   corelib1:COREDLL.dll
+ 0001:000135d0       memcpy                     100145d0 f   corelib1:COREDLL.dll
+ 0001:000135e0       memcmp                     100145e0 f   corelib1:COREDLL.dll
+ 0001:000135f0       _purecall                  100145f0 f   corelib1:COREDLL.dll
+ 0001:00013600       wcscpy                     10014600 f   corelib1:COREDLL.dll
+ 0001:00013610       wcslen                     10014610 f   corelib1:COREDLL.dll
+ 0001:00013620       _wtoi                      10014620 f   corelib1:COREDLL.dll
+ 0001:00013630       memset                     10014630 f   corelib1:COREDLL.dll
+ 0001:00013640       wcscat                     10014640 f   corelib1:COREDLL.dll
+ 0001:00013650       towupper                   10014650 f   corelib1:COREDLL.dll
+ 0001:00013660       _wfopen_s                  10014660 f   corelib1:COREDLL.dll
+ 0001:00013670       swprintf_s                 10014670 f   corelib1:COREDLL.dll
+ 0001:00013680       _wcsicmp                   10014680 f   corelib1:COREDLL.dll
+ 0001:00013690       memmove                    10014690 f   corelib1:COREDLL.dll
+ 0001:000136a0       __C_specific_handler       100146a0 f   corelib1:COREDLL.dll
+ 0001:000136b0       _XcptFilter                100146b0 f   corelib1:COREDLL.dll
+ 0001:000136c0       __security_gen_cookie2     100146c0 f   corelib1:COREDLL.dll
+ 0001:000136d0       __report_gsfailure         100146d0 f   corelib1:COREDLL.dll
+ 0001:000136e0       free                       100146e0 f   corelib1:COREDLL.dll
+ 0001:000136f0       malloc                     100146f0 f   corelib1:COREDLL.dll
+ 0001:00013700       realloc                    10014700 f   corelib1:COREDLL.dll
+ 0001:00013710       _msize                     10014710 f   corelib1:COREDLL.dll
+ 0001:00013720       ResolveOxid                10014720 f   dcomidl:objex_c.obj
+ 0001:00013778       SimplePing                 10014778 f   dcomidl:objex_c.obj
+ 0001:000137d4       ComplexPing                100147d4 f   dcomidl:objex_c.obj
+ 0001:00013830       ServerAlive                10014830 f   dcomidl:objex_c.obj
+ 0001:0001388c       ResolveOxid2               1001488c f   dcomidl:objex_c.obj
+ 0001:000138e8       RawRundownOid              100148e8 f   dcomidl:odeth_c.obj
+ 0001:000139f8       UseProtseq                 100149f8 f   dcomidl:orcb_c.obj
+ 0001:00013a50       GetCustomProtseqInfo       10014a50 f   dcomidl:orcb_c.obj
+ 0001:00013b64       RemoteActivation           10014b64 f   dcomidl:remact_c.obj
+ 0001:00013c74       ?Allocate@CSkipList@@AAAPAXK@Z 10014c74 f i inc:SKIPLIST.obj
+ 0001:00013cc0       ?Deallocate@CSkipList@@AAAXPAX@Z 10014cc0 f i inc:SKIPLIST.obj
+ 0001:00013d0c       ?GetSkLevel@@YAHH@Z        10014d0c f   inc:SKIPLIST.obj
+ 0001:00013d64       ??0CSkipList@@QAA@P6AHPAX0@ZP6AX0@ZHH0HAAJ@Z 10014d64 f   inc:SKIPLIST.obj
+ 0001:00013e18       ?_Search@CSkipList@@AAAPAXPBXPAPAVCSkipListEntry@@@Z 10014e18 f   inc:SKIPLIST.obj
+ 0001:00013eb4       ?Search@CSkipList@@QAAPAXPBX@Z 10014eb4 f   inc:SKIPLIST.obj
+ 0001:00013ecc       ?FillUpdateArray@CSkipList@@AAAPAVCSkipListEntry@@PBXPAPAV2@@Z 10014ecc f   inc:SKIPLIST.obj
+ 0001:00013f58       ?Insert@CSkipList@@QAAPAXPAX@Z 10014f58 f   inc:SKIPLIST.obj
+ 0001:00014058       ?Remove@CSkipList@@QAAPAXPAX@Z 10015058 f   inc:SKIPLIST.obj
+ 0001:00014114       ?Next@CSkipList@@QAAPAXPAPAVCSkipListEntry@@@Z 10015114 f   inc:SKIPLIST.obj
+ 0001:00014148       ?First@CSkipList@@QAAPAXPAPAVCSkipListEntry@@@Z 10015148 f   inc:SKIPLIST.obj
+ 0001:00014158       ?CloseSharedFileMapping@@YAXPAX0@Z 10015158 f   inc:SMCREATE.obj
+ 0001:0001417c       ?CreateSharedFileMapping@@YAPAXPAGKKPAX1KPAPAXPAH@Z 1001517c f   inc:SMCREATE.obj
+ 0001:00014218       ?ScmRotHash@@YAKPAEKK@Z    10015218 f   inc:ROTHELP.obj
+ 0001:0001425c       ?CreateFileMonikerComparisonBuffer@@YAJPAGPAEKPAK@Z 1001525c f   inc:ROTHELP.obj
+ 0001:000142e4       ?GetServerPath@@YAJPAGPAPAG@Z 100152e4 f   olescm:REMACTIF.obj
+ 0001:00014344       _RemoteActivation          10015344 f   olescm:REMACTIF.obj
+ 0001:000145a8       DisableThreadLibraryCalls  100155a8 f   coredll:COREDLL.dll
+ 0001:000145b8       InterlockedCompareExchange 100155b8 f   coredll:COREDLL.dll
+ 0001:000145c8       UnmapViewOfFile            100155c8 f   coredll:COREDLL.dll
+ 0001:000145d8       MapViewOfFile              100155d8 f   coredll:COREDLL.dll
+ 0001:000145e8       CreateFileMappingW         100155e8 f   coredll:COREDLL.dll
+ 0001:00014778       __IMPORT_DESCRIPTOR_RPCRT4LEGACY 10015778     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0001:0001478c       __IMPORT_DESCRIPTOR_WINSOCK 1001578c     winsock:WINSOCK.dll
+ 0001:000147a0       __IMPORT_DESCRIPTOR_COREDLL 100157a0     coredll:COREDLL.dll
+ 0001:000147b4       __NULL_IMPORT_DESCRIPTOR   100157b4     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:00000000       __imp_InterlockedDecrement 10016000     coredll:COREDLL.dll
+ 0002:00000004       __imp_MapViewOfFile        10016004     coredll:COREDLL.dll
+ 0002:00000008       __imp_UnmapViewOfFile      10016008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_InterlockedCompareExchange 1001600c     coredll:COREDLL.dll
+ 0002:00000010       __imp_DisableThreadLibraryCalls 10016010     coredll:COREDLL.dll
+ 0002:00000014       __imp__msize               10016014     corelib1:COREDLL.dll
+ 0002:00000018       __imp_realloc              10016018     corelib1:COREDLL.dll
+ 0002:0000001c       __imp_malloc               1001601c     corelib1:COREDLL.dll
+ 0002:00000020       __imp_free                 10016020     corelib1:COREDLL.dll
+ 0002:00000024       __imp___report_gsfailure   10016024     corelib1:COREDLL.dll
+ 0002:00000028       __imp___security_gen_cookie2 10016028     corelib1:COREDLL.dll
+ 0002:0000002c       __imp__XcptFilter          1001602c     corelib1:COREDLL.dll
+ 0002:00000030       __imp___C_specific_handler 10016030     corelib1:COREDLL.dll
+ 0002:00000034       __imp_memmove              10016034     corelib1:COREDLL.dll
+ 0002:00000038       __imp__wcsicmp             10016038     corelib1:COREDLL.dll
+ 0002:0000003c       __imp_swprintf_s           1001603c     corelib1:COREDLL.dll
+ 0002:00000040       __imp__wfopen_s            10016040     corelib1:COREDLL.dll
+ 0002:00000044       __imp___rt_sdiv            10016044     corelib1:COREDLL.dll
+ 0002:00000048       __imp_towupper             10016048     corelib1:COREDLL.dll
+ 0002:0000004c       __imp_wcscat               1001604c     corelib1:COREDLL.dll
+ 0002:00000050       __imp___rt_udiv            10016050     corelib1:COREDLL.dll
+ 0002:00000054       __imp_memset               10016054     corelib1:COREDLL.dll
+ 0002:00000058       __imp__wtoi                10016058     corelib1:COREDLL.dll
+ 0002:0000005c       __imp_wcslen               1001605c     corelib1:COREDLL.dll
+ 0002:00000060       __imp_wcscpy               10016060     corelib1:COREDLL.dll
+ 0002:00000064       __imp__purecall            10016064     corelib1:COREDLL.dll
+ 0002:00000068       __imp_memcmp               10016068     corelib1:COREDLL.dll
+ 0002:0000006c       __imp_memcpy               1001606c     corelib1:COREDLL.dll
+ 0002:00000070       __imp___rt_sdiv64by64      10016070     corelib1:COREDLL.dll
+ 0002:00000074       __imp_wcschr               10016074     corelib1:COREDLL.dll
+ 0002:00000078       __imp_wcsstr               10016078     corelib1:COREDLL.dll
+ 0002:0000007c       __imp_IsBadReadPtr         1001607c     coredll:COREDLL.dll
+ 0002:00000080       __imp_StringCchPrintfW     10016080     coredll:COREDLL.dll
+ 0002:00000084       __imp_CharUpperW           10016084     coredll:COREDLL.dll
+ 0002:00000088       __imp_CreateProcessW       10016088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_RegCreateKeyExW      1001608c     coredll:COREDLL.dll
+ 0002:00000090       __imp_GetStringTypeW       10016090     coredll:COREDLL.dll
+ 0002:00000094       __imp_TerminateProcess     10016094     coredll:COREDLL.dll
+ 0002:00000098       __imp_FindFirstFileW       10016098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_FindClose            1001609c     coredll:COREDLL.dll
+ 0002:000000a0       __imp_lstrcmpiW            100160a0     coredll:COREDLL.dll
+ 0002:000000a4       __imp_GetUserNameExW       100160a4     coredll:COREDLL.dll
+ 0002:000000a8       __imp_lstrcmpW             100160a8     coredll:COREDLL.dll
+ 0002:000000ac       __imp_EventModify          100160ac     coredll:COREDLL.dll
+ 0002:000000b0       __imp_CreateEventW         100160b0     coredll:COREDLL.dll
+ 0002:000000b4       __imp_Sleep                100160b4     coredll:COREDLL.dll
+ 0002:000000b8       __imp_InitializeCriticalSection 100160b8     coredll:COREDLL.dll
+ 0002:000000bc       __imp_CloseHandle          100160bc     coredll:COREDLL.dll
+ 0002:000000c0       __imp_CreateThread         100160c0     coredll:COREDLL.dll
+ 0002:000000c4       __imp_SetLastError         100160c4     coredll:COREDLL.dll
+ 0002:000000c8       __imp_RegCloseKey          100160c8     coredll:COREDLL.dll
+ 0002:000000cc       __imp_RegQueryValueExW     100160cc     coredll:COREDLL.dll
+ 0002:000000d0       __imp_RegOpenKeyExW        100160d0     coredll:COREDLL.dll
+ 0002:000000d4       __imp_LocalFree            100160d4     coredll:COREDLL.dll
+ 0002:000000d8       __imp_GetLastError         100160d8     coredll:COREDLL.dll
+ 0002:000000dc       __imp_CeDeleteRecord       100160dc     coredll:COREDLL.dll
+ 0002:000000e0       __imp_CeReadRecordPropsEx  100160e0     coredll:COREDLL.dll
+ 0002:000000e4       __imp_CeOpenDatabaseEx2    100160e4     coredll:COREDLL.dll
+ 0002:000000e8       __imp_GetTickCount         100160e8     coredll:COREDLL.dll
+ 0002:000000ec       __imp_WaitForSingleObject  100160ec     coredll:COREDLL.dll
+ 0002:000000f0       __imp_InterlockedIncrement 100160f0     coredll:COREDLL.dll
+ 0002:000000f4       __imp_CreateFileMappingW   100160f4     coredll:COREDLL.dll
+ 0002:000000f8       __imp_FreeLibrary          100160f8     coredll:COREDLL.dll
+ 0002:000000fc       __imp_GetProcAddressW      100160fc     coredll:COREDLL.dll
+ 0002:00000100       __imp_LoadLibraryW         10016100     coredll:COREDLL.dll
+ 0002:00000104       __imp_MultiByteToWideChar  10016104     coredll:COREDLL.dll
+ 0002:00000108       __imp_HeapCreate           10016108     coredll:COREDLL.dll
+ 0002:0000010c       __imp_GetProcessHeap       1001610c     coredll:COREDLL.dll
+ 0002:00000110       __imp_HeapAlloc            10016110     coredll:COREDLL.dll
+ 0002:00000114       __imp_HeapFree             10016114     coredll:COREDLL.dll
+ 0002:00000118       __imp_SystemTimeToFileTime 10016118     coredll:COREDLL.dll
+ 0002:0000011c       __imp_GetLocalTime         1001611c     coredll:COREDLL.dll
+ 0002:00000120       __imp_LeaveCriticalSection 10016120     coredll:COREDLL.dll
+ 0002:00000124       __imp_EnterCriticalSection 10016124     coredll:COREDLL.dll
+ 0002:00000128       __imp_DeleteCriticalSection 10016128     coredll:COREDLL.dll
+ 0002:0000012c       __imp___GetUserKData       1001612c     coredll:COREDLL.dll
+ 0002:00000130       __imp_IsBadWritePtr        10016130     coredll:COREDLL.dll
+ 0002:00000134       __imp_RegEnumValueW        10016134     coredll:COREDLL.dll
+ 0002:00000138       __imp_RegQueryInfoKeyW     10016138     coredll:COREDLL.dll
+ 0002:0000013c       __imp_InterlockedExchange  1001613c     coredll:COREDLL.dll
+ 0002:00000140       __imp_LocalAlloc           10016140     coredll:COREDLL.dll
+ 0002:00000144       \177COREDLL_NULL_THUNK_DATA 10016144     coredll:COREDLL.dll
+ 0002:00000148       __imp_RpcBindingSetAuthInfoW 10016148     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:0000014c       __imp_RpcMgmtIsServerListening 1001614c     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:00000150       __imp_RpcServerListen      10016150     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:00000154       __imp_I_RpcAllocate        10016154     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:00000158       __imp_RpcServerRegisterAuthInfoW 10016158     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:0000015c       __imp_NdrServerInitializeNew 1001615c     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:00000160       __imp_NdrConvert           10016160     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:00000164       __imp_NdrServerContextUnmarshall 10016164     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:00000168       __imp_NdrPointerUnmarshall 10016168     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:0000016c       __imp_NdrConformantStructUnmarshall 1001616c     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:00000170       __imp_I_RpcGetBuffer       10016170     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:00000174       __imp_NdrClientCall2       10016174     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:00000178       __imp_NdrServerCall2       10016178     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:0000017c       __imp_RpcStringBindingComposeW 1001617c     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:00000180       __imp_RpcRevertToSelf      10016180     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:00000184       __imp_I_RpcBindingIsClientLocal 10016184     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:00000188       __imp_RpcBindingInqAuthClientW 10016188     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:0000018c       __imp_I_RpcBindingInqClientGroupsW 1001618c     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:00000190       __imp_UuidCreate           10016190     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:00000194       __imp_RpcImpersonateClient 10016194     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:00000198       __imp_RpcServerUseProtseqEpExW 10016198     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:0000019c       __imp_I_RpcBindingInqTransportType 1001619c     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:000001a0       __imp_RpcRaiseException    100161a0     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:000001a4       __imp_RpcBindingFromStringBindingW 100161a4     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:000001a8       __imp_RpcBindingSetObject  100161a8     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:000001ac       __imp_RpcBindingCopy       100161ac     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:000001b0       __imp_I_RpcBindingSetAsync 100161b0     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:000001b4       __imp_RpcBindingSetAuthInfoExW 100161b4     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:000001b8       __imp_RpcBindingReset      100161b8     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:000001bc       __imp_RpcBindingFree       100161bc     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:000001c0       __imp_RpcServerRegisterIf  100161c0     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:000001c4       __imp_I_RpcFree            100161c4     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:000001c8       __imp_RpcServerInqBindings 100161c8     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:000001cc       __imp_RpcBindingToStringBindingW 100161cc     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:000001d0       __imp_RpcStringBindingParseW 100161d0     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:000001d4       __imp_RpcStringFreeW       100161d4     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:000001d8       __imp_RpcBindingVectorFree 100161d8     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:000001dc       \177RPCRT4LEGACY_NULL_THUNK_DATA 100161dc     rpcrt4legacy:RPCRT4LEGACY.dll
+ 0002:000001e0       __imp_inet_ntoa            100161e0     winsock:WINSOCK.dll
+ 0002:000001e4       __imp_gethostbyname        100161e4     winsock:WINSOCK.dll
+ 0002:000001e8       __imp_gethostname          100161e8     winsock:WINSOCK.dll
+ 0002:000001ec       __imp_WSAStartup           100161ec     winsock:WINSOCK.dll
+ 0002:000001f0       \177WINSOCK_NULL_THUNK_DATA 100161f0     winsock:WINSOCK.dll
+ 0002:000001f8       gaProtseqInfo              100161f8     EPTS.obj
+ 0002:0000036c       ?BasePingInterval@@3GA     1001636c     objex:WORKER.obj
+ 0002:00000370       ?BaseNumberOfPings@@3GA    10016370     objex:WORKER.obj
+ 0002:00000374       ?gNextThreadID@@3KA        10016374     objex:OBJEX.obj
+ 0002:00000378       ?s_iNextFree@CWIPTable@@0KA 10016378     olescm:SCMIF.obj
+ 0002:00000478       ?wszDllSurrogatePathValue@@3PAGA 10016478     olescm:CLS.obj
+ 0002:00000494       ?wszSOFTWAREClassesCLSID@@3PAGA 10016494     olescm:CLS.obj
+ 0002:000004c4       ?wszSOFTWAREClassesAppID@@3PAGA 100164c4     olescm:CLS.obj
+ 0002:000004f4       ?afThreadModelMatch@@3PAY03HA 100164f4     olescm:CLS.obj
+ 0002:00000514       ?sGenericMapping@@3U_GENERIC_MAPPING@@A 10016514     olescm:CLS.obj
+ 0002:00000524       ?gClassCacheLock@@3VCScmLock@@A 10016524     olescm:CLS.obj
+ 0002:00000548       ?wszLocalServer16@@3PAGA   10016548     olescm:INIT.obj
+ 0002:000005c0       ?wszInProcServer@@3PAGA    100165c0     olescm:INIT.obj
+ 0002:0000062c       ?wszActivateAtStorage@@3PAGA 1001662c     olescm:INIT.obj
+ 0002:00000650       ?wszRemoteServerName@@3PAGA 10016650     olescm:INIT.obj
+ 0002:00000674       ?wszErrorControl@@3PAGA    10016674     olescm:INIT.obj
+ 0002:00000690       ?wszServiceParameters@@3PAGA 10016690     olescm:INIT.obj
+ 0002:000006b4       ?wszLaunchPermission@@3PAGA 100166b4     olescm:INIT.obj
+ 0002:000006d8       ?wszServicesKey@@3PAGA     100166d8     olescm:INIT.obj
+ 0002:0000071c       ?tszOLE2@@3PAGA            1001671c     olescm:INIT.obj
+ 0002:0000077c       IDSCM_DispatchTable        1001677c     olescm:dscm_s.obj
+ 0002:00000788       IDSCM_ServerIfHandle       10016788     olescm:dscm_s.obj
+ 0002:000007bc       ISCM_DispatchTable         100167bc     olescm:scm_s.obj
+ 0002:000007c8       ISCM_ServerIfHandle        100167c8     olescm:scm_s.obj
+ 0002:000007cc       ?s_mxsSyncAccess@CSrvRegList@@0VCOleStaticMutexSem@@A 100167cc     olescm:SRVREG.obj
+ 0002:00000800       IObjServer_ClientIfHandle  10016800     olescm:objsrv_c.obj
+ 0002:00000838       IROT_DispatchTable         10016838     olescm:irot_s.obj
+ 0002:00000844       IROT_ServerIfHandle        10016844     olescm:irot_s.obj
+ 0002:00000848       ?pfnHeapAlloc@@3P6APAXPAXKK@ZA 10016848     common:CCOMPAPI.obj
+ 0002:0000084c       ?pfnHeapFree@@3P6AHPAXK0@ZA 1001684c     common:CCOMPAPI.obj
+ 0002:00000850       __security_cookie          10016850     corelib0:seccinit.obj
+ 0002:00000854       __security_cookie_complement 10016854     corelib0:seccinit.obj
+ 0002:00000884       IObjectExporter_DispatchTable 10016884     dcomidl:objex_s.obj
+ 0002:00000890       _IObjectExporter_ServerIfHandle 10016890     dcomidl:objex_s.obj
+ 0002:000008c8       ILocalObjectExporter_DispatchTable 100168c8     dcomidl:lclor_s.obj
+ 0002:000008d4       _ILocalObjectExporter_ServerIfHandle 100168d4     dcomidl:lclor_s.obj
+ 0002:000008ec       IObjectExporter_ClientIfHandle 100168ec     dcomidl:objex_c.obj
+ 0002:00000904       IRundown_ClientIfHandle    10016904     dcomidl:odeth_c.obj
+ 0002:0000091c       IOrCallback_ClientIfHandle 1001691c     dcomidl:orcb_c.obj
+ 0002:0000093c       IActivation_DispatchTable  1001693c     dcomidl:remact_s.obj
+ 0002:00000948       _IActivation_ServerIfHandle 10016948     dcomidl:remact_s.obj
+ 0002:00000960       IActivation_ClientIfHandle 10016960     dcomidl:remact_c.obj
+ 0002:00000968       gfRegisteredAuthInfo       10016968     cestart.obj
+ 0002:00000970       ?BaseTimeoutInterval@@3GA  10016970     objex:WORKER.obj
+ 0002:00000978       ?hSetHeap@@3PAXA           10016978     objex:MISC.obj
+ 0002:0000097c       ?hObjHeap@@3PAXA           1001697c     objex:MISC.obj
+ 0002:00000980       ?hProcessHeap@@3PAXA       10016980     objex:MISC.obj
+ 0002:00000998       ?fListened@@3HA            10016998     objex:MISC.obj
+ 0002:0000099c       ?hEventIPAddressChange@@3PAXA 1001699c     objex:MISC.obj
+ 0002:000009a8       ?s_pLegacySecurity@@3PAGA  100169a8     objex:OBJEX.obj
+ 0002:000009ac       ?s_fSecureRefs@@3HA        100169ac     objex:OBJEX.obj
+ 0002:000009b0       ?s_fMutualAuth@@3HA        100169b0     objex:OBJEX.obj
+ 0002:000009b4       ?s_lImpLevel@@3KA          100169b4     objex:OBJEX.obj
+ 0002:000009b8       ?s_lAuthnLevel@@3KA        100169b8     objex:OBJEX.obj
+ 0002:000009bc       s_fEnableDCOM              100169bc     objex:OBJEX.obj
+ 0002:000009c0       ?s_fCatchServerExceptions@@3HA 100169c0     objex:OBJEX.obj
+ 0002:000009c4       ?gpwstrProtseqs@@3PAGA     100169c4     objex:OBJEX.obj
+ 0002:000009c8       ?gLocalMid@@3_KA           100169c8     objex:OBJEX.obj
+ 0002:000009d0       ?pdsaMyBindings@@3PAUtagDUALSTRINGARRAY@@A 100169d0     objex:OBJEX.obj
+ 0002:000009d4       ?cMyProtseqs@@3GA          100169d4     objex:OBJEX.obj
+ 0002:000009d8       ?aMyProtseqs@@3PAGA        100169d8     objex:OBJEX.obj
+ 0002:000009dc       ?gpServerLock@@3PAVCSharedLock@@A 100169dc     objex:OBJEX.obj
+ 0002:000009e0       ?gpClientLock@@3PAVCSharedLock@@A 100169e0     objex:OBJEX.obj
+ 0002:000009e4       ?gpServerOxidTable@@3PAVCHashTable@@A 100169e4     objex:OBJEX.obj
+ 0002:000009e8       ?gpClientOxidTable@@3PAVCHashTable@@A 100169e8     objex:OBJEX.obj
+ 0002:000009ec       ?gpClientOxidPList@@3PAVCPList@@A 100169ec     objex:OBJEX.obj
+ 0002:000009f0       ?gpServerOidTable@@3PAVCHashTable@@A 100169f0     objex:OBJEX.obj
+ 0002:000009f4       ?gpServerOidPList@@3PAVCServerOidPList@@A 100169f4     objex:OBJEX.obj
+ 0002:000009f8       ?gpClientOidTable@@3PAVCHashTable@@A 100169f8     objex:OBJEX.obj
+ 0002:000009fc       ?gpServerSetTable@@3PAVCServerSetTable@@A 100169fc     objex:OBJEX.obj
+ 0002:00000a00       ?gpClientSetTable@@3PAVCHashTable@@A 10016a00     objex:OBJEX.obj
+ 0002:00000a04       ?gpClientSetPList@@3PAVCPList@@A 10016a04     objex:OBJEX.obj
+ 0002:00000a08       ?gpMidTable@@3PAVCHashTable@@A 10016a08     objex:OBJEX.obj
+ 0002:00000a0c       ?gpTokenList@@3PAVCList@@A 10016a0c     objex:OBJEX.obj
+ 0002:00000a10       ?s_cServerSvc@@3KA         10016a10     objex:OBJEX.obj
+ 0002:00000a14       ?s_aServerSvc@@3PAGA       10016a14     objex:OBJEX.obj
+ 0002:00000a18       ?s_cClientSvc@@3KA         10016a18     objex:OBJEX.obj
+ 0002:00000a1c       ?s_aClientSvc@@3PAGA       10016a1c     objex:OBJEX.obj
+ 0002:00000a24       __@@_PchSym_@00@UygUDAJBUkirezgvUwxlnUlovDCUwxlnhhUlyqvcUdrmxvUlyqUzineHUivgzroUliOlyq@objex 10016a24     objex:or.obj
+ 0002:00000a28       ?gcsProcessManagerLock@@3UCRITICAL_SECTION@@A 10016a28     objex:PROCESS.obj
+ 0002:00000a3c       ?gcsFastProcessLock@@3UCRITICAL_SECTION@@A 10016a3c     objex:PROCESS.obj
+ 0002:00000a50       ?gpProcessList@@3PAVCBList@@A 10016a50     objex:PROCESS.obj
+ 0002:00000a54       ?gcsMidLock@@3UCRITICAL_SECTION@@A 10016a54     objex:MID.obj
+ 0002:00000a68       ?s_cChannelHook@@3JA       10016a68     objex:MANAGER.obj
+ 0002:00000a6c       ?s_aChannelHook@@3PAU_GUID@@A 10016a6c     objex:MANAGER.obj
+ 0002:00000a70       ?CallidCache@@3PAUCacheElement@@A 10016a70     objex:CALLID.obj
+ 0002:00000ac0       ?SCMMachineName@@3PAGA     10016ac0     olescm:SCMSVC.obj
+ 0002:00000ae0       ?gWIPTbl@@3VCWIPTable@@A   10016ae0     olescm:SCMIF.obj
+ 0002:00000ae4       ?s_cEntries@CWIPTable@@0KA 10016ae4     olescm:SCMIF.obj
+ 0002:00000ae8       ?s_pTbl@CWIPTable@@0PAUtagWIPEntry@@A 10016ae8     olescm:SCMIF.obj
+ 0002:00000aec       ?s_mxs@CWIPTable@@0VCMutexSem@@A 10016aec     olescm:SCMIF.obj
+ 0002:00000b00       ?g_hkClsID@@3PAUHKEY__@@A  10016b00     olescm:INIT.obj
+ 0002:00000b04       ?g_hkAppID@@3PAUHKEY__@@A  10016b04     olescm:INIT.obj
+ 0002:00000b08       __@@_PchSym_@00@UygUDAJBUkirezgvUwxlnUlovDCUwxlnhhUlovhxnUdrmxvUlyqUzineHUivgzroUsvzwvihOlyq@olescm 10016b08     olescm:headers.obj
+ 0002:00000b0c       ?RemoteServerCS@@3UCRITICAL_SECTION@@A 10016b0c     olescm:REMACT.obj
+ 0002:00000b20       ?gpscmrot@@3PAVCScmRot@@A  10016b20     olescm:ROTIF.obj
+ 0002:00000b24       ?g_hrInit@@3JA             10016b24     olescm:PORT.obj
+ 0002:00000b28       ?gpClassCache@@3PAVCClassCacheList@@A 10016b28     olescm:PORT.obj
+ 0002:00000b2c       ?gpCLocSrvList@@3PAVCLocSrvList@@A 10016b2c     olescm:PORT.obj
+ 0002:00000b30       ?gpCRemSrvList@@3PAVCRemSrvList@@A 10016b30     olescm:PORT.obj
+ 0002:00000b34       ?s_fForcedScmShutdown@CSrvRegList@@0HA 10016b34     olescm:SRVREG.obj
+ 0002:00000b38       ?g_OleMutexCreationSem@@3UCRITICAL_SECTION@@A 10016b38     common:OLESEM.obj
+ 0002:00000b4c       ?g_pInitializedStaticMutexList@@3PAVCOleStaticMutexSem@@A 10016b4c     common:OLESEM.obj
+ 0002:00000b50       ?g_hHeap@@3PAXA            10016b50     common:CCOMPAPI.obj
+ 0002:00000b54       _exitflag                  10016b54     corelib0:cexit.obj
+ 0002:00000b60       __@@_PchSym_@00@UygUDAJBUkirezgvUwxlnUlovDCUxlnUrmxUdrmxvUlyqUzineHUivgzroUlovCrmgOlyq@inc 10016b60     inc:ole2int.obj
+ 0002:00000b64       any_handle                 10016b64     <common>
+ 0002:00000b68       __onexitend                10016b68     <common>
+ 0002:00000b6c       __onexitbegin              10016b6c     <common>
+ 0002:00000b70       g_pcsExit                  10016b70     <common>
+ 0002:00000b74       _pRawDllMain               10016b74     <common>
+
+ entry point at        0001:00013108
+
+ Static symbols
+
+ 0001:00010500       IDSCM_ORPC_EXTENTExprEval_0000 10011500 f   olescm:dscm_s.obj
+ 0001:00010560       IDSCM_ORPC_EXTENT_ARRAYExprEval_0001 10011560 f   olescm:dscm_s.obj
+ 0001:0001173c       IObjServer_ORPC_EXTENT_ARRAYExprEval_0001 1001273c f   olescm:objsrv_c.obj
+ 0001:00011794       IObjServer_ORPC_EXTENTExprEval_0000 10012794 f   olescm:objsrv_c.obj
+ 0001:00013018       _DllMainCRTStartupHelper   10014018 f   corelib0:pegdmain.obj
+ 0001:00013420       doexit                     10014420 f   corelib0:cexit.obj
+ 0001:00013940       IRundown_ORPC_EXTENTExprEval_0000 10014940 f   dcomidl:odeth_c.obj
+ 0001:000139a0       IRundown_ORPC_EXTENT_ARRAYExprEval_0001 100149a0 f   dcomidl:odeth_c.obj
+ 0001:00013aac       IActivation_ORPC_EXTENT_ARRAYExprEval_0001 10014aac f   dcomidl:remact_s.obj
+ 0001:00013b04       IActivation_ORPC_EXTENTExprEval_0000 10014b04 f   dcomidl:remact_s.obj
+ 0001:00013bbc       IActivation_ORPC_EXTENT_ARRAYExprEval_0001 10014bbc f   dcomidl:remact_c.obj
+ 0001:00013c14       IActivation_ORPC_EXTENTExprEval_0000 10014c14 f   dcomidl:remact_c.obj
+ 0001:000145f8       ??__EBaseTimeoutInterval@@YAXXZ 100155f8 f   objex:WORKER.obj
+ 0001:0001461c       ??__E?s_mxs@CWIPTable@@0VCMutexSem@@A@@YAXXZ 1001561c f   olescm:SCMIF.obj
+ 0001:0001463c       ??__EgClassCacheLock@@YAXXZ 1001563c f   olescm:CLS.obj
+ 0001:00014648       ??__E?s_mxsSyncAccess@CSrvRegList@@0VCOleStaticMutexSem@@A@@YAXXZ 10015648 f   olescm:SRVREG.obj
+ 0001:00014654       ??__F?s_mxs@CWIPTable@@0VCMutexSem@@A@@YAXXZ 10015654 f   olescm:SCMIF.obj
+ 0001:00014660       ??__FgClassCacheLock@@YAXXZ 10015660 f   olescm:CLS.obj
+ 0001:0001466c       ??__F?s_mxsSyncAccess@CSrvRegList@@0VCOleStaticMutexSem@@A@@YAXXZ 1001566c f   olescm:SRVREG.obj

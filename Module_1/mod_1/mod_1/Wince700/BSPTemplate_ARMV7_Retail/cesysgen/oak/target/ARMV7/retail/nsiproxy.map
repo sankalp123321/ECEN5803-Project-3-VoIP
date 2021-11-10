@@ -1,0 +1,135 @@
+ nsiproxy
+
+ Timestamp is 5cafa2b9 (Thu Apr 11 13:25:29 2019)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000002bH .rdata                  CODE
+ 0001:0000002c 00000025H .rdata$debug            CODE
+ 0001:00000054 000032acH .text                   CODE
+ 0001:00003300 000000ecH .xdata                  CODE
+ 0001:000033ec 0000003cH .idata$2                CODE
+ 0001:00003428 00000014H .idata$3                CODE
+ 0001:0000343c 00000088H .idata$4                CODE
+ 0001:000034c4 000001deH .idata$6                CODE
+ 0001:000036b0 000000d6H .edata                  CODE
+ 0002:00000000 00000088H .idata$5                DATA
+ 0002:000000a0 00000008H .bss                    DATA
+ 0003:00000000 00000180H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:0000001c       ??_C@_0P@NHCDFBIF@ExAllocatePool?$AA@ 1000101c     vcompat:ex.obj
+ 0001:00000054       ProbeForReadOrWriteWithStatus 10001054 f i device.obj
+ 0001:000000a4       NsippIsMatchingKey         100010a4 f   device.obj
+ 0001:000000d8       NsippIsMatchingObject      100010d8 f   device.obj
+ 0001:00000190       NsippProbeWithStatus       10001190 f   device.obj
+ 0001:000001ec       NsippCopyMemory            100011ec f   device.obj
+ 0001:00000238       CE_FreeAllAsync            10001238 f   device.obj
+ 0001:000003c4       NsippProbeAndAllocateParameters 100013c4 f   device.obj
+ 0001:00000fbc       NsippCancelChangeNotification 10001fbc f   device.obj
+ 0001:00000fc4       NsippCleanup               10001fc4 f   device.obj
+ 0001:00001120       NsippGetParameter          10002120 f   device.obj
+ 0001:0000139c       NsippSetParameter          1000239c f   device.obj
+ 0001:0000155c       NsippGetAllParameters      1000255c f   device.obj
+ 0001:00001844       NsippEnumerateObjectsAllParameters 10002844 f   device.obj
+ 0001:00001c40       NsippEnumerateObjectsAllPersistentParametersWithMask 10002c40 f   device.obj
+ 0001:00001fbc       NsippSetAllParameters      10002fbc f   device.obj
+ 0001:00002368       NsippRegisterChangeNotification 10003368 f   device.obj
+ 0001:000026b4       NsippDeregisterChangeNotification 100036b4 f   device.obj
+ 0001:00002860       NsippRequestChangeNotification 10003860 f   device.obj
+ 0001:00002870       NsippGetAllPersistentParametersWithMask 10003870 f   device.obj
+ 0001:00002b2c       NsippSetAllPersistentParametersWithMask 10003b2c f   device.obj
+ 0001:00002d14       CE_CreateContextHead       10003d14 f   nsi_wce.obj
+ 0001:00002d54       DllEntry                   10003d54 f   nsi_wce.obj
+ 0001:00002d68       CE_AllocAsync              10003d68 f   nsi_wce.obj
+ 0001:00002db4       CE_FreeAsync               10003db4 f   nsi_wce.obj
+ 0001:00002de8       NSI_Init                   10003de8 f   nsi_wce.obj
+ 0001:00002df4       NSI_Deinit                 10003df4 f   nsi_wce.obj
+ 0001:00002dfc       NSI_Open                   10003dfc f   nsi_wce.obj
+ 0001:00002e00       NSI_Close                  10003e00 f   nsi_wce.obj
+ 0001:00002e24       NSI_Write                  10003e24 f   nsi_wce.obj
+ 0001:00002e2c       NSI_Read                   10003e2c f   nsi_wce.obj
+ 0001:00002e34       NSI_Seek                   10003e34 f   nsi_wce.obj
+ 0001:00002e3c       NSI_IOControl              10003e3c f   nsi_wce.obj
+ 0001:0000307c       EnterCriticalSection       1000407c f   coredll:COREDLL.dll
+ 0001:0000308c       InitializeCriticalSection  1000408c f   coredll:COREDLL.dll
+ 0001:0000309c       DeleteCriticalSection      1000409c f   coredll:COREDLL.dll
+ 0001:000030ac       LeaveCriticalSection       100040ac f   coredll:COREDLL.dll
+ 0001:000030bc       __GetUserKData             100040bc f   coredll:COREDLL.dll
+ 0001:000030cc       DisableThreadLibraryCalls  100040cc f   coredll:COREDLL.dll
+ 0001:000030dc       CeAllocAsynchronousBuffer  100040dc f   coredll:COREDLL.dll
+ 0001:000030ec       CeFreeAsynchronousBuffer   100040ec f   coredll:COREDLL.dll
+ 0001:000030fc       SetLastError               100040fc f   coredll:COREDLL.dll
+ 0001:0000310c       GetCallerVMProcessId       1000410c f   coredll:COREDLL.dll
+ 0001:0000311c       NsiGetModuleHandle         1000411c f   netio:netio.dll
+ 0001:0000312c       NsiDeregisterChangeNotificationEx 1000412c f   netio:netio.dll
+ 0001:0000313c       NsiSetAllParametersEx      1000413c f   netio:netio.dll
+ 0001:0000314c       NsiGetParameterEx          1000414c f   netio:netio.dll
+ 0001:0000315c       NsiSetParameterEx          1000415c f   netio:netio.dll
+ 0001:0000316c       NsiGetAllParametersEx      1000416c f   netio:netio.dll
+ 0001:0000317c       NsiEnumerateObjectsAllParametersEx 1000417c f   netio:netio.dll
+ 0001:0000318c       NsiEnumerateObjectsAllPersistentParametersWithMask 1000418c f   netio:netio.dll
+ 0001:0000319c       NsiRegisterChangeNotificationEx 1000419c f   netio:netio.dll
+ 0001:000031ac       NsiGetAllPersistentParametersWithMask 100041ac f   netio:netio.dll
+ 0001:000031bc       NsiSetAllPersistentParametersWithMask 100041bc f   netio:netio.dll
+ 0001:000031cc       CE_RtlNtStatusToDosError   100041cc f   cxport:CXPORT.dll
+ 0001:000031dc       InitializeExAllocHeap      100041dc f   vcompat:ex.obj
+ 0001:00003218       ExAllocatePoolWithTag      10004218 f   vcompat:ex.obj
+ 0001:0000325c       ExFreePool                 1000425c f   vcompat:ex.obj
+ 0001:00003270       memcmp                     10004270 f   corelib1:COREDLL.dll
+ 0001:00003280       memcpy                     10004280 f   corelib1:COREDLL.dll
+ 0001:00003290       __C_specific_handler       10004290 f   corelib1:COREDLL.dll
+ 0001:000032a0       memset                     100042a0 f   corelib1:COREDLL.dll
+ 0001:000032b0       InterlockedCompareExchange 100042b0 f   coredll:COREDLL.dll
+ 0001:000032c0       CTEHeapDestroy             100042c0 f   cxport:CXPORT.dll
+ 0001:000032d0       CTEHeapCreate              100042d0 f   cxport:CXPORT.dll
+ 0001:000032e0       CTEHeapAlloc               100042e0 f   cxport:CXPORT.dll
+ 0001:000032f0       CTEHeapFree                100042f0 f   cxport:CXPORT.dll
+ 0001:000033ec       __IMPORT_DESCRIPTOR_COREDLL 100043ec     coredll:COREDLL.dll
+ 0001:00003400       __IMPORT_DESCRIPTOR_netio  10004400     netio:netio.dll
+ 0001:00003414       __IMPORT_DESCRIPTOR_CXPORT 10004414     cxport:CXPORT.dll
+ 0001:00003428       __NULL_IMPORT_DESCRIPTOR   10004428     coredll:COREDLL.dll
+ 0002:00000000       __imp_EnterCriticalSection 10005000     coredll:COREDLL.dll
+ 0002:00000004       __imp_InitializeCriticalSection 10005004     coredll:COREDLL.dll
+ 0002:00000008       __imp_DeleteCriticalSection 10005008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_LeaveCriticalSection 1000500c     coredll:COREDLL.dll
+ 0002:00000010       __imp___GetUserKData       10005010     coredll:COREDLL.dll
+ 0002:00000014       __imp_DisableThreadLibraryCalls 10005014     coredll:COREDLL.dll
+ 0002:00000018       __imp_CeAllocAsynchronousBuffer 10005018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_CeFreeAsynchronousBuffer 1000501c     coredll:COREDLL.dll
+ 0002:00000020       __imp_SetLastError         10005020     coredll:COREDLL.dll
+ 0002:00000024       __imp_GetCallerVMProcessId 10005024     coredll:COREDLL.dll
+ 0002:00000028       __imp_memcmp               10005028     corelib1:COREDLL.dll
+ 0002:0000002c       __imp_memcpy               1000502c     corelib1:COREDLL.dll
+ 0002:00000030       __imp___C_specific_handler 10005030     corelib1:COREDLL.dll
+ 0002:00000034       __imp_memset               10005034     corelib1:COREDLL.dll
+ 0002:00000038       __imp_InterlockedCompareExchange 10005038     coredll:COREDLL.dll
+ 0002:0000003c       \177COREDLL_NULL_THUNK_DATA 1000503c     coredll:COREDLL.dll
+ 0002:00000040       __imp_CTEHeapDestroy       10005040     cxport:CXPORT.dll
+ 0002:00000044       __imp_CTEHeapCreate        10005044     cxport:CXPORT.dll
+ 0002:00000048       __imp_CTEHeapAlloc         10005048     cxport:CXPORT.dll
+ 0002:0000004c       __imp_CTEHeapFree          1000504c     cxport:CXPORT.dll
+ 0002:00000050       __imp_CE_RtlNtStatusToDosError 10005050     cxport:CXPORT.dll
+ 0002:00000054       \177CXPORT_NULL_THUNK_DATA 10005054     cxport:CXPORT.dll
+ 0002:00000058       __imp_NsiSetAllPersistentParametersWithMask 10005058     netio:netio.dll
+ 0002:0000005c       __imp_NsiGetAllPersistentParametersWithMask 1000505c     netio:netio.dll
+ 0002:00000060       __imp_NsiRegisterChangeNotificationEx 10005060     netio:netio.dll
+ 0002:00000064       __imp_NsiEnumerateObjectsAllParametersEx 10005064     netio:netio.dll
+ 0002:00000068       __imp_NsiGetAllParametersEx 10005068     netio:netio.dll
+ 0002:0000006c       __imp_NsiSetParameterEx    1000506c     netio:netio.dll
+ 0002:00000070       __imp_NsiGetParameterEx    10005070     netio:netio.dll
+ 0002:00000074       __imp_NsiSetAllParametersEx 10005074     netio:netio.dll
+ 0002:00000078       __imp_NsiDeregisterChangeNotificationEx 10005078     netio:netio.dll
+ 0002:0000007c       __imp_NsiGetModuleHandle   1000507c     netio:netio.dll
+ 0002:00000080       __imp_NsiEnumerateObjectsAllPersistentParametersWithMask 10005080     netio:netio.dll
+ 0002:00000084       \177netio_NULL_THUNK_DATA  10005084     netio:netio.dll
+ 0002:000000a4       g_ExInitialized            100050a4     vcompat:ex.obj
+
+ entry point at        0001:00002d54
+
+ Static symbols
+

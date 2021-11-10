@@ -1,0 +1,1859 @@
+ tmailutl
+
+ Timestamp is 5cafb4a3 (Thu Apr 11 14:41:55 2019)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000014H .CRT$XCU                CODE
+ 0001:00000018 00000004H .CRT$XCZ                CODE
+ 0001:0000001c 00000004H .CRT$XIA                CODE
+ 0001:00000020 00000004H .CRT$XIZ                CODE
+ 0001:00000024 00000004H .CRT$XPA                CODE
+ 0001:00000028 00000004H .CRT$XPZ                CODE
+ 0001:0000002c 00000004H .CRT$XTA                CODE
+ 0001:00000030 00000004H .CRT$XTZ                CODE
+ 0001:00000040 00005c02H .rdata                  CODE
+ 0001:00005c44 00000025H .rdata$debug            CODE
+ 0001:00005c80 000257a4H .text                   CODE
+ 0001:0002b424 00000b34H .text$yc                CODE
+ 0001:0002bf58 0000003cH .text$yd                CODE
+ 0001:0002bf94 000001b8H .xdata                  CODE
+ 0001:0002c14c 00000000H ATL$__a                 CODE
+ 0001:0002c14c 00000000H ATL$__z                 CODE
+ 0001:0002c14c 0000008cH .idata$2                CODE
+ 0001:0002c1d8 00000014H .idata$3                CODE
+ 0001:0002c1ec 0000030cH .idata$4                CODE
+ 0001:0002c4f8 000002ccH .idata$6                CODE
+ 0001:0002c7d0 000005eaH .edata                  CODE
+ 0002:00000000 0000030cH .idata$5                DATA
+ 0002:00000310 00001298H .data                   DATA
+ 0002:000015a8 0000021cH .bss                    DATA
+ 0003:00000000 00001410H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000018       __xc_z                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xi_a                     1000101c     corelib0:crt0init.obj
+ 0001:00000020       __xi_z                     10001020     corelib0:crt0init.obj
+ 0001:00000024       __xp_a                     10001024     corelib0:crt0init.obj
+ 0001:00000028       __xp_z                     10001028     corelib0:crt0init.obj
+ 0001:0000002c       __xt_a                     1000102c     corelib0:crt0init.obj
+ 0001:00000030       __xt_z                     10001030     corelib0:crt0init.obj
+ 0001:0000005c       ??_C@_1O@JDLOHAN@?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AA?$AA@ 1000105c     dllmain.obj
+ 0001:0000006c       ??_C@_1BC@GCKHIPE@?$AAN?$AAo?$AAR?$AAe?$AAm?$AAo?$AAv?$AAe?$AA?$AA@ 1000106c     dllmain.obj
+ 0001:00000080       ??_C@_1BI@JFAIJMHL@?$AAF?$AAo?$AAr?$AAc?$AAe?$AAR?$AAe?$AAm?$AAo?$AAv?$AAe?$AA?$AA@ 10001080     dllmain.obj
+ 0001:00000098       ??_C@_17LLMMEOJD@?$AAV?$AAa?$AAl?$AA?$AA@ 10001098     dllmain.obj
+ 0001:000000a0       ??_C@_13OPKGLAFF@?$AAB?$AA?$AA@ 100010a0     dllmain.obj
+ 0001:000000a4       ??_C@_13MKMNOPIJ@?$AAD?$AA?$AA@ 100010a4     dllmain.obj
+ 0001:000000a8       ??_C@_13LHMFKAAD@?$AAM?$AA?$AA@ 100010a8     dllmain.obj
+ 0001:000000ac       ??_C@_13HADIAKP@?$AAS?$AA?$AA@ 100010ac     dllmain.obj
+ 0001:000000b0       ??_C@_1CA@OOEGNFML@?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AAS?$AAe?$AAr?$AAv?$AAe?$AAr?$AAO?$AAn?$AA?$AA@ 100010b0     dllmain.obj
+ 0001:000000d0       IID_IMAPIAdviseSink        100010d0     dllmain.obj
+ 0001:000000e0       PS_MAPI                    100010e0     dllmain.obj
+ 0001:000000f0       IID_IItem                  100010f0     dllmain.obj
+ 0001:00000100       CLSID_MIMEQuotedPrintableDecoder 10001100     dllmain.obj
+ 0001:00000110       CLSID_MIMEBinHexDecoder    10001110     dllmain.obj
+ 0001:00000120       CLSID_MIMEUUDecoder        10001120     dllmain.obj
+ 0001:00000130       IID_IMIMEEncoder           10001130     dllmain.obj
+ 0001:00000140       CLSID_MIMEEntity           10001140     dllmain.obj
+ 0001:00000150       IID_IMIMEMailBox           10001150     dllmain.obj
+ 0001:00000180       ??_C@_1BM@GLGKJBHF@?$AAP?$AAh?$AAo?$AAn?$AAe?$AAM?$AAa?$AAk?$AAe?$AAC?$AAa?$AAl?$AAl?$AA?$AA@ 10001180     dllmain.obj
+ 0001:0000019c       ??_C@_1BE@MAIJPAPH@?$AAP?$AAh?$AAo?$AAn?$AAe?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 1000119c     dllmain.obj
+ 0001:000001b0       ??_C@_1BA@DOCFNNKD@?$AAp?$AAi?$AAm?$AAu?$AAt?$AAi?$AAl?$AA?$AA@ 100011b0     dllmain.obj
+ 0001:000001c0       ??_C@_1CM@GKOGKNEB@?$AAF?$AAi?$AAn?$AAd?$AAM?$AAa?$AAt?$AAc?$AAh?$AAi?$AAn?$AAg?$AAC?$AAo?$AAn?$AAt?$AAa?$AAc?$AAt?$AAE?$AAx?$AA?$AA@ 100011c0     dllmain.obj
+ 0001:000001ec       ??_C@_1BK@OELFBBBI@?$AAP?$AAi?$AAm?$AAS?$AAt?$AAo?$AAr?$AAe?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 100011ec     dllmain.obj
+ 0001:00000208       ??_C@_1BA@MFEJBNLO@?$AAs?$AAy?$AAn?$AAc?$AAm?$AAg?$AAr?$AA?$AA@ 10001208     dllmain.obj
+ 0001:00000218       ??_C@_1DG@NJOMMJEO@?$AAC?$AAe?$AAr?$AAt?$AAF?$AAi?$AAn?$AAd?$AAC?$AAe?$AAr?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAe?$AAI?$AAn?$AAS?$AAt?$AAo?$AAr?$AAe?$AA?$AA@ 10001218     dllmain.obj
+ 0001:00000250       ??_C@_1BI@JGKDGMPF@?$AAc?$AAr?$AAy?$AAp?$AAt?$AA3?$AA2?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 10001250     dllmain.obj
+ 0001:00000268       ??_C@_1EE@FPENKFMD@?$AAC?$AAe?$AAr?$AAt?$AAG?$AAe?$AAt?$AAC?$AAe?$AAr?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAe?$AAC?$AAo?$AAn?$AAt?$AAe?$AAx?$AAt?$AAP?$AAr?$AAo?$AAp?$AAe?$AAr?$AAt@ 10001268     dllmain.obj
+ 0001:000002ac       ??_C@_1DG@EHJEIGDN@?$AAC?$AAe?$AAr?$AAt?$AAF?$AAr?$AAe?$AAe?$AAC?$AAe?$AAr?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAe?$AAC?$AAo?$AAn?$AAt?$AAe?$AAx?$AAt?$AA?$AA@ 100012ac     dllmain.obj
+ 0001:000002e4       ??_C@_1DI@CMJPEOCC@?$AAC?$AAe?$AAr?$AAt?$AAE?$AAn?$AAu?$AAm?$AAC?$AAe?$AAr?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAe?$AAs?$AAI?$AAn?$AAS?$AAt?$AAo?$AAr?$AAe?$AA?$AA@ 100012e4     dllmain.obj
+ 0001:0000031c       ??_C@_1DA@FAFDGOEA@?$AAC?$AAe?$AAr?$AAt?$AAG?$AAe?$AAt?$AAI?$AAn?$AAt?$AAe?$AAn?$AAd?$AAe?$AAd?$AAK?$AAe?$AAy?$AAU?$AAs?$AAa?$AAg?$AAe?$AA?$AA@ 1000131c     dllmain.obj
+ 0001:0000034c       ??_C@_1DA@LDOPMIEJ@?$AAC?$AAe?$AAr?$AAt?$AAG?$AAe?$AAt?$AAE?$AAn?$AAh?$AAa?$AAn?$AAc?$AAe?$AAd?$AAK?$AAe?$AAy?$AAU?$AAs?$AAa?$AAg?$AAe?$AA?$AA@ 1000134c     dllmain.obj
+ 0001:0000037c       ??_C@_1DE@HJDBAJOH@?$AAN?$AAC?$AAr?$AAy?$AAp?$AAt?$AAO?$AAp?$AAe?$AAn?$AAS?$AAt?$AAo?$AAr?$AAa?$AAg?$AAe?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?$AA@ 1000137c     dllmain.obj
+ 0001:000003b0       ??_C@_1BG@IIBKHGI@?$AAn?$AAc?$AAr?$AAy?$AAp?$AAt?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 100013b0     dllmain.obj
+ 0001:000003c8       ??_C@_1CC@DIOEHOMG@?$AAN?$AAC?$AAr?$AAy?$AAp?$AAt?$AAF?$AAr?$AAe?$AAe?$AAO?$AAb?$AAj?$AAe?$AAc?$AAt?$AA?$AA@ 100013c8     dllmain.obj
+ 0001:000003ec       ??_C@_1CE@HKAJLMEC@?$AAN?$AAC?$AAr?$AAy?$AAp?$AAt?$AAG?$AAe?$AAt?$AAP?$AAr?$AAo?$AAp?$AAe?$AAr?$AAt?$AAy?$AA?$AA@ 100013ec     dllmain.obj
+ 0001:00000410       ??_C@_1BG@OHIKBBLA@?$AAo?$AAu?$AAt?$AAr?$AAe?$AAs?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10001410     dllmain.obj
+ 0001:00000448       ??_7CFactory@@6B@          10001448     factory.obj
+ 0001:0000045c       _GUID_00000001_0000_0000_c000_000000000046 1000145c     factory.obj
+ 0001:0000046c       _GUID_00000000_0000_0000_c000_000000000046 1000146c     factory.obj
+ 0001:0000047c       _GUID_19ab8eba_472f_40f1_aee8_bfb2f80c5474 1000147c     factory.obj
+ 0001:000004d8       ??_C@_0BB@JGGOGLEG@0123456789ABCDEF?$AA@ 100014d8     mailutil_misc:hexconv.obj
+ 0001:000004ec       ??_C@_13HKALMPCF@?$AAZ?$AA?$AA@ 100014ec     mailutil_misc:utils_misc.obj
+ 0001:000004f0       ??_C@_13GILOGAML@?$AAY?$AA?$AA@ 100014f0     mailutil_misc:utils_misc.obj
+ 0001:000004f4       ??_C@_13NAACAHKO@?$AAX?$AA?$AA@ 100014f4     mailutil_misc:utils_misc.obj
+ 0001:000004f8       ??_C@_13IIGBBHPI@?$AAW?$AA?$AA@ 100014f8     mailutil_misc:utils_misc.obj
+ 0001:000004fc       ??_C@_13DANNHAJN@?$AAV?$AA?$AA@ 100014fc     mailutil_misc:utils_misc.obj
+ 0001:00000500       ??_C@_13CCGINPHD@?$AAU?$AA?$AA@ 10001500     mailutil_misc:utils_misc.obj
+ 0001:00000504       ??_C@_13JKNELIBG@?$AAT?$AA?$AA@ 10001504     mailutil_misc:utils_misc.obj
+ 0001:00000508       ??_C@_13LPLPOHMK@?$AAR?$AA?$AA@ 10001508     mailutil_misc:utils_misc.obj
+ 0001:0000050c       ??_C@_13KNAKEICE@?$AAQ?$AA?$AA@ 1000150c     mailutil_misc:utils_misc.obj
+ 0001:00000510       ??_C@_13BFLGCPEB@?$AAP?$AA?$AA@ 10001510     mailutil_misc:utils_misc.obj
+ 0001:00000514       ??_C@_13BNMMGIII@?$AAO?$AA?$AA@ 10001514     mailutil_misc:utils_misc.obj
+ 0001:00000518       ??_C@_13KFHAAPON@?$AAN?$AA?$AA@ 10001518     mailutil_misc:utils_misc.obj
+ 0001:0000051c       ??_C@_13PHJMHGG@?$AAL?$AA?$AA@ 1000151c     mailutil_misc:utils_misc.obj
+ 0001:00000520       ??_C@_13JCKOPPNP@?$AAK?$AA?$AA@ 10001520     mailutil_misc:utils_misc.obj
+ 0001:00000524       ??_C@_13DIKHDHFE@?$AAI?$AA?$AA@ 10001524     mailutil_misc:utils_misc.obj
+ 0001:00000528       ??_C@_13IABLFADB@?$AAH?$AA?$AA@ 10001528     mailutil_misc:utils_misc.obj
+ 0001:0000052c       ??_C@_13NIHIEAGH@?$AAG?$AA?$AA@ 1000152c     mailutil_misc:utils_misc.obj
+ 0001:00000530       ??_C@_13GAMECHAC@?$AAF?$AA?$AA@ 10001530     mailutil_misc:utils_misc.obj
+ 0001:00000534       ??_C@_13HCHBIIOM@?$AAE?$AA?$AA@ 10001534     mailutil_misc:utils_misc.obj
+ 0001:00000538       ??_C@_13FHBKNHDA@?$AAC?$AA?$AA@ 10001538     mailutil_misc:utils_misc.obj
+ 0001:0000053c       ??_C@_13PNBDBPLL@?$AAA?$AA?$AA@ 1000153c     mailutil_misc:utils_misc.obj
+ 0001:00000540       ??_C@_17BPFNADNP@?$AAP?$AAD?$AAT?$AA?$AA@ 10001540     mailutil_misc:utils_misc.obj
+ 0001:00000548       ??_C@_17BIODBPM@?$AAP?$AAS?$AAT?$AA?$AA@ 10001548     mailutil_misc:utils_misc.obj
+ 0001:00000550       ??_C@_17PIODCHCF@?$AAM?$AAD?$AAT?$AA?$AA@ 10001550     mailutil_misc:utils_misc.obj
+ 0001:00000558       ??_C@_17OGDABFAG@?$AAM?$AAS?$AAT?$AA?$AA@ 10001558     mailutil_misc:utils_misc.obj
+ 0001:00000560       ??_C@_17ONGJDFBH@?$AAC?$AAD?$AAT?$AA?$AA@ 10001560     mailutil_misc:utils_misc.obj
+ 0001:00000568       ??_C@_17PDLKAHDE@?$AAC?$AAS?$AAT?$AA?$AA@ 10001568     mailutil_misc:utils_misc.obj
+ 0001:00000570       ??_C@_17CLAGDMJA@?$AAE?$AAD?$AAT?$AA?$AA@ 10001570     mailutil_misc:utils_misc.obj
+ 0001:00000578       ??_C@_17DFNFAOLD@?$AAE?$AAS?$AAT?$AA?$AA@ 10001578     mailutil_misc:utils_misc.obj
+ 0001:00000580       ??_C@_17EOCMGKCF@?$AAG?$AAM?$AAT?$AA?$AA@ 10001580     mailutil_misc:utils_misc.obj
+ 0001:00000588       ??_C@_15FGBBFPON@?$AAU?$AAT?$AA?$AA@ 10001588     mailutil_misc:utils_misc.obj
+ 0001:00000590       ??_C@_13IEJJBAMJ@?$AA2?$AA?$AA@ 10001590     mailutil_misc:utils_misc.obj
+ 0001:00000594       ??_C@_13JGCMLPCH@?$AA1?$AA?$AA@ 10001594     mailutil_misc:utils_misc.obj
+ 0001:00000598       ??_C@_13DMCFHHKM@?$AA3?$AA?$AA@ 10001598     mailutil_misc:utils_misc.obj
+ 0001:0000059c       ??_C@_13KBPCEPBF@?$AA4?$AA?$AA@ 1000159c     mailutil_misc:utils_misc.obj
+ 0001:000005a0       ??_C@_13BJEOCIHA@?$AA5?$AA?$AA@ 100015a0     mailutil_misc:utils_misc.obj
+ 0001:000005a4       ??_C@_19PKICIIJD@?$AAh?$AAi?$AAg?$AAh?$AA?$AA@ 100015a4     mailutil_misc:utils_misc.obj
+ 0001:000005b0       ??_C@_1O@DIMONLGD@?$AAn?$AAo?$AAr?$AAm?$AAa?$AAl?$AA?$AA@ 100015b0     mailutil_misc:utils_misc.obj
+ 0001:000005c0       ??_C@_17BCNDLAMI@?$AAl?$AAo?$AAw?$AA?$AA@ 100015c0     mailutil_misc:utils_misc.obj
+ 0001:000005c8       ??_C@_1O@CHBCJGPP@?$AAG?$AAl?$AAo?$AAb?$AAa?$AAl?$AA?$AA@ 100015c8     mailutil_misc:utils_misc.obj
+ 0001:000009d8       CLSID_SHNAPI_InboxEmail    100019d8     mailutil_misc:utils_misc.obj
+ 0001:000009e8       CLSID_SHNAPI_InboxSMS      100019e8     mailutil_misc:utils_misc.obj
+ 0001:000009f8       CLSID_WICImagingFactory    100019f8     mailutil_misc:utils_misc.obj
+ 0001:00000a08       ??_C@_17DKNBKCHM@?$AAJ?$AAa?$AAn?$AA?$AA@ 10001a08     mailutil_misc:utils_misc.obj
+ 0001:00000a10       ??_C@_17LMDJEKJN@?$AAF?$AAe?$AAb?$AA?$AA@ 10001a10     mailutil_misc:utils_misc.obj
+ 0001:00000a18       ??_C@_17CKNLEDEC@?$AAM?$AAa?$AAr?$AA?$AA@ 10001a18     mailutil_misc:utils_misc.obj
+ 0001:00000a20       ??_C@_17LFPOIHDD@?$AAA?$AAp?$AAr?$AA?$AA@ 10001a20     mailutil_misc:utils_misc.obj
+ 0001:00000a28       ??_C@_17PNNKMEED@?$AAM?$AAa?$AAy?$AA?$AA@ 10001a28     mailutil_misc:utils_misc.obj
+ 0001:00000a30       ??_C@_17KCJGOCPB@?$AAJ?$AAu?$AAn?$AA?$AA@ 10001a30     mailutil_misc:utils_misc.obj
+ 0001:00000a38       ??_C@_17IJPCKHK@?$AAJ?$AAu?$AAl?$AA?$AA@ 10001a38     mailutil_misc:utils_misc.obj
+ 0001:00000a40       ??_C@_17ICPELBCN@?$AAA?$AAu?$AAg?$AA?$AA@ 10001a40     mailutil_misc:utils_misc.obj
+ 0001:00000a48       ??_C@_17HCHCOKMG@?$AAS?$AAe?$AAp?$AA?$AA@ 10001a48     mailutil_misc:utils_misc.obj
+ 0001:00000a50       ??_C@_17FNLKOI@?$AAO?$AAc?$AAt?$AA?$AA@ 10001a50     mailutil_misc:utils_misc.obj
+ 0001:00000a58       ??_C@_17BBDMLCIG@?$AAN?$AAo?$AAv?$AA?$AA@ 10001a58     mailutil_misc:utils_misc.obj
+ 0001:00000a60       ??_C@_17EGKACKIF@?$AAD?$AAe?$AAc?$AA?$AA@ 10001a60     mailutil_misc:utils_misc.obj
+ 0001:00000a68       ??_7CBase64StreamFilter@@6B@ 10001a68     mailutil_misc:utils_misc.obj
+ 0001:00000aa4       ??_7CDecodeStreamFilter@@6B@ 10001aa4     mailutil_misc:utils_misc.obj
+ 0001:00000ae0       ??_C@_1EC@JMOJPOPA@?$AAS?$AAO?$AAF?$AAT?$AAW?$AAA?$AAR?$AAE?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAI?$AAn?$AAt?$AAe?$AAr?$AAn?$AAa?$AAt?$AAi?$AAo?$AAn?$AAa?$AAl@ 10001ae0     mailutil_misc:utils_misc.obj
+ 0001:00000b24       ??_C@_19DMACBGH@?$AAL?$AAC?$AAI?$AAD?$AA?$AA@ 10001b24     mailutil_misc:utils_misc.obj
+ 0001:00000b30       ??_C@_19JHGABELP@?$AAT?$AAr?$AAa?$AAy?$AA?$AA@ 10001b30     mailutil_misc:utils_misc.obj
+ 0001:00000b3c       ??_C@_13HOIJIPNN@?$AA?5?$AA?$AA@ 10001b3c     mailutil_misc:utils_misc.obj
+ 0001:00000b68       _GUID_a65ccaeb_6558_4656_ad3d_eccc00d00f0d 10001b68     mailutil_misc:utils_misc.obj
+ 0001:00000b78       _GUID_05058f23_20be_11d2_8f18_0000f87a4335 10001b78     mailutil_misc:utils_misc.obj
+ 0001:00000b88       ??_C@_13FPGAJAPJ@?$AA?2?$AA?$AA@ 10001b88     mailutil_misc:utils_misc.obj
+ 0001:00000bac       _GUID_3050f1d8_98b5_11cf_bb82_00aa00bdce0b 10001bac     mailutil_misc:htmlutil.obj
+ 0001:00000bbc       ??_C@_11LOCGONAA@?$AA?$AA@ 10001bbc     mailutil_misc:htmlutil.obj
+ 0001:00000c2c       ??_C@_1BE@EMELPOLH@?$AAI?$AAm?$AAp?$AAl?$AA?5?$AAT?$AAy?$AAp?$AAe?$AA?$AA@ 10001c2c     mailutil_misc:smimeutils.obj
+ 0001:00000c40       ??_C@_0BC@NPHIPKH@1?43?46?41?45?45?47?43?44?$AA@ 10001c40     mailutil_misc:smimeutils.obj
+ 0001:00000cbc       ??_C@_1DO@CHFLJJAE@?$AAP?$AAR?$AA_?$AAS?$AAP?$AAL?$AAU?$AAS?$AA_?$AAO?$AAW?$AAN?$AAE?$AAR?$AA_?$AAC?$AAR?$AAI?$AAT?$AAI?$AAC?$AAA?$AAL?$AA_?$AAC?$AAH?$AAA?$AAN?$AAG?$AAE?$AA?$AA@ 10001cbc     mailutil_misc:mapiprops.obj
+ 0001:00000d3c       ??_C@_1CO@EDHGNECG@?$AAP?$AAR?$AA_?$AAS?$AAP?$AAL?$AAU?$AAS?$AA_?$AAD?$AAE?$AAL?$AAE?$AAG?$AAA?$AAT?$AAE?$AA_?$AAM?$AAA?$AAI?$AAL?$AA?$AA@ 10001d3c     mailutil_misc:mapiprops.obj
+ 0001:00000d6c       ??_C@_1CM@HKDODHLM@?$AAP?$AAR?$AA_?$AAS?$AAP?$AAL?$AAU?$AAS?$AA_?$AAI?$AAS?$AA_?$AAR?$AAE?$AAC?$AAU?$AAR?$AAR?$AAI?$AAN?$AAG?$AA?$AA@ 10001d6c     mailutil_misc:mapiprops.obj
+ 0001:00000d98       ??_C@_1CM@JHHHOHGC@?$AAP?$AAR?$AA_?$AAS?$AAP?$AAL?$AAU?$AAS?$AA_?$AAI?$AAS?$AA_?$AAE?$AAX?$AAC?$AAE?$AAP?$AAT?$AAI?$AAO?$AAN?$AA?$AA@ 10001d98     mailutil_misc:mapiprops.obj
+ 0001:00000dc4       ??_C@_1CO@MEFECAFA@?$AAP?$AAR?$AA_?$AAS?$AAP?$AAL?$AAU?$AAS?$AA_?$AAS?$AAI?$AAN?$AAG?$AAL?$AAE?$AA_?$AAI?$AAN?$AAV?$AAI?$AAT?$AAE?$AA?$AA@ 10001dc4     mailutil_misc:mapiprops.obj
+ 0001:00000df4       ??_C@_1CG@PJFFCHKI@?$AAP?$AAR?$AA_?$AAS?$AAP?$AAL?$AAU?$AAS?$AA_?$AAT?$AAI?$AAM?$AAE?$AA_?$AAZ?$AAO?$AAN?$AAE?$AA?$AA@ 10001df4     mailutil_misc:mapiprops.obj
+ 0001:00000e1c       ??_C@_1DE@OJHDCNHB@?$AAP?$AAR?$AA_?$AAS?$AAP?$AAL?$AAU?$AAS?$AA_?$AAS?$AAT?$AAA?$AAR?$AAT?$AA_?$AAR?$AAE?$AAC?$AAU?$AAR?$AA_?$AAD?$AAA?$AAT?$AAE?$AA?$AA@ 10001e1c     mailutil_misc:mapiprops.obj
+ 0001:00000e50       ??_C@_1DE@DJOBOEHP@?$AAP?$AAR?$AA_?$AAS?$AAP?$AAL?$AAU?$AAS?$AA_?$AAS?$AAT?$AAA?$AAR?$AAT?$AA_?$AAR?$AAE?$AAC?$AAU?$AAR?$AA_?$AAT?$AAI?$AAM?$AAE?$AA?$AA@ 10001e50     mailutil_misc:mapiprops.obj
+ 0001:00000e84       ??_C@_1DA@PEGGLNGC@?$AAP?$AAR?$AA_?$AAS?$AAP?$AAL?$AAU?$AAS?$AA_?$AAE?$AAN?$AAD?$AA_?$AAR?$AAE?$AAC?$AAU?$AAR?$AA_?$AAD?$AAA?$AAT?$AAE?$AA?$AA@ 10001e84     mailutil_misc:mapiprops.obj
+ 0001:00000eb4       ??_C@_1DA@CEPEHEGM@?$AAP?$AAR?$AA_?$AAS?$AAP?$AAL?$AAU?$AAS?$AA_?$AAE?$AAN?$AAD?$AA_?$AAR?$AAE?$AAC?$AAU?$AAR?$AA_?$AAT?$AAI?$AAM?$AAE?$AA?$AA@ 10001eb4     mailutil_misc:mapiprops.obj
+ 0001:00000ee4       ??_C@_1CE@HPGCJMKG@?$AAP?$AAR?$AA_?$AAS?$AAP?$AAL?$AAU?$AAS?$AA_?$AAD?$AAO?$AAW?$AA_?$AAP?$AAR?$AAE?$AAF?$AA?$AA@ 10001ee4     mailutil_misc:mapiprops.obj
+ 0001:00000f08       ??_C@_1CI@OEKBEPOC@?$AAP?$AAR?$AA_?$AAS?$AAP?$AAL?$AAU?$AAS?$AA_?$AAR?$AAE?$AAC?$AAU?$AAR?$AA_?$AAT?$AAY?$AAP?$AAE?$AA?$AA@ 10001f08     mailutil_misc:mapiprops.obj
+ 0001:00000f30       ??_C@_1CM@PDJOANFD@?$AAP?$AAR?$AA_?$AAS?$AAP?$AAL?$AAU?$AAS?$AA_?$AAD?$AAA?$AAY?$AA_?$AAI?$AAN?$AAT?$AAE?$AAR?$AAV?$AAA?$AAL?$AA?$AA@ 10001f30     mailutil_misc:mapiprops.obj
+ 0001:00000f5c       ??_C@_1CO@OLKPMIFM@?$AAP?$AAR?$AA_?$AAS?$AAP?$AAL?$AAU?$AAS?$AA_?$AAW?$AAE?$AAE?$AAK?$AA_?$AAI?$AAN?$AAT?$AAE?$AAR?$AAV?$AAA?$AAL?$AA?$AA@ 10001f5c     mailutil_misc:mapiprops.obj
+ 0001:00000f8c       ??_C@_1DA@EMKLIIFJ@?$AAP?$AAR?$AA_?$AAS?$AAP?$AAL?$AAU?$AAS?$AA_?$AAM?$AAO?$AAN?$AAT?$AAH?$AA_?$AAI?$AAN?$AAT?$AAE?$AAR?$AAV?$AAA?$AAL?$AA?$AA@ 10001f8c     mailutil_misc:mapiprops.obj
+ 0001:00000fbc       ??_C@_1CO@INCGLICE@?$AAP?$AAR?$AA_?$AAS?$AAP?$AAL?$AAU?$AAS?$AA_?$AAY?$AAE?$AAA?$AAR?$AA_?$AAI?$AAN?$AAT?$AAE?$AAR?$AAV?$AAA?$AAL?$AA?$AA@ 10001fbc     mailutil_misc:mapiprops.obj
+ 0001:00000fec       ??_C@_1CE@HIODJJGN@?$AAP?$AAR?$AA_?$AAS?$AAP?$AAL?$AAU?$AAS?$AA_?$AAD?$AAO?$AAW?$AA_?$AAM?$AAA?$AAS?$AAK?$AA?$AA@ 10001fec     mailutil_misc:mapiprops.obj
+ 0001:00001010       ??_C@_1CE@MMGGHPJK@?$AAP?$AAR?$AA_?$AAS?$AAP?$AAL?$AAU?$AAS?$AA_?$AAD?$AAO?$AAM?$AA_?$AAM?$AAA?$AAS?$AAK?$AA?$AA@ 10002010     mailutil_misc:mapiprops.obj
+ 0001:00001034       ??_C@_1CE@ELHLNEAA@?$AAP?$AAR?$AA_?$AAS?$AAP?$AAL?$AAU?$AAS?$AA_?$AAM?$AAO?$AAY?$AA_?$AAM?$AAA?$AAS?$AAK?$AA?$AA@ 10002034     mailutil_misc:mapiprops.obj
+ 0001:00001058       ??_C@_1EC@LFHNKCOH@?$AAP?$AAR?$AA_?$AAA?$AAP?$AAP?$AAO?$AAI?$AAN?$AAT?$AAM?$AAE?$AAN?$AAT?$AA_?$AAP?$AAR?$AAO?$AAP?$AAO?$AAS?$AAE?$AAT?$AAI?$AAM?$AAE?$AA_?$AAS?$AAT?$AAA?$AAR?$AAT@ 10002058     mailutil_misc:mapiprops.obj
+ 0001:0000109c       ??_C@_1DO@CMHOFGJJ@?$AAP?$AAR?$AA_?$AAA?$AAP?$AAP?$AAO?$AAI?$AAN?$AAT?$AAM?$AAE?$AAN?$AAT?$AA_?$AAP?$AAR?$AAO?$AAP?$AAO?$AAS?$AAE?$AAT?$AAI?$AAM?$AAE?$AA_?$AAE?$AAN?$AAD?$AA?$AA@ 1000209c     mailutil_misc:mapiprops.obj
+ 0001:000010e0       ??_C@_1EI@OIMBAMFB@?$AAP?$AAR?$AA_?$AAA?$AAP?$AAP?$AAO?$AAI?$AAN?$AAT?$AAM?$AAE?$AAN?$AAT?$AA_?$AAP?$AAR?$AAO?$AAP?$AAO?$AAS?$AAE?$AAT?$AAI?$AAM?$AAE?$AA_?$AAD?$AAU?$AAR?$AAA?$AAT@ 100020e0     mailutil_misc:mapiprops.obj
+ 0001:00001128       ??_C@_1DG@EICNOAMD@?$AAP?$AAR?$AA_?$AAA?$AAP?$AAP?$AAO?$AAI?$AAN?$AAT?$AAM?$AAE?$AAN?$AAT?$AA_?$AAP?$AAR?$AAO?$AAP?$AAO?$AAS?$AAE?$AAT?$AAI?$AAM?$AAE?$AA?$AA@ 10002128     mailutil_misc:mapiprops.obj
+ 0001:00001160       ??_C@_1CG@NMODOKBB@?$AAP?$AAR?$AA_?$AAS?$AAP?$AAL?$AAU?$AAS?$AA_?$AAI?$AAS?$AA_?$AAS?$AAI?$AAL?$AAE?$AAN?$AAT?$AA?$AA@ 10002160     mailutil_misc:mapiprops.obj
+ 0001:00001188       ??_C@_1DI@FGKHMEGF@?$AAP?$AAR?$AA_?$AAS?$AAP?$AAL?$AAU?$AAS?$AA_?$AAR?$AAE?$AAS?$AAO?$AAU?$AAR?$AAC?$AAE?$AA_?$AAA?$AAT?$AAT?$AAE?$AAN?$AAD?$AAE?$AAE?$AAS?$AA?$AA@ 10002188     mailutil_misc:mapiprops.obj
+ 0001:000011c0       ??_C@_1DI@BOPDLIHN@?$AAP?$AAR?$AA_?$AAS?$AAP?$AAL?$AAU?$AAS?$AA_?$AAO?$AAP?$AAT?$AAI?$AAO?$AAN?$AAA?$AAL?$AA_?$AAA?$AAT?$AAT?$AAE?$AAN?$AAD?$AAE?$AAE?$AAS?$AA?$AA@ 100021c0     mailutil_misc:mapiprops.obj
+ 0001:000011f8       ??_C@_1DI@NOMJCHBE@?$AAP?$AAR?$AA_?$AAS?$AAP?$AAL?$AAU?$AAS?$AA_?$AAR?$AAE?$AAQ?$AAU?$AAI?$AAR?$AAE?$AAD?$AA_?$AAA?$AAT?$AAT?$AAE?$AAN?$AAD?$AAE?$AAE?$AAS?$AA?$AA@ 100021f8     mailutil_misc:mapiprops.obj
+ 0001:00001230       ??_C@_1CM@KGNFMNMJ@?$AAP?$AAR?$AA_?$AAS?$AAP?$AAL?$AAU?$AAS?$AA_?$AAG?$AAL?$AAO?$AAB?$AAA?$AAL?$AA_?$AAO?$AAB?$AAJ?$AAI?$AAD?$AA?$AA@ 10002230     mailutil_misc:mapiprops.obj
+ 0001:0000125c       ??_C@_1BO@CMIEKCHO@?$AAP?$AAR?$AA_?$AAS?$AAP?$AAL?$AAU?$AAS?$AA_?$AAW?$AAH?$AAE?$AAR?$AAE?$AA?$AA@ 1000225c     mailutil_misc:mapiprops.obj
+ 0001:00001280       ??_C@_1EE@PAKDIFOG@?$AAP?$AAR?$AA_?$AAS?$AAP?$AAL?$AAU?$AAS?$AA_?$AAA?$AAT?$AAT?$AAE?$AAN?$AAD?$AAE?$AAE?$AA_?$AAC?$AAR?$AAI?$AAT?$AAI?$AAC?$AAA?$AAL?$AA_?$AAC?$AAH?$AAA?$AAN?$AAG@ 10002280     mailutil_misc:mapiprops.obj
+ 0001:000012c4       ??_C@_0CA@LLDMHGPB@IPM?4Microsoft?5Schedule?4MtgRespA?$AA@ 100022c4     mailutil_misc:msgclasses.obj
+ 0001:000012e8       ??_C@_1EA@BNDHPMKM@?$AAI?$AAP?$AAM?$AA?4?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?5?$AAS?$AAc?$AAh?$AAe?$AAd?$AAu?$AAl?$AAe?$AA?4?$AAM?$AAt?$AAg?$AAR?$AAe?$AAs?$AAp?$AAA?$AA?$AA@ 100022e8     mailutil_misc:msgclasses.obj
+ 0001:00001328       ??_C@_0BP@DBJONBOL@IPM?4Schedule?4Meeting?4Resp?4Tent?$AA@ 10002328     mailutil_misc:msgclasses.obj
+ 0001:00001348       ??_C@_1DO@MJNKPDNK@?$AAI?$AAP?$AAM?$AA?4?$AAS?$AAc?$AAh?$AAe?$AAd?$AAu?$AAl?$AAe?$AA?4?$AAM?$AAe?$AAe?$AAt?$AAi?$AAn?$AAg?$AA?4?$AAR?$AAe?$AAs?$AAp?$AA?4?$AAT?$AAe?$AAn?$AAt?$AA?$AA@ 10002348     mailutil_misc:msgclasses.obj
+ 0001:00001388       ??_C@_0CA@DMKEGKDO@IPM?4Microsoft?5Schedule?4MtgRespN?$AA@ 10002388     mailutil_misc:msgclasses.obj
+ 0001:000013a8       ??_C@_1EA@EFFEOMPK@?$AAI?$AAP?$AAM?$AA?4?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?5?$AAS?$AAc?$AAh?$AAe?$AAd?$AAu?$AAl?$AAe?$AA?4?$AAM?$AAt?$AAg?$AAR?$AAe?$AAs?$AAp?$AAN?$AA?$AA@ 100023a8     mailutil_misc:msgclasses.obj
+ 0001:000013e8       ??_C@_0BO@EJFBLNDJ@IPM?4Schedule?4Meeting?4Resp?4Neg?$AA@ 100023e8     mailutil_misc:msgclasses.obj
+ 0001:00001408       ??_C@_1DM@NONPEFDL@?$AAI?$AAP?$AAM?$AA?4?$AAS?$AAc?$AAh?$AAe?$AAd?$AAu?$AAl?$AAe?$AA?4?$AAM?$AAe?$AAe?$AAt?$AAi?$AAn?$AAg?$AA?4?$AAR?$AAe?$AAs?$AAp?$AA?4?$AAN?$AAe?$AAg?$AA?$AA@ 10002408     mailutil_misc:msgclasses.obj
+ 0001:00001444       ??_C@_0CA@OIOFFFOB@IPM?4Microsoft?5Schedule?4MtgRespP?$AA@ 10002444     mailutil_misc:msgclasses.obj
+ 0001:00001468       ??_C@_1EA@PFJCMMFG@?$AAI?$AAP?$AAM?$AA?4?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?5?$AAS?$AAc?$AAh?$AAe?$AAd?$AAu?$AAl?$AAe?$AA?4?$AAM?$AAt?$AAg?$AAR?$AAe?$AAs?$AAp?$AAP?$AA?$AA@ 10002468     mailutil_misc:msgclasses.obj
+ 0001:000014a8       ??_C@_0BO@NKKOMPBG@IPM?4Schedule?4Meeting?4Resp?4Pos?$AA@ 100024a8     mailutil_misc:msgclasses.obj
+ 0001:000014c8       ??_C@_1DM@MJAOIFIM@?$AAI?$AAP?$AAM?$AA?4?$AAS?$AAc?$AAh?$AAe?$AAd?$AAu?$AAl?$AAe?$AA?4?$AAM?$AAe?$AAe?$AAt?$AAi?$AAn?$AAg?$AA?4?$AAR?$AAe?$AAs?$AAp?$AA?4?$AAP?$AAo?$AAs?$AA?$AA@ 100024c8     mailutil_misc:msgclasses.obj
+ 0001:00001504       ??_C@_0BO@ILPKFGBE@IPM?4Microsoft?5Schedule?4MtgReq?$AA@ 10002504     mailutil_misc:msgclasses.obj
+ 0001:00001524       ??_C@_1DM@KJKMJPPC@?$AAI?$AAP?$AAM?$AA?4?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?5?$AAS?$AAc?$AAh?$AAe?$AAd?$AAu?$AAl?$AAe?$AA?4?$AAM?$AAt?$AAg?$AAR?$AAe?$AAq?$AA?$AA@ 10002524     mailutil_misc:msgclasses.obj
+ 0001:00001560       ??_C@_0BN@FNHLCEIJ@IPM?4Schedule?4Meeting?4Request?$AA@ 10002560     mailutil_misc:msgclasses.obj
+ 0001:00001580       ??_C@_1DK@LEEOHPJA@?$AAI?$AAP?$AAM?$AA?4?$AAS?$AAc?$AAh?$AAe?$AAd?$AAu?$AAl?$AAe?$AA?4?$AAM?$AAe?$AAe?$AAt?$AAi?$AAn?$AAg?$AA?4?$AAR?$AAe?$AAq?$AAu?$AAe?$AAs?$AAt?$AA?$AA@ 10002580     mailutil_misc:msgclasses.obj
+ 0001:000015bc       ??_C@_0BP@EGDKEEKN@IPM?4Microsoft?5Schedule?4MtgCncl?$AA@ 100025bc     mailutil_misc:msgclasses.obj
+ 0001:000015dc       ??_C@_1DO@OMNCLJON@?$AAI?$AAP?$AAM?$AA?4?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?5?$AAS?$AAc?$AAh?$AAe?$AAd?$AAu?$AAl?$AAe?$AA?4?$AAM?$AAt?$AAg?$AAC?$AAn?$AAc?$AAl?$AA?$AA@ 100025dc     mailutil_misc:msgclasses.obj
+ 0001:0000161c       ??_C@_0BO@PLNODFOE@IPM?4Schedule?4Meeting?4Canceled?$AA@ 1000261c     mailutil_misc:msgclasses.obj
+ 0001:0000163c       ??_C@_1DM@KOGNKGOM@?$AAI?$AAP?$AAM?$AA?4?$AAS?$AAc?$AAh?$AAe?$AAd?$AAu?$AAl?$AAe?$AA?4?$AAM?$AAe?$AAe?$AAt?$AAi?$AAn?$AAg?$AA?4?$AAC?$AAa?$AAn?$AAc?$AAe?$AAl?$AAe?$AAd?$AA?$AA@ 1000263c     mailutil_misc:msgclasses.obj
+ 0001:00001eb0       ??_7CMAPITableWalker@@6B@  10002eb0     mailutil_misc:mapitablewalker.obj
+ 0001:000020c0       ??_C@_19KANMDILN@?$AAS?$AAM?$AAT?$AAP?$AA?$AA@ 100030c0     mailutil_misc:welcomeemail.obj
+ 0001:000020cc       ??_C@_1O@JBBHAGJJ@?$AA?$CF?$AAs?$AA?$CF?$AAs?$AA?$CF?$AAs?$AA?$AA@ 100030cc     mailutil_misc:welcomeemail.obj
+ 0001:000020dc       ??_C@_19FPAAGIGN@?$AA?$CK?$AA?$CF?$AAs?$AA?$DL?$AA?$AA@ 100030dc     mailutil_misc:utils_image.obj
+ 0001:000020e8       ??_C@_13DEFPDAGF@?$AA?0?$AA?$AA@ 100030e8     mailutil_misc:utils_image.obj
+ 0001:000020ec       ??_C@_1M@DNJBHPMH@?$AA?4?$AAW?$AAB?$AAM?$AAP?$AA?$AA@ 100030ec     mailutil_misc:utils_image.obj
+ 0001:000020f8       _GUID_d8cd007f_d08f_4191_9bfc_236ea7f0e4b5 100030f8     mailutil_misc:utils_image.obj
+ 0001:00002108       _GUID_ec5ec8a9_c395_4314_9c77_54d7a935ff70 10003108     mailutil_misc:utils_image.obj
+ 0001:00002118       ?kszSMTP@@3QBGB            10003118     mailutil_misc:consts.obj
+ 0001:00002124       ?kszSMS@@3QBGB             10003124     mailutil_misc:consts.obj
+ 0001:0000212c       ?kszAirSync@@3QBGB         1000312c     mailutil_misc:consts.obj
+ 0001:0000213c       ?kSpace@@3GB               1000313c     mailutil_misc:consts.obj
+ 0001:00002140       ?kszSMSTransportName@@3QBGB 10003140     mailutil_misc:consts.obj
+ 0001:00002148       ?kszNamedPropTransportName@@3QBGB 10003148     mailutil_misc:consts.obj
+ 0001:00002170       ?gc_szSysAdminStatusMsgClass@@3QBGB 10003170     mailutil_misc:consts.obj
+ 0001:00002198       ?kszContentType@@3QBGB     10003198     mailutil_misc:consts.obj
+ 0001:000021b4       ?kszRegOptDisableSMSDeliveryReceipt@@3QBGB 100031b4     mailutil_misc:consts.obj
+ 0001:000021e8       ?kszRegKeySettings@@3QBGB  100031e8     mailutil_misc:consts.obj
+ 0001:0000222c       ?kszRegOEMSMSCallback@@3QBGB 1000322c     mailutil_misc:consts.obj
+ 0001:00002250       ?kszRegKeySettingsOEM@@3QBGB 10003250     mailutil_misc:consts.obj
+ 0001:0000229c       ?kszRegOEMSMSPriority@@3QBGB 1000329c     mailutil_misc:consts.obj
+ 0001:000022c0       ?kszIrmContentClass@@3QBGB 100032c0     mailutil_misc:consts.obj
+ 0001:000022dc       ?kszProtectedAttachmentName@@3QBGB 100032dc     mailutil_misc:consts.obj
+ 0001:000022f8       ?kszPrelicenseAttachmentName@@3QBGB 100032f8     mailutil_misc:consts.obj
+ 0001:00002324       ?kszInboxProtectedRegRoot@@3QBGB 10003324     mailutil_misc:consts.obj
+ 0001:00002340       ?kszRpmsgContentType@@3QBGB 10003340     mailutil_misc:consts.obj
+ 0001:0000238c       ?kszMMSAccountNamePath@@3QBGB 1000338c     mailutil_misc:consts.obj
+ 0001:000023c0       ?kszActiveSyncSources@@3QBGB 100033c0     mailutil_misc:consts.obj
+ 0001:00002410       ?kszEnableValueName@@3QBGB 10003410     mailutil_misc:consts.obj
+ 0001:00002420       ?kszEngine@@3QBGB          10003420     mailutil_misc:consts.obj
+ 0001:00002430       ?kszMMSAccountNameValue@@3QBGB 10003430     mailutil_misc:consts.obj
+ 0001:0000244c       ?kszSyncPartnershipQAHook@@3QBGB 1000344c     mailutil_misc:consts.obj
+ 0001:00002498       _GUID_0437705a_55d1_4158_8687_e191d04e1ae8 10003498     mailutil_misc:bufstm.obj
+ 0001:000024a8       ??_7CBufferedStream@@6B@   100034a8     mailutil_misc:bufstm.obj
+ 0001:00002504       ??_7HtmlDocForParsingSite@@6BIOleClientSite@@@ 10003504     mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000252c       ??_7HtmlDocForParsingSite@@6BIServiceProvider@@@ 1000352c     mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000253c       ??_7HtmlDocForParsingSite@@6BIDocHostShowUI@@@ 1000353c     mailutil_misc:SecureHtmlDoc.obj
+ 0001:00002550       _GUID_c4d244b0_d43e_11cf_893b_00aa00bdce1a 10003550     mailutil_misc:SecureHtmlDoc.obj
+ 0001:00002560       _GUID_6d5140c1_7436_11ce_8034_00aa006009fa 10003560     mailutil_misc:SecureHtmlDoc.obj
+ 0001:00002570       _GUID_00000118_0000_0000_c000_000000000046 10003570     mailutil_misc:SecureHtmlDoc.obj
+ 0001:00002580       ??_7MaxSecurityManager@@6B@ 10003580     mailutil_misc:SecureHtmlDoc.obj
+ 0001:000025b0       _GUID_f164edf1_cc7c_4f0d_9a94_34222625c393 100035b0     mailutil_misc:SecureHtmlDoc.obj
+ 0001:000025c0       _GUID_332c4425_26cb_11d0_b483_00c04fd90119 100035c0     mailutil_misc:SecureHtmlDoc.obj
+ 0001:000025d0       ??_C@_1BG@PNPBIKNO@?$AAR?$AAe?$AAc?$AAi?$AAp?$AAT?$AAa?$AAb?$AAl?$AAe?$AA?$AA@ 100035d0     mailutil_tnef:tnefDecoder.obj
+ 0001:000025e8       ??_C@_1BG@OKCFCONL@?$AAA?$AAt?$AAt?$AAa?$AAc?$AAh?$AAm?$AAe?$AAn?$AAt?$AA?$AA@ 100035e8     mailutil_tnef:tnefDecoder.obj
+ 0001:00002600       ??_C@_1BE@LEEOHLJA@?$AAM?$AAA?$AAP?$AAI?$AAP?$AAr?$AAo?$AAp?$AAs?$AA?$AA@ 10003600     mailutil_tnef:tnefDecoder.obj
+ 0001:00002614       ??_C@_1CC@HGNENIE@?$AAA?$AAt?$AAt?$AAa?$AAc?$AAh?$AAM?$AAo?$AAd?$AAi?$AAf?$AAy?$AAD?$AAa?$AAt?$AAe?$AA?$AA@ 10003614     mailutil_tnef:tnefDecoder.obj
+ 0001:00002638       ??_C@_1BE@IKDONJGM@?$AAD?$AAa?$AAt?$AAe?$AAS?$AAt?$AAa?$AAr?$AAt?$AA?$AA@ 10003638     mailutil_tnef:tnefDecoder.obj
+ 0001:0000264c       ??_C@_1BC@OBFBGGPB@?$AAD?$AAa?$AAt?$AAe?$AAS?$AAe?$AAn?$AAt?$AA?$AA@ 1000364c     mailutil_tnef:tnefDecoder.obj
+ 0001:00002660       ??_C@_1BC@OCBEEJIO@?$AAD?$AAa?$AAt?$AAe?$AAR?$AAe?$AAc?$AAd?$AA?$AA@ 10003660     mailutil_tnef:tnefDecoder.obj
+ 0001:00002674       ??_C@_1BK@HFFMKLBI@?$AAD?$AAa?$AAt?$AAe?$AAM?$AAo?$AAd?$AAi?$AAf?$AAi?$AAe?$AAd?$AA?$AA@ 10003674     mailutil_tnef:tnefDecoder.obj
+ 0001:00002690       ??_C@_1BA@PJMNHMA@?$AAD?$AAa?$AAt?$AAe?$AAE?$AAn?$AAd?$AA?$AA@ 10003690     mailutil_tnef:tnefDecoder.obj
+ 0001:000026a0       ??_C@_1CC@IIMHONJO@?$AAA?$AAt?$AAt?$AAa?$AAc?$AAh?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AAD?$AAa?$AAt?$AAe?$AA?$AA@ 100036a0     mailutil_tnef:tnefDecoder.obj
+ 0001:000026c4       ??_C@_1BK@COHBDPJK@?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AAC?$AAl?$AAa?$AAs?$AAs?$AA?$AA@ 100036c4     mailutil_tnef:tnefDecoder.obj
+ 0001:000026e0       ??_C@_1CK@OGDJJGHB@?$AAO?$AAr?$AAi?$AAg?$AAi?$AAn?$AAa?$AAl?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AAC?$AAl?$AAa?$AAs?$AAs?$AA?$AA@ 100036e0     mailutil_tnef:tnefDecoder.obj
+ 0001:0000270c       ??_C@_1BK@FMEPFGK@?$AAA?$AAt?$AAt?$AAc?$AAh?$AAS?$AAu?$AAb?$AAj?$AAe?$AAc?$AAt?$AA?$AA@ 1000370c     mailutil_tnef:tnefDecoder.obj
+ 0001:00002728       ??_C@_1BG@JGECJBPF@?$AAA?$AAt?$AAt?$AAa?$AAc?$AAh?$AAB?$AAo?$AAd?$AAy?$AA?$AA@ 10003728     mailutil_tnef:tnefDecoder.obj
+ 0001:00002740       ??_C@_1DA@IJMFGLEB@?$AAA?$AAt?$AAt?$AAa?$AAc?$AAh?$AAT?$AAr?$AAa?$AAn?$AAs?$AAp?$AAo?$AAr?$AAt?$AAF?$AAi?$AAl?$AAe?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 10003740     mailutil_tnef:tnefDecoder.obj
+ 0001:00002770       ??_C@_1BI@CDKALNAB@?$AAA?$AAt?$AAt?$AAa?$AAc?$AAh?$AAT?$AAi?$AAt?$AAl?$AAe?$AA?$AA@ 10003770     mailutil_tnef:tnefDecoder.obj
+ 0001:00002788       ??_C@_1BO@KDEGKDDM@?$AAA?$AAt?$AAt?$AAa?$AAc?$AAh?$AAM?$AAe?$AAt?$AAa?$AAF?$AAi?$AAl?$AAe?$AA?$AA@ 10003788     mailutil_tnef:tnefDecoder.obj
+ 0001:000027a8       ??_C@_1BG@BIKNIOGL@?$AAA?$AAt?$AAt?$AAa?$AAc?$AAh?$AAD?$AAa?$AAt?$AAa?$AA?$AA@ 100037a8     mailutil_tnef:tnefDecoder.obj
+ 0001:000027c0       ??_C@_1BG@MNKLCFHO@?$AAA?$AAt?$AAt?$AAa?$AAc?$AAh?$AAF?$AAr?$AAo?$AAm?$AA?$AA@ 100037c0     mailutil_tnef:tnefDecoder.obj
+ 0001:000027d8       ??_C@_1BM@DDGNNKEJ@?$AAA?$AAt?$AAt?$AAa?$AAc?$AAh?$AAS?$AAe?$AAn?$AAt?$AAF?$AAo?$AAr?$AA?$AA@ 100037d8     mailutil_tnef:tnefDecoder.obj
+ 0001:000027f4       ??_C@_1BI@GAPHFGKF@?$AAA?$AAt?$AAt?$AAa?$AAc?$AAh?$AAO?$AAw?$AAn?$AAe?$AAr?$AA?$AA@ 100037f4     mailutil_tnef:tnefDecoder.obj
+ 0001:0000280c       ??_C@_1BO@KPBGBFFC@?$AAA?$AAt?$AAt?$AAa?$AAc?$AAh?$AAR?$AAe?$AAn?$AAd?$AAd?$AAa?$AAt?$AAa?$AA?$AA@ 1000380c     mailutil_tnef:tnefDecoder.obj
+ 0001:0000282c       ??_C@_1BI@FBKIKKPL@?$AAS?$AAe?$AAn?$AAs?$AAi?$AAt?$AAi?$AAv?$AAi?$AAt?$AAy?$AA?$AA@ 1000382c     mailutil_tnef:tnefDecoder.obj
+ 0001:00002844       ??_C@_1CC@KJOMMCBL@?$AAR?$AAe?$AAq?$AAu?$AAe?$AAs?$AAt?$AA?5?$AAR?$AAe?$AAs?$AAp?$AAo?$AAn?$AAs?$AAe?$AA?$AA@ 10003844     mailutil_tnef:tnefDecoder.obj
+ 0001:00002868       ??_C@_1BC@JHNNEHFE@?$AAP?$AAr?$AAi?$AAo?$AAr?$AAi?$AAt?$AAy?$AA?$AA@ 10003868     mailutil_tnef:tnefDecoder.obj
+ 0001:0000287c       ??_C@_1BM@PEHICDME@?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AAS?$AAt?$AAa?$AAt?$AAu?$AAs?$AA?$AA@ 1000387c     mailutil_tnef:tnefDecoder.obj
+ 0001:00002898       ??_C@_1CK@JIODOJJM@?$AAO?$AAw?$AAn?$AAe?$AAr?$AA?5?$AAA?$AAp?$AAp?$AAo?$AAi?$AAn?$AAt?$AAm?$AAe?$AAn?$AAt?$AA?5?$AAI?$AAD?$AA?$AA@ 10003898     mailutil_tnef:tnefDecoder.obj
+ 0001:000028c4       ??_C@_1BC@IDNCPF@?$AAI?$AAP?$AAM?$AA?4?$AAN?$AAo?$AAt?$AAe?$AA?$AA@ 100038c4     mailutil_tnef:tnefDecoder.obj
+ 0001:000028dc       ?cAttHandlerTableSize@CTnefDecoder@@0KB 100038dc     mailutil_tnef:tnefDecoder.obj
+ 0001:000028e0       ?AttHandlerTable@CTnefDecoder@@0QBUAttHandlerTableEntry@1@B 100038e0     mailutil_tnef:tnefDecoder.obj
+ 0001:00002a24       ??_7CTnefDecoder@@6B@      10003a24     mailutil_tnef:tnefDecoder.obj
+ 0001:00002a50       ??_7CTnefEncoder@@6B@      10003a50     mailutil_tnef:tnefencoder.obj
+ 0001:00002a70       ?c_liZero@@3T_LARGE_INTEGER@@B 10003a70     mailutil_tnef:tnefutils.obj
+ 0001:00002a78       ??_7CTnefStream@@6B@       10003a78     mailutil_tnef:tnefstream.obj
+ 0001:00002ab4       ??_C@_00CNPNBAHC@?$AA@     10003ab4     mailutil_vcal:vcardgen.obj
+ 0001:00002ab8       ??_C@_08HFIPAJDM@CHARSET?$DN?$AA@ 10003ab8     mailutil_vcal:vcardgen.obj
+ 0001:00002ac4       ??_C@_04BFLJMNEL@BDAY?$AA@ 10003ac4     mailutil_vcal:vcardgen.obj
+ 0001:00002acc       ??_C@_01JLIPDDHJ@?3?$AA@   10003acc     mailutil_vcal:vcardgen.obj
+ 0001:00002ad0       ??_C@_13PJJBFPED@?$AA?$DL?$AA?$AA@ 10003ad0     mailutil_vcal:vcardgen.obj
+ 0001:00002ad4       ??_C@_09MOHDDDAH@END?3VCARD?$AA@ 10003ad4     mailutil_vcal:vcardgen.obj
+ 0001:00002ae0       ??_C@_0M@PCLDBDAI@VERSION?32?41?$AA@ 10003ae0     mailutil_vcal:vcardgen.obj
+ 0001:00002aec       ??_C@_0M@FDBEEFCM@VERSION?33?40?$AA@ 10003aec     mailutil_vcal:vcardgen.obj
+ 0001:00002af8       ??_C@_0M@NMDPKAOA@BEGIN?3VCARD?$AA@ 10003af8     mailutil_vcal:vcardgen.obj
+ 0001:00002b04       ??_C@_0O@CNGICKEJ@profile?$DNvCard?$AA@ 10003b04     mailutil_vcal:vcardgen.obj
+ 0001:00002b14       ??_C@_0BM@NNABANEN@Content?9Type?3?5?5text?1x?9vcard?$AA@ 10003b14     mailutil_vcal:vcardgen.obj
+ 0001:00002b30       ??_C@_02PCIJFNDE@?$AN?6?$AA@ 10003b30     mailutil_vcal:vcardgen.obj
+ 0001:00002b34       ?crlf@VCardGen@@0QADA      10003b34     mailutil_vcal:vcardgen.obj
+ 0001:00002b38       ?contentType@VCardGen@@0QADA 10003b38     mailutil_vcal:vcardgen.obj
+ 0001:00002b3c       ?profile@VCardGen@@0QADA   10003b3c     mailutil_vcal:vcardgen.obj
+ 0001:00002b40       ?begin@VCardGen@@0QADA     10003b40     mailutil_vcal:vcardgen.obj
+ 0001:00002b44       ?version_3@VCardGen@@0QADA 10003b44     mailutil_vcal:vcardgen.obj
+ 0001:00002b48       ?version_2@VCardGen@@0QADA 10003b48     mailutil_vcal:vcardgen.obj
+ 0001:00002b4c       ?vcardEnd@VCardGen@@0QADA  10003b4c     mailutil_vcal:vcardgen.obj
+ 0001:00002b50       ?spaceStr@VCardGen@@0QAGA  10003b50     mailutil_vcal:vcardgen.obj
+ 0001:00002b54       ?semiColonStr@VCardGen@@0QAGA 10003b54     mailutil_vcal:vcardgen.obj
+ 0001:00002b58       ?colonStr@VCardGen@@0QADA  10003b58     mailutil_vcal:vcardgen.obj
+ 0001:00002b5c       ?birthDayStr@VCardGen@@0QADA 10003b5c     mailutil_vcal:vcardgen.obj
+ 0001:00002b60       ?charSet@VCardGen@@0QADA   10003b60     mailutil_vcal:vcardgen.obj
+ 0001:00002b64       ?emptyString@VCardGen@@0QADA 10003b64     mailutil_vcal:vcardgen.obj
+ 0001:00002b78       ??_7VCardGen@@6B@          10003b78     mailutil_vcal:vcardgen.obj
+ 0001:00002bc0       ??_C@_0L@BEPOCHAP@ISO?98859?94?$AA@ 10003bc0     mailutil_vcal:icalinterface.obj
+ 0001:00002bcc       ??_C@_0L@FLLPLBMI@ISO?98859?93?$AA@ 10003bcc     mailutil_vcal:icalinterface.obj
+ 0001:00002bd8       ??_C@_0L@DPNDHEMM@ISO?98859?97?$AA@ 10003bd8     mailutil_vcal:icalinterface.obj
+ 0001:00002be4       ??_C@_0L@GJIJNDEK@ISO?98859?91?$AA@ 10003be4     mailutil_vcal:icalinterface.obj
+ 0001:00002bf0       ??_C@_0L@NOFBGEO@ISO?98859?95?$AA@ 10003bf0     mailutil_vcal:icalinterface.obj
+ 0001:00002bfc       ??_C@_0L@ECKEIAIJ@ISO?98859?92?$AA@ 10003bfc     mailutil_vcal:icalinterface.obj
+ 0001:00002c08       ??_C@_0M@IPHBKAAL@ISO?92022?9KR?$AA@ 10003c08     mailutil_vcal:icalinterface.obj
+ 0001:00002c14       ??_C@_04CKBGENIP@BIG5?$AA@ 10003c14     mailutil_vcal:icalinterface.obj
+ 0001:00002c1c       ??_C@_06FAAJKHGO@GB2312?$AA@ 10003c1c     mailutil_vcal:icalinterface.obj
+ 0001:00002c24       ??_C@_09NDNIACC@SHIFT_JIS?$AA@ 10003c24     mailutil_vcal:icalinterface.obj
+ 0001:00002c30       ??_C@_05EGJIMALK@UTF?98?$AA@ 10003c30     mailutil_vcal:icalinterface.obj
+ 0001:00002e98       ?g_rgCodePageCharSet@@3QBUtagCODEPAGETOCHARSET@@B 10003e98     mailutil_vcal:icalinterface.obj
+ 0001:00002f5c       ??_C@_0BB@MHPDOAGL@QUOTED?9PRINTABLE?$AA@ 10003f5c     mailutil_vcal:icalinterface.obj
+ 0001:00002f70       ??_7CIcalParserInterface@@6B@ 10003f70     mailutil_vcal:icalinterface.obj
+ 0001:00002f90       ??_C@_04FBLNPEBP@DATE?$AA@ 10003f90     mailutil_vcal:icalinterface.obj
+ 0001:00002f98       ??_C@_0N@NIGEIJEK@CONTENT?9TYPE?$AA@ 10003f98     mailutil_vcal:icalinterface.obj
+ 0001:00002fa8       ??_C@_19ELAAHEEL@?$AAT?$AAR?$AAU?$AAE?$AA?$AA@ 10003fa8     mailutil_vcal:icalinterface.obj
+ 0001:00002fb4       ??_C@_1BM@KBBOCDEM@?$AAC?$AAU?$AAn?$AAk?$AA_?$AAQ?$AAI?$AAS?$AAe?$AAa?$AAr?$AAc?$AAh?$AA?$AA@ 10003fb4     mailutil_vcal:dllload.obj
+ 0001:00002fd0       ??_C@_1BG@ELFKLHIC@?$AAs?$AAh?$AAu?$AAt?$AAi?$AAl?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 10003fd0     mailutil_vcal:dllload.obj
+ 0001:00002fe8       ??_C@_09PPDLGBLG@123456789?$AA@ 10003fe8     mailutil_vcal:ICalParser.obj
+ 0001:00002ff4       ??_C@_01IHBHIGKO@?0?$AA@   10003ff4     mailutil_vcal:ICalParser.obj
+ 0001:00002ff8       ??_C@_01NEMOKFLO@?$DN?$AA@ 10003ff8     mailutil_vcal:ICalParser.obj
+ 0001:00002ffc       ??_C@_01ICJEACDI@?$DL?$AA@ 10003ffc     mailutil_vcal:ICalParser.obj
+ 0001:00003000       ??_C@_01IPJKGB@?$CD?$AA@   10004000     mailutil_vcal:ICalParser.obj
+ 0001:00003004       ??_C@_01CLKCMJKC@?5?$AA@   10004004     mailutil_vcal:ICalParser.obj
+ 0001:00003008       ??_C@_02PGHGPEOM@?91?$AA@  10004008     mailutil_vcal:ICalParser.obj
+ 0001:000034f4       ??_C@_06MCEJMNCN@VEVENT?$AA@ 100044f4     mailutil_vcal:icalkeywords.obj
+ 0001:000034fc       ??_C@_08CBJNMPAB@STANDARD?$AA@ 100044fc     mailutil_vcal:icalkeywords.obj
+ 0001:00003508       ??_C@_05IGDGDCPA@CLASS?$AA@ 10004508     mailutil_vcal:icalkeywords.obj
+ 0001:00003510       ??_C@_03BBJMCFKE@URL?$AA@  10004510     mailutil_vcal:icalkeywords.obj
+ 0001:00003514       ??_C@_08FDNLEDLE@BYMINUTE?$AA@ 10004514     mailutil_vcal:icalkeywords.obj
+ 0001:00003520       ??_C@_07EGEIEOOI@DTSTAMP?$AA@ 10004520     mailutil_vcal:icalkeywords.obj
+ 0001:00003528       ??_C@_09LHDMJJIG@COMPLETED?$AA@ 10004528     mailutil_vcal:icalkeywords.obj
+ 0001:00003534       ??_C@_06LCBKFLKD@REPEAT?$AA@ 10004534     mailutil_vcal:icalkeywords.obj
+ 0001:0000353c       ??_C@_04LLKALCGB@TZID?$AA@ 1000453c     mailutil_vcal:icalkeywords.obj
+ 0001:00003544       ??_C@_08ECBGADMO@DAYLIGHT?$AA@ 10004544     mailutil_vcal:icalkeywords.obj
+ 0001:00003550       ??_C@_0BF@EAIEAONN@X?9MICROSOFT?9ASST_TEL?$AA@ 10004550     mailutil_vcal:icalkeywords.obj
+ 0001:00003568       ??_C@_03MNMMELJE@ORG?$AA@  10004568     mailutil_vcal:icalkeywords.obj
+ 0001:0000356c       ??_C@_08PHDJDNOC@PRIORITY?$AA@ 1000456c     mailutil_vcal:icalkeywords.obj
+ 0001:00003578       ??_C@_0BB@CDONLIDN@PERCENT_COMPLETE?$AA@ 10004578     mailutil_vcal:icalkeywords.obj
+ 0001:0000358c       ??_C@_0BL@BIIMKAI@X?9MICROSOFT?9CDO?9BUSYSTATUS?$AA@ 1000458c     mailutil_vcal:icalkeywords.obj
+ 0001:000035a8       ??_C@_0M@DDKBGIA@X?9ASSISTANT?$AA@ 100045a8     mailutil_vcal:icalkeywords.obj
+ 0001:000035b4       ??_C@_08FOLJKLOE@LOCATION?$AA@ 100045b4     mailutil_vcal:icalkeywords.obj
+ 0001:000035c0       ??_C@_0BJ@KHHJPOCN@X?9MICROSOFT?9GOVERNMENTID?$AA@ 100045c0     mailutil_vcal:icalkeywords.obj
+ 0001:000035dc       ??_C@_04KDPJLEDB@TYPE?$AA@ 100045dc     mailutil_vcal:icalkeywords.obj
+ 0001:000035e4       ??_C@_05EFPFFLHP@RRULE?$AA@ 100045e4     mailutil_vcal:icalkeywords.obj
+ 0001:000035ec       ??_C@_0BG@LPGAEOGM@X?9MICROSOFT?9OFFICELOC?$AA@ 100045ec     mailutil_vcal:icalkeywords.obj
+ 0001:00003604       ??_C@_08MJLDLDGF@DURATION?$AA@ 10004604     mailutil_vcal:icalkeywords.obj
+ 0001:00003610       ??_C@_09NEJJNJHC@ORGANIZER?$AA@ 10004610     mailutil_vcal:icalkeywords.obj
+ 0001:0000361c       ??_C@_06LJKEMAPN@SPOUSE?$AA@ 1000461c     mailutil_vcal:icalkeywords.obj
+ 0001:00003624       ??_C@_05GHBLALFN@RDATE?$AA@ 10004624     mailutil_vcal:icalkeywords.obj
+ 0001:0000362c       ??_C@_04FKJLEBBM@FREQ?$AA@ 1000462c     mailutil_vcal:icalkeywords.obj
+ 0001:00003634       ??_C@_09IMBBIOOI@BYYEARDAY?$AA@ 10004634     mailutil_vcal:icalkeywords.obj
+ 0001:00003640       ??_C@_02BMJIHHPP@CN?$AA@   10004640     mailutil_vcal:icalkeywords.obj
+ 0001:00003644       ??_C@_07ENFLEHC@SUMMARY?$AA@ 10004644     mailutil_vcal:icalkeywords.obj
+ 0001:0000364c       ??_C@_06NAKPMGAD@AALARM?$AA@ 1000464c     mailutil_vcal:icalkeywords.obj
+ 0001:00003654       ??_C@_07MFGAOKLA@TRIGGER?$AA@ 10004654     mailutil_vcal:icalkeywords.obj
+ 0001:0000365c       ??_C@_0L@NIMDLIHO@CATEGORIES?$AA@ 1000465c     mailutil_vcal:icalkeywords.obj
+ 0001:00003668       ??_C@_08DBLICGCL@FREEBUSY?$AA@ 10004668     mailutil_vcal:icalkeywords.obj
+ 0001:00003674       ??_C@_08NMGGAAPB@BYSECOND?$AA@ 10004674     mailutil_vcal:icalkeywords.obj
+ 0001:00003680       ??_C@_04PLNCJLIN@NOTE?$AA@ 10004680     mailutil_vcal:icalkeywords.obj
+ 0001:00003688       ??_C@_08FOPOPDIC@INTERVAL?$AA@ 10004688     mailutil_vcal:icalkeywords.obj
+ 0001:00003694       ??_C@_07PIOOHGIO@CONTACT?$AA@ 10004694     mailutil_vcal:icalkeywords.obj
+ 0001:0000369c       ??_C@_08IBJGIKHL@ATTENDEE?$AA@ 1000469c     mailutil_vcal:icalkeywords.obj
+ 0001:000036a8       ??_C@_09HMAJOJIG@VCALENDAR?$AA@ 100046a8     mailutil_vcal:icalkeywords.obj
+ 0001:000036b4       ??_C@_09CMINMFIB@RESOURCES?$AA@ 100046b4     mailutil_vcal:icalkeywords.obj
+ 0001:000036c0       ??_C@_07CAMPGIMC@RELATED?$AA@ 100046c0     mailutil_vcal:icalkeywords.obj
+ 0001:000036c8       ??_C@_0BG@NLNIMMHL@X?9MICROSOFT?9ASSISTANT?$AA@ 100046c8     mailutil_vcal:icalkeywords.obj
+ 0001:000036e0       ??_C@_06CFILFMHG@PRODID?$AA@ 100046e0     mailutil_vcal:icalkeywords.obj
+ 0001:000036e8       ??_C@_0BJ@EMPFGDMO@X?9MICROSOFT?9CDO?9MODPROPS?$AA@ 100046e8     mailutil_vcal:icalkeywords.obj
+ 0001:00003704       ??_C@_05LBOENAGF@EMAIL?$AA@ 10004704     mailutil_vcal:icalkeywords.obj
+ 0001:0000370c       ??_C@_05JKHMOCAA@VTODO?$AA@ 1000470c     mailutil_vcal:icalkeywords.obj
+ 0001:00003714       ??_C@_0L@GFMCOOGD@BYMONTHDAY?$AA@ 10004714     mailutil_vcal:icalkeywords.obj
+ 0001:00003720       ??_C@_0L@IMBEPCDF@X?9CHILDREN?$AA@ 10004720     mailutil_vcal:icalkeywords.obj
+ 0001:0000372c       ??_C@_0L@LLOOLGNC@RELATED_TO?$AA@ 1000472c     mailutil_vcal:icalkeywords.obj
+ 0001:00003738       ??_C@_0N@LHAGOLIF@X?9YOMI?9LNAME?$AA@ 10004738     mailutil_vcal:icalkeywords.obj
+ 0001:00003748       ??_C@_07GJDPDCH@BYMONTH?$AA@ 10004748     mailutil_vcal:icalkeywords.obj
+ 0001:00003750       ??_C@_06PMBNAMDI@EXDATE?$AA@ 10004750     mailutil_vcal:icalkeywords.obj
+ 0001:00003758       ??_C@_0BP@JJJNHILH@X?9MICROSOFT?9CDO?9INTENDEDSTATUS?$AA@ 10004758     mailutil_vcal:icalkeywords.obj
+ 0001:00003778       ??_C@_0BJ@CPBJKDO@X?9MICROSOFT?9CDO?9INSTTYPE?$AA@ 10004778     mailutil_vcal:icalkeywords.obj
+ 0001:00003794       ??_C@_05EFFCCOAM@COUNT?$AA@ 10004794     mailutil_vcal:icalkeywords.obj
+ 0001:0000379c       ??_C@_03NJMIFMIG@GEO?$AA@  1000479c     mailutil_vcal:icalkeywords.obj
+ 0001:000037a0       ??_C@_06DNKMJCIK@STATUS?$AA@ 100047a0     mailutil_vcal:icalkeywords.obj
+ 0001:000037a8       ??_C@_06CJDLLKBH@TZNAME?$AA@ 100047a8     mailutil_vcal:icalkeywords.obj
+ 0001:000037b0       ??_C@_06HCNGGEED@VALARM?$AA@ 100047b0     mailutil_vcal:icalkeywords.obj
+ 0001:000037b8       ??_C@_04EMPHBDMG@ROLE?$AA@ 100047b8     mailutil_vcal:icalkeywords.obj
+ 0001:000037c0       ??_C@_03LAEJPHDE@TEL?$AA@  100047c0     mailutil_vcal:icalkeywords.obj
+ 0001:000037c4       ??_C@_0O@IPJIKMMC@X?9ANNIVERSARY?$AA@ 100047c4     mailutil_vcal:icalkeywords.obj
+ 0001:000037d4       ??_C@_02BKFDLFBE@FN?$AA@   100047d4     mailutil_vcal:icalkeywords.obj
+ 0001:000037d8       ??_C@_0O@HKBGBCPO@LAST_MODIFIED?$AA@ 100047d8     mailutil_vcal:icalkeywords.obj
+ 0001:000037e8       ??_C@_0O@CDAKPIOP@VCARDSPECIFIC?$AA@ 100047e8     mailutil_vcal:icalkeywords.obj
+ 0001:000037f8       ??_C@_08HJEEODHG@CHILDREN?$AA@ 100047f8     mailutil_vcal:icalkeywords.obj
+ 0001:00003804       ??_C@_0BM@DPNOOAJ@X?9MICROSOFT?9CDO?9ALLDAYEVENT?$AA@ 10004804     mailutil_vcal:icalkeywords.obj
+ 0001:00003820       ??_C@_07DFFOGPKB@DTSTART?$AA@ 10004820     mailutil_vcal:icalkeywords.obj
+ 0001:00003828       ??_C@_0BE@BJADBFOP@X?9MICROSOFT?9MANAGER?$AA@ 10004828     mailutil_vcal:icalkeywords.obj
+ 0001:0000383c       ??_C@_0P@LCFGDIDC@REQUEST_STATUS?$AA@ 1000483c     mailutil_vcal:icalkeywords.obj
+ 0001:0000384c       ??_C@_0BE@BGJNLCPB@X?9MICROSOFT?9BODYINK?$AA@ 1000484c     mailutil_vcal:icalkeywords.obj
+ 0001:00003860       ??_C@_06DOFGNHJD@TRANSP?$AA@ 10004860     mailutil_vcal:icalkeywords.obj
+ 0001:00003868       ??_C@_04IKAPOIIE@DEPT?$AA@ 10004868     mailutil_vcal:icalkeywords.obj
+ 0001:00003870       ??_C@_0N@BGJNMIOD@X?9YOMI?9FNAME?$AA@ 10004870     mailutil_vcal:icalkeywords.obj
+ 0001:00003880       ??_C@_06NOPDFMBK@EXRULE?$AA@ 10004880     mailutil_vcal:icalkeywords.obj
+ 0001:00003888       ??_C@_0L@HJBJFBPI@TZOFFSETTO?$AA@ 10004888     mailutil_vcal:icalkeywords.obj
+ 0001:00003894       ??_C@_0O@DCECKGKI@RECURRENCE?9ID?$AA@ 10004894     mailutil_vcal:icalkeywords.obj
+ 0001:000038a4       ??_C@_08POLPFBMC@SEQUENCE?$AA@ 100048a4     mailutil_vcal:icalkeywords.obj
+ 0001:000038b0       ??_C@_09INIEKDNH@VTIMEZONE?$AA@ 100048b0     mailutil_vcal:icalkeywords.obj
+ 0001:000038bc       ??_C@_05DHPJJGAB@BYDAY?$AA@ 100048bc     mailutil_vcal:icalkeywords.obj
+ 0001:000038c4       ??_C@_0M@FBMBBIBH@DESCRIPTION?$AA@ 100048c4     mailutil_vcal:icalkeywords.obj
+ 0001:000038d0       ??_C@_05PFBDNIOO@PHOTO?$AA@ 100048d0     mailutil_vcal:icalkeywords.obj
+ 0001:000038d8       ??_C@_0BI@GAAKJCIG@X?9MICROSOFT?9ACCOUNTNAME?$AA@ 100048d8     mailutil_vcal:icalkeywords.obj
+ 0001:000038f0       ??_C@_07LNMCOMND@CHARSET?$AA@ 100048f0     mailutil_vcal:icalkeywords.obj
+ 0001:000038f8       ??_C@_05GIPDJDFJ@AGENT?$AA@ 100048f8     mailutil_vcal:icalkeywords.obj
+ 0001:00003900       ??_C@_08CJNOCAL@BYSETPOS?$AA@ 10004900     mailutil_vcal:icalkeywords.obj
+ 0001:0000390c       ??_C@_03MJDGODDN@UID?$AA@  1000490c     mailutil_vcal:icalkeywords.obj
+ 0001:00003910       ??_C@_06NDIIJFIA@BYHOUR?$AA@ 10004910     mailutil_vcal:icalkeywords.obj
+ 0001:00003918       ??_C@_06ICJHOJKE@DALARM?$AA@ 10004918     mailutil_vcal:icalkeywords.obj
+ 0001:00003920       ??_C@_07JEDAPFNH@COMMENT?$AA@ 10004920     mailutil_vcal:icalkeywords.obj
+ 0001:00003928       ??_C@_0N@EGELMDNL@TZOFFSETFROM?$AA@ 10004928     mailutil_vcal:icalkeywords.obj
+ 0001:00003938       ??_C@_05GEKGMGJA@TZURL?$AA@ 10004938     mailutil_vcal:icalkeywords.obj
+ 0001:00003940       ??_C@_07BFKIKKPP@CREATED?$AA@ 10004940     mailutil_vcal:icalkeywords.obj
+ 0001:00003948       ??_C@_03CNLELIJC@DUE?$AA@  10004948     mailutil_vcal:icalkeywords.obj
+ 0001:0000394c       ??_C@_06GEDKPGMC@METHOD?$AA@ 1000494c     mailutil_vcal:icalkeywords.obj
+ 0001:00003954       ??_C@_03JMGAKCCH@END?$AA@  10004954     mailutil_vcal:icalkeywords.obj
+ 0001:00003958       ??_C@_07NCHCCDCP@VERSION?$AA@ 10004958     mailutil_vcal:icalkeywords.obj
+ 0001:00003960       ??_C@_08DJJFIIGC@PARTSTAT?$AA@ 10004960     mailutil_vcal:icalkeywords.obj
+ 0001:0000396c       ??_C@_04EPNGMMLM@WKST?$AA@ 1000496c     mailutil_vcal:icalkeywords.obj
+ 0001:00003974       ??_C@_08BICPADOK@NICKNAME?$AA@ 10004974     mailutil_vcal:icalkeywords.obj
+ 0001:00003980       ??_C@_05DMCAHJJE@TITLE?$AA@ 10004980     mailutil_vcal:icalkeywords.obj
+ 0001:00003988       ??_C@_01NANMIPIL@N?$AA@    10004988     mailutil_vcal:icalkeywords.obj
+ 0001:0000398c       ??_C@_06LDLHLEGK@ATTACH?$AA@ 1000498c     mailutil_vcal:icalkeywords.obj
+ 0001:00003994       ??_C@_08GJDIJPME@X?9SPOUSE?$AA@ 10004994     mailutil_vcal:icalkeywords.obj
+ 0001:000039a0       ??_C@_08MLPPJPNO@BYWEEKNO?$AA@ 100049a0     mailutil_vcal:icalkeywords.obj
+ 0001:000039ac       ??_C@_0BH@JOMDMMCI@X?9MICROSOFT?9CUSTOMERID?$AA@ 100049ac     mailutil_vcal:icalkeywords.obj
+ 0001:000039c4       ??_C@_0M@MFPGONEK@ANNIVERSARY?$AA@ 100049c4     mailutil_vcal:icalkeywords.obj
+ 0001:000039d0       ??_C@_05JCFFAPID@UNTIL?$AA@ 100049d0     mailutil_vcal:icalkeywords.obj
+ 0001:000039d8       ??_C@_0BA@MKKECBPI@X?9YOMI?9CPNYNAME?$AA@ 100049d8     mailutil_vcal:icalkeywords.obj
+ 0001:000039e8       ??_C@_05FDDMNIKI@VCARD?$AA@ 100049e8     mailutil_vcal:icalkeywords.obj
+ 0001:000039f0       ??_C@_05ILMMJGEC@BEGIN?$AA@ 100049f0     mailutil_vcal:icalkeywords.obj
+ 0001:000039f8       ??_C@_06DHJAPAEE@ACTION?$AA@ 100049f8     mailutil_vcal:icalkeywords.obj
+ 0001:00003a00       ??_C@_0BI@BHNHNPD@X?9BLUETOOTH?9ALLDAYEVENT?$AA@ 10004a00     mailutil_vcal:icalkeywords.obj
+ 0001:00003a18       ??_C@_08NKBKKBJB@CALSCALE?$AA@ 10004a18     mailutil_vcal:icalkeywords.obj
+ 0001:00003a24       ??_C@_05FFLMPNOJ@DTEND?$AA@ 10004a24     mailutil_vcal:icalkeywords.obj
+ 0001:00003a2c       ??_C@_03CANAFHB@ADR?$AA@   10004a2c     mailutil_vcal:icalkeywords.obj
+ 0001:00003a30       ??_C@_06JNCFDDFD@YEARLY?$AA@ 10004a30     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003a38       ??_C@_07COJOBCEG@MONTHLY?$AA@ 10004a38     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003a40       ??_C@_06BFILPGNL@WEEKLY?$AA@ 10004a40     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003a48       ??_C@_05ELICOCNB@DAILY?$AA@ 10004a48     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003a50       ??_C@_06GIHHLGAN@HOURLY?$AA@ 10004a50     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003a58       ??_C@_08DLCOBCBK@MINUTELY?$AA@ 10004a58     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003a64       ??_C@_08FJPFDGMN@SECONDLY?$AA@ 10004a64     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003a70       ??_C@_02CGAEACJK@YM?$AA@   10004a70     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003a74       ??_C@_02PHMGLJND@YD?$AA@   10004a74     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003a78       ??_C@_02MCEHGFCK@MP?$AA@   10004a78     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003a7c       ??_C@_02OMOJLCHP@MD?$AA@   10004a7c     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003a80       ??_C@_01ELNMCGJD@W?$AA@    10004a80     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003a84       ??_C@_01CKDDGHAB@D?$AA@    10004a84     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003a88       ??_C@_02IHCGMIEA@SA?$AA@   10004a88     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003a8c       ??_C@_02PMCEOIEJ@FR?$AA@   10004a8c     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003a90       ??_C@_02FDKLGFIM@TH?$AA@   10004a90     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003a94       ??_C@_02OEEDKFJI@WE?$AA@   10004a94     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003a98       ??_C@_02KMMHAJJA@TU?$AA@   10004a98     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003a9c       ??_C@_02PBNGLLE@MO?$AA@    10004a9c     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003aa0       ??_C@_02KJIIBPBF@SU?$AA@   10004aa0     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003aa4       ??_C@_15JNBOKNOG@?$AA?$AN?$AA?6?$AA?$AA@ 10004aa4     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003b7c       ?c_CRLF@@3QBDB             10004b7c     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003b84       ?c_wVersion10@@3GB         10004b84     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003b88       ?c_wVersion20@@3GB         10004b88     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003b8c       ?c_wVersion30@@3GB         10004b8c     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003b90       ?c_rgICalPropTags@@3QBQADB 10004b90     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003d80       ?c_rgszICalDays@@3QBQBDB   10004d80     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003d9c       ?c_cszICalDays@@3KB        10004d9c     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003da0       ?c_rgszICalFreqV10@@3QBQBDB 10004da0     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003dbc       ?c_cszICalFreqV10@@3KB     10004dbc     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003dc0       ?c_rgszICalFreqV20@@3QBQBDB 10004dc0     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003ddc       ?c_cszICalFreqV20@@3KB     10004ddc     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003ec4       ?g_chCharSet@@3QBDB        10004ec4     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003fbc       ?g_dwCharSet@@3KB          10004fbc     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003fec       GUID_NULL                  10004fec     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00003ffc       IID_IUnknown               10004ffc     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:0000400c       IID_IStream                1000500c     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:0000401c       ??_C@_1CI@MJHHDHOD@?$AAS?$AAt?$AAr?$AAi?$AAp?$AAV?$AAC?$AAa?$AAr?$AAd?$AAt?$AAe?$AAl?$AAe?$AAf?$AAi?$AAe?$AAl?$AAd?$AA?$AA@ 1000501c     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00004044       ??_C@_1DA@JJJBMGMP@?$AAS?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAO?$AAb?$AAe?$AAx?$AA?$AA@ 10005044     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00004074       ??_C@_08LIHFODAB@PERSONAL?$AA@ 10005074     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00004080       ??_C@_07CBKGEIHF@PRIVATE?$AA@ 10005080     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00004088       ??_C@_0N@FPDNPIFM@CONFIDENTIAL?$AA@ 10005088     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00004098       ??_C@_06EKOLBGFH@PUBLIC?$AA@ 10005098     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:000040a0       ??_C@_04HEDFJGEJ@FREE?$AA@ 100050a0     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:000040a8       ??_C@_09NJLGKELP@TENTATIVE?$AA@ 100050a8     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:000040b4       ??_C@_0M@DECNJPJP@OUTOFOFFICE?$AA@ 100050b4     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:000040c0       ??_C@_0N@MIMEDJNB@NEEDS?5ACTION?$AA@ 100050c0     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:000040d0       ??_C@_19GLINCHAF@?$AAF?$AAR?$AAE?$AAE?$AA?$AA@ 100050d0     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:000040dc       ??_C@_1BI@FDAKNOGC@?$AAO?$AAU?$AAT?$AAO?$AAF?$AAO?$AAF?$AAF?$AAI?$AAC?$AAE?$AA?$AA@ 100050dc     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:000040f4       ??_C@_1BE@FOCDJGMG@?$AAT?$AAE?$AAN?$AAT?$AAA?$AAT?$AAI?$AAV?$AAE?$AA?$AA@ 100050f4     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00004108       ??_C@_1BK@DLCHNJMF@?$AAN?$AAE?$AAE?$AAD?$AAS?$AA?5?$AAA?$AAC?$AAT?$AAI?$AAO?$AAN?$AA?$AA@ 10005108     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00004124       ??_C@_1BC@JDANACFE@?$AAP?$AAE?$AAR?$AAS?$AAO?$AAN?$AAA?$AAL?$AA?$AA@ 10005124     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00004138       ??_C@_1BA@NKFKCIAN@?$AAP?$AAR?$AAI?$AAV?$AAA?$AAT?$AAE?$AA?$AA@ 10005138     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00004148       ??_C@_1BK@CEBCLGNE@?$AAC?$AAO?$AAN?$AAF?$AAI?$AAD?$AAE?$AAN?$AAT?$AAI?$AAA?$AAL?$AA?$AA@ 10005148     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00004164       _GUID_fb8998d0_38f0_4d12_ac56_4ec8fce9f3d5 10005164     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00004174       _GUID_5b43f691_202c_11d2_8f18_0000f87a4335 10005174     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:0000418c       ??_C@_1BE@PBMDLNIE@?$AAC?$AAO?$AAM?$AAP?$AAL?$AAE?$AAT?$AAE?$AAD?$AA?$AA@ 1000518c     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:000041a0       _GUID_7f804e40_2010_11d2_8f18_0000f87a4335 100051a0     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:000041b0       _GUID_05058f22_20be_11d2_8f18_0000f87a4335 100051b0     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:000041c0       _GUID_af57f7f5_0503_44b4_bf19_521e04f6a8eb 100051c0     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:000041d0       _GUID_78d1d01a_f0f9_4559_bb0e_2e724913f3f6 100051d0     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:000041e0       ??_C@_13EBCNDICG@?$AA?3?$AA?$AA@ 100051e0     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:000041e4       ??_C@_15OOIIBGOA@?$AA?2?$AAn?$AA?$AA@ 100051e4     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00004228       __real@3f46c16c16c16c17    10005228     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00004230       __real@412cfddc00000000    10005230     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00004238       ??_C@_0N@FDMBCMAA@NEEDS?9ACTION?$AA@ 10005238     mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00004248       szPreloadRTF               10005248     mailutil_rtf:rtfcmprs.obj
+ 0001:00004318       cchPreloadRTF              10005318     mailutil_rtf:rtfcmprs.obj
+ 0001:00004358       ??_C@_1FA@EPONMJHF@?$AAR?$AAT?$AAF?$AA?3?$AA?5?$AAR?$AAe?$AAa?$AAd?$AAi?$AAn?$AAg?$AA?5?$AA_?$AAU?$AAn?$AAc?$AAo?$AAm?$AAp?$AAr?$AAe?$AAs?$AAs?$AAe?$AAd?$AA_?$AA?5?$AAR?$AAT?$AAF?$AA?5@ 10005358     mailutil_rtf:rtfcmprs.obj
+ 0001:000043a8       ??_C@_1DI@DIFEBMID@?$AAR?$AAT?$AAF?$AA?3?$AA?5?$AAR?$AAT?$AAF?$AA?5?$AAs?$AAi?$AAz?$AAe?$AA?5?$AAi?$AAs?$AA?5?$AA?$CF?$AAl?$AAd?$AA?5?$AAb?$AAy?$AAt?$AAe?$AAs?$AA?6?$AA?$AA@ 100053a8     mailutil_rtf:rtfcmprs.obj
+ 0001:000043e0       ??_C@_1FC@OBEPJFBK@?$AAR?$AAT?$AAF?$AA?3?$AA?5?$AAC?$AAR?$AAC?$AA?9?$AA3?$AA2?$AA?5?$AAo?$AAf?$AA?5?$AAc?$AAo?$AAm?$AAp?$AAr?$AAe?$AAs?$AAs?$AAe?$AAd?$AA?5?$AAs?$AAh?$AAo?$AAu?$AAl?$AAd@ 100053e0     mailutil_rtf:rtfcmprs.obj
+ 0001:00004434       ??_C@_1DO@BHDDJOGI@?$AAR?$AAT?$AAF?$AA?3?$AA?5?$AAC?$AAo?$AAm?$AAp?$AAr?$AAe?$AAs?$AAs?$AAi?$AAo?$AAn?$AA?5?$AAr?$AAa?$AAt?$AAi?$AAo?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AAd?$AA?$CF?$AA?$CF?$AA?6?$AA?$AA@ 10005434     mailutil_rtf:rtfcmprs.obj
+ 0001:00004478       ??_C@_1EI@FFJBGML@?$AAR?$AAT?$AAF?$AA?3?$AA?5?$AAR?$AAe?$AAa?$AAd?$AAi?$AAn?$AAg?$AA?5?$AAc?$AAo?$AAm?$AAp?$AAr?$AAe?$AAs?$AAs?$AAe?$AAd?$AA?5?$AAR?$AAT?$AAF?$AA?5?$AAs?$AAt?$AAr?$AAe@ 10005478     mailutil_rtf:rtfcmprs.obj
+ 0001:000044c0       ??_C@_1GE@MJEPGDD@?$AAR?$AAT?$AAF?$AA?3?$AA?5?$AA?$CF?$AAl?$AAd?$AA?5?$AAb?$AAy?$AAt?$AAe?$AAs?$AA?5?$AAo?$AAf?$AA?5?$AAR?$AAT?$AAF?$AA?5?$AAi?$AAs?$AA?5?$AAc?$AAo?$AAm?$AAp?$AAr?$AAe?$AAs@ 100054c0     mailutil_rtf:rtfcmprs.obj
+ 0001:00004528       ??_C@_1EA@JNPMLOEE@?$AAR?$AAT?$AAF?$AA?3?$AA?5?$AAO?$AAn?$AAl?$AAy?$AA?5?$AAw?$AAr?$AAo?$AAt?$AAe?$AA?5?$AA?$CF?$AAl?$AAd?$AA?5?$AAo?$AAu?$AAt?$AA?5?$AAo?$AAf?$AA?5?$AA?$CF?$AAl?$AAd?$AA?6?$AA?$AA@ 10005528     mailutil_rtf:rtfcmprs.obj
+ 0001:00004568       ??_C@_1DG@ENBIGGOH@?$AAR?$AAT?$AAF?$AA?3?$AA?5?$AAo?$AAn?$AAl?$AAy?$AA?5?$AAw?$AAr?$AAo?$AAt?$AAe?$AA?5?$AA?$CF?$AAl?$AAd?$AA?5?$AAo?$AAf?$AA?5?$AA?$CF?$AAd?$AA?6?$AA?$AA@ 10005568     mailutil_rtf:rtfcmprs.obj
+ 0001:000045a0       ??_C@_1EO@CBAFHHNH@?$AAR?$AAT?$AAF?$AA?3?$AA?5?$AAC?$AAR?$AAC?$AA?9?$AA3?$AA2?$AA?5?$AAo?$AAf?$AA?5?$AAc?$AAo?$AAm?$AAp?$AAr?$AAe?$AAs?$AAs?$AAe?$AAd?$AA?5?$AAd?$AAa?$AAt?$AAa?$AA?5?$AAi@ 100055a0     mailutil_rtf:rtfcmprs.obj
+ 0001:000045f0       ??_C@_1FO@LAKBGEAG@?$AAR?$AAT?$AAF?$AA?3?$AA?5?$AA?$CF?$AAl?$AAd?$AA?5?$AAb?$AAy?$AAt?$AAe?$AAs?$AA?5?$AAo?$AAf?$AA?5?$AAR?$AAT?$AAF?$AA?5?$AAc?$AAo?$AAm?$AAp?$AAr?$AAe?$AAs?$AAs?$AAe?$AAd@ 100055f0     mailutil_rtf:rtfcmprs.obj
+ 0001:00004650       ??_C@_1FA@BBHONDBP@?$AAR?$AAT?$AAF?$AA?3?$AA?5?$AAW?$AAr?$AAi?$AAt?$AAi?$AAn?$AAg?$AA?5?$AA_?$AAU?$AAn?$AAc?$AAo?$AAm?$AAp?$AAr?$AAe?$AAs?$AAs?$AAe?$AAd?$AA_?$AA?5?$AAR?$AAT?$AAF?$AA?5@ 10005650     mailutil_rtf:rtfcmprs.obj
+ 0001:000046a0       ??_C@_1DO@OEBEMKIC@?$AAR?$AAT?$AAF?$AA?3?$AA?5?$AAu?$AAn?$AAe?$AAx?$AAp?$AAe?$AAc?$AAt?$AAe?$AAd?$AA?5?$AAe?$AAn?$AAd?$AA?5?$AAo?$AAf?$AA?5?$AAs?$AAt?$AAr?$AAe?$AAa?$AAm?$AA?6?$AA?$AA@ 100056a0     mailutil_rtf:rtfcmprs.obj
+ 0001:000046e0       ??_C@_1EE@CDIEFNCB@?$AAR?$AAT?$AAF?$AA?3?$AA?5?$AAw?$AAa?$AAn?$AAt?$AA?5?$AA?$CF?$AAd?$AA?5?$AAb?$AAy?$AAt?$AAe?$AAs?$AA?0?$AA?5?$AAo?$AAn?$AAl?$AAy?$AA?5?$AAh?$AAa?$AAv?$AAe?$AA?5?$AA?$CF?$AAd@ 100056e0     mailutil_rtf:rtfcmprs.obj
+ 0001:00004728       ??_C@_1FO@FEKFHDOJ@?$AAR?$AAT?$AAF?$AA?3?$AA?5?$AAC?$AAR?$AAC?$AA?8?$AAs?$AA?5?$AAd?$AAo?$AAn?$AA?8?$AAt?$AA?5?$AAm?$AAa?$AAt?$AAc?$AAh?$AA?3?$AA?5?$AAg?$AAo?$AAt?$AA?5?$AA?$CF?$AAl?$AAx?$AA?0@ 10005728     mailutil_rtf:rtfcmprs.obj
+ 0001:00004788       aszFONT_TABLE              10005788     mailutil_rtf:txttortf.obj
+ 0001:000047e8       aszFONT_TABLE2             100057e8     mailutil_rtf:txttortf.obj
+ 0001:000047f0       aszCOLOR_TABLE             100057f0     mailutil_rtf:txttortf.obj
+ 0001:00004814       aszPRE_PARA                10005814     mailutil_rtf:txttortf.obj
+ 0001:0000482c       aszPRE_PARA_THAI           1000582c     mailutil_rtf:txttortf.obj
+ 0001:00004844       aszPOST_PARA               10005844     mailutil_rtf:txttortf.obj
+ 0001:0000484c       aszOBJATTACH               1000584c     mailutil_rtf:txttortf.obj
+ 0001:00004890       ??_C@_05GEGOHLFF@?2tab?5?$AA@ 10005890     mailutil_rtf:txttortf.obj
+ 0001:00004898       ??_C@_06KFEMAMBJ@?2?8?$CF02x?$AA@ 10005898     mailutil_rtf:txttortf.obj
+ 0001:000048a0       ??_C@_1HE@EHBIGBLH@?$AAW?$AAA?$AAR?$AAN?$AAI?$AAN?$AAG?$AA?3?$AA?5?$AAA?$AAt?$AAt?$AAa?$AAc?$AAh?$AAm?$AAe?$AAn?$AAt?$AA?5?$AAi?$AAn?$AA?5?$AAa?$AA?5?$AAp?$AAo?$AAs?$AAi?$AAt?$AAi?$AAo@ 100058a0     mailutil_rtf:txttortf.obj
+ 0001:00004918       rgdwCRC                    10005918     mailutil_rtf:crc.obj
+ 0001:00004d18       mpbbCRC                    10005d18     mailutil_rtf:crc.obj
+ 0001:00004e38       ??_7IMAPINotifyRedirector@@6B@ 10005e38     MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0001:00004e54       ??_7CMAPINotifyRedirector@@6BIMAPIAdviseSink@@@ 10005e54     MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0001:00004e64       ??_7CMAPINotifyRedirector@@6BIMAPINotifyRedirector@@@ 10005e64     MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0001:00004ea0       ??_7CFileStream@@6B@       10005ea0     msglib_filestm:filestm.obj
+ 0001:00004edc       ??_C@_1BG@EKINFGGB@?$AA?2?$AAV?$AAo?$AAl?$AAa?$AAt?$AAi?$AAl?$AAe?$AA?2?$AA?$AA@ 10005edc     msglib_filestm:filestm.obj
+ 0001:00004ef4       ??_C@_17LPBFBOLC@?$AAS?$AAT?$AAM?$AA?$AA@ 10005ef4     msglib_filestm:filestm.obj
+ 0001:00004efc       ??_7CTempFileStream@@6B@   10005efc     msglib_filestm:filestm.obj
+ 0001:00004f38       ??_7CWrapFileStream@@6B@   10005f38     msglib_filestm:filestm.obj
+ 0001:00004f74       _GUID_b3c11a6c_7392_446f_9e46_a30689d04a1b 10005f74     msglib_mimeaddr:MimeParseAddress.obj
+ 0001:00004f84       _GUID_67708261_6a1c_4689_b758_dcdbf6aa7dbf 10005f84     msglib_mimeaddr:MimeParseAddress.obj
+ 0001:00004f94       ??_C@_02IJGONHOJ@To?$AA@   10005f94     msglib_mimeaddr:MimeParseAddress.obj
+ 0001:00004f98       _GUID_84f8551b_83c6_47fd_8bb1_41b7e12b9df9 10005f98     msglib_mimeaddr:MimeParseAddress.obj
+ 0001:00004fc8       ??_C@_1CC@OGPDCENA@?$AAR?$AAe?$AAc?$AAe?$AAi?$AAv?$AAe?$AAd?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AAs?$AA?$AA@ 10005fc8     msglib_accountname:AccountName.obj
+ 0001:00004fec       ??_C@_1BO@PHNFPAFN@?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AAs?$AA?$AA@ 10005fec     msglib_accountname:AccountName.obj
+ 0001:0000500c       ??_C@_1BI@OKPIFLBJ@?$AAS?$AAe?$AAn?$AAd?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AA?$AA@ 1000600c     msglib_accountname:AccountName.obj
+ 0001:00005024       ??_C@_1BI@NIFCPJCC@?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AAS?$AAe?$AAn?$AAt?$AA?$AA@ 10006024     msglib_accountname:AccountName.obj
+ 0001:0000503c       ??_C@_1BG@BOEKAPPI@?$AAN?$AAe?$AAw?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AA?$AA@ 1000603c     msglib_accountname:AccountName.obj
+ 0001:00005054       ??_C@_1BK@BHIPJNAA@?$AAA?$AAb?$AAb?$AAr?$AAe?$AAv?$AAi?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 10006054     msglib_accountname:AccountName.obj
+ 0001:00005070       ??_C@_1BK@BFIEKNFP@?$AAF?$AAr?$AAi?$AAe?$AAn?$AAd?$AAl?$AAy?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 10006070     msglib_accountname:AccountName.obj
+ 0001:00005280       IID_ISequentialStream      10006280     dcomuuid:dcomuuid.obj
+ 0001:00005290       IID_IOleObject             10006290     dcomuuid:dcomuuid.obj
+ 0001:000052a0       IID_IMultiLanguage2        100062a0     shelluuid:shguids.obj
+ 0001:000052b0       CLSID_CMultiLanguage       100062b0     shelluuid:shguids.obj
+ 0001:000052c0       SyncDataMail               100062c0     syncuuid:ActiveSyncUuid2.obj
+ 0001:000052d0       SyncDataContacts           100062d0     syncuuid:ActiveSyncUuid2.obj
+ 0001:000052e0       SyncDataCalendar           100062e0     syncuuid:ActiveSyncUuid2.obj
+ 0001:000052f0       SyncDataTasks              100062f0     syncuuid:ActiveSyncUuid2.obj
+ 0001:00005300       SyncDataNotes              10006300     syncuuid:ActiveSyncUuid2.obj
+ 0001:00005310       SyncDataFavorites          10006310     syncuuid:ActiveSyncUuid2.obj
+ 0001:00005320       SyncDataFiles              10006320     syncuuid:ActiveSyncUuid2.obj
+ 0001:00005330       SyncDataDesktopSSP         10006330     syncuuid:ActiveSyncUuid2.obj
+ 0001:00005340       SyncDataAccess             10006340     syncuuid:ActiveSyncUuid2.obj
+ 0001:00005350       SyncDataMedia              10006350     syncuuid:ActiveSyncUuid2.obj
+ 0001:00005360       SyncDataSMS                10006360     syncuuid:ActiveSyncUuid2.obj
+ 0001:00005370       CLSID_DesktopSyncEngine    10006370     syncuuid:ActiveSyncUuid2.obj
+ 0001:00005380       CLSID_ServerSyncEngine     10006380     syncuuid:ActiveSyncUuid2.obj
+ 0001:00005390       CLSID_ServerSyncEngineDsktp 10006390     syncuuid:ActiveSyncUuid2.obj
+ 0001:000053a0       CLSID_ServerSyncEngineWelcome 100063a0     syncuuid:ActiveSyncUuid2.obj
+ 0001:000053b0       CLSID_AutoDiscover         100063b0     syncuuid:ActiveSyncUuid2.obj
+ 0001:000053c0       ??_C@_1BM@MMHGPIHM@?$AAS?$AAq?$AAm?$AAG?$AAe?$AAt?$AAS?$AAe?$AAs?$AAs?$AAi?$AAo?$AAn?$AA?$AA@ 100063c0     sqmproxy:sqmproxy.obj
+ 0001:000053dc       ??_C@_1CK@HHPGDEJO@?$AAS?$AAq?$AAm?$AAG?$AAe?$AAt?$AAM?$AAa?$AAn?$AAa?$AAg?$AAe?$AAd?$AAS?$AAe?$AAs?$AAs?$AAi?$AAo?$AAn?$AA?$AA@ 100063dc     sqmproxy:sqmproxy.obj
+ 0001:00005408       ??_C@_1BM@POPHPGJM@?$AAS?$AAq?$AAm?$AAE?$AAn?$AAd?$AAS?$AAe?$AAs?$AAs?$AAi?$AAo?$AAn?$AA?$AA@ 10006408     sqmproxy:sqmproxy.obj
+ 0001:00005424       ??_C@_1CK@JNKIJLH@?$AAS?$AAq?$AAm?$AAE?$AAn?$AAd?$AAM?$AAa?$AAn?$AAa?$AAg?$AAe?$AAd?$AAS?$AAe?$AAs?$AAs?$AAi?$AAo?$AAn?$AA?$AA@ 10006424     sqmproxy:sqmproxy.obj
+ 0001:00005450       ??_C@_1CA@CJHJNKNE@?$AAS?$AAq?$AAm?$AAS?$AAt?$AAa?$AAr?$AAt?$AAS?$AAe?$AAs?$AAs?$AAi?$AAo?$AAn?$AA?$AA@ 10006450     sqmproxy:sqmproxy.obj
+ 0001:00005470       ??_C@_1CO@GEDNANEN@?$AAS?$AAq?$AAm?$AAG?$AAe?$AAt?$AAS?$AAe?$AAs?$AAs?$AAi?$AAo?$AAn?$AAS?$AAt?$AAa?$AAr?$AAt?$AAT?$AAi?$AAm?$AAe?$AA?$AA@ 10006470     sqmproxy:sqmproxy.obj
+ 0001:000054a0       ??_C@_1BM@JIHBMADI@?$AAS?$AAq?$AAm?$AAG?$AAe?$AAt?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AAd?$AA?$AA@ 100064a0     sqmproxy:sqmproxy.obj
+ 0001:000054bc       ??_C@_1BM@GNCHBJHJ@?$AAS?$AAq?$AAm?$AAS?$AAe?$AAt?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AAd?$AA?$AA@ 100064bc     sqmproxy:sqmproxy.obj
+ 0001:000054d8       ??_C@_1BI@LHALAANK@?$AAS?$AAq?$AAm?$AAG?$AAe?$AAt?$AAF?$AAl?$AAa?$AAg?$AAs?$AA?$AA@ 100064d8     sqmproxy:sqmproxy.obj
+ 0001:000054f0       ??_C@_1BI@JCAAILME@?$AAS?$AAq?$AAm?$AAS?$AAe?$AAt?$AAF?$AAl?$AAa?$AAg?$AAs?$AA?$AA@ 100064f0     sqmproxy:sqmproxy.obj
+ 0001:00005508       ??_C@_1BM@BLLHBHLG@?$AAS?$AAq?$AAm?$AAC?$AAl?$AAe?$AAa?$AAr?$AAF?$AAl?$AAa?$AAg?$AAs?$AA?$AA@ 10006508     sqmproxy:sqmproxy.obj
+ 0001:00005524       ??_C@_1CA@GCAJCPGE@?$AAS?$AAq?$AAm?$AAG?$AAe?$AAt?$AAM?$AAa?$AAc?$AAh?$AAi?$AAn?$AAe?$AAI?$AAd?$AA?$AA@ 10006524     sqmproxy:sqmproxy.obj
+ 0001:00005544       ??_C@_1BK@DDJNCKAO@?$AAS?$AAq?$AAm?$AAG?$AAe?$AAt?$AAU?$AAs?$AAe?$AAr?$AAI?$AAd?$AA?$AA@ 10006544     sqmproxy:sqmproxy.obj
+ 0001:00005560       ??_C@_1CA@OCMPOCMC@?$AAS?$AAq?$AAm?$AAS?$AAe?$AAt?$AAM?$AAa?$AAc?$AAh?$AAi?$AAn?$AAe?$AAI?$AAd?$AA?$AA@ 10006560     sqmproxy:sqmproxy.obj
+ 0001:00005580       ??_C@_1BK@JNLGGKHC@?$AAS?$AAq?$AAm?$AAS?$AAe?$AAt?$AAU?$AAs?$AAe?$AAr?$AAI?$AAd?$AA?$AA@ 10006580     sqmproxy:sqmproxy.obj
+ 0001:0000559c       ??_C@_1BO@CBGCAFMB@?$AAS?$AAq?$AAm?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AAN?$AAe?$AAw?$AAI?$AAd?$AA?$AA@ 1000659c     sqmproxy:sqmproxy.obj
+ 0001:000055bc       ??_C@_1CO@EHIDHFCK@?$AAS?$AAq?$AAm?$AAR?$AAe?$AAa?$AAd?$AAS?$AAh?$AAa?$AAr?$AAe?$AAd?$AAM?$AAa?$AAc?$AAh?$AAi?$AAn?$AAe?$AAI?$AAd?$AA?$AA@ 100065bc     sqmproxy:sqmproxy.obj
+ 0001:000055ec       ??_C@_1CI@FJOPBFKK@?$AAS?$AAq?$AAm?$AAR?$AAe?$AAa?$AAd?$AAS?$AAh?$AAa?$AAr?$AAe?$AAd?$AAU?$AAs?$AAe?$AAr?$AAI?$AAd?$AA?$AA@ 100065ec     sqmproxy:sqmproxy.obj
+ 0001:00005614       ??_C@_1DA@JEPNJJO@?$AAS?$AAq?$AAm?$AAW?$AAr?$AAi?$AAt?$AAe?$AAS?$AAh?$AAa?$AAr?$AAe?$AAd?$AAM?$AAa?$AAc?$AAh?$AAi?$AAn?$AAe?$AAI?$AAd?$AA?$AA@ 10006614     sqmproxy:sqmproxy.obj
+ 0001:00005644       ??_C@_1CK@MBFGJNGI@?$AAS?$AAq?$AAm?$AAW?$AAr?$AAi?$AAt?$AAe?$AAS?$AAh?$AAa?$AAr?$AAe?$AAd?$AAU?$AAs?$AAe?$AAr?$AAI?$AAd?$AA?$AA@ 10006644     sqmproxy:sqmproxy.obj
+ 0001:00005670       ??_C@_1CC@IDCLBBFM@?$AAS?$AAq?$AAm?$AAS?$AAe?$AAt?$AAA?$AAp?$AAp?$AAV?$AAe?$AAr?$AAs?$AAi?$AAo?$AAn?$AA?$AA@ 10006670     sqmproxy:sqmproxy.obj
+ 0001:00005694       ??_C@_1O@IJBFHHCC@?$AAS?$AAq?$AAm?$AAS?$AAe?$AAt?$AA?$AA@ 10006694     sqmproxy:sqmproxy.obj
+ 0001:000056a4       ??_C@_1BM@CABJNDG@?$AAS?$AAq?$AAm?$AAS?$AAe?$AAt?$AAS?$AAt?$AAr?$AAi?$AAn?$AAg?$AAW?$AA?$AA@ 100066a4     sqmproxy:sqmproxy.obj
+ 0001:000056c0       ??_C@_1BK@KIPJFEDP@?$AAS?$AAq?$AAm?$AAI?$AAn?$AAc?$AAr?$AAe?$AAm?$AAe?$AAn?$AAt?$AA?$AA@ 100066c0     sqmproxy:sqmproxy.obj
+ 0001:000056dc       ??_C@_1BG@MBKDOGON@?$AAS?$AAq?$AAm?$AAS?$AAe?$AAt?$AAB?$AAi?$AAt?$AAs?$AA?$AA@ 100066dc     sqmproxy:sqmproxy.obj
+ 0001:000056f4       ??_C@_1BI@FIDHJHHJ@?$AAS?$AAq?$AAm?$AAS?$AAe?$AAt?$AAI?$AAf?$AAM?$AAa?$AAx?$AA?$AA@ 100066f4     sqmproxy:sqmproxy.obj
+ 0001:0000570c       ??_C@_1BI@MBBGBNFH@?$AAS?$AAq?$AAm?$AAS?$AAe?$AAt?$AAI?$AAf?$AAM?$AAi?$AAn?$AA?$AA@ 1000670c     sqmproxy:sqmproxy.obj
+ 0001:00005724       ??_C@_1CA@HACMJPCH@?$AAS?$AAq?$AAm?$AAA?$AAd?$AAd?$AAT?$AAo?$AAA?$AAv?$AAe?$AAr?$AAa?$AAg?$AAe?$AA?$AA@ 10006724     sqmproxy:sqmproxy.obj
+ 0001:00005744       ??_C@_1BO@KNMKMHNE@?$AAS?$AAq?$AAm?$AAA?$AAd?$AAd?$AAT?$AAo?$AAS?$AAt?$AAr?$AAe?$AAa?$AAm?$AA?$AA@ 10006744     sqmproxy:sqmproxy.obj
+ 0001:00005764       ??_C@_1CM@CMKBBENH@?$AAS?$AAq?$AAm?$AAA?$AAd?$AAd?$AAT?$AAo?$AAS?$AAt?$AAr?$AAe?$AAa?$AAm?$AAS?$AAt?$AAr?$AAi?$AAn?$AAg?$AAW?$AA?$AA@ 10006764     sqmproxy:sqmproxy.obj
+ 0001:00005790       ??_C@_1CI@IKGGAPIK@?$AAS?$AAq?$AAm?$AAA?$AAd?$AAd?$AAT?$AAo?$AAS?$AAt?$AAr?$AAe?$AAa?$AAm?$AAD?$AAW?$AAO?$AAR?$AAD?$AA?$AA@ 10006790     sqmproxy:sqmproxy.obj
+ 0001:000057b8       ??_C@_1O@HBOEEIPD@?$AAS?$AAq?$AAm?$AAG?$AAe?$AAt?$AA?$AA@ 100067b8     sqmproxy:sqmproxy.obj
+ 0001:000057c8       ??_C@_1BM@FBHNKBEC@?$AAS?$AAq?$AAm?$AAT?$AAi?$AAm?$AAe?$AAr?$AAS?$AAt?$AAa?$AAr?$AAt?$AA?$AA@ 100067c8     sqmproxy:sqmproxy.obj
+ 0001:000057e4       ??_C@_1BO@OIHKNIOP@?$AAS?$AAq?$AAm?$AAT?$AAi?$AAm?$AAe?$AAr?$AAR?$AAe?$AAc?$AAo?$AAr?$AAd?$AA?$AA@ 100067e4     sqmproxy:sqmproxy.obj
+ 0001:00005804       ??_C@_1CG@JKLDADAE@?$AAS?$AAq?$AAm?$AAT?$AAi?$AAm?$AAe?$AAr?$AAA?$AAc?$AAc?$AAu?$AAm?$AAu?$AAl?$AAa?$AAt?$AAe?$AA?$AA@ 10006804     sqmproxy:sqmproxy.obj
+ 0001:0000582c       ??_C@_1CK@HOGPDFFE@?$AAS?$AAq?$AAm?$AAT?$AAi?$AAm?$AAe?$AAr?$AAA?$AAd?$AAd?$AAT?$AAo?$AAA?$AAv?$AAe?$AAr?$AAa?$AAg?$AAe?$AA?$AA@ 1000682c     sqmproxy:sqmproxy.obj
+ 0001:00005858       ??_C@_1BC@FFDOEPLG@?$AAS?$AAq?$AAm?$AAS?$AAe?$AAt?$AA6?$AA4?$AA?$AA@ 10006858     sqmproxy:sqmproxy.obj
+ 0001:0000586c       ??_C@_1BG@GGKHFKPL@?$AAS?$AAq?$AAm?$AAS?$AAe?$AAt?$AAB?$AAo?$AAo?$AAl?$AA?$AA@ 1000686c     sqmproxy:sqmproxy.obj
+ 0001:00005884       ??_C@_1CA@ODCKKLM@?$AAS?$AAq?$AAm?$AAA?$AAd?$AAd?$AAT?$AAo?$AAS?$AAt?$AAr?$AAe?$AAa?$AAm?$AAV?$AA?$AA@ 10006884     sqmproxy:sqmproxy.obj
+ 0001:000058a4       ??_C@_1BC@FKCAJJDF@?$AAS?$AAq?$AAm?$AAG?$AAe?$AAt?$AA6?$AA4?$AA?$AA@ 100068a4     sqmproxy:sqmproxy.obj
+ 0001:000058b8       ??_C@_1BO@EIEKGNPO@?$AAS?$AAq?$AAm?$AAS?$AAt?$AAa?$AAr?$AAt?$AAU?$AAp?$AAl?$AAo?$AAa?$AAd?$AA?$AA@ 100068b8     sqmproxy:sqmproxy.obj
+ 0001:000058d8       ??_C@_1BO@CMOEIFGK@?$AAS?$AAq?$AAm?$AAA?$AAb?$AAo?$AAr?$AAt?$AAU?$AAp?$AAl?$AAo?$AAa?$AAd?$AA?$AA@ 100068d8     sqmproxy:sqmproxy.obj
+ 0001:000058f8       ??_C@_1BO@BHMIMMAP@?$AAS?$AAq?$AAm?$AAS?$AAa?$AAv?$AAe?$AAS?$AAe?$AAs?$AAs?$AAi?$AAo?$AAn?$AA?$AA@ 100068f8     sqmproxy:sqmproxy.obj
+ 0001:00005918       ??_C@_1BI@BFONAIIG@?$AAc?$AAu?$AAs?$AAt?$AAs?$AAa?$AAt?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10006918     sqmproxy:sqmproxy.obj
+ 0001:00005930       CLSID_HTMLDocument         10006930     ieuuid:ieuuid.obj
+ 0001:00005940       ??_C@_19GPBMHKKP@?$AAh?$AAo?$AAm?$AAe?$AA?$AA@ 10006940     mailutil_vcal:VCardHelper.obj
+ 0001:0000594c       ??_C@_15PBEIFBI@?$AAI?$AAM?$AA?$AA@ 1000694c     mailutil_vcal:VCardHelper.obj
+ 0001:00005954       ??_C@_19ECDNLCMK@?$AAp?$AAr?$AAe?$AAf?$AA?$AA@ 10006954     mailutil_vcal:VCardHelper.obj
+ 0001:00005960       ??_C@_1BI@CHPOHMBG@?$AAX?$AA_?$AAA?$AAS?$AAS?$AAI?$AAS?$AAT?$AAA?$AAN?$AAT?$AA?$AA@ 10006960     mailutil_vcal:VCardHelper.obj
+ 0001:00005978       ??_C@_1BA@HCGHGMLE@?$AAC?$AAO?$AAM?$AAP?$AAA?$AAN?$AAY?$AA?$AA@ 10006978     mailutil_vcal:VCardHelper.obj
+ 0001:00005988       ??_C@_1M@GDOFEOEF@?$AAR?$AAA?$AAD?$AAI?$AAO?$AA?$AA@ 10006988     mailutil_vcal:VCardHelper.obj
+ 0001:00005994       ??_C@_1M@CLAJJDFK@?$AAV?$AAO?$AAI?$AAC?$AAE?$AA?$AA@ 10006994     mailutil_vcal:VCardHelper.obj
+ 0001:000059a0       ??_C@_17LPJCBFHI@?$AAF?$AAA?$AAX?$AA?$AA@ 100069a0     mailutil_vcal:VCardHelper.obj
+ 0001:000059a8       ??_C@_19FDIIHJEE@?$AAP?$AAR?$AAE?$AAF?$AA?$AA@ 100069a8     mailutil_vcal:VCardHelper.obj
+ 0001:000059b4       ??_C@_17JIMPPLHI@?$AAC?$AAA?$AAR?$AA?$AA@ 100069b4     mailutil_vcal:VCardHelper.obj
+ 0001:000059bc       ??_C@_1M@NEOAJIAA@?$AAP?$AAA?$AAG?$AAE?$AAR?$AA?$AA@ 100069bc     mailutil_vcal:VCardHelper.obj
+ 0001:000059c8       ??_C@_19KBNNMKDB@?$AAC?$AAE?$AAL?$AAL?$AA?$AA@ 100069c8     mailutil_vcal:VCardHelper.obj
+ 0001:000059d4       ??_C@_19LKFDKMDJ@?$AAW?$AAO?$AAR?$AAK?$AA?$AA@ 100069d4     mailutil_vcal:VCardHelper.obj
+ 0001:000059e0       ??_C@_19HOKJLBCB@?$AAH?$AAO?$AAM?$AAE?$AA?$AA@ 100069e0     mailutil_vcal:VCardHelper.obj
+ 0001:00005be4       ??_C@_0N@LKMBAHPH@BEGIN?3VEVENT?$AA@ 10006be4     mailutil_vcal:Output.obj
+ 0001:00005bf4       ??_C@_0L@IELNDMLP@END?3VEVENT?$AA@ 10006bf4     mailutil_vcal:Output.obj
+ 0001:00005c00       ??_C@_0BA@COGBGNMO@BEGIN?3VCALENDAR?$AA@ 10006c00     mailutil_vcal:Output.obj
+ 0001:00005c10       ??_C@_0O@DFOJGDKH@END?3VCALENDAR?$AA@ 10006c10     mailutil_vcal:Output.obj
+ 0001:00005c20       ??_C@_0M@LAMOFMA@VERSION?3X?4Y?$AA@ 10006c20     mailutil_vcal:Output.obj
+ 0001:00005c2c       ??_C@_0M@BFHPJKEI@BEGIN?3VTODO?$AA@ 10006c2c     mailutil_vcal:Output.obj
+ 0001:00005c38       ??_C@_09HDDAJKP@END?3VTODO?$AA@ 10006c38     mailutil_vcal:Output.obj
+ 0001:00005c80       ?_GetProcFromDLL@@YAXPAPAUHINSTANCE__@@PBGPAP6AHXZ1@Z 10006c80 f   dllmain.obj
+ 0001:00005cd4       PhoneMakeCall              10006cd4 f   dllmain.obj
+ 0001:00005d24       MinutesBetweenST           10006d24 f   dllmain.obj
+ 0001:00005d9c       FindMatchingContactEx      10006d9c f   dllmain.obj
+ 0001:00005e28       SyncMgrInboxIsEnabled      10006e28 f   dllmain.obj
+ 0001:00005e6c       CertFindCertificateInStore 10006e6c f   dllmain.obj
+ 0001:00005ef4       CertGetCertificateContextProperty 10006ef4 f   dllmain.obj
+ 0001:00005f60       CertFreeCertificateContext 10006f60 f   dllmain.obj
+ 0001:00005fb0       CertEnumCertificatesInStore 10006fb0 f   dllmain.obj
+ 0001:00006008       CertGetIntendedKeyUsage    10007008 f   dllmain.obj
+ 0001:00006074       CertGetEnhancedKeyUsage    10007074 f   dllmain.obj
+ 0001:000060e0       NCryptOpenStorageProvider  100070e0 f   dllmain.obj
+ 0001:00006144       NCryptFreeObject           10007144 f   dllmain.obj
+ 0001:00006198       NCryptGetProperty          10007198 f   dllmain.obj
+ 0001:00006224       DllMain                    10007224 f   dllmain.obj
+ 0001:00006278       DllCanUnloadNow            10007278 f   factory.obj
+ 0001:00006294       ?AddRef@CFactory@@UAAKXZ   10007294 f   factory.obj
+ 0001:000062a8       ?LockServer@CFactory@@UAAJH@Z 100072a8 f   factory.obj
+ 0001:000062d4       ?Release@CFactory@@UAAKXZ  100072d4 f   factory.obj
+ 0001:00006304       ?QueryInterface@CFactory@@UAAJABU_GUID@@PAPAX@Z 10007304 f   factory.obj
+ 0001:00006384       ?get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ 10007384 f i factory.obj
+ 0001:000063d8       DllGetClassObject          100073d8 f   factory.obj
+ 0001:0000642c       ?CreateInstance@CFactory@@UAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 1000742c f   factory.obj
+ 0001:000064ec       ?InitializeServiceProps@@YAJPAUIMsgStore@@PAPAUSServiceProp@@@Z 100074ec f   ServiceNamedProps.obj
+ 0001:000065d8       ?DigitsToByte@@YAEPBG@Z    100075d8 f   mailutil_misc:hexconv.obj
+ 0001:00006624       ?BytesToDigits@@YAIPBEKPAG@Z 10007624 f   mailutil_misc:hexconv.obj
+ 0001:00006684       ?StringToBytes@@YAXPBGPAEI@Z 10007684 f   mailutil_misc:hexconv.obj
+ 0001:000066bc       ?SvcParseDate@@YAJPAU_FILETIME@@PBD@Z 100076bc f   mailutil_misc:utils_misc.obj
+ 0001:00006ba4       ?MP8TO6@@YAKKK@Z           10007ba4 f   mailutil_misc:utils_misc.obj
+ 0001:00006c08       ?SixBitSplit@@YAXPAEI0PAI@Z 10007c08 f   mailutil_misc:utils_misc.obj
+ 0001:00006cd8       ?UnicodeToModifiedUTF7@@YAHPBGHPADH@Z 10007cd8 f   mailutil_misc:utils_misc.obj
+ 0001:00006eec       ?ModifiedUTF7Decode@@YAJPAGK@Z 10007eec f   mailutil_misc:utils_misc.obj
+ 0001:0000703c       ??1CBase64StreamFilter@@UAA@XZ 1000803c f   mailutil_misc:utils_misc.obj
+ 0001:00007094       ?Read@CBase64StreamFilter@@UAAJPAXKPAK@Z 10008094 f i mailutil_misc:utils_misc.obj
+ 0001:000070a0       ?Seek@CBase64StreamFilter@@UAAJT_LARGE_INTEGER@@KPAT_ULARGE_INTEGER@@@Z 100080a0 f i mailutil_misc:utils_misc.obj
+ 0001:000070b8       ?Stat@CBase64StreamFilter@@UAAJPAUtagSTATSTG@@K@Z 100080b8 f i mailutil_misc:utils_misc.obj
+ 0001:000070c4       ?SetSize@CBase64StreamFilter@@UAAJT_ULARGE_INTEGER@@@Z 100080c4 f i mailutil_misc:utils_misc.obj
+ 0001:00007100       ?CopyTo@CBase64StreamFilter@@UAAJPAUIStream@@T_ULARGE_INTEGER@@PAT3@2@Z 10008100 f i mailutil_misc:utils_misc.obj
+ 0001:00007118       ?Revert@CBase64StreamFilter@@UAAJXZ 10008118 f i mailutil_misc:utils_misc.obj
+ 0001:00007124       ?LockRegion@CBase64StreamFilter@@UAAJT_ULARGE_INTEGER@@0K@Z 10008124 f i mailutil_misc:utils_misc.obj
+ 0001:0000713c       ?UnlockRegion@CBase64StreamFilter@@UAAJT_ULARGE_INTEGER@@0K@Z 1000813c f i mailutil_misc:utils_misc.obj
+ 0001:00007154       ?Clone@CBase64StreamFilter@@UAAJPAPAUIStream@@@Z 10008154 f i mailutil_misc:utils_misc.obj
+ 0001:00007160       ?AddRef@CBase64StreamFilter@@UAAKXZ 10008160 f   mailutil_misc:utils_misc.obj
+ 0001:00007174       ?Release@CBase64StreamFilter@@UAAKXZ 10008174 f   mailutil_misc:utils_misc.obj
+ 0001:000071a8       ?QueryInterface@CBase64StreamFilter@@UAAJABU_GUID@@PAPAX@Z 100081a8 f   mailutil_misc:utils_misc.obj
+ 0001:00007250       ?Commit@CBase64StreamFilter@@UAAJK@Z 10008250 f   mailutil_misc:utils_misc.obj
+ 0001:000072b0       ??0CDecodeStreamFilter@@QAA@PAUIStream@@W4decodeType@0@@Z 100082b0 f   mailutil_misc:utils_misc.obj
+ 0001:000072f0       ??1CDecodeStreamFilter@@UAA@XZ 100082f0 f   mailutil_misc:utils_misc.obj
+ 0001:00007320       ?CreateDecodeStreamFilter@@YAJPAUIStream@@PAPAU1@W4decodeType@CDecodeStreamFilter@@@Z 10008320 f   mailutil_misc:utils_misc.obj
+ 0001:0000737c       ?CreateUUDecodeStreamFilter@@YAJPAUIStream@@PAPAU1@@Z 1000837c f   mailutil_misc:utils_misc.obj
+ 0001:00007384       ?CreateBinHexDecodeStreamFilter@@YAJPAUIStream@@PAPAU1@@Z 10008384 f   mailutil_misc:utils_misc.obj
+ 0001:0000738c       ?CreateQPDecodeStreamFilter@@YAJPAUIStream@@PAPAU1@@Z 1000838c f   mailutil_misc:utils_misc.obj
+ 0001:00007394       ?InitSMSDigits@@YAXXZ      10008394 f   mailutil_misc:utils_misc.obj
+ 0001:00007448       ?GetAddressTypeEx@@YAPBGPBGPAH11@Z 10008448 f   mailutil_misc:utils_misc.obj
+ 0001:0000751c       ?GetAddressType@@YAPBGPBGPAH1@Z 1000851c f   mailutil_misc:utils_misc.obj
+ 0001:00007524       ?MakeCall@@YAJPAUHWND__@@PBG1@Z 10008524 f   mailutil_misc:utils_misc.obj
+ 0001:000075ac       ?SetWindowAndTrayText@@YAHPAUHWND__@@PBG@Z 100085ac f   mailutil_misc:utils_misc.obj
+ 0001:000075e4       ?GetImportanceMap@@YAPAUImportanceEntry@@W4MIMEHEADER_T@@@Z 100085e4 f   mailutil_misc:utils_misc.obj
+ 0001:00007618       ?TranslateToDeviceImportance@@YAKPAGW4MIMEHEADER_T@@@Z 10008618 f   mailutil_misc:utils_misc.obj
+ 0001:00007694       ?QuerySmsOptionUi@@YAKW4SMSOPTUI@@@Z 10008694 f   mailutil_misc:utils_misc.obj
+ 0001:00007790       ?IsHTMLEnabled@@YAHXZ      10008790 f   mailutil_misc:utils_misc.obj
+ 0001:000077c8       ?MsgSqmEnsureSession@@YAHXZ 100087c8 f   mailutil_misc:utils_misc.obj
+ 0001:00007804       ?IsAttachmentEmbedded@@YAHPAG00@Z 10008804 f   mailutil_misc:utils_misc.obj
+ 0001:00007880       ?GetMultiLanguage2@@YAJPAPAUIMultiLanguage2@@@Z 10008880 f   mailutil_misc:utils_misc.obj
+ 0001:00007904       ?RemoveServiceMessagesFromFolder@@YAJPAUIMAPIFolder@@PBG@Z 10008904 f   mailutil_misc:utils_misc.obj
+ 0001:00007b8c       ?FileTimeToStr@@YAJPBU_FILETIME@@KKPAPAG@Z 10008b8c f   mailutil_misc:utils_misc.obj
+ 0001:00007cb0       ??_ECBase64StreamFilter@@UAAPAXI@Z 10008cb0 f i mailutil_misc:utils_misc.obj
+ 0001:00007cb0       ??_GCBase64StreamFilter@@UAAPAXI@Z 10008cb0 f i mailutil_misc:utils_misc.obj
+ 0001:00007cd4       ?Write@CBase64StreamFilter@@UAAJPBXKPAK@Z 10008cd4 f   mailutil_misc:utils_misc.obj
+ 0001:00007e54       ??_ECDecodeStreamFilter@@UAAPAXI@Z 10008e54 f i mailutil_misc:utils_misc.obj
+ 0001:00007e54       ??_GCDecodeStreamFilter@@UAAPAXI@Z 10008e54 f i mailutil_misc:utils_misc.obj
+ 0001:00007e78       ?Commit@CDecodeStreamFilter@@UAAJK@Z 10008e78 f   mailutil_misc:utils_misc.obj
+ 0001:00007fa4       ?FullWidthToHalfWidth@@YAJPAGPAPAG@Z 10008fa4 f   mailutil_misc:utils_misc.obj
+ 0001:00008094       ?GetBestPhoneForItem@@YAJPAUIItem2@@PAPAG@Z 10009094 f   mailutil_misc:utils_misc.obj
+ 0001:0000822c       ?CallSender@@YAHPAUHWND__@@PAUIMessage@@K@Z 1000922c f   mailutil_misc:utils_misc.obj
+ 0001:00008510       ?GetSMSMessageStore@@YAJPAUIMAPISession@@PAPAUIMsgStore@@@Z 10009510 f   mailutil_misc:utils_misc.obj
+ 0001:0000872c       ?SendAdministrativeResultSMS@@YAJPAG0K@Z 1000972c f   mailutil_misc:utils_misc.obj
+ 0001:00008a20       ?IsSmsStore@@YAHPAUIMsgStore@@@Z 10009a20 f   mailutil_misc:utils_misc.obj
+ 0001:00008a88       ?GetShellNotificationGuid@@YAJPAUIMsgStore@@PAU_GUID@@@Z 10009a88 f   mailutil_misc:utils_misc.obj
+ 0001:00008af4       ?TranslateToExchangeImportance@@YAJKW4MIMEHEADER_T@@PAPAG@Z 10009af4 f   mailutil_misc:utils_misc.obj
+ 0001:00008b7c       ?IsMsgAirSync@@YAHPAUIMessage@@@Z 10009b7c f   mailutil_misc:utils_misc.obj
+ 0001:00008bf8       ?TargetSecurityCheck@@YAJPBG@Z 10009bf8 f   mailutil_misc:utils_misc.obj
+ 0001:00008ca4       ?ReadStreamContent@@YAJPAUIStream@@PAPAGJ@Z 10009ca4 f   mailutil_misc:utils_misc.obj
+ 0001:00008dd4       ?ReadStreamContentA@@YAJPAUIStream@@PAPADJ@Z 10009dd4 f   mailutil_misc:utils_misc.obj
+ 0001:00008ee4       ?GetAttachmentInfo@@YAJPAUIMsgWrapper@@PAVMsgAttachInfo@@@Z 10009ee4 f   mailutil_misc:utils_misc.obj
+ 0001:000090f8       ?SetSecurityDialogShowState@@YAJW4SecurityDialogType@@H@Z 1000a0f8 f   mailutil_misc:utils_misc.obj
+ 0001:00009168       ?GetAirSyncCPID@@YAJPAUIMessage@@PAI@Z 1000a168 f   mailutil_misc:utils_misc.obj
+ 0001:0000927c       ?MsgSqmRecordStreamDataForWizard@@YAXPAUMsgSqmWizardData@@@Z 1000a27c f   mailutil_misc:utils_misc.obj
+ 0001:000092d0       ?MsgSqmIncrementPacked@@YAXKW4MSGSQMPACKING@@@Z 1000a2d0 f   mailutil_misc:utils_misc.obj
+ 0001:00009378       ?MsgSqmIncrementForService@@YAXKPBGW4MSGSQMINCTOTAL@@@Z 1000a378 f   mailutil_misc:utils_misc.obj
+ 0001:000093d8       ?MsgSqmIncrement@@YAXK@Z   1000a3d8 f   mailutil_misc:utils_misc.obj
+ 0001:00009404       ?MsgSqmIncrementForSendRecv@@YAXPAUIMsgStore@@W4MSGSQMEMAILACTIONS@@K@Z 1000a404 f   mailutil_misc:utils_misc.obj
+ 0001:000094b0       ?GetSignatureText@@YAJPAUIMsgStore@@HPAPAG@Z 1000a4b0 f   mailutil_misc:utils_misc.obj
+ 0001:000095dc       ?GetEmailEngineInformation@@YAJPAU_GUID@@0@Z 1000a5dc f   mailutil_misc:utils_misc.obj
+ 0001:00009870       ?IsActiveSyncAccountConfigured@@YAHXZ 1000a870 f   mailutil_misc:utils_misc.obj
+ 0001:0000994c       ?StrConvertNarrowToWide@@YAJIPADPAGPAIPAW4STRCONVERTOPTION@@@Z 1000a94c f   mailutil_misc:utils_misc.obj
+ 0001:00009b58       ?StrConvertWideToNarrow@@YAJIPAGPADPAIPAW4STRCONVERTOPTION@@@Z 1000ab58 f   mailutil_misc:utils_misc.obj
+ 0001:00009fe8       ?GetAccountInboxUnreadCount@@YAJPAUIMsgStore@@PAK@Z 1000afe8 f   mailutil_misc:utils_misc.obj
+ 0001:0000a100       ?Decode1522HeaderField@@YAXPAPAD0PAI@Z 1000b100 f   mailutil_misc:utils_misc.obj
+ 0001:0000a5e8       ?ConvertToWideHeader@@YAJIPADHPAGPAI@Z 1000b5e8 f   mailutil_misc:utils_misc.obj
+ 0001:0000a770       ??0CBase64StreamFilter@@QAA@PAUIStream@@@Z 1000b770 f   mailutil_misc:utils_misc.obj
+ 0001:0000a7b8       ?GetMsgStoreFromMessage@@YAJPAUIMessage@@PAPAUIMsgStore@@@Z 1000b7b8 f   mailutil_misc:utils_misc.obj
+ 0001:0000a86c       ?IsSupportedCodepage@@YAHI@Z 1000b86c f   mailutil_misc:utils_misc.obj
+ 0001:0000a8fc       ?ConvertToWideStream@@YAJIPAUIStream@@PAPAU1@@Z 1000b8fc f   mailutil_misc:utils_misc.obj
+ 0001:0000aa90       ?ConvertWideStreamToMultiByte@@YAJIPAUIStream@@PAPAU1@@Z 1000ba90 f   mailutil_misc:utils_misc.obj
+ 0001:0000ac30       ?GetSecurityDialogShowState@@YAJW4SecurityDialogType@@PAH@Z 1000bc30 f   mailutil_misc:utils_misc.obj
+ 0001:0000accc       MAPI_GetStoreByName        1000bccc f   mailutil_misc:utils_misc.obj
+ 0001:0000aef0       ?CreateBase64StreamFilter@@YAJPAUIStream@@PAPAU1@@Z 1000bef0 f   mailutil_misc:utils_misc.obj
+ 0001:0000af34       ?GetWideSzAlloc@@YAJIPBDPAPAG@Z 1000bf34 f   mailutil_misc:utils_misc.obj
+ 0001:0000b038       ?GetWideSzMapiAllocMore@@YAJIPADPAPAGPAU_SPropValue@@@Z 1000c038 f   mailutil_misc:utils_misc.obj
+ 0001:0000b148       ?GetNarrowSzCodepage@@YAJPBGPAPADI@Z 1000c148 f   mailutil_misc:utils_misc.obj
+ 0001:0000b240       ?GetWideSz@@YAJPADPAPAG@Z  1000c240 f   mailutil_misc:utils_misc.obj
+ 0001:0000b250       ?AtlThrowImpl@ATL@@YAXJ@Z  1000c250 f i mailutil_misc:htmlutil.obj
+ 0001:0000b27c       ?AtlCrtErrorCheck@ATL@@YAHH@Z 1000c27c f i mailutil_misc:htmlutil.obj
+ 0001:0000b2d0       ?AtlComQIPtrAssign@ATL@@YAPAUIUnknown@@PAPAU2@PAU2@ABU_GUID@@@Z 1000c2d0 f i mailutil_misc:htmlutil.obj
+ 0001:0000b32c       ?Append@CComBSTR@ATL@@QAAJPBGH@Z 1000c32c f i mailutil_misc:htmlutil.obj
+ 0001:0000b3ec       ??0CComBSTR@ATL@@QAA@PBG@Z 1000c3ec f i mailutil_misc:htmlutil.obj
+ 0001:0000b430       ??4CComBSTR@ATL@@QAAAAV01@PBG@Z 1000c430 f i mailutil_misc:htmlutil.obj
+ 0001:0000b484       ?Copy@CComBSTR@ATL@@QBAPAGXZ 1000c484 f i mailutil_misc:htmlutil.obj
+ 0001:0000b4cc       ?CopyTo@CComBSTR@ATL@@QBAJPAPAG@Z 1000c4cc f i mailutil_misc:htmlutil.obj
+ 0001:0000b514       ??1_buffer@?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@QAA@XZ 1000c514 f i mailutil_misc:htmlutil.obj
+ 0001:0000b564       ?_Grow@?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@IAA_NI@Z 1000c564 f i mailutil_misc:htmlutil.obj
+ 0001:0000b5f4       ?CreateHTMLDocFromString@@YAJPAGPAPAUIHTMLDocument2@@@Z 1000c5f4 f   mailutil_misc:htmlutil.obj
+ 0001:0000b718       ?CreateHTMLDocFromStringW@@YAJPBGPAPAUIHTMLDocument2@@@Z 1000c718 f   mailutil_misc:htmlutil.obj
+ 0001:0000b764       ?HTMLDocToPlainTextStringW@@YAJPAUIHTMLDocument2@@PAPAG@Z 1000c764 f   mailutil_misc:htmlutil.obj
+ 0001:0000b93c       ??$MultiByteToWideChar@$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@YAHIPBDHPAV?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@0@K@Z 1000c93c f i mailutil_misc:htmlutil.obj
+ 0001:0000ba04       ?CreateHTMLDocFromStringA@@YAJPBDIPAPAUIHTMLDocument2@@@Z 1000ca04 f   mailutil_misc:htmlutil.obj
+ 0001:0000bae4       ?HTMLStringToPlainTextStreamW@@YAJPBDPBGPAPAUIStream@@I@Z 1000cae4 f   mailutil_misc:htmlutil.obj
+ 0001:0000bf24       ?HTMLStringWToPlainTextStringW@@YAJPBGPAPAG@Z 1000cf24 f   mailutil_misc:htmlutil.obj
+ 0001:0000bfc4       ?HTMLStreamAToPlainTextStreamW@@YAJPAUIStream@@PAPAU1@I@Z 1000cfc4 f   mailutil_misc:htmlutil.obj
+ 0001:0000c05c       ?IsSMIMEEncryptionForcedByDevicePolicy@@YAHXZ 1000d05c f   mailutil_misc:smimeutils.obj
+ 0001:0000c078       ?IsSMIMESigningForcedByDevicePolicy@@YAHXZ 1000d078 f   mailutil_misc:smimeutils.obj
+ 0001:0000c094       ?IsSoftwareCert@@YAJPBU_CERT_CONTEXT@@PAH@Z 1000d094 f   mailutil_misc:smimeutils.obj
+ 0001:0000c254       ?DoesConformSoftwareCertPolicy@@YAHPBU_CERT_CONTEXT@@@Z 1000d254 f   mailutil_misc:smimeutils.obj
+ 0001:0000c2b4       ?IsEmailSigningCert@@YAHPBU_CERT_CONTEXT@@@Z 1000d2b4 f   mailutil_misc:smimeutils.obj
+ 0001:0000c3c0       ?SetDefaultSigningCert@@YAJPAUHKEY__@@PAX@Z 1000d3c0 f   mailutil_misc:smimeutils.obj
+ 0001:0000c568       ?GetSignerCertInfo@@YAJPAXPAPBU_CERT_CONTEXT@@@Z 1000d568 f   mailutil_misc:smimeutils.obj
+ 0001:0000c818       ?DuplicateNotification@@YAJQAU_NOTIFICATION@@PAPAU1@@Z 1000d818 f   mailutil_misc:mapiutil.obj
+ 0001:0000c9c4       ?EcUidToGlobalObjId@@YAJPBGAAU_SYSTEMTIME@@PAU_CEBLOB@@@Z 1000d9c4 f   mailutil_misc:uidconv.obj
+ 0001:0000cc08       ?EcGlobalObjIdToUid@@YAJPBU_CEBLOB@@PAPAGPAU_SYSTEMTIME@@@Z 1000dc08 f   mailutil_misc:uidconv.obj
+ 0001:0000ce6c       ?GetBoldDlgFont@@YAPAUHFONT__@@PAUHWND__@@@Z 1000de6c f   mailutil_misc:tpcutils.obj
+ 0001:0000ceec       ?MapiPropCpy@@YAJPAU_SPropValue@@PBU1@@Z 1000deec f   mailutil_misc:mapiprops.obj
+ 0001:0000d010       ?DeleteSPropValue@@YAXPAU_SPropValue@@@Z 1000e010 f   mailutil_misc:mapiprops.obj
+ 0001:0000d050       ?DeleteMapiProps@@YAXPAU_SPropValue@@I@Z 1000e050 f   mailutil_misc:mapiprops.obj
+ 0001:0000d084       ?EnsureSPlusNamedPropsInitialized@@YAJXZ 1000e084 f   mailutil_misc:mapiprops.obj
+ 0001:0000d26c       ?GetNamedPropInfo@@YAHKPAK0PAU_GUID@@@Z 1000e26c f   mailutil_misc:mapiprops.obj
+ 0001:0000d304       ?GetMAPIStorePropTag@@YAHKPAK@Z 1000e304 f   mailutil_misc:mapiprops.obj
+ 0001:0000d358       ?GetMAPIStorePropTags@@YAHPAU_SPropTagArray@@@Z 1000e358 f   mailutil_misc:mapiprops.obj
+ 0001:0000d3c0       ?GetMapiStorePropTagFromName@@YAHPAU_MAPINAMEID@@PAK@Z 1000e3c0 f   mailutil_misc:mapiprops.obj
+ 0001:0000d438       ?TranslateSPlusV2MessageClassToV1@@YAHPBGPAPBD@Z 1000e438 f   mailutil_misc:msgclasses.obj
+ 0001:0000d49c       ?TranslateSPlusV1MessageClassToV2@@YAHPBGPAPBG@Z 1000e49c f   mailutil_misc:msgclasses.obj
+ 0001:0000d4f4       ?IsMessageClassSPlusV2@@YAHPAG@Z 1000e4f4 f   mailutil_misc:msgclasses.obj
+ 0001:0000d50c       ?IsMessageClassReadRequest@@YAHPAG@Z 1000e50c f   mailutil_misc:msgclasses.obj
+ 0001:0000d59c       ?GetMsgClassEnum@@YA?AW4eMsgClass@@PAG@Z 1000e59c f   mailutil_misc:msgclasses.obj
+ 0001:0000d5f0       ?IsMessageClassDeviceGenerated@@YAHW4eMsgClass@@PAG@Z 1000e5f0 f   mailutil_misc:msgclasses.obj
+ 0001:0000d648       ?MsgClassSupportsIRM@@YAHW4eMsgClass@@@Z 1000e648 f   mailutil_misc:msgclasses.obj
+ 0001:0000d664       ?MsgClassSupportsSMIME@@YAHW4eMsgClass@@@Z 1000e664 f   mailutil_misc:msgclasses.obj
+ 0001:0000d680       ?GetMsgClassEnumFromMsg@@YAJPAUIMessage@@PAW4eMsgClass@@@Z 1000e680 f   mailutil_misc:msgclasses.obj
+ 0001:0000d6d4       ?GetPhoneStatus@@YAJPAK@Z  1000e6d4 f   mailutil_misc:utils_conn.obj
+ 0001:0000d734       ?AtlComPtrAssign@ATL@@YAPAUIUnknown@@PAPAU2@PAU2@@Z 1000e734 f i mailutil_misc:mapitablewalker.obj
+ 0001:0000d780       ?GetRow@CMAPITableWalker@@UAAPAU_SRow@@XZ 1000e780 f   mailutil_misc:mapitablewalker.obj
+ 0001:0000d798       ?QueryInterface@CMAPITableWalker@@UAAJABU_GUID@@PAPAX@Z 1000e798 f   mailutil_misc:mapitablewalker.obj
+ 0001:0000d7a4       ?AddRef@CMAPITableWalker@@UAAKXZ 1000e7a4 f   mailutil_misc:mapitablewalker.obj
+ 0001:0000d7ac       ??1CMAPITableWalker@@QAA@XZ 1000e7ac f   mailutil_misc:mapitablewalker.obj
+ 0001:0000d7e0       ?MoveNext@CMAPITableWalker@@UAAJXZ 1000e7e0 f   mailutil_misc:mapitablewalker.obj
+ 0001:0000d898       ?Release@CMAPITableWalker@@UAAKXZ 1000e898 f   mailutil_misc:mapitablewalker.obj
+ 0001:0000d8d8       CreateMAPITableWalker      1000e8d8 f   mailutil_misc:mapitablewalker.obj
+ 0001:0000d940       ?Initialize@CMAPITableWalker@@UAAJKPAUIMAPITable@@PAU_SPropTagArray@@@Z 1000e940 f   mailutil_misc:mapitablewalker.obj
+ 0001:0000d9c8       ?_DeleteUnusedMsg@CWelcomeEmail@@AAAJPAUIMAPIFolder@@PAUIMessage@@@Z 1000e9c8 f   mailutil_misc:welcomeemail.obj
+ 0001:0000da44       ?_QueryRegInfo@CWelcomeEmail@@AAAJPAGPBGPAPAG@Z 1000ea44 f   mailutil_misc:welcomeemail.obj
+ 0001:0000db04       ?_SetAllProps@CWelcomeEmail@@AAAJPAUIMessage@@PAG11PAEK@Z 1000eb04 f   mailutil_misc:welcomeemail.obj
+ 0001:0000de24       ?Init@CWelcomeEmail@@QAAJPAUIMsgStore@@PBG1@Z 1000ee24 f   mailutil_misc:welcomeemail.obj
+ 0001:0000def0       ?_GetWelcomeEmailInfo@CWelcomeEmail@@AAAJPAGPAPAG11PAPAEPAK@Z 1000eef0 f   mailutil_misc:welcomeemail.obj
+ 0001:0000e140       ?CreateWelcomeEmailFromRegInfo@CWelcomeEmail@@AAAJPBG0@Z 1000f140 f   mailutil_misc:welcomeemail.obj
+ 0001:0000e4a8       ?CreateAccountWelcomeEmail@CWelcomeEmail@@AAAJXZ 1000f4a8 f   mailutil_misc:welcomeemail.obj
+ 0001:0000e588       ?CreateWelcomeEmails@CWelcomeEmail@@QAAHXZ 1000f588 f   mailutil_misc:welcomeemail.obj
+ 0001:0000e5d4       CreateWelcomeEmails        1000f5d4 f   mailutil_misc:welcomeemail.obj
+ 0001:0000e63c       GetSupportedImageFileExtensions 1000f63c f   mailutil_misc:utils_image.obj
+ 0001:0000ea2c       ?AddRef@CBufferedStream@@UAAKXZ 1000fa2c f   mailutil_misc:bufstm.obj
+ 0001:0000ea3c       ?GetSize@CBufferedStream@@IAAJPAK@Z 1000fa3c f   mailutil_misc:bufstm.obj
+ 0001:0000ea94       ?QueryInterface@CBufferedStream@@UAAJABU_GUID@@PAPAX@Z 1000fa94 f   mailutil_misc:bufstm.obj
+ 0001:0000eb34       ?GetBuffer@CBufferedStream@@UAAJPAPAXPAK@Z 1000fb34 f   mailutil_misc:bufstm.obj
+ 0001:0000eb94       ?Read@CBufferedStream@@UAAJPAXKPAK@Z 1000fb94 f i mailutil_misc:bufstm.obj
+ 0001:0000ebc0       ?Write@CBufferedStream@@UAAJPBXKPAK@Z 1000fbc0 f i mailutil_misc:bufstm.obj
+ 0001:0000ebec       ?Seek@CBufferedStream@@UAAJT_LARGE_INTEGER@@KPAT_ULARGE_INTEGER@@@Z 1000fbec f i mailutil_misc:bufstm.obj
+ 0001:0000ec3c       ?Stat@CBufferedStream@@UAAJPAUtagSTATSTG@@K@Z 1000fc3c f i mailutil_misc:bufstm.obj
+ 0001:0000ec68       ?SetSize@CBufferedStream@@UAAJT_ULARGE_INTEGER@@@Z 1000fc68 f i mailutil_misc:bufstm.obj
+ 0001:0000eca4       ?Commit@CBufferedStream@@UAAJK@Z 1000fca4 f i mailutil_misc:bufstm.obj
+ 0001:0000ecd0       ?CopyTo@CBufferedStream@@UAAJPAUIStream@@T_ULARGE_INTEGER@@PAT3@2@Z 1000fcd0 f i mailutil_misc:bufstm.obj
+ 0001:0000ed28       ?Revert@CBufferedStream@@UAAJXZ 1000fd28 f i mailutil_misc:bufstm.obj
+ 0001:0000ed54       ?LockRegion@CBufferedStream@@UAAJT_ULARGE_INTEGER@@0K@Z 1000fd54 f i mailutil_misc:bufstm.obj
+ 0001:0000edb0       ?UnlockRegion@CBufferedStream@@UAAJT_ULARGE_INTEGER@@0K@Z 1000fdb0 f i mailutil_misc:bufstm.obj
+ 0001:0000ee0c       ?Clone@CBufferedStream@@UAAJPAPAUIStream@@@Z 1000fe0c f i mailutil_misc:bufstm.obj
+ 0001:0000ee38       ?CreateBufferedStreamOnHGlobal@@YAJPAXHPAPAUIStream@@@Z 1000fe38 f   mailutil_misc:bufstm.obj
+ 0001:0000ef10       ?Release@CBufferedStream@@UAAKXZ 1000ff10 f   mailutil_misc:bufstm.obj
+ 0001:0000ef5c       ?AddRef@HtmlDocForParsingSite@@UAAKXZ 1000ff5c f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000ef64       ?Release@HtmlDocForParsingSite@@UAAKXZ 1000ff64 f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000ef9c       ?SaveObject@HtmlDocForParsingSite@@UAAJXZ 1000ff9c f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000efa8       ?GetMoniker@HtmlDocForParsingSite@@UAAJKKPAPAUIMoniker@@@Z 1000ffa8 f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000efb4       ?GetContainer@HtmlDocForParsingSite@@UAAJPAPAUIOleContainer@@@Z 1000ffb4 f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000efc0       ?ShowObject@HtmlDocForParsingSite@@UAAJXZ 1000ffc0 f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000efcc       ?OnShowWindow@HtmlDocForParsingSite@@UAAJH@Z 1000ffcc f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000efd8       ?RequestNewObjectLayout@HtmlDocForParsingSite@@UAAJXZ 1000ffd8 f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000efe4       ?ShowHelp@HtmlDocForParsingSite@@UAAJPAUHWND__@@PAGIKUtagPOINT@@PAUIDispatch@@@Z 1000ffe4 f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000effc       ?ShowMessage@HtmlDocForParsingSite@@UAAJPAUHWND__@@PAG1K1KPAJ@Z 1000fffc f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000f004       ?Release@HtmlDocForParsingSite@@W3AAKXZ 10010004 f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000f00c       ?Release@HtmlDocForParsingSite@@W7AAKXZ 1001000c f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000f014       ?AddRef@HtmlDocForParsingSite@@W3AAKXZ 10010014 f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000f01c       ?AddRef@HtmlDocForParsingSite@@W7AAKXZ 1001001c f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000f024       ?QueryInterface@HtmlDocForParsingSite@@UAAJABU_GUID@@PAPAX@Z 10010024 f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000f114       ?QueryInterface@HtmlDocForParsingSite@@W3AAJABU_GUID@@PAPAX@Z 10010114 f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000f11c       ?QueryInterface@HtmlDocForParsingSite@@W7AAJABU_GUID@@PAPAX@Z 1001011c f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000f124       ?AddRef@MaxSecurityManager@@UAAKXZ 10010124 f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000f12c       ?GetSecurityId@MaxSecurityManager@@UAAJPBGPAEPAKK@Z 1001012c f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000f138       ?GetSecuritySite@MaxSecurityManager@@UAAJPAPAUIInternetSecurityMgrSite@@@Z 10010138 f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000f144       ?GetZoneMappings@MaxSecurityManager@@UAAJKPAPAUIEnumString@@K@Z 10010144 f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000f150       ?MapUrlToZone@MaxSecurityManager@@UAAJPBGPAKK@Z 10010150 f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000f15c       ?ProcessUrlAction@MaxSecurityManager@@UAAJPBGKPAEK1KKK@Z 1001015c f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000f168       ?QueryCustomPolicy@MaxSecurityManager@@UAAJPBGABU_GUID@@PAPAEPAKPAEKK@Z 10010168 f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000f174       ?SetSecuritySite@MaxSecurityManager@@UAAJPAUIInternetSecurityMgrSite@@@Z 10010174 f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000f180       ?SetZoneMapping@MaxSecurityManager@@UAAJKPBGK@Z 10010180 f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000f18c       ?QueryInterface@MaxSecurityManager@@UAAJABU_GUID@@PAPAX@Z 1001018c f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000f21c       ?Release@MaxSecurityManager@@UAAKXZ 1001021c f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000f254       ?ProcessUrlActionEx@MaxSecurityManager@@UAAJPBGKPAEK1KKKPAK@Z 10010254 f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000f330       ??1HtmlDocForParsingSite@@MAA@XZ 10010330 f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000f370       ??_EHtmlDocForParsingSite@@MAAPAXI@Z 10010370 f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000f370       ??_GHtmlDocForParsingSite@@MAAPAXI@Z 10010370 f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000f394       ?CreateInstance@MaxSecurityManager@@SAJPAPAUIInternetSecurityManagerEx@@@Z 10010394 f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000f3f0       ?CreateInstance@HtmlDocForParsingSite@@SAJPAPAV1@@Z 100103f0 f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000f470       ?QueryService@HtmlDocForParsingSite@@UAAJABU_GUID@@0PAPAX@Z 10010470 f i mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000f4fc       ?CreateSecuredHtmlDoc@@YAJPAPAUIHTMLDocument2@@@Z 100104fc f   mailutil_misc:SecureHtmlDoc.obj
+ 0001:0000f6a4       ?VerifyChecksum@CTnefDecoder@@AAAJG@Z 100106a4 f   mailutil_tnef:tnefDecoder.obj
+ 0001:0000f70c       ?AddStringProp@CTnefDecoder@@AAAJPAU_TNEF_ATTR_HEADER@@KPAD@Z 1001070c f   mailutil_tnef:tnefDecoder.obj
+ 0001:0000f7cc       ?IsSPlusReqCancel@CTnefDecoder@@AAAHXZ 100107cc f   mailutil_tnef:tnefDecoder.obj
+ 0001:0000f810       ?IsSPlusRespond@CTnefDecoder@@AAAHXZ 10010810 f   mailutil_tnef:tnefDecoder.obj
+ 0001:0000f86c       ?HandleMessageClass@CTnefDecoder@@AAAJPAG@Z 1001086c f   mailutil_tnef:tnefDecoder.obj
+ 0001:0000f978       ?HandleAnsiMessageClass@CTnefDecoder@@AAAJPAD@Z 10010978 f   mailutil_tnef:tnefDecoder.obj
+ 0001:0000f9c8       ?IgnoreAttrHandler@CTnefDecoder@@CAJPAU_TNEF_ATTR_HEADER@@PAV1@@Z 100109c8 f   mailutil_tnef:tnefDecoder.obj
+ 0001:0000fa1c       ?FromAttrHandler@CTnefDecoder@@CAJPAU_TNEF_ATTR_HEADER@@PAV1@@Z 10010a1c f   mailutil_tnef:tnefDecoder.obj
+ 0001:0000fb58       ?BinaryAttrHandler@CTnefDecoder@@CAJPAU_TNEF_ATTR_HEADER@@PAV1@@Z 10010b58 f   mailutil_tnef:tnefDecoder.obj
+ 0001:0000fcc8       ?StringAttrHandler@CTnefDecoder@@CAJPAU_TNEF_ATTR_HEADER@@PAV1@@Z 10010cc8 f   mailutil_tnef:tnefDecoder.obj
+ 0001:0000feb0       ?GetValueSize@CTnefDecoder@@AAAKK@Z 10010eb0 f   mailutil_tnef:tnefDecoder.obj
+ 0001:0000ff6c       ?ReadSingleVariableEncapsulatedPropValue@CTnefDecoder@@AAAJPAPAXPAKH@Z 10010f6c f   mailutil_tnef:tnefDecoder.obj
+ 0001:0001007c       ?QueryInterface@CTnefDecoder@@UAAJABU_GUID@@PAPAX@Z 1001107c f   mailutil_tnef:tnefDecoder.obj
+ 0001:00010088       ?AddRef@CTnefDecoder@@UAAKXZ 10011088 f   mailutil_tnef:tnefDecoder.obj
+ 0001:0001009c       ?EmptyPropsList@CTnefDecoder@@CAJPAVXPtrList@@@Z 1001109c f   mailutil_tnef:tnefDecoder.obj
+ 0001:000100d8       ?FindHandler@CTnefDecoder@@AAAP6AJPAU_TNEF_ATTR_HEADER@@PAV1@@ZK@Z 100110d8 f   mailutil_tnef:tnefDecoder.obj
+ 0001:00010124       ?IntAttrHandler@CTnefDecoder@@CAJPAU_TNEF_ATTR_HEADER@@PAV1@@Z 10011124 f   mailutil_tnef:tnefDecoder.obj
+ 0001:00010360       ?ReadNameEmail@CTnefDecoder@@AAAJPAPAD0@Z 10011360 f   mailutil_tnef:tnefDecoder.obj
+ 0001:00010520       ?OwnerAttrHandler@CTnefDecoder@@CAJPAU_TNEF_ATTR_HEADER@@PAV1@@Z 10011520 f   mailutil_tnef:tnefDecoder.obj
+ 0001:000105e8       ?SentForAttrHandler@CTnefDecoder@@CAJPAU_TNEF_ATTR_HEADER@@PAV1@@Z 100115e8 f   mailutil_tnef:tnefDecoder.obj
+ 0001:00010678       ?DateAttrHandler@CTnefDecoder@@CAJPAU_TNEF_ATTR_HEADER@@PAV1@@Z 10011678 f   mailutil_tnef:tnefDecoder.obj
+ 0001:000108b8       ?ProcessPropTag@CTnefDecoder@@AAAJKPAK@Z 100118b8 f   mailutil_tnef:tnefDecoder.obj
+ 0001:00010b58       ?ReadFixedEncapsulatedProp@CTnefDecoder@@AAAJKKPAVXPtrList@@H@Z 10011b58 f   mailutil_tnef:tnefDecoder.obj
+ 0001:00010dc0       ?ReadVariableEncapsulatedProp@CTnefDecoder@@AAAJKKKPAVXPtrList@@H@Z 10011dc0 f   mailutil_tnef:tnefDecoder.obj
+ 0001:000111f8       ?ReadObjectEncapsulatedProp@CTnefDecoder@@AAAJKKH@Z 100121f8 f   mailutil_tnef:tnefDecoder.obj
+ 0001:000113f8       ?ReadEncapsulatedProp@CTnefDecoder@@AAAJPAVXPtrList@@@Z 100123f8 f   mailutil_tnef:tnefDecoder.obj
+ 0001:00011608       ?EncapsulationAttrHandler@CTnefDecoder@@CAJPAU_TNEF_ATTR_HEADER@@PAV1@@Z 10012608 f   mailutil_tnef:tnefDecoder.obj
+ 0001:000116c8       ?RecipTableAttrHandler@CTnefDecoder@@CAJPAU_TNEF_ATTR_HEADER@@PAV1@@Z 100126c8 f   mailutil_tnef:tnefDecoder.obj
+ 0001:00011960       ?Reset@CTnefDecoder@@UAAJXZ 10012960 f   mailutil_tnef:tnefDecoder.obj
+ 0001:00011a08       ?ReadAttribute@CTnefDecoder@@AAAJK@Z 10012a08 f   mailutil_tnef:tnefDecoder.obj
+ 0001:00011af8       ?ConvertToArray@CTnefDecoder@@CAJPAVXPtrList@@PAPAU_SPropValue@@PAK@Z 10012af8 f   mailutil_tnef:tnefDecoder.obj
+ 0001:00011bd4       ??0CTnefDecoder@@QAA@XZ    10012bd4 f   mailutil_tnef:tnefDecoder.obj
+ 0001:00011c24       ?UpdateAttachmentProps@CTnefDecoder@@AAAJXZ 10012c24 f   mailutil_tnef:tnefDecoder.obj
+ 0001:00011cc4       ?CreateTnefDecoder@@YAJPAPAVITnefDecoder@@@Z 10012cc4 f   mailutil_tnef:tnefDecoder.obj
+ 0001:00011d00       ?RenddataAttrHandler@CTnefDecoder@@CAJPAU_TNEF_ATTR_HEADER@@PAV1@@Z 10012d00 f   mailutil_tnef:tnefDecoder.obj
+ 0001:00011e90       ?Decode@CTnefDecoder@@UAAJPADPAUIStream@@PAUIMessage@@@Z 10012e90 f   mailutil_tnef:tnefDecoder.obj
+ 0001:00012010       ?Release@CTnefDecoder@@UAAKXZ 10013010 f   mailutil_tnef:tnefDecoder.obj
+ 0001:00012060       ?PadStream@@YAJKPAUIStream@@@Z 10013060 f   mailutil_tnef:tnefencoder.obj
+ 0001:000120ac       ?WriteAsI2@@YAHK@Z         100130ac f   mailutil_tnef:tnefencoder.obj
+ 0001:0001212c       ?QueryInterface@CTnefEncoder@@UAAJABU_GUID@@PAPAX@Z 1001312c f   mailutil_tnef:tnefencoder.obj
+ 0001:00012138       ?AddRef@CTnefEncoder@@UAAKXZ 10013138 f   mailutil_tnef:tnefencoder.obj
+ 0001:0001214c       ?Reset@CTnefEncoder@@UAAJXZ 1001314c f   mailutil_tnef:tnefencoder.obj
+ 0001:000121dc       ?WriteProp@CTnefEncoder@@AAAJKKPAEPAG@Z 100131dc f   mailutil_tnef:tnefencoder.obj
+ 0001:00012320       ?WriteCRTFProp@CTnefEncoder@@AAAJPAG@Z 10013320 f   mailutil_tnef:tnefencoder.obj
+ 0001:0001243c       ?WriteAttributeToStream@@YAHKKPAXPAUIStream@@@Z 1001343c f   mailutil_tnef:tnefencoder.obj
+ 0001:0001256c       ?WriteDateAttributeToStream@@YAHKPAU_SYSTEMTIME@@PAUIStream@@@Z 1001356c f   mailutil_tnef:tnefencoder.obj
+ 0001:000125cc       ?WriteMAPIPropsToTNEFStream@CTnefEncoder@@AAAJPAG@Z 100135cc f   mailutil_tnef:tnefencoder.obj
+ 0001:00012998       ?WriteattMAPIPropsToTNEFStream@CTnefEncoder@@AAAJXZ 10013998 f   mailutil_tnef:tnefencoder.obj
+ 0001:00012bcc       ?RemoveProp@CTnefEncoder@@AAAJK@Z 10013bcc f   mailutil_tnef:tnefencoder.obj
+ 0001:00012c28       ?Encode@CTnefEncoder@@UAAJPBDPAPAUIStream@@@Z 10013c28 f   mailutil_tnef:tnefencoder.obj
+ 0001:00013174       ?SetMsgBodyWide@CTnefEncoder@@UAAJPAUIStream@@@Z 10014174 f   mailutil_tnef:tnefencoder.obj
+ 0001:000134b0       ?SetProps@CTnefEncoder@@UAAJKPAU_SPropValue@@PAPAU_SPropProblemArray@@@Z 100144b0 f   mailutil_tnef:tnefencoder.obj
+ 0001:00013574       ??0CTnefEncoder@@QAA@XZ    10014574 f   mailutil_tnef:tnefencoder.obj
+ 0001:000135b4       ?CreateTnefEncoder@@YAJPAPAVITnefEncoder@@@Z 100145b4 f   mailutil_tnef:tnefencoder.obj
+ 0001:000135f0       ?Release@CTnefEncoder@@UAAKXZ 100145f0 f   mailutil_tnef:tnefencoder.obj
+ 0001:00013638       ?StreamBufChecksum@@YAGPAXK@Z 10014638 f   mailutil_tnef:tnefutils.obj
+ 0001:0001366c       ??0CTnefStream@@QAA@XZ     1001466c f   mailutil_tnef:tnefstream.obj
+ 0001:00013694       ??1CTnefStream@@UAA@XZ     10014694 f   mailutil_tnef:tnefstream.obj
+ 0001:000136e8       ??_ECTnefStream@@UAAPAXI@Z 100146e8 f i mailutil_tnef:tnefstream.obj
+ 0001:000136e8       ??_GCTnefStream@@UAAPAXI@Z 100146e8 f i mailutil_tnef:tnefstream.obj
+ 0001:0001370c       ?Init@CTnefStream@@QAAJPAGH@Z 1001470c f   mailutil_tnef:tnefstream.obj
+ 0001:0001378c       ?SetVcardBitMask@VCardGen@@UAAJK@Z 1001478c f   mailutil_vcal:vcardgen.obj
+ 0001:00013798       ?SetEncodingVersion@VCardGen@@UAAJG@Z 10014798 f   mailutil_vcal:vcardgen.obj
+ 0001:000137a4       ?QueryInterface@VCardGen@@UAAJABU_GUID@@PAPAX@Z 100147a4 f   mailutil_vcal:vcardgen.obj
+ 0001:000137b8       ?EncodeAddlParametersFirst@VCardGen@@UAAJH@Z 100147b8 f   mailutil_vcal:vcardgen.obj
+ 0001:000137c4       ?_Grow@?$_string_t@D$0BA@U?$char_traits@D@ce@@Vallocator@2@@ce@@IAA_NI@Z 100147c4 f i mailutil_vcal:vcardgen.obj
+ 0001:00013848       ?_Buynode@?$list@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@Vallocator@2@@ce@@IAAPAU?$_ListNode@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@@list_impl@2@PAU342@@Z 10014848 f i mailutil_vcal:vcardgen.obj
+ 0001:00013894       ?SetIContact@VCardGen@@UAAJPAUIUnknown@@@Z 10014894 f   mailutil_vcal:vcardgen.obj
+ 0001:000138e4       ?GetVcardBitMask@VCardGen@@UAAJPAK@Z 100148e4 f   mailutil_vcal:vcardgen.obj
+ 0001:00013904       ?GetIContact@VCardGen@@UAAJPAPAUIUnknown@@@Z 10014904 f   mailutil_vcal:vcardgen.obj
+ 0001:00013924       ?GetEncodingVersion@VCardGen@@UAAJPAG@Z 10014924 f   mailutil_vcal:vcardgen.obj
+ 0001:00013944       ?GetAddlParameterCount@VCardGen@@UAAJPAG@Z 10014944 f   mailutil_vcal:vcardgen.obj
+ 0001:0001396c       ?SetupContentEncoding@VCardGen@@AAAJH@Z 1001496c f   mailutil_vcal:vcardgen.obj
+ 0001:000139fc       ?SetupBuffer@VCardGen@@AAAJXZ 100149fc f   mailutil_vcal:vcardgen.obj
+ 0001:00013a94       ?ChkFNBitMask@VCardGen@@AAAJXZ 10014a94 f   mailutil_vcal:vcardgen.obj
+ 0001:00013ad8       ?GetEncodeAddlParametersFirstSetting@VCardGen@@UAAJPAH@Z 10014ad8 f   mailutil_vcal:vcardgen.obj
+ 0001:00013af8       ?CheckEsstentialPtrs@VCardGen@@AAAJXZ 10014af8 f   mailutil_vcal:vcardgen.obj
+ 0001:00013b28       ?erase@?$list@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@Vallocator@2@@ce@@QAA?AV?$iterator@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@@list_impl@2@V342@@Z 10014b28 f i mailutil_vcal:vcardgen.obj
+ 0001:00013b98       ??1_buffer@?$_string_t@D$0BA@U?$char_traits@D@ce@@Vallocator@2@@ce@@QAA@XZ 10014b98 f i mailutil_vcal:vcardgen.obj
+ 0001:00013be0       ?erase@?$list@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@Vallocator@2@@ce@@QAA?AV?$iterator@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@@list_impl@2@V342@0@Z 10014be0 f i mailutil_vcal:vcardgen.obj
+ 0001:00013c38       ?assign@?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@QAA_NPBGII@Z 10014c38 f i mailutil_vcal:vcardgen.obj
+ 0001:00013ca0       ?assign@?$_string_t@D$0BA@U?$char_traits@D@ce@@Vallocator@2@@ce@@QAA_NPBDII@Z 10014ca0 f i mailutil_vcal:vcardgen.obj
+ 0001:00013d04       ?GetEncodedVcardString@VCardGen@@UAAJPAGPAPAD@Z 10014d04 f   mailutil_vcal:vcardgen.obj
+ 0001:00013d80       ?EncodePhoto@VCardGen@@AAAJXZ 10014d80 f   mailutil_vcal:vcardgen.obj
+ 0001:00013e38       ?EncodeBDay@VCardGen@@AAAJXZ 10014e38 f   mailutil_vcal:vcardgen.obj
+ 0001:00013f14       ?EncodeAddress@VCardGen@@AAAJXZ 10014f14 f   mailutil_vcal:vcardgen.obj
+ 0001:00013fe0       ?EncodeTelNums@VCardGen@@AAAJXZ 10014fe0 f   mailutil_vcal:vcardgen.obj
+ 0001:00014214       ?EncodeEmailAddress@VCardGen@@AAAJXZ 10015214 f   mailutil_vcal:vcardgen.obj
+ 0001:00014334       ?EncodeAgent@VCardGen@@AAAJXZ 10015334 f   mailutil_vcal:vcardgen.obj
+ 0001:0001441c       ?EncodeNickName@VCardGen@@AAAJXZ 1001541c f   mailutil_vcal:vcardgen.obj
+ 0001:00014504       ??$WideCharToMultiByte@$0BA@U?$char_traits@D@ce@@Vallocator@2@@ce@@YAHIPBGHPAV?$_string_t@D$0BA@U?$char_traits@D@ce@@Vallocator@2@@0@KPBDPAH@Z 10015504 f i mailutil_vcal:vcardgen.obj
+ 0001:000145e0       ??0?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@QAA@ABV01@@Z 100155e0 f i mailutil_vcal:vcardgen.obj
+ 0001:00014628       ?ResetAdditionalParameters@VCardGen@@UAAJXZ 10015628 f   mailutil_vcal:vcardgen.obj
+ 0001:0001464c       ?GetAddlParameter@VCardGen@@UAAJPAPAGG@Z 1001564c f   mailutil_vcal:vcardgen.obj
+ 0001:000146cc       ?RemoveAddlParam@VCardGen@@UAAJG@Z 100156cc f   mailutil_vcal:vcardgen.obj
+ 0001:00014738       ?WriteToStream@VCardGen@@AAAJAAV?$_string_t@D$0BA@U?$char_traits@D@ce@@Vallocator@2@@ce@@@Z 10015738 f   mailutil_vcal:vcardgen.obj
+ 0001:00014784       ??4?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@QAAAAV01@PBG@Z 10015784 f i mailutil_vcal:vcardgen.obj
+ 0001:000147d0       ??$insert@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@@?$list@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@Vallocator@2@@ce@@QAA?AV?$iterator@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@@list_impl@1@V231@ABV?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@1@@Z 100157d0 f i mailutil_vcal:vcardgen.obj
+ 0001:00014820       ??0VCardGen@@QAA@XZ        10015820 f   mailutil_vcal:vcardgen.obj
+ 0001:00014884       ?AddRef@VCardGen@@UAAKXZ   10015884 f i mailutil_vcal:vcardgen.obj
+ 0001:00014898       ??1VCardGen@@QAA@XZ        10015898 f   mailutil_vcal:vcardgen.obj
+ 0001:0001490c       ?EncodeTitle@VCardGen@@AAAJXZ 1001590c f   mailutil_vcal:vcardgen.obj
+ 0001:00014a60       ?EncodeNote@VCardGen@@AAAJXZ 10015a60 f   mailutil_vcal:vcardgen.obj
+ 0001:00014bb4       ?EncodeWebPageURL@VCardGen@@AAAJXZ 10015bb4 f   mailutil_vcal:vcardgen.obj
+ 0001:00014d08       ?EncodeCategory@VCardGen@@AAAJXZ 10015d08 f   mailutil_vcal:vcardgen.obj
+ 0001:00014e54       ??Y?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@QAAAAV01@PBG@Z 10015e54 f i mailutil_vcal:vcardgen.obj
+ 0001:00014ea0       ??Y?$_string_t@D$0BA@U?$char_traits@D@ce@@Vallocator@2@@ce@@QAAAAV01@PBD@Z 10015ea0 f i mailutil_vcal:vcardgen.obj
+ 0001:00014ef0       ?InsertAddlParameter@VCardGen@@UAAJPBG@Z 10015ef0 f   mailutil_vcal:vcardgen.obj
+ 0001:00014f84       ?EncodeMIMEHeader@VCardGen@@AAAJXZ 10015f84 f   mailutil_vcal:vcardgen.obj
+ 0001:00015094       ?EncodeVCARDHeader@VCardGen@@AAAJXZ 10016094 f   mailutil_vcal:vcardgen.obj
+ 0001:00015190       ?EncodeNandFN@VCardGen@@AAAJXZ 10016190 f   mailutil_vcal:vcardgen.obj
+ 0001:0001583c       ?EncodeOrg@VCardGen@@AAAJXZ 1001683c f   mailutil_vcal:vcardgen.obj
+ 0001:00015a74       ?EncodeAddlParameters@VCardGen@@AAAJXZ 10016a74 f   mailutil_vcal:vcardgen.obj
+ 0001:00015bdc       ?CompleteVCardGen@VCardGen@@AAAJXZ 10016bdc f   mailutil_vcal:vcardgen.obj
+ 0001:00015d40       ?Release@VCardGen@@UAAKXZ  10016d40 f i mailutil_vcal:vcardgen.obj
+ 0001:00015d7c       ?Encode@VCardGen@@UAAJXZ   10016d7c f   mailutil_vcal:vcardgen.obj
+ 0001:00015f0c       ?fQPHexOctet@@YAHD@Z       10016f0c f i mailutil_vcal:icalinterface.obj
+ 0001:00015f54       ?GetDefaultCodePage@@YAIXZ 10016f54 f   mailutil_vcal:icalinterface.obj
+ 0001:00015fc8       ?_ReadParseQP@@YAXPADPAPAD0PAK@Z 10016fc8 f   mailutil_vcal:icalinterface.obj
+ 0001:00016220       ?_ParseUnfoldQP@@YAXPADPAK@Z 10017220 f   mailutil_vcal:icalinterface.obj
+ 0001:00016354       ?LookUpCodePage@@YAIPADK@Z 10017354 f   mailutil_vcal:icalinterface.obj
+ 0001:000163e0       ?IsiCalendarFormat@@YAHPAUICAL_PROP_NODE@@@Z 100173e0 f   mailutil_vcal:icalinterface.obj
+ 0001:00016458       ?QueryInterface@CIcalParserInterface@@UAAJABU_GUID@@PAPAX@Z 10017458 f   mailutil_vcal:icalinterface.obj
+ 0001:00016464       ?AddRef@CIcalParserInterface@@UAAKXZ 10017464 f   mailutil_vcal:icalinterface.obj
+ 0001:00016478       ?Reset@CIcalParserInterface@@UAAJXZ 10017478 f   mailutil_vcal:icalinterface.obj
+ 0001:000164dc       ?FindTZID@@YAJPAUICAL_PROP_NODE@@PAPAD@Z 100174dc f   mailutil_vcal:icalinterface.obj
+ 0001:00016564       ?LocateVTimeZone@@YAJPADPAUICAL_PROP_NODE@@PAU_TIME_ZONE_INFORMATION@@@Z 10017564 f   mailutil_vcal:icalinterface.obj
+ 0001:00016618       ?FillByRecurType@@YAJPAU_SPropValue@@PAKQAKUOL_RECUR_INFO@@@Z 10017618 f   mailutil_vcal:icalinterface.obj
+ 0001:00016954       ?SetMessageClass@@YAXPAGPADPAPAG@Z 10017954 f   mailutil_vcal:icalinterface.obj
+ 0001:000169ec       ?GetPartStat@@YAXPAUICAL_PROP_NODE@@PAPAD@Z 100179ec f   mailutil_vcal:icalinterface.obj
+ 0001:00016a60       ?ParseForCharSet@@YAIPADK@Z 10017a60 f   mailutil_vcal:icalinterface.obj
+ 0001:00016b14       ?GetCodePageFromCharSet@@YAXPAUICAL_PROP_NODE@@PAI@Z 10017b14 f   mailutil_vcal:icalinterface.obj
+ 0001:00016b94       ?GetProp@@YAJW4ical_keyword@@PAUICAL_PROP_NODE@@PAPAGPAPAU2@@Z 10017b94 f   mailutil_vcal:icalinterface.obj
+ 0001:00016cd4       ?ConvertToFileTimeUTC@@YAJPAGPAUICAL_PROP_NODE@@1PAU_FILETIME@@PAPAU_TIME_ZONE_INFORMATION@@PAH4@Z 10017cd4 f   mailutil_vcal:icalinterface.obj
+ 0001:00016e78       ?SetAttributes@@YAJPAUICAL_PROP_NODE@@PAPAG@Z 10017e78 f   mailutil_vcal:icalinterface.obj
+ 0001:00016f28       ?CreateIcalParserEx@@YAJPAPAVIIcalParser@@PAD1@Z 10017f28 f   mailutil_vcal:icalinterface.obj
+ 0001:00017048       ?GetContentCodePage@@YAIPADPAK@Z 10018048 f   mailutil_vcal:icalinterface.obj
+ 0001:00017180       ?_UnfoldStringcb@@YAXPADPAK@Z 10018180 f   mailutil_vcal:icalinterface.obj
+ 0001:00017318       ?ConvertToMultiByte@@YAJPAGPAPADI@Z 10018318 f   mailutil_vcal:icalinterface.obj
+ 0001:0001753c       ?ExtractParams@@YAJPAUICAL_PROP_NODE@@PAPAXPAK@Z 1001853c f   mailutil_vcal:icalinterface.obj
+ 0001:00018f0c       ?Parse@CIcalParserInterface@@UAAJPAUIStream@@PAUIMessage@@@Z 10019f0c f   mailutil_vcal:icalinterface.obj
+ 0001:00019804       ?CreateIcalParser@@YAJPAPAVIIcalParser@@@Z 1001a804 f   mailutil_vcal:icalinterface.obj
+ 0001:00019810       ?Release@CIcalParserInterface@@UAAKXZ 1001a810 f   mailutil_vcal:icalinterface.obj
+ 0001:00019850       CUnk_QISearch              1001a850 f   mailutil_vcal:dllload.obj
+ 0001:000198d8       ?PrfHash_LookupEx@@YAKPAUPrfHashTable@@PADK@Z 1001a8d8 f i mailutil_vcal:ICalParser.obj
+ 0001:000199dc       ??0CICalParser@@QAA@XZ     1001a9dc f   mailutil_vcal:ICalParser.obj
+ 0001:000199e8       ??1CICalParser@@QAA@XZ     1001a9e8 f   mailutil_vcal:ICalParser.obj
+ 0001:000199ec       ?_GetEndOfItem@CICalParser@@AAAJPBDKPAPBD@Z 1001a9ec f   mailutil_vcal:ICalParser.obj
+ 0001:00019a40       ?_RemoveEscapedChars@CICalParser@@AAAJPADPAKI@Z 1001aa40 f   mailutil_vcal:ICalParser.obj
+ 0001:00019b98       ?_ExpandCategoriesNode@CICalParser@@AAAJPAUICAL_PROP_NODE@@I@Z 1001ab98 f   mailutil_vcal:ICalParser.obj
+ 0001:00019c90       ?_ExpandRRuleNodeV10@CICalParser@@AAAJPAUICAL_PROP_NODE@@PAH@Z 1001ac90 f   mailutil_vcal:ICalParser.obj
+ 0001:00019ff8       ?_WriteToBuf@CICalParser@@AAAJPADPAK0K_N@Z 1001aff8 f   mailutil_vcal:ICalParser.obj
+ 0001:0001a0b4       ?_UtcOffsetToSeconds@CICalParser@@AAAJPADKPAJ@Z 1001b0b4 f   mailutil_vcal:ICalParser.obj
+ 0001:0001a17c       ?GetICalKeyword@CICalParser@@QAAJPADKPAW4ical_keyword@@@Z 1001b17c f   mailutil_vcal:ICalParser.obj
+ 0001:0001a204       ?_ParseICalParameters@CICalParser@@AAAJPBDKPAUICAL_PROP_NODE@@PAPBD@Z 1001b204 f   mailutil_vcal:ICalParser.obj
+ 0001:0001a508       ?_ExpandRRuleNodeV20@CICalParser@@AAAJPAUICAL_PROP_NODE@@@Z 1001b508 f   mailutil_vcal:ICalParser.obj
+ 0001:0001a684       ?_GenerateICalHeader@CICalParser@@AAAJPAUICAL_PROP_NODE@@PADPAK@Z 1001b684 f   mailutil_vcal:ICalParser.obj
+ 0001:0001a7f8       ?_GenerateICalValue@CICalParser@@AAAJPAUICAL_PROP_NODE@@PADPAK@Z 1001b7f8 f   mailutil_vcal:ICalParser.obj
+ 0001:0001acd4       ?RRuleTreeV10ToOlRecurInfo@CICalParser@@QAAJPAUICAL_PROP_NODE@@PAUOL_RECUR_INFO@@PAU_SYSTEMTIME@@@Z 1001bcd4 f   mailutil_vcal:ICalParser.obj
+ 0001:0001b1a4       ?RRuleTreeV20ToOlRecurInfo@CICalParser@@QAAJPAUICAL_PROP_NODE@@PAUOL_RECUR_INFO@@@Z 1001c1a4 f   mailutil_vcal:ICalParser.obj
+ 0001:0001b66c       ?OlRecurInfoToRRuleTreeV10@CICalParser@@QAAJPAUOL_RECUR_INFO@@PAVCNodeBuffer@@PADPAKPAPAUICAL_PROP_NODE@@@Z 1001c66c f   mailutil_vcal:ICalParser.obj
+ 0001:0001bcdc       ?OlRecurInfoToRRuleTreeV20@CICalParser@@QAAJPAUOL_RECUR_INFO@@PAVCNodeBuffer@@PADPAKPAPAUICAL_PROP_NODE@@@Z 1001ccdc f   mailutil_vcal:ICalParser.obj
+ 0001:0001c318       ?_ParseICalLine@CICalParser@@AAAJPADKPAPAUICAL_PROP_NODE@@@Z 1001d318 f   mailutil_vcal:ICalParser.obj
+ 0001:0001c488       ?_GenerateICalProp@CICalParser@@AAAJPAUICAL_PROP_NODE@@PADPAK@Z 1001d488 f   mailutil_vcal:ICalParser.obj
+ 0001:0001c5c0       ?_TimezoneNodeToComp@CICalParser@@AAAJPAUICAL_PROP_NODE@@PAGKPAU_SYSTEMTIME@@PAJ3@Z 1001d5c0 f   mailutil_vcal:ICalParser.obj
+ 0001:0001c860       ?Parse@CICalParser@@QAAJPADKPAVCNodeBuffer@@PAPAUICAL_PROP_NODE@@@Z 1001d860 f   mailutil_vcal:ICalParser.obj
+ 0001:0001cb70       ?Build@CICalParser@@QAAJPAUICAL_PROP_NODE@@PADPAK@Z 1001db70 f   mailutil_vcal:ICalParser.obj
+ 0001:0001cc44       ?TimezoneTreeToTimezoneInfo@CICalParser@@QAAJPAUICAL_PROP_NODE@@PAU_TIME_ZONE_INFORMATION@@@Z 1001dc44 f   mailutil_vcal:ICalParser.obj
+ 0001:0001cdf4       ?ConvertRenTzToSchedPlus@@YAHQAUtagTZREG@@PAH@Z 1001ddf4 f   mailutil_vcal:timezone.obj
+ 0001:0001cf64       ?GetRecurringTime@@YAJU_SYSTEMTIME@@@Z 1001df64 f   mailutil_vcal:timezone.obj
+ 0001:0001cf84       ?GetRecurringDate@@YAJU_SYSTEMTIME@@@Z 1001df84 f   mailutil_vcal:timezone.obj
+ 0001:0001cfa8       ?CopySystemTime@@YAXAAU_SYSTEMTIME@@U1@@Z 1001dfa8 f   mailutil_vcal:timezone.obj
+ 0001:0001cff8       ?GetRecurringType@@YAXAAK@Z 1001dff8 f   mailutil_vcal:timezone.obj
+ 0001:0001d074       ?CdyForYrMo@@YAHHH@Z       1001e074 f   mailutil_vcal:tmz.obj
+ 0001:0001d100       ?DowStartOfYrMo@@YAHHH@Z   1001e100 f   mailutil_vcal:tmz.obj
+ 0001:0001d1f8       ?FSetRealDayFromNth@@YAHPAU_SYSTEMTIME@@H@Z 1001e1f8 f   mailutil_vcal:tmz.obj
+ 0001:0001d2b8       FConvertFileTimeTimezone   1001e2b8 f   mailutil_vcal:tmz.obj
+ 0001:0001d640       FConvertSystemTimeTimezone 1001e640 f   mailutil_vcal:tmz.obj
+ 0001:0001d6a8       ?ParseGetNumber@@YA_NPAGI0@Z 1001e6a8 f   mailutil_vcal:iso8601.obj
+ 0001:0001d71c       ?BuildISO8601DateFromSysTime@@YAJPAU_SYSTEMTIME@@PAGI@Z 1001e71c f   mailutil_vcal:iso8601.obj
+ 0001:0001d75c       ?BuildISO8601StringFromSysTime@@YAJPAU_SYSTEMTIME@@PAGI_N@Z 1001e75c f   mailutil_vcal:iso8601.obj
+ 0001:0001d800       ?ParseISO8601Date@@YAJPAGPAU_SYSTEMTIME@@@Z 1001e800 f   mailutil_vcal:iso8601.obj
+ 0001:0001d8b4       ?ParseISO8601String@@YAJPAGPAU_SYSTEMTIME@@@Z 1001e8b4 f   mailutil_vcal:iso8601.obj
+ 0001:0001da28       ?ParseISO8601String@@YAJPAGPAU_FILETIME@@@Z 1001ea28 f   mailutil_vcal:iso8601.obj
+ 0001:0001da80       ?ParseISO8601Date@@YAJPAGPAU_FILETIME@@@Z 1001ea80 f   mailutil_vcal:iso8601.obj
+ 0001:0001dad8       ??0CNodeBuffer@@QAA@XZ     1001ead8 f   mailutil_vcal:NodeBuffer.obj
+ 0001:0001daec       ??1CNodeBuffer@@QAA@XZ     1001eaec f   mailutil_vcal:NodeBuffer.obj
+ 0001:0001daf0       ?_AllocNodes@CNodeBuffer@@AAAJKPAPAE@Z 1001eaf0 f   mailutil_vcal:NodeBuffer.obj
+ 0001:0001db8c       ?UnInitialize@CNodeBuffer@@QAAJXZ 1001eb8c f   mailutil_vcal:NodeBuffer.obj
+ 0001:0001dbd8       ?GetNode@CNodeBuffer@@QAAJPAPAX@Z 1001ebd8 f   mailutil_vcal:NodeBuffer.obj
+ 0001:0001dc24       ?Initialize@CNodeBuffer@@QAAJK@Z 1001ec24 f   mailutil_vcal:NodeBuffer.obj
+ 0001:0001dc88       ?ShouldStripFormatCharacters@@YAHW4eVCARDFIELDS@@@Z 1001ec88 f   mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:0001dd14       ?IsValidPattern@@YAHPAUOL_RECUR_INFO@@@Z 1001ed14 f   mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:0001de0c       ?WriteRecurInfo@@YAJPAUIRecurrencePattern2@@PAVCNodeBuffer@@PAUIStream@@G@Z 1001ee0c f   mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:0001e018       ?WriteDateTimeField@@YAXPAUIStream@@PBDPAU_SYSTEMTIME@@HG@Z 1001f018 f   mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:0001e150       ?LookUpCharSetAndCodePage@@YAXPAIPAPAD@Z 1001f150 f   mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:0001e1cc       ?WriteSensitivity@@YAXPAUIStream@@PAKH@Z 1001f1cc f   mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:0001e27c       ?WriteStatus@@YAJPAUIStream@@PAKH@Z 1001f27c f   mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:0001e33c       ?EnumTelFields@@YAKPAU_ContactsParams@@PAUIItem@@KPAKH@Z 1001f33c f   mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:0001e3f4       ?ParseBusyStatus@@YAHPBG@Z 1001f3f4 f   mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:0001e484       ?ParseSensitivity@@YAHPBG@Z 1001f484 f   mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:0001e4f4       ?find@?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@QBAIPBGII@Z 1001f4f4 f i mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:0001e5d4       ?erase@?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@QAAXII@Z 1001f5d4 f i mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:0001e638       ?WriteStreamProp@@YAXPAUIItem@@PAUIStream@@KPADG@Z 1001f638 f   mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:0001e75c       ?ReadStreamProp@@YAXPADPAUIDispatch@@K@Z 1001f75c f   mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:0001e840       ?GenerateVCARDField@@YAJPAUIStream@@PBGW4ical_keyword@@W4eVCARDFIELDS@@HG@Z 1001f840 f   mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:0001ed1c       ?SetPOOMString@@YAJPAUIItem@@PAGK@Z 1001fd1c f   mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:0001ed84       ?ParseToPoom@@YAJPAUIStream@@PAKPAPAUIDispatch@@@Z 1001fd84 f   mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:000204d8       ?insert@?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@QAA_NIPBGI@Z 100214d8 f i mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00020568       ?ParseIcalToPOOM@CIcalParserInterface@@UAAJPAXPAKPAPAUIDispatch@@@Z 10021568 f   mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:000205d8       ?ParseIcalToPOOM@CIcalParserInterface@@UAAJPAUIStream@@PAKPAPAUIDispatch@@@Z 100215d8 f   mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:0002060c       ?replace@?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@QAA_NIIPBG@Z 1002160c f i mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:0002066c       ?ReplaceString@@YAXAAV?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V12@1@Z 1002166c f   mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00020744       ??0?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@QAA@PBG@Z 10021744 f i mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:000207bc       ?ConvertToV3String@@YAXAAV?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V12@@Z 100217bc f   mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:000208e8       ?EscapeV3SpecialChars@@YAJAAV?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@@Z 100218e8 f   mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:000209a8       ?GenerateVCardAddress@@YAJPAUIItem@@PAUIStream@@W4eVCARDFIELDS@@G@Z 100219a8 f   mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00020cb4       ?WriteVCardStrFields@@YAJPAUIStream@@PAUIItem@@PBKPBW4ical_keyword@@GPBW4eVCARDFIELDS@@GHG@Z 10021cb4 f   mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00020e94       ?ParseToIcal@@YAJPAUIDispatch@@KPAUIStream@@G@Z 10021e94 f   mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:00022544       ?ParsePOOMToIcal@CIcalParserInterface@@UAAJPAUIDispatch@@KPAUIStream@@G@Z 10023544 f   mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:0002256c       WrapCompressedRTFStream    1002356c f   mailutil_rtf:rtfcmprs.obj
+ 0001:00022910       COMPSTM_AddRef             10023910 f   mailutil_rtf:rtfcmprs.obj
+ 0001:00022924       COMPSTM_Release            10023924 f   mailutil_rtf:rtfcmprs.obj
+ 0001:00022968       HrRewindReadStream         10023968 f   mailutil_rtf:rtfcmprs.obj
+ 0001:00022a54       ScFlushIOBuffer            10023a54 f   mailutil_rtf:rtfcmprs.obj
+ 0001:00022af0       ScWriteHeader              10023af0 f   mailutil_rtf:rtfcmprs.obj
+ 0001:00022cb8       ReplaceNode                10023cb8 f   mailutil_rtf:rtfcmprs.obj
+ 0001:00022dbc       ScFillIOBuffer             10023dbc f   mailutil_rtf:rtfcmprs.obj
+ 0001:00022e94       ExpandMatchFn              10023e94 f   mailutil_rtf:rtfcmprs.obj
+ 0001:00022fa4       COMPSTM_Seek               10023fa4 f   mailutil_rtf:rtfcmprs.obj
+ 0001:00023010       COMPSTM_SetSize            10024010 f   mailutil_rtf:rtfcmprs.obj
+ 0001:00023040       COMPSTM_Revert             10024040 f   mailutil_rtf:rtfcmprs.obj
+ 0001:0002304c       COMPSTM_LockRegion         1002404c f   mailutil_rtf:rtfcmprs.obj
+ 0001:00023064       COMPSTM_UnlockRegion       10024064 f   mailutil_rtf:rtfcmprs.obj
+ 0001:00023080       COMPSTM_Stat               10024080 f   mailutil_rtf:rtfcmprs.obj
+ 0001:000230a0       COMPSTM_Clone              100240a0 f   mailutil_rtf:rtfcmprs.obj
+ 0001:000230ac       COMPSTM_QueryInterface     100240ac f   mailutil_rtf:rtfcmprs.obj
+ 0001:00023120       ScFlushCodes               10024120 f   mailutil_rtf:rtfcmprs.obj
+ 0001:000231f8       COMPSTM_Write              100241f8 f   mailutil_rtf:rtfcmprs.obj
+ 0001:000239ec       COMPSTM_Read               100249ec f   mailutil_rtf:rtfcmprs.obj
+ 0001:00023e70       COMPSTM_CopyTo             10024e70 f   mailutil_rtf:rtfcmprs.obj
+ 0001:00024000       COMPSTM_Commit             10025000 f   mailutil_rtf:rtfcmprs.obj
+ 0001:0002407c       TextToRTFStm_AddRef        1002507c f   mailutil_rtf:txttortf.obj
+ 0001:00024090       TextToRTFStm_Release       10025090 f   mailutil_rtf:txttortf.obj
+ 0001:000240d0       TextToRTFStm_Write         100250d0 f   mailutil_rtf:txttortf.obj
+ 0001:000240e8       TextToRTFStm_Seek          100250e8 f   mailutil_rtf:txttortf.obj
+ 0001:00024100       TextToRTFStm_SetSize       10025100 f   mailutil_rtf:txttortf.obj
+ 0001:00024118       TextToRTFStm_Commit        10025118 f   mailutil_rtf:txttortf.obj
+ 0001:00024124       TextToRTFStm_Revert        10025124 f   mailutil_rtf:txttortf.obj
+ 0001:00024130       TextToRTFStm_LockRegion    10025130 f   mailutil_rtf:txttortf.obj
+ 0001:00024148       TextToRTFStm_UnlockRegion  10025148 f   mailutil_rtf:txttortf.obj
+ 0001:00024160       TextToRTFStm_Stat          10025160 f   mailutil_rtf:txttortf.obj
+ 0001:0002416c       TextToRTFStm_Clone         1002516c f   mailutil_rtf:txttortf.obj
+ 0001:00024180       HrMakeRich                 10025180 f   mailutil_rtf:txttortf.obj
+ 0001:00024594       TextToRTFStm_QueryInterface 10025594 f   mailutil_rtf:txttortf.obj
+ 0001:0002460c       HrFillRTFBuffer            1002560c f   mailutil_rtf:txttortf.obj
+ 0001:00024790       HrInitializeTextBuffer     10025790 f   mailutil_rtf:txttortf.obj
+ 0001:0002493c       TextToRTFStm_Read          1002593c f   mailutil_rtf:txttortf.obj
+ 0001:00024a18       TextToRTFStm_CopyTo        10025a18 f   mailutil_rtf:txttortf.obj
+ 0001:00024b8c       HrRTFFromTextStream        10025b8c f   mailutil_rtf:txttortf.obj
+ 0001:00024ce8       DwComputeCRC               10025ce8 f   mailutil_rtf:crc.obj
+ 0001:00024db0       CharsetFromCpid            10025db0 f   mailutil_rtf:cpmap.obj
+ 0001:00024ee0       SzDefFontFmtFromCpid       10025ee0 f   mailutil_rtf:cpmap.obj
+ 0001:00024fd8       ?AddRef@CMAPINotifyRedirector@@UAAKXZ 10025fd8 f   MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0001:00024fe0       ?_Buynode@?$list@PAUNotifyListenerInfo@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@PAUNotifyListenerInfo@@@list_impl@2@PAU342@@Z 10025fe0 f i MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0001:0002502c       ?QueryInterface@CMAPINotifyRedirector@@UAAJABU_GUID@@PAPAX@Z 1002602c f   MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0001:000250a8       ?InitializeInstance@CMAPINotifyRedirector@@AAAJXZ 100260a8 f   MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0001:00025108       ?OnOneNotify@CMAPINotifyRedirector@@AAAKPAU_NOTIFICATION@@@Z 10026108 f   MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0001:0002514c       ?erase@?$list@PAUNotifyListenerInfo@@Vallocator@ce@@@ce@@QAA?AV?$iterator@PAUNotifyListenerInfo@@@list_impl@2@V342@@Z 1002614c f i MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0001:000251a8       ?erase@?$list@PAUNotifyListenerInfo@@Vallocator@ce@@@ce@@QAA?AV?$iterator@PAUNotifyListenerInfo@@@list_impl@2@V342@0@Z 100261a8 f i MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0001:00025200       ?OnNotify@CMAPINotifyRedirector@@UAAKKPAU_NOTIFICATION@@@Z 10026200 f   MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0001:00025244       ??$insert@PAUNotifyListenerInfo@@@?$list@PAUNotifyListenerInfo@@Vallocator@ce@@@ce@@QAA?AV?$iterator@PAUNotifyListenerInfo@@@list_impl@1@V231@ABQAUNotifyListenerInfo@@@Z 10026244 f i MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0001:0002528c       ?StopAdvising@CMAPINotifyRedirector@@AAAJXZ 1002628c f   MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0001:00025394       ?SetMapiSession@CMAPINotifyRedirector@@UAAJPAUIMAPISession@@@Z 10026394 f   MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0001:000253f4       ?NotifyClientsOfStoreChanged@CMAPINotifyRedirector@@CAXPAV1@PAU_NOTIFICATION@@@Z 100263f4 f   MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0001:00025454       ??$push_front@PAUNotifyListenerInfo@@@?$list@PAUNotifyListenerInfo@@Vallocator@ce@@@ce@@QAA_NABQAUNotifyListenerInfo@@@Z 10026454 f i MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0001:00025494       ??0CMAPINotifyRedirector@@AAA@XZ 10026494 f   MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0001:00025500       ?AddRef@CMAPINotifyRedirector@@W3AAKXZ 10026500 f i MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0001:00025508       ?QueryInterface@CMAPINotifyRedirector@@W3AAJABU_GUID@@PAPAX@Z 10026508 f i MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0001:00025510       ?PrioritizeListener@CMAPINotifyRedirector@@UAAJPAUINotifyListener@@@Z 10026510 f   MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0001:00025594       ?RemoveNotifyListener@CMAPINotifyRedirector@@UAAJPAUINotifyListener@@@Z 10026594 f   MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0001:00025624       ?NotifyThreadProc@CMAPINotifyRedirector@@CAKPAX@Z 10026624 f   MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0001:000256ac       ??1CMAPINotifyRedirector@@QAA@XZ 100266ac f   MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0001:0002573c       ?StartAdvising@CMAPINotifyRedirector@@AAAJXZ 1002673c f   MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0001:0002586c       ?GetInstance@CMAPINotifyRedirector@@SAJPAPAUIMAPINotifyRedirector@@@Z 1002686c f   MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0001:00025948       ?AddNotifyListener@CMAPINotifyRedirector@@UAAJPAUINotifyListener@@K@Z 10026948 f   MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0001:000259e0       ?Release@CMAPINotifyRedirector@@UAAKXZ 100269e0 f   MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0001:00025a3c       ?GetNotifyRedirectorInstance@@YAJPAPAUIMAPINotifyRedirector@@@Z 10026a3c f   MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0001:00025a40       ?Release@CMAPINotifyRedirector@@W3AAKXZ 10026a40 f i MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0001:00025a48       ?_Buynode@?$list@PAU_NOTIFICATION@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@PAU_NOTIFICATION@@@list_impl@2@PAU342@@Z 10026a48 f i MailUtil_NotifyRedirector:NotificationQueue.obj
+ 0001:00025a94       ?Initialize@NotificationQueue@@AAAJXZ 10026a94 f   MailUtil_NotifyRedirector:NotificationQueue.obj
+ 0001:00025aec       ?erase@?$list@PAU_NOTIFICATION@@Vallocator@ce@@@ce@@QAA?AV?$iterator@PAU_NOTIFICATION@@@list_impl@2@V342@@Z 10026aec f i MailUtil_NotifyRedirector:NotificationQueue.obj
+ 0001:00025b48       ?erase@?$list@PAU_NOTIFICATION@@Vallocator@ce@@@ce@@QAA?AV?$iterator@PAU_NOTIFICATION@@@list_impl@2@V342@0@Z 10026b48 f i MailUtil_NotifyRedirector:NotificationQueue.obj
+ 0001:00025ba0       ??$insert@PAU_NOTIFICATION@@@?$list@PAU_NOTIFICATION@@Vallocator@ce@@@ce@@QAA?AV?$iterator@PAU_NOTIFICATION@@@list_impl@1@V231@ABQAU_NOTIFICATION@@@Z 10026ba0 f i MailUtil_NotifyRedirector:NotificationQueue.obj
+ 0001:00025be8       ?BlockingGet@NotificationQueue@@QAAJPAPAU_NOTIFICATION@@PAX@Z 10026be8 f   MailUtil_NotifyRedirector:NotificationQueue.obj
+ 0001:00025c8c       ??1NotificationQueue@@QAA@XZ 10026c8c f   MailUtil_NotifyRedirector:NotificationQueue.obj
+ 0001:00025cec       ?Add@NotificationQueue@@QAAJPAU_NOTIFICATION@@@Z 10026cec f   MailUtil_NotifyRedirector:NotificationQueue.obj
+ 0001:00025d64       ?CreateInstance@NotificationQueue@@SAJPAPAV1@@Z 10026d64 f   MailUtil_NotifyRedirector:NotificationQueue.obj
+ 0001:00025e00       ?ReplaceChar@@YAXPAGGG@Z   10026e00 f   msglib_dupstring:dupstring.obj
+ 0001:00025e3c       ?_DupAllocHelper@@YAJPAPAGIPBG@Z 10026e3c f   msglib_dupstring:dupstring.obj
+ 0001:00025e98       ?DupString@@YAJPAPAGPBG@Z  10026e98 f   msglib_dupstring:dupstring.obj
+ 0001:00025ed8       ?DupStringA@@YAJPAPADPBD@Z 10026ed8 f   msglib_dupstring:dupstring.obj
+ 0001:00025f54       ??0XPtrList@@QAA@H@Z       10026f54 f   msglib_xlist:xlist.obj
+ 0001:00025f74       ?RemoveAll@XPtrList@@QAAXXZ 10026f74 f   msglib_xlist:xlist.obj
+ 0001:00025fac       ?NewNode@XPtrList@@AAAPAVXNode@1@PAV21@0@Z 10026fac f   msglib_xlist:xlist.obj
+ 0001:00026034       ?AddTail@XPtrList@@QAAPAXPAX@Z 10027034 f   msglib_xlist:xlist.obj
+ 0001:00026078       ?RemoveAt@XPtrList@@QAAXPAX@Z 10027078 f   msglib_xlist:xlist.obj
+ 0001:00026108       ??1XPtrList@@QAA@XZ        10027108 f   msglib_xlist:xlist.obj
+ 0001:0002610c       ?FreeDataChain@CPlex@@QAAXXZ 1002710c f   msglib_xlist:plex.obj
+ 0001:00026130       ?Create@CPlex@@SAPAU1@AAPAU1@II@Z 10027130 f   msglib_xlist:plex.obj
+ 0001:00026188       ??1CFileStream@@UAA@XZ     10027188 f   msglib_filestm:filestm.obj
+ 0001:000261ac       ?AddRef@CFileStream@@UAAKXZ 100271ac f   msglib_filestm:filestm.obj
+ 0001:000261c0       ?Release@CFileStream@@UAAKXZ 100271c0 f   msglib_filestm:filestm.obj
+ 0001:000261f4       ?QueryInterface@CFileStream@@UAAJABU_GUID@@PAPAX@Z 100271f4 f   msglib_filestm:filestm.obj
+ 0001:0002629c       ?Read@CFileStream@@UAAJPAXKPAK@Z 1002729c f   msglib_filestm:filestm.obj
+ 0001:0002630c       ?Write@CFileStream@@UAAJPBXKPAK@Z 1002730c f   msglib_filestm:filestm.obj
+ 0001:000263ac       ?Seek@CFileStream@@UAAJT_LARGE_INTEGER@@KPAT_ULARGE_INTEGER@@@Z 100273ac f   msglib_filestm:filestm.obj
+ 0001:00026448       ?SetSize@CFileStream@@UAAJT_ULARGE_INTEGER@@@Z 10027448 f   msglib_filestm:filestm.obj
+ 0001:0002655c       ?Commit@CFileStream@@UAAJK@Z 1002755c f   msglib_filestm:filestm.obj
+ 0001:00026564       ?CopyTo@CFileStream@@UAAJPAUIStream@@T_ULARGE_INTEGER@@PAT3@2@Z 10027564 f   msglib_filestm:filestm.obj
+ 0001:00026598       ?Revert@CFileStream@@UAAJXZ 10027598 f   msglib_filestm:filestm.obj
+ 0001:000265a4       ?LockRegion@CFileStream@@UAAJT_ULARGE_INTEGER@@0K@Z 100275a4 f   msglib_filestm:filestm.obj
+ 0001:000265bc       ?UnlockRegion@CFileStream@@UAAJT_ULARGE_INTEGER@@0K@Z 100275bc f   msglib_filestm:filestm.obj
+ 0001:000265d4       ?Clone@CFileStream@@UAAJPAPAUIStream@@@Z 100275d4 f   msglib_filestm:filestm.obj
+ 0001:000265e8       ?Init@CTempFileStream@@QAAJXZ 100275e8 f   msglib_filestm:filestm.obj
+ 0001:00026768       ??1CTempFileStream@@UAA@XZ 10027768 f   msglib_filestm:filestm.obj
+ 0001:000267c0       ??1CWrapFileStream@@UAA@XZ 100277c0 f   msglib_filestm:filestm.obj
+ 0001:00026838       ??_ECFileStream@@UAAPAXI@Z 10027838 f i msglib_filestm:filestm.obj
+ 0001:00026838       ??_GCFileStream@@UAAPAXI@Z 10027838 f i msglib_filestm:filestm.obj
+ 0001:00026870       ?Stat@CFileStream@@UAAJPAUtagSTATSTG@@K@Z 10027870 f   msglib_filestm:filestm.obj
+ 0001:000268c4       ??_GCTempFileStream@@UAAPAXI@Z 100278c4 f i msglib_filestm:filestm.obj
+ 0001:000268c4       ??_ECTempFileStream@@UAAPAXI@Z 100278c4 f i msglib_filestm:filestm.obj
+ 0001:000268e8       ??_GCWrapFileStream@@UAAPAXI@Z 100278e8 f i msglib_filestm:filestm.obj
+ 0001:000268e8       ??_ECWrapFileStream@@UAAPAXI@Z 100278e8 f i msglib_filestm:filestm.obj
+ 0001:0002690c       ?InitFromFileName@CWrapFileStream@@QAAJPAGHH@Z 1002790c f   msglib_filestm:filestm.obj
+ 0001:000269f0       ??0CFileStream@@QAA@XZ     100279f0 f   msglib_filestm:filestm.obj
+ 0001:00026a1c       ??0CTempFileStream@@QAA@XZ 10027a1c f   msglib_filestm:filestm.obj
+ 0001:00026a4c       ?CreateTempFileStm@@YAJPAPAUIStream@@@Z 10027a4c f   msglib_filestm:filestm.obj
+ 0001:00026adc       ?CreateWrapFileStm@@YAJPAXPAPAUIStream@@H@Z 10027adc f   msglib_filestm:filestm.obj
+ 0001:00026b60       ?CreateWrapFileNameStm@@YAJPAGHHPAPAUIStream@@@Z 10027b60 f   msglib_filestm:filestm.obj
+ 0001:00026c1c       ?WideCharToMultiByteHelper@@YAJIPBGPAPAD@Z 10027c1c f   msglib_mimeaddr:ParseAddress.obj
+ 0001:00026cd8       ?MultiByteToWideCharHelper@@YAJIPBDPAPAG@Z 10027cd8 f   msglib_mimeaddr:ParseAddress.obj
+ 0001:00026d88       ?ParseFirstAddressWithCount@@YAJPBGPAPAG1PAI@Z 10027d88 f   msglib_mimeaddr:ParseAddress.obj
+ 0001:00026f34       ?ParseFirstAddress@@YAJPBGPAPAG1@Z 10027f34 f   msglib_mimeaddr:ParseAddress.obj
+ 0001:00026f3c       ?ParseAddress@@YAJPBGPAPAG1@Z 10027f3c f   msglib_mimeaddr:ParseAddress.obj
+ 0001:00026fdc       ?FreeAddressProps@@YAJPAUtagADDRESSPROPS@@@Z 10027fdc f   msglib_mimeaddr:MimeParseAddress.obj
+ 0001:00027024       MimeFreeAddressList        10028024 f   msglib_mimeaddr:MimeParseAddress.obj
+ 0001:000270a0       MimeParseAddress           100280a0 f   msglib_mimeaddr:MimeParseAddress.obj
+ 0001:000276b4       GetDisplayName2            100286b4 f   msglib_accountname:AccountName.obj
+ 0001:000276bc       GetAbbreviation            100286bc f   msglib_accountname:AccountName.obj
+ 0001:000276c4       GetNewMessageString        100286c4 f   msglib_accountname:AccountName.obj
+ 0001:000276cc       GetMessageSentString       100286cc f   msglib_accountname:AccountName.obj
+ 0001:000276d4       GetSendMessageString       100286d4 f   msglib_accountname:AccountName.obj
+ 0001:000276dc       GetDeleteMessagesString    100286dc f   msglib_accountname:AccountName.obj
+ 0001:000276e4       TransportNameToDisplayName 100286e4 f   msglib_accountname:AccountName.obj
+ 0001:00027774       GetDisplayName             10028774 f   msglib_accountname:AccountName.obj
+ 0001:000278fc       ?MAPIDupString@@YAJPAPAGPBG@Z 100288fc f   msglib_mapiutilpriv:mapiutilpriv.obj
+ 0001:00027978       ?MAPIDupString@@YAJPAPAGPBGKPAX@Z 10028978 f   msglib_mapiutilpriv:mapiutilpriv.obj
+ 0001:00027a50       ?MAPIDupStringA@@YAJPAPADPBD@Z 10028a50 f   msglib_mapiutilpriv:mapiutilpriv.obj
+ 0001:00027ad4       ?_AddressListsToAdrList@@YAJPAUtagADDRESSPROPS@@KPAU_SRow@@PAX@Z 10028ad4 f   msglib_mapiutilpriv:mapiutilpriv.obj
+ 0001:00027c88       ?AddressListsToAdrList@@YAJPAUtagADDRESSLIST@@PAKKPAPAU_ADRLIST@@@Z 10028c88 f   msglib_mapiutilpriv:mapiutilpriv.obj
+ 0001:00027e7c       GetProcAddressW            10028e7c f   coredll:COREDLL.dll
+ 0001:00027e8c       LoadLibraryW               10028e8c f   coredll:COREDLL.dll
+ 0001:00027e9c       FreeLibrary                10028e9c f   coredll:COREDLL.dll
+ 0001:00027eac       InitializeCriticalSection  10028eac f   coredll:COREDLL.dll
+ 0001:00027ebc       DeleteCriticalSection      10028ebc f   coredll:COREDLL.dll
+ 0001:00027ecc       InterlockedDecrement       10028ecc f   coredll:COREDLL.dll
+ 0001:00027edc       InterlockedIncrement       10028edc f   coredll:COREDLL.dll
+ 0001:00027eec       RegQueryValueExW           10028eec f   coredll:COREDLL.dll
+ 0001:00027efc       SystemTimeToFileTime       10028efc f   coredll:COREDLL.dll
+ 0001:00027f0c       lstrcmpiW                  10028f0c f   coredll:COREDLL.dll
+ 0001:00027f1c       StringCchCopyNW            10028f1c f   coredll:COREDLL.dll
+ 0001:00027f2c       MultiByteToWideChar        10028f2c f   coredll:COREDLL.dll
+ 0001:00027f3c       GetSystemTime              10028f3c f   coredll:COREDLL.dll
+ 0001:00027f4c       LCMapStringW               10028f4c f   coredll:COREDLL.dll
+ 0001:00027f5c       SendMessageW               10028f5c f   coredll:COREDLL.dll
+ 0001:00027f6c       FindWindowW                10028f6c f   coredll:COREDLL.dll
+ 0001:00027f7c       SetWindowTextW             10028f7c f   coredll:COREDLL.dll
+ 0001:00027f8c       StringCchCatW              10028f8c f   coredll:COREDLL.dll
+ 0001:00027f9c       GetTimeFormatW             10028f9c f   coredll:COREDLL.dll
+ 0001:00027fac       GetDateFormatW             10028fac f   coredll:COREDLL.dll
+ 0001:00027fbc       FileTimeToSystemTime       10028fbc f   coredll:COREDLL.dll
+ 0001:00027fcc       FileTimeToLocalFileTime    10028fcc f   coredll:COREDLL.dll
+ 0001:00027fdc       LocalFree                  10028fdc f   coredll:COREDLL.dll
+ 0001:00027fec       HeapFree                   10028fec f   coredll:COREDLL.dll
+ 0001:00027ffc       GetProcessHeap             10028ffc f   coredll:COREDLL.dll
+ 0001:0002800c       lstrcmpW                   1002900c f   coredll:COREDLL.dll
+ 0001:0002801c       RegCloseKey                1002901c f   coredll:COREDLL.dll
+ 0001:0002802c       StringCchCatExW            1002902c f   coredll:COREDLL.dll
+ 0001:0002803c       RegEnumKeyExW              1002903c f   coredll:COREDLL.dll
+ 0001:0002804c       RegOpenKeyExW              1002904c f   coredll:COREDLL.dll
+ 0001:0002805c       WideCharToMultiByte        1002905c f   coredll:COREDLL.dll
+ 0001:0002806c       GetSystemDefaultLangID     1002906c f   coredll:COREDLL.dll
+ 0001:0002807c       GetACP                     1002907c f   coredll:COREDLL.dll
+ 0001:0002808c       StringCchCopyA             1002908c f   coredll:COREDLL.dll
+ 0001:0002809c       IsValidCodePage            1002909c f   coredll:COREDLL.dll
+ 0001:000280ac       LocalAlloc                 100290ac f   coredll:COREDLL.dll
+ 0001:000280bc       RaiseException             100290bc f   coredll:COREDLL.dll
+ 0001:000280cc       StringCchCopyW             100290cc f   coredll:COREDLL.dll
+ 0001:000280dc       CryptReleaseContext        100290dc f   coredll:COREDLL.dll
+ 0001:000280ec       CryptGetProvParam          100290ec f   coredll:COREDLL.dll
+ 0001:000280fc       CryptAcquireContextW       100290fc f   coredll:COREDLL.dll
+ 0001:0002810c       RegSetValueExW             1002910c f   coredll:COREDLL.dll
+ 0001:0002811c       RegCreateKeyExW            1002911c f   coredll:COREDLL.dll
+ 0001:0002812c       CreateFontIndirectW        1002912c f   coredll:COREDLL.dll
+ 0001:0002813c       GetObjectW                 1002913c f   coredll:COREDLL.dll
+ 0001:0002814c       GetStockObject             1002914c f   coredll:COREDLL.dll
+ 0001:0002815c       CloseHandle                1002915c f   coredll:COREDLL.dll
+ 0001:0002816c       ReadFile                   1002916c f   coredll:COREDLL.dll
+ 0001:0002817c       GetFileSize                1002917c f   coredll:COREDLL.dll
+ 0001:0002818c       SetFilePointer             1002918c f   coredll:COREDLL.dll
+ 0001:0002819c       CreateFileW                1002919c f   coredll:COREDLL.dll
+ 0001:000281ac       GetLastError               100291ac f   coredll:COREDLL.dll
+ 0001:000281bc       GetFileAttributesW         100291bc f   coredll:COREDLL.dll
+ 0001:000281cc       StringCchPrintfW           100291cc f   coredll:COREDLL.dll
+ 0001:000281dc       StringCchLengthW           100291dc f   coredll:COREDLL.dll
+ 0001:000281ec       StringCchPrintfExW         100291ec f   coredll:COREDLL.dll
+ 0001:000281fc       LocalFileTimeToFileTime    100291fc f   coredll:COREDLL.dll
+ 0001:0002820c       GetLocalTime               1002920c f   coredll:COREDLL.dll
+ 0001:0002821c       GetTempPathW               1002921c f   coredll:COREDLL.dll
+ 0001:0002822c       DeleteFileW                1002922c f   coredll:COREDLL.dll
+ 0001:0002823c       GetLocaleInfoW             1002923c f   coredll:COREDLL.dll
+ 0001:0002824c       GetSystemDefaultLCID       1002924c f   coredll:COREDLL.dll
+ 0001:0002825c       StringCchCopyNA            1002925c f   coredll:COREDLL.dll
+ 0001:0002826c       GetTimeZoneInformation     1002926c f   coredll:COREDLL.dll
+ 0001:0002827c       IsDBCSLeadByteEx           1002927c f   coredll:COREDLL.dll
+ 0001:0002828c       StringCchPrintfA           1002928c f   coredll:COREDLL.dll
+ 0001:0002829c       StringCchPrintfExA         1002929c f   coredll:COREDLL.dll
+ 0001:000282ac       RegistryGetDWORD           100292ac f   coredll:COREDLL.dll
+ 0001:000282bc       NKDbgPrintfW               100292bc f   coredll:COREDLL.dll
+ 0001:000282cc       StringCchLengthA           100292cc f   coredll:COREDLL.dll
+ 0001:000282dc       StringCchCopyExA           100292dc f   coredll:COREDLL.dll
+ 0001:000282ec       EventModify                100292ec f   coredll:COREDLL.dll
+ 0001:000282fc       EnterCriticalSection       100292fc f   coredll:COREDLL.dll
+ 0001:0002830c       LeaveCriticalSection       1002930c f   coredll:COREDLL.dll
+ 0001:0002831c       CreateEventW               1002931c f   coredll:COREDLL.dll
+ 0001:0002832c       WaitForSingleObject        1002932c f   coredll:COREDLL.dll
+ 0001:0002833c       CreateThread               1002933c f   coredll:COREDLL.dll
+ 0001:0002834c       CreateSemaphoreW           1002934c f   coredll:COREDLL.dll
+ 0001:0002835c       WaitForMultipleObjects     1002935c f   coredll:COREDLL.dll
+ 0001:0002836c       ReleaseSemaphore           1002936c f   coredll:COREDLL.dll
+ 0001:0002837c       LoadStringW                1002937c f   coredll:COREDLL.dll
+ 0001:0002838c       WriteFile                  1002938c f   coredll:COREDLL.dll
+ 0001:0002839c       SetEndOfFile               1002939c f   coredll:COREDLL.dll
+ 0001:000283ac       CreateDirectoryW           100293ac f   coredll:COREDLL.dll
+ 0001:000283bc       GetTempFileNameW           100293bc f   coredll:COREDLL.dll
+ 0001:000283cc       StringCchCatNW             100293cc f   coredll:COREDLL.dll
+ 0001:000283dc       SHGetSpecialFolderPath     100293dc f   coredll:COREDLL.dll
+ 0001:000283ec       SetFileAttributesW         100293ec f   coredll:COREDLL.dll
+ 0001:000283fc       StringCbCopyW              100293fc f   coredll:COREDLL.dll
+ 0001:0002840c       UMul                       1002940c f   ossvcs:ossvcs.dll
+ 0001:0002841c       SafeStrDup                 1002941c f   ossvcs:ossvcs.dll
+ 0001:0002842c       QueryPolicyImpl            1002942c f   ossvcs:ossvcs.dll
+ 0001:0002843c       ?StatStoreGetInfo@@YAJIPBKPAPAU_CEPROPVAL@@@Z 1002943c f   ossvcs:ossvcs.dll
+ 0001:0002844c       WatsonReportFault          1002944c f   ossvcs:ossvcs.dll
+ 0001:0002845c       ValidPhoneNumberInplaceStripInvalidCharacters 1002945c f   ossvcs:ossvcs.dll
+ 0001:0002846c       ?SafeLPWSTR@@YAPBGPBU_CEPROPVAL@@@Z 1002946c f   ossvcs:ossvcs.dll
+ 0001:0002847c       SAdd                       1002947c f   ossvcs:ossvcs.dll
+ 0001:0002848c       StreamCopyTo               1002948c f   ossvcs:ossvcs.dll
+ 0001:0002849c       SafeWideCharToMultiByte    1002949c f   ossvcs:ossvcs.dll
+ 0001:000284ac       SafeMultiByteToWideChar    100294ac f   ossvcs:ossvcs.dll
+ 0001:000284bc       CoCreateInstance           100294bc f   ole32:ole32.dll
+ 0001:000284cc       CoInitializeEx             100294cc f   ole32:ole32.dll
+ 0001:000284dc       CoUninitialize             100294dc f   ole32:ole32.dll
+ 0001:000284ec       CLSIDFromString            100294ec f   ole32:ole32.dll
+ 0001:000284fc       StringFromGUID2            100294fc f   ole32:ole32.dll
+ 0001:0002850c       CreateStreamOnHGlobal      1002950c f   ole32:ole32.dll
+ 0001:0002851c       CoCreateGuid               1002951c f   ole32:ole32.dll
+ 0001:0002852c       GetHGlobalFromStream       1002952c f   ole32:ole32.dll
+ 0001:0002853c       CoTaskMemFree              1002953c f   ole32:ole32.dll
+ 0001:0002854c       SysFreeString              1002954c f   oleaut32:OLEAUT32.dll
+ 0001:0002855c       SysStringLen               1002955c f   oleaut32:OLEAUT32.dll
+ 0001:0002856c       SysAllocStringLen          1002956c f   oleaut32:OLEAUT32.dll
+ 0001:0002857c       SysAllocString             1002957c f   oleaut32:OLEAUT32.dll
+ 0001:0002858c       SysAllocStringByteLen      1002958c f   oleaut32:OLEAUT32.dll
+ 0001:0002859c       SysStringByteLen           1002959c f   oleaut32:OLEAUT32.dll
+ 0001:000285ac       SafeArrayUnaccessData      100295ac f   oleaut32:OLEAUT32.dll
+ 0001:000285bc       SafeArrayAccessData        100295bc f   oleaut32:OLEAUT32.dll
+ 0001:000285cc       SafeArrayCreateVector      100295cc f   oleaut32:OLEAUT32.dll
+ 0001:000285dc       VariantTimeToSystemTime    100295dc f   oleaut32:OLEAUT32.dll
+ 0001:000285ec       SystemTimeToVariantTime    100295ec f   oleaut32:OLEAUT32.dll
+ 0001:000285fc       PathMatchSpecW             100295fc f   shlwapi:shlwapi.dll
+ 0001:0002860c       PathIsUNCW                 1002960c f   shlwapi:shlwapi.dll
+ 0001:0002861c       PathCreateFromUrlW         1002961c f   shlwapi:shlwapi.dll
+ 0001:0002862c       UrlIsW                     1002962c f   shlwapi:shlwapi.dll
+ 0001:0002863c       QueryPolicy                1002963c f   CEaygshell:CEAYGSHELL.dll
+ 0001:0002864c       SHRegSetValueEx            1002964c f   CEaygshell:CEAYGSHELL.dll
+ 0001:0002865c       MAPIFreeBuffer             1002965c f   cemapi:CEMAPI.dll
+ 0001:0002866c       FreeProws                  1002966c f   cemapi:CEMAPI.dll
+ 0001:0002867c       MAPIAllocateBuffer         1002967c f   cemapi:CEMAPI.dll
+ 0001:0002868c       MAPIUninitialize           1002968c f   cemapi:CEMAPI.dll
+ 0001:0002869c       MAPILogonEx                1002969c f   cemapi:CEMAPI.dll
+ 0001:000286ac       MAPIInitialize             100296ac f   cemapi:CEMAPI.dll
+ 0001:000286bc       HrGetOneProp               100296bc f   cemapi:CEMAPI.dll
+ 0001:000286cc       HrSetOneProp               100296cc f   cemapi:CEMAPI.dll
+ 0001:000286dc       MAPIAllocateMore           100296dc f   cemapi:CEMAPI.dll
+ 0001:000286ec       ?SLockAcquire@@YAHXZ       100296ec f   sqmproxy:sqmproxy.obj
+ 0001:00028758       ?Client_Attach@@YAHXZ      10029758 f   sqmproxy:sqmproxy.obj
+ 0001:00028bf4       SqmGetManagedSession       10029bf4 f   sqmproxy:sqmproxy.obj
+ 0001:00028c68       SqmSet                     10029c68 f   sqmproxy:sqmproxy.obj
+ 0001:00028cc8       SqmIncrement               10029cc8 f   sqmproxy:sqmproxy.obj
+ 0001:00028d28       SqmAddToStream             10029d28 f   sqmproxy:sqmproxy.obj
+ 0001:00028d8c       SqmGet                     10029d8c f   sqmproxy:sqmproxy.obj
+ 0001:00028e08       SqmProxyCleanup            10029e08 f   sqmproxy:sqmproxy.obj
+ 0001:00028f48       _DllMainCRTStartup         10029f48 f   corelib0:pegdmain.obj
+ 0001:00028f7c       _onexit                    10029f7c f   corelib0:onexit.obj
+ 0001:00029100       atexit                     1002a100 f   corelib0:onexit.obj
+ 0001:00029118       __GSHandlerCheckCommon     1002a118 f   corelib0:gshandler.obj
+ 0001:00029154       __GSHandlerCheck           1002a154 f   corelib0:gshandler.obj
+ 0001:00029174       __security_init_cookie     1002a174 f   corelib0:seccinit.obj
+ 0001:000291c0       __security_check_cookie    1002a1c0 f   corelib0:armsecgs.obj
+ 0001:000291d0       __gsfailure                1002a1d0     corelib0:armsecgs.obj
+ 0001:000292fc       _cexit                     1002a2fc f   corelib0:cexit.obj
+ 0001:0002930c       _initterm                  1002a30c f   corelib0:crt0dat.obj
+ 0001:00029338       _cinit                     1002a338 f   corelib0:crt0dat.obj
+ 0001:00029398       __crt_ExitProcess          1002a398 f   corelib0:exitproc_proxy.obj
+ 0001:000293a4       ??3@YAXPAX@Z               1002a3a4 f   corelib1:COREDLL.dll
+ 0001:000293b4       memcmp                     1002a3b4 f   corelib1:COREDLL.dll
+ 0001:000293c4       ??2@YAPAXI@Z               1002a3c4 f   corelib1:COREDLL.dll
+ 0001:000293d4       wcschr                     1002a3d4 f   corelib1:COREDLL.dll
+ 0001:000293e4       wcslen                     1002a3e4 f   corelib1:COREDLL.dll
+ 0001:000293f4       _wtol                      1002a3f4 f   corelib1:COREDLL.dll
+ 0001:00029404       wcscmp                     1002a404 f   corelib1:COREDLL.dll
+ 0001:00029414       memset                     1002a414 f   corelib1:COREDLL.dll
+ 0001:00029424       _wcsicmp                   1002a424 f   corelib1:COREDLL.dll
+ 0001:00029434       memcpy                     1002a434 f   corelib1:COREDLL.dll
+ 0001:00029444       ??_V@YAXPAX@Z              1002a444 f   corelib1:COREDLL.dll
+ 0001:00029454       ??_U@YAPAXI@Z              1002a454 f   corelib1:COREDLL.dll
+ 0001:00029464       strcmp                     1002a464 f   corelib1:COREDLL.dll
+ 0001:00029474       memmove                    1002a474 f   corelib1:COREDLL.dll
+ 0001:00029484       memcpy_s                   1002a484 f   corelib1:COREDLL.dll
+ 0001:00029494       wcsncmp                    1002a494 f   corelib1:COREDLL.dll
+ 0001:000294a4       _purecall                  1002a4a4 f   corelib1:COREDLL.dll
+ 0001:000294b4       wcstok_s                   1002a4b4 f   corelib1:COREDLL.dll
+ 0001:000294c4       strlen                     1002a4c4 f   corelib1:COREDLL.dll
+ 0001:000294d4       _wtoi                      1002a4d4 f   corelib1:COREDLL.dll
+ 0001:000294e4       strstr                     1002a4e4 f   corelib1:COREDLL.dll
+ 0001:000294f4       memchr                     1002a4f4 f   corelib1:COREDLL.dll
+ 0001:00029504       strtol                     1002a504 f   corelib1:COREDLL.dll
+ 0001:00029514       _strnicmp                  1002a514 f   corelib1:COREDLL.dll
+ 0001:00029524       _stricmp                   1002a524 f   corelib1:COREDLL.dll
+ 0001:00029534       _strupr_s                  1002a534 f   corelib1:COREDLL.dll
+ 0001:00029544       _wcsnset_s                 1002a544 f   corelib1:COREDLL.dll
+ 0001:00029554       strncmp                    1002a554 f   corelib1:COREDLL.dll
+ 0001:00029564       free                       1002a564 f   corelib1:COREDLL.dll
+ 0001:00029574       _strdup                    1002a574 f   corelib1:COREDLL.dll
+ 0001:00029584       atoi                       1002a584 f   corelib1:COREDLL.dll
+ 0001:00029594       strcspn                    1002a594 f   corelib1:COREDLL.dll
+ 0001:000295a4       __C_specific_handler       1002a5a4 f   corelib1:COREDLL.dll
+ 0001:000295b4       _memicmp                   1002a5b4 f   corelib1:COREDLL.dll
+ 0001:000295c4       _isctype                   1002a5c4 f   corelib1:COREDLL.dll
+ 0001:000295d4       _ultoa_s                   1002a5d4 f   corelib1:COREDLL.dll
+ 0001:000295e4       iswctype                   1002a5e4 f   corelib1:COREDLL.dll
+ 0001:000295f4       _wcsdup                    1002a5f4 f   corelib1:COREDLL.dll
+ 0001:00029604       _itoa_s                    1002a604 f   corelib1:COREDLL.dll
+ 0001:00029614       realloc                    1002a614 f   corelib1:COREDLL.dll
+ 0001:00029624       malloc                     1002a624 f   corelib1:COREDLL.dll
+ 0001:00029634       _XcptFilter                1002a634 f   corelib1:COREDLL.dll
+ 0001:00029644       _msize                     1002a644 f   corelib1:COREDLL.dll
+ 0001:00029654       __security_gen_cookie2     1002a654 f   corelib1:COREDLL.dll
+ 0001:00029664       __report_gsfailure         1002a664 f   corelib1:COREDLL.dll
+ 0001:00029674       ?ParseAddressField@@YAJPAGPAK@Z 1002a674 f   mailutil_vcal:VCardHelper.obj
+ 0001:000296dc       ?ParseEmailField@@YAJPAGPAK@Z 1002a6dc f   mailutil_vcal:VCardHelper.obj
+ 0001:00029768       ?ParseTelField@@YAJPAGPAK@Z 1002a768 f   mailutil_vcal:VCardHelper.obj
+ 0001:00029940       ?ParseEscapeCharToBuf@@YAKPAGK0K@Z 1002a940 f   mailutil_vcal:VCardHelper.obj
+ 0001:000299c0       ?GetNameAttributes@@YAJPAUIContact@@PAPAG1@Z 1002a9c0 f   mailutil_vcal:VCardHelper.obj
+ 0001:00029dcc       ??_9IContact@@$BBGA@AA     1002adcc f i mailutil_vcal:VCardHelper.obj
+ 0001:00029dd8       ??_9IContact@@$BBHA@AA     1002add8 f i mailutil_vcal:VCardHelper.obj
+ 0001:00029de4       ??_9IContact@@$BBIA@AA     1002ade4 f i mailutil_vcal:VCardHelper.obj
+ 0001:00029df0       ??_9IContact@@$BBJA@AA     1002adf0 f i mailutil_vcal:VCardHelper.obj
+ 0001:00029dfc       ??_9IContact@@$BBGE@AA     1002adfc f i mailutil_vcal:VCardHelper.obj
+ 0001:00029e08       ??_9IContact@@$BBHE@AA     1002ae08 f i mailutil_vcal:VCardHelper.obj
+ 0001:00029e14       ??_9IContact@@$BBIE@AA     1002ae14 f i mailutil_vcal:VCardHelper.obj
+ 0001:00029e20       ??_9IContact@@$BBFI@AA     1002ae20 f i mailutil_vcal:VCardHelper.obj
+ 0001:00029e2c       ??_9IContact@@$BBGI@AA     1002ae2c f i mailutil_vcal:VCardHelper.obj
+ 0001:00029e38       ??_9IContact@@$BBHI@AA     1002ae38 f i mailutil_vcal:VCardHelper.obj
+ 0001:00029e44       ??_9IContact@@$BBII@AA     1002ae44 f i mailutil_vcal:VCardHelper.obj
+ 0001:00029e50       ??_9IContact@@$BBFM@AA     1002ae50 f i mailutil_vcal:VCardHelper.obj
+ 0001:00029e5c       ??_9IContact@@$BBGM@AA     1002ae5c f i mailutil_vcal:VCardHelper.obj
+ 0001:00029e68       ??_9IContact@@$BBHM@AA     1002ae68 f i mailutil_vcal:VCardHelper.obj
+ 0001:00029e74       ??_9IContact@@$BBIM@AA     1002ae74 f i mailutil_vcal:VCardHelper.obj
+ 0001:00029e80       ?FillContactAddress@@YAJPAUIContact@@QAPAGQBQ81@AAJPAG@Z@Z 1002ae80 f   mailutil_vcal:VCardHelper.obj
+ 0001:00029f50       ?SetEmailFields@@YAJPAUIItem@@PAGKPAK@Z 1002af50 f   mailutil_vcal:VCardHelper.obj
+ 0001:0002a0ac       ?SetTelFields@@YAJPAUIItem@@PAGKPAK@Z 1002b0ac f   mailutil_vcal:VCardHelper.obj
+ 0001:0002a480       ?FindNextToken@@YAPAGPAPAGPAH@Z 1002b480 f   mailutil_vcal:VCardHelper.obj
+ 0001:0002a55c       ?FillNameFields@@YAJPAUIItem@@PAG@Z 1002b55c f   mailutil_vcal:VCardHelper.obj
+ 0001:0002a618       ?FillAddressField@@YAJPAUIContact@@PAGW4EAddrType@@@Z 1002b618 f   mailutil_vcal:VCardHelper.obj
+ 0001:0002a730       ?SetAddressFields@@YAJPAUIContact@@PAGKPAK@Z 1002b730 f   mailutil_vcal:VCardHelper.obj
+ 0001:0002a7c0       ?EncodeQP@@YAJPADKPAUIStream@@@Z 1002b7c0 f   mailutil_vcal:inetconv.obj
+ 0001:0002aaa8       ?Encode64@@YAJPAUIStream@@0@Z 1002baa8 f   mailutil_vcal:inetconv.obj
+ 0001:0002ac44       ?Decode64@@YAJPADPAUIStream@@@Z 1002bc44 f   mailutil_vcal:inetconv.obj
+ 0001:0002ad78       ?GenerateApptHeader@@YAXPAUIStream@@@Z 1002bd78 f   mailutil_vcal:Output.obj
+ 0001:0002ae20       ?GenerateApptTail@@YAXPAUIStream@@@Z 1002be20 f   mailutil_vcal:Output.obj
+ 0001:0002aec8       ?GenerateVCALHeader@@YAXPAUIStream@@@Z 1002bec8 f   mailutil_vcal:Output.obj
+ 0001:0002af70       ?GenerateVCALTail@@YAXPAUIStream@@@Z 1002bf70 f   mailutil_vcal:Output.obj
+ 0001:0002b018       ?GenerateVCARDHeader@@YAXPAUIStream@@@Z 1002c018 f   mailutil_vcal:Output.obj
+ 0001:0002b0b8       ?GenerateVCARDVersion@@YAXPAUIStream@@@Z 1002c0b8 f   mailutil_vcal:Output.obj
+ 0001:0002b158       ?GenerateVCALVersion@@YAXPAUIStream@@G@Z 1002c158 f   mailutil_vcal:Output.obj
+ 0001:0002b20c       ?GenerateVCARDTail@@YAXPAUIStream@@@Z 1002c20c f   mailutil_vcal:Output.obj
+ 0001:0002b2ac       ?GenerateVTODOHeader@@YAXPAUIStream@@@Z 1002c2ac f   mailutil_vcal:Output.obj
+ 0001:0002b34c       ?GenerateVTODOTail@@YAXPAUIStream@@@Z 1002c34c f   mailutil_vcal:Output.obj
+ 0001:0002b3e4       InterlockedCompareExchange 1002c3e4 f   coredll:COREDLL.dll
+ 0001:0002b3f4       InterlockedExchange        1002c3f4 f   coredll:COREDLL.dll
+ 0001:0002b404       TerminateProcess           1002c404 f   coredll:COREDLL.dll
+ 0001:0002b414       InvStrCmpIW                1002c414 f   ossvcs:ossvcs.dll
+ 0001:0002bf58       ??__Fcs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@YAXXZ 1002cf58 f i factory.obj
+ 0001:0002c14c       __IMPORT_DESCRIPTOR_COREDLL 1002d14c     coredll:COREDLL.dll
+ 0001:0002c160       __IMPORT_DESCRIPTOR_ossvcs 1002d160     ossvcs:ossvcs.dll
+ 0001:0002c174       __IMPORT_DESCRIPTOR_ole32  1002d174     ole32:ole32.dll
+ 0001:0002c188       __IMPORT_DESCRIPTOR_OLEAUT32 1002d188     oleaut32:OLEAUT32.dll
+ 0001:0002c19c       __IMPORT_DESCRIPTOR_shlwapi 1002d19c     shlwapi:shlwapi.dll
+ 0001:0002c1b0       __IMPORT_DESCRIPTOR_CEAYGSHELL 1002d1b0     CEaygshell:CEAYGSHELL.dll
+ 0001:0002c1c4       __IMPORT_DESCRIPTOR_CEMAPI 1002d1c4     cemapi:CEMAPI.dll
+ 0001:0002c1d8       __NULL_IMPORT_DESCRIPTOR   1002d1d8     coredll:COREDLL.dll
+ 0002:00000000       __imp_QueryPolicy          1002e000     CEaygshell:CEAYGSHELL.dll
+ 0002:00000004       __imp_SHRegSetValueEx      1002e004     CEaygshell:CEAYGSHELL.dll
+ 0002:00000008       \177CEAYGSHELL_NULL_THUNK_DATA 1002e008     CEaygshell:CEAYGSHELL.dll
+ 0002:0000000c       __imp_MAPILogonEx          1002e00c     cemapi:CEMAPI.dll
+ 0002:00000010       __imp_HrGetOneProp         1002e010     cemapi:CEMAPI.dll
+ 0002:00000014       __imp_MAPIAllocateBuffer   1002e014     cemapi:CEMAPI.dll
+ 0002:00000018       __imp_FreeProws            1002e018     cemapi:CEMAPI.dll
+ 0002:0000001c       __imp_MAPIFreeBuffer       1002e01c     cemapi:CEMAPI.dll
+ 0002:00000020       __imp_HrSetOneProp         1002e020     cemapi:CEMAPI.dll
+ 0002:00000024       __imp_MAPIUninitialize     1002e024     cemapi:CEMAPI.dll
+ 0002:00000028       __imp_MAPIInitialize       1002e028     cemapi:CEMAPI.dll
+ 0002:0000002c       __imp_MAPIAllocateMore     1002e02c     cemapi:CEMAPI.dll
+ 0002:00000030       \177CEMAPI_NULL_THUNK_DATA 1002e030     cemapi:CEMAPI.dll
+ 0002:00000034       __imp_LCMapStringW         1002e034     coredll:COREDLL.dll
+ 0002:00000038       __imp_SendMessageW         1002e038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_FindWindowW          1002e03c     coredll:COREDLL.dll
+ 0002:00000040       __imp_SetWindowTextW       1002e040     coredll:COREDLL.dll
+ 0002:00000044       __imp_StringCchCatW        1002e044     coredll:COREDLL.dll
+ 0002:00000048       __imp_GetTimeFormatW       1002e048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_GetDateFormatW       1002e04c     coredll:COREDLL.dll
+ 0002:00000050       __imp_FileTimeToSystemTime 1002e050     coredll:COREDLL.dll
+ 0002:00000054       __imp_FileTimeToLocalFileTime 1002e054     coredll:COREDLL.dll
+ 0002:00000058       __imp_LocalFree            1002e058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_HeapFree             1002e05c     coredll:COREDLL.dll
+ 0002:00000060       __imp_GetProcessHeap       1002e060     coredll:COREDLL.dll
+ 0002:00000064       __imp_lstrcmpW             1002e064     coredll:COREDLL.dll
+ 0002:00000068       __imp_RegCloseKey          1002e068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_StringCchCatExW      1002e06c     coredll:COREDLL.dll
+ 0002:00000070       __imp_RegEnumKeyExW        1002e070     coredll:COREDLL.dll
+ 0002:00000074       __imp_RegOpenKeyExW        1002e074     coredll:COREDLL.dll
+ 0002:00000078       __imp_WideCharToMultiByte  1002e078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_GetSystemDefaultLangID 1002e07c     coredll:COREDLL.dll
+ 0002:00000080       __imp_GetACP               1002e080     coredll:COREDLL.dll
+ 0002:00000084       __imp_StringCchCopyA       1002e084     coredll:COREDLL.dll
+ 0002:00000088       __imp_IsValidCodePage      1002e088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_LocalAlloc           1002e08c     coredll:COREDLL.dll
+ 0002:00000090       __imp_RaiseException       1002e090     coredll:COREDLL.dll
+ 0002:00000094       __imp_StringCchCopyW       1002e094     coredll:COREDLL.dll
+ 0002:00000098       __imp_CryptReleaseContext  1002e098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_CryptGetProvParam    1002e09c     coredll:COREDLL.dll
+ 0002:000000a0       __imp_CryptAcquireContextW 1002e0a0     coredll:COREDLL.dll
+ 0002:000000a4       __imp_RegSetValueExW       1002e0a4     coredll:COREDLL.dll
+ 0002:000000a8       __imp_RegCreateKeyExW      1002e0a8     coredll:COREDLL.dll
+ 0002:000000ac       __imp_CreateFontIndirectW  1002e0ac     coredll:COREDLL.dll
+ 0002:000000b0       __imp_GetObjectW           1002e0b0     coredll:COREDLL.dll
+ 0002:000000b4       __imp_GetStockObject       1002e0b4     coredll:COREDLL.dll
+ 0002:000000b8       __imp_CloseHandle          1002e0b8     coredll:COREDLL.dll
+ 0002:000000bc       __imp_ReadFile             1002e0bc     coredll:COREDLL.dll
+ 0002:000000c0       __imp_GetFileSize          1002e0c0     coredll:COREDLL.dll
+ 0002:000000c4       __imp_SetFilePointer       1002e0c4     coredll:COREDLL.dll
+ 0002:000000c8       __imp_CreateFileW          1002e0c8     coredll:COREDLL.dll
+ 0002:000000cc       __imp_GetLastError         1002e0cc     coredll:COREDLL.dll
+ 0002:000000d0       __imp_GetFileAttributesW   1002e0d0     coredll:COREDLL.dll
+ 0002:000000d4       __imp_StringCchPrintfW     1002e0d4     coredll:COREDLL.dll
+ 0002:000000d8       __imp_StringCchLengthW     1002e0d8     coredll:COREDLL.dll
+ 0002:000000dc       __imp_StringCchPrintfExW   1002e0dc     coredll:COREDLL.dll
+ 0002:000000e0       __imp_LocalFileTimeToFileTime 1002e0e0     coredll:COREDLL.dll
+ 0002:000000e4       __imp_GetLocalTime         1002e0e4     coredll:COREDLL.dll
+ 0002:000000e8       __imp_GetTempPathW         1002e0e8     coredll:COREDLL.dll
+ 0002:000000ec       __imp_DeleteFileW          1002e0ec     coredll:COREDLL.dll
+ 0002:000000f0       __imp_GetLocaleInfoW       1002e0f0     coredll:COREDLL.dll
+ 0002:000000f4       __imp_GetSystemDefaultLCID 1002e0f4     coredll:COREDLL.dll
+ 0002:000000f8       __imp_StringCchCopyNA      1002e0f8     coredll:COREDLL.dll
+ 0002:000000fc       __imp_GetTimeZoneInformation 1002e0fc     coredll:COREDLL.dll
+ 0002:00000100       __imp_IsDBCSLeadByteEx     1002e100     coredll:COREDLL.dll
+ 0002:00000104       __imp_StringCchPrintfA     1002e104     coredll:COREDLL.dll
+ 0002:00000108       __imp_StringCchPrintfExA   1002e108     coredll:COREDLL.dll
+ 0002:0000010c       __imp_RegistryGetDWORD     1002e10c     coredll:COREDLL.dll
+ 0002:00000110       __imp_GetSystemTime        1002e110     coredll:COREDLL.dll
+ 0002:00000114       __imp_StringCchLengthA     1002e114     coredll:COREDLL.dll
+ 0002:00000118       __imp_StringCchCopyExA     1002e118     coredll:COREDLL.dll
+ 0002:0000011c       __imp_EventModify          1002e11c     coredll:COREDLL.dll
+ 0002:00000120       __imp_EnterCriticalSection 1002e120     coredll:COREDLL.dll
+ 0002:00000124       __imp_LeaveCriticalSection 1002e124     coredll:COREDLL.dll
+ 0002:00000128       __imp_CreateEventW         1002e128     coredll:COREDLL.dll
+ 0002:0000012c       __imp_WaitForSingleObject  1002e12c     coredll:COREDLL.dll
+ 0002:00000130       __imp_CreateThread         1002e130     coredll:COREDLL.dll
+ 0002:00000134       __imp_CreateSemaphoreW     1002e134     coredll:COREDLL.dll
+ 0002:00000138       __imp_WaitForMultipleObjects 1002e138     coredll:COREDLL.dll
+ 0002:0000013c       __imp_ReleaseSemaphore     1002e13c     coredll:COREDLL.dll
+ 0002:00000140       __imp_LoadStringW          1002e140     coredll:COREDLL.dll
+ 0002:00000144       __imp_WriteFile            1002e144     coredll:COREDLL.dll
+ 0002:00000148       __imp_SetEndOfFile         1002e148     coredll:COREDLL.dll
+ 0002:0000014c       __imp_CreateDirectoryW     1002e14c     coredll:COREDLL.dll
+ 0002:00000150       __imp_GetTempFileNameW     1002e150     coredll:COREDLL.dll
+ 0002:00000154       __imp_StringCchCatNW       1002e154     coredll:COREDLL.dll
+ 0002:00000158       __imp_SHGetSpecialFolderPath 1002e158     coredll:COREDLL.dll
+ 0002:0000015c       __imp_SetFileAttributesW   1002e15c     coredll:COREDLL.dll
+ 0002:00000160       __imp_StringCbCopyW        1002e160     coredll:COREDLL.dll
+ 0002:00000164       __imp__XcptFilter          1002e164     corelib1:COREDLL.dll
+ 0002:00000168       __imp_malloc               1002e168     corelib1:COREDLL.dll
+ 0002:0000016c       __imp_realloc              1002e16c     corelib1:COREDLL.dll
+ 0002:00000170       __imp__msize               1002e170     corelib1:COREDLL.dll
+ 0002:00000174       __imp__itoa_s              1002e174     corelib1:COREDLL.dll
+ 0002:00000178       __imp__wcsdup              1002e178     corelib1:COREDLL.dll
+ 0002:0000017c       __imp___rt_sdiv64by64      1002e17c     corelib1:COREDLL.dll
+ 0002:00000180       __imp_iswctype             1002e180     corelib1:COREDLL.dll
+ 0002:00000184       __imp_log10                1002e184     corelib1:COREDLL.dll
+ 0002:00000188       __imp__ultoa_s             1002e188     corelib1:COREDLL.dll
+ 0002:0000018c       __imp__isctype             1002e18c     corelib1:COREDLL.dll
+ 0002:00000190       __imp__memicmp             1002e190     corelib1:COREDLL.dll
+ 0002:00000194       __imp___C_specific_handler 1002e194     corelib1:COREDLL.dll
+ 0002:00000198       __imp_strcspn              1002e198     corelib1:COREDLL.dll
+ 0002:0000019c       __imp_atoi                 1002e19c     corelib1:COREDLL.dll
+ 0002:000001a0       __imp___rt_udiv            1002e1a0     corelib1:COREDLL.dll
+ 0002:000001a4       __imp__strdup              1002e1a4     corelib1:COREDLL.dll
+ 0002:000001a8       __imp_free                 1002e1a8     corelib1:COREDLL.dll
+ 0002:000001ac       __imp_strncmp              1002e1ac     corelib1:COREDLL.dll
+ 0002:000001b0       __imp__wcsnset_s           1002e1b0     corelib1:COREDLL.dll
+ 0002:000001b4       __imp__strupr_s            1002e1b4     corelib1:COREDLL.dll
+ 0002:000001b8       __imp__stricmp             1002e1b8     corelib1:COREDLL.dll
+ 0002:000001bc       __imp_pow                  1002e1bc     corelib1:COREDLL.dll
+ 0002:000001c0       __imp__strnicmp            1002e1c0     corelib1:COREDLL.dll
+ 0002:000001c4       __imp_strtol               1002e1c4     corelib1:COREDLL.dll
+ 0002:000001c8       __imp_memchr               1002e1c8     corelib1:COREDLL.dll
+ 0002:000001cc       __imp_strstr               1002e1cc     corelib1:COREDLL.dll
+ 0002:000001d0       __imp__wtoi                1002e1d0     corelib1:COREDLL.dll
+ 0002:000001d4       __imp_strlen               1002e1d4     corelib1:COREDLL.dll
+ 0002:000001d8       __imp_wcstok_s             1002e1d8     corelib1:COREDLL.dll
+ 0002:000001dc       __imp__purecall            1002e1dc     corelib1:COREDLL.dll
+ 0002:000001e0       __imp_wcsncmp              1002e1e0     corelib1:COREDLL.dll
+ 0002:000001e4       __imp_TerminateProcess     1002e1e4     coredll:COREDLL.dll
+ 0002:000001e8       __imp_InterlockedExchange  1002e1e8     coredll:COREDLL.dll
+ 0002:000001ec       __imp_InterlockedCompareExchange 1002e1ec     coredll:COREDLL.dll
+ 0002:000001f0       __imp___report_gsfailure   1002e1f0     corelib1:COREDLL.dll
+ 0002:000001f4       __imp___security_gen_cookie2 1002e1f4     corelib1:COREDLL.dll
+ 0002:000001f8       __imp_MultiByteToWideChar  1002e1f8     coredll:COREDLL.dll
+ 0002:000001fc       __imp_StringCchCopyNW      1002e1fc     coredll:COREDLL.dll
+ 0002:00000200       __imp_lstrcmpiW            1002e200     coredll:COREDLL.dll
+ 0002:00000204       __imp_SystemTimeToFileTime 1002e204     coredll:COREDLL.dll
+ 0002:00000208       __imp_RegQueryValueExW     1002e208     coredll:COREDLL.dll
+ 0002:0000020c       __imp_InterlockedIncrement 1002e20c     coredll:COREDLL.dll
+ 0002:00000210       __imp_InterlockedDecrement 1002e210     coredll:COREDLL.dll
+ 0002:00000214       __imp_DeleteCriticalSection 1002e214     coredll:COREDLL.dll
+ 0002:00000218       __imp_InitializeCriticalSection 1002e218     coredll:COREDLL.dll
+ 0002:0000021c       __imp_FreeLibrary          1002e21c     coredll:COREDLL.dll
+ 0002:00000220       __imp_LoadLibraryW         1002e220     coredll:COREDLL.dll
+ 0002:00000224       __imp_NKDbgPrintfW         1002e224     coredll:COREDLL.dll
+ 0002:00000228       __imp_GetProcAddressW      1002e228     coredll:COREDLL.dll
+ 0002:0000022c       __imp_??3@YAXPAX@Z         1002e22c     corelib1:COREDLL.dll
+ 0002:00000230       __imp_memcmp               1002e230     corelib1:COREDLL.dll
+ 0002:00000234       __imp_??2@YAPAXI@Z         1002e234     corelib1:COREDLL.dll
+ 0002:00000238       __imp_wcschr               1002e238     corelib1:COREDLL.dll
+ 0002:0000023c       __imp_wcslen               1002e23c     corelib1:COREDLL.dll
+ 0002:00000240       __imp__wtol                1002e240     corelib1:COREDLL.dll
+ 0002:00000244       __imp_wcscmp               1002e244     corelib1:COREDLL.dll
+ 0002:00000248       __imp_memset               1002e248     corelib1:COREDLL.dll
+ 0002:0000024c       __imp__wcsicmp             1002e24c     corelib1:COREDLL.dll
+ 0002:00000250       __imp_memcpy               1002e250     corelib1:COREDLL.dll
+ 0002:00000254       __imp_??_V@YAXPAX@Z        1002e254     corelib1:COREDLL.dll
+ 0002:00000258       __imp_??_U@YAPAXI@Z        1002e258     corelib1:COREDLL.dll
+ 0002:0000025c       __imp_strcmp               1002e25c     corelib1:COREDLL.dll
+ 0002:00000260       __imp_memmove              1002e260     corelib1:COREDLL.dll
+ 0002:00000264       __imp_memcpy_s             1002e264     corelib1:COREDLL.dll
+ 0002:00000268       \177COREDLL_NULL_THUNK_DATA 1002e268     coredll:COREDLL.dll
+ 0002:0000026c       __imp_SystemTimeToVariantTime 1002e26c     oleaut32:OLEAUT32.dll
+ 0002:00000270       __imp_VariantTimeToSystemTime 1002e270     oleaut32:OLEAUT32.dll
+ 0002:00000274       __imp_SafeArrayCreateVector 1002e274     oleaut32:OLEAUT32.dll
+ 0002:00000278       __imp_SafeArrayAccessData  1002e278     oleaut32:OLEAUT32.dll
+ 0002:0000027c       __imp_SafeArrayUnaccessData 1002e27c     oleaut32:OLEAUT32.dll
+ 0002:00000280       __imp_SysStringByteLen     1002e280     oleaut32:OLEAUT32.dll
+ 0002:00000284       __imp_SysAllocStringByteLen 1002e284     oleaut32:OLEAUT32.dll
+ 0002:00000288       __imp_SysAllocString       1002e288     oleaut32:OLEAUT32.dll
+ 0002:0000028c       __imp_SysAllocStringLen    1002e28c     oleaut32:OLEAUT32.dll
+ 0002:00000290       __imp_SysStringLen         1002e290     oleaut32:OLEAUT32.dll
+ 0002:00000294       __imp_SysFreeString        1002e294     oleaut32:OLEAUT32.dll
+ 0002:00000298       \177OLEAUT32_NULL_THUNK_DATA 1002e298     oleaut32:OLEAUT32.dll
+ 0002:0000029c       __imp_CoTaskMemFree        1002e29c     ole32:ole32.dll
+ 0002:000002a0       __imp_GetHGlobalFromStream 1002e2a0     ole32:ole32.dll
+ 0002:000002a4       __imp_CoCreateGuid         1002e2a4     ole32:ole32.dll
+ 0002:000002a8       __imp_CreateStreamOnHGlobal 1002e2a8     ole32:ole32.dll
+ 0002:000002ac       __imp_StringFromGUID2      1002e2ac     ole32:ole32.dll
+ 0002:000002b0       __imp_CLSIDFromString      1002e2b0     ole32:ole32.dll
+ 0002:000002b4       __imp_CoUninitialize       1002e2b4     ole32:ole32.dll
+ 0002:000002b8       __imp_CoInitializeEx       1002e2b8     ole32:ole32.dll
+ 0002:000002bc       __imp_CoCreateInstance     1002e2bc     ole32:ole32.dll
+ 0002:000002c0       \177ole32_NULL_THUNK_DATA  1002e2c0     ole32:ole32.dll
+ 0002:000002c4       __imp_SafeMultiByteToWideChar 1002e2c4     ossvcs:ossvcs.dll
+ 0002:000002c8       __imp_SafeWideCharToMultiByte 1002e2c8     ossvcs:ossvcs.dll
+ 0002:000002cc       __imp_StreamCopyTo         1002e2cc     ossvcs:ossvcs.dll
+ 0002:000002d0       __imp_SAdd                 1002e2d0     ossvcs:ossvcs.dll
+ 0002:000002d4       __imp_?SafeLPWSTR@@YAPBGPBU_CEPROPVAL@@@Z 1002e2d4     ossvcs:ossvcs.dll
+ 0002:000002d8       __imp_ValidPhoneNumberInplaceStripInvalidCharacters 1002e2d8     ossvcs:ossvcs.dll
+ 0002:000002dc       __imp_WatsonReportFault    1002e2dc     ossvcs:ossvcs.dll
+ 0002:000002e0       __imp_QueryPolicyImpl      1002e2e0     ossvcs:ossvcs.dll
+ 0002:000002e4       __imp_SafeStrDup           1002e2e4     ossvcs:ossvcs.dll
+ 0002:000002e8       __imp_UMul                 1002e2e8     ossvcs:ossvcs.dll
+ 0002:000002ec       __imp_?StatStoreGetInfo@@YAJIPBKPAPAU_CEPROPVAL@@@Z 1002e2ec     ossvcs:ossvcs.dll
+ 0002:000002f0       __imp_InvStrCmpIW          1002e2f0     ossvcs:ossvcs.dll
+ 0002:000002f4       \177ossvcs_NULL_THUNK_DATA 1002e2f4     ossvcs:ossvcs.dll
+ 0002:000002f8       __imp_PathCreateFromUrlW   1002e2f8     shlwapi:shlwapi.dll
+ 0002:000002fc       __imp_PathIsUNCW           1002e2fc     shlwapi:shlwapi.dll
+ 0002:00000300       __imp_PathMatchSpecW       1002e300     shlwapi:shlwapi.dll
+ 0002:00000304       __imp_UrlIsW               1002e304     shlwapi:shlwapi.dll
+ 0002:00000308       \177shlwapi_NULL_THUNK_DATA 1002e308     shlwapi:shlwapi.dll
+ 0002:00000320       ?g_rgServiceProps@@3PAUSServiceProp@@A 1002e320     ServiceNamedProps.obj
+ 0002:000003d0       ?g_szHexCharsUpper@@3PADA  1002e3d0     mailutil_misc:hexconv.obj
+ 0002:00000ba4       ?g_uiDefaultCodePage@@3IA  1002eba4     mailutil_vcal:icalinterface.obj
+ 0002:00000ba8       ?g_chCR@@3DA               1002eba8     mailutil_vcal:icalinterface.obj
+ 0002:00000ba9       ?g_chLF@@3DA               1002eba9     mailutil_vcal:icalinterface.obj
+ 0002:00000baa       ?g_chEQUAL@@3DA            1002ebaa     mailutil_vcal:icalinterface.obj
+ 0002:00000bab       ?g_chSPACE@@3DA            1002ebab     mailutil_vcal:icalinterface.obj
+ 0002:00000bac       ?g_chTAB@@3DA              1002ebac     mailutil_vcal:icalinterface.obj
+ 0002:00000c04       ?ICal_Table@@3UPrfHashTable@@A 1002ec04     mailutil_vcal:icalkeywords.obj
+ 0002:00000c28       ?ICal_Slot@@3PAUPrfHashTblSlot@@A 1002ec28     mailutil_vcal:icalkeywords.obj
+ 0002:00001280       ?ICal_Partition@@3PAUPrfHashPartition@@A 1002f280     mailutil_vcal:icalkeywords.obj
+ 0002:00001594       __security_cookie          1002f594     corelib0:seccinit.obj
+ 0002:00001598       __security_cookie_complement 1002f598     corelib0:seccinit.obj
+ 0002:000015a8       ?ghInstRes@@3PAUHINSTANCE__@@A 1002f5a8     dllmain.obj
+ 0002:000015ac       ?g_hinstPhone@@3PAUHINSTANCE__@@A 1002f5ac     dllmain.obj
+ 0002:000015b0       ?g_hinstNCrypt@@3PAUHINSTANCE__@@A 1002f5b0     dllmain.obj
+ 0002:000015b4       ?g_hinstCrypt32@@3PAUHINSTANCE__@@A 1002f5b4     dllmain.obj
+ 0002:000015b8       ?g_hinstPimstore@@3PAUHINSTANCE__@@A 1002f5b8     dllmain.obj
+ 0002:000015bc       ?g_pMLang2@@3PAUIMultiLanguage2@@A 1002f5bc     dllmain.obj
+ 0002:000015c0       ?g_szImageExtensions@@3PBGB 1002f5c0     dllmain.obj
+ 0002:000015c4       g_hinstSyncMgr             1002f5c4     dllmain.obj
+ 0002:000015f8       ?g_cObj@@3JA               1002f5f8     factory.obj
+ 0002:000015fc       ??_B?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@51 1002f5fc     factory.obj
+ 0002:00001600       ?cs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@3@XZ@4V43@A 1002f600     factory.obj
+ 0002:00001614       ?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A 1002f614     factory.obj
+ 0002:00001648       ?g_chSMSDigits@@3PAGA      1002f648     mailutil_misc:utils_misc.obj
+ 0002:00001688       ?g_cchSMSDigits@@3HA       1002f688     mailutil_misc:utils_misc.obj
+ 0002:00001690       ?g_fHaveCodePageFromMime@@3HA 1002f690     mailutil_vcal:icalinterface.obj
+ 0002:00001694       ?g_rgchBuffer@@3PADA       1002f694     mailutil_vcal:ICalParser.obj
+ 0002:000016b4       ?g_pszCharSet@@3PADA       1002f6b4     mailutil_vcal_cebase:icalPoomIface.obj
+ 0002:000016b8       ?g_uiCodePage@@3IA         1002f6b8     mailutil_vcal_cebase:icalPoomIface.obj
+ 0002:000016c4       ?ms_pInstance@CMAPINotifyRedirector@@0PAV1@A 1002f6c4     MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0002:000016c8       ?ms_fOutsideSourceSession@CMAPINotifyRedirector@@0HA 1002f6c8     MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0002:000016cc       ?ms_cs@CMAPINotifyRedirector@@0VSaferCriticalSection@@A 1002f6cc     MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0002:000016e0       ?ms_pSession@CMAPINotifyRedirector@@0V?$CComPtr@UIMAPISession@@@ATL@@A 1002f6e0     MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0002:000016e4       __@@_PchSym_@00@UygUDBFDUkirezgvUzkkhUlfgollpUhszivwUnhtoryhUnrnvzwwiUlyqUzineHUivgzroUkivxlnkOlyq@msglib_mimeaddr 1002f6e4     msglib_mimeaddr:precomp.obj
+ 0002:000017ac       ?g_pcsLock@@3PAUCRITICAL_SECTION@@A 1002f7ac     sqmproxy:sqmproxy.obj
+ 0002:000017b0       _exitflag                  1002f7b0     corelib0:cexit.obj
+ 0002:000017b4       __onexitend                1002f7b4     <common>
+ 0002:000017b8       __onexitbegin              1002f7b8     <common>
+ 0002:000017bc       g_pcsExit                  1002f7bc     <common>
+ 0002:000017c0       _pRawDllMain               1002f7c0     <common>
+
+ entry point at        0001:00028f48
+
+ Static symbols
+
+ 0001:00009d7c       ?_GetDefHeaderCPInfo@@YAJPAI@Z 1000ad7c f   mailutil_misc:utils_misc.obj
+ 0001:00009ea8       ?_GetCodePageInfo@@YAJPADPAI@Z 1000aea8 f   mailutil_misc:utils_misc.obj
+ 0001:000274ec       ?GetTransportString@@YAJW4AccountType@@PAPAGW4RegValueNameID@@@Z 100284ec f   msglib_accountname:AccountName.obj
+ 0001:00028e58       _DllMainCRTStartupHelper   10029e58 f   corelib0:pegdmain.obj
+ 0001:00029214       doexit                     1002a214 f   corelib0:cexit.obj
+ 0001:0002b424       ??__E?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A@@YAXXZ 1002c424 f   factory.obj
+ 0001:0002b428       ??__ErgSPlusNamedProps@@YAXXZ 1002c428 f   mailutil_misc:mapiprops.obj
+ 0001:0002bf10       ??__Eg_uiCodePage@@YAXXZ   1002cf10 f   mailutil_vcal_cebase:icalPoomIface.obj
+ 0001:0002bf2c       ??__E?ms_cs@CMAPINotifyRedirector@@0VSaferCriticalSection@@A@@YAXXZ 1002cf2c f   MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0001:0002bf4c       ??__E?ms_pSession@CMAPINotifyRedirector@@0V?$CComPtr@UIMAPISession@@@ATL@@A@@YAXXZ 1002cf4c f   MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0001:0002bf64       ??__F?ms_cs@CMAPINotifyRedirector@@0VSaferCriticalSection@@A@@YAXXZ 1002cf64 f   MailUtil_NotifyRedirector:NotifyRedirector.obj
+ 0001:0002bf70       ??__F?ms_pSession@CMAPINotifyRedirector@@0V?$CComPtr@UIMAPISession@@@ATL@@A@@YAXXZ 1002cf70 f   MailUtil_NotifyRedirector:NotifyRedirector.obj
+
+ Exports
+
+  ordinal    name
+
+        1    ?SvcParseDate@@YAJPAU_FILETIME@@PBD@Z (long __cdecl SvcParseDate(struct _FILETIME *,char const *))
+        2    ?Decode1522HeaderField@@YAXPAPAD0PAI@Z (void __cdecl Decode1522HeaderField(char * *,char * *,unsigned int *))
+        3    DllCanUnloadNow
+        4    ?CreateTnefEncoder@@YAJPAPAVITnefEncoder@@@Z (long __cdecl CreateTnefEncoder(class ITnefEncoder * *))
+        5    ?CreateTnefDecoder@@YAJPAPAVITnefDecoder@@@Z (long __cdecl CreateTnefDecoder(class ITnefDecoder * *))
+        6    DllGetClassObject
+        7    ?GetMAPIStorePropTags@@YAHPAU_SPropTagArray@@@Z (int __cdecl GetMAPIStorePropTags(struct _SPropTagArray *))
+        8    ?IsMessageClassSPlusV2@@YAHPAG@Z (int __cdecl IsMessageClassSPlusV2(unsigned short *))
+        9    ?RemoveServiceMessagesFromFolder@@YAJPAUIMAPIFolder@@PBG@Z (long __cdecl RemoveServiceMessagesFromFolder(struct IMAPIFolder *,unsigned short const *))
+       10    ?GetMsgClassEnum@@YA?AW4eMsgClass@@PAG@Z (enum eMsgClass __cdecl GetMsgClassEnum(unsigned short *))
+       11    ?CreateTempFileStm@@YAJPAPAUIStream@@@Z (long __cdecl CreateTempFileStm(struct IStream * *))
+       12    ?FileTimeToStr@@YAJPBU_FILETIME@@KKPAPAG@Z (long __cdecl FileTimeToStr(struct _FILETIME const *,unsigned long,unsigned long,unsigned short * *))
+       13    ?CreateBase64StreamFilter@@YAJPAUIStream@@PAPAU1@@Z (long __cdecl CreateBase64StreamFilter(struct IStream *,struct IStream * *))
+       14    ?CreateUUDecodeStreamFilter@@YAJPAUIStream@@PAPAU1@@Z (long __cdecl CreateUUDecodeStreamFilter(struct IStream *,struct IStream * *))
+       15    ?CreateBinHexDecodeStreamFilter@@YAJPAUIStream@@PAPAU1@@Z (long __cdecl CreateBinHexDecodeStreamFilter(struct IStream *,struct IStream * *))
+       16    ?CreateQPDecodeStreamFilter@@YAJPAUIStream@@PAPAU1@@Z (long __cdecl CreateQPDecodeStreamFilter(struct IStream *,struct IStream * *))
+       17    ?CreateIcalParser@@YAJPAPAVIIcalParser@@@Z (long __cdecl CreateIcalParser(class IIcalParser * *))
+               exported name: CreateIcalParser
+       21    ?ModifiedUTF7Decode@@YAJPAGK@Z (long __cdecl ModifiedUTF7Decode(unsigned short *,unsigned long))
+       22    ?UnicodeToModifiedUTF7@@YAHPBGHPADH@Z (int __cdecl UnicodeToModifiedUTF7(unsigned short const *,int,char *,int))
+       26    ?StringToBytes@@YAXPBGPAEI@Z (void __cdecl StringToBytes(unsigned short const *,unsigned char *,unsigned int))
+       27    ?BytesToDigits@@YAIPBEKPAG@Z (unsigned int __cdecl BytesToDigits(unsigned char const *,unsigned long,unsigned short *))
+       28    ?GetAddressType@@YAPBGPBGPAH1@Z (unsigned short const * __cdecl GetAddressType(unsigned short const *,int *,int *))
+       34    ?ConvertToWideHeader@@YAJIPADHPAGPAI@Z (long __cdecl ConvertToWideHeader(unsigned int,char *,int,unsigned short *,unsigned int *))
+       35    ?EcUidToGlobalObjId@@YAJPBGAAU_SYSTEMTIME@@PAU_CEBLOB@@@Z (long __cdecl EcUidToGlobalObjId(unsigned short const *,struct _SYSTEMTIME &,struct _CEBLOB *))
+       36    ?EcGlobalObjIdToUid@@YAJPBU_CEBLOB@@PAPAGPAU_SYSTEMTIME@@@Z (long __cdecl EcGlobalObjIdToUid(struct _CEBLOB const *,unsigned short * *,struct _SYSTEMTIME *))
+       38    ?CreateIcalParserEx@@YAJPAPAVIIcalParser@@PAD1@Z (long __cdecl CreateIcalParserEx(class IIcalParser * *,char *,char *))
+       40    ?CallSender@@YAHPAUHWND__@@PAUIMessage@@K@Z (int __cdecl CallSender(struct HWND__ *,struct IMessage *,unsigned long))
+       41    ?GetWideSz@@YAJPADPAPAG@Z (long __cdecl GetWideSz(char *,unsigned short * *))
+       42    ?ParseAddress@@YAJPBGPAPAG1@Z (long __cdecl ParseAddress(unsigned short const *,unsigned short * *,unsigned short * *))
+       43    ?GetSMSMessageStore@@YAJPAUIMAPISession@@PAPAUIMsgStore@@@Z (long __cdecl GetSMSMessageStore(struct IMAPISession *,struct IMsgStore * *))
+       44    ?SendAdministrativeResultSMS@@YAJPAG0K@Z (long __cdecl SendAdministrativeResultSMS(unsigned short *,unsigned short *,unsigned long))
+       45    ?SetWindowAndTrayText@@YAHPAUHWND__@@PBG@Z (int __cdecl SetWindowAndTrayText(struct HWND__ *,unsigned short const *))
+       46    ?InitializeServiceProps@@YAJPAUIMsgStore@@PAPAUSServiceProp@@@Z (long __cdecl InitializeServiceProps(struct IMsgStore *,struct SServiceProp * *))
+       48    ?ParseFirstAddress@@YAJPBGPAPAG1@Z (long __cdecl ParseFirstAddress(unsigned short const *,unsigned short * *,unsigned short * *))
+       49    MimeParseAddress
+       50    MimeFreeAddressList
+       51    ?AddressListsToAdrList@@YAJPAUtagADDRESSLIST@@PAKKPAPAU_ADRLIST@@@Z (long __cdecl AddressListsToAdrList(struct tagADDRESSLIST *,unsigned long *,unsigned long,struct _ADRLIST * *))
+       52    ?GetMsgStoreFromMessage@@YAJPAUIMessage@@PAPAUIMsgStore@@@Z (long __cdecl GetMsgStoreFromMessage(struct IMessage *,struct IMsgStore * *))
+       53    ?GetMultiLanguage2@@YAJPAPAUIMultiLanguage2@@@Z (long __cdecl GetMultiLanguage2(struct IMultiLanguage2 * *))
+       54    GetDisplayName2
+       55    GetAbbreviation
+       56    GetNewMessageString
+       57    GetMessageSentString
+       58    GetSendMessageString
+       59    GetDeleteMessagesString
+       61    GetDisplayName
+       63    TransportNameToDisplayName
+       64    ?TranslateToDeviceImportance@@YAKPAGW4MIMEHEADER_T@@@Z (unsigned long __cdecl TranslateToDeviceImportance(unsigned short *,enum MIMEHEADER_T))
+       65    ?TranslateToExchangeImportance@@YAJKW4MIMEHEADER_T@@PAPAG@Z (long __cdecl TranslateToExchangeImportance(unsigned long,enum MIMEHEADER_T,unsigned short * *))
+       66    ?ConvertToMultiByte@@YAJPAGPAPADI@Z (long __cdecl ConvertToMultiByte(unsigned short *,char * *,unsigned int))
+       78    ?GetAddressTypeEx@@YAPBGPBGPAH11@Z (unsigned short const * __cdecl GetAddressTypeEx(unsigned short const *,int *,int *,int *))
+       79    WrapCompressedRTFStream
+       81    ?FullWidthToHalfWidth@@YAJPAGPAPAG@Z (long __cdecl FullWidthToHalfWidth(unsigned short *,unsigned short * *))
+       82    ?GetBestPhoneForItem@@YAJPAUIItem2@@PAPAG@Z (long __cdecl GetBestPhoneForItem(struct IItem2 *,unsigned short * *))
+       85    ?IsSupportedCodepage@@YAHI@Z (int __cdecl IsSupportedCodepage(unsigned int))
+       87    ?TargetSecurityCheck@@YAJPBG@Z (long __cdecl TargetSecurityCheck(unsigned short const *))
+       92    ?IsMsgAirSync@@YAHPAUIMessage@@@Z (int __cdecl IsMsgAirSync(struct IMessage *))
+       99    ?QuerySmsOptionUi@@YAKW4SMSOPTUI@@@Z (unsigned long __cdecl QuerySmsOptionUi(enum SMSOPTUI))
+      100    ?GetBoldDlgFont@@YAPAUHFONT__@@PAUHWND__@@@Z (struct HFONT__ * __cdecl GetBoldDlgFont(struct HWND__ *))
+      102    GetSupportedImageFileExtensions
+      109    ?IsMessageClassDeviceGenerated@@YAHW4eMsgClass@@PAG@Z (int __cdecl IsMessageClassDeviceGenerated(enum eMsgClass,unsigned short *))
+      116    ?IsMessageClassReadRequest@@YAHPAG@Z (int __cdecl IsMessageClassReadRequest(unsigned short *))
+      118    ?MsgClassSupportsIRM@@YAHW4eMsgClass@@@Z (int __cdecl MsgClassSupportsIRM(enum eMsgClass))
+      119    ?MsgClassSupportsSMIME@@YAHW4eMsgClass@@@Z (int __cdecl MsgClassSupportsSMIME(enum eMsgClass))
+      120    ?MsgSqmIncrement@@YAXK@Z (void __cdecl MsgSqmIncrement(unsigned long))
+      121    ?MsgSqmIncrementPacked@@YAXKW4MSGSQMPACKING@@@Z (void __cdecl MsgSqmIncrementPacked(unsigned long,enum MSGSQMPACKING))
+      122    ?MsgSqmIncrementForService@@YAXKPBGW4MSGSQMINCTOTAL@@@Z (void __cdecl MsgSqmIncrementForService(unsigned long,unsigned short const *,enum MSGSQMINCTOTAL))
+      130    CreateMAPITableWalker
+      132    ?GetMsgClassEnumFromMsg@@YAJPAUIMessage@@PAW4eMsgClass@@@Z (long __cdecl GetMsgClassEnumFromMsg(struct IMessage *,enum eMsgClass *))
+      300    ?GetAttachmentInfo@@YAJPAUIMsgWrapper@@PAVMsgAttachInfo@@@Z (long __cdecl GetAttachmentInfo(struct IMsgWrapper *,class MsgAttachInfo *))
+      303    ?IsHTMLEnabled@@YAHXZ (int __cdecl IsHTMLEnabled(void))
+      304    ?GetSecurityDialogShowState@@YAJW4SecurityDialogType@@PAH@Z (long __cdecl GetSecurityDialogShowState(enum SecurityDialogType,int *))
+      305    ?SetSecurityDialogShowState@@YAJW4SecurityDialogType@@H@Z (long __cdecl SetSecurityDialogShowState(enum SecurityDialogType,int))
+      306    ?ConvertWideStreamToMultiByte@@YAJIPAUIStream@@PAPAU1@@Z (long __cdecl ConvertWideStreamToMultiByte(unsigned int,struct IStream *,struct IStream * *))
+      307    ?GetNarrowSzCodepage@@YAJPBGPAPADI@Z (long __cdecl GetNarrowSzCodepage(unsigned short const *,char * *,unsigned int))
+      308    ?GetWideSzAlloc@@YAJIPBDPAPAG@Z (long __cdecl GetWideSzAlloc(unsigned int,char const *,unsigned short * *))
+      310    ?HTMLDocToPlainTextStringW@@YAJPAUIHTMLDocument2@@PAPAG@Z (long __cdecl HTMLDocToPlainTextStringW(struct IHTMLDocument2 *,unsigned short * *))
+      311    ?HTMLStreamAToPlainTextStreamW@@YAJPAUIStream@@PAPAU1@I@Z (long __cdecl HTMLStreamAToPlainTextStreamW(struct IStream *,struct IStream * *,unsigned int))
+      313    ?HTMLStringWToPlainTextStringW@@YAJPBGPAPAG@Z (long __cdecl HTMLStringWToPlainTextStringW(unsigned short const *,unsigned short * *))
+      314    ?ReadStreamContent@@YAJPAUIStream@@PAPAGJ@Z (long __cdecl ReadStreamContent(struct IStream *,unsigned short * *,long))
+      315    ?ReadStreamContentA@@YAJPAUIStream@@PAPADJ@Z (long __cdecl ReadStreamContentA(struct IStream *,char * *,long))
+      319    ?GetAirSyncCPID@@YAJPAUIMessage@@PAI@Z (long __cdecl GetAirSyncCPID(struct IMessage *,unsigned int *))
+      320    ?GetSignerCertInfo@@YAJPAXPAPBU_CERT_CONTEXT@@@Z (long __cdecl GetSignerCertInfo(void *,struct _CERT_CONTEXT const * *))
+      321    ?DoesConformSoftwareCertPolicy@@YAHPBU_CERT_CONTEXT@@@Z (int __cdecl DoesConformSoftwareCertPolicy(struct _CERT_CONTEXT const *))
+      322    ?IsSMIMESigningForcedByDevicePolicy@@YAHXZ (int __cdecl IsSMIMESigningForcedByDevicePolicy(void))
+      323    ?IsSMIMEEncryptionForcedByDevicePolicy@@YAHXZ (int __cdecl IsSMIMEEncryptionForcedByDevicePolicy(void))
+      325    ?GetSignatureText@@YAJPAUIMsgStore@@HPAPAG@Z (long __cdecl GetSignatureText(struct IMsgStore *,int,unsigned short * *))
+      327    ?GetWideSzMapiAllocMore@@YAJIPADPAPAGPAU_SPropValue@@@Z (long __cdecl GetWideSzMapiAllocMore(unsigned int,char *,unsigned short * *,struct _SPropValue *))
+      328    ?ConvertToWideStream@@YAJIPAUIStream@@PAPAU1@@Z (long __cdecl ConvertToWideStream(unsigned int,struct IStream *,struct IStream * *))
+      329    ?IsAttachmentEmbedded@@YAHPAG00@Z (int __cdecl IsAttachmentEmbedded(unsigned short *,unsigned short *,unsigned short *))
+      330    ?GetPhoneStatus@@YAJPAK@Z (long __cdecl GetPhoneStatus(unsigned long *))
+      331    ?MakeCall@@YAJPAUHWND__@@PBG1@Z (long __cdecl MakeCall(struct HWND__ *,unsigned short const *,unsigned short const *))
+      333    ?CreateHTMLDocFromStringA@@YAJPBDIPAPAUIHTMLDocument2@@@Z (long __cdecl CreateHTMLDocFromStringA(char const *,unsigned int,struct IHTMLDocument2 * *))
+      334    ?CreateHTMLDocFromStringW@@YAJPBGPAPAUIHTMLDocument2@@@Z (long __cdecl CreateHTMLDocFromStringW(unsigned short const *,struct IHTMLDocument2 * *))
+      335    ?GetAccountInboxUnreadCount@@YAJPAUIMsgStore@@PAK@Z (long __cdecl GetAccountInboxUnreadCount(struct IMsgStore *,unsigned long *))
+      337    ?CreateWrapFileNameStm@@YAJPAGHHPAPAUIStream@@@Z (long __cdecl CreateWrapFileNameStm(unsigned short *,int,int,struct IStream * *))
+      338    MAPI_GetStoreByName
+      339    ?GetShellNotificationGuid@@YAJPAUIMsgStore@@PAU_GUID@@@Z (long __cdecl GetShellNotificationGuid(struct IMsgStore *,struct _GUID *))
+      340    CreateWelcomeEmails
+      341    ?MsgSqmIncrementForSendRecv@@YAXPAUIMsgStore@@W4MSGSQMEMAILACTIONS@@K@Z (void __cdecl MsgSqmIncrementForSendRecv(struct IMsgStore *,enum MSGSQMEMAILACTIONS,unsigned long))
+      342    ?MsgSqmRecordStreamDataForWizard@@YAXPAUMsgSqmWizardData@@@Z (void __cdecl MsgSqmRecordStreamDataForWizard(struct MsgSqmWizardData *))
+      343    ?GetNotifyRedirectorInstance@@YAJPAPAUIMAPINotifyRedirector@@@Z (long __cdecl GetNotifyRedirectorInstance(struct IMAPINotifyRedirector * *))
+      344    ?IsActiveSyncAccountConfigured@@YAHXZ (int __cdecl IsActiveSyncAccountConfigured(void))
+      345    ?GetEmailEngineInformation@@YAJPAU_GUID@@0@Z (long __cdecl GetEmailEngineInformation(struct _GUID *,struct _GUID *))
+      348    ?DuplicateNotification@@YAJQAU_NOTIFICATION@@PAPAU1@@Z (long __cdecl DuplicateNotification(struct _NOTIFICATION * const,struct _NOTIFICATION * *))

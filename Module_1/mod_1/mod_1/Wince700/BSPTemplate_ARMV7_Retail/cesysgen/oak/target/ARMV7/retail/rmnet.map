@@ -1,0 +1,317 @@
+ RmNet
+
+ Timestamp is 5ac64a2d (Thu Apr 05 09:09:17 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000008H .CRT$XCU                CODE
+ 0001:0000000c 00000004H .CRT$XCZ                CODE
+ 0001:00000010 00000004H .CRT$XIA                CODE
+ 0001:00000014 00000004H .CRT$XIZ                CODE
+ 0001:00000018 00000004H .CRT$XPA                CODE
+ 0001:0000001c 00000004H .CRT$XPZ                CODE
+ 0001:00000020 00000004H .CRT$XTA                CODE
+ 0001:00000024 00000004H .CRT$XTZ                CODE
+ 0001:00000030 00000118H .rdata                  CODE
+ 0001:00000148 00000022H .rdata$debug            CODE
+ 0001:0000016c 00004fdcH .text                   CODE
+ 0001:00005148 00000008H .text$yc                CODE
+ 0001:00005150 00000018H .text$yd                CODE
+ 0001:00005168 00000044H .xdata                  CODE
+ 0001:000051ac 00000014H .idata$2                CODE
+ 0001:000051c0 00000014H .idata$3                CODE
+ 0001:000051d4 00000094H .idata$4                CODE
+ 0001:00005268 0000000cH .idata$6                CODE
+ 0001:00005280 00000112H .edata                  CODE
+ 0002:00000000 00000094H .idata$5                DATA
+ 0002:00000098 00000450H .data                   DATA
+ 0002:000004f0 00000268H .bss                    DATA
+ 0003:00000000 000004e8H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:0000000c       __xc_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xi_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xi_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xp_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xp_z                     1000101c     corelib0:crt0init.obj
+ 0001:00000020       __xt_a                     10001020     corelib0:crt0init.obj
+ 0001:00000024       __xt_z                     10001024     corelib0:crt0init.obj
+ 0001:0000004c       ??_C@_11LOCGONAA@?$AA?$AA@ 1000104c     RmNetAccountPriority.obj
+ 0001:00000054       ??_7AccountPriority@@6B@   10001054     RmNetAccountPriority.obj
+ 0001:00000058       ??_7Provider@@6B@          10001058     RmNetProvider.obj
+ 0001:0000005c       ??_C@_1BM@MLKLCNPE@?$AAR?$AAs?$AAp?$AAI?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz?$AAe?$AA?$AA@ 1000105c     RmNetProvider.obj
+ 0001:00000078       ??_C@_1CG@KEGICPHH@?$AAR?$AAs?$AAp?$AAG?$AAe?$AAt?$AAR?$AAe?$AAs?$AAo?$AAu?$AAr?$AAc?$AAe?$AAI?$AAn?$AAf?$AAo?$AA?$AA@ 10001078     RmNetProvider.obj
+ 0001:000000a0       ??_C@_1CA@BIDLJPEM@?$AAR?$AAs?$AAp?$AAD?$AAe?$AAi?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz?$AAe?$AA?$AA@ 100010a0     RmNetProvider.obj
+ 0001:000000c0       ??_C@_1BG@HDCCFGCG@?$AAR?$AAs?$AAp?$AAR?$AAe?$AAl?$AAe?$AAa?$AAs?$AAe?$AA?$AA@ 100010c0     RmNetProvider.obj
+ 0001:000000d8       ??_C@_1BG@OJKPDCBG@?$AAR?$AAs?$AAp?$AAA?$AAc?$AAq?$AAu?$AAi?$AAr?$AAe?$AA?$AA@ 100010d8     RmNetProvider.obj
+ 0001:000000f0       ??_7Resource@@6B@          100010f0     RmNetResource.obj
+ 0001:000000f4       ??_C@_17DJMMGLBL@?$AAD?$AAl?$AAl?$AA?$AA@ 100010f4     RmNetResourceManager.obj
+ 0001:000000fc       ??_7ResourceManager@@6B@   100010fc     RmNetResourceManager.obj
+ 0001:00000108       ??_C@_1DM@NHMAEOPO@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAC?$AAo?$AAn?$AAn?$AAM?$AAg?$AAr?$AA?2?$AAR?$AAe?$AAs?$AAM?$AAg?$AAr?$AA?2?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AAs?$AA?$AA@ 10001108     RmNetResourceManager.obj
+ 0001:00000144       ??_7UsageInfo@@6B@         10001144     RmNetUsageInfo.obj
+ 0001:0000016c       ?get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ 1000116c f i RmNetApi.obj
+ 0001:000001c0       ?get_lock@?$singleton@VResourceManager@@$0A@V?$static_allocator@VResourceManager@@$0A@@ce@@@ce@@KAAAVcritical_section@2@XZ 100011c0 f i RmNetApi.obj
+ 0001:00000214       ?create@?$singleton@VResourceManager@@$0A@V?$static_allocator@VResourceManager@@$0A@@ce@@@ce@@KAXXZ 10001214 f i RmNetApi.obj
+ 0001:00000278       RmInitialize               10001278 f   RmNetApi.obj
+ 0001:000002f0       RmDeinitialize             100012f0 f   RmNetApi.obj
+ 0001:00000338       RmOpenResource             10001338 f   RmNetApi.obj
+ 0001:0000038c       RmCloseResource            1000138c f   RmNetApi.obj
+ 0001:000003e8       RmGetResourceInfo          100013e8 f   RmNetApi.obj
+ 0001:00000458       RmAcquire                  10001458 f   RmNetApi.obj
+ 0001:000004c8       RmRelease                  100014c8 f   RmNetApi.obj
+ 0001:00000520       RmAddToResource            10001520 f   RmNetApi.obj
+ 0001:00000580       RmRemoveFromResource       10001580 f   RmNetApi.obj
+ 0001:000005e0       ?GetPriority@AccountPriority@@QBAKXZ 100015e0 f   RmNetAccountPriority.obj
+ 0001:000005e8       ?_Grow@?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@IAA_NI@Z 100015e8 f i RmNetAccountPriority.obj
+ 0001:00000678       ?_Grow@?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@IAA_NI@Z 10001678 f i RmNetAccountPriority.obj
+ 0001:00000708       ??1AccountPriority@@UAA@XZ 10001708 f   RmNetAccountPriority.obj
+ 0001:0000072c       ?assign@?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@QAA_NPBGII@Z 1000172c f i RmNetAccountPriority.obj
+ 0001:00000794       ?assign@?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@QAA_NPBGII@Z 10001794 f i RmNetAccountPriority.obj
+ 0001:000007fc       ??_EAccountPriority@@UAAPAXI@Z 100017fc f i RmNetAccountPriority.obj
+ 0001:000007fc       ??_GAccountPriority@@UAAPAXI@Z 100017fc f i RmNetAccountPriority.obj
+ 0001:0000083c       ??0AccountPriority@@QAA@XZ 1000183c f   RmNetAccountPriority.obj
+ 0001:00000880       ??0AccountPriority@@QAA@ABV0@@Z 10001880 f   RmNetAccountPriority.obj
+ 0001:000008e4       ?Initialize@AccountPriority@@QAAHKH@Z 100018e4 f   RmNetAccountPriority.obj
+ 0001:00000988       ?GetName@AccountPriority@@QBAHPAV?$_string_t@G$0BA@U?$i_char_traits@G@ce@@Vallocator@2@@ce@@@Z 10001988 f   RmNetAccountPriority.obj
+ 0001:000009c0       DllMain                    100019c0 f   RmNetDll.obj
+ 0001:000009d4       ?GetName@Provider@@QAAABV?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@XZ 100019d4 f   RmNetProvider.obj
+ 0001:000009dc       ?SuspendResumeHandler@Provider@@AAAXPBXK@Z 100019dc f   RmNetProvider.obj
+ 0001:00000a24       ?GetResourceInfo@Provider@@QAA?AW4RM_RESULT@@PBU_GUID@@PAURM_RESOURCE_INFO@@K@Z 10001a24 f   RmNetProvider.obj
+ 0001:00000a7c       ?Acquire@Provider@@QAA?AW4RM_RESULT@@PBU_GUID@@PAK@Z 10001a7c f   RmNetProvider.obj
+ 0001:00000acc       ?Release@Provider@@QAA?AW4RM_RESULT@@K@Z 10001acc f   RmNetProvider.obj
+ 0001:00000af8       ?_Buynode@?$list@V?$smart_ptr@VResource@@@ce@@Vallocator@2@@ce@@IAAPAU?$_ListNode@V?$smart_ptr@VResource@@@ce@@@list_impl@2@PAU342@@Z 10001af8 f i RmNetProvider.obj
+ 0001:00000b44       ?allocate@?$free_list@$0GE@Vallocator@ce@@@ce@@QBAPAXI@Z 10001b44 f i RmNetProvider.obj
+ 0001:00000bb4       ?deallocate@?$free_list@$0GE@Vallocator@ce@@@ce@@QBAXPAXI@Z 10001bb4 f i RmNetProvider.obj
+ 0001:00000c14       ??_G?$free_list@$0GE@Vallocator@ce@@@ce@@QAAPAXI@Z 10001c14 f i RmNetProvider.obj
+ 0001:00000c60       ?create@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAXXZ 10001c60 f i RmNetProvider.obj
+ 0001:00000cd8       ?release@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@SAXXZ 10001cd8 f i RmNetProvider.obj
+ 0001:00000d44       ?create@?$_ref_counting_t@V?$singleton_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@@ce@@IAA_NXZ 10001d44 f i RmNetProvider.obj
+ 0001:00000d80       ?release@?$_ref_counting_t@V?$singleton_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@@ce@@IAA_NXZ 10001d80 f i RmNetProvider.obj
+ 0001:00000de0       ??0?$auto_xxx@PAVResource@@P6AXPAV1@@Z$1??$_delete@VResource@@@ce@@YAX0@Z$0A@V?$_ref_counting_t@V?$singleton_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@@2@@ce@@QAA@PAVResource@@@Z 10001de0 f i RmNetProvider.obj
+ 0001:00000e3c       ??0?$auto_xxx@PAVResource@@P6AXPAV1@@Z$1??$_delete@VResource@@@ce@@YAX0@Z$0A@V?$_ref_counting_t@V?$singleton_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@@2@@ce@@QAA@ABV01@@Z 10001e3c f i RmNetProvider.obj
+ 0001:00000e84       ??_G?$smart_ptr@VResource@@@ce@@QAAPAXI@Z 10001e84 f i RmNetProvider.obj
+ 0001:00000ec8       ??$insert@V?$smart_ptr@VResource@@@ce@@@?$list@V?$smart_ptr@VResource@@@ce@@Vallocator@2@@ce@@QAA?AV?$iterator@V?$smart_ptr@VResource@@@ce@@@list_impl@1@V231@ABV?$smart_ptr@VResource@@@1@@Z 10001ec8 f i RmNetProvider.obj
+ 0001:00000f18       ?GetResourceById@Provider@@AAA?AV?$smart_ptr@VResource@@@ce@@PBU_GUID@@@Z 10001f18 f   RmNetProvider.obj
+ 0001:00000f80       ?IsResourceIdSupported@Provider@@QAAHPBU_GUID@@@Z 10001f80 f   RmNetProvider.obj
+ 0001:00000fd8       ?SetNotifications@Provider@@QAAHPBU_GUID@@H@Z 10001fd8 f   RmNetProvider.obj
+ 0001:00001078       ?erase@?$list@V?$smart_ptr@VResource@@@ce@@Vallocator@2@@ce@@QAA?AV?$iterator@V?$smart_ptr@VResource@@@ce@@@list_impl@2@V342@@Z 10002078 f i RmNetProvider.obj
+ 0001:000010e4       ?SendResourceNotification@Provider@@AAAXPBU_GUID@@W4RM_NOTIFICATION_TYPE@@PBXK@Z 100020e4 f   RmNetProvider.obj
+ 0001:00001168       ?ResourceAvailabilityHandler@Provider@@AAAXPBXK@Z 10002168 f   RmNetProvider.obj
+ 0001:000011a4       ?ResourceRoamingHandler@Provider@@AAAXPBXK@Z 100021a4 f   RmNetProvider.obj
+ 0001:000011e0       ?ResourceNetworkTypeHandler@Provider@@AAAXPBXK@Z 100021e0 f   RmNetProvider.obj
+ 0001:0000121c       ?RspCallbackHandler@Provider@@AAAXW4RM_NOTIFICATION_TYPE@@PBXK@Z 1000221c f   RmNetProvider.obj
+ 0001:00001284       ?erase@?$list@V?$smart_ptr@VResource@@@ce@@Vallocator@2@@ce@@QAA?AV?$iterator@V?$smart_ptr@VResource@@@ce@@@list_impl@2@V342@0@Z 10002284 f i RmNetProvider.obj
+ 0001:000012dc       ?RspNotifyCallback@@YAXW4RM_NOTIFICATION_TYPE@@KPBXK@Z 100022dc f i RmNetProvider.obj
+ 0001:000012f4       ?InitializeRsp@Provider@@AAAHXZ 100022f4 f   RmNetProvider.obj
+ 0001:000014fc       ?Deinitialize@Provider@@QAAXXZ 100024fc f   RmNetProvider.obj
+ 0001:00001568       ??0Provider@@QAA@XZ        10002568 f   RmNetProvider.obj
+ 0001:000015ec       ??1Provider@@UAA@XZ        100025ec f   RmNetProvider.obj
+ 0001:00001634       ?Initialize@Provider@@QAAHPBV?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@0PAVResourceManager@@@Z 10002634 f   RmNetProvider.obj
+ 0001:00001750       ??_GProvider@@UAAPAXI@Z    10002750 f i RmNetProvider.obj
+ 0001:00001750       ??_EProvider@@UAAPAXI@Z    10002750 f i RmNetProvider.obj
+ 0001:00001774       ??0Resource@@QAA@XZ        10002774 f   RmNetResource.obj
+ 0001:000017a4       ?Initialize@Resource@@QAAHPBU_GUID@@@Z 100027a4 f   RmNetResource.obj
+ 0001:000017e0       ?GetResourceId@Resource@@QBAABU_GUID@@XZ 100027e0 f   RmNetResource.obj
+ 0001:000017e8       ??_GResource@@UAAPAXI@Z    100027e8 f i RmNetResource.obj
+ 0001:000017e8       ??_EResource@@UAAPAXI@Z    100027e8 f i RmNetResource.obj
+ 0001:0000180c       ?EnumKey@CReg@@QAAHPAGK@Z  1000280c f i RmNetResourceManager.obj
+ 0001:00001878       ?IsInitialized@ResourceManager@@QBAHXZ 10002878 f   RmNetResourceManager.obj
+ 0001:0000188c       ?SendNotification@ResourceManager@@UAAXW4RM_NOTIFICATION_TYPE@@PBXK@Z 1000288c f   RmNetResourceManager.obj
+ 0001:000018a4       ?_Buynode@?$list@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VProvider@@@2@@std@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VProvider@@@2@@std@@@list_impl@2@PAU342@@Z 100028a4 f i RmNetResourceManager.obj
+ 0001:000018f0       ?_Buynode@?$list@U?$pair@KV?$smart_ptr@VUsageInfo@@@ce@@@std@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@U?$pair@KV?$smart_ptr@VUsageInfo@@@ce@@@std@@@list_impl@2@PAU342@@Z 100028f0 f i RmNetResourceManager.obj
+ 0001:0000193c       ?Open@CReg@@QAAHPAUHKEY__@@PBGK@Z 1000293c f i RmNetResourceManager.obj
+ 0001:000019a4       ??1_buffer@?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@QAA@XZ 100029a4 f i RmNetResourceManager.obj
+ 0001:000019f4       ?hash_function@?$hash_traits@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@@ce@@QBAIABV?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@2@@Z 100029f4 f i RmNetResourceManager.obj
+ 0001:00001a40       ?erase@?$vector@U?$pair@V?$iterator@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VProvider@@@2@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAAPAU?$pair@V?$iterator@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VProvider@@@2@@std@@@list_impl@ce@@I@std@@PAU34@0@Z 10002a40 f i RmNetResourceManager.obj
+ 0001:00001aa4       ?erase@?$vector@U?$pair@V?$iterator@U?$pair@KV?$smart_ptr@VUsageInfo@@@ce@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAAPAU?$pair@V?$iterator@U?$pair@KV?$smart_ptr@VUsageInfo@@@ce@@@std@@@list_impl@ce@@I@std@@PAU34@0@Z 10002aa4 f i RmNetResourceManager.obj
+ 0001:00001b08       ?erase@?$vector@U?$pair@V?$iterator@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VProvider@@@2@@std@@@list_impl@ce@@I@std@@V?$reference_allocator@Vallocator@ce@@@details@ce@@U?$exponential_growth@$09@5@@ce@@QAAPAU?$pair@V?$iterator@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VProvider@@@2@@std@@@list_impl@ce@@I@std@@PAU34@0@Z 10002b08 f i RmNetResourceManager.obj
+ 0001:00001b6c       ?erase@?$vector@U?$pair@V?$iterator@U?$pair@KV?$smart_ptr@VUsageInfo@@@ce@@@std@@@list_impl@ce@@I@std@@V?$reference_allocator@Vallocator@ce@@@details@ce@@U?$exponential_growth@$09@5@@ce@@QAAPAU?$pair@V?$iterator@U?$pair@KV?$smart_ptr@VUsageInfo@@@ce@@@std@@@list_impl@ce@@I@std@@PAU34@0@Z 10002b6c f i RmNetResourceManager.obj
+ 0001:00001bd0       ??$RegQueryValue@$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@YAJPAUHKEY__@@PBGAAV?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@0@@Z 10002bd0 f i RmNetResourceManager.obj
+ 0001:00001c90       ??$?8G$0BA@$0BA@U?$char_traits@G@ce@@Vallocator@1@V21@@ce@@YA_NABV?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@0@0@Z 10002c90 f i RmNetResourceManager.obj
+ 0001:00001cdc       ??0?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@QAA@ABV01@@Z 10002cdc f i RmNetResourceManager.obj
+ 0001:00001d24       ??0?$auto_xxx@PAVProvider@@P6AXPAV1@@Z$1??$_delete@VProvider@@@ce@@YAX0@Z$0A@V?$_ref_counting_t@V?$singleton_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@@2@@ce@@QAA@PAVProvider@@@Z 10002d24 f i RmNetResourceManager.obj
+ 0001:00001d80       ??0?$auto_xxx@PAVUsageInfo@@P6AXPAV1@@Z$1??$_delete@VUsageInfo@@@ce@@YAX0@Z$0A@V?$_ref_counting_t@V?$singleton_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@@2@@ce@@QAA@PAVUsageInfo@@@Z 10002d80 f i RmNetResourceManager.obj
+ 0001:00001ddc       ?_Insert_dispatch@?$vector@U?$pair@V?$iterator@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VProvider@@@2@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@AAA_NPAU?$pair@V?$iterator@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VProvider@@@2@@std@@@list_impl@ce@@I@std@@IABU34@ABUtrue_type@detail@2@@Z 10002ddc f i RmNetResourceManager.obj
+ 0001:00002024       ?_Insert_dispatch@?$vector@U?$pair@V?$iterator@U?$pair@KV?$smart_ptr@VUsageInfo@@@ce@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@AAA_NPAU?$pair@V?$iterator@U?$pair@KV?$smart_ptr@VUsageInfo@@@ce@@@std@@@list_impl@ce@@I@std@@IABU34@ABUtrue_type@detail@2@@Z 10003024 f i RmNetResourceManager.obj
+ 0001:0000226c       ??0?$auto_xxx@PAVProvider@@P6AXPAV1@@Z$1??$_delete@VProvider@@@ce@@YAX0@Z$0A@V?$_ref_counting_t@V?$singleton_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@@2@@ce@@QAA@ABV01@@Z 1000326c f i RmNetResourceManager.obj
+ 0001:000022b4       ??0?$auto_xxx@PAVUsageInfo@@P6AXPAV1@@Z$1??$_delete@VUsageInfo@@@ce@@YAX0@Z$0A@V?$_ref_counting_t@V?$singleton_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@@2@@ce@@QAA@ABV01@@Z 100032b4 f i RmNetResourceManager.obj
+ 0001:000022fc       ?ConflictResolution@ResourceManager@@AAA?AW4RM_RESULT@@PBU_GUID@@PAVAccountPriority@@@Z 100032fc f   RmNetResourceManager.obj
+ 0001:000024d4       ??1?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VProvider@@@2@@std@@QAA@XZ 100034d4 f i RmNetResourceManager.obj
+ 0001:00002518       ??_G?$pair@KV?$smart_ptr@VUsageInfo@@@ce@@@std@@QAAPAXI@Z 10003518 f i RmNetResourceManager.obj
+ 0001:00002560       ?resize@?$vector@U?$pair@V?$iterator@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VProvider@@@2@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAA_NIABU?$pair@V?$iterator@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VProvider@@@2@@std@@@list_impl@ce@@I@std@@@Z 10003560 f i RmNetResourceManager.obj
+ 0001:000025bc       ?resize@?$vector@U?$pair@V?$iterator@U?$pair@KV?$smart_ptr@VUsageInfo@@@ce@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAA_NIABU?$pair@V?$iterator@U?$pair@KV?$smart_ptr@VUsageInfo@@@ce@@@std@@@list_impl@ce@@I@std@@@Z 100035bc f i RmNetResourceManager.obj
+ 0001:00002618       ?FindProviderById@ResourceManager@@AAA?AV?$smart_ptr@VProvider@@@ce@@PBU_GUID@@@Z 10003618 f   RmNetResourceManager.obj
+ 0001:00002720       ?FindUsageInfo@ResourceManager@@AAA?AV?$smart_ptr@VUsageInfo@@@ce@@PBV?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@3@K@Z 10003720 f   RmNetResourceManager.obj
+ 0001:00002904       ?erase@?$list@U?$pair@KV?$smart_ptr@VUsageInfo@@@ce@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@KV?$smart_ptr@VUsageInfo@@@ce@@@std@@@list_impl@2@V342@@Z 10003904 f i RmNetResourceManager.obj
+ 0001:00002970       ?erase@?$list@U?$pair@KV?$smart_ptr@VUsageInfo@@@ce@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@KV?$smart_ptr@VUsageInfo@@@ce@@@std@@@list_impl@2@V342@0@Z 10003970 f i RmNetResourceManager.obj
+ 0001:000029c8       ?erase@?$list@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VProvider@@@2@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VProvider@@@2@@std@@@list_impl@2@V342@@Z 100039c8 f i RmNetResourceManager.obj
+ 0001:00002a30       ??$insert@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VProvider@@@2@@std@@@?$list@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VProvider@@@2@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VProvider@@@2@@std@@@list_impl@1@V231@ABU?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VProvider@@@2@@std@@@Z 10003a30 f i RmNetResourceManager.obj
+ 0001:00002a8c       ??$insert@U?$pair@KV?$smart_ptr@VUsageInfo@@@ce@@@std@@@?$list@U?$pair@KV?$smart_ptr@VUsageInfo@@@ce@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@KV?$smart_ptr@VUsageInfo@@@ce@@@std@@@list_impl@1@V231@ABU?$pair@KV?$smart_ptr@VUsageInfo@@@ce@@@std@@@Z 10003a8c f i RmNetResourceManager.obj
+ 0001:00002ae4       ?SetNotifications@ResourceManager@@QAA?AW4RM_RESULT@@PBU_GUID@@H@Z 10003ae4 f   RmNetResourceManager.obj
+ 0001:00002c30       ?GetResourceInfo@ResourceManager@@QAA?AW4RM_RESULT@@PBU_GUID@@PAURM_RESOURCE_INFO@@K@Z 10003c30 f   RmNetResourceManager.obj
+ 0001:00002d4c       ?erase@?$hash@V?$hash_map_traits@KV?$smart_ptr@VUsageInfo@@@ce@@U?$hash_traits@K@2@Vallocator@2@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@KV?$smart_ptr@VUsageInfo@@@ce@@@std@@@list_impl@3@V453@@Z 10003d4c f i RmNetResourceManager.obj
+ 0001:00002db8       ?clear@?$hash@V?$hash_map_traits@KV?$smart_ptr@VUsageInfo@@@ce@@U?$hash_traits@K@2@Vallocator@2@@details@ce@@@details@ce@@QAAXXZ 10003db8 f i RmNetResourceManager.obj
+ 0001:00002e08       ?_ready@?$hash@V?$hash_map_traits@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VProvider@@@2@U?$hash_traits@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@@2@Vallocator@2@@details@ce@@@details@ce@@IAA_NXZ 10003e08 f i RmNetResourceManager.obj
+ 0001:00002e60       ?erase@?$list@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VProvider@@@2@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VProvider@@@2@@std@@@list_impl@2@V342@0@Z 10003e60 f i RmNetResourceManager.obj
+ 0001:00002eb8       ?_ready@?$hash@V?$hash_map_traits@KV?$smart_ptr@VUsageInfo@@@ce@@U?$hash_traits@K@2@Vallocator@2@@details@ce@@@details@ce@@IAA_NXZ 10003eb8 f i RmNetResourceManager.obj
+ 0001:00002f10       ?clear@?$hash@V?$hash_map_traits@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VProvider@@@2@U?$hash_traits@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@@2@Vallocator@2@@details@ce@@@details@ce@@QAAXXZ 10003f10 f i RmNetResourceManager.obj
+ 0001:00002f60       ?find@?$hash@V?$hash_map_traits@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VProvider@@@2@U?$hash_traits@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@@2@Vallocator@2@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VProvider@@@2@@std@@@list_impl@3@ABV?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@3@@Z 10003f60 f i RmNetResourceManager.obj
+ 0001:00002fe8       ?find@?$hash@V?$hash_map_traits@KV?$smart_ptr@VUsageInfo@@@ce@@U?$hash_traits@K@2@Vallocator@2@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@KV?$smart_ptr@VUsageInfo@@@ce@@@std@@@list_impl@3@ABK@Z 10003fe8 f i RmNetResourceManager.obj
+ 0001:00003060       ?insert@?$hash@V?$hash_map_traits@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VProvider@@@2@U?$hash_traits@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@@2@Vallocator@2@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VProvider@@@2@@std@@@list_impl@3@ABU?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VProvider@@@2@@std@@@Z 10004060 f i RmNetResourceManager.obj
+ 0001:00003134       ?insert@?$hash@V?$hash_map_traits@KV?$smart_ptr@VUsageInfo@@@ce@@U?$hash_traits@K@2@Vallocator@2@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@KV?$smart_ptr@VUsageInfo@@@ce@@@std@@@list_impl@3@ABU?$pair@KV?$smart_ptr@VUsageInfo@@@ce@@@std@@@Z 10004134 f i RmNetResourceManager.obj
+ 0001:000031f0       ??1?$hash@V?$hash_map_traits@KV?$smart_ptr@VUsageInfo@@@ce@@U?$hash_traits@K@2@Vallocator@2@@details@ce@@@details@ce@@QAA@XZ 100041f0 f i RmNetResourceManager.obj
+ 0001:00003230       ?Deinitialize@ResourceManager@@QAAXXZ 10004230 f   RmNetResourceManager.obj
+ 0001:0000326c       ?Release@ResourceManager@@QAA?AW4RM_RESULT@@K@Z 1000426c f   RmNetResourceManager.obj
+ 0001:000034ac       ?AddToResource@ResourceManager@@QAA?AW4RM_RESULT@@KH@Z 100044ac f   RmNetResourceManager.obj
+ 0001:00003670       ?RemoveFromResource@ResourceManager@@QAA?AW4RM_RESULT@@KH@Z 10004670 f   RmNetResourceManager.obj
+ 0001:00003828       ?SendSuspendNotification@ResourceManager@@UAAXPBV?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@KH@Z 10004828 f   RmNetResourceManager.obj
+ 0001:000039e4       ?insert@?$hash_map@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VProvider@@@2@U?$hash_traits@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@@2@Vallocator@2@@ce@@QAA?AV?$iterator@U?$pair@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VProvider@@@2@@std@@@list_impl@2@ABV?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@2@ABV?$smart_ptr@VProvider@@@2@@Z 100049e4 f i RmNetResourceManager.obj
+ 0001:00003a4c       ?insert@?$hash_map@KV?$smart_ptr@VUsageInfo@@@ce@@U?$hash_traits@K@2@Vallocator@2@@ce@@QAA?AV?$iterator@U?$pair@KV?$smart_ptr@VUsageInfo@@@ce@@@std@@@list_impl@2@ABKABV?$smart_ptr@VUsageInfo@@@2@@Z 10004a4c f i RmNetResourceManager.obj
+ 0001:00003ab4       ??1?$hash@V?$hash_map_traits@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@V?$smart_ptr@VProvider@@@2@U?$hash_traits@V?$_string_t@G$0BA@U?$char_traits@G@ce@@Vallocator@2@@ce@@@2@Vallocator@2@@details@ce@@@details@ce@@QAA@XZ 10004ab4 f i RmNetResourceManager.obj
+ 0001:00003afc       ?InitializeProvidersFromRegistry@ResourceManager@@AAAHPAUHKEY__@@PBG@Z 10004afc f   RmNetResourceManager.obj
+ 0001:00003df8       ?Acquire@ResourceManager@@QAA?AW4RM_RESULT@@PBU_GUID@@HPAK@Z 10004df8 f   RmNetResourceManager.obj
+ 0001:000041a8       ??1ResourceManager@@UAA@XZ 100051a8 f   RmNetResourceManager.obj
+ 0001:000041dc       ?Initialize@ResourceManager@@QAAHP6AXKW4RM_NOTIFICATION_TYPE@@PBXK@ZK@Z 100051dc f   RmNetResourceManager.obj
+ 0001:00004258       ??0ResourceManager@@QAA@XZ 10005258 f   RmNetResourceManager.obj
+ 0001:000042f8       ??_EResourceManager@@UAAPAXI@Z 100052f8 f i RmNetResourceManager.obj
+ 0001:000042f8       ??_GResourceManager@@UAAPAXI@Z 100052f8 f i RmNetResourceManager.obj
+ 0001:0000431c       ?GetResourceId@UsageInfo@@QBA?AU_GUID@@XZ 1000531c f   RmNetUsageInfo.obj
+ 0001:00004348       ?GetRspHandle@UsageInfo@@QBAKXZ 10005348 f   RmNetUsageInfo.obj
+ 0001:00004350       ?GetResourceHandle@UsageInfo@@QBAKXZ 10005350 f   RmNetUsageInfo.obj
+ 0001:00004358       ?GetAccountList@UsageInfo@@QAAAAV?$list@VAccountPriority@@Vallocator@ce@@@ce@@XZ 10005358 f   RmNetUsageInfo.obj
+ 0001:00004360       ?_Buynode@?$list@VAccountPriority@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@VAccountPriority@@@list_impl@2@PAU342@@Z 10005360 f i RmNetUsageInfo.obj
+ 0001:000043ac       ?erase@?$list@VAccountPriority@@Vallocator@ce@@@ce@@QAA?AV?$iterator@VAccountPriority@@@list_impl@2@V342@@Z 100053ac f i RmNetUsageInfo.obj
+ 0001:00004420       ?erase@?$list@VAccountPriority@@Vallocator@ce@@@ce@@QAA?AV?$iterator@VAccountPriority@@@list_impl@2@V342@0@Z 10005420 f i RmNetUsageInfo.obj
+ 0001:00004478       ??$insert@VAccountPriority@@@?$list@VAccountPriority@@Vallocator@ce@@@ce@@QAA?AV?$iterator@VAccountPriority@@@list_impl@1@V231@ABVAccountPriority@@@Z 10005478 f i RmNetUsageInfo.obj
+ 0001:000044d0       ?RemoveAccount@UsageInfo@@QAAHPAVAccountPriority@@@Z 100054d0 f   RmNetUsageInfo.obj
+ 0001:00004698       ?AddAccount@UsageInfo@@QAAHPBVAccountPriority@@@Z 10005698 f   RmNetUsageInfo.obj
+ 0001:000046e8       ??4?$auto_xxx@PAVProvider@@P6AXPAV1@@Z$1??$_delete@VProvider@@@ce@@YAX0@Z$0A@V?$_ref_counting_t@V?$singleton_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@@2@@ce@@QAAAAV01@ABV01@@Z 100056e8 f i RmNetUsageInfo.obj
+ 0001:0000475c       ??1UsageInfo@@UAA@XZ       1000575c f   RmNetUsageInfo.obj
+ 0001:000047bc       ??0UsageInfo@@QAA@XZ       100057bc f   RmNetUsageInfo.obj
+ 0001:00004818       ??_GUsageInfo@@UAAPAXI@Z   10005818 f i RmNetUsageInfo.obj
+ 0001:00004818       ??_EUsageInfo@@UAAPAXI@Z   10005818 f i RmNetUsageInfo.obj
+ 0001:0000483c       ?Initialize@UsageInfo@@QAAHPBU_GUID@@KKV?$smart_ptr@VProvider@@@ce@@PBVAccountPriority@@@Z 1000583c f   RmNetUsageInfo.obj
+ 0001:00004998       ?GetProvider@UsageInfo@@QAA?AV?$smart_ptr@VProvider@@@ce@@XZ 10005998 f   RmNetUsageInfo.obj
+ 0001:000049b4       InitializeCriticalSection  100059b4 f   coredll:COREDLL.dll
+ 0001:000049c4       DeleteCriticalSection      100059c4 f   coredll:COREDLL.dll
+ 0001:000049d4       EnterCriticalSection       100059d4 f   coredll:COREDLL.dll
+ 0001:000049e4       LeaveCriticalSection       100059e4 f   coredll:COREDLL.dll
+ 0001:000049f4       DisableThreadLibraryCalls  100059f4 f   coredll:COREDLL.dll
+ 0001:00004a04       InterlockedIncrement       10005a04 f   coredll:COREDLL.dll
+ 0001:00004a14       InterlockedDecrement       10005a14 f   coredll:COREDLL.dll
+ 0001:00004a24       FreeLibrary                10005a24 f   coredll:COREDLL.dll
+ 0001:00004a34       GetProcAddressW            10005a34 f   coredll:COREDLL.dll
+ 0001:00004a44       LoadLibraryW               10005a44 f   coredll:COREDLL.dll
+ 0001:00004a54       CeSafeCopyMemory           10005a54 f   coredll:COREDLL.dll
+ 0001:00004a64       LocalFree                  10005a64 f   coredll:COREDLL.dll
+ 0001:00004a74       RegCloseKey                10005a74 f   coredll:COREDLL.dll
+ 0001:00004a84       RegEnumKeyExW              10005a84 f   coredll:COREDLL.dll
+ 0001:00004a94       RegOpenKeyExW              10005a94 f   coredll:COREDLL.dll
+ 0001:00004aa4       RegQueryValueExW           10005aa4 f   coredll:COREDLL.dll
+ 0001:00004bac       _DllMainCRTStartup         10005bac f   corelib0:pegdmain.obj
+ 0001:00004be0       _onexit                    10005be0 f   corelib0:onexit.obj
+ 0001:00004d64       atexit                     10005d64 f   corelib0:onexit.obj
+ 0001:00004d7c       __GSHandlerCheckCommon     10005d7c f   corelib0:gshandler.obj
+ 0001:00004db8       __GSHandlerCheck           10005db8 f   corelib0:gshandler.obj
+ 0001:00004dd8       __security_init_cookie     10005dd8 f   corelib0:seccinit.obj
+ 0001:00004e24       __security_check_cookie    10005e24 f   corelib0:armsecgs.obj
+ 0001:00004e34       __gsfailure                10005e34     corelib0:armsecgs.obj
+ 0001:00004f60       _cexit                     10005f60 f   corelib0:cexit.obj
+ 0001:00004f70       _initterm                  10005f70 f   corelib0:crt0dat.obj
+ 0001:00004f9c       _cinit                     10005f9c f   corelib0:crt0dat.obj
+ 0001:00004ffc       __crt_ExitProcess          10005ffc f   corelib0:exitproc_proxy.obj
+ 0001:00005008       ??2@YAPAXI@Z               10006008 f   corelib1:COREDLL.dll
+ 0001:00005018       ??3@YAXPAX@Z               10006018 f   corelib1:COREDLL.dll
+ 0001:00005028       memmove                    10006028 f   corelib1:COREDLL.dll
+ 0001:00005038       memcmp                     10006038 f   corelib1:COREDLL.dll
+ 0001:00005048       ??_V@YAXPAX@Z              10006048 f   corelib1:COREDLL.dll
+ 0001:00005058       ??_U@YAPAXI@Z              10006058 f   corelib1:COREDLL.dll
+ 0001:00005068       memset                     10006068 f   corelib1:COREDLL.dll
+ 0001:00005078       wcscmp                     10006078 f   corelib1:COREDLL.dll
+ 0001:00005088       _wcsicmp                   10006088 f   corelib1:COREDLL.dll
+ 0001:00005098       _XcptFilter                10006098 f   corelib1:COREDLL.dll
+ 0001:000050a8       __C_specific_handler       100060a8 f   corelib1:COREDLL.dll
+ 0001:000050b8       free                       100060b8 f   corelib1:COREDLL.dll
+ 0001:000050c8       malloc                     100060c8 f   corelib1:COREDLL.dll
+ 0001:000050d8       realloc                    100060d8 f   corelib1:COREDLL.dll
+ 0001:000050e8       _msize                     100060e8 f   corelib1:COREDLL.dll
+ 0001:000050f8       __security_gen_cookie2     100060f8 f   corelib1:COREDLL.dll
+ 0001:00005108       __report_gsfailure         10006108 f   corelib1:COREDLL.dll
+ 0001:00005118       InterlockedCompareExchange 10006118 f   coredll:COREDLL.dll
+ 0001:00005128       InterlockedExchange        10006128 f   coredll:COREDLL.dll
+ 0001:00005138       TerminateProcess           10006138 f   coredll:COREDLL.dll
+ 0001:00005150       ??__Fcs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@YAXXZ 10006150 f i RmNetApi.obj
+ 0001:0000515c       ??__Fcs@?1??get_lock@?$singleton@VResourceManager@@$0A@V?$static_allocator@VResourceManager@@$0A@@ce@@@ce@@KAAAVcritical_section@2@XZ@YAXXZ 1000615c f i RmNetApi.obj
+ 0001:000051ac       __IMPORT_DESCRIPTOR_COREDLL 100061ac     coredll:COREDLL.dll
+ 0001:000051c0       __NULL_IMPORT_DESCRIPTOR   100061c0     coredll:COREDLL.dll
+ 0002:00000000       __imp_InitializeCriticalSection 10007000     coredll:COREDLL.dll
+ 0002:00000004       __imp_DeleteCriticalSection 10007004     coredll:COREDLL.dll
+ 0002:00000008       __imp_EnterCriticalSection 10007008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_LeaveCriticalSection 1000700c     coredll:COREDLL.dll
+ 0002:00000010       __imp_DisableThreadLibraryCalls 10007010     coredll:COREDLL.dll
+ 0002:00000014       __imp_InterlockedIncrement 10007014     coredll:COREDLL.dll
+ 0002:00000018       __imp_InterlockedDecrement 10007018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_FreeLibrary          1000701c     coredll:COREDLL.dll
+ 0002:00000020       __imp_GetProcAddressW      10007020     coredll:COREDLL.dll
+ 0002:00000024       __imp_LoadLibraryW         10007024     coredll:COREDLL.dll
+ 0002:00000028       __imp_CeSafeCopyMemory     10007028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_LocalFree            1000702c     coredll:COREDLL.dll
+ 0002:00000030       __imp_RegCloseKey          10007030     coredll:COREDLL.dll
+ 0002:00000034       __imp_RegEnumKeyExW        10007034     coredll:COREDLL.dll
+ 0002:00000038       __imp_RegOpenKeyExW        10007038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_RegQueryValueExW     1000703c     coredll:COREDLL.dll
+ 0002:00000040       __imp_??2@YAPAXI@Z         10007040     corelib1:COREDLL.dll
+ 0002:00000044       __imp_??3@YAXPAX@Z         10007044     corelib1:COREDLL.dll
+ 0002:00000048       __imp_memmove              10007048     corelib1:COREDLL.dll
+ 0002:0000004c       __imp_memcmp               1000704c     corelib1:COREDLL.dll
+ 0002:00000050       __imp_??_V@YAXPAX@Z        10007050     corelib1:COREDLL.dll
+ 0002:00000054       __imp_??_U@YAPAXI@Z        10007054     corelib1:COREDLL.dll
+ 0002:00000058       __imp_memset               10007058     corelib1:COREDLL.dll
+ 0002:0000005c       __imp_wcscmp               1000705c     corelib1:COREDLL.dll
+ 0002:00000060       __imp__wcsicmp             10007060     corelib1:COREDLL.dll
+ 0002:00000064       __imp__XcptFilter          10007064     corelib1:COREDLL.dll
+ 0002:00000068       __imp___C_specific_handler 10007068     corelib1:COREDLL.dll
+ 0002:0000006c       __imp_free                 1000706c     corelib1:COREDLL.dll
+ 0002:00000070       __imp_malloc               10007070     corelib1:COREDLL.dll
+ 0002:00000074       __imp_realloc              10007074     corelib1:COREDLL.dll
+ 0002:00000078       __imp__msize               10007078     corelib1:COREDLL.dll
+ 0002:0000007c       __imp___security_gen_cookie2 1000707c     corelib1:COREDLL.dll
+ 0002:00000080       __imp___report_gsfailure   10007080     corelib1:COREDLL.dll
+ 0002:00000084       __imp_InterlockedCompareExchange 10007084     coredll:COREDLL.dll
+ 0002:00000088       __imp_InterlockedExchange  10007088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_TerminateProcess     1000708c     coredll:COREDLL.dll
+ 0002:00000090       \177COREDLL_NULL_THUNK_DATA 10007090     coredll:COREDLL.dll
+ 0002:00000098       ?dpCurSettings@@3U_DBGPARAM@@A 10007098     RmNetDebugZone.obj
+ 0002:000004e0       __security_cookie          100074e0     corelib0:seccinit.obj
+ 0002:000004e4       __security_cookie_complement 100074e4     corelib0:seccinit.obj
+ 0002:000004f0       ?memory@?1??allocate@?$static_allocator@VResourceManager@@$0A@@ce@@SAPAXI@Z@4PADA 100074f0     RmNetApi.obj
+ 0002:00000554       ??_B?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@51 10007554     RmNetApi.obj
+ 0002:00000558       ?cs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@3@XZ@4V43@A 10007558     RmNetApi.obj
+ 0002:0000056c       ??_B?1??get_lock@?$singleton@VResourceManager@@$0A@V?$static_allocator@VResourceManager@@$0A@@ce@@@ce@@KAAAVcritical_section@2@XZ@51 1000756c     RmNetApi.obj
+ 0002:00000570       ?cs@?1??get_lock@?$singleton@VResourceManager@@$0A@V?$static_allocator@VResourceManager@@$0A@@ce@@@ce@@KAAAVcritical_section@3@XZ@4V43@A 10007570     RmNetApi.obj
+ 0002:00000584       ?pInstance@?$singleton@VResourceManager@@$0A@V?$static_allocator@VResourceManager@@$0A@@ce@@@ce@@1RAVResourceManager@@A 10007584     RmNetApi.obj
+ 0002:00000588       ?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A 10007588     RmNetApi.obj
+ 0002:00000589       ?_factory@?$singleton@VResourceManager@@$0A@V?$static_allocator@VResourceManager@@$0A@@ce@@@ce@@1Ulock_factory@12@A 10007589     RmNetApi.obj
+ 0002:00000590       ?memory@?1??allocate@?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@SAPAXI@Z@4PADA 10007590     RmNetProvider.obj
+ 0002:0000073c       ?pInstance@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1RAV?$free_list@$0GE@Vallocator@ce@@@2@A 1000773c     RmNetProvider.obj
+ 0002:00000740       ?lRefCount@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1JA 10007740     RmNetProvider.obj
+ 0002:00000744       _exitflag                  10007744     corelib0:cexit.obj
+ 0002:00000748       __onexitend                10007748     <common>
+ 0002:0000074c       __onexitbegin              1000774c     <common>
+ 0002:00000750       g_pcsExit                  10007750     <common>
+ 0002:00000754       _pRawDllMain               10007754     <common>
+
+ entry point at        0001:00004bac
+
+ Static symbols
+
+ 0001:00004abc       _DllMainCRTStartupHelper   10005abc f   corelib0:pegdmain.obj
+ 0001:00004e78       doexit                     10005e78 f   corelib0:cexit.obj
+ 0001:00005148       ??__E?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A@@YAXXZ 10006148 f   RmNetApi.obj
+ 0001:0000514c       ??__E?_factory@?$singleton@VResourceManager@@$0A@V?$static_allocator@VResourceManager@@$0A@@ce@@@ce@@1Ulock_factory@12@A@@YAXXZ 1000614c f   RmNetApi.obj

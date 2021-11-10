@@ -1,0 +1,87 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;
+; Copyright (c) Microsoft Corporation.  All rights reserved.
+;
+;
+; Use of this source code is subject to the terms of your Microsoft Windows CE
+; Source Alliance Program license form.  If you did not accept the terms of
+; such a license, you are not authorized to use this source code.
+;
+LIBRARY         MSXML3
+
+EXPORTS
+
+DllCanUnloadNow        PRIVATE
+DllGetClassObject      PRIVATE 
+DllMain                PRIVATE                                  
+ 
+GetDOMNodeFromHandle   @6 NONAME PRIVATE 
+GetDOMNodeHandle       @7 NONAME PRIVATE 
+GetMemoryUsed          @8 NONAME PRIVATE   
+ReleaseDOMNodeHandle   @9 NONAME PRIVATE 
+SetDOMFlags            @10 NONAME PRIVATE                            
+SetDocumentRowset      @11 NONAME PRIVATE
+SetMemoryLimit         @12 NONAME PRIVATE   
+

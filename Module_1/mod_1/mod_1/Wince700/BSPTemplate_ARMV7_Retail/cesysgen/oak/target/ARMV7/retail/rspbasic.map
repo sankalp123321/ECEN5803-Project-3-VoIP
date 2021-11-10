@@ -1,0 +1,215 @@
+ RspBasic
+
+ Timestamp is 5ac64a2d (Thu Apr 05 09:09:17 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000008H .CRT$XCU                CODE
+ 0001:0000000c 00000004H .CRT$XCZ                CODE
+ 0001:00000010 00000004H .CRT$XIA                CODE
+ 0001:00000014 00000004H .CRT$XIZ                CODE
+ 0001:00000018 00000004H .CRT$XPA                CODE
+ 0001:0000001c 00000004H .CRT$XPZ                CODE
+ 0001:00000020 00000004H .CRT$XTA                CODE
+ 0001:00000024 00000004H .CRT$XTZ                CODE
+ 0001:00000030 000000acH .rdata                  CODE
+ 0001:000000dc 00000025H .rdata$debug            CODE
+ 0001:00000104 00002824H .text                   CODE
+ 0001:00002928 00000008H .text$yc                CODE
+ 0001:00002930 00000018H .text$yd                CODE
+ 0001:00002948 00000030H .xdata                  CODE
+ 0001:00002978 00000014H .idata$2                CODE
+ 0001:0000298c 00000014H .idata$3                CODE
+ 0001:000029a0 0000006cH .idata$4                CODE
+ 0001:00002a0c 0000000cH .idata$6                CODE
+ 0001:00002a20 000000aeH .edata                  CODE
+ 0002:00000000 0000006cH .idata$5                DATA
+ 0002:00000070 00000450H .data                   DATA
+ 0002:000004c0 00000268H .bss                    DATA
+ 0003:00000000 000002b0H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:0000000c       __xc_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xi_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xi_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xp_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xp_z                     1000101c     corelib0:crt0init.obj
+ 0001:00000020       __xt_a                     10001020     corelib0:crt0init.obj
+ 0001:00000024       __xt_z                     10001024     corelib0:crt0init.obj
+ 0001:0000004c       ??_C@_11LOCGONAA@?$AA?$AA@ 1000104c     RspBasicIncludes.obj
+ 0001:00000050       ??_7Provider@@6B@          10001050     RspBasicProvider.obj
+ 0001:00000054       ??_C@_1BC@NDBFBFMK@?$AAR?$AAs?$AAp?$AAB?$AAa?$AAs?$AAi?$AAc?$AA?$AA@ 10001054     RspBasicProvider.obj
+ 0001:00000068       ??_C@_1GG@FOEALGMG@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAC?$AAo?$AAn?$AAn?$AAM?$AAg?$AAr?$AA?2?$AAR?$AAe?$AAs?$AAM?$AAg?$AAr?$AA?2?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AAs?$AA?2?$AAR?$AAs@ 10001068     RspBasicProvider.obj
+ 0001:000000d0       ??_7Resource@@6B@          100010d0     RspBasicResource.obj
+ 0001:00000104       ?get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ 10001104 f i RspBasicApi.obj
+ 0001:00000158       ?get_lock@?$singleton@VProvider@@$0A@V?$static_allocator@VProvider@@$0A@@ce@@@ce@@KAAAVcritical_section@2@XZ 10001158 f i RspBasicApi.obj
+ 0001:000001ac       ?create@?$singleton@VProvider@@$0A@V?$static_allocator@VProvider@@$0A@@ce@@@ce@@KAXXZ 100011ac f i RspBasicApi.obj
+ 0001:00000210       RspInitialize              10001210 f   RspBasicApi.obj
+ 0001:00000254       RspDeinitialize            10001254 f   RspBasicApi.obj
+ 0001:00000270       RspAcquire                 10001270 f   RspBasicApi.obj
+ 0001:0000029c       RspRelease                 1000129c f   RspBasicApi.obj
+ 0001:000002c0       RspGetResourceInfo         100012c0 f   RspBasicApi.obj
+ 0001:000002f4       DllMain                    100012f4 f   RspBasicMain.obj
+ 0001:00000310       ?RegReadGUIDValues@Provider@@ABA?AW4RM_RESULT@@PAUHKEY__@@PBGPAU_GUID@@IPAI@Z 10001310 f   RspBasicProvider.obj
+ 0001:00000480       ?_Buynode@?$list@U?$pair@U_GUID@@V?$smart_ptr@VResource@@@ce@@@std@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@U?$pair@U_GUID@@V?$smart_ptr@VResource@@@ce@@@std@@@list_impl@2@PAU342@@Z 10001480 f i RspBasicProvider.obj
+ 0001:000004cc       ?_Buynode@?$list@U?$pair@KV?$smart_ptr@VResource@@@ce@@@std@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@U?$pair@KV?$smart_ptr@VResource@@@ce@@@std@@@list_impl@2@PAU342@@Z 100014cc f i RspBasicProvider.obj
+ 0001:00000518       ?GetNextAcquiredId@Provider@@AAAKXZ 10001518 f   RspBasicProvider.obj
+ 0001:00000558       ?allocate@?$free_list@$0GE@Vallocator@ce@@@ce@@QBAPAXI@Z 10001558 f i RspBasicProvider.obj
+ 0001:000005c8       ?deallocate@?$free_list@$0GE@Vallocator@ce@@@ce@@QBAXPAXI@Z 100015c8 f i RspBasicProvider.obj
+ 0001:00000628       ??_G?$free_list@$0GE@Vallocator@ce@@@ce@@QAAPAXI@Z 10001628 f i RspBasicProvider.obj
+ 0001:00000674       ?create@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAXXZ 10001674 f i RspBasicProvider.obj
+ 0001:000006ec       ?erase@?$vector@U?$pair@V?$iterator@U?$pair@U_GUID@@V?$smart_ptr@VResource@@@ce@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAAPAU?$pair@V?$iterator@U?$pair@U_GUID@@V?$smart_ptr@VResource@@@ce@@@std@@@list_impl@ce@@I@std@@PAU34@0@Z 100016ec f i RspBasicProvider.obj
+ 0001:00000750       ?erase@?$vector@U?$pair@V?$iterator@U?$pair@KV?$smart_ptr@VResource@@@ce@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAAPAU?$pair@V?$iterator@U?$pair@KV?$smart_ptr@VResource@@@ce@@@std@@@list_impl@ce@@I@std@@PAU34@0@Z 10001750 f i RspBasicProvider.obj
+ 0001:000007b4       ?release@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@SAXXZ 100017b4 f i RspBasicProvider.obj
+ 0001:00000820       ?erase@?$vector@U?$pair@V?$iterator@U?$pair@U_GUID@@V?$smart_ptr@VResource@@@ce@@@std@@@list_impl@ce@@I@std@@V?$reference_allocator@Vallocator@ce@@@details@ce@@U?$exponential_growth@$09@5@@ce@@QAAPAU?$pair@V?$iterator@U?$pair@U_GUID@@V?$smart_ptr@VResource@@@ce@@@std@@@list_impl@ce@@I@std@@PAU34@0@Z 10001820 f i RspBasicProvider.obj
+ 0001:00000884       ?erase@?$vector@U?$pair@V?$iterator@U?$pair@KV?$smart_ptr@VResource@@@ce@@@std@@@list_impl@ce@@I@std@@V?$reference_allocator@Vallocator@ce@@@details@ce@@U?$exponential_growth@$09@5@@ce@@QAAPAU?$pair@V?$iterator@U?$pair@KV?$smart_ptr@VResource@@@ce@@@std@@@list_impl@ce@@I@std@@PAU34@0@Z 10001884 f i RspBasicProvider.obj
+ 0001:000008e8       ?create@?$_ref_counting_t@V?$singleton_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@@ce@@IAA_NXZ 100018e8 f i RspBasicProvider.obj
+ 0001:00000924       ?release@?$_ref_counting_t@V?$singleton_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@@ce@@IAA_NXZ 10001924 f i RspBasicProvider.obj
+ 0001:00000984       ??0?$auto_xxx@PAVResource@@P6AXPAV1@@Z$1??$_delete@VResource@@@ce@@YAX0@Z$0A@V?$_ref_counting_t@V?$singleton_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@@2@@ce@@QAA@PAVResource@@@Z 10001984 f i RspBasicProvider.obj
+ 0001:000009e0       ?_Insert_dispatch@?$vector@U?$pair@V?$iterator@U?$pair@U_GUID@@V?$smart_ptr@VResource@@@ce@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@AAA_NPAU?$pair@V?$iterator@U?$pair@U_GUID@@V?$smart_ptr@VResource@@@ce@@@std@@@list_impl@ce@@I@std@@IABU34@ABUtrue_type@detail@2@@Z 100019e0 f i RspBasicProvider.obj
+ 0001:00000c28       ?_Insert_dispatch@?$vector@U?$pair@V?$iterator@U?$pair@KV?$smart_ptr@VResource@@@ce@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@AAA_NPAU?$pair@V?$iterator@U?$pair@KV?$smart_ptr@VResource@@@ce@@@std@@@list_impl@ce@@I@std@@IABU34@ABUtrue_type@detail@2@@Z 10001c28 f i RspBasicProvider.obj
+ 0001:00000e70       ??0?$auto_xxx@PAVResource@@P6AXPAV1@@Z$1??$_delete@VResource@@@ce@@YAX0@Z$0A@V?$_ref_counting_t@V?$singleton_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@@2@@ce@@QAA@ABV01@@Z 10001e70 f i RspBasicProvider.obj
+ 0001:00000eb8       ??_G?$pair@KV?$smart_ptr@VResource@@@ce@@@std@@QAAPAXI@Z 10001eb8 f i RspBasicProvider.obj
+ 0001:00000f00       ??_G?$pair@U_GUID@@V?$smart_ptr@VResource@@@ce@@@std@@QAAPAXI@Z 10001f00 f i RspBasicProvider.obj
+ 0001:00000f48       ?resize@?$vector@U?$pair@V?$iterator@U?$pair@U_GUID@@V?$smart_ptr@VResource@@@ce@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAA_NIABU?$pair@V?$iterator@U?$pair@U_GUID@@V?$smart_ptr@VResource@@@ce@@@std@@@list_impl@ce@@I@std@@@Z 10001f48 f i RspBasicProvider.obj
+ 0001:00000fa4       ?resize@?$vector@U?$pair@V?$iterator@U?$pair@KV?$smart_ptr@VResource@@@ce@@@std@@@list_impl@ce@@I@std@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAA_NIABU?$pair@V?$iterator@U?$pair@KV?$smart_ptr@VResource@@@ce@@@std@@@list_impl@ce@@I@std@@@Z 10001fa4 f i RspBasicProvider.obj
+ 0001:00001000       ??0?$pair@U_GUID@@V?$smart_ptr@VResource@@@ce@@@std@@QAA@ABU01@@Z 10002000 f i RspBasicProvider.obj
+ 0001:00001040       ?erase@?$list@U?$pair@KV?$smart_ptr@VResource@@@ce@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@KV?$smart_ptr@VResource@@@ce@@@std@@@list_impl@2@V342@@Z 10002040 f i RspBasicProvider.obj
+ 0001:000010ac       ?erase@?$list@U?$pair@KV?$smart_ptr@VResource@@@ce@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@KV?$smart_ptr@VResource@@@ce@@@std@@@list_impl@2@V342@0@Z 100020ac f i RspBasicProvider.obj
+ 0001:00001104       ?erase@?$list@U?$pair@U_GUID@@V?$smart_ptr@VResource@@@ce@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@U_GUID@@V?$smart_ptr@VResource@@@ce@@@std@@@list_impl@2@V342@@Z 10002104 f i RspBasicProvider.obj
+ 0001:00001170       ??$insert@U?$pair@U_GUID@@V?$smart_ptr@VResource@@@ce@@@std@@@?$list@U?$pair@U_GUID@@V?$smart_ptr@VResource@@@ce@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@U_GUID@@V?$smart_ptr@VResource@@@ce@@@std@@@list_impl@1@V231@ABU?$pair@U_GUID@@V?$smart_ptr@VResource@@@ce@@@std@@@Z 10002170 f i RspBasicProvider.obj
+ 0001:000011c0       ??$insert@U?$pair@KV?$smart_ptr@VResource@@@ce@@@std@@@?$list@U?$pair@KV?$smart_ptr@VResource@@@ce@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@KV?$smart_ptr@VResource@@@ce@@@std@@@list_impl@1@V231@ABU?$pair@KV?$smart_ptr@VResource@@@ce@@@std@@@Z 100021c0 f i RspBasicProvider.obj
+ 0001:00001218       ?erase@?$hash@V?$hash_map_traits@KV?$smart_ptr@VResource@@@ce@@U?$hash_traits@K@2@Vallocator@2@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@KV?$smart_ptr@VResource@@@ce@@@std@@@list_impl@3@V453@@Z 10002218 f i RspBasicProvider.obj
+ 0001:00001284       ?clear@?$hash@V?$hash_map_traits@KV?$smart_ptr@VResource@@@ce@@U?$hash_traits@K@2@Vallocator@2@@details@ce@@@details@ce@@QAAXXZ 10002284 f i RspBasicProvider.obj
+ 0001:000012d4       ?_ready@?$hash@V?$hash_map_traits@U_GUID@@V?$smart_ptr@VResource@@@ce@@U?$hash_traits@U_GUID@@@3@Vallocator@3@@details@ce@@@details@ce@@IAA_NXZ 100022d4 f i RspBasicProvider.obj
+ 0001:0000132c       ?erase@?$list@U?$pair@U_GUID@@V?$smart_ptr@VResource@@@ce@@@std@@Vallocator@ce@@@ce@@QAA?AV?$iterator@U?$pair@U_GUID@@V?$smart_ptr@VResource@@@ce@@@std@@@list_impl@2@V342@0@Z 1000232c f i RspBasicProvider.obj
+ 0001:00001384       ?_ready@?$hash@V?$hash_map_traits@KV?$smart_ptr@VResource@@@ce@@U?$hash_traits@K@2@Vallocator@2@@details@ce@@@details@ce@@IAA_NXZ 10002384 f i RspBasicProvider.obj
+ 0001:000013dc       ?clear@?$hash@V?$hash_map_traits@U_GUID@@V?$smart_ptr@VResource@@@ce@@U?$hash_traits@U_GUID@@@3@Vallocator@3@@details@ce@@@details@ce@@QAAXXZ 100023dc f i RspBasicProvider.obj
+ 0001:0000142c       ?find@?$hash@V?$hash_map_traits@U_GUID@@V?$smart_ptr@VResource@@@ce@@U?$hash_traits@U_GUID@@@3@Vallocator@3@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@U_GUID@@V?$smart_ptr@VResource@@@ce@@@std@@@list_impl@3@ABU_GUID@@@Z 1000242c f i RspBasicProvider.obj
+ 0001:000014cc       ?find@?$hash@V?$hash_map_traits@KV?$smart_ptr@VResource@@@ce@@U?$hash_traits@K@2@Vallocator@2@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@KV?$smart_ptr@VResource@@@ce@@@std@@@list_impl@3@ABK@Z 100024cc f i RspBasicProvider.obj
+ 0001:00001544       ?insert@?$hash@V?$hash_map_traits@U_GUID@@V?$smart_ptr@VResource@@@ce@@U?$hash_traits@U_GUID@@@3@Vallocator@3@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@U_GUID@@V?$smart_ptr@VResource@@@ce@@@std@@@list_impl@3@ABU?$pair@U_GUID@@V?$smart_ptr@VResource@@@ce@@@std@@@Z 10002544 f i RspBasicProvider.obj
+ 0001:00001630       ?insert@?$hash@V?$hash_map_traits@KV?$smart_ptr@VResource@@@ce@@U?$hash_traits@K@2@Vallocator@2@@details@ce@@@details@ce@@QAA?AV?$iterator@U?$pair@KV?$smart_ptr@VResource@@@ce@@@std@@@list_impl@3@ABU?$pair@KV?$smart_ptr@VResource@@@ce@@@std@@@Z 10002630 f i RspBasicProvider.obj
+ 0001:000016ec       ??1?$hash@V?$hash_map_traits@KV?$smart_ptr@VResource@@@ce@@U?$hash_traits@K@2@Vallocator@2@@details@ce@@@details@ce@@QAA@XZ 100026ec f i RspBasicProvider.obj
+ 0001:0000172c       ?Deinitialize@Provider@@QAAXXZ 1000272c f   RspBasicProvider.obj
+ 0001:0000175c       ?Release@Provider@@QAA?AW4RM_RESULT@@K@Z 1000275c f   RspBasicProvider.obj
+ 0001:00001864       ?GetResourceInfo@Provider@@QAA?AW4RM_RESULT@@PBU_GUID@@PAURM_RESOURCE_INFO@@K@Z 10002864 f   RspBasicProvider.obj
+ 0001:000019e8       ?insert@?$hash_map@U_GUID@@V?$smart_ptr@VResource@@@ce@@U?$hash_traits@U_GUID@@@3@Vallocator@3@@ce@@QAA?AV?$iterator@U?$pair@U_GUID@@V?$smart_ptr@VResource@@@ce@@@std@@@list_impl@2@ABU_GUID@@ABV?$smart_ptr@VResource@@@2@@Z 100029e8 f i RspBasicProvider.obj
+ 0001:00001a80       ?insert@?$hash_map@KV?$smart_ptr@VResource@@@ce@@U?$hash_traits@K@2@Vallocator@2@@ce@@QAA?AV?$iterator@U?$pair@KV?$smart_ptr@VResource@@@ce@@@std@@@list_impl@2@ABKABV?$smart_ptr@VResource@@@2@@Z 10002a80 f i RspBasicProvider.obj
+ 0001:00001ae8       ??1?$hash@V?$hash_map_traits@U_GUID@@V?$smart_ptr@VResource@@@ce@@U?$hash_traits@U_GUID@@@3@Vallocator@3@@details@ce@@@details@ce@@QAA@XZ 10002ae8 f i RspBasicProvider.obj
+ 0001:00001b28       ?Acquire@Provider@@QAA?AW4RM_RESULT@@PBU_GUID@@PAK@Z 10002b28 f   RspBasicProvider.obj
+ 0001:00001cb0       ?InitializeResources@Provider@@AAAHPAU_GUID@@I@Z 10002cb0 f   RspBasicProvider.obj
+ 0001:00001e20       ??1Provider@@UAA@XZ        10002e20 f   RspBasicProvider.obj
+ 0001:00001e54       ?Initialize@Provider@@QAA?AW4RM_RESULT@@PBURSP_HOST_INFO@@KPAURSP_PROVIDER_INFO@@PAK@Z 10002e54 f   RspBasicProvider.obj
+ 0001:00001f9c       ??0Provider@@QAA@XZ        10002f9c f   RspBasicProvider.obj
+ 0001:00002034       ??_GProvider@@UAAPAXI@Z    10003034 f i RspBasicProvider.obj
+ 0001:00002034       ??_EProvider@@UAAPAXI@Z    10003034 f i RspBasicProvider.obj
+ 0001:00002058       ??0Resource@@QAA@XZ        10003058 f   RspBasicResource.obj
+ 0001:00002098       ??_GResource@@UAAPAXI@Z    10003098 f i RspBasicResource.obj
+ 0001:00002098       ??_EResource@@UAAPAXI@Z    10003098 f i RspBasicResource.obj
+ 0001:000020c8       ?Initialize@Resource@@QAAHPBU_GUID@@PAVProvider@@@Z 100030c8 f   RspBasicResource.obj
+ 0001:00002134       ?Acquire@Resource@@UAA?AW4RM_RESULT@@XZ 10003134 f   RspBasicResource.obj
+ 0001:00002180       ?Release@Resource@@UAAHXZ  10003180 f   RspBasicResource.obj
+ 0001:000021cc       ?GetAvailability@Resource@@QAAHPAURM_AVAILABILITY_INFO@@@Z 100031cc f   RspBasicResource.obj
+ 0001:00002234       InitializeCriticalSection  10003234 f   coredll:COREDLL.dll
+ 0001:00002244       DeleteCriticalSection      10003244 f   coredll:COREDLL.dll
+ 0001:00002254       EnterCriticalSection       10003254 f   coredll:COREDLL.dll
+ 0001:00002264       LeaveCriticalSection       10003264 f   coredll:COREDLL.dll
+ 0001:00002274       DisableThreadLibraryCalls  10003274 f   coredll:COREDLL.dll
+ 0001:00002284       RegCloseKey                10003284 f   coredll:COREDLL.dll
+ 0001:00002294       RegEnumValueW              10003294 f   coredll:COREDLL.dll
+ 0001:000022a4       RegOpenKeyExW              100032a4 f   coredll:COREDLL.dll
+ 0001:000022b4       InterlockedIncrement       100032b4 f   coredll:COREDLL.dll
+ 0001:000022c4       InterlockedDecrement       100032c4 f   coredll:COREDLL.dll
+ 0001:000022d4       StringCchCopyW             100032d4 f   coredll:COREDLL.dll
+ 0001:000022e4       CeSafeCopyMemory           100032e4 f   coredll:COREDLL.dll
+ 0001:000023ec       _DllMainCRTStartup         100033ec f   corelib0:pegdmain.obj
+ 0001:00002420       _onexit                    10003420 f   corelib0:onexit.obj
+ 0001:000025a4       atexit                     100035a4 f   corelib0:onexit.obj
+ 0001:000025bc       __GSHandlerCheckCommon     100035bc f   corelib0:gshandler.obj
+ 0001:000025f8       __GSHandlerCheck           100035f8 f   corelib0:gshandler.obj
+ 0001:00002618       __security_init_cookie     10003618 f   corelib0:seccinit.obj
+ 0001:00002664       __security_check_cookie    10003664 f   corelib0:armsecgs.obj
+ 0001:00002674       __gsfailure                10003674     corelib0:armsecgs.obj
+ 0001:000027a0       _cexit                     100037a0 f   corelib0:cexit.obj
+ 0001:000027b0       _initterm                  100037b0 f   corelib0:crt0dat.obj
+ 0001:000027dc       _cinit                     100037dc f   corelib0:crt0dat.obj
+ 0001:0000283c       __crt_ExitProcess          1000383c f   corelib0:exitproc_proxy.obj
+ 0001:00002848       memcmp                     10003848 f   corelib1:COREDLL.dll
+ 0001:00002858       ??2@YAPAXI@Z               10003858 f   corelib1:COREDLL.dll
+ 0001:00002868       ??3@YAXPAX@Z               10003868 f   corelib1:COREDLL.dll
+ 0001:00002878       _XcptFilter                10003878 f   corelib1:COREDLL.dll
+ 0001:00002888       __C_specific_handler       10003888 f   corelib1:COREDLL.dll
+ 0001:00002898       free                       10003898 f   corelib1:COREDLL.dll
+ 0001:000028a8       malloc                     100038a8 f   corelib1:COREDLL.dll
+ 0001:000028b8       realloc                    100038b8 f   corelib1:COREDLL.dll
+ 0001:000028c8       _msize                     100038c8 f   corelib1:COREDLL.dll
+ 0001:000028d8       __security_gen_cookie2     100038d8 f   corelib1:COREDLL.dll
+ 0001:000028e8       __report_gsfailure         100038e8 f   corelib1:COREDLL.dll
+ 0001:000028f8       InterlockedCompareExchange 100038f8 f   coredll:COREDLL.dll
+ 0001:00002908       InterlockedExchange        10003908 f   coredll:COREDLL.dll
+ 0001:00002918       TerminateProcess           10003918 f   coredll:COREDLL.dll
+ 0001:00002930       ??__Fcs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@YAXXZ 10003930 f i RspBasicApi.obj
+ 0001:0000293c       ??__Fcs@?1??get_lock@?$singleton@VProvider@@$0A@V?$static_allocator@VProvider@@$0A@@ce@@@ce@@KAAAVcritical_section@2@XZ@YAXXZ 1000393c f i RspBasicApi.obj
+ 0001:00002978       __IMPORT_DESCRIPTOR_COREDLL 10003978     coredll:COREDLL.dll
+ 0001:0000298c       __NULL_IMPORT_DESCRIPTOR   1000398c     coredll:COREDLL.dll
+ 0002:00000000       __imp_InitializeCriticalSection 10004000     coredll:COREDLL.dll
+ 0002:00000004       __imp_DeleteCriticalSection 10004004     coredll:COREDLL.dll
+ 0002:00000008       __imp_EnterCriticalSection 10004008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_LeaveCriticalSection 1000400c     coredll:COREDLL.dll
+ 0002:00000010       __imp_DisableThreadLibraryCalls 10004010     coredll:COREDLL.dll
+ 0002:00000014       __imp_RegCloseKey          10004014     coredll:COREDLL.dll
+ 0002:00000018       __imp_RegEnumValueW        10004018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_RegOpenKeyExW        1000401c     coredll:COREDLL.dll
+ 0002:00000020       __imp_InterlockedIncrement 10004020     coredll:COREDLL.dll
+ 0002:00000024       __imp_InterlockedDecrement 10004024     coredll:COREDLL.dll
+ 0002:00000028       __imp_StringCchCopyW       10004028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_CeSafeCopyMemory     1000402c     coredll:COREDLL.dll
+ 0002:00000030       __imp_memcmp               10004030     corelib1:COREDLL.dll
+ 0002:00000034       __imp_??2@YAPAXI@Z         10004034     corelib1:COREDLL.dll
+ 0002:00000038       __imp_??3@YAXPAX@Z         10004038     corelib1:COREDLL.dll
+ 0002:0000003c       __imp__XcptFilter          1000403c     corelib1:COREDLL.dll
+ 0002:00000040       __imp___C_specific_handler 10004040     corelib1:COREDLL.dll
+ 0002:00000044       __imp_free                 10004044     corelib1:COREDLL.dll
+ 0002:00000048       __imp_malloc               10004048     corelib1:COREDLL.dll
+ 0002:0000004c       __imp_realloc              1000404c     corelib1:COREDLL.dll
+ 0002:00000050       __imp__msize               10004050     corelib1:COREDLL.dll
+ 0002:00000054       __imp___security_gen_cookie2 10004054     corelib1:COREDLL.dll
+ 0002:00000058       __imp___report_gsfailure   10004058     corelib1:COREDLL.dll
+ 0002:0000005c       __imp_InterlockedCompareExchange 1000405c     coredll:COREDLL.dll
+ 0002:00000060       __imp_InterlockedExchange  10004060     coredll:COREDLL.dll
+ 0002:00000064       __imp_TerminateProcess     10004064     coredll:COREDLL.dll
+ 0002:00000068       \177COREDLL_NULL_THUNK_DATA 10004068     coredll:COREDLL.dll
+ 0002:00000070       ?dpCurSettings@@3U_DBGPARAM@@A 10004070     RspBasicDebugZone.obj
+ 0002:000004b8       __security_cookie          100044b8     corelib0:seccinit.obj
+ 0002:000004bc       __security_cookie_complement 100044bc     corelib0:seccinit.obj
+ 0002:000004c0       ?memory@?1??allocate@?$static_allocator@VProvider@@$0A@@ce@@SAPAXI@Z@4PADA 100044c0     RspBasicApi.obj
+ 0002:0000051c       ??_B?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@51 1000451c     RspBasicApi.obj
+ 0002:00000520       ?cs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@3@XZ@4V43@A 10004520     RspBasicApi.obj
+ 0002:00000534       ??_B?1??get_lock@?$singleton@VProvider@@$0A@V?$static_allocator@VProvider@@$0A@@ce@@@ce@@KAAAVcritical_section@2@XZ@51 10004534     RspBasicApi.obj
+ 0002:00000538       ?cs@?1??get_lock@?$singleton@VProvider@@$0A@V?$static_allocator@VProvider@@$0A@@ce@@@ce@@KAAAVcritical_section@3@XZ@4V43@A 10004538     RspBasicApi.obj
+ 0002:0000054c       ?pInstance@?$singleton@VProvider@@$0A@V?$static_allocator@VProvider@@$0A@@ce@@@ce@@1RAVProvider@@A 1000454c     RspBasicApi.obj
+ 0002:00000550       ?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A 10004550     RspBasicApi.obj
+ 0002:00000551       ?_factory@?$singleton@VProvider@@$0A@V?$static_allocator@VProvider@@$0A@@ce@@@ce@@1Ulock_factory@12@A 10004551     RspBasicApi.obj
+ 0002:00000560       ?memory@?1??allocate@?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@ce@@SAPAXI@Z@4PADA 10004560     RspBasicProvider.obj
+ 0002:0000070c       ?pInstance@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1RAV?$free_list@$0GE@Vallocator@ce@@@2@A 1000470c     RspBasicProvider.obj
+ 0002:00000710       ?lRefCount@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1JA 10004710     RspBasicProvider.obj
+ 0002:00000714       _exitflag                  10004714     corelib0:cexit.obj
+ 0002:00000718       __onexitend                10004718     <common>
+ 0002:0000071c       __onexitbegin              1000471c     <common>
+ 0002:00000720       g_pcsExit                  10004720     <common>
+ 0002:00000724       _pRawDllMain               10004724     <common>
+
+ entry point at        0001:000023ec
+
+ Static symbols
+
+ 0001:000022fc       _DllMainCRTStartupHelper   100032fc f   corelib0:pegdmain.obj
+ 0001:000026b8       doexit                     100036b8 f   corelib0:cexit.obj
+ 0001:00002928       ??__E?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A@@YAXXZ 10003928 f   RspBasicApi.obj
+ 0001:0000292c       ??__E?_factory@?$singleton@VProvider@@$0A@V?$static_allocator@VProvider@@$0A@@ce@@@ce@@1Ulock_factory@12@A@@YAXXZ 1000392c f   RspBasicApi.obj

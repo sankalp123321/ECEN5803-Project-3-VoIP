@@ -1,0 +1,911 @@
+ mgtt_o
+
+ Timestamp is 618b155e (Tue Nov 09 17:42:06 2021)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 0000097cH .rdata                  CODE
+ 0001:0000099c 00000023H .rdata$debug            CODE
+ 0001:000009c0 0002d2dcH .text                   CODE
+ 0001:0002dc9c 00000148H .xdata                  CODE
+ 0001:0002dde4 00000028H .idata$2                CODE
+ 0001:0002de0c 00000014H .idata$3                CODE
+ 0001:0002de20 000000bcH .idata$4                CODE
+ 0001:0002dedc 000001e2H .idata$6                CODE
+ 0001:0002e0c0 00000104H .edata                  CODE
+ 0002:00000000 000000bcH .idata$5                DATA
+ 0002:000000c0 00000bccH .data                   DATA
+ 0002:00000ca0 000009d4H .bss                    DATA
+ 0003:00000000 00001690H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:00000060       ??_C@_17BCGMALNF@?$AA?5?$AA?$CG?$AA?5?$AA?$AA@ 10001060     mgtt_o:fd_query.obj
+ 0001:00000068       __real@00000000            10001068     mgtt_o:fd_query.obj
+ 0001:00000070       pszType1                   10001070     mgtt_o:fdfon.obj
+ 0001:00000098       awszType1                  10001098     mgtt_o:fdfon.obj
+ 0001:000000e0       ausIFIMetrics2WinWeight    100010e0     mgtt_o:fdfon.obj
+ 0001:000000f4       ajPanoseFamily             100010f4     mgtt_o:fdfon.obj
+ 0001:000004a0       ??_C@_1DE@JEAIEHEI@?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?3?$AAM?$AAS?$AA?5?$AAP?$AAG?$AAo?$AAt?$AAh?$AAi?$AAc?$AA?3?$AA1?$AA9?$AA9?$AA5?$AA?$AA@ 100014a0     mgtt_o:fdfon.obj
+ 0001:000004d4       ??_C@_1DC@PLHHDLEJ@?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?3?$AAM?$AAS?$AA?5?$AAG?$AAo?$AAt?$AAh?$AAi?$AAc?$AA?3?$AA1?$AA9?$AA9?$AA5?$AA?$AA@ 100014d4     mgtt_o:fdfon.obj
+ 0001:00000508       ??_C@_1DE@CDFGJFLA@?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?3?$AAM?$AAS?$AA?5?$AAP?$AAM?$AAi?$AAn?$AAc?$AAh?$AAo?$AA?3?$AA1?$AA9?$AA9?$AA5?$AA?$AA@ 10001508     mgtt_o:fdfon.obj
+ 0001:0000053c       ??_C@_1DC@EMCJOJLB@?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?3?$AAM?$AAS?$AA?5?$AAM?$AAi?$AAn?$AAc?$AAh?$AAo?$AA?3?$AA1?$AA9?$AA9?$AA5?$AA?$AA@ 1000153c     mgtt_o:fdfon.obj
+ 0001:00000570       ??_C@_0BG@EKIBEON@Microsoft?5Tahoma?5Bold?$AA@ 10001570     mgtt_o:fdfon.obj
+ 0001:00000588       ??_C@_0BJ@JNPJGNDE@Microsoft?5Tahoma?5Regular?$AA@ 10001588     mgtt_o:fdfon.obj
+ 0001:000005a4       ??_C@_0BN@OCIHLFGG@Microsoft?5Sans?5Serif?5Regular?$AA@ 100015a4     mgtt_o:fdfon.obj
+ 0001:000005c4       ??_C@_1O@PCEIAOCJ@?$AAS?$AAy?$AAm?$AAb?$AAo?$AAl?$AA?$AA@ 100015c4     mgtt_o:fdfon.obj
+ 0001:000005d4       ??_C@_1BK@JCPKDPM@?$AAZ?$AAa?$AAp?$AAf?$AAD?$AAi?$AAn?$AAg?$AAb?$AAa?$AAt?$AAs?$AA?$AA@ 100015d4     mgtt_o:fdfon.obj
+ 0001:0000060c       ??_C@_1BA@MKONEDAA@?$AAM?$AAa?$AAr?$AAl?$AAe?$AAt?$AAt?$AA?$AA@ 1000160c     mgtt_o:fdfc.obj
+ 0001:000007b8       itrp_RoundFunction         100017b8     mgtt_o:interp.obj
+ 0001:00000978       overWriteExtraSpace        10001978     decompdrv:MEMORY.obj
+ 0001:0000097c       overWriteOffsetToData      1000197c     decompdrv:MEMORY.obj
+ 0001:00000980       flipSignCode               10001980     decompdrv:Ttf_conv.obj
+ 0001:00000981       Hop3Code                   10001981     decompdrv:Ttf_conv.obj
+ 0001:00000982       Hop4Code                   10001982     decompdrv:Ttf_conv.obj
+ 0001:00000983       wordCode                   10001983     decompdrv:Ttf_conv.obj
+ 0001:00000984       oneMoreByteCode2           10001984     decompdrv:Ttf_conv.obj
+ 0001:00000985       oneMoreByteCode1           10001985     decompdrv:Ttf_conv.obj
+ 0001:00000986       cvt_pos8                   10001986     decompdrv:Ttf_conv.obj
+ 0001:00000987       cvt_pos1                   10001987     decompdrv:Ttf_conv.obj
+ 0001:00000988       lowestUCode                10001988     decompdrv:Ttf_conv.obj
+ 0001:0000098a       cvt_neg8                   1000198a     decompdrv:Ttf_conv.obj
+ 0001:0000098b       cvt_neg1                   1000198b     decompdrv:Ttf_conv.obj
+ 0001:0000098c       lowestCode                 1000198c     decompdrv:Ttf_conv.obj
+ 0001:0000098e       cvt_neg0                   1000198e     decompdrv:Ttf_conv.obj
+ 0001:0000098f       cvt_wordCode               1000198f     decompdrv:Ttf_conv.obj
+ 0001:00000990       cvt_lowestCode             10001990     decompdrv:Ttf_conv.obj
+ 0001:000009c0       ttfdEnablePDEV             100019c0 f   mgtt_o:ffile.obj
+ 0001:000009d4       ttfdDisablePDEV            100019d4 f   mgtt_o:ffile.obj
+ 0001:000009d8       ttfdCompletePDEV           100019d8 f   mgtt_o:ffile.obj
+ 0001:000009dc       vInitGlyphState            100019dc f   mgtt_o:ffile.obj
+ 0001:000009f4       vMarkFontGone              100019f4 f   mgtt_o:ffile.obj
+ 0001:00000a7c       FntDrvLoadFontFile         10001a7c f   mgtt_o:ffile.obj
+ 0001:00000b80       FntDrvUnloadFontFile       10001b80 f   mgtt_o:ffile.obj
+ 0001:00000bf4       ttfdSemQueryGlyphAttrs     10001bf4 f   mgtt_o:ffile.obj
+ 0001:00000cd8       FntDrvQueryFontData        10001cd8 f   mgtt_o:ffile.obj
+ 0001:00000dcc       ttfdSemFree                10001dcc f   mgtt_o:ffile.obj
+ 0001:00000e00       FntDrvDestroyFont          10001e00 f   mgtt_o:ffile.obj
+ 0001:00000e34       ttfdSemQueryTrueTypeOutline 10001e34 f   mgtt_o:ffile.obj
+ 0001:00000f30       ttfdSemQueryAdvanceWidths  10001f30 f   mgtt_o:ffile.obj
+ 0001:00001024       FntDrvQueryTrueTypeTable   10002024 f   mgtt_o:ffile.obj
+ 0001:00001120       pgsetComputeSymbolCP       10002120 f   mgtt_o:ffile.obj
+ 0001:00001280       ttfdSemQueryFontTree       10002280 f   mgtt_o:ffile.obj
+ 0001:00001314       vAddPOINTQF                10002314 f   mgtt_o:fd_query.obj
+ 0001:00001388       vCharacterCode             10002388 f   mgtt_o:fd_query.obj
+ 0001:00001410       ttfdQueryFontCaps          10002410 f   mgtt_o:fd_query.obj
+ 0001:00001454       FntDrvQueryFont            10002454 f   mgtt_o:fd_query.obj
+ 0001:0000147c       bIndexToWchar              1000247c f   mgtt_o:fd_query.obj
+ 0001:00001744       bIndexToWcharKern          10002744 f   mgtt_o:fd_query.obj
+ 0001:000017a0       cQueryKerningPairs         100027a0 f   mgtt_o:fd_query.obj
+ 0001:000018d4       pvHandleKerningPairs       100028d4 f   mgtt_o:fd_query.obj
+ 0001:00001ba0       ttfdQueryFontTree          10002ba0 f   mgtt_o:fd_query.obj
+ 0001:00001cd4       bGetGlyphOutline           10002cd4 f   mgtt_o:fd_query.obj
+ 0001:00001e04       lExL                       10002e04 f   mgtt_o:fd_query.obj
+ 0001:00001e30       b_fxA_and_fxAB_are_Ok      10002e30 f   mgtt_o:fd_query.obj
+ 0001:00001ff4       bGetGlyphMetrics           10002ff4 f   mgtt_o:fd_query.obj
+ 0001:0000205c       vGetVertNotionalMetrics    1000305c f   mgtt_o:fd_query.obj
+ 0001:0000213c       ttfdQueryTrueTypeTable2    1000313c f   mgtt_o:fd_query.obj
+ 0001:00002234       ttfdQueryTrueTypeTable     10003234 f   mgtt_o:fd_query.obj
+ 0001:0000228c       ttfdGetTrueTypeFile        1000328c f   mgtt_o:fd_query.obj
+ 0001:000022b4       ttfdQueryGlyphAttrs        100032b4 f   mgtt_o:fd_query.obj
+ 0001:00002304       FntDrvQueryFontFile        10003304 f   mgtt_o:fd_query.obj
+ 0001:000023fc       vCopyAndZeroOutPaddingBits 100033fc f   mgtt_o:fd_query.obj
+ 0001:000025b0       vGetNotionalGlyphMetrics   100035b0 f   mgtt_o:fd_query.obj
+ 0001:00002748       lQueryDEVICEMETRICS        10003748 f   mgtt_o:fd_query.obj
+ 0001:00002d34       pvSetMemoryBases           10003d34 f   mgtt_o:fd_query.obj
+ 0001:00002e34       bQueryAdvanceWidths        10003e34 f   mgtt_o:fd_query.obj
+ 0001:000032f8       bGetFastAdvanceWidth       100042f8 f   mgtt_o:fd_query.obj
+ 0001:000034f0       vFillGLYPHDATA_ErrRecover  100044f0 f   mgtt_o:fd_query.obj
+ 0001:0000368c       lGetGlyphBitmapErrRecover  1000468c f   mgtt_o:fd_query.obj
+ 0001:00003734       vGCGB                      10004734 f   mgtt_o:fd_query.obj
+ 0001:00003878       vCopyGrayBits              10004878 f   mgtt_o:fd_query.obj
+ 0001:0000389c       vCopyClearTypeBits         1000489c f   mgtt_o:fd_query.obj
+ 0001:00003968       vFillSingularGLYPHDATA     10004968 f   mgtt_o:fd_query.obj
+ 0001:00003a1c       lGetSingularGlyphBitmap    10004a1c f   mgtt_o:fd_query.obj
+ 0001:00003ab0       vFillGLYPHDATA             10004ab0 f   mgtt_o:fd_query.obj
+ 0001:0000430c       lGGOBitmap                 1000530c f   mgtt_o:fd_query.obj
+ 0001:0000455c       lGetGlyphBitmap            1000555c f   mgtt_o:fd_query.obj
+ 0001:00004818       ttfdGlyphBitmap            10005818 f   mgtt_o:fd_query.obj
+ 0001:000048e4       lGetGlyphBitmapVertical    100058e4 f   mgtt_o:fd_query.obj
+ 0001:000049a8       ttfdQueryFontData          100059a8 f   mgtt_o:fd_query.obj
+ 0001:00004d18       IsCurrentCodePageDBCS      10005d18 f   mgtt_o:fdfon.obj
+ 0001:00004d74       GetCodePageFromSpecId      10005d74 f   mgtt_o:fdfon.obj
+ 0001:00004de0       ui16BeLangId               10005de0 f   mgtt_o:fdfon.obj
+ 0001:00004e1c       fsSelectionTTFD            10005e1c f   mgtt_o:fdfon.obj
+ 0001:00004e78       ttfdUnloadFontFile         10005e78 f   mgtt_o:fdfon.obj
+ 0001:00004edc       pvGetPointerCallback       10005edc f   mgtt_o:fdfon.obj
+ 0001:00004f44       vReleasePointerCallback    10005f44 f   mgtt_o:fdfon.obj
+ 0001:00004f48       pjTable                    10005f48 f   mgtt_o:fdfon.obj
+ 0001:00005028       bGetTagIndex               10006028 f   mgtt_o:fdfon.obj
+ 0001:00005248       bShellFontFace             10006248 f   mgtt_o:fdfon.obj
+ 0001:0000528c       ConvertLangIDtoCodePage    1000628c f   mgtt_o:fdfon.obj
+ 0001:00005764       bCheckLocaTable            10006764 f   mgtt_o:fdfon.obj
+ 0001:00005870       bCheckHdmxTable            10006870 f   mgtt_o:fdfon.obj
+ 0001:000058d0       vDetectOldBiDiFonts        100068d0 f   mgtt_o:fdfon.obj
+ 0001:00005934       Fixup5cRun                 10006934 f   mgtt_o:fdfon.obj
+ 0001:00005a40       cjComputeGLYPHSET_MSFT_UNICODE 10006a40 f   mgtt_o:fdfon.obj
+ 0001:00005d2c       IsValidFormat4TableSize    10006d2c f   mgtt_o:fdfon.obj
+ 0001:00005e58       bVerifyMsftTable           10006e58 f   mgtt_o:fdfon.obj
+ 0001:0000608c       bVerifyMacTable            1000708c f   mgtt_o:fdfon.obj
+ 0001:000060d0       bVerifyTTC                 100070d0 f   mgtt_o:fdfon.obj
+ 0001:00006124       vFontFileCache             10007124 f   mgtt_o:fdfon.obj
+ 0001:00006394       vCopy_IFIV                 10007394 f   mgtt_o:fdfon.obj
+ 0001:0000644c       bLoadTTF_Cache             1000744c f   mgtt_o:fdfon.obj
+ 0001:00006634       vGetVerticalGSet           10007634 f   mgtt_o:fdfon.obj
+ 0001:000066c0       vReleaseGlyphSet           100076c0 f   mgtt_o:fdfon.obj
+ 0001:00006718       bVerifyMsftHighByteTable   10007718 f   mgtt_o:fdfon.obj
+ 0001:000068c8       bVerifyMsftTableGeneral    100078c8 f   mgtt_o:fdfon.obj
+ 0001:00006a00       CreateGlyphSetFromMITable  10007a00 f   mgtt_o:fdfon.obj
+ 0001:00006c54       cjComputeGLYPHSET_HIGH_BYTE 10007c54 f   mgtt_o:fdfon.obj
+ 0001:00006eb8       cjComputeGLYPHSET_MSFT_GENERAL 10007eb8 f   mgtt_o:fdfon.obj
+ 0001:00007188       cjComputeGLYPHSET_TEMPLATE 10008188 f   mgtt_o:fdfon.obj
+ 0001:00007268       cjComputeGLYPHSET_OLDBIDI  10008268 f   mgtt_o:fdfon.obj
+ 0001:000074ac       bContainGlyphSet           100084ac f   mgtt_o:fdfon.obj
+ 0001:0000751c       bValidRangeHDMX            1000851c f   mgtt_o:fdfon.obj
+ 0001:000075bc       bValidRangeVMTX            100085bc f   mgtt_o:fdfon.obj
+ 0001:000075e4       bValidRangeVHEA            100085e4 f   mgtt_o:fdfon.obj
+ 0001:000075f4       bValidRangeVDMXHeader      100085f4 f   mgtt_o:fdfon.obj
+ 0001:00007638       bValidRangeVDMXRecord      10008638 f   mgtt_o:fdfon.obj
+ 0001:0000764c       bValidRangeVDMXvTable      1000864c f   mgtt_o:fdfon.obj
+ 0001:00007668       bValidRangeLTSH            10008668 f   mgtt_o:fdfon.obj
+ 0001:00007680       bValidRangePOSTFormat2     10008680 f   mgtt_o:fdfon.obj
+ 0001:000076c0       bValidRangeGASP            100086c0 f   mgtt_o:fdfon.obj
+ 0001:00007700       bValidRangeEBLC            10008700 f   mgtt_o:fdfon.obj
+ 0001:0000775c       bValidRangeMORT            1000875c f   mgtt_o:fdfon.obj
+ 0001:000077a4       bValidRangeGSUB            100087a4 f   mgtt_o:fdfon.obj
+ 0001:00007a7c       bValidRangeKERN            10008a7c f   mgtt_o:fdfon.obj
+ 0001:00007b40       bValidRangeOS2             10008b40 f   mgtt_o:fdfon.obj
+ 0001:00007b78       IsBogusSignature           10008b78 f   mgtt_o:fdfon.obj
+ 0001:00007c80       ttfdUnloadFontFileTTC      10008c80 f   mgtt_o:fdfon.obj
+ 0001:00007d04       bGetTablePointers          10008d04 f   mgtt_o:fdfon.obj
+ 0001:00007ea8       bComputeIFISIZE            10008ea8 f   mgtt_o:fdfon.obj
+ 0001:00008534       bLoadGlyphSet              10009534 f   mgtt_o:fdfon.obj
+ 0001:00008690       bReloadGlyphSet            10009690 f   mgtt_o:fdfon.obj
+ 0001:00008a38       bCvtUnToMac                10009a38 f   mgtt_o:fdfon.obj
+ 0001:00008b14       vFillIFICharsets           10009b14 f   mgtt_o:fdfon.obj
+ 0001:000090f8       bComputeIDs                1000a0f8 f   mgtt_o:fdfon.obj
+ 0001:00009504       vFill_IFIMETRICS           1000a504 f   mgtt_o:fdfon.obj
+ 0001:0000a5c4       bVerifyTTF                 1000b5c4 f   mgtt_o:fdfon.obj
+ 0001:0000a7ac       bLoadTTF                   1000b7ac f   mgtt_o:fdfon.obj
+ 0001:0000ac50       bLoadFontFile              1000bc50 f   mgtt_o:fdfon.obj
+ 0001:0000b148       bInitInAndOut              1000c148 f   mgtt_o:fdfc.obj
+ 0001:0000b218       vGetMinD                   1000c218 f   mgtt_o:fdfc.obj
+ 0001:0000b290       ttfdCloseFontContext       1000c290 f   mgtt_o:fdfc.obj
+ 0001:0000b33c       ttfdDestroyFont            1000c33c f   mgtt_o:fdfc.obj
+ 0001:0000b364       ttfdFree                   1000c364 f   mgtt_o:fdfc.obj
+ 0001:0000b390       bSetXform                  1000c390 f   mgtt_o:fdfc.obj
+ 0001:0000b8d0       iHipot                     1000c8d0 f   mgtt_o:fdfc.obj
+ 0001:0000b960       bFloatToL                  1000c960 f   mgtt_o:fdfc.obj
+ 0001:0000b9d8       lFFF                       1000c9d8 f   mgtt_o:fdfc.obj
+ 0001:0000ba54       fxPtSize                   1000ca54 f   mgtt_o:fdfc.obj
+ 0001:0000baa0       vFindHdmxTable             1000caa0 f   mgtt_o:fdfc.obj
+ 0001:0000bb58       bGrabXform                 1000cb58 f   mgtt_o:fdfc.obj
+ 0001:0000bc9c       vAdjustGrayStateAndBoldOptions__FONTCONTEXT 1000cc9c f   mgtt_o:fdfc.obj
+ 0001:0000bd90       vSetGrayState__FONTCONTEXT 1000cd90 f   mgtt_o:fdfc.obj
+ 0001:0000becc       fd_FindBlocStrike          1000cecc f   mgtt_o:fdfc.obj
+ 0001:0000bf40       vSetClearTypeState__FONTCONTEXT 1000cf40 f   mgtt_o:fdfc.obj
+ 0001:0000c040       bComputeMaxGlyph           1000d040 f   mgtt_o:fdfc.obj
+ 0001:0000c714       vCheckForSingularXform     1000d714 f   mgtt_o:fdfc.obj
+ 0001:0000c8b4       bNewXform                  1000d8b4 f   mgtt_o:fdfc.obj
+ 0001:0000c9d8       ttfdOpenFontContextInternal 1000d9d8 f   mgtt_o:fdfc.obj
+ 0001:0000cc18       ttfdOpenFontContext        1000dc18 f   mgtt_o:fdfc.obj
+ 0001:0000cc94       Scale_16DOT16              1000dc94 f   mgtt_o:fd_poly.obj
+ 0001:0000cce8       Scale_28DOT4               1000dce8 f   mgtt_o:fd_poly.obj
+ 0001:0000cd40       Scale_None                 1000dd40 f   mgtt_o:fd_poly.obj
+ 0001:0000cd44       cjFillPolygon              1000dd44 f   mgtt_o:fd_poly.obj
+ 0001:0000d0cc       lQuerySingularTrueTypeOutline 1000e0cc f   mgtt_o:fd_poly.obj
+ 0001:0000d124       lQueryTTOutline            1000e124 f   mgtt_o:fd_poly.obj
+ 0001:0000d350       lQueryTrueTypeOutlineVertical 1000e350 f   mgtt_o:fd_poly.obj
+ 0001:0000d438       ttfdQueryQuadTrueTypeOutline 1000e438 f   mgtt_o:fd_poly.obj
+ 0001:0000d544       vQsplineToPolyBezier       1000e544 f   mgtt_o:fd_poly.obj
+ 0001:0000d680       bGeneratePath              1000e680 f   mgtt_o:fd_poly.obj
+ 0001:0000d8fc       ttfdQueryTrueTypeOutline   1000e8fc f   mgtt_o:fd_poly.obj
+ 0001:0000d9e8       ttfdQueryGlyphOutline      1000e9e8 f   mgtt_o:fd_poly.obj
+ 0001:0000db8c       dummyReleaseSfntFrag       1000eb8c f   mgtt_o:fscaler.obj
+ 0001:0000db90       fs_SetUpKey                1000eb90 f   mgtt_o:fscaler.obj
+ 0001:0000dc18       fs_OpenFonts               1000ec18 f   mgtt_o:fscaler.obj
+ 0001:0000dc90       fs_Initialize              1000ec90 f   mgtt_o:fscaler.obj
+ 0001:0000dcfc       fs_NewSfnt                 1000ecfc f   mgtt_o:fscaler.obj
+ 0001:0000ddcc       fs__NewTransformation      1000edcc f   mgtt_o:fscaler.obj
+ 0001:0000e400       fs_NewGlyph                1000f400 f   mgtt_o:fscaler.obj
+ 0001:0000e59c       fs__Contour                1000f59c f   mgtt_o:fscaler.obj
+ 0001:0000eac0       fs_ContourNoGridFit        1000fac0 f   mgtt_o:fscaler.obj
+ 0001:0000eac8       fs_ContourGridFit          1000fac8 f   mgtt_o:fscaler.obj
+ 0001:0000ead0       fs_FindBitMapSize          1000fad0 f   mgtt_o:fscaler.obj
+ 0001:0000f560       fs_ConvertGrayLevels       10010560 f   mgtt_o:fscaler.obj
+ 0001:0000f844       fs_ContourScan             10010844 f   mgtt_o:fscaler.obj
+ 0001:00010128       fs_GetGlyphIDs             10011128 f   mgtt_o:fscaler.obj
+ 0001:00010178       fs_WinNTGetGlyphIDs        10011178 f   mgtt_o:fscaler.obj
+ 0001:000101d8       fs_NewTransformNoGridFit   100111d8 f   mgtt_o:fscaler.obj
+ 0001:000101e0       fs_NewTransformation       100111e0 f   mgtt_o:fscaler.obj
+ 0001:000101e8       vCpyBeToLeUnicodeString    100111e8 f   mgtt_o:service.obj
+ 0001:00010220       vCvtMacToUnicode           10011220 f   mgtt_o:service.obj
+ 0001:0001023c       vCpyMacToLeUnicodeString   1001123c f   mgtt_o:service.obj
+ 0001:00010270       ui16Mac2Lang               10011270 f   mgtt_o:service.obj
+ 0001:00010288       ?Normalize@@YAHJPAJ0@Z     10011288 f i mgtt_o:fmath.obj
+ 0001:000102fc       eftol_c                    100112fc f   mgtt_o:fmath.obj
+ 0001:00010380       eftofx_c                   10011380 f   mgtt_o:fmath.obj
+ 0001:000103b0       eftof_c                    100113b0 f   mgtt_o:fmath.obj
+ 0001:00010414       ltoef_c                    10011414 f   mgtt_o:fmath.obj
+ 0001:00010464       ftoef_c                    10011464 f   mgtt_o:fmath.obj
+ 0001:000104ac       addff3_c                   100114ac f   mgtt_o:fmath.obj
+ 0001:00010570       mulff3_c                   10011570 f   mgtt_o:fmath.obj
+ 0001:00010660       divff3_c                   10011660 f   mgtt_o:fmath.obj
+ 0001:00010748       sqrtf2_c                   10011748 f   mgtt_o:fmath.obj
+ 0001:000107bc       vEfToLfx                   100117bc f   mgtt_o:fmath.obj
+ 0001:00010814       lCvt                       10011814 f   mgtt_o:fmath.obj
+ 0001:00010868       CompDiv                    10011868 f   mgtt_o:fontmath.obj
+ 0001:00010938       LongMulDiv                 10011938 f   mgtt_o:fontmath.obj
+ 0001:00010948       ShortFracMul               10011948 f   mgtt_o:fontmath.obj
+ 0001:00010960       ShortFracDot               10011960 f   mgtt_o:fontmath.obj
+ 0001:00010974       ShortMulDiv                10011974 f   mgtt_o:fontmath.obj
+ 0001:00010984       Mul26Dot6                  10011984 f   mgtt_o:fontmath.obj
+ 0001:00010a28       ShortFracDiv               10011a28 f   mgtt_o:fontmath.obj
+ 0001:00010a50       FixMul                     10011a50 f   mgtt_o:fontmath.obj
+ 0001:00010b14       FixDiv                     10011b14 f   mgtt_o:fontmath.obj
+ 0001:00010b28       FixRatio                   10011b28 f   mgtt_o:fontmath.obj
+ 0001:00010b3c       FracMul                    10011b3c f   mgtt_o:fontmath.obj
+ 0001:00010c00       FracDiv                    10011c00 f   mgtt_o:fontmath.obj
+ 0001:00010c14       FracSqrt                   10011c14 f   mgtt_o:fontmath.obj
+ 0001:00010c80       mth_FixXYMul               10011c80 f   mgtt_o:fontmath.obj
+ 0001:00010d64       mth_MxConcat2x2            10011d64 f   mgtt_o:fontmath.obj
+ 0001:00010df0       mth_Max45Trick             10011df0 f   mgtt_o:fontmath.obj
+ 0001:00010e24       mth_IsMatrixStretched      10011e24 f   mgtt_o:fontmath.obj
+ 0001:00010e54       mth_PositiveSquare         10011e54 f   mgtt_o:fontmath.obj
+ 0001:00010e90       mth_Identity               10011e90 f   mgtt_o:fontmath.obj
+ 0001:00010ec8       mth_PositiveRectangle      10011ec8 f   mgtt_o:fontmath.obj
+ 0001:00010f00       mth_UnitarySquare          10011f00 f   mgtt_o:fontmath.obj
+ 0001:00010f58       mth_SameStretch            10011f58 f   mgtt_o:fontmath.obj
+ 0001:00010f68       mth_GeneralRotation        10011f68 f   mgtt_o:fontmath.obj
+ 0001:00010fa8       mth_90degRotationFactor    10011fa8 f   mgtt_o:fontmath.obj
+ 0001:00011048       mth_90degRotationFactorForEmboldening 10012048 f   mgtt_o:fontmath.obj
+ 0001:000110ec       mth_90degClosestRotationFactor 100120ec f   mgtt_o:fontmath.obj
+ 0001:000113bc       mth_Non90DegreeTransformation 100123bc f   mgtt_o:fontmath.obj
+ 0001:00011500       mth_CountLowZeros          10012500 f   mgtt_o:fontmath.obj
+ 0001:00011520       mth_max_abs                10012520 f   mgtt_o:fontmath.obj
+ 0001:0001153c       mth_ReduceMatrix           1001253c f   mgtt_o:fontmath.obj
+ 0001:000115ec       mth_IntelMul               100125ec f   mgtt_o:fontmath.obj
+ 0001:0001174c       mth_FoldPointSizeResolution 1001274c f   mgtt_o:fontmath.obj
+ 0001:000117f4       PowerOf2                   100127f4 f   mgtt_o:fontmath.obj
+ 0001:000118a0       mth_DivShiftLong           100128a0 f   mgtt_o:fontmath.obj
+ 0001:0001193c       mth_GetShift               1001293c f   mgtt_o:fontmath.obj
+ 0001:0001197c       mth_DivShiftShort          1001297c f   mgtt_o:fontmath.obj
+ 0001:0001198c       bFDXform                   1001298c f   mgtt_o:fntmath.obj
+ 0001:00011b94       vLTimesVtfl                10012b94 f   mgtt_o:fntmath.obj
+ 0001:00011bec       fxLTimesEf                 10012bec f   mgtt_o:fntmath.obj
+ 0001:00011c00       vLToE                      10012c00 f   mgtt_o:fntmath.obj
+ 0001:00011c30       bXformUnitVector           10012c30 f   mgtt_o:fntmath.obj
+ 0001:00011ebc       SearchDummyTable           10012ebc f   mgtt_o:vertical.obj
+ 0001:00011ec4       SearchMortTable            10012ec4 f   mgtt_o:vertical.obj
+ 0001:00011f34       SearchGsubTable            10012f34 f   mgtt_o:vertical.obj
+ 0001:00011fe0       vCalcXformVertical         10012fe0 f   mgtt_o:vertical.obj
+ 0001:0001208c       IsLocalDbcsCharacter       1001308c f   mgtt_o:vertical.obj
+ 0001:00012124       IsFullWidthCharacter       10013124 f   mgtt_o:vertical.obj
+ 0001:00012158       bComputeGlyphAttrBits      10013158 f   mgtt_o:vertical.obj
+ 0001:00012388       bChangeXform               10013388 f   mgtt_o:vertical.obj
+ 0001:000124a0       vShiftBitmapInfo           100134a0 f   mgtt_o:vertical.obj
+ 0001:0001254c       vAdd16FixTo16Fix           1001354c f   mgtt_o:vertical.obj
+ 0001:00012574       vAdd16FixTo28Fix           10013574 f   mgtt_o:vertical.obj
+ 0001:000125ac       vShiftOutlineInfo          100135ac f   mgtt_o:vertical.obj
+ 0001:000126f8       bCheckVerticalTable        100136f8 f   mgtt_o:vertical.obj
+ 0001:000127bc       RtlEnlargedUnsignedDivide  100137bc f   mgtt_o:ntcompat.obj
+ 0001:00012800       IsAnyCharsetDbcs           10013800 f   mgtt_o:ntcompat.obj
+ 0001:00012884       bSearchVdmxTable           10013884 f   mgtt_o:vdmx.obj
+ 0001:00012af0       vQuantizeXform             10013af0 f   mgtt_o:vdmx.obj
+ 0001:00012e78       fsc_Initialize             10013e78 f   mgtt_o:scentry.obj
+ 0001:00012e7c       fsc_RemoveDups             10013e7c f   mgtt_o:scentry.obj
+ 0001:00012fcc       fsc_CheckYReversal         10013fcc f   mgtt_o:scentry.obj
+ 0001:00013078       fsc_CheckYReversalInSpline 10014078 f   mgtt_o:scentry.obj
+ 0001:00013270       fsc_OverScaleOutline       10014270 f   mgtt_o:scentry.obj
+ 0001:00013378       fsc_CalcGrayMap            10014378 f   mgtt_o:scentry.obj
+ 0001:0001353c       FindExtrema                1001453c f   mgtt_o:scentry.obj
+ 0001:000136f0       EvaluateSpline             100146f0 f   mgtt_o:scentry.obj
+ 0001:00013998       fsc_MeasureGlyph           10014998 f   mgtt_o:scentry.obj
+ 0001:000140bc       fsc_FillGlyph              100150bc f   mgtt_o:scentry.obj
+ 0001:00014620       sfac_Classify              10015620 f   mgtt_o:sfntaccs.obj
+ 0001:0001485c       sfac_DoOffsetTableMap      1001585c f   mgtt_o:sfntaccs.obj
+ 0001:00014940       sfac_GetDataPtr            10015940 f   mgtt_o:sfntaccs.obj
+ 0001:000149c0       sfac_ComputeUnkownIndex    100159c0 f   mgtt_o:sfntaccs.obj
+ 0001:000149c8       sfac_ComputeIndex0         100159c8 f   mgtt_o:sfntaccs.obj
+ 0001:000149d8       sfac_ComputeIndex2         100159d8 f   mgtt_o:sfntaccs.obj
+ 0001:00014aac       sfac_ComputeIndex6         10015aac f   mgtt_o:sfntaccs.obj
+ 0001:00014b08       sfac_ComputeBinarySearchParams 10015b08 f   mgtt_o:sfntaccs.obj
+ 0001:00014b58       sfac_GetGlyphIndex         10015b58 f   mgtt_o:sfntaccs.obj
+ 0001:00014bd4       sfac_GetGlyphIDs           10015bd4 f   mgtt_o:sfntaccs.obj
+ 0001:00014ca0       sfac_GetLongGlyphIDs       10015ca0 f   mgtt_o:sfntaccs.obj
+ 0001:00014dc0       sfac_ReadGlyphHorMetrics   10015dc0 f   mgtt_o:sfntaccs.obj
+ 0001:00014e6c       sfac_ReadNumLongVertMetrics 10015e6c f   mgtt_o:sfntaccs.obj
+ 0001:00014ee8       sfac_GetGlyphLocation      10015ee8 f   mgtt_o:sfntaccs.obj
+ 0001:000150b4       sfac_CopyFontAndPrePrograms 100160b4 f   mgtt_o:sfntaccs.obj
+ 0001:000151a4       sfac_CopyCVT               100161a4 f   mgtt_o:sfntaccs.obj
+ 0001:00015240       sfac_ReadGlyphHeader       10016240 f   mgtt_o:sfntaccs.obj
+ 0001:000153cc       sfac_ReadGlyphBbox         100163cc f   mgtt_o:sfntaccs.obj
+ 0001:000154cc       sfac_ReadOutlineData       100164cc f   mgtt_o:sfntaccs.obj
+ 0001:0001581c       sfac_ReadComponentData     1001681c f   mgtt_o:sfntaccs.obj
+ 0001:00015a98       sfac_ReadCompositeInstructions 10016a98 f   mgtt_o:sfntaccs.obj
+ 0001:00015ad8       sfac_ReleaseGlyph          10016ad8 f   mgtt_o:sfntaccs.obj
+ 0001:00015b10       FindBlocStrike             10016b10 f   mgtt_o:sfntaccs.obj
+ 0001:00015ca4       FindBscaStrike             10016ca4 f   mgtt_o:sfntaccs.obj
+ 0001:00015d48       sfac_SearchForBitmap       10016d48 f   mgtt_o:sfntaccs.obj
+ 0001:00016488       sfac_GetSbitMetrics        10017488 f   mgtt_o:sfntaccs.obj
+ 0001:000165dc       sfac_ShaveSbitMetrics      100175dc f   mgtt_o:sfntaccs.obj
+ 0001:000169e8       sfac_GetSbitBitmap         100179e8 f   mgtt_o:sfntaccs.obj
+ 0001:00016dac       sfac_GetSbitComponentInfo  10017dac f   mgtt_o:sfntaccs.obj
+ 0001:00016e38       sfac_ComputeIndex4         10017e38 f   mgtt_o:sfntaccs.obj
+ 0001:00017194       sfac_ComputeMapping        10018194 f   mgtt_o:sfntaccs.obj
+ 0001:00017390       sfac_GetMultiGlyphIDs      10018390 f   mgtt_o:sfntaccs.obj
+ 0001:00017448       sfac_GetWinNTGlyphIDs      10018448 f   mgtt_o:sfntaccs.obj
+ 0001:00017510       sfac_LoadCriticalSfntMetrics 10018510 f   mgtt_o:sfntaccs.obj
+ 0001:0001786c       sfac_ReadGlyphVertMetrics  1001886c f   mgtt_o:sfntaccs.obj
+ 0001:00017998       sfac_ReadGlyphMetrics      10018998 f   mgtt_o:sfntaccs.obj
+ 0001:000179cc       sfac_SearchForStrike       100189cc f   mgtt_o:sfntaccs.obj
+ 0001:00017b54       fsg_GetOutlineSizeAndOffsets 10018b54 f   mgtt_o:fsglue.obj
+ 0001:00017c50       fsg_UpdatePrivateSpaceAddresses 10018c50 f   mgtt_o:fsglue.obj
+ 0001:00017da4       fsg_UpdateWorkSpaceAddresses 10018da4 f   mgtt_o:fsglue.obj
+ 0001:00017df0       fsg_UpdateWorkSpaceElement 10018df0 f   mgtt_o:fsglue.obj
+ 0001:00017e8c       fsg_QueryGlobalGS          10018e8c f   mgtt_o:fsglue.obj
+ 0001:00017e98       fsg_QueryGlobalGSSubPixel  10018e98 f   mgtt_o:fsglue.obj
+ 0001:00017ea4       fsg_QueryTwilightElement   10018ea4 f   mgtt_o:fsglue.obj
+ 0001:00017f50       fsg_QueryTwilightElementSubPixel 10018f50 f   mgtt_o:fsglue.obj
+ 0001:00017ff0       fsg_QueryStack             10018ff0 f   mgtt_o:fsglue.obj
+ 0001:00017ff8       fsg_CheckWorkSpaceForFit   10018ff8 f   mgtt_o:fsglue.obj
+ 0001:000180f0       fsg_SetUpWorkSpaceBitmapMemory 100190f0 f   mgtt_o:fsglue.obj
+ 0001:00018134       fsg_GetWorkSpaceExtra      10019134 f   mgtt_o:fsglue.obj
+ 0001:00018144       fsg_QueryPPEMXY            10019144 f   mgtt_o:fsglue.obj
+ 0001:00018178       fsg_GetContourData         10019178 f   mgtt_o:fsglue.obj
+ 0001:000181ec       fsg_RestoreContourData     100191ec f   mgtt_o:fsglue.obj
+ 0001:0001825c       fsg_GetDevAdvanceWidth     1001925c f   mgtt_o:fsglue.obj
+ 0001:00018264       fsg_GetDevAdvanceHeight    10019264 f   mgtt_o:fsglue.obj
+ 0001:0001826c       fsg_GetScaledCVT           1001926c f   mgtt_o:fsglue.obj
+ 0001:0001827c       fsg_45DegreePhaseShift     1001927c f   mgtt_o:fsglue.obj
+ 0001:00018284       fsg_UpdateAdvanceWidth     10019284 f   mgtt_o:fsglue.obj
+ 0001:000182c4       fsg_UpdateAdvanceHeight    100192c4 f   mgtt_o:fsglue.obj
+ 0001:00018304       fsg_CalcLSBsAndAdvanceWidths 10019304 f   mgtt_o:fsglue.obj
+ 0001:0001833c       fsg_CalcTSBsAndAdvanceHeights 1001933c f   mgtt_o:fsglue.obj
+ 0001:00018374       fsg_InitInterpreterTrans   10019374 f   mgtt_o:fsglue.obj
+ 0001:000184a0       fsg_SetHintFlags           100194a0 f   mgtt_o:fsglue.obj
+ 0001:000184a4       fsg_RunFontProgram         100194a4 f   mgtt_o:fsglue.obj
+ 0001:000184d4       fsg_RunPreProgram          100194d4 f   mgtt_o:fsglue.obj
+ 0001:00018574       fsg_SimpleInnerGridFit     10019574 f   mgtt_o:fsglue.obj
+ 0001:0001874c       fsg_CompositeInnerGridFit  1001974c f   mgtt_o:fsglue.obj
+ 0001:000188fc       fsg_AnalyzeCurrentTransformationMatrix 100198fc f   mgtt_o:fsglue.obj
+ 0001:00018930       fsg_LinkChild              10019930 f   mgtt_o:fsglue.obj
+ 0001:00018988       fsg_DoScanControl          10019988 f   mgtt_o:fsglue.obj
+ 0001:000189f8       fsg_AllocateGlyphDataMemory 100199f8 f   mgtt_o:fsglue.obj
+ 0001:00018a54       fsg_InitializeGlyphData    10019a54 f   mgtt_o:fsglue.obj
+ 0001:00018b50       NormalizeVector26Dot6      10019b50 f   mgtt_o:fsglue.obj
+ 0001:00018b8c       Intersect26Dot6            10019b8c f   mgtt_o:fsglue.obj
+ 0001:00018d5c       EmboldPoint                10019d5c f   mgtt_o:fsglue.obj
+ 0001:00019034       fsg_Embold                 1001a034 f   mgtt_o:fsglue.obj
+ 0001:0001939c       QDiv2                      1001a39c f   mgtt_o:fsglue.obj
+ 0001:00019538       FSqrt                      1001a538 f   mgtt_o:fsglue.obj
+ 0001:000195bc       FQuadraticEqn              1001a5bc f   mgtt_o:fsglue.obj
+ 0001:00019724       CurveTransitionsSegment    1001a724 f   mgtt_o:fsglue.obj
+ 0001:00019904       CurveTransitions           1001a904 f   mgtt_o:fsglue.obj
+ 0001:00019ba8       CalculateXExtremum         1001aba8 f   mgtt_o:fsglue.obj
+ 0001:00019eec       CalculateYExtremum         1001aeec f   mgtt_o:fsglue.obj
+ 0001:0001a22c       SetLineToInfinity          1001b22c f   mgtt_o:fsglue.obj
+ 0001:0001a2e4       MinMax3Vectors             1001b2e4 f   mgtt_o:fsglue.obj
+ 0001:0001a380       MinMax2Vectors             1001b380 f   mgtt_o:fsglue.obj
+ 0001:0001a3dc       fsg_CopyFontProgramResults 1001b3dc f   mgtt_o:fsglue.obj
+ 0001:0001a4c8       fsg_ScaleToCompatibleWidth 1001b4c8 f   mgtt_o:fsglue.obj
+ 0001:0001a4d0       fsg_AdjustCompatibleMetrics 1001b4d0 f   mgtt_o:fsglue.obj
+ 0001:0001a4d8       fsg_CalcDevHorMetrics      1001b4d8 f   mgtt_o:fsglue.obj
+ 0001:0001a4e0       fsg_PrivateFontSpaceSize   1001b4e0 f   mgtt_o:fsglue.obj
+ 0001:0001a61c       fsg_WorkSpaceSetOffsets    1001b61c f   mgtt_o:fsglue.obj
+ 0001:0001a76c       fsg_ChooseNextGlyph        1001b76c f   mgtt_o:fsglue.obj
+ 0001:0001a7d0       fsg_MergeGlyphData         1001b7d0 f   mgtt_o:fsglue.obj
+ 0001:0001a9d0       CheckBoundingBoxCurve      1001b9d0 f   mgtt_o:fsglue.obj
+ 0001:0001aaf0       CheckBoundingBoxSegment    1001baf0 f   mgtt_o:fsglue.obj
+ 0001:0001ac00       Misoriented                1001bc00 f   mgtt_o:fsglue.obj
+ 0001:0001b0d8       fsg_CheckOutlineOrientation 1001c0d8 f   mgtt_o:fsglue.obj
+ 0001:0001b914       fsg_ExecuteGlyph           1001c914 f   mgtt_o:fsglue.obj
+ 0001:0001beb4       fsg_CreateGlyphData        1001ceb4 f   mgtt_o:fsglue.obj
+ 0001:0001c030       fsg_GridFit                1001d030 f   mgtt_o:fsglue.obj
+ 0001:0001c160       sbit_NewTransform          1001d160 f   mgtt_o:sbit.obj
+ 0001:0001c1c4       sbit_SearchForBitmap       1001d1c4 f   mgtt_o:sbit.obj
+ 0001:0001c2e0       sbit_Embolden              1001d2e0 f   mgtt_o:sbit.obj
+ 0001:0001c894       sbit_EmboldenGray          1001d894 f   mgtt_o:sbit.obj
+ 0001:0001cc64       sbit_EmboldenSubPixel      1001dc64 f   mgtt_o:sbit.obj
+ 0001:0001d0f8       sbit_ExpandGrayFromMono    1001e0f8 f   mgtt_o:sbit.obj
+ 0001:0001d284       CapCorrection              1001e284 f   mgtt_o:sbit.obj
+ 0001:0001d600       sbit_EmboldenGrayFromMono  1001e600 f   mgtt_o:sbit.obj
+ 0001:0001d838       ExpandSbitToBytePerPixel   1001e838 f   mgtt_o:sbit.obj
+ 0001:0001da90       GetSbitComponent           1001ea90 f   mgtt_o:sbit.obj
+ 0001:0001deb4       UScaleX                    1001eeb4 f   mgtt_o:sbit.obj
+ 0001:0001df0c       UScaleY                    1001ef0c f   mgtt_o:sbit.obj
+ 0001:0001df4c       SScaleX                    1001ef4c f   mgtt_o:sbit.obj
+ 0001:0001df94       SScaleY                    1001ef94 f   mgtt_o:sbit.obj
+ 0001:0001dfdc       UEmScaleX                  1001efdc f   mgtt_o:sbit.obj
+ 0001:0001e034       UEmScaleY                  1001f034 f   mgtt_o:sbit.obj
+ 0001:0001e074       SEmScaleY                  1001f074 f   mgtt_o:sbit.obj
+ 0001:0001e0a8       ScaleVertical              1001f0a8 f   mgtt_o:sbit.obj
+ 0001:0001e1c4       PadHorizontal              1001f1c4 f   mgtt_o:sbit.obj
+ 0001:0001e26c       ScaleHorizontal            1001f26c f   mgtt_o:sbit.obj
+ 0001:0001e724       CopyBit                    1001f724 f   mgtt_o:sbit.obj
+ 0001:0001e7e0       sbit_GetBitmap             1001f7e0 f   mgtt_o:sbit.obj
+ 0001:0001ec18       SubstituteVertMetrics      1001fc18 f   mgtt_o:sbit.obj
+ 0001:0001ec80       SubstituteHorMetrics       1001fc80 f   mgtt_o:sbit.obj
+ 0001:0001ece4       sbit_GetDevAdvanceWidth    1001fce4 f   mgtt_o:sbit.obj
+ 0001:0001ee38       sbit_CalcDevHorMetrics     1001fe38 f   mgtt_o:sbit.obj
+ 0001:0001efec       sbit_GetDevAdvanceHeight   1001ffec f   mgtt_o:sbit.obj
+ 0001:0001f140       GetSbitMetrics             10020140 f   mgtt_o:sbit.obj
+ 0001:0001f284       sbit_GetMetrics            10020284 f   mgtt_o:sbit.obj
+ 0001:0001f7e4       fsc_OverscaleToSubPixel    100207e4 f   mgtt_o:subpixel.obj
+ 0001:0001fbe4       EmboldenOverscaleConst     10020be4 f   mgtt_o:subpixel.obj
+ 0001:0001fd14       fsc_OverscaleToBold        10020d14 f   mgtt_o:subpixel.obj
+ 0001:00020234       fsc_InitializeScanlist     10021234 f   mgtt_o:scanlist.obj
+ 0001:00020238       fsc_SetupRevRoots          10021238 f   mgtt_o:scanlist.obj
+ 0001:00020274       AddReversal                10021274 f   mgtt_o:scanlist.obj
+ 0001:000202c8       fsc_GetReversalCount       100212c8 f   mgtt_o:scanlist.obj
+ 0001:000202dc       GetIxEstimate              100212dc f   mgtt_o:scanlist.obj
+ 0001:00020314       fsc_GetRevMemSize          10021314 f   mgtt_o:scanlist.obj
+ 0001:00020320       FixPointers                10021320 f   mgtt_o:scanlist.obj
+ 0001:000203c8       fsc_GetScanHMem            100213c8 f   mgtt_o:scanlist.obj
+ 0001:000203f4       fsc_GetScanVMem            100213f4 f   mgtt_o:scanlist.obj
+ 0001:00020430       fsc_SetupCallBacks         10021430 f   mgtt_o:scanlist.obj
+ 0001:00020448       fsc_BeginContourScan       10021448 f   mgtt_o:scanlist.obj
+ 0001:000204a0       fsc_BeginElement           100214a0 f   mgtt_o:scanlist.obj
+ 0001:000205d0       AddHorizSimpleScan         100215d0 f   mgtt_o:scanlist.obj
+ 0001:00020678       AddVertSimpleScan          10021678 f   mgtt_o:scanlist.obj
+ 0001:00020720       AddHorizSmartScan          10021720 f   mgtt_o:scanlist.obj
+ 0001:000207cc       AddVertSmartScan           100217cc f   mgtt_o:scanlist.obj
+ 0001:0002087c       AddHorizSimpleBand         1002187c f   mgtt_o:scanlist.obj
+ 0001:00020924       AddHorizSmartBand          10021924 f   mgtt_o:scanlist.obj
+ 0001:000209d4       HorizCrossings             100219d4 f   mgtt_o:scanlist.obj
+ 0001:00020a60       VertCrossings              10021a60 f   mgtt_o:scanlist.obj
+ 0001:00020af4       GetBitAbs                  10021af4 f   mgtt_o:scanlist.obj
+ 0001:00020b88       SetBitAbs                  10021b88 f   mgtt_o:scanlist.obj
+ 0001:00020bec       fsc_ScanClearBitMap        10021bec f   mgtt_o:scanlist.obj
+ 0001:00020bf0       fsc_ScanCalcGrayRow        10021bf0 f   mgtt_o:scanlist.obj
+ 0001:00020bf4       fsc_AddYReversal           10021bf4 f   mgtt_o:scanlist.obj
+ 0001:00020c2c       fsc_AddXReversal           10021c2c f   mgtt_o:scanlist.obj
+ 0001:00020c68       fsc_GetHIxEstimate         10021c68 f   mgtt_o:scanlist.obj
+ 0001:00020c88       fsc_GetVIxEstimate         10021c88 f   mgtt_o:scanlist.obj
+ 0001:00020ca8       fsc_SetupScan              10021ca8 f   mgtt_o:scanlist.obj
+ 0001:0002109c       DoHorizDropout             1002209c f   mgtt_o:scanlist.obj
+ 0001:00021248       DoVertDropout              10022248 f   mgtt_o:scanlist.obj
+ 0001:00021424       LookForDropouts            10022424 f   mgtt_o:scanlist.obj
+ 0001:000215ec       fsc_FillBitMap             100225ec f   mgtt_o:scanlist.obj
+ 0001:0002178c       fsc_CalcSpline             1002278c f   mgtt_o:scspline.obj
+ 0001:00021f94       CalcHorizSpSubpix          10022f94 f   mgtt_o:scspline.obj
+ 0001:00022030       CalcVertSpSubpix           10023030 f   mgtt_o:scspline.obj
+ 0001:000220cc       fsc_SetupSpline            100230cc f   mgtt_o:scspline.obj
+ 0001:000220e4       fsc_CalcLine               100230e4 f   mgtt_o:scline.obj
+ 0001:000224c8       CalcHorizLineSubpix        100234c8 f   mgtt_o:scline.obj
+ 0001:00022500       CalcVertLineSubpix         10023500 f   mgtt_o:scline.obj
+ 0001:00022538       fsc_SetupLine              10023538 f   mgtt_o:scline.obj
+ 0001:00022550       fsc_BeginContourEndpoint   10023550 f   mgtt_o:scendpt.obj
+ 0001:0002256c       AddHorizOn                 1002356c f   mgtt_o:scendpt.obj
+ 0001:000225d0       AddHorizOff                100235d0 f   mgtt_o:scendpt.obj
+ 0001:00022634       AddVertOn                  10023634 f   mgtt_o:scendpt.obj
+ 0001:00022698       AddVertOff                 10023698 f   mgtt_o:scendpt.obj
+ 0001:000226fc       CalcHorizEpSubpix          100236fc f   mgtt_o:scendpt.obj
+ 0001:00022704       CalcVertEpSubpix           10023704 f   mgtt_o:scendpt.obj
+ 0001:0002270c       fsc_SetupEndPt             1002370c f   mgtt_o:scendpt.obj
+ 0001:00022724       CheckHorizTopology         10023724 f   mgtt_o:scendpt.obj
+ 0001:0002280c       CheckVertTopology          1002380c f   mgtt_o:scendpt.obj
+ 0001:000228fc       fsc_CheckEndPoint          100238fc f   mgtt_o:scendpt.obj
+ 0001:000229dc       fsc_EndContourEndpoint     100239dc f   mgtt_o:scendpt.obj
+ 0001:00022a4c       fsc_SetupMem               10023a4c f   mgtt_o:scmemory.obj
+ 0001:00022a74       fsc_AllocHMem              10023a74 f   mgtt_o:scmemory.obj
+ 0001:00022aa0       fsc_AllocVMem              10023aa0 f   mgtt_o:scmemory.obj
+ 0001:00022acc       InitPhaseControl           10023acc f   mgtt_o:interp.obj
+ 0001:00022b44       IndirectlyDependsOn        10023b44 f   mgtt_o:interp.obj
+ 0001:00022bd8       AddDistance                10023bd8 f   mgtt_o:interp.obj
+ 0001:00022d30       AddProportion              10023d30 f   mgtt_o:interp.obj
+ 0001:00022e2c       CalcAvgXPhaseShift         10023e2c f   mgtt_o:interp.obj
+ 0001:00022ec4       PhaseShift                 10023ec4 f   mgtt_o:interp.obj
+ 0001:0002310c       ExecutePhaseControl        1002410c f   mgtt_o:interp.obj
+ 0001:000231a0       ContNum                    100241a0 f   mgtt_o:interp.obj
+ 0001:000231e4       DoubleCheckLinkColor       100241e4 f   mgtt_o:interp.obj
+ 0001:000233a0       InterAlign                 100243a0 f   mgtt_o:interp.obj
+ 0001:000233dc       itrp_UpdateGlobalGS        100243dc f   mgtt_o:interp.obj
+ 0001:000234b4       itrp_bApplyHints           100244b4 f   mgtt_o:interp.obj
+ 0001:000234c8       itrp_QueryScanInfo         100244c8 f   mgtt_o:interp.obj
+ 0001:000234dc       itrp_SetCompositeFlag      100244dc f   mgtt_o:interp.obj
+ 0001:00023508       itrp_SetSameTransformFlag  10024508 f   mgtt_o:interp.obj
+ 0001:00023538       itrp_ResetMaxInstructionCounter 10024538 f   mgtt_o:interp.obj
+ 0001:00023548       itrp_SetDefaults           10024548 f   mgtt_o:interp.obj
+ 0001:000235f0       itrp_IllegalInstruction    100245f0 f   mgtt_o:interp.obj
+ 0001:00023608       itrp_Normalize             10024608 f   mgtt_o:interp.obj
+ 0001:0002370c       itrp_RoundToDoubleGrid     1002470c f   mgtt_o:interp.obj
+ 0001:00023740       itrp_RoundToDoubleGridSP   10024740 f   mgtt_o:interp.obj
+ 0001:0002377c       itrp_RoundDownToGrid       1002477c f   mgtt_o:interp.obj
+ 0001:000237a8       itrp_RoundUpToGrid         100247a8 f   mgtt_o:interp.obj
+ 0001:000237dc       itrp_RoundUpToGridSP       100247dc f   mgtt_o:interp.obj
+ 0001:00023818       itrp_RoundToGrid           10024818 f   mgtt_o:interp.obj
+ 0001:0002384c       itrp_RoundToGridSP         1002484c f   mgtt_o:interp.obj
+ 0001:00023888       itrp_RoundToHalfGrid       10024888 f   mgtt_o:interp.obj
+ 0001:000238cc       itrp_RoundToHalfGridSP     100248cc f   mgtt_o:interp.obj
+ 0001:00023914       itrp_RoundOff              10024914 f   mgtt_o:interp.obj
+ 0001:00023934       itrp_RoundOffSP            10024934 f   mgtt_o:interp.obj
+ 0001:00023958       itrp_SuperRound            10024958 f   mgtt_o:interp.obj
+ 0001:000239d0       itrp_Super45Round          100249d0 f   mgtt_o:interp.obj
+ 0001:00023a6c       itrp_MovePoint             10024a6c f   mgtt_o:interp.obj
+ 0001:00023b78       itrp_XMovePoint            10024b78 f   mgtt_o:interp.obj
+ 0001:00023ba0       itrp_YMovePoint            10024ba0 f   mgtt_o:interp.obj
+ 0001:00023bc8       itrp_Project               10024bc8 f   mgtt_o:interp.obj
+ 0001:00023bf8       itrp_OldProject            10024bf8 f   mgtt_o:interp.obj
+ 0001:00023c28       itrp_XProject              10024c28 f   mgtt_o:interp.obj
+ 0001:00023c2c       itrp_YProject              10024c2c f   mgtt_o:interp.obj
+ 0001:00023c34       itrp_GetCVTScale           10024c34 f   mgtt_o:interp.obj
+ 0001:00023cf8       itrp_GetCVTEntryFast       10024cf8 f   mgtt_o:interp.obj
+ 0001:00023d10       itrp_GetCVTEntrySlow       10024d10 f   mgtt_o:interp.obj
+ 0001:00023d3c       itrp_GetSingleWidthFast    10024d3c f   mgtt_o:interp.obj
+ 0001:00023d50       itrp_GetSingleWidthSlow    10024d50 f   mgtt_o:interp.obj
+ 0001:00023d74       itrp_ChangeCvtFast         10024d74 f   mgtt_o:interp.obj
+ 0001:00023d94       itrp_ChangeCvtSlow         10024d94 f   mgtt_o:interp.obj
+ 0001:00023dd0       itrp_InnerTraceExecute     10024dd0 f   mgtt_o:interp.obj
+ 0001:00023e6c       itrp_InnerExecute          10024e6c f   mgtt_o:interp.obj
+ 0001:00023ecc       itrp_Execute               10024ecc f   mgtt_o:interp.obj
+ 0001:00024208       itrp_Check_PF_Proj         10025208 f   mgtt_o:interp.obj
+ 0001:00024244       itrp_ComputeAndCheck_PF_Proj 10025244 f   mgtt_o:interp.obj
+ 0001:000242a8       itrp_SVTCA_0               100252a8 f   mgtt_o:interp.obj
+ 0001:0002439c       itrp_SVTCA_1               1002539c f   mgtt_o:interp.obj
+ 0001:00024490       itrp_SPVTCA_0              10025490 f   mgtt_o:interp.obj
+ 0001:00024570       itrp_SPVTCA_1              10025570 f   mgtt_o:interp.obj
+ 0001:00024650       itrp_SFVTCA_0              10025650 f   mgtt_o:interp.obj
+ 0001:00024698       itrp_SFVTCA_1              10025698 f   mgtt_o:interp.obj
+ 0001:000246e0       itrp_SPVTL                 100256e0 f   mgtt_o:interp.obj
+ 0001:000248c0       itrp_SDPVTL                100258c0 f   mgtt_o:interp.obj
+ 0001:00024af4       itrp_SFVTL                 10025af4 f   mgtt_o:interp.obj
+ 0001:00024c10       itrp_WPV                   10025c10 f   mgtt_o:interp.obj
+ 0001:00024d4c       itrp_WFV                   10025d4c f   mgtt_o:interp.obj
+ 0001:00024dc0       itrp_RPV                   10025dc0 f   mgtt_o:interp.obj
+ 0001:00024e04       itrp_RFV                   10025e04 f   mgtt_o:interp.obj
+ 0001:00024e48       itrp_SFVTPV                10025e48 f   mgtt_o:interp.obj
+ 0001:00024e7c       itrp_ISECT                 10025e7c f   mgtt_o:interp.obj
+ 0001:000252c8       itrp_LMD                   100262c8 f   mgtt_o:interp.obj
+ 0001:00025308       itrp_LWTCI                 10026308 f   mgtt_o:interp.obj
+ 0001:00025348       itrp_LSWCI                 10026348 f   mgtt_o:interp.obj
+ 0001:00025390       itrp_LSW                   10026390 f   mgtt_o:interp.obj
+ 0001:000253fc       itrp_SRP0                  100263fc f   mgtt_o:interp.obj
+ 0001:00025438       itrp_SRP1                  10026438 f   mgtt_o:interp.obj
+ 0001:00025474       itrp_SRP2                  10026474 f   mgtt_o:interp.obj
+ 0001:000254b0       itrp_LLOOP                 100264b0 f   mgtt_o:interp.obj
+ 0001:000254f0       itrp_POP                   100264f0 f   mgtt_o:interp.obj
+ 0001:00025528       itrp_SetElementPtr         10026528 f   mgtt_o:interp.obj
+ 0001:000255d4       itrp_RTG                   100265d4 f   mgtt_o:interp.obj
+ 0001:00025634       itrp_RTHG                  10026634 f   mgtt_o:interp.obj
+ 0001:000256a0       itrp_RTDG                  100266a0 f   mgtt_o:interp.obj
+ 0001:00025708       itrp_ROFF                  10026708 f   mgtt_o:interp.obj
+ 0001:00025774       itrp_RDTG                  10026774 f   mgtt_o:interp.obj
+ 0001:000257e0       itrp_RUTG                  100267e0 f   mgtt_o:interp.obj
+ 0001:0002584c       itrp_SetRoundValues        1002684c f   mgtt_o:interp.obj
+ 0001:00025970       itrp_RAW                   10026970 f   mgtt_o:interp.obj
+ 0001:000259fc       itrp_DUP                   100269fc f   mgtt_o:interp.obj
+ 0001:00025a5c       itrp_CLEAR                 10026a5c f   mgtt_o:interp.obj
+ 0001:00025a74       itrp_SWAP                  10026a74 f   mgtt_o:interp.obj
+ 0001:00025ab4       itrp_DEPTH                 10026ab4 f   mgtt_o:interp.obj
+ 0001:00025b08       itrp_CINDEX                10026b08 f   mgtt_o:interp.obj
+ 0001:00025b78       itrp_MINDEX                10026b78 f   mgtt_o:interp.obj
+ 0001:00025c18       itrp_ROTATE                10026c18 f   mgtt_o:interp.obj
+ 0001:00025c60       itrp_MDAP                  10026c60 f   mgtt_o:interp.obj
+ 0001:00025d3c       itrp_MIAP                  10026d3c f   mgtt_o:interp.obj
+ 0001:00025ebc       itrp_IUP                   10026ebc f   mgtt_o:interp.obj
+ 0001:000263c0       itrp_SH_Common             100273c0 f   mgtt_o:interp.obj
+ 0001:000264ac       itrp_SHP_Common            100274ac f   mgtt_o:interp.obj
+ 0001:000266d0       itrp_SHP                   100276d0 f   mgtt_o:interp.obj
+ 0001:000267a4       itrp_SHC                   100277a4 f   mgtt_o:interp.obj
+ 0001:00026a00       itrp_SHE                   10027a00 f   mgtt_o:interp.obj
+ 0001:00026c30       itrp_SHPIX                 10027c30 f   mgtt_o:interp.obj
+ 0001:00026cdc       itrp_IP                    10027cdc f   mgtt_o:interp.obj
+ 0001:00027274       itrp_MSIRP                 10028274 f   mgtt_o:interp.obj
+ 0001:000274e0       itrp_ALIGNRP               100284e0 f   mgtt_o:interp.obj
+ 0001:000276bc       itrp_ALIGNPTS              100286bc f   mgtt_o:interp.obj
+ 0001:00027808       itrp_SANGW                 10028808 f   mgtt_o:interp.obj
+ 0001:00027848       itrp_FLIPPT                10028848 f   mgtt_o:interp.obj
+ 0001:000278f4       itrp_FLIPRGON              100288f4 f   mgtt_o:interp.obj
+ 0001:000279bc       itrp_FLIPRGOFF             100289bc f   mgtt_o:interp.obj
+ 0001:00027a88       itrp_SCANCTRL              10028a88 f   mgtt_o:interp.obj
+ 0001:00027ad8       itrp_SCANTYPE              10028ad8 f   mgtt_o:interp.obj
+ 0001:00027b28       itrp_INSTCTRL              10028b28 f   mgtt_o:interp.obj
+ 0001:00027bcc       itrp_AA                    10028bcc f   mgtt_o:interp.obj
+ 0001:00027c04       itrp_PushSomeBytes         10028c04 f   mgtt_o:interp.obj
+ 0001:00027c5c       itrp_PushSomeWords         10028c5c f   mgtt_o:interp.obj
+ 0001:00027cc0       itrp_PUSHB1                10028cc0 f   mgtt_o:interp.obj
+ 0001:00027cfc       itrp_PUSHB                 10028cfc f   mgtt_o:interp.obj
+ 0001:00027d0c       itrp_NPUSHB                10028d0c f   mgtt_o:interp.obj
+ 0001:00027d18       itrp_PUSHW1                10028d18 f   mgtt_o:interp.obj
+ 0001:00027d64       itrp_PUSHW                 10028d64 f   mgtt_o:interp.obj
+ 0001:00027d74       itrp_NPUSHW                10028d74 f   mgtt_o:interp.obj
+ 0001:00027d80       itrp_WS                    10028d80 f   mgtt_o:interp.obj
+ 0001:00027dec       itrp_RS                    10028dec f   mgtt_o:interp.obj
+ 0001:00027ec4       itrp_WCVT                  10028ec4 f   mgtt_o:interp.obj
+ 0001:00027f74       itrp_WCVTFOD               10028f74 f   mgtt_o:interp.obj
+ 0001:00028000       itrp_RCVT                  10029000 f   mgtt_o:interp.obj
+ 0001:0002808c       itrp_RC                    1002908c f   mgtt_o:interp.obj
+ 0001:0002815c       itrp_WC                    1002915c f   mgtt_o:interp.obj
+ 0001:00028240       itrp_MD                    10029240 f   mgtt_o:interp.obj
+ 0001:00028448       itrp_MPPEM                 10029448 f   mgtt_o:interp.obj
+ 0001:000284b8       itrp_MPS                   100294b8 f   mgtt_o:interp.obj
+ 0001:000284f8       itrp_GETINFO               100294f8 f   mgtt_o:interp.obj
+ 0001:000285e0       itrp_FLIPON                100295e0 f   mgtt_o:interp.obj
+ 0001:000285f8       itrp_FLIPOFF               100295f8 f   mgtt_o:interp.obj
+ 0001:00028610       itrp_DEBUG                 10029610 f   mgtt_o:interp.obj
+ 0001:00028648       itrp_LT                    10029648 f   mgtt_o:interp.obj
+ 0001:000286a0       itrp_LTEQ                  100296a0 f   mgtt_o:interp.obj
+ 0001:000286f8       itrp_GT                    100296f8 f   mgtt_o:interp.obj
+ 0001:00028750       itrp_GTEQ                  10029750 f   mgtt_o:interp.obj
+ 0001:000287a8       itrp_EQ                    100297a8 f   mgtt_o:interp.obj
+ 0001:00028800       itrp_NEQ                   10029800 f   mgtt_o:interp.obj
+ 0001:00028858       itrp_AND                   10029858 f   mgtt_o:interp.obj
+ 0001:000288b4       itrp_OR                    100298b4 f   mgtt_o:interp.obj
+ 0001:00028910       itrp_ADD                   10029910 f   mgtt_o:interp.obj
+ 0001:00028958       itrp_SUB                   10029958 f   mgtt_o:interp.obj
+ 0001:000289a0       itrp_MUL                   100299a0 f   mgtt_o:interp.obj
+ 0001:000289fc       itrp_DIV                   100299fc f   mgtt_o:interp.obj
+ 0001:00028a78       itrp_MAX                   10029a78 f   mgtt_o:interp.obj
+ 0001:00028ac4       itrp_MIN                   10029ac4 f   mgtt_o:interp.obj
+ 0001:00028b10       itrp_ODD                   10029b10 f   mgtt_o:interp.obj
+ 0001:00028b6c       itrp_EVEN                  10029b6c f   mgtt_o:interp.obj
+ 0001:00028bcc       itrp_NOT                   10029bcc f   mgtt_o:interp.obj
+ 0001:00028c18       itrp_ABS                   10029c18 f   mgtt_o:interp.obj
+ 0001:00028c5c       itrp_NEG                   10029c5c f   mgtt_o:interp.obj
+ 0001:00028c98       itrp_CEILING               10029c98 f   mgtt_o:interp.obj
+ 0001:00028cd8       itrp_FLOOR                 10029cd8 f   mgtt_o:interp.obj
+ 0001:00028d14       itrp_SkipPushData          10029d14 f   mgtt_o:interp.obj
+ 0001:00028d54       itrp_IF                    10029d54 f   mgtt_o:interp.obj
+ 0001:00028e30       itrp_ELSE                  10029e30 f   mgtt_o:interp.obj
+ 0001:00028e88       itrp_EIF                   10029e88 f   mgtt_o:interp.obj
+ 0001:00028e8c       itrp_JMPR                  10029e8c f   mgtt_o:interp.obj
+ 0001:00028ef4       itrp_JROT                  10029ef4 f   mgtt_o:interp.obj
+ 0001:00028f6c       itrp_JROF                  10029f6c f   mgtt_o:interp.obj
+ 0001:00028fe4       itrp_ROUND                 10029fe4 f   mgtt_o:interp.obj
+ 0001:00029050       itrp_NROUND                1002a050 f   mgtt_o:interp.obj
+ 0001:000290c8       itrp_CheckSingleWidth      1002a0c8 f   mgtt_o:interp.obj
+ 0001:0002912c       itrp_MDRP                  1002a12c f   mgtt_o:interp.obj
+ 0001:00029488       itrp_MIRP                  1002a488 f   mgtt_o:interp.obj
+ 0001:00029bc8       itrp_CALL                  1002abc8 f   mgtt_o:interp.obj
+ 0001:00029ea4       itrp_FDEF                  1002aea4 f   mgtt_o:interp.obj
+ 0001:0002a0fc       itrp_LOOPCALL              1002b0fc f   mgtt_o:interp.obj
+ 0001:0002a220       itrp_FindIDef              1002b220 f   mgtt_o:interp.obj
+ 0001:0002a260       itrp_IDefPatch             1002b260 f   mgtt_o:interp.obj
+ 0001:0002a30c       itrp_IDEF                  1002b30c f   mgtt_o:interp.obj
+ 0001:0002a424       itrp_UTP                   1002b424 f   mgtt_o:interp.obj
+ 0001:0002a4dc       itrp_SDB                   1002b4dc f   mgtt_o:interp.obj
+ 0001:0002a51c       itrp_SDS                   1002b51c f   mgtt_o:interp.obj
+ 0001:0002a55c       itrp_DeltaEngine           1002b55c f   mgtt_o:interp.obj
+ 0001:0002a7f0       itrp_DELTAP1               1002b7f0 f   mgtt_o:interp.obj
+ 0001:0002a80c       itrp_DELTAP2               1002b80c f   mgtt_o:interp.obj
+ 0001:0002a838       itrp_DELTAP3               1002b838 f   mgtt_o:interp.obj
+ 0001:0002a864       itrp_DELTAC1               1002b864 f   mgtt_o:interp.obj
+ 0001:0002a880       itrp_DELTAC2               1002b880 f   mgtt_o:interp.obj
+ 0001:0002a8ac       itrp_DELTAC3               1002b8ac f   mgtt_o:interp.obj
+ 0001:0002a8d8       itrp_RoundDownToGridSP     1002b8d8 f   mgtt_o:interp.obj
+ 0001:0002a960       itrp_ExecuteFontPgm        1002b960 f   mgtt_o:interp.obj
+ 0001:0002aa2c       itrp_ExecutePrePgm         1002ba2c f   mgtt_o:interp.obj
+ 0001:0002aac0       itrp_ExecuteGlyphPgm       1002bac0 f   mgtt_o:interp.obj
+ 0001:0002ab70       itrp_SROUND                1002bb70 f   mgtt_o:interp.obj
+ 0001:0002ac20       itrp_S45ROUND              1002bc20 f   mgtt_o:interp.obj
+ 0001:0002acd0       adjustTrans                1002bcd0 f   mgtt_o:scale.obj
+ 0001:0002ad30       scl_SetHintFlags           1002bd30 f   mgtt_o:scale.obj
+ 0001:0002ad40       scl_FRound                 1002bd40 f   mgtt_o:scale.obj
+ 0001:0002ad60       scl_SRound                 1002bd60 f   mgtt_o:scale.obj
+ 0001:0002ada4       scl_FixRound               1002bda4 f   mgtt_o:scale.obj
+ 0001:0002adb4       scl_ComputeScaling         1002bdb4 f   mgtt_o:scale.obj
+ 0001:0002ae3c       scl_Scale                  1002be3c f   mgtt_o:scale.obj
+ 0001:0002af40       scl_ScaleFromFixedFUnits   1002bf40 f   mgtt_o:scale.obj
+ 0001:0002b060       scl_ScaleOldCharPoints     1002c060 f   mgtt_o:scale.obj
+ 0001:0002b144       scl_ScaleFixedCurrentCharPoints 1002c144 f   mgtt_o:scale.obj
+ 0001:0002b228       scl_ScaleOldPhantomPoints  1002c228 f   mgtt_o:scale.obj
+ 0001:0002b2e0       scl_ScaleFixedCurrentPhantomPoints 1002c2e0 f   mgtt_o:scale.obj
+ 0001:0002b34c       scl_ScaleBackCurrentCharPoints 1002c34c f   mgtt_o:scale.obj
+ 0001:0002b460       scl_ScaleBackCurrentPhantomPoints 1002c460 f   mgtt_o:scale.obj
+ 0001:0002b538       scl_OriginalCharPointsToCurrentFixedFUnits 1002c538 f   mgtt_o:scale.obj
+ 0001:0002b5c0       scl_OriginalPhantomPointsToCurrentFixedFUnits 1002c5c0 f   mgtt_o:scale.obj
+ 0001:0002b638       scl_ScaleCVT               1002c638 f   mgtt_o:scale.obj
+ 0001:0002b66c       scl_GetCVTPtr              1002c66c f   mgtt_o:scale.obj
+ 0001:0002b678       scl_CalcOrigPhantomPoints  1002c678 f   mgtt_o:scale.obj
+ 0001:0002b810       scl_AdjustOldSideBearingPoints 1002c810 f   mgtt_o:scale.obj
+ 0001:0002b8ac       scl_CopyOldCharPoints      1002c8ac f   mgtt_o:scale.obj
+ 0001:0002b908       scl_CopyCurrentCharPoints  1002c908 f   mgtt_o:scale.obj
+ 0001:0002b964       scl_CopyCurrentPhantomPoints 1002c964 f   mgtt_o:scale.obj
+ 0001:0002b9b8       scl_RoundCurrentSideBearingPnt 1002c9b8 f   mgtt_o:scale.obj
+ 0001:0002bb14       scl_ShiftCurrentCharPoints 1002cb14 f   mgtt_o:scale.obj
+ 0001:0002bbe0       scl_CalcComponentOffset    1002cbe0 f   mgtt_o:scale.obj
+ 0001:0002bd94       scl_CalcComponentAnchorOffset 1002cd94 f   mgtt_o:scale.obj
+ 0001:0002bdd4       scl_SetSideBearingPoints   1002cdd4 f   mgtt_o:scale.obj
+ 0001:0002be2c       scl_SaveSideBearingPoints  1002ce2c f   mgtt_o:scale.obj
+ 0001:0002be84       scl_InitializeTwilightContours 1002ce84 f   mgtt_o:scale.obj
+ 0001:0002bea8       scl_ZeroOutlineData        1002cea8 f   mgtt_o:scale.obj
+ 0001:0002bf5c       scl_ZeroOutlineFlags       1002cf5c f   mgtt_o:scale.obj
+ 0001:0002bf80       scl_IncrementChildElement  1002cf80 f   mgtt_o:scale.obj
+ 0001:0002c060       scl_UpdateParentElement    1002d060 f   mgtt_o:scale.obj
+ 0001:0002c0f0       scl_RestoreContourData     1002d0f0 f   mgtt_o:scale.obj
+ 0001:0002c184       scl_ScaleAdvanceWidth      1002d184 f   mgtt_o:scale.obj
+ 0001:0002c260       scl_ScaleAdvanceHeight     1002d260 f   mgtt_o:scale.obj
+ 0001:0002c2cc       scl_CalcDevAdvanceWidth    1002d2cc f   mgtt_o:scale.obj
+ 0001:0002c374       scl_CalcDevAdvanceHeight   1002d374 f   mgtt_o:scale.obj
+ 0001:0002c41c       scl_QueryPPEMXY            1002d41c f   mgtt_o:scale.obj
+ 0001:0002c440       scl_45DegreePhaseShift     1002d440 f   mgtt_o:scale.obj
+ 0001:0002c47c       scl_PostTransformGlyph     1002d47c f   mgtt_o:scale.obj
+ 0001:0002c510       scl_ApplyTranslation       1002d510 f   mgtt_o:scale.obj
+ 0001:0002c610       scl_LocalPostTransformGlyph 1002d610 f   mgtt_o:scale.obj
+ 0001:0002c654       scl_ScaleDownFromSubPixelOverscale 1002d654 f   mgtt_o:scale.obj
+ 0001:0002c6c8       scl_ScaleToCompatibleWidth 1002d6c8 f   mgtt_o:scale.obj
+ 0001:0002c738       scl_AdjustCompatibleMetrics 1002d738 f   mgtt_o:scale.obj
+ 0001:0002c7cc       scl_CalcDevHorMetrics      1002d7cc f   mgtt_o:scale.obj
+ 0001:0002c8a4       scl_InitializeScaling      1002d8a4 f   mgtt_o:scale.obj
+ 0001:0002cec0       scl_InitializeChildScaling 1002dec0 f   mgtt_o:scale.obj
+ 0001:0002cf44       scl_AdjustOldCharSideBearing 1002df44 f   mgtt_o:scale.obj
+ 0001:0002cfc8       scl_AdjustOldPhantomSideBearing 1002dfc8 f   mgtt_o:scale.obj
+ 0001:0002d04c       scl_CalcLSBsAndAdvanceWidths 1002e04c f   mgtt_o:scale.obj
+ 0001:0002d184       scl_CalcTSBsAndAdvanceHeights 1002e184 f   mgtt_o:scale.obj
+ 0001:0002d2bc       fsc_InitializeBitMasks     1002e2bc f   mgtt_o:scbitmap.obj
+ 0001:0002d3a0       fsc_ClearBitMap            1002e3a0 f   mgtt_o:scbitmap.obj
+ 0001:0002d3c0       fsc_BLTHoriz               1002e3c0 f   mgtt_o:scbitmap.obj
+ 0001:0002d430       fsc_BLTCopy                1002e430 f   mgtt_o:scbitmap.obj
+ 0001:0002d450       fsc_GetBit                 1002e450 f   mgtt_o:scbitmap.obj
+ 0001:0002d474       fsc_SetBit                 1002e474 f   mgtt_o:scbitmap.obj
+ 0001:0002d4a0       fsc_CalcGrayRow            1002e4a0 f   mgtt_o:scbitmap.obj
+ 0001:0002d548       InitializeDecompMemHandle  1002e548 f   decompdrv:drv_comp.obj
+ 0001:0002d584       CloseDecompMemHandle       1002e584 f   decompdrv:drv_comp.obj
+ 0001:0002d5b0       DllMain                    1002e5b0 f   decompdrv:drv_comp.obj
+ 0001:0002d5f4       MTX_mem_CloseMemory        1002e5f4 f   decompdrv:MEMORY.obj
+ 0001:0002d628       MTX_mem_Create             1002e628 f   decompdrv:MEMORY.obj
+ 0001:0002d66c       MTX_mem_Destroy            1002e66c f   decompdrv:MEMORY.obj
+ 0001:0002d67c       EngAllocMem                1002e67c f   gwes:GWES.dll
+ 0001:0002d68c       EngFreeMem                 1002e68c f   gwes:GWES.dll
+ 0001:0002d69c       EngReleaseSemaphore        1002e69c f   gwes:GWES.dll
+ 0001:0002d6ac       EngAcquireSemaphore        1002e6ac f   gwes:GWES.dll
+ 0001:0002d6bc       EngMapFontFileFD           1002e6bc f   gwes:GWES.dll
+ 0001:0002d6cc       EngUnmapFontFileFD         1002e6cc f   gwes:GWES.dll
+ 0001:0002d6dc       EngComputeGlyphSet         1002e6dc f   gwes:GWES.dll
+ 0001:0002d6ec       UseSurrogateFonts          1002e6ec f   gwes:GWES.dll
+ 0001:0002d6fc       EngSetLastError            1002e6fc f   gwes:GWES.dll
+ 0001:0002d70c       EngGetCurrentCodePage      1002e70c f   gwes:GWES.dll
+ 0001:0002d71c       EngMultiByteToWideChar     1002e71c f   gwes:GWES.dll
+ 0001:0002d72c       EngLpkInstalled            1002e72c f   gwes:GWES.dll
+ 0001:0002d73c       EngFntCacheFault           1002e73c f   gwes:GWES.dll
+ 0001:0002d74c       EngFntCacheAlloc           1002e74c f   gwes:GWES.dll
+ 0001:0002d75c       EngFntCacheLookUp          1002e75c f   gwes:GWES.dll
+ 0001:0002d76c       XFORMOBJ_iGetXform         1002e76c f   gwes:GWES.dll
+ 0001:0002d77c       FONTOBJ_pxoGetXform        1002e77c f   gwes:GWES.dll
+ 0001:0002d78c       PATHOBJ_bCloseFigure       1002e78c f   gwes:GWES.dll
+ 0001:0002d79c       PATHOBJ_bPolyBezierTo      1002e79c f   gwes:GWES.dll
+ 0001:0002d7ac       PATHOBJ_bPolyLineTo        1002e7ac f   gwes:GWES.dll
+ 0001:0002d7bc       PATHOBJ_bMoveTo            1002e7bc f   gwes:GWES.dll
+ 0001:0002d7cc       EngWideCharToMultiByte     1002e7cc f   gwes:GWES.dll
+ 0001:0002d7dc       StringCchCopyW             1002e7dc f   coredll:COREDLL.dll
+ 0001:0002d7ec       DisableThreadLibraryCalls  1002e7ec f   coredll:COREDLL.dll
+ 0001:0002d8f4       _DllMainCRTStartup         1002e8f4 f   corelib0:pegdmain.obj
+ 0001:0002d920       __GSHandlerCheckCommon     1002e920 f   corelib0:gshandler.obj
+ 0001:0002d95c       __GSHandlerCheck           1002e95c f   corelib0:gshandler.obj
+ 0001:0002d97c       __security_init_cookie     1002e97c f   corelib0:seccinit.obj
+ 0001:0002d9c8       __security_check_cookie    1002e9c8 f   corelib0:armsecgs.obj
+ 0001:0002d9d8       __gsfailure                1002e9d8     corelib0:armsecgs.obj
+ 0001:0002db04       _cexit                     1002eb04 f   corelib0:cexit.obj
+ 0001:0002db14       _initterm                  1002eb14 f   corelib0:crt0dat.obj
+ 0001:0002db40       _cinit                     1002eb40 f   corelib0:crt0dat.obj
+ 0001:0002dba0       __crt_ExitProcess          1002eba0 f   corelib0:exitproc_proxy.obj
+ 0001:0002dbac       __C_specific_handler       1002ebac f   corelib1:COREDLL.dll
+ 0001:0002dbbc       memcpy                     1002ebbc f   corelib1:COREDLL.dll
+ 0001:0002dbcc       memset                     1002ebcc f   corelib1:COREDLL.dll
+ 0001:0002dbdc       _wcsicmp                   1002ebdc f   corelib1:COREDLL.dll
+ 0001:0002dbec       strncmp                    1002ebec f   corelib1:COREDLL.dll
+ 0001:0002dbfc       memcmp                     1002ebfc f   corelib1:COREDLL.dll
+ 0001:0002dc0c       malloc                     1002ec0c f   corelib1:COREDLL.dll
+ 0001:0002dc1c       realloc                    1002ec1c f   corelib1:COREDLL.dll
+ 0001:0002dc2c       free                       1002ec2c f   corelib1:COREDLL.dll
+ 0001:0002dc3c       _XcptFilter                1002ec3c f   corelib1:COREDLL.dll
+ 0001:0002dc4c       __security_gen_cookie2     1002ec4c f   corelib1:COREDLL.dll
+ 0001:0002dc5c       __report_gsfailure         1002ec5c f   corelib1:COREDLL.dll
+ 0001:0002dc6c       DeleteCriticalSection      1002ec6c f   coredll:COREDLL.dll
+ 0001:0002dc7c       InterlockedExchange        1002ec7c f   coredll:COREDLL.dll
+ 0001:0002dc8c       TerminateProcess           1002ec8c f   coredll:COREDLL.dll
+ 0001:0002dde4       __IMPORT_DESCRIPTOR_GWES   1002ede4     gwes:GWES.dll
+ 0001:0002ddf8       __IMPORT_DESCRIPTOR_COREDLL 1002edf8     coredll:COREDLL.dll
+ 0001:0002de0c       __NULL_IMPORT_DESCRIPTOR   1002ee0c     gwes:GWES.dll
+ 0002:00000000       __imp_TerminateProcess     10030000     coredll:COREDLL.dll
+ 0002:00000004       __imp_InterlockedExchange  10030004     coredll:COREDLL.dll
+ 0002:00000008       __imp_DeleteCriticalSection 10030008     coredll:COREDLL.dll
+ 0002:0000000c       __imp___report_gsfailure   1003000c     corelib1:COREDLL.dll
+ 0002:00000010       __imp___security_gen_cookie2 10030010     corelib1:COREDLL.dll
+ 0002:00000014       __imp__XcptFilter          10030014     corelib1:COREDLL.dll
+ 0002:00000018       __imp_free                 10030018     corelib1:COREDLL.dll
+ 0002:0000001c       __imp_realloc              1003001c     corelib1:COREDLL.dll
+ 0002:00000020       __imp_malloc               10030020     corelib1:COREDLL.dll
+ 0002:00000024       __imp___rt_sdiv64by64      10030024     corelib1:COREDLL.dll
+ 0002:00000028       __imp___rt_sdiv            10030028     corelib1:COREDLL.dll
+ 0002:0000002c       __imp___rt_srsh            1003002c     corelib1:COREDLL.dll
+ 0002:00000030       __imp___rt_urem64by64      10030030     corelib1:COREDLL.dll
+ 0002:00000034       __imp___rt_udiv64by64      10030034     corelib1:COREDLL.dll
+ 0002:00000038       __imp_memcmp               10030038     corelib1:COREDLL.dll
+ 0002:0000003c       __imp_strncmp              1003003c     corelib1:COREDLL.dll
+ 0002:00000040       __imp_StringCchCopyW       10030040     coredll:COREDLL.dll
+ 0002:00000044       __imp_DisableThreadLibraryCalls 10030044     coredll:COREDLL.dll
+ 0002:00000048       __imp___C_specific_handler 10030048     corelib1:COREDLL.dll
+ 0002:0000004c       __imp_memcpy               1003004c     corelib1:COREDLL.dll
+ 0002:00000050       __imp_memset               10030050     corelib1:COREDLL.dll
+ 0002:00000054       __imp___rt_udiv            10030054     corelib1:COREDLL.dll
+ 0002:00000058       __imp__wcsicmp             10030058     corelib1:COREDLL.dll
+ 0002:0000005c       \177COREDLL_NULL_THUNK_DATA 1003005c     coredll:COREDLL.dll
+ 0002:00000060       __imp_EngWideCharToMultiByte 10030060     gwes:GWES.dll
+ 0002:00000064       __imp_PATHOBJ_bMoveTo      10030064     gwes:GWES.dll
+ 0002:00000068       __imp_PATHOBJ_bPolyLineTo  10030068     gwes:GWES.dll
+ 0002:0000006c       __imp_PATHOBJ_bPolyBezierTo 1003006c     gwes:GWES.dll
+ 0002:00000070       __imp_PATHOBJ_bCloseFigure 10030070     gwes:GWES.dll
+ 0002:00000074       __imp_FONTOBJ_pxoGetXform  10030074     gwes:GWES.dll
+ 0002:00000078       __imp_XFORMOBJ_iGetXform   10030078     gwes:GWES.dll
+ 0002:0000007c       __imp_EngFntCacheLookUp    1003007c     gwes:GWES.dll
+ 0002:00000080       __imp_EngFntCacheAlloc     10030080     gwes:GWES.dll
+ 0002:00000084       __imp_EngFntCacheFault     10030084     gwes:GWES.dll
+ 0002:00000088       __imp_EngLpkInstalled      10030088     gwes:GWES.dll
+ 0002:0000008c       __imp_EngMultiByteToWideChar 1003008c     gwes:GWES.dll
+ 0002:00000090       __imp_EngGetCurrentCodePage 10030090     gwes:GWES.dll
+ 0002:00000094       __imp_EngSetLastError      10030094     gwes:GWES.dll
+ 0002:00000098       __imp_UseSurrogateFonts    10030098     gwes:GWES.dll
+ 0002:0000009c       __imp_EngComputeGlyphSet   1003009c     gwes:GWES.dll
+ 0002:000000a0       __imp_EngUnmapFontFileFD   100300a0     gwes:GWES.dll
+ 0002:000000a4       __imp_EngMapFontFileFD     100300a4     gwes:GWES.dll
+ 0002:000000a8       __imp_EngAcquireSemaphore  100300a8     gwes:GWES.dll
+ 0002:000000ac       __imp_EngReleaseSemaphore  100300ac     gwes:GWES.dll
+ 0002:000000b0       __imp_EngFreeMem           100300b0     gwes:GWES.dll
+ 0002:000000b4       __imp_EngAllocMem          100300b4     gwes:GWES.dll
+ 0002:000000b8       \177GWES_NULL_THUNK_DATA   100300b8     gwes:GWES.dll
+ 0002:000000c0       gadrvfnTTFD                100300c0     mgtt_o:ffile.obj
+ 0002:0000014c       Gray4To5Table              1003014c     mgtt_o:fscaler.obj
+ 0002:00000150       Gray16To5Table             10030150     mgtt_o:fscaler.obj
+ 0002:00000160       Gray4To17Table             10030160     mgtt_o:fscaler.obj
+ 0002:00000164       Gray16To17Table            10030164     mgtt_o:fscaler.obj
+ 0002:00000174       Gray4To65Table             10030174     mgtt_o:fscaler.obj
+ 0002:00000178       Gray16To65Table            10030178     mgtt_o:fscaler.obj
+ 0002:00000188       ?l_MulShiftTable@@3PAEA    10030188     mgtt_o:fmath.obj
+ 0002:0000018c       VerticalUnicodes           1003018c     mgtt_o:vertical.obj
+ 0002:000001c4       glyphBits                  100301c4     mgtt_o:vertical.obj
+ 0002:000001d0       nCharsets                  100301d0     mgtt_o:ntcompat.obj
+ 0002:000001d8       charsets                   100301d8     mgtt_o:ntcompat.obj
+ 0002:00000218       fs                         10030218     mgtt_o:ntcompat.obj
+ 0002:00000278       ajRGBToWeight222           10030278     mgtt_o:subpixel.obj
+ 0002:000002b8       ajRGBToWeightMask          100302b8     mgtt_o:subpixel.obj
+ 0002:000006e0       function                   100306e0     mgtt_o:interp.obj
+ 0002:00000c84       __security_cookie          10030c84     corelib0:seccinit.obj
+ 0002:00000c88       __security_cookie_complement 10030c88     corelib0:seccinit.obj
+ 0002:00000ca0       gbJpn98FixPitch            10030ca0     mgtt_o:fd_query.obj
+ 0002:00000ca4       gbTimer                    10030ca4     mgtt_o:fscaler.obj
+ 0002:00000ca8       gjCurCharset               10030ca8     mgtt_o:ntcompat.obj
+ 0002:00000cac       gfsCurSignature            10030cac     mgtt_o:ntcompat.obj
+ 0002:00000cb0       State                      10030cb0     mgtt_o:scentry.obj
+ 0002:00000d80       LocalGS                    10030d80     mgtt_o:interp.obj
+ 0002:00000e0c       g_pDecompMemHandle         10030e0c     decompdrv:drv_comp.obj
+ 0002:00000e14       g_lpCx                     10030e14     decompdrv:drv_comp.obj
+ 0002:000014c1       _exitflag                  100314c1     corelib0:cexit.obj
+ 0002:000014e0       aulStartBits               100314e0     <common>
+ 0002:00001560       aulBitMask                 10031560     <common>
+ 0002:000015e0       aulStopBits                100315e0     <common>
+ 0002:00001660       ghsemTTFD                  10031660     <common>
+ 0002:00001664       __onexitend                10031664     <common>
+ 0002:00001668       __onexitbegin              10031668     <common>
+ 0002:0000166c       g_pcsExit                  1003166c     <common>
+ 0002:00001670       _pRawDllMain               10031670     <common>
+
+ entry point at        0001:0002d8f4
+
+ Static symbols
+
+ 0001:000052e4       bConvertMBCS               100062e4 f   mgtt_o:fdfon.obj
+ 0001:00005418       bConvertExtras             10006418 f   mgtt_o:fdfon.obj
+ 0001:0001f9c8       FindNext                   100209c8 f   mgtt_o:subpixel.obj
+ 0001:0002d804       _DllMainCRTStartupHelper   1002e804 f   corelib0:pegdmain.obj
+ 0001:0002da1c       doexit                     1002ea1c f   corelib0:cexit.obj

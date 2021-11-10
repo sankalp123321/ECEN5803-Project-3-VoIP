@@ -1,0 +1,388 @@
+ cxport
+
+ Timestamp is 5ac64a20 (Thu Apr 05 09:09:04 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 0000045eH .rdata                  CODE
+ 0001:00000480 00000023H .rdata$debug            CODE
+ 0001:000004a4 00003b14H .text                   CODE
+ 0001:00003fb8 00000028H .xdata                  CODE
+ 0001:00003fe0 00000028H .idata$2                CODE
+ 0001:00004008 00000014H .idata$3                CODE
+ 0001:0000401c 000000f4H .idata$4                CODE
+ 0001:00004110 0000002aH .idata$6                CODE
+ 0001:00004140 0000060aH .edata                  CODE
+ 0002:00000000 000000f4H .idata$5                DATA
+ 0002:000000f8 00000e00H .data                   DATA
+ 0002:00000f00 000005c4H .bss                    DATA
+ 0003:00000000 000002f8H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:0000003c       ??_C@_1BO@ICAJPMOL@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAC?$AAx?$AAL?$AAo?$AAg?$AA?2?$AA?$CF?$AAh?$AAs?$AA?$AA@ 1000103c     cxlog.obj
+ 0001:0000005c       ??_C@_1O@FIAKOBIM@?$AAF?$AAi?$AAl?$AAt?$AAe?$AAr?$AA?$AA@ 1000105c     cxlog.obj
+ 0001:0000006c       ??_C@_08LOAELJGL@?$CFhs?3?5?$CFhs?$AA@ 1000106c     cxlog.obj
+ 0001:00000078       ??_C@_06DGNNMBBD@FATAL?9?$AA@ 10001078     cxlog.obj
+ 0001:00000080       ??_C@_06PLFAKHFC@ERROR?9?$AA@ 10001080     cxlog.obj
+ 0001:00000088       ??_C@_06NMOMGMMF@WARN?9?5?$AA@ 10001088     cxlog.obj
+ 0001:0000008f       ??_C@_00CNPNBAHC@?$AA@     1000108f     cxlog.obj
+ 0001:00000090       ??_C@_03BBKEAIF@?$DP?$DP?$DP?$AA@ 10001090     cxlog.obj
+ 0001:00000094       ??_C@_1BI@BMFCKMAP@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAC?$AAx?$AAp?$AAo?$AAr?$AAt?$AA?$AA@ 10001094     cxport.obj
+ 0001:000000ac       ??_C@_1BO@BMNLCAAB@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAC?$AAx?$AAp?$AAo?$AAr?$AAt?$AA?2?$AA?$CF?$AAs?$AA?$AA@ 100010ac     cxport.obj
+ 0001:000000cc       ??_C@_11LOCGONAA@?$AA?$AA@ 100010cc     cxport.obj
+ 0001:000000d0       ??_C@_1CC@EIDDBNH@?$AAM?$AAa?$AAx?$AAW?$AAo?$AAr?$AAk?$AAe?$AAr?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AAs?$AA?$AA@ 100010d0     cxport.obj
+ 0001:000000f4       ??_C@_1CC@BODJHDLB@?$AAM?$AAi?$AAn?$AAW?$AAo?$AAr?$AAk?$AAe?$AAr?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AAs?$AA?$AA@ 100010f4     cxport.obj
+ 0001:00000118       ??_C@_1BI@BHLBGEOK@?$AAP?$AAr?$AAi?$AAo?$AAr?$AAi?$AAt?$AAy?$AA2?$AA5?$AA6?$AA?$AA@ 10001118     cxport.obj
+ 0001:00000130       ??_C@_1BA@NNNJAIBF@?$AAQ?$AAu?$AAa?$AAn?$AAt?$AAu?$AAm?$AA?$AA@ 10001130     cxport.obj
+ 0001:00000140       ??_C@_1BE@FOPIBOFH@?$AAF?$AAr?$AAe?$AAe?$AAL?$AAi?$AAm?$AAi?$AAt?$AA?$AA@ 10001140     cxport.obj
+ 0001:00000154       ??_C@_1CC@LDOKAFBH@?$AAR?$AAa?$AAn?$AAd?$AAo?$AAm?$AAB?$AAu?$AAf?$AAf?$AAe?$AAr?$AAS?$AAi?$AAz?$AAe?$AA?$AA@ 10001154     cxport.obj
+ 0001:00000178       ??_C@_1CC@JANJKHGD@?$AAN?$AAo?$AAI?$AAd?$AAl?$AAe?$AAT?$AAi?$AAm?$AAe?$AAr?$AAR?$AAe?$AAs?$AAe?$AAt?$AA?$AA@ 10001178     cxport.obj
+ 0001:0000019c       ??_C@_1CC@PENDFBJE@?$AAN?$AAo?$AAI?$AAd?$AAl?$AAe?$AAT?$AAi?$AAm?$AAe?$AAr?$AAE?$AAv?$AAe?$AAn?$AAt?$AA?$AA@ 1000119c     cxport.obj
+ 0001:000001c0       ??_C@_1CK@MFFNFNEI@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AAI?$AAd?$AAl?$AAe?$AAT?$AAi?$AAm?$AAe?$AAr?$AAR?$AAe?$AAs?$AAe?$AAt?$AA?$AA@ 100011c0     cxport.obj
+ 0001:000001ec       ??_C@_1BI@IENOMFML@?$AAC?$AAO?$AAR?$AAE?$AAD?$AAL?$AAL?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 100011ec     cxport.obj
+ 0001:00000204       ??_C@_0M@KBJJJGCA@CTEAllocMem?$AA@ 10001204     cxport.obj
+ 0001:00000210       ??_C@_1CK@HLHOBACO@?$AAC?$AAr?$AAy?$AAp?$AAt?$AAA?$AAc?$AAq?$AAu?$AAi?$AAr?$AAe?$AAC?$AAo?$AAn?$AAt?$AAe?$AAx?$AAt?$AAW?$AA?$AA@ 10001210     cxport.obj
+ 0001:0000023c       ??_C@_1CI@NEKDKLAH@?$AAC?$AAr?$AAy?$AAp?$AAt?$AAR?$AAe?$AAl?$AAe?$AAa?$AAs?$AAe?$AAC?$AAo?$AAn?$AAt?$AAe?$AAx?$AAt?$AA?$AA@ 1000123c     cxport.obj
+ 0001:00000264       ??_C@_1BO@LDFNDKPN@?$AAC?$AAr?$AAy?$AAp?$AAt?$AAG?$AAe?$AAn?$AAR?$AAa?$AAn?$AAd?$AAo?$AAm?$AA?$AA@ 10001264     cxport.obj
+ 0001:00000284       ??_C@_1BE@MEHLGKCE@?$AAL?$AAo?$AAg?$AAB?$AAT?$AAD?$AAa?$AAt?$AAa?$AA?$AA@ 10001284     netlog.obj
+ 0001:00000298       ??_C@_1BC@HNBEDEIN@?$AAL?$AAo?$AAg?$AAE?$AAv?$AAe?$AAn?$AAt?$AA?$AA@ 10001298     netlog.obj
+ 0001:000002ac       ??_C@_1CE@NIPPPFIJ@?$AAL?$AAo?$AAg?$AAR?$AAx?$AAC?$AAo?$AAn?$AAt?$AAi?$AAg?$AAP?$AAa?$AAc?$AAk?$AAe?$AAt?$AA?$AA@ 100012ac     netlog.obj
+ 0001:000002d0       ??_C@_1CG@FLOHPCEJ@?$AAL?$AAo?$AAg?$AAT?$AAx?$AAN?$AAd?$AAi?$AAs?$AAW?$AAa?$AAn?$AAP?$AAa?$AAc?$AAk?$AAe?$AAt?$AA?$AA@ 100012d0     netlog.obj
+ 0001:000002f8       ??_C@_1DG@BNJMNODH@?$AAL?$AAo?$AAg?$AAM?$AAi?$AAn?$AAi?$AAp?$AAo?$AAr?$AAt?$AAI?$AAn?$AAd?$AAi?$AAc?$AAa?$AAt?$AAe?$AAR?$AAe?$AAc?$AAe?$AAi?$AAv?$AAe?$AA?$AA@ 100012f8     netlog.obj
+ 0001:00000330       ??_C@_1FC@CAPBEOPH@?$AAL?$AAo?$AAg?$AAM?$AAi?$AAn?$AAi?$AAp?$AAo?$AAr?$AAt?$AAI?$AAn?$AAd?$AAi?$AAc?$AAa?$AAt?$AAe?$AAR?$AAe?$AAc?$AAe?$AAi?$AAv?$AAe?$AAN?$AAe?$AAt?$AAB?$AAu?$AAf@ 10001330     netlog.obj
+ 0001:00000388       ??_C@_1EE@EPNILPMN@?$AAL?$AAo?$AAg?$AAM?$AAi?$AAn?$AAi?$AAp?$AAo?$AAr?$AAt?$AAI?$AAn?$AAd?$AAi?$AAc?$AAa?$AAt?$AAe?$AAR?$AAe?$AAc?$AAe?$AAi?$AAv?$AAe?$AAP?$AAa?$AAc?$AAk?$AAe?$AAt@ 10001388     netlog.obj
+ 0001:000003cc       ??_C@_1CI@HOKAINAI@?$AAL?$AAo?$AAg?$AAN?$AAd?$AAi?$AAs?$AAT?$AAr?$AAa?$AAn?$AAs?$AAf?$AAe?$AAr?$AAD?$AAa?$AAt?$AAa?$AA?$AA@ 100013cc     netlog.obj
+ 0001:000003f4       ??_C@_1DE@BGHPKED@?$AAL?$AAo?$AAg?$AAN?$AAd?$AAi?$AAs?$AAS?$AAe?$AAn?$AAd?$AAN?$AAe?$AAt?$AAB?$AAu?$AAf?$AAf?$AAe?$AAr?$AAL?$AAi?$AAs?$AAt?$AAs?$AA?$AA@ 100013f4     netlog.obj
+ 0001:00000428       ??_C@_1CG@ILNIFODB@?$AAL?$AAo?$AAg?$AAN?$AAd?$AAi?$AAs?$AAS?$AAe?$AAn?$AAd?$AAP?$AAa?$AAc?$AAk?$AAe?$AAt?$AAs?$AA?$AA@ 10001428     netlog.obj
+ 0001:00000450       ??_C@_1BI@OCPPIPCP@?$AAL?$AAo?$AAg?$AAN?$AAd?$AAi?$AAs?$AAS?$AAe?$AAn?$AAd?$AA?$AA@ 10001450     netlog.obj
+ 0001:00000468       ??_C@_1BG@LOIBKHI@?$AAn?$AAe?$AAt?$AAl?$AAo?$AAg?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10001468     netlog.obj
+ 0001:000004a4       CxLogInitialize            100014a4 f   cxlog.obj
+ 0001:000004b0       CxLogShutdown              100014b0 f   cxlog.obj
+ 0001:000004c4       CxLogRegister              100014c4 f   cxlog.obj
+ 0001:000005c4       CxLogDeregister            100015c4 f   cxlog.obj
+ 0001:000005f4       CxLogVMsg                  100015f4 f   cxlog.obj
+ 0001:000006e0       CxLogMsg                   100016e0 f   cxlog.obj
+ 0001:00000720       CxLogGetModuleInfo         10001720 f   cxlog.obj
+ 0001:00000784       CxLogSetModuleFilter       10001784 f   cxlog.obj
+ 0001:00000858       DeinitThreadPool           10001858 f   cxport.obj
+ 0001:000008d8       InitCxLogging              100018d8 f   cxport.obj
+ 0001:000008f4       DeinitCxLogging            100018f4 f   cxport.obj
+ 0001:00000910       CXPortDumpInfo             10001910 f   cxport.obj
+ 0001:00000958       CTECallSystemIdleTimerReset 10001958 f   cxport.obj
+ 0001:000009b0       CTEEnlargedUnsignedDivide  100019b0 f   cxport.obj
+ 0001:000009c4       QueueReadyEvent            100019c4 f   cxport.obj
+ 0001:00000a10       DequeueReadyEvent          10001a10 f   cxport.obj
+ 0001:00000a60       OpenCxportRegKey           10001a60 f   cxport.obj
+ 0001:00000af4       CTEpProcessOneMinute       10001af4 f   cxport.obj
+ 0001:00000c40       CTEAllocEvent              10001c40 f   cxport.obj
+ 0001:00000cb0       CTEFreeEvent               10001cb0 f   cxport.obj
+ 0001:00000cf8       CTEGetTimerState           10001cf8 f   cxport.obj
+ 0001:00000d08       GetRegDWORDValue           10001d08 f   cxport.obj
+ 0001:00000d74       SetRegDWORDValue           10001d74 f   cxport.obj
+ 0001:00000dc0       SetRegSZValue              10001dc0 f   cxport.obj
+ 0001:00000e20       GetRegMultiSZValue         10001e20 f   cxport.obj
+ 0001:00000ecc       SetRegMultiSZValue         10001ecc f   cxport.obj
+ 0001:00000f7c       GetRegSZValue              10001f7c f   cxport.obj
+ 0001:00000fd0       GetRegBinaryValue          10001fd0 f   cxport.obj
+ 0001:0000101c       SetRegBinaryValue          1000201c f   cxport.obj
+ 0001:00001060       InitCteMemClient           10002060 f   cxport.obj
+ 0001:000010e8       DeinitBlockPool            100020e8 f   cxport.obj
+ 0001:00001160       CTEHeapDestroy             10002160 f   cxport.obj
+ 0001:000011d0       AllocFromFreeLists         100021d0 f   cxport.obj
+ 0001:0000120c       CTEHeapFree                1000220c f   cxport.obj
+ 0001:0000130c       CTEFreeMem                 1000230c f   cxport.obj
+ 0001:00001318       CTEPoolGC                  10002318 f   cxport.obj
+ 0001:00001560       CTEpFipsGenRandom          10002560 f   cxport.obj
+ 0001:0000159c       DeinitRandom               1000259c f   cxport.obj
+ 0001:00001628       SortIncrease               10002628 f   cxport.obj
+ 0001:00001648       SlowSearch                 10002648 f   cxport.obj
+ 0001:00001690       CE_RtlNtStatusToDosError   10002690 f   cxport.obj
+ 0001:00001808       CTEpWorkerThread           10002808 f   cxport.obj
+ 0001:000018fc       CTEpCreateWorker           100028fc f   cxport.obj
+ 0001:000019c0       GetRegSettings             100029c0 f   cxport.obj
+ 0001:00001b6c       CTEpProcessNewRequests     10002b6c f   cxport.obj
+ 0001:00001cec       CTEpDispatchThread         10002cec f   cxport.obj
+ 0001:0000201c       CTEHeapAlloc               1000301c f   cxport.obj
+ 0001:000021c8       InitThreadPool             100031c8 f   cxport.obj
+ 0001:00002354       CheckInitThreadPool        10003354 f i cxport.obj
+ 0001:000023a8       DllMain                    100033a8 f   cxport.obj
+ 0001:00002430       CTEInitialize              10003430 f   cxport.obj
+ 0001:00002434       CTEInitEvent               10003434 f   cxport.obj
+ 0001:00002464       CTEInitTimer               10003464 f   cxport.obj
+ 0001:00002498       CTEIOControl               10003498 f   cxport.obj
+ 0001:00002630       CTECancelEvent             10003630 f   cxport.obj
+ 0001:00002640       CTEStartTimer              10003640 f   cxport.obj
+ 0001:00002724       CTEStartFTimer             10003724 f   cxport.obj
+ 0001:00002804       CTEStopFTimer              10003804 f   cxport.obj
+ 0001:00002884       CTEPoolGCTimer             10003884 f   cxport.obj
+ 0001:00002908       InitBlockPool              10003908 f   cxport.obj
+ 0001:00002998       CheckStartBlockPool        10003998 f i cxport.obj
+ 0001:000029ec       CTEHeapCreate              100039ec f   cxport.obj
+ 0001:00002ac0       CTEAllocMem                10003ac0 f   cxport.obj
+ 0001:00002ae4       CTEpGenRandomEvent         10003ae4 f   cxport.obj
+ 0001:00002bf8       CTEScheduleEvent           10003bf8 f   cxport.obj
+ 0001:00002d00       CTEStopTimer               10003d00 f   cxport.obj
+ 0001:00002de4       InitRandom                 10003de4 f   cxport.obj
+ 0001:00002f80       CTEGenRandom               10003f80 f   cxport.obj
+ 0001:00003178       CTE_Init                   10004178 f   stream.obj
+ 0001:00003180       CTE_Deinit                 10004180 f   stream.obj
+ 0001:00003188       CTE_Open                   10004188 f   stream.obj
+ 0001:00003190       CTE_Close                  10004190 f   stream.obj
+ 0001:00003198       CTE_Write                  10004198 f   stream.obj
+ 0001:000031a0       CTE_Read                   100041a0 f   stream.obj
+ 0001:000031a8       CTE_Seek                   100041a8 f   stream.obj
+ 0001:000031b0       CTE_IOControl              100041b0 f   stream.obj
+ 0001:000032e8       cxUtilGetProcAddresses     100042e8 f   cxutil.obj
+ 0001:00003394       CXUtilGetProcAddresses     10004394 f   cxutil.obj
+ 0001:000033b4       CXUtilTryGetProcAddresses  100043b4 f   cxutil.obj
+ 0001:000033d4       CxRegReadValues            100043d4 f   cxutil.obj
+ 0001:000035c0       CxRegWriteValues           100045c0 f   cxutil.obj
+ 0001:000036b0       UnloadRetailLogger         100046b0 f   netlog.obj
+ 0001:00003730       LoadRetailLogger           10004730 f   netlog.obj
+ 0001:00003868       InitializeCriticalSection  10004868 f   coredll:COREDLL.dll
+ 0001:00003878       DeleteCriticalSection      10004878 f   coredll:COREDLL.dll
+ 0001:00003888       LeaveCriticalSection       10004888 f   coredll:COREDLL.dll
+ 0001:00003898       StringCbPrintfW            10004898 f   coredll:COREDLL.dll
+ 0001:000038a8       EnterCriticalSection       100048a8 f   coredll:COREDLL.dll
+ 0001:000038b8       StringCbVPrintfA           100048b8 f   coredll:COREDLL.dll
+ 0001:000038c8       StringCbPrintfA            100048c8 f   coredll:COREDLL.dll
+ 0001:000038d8       EventModify                100048d8 f   coredll:COREDLL.dll
+ 0001:000038e8       InterlockedCompareExchange 100048e8 f   coredll:COREDLL.dll
+ 0001:000038f8       InterlockedExchange        100048f8 f   coredll:COREDLL.dll
+ 0001:00003908       CloseHandle                10004908 f   coredll:COREDLL.dll
+ 0001:00003918       Sleep                      10004918 f   coredll:COREDLL.dll
+ 0001:00003928       WaitForSingleObject        10004928 f   coredll:COREDLL.dll
+ 0001:00003938       LocalFree                  10004938 f   coredll:COREDLL.dll
+ 0001:00003948       GetTickCount               10004948 f   coredll:COREDLL.dll
+ 0001:00003958       CeSetThreadPriority        10004958 f   coredll:COREDLL.dll
+ 0001:00003968       CeGetThreadPriority        10004968 f   coredll:COREDLL.dll
+ 0001:00003978       WaitForAPIReady            10004978 f   coredll:COREDLL.dll
+ 0001:00003988       RegOpenKeyExW              10004988 f   coredll:COREDLL.dll
+ 0001:00003998       StringCchPrintfW           10004998 f   coredll:COREDLL.dll
+ 0001:000039a8       CreateThread               100049a8 f   coredll:COREDLL.dll
+ 0001:000039b8       CompareFileTime            100049b8 f   coredll:COREDLL.dll
+ 0001:000039c8       GetCurrentFT               100049c8 f   coredll:COREDLL.dll
+ 0001:000039d8       CreateEventW               100049d8 f   coredll:COREDLL.dll
+ 0001:000039e8       SetLastError               100049e8 f   coredll:COREDLL.dll
+ 0001:000039f8       RegQueryValueExW           100049f8 f   coredll:COREDLL.dll
+ 0001:00003a08       RegSetValueExW             10004a08 f   coredll:COREDLL.dll
+ 0001:00003a18       HeapDestroy                10004a18 f   coredll:COREDLL.dll
+ 0001:00003a28       HeapFree                   10004a28 f   coredll:COREDLL.dll
+ 0001:00003a38       LocalAlloc                 10004a38 f   coredll:COREDLL.dll
+ 0001:00003a48       InterlockedDecrement       10004a48 f   coredll:COREDLL.dll
+ 0001:00003a58       InterlockedIncrement       10004a58 f   coredll:COREDLL.dll
+ 0001:00003a68       CeSetThreadQuantum         10004a68 f   coredll:COREDLL.dll
+ 0001:00003a78       OpenEventW                 10004a78 f   coredll:COREDLL.dll
+ 0001:00003a88       RegCloseKey                10004a88 f   coredll:COREDLL.dll
+ 0001:00003a98       FreeLibrary                10004a98 f   coredll:COREDLL.dll
+ 0001:00003aa8       GetProcAddressW            10004aa8 f   coredll:COREDLL.dll
+ 0001:00003ab8       LoadLibraryW               10004ab8 f   coredll:COREDLL.dll
+ 0001:00003ac8       HeapAlloc                  10004ac8 f   coredll:COREDLL.dll
+ 0001:00003ad8       DisableThreadLibraryCalls  10004ad8 f   coredll:COREDLL.dll
+ 0001:00003ae8       HeapCreate                 10004ae8 f   coredll:COREDLL.dll
+ 0001:00003af8       StringCbCopyA              10004af8 f   coredll:COREDLL.dll
+ 0001:00003b08       GetLastError               10004b08 f   coredll:COREDLL.dll
+ 0001:00003b18       RegDeleteValueW            10004b18 f   coredll:COREDLL.dll
+ 0001:00003b28       RegCreateKeyExW            10004b28 f   coredll:COREDLL.dll
+ 0001:00003b38       BCryptGenRandom            10004b38 f   bcrypt:bcrypt.dll
+ 0001:00003c40       _DllMainCRTStartup         10004c40 f   corelib0:pegdmain.obj
+ 0001:00003c6c       __GSHandlerCheckCommon     10004c6c f   corelib0:gshandler.obj
+ 0001:00003ca8       __GSHandlerCheck           10004ca8 f   corelib0:gshandler.obj
+ 0001:00003cc8       __security_init_cookie     10004cc8 f   corelib0:seccinit.obj
+ 0001:00003d14       __security_check_cookie    10004d14 f   corelib0:armsecgs.obj
+ 0001:00003d24       __gsfailure                10004d24     corelib0:armsecgs.obj
+ 0001:00003e50       _cexit                     10004e50 f   corelib0:cexit.obj
+ 0001:00003e60       _initterm                  10004e60 f   corelib0:crt0dat.obj
+ 0001:00003e8c       _cinit                     10004e8c f   corelib0:crt0dat.obj
+ 0001:00003eec       __crt_ExitProcess          10004eec f   corelib0:exitproc_proxy.obj
+ 0001:00003ef8       strlen                     10004ef8 f   corelib1:COREDLL.dll
+ 0001:00003f08       memcpy                     10004f08 f   corelib1:COREDLL.dll
+ 0001:00003f18       wcscpy                     10004f18 f   corelib1:COREDLL.dll
+ 0001:00003f28       wcslen                     10004f28 f   corelib1:COREDLL.dll
+ 0001:00003f38       memset                     10004f38 f   corelib1:COREDLL.dll
+ 0001:00003f48       qsort                      10004f48 f   corelib1:COREDLL.dll
+ 0001:00003f58       _XcptFilter                10004f58 f   corelib1:COREDLL.dll
+ 0001:00003f68       __C_specific_handler       10004f68 f   corelib1:COREDLL.dll
+ 0001:00003f78       __security_gen_cookie2     10004f78 f   corelib1:COREDLL.dll
+ 0001:00003f88       __report_gsfailure         10004f88 f   corelib1:COREDLL.dll
+ 0001:00003f98       free                       10004f98 f   corelib1:COREDLL.dll
+ 0001:00003fa8       TerminateProcess           10004fa8 f   coredll:COREDLL.dll
+ 0001:00003fe0       __IMPORT_DESCRIPTOR_COREDLL 10004fe0     coredll:COREDLL.dll
+ 0001:00003ff4       __IMPORT_DESCRIPTOR_bcrypt 10004ff4     bcrypt:bcrypt.dll
+ 0001:00004008       __NULL_IMPORT_DESCRIPTOR   10005008     coredll:COREDLL.dll
+ 0002:00000000       __imp_InitializeCriticalSection 10006000     coredll:COREDLL.dll
+ 0002:00000004       __imp_DeleteCriticalSection 10006004     coredll:COREDLL.dll
+ 0002:00000008       __imp_LeaveCriticalSection 10006008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_StringCbPrintfW      1000600c     coredll:COREDLL.dll
+ 0002:00000010       __imp_EnterCriticalSection 10006010     coredll:COREDLL.dll
+ 0002:00000014       __imp_StringCbVPrintfA     10006014     coredll:COREDLL.dll
+ 0002:00000018       __imp_StringCbPrintfA      10006018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_EventModify          1000601c     coredll:COREDLL.dll
+ 0002:00000020       __imp_InterlockedCompareExchange 10006020     coredll:COREDLL.dll
+ 0002:00000024       __imp_InterlockedExchange  10006024     coredll:COREDLL.dll
+ 0002:00000028       __imp_CloseHandle          10006028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_Sleep                1000602c     coredll:COREDLL.dll
+ 0002:00000030       __imp_WaitForSingleObject  10006030     coredll:COREDLL.dll
+ 0002:00000034       __imp_LocalFree            10006034     coredll:COREDLL.dll
+ 0002:00000038       __imp_GetTickCount         10006038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_CeSetThreadPriority  1000603c     coredll:COREDLL.dll
+ 0002:00000040       __imp_CeGetThreadPriority  10006040     coredll:COREDLL.dll
+ 0002:00000044       __imp_WaitForAPIReady      10006044     coredll:COREDLL.dll
+ 0002:00000048       __imp_RegOpenKeyExW        10006048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_StringCchPrintfW     1000604c     coredll:COREDLL.dll
+ 0002:00000050       __imp_CreateThread         10006050     coredll:COREDLL.dll
+ 0002:00000054       __imp_CompareFileTime      10006054     coredll:COREDLL.dll
+ 0002:00000058       __imp_GetCurrentFT         10006058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_CreateEventW         1000605c     coredll:COREDLL.dll
+ 0002:00000060       __imp_SetLastError         10006060     coredll:COREDLL.dll
+ 0002:00000064       __imp_RegQueryValueExW     10006064     coredll:COREDLL.dll
+ 0002:00000068       __imp_RegSetValueExW       10006068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_HeapDestroy          1000606c     coredll:COREDLL.dll
+ 0002:00000070       __imp_HeapFree             10006070     coredll:COREDLL.dll
+ 0002:00000074       __imp_LocalAlloc           10006074     coredll:COREDLL.dll
+ 0002:00000078       __imp_InterlockedDecrement 10006078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_InterlockedIncrement 1000607c     coredll:COREDLL.dll
+ 0002:00000080       __imp_CeSetThreadQuantum   10006080     coredll:COREDLL.dll
+ 0002:00000084       __imp_OpenEventW           10006084     coredll:COREDLL.dll
+ 0002:00000088       __imp_RegCloseKey          10006088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_FreeLibrary          1000608c     coredll:COREDLL.dll
+ 0002:00000090       __imp_GetProcAddressW      10006090     coredll:COREDLL.dll
+ 0002:00000094       __imp_LoadLibraryW         10006094     coredll:COREDLL.dll
+ 0002:00000098       __imp_HeapAlloc            10006098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_DisableThreadLibraryCalls 1000609c     coredll:COREDLL.dll
+ 0002:000000a0       __imp_HeapCreate           100060a0     coredll:COREDLL.dll
+ 0002:000000a4       __imp_StringCbCopyA        100060a4     coredll:COREDLL.dll
+ 0002:000000a8       __imp_GetLastError         100060a8     coredll:COREDLL.dll
+ 0002:000000ac       __imp_RegDeleteValueW      100060ac     coredll:COREDLL.dll
+ 0002:000000b0       __imp_RegCreateKeyExW      100060b0     coredll:COREDLL.dll
+ 0002:000000b4       __imp_strlen               100060b4     corelib1:COREDLL.dll
+ 0002:000000b8       __imp_memcpy               100060b8     corelib1:COREDLL.dll
+ 0002:000000bc       __imp_wcscpy               100060bc     corelib1:COREDLL.dll
+ 0002:000000c0       __imp_wcslen               100060c0     corelib1:COREDLL.dll
+ 0002:000000c4       __imp_memset               100060c4     corelib1:COREDLL.dll
+ 0002:000000c8       __imp___rt_udiv            100060c8     corelib1:COREDLL.dll
+ 0002:000000cc       __imp_qsort                100060cc     corelib1:COREDLL.dll
+ 0002:000000d0       __imp__XcptFilter          100060d0     corelib1:COREDLL.dll
+ 0002:000000d4       __imp___C_specific_handler 100060d4     corelib1:COREDLL.dll
+ 0002:000000d8       __imp___security_gen_cookie2 100060d8     corelib1:COREDLL.dll
+ 0002:000000dc       __imp___report_gsfailure   100060dc     corelib1:COREDLL.dll
+ 0002:000000e0       __imp_free                 100060e0     corelib1:COREDLL.dll
+ 0002:000000e4       __imp_TerminateProcess     100060e4     coredll:COREDLL.dll
+ 0002:000000e8       \177COREDLL_NULL_THUNK_DATA 100060e8     coredll:COREDLL.dll
+ 0002:000000ec       __imp_BCryptGenRandom      100060ec     bcrypt:bcrypt.dll
+ 0002:000000f0       \177bcrypt_NULL_THUNK_DATA 100060f0     bcrypt:bcrypt.dll
+ 0002:000000f8       CodePairs                  100060f8     cxport.obj
+ 0002:00000ea8       g_StopTimerWaitMs          10006ea8     cxport.obj
+ 0002:00000eb0       g_BlockPoolSizeTbl         10006eb0     cxport.obj
+ 0002:00000ef0       __security_cookie          10006ef0     corelib0:seccinit.obj
+ 0002:00000ef4       __security_cookie_complement 10006ef4     corelib0:seccinit.obj
+ 0002:00000f00       g_LastCheckTime            10006f00     cxport.obj
+ 0002:00000f08       g_bSorting                 10006f08     cxport.obj
+ 0002:00000f0c       g_pNetLogMiniportIndicateReceive 10006f0c     netlog.obj
+ 0002:00000f10       g_pNetLogMiniportIndicateReceivePackets 10006f10     netlog.obj
+ 0002:00000f14       g_pNetLogEvent             10006f14     netlog.obj
+ 0002:00000f18       g_pLogTxNdisWanPacket      10006f18     netlog.obj
+ 0002:00000f1c       g_pLogRxContigPacket       10006f1c     netlog.obj
+ 0002:00000f20       g_hNetlogUnloaded          10006f20     netlog.obj
+ 0002:00000f24       g_NetlogRefCount           10006f24     netlog.obj
+ 0002:00000f28       g_csNetLog                 10006f28     netlog.obj
+ 0002:00000f3c       g_pNetLogNdisSend          10006f3c     netlog.obj
+ 0002:00000f40       g_pLogEvent                10006f40     netlog.obj
+ 0002:00000f44       g_hLogger                  10006f44     netlog.obj
+ 0002:00000f48       g_pNetLogNdisTransferData  10006f48     netlog.obj
+ 0002:00000f4c       g_pNetLogBTData            10006f4c     netlog.obj
+ 0002:00000f50       g_pNetLogNdisSendPackets   10006f50     netlog.obj
+ 0002:00000f54       g_pLogNdisSend             10006f54     netlog.obj
+ 0002:00000f58       g_pLogNdisSendPackets      10006f58     netlog.obj
+ 0002:00000f5c       g_pLogNdisSendNetBufferLists 10006f5c     netlog.obj
+ 0002:00000f60       g_pLogNdisTransferData     10006f60     netlog.obj
+ 0002:00000f64       g_pLogMiniportIndicateReceive 10006f64     netlog.obj
+ 0002:00000f68       g_pLogMiniportIndicateReceivePackets 10006f68     netlog.obj
+ 0002:00000f6c       g_pLogMiniportIndicateReceiveNetBufferLists 10006f6c     netlog.obj
+ 0002:00000f70       g_pLogBTData               10006f70     netlog.obj
+ 0002:00000f74       _exitflag                  10006f74     corelib0:cexit.obj
+ 0002:00000f78       g_bRunning                 10006f78     <common>
+ 0002:00000f7c       g_hProvContext             10006f7c     <common>
+ 0002:00000f80       g_RandomBufferSize         10006f80     <common>
+ 0002:00000f84       g_NewTimerList             10006f84     <common>
+ 0002:00000f88       g_SH_WMGR_IsReady          10006f88     <common>
+ 0002:00000f8c       g_pFTimerList              10006f8c     <common>
+ 0002:00000f90       g_pEndSortedTable          10006f90     <common>
+ 0002:00000f94       g_WorkerID                 10006f94     <common>
+ 0002:00000f98       g_cMaxWorkerList           10006f98     <common>
+ 0002:00000fa0       g_CteMemClients            10006fa0     <common>
+ 0002:00000ff0       g_cMaxEventList            10006ff0     <common>
+ 0002:00000ff4       g_fTimerOff                10006ff4     <common>
+ 0002:00001000       g_RandomEvent              10007000     <common>
+ 0002:0000101c       g_WaitingList              1000701c     <common>
+ 0002:00001020       g_pfnCryptGenRandom        10007020     <common>
+ 0002:00001024       g_CountElementMapTable     10007024     <common>
+ 0002:00001028       g_RandomBuffers            10007028     <common>
+ 0002:00001030       g_WorkerThreadPriority     10007030     <common>
+ 0002:00001040       g_FTimerLock               10007040     <common>
+ 0002:00001054       g_bBlockPoolStarted        10007054     <common>
+ 0002:00001058       g_hCxportHeap              10007058     <common>
+ 0002:0000105c       g_hDoneEvent               1000705c     <common>
+ 0002:00001060       g_cRandomBytesRemaining    10007060     <common>
+ 0002:00001064       g_cMaxWorkerThreads        10007064     <common>
+ 0002:00001080       g_BlockPoolGCTimer         10007080     <common>
+ 0002:0000109c       g_IdleTimerResetCount      1000709c     <common>
+ 0002:000010a0       g_cWorkerThreads           100070a0     <common>
+ 0002:000010c0       g_RandomLock               100070c0     <common>
+ 0002:000010e0       g_EventFreeList            100070e0     <common>
+ 0002:000010f0       g_CountByteCodePair        100070f0     <common>
+ 0002:000010f4       g_pfnSystemIdleTimerReset  100070f4     <common>
+ 0002:000010f8       g_bThreadPoolStarted       100070f8     <common>
+ 0002:000010fc       g_cMinWorkerThreads        100070fc     <common>
+ 0002:00001100       g_pfnCryptReleaseContext   10007100     <common>
+ 0002:00001120       g_ReadyCache               10007120     <common>
+ 0002:000011c0       g_StopTimerList            100071c0     <common>
+ 0002:000011c4       g_cFreeLimit               100071c4     <common>
+ 0002:000011c8       g_cWorkerList              100071c8     <common>
+ 0002:000011cc       g_WorkerThreadQuantum      100071cc     <common>
+ 0002:000011d0       g_pfnCryptAcquireContext   100071d0     <common>
+ 0002:000011d4       g_CurrentRandomBufferIndex 100071d4     <common>
+ 0002:000011d8       g_NewEventList             100071d8     <common>
+ 0002:000011dc       g_cIdleWorkers             100071dc     <common>
+ 0002:000011e0       g_bRandomEventScheduled    100071e0     <common>
+ 0002:000011e4       g_hevNoIdleTimerEvent      100071e4     <common>
+ 0002:000011e8       g_bRandomCacheStarted      100071e8     <common>
+ 0002:000011ec       g_pSortedTable             100071ec     <common>
+ 0002:000011f0       g_CountElementCodePair     100071f0     <common>
+ 0002:000011f4       g_KillOneThread            100071f4     <common>
+ 0002:000011f8       g_DispatchThreadEvent      100071f8     <common>
+ 0002:000011fc       g_cEventList               100071fc     <common>
+ 0002:00001200       g_hTaskWorker              10007200     <common>
+ 0002:00001220       g_CxLogModules             10007220     <common>
+ 0002:000014a0       g_CxLogCS                  100074a0     <common>
+ 0002:000014b4       __onexitend                100074b4     <common>
+ 0002:000014b8       __onexitbegin              100074b8     <common>
+ 0002:000014bc       g_pcsExit                  100074bc     <common>
+ 0002:000014c0       _pRawDllMain               100074c0     <common>
+
+ entry point at        0001:00003c40
+
+ Static symbols
+
+ 0001:00003b50       _DllMainCRTStartupHelper   10004b50 f   corelib0:pegdmain.obj
+ 0001:00003d68       doexit                     10004d68 f   corelib0:cexit.obj

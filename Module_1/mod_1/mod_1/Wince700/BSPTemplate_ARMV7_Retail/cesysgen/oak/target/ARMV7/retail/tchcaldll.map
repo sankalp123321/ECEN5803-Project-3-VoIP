@@ -1,0 +1,120 @@
+ tchcaldll
+
+ Timestamp is 5ac64c64 (Thu Apr 05 09:18:44 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 000000dcH .rdata                  CODE
+ 0001:000000fc 00000026H .rdata$debug            CODE
+ 0001:00000124 000015a4H .text                   CODE
+ 0001:000016c8 00000020H .xdata                  CODE
+ 0001:000016e8 00000014H .idata$2                CODE
+ 0001:000016fc 00000014H .idata$3                CODE
+ 0001:00001710 00000040H .idata$4                CODE
+ 0001:00001750 0000000cH .idata$6                CODE
+ 0001:00001760 0000009bH .edata                  CODE
+ 0002:00000000 00000040H .idata$5                DATA
+ 0002:00000040 00000090H .data                   DATA
+ 0002:000000d0 00000034H .bss                    DATA
+ 0003:00000000 00000108H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:0000003c       ??_C@_1BI@KKLLCJMC@?$AAM?$AAa?$AAx?$AAC?$AAa?$AAl?$AAE?$AAr?$AAr?$AAo?$AAr?$AA?$AA@ 1000103c     tchcaldll.obj
+ 0001:00000054       ??_C@_1DC@PPKDPGKC@?$AAH?$AAA?$AAR?$AAD?$AAW?$AAA?$AAR?$AAE?$AA?2?$AAD?$AAE?$AAV?$AAI?$AAC?$AAE?$AAM?$AAA?$AAP?$AA?2?$AAT?$AAO?$AAU?$AAC?$AAH?$AA?$AA@ 10001054     tchcaldll.obj
+ 0001:00000088       ??_C@_1HE@KOGOOPFA@?$AAT?$AAc?$AAh?$AAC?$AAa?$AAl?$AA?3?$AA?5?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?$CB?$AA?5?$AAd?$AAe?$AAl?$AAt?$AAa?$AA?5?$AAo?$AAf?$AA?5?$AA0?$AA?5?$AAi?$AAn?$AAv?$AAa?$AAl?$AAi@ 10001088     tchcaldll.obj
+ 0001:0000026c       TchCal_SetDisplayInfo      1000126c f   tchcaldll.obj
+ 0001:0000028c       TchCal_CalibrateSample     1000128c f   tchcaldll.obj
+ 0001:00000360       DllMain                    10001360 f   tchcaldll.obj
+ 0001:000004c0       TchCal_SetCalibrationData  100014c0 f   tchcaldll.obj
+ 0001:00000ac8       ?LargeNumSet@@YAPAULARGENUM@@PAU1@H@Z 10001ac8 f   largenum.obj
+ 0001:00000b08       ?IsLargeNumNotZero@@YAHPAULARGENUM@@@Z 10001b08 f   largenum.obj
+ 0001:00000b38       ?IsLargeNumNegative@@YAHPAULARGENUM@@@Z 10001b38 f   largenum.obj
+ 0001:00000b4c       ?IsLargeNumMagGreaterThan@@YAHPAULARGENUM@@0@Z 10001b4c f   largenum.obj
+ 0001:00000b90       ?LargeNumMagInc@@YAPAULARGENUM@@PAU1@@Z 10001b90 f   largenum.obj
+ 0001:00000bc0       ?LargeNumMagAdd@@YAPAULARGENUM@@PAU1@00@Z 10001bc0 f   largenum.obj
+ 0001:00000c28       ?LargeNumMagSub@@YAPAULARGENUM@@PAU1@00@Z 10001c28 f   largenum.obj
+ 0001:00000c94       ?LargeNumAdd@@YAPAULARGENUM@@PAU1@00@Z 10001c94 f   largenum.obj
+ 0001:00000d40       ?LargeNumSub@@YAPAULARGENUM@@PAU1@00@Z 10001d40 f   largenum.obj
+ 0001:00000dec       ?LargeNumMulUint32@@YAPAULARGENUM@@IIPAU1@@Z 10001dec f   largenum.obj
+ 0001:00000e50       ?LargeNumMult@@YAPAULARGENUM@@PAU1@00@Z 10001e50 f   largenum.obj
+ 0001:00000fa8       ?LargeNumSignedFormat@@YAIPAULARGENUM@@@Z 10001fa8 f   largenum.obj
+ 0001:00000fec       ?LargeNumRAShift@@YAXPAULARGENUM@@H@Z 10001fec f   largenum.obj
+ 0001:000010d0       ?LargeNumDivInt32@@YAIPAULARGENUM@@H0@Z 100020d0 f   largenum.obj
+ 0001:000011e8       ?LargeNumBits@@YAHPAULARGENUM@@@Z 100021e8 f   largenum.obj
+ 0001:00001248       DisableThreadLibraryCalls  10002248 f   coredll:COREDLL.dll
+ 0001:00001258       RegCloseKey                10002258 f   coredll:COREDLL.dll
+ 0001:00001268       RegQueryValueExW           10002268 f   coredll:COREDLL.dll
+ 0001:00001278       RegOpenKeyExW              10002278 f   coredll:COREDLL.dll
+ 0001:00001288       NKDbgPrintfW               10002288 f   coredll:COREDLL.dll
+ 0001:00001390       _DllMainCRTStartup         10002390 f   corelib0:pegdmain.obj
+ 0001:000013bc       __GSHandlerCheckCommon     100023bc f   corelib0:gshandler.obj
+ 0001:000013f8       __GSHandlerCheck           100023f8 f   corelib0:gshandler.obj
+ 0001:00001418       __security_init_cookie     10002418 f   corelib0:seccinit.obj
+ 0001:00001464       __security_check_cookie    10002464 f   corelib0:armsecgs.obj
+ 0001:00001474       __gsfailure                10002474     corelib0:armsecgs.obj
+ 0001:000015a0       _cexit                     100025a0 f   corelib0:cexit.obj
+ 0001:000015b0       _initterm                  100025b0 f   corelib0:crt0dat.obj
+ 0001:000015dc       _cinit                     100025dc f   corelib0:crt0dat.obj
+ 0001:0000163c       __crt_ExitProcess          1000263c f   corelib0:exitproc_proxy.obj
+ 0001:00001648       _XcptFilter                10002648 f   corelib1:COREDLL.dll
+ 0001:00001658       __C_specific_handler       10002658 f   corelib1:COREDLL.dll
+ 0001:00001668       __security_gen_cookie2     10002668 f   corelib1:COREDLL.dll
+ 0001:00001678       __report_gsfailure         10002678 f   corelib1:COREDLL.dll
+ 0001:00001688       free                       10002688 f   corelib1:COREDLL.dll
+ 0001:00001698       DeleteCriticalSection      10002698 f   coredll:COREDLL.dll
+ 0001:000016a8       InterlockedExchange        100026a8 f   coredll:COREDLL.dll
+ 0001:000016b8       TerminateProcess           100026b8 f   coredll:COREDLL.dll
+ 0001:000016e8       __IMPORT_DESCRIPTOR_COREDLL 100026e8     coredll:COREDLL.dll
+ 0001:000016fc       __NULL_IMPORT_DESCRIPTOR   100026fc     coredll:COREDLL.dll
+ 0002:00000000       __imp_DisableThreadLibraryCalls 10003000     coredll:COREDLL.dll
+ 0002:00000004       __imp_RegCloseKey          10003004     coredll:COREDLL.dll
+ 0002:00000008       __imp_RegQueryValueExW     10003008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_RegOpenKeyExW        1000300c     coredll:COREDLL.dll
+ 0002:00000010       __imp_NKDbgPrintfW         10003010     coredll:COREDLL.dll
+ 0002:00000014       __imp___rt_sdiv            10003014     corelib1:COREDLL.dll
+ 0002:00000018       __imp___rt_udiv            10003018     corelib1:COREDLL.dll
+ 0002:0000001c       __imp__XcptFilter          1000301c     corelib1:COREDLL.dll
+ 0002:00000020       __imp___C_specific_handler 10003020     corelib1:COREDLL.dll
+ 0002:00000024       __imp___security_gen_cookie2 10003024     corelib1:COREDLL.dll
+ 0002:00000028       __imp___report_gsfailure   10003028     corelib1:COREDLL.dll
+ 0002:0000002c       __imp_free                 1000302c     corelib1:COREDLL.dll
+ 0002:00000030       __imp_DeleteCriticalSection 10003030     coredll:COREDLL.dll
+ 0002:00000034       __imp_InterlockedExchange  10003034     coredll:COREDLL.dll
+ 0002:00000038       __imp_TerminateProcess     10003038     coredll:COREDLL.dll
+ 0002:0000003c       \177COREDLL_NULL_THUNK_DATA 1000303c     coredll:COREDLL.dll
+ 0002:000000c8       __security_cookie          100030c8     corelib0:seccinit.obj
+ 0002:000000cc       __security_cookie_complement 100030cc     corelib0:seccinit.obj
+ 0002:000000f0       _exitflag                  100030f0     corelib0:cexit.obj
+ 0002:000000f4       __onexitend                100030f4     <common>
+ 0002:000000f8       __onexitbegin              100030f8     <common>
+ 0002:000000fc       g_pcsExit                  100030fc     <common>
+ 0002:00000100       _pRawDllMain               10003100     <common>
+
+ entry point at        0001:00001390
+
+ Static symbols
+
+ 0001:0000012c       ?ComputeMatrix33@@YAXPAULARGENUM@@PAUMATRIX33@@@Z 1000112c f   tchcaldll.obj
+ 0001:00000374       ?ErrorAnalysis@@YAHHPBH000@Z 10001374 f   tchcaldll.obj
+ 0001:000012a0       _DllMainCRTStartupHelper   100022a0 f   corelib0:pegdmain.obj
+ 0001:000014b8       doexit                     100024b8 f   corelib0:cexit.obj

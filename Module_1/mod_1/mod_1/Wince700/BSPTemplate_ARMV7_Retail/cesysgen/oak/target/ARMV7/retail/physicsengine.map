@@ -1,0 +1,328 @@
+ PhysicsEngine
+
+ Timestamp is 5ac64a23 (Thu Apr 05 09:09:07 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000008H .CRT$XCU                CODE
+ 0001:0000000c 00000004H .CRT$XCZ                CODE
+ 0001:00000010 00000004H .CRT$XIA                CODE
+ 0001:00000014 00000004H .CRT$XIZ                CODE
+ 0001:00000018 00000004H .CRT$XPA                CODE
+ 0001:0000001c 00000004H .CRT$XPZ                CODE
+ 0001:00000020 00000004H .CRT$XTA                CODE
+ 0001:00000024 00000004H .CRT$XTZ                CODE
+ 0001:00000030 00000332H .rdata                  CODE
+ 0001:00000364 0000002aH .rdata$debug            CODE
+ 0001:00000390 000050b0H .text                   CODE
+ 0001:00005440 00000024H .text$yc                CODE
+ 0001:00005464 00000018H .text$yd                CODE
+ 0001:0000547c 0000007cH .xdata                  CODE
+ 0001:000054f8 00000014H .idata$2                CODE
+ 0001:0000550c 00000014H .idata$3                CODE
+ 0001:00005520 000000a8H .idata$4                CODE
+ 0001:000055c8 0000000cH .idata$6                CODE
+ 0001:000055e0 00000103H .edata                  CODE
+ 0002:00000000 000000a8H .idata$5                DATA
+ 0002:000000a8 000000ccH .data                   DATA
+ 0002:00000174 0000005cH .bss                    DATA
+ 0003:00000000 00000470H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:0000000c       __xc_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xi_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xi_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xp_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xp_z                     1000101c     corelib0:crt0init.obj
+ 0001:00000020       __xt_a                     10001020     corelib0:crt0init.obj
+ 0001:00000024       __xt_z                     10001024     corelib0:crt0init.obj
+ 0001:0000004c       ??_C@_1BO@GNIMAIME@?$AAS?$AAp?$AAr?$AAi?$AAn?$AAg?$AAC?$AAo?$AAn?$AAs?$AAt?$AAa?$AAn?$AAt?$AA?$AA@ 1000104c     PhysicsEngineCore:utils.obj
+ 0001:0000006c       ??_C@_1BI@JOEJHAKF@?$AAD?$AAr?$AAa?$AAg?$AAS?$AAt?$AAo?$AAp?$AAV?$AAe?$AAl?$AA?$AA@ 1000106c     PhysicsEngineCore:utils.obj
+ 0001:00000084       ??_C@_1BE@GEADJLD@?$AAD?$AAr?$AAa?$AAg?$AAC?$AAo?$AAe?$AAf?$AAf?$AA?$AA@ 10001084     PhysicsEngineCore:utils.obj
+ 0001:00000098       ??_C@_1BO@JKOFNJKH@?$AAB?$AAo?$AAu?$AAn?$AAc?$AAe?$AAD?$AAu?$AAr?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 10001098     PhysicsEngineCore:utils.obj
+ 0001:000000b8       ??_C@_1BK@FHKNFOOA@?$AAB?$AAo?$AAu?$AAn?$AAc?$AAe?$AAH?$AAe?$AAi?$AAg?$AAh?$AAt?$AA?$AA@ 100010b8     PhysicsEngineCore:utils.obj
+ 0001:000000d4       ??_C@_1DI@KHLCNADM@?$AAR?$AAe?$AAg?$AAi?$AAs?$AAt?$AAr?$AAy?$AAR?$AAe?$AAa?$AAd?$AAA?$AAl?$AAl?$AAS?$AAe?$AAt?$AAt?$AAi?$AAn?$AAg?$AAs?$AAT?$AAi?$AAm?$AAe?$AA?$AA@ 100010d4     PhysicsEngineCore:utils.obj
+ 0001:0000010c       ??_C@_1CC@JAEKEJOD@?$AAR?$AAe?$AAg?$AAi?$AAs?$AAt?$AAr?$AAy?$AAR?$AAe?$AAa?$AAd?$AAT?$AAi?$AAm?$AAe?$AA?$AA@ 1000110c     PhysicsEngineCore:utils.obj
+ 0001:00000130       ??_C@_1DA@LJODKNJF@?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AAP?$AAh?$AAy?$AAs?$AAi?$AAc?$AAs?$AAE?$AAn?$AAg?$AAi?$AAn?$AAe?$AAT?$AAi?$AAm?$AAe?$AA?$AA@ 10001130     PhysicsEngineCore:utils.obj
+ 0001:000001b4       ??_C@_1BO@GPADPFKA@?$AA?2?$AAm?$AAd?$AAd?$AAc?$AAe?$AAp?$AAe?$AAr?$AAf?$AA?4?$AAl?$AAo?$AAg?$AA?$AA@ 100011b4     PhysicsEngineCore:utils.obj
+ 0001:000001d4       ??_C@_1BG@NFMDIMHC@?$AAM?$AAD?$AAP?$AAG?$AA?2?$AAT?$AAo?$AAu?$AAc?$AAh?$AA?$AA@ 100011d4     PhysicsEngineCore:utils.obj
+ 0001:000001ec       __real@00000000            100011ec     PhysicsEngineCore:utils.obj
+ 0001:000001f0       __real@3fe0000000000000    100011f0     PhysicsEngineCore:Engine.obj
+ 0001:000001f8       __real@bfe0000000000000    100011f8     PhysicsEngineCore:Engine.obj
+ 0001:00000200       __real@0000000000000000    10001200     PhysicsEngineCore:Engine.obj
+ 0001:00000208       __real@bff0000000000000    10001208     PhysicsEngineCore:Engine.obj
+ 0001:00000210       __real@3ff0000000000000    10001210     PhysicsEngineCore:Engine.obj
+ 0001:00000218       __real@3ef0000000000000    10001218     PhysicsEngineCore:Engine.obj
+ 0001:00000220       __real@400921fb54411744    10001220     PhysicsEngineCore:Engine.obj
+ 0001:00000228       __real@4010000000000000    10001228     PhysicsEngineCore:Engine.obj
+ 0001:00000238       ??_7PanningCore@physics@@6B@ 10001238     PhysicsEngineCore:RubberBandPanningCore.obj
+ 0001:0000024c       ??_7RubberBandPanningCore@physics@@6B@ 1000124c     PhysicsEngineCore:RubberBandPanningCore.obj
+ 0001:00000260       __real@3f847ae147ae147b    10001260     PhysicsEngineCore:RubberBandPanningCore.obj
+ 0001:00000268       ??_7BoundedPanningCore@physics@@6B@ 10001268     PhysicsEngineCore:BoundedPanningCore.obj
+ 0001:0000027c       ??_7BoundaryCore@physics@@6B@ 1000127c     PhysicsEngineCore:boundarycore.obj
+ 0001:00000288       ??_7NullBoundaryCore@physics@@6B@ 10001288     PhysicsEngineCore:boundarycore.obj
+ 0001:00000294       __real@3dcccccd            10001294     PhysicsEngineCore:RubberBandCore.obj
+ 0001:00000298       ??_7RubberBandCore@physics@@6B@ 10001298     PhysicsEngineCore:RubberBandCore.obj
+ 0001:000002a4       __real@408f400000000000    100012a4     PhysicsEngineCore:RubberBandCore.obj
+ 0001:000002ac       __real@3fc999999999999a    100012ac     PhysicsEngineCore:RubberBandCore.obj
+ 0001:000002b4       ??_7BounceCore@physics@@6B@ 100012b4     PhysicsEngineCore:BounceCore.obj
+ 0001:000002c0       ?s_dTimeMultiplier@DecelerateCore@physics@@0NB 100012c0     PhysicsEngineCore:DecelerateCore.obj
+ 0001:000002c8       ??_7MovementCore@physics@@6B@ 100012c8     PhysicsEngineCore:DecelerateCore.obj
+ 0001:000002e0       __real@3f800000            100012e0     PhysicsEngineCore:DecelerateCore.obj
+ 0001:000002e4       ??_7DecelerateCore@physics@@6B@ 100012e4     PhysicsEngineCore:DecelerateCore.obj
+ 0001:000002fc       ??_7NullMovementCore@physics@@6B@ 100012fc     PhysicsEngineCore:MovementCore.obj
+ 0001:00000318       ?s_dTimeMultiplier@BoundedDecelerateCore@physics@@0NB 10001318     PhysicsEngineCore:BoundedDecelerateCore.obj
+ 0001:00000320       ??_7BoundedDecelerateCore@physics@@6B@ 10001320     PhysicsEngineCore:BoundedDecelerateCore.obj
+ 0001:00000390       DllEntry                   10001390 f   entry.obj
+ 0001:000003c8       CePerfOpenSession          100013c8 f i PhysicsEngineCore:utils.obj
+ 0001:000004c0       CePerfCloseSession         100014c0 f i PhysicsEngineCore:utils.obj
+ 0001:0000055c       CePerfRegisterBulk         1000155c f i PhysicsEngineCore:utils.obj
+ 0001:000005d0       CePerfBeginDuration        100015d0 f i PhysicsEngineCore:utils.obj
+ 0001:00000644       CePerfEndDuration          10001644 f i PhysicsEngineCore:utils.obj
+ 0001:000006d4       ?MDPGPerfOpenSession@@YAJPAPAXPBG@Z 100016d4 f i PhysicsEngineCore:utils.obj
+ 0001:00000760       ?PhysicsEngineGlobalInit@physics@@YAHXZ 10001760 f   PhysicsEngineCore:utils.obj
+ 0001:0000079c       ?PhysicsEngineGlobalDeInit@physics@@YAXXZ 1000179c f   PhysicsEngineCore:utils.obj
+ 0001:000007b8       ?BeginDuration@physics@@YAXW4PerfMarkers@1@@Z 100017b8 f   PhysicsEngineCore:utils.obj
+ 0001:000007e0       ?EndDuration@physics@@YAXW4PerfMarkers@1@@Z 100017e0 f   PhysicsEngineCore:utils.obj
+ 0001:0000080c       ControlPhysicsEngineConfigurationCaching 1000180c f   PhysicsEngineCore:utils.obj
+ 0001:00000840       ?RegistryGetFloat@?A0xbffcdf1e@@YAJPAUHKEY__@@PBG1PAM@Z 10001840 f   PhysicsEngineCore:utils.obj
+ 0001:00000938       ?RegistryGetDWORD@?A0xbffcdf1e@@YAJPAUHKEY__@@PBG1PAK@Z 10001938 f   PhysicsEngineCore:utils.obj
+ 0001:00000a28       ?ReadConfigurationValues@?A0xbffcdf1e@@YAJXZ 10001a28 f   PhysicsEngineCore:utils.obj
+ 0001:00000bb8       ?ReadConfigFloat@physics@@YAMW4ConfigValues@1@H@Z 10001bb8 f   PhysicsEngineCore:utils.obj
+ 0001:00000c8c       ?ReadConfigDWORD@physics@@YAKW4ConfigValues@1@H@Z 10001c8c f   PhysicsEngineCore:utils.obj
+ 0001:00000da0       CreatePhysicsEngine        10001da0 f   PhysicsEngineCore:api.obj
+ 0001:00000e74       DestroyPhysicsEngine       10001e74 f   PhysicsEngineCore:api.obj
+ 0001:00000ec8       SetPhysicsEngineUserTime   10001ec8 f   PhysicsEngineCore:api.obj
+ 0001:00000efc       QueryPhysicsEngine         10001efc f   PhysicsEngineCore:api.obj
+ 0001:00000f30       GetPhysicsEngineBoundaryTime 10001f30 f   PhysicsEngineCore:api.obj
+ 0001:00000f6c       AddPhysicsEngineStopPoint  10001f6c f   PhysicsEngineCore:api.obj
+ 0001:00000fa8       PanPhysicsEngine           10001fa8 f   PhysicsEngineCore:api.obj
+ 0001:00000fe4       FlickPhysicsEngine         10001fe4 f   PhysicsEngineCore:api.obj
+ 0001:00001020       ?get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ 10002020 f i PhysicsEngineCore:api.obj
+ 0001:00001074       ?RoundDouble@physics@@YAJN@Z 10002074 f i PhysicsEngineCore:Engine.obj
+ 0001:000010b0       ??0Engine@physics@@QAA@XZ  100020b0 f   PhysicsEngineCore:Engine.obj
+ 0001:000010ec       ??1Engine@physics@@QAA@XZ  100020ec f   PhysicsEngineCore:Engine.obj
+ 0001:00001108       ?Pan@Engine@physics@@QAAJJJ@Z 10002108 f   PhysicsEngineCore:Engine.obj
+ 0001:00001158       ?SetUserTime@Engine@physics@@QAAJK@Z 10002158 f   PhysicsEngineCore:Engine.obj
+ 0001:0000118c       ?QueryState@Engine@physics@@QAAJPAUtagPHYSICSENGINESTATE@@@Z 1000218c f   PhysicsEngineCore:Engine.obj
+ 0001:000012cc       ?GetBoundaryTime@Engine@physics@@QAAJKPAK@Z 100022cc f   PhysicsEngineCore:Engine.obj
+ 0001:00001328       ?AddStopPoint@Engine@physics@@QAAJKJ@Z 10002328 f   PhysicsEngineCore:Engine.obj
+ 0001:00001380       ?SplitVelocityIntoComponents@Engine@physics@@CAJJKPAJ0PAN1@Z 10002380 f   PhysicsEngineCore:Engine.obj
+ 0001:0000157c       ?Flick@Engine@physics@@QAAJJK@Z 1000257c f   PhysicsEngineCore:Engine.obj
+ 0001:00001650       ?Init@Engine@physics@@QAAJPBUtagPHYSICSENGINEINIT@@@Z 10002650 f   PhysicsEngineCore:Engine.obj
+ 0001:00001924       ?erase@?$vector@PAVEngine@physics@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAAPAPAVEngine@physics@@PAPAV34@0@Z 10002924 f i PhysicsEngineCore:HandleManager.obj
+ 0001:00001974       ??$_Lower_bound@PAPAVEngine@physics@@PAV12@H@std@@YAPAPAVEngine@physics@@PAPAV12@0ABQAV12@PAH@Z 10002974 f i PhysicsEngineCore:HandleManager.obj
+ 0001:000019bc       ??$_Lower_bound@PBQAVEngine@physics@@PAV12@H@std@@YAPBQAVEngine@physics@@PBQAV12@0ABQAV12@PAH@Z 100029bc f i PhysicsEngineCore:HandleManager.obj
+ 0001:00001a04       ?erase@?$vector@PAVEngine@physics@@V?$reference_allocator@Vallocator@ce@@@details@ce@@U?$exponential_growth@$09@5@@ce@@QAAPAPAVEngine@physics@@PAPAV34@0@Z 10002a04 f i PhysicsEngineCore:HandleManager.obj
+ 0001:00001a54       ?GetPointerFromHandle@HandleManager@physics@@QBAPAVEngine@2@PAUHPHYSICSENGINE__@@@Z 10002a54 f   PhysicsEngineCore:HandleManager.obj
+ 0001:00001ad0       ?DestroyHandle@HandleManager@physics@@QAAHPAUHPHYSICSENGINE__@@@Z 10002ad0 f   PhysicsEngineCore:HandleManager.obj
+ 0001:00001b5c       ??0HandleManager@physics@@QAA@XZ 10002b5c f   PhysicsEngineCore:HandleManager.obj
+ 0001:00001b84       ??1HandleManager@physics@@QAA@XZ 10002b84 f   PhysicsEngineCore:HandleManager.obj
+ 0001:00001bb0       ??$_Insert_dispatch@PAVEngine@physics@@@?$vector@PAVEngine@physics@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@AAA_NPAPAVEngine@physics@@IABQAV23@ABUtrue_type@detail@1@@Z 10002bb0 f i PhysicsEngineCore:HandleManager.obj
+ 0001:00001e00       ??$insert@PAVEngine@physics@@@?$vector@PAVEngine@physics@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAAPAPAVEngine@physics@@PAPAV23@ABQAV23@@Z 10002e00 f i PhysicsEngineCore:HandleManager.obj
+ 0001:00001e4c       ?CreateObjectHandle@HandleManager@physics@@QAAPAUHPHYSICSENGINE__@@PAVEngine@2@@Z 10002e4c f   PhysicsEngineCore:HandleManager.obj
+ 0001:00001ef0       ?Pan@AxisEngine@physics@@QAAJJ@Z 10002ef0 f   PhysicsEngineCore:AxisEngine.obj
+ 0001:00001f44       ?Query@AxisEngine@physics@@QAAJKPAJ0PAH@Z 10002f44 f   PhysicsEngineCore:AxisEngine.obj
+ 0001:00002084       ?GetBoundaryTime@AxisEngine@physics@@QAAJPAK@Z 10003084 f   PhysicsEngineCore:AxisEngine.obj
+ 0001:000020c4       ??1AxisEngine@physics@@QAA@XZ 100030c4 f   PhysicsEngineCore:AxisEngine.obj
+ 0001:00002128       ??$swap@VPanningCore@physics@@@ce@@YAXAAV?$auto_ptr@VPanningCore@physics@@@0@0@Z 10003128 f i PhysicsEngineCore:AxisEngine.obj
+ 0001:00002184       ??$swap@VMovementCore@physics@@@ce@@YAXAAV?$auto_ptr@VMovementCore@physics@@@0@0@Z 10003184 f i PhysicsEngineCore:AxisEngine.obj
+ 0001:000021e0       ??$swap@VBoundaryCore@physics@@@ce@@YAXAAV?$auto_ptr@VBoundaryCore@physics@@@0@0@Z 100031e0 f i PhysicsEngineCore:AxisEngine.obj
+ 0001:0000223c       ??0AxisEngine@physics@@QAA@XZ 1000323c f   PhysicsEngineCore:AxisEngine.obj
+ 0001:00002274       ?swap@AxisEngine@physics@@QAAXAAV12@@Z 10003274 f   PhysicsEngineCore:AxisEngine.obj
+ 0001:00002384       ?Init@AxisEngine@physics@@QAAJJJJJEEH@Z 10003384 f   PhysicsEngineCore:AxisEngine.obj
+ 0001:00002518       ?Flick@AxisEngine@physics@@QAAJJN@Z 10003518 f   PhysicsEngineCore:AxisEngine.obj
+ 0001:00002bbc       ?AddStopPoint@AxisEngine@physics@@QAAJKJ@Z 10003bbc f   PhysicsEngineCore:AxisEngine.obj
+ 0001:00002ec0       ??_GPanningCore@physics@@UAAPAXI@Z 10003ec0 f i PhysicsEngineCore:RubberBandPanningCore.obj
+ 0001:00002ec0       ??_EPanningCore@physics@@UAAPAXI@Z 10003ec0 f i PhysicsEngineCore:RubberBandPanningCore.obj
+ 0001:00002ee4       ??0RubberBandPanningCore@physics@@QAA@XZ 10003ee4 f   PhysicsEngineCore:RubberBandPanningCore.obj
+ 0001:00002f2c       ?ForwardMapPositionExtension@RubberBandPanningCore@physics@@ABANN@Z 10003f2c f i PhysicsEngineCore:RubberBandPanningCore.obj
+ 0001:00002f78       ?ReverseMapPositionExtension@RubberBandPanningCore@physics@@ABANN@Z 10003f78 f i PhysicsEngineCore:RubberBandPanningCore.obj
+ 0001:00002fc4       ?IsLegalPosition@RubberBandPanningCore@physics@@ABAHN@Z 10003fc4 f   PhysicsEngineCore:RubberBandPanningCore.obj
+ 0001:00003040       ?Init@RubberBandPanningCore@physics@@UAAJNJJ@Z 10004040 f   PhysicsEngineCore:RubberBandPanningCore.obj
+ 0001:00003168       ?Move@RubberBandPanningCore@physics@@UAAJN@Z 10004168 f   PhysicsEngineCore:RubberBandPanningCore.obj
+ 0001:000031b8       ??_ERubberBandPanningCore@physics@@UAAPAXI@Z 100041b8 f i PhysicsEngineCore:RubberBandPanningCore.obj
+ 0001:000031b8       ??_GRubberBandPanningCore@physics@@UAAPAXI@Z 100041b8 f i PhysicsEngineCore:RubberBandPanningCore.obj
+ 0001:000031dc       ?QueryPosition@RubberBandPanningCore@physics@@UAAJPAN@Z 100041dc f   PhysicsEngineCore:RubberBandPanningCore.obj
+ 0001:000032a0       ?MapVelocity@RubberBandPanningCore@physics@@UAAJNPAN@Z 100042a0 f   PhysicsEngineCore:RubberBandPanningCore.obj
+ 0001:000033b8       ??0BoundedPanningCore@physics@@QAA@XZ 100043b8 f   PhysicsEngineCore:BoundedPanningCore.obj
+ 0001:000033e0       ?Init@BoundedPanningCore@physics@@UAAJNJJ@Z 100043e0 f   PhysicsEngineCore:BoundedPanningCore.obj
+ 0001:0000342c       ?Move@BoundedPanningCore@physics@@UAAJN@Z 1000442c f   PhysicsEngineCore:BoundedPanningCore.obj
+ 0001:00003474       ??_GBoundedPanningCore@physics@@UAAPAXI@Z 10004474 f i PhysicsEngineCore:BoundedPanningCore.obj
+ 0001:00003474       ??_EBoundedPanningCore@physics@@UAAPAXI@Z 10004474 f i PhysicsEngineCore:BoundedPanningCore.obj
+ 0001:00003498       ?QueryPosition@BoundedPanningCore@physics@@UAAJPAN@Z 10004498 f   PhysicsEngineCore:BoundedPanningCore.obj
+ 0001:000034c4       ?MapVelocity@BoundedPanningCore@physics@@UAAJNPAN@Z 100044c4 f   PhysicsEngineCore:BoundedPanningCore.obj
+ 0001:000034ec       ??_GBoundaryCore@physics@@UAAPAXI@Z 100044ec f i PhysicsEngineCore:boundarycore.obj
+ 0001:000034ec       ??_EBoundaryCore@physics@@UAAPAXI@Z 100044ec f i PhysicsEngineCore:boundarycore.obj
+ 0001:00003510       ??0NullBoundaryCore@physics@@QAA@XZ 10004510 f   PhysicsEngineCore:boundarycore.obj
+ 0001:00003534       ?Init@NullBoundaryCore@physics@@UAAJNNNNJJ@Z 10004534 f   PhysicsEngineCore:boundarycore.obj
+ 0001:00003548       ??_ENullBoundaryCore@physics@@UAAPAXI@Z 10004548 f i PhysicsEngineCore:boundarycore.obj
+ 0001:00003548       ??_GNullBoundaryCore@physics@@UAAPAXI@Z 10004548 f i PhysicsEngineCore:boundarycore.obj
+ 0001:0000356c       ?Query@NullBoundaryCore@physics@@UAAJKPAN0PAH@Z 1000456c f   PhysicsEngineCore:boundarycore.obj
+ 0001:000035d0       ??0RubberBandCore@physics@@QAA@XZ 100045d0 f   PhysicsEngineCore:RubberBandCore.obj
+ 0001:0000365c       ?Init@RubberBandCore@physics@@UAAJNNNNJJ@Z 1000465c f   PhysicsEngineCore:RubberBandCore.obj
+ 0001:0000369c       ?GetOffset@RubberBandCore@physics@@ABANK@Z 1000469c f   PhysicsEngineCore:RubberBandCore.obj
+ 0001:00003718       ?GetVelocity@RubberBandCore@physics@@ABANK@Z 10004718 f   PhysicsEngineCore:RubberBandCore.obj
+ 0001:00003798       ?IsComplete@RubberBandCore@physics@@ABAHK@Z 10004798 f   PhysicsEngineCore:RubberBandCore.obj
+ 0001:00003874       ??_GRubberBandCore@physics@@UAAPAXI@Z 10004874 f i PhysicsEngineCore:RubberBandCore.obj
+ 0001:00003874       ??_ERubberBandCore@physics@@UAAPAXI@Z 10004874 f i PhysicsEngineCore:RubberBandCore.obj
+ 0001:00003898       ?Query@RubberBandCore@physics@@UAAJKPAN0PAH@Z 10004898 f   PhysicsEngineCore:RubberBandCore.obj
+ 0001:0000392c       ??0BounceCore@physics@@QAA@XZ 1000492c f   PhysicsEngineCore:BounceCore.obj
+ 0001:000039c8       ?GetOffset@BounceCore@physics@@ABANK@Z 100049c8 f   PhysicsEngineCore:BounceCore.obj
+ 0001:00003a48       ?GetVelocity@BounceCore@physics@@ABANK@Z 10004a48 f   PhysicsEngineCore:BounceCore.obj
+ 0001:00003acc       ??_EBounceCore@physics@@UAAPAXI@Z 10004acc f i PhysicsEngineCore:BounceCore.obj
+ 0001:00003acc       ??_GBounceCore@physics@@UAAPAXI@Z 10004acc f i PhysicsEngineCore:BounceCore.obj
+ 0001:00003af0       ?Init@BounceCore@physics@@UAAJNNNNJJ@Z 10004af0 f   PhysicsEngineCore:BounceCore.obj
+ 0001:00003c6c       ?Query@BounceCore@physics@@UAAJKPAN0PAH@Z 10004c6c f   PhysicsEngineCore:BounceCore.obj
+ 0001:00003d18       ??_EMovementCore@physics@@UAAPAXI@Z 10004d18 f i PhysicsEngineCore:DecelerateCore.obj
+ 0001:00003d18       ??_GMovementCore@physics@@UAAPAXI@Z 10004d18 f i PhysicsEngineCore:DecelerateCore.obj
+ 0001:00003d3c       ??0DecelerateCore@physics@@QAA@XZ 10004d3c f   PhysicsEngineCore:DecelerateCore.obj
+ 0001:00003de0       ?GetStopThresholdVelocity@DecelerateCore@physics@@SAKXZ 10004de0 f   PhysicsEngineCore:DecelerateCore.obj
+ 0001:00003e50       ?Init@DecelerateCore@physics@@UAAJNNN@Z 10004e50 f   PhysicsEngineCore:DecelerateCore.obj
+ 0001:00003fe0       ?GetOffset@DecelerateCore@physics@@ABANK@Z 10004fe0 f   PhysicsEngineCore:DecelerateCore.obj
+ 0001:0000409c       ?GetVelocity@DecelerateCore@physics@@ABANK@Z 1000509c f   PhysicsEngineCore:DecelerateCore.obj
+ 0001:0000414c       ??_GDecelerateCore@physics@@UAAPAXI@Z 1000514c f i PhysicsEngineCore:DecelerateCore.obj
+ 0001:0000414c       ??_EDecelerateCore@physics@@UAAPAXI@Z 1000514c f i PhysicsEngineCore:DecelerateCore.obj
+ 0001:00004170       ?Query@DecelerateCore@physics@@UAAJKPAN0PAH@Z 10005170 f   PhysicsEngineCore:DecelerateCore.obj
+ 0001:00004204       ?GetTimeToReach@DecelerateCore@physics@@UAAJJPAK@Z 10005204 f   PhysicsEngineCore:DecelerateCore.obj
+ 0001:00004368       ?GetDirection@DecelerateCore@physics@@UAAJPAW4Direction@MovementCore@2@@Z 10005368 f   PhysicsEngineCore:DecelerateCore.obj
+ 0001:000043bc       ?MakeSnappingBoundaryAnimation@DecelerateCore@physics@@UAAJKJJJPAPAVBoundaryCore@2@PAK@Z 100053bc f   PhysicsEngineCore:DecelerateCore.obj
+ 0001:0000457c       ??0NullMovementCore@physics@@QAA@XZ 1000557c f   PhysicsEngineCore:MovementCore.obj
+ 0001:000045b4       ?Init@NullMovementCore@physics@@UAAJNNN@Z 100055b4 f   PhysicsEngineCore:MovementCore.obj
+ 0001:000045dc       ??_GNullMovementCore@physics@@UAAPAXI@Z 100055dc f i PhysicsEngineCore:MovementCore.obj
+ 0001:000045dc       ??_ENullMovementCore@physics@@UAAPAXI@Z 100055dc f i PhysicsEngineCore:MovementCore.obj
+ 0001:00004600       ?Query@NullMovementCore@physics@@UAAJKPAN0PAH@Z 10005600 f   PhysicsEngineCore:MovementCore.obj
+ 0001:00004664       ?GetTimeToReach@NullMovementCore@physics@@UAAJJPAK@Z 10005664 f   PhysicsEngineCore:MovementCore.obj
+ 0001:000046b4       ?GetDirection@NullMovementCore@physics@@UAAJPAW4Direction@MovementCore@2@@Z 100056b4 f   PhysicsEngineCore:MovementCore.obj
+ 0001:000046dc       ?MakeSnappingBoundaryAnimation@NullMovementCore@physics@@UAAJKJJJPAPAVBoundaryCore@2@PAK@Z 100056dc f   PhysicsEngineCore:MovementCore.obj
+ 0001:000047e0       ??0BoundedDecelerateCore@physics@@QAA@XZ 100057e0 f   PhysicsEngineCore:BoundedDecelerateCore.obj
+ 0001:00004824       ?GetOffset@BoundedDecelerateCore@physics@@ABANK@Z 10005824 f   PhysicsEngineCore:BoundedDecelerateCore.obj
+ 0001:000048e0       ?GetVelocity@BoundedDecelerateCore@physics@@ABANK@Z 100058e0 f   PhysicsEngineCore:BoundedDecelerateCore.obj
+ 0001:00004990       ??_GBoundedDecelerateCore@physics@@UAAPAXI@Z 10005990 f i PhysicsEngineCore:BoundedDecelerateCore.obj
+ 0001:00004990       ??_EBoundedDecelerateCore@physics@@UAAPAXI@Z 10005990 f i PhysicsEngineCore:BoundedDecelerateCore.obj
+ 0001:000049b4       ?Init@BoundedDecelerateCore@physics@@UAAJNNNNJJ@Z 100059b4 f   PhysicsEngineCore:BoundedDecelerateCore.obj
+ 0001:00004bbc       ?Query@BoundedDecelerateCore@physics@@UAAJKPAN0PAH@Z 10005bbc f   PhysicsEngineCore:BoundedDecelerateCore.obj
+ 0001:00004c50       ?GetDisplayDPI@?A0xd7a05511@@YAKXZ 10005c50 f   TouchUtil:DPIConversion.obj
+ 0001:00004d64       ConvertConfigUnitsToPixels 10005d64 f   TouchUtil:DPIConversion.obj
+ 0001:00004dcc       DisableThreadLibraryCalls  10005dcc f   coredll:COREDLL.dll
+ 0001:00004ddc       InterlockedDecrement       10005ddc f   coredll:COREDLL.dll
+ 0001:00004dec       InterlockedIncrement       10005dec f   coredll:COREDLL.dll
+ 0001:00004dfc       CePerfDLLCleanup           10005dfc f   coredll:COREDLL.dll
+ 0001:00004e0c       CePerfDLLSetup             10005e0c f   coredll:COREDLL.dll
+ 0001:00004e1c       RegCloseKey                10005e1c f   coredll:COREDLL.dll
+ 0001:00004e2c       RegQueryValueExW           10005e2c f   coredll:COREDLL.dll
+ 0001:00004e3c       RegOpenKeyExW              10005e3c f   coredll:COREDLL.dll
+ 0001:00004e4c       InitializeCriticalSection  10005e4c f   coredll:COREDLL.dll
+ 0001:00004e5c       DeleteCriticalSection      10005e5c f   coredll:COREDLL.dll
+ 0001:00004e6c       GetTickCount               10005e6c f   coredll:COREDLL.dll
+ 0001:00004e7c       EnterCriticalSection       10005e7c f   coredll:COREDLL.dll
+ 0001:00004e8c       LeaveCriticalSection       10005e8c f   coredll:COREDLL.dll
+ 0001:00004e9c       SetLastError               10005e9c f   coredll:COREDLL.dll
+ 0001:00004eac       ReleaseDC                  10005eac f   coredll:COREDLL.dll
+ 0001:00004ebc       GetDeviceCaps              10005ebc f   coredll:COREDLL.dll
+ 0001:00004ecc       GetDC                      10005ecc f   coredll:COREDLL.dll
+ 0001:00004edc       _DllEntryCRTStartup        10005edc f   corelib0:pegdentry.obj
+ 0001:00004f20       __GSHandlerCheckCommon     10005f20 f   corelib0:gshandler.obj
+ 0001:00004f5c       __GSHandlerCheck           10005f5c f   corelib0:gshandler.obj
+ 0001:00004f7c       __security_init_cookie     10005f7c f   corelib0:seccinit.obj
+ 0001:00004fc8       __security_check_cookie    10005fc8 f   corelib0:armsecgs.obj
+ 0001:00004fd8       __gsfailure                10005fd8     corelib0:armsecgs.obj
+ 0001:00005024       _onexit                    10006024 f   corelib0:onexit.obj
+ 0001:000051a8       atexit                     100061a8 f   corelib0:onexit.obj
+ 0001:000052a8       _cexit                     100062a8 f   corelib0:cexit.obj
+ 0001:000052b8       _initterm                  100062b8 f   corelib0:crt0dat.obj
+ 0001:000052e4       _cinit                     100062e4 f   corelib0:crt0dat.obj
+ 0001:00005344       __crt_ExitProcess          10006344 f   corelib0:exitproc_proxy.obj
+ 0001:00005350       __C_specific_handler       10006350 f   corelib1:COREDLL.dll
+ 0001:00005360       memset                     10006360 f   corelib1:COREDLL.dll
+ 0001:00005370       memcpy                     10006370 f   corelib1:COREDLL.dll
+ 0001:00005380       ??3@YAXPAX@Z               10006380 f   corelib1:COREDLL.dll
+ 0001:00005390       ??2@YAPAXI@Z               10006390 f   corelib1:COREDLL.dll
+ 0001:000053a0       _purecall                  100063a0 f   corelib1:COREDLL.dll
+ 0001:000053b0       __security_gen_cookie2     100063b0 f   corelib1:COREDLL.dll
+ 0001:000053c0       __report_gsfailure         100063c0 f   corelib1:COREDLL.dll
+ 0001:000053d0       free                       100063d0 f   corelib1:COREDLL.dll
+ 0001:000053e0       malloc                     100063e0 f   corelib1:COREDLL.dll
+ 0001:000053f0       realloc                    100063f0 f   corelib1:COREDLL.dll
+ 0001:00005400       _msize                     10006400 f   corelib1:COREDLL.dll
+ 0001:00005410       InterlockedCompareExchange 10006410 f   coredll:COREDLL.dll
+ 0001:00005420       InterlockedExchange        10006420 f   coredll:COREDLL.dll
+ 0001:00005430       TerminateProcess           10006430 f   coredll:COREDLL.dll
+ 0001:00005470       ??__Fcs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@YAXXZ 10006470 f i PhysicsEngineCore:api.obj
+ 0001:000054f8       __IMPORT_DESCRIPTOR_COREDLL 100064f8     coredll:COREDLL.dll
+ 0001:0000550c       __NULL_IMPORT_DESCRIPTOR   1000650c     coredll:COREDLL.dll
+ 0002:00000000       __imp_DisableThreadLibraryCalls 10007000     coredll:COREDLL.dll
+ 0002:00000004       __imp_InterlockedDecrement 10007004     coredll:COREDLL.dll
+ 0002:00000008       __imp_InterlockedIncrement 10007008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_CePerfDLLCleanup     1000700c     coredll:COREDLL.dll
+ 0002:00000010       __imp_CePerfDLLSetup       10007010     coredll:COREDLL.dll
+ 0002:00000014       __imp_RegCloseKey          10007014     coredll:COREDLL.dll
+ 0002:00000018       __imp_RegQueryValueExW     10007018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_RegOpenKeyExW        1000701c     coredll:COREDLL.dll
+ 0002:00000020       __imp_InitializeCriticalSection 10007020     coredll:COREDLL.dll
+ 0002:00000024       __imp_DeleteCriticalSection 10007024     coredll:COREDLL.dll
+ 0002:00000028       __imp_GetTickCount         10007028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_EnterCriticalSection 1000702c     coredll:COREDLL.dll
+ 0002:00000030       __imp_LeaveCriticalSection 10007030     coredll:COREDLL.dll
+ 0002:00000034       __imp_SetLastError         10007034     coredll:COREDLL.dll
+ 0002:00000038       __imp_ReleaseDC            10007038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_GetDeviceCaps        1000703c     coredll:COREDLL.dll
+ 0002:00000040       __imp_GetDC                10007040     coredll:COREDLL.dll
+ 0002:00000044       __imp___C_specific_handler 10007044     corelib1:COREDLL.dll
+ 0002:00000048       __imp_memset               10007048     corelib1:COREDLL.dll
+ 0002:0000004c       __imp_memcpy               1000704c     corelib1:COREDLL.dll
+ 0002:00000050       __imp_??3@YAXPAX@Z         10007050     corelib1:COREDLL.dll
+ 0002:00000054       __imp_??2@YAPAXI@Z         10007054     corelib1:COREDLL.dll
+ 0002:00000058       __imp___rt_sdiv            10007058     corelib1:COREDLL.dll
+ 0002:0000005c       __imp_sin                  1000705c     corelib1:COREDLL.dll
+ 0002:00000060       __imp_cos                  10007060     corelib1:COREDLL.dll
+ 0002:00000064       __imp__purecall            10007064     corelib1:COREDLL.dll
+ 0002:00000068       __imp_exp                  10007068     corelib1:COREDLL.dll
+ 0002:0000006c       __imp_log                  1000706c     corelib1:COREDLL.dll
+ 0002:00000070       __imp___rt_udiv            10007070     corelib1:COREDLL.dll
+ 0002:00000074       __imp_ceil                 10007074     corelib1:COREDLL.dll
+ 0002:00000078       __imp_pow                  10007078     corelib1:COREDLL.dll
+ 0002:0000007c       __imp_floor                1000707c     corelib1:COREDLL.dll
+ 0002:00000080       __imp___security_gen_cookie2 10007080     corelib1:COREDLL.dll
+ 0002:00000084       __imp___report_gsfailure   10007084     corelib1:COREDLL.dll
+ 0002:00000088       __imp_free                 10007088     corelib1:COREDLL.dll
+ 0002:0000008c       __imp_malloc               1000708c     corelib1:COREDLL.dll
+ 0002:00000090       __imp_realloc              10007090     corelib1:COREDLL.dll
+ 0002:00000094       __imp__msize               10007094     corelib1:COREDLL.dll
+ 0002:00000098       __imp_InterlockedCompareExchange 10007098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_InterlockedExchange  1000709c     coredll:COREDLL.dll
+ 0002:000000a0       __imp_TerminateProcess     100070a0     coredll:COREDLL.dll
+ 0002:000000a4       \177COREDLL_NULL_THUNK_DATA 100070a4     coredll:COREDLL.dll
+ 0002:000000a8       ?s_rgPerfItems@?A0xbffcdf1e@@3PAU_CEPERF_BASIC_ITEM_DESCRIPTOR@@A 100070a8     PhysicsEngineCore:utils.obj
+ 0002:000000d8       ?s_hPerfSession@?A0xbffcdf1e@@3PAXA 100070d8     PhysicsEngineCore:utils.obj
+ 0002:000000dc       ?g_fCacheConfigSettings@?A0xbffcdf1e@@3HA 100070dc     PhysicsEngineCore:utils.obj
+ 0002:000000e0       ?s_cConfigValues@?A0xbffcdf1e@@3PAUConfigValueHolder@1@A 100070e0     PhysicsEngineCore:utils.obj
+ 0002:0000016c       __security_cookie          1000716c     corelib0:seccinit.obj
+ 0002:00000170       __security_cookie_complement 10007170     corelib0:seccinit.obj
+ 0002:00000174       pCePerfInternal            10007174     PhysicsEngineCore:utils.obj
+ 0002:00000178       ?g_fConfigSettingsRead@?A0xbffcdf1e@@3HA 10007178     PhysicsEngineCore:utils.obj
+ 0002:0000017c       ??_B?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@51 1000717c     PhysicsEngineCore:api.obj
+ 0002:00000180       ?cs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@3@XZ@4V43@A 10007180     PhysicsEngineCore:api.obj
+ 0002:00000194       ?g_handleManager@?A0x4ecaccae@@3VHandleManager@physics@@A 10007194     PhysicsEngineCore:api.obj
+ 0002:000001b4       ?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A 100071b4     PhysicsEngineCore:api.obj
+ 0002:000001b8       ?g_dwMaximumStopVelocityPixelsPerSecond@?A0x1d6cf675@@3KA 100071b8     PhysicsEngineCore:DecelerateCore.obj
+ 0002:000001bc       ?s_dwDisplayDPI@?A0xd7a05511@@3KA 100071bc     TouchUtil:DPIConversion.obj
+ 0002:000001c0       _exitflag                  100071c0     corelib0:cexit.obj
+ 0002:000001c4       __onexitend                100071c4     <common>
+ 0002:000001c8       __onexitbegin              100071c8     <common>
+ 0002:000001cc       g_pcsExit                  100071cc     <common>
+
+ entry point at        0001:00004edc
+
+ Static symbols
+
+ 0001:000051c0       doexit                     100061c0 f   corelib0:cexit.obj
+ 0001:00005440       ??__E?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A@@YAXXZ 10006440 f   PhysicsEngineCore:api.obj
+ 0001:00005444       ??__Eg_handleManager@?A0x4ecaccae@@YAXXZ 10006444 f   PhysicsEngineCore:api.obj
+ 0001:00005464       ??__Fg_handleManager@?A0x4ecaccae@@YAXXZ 10006464 f   PhysicsEngineCore:api.obj

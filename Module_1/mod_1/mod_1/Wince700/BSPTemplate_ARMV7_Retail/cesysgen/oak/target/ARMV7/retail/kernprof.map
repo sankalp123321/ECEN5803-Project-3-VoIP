@@ -1,0 +1,1788 @@
+ kernprof
+
+ Timestamp is 618b1581 (Tue Nov 09 17:42:41 2021)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000060aeH .rdata                  CODE
+ 0001:000060b0 00000025H .rdata$debug            CODE
+ 0001:000060e0 0004299cH .text                   CODE
+ 0001:00048a7c 00000424H .xdata                  CODE
+ 0001:00048ea0 00000000H .edata                  CODE
+ 0002:00000000 00000584H .data                   DATA
+ 0002:000005a0 00002cacH .bss                    DATA
+ 0003:00000000 00002710H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:0000001c       ??_C@_0O@PBFIPPIF@FPU?5Exception?$AA@ 1000101c     kernprof_ALL:mdarm.obj
+ 0001:0000002c       ??_C@_03PEDPKBJP@IRQ?$AA@  1000102c     kernprof_ALL:mdarm.obj
+ 0001:00000030       ??_C@_0L@OKOKFKCN@Data?5Abort?$AA@ 10001030     kernprof_ALL:mdarm.obj
+ 0001:0000003c       ??_C@_0P@FGOOPFHB@Prefetch?5Abort?$AA@ 1000103c     kernprof_ALL:mdarm.obj
+ 0001:0000004c       ??_C@_03EPELEMNG@SWI?$AA@  1000104c     kernprof_ALL:mdarm.obj
+ 0001:00000050       ??_C@_0BG@HNOLGILN@Undefined?5Instruction?$AA@ 10001050     kernprof_ALL:mdarm.obj
+ 0001:00000068       ??_C@_0L@JNFKANGE@Reschedule?$AA@ 10001068     kernprof_ALL:mdarm.obj
+ 0001:00000078       NKCpuType                  10001078     kernprof_ALL:mdarm.obj
+ 0001:00000080       NKSignon                   10001080     kernprof_ALL:mdarm.obj
+ 0001:000000d8       g_ppszMDExcpId             100010d8     kernprof_ALL:mdarm.obj
+ 0001:000000f8       ??_C@_1JO@LECFKHDN@?$AAM?$AAD?$AAV?$AAa?$AAl?$AAi?$AAd?$AAa?$AAt?$AAe?$AAR?$AAo?$AAm?$AAC?$AAh?$AAa?$AAi?$AAn?$AA?3?$AA?5?$AAX?$AAI?$AAP?$AA?5?$AA?$CI?$AA?$CF?$AA8?$AA?4?$AA8?$AAl?$AAx?$AA?5@ 100010f8     kernprof_ALL:mdarm.obj
+ 0001:00000198       ??_C@_1KC@BMFAGHKA@?$AAM?$AAD?$AAV?$AAa?$AAl?$AAi?$AAd?$AAa?$AAt?$AAe?$AAR?$AAo?$AAm?$AAC?$AAh?$AAa?$AAi?$AAn?$AA?3?$AA?5?$AAX?$AAI?$AAP?$AA?5?$AA?$CI?$AA?$CF?$AA8?$AA?4?$AA8?$AAl?$AAx?$AA?5@ 10001198     kernprof_ALL:mdarm.obj
+ 0001:00000240       ??_C@_1FM@NAHAPGGI@?$AA?5?$AAR?$AA0?$AA?$DN?$AA?$CF?$AA8?$AA?4?$AA8?$AAl?$AAx?$AA?5?$AA?5?$AAR?$AA1?$AA?$DN?$AA?$CF?$AA8?$AA?4?$AA8?$AAl?$AAx?$AA?5?$AA?5?$AAR?$AA2?$AA?$DN?$AA?$CF?$AA8?$AA?4?$AA8?$AAl?$AAx@ 10001240     kernprof_ALL:mdarm.obj
+ 0001:000002a0       ??_C@_1FM@FMMCBAPI@?$AA?5?$AAR?$AA4?$AA?$DN?$AA?$CF?$AA8?$AA?4?$AA8?$AAl?$AAx?$AA?5?$AA?5?$AAR?$AA5?$AA?$DN?$AA?$CF?$AA8?$AA?4?$AA8?$AAl?$AAx?$AA?5?$AA?5?$AAR?$AA6?$AA?$DN?$AA?$CF?$AA8?$AA?4?$AA8?$AAl?$AAx@ 100012a0     kernprof_ALL:mdarm.obj
+ 0001:00000300       ??_C@_1FM@NPIFPEMG@?$AA?5?$AAR?$AA8?$AA?$DN?$AA?$CF?$AA8?$AA?4?$AA8?$AAl?$AAx?$AA?5?$AA?5?$AAR?$AA9?$AA?$DN?$AA?$CF?$AA8?$AA?4?$AA8?$AAl?$AAx?$AA?5?$AAR?$AA1?$AA0?$AA?$DN?$AA?$CF?$AA8?$AA?4?$AA8?$AAl?$AAx@ 10001300     kernprof_ALL:mdarm.obj
+ 0001:00000360       ??_C@_1HC@FCCDLBII@?$AAR?$AA1?$AA2?$AA?$DN?$AA?$CF?$AA8?$AA?4?$AA8?$AAl?$AAx?$AA?5?$AA?5?$AAS?$AAP?$AA?$DN?$AA?$CF?$AA8?$AA?4?$AA8?$AAl?$AAx?$AA?5?$AA?5?$AAL?$AAr?$AA?$DN?$AA?$CF?$AA8?$AA?4?$AA8?$AAl?$AAx@ 10001360     kernprof_ALL:mdarm.obj
+ 0001:000003d8       ??_C@_1LA@NLOLMPPA@?$AAE?$AAx?$AAc?$AAe?$AAp?$AAt?$AAi?$AAo?$AAn?$AA?5?$AA?8?$AA?$CF?$AAa?$AA?8?$AA?$CI?$AA?$CF?$AAd?$AA?$CJ?$AA?5?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AA?9?$AAI?$AAd?$AA?$DN?$AA?$CF?$AA8?$AA?4@ 100013d8     kernprof_ALL:mdarm.obj
+ 0001:00000488       ??_C@_1IO@MIDLGFH@?$AAE?$AAx?$AAc?$AAe?$AAp?$AAt?$AAi?$AAo?$AAn?$AA?5?$AA?8?$AA?$CF?$AAa?$AA?8?$AA?$CI?$AA?$CF?$AAd?$AA?$CJ?$AA?5?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AA?9?$AAI?$AAd?$AA?$DN?$AA?$CF?$AA8?$AA?4@ 10001488     kernprof_ALL:mdarm.obj
+ 0001:00000518       ??_C@_08CNEFJDHP@kitl?4dll?$AA@ 10001518     kernprof_ALL:mdarm.obj
+ 0001:00000528       ??_C@_1EE@OPMNEMGC@?$AAW?$AAa?$AAi?$AAt?$AAF?$AAo?$AAr?$AAO?$AAn?$AAe?$AAM?$AAa?$AAn?$AAu?$AAa?$AAl?$AAN?$AAo?$AAn?$AAI?$AAn?$AAt?$AAe?$AAr?$AAr?$AAu?$AAp?$AAt?$AAE?$AAv?$AAe?$AAn@ 10001528     kernprof_ALL:profiler.obj
+ 0001:0000056c       ??_C@_1CC@GJKDNKBL@?$AAC?$AAe?$AAL?$AAo?$AAg?$AAF?$AAl?$AAu?$AAs?$AAh?$AAB?$AAu?$AAf?$AAf?$AAe?$AAr?$AA?$AA@ 1000156c     kernprof_ALL:profiler.obj
+ 0001:00000590       ??_C@_1BI@JEKDDBKO@?$AAC?$AAe?$AAL?$AAo?$AAg?$AAR?$AAe?$AAS?$AAy?$AAn?$AAc?$AA?$AA@ 10001590     kernprof_ALL:profiler.obj
+ 0001:000005a8       ??_C@_1DA@EFNNIJEN@?$AAx?$AA8?$AA6?$AA?3?$AAS?$AAe?$AAt?$AAC?$AAP?$AAU?$AAH?$AAa?$AAr?$AAd?$AAw?$AAa?$AAr?$AAe?$AAW?$AAa?$AAt?$AAc?$AAh?$AA?$AA@ 100015a8     kernprof_ALL:profiler.obj
+ 0001:000005d8       ??_C@_1DC@GHDJNJAH@?$AAx?$AA8?$AA6?$AA?3?$AAI?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AAa?$AAt?$AAe?$AAP?$AAa?$AAg?$AAe?$AAT?$AAa?$AAb?$AAl?$AAe?$AAs?$AA?$AA@ 100015d8     kernprof_ALL:profiler.obj
+ 0001:0000060c       ??_C@_1CI@EPOILNLL@?$AAx?$AA8?$AA6?$AA?3?$AAI?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz?$AAe?$AAE?$AAm?$AAx?$AA8?$AA7?$AA?$AA@ 1000160c     kernprof_ALL:profiler.obj
+ 0001:00000634       ??_C@_1CE@PJMPNDLP@?$AAx?$AA8?$AA6?$AA?3?$AAI?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz?$AAe?$AAF?$AAP?$AAU?$AA?$AA@ 10001634     kernprof_ALL:profiler.obj
+ 0001:00000658       ??_C@_1CG@HHJLGFLK@?$AAS?$AAH?$AAx?$AA?3?$AAS?$AAw?$AAi?$AAt?$AAc?$AAh?$AAD?$AAS?$AAP?$AAO?$AAw?$AAn?$AAe?$AAr?$AA?$AA@ 10001658     kernprof_ALL:profiler.obj
+ 0001:00000680       ??_C@_1CC@HMAIIGOA@?$AAD?$AAo?$AAL?$AAe?$AAa?$AAv?$AAe?$AAS?$AAo?$AAm?$AAe?$AAt?$AAh?$AAi?$AAn?$AAg?$AA?$AA@ 10001680     kernprof_ALL:profiler.obj
+ 0001:000006a4       ??_C@_1CI@FJMGJMEL@?$AAS?$AAC?$AAH?$AAL?$AA_?$AAA?$AAd?$AAj?$AAu?$AAs?$AAt?$AAP?$AAr?$AAi?$AAo?$AAD?$AAo?$AAw?$AAn?$AA?$AA@ 100016a4     kernprof_ALL:profiler.obj
+ 0001:000006cc       ??_C@_1CM@BIGNKIDA@?$AAC?$AAo?$AAm?$AAm?$AAo?$AAn?$AAH?$AAa?$AAn?$AAd?$AAl?$AAe?$AAE?$AAx?$AAc?$AAe?$AAp?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 100016cc     kernprof_ALL:profiler.obj
+ 0001:000006f8       ??_C@_1BI@NAGCLOGF@?$AAS?$AAu?$AAs?$AAp?$AAe?$AAn?$AAd?$AAS?$AAe?$AAl?$AAf?$AA?$AA@ 100016f8     kernprof_ALL:profiler.obj
+ 0001:00000710       ??_C@_1DE@EMODMHHM@?$AAA?$AAR?$AAM?$AA?3?$AAI?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AAa?$AAt?$AAe?$AAS?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AAT?$AAL?$AAB?$AA?$AA@ 10001710     kernprof_ALL:profiler.obj
+ 0001:00000744       ??_C@_1BO@HAPPLPGE@?$AAx?$AA8?$AA6?$AA?3?$AAS?$AAe?$AAt?$AAC?$AAP?$AAU?$AAA?$AAS?$AAI?$AAD?$AA?$AA@ 10001744     kernprof_ALL:profiler.obj
+ 0001:00000764       ??_C@_1BO@LMMHDIOD@?$AAS?$AAw?$AAi?$AAt?$AAc?$AAh?$AAF?$AAP?$AAU?$AAO?$AAw?$AAn?$AAe?$AAr?$AA?$AA@ 10001764     kernprof_ALL:profiler.obj
+ 0001:00000784       ??_C@_1DK@HBAEKENJ@?$AAS?$AAC?$AAH?$AAL?$AA_?$AAB?$AAo?$AAo?$AAs?$AAt?$AAM?$AAu?$AAt?$AAe?$AAx?$AAO?$AAw?$AAn?$AAe?$AAr?$AAP?$AAr?$AAi?$AAo?$AAr?$AAi?$AAt?$AAy?$AA?$AA@ 10001784     kernprof_ALL:profiler.obj
+ 0001:000007c0       ??_C@_1CK@CMMLCJCF@?$AAS?$AAC?$AAH?$AAL?$AA_?$AAM?$AAu?$AAt?$AAe?$AAx?$AAF?$AAi?$AAn?$AAa?$AAl?$AAB?$AAo?$AAo?$AAs?$AAt?$AA?$AA@ 100017c0     kernprof_ALL:profiler.obj
+ 0001:000007ec       ??_C@_1CC@FAGNFCPB@?$AAS?$AAC?$AAH?$AAL?$AA_?$AAC?$AAS?$AAW?$AAa?$AAi?$AAt?$AAP?$AAa?$AAr?$AAt?$AA2?$AA?$AA@ 100017ec     kernprof_ALL:profiler.obj
+ 0001:00000810       ??_C@_1BI@JNBAAJCC@?$AAO?$AAa?$AAl?$AAS?$AAp?$AAi?$AAn?$AAL?$AAo?$AAc?$AAk?$AA?$AA@ 10001810     kernprof_ALL:profiler.obj
+ 0001:00000828       ??_C@_1BG@NGAHGFKC@?$AAO?$AAD?$AAS?$AAI?$AAn?$AAK?$AAC?$AAa?$AAl?$AAl?$AA?$AA@ 10001828     kernprof_ALL:profiler.obj
+ 0001:00000840       ??_C@_1BC@OEJJMBGC@?$AAn?$AAo?$AAt?$AA?5?$AAu?$AAs?$AAe?$AAd?$AA?$AA@ 10001840     kernprof_ALL:profiler.obj
+ 0001:00000854       ??_C@_1CM@GECIBNFJ@?$AAS?$AAC?$AAH?$AAL?$AA_?$AAD?$AAe?$AAq?$AAu?$AAe?$AAu?$AAe?$AAF?$AAl?$AAa?$AAt?$AAP?$AAr?$AAo?$AAx?$AAy?$AA?$AA@ 10001854     kernprof_ALL:profiler.obj
+ 0001:00000880       ??_C@_1CK@EMJLDMJH@?$AAS?$AAC?$AAH?$AAL?$AA_?$AAP?$AAr?$AAe?$AAR?$AAe?$AAl?$AAe?$AAa?$AAs?$AAe?$AAM?$AAu?$AAt?$AAe?$AAx?$AA?$AA@ 10001880     kernprof_ALL:profiler.obj
+ 0001:000008ac       ??_C@_1CO@EAJLAGFF@?$AAS?$AAC?$AAH?$AAL?$AA_?$AAP?$AAo?$AAs?$AAt?$AAU?$AAn?$AAl?$AAi?$AAn?$AAk?$AAC?$AAr?$AAi?$AAt?$AAM?$AAu?$AAt?$AA?$AA@ 100018ac     kernprof_ALL:profiler.obj
+ 0001:000008dc       ??_C@_1CC@OLHENPMD@?$AAP?$AAr?$AAe?$AAU?$AAn?$AAl?$AAi?$AAn?$AAk?$AAC?$AAr?$AAi?$AAt?$AAM?$AAu?$AAt?$AA?$AA@ 100018dc     kernprof_ALL:profiler.obj
+ 0001:00000900       ??_C@_1CC@DNLLNIAF@?$AAL?$AAa?$AAt?$AAe?$AAr?$AAL?$AAi?$AAn?$AAk?$AAC?$AAr?$AAi?$AAt?$AAM?$AAu?$AAt?$AA?$AA@ 10001900     kernprof_ALL:profiler.obj
+ 0001:00000924       ??_C@_1BK@JKPPEMEM@?$AAC?$AAh?$AAe?$AAc?$AAk?$AAL?$AAa?$AAs?$AAt?$AAR?$AAe?$AAf?$AA?$AA@ 10001924     kernprof_ALL:profiler.obj
+ 0001:00000940       ??_C@_1CO@JFDPDIEB@?$AAS?$AAC?$AAH?$AAL?$AA_?$AAG?$AAe?$AAt?$AAC?$AAu?$AAr?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AAK?$AAT?$AAi?$AAm?$AAe?$AA?$AA@ 10001940     kernprof_ALL:profiler.obj
+ 0001:00000970       ??_C@_1CE@LNFALDGP@?$AAS?$AAC?$AAH?$AAL?$AA_?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AAR?$AAe?$AAs?$AAu?$AAm?$AAe?$AA?$AA@ 10001970     kernprof_ALL:profiler.obj
+ 0001:00000994       ??_C@_1BG@LAKKHDKA@?$AAL?$AAo?$AAa?$AAd?$AAS?$AAw?$AAi?$AAt?$AAc?$AAh?$AA?$AA@ 10001994     kernprof_ALL:profiler.obj
+ 0001:000009ac       ??_C@_1BC@PGICHKIC@?$AAN?$AAo?$AAt?$AA?5?$AAU?$AAs?$AAe?$AAd?$AA?$AA@ 100019ac     kernprof_ALL:profiler.obj
+ 0001:000009c0       ??_C@_1BK@JAMLBGAJ@?$AAK?$AAC?$AAN?$AAe?$AAx?$AAt?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AA?$AA@ 100019c0     kernprof_ALL:profiler.obj
+ 0001:000009dc       ??_C@_1BK@HBNGEIEL@?$AAR?$AAe?$AAm?$AAo?$AAv?$AAe?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AA?$AA@ 100019dc     kernprof_ALL:profiler.obj
+ 0001:000009f8       ??_C@_1CE@CDJLIDAP@?$AAS?$AAC?$AAH?$AAL?$AA_?$AAE?$AAv?$AAe?$AAn?$AAt?$AAM?$AAo?$AAd?$AAI?$AAn?$AAt?$AAr?$AA?$AA@ 100019f8     kernprof_ALL:profiler.obj
+ 0001:00000a1c       ??_C@_1CO@EMFJPJLH@?$AAS?$AAC?$AAH?$AAL?$AA_?$AAW?$AAa?$AAk?$AAe?$AAO?$AAn?$AAe?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AAF?$AAl?$AAa?$AAt?$AA?$AA@ 10001a1c     kernprof_ALL:profiler.obj
+ 0001:00000a4c       ??_C@_1BK@BFNHBGFA@?$AAT?$AAa?$AAk?$AAe?$AAT?$AAw?$AAo?$AAP?$AAa?$AAg?$AAe?$AAs?$AA?$AA@ 10001a4c     kernprof_ALL:profiler.obj
+ 0001:00000a68       ??_C@_1CK@HNAFHAFD@?$AAS?$AAC?$AAH?$AAL?$AA_?$AAM?$AAa?$AAk?$AAe?$AAR?$AAu?$AAn?$AAI?$AAf?$AAN?$AAe?$AAe?$AAd?$AAe?$AAd?$AA?$AA@ 10001a68     kernprof_ALL:profiler.obj
+ 0001:00000a94       ??_C@_1BO@FHKOMOCH@?$AAU?$AAn?$AAl?$AAi?$AAn?$AAk?$AAP?$AAh?$AAy?$AAs?$AAP?$AAa?$AAg?$AAe?$AA?$AA@ 10001a94     kernprof_ALL:profiler.obj
+ 0001:00000ab4       ??_C@_1BI@OOHMNDCD@?$AAS?$AAC?$AAH?$AAL?$AA_?$AAS?$AAe?$AAm?$AAP?$AAo?$AAp?$AA?$AA@ 10001ab4     kernprof_ALL:profiler.obj
+ 0001:00000acc       ??_C@_1CO@LJFNEFHK@?$AAS?$AAC?$AAH?$AAL?$AA_?$AAF?$AAi?$AAn?$AAa?$AAl?$AAR?$AAe?$AAm?$AAo?$AAv?$AAe?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AA?$AA@ 10001acc     kernprof_ALL:profiler.obj
+ 0001:00000afc       ??_C@_1CC@GJNBCPJH@?$AAS?$AAC?$AAH?$AAL?$AA_?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AAY?$AAi?$AAe?$AAl?$AAd?$AA?$AA@ 10001afc     kernprof_ALL:profiler.obj
+ 0001:00000b20       ??_C@_1CG@KKJLLEFP@?$AAS?$AAC?$AAH?$AAL?$AA_?$AAD?$AAo?$AAF?$AAr?$AAe?$AAe?$AAC?$AAr?$AAi?$AAt?$AAM?$AAu?$AAt?$AA?$AA@ 10001b20     kernprof_ALL:profiler.obj
+ 0001:00000b48       ??_C@_1CE@LNNDFFBE@?$AAG?$AAr?$AAa?$AAb?$AAF?$AAi?$AAr?$AAs?$AAt?$AAP?$AAh?$AAy?$AAs?$AAP?$AAa?$AAg?$AAe?$AA?$AA@ 10001b48     kernprof_ALL:profiler.obj
+ 0001:00000b6c       ??_C@_1BK@IBIOFJDE@?$AAL?$AAi?$AAn?$AAk?$AAP?$AAh?$AAy?$AAs?$AAP?$AAa?$AAg?$AAe?$AA?$AA@ 10001b6c     kernprof_ALL:profiler.obj
+ 0001:00000b88       ??_C@_1CM@GNNKPNPG@?$AAS?$AAC?$AAH?$AAL?$AA_?$AAD?$AAe?$AAq?$AAu?$AAe?$AAu?$AAe?$AAP?$AAr?$AAi?$AAo?$AAP?$AAr?$AAo?$AAx?$AAy?$AA?$AA@ 10001b88     kernprof_ALL:profiler.obj
+ 0001:00000bb4       ??_C@_1BC@BNCJGDGF@?$AAD?$AAo?$AAD?$AAe?$AAc?$AAR?$AAe?$AAf?$AA?$AA@ 10001bb4     kernprof_ALL:profiler.obj
+ 0001:00000bc8       ??_C@_1DM@HPPHOKNO@?$AAN?$AAK?$AAS?$AAe?$AAn?$AAd?$AAI?$AAn?$AAt?$AAe?$AAr?$AAP?$AAr?$AAo?$AAc?$AAe?$AAs?$AAs?$AAo?$AAr?$AAI?$AAn?$AAt?$AAe?$AAr?$AAr?$AAu?$AAp?$AAt?$AA?$AA@ 10001bc8     kernprof_ALL:profiler.obj
+ 0001:00000c04       ??_C@_1CO@MAGFDENK@?$AAS?$AAC?$AAH?$AAL?$AA_?$AAS?$AAe?$AAt?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AAB?$AAa?$AAs?$AAe?$AAP?$AAr?$AAi?$AAo?$AA?$AA@ 10001c04     kernprof_ALL:profiler.obj
+ 0001:00000c34       ??_C@_1BC@JEEIHBNK@?$AAS?$AAt?$AAo?$AAp?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 10001c34     kernprof_ALL:profiler.obj
+ 0001:00000c48       ??_C@_1CA@OPCFDFJC@?$AAG?$AAe?$AAt?$AAK?$AAC?$AAa?$AAl?$AAl?$AAP?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AA?$AA@ 10001c48     kernprof_ALL:profiler.obj
+ 0001:00000c68       ??_C@_1BE@GPHMIFN@?$AAS?$AAt?$AAo?$AAp?$AAP?$AAr?$AAo?$AAc?$AA2?$AA?$AA@ 10001c68     kernprof_ALL:profiler.obj
+ 0001:00000c7c       ??_C@_1BM@EJBJONHJ@?$AAG?$AAe?$AAt?$AAA?$AAD?$AAi?$AAr?$AAt?$AAy?$AAP?$AAa?$AAg?$AAe?$AA?$AA@ 10001c7c     kernprof_ALL:profiler.obj
+ 0001:00000c98       ??_C@_1DA@BNHELPN@?$AAP?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AAS?$AAe?$AAt?$AAC?$AAo?$AAn?$AAt?$AAe?$AAx?$AAt?$AA?$AA@ 10001c98     kernprof_ALL:profiler.obj
+ 0001:00000cc8       ??_C@_1DA@PEIBJCLM@?$AAP?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AAG?$AAe?$AAt?$AAC?$AAo?$AAn?$AAt?$AAe?$AAx?$AAt?$AA?$AA@ 10001cc8     kernprof_ALL:profiler.obj
+ 0001:00000cf8       ??_C@_1BG@JFPPOFFO@?$AAM?$AAe?$AAm?$AAo?$AAr?$AAy?$AAL?$AAo?$AAc?$AAk?$AA?$AA@ 10001cf8     kernprof_ALL:profiler.obj
+ 0001:00000d10       ??_C@_1CE@JOIJGHLG@?$AAS?$AAC?$AAH?$AAL?$AA_?$AAR?$AAe?$AAl?$AAe?$AAa?$AAs?$AAe?$AAM?$AAu?$AAt?$AAe?$AAx?$AA?$AA@ 10001d10     kernprof_ALL:profiler.obj
+ 0001:00000d34       ??_C@_1CC@ECNIPNBP@?$AAS?$AAC?$AAH?$AAL?$AA_?$AAC?$AAS?$AAW?$AAa?$AAi?$AAt?$AAP?$AAa?$AAr?$AAt?$AA1?$AA?$AA@ 10001d34     kernprof_ALL:profiler.obj
+ 0001:00000d58       ??_C@_1CC@COFOIJPP@?$AAS?$AAC?$AAH?$AAL?$AA_?$AAW?$AAa?$AAi?$AAt?$AAO?$AAn?$AAe?$AAM?$AAo?$AAr?$AAe?$AA?$AA@ 10001d58     kernprof_ALL:profiler.obj
+ 0001:00000d7c       ??_C@_1CI@DFCKHIIH@?$AAS?$AAC?$AAH?$AAL?$AA_?$AAS?$AAe?$AAt?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AAT?$AAo?$AAD?$AAi?$AAe?$AA?$AA@ 10001d7c     kernprof_ALL:profiler.obj
+ 0001:00000da4       ??_C@_1CE@LDOOGBME@?$AAS?$AAC?$AAH?$AAL?$AA_?$AAE?$AAv?$AAe?$AAn?$AAt?$AAM?$AAo?$AAd?$AAA?$AAu?$AAt?$AAo?$AA?$AA@ 10001da4     kernprof_ALL:profiler.obj
+ 0001:00000dc8       ??_C@_1CC@BJJILIJ@?$AAS?$AAC?$AAH?$AAL?$AA_?$AAE?$AAv?$AAe?$AAn?$AAt?$AAM?$AAo?$AAd?$AAM?$AAa?$AAn?$AA?$AA@ 10001dc8     kernprof_ALL:profiler.obj
+ 0001:00000dec       ??_C@_1CA@BMCKOCGN@?$AAW?$AAa?$AAk?$AAe?$AAI?$AAf?$AAD?$AAe?$AAb?$AAu?$AAg?$AAW?$AAa?$AAi?$AAt?$AA?$AA@ 10001dec     kernprof_ALL:profiler.obj
+ 0001:00000e0c       ??_C@_1DC@NGFONJPK@?$AAS?$AAC?$AAH?$AAL?$AA_?$AAS?$AAw?$AAi?$AAt?$AAc?$AAh?$AAO?$AAw?$AAn?$AAe?$AAr?$AAT?$AAo?$AAK?$AAe?$AAr?$AAn?$AAe?$AAl?$AA?$AA@ 10001e0c     kernprof_ALL:profiler.obj
+ 0001:00000e40       ??_C@_1BC@KOAFGELC@?$AAC?$AAo?$AAp?$AAy?$AAR?$AAe?$AAf?$AAs?$AA?$AA@ 10001e40     kernprof_ALL:profiler.obj
+ 0001:00000e54       ??_C@_1BC@NLEBLHDA@?$AAD?$AAo?$AAI?$AAn?$AAc?$AAR?$AAe?$AAf?$AA?$AA@ 10001e54     kernprof_ALL:profiler.obj
+ 0001:00000e68       ??_C@_1BG@IKGIONCB@?$AAN?$AAe?$AAx?$AAt?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AA?$AA@ 10001e68     kernprof_ALL:profiler.obj
+ 0001:00000e80       ??_C@_1BE@IMKIJJOF@?$AAZ?$AAa?$AAp?$AAH?$AAa?$AAn?$AAd?$AAl?$AAe?$AA?$AA@ 10001e80     kernprof_ALL:profiler.obj
+ 0001:00000e94       ??_C@_1BI@OECDCFO@?$AAS?$AAe?$AAt?$AAu?$AAp?$AAH?$AAa?$AAn?$AAd?$AAl?$AAe?$AA?$AA@ 10001e94     kernprof_ALL:profiler.obj
+ 0001:00000eac       ??_C@_1CA@EIACEBDI@?$AAN?$AAe?$AAx?$AAt?$AAC?$AAl?$AAo?$AAs?$AAe?$AAH?$AAa?$AAn?$AAd?$AAl?$AAe?$AA?$AA@ 10001eac     kernprof_ALL:profiler.obj
+ 0001:00000ecc       ??_C@_1CG@DCDJMMI@?$AAD?$AAi?$AAs?$AAa?$AAb?$AAl?$AAe?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AAC?$AAa?$AAl?$AAl?$AAs?$AA?$AA@ 10001ecc     kernprof_ALL:profiler.obj
+ 0001:00000ef4       ??_C@_1CG@JDJIMFJF@?$AAS?$AAC?$AAH?$AAL?$AA_?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AAS?$AAu?$AAs?$AAp?$AAe?$AAn?$AAd?$AA?$AA@ 10001ef4     kernprof_ALL:profiler.obj
+ 0001:00000f1c       ??_C@_1CK@JLJKCENG@?$AAS?$AAC?$AAH?$AAL?$AA_?$AAD?$AAo?$AAR?$AAe?$AAp?$AAr?$AAi?$AAo?$AAC?$AAr?$AAi?$AAt?$AAM?$AAu?$AAt?$AA?$AA@ 10001f1c     kernprof_ALL:profiler.obj
+ 0001:00000f48       ??_C@_1BI@OLNBNCJN@?$AAS?$AAC?$AAH?$AAL?$AA_?$AAS?$AAe?$AAm?$AAA?$AAd?$AAd?$AA?$AA@ 10001f48     kernprof_ALL:profiler.obj
+ 0001:00000f60       ??_C@_1CM@MOMENDJA@?$AAS?$AAC?$AAH?$AAL?$AA_?$AAP?$AAu?$AAt?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AAT?$AAo?$AAS?$AAl?$AAe?$AAe?$AAp?$AA?$AA@ 10001f60     kernprof_ALL:profiler.obj
+ 0001:00000f8c       ??_C@_1DE@PBGIACOE@?$AAS?$AAC?$AAH?$AAL?$AA_?$AAY?$AAi?$AAe?$AAl?$AAd?$AAT?$AAo?$AAN?$AAe?$AAw?$AAM?$AAu?$AAt?$AAe?$AAx?$AAO?$AAw?$AAn?$AAe?$AAr?$AA?$AA@ 10001f8c     kernprof_ALL:profiler.obj
+ 0001:00000fc0       ??_C@_1CA@DEHFLEC@?$AAH?$AAa?$AAn?$AAd?$AAl?$AAe?$AAE?$AAx?$AAc?$AAe?$AAp?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 10001fc0     kernprof_ALL:profiler.obj
+ 0001:00000fe0       ??_C@_1KE@COAMCJID@?$AAP?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AAS?$AAt?$AAa?$AAr?$AAt?$AA?$CI?$AA?$CJ?$AA?5?$AA?3?$AA?5?$AAE?$AAr?$AAr?$AAo?$AAr?$AA?5?$AAa?$AAl?$AAl?$AAo?$AAc?$AAa?$AAt?$AAi?$AAn@ 10001fe0     kernprof_ALL:profiler.obj
+ 0001:00001088       ??_C@_1IA@BBOPDKBN@?$AAP?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AAS?$AAt?$AAa?$AAr?$AAt?$AA?$CI?$AA?$CJ?$AA?5?$AA?3?$AA?5?$AAA?$AAl?$AAl?$AAo?$AAc?$AAa?$AAt?$AAe?$AAd?$AA?5?$AA?$CF?$AAd?$AA?5?$AAK?$AAB@ 10002088     kernprof_ALL:profiler.obj
+ 0001:00001108       ??_C@_1IE@NDOOOAJF@?$AA?5?$AA?5?$AA?$CK?$AA?5?$AAP?$AAe?$AAr?$AAc?$AAe?$AAn?$AAt?$AAa?$AAg?$AAe?$AA?5?$AAo?$AAf?$AA?5?$AAs?$AAa?$AAm?$AAp?$AAl?$AAe?$AAs?$AA?5?$AAi?$AAn?$AA?5?$AAT?$AAL?$AAB@ 10002108     kernprof_ALL:profiler.obj
+ 0001:00001190       ??_C@_1HM@FMFEHNLB@?$AA?5?$AA?5?$AA?$CK?$AA?5?$AAP?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AAr?$AA?5?$AAs?$AAa?$AAm?$AAp?$AAl?$AAe?$AAs?$AA?5?$AAd?$AAu?$AAr?$AAi?$AAn?$AAg?$AA?5?$AAT?$AAL?$AAB?$AA?5@ 10002190     kernprof_ALL:profiler.obj
+ 0001:00001210       ??_C@_1IE@NHCDJCEG@?$AA?5?$AA?5?$AA?$CK?$AA?5?$AAT?$AAL?$AAB?$AA?5?$AAm?$AAi?$AAs?$AAs?$AAe?$AAs?$AA?5?$AAp?$AAe?$AAr?$AA?5?$AAt?$AAi?$AAc?$AAk?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5@ 10002210     kernprof_ALL:profiler.obj
+ 0001:00001294       ??_C@_1BM@IFHGIPII@?$AAT?$AAL?$AAB?$AA?5?$AAM?$AAI?$AAS?$AAS?$AAE?$AAS?$AA?3?$AA?$AN?$AA?6?$AA?$AA@ 10002294     kernprof_ALL:profiler.obj
+ 0001:000012b0       ??_C@_1HM@PLJHELCD@?$AA?5?$AA?5?$AA?$CK?$AA?5?$AAT?$AAo?$AAt?$AAa?$AAl?$AA?5?$AAT?$AAL?$AAB?$AA?5?$AAm?$AAi?$AAs?$AAs?$AAe?$AAs?$AA?5?$AAd?$AAu?$AAr?$AAi?$AAn?$AAg?$AA?5?$AAs?$AAa?$AAm?$AAp@ 100022b0     kernprof_ALL:profiler.obj
+ 0001:00001330       ??_C@_1IE@DBELJNHH@?$AA?5?$AA?5?$AA?$CK?$AA?5?$AAN?$AAo?$AAn?$AA?9?$AAp?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AAr?$AA?5?$AAi?$AAn?$AAt?$AAe?$AAr?$AAr?$AAu?$AAp?$AAt?$AAs?$AA?5?$AAp?$AAe?$AAr?$AA?5@ 10002330     kernprof_ALL:profiler.obj
+ 0001:000013b4       ??_C@_1BM@LAMAIGMB@?$AAI?$AAN?$AAT?$AAE?$AAR?$AAR?$AAU?$AAP?$AAT?$AAS?$AA?3?$AA?$AN?$AA?6?$AA?$AA@ 100023b4     kernprof_ALL:profiler.obj
+ 0001:000013d0       ??_C@_1HM@DDPHKGOJ@?$AA?5?$AA?5?$AA?$CK?$AA?5?$AAT?$AAo?$AAt?$AAa?$AAl?$AA?5?$AAi?$AAn?$AAt?$AAe?$AAr?$AAr?$AAu?$AAp?$AAt?$AAs?$AA?5?$AAd?$AAu?$AAr?$AAi?$AAn?$AAg?$AA?5?$AAs?$AAa?$AAm?$AAp@ 100023d0     kernprof_ALL:profiler.obj
+ 0001:00001450       ??_C@_1HM@PKNGBDKA@?$AA?5?$AA?5?$AA?$CK?$AA?5?$AAN?$AAo?$AAn?$AA?9?$AAp?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AAr?$AA?5?$AAi?$AAn?$AAt?$AAe?$AAr?$AAr?$AAu?$AAp?$AAt?$AAs?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5@ 10002450     kernprof_ALL:profiler.obj
+ 0001:000014d0       ??_C@_1IE@NNBBGMHK@?$AA?5?$AA?5?$AA?$CK?$AA?5?$AAP?$AAe?$AAr?$AAc?$AAe?$AAn?$AAt?$AAa?$AAg?$AAe?$AA?5?$AAo?$AAf?$AA?5?$AAr?$AAe?$AAc?$AAo?$AAr?$AAd?$AAe?$AAd?$AA?5?$AAs?$AAa?$AAm?$AAp?$AAl@ 100024d0     kernprof_ALL:profiler.obj
+ 0001:00001554       ??_C@_1BK@OHEJNNHG@?$AAI?$AAD?$AAL?$AAE?$AA?5?$AAT?$AAI?$AAM?$AAE?$AA?3?$AA?$AN?$AA?6?$AA?$AA@ 10002554     kernprof_ALL:profiler.obj
+ 0001:00001570       ??_C@_1HM@IKOMNBCI@?$AA?5?$AA?5?$AA?$CK?$AA?5?$AAT?$AAo?$AAt?$AAa?$AAl?$AA?5?$AAn?$AAo?$AAn?$AA?9?$AAi?$AAd?$AAl?$AAe?$AA?5?$AAs?$AAa?$AAm?$AAp?$AAl?$AAe?$AAs?$AA?5?$AAr?$AAe?$AAc?$AAo?$AAr@ 10002570     kernprof_ALL:profiler.obj
+ 0001:000015f0       ??_C@_1HM@MMNKKJDA@?$AA?5?$AA?5?$AA?$CK?$AA?5?$AAT?$AAo?$AAt?$AAa?$AAl?$AA?5?$AAi?$AAd?$AAl?$AAe?$AA?5?$AAs?$AAa?$AAm?$AAp?$AAl?$AAe?$AAs?$AA?5?$AAr?$AAe?$AAc?$AAo?$AAr?$AAd?$AAe?$AAd?$AA?5@ 100025f0     kernprof_ALL:profiler.obj
+ 0001:00001670       ??_C@_1EA@NGGGKDCG@?$AAT?$AAo?$AAt?$AAa?$AAl?$AA?5?$AAs?$AAa?$AAm?$AAp?$AAl?$AAe?$AAs?$AA?5?$AAr?$AAe?$AAc?$AAo?$AAr?$AAd?$AAe?$AAd?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AA8?$AAl?$AAu?$AA?$AN?$AA?6?$AA?$AA@ 10002670     kernprof_ALL:profiler.obj
+ 0001:000016b0       ??_C@_1EA@LIEELEKP@?$AAT?$AAo?$AAt?$AAa?$AAl?$AA?5?$AAs?$AAa?$AAm?$AAp?$AAl?$AAe?$AAs?$AA?5?$AAd?$AAr?$AAo?$AAp?$AAp?$AAe?$AAd?$AA?5?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AA8?$AAl?$AAu?$AA?$AN?$AA?6?$AA?$AA@ 100026b0     kernprof_ALL:profiler.obj
+ 0001:000016f0       ??_C@_1EA@PEPNHDHH@?$AAT?$AAi?$AAc?$AAk?$AAs?$AA?5?$AAe?$AAl?$AAa?$AAp?$AAs?$AAe?$AAd?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AA8?$AAl?$AAu?$AA?$AN?$AA?6?$AA?$AA@ 100026f0     kernprof_ALL:profiler.obj
+ 0001:00001730       ??_C@_1IC@EANHOBAB@?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?5?$AAM?$AAO?$AAN?$AAT?$AAE?$AA?5?$AAC?$AAA?$AAR?$AAL?$AAO?$AA?5@ 10002730     kernprof_ALL:profiler.obj
+ 0001:000017b8       ??_C@_1IC@OEELCHFP@?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?5?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?5?$AAC?$AAA?$AAL?$AAL?$AA?5@ 100027b8     kernprof_ALL:profiler.obj
+ 0001:00001840       ??_C@_1HG@JFFLIEGC@?$AA?$CF?$AA1?$AA0?$AAd?$AA?5?$AA?$CF?$AA5?$AAd?$AA?4?$AA?$CF?$AA1?$AAd?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5@ 10002840     kernprof_ALL:profiler.obj
+ 0001:000018b8       ??_C@_1FM@KDLGFNGE@?$AA?$CF?$AA1?$AA0?$AAd?$AA?5?$AA?$CF?$AA5?$AAd?$AA?4?$AA?$CF?$AA1?$AAd?$AA?5?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?5?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9@ 100028b8     kernprof_ALL:profiler.obj
+ 0001:00001914       ??_C@_1DO@CFLNGKBP@?$AA?$CF?$AA1?$AA0?$AAd?$AA?5?$AA?$CF?$AA5?$AAd?$AA?4?$AA?$CF?$AA1?$AAd?$AA?5?$AA?$CF?$AA8?$AA?4?$AA8?$AAl?$AAx?$AA?5?$AA?$CF?$AA?9?$AA1?$AA6?$AAa?$AA?3?$AA?$CF?$AAa?$AA?$AN?$AA?6?$AA?$AA@ 10002914     kernprof_ALL:profiler.obj
+ 0001:00001958       ??_C@_1GI@KDMBDBLP@?$AA?$AN?$AA?6?$AAS?$AAY?$AAM?$AAB?$AAO?$AAL?$AAS?$AA?3?$AA?5?$AA?5?$AA?$CI?$AAD?$AAo?$AAe?$AAs?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAi?$AAn?$AAc?$AAl?$AAu?$AAd?$AAe?$AA?5?$AAd?$AAr@ 10002958     kernprof_ALL:profiler.obj
+ 0001:000019c0       ??_C@_1GO@JNBOJLCH@?$AAH?$AAi?$AAt?$AAs?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AAP?$AAe?$AAr?$AAc?$AAe?$AAn?$AAt?$AA?5?$AAA?$AAd?$AAd?$AAr?$AAe?$AAs?$AAs?$AA?5?$AA?5?$AAM?$AAo?$AAd?$AAu@ 100029c0     kernprof_ALL:profiler.obj
+ 0001:00001a30       ??_C@_1IK@HMJGNEL@?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?5?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?5?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?5?$AA?9?$AA?9?$AA?9?$AA?9@ 10002a30     kernprof_ALL:profiler.obj
+ 0001:00001ac0       ??_C@_1GM@JPNJHDDN@?$AAP?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AAS?$AAt?$AAo?$AAp?$AA?3?$AA?5?$AAS?$AAo?$AAr?$AAt?$AA?5?$AAm?$AAe?$AAm?$AAo?$AAr?$AAy?$AA?5?$AAa?$AAl?$AAl?$AAo?$AAc?$AAa?$AAt@ 10002ac0     kernprof_ALL:profiler.obj
+ 0001:00001b2c       ??_C@_1CI@BFCEFODC@?$AAN?$AAo?$AA?5?$AAs?$AAy?$AAm?$AAb?$AAo?$AAl?$AAs?$AA?5?$AAf?$AAo?$AAu?$AAn?$AAd?$AA?4?$AA?$AN?$AA?6?$AA?$AA@ 10002b2c     kernprof_ALL:profiler.obj
+ 0001:00001b54       ??_C@_07NFANNNEC@UNKNOWN?$AA@ 10002b54     kernprof_ALL:profiler.obj
+ 0001:00001b60       ??_C@_1EI@GGHFGOHL@?$AAI?$AAD?$AAL?$AAE?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?$CF?$AA1?$AA0?$AAl?$AAu?$AA?5?$AA?5?$AA?$CF?$AA5?$AAl?$AAu?$AA?4?$AA?$CF?$AA1@ 10002b60     kernprof_ALL:profiler.obj
+ 0001:00001ba8       ??_C@_1DC@FOPIAPOJ@?$AA?$CF?$AA?9?$AA1?$AA6?$AAa?$AA?5?$AA?5?$AA?$CF?$AA1?$AA0?$AAl?$AAu?$AA?5?$AA?5?$AA?$CF?$AA5?$AAl?$AAu?$AA?4?$AA?$CF?$AA1?$AAd?$AA?$AN?$AA?6?$AA?$AA@ 10002ba8     kernprof_ALL:profiler.obj
+ 0001:00001be0       ??_C@_1GI@PBECJDGN@?$AA?$AN?$AA?6?$AAM?$AAO?$AAD?$AAU?$AAL?$AAE?$AAS?$AA?3?$AA?5?$AA?5?$AA?$CI?$AAD?$AAo?$AAe?$AAs?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAi?$AAn?$AAc?$AAl?$AAu?$AAd?$AAe?$AA?5?$AAd?$AAr@ 10002be0     kernprof_ALL:profiler.obj
+ 0001:00001c48       ??_C@_1FA@JHNBGLDK@?$AAM?$AAo?$AAd?$AAu?$AAl?$AAe?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AAH?$AAi?$AAt?$AAs?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AAP?$AAe@ 10002c48     kernprof_ALL:profiler.obj
+ 0001:00001c98       ??_C@_1FA@MGMJMNKH@?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?5?$AA?5?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?5?$AA?5?$AA?9?$AA?9@ 10002c98     kernprof_ALL:profiler.obj
+ 0001:00001ce8       ??_C@_15JNBOKNOG@?$AA?$AN?$AA?6?$AA?$AA@ 10002ce8     kernprof_ALL:profiler.obj
+ 0001:00001cf0       ??_C@_13JOFGPIOO@?$AA?4?$AA?$AA@ 10002cf0     kernprof_ALL:profiler.obj
+ 0001:00001cf8       ??_C@_1GG@JFGCBFGC@?$AAK?$AAe?$AAr?$AAn?$AAe?$AAl?$AA?5?$AAP?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AAr?$AA?3?$AA?5?$AAL?$AAo?$AAo?$AAk?$AAi?$AAn?$AAg?$AA?5?$AAu?$AAp?$AA?5?$AAs?$AAy?$AAm?$AAb@ 10002cf8     kernprof_ALL:profiler.obj
+ 0001:00001d60       ??_C@_1HE@DJNEAKEN@?$AAK?$AAe?$AAr?$AAn?$AAe?$AAl?$AA?5?$AAP?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AAr?$AA?3?$AA?5?$AAN?$AAo?$AA?5?$AAh?$AAi?$AAt?$AAs?$AA?5?$AAr?$AAe?$AAc?$AAo?$AAr?$AAd?$AAe@ 10002d60     kernprof_ALL:profiler.obj
+ 0001:00001dd8       ??_C@_1HG@HLCEMFG@?$AAi?$AAs?$AA?5?$AAi?$AAm?$AAp?$AAl?$AAe?$AAm?$AAe?$AAn?$AAt?$AAe?$AAd?$AA?5?$AAi?$AAn?$AA?5?$AAt?$AAh?$AAe?$AA?5?$AAO?$AAA?$AAL?$AA?0?$AA?5?$AAa?$AAn?$AAd?$AA?5?$AAt@ 10002dd8     kernprof_ALL:profiler.obj
+ 0001:00001e50       ??_C@_1KA@FKBNMLCN@?$AAK?$AAe?$AAr?$AAn?$AAe?$AAl?$AA?5?$AAP?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AAr?$AA?3?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAs?$AAt?$AAa?$AAr?$AAt@ 10002e50     kernprof_ALL:profiler.obj
+ 0001:00001ef0       ??_C@_1JM@IIJIGMIB@?$AAt?$AAh?$AAe?$AA?5?$AAr?$AAu?$AAn?$AA?9?$AAt?$AAi?$AAm?$AAe?$AA?5?$AAi?$AAm?$AAa?$AAg?$AAe?$AA?4?$AA?5?$AA?5?$AAE?$AAi?$AAt?$AAh?$AAe?$AAr?$AA?5?$AAt?$AAh?$AAi?$AAs@ 10002ef0     kernprof_ALL:profiler.obj
+ 0001:00001f90       ??_C@_1KC@MJPHDBNJ@?$AAo?$AAr?$AA?5?$AAP?$AAR?$AAO?$AAF?$AAI?$AAL?$AAE?$AA?5?$AAi?$AAs?$AA?5?$AAs?$AAe?$AAt?$AA?5?$AAt?$AAo?$AA?5?$AAO?$AAF?$AAF?$AA?5?$AAi?$AAn?$AA?5?$AAc?$AAo?$AAn?$AAf@ 10002f90     kernprof_ALL:profiler.obj
+ 0001:00002038       ??_C@_1JK@OENLDHBB@?$AAr?$AAu?$AAn?$AA?5?$AAt?$AAh?$AAe?$AA?5?$AAk?$AAe?$AAr?$AAn?$AAe?$AAl?$AA?5?$AAp?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AAr?$AA?5?$AAi?$AAn?$AA?5?$AAc?$AAo?$AAm?$AAb?$AAi@ 10003038     kernprof_ALL:profiler.obj
+ 0001:000020d8       ??_C@_1KC@MCIBJCGL@?$AAd?$AAe?$AAs?$AAk?$AAt?$AAo?$AAp?$AA?5?$AAs?$AAi?$AAd?$AAe?$AA?4?$AA?5?$AA?5?$AAT?$AAo?$AA?5?$AAi?$AAn?$AAc?$AAr?$AAe?$AAa?$AAs?$AAe?$AA?5?$AAf?$AAu?$AAn?$AAc?$AAt@ 100030d8     kernprof_ALL:profiler.obj
+ 0001:00002180       ??_C@_1IO@HBPCFGLA@?$AAf?$AAl?$AAu?$AAs?$AAh?$AA?5?$AAa?$AAp?$AAp?$AAl?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAs?$AAu?$AAc?$AAh?$AA?5?$AAa?$AAs?$AA?5?$AAC?$AAe?$AAL?$AAo?$AAg?$AAF@ 10003180     kernprof_ALL:profiler.obj
+ 0001:00002210       ??_C@_1CA@JBDNBKCF@?$AA?$CC?$AAp?$AAr?$AAo?$AAf?$AA?5?$AAo?$AAn?$AA?5?$AA?9?$AAl?$AA?$CC?$AA?4?$AA?$AN?$AA?6?$AA?$AA@ 10003210     kernprof_ALL:profiler.obj
+ 0001:00002230       ??_C@_1FE@OLEGGIPL@?$AAO?$AAt?$AAh?$AAe?$AAr?$AA?5?$AAK?$AAe?$AAr?$AAn?$AAe?$AAl?$AA?5?$AAc?$AAa?$AAl?$AAl?$AAs?$AA?3?$AA?5?$AAM?$AAa?$AAx?$AA?$DN?$AA?$CF?$AAi?$AA6?$AA4?$AAu?$AA?5?$AAA?$AAv@ 10003230     kernprof_ALL:profiler.obj
+ 0001:00002288       ??_C@_1GK@JKHDHJOM@?$AAN?$AAe?$AAx?$AAt?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AA?3?$AA?5?$AAC?$AAa?$AAl?$AAl?$AAs?$AA?$DN?$AA?$CF?$AAu?$AA?5?$AAM?$AAi?$AAn?$AA?$DN?$AA?$CF?$AAi?$AA6?$AA4?$AAu?$AA?5?$AAM@ 10003288     kernprof_ALL:profiler.obj
+ 0001:000022f4       ??_C@_1M@BAEMMHLO@?$AAT?$AAO?$AAT?$AAA?$AAL?$AA?$AA@ 100032f4     kernprof_ALL:profiler.obj
+ 0001:00002300       ??_C@_1GE@BGGNIKIA@?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?$CF?$AA?9?$AA3?$AA5?$AAs?$AA?5?$AA?$CF?$AA8?$AAi?$AA6?$AA4?$AAd?$AA?5?$AA?$CF?$AA1?$AA0?$AAi?$AA6?$AA4?$AAd?$AA?5?$AA?$CF?$AA6?$AAi?$AA6?$AA4@ 10003300     kernprof_ALL:profiler.obj
+ 0001:00002368       ??_C@_1GG@HBFDAIJH@?$AA?9?$AA?9?$AA?5?$AAS?$AAu?$AAm?$AAm?$AAa?$AAr?$AAy?$AA?5?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9@ 10003368     kernprof_ALL:profiler.obj
+ 0001:000023d0       ??_C@_1FK@EMNNHAPD@?$AA?$CF?$AA5?$AAd?$AA?5?$AA?$CF?$AA?9?$AA3?$AA5?$AAs?$AA?5?$AA?$CF?$AA8?$AAd?$AA?5?$AA?$CF?$AA1?$AA0?$AAi?$AA6?$AA4?$AAd?$AA?5?$AA?$CF?$AA6?$AAi?$AA6?$AA4?$AAd?$AA?5?$AA?$CF?$AA6?$AAi@ 100033d0     kernprof_ALL:profiler.obj
+ 0001:00002430       ??_C@_1KO@KFGDNELF@?$AAC?$AAP?$AAU?$AA?$CF?$AA2?$AAd?$AA?3?$AA?5?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN@ 10003430     kernprof_ALL:profiler.obj
+ 0001:000024e0       ??_C@_1KK@OMDLJDNE@?$AAI?$AAn?$AAd?$AAe?$AAx?$AA?5?$AAE?$AAn?$AAt?$AAr?$AAy?$AAp?$AAo?$AAi?$AAn?$AAt?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5@ 100034e0     kernprof_ALL:profiler.obj
+ 0001:00002590       ??_C@_1FG@NADDJBGI@?$AAR?$AAe?$AAs?$AAo?$AAl?$AAu?$AAt?$AAi?$AAo?$AAn?$AA?3?$AA?5?$AA?$CF?$AAi?$AA6?$AA4?$AAd?$AA?4?$AA?$CF?$AA6?$AA?4?$AA6?$AAi?$AA6?$AA4?$AAd?$AA?5?$AAu?$AAs?$AAe?$AAc?$AA?5@ 10003590     kernprof_ALL:profiler.obj
+ 0001:000025e8       ??_C@_1CC@KMLHKLIG@?$AAC?$AAe?$AAL?$AAo?$AAg?$AAZ?$AAo?$AAn?$AAe?$AAP?$AAr?$AAo?$AAc?$AAe?$AAs?$AAs?$AA?$AA@ 100035e8     kernprof_ALL:kmisc.obj
+ 0001:0000260c       ??_C@_1BM@HJCOGHEO@?$AAC?$AAe?$AAL?$AAo?$AAg?$AAZ?$AAo?$AAn?$AAe?$AAU?$AAs?$AAe?$AAr?$AA?$AA@ 1000360c     kernprof_ALL:kmisc.obj
+ 0001:00002628       ??_C@_1BI@MFLPAMBP@?$AAC?$AAe?$AAL?$AAo?$AAg?$AAZ?$AAo?$AAn?$AAe?$AAC?$AAE?$AA?$AA@ 10003628     kernprof_ALL:kmisc.obj
+ 0001:00002640       ??_C@_1O@HAMLNBEA@?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AA?$AA@ 10003640     kernprof_ALL:kmisc.obj
+ 0001:00002650       ??_C@_1BG@KCMNKDOG@?$AAR?$AAe?$AAl?$AAe?$AAa?$AAs?$AAe?$AAF?$AAS?$AAD?$AA?$AA@ 10003650     kernprof_ALL:kmisc.obj
+ 0001:00002668       ??_C@_1O@IKEKDPJI@?$AAF?$AAS?$AAD?$AAM?$AAG?$AAR?$AA?$AA@ 10003668     kernprof_ALL:kmisc.obj
+ 0001:00002678       ??_C@_1BA@NILIBCDO@?$AAF?$AAi?$AAl?$AAe?$AAS?$AAy?$AAs?$AA?$AA@ 10003678     kernprof_ALL:kmisc.obj
+ 0001:00002688       ??_C@_15JHEIEFEC@?$AAN?$AAk?$AA?$AA@ 10003688     kernprof_ALL:kmisc.obj
+ 0001:00002690       ??_C@_1BI@MNAAPGJH@?$AAf?$AAi?$AAl?$AAe?$AAs?$AAy?$AAs?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10003690     kernprof_ALL:kmisc.obj
+ 0001:000026a8       ??_C@_1BA@EMDHJGOC@?$AAN?$AAL?$AAS?$AAF?$AAI?$AAL?$AAE?$AA?$AA@ 100036a8     kernprof_ALL:kmisc.obj
+ 0001:000026b8       ??_C@_1CG@BBMODNGK@?$AA?2?$AAw?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AA?2?$AAw?$AAi?$AAn?$AAc?$AAe?$AA?4?$AAn?$AAl?$AAs?$AA?$AA@ 100036b8     kernprof_ALL:kmisc.obj
+ 0001:000026e0       ??_C@_1BG@HJPFPIGN@?$AAD?$AAe?$AAb?$AAu?$AAg?$AAZ?$AAo?$AAn?$AAe?$AAs?$AA?$AA@ 100036e0     kernprof_ALL:kmisc.obj
+ 0001:000026f8       dwProfileBufferMax         100036f8     kernprof_ALL:profiler_stub.obj
+ 0001:000026fc       dwProfileBootUSecInterval  100036fc     kernprof_ALL:profiler_stub.obj
+ 0001:00002700       dwProfileBootOptions       10003700     kernprof_ALL:profiler_stub.obj
+ 0001:00002708       ??_C@_1JE@BIBINMO@?$AAU?$AAs?$AAi?$AAn?$AAg?$AA?5?$AAk?$AAe?$AAr?$AAn?$AAe?$AAl?$AA?5?$AAt?$AAi?$AAm?$AAe?$AAr?$AA?9?$AAt?$AAi?$AAc?$AAk?$AA?5?$AA?$CI?$AAS?$AAY?$AAS?$AAI?$AAN?$AAT?$AAR@ 10003708     kernprof_ALL:profiler_stub.obj
+ 0001:000027a0       ??_C@_1FE@LGCPGEL@?$AAP?$AAr?$AAo?$AAf?$AAi?$AAl?$AAi?$AAn?$AAg?$AA?5?$AAi?$AAs?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAi?$AAm?$AAp?$AAl?$AAe?$AAm?$AAe?$AAn?$AAt?$AAe?$AAd?$AA?5?$AAi?$AAn?$AA?5@ 100037a0     kernprof_ALL:profiler_stub.obj
+ 0001:000027f8       ??_C@_1EI@MLKABLEI@?$AAU?$AAs?$AAi?$AAn?$AAg?$AA?5?$AAO?$AAA?$AAL?$AA?5?$AAp?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AAr?$AA?5?$AAi?$AAm?$AAp?$AAl?$AAe?$AAm?$AAe?$AAn?$AAt?$AAa?$AAt?$AAi?$AAo@ 100037f8     kernprof_ALL:profiler_stub.obj
+ 0001:00002840       ??_C@_1FM@HCAHOAMD@?$AAK?$AAe?$AAr?$AAn?$AAe?$AAl?$AA?5?$AAP?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AAr?$AA?3?$AA?5?$AAO?$AAE?$AAM?$AA?5?$AAP?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AAr?$AA?5?$AAs?$AAt@ 10003840     kernprof_ALL:profiler_stub.obj
+ 0001:000028a0       ??_C@_1EE@GHELJFHG@?$AAP?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AAr?$AA?5?$AAd?$AAa?$AAt?$AAa?$AA?5?$AAw?$AAr?$AAi?$AAt?$AAt?$AAe?$AAn?$AA?5?$AAt?$AAo?$AA?5?$AAC?$AAe?$AAL?$AAo?$AAg?$AA?4?$AA?$AN@ 100038a0     kernprof_ALL:profiler_stub.obj
+ 0001:000028e4       ??_C@_1DK@EEECIMLN@?$AAM?$AAO?$AAD?$AAU?$AAL?$AAE?$AAS?$AA?3?$AA?5?$AA?5?$AAW?$AAr?$AAi?$AAt?$AAt?$AAe?$AAn?$AA?5?$AAt?$AAo?$AA?5?$AAC?$AAe?$AAL?$AAo?$AAg?$AA?$AN?$AA?6?$AA?$AA@ 100038e4     kernprof_ALL:profiler_stub.obj
+ 0001:00002920       ??_C@_1DK@JOIKALGG@?$AAS?$AAY?$AAM?$AAB?$AAO?$AAL?$AAS?$AA?3?$AA?5?$AA?5?$AAW?$AAr?$AAi?$AAt?$AAt?$AAe?$AAn?$AA?5?$AAt?$AAo?$AA?5?$AAC?$AAe?$AAL?$AAo?$AAg?$AA?$AN?$AA?6?$AA?$AA@ 10003920     kernprof_ALL:profiler_stub.obj
+ 0001:00002960       ??_C@_1HC@HOFEMPJH@?$AAK?$AAe?$AAr?$AAn?$AAe?$AAl?$AA?5?$AAP?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AAr?$AA?3?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAs?$AAt?$AAa?$AAr?$AAt@ 10003960     kernprof_ALL:profiler_stub.obj
+ 0001:000029d8       ??_C@_1GA@CGPMPNCK@?$AAK?$AAe?$AAr?$AAn?$AAe?$AAl?$AA?5?$AAP?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AAr?$AA?3?$AA?5?$AAG?$AAa?$AAt?$AAh?$AAe?$AAr?$AAi?$AAn?$AAg?$AA?5?$AA?$CF?$AAs?$AA?5?$AAd?$AAa@ 100039d8     kernprof_ALL:profiler_stub.obj
+ 0001:00002a38       ??_C@_1BG@EKNIEMPA@?$AAM?$AAo?$AAn?$AAt?$AAe?$AAC?$AAa?$AAr?$AAl?$AAo?$AA?$AA@ 10003a38     kernprof_ALL:profiler_stub.obj
+ 0001:00002a50       ??_C@_1BG@KCGECFCC@?$AAO?$AAb?$AAj?$AAe?$AAc?$AAt?$AAC?$AAa?$AAl?$AAl?$AA?$AA@ 10003a50     kernprof_ALL:profiler_stub.obj
+ 0001:00002a68       ??_C@_1BI@EMEDAJL@?$AAO?$AAE?$AAM?$AA?9?$AAD?$AAe?$AAf?$AAi?$AAn?$AAe?$AAd?$AA?$AA@ 10003a68     kernprof_ALL:profiler_stub.obj
+ 0001:00002a80       ??_C@_1BG@BDJOCP@?$AAu?$AAn?$AAb?$AAu?$AAf?$AAf?$AAe?$AAr?$AAe?$AAd?$AA?$AA@ 10003a80     kernprof_ALL:profiler_stub.obj
+ 0001:00002a98       ??_C@_1BC@FJHCFHHN@?$AAb?$AAu?$AAf?$AAf?$AAe?$AAr?$AAe?$AAd?$AA?$AA@ 10003a98     kernprof_ALL:profiler_stub.obj
+ 0001:00002aac       ??_C@_1M@NFHIDGDD@?$AAC?$AAe?$AAL?$AAo?$AAg?$AA?$AA@ 10003aac     kernprof_ALL:profiler_stub.obj
+ 0001:00002ab8       ??_C@_1FA@CNHLAON@?$AAK?$AAe?$AAr?$AAn?$AAe?$AAl?$AA?5?$AAP?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AAr?$AA?3?$AA?5?$AAG?$AAa?$AAt?$AAh?$AAe?$AAr?$AAi?$AAn?$AAg?$AA?5?$AAK?$AAC?$AAa?$AAl?$AAl@ 10003ab8     kernprof_ALL:profiler_stub.obj
+ 0001:00002b08       ??_C@_1IG@ILLEGKDI@?$AAK?$AAe?$AAr?$AAn?$AAe?$AAl?$AA?5?$AAP?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AAr?$AA?3?$AA?5?$AAK?$AAC?$AAa?$AAl?$AAl?$AA?5?$AAp?$AAr?$AAo?$AAf?$AAi?$AAl?$AAi?$AAn?$AAg@ 10003b08     kernprof_ALL:profiler_stub.obj
+ 0001:00002b90       ??_C@_1GK@KNOBIGEB@?$AAK?$AAe?$AAr?$AAn?$AAe?$AAl?$AA?5?$AAP?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AAr?$AA?3?$AA?5?$AAI?$AAg?$AAn?$AAo?$AAr?$AAi?$AAn?$AAg?$AA?5?$AAm?$AAu?$AAl?$AAt?$AAi?$AAp@ 10003b90     kernprof_ALL:profiler_stub.obj
+ 0001:00002bfc       ??_C@_1CC@JPENPCAM@?$AA0?$AA1?$AA2?$AA3?$AA4?$AA5?$AA6?$AA7?$AA8?$AA9?$AAA?$AAB?$AAC?$AAD?$AAE?$AAF?$AA?$AA@ 10003bfc     kernprof_ALL:printf.obj
+ 0001:00002c24       ??_C@_1O@INIEDEDF@?$AA?$CI?$AAN?$AAU?$AAL?$AAL?$AA?$CJ?$AA?$AA@ 10003c24     kernprof_ALL:printf.obj
+ 0001:00002c34       gdwFailPowerPaging         10003c34     kernprof_ALL:vm.obj
+ 0001:00002c38       idxKernelSearchLimit       10003c38     kernprof_ALL:vm.obj
+ 0001:00002c3c       idxUserSearchLimit         10003c3c     kernprof_ALL:vm.obj
+ 0001:00002c40       ??_C@_1LC@BHGELIH@?$AAV?$AAM?$AAP?$AAr?$AAo?$AAc?$AAe?$AAs?$AAs?$AAP?$AAa?$AAg?$AAe?$AAF?$AAa?$AAu?$AAl?$AAt?$AA?5?$AAE?$AAr?$AAr?$AAo?$AAr?$AA?3?$AA?5?$AAP?$AAa?$AAg?$AAe?$AA?5?$AAf@ 10003c40     kernprof_ALL:vm.obj
+ 0001:00002cf4       ??_C@_0BB@GOONFLKF@Raised?5Exception?$AA@ 10003cf4     kernprof_ALL:exdsptch.obj
+ 0001:00002d08       ??_C@_0BG@BFBNOEBD@Secure?5Stack?5Overflow?$AA@ 10003d08     kernprof_ALL:exdsptch.obj
+ 0001:00002d20       ??_C@_0BE@BNKBDLBG@User?5Stack?5Overflow?$AA@ 10003d20     kernprof_ALL:exdsptch.obj
+ 0001:00002d34       ppszOsExcp                 10003d34     kernprof_ALL:exdsptch.obj
+ 0001:00002d40       nOsExcps                   10003d40     kernprof_ALL:exdsptch.obj
+ 0001:00002d44       ??_C@_17JLFEDMMI@?$AA?$DP?$AA?$DP?$AA?$DP?$AA?$AA@ 10003d44     kernprof_ALL:exdsptch.obj
+ 0001:00002d4c       ??_C@_0BC@BLOAIJL@Unknown?5Exception?$AA@ 10003d4c     kernprof_ALL:exdsptch.obj
+ 0001:00002d60       ??_C@_1PI@GLGHPDJD@?$AAE?$AAx?$AAc?$AAe?$AAp?$AAt?$AAi?$AAo?$AAn?$AA?5?$AA?8?$AA?$CF?$AAa?$AA?8?$AA?5?$AA?$CI?$AA0?$AAx?$AA?$CF?$AAx?$AA?$CJ?$AA?3?$AA?5?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AA?9?$AAI?$AAd@ 10003d60     kernprof_ALL:exdsptch.obj
+ 0001:00002e58       ??_C@_1IM@IJHACEEH@?$AAP?$AAC?$AA?$DN?$AA?$CF?$AA8?$AA?4?$AA8?$AAl?$AAx?$AA?$CI?$AA?$CF?$AAs?$AA?$CL?$AA0?$AAx?$AA?$CF?$AA8?$AA?4?$AA8?$AAl?$AAx?$AA?$CJ?$AA?5?$AAR?$AAA?$AA?$DN?$AA?$CF?$AA8?$AA?4?$AA8?$AAl?$AAx@ 10003e58     kernprof_ALL:exdsptch.obj
+ 0001:00002ee8       ??_C@_1PG@JGMEJANB@?$AA?$CB?$AA?$CB?$AA?$CB?$AA?5?$AAC?$AAo?$AAm?$AAm?$AAi?$AAt?$AAt?$AAe?$AAd?$AA?5?$AAl?$AAa?$AAs?$AAt?$AA?5?$AAp?$AAa?$AAg?$AAe?$AA?5?$AAo?$AAf?$AA?5?$AAt?$AAh?$AAe?$AA?5?$AAs@ 10003ee8     kernprof_ALL:exdsptch.obj
+ 0001:00002fe0       ??_C@_1HM@MIHKJMHC@?$AA?$CB?$AAF?$AAA?$AAT?$AAA?$AAL?$AA?5?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?$CB?$AA?3?$AA?5?$AAS?$AAe?$AAc?$AAu?$AAr?$AAe?$AA?5?$AAs?$AAt?$AAa?$AAc?$AAk?$AA?5?$AAo?$AAv?$AAe?$AAr@ 10003fe0     kernprof_ALL:exdsptch.obj
+ 0001:00003060       ??_C@_1GM@HMPCHGPL@?$AA?$CB?$AAF?$AAA?$AAT?$AAA?$AAL?$AA?5?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?$CB?$AA?3?$AA?5?$AAK?$AAi?$AAl?$AAl?$AAi?$AAn?$AAg?$AA?5?$AAt?$AAh?$AAr?$AAe?$AAa?$AAd?$AA?5?$AA?9?$AA?5@ 10004060     kernprof_ALL:exdsptch.obj
+ 0001:00003430       cinfProcQuery              10004430     kernprof_ALL:process.obj
+ 0001:00003454       cinfProc                   10004454     kernprof_ALL:process.obj
+ 0001:00003478       ??_C@_1ME@IDGHDBI@?$AAV?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AA?5?$AAf?$AAr?$AAe?$AAe?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAu?$AAr?$AAe?$AA?$CB?$AA?$CB?$AA?$CB?$AA?5?$AAa?$AAd?$AAd?$AAr?$AA?3?$AA?5?$AA0?$AAx@ 10004478     kernprof_ALL:process.obj
+ 0001:0000353c       ??_C@_11LOCGONAA@?$AA?$AA@ 1000453c     kernprof_ALL:process.obj
+ 0001:00003540       ??_C@_1BE@IBBOHCDA@?$AA?2?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AA?2?$AA?$AA@ 10004540     kernprof_ALL:process.obj
+ 0001:00003554       ??_C@_19DOGDICKI@?$AA?4?$AAe?$AAx?$AAe?$AA?$AA@ 10004554     kernprof_ALL:process.obj
+ 0001:00003560       ??_C@_1O@JJGJOKMI@?$AAN?$AAK?$AA?4?$AAE?$AAX?$AAE?$AA?$AA@ 10004560     kernprof_ALL:process.obj
+ 0001:00003570       Win32ExtMethods            10004570     kernprof_ALL:kwin32.obj
+ 0001:000037a0       Win32IntMethods            100047a0     kernprof_ALL:kwin32.obj
+ 0001:00003e30       cinfWin32                  10004e30     kernprof_ALL:kwin32.obj
+ 0001:00003e54       ??_C@_1O@MNAGHPDD@?$AAk?$AAd?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10004e54     kernprof_ALL:ksysdbg.obj
+ 0001:00003e64       ??_C@_1BI@KADHMGKF@?$AAo?$AAs?$AAa?$AAx?$AAs?$AAt?$AA1?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10004e64     kernprof_ALL:ksysdbg.obj
+ 0001:00003e7c       ??_C@_1BI@DLJCIKMK@?$AAo?$AAs?$AAa?$AAx?$AAs?$AAt?$AA0?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10004e7c     kernprof_ALL:ksysdbg.obj
+ 0001:00003e94       ??_C@_1O@LBGHFKOI@?$AAh?$AAd?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10004e94     kernprof_ALL:ksysdbg.obj
+ 0001:00003ef4       cinfThread                 10004ef4     kernprof_ALL:thread.obj
+ 0001:00004050       ??_C@_1GO@HPLKNKFH@?$AA?$CB?$AA?$CB?$AA?$CB?$AA?5?$AAP?$AAH?$AAY?$AAS?$AA_?$AAG?$AAr?$AAa?$AAb?$AAF?$AAi?$AAr?$AAs?$AAt?$AAP?$AAh?$AAy?$AAs?$AAP?$AAa?$AAg?$AAe?$AA?3?$AA?5?$AAC?$AAo?$AAm?$AAp@ 10005050     kernprof_ALL:physmem.obj
+ 0001:000040c0       ??_C@_1KI@OKHGNMCO@?$AA?$CB?$AA?$CB?$AA?$CB?$AA?5?$AAP?$AAH?$AAY?$AAS?$AA_?$AAG?$AAr?$AAa?$AAb?$AAF?$AAi?$AAr?$AAs?$AAt?$AAP?$AAh?$AAy?$AAs?$AAP?$AAa?$AAg?$AAe?$AA?3?$AA?5?$AAU?$AAn?$AAa?$AAb@ 100050c0     kernprof_ALL:physmem.obj
+ 0001:00004168       ??_C@_09NAEEGGLD@IOControl?$AA@ 10005168     kernprof_ALL:kdriver.obj
+ 0001:00004174       ??_C@_0P@PGGGILHJ@CreateInstance?$AA@ 10005174     kernprof_ALL:kdriver.obj
+ 0001:00004184       ??_C@_0BA@KCCDBABG@DestroyInstance?$AA@ 10005184     kernprof_ALL:kdriver.obj
+ 0001:00004198       ??_C@_1IK@LAHMBJNN@?$AAT?$AAa?$AAk?$AAi?$AAn?$AAg?$AA?5?$AAs?$AAn?$AAa?$AAp?$AAs?$AAh?$AAo?$AAt?$AA?5?$AAi?$AAs?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAs?$AAu?$AAp?$AAp?$AAo?$AAr?$AAt?$AAe?$AAd@ 10005198     kernprof_ALL:kdriver.obj
+ 0001:00004228       ??_C@_1IK@ICCPJCBF@?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN?$AA?$DN@ 10005228     kernprof_ALL:kdriver.obj
+ 0001:000042b4       ??_C@_19GJFHEGMI@?$AA?4?$AAc?$AAp?$AAl?$AA?$AA@ 100052b4     kernprof_ALL:loader.obj
+ 0001:000042c0       ??_C@_19BHIGINDB@?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 100052c0     kernprof_ALL:loader.obj
+ 0001:000042d0       ??_C@_1NO@HKLCDLFK@?$AAW?$AAA?$AAR?$AAN?$AAI?$AAN?$AAG?$AA?$CB?$AA?5?$AAX?$AAI?$AAP?$AA?5?$AAr?$AAe?$AAg?$AAi?$AAo?$AAn?$AA?5?$AAs?$AAp?$AAa?$AAn?$AA?5?$AAa?$AAc?$AAc?$AAr?$AAo?$AAs?$AAs@ 100052d0     kernprof_ALL:loader.obj
+ 0001:000043b0       ??_C@_1M@HPIMKBCN@?$AAc?$AAb?$AAL?$AAo?$AAw?$AA?$AA@ 100053b0     kernprof_ALL:loader.obj
+ 0001:000043bc       ??_C@_1BG@ONGGLILL@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?2?$AAO?$AAO?$AAM?$AA?$AA@ 100053bc     kernprof_ALL:loader.obj
+ 0001:000043d4       ??_C@_1M@FMNHPAPI@?$AAc?$AAp?$AAL?$AAo?$AAw?$AA?$AA@ 100053d4     kernprof_ALL:loader.obj
+ 0001:000043e0       ??_C@_1O@OMEFCEGM@?$AAL?$AAo?$AAa?$AAd?$AAe?$AAr?$AA?$AA@ 100053e0     kernprof_ALL:loader.obj
+ 0001:000043f0       ??_C@_1BG@GHCHLAFF@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AAP?$AAa?$AAt?$AAh?$AA?$AA@ 100053f0     kernprof_ALL:loader.obj
+ 0001:00004408       ??_C@_1M@OPFBIOCF@?$AAD?$AAe?$AAb?$AAu?$AAg?$AA?$AA@ 10005408     kernprof_ALL:loader.obj
+ 0001:00004414       ??_C@_1BI@NNFPLEHE@?$AAJ?$AAI?$AAT?$AAD?$AAe?$AAb?$AAu?$AAg?$AAg?$AAe?$AAr?$AA?$AA@ 10005414     kernprof_ALL:loader.obj
+ 0001:0000442c       ??_C@_13FPGAJAPJ@?$AA?2?$AA?$AA@ 1000542c     kernprof_ALL:loader.obj
+ 0001:00004430       ??_C@_1BE@PHABJHBC@?$AA?2?$AAR?$AAe?$AAl?$AAe?$AAa?$AAs?$AAe?$AA?2?$AA?$AA@ 10005430     kernprof_ALL:loader.obj
+ 0001:00004444       ??_C@_15GMODHJMI@?$AAk?$AA?4?$AA?$AA@ 10005444     kernprof_ALL:loader.obj
+ 0001:0000444c       ??_C@_17OAIDAKOK@?$AAC?$AAP?$AAL?$AA?$AA@ 1000544c     kernprof_ALL:loader.obj
+ 0001:00004454       ??_C@_17JCBKHJFJ@?$AAM?$AAU?$AAI?$AA?$AA@ 10005454     kernprof_ALL:loader.obj
+ 0001:0000445c       ??_C@_17OJFPAGNE@?$AAe?$AAx?$AAe?$AA?$AA@ 1000545c     kernprof_ALL:loader.obj
+ 0001:00004464       ??_C@_17MALKAJEN@?$AAd?$AAl?$AAl?$AA?$AA@ 10005464     kernprof_ALL:loader.obj
+ 0001:0000446c       ??_C@_1BI@EDOBHNKB@?$AA?2?$AAw?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AA?2?$AAk?$AA?4?$AA?$AA@ 1000546c     kernprof_ALL:loader.obj
+ 0001:00004484       ??_C@_1CA@MHOLJNCI@?$AAP?$AAr?$AAe?$AAL?$AAo?$AAa?$AAd?$AAU?$AAs?$AAe?$AAr?$AAD?$AAl?$AAl?$AAs?$AA?$AA@ 10005484     kernprof_ALL:loader.obj
+ 0001:000044a4       ??_C@_1BM@FBNMNIMP@?$AAi?$AAn?$AAi?$AAt?$AA?2?$AAB?$AAo?$AAo?$AAt?$AAV?$AAa?$AAr?$AAs?$AA?$AA@ 100054a4     kernprof_ALL:loader.obj
+ 0001:000044c0       ??_C@_1BC@JCGBPHMI@?$AAo?$AAa?$AAl?$AAi?$AAo?$AAc?$AAt?$AAl?$AA?$AA@ 100054c0     kernprof_ALL:loader.obj
+ 0001:000044d4       ??_C@_1BI@CJKPFBEK@?$AAc?$AAo?$AAr?$AAe?$AAd?$AAl?$AAl?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 100054d4     kernprof_ALL:loader.obj
+ 0001:000044ec       ??_C@_1BO@PEGMHBGM@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?1?$AAF?$AAS?$AAR?$AAe?$AAa?$AAd?$AAy?$AA?$AA@ 100054ec     kernprof_ALL:loader.obj
+ 0001:0000450c       ??_C@_1BC@LDKKAPLK@?$AAk?$AAi?$AAt?$AAl?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 1000550c     kernprof_ALL:loader.obj
+ 0001:00004520       ??_C@_1BG@GKBIAKML@?$AAk?$AAe?$AAr?$AAn?$AAe?$AAl?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10005520     kernprof_ALL:loader.obj
+ 0001:00004538       ??_C@_07DNPCLKOE@Maximum?$AA@ 10005538     kernprof_ALL:heap.obj
+ 0001:00004540       ??_C@_04FMDIKMJI@Thrd?$AA@ 10005540     kernprof_ALL:heap.obj
+ 0001:00004548       ??_C@_07MNGBFJEN@Process?$AA@ 10005548     kernprof_ALL:heap.obj
+ 0001:00004550       ??_C@_0BA@FPKNBNAC@Module?1StubThrd?$AA@ 10005550     kernprof_ALL:heap.obj
+ 0001:00004560       ??_C@_0CK@PELFAADG@Crit?1Evt?1Sem?1Mut?1PgPool?1FSMap?1Lo@ 10005560     kernprof_ALL:heap.obj
+ 0001:0000458c       ??_C@_0BB@HILJHJLD@MapView?1CeLogDLL?$AA@ 1000558c     kernprof_ALL:heap.obj
+ 0001:000045a0       ??_C@_0CB@IHDBDDLK@API?1Prxy?1HData?1KMod?1Wdog?1TokList@ 100055a0     kernprof_ALL:heap.obj
+ 0001:000045c4       ??_C@_0CK@ONMJEDIE@ModList?1STKLIST?1LockList?1Alias?1C@ 100055c4     kernprof_ALL:heap.obj
+ 0001:00004718       cinfEvent                  10005718     kernprof_ALL:syncobj.obj
+ 0001:0000473c       cinfMutex                  1000573c     kernprof_ALL:syncobj.obj
+ 0001:00004760       cinfSem                    10005760     kernprof_ALL:syncobj.obj
+ 0001:00004784       cinfCRIT                   10005784     kernprof_ALL:syncobj.obj
+ 0001:000047a8       ??_C@_1HE@GNNCCFNJ@?$AAC?$AAr?$AAi?$AAt?$AAi?$AAa?$AAl?$AA?5?$AAO?$AAO?$AAM?$AA?5?$AAr?$AAe?$AAa?$AAc?$AAh?$AAe?$AAd?$AA?0?$AA?5?$AAt?$AAe?$AAr?$AAm?$AAi?$AAn?$AAa?$AAt?$AAe?$AA?5?$AAc@ 100057a8     kernprof_ALL:syncobj.obj
+ 0001:0000481c       lowerval                   1000581c     kernprof_ALL:stubs.obj
+ 0001:00004840       upperval                   10005840     kernprof_ALL:stubs.obj
+ 0001:00004864       ??_C@_06LHGEHABH@?$CINULL?$CJ?$AA@ 10005864     kernprof_ALL:stubs.obj
+ 0001:0000486c       ??_C@_1BE@GNGGKBML@?$AAC?$AAe?$AAL?$AAo?$AAg?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 1000586c     kernprof_ALL:logger.obj
+ 0001:00004880       LeapYearDaysBeforeMonth    10005880     kernprof_ALL:time.obj
+ 0001:0000489c       NormalYearDaysBeforeMonth  1000589c     kernprof_ALL:time.obj
+ 0001:000048b8       LeapYearDayToMonth         100058b8     kernprof_ALL:time.obj
+ 0001:00004a28       NormalYearDayToMonth       10005a28     kernprof_ALL:time.obj
+ 0001:00004b98       ??_C@_1BC@POKDNDGF@?$AAP?$AAl?$AAa?$AAt?$AAf?$AAo?$AAr?$AAm?$AA?$AA@ 10005b98     kernprof_ALL:time.obj
+ 0001:00004bac       ??_C@_1BA@BJOMFGGA@?$AAS?$AAo?$AAf?$AAt?$AAR?$AAT?$AAC?$AA?$AA@ 10005bac     kernprof_ALL:time.obj
+ 0001:00004bbc       ??_C@_1BA@HIPCPLHO@?$AAK?$AAT?$AAz?$AAB?$AAi?$AAa?$AAs?$AA?$AA@ 10005bbc     kernprof_ALL:time.obj
+ 0001:00004bd0       MapMthds                   10005bd0     kernprof_ALL:mapfile.obj
+ 0001:00004be8       cinfMap                    10005be8     kernprof_ALL:mapfile.obj
+ 0001:00004c0c       ??_C@_0O@JBGDCNOF@Pegasus?2Zones?$AA@ 10005c0c     kernprof_ALL:ppfs.obj
+ 0001:00004c1c       ??_C@_1BM@MFGJPNFB@?$AA?2?$AAR?$AAe?$AAl?$AAe?$AAa?$AAs?$AAe?$AA?2?$AAr?$AAe?$AAg?$AA?3?$AA?$AA@ 10005c1c     kernprof_ALL:ppfs.obj
+ 0001:00004ce8       cinfAPISet                 10005ce8     kernprof_ALL:apicall.obj
+ 0001:00004d10       ??_C@_1FK@BLKIGBPI@?$AA?$CB?$AA?$CB?$AA?$CB?$AAK?$AAe?$AAr?$AAn?$AAe?$AAl?$AA?5?$AAm?$AAo?$AAd?$AAe?$AA?5?$AAP?$AAS?$AAL?$AA?5?$AA?8?$AA?$CF?$AA?4?$AA4?$AAa?$AA?8?$AA?5?$AAd?$AAe?$AA?9?$AAr?$AAe?$AAg@ 10005d10     kernprof_ALL:apicall.obj
+ 0001:00004d70       ??_C@_1NA@GALGJKEA@?$AA?$CB?$AA?$CB?$AA?$CB?$AA?$CB?$AAA?$AAP?$AAI?$AA?5?$AAC?$AAO?$AAN?$AAT?$AAA?$AAI?$AAN?$AAS?$AA?5?$AAT?$AAO?$AAO?$AA?5?$AAM?$AAA?$AAN?$AAY?$AA?5?$AAO?$AAU?$AAT?$AA?9?$AAP?$AAO@ 10005d70     kernprof_ALL:apicall.obj
+ 0001:00004e40       ??_C@_1MI@DBBIFEPK@?$AA?$CB?$AA?$CB?$AA?5?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?5?$AA?9?$AA?5?$AAS?$AAE?$AAC?$AAU?$AAR?$AAI?$AAI?$AAY?$AA?5?$AAV?$AAI?$AAO?$AAL?$AAA?$AAT?$AAI?$AAO?$AAN?$AA?5?$AA?$CB?$AA?$CB@ 10005e40     kernprof_ALL:apicall.obj
+ 0001:00004f08       ??_C@_1NE@PLBKFEAG@?$AA?$CB?$AA?$CB?$AA?5?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?5?$AA?9?$AA?5?$AAS?$AAE?$AAC?$AAU?$AAR?$AAI?$AAI?$AAY?$AA?5?$AAV?$AAI?$AAO?$AAL?$AAA?$AAT?$AAI?$AAO?$AAN?$AA?5?$AA?$CB?$AA?$CB@ 10005f08     kernprof_ALL:apicall.obj
+ 0001:00004fe0       ??_C@_1HO@BHPFBNNG@?$AAN?$AAK?$AAP?$AAr?$AAe?$AAp?$AAa?$AAr?$AAe?$AAC?$AAa?$AAl?$AAl?$AAb?$AAa?$AAc?$AAk?$AA?3?$AA?5?$AAi?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5?$AAa?$AAr?$AAg?$AAu?$AAm@ 10005fe0     kernprof_ALL:apicall.obj
+ 0001:00005060       ??_C@_1GC@OEBLELIC@?$AAS?$AAe?$AAc?$AAu?$AAr?$AAi?$AAt?$AAy?$AA?5?$AAV?$AAi?$AAo?$AAl?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?3?$AA?5?$AAC?$AAa?$AAl?$AAl?$AA?5?$AAF?$AAo?$AAr?$AAw?$AAa?$AAr?$AAd@ 10006060     kernprof_ALL:apicall.obj
+ 0001:000050c4       Hexmap                     100060c4     kernprof_ALL:dbgapi.obj
+ 0001:00005c2c       PagePoolCriticalFreeMemory 10006c2c     kernprof_ALL:pgpool.obj
+ 0001:00005c30       ??_C@_1BE@GKNEGONL@?$AA?4?$AA?$CF?$AA0?$AA4?$AAX?$AA?4?$AAM?$AAU?$AAI?$AA?$AA@ 10006c30     kernprof_ALL:resource.obj
+ 0001:00005c44       ??_C@_1BA@LOIHNCHK@?$AAC?$AAu?$AAr?$AAL?$AAa?$AAn?$AAg?$AA?$AA@ 10006c44     kernprof_ALL:resource.obj
+ 0001:00005c54       ??_C@_1BA@OJPADBKG@?$AAS?$AAy?$AAs?$AAL?$AAa?$AAn?$AAg?$AA?$AA@ 10006c54     kernprof_ALL:resource.obj
+ 0001:00005c64       ??_C@_1O@PFBIKACK@?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?$AA@ 10006c64     kernprof_ALL:resource.obj
+ 0001:00005c74       ??_C@_1CG@NLPNJBFM@?$AAp?$AAS?$AAn?$AAa?$AAp?$AAH?$AAe?$AAa?$AAd?$AAe?$AAr?$AA?9?$AA?$DO?$AAd?$AAw?$AAS?$AAi?$AAg?$AA?$AA@ 10006c74     kernprof_ALL:nksnap.obj
+ 0001:00005c9c       ??_C@_1DK@KMEIILOK@?$AAp?$AAS?$AAn?$AAa?$AAp?$AAH?$AAe?$AAa?$AAd?$AAe?$AAr?$AA?9?$AA?$DO?$AAd?$AAw?$AAO?$AAf?$AAs?$AAt?$AAS?$AAn?$AAa?$AAp?$AAT?$AAa?$AAb?$AAl?$AAe?$AA?$AA@ 10006c9c     kernprof_ALL:nksnap.obj
+ 0001:00005cd8       ??_C@_1DI@PBNHOOJD@?$AAp?$AAS?$AAn?$AAa?$AAp?$AAH?$AAe?$AAa?$AAd?$AAe?$AAr?$AA?9?$AA?$DO?$AAd?$AAw?$AAO?$AAf?$AAs?$AAt?$AAP?$AAa?$AAg?$AAe?$AAa?$AAb?$AAl?$AAe?$AA?$AA@ 10006cd8     kernprof_ALL:nksnap.obj
+ 0001:00005d10       ??_C@_1DA@ILEFMMNG@?$AAp?$AAS?$AAn?$AAa?$AAp?$AAH?$AAe?$AAa?$AAd?$AAe?$AAr?$AA?9?$AA?$DO?$AAc?$AAS?$AAn?$AAa?$AAp?$AAP?$AAa?$AAg?$AAe?$AAs?$AA?$AA@ 10006d10     kernprof_ALL:nksnap.obj
+ 0001:00005d40       ??_C@_1DE@PFMJOEDJ@?$AAp?$AAS?$AAn?$AAa?$AAp?$AAH?$AAe?$AAa?$AAd?$AAe?$AAr?$AA?9?$AA?$DO?$AAc?$AAb?$AAC?$AAo?$AAm?$AAp?$AAr?$AAe?$AAs?$AAs?$AAe?$AAd?$AA?$AA@ 10006d40     kernprof_ALL:nksnap.obj
+ 0001:00005d74       ??_C@_1DA@KEOFHJJI@?$AAp?$AAS?$AAn?$AAa?$AAp?$AAH?$AAe?$AAa?$AAd?$AAe?$AAr?$AA?9?$AA?$DO?$AAc?$AAb?$AAP?$AAa?$AAg?$AAe?$AAA?$AAb?$AAl?$AAe?$AA?$AA@ 10006d74     kernprof_ALL:nksnap.obj
+ 0001:00005da4       ??_C@_1DI@HECDCHKK@?$AAp?$AAS?$AAn?$AAa?$AAp?$AAH?$AAe?$AAa?$AAd?$AAe?$AAr?$AA?9?$AA?$DO?$AAd?$AAw?$AAH?$AAe?$AAa?$AAd?$AAe?$AAr?$AAA?$AAd?$AAj?$AAu?$AAs?$AAt?$AA?$AA@ 10006da4     kernprof_ALL:nksnap.obj
+ 0001:00005ddc       ??_C@_1DG@CENKHOPI@?$AAp?$AAS?$AAn?$AAa?$AAp?$AAH?$AAe?$AAa?$AAd?$AAe?$AAr?$AA?9?$AA?$DO?$AAd?$AAw?$AAT?$AAa?$AAb?$AAl?$AAe?$AAC?$AAh?$AAk?$AAS?$AAu?$AAm?$AA?$AA@ 10006ddc     kernprof_ALL:nksnap.obj
+ 0001:00005e14       ??_C@_1DE@HBIMFJCA@?$AAp?$AAS?$AAn?$AAa?$AAp?$AAH?$AAe?$AAa?$AAd?$AAe?$AAr?$AA?9?$AA?$DO?$AAd?$AAw?$AAS?$AAn?$AAa?$AAp?$AAC?$AAh?$AAk?$AAS?$AAu?$AAm?$AA?$AA@ 10006e14     kernprof_ALL:nksnap.obj
+ 0001:00005e48       ??_C@_1DM@JGDCDLHI@?$AAp?$AAS?$AAn?$AAa?$AAp?$AAH?$AAe?$AAa?$AAd?$AAe?$AAr?$AA?9?$AA?$DO?$AAd?$AAw?$AAP?$AAa?$AAg?$AAe?$AAA?$AAb?$AAl?$AAe?$AAC?$AAh?$AAk?$AAS?$AAu?$AAm?$AA?$AA@ 10006e48     kernprof_ALL:nksnap.obj
+ 0001:00005e84       ??_C@_1BK@DCMHCOKE@?$AA?$CF?$AAs?$AA?5?$AA?$DN?$AA?$DN?$AA?5?$AA0?$AAx?$AA?$CF?$AAx?$AA?$AN?$AA?6?$AA?$AA@ 10006e84     kernprof_ALL:nksnap.obj
+ 0001:00005ea0       cszTimeZones               10006ea0     kernprof_ALL:tzinit.obj
+ 0001:00005eb8       cszID                      10006eb8     kernprof_ALL:tzinit.obj
+ 0001:00005ec0       szDefaultTZID              10006ec0     kernprof_ALL:tzinit.obj
+ 0001:00005ed8       cszTZI                     10006ed8     kernprof_ALL:tzinit.obj
+ 0001:00005ee0       cszStd                     10006ee0     kernprof_ALL:tzinit.obj
+ 0001:00005ee8       cszDlt                     10006ee8     kernprof_ALL:tzinit.obj
+ 0001:00005ef0       cszDisplay                 10006ef0     kernprof_ALL:tzinit.obj
+ 0001:00005f00       cszDynDST                  10006f00     kernprof_ALL:tzinit.obj
+ 0001:00005f18       cszFirstEntry              10006f18     kernprof_ALL:tzinit.obj
+ 0001:00005f30       cszLastEntry               10006f30     kernprof_ALL:tzinit.obj
+ 0001:00005f44       cszSystemTimezone          10006f44     kernprof_ALL:tzinit.obj
+ 0001:00005f6c       cszSystemTime              10006f6c     kernprof_ALL:tzinit.obj
+ 0001:00005f78       cszTZID                    10006f78     kernprof_ALL:tzinit.obj
+ 0001:00005f88       dec_extra_bits             10006f88     kernprof_ALL:decapi.obj
+ 0001:00005fbc       dec_extra_bits_count       10006fbc     kernprof_ALL:decapi.obj
+ 0001:00005fc0       MP_POS_minus2              10006fc0     kernprof_ALL:decapi.obj
+ 0001:000060e0       GetThreadPtr               100070e0 f i kernprof_ALL:mdarm.obj
+ 0001:0000611c       KC_IsValidThread           1000711c f i kernprof_ALL:mdarm.obj
+ 0001:00006160       KCALLPROFON                10007160 f i kernprof_ALL:mdarm.obj
+ 0001:000061e8       KCALLPROFOFF               100071e8 f i kernprof_ALL:mdarm.obj
+ 0001:00006320       MDValidateRomChain         10007320 f   kernprof_ALL:mdarm.obj
+ 0001:000063e0       InSysCall                  100073e0 f   kernprof_ALL:mdarm.obj
+ 0001:00006430       MDCheckInterlockOperation  10007430 f   kernprof_ALL:mdarm.obj
+ 0001:00006460       MDSetupUserKPage           10007460 f   kernprof_ALL:mdarm.obj
+ 0001:00006464       MDClearUserKPage           10007464 f   kernprof_ALL:mdarm.obj
+ 0001:00006468       MDSpin                     10007468 f   kernprof_ALL:mdarm.obj
+ 0001:00006480       MDSignal                   10007480 f   kernprof_ALL:mdarm.obj
+ 0001:000064a4       MDFlushFPU                 100074a4 f   kernprof_ALL:mdarm.obj
+ 0001:00006540       MDDiscardFPUContent        10007540 f   kernprof_ALL:mdarm.obj
+ 0001:000066a4       FPUFlushContext            100076a4 f   kernprof_ALL:mdarm.obj
+ 0001:000066c4       MDCaptureFPUContext        100076c4 f   kernprof_ALL:mdarm.obj
+ 0001:00006774       DumpContext                10007774 f   kernprof_ALL:mdarm.obj
+ 0001:00006810       MDDumpThreadContext        10007810 f   kernprof_ALL:mdarm.obj
+ 0001:00006920       MDDumpFrame                10007920 f   kernprof_ALL:mdarm.obj
+ 0001:000069b0       HandleException            100079b0 f   kernprof_ALL:mdarm.obj
+ 0001:00006b30       MDSetupThread              10007b30 f   kernprof_ALL:mdarm.obj
+ 0001:00006bb4       SCHL_DoThreadGetContext    10007bb4 f   kernprof_ALL:mdarm.obj
+ 0001:00006d48       SCHL_DoThreadSetContext    10007d48 f   kernprof_ALL:mdarm.obj
+ 0001:00006f10       MDRestoreCalleeSavedRegisters 10007f10 f   kernprof_ALL:mdarm.obj
+ 0001:00006f54       MDClearVolatileRegs        10007f54 f   kernprof_ALL:mdarm.obj
+ 0001:00006f70       MDSkipBreakPoint           10007f70 f   kernprof_ALL:mdarm.obj
+ 0001:00006fec       MDIsPageFault              10007fec f   kernprof_ALL:mdarm.obj
+ 0001:00006ffc       MDGetRaisedExceptionInfo   10007ffc f   kernprof_ALL:mdarm.obj
+ 0001:00007064       MDSetupExcpInfo            10008064 f   kernprof_ALL:mdarm.obj
+ 0001:00007178       MDHandleHardwareException  10008178 f   kernprof_ALL:mdarm.obj
+ 0001:000076c8       InitAllOtherCPUs           100086c8 f   kernprof_ALL:mdarm.obj
+ 0001:000079f8       MpStartContinue            100089f8 f   kernprof_ALL:mdarm.obj
+ 0001:00007b24       StartAllCPUs               10008b24 f   kernprof_ALL:mdarm.obj
+ 0001:00007bc4       ARMSetup                   10008bc4 f   kernprof_ALL:mdarm.obj
+ 0001:00007e08       NKStartup                  10008e08 f   kernprof_ALL:mdarm.obj
+ 0001:000081e4       NKSnapshotSMPStart         100091e4 f   kernprof_ALL:mdarm.obj
+ 0001:0000828c       PCBFunctionArea            1000928c f   kernprof_ALL:armpcb.obj
+ 0001:000082c0       MultiCorePCBGetDwordAtOffset 100092c0 f   kernprof_ALL:armpcb.obj
+ 0001:0000830c       MultiCoreGetPCB            1000930c f   kernprof_ALL:armpcb.obj
+ 0001:00008314       __PCBGetDwordAtOffset      10009314 f   kernprof_ALL:armpcb.obj
+ 0001:0000831c       PCBSetDwordAtOffset        1000931c f   kernprof_ALL:armpcb.obj
+ 0001:00008324       PCBAddAtOffset             10009324 f   kernprof_ALL:armpcb.obj
+ 0001:0000832c       __GetPCB                   1000932c f   kernprof_ALL:armpcb.obj
+ 0001:00008334       InitPCBFunctions           10009334 f   kernprof_ALL:armpcb.obj
+ 0001:00008384       GetHandleCountFromHDATA    10009384 f   kernprof_ALL:handle.obj
+ 0001:00008394       GetProcPtr                 10009394 f   kernprof_ALL:handle.obj
+ 0001:000083e0       h2pHDATA                   100093e0 f   kernprof_ALL:handle.obj
+ 0001:00008430       CreateHandleTable          10009430 f   kernprof_ALL:handle.obj
+ 0001:00008590       LockHandleData             10009590 f   kernprof_ALL:handle.obj
+ 0001:000085e4       LockHDATA                  100095e4 f   kernprof_ALL:handle.obj
+ 0001:000085ec       LockPseudoHandle           100095ec f   kernprof_ALL:handle.obj
+ 0001:00008674       DoLockHDATA                10009674 f   kernprof_ALL:handle.obj
+ 0001:000086a4       DoUnlockHDATA              100096a4 f   kernprof_ALL:handle.obj
+ 0001:000087bc       KC_AddDelayFreeThread      100097bc f   kernprof_ALL:handle.obj
+ 0001:000087cc       CleanDelayFreeThread       100097cc f   kernprof_ALL:handle.obj
+ 0001:00008804       AllocHData                 10009804 f   kernprof_ALL:handle.obj
+ 0001:0000884c       HNDLFindNamedObject        1000984c f   kernprof_ALL:handle.obj
+ 0001:000088e0       HNDLZapHandle              100098e0 f   kernprof_ALL:handle.obj
+ 0001:00008a44       HNDLCloseHandle            10009a44 f   kernprof_ALL:handle.obj
+ 0001:00008a94       HNDLCloseAllHandles        10009a94 f   kernprof_ALL:handle.obj
+ 0001:00008be0       HNDLDeleteHandleTable      10009be0 f   kernprof_ALL:handle.obj
+ 0001:00008c50       UnlockHandleData           10009c50 f i kernprof_ALL:handle.obj
+ 0001:00008e24       HNDLSetUserInfo            10009e24 f   kernprof_ALL:handle.obj
+ 0001:00008e5c       HNDLGetServerId            10009e5c f   kernprof_ALL:handle.obj
+ 0001:00008f18       HNDLDupWithHDATA           10009f18 f   kernprof_ALL:handle.obj
+ 0001:00008fe0       HNDLCreateHandle           10009fe0 f   kernprof_ALL:handle.obj
+ 0001:00009040       HNDLCreateNamedHandle      1000a040 f   kernprof_ALL:handle.obj
+ 0001:00009210       HNDLDuplicate              1000a210 f   kernprof_ALL:handle.obj
+ 0001:00009288       NKDuplicateHandle          1000a288 f   kernprof_ALL:handle.obj
+ 0001:0000947c       ReturnFalse                1000a47c f   kernprof_ALL:nkglobal.obj
+ 0001:000094ec       NKPhysToVirt               1000a4ec f   kernprof_ALL:nkglobal.obj
+ 0001:0000958c       NKVirtToPhys               1000a58c f   kernprof_ALL:nkglobal.obj
+ 0001:000095bc       NKAcquireOalSpinLock       1000a5bc f   kernprof_ALL:nkglobal.obj
+ 0001:000095fc       NKReleaseOalSpinLock       1000a5fc f   kernprof_ALL:nkglobal.obj
+ 0001:0000a3ec       PROF_ClassicProfilerHit    1000b3ec f   kernprof_ALL:profiler.obj
+ 0001:0000a524       PROF_ClassicProfileStart   1000b524 f   kernprof_ALL:profiler.obj
+ 0001:0000ac94       PROF_GetThreadName         1000bc94 f   kernprof_ALL:profiler.obj
+ 0001:0000ae44       PROF_ClassicProfileStop    1000be44 f   kernprof_ALL:profiler.obj
+ 0001:0000aec0       IsV7                       1000bec0 f i kernprof_ALL:kmisc.obj
+ 0001:0000aef8       NKGetSystemInfo            1000bef8 f   kernprof_ALL:kmisc.obj
+ 0001:0000af78       NKQueryInstructionSet      1000bf78 f   kernprof_ALL:kmisc.obj
+ 0001:0000b144       NKIsProcessorFeaturePresent 1000c144 f   kernprof_ALL:kmisc.obj
+ 0001:0000b208       NKIsBadPtr                 1000c208 f   kernprof_ALL:kmisc.obj
+ 0001:0000b300       NKGetFSHeapInfo            1000c300 f   kernprof_ALL:kmisc.obj
+ 0001:0000b310       NKUpdateNLSInfo            1000c310 f   kernprof_ALL:kmisc.obj
+ 0001:0000b33c       NKGetRandomSeed            1000c33c f   kernprof_ALL:kmisc.obj
+ 0001:0000b36c       NKGetIdleTime              1000c36c f   kernprof_ALL:kmisc.obj
+ 0001:0000b3a8       RunApps                    1000c3a8 f   kernprof_ALL:kmisc.obj
+ 0001:0000b4f4       NKSetDbgZone               1000c4f4 f   kernprof_ALL:kmisc.obj
+ 0001:0000b6f8       NKTlsCall                  1000c6f8 f   kernprof_ALL:kmisc.obj
+ 0001:0000b828       NKSetLastError             1000c828 f   kernprof_ALL:kmisc.obj
+ 0001:0000b868       NKGetLastError             1000c868 f   kernprof_ALL:kmisc.obj
+ 0001:0000b8a4       NKGetCallerVMProcessId     1000c8a4 f   kernprof_ALL:kmisc.obj
+ 0001:0000b924       NKGetDirectCallerProcessId 1000c924 f   kernprof_ALL:kmisc.obj
+ 0001:0000ba10       EXTGetCallerProcessId      1000ca10 f   kernprof_ALL:kmisc.obj
+ 0001:0000ba18       EXTOldGetCallerProcess     1000ca18 f   kernprof_ALL:kmisc.obj
+ 0001:0000ba20       THGrow                     1000ca20 f   kernprof_ALL:kmisc.obj
+ 0001:0000bbac       THGetThreads               1000cbac f   kernprof_ALL:kmisc.obj
+ 0001:0000bbfc       THGetHeapFromOtherProcess  1000cbfc f   kernprof_ALL:kmisc.obj
+ 0001:0000bea8       THGetHeaps                 1000cea8 f   kernprof_ALL:kmisc.obj
+ 0001:0000bf3c       NKQueryPerformanceCounter  1000cf3c f   kernprof_ALL:kmisc.obj
+ 0001:0000c008       NKQueryPerformanceFrequency 1000d008 f   kernprof_ALL:kmisc.obj
+ 0001:0000c070       NKReadRegistryFromOEM      1000d070 f   kernprof_ALL:kmisc.obj
+ 0001:0000c09c       NKWriteRegistryToOEM       1000d09c f   kernprof_ALL:kmisc.obj
+ 0001:0000c0d4       NKPowerOnWriteBarrier      1000d0d4 f   kernprof_ALL:kmisc.obj
+ 0001:0000c0d8       NKCacheRangeFlush          1000d0d8 f   kernprof_ALL:kmisc.obj
+ 0001:0000c124       NKCreateLocaleView         1000d124 f   kernprof_ALL:kmisc.obj
+ 0001:0000c210       EXTCreateLocaleView        1000d210 f   kernprof_ALL:kmisc.obj
+ 0001:0000c2c8       NKtowlower                 1000d2c8 f   kernprof_ALL:kmisc.obj
+ 0001:0000c2ec       NKstrcmpiAandW             1000d2ec f   kernprof_ALL:kmisc.obj
+ 0001:0000c360       NKwcsnicmp                 1000d360 f   kernprof_ALL:kmisc.obj
+ 0001:0000c3d4       NKwcsicmp                  1000d3d4 f   kernprof_ALL:kmisc.obj
+ 0001:0000c430       NKwcscpy                   1000d430 f   kernprof_ALL:kmisc.obj
+ 0001:0000c444       NKwcsncpy                  1000d444 f   kernprof_ALL:kmisc.obj
+ 0001:0000c49c       NKwcslen                   1000d49c f   kernprof_ALL:kmisc.obj
+ 0001:0000c4c0       NKwcscmp                   1000d4c0 f   kernprof_ALL:kmisc.obj
+ 0001:0000c4f0       NKAsciiToUnicode           1000d4f0 f   kernprof_ALL:kmisc.obj
+ 0001:0000c520       NKUnicodeToAscii           1000d520 f   kernprof_ALL:kmisc.obj
+ 0001:0000c558       DupStrToPNAME              1000d558 f   kernprof_ALL:kmisc.obj
+ 0001:0000c620       ReadZoneFromRegistry       1000d620 f   kernprof_ALL:kmisc.obj
+ 0001:0000c7a8       NKRegisterDbgZones         1000d7a8 f   kernprof_ALL:kmisc.obj
+ 0001:0000ca84       THGetProcs                 1000da84 f   kernprof_ALL:kmisc.obj
+ 0001:0000caf0       THGetMods                  1000daf0 f   kernprof_ALL:kmisc.obj
+ 0001:0000cb2c       DoCreateSnapshot           1000db2c f   kernprof_ALL:kmisc.obj
+ 0001:0000cc84       NKTHCreateSnapshot         1000dc84 f   kernprof_ALL:kmisc.obj
+ 0001:0000cf14       NKSetStdioPathW            1000df14 f   kernprof_ALL:kmisc.obj
+ 0001:0000d0c0       NKGetStdioPathW            1000e0c0 f   kernprof_ALL:kmisc.obj
+ 0001:0000d254       GetEPC                     1000e254 f   kernprof_ALL:profiler_stub.obj
+ 0001:0000d2d4       ProfilerHitEx              1000e2d4 f   kernprof_ALL:profiler_stub.obj
+ 0001:0000d3dc       CommonProfileStart         1000e3dc f   kernprof_ALL:profiler_stub.obj
+ 0001:0000d5d8       CommonProfileStop          1000e5d8 f   kernprof_ALL:profiler_stub.obj
+ 0001:0000d6a0       CommonProfileContinue      1000e6a0 f   kernprof_ALL:profiler_stub.obj
+ 0001:0000d748       CommonProfilePause         1000e748 f   kernprof_ALL:profiler_stub.obj
+ 0001:0000d9a0       GetThreadName              1000e9a0 f   kernprof_ALL:profiler_stub.obj
+ 0001:0000d9a4       NKCeLogReSync              1000e9a4 f   kernprof_ALL:profiler_stub.obj
+ 0001:0000d9f0       ProfilerHit                1000e9f0 f   kernprof_ALL:profiler_stub.obj
+ 0001:0000dca0       NKProfileSyscall           1000eca0 f   kernprof_ALL:profiler_stub.obj
+ 0001:0000dd94       EXTProfileSyscall          1000ed94 f   kernprof_ALL:profiler_stub.obj
+ 0001:0000e070       NKOutputDebugString        1000f070 f   kernprof_ALL:printf.obj
+ 0001:0000e1c8       InputDebugCharW            1000f1c8 f   kernprof_ALL:printf.obj
+ 0001:0000e1f8       NKvDbgPrintfW              1000f1f8 f   kernprof_ALL:printf.obj
+ 0001:0000e244       Win32OutputDebugStringW    1000f244 f   kernprof_ALL:printf.obj
+ 0001:0000e418       NKDbgPrintfW               1000f418 f   kernprof_ALL:printf.obj
+ 0001:0000e434       IsValidProtect             1000f434 f i kernprof_ALL:vm.obj
+ 0001:0000e4fc       NextAslrBase               1000f4fc f i kernprof_ALL:vm.obj
+ 0001:0000e558       VMFindAlloc                1000f558 f   kernprof_ALL:vm.obj
+ 0001:0000e648       VMAddAlloc                 1000f648 f   kernprof_ALL:vm.obj
+ 0001:0000e768       Enumerate2ndPT             1000f768 f   kernprof_ALL:vm.obj
+ 0001:0000f108       VMCopyPhysical             10010108 f   kernprof_ALL:vm.obj
+ 0001:0000f354       VMProcessPageFault         10010354 f   kernprof_ALL:vm.obj
+ 0001:0000f5e8       KC_VMDemandCommit          100105e8 f   kernprof_ALL:vm.obj
+ 0001:0000f76c       VMAddToLockPageList        1001076c f   kernprof_ALL:vm.obj
+ 0001:0000f7a8       VMRemoveFromLockPageList   100107a8 f   kernprof_ALL:vm.obj
+ 0001:0000f838       VMFastUnlockPages          10010838 f   kernprof_ALL:vm.obj
+ 0001:0000f894       VMFastLockPages            10010894 f   kernprof_ALL:vm.obj
+ 0001:0000f8d0       VMIsPagesLocked            100108d0 f   kernprof_ALL:vm.obj
+ 0001:0000f91c       VMFreeLockPageList         1001091c f   kernprof_ALL:vm.obj
+ 0001:0000fbb4       VMDecommit                 10010bb4 f   kernprof_ALL:vm.obj
+ 0001:00010100       VMSetAttributes            10011100 f   kernprof_ALL:vm.obj
+ 0001:000102c0       KernelVMInit               100112c0 f   kernprof_ALL:vm.obj
+ 0001:00010434       VMDelete                   10011434 f   kernprof_ALL:vm.obj
+ 0001:00010554       VMCommit                   10011554 f   kernprof_ALL:vm.obj
+ 0001:000105d8       VMAlloc                    100115d8 f   kernprof_ALL:vm.obj
+ 0001:000106bc       VMReserve                  100116bc f   kernprof_ALL:vm.obj
+ 0001:00010754       VMCreateKernelPageMapping  10011754 f   kernprof_ALL:vm.obj
+ 0001:000107d8       VMRemoveKernelPageMapping  100117d8 f   kernprof_ALL:vm.obj
+ 0001:000108b8       VMMove                     100118b8 f   kernprof_ALL:vm.obj
+ 0001:00010a28       VMCopyCommittedPages       10011a28 f   kernprof_ALL:vm.obj
+ 0001:00010b0c       VMFreeAndRelease           10011b0c f   kernprof_ALL:vm.obj
+ 0001:00010ba0       VMQuery                    10011ba0 f   kernprof_ALL:vm.obj
+ 0001:00010e0c       VMUnlockPages              10011e0c f   kernprof_ALL:vm.obj
+ 0001:00010eb4       VMProtect                  10011eb4 f   kernprof_ALL:vm.obj
+ 0001:00010fb4       VMMapUserAddrToVoid        10011fb4 f   kernprof_ALL:vm.obj
+ 0001:000110fc       VMAddUncachedAllocation    100120fc f   kernprof_ALL:vm.obj
+ 0001:000111d0       KC_UncacheOnePage          100121d0 f   kernprof_ALL:vm.obj
+ 0001:00011338       VMAlias                    10012338 f   kernprof_ALL:vm.obj
+ 0001:000114fc       VMUnalias                  100124fc f   kernprof_ALL:vm.obj
+ 0001:000118e4       VMMapPD                    100128e4 f   kernprof_ALL:vm.obj
+ 0001:000119a0       VMUnmapPD                  100129a0 f   kernprof_ALL:vm.obj
+ 0001:00011a00       VMFreeExcessStacks         10012a00 f   kernprof_ALL:vm.obj
+ 0001:00011a84       VMCacheStack               10012a84 f   kernprof_ALL:vm.obj
+ 0001:00011ab4       VMFreeStack                10012ab4 f   kernprof_ALL:vm.obj
+ 0001:00011b50       GetPFNOfProcess            10012b50 f   kernprof_ALL:vm.obj
+ 0001:00011bfc       GetPFN                     10012bfc f   kernprof_ALL:vm.obj
+ 0001:00011ca0       NKVirtualSharedAlloc       10012ca0 f   kernprof_ALL:vm.obj
+ 0001:00011e54       VMMapClearDirtyPages       10012e54 f   kernprof_ALL:vm.obj
+ 0001:00011fdc       VMMapMove                  10012fdc f   kernprof_ALL:vm.obj
+ 0001:00012098       VMMapMovePage              10013098 f   kernprof_ALL:vm.obj
+ 0001:000121f0       VMMapDecommit              100131f0 f   kernprof_ALL:vm.obj
+ 0001:000122ec       VMMapTryExisting           100132ec f   kernprof_ALL:vm.obj
+ 0001:00012428       FindStaticMapping          10013428 f   kernprof_ALL:vm.obj
+ 0001:000124a4       AddStaticMapping           100134a4 f   kernprof_ALL:vm.obj
+ 0001:00012544       FindDeviceMapping          10013544 f   kernprof_ALL:vm.obj
+ 0001:000125b8       Pfn2Virt                   100135b8 f   kernprof_ALL:vm.obj
+ 0001:0001260c       CalcMaxDeviceMapping       1001360c f   kernprof_ALL:vm.obj
+ 0001:00012718       MapDeviceTable             10013718 f   kernprof_ALL:vm.obj
+ 0001:0001285c       NKDeleteStaticMapping      1001385c f   kernprof_ALL:vm.obj
+ 0001:000128b0       ASLRInit                   100138b0 f   kernprof_ALL:vm.obj
+ 0001:000129bc       InitVoidPages              100139bc f   kernprof_ALL:vm.obj
+ 0001:00012a0c       VMRemoveAlloc              10013a0c f   kernprof_ALL:vm.obj
+ 0001:00012b64       VMFreeAllocList            10013b64 f   kernprof_ALL:vm.obj
+ 0001:00012cac       VMSetPages                 10013cac f   kernprof_ALL:vm.obj
+ 0001:000130f8       VMReadProcessMemory        100140f8 f   kernprof_ALL:vm.obj
+ 0001:00013584       VMWriteProcessMemory       10014584 f   kernprof_ALL:vm.obj
+ 0001:000137a0       VMAllocCopy                100147a0 f   kernprof_ALL:vm.obj
+ 0001:000139bc       VMInit                     100149bc f   kernprof_ALL:vm.obj
+ 0001:00013a5c       VMAllocPhys                10014a5c f   kernprof_ALL:vm.obj
+ 0001:00013c9c       VMCopy                     10014c9c f   kernprof_ALL:vm.obj
+ 0001:00013e84       VMFastCopy                 10014e84 f   kernprof_ALL:vm.obj
+ 0001:00013fb0       VMLockPages                10014fb0 f   kernprof_ALL:vm.obj
+ 0001:000140d0       VMCreateStack              100150d0 f   kernprof_ALL:vm.obj
+ 0001:000142a8       NKCreateStaticMapping      100152a8 f   kernprof_ALL:vm.obj
+ 0001:000143c4       GetCpuId                   100153c4 f   kernprof_ALL:armtrap.obj
+ 0001:000143cc       KernelStart                100153cc f   kernprof_ALL:armtrap.obj
+ 0001:000143f0       NKMpStart                  100153f0 f   kernprof_ALL:armtrap.obj
+ 0001:00014490       SetPCBRegister             10015490 f   kernprof_ALL:armtrap.obj
+ 0001:00014498       ARMFlushTLB                10015498 f   kernprof_ALL:armtrap.obj
+ 0001:000144a4       UndefException             100154a4     kernprof_ALL:armtrap.obj
+ 0001:000144c4       SWIHandler                 100154c4 f   kernprof_ALL:armtrap.obj
+ 0001:000144c8       FIQHandler                 100154c8     kernprof_ALL:armtrap.obj
+ 0001:000144ec       NKPerformCallBack          100154ec     kernprof_ALL:armtrap.obj
+ 0001:00014534       MDSwitchToUserCode         10015534 f   kernprof_ALL:armtrap.obj
+ 0001:00014540       PrefetchAbortEH            10015540     kernprof_ALL:armtrap.obj
+ 0001:0001455c       PrefetchAbort              1001555c f   kernprof_ALL:armtrap.obj
+ 0001:00014750       CommonHandler              10015750 f   kernprof_ALL:armtrap.obj
+ 0001:00014778       SaveAndReschedule          10015778 f   kernprof_ALL:armtrap.obj
+ 0001:0001483c       DataAbortHandler           1001583c     kernprof_ALL:armtrap.obj
+ 0001:000148a0       IRQHandler                 100158a0     kernprof_ALL:armtrap.obj
+ 0001:00014aa0       ZeroPage                   10015aa0 f   kernprof_ALL:armtrap.obj
+ 0001:00014acc       GetHighPos                 10015acc f   kernprof_ALL:armtrap.obj
+ 0001:00014c38       V6ClearExclusive           10015c38 f   kernprof_ALL:armtrap.obj
+ 0001:00014c40       INTERRUPTS_ON              10015c40 f   kernprof_ALL:armtrap.obj
+ 0001:00014c50       INTERRUPTS_OFF             10015c50 f   kernprof_ALL:armtrap.obj
+ 0001:00014c60       INTERRUPTS_ENABLE          10015c60 f   kernprof_ALL:armtrap.obj
+ 0001:00014c84       MDCallKernelHAPI           10015c84     kernprof_ALL:armtrap.obj
+ 0001:00014ccc       MDCallUserHAPI             10015ccc     kernprof_ALL:armtrap.obj
+ 0001:00014d10       GetTranslationBase         10015d10 f   kernprof_ALL:armtrap.obj
+ 0001:00014d1c       SetupTTBR1                 10015d1c f   kernprof_ALL:armtrap.obj
+ 0001:00014d38       UpdateAsidAndTranslationBase 10015d38 f   kernprof_ALL:armtrap.obj
+ 0001:00014d88       UnalignedAccessEnable      10015d88 f   kernprof_ALL:armtrap.obj
+ 0001:00014da8       MDReleaseSpinlockAndReschedule 10015da8 f   kernprof_ALL:armtrap.obj
+ 0001:00014e0c       KCall                      10015e0c     kernprof_ALL:armtrap.obj
+ 0001:00014e94       ReadAndSetFpexc            10015e94 f   kernprof_ALL:armtrap.obj
+ 0001:00014ea4       SaveFloatContext           10015ea4 f   kernprof_ALL:armtrap.obj
+ 0001:00014ecc       RestoreFloatContext        10015ecc f   kernprof_ALL:armtrap.obj
+ 0001:00014ef4       InPrivilegeCall            10015ef4 f   kernprof_ALL:armtrap.obj
+ 0001:00014f04       CaptureContextEH           10015f04     kernprof_ALL:armtrap.obj
+ 0001:00014f18       CaptureContext             10015f18 f   kernprof_ALL:armtrap.obj
+ 0001:00014fc0       RtlCaptureContext          10015fc0 f   kernprof_ALL:armtrap.obj
+ 0001:00014fd8       HwTrap                     10015fd8 f   kernprof_ALL:armtrap.obj
+ 0001:00015018       InterlockedAPIs            10016018 f   kernprof_ALL:armtrap.obj
+ 0001:00015098       InterlockedEnd             10016098     kernprof_ALL:armtrap.obj
+ 0001:000150a8       InterlockedFunctionArea    100160a8 f   kernprof_ALL:intrlock.obj
+ 0001:00015114       V6_WriteBarrier            10016114 f   kernprof_ALL:intrlock.obj
+ 0001:00015120       InterlockedExchange        10016120 f   kernprof_ALL:intrlock.obj
+ 0001:0001512c       InterlockedTestExchange    1001612c f   kernprof_ALL:intrlock.obj
+ 0001:00015138       InterlockedCompareExchange 10016138 f   kernprof_ALL:intrlock.obj
+ 0001:00015144       InterlockedExchangeAdd     10016144 f   kernprof_ALL:intrlock.obj
+ 0001:00015154       InterlockedIncrement       10016154 f   kernprof_ALL:intrlock.obj
+ 0001:00015168       InterlockedDecrement       10016168 f   kernprof_ALL:intrlock.obj
+ 0001:0001517c       DataMemoryBarrier          1001617c f   kernprof_ALL:intrlock.obj
+ 0001:00015188       DataSyncBarrier            10016188 f   kernprof_ALL:intrlock.obj
+ 0001:00015194       InitInterlockedFunctions   10016194 f   kernprof_ALL:intrlock.obj
+ 0001:00015200       memcpy                     10016200 f   kernprof_ALL:memcpy.obj
+ 0001:00015ba0       FakeKDReboot               10016ba0 f   kernprof_ALL:oemstub.obj
+ 0001:00015ba4       OEMInitDebugSerial         10016ba4 f   kernprof_ALL:oemstub.obj
+ 0001:00015bc0       OEMInit                    10016bc0 f   kernprof_ALL:oemstub.obj
+ 0001:00015bdc       OEMWriteDebugString        10016bdc f   kernprof_ALL:oemstub.obj
+ 0001:00015bf8       OEMWriteDebugLED           10016bf8 f   kernprof_ALL:oemstub.obj
+ 0001:00015c14       OEMReadDebugByte           10016c14 f   kernprof_ALL:oemstub.obj
+ 0001:00015c30       OEMCacheRangeFlush         10016c30 f   kernprof_ALL:oemstub.obj
+ 0001:00015c4c       OEMInitClock               10016c4c f   kernprof_ALL:oemstub.obj
+ 0001:00015c68       OEMGetRealTime             10016c68 f   kernprof_ALL:oemstub.obj
+ 0001:00015c84       OEMSetRealTime             10016c84 f   kernprof_ALL:oemstub.obj
+ 0001:00015ca0       OEMSetAlarmTime            10016ca0 f   kernprof_ALL:oemstub.obj
+ 0001:00015cbc       OEMGetTickCount            10016cbc f   kernprof_ALL:oemstub.obj
+ 0001:00015cd8       OEMIdle                    10016cd8 f   kernprof_ALL:oemstub.obj
+ 0001:00015cf4       OEMPowerOff                10016cf4 f   kernprof_ALL:oemstub.obj
+ 0001:00015d10       OEMGetExtensionDRAM        10016d10 f   kernprof_ALL:oemstub.obj
+ 0001:00015d2c       OEMInterruptDisable        10016d2c f   kernprof_ALL:oemstub.obj
+ 0001:00015d48       OEMInterruptEnable         10016d48 f   kernprof_ALL:oemstub.obj
+ 0001:00015d64       OEMInterruptDone           10016d64 f   kernprof_ALL:oemstub.obj
+ 0001:00015d80       OEMInterruptMask           10016d80 f   kernprof_ALL:oemstub.obj
+ 0001:00015d9c       OEMNotifyIntrOccurs        10016d9c f   kernprof_ALL:oemstub.obj
+ 0001:00015db8       OEMIoControl               10016db8 f   kernprof_ALL:oemstub.obj
+ 0001:00015e60       OEMInterruptHandler        10016e60 f   kernprof_ALL:oemstub.obj
+ 0001:00015e7c       OEMInterruptHandlerFIQ     10016e7c f   kernprof_ALL:oemstub.obj
+ 0001:00015e98       HaveVfpHardware            10016e98 f   kernprof_ALL:oemstub.obj
+ 0001:00015eb8       HaveVfpSupport             10016eb8 f   kernprof_ALL:oemstub.obj
+ 0001:00015ed8       HaveExtendedVfp            10016ed8 f   kernprof_ALL:oemstub.obj
+ 0001:00015ef8       IsPSLBoundary              10016ef8 f i kernprof_ALL:exdsptch.obj
+ 0001:000161b4       ResetThreadStack           100171b4 f   kernprof_ALL:exdsptch.obj
+ 0001:000161f8       TryLockModuleList          100171f8 f   kernprof_ALL:exdsptch.obj
+ 0001:000162c8       FindPEHeader               100172c8 f   kernprof_ALL:exdsptch.obj
+ 0001:00016368       NKGetThreadCallStack       10017368 f   kernprof_ALL:exdsptch.obj
+ 0001:00016910       FindModuleNameAndOffset    10017910 f   kernprof_ALL:exdsptch.obj
+ 0001:00016ae0       GetExceptionString         10017ae0 f   kernprof_ALL:exdsptch.obj
+ 0001:00016dfc       UnwindExceptionAcrossPSL   10017dfc f   kernprof_ALL:exdsptch.obj
+ 0001:00016f10       ExceptionDispatch          10017f10 f   kernprof_ALL:exdsptch.obj
+ 0001:00017614       KC_CommonHandleException   10018614 f   kernprof_ALL:exdsptch.obj
+ 0001:00017930       AllocateAlias              10018930 f   kernprof_ALL:process.obj
+ 0001:00017af0       PROCVMAllocCopy            10018af0 f   kernprof_ALL:process.obj
+ 0001:00017c7c       PROCVMAlloc                10018c7c f   kernprof_ALL:process.obj
+ 0001:00017e30       EXTPROCVMAlloc             10018e30 f   kernprof_ALL:process.obj
+ 0001:00018084       PROCVMFree                 10019084 f   kernprof_ALL:process.obj
+ 0001:00018218       EXTVMQuery                 10019218 f   kernprof_ALL:process.obj
+ 0001:00018350       SwitchVM                   10019350 f   kernprof_ALL:process.obj
+ 0001:000183dc       SafeGetProcName            100193dc f   kernprof_ALL:process.obj
+ 0001:00018410       SetCPUASID                 10019410 f   kernprof_ALL:process.obj
+ 0001:000184d0       SwitchActiveProcess        100194d0 f   kernprof_ALL:process.obj
+ 0001:00018584       PROCTerminate              10019584 f   kernprof_ALL:process.obj
+ 0001:000186d0       PROCFlushICache            100196d0 f   kernprof_ALL:process.obj
+ 0001:000186ec       PROCReadMemory             100196ec f   kernprof_ALL:process.obj
+ 0001:0001873c       PROCWriteMemory            1001973c f   kernprof_ALL:process.obj
+ 0001:0001878c       PROCSetVer                 1001978c f   kernprof_ALL:process.obj
+ 0001:000187a8       PROCReadPEHeader           100197a8 f   kernprof_ALL:process.obj
+ 0001:00018980       PROCReadKernelPEHeader     10019980 f   kernprof_ALL:process.obj
+ 0001:000189b4       PROCChekDbgr               100199b4 f   kernprof_ALL:process.obj
+ 0001:00018a28       PROCLoadModule             10019a28 f   kernprof_ALL:process.obj
+ 0001:00018c60       DoGetFullPath              10019c60 f   kernprof_ALL:process.obj
+ 0001:00018d50       PROCGetModInfo             10019d50 f   kernprof_ALL:process.obj
+ 0001:00019160       PROCGetModName             1001a160 f   kernprof_ALL:process.obj
+ 0001:00019244       PROCPageOutModule          1001a244 f   kernprof_ALL:process.obj
+ 0001:00019294       PROCGetID                  1001a294 f   kernprof_ALL:process.obj
+ 0001:0001929c       PROCDelete                 1001a29c f   kernprof_ALL:process.obj
+ 0001:00019324       PROCSetAffinity            1001a324 f   kernprof_ALL:process.obj
+ 0001:000193f4       PROCGetAffinity            1001a3f4 f   kernprof_ALL:process.obj
+ 0001:00019410       EnumAccumulateTime         1001a410 f   kernprof_ALL:process.obj
+ 0001:000194bc       PROCGetTimes               1001a4bc f   kernprof_ALL:process.obj
+ 0001:00019584       PROCGetCode                1001a584 f   kernprof_ALL:process.obj
+ 0001:0001996c       NKOpenProcess              1001a96c f   kernprof_ALL:process.obj
+ 0001:00019aa0       PROCInit                   1001aaa0 f   kernprof_ALL:process.obj
+ 0001:00019de0       NKCreateProcess            1001ade0 f   kernprof_ALL:process.obj
+ 0001:0001a340       RestoreCoProcRegisters     1001b340 f   kernprof_ALL:kcalls.obj
+ 0001:0001b4dc       NextThread                 1001c4dc f   kernprof_ALL:kcalls.obj
+ 0001:0001b71c       KCNextThread               1001c71c f   kernprof_ALL:kcalls.obj
+ 0001:0001be98       SendIPIAndReleaseSchedulerLock 1001ce98 f   kernprof_ALL:kcalls.obj
+ 0001:0001bf14       StopAllOtherCPUs           1001cf14 f   kernprof_ALL:kcalls.obj
+ 0001:0001bf7c       ResumeAllOtherCPUs         1001cf7c f   kernprof_ALL:kcalls.obj
+ 0001:0001c018       HandleIpi                  1001d018 f   kernprof_ALL:kcalls.obj
+ 0001:0001c264       SCHL_PowerOnCPU            1001d264 f   kernprof_ALL:kcalls.obj
+ 0001:0001c314       NKIdle                     1001d314 f   kernprof_ALL:kcalls.obj
+ 0001:0001c42c       SCHL_BlockCurThread        1001d42c f   kernprof_ALL:kcalls.obj
+ 0001:0001c45c       SCHL_SuspendSelfIfNeeded   1001d45c f   kernprof_ALL:kcalls.obj
+ 0001:0001c4d4       SCHL_ThreadResume          1001d4d4 f   kernprof_ALL:kcalls.obj
+ 0001:0001c588       SCHL_ThreadYield           1001d588 f   kernprof_ALL:kcalls.obj
+ 0001:0001c5f8       SCHL_SetThreadBasePrio     1001d5f8 f   kernprof_ALL:kcalls.obj
+ 0001:0001c738       SCHL_SetThreadQuantum      1001d738 f   kernprof_ALL:kcalls.obj
+ 0001:0001c77c       SCHL_GetCurThreadKTime     1001d77c f   kernprof_ALL:kcalls.obj
+ 0001:0001c820       SCHL_GetCurThreadUTime     1001d820 f   kernprof_ALL:kcalls.obj
+ 0001:0001c8c4       SCHL_SetThreadAffinity     1001d8c4 f   kernprof_ALL:kcalls.obj
+ 0001:0001c9f0       SCHL_FinalRemoveThread     1001d9f0 f   kernprof_ALL:kcalls.obj
+ 0001:0001cad4       SCHL_SwitchOwnerToKernel   1001dad4 f   kernprof_ALL:kcalls.obj
+ 0001:0001cb90       SCHL_MakeRunIfNeeded       1001db90 f   kernprof_ALL:kcalls.obj
+ 0001:0001cc04       SCHL_DequeueFlatProxy      1001dc04 f   kernprof_ALL:kcalls.obj
+ 0001:0001cc8c       SCHL_DequeuePrioProxy      1001dc8c f   kernprof_ALL:kcalls.obj
+ 0001:0001cce4       SCHL_PostUnlinkCritMut     1001dce4 f   kernprof_ALL:kcalls.obj
+ 0001:0001cd50       SCHL_DoReprioCritMut       1001dd50 f   kernprof_ALL:kcalls.obj
+ 0001:0001cdf0       SCHL_PreReleaseMutex       1001ddf0 f   kernprof_ALL:kcalls.obj
+ 0001:0001ce34       SCHL_PreAbandonMutex       1001de34 f   kernprof_ALL:kcalls.obj
+ 0001:0001ce98       SCHL_BoostMutexOwnerPriority 1001de98 f   kernprof_ALL:kcalls.obj
+ 0001:0001cf68       SCHL_LinkMutexOwner        1001df68 f   kernprof_ALL:kcalls.obj
+ 0001:0001cfe0       SCHL_UnlinkMutexOwner      1001dfe0 f   kernprof_ALL:kcalls.obj
+ 0001:0001d03c       SCHL_MutexFinalBoost       1001e03c f   kernprof_ALL:kcalls.obj
+ 0001:0001d124       SCHL_ReleaseMutex          1001e124 f   kernprof_ALL:kcalls.obj
+ 0001:0001d250       SCHL_YieldToNewMutexOwner  1001e250 f   kernprof_ALL:kcalls.obj
+ 0001:0001d344       SCHL_WakeOneThreadFlat     1001e344 f   kernprof_ALL:kcalls.obj
+ 0001:0001d3f4       SCHL_EventModMan           1001e3f4 f   kernprof_ALL:kcalls.obj
+ 0001:0001d468       SCHL_EventModAuto          1001e468 f   kernprof_ALL:kcalls.obj
+ 0001:0001d500       SCHL_ResetProcEvent        1001e500 f   kernprof_ALL:kcalls.obj
+ 0001:0001d53c       SCHL_EventModIntr          1001e53c f   kernprof_ALL:kcalls.obj
+ 0001:0001d5d4       SCHL_AdjustPrioDown        1001e5d4 f   kernprof_ALL:kcalls.obj
+ 0001:0001d62c       SCHL_SemAdd                1001e62c f   kernprof_ALL:kcalls.obj
+ 0001:0001d698       SCHL_SemPop                1001e698 f   kernprof_ALL:kcalls.obj
+ 0001:0001d758       SCHL_PutThreadToSleep      1001e758 f   kernprof_ALL:kcalls.obj
+ 0001:0001d7e8       SCHL_WaitOneMore           1001e7e8 f   kernprof_ALL:kcalls.obj
+ 0001:0001d9ec       SCHL_CSWaitPart1           1001e9ec f   kernprof_ALL:kcalls.obj
+ 0001:0001dc54       SCHL_CSWaitPart2           1001ec54 f   kernprof_ALL:kcalls.obj
+ 0001:0001dd30       SCHL_UnblockNextThread     1001ed30 f   kernprof_ALL:kcalls.obj
+ 0001:0001de0c       SCHL_WaitForReadLock       1001ee0c f   kernprof_ALL:kcalls.obj
+ 0001:0001df24       SCHL_WaitForWriteLock      1001ef24 f   kernprof_ALL:kcalls.obj
+ 0001:0001e048       SCHL_PreReleaseWriteLock   1001f048 f   kernprof_ALL:kcalls.obj
+ 0001:0001e0e0       NKSendInterProcessorInterrupt 1001f0e0 f   kernprof_ALL:kcalls.obj
+ 0001:0001e148       SendIPI                    1001f148 f   kernprof_ALL:kcalls.obj
+ 0001:0001e15c       SCHL_PowerOffCPU           1001f15c f   kernprof_ALL:kcalls.obj
+ 0001:0001e31c       SCHL_RegisterMonitorThread 1001f31c f   kernprof_ALL:kcalls.obj
+ 0001:0001e3ac       SCHL_ThreadSuspend         1001f3ac f   kernprof_ALL:kcalls.obj
+ 0001:0001e55c       SCHL_SetThreadToDie        1001f55c f   kernprof_ALL:kcalls.obj
+ 0001:0001e7a8       InitializeSpinLock         1001f7a8 f   kernprof_ALL:spinlock.obj
+ 0001:0001e7bc       AcquireSpinLock            1001f7bc f   kernprof_ALL:spinlock.obj
+ 0001:0001e8f8       ReleaseSpinLock            1001f8f8 f   kernprof_ALL:spinlock.obj
+ 0001:0001ea58       memset                     1001fa58     kernprof_ALL:memset.obj
+ 0001:0001eb14       CallOalIoctl               1001fb14 f   kernprof_ALL:kwin32.obj
+ 0001:0001eca8       NKGetCallerResInfo         1001fca8 f   kernprof_ALL:kwin32.obj
+ 0001:0001ed4c       DoResetStack               1001fd4c f   kernprof_ALL:kwin32.obj
+ 0001:0001ed8c       KrnResetStack              1001fd8c f   kernprof_ALL:kwin32.obj
+ 0001:0001ede8       UsrResetStack              1001fde8 f   kernprof_ALL:kwin32.obj
+ 0001:0001ee7c       CeSafeCopyMemory           1001fe7c f   kernprof_ALL:kwin32.obj
+ 0001:0001eec0       NotSupported               1001fec0 f   kernprof_ALL:kwin32.obj
+ 0001:0001ef20       NKSetHardwareWatch         1001ff20 f   kernprof_ALL:kwin32.obj
+ 0001:0001ef28       NKSetPowerHandler          1001ff28 f   kernprof_ALL:kwin32.obj
+ 0001:0001ef68       CallOEMPowerOff            1001ff68 f   kernprof_ALL:kwin32.obj
+ 0001:0001ef80       CallKitlIoctl              1001ff80 f   kernprof_ALL:kwin32.obj
+ 0001:0001f00c       NKGetProcessVersion        1002000c f   kernprof_ALL:kwin32.obj
+ 0001:0001f198       UpdateLogPtrForSoftReset   10020198 f   kernprof_ALL:kwin32.obj
+ 0001:0001f1f0       NKReboot                   100201f0 f   kernprof_ALL:kwin32.obj
+ 0001:0001f278       NKPowerOffSystem           10020278 f   kernprof_ALL:kwin32.obj
+ 0001:0001f418       KernelIoctl                10020418 f   kernprof_ALL:kwin32.obj
+ 0001:0001f4f0       PageParamFormProtect       100204f0 f   kernprof_ALL:vmarm.obj
+ 0001:0001f670       ProtectFromEntry           10020670 f   kernprof_ALL:vmarm.obj
+ 0001:0001f728       CommitGuardPage            10020728 f   kernprof_ALL:vmarm.obj
+ 0001:0001f798       MakeWritableEntry          10020798 f   kernprof_ALL:vmarm.obj
+ 0001:0001f860       ARMPteUpdateBarrier        10020860 f   kernprof_ALL:vmarm.obj
+ 0001:0001f8a0       InvalidatePages            100208a0 f   kernprof_ALL:vmarm.obj
+ 0001:0001f934       SetupPDEntres              10020934 f   kernprof_ALL:vmarm.obj
+ 0001:0001f990       FreePageTable              10020990 f   kernprof_ALL:vmarm.obj
+ 0001:0001f9ac       GetPageTable               100209ac f   kernprof_ALL:vmarm.obj
+ 0001:0001f9cc       AllocatePD                 100209cc f   kernprof_ALL:vmarm.obj
+ 0001:0001fbe4       FreePD                     10020be4 f   kernprof_ALL:vmarm.obj
+ 0001:0001fc34       UpdatePageTableProtectionBits 10020c34 f   kernprof_ALL:vmarm.obj
+ 0001:0001fc84       ReserveVMForKernelPageTables 10020c84 f   kernprof_ALL:vmarm.obj
+ 0001:0001fd44       InitASID                   10020d44 f   kernprof_ALL:vmarm.obj
+ 0001:0001fdd8       MDSwitchVM                 10020dd8 f   kernprof_ALL:vmarm.obj
+ 0001:0001feb0       MDSetCPUASID               10020eb0 f   kernprof_ALL:vmarm.obj
+ 0001:0001ff28       MDAllocateASID             10020f28 f   kernprof_ALL:vmarm.obj
+ 0001:0001ff88       MDFreeASID                 10020f88 f   kernprof_ALL:vmarm.obj
+ 0001:0001ffd4       LoadPageTable              10020fd4 f   kernprof_ALL:vmarm.obj
+ 0001:000201f8       AllocatePTBL               100211f8 f   kernprof_ALL:vmarm.obj
+ 0001:00020310       MDGetKernelASID            10021310 f   kernprof_ALL:vmarm.obj
+ 0001:00020314       kdpIsROM                   10021314 f   kernprof_ALL:ksysdbg.obj
+ 0001:00020350       FakeHDException            10021350 f   kernprof_ALL:ksysdbg.obj
+ 0001:00020374       HDCleanup                  10021374 f   kernprof_ALL:ksysdbg.obj
+ 0001:000203f8       KD_EventModify             100213f8 f   kernprof_ALL:ksysdbg.obj
+ 0001:00020440       ConnectKDBGDll             10021440 f   kernprof_ALL:ksysdbg.obj
+ 0001:00020498       KDCleanup                  10021498 f   kernprof_ALL:ksysdbg.obj
+ 0001:000204e4       kdpInvalidateRange         100214e4 f   kernprof_ALL:ksysdbg.obj
+ 0001:000204f4       IsDesktopDbgrExist         100214f4 f   kernprof_ALL:ksysdbg.obj
+ 0001:00020a7c       DoAttachDebugger           10021a7c f   kernprof_ALL:ksysdbg.obj
+ 0001:00020bb0       NKAttachDebugger           10021bb0 f   kernprof_ALL:ksysdbg.obj
+ 0001:00020c38       SysDebugInit               10021c38 f   kernprof_ALL:ksysdbg.obj
+ 0001:00020d3c       DebuggerPostInit           10021d3c f   kernprof_ALL:ksysdbg.obj
+ 0001:00021104       THRDCloseHandle            10022104 f   kernprof_ALL:thread.obj
+ 0001:0002111c       THRDSuspend                1002211c f   kernprof_ALL:thread.obj
+ 0001:000211ac       THRDResume                 100221ac f   kernprof_ALL:thread.obj
+ 0001:000211c8       THRDSetPrio                100221c8 f   kernprof_ALL:thread.obj
+ 0001:00021234       THRDGetPrio                10022234 f   kernprof_ALL:thread.obj
+ 0001:000212e4       THRDSetAffinity            100222e4 f   kernprof_ALL:thread.obj
+ 0001:0002137c       DoGetAffinity              1002237c f   kernprof_ALL:thread.obj
+ 0001:000213a4       THRDGetAffinity            100223a4 f   kernprof_ALL:thread.obj
+ 0001:000213d8       THRDSetContext             100223d8 f   kernprof_ALL:thread.obj
+ 0001:00021460       THRDGetContext             10022460 f   kernprof_ALL:thread.obj
+ 0001:0002153c       THRDGetCallStack           1002253c f   kernprof_ALL:thread.obj
+ 0001:000216dc       KillOneThread              100226dc f   kernprof_ALL:thread.obj
+ 0001:00021758       THRDTerminate              10022758 f   kernprof_ALL:thread.obj
+ 0001:00021870       THRDGetPrio256             10022870 f   kernprof_ALL:thread.obj
+ 0001:000218cc       THRDSetPrio256             100228cc f   kernprof_ALL:thread.obj
+ 0001:0002192c       THRDGetQuantum             1002292c f   kernprof_ALL:thread.obj
+ 0001:00021988       THRDSetQuantum             10022988 f   kernprof_ALL:thread.obj
+ 0001:00021a04       THRDGetID                  10022a04 f   kernprof_ALL:thread.obj
+ 0001:00021a14       THRDGetProcID              10022a14 f   kernprof_ALL:thread.obj
+ 0001:00021a30       THRDGetCode                10022a30 f   kernprof_ALL:thread.obj
+ 0001:00021b54       THRDGetTimes               10022b54 f   kernprof_ALL:thread.obj
+ 0001:00021e34       THRDCreate                 10022e34 f   kernprof_ALL:thread.obj
+ 0001:00021f34       NKCreateThread             10022f34 f   kernprof_ALL:thread.obj
+ 0001:00022154       NKOpenThread               10023154 f   kernprof_ALL:thread.obj
+ 0001:00022260       CreateKernelThread         10023260 f   kernprof_ALL:thread.obj
+ 0001:00022300       EnumKillThread             10023300 f   kernprof_ALL:thread.obj
+ 0001:00022328       NKPrepareThreadExit        10023328 f   kernprof_ALL:thread.obj
+ 0001:00022430       NKExitThread               10023430 f   kernprof_ALL:thread.obj
+ 0001:000229c4       THRDInit                   100239c4 f   kernprof_ALL:thread.obj
+ 0001:00022e88       PreGrowStack               10023e88 f   kernprof_ALL:physmem.obj
+ 0001:00022e9c       InitPageList               10023e9c f   kernprof_ALL:physmem.obj
+ 0001:00022f80       PHYS_UpdateFreePageCount   10023f80 f   kernprof_ALL:physmem.obj
+ 0001:000230d4       PHYS_GrabFirstPhysPage     100240d4 f   kernprof_ALL:physmem.obj
+ 0001:00023360       GetHeldPage                10024360 f   kernprof_ALL:physmem.obj
+ 0001:00023370       GetRegionFromPFN           10024370 f   kernprof_ALL:physmem.obj
+ 0001:000233dc       ReholdPage                 100243dc f   kernprof_ALL:physmem.obj
+ 0001:000234b4       RemovePage                 100244b4 f   kernprof_ALL:physmem.obj
+ 0001:000234f8       InitMemoryPool             100244f8 f   kernprof_ALL:physmem.obj
+ 0001:000236e4       CleanPagesInTheBackground  100246e4 f   kernprof_ALL:physmem.obj
+ 0001:00023984       HoldPages                  10024984 f   kernprof_ALL:physmem.obj
+ 0001:00023c9c       DupPhysPage                10024c9c f   kernprof_ALL:physmem.obj
+ 0001:00023cf4       FreePhysPage               10024cf4 f   kernprof_ALL:physmem.obj
+ 0001:00023df4       FreeKernelPage             10024df4 f   kernprof_ALL:physmem.obj
+ 0001:00023e04       MarkContinguousPages       10024e04 f   kernprof_ALL:physmem.obj
+ 0001:000241b8       NKSetOOMEventEx            100251b8 f   kernprof_ALL:physmem.obj
+ 0001:000242b0       IsFileSysPage              100252b0 f   kernprof_ALL:physmem.obj
+ 0001:00024308       NKGiveKPhys                10025308 f   kernprof_ALL:physmem.obj
+ 0001:00024444       NKGetKPhys                 10025444 f   kernprof_ALL:physmem.obj
+ 0001:00024544       InterlockedPopList         10025544 f   kernprof_ALL:physmem.obj
+ 0001:0002458c       InterlockedPushList        1002558c f   kernprof_ALL:physmem.obj
+ 0001:000245d0       GrabOnePage                100255d0 f   kernprof_ALL:physmem.obj
+ 0001:00024694       HoldPagesWithWait          10025694 f   kernprof_ALL:physmem.obj
+ 0001:00024784       GetContiguousPages         10025784 f   kernprof_ALL:physmem.obj
+ 0001:0002483c       VectorTable                1002583c     kernprof_ALL:ExVector.obj
+ 0001:0002485c       NKCallIntChain             1002585c f   kernprof_ALL:kdriver.obj
+ 0001:000248a0       GetIntChainFromHandle      100258a0 f   kernprof_ALL:kdriver.obj
+ 0001:0002491c       HookIntChain               1002591c f   kernprof_ALL:kdriver.obj
+ 0001:000249dc       NKLoadKernelLibrary        100259dc f   kernprof_ALL:kdriver.obj
+ 0001:00024a1c       NKLoadIntChainHandler      10025a1c f   kernprof_ALL:kdriver.obj
+ 0001:00024ac0       UnhookIntChain             10025ac0 f   kernprof_ALL:kdriver.obj
+ 0001:00024b64       NKFreeIntChainHandler      10025b64 f   kernprof_ALL:kdriver.obj
+ 0001:00024d04       InitDrWatson               10025d04 f   kernprof_ALL:kdriver.obj
+ 0001:00024d5c       RAMDrWatsonFlush           10025d5c f   kernprof_ALL:kdriver.obj
+ 0001:00024d64       RAMDrWatsonClear           10025d64 f   kernprof_ALL:kdriver.obj
+ 0001:00024d94       RAMDrWatsonWrite           10025d94 f   kernprof_ALL:kdriver.obj
+ 0001:00024dfc       RAMDrWatsonRead            10025dfc f   kernprof_ALL:kdriver.obj
+ 0001:00024e74       GetPhysMemInfo             10025e74 f   kernprof_ALL:kdriver.obj
+ 0001:00025100       KernelLibIoControl_Core    10026100 f   kernprof_ALL:kdriver.obj
+ 0001:00025708       KernelLibIoControl_Dbg     10026708 f   kernprof_ALL:kdriver.obj
+ 0001:00025824       KernelLibIoControl_AppVerif 10026824 f   kernprof_ALL:kdriver.obj
+ 0001:00025918       KernelLibIoControl_Kitl    10026918 f   kernprof_ALL:kdriver.obj
+ 0001:00025a98       NKKernelLibIoControl       10026a98 f   kernprof_ALL:kdriver.obj
+ 0001:00025d20       EXTKernelLibIoControl      10026d20 f   kernprof_ALL:kdriver.obj
+ 0001:00026070       LockModuleList             10027070 f   kernprof_ALL:loader.obj
+ 0001:0002607c       UnlockModuleList           1002707c f   kernprof_ALL:loader.obj
+ 0001:00026088       ArmXEncodeImmediate16      10027088 f   kernprof_ALL:loader.obj
+ 0001:000260c4       ArmXDecodeImmediate16      100270c4 f   kernprof_ALL:loader.obj
+ 0001:00026108       strcmponeiW                10027108 f   kernprof_ALL:loader.obj
+ 0001:00026158       strcmpdllnameW             10027158 f   kernprof_ALL:loader.obj
+ 0001:0002621c       CopyPath                   1002721c f   kernprof_ALL:loader.obj
+ 0001:00026288       FindOptr                   10027288 f   kernprof_ALL:loader.obj
+ 0001:000264d0       FindModInProc              100274d0 f   kernprof_ALL:loader.obj
+ 0001:00026548       FindModInProcByAddr        10027548 f   kernprof_ALL:loader.obj
+ 0001:00026578       FindModInKernel            10027578 f   kernprof_ALL:loader.obj
+ 0001:00026600       DllThreadNotify            10027600 f   kernprof_ALL:loader.obj
+ 0001:000266fc       IsInDbgList                100276fc f   kernprof_ALL:loader.obj
+ 0001:00026758       SetDbgList                 10027758 f   kernprof_ALL:loader.obj
+ 0001:000268a8       ReadExtImageInfo           100278a8 f   kernprof_ALL:loader.obj
+ 0001:000269a4       FindROMDllEntry            100279a4 f   kernprof_ALL:loader.obj
+ 0001:00026b4c       FreeExeName                10027b4c f   kernprof_ALL:loader.obj
+ 0001:00026b6c       CloseExe                   10027b6c f   kernprof_ALL:loader.obj
+ 0001:00026bb4       NKForceCleanBoot           10027bb4 f   kernprof_ALL:loader.obj
+ 0001:00026bc8       CalcFSPages                10027bc8 f   kernprof_ALL:loader.obj
+ 0001:00026c88       CarveFSMem                 10027c88 f   kernprof_ALL:loader.obj
+ 0001:00026dd8       GrabFSPages                10027dd8 f   kernprof_ALL:loader.obj
+ 0001:000271f0       SetupMemoryInfo            100281f0 f   kernprof_ALL:loader.obj
+ 0001:00027358       ReserveVMForUseMap         10028358 f   kernprof_ALL:loader.obj
+ 0001:0002740c       KernelFindMemory           1002840c f   kernprof_ALL:loader.obj
+ 0001:000275f8       ReadFromFilesys            100285f8 f   kernprof_ALL:loader.obj
+ 0001:00028300       LoadE32                    10029300 f   kernprof_ALL:loader.obj
+ 0001:00028714       CopyFromKernel             10029714 f   kernprof_ALL:loader.obj
+ 0001:000287c4       PageIntoKernel             100297c4 f   kernprof_ALL:loader.obj
+ 0001:00028ac4       DecommitExe                10029ac4 f   kernprof_ALL:loader.obj
+ 0001:00028cbc       PageOutModules             10029cbc f   kernprof_ALL:loader.obj
+ 0001:00028db4       PageOutProcesses           10029db4 f   kernprof_ALL:loader.obj
+ 0001:00028e64       DoPageOutModule            10029e64 f   kernprof_ALL:loader.obj
+ 0001:00028f28       ReadSection                10029f28 f   kernprof_ALL:loader.obj
+ 0001:000291f4       AdjustRegions              1002a1f4 f   kernprof_ALL:loader.obj
+ 0001:000293b4       ReadO32Info                1002a3b4 f   kernprof_ALL:loader.obj
+ 0001:0002976c       LoadO32                    1002a76c f   kernprof_ALL:loader.obj
+ 0001:00029838       CopyRegions                1002a838 f   kernprof_ALL:loader.obj
+ 0001:00029a8c       LDRGetModByName            1002aa8c f   kernprof_ALL:loader.obj
+ 0001:00029d98       AppVerifierFindModule      1002ad98 f   kernprof_ALL:loader.obj
+ 0001:0002a070       OpenExecutable             1002b070 f   kernprof_ALL:loader.obj
+ 0001:0002a568       FreeModuleMemory           1002b568 f   kernprof_ALL:loader.obj
+ 0001:0002a7ec       CreateNewProcHelper        1002b7ec f   kernprof_ALL:loader.obj
+ 0001:0002acb8       CreateNewProc              1002bcb8 f   kernprof_ALL:loader.obj
+ 0001:0002adf8       InitModule                 1002bdf8 f   kernprof_ALL:loader.obj
+ 0001:0002b500       LoadOneLibrary             1002c500 f   kernprof_ALL:loader.obj
+ 0001:0002b748       NKLoadLibraryEx            1002c748 f   kernprof_ALL:loader.obj
+ 0001:0002b894       PageFromLoader             1002c894 f   kernprof_ALL:loader.obj
+ 0001:0002b958       PSLNotifyThread            1002c958 f   kernprof_ALL:loader.obj
+ 0001:0002bafc       LoadUserCoreDll            1002cafc f   kernprof_ALL:loader.obj
+ 0001:0002bcf0       PostFsInit                 1002ccf0 f   kernprof_ALL:loader.obj
+ 0001:0002bd94       LoaderInit                 1002cd94 f   kernprof_ALL:loader.obj
+ 0001:0002c0cc       FreeModFromProc            1002d0cc f   kernprof_ALL:loader.obj
+ 0001:0002c160       FreeAllProcLibraries       1002d160 f   kernprof_ALL:loader.obj
+ 0001:0002c1a8       EXTInitModule              1002d1a8 f   kernprof_ALL:loader.obj
+ 0001:0002c324       EXTLoadLibraryEx           1002d324 f   kernprof_ALL:loader.obj
+ 0001:0002c500       NKFreeLibrary              1002d500 f   kernprof_ALL:loader.obj
+ 0001:0002c740       HeapInit                   1002d740 f   kernprof_ALL:heap.obj
+ 0001:0002c958       AllocMem                   1002d958 f   kernprof_ALL:heap.obj
+ 0001:0002c9ac       FreeMem                    1002d9ac f   kernprof_ALL:heap.obj
+ 0001:0002c9dc       AllocName                  1002d9dc f   kernprof_ALL:heap.obj
+ 0001:0002ca38       GetKHeapInfo               1002da38 f   kernprof_ALL:heap.obj
+ 0001:0002cb04       NKCreateHeap               1002db04 f   kernprof_ALL:heap.obj
+ 0001:0002cb54       NKHeapAlloc                1002db54 f   kernprof_ALL:heap.obj
+ 0001:0002cbe8       NKHeapFree                 1002dbe8 f   kernprof_ALL:heap.obj
+ 0001:0002cc74       NKmalloc                   1002dc74 f   kernprof_ALL:heap.obj
+ 0001:0002cc88       NKfree                     1002dc88 f   kernprof_ALL:heap.obj
+ 0001:0002cc9c       InitGenericHeap            1002dc9c f   kernprof_ALL:heap.obj
+ 0001:0002cfe4       NKCreateEvent              1002dfe4 f   kernprof_ALL:syncobj.obj
+ 0001:0002d014       NKCreateMsgQEvent          1002e014 f   kernprof_ALL:syncobj.obj
+ 0001:0002d044       NKCreateWdogEvent          1002e044 f   kernprof_ALL:syncobj.obj
+ 0001:0002d108       NKOpenEvent                1002e108 f   kernprof_ALL:syncobj.obj
+ 0001:0002d120       NKOpenMsgQEvent            1002e120 f   kernprof_ALL:syncobj.obj
+ 0001:0002d138       NKOpenWdogEvent            1002e138 f   kernprof_ALL:syncobj.obj
+ 0001:0002d150       EVNTSetData                1002e150 f   kernprof_ALL:syncobj.obj
+ 0001:0002d16c       EVNTGetData                1002e16c f   kernprof_ALL:syncobj.obj
+ 0001:0002d1bc       EVNTResumeMainThread       1002e1bc f   kernprof_ALL:syncobj.obj
+ 0001:0002d258       SignalAllBlockers          1002e258 f   kernprof_ALL:syncobj.obj
+ 0001:0002d2a4       ForceEventModify           1002e2a4 f   kernprof_ALL:syncobj.obj
+ 0001:0002d3e8       EVNTModify                 1002e3e8 f   kernprof_ALL:syncobj.obj
+ 0001:0002d448       EVNTCloseHandle            1002e448 f   kernprof_ALL:syncobj.obj
+ 0001:0002d474       NKEventModify              1002e474 f   kernprof_ALL:syncobj.obj
+ 0001:0002d4d8       NKIsNamedEventSignaled     1002e4d8 f   kernprof_ALL:syncobj.obj
+ 0001:0002d580       LockIntrEvt                1002e580 f   kernprof_ALL:syncobj.obj
+ 0001:0002d614       UnlockIntrEvt              1002e614 f   kernprof_ALL:syncobj.obj
+ 0001:0002d63c       NKCreateSemaphore          1002e63c f   kernprof_ALL:syncobj.obj
+ 0001:0002d6c8       NKOpenSemaphore            1002e6c8 f   kernprof_ALL:syncobj.obj
+ 0001:0002d768       SEMRelease                 1002e768 f   kernprof_ALL:syncobj.obj
+ 0001:0002d878       SEMCloseHandle             1002e878 f   kernprof_ALL:syncobj.obj
+ 0001:0002d8a4       NKCreateMutex              1002e8a4 f   kernprof_ALL:syncobj.obj
+ 0001:0002d8dc       NKOpenMutex                1002e8dc f   kernprof_ALL:syncobj.obj
+ 0001:0002d974       GiveupMutex                1002e974 f   kernprof_ALL:syncobj.obj
+ 0001:0002d9c8       MUTXRelease                1002e9c8 f   kernprof_ALL:syncobj.obj
+ 0001:0002da8c       MUTXCloseHandle            1002ea8c f   kernprof_ALL:syncobj.obj
+ 0001:0002dab8       InitializeFastLock         1002eab8 f   kernprof_ALL:syncobj.obj
+ 0001:0002dad0       DeleteFastLock             1002ead0 f   kernprof_ALL:syncobj.obj
+ 0001:0002dad8       AcquireReadLock            1002ead8 f   kernprof_ALL:syncobj.obj
+ 0001:0002db14       ReleaseReadLock            1002eb14 f   kernprof_ALL:syncobj.obj
+ 0001:0002db5c       AcquireWriteLock           1002eb5c f   kernprof_ALL:syncobj.obj
+ 0001:0002dbd4       ReleaseWriteLock           1002ebd4 f   kernprof_ALL:syncobj.obj
+ 0001:0002dc54       CRITCreate                 1002ec54 f   kernprof_ALL:syncobj.obj
+ 0001:0002dc94       CRITDelete                 1002ec94 f   kernprof_ALL:syncobj.obj
+ 0001:0002dcb4       CRITEnter                  1002ecb4 f   kernprof_ALL:syncobj.obj
+ 0001:0002dddc       CRITLeave                  1002eddc f   kernprof_ALL:syncobj.obj
+ 0001:0002df24       Win32CRITEnter             1002ef24 f   kernprof_ALL:syncobj.obj
+ 0001:0002dfe0       Win32CRITLeave             1002efe0 f   kernprof_ALL:syncobj.obj
+ 0001:0002e168       EXTCRITCreate              1002f168 f   kernprof_ALL:syncobj.obj
+ 0001:0002e2f0       PHD_SetFilePointer         1002f2f0 f   kernprof_ALL:fscall.obj
+ 0001:0002e34c       PHD_SetLargeFilePointer    1002f34c f   kernprof_ALL:fscall.obj
+ 0001:0002e408       PHD_GetLargeFileSize       1002f408 f   kernprof_ALL:fscall.obj
+ 0001:0002e468       PHD_ReadFile               1002f468 f   kernprof_ALL:fscall.obj
+ 0001:0002e4d4       PHD_WriteFile              1002f4d4 f   kernprof_ALL:fscall.obj
+ 0001:0002e540       PHD_ReadFileWithSeek       1002f540 f   kernprof_ALL:fscall.obj
+ 0001:0002e5bc       PHD_WriteFileWithSeek      1002f5bc f   kernprof_ALL:fscall.obj
+ 0001:0002e638       PHD_GetFileInfo            1002f638 f   kernprof_ALL:fscall.obj
+ 0001:0002e688       PHD_FlushFileBuffers       1002f688 f   kernprof_ALL:fscall.obj
+ 0001:0002e6cc       PHD_SetEndOfFile           1002f6cc f   kernprof_ALL:fscall.obj
+ 0001:0002e710       PHD_FSIoctl                1002f710 f   kernprof_ALL:fscall.obj
+ 0001:0002e888       PHD_CloseHandle            1002f888 f   kernprof_ALL:fscall.obj
+ 0001:0002e890       PHD_PreCloseHandle         1002f890 f   kernprof_ALL:fscall.obj
+ 0001:0002e898       FSSetFilePointer           1002f898 f   kernprof_ALL:fscall.obj
+ 0001:0002e8f0       FSReadFile                 1002f8f0 f   kernprof_ALL:fscall.obj
+ 0001:0002e958       FSReadFileWithSeek         1002f958 f   kernprof_ALL:fscall.obj
+ 0001:0002e9d0       FSGetFileInfo              1002f9d0 f   kernprof_ALL:fscall.obj
+ 0001:0002ea18       FSIoctl                    1002fa18 f   kernprof_ALL:fscall.obj
+ 0001:0002eb0c       FSCreateFile               1002fb0c f   kernprof_ALL:fscall.obj
+ 0001:0002eba0       NKRegQueryValueExW         1002fba0 f   kernprof_ALL:fscall.obj
+ 0001:0002ec50       NKRegSetValueExW           1002fc50 f   kernprof_ALL:fscall.obj
+ 0001:0002ecf0       NKRegTestSetValueW         1002fcf0 f   kernprof_ALL:fscall.obj
+ 0001:0002ed8c       NKRegOpenKeyExW            1002fd8c f   kernprof_ALL:fscall.obj
+ 0001:0002ee24       NKRegCreateKeyExW          1002fe24 f   kernprof_ALL:fscall.obj
+ 0001:0002eedc       NKRegCloseKey              1002fedc f   kernprof_ALL:fscall.obj
+ 0001:0002eee8       NKRegFlushKey              1002fee8 f   kernprof_ALL:fscall.obj
+ 0001:0002eef4       FSOpenModule               1002fef4 f   kernprof_ALL:fscall.obj
+ 0001:0002ef70       FSNotifyMountedFS          1002ff70 f   kernprof_ALL:fscall.obj
+ 0001:0002ef7c       InitializeCriticalSection  1002ff7c f   kernprof_ALL:stubs.obj
+ 0001:0002efa4       DeleteCriticalSection      1002ffa4 f   kernprof_ALL:stubs.obj
+ 0001:0002efd0       EnterCriticalSection       1002ffd0 f   kernprof_ALL:stubs.obj
+ 0001:0002f068       LeaveCriticalSection       10030068 f   kernprof_ALL:stubs.obj
+ 0001:0002f0fc       SP_GetFmtValue             100300fc f   kernprof_ALL:stubs.obj
+ 0001:0002f154       SP_Reverse                 10030154 f   kernprof_ALL:stubs.obj
+ 0001:0002f188       SP_PutNumber               10030188 f   kernprof_ALL:stubs.obj
+ 0001:0002f1fc       SP_PutNumber64             100301fc f   kernprof_ALL:stubs.obj
+ 0001:0002f2d0       EnumerateDList             100302d0 f   kernprof_ALL:stubs.obj
+ 0001:0002f324       NKwvsprintfW               10030324 f   kernprof_ALL:stubs.obj
+ 0001:0002f9a0       NKSetLowestScheduledPriority 100309a0 f   kernprof_ALL:schedule.obj
+ 0001:0002fa2c       GoToUserTime               10030a2c f   kernprof_ALL:schedule.obj
+ 0001:0002fb00       GoToKernTime               10030b00 f   kernprof_ALL:schedule.obj
+ 0001:0002fbd0       ThreadSleep                10030bd0 f   kernprof_ALL:schedule.obj
+ 0001:0002fc4c       NKSleep                    10030c4c f   kernprof_ALL:schedule.obj
+ 0001:0002fd10       NKSleepTillTick            10030d10 f   kernprof_ALL:schedule.obj
+ 0001:0002fd6c       UB_Sleep                   10030d6c f   kernprof_ALL:schedule.obj
+ 0001:0002fdcc       CanTakeCS                  10030dcc f   kernprof_ALL:schedule.obj
+ 0001:00030210       DoWaitForObjects           10031210 f   kernprof_ALL:schedule.obj
+ 0001:00030274       LockWaitableObject         10031274 f   kernprof_ALL:schedule.obj
+ 0001:00030310       NKWaitForMultipleObjects   10031310 f   kernprof_ALL:schedule.obj
+ 0001:000304c8       NKWaitForKernelObject      100314c8 f   kernprof_ALL:schedule.obj
+ 0001:00030558       NKWaitForAPIReady          10031558 f   kernprof_ALL:schedule.obj
+ 0001:00030664       NKGetCPUInfo               10031664 f   kernprof_ALL:schedule.obj
+ 0001:00030728       NKCPUPowerFunc             10031728 f   kernprof_ALL:schedule.obj
+ 0001:000307f0       PuntCritSec                100317f0 f   kernprof_ALL:schedule.obj
+ 0001:00030840       SurrenderCritSecs          10031840 f   kernprof_ALL:schedule.obj
+ 0001:000308f8       NKCreateAndLockEvent       100318f8 f   kernprof_ALL:schedule.obj
+ 0001:00030970       SystemStartupFunc          10031970 f   kernprof_ALL:schedule.obj
+ 0001:00030a7c       CELOG_Interrupt            10031a7c f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00030b1c       CELOG_OutputDebugString    10031b1c f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00030bc4       CELOG_ThreadMigrate        10031bc4 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00030c38       CELOG_KCThreadSwitch       10031c38 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00030ca4       CELOG_KCThreadQuantumExpire 10031ca4 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00030d08       CELOG_KCThreadPriorityInvert 10031d08 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00030d7c       CELOG_KCThreadSetPriority  10031d7c f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00030df0       CELOG_ThreadSetQuantum     10031df0 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00030e64       CELOG_KCThreadSuspend      10031e64 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00030ed0       CELOG_KCThreadResume       10031ed0 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00031058       CELOG_ThreadTerminate      10032058 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:000310c4       CELOG_ThreadDelete         100320c4 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00031330       CELOG_ProcessCreateEx      10032330 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00031360       CELOG_ProcessTerminate     10032360 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:000313cc       CELOG_ProcessDelete        100323cc f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00031438       CELOG_Sleep                10032438 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:0003158c       CELOG_EventModify          1003258c f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00031690       CELOG_EventDelete          10032690 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:000316fc       CELOG_WaitForMultipleObjects 100326fc f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:0003186c       CELOG_MutexRelease         1003286c f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:000318d8       CELOG_MutexDelete          100328d8 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00031a10       CELOG_SemaphoreRelease     10032a10 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00031a8c       CELOG_SemaphoreDelete      10032a8c f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00031af8       CELOG_CriticalSectionDelete 10032af8 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00031b64       CELOG_CriticalSectionEnter 10032b64 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00031be4       CELOG_CriticalSectionLeave 10032be4 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00031c58       CELOG_VirtualAlloc         10032c58 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00031cf0       CELOG_VirtualCopy          10032cf0 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00031d9c       CELOG_VirtualFree          10032d9c f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00031e28       CELOG_MapFileCreate        10032e28 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00031efc       CELOG_MapFileDestroy       10032efc f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00031f68       CELOG_MapFileViewOpen      10032f68 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00032030       CELOG_MapFileViewClose     10033030 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:000320ac       CELOG_MapFileViewFlush     100330ac f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00032158       CELOG_MapFileValidate      10033158 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:000321e4       CELOG_PageFault            100331e4 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:000323a8       CELOG_ModuleLoad           100333a8 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:000323fc       CELOG_ModuleFree           100333fc f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00032480       CELOG_ModuleFailedLoad     10033480 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00032554       CELOG_LaunchingFilesys     10033554 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:000325c0       CELOG_LowMemSignalled      100335c0 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00032654       CELOG_SyncProcess          10033654 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:0003267c       CELOG_SyncThread           1003367c f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00032718       CELOG_SyncModule           10033718 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00032728       CELOG_SyncModuleRefCount   10033728 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00032814       CELOG_ThreadCreate         10033814 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:0003288c       CELOG_OpenOrCreateHandle   1003388c f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:000333cc       LoggerInit                 100343cc f   kernprof_ALL:logger.obj
+ 0001:00033440       NKCeLogData                10034440 f   kernprof_ALL:logger.obj
+ 0001:000334a0       NKCeLogSetZones            100344a0 f   kernprof_ALL:logger.obj
+ 0001:000334fc       NKCeLogGetZones            100344fc f   kernprof_ALL:logger.obj
+ 0001:00033560       KCallCeLogReSync           10034560 f   kernprof_ALL:logger.obj
+ 0001:000337b8       KernelLibIoControl_CeLog   100347b8 f   kernprof_ALL:logger.obj
+ 0001:00033e50       __security_init_cookie     10034e50 f   kernprof_ALL:gsnk.obj
+ 0001:00033ec4       __report_gsfailure         10034ec4 f   kernprof_ALL:gsnk.obj
+ 0001:0003415c       NKSystemTimeToTicks        1003515c f   kernprof_ALL:time.obj
+ 0001:00034268       NKTicksToSystemTime        10035268 f   kernprof_ALL:time.obj
+ 0001:000345fc       NKSystemTimeToFileTime     100355fc f   kernprof_ALL:time.obj
+ 0001:00034670       NKFileTimeToSystemTime     10035670 f   kernprof_ALL:time.obj
+ 0001:000346d8       GetTimeInTicks             100356d8 f   kernprof_ALL:time.obj
+ 0001:00034930       NKRefreshRTC               10035930 f   kernprof_ALL:time.obj
+ 0001:000349c8       NKGetTime                  100359c8 f   kernprof_ALL:time.obj
+ 0001:000349e8       NKGetTimeAsFileTime        100359e8 f   kernprof_ALL:time.obj
+ 0001:00034a10       NKGetRawTime               10035a10 f   kernprof_ALL:time.obj
+ 0001:00034a5c       SignalKernelAlarm          10035a5c f   kernprof_ALL:time.obj
+ 0001:00034bc8       NKRefreshKernelAlarm       10035bc8 f   kernprof_ALL:time.obj
+ 0001:00034c00       NKSetKernelAlarm           10035c00 f   kernprof_ALL:time.obj
+ 0001:00034d10       NKSetDaylightTime          10035d10 f   kernprof_ALL:time.obj
+ 0001:00034d50       NKSetTimeZoneBias          10035d50 f   kernprof_ALL:time.obj
+ 0001:00034d90       InitSoftRTC                10035d90 f   kernprof_ALL:time.obj
+ 0001:00034e5c       SetTimeHelper              10035e5c f   kernprof_ALL:time.obj
+ 0001:00034f1c       NKSetTime                  10035f1c f   kernprof_ALL:time.obj
+ 0001:00034ff0       INTRMask                   10035ff0 f   kernprof_ALL:intrapi.obj
+ 0001:00035078       INTRInitialize             10036078 f   kernprof_ALL:intrapi.obj
+ 0001:0003518c       INTRDone                   1003618c f   kernprof_ALL:intrapi.obj
+ 0001:0003520c       INTRDisable                1003620c f   kernprof_ALL:intrapi.obj
+ 0001:000352fc       NKSetInterruptEvent        100362fc f   kernprof_ALL:intrapi.obj
+ 0001:00035368       NKIsSysIntrValid           10036368 f   kernprof_ALL:intrapi.obj
+ 0001:00035394       __rt_udiv                  10036394 f   kernprof_ALL:__udiv.obj
+ 0001:00035458       __rt_udivrem64by64         10036458     kernprof_ALL:mdsdiv64.obj
+ 0001:00035550       __rt_divrem64by64          10036550     kernprof_ALL:mdsdiv64.obj
+ 0001:000355a0       __rt_udiv64by64            100365a0     kernprof_ALL:mdsdiv64.obj
+ 0001:000355b0       __rt_urem64by64            100365b0     kernprof_ALL:mdsdiv64.obj
+ 0001:000355c8       __rt_sdiv64by64            100365c8     kernprof_ALL:mdsdiv64.obj
+ 0001:000355d8       __rt_srem64by64            100365d8     kernprof_ALL:mdsdiv64.obj
+ 0001:000355f0       __C_specific_handler       100365f0 f   kernprof_ALL:chandler.obj
+ 0001:000360c8       MAPUncacheViews            100370c8 f   kernprof_ALL:mapfile.obj
+ 0001:000364f8       MAPMapView                 100374f8 f   kernprof_ALL:mapfile.obj
+ 0001:00036964       MAPUnmapView               10037964 f   kernprof_ALL:mapfile.obj
+ 0001:00036aac       MAPFlushView               10037aac f   kernprof_ALL:mapfile.obj
+ 0001:00036bc0       MAPUnmapAllViews           10037bc0 f   kernprof_ALL:mapfile.obj
+ 0001:000370ac       PageFromMapper             100380ac f   kernprof_ALL:mapfile.obj
+ 0001:00037358       MapfileInit                10038358 f   kernprof_ALL:mapfile.obj
+ 0001:000377d8       PageOutFiles               100387d8 f   kernprof_ALL:mapfile.obj
+ 0001:000377ec       WriteBackAllFiles          100387ec f   kernprof_ALL:mapfile.obj
+ 0001:00037814       NKCreateFileMapping        10038814 f   kernprof_ALL:mapfile.obj
+ 0001:00037c30       ReadZoneFromRemoteRegistry 10038c30 f   kernprof_ALL:ppfs.obj
+ 0001:00037e10       RemovePslServer            10038e10 f   kernprof_ALL:apicall.obj
+ 0001:00037e88       AddPslServer               10038e88 f   kernprof_ALL:apicall.obj
+ 0001:00037f14       SetProcTlsCleanup          10038f14 f   kernprof_ALL:apicall.obj
+ 0001:00037f9c       ValidateSignatures         10038f9c f   kernprof_ALL:apicall.obj
+ 0001:00038034       LockServerWithId           10039034 f   kernprof_ALL:apicall.obj
+ 0001:000380b4       UnlockServerWithId         100390b4 f   kernprof_ALL:apicall.obj
+ 0001:000380fc       APICallInit                100390fc f   kernprof_ALL:apicall.obj
+ 0001:00038178       NKCreateAPISet             10039178 f   kernprof_ALL:apicall.obj
+ 0001:000383ac       EXTCreateAPISet            100393ac f   kernprof_ALL:apicall.obj
+ 0001:00038468       APISClose                  10039468 f   kernprof_ALL:apicall.obj
+ 0001:00038510       APISPreClose               10039510 f   kernprof_ALL:apicall.obj
+ 0001:00038554       APISRegisterDirectMethods  10039554 f   kernprof_ALL:apicall.obj
+ 0001:00038568       EXTAPISRegisterDirectMethods 10039568 f   kernprof_ALL:apicall.obj
+ 0001:00038650       APISRegister               10039650 f   kernprof_ALL:apicall.obj
+ 0001:000388b0       APISCreateAPIHandle        100398b0 f   kernprof_ALL:apicall.obj
+ 0001:00038958       APISCreateAPIHandleWithAccess 10039958 f   kernprof_ALL:apicall.obj
+ 0001:00038a38       APISVerify                 10039a38 f   kernprof_ALL:apicall.obj
+ 0001:00038ad4       APISLockHandle             10039ad4 f   kernprof_ALL:apicall.obj
+ 0001:00038b98       APISUnlockHandle           10039b98 f   kernprof_ALL:apicall.obj
+ 0001:00038bf0       APISSetErrorHandler        10039bf0 f   kernprof_ALL:apicall.obj
+ 0001:00038bfc       APISQueryID                10039bfc f   kernprof_ALL:apicall.obj
+ 0001:00038c8c       APISRegisterAccessMask     10039c8c f   kernprof_ALL:apicall.obj
+ 0001:00038ce0       EXTAPISRegisterAccessMask  10039ce0 f   kernprof_ALL:apicall.obj
+ 0001:00038dac       IsSystemAPISetReady        10039dac f   kernprof_ALL:apicall.obj
+ 0001:00038e4c       NKTLSNotify                10039e4c f   kernprof_ALL:apicall.obj
+ 0001:00038f8c       NKPSLNotify                10039f8c f   kernprof_ALL:apicall.obj
+ 0001:00039234       WaitForCallerLeave         1003a234 f   kernprof_ALL:apicall.obj
+ 0001:00039280       SaveDirectCall             1003a280 f i kernprof_ALL:apicall.obj
+ 0001:000392fc       SecureStackSpaceLow        1003a2fc f i kernprof_ALL:apicall.obj
+ 0001:00039360       SetupErrorReturn           1003a360 f   kernprof_ALL:apicall.obj
+ 0001:00039524       DecodeAPI                  1003a524 f   kernprof_ALL:apicall.obj
+ 0001:00039c10       DoValidateArgs             1003ac10 f   kernprof_ALL:apicall.obj
+ 0001:00039f94       ObjectCall                 1003af94 f   kernprof_ALL:apicall.obj
+ 0001:0003a270       SetupCallToUserServer      1003b270 f   kernprof_ALL:apicall.obj
+ 0001:0003a530       NKPrepareCallback          1003b530 f   kernprof_ALL:apicall.obj
+ 0001:0003a7bc       NKSetDirectCall            1003b7bc f   kernprof_ALL:apicall.obj
+ 0001:0003a858       UnwindOneCstk              1003b858 f   kernprof_ALL:apicall.obj
+ 0001:0003aa7c       ServerCallReturn           1003ba7c f   kernprof_ALL:apicall.obj
+ 0001:0003abf0       CleanupAllCallstacks       1003bbf0 f   kernprof_ALL:apicall.obj
+ 0001:0003ac40       NKHandleCall               1003bc40 f   kernprof_ALL:apicall.obj
+ 0001:0003af28       __GSHandlerCheckCommon     1003bf28 f   kernprof_ALL:gshandler.obj
+ 0001:0003af64       __GSHandlerCheck           1003bf64 f   kernprof_ALL:gshandler.obj
+ 0001:0003af84       __security_check_cookie    1003bf84 f   kernprof_ALL:armsecgs.obj
+ 0001:0003af94       __gsfailure                1003bf94     kernprof_ALL:armsecgs.obj
+ 0001:0003afd8       DbgrInitThread             1003bfd8 f   kernprof_ALL:dbgapi.obj
+ 0001:0003b034       DbgrDeInitAllDebuggeeThreads 1003c034 f   kernprof_ALL:dbgapi.obj
+ 0001:0003b0f0       DbgrDeInitDebuggeeProcess  1003c0f0 f   kernprof_ALL:dbgapi.obj
+ 0001:0003b134       DbgrInitAllDebuggeeThreads 1003c134 f   kernprof_ALL:dbgapi.obj
+ 0001:0003b1a4       DbgrInitDebuggeeProcess    1003c1a4 f   kernprof_ALL:dbgapi.obj
+ 0001:0003b2c0       DbgrDetachDebuggees        1003c2c0 f   kernprof_ALL:dbgapi.obj
+ 0001:0003b384       DbgrDeInitDebuggerThread   1003c384 f   kernprof_ALL:dbgapi.obj
+ 0001:0003b3cc       DbgrInitDebuggerThread     1003c3cc f   kernprof_ALL:dbgapi.obj
+ 0001:0003b47c       DbgrInitProcess            1003c47c f   kernprof_ALL:dbgapi.obj
+ 0001:0003b564       SendAndReceiveDebugInfo    1003c564 f   kernprof_ALL:dbgapi.obj
+ 0001:0003b6b0       DbgrNotifyProcCreate       1003c6b0 f   kernprof_ALL:dbgapi.obj
+ 0001:0003b780       DbgrNotifyThrdCreate       1003c780 f   kernprof_ALL:dbgapi.obj
+ 0001:0003b7f0       DbgrNotifyExit             1003c7f0 f   kernprof_ALL:dbgapi.obj
+ 0001:0003b854       DbgrNotifyDllLoad          1003c854 f   kernprof_ALL:dbgapi.obj
+ 0001:0003b8e0       DbgrNotifyDllUnload        1003c8e0 f   kernprof_ALL:dbgapi.obj
+ 0001:0003b948       SendAllDllLoadEvents       1003c948 f   kernprof_ALL:dbgapi.obj
+ 0001:0003ba6c       DbgrSendCurrentDebuggeeState 1003ca6c f   kernprof_ALL:dbgapi.obj
+ 0001:0003bb74       DbgrResumeAllThreadsInProcess 1003cb74 f   kernprof_ALL:dbgapi.obj
+ 0001:0003bbcc       DbgrResumeProcess          1003cbcc f   kernprof_ALL:dbgapi.obj
+ 0001:0003bc04       DbgrSuspendAllThreadsInProcess 1003cc04 f   kernprof_ALL:dbgapi.obj
+ 0001:0003bcc8       DbgrSetDispatchFlag        1003ccc8 f   kernprof_ALL:dbgapi.obj
+ 0001:0003bd58       NKDebugSetProcessKillOnExit 1003cd58 f   kernprof_ALL:dbgapi.obj
+ 0001:0003be20       NKDebugNotify              1003ce20 f   kernprof_ALL:dbgapi.obj
+ 0001:0003bf10       NKDebugActiveProcessStop   1003cf10 f   kernprof_ALL:dbgapi.obj
+ 0001:0003c044       NKDebugActiveProcess       1003d044 f   kernprof_ALL:dbgapi.obj
+ 0001:0003c27c       NKWaitForDebugEvent        1003d27c f   kernprof_ALL:dbgapi.obj
+ 0001:0003c448       NKContinueDebugEvent       1003d448 f   kernprof_ALL:dbgapi.obj
+ 0001:0003c5a0       NKSetJITDebuggerPath       1003d5a0 f   kernprof_ALL:dbgapi.obj
+ 0001:0003c61c       JITGetCallStack            1003d61c f   kernprof_ALL:dbgapi.obj
+ 0001:0003c65c       UserDbgTrap                1003d65c f   kernprof_ALL:dbgapi.obj
+ 0001:0003ca60       InitSQMMarkers             1003da60 f   kernprof_ALL:sqmutil.obj
+ 0001:0003caa8       GetSQMMarkers              1003daa8 f   kernprof_ALL:sqmutil.obj
+ 0001:0003cb18       ResetSQMMarkers            1003db18 f   kernprof_ALL:sqmutil.obj
+ 0001:0003cb40       UpdateSQMMarkers           1003db40 f   kernprof_ALL:sqmutil.obj
+ 0001:0003cbbc       PagePoolDeleteProcess      1003dbbc f   kernprof_ALL:pgpool.obj
+ 0001:0003cbf0       PagePoolGetNextProcess     1003dbf0 f   kernprof_ALL:pgpool.obj
+ 0001:0003cc48       PagePoolDeleteFile         1003dc48 f   kernprof_ALL:pgpool.obj
+ 0001:0003ccac       PagePoolGetNextFile        1003dcac f   kernprof_ALL:pgpool.obj
+ 0001:0003cd20       PGPOOLNeedsTrim            1003dd20 f   kernprof_ALL:pgpool.obj
+ 0001:0003cd9c       PGPOOLFreePage             1003dd9c f   kernprof_ALL:pgpool.obj
+ 0001:0003ce0c       GetPagingPage              1003de0c f   kernprof_ALL:pgpool.obj
+ 0001:0003cf64       FreePagingPage             1003df64 f   kernprof_ALL:pgpool.obj
+ 0001:0003d11c       PageOutThread              1003e11c f   kernprof_ALL:pgpool.obj
+ 0001:0003d1d0       PagePoolInit               1003e1d0 f   kernprof_ALL:pgpool.obj
+ 0001:0003d374       PagePoolGetState           1003e374 f   kernprof_ALL:pgpool.obj
+ 0001:0003d3f8       NKForcePageout             1003e3f8 f   kernprof_ALL:pgpool.obj
+ 0001:0003d91c       MapVMInit                  1003e91c f   kernprof_ALL:mapvm.obj
+ 0001:0003d9bc       MapVMCleanup               1003e9bc f   kernprof_ALL:mapvm.obj
+ 0001:0003daa0       MapVMAddPage               1003eaa0 f   kernprof_ALL:mapvm.obj
+ 0001:0003db54       MapVMCopy                  1003eb54 f   kernprof_ALL:mapvm.obj
+ 0001:0003dc0c       MapVMFill                  1003ec0c f   kernprof_ALL:mapvm.obj
+ 0001:0003dc68       MapVMFreePage              1003ec68 f   kernprof_ALL:mapvm.obj
+ 0001:0003dd38       MapVMDecommit              1003ed38 f   kernprof_ALL:mapvm.obj
+ 0001:0003dda8       MapVMResize                1003eda8 f   kernprof_ALL:mapvm.obj
+ 0001:0003dfb0       KernelInit                 1003efb0 f   kernprof_ALL:nkinit.obj
+ 0001:0003e004       KernelInit2                1003f004 f   kernprof_ALL:nkinit.obj
+ 0001:0003e300       InitMsgQueue               1003f300 f   kernprof_ALL:msgqueue.obj
+ 0001:0003e944       NKCreateMsgQueue           1003f944 f   kernprof_ALL:msgqueue.obj
+ 0001:0003ea38       MSGQClose                  1003fa38 f   kernprof_ALL:msgqueue.obj
+ 0001:0003eb88       MSGQPreClose               1003fb88 f   kernprof_ALL:msgqueue.obj
+ 0001:0003ebd8       NKOpenMsgQueueEx           1003fbd8 f   kernprof_ALL:msgqueue.obj
+ 0001:0003ef14       MSGQRead                   1003ff14 f   kernprof_ALL:msgqueue.obj
+ 0001:0003f300       MSGQWrite                  10040300 f   kernprof_ALL:msgqueue.obj
+ 0001:0003f694       MSGQGetInfo                10040694 f   kernprof_ALL:msgqueue.obj
+ 0001:0003f788       strlen                     10040788     kernprof_ALL:mdsstrlen.obj
+ 0001:0003f7f4       NKRemoteLocalAlloc         100407f4 f   kernprof_ALL:ruheap.obj
+ 0001:0003f9a4       NKRemoteLocalReAlloc       100409a4 f   kernprof_ALL:ruheap.obj
+ 0001:0003fb5c       NKRemoteLocalSize          10040b5c f   kernprof_ALL:ruheap.obj
+ 0001:0003fcc0       NKRemoteLocalFree          10040cc0 f   kernprof_ALL:ruheap.obj
+ 0001:0003fe58       RemoteUserHeapInit         10040e58 f   kernprof_ALL:ruheap.obj
+ 0001:0003fef8       AllocBCBuffer              10040ef8 f   kernprof_ALL:compr2.obj
+ 0001:0003ff2c       DecompressROM              10040f2c f   kernprof_ALL:compr2.obj
+ 0001:00040064       NKStringCompress           10041064 f   kernprof_ALL:compr2.obj
+ 0001:000401f8       NKStringDecompress         100411f8 f   kernprof_ALL:compr2.obj
+ 0001:00040394       NKBinaryCompress           10041394 f   kernprof_ALL:compr2.obj
+ 0001:000403b8       NKBinaryDecompress         100413b8 f   kernprof_ALL:compr2.obj
+ 0001:00040410       ExtBinaryDecompress        10041410 f   kernprof_ALL:compr2.obj
+ 0001:000404f0       NKDecompressBinaryBlock    100414f0 f   kernprof_ALL:compr2.obj
+ 0001:00040570       StrCmpAPascW               10041570 f   kernprof_ALL:resource.obj
+ 0001:000405dc       AddLangUnique              100415dc f   kernprof_ALL:resource.obj
+ 0001:000406d4       LoadMUI                    100416d4 f   kernprof_ALL:resource.obj
+ 0001:00040910       InitMUILanguages           10041910 f   kernprof_ALL:resource.obj
+ 0001:000409c8       AToUCopy                   100419c8 f   kernprof_ALL:resource.obj
+ 0001:00040a04       NKGetRomFileBytes          10041a04 f   kernprof_ALL:resource.obj
+ 0001:00040c90       FindROMFile                10041c90 f   kernprof_ALL:resource.obj
+ 0001:00040d2c       NKGetRomFileInfo           10041d2c f   kernprof_ALL:resource.obj
+ 0001:00041180       NKCreateWatchDog           10042180 f   kernprof_ALL:watchdog.obj
+ 0001:000413b8       WDStart                    100423b8 f   kernprof_ALL:watchdog.obj
+ 0001:00041500       WDStop                     10042500 f   kernprof_ALL:watchdog.obj
+ 0001:00041590       WDRefresh                  10042590 f   kernprof_ALL:watchdog.obj
+ 0001:00041664       InitWatchDog               10042664 f   kernprof_ALL:watchdog.obj
+ 0001:000416cc       WDDelete                   100426cc f   kernprof_ALL:watchdog.obj
+ 0001:00041ce8       DoTakeSnapshot             10042ce8 f   kernprof_ALL:nksnap.obj
+ 0001:00041fdc       KC_TakeSnapShot            10042fdc f   kernprof_ALL:nksnap.obj
+ 0001:00042240       DumpSnapHeader             10043240 f   kernprof_ALL:nksnap.obj
+ 0001:0004231c       VerifyChkSum               1004331c f   kernprof_ALL:nksnap.obj
+ 0001:000423a0       VerifySnap                 100433a0 f   kernprof_ALL:nksnap.obj
+ 0001:00042508       NKPrepareForSnapshot       10043508 f   kernprof_ALL:nksnap.obj
+ 0001:00042510       NKMakeSnapshot             10043510 f   kernprof_ALL:nksnap.obj
+ 0001:000429a8       LockCacheView              100439a8 f   kernprof_ALL:cachemap.obj
+ 0001:00042a00       UnlockCacheView            10043a00 f   kernprof_ALL:cachemap.obj
+ 0001:00042a04       RegisterForCaching         10043a04 f   kernprof_ALL:cachemap.obj
+ 0001:00042b18       CEDecompressROM            10043b18 f   kernprof_ALL:kdecompress.obj
+ 0001:00042ca8       memcmp                     10043ca8     kernprof_ALL:memcmp.obj
+ 0001:00042d74       _stricmp                   10043d74 f   kernprof_ALL:_stricmp.obj
+ 0001:00042e04       NK_itow_s                  10043e04 f   kernprof_ALL:tzinit.obj
+ 0001:00042ed8       BiasChangeHelper           10043ed8 f   kernprof_ALL:tzinit.obj
+ 0001:000432a8       GetDynamicDSTInfo          100442a8 f   kernprof_ALL:tzinit.obj
+ 0001:00043570       InitKTzBiasFromTzInfo      10044570 f   kernprof_ALL:tzinit.obj
+ 0001:000436fc       __raise_int_divide_by_zero 100446fc f   kernprof_ALL:diverr.obj
+ 0001:00043714       __C_ExecuteExceptionFilter 10044714     kernprof_ALL:jmpuwind.obj
+ 0001:00043714       __C_ExecuteTerminationHandler 10044714 f   kernprof_ALL:jmpuwind.obj
+ 0001:000438b8       ValidateFile               100448b8 f   kernprof_ALL:mapflush.obj
+ 0001:00043e18       SimpleWritePages           10044e18 f   kernprof_ALL:mapflush.obj
+ 0001:00044178       DoFlushView                10045178 f   kernprof_ALL:mapflush.obj
+ 0001:000443f4       wcscmp                     100453f4 f   kernprof_ALL:wcscmp.obj
+ 0001:0004443c       __GSHandlerCheck_SEH       1004543c f   kernprof_ALL:gshandlerseh.obj
+ 0001:00044c48       CECompress                 10045c48 f   kernprof_ALL:compress.obj
+ 0001:00044eec       CEDecompress               10045eec f   kernprof_ALL:compress.obj
+ 0001:0004512c       _BinCompAlloc              1004612c f   kernprof_ALL:decompr.obj
+ 0001:00045254       _BinCompFree               10046254 f   kernprof_ALL:decompr.obj
+ 0001:000452dc       BinCompAlloc               100462dc f i kernprof_ALL:decompr.obj
+ 0001:000452e0       BinCompFree                100462e0 f i kernprof_ALL:decompr.obj
+ 0001:00045464       BinDecompressROM           10046464 f   kernprof_ALL:decompr.obj
+ 0001:00045530       memmove                    10046530     kernprof_ALL:memmove.obj
+ 0001:00045cc0       memmovebigblk              10046cc0     kernprof_ALL:memmove.obj
+ 0001:00046758       tolower                    10047758 f   kernprof_ALL:tolower.obj
+ 0001:00046768       __rt_sdiv                  10047768 f   kernprof_ALL:__div.obj
+ 0001:00046844       __crtRaiseException        10047844 f   kernprof_ALL:raiseexc.obj
+ 0001:00046868       LDICreateDecompression     10047868 f   kernprof_ALL:ldi.obj
+ 0001:000469cc       LDIDecompress              100479cc f   kernprof_ALL:ldi.obj
+ 0001:00046a5c       LDIResetDecompression      10047a5c f   kernprof_ALL:ldi.obj
+ 0001:00046a88       LDIDestroyDecompression    10047a88 f   kernprof_ALL:ldi.obj
+ 0001:00046ad8       LZX_DecodeFree             10047ad8 f   kernprof_ALL:decapi.obj
+ 0001:00046adc       LZX_DecodeNewGroup         10047adc f   kernprof_ALL:decapi.obj
+ 0001:00046b08       LZX_Decode                 10047b08 f   kernprof_ALL:decapi.obj
+ 0001:00046b7c       LZX_DecodeInit             10047b7c f   kernprof_ALL:decapi.obj
+ 0001:00046c08       allocate_decompression_memory 10047c08 f   kernprof_ALL:decinit.obj
+ 0001:00046cbc       free_decompression_memory  10047cbc f   kernprof_ALL:decinit.obj
+ 0001:00046ce8       reset_decoder_trees        10047ce8 f   kernprof_ALL:decinit.obj
+ 0001:00046d58       decoder_misc_init          10047d58 f   kernprof_ALL:decinit.obj
+ 0001:00046d94       init_decoder_translation   10047d94 f   kernprof_ALL:decxlat.obj
+ 0001:00046dac       decoder_translate_e8       10047dac f   kernprof_ALL:decxlat.obj
+ 0001:00046ef8       decode_data                10047ef8 f   kernprof_ALL:decblk.obj
+ 0001:000471e0       initialise_decoder_bitbuf  100481e0 f   kernprof_ALL:decin.obj
+ 0001:00047230       init_decoder_input         10048230 f   kernprof_ALL:decin.obj
+ 0001:00047234       fillbuf                    10048234 f   kernprof_ALL:decin.obj
+ 0001:00047300       getbits                    10048300 f   kernprof_ALL:decin.obj
+ 0001:0004731c       decode_uncompressed_block  1004831c f   kernprof_ALL:decuncmp.obj
+ 0001:000473c0       handle_beginning_of_uncompressed_block 100483c0 f   kernprof_ALL:decuncmp.obj
+ 0001:000476e8       fast_decode_verbatim_block 100486e8 f   kernprof_ALL:decverb.obj
+ 0001:00047978       decode_verbatim_block      10048978 f   kernprof_ALL:decverb.obj
+ 0001:00047d3c       fast_decode_aligned_offset_block 10048d3c f   kernprof_ALL:decalign.obj
+ 0001:00048060       decode_aligned_offset_block 10049060 f   kernprof_ALL:decalign.obj
+ 0001:000480dc       copy_data_to_output        100490dc f   kernprof_ALL:decout.obj
+ 0001:00048468       read_main_and_secondary_trees 10049468 f   kernprof_ALL:dectree.obj
+ 0001:00048568       read_aligned_offset_tree   10049568 f   kernprof_ALL:dectree.obj
+ 0001:000485d8       make_table                 100495d8 f   kernprof_ALL:maketbl.obj
+ 0001:00048888       make_table_8bit            10049888 f   kernprof_ALL:maketbl.obj
+ 0002:00000010       g_NameList                 1004a010     kernprof_ALL:handle.obj
+ 0002:00000018       g_pprcNK                   1004a018     kernprof_ALL:nkglobal.obj
+ 0002:0000001c       g_pNKGlobal                1004a01c     kernprof_ALL:nkglobal.obj
+ 0002:000001a8       pKCallName                 1004a1a8     kernprof_ALL:profiler.obj
+ 0002:000002dc       g_dwKeys                   1004a2dc     kernprof_ALL:kmisc.obj
+ 0002:000002fc       g_keyNames                 1004a2fc     kernprof_ALL:kmisc.obj
+ 0002:00000354       dwMaxUserAllocAddr         1004a354     kernprof_ALL:vm.obj
+ 0002:00000384       idCpu                      1004a384     kernprof_ALL:armtrap.obj
+ 0002:0000039c       KDReboot                   1004a39c     kernprof_ALL:oemstub.obj
+ 0002:000003a0       g_nCpuStopped              1004a3a0     kernprof_ALL:kcalls.obj
+ 0002:000003a4       g_nCpuReady                1004a3a4     kernprof_ALL:kcalls.obj
+ 0002:000003a8       currmaxprio                1004a3a8     kernprof_ALL:kcalls.obj
+ 0002:000003b0       g_wszKdDll                 1004a3b0     kernprof_ALL:ksysdbg.obj
+ 0002:000003b4       HDException                1004a3b4     kernprof_ALL:ksysdbg.obj
+ 0002:000003b8       HDPageIn                   1004a3b8     kernprof_ALL:ksysdbg.obj
+ 0002:000003bc       HDPageOut                  1004a3bc     kernprof_ALL:ksysdbg.obj
+ 0002:000003c0       HDModLoad                  1004a3c0     kernprof_ALL:ksysdbg.obj
+ 0002:000003c4       HDModUnload                1004a3c4     kernprof_ALL:ksysdbg.obj
+ 0002:000003c8       HDIsDataBreakpoint         1004a3c8     kernprof_ALL:ksysdbg.obj
+ 0002:000003cc       HDStopAllCpuCB             1004a3cc     kernprof_ALL:ksysdbg.obj
+ 0002:000003d0       KDSanitize                 1004a3d0     kernprof_ALL:ksysdbg.obj
+ 0002:000003d4       KDIgnoreIllegalInstruction 1004a3d4     kernprof_ALL:ksysdbg.obj
+ 0002:000003d8       W32PrioMap                 1004a3d8     kernprof_ALL:thread.obj
+ 0002:000003e4       g_cpNotifyEventThreshold   1004a3e4     kernprof_ALL:physmem.obj
+ 0002:000003e8       g_cpLowThreshold           1004a3e8     kernprof_ALL:physmem.obj
+ 0002:000003ec       g_cpCriticalThreshold      1004a3ec     kernprof_ALL:physmem.obj
+ 0002:000003f0       g_cpLowBlockSize           1004a3f0     kernprof_ALL:physmem.obj
+ 0002:000003f4       g_cpCriticalBlockSize      1004a3f4     kernprof_ALL:physmem.obj
+ 0002:000003f8       dwNKMaxPrioNoScav          1004a3f8     kernprof_ALL:physmem.obj
+ 0002:000003fc       pfnNKDrWatsonFlush         1004a3fc     kernprof_ALL:kdriver.obj
+ 0002:00000400       pfnNKDrWatsonClear         1004a400     kernprof_ALL:kdriver.obj
+ 0002:00000404       pfnNKDrWatsonRead          1004a404     kernprof_ALL:kdriver.obj
+ 0002:00000408       pfnNKDrWatsonWrite         1004a408     kernprof_ALL:kdriver.obj
+ 0002:0000040c       g_fAppVerifierEnabled      1004a40c     kernprof_ALL:loader.obj
+ 0002:00000410       initialKernelLogZones      1004a410     kernprof_ALL:loader.obj
+ 0002:00000414       g_dwNXFlags                1004a414     kernprof_ALL:loader.obj
+ 0002:00000508       csarray                    1004a508     kernprof_ALL:schedule.obj
+ 0002:00000548       __security_cookie          1004a548     kernprof_ALL:gsnk.obj
+ 0002:0000054c       __security_cookie_complement 1004a54c     kernprof_ALL:gsnk.obj
+ 0002:00000550       gMaxSystemtime             1004a550     kernprof_ALL:time.obj
+ 0002:00000568       g_PageOutThreadDefaultPrio 1004a568     kernprof_ALL:pgpool.obj
+ 0002:00000570       cfile                      1004a570     kernprof_ALL:resource.obj
+ 0002:00000574       cblock                     1004a574     kernprof_ALL:resource.obj
+ 0002:00000580       g_fCompressionSupported    1004a580     kernprof_ALL:kdecompress.obj
+ 0002:000008cc       KPRFInfo                   1004a8cc     kernprof_ALL:profiler.obj
+ 0002:00000934       g_StaticMappingList        1004a934     kernprof_ALL:vm.obj
+ 0002:00000a68       g_fForcedPaging            1004aa68     kernprof_ALL:ksysdbg.obj
+ 0002:00000a70       g_pHdInit                  1004aa70     kernprof_ALL:ksysdbg.obj
+ 0002:00000a74       pvHDNotifyExdi             1004aa74     kernprof_ALL:ksysdbg.obj
+ 0002:00000a78       pHdSharedGlobals           1004aa78     kernprof_ALL:ksysdbg.obj
+ 0002:00000a7c       HDConnectClient            1004aa7c     kernprof_ALL:ksysdbg.obj
+ 0002:00000a80       g_ulHDEventFilter          1004aa80     kernprof_ALL:ksysdbg.obj
+ 0002:00000a84       s_fOsAxsT0Connected        1004aa84     kernprof_ALL:ksysdbg.obj
+ 0002:00000a88       s_fOsAxsT1Connected        1004aa88     kernprof_ALL:ksysdbg.obj
+ 0002:00000a8c       KDPostInit                 1004aa8c     kernprof_ALL:ksysdbg.obj
+ 0002:00000ae0       PagePoolTrimState          1004aae0     kernprof_ALL:physmem.obj
+ 0002:00000fd4       g_pSnapSupport             1004afd4     kernprof_ALL:nksnap.obj
+ 0002:00000fd8       g_snapState                1004afd8     kernprof_ALL:nksnap.obj
+ 0002:00000fe4       g_FSCacheFuncs             1004afe4     kernprof_ALL:cachemap.obj
+ 0002:00001020       FlushCS                    1004b020     <common>
+ 0002:00001034       g_cAliased                 1004b034     <common>
+ 0002:00001040       SSPLcs                     1004b040     <common>
+ 0002:00001060       g_snap                     1004b060     <common>
+ 0002:00001080       lpDecBuf                   1004b080     <common>
+ 0002:00002080       g_rgwUILangs               1004c080     <common>
+ 0002:0000208c       g_EnableMUI                1004c08c     <common>
+ 0002:00002090       g_MapVMGlobals             1004c090     <common>
+ 0002:00002098       phdPageOutEvent            1004c098     <common>
+ 0002:0000209c       pPageOutThread             1004c09c     <common>
+ 0002:000020a0       g_LoaderPool               1004c0a0     <common>
+ 0002:000020e0       g_FilePool                 1004c0e0     <common>
+ 0002:0000210c       g_CntPagesNeeded           1004c10c     <common>
+ 0002:00002120       g_SQMOSMarkers             1004c120     <common>
+ 0002:00002140       pDebugger                  1004c140     <common>
+ 0002:00002144       nCstks                     1004c144     <common>
+ 0002:00002160       cstks                      1004c160     <common>
+ 0002:000021b0       g_phdAPIRegEvt             1004c1b0     <common>
+ 0002:000021c0       SystemAPISets              1004c1c0     <common>
+ 0002:000023c0       g_PslServerList            1004c3c0     <common>
+ 0002:000023c4       g_nPslServers              1004c3c4     <common>
+ 0002:000023c8       g_idxMaxApiSet             1004c3c8     <common>
+ 0002:000023d0       g_MapList                  1004c3d0     <common>
+ 0002:000023e0       g_tzBias                   1004c3e0     <common>
+ 0002:000023ec       g_pCeLogLockedEventList    1004c3ec     <common>
+ 0002:000023f0       g_pfnCeLogInterruptData    1004c3f0     <common>
+ 0002:000023f4       g_pfnCeLogInterrupt        1004c3f4     <common>
+ 0002:000023f8       g_pfnCeLogData             1004c3f8     <common>
+ 0002:00002400       g_CeLogSyncBuffer          1004c400     <common>
+ 0002:0000261c       pExitThread                1004c61c     <common>
+ 0002:00002620       pKCaptureDumpFileOnDevice  1004c620     <common>
+ 0002:00002640       PhysCS                     1004c640     <common>
+ 0002:00002660       NameCS                     1004c660     <common>
+ 0002:00002674       pKrnExcpExitThread         1004c674     <common>
+ 0002:00002680       csDbg                      1004c680     <common>
+ 0002:000026a0       ModListcs                  1004c6a0     <common>
+ 0002:000026c0       RFBcs                      1004c6c0     <common>
+ 0002:000026e0       MapCS                      1004c6e0     <common>
+ 0002:00002700       ODScs                      1004c700     <common>
+ 0002:00002720       PagerCS                    1004c720     <common>
+ 0002:00002740       rtccs                      1004c740     <common>
+ 0002:00002754       phdAlarmThreadWakeup       1004c754     <common>
+ 0002:00002758       pCaptureDumpFileOnDevice   1004c758     <common>
+ 0002:00002760       WDcs                       1004c760     <common>
+ 0002:00002780       CompCS                     1004c780     <common>
+ 0002:000027a0       PageOutCS                  1004c7a0     <common>
+ 0002:000027c0       PslServerCS                1004c7c0     <common>
+ 0002:000027d4       phdEvtPwrHndlr             1004c7d4     <common>
+ 0002:000027d8       pUsrExcpExitThread         1004c7d8     <common>
+ 0002:000027dc       g_pCurKHeapFree            1004c7dc     <common>
+ 0002:000027e0       g_pKHeapBase               1004c7e0     <common>
+ 0002:000027e4       phdPslNotifyEvent          1004c7e4     <common>
+ 0002:000027e8       pfnCeGetCanonicalPathNameW 1004c7e8     <common>
+ 0002:000027ec       MTBFf                      1004c7ec     <common>
+ 0002:000027f0       g_pfnUsrLoadLibraryW       1004c7f0     <common>
+ 0002:00002800       MemoryInfo                 1004c800     <common>
+ 0002:00002810       g_pfnGetProcAddrA          1004c810     <common>
+ 0002:00002814       g_pfnFindResource          1004c814     <common>
+ 0002:00002818       g_pfnOalIoctl              1004c818     <common>
+ 0002:0000281c       g_pfnDoImports             1004c81c     <common>
+ 0002:00002820       hCoreDll                   1004c820     <common>
+ 0002:00002824       g_pfnCompactAllHeaps       1004c824     <common>
+ 0002:00002828       hKCoreDll                  1004c828     <common>
+ 0002:0000282c       g_pModKitlDll              1004c82c     <common>
+ 0002:00002830       g_fNoKDebugger             1004c830     <common>
+ 0002:00002834       TBFf                       1004c834     <common>
+ 0002:00002840       FreeInfo                   1004c840     <common>
+ 0002:000029c0       g_pfnSetSystemPowerState   1004c9c0     <common>
+ 0002:000029c4       LogPtr                     1004c9c4     <common>
+ 0002:000029c8       g_pModKernDll              1004c9c8     <common>
+ 0002:000029cc       pfnUsrGetHeapSnapshot      1004c9cc     <common>
+ 0002:000029d0       pKrnMainHeap               1004c9d0     <common>
+ 0002:000029d4       g_pfnUndoDepends           1004c9d4     <common>
+ 0002:000029d8       KTBFf                      1004c9d8     <common>
+ 0002:000029dc       g_fKDebuggerLoaded         1004c9dc     <common>
+ 0002:000029e0       g_pfnGetProcAddrW          1004c9e0     <common>
+ 0002:000029e4       pUsrMainHeap               1004c9e4     <common>
+ 0002:000029e8       g_pfnAppVerifierIoControl  1004c9e8     <common>
+ 0002:000029ec       ROMChain                   1004c9ec     <common>
+ 0002:000029f0       fForceCleanBoot            1004c9f0     <common>
+ 0002:000029f4       pfnKrnGetHeapSnapshot      1004c9f4     <common>
+ 0002:000029f8       pDbgList                   1004c9f8     <common>
+ 0002:00002a00       g_thrdCallList             1004ca00     <common>
+ 0002:00002a08       FirstROM                   1004ca08     <common>
+ 0002:00002a20       IntChainCS                 1004ca20     <common>
+ 0002:00002a34       g_pfnExtKITLIoctl          1004ca34     <common>
+ 0002:00002a38       fDisableNoFault            1004ca38     <common>
+ 0002:00002a3c       PageOutTrigger             1004ca3c     <common>
+ 0002:00002a40       g_cpPageOutLow             1004ca40     <common>
+ 0002:00002a44       PageOutLevel               1004ca44     <common>
+ 0002:00002a50       g_physLock                 1004ca50     <common>
+ 0002:00002a5c       phdEvtDirtyPage            1004ca5c     <common>
+ 0002:00002a60       g_cpPageOutHigh            1004ca60     <common>
+ 0002:00002a80       dummyThread                1004ca80     <common>
+ 0002:00002cf0       g_dwCoProcPool             1004ccf0     <common>
+ 0002:00002cf4       g_pKitlSpinLock            1004ccf4     <common>
+ 0002:00002cf8       fSysStarted                1004ccf8     <common>
+ 0002:00002cfc       g_pOsAxsT0Init             1004ccfc     <common>
+ 0002:00002d00       g_pOsAxsT1Init             1004cd00     <common>
+ 0002:00002d04       g_pKdInit                  1004cd04     <common>
+ 0002:00002d08       SleepList                  1004cd08     <common>
+ 0002:00002d0c       g_PerfCounterHigh          1004cd0c     <common>
+ 0002:00002d10       g_fStartMP                 1004cd10     <common>
+ 0002:00002d14       pOOMThread                 1004cd14     <common>
+ 0002:00002d18       g_dwIpiCommand             1004cd18     <common>
+ 0002:00002d20       g_schedLock                1004cd20     <common>
+ 0002:00002d2c       dwLastKCTime               1004cd2c     <common>
+ 0002:00002d40       g_ppcbs                    1004cd40     <common>
+ 0002:00003140       RunList                    1004d140     <common>
+ 0002:00003184       g_cpMinPageProcCreate      1004d184     <common>
+ 0002:00003188       g_pfnRtlUnwindOneFrame     1004d188     <common>
+ 0002:0000318c       g_pfnUsrRtlDispExcp        1004d18c     <common>
+ 0002:00003190       g_pfnKrnRtlDispExcp        1004d190     <common>
+ 0002:00003194       g_pOemGlobal               1004d194     <common>
+ 0002:00003198       g_pOEMDeviceTable          1004d198     <common>
+ 0002:0000319c       g_pOEMAddressTable         1004d19c     <common>
+ 0002:000031a0       g_fAslrEnabled             1004d1a0     <common>
+ 0002:000031b0       g_odsLock                  1004d1b0     <common>
+ 0002:000031bc       pfnProfileTimerEnable      1004d1bc     <common>
+ 0002:000031c0       g_ProfilerState_dwProfilerIntsInTLB 1004d1c0     <common>
+ 0002:000031e0       g_ProfilerState            1004d1e0     <common>
+ 0002:00003218       pfnProfileTimerDisable     1004d218     <common>
+ 0002:0000321c       pSearchPath                1004d21c     <common>
+ 0002:00003220       randdw1                    1004d220     <common>
+ 0002:00003224       randdw2                    1004d224     <common>
+ 0002:00003228       pTOC                       1004d228     <common>
+ 0002:0000322c       g_ppdirNK                  1004d22c     <common>
+ 0002:00003230       g_pKData                   1004d230     <common>
+ 0002:00003234       g_phndtblNK                1004d234     <common>
+ 0002:00003240       g_oalLock                  1004d240     <common>
+
+ entry point at        0001:00007e08
+
+ Static symbols
+
+ 0001:000065a4       AcquireVfpOwnership        100075a4 f   kernprof_ALL:mdarm.obj
+ 0001:000070a4       ATLWorkaroundNX            100080a4 f   kernprof_ALL:mdarm.obj
+ 0001:000084d0       HNDLReleaseReservedHandle  100094d0 f   kernprof_ALL:handle.obj
+ 0001:00008c58       HNDLAlloc                  10009c58 f   kernprof_ALL:handle.obj
+ 0001:00009484       VirtualSetAttrib           1000a484 f   kernprof_ALL:nkglobal.obj
+ 0001:000095a0       GrowStackForOal            1000a5a0 f   kernprof_ALL:nkglobal.obj
+ 0001:00009618       GetProfEntryFromTOCEntry   1000a618 f   kernprof_ALL:profiler.obj
+ 0001:0000969c       GetProfEntryFromAddr       1000a69c f   kernprof_ALL:profiler.obj
+ 0001:0000978c       ProfilerSymbolHit          1000a78c f   kernprof_ALL:profiler.obj
+ 0001:0000981c       ProfilerAllocBuffer        1000a81c f   kernprof_ALL:profiler.obj
+ 0001:00009908       ProfilerReportHeader       1000a908 f   kernprof_ALL:profiler.obj
+ 0001:00009b3c       ProfilerReport             1000ab3c f   kernprof_ALL:profiler.obj
+ 0001:0000a710       GetKCallProfile            1000b710 f   kernprof_ALL:profiler.obj
+ 0001:0000a7a8       local_ScaleDown            1000b7a8 f   kernprof_ALL:profiler.obj
+ 0001:0000a7e4       DoDumpKCallProfile         1000b7e4 f   kernprof_ALL:profiler.obj
+ 0001:0000b428       UpdateDbgZone              1000c428 f   kernprof_ALL:kmisc.obj
+ 0001:0000b4b4       EnumWriteDbgZone           1000c4b4 f   kernprof_ALL:kmisc.obj
+ 0001:0000b630       EnumZeroTLS                1000c630 f   kernprof_ALL:kmisc.obj
+ 0001:0000b658       DoTlsFree                  1000c658 f   kernprof_ALL:kmisc.obj
+ 0001:0000b97c       DoEXTGetCallerProcessId    1000c97c f   kernprof_ALL:kmisc.obj
+ 0001:0000bae4       THThreadEnumFunc           1000cae4 f   kernprof_ALL:kmisc.obj
+ 0001:0000c8d4       FillProcInfo               1000d8d4 f   kernprof_ALL:kmisc.obj
+ 0001:0000c988       THProcEnumFunc             1000d988 f   kernprof_ALL:kmisc.obj
+ 0001:0000c9e0       THModEnumFunc              1000d9e0 f   kernprof_ALL:kmisc.obj
+ 0001:0000d25c       NKProfileTimerEnable       1000e25c f   kernprof_ALL:profiler_stub.obj
+ 0001:0000d28c       NKProfileTimerDisable      1000e28c f   kernprof_ALL:profiler_stub.obj
+ 0001:0000d2bc       IDLE_STATE                 1000e2bc f   kernprof_ALL:profiler_stub.obj
+ 0001:0000d7e4       CeLogProfileStop           1000e7e4 f   kernprof_ALL:profiler_stub.obj
+ 0001:0000d8a0       NKProfileCaptureStatus     1000e8a0 f   kernprof_ALL:profiler_stub.obj
+ 0001:0000da30       CeLogProfileStart          1000ea30 f   kernprof_ALL:profiler_stub.obj
+ 0001:0000db6c       NKProfileStartEx           1000eb6c f   kernprof_ALL:profiler_stub.obj
+ 0001:0000ddfc       DoODS                      1000edfc f   kernprof_ALL:printf.obj
+ 0001:0000dfac       ODSInKCall                 1000efac f   kernprof_ALL:printf.obj
+ 0001:0000e488       PagerNone                  1000f488 f   kernprof_ALL:vm.obj
+ 0001:0000e490       Lock2VM                    1000f490 f   kernprof_ALL:vm.obj
+ 0001:0000e8a4       CountFreePages             1000f8a4 f   kernprof_ALL:vm.obj
+ 0001:0000e96c       SearchFreePages            1000f96c f   kernprof_ALL:vm.obj
+ 0001:0000eac0       CountPagesNeeded           1000fac0 f   kernprof_ALL:vm.obj
+ 0001:0000eae8       DoVMReserve                1000fae8 f   kernprof_ALL:vm.obj
+ 0001:0000ed14       CommitPages                1000fd14 f   kernprof_ALL:vm.obj
+ 0001:0000ee14       DoVMAlloc                  1000fe14 f   kernprof_ALL:vm.obj
+ 0001:0000f0a0       VCPhysPages                100100a0 f   kernprof_ALL:vm.obj
+ 0001:0000f1bc       VCVirtPages                100101bc f   kernprof_ALL:vm.obj
+ 0001:0000f250       PageAutoCommit             10010250 f   kernprof_ALL:vm.obj
+ 0001:0000f6d0       PageInOnePage              100106d0 f   kernprof_ALL:vm.obj
+ 0001:0000f9b4       DoVMLockPages              100109b4 f   kernprof_ALL:vm.obj
+ 0001:0000fad8       DoVMUnlockPages            10010ad8 f   kernprof_ALL:vm.obj
+ 0001:0000fb4c       DecommitPages              10010b4c f   kernprof_ALL:vm.obj
+ 0001:0000fcec       VMRelease                  10010cec f   kernprof_ALL:vm.obj
+ 0001:0000fe48       ChangeProtection           10010e48 f   kernprof_ALL:vm.obj
+ 0001:0000fe6c       DoVMProtect                10010e6c f   kernprof_ALL:vm.obj
+ 0001:00010014       ReplacePages               10011014 f   kernprof_ALL:vm.obj
+ 0001:000100c8       ChangeAttrib               100110c8 f   kernprof_ALL:vm.obj
+ 0001:00010830       EnumMovePage               10011830 f   kernprof_ALL:vm.obj
+ 0001:00010994       VCCommittedPage            10011994 f   kernprof_ALL:vm.obj
+ 0001:00010b40       CountSamePages             10011b40 f   kernprof_ALL:vm.obj
+ 0001:00010b6c       EnumCheckThreadStack       10011b6c f   kernprof_ALL:vm.obj
+ 0001:00010f5c       EnumMapToVoid              10011f5c f   kernprof_ALL:vm.obj
+ 0001:0001122c       UncachePage                1001222c f   kernprof_ALL:vm.obj
+ 0001:0001141c       TryCachePage               1001241c f   kernprof_ALL:vm.obj
+ 0001:000115e4       DoMappPD                   100125e4 f   kernprof_ALL:vm.obj
+ 0001:000116d8       VMMapKernelPD              100126d8 f   kernprof_ALL:vm.obj
+ 0001:000117f0       VMMapAppPD                 100127f0 f   kernprof_ALL:vm.obj
+ 0001:00011dd4       MapCountDirtyPages         10012dd4 f   kernprof_ALL:vm.obj
+ 0001:00011f58       EnumMapMovePage            10012f58 f   kernprof_ALL:vm.obj
+ 0001:00012118       MapDecommitPage            10013118 f   kernprof_ALL:vm.obj
+ 0001:00012c2c       EnumSetPages               10013c2c f   kernprof_ALL:vm.obj
+ 0001:00012d9c       VMCopyVirtual              10013d9c f   kernprof_ALL:vm.obj
+ 0001:00012f60       VMFastAllocCopyToKernel    10013f60 f   kernprof_ALL:vm.obj
+ 0001:000132cc       VMCopyOnWrite              100142cc f   kernprof_ALL:vm.obj
+ 0001:00015f3c       CheckCommitStack           10016f3c f   kernprof_ALL:exdsptch.obj
+ 0001:00016000       SetupContextOnUserStack    10017000 f   kernprof_ALL:exdsptch.obj
+ 0001:00016a30       SetupExceptionTerminate    10017a30 f   kernprof_ALL:exdsptch.obj
+ 0001:00016b14       PrintException             10017b14 f   kernprof_ALL:exdsptch.obj
+ 0001:00016d4c       NotifyKernelDebugger       10017d4c f   kernprof_ALL:exdsptch.obj
+ 0001:000179b4       PROCVMCopy                 100189b4 f   kernprof_ALL:process.obj
+ 0001:00017fec       PROCVMProtect              10018fec f   kernprof_ALL:process.obj
+ 0001:000181b8       PROCCloseHandle            100191b8 f   kernprof_ALL:process.obj
+ 0001:00018290       PROCPreClose               10019290 f   kernprof_ALL:process.obj
+ 0001:000182c0       PROCQryDelete              100192c0 f   kernprof_ALL:process.obj
+ 0001:000182f0       PROCSecFailed              100192f0 f   kernprof_ALL:process.obj
+ 0001:00018b50       DoGetFncTbl                10019b50 f   kernprof_ALL:process.obj
+ 0001:00019314       EnumSetAffinity            1001a314 f   kernprof_ALL:process.obj
+ 0001:000196cc       AllocateProcess            1001a6cc f   kernprof_ALL:process.obj
+ 0001:00019c04       EXTReadProcMemory          1001ac04 f   kernprof_ALL:process.obj
+ 0001:00019d6c       EXTWriteProcMemory         1001ad6c f   kernprof_ALL:process.obj
+ 0001:0001a36c       PrioEnqueue                1001b36c f   kernprof_ALL:kcalls.obj
+ 0001:0001a4fc       PrioDequeue                1001b4fc f   kernprof_ALL:kcalls.obj
+ 0001:0001a5b8       PutRunningThreadToRunQ     1001b5b8 f   kernprof_ALL:kcalls.obj
+ 0001:0001a6b4       MakeRun                    1001b6b4 f   kernprof_ALL:kcalls.obj
+ 0001:0001a868       HandleThreadWakeupAtTheSameTime 1001b868 f   kernprof_ALL:kcalls.obj
+ 0001:0001a8d0       RunqDequeue                1001b8d0 f   kernprof_ALL:kcalls.obj
+ 0001:0001a98c       CalcQuantumLeft            1001b98c f   kernprof_ALL:kcalls.obj
+ 0001:0001aa34       BlockCurThread             1001ba34 f   kernprof_ALL:kcalls.obj
+ 0001:0001ab64       SleepqDequeue              1001bb64 f   kernprof_ALL:kcalls.obj
+ 0001:0001ac30       SleepOneMore               1001bc30 f   kernprof_ALL:kcalls.obj
+ 0001:0001aea4       PreReleaseMutex            1001bea4 f   kernprof_ALL:kcalls.obj
+ 0001:0001af90       RecalcCPrio                1001bf90 f   kernprof_ALL:kcalls.obj
+ 0001:0001b05c       SignalThreadWithProxy      1001c05c f   kernprof_ALL:kcalls.obj
+ 0001:0001b0a8       CheckOneSyncObject         1001c0a8 f   kernprof_ALL:kcalls.obj
+ 0001:0001b3a0       FindOOMHandlerThread       1001c3a0 f   kernprof_ALL:kcalls.obj
+ 0001:0001bcec       BlockOnFastLock            1001ccec f   kernprof_ALL:kcalls.obj
+ 0001:0001bde8       DoSendIPI                  1001cde8 f   kernprof_ALL:kcalls.obj
+ 0001:0001eae0       NKNotifyMemoryLow          1001fae0 f   kernprof_ALL:kwin32.obj
+ 0001:0001eb68       EXTKernelIoctl             1001fb68 f   kernprof_ALL:kwin32.obj
+ 0001:000200cc       MapPageTable               100210cc f   kernprof_ALL:vmarm.obj
+ 0001:00020358       FakeHDPageIn               10021358 f   kernprof_ALL:ksysdbg.obj
+ 0001:0002035c       FakeHDPageOut              1002135c f   kernprof_ALL:ksysdbg.obj
+ 0001:00020360       FakeHDModLoad              10021360 f   kernprof_ALL:ksysdbg.obj
+ 0001:00020364       FakeHDModUnload            10021364 f   kernprof_ALL:ksysdbg.obj
+ 0001:00020368       FakeHDIsDataBreakpoint     10021368 f   kernprof_ALL:ksysdbg.obj
+ 0001:00020370       FakeHDStopAllCpuCB         10021370 f   kernprof_ALL:ksysdbg.obj
+ 0001:0002047c       FakeKDSanitize             1002147c f   kernprof_ALL:ksysdbg.obj
+ 0001:00020490       FakeKDIgnoreIllegalInstruction 10021490 f   kernprof_ALL:ksysdbg.obj
+ 0001:00020538       NKConnectHdstub            10021538 f   kernprof_ALL:ksysdbg.obj
+ 0001:00020d58       THRDPreClose               10021d58 f   kernprof_ALL:thread.obj
+ 0001:00020d88       InitThreadStruct           10021d88 f   kernprof_ALL:thread.obj
+ 0001:00020e5c       SetupThread                10021e5c f   kernprof_ALL:thread.obj
+ 0001:00021d78       CleanupThreadStruct        10022d78 f   kernprof_ALL:thread.obj
+ 0001:00022cc4       EXTGetCallStack            10023cc4 f   kernprof_ALL:thread.obj
+ 0001:00022eac       PHYS_DoClearDirtyPageList  10023eac f   kernprof_ALL:physmem.obj
+ 0001:00023024       PHYS_LinkFreePage          10024024 f   kernprof_ALL:physmem.obj
+ 0001:00024bd4       DoAllocShareMem            10025bd4 f   kernprof_ALL:kdriver.obj
+ 0001:00024f34       GetRomRamInfo              10025f34 f   kernprof_ALL:kdriver.obj
+ 0001:00025020       DoSetMemoryAttributes      10026020 f   kernprof_ALL:kdriver.obj
+ 0001:000262c4       MatchMod                   100272c4 f   kernprof_ALL:loader.obj
+ 0001:000262d8       MatchDllNameAndFlags       100272d8 f   kernprof_ALL:loader.obj
+ 0001:0002638c       MatchAddr                  1002738c f   kernprof_ALL:loader.obj
+ 0001:000263ac       EnumModInProc              100273ac f   kernprof_ALL:loader.obj
+ 0001:000265bc       EnumCallDllMain            100275bc f   kernprof_ALL:loader.obj
+ 0001:00026654       ChkDebug                   10027654 f   kernprof_ALL:loader.obj
+ 0001:0002690c       CanonicalPathName          1002790c f   kernprof_ALL:loader.obj
+ 0001:00026a10       OpenFileFromROM            10027a10 f   kernprof_ALL:loader.obj
+ 0001:00026e38       AddRegion                  10027e38 f   kernprof_ALL:loader.obj
+ 0001:00026eb0       DetectRAM                  10027eb0 f   kernprof_ALL:loader.obj
+ 0001:00026fc8       InitMemorySections         10027fc8 f   kernprof_ALL:loader.obj
+ 0001:000276a8       RelocateOnePage            100286a8 f   kernprof_ALL:loader.obj
+ 0001:00027a1c       RelocatePageCrossingFixup  10028a1c f   kernprof_ALL:loader.obj
+ 0001:00027ed4       RelocateForPaging          10028ed4 f   kernprof_ALL:loader.obj
+ 0001:00028140       Relocate                   10029140 f   kernprof_ALL:loader.obj
+ 0001:00028264       RelocateNonPageAbleSections 10029264 f   kernprof_ALL:loader.obj
+ 0001:00028608       PageInOnePage              10029608 f   kernprof_ALL:loader.obj
+ 0001:000288c0       PageInModule               100298c0 f   kernprof_ALL:loader.obj
+ 0001:000289d4       PageInProcess              100299d4 f   kernprof_ALL:loader.obj
+ 0001:00028b78       EnumDecommitModule         10029b78 f   kernprof_ALL:loader.obj
+ 0001:00028c2c       DecommitModule             10029c2c f   kernprof_ALL:loader.obj
+ 0001:00028e40       DecommitDependency         10029e40 f   kernprof_ALL:loader.obj
+ 0001:00029954       InitModInProc              1002a954 f   kernprof_ALL:loader.obj
+ 0001:00029bb8       QueryReg                   1002abb8 f   kernprof_ALL:loader.obj
+ 0001:00029c18       InitSystemSettings         1002ac18 f   kernprof_ALL:loader.obj
+ 0001:00029e14       OpenFileFromFilesys        1002ae14 f   kernprof_ALL:loader.obj
+ 0001:00029fb4       TryDir                     1002afb4 f   kernprof_ALL:loader.obj
+ 0001:0002a638       UnlockModule               1002b638 f   kernprof_ALL:loader.obj
+ 0001:0002c658       FreeSpareBytes             1002d658 f   kernprof_ALL:heap.obj
+ 0001:0002c7ec       GetKHeap                   1002d7ec f   kernprof_ALL:heap.obj
+ 0001:0002cd50       InitMutex                  1002dd50 f   kernprof_ALL:syncobj.obj
+ 0001:0002cdac       InitEvent                  1002ddac f   kernprof_ALL:syncobj.obj
+ 0001:0002cdd8       InitSemaphore              1002ddd8 f   kernprof_ALL:syncobj.obj
+ 0001:0002cde0       DeInitMutex                1002dde0 f   kernprof_ALL:syncobj.obj
+ 0001:0002cdf8       DeInitEvent                1002ddf8 f   kernprof_ALL:syncobj.obj
+ 0001:0002ce18       DeInitSemaphore            1002de18 f   kernprof_ALL:syncobj.obj
+ 0001:0002ce1c       OpenOrCreateSyncObject     1002de1c f   kernprof_ALL:syncobj.obj
+ 0001:0002d074       DoOpenEvent                1002e074 f   kernprof_ALL:syncobj.obj
+ 0001:0002de54       LockCSMemory               1002ee54 f   kernprof_ALL:syncobj.obj
+ 0001:0002e058       CRITEnoughMemAvailable     1002f058 f   kernprof_ALL:syncobj.obj
+ 0001:0002e27c       DoSetFilePointer           1002f27c f   kernprof_ALL:fscall.obj
+ 0001:0002e7b0       DoPHDClose                 1002f7b0 f   kernprof_ALL:fscall.obj
+ 0001:0002ea98       SimpleFsysCall             1002fa98 f   kernprof_ALL:fscall.obj
+ 0001:0002fe74       InitWaitStruct             10030e74 f   kernprof_ALL:schedule.obj
+ 0001:0002fef4       DoWaitWithWaitStruct       10030ef4 f   kernprof_ALL:schedule.obj
+ 0001:00030f3c       CELOG_KCLogThreadInfo      10031f3c f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00031130       CELOG_KCLogProcessInfo     10032130 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:000311ec       CELOG_KCFileNameFromOE     100321ec f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00031288       CELOG_KCLogProcessInfoEx   10032288 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:000314ac       CELOG_EventCreate          100324ac f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:000317b8       CELOG_MutexCreate          100327b8 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:0003194c       CELOG_SemaphoreCreate      1003294c f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00032288       CELOG_KCLogModuleInfo      10033288 f   kernprof_ALL:CeLogInstrumentation.obj
+ 0001:00032948       AddCeLogDLL                10033948 f   kernprof_ALL:logger.obj
+ 0001:00032b60       RemoveCeLogDLL             10033b60 f   kernprof_ALL:logger.obj
+ 0001:00032d34       BroadcastCeLogData         10033d34 f   kernprof_ALL:logger.obj
+ 0001:00032dac       BroadcastCeLogInterrupt    10033dac f   kernprof_ALL:logger.obj
+ 0001:00032de8       BroadcastCeLogInterruptData 10033de8 f   kernprof_ALL:logger.obj
+ 0001:00032e3c       BroadcastCeLogSetZones     10033e3c f   kernprof_ALL:logger.obj
+ 0001:00032ef4       CELOG_WRAP_InSysCall       10033ef4 f   kernprof_ALL:logger.obj
+ 0001:00032ef8       CELOG_WRAP_CreateEvent     10033ef8 f   kernprof_ALL:logger.obj
+ 0001:00032f78       CELOG_WRAP_EventModify     10033f78 f   kernprof_ALL:logger.obj
+ 0001:00032fc8       CELOG_WRAP_CloseHandle     10033fc8 f   kernprof_ALL:logger.obj
+ 0001:0003305c       CELOG_WRAP_QueryPerformanceCounterEx 1003405c f   kernprof_ALL:logger.obj
+ 0001:000330f4       CELOG_WRAP_QueryPerformanceCounter 100340f4 f   kernprof_ALL:logger.obj
+ 0001:00033184       CELOG_WRAP_CreateFileMapping 10034184 f   kernprof_ALL:logger.obj
+ 0001:000331c8       CELOG_WRAP_MapViewOfFile   100341c8 f   kernprof_ALL:logger.obj
+ 0001:00033204       CELOG_WRAP_UnmapViewOfFile 10034204 f   kernprof_ALL:logger.obj
+ 0001:00033218       CELOG_WRAP_LockPages       10034218 f   kernprof_ALL:logger.obj
+ 0001:0003324c       CELOG_WRAP_UnlockPages     1003424c f   kernprof_ALL:logger.obj
+ 0001:00033264       CELOG_WRAP_VirtualAlloc    10034264 f   kernprof_ALL:logger.obj
+ 0001:000332a0       CELOG_WRAP_VirtualFree     100342a0 f   kernprof_ALL:logger.obj
+ 0001:000332d4       CELOG_WRAP_VirtualAllocCopyInKernel 100342d4 f   kernprof_ALL:logger.obj
+ 0001:00033308       CELOG_WRAP_MapPtrToProcess 10034308 f   kernprof_ALL:logger.obj
+ 0001:0003330c       CELOG_WRAP_GetThreadCallStackFromId 1003430c f   kernprof_ALL:logger.obj
+ 0001:00033380       CELOG_WRAP_AcquireSpinLock 10034380 f   kernprof_ALL:logger.obj
+ 0001:0003338c       CELOG_WRAP_ReleaseSpinLock 1003438c f   kernprof_ALL:logger.obj
+ 0001:00033398       CELOG_WRAP_GetCurrentCPU   10034398 f   kernprof_ALL:logger.obj
+ 0001:00033f1c       IsValidSystemTime          10034f1c f   kernprof_ALL:time.obj
+ 0001:000344fc       GetUTCInTicks              100354fc f   kernprof_ALL:time.obj
+ 0001:0003476c       SetLocalTimeInTicks        1003576c f   kernprof_ALL:time.obj
+ 0001:00034aa8       UpdateAndSignalAlarm       10035aa8 f   kernprof_ALL:time.obj
+ 0001:00035744       ReleaseViewInProcess       10036744 f   kernprof_ALL:mapfile.obj
+ 0001:00035834       ReleaseView                10036834 f   kernprof_ALL:mapfile.obj
+ 0001:0003589c       UnlockView                 1003689c f   kernprof_ALL:mapfile.obj
+ 0001:000358e0       TestAddrInView             100368e0 f   kernprof_ALL:mapfile.obj
+ 0001:00035968       MAPReadFile                10036968 f   kernprof_ALL:mapfile.obj
+ 0001:00035a2c       InitFSMAP                  10036a2c f   kernprof_ALL:mapfile.obj
+ 0001:00035f38       EnumExistingView           10036f38 f   kernprof_ALL:mapfile.obj
+ 0001:000360c0       UncacheViews               100370c0 f   kernprof_ALL:mapfile.obj
+ 0001:0003611c       FindExistingView           1003711c f   kernprof_ALL:mapfile.obj
+ 0001:000361c8       MapFixedAddressView        100371c8 f   kernprof_ALL:mapfile.obj
+ 0001:0003639c       ValidateViewParameters     1003739c f   kernprof_ALL:mapfile.obj
+ 0001:00036d48       MAPClose                   10037d48 f   kernprof_ALL:mapfile.obj
+ 0001:00036e48       MAPPageInPage              10037e48 f   kernprof_ALL:mapfile.obj
+ 0001:00036fd8       TryExistingPage            10037fd8 f   kernprof_ALL:mapfile.obj
+ 0001:000373c4       LockProcesses              100383c4 f   kernprof_ALL:mapfile.obj
+ 0001:000374ac       FlushProcessViewsOfMap     100384ac f   kernprof_ALL:mapfile.obj
+ 0001:000375c0       FlushAllViewsOfMap         100385c0 f   kernprof_ALL:mapfile.obj
+ 0001:00037664       FlushAllFiles              10038664 f   kernprof_ALL:mapfile.obj
+ 0001:00037b2c       MAPPreClose                10038b2c f   kernprof_ALL:mapfile.obj
+ 0001:00038ddc       CallUserNotify             10039ddc f   kernprof_ALL:apicall.obj
+ 0001:0003927c       ErrorReturn                1003a27c f   kernprof_ALL:apicall.obj
+ 0001:00039654       ValidateArgs               1003a654 f   kernprof_ALL:apicall.obj
+ 0001:00039810       UpdateProcTls              1003a810 f   kernprof_ALL:apicall.obj
+ 0001:00039868       SetupUmodeArgs             1003a868 f   kernprof_ALL:apicall.obj
+ 0001:00039d54       SetupArguments             1003ad54 f   kernprof_ALL:apicall.obj
+ 0001:0003cfc0       InitPoolFromParameters     1003dfc0 f   kernprof_ALL:pgpool.obj
+ 0001:0003d050       DoPageOut                  1003e050 f   kernprof_ALL:pgpool.obj
+ 0001:0003d428       WalkPageTree               1003e428 f   kernprof_ALL:mapvm.obj
+ 0001:0003d6ac       FreePage                   1003e6ac f   kernprof_ALL:mapvm.obj
+ 0001:0003d7bc       AddPage                    1003e7bc f   kernprof_ALL:mapvm.obj
+ 0001:0003d874       CopyPageToProcess          1003e874 f   kernprof_ALL:mapvm.obj
+ 0001:0003e1d0       PreAllocQNodes             1003f1d0 f   kernprof_ALL:msgqueue.obj
+ 0001:0003e284       LinkQToPHD                 1003f284 f   kernprof_ALL:msgqueue.obj
+ 0001:0003e32c       CreateAndLockQEvt          1003f32c f   kernprof_ALL:msgqueue.obj
+ 0001:0003e4c4       CreateUnnamedMsgQ          1003f4c4 f   kernprof_ALL:msgqueue.obj
+ 0001:0003e60c       CreateNamedMsgQ            1003f60c f   kernprof_ALL:msgqueue.obj
+ 0001:0003e85c       OpenOrCreateMsgQueue       1003f85c f   kernprof_ALL:msgqueue.obj
+ 0001:0003ee2c       WaitForQueueEvent          1003fe2c f   kernprof_ALL:msgqueue.obj
+ 0001:00040f54       CompareTime                10041f54 f   kernprof_ALL:watchdog.obj
+ 0001:00040f68       WDTakeDfltAction           10041f68 f   kernprof_ALL:watchdog.obj
+ 0001:00040ffc       WatchDogTimerThrd          10041ffc f   kernprof_ALL:watchdog.obj
+ 0001:00041760       AddPagesToSnapshotTable    10042760 f   kernprof_ALL:nksnap.obj
+ 0001:000417d8       CollectSnapshotPages       100427d8 f   kernprof_ALL:nksnap.obj
+ 0001:000419f4       GetUnusedPage              100429f4 f   kernprof_ALL:nksnap.obj
+ 0001:00041bd4       SetupAddrRangeMapping      10042bd4 f   kernprof_ALL:nksnap.obj
+ 0001:00041cc0       BootFromSnap               10042cc0 f   kernprof_ALL:nksnap.obj
+ 0001:000427c0       CACHE_AllocVM              100437c0 f   kernprof_ALL:cachemap.obj
+ 0001:000427f4       CACHE_NotifyFSReady        100437f4 f   kernprof_ALL:cachemap.obj
+ 0001:00042808       CACHE_CreateMapping        10043808 f   kernprof_ALL:cachemap.obj
+ 0001:000428a0       CACHE_PreCloseMapping      100438a0 f   kernprof_ALL:cachemap.obj
+ 0001:000428bc       CACHE_CloseMapping         100438bc f   kernprof_ALL:cachemap.obj
+ 0001:000428d4       CACHE_GetMappingSize       100438d4 f   kernprof_ALL:cachemap.obj
+ 0001:000428f0       CACHE_SetMappingSize       100438f0 f   kernprof_ALL:cachemap.obj
+ 0001:00042900       CACHE_FlushView            10043900 f   kernprof_ALL:cachemap.obj
+ 0001:00043754       GatherProlog               10044754 f   kernprof_ALL:mapflush.obj
+ 0001:0004375c       GatherRecordPage           1004475c f   kernprof_ALL:mapflush.obj
+ 0001:000437c8       GatherWritePages           100447c8 f   kernprof_ALL:mapflush.obj
+ 0001:00043840       GatherEpilog               10044840 f   kernprof_ALL:mapflush.obj
+ 0001:00043ae8       AtomicProlog               10044ae8 f   kernprof_ALL:mapflush.obj
+ 0001:00043bc0       AtomicWritePages           10044bc0 f   kernprof_ALL:mapflush.obj
+ 0001:00043cbc       AtomicEpilog               10044cbc f   kernprof_ALL:mapflush.obj
+ 0001:00043dbc       NonGatherRecordPage        10044dbc f   kernprof_ALL:mapflush.obj
+ 0001:00043f5c       SimpleEpilog               10044f5c f   kernprof_ALL:mapflush.obj
+ 0001:00043ff8       WriteBackPageableView      10044ff8 f   kernprof_ALL:mapflush.obj
+ 0001:00044488       LZHashAdd                  10045488 f   kernprof_ALL:compress.obj
+ 0001:00044510       LZHashMatch                10045510 f   kernprof_ALL:compress.obj
+ 0001:000446c4       Out                        100456c4 f   kernprof_ALL:compress.obj
+ 0001:000448b4       CompressBlock              100458b4 f   kernprof_ALL:compress.obj
+ 0001:00044a24       UncompressBlock            10045a24 f   kernprof_ALL:compress.obj
+ 0001:00044bdc       CheckZeros                 10045bdc f   kernprof_ALL:compress.obj
+ 0001:000452e4       Decompress                 100462e4 f   kernprof_ALL:decompr.obj
+ 0001:0004743c       special_decode_verbatim_block 1004843c f   kernprof_ALL:decverb.obj
+ 0001:000479f4       special_decode_aligned_block 100489f4 f   kernprof_ALL:decalign.obj
+ 0001:00048148       ReadRepTree                10049148 f   kernprof_ALL:dectree.obj

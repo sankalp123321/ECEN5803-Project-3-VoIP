@@ -1,0 +1,419 @@
+ chngtrk
+
+ Timestamp is 5ac660a6 (Thu Apr 05 10:45:10 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 00000478H .rdata                  CODE
+ 0001:00000498 00000024H .rdata$debug            CODE
+ 0001:000004bc 00004be0H .text                   CODE
+ 0001:0000509c 00000028H .xdata                  CODE
+ 0001:000050c4 00000000H ATL$__a                 CODE
+ 0001:000050c4 00000000H ATL$__z                 CODE
+ 0001:000050c4 00000050H .idata$2                CODE
+ 0001:00005114 00000014H .idata$3                CODE
+ 0001:00005128 00000100H .idata$4                CODE
+ 0001:00005228 00000064H .idata$6                CODE
+ 0001:00005290 00000082H .edata                  CODE
+ 0002:00000000 00000100H .idata$5                DATA
+ 0002:00000100 00000078H .data                   DATA
+ 0002:00000178 0000004cH .bss                    DATA
+ 0003:00000000 00000538H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:00000054       _GUID_00000000_0000_0000_c000_000000000046 10001054     comdll.obj
+ 0001:00000064       _GUID_00000001_0000_0000_c000_000000000046 10001064     comdll.obj
+ 0001:00000074       ??_7CClassInstance@@6B@    10001074     comdll.obj
+ 0001:00000080       ??_7CClassFactory@@6B@     10001080     comdll.obj
+ 0001:00000094       ??_7CItemIDList@@6B@       10001094     itemset.obj
+ 0001:000000b8       ??_7CSortedItemIDList@@6B@ 100010b8     itemset.obj
+ 0001:000000dc       ??_7CChangedItemIDList@@6B@ 100010dc     itemset.obj
+ 0001:000000f8       ??_C@_1O@JDLOHAN@?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AA?$AA@ 100010f8     syncctxt.obj
+ 0001:00000108       ??_C@_1BC@GCKHIPE@?$AAN?$AAo?$AAR?$AAe?$AAm?$AAo?$AAv?$AAe?$AA?$AA@ 10001108     syncctxt.obj
+ 0001:0000011c       ??_C@_1BI@JFAIJMHL@?$AAF?$AAo?$AAr?$AAc?$AAe?$AAR?$AAe?$AAm?$AAo?$AAv?$AAe?$AA?$AA@ 1000111c     syncctxt.obj
+ 0001:00000134       ??_C@_17LLMMEOJD@?$AAV?$AAa?$AAl?$AA?$AA@ 10001134     syncctxt.obj
+ 0001:0000013c       ??_C@_13OPKGLAFF@?$AAB?$AA?$AA@ 1000113c     syncctxt.obj
+ 0001:00000140       ??_C@_13MKMNOPIJ@?$AAD?$AA?$AA@ 10001140     syncctxt.obj
+ 0001:00000144       ??_C@_13LHMFKAAD@?$AAM?$AA?$AA@ 10001144     syncctxt.obj
+ 0001:00000148       ??_C@_13HADIAKP@?$AAS?$AA?$AA@ 10001148     syncctxt.obj
+ 0001:0000016c       ?c_ulLowestValidGen@@3KB   1000116c     syncctxt.obj
+ 0001:00000170       ??_7IChngTrkSyncContext@@6B@ 10001170     syncctxt.obj
+ 0001:0000018c       ??_7CSyncContext@@6BIChngTrkSyncContext@@@ 1000118c     syncctxt.obj
+ 0001:000001a8       ??_7CSyncContext@@6BCCritSecLockable@@@ 100011a8     syncctxt.obj
+ 0001:000001b8       ??_C@_1CG@KNEHGBNG@?$AAC?$AAo?$AAn?$AAf?$AAl?$AAi?$AAc?$AAt?$AAR?$AAe?$AAs?$AAo?$AAl?$AAu?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 100011b8     syncctxt.obj
+ 0001:000001e0       ??_C@_1FK@DPMJBPMI@?$AAS?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAS?$AAe?$AAr?$AAv?$AAe?$AAr?$AAA?$AAc?$AAt?$AAi?$AAv?$AAe?$AAS@ 100011e0     syncctxt.obj
+ 0001:0000023c       ??_7CTrackedDB@@6B@        1000123c     trackdb.obj
+ 0001:0000024c       ??_C@_1BG@OLJKANJA@?$AAG?$AAe?$AAn?$AAe?$AAr?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 1000124c     trackdb.obj
+ 0001:00000264       ??_C@_1M@LLCLNBHO@?$AA?$CF?$AAs?$AA_?$AA?$CF?$AAs?$AA?$AA@ 10001264     trackdb.obj
+ 0001:00000270       ??_7CWriteAgent@@6B@       10001270     wagent.obj
+ 0001:00000284       ??_C@_1BO@NHMPCAJI@?$AAM?$AAA?$AAP?$AAI?$AAF?$AAr?$AAe?$AAe?$AAB?$AAu?$AAf?$AAf?$AAe?$AAr?$AA?$AA@ 10001284     dllload.obj
+ 0001:000002a4       ??_C@_1BG@KBDHFOMO@?$AAc?$AAe?$AAm?$AAa?$AAp?$AAi?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 100012a4     dllload.obj
+ 0001:000002bc       ??_C@_1BE@GOIKJIBK@?$AAF?$AAr?$AAe?$AAe?$AAP?$AAr?$AAo?$AAw?$AAs?$AA?$AA@ 100012bc     dllload.obj
+ 0001:000002d0       ??_C@_1CI@DIDENDDG@?$AAG?$AAC?$AAo?$AAu?$AAn?$AAt?$AAe?$AAr?$AAF?$AAi?$AAl?$AAe?$AAM?$AAa?$AAp?$AAp?$AAi?$AAn?$AAg?$AA?$AA@ 100012d0     gcounter.obj
+ 0001:000002f8       ??_C@_1EI@DLOIHDOF@?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AA?2?$AAA?$AAc?$AAt?$AAi?$AAv?$AAe?$AAs?$AAy?$AAn?$AAc?$AA?2?$AAG?$AAC?$AAo?$AAu?$AAn?$AAt?$AAe?$AAr?$AAF?$AAi?$AAl?$AAe?$AA?4@ 100012f8     gcounter.obj
+ 0001:00000340       ??_C@_1BM@GHOFBLCC@?$AAG?$AAC?$AAo?$AAu?$AAn?$AAt?$AAe?$AAr?$AAM?$AAu?$AAt?$AAe?$AAx?$AA?$AA@ 10001340     gcounter.obj
+ 0001:00000368       ??_C@_13FPGAJAPJ@?$AA?2?$AA?$AA@ 10001368     gcounter.obj
+ 0001:0000036c       ?c_ulDefaultDPASize@@3KB   1000136c     ctutil:util.obj
+ 0001:00000370       ??_7CCritSecLockable@@6B@  10001370     ctutil:lock.obj
+ 0001:00000380       ??_C@_1CA@OOEGNFML@?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AAS?$AAe?$AAr?$AAv?$AAe?$AAr?$AAO?$AAn?$AA?$AA@ 10001380     ctcemapi:cemapi_factory.obj
+ 0001:000003a0       ??_7CCEMAPIFactory@@6B@    100013a0     ctcemapi:cemapi_factory.obj
+ 0001:000003b8       ?c_ulEntryIDTypeMessage@@3KB 100013b8     ctcemapi:mapist.obj
+ 0001:000003bc       ??_7CCEMAPIStore@@6B@      100013bc     ctcemapi:mapist.obj
+ 0001:000003ec       _GUID_63f9d15a_67c5_4ebb_8f46_d0028096b860 100013ec     ctcemapi:mapist.obj
+ 0001:000003fc       ??_7CCEMAPIStoreID@@6B@    100013fc     ctcemapi:mapistid.obj
+ 0001:00000414       ??_C@_1O@NPLNMFNB@?$AAC?$AAE?$AAM?$AAA?$AAP?$AAI?$AA?$AA@ 10001414     ctcemapi:mapistid.obj
+ 0001:00000424       ??_7CCEMAPIStoreItemIDFactory@@6B@ 10001424     ctcemapi:mapiiid.obj
+ 0001:00000430       ??_7CCEMAPIStoreItemID@@6B@ 10001430     ctcemapi:mapiiid.obj
+ 0001:00000458       _GUID_47aa476c_472f_49dc_931f_b1a01386e58c 10001458     ctcemapi:mapiiid.obj
+ 0001:00000468       _GUID_142828c5_c8e6_4ce9_b289_81ac835abbf4 10001468     ctcemapi:mapiiid.obj
+ 0001:00000478       GUID_NULL                  10001478     dcomuuid:dcomuuid.obj
+ 0001:00000488       IID_IUnknown               10001488     dcomuuid:dcomuuid.obj
+ 0001:000004bc       ?AddRef@CClassInstance@@UAAKXZ 100014bc f   comdll.obj
+ 0001:000004c4       ?Release@CClassInstance@@UAAKXZ 100014c4 f   comdll.obj
+ 0001:000004e8       ?AddRef@CClassFactory@@UAAKXZ 100014e8 f   comdll.obj
+ 0001:000004f0       ?Release@CClassFactory@@UAAKXZ 100014f0 f   comdll.obj
+ 0001:00000514       ?LockServer@CClassFactory@@UAAJH@Z 10001514 f   comdll.obj
+ 0001:00000540       DllCanUnloadNow            10001540 f   comdll.obj
+ 0001:00000574       ?QueryInterface@CClassInstance@@UAAJABU_GUID@@PAPAX@Z 10001574 f   comdll.obj
+ 0001:00000630       ?QueryInterface@CClassFactory@@UAAJABU_GUID@@PAPAX@Z 10001630 f   comdll.obj
+ 0001:000006a4       DllMain                    100016a4 f   comdll.obj
+ 0001:00000708       ?CreateInstance@CClassFactory@@UAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10001708 f   comdll.obj
+ 0001:000007a0       DllGetClassObject          100017a0 f   comdll.obj
+ 0001:0000085c       ??1CItemIDList@@MAA@XZ     1000185c f   itemset.obj
+ 0001:000008c4       ?AddRef@CItemIDList@@UAAKXZ 100018c4 f   itemset.obj
+ 0001:000008cc       ?Release@CItemIDList@@UAAKXZ 100018cc f   itemset.obj
+ 0001:00000904       ?GetItem@CItemIDList@@UBAJKQAPAVIChngTrkStoreItemID@@@Z 10001904 f   itemset.obj
+ 0001:0000092c       ?GetChangeInfo@CItemIDList@@UBAJKPAPAX@Z 1000192c f   itemset.obj
+ 0001:0000097c       ?DeleteItem@CItemIDList@@UAAJK@Z 1000197c f   itemset.obj
+ 0001:000009e8       ?AddItem@CItemIDList@@UAAJQAVIChngTrkStoreItemID@@@Z 100019e8 f   itemset.obj
+ 0001:00000a58       ??1CSortedItemIDList@@EAA@XZ 10001a58 f   itemset.obj
+ 0001:00000a90       ?CompareItemIDs@@YAHPAX0J@Z 10001a90 f   itemset.obj
+ 0001:00000aa4       ?FindAndDeleteItem@CSortedItemIDList@@QAAJQAVIChngTrkStoreItemID@@PAH@Z 10001aa4 f   itemset.obj
+ 0001:00000b6c       ??1CChangedItemIDList@@AAA@XZ 10001b6c f   itemset.obj
+ 0001:00000c08       ?AddRef@CChangedItemIDList@@UAAKXZ 10001c08 f   itemset.obj
+ 0001:00000c10       ?GetItem@CChangedItemIDList@@UBAJKQAPAVIChngTrkStoreItemID@@@Z 10001c10 f   itemset.obj
+ 0001:00000c80       ?GetChangeInfo@CChangedItemIDList@@UBAJKPAPAX@Z 10001c80 f   itemset.obj
+ 0001:00000ce4       ?DeleteItem@CChangedItemIDList@@UAAJK@Z 10001ce4 f   itemset.obj
+ 0001:00000d8c       ?AddItem@CChangedItemIDList@@QAAJQAVIChngTrkStoreItemID@@PAX@Z 10001d8c f   itemset.obj
+ 0001:00000e2c       ?QueryInterface@CItemIDList@@UAAJABU_GUID@@PAPAX@Z 10001e2c f i itemset.obj
+ 0001:00000e38       ?GetItemCount@CItemIDList@@UBAKXZ 10001e38 f i itemset.obj
+ 0001:00000e4c       ?QueryInterface@CChangedItemIDList@@UAAJABU_GUID@@PAPAX@Z 10001e4c f i itemset.obj
+ 0001:00000e58       ?GetItemCount@CChangedItemIDList@@UBAKXZ 10001e58 f i itemset.obj
+ 0001:00000e6c       ??_GCItemIDList@@MAAPAXI@Z 10001e6c f i itemset.obj
+ 0001:00000e6c       ??_ECItemIDList@@MAAPAXI@Z 10001e6c f i itemset.obj
+ 0001:00000e90       ??_ECSortedItemIDList@@EAAPAXI@Z 10001e90 f i itemset.obj
+ 0001:00000e90       ??_GCSortedItemIDList@@EAAPAXI@Z 10001e90 f i itemset.obj
+ 0001:00000eb4       ??0CChangedItemIDList@@AAA@QAVIChngTrkStore@@@Z 10001eb4 f   itemset.obj
+ 0001:00000ef4       ?Release@CChangedItemIDList@@UAAKXZ 10001ef4 f   itemset.obj
+ 0001:00000f2c       ??0CItemIDList@@IAA@XZ     10001f2c f   itemset.obj
+ 0001:00000f4c       ?CreateInstance@CSortedItemIDList@@SAJQAVIChngTrkStoreItemIDFactory@@QAPAV1@@Z 10001f4c f   itemset.obj
+ 0001:00000fc4       ?CreateInstance@CItemIDList@@SAJQAPAV1@@Z 10001fc4 f i syncctxt.obj
+ 0001:00001000       ?CreateInstance@CChangedItemIDList@@SAJQAVIChngTrkStore@@QAPAV1@@Z 10002000 f i syncctxt.obj
+ 0001:00001044       ??0CAutoLock@@QAA@PAVCLockable@@@Z 10002044 f i syncctxt.obj
+ 0001:0000108c       ??1CAutoLock@@QAA@XZ       1000208c f i syncctxt.obj
+ 0001:000010f4       ?AddRef@CSyncContext@@UAAKXZ 100020f4 f   syncctxt.obj
+ 0001:000010fc       ?PurgeItemChanges@CSyncContext@@UAAJQAVIChngTrkStoreItemID@@PAX@Z 100020fc f   syncctxt.obj
+ 0001:000011c8       ?_IsSyncableGeneration@CSyncContext@@AAAHKH@Z 100021c8 f   syncctxt.obj
+ 0001:0000125c       ?_ClearState@CSyncContext@@AAAXXZ 1000225c f   syncctxt.obj
+ 0001:0000138c       ?_FillOldIDList@CSyncContext@@AAAJQAVCMappingTable@@@Z 1000238c f   syncctxt.obj
+ 0001:0000150c       ??0CSyncContext@@AAA@XZ    1000250c f   syncctxt.obj
+ 0001:000015a0       ?QueryInterface@CSyncContext@@UAAJABU_GUID@@PAPAX@Z 100025a0 f i syncctxt.obj
+ 0001:000015b8       ??1CSyncContext@@AAA@XZ    100025b8 f   syncctxt.obj
+ 0001:00001610       ?StartSync@CSyncContext@@UAAJQAVIChngTrkStore@@QAUIStream@@1QAVCMappingTable@@KPAK@Z 10002610 f   syncctxt.obj
+ 0001:00001a04       ?EndSync@CSyncContext@@UAAJHPAH@Z 10002a04 f   syncctxt.obj
+ 0001:00001ba4       ?_GetCurrentStoreItemInfo@CSyncContext@@AAAJHQAHQAPAVIChngTrkStoreItemID@@@Z 10002ba4 f   syncctxt.obj
+ 0001:00001c3c       ?WillStoreItemBeDirty@CSyncContext@@QAAJQBVIChngTrkStoreItemID@@QAHABU_GUID@@@Z 10002c3c f   syncctxt.obj
+ 0001:00001df8       ?CreateInstance@CSyncContext@@SAJQAVCClassInstance@@QAPAX@Z 10002df8 f   syncctxt.obj
+ 0001:00001e54       ?Release@CSyncContext@@UAAKXZ 10002e54 f   syncctxt.obj
+ 0001:00001e8c       ?DetermineChanges@CSyncContext@@UAAJQAPAVIChngTrkStoreItemIDList@@00PAH@Z 10002e8c f   syncctxt.obj
+ 0001:00002244       ??0CTrackedDB@@AAA@XZ      10003244 f   trackdb.obj
+ 0001:0000227c       ?LockForWrite@CTrackedDB@@QAAXXZ 1000327c f   trackdb.obj
+ 0001:000022d4       ?UnlockFromWrite@CTrackedDB@@QAAXXZ 100032d4 f   trackdb.obj
+ 0001:00002330       ?CreateTrackedDBList@CTrackedDB@@SAJXZ 10003330 f i trackdb.obj
+ 0001:0000237c       ??1CTrackedDB@@AAA@XZ      1000337c f   trackdb.obj
+ 0001:00002448       ?_Init@CTrackedDB@@AAAJQAVIChngTrkStoreID@@@Z 10003448 f   trackdb.obj
+ 0001:00002560       ?UnregisterSyncContext@CTrackedDB@@QAAJQBVCSyncContext@@@Z 10003560 f   trackdb.obj
+ 0001:000025c4       ?Checkpoint@CTrackedDB@@QAAJQAK@Z 100035c4 f   trackdb.obj
+ 0001:00002638       ?_FindSyncContextFromThreadID@CTrackedDB@@AAAHKQAPAVCSyncContext@@@Z 10003638 f   trackdb.obj
+ 0001:000026a4       ?LookupInstance@CTrackedDB@@SAJQAVIChngTrkStoreID@@QAPAV1@@Z 100036a4 f   trackdb.obj
+ 0001:000027f0       ?Release@CTrackedDB@@QAAKXZ 100037f0 f   trackdb.obj
+ 0001:00002828       ?RegisterSyncContext@CTrackedDB@@QAAJQBVCSyncContext@@@Z 10003828 f   trackdb.obj
+ 0001:00002898       ?GetCurrentThreadWriteInfo@CTrackedDB@@QAAJQAPAVCSyncContext@@QAK@Z 10003898 f   trackdb.obj
+ 0001:000028f0       ??1CWriteAgent@@AAA@XZ     100038f0 f   wagent.obj
+ 0001:00002928       ?AddRef@CWriteAgent@@UAAKXZ 10003928 f   wagent.obj
+ 0001:00002930       ?PreProcessItemWrite@CWriteAgent@@UAAJQAVIChngTrkStoreID@@QAVIChngTrkStoreItemID@@QAKPAPAX@Z 10003930 f   wagent.obj
+ 0001:00002a60       ?PostProcessItemWrite@CWriteAgent@@UAAJPAX@Z 10003a60 f   wagent.obj
+ 0001:00002a84       ?QueryInterface@CWriteAgent@@UAAJABU_GUID@@PAPAX@Z 10003a84 f i wagent.obj
+ 0001:00002a9c       ?Release@CWriteAgent@@UAAKXZ 10003a9c f   wagent.obj
+ 0001:00002ad4       ??0CWriteAgent@@AAA@XZ     10003ad4 f   wagent.obj
+ 0001:00002b0c       ?CreateInstance@CWriteAgent@@SAJQAVCClassInstance@@QAPAX@Z 10003b0c f   wagent.obj
+ 0001:00002b68       ?_GetProcFromDLL@@YAXPAPAUHINSTANCE__@@PBGPAP6AHXZ1@Z 10003b68 f   dllload.obj
+ 0001:00002bbc       MAPIFreeBuffer             10003bbc f   dllload.obj
+ 0001:00002c0c       FreeProws                  10003c0c f   dllload.obj
+ 0001:00002c7c       ??1CGlobalCounter@@QAA@XZ  10003c7c f   gcounter.obj
+ 0001:00002cb8       ?Get@CGlobalCounter@@QBAKXZ 10003cb8 f   gcounter.obj
+ 0001:00002cf0       ?Set@CGlobalCounter@@QBAXK@Z 10003cf0 f   gcounter.obj
+ 0001:00002d34       ?Increment@CGlobalCounter@@QBAKXZ 10003d34 f   gcounter.obj
+ 0001:00002d7c       ?FindCounterByName@CGlobalCounter@@ABAHQBGQAK@Z 10003d7c f   gcounter.obj
+ 0001:00002de0       ?FindEmptySlot@CGlobalCounter@@ABAHQAK@Z 10003de0 f   gcounter.obj
+ 0001:00002e34       ?_tcsncpyz@@YAPAGQAGQBGK@Z 10003e34 f i gcounter.obj
+ 0001:00002e58       GCounter_GetValue2         10003e58 f   gcounter.obj
+ 0001:00002e94       GCounter_SetValue2         10003e94 f   gcounter.obj
+ 0001:00002ebc       GCounter_IncrementValue2   10003ebc f   gcounter.obj
+ 0001:00002fc8       ?Init@CGlobalCounter@@AAAJQBGK@Z 10003fc8 f   gcounter.obj
+ 0001:000032dc       ?Delete@CGlobalCounter@@QAAXXZ 100042dc f   gcounter.obj
+ 0001:00003330       ?CreateInstance@CGlobalCounter@@SAJQBGKQAPAV1@@Z 10004330 f   gcounter.obj
+ 0001:000033c4       GCounter_Open2             100043c4 f   gcounter.obj
+ 0001:00003430       GCounter_Close2            10004430 f   gcounter.obj
+ 0001:00003464       GCounter_Delete2           10004464 f   gcounter.obj
+ 0001:0000348c       ?WriteToStream@@YAJQAUISequentialStream@@QBXK@Z 1000448c f   ctutil:util.obj
+ 0001:000034c8       ?ReadFromStream@@YAJQAUISequentialStream@@QAXK@Z 100044c8 f   ctutil:util.obj
+ 0001:00003514       ??1CCritSecLockable@@QAA@XZ 10004514 f   ctutil:lock.obj
+ 0001:00003524       ?AcquireLock@CCritSecLockable@@UAAXXZ 10004524 f   ctutil:lock.obj
+ 0001:00003544       ?ReleaseLock@CCritSecLockable@@UAAXXZ 10004544 f   ctutil:lock.obj
+ 0001:00003554       ?FTryAcquireLock@CCritSecLockable@@UAAHXZ 10004554 f   ctutil:lock.obj
+ 0001:0000355c       ?FLockHeld@CCritSecLockable@@UAAHXZ 1000455c f   ctutil:lock.obj
+ 0001:00003580       ??0CCritSecLockable@@QAA@XZ 10004580 f   ctutil:lock.obj
+ 0001:000035ac       ??1CCEMAPIFactory@@AAA@XZ  100045ac f   ctcemapi:cemapi_factory.obj
+ 0001:000035e4       ?QueryInterface@CCEMAPIFactory@@UAAJABU_GUID@@PAPAX@Z 100045e4 f i ctcemapi:cemapi_factory.obj
+ 0001:000035fc       ?AddRef@CCEMAPIFactory@@UAAKXZ 100045fc f   ctcemapi:cemapi_factory.obj
+ 0001:00003604       ?CreateStore@CCEMAPIFactory@@UAAJQAUIMsgStore@@QAUIMAPIFolder@@QAVIChngTrkCEMAPIInfo@@QAPAVIChngTrkStore@@@Z 10004604 f   ctcemapi:cemapi_factory.obj
+ 0001:00003644       ?CreateStoreID@CCEMAPIFactory@@UAAJQAPAVIChngTrkStoreID@@@Z 10004644 f   ctcemapi:cemapi_factory.obj
+ 0001:0000366c       ?CreateStoreItemID@CCEMAPIFactory@@UAAJQAU_CEENTRYID@@QAPAVIChngTrkStoreItemID@@@Z 1000466c f   ctcemapi:cemapi_factory.obj
+ 0001:0000369c       ??0CCEMAPIFactory@@AAA@XZ  1000469c f   ctcemapi:cemapi_factory.obj
+ 0001:000036d4       ?Release@CCEMAPIFactory@@UAAKXZ 100046d4 f   ctcemapi:cemapi_factory.obj
+ 0001:0000370c       ?CreateInstance@CCEMAPIFactory@@SAJQAVCClassInstance@@QAPAX@Z 1000470c f   ctcemapi:cemapi_factory.obj
+ 0001:00003768       ?_Init@CCEMAPIStore@@AAAJQAUIMsgStore@@QAUIMAPIFolder@@QAVIChngTrkCEMAPIInfo@@@Z 10004768 f   ctcemapi:mapist.obj
+ 0001:000039c4       ?AddRef@CCEMAPIStore@@UAAKXZ 100049c4 f   ctcemapi:mapist.obj
+ 0001:000039cc       ?GetID@CCEMAPIStore@@UBAJQAPAVIChngTrkStoreID@@@Z 100049cc f   ctcemapi:mapist.obj
+ 0001:000039f4       ?GetCurrentItemChangeInfo@CCEMAPIStore@@UBAJPAPAXPAH@Z 100049f4 f   ctcemapi:mapist.obj
+ 0001:00003b50       ?PurgeCurrentItemChanges@CCEMAPIStore@@UBAJPAX@Z 10004b50 f   ctcemapi:mapist.obj
+ 0001:00003c48       ?FreeChangeInfo@CCEMAPIStore@@UBAJPAX@Z 10004c48 f   ctcemapi:mapist.obj
+ 0001:00003c60       ?GetItemIDFactory@CCEMAPIStore@@UBAJQAPAVIChngTrkStoreItemIDFactory@@@Z 10004c60 f   ctcemapi:mapist.obj
+ 0001:00003c8c       ?_MoveNextRow@CCEMAPIStore@@AAAJXZ 10004c8c f   ctcemapi:mapist.obj
+ 0001:00003d38       ?_GetItemGenAndID@CCEMAPIStore@@AAAJPAU_SPropValue@@KKQAKQAPAVIChngTrkStoreItemID@@@Z 10004d38 f   ctcemapi:mapist.obj
+ 0001:00003e18       ?_ClearSeekState@CCEMAPIStore@@AAAXXZ 10004e18 f   ctcemapi:mapist.obj
+ 0001:00003e84       ?CreateItemID@CCEMAPIStore@@UAAJKKQBGQAPAVIChngTrkStoreItemID@@@Z 10004e84 f   ctcemapi:mapist.obj
+ 0001:00003edc       ?GetStoreGeneration@CCEMAPIStore@@UBAJPAK@Z 10004edc f   ctcemapi:mapist.obj
+ 0001:00003f70       ??0CCEMAPIStore@@AAA@XZ    10004f70 f   ctcemapi:mapist.obj
+ 0001:00003fdc       ?QueryInterface@CCEMAPIStore@@UAAJABU_GUID@@PAPAX@Z 10004fdc f i ctcemapi:mapist.obj
+ 0001:0000405c       ??1CCEMAPIStore@@AAA@XZ    1000505c f   ctcemapi:mapist.obj
+ 0001:000040d8       ?Seek@CCEMAPIStore@@UAAJW4STORE_SEEK_TYPE@@QBVIChngTrkStoreItemID@@PAH@Z 100050d8 f   ctcemapi:mapist.obj
+ 0001:00004348       ?GetCurrentItemGenAndID@CCEMAPIStore@@UAAJKQAKQAPAVIChngTrkStoreItemID@@@Z 10005348 f   ctcemapi:mapist.obj
+ 0001:00004448       ?CreateInstance@CCEMAPIStore@@SAJQAUIMsgStore@@QAUIMAPIFolder@@QAVIChngTrkCEMAPIInfo@@QAPAV1@@Z 10005448 f   ctcemapi:mapist.obj
+ 0001:000044c8       ?Release@CCEMAPIStore@@UAAKXZ 100054c8 f   ctcemapi:mapist.obj
+ 0001:00004500       ?QueryInterface@CCEMAPIStoreID@@UAAJABU_GUID@@PAPAX@Z 10005500 f i ctcemapi:mapistid.obj
+ 0001:0000450c       ?GetStoreType@CCEMAPIStoreID@@UBA?AW4STORE_TYPE@@XZ 1000550c f i ctcemapi:mapistid.obj
+ 0001:00004514       ?IsEqual@CCEMAPIStoreID@@UBAHQBVIChngTrkStoreID@@@Z 10005514 f i ctcemapi:mapistid.obj
+ 0001:00004538       ?GetIDString@CCEMAPIStoreID@@UBAPBGXZ 10005538 f i ctcemapi:mapistid.obj
+ 0001:00004540       ?AddRef@CCEMAPIStoreID@@UAAKXZ 10005540 f   ctcemapi:mapistid.obj
+ 0001:00004548       ?Release@CCEMAPIStoreID@@UAAKXZ 10005548 f   ctcemapi:mapistid.obj
+ 0001:00004580       ?CreateInstance@CCEMAPIStoreID@@SAJQAPAV1@@Z 10005580 f   ctcemapi:mapistid.obj
+ 0001:000045dc       ?QueryInterface@CCEMAPIStoreItemIDFactory@@UAAJABU_GUID@@PAPAX@Z 100055dc f i ctcemapi:mapiiid.obj
+ 0001:000045e8       ?GetStoreType@CCEMAPIStoreItemID@@UBA?AW4STORE_TYPE@@XZ 100055e8 f i ctcemapi:mapiiid.obj
+ 0001:000045f0       ?GetEntryID@CCEMAPIStoreItemID@@UBAPBU_CEENTRYID@@XZ 100055f0 f i ctcemapi:mapiiid.obj
+ 0001:000045f8       ?GetReplID@CCEMAPIStoreItemID@@UBAPBGXZ 100055f8 f i ctcemapi:mapiiid.obj
+ 0001:00004600       ?ReplIDPresent@CCEMAPIStoreItemID@@UBAJXZ 10005600 f i ctcemapi:mapiiid.obj
+ 0001:00004614       ?AddRef@CCEMAPIStoreItemIDFactory@@UAAKXZ 10005614 f   ctcemapi:mapiiid.obj
+ 0001:0000461c       ?QueryInterface@CCEMAPIStoreItemID@@UAAJABU_GUID@@PAPAX@Z 1000561c f   ctcemapi:mapiiid.obj
+ 0001:000046b8       ?AddRef@CCEMAPIStoreItemID@@UAAKXZ 100056b8 f   ctcemapi:mapiiid.obj
+ 0001:000046c0       ?Compare@CCEMAPIStoreItemID@@UBAHQBVIChngTrkStoreItemID@@@Z 100056c0 f   ctcemapi:mapiiid.obj
+ 0001:00004734       ?VerifyReplID@CCEMAPIStoreItemID@@UBAJQBVIChngTrkStoreItemID@@@Z 10005734 f   ctcemapi:mapiiid.obj
+ 0001:00004794       ?QueryCheckForConflicts@CCEMAPIStoreItemID@@UBAJPAH@Z 10005794 f i ctcemapi:mapiiid.obj
+ 0001:000047b0       ?Release@CCEMAPIStoreItemIDFactory@@UAAKXZ 100057b0 f   ctcemapi:mapiiid.obj
+ 0001:000047e8       ?CreateInstance@CCEMAPIStoreItemIDFactory@@SAJQAPAV1@@Z 100057e8 f   ctcemapi:mapiiid.obj
+ 0001:0000482c       ?Release@CCEMAPIStoreItemID@@UAAKXZ 1000582c f   ctcemapi:mapiiid.obj
+ 0001:00004870       ?CreateInstance@CCEMAPIStoreItemID@@SAJQBU_CEENTRYID@@QBGQAPAV1@@Z 10005870 f   ctcemapi:mapiiid.obj
+ 0001:0000492c       InterlockedIncrement       1000592c f   coredll:COREDLL.dll
+ 0001:0000493c       InterlockedDecrement       1000593c f   coredll:COREDLL.dll
+ 0001:0000494c       InitializeCriticalSection  1000594c f   coredll:COREDLL.dll
+ 0001:0000495c       DeleteCriticalSection      1000595c f   coredll:COREDLL.dll
+ 0001:0000496c       DisableThreadLibraryCalls  1000596c f   coredll:COREDLL.dll
+ 0001:0000497c       DPA_Destroy                1000597c f   coredll:COREDLL.dll
+ 0001:0000498c       DPA_DeletePtr              1000598c f   coredll:COREDLL.dll
+ 0001:0000499c       DPA_InsertPtr              1000599c f   coredll:COREDLL.dll
+ 0001:000049ac       DPA_Create                 100059ac f   coredll:COREDLL.dll
+ 0001:000049bc       DPA_Search                 100059bc f   coredll:COREDLL.dll
+ 0001:000049cc       DSA_Destroy                100059cc f   coredll:COREDLL.dll
+ 0001:000049dc       DSA_GetItemPtr             100059dc f   coredll:COREDLL.dll
+ 0001:000049ec       DSA_DeleteItem             100059ec f   coredll:COREDLL.dll
+ 0001:000049fc       DSA_GetItem                100059fc f   coredll:COREDLL.dll
+ 0001:00004a0c       DSA_InsertItem             10005a0c f   coredll:COREDLL.dll
+ 0001:00004a1c       DSA_Create                 10005a1c f   coredll:COREDLL.dll
+ 0001:00004a2c       __GetUserKData             10005a2c f   coredll:COREDLL.dll
+ 0001:00004a3c       RegCloseKey                10005a3c f   coredll:COREDLL.dll
+ 0001:00004a4c       RegQueryValueExW           10005a4c f   coredll:COREDLL.dll
+ 0001:00004a5c       RegCreateKeyExW            10005a5c f   coredll:COREDLL.dll
+ 0001:00004a6c       LeaveCriticalSection       10005a6c f   coredll:COREDLL.dll
+ 0001:00004a7c       EnterCriticalSection       10005a7c f   coredll:COREDLL.dll
+ 0001:00004a8c       DPA_GetPtrIndex            10005a8c f   coredll:COREDLL.dll
+ 0001:00004a9c       StringCchPrintfW           10005a9c f   coredll:COREDLL.dll
+ 0001:00004aac       GetProcAddressW            10005aac f   coredll:COREDLL.dll
+ 0001:00004abc       LoadLibraryW               10005abc f   coredll:COREDLL.dll
+ 0001:00004acc       WaitForSingleObject        10005acc f   coredll:COREDLL.dll
+ 0001:00004adc       ReleaseMutex               10005adc f   coredll:COREDLL.dll
+ 0001:00004aec       CloseHandle                10005aec f   coredll:COREDLL.dll
+ 0001:00004afc       UnmapViewOfFile            10005afc f   coredll:COREDLL.dll
+ 0001:00004b0c       FlushViewOfFile            10005b0c f   coredll:COREDLL.dll
+ 0001:00004b1c       StringCchCopyNW            10005b1c f   coredll:COREDLL.dll
+ 0001:00004b2c       GetLastError               10005b2c f   coredll:COREDLL.dll
+ 0001:00004b3c       CreateDirectoryW           10005b3c f   coredll:COREDLL.dll
+ 0001:00004b4c       StringCchCopyW             10005b4c f   coredll:COREDLL.dll
+ 0001:00004b5c       MapViewOfFile              10005b5c f   coredll:COREDLL.dll
+ 0001:00004b6c       CreateFileMappingW         10005b6c f   coredll:COREDLL.dll
+ 0001:00004b7c       CreateFileW                10005b7c f   coredll:COREDLL.dll
+ 0001:00004b8c       StringCchCatW              10005b8c f   coredll:COREDLL.dll
+ 0001:00004b9c       CreateMutexW               10005b9c f   coredll:COREDLL.dll
+ 0001:00004bac       GetDataDirectory           10005bac f   ossvcs:ossvcs.dll
+ 0001:00004bbc       SysFreeString              10005bbc f   oleaut32:OLEAUT32.dll
+ 0001:00004bcc       SysAllocString             10005bcc f   oleaut32:OLEAUT32.dll
+ 0001:00004bdc       StringFromGUID2            10005bdc f   ole32:ole32.dll
+ 0001:00004ce4       _DllMainCRTStartup         10005ce4 f   corelib0:pegdmain.obj
+ 0001:00004d10       __GSHandlerCheckCommon     10005d10 f   corelib0:gshandler.obj
+ 0001:00004d4c       __GSHandlerCheck           10005d4c f   corelib0:gshandler.obj
+ 0001:00004d6c       __security_init_cookie     10005d6c f   corelib0:seccinit.obj
+ 0001:00004db8       __security_check_cookie    10005db8 f   corelib0:armsecgs.obj
+ 0001:00004dc8       __gsfailure                10005dc8     corelib0:armsecgs.obj
+ 0001:00004ef4       _cexit                     10005ef4 f   corelib0:cexit.obj
+ 0001:00004f04       _initterm                  10005f04 f   corelib0:crt0dat.obj
+ 0001:00004f30       _cinit                     10005f30 f   corelib0:crt0dat.obj
+ 0001:00004f90       __crt_ExitProcess          10005f90 f   corelib0:exitproc_proxy.obj
+ 0001:00004f9c       ??3@YAXPAX@Z               10005f9c f   corelib1:COREDLL.dll
+ 0001:00004fac       memcmp                     10005fac f   corelib1:COREDLL.dll
+ 0001:00004fbc       ??2@YAPAXI@Z               10005fbc f   corelib1:COREDLL.dll
+ 0001:00004fcc       _purecall                  10005fcc f   corelib1:COREDLL.dll
+ 0001:00004fdc       memset                     10005fdc f   corelib1:COREDLL.dll
+ 0001:00004fec       wcsstr                     10005fec f   corelib1:COREDLL.dll
+ 0001:00004ffc       wcscmp                     10005ffc f   corelib1:COREDLL.dll
+ 0001:0000500c       wcslen                     1000600c f   corelib1:COREDLL.dll
+ 0001:0000501c       memcpy                     1000601c f   corelib1:COREDLL.dll
+ 0001:0000502c       _XcptFilter                1000602c f   corelib1:COREDLL.dll
+ 0001:0000503c       __C_specific_handler       1000603c f   corelib1:COREDLL.dll
+ 0001:0000504c       __security_gen_cookie2     1000604c f   corelib1:COREDLL.dll
+ 0001:0000505c       __report_gsfailure         1000605c f   corelib1:COREDLL.dll
+ 0001:0000506c       free                       1000606c f   corelib1:COREDLL.dll
+ 0001:0000507c       InterlockedExchange        1000607c f   coredll:COREDLL.dll
+ 0001:0000508c       TerminateProcess           1000608c f   coredll:COREDLL.dll
+ 0001:000050c4       __IMPORT_DESCRIPTOR_COREDLL 100060c4     coredll:COREDLL.dll
+ 0001:000050d8       __IMPORT_DESCRIPTOR_ossvcs 100060d8     ossvcs:ossvcs.dll
+ 0001:000050ec       __IMPORT_DESCRIPTOR_OLEAUT32 100060ec     oleaut32:OLEAUT32.dll
+ 0001:00005100       __IMPORT_DESCRIPTOR_ole32  10006100     ole32:ole32.dll
+ 0001:00005114       __NULL_IMPORT_DESCRIPTOR   10006114     coredll:COREDLL.dll
+ 0002:00000000       __imp_InterlockedIncrement 10007000     coredll:COREDLL.dll
+ 0002:00000004       __imp_InterlockedDecrement 10007004     coredll:COREDLL.dll
+ 0002:00000008       __imp_InitializeCriticalSection 10007008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_DeleteCriticalSection 1000700c     coredll:COREDLL.dll
+ 0002:00000010       __imp_DisableThreadLibraryCalls 10007010     coredll:COREDLL.dll
+ 0002:00000014       __imp_DPA_Destroy          10007014     coredll:COREDLL.dll
+ 0002:00000018       __imp_DPA_DeletePtr        10007018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_DPA_InsertPtr        1000701c     coredll:COREDLL.dll
+ 0002:00000020       __imp_DPA_Create           10007020     coredll:COREDLL.dll
+ 0002:00000024       __imp_DPA_Search           10007024     coredll:COREDLL.dll
+ 0002:00000028       __imp_DSA_Destroy          10007028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_DSA_GetItemPtr       1000702c     coredll:COREDLL.dll
+ 0002:00000030       __imp_DSA_DeleteItem       10007030     coredll:COREDLL.dll
+ 0002:00000034       __imp_DSA_GetItem          10007034     coredll:COREDLL.dll
+ 0002:00000038       __imp_DSA_InsertItem       10007038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_DSA_Create           1000703c     coredll:COREDLL.dll
+ 0002:00000040       __imp___GetUserKData       10007040     coredll:COREDLL.dll
+ 0002:00000044       __imp_RegCloseKey          10007044     coredll:COREDLL.dll
+ 0002:00000048       __imp_RegQueryValueExW     10007048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_RegCreateKeyExW      1000704c     coredll:COREDLL.dll
+ 0002:00000050       __imp_LeaveCriticalSection 10007050     coredll:COREDLL.dll
+ 0002:00000054       __imp_EnterCriticalSection 10007054     coredll:COREDLL.dll
+ 0002:00000058       __imp_DPA_GetPtrIndex      10007058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_StringCchPrintfW     1000705c     coredll:COREDLL.dll
+ 0002:00000060       __imp_GetProcAddressW      10007060     coredll:COREDLL.dll
+ 0002:00000064       __imp_LoadLibraryW         10007064     coredll:COREDLL.dll
+ 0002:00000068       __imp_WaitForSingleObject  10007068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_ReleaseMutex         1000706c     coredll:COREDLL.dll
+ 0002:00000070       __imp_CloseHandle          10007070     coredll:COREDLL.dll
+ 0002:00000074       __imp_UnmapViewOfFile      10007074     coredll:COREDLL.dll
+ 0002:00000078       __imp_FlushViewOfFile      10007078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_StringCchCopyNW      1000707c     coredll:COREDLL.dll
+ 0002:00000080       __imp_GetLastError         10007080     coredll:COREDLL.dll
+ 0002:00000084       __imp_CreateDirectoryW     10007084     coredll:COREDLL.dll
+ 0002:00000088       __imp_StringCchCopyW       10007088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_MapViewOfFile        1000708c     coredll:COREDLL.dll
+ 0002:00000090       __imp_CreateFileMappingW   10007090     coredll:COREDLL.dll
+ 0002:00000094       __imp_CreateFileW          10007094     coredll:COREDLL.dll
+ 0002:00000098       __imp_StringCchCatW        10007098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_CreateMutexW         1000709c     coredll:COREDLL.dll
+ 0002:000000a0       __imp_TerminateProcess     100070a0     coredll:COREDLL.dll
+ 0002:000000a4       __imp_InterlockedExchange  100070a4     coredll:COREDLL.dll
+ 0002:000000a8       __imp_free                 100070a8     corelib1:COREDLL.dll
+ 0002:000000ac       __imp___report_gsfailure   100070ac     corelib1:COREDLL.dll
+ 0002:000000b0       __imp_??3@YAXPAX@Z         100070b0     corelib1:COREDLL.dll
+ 0002:000000b4       __imp_memcmp               100070b4     corelib1:COREDLL.dll
+ 0002:000000b8       __imp_??2@YAPAXI@Z         100070b8     corelib1:COREDLL.dll
+ 0002:000000bc       __imp__purecall            100070bc     corelib1:COREDLL.dll
+ 0002:000000c0       __imp_memset               100070c0     corelib1:COREDLL.dll
+ 0002:000000c4       __imp_wcsstr               100070c4     corelib1:COREDLL.dll
+ 0002:000000c8       __imp_wcscmp               100070c8     corelib1:COREDLL.dll
+ 0002:000000cc       __imp_wcslen               100070cc     corelib1:COREDLL.dll
+ 0002:000000d0       __imp_memcpy               100070d0     corelib1:COREDLL.dll
+ 0002:000000d4       __imp__XcptFilter          100070d4     corelib1:COREDLL.dll
+ 0002:000000d8       __imp___C_specific_handler 100070d8     corelib1:COREDLL.dll
+ 0002:000000dc       __imp___security_gen_cookie2 100070dc     corelib1:COREDLL.dll
+ 0002:000000e0       \177COREDLL_NULL_THUNK_DATA 100070e0     coredll:COREDLL.dll
+ 0002:000000e4       __imp_SysAllocString       100070e4     oleaut32:OLEAUT32.dll
+ 0002:000000e8       __imp_SysFreeString        100070e8     oleaut32:OLEAUT32.dll
+ 0002:000000ec       \177OLEAUT32_NULL_THUNK_DATA 100070ec     oleaut32:OLEAUT32.dll
+ 0002:000000f0       __imp_StringFromGUID2      100070f0     ole32:ole32.dll
+ 0002:000000f4       \177ole32_NULL_THUNK_DATA  100070f4     ole32:ole32.dll
+ 0002:000000f8       __imp_GetDataDirectory     100070f8     ossvcs:ossvcs.dll
+ 0002:000000fc       \177ossvcs_NULL_THUNK_DATA 100070fc     ossvcs:ossvcs.dll
+ 0002:00000170       __security_cookie          10007170     corelib0:seccinit.obj
+ 0002:00000174       __security_cookie_complement 10007174     corelib0:seccinit.obj
+ 0002:00000178       ?g_cOpened@@3JA            10007178     comdll.obj
+ 0002:00000180       ?g_crefDLL@@3JA            10007180     comdll.obj
+ 0002:00000184       ?g_hInstDLL@@3PAUHINSTANCE__@@A 10007184     comdll.obj
+ 0002:00000188       ?ms_csCritSection@CTrackedDB@@0UCRITICAL_SECTION@@A 10007188     trackdb.obj
+ 0002:0000019c       ?ms_hdpaTrackedDBList@CTrackedDB@@0PAU_DPA@@A 1000719c     trackdb.obj
+ 0002:000001ac       __@@_PchSym_@00@UygUDAJBUkirezgvUzkkhUlfgollpUxsmtgipUxlivUlyqUzineHUivgzroUkivxlnkOlyq@chngtrk 100071ac     precomp.obj
+ 0002:000001b0       _exitflag                  100071b0     corelib0:cexit.obj
+ 0002:000001b4       __onexitend                100071b4     <common>
+ 0002:000001b8       __onexitbegin              100071b8     <common>
+ 0002:000001bc       g_pcsExit                  100071bc     <common>
+ 0002:000001c0       _pRawDllMain               100071c0     <common>
+
+ entry point at        0001:00004ce4
+
+ Static symbols
+
+ 0001:00002ef4       ?CreatePath@@YAJPAG@Z      10003ef4 f   gcounter.obj
+ 0001:00004bf4       _DllMainCRTStartupHelper   10005bf4 f   corelib0:pegdmain.obj
+ 0001:00004e0c       doexit                     10005e0c f   corelib0:cexit.obj
+
+ Exports
+
+  ordinal    name
+
+        5    GCounter_Open2
+        6    GCounter_Close2
+        7    GCounter_Delete2
+        8    GCounter_GetValue2
+        9    GCounter_SetValue2
+       10    GCounter_IncrementValue2
+       11    DllCanUnloadNow
+       12    DllGetClassObject

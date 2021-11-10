@@ -1,0 +1,378 @@
+ fpcrt
+
+ Timestamp is 5ac64a27 (Thu Apr 05 09:09:11 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000ec8H .rdata                  CODE
+ 0001:00000ec8 00000022H .rdata$debug            CODE
+ 0001:00000eec 000106ecH .text                   CODE
+ 0001:000115d8 0000000cH .xdata                  CODE
+ 0001:000115e4 00000014H .idata$2                CODE
+ 0001:000115f8 00000014H .idata$3                CODE
+ 0001:0001160c 00000028H .idata$4                CODE
+ 0001:00011634 0000000cH .idata$6                CODE
+ 0001:00011640 000001c6H .edata                  CODE
+ 0002:00000000 00000028H .idata$5                DATA
+ 0002:00000028 00000054H .data                   DATA
+ 0002:00000080 00000018H .bss                    DATA
+ 0003:00000000 000004d8H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:000004e8       __real@0000000000000000    100014e8     ccrtfpw:hypot.obj
+ 0001:000004f0       __real@3ff0000000000000    100014f0     ccrtfpw:ieeemisc.obj
+ 0001:00000500       __real@bff0000000000000    10001500     ccrtfpw:frnd.obj
+ 0001:00000508       __real@bfe0000000000000    10001508     ccrtfpw:frnd.obj
+ 0001:00000510       __real@3fe0000000000000    10001510     ccrtfpw:frnd.obj
+ 0001:00000518       J0p                        10001518     ccrtfpw:bessel.obj
+ 0001:00000578       J0q                        10001578     ccrtfpw:bessel.obj
+ 0001:000005a0       P0p                        100015a0     ccrtfpw:bessel.obj
+ 0001:000005d0       P0q                        100015d0     ccrtfpw:bessel.obj
+ 0001:00000600       Q0p                        10001600     ccrtfpw:bessel.obj
+ 0001:00000630       Q0q                        10001630     ccrtfpw:bessel.obj
+ 0001:00000660       J1p                        10001660     ccrtfpw:bessel.obj
+ 0001:000006b8       J1q                        100016b8     ccrtfpw:bessel.obj
+ 0001:000006e0       P1p                        100016e0     ccrtfpw:bessel.obj
+ 0001:00000710       P1q                        10001710     ccrtfpw:bessel.obj
+ 0001:00000740       Q1p                        10001740     ccrtfpw:bessel.obj
+ 0001:00000770       Q1q                        10001770     ccrtfpw:bessel.obj
+ 0001:000007a0       Y0p                        100017a0     ccrtfpw:bessel.obj
+ 0001:000007e8       Y0q                        100017e8     ccrtfpw:bessel.obj
+ 0001:00000830       Y1p                        10001830     ccrtfpw:bessel.obj
+ 0001:00000870       Y1q                        10001870     ccrtfpw:bessel.obj
+ 0001:000008b8       __real@4000000000000000    100018b8     ccrtfpw:bessel.obj
+ 0001:000008c0       __real@400921fb54442d18    100018c0     ccrtfpw:bessel.obj
+ 0001:000008c8       __real@3fe921fb54442d18    100018c8     ccrtfpw:bessel.obj
+ 0001:000008d0       __real@4020000000000000    100018d0     ccrtfpw:bessel.obj
+ 0001:000008d8       __real@401e000000000000    100018d8     ccrtfpw:bessel.obj
+ 0001:000008e0       __real@4002d97c7f3321d2    100018e0     ccrtfpw:bessel.obj
+ 0001:000008e8       __real@3fe45f306dc9c883    100018e8     ccrtfpw:bessel.obj
+ 0001:000008f0       _d_inf                     100018f0     ccrtfpw:util.obj
+ 0001:000008f8       _d_ind                     100018f8     ccrtfpw:util.obj
+ 0001:00000900       _d_max                     10001900     ccrtfpw:util.obj
+ 0001:00000908       _d_min                     10001908     ccrtfpw:util.obj
+ 0001:00000910       _d_mzero                   10001910     ccrtfpw:util.obj
+ 0001:00000a70       __real@3fb0000000000000    10001a70     ccrttran_vfp:pow.obj
+ 0001:00000a78       __real@4030000000000000    10001a78     ccrttran_vfp:pow.obj
+ 0001:00000a80       __real@4060000000000000    10001a80     ccrttran_vfp:pow.obj
+ 0001:00000ad8       __real@3f2bd0105c610ca8    10001ad8     ccrttran_vfp:log.obj
+ 0001:00000ae0       __real@40880bfe9c0d9077    10001ae0     ccrttran_vfp:log.obj
+ 0001:00000ae8       __real@405007ff12b3b59a    10001ae8     ccrttran_vfp:log.obj
+ 0001:00000af0       __real@4041d5804b67ce0f    10001af0     ccrttran_vfp:log.obj
+ 0001:00000af8       __real@3fe94415b356bd29    10001af8     ccrttran_vfp:log.obj
+ 0001:00000b58       __real@4115791356533419    10001b58     ccrttran_vfp:sincosh.obj
+ 0001:00000b60       __real@41401ace80be6713    10001b60     ccrttran_vfp:sincosh.obj
+ 0001:00000b68       __real@40c695c2b6941490    10001b68     ccrttran_vfp:sincosh.obj
+ 0001:00000b70       __real@40715bc381c97ff2    10001b70     ccrttran_vfp:sincosh.obj
+ 0001:00000b78       __real@3fe944e7b86fc81b    10001b78     ccrttran_vfp:sincosh.obj
+ 0001:00000bf8       __real@406486c03e2b87cc    10001bf8     ccrttran_vfp:asincos.obj
+ 0001:00000c00       __real@403b5e55a83a0a62    10001c00     ccrttran_vfp:asincos.obj
+ 0001:00000c08       __real@4077ddcefc56a848    10001c08     ccrttran_vfp:asincos.obj
+ 0001:00000c10       __real@4043d82ca9a6da9f    10001c10     ccrttran_vfp:asincos.obj
+ 0001:00000c18       __real@4037d2e86ef9861f    10001c18     ccrttran_vfp:asincos.obj
+ 0001:00000c20       __real@3fe64bbdb5e61e65    10001c20     ccrttran_vfp:asincos.obj
+ 0001:00000d28       __real@402b60a651061ce2    10001d28     ccrttran_vfp:atan.obj
+ 0001:00000d30       __real@4034817fb9e2bccb    10001d30     ccrttran_vfp:atan.obj
+ 0001:00000d38       __real@3feacd7ad9b187bd    10001d38     ccrttran_vfp:atan.obj
+ 0001:00000db8       __real@3fc5555555555555    10001db8     ccrttran_vfp:sincos.obj
+ 0001:00000dc0       __real@3f2a01a01a013e1a    10001dc0     ccrttran_vfp:sincos.obj
+ 0001:00000dc8       __real@3e5ae6454b5dc0ab    10001dc8     ccrttran_vfp:sincos.obj
+ 0001:00000dd0       __real@3d6ae420dc08499c    10001dd0     ccrttran_vfp:sincos.obj
+ 0001:00000e48       __real@3fdddeb047fbd9d5    10001e48     ccrttran_vfp:tan.obj
+ 0001:00000e50       __real@3fc112b5e54d0900    10001e50     ccrttran_vfp:tan.obj
+ 0001:00000e58       __real@3f346f6499094841    10001e58     ccrttran_vfp:tan.obj
+ 0001:00000e60       __real@3ef2bab72ea2c724    10001e60     ccrttran_vfp:tan.obj
+ 0001:00000eb8       __real@409935a5c9be1e18    10001eb8     ccrttran_vfp:tanh.obj
+ 0001:00000ec0       __real@3feedc28cefba77f    10001ec0     ccrttran_vfp:tanh.obj
+ 0001:00000eec       ControlFPCRT               10001eec f   fpcrt.obj
+ 0001:00000f5c       DllMain                    10001f5c f   fpcrt.obj
+ 0001:00000f9c       _get_fsr                   10001f9c f   fpcrt.obj
+ 0001:00000fd0       _set_fsr                   10001fd0 f   fpcrt.obj
+ 0001:00001010       __crtRaiseException        10002010 f   fpcrt.obj
+ 0001:00001014       _vfpGetFPSCR               10002014 f   fpcrt_vfp.obj
+ 0001:0000101c       _vfpSetFPSCR               1000201c f   fpcrt_vfp.obj
+ 0001:00001034       _vfpGetFPSID               10002034 f   fpcrt_vfp.obj
+ 0001:0000103c       vfp_acos                   1000203c f   fpcrt_vfp.obj
+ 0001:00001050       vfp_asin                   10002050 f   fpcrt_vfp.obj
+ 0001:00001064       vfp_atan                   10002064 f   fpcrt_vfp.obj
+ 0001:00001078       vfp_atan2                  10002078 f   fpcrt_vfp.obj
+ 0001:0000108c       vfp_ceil                   1000208c f   fpcrt_vfp.obj
+ 0001:000010a0       vfp_ceilf                  100020a0 f   fpcrt_vfp.obj
+ 0001:000010b4       vfp_cos                    100020b4 f   fpcrt_vfp.obj
+ 0001:000010c8       vfp_cosh                   100020c8 f   fpcrt_vfp.obj
+ 0001:000010dc       vfp_exp                    100020dc f   fpcrt_vfp.obj
+ 0001:000010f0       vfp_floor                  100020f0 f   fpcrt_vfp.obj
+ 0001:00001104       vfp_floorf                 10002104 f   fpcrt_vfp.obj
+ 0001:00001118       vfp_fmod                   10002118 f   fpcrt_vfp.obj
+ 0001:0000112c       vfp_fmodf                  1000212c f   fpcrt_vfp.obj
+ 0001:00001140       vfp_frexp                  10002140 f   fpcrt_vfp.obj
+ 0001:00001154       vfp_ldexp                  10002154 f   fpcrt_vfp.obj
+ 0001:00001168       vfp_log                    10002168 f   fpcrt_vfp.obj
+ 0001:0000117c       vfp_log10                  1000217c f   fpcrt_vfp.obj
+ 0001:00001190       vfp_modf                   10002190 f   fpcrt_vfp.obj
+ 0001:000011a4       vfp_pow                    100021a4 f   fpcrt_vfp.obj
+ 0001:000011b8       vfp_sin                    100021b8 f   fpcrt_vfp.obj
+ 0001:000011cc       vfp_sinh                   100021cc f   fpcrt_vfp.obj
+ 0001:000011e0       vfp_tan                    100021e0 f   fpcrt_vfp.obj
+ 0001:000011f4       vfp_tanh                   100021f4 f   fpcrt_vfp.obj
+ 0001:00001208       vfp___adds                 10002208 f   fpcrt_vfp.obj
+ 0001:0000122c       vfp___subs                 1000222c f   fpcrt_vfp.obj
+ 0001:00001250       vfp___divs                 10002250 f   fpcrt_vfp.obj
+ 0001:00001274       vfp___muls                 10002274 f   fpcrt_vfp.obj
+ 0001:00001298       vfp___addd                 10002298 f   fpcrt_vfp.obj
+ 0001:000012bc       vfp___subd                 100022bc f   fpcrt_vfp.obj
+ 0001:000012e0       vfp___muld                 100022e0 f   fpcrt_vfp.obj
+ 0001:00001304       vfp___divd                 10002304 f   fpcrt_vfp.obj
+ 0001:00001328       vfp___stod                 10002328 f   fpcrt_vfp.obj
+ 0001:00001348       vfp___dtos                 10002348 f   fpcrt_vfp.obj
+ 0001:00001368       vfp___itos                 10002368 f   fpcrt_vfp.obj
+ 0001:00001388       vfp___utos                 10002388 f   fpcrt_vfp.obj
+ 0001:000013a8       vfp___itod                 100023a8 f   fpcrt_vfp.obj
+ 0001:000013c8       vfp___utod                 100023c8 f   fpcrt_vfp.obj
+ 0001:000013e8       vfp___stoi                 100023e8 f   fpcrt_vfp.obj
+ 0001:00001408       vfp___stou                 10002408 f   fpcrt_vfp.obj
+ 0001:00001428       vfp___dtoi                 10002428 f   fpcrt_vfp.obj
+ 0001:00001448       vfp___dtou                 10002448 f   fpcrt_vfp.obj
+ 0001:00001468       vfp___negs                 10002468 f   fpcrt_vfp.obj
+ 0001:00001470       vfp___negd                 10002470 f   fpcrt_vfp.obj
+ 0001:00001478       vfp___eqs                  10002478 f   fpcrt_vfp.obj
+ 0001:000014a4       vfp___nes                  100024a4 f   fpcrt_vfp.obj
+ 0001:000014d0       vfp___lts                  100024d0 f   fpcrt_vfp.obj
+ 0001:000014fc       vfp___les                  100024fc f   fpcrt_vfp.obj
+ 0001:00001528       vfp___gts                  10002528 f   fpcrt_vfp.obj
+ 0001:00001554       vfp___ges                  10002554 f   fpcrt_vfp.obj
+ 0001:00001580       vfp___eqd                  10002580 f   fpcrt_vfp.obj
+ 0001:000015ac       vfp___ned                  100025ac f   fpcrt_vfp.obj
+ 0001:000015d8       vfp___ltd                  100025d8 f   fpcrt_vfp.obj
+ 0001:00001604       vfp___led                  10002604 f   fpcrt_vfp.obj
+ 0001:00001630       vfp___gtd                  10002630 f   fpcrt_vfp.obj
+ 0001:0000165c       vfp___ged                  1000265c f   fpcrt_vfp.obj
+ 0001:00001688       vfp_sqrtf                  10002688 f   fpcrt_vfp.obj
+ 0001:000016a8       vfp_sqrt                   100026a8 f   fpcrt_vfp.obj
+ 0001:000016c8       vfp_fabsf                  100026c8 f   fpcrt_vfp.obj
+ 0001:000016d0       vfp_fabs                   100026d0 f   fpcrt_vfp.obj
+ 0001:000016dc       __ged                      100026dc     ccrtcpu1:r_ged.obj
+ 0001:00001808       __stoi                     10002808     ccrtcpu1:r_stoi.obj
+ 0001:000018f0       __ltd                      100028f0     ccrtcpu1:r_ltd.obj
+ 0001:00001a10       __stou                     10002a10     ccrtcpu1:r_stou.obj
+ 0001:00001ae0       __ges                      10002ae0     ccrtcpu1:r_ges.obj
+ 0001:00001be0       __lts                      10002be0     ccrtcpu1:r_lts.obj
+ 0001:00001cd4       __subd                     10002cd4     ccrtcpu1:r_addd.obj
+ 0001:00001cf8       __addd                     10002cf8     ccrtcpu1:r_addd.obj
+ 0001:00001f00       __subs                     10002f00     ccrtcpu1:r_adds.obj
+ 0001:00001f18       __adds                     10002f18     ccrtcpu1:r_adds.obj
+ 0001:00002164       __flt_underflow            10003164     ccrtcpu1:r_adds.obj
+ 0001:00002208       __fArithReturn             10003208     ccrtcpu1:r_adds.obj
+ 0001:00002258       __fArithNaNCheck           10003258     ccrtcpu1:r_adds.obj
+ 0001:00002290       __utod                     10003290     ccrtcpu1:r_itod.obj
+ 0001:00002298       __itod                     10003298     ccrtcpu1:r_itod.obj
+ 0001:000022f0       __utos                     100032f0     ccrtcpu1:r_itos.obj
+ 0001:00002308       __itos                     10003308     ccrtcpu1:r_itos.obj
+ 0001:000023b8       __eqd                      100033b8     ccrtcpu1:r_eqd.obj
+ 0001:00002530       __eqs                      10003530     ccrtcpu1:r_eqs.obj
+ 0001:0000266c       __divd                     1000366c     ccrtcpu1:r_divd.obj
+ 0001:00002954       __gtd                      10003954     ccrtcpu1:r_gtd.obj
+ 0001:00002af8       __divs                     10003af8     ccrtcpu1:r_divs.obj
+ 0001:00002ca0       __gts                      10003ca0     ccrtcpu1:r_gts.obj
+ 0001:00002d94       __led                      10003d94     ccrtcpu1:r_led.obj
+ 0001:00002ec0       __muld                     10003ec0     ccrtcpu1:r_muld.obj
+ 0001:00003130       __ned                      10004130     ccrtcpu1:r_ned.obj
+ 0001:000032a8       __les                      100042a8     ccrtcpu1:r_les.obj
+ 0001:000033a8       __muls                     100043a8     ccrtcpu1:r_muls.obj
+ 0001:00003458       fmul_fdiv_overflow         10004458     ccrtcpu1:r_muls.obj
+ 0001:000034e0       __nes                      100044e0     ccrtcpu1:r_nes.obj
+ 0001:0000361c       __dtoi                     1000461c     ccrtcpu1:r_dtoi.obj
+ 0001:00003778       __dtos                     10004778     ccrtcpu1:r_dtos.obj
+ 0001:000038cc       __dtou                     100048cc     ccrtcpu1:r_dtou.obj
+ 0001:000039f4       __stod                     100049f4     ccrtcpu1:r_stod.obj
+ 0001:00003b24       __dtoi64                   10004b24     ccrtcpu1:r_dtoi64.obj
+ 0001:00003ce0       __dtou64                   10004ce0     ccrtcpu1:r_dtou64.obj
+ 0001:00003e68       __u64tod                   10004e68     ccrtcpu1:r_i64tod.obj
+ 0001:00003e94       __i64tod                   10004e94     ccrtcpu1:r_i64tod.obj
+ 0001:00003fb4       __u64tos                   10004fb4     ccrtcpu1:r_i64tos.obj
+ 0001:00003fe0       __i64tos                   10004fe0     ccrtcpu1:r_i64tos.obj
+ 0001:000040dc       __stoi64                   100050dc     ccrtcpu1:r_stoi64.obj
+ 0001:00004224       __stou64                   10005224     ccrtcpu1:r_stou64.obj
+ 0001:0000434c       __fp_addsub_common         1000534c     ccrtcpu1:add.obj
+ 0001:000044cc       __fp_addsub_uncommon       100054cc     ccrtcpu1:add.obj
+ 0001:000045d0       __fp_norm_op1              100055d0     ccrtcpu1:normop1.obj
+ 0001:00004690       __fp_norm_op2              10005690     ccrtcpu1:normop2.obj
+ 0001:00004750       _e2d                       10005750     ccrtcpu1:e2d.obj
+ 0001:0000475c       __fp_e2d                   1000575c     ccrtcpu1:e2d.obj
+ 0001:000047f4       _e2d_ExpUnderflow          100057f4     ccrtcpu1:e2d.obj
+ 0001:00004a1c       __fp_veneer_error          10005a1c     ccrtcpu1:error.obj
+ 0001:00004a1c       __fp_nonveneer_error       10005a1c     ccrtcpu1:error.obj
+ 0001:00004a20       __fp_exception             10005a20     ccrtcpu1:error.obj
+ 0001:00004b64       __fp_div_common            10005b64     ccrtcpu1:div.obj
+ 0001:00004b88       __fp_rdv_common            10005b88     ccrtcpu1:div.obj
+ 0001:0000502c       __fp_div_uncommon          1000602c     ccrtcpu1:div.obj
+ 0001:0000502c       __fp_rdv_uncommon          1000602c     ccrtcpu1:div.obj
+ 0001:0000516c       __flt_normalise2           1000616c     ccrtcpu1:fnorm2.obj
+ 0001:00005200       __fp_mult_common           10006200     ccrtcpu1:mul.obj
+ 0001:00005424       __fp_mult_fast_common      10006424     ccrtcpu1:mul.obj
+ 0001:00005488       __fp_mult_uncommon         10006488     ccrtcpu1:mul.obj
+ 0001:000055a4       __fp_convert_NaNs          100065a4     ccrtcpu1:nans.obj
+ 0001:000055c4       __fp_convert_NaN_2Of2      100065c4     ccrtcpu1:nans.obj
+ 0001:000055dc       __fp_convert_NaN1          100065dc     ccrtcpu1:nans.obj
+ 0001:000055e8       __fp_convert_NaN_1Of2      100065e8     ccrtcpu1:nans.obj
+ 0001:00005678       __fp_norm_denorm_op1       10006678     ccrtcpu1:normal.obj
+ 0001:00005760       __fp_norm_denorm_op2       10006760     ccrtcpu1:normal.obj
+ 0001:0000586c       __fp_normalise_op1         1000686c     ccrtcpu1:normal.obj
+ 0001:000058d0       __fp_normalise_op2         100068d0     ccrtcpu1:normal.obj
+ 0001:00005934       __fp_normalise_op1neg      10006934     ccrtcpu1:normal.obj
+ 0001:000059b0       __fp_fcheck_NaN2           100069b0     ccrtcpu1:check.obj
+ 0001:000059dc       __fp_dcheck_NaN2           100069dc     ccrtcpu1:check.obj
+ 0001:00005a24       __fp_return_NaN            10006a24     ccrtcpu1:check.obj
+ 0001:00005a8c       __fp_return_Inf            10006a8c     ccrtcpu1:check.obj
+ 0001:00005a90       _fpscr2cw                  10006a90 f   ccrtfpw:ieee.obj
+ 0001:00005b28       _cw2fpscr                  10006b28 f   ccrtfpw:ieee.obj
+ 0001:00005bc0       _statusfp                  10006bc0 f   ccrtfpw:ieee.obj
+ 0001:00005bfc       _clearfp                   10006bfc f   ccrtfpw:ieee.obj
+ 0001:00005c40       _control87                 10006c40 f   ccrtfpw:ieee.obj
+ 0001:00005d38       _controlfp                 10006d38 f   ccrtfpw:ieee.obj
+ 0001:00005d3c       _fpreset                   10006d3c f   ccrtfpw:ieee.obj
+ 0001:0000632c       asin                       1000732c f   ccrtfpw:asincos.obj
+ 0001:00006334       acos                       10007334 f   ccrtfpw:asincos.obj
+ 0001:0000633c       fmod                       1000733c f   ccrtfpw:fmod.obj
+ 0001:000067a0       fmodf                      100077a0 f   ccrtfpw:fmod.obj
+ 0001:00006aac       sin                        10007aac f   ccrtfpw:sincos.obj
+ 0001:00006d34       cos                        10007d34 f   ccrtfpw:sincos.obj
+ 0001:00006f84       ldexp                      10007f84 f   ccrtfpw:ldexp.obj
+ 0001:00007270       ceil                       10008270 f   ccrtfpw:ceil.obj
+ 0001:000073a8       ceilf                      100083a8 f   ccrtfpw:ceil.obj
+ 0001:00007754       atan                       10008754 f   ccrtfpw:atan.obj
+ 0001:0000789c       atan2                      1000889c f   ccrtfpw:atan.obj
+ 0001:00007e64       floor                      10008e64 f   ccrtfpw:floor.obj
+ 0001:00007f9c       floorf                     10008f9c f   ccrtfpw:floor.obj
+ 0001:00008450       log10                      10009450 f   ccrtfpw:log.obj
+ 0001:00008458       log                        10009458 f   ccrtfpw:log.obj
+ 0001:00008460       tan                        10009460 f   ccrtfpw:tan.obj
+ 0001:00008904       frexp                      10009904 f   ccrtfpw:frexp.obj
+ 0001:00008a38       _exphlp                    10009a38 f   ccrtfpw:exp.obj
+ 0001:00008be0       exp                        10009be0 f   ccrtfpw:exp.obj
+ 0001:00008ea4       _fsqrt                     10009ea4 f   ccrtfpw:sqrt.obj
+ 0001:00009010       sqrt                       1000a010 f   ccrtfpw:sqrt.obj
+ 0001:00009264       sqrtf                      1000a264 f   ccrtfpw:sqrt.obj
+ 0001:00009278       modf                       1000a278 f   ccrtfpw:modf.obj
+ 0001:00009408       sinh                       1000a408 f   ccrtfpw:sincosh.obj
+ 0001:000098b4       cosh                       1000a8b4 f   ccrtfpw:sincosh.obj
+ 0001:00009b64       tanh                       1000ab64 f   ccrtfpw:tanh.obj
+ 0001:00009f68       pow                        1000af68 f   ccrtfpw:pow.obj
+ 0001:0000b164       _hypot                     1000c164 f   ccrtfpw:hypot.obj
+ 0001:0000b180       _cabs                      1000c180 f   ccrtfpw:hypot.obj
+ 0001:0000b1b4       _copysign                  1000c1b4 f   ccrtfpw:ieeemisc.obj
+ 0001:0000b1c0       _chgsign                   1000c1c0 f   ccrtfpw:ieeemisc.obj
+ 0001:0000b1d8       _scalb                     1000c1d8 f   ccrtfpw:ieeemisc.obj
+ 0001:0000b1dc       _logb                      1000c1dc f   ccrtfpw:ieeemisc.obj
+ 0001:0000b334       _nextafter                 1000c334 f   ccrtfpw:ieeemisc.obj
+ 0001:0000b694       _finite                    1000c694 f   ccrtfpw:ieeemisc.obj
+ 0001:0000b6bc       _isnan                     1000c6bc f   ccrtfpw:ieeemisc.obj
+ 0001:0000b710       _isnanf                    1000c710 f   ccrtfpw:ieeemisc.obj
+ 0001:0000b74c       _isunordered               1000c74c f   ccrtfpw:ieeemisc.obj
+ 0001:0000b7d0       _isunorderedf              1000c7d0 f   ccrtfpw:ieeemisc.obj
+ 0001:0000b82c       _fpclass                   1000c82c f   ccrtfpw:ieeemisc.obj
+ 0001:0000b8f4       _controlfp_s               1000c8f4 f   ccrtfpw:contrlfp.obj
+ 0001:0000b984       _fpieee_flt                1000c984 f   ccrtfpw:filter.obj
+ 0001:0000ba08       _frnd                      1000ca08 f   ccrtfpw:frnd.obj
+ 0001:0000bd34       _j0                        1000cd34 f   ccrtfpw:bessel.obj
+ 0001:0000be88       _j1                        1000ce88 f   ccrtfpw:bessel.obj
+ 0001:0000c004       _jn                        1000d004 f   ccrtfpw:bessel.obj
+ 0001:0000c220       _y0                        1000d220 f   ccrtfpw:bessel.obj
+ 0001:0000c3ec       _y1                        1000d3ec f   ccrtfpw:bessel.obj
+ 0001:0000c5d0       _yn                        1000d5d0 f   ccrtfpw:bessel.obj
+ 0001:0000c6f8       FPE_Raise                  1000d6f8 f   ccrtfpw:fpraise.obj
+ 0001:0000cd3c       _set_exp                   1000dd3c f   ccrtfpw:util.obj
+ 0001:0000cd7c       _get_exp                   1000dd7c f   ccrtfpw:util.obj
+ 0001:0000cda4       _add_exp                   1000dda4 f   ccrtfpw:util.obj
+ 0001:0000cdf4       _sptype                    1000ddf4 f   ccrtfpw:util.obj
+ 0001:0000ce7c       _decomp                    1000de7c f   ccrtfpw:util.obj
+ 0001:0000cfb8       _handle_qnan1              1000dfb8 f   ccrtfpw:fpexcept.obj
+ 0001:0000cfdc       _handle_qnan2              1000dfdc f   ccrtfpw:fpexcept.obj
+ 0001:0000d014       _raise_exc                 1000e014 f   ccrtfpw:fpexcept.obj
+ 0001:0000d3f0       _handle_exc                1000e3f0 f   ccrtfpw:fpexcept.obj
+ 0001:0000d674       _except1                   1000e674 f   ccrtfpw:fpexcept.obj
+ 0001:0000d714       _except2                   1000e714 f   ccrtfpw:fpexcept.obj
+ 0001:0000d7c8       _statfp                    1000e7c8 f   ccrtfpw:fpctrl.obj
+ 0001:0000d7cc       _clrfp                     1000e7cc f   ccrtfpw:fpctrl.obj
+ 0001:0000d7e8       _ctrlfp                    1000e7e8 f   ccrtfpw:fpctrl.obj
+ 0001:0000d818       _set_statfp                1000e818 f   ccrtfpw:fpctrl.obj
+ 0001:0000d830       fabs                       1000e830 f   ccrtfpw:fabs.obj
+ 0001:0000d934       _d_inttype                 1000e934 f   ccrtfpw:powhlp.obj
+ 0001:0000d9b4       _powhlp                    1000e9b4 f   ccrtfpw:powhlp.obj
+ 0001:0000db4c       pow_vfp                    1000eb4c f   ccrttran_vfp:pow.obj
+ 0001:0000e784       log10_vfp                  1000f784 f   ccrttran_vfp:log.obj
+ 0001:0000e78c       log_vfp                    1000f78c f   ccrttran_vfp:log.obj
+ 0001:0000e794       modf_vfp                   1000f794 f   ccrttran_vfp:modf.obj
+ 0001:0000e914       fmod_vfp                   1000f914 f   ccrttran_vfp:fmod.obj
+ 0001:0000ecc0       fmodf_vfp                  1000fcc0 f   ccrttran_vfp:fmod.obj
+ 0001:0000ecf0       sinh_vfp                   1000fcf0 f   ccrttran_vfp:sincosh.obj
+ 0001:0000f08c       cosh_vfp                   1001008c f   ccrttran_vfp:sincosh.obj
+ 0001:0000f2ec       ceil_vfp                   100102ec f   ccrttran_vfp:ceil.obj
+ 0001:0000f41c       ceilf_vfp                  1001041c f   ccrttran_vfp:ceil.obj
+ 0001:0000f854       asin_vfp                   10010854 f   ccrttran_vfp:asincos.obj
+ 0001:0000f85c       acos_vfp                   1001085c f   ccrttran_vfp:asincos.obj
+ 0001:0000f864       _exphlp_vfp                10010864 f   ccrttran_vfp:exp.obj
+ 0001:0000f92c       exp_vfp                    1001092c f   ccrttran_vfp:exp.obj
+ 0001:0000fd5c       atan_vfp                   10010d5c f   ccrttran_vfp:atan.obj
+ 0001:0000fea0       atan2_vfp                  10010ea0 f   ccrttran_vfp:atan.obj
+ 0001:00010470       sin_vfp                    10011470 f   ccrttran_vfp:sincos.obj
+ 0001:000106c8       cos_vfp                    100116c8 f   ccrttran_vfp:sincos.obj
+ 0001:000108e4       ldexp_vfp                  100118e4 f   ccrttran_vfp:ldexp.obj
+ 0001:00010be0       floor_vfp                  10011be0 f   ccrttran_vfp:floor.obj
+ 0001:00010d10       floorf_vfp                 10011d10 f   ccrttran_vfp:floor.obj
+ 0001:00010d34       tan_vfp                    10011d34 f   ccrttran_vfp:tan.obj
+ 0001:00011048       frexp_vfp                  10012048 f   ccrttran_vfp:frexp.obj
+ 0001:0001117c       tanh_vfp                   1001217c f   ccrttran_vfp:tanh.obj
+ 0001:0001144c       IsProcessorFeaturePresent  1001244c f   coredll:COREDLL.dll
+ 0001:0001145c       DisableThreadLibraryCalls  1001245c f   coredll:COREDLL.dll
+ 0001:0001146c       TlsGetValue                1001246c f   coredll:COREDLL.dll
+ 0001:0001147c       RaiseException             1001247c f   coredll:COREDLL.dll
+ 0001:0001148c       __security_init_cookie     1001248c f   corelib0:seccinit.obj
+ 0001:000114d8       __GSHandlerCheckCommon     100124d8 f   corelib0:gshandler.obj
+ 0001:00011514       __GSHandlerCheck           10012514 f   corelib0:gshandler.obj
+ 0001:00011534       __security_check_cookie    10012534 f   corelib0:armsecgs.obj
+ 0001:00011544       __gsfailure                10012544     corelib0:armsecgs.obj
+ 0001:00011588       __negd                     10012588 f   corelib1:COREDLL.dll
+ 0001:00011598       _invalid_parameter         10012598 f   corelib1:COREDLL.dll
+ 0001:000115a8       memset                     100125a8 f   corelib1:COREDLL.dll
+ 0001:000115b8       __security_gen_cookie2     100125b8 f   corelib1:COREDLL.dll
+ 0001:000115c8       __report_gsfailure         100125c8 f   corelib1:COREDLL.dll
+ 0001:000115e4       __IMPORT_DESCRIPTOR_COREDLL 100125e4     coredll:COREDLL.dll
+ 0001:000115f8       __NULL_IMPORT_DESCRIPTOR   100125f8     coredll:COREDLL.dll
+ 0002:00000000       __imp_IsProcessorFeaturePresent 10013000     coredll:COREDLL.dll
+ 0002:00000004       __imp_DisableThreadLibraryCalls 10013004     coredll:COREDLL.dll
+ 0002:00000008       __imp_TlsGetValue          10013008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_RaiseException       1001300c     coredll:COREDLL.dll
+ 0002:00000010       __imp___negd               10013010     corelib1:COREDLL.dll
+ 0002:00000014       __imp__invalid_parameter   10013014     corelib1:COREDLL.dll
+ 0002:00000018       __imp_memset               10013018     corelib1:COREDLL.dll
+ 0002:0000001c       __imp___security_gen_cookie2 1001301c     corelib1:COREDLL.dll
+ 0002:00000020       __imp___report_gsfailure   10013020     corelib1:COREDLL.dll
+ 0002:00000024       \177COREDLL_NULL_THUNK_DATA 10013024     coredll:COREDLL.dll
+ 0002:00000028       __fp_status_flags          10013028     ccrtcpu1:fpdata.obj
+ 0002:0000002c       __fp_errblock              1001302c     ccrtcpu1:fpdata.obj
+ 0002:00000070       __rt_trap                  10013070     ccrtcpu1:fpdata.obj
+ 0002:00000074       __security_cookie          10013074     corelib0:seccinit.obj
+ 0002:00000078       __security_cookie_complement 10013078     corelib0:seccinit.obj
+ 0002:00000080       g_haveVfpSupport           10013080     fpcrt.obj
+ 0002:00000084       g_haveVfpHardware          10013084     fpcrt.obj
+
+ entry point at        0001:00000f5c
+
+ Static symbols
+
+ 0001:00005d44       _asincos                   10006d44 f   ccrtfpw:asincos.obj
+ 0001:000067d4       _sincos                    100077d4 f   ccrtfpw:sincos.obj
+ 0001:000073bc       _atanhlp                   100083bc f   ccrtfpw:atan.obj
+ 0001:00007fb0       _log_hlp                   10008fb0 f   ccrtfpw:log.obj
+ 0001:0000ae50       _hypothlp                  1000be50 f   ccrtfpw:hypot.obj
+ 0001:0000bc74       evaluate                   1000cc74 f   ccrtfpw:bessel.obj
+ 0001:0000c1c4       domain_err                 1000d1c4 f   ccrtfpw:bessel.obj
+ 0001:0000e4a8       _log_hlp                   1000f4a8 f   ccrttran_vfp:log.obj
+ 0001:0000f440       _asincos                   10010440 f   ccrttran_vfp:asincos.obj
+ 0001:0000fbc0       _atanhlp                   10010bc0 f   ccrttran_vfp:atan.obj
+ 0001:00010318       _sincos                    10011318 f   ccrttran_vfp:sincos.obj

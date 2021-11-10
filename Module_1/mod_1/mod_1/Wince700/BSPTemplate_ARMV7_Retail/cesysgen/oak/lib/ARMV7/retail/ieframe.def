@@ -1,0 +1,221 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LIBRARY IEFRAME
+
+
+EXPORTS
+
+    DllCanUnloadNow                 PRIVATE
+    DllGetClassObject               PRIVATE
+
+
+
+
+
+
+
+    URLQualifyA
+    URLQualifyW
+
+
+
+
+
+
+
+
+
+    ;; FEATURE: used only for OC Host apps, probably should remove later
+    DoFileDownload
+
+    ; Helper function to be called by MSHTML.DLL
+    HlinkFrameNavigate
+    HlinkFrameNavigateNHL
+    HlinkFindFrame
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    IsFileUrl                           @135 NONAME PRIVATE
+    PathIsFilePath                      @137 NONAME PRIVATE
+
+
+
+
+
+
+
+    _GetStdLocation                     @150 NONAME PRIVATE
+
+    URLSubRegQueryA                     @151 NONAME PRIVATE
+    CShellUIHelper_CreateInstance2      @152 NONAME PRIVATE
+
+    IsURLChild                          @153 NONAME PRIVATE
+
+    ;; Export restrictions for webcheck, cdfview, browseui
+    SHRestricted2A                      @158 NONAME PRIVATE
+    SHRestricted2W                      @159 NONAME PRIVATE
+    SHIsRestricted2W                    @160 NONAME PRIVATE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ;; called from browseui
+    ;; temporary till after the split
+; If the only caller is browseui, we do not need to export in ieframe
+    URLSubstitutionExp = URLSubstitution @165 NONAME PRIVATE
+    ;unused                             @166 NONAME PRIVATE
+
+
+
+    ;unused                             @168 NONAME PRIVATE
+
+    ParseURLFromOutsideSourceW          @170 NONAME PRIVATE
+    IURLQualify                         @172 NONAME PRIVATE
+
+    SHIsGlobalOffline                   @174 NONAME PRIVATE
+
+    DisplayUrlParseError                @199 NONAME PRIVATE
+
+    ; helper function called from InetCPL
+    ClearAutoSuggestForForms            @211 NONAME PRIVATE
+
+    IEParseDisplayNameWithBCW           @218 NONAME PRIVATE
+
+    IECreateFromPathCPWithBCW           @222 NONAME PRIVATE
+
+    ; these two functions used by shdocvw on XP
+
+
+
+
+
+    RecordExtensionCreation             @231 NONAME PRIVATE
+    GetExtensionRecords                 @232 NONAME PRIVATE
+
+    GetExtensionRecordBlockReason       @233 NONAME PRIVATE
+    ClearExtensionRecordsBlockReason    @234 NONAME PRIVATE
+    
+    ;Helper function for InetCpl
+
+
+
+    IEEditPFOptInDlg                    @236 NONAME PRIVATE
+
+
+
+    URLSubRegQueryW                     @238 NONAME PRIVATE
+    PFVerifySiteDialog                  @240 NONAME PRIVATE
+
+    ;Function for ieframeui supporting
+    CreateDialogUI                      @241 
+    ShowDialogUI                        @242
+ 
+

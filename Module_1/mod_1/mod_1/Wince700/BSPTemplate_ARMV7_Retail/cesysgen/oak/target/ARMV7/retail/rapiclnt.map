@@ -1,0 +1,848 @@
+ rapiclnt
+
+ Timestamp is 618b15da (Tue Nov 09 17:44:10 2021)
+
+ Preferred load address is 00010000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 00000ee8H .rdata                  CODE
+ 0001:00000f08 00000025H .rdata$debug            CODE
+ 0001:00000f30 0000ef70H .text                   CODE
+ 0001:0000fea0 000000b4H .xdata                  CODE
+ 0001:0000ff54 00000000H ATL$__a                 CODE
+ 0001:0000ff54 00000000H ATL$__z                 CODE
+ 0001:0000ff54 0000008cH .idata$2                CODE
+ 0001:0000ffe0 00000014H .idata$3                CODE
+ 0001:0000fff4 00000344H .idata$4                CODE
+ 0001:00010338 00000178H .idata$6                CODE
+ 0001:000104b0 00000000H .edata                  CODE
+ 0002:00000000 00000344H .idata$5                DATA
+ 0002:00000348 00000428H .data                   DATA
+ 0002:00000770 00000088H .bss                    DATA
+ 0003:00000000 00000818H .pdata                  DATA
+ 0004:00000000 000000d0H .rsrc$01                DATA
+ 0004:000000d0 00000438H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     00011000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     00011004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     00011008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     0001100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     00011010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     00011014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     00011018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     0001101c     corelib0:crt0init.obj
+ 0001:0000003c       ??_C@_1O@JDLOHAN@?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AA?$AA@ 0001103c     rapiclnt_CEBase:rapiclnt.obj
+ 0001:0000004c       ??_C@_1BC@GCKHIPE@?$AAN?$AAo?$AAR?$AAe?$AAm?$AAo?$AAv?$AAe?$AA?$AA@ 0001104c     rapiclnt_CEBase:rapiclnt.obj
+ 0001:00000060       ??_C@_1BI@JFAIJMHL@?$AAF?$AAo?$AAr?$AAc?$AAe?$AAR?$AAe?$AAm?$AAo?$AAv?$AAe?$AA?$AA@ 00011060     rapiclnt_CEBase:rapiclnt.obj
+ 0001:00000078       ??_C@_17LLMMEOJD@?$AAV?$AAa?$AAl?$AA?$AA@ 00011078     rapiclnt_CEBase:rapiclnt.obj
+ 0001:00000080       ??_C@_13OPKGLAFF@?$AAB?$AA?$AA@ 00011080     rapiclnt_CEBase:rapiclnt.obj
+ 0001:00000084       ??_C@_13MKMNOPIJ@?$AAD?$AA?$AA@ 00011084     rapiclnt_CEBase:rapiclnt.obj
+ 0001:00000088       ??_C@_13LHMFKAAD@?$AAM?$AA?$AA@ 00011088     rapiclnt_CEBase:rapiclnt.obj
+ 0001:0000008c       ??_C@_13HADIAKP@?$AAS?$AA?$AA@ 0001108c     rapiclnt_CEBase:rapiclnt.obj
+ 0001:00000128       ?c_szIdent@@3QBGB          00011128     rapiclnt_CEBase:rapiclnt.obj
+ 0001:00000140       ?c_szPegId@@3QBGB          00011140     rapiclnt_CEBase:rapiclnt.obj
+ 0001:0000020c       ?gc_dwDeviceAuthRequired@@3KB 0001120c     rapiclnt_CEBase:rapiclnt.obj
+ 0001:00000210       ??_C@_1BK@EOAMLGPI@?$AAP?$AAl?$AAa?$AAt?$AAf?$AAo?$AAr?$AAm?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 00011210     rapiclnt_CEBase:rapiclnt.obj
+ 0001:0000022c       ??_C@_1BK@DKEJDDCF@?$AAM?$AAi?$AAn?$AAo?$AAr?$AAV?$AAe?$AAr?$AAs?$AAi?$AAo?$AAn?$AA?$AA@ 0001122c     rapiclnt_CEBase:rapiclnt.obj
+ 0001:00000248       ??_C@_1BK@LEOFJMJL@?$AAM?$AAa?$AAj?$AAo?$AAr?$AAV?$AAe?$AAr?$AAs?$AAi?$AAo?$AAn?$AA?$AA@ 00011248     rapiclnt_CEBase:rapiclnt.obj
+ 0001:00000264       ??_C@_1BG@HEOKBGAE@?$AAA?$AAc?$AAt?$AAi?$AAv?$AAe?$AAS?$AAy?$AAn?$AAc?$AA?$AA@ 00011264     rapiclnt_CEBase:rapiclnt.obj
+ 0001:0000027c       ??_C@_1BA@JMJFMCEO@?$AAO?$AAb?$AAj?$AAe?$AAc?$AAt?$AAs?$AA?$AA@ 0001127c     rapiclnt_CEBase:rapiclnt.obj
+ 0001:00000290       ??_C@_1EI@BBHBIHIH@?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AA?5?$AAC?$AAE?$AA?5?$AAS?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe?$AAs?$AA?2?$AAS?$AAy?$AAn?$AAc?$AAh?$AAr?$AAo?$AAn?$AAi?$AAz?$AAa?$AAt@ 00011290     rapiclnt_CEBase:rapiclnt.obj
+ 0001:000002d8       ??_C@_0L@OGFADGOM@ASync3dF?$FL?$FO?$AA@ 000112d8     rapiclnt_CEBase:rapiclnt.obj
+ 0001:000002e4       ??_C@_1CC@DMPAJII@?$AA?$CD?$AA$?$AAR?$AAA?$AAP?$AAI?$AAP?$AAA?$AAS?$AAS?$AAW?$AAO?$AAR?$AAD?$AA$?$AA?$CF?$AA?$AA@ 000112e4     rapiclnt_CEBase:rapiclnt.obj
+ 0001:00000308       ??_C@_11LOCGONAA@?$AA?$AA@ 00011308     rapiclnt_CEBase:rapiclnt.obj
+ 0001:0000030c       ??_C@_1BM@CIAIEGPD@?$AAA?$AAc?$AAt?$AAi?$AAv?$AAe?$AAS?$AAy?$AAn?$AAc?$AAP?$AA?$CF?$AAd?$AA?$AA@ 0001130c     rapiclnt_CEBase:rapiclnt.obj
+ 0001:00000328       ??_C@_19FFIBPLOD@?$AAA?$AAS?$AA?$CF?$AAd?$AA?$AA@ 00011328     rapiclnt_CEBase:rapiclnt.obj
+ 0001:00000334       ??_C@_15DEDJCAKD@?$AA?9?$AAr?$AA?$AA@ 00011334     rapiclnt_CEBase:rapiclnt.obj
+ 0001:0000033c       ??_C@_15EBELCIOA@?$AA?9?$AAd?$AA?$AA@ 0001133c     rapiclnt_CEBase:rapiclnt.obj
+ 0001:00000344       ??_C@_15CGIMIPEN@?$AA?9?$AAq?$AA?$AA@ 00011344     rapiclnt_CEBase:rapiclnt.obj
+ 0001:0000034c       ??_C@_1BG@DPBJBDCK@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AAH?$AAi?$AAv?$AAe?$AA?$AA@ 0001134c     rapiclnt_CEBase:rapiclnt.obj
+ 0001:00000364       ??_C@_1BM@GHGDHLGP@?$AAI?$AAn?$AAi?$AAt?$AA?2?$AAB?$AAo?$AAo?$AAt?$AAV?$AAa?$AAr?$AAs?$AA?$AA@ 00011364     rapiclnt_CEBase:rapiclnt.obj
+ 0001:000003a0       ?c_szHKEY_CLASSES_ROOT@@3QBGB 000113a0     rapiclnt_CEBase:reslist.obj
+ 0001:000003ac       ?c_cchHKEY_CLASSES_ROOT@@3KB 000113ac     rapiclnt_CEBase:reslist.obj
+ 0001:000003b0       ?c_szHKEY_CURRENT_CONFIG@@3QBGB 000113b0     rapiclnt_CEBase:reslist.obj
+ 0001:000003bc       ?c_cchHKEY_CURRENT_CONFIG@@3KB 000113bc     rapiclnt_CEBase:reslist.obj
+ 0001:000003c0       ?c_szHKEY_CURRENT_USER@@3QBGB 000113c0     rapiclnt_CEBase:reslist.obj
+ 0001:000003cc       ?c_cchHKEY_CURRENT_USER@@3KB 000113cc     rapiclnt_CEBase:reslist.obj
+ 0001:000003d0       ?c_szHKEY_LOCAL_MACHINE@@3QBGB 000113d0     rapiclnt_CEBase:reslist.obj
+ 0001:000003dc       ?c_cchHKEY_LOCAL_MACHINE@@3KB 000113dc     rapiclnt_CEBase:reslist.obj
+ 0001:000003e0       ?c_szHKEY_USERS@@3QBGB     000113e0     rapiclnt_CEBase:reslist.obj
+ 0001:000003ec       ?c_cchHKEY_USERS@@3KB      000113ec     rapiclnt_CEBase:reslist.obj
+ 0001:000003f0       ?c_szRegistry@@3QBGB       000113f0     rapiclnt_CEBase:reslist.obj
+ 0001:00000404       ?c_cchRegistry@@3KB        00011404     rapiclnt_CEBase:reslist.obj
+ 0001:00000408       ??_C@_13FPGAJAPJ@?$AA?2?$AA?$AA@ 00011408     rapiclnt_CEBase:reslist.obj
+ 0001:0000040c       ??_C@_1BG@FOCPGIML@?$AAC?$AAE?$AAa?$AAy?$AAg?$AAs?$AAh?$AAe?$AAl?$AAl?$AA?$AA@ 0001140c     rapiclnt_CEBase:thunks_CEBase.obj
+ 0001:00000424       ??_C@_1BA@NGMBFBPL@?$AAC?$AAE?$AAs?$AAh?$AAe?$AAl?$AAl?$AA?$AA@ 00011424     rapiclnt_CEBase:thunks_CEBase.obj
+ 0001:00000434       ??_C@_1CI@BEPGCCBB@?$AAS?$AAH?$AAR?$AAe?$AAm?$AAo?$AAv?$AAe?$AAF?$AAo?$AAn?$AAt?$AAR?$AAe?$AAs?$AAo?$AAu?$AAr?$AAe?$AA?$AA@ 00011434     rapiclnt_CEBase:thunks_CEBase.obj
+ 0001:0000045c       ??_C@_1BI@KOLJHPBB@?$AAC?$AAE?$AAs?$AAh?$AAe?$AAl?$AAl?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 0001145c     rapiclnt_CEBase:thunks_CEBase.obj
+ 0001:00000474       ??_C@_1BM@IPMMHKAH@?$AAS?$AAy?$AAs?$AAF?$AAr?$AAe?$AAe?$AAS?$AAt?$AAr?$AAi?$AAn?$AAg?$AA?$AA@ 00011474     rapiclnt_CEBase:thunks_CEBase.obj
+ 0001:00000490       ??_C@_1BK@GFGCEKOG@?$AAO?$AAl?$AAe?$AAa?$AAu?$AAt?$AA3?$AA2?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 00011490     rapiclnt_CEBase:thunks_CEBase.obj
+ 0001:000004ac       ??_C@_1CC@LBGBAMCN@?$AAC?$AAo?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AAI?$AAn?$AAs?$AAt?$AAa?$AAn?$AAc?$AAe?$AA?$AA@ 000114ac     rapiclnt_CEBase:thunks_CEBase.obj
+ 0001:000004d0       ??_C@_1BE@HLNJEOJM@?$AAO?$AAl?$AAe?$AA3?$AA2?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 000114d0     rapiclnt_CEBase:thunks_CEBase.obj
+ 0001:000004e4       ??_C@_1BO@KEAMHHIL@?$AAS?$AAy?$AAs?$AAA?$AAl?$AAl?$AAo?$AAc?$AAS?$AAt?$AAr?$AAi?$AAn?$AAg?$AA?$AA@ 000114e4     rapiclnt_CEBase:thunks_CEBase.obj
+ 0001:00000504       ??_C@_1BO@EDPAAENI@?$AAC?$AAo?$AAI?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz?$AAe?$AAE?$AAx?$AA?$AA@ 00011504     rapiclnt_CEBase:thunks_CEBase.obj
+ 0001:00000524       ??_C@_1BO@BFFNMKBI@?$AAC?$AAo?$AAU?$AAn?$AAi?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz?$AAe?$AA?$AA@ 00011524     rapiclnt_CEBase:thunks_CEBase.obj
+ 0001:00000544       ??_C@_1CM@KBKEKCBP@?$AAC?$AAo?$AAF?$AAr?$AAe?$AAe?$AAU?$AAn?$AAu?$AAs?$AAe?$AAd?$AAL?$AAi?$AAb?$AAr?$AAa?$AAr?$AAi?$AAe?$AAs?$AA?$AA@ 00011544     rapiclnt_CEBase:thunks_CEBase.obj
+ 0001:00000704       ??_C@_13BBDEGPLJ@?$AA?$CK?$AA?$AA@ 00011704     rapiclnt_CEBase:rapistubs_CEBase.obj
+ 0001:0000072c       ??_C@_1CO@DOEJNFOA@?$AAG?$AAe?$AAt?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AAP?$AAo?$AAw?$AAe?$AAr?$AAS?$AAt?$AAa?$AAt?$AAu?$AAs?$AAE?$AAx?$AA?$AA@ 0001172c     rapiclnt_CEBase:rapistubs_CEBase.obj
+ 0001:0000075c       ??_C@_1BI@CJKPFBEK@?$AAc?$AAo?$AAr?$AAe?$AAd?$AAl?$AAl?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 0001175c     rapiclnt_CEBase:rapistubs_CEBase.obj
+ 0001:00000854       _GUID_2b1c7bef_f8fb_4484_bb21_6c83a9142d8b 00011854     rapiclnt_CEBase:reslist_CEBase.obj
+ 0001:00000864       _GUID_aca48b48_6aba_4667_954c_f794e33bc1c2 00011864     rapiclnt_CEBase:reslist_CEBase.obj
+ 0001:00000874       ??_C@_15PKPONJIK@?$AA?2?$AA?$CK?$AA?$AA@ 00011874     rapiclnt_CEBase:reslist_CEBase.obj
+ 0001:0000087c       ??_C@_15DDHGOCBH@?$AA?4?$AA?4?$AA?$AA@ 0001187c     rapiclnt_CEBase:reslist_CEBase.obj
+ 0001:00000884       ??_C@_13JOFGPIOO@?$AA?4?$AA?$AA@ 00011884     rapiclnt_CEBase:reslist_CEBase.obj
+ 0001:00000a30       ??_C@_19EPBGJBHP@?$AA?4?$AAD?$AAR?$AAV?$AA?$AA@ 00011a30     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000a3c       ??_C@_19DHLPIOJG@?$AA?4?$AAC?$AAP?$AAL?$AA?$AA@ 00011a3c     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000a48       ??_C@_19EJGOEFGP@?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 00011a48     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000a54       ??_C@_1CA@PCMKFDID@?$AA?2?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AA?2?$AAF?$AAo?$AAn?$AAt?$AAs?$AA?2?$AA?$AA@ 00011a54     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000a74       ??_C@_19INMGFEDH@?$AA?4?$AAf?$AAn?$AAt?$AA?$AA@ 00011a74     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000a80       ??_C@_19HJDODAGJ@?$AA?4?$AAf?$AAo?$AAn?$AA?$AA@ 00011a80     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000a8c       ??_C@_19OLAFNMII@?$AA?4?$AAt?$AAt?$AAf?$AA?$AA@ 00011a8c     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000a98       ??_C@_19NMNLCMLK@?$AA?4?$AAt?$AAt?$AAc?$AA?$AA@ 00011a98     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000aa4       ??_C@_19PJLAHDGG@?$AA?4?$AAt?$AAt?$AAe?$AA?$AA@ 00011aa4     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000ab0       ??_C@_05KJKMLJBM@?$CFx?5?$CFx?$AA@ 00011ab0     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000ab8       ??_C@_0BJ@OEBDMGPG@CeCreateFile?3?5Params?5Out?$AA@ 00011ab8     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000ad4       ??_C@_0N@PGDNPFAJ@CreateFile?3?5?$AA@ 00011ad4     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000ae4       ??_C@_08KKENJPDI@succeded?$AA@ 00011ae4     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000af0       ??_C@_02DKCKIIND@?$CFs?$AA@ 00011af0     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000af4       ??_C@_0BA@KOMHPOHE@CanCreateFile?3?5?$AA@ 00011af4     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000b04       ??_C@_0P@GPKLFGCF@?$CFS?5?$CFx?5?$CFx?5?$CFx?5?$CFx?$AA@ 00011b04     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000b14       ??_C@_0BI@OHNKPPIB@CeCreateFile?3?5Params?5In?$AA@ 00011b14     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000b2c       ??_C@_1CE@GNPOELHN@?$AAS?$AAt?$AAu?$AAb?$AA_?$AAC?$AAe?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AAF?$AAi?$AAl?$AAe?$AA?$AA@ 00011b2c     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000b50       ??_C@_02KPKOKMHB@?$CFS?$AA@ 00011b50     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000b54       ??_C@_0BC@ONAFDOMJ@Function?5entered?3?$AA@ 00011b54     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000b68       ??_C@_1O@GMCJGMIO@?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AA?$AA@ 00011b68     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000b78       ??_C@_1BC@LNBHFCHI@?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AAE?$AAx?$AA?$AA@ 00011b78     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000b8c       ??_C@_19FMFEEEON@?$AAO?$AAp?$AAe?$AAn?$AA?$AA@ 00011b8c     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000b98       ??_C@_1O@BOJCCKNK@?$AAO?$AAp?$AAe?$AAn?$AAE?$AAx?$AA?$AA@ 00011b98     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000ba8       ??_C@_17GNOJEBBH@?$AA?$CF?$AA8?$AAx?$AA?$AA@ 00011ba8     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000bb0       ??_C@_1BC@OKLHFKMI@?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AAE?$AAx?$AA?$AA@ 00011bb0     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000bc4       ??_C@_1BA@MHMBAGAC@?$AAS?$AAe?$AAt?$AAI?$AAn?$AAf?$AAo?$AA?$AA@ 00011bc4     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000bd4       ??_C@_1BE@IIHLBGIJ@?$AAS?$AAe?$AAt?$AAI?$AAn?$AAf?$AAo?$AAE?$AAx?$AA?$AA@ 00011bd4     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000be8       ??_C@_1BA@LLGMNHOD@?$AAR?$AAe?$AAs?$AAt?$AAo?$AAr?$AAe?$AA?$AA@ 00011be8     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000bf8       ??_C@_1O@LKOFKKHD@?$AAB?$AAa?$AAc?$AAk?$AAu?$AAp?$AA?$AA@ 00011bf8     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000c08       ??_C@_1BG@MPNFDKJE@?$AAR?$AAa?$AAp?$AAi?$AAI?$AAn?$AAv?$AAo?$AAk?$AAe?$AA?$AA@ 00011c08     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000c20       ??_C@_1M@NDGNLFMH@?$AA?$CF?$AAd?$AA?4?$AA?$CF?$AAd?$AA?$AA@ 00011c20     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000c2c       _GUID_198bb6cb_d6a7_4001_96be_8cc143d4df7c 00011c2c     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000c3c       _GUID_64fe8d29_91b5_42c4_a7ca_bc2de782205a 00011c3c     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000c4c       ??_C@_0BI@JNPLFNNC@SetFileTime?3?5Params?5Out?$AA@ 00011c4c     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000c64       ??_C@_0N@DAMMCGLN@CanUseHandle?$AA@ 00011c64     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000c74       ??_C@_0BL@ILJEBMLC@SetFileTime?3?5LastWriteTime?$AA@ 00011c74     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000c90       ??_C@_0BM@FABJKAIJ@SetFileTime?3?5LastAccessTime?$AA@ 00011c90     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000cac       ??_C@_0BK@MGKOHHNC@SetFileTime?3?5CreationTime?$AA@ 00011cac     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000cc8       ??_C@_0M@JAPLLGAL@?$CFx?5?$CFx?5?$CFx?5?$CFx?$AA@ 00011cc8     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000cd4       ??_C@_0BH@NDPJHPII@SetFileTime?3?5Params?5In?$AA@ 00011cd4     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000cec       ??_C@_1CG@OKMBNDGJ@?$AAS?$AAt?$AAu?$AAb?$AA_?$AAC?$AAe?$AAS?$AAe?$AAt?$AAF?$AAi?$AAl?$AAe?$AAT?$AAi?$AAm?$AAe?$AA?$AA@ 00011cec     rapiclnt_CEBase:rapistubs.obj
+ 0001:00000d18       ??_7CRAPIStream@@6B@       00011d18     rapiclnt_CEBase:rapistream.obj
+ 0001:00000d78       ??_C@_1DC@GGNOECKF@?$AA?$EA?$AA?$CD?$AA?$EA?$AA?$CD?$AA?$EA?$AAT?$AAr?$AAa?$AAc?$AAe?$AAR?$AAa?$AAp?$AAi?$AAM?$AAu?$AAt?$AAe?$AAx?$AA?$EA?$AA?$CD?$AA?$EA?$AA?$CD?$AA?$EA?$AA?$AA@ 00011d78     rapiclnt_CEBase:utils.obj
+ 0001:00000dac       ??_C@_0CC@LEEGMKMN@?$CF04d?9?$CF02d?9?$CF02d?5?$CF02d?3?$CF02d?3?$CF02d?7?$CFs@ 00011dac     rapiclnt_CEBase:utils.obj
+ 0001:00000dd0       IID_IUnknown               00011dd0     uuid:dcomuuid.obj
+ 0001:00000de0       IID_IConfigManager         00011de0     cfguuid:cfgmgr_i.obj
+ 0001:00000df0       IID_IConfigUninstallHost   00011df0     cfguuid:cfgmgr_i.obj
+ 0001:00000e00       CLSID_CConfigManager       00011e00     cfguuid:cfgmgr_i.obj
+ 0001:00000e10       CLSID_CConfigUninstallHost 00011e10     cfguuid:cfgmgr_i.obj
+ 0001:00000ef4       ??_C@_03GIJBMBD@?$CFd?$AA?$AA@ 00011ef4     asutil:ipv6util.obj
+ 0001:00000ef8       IID_IRAPIStream            00011ef8     ASUUID:IRAPIStream_i.obj
+ 0001:00000fb8       WinMainCRTStartup          00011fb8 f   corelib0:pegwmain.obj
+ 0001:000010d0       exit                       000120d0 f   corelib0:cexit.obj
+ 0001:000010dc       _exit                      000120dc f   corelib0:cexit.obj
+ 0001:00001114       _initterm                  00012114 f   corelib0:crt0dat.obj
+ 0001:00001140       _cinit                     00012140 f   corelib0:crt0dat.obj
+ 0001:000011a0       __security_init_cookie     000121a0 f   corelib0:seccinit.obj
+ 0001:000011ec       __crt_ExitProcess          000121ec f   corelib0:exitproc_proxy.obj
+ 0001:000011f8       _XcptFilter                000121f8 f   corelib1:COREDLL.dll
+ 0001:00001208       __C_specific_handler       00012208 f   corelib1:COREDLL.dll
+ 0001:00001218       free                       00012218 f   corelib1:COREDLL.dll
+ 0001:00001228       __security_gen_cookie2     00012228 f   corelib1:COREDLL.dll
+ 0001:00001238       DeleteCriticalSection      00012238 f   coredll:COREDLL.dll
+ 0001:00001248       InterlockedExchange        00012248 f   coredll:COREDLL.dll
+ 0001:00001258       TerminateProcess           00012258 f   coredll:COREDLL.dll
+ 0001:00001268       EnterCriticalSection       00012268 f   coredll:COREDLL.dll
+ 0001:00001278       InitializeCriticalSection  00012278 f   coredll:COREDLL.dll
+ 0001:00001288       LeaveCriticalSection       00012288 f   coredll:COREDLL.dll
+ 0001:0000138c       ?GetPartnerId@@YAKK@Z      0001238c f   rapiclnt_CEBase:rapiclnt.obj
+ 0001:00001438       ?ConnectToDesktop@@YAIPBG@Z 00012438 f   rapiclnt_CEBase:rapiclnt.obj
+ 0001:000014ac       ?NotifySyncAppDesktopIP@@YAXPAUsockaddr_storage_xp@@@Z 000124ac f   rapiclnt_CEBase:rapiclnt.obj
+ 0001:000014f8       ?WriteDesktopVersionRequestPacket@@YAJPAVCRAPISocket@@@Z 000124f8 f   rapiclnt_CEBase:rapiclnt.obj
+ 0001:00001530       ?IsLegacySSPAvailable@@YAHXZ 00012530 f   rapiclnt_CEBase:rapiclnt.obj
+ 0001:00001618       ?IsAirSyncAvailable@@YAHXZ 00012618 f   rapiclnt_CEBase:rapiclnt.obj
+ 0001:000016c0       ?GetActiveSyncVersion@@YAXPAK0@Z 000126c0 f   rapiclnt_CEBase:rapiclnt.obj
+ 0001:000016e4       ?WndProc@@YAJPAUHWND__@@IIJ@Z 000126e4 f   rapiclnt_CEBase:rapiclnt.obj
+ 0001:00001768       ?RAPISessionThread@@YAKPAX@Z 00012768 f   rapiclnt_CEBase:rapiclnt.obj
+ 0001:00001810       ?CreateNewSession@@YAJPAUsockaddr_storage_xp@@@Z 00012810 f   rapiclnt_CEBase:rapiclnt.obj
+ 0001:00001a54       ?WriteDeviceInfoPacket@@YAJPAUsClientThreadInfo@@KABUsockaddr_storage_xp@@@Z 00012a54 f   rapiclnt_CEBase:rapiclnt.obj
+ 0001:00002114       ?ReadDesktopVersionResponsePacket@@YAJPAVCRAPISocket@@PAK1@Z 00013114 f   rapiclnt_CEBase:rapiclnt.obj
+ 0001:000029d8       ?RAPIClientThread@@YAKPAX@Z 000139d8 f   rapiclnt_CEBase:rapiclnt.obj
+ 0001:00002e74       WinMain                    00013e74 f   rapiclnt_CEBase:rapiclnt.obj
+ 0001:00003138       ??0CRAPISocket@@QAA@XZ     00014138 f   rapiclnt_CEBase:rapisock.obj
+ 0001:00003154       ??1CRAPISocket@@QAA@XZ     00014154 f   rapiclnt_CEBase:rapisock.obj
+ 0001:00003174       ?SetSecure@CRAPISocket@@QAAJHH@Z 00014174 f   rapiclnt_CEBase:rapisock.obj
+ 0001:0000317c       ?IsConnected@CRAPISocket@@QAAHXZ 0001417c f   rapiclnt_CEBase:rapisock.obj
+ 0001:000031ac       ?GetSocket@CRAPISocket@@QAAIXZ 000141ac f   rapiclnt_CEBase:rapisock.obj
+ 0001:000031b4       ?Init@CRAPISocket@@QAAJI@Z 000141b4 f   rapiclnt_CEBase:rapisock.obj
+ 0001:00003250       ?SetLinger@CRAPISocket@@QAAJPAUlinger@@@Z 00014250 f   rapiclnt_CEBase:rapisock.obj
+ 0001:000032bc       ?CloseConnection@CRAPISocket@@QAAJXZ 000142bc f   rapiclnt_CEBase:rapisock.obj
+ 0001:0000332c       ?ReceiveBufferNoDecrypt@CRAPISocket@@AAAJPAXKPAK@Z 0001432c f   rapiclnt_CEBase:rapisock.obj
+ 0001:000033d8       ?ReceiveBufferSize@CRAPISocket@@QAAJPAK@Z 000143d8 f   rapiclnt_CEBase:rapisock.obj
+ 0001:00003410       ?ReceiveBuffer@CRAPISocket@@QAAJPAXKHPAK@Z 00014410 f   rapiclnt_CEBase:rapisock.obj
+ 0001:0000344c       ?SendBuffer@CRAPISocket@@QAAJPBXKHPAK@Z 0001444c f   rapiclnt_CEBase:rapisock.obj
+ 0001:0000354c       ?Add@CResList@@QAAJKK@Z    0001454c f   rapiclnt_CEBase:reslist.obj
+ 0001:000035e4       ?Remove@CResList@@QAAJKK@Z 000145e4 f   rapiclnt_CEBase:reslist.obj
+ 0001:00003684       ?DestroyRegKeyList@CResList@@QAAXXZ 00014684 f   rapiclnt_CEBase:reslist.obj
+ 0001:000036bc       ?GetSpecificRegistryErrorCode@CResList@@AAAJPAUHKEY__@@PBGK@Z 000146bc f   rapiclnt_CEBase:reslist.obj
+ 0001:0000374c       ?CanUseHandle@CResList@@QAAJPAX@Z 0001474c f   rapiclnt_CEBase:reslist.obj
+ 0001:000037a0       ??1CResList@@QAA@XZ        000147a0 f   rapiclnt_CEBase:reslist.obj
+ 0001:000038d8       ?AddGuid@CResList@@QAAJPAU_CEGUID@@K@Z 000148d8 f   rapiclnt_CEBase:reslist.obj
+ 0001:000038f4       ?RemoveGuid@CResList@@QAAJPAU_CEGUID@@K@Z 000148f4 f   rapiclnt_CEBase:reslist.obj
+ 0001:00003910       ?AddRegKey@CResList@@QAAJPAUHKEY__@@0PAG1@Z 00014910 f   rapiclnt_CEBase:reslist.obj
+ 0001:00003984       ?FindRegKey@CResList@@QAAJPAUHKEY__@@PAPAURegEntry@1@@Z 00014984 f   rapiclnt_CEBase:reslist.obj
+ 0001:00003a1c       ?RemoveRegKey@CResList@@QAAJPAUHKEY__@@@Z 00014a1c f   rapiclnt_CEBase:reslist.obj
+ 0001:00003adc       ?AddKeyPath@CResList@@QAAJPAURegEntry@1@PAPAGKPAK@Z 00014adc f   rapiclnt_CEBase:reslist.obj
+ 0001:00003cd0       ?CanAccessObject@CResList@@AAAJPAGK0@Z 00014cd0 f   rapiclnt_CEBase:reslist.obj
+ 0001:00003d04       ?SaveBasePath@CResList@@AAAJPAPAGPAG@Z 00014d04 f   rapiclnt_CEBase:reslist.obj
+ 0001:00003d50       ??0CResList@@QAA@XZ        00014d50 f   rapiclnt_CEBase:reslist.obj
+ 0001:00003d64       ?_GetProcFromDLL@@YAXPAPAUHINSTANCE__@@PBGPAP6AHXZ1@Z 00014d64 f   rapiclnt_CEBase:thunks_CEBase.obj
+ 0001:00003db8       QueryPolicy                00014db8 f   rapiclnt_CEBase:thunks_CEBase.obj
+ 0001:00003e10       SHCanonicalizePath         00014e10 f   rapiclnt_CEBase:thunks_CEBase.obj
+ 0001:00003e64       SHRemoveFontResource       00014e64 f   rapiclnt_CEBase:thunks_CEBase.obj
+ 0001:00003eb4       ?fnSysFreeString@@YAJPAG@Z 00014eb4 f   rapiclnt_CEBase:thunks_CEBase.obj
+ 0001:00003f08       ?fnCoCreateInstance@@YAJABU_GUID@@PAUIUnknown@@K0PAPAX@Z 00014f08 f   rapiclnt_CEBase:thunks_CEBase.obj
+ 0001:00003f8c       ?fnSysAllocString@@YAPAGPAG@Z 00014f8c f   rapiclnt_CEBase:thunks_CEBase.obj
+ 0001:00003fdc       ?fnCoInitializeEx@@YAJPAXK@Z 00014fdc f   rapiclnt_CEBase:thunks_CEBase.obj
+ 0001:00004038       ?fnCoUninitialize@@YAXXZ   00015038 f   rapiclnt_CEBase:thunks_CEBase.obj
+ 0001:00004074       ?fnCoFreeUnusedLibraries@@YAXXZ 00015074 f   rapiclnt_CEBase:thunks_CEBase.obj
+ 0001:000040b0       ?_SysFreeString@@YAJPAG@Z  000150b0 f   rapiclnt_CEBase:thunks_CEBase.obj
+ 0001:000040b4       _CoCreateInstance          000150b4 f   rapiclnt_CEBase:thunks_CEBase.obj
+ 0001:000040d0       ?_SysAllocString@@YAPAGPAG@Z 000150d0 f   rapiclnt_CEBase:thunks_CEBase.obj
+ 0001:000040d4       ?InitCOM@@YAJXZ            000150d4 f   rapiclnt_CEBase:thunks_CEBase.obj
+ 0001:00004100       ?UninitCOM@@YAXXZ          00015100 f   rapiclnt_CEBase:thunks_CEBase.obj
+ 0001:00004104       ?FreeCOMLibraries@@YAXXZ   00015104 f   rapiclnt_CEBase:thunks_CEBase.obj
+ 0001:00004120       xxxGetStoreInformation     00015120 f   rapiclnt_CEBase:thunks_CEBase.obj
+ 0001:0000414c       ??0CRAPISession@@QAA@XZ    0001514c f   rapiclnt_CEBase:rapisess.obj
+ 0001:0000417c       ??1CRAPISession@@QAA@XZ    0001517c f   rapiclnt_CEBase:rapisess.obj
+ 0001:00004198       ?Init@CRAPISession@@QAAJI@Z 00015198 f   rapiclnt_CEBase:rapisess.obj
+ 0001:00004218       ?Uninit@CRAPISession@@QAAJXZ 00015218 f   rapiclnt_CEBase:rapisess.obj
+ 0001:0000424c       ?GetSocketBufSize@CRAPISession@@QAAKXZ 0001524c f   rapiclnt_CEBase:rapisess.obj
+ 0001:000042b4       ?GetRAPIStream@CRAPISession@@QAAJPAPAUIRAPIStream@@@Z 000152b4 f   rapiclnt_CEBase:rapisess.obj
+ 0001:00004384       ?ExecuteRAPIFunc@CRAPISession@@AAAJW4tagRAPIID@@@Z 00015384 f   rapiclnt_CEBase:rapisess.obj
+ 0001:00004490       ?ServiceRequests@CRAPISession@@QAAJXZ 00015490 f   rapiclnt_CEBase:rapisess.obj
+ 0001:00004580       ??1CByteBuffer@@QAA@XZ     00015580 f   rapiclnt_CEBase:bytebuf.obj
+ 0001:00004588       ?ReadBytes@CByteBuffer@@QAAJPAEK@Z 00015588 f   rapiclnt_CEBase:bytebuf.obj
+ 0001:00004640       ?ReadDword@CByteBuffer@@QAAJPAK@Z 00015640 f   rapiclnt_CEBase:bytebuf.obj
+ 0001:00004648       ?ReadPtr@CByteBuffer@@QAAJPAPAEPAK@Z 00015648 f   rapiclnt_CEBase:bytebuf.obj
+ 0001:0000470c       ?WriteToReservedOffset@CByteBuffer@@QAAJKPAEK@Z 0001570c f   rapiclnt_CEBase:bytebuf.obj
+ 0001:00004780       ?SendToSocket@CByteBuffer@@QAAJPAVCRAPISocket@@@Z 00015780 f   rapiclnt_CEBase:bytebuf.obj
+ 0001:000047e4       ?Clear@CByteBuffer@@QAAXXZ 000157e4 f   rapiclnt_CEBase:bytebuf.obj
+ 0001:00004800       ?SetDim@CByteBuffer@@QAAJK@Z 00015800 f   rapiclnt_CEBase:bytebuf.obj
+ 0001:000048b8       ??0CByteBuffer@@QAA@XZ     000158b8 f   rapiclnt_CEBase:bytebuf.obj
+ 0001:000048d0       ?AppendBytes@CByteBuffer@@QAAJPBEK@Z 000158d0 f   rapiclnt_CEBase:bytebuf.obj
+ 0001:00004998       ?AppendDword@CByteBuffer@@QAAJK@Z 00015998 f   rapiclnt_CEBase:bytebuf.obj
+ 0001:000049b4       ?ReadStringW@CByteBuffer@@QAAJPAPAGPAK@Z 000159b4 f   rapiclnt_CEBase:bytebuf.obj
+ 0001:000049f4       ?ReserveBytes@CByteBuffer@@QAAJKPAK@Z 000159f4 f   rapiclnt_CEBase:bytebuf.obj
+ 0001:00004a58       ?ReceiveFromSocket@CByteBuffer@@QAAJPAVCRAPISocket@@@Z 00015a58 f   rapiclnt_CEBase:bytebuf.obj
+ 0001:00004b6c       ?GetLASSQuickConnectPolicy@@YAJPAH@Z 00015b6c f   rapiclnt_CEBase:rapiclnt_CEBase.obj
+ 0001:00004ba4       ?GetPegId@@YAKXZ           00015ba4 f   rapiclnt_CEBase:rapiclnt_CEBase.obj
+ 0001:00004bd0       ?FindRunningInstance@@YAJPBG0PAPAXPAPAUHWND__@@PAHH@Z 00015bd0 f   rapiclnt_CEBase:rapiclnt_CEBase.obj
+ 0001:00004d18       ?GetdwRoleMask@@YAKK@Z     00015d18 f   rapiclnt_CEBase:rapistubs_CEBase.obj
+ 0001:00004d48       ?IsRapiDisabled@@YAHXZ     00015d48 f   rapiclnt_CEBase:rapistubs_CEBase.obj
+ 0001:00004d80       ?IsRapiRestricted@@YAHXZ   00015d80 f   rapiclnt_CEBase:rapistubs_CEBase.obj
+ 0001:00004dc0       ?CreateProcessHelper@@YAHPBG0PAU_SECURITY_ATTRIBUTES@@1HKPAXPAGPAU_STARTUPINFOW@@PAU_PROCESS_INFORMATION@@PAKPAVCResList@@@Z 00015dc0 f   rapiclnt_CEBase:rapistubs_CEBase.obj
+ 0001:00004fb0       ?_RemoveFontResource@@YAHPAG@Z 00015fb0 f   rapiclnt_CEBase:rapistubs_CEBase.obj
+ 0001:00004fb4       ?ProcessUninstallWithHost@@YAJPAUIConfigManager@@PAPAGK@Z 00015fb4 f   rapiclnt_CEBase:rapistubs_CEBase.obj
+ 0001:00005058       ?Stub_CeProcessConfig@@YAJPAVCByteBuffer@@PAVCResList@@@Z 00016058 f   rapiclnt_CEBase:rapistubs_CEBase.obj
+ 0001:00005240       ?Stub_CeGetSystemPowerStatusEx@@YAJPAVCByteBuffer@@PAVCResList@@@Z 00016240 f   rapiclnt_CEBase:rapistubs_CEBase.obj
+ 0001:00005304       ?CanExecutePrivateAPI@CResList@@QAAJPAK@Z 00016304 f   rapiclnt_CEBase:reslist_CEBase.obj
+ 0001:00005334       ?CreateMetabase@CResList@@AAAJXZ 00016334 f   rapiclnt_CEBase:reslist_CEBase.obj
+ 0001:00005384       ?CheckAccess@CResList@@QAAJPAGK0@Z 00016384 f   rapiclnt_CEBase:reslist_CEBase.obj
+ 0001:00005438       ?GetKeyPath@CResList@@QAAJPAUHKEY__@@PBGKPAPAG2@Z 00016438 f   rapiclnt_CEBase:reslist_CEBase.obj
+ 0001:000056d0       ?CheckSystemAccess@CResList@@CAJPBG@Z 000166d0 f   rapiclnt_CEBase:reslist_CEBase.obj
+ 0001:000058ac       ?DoBuildPath@CResList@@AAAJPAGPBG1W4CANON_TYPE@1@PAPAG3@Z 000168ac f   rapiclnt_CEBase:reslist_CEBase.obj
+ 0001:00005a30       ?CanAccessRegistry@CResList@@QAAJPAUHKEY__@@PBGKHKPAK@Z 00016a30 f   rapiclnt_CEBase:reslist_CEBase.obj
+ 0001:00005c78       ?CanAccessFile@CResList@@QAAJPAGPBGKHHPAK@Z 00016c78 f   rapiclnt_CEBase:reslist_CEBase.obj
+ 0001:00005ed0       ?CanAccessDatabase@CResList@@QAAJPAGPBU_CEGUID@@PBKPBGPAK@Z 00016ed0 f   rapiclnt_CEBase:reslist_CEBase.obj
+ 0001:000060b4       ?CanInvokeRAPI@CResList@@QAAJPAGPBGPAK@Z 000170b4 f   rapiclnt_CEBase:reslist_CEBase.obj
+ 0001:00006124       ?CanSetFileAttributes@CResList@@QAAJPAGPBGKPAK@Z 00017124 f   rapiclnt_CEBase:reslist_CEBase.obj
+ 0001:00006234       ?CanCreateFile@CResList@@QAAJPAGPBGKKPAK@Z 00017234 f   rapiclnt_CEBase:reslist_CEBase.obj
+ 0001:00006358       ?GetTargetNameAndArgs@@YAHPAG0K@Z 00017358 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:000063a0       ?PropvalPointersToOffsets@@YAJPAU_CEPROPVAL@@H@Z 000173a0 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00006404       ?LongLongFromSystemTime@@YA_JU_SYSTEMTIME@@G@Z 00017404 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:000065c8       ?IsHiddenType@@YAHPBG@Z    000175c8 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00006638       ?FilterFile@@YAHPAU_WIN32_FIND_DATAW@@KPBG@Z 00017638 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:000066a0       ?RemoveFontResourceW@@YAHPAG@Z 000176a0 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00006714       ?RemoveFontResourceIfFont@@YAHPAG@Z 00017714 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:000068e0       ?ReadPtrFromBuffer@@YAJPAVCByteBuffer@@PAPAEK@Z 000178e0 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00006940       ?ReadStringWFromBuffer@@YAJPAVCByteBuffer@@PAPAG@Z 00017940 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:000069a4       ?GetDBVolumeName@@YAKPAU_CEGUID@@PAPAG@Z 000179a4 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00006a98       ?Stub_CeFindFirstFile@@YAJPAVCByteBuffer@@PAVCResList@@@Z 00017a98 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00006c24       ?Stub_CeFindNextFile@@YAJPAVCByteBuffer@@PAVCResList@@@Z 00017c24 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00006d64       ?Stub_CeFindClose@@YAJPAVCByteBuffer@@PAVCResList@@@Z 00017d64 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00006e08       ?Stub_CeGetFileAttributes@@YAJPAVCByteBuffer@@PAVCResList@@@Z 00017e08 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00006ea0       ?Stub_CeSetFileAttributes@@YAJPAVCByteBuffer@@PAVCResList@@@Z 00017ea0 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00006f94       ?Stub_CeCreateFile@@YAJPAVCByteBuffer@@PAVCResList@@@Z 00017f94 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000723c       ?Stub_CeReadFile@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001823c f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000737c       ?Stub_CeWriteFile@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001837c f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00007488       ?Stub_CeCloseHandle@@YAJPAVCByteBuffer@@PAVCResList@@@Z 00018488 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000752c       ?Stub_CeFindFirstDatabase@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001852c f   rapiclnt_CEBase:rapistubs.obj
+ 0001:000075f8       ?Stub_CeFindFirstDatabaseEx@@YAJPAVCByteBuffer@@PAVCResList@@@Z 000185f8 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00007744       ?Stub_CeFindNextDatabase@@YAJPAVCByteBuffer@@PAVCResList@@@Z 00018744 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:000077ec       ?Stub_CeFindNextDatabaseEx@@YAJPAVCByteBuffer@@PAVCResList@@@Z 000187ec f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00007950       ?WriteCEOIDINFO@@YAJPAVCByteBuffer@@PAU__CEDB_CEOIDINFO@@@Z 00018950 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00007aa4       ?Stub_CeOidGetInfo@@YAJPAVCByteBuffer@@PAVCResList@@@Z 00018aa4 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00007b64       ?Stub_CeOidGetInfoEx@@YAJPAVCByteBuffer@@PAVCResList@@@Z 00018b64 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00007c64       ?Stub_CeCreateDatabase@@YAJPAVCByteBuffer@@PAVCResList@@@Z 00018c64 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00007dcc       ?Stub_CeCreateDatabaseEx@@YAJPAVCByteBuffer@@PAVCResList@@@Z 00018dcc f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00007f04       ?Stub_CeOpenDatabase@@YAJPAVCByteBuffer@@PAVCResList@@@Z 00018f04 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000811c       ?Stub_CeOpenDatabaseEx@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001911c f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00008318       ?Stub_CeDeleteDatabase@@YAJPAVCByteBuffer@@PAVCResList@@@Z 00019318 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00008428       ?Stub_CeDeleteDatabaseEx@@YAJPAVCByteBuffer@@PAVCResList@@@Z 00019428 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00008534       ?PropvalOffsetsToPointers@@YAHPAU_CEPROPVAL@@HK@Z 00019534 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:000085d0       ?Stub_CeReadRecordPropsEx@@YAJPAVCByteBuffer@@PAVCResList@@@Z 000195d0 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00008820       ?Stub_CeWriteRecordProps@@YAJPAVCByteBuffer@@PAVCResList@@@Z 00019820 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:000089b4       ?Stub_CeDeleteRecord@@YAJPAVCByteBuffer@@PAVCResList@@@Z 000199b4 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00008a88       ?Stub_CeSeekDatabase@@YAJPAVCByteBuffer@@PAVCResList@@@Z 00019a88 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00008c34       ?Stub_CeSetDatabaseInfo@@YAJPAVCByteBuffer@@PAVCResList@@@Z 00019c34 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00008d74       ?Stub_CeCreateDirectory@@YAJPAVCByteBuffer@@PAVCResList@@@Z 00019d74 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00008e4c       ?Stub_CeRemoveDirectory@@YAJPAVCByteBuffer@@PAVCResList@@@Z 00019e4c f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00008f24       ?Stub_CeCreateProcess@@YAJPAVCByteBuffer@@PAVCResList@@@Z 00019f24 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00009120       ?Stub_CeMoveFile@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001a120 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:000092c0       ?Stub_CeCopyFile@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001a2c0 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00009434       ?Stub_CeSetDatabaseInfoEx@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001a434 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00009594       ?Stub_CeFindAllDatabases@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001a594 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00009898       ?HasChildren@@YAHPBG0@Z    0001a898 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:000099e0       ?Stub_CeEventHasOccurred@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001a9e0 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00009ac0       ?Stub_CeRegOpenKeyEx@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001aac0 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00009c20       ?Stub_CeRegCreateKeyEx@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001ac20 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00009e60       ?Stub_CeRegCloseKey@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001ae60 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:00009f18       ?Stub_CeRegEnumKeyEx@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001af18 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000a108       ?Stub_CeRegDeleteKey@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001b108 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000a228       ?Stub_CeRegEnumValue@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001b228 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000a414       ?Stub_CeRegDeleteValue@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001b414 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000a57c       ?Stub_CeRegQueryInfoKey@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001b57c f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000a75c       ?Stub_CeRegQueryValueEx@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001b75c f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000a8b8       ?Stub_CeRegSetValueEx@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001b8b8 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000aab4       ?CalcfDST@@YAHPAU_TIME_ZONE_INFORMATION@@PAU_SYSTEMTIME@@PAH@Z 0001bab4 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000acf8       ?Stub_CeSyncTimeToPc@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001bcf8 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000af14       ?Stub_CeGetVersionEx@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001bf14 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000b004       ?Stub_CeRestoreDatabase@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001c004 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000b374       ?Stub_CeBackupDatabase@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001c374 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000b7bc       ?Stub_CeRapiInvoke@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001c7bc f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000bcf4       ?Stub_CeBackupFile@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001ccf4 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000bf5c       ?Stub_CeGetSpecialFolderPath@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001cf5c f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000c0a8       ?Stub_CeKillAllApps@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001d0a8 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000c0f0       ?Stub_CeDeleteFile@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001d0f0 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000c1dc       ?Stub_CeMountDBVol@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001d1dc f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000c34c       ?Stub_CeUnmountDBVol@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001d34c f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000c490       ?Stub_CeFlushDBVol@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001d490 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000c52c       ?Stub_CeEnumDBVolumes@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001d52c f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000c8a8       ?Stub_CeSyncStart@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001d8a8 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000c9c0       ?Stub_CeSyncStop@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001d9c0 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000ca78       ?Stub_CeSyncPause@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001da78 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000cb30       ?Stub_CeSyncResume@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001db30 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000cbe8       ?Stub_CeSetFilePointer@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001dbe8 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000cd44       ?Stub_CeSetEndOfFile@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001dd44 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000cdd4       ?Stub_CeGetFileSize@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001ddd4 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000ce70       ?Stub_CeGetSystemMemoryDivision@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001de70 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000cf34       ?Stub_CeSetSystemMemoryDivision@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001df34 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000cfcc       ?Stub_CeGetStoreInformation@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001dfcc f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000d040       ?Stub_CeGetSystemMetrics@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001e040 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000d0b4       ?Stub_CeGetDesktopDeviceCaps@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001e0b4 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000d150       ?Stub_CeRegCopyFile@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001e150 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000d20c       ?Stub_CeRegRestoreFile@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001e20c f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000d2c8       ?Stub_CeGetSystemInfo@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001e2c8 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000d328       ?Stub_CeSHCreateShortcut@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001e328 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000d434       ?Stub_CeSHGetShortcutTarget@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001e434 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000d570       ?Stub_CeGetPasswordActive@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001e570 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000d5c4       ?Stub_CeSetPasswordActive@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001e5c4 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000d674       ?Stub_CeCheckPassword@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001e674 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000d7bc       ?Stub_CeSetPassword@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001e7bc f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000d870       ?Stub_CeGetFileTime@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001e870 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000d970       ?Stub_CeSetFileTime@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001e970 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000db8c       ?Stub_CeGetWindow@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001eb8c f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000dc28       ?Stub_CeGetWindowLong@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001ec28 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000dcc4       ?Stub_CeGetWindowText@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001ecc4 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000ddd0       ?Stub_CeGetClassName@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001edd0 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000deec       ?Stub_CeGlobalMemoryStatus@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001eeec f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000df38       ?Stub_CeGetTempPath@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001ef38 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000e018       ?Stub_CeQueryInstructionSet@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001f018 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000e0b8       ?Stub_CeGetDiskFreeSpaceEx@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001f0b8 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000e1a0       ?Stub_CeFindAllFiles@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001f1a0 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000e6ac       ?Stub_CeReadRecordProps@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001f6ac f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000e6b0       ?Stub_CeStartReplication@@YAJPAVCByteBuffer@@PAVCResList@@@Z 0001f6b0 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000e734       ?AddRef@CRAPIStream@@UAAKXZ 0001f734 f   rapiclnt_CEBase:rapistream.obj
+ 0001:0000e73c       ??1CRAPIStream@@AAA@XZ     0001f73c f   rapiclnt_CEBase:rapistream.obj
+ 0001:0000e778       ?Seek@CRAPIStream@@UAAJT_LARGE_INTEGER@@KPAT_ULARGE_INTEGER@@@Z 0001f778 f i rapiclnt_CEBase:rapistream.obj
+ 0001:0000e790       ?SetSize@CRAPIStream@@UAAJT_ULARGE_INTEGER@@@Z 0001f790 f i rapiclnt_CEBase:rapistream.obj
+ 0001:0000e7a8       ?CopyTo@CRAPIStream@@UAAJPAUIStream@@T_ULARGE_INTEGER@@PAT3@2@Z 0001f7a8 f i rapiclnt_CEBase:rapistream.obj
+ 0001:0000e7c0       ?Revert@CRAPIStream@@UAAJXZ 0001f7c0 f i rapiclnt_CEBase:rapistream.obj
+ 0001:0000e7cc       ?LockRegion@CRAPIStream@@UAAJT_ULARGE_INTEGER@@0K@Z 0001f7cc f i rapiclnt_CEBase:rapistream.obj
+ 0001:0000e7e4       ?UnlockRegion@CRAPIStream@@UAAJT_ULARGE_INTEGER@@0K@Z 0001f7e4 f i rapiclnt_CEBase:rapistream.obj
+ 0001:0000e7fc       ?Stat@CRAPIStream@@UAAJPAUtagSTATSTG@@K@Z 0001f7fc f i rapiclnt_CEBase:rapistream.obj
+ 0001:0000e808       ?Clone@CRAPIStream@@UAAJPAPAUIStream@@@Z 0001f808 f i rapiclnt_CEBase:rapistream.obj
+ 0001:0000e814       ?Commit@CRAPIStream@@UAAJK@Z 0001f814 f i rapiclnt_CEBase:rapistream.obj
+ 0001:0000e820       ?Init@CRAPIStream@@QAAJXZ  0001f820 f   rapiclnt_CEBase:rapistream.obj
+ 0001:0000e854       ?QueryInterface@CRAPIStream@@UAAJABU_GUID@@PAPAX@Z 0001f854 f   rapiclnt_CEBase:rapistream.obj
+ 0001:0000e8e0       ?Read@CRAPIStream@@UAAJPAXKPAK@Z 0001f8e0 f   rapiclnt_CEBase:rapistream.obj
+ 0001:0000e9dc       ?Write@CRAPIStream@@UAAJPBXKPAK@Z 0001f9dc f   rapiclnt_CEBase:rapistream.obj
+ 0001:0000ea68       ?SetRapiStat@CRAPIStream@@UAAJW4RAPISTREAMFLAG@@K@Z 0001fa68 f   rapiclnt_CEBase:rapistream.obj
+ 0001:0000ea80       ?GetRapiStat@CRAPIStream@@UAAJW4RAPISTREAMFLAG@@PAK@Z 0001fa80 f   rapiclnt_CEBase:rapistream.obj
+ 0001:0000eaac       ?Release@CRAPIStream@@UAAKXZ 0001faac f   rapiclnt_CEBase:rapistream.obj
+ 0001:0000eb0c       ??0CRAPIStream@@QAA@PAVCRAPISocket@@@Z 0001fb0c f   rapiclnt_CEBase:rapistream.obj
+ 0001:0000eb60       ?TraceSyncOpen@@YAPAXXZ    0001fb60 f   rapiclnt_CEBase:utils.obj
+ 0001:0000ebb8       ?_PathRemoveQuotesAndArgs@@YAXPAGK@Z 0001fbb8 f   rapiclnt_CEBase:utils.obj
+ 0001:0000ec9c       ?_PathFindExtension@@YAPAGPBG@Z 0001fc9c f   rapiclnt_CEBase:utils.obj
+ 0001:0000ecf8       ?TraceRapi@@YAXPBD0ZZ      0001fcf8 f   rapiclnt_CEBase:utils.obj
+ 0001:0000eee0       WSACleanup                 0001fee0 f   winsock:WINSOCK.dll
+ 0001:0000eef0       closesocket                0001fef0 f   winsock:WINSOCK.dll
+ 0001:0000ef00       send                       0001ff00 f   winsock:WINSOCK.dll
+ 0001:0000ef10       setsockopt                 0001ff10 f   winsock:WINSOCK.dll
+ 0001:0000ef20       connect                    0001ff20 f   winsock:WINSOCK.dll
+ 0001:0000ef30       socket                     0001ff30 f   winsock:WINSOCK.dll
+ 0001:0000ef40       getpeername                0001ff40 f   winsock:WINSOCK.dll
+ 0001:0000ef50       WSAStartup                 0001ff50 f   winsock:WINSOCK.dll
+ 0001:0000ef60       recv                       0001ff60 f   winsock:WINSOCK.dll
+ 0001:0000ef70       getsockopt                 0001ff70 f   winsock:WINSOCK.dll
+ 0001:0000ef80       select                     0001ff80 f   winsock:WINSOCK.dll
+ 0001:0000ef90       WSAGetLastError            0001ff90 f   ws2:WS2.dll
+ 0001:0000efa0       CoCreateInstance           0001ffa0 f   ole32:ole32.dll
+ 0001:0000efb0       SysStringByteLen           0001ffb0 f   oleaut32:OLEAUT32.dll
+ 0001:0000efc0       SysFreeString              0001ffc0 f   oleaut32:OLEAUT32.dll
+ 0001:0000efd0       SysAllocString             0001ffd0 f   oleaut32:OLEAUT32.dll
+ 0001:0000efe0       BCryptGenRandom            0001ffe0 f   bcrypt:bcrypt.dll
+ 0001:0000eff0       ?ConnectThruAddrInfo@@YAIPAUaddrinfo@@K@Z 0001fff0 f   asutil:ipv6util.obj
+ 0001:0000f0b4       ?SetIPPort@@YAXPAUsockaddr_storage_xp@@G@Z 000200b4 f   asutil:ipv6util.obj
+ 0001:0000f0ec       ?ConnectToServer@@YAIPBDGKPAUsockaddr_storage_xp@@@Z 000200ec f   asutil:ipv6util.obj
+ 0001:0000f20c       ?ConnectToServerW@@YAIPBGGKPAUsockaddr_storage_xp@@@Z 0002020c f   asutil:ipv6util.obj
+ 0001:0000f2c4       QueryPolicyImpl            000202c4 f   ossvcs:ossvcs.dll
+ 0001:0000f2d4       __GSHandlerCheckCommon     000202d4 f   corelib0:gshandler.obj
+ 0001:0000f310       __GSHandlerCheck           00020310 f   corelib0:gshandler.obj
+ 0001:0000f330       __security_check_cookie    00020330 f   corelib0:armsecgs.obj
+ 0001:0000f340       __gsfailure                00020340     corelib0:armsecgs.obj
+ 0001:0000f384       __GSHandlerCheck_SEH       00020384 f   corelib0:gshandlerseh.obj
+ 0001:0000f3d0       wcsstr                     000203d0 f   corelib1:COREDLL.dll
+ 0001:0000f3e0       ??3@YAXPAX@Z               000203e0 f   corelib1:COREDLL.dll
+ 0001:0000f3f0       ??2@YAPAXI@Z               000203f0 f   corelib1:COREDLL.dll
+ 0001:0000f400       wcslen                     00020400 f   corelib1:COREDLL.dll
+ 0001:0000f410       memset                     00020410 f   corelib1:COREDLL.dll
+ 0001:0000f420       memcmp                     00020420 f   corelib1:COREDLL.dll
+ 0001:0000f430       _wcsicmp                   00020430 f   corelib1:COREDLL.dll
+ 0001:0000f440       memcpy                     00020440 f   corelib1:COREDLL.dll
+ 0001:0000f450       wcscmp                     00020450 f   corelib1:COREDLL.dll
+ 0001:0000f460       _wcslwr_s                  00020460 f   corelib1:COREDLL.dll
+ 0001:0000f470       wcsncmp                    00020470 f   corelib1:COREDLL.dll
+ 0001:0000f480       wcschr                     00020480 f   corelib1:COREDLL.dll
+ 0001:0000f490       _wcsnicmp                  00020490 f   corelib1:COREDLL.dll
+ 0001:0000f4a0       __report_gsfailure         000204a0 f   corelib1:COREDLL.dll
+ 0001:0000f4b0       EventModify                000204b0 f   coredll:COREDLL.dll
+ 0001:0000f4c0       __GetUserKData             000204c0 f   coredll:COREDLL.dll
+ 0001:0000f4d0       RegCloseKey                000204d0 f   coredll:COREDLL.dll
+ 0001:0000f4e0       RegQueryValueExW           000204e0 f   coredll:COREDLL.dll
+ 0001:0000f4f0       RegOpenKeyExW              000204f0 f   coredll:COREDLL.dll
+ 0001:0000f500       CreateWindowExW            00020500 f   coredll:COREDLL.dll
+ 0001:0000f510       StringCbPrintfW            00020510 f   coredll:COREDLL.dll
+ 0001:0000f520       lstrcmpW                   00020520 f   coredll:COREDLL.dll
+ 0001:0000f530       PostMessageW               00020530 f   coredll:COREDLL.dll
+ 0001:0000f540       SendMessageW               00020540 f   coredll:COREDLL.dll
+ 0001:0000f550       FindWindowW                00020550 f   coredll:COREDLL.dll
+ 0001:0000f560       RegEnumKeyExW              00020560 f   coredll:COREDLL.dll
+ 0001:0000f570       DestroyWindow              00020570 f   coredll:COREDLL.dll
+ 0001:0000f580       DefWindowProcW             00020580 f   coredll:COREDLL.dll
+ 0001:0000f590       ResumeThread               00020590 f   coredll:COREDLL.dll
+ 0001:0000f5a0       CreateThread               000205a0 f   coredll:COREDLL.dll
+ 0001:0000f5b0       GetDeviceUniqueID          000205b0 f   coredll:COREDLL.dll
+ 0001:0000f5c0       GetSystemInfo              000205c0 f   coredll:COREDLL.dll
+ 0001:0000f5d0       GetVersionExW              000205d0 f   coredll:COREDLL.dll
+ 0001:0000f5e0       WideCharToMultiByte        000205e0 f   coredll:COREDLL.dll
+ 0001:0000f5f0       SystemParametersInfoW      000205f0 f   coredll:COREDLL.dll
+ 0001:0000f600       CloseHandle                00020600 f   coredll:COREDLL.dll
+ 0001:0000f610       LASSClose                  00020610 f   coredll:COREDLL.dll
+ 0001:0000f620       LASSGetResult              00020620 f   coredll:COREDLL.dll
+ 0001:0000f630       WaitForSingleObject        00020630 f   coredll:COREDLL.dll
+ 0001:0000f640       VerifyUserAsync            00020640 f   coredll:COREDLL.dll
+ 0001:0000f650       CreateMutexW               00020650 f   coredll:COREDLL.dll
+ 0001:0000f660       LocalFree                  00020660 f   coredll:COREDLL.dll
+ 0001:0000f670       CredWrite                  00020670 f   coredll:COREDLL.dll
+ 0001:0000f680       CredDelete                 00020680 f   coredll:COREDLL.dll
+ 0001:0000f690       GetLastError               00020690 f   coredll:COREDLL.dll
+ 0001:0000f6a0       CryptProtectData           000206a0 f   coredll:COREDLL.dll
+ 0001:0000f6b0       StringCbLengthW            000206b0 f   coredll:COREDLL.dll
+ 0001:0000f6c0       StringCchPrintfW           000206c0 f   coredll:COREDLL.dll
+ 0001:0000f6d0       CredFree                   000206d0 f   coredll:COREDLL.dll
+ 0001:0000f6e0       CryptUnprotectData         000206e0 f   coredll:COREDLL.dll
+ 0001:0000f6f0       CredRead                   000206f0 f   coredll:COREDLL.dll
+ 0001:0000f700       DestroyIcon                00020700 f   coredll:COREDLL.dll
+ 0001:0000f710       DeleteObject               00020710 f   coredll:COREDLL.dll
+ 0001:0000f720       RegisterClassW             00020720 f   coredll:COREDLL.dll
+ 0001:0000f730       GetStockObject             00020730 f   coredll:COREDLL.dll
+ 0001:0000f740       LoadImageW                 00020740 f   coredll:COREDLL.dll
+ 0001:0000f750       SystemIdleTimerReset       00020750 f   coredll:COREDLL.dll
+ 0001:0000f760       GetMessageW                00020760 f   coredll:COREDLL.dll
+ 0001:0000f770       DispatchMessageW           00020770 f   coredll:COREDLL.dll
+ 0001:0000f780       TranslateMessage           00020780 f   coredll:COREDLL.dll
+ 0001:0000f790       SetLastError               00020790 f   coredll:COREDLL.dll
+ 0001:0000f7a0       FindClose                  000207a0 f   coredll:COREDLL.dll
+ 0001:0000f7b0       CeUnmountDBVol             000207b0 f   coredll:COREDLL.dll
+ 0001:0000f7c0       FreeLibrary                000207c0 f   coredll:COREDLL.dll
+ 0001:0000f7d0       StringCbCatW               000207d0 f   coredll:COREDLL.dll
+ 0001:0000f7e0       StringCbCopyW              000207e0 f   coredll:COREDLL.dll
+ 0001:0000f7f0       LocalAlloc                 000207f0 f   coredll:COREDLL.dll
+ 0001:0000f800       StringCchCopyW             00020800 f   coredll:COREDLL.dll
+ 0001:0000f810       GetProcAddressW            00020810 f   coredll:COREDLL.dll
+ 0001:0000f820       LoadLibraryW               00020820 f   coredll:COREDLL.dll
+ 0001:0000f830       GetStoreInformation        00020830 f   coredll:COREDLL.dll
+ 0001:0000f840       WaitForAPIReady            00020840 f   coredll:COREDLL.dll
+ 0001:0000f850       GetPasswordActive          00020850 f   coredll:COREDLL.dll
+ 0001:0000f860       SetForegroundWindow        00020860 f   coredll:COREDLL.dll
+ 0001:0000f870       Sleep                      00020870 f   coredll:COREDLL.dll
+ 0001:0000f880       GetModuleFileNameW         00020880 f   coredll:COREDLL.dll
+ 0001:0000f890       CreateProcessW             00020890 f   coredll:COREDLL.dll
+ 0001:0000f8a0       StringCchCatW              000208a0 f   coredll:COREDLL.dll
+ 0001:0000f8b0       FindNextFileW              000208b0 f   coredll:COREDLL.dll
+ 0001:0000f8c0       FindFirstFileW             000208c0 f   coredll:COREDLL.dll
+ 0001:0000f8d0       GetFileAttributesW         000208d0 f   coredll:COREDLL.dll
+ 0001:0000f8e0       RegQueryInfoKeyW           000208e0 f   coredll:COREDLL.dll
+ 0001:0000f8f0       LCMapStringW               000208f0 f   coredll:COREDLL.dll
+ 0001:0000f900       IsSystemFile               00020900 f   coredll:COREDLL.dll
+ 0001:0000f910       CeOidGetInfoEx2            00020910 f   coredll:COREDLL.dll
+ 0001:0000f920       FileTimeToSystemTime       00020920 f   coredll:COREDLL.dll
+ 0001:0000f930       SystemTimeToFileTime       00020930 f   coredll:COREDLL.dll
+ 0001:0000f940       lstrcmpiW                  00020940 f   coredll:COREDLL.dll
+ 0001:0000f950       CeEnumDBVolumes            00020950 f   coredll:COREDLL.dll
+ 0001:0000f960       SetFileAttributesW         00020960 f   coredll:COREDLL.dll
+ 0001:0000f970       CreateFileW                00020970 f   coredll:COREDLL.dll
+ 0001:0000f980       ReadFile                   00020980 f   coredll:COREDLL.dll
+ 0001:0000f990       WriteFile                  00020990 f   coredll:COREDLL.dll
+ 0001:0000f9a0       CeFindFirstDatabase        000209a0 f   coredll:COREDLL.dll
+ 0001:0000f9b0       CeFindFirstDatabaseEx      000209b0 f   coredll:COREDLL.dll
+ 0001:0000f9c0       CeFindNextDatabase         000209c0 f   coredll:COREDLL.dll
+ 0001:0000f9d0       CeFindNextDatabaseEx       000209d0 f   coredll:COREDLL.dll
+ 0001:0000f9e0       CeOidGetInfo               000209e0 f   coredll:COREDLL.dll
+ 0001:0000f9f0       CeOidGetInfoEx             000209f0 f   coredll:COREDLL.dll
+ 0001:0000fa00       CeCreateDatabase           00020a00 f   coredll:COREDLL.dll
+ 0001:0000fa10       CeCreateDatabaseEx         00020a10 f   coredll:COREDLL.dll
+ 0001:0000fa20       CeOpenDatabase             00020a20 f   coredll:COREDLL.dll
+ 0001:0000fa30       CeOpenDatabaseEx           00020a30 f   coredll:COREDLL.dll
+ 0001:0000fa40       CeDeleteDatabase           00020a40 f   coredll:COREDLL.dll
+ 0001:0000fa50       CeDeleteDatabaseEx         00020a50 f   coredll:COREDLL.dll
+ 0001:0000fa60       CeReadRecordPropsEx        00020a60 f   coredll:COREDLL.dll
+ 0001:0000fa70       CeWriteRecordProps         00020a70 f   coredll:COREDLL.dll
+ 0001:0000fa80       CeDeleteRecord             00020a80 f   coredll:COREDLL.dll
+ 0001:0000fa90       CeSeekDatabase             00020a90 f   coredll:COREDLL.dll
+ 0001:0000faa0       CeSetDatabaseInfo          00020aa0 f   coredll:COREDLL.dll
+ 0001:0000fab0       CreateDirectoryW           00020ab0 f   coredll:COREDLL.dll
+ 0001:0000fac0       RemoveDirectoryW           00020ac0 f   coredll:COREDLL.dll
+ 0001:0000fad0       StringCchLengthW           00020ad0 f   coredll:COREDLL.dll
+ 0001:0000fae0       MoveFileW                  00020ae0 f   coredll:COREDLL.dll
+ 0001:0000faf0       CopyFileW                  00020af0 f   coredll:COREDLL.dll
+ 0001:0000fb00       CeSetDatabaseInfoEx        00020b00 f   coredll:COREDLL.dll
+ 0001:0000fb10       CeEventHasOccurred         00020b10 f   coredll:COREDLL.dll
+ 0001:0000fb20       RegCreateKeyExW            00020b20 f   coredll:COREDLL.dll
+ 0001:0000fb30       RegDeleteKeyW              00020b30 f   coredll:COREDLL.dll
+ 0001:0000fb40       RegEnumValueW              00020b40 f   coredll:COREDLL.dll
+ 0001:0000fb50       RegDeleteValueW            00020b50 f   coredll:COREDLL.dll
+ 0001:0000fb60       RegSetValueExW             00020b60 f   coredll:COREDLL.dll
+ 0001:0000fb70       SetSystemTime              00020b70 f   coredll:COREDLL.dll
+ 0001:0000fb80       GetSystemTime              00020b80 f   coredll:COREDLL.dll
+ 0001:0000fb90       GetTimeZoneInformation     00020b90 f   coredll:COREDLL.dll
+ 0001:0000fba0       CeReadRecordProps          00020ba0 f   coredll:COREDLL.dll
+ 0001:0000fbb0       LoadLibraryExW             00020bb0 f   coredll:COREDLL.dll
+ 0001:0000fbc0       GetFileSize                00020bc0 f   coredll:COREDLL.dll
+ 0001:0000fbd0       SHGetSpecialFolderPath     00020bd0 f   coredll:COREDLL.dll
+ 0001:0000fbe0       DeleteFileW                00020be0 f   coredll:COREDLL.dll
+ 0001:0000fbf0       CeMountDBVol               00020bf0 f   coredll:COREDLL.dll
+ 0001:0000fc00       CeFlushDBVol               00020c00 f   coredll:COREDLL.dll
+ 0001:0000fc10       StringCchPrintfExW         00020c10 f   coredll:COREDLL.dll
+ 0001:0000fc20       SetFilePointer             00020c20 f   coredll:COREDLL.dll
+ 0001:0000fc30       SetEndOfFile               00020c30 f   coredll:COREDLL.dll
+ 0001:0000fc40       GetSystemMemoryDivision    00020c40 f   coredll:COREDLL.dll
+ 0001:0000fc50       SetSystemMemoryDivision    00020c50 f   coredll:COREDLL.dll
+ 0001:0000fc60       GetSystemMetrics           00020c60 f   coredll:COREDLL.dll
+ 0001:0000fc70       ReleaseDC                  00020c70 f   coredll:COREDLL.dll
+ 0001:0000fc80       GetDeviceCaps              00020c80 f   coredll:COREDLL.dll
+ 0001:0000fc90       GetDC                      00020c90 f   coredll:COREDLL.dll
+ 0001:0000fca0       GetForegroundWindow        00020ca0 f   coredll:COREDLL.dll
+ 0001:0000fcb0       RegCopyFile                00020cb0 f   coredll:COREDLL.dll
+ 0001:0000fcc0       RegRestoreFile             00020cc0 f   coredll:COREDLL.dll
+ 0001:0000fcd0       SHCreateShortcut           00020cd0 f   coredll:COREDLL.dll
+ 0001:0000fce0       SHGetShortcutTarget        00020ce0 f   coredll:COREDLL.dll
+ 0001:0000fcf0       SetPasswordActive          00020cf0 f   coredll:COREDLL.dll
+ 0001:0000fd00       CheckPassword              00020d00 f   coredll:COREDLL.dll
+ 0001:0000fd10       SetPassword                00020d10 f   coredll:COREDLL.dll
+ 0001:0000fd20       GetFileTime                00020d20 f   coredll:COREDLL.dll
+ 0001:0000fd30       SetFileTime                00020d30 f   coredll:COREDLL.dll
+ 0001:0000fd40       GetWindow                  00020d40 f   coredll:COREDLL.dll
+ 0001:0000fd50       GetWindowLongW             00020d50 f   coredll:COREDLL.dll
+ 0001:0000fd60       GetWindowTextW             00020d60 f   coredll:COREDLL.dll
+ 0001:0000fd70       GetClassNameW              00020d70 f   coredll:COREDLL.dll
+ 0001:0000fd80       GlobalMemoryStatus         00020d80 f   coredll:COREDLL.dll
+ 0001:0000fd90       GetTempPathW               00020d90 f   coredll:COREDLL.dll
+ 0001:0000fda0       QueryInstructionSet        00020da0 f   coredll:COREDLL.dll
+ 0001:0000fdb0       GetDiskFreeSpaceExW        00020db0 f   coredll:COREDLL.dll
+ 0001:0000fdc0       StringCbCopyNW             00020dc0 f   coredll:COREDLL.dll
+ 0001:0000fdd0       InterlockedIncrement       00020dd0 f   coredll:COREDLL.dll
+ 0001:0000fde0       InterlockedDecrement       00020de0 f   coredll:COREDLL.dll
+ 0001:0000fdf0       CharPrevW                  00020df0 f   coredll:COREDLL.dll
+ 0001:0000fe00       CharNextW                  00020e00 f   coredll:COREDLL.dll
+ 0001:0000fe10       ReleaseMutex               00020e10 f   coredll:COREDLL.dll
+ 0001:0000fe20       StringCchVPrintfExA        00020e20 f   coredll:COREDLL.dll
+ 0001:0000fe30       StringCchPrintfExA         00020e30 f   coredll:COREDLL.dll
+ 0001:0000fe40       GetLocalTime               00020e40 f   coredll:COREDLL.dll
+ 0001:0000fe50       StringCchPrintfA           00020e50 f   coredll:COREDLL.dll
+ 0001:0000fe60       htons                      00020e60 f   winsock:WINSOCK.dll
+ 0001:0000fe70       WSASetLastError            00020e70 f   ws2:WS2.dll
+ 0001:0000fe80       freeaddrinfo               00020e80 f   ws2:WS2.dll
+ 0001:0000fe90       getaddrinfo                00020e90 f   ws2:WS2.dll
+ 0001:0000ff54       __IMPORT_DESCRIPTOR_COREDLL 00020f54     corelib1:COREDLL.dll
+ 0001:0000ff68       __IMPORT_DESCRIPTOR_WINSOCK 00020f68     winsock:WINSOCK.dll
+ 0001:0000ff7c       __IMPORT_DESCRIPTOR_WS2    00020f7c     ws2:WS2.dll
+ 0001:0000ff90       __IMPORT_DESCRIPTOR_ole32  00020f90     ole32:ole32.dll
+ 0001:0000ffa4       __IMPORT_DESCRIPTOR_OLEAUT32 00020fa4     oleaut32:OLEAUT32.dll
+ 0001:0000ffb8       __IMPORT_DESCRIPTOR_bcrypt 00020fb8     bcrypt:bcrypt.dll
+ 0001:0000ffcc       __IMPORT_DESCRIPTOR_ossvcs 00020fcc     ossvcs:ossvcs.dll
+ 0001:0000ffe0       __NULL_IMPORT_DESCRIPTOR   00020fe0     corelib1:COREDLL.dll
+ 0002:00000000       __imp__XcptFilter          00022000     corelib1:COREDLL.dll
+ 0002:00000004       __imp___C_specific_handler 00022004     corelib1:COREDLL.dll
+ 0002:00000008       __imp_free                 00022008     corelib1:COREDLL.dll
+ 0002:0000000c       __imp___security_gen_cookie2 0002200c     corelib1:COREDLL.dll
+ 0002:00000010       __imp_DeleteCriticalSection 00022010     coredll:COREDLL.dll
+ 0002:00000014       __imp_InterlockedExchange  00022014     coredll:COREDLL.dll
+ 0002:00000018       __imp_TerminateProcess     00022018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_EnterCriticalSection 0002201c     coredll:COREDLL.dll
+ 0002:00000020       __imp_InitializeCriticalSection 00022020     coredll:COREDLL.dll
+ 0002:00000024       __imp_LeaveCriticalSection 00022024     coredll:COREDLL.dll
+ 0002:00000028       __imp_StringCchPrintfA     00022028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_GetLocalTime         0002202c     coredll:COREDLL.dll
+ 0002:00000030       __imp_StringCchPrintfExA   00022030     coredll:COREDLL.dll
+ 0002:00000034       __imp_StringCchVPrintfExA  00022034     coredll:COREDLL.dll
+ 0002:00000038       __imp_ReleaseMutex         00022038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_CharNextW            0002203c     coredll:COREDLL.dll
+ 0002:00000040       __imp_CharPrevW            00022040     coredll:COREDLL.dll
+ 0002:00000044       __imp_InterlockedDecrement 00022044     coredll:COREDLL.dll
+ 0002:00000048       __imp_InterlockedIncrement 00022048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_StringCbCopyNW       0002204c     coredll:COREDLL.dll
+ 0002:00000050       __imp_GetDiskFreeSpaceExW  00022050     coredll:COREDLL.dll
+ 0002:00000054       __imp_QueryInstructionSet  00022054     coredll:COREDLL.dll
+ 0002:00000058       __imp_GetTempPathW         00022058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_GlobalMemoryStatus   0002205c     coredll:COREDLL.dll
+ 0002:00000060       __imp_GetClassNameW        00022060     coredll:COREDLL.dll
+ 0002:00000064       __imp_GetWindowTextW       00022064     coredll:COREDLL.dll
+ 0002:00000068       __imp_GetWindowLongW       00022068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_GetWindow            0002206c     coredll:COREDLL.dll
+ 0002:00000070       __imp_SetFileTime          00022070     coredll:COREDLL.dll
+ 0002:00000074       __imp_GetFileTime          00022074     coredll:COREDLL.dll
+ 0002:00000078       __imp_SetPassword          00022078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_CheckPassword        0002207c     coredll:COREDLL.dll
+ 0002:00000080       __imp_SetPasswordActive    00022080     coredll:COREDLL.dll
+ 0002:00000084       __imp_SHGetShortcutTarget  00022084     coredll:COREDLL.dll
+ 0002:00000088       __imp_wcsstr               00022088     corelib1:COREDLL.dll
+ 0002:0000008c       __imp_??3@YAXPAX@Z         0002208c     corelib1:COREDLL.dll
+ 0002:00000090       __imp_??2@YAPAXI@Z         00022090     corelib1:COREDLL.dll
+ 0002:00000094       __imp_wcslen               00022094     corelib1:COREDLL.dll
+ 0002:00000098       __imp_memset               00022098     corelib1:COREDLL.dll
+ 0002:0000009c       __imp_memcmp               0002209c     corelib1:COREDLL.dll
+ 0002:000000a0       __imp__wcsicmp             000220a0     corelib1:COREDLL.dll
+ 0002:000000a4       __imp_memcpy               000220a4     corelib1:COREDLL.dll
+ 0002:000000a8       __imp_wcscmp               000220a8     corelib1:COREDLL.dll
+ 0002:000000ac       __imp__wcslwr_s            000220ac     corelib1:COREDLL.dll
+ 0002:000000b0       __imp_wcsncmp              000220b0     corelib1:COREDLL.dll
+ 0002:000000b4       __imp_wcschr               000220b4     corelib1:COREDLL.dll
+ 0002:000000b8       __imp__wcsnicmp            000220b8     corelib1:COREDLL.dll
+ 0002:000000bc       __imp___rt_sdiv64by64      000220bc     corelib1:COREDLL.dll
+ 0002:000000c0       __imp___report_gsfailure   000220c0     corelib1:COREDLL.dll
+ 0002:000000c4       __imp_EventModify          000220c4     coredll:COREDLL.dll
+ 0002:000000c8       __imp___GetUserKData       000220c8     coredll:COREDLL.dll
+ 0002:000000cc       __imp_RegCloseKey          000220cc     coredll:COREDLL.dll
+ 0002:000000d0       __imp_RegQueryValueExW     000220d0     coredll:COREDLL.dll
+ 0002:000000d4       __imp_RegOpenKeyExW        000220d4     coredll:COREDLL.dll
+ 0002:000000d8       __imp_CreateWindowExW      000220d8     coredll:COREDLL.dll
+ 0002:000000dc       __imp_StringCbPrintfW      000220dc     coredll:COREDLL.dll
+ 0002:000000e0       __imp_lstrcmpW             000220e0     coredll:COREDLL.dll
+ 0002:000000e4       __imp_PostMessageW         000220e4     coredll:COREDLL.dll
+ 0002:000000e8       __imp_SendMessageW         000220e8     coredll:COREDLL.dll
+ 0002:000000ec       __imp_FindWindowW          000220ec     coredll:COREDLL.dll
+ 0002:000000f0       __imp_RegEnumKeyExW        000220f0     coredll:COREDLL.dll
+ 0002:000000f4       __imp_DestroyWindow        000220f4     coredll:COREDLL.dll
+ 0002:000000f8       __imp_DefWindowProcW       000220f8     coredll:COREDLL.dll
+ 0002:000000fc       __imp_ResumeThread         000220fc     coredll:COREDLL.dll
+ 0002:00000100       __imp_CreateThread         00022100     coredll:COREDLL.dll
+ 0002:00000104       __imp_GetDeviceUniqueID    00022104     coredll:COREDLL.dll
+ 0002:00000108       __imp_GetSystemInfo        00022108     coredll:COREDLL.dll
+ 0002:0000010c       __imp_GetVersionExW        0002210c     coredll:COREDLL.dll
+ 0002:00000110       __imp_WideCharToMultiByte  00022110     coredll:COREDLL.dll
+ 0002:00000114       __imp_SystemParametersInfoW 00022114     coredll:COREDLL.dll
+ 0002:00000118       __imp_CloseHandle          00022118     coredll:COREDLL.dll
+ 0002:0000011c       __imp_LASSClose            0002211c     coredll:COREDLL.dll
+ 0002:00000120       __imp_LASSGetResult        00022120     coredll:COREDLL.dll
+ 0002:00000124       __imp_WaitForSingleObject  00022124     coredll:COREDLL.dll
+ 0002:00000128       __imp_VerifyUserAsync      00022128     coredll:COREDLL.dll
+ 0002:0000012c       __imp_CreateMutexW         0002212c     coredll:COREDLL.dll
+ 0002:00000130       __imp_LocalFree            00022130     coredll:COREDLL.dll
+ 0002:00000134       __imp_CredWrite            00022134     coredll:COREDLL.dll
+ 0002:00000138       __imp_CredDelete           00022138     coredll:COREDLL.dll
+ 0002:0000013c       __imp_GetLastError         0002213c     coredll:COREDLL.dll
+ 0002:00000140       __imp_CryptProtectData     00022140     coredll:COREDLL.dll
+ 0002:00000144       __imp_StringCbLengthW      00022144     coredll:COREDLL.dll
+ 0002:00000148       __imp_StringCchPrintfW     00022148     coredll:COREDLL.dll
+ 0002:0000014c       __imp_CredFree             0002214c     coredll:COREDLL.dll
+ 0002:00000150       __imp_CryptUnprotectData   00022150     coredll:COREDLL.dll
+ 0002:00000154       __imp_CredRead             00022154     coredll:COREDLL.dll
+ 0002:00000158       __imp_DestroyIcon          00022158     coredll:COREDLL.dll
+ 0002:0000015c       __imp_DeleteObject         0002215c     coredll:COREDLL.dll
+ 0002:00000160       __imp_RegisterClassW       00022160     coredll:COREDLL.dll
+ 0002:00000164       __imp_GetStockObject       00022164     coredll:COREDLL.dll
+ 0002:00000168       __imp_LoadImageW           00022168     coredll:COREDLL.dll
+ 0002:0000016c       __imp_SystemIdleTimerReset 0002216c     coredll:COREDLL.dll
+ 0002:00000170       __imp_GetMessageW          00022170     coredll:COREDLL.dll
+ 0002:00000174       __imp_DispatchMessageW     00022174     coredll:COREDLL.dll
+ 0002:00000178       __imp_TranslateMessage     00022178     coredll:COREDLL.dll
+ 0002:0000017c       __imp_SetLastError         0002217c     coredll:COREDLL.dll
+ 0002:00000180       __imp_FindClose            00022180     coredll:COREDLL.dll
+ 0002:00000184       __imp_CeUnmountDBVol       00022184     coredll:COREDLL.dll
+ 0002:00000188       __imp_FreeLibrary          00022188     coredll:COREDLL.dll
+ 0002:0000018c       __imp_StringCbCatW         0002218c     coredll:COREDLL.dll
+ 0002:00000190       __imp_StringCbCopyW        00022190     coredll:COREDLL.dll
+ 0002:00000194       __imp_LocalAlloc           00022194     coredll:COREDLL.dll
+ 0002:00000198       __imp_StringCchCopyW       00022198     coredll:COREDLL.dll
+ 0002:0000019c       __imp_GetProcAddressW      0002219c     coredll:COREDLL.dll
+ 0002:000001a0       __imp_LoadLibraryW         000221a0     coredll:COREDLL.dll
+ 0002:000001a4       __imp_GetStoreInformation  000221a4     coredll:COREDLL.dll
+ 0002:000001a8       __imp_WaitForAPIReady      000221a8     coredll:COREDLL.dll
+ 0002:000001ac       __imp_GetPasswordActive    000221ac     coredll:COREDLL.dll
+ 0002:000001b0       __imp_SetForegroundWindow  000221b0     coredll:COREDLL.dll
+ 0002:000001b4       __imp_Sleep                000221b4     coredll:COREDLL.dll
+ 0002:000001b8       __imp_GetModuleFileNameW   000221b8     coredll:COREDLL.dll
+ 0002:000001bc       __imp_CreateProcessW       000221bc     coredll:COREDLL.dll
+ 0002:000001c0       __imp_StringCchCatW        000221c0     coredll:COREDLL.dll
+ 0002:000001c4       __imp_FindNextFileW        000221c4     coredll:COREDLL.dll
+ 0002:000001c8       __imp_FindFirstFileW       000221c8     coredll:COREDLL.dll
+ 0002:000001cc       __imp_GetFileAttributesW   000221cc     coredll:COREDLL.dll
+ 0002:000001d0       __imp_RegQueryInfoKeyW     000221d0     coredll:COREDLL.dll
+ 0002:000001d4       __imp_LCMapStringW         000221d4     coredll:COREDLL.dll
+ 0002:000001d8       __imp_IsSystemFile         000221d8     coredll:COREDLL.dll
+ 0002:000001dc       __imp_CeOidGetInfoEx2      000221dc     coredll:COREDLL.dll
+ 0002:000001e0       __imp_FileTimeToSystemTime 000221e0     coredll:COREDLL.dll
+ 0002:000001e4       __imp_SystemTimeToFileTime 000221e4     coredll:COREDLL.dll
+ 0002:000001e8       __imp_lstrcmpiW            000221e8     coredll:COREDLL.dll
+ 0002:000001ec       __imp_CeEnumDBVolumes      000221ec     coredll:COREDLL.dll
+ 0002:000001f0       __imp_SetFileAttributesW   000221f0     coredll:COREDLL.dll
+ 0002:000001f4       __imp_CreateFileW          000221f4     coredll:COREDLL.dll
+ 0002:000001f8       __imp_ReadFile             000221f8     coredll:COREDLL.dll
+ 0002:000001fc       __imp_WriteFile            000221fc     coredll:COREDLL.dll
+ 0002:00000200       __imp_CeFindFirstDatabase  00022200     coredll:COREDLL.dll
+ 0002:00000204       __imp_CeFindFirstDatabaseEx 00022204     coredll:COREDLL.dll
+ 0002:00000208       __imp_CeFindNextDatabase   00022208     coredll:COREDLL.dll
+ 0002:0000020c       __imp_CeFindNextDatabaseEx 0002220c     coredll:COREDLL.dll
+ 0002:00000210       __imp_CeOidGetInfo         00022210     coredll:COREDLL.dll
+ 0002:00000214       __imp_CeOidGetInfoEx       00022214     coredll:COREDLL.dll
+ 0002:00000218       __imp_CeCreateDatabase     00022218     coredll:COREDLL.dll
+ 0002:0000021c       __imp_CeCreateDatabaseEx   0002221c     coredll:COREDLL.dll
+ 0002:00000220       __imp_CeOpenDatabase       00022220     coredll:COREDLL.dll
+ 0002:00000224       __imp_CeOpenDatabaseEx     00022224     coredll:COREDLL.dll
+ 0002:00000228       __imp_CeDeleteDatabase     00022228     coredll:COREDLL.dll
+ 0002:0000022c       __imp_CeDeleteDatabaseEx   0002222c     coredll:COREDLL.dll
+ 0002:00000230       __imp_CeReadRecordPropsEx  00022230     coredll:COREDLL.dll
+ 0002:00000234       __imp_CeWriteRecordProps   00022234     coredll:COREDLL.dll
+ 0002:00000238       __imp_CeDeleteRecord       00022238     coredll:COREDLL.dll
+ 0002:0000023c       __imp_CeSeekDatabase       0002223c     coredll:COREDLL.dll
+ 0002:00000240       __imp_CeSetDatabaseInfo    00022240     coredll:COREDLL.dll
+ 0002:00000244       __imp_CreateDirectoryW     00022244     coredll:COREDLL.dll
+ 0002:00000248       __imp_RemoveDirectoryW     00022248     coredll:COREDLL.dll
+ 0002:0000024c       __imp_StringCchLengthW     0002224c     coredll:COREDLL.dll
+ 0002:00000250       __imp_MoveFileW            00022250     coredll:COREDLL.dll
+ 0002:00000254       __imp_CopyFileW            00022254     coredll:COREDLL.dll
+ 0002:00000258       __imp_CeSetDatabaseInfoEx  00022258     coredll:COREDLL.dll
+ 0002:0000025c       __imp_CeEventHasOccurred   0002225c     coredll:COREDLL.dll
+ 0002:00000260       __imp_RegCreateKeyExW      00022260     coredll:COREDLL.dll
+ 0002:00000264       __imp_RegDeleteKeyW        00022264     coredll:COREDLL.dll
+ 0002:00000268       __imp_RegEnumValueW        00022268     coredll:COREDLL.dll
+ 0002:0000026c       __imp_RegDeleteValueW      0002226c     coredll:COREDLL.dll
+ 0002:00000270       __imp_RegSetValueExW       00022270     coredll:COREDLL.dll
+ 0002:00000274       __imp_SetSystemTime        00022274     coredll:COREDLL.dll
+ 0002:00000278       __imp_GetSystemTime        00022278     coredll:COREDLL.dll
+ 0002:0000027c       __imp_GetTimeZoneInformation 0002227c     coredll:COREDLL.dll
+ 0002:00000280       __imp_CeReadRecordProps    00022280     coredll:COREDLL.dll
+ 0002:00000284       __imp_LoadLibraryExW       00022284     coredll:COREDLL.dll
+ 0002:00000288       __imp_GetFileSize          00022288     coredll:COREDLL.dll
+ 0002:0000028c       __imp_SHGetSpecialFolderPath 0002228c     coredll:COREDLL.dll
+ 0002:00000290       __imp_DeleteFileW          00022290     coredll:COREDLL.dll
+ 0002:00000294       __imp_CeMountDBVol         00022294     coredll:COREDLL.dll
+ 0002:00000298       __imp_CeFlushDBVol         00022298     coredll:COREDLL.dll
+ 0002:0000029c       __imp_StringCchPrintfExW   0002229c     coredll:COREDLL.dll
+ 0002:000002a0       __imp_SetFilePointer       000222a0     coredll:COREDLL.dll
+ 0002:000002a4       __imp_SetEndOfFile         000222a4     coredll:COREDLL.dll
+ 0002:000002a8       __imp_GetSystemMemoryDivision 000222a8     coredll:COREDLL.dll
+ 0002:000002ac       __imp_SetSystemMemoryDivision 000222ac     coredll:COREDLL.dll
+ 0002:000002b0       __imp_GetSystemMetrics     000222b0     coredll:COREDLL.dll
+ 0002:000002b4       __imp_ReleaseDC            000222b4     coredll:COREDLL.dll
+ 0002:000002b8       __imp_GetDeviceCaps        000222b8     coredll:COREDLL.dll
+ 0002:000002bc       __imp_GetDC                000222bc     coredll:COREDLL.dll
+ 0002:000002c0       __imp_GetForegroundWindow  000222c0     coredll:COREDLL.dll
+ 0002:000002c4       __imp_RegCopyFile          000222c4     coredll:COREDLL.dll
+ 0002:000002c8       __imp_RegRestoreFile       000222c8     coredll:COREDLL.dll
+ 0002:000002cc       __imp_SHCreateShortcut     000222cc     coredll:COREDLL.dll
+ 0002:000002d0       \177COREDLL_NULL_THUNK_DATA 000222d0     corelib1:COREDLL.dll
+ 0002:000002d4       __imp_SysFreeString        000222d4     oleaut32:OLEAUT32.dll
+ 0002:000002d8       __imp_SysAllocString       000222d8     oleaut32:OLEAUT32.dll
+ 0002:000002dc       __imp_SysStringByteLen     000222dc     oleaut32:OLEAUT32.dll
+ 0002:000002e0       \177OLEAUT32_NULL_THUNK_DATA 000222e0     oleaut32:OLEAUT32.dll
+ 0002:000002e4       __imp_htons                000222e4     winsock:WINSOCK.dll
+ 0002:000002e8       __imp_connect              000222e8     winsock:WINSOCK.dll
+ 0002:000002ec       __imp_WSACleanup           000222ec     winsock:WINSOCK.dll
+ 0002:000002f0       __imp_closesocket          000222f0     winsock:WINSOCK.dll
+ 0002:000002f4       __imp_send                 000222f4     winsock:WINSOCK.dll
+ 0002:000002f8       __imp_select               000222f8     winsock:WINSOCK.dll
+ 0002:000002fc       __imp_getsockopt           000222fc     winsock:WINSOCK.dll
+ 0002:00000300       __imp_recv                 00022300     winsock:WINSOCK.dll
+ 0002:00000304       __imp_WSAStartup           00022304     winsock:WINSOCK.dll
+ 0002:00000308       __imp_getpeername          00022308     winsock:WINSOCK.dll
+ 0002:0000030c       __imp_socket               0002230c     winsock:WINSOCK.dll
+ 0002:00000310       __imp_setsockopt           00022310     winsock:WINSOCK.dll
+ 0002:00000314       \177WINSOCK_NULL_THUNK_DATA 00022314     winsock:WINSOCK.dll
+ 0002:00000318       __imp_WSAGetLastError      00022318     ws2:WS2.dll
+ 0002:0000031c       __imp_freeaddrinfo         0002231c     ws2:WS2.dll
+ 0002:00000320       __imp_getaddrinfo          00022320     ws2:WS2.dll
+ 0002:00000324       __imp_WSASetLastError      00022324     ws2:WS2.dll
+ 0002:00000328       \177WS2_NULL_THUNK_DATA    00022328     ws2:WS2.dll
+ 0002:0000032c       __imp_BCryptGenRandom      0002232c     bcrypt:bcrypt.dll
+ 0002:00000330       \177bcrypt_NULL_THUNK_DATA 00022330     bcrypt:bcrypt.dll
+ 0002:00000334       __imp_CoCreateInstance     00022334     ole32:ole32.dll
+ 0002:00000338       \177ole32_NULL_THUNK_DATA  00022338     ole32:ole32.dll
+ 0002:0000033c       __imp_QueryPolicyImpl      0002233c     ossvcs:ossvcs.dll
+ 0002:00000340       \177ossvcs_NULL_THUNK_DATA 00022340     ossvcs:ossvcs.dll
+ 0002:00000348       __security_cookie          00022348     corelib0:seccinit.obj
+ 0002:0000034c       __security_cookie_complement 0002234c     corelib0:seccinit.obj
+ 0002:00000350       ?g_szSystemHivePath@@3PAGA 00022350     rapiclnt_CEBase:rapiclnt.obj
+ 0002:0000055c       ?g_fShouldStopOnAssert@@3HA 0002255c     rapiclnt_CEBase:thunks_CEBase.obj
+ 0002:00000560       ?g_cRPCVersion@@3KA        00022560     rapiclnt_CEBase:rapisess.obj
+ 0002:00000568       ?c_wszRapiLogFilename@@3PAGA 00022568     rapiclnt_CEBase:utils.obj
+ 0002:00000770       _exitflag                  00022770     corelib0:cexit.obj
+ 0002:00000774       ?s_critResList@@3UCRITICAL_SECTION@@A 00022774     rapiclnt_CEBase:rapiclnt.obj
+ 0002:000007b4       ?g_fRapiLogging@@3HA       000227b4     rapiclnt_CEBase:rapiclnt.obj
+ 0002:000007ec       __onexitend                000227ec     <common>
+ 0002:000007f0       __onexitbegin              000227f0     <common>
+ 0002:000007f4       g_pcsExit                  000227f4     <common>
+
+ entry point at        0001:00000fb8
+
+ Static symbols
+
+ 0001:00000f38       WinMainCRTStartupHelper    00011f38 f   corelib0:pegwmain.obj
+ 0001:00000fe8       doexit                     00011fe8 f   corelib0:cexit.obj
+ 0001:00001298       ?OverrideOSVersion@@YAJPAU_OSVERSIONINFOW@@@Z 00012298 f   rapiclnt_CEBase:rapiclnt.obj
+ 0001:000021b8       ?PromptForCredentials@@YAHXZ 000131b8 f   rapiclnt_CEBase:rapiclnt.obj
+ 0001:000022e4       ?SavePassword@@YAJXZ       000132e4 f   rapiclnt_CEBase:rapiclnt.obj
+ 0001:000025c4       ?CheckSharedPassword@@YAJXZ 000135c4 f   rapiclnt_CEBase:rapiclnt.obj
+ 0001:00002910       ?InitApplication@@YAJPAUHINSTANCE__@@@Z 00013910 f   rapiclnt_CEBase:rapiclnt.obj
+ 0001:0000c698       ?GetCurrentPartnerBit@@YAKXZ 0001d698 f   rapiclnt_CEBase:rapistubs.obj
+ 0001:0000c734       ?SaveActiveSyncVersion@@YAJXZ 0001d734 f   rapiclnt_CEBase:rapistubs.obj

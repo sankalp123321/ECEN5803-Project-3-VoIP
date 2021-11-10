@@ -1,0 +1,55 @@
+;
+; Copyright (c) Microsoft Corporation.  All rights reserved.
+;
+;
+; Use of this sample source code is subject to the terms of the Microsoft
+; license agreement under which you licensed this sample source code. If
+; you did not accept the terms of the license agreement, you are not
+; authorized to use this sample source code. For the terms of the license,
+; please see the license agreement between you and Microsoft or, if applicable,
+; see the LICENSE.RTF on your install media or the root of your tools installation.
+; THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+;
+MODULES
+; @CESYSGEN IF WCEAPPSFE_MODULES_RICHED20
+    riched20.dll    $(_FLATRELEASEDIR)\riched20.dll                 NK  SH
+; @CESYSGEN ENDIF
+; @CESYSGEN IF WCEAPPSFE_MODULES_MSLS4
+    msls4.dll    $(_FLATRELEASEDIR)\msls4.dll                       NK  SH
+; @CESYSGEN ENDIF
+; @CESYSGEN IF WCEAPPSFE_MODULES_RICHED60
+    riched60.dll    $(_FLATRELEASEDIR)\riched60.dll                 NK  SH
+; @CESYSGEN ENDIF
+; @CESYSGEN IF WCEAPPSFE_MODULES_OFFICE
+    office.dll      $(_FLATRELEASEDIR)\office.dll                   NK  SH
+; @CESYSGEN ENDIF
+; @CESYSGEN IF WCEAPPSFE_MODULES_PWD_RES
+    pwd_res.dll     $(_FLATRELEASEDIR)\pwd_res.dll                  NK  SH
+; @CESYSGEN ENDIF
+; @CESYSGEN IF WCEAPPSFE_MODULES_PWWIFF
+    pwwiff.dll      $(_FLATRELEASEDIR)\pwwiff.dll                   NK  SH
+; @CESYSGEN ENDIF
+; @CESYSGEN IF WCEAPPSFE_MODULES_PWORD
+    pword.exe       $(_FLATRELEASEDIR)\pword.exe                    NK  S
+; @CESYSGEN ENDIF
+
+FILES
+
+; @CESYSGEN IF WCESHELLFE_MODULES_PEGHELP || IE7_MODULES_HTMLHELP
+
+; @CESYSGEN IF WCEAPPSFE_MODULES_PWORD
+    word.htm          $(_FLATRELEASEDIR)\word.htm           NK SH
+    wordhlp.lnk       $(_FLATRELEASEDIR)\wordhlp.lnk        NK SH
+; @CESYSGEN ENDIF WCEAPPSFE_MODULES_PWORD
+
+; @CESYSGEN ENDIF WCESHELLFE_MODULES_PEGHELP || IE7_MODULES_HTMLHELP
+; @CESYSGEN IF WCEAPPSFE_MODULES_PWORD
+    mydocs.lnk        $(_FLATRELEASEDIR)\mydocs.lnk         NK SH
+    templats.lnk      $(_FLATRELEASEDIR)\templats.lnk       NK SH
+;
+    wordpad.lnk         $(_FLATRELEASEDIR)\wordpad.lnk          NK SH
+    letter.pwt        $(_FLATRELEASEDIR)\letter.pwt         NK SH
+    meetnote.pwt      $(_FLATRELEASEDIR)\meetnote.pwt       NK SH
+; @CESYSGEN ENDIF WCEAPPSFE_MODULES_PWORD
+
+

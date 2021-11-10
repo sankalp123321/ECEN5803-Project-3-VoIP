@@ -1,0 +1,226 @@
+ RetailLog
+
+ Timestamp is 5ac660a5 (Thu Apr 05 10:45:09 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 00000220H .rdata                  CODE
+ 0001:00000240 00000026H .rdata$debug            CODE
+ 0001:00000268 000014f8H .text                   CODE
+ 0001:00001760 00000028H .xdata                  CODE
+ 0001:00001788 00000014H .idata$2                CODE
+ 0001:0000179c 00000014H .idata$3                CODE
+ 0001:000017b0 000000b4H .idata$4                CODE
+ 0001:00001864 0000000cH .idata$6                CODE
+ 0001:00001870 000000cfH .edata                  CODE
+ 0002:00000000 000000b4H .idata$5                DATA
+ 0002:000000b4 0000001cH .data                   DATA
+ 0002:000000d0 00000450H .bss                    DATA
+ 0003:00000000 00000128H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:0000003c       ??_C@_1BK@HPLHGKNP@?$AA?$CF?$AAs?$AA?2?$AA?$CF?$AAs?$AA?9?$AA?$CF?$AAd?$AA?4?$AAt?$AAx?$AAt?$AA?$AA@ 1000103c     RetailLogging.obj
+ 0001:00000058       ??_C@_15GANGMFKL@?$AA?$CF?$AAs?$AA?$AA@ 10001058     RetailLogging.obj
+ 0001:00000060       ??_C@_1M@HNCAHPBK@?$AA?$CF?$AA0?$AA8?$AAx?$AA?5?$AA?$AA@ 10001060     RetailLogging.obj
+ 0001:00000070       ??_C@_1FC@IFIEALJH@?$AA?$CF?$AA0?$AA4?$AAd?$AA?9?$AA?$CF?$AA0?$AA2?$AAd?$AA?9?$AA?$CF?$AA0?$AA2?$AAd?$AA?5?$AA?$CF?$AA0?$AA2?$AAd?$AA?3?$AA?$CF?$AA0?$AA2?$AAd?$AA?3?$AA?$CF?$AA0?$AA2?$AAd?$AA?5?$AA?$CF?$AA0@ 10001070     RetailLogging.obj
+ 0001:000000c4       ??_C@_15JNBOKNOG@?$AA?$AN?$AA?6?$AA?$AA@ 100010c4     RetailLogging.obj
+ 0001:000000cc       ??_C@_1M@HIKHDIJO@?$AA?$DO?$AA?$DO?$AA?5?$AA?$CF?$AAS?$AA?$AA@ 100010cc     RetailLogging.obj
+ 0001:000000d8       ??_C@_1CC@KDOHLIP@?$AA?$DM?$AA?$DM?$AA?5?$AA?$CF?$AAS?$AA?0?$AA?5?$AAh?$AAr?$AA?5?$AA?$DN?$AA?5?$AA0?$AAx?$AA?$CF?$AAx?$AA?$AA@ 100010d8     RetailLogging.obj
+ 0001:000000fc       ??_C@_0M@KMHBNJC@UnknownFunc?$AA@ 100010fc     RetailLogging.obj
+ 0001:00000108       ??_C@_1BO@KJBANCHK@?$AAR?$AAe?$AAt?$AAa?$AAi?$AAl?$AAL?$AAo?$AAg?$AAM?$AAu?$AAt?$AAe?$AAx?$AA?$AA@ 10001108     RetailLogging.obj
+ 0001:00000234       ??_C@_1M@DFKENGJN@?$AA?$CF?$AAs?$AA?2?$AA?$CF?$AAs?$AA?$AA@ 10001234     RetailLogUtils:RetailLogUtils.obj
+ 0001:00000310       ?RetailLogDeinit@@YAJXZ    10001310 f   RetailLogging.obj
+ 0001:000003b0       ?RetailLogGetThreadInfo@@YAPAURETAILLOG_THREAD_INFO@@XZ 100013b0 f   RetailLogging.obj
+ 0001:00000404       ?RetailLogFreeThreadInfo@@YAXXZ 10001404 f   RetailLogging.obj
+ 0001:00000450       ?RetailLogRefresh@@YAJXZ   10001450 f   RetailLogging.obj
+ 0001:0000054c       ?RetailLogOpenFile@@YAJXZ  1000154c f   RetailLogging.obj
+ 0001:000006dc       ?RetailLogOutput@@YAJPBG@Z 100016dc f   RetailLogging.obj
+ 0001:00000798       ?SetTracePrefix@@YAJKPAGI@Z 10001798 f   RetailLogging.obj
+ 0001:00000920       ?RetailLogPrintString@@YAJKPBG@Z 10001920 f   RetailLogging.obj
+ 0001:000009a4       ?RetailLogLogStringfv@@YAJPBGPAD@Z 100019a4 f   RetailLogging.obj
+ 0001:00000a70       ?RetailLogLogStringf@@YAJPBGZZ 10001a70 f   RetailLogging.obj
+ 0001:00000a8c       ?RetailLogMessage@@YAJKKPBGPAD@Z 10001a8c f   RetailLogging.obj
+ 0001:00000ac8       ?RetailLogEnter@@YAXKPBD@Z 10001ac8 f   RetailLogging.obj
+ 0001:00000b30       ?RetailLogExit@@YAXKJ@Z    10001b30 f   RetailLogging.obj
+ 0001:00000bc0       ?RetailLogInit@@YAJPBG@Z   10001bc0 f   RetailLogging.obj
+ 0001:00000c28       DllMain                    10001c28 f   RetailLogDll.obj
+ 0001:00000c88       __GetUserKData             10001c88 f   coredll:COREDLL.dll
+ 0001:00000c98       CeLogData                  10001c98 f   coredll:COREDLL.dll
+ 0001:00000ca8       StringCchLengthW           10001ca8 f   coredll:COREDLL.dll
+ 0001:00000cb8       StringCchVPrintfW          10001cb8 f   coredll:COREDLL.dll
+ 0001:00000cc8       RegCloseKey                10001cc8 f   coredll:COREDLL.dll
+ 0001:00000cd8       ReleaseMutex               10001cd8 f   coredll:COREDLL.dll
+ 0001:00000ce8       CloseHandle                10001ce8 f   coredll:COREDLL.dll
+ 0001:00000cf8       WaitForSingleObject        10001cf8 f   coredll:COREDLL.dll
+ 0001:00000d08       TlsSetValue                10001d08 f   coredll:COREDLL.dll
+ 0001:00000d18       DPA_Create                 10001d18 f   coredll:COREDLL.dll
+ 0001:00000d28       TlsGetValue                10001d28 f   coredll:COREDLL.dll
+ 0001:00000d38       DPA_Destroy                10001d38 f   coredll:COREDLL.dll
+ 0001:00000d48       InterlockedExchange        10001d48 f   coredll:COREDLL.dll
+ 0001:00000d58       CreateFileW                10001d58 f   coredll:COREDLL.dll
+ 0001:00000d68       StringCchPrintfW           10001d68 f   coredll:COREDLL.dll
+ 0001:00000d78       FlushFileBuffers           10001d78 f   coredll:COREDLL.dll
+ 0001:00000d88       WriteFile                  10001d88 f   coredll:COREDLL.dll
+ 0001:00000d98       GetFileSize                10001d98 f   coredll:COREDLL.dll
+ 0001:00000da8       OutputDebugStringW         10001da8 f   coredll:COREDLL.dll
+ 0001:00000db8       StringCbPrintfExW          10001db8 f   coredll:COREDLL.dll
+ 0001:00000dc8       GetLocalTime               10001dc8 f   coredll:COREDLL.dll
+ 0001:00000dd8       GetTickCount               10001dd8 f   coredll:COREDLL.dll
+ 0001:00000de8       StringCbCatW               10001de8 f   coredll:COREDLL.dll
+ 0001:00000df8       StringCchCopyW             10001df8 f   coredll:COREDLL.dll
+ 0001:00000e08       StringCchVPrintfExW        10001e08 f   coredll:COREDLL.dll
+ 0001:00000e18       DPA_InsertPtr              10001e18 f   coredll:COREDLL.dll
+ 0001:00000e28       DPA_DeletePtr              10001e28 f   coredll:COREDLL.dll
+ 0001:00000e38       DPA_GetPtr                 10001e38 f   coredll:COREDLL.dll
+ 0001:00000e48       CreateMutexW               10001e48 f   coredll:COREDLL.dll
+ 0001:00000e58       TlsCall                    10001e58 f   coredll:COREDLL.dll
+ 0001:00000e68       ?Init@RetailLogAreaConfig@@QAAJPBG@Z 10001e68 f   RetailLogUtils:RetailLogUtils.obj
+ 0001:00000f34       ?GetConfigFlags@RetailLogAreaConfig@@QAAKXZ 10001f34 f   RetailLogUtils:RetailLogUtils.obj
+ 0001:00000f9c       ?GetLogFileLocation@RetailLogAreaConfig@@QAAJPAGI@Z 10001f9c f   RetailLogUtils:RetailLogUtils.obj
+ 0001:00001038       ?SetLogFileCurrentName@RetailLogAreaConfig@@QAAJPBG@Z 10002038 f   RetailLogUtils:RetailLogUtils.obj
+ 0001:000010c4       ?GetNumberOfLogs@RetailLogAreaConfig@@QAAKXZ 100020c4 f   RetailLogUtils:RetailLogUtils.obj
+ 0001:0000112c       ?GetNextLogNumber@RetailLogAreaConfig@@QAAKXZ 1000212c f   RetailLogUtils:RetailLogUtils.obj
+ 0001:00001194       ?SetNextLogNumber@RetailLogAreaConfig@@QAAJK@Z 10002194 f   RetailLogUtils:RetailLogUtils.obj
+ 0001:0000120c       ?GetLogMaxSize@RetailLogAreaConfig@@QAAKXZ 1000220c f   RetailLogUtils:RetailLogUtils.obj
+ 0001:00001274       ?GetEnabledZones@RetailLogAreaConfig@@QAAKXZ 10002274 f   RetailLogUtils:RetailLogUtils.obj
+ 0001:000013c8       _DllMainCRTStartup         100023c8 f   corelib0:pegdmain.obj
+ 0001:000013f4       __GSHandlerCheckCommon     100023f4 f   corelib0:gshandler.obj
+ 0001:00001430       __GSHandlerCheck           10002430 f   corelib0:gshandler.obj
+ 0001:00001450       __security_init_cookie     10002450 f   corelib0:seccinit.obj
+ 0001:0000149c       __security_check_cookie    1000249c f   corelib0:armsecgs.obj
+ 0001:000014ac       __gsfailure                100024ac     corelib0:armsecgs.obj
+ 0001:000015d8       _cexit                     100025d8 f   corelib0:cexit.obj
+ 0001:000015e8       _initterm                  100025e8 f   corelib0:crt0dat.obj
+ 0001:00001614       _cinit                     10002614 f   corelib0:crt0dat.obj
+ 0001:00001674       __crt_ExitProcess          10002674 f   corelib0:exitproc_proxy.obj
+ 0001:00001680       ??2@YAPAXI@Z               10002680 f   corelib1:COREDLL.dll
+ 0001:00001690       ??3@YAXPAX@Z               10002690 f   corelib1:COREDLL.dll
+ 0001:000016a0       _itow_s                    100026a0 f   corelib1:COREDLL.dll
+ 0001:000016b0       wcslen                     100026b0 f   corelib1:COREDLL.dll
+ 0001:000016c0       _XcptFilter                100026c0 f   corelib1:COREDLL.dll
+ 0001:000016d0       __C_specific_handler       100026d0 f   corelib1:COREDLL.dll
+ 0001:000016e0       __security_gen_cookie2     100026e0 f   corelib1:COREDLL.dll
+ 0001:000016f0       __report_gsfailure         100026f0 f   corelib1:COREDLL.dll
+ 0001:00001700       free                       10002700 f   corelib1:COREDLL.dll
+ 0001:00001710       RegCreateKeyExW            10002710 f   coredll:COREDLL.dll
+ 0001:00001720       RegQueryValueExW           10002720 f   coredll:COREDLL.dll
+ 0001:00001730       RegSetValueExW             10002730 f   coredll:COREDLL.dll
+ 0001:00001740       DeleteCriticalSection      10002740 f   coredll:COREDLL.dll
+ 0001:00001750       TerminateProcess           10002750 f   coredll:COREDLL.dll
+ 0001:00001788       __IMPORT_DESCRIPTOR_COREDLL 10002788     coredll:COREDLL.dll
+ 0001:0000179c       __NULL_IMPORT_DESCRIPTOR   1000279c     coredll:COREDLL.dll
+ 0002:00000000       __imp___GetUserKData       10003000     coredll:COREDLL.dll
+ 0002:00000004       __imp_CeLogData            10003004     coredll:COREDLL.dll
+ 0002:00000008       __imp_StringCchLengthW     10003008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_StringCchVPrintfW    1000300c     coredll:COREDLL.dll
+ 0002:00000010       __imp_RegCloseKey          10003010     coredll:COREDLL.dll
+ 0002:00000014       __imp_ReleaseMutex         10003014     coredll:COREDLL.dll
+ 0002:00000018       __imp_CloseHandle          10003018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_WaitForSingleObject  1000301c     coredll:COREDLL.dll
+ 0002:00000020       __imp_TlsSetValue          10003020     coredll:COREDLL.dll
+ 0002:00000024       __imp_DPA_Create           10003024     coredll:COREDLL.dll
+ 0002:00000028       __imp_TlsGetValue          10003028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_DPA_Destroy          1000302c     coredll:COREDLL.dll
+ 0002:00000030       __imp_InterlockedExchange  10003030     coredll:COREDLL.dll
+ 0002:00000034       __imp_CreateFileW          10003034     coredll:COREDLL.dll
+ 0002:00000038       __imp_StringCchPrintfW     10003038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_FlushFileBuffers     1000303c     coredll:COREDLL.dll
+ 0002:00000040       __imp_WriteFile            10003040     coredll:COREDLL.dll
+ 0002:00000044       __imp_GetFileSize          10003044     coredll:COREDLL.dll
+ 0002:00000048       __imp_OutputDebugStringW   10003048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_StringCbPrintfExW    1000304c     coredll:COREDLL.dll
+ 0002:00000050       __imp_GetLocalTime         10003050     coredll:COREDLL.dll
+ 0002:00000054       __imp_GetTickCount         10003054     coredll:COREDLL.dll
+ 0002:00000058       __imp_StringCbCatW         10003058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_StringCchCopyW       1000305c     coredll:COREDLL.dll
+ 0002:00000060       __imp_StringCchVPrintfExW  10003060     coredll:COREDLL.dll
+ 0002:00000064       __imp_DPA_InsertPtr        10003064     coredll:COREDLL.dll
+ 0002:00000068       __imp_DPA_DeletePtr        10003068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_DPA_GetPtr           1000306c     coredll:COREDLL.dll
+ 0002:00000070       __imp_CreateMutexW         10003070     coredll:COREDLL.dll
+ 0002:00000074       __imp_TlsCall              10003074     coredll:COREDLL.dll
+ 0002:00000078       __imp_??2@YAPAXI@Z         10003078     corelib1:COREDLL.dll
+ 0002:0000007c       __imp_??3@YAXPAX@Z         1000307c     corelib1:COREDLL.dll
+ 0002:00000080       __imp__itow_s              10003080     corelib1:COREDLL.dll
+ 0002:00000084       __imp_wcslen               10003084     corelib1:COREDLL.dll
+ 0002:00000088       __imp__XcptFilter          10003088     corelib1:COREDLL.dll
+ 0002:0000008c       __imp___C_specific_handler 1000308c     corelib1:COREDLL.dll
+ 0002:00000090       __imp___security_gen_cookie2 10003090     corelib1:COREDLL.dll
+ 0002:00000094       __imp___report_gsfailure   10003094     corelib1:COREDLL.dll
+ 0002:00000098       __imp_free                 10003098     corelib1:COREDLL.dll
+ 0002:0000009c       __imp_RegCreateKeyExW      1000309c     coredll:COREDLL.dll
+ 0002:000000a0       __imp_RegQueryValueExW     100030a0     coredll:COREDLL.dll
+ 0002:000000a4       __imp_RegSetValueExW       100030a4     coredll:COREDLL.dll
+ 0002:000000a8       __imp_DeleteCriticalSection 100030a8     coredll:COREDLL.dll
+ 0002:000000ac       __imp_TerminateProcess     100030ac     coredll:COREDLL.dll
+ 0002:000000b0       \177COREDLL_NULL_THUNK_DATA 100030b0     coredll:COREDLL.dll
+ 0002:000000b4       ?g_hRetailLogFile@@3PAXA   100030b4     RetailLogging.obj
+ 0002:000000b8       ?g_dwRetailLogTlsIndex@@3KA 100030b8     RetailLogging.obj
+ 0002:000000bc       ?g_dwRetailLogNumberOfLogs@@3KA 100030bc     RetailLogging.obj
+ 0002:000000c0       ?g_dwRetailLogLogMaxSize@@3KA 100030c0     RetailLogging.obj
+ 0002:000000c4       ?g_dwRetailLogEnabledZones@@3KA 100030c4     RetailLogging.obj
+ 0002:000000c8       __security_cookie          100030c8     corelib0:seccinit.obj
+ 0002:000000cc       __security_cookie_complement 100030cc     corelib0:seccinit.obj
+ 0002:000000d0       ?g_dwRetailLogNextLogNumber@@3KA 100030d0     RetailLogging.obj
+ 0002:000000d4       ?g_hRetailLogMutex@@3PAXA  100030d4     RetailLogging.obj
+ 0002:000000d8       ?g_wszRetailLogArea@@3PAGA 100030d8     RetailLogging.obj
+ 0002:000002e0       ?g_wszRetailLogFileLocation@@3PAGA 100032e0     RetailLogging.obj
+ 0002:000004e8       ?g_dwRetailLogControlFlags@@3KA 100034e8     RetailLogging.obj
+ 0002:000004ec       ?g_pfnRetailLogEnter@@3P6AJKPBD@ZA 100034ec     RetailLogUtils:RetailLogUtils.obj
+ 0002:000004f0       ?g_pfnRetailLogExit@@3P6AJKJ@ZA 100034f0     RetailLogUtils:RetailLogUtils.obj
+ 0002:000004f4       ?g_pfnRetailLogInit@@3P6AJPBG@ZA 100034f4     RetailLogUtils:RetailLogUtils.obj
+ 0002:000004f8       ?g_pfnRetailLogDeinit@@3P6AJXZA 100034f8     RetailLogUtils:RetailLogUtils.obj
+ 0002:000004fc       ?g_pfnRetailLogRefresh@@3P6AXXZA 100034fc     RetailLogUtils:RetailLogUtils.obj
+ 0002:00000500       ?g_pfnRetailLogMessage@@3P6AJKKPBGPAD@ZA 10003500     RetailLogUtils:RetailLogUtils.obj
+ 0002:00000504       ?g_fRetailLogEnabled@@3HA  10003504     RetailLogUtils:RetailLogUtils.obj
+ 0002:00000508       ?g_hinstRetailLog@@3PAUHINSTANCE__@@A 10003508     RetailLogUtils:RetailLogUtils.obj
+ 0002:0000050c       _exitflag                  1000350c     corelib0:cexit.obj
+ 0002:00000510       __onexitend                10003510     <common>
+ 0002:00000514       __onexitbegin              10003514     <common>
+ 0002:00000518       g_pcsExit                  10003518     <common>
+ 0002:0000051c       _pRawDllMain               1000351c     <common>
+
+ entry point at        0001:000013c8
+
+ Static symbols
+
+ 0001:00000270       CeLogMsg                   10001270 f   RetailLogging.obj
+ 0001:000012d8       _DllMainCRTStartupHelper   100022d8 f   corelib0:pegdmain.obj
+ 0001:000014f0       doexit                     100024f0 f   corelib0:cexit.obj
+
+ Exports
+
+  ordinal    name
+
+        1    ?RetailLogInit@@YAJPBG@Z (long __cdecl RetailLogInit(unsigned short const *))
+               exported name: RetailLogInit
+        2    ?RetailLogDeinit@@YAJXZ (long __cdecl RetailLogDeinit(void))
+               exported name: RetailLogDeinit
+        3    ?RetailLogEnter@@YAXKPBD@Z (void __cdecl RetailLogEnter(unsigned long,char const *))
+               exported name: RetailLogEnter
+        4    ?RetailLogExit@@YAXKJ@Z (void __cdecl RetailLogExit(unsigned long,long))
+               exported name: RetailLogExit
+        5    ?RetailLogMessage@@YAJKKPBGPAD@Z (long __cdecl RetailLogMessage(unsigned long,unsigned long,unsigned short const *,char *))
+               exported name: RetailLogMessage
+        6    ?RetailLogRefresh@@YAJXZ (long __cdecl RetailLogRefresh(void))
+               exported name: RetailLogRefresh

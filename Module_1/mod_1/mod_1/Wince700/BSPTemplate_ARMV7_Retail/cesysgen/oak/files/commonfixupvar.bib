@@ -1,0 +1,45 @@
+;
+; Copyright (c) Microsoft Corporation.  All rights reserved.
+;
+;
+; Use of this sample source code is subject to the terms of the Microsoft
+; license agreement under which you licensed this sample source code. If
+; you did not accept the terms of the license agreement, you are not
+; authorized to use this sample source code. For the terms of the license,
+; please see the license agreement between you and Microsoft or, if applicable,
+; see the LICENSE.RTF on your install media or the root of your tools installation.
+; THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+;
+
+#if (defined IMGCOMPRESSALL) || ($(MAKEIMG_BIN_FORMAT)==imageupdate)
+
+IF IMGULDR !
+
+MEMORY
+
+IF LOADERPOOLTARGET
+    nk.exe:LoaderPoolTarget   00000000 $(LOADERPOOLTARGET) FIXUPVAR
+ENDIF
+
+IF FILEPOOLTARGET
+    nk.exe:FilePoolTarget     00000000 $(FILEPOOLTARGET) FIXUPVAR
+ENDIF
+
+IF PAGEOUTLOW
+    nk.exe:PageOutLow         00000000 $(PAGEOUTLOW) FIXUPVAR
+ENDIF
+
+IF PAGEOUTHIGH
+    nk.exe:PageOutHigh        00000000 $(PAGEOUTHIGH) FIXUPVAR
+ENDIF
+
+ENDIF ; IMGULDR
+
+#endif
+
+MEMORY
+
+; This fix-up variable is a BOOL that can be used to initialize
+; the application verifier engine immediately at boot. Uncomment
+; the line to set the initial state.
+;  kernel.dll:g_fAppVerifierEnabled 00000000 0x00000001 FIXUPVAR

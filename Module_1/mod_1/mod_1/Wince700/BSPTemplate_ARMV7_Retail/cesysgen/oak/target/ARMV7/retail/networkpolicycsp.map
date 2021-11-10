@@ -1,0 +1,319 @@
+ networkpolicycsp
+
+ Timestamp is 5ac65237 (Thu Apr 05 09:43:35 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCU                CODE
+ 0001:00000008 00000004H .CRT$XCZ                CODE
+ 0001:0000000c 00000004H .CRT$XIA                CODE
+ 0001:00000010 00000004H .CRT$XIZ                CODE
+ 0001:00000014 00000004H .CRT$XPA                CODE
+ 0001:00000018 00000004H .CRT$XPZ                CODE
+ 0001:0000001c 00000004H .CRT$XTA                CODE
+ 0001:00000020 00000004H .CRT$XTZ                CODE
+ 0001:00000030 000013a0H .rdata                  CODE
+ 0001:000013d0 0000002dH .rdata$debug            CODE
+ 0001:00001400 00002be0H .text                   CODE
+ 0001:00003fe0 00000004H .text$yc                CODE
+ 0001:00003fe4 0000000cH .text$yd                CODE
+ 0001:00003ff0 00000034H .xdata                  CODE
+ 0001:00004024 0000003cH .idata$2                CODE
+ 0001:00004060 00000014H .idata$3                CODE
+ 0001:00004074 000000b4H .idata$4                CODE
+ 0001:00004128 00000060H .idata$6                CODE
+ 0001:00004190 00000085H .edata                  CODE
+ 0002:00000000 000000b4H .idata$5                DATA
+ 0002:000000b4 00000028H .data                   DATA
+ 0002:000000dc 00000038H .bss                    DATA
+ 0003:00000000 00000320H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000008       __xc_z                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_a                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xi_z                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_a                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xp_z                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_a                     1000101c     corelib0:crt0init.obj
+ 0001:00000020       __xt_z                     10001020     corelib0:crt0init.obj
+ 0001:0000004c       _GUID_00000001_0000_0000_c000_000000000046 1000104c     dllmain.obj
+ 0001:0000005c       _GUID_00000000_0000_0000_c000_000000000046 1000105c     dllmain.obj
+ 0001:0000006c       ??_7CClassFactory@@6B@     1000106c     dllmain.obj
+ 0001:00000080       _GUID_28ce1fb6_f2d1_4725_9d1c_b17cd80449b7 10001080     dllmain.obj
+ 0001:00000090       ??_C@_1DI@GHCEKNCH@?$AAN?$AAe?$AAt?$AAw?$AAo?$AAr?$AAk?$AAP?$AAo?$AAl?$AAi?$AAc?$AAy?$AA?1?$AAI?$AAr?$AAd?$AAa?$AA?1?$AAS?$AAe?$AAt?$AAt?$AAi?$AAn?$AAg?$AAs?$AA?$AA@ 10001090     NetPolicyCsp.obj
+ 0001:000000c8       ??_C@_1DI@OHOKBFBI@?$AAN?$AAe?$AAt?$AAw?$AAo?$AAr?$AAk?$AAP?$AAo?$AAl?$AAi?$AAc?$AAy?$AA?1?$AAW?$AAi?$AAF?$AAi?$AA?1?$AAS?$AAe?$AAt?$AAt?$AAi?$AAn?$AAg?$AAs?$AA?$AA@ 100010c8     NetPolicyCsp.obj
+ 0001:00000100       ??_C@_1FA@NNINFELK@?$AAN?$AAe?$AAt?$AAw?$AAo?$AAr?$AAk?$AAP?$AAo?$AAl?$AAi?$AAc?$AAy?$AA?1?$AAB?$AAl?$AAu?$AAe?$AAt?$AAo?$AAo?$AAt?$AAh?$AA?1?$AAA?$AAl?$AAl?$AAo?$AAw?$AAe?$AAd?$AAP@ 10001100     NetPolicyCsp.obj
+ 0001:00000150       ??_C@_1EC@BHBJGHLC@?$AAN?$AAe?$AAt?$AAw?$AAo?$AAr?$AAk?$AAP?$AAo?$AAl?$AAi?$AAc?$AAy?$AA?1?$AAB?$AAl?$AAu?$AAe?$AAt?$AAo?$AAo?$AAt?$AAh?$AA?1?$AAS?$AAe?$AAt?$AAt?$AAi?$AAn?$AAg?$AAs@ 10001150     NetPolicyCsp.obj
+ 0001:00000198       ??_7NetPolicyCsp@@6B@      10001198     NetPolicyCsp.obj
+ 0001:000001e0       ??_C@_1BC@FGCJDNHA@?$AAD?$AAi?$AAs?$AAa?$AAb?$AAl?$AAe?$AAd?$AA?$AA@ 100011e0     BthSettingsParmCollection.obj
+ 0001:000001f4       ??_C@_1DK@OJIKOMF@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAN?$AAe?$AAt?$AAw?$AAo?$AAr?$AAk?$AAP?$AAo?$AAl?$AAi?$AAc?$AAy?$AA?2?$AAB?$AAl?$AAu?$AAe?$AAt?$AAo?$AAo?$AAt?$AAh?$AA?$AA@ 100011f4     BthSettingsParmCollection.obj
+ 0001:00000230       ??_7BthSettingsParmCollection@@6B@ 10001230     BthSettingsParmCollection.obj
+ 0001:00000250       ??_C@_1DA@FDANLDON@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAN?$AAe?$AAt?$AAw?$AAo?$AAr?$AAk?$AAP?$AAo?$AAl?$AAi?$AAc?$AAy?$AA?2?$AAI?$AAr?$AAd?$AAa?$AA?$AA@ 10001250     IrdaSettingsParmCollection.obj
+ 0001:00000280       ??_7IrdaSettingsParmCollection@@6B@ 10001280     IrdaSettingsParmCollection.obj
+ 0001:000002a0       ??_C@_1DA@MEGLKDBJ@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAN?$AAe?$AAt?$AAw?$AAo?$AAr?$AAk?$AAP?$AAo?$AAl?$AAi?$AAc?$AAy?$AA?2?$AAW?$AAi?$AAF?$AAi?$AA?$AA@ 100012a0     WiFiSettingsParmCollection.obj
+ 0001:000002d0       ??_7WiFiSettingsParmCollection@@6B@ 100012d0     WiFiSettingsParmCollection.obj
+ 0001:000002f0       ?s_szRegistryPathRoot@BthProfilesParmCollection@@1QBGB 100012f0     BthProfilesParmCollection.obj
+ 0001:0000034c       ??_C@_1BM@MHHIJANF@?$AAE?$AAn?$AAu?$AAm?$AA?5?$AAP?$AAa?$AAr?$AAm?$AA?3?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 1000134c     BthProfilesParmCollection.obj
+ 0001:00000368       ??_7BthProfilesParmCollection@@6B@ 10001368     BthProfilesParmCollection.obj
+ 0001:00000388       ??_C@_1FO@MIIHAILN@?$AA?9?$AA?9?$AAB?$AAt?$AAh?$AAP?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AAs?$AAP?$AAa?$AAr?$AAm?$AAC?$AAo?$AAl?$AAl?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?3?$AA?3?$AAS?$AAe?$AAt@ 10001388     BthProfilesParmCollection.obj
+ 0001:000003e8       ??_C@_1IO@PAFEEGMD@?$AA?$CL?$AA?$CL?$AAB?$AAt?$AAh?$AAP?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AAs?$AAP?$AAa?$AAr?$AAm?$AAC?$AAo?$AAl?$AAl?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?3?$AA?3?$AAS?$AAe?$AAt@ 100013e8     BthProfilesParmCollection.obj
+ 0001:00000478       ??_C@_1FO@BBJGDCHG@?$AA?9?$AA?9?$AAB?$AAt?$AAh?$AAP?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AAs?$AAP?$AAa?$AAr?$AAm?$AAC?$AAo?$AAl?$AAl?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?3?$AA?3?$AAG?$AAe?$AAt@ 10001478     BthProfilesParmCollection.obj
+ 0001:000004d8       ??_C@_1GM@FKNJGAMJ@?$AA?$CL?$AA?$CL?$AAB?$AAt?$AAh?$AAP?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AAs?$AAP?$AAa?$AAr?$AAm?$AAC?$AAo?$AAl?$AAl?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?3?$AA?3?$AAG?$AAe?$AAt@ 100014d8     BthProfilesParmCollection.obj
+ 0001:00000548       ??_C@_1GE@HMNBEKEG@?$AA?9?$AA?9?$AAB?$AAt?$AAh?$AAP?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AAs?$AAP?$AAa?$AAr?$AAm?$AAC?$AAo?$AAl?$AAl?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?3?$AA?3?$AAD?$AAe?$AAl@ 10001548     BthProfilesParmCollection.obj
+ 0001:000005b0       ??_C@_1HC@LFNFFFJH@?$AA?$CL?$AA?$CL?$AAB?$AAt?$AAh?$AAP?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AAs?$AAP?$AAa?$AAr?$AAm?$AAC?$AAo?$AAl?$AAl?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?3?$AA?3?$AAD?$AAe?$AAl@ 100015b0     BthProfilesParmCollection.obj
+ 0001:00000624       _GUID_d83013b4_9ec6_464f_a188_1854cd5b4e99 10001624     csphlplib:BaseCspImpl.obj
+ 0001:00000638       ??_C@_1GI@NBJPFCEN@?$AAB?$AAa?$AAs?$AAe?$AAC?$AAs?$AAp?$AAI?$AAm?$AAp?$AAl?$AA?3?$AA?3?$AAH?$AAa?$AAn?$AAd?$AAl?$AAe?$AAN?$AAo?$AAC?$AAh?$AAa?$AAr?$AAa?$AAc?$AAt?$AAe?$AAr?$AAi?$AAs@ 10001638     csphlplib:BaseCspImpl.obj
+ 0001:000006a0       ??_C@_1EG@KCDODIBE@?$AA?9?$AA?9?$AAB?$AAa?$AAs?$AAe?$AAC?$AAs?$AAp?$AAI?$AAm?$AAp?$AAl?$AA?3?$AA?3?$AAE?$AAn?$AAu?$AAm?$AAP?$AAa?$AAr?$AAm?$AAs?$AA?3?$AA?5?$AAh?$AAr?$AA?$FL?$AA0?$AAx?$AA?$CF@ 100016a0     csphlplib:BaseCspImpl.obj
+ 0001:000006e8       ??_C@_1DC@DMNABBJA@?$AA?$CL?$AA?$CL?$AAB?$AAa?$AAs?$AAe?$AAC?$AAs?$AAp?$AAI?$AAm?$AAp?$AAl?$AA?3?$AA?3?$AAE?$AAn?$AAu?$AAm?$AAP?$AAa?$AAr?$AAm?$AAs?$AA?$AA@ 100016e8     csphlplib:BaseCspImpl.obj
+ 0001:00000720       ??_C@_1EI@HLNHNFNA@?$AA?9?$AA?9?$AAB?$AAa?$AAs?$AAe?$AAC?$AAs?$AAp?$AAI?$AAm?$AAp?$AAl?$AA?3?$AA?3?$AAH?$AAa?$AAn?$AAd?$AAl?$AAe?$AAP?$AAa?$AAr?$AAm?$AA?3?$AA?5?$AAh?$AAr?$AA?$FL?$AA0?$AAx@ 10001720     csphlplib:BaseCspImpl.obj
+ 0001:00000768       ??_C@_1IO@PLPLHAAA@?$AA?$CL?$AA?$CL?$AAB?$AAa?$AAs?$AAe?$AAC?$AAs?$AAp?$AAI?$AAm?$AAp?$AAl?$AA?3?$AA?3?$AAH?$AAa?$AAn?$AAd?$AAl?$AAe?$AAP?$AAa?$AAr?$AAm?$AA?3?$AA?5?$AAb?$AAs?$AAt?$AAr?$AAN@ 10001768     csphlplib:BaseCspImpl.obj
+ 0001:000007f8       ??_C@_1EM@PGOCBBLE@?$AA?9?$AA?9?$AAB?$AAa?$AAs?$AAe?$AAC?$AAs?$AAp?$AAI?$AAm?$AAp?$AAl?$AA?3?$AA?3?$AAH?$AAa?$AAn?$AAd?$AAl?$AAe?$AAN?$AAo?$AAP?$AAa?$AAr?$AAm?$AA?3?$AA?5?$AAh?$AAr?$AA?$FL@ 100017f8     csphlplib:BaseCspImpl.obj
+ 0001:00000848       ??_C@_1HG@KGNFBGCP@?$AA?$CL?$AA?$CL?$AAB?$AAa?$AAs?$AAe?$AAC?$AAs?$AAp?$AAI?$AAm?$AAp?$AAl?$AA?3?$AA?3?$AAH?$AAa?$AAn?$AAd?$AAl?$AAe?$AAN?$AAo?$AAP?$AAa?$AAr?$AAm?$AA?3?$AA?5?$AAb?$AAs?$AAt@ 10001848     csphlplib:BaseCspImpl.obj
+ 0001:000008c0       ??_C@_1FC@KJCOHHI@?$AA?9?$AA?9?$AAB?$AAa?$AAs?$AAe?$AAC?$AAs?$AAp?$AAI?$AAm?$AAp?$AAl?$AA?3?$AA?3?$AAH?$AAa?$AAn?$AAd?$AAl?$AAe?$AAP?$AAa?$AAr?$AAm?$AAQ?$AAu?$AAe?$AAr?$AAy?$AA?3?$AA?5@ 100018c0     csphlplib:BaseCspImpl.obj
+ 0001:00000918       ??_C@_1HM@GOGIMPEP@?$AA?$CL?$AA?$CL?$AAB?$AAa?$AAs?$AAe?$AAC?$AAs?$AAp?$AAI?$AAm?$AAp?$AAl?$AA?3?$AA?3?$AAH?$AAa?$AAn?$AAd?$AAl?$AAe?$AAP?$AAa?$AAr?$AAm?$AAQ?$AAu?$AAe?$AAr?$AAy?$AA?3?$AA?5@ 10001918     csphlplib:BaseCspImpl.obj
+ 0001:00000994       ??_C@_1BM@KHNBLMDO@?$AAE?$AAx?$AAi?$AAt?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AAE?$AAx?$AA?$AA@ 10001994     csphlplib:BaseCspImpl.obj
+ 0001:000009b0       ??_C@_1BK@HMCKJION@?$AAa?$AAy?$AAg?$AAs?$AAh?$AAe?$AAl?$AAl?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 100019b0     csphlplib:BaseCspImpl.obj
+ 0001:000009cc       ??_C@_1BM@KNMIPPOJ@?$AAD?$AAi?$AAs?$AAa?$AAb?$AAl?$AAe?$AAR?$AAe?$AAb?$AAo?$AAo?$AAt?$AA?$AA@ 100019cc     csphlplib:BaseCspImpl.obj
+ 0001:000009e8       ??_C@_1CG@DAIPOGDN@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAN?$AAe?$AAt?$AAw?$AAo?$AAr?$AAk?$AAP?$AAo?$AAl?$AAi?$AAc?$AAy?$AA?$AA@ 100019e8     csphlplib:BaseCspImpl.obj
+ 0001:00000a10       ??_C@_1FG@PKBKLPNK@?$AA?9?$AA?9?$AAB?$AAa?$AAs?$AAe?$AAC?$AAs?$AAp?$AAI?$AAm?$AAp?$AAl?$AA?3?$AA?3?$AAE?$AAn?$AAd?$AAC?$AAh?$AAa?$AAr?$AAa?$AAc?$AAt?$AAe?$AAr?$AAi?$AAs?$AAt?$AAi?$AAc@ 10001a10     csphlplib:BaseCspImpl.obj
+ 0001:00000a68       ??_C@_1IK@GEHDDJCM@?$AA?$CL?$AA?$CL?$AAB?$AAa?$AAs?$AAe?$AAC?$AAs?$AAp?$AAI?$AAm?$AAp?$AAl?$AA?3?$AA?3?$AAE?$AAn?$AAd?$AAC?$AAh?$AAa?$AAr?$AAa?$AAc?$AAt?$AAe?$AAr?$AAi?$AAs?$AAt?$AAi?$AAc@ 10001a68     csphlplib:BaseCspImpl.obj
+ 0001:00000af8       ??_C@_1FM@MGMKLDBP@?$AA?9?$AA?9?$AAB?$AAa?$AAs?$AAe?$AAC?$AAs?$AAp?$AAI?$AAm?$AAp?$AAl?$AA?3?$AA?3?$AAH?$AAa?$AAn?$AAd?$AAl?$AAe?$AAC?$AAh?$AAa?$AAr?$AAa?$AAc?$AAt?$AAe?$AAr?$AAi?$AAs@ 10001af8     csphlplib:BaseCspImpl.obj
+ 0001:00000b58       ??_C@_1HK@FHAADFIB@?$AAB?$AAa?$AAs?$AAe?$AAC?$AAs?$AAp?$AAI?$AAm?$AAp?$AAl?$AA?3?$AA?3?$AAH?$AAa?$AAn?$AAd?$AAl?$AAe?$AAC?$AAh?$AAa?$AAr?$AAa?$AAc?$AAt?$AAe?$AAr?$AAi?$AAs?$AAt?$AAi@ 10001b58     csphlplib:BaseCspImpl.obj
+ 0001:00000bd8       ??_C@_1IG@HIDOHNPG@?$AA?$CL?$AA?$CL?$AAB?$AAa?$AAs?$AAe?$AAC?$AAs?$AAp?$AAI?$AAm?$AAp?$AAl?$AA?3?$AA?3?$AAH?$AAa?$AAn?$AAd?$AAl?$AAe?$AAC?$AAh?$AAa?$AAr?$AAa?$AAc?$AAt?$AAe?$AAr?$AAi?$AAs@ 10001bd8     csphlplib:BaseCspImpl.obj
+ 0001:00000c60       ??_C@_1FK@BLPILHID@?$AA?9?$AA?9?$AAB?$AAa?$AAs?$AAe?$AAC?$AAs?$AAp?$AAI?$AAm?$AAp?$AAl?$AA?3?$AA?3?$AAE?$AAn?$AAu?$AAm?$AAC?$AAh?$AAa?$AAr?$AAa?$AAc?$AAt?$AAe?$AAr?$AAi?$AAs?$AAt?$AAi@ 10001c60     csphlplib:BaseCspImpl.obj
+ 0001:00000cc0       ??_C@_1EG@IGMDPGHN@?$AA?$CL?$AA?$CL?$AAB?$AAa?$AAs?$AAe?$AAC?$AAs?$AAp?$AAI?$AAm?$AAp?$AAl?$AA?3?$AA?3?$AAE?$AAn?$AAu?$AAm?$AAC?$AAh?$AAa?$AAr?$AAa?$AAc?$AAt?$AAe?$AAr?$AAi?$AAs?$AAt?$AAi@ 10001cc0     csphlplib:BaseCspImpl.obj
+ 0001:00000d08       ??_C@_1GG@KEDEAOA@?$AA?9?$AA?9?$AAB?$AAa?$AAs?$AAe?$AAC?$AAs?$AAp?$AAI?$AAm?$AAp?$AAl?$AA?3?$AA?3?$AAH?$AAa?$AAn?$AAd?$AAl?$AAe?$AAC?$AAh?$AAa?$AAr?$AAa?$AAc?$AAt?$AAe?$AAr?$AAi?$AAs@ 10001d08     csphlplib:BaseCspImpl.obj
+ 0001:00000d70       ??_C@_1IE@PKEHKBHA@?$AAB?$AAa?$AAs?$AAe?$AAC?$AAs?$AAp?$AAI?$AAm?$AAp?$AAl?$AA?3?$AA?3?$AAH?$AAa?$AAn?$AAd?$AAl?$AAe?$AAC?$AAh?$AAa?$AAr?$AAa?$AAc?$AAt?$AAe?$AAr?$AAi?$AAs?$AAt?$AAi@ 10001d70     csphlplib:BaseCspImpl.obj
+ 0001:00000df8       ??_C@_1KM@IJPIEIIB@?$AA?$CL?$AA?$CL?$AAB?$AAa?$AAs?$AAe?$AAC?$AAs?$AAp?$AAI?$AAm?$AAp?$AAl?$AA?3?$AA?3?$AAH?$AAa?$AAn?$AAd?$AAl?$AAe?$AAC?$AAh?$AAa?$AAr?$AAa?$AAc?$AAt?$AAe?$AAr?$AAi?$AAs@ 10001df8     csphlplib:BaseCspImpl.obj
+ 0001:00000ea8       ??_C@_1GE@DMBDKNA@?$AA?9?$AA?9?$AAB?$AAa?$AAs?$AAe?$AAC?$AAs?$AAp?$AAI?$AAm?$AAp?$AAl?$AA?3?$AA?3?$AAT?$AAr?$AAa?$AAn?$AAs?$AAl?$AAa?$AAt?$AAe?$AAP?$AAa?$AAr?$AAm?$AAT?$AAa?$AAb?$AAl@ 10001ea8     csphlplib:BaseCspImpl.obj
+ 0001:00000f10       ??_C@_1FA@PHIHGNNH@?$AA?$CL?$AA?$CL?$AAB?$AAa?$AAs?$AAe?$AAC?$AAs?$AAp?$AAI?$AAm?$AAp?$AAl?$AA?3?$AA?3?$AAT?$AAr?$AAa?$AAn?$AAs?$AAl?$AAa?$AAt?$AAe?$AAP?$AAa?$AAr?$AAm?$AAT?$AAa?$AAb?$AAl@ 10001f10     csphlplib:BaseCspImpl.obj
+ 0001:00000f60       ??_7BaseCspImpl@@6B@       10001f60     csphlplib:BaseCspImpl.obj
+ 0001:00000fa8       ??_C@_1DC@DCOGCPGG@?$AAB?$AAa?$AAs?$AAe?$AAC?$AAs?$AAp?$AAI?$AAm?$AAp?$AAl?$AA?5?$AAC?$AAo?$AAn?$AAs?$AAt?$AAr?$AAu?$AAc?$AAt?$AAi?$AAn?$AAg?$AA?$AA@ 10001fa8     csphlplib:BaseCspImpl.obj
+ 0001:00000fdc       ??_C@_1DC@PCGGGNEP@?$AA?$HO?$AAB?$AAa?$AAs?$AAe?$AAC?$AAs?$AAp?$AAI?$AAm?$AAp?$AAl?$AA?5?$AAD?$AAe?$AAs?$AAt?$AAr?$AAu?$AAc?$AAt?$AAi?$AAn?$AAg?$AA?$AA@ 10001fdc     csphlplib:BaseCspImpl.obj
+ 0001:00001010       ??_C@_1FA@DPBCOJIG@?$AA?9?$AA?9?$AAB?$AAa?$AAs?$AAe?$AAP?$AAa?$AAr?$AAm?$AAC?$AAo?$AAl?$AAl?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?3?$AA?3?$AAS?$AAe?$AAt?$AAP?$AAa?$AAr?$AAm?$AA?3?$AA?5?$AAh@ 10002010     csphlplib:BaseParmCollection.obj
+ 0001:00001060       ??_C@_1IA@LNOLLBJG@?$AA?$CL?$AA?$CL?$AAB?$AAa?$AAs?$AAe?$AAP?$AAa?$AAr?$AAm?$AAC?$AAo?$AAl?$AAl?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?3?$AA?3?$AAS?$AAe?$AAt?$AAP?$AAa?$AAr?$AAm?$AA?3?$AA?5?$AAp@ 10002060     csphlplib:BaseParmCollection.obj
+ 0001:000010e0       ??_C@_1FA@OGADNDEN@?$AA?9?$AA?9?$AAB?$AAa?$AAs?$AAe?$AAP?$AAa?$AAr?$AAm?$AAC?$AAo?$AAl?$AAl?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?3?$AA?3?$AAG?$AAe?$AAt?$AAP?$AAa?$AAr?$AAm?$AA?3?$AA?5?$AAh@ 100020e0     csphlplib:BaseParmCollection.obj
+ 0001:00001130       ??_C@_1FO@HKOJCCHE@?$AA?$CL?$AA?$CL?$AAB?$AAa?$AAs?$AAe?$AAP?$AAa?$AAr?$AAm?$AAC?$AAo?$AAl?$AAl?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?3?$AA?3?$AAG?$AAe?$AAt?$AAP?$AAa?$AAr?$AAm?$AA?3?$AA?5?$AAp@ 10002130     csphlplib:BaseParmCollection.obj
+ 0001:00001190       ??_C@_1FG@DNMNCHIE@?$AA?9?$AA?9?$AAB?$AAa?$AAs?$AAe?$AAP?$AAa?$AAr?$AAm?$AAC?$AAo?$AAl?$AAl?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?3?$AA?3?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AAP?$AAa?$AAr?$AAm@ 10002190     csphlplib:BaseParmCollection.obj
+ 0001:000011e8       ??_C@_1GE@PJNEOAFE@?$AA?$CL?$AA?$CL?$AAB?$AAa?$AAs?$AAe?$AAP?$AAa?$AAr?$AAm?$AAC?$AAo?$AAl?$AAl?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?3?$AA?3?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AAP?$AAa?$AAr?$AAm@ 100021e8     csphlplib:BaseParmCollection.obj
+ 0001:0000124c       ??_7BaseParmCollection@@6B@ 1000224c     csphlplib:BaseParmCollection.obj
+ 0001:00001270       ??_C@_1EA@IOHLECAJ@?$AAB?$AAa?$AAs?$AAe?$AAP?$AAa?$AAr?$AAm?$AAC?$AAo?$AAl?$AAl?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAC?$AAo?$AAn?$AAs?$AAt?$AAr?$AAu?$AAc?$AAt?$AAi?$AAn?$AAg?$AA?$AA@ 10002270     csphlplib:BaseParmCollection.obj
+ 0001:000012b0       ??_C@_1FA@BGBIBLGO@?$AA?9?$AA?9?$AAB?$AAa?$AAs?$AAe?$AAP?$AAa?$AAr?$AAm?$AAC?$AAo?$AAl?$AAl?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?3?$AA?3?$AAA?$AAd?$AAd?$AAP?$AAa?$AAr?$AAm?$AA?3?$AA?5?$AAh@ 100022b0     csphlplib:BaseParmCollection.obj
+ 0001:00001300       ??_C@_1GA@IADIIBBN@?$AAB?$AAa?$AAs?$AAe?$AAP?$AAa?$AAr?$AAm?$AAC?$AAo?$AAl?$AAl?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?3?$AA?3?$AAA?$AAd?$AAd?$AAP?$AAa?$AAr?$AAm?$AA?3?$AA?5?$AAI?$AAn?$AAv@ 10002300     csphlplib:BaseParmCollection.obj
+ 0001:00001360       ??_C@_1FO@HIEBDGDI@?$AA?$CL?$AA?$CL?$AAB?$AAa?$AAs?$AAe?$AAP?$AAa?$AAr?$AAm?$AAC?$AAo?$AAl?$AAl?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?3?$AA?3?$AAA?$AAd?$AAd?$AAP?$AAa?$AAr?$AAm?$AA?3?$AA?5?$AAp@ 10002360     csphlplib:BaseParmCollection.obj
+ 0001:000013c0       ??_7RegistryDwordParm@@6B@ 100023c0     csphlplib:RegistryParm.obj
+ 0001:00001400       ?CreateInstance@NetPolicyCsp@@SAPAUIUnknown@@XZ 10002400 f i dllmain.obj
+ 0001:00001420       ?QueryInterface@CClassFactory@@UAAJABU_GUID@@PAPAX@Z 10002420 f   dllmain.obj
+ 0001:000014a0       ?AddRef@CClassFactory@@UAAKXZ 100024a0 f   dllmain.obj
+ 0001:000014a8       ?Release@CClassFactory@@UAAKXZ 100024a8 f   dllmain.obj
+ 0001:000014cc       ?CreateInstance@CClassFactory@@UAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 100024cc f   dllmain.obj
+ 0001:00001550       ?LockServer@CClassFactory@@UAAJH@Z 10002550 f   dllmain.obj
+ 0001:0000157c       DllCanUnloadNow            1000257c f   dllmain.obj
+ 0001:000015a0       DllMain                    100025a0 f   dllmain.obj
+ 0001:000015d8       DllGetClassObject          100025d8 f   dllmain.obj
+ 0001:00001698       ?get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ 10002698 f i dllmain.obj
+ 0001:000016ec       ??0NetPolicyCsp@@QAA@XZ    100026ec f   NetPolicyCsp.obj
+ 0001:00001718       ??_GNetPolicyCsp@@UAAPAXI@Z 10002718 f i NetPolicyCsp.obj
+ 0001:00001718       ??_ENetPolicyCsp@@UAAPAXI@Z 10002718 f i NetPolicyCsp.obj
+ 0001:0000173c       ?DbgMsg@@YAXKPBGZZ         1000273c f   NetPolicyCspDebug.obj
+ 0001:0000174c       ??0BthSettingsParmCollection@@QAA@XZ 1000274c f   BthSettingsParmCollection.obj
+ 0001:000017ac       ?Factory@BthSettingsParmCollection@@SAPAVIParmCollection@@XZ 100027ac f   BthSettingsParmCollection.obj
+ 0001:000017cc       ??0IrdaSettingsParmCollection@@QAA@XZ 100027cc f   IrdaSettingsParmCollection.obj
+ 0001:0000182c       ?Factory@IrdaSettingsParmCollection@@SAPAVIParmCollection@@XZ 1000282c f   IrdaSettingsParmCollection.obj
+ 0001:0000184c       ??0WiFiSettingsParmCollection@@QAA@XZ 1000284c f   WiFiSettingsParmCollection.obj
+ 0001:000018ac       ?Factory@WiFiSettingsParmCollection@@SAPAVIParmCollection@@XZ 100028ac f   WiFiSettingsParmCollection.obj
+ 0001:000018cc       ?EnumValue@CReg@@QAAHPAGK0K@Z 100028cc f i BthProfilesParmCollection.obj
+ 0001:00001950       ?GetLengthAndType@CReg@@QAAHPBGPAK1@Z 10002950 f i BthProfilesParmCollection.obj
+ 0001:00001998       ?SetDW@CReg@@QAAHPBGK@Z    10002998 f i BthProfilesParmCollection.obj
+ 0001:000019e0       ?GetNextParmName@BthProfilesParmCollection@@UAAHPAGK@Z 100029e0 f   BthProfilesParmCollection.obj
+ 0001:00001a34       ?EndParmNameEnum@BthProfilesParmCollection@@UAAXXZ 10002a34 f   BthProfilesParmCollection.obj
+ 0001:00001a60       ?IsRebootRequired@BthProfilesParmCollection@@UAAHXZ 10002a60 f   BthProfilesParmCollection.obj
+ 0001:00001a68       ?Create@CReg@@QAAHPAUHKEY__@@PBG@Z 10002a68 f i BthProfilesParmCollection.obj
+ 0001:00001ae8       ?Open@CReg@@QAAHPAUHKEY__@@PBGK@Z 10002ae8 f i BthProfilesParmCollection.obj
+ 0001:00001b50       ?SetParm@BthProfilesParmCollection@@UAAJPBG0@Z 10002b50 f   BthProfilesParmCollection.obj
+ 0001:00001c4c       ?GetParm@BthProfilesParmCollection@@UAAJPBGPAUtagVARIANT@@@Z 10002c4c f   BthProfilesParmCollection.obj
+ 0001:00001d14       ?DeleteParm@BthProfilesParmCollection@@UAAJPBG@Z 10002d14 f   BthProfilesParmCollection.obj
+ 0001:00001ddc       ?GetFirstParmName@BthProfilesParmCollection@@UAAHPAGK@Z 10002ddc f   BthProfilesParmCollection.obj
+ 0001:00001e54       ?Factory@BthProfilesParmCollection@@SAPAVIParmCollection@@XZ 10002e54 f   BthProfilesParmCollection.obj
+ 0001:00001e9c       ?ValueDW@CReg@@QAAKPBGK@Z  10002e9c f i csphlplib:BaseCspImpl.obj
+ 0001:00001ee8       ?QueryInterface@BaseCspImpl@@UAAJABU_GUID@@PAPAX@Z 10002ee8 f   csphlplib:BaseCspImpl.obj
+ 0001:00001f8c       ?AddRef@BaseCspImpl@@UAAKXZ 10002f8c f   csphlplib:BaseCspImpl.obj
+ 0001:00001f94       ?Release@BaseCspImpl@@UAAKXZ 10002f94 f   csphlplib:BaseCspImpl.obj
+ 0001:00001fcc       ?QueryTransactioningMode@BaseCspImpl@@UAAJPAW4ConfigTransactioningMode@@@Z 10002fcc f   csphlplib:BaseCspImpl.obj
+ 0001:00001fe8       ?CancelProcessing@BaseCspImpl@@UAAJXZ 10002fe8 f   csphlplib:BaseCspImpl.obj
+ 0001:00001ff0       ?BeginTransaction@BaseCspImpl@@UAAJPAPAUIConfigTransaction@@@Z 10002ff0 f   csphlplib:BaseCspImpl.obj
+ 0001:00001ffc       ?BeginProcessing@BaseCspImpl@@UAAJPAUIConfigSession@@@Z 10002ffc f   csphlplib:BaseCspImpl.obj
+ 0001:00002020       ?EndProcessing@BaseCspImpl@@UAAJXZ 10003020 f   csphlplib:BaseCspImpl.obj
+ 0001:00002050       ?HandleNoCharacteristic@BaseCspImpl@@UAAJPAGPAUIXMLDOMElement@@0KK@Z 10003050 f   csphlplib:BaseCspImpl.obj
+ 0001:00002078       ?EnumParms@BaseCspImpl@@IAAJPAVCharacteristicNode@@PAUIXMLDOMElement@@@Z 10003078 f   csphlplib:BaseCspImpl.obj
+ 0001:000021cc       ?GetErrorDescription@BaseCspImpl@@UAAJPAPAG@Z 100031cc f   csphlplib:BaseCspImpl.obj
+ 0001:000021d8       ?SetErrorString@BaseCspImpl@@UAAXPBG@Z 100031d8 f   csphlplib:BaseCspImpl.obj
+ 0001:000021dc       ?_Buynode@?$list@PAVCharacteristicNode@@Vallocator@ce@@@ce@@IAAPAU?$_ListNode@PAVCharacteristicNode@@@list_impl@2@PAU342@@Z 100031dc f i csphlplib:BaseCspImpl.obj
+ 0001:00002228       ?HandleParm@BaseCspImpl@@UAAJPAG0PAUIXMLDOMElement@@0KK@Z 10003228 f   csphlplib:BaseCspImpl.obj
+ 0001:000022f8       ?HandleNoParm@BaseCspImpl@@UAAJPAGPAUIXMLDOMElement@@0KK@Z 100032f8 f   csphlplib:BaseCspImpl.obj
+ 0001:000023b4       ?HandleParmQuery@BaseCspImpl@@UAAJPAGPAUtagVARIANT@@PAUIXMLDOMElement@@0KK@Z 100033b4 f   csphlplib:BaseCspImpl.obj
+ 0001:00002478       ?EnforceReboot@BaseCspImpl@@IAAJXZ 10003478 f   csphlplib:BaseCspImpl.obj
+ 0001:00002564       ?EndCharacteristic@BaseCspImpl@@UAAJPAGPAUIXMLDOMElement@@0KKK@Z 10003564 f   csphlplib:BaseCspImpl.obj
+ 0001:000025fc       ?erase@?$list@PAVCharacteristicNode@@Vallocator@ce@@@ce@@QAA?AV?$iterator@PAVCharacteristicNode@@@list_impl@2@V342@@Z 100035fc f i csphlplib:BaseCspImpl.obj
+ 0001:00002658       ??$insert@PAVCharacteristicNode@@@?$list@PAVCharacteristicNode@@Vallocator@ce@@@ce@@QAA?AV?$iterator@PAVCharacteristicNode@@@list_impl@1@V231@ABQAVCharacteristicNode@@@Z 10003658 f i csphlplib:BaseCspImpl.obj
+ 0001:000026a0       ?GetChildNode@CharacteristicTree@@QAAPAVCharacteristicNode@@PAV2@PBG@Z 100036a0 f i csphlplib:BaseCspImpl.obj
+ 0001:0000270c       ?GetChildNodeByName@BaseCspImpl@@IAAPAVCharacteristicNode@@PAV2@PAG@Z 1000370c f   csphlplib:BaseCspImpl.obj
+ 0001:00002778       ?HandleCharacteristic@BaseCspImpl@@UAAJPAGPAUIXMLDOMElement@@0KPAKK@Z 10003778 f   csphlplib:BaseCspImpl.obj
+ 0001:00002810       ?EnumCharacteristics@BaseCspImpl@@IAAJPAVCharacteristicNode@@PAUIXMLDOMElement@@@Z 10003810 f   csphlplib:BaseCspImpl.obj
+ 0001:0000289c       ?erase@?$list@PAVCharacteristicNode@@Vallocator@ce@@@ce@@QAA?AV?$iterator@PAVCharacteristicNode@@@list_impl@2@V342@0@Z 1000389c f i csphlplib:BaseCspImpl.obj
+ 0001:000028f4       ?Insert@CharacteristicTree@@QAAHPAVCharacteristicNode@@0@Z 100038f4 f i csphlplib:BaseCspImpl.obj
+ 0001:00002970       ?HandleCharacteristicQuery@BaseCspImpl@@UAAJPAGPAUIXMLDOMElement@@0KK@Z 10003970 f   csphlplib:BaseCspImpl.obj
+ 0001:00002a50       ??1CharacteristicNode@@QAA@XZ 10003a50 f i csphlplib:BaseCspImpl.obj
+ 0001:00002ab8       ?TranslateParmTableToTree@BaseCspImpl@@IAAJPAU_CspParmElement@@K@Z 10003ab8 f   csphlplib:BaseCspImpl.obj
+ 0001:00002c8c       ??0BaseCspImpl@@QAA@PAU_CspParmElement@@K@Z 10003c8c f   csphlplib:BaseCspImpl.obj
+ 0001:00002d0c       ??1BaseCspImpl@@UAA@XZ     10003d0c f   csphlplib:BaseCspImpl.obj
+ 0001:00002d58       ??_GBaseCspImpl@@UAAPAXI@Z 10003d58 f i csphlplib:BaseCspImpl.obj
+ 0001:00002d58       ??_EBaseCspImpl@@UAAPAXI@Z 10003d58 f i csphlplib:BaseCspImpl.obj
+ 0001:00002d7c       ?GetFirstParmName@BaseParmCollection@@UAAHPAGK@Z 10003d7c f   csphlplib:BaseParmCollection.obj
+ 0001:00002d9c       ?EndParmNameEnum@BaseParmCollection@@UAAXXZ 10003d9c f   csphlplib:BaseParmCollection.obj
+ 0001:00002da0       ?_MoveForward@?$vector@UParmElement@BaseParmCollection@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@AAAXPAUParmElement@BaseParmCollection@@0@Z 10003da0 f i csphlplib:BaseParmCollection.obj
+ 0001:00002dfc       ?SetParm@BaseParmCollection@@UAAJPBG0@Z 10003dfc f   csphlplib:BaseParmCollection.obj
+ 0001:00002eb4       ?GetParm@BaseParmCollection@@UAAJPBGPAUtagVARIANT@@@Z 10003eb4 f   csphlplib:BaseParmCollection.obj
+ 0001:00002f68       ?DeleteParm@BaseParmCollection@@UAAJPBG@Z 10003f68 f   csphlplib:BaseParmCollection.obj
+ 0001:00003014       ?GetNextParmName@BaseParmCollection@@UAAHPAGK@Z 10004014 f   csphlplib:BaseParmCollection.obj
+ 0001:00003094       ?IsRebootRequired@BaseParmCollection@@UAAHXZ 10004094 f   csphlplib:BaseParmCollection.obj
+ 0001:000030e4       ?erase@?$vector@UParmElement@BaseParmCollection@@V?$reference_allocator@Vallocator@ce@@@details@ce@@U?$exponential_growth@$09@5@@ce@@QAAPAUParmElement@BaseParmCollection@@PAU34@0@Z 100040e4 f i csphlplib:BaseParmCollection.obj
+ 0001:00003160       ??0BaseParmCollection@@QAA@XZ 10004160 f   csphlplib:BaseParmCollection.obj
+ 0001:000031a0       ?_Insert_dispatch@?$vector@UParmElement@BaseParmCollection@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@AAA_NPAUParmElement@BaseParmCollection@@IABU34@ABUtrue_type@detail@2@@Z 100041a0 f i csphlplib:BaseParmCollection.obj
+ 0001:00003420       ?insert@?$vector@UParmElement@BaseParmCollection@@Vallocator@ce@@U?$exponential_growth@$09@4@@ce@@QAAPAUParmElement@BaseParmCollection@@PAU34@ABU34@@Z 10004420 f i csphlplib:BaseParmCollection.obj
+ 0001:0000348c       ?AddParm@BaseParmCollection@@UAAJPBGPAVIParm@@@Z 1000448c f   csphlplib:BaseParmCollection.obj
+ 0001:00003564       ?IsRebootRequired@RegistryDwordParm@@UAAHXZ 10004564 f   csphlplib:RegistryParm.obj
+ 0001:0000356c       ??0RegistryDwordParm@@QAA@PAUHKEY__@@PBG1@Z 1000456c f   csphlplib:RegistryParm.obj
+ 0001:000035cc       ?Set@RegistryDwordParm@@UAAJPBG@Z 100045cc f   csphlplib:RegistryParm.obj
+ 0001:000036a8       ?Get@RegistryDwordParm@@UAAJPAUtagVARIANT@@@Z 100046a8 f   csphlplib:RegistryParm.obj
+ 0001:00003768       ?Delete@RegistryDwordParm@@UAAJXZ 10004768 f   csphlplib:RegistryParm.obj
+ 0001:000037ec       CfgUtilCreateParm          100047ec f   configmanager:configmanager.dll
+ 0001:000037fc       CfgUtilCreateCharacteristic 100047fc f   configmanager:configmanager.dll
+ 0001:0000380c       VariantChangeType          1000480c f   oleaut32:OLEAUT32.dll
+ 0001:0000381c       SysAllocString             1000481c f   oleaut32:OLEAUT32.dll
+ 0001:0000382c       VariantInit                1000482c f   oleaut32:OLEAUT32.dll
+ 0001:0000383c       InitializeCriticalSection  1000483c f   coredll:COREDLL.dll
+ 0001:0000384c       DeleteCriticalSection      1000484c f   coredll:COREDLL.dll
+ 0001:0000385c       InterlockedIncrement       1000485c f   coredll:COREDLL.dll
+ 0001:0000386c       InterlockedDecrement       1000486c f   coredll:COREDLL.dll
+ 0001:0000387c       DisableThreadLibraryCalls  1000487c f   coredll:COREDLL.dll
+ 0001:0000388c       LocalFree                  1000488c f   coredll:COREDLL.dll
+ 0001:0000389c       RegCloseKey                1000489c f   coredll:COREDLL.dll
+ 0001:000038ac       RegEnumValueW              100048ac f   coredll:COREDLL.dll
+ 0001:000038bc       RegQueryValueExW           100048bc f   coredll:COREDLL.dll
+ 0001:000038cc       RegSetValueExW             100048cc f   coredll:COREDLL.dll
+ 0001:000038dc       RegDeleteValueW            100048dc f   coredll:COREDLL.dll
+ 0001:000038ec       RegCreateKeyExW            100048ec f   coredll:COREDLL.dll
+ 0001:000038fc       RegOpenKeyExW              100048fc f   coredll:COREDLL.dll
+ 0001:0000390c       FreeLibrary                1000490c f   coredll:COREDLL.dll
+ 0001:0000391c       GetProcAddressW            1000491c f   coredll:COREDLL.dll
+ 0001:0000392c       LoadLibraryW               1000492c f   coredll:COREDLL.dll
+ 0001:0000393c       CompareStringW             1000493c f   coredll:COREDLL.dll
+ 0001:0000394c       StringCchCopyW             1000494c f   coredll:COREDLL.dll
+ 0001:00003a54       _DllMainCRTStartup         10004a54 f   corelib0:pegdmain.obj
+ 0001:00003a88       _onexit                    10004a88 f   corelib0:onexit.obj
+ 0001:00003c0c       atexit                     10004c0c f   corelib0:onexit.obj
+ 0001:00003c24       __GSHandlerCheckCommon     10004c24 f   corelib0:gshandler.obj
+ 0001:00003c60       __GSHandlerCheck           10004c60 f   corelib0:gshandler.obj
+ 0001:00003c80       __security_init_cookie     10004c80 f   corelib0:seccinit.obj
+ 0001:00003ccc       __security_check_cookie    10004ccc f   corelib0:armsecgs.obj
+ 0001:00003cdc       __gsfailure                10004cdc     corelib0:armsecgs.obj
+ 0001:00003e08       _cexit                     10004e08 f   corelib0:cexit.obj
+ 0001:00003e18       _initterm                  10004e18 f   corelib0:crt0dat.obj
+ 0001:00003e44       _cinit                     10004e44 f   corelib0:crt0dat.obj
+ 0001:00003ea4       __crt_ExitProcess          10004ea4 f   corelib0:exitproc_proxy.obj
+ 0001:00003eb0       memcmp                     10004eb0 f   corelib1:COREDLL.dll
+ 0001:00003ec0       ??2@YAPAXI@Z               10004ec0 f   corelib1:COREDLL.dll
+ 0001:00003ed0       ??3@YAXPAX@Z               10004ed0 f   corelib1:COREDLL.dll
+ 0001:00003ee0       wcstok_s                   10004ee0 f   corelib1:COREDLL.dll
+ 0001:00003ef0       memcpy                     10004ef0 f   corelib1:COREDLL.dll
+ 0001:00003f00       wcstoul                    10004f00 f   corelib1:COREDLL.dll
+ 0001:00003f10       _XcptFilter                10004f10 f   corelib1:COREDLL.dll
+ 0001:00003f20       __C_specific_handler       10004f20 f   corelib1:COREDLL.dll
+ 0001:00003f30       free                       10004f30 f   corelib1:COREDLL.dll
+ 0001:00003f40       malloc                     10004f40 f   corelib1:COREDLL.dll
+ 0001:00003f50       realloc                    10004f50 f   corelib1:COREDLL.dll
+ 0001:00003f60       _msize                     10004f60 f   corelib1:COREDLL.dll
+ 0001:00003f70       __security_gen_cookie2     10004f70 f   corelib1:COREDLL.dll
+ 0001:00003f80       __report_gsfailure         10004f80 f   corelib1:COREDLL.dll
+ 0001:00003f90       EnterCriticalSection       10004f90 f   coredll:COREDLL.dll
+ 0001:00003fa0       InterlockedCompareExchange 10004fa0 f   coredll:COREDLL.dll
+ 0001:00003fb0       LeaveCriticalSection       10004fb0 f   coredll:COREDLL.dll
+ 0001:00003fc0       InterlockedExchange        10004fc0 f   coredll:COREDLL.dll
+ 0001:00003fd0       TerminateProcess           10004fd0 f   coredll:COREDLL.dll
+ 0001:00003fe4       ??__Fcs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@YAXXZ 10004fe4 f i dllmain.obj
+ 0001:00004024       __IMPORT_DESCRIPTOR_configmanager 10005024     configmanager:configmanager.dll
+ 0001:00004038       __IMPORT_DESCRIPTOR_OLEAUT32 10005038     oleaut32:OLEAUT32.dll
+ 0001:0000404c       __IMPORT_DESCRIPTOR_COREDLL 1000504c     coredll:COREDLL.dll
+ 0001:00004060       __NULL_IMPORT_DESCRIPTOR   10005060     configmanager:configmanager.dll
+ 0002:00000000       __imp_CompareStringW       10006000     coredll:COREDLL.dll
+ 0002:00000004       __imp_InterlockedExchange  10006004     coredll:COREDLL.dll
+ 0002:00000008       __imp_LeaveCriticalSection 10006008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_InterlockedCompareExchange 1000600c     coredll:COREDLL.dll
+ 0002:00000010       __imp_EnterCriticalSection 10006010     coredll:COREDLL.dll
+ 0002:00000014       __imp___report_gsfailure   10006014     corelib1:COREDLL.dll
+ 0002:00000018       __imp___security_gen_cookie2 10006018     corelib1:COREDLL.dll
+ 0002:0000001c       __imp_InitializeCriticalSection 1000601c     coredll:COREDLL.dll
+ 0002:00000020       __imp_DeleteCriticalSection 10006020     coredll:COREDLL.dll
+ 0002:00000024       __imp_InterlockedIncrement 10006024     coredll:COREDLL.dll
+ 0002:00000028       __imp_InterlockedDecrement 10006028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_DisableThreadLibraryCalls 1000602c     coredll:COREDLL.dll
+ 0002:00000030       __imp_LocalFree            10006030     coredll:COREDLL.dll
+ 0002:00000034       __imp_RegCloseKey          10006034     coredll:COREDLL.dll
+ 0002:00000038       __imp_RegEnumValueW        10006038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_RegQueryValueExW     1000603c     coredll:COREDLL.dll
+ 0002:00000040       __imp_RegSetValueExW       10006040     coredll:COREDLL.dll
+ 0002:00000044       __imp_RegDeleteValueW      10006044     coredll:COREDLL.dll
+ 0002:00000048       __imp_RegCreateKeyExW      10006048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_RegOpenKeyExW        1000604c     coredll:COREDLL.dll
+ 0002:00000050       __imp_FreeLibrary          10006050     coredll:COREDLL.dll
+ 0002:00000054       __imp_GetProcAddressW      10006054     coredll:COREDLL.dll
+ 0002:00000058       __imp_LoadLibraryW         10006058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_TerminateProcess     1000605c     coredll:COREDLL.dll
+ 0002:00000060       __imp_StringCchCopyW       10006060     coredll:COREDLL.dll
+ 0002:00000064       __imp_memcmp               10006064     corelib1:COREDLL.dll
+ 0002:00000068       __imp_??2@YAPAXI@Z         10006068     corelib1:COREDLL.dll
+ 0002:0000006c       __imp_??3@YAXPAX@Z         1000606c     corelib1:COREDLL.dll
+ 0002:00000070       __imp_wcstok_s             10006070     corelib1:COREDLL.dll
+ 0002:00000074       __imp_memcpy               10006074     corelib1:COREDLL.dll
+ 0002:00000078       __imp_wcstoul              10006078     corelib1:COREDLL.dll
+ 0002:0000007c       __imp__XcptFilter          1000607c     corelib1:COREDLL.dll
+ 0002:00000080       __imp___C_specific_handler 10006080     corelib1:COREDLL.dll
+ 0002:00000084       __imp_free                 10006084     corelib1:COREDLL.dll
+ 0002:00000088       __imp_malloc               10006088     corelib1:COREDLL.dll
+ 0002:0000008c       __imp_realloc              1000608c     corelib1:COREDLL.dll
+ 0002:00000090       __imp__msize               10006090     corelib1:COREDLL.dll
+ 0002:00000094       \177COREDLL_NULL_THUNK_DATA 10006094     coredll:COREDLL.dll
+ 0002:00000098       __imp_VariantInit          10006098     oleaut32:OLEAUT32.dll
+ 0002:0000009c       __imp_SysAllocString       1000609c     oleaut32:OLEAUT32.dll
+ 0002:000000a0       __imp_VariantChangeType    100060a0     oleaut32:OLEAUT32.dll
+ 0002:000000a4       \177OLEAUT32_NULL_THUNK_DATA 100060a4     oleaut32:OLEAUT32.dll
+ 0002:000000a8       __imp_CfgUtilCreateCharacteristic 100060a8     configmanager:configmanager.dll
+ 0002:000000ac       __imp_CfgUtilCreateParm    100060ac     configmanager:configmanager.dll
+ 0002:000000b0       \177configmanager_NULL_THUNK_DATA 100060b0     configmanager:configmanager.dll
+ 0002:000000b4       ?NetPolicyCspTable@@3PAU_CspParmElement@@A 100060b4     NetPolicyCsp.obj
+ 0002:000000d4       __security_cookie          100060d4     corelib0:seccinit.obj
+ 0002:000000d8       __security_cookie_complement 100060d8     corelib0:seccinit.obj
+ 0002:000000dc       ?g_hInstDLL@@3PAUHINSTANCE__@@A 100060dc     dllmain.obj
+ 0002:000000e8       ??_B?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@51 100060e8     dllmain.obj
+ 0002:000000ec       ?cs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@3@XZ@4V43@A 100060ec     dllmain.obj
+ 0002:00000100       ?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A 10006100     dllmain.obj
+ 0002:00000101       _exitflag                  10006101     corelib0:cexit.obj
+ 0002:00000104       __onexitend                10006104     <common>
+ 0002:00000108       __onexitbegin              10006108     <common>
+ 0002:0000010c       g_pcsExit                  1000610c     <common>
+ 0002:00000110       _pRawDllMain               10006110     <common>
+
+ entry point at        0001:00003a54
+
+ Static symbols
+
+ 0001:00003964       _DllMainCRTStartupHelper   10004964 f   corelib0:pegdmain.obj
+ 0001:00003d20       doexit                     10004d20 f   corelib0:cexit.obj
+ 0001:00003fe0       ??__E?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A@@YAXXZ 10004fe0 f   dllmain.obj

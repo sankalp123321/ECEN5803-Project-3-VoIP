@@ -1,0 +1,123 @@
+// set LCID in common.str, *not* directly in common.reg
+//
+// Sample, Sinhala common.str
+//
+// Internal MS use only
+//
+#define LOC_LCID 	~"45B"
+#define LOC_ACP 	~"0"
+
+// this string gets inserted in NLSCFG.INF (formerly NLSCFG.TXT)
+#define LOC_INCLUDELOCALES ~"045B"
+
+// Timezone
+#define LOC_DEFAULT_TIMEZONE        "Sri Lanka Standard Time"
+
+// This value defines the weight of the font used for Buttons. FW_BOLD is 700 or 0x2BC,
+// which is the value that should be used for US, European etc locales. FW_NORMAL is 
+// 400 or 0x190, which shoudl be used for FE locales
+#define LOC_BUTTONFONTWEIGHT  ~"2BC"
+#define LOC_MENUBARFONTWEIGHT ~"2BC"
+
+// common.reg translations
+#define LOC_FRIENDLYHAYESCOMPAT "Hayes Compatible on COM1:"
+
+// Home and Work dialing properties.
+// LOCATIONNAME is the friendly name of the settings, LOCALFMT is the local call format, 
+// LDFMT is the Long Distance format, INTNTLFMT is the International format 
+// (G means local number, F means area code, E means Country Code)
+// AREACODE is the area code for the default city
+// CWCODE is the "disable call waiting" code, COUNTRYCODE is the country code
+// OPTIONS is 0 for Tone, 1 for Pulse
+#define LOC_HOMELOCATIONNAME    "Home"
+#define LOC_HOMELOCALFMT        "G"
+#define LOC_HOMELDFMT           "0FG"
+#define LOC_HOMEINTNTLFMT       "00,EFG"
+#define LOC_HOMEAREACODE        "1"
+#define LOC_HOMECWCODE          " "
+#define LOC_HOMECOUNTRYCODE     "1"
+#define LOC_HOMEOPTIONS         "0"
+#define LOC_WORKLOCATIONNAME    "Work"
+#define LOC_WORKLOCALFMT        "9,G"
+#define LOC_WORKLDFMT           "9,0FG"
+#define LOC_WORKINTNTLFMT       "9,00,EFG"
+#define LOC_WORKAREACODE        "1"
+#define LOC_WORKCWCODE          " "
+#define LOC_WORKCOUNTRYCODE     "94"
+#define LOC_WORKOPTIONS         "0"
+
+// Setting up English US as the default HKL.
+#define LOC_HKL_DEFAULT         "00000409"
+
+// Comm CPL
+#define LOC_DESKTOPCONNECT      "`Desktop @ 19200`"
+
+// Sounds CPL, scheme name
+#define LOC_ALLSOUNDS		"All Sounds"
+
+// Console FONT -- NOTE: This *must* be a proportional font! 
+// Size requires a ~ in front so quotes are stripped (since this a dword reg value)
+#define LOC_CONSOLEFONTNAME	"Courier New"
+#define LOC_CONSOLEFONTSIZE	~"8"
+// If you have painting/display problem in CMD (e.g. some FE locales) set 
+// LOC_CONSOLEPAINTFIX to 1. Don't set it to 1 for USA since it is slower
+#define LOC_CONSOLEPAINTFIX ~"0"
+
+// INTL.CPL Support for an extra locale-specfic currency symbol (e.g. Euro). Set to 0 to disable
+#define LOC_EXTRACURRENCY	~"20ac"
+
+// Driver values
+#define LOC_FRIENDLYHAYESFAX		"Hayes 28.8 + Fax"
+#define LOC_FRIENDLYMEGAHERTZ		"Megahertz 28.8"
+#define LOC_FRIENDLYMEGAHERTZCELL	"Megahertz 28.8 Cellular"
+#define LOC_FRIENDLYMEGAHERTZCRUISE	"Megahertz Cruise Card 28.8"
+#define LOC_FRIENDLYMEGAHERTZ144	"Megahertz 14.4"
+#define LOC_FRIENDLYSPORTSTER288	"Sportster 28.8"
+#define LOC_FRIENDLYPROCLASS288		"ProClass 28.8"
+#define LOC_FRIENDLYXIRCOM336		"Xircom 33.6"
+#define LOC_FRIENDLYXIRCOMETHER336	"Xircom Ether Modem 33.6"
+#define LOC_FRIENDLYMOTOMONTANA288	"Motorola Montana 28.8"
+#define LOC_FRIENDLYMOTOPOWER144	"Motorola Power 14.4"
+#define LOC_FRIENDLYSOCKETDUALA		"Socket Dual I/O Port A"
+#define LOC_FRIENDLYSOCKETDUALB		"Socket Dual I/O Port B"
+#define LOC_FRIENDLYNE2000COMPAT	"NE2000 Compatible Ethernet Driver"
+#define LOC_FRIENDLYINFRARED		"Infrared Port"
+#define LOC_FRIENDLYRNDISHOST           "Remote-NDIS Host"
+#define LOC_FRIENDLYRNDISFUNCTION       "Microsoft RNDIS Miniport Driver"
+#define LOC_FRIENDLYXIRCCE2             "Xircom CE2 Ethernet Driver"
+#define LOC_FRIENDLYPCX500              "Cisco 802.11 miniport"
+#define LOC_FRIENDLYVMINI               "Microsoft null Ethernet Miniport Driver"
+#define LOC_FRIENDLYMBRIDGE             "Microsoft Mac Bridge Miniport"
+#define LOC_FRIENDLYASYNCMAC            "AsyncMac NDISWAN Miniport"
+#define LOC_FRIENDLYPPTP                "PPTP NDISWAN Miniport"
+#define LOC_FRIENDLYL2TP                "L2TP NDISWAN Miniport"
+#define LOC_FRIENDLYRTL8139             "Realtek RTL8139 based Fast Ethernet Driver"
+#define LOC_FRIENDLYDC21X4              "DC21X4 Ethernet Driver"
+
+#define LOC_STORE_HD_FOLDER             "Hard Disk"
+#define LOC_STORE_REMOVABLE_FOLDER      "Storage Card"
+#define LOC_STORE_CD_FOLDER             "CDROM Drive"
+#define LOC_STORE_FLOPPY_FOLDER         "Floppy Drive"
+#define LOC_STORE_DOC_FOLDER            "DiskOnChip"
+#define LOC_STORE_RFA_FOLDER            "RFA Disk"
+#define LOC_STORE_DEFAULT_FOLDER        "Mounted Volume"
+// --- This is some SIP stuff --------------------------------------------------
+// [HKEY_CLASSES_ROOT\CLSID\{42429667-ae04-11d0-a4f8-00aa00a749b9}]
+#define LOC_KEYBOARD "Keyboard"
+// [HKEY_CLASSES_ROOT\CLSID\{0CBEA010-F68E-11D1-8C63-0060977B4593}]
+#define LOC_MULTIBOX "MULTIBOX"
+
+// Paths for SHGetSpecialFolderPath
+#define LOC_PATH_WINDOWS                "\\Windows"
+#define LOC_PATH_DESKTOP                "\\Windows\\Desktop"
+#define LOC_PATH_STARTUP                "\\Windows\\StartUp"
+#define LOC_PATH_RECENT                 "\\Windows\\Recent"
+#define LOC_PATH_PROGRAMS               "\\Windows\\Programs"
+#define LOC_PATH_FAVORITES              "\\Windows\\Favorites"
+#define LOC_PATH_FONTS                  "\\Windows\\Fonts"
+#define LOC_PATH_MYDOCUMENTS            "\\My Documents"
+#define LOC_PATH_PROGRAMFILES           "\\Program Files"
+#define LOC_PATH_APPDATA                "\\Application Data"
+
+#define LOC_PHONIMNAME "Phonetic IM Name"
+#define LOC_CHAJEIIMNAME "Chajei IM Name"

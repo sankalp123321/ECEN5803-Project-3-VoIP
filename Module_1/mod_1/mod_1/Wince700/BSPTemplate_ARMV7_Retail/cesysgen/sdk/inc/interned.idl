@@ -1,0 +1,476 @@
+//
+// Copyright (c) Microsoft Corporation.  All rights reserved.
+//
+//
+// Use of this sample source code is subject to the terms of the Microsoft
+// license agreement under which you licensed this sample source code. If
+// you did not accept the terms of the license agreement, you are not
+// authorized to use this sample source code. For the terms of the license,
+// please see the license agreement between you and Microsoft or, if applicable,
+// see the LICENSE.RTF on your install media or the root of your tools installation.
+// THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+//
+ 
+//+---------------------------------------------------------------------------
+//
+//
+// ***************************************************************************
+// ***************************************************************************
+// ****************** INTERNAL - NOT FOR PUBLIC CONSUMPTION ******************
+// ***************************************************************************
+// ***************************************************************************
+//
+//
+//
+//  Contents:   TRIDENT Editing services description
+//
+//----------------------------------------------------------------------------
+
+#ifdef UNIX
+#include "unixdef.h"
+#endif
+#include <mshtmdid.h>
+cpp_quote("//=--------------------------------------------------------------------------=")
+cpp_quote("// internal.h")
+cpp_quote("//=--------------------------------------------------------------------------=")
+cpp_quote("// (C) Copyright 1998 Microsoft Corporation.  All Rights Reserved.")
+cpp_quote("//")
+cpp_quote("// THIS CODE AND INFORMATION IS PROVIDED \"AS IS\" WITHOUT WARRANTY OF")
+cpp_quote("// ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO")
+cpp_quote("// THE IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A")
+cpp_quote("// PARTICULAR PURPOSE.")
+cpp_quote("//=--------------------------------------------------------------------------=")
+cpp_quote("")
+cpp_quote("#pragma comment(lib,\"uuid.lib\")")
+cpp_quote("")
+cpp_quote("//---------------------------------------------------------------------------=")
+cpp_quote("// TRIDENT Editing Services Interfaces.")
+cpp_quote("//")
+cpp_quote("")
+cpp_quote("#ifndef INTERNAL_H_")
+cpp_quote("#define INTERNAL_H_")
+cpp_quote("")
+
+import "dimm.idl";
+import "mshtml.idl";
+import "mshtmhst.idl";
+
+#ifndef DO_NO_IMPORTS
+import "ocidl.idl";
+import "oleidl.idl";
+import "oaidl.idl";
+import "urlmon.idl";
+#endif
+
+
+[
+    lcid(0x0000),    // lcid =0; locale independent.
+    helpstring("Microsoft HTML Internal Library"),
+    version(4.00),  //  WARNING: This version must match VERSION in dllreg.cxx.
+    uuid(3050f7e1-98b5-11cf-bb82-00aa00bdce0b)
+]
+library MSHTMLINTERNAL
+{
+typedef enum _EDITOR_NOTIFICATION
+{
+    EDITOR_NOTIFY_TIMER_TICK = 0,
+    EDITOR_NOTIFY_DOC_ENDED = 1,
+    EDITOR_NOTIFY_DOC_CHANGED = 2,
+    EDITOR_NOTIFY_CARET_IN_CONTEXT = 3,
+    EDITOR_NOTIFY_EXIT_TREE = 4,
+    EDITOR_NOTIFY_LOSE_FOCUS_FRAME = 5,
+    EDITOR_NOTIFY_LOSE_FOCUS = 6,
+    EDITOR_NOTIFY_BEFORE_FOCUS = 7,
+    EDITOR_NOTIFY_YIELD_FOCUS = 8,
+    EDITOR_NOTIFY_EDITABLE_CHANGE = 9,
+    EDITOR_NOTIFY_BEGIN_SELECTION_UNDO = 10,
+    EDITOR_NOTIFY_ATTACH_WIN = 11,
+    EDITOR_NOTIFY_UPDATE_CARET = 12,
+    EDITOR_NOTIFY_BEFORE_CURRENCY_CHANGE = 13,
+    EDITOR_NOTIFY_SETTING_VIEW_LINK = 14,
+    EDITOR_NOTIFY_CONTAINER_ENDED = 15,
+    EDITOR_NOTIFY_SETTINGS_CHANGED = 16,
+    EDITOR_NOTIFICATION_Max = 2147483647L
+} EDITOR_NOTIFICATION;
+
+typedef enum _DOCNAVFLAGS
+{
+    DOCNAVFLAG_DOCNAVIGATE = 1,
+    DOCNAVFLAG_DONTUPDATETLOG = 2,
+    DOCNAVFLAG_HTTPERRORPAGE = 4,
+    DOCNAVFLAG_OPENINNEWWINDOW = 8,
+    DOCNAVFLAG_REFRESH = 16,
+    DOCNAVFLAG_TRUSTEDFORACTIVEX = 32,
+    DOCNAVFLAG_UNTRUSTEDFORDOWNLOAD = 64,
+    DOCNAVFLAG_CALLERUNTRUSTED = 128,
+    DOCNAVFLAGS_Max = 2147483647L
+} DOCNAVFLAGS;
+
+typedef enum _NAVIGATEEXOPTIONS
+{
+    NAVIGATEEX_NONE = 0,
+    NAVIGATEEX_DONTUPDATETRAVELLOG = 1,
+    NAVIGATEEX_EXECUTESCRIPT = 2,
+    NAVIGATEEXOPTIONS_Max = 2147483647L
+} NAVIGATEEXOPTIONS;
+
+typedef enum _CHAR_FORMAT_FAMILY
+{
+    CHAR_FORMAT_None = 0,
+    CHAR_FORMAT_FontStyle = 1,
+    CHAR_FORMAT_FontInfo = 2,
+    CHAR_FORMAT_FontName = 4,
+    CHAR_FORMAT_ColorInfo = 8,
+    CHAR_FORMAT_ParaFormat = 16,
+    CHAR_FORMAT_FAMILY_Max = 2147483647L
+} CHAR_FORMAT_FAMILY;
+
+typedef enum _LAYOUT_MOVE_UNIT
+{
+    LAYOUT_MOVE_UNIT_PreviousLine = 1,
+    LAYOUT_MOVE_UNIT_NextLine = 2,
+    LAYOUT_MOVE_UNIT_CurrentLineStart = 3,
+    LAYOUT_MOVE_UNIT_CurrentLineEnd = 4,
+    LAYOUT_MOVE_UNIT_NextLineStart = 5,
+    LAYOUT_MOVE_UNIT_PreviousLineEnd = 6,
+    LAYOUT_MOVE_UNIT_TopOfWindow = 7,
+    LAYOUT_MOVE_UNIT_BottomOfWindow = 8,
+    LAYOUT_MOVE_UNIT_OuterLineStart = 9,
+    LAYOUT_MOVE_UNIT_OuterLineEnd = 10,
+    LAYOUT_MOVE_UNIT_Max = 2147483647L
+} LAYOUT_MOVE_UNIT;
+
+typedef enum _CARET_GRAVITY
+{
+    CARET_GRAVITY_NoChange = 0,
+    CARET_GRAVITY_BeginningOfLine = 1,
+    CARET_GRAVITY_EndOfLine = 2,
+    CARET_GRAVITY_Max = 2147483647L
+} CARET_GRAVITY;
+
+typedef enum _CARET_VISIBILITY
+{
+    CARET_TYPE_Hide = 0,
+    CARET_TYPE_Show = 1,
+    CARET_VISIBILITY_Max = 2147483647L
+} CARET_VISIBILITY;
+
+typedef enum _POINTER_SCROLLPIN
+{
+    POINTER_SCROLLPIN_TopLeft = 0,
+    POINTER_SCROLLPIN_BottomRight = 1,
+    POINTER_SCROLLPIN_Minimal = 2,
+    POINTER_SCROLLPIN_Max = 2147483647L
+} POINTER_SCROLLPIN;
+
+typedef enum _ADORNER_HTI
+{
+    ADORNER_HTI_NONE = 0,
+    ADORNER_HTI_TOPBORDER = 1,
+    ADORNER_HTI_LEFTBORDER = 2,
+    ADORNER_HTI_BOTTOMBORDER = 3,
+    ADORNER_HTI_RIGHTBORDER = 4,
+    ADORNER_HTI_TOPLEFTHANDLE = 5,
+    ADORNER_HTI_LEFTHANDLE = 6,
+    ADORNER_HTI_TOPHANDLE = 7,
+    ADORNER_HTI_BOTTOMLEFTHANDLE = 8,
+    ADORNER_HTI_TOPRIGHTHANDLE = 9,
+    ADORNER_HTI_BOTTOMHANDLE = 10,
+    ADORNER_HTI_RIGHTHANDLE = 11,
+    ADORNER_HTI_BOTTOMRIGHTHANDLE = 12,
+    ADORNER_HTI_Max = 2147483647L
+} ADORNER_HTI;
+
+typedef enum _FILTER_DRAW_LAYERS
+{
+    FILTER_DRAW_BORDER = 0x1,
+    FILTER_DRAW_BACKGROUND = 0x2,
+    FILTER_DRAW_CONTENT = 0x4,
+    FILTER_DRAW_ALLLAYERS = 0x7,
+    FILTER_DRAW_LAYERS_Max = 2147483647L
+} FILTER_DRAW_LAYERS;
+
+typedef enum _FILTER_FLAGS
+{
+    FILTER_FLAGS_PAGETRANSITION = 0x1,
+    FILTER_FLAGS_Max = 2147483647L
+} FILTER_FLAGS;
+
+typedef enum _htmlDocumentMode
+{
+    htmlDocumentModeNotSet = 0,
+    htmlDocumentModeIE5 = 50000,
+    htmlDocumentModeIE7 = 70000,
+    htmlDocumentModeIE8 = 80000,
+    htmlDocumentMode_Max = 2147483647L
+} htmlDocumentMode;
+
+
+typedef enum _MobileUIEvent
+{
+    MOBILEUI_SHOW_UI = 0,
+    MOBILEUI_HIDE_UI = 1,
+    MOBILEUI_CLOSE_UI = 2,
+    MOBILEUI_ELEMENT_VISIBILITY_CHANGE = 3,
+    MOBILEUI_ELEMENT_DISABLED = 4,
+    MOBILEUI_SEL_OPTIONS_SIZE_CHANGE = 5,
+    MOBILEUI_SEL_OPTION_VALUE_CHANGE = 6,
+    MOBILEUI_SEL_FLAVOR_CHANGE = 7,
+    MobileUIEvent_Max = 2147483647L
+} MobileUIEvent;
+
+typedef struct _HTMLPtrDispInfoRec
+{
+    DWORD dwSize;
+    LONG lBaseline;
+    LONG lXPosition;
+    LONG lLineHeight;
+    LONG lTextHeight;
+    LONG lDescent;
+    LONG lTextDescent;
+    BOOL fRTLLine;
+    BOOL fRTLFlow;
+    BOOL fAligned;
+    BOOL fHasNestedRunOwner;
+} HTMLPtrDispInfoRec;
+
+interface ISelectionObject2;
+interface IHTMLEditor;
+[
+    object,
+    pointer_default(unique),
+    uuid(3050f6dc-98b5-11cf-bb82-00aa00bdce0b)
+]
+interface IHTMLPrivateWindow : IUnknown
+{
+    [] HRESULT SuperNavigate([in] BSTR bstrURL,[in] BSTR bstrLocation,[in] BSTR bstrShortcut,[in] BSTR bstrFrameName,[in] VARIANT* pvarPostData,[in] VARIANT* pvarHeaders,[in] DWORD dwFlags);
+    [] HRESULT GetPendingUrl([out] LPOLESTR* pstrURL);
+    [] HRESULT SetPICSTarget([in] IOleCommandTarget* pctPICS);
+    [] HRESULT PICSComplete([in] BOOL fApproved);
+    [] HRESULT FindWindowByName([in] LPCOLESTR pstrTargeName,[out] IHTMLWindow2** ppWindow);
+    [] HRESULT GetAddressBarUrl([out] BSTR* pbstrURL);
+};
+[
+    object,
+    pointer_default(unique),
+    uuid(30510410-98b5-11cf-bb82-00aa00bdce0b)
+]
+interface IHTMLPrivateWindow2 : IUnknown
+{
+    [] HRESULT NavigateEx([in] IUri* pUri,[in] IUri* pUnencodedUri,[in] BSTR bstrLocation,[in] BSTR bstrContext,[in] IBindCtx* pBindCtx,[in] DWORD dwNavOptions,[in] DWORD dwFHLFlags,[in] IDispatch* pDispCaller);
+    [] HRESULT GetInnerWindowUnknown([in, out] IUnknown** ppUnknown);
+};
+[
+    object,
+    pointer_default(unique),
+    uuid(30510411-98b5-11cf-bb82-00aa00bdce0b)
+]
+interface IHTMLPrivateWindow3 : IHTMLPrivateWindow2
+{
+    [] HRESULT OpenEx([in] IUri* pUri,[in] BSTR urlContext,[in] BSTR name,[in] BSTR features,[in] VARIANT_BOOL replace,[in] IDispatch* pDispCaller,[out] IHTMLWindow2** pomWindowResult);
+    [] HRESULT NavigateEx2([in] BSTR bstrExpandedUri,[in] BSTR bstrOriginalUri,[in] BSTR bstrLocation,[in] BSTR bstrSubReferer,[in] BSTR bstrExtraHeaders,[in] BSTR bstrAcceptLanguage,[in] BSTR bstrUserAgent,[in] VARIANT varPostData,[in] DWORD dwFlags,[in] DWORD dwBindf,[in] DWORD dwCodePage,[in] DWORD dwLoadf);
+};
+[
+    object,
+    pointer_default(unique),
+    uuid(3050f594-98b5-11cf-bb82-00aa00bdce0b)
+]
+interface IHTMLPrivateWindow4 : IHTMLPrivateWindow
+{
+    [] HRESULT SuperNavigate2([in] IUri* pUri,[in] BSTR bstrLocation,[in] BSTR bstrShortcut,[in] BSTR bstrFrameName,[in] VARIANT* pvarPostData,[in] VARIANT* pvarHeaders,[in] DWORD dwFlags);
+    [] HRESULT SuperNavigate3([in] IUri* pUri,[in] BSTR bstrLocation,[in] BSTR bstrShortcut,[in] BSTR bstrFrameName,[in] IStream* pstmDwnPost,[in] DWORD dwFlags);
+};
+[
+    object,
+    pointer_default(unique),
+    uuid(3050f4d2-98b5-11cf-bb82-00aa00bdce0b)
+]
+interface ISubDivisionProvider : IUnknown
+{
+    [] HRESULT GetSubDivisionCount([retval, out] LONG* pcSubDivision);
+    [] HRESULT GetSubDivisionTabs([in] LONG cTabs,[retval, out] LONG* pSubDivisionTabs);
+    [] HRESULT SubDivisionFromPt([in] POINT pt,[retval, out] LONG* piSubDivision);
+};
+[
+    object,
+    pointer_default(unique),
+    uuid(3050f4bf-98b5-11cf-bb82-00aa00bdce0b)
+]
+interface IElementBehaviorUI : IUnknown
+{
+    [] HRESULT OnReceiveFocus([in] BOOL fFocus,[in] LONG lSubDivision);
+    [] HRESULT GetSubDivisionProvider([retval, out] ISubDivisionProvider** ppProvider);
+    [] HRESULT CanTakeFocus();
+};
+[
+    object,
+    pointer_default(unique),
+    uuid(3050f607-98b5-11cf-bb82-00aa00bdce0b)
+]
+interface IElementAdorner : IUnknown
+{
+    [] HRESULT Draw([in] HDC hdc,[in] LPRECT prc);
+    [] HRESULT HitTestPoint([in] POINT* pt,[in] LPRECT prc,[in, out] BOOL* fResult,[in, out] ADORNER_HTI* peAdornerHTI);
+    [] HRESULT GetSize([in] SIZE* pSizeElem,[in] SIZE* pSizeAdorn);
+    [] HRESULT GetPosition([in] POINT* pPosElem,[in] POINT* pPosAdorn);
+    [] HRESULT OnPositionSet();
+};
+[
+    object,
+    pointer_default(unique),
+    uuid(3050f7fa-98b5-11cf-bb82-00aa00bdce0b)
+]
+interface IHTMLEditor : IUnknown
+{
+    [] HRESULT PreHandleEvent([in] DISPID inEvtDispId,[in] IHTMLEventObj* pIEventObj);
+    [] HRESULT PostHandleEvent([in] DISPID inEvtDispId,[in] IHTMLEventObj* pIEventObj);
+    [] HRESULT TranslateAccelerator([in] DISPID inEvtDispId,[in] IHTMLEventObj* pIEventObj);
+    [] HRESULT Initialize([in] IUnknown* pIDocument,[in] IUnknown* pIContainer);
+    [] HRESULT Notify([in] EDITOR_NOTIFICATION eSelectionNotification,[in] IUnknown* pUnknown,[in] DWORD dword);
+    [] HRESULT GetCommandTarget([in] IUnknown* pContext,[in, out] IUnknown** ppUnkTarget);
+    [] HRESULT GetElementToTabFrom([in] BOOL fForward,[in, out] IHTMLElement** ppElement,[in, out] BOOL* pfFindNext);
+    [] HRESULT IsEditContextUIActive();
+    [] HRESULT TerminateIMEComposition();
+    [] HRESULT EnableModeless([in] BOOL fEnable);
+};
+[
+    object,
+    pointer_default(unique),
+    uuid(3050f7fb-98b5-11cf-bb82-00aa00bdce0b)
+]
+interface IHTMLEditingServices : IUnknown
+{
+    [] HRESULT Delete([in] IMarkupPointer* pStart,[in] IMarkupPointer* pEnd,[in] BOOL fAdjustPointers);
+    [] HRESULT Paste([in] IMarkupPointer* pStart,[in] IMarkupPointer* pEnd,[in] BSTR bstrText);
+    [] HRESULT PasteFromClipboard([in] IMarkupPointer* pStart,[in] IMarkupPointer* pEnd,[in] IDataObject* pDO);
+    [] HRESULT LaunderSpaces([in] IMarkupPointer* pStart,[in] IMarkupPointer* pEnd);
+    [] HRESULT InsertSanitizedText([in] IMarkupPointer* InsertHere,[in] OLECHAR* pstrText,[in] LONG cChInput,[in] BOOL fDataBinding);
+    [] HRESULT UrlAutoDetectCurrentWord([in] IMarkupPointer* pWord);
+    [] HRESULT UrlAutoDetectRange([in] IMarkupPointer* pStart,[in] IMarkupPointer* pEnd);
+    [] HRESULT ShouldUpdateAnchorText([in] OLECHAR* pstrHref,[in] OLECHAR* pstrAnchorText,[out] BOOL* pfResult);
+    [] HRESULT AdjustPointerForInsert([in] IDisplayPointer* pDispWhereIThinkIAm,[in] BOOL fFurtherInDocument,[in] IMarkupPointer* pConstraintStart,[in] IMarkupPointer* pConstraintEnd);
+    [] HRESULT FindSiteSelectableElement([in] IMarkupPointer* pPointerStart,[in] IMarkupPointer* pPointerEnd,[in] IHTMLElement** ppIHTMLElement);
+    [] HRESULT IsElementSiteSelectable([in] IHTMLElement* pIHTMLElement,[out] IHTMLElement** ppIElement);
+    [] HRESULT IsElementUIActivatable([in] IHTMLElement* pIHTMLElement);
+    [] HRESULT IsElementAtomic([in] IHTMLElement* pIHTMLElement);
+    [] HRESULT PositionPointersInMaster([in] IHTMLElement* pIElement,[in] IMarkupPointer* pIStart,[in] IMarkupPointer* pIEnd);
+};
+[
+    object,
+    pointer_default(unique),
+    uuid(3050f7fc-98b5-11cf-bb82-00aa00bdce0b)
+]
+interface ISelectionObject2 : IUnknown
+{
+    [] HRESULT Select([in] ISegmentList* pISegmentList);
+    [] HRESULT IsPointerInSelection([in] IDisplayPointer* pIDispPointer,[out] BOOL* pfPointerInSelection,[in] POINT* pptGlobal,[in] IHTMLElement* pIElementOver);
+    [] HRESULT EmptySelection();
+    [] HRESULT DestroySelection();
+    [] HRESULT DestroyAllSelection();
+};
+[
+    object,
+    pointer_default(unique),
+    uuid(3050f60b-98b5-11cf-bb82-00aa00bdce0b)
+]
+interface IEditDebugServices : IUnknown
+{
+    [] HRESULT GetCp([in] IMarkupPointer* pIPointer,[out] long* pcp);
+    [] HRESULT SetDebugName([in] IMarkupPointer* pIPointer,[in] LPCTSTR strDbgName);
+    [] HRESULT SetDisplayPointerDebugName([in] IDisplayPointer* pDispPointer,[in] LPCTSTR strDbgName);
+    [] HRESULT DumpTree([in] IMarkupPointer* pIPointer);
+    [] HRESULT LinesInElement([in] IHTMLElement* pIElement,[out] long* piLines);
+    [] HRESULT FontsOnLine([in] IHTMLElement* pIElement,[in] long iLine,[out] BSTR* pbstrFonts);
+    [] HRESULT GetPixel([in] long X,[in] long Y,[out] long* piColor);
+    [] HRESULT IsUsingBckgrnRecalc([out] BOOL* pfUsingBckgrnRecalc);
+    [] HRESULT IsEncodingAutoSelect([out] BOOL* pfEncodingAutoSelect);
+    [] HRESULT EnableEncodingAutoSelect([in] BOOL fEnable);
+    [] HRESULT IsUsingTableIncRecalc([out] BOOL* pfUsingTableIncRecalc);
+};
+[
+    object,
+    pointer_default(unique),
+    uuid(30510415-98b5-11cf-bb82-00aa00bdce0b)
+]
+interface IDisplayTreeDumper : IDispatch
+{
+    [] HRESULT DumpDisplayTree([in] IStream* pStream);
+};
+[
+    object,
+    pointer_default(unique),
+    uuid(3050f84b-98b5-11cf-bb82-00aa00bdce0b)
+]
+interface IPrivacyServices : IUnknown
+{
+    [] HRESULT AddPrivacyInfoToList([in] LPOLESTR pstrUrl,[in] LPOLESTR pstrPolicyRef,[in] LPOLESTR pstrP3PHeader,[in] LONG dwReserved,[in] DWORD privacyFlags);
+};
+[
+    object,
+    pointer_default(unique),
+    uuid(3050f6de-98b5-11cf-bb82-00aa00bdce0b)
+]
+interface IHTMLFilterPainter : IUnknown
+{
+    [] HRESULT InvalidateRectUnfiltered([in] RECT* prcInvalid);
+    [] HRESULT InvalidateRgnUnfiltered([in] HRGN hrgnInvalid);
+    [] HRESULT ChangeElementVisibility([in] BOOL fVisible);
+};
+[
+    object,
+    pointer_default(unique),
+    uuid(3050f6d3-98b5-11cf-bb82-00aa00bdce0b)
+]
+interface IHTMLFilterPaintSite : IUnknown
+{
+    [] HRESULT DrawUnfiltered([in] HDC hdc,[in] IUnknown* punkDrawObject,[in] RECT rcBounds,[in] RECT rcUpdate,[in] LONG lDrawLayers);
+    [] HRESULT HitTestPointUnfiltered([in] POINT pt,[in] LONG lDrawLayers,[retval, out] BOOL* pbHit);
+    [] HRESULT InvalidateRectFiltered([in] RECT* prcInvalid);
+    [] HRESULT InvalidateRgnFiltered([in] HRGN hrgnInvalid);
+    [] HRESULT ChangeFilterVisibility([in] BOOL fVisible);
+    [] HRESULT EnsureViewForFilterSite();
+    [] HRESULT GetDirectDraw([retval, out] void** ppDirectDraw);
+    [] HRESULT GetFilterFlags([retval, out] DWORD* nFlagVal);
+};
+[
+    object,
+    pointer_default(unique),
+    uuid(3050f7ff-98b5-11cf-bb82-00aa00bdce0b)
+]
+interface IElementNamespacePrivate : IUnknown
+{
+    [] HRESULT AddTagPrivate([in] BSTR bstrTagName,[in] BSTR bstrBaseTagName,[in] LONG lFlags);
+};
+[
+    object,
+    pointer_default(unique),
+    uuid(0B9C155B-19BF-434c-9968-A4875AEAD66A)
+]
+interface IHttpHeaderInfo : IUnknown
+{
+    [] HRESULT SetExtraHeaders([in] LPCWSTR pszSinkSpecificHeaders,[out] LPWSTR* ppszExtraHeaders);
+    [] HRESULT GetAcceptHeader([out] LPWSTR* ppszAcceptHeader);
+};
+[
+    object,
+    pointer_default(unique),
+    uuid(BE5A2B3C-EC61-45c5-959C-17319C87DF86)
+]
+interface IMobileUIHandler : IUnknown
+{
+    [] HRESULT Attach([in] IDispatch* pElement);
+    [] HRESULT Update([in] MobileUIEvent eEvent);
+    [] HRESULT Detach();
+    [] HRESULT SetParentWindow([in] HWND hwnd);
+};
+[
+    object,
+    pointer_default(unique),
+    uuid(065211AF-F591-48c6-B708-68B771CC0968)
+]
+interface IMobileUIHandlerProvider : IUnknown
+{
+    [] HRESULT GetMobileUIHandler([retval, out] IMobileUIHandler** ppMobileUIHandler);
+};
+}
+cpp_quote("#endif //INTERNAL_H_")

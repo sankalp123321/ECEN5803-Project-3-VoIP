@@ -1,0 +1,151 @@
+ mmtimer
+
+ Timestamp is 5ac64c64 (Thu Apr 05 09:18:44 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 00000052H .rdata                  CODE
+ 0001:00000074 00000024H .rdata$debug            CODE
+ 0001:00000098 00001040H .text                   CODE
+ 0001:000010d8 00000028H .xdata                  CODE
+ 0001:00001100 00000014H .idata$2                CODE
+ 0001:00001114 00000014H .idata$3                CODE
+ 0001:00001128 00000068H .idata$4                CODE
+ 0001:00001190 0000000cH .idata$6                CODE
+ 0001:000011a0 00000133H .edata                  CODE
+ 0002:00000000 00000068H .idata$5                DATA
+ 0002:00000068 00000018H .data                   DATA
+ 0002:00000080 00000384H .bss                    DATA
+ 0003:00000000 000000e8H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:0000003c       ??_C@_1BI@BHLBGEOK@?$AAP?$AAr?$AAi?$AAo?$AAr?$AAi?$AAt?$AAy?$AA2?$AA5?$AA6?$AA?$AA@ 1000103c     MMTimer.obj
+ 0001:00000054       ??_C@_1BO@IPDGLFBM@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?2?$AAM?$AAM?$AAT?$AAI?$AAM?$AAE?$AAR?$AA?$AA@ 10001054     MMTimer.obj
+ 0001:00000098       AllocateTimerDB            10001098 f   MMTimer.obj
+ 0001:00000104       AddTimerDB                 10001104 f   MMTimer.obj
+ 0001:000001b8       RemoveTimerDB              100011b8 f   MMTimer.obj
+ 0001:00000210       UpdateTimeOut              10001210 f   MMTimer.obj
+ 0001:000002ac       IsKernelMode               100012ac f   MMTimer.obj
+ 0001:000002c4       timeDeinit                 100012c4 f   MMTimer.obj
+ 0001:000003e8       timeBeginPeriod            100013e8 f   MMTimer.obj
+ 0001:0000047c       timeEndPeriod              1000147c f   MMTimer.obj
+ 0001:00000538       timeGetDevCaps             10001538 f   MMTimer.obj
+ 0001:00000590       timeGetTime                10001590 f   MMTimer.obj
+ 0001:00000594       timeGetTimeSinceInterrupt  10001594 f   MMTimer.obj
+ 0001:0000059c       timeGetHardwareFrequency   1000159c f   MMTimer.obj
+ 0001:000005c8       DllMain                    100015c8 f   MMTimer.obj
+ 0001:0000081c       timeInit                   1000181c f   MMTimer.obj
+ 0001:000009bc       timeSetEvent               100019bc f   MMTimer.obj
+ 0001:00000b4c       timeKillEvent              10001b4c f   MMTimer.obj
+ 0001:00000c48       EventModify                10001c48 f   coredll:COREDLL.dll
+ 0001:00000c58       TlsCall                    10001c58 f   coredll:COREDLL.dll
+ 0001:00000c68       LeaveCriticalSection       10001c68 f   coredll:COREDLL.dll
+ 0001:00000c78       EnterCriticalSection       10001c78 f   coredll:COREDLL.dll
+ 0001:00000c88       GetTickCount               10001c88 f   coredll:COREDLL.dll
+ 0001:00000c98       CloseHandle                10001c98 f   coredll:COREDLL.dll
+ 0001:00000ca8       TerminateThread            10001ca8 f   coredll:COREDLL.dll
+ 0001:00000cb8       WaitForSingleObject        10001cb8 f   coredll:COREDLL.dll
+ 0001:00000cc8       SetThreadPriority          10001cc8 f   coredll:COREDLL.dll
+ 0001:00000cd8       CeSetThreadPriority        10001cd8 f   coredll:COREDLL.dll
+ 0001:00000ce8       CeGetThreadPriority        10001ce8 f   coredll:COREDLL.dll
+ 0001:00000cf8       QueryPerformanceFrequency  10001cf8 f   coredll:COREDLL.dll
+ 0001:00000d08       DeleteCriticalSection      10001d08 f   coredll:COREDLL.dll
+ 0001:00000d18       InitializeCriticalSection  10001d18 f   coredll:COREDLL.dll
+ 0001:00000d28       CreateThread               10001d28 f   coredll:COREDLL.dll
+ 0001:00000d38       RegCloseKey                10001d38 f   coredll:COREDLL.dll
+ 0001:00000d48       RegQueryValueExW           10001d48 f   coredll:COREDLL.dll
+ 0001:00000d58       RegOpenKeyExW              10001d58 f   coredll:COREDLL.dll
+ 0001:00000d68       CreateEventW               10001d68 f   coredll:COREDLL.dll
+ 0001:00000e70       _DllMainCRTStartup         10001e70 f   corelib0:pegdmain.obj
+ 0001:00000f84       _cexit                     10001f84 f   corelib0:cexit.obj
+ 0001:00000f94       _initterm                  10001f94 f   corelib0:crt0dat.obj
+ 0001:00000fc0       _cinit                     10001fc0 f   corelib0:crt0dat.obj
+ 0001:00001020       __security_init_cookie     10002020 f   corelib0:seccinit.obj
+ 0001:0000106c       __crt_ExitProcess          1000206c f   corelib0:exitproc_proxy.obj
+ 0001:00001078       __C_specific_handler       10002078 f   corelib1:COREDLL.dll
+ 0001:00001088       _XcptFilter                10002088 f   corelib1:COREDLL.dll
+ 0001:00001098       free                       10002098 f   corelib1:COREDLL.dll
+ 0001:000010a8       __security_gen_cookie2     100020a8 f   corelib1:COREDLL.dll
+ 0001:000010b8       InterlockedExchange        100020b8 f   coredll:COREDLL.dll
+ 0001:000010c8       TerminateProcess           100020c8 f   coredll:COREDLL.dll
+ 0001:00001100       __IMPORT_DESCRIPTOR_COREDLL 10002100     coredll:COREDLL.dll
+ 0001:00001114       __NULL_IMPORT_DESCRIPTOR   10002114     coredll:COREDLL.dll
+ 0002:00000000       __imp_EventModify          10003000     coredll:COREDLL.dll
+ 0002:00000004       __imp_TlsCall              10003004     coredll:COREDLL.dll
+ 0002:00000008       __imp_LeaveCriticalSection 10003008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_EnterCriticalSection 1000300c     coredll:COREDLL.dll
+ 0002:00000010       __imp_GetTickCount         10003010     coredll:COREDLL.dll
+ 0002:00000014       __imp_CloseHandle          10003014     coredll:COREDLL.dll
+ 0002:00000018       __imp_TerminateThread      10003018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_WaitForSingleObject  1000301c     coredll:COREDLL.dll
+ 0002:00000020       __imp_SetThreadPriority    10003020     coredll:COREDLL.dll
+ 0002:00000024       __imp_CeSetThreadPriority  10003024     coredll:COREDLL.dll
+ 0002:00000028       __imp_CeGetThreadPriority  10003028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_QueryPerformanceFrequency 1000302c     coredll:COREDLL.dll
+ 0002:00000030       __imp_DeleteCriticalSection 10003030     coredll:COREDLL.dll
+ 0002:00000034       __imp_InitializeCriticalSection 10003034     coredll:COREDLL.dll
+ 0002:00000038       __imp_CreateThread         10003038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_RegCloseKey          1000303c     coredll:COREDLL.dll
+ 0002:00000040       __imp_RegQueryValueExW     10003040     coredll:COREDLL.dll
+ 0002:00000044       __imp_RegOpenKeyExW        10003044     coredll:COREDLL.dll
+ 0002:00000048       __imp_CreateEventW         10003048     coredll:COREDLL.dll
+ 0002:0000004c       __imp___C_specific_handler 1000304c     corelib1:COREDLL.dll
+ 0002:00000050       __imp__XcptFilter          10003050     corelib1:COREDLL.dll
+ 0002:00000054       __imp_free                 10003054     corelib1:COREDLL.dll
+ 0002:00000058       __imp___security_gen_cookie2 10003058     corelib1:COREDLL.dll
+ 0002:0000005c       __imp_InterlockedExchange  1000305c     coredll:COREDLL.dll
+ 0002:00000060       __imp_TerminateProcess     10003060     coredll:COREDLL.dll
+ 0002:00000064       \177COREDLL_NULL_THUNK_DATA 10003064     coredll:COREDLL.dll
+ 0002:00000068       g_dwMinResolution          10003068     MMTimer.obj
+ 0002:0000006c       g_uCurrentPeriod           1000306c     MMTimer.obj
+ 0002:00000070       g_dwWaitTime               10003070     MMTimer.obj
+ 0002:00000074       g_bContinue                10003074     MMTimer.obj
+ 0002:00000078       __security_cookie          10003078     corelib0:seccinit.obj
+ 0002:0000007c       __security_cookie_complement 1000307c     corelib0:seccinit.obj
+ 0002:00000080       g_PeriodSlots              10003080     MMTimer.obj
+ 0002:000000f0       g_Timers                   100030f0     MMTimer.obj
+ 0002:00000370       g_hTimerEvent              10003370     MMTimer.obj
+ 0002:00000374       g_dwThreadPriority         10003374     MMTimer.obj
+ 0002:00000378       g_dwTimerCount             10003378     MMTimer.obj
+ 0002:0000037c       g_hTimerThread             1000337c     MMTimer.obj
+ 0002:00000380       g_lpTimerList              10003380     MMTimer.obj
+ 0002:00000388       _exitflag                  10003388     corelib0:cexit.obj
+ 0002:0000038c       g_pfnSetThreadPriority     1000338c     <common>
+ 0002:000003a0       g_InitCS                   100033a0     <common>
+ 0002:000003b4       g_pfnGetThreadPriority     100033b4     <common>
+ 0002:000003c0       g_ResCS                    100033c0     <common>
+ 0002:000003e0       g_TimerCS                  100033e0     <common>
+ 0002:000003f4       __onexitend                100033f4     <common>
+ 0002:000003f8       __onexitbegin              100033f8     <common>
+ 0002:000003fc       g_pcsExit                  100033fc     <common>
+ 0002:00000400       _pRawDllMain               10003400     <common>
+
+ entry point at        0001:00000e70
+
+ Static symbols
+
+ 0001:000005c4       _callback                  100015c4 f   MMTimer.obj
+ 0001:00000678       ProcessTimer               10001678 f   MMTimer.obj
+ 0001:000007a0       TimerThread                100017a0 f   MMTimer.obj
+ 0001:00000d80       _DllMainCRTStartupHelper   10001d80 f   corelib0:pegdmain.obj
+ 0001:00000e9c       doexit                     10001e9c f   corelib0:cexit.obj

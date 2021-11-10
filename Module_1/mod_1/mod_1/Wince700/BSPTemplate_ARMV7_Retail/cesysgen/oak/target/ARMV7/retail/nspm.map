@@ -1,0 +1,179 @@
+ nspm
+
+ Timestamp is 5ac64a23 (Thu Apr 05 09:09:07 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 00000126H .rdata                  CODE
+ 0001:00000148 00000021H .rdata$debug            CODE
+ 0001:0000016c 00001d2cH .text                   CODE
+ 0001:00001e98 00000048H .xdata                  CODE
+ 0001:00001ee0 00000014H .idata$2                CODE
+ 0001:00001ef4 00000014H .idata$3                CODE
+ 0001:00001f08 00000088H .idata$4                CODE
+ 0001:00001f90 0000000cH .idata$6                CODE
+ 0001:00001fa0 00000046H .edata                  CODE
+ 0002:00000000 00000088H .idata$5                DATA
+ 0002:00000088 000000b4H .data                   DATA
+ 0002:00000140 00000040H .bss                    DATA
+ 0003:00000000 000000f0H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:0000003c       ??_C@_05DAOAAINN@login?$AA@ 1000103c     nspsrvc.obj
+ 0001:00000044       ??_C@_03OCLLGKEH@udp?$AA@  10001044     nspsrvc.obj
+ 0001:00000048       ??_C@_04FHAFFPEI@tftp?$AA@ 10001048     nspsrvc.obj
+ 0001:00000050       ??_C@_06KAPJOFBF@telnet?$AA@ 10001050     nspsrvc.obj
+ 0001:00000058       ??_C@_03FPEIBLKH@tcp?$AA@  10001058     nspsrvc.obj
+ 0001:0000005c       ??_C@_03LMDBDBEG@ftp?$AA@  1000105c     nspsrvc.obj
+ 0001:00000060       ??_C@_1BE@BPJHOOKE@?$AAi?$AAn?$AAe?$AAt?$AA_?$AAa?$AAd?$AAd?$AAr?$AA?$AA@ 10001060     nspsrvc.obj
+ 0001:00000074       ??_C@_1BA@FEDENLHL@?$AAw?$AAs?$AA2?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10001074     nspsrvc.obj
+ 0001:00000084       ??_C@_11LOCGONAA@?$AA?$AA@ 10001084     nspsrvc.obj
+ 0001:00000088       ??_C@_1BC@IBGKKIOA@?$AAl?$AAo?$AAo?$AAp?$AAb?$AAa?$AAc?$AAk?$AA?$AA@ 10001088     nspsrvc.obj
+ 0001:0000009c       ??_C@_1BE@JDLPANCI@?$AAl?$AAo?$AAc?$AAa?$AAl?$AAh?$AAo?$AAs?$AAt?$AA?$AA@ 1000109c     nspsrvc.obj
+ 0001:000000b0       ??_C@_13FPGAJAPJ@?$AA?2?$AA?$AA@ 100010b0     nspsrvc.obj
+ 0001:000000b4       ??_C@_1BE@BOKAEJFH@?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AAC?$AAE?$AA?$AA@ 100010b4     nspsrvc.obj
+ 0001:000000c8       ??_C@_19DINFBLAK@?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 100010c8     nspsrvc.obj
+ 0001:000000d4       ??_C@_1M@LPEEOHMF@?$AAI?$AAd?$AAe?$AAn?$AAt?$AA?$AA@ 100010d4     nspsrvc.obj
+ 0001:000000e0       ??_C@_19EBPEOCDM@?$AAG?$AAU?$AAI?$AAD?$AA?$AA@ 100010e0     nspsrvc.obj
+ 0001:000000f0       ??_C@_1FG@JMAOAOOC@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAW?$AAi?$AAn?$AAs?$AAo?$AAc?$AAk?$AA2?$AA?2?$AAS?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AA?2?$AAS?$AAe@ 100010f0     nspsrvc.obj
+ 0001:00000174       NSPCleanup                 10001174 f   init.obj
+ 0001:00000224       NSPStartup                 10001224 f   init.obj
+ 0001:00000324       DllEntry                   10001324 f   init.obj
+ 0001:00000368       _FindQuery                 10001368 f   nspsrvc.obj
+ 0001:000003a4       MyInetAddrW                100013a4 f   nspsrvc.obj
+ 0001:000004a4       MyInetNtoaW                100014a4 f   nspsrvc.obj
+ 0001:00000534       DnsNameCompare_W           10001534 f   nspsrvc.obj
+ 0001:000005dc       PointerToOffset            100015dc f   nspsrvc.obj
+ 0001:00000698       CopyHostentToBlob          10001698 f   nspsrvc.obj
+ 0001:0000085c       CheckAddressFamily         1000185c f   nspsrvc.obj
+ 0001:000008d0       NSPLookupServiceBegin      100018d0 f   nspsrvc.obj
+ 0001:00000d60       NSPLookupServiceNext       10001d60 f   nspsrvc.obj
+ 0001:00001748       NSPLookupServiceEnd        10002748 f   nspsrvc.obj
+ 0001:000017d4       NSPSetService              100027d4 f   nspsrvc.obj
+ 0001:000017f0       NSPInstallServiceClass     100027f0 f   nspsrvc.obj
+ 0001:00001990       NSPRemoveServiceClass      10002990 f   nspsrvc.obj
+ 0001:000019a4       NSPGetServiceClassInfo     100029a4 f   nspsrvc.obj
+ 0001:000019b8       SetLastError               100029b8 f   coredll:COREDLL.dll
+ 0001:000019c8       LeaveCriticalSection       100029c8 f   coredll:COREDLL.dll
+ 0001:000019d8       EnterCriticalSection       100029d8 f   coredll:COREDLL.dll
+ 0001:000019e8       DeleteCriticalSection      100029e8 f   coredll:COREDLL.dll
+ 0001:000019f8       DisableThreadLibraryCalls  100029f8 f   coredll:COREDLL.dll
+ 0001:00001a08       InitializeCriticalSection  10002a08 f   coredll:COREDLL.dll
+ 0001:00001a18       WideCharToMultiByte        10002a18 f   coredll:COREDLL.dll
+ 0001:00001a28       GetProcAddressW            10002a28 f   coredll:COREDLL.dll
+ 0001:00001a38       LoadLibraryW               10002a38 f   coredll:COREDLL.dll
+ 0001:00001a48       LocalFree                  10002a48 f   coredll:COREDLL.dll
+ 0001:00001a58       StringCbCopyW              10002a58 f   coredll:COREDLL.dll
+ 0001:00001a68       LocalAlloc                 10002a68 f   coredll:COREDLL.dll
+ 0001:00001a78       StringCchCopyW             10002a78 f   coredll:COREDLL.dll
+ 0001:00001a88       RegCloseKey                10002a88 f   coredll:COREDLL.dll
+ 0001:00001a98       RegQueryValueExW           10002a98 f   coredll:COREDLL.dll
+ 0001:00001aa8       RegOpenKeyExW              10002aa8 f   coredll:COREDLL.dll
+ 0001:00001ab8       GetLastError               10002ab8 f   coredll:COREDLL.dll
+ 0001:00001ac8       MultiByteToWideChar        10002ac8 f   coredll:COREDLL.dll
+ 0001:00001ad8       RegSetValueExW             10002ad8 f   coredll:COREDLL.dll
+ 0001:00001ae8       RegCreateKeyExW            10002ae8 f   coredll:COREDLL.dll
+ 0001:00001af8       _DllEntryCRTStartup        10002af8 f   corelib0:pegdentry.obj
+ 0001:00001b3c       __GSHandlerCheckCommon     10002b3c f   corelib0:gshandler.obj
+ 0001:00001b78       __GSHandlerCheck           10002b78 f   corelib0:gshandler.obj
+ 0001:00001b98       __security_init_cookie     10002b98 f   corelib0:seccinit.obj
+ 0001:00001be4       __security_check_cookie    10002be4 f   corelib0:armsecgs.obj
+ 0001:00001bf4       __gsfailure                10002bf4     corelib0:armsecgs.obj
+ 0001:00001d20       _cexit                     10002d20 f   corelib0:cexit.obj
+ 0001:00001d30       _initterm                  10002d30 f   corelib0:crt0dat.obj
+ 0001:00001d5c       _cinit                     10002d5c f   corelib0:crt0dat.obj
+ 0001:00001dbc       __crt_ExitProcess          10002dbc f   corelib0:exitproc_proxy.obj
+ 0001:00001dc8       __C_specific_handler       10002dc8 f   corelib1:COREDLL.dll
+ 0001:00001dd8       memcmp                     10002dd8 f   corelib1:COREDLL.dll
+ 0001:00001de8       wcslen                     10002de8 f   corelib1:COREDLL.dll
+ 0001:00001df8       _wcsnicmp                  10002df8 f   corelib1:COREDLL.dll
+ 0001:00001e08       memcpy                     10002e08 f   corelib1:COREDLL.dll
+ 0001:00001e18       wcscmp                     10002e18 f   corelib1:COREDLL.dll
+ 0001:00001e28       strlen                     10002e28 f   corelib1:COREDLL.dll
+ 0001:00001e38       memset                     10002e38 f   corelib1:COREDLL.dll
+ 0001:00001e48       __security_gen_cookie2     10002e48 f   corelib1:COREDLL.dll
+ 0001:00001e58       __report_gsfailure         10002e58 f   corelib1:COREDLL.dll
+ 0001:00001e68       free                       10002e68 f   corelib1:COREDLL.dll
+ 0001:00001e78       InterlockedExchange        10002e78 f   coredll:COREDLL.dll
+ 0001:00001e88       TerminateProcess           10002e88 f   coredll:COREDLL.dll
+ 0001:00001ee0       __IMPORT_DESCRIPTOR_COREDLL 10002ee0     coredll:COREDLL.dll
+ 0001:00001ef4       __NULL_IMPORT_DESCRIPTOR   10002ef4     coredll:COREDLL.dll
+ 0002:00000000       __imp_SetLastError         10003000     coredll:COREDLL.dll
+ 0002:00000004       __imp_LeaveCriticalSection 10003004     coredll:COREDLL.dll
+ 0002:00000008       __imp_EnterCriticalSection 10003008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_DeleteCriticalSection 1000300c     coredll:COREDLL.dll
+ 0002:00000010       __imp_DisableThreadLibraryCalls 10003010     coredll:COREDLL.dll
+ 0002:00000014       __imp_InitializeCriticalSection 10003014     coredll:COREDLL.dll
+ 0002:00000018       __imp_WideCharToMultiByte  10003018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_GetProcAddressW      1000301c     coredll:COREDLL.dll
+ 0002:00000020       __imp_LoadLibraryW         10003020     coredll:COREDLL.dll
+ 0002:00000024       __imp_LocalFree            10003024     coredll:COREDLL.dll
+ 0002:00000028       __imp_StringCbCopyW        10003028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_LocalAlloc           1000302c     coredll:COREDLL.dll
+ 0002:00000030       __imp_StringCchCopyW       10003030     coredll:COREDLL.dll
+ 0002:00000034       __imp_RegCloseKey          10003034     coredll:COREDLL.dll
+ 0002:00000038       __imp_RegQueryValueExW     10003038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_RegOpenKeyExW        1000303c     coredll:COREDLL.dll
+ 0002:00000040       __imp_GetLastError         10003040     coredll:COREDLL.dll
+ 0002:00000044       __imp_MultiByteToWideChar  10003044     coredll:COREDLL.dll
+ 0002:00000048       __imp_RegSetValueExW       10003048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_RegCreateKeyExW      1000304c     coredll:COREDLL.dll
+ 0002:00000050       __imp___C_specific_handler 10003050     corelib1:COREDLL.dll
+ 0002:00000054       __imp_memcmp               10003054     corelib1:COREDLL.dll
+ 0002:00000058       __imp_wcslen               10003058     corelib1:COREDLL.dll
+ 0002:0000005c       __imp__wcsnicmp            1000305c     corelib1:COREDLL.dll
+ 0002:00000060       __imp_memcpy               10003060     corelib1:COREDLL.dll
+ 0002:00000064       __imp_wcscmp               10003064     corelib1:COREDLL.dll
+ 0002:00000068       __imp_strlen               10003068     corelib1:COREDLL.dll
+ 0002:0000006c       __imp_memset               1000306c     corelib1:COREDLL.dll
+ 0002:00000070       __imp___security_gen_cookie2 10003070     corelib1:COREDLL.dll
+ 0002:00000074       __imp___report_gsfailure   10003074     corelib1:COREDLL.dll
+ 0002:00000078       __imp_free                 10003078     corelib1:COREDLL.dll
+ 0002:0000007c       __imp_InterlockedExchange  1000307c     coredll:COREDLL.dll
+ 0002:00000080       __imp_TerminateProcess     10003080     coredll:COREDLL.dll
+ 0002:00000084       \177COREDLL_NULL_THUNK_DATA 10003084     coredll:COREDLL.dll
+ 0002:00000088       NsId                       10003088     init.obj
+ 0002:00000098       s_Serv                     10003098     nspsrvc.obj
+ 0002:000000a4       s_aServices                100030a4     nspsrvc.obj
+ 0002:000000d4       HostnameGuid               100030d4     nspsrvc.obj
+ 0002:000000e4       AddressGuid                100030e4     nspsrvc.obj
+ 0002:000000f4       InetHostName               100030f4     nspsrvc.obj
+ 0002:00000104       IANAGuid                   10003104     nspsrvc.obj
+ 0002:00000114       AtmaGuid                   10003114     nspsrvc.obj
+ 0002:00000124       Ipv6Guid                   10003124     nspsrvc.obj
+ 0002:00000134       __security_cookie          10003134     corelib0:seccinit.obj
+ 0002:00000138       __security_cookie_complement 10003138     corelib0:seccinit.obj
+ 0002:00000144       _exitflag                  10003144     corelib0:cexit.obj
+ 0002:00000148       g_pInet_Addr               10003148     <common>
+ 0002:0000014c       g_hWs2                     1000314c     <common>
+ 0002:00000150       v_pQueryList               10003150     <common>
+ 0002:00000160       v_NspmCS                   10003160     <common>
+ 0002:00000174       __onexitend                10003174     <common>
+ 0002:00000178       __onexitbegin              10003178     <common>
+ 0002:0000017c       g_pcsExit                  1000317c     <common>
+
+ entry point at        0001:00001af8
+
+ Static symbols
+
+ 0001:00001c38       doexit                     10002c38 f   corelib0:cexit.obj

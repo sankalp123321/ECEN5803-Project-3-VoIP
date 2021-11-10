@@ -1,0 +1,116 @@
+//
+// Copyright (c) Microsoft Corporation.  All rights reserved.
+//
+//
+// Use of this sample source code is subject to the terms of the Microsoft
+// license agreement under which you licensed this sample source code. If
+// you did not accept the terms of the license agreement, you are not
+// authorized to use this sample source code. For the terms of the license,
+// please see the license agreement between you and Microsoft or, if applicable,
+// see the LICENSE.RTF on your install media or the root of your tools installation.
+// THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+//
+
+// project.reg translations
+
+// Localize these Special Folders name. Ensure it is in sync with the same strings in Explorer.exe
+
+#define LOC_RECYCLEBINDISPLAY       "휴지통"
+#define LOC_MYCOMPUTERDISPLAY       "내 컴퓨터"
+#define LOC_DATABASEDISPLAY         "데이터베이스"
+
+// Registry entry with the file name for the deafult page. Used by PIE when started. Must be consistent with the LOC_STARTPAGEFILE entry in Project.bib section
+
+#define LOC_STARTPAGE       "file:///windows/default.htm"
+
+// Registry entries for the search pages. If a localized search page exist, change it. If not, leave it in English
+
+#define LOC_SEARCHPAGE      "http://www.msn.com/access/allinone.htm"
+#define LOC_SEARCHURL       "http://home.microsoft.com/access/autosearch.asp?p=%s"
+
+// Registry entries for Applications type
+
+#define LOC_APPLICATION             "응용 프로그램"
+#define LOC_HTMLDOCUMENT            "HTML 문서"
+#define LOC_GIFIMAGE                "GIF 이미지"
+#define LOC_BMPIMAGE                "비트맵 이미지"
+#define LOC_JPEGIMAGE               "JPEG 이미지"
+#define LOC_URLLOCATION             "URL 위치"
+#define LOC_HELPFILE                "도움말 파일"
+#define LOC_DLLFILE                 "응용 프로그램 확장"
+#define LOC_TTFFILE                 "트루타입 글꼴 파일"
+#define LOC_CPLFILE                 "제어판 확장"
+#define LOC_WAVFILE                 "웨이브 소리"
+
+// project.dat translations
+
+// Special Folder names. Keep consistent with the same names in the previous section and what follows.
+// Needs to be consistent with Explorer.exe as well, or the build will break
+
+#define LOC_MYDOCUMENTS_DIR         ~"My Documents"
+#define LOC_PROGRAMFILES_DIR        ~"Program Files"
+#define LOC_COMMUNICATION_DIR       ~"Communication"
+#define LOC_FAVORITES_DIR           ~"Favorites"
+#define LOC_DESKTOP_DIR             ~"바탕 화면"
+#define LOC_PROGRAMS_DIR            ~"프로그램"
+#define LOC_RECENT_DIR              ~"Recent"
+#define LOC_HELP_DIR                ~"Help"
+
+// Links used on the desktop and Start Menu
+
+#define LOC_CONTROLPANEL_LNK        ~"제어판.lnk"
+#define LOC_WINDOWSEXPLORER_LNK     ~"Windows 탐색기.lnk"
+#define LOC_INTERNETEXPLORER_LNK    ~"Internet Explorer.lnk"
+#define LOC_REMOTENETWORKING_LNK    ~"원격 네트워킹.lnk"
+#define LOC_TERMINAL_LNK            ~"터미널.lnk"
+#define LOC_CMD_LNK                 ~"명령 프롬프트.lnk"
+#define LOC_MSTSC_LNK               ~"원격 데스크톱 연결.lnk"
+#define LOC_SOLITAIRE_LNK           ~"카드놀이.lnk"
+#define LOC_FREECELL_LNK            ~"프리셀.lnk"
+
+// Links used for Help
+
+#define LOC_HLPLNK_BASICS           "Windows Embedded Compact 기본.lnk"
+#define LOC_HLPLNK_COMMUNICATIONS   "원격 연결.lnk"
+#define LOC_HLPLNK_SETTINGS         "설정.lnk"
+#define LOC_HLPLNK_COPYRIGHT        "저작권 정보.lnk"
+#define LOC_HLPLNK_MSTSC            "원격 데스크톱 연결.lnk"
+#define LOC_HLPLNK_SOLTR            "Solitaire.lnk"
+
+// Must be consistent with the Registry entry LOC_STARTPAGE. Used by Pie when started without an address
+
+#define LOC_STARTPAGEFILE   "default.htm"
+
+// Comm CPL
+#define LOC_DESKTOPCONNECT          "`바탕 화면 @ 19200`"
+
+// Sounds CPL, scheme name
+#define LOC_ALLSOUNDS               "모든 소리"
+#define LOC_NOSOUNDS                "소리 없음"
+#define LOC_DEFAULTSOUNDS           "Windows Embedded Compact 기본"
+
+// INTL.CPL Support for an extra locale-specfic currency symbol (e.g. Euro). Set to 0 to disable
+#define LOC_EXTRACURRENCY           ~"20ac"
+
+// Color scheme names
+#define LOC_SCHEME_STANDARD         "Windows 표준"
+#define LOC_SCHEME_WHEAT            "밀색"
+#define LOC_SCHEME_MARINE           "청록"
+#define LOC_SCHEME_ROSE             "다홍"
+#define LOC_SCHEME_BRICK            "벽돌색"
+#define LOC_SCHEME_DESERT           "황토색"
+#define LOC_SCHEME_EGGPLANT         "가지색"
+#define LOC_SCHEME_HCBLACK          "고대비 검정"
+#define LOC_SCHEME_HCWHITE          "고대비 흰색"
+#define LOC_SCHEME_LILAC            "보라"
+#define LOC_SCHEME_MAPLE            "단풍색"
+#define LOC_SCHEME_SPRUCE           "스프루스"
+#define LOC_SCHEME_STORM            "회색 및 보라"
+
+
+// to prevent build break
+#define LOCALIZED_SPIMNAME          "ShuangPin IM (for Pocket IME)"
+#define LOCALIZED_SSKIMNAME         "ShuangPin IM (for MSPY3)"
+#define LOCALIZED_SSK3DIMNAME       "ShuangPin IM 3D (for MSPY3)"
+
+

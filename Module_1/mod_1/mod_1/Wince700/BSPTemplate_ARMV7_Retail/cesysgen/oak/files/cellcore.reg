@@ -1,0 +1,818 @@
+;
+; Copyright (c) Microsoft Corporation.  All rights reserved.
+;
+;
+; Use of this sample source code is subject to the terms of the Microsoft
+; license agreement under which you licensed this sample source code. If
+; you did not accept the terms of the license agreement, you are not
+; authorized to use this sample source code. For the terms of the license,
+; please see the license agreement between you and Microsoft or, if applicable,
+; see the LICENSE.RTF on your install media or the root of your tools installation.
+; THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+;
+
+IF IMGTPC
+
+; @XIPREGION IF CELLCORE_REGISTRY_INITKEY
+[HKEY_LOCAL_MACHINE\init]
+; @XIPREGION ENDIF CELLCORE_REGISTRY_INITKEY
+
+; @CESYSGEN IF CELLCORE_MODULES_CONNMGR
+; @CESYSGEN ENDIF CELLCORE_MODULES_CONNMGR
+
+ENDIF ; IMGTPC
+
+; ---------------------------------------------------------------------------
+; CELLCORE registry keys
+; ---------------------------------------------------------------------------
+
+
+; @CESYSGEN IF CELLCORE_MODULES_CCOREUTL
+
+; List of emergency numbers (this is merged with the list on the SIM, if SIM is present)
+; 112 is hardcoded and so removing it here will not truly remove it from the device
+; OEMs/carriers can change this to enable/disable different #s
+; used by ossvcs!GetEmergencyCallList
+[HKEY_LOCAL_MACHINE\Security\ECallWithSIM]
+"List"=multi_sz:      "911",
+                      "112",
+                      "08",
+                      "999"
+
+; List of emergency numbers (if SIM is not present)
+; 112 is hardcoded and so removing it here will not truly remove it from the device
+; OEMs/carriers can change this to enable/disable different #s
+; used by ossvcs!GetEmergencyCallList
+[HKEY_LOCAL_MACHINE\Security\ECallWithoutSIM]
+"List"=multi_sz:      "911",
+                      "112",
+                      "08",
+                      "999"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Vmail]
+    "PhoneNumber1" = ""
+    "PhoneNumber2" = ""
+
+; This is for CDMA phone
+;[HKEY_CURRENT_USER\Software\Microsoft\Vmail]
+;    This is for the voice mail phone number from carrier provider
+;    Read Only. Can only add by OEM.
+;    "CarrierProviderNumber"="*86"
+
+
+[HKEY_CLASSES_ROOT\CLSID\{09438D64-7037-4d67-A056-7BF3703309A9}]
+@="VMailServerCaller"
+[HKEY_CLASSES_ROOT\CLSID\{09438D64-7037-4d67-A056-7BF3703309A9}\InProcServer32]
+@="ccoreutl.dll"
+[HKEY_LOCAL_MACHINE\Comm\Cellular\CCOREUTL]
+;   ; Number of milliseconds to wait for responses from RIL during a sync call to update cellular radio tx/rx state (default: 30000)
+;   ; If the value is set to 0xFFFFFFFF, the timeout of INFINITE is used.
+;   "RadioTransmitReceiveStateTimeOut"=dword:7530
+
+; @CESYSGEN ENDIF CELLCORE_MODULES_CCOREUTL
+
+; @CESYSGEN IF CELLCORE_MODULES_CELLTSP
+; @CESYSGEN ENDIF CELLCORE_MODULES_CELLTSP
+
+; @CESYSGEN IF CELLCORE_MODULES_CONNCFG
+; @CESYSGEN ENDIF CELLCORE_MODULES_CONNCFG
+
+
+; @CESYSGEN IF CELLCORE_MODULES_CSPPROXY
+; @CESYSGEN ENDIF CELLCORE_MODULES_CSPPROXY
+
+; @CESYSGEN IF CELLCORE_MODULES_CFGSPPOLICY
+; @CESYSGEN ENDIF CELLCORE_MODULES_CFGSPPOLICY
+
+; @CESYSGEN IF CELLCORE_MODULES_CSPNET
+; @CESYSGEN ENDIF CELLCORE_MODULES_CSPNET
+
+; @CESYSGEN IF CELLCORE_MODULES_CSPRAS
+; @CESYSGEN ENDIF CELLCORE_MODULES_CSPRAS
+
+; @CESYSGEN IF CELLCORE_MODULES_CONNPLAN
+; @CESYSGEN ENDIF CELLCORE_MODULES_CONNPLAN
+
+; Connection Manager
+
+; @CESYSGEN IF CELLCORE_MODULES_CONNPLAN
+; @CESYSGEN ENDIF CELLCORE_MODULES_CONNPLAN
+
+; Connection Providers
+
+; @CESYSGEN IF CELLCORE_MODULES_CSPRAS
+; @CESYSGEN ENDIF CELLCORE_MODULES_CSPRAS
+
+; @CESYSGEN IF CELLCORE_MODULES_CSPNET
+; @CESYSGEN ENDIF CELLCORE_MODULES_CSPNET
+
+; @CESYSGEN IF CELLCORE_MODULES_CSPOMADMCONN
+; @CESYSGEN ENDIF CELLCORE_MODULES_CSPOMADMCONN
+
+
+; @CESYSGEN IF CELLCORE_MODULES_CELLTSP
+; @CESYSGEN ENDIF CELLCORE_MODULES_CELLTSP
+
+; @CESYSGEN IF CELLCORE_MODULES_CCOREUTL
+[HKEY_LOCAL_MACHINE\System\State\Phone]
+; @CESYSGEN ENDIF CELLCORE_MODULES_CCOREUTL
+
+; @CESYSGEN IF CELLCORE_MODULES_RIL
+
+IF IMGNOOSSVCSRIL !
+; Radio Interface Layer and CellTSP TAPI TSP
+; Necessary for almost all cell-module usage
+
+; Radio Supported Supplementary Service MMI Service Codes
+[HKEY_LOCAL_MACHINE\Comm\Cellular\]
+   "ValidMMIServiceCode"="75,750,751,752,753,754,66,30,31,76,77,21,67,61,62,002,004,43,361,362,363,360,33,331,332,35,351,330,333,353,96,37,214,300,591,592,593,594,88"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL]
+;   ; Serial port used by VSP (default: COM2:)
+IF IMGRILCOM1
+    "ComPort"="COM1:"
+ENDIF
+;   ; Baud rate used by RIL/VSP (default: 115200)
+;   "BaudRate"=dword:1c200
+; 19200
+;   "BaudRate"=dword:4b00
+;   ; Additional initialization commands for RIL to send to the underlying serial port
+;   "ComInitString"="M0"
+;   ; Number of times VSP will try opening the underlying serial port (default: 3)
+;   "MaxOpenAttempts"=dword:3
+;   ; Amount of time (in msec), for which the VSP will pause between attempts to open the underlying serial port (default: 1000)
+;   "OpenTimeout"=dword:3e8
+;   ; Number of milliseconds VSP will operate in data mode before dropping out to send RIL command (if there are any pending) (default: 1000)
+;   "DataModeCmdDelay"=dword:3e8
+;   ; Number of milliseconds VSP will operate in data mode before it is forced to drop out (by queueing a no-op command) (default: 30000)
+;   "MaxDataModeTimeWithoutCmd"=dword:7530
+;   ; Time quantum (in msec) used to measure the time for which data mode can be interrupted (default: 100)
+;   "DataModeInteruptionQuantum"=dword:64
+   ; Set to one of the RIL_EQSTATE_ constants to specify the state of the radio after device startup (default: RIL_EQSTATE_FULL)
+   "LastEquipmentState"=dword:2
+   ; Number of milliseconds to wait before sending a connect response. Some networks seem to require such a delay. (default: 0)
+   ; "ConnectResponseDelay"=dword:bb8
+   
+   ; Default value set to be 0, but Harvester (which also includes rillog.dll in its package) will set to 1 when installed.  
+   "RILProxyLogNormal"=dword:0
+[HKEY_LOCAL_MACHINE\Comm\Cellular\RILProxy]
+   "RILProxyLogFilter"=dword:7
+
+[HKEY_LOCAL_MACHINE\TAPI\TSP\CellTSP.dll]
+;   ; Number of milliseconds to wait for a response from RIL during a call to an asynchronous function (default: 300000)
+;   "RILTimeoutMilliseconds"=dword:493e0
+;   ; Number of milliseconds to wait before calling TAPI's CompletionProc when an asynchronous TAPI callback is not used (default: 25)
+;   "TAPICompletionProcDelayMilliseconds"=dword:19
+;   ; Number of milliseconds for the check-for-termination-of-incoming-call thread to sleep between checks (default: 100)
+;   "CheckStillRingingMilliseconds"=dword:64
+;   ; Number of milliseconds to pause when a comma is encountered in a DTMF string (default: 2000)
+;   "CommaPauseMilliseconds"=dword:7d0
+;   ; Number of seconds to keep USSD messages around before deleting them (default: 3600)
+;   "USSDMessageValidityTimeSeconds"=dword:e10
+;   ; Number of seconds that each ring corresponds to when providing a value for dwNumRingsNoAnswer to (TSPI_)lineForward (default: 1)
+;   "NumberSecondsPerForwardingRing"=dword:1
+;   ; String before (and including) which all characters in the dial string will be ignored (default: "\")
+;   "IgnoreBeforeDialString"="\"
+[HKEY_LOCAL_MACHINE\Comm\Cellular\CellTSP]
+;   ; String of acceptable characters for dialing. All others will be filtered out before being sent to the RIL.
+;   ; An empty string will disable filtering, allowing all characters in the dial string (although the RIL may filter the string.)
+;   ; If the DialFilter key is not set, a default filter of "1234567890*#+ABCD,TP!W@" (GSM 07.07 6.2 spec) is used.
+;   "DialFilter"=""
+;   ; The same applies to a filter for the GPRS APN.
+;   ; If the APNFilter key is not set, a default filter of "ABDCEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890.-"
+;   ; (GSM 03.60 Section 14.9, APN's use the DNS naming convention.) is used. An empty filter will disable filtering.
+;   "APNFilter"=""
+;   ; When set to dword:1, CellTSP will unconditionally disable the CPHS override
+;   ; when querying for the current operator name string. (default: 0)
+;   "DisableCPHSOverride"=dword:1
+
+; RIL API information
+; Used to control execution parameters for RIL APIs:
+;   "ExecutionTime" specifies the number of milliseconds needed (on average) to execute an API (default: 25)
+;   "Timeout"       specifies the number of milliseconds RIL will wait for the hardware to execute an API (default: 10000);
+;                   timeout of 0 milliseconds corresponds to an infinite timeout
+
+; RIL_GetSubscriberNumbers
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\0]
+    "ExecutionTime"=dword:1a
+; RIL_GetOperatorList
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\1]
+    "ExecutionTime"=dword:32c8
+    "Timeout"=dword:1d4c0
+; RIL_GetPreferredOperatorList
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\2]
+    "ExecutionTime"=dword:f1
+; RIL_AddPreferredOperator
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\3]
+    "ExecutionTime"=dword:c0
+; RIL_RemovePreferredOperator
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\4]
+    "ExecutionTime"=dword:bc
+; RIL_GetCurrentOperator
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\5]
+    "ExecutionTime"=dword:2b
+    "Timeout"=dword:7530
+; RIL_RegisterOnNetwork
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\6]
+    "ExecutionTime"=dword:7d0
+    "Timeout"=dword:EA60
+; RIL_UnregisterFromNetwork
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\7]
+    "ExecutionTime"=dword:32
+    "Timeout"=dword:7530
+; RIL_GetCallerIdSettings
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\9]
+    "ExecutionTime"=dword:bb8
+    "Timeout"=dword:ea60
+; RIL_GetHideIdSettings
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\11]
+    "ExecutionTime"=dword:bb8
+    "Timeout"=dword:ea60
+; RIL_SetHideIdStatus
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\12]
+    "ExecutionTime"=dword:14c
+; RIL_GetDialedIdSettings
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\13]
+    "ExecutionTime"=dword:bb8
+    "Timeout"=dword:ea60
+; RIL_GetClosedGroupSettings
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\15]
+    "ExecutionTime"=dword:4b
+    "Timeout"=dword:ea60
+; RIL_GetCallForwardingSettings
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\17]
+    "ExecutionTime"=dword:bb8
+    "Timeout"=dword:ea60
+; RIL_AddCallForwarding
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\18]
+    "ExecutionTime"=dword:4a0
+    "Timeout"=dword:ea60
+; RIL_RemoveCallForwarding
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\19]
+    "ExecutionTime"=dword:4a0
+    "Timeout"=dword:ea60
+; RIL_SetCallForwardingStatus
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\20]
+    "ExecutionTime"=dword:4b
+    "Timeout"=dword:ea60
+; RIL_GetCallWaitingSettings
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\21]
+    "ExecutionTime"=dword:bb8
+    "Timeout"=dword:ea60
+; RIL_SetCallWaitingStatus
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\22]
+    "ExecutionTime"=dword:fa0
+    "Timeout"=dword:ea60
+; RIL_Dial
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\25]
+    "Timeout"=dword:15f90
+; RIL_Answer
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\26]
+    "Timeout"=dword:15f90
+; RIL_Hangup
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\27]
+    "ExecutionTime"=dword:0
+; RIL_SendDTMF
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\28]
+    "Timeout"=dword:0
+; CLCC
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\30]
+    "Timeout"=dword:7530
+; RIL_GetAudioGain
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\34]
+    "ExecutionTime"=dword:26
+; RIL_SetAudioGain
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\35]
+    "ExecutionTime"=dword:1f
+; RIL_SetAudioDevices
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\37]
+    "ExecutionTime"=dword:c
+; RIL_GetAudioMuting
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\38]
+    "ExecutionTime"=dword:1f
+; RIL_SetAudioMuting
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\39]
+    "ExecutionTime"=dword:1b
+; RIL_GetBearerServiceOptions
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\47]
+    "ExecutionTime"=dword:23
+; RIL_SetBearerServiceOptions
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\48]
+    "ExecutionTime"=dword:13d
+; RIL_GetRLPOptions
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\49]
+    "ExecutionTime"=dword:24
+; RIL_SetRLPOptions
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\50]
+    "ExecutionTime"=dword:21
+; RIL_SendMsg
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\60]
+    "ExecutionTime"=dword:32
+    "Timeout"=dword:1D4C0
+; RIL_SendStoredMsg
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\61]
+    "ExecutionTime"=dword:32
+    "Timeout"=dword:7530
+; RIL_SendMsgAcknowledgement
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\62]
+    "ExecutionTime"=dword:32
+    "Timeout"=dword:7530
+; RIL_GetUserIdentity
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\63]
+    "ExecutionTime"=dword:21
+; RIL_GetPhoneLockedState
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\64]
+    "ExecutionTime"=dword:1f
+; RIL_GetLockingStatus
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\66]
+    "ExecutionTime"=dword:26
+; RIL_SetLockingStatus
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\67]
+    "ExecutionTime"=dword:2a
+; RIL_ChangeLockingPassword
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\68]
+    "ExecutionTime"=dword:5c
+; RIL_GetCallBarringStatus
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\69]
+    "ExecutionTime"=dword:26
+; RIL_SetCallBarringStatus
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\70]
+    "ExecutionTime"=dword:2a
+; RIL_ChangeCallBarringPassword
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\71]
+    "ExecutionTime"=dword:5c
+; RIL_GetEquipmentInfo
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\72]
+    "ExecutionTime"=dword:448
+; RIL_GetEquipmentState
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\73]
+    "ExecutionTime"=dword:38
+; RIL_SetEquipmentState
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\74]
+    "ExecutionTime"=dword:4c6
+    "Timeout"=dword:7530
+; RIL_GetPhonebookOptions
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\75]
+    "ExecutionTime"=dword:21
+; RIL_SetPhonebookOptions
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\76]
+    "ExecutionTime"=dword:21
+; RIL_ReadPhonebookEntries
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\77]
+    "ExecutionTime"=dword:2d
+; RIL_WritePhonebookEntry
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\78]
+    "ExecutionTime"=dword:32
+; RIL_GetCostInfo
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\89]
+    "ExecutionTime"=dword:3a
+; Best case attach should take ~15 sec.  worst case ~30 sec.
+; default to 1 minute just to be safe.
+; RIL_SetGPRSAttached
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\109]
+    "Timeout"=dword:ea60
+; RIL_SetGPRSContextActivated
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\111]
+    "Timeout"=dword:ea60
+; RIL_EnterGPRSDataMode
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\113]
+    "Timeout"=dword:ea60
+; RIL_SetGPRSClass
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\118]
+  "Timeout"=dword:ea60
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\137]
+    "Timeout"=dword:ea60
+[HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\APIInfo\138]
+    "Timeout"=dword:ea60
+
+ENDIF ; IF IMGNOOSSVCSRIL !
+; @CESYSGEN ENDIF CELLCORE_MODULES_RIL
+
+IF IMGNOSMSREG !
+
+; @CESYSGEN IF CELLCORE_MODULES_SMS
+
+; SMS Router and SMS Store
+; Used to provide delivery and storage services for SMS messages
+
+; @CESYSGEN IF CELLCORE_MODULES_SMSDRV
+; @CESYSGEN ENDIF CELLCORE_MODULES_SMSDRV
+
+[HKEY_LOCAL_MACHINE\Comm\Cellular\SMS\Store]
+;   ; Size of SMSStore message queues (default: 1024 (0x400), Max allowed: 65,536 (0x10000))
+;   "MsgQueueSize"=dword:400
+;   ; Size of SMSStore message sub-queue maps (default: 256 (0x100), Max allowed: 65,536 (0x10000))
+;   "SubQueueMapSize"=dword:100
+;   ; Number of seconds after which an SMS messages is considered too old and should be deleted from the store (default: 1209600 (14 days))
+;   "ValidityPeriodSeconds"=dword:127500
+[HKEY_LOCAL_MACHINE\Comm\Cellular\SMS\Router]
+;   ; Number of milliseconds to wait for a response from RIL during a call to an asynchronous function (default: 300000)
+;   "RILTimeoutMilliseconds"=dword:493e0
+;   ; Number of milliseconds router will wait before re-notifying an app of an arrived SMS message (default: 30000)
+;   "NotificationDelay"=dword:30000
+;   ; Number of times router will try to notify an app of an arrived SMS message (default: 2)
+;   "NotificationAttempts"=dword:2
+;   ; Delays (in seconds) to wait before attempting to re-send an SMS message that failed to send correctly (default: "1 5 10 30 60")
+;   "FailedSendAttemptDelays"="1 5 10 30 60"
+;   ; Number of times router will retry failed attempts to read an SMS message from the SIM (default: 30)
+;   "NumberReadFromSIMRetries"=dword:1e
+;   ; Number of milliseconds router will wait between attempts to read an SMS message from the SIM (default: 10000)
+;   "ReadFromSIMRetryDelayMilliseconds"=dword:2710
+;   ; Number of milliseconds router will wait between attempts to send an SMS message (default: 2000 (0x3E8))
+;   ; Because this setting will delay between each SMS message being sent to the RIL, including in between
+;   ; multi-part messages, care should be taken to not set this value too high. Setting a value of 0 will
+;   ; disable the delay.
+;   "SendDelayMilliseconds"=dword:7D0
+
+; @CESYSGEN ENDIF CELLCORE_MODULES_SMS
+
+
+; @CESYSGEN IF CELLCORE_MODULES_SMS_PROVIDERS
+; @CESYSGEN ENDIF CELLCORE_MODULES_SMS_PROVIDERS
+
+ENDIF IMGNOSMSREG !
+
+
+IF IMGNOSIM !
+
+; SIMMgr driver
+; Used to implement SimMgr functionality
+
+; @CESYSGEN IF CELLCORE_MODULES_SIMDRV
+;DEVFLAGS_LOADLIBRARY    0x00000002      // Use LoadLibrary instead of LoadDriver
+;DEVFLAGS_LOAD_AS_USERPROC 0x00000010    // Driver loaded to user mode processor
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\SIM]
+   "Flags"=dword:12
+   "Dll"="SIMdrv.dll"
+   "Prefix"="SIM"
+   "Order"=dword:14
+   "Index"=dword:1
+   "UserProcGroup"=dword:$(PROCGROUP_DRIVER_MSFT_DEFAULT)
+; @CESYSGEN ENDIF CELLCORE_MODULES_SIMDRV
+
+ENDIF ; IMGNOSIM !
+
+; @CESYSGEN IF CELLCORE_MODULES_WAPDRV
+; @CESYSGEN ENDIF CELLCORE_MODULES_WAPDRV
+
+; @CESYSGEN IF CELLCORE_MODULES_CONNMGR
+; @CESYSGEN ENDIF CELLCORE_MODULES_CONNMGR
+
+; @CESYSGEN IF CELLCORE_MODULES_CELLCORE
+
+; SIM Manager
+IF IMGNOSIM !
+; @XIPREGION IF PHONE_REGISTRY_DEFAULT
+; SIM Manager
+[HKEY_LOCAL_MACHINE\Software\Microsoft\SimMgr]
+;   ; Number of milliseconds to wait for a response from RIL during a synchronous call to an asynchronous function (default: 15000)
+;   "RILTimeout"=dword:3A98
+;   ; Number of milliseconds to wait between pinging the SIM card for Toolkit Applications (default: 30000)
+;   "ToolkitTimeout"=dword:7530
+;   ; Number of milliseconds to wait for the SIM SECURITY PIN to be entered
+;   ; after RIL_NOTIFY_SIMSECURITYSTATUS/RIL_SIMSECURITYSTATE_PINREQUESTED
+;   ; is sent (default: 120000)
+;   "PinTimeout"=dword:1D4C0
+;   ; Flags whether the SIM toolkit Open Channel command will ask for user confirmation when the alpha ID exists but is empty. 
+;   ; Setting to 0 allows for behavior requested by certain operators.
+;   ; 0 - Does not ask for user confirmation and returns OK if alpha ID is empty. 
+;   ; 1 (default) - Asks for user confirmation is all cases.
+;   "OpenChannelConfirmOnEmpty"=dword:0
+
+; SIM Toolkit Launch Browser Settings
+[HKEY_LOCAL_MACHINE\Comm\Cellular\SimToolkit\LaunchBrowser]
+;   ; Name of an existing PPP connection to use as a template to configure a SIM toolkit CSD connection
+;   "CSDTemplate"="PPPConnectionName"
+
+;   ; Name of an existing GPRS connection to use as a template to configure a SIM toolkit GPRS connection
+;   "GPRSTemplate"="GPRSConnectionName"
+
+;   ; GUID of the default network in the case where a Proxy is specified but no bearer
+;   ; Internet = "{436EF144-B4FB-4863-A041-8F905A62C572}"
+;   "DefaultNetGuid"="{436EF144-B4FB-4863-A041-8F905A62C572}"
+
+;   ; Type of proxy connection to create. Settings match the Proxy connection settings type.
+;   ; (i.e. HTTP = "1", WAP = "2")
+;   "ProxyType"="2"
+
+;   ; URL to use as the default URL for launch browser. If a default URL is not set "about:home"
+;   ; will be used. However, "about:home" is not full supported on Smartphone and will fail if the 
+;   ; proper settings have not been configured.
+;   "DefaultUrl"="http://mobile.msn.com"
+
+;   ; If an existing CSD/GPRS connection is not available or configured to use as a template, then 
+;   ; a new connection can be created based in these subkeys. Only the listed settings are currently
+;   ; supported (if other connection settings are needed, provision an existing configuration with
+;   ; the settings and use them as a template
+[HKEY_LOCAL_MACHINE\Comm\Cellular\SimToolkit\LaunchBrowser\Csd]
+;   "UserName"="name"
+;   "Password"="password"
+;   "CountryCode"="1"
+;   "AreaCode"="425"
+;   "Phone"="5551212"
+
+[HKEY_LOCAL_MACHINE\Comm\Cellular\SimToolkit\LaunchBrowser\Csd]
+;   "UserName"="name"
+;   "Password"="password"
+;   "GPRSInfoAccessPointName"="apn.gprs"
+
+; @XIPREGION ENDIF PHONE_REGISTRY_DEFAULT
+ENDIF ; IMGNOSIM !
+
+; @CESYSGEN ENDIF CELLCORE_MODULES_CELLCORE
+
+;----------------------------------------------------------------------------
+
+; @CESYSGEN IF CELLCORE_MODULES_WAP
+; @CESYSGEN ENDIF CELLCORE_MODULES_WAP
+
+; @CESYSGEN IF CELLCORE_MODULES_DTPT_SRV
+; @CESYSGEN ENDIF
+
+
+; @CESYSGEN IF CELLCORE_MODULES_DTPT_NSP
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF CELLCORE_MODULES_WWAN
+; @CESYSGEN ENDIF
+
+IF IMGPTT
+; @XIPREGION IF PHONE_REGISTRY_DEFAULT
+[HKEY_LOCAL_MACHINE\Comm\Cellular\RIL\RemoteCalltype]
+    "CalltypeDLL"="PTTCalltypeCallback.dll"
+    "CalltypeFunction"="PTTDetermineCalltype"
+[HKEY_LOCAL_MACHINE\Comm\ConnMgr\TPCMon]
+    "NonUIMediamodes"=dword:00010000    ; LINEMEDIAMODE_PTT
+; @XIPREGION ENDIF PHONE_REGISTRY_DEFAULT
+ENDIF ; IMGPTT
+
+; @CESYSGEN IF CELLCORE_MODULES_CELLCOREEVENTLOGMSGS
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF CELLCORE_MODULES_FAKERIL
+
+    IF IMGFAKERIL
+
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+        ; FAKERIL radio and network specific settings
+        ;
+
+        [HKEY_LOCAL_MACHINE\Drivers\BuiltIn\RIL]
+            "Dll"="fakeril.dll"
+            "Prefix"="RIL"
+            "Order"=dword:13
+            "Index"=dword:1
+
+
+        [HKEY_LOCAL_MACHINE\Comm\Cellular\RIL]
+            ; RIL_CAPS_NOTIFICATION_SIGNALQUALITY  
+            "CapsNotificationImplParams"=dword:00000004
+
+        ; Enable FakeRIL data pass-through
+        IF IMGFAKERILNETWORK
+            [HKEY_LOCAL_MACHINE\Comm\Cellular\Ril]
+                "Packet"=dword:1
+                "Contexts"=dword:3
+        ENDIF ; IMGFAKERILNETWORK
+
+        IF IMGDUALPORTRIL !
+            [HKEY_LOCAL_MACHINE\Drivers\BuiltIn\VirtCOM]
+                "Dll"="fakeril.dll"
+                "Prefix"="COM"
+                "Order"=dword:12
+                "Index"=dword:9
+        ENDIF ; IMGDUALPORTRIL !
+
+        IF IMGFAKECDMA
+            ;Reg Key used only by Fake RIL to determine which network to fake
+            ;FR_NETWORKTYPE_UNKNOWN                     (0x00000000)
+            ;FR_NETWORKTYPE_GSM                         (0x00000001)
+            ;FR_NETWORKTYPE_CDMA                        (0x00000002)
+            [HKEY_LOCAL_MACHINE\Software\Microsoft\RIL]
+                "NetworkType"=dword:2
+
+            [HKEY_CURRENT_USER\ControlPanel\Phone]
+                ; see %_WINCROOT%\public\phone\oak\inc\phcanvas.h
+                ; CDMA + Speaker:
+                ;    DFL_PHONE_SUPPORTMOSMS
+                ;    | DFL_PHONE_IS637SMS
+                ;    | DFL_PHONE_AKEY
+                ;    | DFL_PHONE_SUPPORTVOICEPRIVACY
+                ;    | DFL_PHONE_SUPPORTSPEAKERPHONE
+                "Features"=dword:0002B800
+        ENDIF ; IMGFAKECDMA
+
+        IF IMGFAKECDMA !
+            [HKEY_LOCAL_MACHINE\Software\Microsoft\RIL]
+                "NetworkType"=dword:1
+
+            [HKEY_CURRENT_USER\ControlPanel\Phone]
+                ; see %_WINCROOT%\public\phone\oak\inc\phcanvas.h
+                ; GSM + Speaker:
+                ;    DFL_PHONE_SUPPORT0230DIALPARSING
+                ;    | DFL_PHONE_SUPPORTMOSMS
+                ;    | DFL_PHONE_SUPPORTGPRS
+                ;    | DFL_PHONE_0340SMS
+                ;    | DFL_PHONE_SMSUNICODE
+                ;    | DFL_PHONE_INTLPLUS
+                ;    | DFL_PHONE_SIMSUPPORT
+                ;    | DFL_PHONE_LOCKFACILITY
+                ;    | DFL_PHONE_SUPPORTSPEAKERPHONE
+                "Features"=dword:0202C718
+
+            ; GSM: DFL_PHONE_LOCKFACILITY | DFL_PHONE_SIMSUPPORT
+            [HKEY_LOCAL_MACHINE\Security\Phone]
+                "Features"=dword:18
+        ENDIF ; IMGFAKECDMA !
+
+        IF IMGFAKERIL2
+            [HKEY_LOCAL_MACHINE\Drivers\BuiltIn\RIL2]
+                "Dll"="fakeril2.dll"
+                "Prefix"="RIL"
+                "Order"=dword:13
+                "Index"=dword:2
+
+            IF IMGFAKECDMA
+                [HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\RADIO1]
+                    "NetworkType"=dword:2
+            ENDIF ; IMGFAKECDMA
+
+            IF IMGFAKECDMA !
+                [HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\RADIO1]
+                    "NetworkType"=dword:1
+            ENDIF ; IMGFAKECDMA !
+
+            IF IMGFAKECDMA2
+                [HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\RADIO2]
+                    "NetworkType"=dword:2
+            ENDIF ; IMGFAKECDMA2
+
+            IF IMGFAKECDMA2 !
+                [HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\RADIO2]
+                    "NetworkType"=dword:1
+            ENDIF ; IMGFAKECDMA2 !
+
+
+            [HKEY_LOCAL_MACHINE\Comm\Cellular\RADIO]
+                "RadioNumber"= dword:2            
+
+            [HKEY_LOCAL_MACHINE\Comm\Cellular\RADIO\1]
+                "RadioName"="Fake Radio1"
+            IF IMGFAKECDMA
+                "RadioType"=dword:40000000
+            ELSE
+                "RadioType"=dword:80000000
+            ENDIF ; IMGFAKECDMA
+           
+            [HKEY_LOCAL_MACHINE\Comm\Cellular\RADIO\2]
+                "RadioName"="Fake Radio2"
+            IF IMGFAKECDMA2
+                "RadioType"=dword:40000000
+            ELSE
+                "RadioType"=dword:80000000
+            ENDIF ; IMGFAKECDMA
+
+
+            [HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\RADIO1]
+                "DataPort"="COM9:"
+
+            [HKEY_LOCAL_MACHINE\Software\Microsoft\RIL\RADIO2]
+                "DataPort"="COM6:"
+
+            [HKEY_LOCAL_MACHINE\Comm\Cellular\RIL\RADIO1]
+                ; RIL_CAPS_NOTIFICATION_SIGNALQUALITY  
+                "CapsNotificationImplParams"=dword:00000004
+                
+            [HKEY_LOCAL_MACHINE\Comm\Cellular\RIL\RADIO2]
+                ; RIL_CAPS_NOTIFICATION_SIGNALQUALITY  
+                "CapsNotificationImplParams"=dword:00000004
+
+            IF IMGNDISGPRS
+            [HKEY_LOCAL_MACHINE\Comm\Cellular\Ril\RADIO1]
+                "Packet"=dword:1
+                "Contexts"=dword:3
+            ENDIF
+                
+        ENDIF ; IMGFAKERIL2
+        
+        ;
+        ; End FAKERIL radio and network specific settings
+        ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+    ELSE
+        IF IMGENFORA
+            ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+            ; Enfora radio settings
+            ;
+            ; @CESYSGEN IF PHONE_MODULES_CPROG
+            ; @CESYSGEN ENDIF PHONE_MODULES_CPROG
+
+
+            [HKEY_CURRENT_USER\ControlPanel\Phone]
+                ;    DFL_PHONE_SUPPORT0230DIALPARSING
+                ;    | DFL_PHONE_SUPPORTSPEAKERPHONE
+                ;    | DFL_PHONE_SUPPORTMOSMS
+                ;    | DFL_PHONE_SUPPORTGPRS
+                ;    | DFL_PHONE_0340SMS
+                ;    | DFL_PHONE_SMSUNICODE
+                ;    | DFL_PHONE_INTLPLUS
+                ;    | DFL_PHONE_SIMSUPPORT
+                ;    | DFL_PHONE_LOCKFACILITY
+                "Features"=dword:0202C718
+
+            ; GSM: DFL_PHONE_LOCKFACILITY | DFL_PHONE_SIMSUPPORT
+            [HKEY_LOCAL_MACHINE\Security\Phone]
+                "Features"=dword:18
+
+            [HKEY_LOCAL_MACHINE\System\State\Phone]
+                "Phone Status Flags"=dword:10
+            
+            [HKEY_LOCAL_MACHINE\Drivers\BuiltIn\RIL]
+                "Dll"="rilgsm.dll"
+                ;DEVFLAGS_LOADLIBRARY    0x00000002      // Use LoadLibrary instead of LoadDriver
+                "Flags"=dword:2
+                "Index"=dword:1
+                "Order"=dword:13
+                "Prefix"="RIL"                
+                "ComPort"="COM7:"
+                "DataPort"="COM9:"
+                "RebootOKEvName"="Mux0710_RebootOK"    ; name of the event used to signal reboot OK
+                "RebootKOEvName"="Mux0710_RebootKO"    ; name of the event used to signal reboot failure
+
+            [HKEY_LOCAL_MACHINE\Drivers\BuiltIn\GSM0710_1]
+                "Prefix"="COM"
+                "Dll"="Mux07_10.dll"
+                "DeviceArrayIndex"=dword:1
+                "Index"=dword:7
+                "Order"=dword:12
+                ; power manager enabled device driver
+                "IClass"="{A32942B7-920C-486b-B0E6-92A702A99B35}"
+                ; GSM 07.10 specific
+                "GSM_0710_DLCI"=dword:1   ; Rem: Dlci also define priority (lowest is low prio)
+                "GSM_0710_TYPE"=dword:1   ; boolean: 1 (true) is for AT cmd, 0 (false) is for Data
+                ; monitor channel activity0
+                "GSM_0710_ACTIVITY_TIMEOUT"=dword:2710    ; time-out on channel activity in ms
+                                                          ; the Mux driver will notify the device
+                                                          ; when this time-out expire
+                                                          ; if there is no activity
+
+                IF IMGNDISGPRS
+                    "EnablePacketIO"=dword:1
+                ENDIF ; IMGNDISGPRS
+
+            ; COM9 for ppp connection over CSD / GPRS                    
+            [HKEY_LOCAL_MACHINE\Drivers\BuiltIn\GSM0710_2]
+                "Prefix"="COM"
+                "Dll"="Mux07_10.dll"
+                "DeviceArrayIndex"=dword:1
+                "Index"=dword:9
+                "Order"=dword:13
+                ; power manager enabled device driver
+                "IClass"="{A32942B7-920C-486b-B0E6-92A702A99B35}"
+                ; GSM 07.10 specific
+                "GSM_0710_DLCI"=dword:2    ; Rem: Dlci also define priority (lowest is low prio)
+                "GSM_0710_TYPE"=dword:1    ; boolean: 1 (true) is for AT cmd, 0 (false) is for Data
+                ; monitor channel activity
+                "GSM_0710_ACTIVITY_TIMEOUT"=dword:4E20    ; time-out on channel activity in ms
+
+            ; COM1 for underlying GSM 07.10
+            [HKEY_LOCAL_MACHINE\Software\Microsoft\GSM07_10]
+                IF IMGENFORA_COM2
+                    "ComPort"="COM2:"
+                ELSE
+                    "ComPort"="COM1:"
+                ENDIF
+                "BaudRate"=dword:1C200    ; 115200
+                "FrameOption"=dword:1     ; Advanced
+
+            IF IMGNDISGPRS
+                [HKEY_LOCAL_MACHINE\Software\Microsoft\GSM07_10\PKTIO\PKT1]
+                     "GSM_0710_DLCI"=dword:8
+                     "Cid"=dword:1
+
+                [HKEY_LOCAL_MACHINE\Software\Microsoft\GSM07_10\PKTIO\PKT2]
+                     "GSM_0710_DLCI"=dword:9
+                     "Cid"=dword:2
+
+                [HKEY_LOCAL_MACHINE\Software\Microsoft\GSM07_10\PKTIO\PKT3]
+                     "GSM_0710_DLCI"=dword:A
+                     "Cid"=dword:3
+            ENDIF ; IMGNDISGPRS
+
+            [HKEY_LOCAL_MACHINE\Comm\Cellular\RIL]
+            ; RIL_CAPS_NOTIFICATION_SIGNALQUALITY  
+            ; RIL_CAPS_NOTIFICATION_GPRSREGISTRATIONSTATUS 
+            ; RIL_CAPS_NOTIFICATION_REGISTRATIONSTATUS
+                "CapsNotificationImplParams"=dword:00002804
+            ;
+            ; End Enfora radio settings
+            ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;            
+        ENDIF ; IMGENFORA
+    ENDIF ; IMGFAKERIL
+
+; @CESYSGEN ENDIF CELLCORE_MODULES_FAKERIL
+
+; @CESYSGEN IF CELLCORE_MODULES_RIL
+; @CESYSGEN IF CELLCORE_MODULES_EAPSIM_RIL
+; @CESYSGEN ENDIF CELLCORE_MODULES_EAPSIM_RIL
+; @CESYSGEN ENDIF CELLCORE_MODULES_RIL

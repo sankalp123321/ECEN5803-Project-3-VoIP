@@ -1,0 +1,68 @@
+ celog
+
+ Timestamp is 5ac64a29 (Thu Apr 05 09:09:13 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000016cH .rdata                  CODE
+ 0001:0000016c 00000022H .rdata$debug            CODE
+ 0001:000001a0 00002428H .text                   CODE
+ 0001:000025d0 0000004bH .edata                  CODE
+ 0002:00000000 00000014H .data                   DATA
+ 0002:00000020 00000100H .bss                    DATA
+ 0003:00000000 000000a0H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:0000001c       ??_C@_1BK@EGCGHBL@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAC?$AAe?$AAL?$AAo?$AAg?$AA?$AA@ 1000101c     celog.obj
+ 0001:00000038       ??_C@_1BM@NNCFAFE@?$AAB?$AAu?$AAf?$AAf?$AAe?$AAr?$AAA?$AAd?$AAd?$AAr?$AAe?$AAs?$AAs?$AA?$AA@ 10001038     celog.obj
+ 0001:00000054       ??_C@_1BG@CPCOOOKL@?$AAB?$AAu?$AAf?$AAf?$AAe?$AAr?$AAS?$AAi?$AAz?$AAe?$AA?$AA@ 10001054     celog.obj
+ 0001:0000006c       ??_C@_1BO@EGOGCEBA@?$AAS?$AAy?$AAn?$AAc?$AAB?$AAu?$AAf?$AAf?$AAe?$AAr?$AAS?$AAi?$AAz?$AAe?$AA?$AA@ 1000106c     celog.obj
+ 0001:0000008c       ??_C@_1BM@PBLHKICJ@?$AAA?$AAu?$AAt?$AAo?$AAE?$AAr?$AAa?$AAs?$AAe?$AAM?$AAo?$AAd?$AAe?$AA?$AA@ 1000108c     celog.obj
+ 0001:000000a8       ??_C@_1DI@EGAPBFJF@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAC?$AAe?$AAL?$AAo?$AAg?$AA?2?$AAP?$AAa?$AAs?$AAs?$AAe?$AAd?$AAS?$AAe?$AAt?$AAt?$AAi?$AAn?$AAg?$AAs?$AA?$AA@ 100010a8     celog.obj
+ 0001:000000e0       ??_C@_1CE@NHNGEBEK@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?1?$AAC?$AAe?$AAL?$AAo?$AAg?$AA?5?$AAD?$AAa?$AAt?$AAa?$AA?$AA@ 100010e0     celog.obj
+ 0001:00000104       ??_C@_1CE@BNCJNCOJ@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?1?$AAC?$AAe?$AAL?$AAo?$AAg?$AA?5?$AAF?$AAi?$AAl?$AAl?$AA?$AA@ 10001104     celog.obj
+ 0001:00000128       ??_C@_1O@PDJNCOJG@?$AAZ?$AAo?$AAn?$AAe?$AAC?$AAE?$AA?$AA@ 10001128     celog.obj
+ 0001:00000138       ??_C@_1BI@MFLPAMBP@?$AAC?$AAe?$AAL?$AAo?$AAg?$AAZ?$AAo?$AAn?$AAe?$AAC?$AAE?$AA?$AA@ 10001138     celog.obj
+ 0001:00000150       ??_C@_1BM@HJCOGHEO@?$AAC?$AAe?$AAL?$AAo?$AAg?$AAZ?$AAo?$AAn?$AAe?$AAU?$AAs?$AAe?$AAr?$AA?$AA@ 10001150     celog.obj
+ 0001:000001a0       InterlockedFunctionArea    100011a0 f   intrlock.obj
+ 0001:0000020c       V6_WriteBarrier            1000120c f   intrlock.obj
+ 0001:00000218       InterlockedExchange        10001218 f   intrlock.obj
+ 0001:00000224       InterlockedTestExchange    10001224 f   intrlock.obj
+ 0001:00000230       InterlockedCompareExchange 10001230 f   intrlock.obj
+ 0001:0000023c       InterlockedExchangeAdd     1000123c f   intrlock.obj
+ 0001:0000024c       InterlockedIncrement       1000124c f   intrlock.obj
+ 0001:00000260       InterlockedDecrement       10001260 f   intrlock.obj
+ 0001:00000274       DataMemoryBarrier          10001274 f   intrlock.obj
+ 0001:00000280       DataSyncBarrier            10001280 f   intrlock.obj
+ 0001:0000028c       InitInterlockedFunctions   1000128c f   intrlock.obj
+ 0001:00000700       SetZones                   10001700 f   celog.obj
+ 0001:000007ac       QueryZones                 100017ac f   celog.obj
+ 0001:00000818       LogData                    10001818 f   celog.obj
+ 0001:00000c5c       LogInterrupt               10001c5c f   celog.obj
+ 0001:00000da4       LogInterruptData           10001da4 f   celog.obj
+ 0001:00001b6c       KernelDLLEntry             10002b6c f   celog.obj
+ 0001:00001be0       memcpy                     10002be0 f   fulllibc:memcpy.obj
+ 0001:00002580       __rt_srsh                  10003580 f   fulllibc:rshi64.obj
+ 0002:00000098       g_pfnKernelLibIoControl    10004098     <common>
+ 0002:000000a0       g_PubImports               100040a0     <common>
+
+ entry point at        0001:00001b6c
+
+ Static symbols
+
+ 0001:000002e8       EnsureFreeSpace            100012e8 f   celog.obj
+ 0001:00000424       WriteDataWithPointer       10001424 f   celog.obj
+ 0001:000004b4       FlushInterruptBuffer       100014b4 f   celog.obj
+ 0001:00000f58       GetRegDWORD                10001f58 f   celog.obj
+ 0001:00000fd0       GetBufferParams            10001fd0 f   celog.obj
+ 0001:00001284       CreateMap                  10002284 f   celog.obj
+ 0001:0000139c       ValidateStaticBuffer       1000239c f   celog.obj
+ 0001:000014bc       CleanupBuffers             100024bc f   celog.obj
+ 0001:00001584       InitBuffers                10002584 f   celog.obj
+ 0001:000017fc       InitZones                  100027fc f   celog.obj
+ 0001:00001900       InitLibrary                10002900 f   celog.obj
+ 0001:00001a98       CleanupLibrary             10002a98 f   celog.obj

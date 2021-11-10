@@ -1,0 +1,92 @@
+<!--
+Copyright (c) Microsoft Corporation.  All rights reserved.
+-->
+<!--
+Use of this sample source code is subject to the terms of the Microsoft
+license agreement under which you licensed this sample source code. If
+you did not accept the terms of the license agreement, you are not
+authorized to use this sample source code. For the terms of the license,
+please see the license agreement between you and Microsoft or, if applicable,
+see the LICENSE.RTF on your install media or the root of your tools installation.
+THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+-->
+<html>
+<body>
+ 
+<!-- Main topic --> <a name="certificate_intro"></a> <h2>Vue d'ensemble des certificats</h2>
+
+<p>Un certificat est un reçu numérique contenant des informations sur l'appareil qui présente ce reçu. Par exemple, un appareil tel qu'un serveur Web peut avoir un certificat contenant des informations qui le concernent. Les certificats valides sont signés par une autorité de certification (AC) et comprennent des informations sur la personne qui a autorisé le certificat, ses clés publiques et sa date d'expiration. </p>
+
+<p>Lorsque vous êtes connecté à Internet, il est important que vous fassiez confiance à la certification des sites Web que vous visitez. Les sites Web qui ne sont pas approuvés ou correctement certifiés peuvent endommager les informations stockées sur votre appareil. Si vous avez un doute, vous pouvez afficher le certificat du serveur Web à partir de votre appareil et décider si vous souhaitez visiter le site Web. </p>
+
+<p>Les options de sécurité et de confidentialité de votre appareil permettent de protéger votre vie privée et de sécuriser vos informations personnelles. Ces options de confidentialité vous permettent de protéger vos informations d'identification personnelles. Elles vous permettent de déterminer si les sites Web que vous visitez peuvent utiliser vos informations d'identification personnelles. Les contrôles de confidentialité de votre appareil vous permettent également de spécifier les paramètres de confidentialité afin de déterminer les informations à partager et à enregistrer lorsque vous visitez un site Web.</p>
+
+ 
+<!-- Sub topic --> <a name="certificates"></a> <h2>Certificats clients</h2>
+
+<p>Un certificat client est une instruction numérique vérifiant l'identité d'un utilisateur ou d'un appareil, tel qu'un ordinateur. Les certificats clients sont émis pour établir l'identité et pour fournir un niveau d'authentification et de sécurité aux informations échangées lors de l'utilisation de plusieurs appareils. Certains sites Web vous demandent de vous identifier à l'aide des certificats clients. Lorsque vous envoyez un certificat client à un autre ordinateur, vous utilisez des clés publiques et privées qui vous permettent de partager des données avec cet appareil de manière sécurisée. Les clés publiques et privées vous aident également à empêcher les utilisateurs non autorisés d'accéder à votre appareil et aux informations qu'il contient.</p>
+
+<p>La liste ci-dessous décrit les informations contenues dans les certificats&nbsp;:</p>
+
+
+<ul>
+<li>Valeur de la clé publique du sujet et informations sur l'identificateur</li>
+<li>Informations sur l'identificateur de l'émetteur</li>
+<li>Période de validité</li>
+<li>Signature numérique de l'émetteur</li>
+</ul>
+
+<p>Le sujet est l'entité qui reçoit le certificat. L'émetteur du certificat est l'autorité de certification.</p>
+
+<h3>Certificats racines et personnels</h3>
+
+<p>Vous pouvez stocker deux types de certificats sur votre appareil&nbsp;: des certificats personnels qui établissent votre identité et des certificats racines qui établissent l'identité des serveurs Web. Par exemple, lorsque vous envoyez des informations personnelles via Internet, un certificat personnel vous authentifie au site Web que vous visitez, alors qu'un certificat racine vous aide à protéger vos informations personnelles lorsque vous visitez le site.</p>
+
+ 
+<!-- Sub topic --> <a name="privacy"></a> <h2>Vue d'ensemble de la confidentialité</h2>
+
+<p>Les options de confidentialité de votre appareil vous permettent de protéger vos informations d'identification personnelles. Elles vous permettent de déterminer si les sites Web que vous visitez utilisent ces informations. Elles vous permettent également de spécifier les paramètres de confidentialité pour décider si vous souhaitez autoriser les sites Web à enregistrer des informations, telles que des cookies, sur votre ordinateur.</p>
+
+<h3>Cookies</h3>
+
+<p>Chaque fois que vous visitez un site Web, ce dernier stocke un petit fichier appelé «&nbsp;cookie&nbsp;» sur votre ordinateur. Les cookies sont créés par le site Web pour stocker des informations, telles que vos préférences lorsque vous visitez le site. Certains cookies contiennent un enregistrement des pages Web du site que vous avez visitées afin de permettre au site Web de personnaliser l'affichage lors de votre prochaine visite. </p>
+
+<p>Les cookies peuvent également stocker vos informations d'identification personnelles, telles que votre nom, votre adresse électronique, l'adresse de votre travail ou de votre domicile ou votre numéro de téléphone. En revanche, un site Web a uniquement accès aux informations d'identification personnelles que vous fournissez.</p>
+
+<p>La liste ci-dessous décrit les options de confidentialité de votre appareil&nbsp;:</p>
+
+<ul>
+<li>Paramètres de confidentialité spécifiant la façon dont votre ordinateur gère les cookies</li> 
+<li>Alertes de confidentialité vous indiquant lorsque vous essayez d'accéder à un site qui ne répond pas aux critères définis dans vos paramètres de confidentialité</li> 
+<li>Possibilité d'afficher une politique en matière de confidentialité P3P du site Web</li>
+</ul>
+
+<p>Vous pouvez utiliser les options de confidentialité de votre appareil pour limiter l'utilisation des cookies. En revanche, étant donné que de nombreuses applications dépendent des informations contenues dans les cookies, la désactivation de tous les cookies n'est pas toujours la meilleure solution. </p>
+
+<h3>Contenu interne et contenu tiers</h3>
+
+<p>Le contenu interne contient des informations associées au domaine hôte ou au site Web que vous visitez. Le contenu tiers provient de tout autre domaine. Par exemple, lorsque vous visitez un site Web contenant une bannière publicitaire, le site Web que vous visitez est considéré comme le contenu interne et la bannière publicitaire est considérée comme le contenu tiers. </p>
+
+<p>De nombreuses pages Web utilisent à la fois des cookies internes et tiers pour obtenir et relayer les données correspondant à ces pages. Les options de confidentialité de votre appareil fait la distinction entre le contenu interne et le contenu tiers et établit une relation différente entre les deux. En réalité, les paramètres de confidentialité par défaut du contenu tiers sont plus rigoureux que du ceux contenu interne. Les paramètres de confidentialité de votre appareil Windows Embedded Compact vous permettent d'interdire les cookies tiers ainsi que d'autoriser les cookies internes ou de vous inviter à les autoriser ou à les interdire.</p>
+
+
+<!-- Sub topic --> <a name="security"></a> <h2>Vue d'ensemble de la sécurité</h2>
+
+<p>Les options de sécurité de votre appareil permettent d'empêcher les utilisateurs d'accéder aux informations auxquelles ils n'ont pas le droit d'accès, comme par exemple les informations sur votre carte de crédit que vous entrez lorsque vous faites des achats sur Internet. Elles vous permettent également de protéger votre ordinateur ou votre appareil mobile contre tout logiciel présentant des risques.</p>
+
+<p>Vous pouvez parcourir de manière sécurisée un site Web qui utilise le protocole HTTPS (Hypertext Transfer Protocol over Secure Socket Layer). Le protocole HTTPS est un protocole de communications Web sécurisé qui crypte les données vers toute connexion utilisant HTTPS. Les données cryptées utilisant le protocole HTTPS ne peuvent pas être interceptées ni comprises par une tierce partie.</p>
+
+
+<h3>Alertes de sécurité</h3>
+
+<p>Les alertes de sécurité peuvent s'afficher pour les raisons suivantes&nbsp;:</p>
+
+<ul>
+<li>Le serveur Web auquel vous vous connectez contient un certificat de serveur incorrect.</li>
+<li>Le serveur Web auquel vous vous connectez contient une sécurité mixte (données sécurisées et non sécurisées).</li>
+<li>Vous quittez une connexion sécurisée. </li>
+</ul>
+
+
+</body>
+</html>

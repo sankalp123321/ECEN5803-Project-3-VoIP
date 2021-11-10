@@ -1,0 +1,255 @@
+ ndisuio
+
+ Timestamp is 5ac64c6b (Thu Apr 05 09:18:51 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 00000088H .rdata                  CODE
+ 0001:000000a8 00000024H .rdata$debug            CODE
+ 0001:000000cc 000049e4H .text                   CODE
+ 0001:00004ab0 00000060H .xdata                  CODE
+ 0001:00004b10 00000028H .idata$2                CODE
+ 0001:00004b38 00000014H .idata$3                CODE
+ 0001:00004b4c 000000f0H .idata$4                CODE
+ 0001:00004c3c 000002e2H .idata$6                CODE
+ 0001:00004f20 000000ebH .edata                  CODE
+ 0002:00000000 000000f0H .idata$5                DATA
+ 0002:000000f0 00000010H .data                   DATA
+ 0002:00000100 0000009cH .bss                    DATA
+ 0003:00000000 00000268H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:0000003c       ??_C@_1CG@IABHPMJJ@?$AAM?$AAa?$AAx?$AAO?$AAp?$AAe?$AAn?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAC?$AAo?$AAu?$AAn?$AAt?$AA?$AA@ 1000103c     ntdisp.obj
+ 0001:00000064       ??_C@_1DC@LENNNLBP@?$AA?2?$AAD?$AAr?$AAi?$AAv?$AAe?$AAr?$AAs?$AA?2?$AAB?$AAu?$AAi?$AAl?$AAt?$AAI?$AAn?$AA?2?$AAN?$AAD?$AAI?$AAS?$AAU?$AAI?$AAO?$AA?$AA@ 10001064     ntdisp.obj
+ 0001:00000098       ??_C@_1BA@EMKCJCFG@?$AAN?$AAD?$AAI?$AAS?$AAU?$AAI?$AAO?$AA?$AA@ 10001098     ntdisp.obj
+ 0001:000000cc       DriverEntry                100010cc f   ntdisp.obj
+ 0001:0000024c       ndisuioRefOpen             1000124c f   ntdisp.obj
+ 0001:00000254       ndisuioDerefOpen           10001254 f   ntdisp.obj
+ 0001:000002dc       CE_SetUioOpenContextEthTypes 100012dc f   ntdisp.obj
+ 0001:0000040c       CE_ReadFile                1000140c f   ntdisp.obj
+ 0001:000005f8       CE_CancelReadFile          100015f8 f   ntdisp.obj
+ 0001:00000620       CE_WriteFile               10001620 f   ntdisp.obj
+ 0001:000008fc       NdisuioCleanup             100018fc f   ntdisp.obj
+ 0001:00000a24       ndisuioOpenDevice          10001a24 f   ntdisp.obj
+ 0001:00000c18       CE_SetOpenContextEthTypes  10001c18 f   ntdisp.obj
+ 0001:00000c90       NdisuioOpenAdapterComplete 10001c90 f   ndisbind.obj
+ 0001:00000ca0       NdisuioCloseAdapterComplete 10001ca0 f   ndisbind.obj
+ 0001:00000ca8       ndisuioFreeBindResources   10001ca8 f   ndisbind.obj
+ 0001:00000d30       ndisuioWaitForPendingIO    10001d30 f   ndisbind.obj
+ 0001:00000d90       ndisuioDoRequest           10001d90 f   ndisbind.obj
+ 0001:00000f20       ndisuioDoQueryRequests     10001f20 f   ndisbind.obj
+ 0001:00000f94       ndisuioValidateOpenAndDoRequest 10001f94 f   ndisbind.obj
+ 0001:00001038       NdisuioRequestComplete     10002038 f   ndisbind.obj
+ 0001:00001044       NdisuioStatus              10002044 f   ndisbind.obj
+ 0001:00001178       ndisuioQueryBinding        10002178 f   ndisbind.obj
+ 0001:000012cc       ndisuioLookupDevice        100022cc f   ndisbind.obj
+ 0001:00001354       ndisuioQueryOidValue       10002354 f   ndisbind.obj
+ 0001:00001410       ndisuioSetOidValue         10002410 f   ndisbind.obj
+ 0001:000014c4       ndisuioRestart             100024c4 f   ndisbind.obj
+ 0001:0000158c       NdisuioPnPEventHandler     1000258c f   ndisbind.obj
+ 0001:000016fc       ndisuioShutdownBinding     100026fc f   ndisbind.obj
+ 0001:00001820       NdisuioUnbindAdapter       10002820 f   ndisbind.obj
+ 0001:0000189c       ndisuioCreateBinding       1000289c f   ndisbind.obj
+ 0001:00001bf0       NdisuioBindAdapter         10002bf0 f   ndisbind.obj
+ 0001:00001d1c       CE_TargetedEtherType       10002d1c f   recv.obj
+ 0001:00001d5c       ndisuioAllocateNetBufferList 10002d5c f   recv.obj
+ 0001:00001e40       ndisuioFreeNetBufferList   10002e40 f   recv.obj
+ 0001:00001ea0       ndisuioFlushReceiveQueue   10002ea0 f   recv.obj
+ 0001:00001f60       ndisuioCopyMdlToMdl        10002f60 f   recv.obj
+ 0001:0000213c       ndisuioQueueReceiveNetBufferList 1000313c f   recv.obj
+ 0001:000022e4       NdisuioReceiveNetBufferLists 100032e4 f   recv.obj
+ 0001:000024f8       NdisuioSendComplete        100034f8 f   send.obj
+ 0001:00002528       DllEntry                   10003528 f   uio_ce.obj
+ 0001:00002554       FindOpenContext            10003554 f   uio_ce.obj
+ 0001:000025c0       AddOpenContext             100035c0 f   uio_ce.obj
+ 0001:0000261c       RemoveOpenContext          1000361c f   uio_ce.obj
+ 0001:00002664       NT_STATUS_TO_WIN32_STATUS  10003664 f   uio_ce.obj
+ 0001:00002738       UIO_Init                   10003738 f   uio_ce.obj
+ 0001:0000277c       UIO_Deinit                 1000377c f   uio_ce.obj
+ 0001:00002794       UIO_Open                   10003794 f   uio_ce.obj
+ 0001:000028c0       UIO_Close                  100038c0 f   uio_ce.obj
+ 0001:00002a24       UIO_Write                  10003a24 f   uio_ce.obj
+ 0001:00002c28       UIO_Read                   10003c28 f   uio_ce.obj
+ 0001:00002db0       UIO_Seek                   10003db0 f   uio_ce.obj
+ 0001:00002db8       GetUioOpenContext          10003db8 f   uio_ce.obj
+ 0001:00002e8c       FREE_LOCAL_IN_OUT_BUFFER   10003e8c f   uio_ce.obj
+ 0001:00002ec4       NotifToPacketType          10003ec4 f   uio_ce.obj
+ 0001:00002f68       CE_IndicateStatus          10003f68 f   uio_ce.obj
+ 0001:000031fc       CE_NdisQueryStatistics     100041fc f   uio_ce.obj
+ 0001:00003588       CE_ndisuioSetReadEvent     10004588 f   uio_ce.obj
+ 0001:000035bc       CE_ndisuioSetOpenCloseProcessing 100045bc f   uio_ce.obj
+ 0001:00003610       CE_ndisuioUnsetOpenCloseProcessing 10004610 f   uio_ce.obj
+ 0001:0000361c       CE_ndisuioSetNextFilteredRxNblEntry 1000461c f   uio_ce.obj
+ 0001:000036a8       UIO_IOControl              100046a8 f   uio_ce.obj
+ 0001:0000432c       GetRegistryValue           1000532c f   ntcompat:registry.obj
+ 0001:000043d4       GetRegistryDwordValue      100053d4 f   ntcompat:registry.obj
+ 0001:000043f4       NdisGeneratePartialCancelId 100053f4 f   ndis:NDIS.dll
+ 0001:00004404       NdisRegisterProtocolDriver 10005404 f   ndis:NDIS.dll
+ 0001:00004414       NdisAllocateSpinLock       10005414 f   ndis:NDIS.dll
+ 0001:00004424       NdisInitializeEvent        10005424 f   ndis:NDIS.dll
+ 0001:00004434       NdisInterlockedIncrement   10005434 f   ndis:NDIS.dll
+ 0001:00004444       NdisFreeMemory             10005444 f   ndis:NDIS.dll
+ 0001:00004454       NdisFreeEvent              10005454 f   ndis:NDIS.dll
+ 0001:00004464       NdisFreeSpinLock           10005464 f   ndis:NDIS.dll
+ 0001:00004474       NdisReleaseSpinLock        10005474 f   ndis:NDIS.dll
+ 0001:00004484       NdisAcquireSpinLock        10005484 f   ndis:NDIS.dll
+ 0001:00004494       NdisInterlockedDecrement   10005494 f   ndis:NDIS.dll
+ 0001:000044a4       NdisAllocateMemoryWithTag  100054a4 f   ndis:NDIS.dll
+ 0001:000044b4       NdisResetEvent             100054b4 f   ndis:NDIS.dll
+ 0001:000044c4       NdisWaitEvent              100054c4 f   ndis:NDIS.dll
+ 0001:000044d4       NdisSetEvent               100054d4 f   ndis:NDIS.dll
+ 0001:000044e4       NdisFreeNetBufferList      100054e4 f   ndis:NDIS.dll
+ 0001:000044f4       NdisSendNetBufferLists     100054f4 f   ndis:NDIS.dll
+ 0001:00004504       NdisFreeMdl                10005504 f   ndis:NDIS.dll
+ 0001:00004514       NdisAllocateNetBufferAndNetBufferList 10005514 f   ndis:NDIS.dll
+ 0001:00004524       NdisAllocateMdl            10005524 f   ndis:NDIS.dll
+ 0001:00004534       NdisFreeNetBufferListPool  10005534 f   ndis:NDIS.dll
+ 0001:00004544       NdisOidRequest             10005544 f   ndis:NDIS.dll
+ 0001:00004554       NdisCloseAdapterEx         10005554 f   ndis:NDIS.dll
+ 0001:00004564       NdisQueryAdapterInstanceName 10005564 f   ndis:NDIS.dll
+ 0001:00004574       NdisOpenAdapterEx          10005574 f   ndis:NDIS.dll
+ 0001:00004584       NdisAllocateNetBufferListPool 10005584 f   ndis:NDIS.dll
+ 0001:00004594       NdisInitUnicodeString      10005594 f   ndis:NDIS.dll
+ 0001:000045a4       NdisReturnNetBufferLists   100055a4 f   ndis:NDIS.dll
+ 0001:000045b4       NdisDprReleaseSpinLock     100055b4 f   ndis:NDIS.dll
+ 0001:000045c4       NdisDprAcquireSpinLock     100055c4 f   ndis:NDIS.dll
+ 0001:000045d4       Sleep                      100055d4 f   coredll:COREDLL.dll
+ 0001:000045e4       DisableThreadLibraryCalls  100055e4 f   coredll:COREDLL.dll
+ 0001:000045f4       InitializeCriticalSection  100055f4 f   coredll:COREDLL.dll
+ 0001:00004604       DeleteCriticalSection      10005604 f   coredll:COREDLL.dll
+ 0001:00004614       LeaveCriticalSection       10005614 f   coredll:COREDLL.dll
+ 0001:00004624       InterlockedIncrement       10005624 f   coredll:COREDLL.dll
+ 0001:00004634       EnterCriticalSection       10005634 f   coredll:COREDLL.dll
+ 0001:00004644       CloseMsgQueue              10005644 f   coredll:COREDLL.dll
+ 0001:00004654       SetLastError               10005654 f   coredll:COREDLL.dll
+ 0001:00004664       CeFreeAsynchronousBuffer   10005664 f   coredll:COREDLL.dll
+ 0001:00004674       CeAllocAsynchronousBuffer  10005674 f   coredll:COREDLL.dll
+ 0001:00004684       WriteMsgQueue              10005684 f   coredll:COREDLL.dll
+ 0001:00004694       OpenMsgQueue               10005694 f   coredll:COREDLL.dll
+ 0001:000046a4       GetDirectCallerProcessId   100056a4 f   coredll:COREDLL.dll
+ 0001:000046b4       StringCchCopyW             100056b4 f   coredll:COREDLL.dll
+ 0001:000046c4       RegCloseKey                100056c4 f   coredll:COREDLL.dll
+ 0001:000046d4       RegQueryValueExW           100056d4 f   coredll:COREDLL.dll
+ 0001:000046e4       RegOpenKeyExW              100056e4 f   coredll:COREDLL.dll
+ 0001:000046f4       _DllEntryCRTStartup        100056f4 f   corelib0:pegdentry.obj
+ 0001:00004738       __GSHandlerCheckCommon     10005738 f   corelib0:gshandler.obj
+ 0001:00004774       __GSHandlerCheck           10005774 f   corelib0:gshandler.obj
+ 0001:00004794       __security_init_cookie     10005794 f   corelib0:seccinit.obj
+ 0001:000047e0       __security_check_cookie    100057e0 f   corelib0:armsecgs.obj
+ 0001:000047f0       __gsfailure                100057f0     corelib0:armsecgs.obj
+ 0001:00004834       __GSHandlerCheck_SEH       10005834 f   corelib0:gshandlerseh.obj
+ 0001:00004968       _cexit                     10005968 f   corelib0:cexit.obj
+ 0001:00004978       _initterm                  10005978 f   corelib0:crt0dat.obj
+ 0001:000049a4       _cinit                     100059a4 f   corelib0:crt0dat.obj
+ 0001:00004a04       __crt_ExitProcess          10005a04 f   corelib0:exitproc_proxy.obj
+ 0001:00004a10       memset                     10005a10 f   corelib1:COREDLL.dll
+ 0001:00004a20       memcpy                     10005a20 f   corelib1:COREDLL.dll
+ 0001:00004a30       memcmp                     10005a30 f   corelib1:COREDLL.dll
+ 0001:00004a40       wcslen                     10005a40 f   corelib1:COREDLL.dll
+ 0001:00004a50       __security_gen_cookie2     10005a50 f   corelib1:COREDLL.dll
+ 0001:00004a60       __report_gsfailure         10005a60 f   corelib1:COREDLL.dll
+ 0001:00004a70       __C_specific_handler       10005a70 f   corelib1:COREDLL.dll
+ 0001:00004a80       free                       10005a80 f   corelib1:COREDLL.dll
+ 0001:00004a90       InterlockedExchange        10005a90 f   coredll:COREDLL.dll
+ 0001:00004aa0       TerminateProcess           10005aa0 f   coredll:COREDLL.dll
+ 0001:00004b10       __IMPORT_DESCRIPTOR_NDIS   10005b10     ndis:NDIS.dll
+ 0001:00004b24       __IMPORT_DESCRIPTOR_COREDLL 10005b24     coredll:COREDLL.dll
+ 0001:00004b38       __NULL_IMPORT_DESCRIPTOR   10005b38     ndis:NDIS.dll
+ 0002:00000000       __imp_DisableThreadLibraryCalls 10007000     coredll:COREDLL.dll
+ 0002:00000004       __imp_TerminateProcess     10007004     coredll:COREDLL.dll
+ 0002:00000008       __imp_InterlockedExchange  10007008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_free                 1000700c     corelib1:COREDLL.dll
+ 0002:00000010       __imp___C_specific_handler 10007010     corelib1:COREDLL.dll
+ 0002:00000014       __imp___report_gsfailure   10007014     corelib1:COREDLL.dll
+ 0002:00000018       __imp___security_gen_cookie2 10007018     corelib1:COREDLL.dll
+ 0002:0000001c       __imp_wcslen               1000701c     corelib1:COREDLL.dll
+ 0002:00000020       __imp_memcmp               10007020     corelib1:COREDLL.dll
+ 0002:00000024       __imp_memcpy               10007024     corelib1:COREDLL.dll
+ 0002:00000028       __imp_memset               10007028     corelib1:COREDLL.dll
+ 0002:0000002c       __imp_RegOpenKeyExW        1000702c     coredll:COREDLL.dll
+ 0002:00000030       __imp_RegQueryValueExW     10007030     coredll:COREDLL.dll
+ 0002:00000034       __imp_RegCloseKey          10007034     coredll:COREDLL.dll
+ 0002:00000038       __imp_StringCchCopyW       10007038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_GetDirectCallerProcessId 1000703c     coredll:COREDLL.dll
+ 0002:00000040       __imp_OpenMsgQueue         10007040     coredll:COREDLL.dll
+ 0002:00000044       __imp_WriteMsgQueue        10007044     coredll:COREDLL.dll
+ 0002:00000048       __imp_CeAllocAsynchronousBuffer 10007048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_CeFreeAsynchronousBuffer 1000704c     coredll:COREDLL.dll
+ 0002:00000050       __imp_SetLastError         10007050     coredll:COREDLL.dll
+ 0002:00000054       __imp_CloseMsgQueue        10007054     coredll:COREDLL.dll
+ 0002:00000058       __imp_EnterCriticalSection 10007058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_InterlockedIncrement 1000705c     coredll:COREDLL.dll
+ 0002:00000060       __imp_LeaveCriticalSection 10007060     coredll:COREDLL.dll
+ 0002:00000064       __imp_DeleteCriticalSection 10007064     coredll:COREDLL.dll
+ 0002:00000068       __imp_Sleep                10007068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_InitializeCriticalSection 1000706c     coredll:COREDLL.dll
+ 0002:00000070       \177COREDLL_NULL_THUNK_DATA 10007070     coredll:COREDLL.dll
+ 0002:00000074       __imp_NdisDprAcquireSpinLock 10007074     ndis:NDIS.dll
+ 0002:00000078       __imp_NdisDprReleaseSpinLock 10007078     ndis:NDIS.dll
+ 0002:0000007c       __imp_NdisReturnNetBufferLists 1000707c     ndis:NDIS.dll
+ 0002:00000080       __imp_NdisInitUnicodeString 10007080     ndis:NDIS.dll
+ 0002:00000084       __imp_NdisAllocateNetBufferListPool 10007084     ndis:NDIS.dll
+ 0002:00000088       __imp_NdisOpenAdapterEx    10007088     ndis:NDIS.dll
+ 0002:0000008c       __imp_NdisQueryAdapterInstanceName 1000708c     ndis:NDIS.dll
+ 0002:00000090       __imp_NdisCloseAdapterEx   10007090     ndis:NDIS.dll
+ 0002:00000094       __imp_NdisOidRequest       10007094     ndis:NDIS.dll
+ 0002:00000098       __imp_NdisFreeNetBufferListPool 10007098     ndis:NDIS.dll
+ 0002:0000009c       __imp_NdisAllocateMdl      1000709c     ndis:NDIS.dll
+ 0002:000000a0       __imp_NdisAllocateNetBufferAndNetBufferList 100070a0     ndis:NDIS.dll
+ 0002:000000a4       __imp_NdisFreeMdl          100070a4     ndis:NDIS.dll
+ 0002:000000a8       __imp_NdisSendNetBufferLists 100070a8     ndis:NDIS.dll
+ 0002:000000ac       __imp_NdisFreeNetBufferList 100070ac     ndis:NDIS.dll
+ 0002:000000b0       __imp_NdisSetEvent         100070b0     ndis:NDIS.dll
+ 0002:000000b4       __imp_NdisWaitEvent        100070b4     ndis:NDIS.dll
+ 0002:000000b8       __imp_NdisResetEvent       100070b8     ndis:NDIS.dll
+ 0002:000000bc       __imp_NdisAllocateMemoryWithTag 100070bc     ndis:NDIS.dll
+ 0002:000000c0       __imp_NdisInterlockedDecrement 100070c0     ndis:NDIS.dll
+ 0002:000000c4       __imp_NdisAcquireSpinLock  100070c4     ndis:NDIS.dll
+ 0002:000000c8       __imp_NdisReleaseSpinLock  100070c8     ndis:NDIS.dll
+ 0002:000000cc       __imp_NdisFreeSpinLock     100070cc     ndis:NDIS.dll
+ 0002:000000d0       __imp_NdisFreeEvent        100070d0     ndis:NDIS.dll
+ 0002:000000d4       __imp_NdisFreeMemory       100070d4     ndis:NDIS.dll
+ 0002:000000d8       __imp_NdisInterlockedIncrement 100070d8     ndis:NDIS.dll
+ 0002:000000dc       __imp_NdisInitializeEvent  100070dc     ndis:NDIS.dll
+ 0002:000000e0       __imp_NdisAllocateSpinLock 100070e0     ndis:NDIS.dll
+ 0002:000000e4       __imp_NdisRegisterProtocolDriver 100070e4     ndis:NDIS.dll
+ 0002:000000e8       __imp_NdisGeneratePartialCancelId 100070e8     ndis:NDIS.dll
+ 0002:000000ec       \177NDIS_NULL_THUNK_DATA   100070ec     ndis:NDIS.dll
+ 0002:000000f0       MediumArray                100070f0     ndisbind.obj
+ 0002:000000f8       __security_cookie          100070f8     corelib0:seccinit.obj
+ 0002:000000fc       __security_cookie_complement 100070fc     corelib0:seccinit.obj
+ 0002:00000100       Globals                    10007100     ntdisp.obj
+ 0002:00000134       g_dwOpenContext            10007134     uio_ce.obj
+ 0002:00000138       _exitflag                  10007138     corelib0:cexit.obj
+ 0002:0000013c       MaxOpenDeviceCount         1000713c     <common>
+ 0002:00000140       g_csOpenContext            10007140     <common>
+ 0002:00000160       g_pOpenContext             10007160     <common>
+ 0002:00000190       __onexitend                10007190     <common>
+ 0002:00000194       __onexitbegin              10007194     <common>
+ 0002:00000198       g_pcsExit                  10007198     <common>
+
+ entry point at        0001:000046f4
+
+ Static symbols
+
+ 0001:00004880       doexit                     10005880 f   corelib0:cexit.obj

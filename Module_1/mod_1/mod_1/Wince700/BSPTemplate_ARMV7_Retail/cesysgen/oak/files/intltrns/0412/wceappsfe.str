@@ -1,0 +1,105 @@
+//
+// Copyright (c) Microsoft Corporation.  All rights reserved.
+//
+//
+// Use of this sample source code is subject to the terms of the Microsoft
+// license agreement under which you licensed this sample source code. If
+// you did not accept the terms of the license agreement, you are not
+// authorized to use this sample source code. For the terms of the license,
+// please see the license agreement between you and Microsoft or, if applicable,
+// see the LICENSE.RTF on your install media or the root of your tools installation.
+// THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+//
+
+// Mail transport. Needs to be in sync with ResID 212 in MSGSTORE.DLL
+
+#define LOC_MAIL_TRANSPORT   ~"ActiveSync"
+
+// PWord on-device filter reg key strings.
+
+#define LOC_PWD_REG_READWORD       ~"Word 문서(*.doc)"
+#define LOC_PWD_REG_WRITEWORD97    ~"Word 97 문서(*.doc)"
+#define LOC_PWD_REG_WRITEWORD95    ~"Word 6.0/95 문서(*.doc)"
+#define LOC_PWD_REG_READWORDTEMPLATE    ~"Word 서식 파일(*.dot)"
+#define LOC_PWD_REG_WRITEWORD97TEMPLATE ~"Word 97 서식 파일(*.dot)"
+#define LOC_PWD_REG_WRITEWORD95TEMPLATE ~"Word 6.0/95 서식 파일(*.dot)"
+
+// project.dat translations
+
+// Special Folder names. Keep consistent with the same names in the previous section and what follows.
+// Needs to be consistent with Explorer.exe as well, or the build will break
+
+#define LOC_MYDOCUMENTS_DIR         ~"My Documents"
+#define LOC_PROGRAMFILES_DIR        ~"Program Files"
+#define LOC_COMMUNICATION_DIR       ~"Communication"
+#define LOC_POUTLOOK_DIR            ~"Inbox"
+#define LOC_MAILATTACHMENTS_DIR     ~"Mail Attachments"
+#define LOC_DESKTOP_DIR             ~"바탕 화면"
+#define LOC_PROGRAMS_DIR            ~"프로그램"
+#define LOC_RECENT_DIR              ~"Recent"
+#define LOC_HELP_DIR		    ~"Help"
+
+// Install dirs, Start Menu & Help links
+
+#define LOC_INFORMATIONMGR_DIR      ~"Inbox"
+#define LOC_OFFICE_DIR              ~"Office"
+#define LOC_TEMPLATES_DIR           ~"Templates"
+#define LOC_LARGEMAILMESSAGE_DIR    ~"Large Mail Messages"
+#define LOC_LETTER_PWT              "편지.pwt"
+#define LOC_MEETINGNOTES_PWT        "회의록.pwt"
+#define LOC_PATH_LETTER_PWT              "\Windows\letter.pwt"
+#define LOC_PATH_MEETINGNOTES_PWT        "\Windows\meetnote.pwt"
+#define LOC_TEMPLATES_LNK           ~"Office 서식 파일 바로 가기.lnk"
+#define LOC_MYDOCUMENTS_LNK         ~"My Documents.lnk"
+#define LOC_INBOX_LNK               ~"받은 편지함.lnk"
+#define LOC_MSPWORD_LNK             ~"Microsoft WordPad.lnk"
+#define LOC_HLPLNK_INBOX                        "받은 편지함.lnk"
+#define LOC_HLPLNK_WORD                         "WordPad.lnk"
+#define LOC_PMAIL_EXE				~"\\windows\\pmail.exe"
+
+// Localize all Categories (used in PIM applications)
+#define LOC_CATEGORYBUSINESS        L"비즈니스"
+#define LOC_CATEGORYCOMPETITION     L"경쟁"
+#define LOC_CATEGORYFAVORITES       L"즐겨찾기"
+#define LOC_CATEGORYGIFTS           L"선물"
+#define LOC_CATEGORYGOALS           L"목표"
+#define LOC_CATEGORYHOLIDAY         L"특별한 날"
+#define LOC_CATEGORYHOLIDAYCARDS    L"특별한 날 축하 카드"
+#define LOC_CATEGORYHOT             L"긴급 연락처"
+#define LOC_CATEGORYIDEAS           L"아이디어"
+#define LOC_CATEGORYINTERNATIONAL   L"국제"
+#define LOC_CATEGORYKEYCUSTOMER     L"주요 고객"
+#define LOC_CATEGORYMISC            L"기타"
+#define LOC_CATEGORYPERSONAL        L"개인"
+#define LOC_CATEGORYPHONECALLS      L"전화"
+#define LOC_CATEGORYSTATUS          L"상태"
+#define LOC_CATEGORYSTRATEGIES      L"전략"
+#define LOC_CATEGORYSUPPLIERS       L"공급자"
+#define LOC_CATEGORYTIMEEXPENSE     L"시간 및 비용"
+#define LOC_CATEGORYVIP             L"VIP"
+#define LOC_CATEGORYWAITING         L"대기 중"
+
+// project.reg translations
+
+
+// Database names are not localized anymore (bug 15116). Left here for reference (they are not used anyway!)
+#define LOC_CONTACTSDATABASE        "Contacts Database"
+#define LOC_TASKSDATABASE           "Tasks Database"
+#define LOC_APPOINTMENTSDATABASE    "Appointments Database"
+
+//
+// Paul Shih (01/16/98):
+// Add the following token to custimize default working hours
+//      for different language version
+//The registry key is:
+//
+// HKEY_LOCAL_MACHINE\Software\Microsoft\Calendar\ActiveTimes and the value is "ActiveTimes".
+//      The value to store there is a DWORD.
+//      The low WORD is the days which are workdays, with the lowest bit being Sunday, the next one Monday, etc.
+//      The low byte of the high WORD is the start of the work day, in half hours (e.g. 16 would be 8 am)
+//      The high byte of the low WORD is the end of the work day, in half hours (e.g. 34 would be 5 pm)
+//
+//      So, to encode that Monday - Friday, 8 am to 5 pm is the work week, you would set this entry to:
+//      0x2210003E and 9am to 6pm (for Japan) will be 0x2412003E
+//
+#define NOLOC_CALENDAR_ACTIVETIME       ~"2210003E"

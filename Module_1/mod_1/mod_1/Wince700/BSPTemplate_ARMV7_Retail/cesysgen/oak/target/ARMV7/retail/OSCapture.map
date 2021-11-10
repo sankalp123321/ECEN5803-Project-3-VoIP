@@ -1,0 +1,239 @@
+ OSCapture
+
+ Timestamp is 618b1577 (Tue Nov 09 17:42:31 2021)
+
+ Preferred load address is 00010000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 00000e34H .rdata                  CODE
+ 0001:00000e54 00000026H .rdata$debug            CODE
+ 0001:00000e7c 00001a18H .text                   CODE
+ 0001:00002894 00000034H .xdata                  CODE
+ 0001:000028c8 00000014H .idata$2                CODE
+ 0001:000028dc 00000014H .idata$3                CODE
+ 0001:000028f0 000000a4H .idata$4                CODE
+ 0001:00002994 0000000cH .idata$6                CODE
+ 0001:000029a0 00000000H .edata                  CODE
+ 0002:00000000 000000a4H .idata$5                DATA
+ 0002:000000a8 00000244H .data                   DATA
+ 0002:000002ec 00000028H .bss                    DATA
+ 0003:00000000 00000108H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     00011000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     00011004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     00011008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     0001100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     00011010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     00011014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     00011018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     0001101c     corelib0:crt0init.obj
+ 0001:0000003c       g_szProgName               0001103c     OSCapture_lib:OSCapture.obj
+ 0001:00000050       ??_C@_1HE@NHEOOFPH@?$AA?$CF?$AAs?$AA?3?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAc?$AAa?$AAp?$AAt?$AAu?$AAr?$AAe?$AA?5?$AAa?$AAc?$AAt?$AAi?$AAv?$AAi?$AAt?$AAy?$AA?0?$AA?5@ 00011050     OSCapture_lib:OSCapture.obj
+ 0001:000000c4       ??_C@_1DA@NGCNAGPO@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?1?$AAO?$AAS?$AAC?$AAa?$AAp?$AAt?$AAu?$AAr?$AAe?$AAT?$AAr?$AAi?$AAg?$AAg?$AAe?$AAr?$AA?$AA@ 000110c4     OSCapture_lib:OSCapture.obj
+ 0001:000000f8       ??_C@_1IE@BLKJOEKI@?$AA?$CF?$AAs?$AA?3?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAc?$AAa?$AAp?$AAt?$AAu?$AAr?$AAe?$AA?5?$AAa?$AAc?$AAt?$AAi?$AAv?$AAi?$AAt?$AAy?$AA?0?$AA?5@ 000110f8     OSCapture_lib:OSCapture.obj
+ 0001:0000017c       ??_C@_1CK@GOFPHFCJ@?$AAC?$AAe?$AAL?$AAo?$AAg?$AA?5?$AAF?$AAl?$AAu?$AAs?$AAh?$AA?5?$AAI?$AAn?$AAs?$AAt?$AAa?$AAn?$AAc?$AAe?$AA?$AA@ 0001117c     OSCapture_lib:OSCapture.obj
+ 0001:000001a8       ??_C@_1BM@PBLHKICJ@?$AAA?$AAu?$AAt?$AAo?$AAE?$AAr?$AAa?$AAs?$AAe?$AAM?$AAo?$AAd?$AAe?$AA?$AA@ 000111a8     OSCapture_lib:OSCapture.obj
+ 0001:000001c4       ??_C@_1BC@OFDANFFP@?$AAF?$AAi?$AAl?$AAe?$AAS?$AAi?$AAz?$AAe?$AA?$AA@ 000111c4     OSCapture_lib:OSCapture.obj
+ 0001:000001d8       ??_C@_1BG@CPCOOOKL@?$AAB?$AAu?$AAf?$AAf?$AAe?$AAr?$AAS?$AAi?$AAz?$AAe?$AA?$AA@ 000111d8     OSCapture_lib:OSCapture.obj
+ 0001:000001f0       ??_C@_1BO@EGOGCEBA@?$AAS?$AAy?$AAn?$AAc?$AAB?$AAu?$AAf?$AAf?$AAe?$AAr?$AAS?$AAi?$AAz?$AAe?$AA?$AA@ 000111f0     OSCapture_lib:OSCapture.obj
+ 0001:00000210       ??_C@_1BM@NNCFAFE@?$AAB?$AAu?$AAf?$AAf?$AAe?$AAr?$AAA?$AAd?$AAd?$AAr?$AAe?$AAs?$AAs?$AA?$AA@ 00011210     OSCapture_lib:OSCapture.obj
+ 0001:0000022c       ??_C@_1O@PDJNCOJG@?$AAZ?$AAo?$AAn?$AAe?$AAC?$AAE?$AA?$AA@ 0001122c     OSCapture_lib:OSCapture.obj
+ 0001:0000023c       ??_C@_1BC@PKFGPGJB@?$AAF?$AAi?$AAl?$AAe?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 0001123c     OSCapture_lib:OSCapture.obj
+ 0001:00000250       ??_C@_1BO@MPCNAKHN@?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AAP?$AAr?$AAi?$AAo?$AAr?$AAi?$AAt?$AAy?$AA?$AA@ 00011250     OSCapture_lib:OSCapture.obj
+ 0001:00000270       ??_C@_1DI@EGAPBFJF@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAC?$AAe?$AAL?$AAo?$AAg?$AA?2?$AAP?$AAa?$AAs?$AAs?$AAe?$AAd?$AAS?$AAe?$AAt?$AAt?$AAi?$AAn?$AAg?$AAs?$AA?$AA@ 00011270     OSCapture_lib:OSCapture.obj
+ 0001:000002a8       ??_C@_1BO@LGPLPBCL@?$AAs?$AAh?$AAe?$AAl?$AAl?$AAc?$AAe?$AAl?$AAo?$AAg?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 000112a8     OSCapture_lib:OSCapture.obj
+ 0001:000002c8       ??_C@_1JG@MBFAOMAD@?$AA?$CF?$AAs?$AA?3?$AA?5?$AAA?$AAc?$AAt?$AAi?$AAv?$AAa?$AAt?$AAe?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AAt?$AAo?$AA?5?$AAs?$AAt?$AAa@ 000112c8     OSCapture_lib:OSCapture.obj
+ 0001:00000360       ??_C@_1HG@NAADHOG@?$AAO?$AAS?$AAC?$AAa?$AAp?$AAt?$AAu?$AAr?$AAe?$AA?5?$AAC?$AAe?$AAL?$AAo?$AAg?$AA?5?$AAf?$AAl?$AAu?$AAs?$AAh?$AA?5?$AAh?$AAe?$AAl?$AAp?$AAe?$AAr?$AA?5?$AA?$CI?$AAb?$AAu@ 00011360     OSCapture_lib:OSCapture.obj
+ 0001:000003d8       ??_C@_1BK@BFIEKNFP@?$AAF?$AAr?$AAi?$AAe?$AAn?$AAd?$AAl?$AAy?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 000113d8     OSCapture_lib:OSCapture.obj
+ 0001:000003f4       ??_C@_1CC@CIDGHEGM@?$AAk?$AA?4?$AAs?$AAh?$AAe?$AAl?$AAl?$AAc?$AAe?$AAl?$AAo?$AAg?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 000113f4     OSCapture_lib:OSCapture.obj
+ 0001:00000418       ??_C@_17DJMMGLBL@?$AAD?$AAl?$AAl?$AA?$AA@ 00011418     OSCapture_lib:OSCapture.obj
+ 0001:00000420       ??_C@_17GJNLHNFN@?$AAO?$AAS?$AAC?$AA?$AA@ 00011420     OSCapture_lib:OSCapture.obj
+ 0001:00000428       ??_C@_1O@GBAEOCCH@?$AAP?$AAr?$AAe?$AAf?$AAi?$AAx?$AA?$AA@ 00011428     OSCapture_lib:OSCapture.obj
+ 0001:00000438       ??_C@_1DE@CIILIIIK@?$AAD?$AAr?$AAi?$AAv?$AAe?$AAr?$AAs?$AA?2?$AAB?$AAu?$AAi?$AAl?$AAt?$AAi?$AAn?$AA?2?$AAO?$AAS?$AAC?$AAa?$AAp?$AAt?$AAu?$AAr?$AAe?$AA?$AA@ 00011438     OSCapture_lib:OSCapture.obj
+ 0001:0000046c       ??_C@_1BO@MOEMFOJH@?$AAA?$AAc?$AAt?$AAi?$AAv?$AAa?$AAt?$AAe?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AA?$AA@ 0001146c     OSCapture_lib:OSCapture.obj
+ 0001:0000048c       ??_C@_1BI@IENOMFML@?$AAC?$AAO?$AAR?$AAE?$AAD?$AAL?$AAL?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 0001148c     OSCapture_lib:OSCapture.obj
+ 0001:000004a4       ??_C@_1BI@OGPGOOGK@?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AAB?$AAo?$AAx?$AAW?$AA?$AA@ 000114a4     CeLogFlushCommon:transport.obj
+ 0001:000004bc       ??_C@_1BI@CJKPFBEK@?$AAc?$AAo?$AAr?$AAe?$AAd?$AAl?$AAl?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 000114bc     CeLogFlushCommon:transport.obj
+ 0001:000004d4       ??_C@_1CO@GMNNILDH@?$AAU?$AAS?$AAA?$AAG?$AAE?$AA?3?$AA?5?$AA?5?$AA?$CF?$AAs?$AA?5?$AA?$FL?$AAo?$AAp?$AAt?$AAi?$AAo?$AAn?$AAs?$AA?$FN?$AA?$AN?$AA?6?$AA?$AA@ 000114d4     CeLogFlushCommon:transport.obj
+ 0001:00000508       ??_C@_1HM@BICJGGNH@?$AAo?$AAp?$AAt?$AAi?$AAo?$AAn?$AAs?$AA?3?$AA?5?$AA?5?$AA?$CI?$AAA?$AAl?$AAl?$AA?5?$AAN?$AAu?$AAm?$AAb?$AAe?$AAr?$AAs?$AA?5?$AAa?$AAr?$AAe?$AA?5?$AAd?$AAe?$AAc?$AAi?$AAm@ 00011508     CeLogFlushCommon:transport.obj
+ 0001:00000588       ??_C@_1HI@GDIGOKJP@?$AA?5?$AA?5?$AA?5?$AA?5?$AA?9?$AAt?$AAi?$AAm?$AAe?$AA?5?$AA?$DM?$AAt?$AAi?$AAm?$AAe?$AAo?$AAu?$AAt?$AA?$DO?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AAF?$AAl?$AAu?$AAs?$AAh?$AAT?$AAi@ 00011588     CeLogFlushCommon:transport.obj
+ 0001:00000600       ??_C@_1HC@MJOHGIIN@?$AA?5?$AA?5?$AA?5?$AA?5?$AA?9?$AAp?$AAr?$AAi?$AA?5?$AA?$DM?$AAp?$AAr?$AAi?$AAo?$AAr?$AAi?$AAt?$AAy?$AA?$DO?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AAP@ 00011600     CeLogFlushCommon:transport.obj
+ 0001:00000678       ??_C@_1IC@POLLFGND@?$AA?5?$AA?5?$AA?5?$AA?5?$AA?9?$AAt?$AAr?$AAa?$AAn?$AAs?$AA?5?$AA?$DM?$AAt?$AAr?$AAa?$AAn?$AAs?$AAp?$AAo?$AAr?$AAt?$AA?$DO?$AA?5?$AA?5?$AA?5?$AAT?$AAr?$AAa?$AAn?$AAs?$AAp?$AAo@ 00011678     CeLogFlushCommon:transport.obj
+ 0001:00000700       ??_C@_1IM@IJFMFILO@?$AA?5?$AA?5?$AA?5?$AA?5?$AA?9?$AAn?$AA?5?$AA?$DM?$AAf?$AAi?$AAl?$AAe?$AAn?$AAa?$AAm?$AAe?$AA?$DO?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AAF?$AAi?$AAl?$AAe?$AAN?$AAa?$AAm@ 00011700     CeLogFlushCommon:transport.obj
+ 0001:00000790       ??_C@_1IE@ODJCHEFN@?$AA?5?$AA?5?$AA?5?$AA?5?$AA?9?$AAf?$AAl?$AAa?$AAg?$AAs?$AA?5?$AA?$DM?$AAh?$AAe?$AAx?$AA?5?$AAf?$AAl?$AAa?$AAg?$AAs?$AA?$DO?$AA?5?$AA?5?$AA?5?$AAF?$AAi?$AAl?$AAe?$AAF?$AAl?$AAa@ 00011790     CeLogFlushCommon:transport.obj
+ 0001:00000818       ??_C@_1HM@OBCEGCKD@?$AA?5?$AA?5?$AA?5?$AA?5?$AA?9?$AAz?$AA?5?$AA?$DM?$AAh?$AAe?$AAx?$AA?5?$AAz?$AAo?$AAn?$AAe?$AAs?$AA?$DO?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AAZ?$AAo?$AAn?$AAe?$AAC?$AAE?$AA?0@ 00011818     CeLogFlushCommon:transport.obj
+ 0001:00000898       ??_C@_1GM@GNIKJCGB@?$AA?5?$AA?5?$AA?5?$AA?5?$AA?9?$AAu?$AAi?$AA?5?$AA?$DM?$AA0?$AA?5?$AAo?$AAr?$AA?5?$AA1?$AA?$DO?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AAU?$AAs?$AAe?$AAU?$AAI?$AA?0?$AA?5@ 00011898     CeLogFlushCommon:transport.obj
+ 0001:00000908       ??_C@_1MO@HMPIMHNP@?$AA?5?$AA?5?$AA?5?$AA?5?$AA?9?$AAa?$AAd?$AAd?$AAr?$AA?5?$AA?$DM?$AAh?$AAe?$AAx?$AA?5?$AAa?$AAd?$AAd?$AAr?$AAe?$AAs?$AAs?$AA?$DO?$AA?5?$AA?5?$AAB?$AAu?$AAf?$AAf?$AAe?$AAr?$AAA@ 00011908     CeLogFlushCommon:transport.obj
+ 0001:000009d8       ??_C@_1MM@POEOGONP@?$AA?5?$AA?5?$AA?5?$AA?5?$AA?9?$AAb?$AAu?$AAf?$AA?5?$AA?$DM?$AAh?$AAe?$AAx?$AA?5?$AAs?$AAi?$AAz?$AAe?$AA?$DO?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AAB?$AAu?$AAf?$AAf?$AAe?$AAr?$AAS@ 000119d8     CeLogFlushCommon:transport.obj
+ 0001:00000aa8       ??_C@_1NE@NLCCJBCH@?$AA?5?$AA?5?$AA?5?$AA?5?$AA?9?$AAs?$AAy?$AAn?$AAc?$AAb?$AAu?$AAf?$AA?5?$AA?$DM?$AAh?$AAe?$AAx?$AA?5?$AAs?$AAi?$AAz?$AAe?$AA?$DO?$AA?5?$AA?5?$AAS?$AAy?$AAn?$AAc?$AAB?$AAu?$AAf@ 00011aa8     CeLogFlushCommon:transport.obj
+ 0001:00000b80       ??_C@_1LG@FBBBDDJJ@?$AA?5?$AA?5?$AA?5?$AA?5?$AA?9?$AAf?$AAi?$AAl?$AAe?$AAs?$AAi?$AAz?$AAe?$AA?5?$AA?$DM?$AAh?$AAe?$AAx?$AA?5?$AAs?$AAi?$AAz?$AAe?$AA?$DO?$AA?5?$AAF?$AAi?$AAl?$AAe?$AAS?$AAi?$AAz@ 00011b80     CeLogFlushCommon:transport.obj
+ 0001:00000c38       ??_C@_1HK@BHNAHNDP@?$AA?5?$AA?5?$AA?5?$AA?5?$AA?9?$AAa?$AAu?$AAt?$AAo?$AAe?$AAr?$AAa?$AAs?$AAe?$AA?5?$AA?$DM?$AA0?$AA?5?$AAo?$AAr?$AA?5?$AA1?$AA?$DO?$AA?5?$AA?5?$AAA?$AAu?$AAt?$AAo?$AAE?$AAr?$AAa@ 00011c38     CeLogFlushCommon:transport.obj
+ 0001:00000cb8       ??_C@_1GG@BAPJEKGK@?$AA?5?$AA?5?$AA?5?$AA?5?$AA?9?$AAc?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AAC?$AAa?$AAp?$AAt?$AAu?$AAr?$AAe@ 00011cb8     CeLogFlushCommon:transport.obj
+ 0001:00000d20       ??_C@_1M@BPNIAKDL@?$AAU?$AAs?$AAe?$AAU?$AAI?$AA?$AA@ 00011d20     CeLogFlushCommon:transport.obj
+ 0001:00000d2c       ??_C@_1BE@KMJLFAFM@?$AAF?$AAi?$AAl?$AAe?$AAF?$AAl?$AAa?$AAg?$AAs?$AA?$AA@ 00011d2c     CeLogFlushCommon:transport.obj
+ 0001:00000d40       ??_C@_1BE@EJNOHHD@?$AAL?$AAo?$AAc?$AAa?$AAl?$AAF?$AAi?$AAl?$AAe?$AA?$AA@ 00011d40     CeLogFlushCommon:transport.obj
+ 0001:00000d54       ??_C@_17CAKEINAE@?$AAR?$AAA?$AAM?$AA?$AA@ 00011d54     CeLogFlushCommon:transport.obj
+ 0001:00000d5c       ??_C@_1BE@HJMLECOG@?$AAT?$AAr?$AAa?$AAn?$AAs?$AAp?$AAo?$AAr?$AAt?$AA?$AA@ 00011d5c     CeLogFlushCommon:transport.obj
+ 0001:00000d70       ??_C@_1BK@PBOBGOKM@?$AAF?$AAl?$AAu?$AAs?$AAh?$AAT?$AAi?$AAm?$AAe?$AAo?$AAu?$AAt?$AA?$AA@ 00011d70     CeLogFlushCommon:transport.obj
+ 0001:00000d8c       ??_C@_1BK@EGCGHBL@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAC?$AAe?$AAL?$AAo?$AAg?$AA?$AA@ 00011d8c     CeLogFlushCommon:transport.obj
+ 0001:00000da8       ??_C@_13PHCIHIAO@?$AAc?$AA?$AA@ 00011da8     CeLogFlushCommon:transport.obj
+ 0001:00000dac       ??_C@_1BE@JJIHAIAB@?$AAa?$AAu?$AAt?$AAo?$AAe?$AAr?$AAa?$AAs?$AAe?$AA?$AA@ 00011dac     CeLogFlushCommon:transport.obj
+ 0001:00000dc0       ??_C@_1BC@PHCLGOLP@?$AAf?$AAi?$AAl?$AAe?$AAs?$AAi?$AAz?$AAe?$AA?$AA@ 00011dc0     CeLogFlushCommon:transport.obj
+ 0001:00000dd4       ??_C@_1BA@INAMGMEK@?$AAs?$AAy?$AAn?$AAc?$AAb?$AAu?$AAf?$AA?$AA@ 00011dd4     CeLogFlushCommon:transport.obj
+ 0001:00000de4       ??_C@_17ENLBLDPN@?$AAb?$AAu?$AAf?$AA?$AA@ 00011de4     CeLogFlushCommon:transport.obj
+ 0001:00000dec       ??_C@_19CEKCHDNN@?$AAa?$AAd?$AAd?$AAr?$AA?$AA@ 00011dec     CeLogFlushCommon:transport.obj
+ 0001:00000df8       ??_C@_15FDPMHKKH@?$AAu?$AAi?$AA?$AA@ 00011df8     CeLogFlushCommon:transport.obj
+ 0001:00000e00       ??_C@_13NKDJGABL@?$AAz?$AA?$AA@ 00011e00     CeLogFlushCommon:transport.obj
+ 0001:00000e04       ??_C@_1M@PIKEIEDD@?$AAf?$AAl?$AAa?$AAg?$AAs?$AA?$AA@ 00011e04     CeLogFlushCommon:transport.obj
+ 0001:00000e10       ??_C@_13FECKAND@?$AAn?$AA?$AA@ 00011e10     CeLogFlushCommon:transport.obj
+ 0001:00000e14       ??_C@_19NMDPONCI@?$AAC?$AAE?$AAS?$AAH?$AA?$AA@ 00011e14     CeLogFlushCommon:transport.obj
+ 0001:00000e20       ??_C@_1M@GOPBHMD@?$AAt?$AAr?$AAa?$AAn?$AAs?$AA?$AA@ 00011e20     CeLogFlushCommon:transport.obj
+ 0001:00000e2c       ??_C@_17DGEJKFEF@?$AAp?$AAr?$AAi?$AA?$AA@ 00011e2c     CeLogFlushCommon:transport.obj
+ 0001:00000e34       ??_C@_19MMMJOANK@?$AAs?$AAa?$AAv?$AAe?$AA?$AA@ 00011e34     CeLogFlushCommon:transport.obj
+ 0001:00000e40       ??_C@_19JEOBBCEO@?$AAt?$AAi?$AAm?$AAe?$AA?$AA@ 00011e40     CeLogFlushCommon:transport.obj
+ 0001:00000e4c       ??_C@_13HGPDMIBE@?$AA?$DP?$AA?$AA@ 00011e4c     CeLogFlushCommon:transport.obj
+ 0001:00000e50       ??_C@_13CACJPPAP@?$AAh?$AA?$AA@ 00011e50     CeLogFlushCommon:transport.obj
+ 0001:00001228       mainWCRTStartup            00012228 f   corelib0:mainwcrt.obj
+ 0001:00001330       exit                       00012330 f   corelib0:cexit.obj
+ 0001:0000133c       _exit                      0001233c f   corelib0:cexit.obj
+ 0001:00001374       _initterm                  00012374 f   corelib0:crt0dat.obj
+ 0001:000013a0       _cinit                     000123a0 f   corelib0:crt0dat.obj
+ 0001:00001408       _onexit                    00012408 f   corelib0:onexit.obj
+ 0001:0000158c       atexit                     0001258c f   corelib0:onexit.obj
+ 0001:000015a4       __GSHandlerCheck_SEH       000125a4 f   corelib0:gshandlerseh.obj
+ 0001:000015f0       __security_init_cookie     000125f0 f   corelib0:seccinit.obj
+ 0001:0000163c       __security_check_cookie    0001263c f   corelib0:armsecgs.obj
+ 0001:0000164c       __gsfailure                0001264c     corelib0:armsecgs.obj
+ 0001:00001690       __crt_ExitProcess          00012690 f   corelib0:exitproc_proxy.obj
+ 0001:0000169c       __GSHandlerCheckCommon     0001269c f   corelib0:gshandler.obj
+ 0001:000016d8       __GSHandlerCheck           000126d8 f   corelib0:gshandler.obj
+ 0001:000016f8       free                       000126f8 f   corelib1:COREDLL.dll
+ 0001:00001708       iswctype                   00012708 f   corelib1:COREDLL.dll
+ 0001:00001718       malloc                     00012718 f   corelib1:COREDLL.dll
+ 0001:00001728       memcpy                     00012728 f   corelib1:COREDLL.dll
+ 0001:00001738       wcslen                     00012738 f   corelib1:COREDLL.dll
+ 0001:00001748       _XcptFilter                00012748 f   corelib1:COREDLL.dll
+ 0001:00001758       realloc                    00012758 f   corelib1:COREDLL.dll
+ 0001:00001768       _msize                     00012768 f   corelib1:COREDLL.dll
+ 0001:00001778       __C_specific_handler       00012778 f   corelib1:COREDLL.dll
+ 0001:00001788       __security_gen_cookie2     00012788 f   corelib1:COREDLL.dll
+ 0001:00001798       __report_gsfailure         00012798 f   corelib1:COREDLL.dll
+ 0001:000017a8       GetModuleFileNameW         000127a8 f   coredll:COREDLL.dll
+ 0001:000017b8       DeleteCriticalSection      000127b8 f   coredll:COREDLL.dll
+ 0001:000017c8       InterlockedExchange        000127c8 f   coredll:COREDLL.dll
+ 0001:000017d8       EnterCriticalSection       000127d8 f   coredll:COREDLL.dll
+ 0001:000017e8       InterlockedCompareExchange 000127e8 f   coredll:COREDLL.dll
+ 0001:000017f8       InitializeCriticalSection  000127f8 f   coredll:COREDLL.dll
+ 0001:00001808       LeaveCriticalSection       00012808 f   coredll:COREDLL.dll
+ 0001:00001818       TerminateProcess           00012818 f   coredll:COREDLL.dll
+ 0001:00001b80       wmain                      00012b80 f   OSCapture_lib:OSCapture.obj
+ 0001:00001c84       InitUI                     00012c84 f   CeLogFlushCommon:transport.obj
+ 0001:00001d00       OutputMsg                  00012d00 f   CeLogFlushCommon:transport.obj
+ 0001:00001d90       CleanupUI                  00012d90 f   CeLogFlushCommon:transport.obj
+ 0001:00001ee4       ReadParamsFromRegistry     00012ee4 f   CeLogFlushCommon:transport.obj
+ 0001:00002144       ReadParams                 00013144 f   CeLogFlushCommon:transport.obj
+ 0001:00002260       ParseCommandLine           00013260 f   CeLogFlushCommon:transport.obj
+ 0001:00002744       _wcsicmp                   00013744 f   corelib1:COREDLL.dll
+ 0001:00002754       wcsncpy                    00013754 f   corelib1:COREDLL.dll
+ 0001:00002764       wcstoul                    00013764 f   corelib1:COREDLL.dll
+ 0001:00002774       EventModify                00013774 f   coredll:COREDLL.dll
+ 0001:00002784       CloseHandle                00013784 f   coredll:COREDLL.dll
+ 0001:00002794       OpenEventW                 00013794 f   coredll:COREDLL.dll
+ 0001:000027a4       RegCreateKeyExW            000137a4 f   coredll:COREDLL.dll
+ 0001:000027b4       RegSetValueExW             000137b4 f   coredll:COREDLL.dll
+ 0001:000027c4       RegCloseKey                000137c4 f   coredll:COREDLL.dll
+ 0001:000027d4       GetLastError               000137d4 f   coredll:COREDLL.dll
+ 0001:000027e4       GetProcAddressW            000137e4 f   coredll:COREDLL.dll
+ 0001:000027f4       LoadLibraryW               000137f4 f   coredll:COREDLL.dll
+ 0001:00002804       SignalStarted              00013804 f   coredll:COREDLL.dll
+ 0001:00002814       RegDeleteKeyW              00013814 f   coredll:COREDLL.dll
+ 0001:00002824       WaitForAPIReady            00013824 f   coredll:COREDLL.dll
+ 0001:00002834       StringCchVPrintfW          00013834 f   coredll:COREDLL.dll
+ 0001:00002844       FreeLibrary                00013844 f   coredll:COREDLL.dll
+ 0001:00002854       NKDbgPrintfW               00013854 f   coredll:COREDLL.dll
+ 0001:00002864       RegQueryValueExW           00013864 f   coredll:COREDLL.dll
+ 0001:00002874       KernelIoControl            00013874 f   coredll:COREDLL.dll
+ 0001:00002884       RegOpenKeyExW              00013884 f   coredll:COREDLL.dll
+ 0001:000028c8       __IMPORT_DESCRIPTOR_COREDLL 000138c8     corelib1:COREDLL.dll
+ 0001:000028dc       __NULL_IMPORT_DESCRIPTOR   000138dc     corelib1:COREDLL.dll
+ 0002:00000000       __imp_free                 00014000     corelib1:COREDLL.dll
+ 0002:00000004       __imp_iswctype             00014004     corelib1:COREDLL.dll
+ 0002:00000008       __imp_malloc               00014008     corelib1:COREDLL.dll
+ 0002:0000000c       __imp_memcpy               0001400c     corelib1:COREDLL.dll
+ 0002:00000010       __imp_wcslen               00014010     corelib1:COREDLL.dll
+ 0002:00000014       __imp__XcptFilter          00014014     corelib1:COREDLL.dll
+ 0002:00000018       __imp_realloc              00014018     corelib1:COREDLL.dll
+ 0002:0000001c       __imp__msize               0001401c     corelib1:COREDLL.dll
+ 0002:00000020       __imp___C_specific_handler 00014020     corelib1:COREDLL.dll
+ 0002:00000024       __imp___security_gen_cookie2 00014024     corelib1:COREDLL.dll
+ 0002:00000028       __imp___report_gsfailure   00014028     corelib1:COREDLL.dll
+ 0002:0000002c       __imp_GetModuleFileNameW   0001402c     coredll:COREDLL.dll
+ 0002:00000030       __imp_DeleteCriticalSection 00014030     coredll:COREDLL.dll
+ 0002:00000034       __imp_InterlockedExchange  00014034     coredll:COREDLL.dll
+ 0002:00000038       __imp_EnterCriticalSection 00014038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_InterlockedCompareExchange 0001403c     coredll:COREDLL.dll
+ 0002:00000040       __imp_InitializeCriticalSection 00014040     coredll:COREDLL.dll
+ 0002:00000044       __imp_LeaveCriticalSection 00014044     coredll:COREDLL.dll
+ 0002:00000048       __imp_TerminateProcess     00014048     coredll:COREDLL.dll
+ 0002:0000004c       __imp__wcsicmp             0001404c     corelib1:COREDLL.dll
+ 0002:00000050       __imp_wcsncpy              00014050     corelib1:COREDLL.dll
+ 0002:00000054       __imp_wcstoul              00014054     corelib1:COREDLL.dll
+ 0002:00000058       __imp_EventModify          00014058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_CloseHandle          0001405c     coredll:COREDLL.dll
+ 0002:00000060       __imp_OpenEventW           00014060     coredll:COREDLL.dll
+ 0002:00000064       __imp_RegCreateKeyExW      00014064     coredll:COREDLL.dll
+ 0002:00000068       __imp_RegSetValueExW       00014068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_RegCloseKey          0001406c     coredll:COREDLL.dll
+ 0002:00000070       __imp_GetLastError         00014070     coredll:COREDLL.dll
+ 0002:00000074       __imp_GetProcAddressW      00014074     coredll:COREDLL.dll
+ 0002:00000078       __imp_LoadLibraryW         00014078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_SignalStarted        0001407c     coredll:COREDLL.dll
+ 0002:00000080       __imp_RegDeleteKeyW        00014080     coredll:COREDLL.dll
+ 0002:00000084       __imp_WaitForAPIReady      00014084     coredll:COREDLL.dll
+ 0002:00000088       __imp_StringCchVPrintfW    00014088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_FreeLibrary          0001408c     coredll:COREDLL.dll
+ 0002:00000090       __imp_NKDbgPrintfW         00014090     coredll:COREDLL.dll
+ 0002:00000094       __imp_RegQueryValueExW     00014094     coredll:COREDLL.dll
+ 0002:00000098       __imp_KernelIoControl      00014098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_RegOpenKeyExW        0001409c     coredll:COREDLL.dll
+ 0002:000000a0       \177COREDLL_NULL_THUNK_DATA 000140a0     corelib1:COREDLL.dll
+ 0002:000000a8       __security_cookie          000140a8     corelib0:seccinit.obj
+ 0002:000000ac       __security_cookie_complement 000140ac     corelib0:seccinit.obj
+ 0002:000000b0       g_Params                   000140b0     OSCapture_lib:OSCapture.obj
+ 0002:000002f0       __argc                     000142f0     corelib0:crtstrtg.obj
+ 0002:000002f4       __wargv                    000142f4     corelib0:crtstrtg.obj
+ 0002:000002f8       __argv                     000142f8     corelib0:crtstrtg.obj
+ 0002:000002fc       _exitflag                  000142fc     corelib0:cexit.obj
+ 0002:00000300       g_pfnMessageBox            00014300     <common>
+ 0002:00000304       g_hCoreDLL                 00014304     <common>
+ 0002:00000308       __onexitend                00014308     <common>
+ 0002:0000030c       __onexitbegin              0001430c     <common>
+ 0002:00000310       g_pcsExit                  00014310     <common>
+
+ entry point at        0001:00001228
+
+ Static symbols
+
+ 0001:00000e7c       ?crtstart_FreeArguments@@YAXXZ 00011e7c f   corelib0:mainwcrt.obj
+ 0001:00000e98       ?crtstart_CountSpaceW@@YAXAAH0PBG@Z 00011e98 f   corelib0:mainwcrt.obj
+ 0001:00000f70       ?crtstart_ParseArgsWW@@YAHPBG0AAHAAPAPAG@Z 00011f70 f   corelib0:mainwcrt.obj
+ 0001:00001134       ?mainCRTStartupHelper@@YAXPAUHINSTANCE__@@PBG@Z 00012134 f   corelib0:mainwcrt.obj
+ 0001:00001248       doexit                     00012248 f   corelib0:cexit.obj
+ 0001:00001828       RegSetString               00012828 f   OSCapture_lib:OSCapture.obj
+ 0001:00001880       RegSetDWORD                00012880 f   OSCapture_lib:OSCapture.obj
+ 0001:000018c4       StoreOSCaptureParams       000128c4 f   OSCapture_lib:OSCapture.obj
+ 0001:00001a34       StartOSCaptureDriver       00012a34 f   OSCapture_lib:OSCapture.obj
+ 0001:00001db0       PrintHelp                  00012db0 f   CeLogFlushCommon:transport.obj
+ 0001:00001e74       GetRegDWORD                00012e74 f   CeLogFlushCommon:transport.obj

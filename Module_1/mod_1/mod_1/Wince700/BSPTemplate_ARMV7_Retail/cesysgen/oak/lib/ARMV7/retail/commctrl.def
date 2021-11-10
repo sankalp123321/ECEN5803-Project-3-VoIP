@@ -1,0 +1,262 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;
+; Copyright (c) Microsoft Corporation.  All rights reserved.
+;
+;
+; Use of this source code is subject to the terms of the Microsoft
+; premium shared source license agreement under which you licensed
+; this source code. If you did not accept the terms of the license
+; agreement, you are not authorized to use this source code.
+; For the terms of the license, please see the license agreement
+; signed by you and Microsoft.
+; THE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES.
+;
+LIBRARY  commctrl
+
+; last used ordinal: 83
+
+; Commctrl components are:
+; updown date status propsheet listview treeview toolbar
+; cmdbar rebar tab progress trackbar capedit tooltips
+; boxselect fe labeledit
+
+EXPORTS
+        InitCommonControls              @1
+        InitCommonControlsEx            @2
+
+; @CESYSGEN IF COMMCTRL_CMDBAR || COMMCTRL_REBAR
+        CommandBar_Create               @3
+        CommandBar_Show                 @4
+        CommandBar_AddBitmap            @5
+        CommandBar_InsertComboBox       @6
+        CommandBar_InsertControl        @7
+        CommandBar_InsertMenubar        @8
+        CommandBar_GetMenu              @9
+        CommandBar_AddAdornments        @10
+        CommandBar_GetItemWindow        @11
+        CommandBar_Height               @12
+        IsCommandBarMessage             @13
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF COMMCTRL_UPDOWN || COMMCTRL_DATE || COMMCTRL_TAB
+	CreateUpDownControl		@14
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF COMMCTRL_TOOLBAR || COMMCTRL_CMDBAR || COMMCTRL_REBAR
+	CreateToolbar		      	@15
+	CreateToolbarEx			@16
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF COMMCTRL_STATUS
+	CreateStatusWindowW            	@17
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF COMMCTRL_PROPSHEET	
+	PropertySheetW 		       	@18
+	CreatePropertySheetPageW       	@19
+	DestroyPropertySheetPage       	@20
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF COMMCTRL_STATUS
+	DrawStatusTextW			@21
+; @CESYSGEN ENDIF
+
+        InvertRect                      @22
+
+; @CESYSGEN IF COMMCTRL_DSA         
+	DSA_Create=xxx_DSA_Create @23
+        DSA_Destroy=xxx_DSA_Destroy @24
+        DSA_GetItem=xxx_DSA_GetItem @25
+        DSA_GetItemPtr=xxx_DSA_GetItemPtr @26
+        DSA_InsertItem=xxx_DSA_InsertItem @27
+        DSA_SetItem=xxx_DSA_SetItem @28
+        DSA_DeleteItem=xxx_DSA_DeleteItem @29
+        DSA_DeleteAllItems=xxx_DSA_DeleteAllItems @30
+;	 DSA_DestroyCallback @57 
+        DPA_Destroy=xxx_DPA_Destroy @31
+        DPA_GetPtr=xxx_DPA_GetPtr @32
+        DSA_Search=xxx_DSA_Search @45
+        DSA_Clone=xxx_DSA_Clone @46
+        DSA_DestroyCallback=xxx_DSA_DestroyCallback @47
+        DSA_EnumCallback=xxx_DSA_EnumCallback @48
+        DPA_Create=xxx_DPA_Create @50
+        DPA_InsertPtr=xxx_DPA_InsertPtr @51
+        DPA_Sort=xxx_DPA_Sort @52
+        DPA_SetPtr=xxx_DPA_SetPtr @53
+        DPA_Grow=xxx_DPA_Grow @54
+        DPA_DestroyCallback=xxx_DPA_DestroyCallback @56
+        DSA_Sort=xxx_DSA_Sort @57 NONAME
+        DSA_SetRange=xxx_DSA_SetRange @58 NONAME
+        DPA_Search=xxx_DPA_Search @59 NONAME
+        DPA_DeletePtr=xxx_DPA_DeletePtr @60 NONAME
+        DPA_DeleteAllPtrs=xxx_DPA_DeleteAllPtrs @61 NONAME
+        DPA_GetPtrIndex=xxx_DPA_GetPtrIndex @62 NONAME
+; @CESYSGEN ENDIF
+	
+	Str_SetPtrW                     @33
+;        StrToIntW                       @34
+        CenterWindow                    @35
+
+; @CESYSGEN IF COMMCTRL_CMDBAR || COMMCTRL_REBAR
+	CommandBands_Create 			@36
+        CommandBands_AddBands 			@37
+        CommandBands_GetCommandBar 		@38
+        CommandBands_AddAdornments 		@39
+	CommandBands_Show 			@40
+	CommandBands_GetRestoreInformation 	@41
+	CommandBar_InsertMenubarEx 		@42
+	CommandBar_DrawMenuBar 			@43
+	CommandBar_AlignAdornments		@44
+; Expose this in Macallan ?
+;        CommandBands_InsertBands 		@xx
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF COMMCTRL_CAPEDIT
+        IsCapEditAvailable              @55     NONAME
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF COMMCTRL_SHAPIS
+        SHGetSysColor                   @77     NONAME
+        SHGetSystemMetrics              @78     NONAME
+        SHDrawGradient                  @79     NONAME
+        SHCreateDefaultGradient         @80     NONAME
+        SHDrawText                      @81     NONAME
+        SHSetSysColors                  @82     NONAME
+        SHSetSystemMetrics              @83     NONAME
+; @CESYSGEN ENDIF
+
+
+; The following functions do not have ordinals.  This prevents them
+; from colliding with other OS versions since they are only used internally
+; to aid componentization
+; @CESYSGEN IF COMMCTRL_TOOLBAR || COMMCTRL_CMDBAR || COMMCTRL_REBAR
+	InitToolbarClass
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF COMMCTRL_REBAR
+	InitReBarClass
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF COMMCTRL_STATUS
+	InitStatusClass
+; @CESYSGEN ENDIF 
+
+; @CESYSGEN IF COMMCTRL_LISTVIEW
+	ListView_Init
+        ListView_SetItemSpacing
+	Header_Init
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF COMMCTRL_TAB
+	Tab_Init
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF COMMCTRL_TREEVIEW
+	TV_Init
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF COMMCTRL_TRACKBAR
+	InitTrackBar
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF COMMCTRL_UPDOWN || COMMCTRL_DATE || COMMCTRL_TAB
+	InitUpDownClass
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF COMMCTRL_PROGRESS
+	InitProgressClass
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF COMMCTRL_DATE
+	InitDateClasses
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF COMMCTRL_ANIMATE
+        InitAnimateClass
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF COMMCTRL_CAPEDIT
+	InitCapEdit
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF COMMCTRL_TOOLTIPS
+	InitToolTipsClass
+	InitTTStatic
+	InitTTButton
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF COMMCTRL_FE
+	InitSBEdit
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF COMMCTRL_BOXSELECT
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF COMMCTRL_LABELEDIT
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF COMMCTRL_LINK
+	InitLinkClass
+; @CESYSGEN ENDIF

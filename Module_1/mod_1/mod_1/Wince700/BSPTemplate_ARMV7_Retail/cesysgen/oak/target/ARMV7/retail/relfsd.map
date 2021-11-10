@@ -1,0 +1,408 @@
+ relfsd
+
+ Timestamp is 5ac64a29 (Thu Apr 05 09:09:13 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 00001038H .rdata                  CODE
+ 0001:00001058 00000023H .rdata$debug            CODE
+ 0001:0000107c 00005ffcH .text                   CODE
+ 0001:00007078 00000070H .xdata                  CODE
+ 0001:000070e8 00000028H .idata$2                CODE
+ 0001:00007110 00000014H .idata$3                CODE
+ 0001:00007124 0000010cH .idata$4                CODE
+ 0001:00007230 00000018H .idata$6                CODE
+ 0001:00007250 0000047aH .edata                  CODE
+ 0002:00000000 0000010cH .idata$5                DATA
+ 0002:0000010c 00000018H .data                   DATA
+ 0002:00000140 0000080cH .bss                    DATA
+ 0003:00000000 00000480H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:00000040       ??_C@_1EO@HDMOBNCK@?$AAR?$AAE?$AAL?$AAF?$AAS?$AAD?$AA?3?$AA?5?$AAO?$AAp?$AAe?$AAn?$AAi?$AAn?$AAg?$AA?5?$AAf?$AAi?$AAl?$AAe?$AA?5?$AA?$CF?$AAs?$AA?5?$AAf?$AAr?$AAo?$AAm?$AA?5?$AAd?$AAe?$AAs@ 10001040     file.obj
+ 0001:00000090       ??_C@_1BE@LNGBAEKF@?$AAc?$AAe?$AAl?$AAo?$AAg?$AA?4?$AAc?$AAl?$AAg?$AA?$AA@ 10001090     file.obj
+ 0001:000000a4       ??_C@_1BE@PCPDMONN@?$AA?2?$AAW?$AAI?$AAN?$AAD?$AAO?$AAW?$AAS?$AA?2?$AA?$AA@ 100010a4     file.obj
+ 0001:000000b8       ??_C@_17OGOCLKHB@?$AAc?$AAo?$AAn?$AA?$AA@ 100010b8     file.obj
+ 0001:000000c0       ??_C@_19PMKFELNE@?$AAr?$AAe?$AAg?$AA?3?$AA?$AA@ 100010c0     file.obj
+ 0001:000000cc       ??_C@_19LPMOGDBF@?$AAV?$AAO?$AAL?$AA?3?$AA?$AA@ 100010cc     file.obj
+ 0001:000000d8       ??_C@_1EO@POIJKKMB@?$AAS?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAT?$AAx?$AAt?$AAS?$AAh?$AAe?$AAl?$AAl?$AA?2?$AAE?$AAx?$AAt?$AAe@ 100010d8     main.obj
+ 0001:00000128       ??_C@_1DM@EIEMGKA@?$AAS?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAS?$AAh?$AAi?$AAm?$AA?2?$AA?$CF?$AAs?$AA?2?$AA?$CF?$AAs?$AA?$AA@ 10001128     main.obj
+ 0001:00000164       ??_C@_1CC@CCPAKLLE@?$AAS?$AAh?$AAi?$AAm?$AAE?$AAn?$AAg?$AAi?$AAn?$AAe?$AA?2?$AA?$CF?$AAs?$AA?2?$AA?$CF?$AAs?$AA?$AA@ 10001164     main.obj
+ 0001:00000188       ??_C@_1HC@JCCFPADL@?$AAA?$AAp?$AAp?$AAl?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAv?$AAe?$AAr?$AAi?$AAf?$AAi?$AAe?$AAr?$AA?5?$AAa?$AAu?$AAt?$AAo?$AAl?$AAo?$AAa?$AAd?$AAe?$AAr?$AA?3@ 10001188     main.obj
+ 0001:00000200       ??_C@_1HO@LOAJEEKJ@?$AAA?$AAp?$AAp?$AAl?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAv?$AAe?$AAr?$AAi?$AAf?$AAi?$AAe?$AAr?$AA?5?$AAa?$AAu?$AAt?$AAo?$AAl?$AAo?$AAa?$AAd?$AAe?$AAr?$AA?3@ 10001200     main.obj
+ 0001:00000280       ??_C@_1HI@DINFNIAO@?$AAA?$AAp?$AAp?$AAl?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAv?$AAe?$AAr?$AAi?$AAf?$AAi?$AAe?$AAr?$AA?5?$AAa?$AAu?$AAt?$AAo?$AAl?$AAo?$AAa?$AAd?$AAe?$AAr?$AA?3@ 10001280     main.obj
+ 0001:000002f8       ??_C@_1JC@MEEKGLCH@?$AAA?$AAp?$AAp?$AAl?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAv?$AAe?$AAr?$AAi?$AAf?$AAi?$AAe?$AAr?$AA?5?$AAa?$AAu?$AAt?$AAo?$AAl?$AAo?$AAa?$AAd?$AAe?$AAr?$AA?3@ 100012f8     main.obj
+ 0001:00000390       ??_C@_1IA@IKMDMBJD@?$AAA?$AAp?$AAp?$AAl?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAv?$AAe?$AAr?$AAi?$AAf?$AAi?$AAe?$AAr?$AA?5?$AAa?$AAu?$AAt?$AAo?$AAl?$AAo?$AAa?$AAd?$AAe?$AAr?$AA?3@ 10001390     main.obj
+ 0001:00000410       ??_C@_1CK@HCKAELOK@?$AAP?$AAr?$AAo?$AAp?$AAo?$AAg?$AAa?$AAt?$AAe?$AAT?$AAo?$AAP?$AAr?$AAo?$AAc?$AAe?$AAs?$AAs?$AAe?$AAs?$AA?$AA@ 10001410     main.obj
+ 0001:00000440       ??_C@_1HG@HBNPNJEL@?$AAA?$AAp?$AAp?$AAl?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAv?$AAe?$AAr?$AAi?$AAf?$AAi?$AAe?$AAr?$AA?5?$AAa?$AAu?$AAt?$AAo?$AAl?$AAo?$AAa?$AAd?$AAe?$AAr?$AA?3@ 10001440     main.obj
+ 0001:000004b8       ??_C@_1CG@HGIPHNAN@?$AAP?$AAr?$AAo?$AAp?$AAo?$AAg?$AAa?$AAt?$AAe?$AAT?$AAo?$AAM?$AAo?$AAd?$AAu?$AAl?$AAe?$AAs?$AA?$AA@ 100014b8     main.obj
+ 0001:000004e0       ??_C@_1HI@GBGJIMMK@?$AAA?$AAp?$AAp?$AAl?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAv?$AAe?$AAr?$AAi?$AAf?$AAi?$AAe?$AAr?$AA?5?$AAa?$AAu?$AAt?$AAo?$AAl?$AAo?$AAa?$AAd?$AAe?$AAr?$AA?3@ 100014e0     main.obj
+ 0001:00000558       ??_C@_1BC@JPADEPMK@?$AAS?$AAh?$AAi?$AAm?$AAL?$AAM?$AAe?$AAm?$AA?$AA@ 10001558     main.obj
+ 0001:00000570       ??_C@_1IE@KDEBJAGN@?$AAA?$AAp?$AAp?$AAl?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAv?$AAe?$AAr?$AAi?$AAf?$AAi?$AAe?$AAr?$AA?5?$AAa?$AAu?$AAt?$AAo?$AAl?$AAo?$AAa?$AAd?$AAe?$AAr?$AA?3@ 10001570     main.obj
+ 0001:000005f4       ??_C@_1BE@PLMLMDLD@?$AA?$HL?$AAd?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AA?$HN?$AA?$AA@ 100015f4     main.obj
+ 0001:00000608       ??_C@_1BC@HFAGOIPG@?$AAV?$AAe?$AAr?$AAi?$AAf?$AAi?$AAe?$AAr?$AA?$AA@ 10001608     main.obj
+ 0001:0000061c       ??_C@_1BG@GFIKJIHJ@?$AAN?$AAo?$AAM?$AAa?$AAp?$AAF?$AAi?$AAl?$AAe?$AAs?$AA?$AA@ 1000161c     main.obj
+ 0001:00000634       ??_C@_1BO@MDAFKMFO@?$AAI?$AAg?$AAn?$AAo?$AAr?$AAe?$AAN?$AAu?$AAl?$AAl?$AAF?$AAr?$AAe?$AAe?$AA?$AA@ 10001634     main.obj
+ 0001:00000654       ??_C@_1BK@GBMOBNAD@?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AAF?$AAa?$AAn?$AAO?$AAu?$AAt?$AA?$AA@ 10001654     main.obj
+ 0001:00000670       ??_C@_1CC@BBJPAJKJ@?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AAF?$AAa?$AAn?$AAO?$AAu?$AAt?$AAD?$AAl?$AAl?$AAs?$AA?$AA@ 10001670     main.obj
+ 0001:00000694       ??_C@_1CM@LGNLACHP@?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AAF?$AAa?$AAn?$AAO?$AAu?$AAt?$AAP?$AAr?$AAo?$AAc?$AAe?$AAs?$AAs?$AAe?$AAs?$AA?$AA@ 10001694     main.obj
+ 0001:000006c0       ??_C@_1BO@FIFCPGKG@?$AAF?$AAi?$AAl?$AAe?$AAO?$AAu?$AAt?$AAp?$AAu?$AAt?$AAO?$AAn?$AAl?$AAy?$AA?$AA@ 100016c0     main.obj
+ 0001:000006e0       ??_C@_1CE@EKOEBJF@?$AAD?$AAe?$AAb?$AAu?$AAg?$AAB?$AAr?$AAe?$AAa?$AAk?$AAO?$AAn?$AAE?$AAr?$AAr?$AAo?$AAr?$AA?$AA@ 100016e0     main.obj
+ 0001:00000704       ??_C@_13HOIJIPNN@?$AA?5?$AA?$AA@ 10001704     main.obj
+ 0001:00000708       ??_C@_1BC@JBMPMJNF@?$AAV?$AAa?$AAl?$AAu?$AAe?$AAs?$AA?$CF?$AAu?$AA?$AA@ 10001708     main.obj
+ 0001:0000071c       ??_C@_1DA@CFMGNMLH@?$AAS?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAS?$AAh?$AAi?$AAm?$AA?$AA@ 1000171c     main.obj
+ 0001:00000750       ??_C@_1FC@FOMCMMJJ@?$AAP?$AAe?$AAg?$AAa?$AAs?$AAu?$AAs?$AA?2?$AAA?$AAp?$AAp?$AAl?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AAV?$AAe?$AAr?$AAi?$AAf?$AAi?$AAe?$AAr?$AA?2?$AAS?$AAh?$AAi?$AAm@ 10001750     main.obj
+ 0001:000007a4       ??_C@_1BG@FGOLFIBN@?$AAS?$AAh?$AAi?$AAm?$AAE?$AAn?$AAg?$AAi?$AAn?$AAe?$AA?$AA@ 100017a4     main.obj
+ 0001:000007c0       ??_C@_1EO@NMGHIOEC@?$AAP?$AAe?$AAg?$AAa?$AAs?$AAu?$AAs?$AA?2?$AAA?$AAp?$AAp?$AAl?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AAV?$AAe?$AAr?$AAi?$AAf?$AAi?$AAe?$AAr?$AA?2?$AAS?$AAh?$AAi?$AAm@ 100017c0     main.obj
+ 0001:00000810       ??_C@_1BI@JLBLILDN@?$AAd?$AAb?$AAg?$AAl?$AAi?$AAs?$AAt?$AA?4?$AAt?$AAx?$AAt?$AA?$AA@ 10001810     main.obj
+ 0001:00000828       ??_C@_1EC@KOGLJBKJ@?$AAE?$AAn?$AAa?$AAb?$AAl?$AAi?$AAn?$AAg?$AA?5?$AAa?$AAp?$AAp?$AAl?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAv?$AAe?$AAr?$AAi?$AAf?$AAi?$AAe?$AAr?$AA?4?$AA?$AN?$AA?6@ 10001828     main.obj
+ 0001:0000086c       ??_C@_1BG@FFFHNINO@?$AAv?$AAe?$AAr?$AAi?$AAf?$AAy?$AA?4?$AAt?$AAx?$AAt?$AA?$AA@ 1000186c     main.obj
+ 0001:00000884       ??_C@_13FPGAJAPJ@?$AA?2?$AA?$AA@ 10001884     main.obj
+ 0001:00000888       ??_C@_1BK@FKDMADAJ@?$AAD?$AAe?$AAb?$AAu?$AAg?$AAR?$AAe?$AAg?$AA?4?$AAr?$AAe?$AAg?$AA?$AA@ 10001888     main.obj
+ 0001:000008a4       ??_C@_1O@JMMJIAMC@?$AAs?$AAe?$AAc?$AAu?$AAr?$AAe?$AA?$AA@ 100018a4     main.obj
+ 0001:000008b4       ??_C@_1M@CACIMNJO@?$AAm?$AAo?$AAu?$AAn?$AAt?$AA?$AA@ 100018b4     main.obj
+ 0001:000008c0       ??_C@_1BG@KCMNKDOG@?$AAR?$AAe?$AAl?$AAe?$AAa?$AAs?$AAe?$AAF?$AAS?$AAD?$AA?$AA@ 100018c0     main.obj
+ 0001:000008d8       ??_C@_1BK@OFGKOFCH@?$AAW?$AAA?$AAI?$AAT?$AA_?$AAR?$AAE?$AAL?$AAF?$AAS?$AAD?$AA2?$AA?$AA@ 100018d8     main.obj
+ 0001:000008f4       ??_C@_1BG@BGODANIO@?$AAH?$AAK?$AAE?$AAY?$AA_?$AAU?$AAS?$AAE?$AAR?$AAS?$AA?$AA@ 100018f4     RegImportExportLib:RegImport.obj
+ 0001:0000090c       ??_C@_1CG@GFBEANJL@?$AAH?$AAK?$AAE?$AAY?$AA_?$AAL?$AAO?$AAC?$AAA?$AAL?$AA_?$AAM?$AAA?$AAC?$AAH?$AAI?$AAN?$AAE?$AA?$AA@ 1000190c     RegImportExportLib:RegImport.obj
+ 0001:00000934       ??_C@_1CE@HLHNCBPM@?$AAH?$AAK?$AAE?$AAY?$AA_?$AAC?$AAU?$AAR?$AAR?$AAE?$AAN?$AAT?$AA_?$AAU?$AAS?$AAE?$AAR?$AA?$AA@ 10001934     RegImportExportLib:RegImport.obj
+ 0001:00000958       ??_C@_1CE@PACHPJFI@?$AAH?$AAK?$AAE?$AAY?$AA_?$AAC?$AAL?$AAA?$AAS?$AAS?$AAE?$AAS?$AA_?$AAR?$AAO?$AAO?$AAT?$AA?$AA@ 10001958     RegImportExportLib:RegImport.obj
+ 0001:0000097c       ?c_rgRegistryRoots@RegImport@@0QBURegistryRoot@1@B 1000197c     RegImportExportLib:RegImport.obj
+ 0001:0000099c       ?c_cRegistryRoots@RegImport@@0KB 1000199c     RegImportExportLib:RegImport.obj
+ 0001:000009a0       ?c_szRegistryHeader@RegImport@@0QBGB 100019a0     RegImportExportLib:RegImport.obj
+ 0001:000009b4       ?c_szHexValuePrevix@RegImport@@0QBGB 100019b4     RegImportExportLib:RegImport.obj
+ 0001:000009bc       ?c_szDwordValuePrefix@RegImport@@0QBGB 100019bc     RegImportExportLib:RegImport.obj
+ 0001:000009cc       ?c_szMultiSzValuePrefix@RegImport@@0QBGB 100019cc     RegImportExportLib:RegImport.obj
+ 0001:000009e0       ?c_szMuiSzValuePrefix@RegImport@@0QBGB 100019e0     RegImportExportLib:RegImport.obj
+ 0001:000009f0       ?c_StandardRegApi@RegImport@@0URegistryFunctionTable@@B 100019f0     RegImportExportLib:RegImport.obj
+ 0001:00000a18       ??_C@_1HC@LACHCJNP@?$AAR?$AAe?$AAg?$AAI?$AAm?$AAp?$AAo?$AAr?$AAt?$AA?3?$AA?5?$AAR?$AAe?$AAg?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AAK?$AAe?$AAy?$AAE?$AAx?$AA?$CI?$AA?$FL?$AA?$CF?$AAs?$AA?2?$AA?$CF?$AAs@ 10001a18     RegImportExportLib:RegImport.obj
+ 0001:00000a90       ??_C@_1FI@NOGBDHM@?$AAR?$AAe?$AAg?$AAI?$AAm?$AAp?$AAo?$AAr?$AAt?$AA?3?$AA?5?$AAR?$AAe?$AAg?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AAK?$AAe?$AAy?$AA?$CI?$AA?$FL?$AA?$CF?$AAs?$AA?2?$AA?$CF?$AAs?$AA?$FN?$AA?$CJ@ 10001a90     RegImportExportLib:RegImport.obj
+ 0001:00000ae8       ??_C@_1FM@JAFAOLMN@?$AAR?$AAe?$AAg?$AAI?$AAm?$AAp?$AAo?$AAr?$AAt?$AA?3?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AAR?$AAe?$AAa?$AAd?$AAi?$AAn?$AAg?$AAF?$AAi?$AAl?$AAe?$AA?5?$AA?$CC?$AA?$CF@ 10001ae8     RegImportExportLib:RegImport.obj
+ 0001:00000b48       ??_C@_1GE@JIBFNDKF@?$AAR?$AAe?$AAg?$AAI?$AAm?$AAp?$AAo?$AAr?$AAt?$AA?3?$AA?5?$AAF?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AAt?$AAo?$AA?5?$AAc?$AAr?$AAe?$AAa?$AAt?$AAe?$AA?5?$AAr?$AAe?$AAg?$AA?5@ 10001b48     RegImportExportLib:RegImport.obj
+ 0001:00000bb0       ??_C@_1GE@JFDAKJHK@?$AAR?$AAe?$AAg?$AAI?$AAm?$AAp?$AAo?$AAr?$AAt?$AA?3?$AA?5?$AAF?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AAt?$AAo?$AA?5?$AAd?$AAe?$AAl?$AAe?$AAt?$AAe?$AA?5?$AAr?$AAe?$AAg?$AA?5@ 10001bb0     RegImportExportLib:RegImport.obj
+ 0001:00000c18       ??_C@_1GI@GIMJKHPG@?$AAR?$AAe?$AAg?$AAI?$AAm?$AAp?$AAo?$AAr?$AAt?$AA?3?$AA?5?$AA?$CF?$AAs?$AA?$CI?$AA?$CF?$AAu?$AA?$CJ?$AA?3?$AA?5?$AAW?$AAA?$AAR?$AAN?$AAI?$AAN?$AAG?$AA?3?$AA?5?$AAf?$AAa?$AAi?$AAl@ 10001c18     RegImportExportLib:RegImport.obj
+ 0001:00000c80       ??_C@_1GO@DNJJFJGC@?$AAR?$AAe?$AAg?$AAI?$AAm?$AAp?$AAo?$AAr?$AAt?$AA?3?$AA?5?$AA?$CF?$AAs?$AA?$CI?$AA?$CF?$AAu?$AA?$CJ?$AA?3?$AA?5?$AAW?$AAA?$AAR?$AAN?$AAI?$AAN?$AAG?$AA?3?$AA?5?$AAf?$AAa?$AAi?$AAl@ 10001c80     RegImportExportLib:RegImport.obj
+ 0001:00000cf0       ??_C@_1GO@MCGEHH@?$AAR?$AAe?$AAg?$AAI?$AAm?$AAp?$AAo?$AAr?$AAt?$AA?3?$AA?5?$AA?$CF?$AAs?$AA?$CI?$AA?$CF?$AAu?$AA?$CJ?$AA?5?$AAW?$AAA?$AAR?$AAN?$AAI?$AAN?$AAG?$AA?3?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe@ 10001cf0     RegImportExportLib:RegImport.obj
+ 0001:00000d60       ??_C@_1FA@JNOCJGID@?$AAR?$AAe?$AAg?$AAI?$AAm?$AAp?$AAo?$AAr?$AAt?$AA?3?$AA?5?$AAR?$AAe?$AAg?$AAS?$AAe?$AAt?$AAV?$AAa?$AAl?$AAu?$AAe?$AAE?$AAx?$AA?$CI?$AA?$CF?$AAs?$AA?$CJ?$AA?5?$AAr?$AAe?$AAs@ 10001d60     RegImportExportLib:RegImport.obj
+ 0001:00000db0       ??_C@_1FC@EGNOMKNF@?$AAR?$AAe?$AAg?$AAI?$AAm?$AAp?$AAo?$AAr?$AAt?$AA?3?$AA?5?$AAR?$AAe?$AAg?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AAV?$AAa?$AAl?$AAu?$AAe?$AA?$CI?$AA?$CF?$AAs?$AA?$CJ?$AA?5?$AAr?$AAe@ 10001db0     RegImportExportLib:RegImport.obj
+ 0001:00000e08       ??_C@_1HI@IFJOAFJF@?$AAR?$AAe?$AAg?$AAI?$AAm?$AAp?$AAo?$AAr?$AAt?$AA?3?$AA?5?$AA?$CF?$AAs?$AA?$CI?$AA?$CF?$AAu?$AA?$CJ?$AA?3?$AA?5?$AAW?$AAA?$AAR?$AAN?$AAI?$AAN?$AAG?$AA?3?$AA?5?$AAf?$AAa?$AAi?$AAl@ 10001e08     RegImportExportLib:RegImport.obj
+ 0001:00000e80       ??_C@_1EM@NKACMDJA@?$AAR?$AAe?$AAg?$AAI?$AAm?$AAp?$AAo?$AAr?$AAt?$AA?3?$AA?5?$AAS?$AAu?$AAc?$AAc?$AAe?$AAs?$AAs?$AAf?$AAu?$AAl?$AAl?$AAy?$AA?5?$AAp?$AAr?$AAo?$AAc?$AAe?$AAs?$AAs?$AAe@ 10001e80     RegImportExportLib:RegImport.obj
+ 0001:00000ed0       ??_C@_1II@JGBDNJEP@?$AAR?$AAe?$AAg?$AAI?$AAm?$AAp?$AAo?$AAr?$AAt?$AA?3?$AA?5?$AA?$CF?$AAs?$AA?$CI?$AA?$CF?$AAu?$AA?$CJ?$AA?3?$AA?5?$AAW?$AAA?$AAR?$AAN?$AAI?$AAN?$AAG?$AA?3?$AA?5?$AAf?$AAa?$AAi?$AAl@ 10001ed0     RegImportExportLib:RegImport.obj
+ 0001:00000f58       ??_C@_1EG@KBDJAODG@?$AAR?$AAe?$AAg?$AAI?$AAm?$AAp?$AAo?$AAr?$AAt?$AA?3?$AA?5?$AAS?$AAu?$AAc?$AAc?$AAe?$AAs?$AAs?$AAf?$AAu?$AAl?$AAl?$AAy?$AA?5?$AAo?$AAp?$AAe?$AAn?$AAe?$AAd?$AA?5?$AA?$CF@ 10001f58     RegImportExportLib:RegImport.obj
+ 0001:00000fa0       ??_C@_1FO@KHFHKGNF@?$AAR?$AAe?$AAg?$AAI?$AAm?$AAp?$AAo?$AAr?$AAt?$AA?3?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AAo?$AAp?$AAe?$AAn?$AAi?$AAn?$AAg?$AA?5?$AAf?$AAi?$AAl?$AAe?$AA?5?$AA?$CC@ 10001fa0     RegImportExportLib:RegImport.obj
+ 0001:00001000       ??_C@_1FI@BMGFCNFE@?$AAR?$AAe?$AAg?$AAI?$AAm?$AAp?$AAo?$AAr?$AAt?$AA?3?$AA?5?$AAi?$AAm?$AAp?$AAo?$AAr?$AAt?$AAi?$AAn?$AAg?$AA?5?$AAr?$AAe?$AAg?$AAi?$AAs?$AAt?$AAr?$AAy?$AA?5?$AAf?$AAi@ 10002000     RegImportExportLib:RegImport.obj
+ 0001:00001084       RELFSD_CreateFileW         10002084 f   file.obj
+ 0001:0000147c       RELFSD_CloseFile           1000247c f   file.obj
+ 0001:000014b4       RELFSD_ReadFile            100024b4 f   file.obj
+ 0001:00001514       RELFSD_ReadFileWithSeek    10002514 f   file.obj
+ 0001:0000159c       RELFSD_WriteFile           1000259c f   file.obj
+ 0001:00001620       RELFSD_WriteFileWithSeek   10002620 f   file.obj
+ 0001:000016b0       RELFSD_SetFilePointer      100026b0 f   file.obj
+ 0001:00001750       RELFSD_GetFileSize         10002750 f   file.obj
+ 0001:000017c0       RELFSD_GetFileInformationByHandle 100027c0 f   file.obj
+ 0001:00001814       RELFSD_FlushFileBuffers    10002814 f   file.obj
+ 0001:00001828       RELFSD_GetFileTime         10002828 f   file.obj
+ 0001:00001874       RELFSD_SetFileTime         10002874 f   file.obj
+ 0001:000018e8       RELFSD_SetEndOfFile        100028e8 f   file.obj
+ 0001:0000191c       IntDeviceIoControl         1000291c f   file.obj
+ 0001:00001a24       ExtDeviceIoControl         10002a24 f   file.obj
+ 0001:00001c78       RELFSD_DeviceIoControl     10002c78 f   file.obj
+ 0001:00001d20       RELFSD_GetVolumeInfo       10002d20 f   file.obj
+ 0001:00001d30       RELFSD_FsIoControl         10002d30 f   file.obj
+ 0001:00001d74       UpdateDbgList              10002d74 f   main.obj
+ 0001:00001dbc       SetShellExt                10002dbc f   main.obj
+ 0001:00001e6c       SaveShimSettingDWORD       10002e6c f   main.obj
+ 0001:00001f6c       UpdateAppVerifList         10002f6c f   main.obj
+ 0001:00002364       CopyRegFromDesktop         10003364 f   main.obj
+ 0001:000026d0       UpdateAppVerifReg          100036d0 f   main.obj
+ 0001:00002738       ConvertListToWchar         10003738 f   main.obj
+ 0001:00002844       LoadList                   10003844 f   main.obj
+ 0001:00002910       LoadDbgList                10003910 f   main.obj
+ 0001:00002928       LoadAppVerifierList        10003928 f   main.obj
+ 0001:000029a4       RegImportLogMessage        100039a4 f   main.obj
+ 0001:000029d4       LoadDebugRegistry          100039d4 f   main.obj
+ 0001:00002a90       RelfsdMountThread          10003a90 f   main.obj
+ 0001:00002be0       RELFSD_MountDisk           10003be0 f   main.obj
+ 0001:00002c60       RELFSD_UnmountDisk         10003c60 f   main.obj
+ 0001:00002c80       DllMain                    10003c80 f   main.obj
+ 0001:00002cd0       RELFSD_RemoveDirectoryW    10003cd0 f   path.obj
+ 0001:00002d04       RELFSD_GetFileAttributesW  10003d04 f   path.obj
+ 0001:00002d44       RELFSD_SetFileAttributesW  10003d44 f   path.obj
+ 0001:00002d80       RELFSD_DeleteFileW         10003d80 f   path.obj
+ 0001:00002db4       RELFSD_MoveFileW           10003db4 f   path.obj
+ 0001:00002df0       RELFSD_RegisterFileSystemFunction 10003df0 f   path.obj
+ 0001:00002e04       RELFSD_DeleteAndRenameFileW 10003e04 f   path.obj
+ 0001:00002e40       RELFSD_GetDiskFreeSpaceW   10003e40 f   path.obj
+ 0001:00002e98       RELFSD_Notify              10003e98 f   path.obj
+ 0001:00002e9c       RELFSD_CreateDirectoryW    10003e9c f   path.obj
+ 0001:00002ef8       RELFSD_FindFirstFileW      10003ef8 f   find.obj
+ 0001:00002fa4       RELFSD_FindNextFileW       10003fa4 f   find.obj
+ 0001:00002fe8       RELFSD_FindClose           10003fe8 f   find.obj
+ 0001:00003024       DSK_Init                   10004024 f   driver.obj
+ 0001:0000302c       DSK_DeinitClose            1000402c f   driver.obj
+ 0001:00003034       DSK_Dud                    10004034 f   driver.obj
+ 0001:00003038       DSK_IOControl              10004038 f   driver.obj
+ 0001:00003040       DSK_Power                  10004040 f   driver.obj
+ 0001:00003044       fill_KITL_buffer           10004044 f   cefs.obj
+ 0001:000030a0       write_KITL_buffer          100040a0 f   cefs.obj
+ 0001:00003100       ppfs_send_byte_ether       10004100 f   cefs.obj
+ 0001:0000313c       ppfs_get_byte_ether        1000413c f   cefs.obj
+ 0001:00003188       ppfs_get_buffer_ether      10004188 f   cefs.obj
+ 0001:00003214       ppfs_get_buffer_ether_nofill 10004214 f   cefs.obj
+ 0001:00003274       read_value                 10004274 f   cefs.obj
+ 0001:000032c0       write_value                100042c0 f   cefs.obj
+ 0001:00003300       read_header                10004300 f   cefs.obj
+ 0001:0000335c       write_header               1000435c f   cefs.obj
+ 0001:000033b4       read_data                  100043b4 f   cefs.obj
+ 0001:00003474       write_data                 10004474 f   cefs.obj
+ 0001:000034b0       read_end                   100044b0 f   cefs.obj
+ 0001:000034fc       write_end                  100044fc f   cefs.obj
+ 0001:0000354c       PPSHConnect                1000454c f   cefs.obj
+ 0001:000035a4       rlseeknocs                 100045a4 f   cefs.obj
+ 0001:00003638       rlseek                     10004638 f   cefs.obj
+ 0001:0000363c       rwriteshort                1000463c f   cefs.obj
+ 0001:000036dc       rwrite                     100046dc f   cefs.obj
+ 0001:00003780       rreadshort                 10004780 f   cefs.obj
+ 0001:00003824       rreadnocs                  10004824 f   cefs.obj
+ 0001:00003884       rread                      10004884 f   cefs.obj
+ 0001:000038e8       rreadseek                  100048e8 f   cefs.obj
+ 0001:000039bc       rclose                     100049bc f   cefs.obj
+ 0001:00003a2c       rsetendoffile              10004a2c f   cefs.obj
+ 0001:00003ab4       ropenW                     10004ab4 f   cefs.obj
+ 0001:00003b4c       rRegOpen                   10004b4c f   cefs.obj
+ 0001:00003bf4       rRegClose                  10004bf4 f   cefs.obj
+ 0001:00003c64       rRegGet                    10004c64 f   cefs.obj
+ 0001:00003d6c       rRegEnum                   10004d6c f   cefs.obj
+ 0001:00003e44       rcreatedirW                10004e44 f   cefs.obj
+ 0001:00003ecc       rremovedirW                10004ecc f   cefs.obj
+ 0001:00003f5c       rfindfirstW                10004f5c f   cefs.obj
+ 0001:000040b8       rfindnext                  100050b8 f   cefs.obj
+ 0001:000041f8       rfindclose                 100051f8 f   cefs.obj
+ 0001:00004268       rdeleteW                   10005268 f   cefs.obj
+ 0001:000042f0       rgetfileattribW            100052f0 f   cefs.obj
+ 0001:00004378       rsetfileattribW            10005378 f   cefs.obj
+ 0001:00004410       rgettime                   10005410 f   cefs.obj
+ 0001:000044f0       rsettime                   100054f0 f   cefs.obj
+ 0001:00004600       rmoveW                     10005600 f   cefs.obj
+ 0001:000046ac       rgetdiskfreeW              100056ac f   cefs.obj
+ 0001:0000478c       ropen                      1000578c f   cefs.obj
+ 0001:00004890       rcreatedir                 10005890 f   cefs.obj
+ 0001:00004984       rremovedir                 10005984 f   cefs.obj
+ 0001:00004a78       rfindfirst                 10005a78 f   cefs.obj
+ 0001:00004c2c       rdelete                    10005c2c f   cefs.obj
+ 0001:00004d20       rgetfileattrib             10005d20 f   cefs.obj
+ 0001:00004e20       rsetfileattrib             10005e20 f   cefs.obj
+ 0001:00004f24       rmove                      10005f24 f   cefs.obj
+ 0001:00005068       rgetdiskfree               10006068 f   cefs.obj
+ 0001:000051ac       ?StrEqual@RegImport@@CAHPBG0@Z 100061ac f i RegImportExportLib:RegImport.obj
+ 0001:000051f0       ?LookupRootKey@RegImport@@CAPAUHKEY__@@PBG@Z 100061f0 f i RegImportExportLib:RegImport.obj
+ 0001:00005248       ?CreateRegistryKey@RegImport@@AAAKPAPAUHKEY__@@PAG@Z 10006248 f i RegImportExportLib:RegImport.obj
+ 0001:00005364       ?DeleteRegistryKey@RegImport@@AAAKPAG@Z 10006364 f i RegImportExportLib:RegImport.obj
+ 0001:00005458       ?UnGetChar@RegImport@@AAAXXZ 10006458 f i RegImportExportLib:RegImport.obj
+ 0001:000054cc       ?GetChar@RegImport@@AAAHPAG@Z 100064cc f i RegImportExportLib:RegImport.obj
+ 0001:000055d4       ?MatchChar@RegImport@@AAAHG@Z 100065d4 f i RegImportExportLib:RegImport.obj
+ 0001:00005618       ?GetOptions@RegImport@@AAAXPAH0@Z 10006618 f i RegImportExportLib:RegImport.obj
+ 0001:00005694       ?IsUnicodeFile@RegImport@@AAAHPAXPAH@Z 10006694 f i RegImportExportLib:RegImport.obj
+ 0001:00005794       ?LogStub@RegImport@@CAXKPBGZZ 10006794 f i RegImportExportLib:RegImport.obj
+ 0001:000057a4       ??0RegImport@@QAA@PBGP6AXK0ZZ@Z 100067a4 f i RegImportExportLib:RegImport.obj
+ 0001:00005800       ??0RegImport@@QAA@PBGPBURegistryFunctionTable@@@Z 10006800 f i RegImportExportLib:RegImport.obj
+ 0001:0000585c       ??0RegImport@@QAA@PBGP6AXK0ZZPBURegistryFunctionTable@@@Z 1000685c f i RegImportExportLib:RegImport.obj
+ 0001:000058b0       ?ParseHeader@RegImport@@AAAHPAPAUHKEY__@@PAGK@Z 100068b0 f i RegImportExportLib:RegImport.obj
+ 0001:00005a64       ?ParseString@RegImport@@AAAHPAGPAK@Z 10006a64 f i RegImportExportLib:RegImport.obj
+ 0001:00005b58       ?ParseHexDigit@RegImport@@AAAHPAE@Z 10006b58 f i RegImportExportLib:RegImport.obj
+ 0001:00005be0       ?ParseEndOfLine@RegImport@@AAAHXZ 10006be0 f i RegImportExportLib:RegImport.obj
+ 0001:00005c60       ?SkipWhitespace@RegImport@@AAAXXZ 10006c60 f i RegImportExportLib:RegImport.obj
+ 0001:00005cb0       ?SkipPastEndOfLine@RegImport@@AAAXXZ 10006cb0 f i RegImportExportLib:RegImport.obj
+ 0001:00005d2c       ?ParseMultiString@RegImport@@AAAHPAGPAK@Z 10006d2c f i RegImportExportLib:RegImport.obj
+ 0001:00005e38       ?ParseHexDword@RegImport@@AAAHPAK@Z 10006e38 f i RegImportExportLib:RegImport.obj
+ 0001:00005e98       ?ParseHexByte@RegImport@@AAAHPAE@Z 10006e98 f i RegImportExportLib:RegImport.obj
+ 0001:00005eec       ?ParseHexSequence@RegImport@@AAAHPAEPAK@Z 10006eec f i RegImportExportLib:RegImport.obj
+ 0001:00005f94       ?ParseValuename@RegImport@@AAAIPAUHKEY__@@PAGKH@Z 10006f94 f i RegImportExportLib:RegImport.obj
+ 0001:000063f4       ?ImportWin40RegFile@RegImport@@AAAHXZ 100073f4 f i RegImportExportLib:RegImport.obj
+ 0001:00006640       ?ImportFile@RegImport@@QAAHXZ 10007640 f i RegImportExportLib:RegImport.obj
+ 0001:00006760       RegImportFile              10007760 f   RegImportExportLib:RegImport.obj
+ 0001:0000686c       FSDMGR_CreateFileHandle    1000786c f   fsdmgr:FSDMGR.dll
+ 0001:0000687c       FSDMGR_GetRegistryValue    1000787c f   fsdmgr:FSDMGR.dll
+ 0001:0000688c       FSDMGR_GetRegistryString   1000788c f   fsdmgr:FSDMGR.dll
+ 0001:0000689c       FSDMGR_RegisterVolume      1000789c f   fsdmgr:FSDMGR.dll
+ 0001:000068ac       FSDMGR_DeregisterVolume    100078ac f   fsdmgr:FSDMGR.dll
+ 0001:000068bc       FSDMGR_CreateSearchHandle  100078bc f   fsdmgr:FSDMGR.dll
+ 0001:000068cc       __GetUserKData             100078cc f   coredll:COREDLL.dll
+ 0001:000068dc       LeaveCriticalSection       100078dc f   coredll:COREDLL.dll
+ 0001:000068ec       NKDbgPrintfW               100078ec f   coredll:COREDLL.dll
+ 0001:000068fc       LocalFree                  100078fc f   coredll:COREDLL.dll
+ 0001:0000690c       LocalAlloc                 1000790c f   coredll:COREDLL.dll
+ 0001:0000691c       EnterCriticalSection       1000791c f   coredll:COREDLL.dll
+ 0001:0000692c       GetFileAttributesW         1000792c f   coredll:COREDLL.dll
+ 0001:0000693c       StringCchCopyNW            1000793c f   coredll:COREDLL.dll
+ 0001:0000694c       StringCchCatNW             1000794c f   coredll:COREDLL.dll
+ 0001:0000695c       StringCchCopyW             1000795c f   coredll:COREDLL.dll
+ 0001:0000696c       SetLastError               1000796c f   coredll:COREDLL.dll
+ 0001:0000697c       GetDirectCallerProcessId   1000797c f   coredll:COREDLL.dll
+ 0001:0000698c       EventModify                1000798c f   coredll:COREDLL.dll
+ 0001:0000699c       KernelLibIoControl         1000799c f   coredll:COREDLL.dll
+ 0001:000069ac       RegCloseKey                100079ac f   coredll:COREDLL.dll
+ 0001:000069bc       RegSetValueExW             100079bc f   coredll:COREDLL.dll
+ 0001:000069cc       RegCreateKeyExW            100079cc f   coredll:COREDLL.dll
+ 0001:000069dc       StringCchPrintfW           100079dc f   coredll:COREDLL.dll
+ 0001:000069ec       WideCharToMultiByte        100079ec f   coredll:COREDLL.dll
+ 0001:000069fc       NKvDbgPrintfW              100079fc f   coredll:COREDLL.dll
+ 0001:00006a0c       StringCchCatW              10007a0c f   coredll:COREDLL.dll
+ 0001:00006a1c       CreateEventW               10007a1c f   coredll:COREDLL.dll
+ 0001:00006a2c       Sleep                      10007a2c f   coredll:COREDLL.dll
+ 0001:00006a3c       CloseHandle                10007a3c f   coredll:COREDLL.dll
+ 0001:00006a4c       CreateThread               10007a4c f   coredll:COREDLL.dll
+ 0001:00006a5c       KernelIoControl            10007a5c f   coredll:COREDLL.dll
+ 0001:00006a6c       DeleteCriticalSection      10007a6c f   coredll:COREDLL.dll
+ 0001:00006a7c       InitializeCriticalSection  10007a7c f   coredll:COREDLL.dll
+ 0001:00006a8c       DisableThreadLibraryCalls  10007a8c f   coredll:COREDLL.dll
+ 0001:00006a9c       UnlockPages                10007a9c f   coredll:COREDLL.dll
+ 0001:00006aac       LockPages                  10007aac f   coredll:COREDLL.dll
+ 0001:00006abc       RegEnumValueW              10007abc f   coredll:COREDLL.dll
+ 0001:00006acc       RegDeleteValueW            10007acc f   coredll:COREDLL.dll
+ 0001:00006adc       RegQueryValueExW           10007adc f   coredll:COREDLL.dll
+ 0001:00006aec       RegEnumKeyExW              10007aec f   coredll:COREDLL.dll
+ 0001:00006afc       RegQueryInfoKeyW           10007afc f   coredll:COREDLL.dll
+ 0001:00006b0c       RegDeleteKeyW              10007b0c f   coredll:COREDLL.dll
+ 0001:00006b1c       RegOpenKeyExW              10007b1c f   coredll:COREDLL.dll
+ 0001:00006b2c       GetLastError               10007b2c f   coredll:COREDLL.dll
+ 0001:00006b3c       ReadFile                   10007b3c f   coredll:COREDLL.dll
+ 0001:00006b4c       SetFilePointer             10007b4c f   coredll:COREDLL.dll
+ 0001:00006b5c       CreateFileW                10007b5c f   coredll:COREDLL.dll
+ 0001:00006c64       _DllMainCRTStartup         10007c64 f   corelib0:pegdmain.obj
+ 0001:00006c90       __GSHandlerCheckCommon     10007c90 f   corelib0:gshandler.obj
+ 0001:00006ccc       __GSHandlerCheck           10007ccc f   corelib0:gshandler.obj
+ 0001:00006cec       __security_init_cookie     10007cec f   corelib0:seccinit.obj
+ 0001:00006d38       __security_check_cookie    10007d38 f   corelib0:armsecgs.obj
+ 0001:00006d48       __gsfailure                10007d48     corelib0:armsecgs.obj
+ 0001:00006d8c       __GSHandlerCheck_SEH       10007d8c f   corelib0:gshandlerseh.obj
+ 0001:00006ec0       _cexit                     10007ec0 f   corelib0:cexit.obj
+ 0001:00006ed0       _initterm                  10007ed0 f   corelib0:crt0dat.obj
+ 0001:00006efc       _cinit                     10007efc f   corelib0:crt0dat.obj
+ 0001:00006f5c       __crt_ExitProcess          10007f5c f   corelib0:exitproc_proxy.obj
+ 0001:00006f68       wcslen                     10007f68 f   corelib1:COREDLL.dll
+ 0001:00006f78       wcscmp                     10007f78 f   corelib1:COREDLL.dll
+ 0001:00006f88       memset                     10007f88 f   corelib1:COREDLL.dll
+ 0001:00006f98       memcpy                     10007f98 f   corelib1:COREDLL.dll
+ 0001:00006fa8       _wcsnicmp                  10007fa8 f   corelib1:COREDLL.dll
+ 0001:00006fb8       wcstok_s                   10007fb8 f   corelib1:COREDLL.dll
+ 0001:00006fc8       strlen                     10007fc8 f   corelib1:COREDLL.dll
+ 0001:00006fd8       memcmp                     10007fd8 f   corelib1:COREDLL.dll
+ 0001:00006fe8       ??3@YAXPAX@Z               10007fe8 f   corelib1:COREDLL.dll
+ 0001:00006ff8       ??2@YAPAXI@Z               10007ff8 f   corelib1:COREDLL.dll
+ 0001:00007008       _XcptFilter                10008008 f   corelib1:COREDLL.dll
+ 0001:00007018       __C_specific_handler       10008018 f   corelib1:COREDLL.dll
+ 0001:00007028       __security_gen_cookie2     10008028 f   corelib1:COREDLL.dll
+ 0001:00007038       __report_gsfailure         10008038 f   corelib1:COREDLL.dll
+ 0001:00007048       free                       10008048 f   corelib1:COREDLL.dll
+ 0001:00007058       InterlockedExchange        10008058 f   coredll:COREDLL.dll
+ 0001:00007068       TerminateProcess           10008068 f   coredll:COREDLL.dll
+ 0001:000070e8       __IMPORT_DESCRIPTOR_FSDMGR 100080e8     fsdmgr:FSDMGR.dll
+ 0001:000070fc       __IMPORT_DESCRIPTOR_COREDLL 100080fc     coredll:COREDLL.dll
+ 0001:00007110       __NULL_IMPORT_DESCRIPTOR   10008110     fsdmgr:FSDMGR.dll
+ 0002:00000000       __imp_DisableThreadLibraryCalls 10009000     coredll:COREDLL.dll
+ 0002:00000004       __imp_TerminateProcess     10009004     coredll:COREDLL.dll
+ 0002:00000008       __imp_InterlockedExchange  10009008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_free                 1000900c     corelib1:COREDLL.dll
+ 0002:00000010       __imp___GetUserKData       10009010     coredll:COREDLL.dll
+ 0002:00000014       __imp_LeaveCriticalSection 10009014     coredll:COREDLL.dll
+ 0002:00000018       __imp_NKDbgPrintfW         10009018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_LocalFree            1000901c     coredll:COREDLL.dll
+ 0002:00000020       __imp_LocalAlloc           10009020     coredll:COREDLL.dll
+ 0002:00000024       __imp_EnterCriticalSection 10009024     coredll:COREDLL.dll
+ 0002:00000028       __imp_GetFileAttributesW   10009028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_StringCchCopyNW      1000902c     coredll:COREDLL.dll
+ 0002:00000030       __imp_StringCchCatNW       10009030     coredll:COREDLL.dll
+ 0002:00000034       __imp_StringCchCopyW       10009034     coredll:COREDLL.dll
+ 0002:00000038       __imp_SetLastError         10009038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_GetDirectCallerProcessId 1000903c     coredll:COREDLL.dll
+ 0002:00000040       __imp_EventModify          10009040     coredll:COREDLL.dll
+ 0002:00000044       __imp_KernelLibIoControl   10009044     coredll:COREDLL.dll
+ 0002:00000048       __imp_RegCloseKey          10009048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_RegSetValueExW       1000904c     coredll:COREDLL.dll
+ 0002:00000050       __imp_RegCreateKeyExW      10009050     coredll:COREDLL.dll
+ 0002:00000054       __imp_StringCchPrintfW     10009054     coredll:COREDLL.dll
+ 0002:00000058       __imp_WideCharToMultiByte  10009058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_NKvDbgPrintfW        1000905c     coredll:COREDLL.dll
+ 0002:00000060       __imp_StringCchCatW        10009060     coredll:COREDLL.dll
+ 0002:00000064       __imp_CreateEventW         10009064     coredll:COREDLL.dll
+ 0002:00000068       __imp_Sleep                10009068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_CloseHandle          1000906c     coredll:COREDLL.dll
+ 0002:00000070       __imp_CreateThread         10009070     coredll:COREDLL.dll
+ 0002:00000074       __imp_KernelIoControl      10009074     coredll:COREDLL.dll
+ 0002:00000078       __imp_DeleteCriticalSection 10009078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_InitializeCriticalSection 1000907c     coredll:COREDLL.dll
+ 0002:00000080       __imp_UnlockPages          10009080     coredll:COREDLL.dll
+ 0002:00000084       __imp_LockPages            10009084     coredll:COREDLL.dll
+ 0002:00000088       __imp_RegEnumValueW        10009088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_RegDeleteValueW      1000908c     coredll:COREDLL.dll
+ 0002:00000090       __imp_RegQueryValueExW     10009090     coredll:COREDLL.dll
+ 0002:00000094       __imp_RegEnumKeyExW        10009094     coredll:COREDLL.dll
+ 0002:00000098       __imp_RegQueryInfoKeyW     10009098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_RegDeleteKeyW        1000909c     coredll:COREDLL.dll
+ 0002:000000a0       __imp_RegOpenKeyExW        100090a0     coredll:COREDLL.dll
+ 0002:000000a4       __imp_GetLastError         100090a4     coredll:COREDLL.dll
+ 0002:000000a8       __imp_ReadFile             100090a8     coredll:COREDLL.dll
+ 0002:000000ac       __imp_SetFilePointer       100090ac     coredll:COREDLL.dll
+ 0002:000000b0       __imp_CreateFileW          100090b0     coredll:COREDLL.dll
+ 0002:000000b4       __imp_wcslen               100090b4     corelib1:COREDLL.dll
+ 0002:000000b8       __imp_wcscmp               100090b8     corelib1:COREDLL.dll
+ 0002:000000bc       __imp_memset               100090bc     corelib1:COREDLL.dll
+ 0002:000000c0       __imp_memcpy               100090c0     corelib1:COREDLL.dll
+ 0002:000000c4       __imp__wcsnicmp            100090c4     corelib1:COREDLL.dll
+ 0002:000000c8       __imp_wcstok_s             100090c8     corelib1:COREDLL.dll
+ 0002:000000cc       __imp_strlen               100090cc     corelib1:COREDLL.dll
+ 0002:000000d0       __imp_memcmp               100090d0     corelib1:COREDLL.dll
+ 0002:000000d4       __imp_??3@YAXPAX@Z         100090d4     corelib1:COREDLL.dll
+ 0002:000000d8       __imp_??2@YAPAXI@Z         100090d8     corelib1:COREDLL.dll
+ 0002:000000dc       __imp__XcptFilter          100090dc     corelib1:COREDLL.dll
+ 0002:000000e0       __imp___C_specific_handler 100090e0     corelib1:COREDLL.dll
+ 0002:000000e4       __imp___security_gen_cookie2 100090e4     corelib1:COREDLL.dll
+ 0002:000000e8       __imp___report_gsfailure   100090e8     corelib1:COREDLL.dll
+ 0002:000000ec       \177COREDLL_NULL_THUNK_DATA 100090ec     coredll:COREDLL.dll
+ 0002:000000f0       __imp_FSDMGR_CreateSearchHandle 100090f0     fsdmgr:FSDMGR.dll
+ 0002:000000f4       __imp_FSDMGR_DeregisterVolume 100090f4     fsdmgr:FSDMGR.dll
+ 0002:000000f8       __imp_FSDMGR_RegisterVolume 100090f8     fsdmgr:FSDMGR.dll
+ 0002:000000fc       __imp_FSDMGR_GetRegistryString 100090fc     fsdmgr:FSDMGR.dll
+ 0002:00000100       __imp_FSDMGR_GetRegistryValue 10009100     fsdmgr:FSDMGR.dll
+ 0002:00000104       __imp_FSDMGR_CreateFileHandle 10009104     fsdmgr:FSDMGR.dll
+ 0002:00000108       \177FSDMGR_NULL_THUNK_DATA 10009108     fsdmgr:FSDMGR.dll
+ 0002:00000118       g_dwTimeout                10009118     cefs.obj
+ 0002:0000011c       __security_cookie          1000911c     corelib0:seccinit.obj
+ 0002:00000120       __security_cookie_complement 10009120     corelib0:seccinit.obj
+ 0002:00000140       g_fSecureRelfsd            10009140     main.obj
+ 0002:00000904       _exitflag                  10009904     corelib0:cexit.obj
+ 0002:00000920       g_csMain                   10009920     <common>
+ 0002:00000934       g_pvs                      10009934     <common>
+ 0002:00000938       g_pcsMain                  10009938     <common>
+ 0002:0000093c       __onexitend                1000993c     <common>
+ 0002:00000940       __onexitbegin              10009940     <common>
+ 0002:00000944       g_pcsExit                  10009944     <common>
+ 0002:00000948       _pRawDllMain               10009948     <common>
+
+ entry point at        0001:00006c64
+
+ Static symbols
+
+ 0001:00006b74       _DllMainCRTStartupHelper   10007b74 f   corelib0:pegdmain.obj
+ 0001:00006dd8       doexit                     10007dd8 f   corelib0:cexit.obj

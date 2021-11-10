@@ -1,0 +1,616 @@
+ office
+
+ Timestamp is 618b15c7 (Tue Nov 09 17:43:51 2021)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000b5cH .rdata                  CODE
+ 0001:00000b5c 00000023H .rdata$debug            CODE
+ 0001:00000b80 00009c6cH .text                   CODE
+ 0001:0000a7ec 00000074H .xdata                  CODE
+ 0001:0000a860 00000050H .idata$2                CODE
+ 0001:0000a8b0 00000014H .idata$3                CODE
+ 0001:0000a8c4 00000280H .idata$4                CODE
+ 0001:0000ab44 00000082H .idata$6                CODE
+ 0001:0000abd0 000003f5H .edata                  CODE
+ 0002:00000000 00000280H .idata$5                DATA
+ 0002:00000280 00004420H .data                   DATA
+ 0002:000046a0 0000006cH .bss                    DATA
+ 0003:00000000 00000548H .pdata                  DATA
+ 0004:00000000 00000328H .rsrc$01                DATA
+ 0004:00000330 00002038H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:00000020       ??_C@_1HG@IOKHMEKB@?$AAO?$AAf?$AAf?$AAi?$AAc?$AAe?$AA?5?$AAD?$AAl?$AAl?$AA?0?$AA?5?$AAV?$AAe?$AAr?$AAs?$AAi?$AAo?$AAn?$AA?5?$AA2?$AA?4?$AA2?$AA?4?$AA8?$AA2?$AA5?$AA9?$AA?0?$AA?5?$AAB?$AAu@ 10001020     office:office.obj
+ 0001:000001d0       ??_C@_11LOCGONAA@?$AA?$AA@ 100011d0     office:fontdlg.obj
+ 0001:000001d4       ??_C@_17PIGGPOMH@?$AA?4?$AA2?$AA5?$AA?$AA@ 100011d4     office:fontdlg.obj
+ 0001:000001dc       ??_C@_17NCLNDOEN@?$AA?4?$AA5?$AA0?$AA?$AA@ 100011dc     office:fontdlg.obj
+ 0001:000001e4       ??_C@_17KIKLGPHE@?$AA?4?$AA7?$AA5?$AA?$AA@ 100011e4     office:fontdlg.obj
+ 0001:000001ec       ??_C@_13DEFPDAGF@?$AA?0?$AA?$AA@ 100011ec     office:fontdlg.obj
+ 0001:000001f0       ??_C@_15JOGBDECP@?$AA?0?$AA?5?$AA?$AA@ 100011f0     office:fontdlg.obj
+ 0001:00000224       ??_C@_0CE@NIHDPIML@invalid?5size?5or?5something?0?5size?5@ 10001224     office:fontdlg.obj
+ 0001:00000248       ??_C@_0DB@GKMJMCAL@Number?5out?5of?5limit?0?5number?5is?5?$CF@ 10001248     office:fontdlg.obj
+ 0001:0000027c       ??_C@_1DO@DMMBABBK@?$AAf?$AAi?$AAl?$AAe?$AA?3?$AAw?$AAi?$AAn?$AAc?$AAe?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAF?$AAo?$AAn?$AAt?$AA_?$AAd?$AAi?$AAa?$AAl?$AAo?$AAg?$AA_?$AAb?$AAo?$AAx?$AA?$AA@ 1000127c     office:fontdlg.obj
+ 0001:000002bc       ??_C@_1BI@CPLBOCHL@?$AAp?$AAe?$AAg?$AAh?$AAe?$AAl?$AAp?$AA?4?$AAe?$AAx?$AAe?$AA?$AA@ 100012bc     office:fontdlg.obj
+ 0001:000002d4       ??_C@_0CJ@NDJIKACA@HEY?$CB?5Couldn?8t?5destroy?5the?5color?5@ 100012d4     office:fontdlg.obj
+ 0001:00000300       ??_C@_0CF@OAGCHJEI@Couldn?8t?5create?5color?5picker?5win@ 10001300     office:fontdlg.obj
+ 0001:00000328       ??_C@_0BL@MDBBOKKP@Font?5dlg?5need?5to?5set?5size?6?$AA@ 10001328     office:fontdlg.obj
+ 0001:00000344       ??_C@_0N@EBAEEEPL@Font?5dlg?5OK?6?$AA@ 10001344     office:fontdlg.obj
+ 0001:00000354       ??_C@_0BJ@PJKIAPFJ@Setting?5face?5name?5to?5?$CFs?6?$AA@ 10001354     office:fontdlg.obj
+ 0001:00000370       c_szClrCtrl                10001370     office:color.obj
+ 0001:00000388       g_rgClrs                   10001388     office:color.obj
+ 0001:000003cc       ??_7CFileLockBytes@@6B@    100013cc     office:cstream.obj
+ 0001:000003f4       ??_7CMemoryLockBytes@@6B@  100013f4     office:cstream.obj
+ 0001:0000041c       ??_7CStream@@6B@           1000141c     office:cstream.obj
+ 0001:00000458       ??_7CStorage@@6B@          10001458     office:cstream.obj
+ 0001:000004a0       ??_C@_1BC@NHAHDJOE@?$AAC?$AAO?$AAN?$AAT?$AAE?$AAN?$AAT?$AAS?$AA?$AA@ 100014a0     office:cstream.obj
+ 0001:000004b4       ?IID_IReadConverter@@3U_GUID@@B 100014b4     office:convexec.obj
+ 0001:000004c4       ?IID_IWriteConverter@@3U_GUID@@B 100014c4     office:convexec.obj
+ 0001:000004d4       ?IID_IReadConverterAdviseSink@@3U_GUID@@B 100014d4     office:convexec.obj
+ 0001:00000554       ??_C@_17EIFGBLCO@?$AAF?$AAO?$AAO?$AA?$AA@ 10001554     office:convexec.obj
+ 0001:0000055c       ??_C@_19OLNEKDHM@?$AAT?$AAe?$AAm?$AAp?$AA?$AA@ 1000155c     office:convexec.obj
+ 0001:00000568       ??_C@_17ECHFBE@?$AA?$CK?$AA?4?$AA?$CK?$AA?$AA@ 10001568     office:convexec.obj
+ 0001:00000570       ??_C@_15KIOHKAAB@?$AA?$CK?$AA?4?$AA?$AA@ 10001570     office:convexec.obj
+ 0001:00000578       ??_C@_0BM@EDCPBNCL@Filename?5?$CFs?5turned?5into?5?$CFs?6?$AA@ 10001578     office:convexec.obj
+ 0001:00000594       ??_C@_0BH@FDHJBIDG@Couldn?8t?5get?5the?5file?6?$AA@ 10001594     office:convexec.obj
+ 0001:000005ac       ??_C@_0CD@KBKKMMHG@Couldn?8t?5create?5storage?0?5code?5?$CFl@ 100015ac     office:convexec.obj
+ 0001:000005d0       ??_C@_0CC@PIEJKEPN@Didn?8t?5DeleteAndRename?0?5code?5?$CFlx@ 100015d0     office:convexec.obj
+ 0001:000005f4       ??_C@_0CI@FNJMCBBM@Failure?5during?5save?0?5deleting?5ne@ 100015f4     office:convexec.obj
+ 0001:0000061c       ??_C@_0BP@HMOGEGMG@Couldn?8t?5SetupWrite?0?5code?5?$CFlx?6?$AA@ 1000161c     office:convexec.obj
+ 0001:0000063c       ??_C@_0CD@JLLHDMIN@Couldn?8t?5convert?0?5code?5?$CFlx?5or?5?$CFl@ 1000163c     office:convexec.obj
+ 0001:00000660       ??_C@_0BH@BJGIIIHL@Done?5setting?5up?5write?6?$AA@ 10001660     office:convexec.obj
+ 0001:00000678       ??_C@_08KHFBBLFM@Opening?6?$AA@ 10001678     office:convexec.obj
+ 0001:00000684       ??_C@_0BF@BJGJPLGA@Setting?5up?5to?5write?6?$AA@ 10001684     office:convexec.obj
+ 0001:0000069c       ??_C@_0CL@MGEGHKON@Couldn?8t?5OPenExisting?5a?5file?0?5co@ 1000169c     office:convexec.obj
+ 0001:000006c8       ??_C@_0BG@EIGAFAGC@Couldn?8t?5access?5file?6?$AA@ 100016c8     office:convexec.obj
+ 0001:000006e0       ??_C@_08LPBMLIPO@code?5?$CFl?6?$AA@ 100016e0     office:convexec.obj
+ 0001:000006ec       ??_C@_0BK@JBHOJBPK@Couldn?8t?5create?5CStorage?6?$AA@ 100016ec     office:convexec.obj
+ 0001:00000708       ??_C@_0BA@OLHKKNPB@File?5open?5okay?6?$AA@ 10001708     office:convexec.obj
+ 0001:00000718       ??_C@_0BF@GOKOLLL@Structured?5file?$CI?$DP?$CB?$DP?6?$AA@ 10001718     office:convexec.obj
+ 0001:00000730       ??_C@_0BB@KGACKGEH@File?5getting?5ok?6?$AA@ 10001730     office:convexec.obj
+ 0001:00000744       ??_C@_0BJ@DFMELJDL@File?5does?5not?5yet?5exist?6?$AA@ 10001744     office:convexec.obj
+ 0001:00000760       ??_C@_0P@DLFLILDJ@Access?5Denied?6?$AA@ 10001760     office:convexec.obj
+ 0001:00000770       ??_C@_0CL@KOKBHLMI@Couldn?8t?5OpenExisting?5a?5file?0?5co@ 10001770     office:convexec.obj
+ 0001:0000079c       ??_C@_04KCKEHJAI@OOM?6?$AA@ 1000179c     office:convexec.obj
+ 0001:000007a4       ??_C@_0CN@EDOLCBOH@Couldn?8t?5generate?5valid?5unused?0?5@ 100017a4     office:convexec.obj
+ 0001:000007d4       ??_C@_0BA@FPDECAME@SaveFileHalves?6?$AA@ 100017d4     office:convexec.obj
+ 0001:000007e4       ??_C@_0CM@FGDGOOFN@New?5format?5is?$CFs?5template?0?5old?5fo@ 100017e4     office:convexec.obj
+ 0001:00000810       ??_C@_04CLDNJHDJ@?5not?$AA@ 10001810     office:convexec.obj
+ 0001:00000815       ??_C@_00CNPNBAHC@?$AA@     10001815     office:convexec.obj
+ 0001:00000818       ??_C@_0P@DNJMOLJI@Got?5WM_NOTIFY?6?$AA@ 10001818     office:convexec.obj
+ 0001:00000828       ??_C@_0BD@CELHAAPM@Got?5hook?5msg?5?$DN?5?$CFx?6?$AA@ 10001828     office:convexec.obj
+ 0001:0000083c       ??_C@_0CH@NPPACAMG@Zero?5return?5from?5SaveFName?0?5erro@ 1000183c     office:convexec.obj
+ 0001:00000864       ??_C@_0N@EFDLKEKK@Save?5dlg?5ok?6?$AA@ 10001864     office:convexec.obj
+ 0001:00000874       ??_C@_0BE@BKHLAJHK@Launching?5open?5dlg?6?$AA@ 10001874     office:convexec.obj
+ 0001:00000888       ??_C@_1BE@KIHIBBAC@?$AAT?$AAe?$AAm?$AAp?$AAl?$AAa?$AAt?$AAe?$AAs?$AA?$AA@ 10001888     office:convexec.obj
+ 0001:0000089c       ??_C@_0BE@HBMDFOAI@Initial?5dir?5is?5?$CFls?6?$AA@ 1000189c     office:convexec.obj
+ 0001:000008b0       ??_C@_1EM@BENMMPPE@?$AAS?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAO?$AAf?$AAf?$AAi?$AAc?$AAe?$AA?2?$AAD?$AAi?$AAr?$AAe?$AAc?$AAt@ 100018b0     office:convexec.obj
+ 0001:000008fc       ??_C@_0BE@MLHPDMOO@Got?5converter?5info?6?$AA@ 100018fc     office:convexec.obj
+ 0001:00000910       ??_C@_0M@CCHFLCAI@SaveDocAs?3?6?$AA@ 10001910     office:convexec.obj
+ 0001:0000091c       ??_C@_0CL@EDJINPM@Couldn?8t?5create?5write?5converter?0@ 1000191c     office:convexec.obj
+ 0001:00000948       ??_C@_13JOFGPIOO@?$AA?4?$AA?$AA@ 10001948     office:convexec.obj
+ 0001:0000094c       ??_C@_17HOIODIEC@?$AA?2?$AA?$CK?$AA?4?$AA?$AA@ 1000194c     office:convexec.obj
+ 0001:00000954       ??_C@_0BO@JNCKMBG@GetConverterInfo?5failure?5?$CFlx?6?$AA@ 10001954     office:convexec.obj
+ 0001:00000974       ??_C@_13FPGAJAPJ@?$AA?2?$AA?$AA@ 10001974     office:convexec.obj
+ 0001:00000978       ??_C@_0BP@IMFKBDDL@Looking?5for?5templates?5in?5?8?$CFs?8?6?$AA@ 10001978     office:convexec.obj
+ 0001:00000998       ??_C@_17LGKOMLJ@?$AA?4?$AA?4?$AA?4?$AA?$AA@ 10001998     office:dialog.obj
+ 0001:000009a0       ??_C@_15GANGMFKL@?$AA?$CF?$AAs?$AA?$AA@ 100019a0     office:dialog.obj
+ 0001:000009a8       ??_C@_1GC@ICIFOOJA@?$AAf?$AAi?$AAl?$AAe?$AA?3?$AAw?$AAi?$AAn?$AAc?$AAe?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAs?$AAe?$AAt?$AAt?$AAi?$AAn?$AAg?$AA_?$AAa?$AA_?$AAp?$AAa?$AAs?$AAs?$AAw?$AAo?$AAr@ 100019a8     office:dialog.obj
+ 0001:00000a10       ??_C@_1FK@DBKGPEOH@?$AAw?$AAi?$AAn?$AAc?$AAe?$AA?4?$AAh?$AAt?$AAm?$AA?$CD?$AAs?$AAe?$AAt?$AAt?$AAt?$AAi?$AAn?$AAg?$AA_?$AAa?$AA_?$AAp?$AAa?$AAs?$AAs?$AAw?$AAo?$AAr?$AAd?$AA_?$AAf?$AAo@ 10001a10     office:dialog.obj
+ 0001:00000a6c       ??_C@_19DMACBGH@?$AAL?$AAC?$AAI?$AAD?$AA?$AA@ 10001a6c     office:charconv.obj
+ 0001:00000a78       ??_C@_1EC@GIBONNMG@?$AAS?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAI?$AAn?$AAt?$AAe?$AAr?$AAn?$AAa?$AAt?$AAi?$AAo?$AAn?$AAa?$AAl@ 10001a78     office:charconv.obj
+ 0001:00000ad4       ??_C@_1BE@GJFABMEO@?$AAs?$AAc?$AAr?$AAo?$AAl?$AAl?$AAb?$AAa?$AAr?$AA?$AA@ 10001ad4     office:symbol.obj
+ 0001:00000ae8       ??_C@_1CC@KPOKNCMJ@?$AAt?$AAo?$AAo?$AAl?$AAt?$AAi?$AAp?$AAs?$AA_?$AAc?$AAl?$AAa?$AAs?$AAs?$AA3?$AA2?$AA?$AA@ 10001ae8     office:symbol.obj
+ 0001:00000b0c       GUID_NULL                  10001b0c     uuid:dcomuuid.obj
+ 0001:00000b1c       IID_IStream                10001b1c     uuid:dcomuuid.obj
+ 0001:00000b2c       IID_IStorage               10001b2c     uuid:dcomuuid.obj
+ 0001:00000b3c       IID_ILockBytes             10001b3c     uuid:dcomuuid.obj
+ 0001:00000b4c       IID_IUnknown               10001b4c     uuid:dcomuuid.obj
+ 0001:00000b80       Office_GetDllVersion       10001b80 f   office:office.obj
+ 0001:00000ba4       DllMain                    10001ba4 f   office:office.obj
+ 0001:00000bfc       ?InternalMsgBox@@YAHPAUHWND__@@IPBGIPAD@Z 10001bfc f   office:office.obj
+ 0001:00000c84       MsgBox                     10001c84 f   office:office.obj
+ 0001:00000cac       GetStringPtrLengthOfResource 10001cac f   office:office.obj
+ 0001:00000d1c       ?ClearIMECompositionBuffer@@YAXPAUHWND__@@H@Z 10001d1c f   office:office.obj
+ 0001:00000d70       FlushIMECompositionString  10001d70 f   office:office.obj
+ 0001:00000d78       DetermineIMECompositionString 10001d78 f   office:office.obj
+ 0001:00000d80       ?ConvertStringToHalfWidth@@YAHPBGPAGH@Z 10001d80 f   office:office.obj
+ 0001:00000db8       GetStringPtrOfResource     10001db8 f   office:office.obj
+ 0001:00000dd0       ?DebPrintf@@YAXPADZZ       10001dd0 f i office:fontdlg.obj
+ 0001:00000de8       CreateBestMappedFont       10001de8 f   office:fontdlg.obj
+ 0001:00000f2c       ?FontStringFromFont@@YAXPAGPAUOFFICEFONT@@@Z 10001f2c f   office:fontdlg.obj
+ 0001:00001078       ?ThreeStateButtonClick@@YAXPAUHWND__@@HPAH1I@Z 10002078 f   office:fontdlg.obj
+ 0001:000012a8       ?FillInFontDlg@@YAXPAUHWND__@@PAVFontDlgInfoInternal@@PAUOFFICEFONT@@@Z 100022a8 f   office:fontdlg.obj
+ 0001:00001554       ?VerifyValidSize@@YAHPAUHWND__@@PAVFontDlgInfoInternal@@PAUOFFICEFONT@@PAGH@Z 10002554 f   office:fontdlg.obj
+ 0001:000017ac       ?ChooseFontSample@@YAPBGE@Z 100027ac f   office:fontdlg.obj
+ 0001:00001894       ?FontPageProc@@YAHPAUHWND__@@IIJ@Z 10002894 f   office:fontdlg.obj
+ 0001:000026f0       DisplayFontDialog          100036f0 f   office:fontdlg.obj
+ 0001:000027ec       CreateFontPropSheetPage    100037ec f   office:fontdlg.obj
+ 0001:000028c4       FreeColorControl           100038c4 f   office:color.obj
+ 0001:000028e8       CreateColorControl         100038e8 f   office:color.obj
+ 0001:00002a18       ColorCtrl_Paint            10003a18 f   office:color.obj
+ 0001:00002a9c       ColorCtrl_OnMouseEvent     10003a9c f   office:color.obj
+ 0001:00002bc4       ColorCtrl_OnMeasureItem    10003bc4 f   office:color.obj
+ 0001:00002c84       ColorCtrl_OnDrawItem       10003c84 f   office:color.obj
+ 0001:00002ec0       ColorCtrl_OnCommand        10003ec0 f   office:color.obj
+ 0001:00002f28       ColorCtrl_OnAddOther       10003f28 f   office:color.obj
+ 0001:00002f70       ColorWndProc               10003f70 f   office:color.obj
+ 0001:000032a4       InitColorControl           100042a4 f   office:color.obj
+ 0001:00003438       ?AddRef@CFileLockBytes@@UAAKXZ 10004438 f   office:cstream.obj
+ 0001:0000344c       ?QueryInterface@CFileLockBytes@@UAAJABU_GUID@@PAPAX@Z 1000444c f   office:cstream.obj
+ 0001:000034e8       ?ReadAt@CFileLockBytes@@UAAJT_ULARGE_INTEGER@@PAXKPAK@Z 100044e8 f   office:cstream.obj
+ 0001:00003594       ?WriteAt@CFileLockBytes@@UAAJT_ULARGE_INTEGER@@PBXKPAK@Z 10004594 f   office:cstream.obj
+ 0001:00003654       ?Flush@CFileLockBytes@@UAAJXZ 10004654 f   office:cstream.obj
+ 0001:0000365c       ?SetSize@CFileLockBytes@@UAAJT_ULARGE_INTEGER@@@Z 1000465c f   office:cstream.obj
+ 0001:00003674       ?LockRegion@CFileLockBytes@@UAAJT_ULARGE_INTEGER@@0K@Z 10004674 f   office:cstream.obj
+ 0001:0000368c       ?UnlockRegion@CFileLockBytes@@UAAJT_ULARGE_INTEGER@@0K@Z 1000468c f   office:cstream.obj
+ 0001:000036a4       ?Stat@CFileLockBytes@@UAAJPAUtagSTATSTG@@K@Z 100046a4 f   office:cstream.obj
+ 0001:0000373c       ??1CMemoryLockBytes@@IAA@XZ 1000473c f   office:cstream.obj
+ 0001:00003770       ?AddRef@CMemoryLockBytes@@UAAKXZ 10004770 f   office:cstream.obj
+ 0001:00003784       ?QueryInterface@CMemoryLockBytes@@UAAJABU_GUID@@PAPAX@Z 10004784 f   office:cstream.obj
+ 0001:000037f0       ?ReadAt@CMemoryLockBytes@@UAAJT_ULARGE_INTEGER@@PAXKPAK@Z 100047f0 f   office:cstream.obj
+ 0001:000038a0       ?WriteAt@CMemoryLockBytes@@UAAJT_ULARGE_INTEGER@@PBXKPAK@Z 100048a0 f   office:cstream.obj
+ 0001:0000395c       ?Flush@CMemoryLockBytes@@UAAJXZ 1000495c f   office:cstream.obj
+ 0001:00003974       ?SetSize@CMemoryLockBytes@@UAAJT_ULARGE_INTEGER@@@Z 10004974 f   office:cstream.obj
+ 0001:00003a40       ?LockRegion@CMemoryLockBytes@@UAAJT_ULARGE_INTEGER@@0K@Z 10004a40 f   office:cstream.obj
+ 0001:00003a58       ?UnlockRegion@CMemoryLockBytes@@UAAJT_ULARGE_INTEGER@@0K@Z 10004a58 f   office:cstream.obj
+ 0001:00003a70       ?Stat@CMemoryLockBytes@@UAAJPAUtagSTATSTG@@K@Z 10004a70 f   office:cstream.obj
+ 0001:00003af8       ??1CStream@@IAA@XZ         10004af8 f   office:cstream.obj
+ 0001:00003b2c       ?AddRef@CStream@@UAAKXZ    10004b2c f   office:cstream.obj
+ 0001:00003b40       ?QueryInterface@CStream@@UAAJABU_GUID@@PAPAX@Z 10004b40 f   office:cstream.obj
+ 0001:00003bbc       ?Read@CStream@@UAAJPAXKPAK@Z 10004bbc f   office:cstream.obj
+ 0001:00003c2c       ?Write@CStream@@UAAJPBXKPAK@Z 10004c2c f   office:cstream.obj
+ 0001:00003c7c       ?Seek@CStream@@UAAJT_LARGE_INTEGER@@KPAT_ULARGE_INTEGER@@@Z 10004c7c f   office:cstream.obj
+ 0001:00003cdc       ?SetSize@CStream@@UAAJT_ULARGE_INTEGER@@@Z 10004cdc f   office:cstream.obj
+ 0001:00003cf4       ?CopyTo@CStream@@UAAJPAUIStream@@T_ULARGE_INTEGER@@PAT3@2@Z 10004cf4 f   office:cstream.obj
+ 0001:00003d0c       ?Commit@CStream@@UAAJK@Z   10004d0c f   office:cstream.obj
+ 0001:00003d18       ?Revert@CStream@@UAAJXZ    10004d18 f   office:cstream.obj
+ 0001:00003d24       ?LockRegion@CStream@@UAAJT_ULARGE_INTEGER@@0K@Z 10004d24 f   office:cstream.obj
+ 0001:00003d3c       ?UnlockRegion@CStream@@UAAJT_ULARGE_INTEGER@@0K@Z 10004d3c f   office:cstream.obj
+ 0001:00003d54       ?Stat@CStream@@UAAJPAUtagSTATSTG@@K@Z 10004d54 f   office:cstream.obj
+ 0001:00003d90       ?Clone@CStream@@UAAJPAPAUIStream@@@Z 10004d90 f   office:cstream.obj
+ 0001:00003d9c       ??1CStorage@@IAA@XZ        10004d9c f   office:cstream.obj
+ 0001:00003dd0       ?AddRef@CStorage@@UAAKXZ   10004dd0 f   office:cstream.obj
+ 0001:00003de4       ?QueryInterface@CStorage@@UAAJABU_GUID@@PAPAX@Z 10004de4 f   office:cstream.obj
+ 0001:00003e60       ?CreateStream@CStorage@@UAAJPBGKKKPAPAUIStream@@@Z 10004e60 f   office:cstream.obj
+ 0001:00003e6c       ?CreateStorage@CStorage@@UAAJPBGKKKPAPAUIStorage@@@Z 10004e6c f   office:cstream.obj
+ 0001:00003e78       ?OpenStorage@CStorage@@UAAJPBGPAUIStorage@@KPAPAGKPAPAU2@@Z 10004e78 f   office:cstream.obj
+ 0001:00003e84       ?CopyTo@CStorage@@UAAJKPBU_GUID@@PAPAGPAUIStorage@@@Z 10004e84 f   office:cstream.obj
+ 0001:00003e90       ?MoveElementTo@CStorage@@UAAJPBGPAUIStorage@@0K@Z 10004e90 f   office:cstream.obj
+ 0001:00003e9c       ?Commit@CStorage@@UAAJK@Z  10004e9c f   office:cstream.obj
+ 0001:00003ea8       ?Revert@CStorage@@UAAJXZ   10004ea8 f   office:cstream.obj
+ 0001:00003eb4       ?EnumElements@CStorage@@UAAJKPAXKPAPAUIEnumSTATSTG@@@Z 10004eb4 f   office:cstream.obj
+ 0001:00003ec0       ?DestroyElement@CStorage@@UAAJPBG@Z 10004ec0 f   office:cstream.obj
+ 0001:00003ecc       ?RenameElement@CStorage@@UAAJPBG0@Z 10004ecc f   office:cstream.obj
+ 0001:00003ed8       ?SetElementTimes@CStorage@@UAAJPBGPBU_FILETIME@@11@Z 10004ed8 f   office:cstream.obj
+ 0001:00003ee4       ?SetClass@CStorage@@UAAJABU_GUID@@@Z 10004ee4 f   office:cstream.obj
+ 0001:00003ef0       ?SetStateBits@CStorage@@UAAJKK@Z 10004ef0 f   office:cstream.obj
+ 0001:00003efc       ?Stat@CStorage@@UAAJPAUtagSTATSTG@@K@Z 10004efc f   office:cstream.obj
+ 0001:00003f48       ?Release@CFileLockBytes@@UAAKXZ 10004f48 f   office:cstream.obj
+ 0001:00003f98       ??0CMemoryLockBytes@@QAA@XZ 10004f98 f   office:cstream.obj
+ 0001:00003fdc       ?Release@CMemoryLockBytes@@UAAKXZ 10004fdc f   office:cstream.obj
+ 0001:0000401c       ?Release@CStream@@UAAKXZ   1000501c f   office:cstream.obj
+ 0001:0000405c       ?Release@CStorage@@UAAKXZ  1000505c f   office:cstream.obj
+ 0001:0000409c       CreateIStorageOnILockBytes 1000509c f   office:cstream.obj
+ 0001:000040cc       CreateMemoryLockBytes      100050cc f   office:cstream.obj
+ 0001:00004108       ??0CFileLockBytes@@QAA@PAX@Z 10005108 f   office:cstream.obj
+ 0001:0000414c       ??0CStorage@@QAA@PAX@Z     1000514c f   office:cstream.obj
+ 0001:00004198       ?OpenStream@CStorage@@UAAJPBGPAXKKPAPAUIStream@@@Z 10005198 f   office:cstream.obj
+ 0001:0000422c       CreateIStorageOnFlatFile   1000522c f   office:cstream.obj
+ 0001:00004254       CreateIStreamOnILockBytes  10005254 f   office:cstream.obj
+ 0001:00004290       ?mergesortInternal@@YAXPADH@Z 10005290 f   office:convexec.obj
+ 0001:00004364       ?MergeSort@@YAJPAXIIP6AHPBX1@Z@Z 10005364 f   office:convexec.obj
+ 0001:00004408       ?ReportError@@YAXPAUHWND__@@JPBG1H@Z 10005408 f   office:convexec.obj
+ 0001:0000472c       ?MyOpenFile@@YAPAXPBGK@Z   1000572c f i office:convexec.obj
+ 0001:0000476c       GenerateValidUnusedName    1000576c f   office:convexec.obj
+ 0001:00004828       CompareConverters          10005828 f   office:convexec.obj
+ 0001:00004af8       ?BuildFilterString@@YAPAGPAUCONVERTER_INFO@@IH@Z 10005af8 f   office:convexec.obj
+ 0001:00004bf0       ?OpenFileForRead@@YAJPBGHKPAPAUIStorage@@@Z 10005bf0 f   office:convexec.obj
+ 0001:00004ebc       ?OpenThisDocument@@YAJPAUHWND__@@PBGH1PAVIWriteConverter@@1@Z 10005ebc f   office:convexec.obj
+ 0001:00005354       OpenThisDocumentW          10006354 f   office:convexec.obj
+ 0001:00005380       ?OpenDocument@@YAJPAUHWND__@@PBGPAGPAVIWriteConverter@@1@Z 10006380 f   office:convexec.obj
+ 0001:0000555c       OpenDocumentW              1000655c f   office:convexec.obj
+ 0001:00005be4       ?OFNHookProc@@YAIPAUHWND__@@IIJ@Z 10006be4 f   office:convexec.obj
+ 0001:00005cfc       ?SaveDocumentAs@@YAJPAUHWND__@@PAVIReadConverter@@U_GUID@@PAGPBG4@Z 10006cfc f   office:convexec.obj
+ 0001:000060f0       SaveDocumentAsW            100070f0 f   office:convexec.obj
+ 0001:00006164       ?SaveDocument@@YAJPAUHWND__@@PAVIReadConverter@@U_GUID@@PBG33@Z 10007164 f   office:convexec.obj
+ 0001:0000632c       SaveDocumentW              1000732c f   office:convexec.obj
+ 0001:000063a0       ?TemplateDlgProc@@YAHPAUHWND__@@IIJ@Z 100073a0 f   office:convexec.obj
+ 0001:000066cc       NewFromTemplateW           100076cc f   office:convexec.obj
+ 0001:00006a2c       ?FireHelp@@YAXPAG@Z        10007a2c f   office:dialog.obj
+ 0001:00006a70       ?CenterWindow@@YAHPAUHWND__@@@Z 10007a70 f   office:dialog.obj
+ 0001:00006b0c       ?AddDocNameToCtrl@@YAJPAUHWND__@@PAUPASSWORDDLGINFO@@HH@Z 10007b0c f   office:dialog.obj
+ 0001:00006d40       ?PasswordDlgProc@@YAHPAUHWND__@@IIJ@Z 10007d40 f   office:dialog.obj
+ 0001:00006fa0       ?GetPasswordDlgProc@@YAHPAUHWND__@@IIJ@Z 10007fa0 f   office:dialog.obj
+ 0001:0000717c       SetDocPassword             1000817c f   office:dialog.obj
+ 0001:000071d4       GetDocPassword             100081d4 f   office:dialog.obj
+ 0001:0000722c       SetCharacterConversionCodePage 1000822c f   office:charconv.obj
+ 0001:00007250       SetDefaultCharacterConversionCodePage 10008250 f   office:charconv.obj
+ 0001:00007330       MyMultiByteToWideChar      10008330 f   office:charconv.obj
+ 0001:00007430       MyWideCharToMultiByte      10008430 f   office:charconv.obj
+ 0001:0000752c       ?GetCharWidthW@@YAHPAUHDC__@@IIPAH@Z 1000852c f   office:symbol.obj
+ 0001:0000762c       ?FontEnumProc@@YAHPBUtagLOGFONTW@@PBUtagTEXTMETRICW@@KJ@Z 1000862c f   office:symbol.obj
+ 0001:00007720       ?GetWidths@@YAXPAUtagGRID@@@Z 10008720 f   office:symbol.obj
+ 0001:000077ac       ?UpdateScrollInfo@@YAXPAUtagGRID@@@Z 100087ac f   office:symbol.obj
+ 0001:00007824       ?CalcCharMetrics@@YAXPAUtagGRID@@PAUHWND__@@HH@Z 10008824 f   office:symbol.obj
+ 0001:000079f8       ?Grid_OnCreate@@YAJPAUHWND__@@J@Z 100089f8 f   office:symbol.obj
+ 0001:00007cfc       ?Grid_OnDestroy@@YAXPAUHWND__@@PAUtagGRID@@@Z 10008cfc f   office:symbol.obj
+ 0001:00007d60       ?DrawGridLines@@YAXPAUtagGRID@@PAUHDC__@@@Z 10008d60 f   office:symbol.obj
+ 0001:00007e88       ?DrawGlyphs@@YAXPAUtagGRID@@PAUHDC__@@PAUtagRECT@@@Z 10008e88 f   office:symbol.obj
+ 0001:0000808c       ?Grid_CharFromPoint@@YAHPAUtagGRID@@PAUtagPOINT@@@Z 1000908c f   office:symbol.obj
+ 0001:00008104       ?Grid_MagnifyGlyph@@YAXPAUtagGRID@@G@Z 10009104 f   office:symbol.obj
+ 0001:000085b0       ?Grid_DrawGlyphSelect@@YAXPAUtagGRID@@PAUHDC__@@GHH@Z 100095b0 f   office:symbol.obj
+ 0001:00008740       ?Grid_OnChar@@YAJPAUtagGRID@@IJ@Z 10009740 f   office:symbol.obj
+ 0001:000087a0       ?Grid_RestoreMagnify@@YAXPAUtagGRID@@@Z 100097a0 f   office:symbol.obj
+ 0001:00008854       ?Grid_OnPaint@@YAXPAUtagGRID@@PAUHDC__@@PAUtagRECT@@@Z 10009854 f   office:symbol.obj
+ 0001:000088b4       ?HandleSubsetChange@@YAXPAUtagGRID@@H@Z 100098b4 f   office:symbol.obj
+ 0001:000089c0       ?SendNotify@@YAJPAUtagGRID@@PAUHWND__@@@Z 100099c0 f   office:symbol.obj
+ 0001:00008a90       ?TTSubclassProc@@YAJPAUHWND__@@IIJ@Z 10009a90 f   office:symbol.obj
+ 0001:00008b18       ?Grid_ScrollMap@@YAHPAUtagGRID@@J@Z 10009b18 f   office:symbol.obj
+ 0001:00008c14       ?Grid_ScrollMapPage@@YAJPAUtagGRID@@H@Z 10009c14 f   office:symbol.obj
+ 0001:00008d10       ?Grid_OnKeyDown@@YAJPAUtagGRID@@IJ@Z 10009d10 f   office:symbol.obj
+ 0001:00008e4c       ?Grid_OnVScroll@@YAXPAUtagGRID@@HH@Z 10009e4c f   office:symbol.obj
+ 0001:00008ff4       ?GridWndProc@@YAJPAUHWND__@@IIJ@Z 10009ff4 f   office:symbol.obj
+ 0001:000092a0       ?SymbolDlgProc@@YAHPAUHWND__@@IIJ@Z 1000a2a0 f   office:symbol.obj
+ 0001:000098bc       Office_InsertSymbol        1000a8bc f   office:symbol.obj
+ 0001:0000995c       InitSymbolDialog           1000a95c f   office:symbol.obj
+ 0001:000099f8       ta2u                       1000a9f8 f   office:tstring.obj
+ 0001:00009a14       tu2a                       1000aa14 f   office:tstring.obj
+ 0001:00009a30       TStrOfStr                  1000aa30 f   office:tstring.obj
+ 0001:00009aa8       StrOfTStr                  1000aaa8 f   office:tstring.obj
+ 0001:00009b1c       TStrCopy                   1000ab1c f   office:tstring.obj
+ 0001:00009b6c       TStrCopyLen                1000ab6c f   office:tstring.obj
+ 0001:00009bac       TStrAllocByteLen           1000abac f   office:tstring.obj
+ 0001:00009c14       TStrAllocLen               1000ac14 f   office:tstring.obj
+ 0001:00009c7c       getkey                     1000ac7c f   office:encrypt.obj
+ 0001:00009ca4       ?mult@@YAHHH@Z             1000aca4 f   office:encrypt.obj
+ 0001:00009d2c       crypto                     1000ad2c f   office:encrypt.obj
+ 0001:00009d8c       CreatePropertySheetPageW   1000ad8c f   commctrl:commctrl.dll
+ 0001:00009d9c       CommDlgExtendedError       1000ad9c f   commdlg:commdlg.dll
+ 0001:00009dac       StgOpenStorage             1000adac f   ole32:ole32.dll
+ 0001:00009dbc       CoCreateInstance           1000adbc f   ole32:ole32.dll
+ 0001:00009dcc       StgCreateDocfile           1000adcc f   ole32:ole32.dll
+ 0001:00009ddc       MessageBoxW                1000addc f   coredll:COREDLL.dll
+ 0001:00009dec       wvsprintfW                 1000adec f   coredll:COREDLL.dll
+ 0001:00009dfc       LoadStringW                1000adfc f   coredll:COREDLL.dll
+ 0001:00009e0c       LoadResource               1000ae0c f   coredll:COREDLL.dll
+ 0001:00009e1c       FindResourceW              1000ae1c f   coredll:COREDLL.dll
+ 0001:00009e2c       ImmReleaseContext          1000ae2c f   coredll:COREDLL.dll
+ 0001:00009e3c       ImmNotifyIME               1000ae3c f   coredll:COREDLL.dll
+ 0001:00009e4c       ImmGetOpenStatus           1000ae4c f   coredll:COREDLL.dll
+ 0001:00009e5c       ImmGetContext              1000ae5c f   coredll:COREDLL.dll
+ 0001:00009e6c       LCMapStringW               1000ae6c f   coredll:COREDLL.dll
+ 0001:00009e7c       GetUserDefaultLCID         1000ae7c f   coredll:COREDLL.dll
+ 0001:00009e8c       DeleteObject               1000ae8c f   coredll:COREDLL.dll
+ 0001:00009e9c       GetTextFaceW               1000ae9c f   coredll:COREDLL.dll
+ 0001:00009eac       SelectObject               1000aeac f   coredll:COREDLL.dll
+ 0001:00009ebc       CreateFontIndirectW        1000aebc f   coredll:COREDLL.dll
+ 0001:00009ecc       SendMessageW               1000aecc f   coredll:COREDLL.dll
+ 0001:00009edc       ReleaseDC                  1000aedc f   coredll:COREDLL.dll
+ 0001:00009eec       SetDlgItemTextW            1000aeec f   coredll:COREDLL.dll
+ 0001:00009efc       SendDlgItemMessageW        1000aefc f   coredll:COREDLL.dll
+ 0001:00009f0c       EnumFontFamiliesW          1000af0c f   coredll:COREDLL.dll
+ 0001:00009f1c       GetDlgItem                 1000af1c f   coredll:COREDLL.dll
+ 0001:00009f2c       GetDeviceCaps              1000af2c f   coredll:COREDLL.dll
+ 0001:00009f3c       GetDC                      1000af3c f   coredll:COREDLL.dll
+ 0001:00009f4c       SetFocus                   1000af4c f   coredll:COREDLL.dll
+ 0001:00009f5c       EndPaint                   1000af5c f   coredll:COREDLL.dll
+ 0001:00009f6c       DrawTextW                  1000af6c f   coredll:COREDLL.dll
+ 0001:00009f7c       SetBkColor                 1000af7c f   coredll:COREDLL.dll
+ 0001:00009f8c       SetTextColor               1000af8c f   coredll:COREDLL.dll
+ 0001:00009f9c       GetSysColor                1000af9c f   coredll:COREDLL.dll
+ 0001:00009fac       BeginPaint                 1000afac f   coredll:COREDLL.dll
+ 0001:00009fbc       CreateProcessW             1000afbc f   coredll:COREDLL.dll
+ 0001:00009fcc       ImmAssociateContext        1000afcc f   coredll:COREDLL.dll
+ 0001:00009fdc       SetWindowPos               1000afdc f   coredll:COREDLL.dll
+ 0001:00009fec       ScreenToClient             1000afec f   coredll:COREDLL.dll
+ 0001:00009ffc       DestroyWindow              1000affc f   coredll:COREDLL.dll
+ 0001:0000a00c       GetWindowRect              1000b00c f   coredll:COREDLL.dll
+ 0001:0000a01c       SetWindowLongW             1000b01c f   coredll:COREDLL.dll
+ 0001:0000a02c       InvalidateRect             1000b02c f   coredll:COREDLL.dll
+ 0001:0000a03c       PostMessageW               1000b03c f   coredll:COREDLL.dll
+ 0001:0000a04c       ShowWindow                 1000b04c f   coredll:COREDLL.dll
+ 0001:0000a05c       EndDialog                  1000b05c f   coredll:COREDLL.dll
+ 0001:0000a06c       StringCchCopyW             1000b06c f   coredll:COREDLL.dll
+ 0001:0000a07c       GetDlgItemTextW            1000b07c f   coredll:COREDLL.dll
+ 0001:0000a08c       GetParent                  1000b08c f   coredll:COREDLL.dll
+ 0001:0000a09c       GetWindowLongW             1000b09c f   coredll:COREDLL.dll
+ 0001:0000a0ac       DialogBoxIndirectParamW    1000b0ac f   coredll:COREDLL.dll
+ 0001:0000a0bc       LocalFree                  1000b0bc f   coredll:COREDLL.dll
+ 0001:0000a0cc       DestroyMenu                1000b0cc f   coredll:COREDLL.dll
+ 0001:0000a0dc       CreateWindowExW            1000b0dc f   coredll:COREDLL.dll
+ 0001:0000a0ec       AppendMenuW                1000b0ec f   coredll:COREDLL.dll
+ 0001:0000a0fc       CreatePopupMenu            1000b0fc f   coredll:COREDLL.dll
+ 0001:0000a10c       LocalAlloc                 1000b10c f   coredll:COREDLL.dll
+ 0001:0000a11c       DrawFrameControl           1000b11c f   coredll:COREDLL.dll
+ 0001:0000a12c       DrawFocusRect              1000b12c f   coredll:COREDLL.dll
+ 0001:0000a13c       GetFocus                   1000b13c f   coredll:COREDLL.dll
+ 0001:0000a14c       FillRect                   1000b14c f   coredll:COREDLL.dll
+ 0001:0000a15c       CreateSolidBrush           1000b15c f   coredll:COREDLL.dll
+ 0001:0000a16c       TrackPopupMenuEx           1000b16c f   coredll:COREDLL.dll
+ 0001:0000a17c       ReleaseCapture             1000b17c f   coredll:COREDLL.dll
+ 0001:0000a18c       SetCapture                 1000b18c f   coredll:COREDLL.dll
+ 0001:0000a19c       PtInRect                   1000b19c f   coredll:COREDLL.dll
+ 0001:0000a1ac       GetTextExtentExPointW      1000b1ac f   coredll:COREDLL.dll
+ 0001:0000a1bc       SetBkMode                  1000b1bc f   coredll:COREDLL.dll
+ 0001:0000a1cc       Rectangle                  1000b1cc f   coredll:COREDLL.dll
+ 0001:0000a1dc       GetStockObject             1000b1dc f   coredll:COREDLL.dll
+ 0001:0000a1ec       InflateRect                1000b1ec f   coredll:COREDLL.dll
+ 0001:0000a1fc       GetSysColorBrush           1000b1fc f   coredll:COREDLL.dll
+ 0001:0000a20c       DefWindowProcW             1000b20c f   coredll:COREDLL.dll
+ 0001:0000a21c       GetSystemMetrics           1000b21c f   coredll:COREDLL.dll
+ 0001:0000a22c       GetClientRect              1000b22c f   coredll:COREDLL.dll
+ 0001:0000a23c       RegisterClassW             1000b23c f   coredll:COREDLL.dll
+ 0001:0000a24c       LoadCursorW                1000b24c f   coredll:COREDLL.dll
+ 0001:0000a25c       GetClassInfoW              1000b25c f   coredll:COREDLL.dll
+ 0001:0000a26c       CloseHandle                1000b26c f   coredll:COREDLL.dll
+ 0001:0000a27c       GetLastError               1000b27c f   coredll:COREDLL.dll
+ 0001:0000a28c       ReadFile                   1000b28c f   coredll:COREDLL.dll
+ 0001:0000a29c       SetFilePointer             1000b29c f   coredll:COREDLL.dll
+ 0001:0000a2ac       WriteFile                  1000b2ac f   coredll:COREDLL.dll
+ 0001:0000a2bc       GetFileSize                1000b2bc f   coredll:COREDLL.dll
+ 0001:0000a2cc       LocalReAlloc               1000b2cc f   coredll:COREDLL.dll
+ 0001:0000a2dc       SetCursor                  1000b2dc f   coredll:COREDLL.dll
+ 0001:0000a2ec       UpdateWindow               1000b2ec f   coredll:COREDLL.dll
+ 0001:0000a2fc       SetForegroundWindow        1000b2fc f   coredll:COREDLL.dll
+ 0001:0000a30c       GetForegroundWindow        1000b30c f   coredll:COREDLL.dll
+ 0001:0000a31c       DispatchMessageW           1000b31c f   coredll:COREDLL.dll
+ 0001:0000a32c       PeekMessageW               1000b32c f   coredll:COREDLL.dll
+ 0001:0000a33c       CreateFileW                1000b33c f   coredll:COREDLL.dll
+ 0001:0000a34c       RegCloseKey                1000b34c f   coredll:COREDLL.dll
+ 0001:0000a35c       RegQueryValueExW           1000b35c f   coredll:COREDLL.dll
+ 0001:0000a36c       RegEnumKeyExW              1000b36c f   coredll:COREDLL.dll
+ 0001:0000a37c       RegOpenKeyExW              1000b37c f   coredll:COREDLL.dll
+ 0001:0000a38c       FindClose                  1000b38c f   coredll:COREDLL.dll
+ 0001:0000a39c       FindFirstFileW             1000b39c f   coredll:COREDLL.dll
+ 0001:0000a3ac       GetOpenFileNameW           1000b3ac f   coredll:COREDLL.dll
+ 0001:0000a3bc       SHGetSpecialFolderPath     1000b3bc f   coredll:COREDLL.dll
+ 0001:0000a3cc       DeleteAndRenameFile        1000b3cc f   coredll:COREDLL.dll
+ 0001:0000a3dc       SetFileAttributesW         1000b3dc f   coredll:COREDLL.dll
+ 0001:0000a3ec       DeleteFileW                1000b3ec f   coredll:COREDLL.dll
+ 0001:0000a3fc       GetSaveFileNameW           1000b3fc f   coredll:COREDLL.dll
+ 0001:0000a40c       FindNextFileW              1000b40c f   coredll:COREDLL.dll
+ 0001:0000a41c       StringCchCatW              1000b41c f   coredll:COREDLL.dll
+ 0001:0000a42c       SetWindowTextW             1000b42c f   coredll:COREDLL.dll
+ 0001:0000a43c       wsprintfW                  1000b43c f   coredll:COREDLL.dll
+ 0001:0000a44c       StringCchPrintfW           1000b44c f   coredll:COREDLL.dll
+ 0001:0000a45c       lstrcmpW                   1000b45c f   coredll:COREDLL.dll
+ 0001:0000a46c       GetLocaleInfoW             1000b46c f   coredll:COREDLL.dll
+ 0001:0000a47c       GetSystemDefaultLCID       1000b47c f   coredll:COREDLL.dll
+ 0001:0000a48c       MultiByteToWideChar        1000b48c f   coredll:COREDLL.dll
+ 0001:0000a49c       WideCharToMultiByte        1000b49c f   coredll:COREDLL.dll
+ 0001:0000a4ac       lstrcmpiW                  1000b4ac f   coredll:COREDLL.dll
+ 0001:0000a4bc       SetScrollInfo              1000b4bc f   coredll:COREDLL.dll
+ 0001:0000a4cc       GetTextMetricsW            1000b4cc f   coredll:COREDLL.dll
+ 0001:0000a4dc       DeleteDC                   1000b4dc f   coredll:COREDLL.dll
+ 0001:0000a4ec       CreateCompatibleBitmap     1000b4ec f   coredll:COREDLL.dll
+ 0001:0000a4fc       CreateCompatibleDC         1000b4fc f   coredll:COREDLL.dll
+ 0001:0000a50c       GetWindowDC                1000b50c f   coredll:COREDLL.dll
+ 0001:0000a51c       ClientToScreen             1000b51c f   coredll:COREDLL.dll
+ 0001:0000a52c       Polyline                   1000b52c f   coredll:COREDLL.dll
+ 0001:0000a53c       CreatePenIndirect          1000b53c f   coredll:COREDLL.dll
+ 0001:0000a54c       ExtTextOutW                1000b54c f   coredll:COREDLL.dll
+ 0001:0000a55c       DrawEdge                   1000b55c f   coredll:COREDLL.dll
+ 0001:0000a56c       BitBlt                     1000b56c f   coredll:COREDLL.dll
+ 0001:0000a57c       PatBlt                     1000b57c f   coredll:COREDLL.dll
+ 0001:0000a58c       CallWindowProcW            1000b58c f   coredll:COREDLL.dll
+ 0001:0000a59c       ChildWindowFromPoint       1000b59c f   coredll:COREDLL.dll
+ 0001:0000a5ac       MapWindowPoints            1000b5ac f   coredll:COREDLL.dll
+ 0001:0000a5bc       ScrollWindowEx             1000b5bc f   coredll:COREDLL.dll
+ 0001:0000a5cc       GetMonitorInfo             1000b5cc f   coredll:COREDLL.dll
+ 0001:0000a5dc       MonitorFromWindow          1000b5dc f   coredll:COREDLL.dll
+ 0001:0000a5ec       __GSHandlerCheckCommon     1000b5ec f   corelib0:gshandler.obj
+ 0001:0000a628       __GSHandlerCheck           1000b628 f   corelib0:gshandler.obj
+ 0001:0000a648       __security_check_cookie    1000b648 f   corelib0:armsecgs.obj
+ 0001:0000a658       __gsfailure                1000b658     corelib0:armsecgs.obj
+ 0001:0000a69c       wcscmp                     1000b69c f   corelib1:COREDLL.dll
+ 0001:0000a6ac       memcpy                     1000b6ac f   corelib1:COREDLL.dll
+ 0001:0000a6bc       _itow                      1000b6bc f   corelib1:COREDLL.dll
+ 0001:0000a6cc       wcscat                     1000b6cc f   corelib1:COREDLL.dll
+ 0001:0000a6dc       wcslen                     1000b6dc f   corelib1:COREDLL.dll
+ 0001:0000a6ec       wcscpy                     1000b6ec f   corelib1:COREDLL.dll
+ 0001:0000a6fc       _wcsicmp                   1000b6fc f   corelib1:COREDLL.dll
+ 0001:0000a70c       iswctype                   1000b70c f   corelib1:COREDLL.dll
+ 0001:0000a71c       ??3@YAXPAX@Z               1000b71c f   corelib1:COREDLL.dll
+ 0001:0000a72c       memset                     1000b72c f   corelib1:COREDLL.dll
+ 0001:0000a73c       ??2@YAPAXI@Z               1000b73c f   corelib1:COREDLL.dll
+ 0001:0000a74c       memcmp                     1000b74c f   corelib1:COREDLL.dll
+ 0001:0000a75c       wcschr                     1000b75c f   corelib1:COREDLL.dll
+ 0001:0000a76c       wcsrchr                    1000b76c f   corelib1:COREDLL.dll
+ 0001:0000a77c       memmove                    1000b77c f   corelib1:COREDLL.dll
+ 0001:0000a78c       wcsncpy                    1000b78c f   corelib1:COREDLL.dll
+ 0001:0000a79c       wcsstr                     1000b79c f   corelib1:COREDLL.dll
+ 0001:0000a7ac       wcstol                     1000b7ac f   corelib1:COREDLL.dll
+ 0001:0000a7bc       mbstowcs                   1000b7bc f   corelib1:COREDLL.dll
+ 0001:0000a7cc       wcstombs                   1000b7cc f   corelib1:COREDLL.dll
+ 0001:0000a7dc       __report_gsfailure         1000b7dc f   corelib1:COREDLL.dll
+ 0001:0000a860       __IMPORT_DESCRIPTOR_commctrl 1000b860     commctrl:commctrl.dll
+ 0001:0000a874       __IMPORT_DESCRIPTOR_commdlg 1000b874     commdlg:commdlg.dll
+ 0001:0000a888       __IMPORT_DESCRIPTOR_ole32  1000b888     ole32:ole32.dll
+ 0001:0000a89c       __IMPORT_DESCRIPTOR_COREDLL 1000b89c     coredll:COREDLL.dll
+ 0001:0000a8b0       __NULL_IMPORT_DESCRIPTOR   1000b8b0     commctrl:commctrl.dll
+ 0002:00000000       __imp_GetClassInfoW        1000c000     coredll:COREDLL.dll
+ 0002:00000004       __imp_wcstombs             1000c004     corelib1:COREDLL.dll
+ 0002:00000008       __imp_mbstowcs             1000c008     corelib1:COREDLL.dll
+ 0002:0000000c       __imp_wcstol               1000c00c     corelib1:COREDLL.dll
+ 0002:00000010       __imp_wcsstr               1000c010     corelib1:COREDLL.dll
+ 0002:00000014       __imp_wcsncpy              1000c014     corelib1:COREDLL.dll
+ 0002:00000018       __imp_memmove              1000c018     corelib1:COREDLL.dll
+ 0002:0000001c       __imp_MessageBoxW          1000c01c     coredll:COREDLL.dll
+ 0002:00000020       __imp_wvsprintfW           1000c020     coredll:COREDLL.dll
+ 0002:00000024       __imp_LoadStringW          1000c024     coredll:COREDLL.dll
+ 0002:00000028       __imp_LoadResource         1000c028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_FindResourceW        1000c02c     coredll:COREDLL.dll
+ 0002:00000030       __imp_ImmReleaseContext    1000c030     coredll:COREDLL.dll
+ 0002:00000034       __imp_ImmNotifyIME         1000c034     coredll:COREDLL.dll
+ 0002:00000038       __imp_ImmGetOpenStatus     1000c038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_ImmGetContext        1000c03c     coredll:COREDLL.dll
+ 0002:00000040       __imp_LCMapStringW         1000c040     coredll:COREDLL.dll
+ 0002:00000044       __imp_GetUserDefaultLCID   1000c044     coredll:COREDLL.dll
+ 0002:00000048       __imp_DeleteObject         1000c048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_GetTextFaceW         1000c04c     coredll:COREDLL.dll
+ 0002:00000050       __imp_SelectObject         1000c050     coredll:COREDLL.dll
+ 0002:00000054       __imp_CreateFontIndirectW  1000c054     coredll:COREDLL.dll
+ 0002:00000058       __imp_SendMessageW         1000c058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_ReleaseDC            1000c05c     coredll:COREDLL.dll
+ 0002:00000060       __imp_SetDlgItemTextW      1000c060     coredll:COREDLL.dll
+ 0002:00000064       __imp_SendDlgItemMessageW  1000c064     coredll:COREDLL.dll
+ 0002:00000068       __imp_EnumFontFamiliesW    1000c068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_GetDlgItem           1000c06c     coredll:COREDLL.dll
+ 0002:00000070       __imp_GetDeviceCaps        1000c070     coredll:COREDLL.dll
+ 0002:00000074       __imp_GetDC                1000c074     coredll:COREDLL.dll
+ 0002:00000078       __imp_SetFocus             1000c078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_EndPaint             1000c07c     coredll:COREDLL.dll
+ 0002:00000080       __imp_DrawTextW            1000c080     coredll:COREDLL.dll
+ 0002:00000084       __imp_SetBkColor           1000c084     coredll:COREDLL.dll
+ 0002:00000088       __imp_SetTextColor         1000c088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_GetSysColor          1000c08c     coredll:COREDLL.dll
+ 0002:00000090       __imp_BeginPaint           1000c090     coredll:COREDLL.dll
+ 0002:00000094       __imp_CreateProcessW       1000c094     coredll:COREDLL.dll
+ 0002:00000098       __imp_ImmAssociateContext  1000c098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_SetWindowPos         1000c09c     coredll:COREDLL.dll
+ 0002:000000a0       __imp_ScreenToClient       1000c0a0     coredll:COREDLL.dll
+ 0002:000000a4       __imp_DestroyWindow        1000c0a4     coredll:COREDLL.dll
+ 0002:000000a8       __imp_GetWindowRect        1000c0a8     coredll:COREDLL.dll
+ 0002:000000ac       __imp_SetWindowLongW       1000c0ac     coredll:COREDLL.dll
+ 0002:000000b0       __imp_InvalidateRect       1000c0b0     coredll:COREDLL.dll
+ 0002:000000b4       __imp_PostMessageW         1000c0b4     coredll:COREDLL.dll
+ 0002:000000b8       __imp_ShowWindow           1000c0b8     coredll:COREDLL.dll
+ 0002:000000bc       __imp_EndDialog            1000c0bc     coredll:COREDLL.dll
+ 0002:000000c0       __imp_StringCchCopyW       1000c0c0     coredll:COREDLL.dll
+ 0002:000000c4       __imp_GetDlgItemTextW      1000c0c4     coredll:COREDLL.dll
+ 0002:000000c8       __imp_GetParent            1000c0c8     coredll:COREDLL.dll
+ 0002:000000cc       __imp_GetWindowLongW       1000c0cc     coredll:COREDLL.dll
+ 0002:000000d0       __imp_DialogBoxIndirectParamW 1000c0d0     coredll:COREDLL.dll
+ 0002:000000d4       __imp_LocalFree            1000c0d4     coredll:COREDLL.dll
+ 0002:000000d8       __imp_DestroyMenu          1000c0d8     coredll:COREDLL.dll
+ 0002:000000dc       __imp_CreateWindowExW      1000c0dc     coredll:COREDLL.dll
+ 0002:000000e0       __imp_AppendMenuW          1000c0e0     coredll:COREDLL.dll
+ 0002:000000e4       __imp_CreatePopupMenu      1000c0e4     coredll:COREDLL.dll
+ 0002:000000e8       __imp_LocalAlloc           1000c0e8     coredll:COREDLL.dll
+ 0002:000000ec       __imp_DrawFrameControl     1000c0ec     coredll:COREDLL.dll
+ 0002:000000f0       __imp_DrawFocusRect        1000c0f0     coredll:COREDLL.dll
+ 0002:000000f4       __imp_GetFocus             1000c0f4     coredll:COREDLL.dll
+ 0002:000000f8       __imp_FillRect             1000c0f8     coredll:COREDLL.dll
+ 0002:000000fc       __imp_CreateSolidBrush     1000c0fc     coredll:COREDLL.dll
+ 0002:00000100       __imp_TrackPopupMenuEx     1000c100     coredll:COREDLL.dll
+ 0002:00000104       __imp_ReleaseCapture       1000c104     coredll:COREDLL.dll
+ 0002:00000108       __imp_SetCapture           1000c108     coredll:COREDLL.dll
+ 0002:0000010c       __imp_PtInRect             1000c10c     coredll:COREDLL.dll
+ 0002:00000110       __imp_GetTextExtentExPointW 1000c110     coredll:COREDLL.dll
+ 0002:00000114       __imp_SetBkMode            1000c114     coredll:COREDLL.dll
+ 0002:00000118       __imp_Rectangle            1000c118     coredll:COREDLL.dll
+ 0002:0000011c       __imp_GetStockObject       1000c11c     coredll:COREDLL.dll
+ 0002:00000120       __imp_InflateRect          1000c120     coredll:COREDLL.dll
+ 0002:00000124       __imp_GetSysColorBrush     1000c124     coredll:COREDLL.dll
+ 0002:00000128       __imp_DefWindowProcW       1000c128     coredll:COREDLL.dll
+ 0002:0000012c       __imp_GetSystemMetrics     1000c12c     coredll:COREDLL.dll
+ 0002:00000130       __imp_GetClientRect        1000c130     coredll:COREDLL.dll
+ 0002:00000134       __imp_RegisterClassW       1000c134     coredll:COREDLL.dll
+ 0002:00000138       __imp_LoadCursorW          1000c138     coredll:COREDLL.dll
+ 0002:0000013c       __imp___report_gsfailure   1000c13c     corelib1:COREDLL.dll
+ 0002:00000140       __imp_CloseHandle          1000c140     coredll:COREDLL.dll
+ 0002:00000144       __imp_GetLastError         1000c144     coredll:COREDLL.dll
+ 0002:00000148       __imp_ReadFile             1000c148     coredll:COREDLL.dll
+ 0002:0000014c       __imp_SetFilePointer       1000c14c     coredll:COREDLL.dll
+ 0002:00000150       __imp_WriteFile            1000c150     coredll:COREDLL.dll
+ 0002:00000154       __imp_GetFileSize          1000c154     coredll:COREDLL.dll
+ 0002:00000158       __imp_LocalReAlloc         1000c158     coredll:COREDLL.dll
+ 0002:0000015c       __imp_SetCursor            1000c15c     coredll:COREDLL.dll
+ 0002:00000160       __imp_UpdateWindow         1000c160     coredll:COREDLL.dll
+ 0002:00000164       __imp_SetForegroundWindow  1000c164     coredll:COREDLL.dll
+ 0002:00000168       __imp_GetForegroundWindow  1000c168     coredll:COREDLL.dll
+ 0002:0000016c       __imp_DispatchMessageW     1000c16c     coredll:COREDLL.dll
+ 0002:00000170       __imp_PeekMessageW         1000c170     coredll:COREDLL.dll
+ 0002:00000174       __imp_CreateFileW          1000c174     coredll:COREDLL.dll
+ 0002:00000178       __imp_RegCloseKey          1000c178     coredll:COREDLL.dll
+ 0002:0000017c       __imp_RegQueryValueExW     1000c17c     coredll:COREDLL.dll
+ 0002:00000180       __imp_RegEnumKeyExW        1000c180     coredll:COREDLL.dll
+ 0002:00000184       __imp_RegOpenKeyExW        1000c184     coredll:COREDLL.dll
+ 0002:00000188       __imp_FindClose            1000c188     coredll:COREDLL.dll
+ 0002:0000018c       __imp_FindFirstFileW       1000c18c     coredll:COREDLL.dll
+ 0002:00000190       __imp_GetOpenFileNameW     1000c190     coredll:COREDLL.dll
+ 0002:00000194       __imp_SHGetSpecialFolderPath 1000c194     coredll:COREDLL.dll
+ 0002:00000198       __imp_DeleteAndRenameFile  1000c198     coredll:COREDLL.dll
+ 0002:0000019c       __imp_SetFileAttributesW   1000c19c     coredll:COREDLL.dll
+ 0002:000001a0       __imp_DeleteFileW          1000c1a0     coredll:COREDLL.dll
+ 0002:000001a4       __imp_GetSaveFileNameW     1000c1a4     coredll:COREDLL.dll
+ 0002:000001a8       __imp_FindNextFileW        1000c1a8     coredll:COREDLL.dll
+ 0002:000001ac       __imp_StringCchCatW        1000c1ac     coredll:COREDLL.dll
+ 0002:000001b0       __imp_SetWindowTextW       1000c1b0     coredll:COREDLL.dll
+ 0002:000001b4       __imp_wsprintfW            1000c1b4     coredll:COREDLL.dll
+ 0002:000001b8       __imp_StringCchPrintfW     1000c1b8     coredll:COREDLL.dll
+ 0002:000001bc       __imp_lstrcmpW             1000c1bc     coredll:COREDLL.dll
+ 0002:000001c0       __imp_GetLocaleInfoW       1000c1c0     coredll:COREDLL.dll
+ 0002:000001c4       __imp_GetSystemDefaultLCID 1000c1c4     coredll:COREDLL.dll
+ 0002:000001c8       __imp_MultiByteToWideChar  1000c1c8     coredll:COREDLL.dll
+ 0002:000001cc       __imp_WideCharToMultiByte  1000c1cc     coredll:COREDLL.dll
+ 0002:000001d0       __imp_lstrcmpiW            1000c1d0     coredll:COREDLL.dll
+ 0002:000001d4       __imp_SetScrollInfo        1000c1d4     coredll:COREDLL.dll
+ 0002:000001d8       __imp_GetTextMetricsW      1000c1d8     coredll:COREDLL.dll
+ 0002:000001dc       __imp_DeleteDC             1000c1dc     coredll:COREDLL.dll
+ 0002:000001e0       __imp_CreateCompatibleBitmap 1000c1e0     coredll:COREDLL.dll
+ 0002:000001e4       __imp_CreateCompatibleDC   1000c1e4     coredll:COREDLL.dll
+ 0002:000001e8       __imp_GetWindowDC          1000c1e8     coredll:COREDLL.dll
+ 0002:000001ec       __imp_ClientToScreen       1000c1ec     coredll:COREDLL.dll
+ 0002:000001f0       __imp_Polyline             1000c1f0     coredll:COREDLL.dll
+ 0002:000001f4       __imp_CreatePenIndirect    1000c1f4     coredll:COREDLL.dll
+ 0002:000001f8       __imp_ExtTextOutW          1000c1f8     coredll:COREDLL.dll
+ 0002:000001fc       __imp_DrawEdge             1000c1fc     coredll:COREDLL.dll
+ 0002:00000200       __imp_BitBlt               1000c200     coredll:COREDLL.dll
+ 0002:00000204       __imp_PatBlt               1000c204     coredll:COREDLL.dll
+ 0002:00000208       __imp_CallWindowProcW      1000c208     coredll:COREDLL.dll
+ 0002:0000020c       __imp_ChildWindowFromPoint 1000c20c     coredll:COREDLL.dll
+ 0002:00000210       __imp_MapWindowPoints      1000c210     coredll:COREDLL.dll
+ 0002:00000214       __imp_ScrollWindowEx       1000c214     coredll:COREDLL.dll
+ 0002:00000218       __imp_GetMonitorInfo       1000c218     coredll:COREDLL.dll
+ 0002:0000021c       __imp_MonitorFromWindow    1000c21c     coredll:COREDLL.dll
+ 0002:00000220       __imp_wcscmp               1000c220     corelib1:COREDLL.dll
+ 0002:00000224       __imp_memcpy               1000c224     corelib1:COREDLL.dll
+ 0002:00000228       __imp__itow                1000c228     corelib1:COREDLL.dll
+ 0002:0000022c       __imp_wcscat               1000c22c     corelib1:COREDLL.dll
+ 0002:00000230       __imp_wcslen               1000c230     corelib1:COREDLL.dll
+ 0002:00000234       __imp_wcscpy               1000c234     corelib1:COREDLL.dll
+ 0002:00000238       __imp__wcsicmp             1000c238     corelib1:COREDLL.dll
+ 0002:0000023c       __imp___rt_sdiv            1000c23c     corelib1:COREDLL.dll
+ 0002:00000240       __imp_iswctype             1000c240     corelib1:COREDLL.dll
+ 0002:00000244       __imp_??3@YAXPAX@Z         1000c244     corelib1:COREDLL.dll
+ 0002:00000248       __imp_memset               1000c248     corelib1:COREDLL.dll
+ 0002:0000024c       __imp_??2@YAPAXI@Z         1000c24c     corelib1:COREDLL.dll
+ 0002:00000250       __imp_memcmp               1000c250     corelib1:COREDLL.dll
+ 0002:00000254       __imp_wcschr               1000c254     corelib1:COREDLL.dll
+ 0002:00000258       __imp_wcsrchr              1000c258     corelib1:COREDLL.dll
+ 0002:0000025c       \177COREDLL_NULL_THUNK_DATA 1000c25c     coredll:COREDLL.dll
+ 0002:00000260       __imp_CreatePropertySheetPageW 1000c260     commctrl:commctrl.dll
+ 0002:00000264       \177commctrl_NULL_THUNK_DATA 1000c264     commctrl:commctrl.dll
+ 0002:00000268       __imp_CommDlgExtendedError 1000c268     commdlg:commdlg.dll
+ 0002:0000026c       \177commdlg_NULL_THUNK_DATA 1000c26c     commdlg:commdlg.dll
+ 0002:00000270       __imp_StgOpenStorage       1000c270     ole32:ole32.dll
+ 0002:00000274       __imp_CoCreateInstance     1000c274     ole32:ole32.dll
+ 0002:00000278       __imp_StgCreateDocfile     1000c278     ole32:ole32.dll
+ 0002:0000027c       \177ole32_NULL_THUNK_DATA  1000c27c     ole32:ole32.dll
+ 0002:00000288       ?rgSubsetData@@3PAUtagUSUBSET@@A 1000c288     office:symbol.obj
+ 0002:00004698       __security_cookie          10010698     corelib0:seccinit.obj
+ 0002:0000469c       __security_cookie_complement 1001069c     corelib0:seccinit.obj
+ 0002:000046a0       ?g_hInstDLL@@3PAUHINSTANCE__@@A 100106a0     office:office.obj
+ 0002:000046b4       ?g_hToolTip@@3PAUHWND__@@A 100106b4     office:symbol.obj
+ 0002:000046b8       ?g_wndProcTT@@3P6AJPAUHWND__@@IIJ@ZA 100106b8     office:symbol.obj
+ 0002:000046bc       ?nCurSubset@@3HA           100106bc     office:symbol.obj
+ 0002:000046c0       g_rgszColors               100106c0     <common>
+ 0002:00004708       g_hInstDll                 10010708     <common>
+
+ entry point at        0001:00000ba4
+
+ Static symbols
+
+ 0001:00000ed0       ?PointsStringFromTwips@@YAXPAGH@Z 10001ed0 f   office:fontdlg.obj
+ 0001:000010ec       ?EnumFontFacesProc@@YAHPBUtagLOGFONTW@@PBUtagTEXTMETRICW@@KJ@Z 100020ec f   office:fontdlg.obj
+ 0001:00001140       ?FillComboBoxWithTrueTypeFontSizes@@YAXPAUHWND__@@@Z 10002140 f   office:fontdlg.obj
+ 0001:000011bc       ?EnumFontSizesProc@@YAHPBUtagENUMLOGFONT@@PBUtagTEXTMETRICW@@KJ@Z 100021bc f   office:fontdlg.obj
+ 0001:00004848       ?GetConverterInfo@@YAJPBGPAPAUCONVERTER_INFO@@PAI@Z 10005848 f   office:convexec.obj
+ 0001:00004d14       ?OpenThisDocumentWithThisConverter@@YAJPAUHWND__@@PAUCONVERTER_INFO@@PAVIWriteConverter@@PBGKPAGK@Z 10005d14 f   office:convexec.obj
+ 0001:00005580       ?SaveFileHalves@@YAJPAUHWND__@@PAVIReadConverter@@PAVIWriteConverter@@PBGH@Z 10006580 f   office:convexec.obj

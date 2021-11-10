@@ -1,0 +1,212 @@
+ nlsnormalize
+
+ Timestamp is 5ac64a26 (Thu Apr 05 09:09:10 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 00000130H .rdata                  CODE
+ 0001:00000150 00000029H .rdata$debug            CODE
+ 0001:0000017c 00004b4cH .text                   CODE
+ 0001:00004cc8 00000028H .xdata                  CODE
+ 0001:00004cf0 00000014H .idata$2                CODE
+ 0001:00004d04 00000014H .idata$3                CODE
+ 0001:00004d18 00000084H .idata$4                CODE
+ 0001:00004d9c 0000000cH .idata$6                CODE
+ 0001:00004db0 000000efH .edata                  CODE
+ 0002:00000000 00000084H .idata$5                DATA
+ 0002:00000084 00000008H .data                   DATA
+ 0002:0000008c 00000044H .bss                    DATA
+ 0003:00000000 00000248H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:0000003c       ??_C@_1CE@IGBOFOOP@?$AAN?$AAL?$AAS?$AAN?$AAo?$AAr?$AAm?$AAa?$AAl?$AAi?$AAz?$AAa?$AAt?$AAi?$AAo?$AAn?$AA_?$AA?$AA@ 1000103c     Normalization.obj
+ 0001:00000060       ??_C@_1BE@IBBOHCDA@?$AA?2?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AA?2?$AA?$AA@ 10001060     Normalization.obj
+ 0001:00000074       ??_C@_1BI@LNOCHFMI@?$AAn?$AAo?$AAr?$AAm?$AAn?$AAf?$AAd?$AA?4?$AAn?$AAl?$AAs?$AA?$AA@ 10001074     Normalization.obj
+ 0001:0000008c       ??_C@_1BK@IMIBNIBO@?$AAn?$AAo?$AAr?$AAm?$AAn?$AAf?$AAk?$AAc?$AA?4?$AAn?$AAl?$AAs?$AA?$AA@ 1000108c     Normalization.obj
+ 0001:000000a8       ??_C@_1BK@PIBJDBJB@?$AAn?$AAo?$AAr?$AAm?$AAn?$AAf?$AAk?$AAd?$AA?4?$AAn?$AAl?$AAs?$AA?$AA@ 100010a8     Normalization.obj
+ 0001:000000c4       ??_C@_1BK@ICJHAHOL@?$AAn?$AAo?$AAr?$AAm?$AAi?$AAd?$AAn?$AAa?$AA?4?$AAn?$AAl?$AAs?$AA?$AA@ 100010c4     Normalization.obj
+ 0001:000000e0       ??_C@_1BI@MJHKJMEH@?$AAn?$AAo?$AAr?$AAm?$AAn?$AAf?$AAc?$AA?4?$AAn?$AAl?$AAs?$AA?$AA@ 100010e0     Normalization.obj
+ 0001:00000138       ??_C@_1BI@CPBEJLLC@?$AAs?$AAc?$AAr?$AAi?$AAp?$AAt?$AAs?$AA?4?$AAn?$AAl?$AAs?$AA?$AA@ 10001138     unicode.obj
+ 0001:0000017c       DllMain                    1000117c f   NormalizationDLL.obj
+ 0001:000001b4       NormalizeString            100011b4 f   NormalizationDLL.obj
+ 0001:000002d0       IsNormalizedString         100012d0 f   NormalizationDLL.obj
+ 0001:0000037c       ?IsHangulLV@@YA_NJ@Z       1000137c f i Normalization.obj
+ 0001:000003d4       ?GetHangulT@@YAGJ@Z        100013d4 f i Normalization.obj
+ 0001:00000414       ?CanComposeHangul@@YA_NJJ@Z 10001414 f i Normalization.obj
+ 0001:00000490       ?RewindOutputCharacter@CBuffer@@QAAXXZ 10001490 f i Normalization.obj
+ 0001:000004d8       ?RemoveCharacter@CBuffer@@QAAXPAG@Z 100014d8 f i Normalization.obj
+ 0001:00000538       ?GetCurrentOutputChar@CBuffer@@QAAJAAPAG@Z 10001538 f i Normalization.obj
+ 0001:00000590       ?VerifyLastStart@CBuffer@@QAAXXZ 10001590 f i Normalization.obj
+ 0001:000005ec       ?IsValidForm@CNormalization@@SA_NW4_NORM_FORM@@@Z 100015ec f   Normalization.obj
+ 0001:00000624       ?LoadClassMapExceptions@CNormalization@@IAAXXZ 10001624 f   Normalization.obj
+ 0001:000006a8       ?GetTablePointer@CNormalization@@KAPAUTables@@PAG@Z 100016a8 f   Normalization.obj
+ 0001:000007c8       ?GuessBetterCharCount@CNormalization@@IAAHHHH@Z 100017c8 f   Normalization.obj
+ 0001:00000828       ?GetLastChar@CNormalization@@AAAJPAGAAPAGAAJAAE3@Z 10001828 f i Normalization.obj
+ 0001:000008fc       ?CanCombinableCharactersCombine@CNormalization@@AAAJJJ@Z 100018fc f i Normalization.obj
+ 0001:00000998       ?GetFirstDecomposedCharPlane0@CNormalization@@AAAJJ@Z 10001998 f   Normalization.obj
+ 0001:00000a14       ?GetSecondDecomposedCharPlane0@CNormalization@@AAAJJ@Z 10001a14 f   Normalization.obj
+ 0001:00000a98       ?GetThirdAndLastDecomposedCharPlane0@CNormalization@@AAAJJ@Z 10001a98 f   Normalization.obj
+ 0001:00000b1c       ?GetSecondAndThirdDecomposedCharPlane0@CNormalization@@AAAXJAAJ0@Z 10001b1c f   Normalization.obj
+ 0001:00000be4       ?Append@CBuffer@@QAA_NJ@Z  10001be4 f i Normalization.obj
+ 0001:00000c7c       ?Insert@CBuffer@@QAA_NJPAG@Z 10001c7c f i Normalization.obj
+ 0001:00000d70       ?GetLastChar@CBuffer@@QAAJXZ 10001d70 f i Normalization.obj
+ 0001:00000e14       ?LastStartBasePair@CBuffer@@QAAJXZ 10001e14 f i Normalization.obj
+ 0001:00000e70       ?IsBlocked@CBuffer@@QAA_NE@Z 10001e70 f i Normalization.obj
+ 0001:00000f14       ?SortBeforeSameClass@CBuffer@@QAAXE@Z 10001f14 f i Normalization.obj
+ 0001:00000fc0       ?InsertAtBlockedLocation@CBuffer@@QAA_NJEE@Z 10001fc0 f i Normalization.obj
+ 0001:00001018       ?AppendAndSortDecomposed@CBuffer@@QAA_NJ@Z 10002018 f i Normalization.obj
+ 0001:00001064       ?ReplaceLastStartBase@CBuffer@@QAA_NJEE@Z 10002064 f i Normalization.obj
+ 0001:000010fc       ?ReplaceLastStartBasePair@CBuffer@@QAA_NJEE@Z 100020fc f i Normalization.obj
+ 0001:00001158       ?RecheckStartCombinations@CBuffer@@QAAXXZ 10002158 f i Normalization.obj
+ 0001:00001260       ?CleanUp@CNormalization@@SAXXZ 10002260 f   Normalization.obj
+ 0001:000013d8       ?LoadTables@CNormalization@@IAA_NPAUTables@@@Z 100023d8 f   Normalization.obj
+ 0001:00001498       ?NormalizeCharacter@CNormalization@@IAAKJEAAVCBuffer@@@Z 10002498 f   Normalization.obj
+ 0001:00001f00       ?GuessCharCount@CNormalization@@QAAKPBGHPAH@Z 10002f00 f   Normalization.obj
+ 0001:00001f5c       ?CanCombineWithStartFirstPair@CNormalization@@AAAJAAJ0JJ@Z 10002f5c f i Normalization.obj
+ 0001:00001fc8       ?AppendDecomposedChar@CNormalization@@AAAKJAAVCBuffer@@@Z 10002fc8 f   Normalization.obj
+ 0001:000020d4       ?GetNormalization@CNormalization@@CAPAV1@W4_NORM_FORM@@PAUTables@@PAPAV1@@Z 100030d4 f   Normalization.obj
+ 0001:00002160       ?Normalize@CNormalization@@QAAKPBGIPAGIPAH@Z 10003160 f   Normalization.obj
+ 0001:00002304       ?IsNormalized@CNormalization@@QAAKPBGH@Z 10003304 f   Normalization.obj
+ 0001:000029b8       ?GetNormalization@CNormalization@@SAPAV1@W4_NORM_FORM@@@Z 100039b8 f   Normalization.obj
+ 0001:00002b6c       ?GetUTF32@@YAHPBG@Z        10003b6c f i idna.obj
+ 0001:00002ba8       ?GetRtlCategory@@YAGPBG@Z  10003ba8 f i idna.obj
+ 0001:00002c14       ?InsertChar@@YAXGPAGPAPAG@Z 10003c14 f   idna.obj
+ 0001:00002c4c       ?IsDot@@YA_NG@Z            10003c4c f i idna.obj
+ 0001:00002c88       ?ValidateStd3@@YAHG_N@Z    10003c88 f i idna.obj
+ 0001:00002ce8       ?ValidateStd3AndAscii@@YA_NPBGHAAH_N2@Z 10003ce8 f   idna.obj
+ 0001:00002e48       ?decode_digit@@YAHG@Z      10003e48 f i idna.obj
+ 0001:00002e8c       ?adapt@@YAHHH_N@Z          10003e8c f   idna.obj
+ 0001:00002f28       ?punycode_encode@@YAHPBGHPAGH@Z 10003f28 f   idna.obj
+ 0001:000034bc       ?punycode_decode@@YAHPBGHPAGH@Z 100044bc f   idna.obj
+ 0001:00003960       ?NameprepAsciiWorker@@YAHKPBGHPAGHH@Z 10004960 f   idna.obj
+ 0001:00003c34       IdnToAscii                 10004c34 f   idna.obj
+ 0001:00003c58       IdnToNameprepUnicode       10004c58 f   idna.obj
+ 0001:00003c84       IdnToUnicode               10004c84 f   idna.obj
+ 0001:00003e1c       ?CleanupScriptGlobalData@@YAXXZ 10004e1c f   unicode.obj
+ 0001:00003e50       ?InternalGetStringScripts@@YAHKPBGHPAGH@Z 10004e50 f   unicode.obj
+ 0001:00004220       ?InternalVerifyScripts@@YAHKPBGH0H@Z 10005220 f   unicode.obj
+ 0001:000044c8       SetLastError               100054c8 f   coredll:COREDLL.dll
+ 0001:000044d8       GetLastError               100054d8 f   coredll:COREDLL.dll
+ 0001:000044e8       UnmapViewOfFile            100054e8 f   coredll:COREDLL.dll
+ 0001:000044f8       CloseHandle                100054f8 f   coredll:COREDLL.dll
+ 0001:00004508       MapViewOfFile              10005508 f   coredll:COREDLL.dll
+ 0001:00004518       CreateFileMappingW         10005518 f   coredll:COREDLL.dll
+ 0001:00004528       CreateFileW                10005528 f   coredll:COREDLL.dll
+ 0001:00004538       StringCchCatW              10005538 f   coredll:COREDLL.dll
+ 0001:00004548       StringCchCopyW             10005548 f   coredll:COREDLL.dll
+ 0001:00004558       InterlockedCompareExchange 10005558 f   coredll:COREDLL.dll
+ 0001:00004568       StringCchCopyNExW          10005568 f   coredll:COREDLL.dll
+ 0001:00004578       GetStringTypeW             10005578 f   coredll:COREDLL.dll
+ 0001:00004588       StringCchLengthW           10005588 f   coredll:COREDLL.dll
+ 0001:00004598       StringCchCopyNW            10005598 f   coredll:COREDLL.dll
+ 0001:000045a8       ?OpenDataFile@@YAHPAPAXPAG@Z 100055a8 f i platutils:fileio.obj
+ 0001:00004600       ?CreateAndMapFileSection@@YAPAEPAGPAT_LARGE_INTEGER@@@Z 10005600 f   platutils:fileio.obj
+ 0001:000046e8       ?GetLocalDataFileMappingAddress@@YAHPBGPAUHINSTANCE__@@PAPAE@Z 100056e8 f   platutils:fileio.obj
+ 0001:00004900       _DllMainCRTStartup         10005900 f   corelib0:pegdmain.obj
+ 0001:0000492c       __GSHandlerCheckCommon     1000592c f   corelib0:gshandler.obj
+ 0001:00004968       __GSHandlerCheck           10005968 f   corelib0:gshandler.obj
+ 0001:00004988       __security_init_cookie     10005988 f   corelib0:seccinit.obj
+ 0001:000049d4       __security_check_cookie    100059d4 f   corelib0:armsecgs.obj
+ 0001:000049e4       __gsfailure                100059e4     corelib0:armsecgs.obj
+ 0001:00004b10       _cexit                     10005b10 f   corelib0:cexit.obj
+ 0001:00004b20       _initterm                  10005b20 f   corelib0:crt0dat.obj
+ 0001:00004b4c       _cinit                     10005b4c f   corelib0:crt0dat.obj
+ 0001:00004bac       __crt_ExitProcess          10005bac f   corelib0:exitproc_proxy.obj
+ 0001:00004bb8       wcslen                     10005bb8 f   corelib1:COREDLL.dll
+ 0001:00004bc8       ??3@YAXPAX@Z               10005bc8 f   corelib1:COREDLL.dll
+ 0001:00004bd8       ??2@YAPAXI@Z               10005bd8 f   corelib1:COREDLL.dll
+ 0001:00004be8       _wcsnicmp                  10005be8 f   corelib1:COREDLL.dll
+ 0001:00004bf8       memcpy                     10005bf8 f   corelib1:COREDLL.dll
+ 0001:00004c08       malloc                     10005c08 f   corelib1:COREDLL.dll
+ 0001:00004c18       memset                     10005c18 f   corelib1:COREDLL.dll
+ 0001:00004c28       free                       10005c28 f   corelib1:COREDLL.dll
+ 0001:00004c38       _XcptFilter                10005c38 f   corelib1:COREDLL.dll
+ 0001:00004c48       __C_specific_handler       10005c48 f   corelib1:COREDLL.dll
+ 0001:00004c58       __security_gen_cookie2     10005c58 f   corelib1:COREDLL.dll
+ 0001:00004c68       __report_gsfailure         10005c68 f   corelib1:COREDLL.dll
+ 0001:00004c78       GetFileSize                10005c78 f   coredll:COREDLL.dll
+ 0001:00004c88       GetModuleFileNameW         10005c88 f   coredll:COREDLL.dll
+ 0001:00004c98       DeleteCriticalSection      10005c98 f   coredll:COREDLL.dll
+ 0001:00004ca8       InterlockedExchange        10005ca8 f   coredll:COREDLL.dll
+ 0001:00004cb8       TerminateProcess           10005cb8 f   coredll:COREDLL.dll
+ 0001:00004cf0       __IMPORT_DESCRIPTOR_COREDLL 10005cf0     coredll:COREDLL.dll
+ 0001:00004d04       __NULL_IMPORT_DESCRIPTOR   10005d04     coredll:COREDLL.dll
+ 0002:00000000       __imp_SetLastError         10006000     coredll:COREDLL.dll
+ 0002:00000004       __imp_GetLastError         10006004     coredll:COREDLL.dll
+ 0002:00000008       __imp_UnmapViewOfFile      10006008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_CloseHandle          1000600c     coredll:COREDLL.dll
+ 0002:00000010       __imp_MapViewOfFile        10006010     coredll:COREDLL.dll
+ 0002:00000014       __imp_CreateFileMappingW   10006014     coredll:COREDLL.dll
+ 0002:00000018       __imp_CreateFileW          10006018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_StringCchCatW        1000601c     coredll:COREDLL.dll
+ 0002:00000020       __imp_StringCchCopyW       10006020     coredll:COREDLL.dll
+ 0002:00000024       __imp_InterlockedCompareExchange 10006024     coredll:COREDLL.dll
+ 0002:00000028       __imp_StringCchCopyNExW    10006028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_GetStringTypeW       1000602c     coredll:COREDLL.dll
+ 0002:00000030       __imp_StringCchLengthW     10006030     coredll:COREDLL.dll
+ 0002:00000034       __imp_StringCchCopyNW      10006034     coredll:COREDLL.dll
+ 0002:00000038       __imp_wcslen               10006038     corelib1:COREDLL.dll
+ 0002:0000003c       __imp_??3@YAXPAX@Z         1000603c     corelib1:COREDLL.dll
+ 0002:00000040       __imp___rt_sdiv            10006040     corelib1:COREDLL.dll
+ 0002:00000044       __imp_??2@YAPAXI@Z         10006044     corelib1:COREDLL.dll
+ 0002:00000048       __imp__wcsnicmp            10006048     corelib1:COREDLL.dll
+ 0002:0000004c       __imp_memcpy               1000604c     corelib1:COREDLL.dll
+ 0002:00000050       __imp_malloc               10006050     corelib1:COREDLL.dll
+ 0002:00000054       __imp_memset               10006054     corelib1:COREDLL.dll
+ 0002:00000058       __imp_free                 10006058     corelib1:COREDLL.dll
+ 0002:0000005c       __imp__XcptFilter          1000605c     corelib1:COREDLL.dll
+ 0002:00000060       __imp___C_specific_handler 10006060     corelib1:COREDLL.dll
+ 0002:00000064       __imp___security_gen_cookie2 10006064     corelib1:COREDLL.dll
+ 0002:00000068       __imp___report_gsfailure   10006068     corelib1:COREDLL.dll
+ 0002:0000006c       __imp_GetFileSize          1000606c     coredll:COREDLL.dll
+ 0002:00000070       __imp_GetModuleFileNameW   10006070     coredll:COREDLL.dll
+ 0002:00000074       __imp_DeleteCriticalSection 10006074     coredll:COREDLL.dll
+ 0002:00000078       __imp_InterlockedExchange  10006078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_TerminateProcess     1000607c     coredll:COREDLL.dll
+ 0002:00000080       \177COREDLL_NULL_THUNK_DATA 10006080     coredll:COREDLL.dll
+ 0002:00000084       __security_cookie          10006084     corelib0:seccinit.obj
+ 0002:00000088       __security_cookie_complement 10006088     corelib0:seccinit.obj
+ 0002:0000008c       ?ghModule@@3PAUHINSTANCE__@@A 1000608c     NormalizationDLL.obj
+ 0002:00000090       ?pFormC@CNormalization@@0PAV1@A 10006090     Normalization.obj
+ 0002:00000094       ?pFormD@CNormalization@@0PAV1@A 10006094     Normalization.obj
+ 0002:00000098       ?pFormKC@CNormalization@@0PAV1@A 10006098     Normalization.obj
+ 0002:0000009c       ?pFormKD@CNormalization@@0PAV1@A 1000609c     Normalization.obj
+ 0002:000000a0       ?pFormIdna@CNormalization@@0PAV1@A 100060a0     Normalization.obj
+ 0002:000000a4       ?pFormCNoUnassigned@CNormalization@@0PAV1@A 100060a4     Normalization.obj
+ 0002:000000a8       ?pFormDNoUnassigned@CNormalization@@0PAV1@A 100060a8     Normalization.obj
+ 0002:000000ac       ?pFormKCNoUnassigned@CNormalization@@0PAV1@A 100060ac     Normalization.obj
+ 0002:000000b0       ?pFormKDNoUnassigned@CNormalization@@0PAV1@A 100060b0     Normalization.obj
+ 0002:000000b4       ?pFormIdnaNoUnassigned@CNormalization@@0PAV1@A 100060b4     Normalization.obj
+ 0002:000000b8       ?gpScriptGlobalData@@3PAU_SCRIPT_GLOBAL_DATA@@A 100060b8     unicode.obj
+ 0002:000000bc       _exitflag                  100060bc     corelib0:cexit.obj
+ 0002:000000c0       __onexitend                100060c0     <common>
+ 0002:000000c4       __onexitbegin              100060c4     <common>
+ 0002:000000c8       g_pcsExit                  100060c8     <common>
+ 0002:000000cc       _pRawDllMain               100060cc     <common>
+
+ entry point at        0001:00004900
+
+ Static symbols
+
+ 0001:00004810       _DllMainCRTStartupHelper   10005810 f   corelib0:pegdmain.obj
+ 0001:00004a28       doexit                     10005a28 f   corelib0:cexit.obj

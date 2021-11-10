@@ -1,0 +1,168 @@
+ hd
+
+ Timestamp is 5ac64a28 (Thu Apr 05 09:09:12 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000000b4H .rdata                  CODE
+ 0001:000000b4 0000001fH .rdata$debug            CODE
+ 0001:000000e0 00004c3cH .text                   CODE
+ 0001:00004d1c 0000002cH .xdata                  CODE
+ 0001:00004d50 0000005dH .edata                  CODE
+ 0002:00000000 00000788H .data                   DATA
+ 0002:00000788 00002774H .bss                    DATA
+ 0003:00000000 00000368H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:0000001c       ?CpuBreakSize@BreakpointImpl@@2EB 1000101c     armbreak.obj
+ 0001:0000001d       ?CpuBreakSize16@BreakpointImpl@@2EB 1000101d     armbreak.obj
+ 0001:00000020       ?CpuBreak@BreakpointImpl@@2KB 10001020     armbreak.obj
+ 0001:00000024       ?CpuBreak16@BreakpointImpl@@2KB 10001024     armbreak.obj
+ 0001:00000028       ??_C@_1IM@JBKDPANH@?$AAB?$AAa?$AAd?$AA?5?$AAv?$AAe?$AAr?$AAs?$AAi?$AAo?$AAn?$AAi?$AAn?$AAg?$AA?5?$AAb?$AAe?$AAt?$AAw?$AAe?$AAe?$AAn?$AA?5?$AAk?$AAe?$AAr?$AAn?$AAe?$AAl?$AA?4?$AAd?$AAl@ 10001028     hdstub.obj
+ 0001:000000e0       PCBFunctionArea            100010e0 f   armpcb.obj
+ 0001:00000114       MultiCorePCBGetDwordAtOffset 10001114 f   armpcb.obj
+ 0001:00000160       MultiCoreGetPCB            10001160 f   armpcb.obj
+ 0001:00000168       __PCBGetDwordAtOffset      10001168 f   armpcb.obj
+ 0001:00000170       PCBSetDwordAtOffset        10001170 f   armpcb.obj
+ 0001:00000178       PCBAddAtOffset             10001178 f   armpcb.obj
+ 0001:00000180       __GetPCB                   10001180 f   armpcb.obj
+ 0001:00000188       InitPCBFunctions           10001188 f   armpcb.obj
+ 0001:000001d8       ?Currently16Bit@@YAHXZ     100011d8 f   armbreak.obj
+ 0001:00000204       ?HdstubConnectClient@@YAHP6AHPAUDEBUGGER_DATA@@PAX@Z1@Z 10001204 f   hdstub.obj
+ 0001:0000021c       ?DispModNotifDbgState@@YAXXZ 1000121c f   hdstub.obj
+ 0001:00000250       ?HdstubFilterException@@YAHK@Z 10001250 f   hdstub.obj
+ 0001:00000288       ?HdstubThawSystem@@YAXXZ   10001288 f   hdstub.obj
+ 0001:0000030c       ?HdstubUpdateModLoadNotif@@YAXXZ 1000130c f   hdstub.obj
+ 0001:00000334       ?HdstubGetCallStack@@YAKPAU_THREAD@@PAU_CONTEXT@@KPAXKK@Z 10001334 f   hdstub.obj
+ 0001:00000420       ?HdstubPageInCallstack@@YAXPAU_CONTEXT@@@Z 10001420 f   hdstub.obj
+ 0001:0000048c       ?HdstubTrapVmPageIn@@YAXKH@Z 1000148c f   hdstub.obj
+ 0001:0000050c       ?HdstubTrapVmPageOut@@YAXKK@Z 1000150c f   hdstub.obj
+ 0001:00000584       ?HdstubTrapModuleLoad@@YAXKH@Z 10001584 f   hdstub.obj
+ 0001:00000638       ?HdstubTrapModuleUnload@@YAXKH@Z 10001638 f   hdstub.obj
+ 0001:000006d4       ?HdstubIoControl@@YAHKPAXK@Z 100016d4 f   hdstub.obj
+ 0001:000006fc       ?HdstubSetIoctl@@YAHKPAU_KD_BPINFO@@@Z 100016fc f   hdstub.obj
+ 0001:00000754       ?HdstubStopAllCpuCB@@YAXXZ 10001754 f   hdstub.obj
+ 0001:000007bc       ?EnableHDEvents@@YAXH@Z    100017bc f   hdstub.obj
+ 0001:00000834       ?HdstubFreezeSystem@@YAXXZ 10001834 f   hdstub.obj
+ 0001:00000934       ?HdstubTrapException@@YAHPAU_EXCEPTION_RECORD@@PAU_CONTEXT@@E@Z 10001934 f   hdstub.obj
+ 0001:00000aec       ?HdstubIgnoreIllegalInstruction@@YAHK@Z 10001aec f   hdstub.obj
+ 0001:00000b74       ?HdstubSanitize@@YAHPAEPAXKH@Z 10001b74 f   hdstub.obj
+ 0001:00000c00       HdstubInit                 10001c00 f   hdstub.obj
+ 0001:00000ee4       HdstubDLLEntry             10001ee4 f   hdstub.obj
+ 0001:00000f50       ?HdstubDbgPrintf@@YAXPBGZZ 10001f50 f   hdstub_dbg.obj
+ 0001:00000fe0       ?HwExceptionHandler@@YAHPAU_EXCEPTION_RECORD@@PAU_CONTEXT@@E@Z 10001fe0 f   hdhw.obj
+ 0001:00001114       ?HwPageInHandler@@YAXKKH@Z 10002114 f   hdhw.obj
+ 0001:00001254       ?HwPageOutHandler@@YAXKK@Z 10002254 f   hdhw.obj
+ 0001:0000139c       ?HwModLoadHandler@@YAXK@Z  1000239c f   hdhw.obj
+ 0001:00001498       ?HwModUnloadHandler@@YAXK@Z 10002498 f   hdhw.obj
+ 0001:0000158c       ?HdstubDeInitMemAccess@@YAXXZ 1000258c f   hdmove.obj
+ 0001:000015c8       ?ModuleFromAddress@@YAPAU_MODULE@@K@Z 100025c8 f   hdmove.obj
+ 0001:00001630       ?ModuleGetSectionFlags@@YAHPAU_MODULE@@KPAK@Z 10002630 f   hdmove.obj
+ 0001:000016a4       ?GetProperVM@@YAPAU_PROCESS@@PAU1@PAX@Z 100026a4 f   hdmove.obj
+ 0001:00001754       ?GetPhysicalAddress@@YAKPAU_PROCESS@@PAX@Z 10002754 f   hdmove.obj
+ 0001:000017b0       ?AddrToPA@@YAKPBUMEMADDR@@@Z 100027b0 f   hdmove.obj
+ 0001:00001824       ?HdstubMapAddr@@YAPAXPBUMEMADDR@@@Z 10002824 f   hdmove.obj
+ 0001:000019f4       ?HdstubUnMapAddr@@YAXPBUMEMADDR@@@Z 100029f4 f   hdmove.obj
+ 0001:00001aa4       ?MoveMemory0@@YAKPBUMEMADDR@@0K@Z 10002aa4 f   hdmove.obj
+ 0001:00001c5c       ?GetPageTableEntryPtrNoCheck@@YAHPAU_PROCESS@@KPAPAK@Z 10002c5c f   hdmove.obj
+ 0001:00001cb4       ?HdstubInitMemAccess@@YAHXZ 10002cb4 f   hdmove.obj
+ 0001:00001d44       ?GetPageTableEntryPtr@@YAHPAU_PROCESS@@KPAPAK@Z 10002d44 f   hdmove.obj
+ 0001:00001d74       ?AddrEq@@YAHPBUMEMADDR@@0@Z 10002d74 f i hdbreak.obj
+ 0001:00001dc8       ?PatchVM@ROMMap@@QAAJXZ    10002dc8 f   hdbreak.obj
+ 0001:00001f0c       ?RestoreVM@ROMMap@@QAAJXZ  10002f0c f   hdbreak.obj
+ 0001:00001ff0       ?FindPhysPage@ROMMap@@SAPAU1@PAU_PROCESS@@PAX@Z 10002ff0 f   hdbreak.obj
+ 0001:0000205c       ?New@ROMMap@@SAPAU1@PAU_PROCESS@@PAXK@Z 1000305c f   hdbreak.obj
+ 0001:000020c4       ?Init@ROMMap@@SAHXZ        100030c4 f   hdbreak.obj
+ 0001:00002160       ?GetState@BreakpointImpl@@QAAJPAW4BreakpointState@@@Z 10003160 f   hdbreak.obj
+ 0001:00002220       ?WriteInstruction@BreakpointImpl@@QAAJPAE0@Z 10003220 f   hdbreak.obj
+ 0001:00002360       ?Find@BreakpointImpl@@SAPAU1@PAUMEMADDR@@KH@Z 10003360 f   hdbreak.obj
+ 0001:000023d0       ?New@BreakpointImpl@@SAPAU1@PAUMEMADDR@@KH@Z 100033d0 f   hdbreak.obj
+ 0001:00002490       ?WriteBackDisabled@BreakpointImpl@@SAJXZ 10003490 f   hdbreak.obj
+ 0001:000024fc       ?Find@BreakpointImpl@@SAJPAUMEMADDR@@PAUBreakpoint@@PAPAU3@@Z 100034fc f   hdbreak.obj
+ 0001:000025b4       ?DoSanitize@BreakpointImpl@@SAHPAXPBUMEMADDR@@KHH@Z 100035b4 f   hdbreak.obj
+ 0001:000026e4       ?SetDisableAllOnHalt@BreakpointImpl@@SAXH@Z 100036e4 f   hdbreak.obj
+ 0001:000026f4       ?DisableAllOnHalt@BreakpointImpl@@SAHXZ 100036f4 f   hdbreak.obj
+ 0001:00002704       ?GetState@BreakpointImpl@@SAJPAUBreakpoint@@PAW4BreakpointState@@@Z 10003704 f   hdbreak.obj
+ 0001:00002708       ?Sanitize@BreakpointImpl@@SAXPAXPBUMEMADDR@@K@Z 10003708 f   hdbreak.obj
+ 0001:00002738       ?IsValidProcess@@YAHPAU_PROCESS@@@Z 10003738 f   hdbreak.obj
+ 0001:0000277c       ?CopyPage@ROMMap@@SAJPAU_PROCESS@@PAX@Z 1000377c f   hdbreak.obj
+ 0001:00002810       ?FreePage@ROMMap@@SAJPAU_PROCESS@@PAX@Z 10003810 f   hdbreak.obj
+ 0001:00002854       ?FreeCopiedPage@BreakpointImpl@@QAAJXZ 10003854 f   hdbreak.obj
+ 0001:0000288c       ?ReadInstruction@BreakpointImpl@@QAAJXZ 1000388c f   hdbreak.obj
+ 0001:00002928       ?Disable@BreakpointImpl@@QAAJXZ 10003928 f   hdbreak.obj
+ 0001:00002958       ?Disable@BreakpointImpl@@SAJPAUBreakpoint@@@Z 10003958 f   hdbreak.obj
+ 0001:0000295c       ?OnEmbeddedBreakpoint@@YAHXZ 1000395c f   hdbreak.obj
+ 0001:00002a90       ?SetState@BreakpointImpl@@QAAJW4BreakpointState@@@Z 10003a90 f   hdbreak.obj
+ 0001:00002b60       ?Enable@BreakpointImpl@@QAAJXZ 10003b60 f   hdbreak.obj
+ 0001:00002ba8       ?OnPageIn@BreakpointImpl@@SAHKKH@Z 10003ba8 f   hdbreak.obj
+ 0001:00002cb8       ?Delete@BreakpointImpl@@SAJPAUBreakpoint@@@Z 10003cb8 f   hdbreak.obj
+ 0001:00002d20       ?EnableAll@BreakpointImpl@@SAJXZ 10003d20 f   hdbreak.obj
+ 0001:00002d74       ?DisableAll@BreakpointImpl@@SAJXZ 10003d74 f   hdbreak.obj
+ 0001:00002dc4       ?Enable@BreakpointImpl@@SAJPAUBreakpoint@@@Z 10003dc4 f   hdbreak.obj
+ 0001:00002dc8       ?SetState@BreakpointImpl@@SAJPAUBreakpoint@@W4BreakpointState@@@Z 10003dc8 f   hdbreak.obj
+ 0001:00002dcc       ?Add@BreakpointImpl@@SAJPAUMEMADDR@@KHPAPAUBreakpoint@@@Z 10003dcc f   hdbreak.obj
+ 0001:00002f3c       ?DataBreakpointsInit@@YAXXZ 10003f3c f   hddatabreakpoint.obj
+ 0001:00002ffc       ?UpdatePagePermissions@@YAJPAU_DATA_BREAKPOINT_PAGE@@@Z 10003ffc f   hddatabreakpoint.obj
+ 0001:000030dc       ?FreeDataBreakpointPage@@YAJPAU_DATA_BREAKPOINT_PAGE@@@Z 100040dc f   hddatabreakpoint.obj
+ 0001:00003134       ?AllocDataBreakpointPage@@YAJPAU_PROCESS@@KPAPAU_DATA_BREAKPOINT_PAGE@@@Z 10004134 f   hddatabreakpoint.obj
+ 0001:00003298       ?FindUnusedDataBp@@YAJPAKH@Z 10004298 f   hddatabreakpoint.obj
+ 0001:00003350       ?EnableDataBreakpoint@@YAJK@Z 10004350 f   hddatabreakpoint.obj
+ 0001:00003450       ?DisableDataBreakpoint@@YAJK@Z 10004450 f   hddatabreakpoint.obj
+ 0001:00003534       ?IsAccessViolation@@YAHKH@Z 10004534 f   hddatabreakpoint.obj
+ 0001:000035a8       ?FindDataBreakpoint@@YAKPAU_PROCESS@@KH@Z 100045a8 f   hddatabreakpoint.obj
+ 0001:00003670       ?FindSWDataBreakpointsOnPage@@YAKPAU_PROCESS@@KH@Z 10004670 f   hddatabreakpoint.obj
+ 0001:000036e8       ?FindHWDataBreakpointsOnPage@@YAKPAU_PROCESS@@KH@Z 100046e8 f   hddatabreakpoint.obj
+ 0001:0000374c       ?EnableDataBreakpointsOnPage@@YAKPAU_PROCESS@@K@Z 1000474c f   hddatabreakpoint.obj
+ 0001:00003800       ?DisableSWDataBreakpointsOnPage@@YAKPAU_PROCESS@@K@Z 10004800 f   hddatabreakpoint.obj
+ 0001:0000386c       ?DisableHWDataBreakpointsOnPage@@YAKPAU_PROCESS@@K@Z 1000486c f   hddatabreakpoint.obj
+ 0001:000038cc       ?DisableDataBreakpointsOnPage@@YAKPAU_PROCESS@@K@Z 100048cc f   hddatabreakpoint.obj
+ 0001:000038f4       ?ToggleAllDataBreakpoints@@YAKH@Z 100048f4 f   hddatabreakpoint.obj
+ 0001:0000394c       ?EnableAllDataBreakpoints@@YAKXZ 1000494c f   hddatabreakpoint.obj
+ 0001:00003954       ?DisableAllDataBreakpoints@@YAKXZ 10004954 f   hddatabreakpoint.obj
+ 0001:0000395c       ?DeleteDataBreakpoint@@YAJK@Z 1000495c f   hddatabreakpoint.obj
+ 0001:00003a3c       ?DataBreakpointTrap@@YAHPAU_EXCEPTION_RECORD@@PAU_CONTEXT@@HPAH@Z 10004a3c f   hddatabreakpoint.obj
+ 0001:00003b70       ?DataBreakpointVMPageOut@@YAHKK@Z 10004b70 f   hddatabreakpoint.obj
+ 0001:00003c28       ?HdstubIsDataBreakpoint@@YAHKH@Z 10004c28 f   hddatabreakpoint.obj
+ 0001:00003cd0       ?HdstubCommitHWDataBreakpoints@@YAXXZ 10004cd0 f   hddatabreakpoint.obj
+ 0001:00003d6c       ?AddDataBreakpoint@@YAJPAU_PROCESS@@KKHHHPAK@Z 10004d6c f   hddatabreakpoint.obj
+ 0001:00003fe0       memcpy                     10004fe0 f   fulllibc:memcpy.obj
+ 0001:00004980       memset                     10005980     fulllibc:memset.obj
+ 0001:00004a08       __GSHandlerCheckCommon     10005a08 f   fulllibc:gshandler.obj
+ 0001:00004a44       __GSHandlerCheck           10005a44 f   fulllibc:gshandler.obj
+ 0001:00004a64       __security_check_cookie    10005a64 f   fulllibc:armsecgs.obj
+ 0001:00004a74       __gsfailure                10005a74     fulllibc:armsecgs.obj
+ 0001:00004ab8       __C_specific_handler       10005ab8 f   fulllibc:chandler.obj
+ 0001:00004c0c       memcmp                     10005c0c     fulllibc:memcmp.obj
+ 0001:00004cd8       __C_ExecuteExceptionFilter 10005cd8     fulllibc:jmpuwind.obj
+ 0001:00004cd8       __C_ExecuteTerminationHandler 10005cd8 f   fulllibc:jmpuwind.obj
+ 0001:00004d18       __report_gsfailure         10005d18 f   gsnull:gsnull.obj
+ 0002:0000001c       ?g_dwModInitCount@@3KA     1000601c     hdstub.obj
+ 0002:00000020       ?DebuggerData@@3UDEBUGGER_DATA@@A 10006020     hdstub.obj
+ 0002:00000338       dpCurSettings              10006338     hdstub_dbg.obj
+ 0002:0000077c       ?fDisableAllOnHalt@BreakpointImpl@@2HA 1000677c     hdbreak.obj
+ 0002:00000780       __security_cookie          10006780     gsnull:gsnull.obj
+ 0002:00000784       __security_cookie_complement 10006784     gsnull:gsnull.obj
+ 0002:00000788       ?gIIE@@3PAUIllegalInstructionException@@A 10006788     hdstub.obj
+ 0002:00000888       ?g_hInstance@@3PAUHINSTANCE__@@A 10006888     hdstub.obj
+ 0002:0000088c       ?EntranceCount@@3KA        1000688c     hdstub.obj
+ 0002:00000894       ?g_dw_mpic_idx@@3KA        10006894     hdstub.obj
+ 0002:00000898       ?g_mpic@@3PAUMP_IOCTL_CMD@@A 10006898     hdstub.obj
+ 0002:00000a18       ?g_fDoCommand@@3KC         10006a18     hdstub.obj
+ 0002:00000a48       ?Breakpoints@BreakpointImpl@@2PAU1@A 10006a48     hdbreak.obj
+ 0002:00002a48       ?RefCount@BreakpointImpl@@2PAEA 10008a48     hdbreak.obj
+ 0002:00002b48       ?Entries@ROMMap@@2PAU1@A   10008b48     hdbreak.obj
+ 0002:00002d08       ?CurrentlyDisabledBreakpoint@BreakpointImpl@@2PAU1@A 10008d08     hdbreak.obj
+ 0002:00002d10       ?g_SWDataBreakpointPages@@3PAU_DATA_BREAKPOINT_PAGE@@A 10008d10     hddatabreakpoint.obj
+ 0002:00002db0       ?g_DataBreakpointTable@@3PAU_DATA_BREAKPOINT_ENTRY@@A 10008db0     hddatabreakpoint.obj
+ 0002:00002ef0       ?g_dwNumSwDBP@@3KA         10008ef0     hddatabreakpoint.obj
+ 0002:00002ef4       ?g_dwNumHwDBP@@3KA         10008ef4     hddatabreakpoint.obj
+ 0002:00002ef8       ?g_dwMAXHwDBP@@3KA         10008ef8     hddatabreakpoint.obj
+
+ entry point at        0001:00000ee4
+
+ Static symbols
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!--
+Copyright (c) Microsoft Corporation.  All rights reserved.
+-->
+<!--
+Use of this sample source code is subject to the terms of the Microsoft
+license agreement under which you licensed this sample source code. If
+you did not accept the terms of the license agreement, you are not
+authorized to use this sample source code. For the terms of the license,
+please see the license agreement between you and Microsoft or, if applicable,
+see the LICENSE.RTF on your install media or the root of your tools installation.
+THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+-->
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+    <specVersion>
+        <major>1</major>
+        <minor>0</minor>
+    </specVersion>
+    <device>
+        <deviceType>urn:microsoft-com:device:mtp:1</deviceType>
+        <pnpx:X_compatibleId xmlns:pnpx="http://schemas.microsoft.com/windows/pnpx/2005/11">
+            urn:microsoft-com:device:mtp:1
+        </pnpx:X_compatibleId>
+        <friendlyName>XMS MTP (%1!s!)</friendlyName>
+        <modelDescription>MTP endpoint for Microsoft Cross-Platform Media Solution (XMS)</modelDescription>
+        <manufacturer>Microsoft Corporation</manufacturer>
+        <manufacturerURL>http://www.microsoft.com</manufacturerURL>
+        <modelName>XMS-MTP-IP</modelName>
+        <modelNumber>v0.9</modelNumber>
+        <UDN>uuid:0a599b7c-cc3c-41c0-8465-b22060ccdcbb</UDN>
+        <serviceList>
+            <service>
+                <serviceType>urn:microsoft-com:service:MtpNullService:1</serviceType>
+                <serviceID>urn:microsoft-com:serviceId:MtpNullServiceId</serviceID>
+                <SCPDURL>MTPIPService.xml</SCPDURL>
+                <controlURL>/MtpNullServiceControl</controlURL>
+                <eventSubURL></eventSubURL>
+            </service>
+        </serviceList>
+    </device>
+</root>

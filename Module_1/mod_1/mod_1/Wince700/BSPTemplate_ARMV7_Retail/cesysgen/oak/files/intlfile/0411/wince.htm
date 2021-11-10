@@ -1,0 +1,1239 @@
+<!--
+Copyright (c) Microsoft Corporation.  All rights reserved.
+-->
+<!--
+Use of this source code is subject to the terms of the Microsoft end-user
+license agreement (EULA) under which you licensed this SOFTWARE PRODUCT.
+If you did not accept the terms of the EULA, you are not authorized to use
+this source code. For a copy of the EULA, please see the LICENSE.RTF on your
+install media.
+-->
+<!DOCTYPE HTML PUBLIC"-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Htm-Help" CONTENT="wince.htm#Main_Contents" charset=shift_jis>
+<TITLE>Windows Embedded Compact の基礎知識</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<!-- PegHelp -->
+
+<P><A NAME="Main_Contents"></A><b>Windows Embedded Compact の基礎知識</b></P><UL></UL>
+
+<A HREF="wince.htm#UsingPrograms">プログラムの起動</A><BR>
+<A HREF="wince.htm#view_toolbar_button">コンテキスト ヘルプの使用</A><BR>
+<A HREF="wince.htm#contextmenu">コンテキスト メニューの表示</A><BR>
+<A HREF="wince.htm#reading_taskbar_icons">タスク バーのインジケータ</A><BR>
+<A HREF="wince.htm#switch_between_menu_and_toolbar_display">メニューとツール バー表示の切り替え</A><BR>
+<A HREF="wince.htm#move_data">メモリ カードへのファイルの移動</A><BR>
+<A HREF="wince.htm#windows_explorer_help">エクスプローラの使用</A><BR>
+<A HREF="wince.htm#pocket_internet_explorer">Pocket Internet Explorer の使用</A><BR>
+<A HREF="wince.htm#protecting">重要な情報の保護</A><BR>
+<A HREF="wince.htm#index">キーワード</A><BR>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+
+<!-- ************************Topic Break************************* -->
+
+
+<P><A NAME="UsingPrograms"></A><B>プログラムの起動</B></P><UL></UL>
+
+<P>デスクトップにアイコンがないプログラムを起動するには、[スタート] ボタンを選択し、[プログラム] を選択し、目的のプログラム名を選択します。</P>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+
+<!-- ************************Topic Break************************* -->
+
+<A NAME="view_toolbar_button"></A><B>コンテキスト ヘルプの使用</B>
+
+<UL>
+<LI>使用中のプログラムやダイアログ ボックスに関する情報を参照するには、プログラムまたはダイアログ ボックスの [?] ボタンを選択します。
+<LI> ツール バーのボタン名を参照するには、ボタンをスタイラスでタップして押したままにします。ボタンに関連付けられたコマンドが実行されないようにするには、スタイラスを押したままボタン以外の場所にドラッグしてから放します。
+<LI> マウスを使用してツールバー ボタンの名前を表示するには、マウス ポインタをボタンの上に移動します。
+</UL>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+
+<!-- ************************Topic Break************************* -->
+
+<A NAME="contextmenu"></A><B>コンテキスト メニューの表示</B><BR>
+
+<UL>
+<LI>スタイラスを使用している場合は、Alt キーをタップし、コンテキスト メニューを開くアイテムをタップします。
+<li>マウスを使用している場合は、コンテキスト メニューを開くアイテムを右クリックします。
+</UL>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+
+<!-- ************************Topic Break************************* -->
+
+<A NAME="reading_taskbar_icons"></A><B>タスク バーのインジケータ</B><UL></UL>
+
+<P>タスク バーのインジケータに関する説明を次の表に示します。表示されるインジケータは、モバイル デバイスの製造元の設定によって異なります。</P><UL></UL>
+
+<B>バッテリ インジケータ</B><BR>
+<TABLE BORDER=1>
+<TR><TD ALIGN=CENTER><B>インジケータ</B></TD><TD ALIGN=CENTER><B>意味</B></TD></TR>
+<TR>
+<TD ALIGN=CENTER VALIGN=MIDDLE><IMG HEIGHT=9 WIDTH=16 SRC="batlow.2bp"></TD>
+<TD ALIGN=LEFT VALIGN=MIDDLE>バックアップ バッテリの残りが少なくなっています。</TD>
+</TR>
+<TR>
+<TD ALIGN=CENTER VALIGN=MIDDLE><IMG HEIGHT=16 WIDTH=16 SRC="bvlow.2bp"></TD>
+<TD ALIGN=LEFT VALIGN=MIDDLE>バックアップ バッテリの残りがほとんどなくなっています。</TD>
+</TR>
+<TR>
+<TD ALIGN=CENTER VALIGN=MIDDLE><IMG HEIGHT=15 WIDTH=16 SRC="batchg.2bp"></TD>
+<TD ALIGN=LEFT VALIGN=MIDDLE>メイン バッテリを充電しています。</TD>
+</TR>
+<TR>
+<TD ALIGN=CENTER VALIGN=MIDDLE><IMG HEIGHT=16 WIDTH=16 SRC="mainlow.2bp"></TD>
+<TD ALIGN=LEFT VALIGN=MIDDLE>メイン バッテリの残りが少なくなっています。</TD>
+</TR>
+<TR>
+<TD ALIGN=CENTER VALIGN=MIDDLE><IMG HEIGHT=16 WIDTH=16 SRC="mvlow.2bp"></TD>
+<TD ALIGN=LEFT VALIGN=MIDDLE>メイン バッテリの残りがほとんどなくなっています。</TD>
+</TR>
+<TR>
+<TD ALIGN=CENTER VALIGN=MIDDLE><IMG HEIGHT=16 WIDTH=16 SRC="srcnt.2bp"></TD>
+<TD ALIGN=LEFT VALIGN=MIDDLE>外部電源 (AC) が接続されています。</TD>
+</TR>
+</TABLE>
+
+<UL></UL>
+
+<B>通信インジケータ</B><BR>
+<TABLE BORDER=1>
+<TR><TD ALIGN=CENTER><B>インジケータ</B></TD><TD ALIGN=CENTER><B>意味</B></TD>
+</TR>
+<TR>
+<TD ALIGN=CENTER VALIGN=MIDDLE><IMG HEIGHT=32 WIDTH=32 SRC="dialcnct.2bp"></TD><TD ALIGN=LEFT VALIGN=MIDDLE>ダイヤルアップ接続</TD>
+</TR>
+<TR>
+<TD ALIGN=CENTER VALIGN=MIDDLE><IMG HEIGHT=32 WIDTH=32 SRC="drtcnct.2bp"></TD>
+<TD ALIGN=LEFT VALIGN=MIDDLE>ケーブル接続</TD>
+</TR>
+</TABLE><BR><OL></OL>
+
+
+<B>関連項目</B><BR>
+<A HREF="ctpnl.htm#hide_the_taskbar">タスク バーの非表示</A><BR>
+<A HREF="ctpnl.htm#change_the_taskbar_settings">タスク バーの設定の変更</A><BR>
+
+
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+
+<!-- ************************Topic Break************************* -->
+<A NAME="switch_between_menu_and_toolbar_display"></A><B>メニューとツール バー表示の切り替え</B><UL></UL>
+
+<P>メニューやツール バーの表示を変えるには、ツール バーの移動ハンドルを使います。<BR>
+<IMG HEIGHT=24 WIDTH=9 SRC="wgripper.2bp">
+<UL>
+<LI>メニューとツール バーのボタンをすばやく切り替えるには、移動ハンドルを選択します。
+<LI>移動ハンドルを左右にドラッグすると、メニューやツール バーの表示を調節できます。<BR>
+<LI>メニューとツール バーのボタンの両方を表示するには、移動ハンドルをメニュー バーの下へドラッグします。
+</UL></P>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+
+<!-- ************************Topic Break************************* -->
+
+<P><A NAME="move_data"></A><B>メモリ カードへのファイルの移動</B>
+
+<OL>
+<LI>移動するファイルを開きます。
+<LI>[ファイル] メニューの [名前を付けて保存] を選択します。
+<LI>メモリ カードのフォルダにファイルを保存します。
+</OL>
+
+<BR><!-- PegHelp --><HR>
+
+
+
+
+
+<!-- ************************Topic Break************************* -->
+
+<A NAME="windows_explorer_help"></A><B>エクスプローラの使用</B></P><UL></UL>
+
+<P>モバイル デバイスのエクスプローラは、PC の Windows エクスプローラと同じように使用できます。モバイル デバイスのエクスプローラの機能については、下の項目を参照してください。</P><UL></UL>
+
+<A HREF="wince.htm#navigating_in_file_view">ファイル表示画面での操作</A><BR>
+<A HREF="wince.htm#view_files_as_icons_or_as_a_list">ファイルのアイコン表示と一覧表示</A><BR>
+<A HREF="wince.htm#working_with_files_and_folders">ファイルとフォルダの操作</A><BR>
+<A HREF="wince.htm#create_a_desktop_shortcut">ショートカットをデスクトップに作成</A><BR>
+<A HREF="wince.htm#switching_to_the_internet">インターネットへの切り替え</A><BR>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* -->
+
+<A NAME="navigating_in_file_view"></A><B>ファイル表示画面での操作</B></P><UL></UL>
+
+<A HREF="wince.htm#go_to_the_previous_folder">前に表示していたフォルダに戻る</A><BR>
+<A HREF="wince.htm#go_to_the_my_documents_folder">[移動] メニューの使用</A><BR>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* -->
+
+<A NAME="go_to_the_previous_folder"></A><B>前に表示していたフォルダに戻る</B>
+
+
+<UL>
+<LI>直前に表示していたフォルダに戻るには、[移動] メニューの [戻る] を選択します。
+<LI>戻る前に表示していたフォルダに移動するには、[移動] メニューの [進む] を選択します。
+</UL>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* -->
+
+<A NAME="go_to_the_my_documents_folder"></A><B>[移動] メニューの使用</B>
+
+<UL>
+<LI>My Documents フォルダをすばやく表示するには、[移動] メニューの [My Documents] を選択します。
+<LI>以前に表示したフォルダをすべて確認するには、[移動] メニューの [履歴] を選択します。一覧に表示されたフォルダを表示するには、フォルダ名をダブルタップまたはダブルクリックします。
+</UL>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* -->
+
+<A NAME="view_files_as_icons_or_as_a_list"></A><B>ファイルのアイコン表示と一覧表示</B>
+
+<OL>
+<LI>アイコンで表示するには、[表示] メニューの [大きいアイコン] または [小さいアイコン] を選択します。
+<LI>一覧で表示するには、[表示] メニューの [詳細] を選択します。
+</OL>
+
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* -->
+
+<A NAME="working_with_files_and_folders"></A><B>ファイルとフォルダの操作</B><UL></UL>
+
+<A HREF="wince.htm#create_a_new_folder">フォルダの作成</A><BR>
+<A HREF="wince.htm#add_a_folder_to_your_favorites_list">お気に入りの一覧へのフォルダの追加</A><BR>
+<A HREF="wince.htm#sendir">赤外線通信によるファイルの転送</A><BR>
+
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* -->
+
+<A NAME="create_a_new_folder"></A><B>フォルダの作成</B>
+
+<OL>
+<LI>必要に応じて、新しく作成するフォルダを入れるフォルダを開きます。
+<LI>[ファイル] メニューの [新しいフォルダ] を選択します。
+</OL>
+
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* -->
+
+<A NAME="add_a_folder_to_your_favorites_list"></A><B>お気に入りの一覧へのフォルダの追加</B><BR>
+
+<OL>
+<LI>目的のフォルダを開きます。
+<LI>[お気に入り] メニューの [お気に入りに追加] を選択します。
+<LI>[名前] ボックスにショートカットの名前を入力します。
+</OL>
+
+<B>ヒント</B>
+<UL>
+<LI>お気に入りの一覧に追加したファイルやフォルダを開くには、[お気に入り] メニューを選択し、目的の項目を選択します。
+<LI>お気に入りの一覧を整理するには、[お気に入り] メニューの [お気に入りの整理] を選択します。
+</UL>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* -->
+
+
+<!-- This text appears in Contacts, Note Taker, Voice Recorder, and Windows Explorer information in wince.htm.  If it is updated in one help file it should be updated in all the help files.  We are repeating the text because we don't know which programs the OEM's will ship.  4/23/98 SB -->
+
+<A NAME="sendir"></A><B>赤外線通信によるファイルの転送</B><BR>
+
+<UL>
+<LI>ファイルを送信する場合は、ファイルを選択し、[ファイル] メニューの [送る] を選択し、[赤外線の受信先] を選択します。このとき、送受信側双方の赤外線ポートがまっすぐに向き合うようにモバイル デバイスを配置します。
+<LI>ファイルを受信する場合は、[ファイル] メニューの [受信] を選択します。このとき、送受信側双方の赤外線ポートがまっすぐに向き合うようにモバイル デバイスを配置します。
+</UL>
+
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* -->
+
+
+<A NAME="create_a_desktop_shortcut"></A><B>ショートカットをデスクトップに作成</B>
+
+<OL>
+<LI>ショートカットを作成するファイルまたは Web ページを表示します。
+<LI>[ファイル] メニューの [送る] を選択します。
+<LI>[デスクトップのショートカット] を選択します。
+</OL>
+
+<UL></UL>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+
+<!-- ************************Topic Break************************* -->
+
+
+<A NAME="switching_to_the_internet"></A><B>インターネットへの切り替え</B>
+
+<UL>
+<LI>アドレス バーに URL を入力します。
+</UL>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* -->
+
+<P><A NAME="pocket_internet_explorer"></A><B>Pocket Internet Explorer の使用</B></P><UL></UL>
+
+
+<A HREF="wince.htm#overview">Pocket Internet Explorer について</A><BR>
+<A HREF="wince.htm#getting_connected">接続の開始</A><BR>
+<A HREF="wince.htm#viewing_pages_on_the_internet">Web サイトの検索とブラウズ</A><BR>
+<A HREF="wince.htm#saving,_storing,_and_sending_web_pages">Web ページの保存、保管、およびコピー</A><BR>
+<A HREF="wince.htm#securityfeatures">セキュリティ機能の使用</A><BR>
+<A HREF="wince.htm#changing_the_pocket_internet_explorer_display">Pocket Internet Explorer の表示の変更</A><BR>
+<A HREF="wince.htm#index">キーワード</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* -->
+
+
+<A NAME="overview"></A><B>Pocket Internet Explorer について</B><BR><UL></UL>
+
+
+<P>Pocket Internet Explorer を使うと、インターネットやイントラネットの Web ページをモバイル デバイスで表示することができます。インターネット サービス プロバイダ (ISP) やネットワークに接続するには、モデムまたはイーサネット カードが必要です。</P><UL></UL>
+
+
+<B>関連項目</B><BR>
+<A HREF="wince.htm#getting_connected">接続の開始</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+
+<A NAME="getting_connected"></A><B>接続の開始</B><UL></UL>
+
+<A HREF="wince.htm#connect_to_the_internet">インターネットへの接続</A><BR>
+<A HREF="wince.htm#set_up_an_automatic_internet_connection">インターネットへの自動接続の設定</A><BR>
+<A HREF="wince.htm#change_the_proxy_server_setting">プロキシ サーバーの設定</A><BR>
+<A HREF="wince.htm#enable_custom_viewing_cookies">cookie の使用</A><BR>
+
+
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+
+<P><A NAME="connect_to_the_internet"></A><B>インターネットへの接続</B></P><UL></UL>
+
+
+<P>Web ページを表示するには、ISP またはネットワークへのリモート接続をセットアップする必要があります。ISP またはネットワークへの接続のセットアップについては、「<A HREF="rnetw.htm#Main_Contents">リモート接続のヘルプ</A>」 を参照してください。</P>
+
+<OL>
+<LI>[スタート] ボタンを選択し、[プログラム] を選択します。次に、[通信] を選択し、[リモート ネットワーク] を選択します。次に、使用する接続をダブルタップまたはダブルクリックします。
+<LI>必要なユーザー情報を入力します。ダイヤル方法を変更する必要がある場合は、コントロール パネルの [ダイヤルのプロパティ] を選択します。
+<LI>[接続] を選択します。
+</OL>
+
+<P><B>メモ</B>  接続に問題がある場合は、プロキシ サーバーを経由してインターネットにアクセスするように設定しなければならない可能性があります。</P><UL></UL>
+
+<B>関連項目</B><BR>
+<A HREF="wince.htm#change_the_proxy_server_setting">プロキシ サーバーの設定</A><BR>
+
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+<P><A NAME="set_up_an_automatic_internet_connection"></A><B>インターネットへの自動接続の設定</B></P><UL></UL>
+
+<P>インターネットへの自動接続を設定すると、Pocket Internet Explorer からインターネットや企業内ネットワークにアクセスする必要があるときに、指定したリモート接続の電話番号に自動的にダイヤルされます。</P>
+
+<OL>
+<LI>[表示] メニューの [オプション] を選択し、[オートダイヤル] タブを選択します。
+<LI>[オートダイヤルの使用] チェック ボックスをオンにします。
+<LI>使用する<A HREF="rnetw.htm#Main_Contents">リモート接続</A>を選択します。
+<LI>[自動切断] チェック ボックスをオンにすると、一定のアイドル時間の経過後にインターネットとの接続を自動的に解除するように設定できます。アイドル時間とは、モバイル デバイスを使用していない時間を指します。
+<LI>[切断までのアイドル時間] ボックスでインターネットとの接続を解除するまでのアイドル時間を指定します。
+</OL>
+
+<B>関連項目</B><BR>
+<A HREF="wince.htm#connect_to_the_internet">インターネットへの接続</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+
+
+<A NAME="change_the_proxy_server_setting"></A><B>プロキシ サーバーの設定</B><UL></UL>
+
+<P>プロキシ サーバーは、企業内ネットワークなどのローカル ネットワークからインターネットに接続するときに、セキュリティを強化するために一般的に使われます。</P>
+
+<OL>
+<LI>[表示] メニューの [オプション] を選択し、[プロキシ サーバー] タブを選択します。
+<LI>[プロキシを使用] チェック ボックスをオンにします。
+<LI>使用するプロキシ サーバーのアドレスとポートを入力します。詳細については、ネットワーク管理者にお問い合わせください。
+<LI>イントラネットのページなど、ローカルのアドレスにはプロキシ サーバーを使用しないように設定するには、[ローカル アドレスにはプロキシを使用しない] チェック ボックスをオンにします。
+</OL>
+
+<B>関連項目</B><BR>
+<A HREF="wince.htm#connect_to_the_internet">インターネットへの接続</A><BR>
+<A HREF="wince.htm#change_security_options">セキュリティ オプションの選択</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+<A NAME="enable_custom_viewing_cookies"></A><B>cookie の使用</B><UL></UL>
+
+<P>cookie のファイルには、ユーザーの識別情報と設定が保存されており、ユーザーの目的に合ったページを表示するために Web サイトによって利用されます。cookie のファイルは Web サイトから送信され、モバイル デバイスに保存されます。</P>
+
+<OL>
+<LI>[表示] メニューの [オプション] を選択し、[詳細設定] タブを選択します。
+<LI>[Cookie を使用] チェック ボックスをオンにします。
+</OL>
+
+<B>関連項目</B><BR>
+<A HREF="wince.htm#change_security_options">セキュリティ オプションの選択</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+
+<A NAME="viewing_pages_on_the_internet"></A><B>Web サイトの検索とブラウズ</B><UL></UL>
+
+
+<A HREF="wince.htm#search_for_an_internet_site">インターネット サイトの検索</A> <BR>
+<A HREF="wince.htm#go_to_an_internet_address">インターネット アドレスを指定してページを表示</A><BR>
+<A HREF="wince.htm#view_previously_visited_sites">以前に表示したサイトの表示</A><BR>
+<A HREF="wince.htm#add_an_item_to_your_favorites_list">お気に入りの一覧へのページの追加</A><BR>
+<A HREF="wince.htm#go_to_the_next_page">Web ページのブラウズ</A><BR>
+<A HREF="wince.htm#refresh">現在のページの更新</A><BR>
+<A HREF="wince.htm#stop_loading_a_page">ページの読み込みの中止</A><BR>
+<A HREF="wince.htm#view_information_about_the_current_page">現在のページの情報の表示</A><BR>
+<A HREF="wince.htm#viewhtml">HTML のソースの表示</A><BR>
+<A HREF="wince.htm#change_home_and_search_page_settings">ホーム ページと検索ページの変更</A><BR>
+
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+
+<A NAME="search_for_an_internet_site"></A><B>インターネット サイトの検索</B>
+
+<UL>
+<LI>[移動] メニューの [Web の検索] を選択します。
+</UL>
+
+<B>関連項目</B><BR>
+<A HREF="wince.htm#change_home_and_search_page_settings">ホーム ページと検索ページの変更</A><BR>
+
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+
+<A NAME="go_to_an_internet_address"></A><B>インターネット アドレスを指定してページを表示</B>
+
+<OL>
+<LI>アドレス バーが表示されていない場合は、[表示] メニューの [アドレス バー] を選択します。
+<LI>アドレスを入力します。
+<LI><B>Enter</B> キーを押します。
+</OL>
+
+<B>関連項目</B><BR>
+<A HREF="wince.htm#add_an_item_to_your_favorites_list">お気に入りの一覧へのページの追加</A><BR>
+<A HREF="wince.htm#go_to_the_next_page">Web ページのブラウズ</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+
+
+<A NAME="view_previously_visited_sites"></A><B>以前に表示したサイトの表示</B>
+
+<OL>
+<LI>[移動] メニューの [履歴] を選択します。
+<LI>目的のページを選択します。
+</OL>
+
+<B>関連項目</B><BR>
+<A HREF="wince.htm#add_an_item_to_your_favorites_list">お気に入りの一覧へのページの追加</A><BR>
+<A HREF="wince.htm#go_to_an_internet_address">インターネット アドレスを指定してページを表示</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+
+<A NAME="add_an_item_to_your_favorites_list"></A><B>お気に入りの一覧へのページの追加</B>
+
+<OL>
+<LI>お気に入りの一覧に追加するページに移動します。
+<LI>[お気に入り] メニューの [お気に入りに追加] を選択します。
+<LI>必要に応じて、ショートカットを保存するフォルダを選択します。
+<LI>必要に応じて、ショートカットの名前を変更します。
+</OL>
+
+<UL>
+<LI>お気に入りの一覧に追加した Web サイトを表示するには、[お気に入り] メニューを選択し、目的の Web サイトを選択します。
+</UL>
+
+<P><B>メモ</B>  お気に入りの一覧を整理するには、[お気に入り] メニューの [お気に入りの整理] を選択します。</P><UL></UL>
+
+<B>関連項目</B><BR>
+<A HREF="wince.htm#go_to_an_internet_address">インターネット アドレスを指定してページを表示</A><BR>
+<A HREF="wince.htm#view_previously_visited_sites">以前に表示したサイトの表示</A><BR>
+
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+
+<A NAME="go_to_the_next_page"></A><B>Web ページのブラウズ</B>
+
+<UL>
+<LI>直前に表示していたページに戻るには、[移動] メニューの [戻る] を選択します。
+<LI>戻る前に表示していたページに移動するには、[移動] メニューの [進む] を選択します。
+<LI>自分のホーム ページに戻るには、[移動] メニューの [ホーム ページ] を選択します。
+</UL>
+
+<B>関連項目</B><BR>
+<A HREF="wince.htm#refresh">現在のページの更新</A><BR>
+<A HREF="wince.htm#stop_loading_a_page">ページの読み込みの中止</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+<A NAME="refresh"></A><B>現在のページの更新</B><BR>
+
+<UL>
+<LI>[表示] メニューの [最新の情報に更新] を選択します。
+</UL>
+
+<B>関連項目</B><BR>
+<A HREF="wince.htm#go_to_the_next_page">Web ページのブラウズ</A><BR>
+<A HREF="wince.htm#stop_loading_a_page">ページの読み込みの中止</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+<A NAME="stop_loading_a_page"></A><B>ページの読み込みの中止</B>
+
+<UL>
+<LI>[表示] メニューの [停止] を選択します。
+</UL>
+
+<B>関連項目</B><BR>
+<A HREF="wince.htm#go_to_the_next_page">Web ページのブラウズ</A><BR>
+<A HREF="wince.htm#refresh">現在のページの更新</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+
+<A NAME="view_information_about_the_current_page"></A><B>現在のページの情報の表示</B>
+
+<OL>
+<LI>[ファイル] メニューの [プロパティ] を選択します。
+<LI>プロトコル、ページの種類、サイズ、および URL を表示するには、[全般] タブを選択します。
+<LI>ページのセキュリティに関する情報を表示するには、[セキュリティ] タブを選択します。
+</OL>
+
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+<A NAME="viewhtml"></A><B>HTML のソースの表示</B><BR>
+
+<OL>
+<LI>目的のページを表示し、[ファイル] メニューの [名前を付けて保存] を選択してページを .txt ファイルとして保存します。
+<LI>保存したファイルを ワードパッドなどのワード プロセッサで開きます。
+</OL>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+<A NAME="change_home_and_search_page_settings"></A><B>ホーム ページと検索ページの変更</B>
+
+<OL>
+<LI>ホーム ページまたは検索ページとして設定するページを表示します。
+<LI>[表示] メニューの [オプション] を選択し、[既定のページ] タブを選択します。
+<LI>一覧で [ホーム ページ] または [検索ページ] を選択します。
+<LI>[現在のページを使用] を選択します。
+</OL>
+
+<B>メモ</B>  ホーム ページや検索ページを標準の設定に戻すには、[既定のページを使用] を選択します。<UL></UL>
+
+<B>関連項目</B><BR>
+<A HREF="wince.htm#search_for_an_internet_site">インターネット サイトの検索</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+
+<!-- ************************Topic Break************************* -->
+
+
+<A NAME="saving,_storing,_and_sending_web_pages"></A><B>Web ページの保存、保管、およびコピー</B><UL></UL>
+
+
+<A HREF="wince.htm#save_a_copy_of_the_current_page">現在のページのコピーの保存</A><BR>
+<A HREF="wince.htm#browse_stored_pages">キャッシュに格納されている Web ページをオフラインで表示</A><BR>
+<A HREF="wince.htm#adjust_settings_for_temporarily_storing_pages">
+キャッシュに使うメモリの調整</A><BR>
+<A HREF="wince.htm#copy_information_from_an_internet_site_to_a_document">Web ページからドキュメントへの情報のコピー</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+
+<A NAME="save_a_copy_of_the_current_page"></A><B>現在のページのコピーの保存</B><UL></UL>
+
+<P>Web ページを保存しておくと、インターネットやイントラネットから切断した後にキャッシュのメモリを使用せずに Web ページを表示することができます。</P>
+
+<OL>
+<LI>[ファイル] メニューの [名前を付けて保存] を選択します。
+<LI>ページを保存するフォルダを指定し、ファイル名を指定します。
+</OL>
+
+<P><B>メモ</B>
+<UL>
+<LI>画像は表示されません。また、リンクは機能しません。 
+<LI>フレームが使われている Web ページは表示されないか、フレーム構造だけが表示されます。
+<LI>フレームの各ページを保存するには、<B>Alt</B> キーを押しながらフレームの内部をタップまたはクリックし、コンテキスト メニューの [名前を付けて保存] または [名前を付けて画像を保存] を選択します。保存できないように設定されているフレームもあります。そのようなフレームは、保存した後にエクスプローラからいったん開くと表示できなくなります。
+</UL></P>
+
+<B>関連項目</B><BR>
+<A HREF="wince.htm#browse_stored_pages">キャッシュに格納されている Web ページをオフラインで表示</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+
+<A NAME="browse_stored_pages"></A><B>キャッシュに格納されている Web ページをオフラインで表示</B><UL></UL>
+
+<P>インターネットの Web ページを表示すると、Web ページは [マイ コンピュータ] フォルダの [Temp] フォルダにキャッシュとして格納されます。キャッシュに格納されている Web ページをブラウズすると、インターネット サイトに戻るよりもすばやく Web ページを表示できます。</P>
+
+<OL>
+<LI>切断する前に [ファイル] メニューの [オフラインで作業] を選択します。
+<LI>切断したら、[移動] メニューの [履歴] を選択します。
+<LI>表示する Web ページを選択します。
+</OL>
+
+<P><B>メモ</B>
+<UL>
+<LI>リンクは機能しません。
+<LI>キャッシュに格納されている Web ページをブラウズする場合、フレームが使われているページを表示すると、フレーム セットの最初のページしか表示されません。また、キャッシュに格納できないように設定されているフレームもあります。そのようなフレームは、キャッシュからいったん開くと表示されなくなります。
+</UL>
+
+<B>関連項目</B><BR>
+<A HREF="wince.htm#adjust_settings_for_temporarily_storing_pages">
+キャッシュに使うメモリの調整</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+
+<A NAME="adjust_settings_for_temporarily_storing_pages"></A><B>キャッシュに使うメモリの調整</B><UL></UL>
+
+<P>標準の設定では、Pocket Internet Explorer のキャッシュのサイズは、モバイル デバイスのデータ記憶用メモリの 10% に設定されています。メモリが不足する場合は、Pocket Internet Explorer のキャッシュを空にしてみてください。</P>
+
+<OL>
+<LI>[表示] メニューの [オプション] を選択し、[詳細設定] タブを選択します。
+<LI>キャッシュ (一時的な記憶領域への格納) を使用するには、[キャッシュを有効にする] チェック ボックスをオンにします。<BR>キャッシュを有効にすると、モバイル デバイスのメモリが消費されることに注意してください。
+<LI>[キャッシュ サイズ] のつまみを左右に移動してキャッシュに使用するメモリの容量を調整します。
+<LI>Pocket Internet Explorer の終了時に保存した Web ページを削除するように設定するには、[終了時にキャッシュを空にする] チェック ボックスをオンにします。
+<LI>すぐに Web ページを保存したフォルダを空にするには、[キャッシュを空にする] を選択します。
+</OL>
+
+
+<!-- See also choices reflect the fact that all three of these topics cover the Advanced tab.  Conext sensivity for the Advanced tab links to this topic.  -->
+
+<B>関連項目</B><BR>
+<A HREF="wince.htm#enable_custom_viewing_cookies">cookie の使用</A><BR>
+<A HREF="wince.htm#change_security_options">セキュリティ オプションの選択</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+
+<A NAME="copy_information_from_an_internet_site_to_a_document"></A><B>Web ページからドキュメントへの情報のコピー</B>
+
+<OL>
+<LI>目的の Web ページを表示し、コピーする情報を選択します。
+<LI>[編集] メニューの [コピー] を選択します。
+<LI>情報のコピー先ドキュメントに移動し、情報を貼り付ける位置を選択します。
+<LI>[編集] メニューの [貼り付け] を選択します。
+</OL>
+
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+<A NAME="securityfeatures"></A><B>セキュリティ機能の使用</B><UL></UL>
+
+<A HREF="wince.htm#securesites">セキュリティの概要</A><BR>
+<A HREF="wince.htm#change_security_options">セキュリティ オプションの選択</A><BR>
+
+
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+
+<A NAME="securesites"></A><B>セキュリティの概要</B><BR><UL></UL>
+
+<P>Pocket Internet Explorer は、安全なサイトで使われているセキュリティ プロトコルに対応しています。したがって、安全なサイトに対しては、個人情報を安全に送信できます。Web サイトが安全かどうか判断するには、ステータス バーを確認してください。安全な Web サイトのページを表示しているときには錠前のアイコンが表示されます。</P><UL></UL> 
+
+
+<B>関連項目</B><BR>
+<A HREF="wince.htm#change_security_options">セキュリティ オプションの選択</A><BR>
+
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+
+
+<A NAME="change_security_options"></A><B>セキュリティ オプションの選択</B>
+
+<OL>
+<LI>[表示] メニューの [オプション] を選択し、[詳細設定] タブを選択します。
+<LI>[セキュリティ設定] を選択します。
+<LI>使用するセキュリティ プロトコルを選択します。<BR>
+
+  <UL>
+  <LI><B>PCT</B> は Private Communications Technology の略で、Microsoft 社によって開発されたセキュリティ プロトコルで、SSL2 よりも安全性は非常に高くなります。Windows Embedded Compact OS は PCT をサポートしません。
+
+  <LI><B>SSL2</B> は Secured Sockets Layer Level 2 の略で、安全なデータ転送のためのオープンで標準的なプロトコルです。安全なインターネット サイトでは、このプロトコルがサポートされています。
+
+  <LI><B>SSL3</B> は Secured Sockets Layer Level 3 の略で、SSL2 よりも高い安全性を目標に開発されたセキュリティ プロトコルです。このプロトコルをサポートしていないインターネット サイトもあります。
+
+  </UL>
+</OL>
+
+
+<B>関連項目</B><BR>
+<A HREF="wince.htm#connect_to_the_internet">インターネットへの接続</A><BR>
+<A HREF="wince.htm#enable_custom_viewing_cookies">cookie の使用</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* -->
+
+<A NAME="aboutsecurity"></A><B>Web サイトが安全でない場合</B><BR><UL></UL>
+
+<!-- This is a hidden topic used for context sensitivity only. -->
+
+<P>証明がなく、安全が確認できない Web サイトを表示しようとしている場合、自分のモバイル デバイスとこの Web サイトに関する情報を基に、この Web サイトを表示するかどうかを判断してください。この Web サイトの安全性に確信を持てない場合は、[いいえ] を選択してください。</P><UL></UL>
+
+
+
+<B>関連項目</B><BR>
+<A HREF="wince.htm#securesites">セキュリティの概要</A><BR>
+<A HREF="wince.htm#change_security_options">セキュリティ オプションの選択</A><BR>
+
+
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+
+
+<A NAME="changing_the_pocket_internet_explorer_display"></A><B>Pocket Internet Explorer の表示の変更</B></P><UL></UL>
+
+
+<A HREF="wince.htm#change_the_font_size">フォント サイズの変更</A><BR>
+<A HREF="wince.htm#display_a_page_in_a_new_window">新しいウィンドウでのページの表示</A><BR>
+<A HREF="wince.htm#fit_the_page_to_the_window">ウィンドウに合わせてページを表示</A><BR>
+<A HREF="wince.htm#display_or_hide_the_address_bar">アドレス バーの表示と非表示</A><BR>
+<A HREF="wince.htm#change_the_default_appearance_of_pages">ページの標準的な外観の変更</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+
+<A NAME="change_the_font_size"></A><B>フォント サイズの変更</B>
+
+<UL>
+<LI>[表示] メニューの [フォント] を選択し、目的のサイズを選択します。
+</UL>
+
+<B>関連項目</B><BR>
+<A HREF="wince.htm#change_the_default_appearance_of_pages">ページの標準的な外観の変更</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+<A NAME="display_a_page_in_a_new_window"></A><B>新しいウィンドウでのページの表示</B>
+
+<UL>
+<LI>[ファイル] メニューの [新しいウィンドウ] を選択します。
+</UL>
+
+<B>関連項目</B><BR>
+<A HREF="wince.htm#fit_the_page_to_the_window">ウィンドウに合わせてページを表示</A><BR>
+
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+<A NAME="fit_the_page_to_the_window"></A><B>ウィンドウに合わせてページを表示</B>
+
+<UL>
+<LI>[表示] メニューの [ウィンドウに合わせる] を選択します。
+</UL>
+
+<B>関連項目</B><BR>
+<A HREF="wince.htm#display_a_page_in_a_new_window">新しいウィンドウでのページの表示</A><BR>
+<A HREF="wince.htm#change_the_default_appearance_of_pages">ページの標準的な外観の変更</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+<A NAME="display_or_hide_the_address_bar"></A><B>アドレス バーの表示と非表示</B>
+
+<UL>
+<LI>[表示] メニューの [アドレス バー] を選択します。
+</UL>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+
+<A NAME="change_the_default_appearance_of_pages"></A><B>ページの標準的な外観の変更</B>
+
+<OL>
+<LI>[表示] メニューの [オプション] を選択し、[表示] タブを選択します。
+<LI>目的のオプションを選択します。
+</OL>
+
+<P><B>メモ</B>  メモリを節約するには、[画像の表示] チェック ボックスと [サウンドの再生] チェック ボックスをオフにします。</P><UL></UL>
+
+<B>関連項目</B><BR>
+<A HREF="wince.htm#change_the_font_size">フォント サイズの変更</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+
+<A NAME="protecting"></A><B>重要な情報の保護</B><BR><UL></UL>
+
+<P>大切な連絡先の電話番号や、クレジット カード番号、機密情報など、モバイル デバイスに重要な情報を保存することがあります。このような重要な情報を保護するための方法を次に説明します。</P><UL></UL>
+
+<UL>
+<LI>デバイス ロック パスワードの使用<BR>
+自分またはその他の人がデバイスを使用するときにパスワードを入力しなければならないように設定できます。[スタート] ボタンを選択し、[設定] を選択します。次に、[コントロール パネル] を選択し、[パスワード] アイコンをダブルタップまたはダブルクリックします。<br><br>
+
+<B>重要</B><br> 自分が忘れないようなパスワードを選択してください。パスワードを忘れると、モバイル デバイスのフル リセットを行わない限り、モバイル デバイスを使用できなくなります。フル リセットを行うと、すべてのデータは失われます。<br><br>
+<LI>データのバックアップ<BR>
+バックアップ ファイルを作成し、モバイル デバイスのプログラム データを保管しておくことができます。たとえば、誤ってメイン バッテリとバックアップ バッテリを同時にはずしてしまい、データを失った場合でも、バックアップ ファイルからデータを復元することができます。 
+</UL>
+
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* -->
+
+
+
+<P><A NAME="index"></A><B>キーワード</B></P><UL></UL>
+
+<A HREF="wince.htm#enable_custom_viewing_cookies">cookies</A><BR>
+<A HREF="wince.htm#viewhtml">HTML コード, 表示</A><BR>
+<A HREF="wince.htm#browse_stored_pages">Web ページ, キャッシュされたページの表示</A><BR>
+<A HREF="wince.htm#copy_information_from_an_internet_site_to_a_document">Web ページ, ドキュメントへのコピー</A><BR>
+<A HREF="wince.htm#go_to_the_next_page">Web ページ, ブラウズ</A><BR>
+<A HREF="wince.htm#view_information_about_the_current_page">Web ページ, プロパティ</A><BR>
+<A HREF="wince.htm#change_the_default_appearance_of_pages">Web ページ, 外観</A><BR>
+<A HREF="wince.htm#refresh">Web ページ, 更新</A><BR>
+<A HREF="wince.htm#display_a_page_in_a_new_window">Web ページ, 新しいウィンドウの表示</A><BR>
+<A HREF="wince.htm#stop_loading_a_page">Web ページ, 読み込みの中止</A><BR>
+<A HREF="wince.htm#save_a_copy_of_the_current_page">Web ページ, 保存</A><BR>
+<A HREF="wince.htm#copy_information_from_an_internet_site_to_a_document">Web ページのコピー</A><BR>
+<A HREF="wince.htm#go_to_the_next_page">Web ページのブラウズ</A><BR>
+<A HREF="wince.htm#reading_taskbar_icons">アイコン, タスク バー</A><BR>
+<A HREF="wince.htm#view_files_as_icons_or_as_a_list">アイコン, ファイルの表示</A><BR>
+<A HREF="wince.htm#display_or_hide_the_address_bar">アドレス バー, 表示/非表示</A><BR>
+<A HREF="wince.htm#view_files_as_icons_or_as_a_list">一覧, ファイルの表示</A><BR>
+<A HREF="wince.htm#go_to_the_my_documents_folder">[移動] メニュー</A><BR>
+<A HREF="wince.htm#add_an_item_to_your_favorites_list">インターネット サイト, お気に入り</A><BR>
+<A HREF="wince.htm#go_to_an_internet_address">インターネット サイト, 移動</A><BR>
+<A HREF="wince.htm#search_for_an_internet_site">インターネット サイト, 検索</A><BR>
+<A HREF="wince.htm#view_previously_visited_sites">インターネット サイト, 履歴の表示</A><BR>
+<A HREF="wince.htm#search_for_an_internet_site">インターネット サイトの検索</A><BR>
+<A HREF="wince.htm#change_security_options">インターネット接続, セキュリティ オプション</A><BR>
+<A HREF="wince.htm#change_the_proxy_server_setting">インターネット接続, プロキシ サーバー</A><BR>
+<A HREF="wince.htm#set_up_an_automatic_internet_connection">インターネット接続, 自動</A><BR>
+<A HREF="wince.htm#connect_to_the_internet">インターネット接続</A><BR>
+<A HREF="wince.htm#add_an_item_to_your_favorites_list">[お気に入り] コマンド</A><BR>
+<A HREF="wince.htm#add_a_folder_to_your_favorites_list">お気に入りの一覧</A><BR>
+<A HREF="wince.htm#adjust_settings_for_temporarily_storing_pages">キャッシュ メモリ, 設定の調整</A><BR>
+<A HREF="wince.htm#browse_stored_pages">キャッシュ メモリ, 表示</A><BR>
+<A HREF="wince.htm#change_home_and_search_page_settings">検索の設定</A><BR>
+<A HREF="wince.htm#view_toolbar_button">コンテキスト ヘルプ</A><BR>
+<A HREF="wince.htm#refresh">[最新の情報に更新] コマンド</A><BR>
+<A HREF="wince.htm#contextmenu">ショートカット メニュー</A><BR>
+<A HREF="wince.htm#sendir">赤外線通信</A><BR>
+<A HREF="wince.htm#change_security_options">セキュリティ オプション</A><BR>
+<A HREF="wince.htm#connect_to_the_internet">接続</A><BR>
+<A HREF="wince.htm#set_up_an_automatic_internet_connection">接続, 自動</A><BR>
+<A HREF="wince.htm#change_security_options">接続, セキュリティ オプション</A><BR>
+<A HREF="wince.htm#change_the_proxy_server_setting">接続, プロキシ サーバー</A><BR>
+<A HREF="wince.htm#viewhtml">ソース コード, 表示</A><BR>
+<A HREF="wince.htm#reading_taskbar_icons">タスク バー アイコン</A><BR>
+<A HREF="wince.htm#switch_between_menu_and_toolbar_display">ツールバー, 切り替え</A><BR>
+<A HREF="wince.htm#create_a_desktop_shortcut">デスクトップ ショートカット</A><BR>
+<A HREF="wince.htm#view_files_as_icons_or_as_a_list">ファイル, アイコン表示</A><BR>
+<A HREF="wince.htm#view_files_as_icons_or_as_a_list">ファイル, 一覧表示</A><BR>
+<A HREF="wince.htm#sendir">ファイル, 赤外線通信による転送</A><BR>
+<A HREF="wince.htm#add_a_folder_to_your_favorites_list">フォルダ, お気に入りの一覧への追加</A><BR>
+<A HREF="wince.htm#create_a_new_folder">フォルダ, 作成</A><BR>
+<A HREF="wince.htm#change_the_font_size">フォント サイズ</A><BR>
+<A HREF="wince.htm#change_the_proxy_server_setting">プロキシ サーバー</A><BR>
+<A HREF="wince.htm#UsingPrograms">プログラム, 起動</A><BR>
+<A HREF="wince.htm#view_information_about_the_current_page">ページ プロパティ</A><BR>
+<A HREF="wince.htm#view_toolbar_button">ヘルプ, コンテキスト ヘルプ</A><BR>
+<A HREF="wince.htm#change_home_and_search_page_settings">ホーム ページ, 設定</A><BR>
+<A HREF="wince.htm#go_to_the_next_page">ホームページ</A><BR>
+<A HREF="wince.htm#protecting">保護情報</A><BR>
+<A HREF="wince.htm#go_to_the_next_page">[前へ] コマンド, Pocket Internet Explorer</A><BR>
+<A HREF="wince.htm#go_to_the_previous_folder">[前へ] コマンド, Windows エクスプローラ</A><BR>
+<A HREF="wince.htm#switch_between_menu_and_toolbar_display">メニュー, 切り替え</A><BR>
+<A HREF="wince.htm#move_data">メモリ カード, データの移動</A><BR>
+<A HREF="wince.htm#go_to_the_next_page">[戻る] コマンド, Pocket Internet Explorer</A><BR>
+<A HREF="wince.htm#go_to_the_previous_folder">[戻る] コマンド, Windows エクスプローラ</A><BR>
+<A HREF="wince.htm#stop_loading_a_page">読み込みの中止</A><BR>
+<A HREF="wince.htm#view_previously_visited_sites">[履歴] コマンド</A><BR>
+
+
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* -->
+
+<!-- 4/1/98 The following topics do not have direct links.  They are included for context-sensitive help only.  Pocket Office and a few other programs do not have the select and hold context-sensitivity feature.  Future writers may want to check with the developers to see if the situation has changed.  SB -->
+
+
+<!-- ************************Topic Break************************* -->
+
+<P><A NAME="save_as_dialog_box"></A><B>[名前を付けて保存] ダイアログ ボックス</B></P><UL></UL>
+
+<P>[1 つ上のフォルダへ] ボタン<BR>
+1 つ上の階層のフォルダに移動します。</P><UL></UL>
+
+<P>[新しいフォルダの作成] ボタン<BR>
+ボタンを選択し、フォルダ名を入力します。</P><UL></UL>
+
+<P>[一覧] ボタン<BR>
+フォルダとファイルをアイコンで表示します。</P><UL></UL>
+
+<P>[詳細] ボタン<BR>
+フォルダとファイルをサイズ、種類、更新日時などの情報を含む一覧で表示します。</P><UL></UL>
+
+<P>[名前] ボックス<BR>
+ファイルの名前を入力します。名前にパスを含むことが可能です。例えば、"MyFile" という名前のファイルを "My Documents" フォルダに保存するには \My Documents\MyFile と入力します。 </P><UL></UL>
+
+<P>[種類] ボックス<BR>
+保存するファイルの種類を選択します。選択できる種類は、使用するプログラムによって異なります。</P>
+
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* -->
+
+
+<A NAME="print_dialog_box"></A><B>[印刷] ダイアログ ボックス</B><UL></UL>
+
+
+<P><B>メモ</B>  選択できるオプションは、使用するプログラムによって異なります。プログラムによっては、一部のオプションが表示されなかったり、使用できなかったりすることがあります。印刷の機能の詳細については、各プログラムのヘルプを参照してください。</P><UL></UL>
+
+<P>[プリンタ] ボックス<BR>
+使用できるプリンタを表示します。いったんプリンタを選択すると、プリンタを変更しない限りそのプリンタが既定のプリンタに設定されます。</P><UL></UL>
+
+<P>[ポート] ボックス<BR>
+使用できるプリンタ ポートを表示します。</P><UL></UL>
+
+<P>[場所] ボックス<BR>
+[ポート] ボックスで [ネットワーク] を選択した場合、ネットワーク プリンタへのパスを入力してください。</P><UL></UL>
+
+<P>[用紙サイズ] ボックス<BR>
+使用できる用紙サイズを表示します。</P><UL></UL>
+
+<P>[ドラフト モード] チェック ボックス<BR>
+低い解像度で印刷します。通常は、印刷に必要な時間が短くなります。<BR>選択しているプリンタによっては、このオプションを利用できないことがあります。</P><UL></UL>
+
+<P>[色] チェック ボックス<BR>
+カラーで印刷します。</P><UL></UL>
+
+<P>[印刷範囲]<BR>
+文書全体を印刷するか、選択範囲だけを印刷するかを指定します。</P><UL></UL>
+
+<P>[印刷の向き]<BR>
+[縦] または [横] を指定します。</P><UL></UL>
+
+<P>[余白]<BR>
+余白の幅を指定します。</P><UL></UL>
+
+
+
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* -->
+
+
+<A NAME="browse_dialog_box"></A><B>[参照] ダイアログ ボックス</B><UL></UL>
+
+<P>[1 つ上のフォルダへ] ボタン<BR>
+1 つ上の階層のフォルダに移動します。</P><UL></UL>
+
+<P>[新しいフォルダの作成] ボタン<BR>
+ボタンを選択し、フォルダ名を入力します。</P><UL></UL>
+
+<P>[一覧] ボタン<BR>
+フォルダとファイルをアイコンで表示します。</P><UL></UL>
+
+<P>[詳細] ボタン<BR>
+フォルダとファイルをサイズ、種類、更新日時などの情報を含む一覧で表示します。</P><UL></UL>
+
+<P>[名前] ボックス<BR>
+選択したフォルダまたはファイルの名前が表示されます。</P><UL></UL>
+
+<P>[種類] ボックス<BR>
+表示するファイルの種類を選択します。現在のフォルダ内にあるすべてのファイルを表示するには、[すべてのファイル (*.*)] を選択します。</P><UL></UL>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* -->
+
+<A NAME="color_dialog_box"></A><B>[色] ダイアログ ボックス</B><UL></UL>
+
+<P>[基本色]<BR>
+利用できる基本色を表示します。カスタム色を定義するには、定義する色に最も近い基本色を選択し、[色] を選択します。</P><UL></UL>
+
+<P>[作成した色]<BR>
+定義済みのすべてのカスタム色を表示します。<BR>
+カスタム色の設定を変更するには、カスタム カラー ボックスを選択し、別の色を選択します。<BR>
+新しくカスタム色を定義するには、色が設定されていないカスタム カラー ボックスを選択し、別の色を選択し、[色の追加] を選択します。</P><UL></UL>
+
+<P>[色] ボタン<BR>
+カスタム色を定義するときに選択します。現在既にカラー マトリクスが表示されている場合、このボタンは使用できません。<BR>
+新しくカスタム色を定義するには、カラー マトリクス内を選択するか、HSL (色相、彩度、明度) または RGB (赤、緑、青) 形式で色を選択します。</P><UL></UL>
+
+<P>[色の追加] ボタン<BR>
+定義した色を追加します。</P><UL></UL>
+
+<P>[色/純色]<BR>
+このボックスの左側の領域には、現在の色に含まれる白と黒の量だけが表示されます。右側の領域には、現在の色から白と黒の構成素を除いた 100% 色が表示されます。右側のつまみを使用して色を調整します。<BR>
+色から白と黒の構成素を除いた 100% 色を選択するには、<B>Alt</B> + <B>O</B> キーを押します。<BR>
+色を変更するには、下に説明されている色の構成値を変更します。また、カラー マトリクスを選択またはドラッグして値を変更し、色を調整することもできます。</P><UL></UL>
+
+<P>[色合い] ボックス<BR>
+カラー ホイールの値です。赤 = 0、黄 = 60、緑 = 120、シアン = 180、マゼンタ = 200、青 = 240<BR><UL></UL>
+
+<P>[鮮やかさ] ボックス<BR>
+彩度レベルともいいます。特定の色相の中での色の量を示します。最大値は 240 です。</P><UL></UL>
+
+<P>[明るさ] ボックス<BR>
+明度を変更すると、赤、緑、青の値も変化します。</P><UL></UL>
+
+<P>[赤] ボックス<BR>
+選択した色の中での赤の量です。</P><UL></UL>
+
+<P>[緑] ボックス<BR>
+選択した色の中での緑の量です。</P><UL></UL>
+
+<P>[青] ボックス<BR>
+選択した色の中での青の量です。</P><UL></UL>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* -->
+
+<A NAME="font_dialog_box"></A><B>[フォント] ダイアログ ボックス</B></P><UL></UL>
+
+<P><B>メモ</B>  選択できるオプションは、使用するプログラムによって異なります。プログラムによっては、一部のオプションが表示されなかったり、使用できなかったりすることがあります。</P><UL></UL>
+
+<P>[フォント名] ボックス<BR>
+現在のフォントを表示します。フォントを変更するには、下向き矢印を選択し、一覧から目的のフォントを選択します。</P><UL></UL>
+
+<P>[サイズ] ボックス<BR>
+現在のフォント サイズを表示します。フォント サイズを変更するには、下向き矢印を選択し、一覧から目的のフォント サイズを選択します。</P><UL></UL>
+
+<P>[フォント スタイル]<BR>
+文字列に太字、斜体、および下線の書式を設定します。</P><UL></UL>
+
+<P>[色] ボックス<BR>
+色を表示できるモバイル デバイスでは、現在のフォントの色を表示します。色を変更するには、下向き矢印を選択し、一覧から目的の色を選択します。</P><UL></UL>
+
+<P>[プレビュー]<BR>
+現在選択している書式を適用した文字列を表示します。</P><UL></UL>
+
+<P>[既定値の適用] ボタン<BR>
+書式設定の変更を取り消し、設定を標準状態に戻します。</P><UL></UL>
+
+<P>[既定値として設定] ボタン<BR>
+現在の設定を文字列の標準設定にします。新しく作成するドキュメントの文字列には、この設定が適用されます。</P><UL></UL>
+
+
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* -->
+
+<A NAME="open_dialog_box"></A><b>[開く] ダイアログ ボックス</b><UL></UL>
+
+<P>[1 つ上のフォルダへ] ボタン<BR>
+1 つ上の階層のフォルダに移動します。</P><UL></UL>
+
+<P>[新しいフォルダ] ボタン<BR>
+新しいフォルダを作成します。作成したフォルダには、名前を入力して指定します。</P><UL></UL>
+
+<P>[一覧] ボタン<BR>
+フォルダとファイルをアイコンで表示します。</P><UL></UL>
+
+<P>[詳細] ボタン<BR>
+フォルダとファイルをサイズ、種類、更新日時などの情報を含む一覧で表示します。</P><UL></UL>
+
+<P>[名前] ボックス<BR>
+現在選択されているフォルダまたはファイルの名前を表示します。</P><UL></UL>
+
+<P>[種類] ボックス<BR>
+表示するファイルの種類を選択します。現在のフォルダ内にあるすべてのファイルを表示するには、[すべてのファイル (*.*)] を選択します。</P><UL></UL>
+
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* -->
+
+
+<A NAME="setting_a_password_for_a_document"></A><B>ファイルのパスワードの設定</B>
+
+<!-- This topic covers a dialog box that is displayed in InkWriter, PWord and PExcel. -->
+
+<OL>
+<LI>[ファイル] メニューの [パスワード] を選択します。
+<LI>両方のボックスに同じパスワードを入力します。
+<LI>パスワードを保存するには、[ファイル] メニューの [上書き保存] を選択してファイルを保存する必要があります。
+</OL>
+
+<P><B>メモ</B>  パスワードで保護されたファイルを同期することはできません。PC またはモバイル デバイスで、適切なプログラムを使ってパスワードの保護を解除してから同期を行います。同期が終了したら、パスワードの保護を再び設定することができます。</P>
+
+
+<BR CLEAR=ALL><!-- PegHelp -->
+
+</BODY>
+</HTML>

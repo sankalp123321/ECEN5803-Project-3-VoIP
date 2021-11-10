@@ -1,0 +1,725 @@
+<!--
+Copyright (c) Microsoft Corporation.  All rights reserved.
+-->
+<!--
+Use of this sample source code is subject to the terms of the Microsoft
+license agreement under which you licensed this sample source code. If
+you did not accept the terms of the license agreement, you are not
+authorized to use this sample source code. For the terms of the license,
+please see the license agreement between you and Microsoft or, if applicable,
+see the LICENSE.RTF on your install media or the root of your tools installation.
+THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+-->
+<!DOCTYPE HTML PUBLIC"-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Htm-Help" CONTENT="wince.htm#Main_Contents">
+<TITLE>Noções básicas do Windows Embedded Compact</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<!-- PegHelp -->
+
+<P><A NAME="Main_Contents"></A><B>Noções básicas do Windows Embedded Compact</B></P><UL></UL> <A HREF="wince.htm#UsingPrograms">Iniciando programas</A><BR> <A HREF="wince.htm#view_toolbar_button">Utilizando a Ajuda do contexto</A><BR> <A HREF="wince.htm#contextmenu">Abrindo um menu de contexto</A><BR> <A HREF="wince.htm#reading_taskbar_icons">Entendendo os ícones da barra de tarefas</A><BR> <A HREF="wince.htm#switch_between_menu_and_toolbar_display">Alternando entre menus e botões da barra de ferramentas</A><BR> <A HREF="wince.htm#move_data">Movendo um arquivo para uma placa de memória</A><BR> <A HREF="wince.htm#windows_explorer_help">Utilizando o Windows Explorer</A><BR> <A HREF="wince.htm#pocket_internet_explorer">Utilizando o Pocket Internet Explorer</A><BR> <A HREF="wince.htm#protecting">Protegendo informações importantes</A><BR> <A HREF="wince.htm#index">Índice</A><BR>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+
+<!-- ************************Topic Break************************* -->
+
+
+<P><A NAME="UsingPrograms"></A><B>Iniciando programas</B></P><UL></UL>
+
+<P>Para abrir um programa que não está na área de trabalho, selecione o menu <B>Iniciar</B>, selecione <B>Programas</B> e, em seguida, selecione o nome do programa.</P>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+
+<!-- ************************Topic Break************************* --> <A NAME="view_toolbar_button"></A><B>Utilizando a Ajuda do contexto</B> <UL>
+<LI>Para obter informações sobre um programa ou sobre uma caixa de diálogo, selecione o botão <B>?</B> enquanto estiver usando o programa ou a caixa de diálogo. <LI> Para ver o nome de um botão da barra de ferramentas, toque e segure com a caneta no botão. Para evitar que o comando do botão seja executado, continue mantendo o botão pressionado enquanto arrasta a caneta para fora do botão.<LI> Para ver o nome de um botão da barra de ferramentas usando o mouse, coloque o ponteiro do mouse sobre o botão. </UL>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+
+<!-- ************************Topic Break************************* --> <A NAME="contextmenu"></A><B>Abrindo um menu de contexto</B><BR>
+
+<UL>
+<LI>Se estiver usando uma caneta, toque a tecla ALT e, em seguida, toque no item desejado para abrir um menu de contexto. <li>Se estiver usando um mouse, clique com o botão direito no item desejado para abrir um menu de contexto. </UL>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+
+<!-- ************************Topic Break************************* --> <A NAME="reading_taskbar_icons"></A><B>Entendendo os ícones da barra de tarefas</B><UL></UL>
+
+<P>Os ícones a seguir talvez apareçam na área de status da barra de tarefas do dispositivo, dependendo do fabricante.</P><UL></UL> <B>Ícones de status da bateria</B><BR>
+<TABLE BORDER=1>
+<TR><TD ALIGN=CENTER><B>Ícone</B></TD><TD ALIGN=CENTER><B>Definição</B></TD></TR>
+<TR>
+<TD ALIGN=CENTER VALIGN=MIDDLE><IMG HEIGHT=9 WIDTH=16 SRC="batlow.2bp"></TD>
+<TD ALIGN=LEFT VALIGN=MIDDLE>A bateria de reserva está fraca</TD>
+</TR>
+<TR>
+<TD ALIGN=CENTER VALIGN=MIDDLE><IMG HEIGHT=16 WIDTH=16 SRC="bvlow.2bp"></TD>
+<TD ALIGN=LEFT VALIGN=MIDDLE>A bateria de reserva está muito fraca</TD>
+</TR>
+<TR>
+<TD ALIGN=CENTER VALIGN=MIDDLE><IMG HEIGHT=15 WIDTH=16 SRC="batchg.2bp"></TD>
+<TD ALIGN=LEFT VALIGN=MIDDLE>As baterias principais estão sendo recarregadas</TD>
+</TR>
+<TR>
+<TD ALIGN=CENTER VALIGN=MIDDLE><IMG HEIGHT=16 WIDTH=16 SRC="mainlow.2bp"></TD>
+<TD ALIGN=LEFT VALIGN=MIDDLE>As baterias principais estão fracas</TD>
+</TR>
+<TR>
+<TD ALIGN=CENTER VALIGN=MIDDLE><IMG HEIGHT=16 WIDTH=16 SRC="mvlow.2bp"></TD>
+<TD ALIGN=LEFT VALIGN=MIDDLE>As baterias principais estão muito fracas</TD>
+</TR>
+<TR>
+<TD ALIGN=CENTER VALIGN=MIDDLE><IMG HEIGHT=16 WIDTH=16 SRC="srcnt.2bp"></TD>
+<TD ALIGN=CENTER VALIGN=MIDDLE>Fonte de energia externa (AC) está conectada</TD>
+</TR>
+</TABLE>
+
+<UL></UL> <B>Ícones de status de conexão</B><BR>
+<TABLE BORDER=1>
+<TR><TD ALIGN=CENTER><B>Ícone</B></TD><TD ALIGN=CENTER><B>Definição</B></TD>
+</TR>
+<TR>
+<TD ALIGN=CENTER VALIGN=MIDDLE><IMG HEIGHT=32 WIDTH=32 SRC="dialcnct.2bp"></TD><TD ALIGN=LEFT VALIGN=MIDDLE>Conexão dial-up</TD>
+</TR>
+<TR>
+<TD ALIGN=CENTER VALIGN=MIDDLE><IMG HEIGHT=32 WIDTH=32 SRC="drtcnct.2bp"></TD>
+<TD ALIGN=LEFT VALIGN=MIDDLE>Conexão direta</TD>
+</TR>
+</TABLE><BR><OL></OL> <B>Consulte também</B><BR> <A HREF="ctpnl.htm#hide_the_taskbar">Ocultando a barra de tarefas</A><BR> <A HREF="ctpnl.htm#change_the_taskbar_settings">Alterando as configurações da barra de tarefas</A><BR>
+
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+
+<!-- ************************Topic Break************************* --> <A NAME="switch_between_menu_and_toolbar_display"></A><B>Alternando entre menus e botões da barra de ferramentas</B><UL></UL>
+
+<P>Use o controle deslizante para controlar a exibição de menus e da barra de ferramentas.<BR>
+<IMG HEIGHT=24 WIDTH=9 SRC="wgripper.2bp">
+<UL>
+<LI>Para alternar rapidamente entre menus e botões da barra de ferramentas, selecione o controle deslizante. <LI>Arraste o controle deslizante à esquerda ou à direita para exibir menus, botões da barra de ferramentas ou uma combinação de ambos.<BR>
+<LI>Para verificar menus e botões da barra de ferramentas, arraste o controle deslizante abaixo dos menus. </UL></P>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+
+<!-- ************************Topic Break************************* -->
+
+<P><A NAME="move_data"></A><B>Movendo um arquivo para uma placa de memória</B> <OL>
+<LI>Abra o arquivo a ser movido. <LI>Selecione <B>Arquivo</B> > <B>Salvar como</B>. <LI>Salve o arquivo na pasta nomeada para a placa de memória. </OL>
+
+<BR><!-- PegHelp --><HR>
+
+
+
+
+
+<!-- ************************Topic Break************************* --> <A NAME="windows_explorer_help"></A><B>Utilizando o Windows Explorer</B></P><UL></UL>
+
+<P>O Windows Explorer funciona quase que do mesmo modo no dispositivo móvel e no PC. Consulte os tópicos abaixo para obter informações sobre as diferenças do Windows Explorer no dispositivo.</P><UL></UL> <A HREF="wince.htm#navigating_in_file_view">Navegando na exibição de arquivos</A><BR> <A HREF="wince.htm#view_files_as_icons_or_as_a_list">Exibindo arquivos como ícones ou como listas</A><BR> <A HREF="wince.htm#working_with_files_and_folders">Trabalhando com arquivos e com pastas</A><BR> <A HREF="wince.htm#create_a_desktop_shortcut">Criando atalhos da área de trabalho</A><BR> <A HREF="wince.htm#switching_to_the_internet">Alternando para a Internet</A><BR>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="navigating_in_file_view"></A><B>Navegando na exibição de arquivos</B></P><UL></UL> <A HREF="wince.htm#go_to_the_previous_folder">Avançando e voltando</A><BR> <A HREF="wince.htm#go_to_the_my_documents_folder">Utilizando o menu Iniciar</A><BR>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="go_to_the_previous_folder"></A><B>Avançando e voltando</B> <UL>
+<LI>Para ir para a pasta anterior, selecione <B>Iniciar</B> > <B>Voltar</B>. <LI>Para ir para a próxima pasta (que foi recém-verificada), selecione <B>Iniciar</B> > <B>Avançar</B>. </UL>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="go_to_the_my_documents_folder"></A><B>Utilizando o menu Iniciar</B> <UL>
+<LI>Para acessar rapidamente a pasta My Documents, selecione <B>Iniciar</B> > <B>My Documents</B>. <LI>Para verificar todas as pastas acessadas, selecione <B>Iniciar</B> > <B>Histórico</B>. Clique duas vezes em uma pasta para retornar a ela. </UL>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="view_files_as_icons_or_as_a_list"></A><B>Exibindo arquivos como ícones ou como listas</B> <OL>
+<LI>Para exibir ícones, selecione <B>Exibir</B> > <B>Ícones grandes</B> ou <B>Ícones pequenos</B>. <LI>Para exibir uma lista, selecione <B>Exibir</B> > <B>Detalhes</B>. </OL>
+
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="working_with_files_and_folders"></A><B>Trabalhando com arquivos e com pastas</B><UL></UL> <A HREF="wince.htm#create_a_new_folder">Criando uma nova pasta</A><BR> <A HREF="wince.htm#add_a_folder_to_your_favorites_list">Adicionando uma pasta à lista Favoritos </A><BR> <A HREF="wince.htm#sendir">Transferindo um arquivo por infravermelho</A><BR>
+
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="create_a_new_folder"></A><B>Criando uma nova pasta</B> <OL>
+<LI>Se necessário, abra uma pasta na qual você quer colocar a nova pasta. <LI>Selecione <B>Arquivo</B> > <B>Nova pasta</B>. </OL>
+
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="add_a_folder_to_your_favorites_list"></A><B>Adicionando uma pasta à lista Favoritos</B><BR>
+
+<OL>
+<LI>Abra a pasta. <LI>Selecione <B>Favoritos</B> > <B>Adicionar a Favoritos</B>. <LI>Na caixa <B>Nome</B>, digite o nome do atalho. </OL> <B>Dicas</B> <UL>
+<LI>Para abrir uma pasta favorita ou um arquivo favorito, selecione <B>Favoritos</B> e, em seguida, selecione a pasta. <LI>Para organizar os favoritos, selecione <B>Favoritos</B> > <B>Organizar Favoritos</B>. </UL>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* -->
+
+
+<!-- This text appears in Contacts, Note Taker, Voice Recorder, and Windows Explorer information in wince.htm.  If it is updated in one help file it should be updated in all the help files.  We are repeating the text because we don't know which programs the OEM's will ship.  4/23/98 SB --> <A NAME="sendir"></A><B>Transferindo um arquivo por infravermelho</B><BR>
+
+<UL>
+<LI>Para enviar um arquivo, selecione-o, alinhe as portas de infravermelho e selecione <B>Arquivo</B> > <B>Enviar para</B> > <B>Destinatário de infravermelho</B>. <LI>Para receber um arquivo, alinhe as portas de infravermelho e selecione <B>Arquivo</B> > <B>Receber</B>. </UL>
+
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="create_a_desktop_shortcut"></A><B>Criando atalhos da área de trabalho</B> <OL>
+<LI>Exiba o arquivo ou a página da Web a ser criado um atalho. <LI>Selecione <B>Arquivo</B> > <B>Enviar para</B>. <LI>Selecione <B>Desktop como atalho</B>. </OL>
+
+<UL></UL>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+
+<!-- ************************Topic Break************************* --> <A NAME="switching_to_the_internet"></A><B>Alternando para a Internet</B> <UL>
+<LI>Digite um URL na barra de endereços. </UL>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* -->
+
+<P><A NAME="pocket_internet_explorer"></A><B>Utilizando o Pocket Internet Explorer</B></P><UL></UL> <A HREF="wince.htm#overview">Sobre o Pocket Internet Explorer</A><BR> <A HREF="wince.htm#getting_connected">Conectando-se</A><BR> <A HREF="wince.htm#viewing_pages_on_the_internet">Localizando e procurando sites da Web</A><BR> <A HREF="wince.htm#saving,_storing,_and_sending_web_pages">Salvando, armazenando em cache e copiando páginas da Web </A><BR> <A HREF="wince.htm#securityfeatures">Utilizando recursos de segurança</A><BR> <A HREF="wince.htm#changing_the_pocket_internet_explorer_display">Alterando a exibição do Pocket Internet Explorer</A><BR> <A HREF="wince.htm#index">Índice</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="overview"></A><B>Sobre o Pocket Internet Explorer</B><BR><UL></UL>
+
+
+<P>Com o Pocket Internet Explorer, é possível exibir páginas da Web da Internet ou de uma intranet no dispositivo. Será necessário usar um modem ou uma placa Ethernet para conectar-se ao provedor de serviços da Internet (ISP) ou à rede.</P><UL></UL> <B>Consulte também</B><BR> <A HREF="wince.htm#getting_connected">Conectando-se</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="getting_connected"></A><B>Conectando-se</B><UL></UL> <A HREF="wince.htm#connect_to_the_internet">Conectando-se à Internet</A><BR> <A HREF="wince.htm#set_up_an_automatic_internet_connection">Configurando uma conexão automática à Internet</A><BR> <A HREF="wince.htm#change_the_proxy_server_setting">Configurando um servidor proxy</A><BR> <A HREF="wince.htm#enable_custom_viewing_cookies">Ativando cookies</A><BR>
+
+
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+
+<P><A NAME="connect_to_the_internet"></A><B>Conectando-se à Internet</B></P><UL></UL>
+
+
+<P>Antes que seja possível exibir páginas da Web, você deve configurar uma conexão remota ao ISP ou à rede. Se você não configurou uma conexão ao ISP ou à rede, consulte <A HREF="rnetw.htm#Main_Contents">Conexões remotas</A>.</P>
+
+<OL>
+<LI>Selecione <B>Iniciar</B> > <B>Programas</B> > <B>Comunicação</B> > <B>Rede remota</B>. Toque ou clique duas vezes na conexão que deseja usar. <LI>Insira qualquer informação do usuário necessária. Para ajustar a maneira como o número deve ser discado, selecione <B>Propriedades de discagem</B>. <LI>Selecione <B>Conectar</B>. </OL>
+
+<P><B>Observação</B> Se houver problemas na conexão, convém acessar a Internet usando um servidor Proxy.</P><UL></UL> <B>Consulte também</B><BR> <A HREF="wince.htm#change_the_proxy_server_setting">Configurando um servidor proxy</A><BR>
+
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* -->
+
+<P><A NAME="set_up_an_automatic_internet_connection"></A><B>Configurando uma conexão automática à Internet</B></P><UL></UL>
+
+<P>Se você configurou uma conexão automática à Internet, a conexão remota escolhida será discada automaticamente quando o Pocket Internet Explorer precisar acessar a Internet ou a rede associada.</P>
+
+<OL>
+<LI>Selecione <B>Exibir</B> > <B>Opções</B> > guia <B>Discagem automática</B>. <LI>Selecione <B>Usar discagem automática</B>. <LI>Especifique a <A HREF="rnetw.htm#Main_Contents">conexão remota</A> a ser utilizada. <LI>Se você quiser desconectar-se automaticamente da Internet depois de um certo tempo de inatividade (tempo em que o dispositivo não foi utilizado), selecione <B>Desconexão automática</B>. <LI>Em <B>Desconectar se inativo por</B>, insira quanto tempo o dispositivo deve estar inativo antes de desconectar-se da Internet. </OL> <B>Consulte também</B><BR> <A HREF="wince.htm#connect_to_the_internet">Conectando-se à Internet</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="change_the_proxy_server_setting"></A><B>Configurando um servidor proxy</B><UL></UL>
+
+<P>Os servidores proxy são normalmente utilizados quando a conexão à Internet é feita por meio de uma rede local, como uma rede associada, para aumentar a segurança.</P>
+
+<OL>
+<LI>Selecione <B>Exibir </B> > <B> Opções</B> > guia <B>Servidor proxy</B>. <LI>Selecione <B>Usar servidor proxy</B>. <LI>Insira o endereço e a porta do servidor proxy. Para obter mais informações, consulte o administrador da rede. <LI>Para ignorar o servidor proxy para endereços locais, como páginas da intranet associada, selecione <B>Ignorar Proxy para endereços locais</B>. </OL> <B>Consulte também</B><BR> <A HREF="wince.htm#connect_to_the_internet">Conectando-se à Internet</A><BR> <A HREF="wince.htm#change_security_options">Selecionando opções de segurança</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="enable_custom_viewing_cookies"></A><B>Ativando cookies</B><UL></UL>
+
+<P>Um arquivo cookie contém informações sobre sua identidade e suas preferências para que um site da Web possa adaptar as informações às suas necessidades. O site da Web envia o arquivo e ele é armazenado no dispositivo móvel.</P>
+
+<OL>
+<LI>Selecione <B>Exibir</B> > <B>Opções</B> > guia <B>Avançada</B>. <LI>Selecione <B>Ativar cookies</B>. </OL> <B>Consulte também</B><BR> <A HREF="wince.htm#change_security_options">Selecionando opções de segurança</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="viewing_pages_on_the_internet"></A><B>Localizando e procurando sites da Web</B><UL></UL> <A HREF="wince.htm#search_for_an_internet_site">Pesquisando um site da Internet</A> <BR> <A HREF="wince.htm#go_to_an_internet_address">Indo para um endereço da Internet</A><BR> <A HREF="wince.htm#view_previously_visited_sites">Exibindo sites visitados anteriormente</A><BR> <A HREF="wince.htm#add_an_item_to_your_favorites_list">Adicionando e exibindo Favoritos</A><BR> <A HREF="wince.htm#go_to_the_next_page">Procurando páginas da Web </A><BR> <A HREF="wince.htm#refresh">Atualizando a página atual</A><BR> <A HREF="wince.htm#stop_loading_a_page">Parando de carregar uma página</A><BR> <A HREF="wince.htm#view_information_about_the_current_page">Exibindo as propriedades da página atual</A><BR> <A HREF="wince.htm#viewhtml">Exibindo o código-fonte HTML</A><BR> <A HREF="wince.htm#change_home_and_search_page_settings">Alterando as configurações da página de pesquisa e da home page</A><BR>
+
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="search_for_an_internet_site"></A><B>Pesquisando um site da Internet</B> <UL>
+<LI>Selecione <B>Iniciar</B> > <B>Pesquisar a Web</B>. </UL> <B>Consulte também</B><BR> <A HREF="wince.htm#change_home_and_search_page_settings">Alterando as configurações da página de pesquisa e da home page</A><BR>
+
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="go_to_an_internet_address"></A><B>Indo para um endereço da Internet</B> <OL>
+<LI>Selecione <B>Exibir</B> > <B>Barra de endereços</B>, se necessário exibir a barra de endereços. <LI>Insira um endereço. <LI>Pressione ENTER. </OL> <B>Consulte também</B><BR> <A HREF="wince.htm#add_an_item_to_your_favorites_list">Adicionando e exibindo Favoritos</A><BR> <A HREF="wince.htm#go_to_the_next_page">Procurando páginas da Web </A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="view_previously_visited_sites"></A><B>Exibindo sites visitados anteriormente</B> <OL>
+<LI>Selecione <B>Iniciar</B> > <B>Histórico</B>. <LI>Selecione a página desejada. </OL> <B>Consulte também</B><BR> <A HREF="wince.htm#add_an_item_to_your_favorites_list">Adicionando e exibindo Favoritos</A><BR> <A HREF="wince.htm#go_to_an_internet_address">Indo para um endereço da Internet</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="add_an_item_to_your_favorites_list"></A><B>Adicionando e exibindo Favoritos</B> <OL>
+<LI>Vá até a página que você deseja adicionar. <LI>Selecione <B>Favoritos</B> > <B>Adicionar a Favoritos</B>. <LI>Se necessário, localize a pasta desejada. <LI>Confirme ou altere o nome. </OL>
+
+<UL>
+<LI>Para exibir os sites da Web favoritos, selecione <B>Favoritos</B> e o site da Web desejado. </UL>
+
+<P><B>Observação</B> Para organizar a lista Favoritos, selecione <B>Favoritos</B> > <B>Organizar Favoritos</B>.</P><UL></UL> <B>Consulte também</B><BR> <A HREF="wince.htm#go_to_an_internet_address">Indo para um endereço da Internet</A><BR> <A HREF="wince.htm#view_previously_visited_sites">Exibindo sites visitados anteriormente</A><BR>
+
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="go_to_the_next_page"></A><B>Procurando páginas da Web</B> <UL>
+<LI>Para mover para uma página exibida anteriormente, selecione <B>Iniciar</B> > <B>Voltar</B>. <LI>Para mover para a próxima página (considerando que você tenha exibido-a anteriormente), selecione <B>Iniciar</B> > <B>Avançar</B>. <LI>Para retornar para a sua home page, selecione <B>Iniciar</B> > <B>Home page</B>. </UL> <B>Consulte também</B><BR> <A HREF="wince.htm#refresh">Atualizando a página atual</A><BR> <A HREF="wince.htm#stop_loading_a_page">Parando de carregar uma página</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="refresh"></A><B>Atualizando a página atual</B><BR>
+
+<UL>
+<LI>Selecione <B>Exibir</B> > <B>Atualizar</B>. </UL> <B>Consulte também</B><BR> <A HREF="wince.htm#go_to_the_next_page">Procurando páginas da Web </A><BR> <A HREF="wince.htm#stop_loading_a_page">Parando de carregar uma página</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="stop_loading_a_page"></A><B>Parando de carregar uma página</B> <UL>
+<LI>Selecione <B>Exibir</B> > <B>Parar</B>. </UL> <B>Consulte também</B><BR> <A HREF="wince.htm#go_to_the_next_page">Procurando páginas da Web </A><BR> <A HREF="wince.htm#refresh">Atualizando a página atual</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="view_information_about_the_current_page"></A><B>Exibindo as propriedades da página atual</B> <OL>
+<LI>Selecione <B>Arquivo</B> > <B>Propriedades</B>. <LI>Para exibir o protocolo, o tipo de página, o tamanho e o endereço, selecione a guia <B>Geral</B>. <LI>Para exibir informações sobre segurança da página, selecione a guia <B>Segurança</B>. </OL>
+
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="viewhtml"></A><B>Exibindo o código-fonte HTML</B><BR>
+
+<OL>
+<LI>Enquanto estiver exibindo a página, selecione <B>Arquivo</B> > <B>Salvar como</B> e salve o arquivo como .txt. <LI>Abra o arquivo em um programa processador de texto, como o WordPad. </OL>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="change_home_and_search_page_settings"></A><B>Alterando as configurações de página de pesquisa e de home page</B> <OL>
+<LI>Abra a página a ser utilizada como página de pesquisa ou como home page. <LI>Selecione <B>Exibir</B> > <B> Opções</B> > guia <B>Páginas padrão</B>. <LI>Na lista, selecione <B>Home page</B> ou <B>Página de pesquisa</B>. <LI>Selecione <B>Usar página atual</B> para tornar a página atual o padrão. </OL> <B>Observação</B> Para alterar a página padrão novamente, selecione<B>Usar página padrão</B>.<UL></UL> <B>Consulte também</B><BR> <A HREF="wince.htm#search_for_an_internet_site">Pesquisando um site da Internet</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+
+<!-- ************************Topic Break************************* --> <A NAME="saving,_storing,_and_sending_web_pages"></A><B>Salvando, armazenando em cache e copiando páginas da Web</B><UL></UL> <A HREF="wince.htm#save_a_copy_of_the_current_page">Salvando uma cópia da página atual</A><BR> <A HREF="wince.htm#browse_stored_pages">Exibindo uma página em cache enquanto desconecta-se</A><BR> <A HREF="wince.htm#adjust_settings_for_temporarily_storing_pages"> Ajustando configurações para memória cache</A><BR> <A HREF="wince.htm#copy_information_from_an_internet_site_to_a_document">Copiando uma página da Web em um documento</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="save_a_copy_of_the_current_page"></A><B>Salvando uma cópia da página atual</B><UL></UL>
+
+<P>É possível salvar páginas da Web e exibi-las posteriormente quando você estiver desconectado da Internet ou de uma intranet sem usar a memória cache.</P>
+
+<OL>
+<LI>Selecione <B>Arquivo</B> > <B>Salvar como</B>. <LI>Especifique um local de pasta e nomeie o arquivo. </OL>
+
+<P><B>Observações</B> <UL>
+<LI>Imagens não serão exibidas e vínculos podem ser desativados. <LI>Páginas da Web contendo quadros não serão exibidas ou somente a estrutura do quadro será exibida. <LI>Para salvar um único quadro, pressione ALT e toque ou clique no quadro. Selecione <B>Salvar como</B> ou <B>Salvar figura como</B> no menu <B>Contexto</B>. Alguns quadros são projetados de forma que não possam ser salvos. Esses quadros não serão exibidos quando você os abrir como arquivos salvos no Windows Explorer. </UL></P> <B>Consulte também</B><BR> <A HREF="wince.htm#browse_stored_pages">Exibindo uma página em cache enquanto desconecta-se</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="browse_stored_pages"></A><B>Exibindo uma página em cache enquanto desconecta-se</B><UL></UL>
+
+<P>À medida que você visualiza páginas da Internet, elas são armazenadas em cache na pasta Temporary Internet Files em Meu computador. A procura entre páginas em cache é mais rápida que retornar a seus sites na Internet.</P>
+
+<OL>
+<LI>Antes de desconectar, selecione <B>Arquivo</B> > <B>Trabalhar off-line</B>. <LI>Uma vez desconectado, selecione <B>Iniciar</B> > <B>Histórico</B>. <LI>Selecione a página desejada. </OL>
+
+<P><B>Observações</B> <UL>
+<LI>Os vínculos serão desativados. <LI>Ao exibir páginas da Web em cache com quadros, somente o primeiro quadro de cada conjunto será exibido. Alguns quadros são desenvolvidos de modo que não ficam em cache. Esses quadros não serão exibidos se não forem abertos como arquivos em cache. </UL> <B>Consulte também</B><BR> <A HREF="wince.htm#adjust_settings_for_temporarily_storing_pages"> Ajustando configurações para memória cache</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="adjust_settings_for_temporarily_storing_pages"></A><B>Ajustando configurações para memória cache</B><UL></UL>
+
+<P>Como padrão, a cache do Pocket Internet Explorer ocupa 10 por cento do armazenamento em memória total do dispositivo. Se houver problemas com o armazenamento em memória, tente limpar a cache do Pocket Internet Explorer.</P>
+
+<OL>
+<LI>Selecione <B>Exibir</B> > <B>Opções</B> > guia <B>Avançada</B>. <LI>Se você quiser permitir o armazenamento em cache (memória temporária), selecione <B>Ativar cache</B>.<BR>Observe que o armazenamento em cache irá drenar memória. <LI>Mova o controle deslizante <B>Tamanho de cache</B> para aumentar ou diminuir o armazenamento destinado à cache. <LI>Se você quiser que a pasta seja esvaziada quando você fechar o Pocket Internet Explorer, selecione <B>Esvaziar cache ao sair</B>. <LI>Para esvaziar a pasta imediatamente, selecione <B>Esvaziar cache agora</B>. </OL>
+
+
+<!-- See also choices reflect the fact that all three of these topics cover the Advanced tab.  Conext sensivity for the Advanced tab links to this topic.  --> <B>Consulte também</B><BR> <A HREF="wince.htm#enable_custom_viewing_cookies">Ativando cookies</A><BR> <A HREF="wince.htm#change_security_options">Selecionando opções de segurança</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="copy_information_from_an_internet_site_to_a_document"></A><B>Copiando uma página da Web em um documento</B> <OL>
+<LI>Selecione toda a página da Web ou a parte dela a ser copiada. <LI>Selecione <B>Editar</B> > <B>Copiar</B>. <LI>Vá para o documento em que as informações serão colocadas e selecione o local. <LI>Selecione <B>Editar</B> > <B>Colar</B>. </OL>
+
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="securityfeatures"></A><B>Utilizando recursos de segurança</B><UL></UL> <A HREF="wince.htm#securesites">Sobre segurança</A><BR> <A HREF="wince.htm#change_security_options">Selecionando opções de segurança</A><BR>
+
+
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="securesites"></A><B>Sobre segurança</B><BR><UL></UL>
+
+<P>O Pocket Internet Explorer suporta os protocolos de segurança utilizados por sites seguros. Ao acessar um site seguro, é possível enviar informações pessoais com segurança. Para determinar se um site da Web é seguro, verifique se há um ícone de proteção no botão do Pocket Internet Explorer na barra de status.</P><UL></UL> <B>Consulte também</B><BR> <A HREF="wince.htm#change_security_options">Selecionando opções de segurança</A><BR>
+
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="change_security_options"></A><B>Selecionando opções de segurança</B> <OL>
+<LI>Selecione <B>Exibir</B> > <B> Opções</B> > guia <B>Avançada</B>. <LI>Selecione <B>Configurações de segurança</B>. <LI>Selecione os protocolos de segurança desejados.<BR>
+
+  <UL>
+  <LI><B>PCT</B> significa Private Communications Technology, um protocolo patenteado desenvolvido pela Microsoft que é significativamente mais seguro que SSL2. O sistema operacional Windows Embedded Compact não oferece suporte a PCT. <LI><B>SSL2</B> significa Secured Sockets Layer Level 2, um protocolo padrão para transmissões seguras. Todos os sites seguros da Internet suportam esse protocolo. <LI><B>SSL3</B> significa Secured Sockets Layer Level 3, um protocolo patenteado que pretende ser mais seguro que o SSL2. Alguns sites da Internet não suportam esse protocolo. </UL>
+</OL> <B>Consulte também</B><BR> <A HREF="wince.htm#connect_to_the_internet">Conectando-se à Internet</A><BR> <A HREF="wince.htm#enable_custom_viewing_cookies">Ativando cookies</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="aboutsecurity"></A><B>Site da Web que não é seguro</B><BR><UL></UL>
+
+<!-- This is a hidden topic used for context sensitivity only. -->
+
+<P>O site da Web que você está entrando não tem um certificado e não é seguro. De acordo com o que você sabe sobre o dispositivo e esse site da Web, você deve decidir se deve prosseguir nesse site da Web. Se você não estiver confiante nesse site da Web, selecione <B>Não</B>.</P><UL></UL> <B>Consulte também</B><BR> <A HREF="wince.htm#securesites">Sobre segurança</A><BR> <A HREF="wince.htm#change_security_options">Selecionando opções de segurança</A><BR>
+
+
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="changing_the_pocket_internet_explorer_display"></A><B>Alterando a exibição do Pocket Internet Explorer</B></P><UL></UL> <A HREF="wince.htm#change_the_font_size">Alterando o tamanho da fonte</A><BR> <A HREF="wince.htm#display_a_page_in_a_new_window">Exibindo uma página em uma nova janela</A><BR> <A HREF="wince.htm#fit_the_page_to_the_window">Ajustando a página à janela</A><BR> <A HREF="wince.htm#display_or_hide_the_address_bar">Exibindo ou ocultando a barra de endereços</A><BR> <A HREF="wince.htm#change_the_default_appearance_of_pages">Alterando a aparência padrão das páginas</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="change_the_font_size"></A><B>Alterando o tamanho da fonte</B> <UL>
+<LI>Selecione <B>Exibir</B> > <B>Fontes</B> e selecione o tamanho desejado. </UL> <B>Consulte também</B><BR> <A HREF="wince.htm#change_the_default_appearance_of_pages">Alterando a aparência padrão das páginas</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="display_a_page_in_a_new_window"></A><B>Exibindo uma página em uma nova janela</B> <UL>
+<LI>Selecione <B>Arquivo</B> > <B>Nova janela</B>. </UL> <B>Consulte também</B><BR> <A HREF="wince.htm#fit_the_page_to_the_window">Ajustando a página à janela</A><BR>
+
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="fit_the_page_to_the_window"></A><B>Ajustando a página à janela</B> <UL>
+<LI>Selecione <B>Exibir</B> > <B>Ajusta na janela</B>. </UL> <B>Consulte também</B><BR> <A HREF="wince.htm#display_a_page_in_a_new_window">Exibindo uma página em uma nova janela</A><BR> <A HREF="wince.htm#change_the_default_appearance_of_pages">Alterando a aparência padrão das páginas</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="display_or_hide_the_address_bar"></A><B>Exibindo ou ocultando a barra de endereços</B> <UL>
+<LI>Selecione <B>Exibir</B> > <B>Barra de endereços</B>. </UL>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="change_the_default_appearance_of_pages"></A><B>Alterando a aparência padrão das páginas</B> <OL>
+<LI>Selecione <B>Exibir</B> > <B>Opções</B> > guia <B>Aparência</B>. <LI>Selecione as opções desejadas. </OL>
+
+<P><B>Observação</B> Para poupar memória, limpe <B>Mostrar imagens</B> e <B>Reproduzir sons</B>.</P><UL></UL> <B>Consulte também</B><BR> <A HREF="wince.htm#change_the_font_size">Alterando o tamanho da fonte</A><BR>
+
+<BR CLEAR=ALL>
+<!-- PegHelp -->
+<HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="protecting"></A><B>Protegendo informações importantes</B><BR><UL></UL>
+
+<P>É possível manter dados valiosos no dispositivo, como nomes e números de telefone de contatos importantes, números de cartão de crédito e documentos confidenciais. Aqui estão algumas maneira de proteger as informações importantes.</P><UL></UL>
+
+<UL>
+<LI>Use uma senha para bloqueio de dispositivo.<BR> Você pode definir uma senha a ser digitada para que você ou qualquer outro usuário tenha acesso ao dispositivo. Selecione <B>Iniciar</B> > <B>Configurações</B> > <B>Painel de Controle</B>. Abra o ícone <B>Senha</B>.<br><br> <B>IMPORTANTE</B><br> Escolha uma senha de fácil memorização. Se esquecê-la, será necessário executar uma redefinição completa para usar o dispositivo novamente. A redefinição completa irá apagar todos os seus dados. <br><br>
+<LI>Faça backup dos dados.<BR> Você pode criar e manter um arquivo de backup com os dados de programas de seu dispositivo. Se, por exemplo, você remover acidentalmente as baterias principais e de reserva e perder seus dados, poderá restaurá-los a partir do arquivo de backup. </UL>
+
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* -->
+
+
+
+<P><A NAME="index"></A><B>Índice</B></P><UL></UL>
+<A HREF="wince.htm#view_toolbar_button">Ajuda, contexto</A><BR> 
+<A HREF="wince.htm#view_toolbar_button">ajuda de contexto</A><BR>  
+<A HREF="wince.htm#view_files_as_icons_or_as_a_list">arquivos, exibindo como ícones</A><BR> <A HREF="wince.htm#view_files_as_icons_or_as_a_list">arquivos, exibindo como uma lista</A><BR> 
+<A HREF="wince.htm#sendir">arquivos, transferindo por infravermelho </A><BR> 
+<A HREF="wince.htm#create_a_desktop_shortcut">atalhos da área de trabalho</A><BR> 
+<A HREF="wince.htm#display_or_hide_the_address_bar">barra de endereços, exibindo e ocultando</A><BR> 
+<A HREF="wince.htm#switch_between_menu_and_toolbar_display">barra de ferramentas, alternando para</A><BR> 
+<A HREF="wince.htm#viewhtml">código-fonte, exibindo</A><BR> 
+<A HREF="wince.htm#viewhtml">código HTML, exibindo</A><BR> 
+<A HREF="wince.htm#refresh">comando Atualizar</A><BR>
+<A HREF="wince.htm#go_to_the_next_page">comando Avançar, Pocket Internet Explorer</A><BR> 
+<A HREF="wince.htm#go_to_the_previous_folder">comando Avançar, Windows Explorer</A><BR> 
+<A HREF="wince.htm#add_an_item_to_your_favorites_list">comando Favoritos</A><BR> 
+<A HREF="wince.htm#view_previously_visited_sites">comando Histórico</A><BR>  
+<A HREF="wince.htm#go_to_the_next_page">comando Voltar, Pocket Internet Explorer</A><BR> 
+<A HREF="wince.htm#go_to_the_previous_folder">comando Voltar, Windows Explorer</A><BR> 
+<A HREF="wince.htm#connect_to_the_internet">conexão</A><BR> 
+<A HREF="wince.htm#connect_to_the_internet">conexão à Internet</A><BR> 
+<A HREF="wince.htm#set_up_an_automatic_internet_connection">conexão à Internet, automática</A><BR> 
+<A HREF="wince.htm#change_security_options">conexão à Internet, opções de segurança</A><BR> 
+<A HREF="wince.htm#change_the_proxy_server_setting">conexão à Internet, servidor proxy</A><BR>
+<A HREF="wince.htm#set_up_an_automatic_internet_connection">conexão, automática</A><BR>
+<A HREF="wince.htm#change_security_options">conexão, opções de segurança</A><BR> 
+<A HREF="wince.htm#change_the_proxy_server_setting">conexão, servidor proxy</A><BR>  
+<A HREF="wince.htm#change_home_and_search_page_settings">configurações de Home page</A><BR>
+<A HREF="wince.htm#change_home_and_search_page_settings">configurações de pesquisa</A><BR> 
+<A HREF="wince.htm#enable_custom_viewing_cookies">cookies</A><BR> 
+<A HREF="wince.htm#copy_information_from_an_internet_site_to_a_document">copiando páginas da Web</A><BR> 
+<A HREF="wince.htm#go_to_the_next_page">Home page</A><BR> 
+<A HREF="wince.htm#reading_taskbar_icons">ícones, barra de tarefas</A><BR> 
+<A HREF="wince.htm#reading_taskbar_icons">ícones da barra de tarefas</A><BR> 
+<A HREF="wince.htm#view_files_as_icons_or_as_a_list">ícones, exibindo arquivos como</A><BR> <A HREF="wince.htm#sendir">infravermelho</A><BR> 
+<A HREF="wince.htm#add_a_folder_to_your_favorites_list">lista Favoritos</A><BR> 
+<A HREF="wince.htm#view_files_as_icons_or_as_a_list">listas, exibindo arquivos como</A><BR>
+<A HREF="wince.htm#adjust_settings_for_temporarily_storing_pages">memória cache, ajustando configurações</A><BR> 
+<A HREF="wince.htm#browse_stored_pages">memória cache, exibindo</A><BR> 
+<A HREF="wince.htm#switch_between_menu_and_toolbar_display">menu, alternando para</A><BR> 
+<A HREF="wince.htm#contextmenu">menu Contexto</A><BR> 
+<A HREF="wince.htm#go_to_the_my_documents_folder">menu Ir para</A><BR> 
+<A HREF="wince.htm#change_security_options">opções de segurança</A><BR> 
+<A HREF="wince.htm#change_the_default_appearance_of_pages">páginas da Web, aparência</A><BR> 
+<A HREF="wince.htm#refresh">páginas da Web, atualizando</A><BR> 
+<A HREF="wince.htm#copy_information_from_an_internet_site_to_a_document">páginas da Web, copiando para um documento</A><BR> 
+<A HREF="wince.htm#display_a_page_in_a_new_window">páginas da Web, exibindo em uma nova janela</A><BR> 
+<A HREF="wince.htm#browse_stored_pages">páginas da Web, exibindo páginas em cache</A><BR> 
+<A HREF="wince.htm#stop_loading_a_page">páginas da Web, parar de carregar</A><BR>
+<A HREF="wince.htm#go_to_the_next_page">páginas da Web, procurando</A><BR> 
+<A HREF="wince.htm#view_information_about_the_current_page">páginas da Web, propriedades</A><BR> 
+<A HREF="wince.htm#save_a_copy_of_the_current_page">páginas da Web, salvando</A><BR>
+<A HREF="wince.htm#stop_loading_a_page">parar de carregar uma página</A><BR> 
+<A HREF="wince.htm#add_a_folder_to_your_favorites_list">pasta, adicionando à lista Favoritos</A><BR> 
+<A HREF="wince.htm#create_a_new_folder">pasta, criando</A><BR> 
+<A HREF="wince.htm#search_for_an_internet_site">pesquisa de sites da Internet</A> <BR> 
+<A HREF="wince.htm#move_data">placa de memória, movendo dados para</A><BR> 
+<A HREF="wince.htm#go_to_the_next_page">procurando páginas da Web</A><BR> 
+<A HREF="wince.htm#UsingPrograms">programas, iniciando</A><BR> 
+<A HREF="wince.htm#view_information_about_the_current_page">propriedades da página</A><BR> 
+<A HREF="wince.htm#protecting">proteger informações</A><BR> 
+<A HREF="wince.htm#change_the_proxy_server_setting">servidores proxy</A><BR> 
+<A HREF="wince.htm#view_previously_visited_sites">sites da Internet, exibir histórico</A><BR> 
+<A HREF="wince.htm#add_an_item_to_your_favorites_list">sites da Internet, Favoritos</A><BR> 
+<A HREF="wince.htm#go_to_an_internet_address">sites da Internet, ir para</A><BR> 
+<A HREF="wince.htm#search_for_an_internet_site">sites da Internet, pesquisa de</A> <BR> 
+<A HREF="wince.htm#change_the_font_size">tamanho de fonte</A><BR> 
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* -->
+
+<!-- 4/1/98 The following topics do not have direct links.  They are included for context-sensitive help only.  Pocket Office and a few other programs do not have the select and hold context-sensitivity feature.  Future writers may want to check with the developers to see if the situation has changed.  SB -->
+
+
+<!-- ************************Topic Break************************* -->
+
+<P><A NAME="save_as_dialog_box"></A><B>Caixa de diálogo Salvar como</B></P><UL></UL>
+
+<P><B>Um nível acima</B><BR> Navega para cima na estrutura de pastas.</P><UL></UL>
+
+<P><B>Criar uma nova pasta</B><BR> Insira o nome desejado.</P><UL></UL>
+
+<P><B>Lista</B><BR> Exibe pastas e arquivos como ícones.</P><UL></UL>
+
+<P><B>Detalhes</B><BR> Exibe pastas e arquivos em uma lista, fornecendo detalhes sobre os arquivos como tamanho, tipo e data da última alteração.</P><UL></UL>
+
+<P><B>Nome</B><BR> Digite um nome para o arquivo. O nome pode conter um caminho. Por exemplo, para salvar um arquivo chamado "MeuArquivo" na pasta <B>My Documents</B>, digite: \My Documents\MeuArquivo </P><UL></UL>
+
+<P><B>Tipo</B><BR> Selecione o tipo de arquivo para o arquivo que você está salvando. Os tipos disponíveis variam, dependendo do programa em uso.</P>
+
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="print_dialog_box"></A><B>Caixa de diálogo Imprimir</B><UL></UL>
+
+
+<P><B>Observação</B> As opções disponíveis dependem do programa em uso. Algumas opções talvez não estejam visíveis ou talvez estejam desativadas em cada programa. Para mais informações sobre funções de impressão especializadas, consulte os arquivos de ajuda de cada programa do dispositivo.</P><UL></UL>
+
+<P><B>Impressora</B><BR> Lista as impressoras disponíveis. A que for selecionada permanece como padrão até que seja alterada.</P><UL></UL>
+
+<P><B>Porta</B><BR> Lista as portas de impressora disponíveis.</P><UL></UL>
+
+<P><B>Caminho da rede</B><BR> Quando <B>Rede</B> for selecionada a partir da lista <B>Porta</B>, insira o caminho para a impressora da rede.</P><UL></UL>
+
+<P><B>Tamanho do papel</B><BR> Lista os tamanhos de papel disponíveis.</P><UL></UL>
+
+<P><B>Modo Rascunho</B><BR> Permite que você imprima um documento em baixa resolução. Isso é normalmente mais rápido.<BR>Talvez essa opção não esteja disponível para a impressora selecionada.</P><UL></UL>
+
+<P><B>Cor</B><BR> Imprime em cores.</P><UL></UL>
+
+<P><B>Intervalo de impressão</B><BR> Especifica se todo o documento deve ser impresso ou somente a parte selecionada.</P><UL></UL>
+
+<P><B>Orientação</B><BR> Permite que você especifique <B>Retrato</B> ou <B>Paisagem</B>.</P><UL></UL>
+
+<P><B>Margens</B><BR> Redefine os valores das margens.</P><UL></UL>
+
+
+
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="browse_dialog_box"></A><B>Caixa de diálogo Procurar</B><UL></UL>
+
+<P><B>Um nível acima</B><BR> Navega para cima na estrutura de pastas.</P><UL></UL>
+
+<P><B>Criar uma nova pasta</B><BR> Cria uma nova pasta. Insira o nome desejado.</P><UL></UL>
+
+<P><B>Lista</B><BR> Exibe pastas e arquivos como ícones.</P><UL></UL>
+
+<P><B>Detalhes</B><BR> Exibe pastas e arquivos em uma lista, fornecendo detalhes sobre os arquivos como tamanho, tipo e data da última alteração.</P><UL></UL>
+
+<P><B>Nome</B><BR> Exibe o nome da pasta selecionada ou do arquivo selecionado.</P><UL></UL>
+
+<P><B>Tipo</B><BR> Selecione o tipo de arquivo que você quer exibir. Para exibir todos os arquivos da pasta atual, selecione <B>Todos os documentos (*.*)</B>.</P><UL></UL>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="color_dialog_box"></A><B>Caixa de diálogo Cor</B><UL></UL>
+
+<P><B>Cores básicas</B><BR> Mostra as cores básicas disponíveis. Para definir uma cor personalizada, selecione a cor básica mais próxima a ela e, em seguida, selecione <B>Definir</B>.</P><UL></UL>
+
+<P><B>Cores personalizadas</B><BR> Exibe todas as cores personalizadas que você definiu.<BR> Para alterar as configurações de uma cor personalizada, clique em uma caixa de cor personalizada e, em seguida, selecione uma cor diferente.<BR> Para definir uma nova cor personalizada, clique em uma caixa de cor personalizada vazia, selecione uma cor diferente e, em seguida, selecione <B>Adicionar a Cores personalizadas</B>.</P><UL></UL>
+
+<P><B>Definir</B><BR> Define uma cor personalizada. Se não estiver disponível, você já está exibindo cores personalizadas.<BR> Para definir uma cor personalizada, selecione a matriz de cor ou selecione a cor usando as definições de matiz, de saturação e de luminosidade ou as definições vermelho, verde e azul.</P><UL></UL>
+
+<P><B>Adicionar a Cores personalizadas</B><BR> Adiciona a cor personalizada que você definiu.</P><UL></UL>
+
+<P><B>Cor/Sólido</B><BR> À esquerda, essa caixa exibe a quantidade de branco e de preto na cor atual. À direita, exibe 100% da cor sem branco e sem preto. Ajuste usando o controle deslizante à direita.<BR> Para selecionar 100% de cor sem branco ou sem preto, digite ALT+O.<BR> Para alterar a cor, altere os valores descritos abaixo. Ou faça experiências selecionando e arrastando a matriz de cor.</P><UL></UL>
+
+<P><B>Matiz</B><BR> O valor de uma roda de cor. Vermelho = 0, Amarelo = 60, Verde = 120, Ciano = 180, Magenta = 200 e Azul = 240.<BR><UL></UL>
+
+<P><B>Sat</B><BR> Nível de saturação. A quantidade de cor em uma matiz específica, até 240.</P><UL></UL>
+
+<P><B>Lum</B><BR> Luminosidade ou brilho. À medida que você altera a luminosidade, os valores de vermelho, de verde e de azul alteram-se.</P><UL></UL>
+
+<P><B>Vermelho</B><BR> A quantidade de vermelho na cor selecionada.</P><UL></UL>
+
+<P><B>Verde</B><BR> A quantidade de verde na cor selecionada.</P><UL></UL>
+
+<P><B>Azul</B><BR> A quantidade de azul na cor selecionada.</P><UL></UL>
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="font_dialog_box"></A><B>Caixa de diálogo Fonte</B></P><UL></UL>
+
+<P><B>Observação</B> As opções disponíveis dependem do programa em uso. Algumas opções talvez não estejam visíveis ou talvez estejam desativadas em cada programa.</P><UL></UL>
+
+<P><B>Fonte</B><BR> Exibe a fonte atual. Para alterar fontes, selecione a seta e selecione a fonte desejada a partir da lista.</P><UL></UL>
+
+<P><B>Tamanho</B><BR> Exibe o tamanho atual. Para alterar tamanhos, selecione a seta e selecione o tamanho desejado a partir da lista.</P><UL></UL>
+
+<P><B>Estilo da fonte</B><BR> Formata o texto como negrito, itálico, sublinhado ou faz uma combinação desses itens.</P><UL></UL>
+
+<P><B>Cor</B><BR> Exibe a cor atual se o dispositivo suportar cor. Para alterar cores, selecione a seta e selecione a cor desejada a partir da lista.</P><UL></UL>
+
+<P><B>Visualização</B><BR> Exibe o texto formatado com as opções selecionadas.</P><UL></UL>
+
+<P><B>Aplicar padrão</B><BR> Restaura a formatação padrão, substituindo as alterações feitas.</P><UL></UL>
+
+<P><B>Definir como padrão</B><BR> Usa as configurações atuais como a formatação de texto padrão, que será aplicada aos novos documentos que você criar.</P><UL></UL>
+
+
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="open_dialog_box"></A><B>Caixa de diálogo Abrir</B><UL></UL>
+
+<P><B>Um nível acima</B><BR> Navega para cima na estrutura de pastas.</P><UL></UL>
+
+<P><B>Nova pasta</B><BR> Cria uma nova pasta. Insira o nome desejado.</P><UL></UL>
+
+<P><B>Lista</B><BR> Exibe pastas e arquivos como ícones.</P><UL></UL>
+
+<P><B>Detalhes</B><BR> Exibe pastas e arquivos em uma lista, fornecendo detalhes sobre os arquivos como tamanho, tipo e data da última alteração.</P><UL></UL>
+
+<P><B>Nome</B><BR> Exibe o nome da pasta selecionada ou do arquivo selecionado atualmente.</P><UL></UL>
+
+<P><B>Tipo</B><BR> Selecione o tipo de arquivo que você quer exibir. Para exibir todos os arquivos da pasta atual, selecione <B>Todos os documentos (*.*)</B>.</P><UL></UL>
+
+
+<BR CLEAR=ALL><!-- PegHelp --><HR>
+
+<!-- ************************Topic Break************************* --> <A NAME="setting_a_password_for_a_document"></A><B>Configurando uma senha para um arquivo</B> <!-- This topic covers a dialog box that is displayed in InkWriter, PWord and PExcel. -->
+
+<OL>
+<LI>Selecione <B>Arquibo</B> > <B>Senha</B>. <LI>Digite e verifique a senha. <LI>Você deve salvar o arquivo (<B>Arquivo</B> > <B>Salvar</B>) para reter a senha. </OL>
+
+<P><B>Observação</B> Não é possível sincronizar arquivos protegidos por senha. Você deve remover a proteção por senha no programa apropriado no PC ou no dispositivo e, em seguida, fazer a sincronização. Uma vez sincronizado, você pode redefinir a proteção por senha.</P>
+
+
+<BR CLEAR=ALL><!-- PegHelp -->
+
+</BODY>
+</HTML>

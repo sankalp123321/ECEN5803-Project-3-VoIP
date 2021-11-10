@@ -1,0 +1,172 @@
+ zlib
+
+ Timestamp is 5ac64a29 (Thu Apr 05 09:09:13 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 000024d4H .rdata                  CODE
+ 0001:000024f4 00000021H .rdata$debug            CODE
+ 0001:00002518 000063b8H .text                   CODE
+ 0001:000088d0 00000018H .xdata                  CODE
+ 0001:000088e8 00000014H .idata$2                CODE
+ 0001:000088fc 00000014H .idata$3                CODE
+ 0001:00008910 00000034H .idata$4                CODE
+ 0001:00008944 0000000cH .idata$6                CODE
+ 0001:00008950 000001c0H .edata                  CODE
+ 0002:00000000 00000034H .idata$5                DATA
+ 0002:00000034 00000050H .data                   DATA
+ 0002:00000084 00000014H .bss                    DATA
+ 0003:00000000 00000220H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:00000440       ??_C@_05DOIEBMOI@1?41?44?$AA@ 10001440     zlib_lib:deflate.obj
+ 0001:00000448       deflate_copyright          10001448     zlib_lib:deflate.obj
+ 0001:000004fc       ??_C@_0BA@MOKMMFOD@need?5dictionary?$AA@ 100014fc     zlib_lib:inflate.obj
+ 0001:0000050c       ??_C@_0BF@MEIGEHBE@incorrect?5data?5check?$AA@ 1000150c     zlib_lib:inflate.obj
+ 0001:00000524       ??_C@_0BH@LIBMMIGA@incorrect?5header?5check?$AA@ 10001524     zlib_lib:inflate.obj
+ 0001:0000053c       ??_C@_0BE@EMOGCLGO@invalid?5window?5size?$AA@ 1000153c     zlib_lib:inflate.obj
+ 0001:00000550       ??_C@_0BL@IHKGDAEE@unknown?5compression?5method?$AA@ 10001550     zlib_lib:inflate.obj
+ 0001:00000bb8       _dist_code                 10001bb8     zlib_lib:trees.obj
+ 0001:00000db8       _length_code               10001db8     zlib_lib:trees.obj
+ 0001:00000ff4       ??_C@_0BK@BMMPFBBH@invalid?5bit?5length?5repeat?$AA@ 10001ff4     zlib_lib:infblock.obj
+ 0001:00001010       ??_C@_0CE@GMIGFPBB@too?5many?5length?5or?5distance?5symb@ 10002010     zlib_lib:infblock.obj
+ 0001:00001034       ??_C@_0BN@LGAADGOK@invalid?5stored?5block?5lengths?$AA@ 10002034     zlib_lib:infblock.obj
+ 0001:00001054       ??_C@_0BD@PJCBIDD@invalid?5block?5type?$AA@ 10002054     zlib_lib:infblock.obj
+ 0001:00001068       ??_C@_0BG@LBKINIKP@invalid?5distance?5code?$AA@ 10002068     zlib_lib:infcodes.obj
+ 0001:00001080       ??_C@_0BM@FFFLPBBC@invalid?5literal?1length?5code?$AA@ 10002080     zlib_lib:infcodes.obj
+ 0001:000010a0       inflate_copyright          100020a0     zlib_lib:inftrees.obj
+ 0001:000023c0       ??_C@_0CE@LOHAHEGK@incomplete?5dynamic?5bit?5lengths?5t@ 100033c0     zlib_lib:inftrees.obj
+ 0001:000023e4       ??_C@_0CI@CGMOPDPD@oversubscribed?5dynamic?5bit?5lengt@ 100033e4     zlib_lib:inftrees.obj
+ 0001:0000240c       ??_C@_0BP@NEEEJJNA@incomplete?5literal?1length?5tree?$AA@ 1000340c     zlib_lib:inftrees.obj
+ 0001:0000242c       ??_C@_0CD@GJIDGCKE@oversubscribed?5literal?1length?5tr@ 1000342c     zlib_lib:inftrees.obj
+ 0001:00002450       ??_C@_0CB@KPKKKLFO@empty?5distance?5tree?5with?5lengths@ 10003450     zlib_lib:inftrees.obj
+ 0001:00002474       ??_C@_0BJ@CBCPDPJF@incomplete?5distance?5tree?$AA@ 10003474     zlib_lib:inftrees.obj
+ 0001:00002490       ??_C@_0BN@KBLCDIAI@oversubscribed?5distance?5tree?$AA@ 10003490     zlib_lib:inftrees.obj
+ 0001:000024b0       inflate_mask               100034b0     zlib_lib:infutil.obj
+ 0001:00002518       adler32                    10003518 f   zlib_lib:adler32.obj
+ 0001:0000268c       get_crc_table              1000368c f   zlib_lib:crc32.obj
+ 0001:00002698       crc32                      10003698 f   zlib_lib:crc32.obj
+ 0001:00002830       deflate                    10003830 f   zlib_lib:deflate.obj
+ 0001:00002bc8       deflateEnd                 10003bc8 f   zlib_lib:deflate.obj
+ 0001:00003ac8       deflateReset               10004ac8 f   zlib_lib:deflate.obj
+ 0001:00003bf0       deflateInit2_              10004bf0 f   zlib_lib:deflate.obj
+ 0001:00003e60       deflateInit_               10004e60 f   zlib_lib:deflate.obj
+ 0001:00003e9c       inflateReset               10004e9c f   zlib_lib:inflate.obj
+ 0001:00003efc       inflateEnd                 10004efc f   zlib_lib:inflate.obj
+ 0001:00003f5c       inflateInit2_              10004f5c f   zlib_lib:inflate.obj
+ 0001:0000409c       inflateInit_               1000509c f   zlib_lib:inflate.obj
+ 0001:000040ac       inflate                    100050ac f   zlib_lib:inflate.obj
+ 0001:00004618       inflateSetDictionary       10005618 f   zlib_lib:inflate.obj
+ 0001:000046b4       inflateSync                100056b4 f   zlib_lib:inflate.obj
+ 0001:000047a0       inflateSyncPoint           100057a0 f   zlib_lib:inflate.obj
+ 0001:000047d0       uncompress                 100057d0 f   zlib_lib:uncompr.obj
+ 0001:00004870       zlibVersion                10005870 f   zlib_lib:zutil.obj
+ 0001:0000487c       zcalloc                    1000587c f   zlib_lib:zutil.obj
+ 0001:00004888       zcfree                     10005888 f   zlib_lib:zutil.obj
+ 0001:00005bb4       _tr_init                   10006bb4 f   zlib_lib:trees.obj
+ 0001:00005f40       _tr_stored_block           10006f40 f   zlib_lib:trees.obj
+ 0001:00006074       _tr_align                  10007074 f   zlib_lib:trees.obj
+ 0001:000062c8       _tr_flush_block            100072c8 f   zlib_lib:trees.obj
+ 0001:000065c8       inflate_blocks_reset       100075c8 f   zlib_lib:infblock.obj
+ 0001:0000665c       inflate_blocks_new         1000765c f   zlib_lib:infblock.obj
+ 0001:00006734       inflate_blocks             10007734 f   zlib_lib:infblock.obj
+ 0001:00007048       inflate_blocks_free        10008048 f   zlib_lib:infblock.obj
+ 0001:00007094       inflate_set_dictionary     10008094 f   zlib_lib:infblock.obj
+ 0001:000070bc       inflate_blocks_sync_point  100080bc f   zlib_lib:infblock.obj
+ 0001:000070d0       inflate_codes_new          100080d0 f   zlib_lib:infcodes.obj
+ 0001:0000711c       inflate_codes              1000811c f   zlib_lib:infcodes.obj
+ 0001:00007798       inflate_codes_free         10008798 f   zlib_lib:infcodes.obj
+ 0001:00007d08       inflate_trees_bits         10008d08 f   zlib_lib:inftrees.obj
+ 0001:00007dd4       inflate_trees_dynamic      10008dd4 f   zlib_lib:inftrees.obj
+ 0001:00007f78       inflate_trees_fixed        10008f78 f   zlib_lib:inftrees.obj
+ 0001:00007fb8       inflate_flush              10008fb8 f   zlib_lib:infutil.obj
+ 0001:000080ec       inflate_fast               100090ec f   zlib_lib:inffast.obj
+ 0001:0000844c       DllMain                    1000944c f   corelib0:dllmain.obj
+ 0001:00008558       _DllMainCRTStartup         10009558 f   corelib0:pegdmain.obj
+ 0001:00008584       __GSHandlerCheckCommon     10009584 f   corelib0:gshandler.obj
+ 0001:000085c0       __GSHandlerCheck           100095c0 f   corelib0:gshandler.obj
+ 0001:000085e0       __security_init_cookie     100095e0 f   corelib0:seccinit.obj
+ 0001:0000862c       __security_check_cookie    1000962c f   corelib0:armsecgs.obj
+ 0001:0000863c       __gsfailure                1000963c     corelib0:armsecgs.obj
+ 0001:00008768       _cexit                     10009768 f   corelib0:cexit.obj
+ 0001:00008778       _initterm                  10009778 f   corelib0:crt0dat.obj
+ 0001:000087a4       _cinit                     100097a4 f   corelib0:crt0dat.obj
+ 0001:00008804       __crt_ExitProcess          10009804 f   corelib0:exitproc_proxy.obj
+ 0001:00008810       memcpy                     10009810 f   corelib1:COREDLL.dll
+ 0001:00008820       memset                     10009820 f   corelib1:COREDLL.dll
+ 0001:00008830       calloc                     10009830 f   corelib1:COREDLL.dll
+ 0001:00008840       free                       10009840 f   corelib1:COREDLL.dll
+ 0001:00008850       _XcptFilter                10009850 f   corelib1:COREDLL.dll
+ 0001:00008860       __C_specific_handler       10009860 f   corelib1:COREDLL.dll
+ 0001:00008870       __security_gen_cookie2     10009870 f   corelib1:COREDLL.dll
+ 0001:00008880       __report_gsfailure         10009880 f   corelib1:COREDLL.dll
+ 0001:00008890       DisableThreadLibraryCalls  10009890 f   coredll:COREDLL.dll
+ 0001:000088a0       DeleteCriticalSection      100098a0 f   coredll:COREDLL.dll
+ 0001:000088b0       InterlockedExchange        100098b0 f   coredll:COREDLL.dll
+ 0001:000088c0       TerminateProcess           100098c0 f   coredll:COREDLL.dll
+ 0001:000088e8       __IMPORT_DESCRIPTOR_COREDLL 100098e8     corelib1:COREDLL.dll
+ 0001:000088fc       __NULL_IMPORT_DESCRIPTOR   100098fc     corelib1:COREDLL.dll
+ 0002:00000000       __imp_memcpy               1000a000     corelib1:COREDLL.dll
+ 0002:00000004       __imp_memset               1000a004     corelib1:COREDLL.dll
+ 0002:00000008       __imp_calloc               1000a008     corelib1:COREDLL.dll
+ 0002:0000000c       __imp_free                 1000a00c     corelib1:COREDLL.dll
+ 0002:00000010       __imp__XcptFilter          1000a010     corelib1:COREDLL.dll
+ 0002:00000014       __imp___C_specific_handler 1000a014     corelib1:COREDLL.dll
+ 0002:00000018       __imp___security_gen_cookie2 1000a018     corelib1:COREDLL.dll
+ 0002:0000001c       __imp___report_gsfailure   1000a01c     corelib1:COREDLL.dll
+ 0002:00000020       __imp_DisableThreadLibraryCalls 1000a020     coredll:COREDLL.dll
+ 0002:00000024       __imp_DeleteCriticalSection 1000a024     coredll:COREDLL.dll
+ 0002:00000028       __imp_InterlockedExchange  1000a028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_TerminateProcess     1000a02c     coredll:COREDLL.dll
+ 0002:00000030       \177COREDLL_NULL_THUNK_DATA 1000a030     corelib1:COREDLL.dll
+ 0002:0000007c       __security_cookie          1000a07c     corelib0:seccinit.obj
+ 0002:00000080       __security_cookie_complement 1000a080     corelib0:seccinit.obj
+ 0002:00000084       _exitflag                  1000a084     corelib0:cexit.obj
+ 0002:00000088       __onexitend                1000a088     <common>
+ 0002:0000008c       __onexitbegin              1000a08c     <common>
+ 0002:00000090       g_pcsExit                  1000a090     <common>
+ 0002:00000094       _pRawDllMain               1000a094     <common>
+
+ entry point at        0001:00008558
+
+ Static symbols
+
+ 0001:000027a0       flush_pending              100037a0 f   zlib_lib:deflate.obj
+ 0001:00002c8c       longest_match              10003c8c f   zlib_lib:deflate.obj
+ 0001:00002e68       fill_window                10003e68 f   zlib_lib:deflate.obj
+ 0001:00003038       deflate_stored             10004038 f   zlib_lib:deflate.obj
+ 0001:000031dc       deflate_fast               100041dc f   zlib_lib:deflate.obj
+ 0001:000035c0       deflate_slow               100045c0 f   zlib_lib:deflate.obj
+ 0001:00004890       init_block                 10005890 f   zlib_lib:trees.obj
+ 0001:0000490c       pqdownheap                 1000590c f   zlib_lib:trees.obj
+ 0001:000049f8       gen_bitlen                 100059f8 f   zlib_lib:trees.obj
+ 0001:00004c48       scan_tree                  10005c48 f   zlib_lib:trees.obj
+ 0001:00004d50       send_tree                  10005d50 f   zlib_lib:trees.obj
+ 0001:00005318       send_all_trees             10006318 f   zlib_lib:trees.obj
+ 0001:000055ec       compress_block             100065ec f   zlib_lib:trees.obj
+ 0001:00005aa0       bi_flush                   10006aa0 f   zlib_lib:trees.obj
+ 0001:00005b34       bi_windup                  10006b34 f   zlib_lib:trees.obj
+ 0001:00005c1c       build_tree                 10006c1c f   zlib_lib:trees.obj
+ 0001:000077b4       huft_build                 100087b4 f   zlib_lib:inftrees.obj
+ 0001:00008468       _DllMainCRTStartupHelper   10009468 f   corelib0:pegdmain.obj
+ 0001:00008680       doexit                     10009680 f   corelib0:cexit.obj

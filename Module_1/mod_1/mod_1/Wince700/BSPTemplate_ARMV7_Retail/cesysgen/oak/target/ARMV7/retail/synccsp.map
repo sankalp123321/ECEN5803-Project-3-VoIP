@@ -1,0 +1,1482 @@
+ SyncCsp
+
+ Timestamp is 5cafb4a6 (Thu Apr 11 14:41:58 2019)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000028H .CRT$XCU                CODE
+ 0001:0000002c 00000004H .CRT$XCZ                CODE
+ 0001:00000030 00000004H .CRT$XIA                CODE
+ 0001:00000034 00000004H .CRT$XIZ                CODE
+ 0001:00000038 00000004H .CRT$XPA                CODE
+ 0001:0000003c 00000004H .CRT$XPZ                CODE
+ 0001:00000040 00000004H .CRT$XTA                CODE
+ 0001:00000044 00000004H .CRT$XTZ                CODE
+ 0001:00000050 00002138H .rdata                  CODE
+ 0001:00002188 00000024H .rdata$debug            CODE
+ 0001:000021ac 0000eed0H .text                   CODE
+ 0001:0001107c 00000438H .text$yc                CODE
+ 0001:000114b4 00000028H .text$yd                CODE
+ 0001:000114dc 0000007cH .xdata                  CODE
+ 0001:00011558 00000000H ATL$__a                 CODE
+ 0001:00011558 00000000H ATL$__z                 CODE
+ 0001:00011558 000000b4H .idata$2                CODE
+ 0001:0001160c 00000014H .idata$3                CODE
+ 0001:00011620 00000330H .idata$4                CODE
+ 0001:00011950 000001d6H .idata$6                CODE
+ 0001:00011b30 0000006aH .edata                  CODE
+ 0002:00000000 00000330H .idata$5                DATA
+ 0002:00000330 00001700H .data                   DATA
+ 0002:00001a30 000000d0H .bss                    DATA
+ 0003:00000000 00001780H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:0000002c       __xc_z                     1000102c     corelib0:crt0init.obj
+ 0001:00000030       __xi_a                     10001030     corelib0:crt0init.obj
+ 0001:00000034       __xi_z                     10001034     corelib0:crt0init.obj
+ 0001:00000038       __xp_a                     10001038     corelib0:crt0init.obj
+ 0001:0000003c       __xp_z                     1000103c     corelib0:crt0init.obj
+ 0001:00000040       __xt_a                     10001040     corelib0:crt0init.obj
+ 0001:00000044       __xt_z                     10001044     corelib0:crt0init.obj
+ 0001:0000006c       ??_C@_1O@JDLOHAN@?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AA?$AA@ 1000106c     Bstr.obj
+ 0001:0000007c       ??_C@_1BC@GCKHIPE@?$AAN?$AAo?$AAR?$AAe?$AAm?$AAo?$AAv?$AAe?$AA?$AA@ 1000107c     Bstr.obj
+ 0001:00000090       ??_C@_1BI@JFAIJMHL@?$AAF?$AAo?$AAr?$AAc?$AAe?$AAR?$AAe?$AAm?$AAo?$AAv?$AAe?$AA?$AA@ 10001090     Bstr.obj
+ 0001:000000a8       ??_C@_17LLMMEOJD@?$AAV?$AAa?$AAl?$AA?$AA@ 100010a8     Bstr.obj
+ 0001:000000b0       ??_C@_13OPKGLAFF@?$AAB?$AA?$AA@ 100010b0     Bstr.obj
+ 0001:000000b4       ??_C@_13MKMNOPIJ@?$AAD?$AA?$AA@ 100010b4     Bstr.obj
+ 0001:000000b8       ??_C@_13LHMFKAAD@?$AAM?$AA?$AA@ 100010b8     Bstr.obj
+ 0001:000000bc       ??_C@_13HADIAKP@?$AAS?$AA?$AA@ 100010bc     Bstr.obj
+ 0001:000000c0       PS_MAPI                    100010c0     Bstr.obj
+ 0001:000001ac       ??_7CConnectionSettings@@6B@ 100011ac     ConnectionSettings.obj
+ 0001:000001f4       ??_7CConnectorList@@6B@    100011f4     ConnectorList.obj
+ 0001:0000021c       ??_C@_19FHBCDCCA@?$AAt?$AAy?$AAp?$AAe?$AA?$AA@ 1000121c     ConnectorList.obj
+ 0001:00000248       ??_7?$CComObject@VCSourceSettings@@@SYNC@@6B@ 10001248     DataSources.obj
+ 0001:00000270       ??_7CDataSources@@6B@      10001270     DataSources.obj
+ 0001:000002b8       ??_7CDefaultSettings@@6B@  100012b8     DefaultSettings.obj
+ 0001:000002e0       ??_7?$CComObjectAuto@VCDefaultSettings@@@SYNC@@6B@ 100012e0     DefaultSettings.obj
+ 0001:00000308       ??_7?$CComObject@VCDefaultSettings@@@SYNC@@6B@ 10001308     DefaultSettings.obj
+ 0001:00000350       ??_C@_1BO@GKDKOKG@?$AAO?$AAn?$AAe?$AAS?$AAt?$AAo?$AAp?$AAF?$AAa?$AAc?$AAt?$AAo?$AAr?$AAy?$AA?$AA@ 10001350     DelayLoad.obj
+ 0001:00000370       ??_C@_1BI@HACFFCHF@?$AAS?$AAy?$AAn?$AAc?$AAM?$AAg?$AAr?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 10001370     DelayLoad.obj
+ 0001:00000388       ??_C@_1BA@CLAAAEJF@?$AAS?$AAy?$AAn?$AAc?$AAM?$AAg?$AAr?$AA?$AA@ 10001388     DelayLoad.obj
+ 0001:000003b8       ??_7CEngineSettings@@6B@   100013b8     EngineSettings.obj
+ 0001:000003e0       _GUID_198bb6cb_d6a7_4001_96be_8cc143d4df7c 100013e0     EngineSettings.obj
+ 0001:000003f0       _GUID_64fe8d29_91b5_42c4_a7ca_bc2de782205a 100013f0     EngineSettings.obj
+ 0001:00000400       ??_C@_1BK@NKMNIFEO@?$AAp?$AAh?$AAo?$AAn?$AAe?$AA?9?$AAn?$AAu?$AAm?$AAb?$AAe?$AAr?$AA?$AA@ 10001400     EngineSettings.obj
+ 0001:0000041c       ??_C@_1BE@OICOBKLO@?$AAi?$AAn?$AAv?$AAi?$AAs?$AAi?$AAb?$AAl?$AAe?$AA?$AA@ 1000141c     EngineSettings.obj
+ 0001:00000430       ??_C@_11LOCGONAA@?$AA?$AA@ 10001430     EngineSettings.obj
+ 0001:00000434       ??_C@_13IEJJBAMJ@?$AA2?$AA?$AA@ 10001434     EngineSettings.obj
+ 0001:00000438       ??_C@_13GLHPFDDD@?p?$AA?$AA?$AA@ 10001438     EngineSettings.obj
+ 0001:0000043c       ??_C@_13JGCMLPCH@?$AA1?$AA?$AA@ 1000143c     EngineSettings.obj
+ 0001:00000440       ??_C@_13NDMDDEFG@?p?$AB?$AA?$AA@ 10001440     EngineSettings.obj
+ 0001:00000464       ??_7?$CComObjectAuto@VCFolderSettings@@@SYNC@@6B@ 10001464     FolderHierarchy.obj
+ 0001:0000048c       ??_7?$CComObject@VCFolderSettings@@@SYNC@@6B@ 1000148c     FolderHierarchy.obj
+ 0001:000004b4       ??_7CSyncCallback@@6B@     100014b4     FolderHierarchy.obj
+ 0001:000004e0       ??_7CFolderHierarchy@@6B@  100014e0     FolderHierarchy.obj
+ 0001:00000528       ??_7CFolderSettings@@6B@   10001528     FolderSettings.obj
+ 0001:00000570       ??_7?$CComObject@VCPeakDaySettings@@@SYNC@@6B@ 10001570     GlobalSettings.obj
+ 0001:00000598       ??_7CGlobalSettings@@6B@   10001598     GlobalSettings.obj
+ 0001:000005e0       ??_7CPeakDaysBase@@6B@     100015e0     PeakDaysBase.obj
+ 0001:00000628       ??_7CPeakDaySettings@@6B@  10001628     PeakDaySettings.obj
+ 0001:00000670       ??_7CPeakDaysPolicy@@6B@   10001670     PeakDaysPolicy.obj
+ 0001:000006b8       ??_7?$CComObject@VCProviderSettings@@@SYNC@@6B@ 100016b8     ProviderList.obj
+ 0001:000006e0       ??_7CProviderList@@6B@     100016e0     ProviderList.obj
+ 0001:00000748       ??_7CProviderSettings@@6B@ 10001748     ProviderSettings.obj
+ 0001:00000790       ??_7?$CComObjectAuto@VCIgnoreCharacteristic@@@SYNC@@6B@ 10001790     RootCharacteristic.obj
+ 0001:000007d8       ??_7?$CComObject@VCDataSources@@@SYNC@@6B@ 100017d8     RootSettings.obj
+ 0001:00000800       ??_7?$CComObject@VCFolderHierarchy@@@SYNC@@6B@ 10001800     RootSettings.obj
+ 0001:00000828       ??_7?$CComObject@VCConnectionSettings@@@SYNC@@6B@ 10001828     RootSettings.obj
+ 0001:00000850       ??_7?$CComObject@VCPolicies@@@SYNC@@6B@ 10001850     RootSettings.obj
+ 0001:00000878       ??_7?$CComObject@VCGlobalSettings@@@SYNC@@6B@ 10001878     RootSettings.obj
+ 0001:000008a0       ??_7CRootSettings@@6B@     100018a0     RootSettings.obj
+ 0001:000008c8       ??_7?$CComObject@VCCalendarSettings@@@SYNC@@6B@ 100018c8     RootSettings.obj
+ 0001:000008f0       ??_7?$CComObject@VCContactsSettings@@@SYNC@@6B@ 100018f0     RootSettings.obj
+ 0001:00000918       ??_7?$CComObject@VCTasksSettings@@@SYNC@@6B@ 10001918     RootSettings.obj
+ 0001:00000940       ??_7?$CComObject@VCMailSettings@@@SYNC@@6B@ 10001940     RootSettings.obj
+ 0001:00000988       ??_7?$CComObject@VCSyncEngines@@@SYNC@@6B@ 10001988     SourceSettings.obj
+ 0001:000009b0       ??_7CSourceSettings@@6B@   100019b0     SourceSettings.obj
+ 0001:00000a18       ??_7CSyncCharacteristic@@6B@ 10001a18     SyncCharacteristic.obj
+ 0001:00000a40       _GUID_d83013b3_9ec6_464f_a188_1854cd5b4e99 10001a40     SyncCsp.obj
+ 0001:00000a50       _GUID_d83013b4_9ec6_464f_a188_1854cd5b4e99 10001a50     SyncCsp.obj
+ 0001:00000a80       ?s_qit@CSyncCsp@@1QBUQITAB@@B 10001a80     SyncCsp.obj
+ 0001:00000a98       ??_7?$CComObject@VCSyncCspTransaction@@@SYNC@@6B@ 10001a98     SyncCsp.obj
+ 0001:00000ab8       ??_7?$CComObject@VCRootSettings@@@SYNC@@6B@ 10001ab8     SyncCsp.obj
+ 0001:00000ae0       ??_7CRootCharacteristic@@6B@ 10001ae0     SyncCsp.obj
+ 0001:00000b08       ??_7CSyncCsp@@6B@          10001b08     SyncCsp.obj
+ 0001:00000b48       ??_7?$CComObjectAuto@VCRootCharacteristic@@@SYNC@@6B@ 10001b48     SyncCsp.obj
+ 0001:00000b70       ??_7?$CComObject@VCSyncCsp@@@SYNC@@6B@ 10001b70     SyncCsp.obj
+ 0001:00000be4       ?g_cftThisDll@@3QBUtagOBJECTINFO@@B 10001be4     SyncCspFactory.obj
+ 0001:00000c20       ?c_wszEngineDefaults@@3QBGB 10001c20     SyncCspMain.obj
+ 0001:00000c54       ?c_wszCharacteristic@@3QBGB 10001c54     SyncCspMain.obj
+ 0001:00000c74       ?c_wszTypeLower@@3QBGB     10001c74     SyncCspMain.obj
+ 0001:00000c80       ?c_wszParm@@3QBGB          10001c80     SyncCspMain.obj
+ 0001:00000c8c       ?c_wszNameLower@@3QBGB     10001c8c     SyncCspMain.obj
+ 0001:00000c98       ?c_wszValue@@3QBGB         10001c98     SyncCspMain.obj
+ 0001:00000ca4       ?c_wszNotificationsSupported@@3QBGB 10001ca4     SyncCspMain.obj
+ 0001:00000cd4       ?c_wszPasswordReplacement@@3QBGB 10001cd4     SyncCspMain.obj
+ 0001:00000cf8       ?c_wszMail@@3QBGB          10001cf8     SyncCspMain.obj
+ 0001:00000d04       ?c_wszContacts@@3QBGB      10001d04     SyncCspMain.obj
+ 0001:00000d18       ?c_wszCalendar@@3QBGB      10001d18     SyncCspMain.obj
+ 0001:00000d2c       ?c_wszTasks@@3QBGB         10001d2c     SyncCspMain.obj
+ 0001:00000d38       ?c_wszNotes@@3QBGB         10001d38     SyncCspMain.obj
+ 0001:00000d44       ?c_wszSMS@@3QBGB           10001d44     SyncCspMain.obj
+ 0001:00000d60       ?c_wszFiles@@3QBGB         10001d60     SyncCspMain.obj
+ 0001:00000d6c       ?c_wszFavorites@@3QBGB     10001d6c     SyncCspMain.obj
+ 0001:00000d80       ?c_wszAccess@@3QBGB        10001d80     SyncCspMain.obj
+ 0001:00000d9c       ?c_wszMedia@@3QBGB         10001d9c     SyncCspMain.obj
+ 0001:00000dc0       ?c_wszServerAirSync@@3QBGB 10001dc0     SyncCspMain.obj
+ 0001:00000e50       ??_C@_1CM@NFKPBPAK@?$AAS?$AAy?$AAn?$AAc?$AAW?$AAh?$AAe?$AAn?$AAR?$AAo?$AAa?$AAm?$AAi?$AAn?$AAg?$AAP?$AAo?$AAl?$AAi?$AAc?$AAy?$AA?$AA@ 10001e50     SyncCspSchema.obj
+ 0001:00000e7c       ??_C@_1CC@BOCIEPAP@?$AAS?$AAe?$AAr?$AAv?$AAe?$AAr?$AAN?$AAa?$AAm?$AAe?$AAP?$AAo?$AAl?$AAi?$AAc?$AAy?$AA?$AA@ 10001e7c     SyncCspSchema.obj
+ 0001:00000ea0       ??_C@_1BG@KNHNPNEB@?$AAS?$AAe?$AAr?$AAv?$AAe?$AAr?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 10001ea0     SyncCspSchema.obj
+ 0001:00000eb8       ??_C@_1DA@BJCINAGJ@?$AAP?$AAr?$AAe?$AAf?$AAe?$AAr?$AAr?$AAe?$AAd?$AAB?$AAo?$AAd?$AAy?$AAT?$AAy?$AAp?$AAe?$AAP?$AAo?$AAl?$AAi?$AAc?$AAy?$AA?$AA@ 10001eb8     SyncCspSchema.obj
+ 0001:00000ee8       ??_C@_1CI@ENKGMCBF@?$AAP?$AAe?$AAa?$AAk?$AAS?$AAt?$AAa?$AAr?$AAt?$AAT?$AAi?$AAm?$AAe?$AAP?$AAo?$AAl?$AAi?$AAc?$AAy?$AA?$AA@ 10001ee8     SyncCspSchema.obj
+ 0001:00000f10       ??_C@_1CE@LDMHIKCD@?$AAP?$AAe?$AAa?$AAk?$AAE?$AAn?$AAd?$AAT?$AAi?$AAm?$AAe?$AAP?$AAo?$AAl?$AAi?$AAc?$AAy?$AA?$AA@ 10001f10     SyncCspSchema.obj
+ 0001:00000f34       ??_C@_1CO@OHOCMOHC@?$AAM?$AAa?$AAx?$AAP?$AAe?$AAa?$AAk?$AAF?$AAr?$AAe?$AAq?$AAu?$AAe?$AAn?$AAc?$AAy?$AAP?$AAo?$AAl?$AAi?$AAc?$AAy?$AA?$AA@ 10001f34     SyncCspSchema.obj
+ 0001:00000f64       ??_C@_1CC@JKFNFDCC@?$AAM?$AAa?$AAx?$AAP?$AAe?$AAa?$AAk?$AAF?$AAr?$AAe?$AAq?$AAu?$AAe?$AAn?$AAc?$AAy?$AA?$AA@ 10001f64     SyncCspSchema.obj
+ 0001:00000f88       ??_C@_1DE@KDGEBAMJ@?$AAM?$AAa?$AAx?$AAO?$AAf?$AAf?$AAP?$AAe?$AAa?$AAk?$AAF?$AAr?$AAe?$AAq?$AAu?$AAe?$AAn?$AAc?$AAy?$AAP?$AAo?$AAl?$AAi?$AAc?$AAy?$AA?$AA@ 10001f88     SyncCspSchema.obj
+ 0001:00000fbc       ??_C@_1CI@FPHAMHBJ@?$AAM?$AAa?$AAx?$AAO?$AAf?$AAf?$AAP?$AAe?$AAa?$AAk?$AAF?$AAr?$AAe?$AAq?$AAu?$AAe?$AAn?$AAc?$AAy?$AA?$AA@ 10001fbc     SyncCspSchema.obj
+ 0001:00000fe4       ??_C@_1DK@DBPNAHFC@?$AAM?$AAa?$AAx?$AAM?$AAa?$AAi?$AAl?$AAF?$AAi?$AAl?$AAe?$AAA?$AAt?$AAt?$AAa?$AAc?$AAh?$AAm?$AAe?$AAn?$AAt?$AAs?$AAP?$AAo?$AAl?$AAi?$AAc?$AAy?$AA?$AA@ 10001fe4     SyncCspSchema.obj
+ 0001:00001020       ??_C@_1CO@EHDGFIHO@?$AAM?$AAa?$AAx?$AAM?$AAa?$AAi?$AAl?$AAF?$AAi?$AAl?$AAe?$AAA?$AAt?$AAt?$AAa?$AAc?$AAh?$AAm?$AAe?$AAn?$AAt?$AAs?$AA?$AA@ 10002020     SyncCspSchema.obj
+ 0001:00001050       ??_C@_1DI@KDMDJAMH@?$AAM?$AAa?$AAx?$AAM?$AAa?$AAi?$AAl?$AAB?$AAo?$AAd?$AAy?$AAT?$AAr?$AAu?$AAn?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AAP?$AAo?$AAl?$AAi?$AAc?$AAy?$AA?$AA@ 10002050     SyncCspSchema.obj
+ 0001:00001088       ??_C@_1CM@KKIEHIAF@?$AAM?$AAa?$AAx?$AAM?$AAa?$AAi?$AAl?$AAB?$AAo?$AAd?$AAy?$AAT?$AAr?$AAu?$AAn?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 10002088     SyncCspSchema.obj
+ 0001:000010b4       ??_C@_1DA@CIDEOAOF@?$AAM?$AAa?$AAx?$AAH?$AAT?$AAM?$AAL?$AAT?$AAr?$AAu?$AAn?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AAP?$AAo?$AAl?$AAi?$AAc?$AAy?$AA?$AA@ 100020b4     SyncCspSchema.obj
+ 0001:000010e4       ??_C@_1CE@PNDMBFAE@?$AAM?$AAa?$AAx?$AAH?$AAT?$AAM?$AAL?$AAT?$AAr?$AAu?$AAn?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 100020e4     SyncCspSchema.obj
+ 0001:00001108       ??_C@_1DA@GPHJKPJK@?$AAM?$AAa?$AAx?$AAE?$AAm?$AAa?$AAi?$AAl?$AAA?$AAg?$AAe?$AAF?$AAi?$AAl?$AAt?$AAe?$AAr?$AAP?$AAo?$AAl?$AAi?$AAc?$AAy?$AA?$AA@ 10002108     SyncCspSchema.obj
+ 0001:00001138       ??_C@_1CE@FEICBHNF@?$AAM?$AAa?$AAx?$AAE?$AAm?$AAa?$AAi?$AAl?$AAA?$AAg?$AAe?$AAF?$AAi?$AAl?$AAt?$AAe?$AAr?$AA?$AA@ 10002138     SyncCspSchema.obj
+ 0001:0000115c       ??_C@_1DG@BIOHGCHF@?$AAM?$AAa?$AAx?$AAC?$AAa?$AAl?$AAe?$AAn?$AAd?$AAa?$AAr?$AAA?$AAg?$AAe?$AAF?$AAi?$AAl?$AAt?$AAe?$AAr?$AAP?$AAo?$AAl?$AAi?$AAc?$AAy?$AA?$AA@ 1000215c     SyncCspSchema.obj
+ 0001:00001194       ??_C@_1CK@GNDLEIPC@?$AAM?$AAa?$AAx?$AAC?$AAa?$AAl?$AAe?$AAn?$AAd?$AAa?$AAr?$AAA?$AAg?$AAe?$AAF?$AAi?$AAl?$AAt?$AAe?$AAr?$AA?$AA@ 10002194     SyncCspSchema.obj
+ 0001:000011c0       ??_C@_1EI@EIPEJCJN@?$AAD?$AAi?$AAs?$AAa?$AAb?$AAl?$AAe?$AAD?$AAe?$AAs?$AAk?$AAt?$AAo?$AAp?$AAE?$AAm?$AAa?$AAi?$AAl?$AAA?$AAn?$AAd?$AAP?$AAI?$AAM?$AAS?$AAy?$AAn?$AAc?$AAP?$AAo?$AAl@ 100021c0     SyncCspSchema.obj
+ 0001:00001208       ??_C@_1DM@IHIICPOE@?$AAD?$AAi?$AAs?$AAa?$AAb?$AAl?$AAe?$AAD?$AAe?$AAs?$AAk?$AAt?$AAo?$AAp?$AAE?$AAm?$AAa?$AAi?$AAl?$AAA?$AAn?$AAd?$AAP?$AAI?$AAM?$AAS?$AAy?$AAn?$AAc?$AA?$AA@ 10002208     SyncCspSchema.obj
+ 0001:00001244       ??_C@_1BO@MPNDADGO@?$AAP?$AAe?$AAa?$AAk?$AAD?$AAa?$AAy?$AAs?$AAP?$AAo?$AAl?$AAi?$AAc?$AAy?$AA?$AA@ 10002244     SyncCspSchema.obj
+ 0001:00001264       ??_C@_1BC@LDFBNAGD@?$AAR?$AAe?$AAa?$AAd?$AAO?$AAn?$AAl?$AAy?$AA?$AA@ 10002264     SyncCspSchema.obj
+ 0001:00001278       ??_C@_1CM@BAIBCBDH@?$AAS?$AAe?$AAr?$AAv?$AAe?$AAr?$AAH?$AAT?$AAM?$AAL?$AAM?$AAa?$AAi?$AAl?$AAS?$AAu?$AAp?$AAp?$AAo?$AAr?$AAt?$AA?$AA@ 10002278     SyncCspSchema.obj
+ 0001:000012a4       ??_C@_1CO@KFJMPGJK@?$AAS?$AAe?$AAr?$AAv?$AAe?$AAr?$AAC?$AAe?$AAr?$AAt?$AAA?$AAu?$AAt?$AAh?$AAR?$AAe?$AAq?$AAu?$AAi?$AAr?$AAe?$AAd?$AA?$AA@ 100022a4     SyncCspSchema.obj
+ 0001:000012d4       ??_C@_1CE@BGEBPGED@?$AAS?$AAe?$AAr?$AAv?$AAe?$AAr?$AAA?$AAu?$AAt?$AAd?$AAS?$AAu?$AAp?$AAp?$AAo?$AAr?$AAt?$AA?$AA@ 100022d4     SyncCspSchema.obj
+ 0001:000012f8       ??_C@_1CG@NCHOHKNB@?$AAR?$AAe?$AAf?$AAr?$AAe?$AAs?$AAh?$AAC?$AAe?$AAr?$AAt?$AAA?$AAu?$AAt?$AAh?$AAX?$AAm?$AAl?$AA?$AA@ 100022f8     SyncCspSchema.obj
+ 0001:00001320       ??_C@_1BA@HEALCKMJ@?$AAL?$AAo?$AAg?$AAg?$AAi?$AAn?$AAg?$AA?$AA@ 10002320     SyncCspSchema.obj
+ 0001:00001330       ??_C@_1BK@GCKPBHJA@?$AAE?$AAm?$AAa?$AAi?$AAl?$AAA?$AAd?$AAd?$AAr?$AAe?$AAs?$AAs?$AA?$AA@ 10002330     SyncCspSchema.obj
+ 0001:0000134c       ??_C@_1BE@IGDCHNDA@?$AAP?$AAr?$AAo?$AAv?$AAi?$AAd?$AAe?$AAr?$AAs?$AA?$AA@ 1000234c     SyncCspSchema.obj
+ 0001:00001360       ??_C@_1BE@EABMEBPB@?$AAS?$AAt?$AAo?$AAr?$AAe?$AAT?$AAy?$AAp?$AAe?$AA?$AA@ 10002360     SyncCspSchema.obj
+ 0001:00001374       ??_C@_19DINFBLAK@?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 10002374     SyncCspSchema.obj
+ 0001:00001380       ??_C@_17CJEDCEPE@?$AAW?$AAe?$AAd?$AA?$AA@ 10002380     SyncCspSchema.obj
+ 0001:00001388       ??_C@_17BMKGEGOJ@?$AAT?$AAu?$AAe?$AA?$AA@ 10002388     SyncCspSchema.obj
+ 0001:00001390       ??_C@_17GOCADIIK@?$AAT?$AAh?$AAr?$AA?$AA@ 10002390     SyncCspSchema.obj
+ 0001:00001398       ??_C@_17MBGCMIPB@?$AAS?$AAu?$AAn?$AA?$AA@ 10002398     SyncCspSchema.obj
+ 0001:000013a0       ??_C@_17GGIBDPIH@?$AAS?$AAa?$AAt?$AA?$AA@ 100023a0     SyncCspSchema.obj
+ 0001:000013a8       ??_C@_17KBOMKBF@?$AAM?$AAo?$AAn?$AA?$AA@ 100023a8     SyncCspSchema.obj
+ 0001:000013b0       ??_C@_17HFOLPPLP@?$AAF?$AAr?$AAi?$AA?$AA@ 100023b0     SyncCspSchema.obj
+ 0001:000013b8       ??_C@_1BK@FJPGFLL@?$AAV?$AAe?$AAr?$AAs?$AAi?$AAo?$AAn?$AAM?$AAi?$AAn?$AAo?$AAr?$AA?$AA@ 100023b8     SyncCspSchema.obj
+ 0001:000013d4       ??_C@_1BK@JCACCLLF@?$AAV?$AAe?$AAr?$AAs?$AAi?$AAo?$AAn?$AAM?$AAa?$AAj?$AAo?$AAr?$AA?$AA@ 100023d4     SyncCspSchema.obj
+ 0001:000013f0       ??_C@_1CA@BABOLMJF@?$AAS?$AAy?$AAn?$AAc?$AAW?$AAh?$AAe?$AAn?$AAR?$AAo?$AAa?$AAm?$AAi?$AAn?$AAg?$AA?$AA@ 100023f0     SyncCspSchema.obj
+ 0001:00001410       ??_C@_1DC@GJPHAGHG@?$AAS?$AAy?$AAn?$AAc?$AAA?$AAf?$AAt?$AAe?$AAr?$AAT?$AAi?$AAm?$AAe?$AAW?$AAh?$AAe?$AAn?$AAC?$AAr?$AAa?$AAd?$AAl?$AAe?$AAd?$AA?$AA@ 10002410     SyncCspSchema.obj
+ 0001:00001444       ??_C@_1BM@CMDCAACG@?$AAS?$AAy?$AAn?$AAc?$AAA?$AAf?$AAt?$AAe?$AAr?$AAT?$AAi?$AAm?$AAe?$AA?$AA@ 10002444     SyncCspSchema.obj
+ 0001:00001460       ??_C@_1BO@JHIEDGLE@?$AAS?$AAy?$AAn?$AAc?$AAA?$AAf?$AAt?$AAe?$AAr?$AAC?$AAo?$AAu?$AAn?$AAt?$AA?$AA@ 10002460     SyncCspSchema.obj
+ 0001:00001480       ??_C@_1BA@NPCNGBNG@?$AAS?$AAy?$AAn?$AAc?$AAA?$AAP?$AAN?$AA?$AA@ 10002480     SyncCspSchema.obj
+ 0001:00001490       ??_C@_1CG@CCMNMLAB@?$AAS?$AAu?$AAp?$AAp?$AAo?$AAr?$AAt?$AAe?$AAd?$AAA?$AAu?$AAt?$AAd?$AAM?$AAo?$AAd?$AAe?$AAs?$AA?$AA@ 10002490     SyncCspSchema.obj
+ 0001:000014b8       ??_C@_1DC@OLPJBDMC@?$AAS?$AAe?$AAn?$AAd?$AAM?$AAa?$AAi?$AAl?$AAI?$AAt?$AAe?$AAm?$AAs?$AAI?$AAm?$AAm?$AAe?$AAd?$AAi?$AAa?$AAt?$AAe?$AAl?$AAy?$AA?$AA@ 100024b8     SyncCspSchema.obj
+ 0001:000014ec       ??_C@_1CG@ECLGMDEA@?$AAR?$AAa?$AAd?$AAi?$AAo?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AAd?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AA?$AA@ 100024ec     SyncCspSchema.obj
+ 0001:00001514       ??_C@_1CE@NHDBNFAL@?$AAP?$AAr?$AAe?$AAf?$AAe?$AAr?$AAr?$AAe?$AAd?$AAB?$AAo?$AAd?$AAy?$AAT?$AAy?$AAp?$AAe?$AA?$AA@ 10002514     SyncCspSchema.obj
+ 0001:00001538       ??_C@_1CC@OEJNGEPA@?$AAP?$AAi?$AAn?$AAg?$AAW?$AAh?$AAi?$AAl?$AAe?$AAC?$AAr?$AAa?$AAd?$AAl?$AAe?$AAd?$AA?$AA@ 10002538     SyncCspSchema.obj
+ 0001:0000155c       ??_C@_1BM@NABGPACE@?$AAP?$AAe?$AAa?$AAk?$AAS?$AAt?$AAa?$AAr?$AAt?$AAT?$AAi?$AAm?$AAe?$AA?$AA@ 1000255c     SyncCspSchema.obj
+ 0001:00001578       ??_C@_1BM@ILOCHLOA@?$AAP?$AAe?$AAa?$AAk?$AAF?$AAr?$AAe?$AAq?$AAu?$AAe?$AAn?$AAc?$AAy?$AA?$AA@ 10002578     SyncCspSchema.obj
+ 0001:00001594       ??_C@_1BI@KDFCKGND@?$AAP?$AAe?$AAa?$AAk?$AAE?$AAn?$AAd?$AAT?$AAi?$AAm?$AAe?$AA?$AA@ 10002594     SyncCspSchema.obj
+ 0001:000015ac       ??_C@_1CE@CDEBNCNM@?$AAO?$AAu?$AAt?$AAb?$AAo?$AAu?$AAn?$AAd?$AAM?$AAa?$AAi?$AAl?$AAD?$AAe?$AAl?$AAa?$AAy?$AA?$AA@ 100025ac     SyncCspSchema.obj
+ 0001:000015d0       ??_C@_1CC@KKBEILOI@?$AAO?$AAf?$AAf?$AAP?$AAe?$AAa?$AAk?$AAF?$AAr?$AAe?$AAq?$AAu?$AAe?$AAn?$AAc?$AAy?$AA?$AA@ 100025d0     SyncCspSchema.obj
+ 0001:000015f4       ??_C@_1CO@BIEMGOEH@?$AAN?$AAo?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AAs?$AAS?$AAu?$AAp?$AAp?$AAo?$AAr?$AAt?$AAe?$AAd?$AA?$AA@ 100025f4     SyncCspSchema.obj
+ 0001:00001624       ??_C@_1BO@LOBMBPGN@?$AAM?$AAI?$AAM?$AAE?$AAT?$AAr?$AAu?$AAn?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 10002624     SyncCspSchema.obj
+ 0001:00001644       ??_C@_1BK@NPKMAKGA@?$AAH?$AAe?$AAa?$AAr?$AAt?$AAb?$AAe?$AAa?$AAt?$AAM?$AAi?$AAn?$AA?$AA@ 10002644     SyncCspSchema.obj
+ 0001:00001660       ??_C@_1BK@EGINIAEO@?$AAH?$AAe?$AAa?$AAr?$AAt?$AAb?$AAe?$AAa?$AAt?$AAM?$AAa?$AAx?$AA?$AA@ 10002660     SyncCspSchema.obj
+ 0001:0000167c       ??_C@_1CG@MFOPOHFB@?$AAH?$AAe?$AAa?$AAr?$AAt?$AAb?$AAe?$AAa?$AAt?$AAI?$AAn?$AAc?$AAr?$AAe?$AAm?$AAe?$AAn?$AAt?$AA?$AA@ 1000267c     SyncCspSchema.obj
+ 0001:000016a4       ??_C@_1CC@KBJMCHLF@?$AAH?$AAe?$AAa?$AAr?$AAt?$AAb?$AAe?$AAa?$AAt?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AA?$AA@ 100026a4     SyncCspSchema.obj
+ 0001:000016c8       ??_C@_1BO@DBEFBJIN@?$AAH?$AAT?$AAM?$AAL?$AAT?$AAr?$AAu?$AAn?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 100026c8     SyncCspSchema.obj
+ 0001:000016e8       ??_C@_1CE@BCBCNPEK@?$AAH?$AAT?$AAM?$AAL?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AAP?$AAo?$AAl?$AAi?$AAc?$AAy?$AA?$AA@ 100026e8     SyncCspSchema.obj
+ 0001:0000170c       ??_C@_1DO@ENBHLDFB@?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AAN?$AAo?$AAn?$AAL?$AAo?$AAc?$AAa?$AAl?$AAC?$AAr?$AAo?$AAs?$AAs?$AAP?$AAo?$AAl?$AAl?$AAi?$AAn?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 1000270c     SyncCspSchema.obj
+ 0001:0000174c       ??_C@_1CG@MBHMPEFF@?$AAD?$AAi?$AAs?$AAc?$AAo?$AAn?$AAn?$AAe?$AAc?$AAt?$AAW?$AAh?$AAe?$AAn?$AAD?$AAo?$AAn?$AAe?$AA?$AA@ 1000274c     SyncCspSchema.obj
+ 0001:00001774       ??_C@_1CC@KMLMCMOO@?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAS?$AAM?$AAS?$AAA?$AAd?$AAd?$AAr?$AAe?$AAs?$AAs?$AA?$AA@ 10002774     SyncCspSchema.obj
+ 0001:00001798       ??_C@_1CI@DNCLBNEL@?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAP?$AAh?$AAo?$AAn?$AAe?$AAR?$AAe?$AAa?$AAd?$AAO?$AAn?$AAl?$AAy?$AA?$AA@ 10002798     SyncCspSchema.obj
+ 0001:000017c0       ??_C@_1CE@JJMECKAG@?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAP?$AAh?$AAo?$AAn?$AAe?$AAN?$AAu?$AAm?$AAb?$AAe?$AAr?$AA?$AA@ 100027c0     SyncCspSchema.obj
+ 0001:000017e4       ??_C@_1CO@IBAIJBLK@?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAA?$AAd?$AAd?$AAr?$AAe?$AAs?$AAs?$AAi?$AAn?$AAg?$AAM?$AAe?$AAt?$AAh?$AAo?$AAd?$AA?$AA@ 100027e4     SyncCspSchema.obj
+ 0001:00001814       ??_C@_1CG@KNEHGBNG@?$AAC?$AAo?$AAn?$AAf?$AAl?$AAi?$AAc?$AAt?$AAR?$AAe?$AAs?$AAo?$AAl?$AAu?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 10002814     SyncCspSchema.obj
+ 0001:0000183c       ??_C@_1CM@OHFLAKPD@?$AAC?$AAl?$AAi?$AAe?$AAn?$AAt?$AAP?$AAr?$AAo?$AAt?$AAo?$AAc?$AAo?$AAl?$AAV?$AAe?$AAr?$AAs?$AAi?$AAo?$AAn?$AA?$AA@ 1000283c     SyncCspSchema.obj
+ 0001:00001868       ??_C@_1CC@NOONCBGG@?$AAC?$AAl?$AAi?$AAe?$AAn?$AAt?$AAN?$AAe?$AAg?$AAo?$AAt?$AAi?$AAa?$AAt?$AAe?$AAd?$AA?$AA@ 10002868     SyncCspSchema.obj
+ 0001:0000188c       ??_C@_1CM@OEAMPAGK@?$AAC?$AAl?$AAi?$AAe?$AAn?$AAt?$AAH?$AAT?$AAM?$AAL?$AAM?$AAa?$AAi?$AAl?$AAS?$AAu?$AAp?$AAp?$AAo?$AAr?$AAt?$AA?$AA@ 1000288c     SyncCspSchema.obj
+ 0001:000018b8       ??_C@_1CM@IMEHDONJ@?$AAC?$AAl?$AAi?$AAe?$AAn?$AAt?$AAD?$AAu?$AAa?$AAl?$AAH?$AAo?$AAm?$AAe?$AAS?$AAu?$AAp?$AAp?$AAo?$AAr?$AAt?$AA?$AA@ 100028b8     SyncCspSchema.obj
+ 0001:000018e4       ??_C@_1CM@CENJMFBP@?$AAC?$AAl?$AAi?$AAe?$AAn?$AAt?$AAC?$AAe?$AAr?$AAt?$AAA?$AAu?$AAt?$AAh?$AAS?$AAu?$AAp?$AAp?$AAo?$AAr?$AAt?$AA?$AA@ 100028e4     SyncCspSchema.obj
+ 0001:00001910       ??_C@_1CE@BPFBDDLO@?$AAC?$AAl?$AAi?$AAe?$AAn?$AAt?$AAA?$AAu?$AAt?$AAd?$AAS?$AAu?$AAp?$AAp?$AAo?$AAr?$AAt?$AA?$AA@ 10002910     SyncCspSchema.obj
+ 0001:00001934       ??_C@_1CC@KLGIBLJ@?$AAC?$AAa?$AAr?$AAr?$AAi?$AAe?$AAr?$AAC?$AAo?$AAn?$AAn?$AAe?$AAc?$AAt?$AAo?$AAr?$AA?$AA@ 10002934     SyncCspSchema.obj
+ 0001:00001958       ??_C@_1BO@HBMBNIG@?$AAB?$AAo?$AAd?$AAy?$AAT?$AAr?$AAu?$AAn?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 10002958     SyncCspSchema.obj
+ 0001:00001978       ??_C@_1CI@DJNJBIFO@?$AAA?$AAu?$AAt?$AAo?$AAS?$AAy?$AAn?$AAc?$AAW?$AAh?$AAe?$AAn?$AAC?$AAr?$AAa?$AAd?$AAl?$AAe?$AAd?$AA?$AA@ 10002978     SyncCspSchema.obj
+ 0001:000019a0       ??_C@_1BC@DLFANGCM@?$AAA?$AAu?$AAt?$AAo?$AAS?$AAy?$AAn?$AAc?$AA?$AA@ 100029a0     SyncCspSchema.obj
+ 0001:000019b4       ??_C@_1BE@CFELCICF@?$AAA?$AAu?$AAt?$AAd?$AAP?$AAr?$AAo?$AAx?$AAy?$AA?$AA@ 100029b4     SyncCspSchema.obj
+ 0001:000019c8       ??_C@_1BC@NJHHLOIG@?$AAP?$AAe?$AAa?$AAk?$AAD?$AAa?$AAy?$AAs?$AA?$AA@ 100029c8     SyncCspSchema.obj
+ 0001:000019dc       ??_C@_1CK@EDDCNABJ@?$AAC?$AAa?$AAr?$AAr?$AAi?$AAe?$AAr?$AAC?$AAo?$AAn?$AAn?$AAe?$AAc?$AAt?$AAo?$AAr?$AAL?$AAi?$AAs?$AAt?$AA?$AA@ 100029dc     SyncCspSchema.obj
+ 0001:00001a08       ??_C@_1BM@CNECLKFE@?$AAS?$AAa?$AAv?$AAe?$AAS?$AAe?$AAn?$AAt?$AAI?$AAt?$AAe?$AAm?$AAs?$AA?$AA@ 10002a08     SyncCspSchema.obj
+ 0001:00001a24       ??_C@_1CI@DLAPGOF@?$AAM?$AAa?$AAi?$AAl?$AAF?$AAi?$AAl?$AAe?$AAA?$AAt?$AAt?$AAa?$AAc?$AAh?$AAm?$AAe?$AAn?$AAt?$AAs?$AA?$AA@ 10002a24     SyncCspSchema.obj
+ 0001:00001a4c       ??_C@_1CG@CBJINFFD@?$AAM?$AAa?$AAi?$AAl?$AAB?$AAo?$AAd?$AAy?$AAT?$AAr?$AAu?$AAn?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 10002a4c     SyncCspSchema.obj
+ 0001:00001a74       ??_C@_1BO@JIPLBLFM@?$AAE?$AAm?$AAa?$AAi?$AAl?$AAA?$AAg?$AAe?$AAF?$AAi?$AAl?$AAt?$AAe?$AAr?$AA?$AA@ 10002a74     SyncCspSchema.obj
+ 0001:00001a94       ??_C@_1BI@DNNGEAJE@?$AAS?$AAy?$AAn?$AAc?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AAd?$AA?$AA@ 10002a94     SyncCspSchema.obj
+ 0001:00001aac       ??_C@_1BG@GOIFJPGI@?$AAF?$AAo?$AAl?$AAd?$AAe?$AAr?$AAT?$AAy?$AAp?$AAe?$AA?$AA@ 10002aac     SyncCspSchema.obj
+ 0001:00001ac4       ??_C@_19PIJILKAI@?$AAU?$AAs?$AAe?$AAr?$AA?$AA@ 10002ac4     SyncCspSchema.obj
+ 0001:00001ad0       ??_C@_1O@GJIHNGAB@?$AAU?$AAs?$AAe?$AAS?$AAS?$AAL?$AA?$AA@ 10002ad0     SyncCspSchema.obj
+ 0001:00001ae0       ??_C@_17CAEBGDHP@?$AAU?$AAR?$AAI?$AA?$AA@ 10002ae0     SyncCspSchema.obj
+ 0001:00001ae8       ??_C@_1O@MEFDEICK@?$AAS?$AAe?$AAr?$AAv?$AAe?$AAr?$AA?$AA@ 10002ae8     SyncCspSchema.obj
+ 0001:00001af8       ??_C@_1BK@CBJHGFNN@?$AAS?$AAa?$AAv?$AAe?$AAP?$AAa?$AAs?$AAs?$AAw?$AAo?$AAr?$AAd?$AA?$AA@ 10002af8     SyncCspSchema.obj
+ 0001:00001b14       ??_C@_1BC@LBMJCFCO@?$AAP?$AAa?$AAs?$AAs?$AAw?$AAo?$AAr?$AAd?$AA?$AA@ 10002b14     SyncCspSchema.obj
+ 0001:00001b28       ??_C@_1BI@CJMIOKGK@?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AAR?$AAN?$AAD?$AAI?$AAS?$AA?$AA@ 10002b28     SyncCspSchema.obj
+ 0001:00001b40       ??_C@_1O@OAMNPMOM@?$AAD?$AAo?$AAm?$AAa?$AAi?$AAn?$AA?$AA@ 10002b40     SyncCspSchema.obj
+ 0001:00001b50       ??_C@_1BC@FDHFOMEN@?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAI?$AAD?$AA?$AA@ 10002b50     SyncCspSchema.obj
+ 0001:00001b64       ??_C@_1O@HAMLNBEA@?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AA?$AA@ 10002b64     SyncCspSchema.obj
+ 0001:00001b74       ??_C@_1BO@KGOJHJGL@?$AAA?$AAl?$AAl?$AAo?$AAw?$AAS?$AAS?$AAL?$AAO?$AAp?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 10002b74     SyncCspSchema.obj
+ 0001:00001b94       ??_C@_1CA@MOPKKFEM@?$AAS?$AAy?$AAn?$AAc?$AAS?$AAw?$AAi?$AAt?$AAc?$AAh?$AAP?$AAu?$AAr?$AAg?$AAe?$AA?$AA@ 10002b94     SyncCspSchema.obj
+ 0001:00001bb4       ??_C@_1BA@NPJPKIM@?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AAd?$AA?$AA@ 10002bb4     SyncCspSchema.obj
+ 0001:00001bc4       ??_C@_1CE@BPPGGANB@?$AAC?$AAa?$AAl?$AAe?$AAn?$AAd?$AAa?$AAr?$AAA?$AAg?$AAe?$AAF?$AAi?$AAl?$AAt?$AAe?$AAr?$AA?$AA@ 10002bc4     SyncCspSchema.obj
+ 0001:00001be8       ??_C@_1CA@LKIAKCEJ@?$AAP?$AAe?$AAa?$AAk?$AAS?$AAt?$AAa?$AAr?$AAt?$AAT?$AAi?$AAm?$AAe?$AAU?$AAI?$AA?$AA@ 10002be8     SyncCspSchema.obj
+ 0001:00001c08       ??_C@_1BM@JEBJHENC@?$AAP?$AAe?$AAa?$AAk?$AAE?$AAn?$AAd?$AAT?$AAi?$AAm?$AAe?$AAU?$AAI?$AA?$AA@ 10002c08     SyncCspSchema.obj
+ 0001:00001c24       ??_C@_1BK@OCCHNKGH@?$AAP?$AAe?$AAa?$AAk?$AAD?$AAa?$AAy?$AAs?$AAL?$AAi?$AAn?$AAk?$AA?$AA@ 10002c24     SyncCspSchema.obj
+ 0001:00001c40       ??_C@_1CC@JBBEAHKO@?$AAP?$AAC?$AAC?$AAo?$AAn?$AAn?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn?$AAH?$AAe?$AAl?$AAp?$AA?$AA@ 10002c40     SyncCspSchema.obj
+ 0001:00001c64       ??_C@_1CO@HGDGNPAP@?$AAC?$AAo?$AAn?$AAf?$AAl?$AAi?$AAc?$AAt?$AAR?$AAe?$AAs?$AAo?$AAl?$AAu?$AAt?$AAi?$AAo?$AAn?$AAH?$AAe?$AAl?$AAp?$AA?$AA@ 10002c64     SyncCspSchema.obj
+ 0001:00001c94       ??_C@_1M@LMBEFBDF@?$AAT?$AAa?$AAs?$AAk?$AAs?$AA?$AA@ 10002c94     SyncCspSchema.obj
+ 0001:00001ca0       ??_C@_1BA@BJBOGGGB@?$AAS?$AAo?$AAu?$AAr?$AAc?$AAe?$AAs?$AA?$AA@ 10002ca0     SyncCspSchema.obj
+ 0001:00001cb0       ??_C@_1BC@PFDDLKEP@?$AAS?$AAe?$AAt?$AAt?$AAi?$AAn?$AAg?$AAs?$AA?$AA@ 10002cb0     SyncCspSchema.obj
+ 0001:00001cc4       ??_C@_1BC@HMHFCLJC@?$AAP?$AAo?$AAl?$AAi?$AAc?$AAi?$AAe?$AAs?$AA?$AA@ 10002cc4     SyncCspSchema.obj
+ 0001:00001cd8       ??_C@_19DFHLKNJF@?$AAM?$AAa?$AAi?$AAl?$AA?$AA@ 10002cd8     SyncCspSchema.obj
+ 0001:00001ce4       ??_C@_1CA@HIKDHKCE@?$AAF?$AAo?$AAl?$AAd?$AAe?$AAr?$AAH?$AAi?$AAe?$AAr?$AAa?$AAr?$AAc?$AAh?$AAy?$AA?$AA@ 10002ce4     SyncCspSchema.obj
+ 0001:00001d04       ??_C@_1BA@JFMPMMMA@?$AAE?$AAn?$AAg?$AAi?$AAn?$AAe?$AAs?$AA?$AA@ 10002d04     SyncCspSchema.obj
+ 0001:00001d14       ??_C@_1BC@JGDGJPJM@?$AAC?$AAo?$AAn?$AAt?$AAa?$AAc?$AAt?$AAs?$AA?$AA@ 10002d14     SyncCspSchema.obj
+ 0001:00001d28       ??_C@_1BG@FFLBBNCA@?$AAC?$AAo?$AAn?$AAn?$AAe?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 10002d28     SyncCspSchema.obj
+ 0001:00001d40       ??_C@_1BC@NAAOKKNA@?$AAC?$AAa?$AAl?$AAe?$AAn?$AAd?$AAa?$AAr?$AA?$AA@ 10002d40     SyncCspSchema.obj
+ 0001:00001d54       ??_C@_19OGCEBGLO@?$AAS?$AAy?$AAn?$AAc?$AA?$AA@ 10002d54     SyncCspSchema.obj
+ 0001:00001d80       ?s_qit@CRootCharacteristic@@1QBUQITAB@@B 10002d80     SyncCspSchema.obj
+ 0001:00001d88       ?s_qit@CIgnoreCharacteristic@@1QBUQITAB@@B 10002d88     SyncCspSchema.obj
+ 0001:00001d90       ?s_qit@CRootSettings@@1QBUQITAB@@B 10002d90     SyncCspSchema.obj
+ 0001:00001d98       ?s_qit@CCalendarSettings@@1QBUQITAB@@B 10002d98     SyncCspSchema.obj
+ 0001:00001da0       ?s_qit@CConnectionSettings@@1QBUQITAB@@B 10002da0     SyncCspSchema.obj
+ 0001:00001da8       ?s_qit@CContactsSettings@@1QBUQITAB@@B 10002da8     SyncCspSchema.obj
+ 0001:00001db0       ?s_qit@CTasksSettings@@1QBUQITAB@@B 10002db0     SyncCspSchema.obj
+ 0001:00001db8       ?s_qit@CDefaultSettings@@1QBUQITAB@@B 10002db8     SyncCspSchema.obj
+ 0001:00001dc0       ?s_qit@CFolderHierarchy@@1QBUQITAB@@B 10002dc0     SyncCspSchema.obj
+ 0001:00001dc8       ?s_qit@CFolderSettings@@1QBUQITAB@@B 10002dc8     SyncCspSchema.obj
+ 0001:00001dd0       ?s_qit@CMailSettings@@1QBUQITAB@@B 10002dd0     SyncCspSchema.obj
+ 0001:00001dd8       ?s_qit@CGlobalSettings@@1QBUQITAB@@B 10002dd8     SyncCspSchema.obj
+ 0001:00001de0       ?s_qit@CPeakDaySettings@@1QBUQITAB@@B 10002de0     SyncCspSchema.obj
+ 0001:00001de8       ?s_qit@CDataSources@@1QBUQITAB@@B 10002de8     SyncCspSchema.obj
+ 0001:00001df0       ?s_qit@CSourceSettings@@1QBUQITAB@@B 10002df0     SyncCspSchema.obj
+ 0001:00001df8       ?s_qit@CSyncEngines@@1QBUQITAB@@B 10002df8     SyncCspSchema.obj
+ 0001:00001e00       ?s_qit@CSyncEngine@@1QBUQITAB@@B 10002e00     SyncCspSchema.obj
+ 0001:00001e08       ?s_qit@CConnectorList@@1QBUQITAB@@B 10002e08     SyncCspSchema.obj
+ 0001:00001e10       ?s_qit@CEngineSettings@@1QBUQITAB@@B 10002e10     SyncCspSchema.obj
+ 0001:00001e18       ?s_qit@CProviderList@@1QBUQITAB@@B 10002e18     SyncCspSchema.obj
+ 0001:00001e20       ?s_qit@CProviderSettings@@1QBUQITAB@@B 10002e20     SyncCspSchema.obj
+ 0001:00001e28       ?s_qit@CPolicies@@1QBUQITAB@@B 10002e28     SyncCspSchema.obj
+ 0001:00001e30       ?s_qit@CPeakDaysPolicy@@1QBUQITAB@@B 10002e30     SyncCspSchema.obj
+ 0001:00001e38       _GUID_d83013b6_9ec6_464f_a188_1854cd5b4e99 10002e38     SyncCspTransaction.obj
+ 0001:00001e68       ?s_qit@CSyncCspTransaction@@1QBUQITAB@@B 10002e68     SyncCspTransaction.obj
+ 0001:00001e78       ??_7CSyncCspTransaction@@6B@ 10002e78     SyncCspTransaction.obj
+ 0001:00001eb8       _GUID_de9a742b_bfb1_4ec9_8326_353b488b0713 10002eb8     SyncCspUtil.obj
+ 0001:00001ec8       _GUID_f96e0af6_3be4_4c5e_abef_7a588701f3a2 10002ec8     SyncCspUtil.obj
+ 0001:00001ef8       ??_7?$CComObject@VCEngineSettings@@@SYNC@@6B@ 10002ef8     SyncEngine.obj
+ 0001:00001f20       ??_7?$CComObject@VCProviderList@@@SYNC@@6B@ 10002f20     SyncEngine.obj
+ 0001:00001f48       ??_7?$CComObject@VCConnectorList@@@SYNC@@6B@ 10002f48     SyncEngine.obj
+ 0001:00001f70       ??_7CSyncEngine@@6B@       10002f70     SyncEngine.obj
+ 0001:00001fb8       ??_7CSyncEngines@@6B@      10002fb8     SyncEngines.obj
+ 0001:00001fe0       ??_7?$CComObject@VCSyncEngine@@@SYNC@@6B@ 10002fe0     SyncEngines.obj
+ 0001:00002028       ??_7?$CComObject@VCPeakDaysPolicy@@@SYNC@@6B@ 10003028     Policies.obj
+ 0001:00002050       ??_7CPolicies@@6B@         10003050     Policies.obj
+ 0001:00002078       GUID_NULL                  10003078     dcomuuid:dcomuuid.obj
+ 0001:00002088       SyncDataMail               10003088     SyncUUID:ActiveSyncUuid2.obj
+ 0001:00002098       SyncDataContacts           10003098     SyncUUID:ActiveSyncUuid2.obj
+ 0001:000020a8       SyncDataCalendar           100030a8     SyncUUID:ActiveSyncUuid2.obj
+ 0001:000020b8       SyncDataTasks              100030b8     SyncUUID:ActiveSyncUuid2.obj
+ 0001:000020c8       SyncDataNotes              100030c8     SyncUUID:ActiveSyncUuid2.obj
+ 0001:000020d8       SyncDataFavorites          100030d8     SyncUUID:ActiveSyncUuid2.obj
+ 0001:000020e8       SyncDataFiles              100030e8     SyncUUID:ActiveSyncUuid2.obj
+ 0001:000020f8       SyncDataDesktopSSP         100030f8     SyncUUID:ActiveSyncUuid2.obj
+ 0001:00002108       SyncDataAccess             10003108     SyncUUID:ActiveSyncUuid2.obj
+ 0001:00002118       SyncDataMedia              10003118     SyncUUID:ActiveSyncUuid2.obj
+ 0001:00002128       SyncDataSMS                10003128     SyncUUID:ActiveSyncUuid2.obj
+ 0001:00002138       CLSID_DesktopSyncEngine    10003138     SyncUUID:ActiveSyncUuid2.obj
+ 0001:00002148       CLSID_ServerSyncEngine     10003148     SyncUUID:ActiveSyncUuid2.obj
+ 0001:00002158       CLSID_ServerSyncEngineDsktp 10003158     SyncUUID:ActiveSyncUuid2.obj
+ 0001:00002168       CLSID_ServerSyncEngineWelcome 10003168     SyncUUID:ActiveSyncUuid2.obj
+ 0001:00002178       CLSID_AutoDiscover         10003178     SyncUUID:ActiveSyncUuid2.obj
+ 0001:000021ac       ?Assign@CBstr@@QAAJPBG@Z   100031ac f   Bstr.obj
+ 0001:000021f4       ?CopyTo@CBstr@@QBAJPAPAG@Z 100031f4 f   Bstr.obj
+ 0001:00002240       ?Equal@CBstr@@QBA_NPBG@Z   10003240 f   Bstr.obj
+ 0001:00002288       ?get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ 10003288 f i Bstr.obj
+ 0001:000022dc       ?Ensure@CCharDpa@@QAAJXZ   100032dc f   CharDpa.obj
+ 0001:00002350       ?Destroy@CCharDpa@@QAAXXZ  10003350 f   CharDpa.obj
+ 0001:0000238c       ?Initialize@CCharDpa@@QAAJXZ 1000338c f   CharDpa.obj
+ 0001:000023ec       ?Add@CCharDpa@@IAAJPAVCSyncCharacteristic@@@Z 100033ec f   CharDpa.obj
+ 0001:0000243c       ?AtlComPtrAssign@ATL@@YAPAUIUnknown@@PAPAU2@PAU2@@Z 1000343c f i ConnectionSettings.obj
+ 0001:00002490       ?GetEnableRNDIS@CConnectionSettings@@AAAJPAJ@Z 10003490 f   ConnectionSettings.obj
+ 0001:00002514       ?SetEnableRNDIS@CConnectionSettings@@AAAJJ@Z 10003514 f   ConnectionSettings.obj
+ 0001:000025a0       ??1CConnectionSettings@@IAA@XZ 100035a0 f   ConnectionSettings.obj
+ 0001:00002610       ?GetRouter@CConnectionSettings@@MAAPBUSyncCspRouter@@XZ 10003610 f i ConnectionSettings.obj
+ 0001:0000261c       ?End@CConnectionSettings@@UAAJPAVCSyncCharacteristic@@@Z 1000361c f   ConnectionSettings.obj
+ 0001:00002654       ?GetAllowSSLOption@CConnectionSettings@@AAAJPAJ@Z 10003654 f   ConnectionSettings.obj
+ 0001:0000265c       ?SetAllowSSLOption@CConnectionSettings@@AAAJJ@Z 1000365c f   ConnectionSettings.obj
+ 0001:00002674       ?GetDevice@CConnectionSettings@@AAAJPAPAG@Z 10003674 f   ConnectionSettings.obj
+ 0001:0000267c       ?GetDeviceID@CConnectionSettings@@AAAJPAPAG@Z 1000367c f   ConnectionSettings.obj
+ 0001:00002684       ?GetDomain@CConnectionSettings@@AAAJPAPAG@Z 10003684 f   ConnectionSettings.obj
+ 0001:0000268c       ?SetDomain@CConnectionSettings@@AAAJPAG@Z 1000368c f   ConnectionSettings.obj
+ 0001:000026a4       ?GetPassword@CConnectionSettings@@AAAJPAPAG@Z 100036a4 f   ConnectionSettings.obj
+ 0001:000026ac       ?SetPassword@CConnectionSettings@@AAAJPAG@Z 100036ac f   ConnectionSettings.obj
+ 0001:000026c4       ?GetSavePassword@CConnectionSettings@@AAAJPAJ@Z 100036c4 f   ConnectionSettings.obj
+ 0001:000026cc       ?SetSavePassword@CConnectionSettings@@AAAJJ@Z 100036cc f   ConnectionSettings.obj
+ 0001:000026e4       ?GetServer@CConnectionSettings@@AAAJPAPAG@Z 100036e4 f   ConnectionSettings.obj
+ 0001:000026ec       ?SetServer@CConnectionSettings@@AAAJPAG@Z 100036ec f   ConnectionSettings.obj
+ 0001:00002704       ?GetURI@CConnectionSettings@@AAAJPAPAG@Z 10003704 f   ConnectionSettings.obj
+ 0001:0000270c       ?SetURI@CConnectionSettings@@AAAJPAG@Z 1000370c f   ConnectionSettings.obj
+ 0001:00002724       ?GetUser@CConnectionSettings@@AAAJPAPAG@Z 10003724 f   ConnectionSettings.obj
+ 0001:0000272c       ?SetUser@CConnectionSettings@@AAAJPAG@Z 1000372c f   ConnectionSettings.obj
+ 0001:00002744       ?GetUseSSL@CConnectionSettings@@AAAJPAJ@Z 10003744 f   ConnectionSettings.obj
+ 0001:0000274c       ?SetUseSSL@CConnectionSettings@@AAAJJ@Z 1000374c f   ConnectionSettings.obj
+ 0001:00002764       ??0CConnectionSettings@@IAA@XZ 10003764 f   ConnectionSettings.obj
+ 0001:00002798       ?Initialize@CConnectionSettings@@QAAJPAVCSyncCsp@@PAVCGlobalSettings@@PAVCSourceSettings@@PAVCEngineSettings@@@Z 10003798 f   ConnectionSettings.obj
+ 0001:000027e8       ??0CConnectorList@@IAA@XZ  100037e8 f   ConnectorList.obj
+ 0001:00002830       ?GetRouter@CConnectorList@@MAAPBUSyncCspRouter@@XZ 10003830 f i ConnectorList.obj
+ 0001:0000283c       ??1CConnectorList@@IAA@XZ  1000383c f   ConnectorList.obj
+ 0001:00002850       ?Query@CConnectorList@@EAAJPAUIXMLDOMElement@@_N@Z 10003850 f   ConnectorList.obj
+ 0001:000029fc       ?OpenRegistry@@YAJPAUHKEY__@@PBGPAPAU1@@Z 100039fc f i DataSources.obj
+ 0001:00002a4c       ?CreateRegistry@@YAJPAUHKEY__@@PBGPAPAU1@@Z 10003a4c f i DataSources.obj
+ 0001:00002ab4       ?FindServerSource@CDataSources@@CAHPAVCSourceSettings@@PAUServerSourceFinder@1@@Z 10003ab4 f   DataSources.obj
+ 0001:00002ad8       ?ValidateDataSource@CDataSources@@CAHPAVCSourceSettings@@PAUDataSourceValidator@@@Z 10003ad8 f   DataSources.obj
+ 0001:00002b0c       ?IsCharModifiedAll@?$CCharArray@VCSourceSettings@@@@CAHPAVCSourceSettings@@PA_N@Z 10003b0c f i DataSources.obj
+ 0001:00002b30       ?GetRouter@CSourceSettings@@MAAPBUSyncCspRouter@@XZ 10003b30 f i DataSources.obj
+ 0001:00002b3c       ?QueryInterface@?$CComObject@VCSourceSettings@@@SYNC@@UAAJABU_GUID@@PAPAX@Z 10003b3c f i DataSources.obj
+ 0001:00002b50       ?AddRef@?$CComObject@VCSourceSettings@@@SYNC@@UAAKXZ 10003b50 f i DataSources.obj
+ 0001:00002b58       ??0CDataSources@@IAA@XZ    10003b58 f   DataSources.obj
+ 0001:00002b84       ?GetRouter@CDataSources@@MAAPBUSyncCspRouter@@XZ 10003b84 f i DataSources.obj
+ 0001:00002b90       ??1CDataSources@@IAA@XZ    10003b90 f   DataSources.obj
+ 0001:00002bb4       ?Initialize@CDataSources@@QAAJPAVCSyncCsp@@@Z 10003bb4 f   DataSources.obj
+ 0001:00002bc4       ?IsNotifySupported@CDataSources@@QAA_NXZ 10003bc4 f   DataSources.obj
+ 0001:00002c4c       ?FindDataSource@CDataSources@@AAAPAVCSourceSettings@@ABU_GUID@@@Z 10003c4c f   DataSources.obj
+ 0001:00002cc4       ?FindDataSource@CDataSources@@AAAPAVCSourceSettings@@PAG@Z 10003cc4 f   DataSources.obj
+ 0001:00002d38       ?IsAnyModified@?$CCharArray@VCSourceSettings@@@@QAA_NXZ 10003d38 f i DataSources.obj
+ 0001:00002d68       ?CreateInstance@?$CComObject@VCSourceSettings@@@SYNC@@SAJPAPAVCSourceSettings@@@Z 10003d68 f i DataSources.obj
+ 0001:00002dc8       ?Load@CDataSources@@QAAJXZ 10003dc8 f   DataSources.obj
+ 0001:0000304c       ?IsModifiedAll@CDataSources@@QAA_NXZ 1000404c f   DataSources.obj
+ 0001:0000309c       ?Begin@CDataSources@@EAAJPAGPAPAVCSyncCharacteristic@@_N@Z 1000409c f   DataSources.obj
+ 0001:00003250       ?Delete@CDataSources@@EAAJPAG@Z 10004250 f   DataSources.obj
+ 0001:00003334       ?Query@CDataSources@@EAAJPAUIXMLDOMElement@@_N@Z 10004334 f   DataSources.obj
+ 0001:0000347c       ?CreateServerSource@CDataSources@@AAAJPAPAVCSourceSettings@@@Z 1000447c f   DataSources.obj
+ 0001:00003588       ?Release@?$CComObject@VCSourceSettings@@@SYNC@@UAAKXZ 10004588 f i DataSources.obj
+ 0001:000035d0       ?Save@CDataSources@@QAAJXZ 100045d0 f   DataSources.obj
+ 0001:000036f8       ?BeginServerSource@CDataSources@@QAAJPAPAVCSourceSettings@@@Z 100046f8 f   DataSources.obj
+ 0001:00003788       ?EnumRegistry@@YAJPAUHKEY__@@KPAGPAK@Z 10004788 f i DefaultSettings.obj
+ 0001:000037dc       ?GetRouter@CDefaultSettings@@MAAPBUSyncCspRouter@@XZ 100047dc f i DefaultSettings.obj
+ 0001:000037e8       ?QueryInterface@?$CComObjectAuto@VCDefaultSettings@@@SYNC@@UAAJABU_GUID@@PAPAX@Z 100047e8 f i DefaultSettings.obj
+ 0001:000037fc       ?AddRef@?$CComObjectAuto@VCDefaultSettings@@@SYNC@@UAAKXZ 100047fc f i DefaultSettings.obj
+ 0001:00003804       ?Release@?$CComObjectAuto@VCDefaultSettings@@@SYNC@@UAAKXZ 10004804 f i DefaultSettings.obj
+ 0001:0000380c       ?QueryInterface@?$CComObject@VCDefaultSettings@@@SYNC@@UAAJABU_GUID@@PAPAX@Z 1000480c f i DefaultSettings.obj
+ 0001:00003820       ?AddRef@?$CComObject@VCDefaultSettings@@@SYNC@@UAAKXZ 10004820 f i DefaultSettings.obj
+ 0001:00003828       ??1?$CComObject@VCDefaultSettings@@@SYNC@@IAA@XZ 10004828 f i DefaultSettings.obj
+ 0001:00003868       ?Get@CDefaultSettings@@EAAJPAGPAUtagVARIANT@@@Z 10004868 f   DefaultSettings.obj
+ 0001:00003928       ?CreateInstance@?$CComObject@VCDefaultSettings@@@SYNC@@SAJPAPAVCDefaultSettings@@@Z 10004928 f i DefaultSettings.obj
+ 0001:00003988       ?Begin@CDefaultSettings@@EAAJPAGPAPAVCSyncCharacteristic@@_N@Z 10004988 f   DefaultSettings.obj
+ 0001:00003a38       ?Query@CDefaultSettings@@EAAJPAUIXMLDOMElement@@_N@Z 10004a38 f   DefaultSettings.obj
+ 0001:00003f14       ?Release@?$CComObject@VCDefaultSettings@@@SYNC@@UAAKXZ 10004f14 f i DefaultSettings.obj
+ 0001:00003f4c       ?_GetProcFromDLL@@YAXPAPAUHINSTANCE__@@PBGPAP6AHXZ1@Z 10004f4c f   DelayLoad.obj
+ 0001:00003fa0       OneStopFactory             10004fa0 f   DelayLoad.obj
+ 0001:00003ffc       SyncMgrPurgeProviderStore  10004ffc f   DelayLoad.obj
+ 0001:00004054       SyncMgrPurgeFolderProvider 10005054 f   DelayLoad.obj
+ 0001:000040a4       SyncMgrNotifyCheckSupport  100050a4 f   DelayLoad.obj
+ 0001:000040fc       AirSyncEventHost_GetInstance 100050fc f   DelayLoad.obj
+ 0001:00004154       GetServerHTMLMailSupport   10005154 f   DelayLoad.obj
+ 0001:000041ac       IsFeatureUnSupported       100051ac f   DelayLoad.obj
+ 0001:0000420c       ?ClearPassword@CEngineSettings@@QAAXXZ 1000520c f i EngineSettings.obj
+ 0001:00004264       ?GetCarrierConnector@CEngineSettings@@QAAJPAPAG@Z 10005264 f   EngineSettings.obj
+ 0001:0000426c       ?SetCarrierConnector@CEngineSettings@@QAAJPAG@Z 1000526c f   EngineSettings.obj
+ 0001:00004274       ?GetClientNegotiated@CEngineSettings@@QAAJPAJ@Z 10005274 f   EngineSettings.obj
+ 0001:00004284       ?SetClientNegotiated@CEngineSettings@@QAAJJ@Z 10005284 f   EngineSettings.obj
+ 0001:00004290       ?GetClientProtocolVersion@CEngineSettings@@QAAJPAPAG@Z 10005290 f   EngineSettings.obj
+ 0001:00004298       ?GetConflictResolution@CEngineSettings@@QAAJPAJ@Z 10005298 f   EngineSettings.obj
+ 0001:000042a8       ?SetConflictResolution@CEngineSettings@@QAAJJ@Z 100052a8 f   EngineSettings.obj
+ 0001:000042b4       ?GetDeviceAddressingMethod@CEngineSettings@@QAAJPAJ@Z 100052b4 f   EngineSettings.obj
+ 0001:000042c4       ?SetDeviceAddressingMethod@CEngineSettings@@QAAJJ@Z 100052c4 f   EngineSettings.obj
+ 0001:000042d0       ?GetDevicePhoneNumber@CEngineSettings@@QAAJPAPAG@Z 100052d0 f   EngineSettings.obj
+ 0001:000042d8       ?GetDeviceSMSAddress@CEngineSettings@@QAAJPAPAG@Z 100052d8 f   EngineSettings.obj
+ 0001:000042e0       ?SetDeviceSMSAddress@CEngineSettings@@QAAJPAG@Z 100052e0 f   EngineSettings.obj
+ 0001:000042e8       ?GetDomain@CEngineSettings@@QAAJPAPAG@Z 100052e8 f   EngineSettings.obj
+ 0001:000042f0       ?SetDomain@CEngineSettings@@QAAJPAG@Z 100052f0 f   EngineSettings.obj
+ 0001:000042f8       ?GetLogging@CEngineSettings@@QAAJPAJ@Z 100052f8 f   EngineSettings.obj
+ 0001:00004308       ?SetLogging@CEngineSettings@@QAAJJ@Z 10005308 f   EngineSettings.obj
+ 0001:00004314       ?GetNotificationsSupported@CEngineSettings@@QAAJPAJ@Z 10005314 f   EngineSettings.obj
+ 0001:00004324       ?GetPassword@CEngineSettings@@QAAJPAPAG@Z 10005324 f   EngineSettings.obj
+ 0001:00004350       ?GetSavePassword@CEngineSettings@@QAAJPAJ@Z 10005350 f   EngineSettings.obj
+ 0001:00004360       ?SetSavePassword@CEngineSettings@@QAAJJ@Z 10005360 f   EngineSettings.obj
+ 0001:0000436c       ?GetURI@CEngineSettings@@QAAJPAPAG@Z 1000536c f   EngineSettings.obj
+ 0001:00004374       ?SetURI@CEngineSettings@@QAAJPAG@Z 10005374 f   EngineSettings.obj
+ 0001:0000437c       ?GetUser@CEngineSettings@@QAAJPAPAG@Z 1000537c f   EngineSettings.obj
+ 0001:00004384       ?SetUser@CEngineSettings@@QAAJPAG@Z 10005384 f   EngineSettings.obj
+ 0001:0000438c       ?GetUseSSL@CEngineSettings@@QAAJPAJ@Z 1000538c f   EngineSettings.obj
+ 0001:0000439c       ?SetUseSSL@CEngineSettings@@QAAJJ@Z 1000539c f   EngineSettings.obj
+ 0001:000043a8       ?GetEmailAddress@CEngineSettings@@QAAJPAPAG@Z 100053a8 f   EngineSettings.obj
+ 0001:000043b0       ?SetEmailAddress@CEngineSettings@@QAAJPAG@Z 100053b0 f   EngineSettings.obj
+ 0001:000043e4       ?GetServerCertAuthRequired@CEngineSettings@@QAAJPAJ@Z 100053e4 f   EngineSettings.obj
+ 0001:000043f4       ?GetServerAutdSupport@CEngineSettings@@QAAJPAJ@Z 100053f4 f   EngineSettings.obj
+ 0001:00004404       ?GetServerHTMLMailSupport@CEngineSettings@@QAAJPAJ@Z 10005404 f   EngineSettings.obj
+ 0001:00004414       ?GetRefreshCertAuthXml@CEngineSettings@@QAAJPAJ@Z 10005414 f   EngineSettings.obj
+ 0001:00004424       ??1CEngineSettings@@IAA@XZ 10005424 f   EngineSettings.obj
+ 0001:000044b4       ?GetRouter@CEngineSettings@@MAAPBUSyncCspRouter@@XZ 100054b4 f i EngineSettings.obj
+ 0001:000044c0       ?Initialize@CEngineSettings@@QAAJPAVCSyncCsp@@ABU_GUID@@1PAVCSyncEngine@@@Z 100054c0 f   EngineSettings.obj
+ 0001:0000457c       ?SaveEngineId@CEngineSettings@@QAAJPAUHKEY__@@@Z 1000557c f   EngineSettings.obj
+ 0001:000045b8       ?SavePassword@CEngineSettings@@AAAJPAUHKEY__@@@Z 100055b8 f   EngineSettings.obj
+ 0001:0000468c       ?SetDevicePhoneNumber@CEngineSettings@@QAAJPAG@Z 1000568c f   EngineSettings.obj
+ 0001:000046cc       ?SetPassword@CEngineSettings@@QAAJPAG@Z 100056cc f   EngineSettings.obj
+ 0001:00004728       ?AddNotifyMetadata@CEngineSettings@@AAAJW4NotifyMetadataType@1@PAUIXMLDOMElement@@@Z 10005728 f   EngineSettings.obj
+ 0001:00004ae8       ??0CEngineSettings@@IAA@XZ 10005ae8 f   EngineSettings.obj
+ 0001:00004bd4       ?Load@CEngineSettings@@QAAJPAUHKEY__@@@Z 10005bd4 f   EngineSettings.obj
+ 0001:00004cf8       ?Save@CEngineSettings@@QAAJPAUHKEY__@@@Z 10005cf8 f   EngineSettings.obj
+ 0001:00004dd0       ?MetaCarrierConnector@CEngineSettings@@QAAJPAUIXMLDOMElement@@@Z 10005dd0 f   EngineSettings.obj
+ 0001:00004ddc       ?MetaDeviceAddressingMethod@CEngineSettings@@QAAJPAUIXMLDOMElement@@@Z 10005ddc f   EngineSettings.obj
+ 0001:00004de8       ?MetaDevicePhoneNumber@CEngineSettings@@QAAJPAUIXMLDOMElement@@@Z 10005de8 f   EngineSettings.obj
+ 0001:00004df4       ?MetaDeviceSMSAddress@CEngineSettings@@QAAJPAUIXMLDOMElement@@@Z 10005df4 f   EngineSettings.obj
+ 0001:00004e2c       ?Begin@CFolderHierarchy@@EAAJPAGPAPAVCSyncCharacteristic@@_N@Z 10005e2c f   FolderHierarchy.obj
+ 0001:00004e44       ?Query@CFolderHierarchy@@EAAJPAUIXMLDOMElement@@_N@Z 10005e44 f   FolderHierarchy.obj
+ 0001:00004e78       ?GetRouter@CFolderSettings@@MAAPBUSyncCspRouter@@XZ 10005e78 f i FolderHierarchy.obj
+ 0001:00004e84       ?QueryInterface@?$CComObjectAuto@VCFolderSettings@@@SYNC@@UAAJABU_GUID@@PAPAX@Z 10005e84 f i FolderHierarchy.obj
+ 0001:00004e98       ?AddRef@?$CComObjectAuto@VCFolderSettings@@@SYNC@@UAAKXZ 10005e98 f i FolderHierarchy.obj
+ 0001:00004ea0       ?Release@?$CComObjectAuto@VCFolderSettings@@@SYNC@@UAAKXZ 10005ea0 f i FolderHierarchy.obj
+ 0001:00004ea8       ?QueryInterface@?$CComObject@VCFolderSettings@@@SYNC@@UAAJABU_GUID@@PAPAX@Z 10005ea8 f i FolderHierarchy.obj
+ 0001:00004ebc       ?AddRef@?$CComObject@VCFolderSettings@@@SYNC@@UAAKXZ 10005ebc f i FolderHierarchy.obj
+ 0001:00004ec4       ?QueryInterface@CSyncCallback@@UAAJABU_GUID@@PAPAX@Z 10005ec4 f i FolderHierarchy.obj
+ 0001:00004ed0       ?AddRef@CSyncCallback@@UAAKXZ 10005ed0 f i FolderHierarchy.obj
+ 0001:00004ed8       ?Release@CSyncCallback@@UAAKXZ 10005ed8 f i FolderHierarchy.obj
+ 0001:00004ee0       ?RequestSync@CSyncCallback@@UAAJPBGKPAE@Z 10005ee0 f i FolderHierarchy.obj
+ 0001:00004ee8       ?Progress@CSyncCallback@@UAAJPBGPAU_SYNCPROGRESSITEM@@@Z 10005ee8 f i FolderHierarchy.obj
+ 0001:00004ef0       ?GetGlobalSetting@CSyncCallback@@UAAJPBGPAU_SPropValue@@@Z 10005ef0 f i FolderHierarchy.obj
+ 0001:00004ef8       ?DisplayMessageBox@CSyncCallback@@UAAIPBG00I@Z 10005ef8 f i FolderHierarchy.obj
+ 0001:00004f00       ?RequestCredentials@CSyncCallback@@UAAJPBGPAU_SYNCCREDENTIALS@@PAPAU2@@Z 10005f00 f i FolderHierarchy.obj
+ 0001:00004f08       ?LogEvent@CSyncCallback@@UAAJPAU_TRANSPORTEVENT@@@Z 10005f08 f i FolderHierarchy.obj
+ 0001:00004f10       ?AllocateMem@CSyncCallback@@UAAJKPAPAE@Z 10005f10 f i FolderHierarchy.obj
+ 0001:00004f3c       ?FreeMem@CSyncCallback@@UAAJPAX@Z 10005f3c f i FolderHierarchy.obj
+ 0001:00004f50       ??1CFolderHierarchy@@IAA@XZ 10005f50 f   FolderHierarchy.obj
+ 0001:00005000       ?GetRouter@CFolderHierarchy@@MAAPBUSyncCspRouter@@XZ 10006000 f i FolderHierarchy.obj
+ 0001:0000500c       ?Initialize@CFolderHierarchy@@QAAJPAVCSyncCsp@@@Z 1000600c f   FolderHierarchy.obj
+ 0001:000050bc       ?CreateMapiNamedPropIDs@CFolderHierarchy@@AAAJXZ 100060bc f   FolderHierarchy.obj
+ 0001:000051bc       ?SaveFolder@CFolderHierarchy@@AAAJPAVCFolderSettings@@PAUIMAPIFolder@@@Z 100061bc f   FolderHierarchy.obj
+ 0001:00005360       ?CreateInstance@?$CComObject@VCFolderSettings@@@SYNC@@SAJPAPAVCFolderSettings@@@Z 10006360 f i FolderHierarchy.obj
+ 0001:000053b8       ??0CFolderHierarchy@@IAA@XZ 100063b8 f   FolderHierarchy.obj
+ 0001:00005414       ?InitializeFolders@CFolderHierarchy@@AAAJPAVCFolderSettings@@PAUIMAPIFolder@@PAU_DAVFOLDERNODE@@PAK@Z 10006414 f   FolderHierarchy.obj
+ 0001:000057ac       ?SaveFolders@CFolderHierarchy@@AAAJPAVCFolderSettings@@PAUIMAPIFolder@@@Z 100067ac f   FolderHierarchy.obj
+ 0001:00005900       ?Release@?$CComObject@VCFolderSettings@@@SYNC@@UAAKXZ 10006900 f i FolderHierarchy.obj
+ 0001:00005948       ?InitializeFolders@CFolderHierarchy@@AAAJXZ 10006948 f   FolderHierarchy.obj
+ 0001:00005abc       ?SaveFolders@CFolderHierarchy@@AAAJXZ 10006abc f   FolderHierarchy.obj
+ 0001:00005bb8       ?Load@CFolderHierarchy@@QAAJXZ 10006bb8 f   FolderHierarchy.obj
+ 0001:00005bf4       ?Save@CFolderHierarchy@@QAAJXZ 10006bf4 f   FolderHierarchy.obj
+ 0001:00005c18       ??1CFolderSettings@@IAA@XZ 10006c18 f   FolderSettings.obj
+ 0001:00005c3c       ?Initialize@CFolderSettings@@QAAJPAU_DAVFOLDERNODE@@@Z 10006c3c f   FolderSettings.obj
+ 0001:00005c48       ?GetFolderType@CFolderSettings@@AAAJPAPAG@Z 10006c48 f   FolderSettings.obj
+ 0001:00005c54       ?GetSyncEnabled@CFolderSettings@@AAAJPAJ@Z 10006c54 f   FolderSettings.obj
+ 0001:00005c74       ?SetSyncEnabled@CFolderSettings@@AAAJJ@Z 10006c74 f   FolderSettings.obj
+ 0001:00005cac       ??0CFolderSettings@@IAA@XZ 10006cac f   FolderSettings.obj
+ 0001:00005cd4       ?FindFolder@CFolderSettings@@AAAPAV1@PBG@Z 10006cd4 f   FolderSettings.obj
+ 0001:00005d4c       ?Begin@CFolderSettings@@UAAJPAGPAPAVCSyncCharacteristic@@_N@Z 10006d4c f   FolderSettings.obj
+ 0001:00005db0       ?QueryChildren@CFolderSettings@@QAAJPAUIXMLDOMElement@@_N@Z 10006db0 f   FolderSettings.obj
+ 0001:00005eec       ?Query@CFolderSettings@@UAAJPAUIXMLDOMElement@@_N@Z 10006eec f   FolderSettings.obj
+ 0001:00005f10       ?MapBodyToMime@@YAKK@Z     10006f10 f i GlobalSettings.obj
+ 0001:00005ff4       ?GetAllowSSLOption@CGlobalSettings@@QAAJPAJ@Z 10006ff4 f   GlobalSettings.obj
+ 0001:00006004       ?SetAllowSSLOption@CGlobalSettings@@QAAJJ@Z 10007004 f   GlobalSettings.obj
+ 0001:00006010       ?GetAutoSync@CGlobalSettings@@QAAJPAJ@Z 10007010 f   GlobalSettings.obj
+ 0001:00006020       ?SetAutoSync@CGlobalSettings@@QAAJJ@Z 10007020 f   GlobalSettings.obj
+ 0001:00006028       ?GetAutoSyncWhenCradled@CGlobalSettings@@QAAJPAJ@Z 10007028 f   GlobalSettings.obj
+ 0001:00006038       ?SetAutoSyncWhenCradled@CGlobalSettings@@QAAJJ@Z 10007038 f   GlobalSettings.obj
+ 0001:00006040       ?GetBodyTruncation@CGlobalSettings@@QAAJPAJ@Z 10007040 f   GlobalSettings.obj
+ 0001:00006050       ?SetBodyTruncation@CGlobalSettings@@QAAJJ@Z 10007050 f   GlobalSettings.obj
+ 0001:0000605c       ?GetCalendarAgeFilter@CGlobalSettings@@QAAJPAJ@Z 1000705c f   GlobalSettings.obj
+ 0001:0000606c       ?SetCalendarAgeFilter@CGlobalSettings@@QAAJJ@Z 1000706c f   GlobalSettings.obj
+ 0001:00006080       ?GetDevice@CGlobalSettings@@QAAJPAPAG@Z 10007080 f   GlobalSettings.obj
+ 0001:000060a8       ?GetDeviceID@CGlobalSettings@@QAAJPAPAG@Z 100070a8 f   GlobalSettings.obj
+ 0001:000060b8       ?GetDevicePhoneReadOnly@CGlobalSettings@@QAAJPAJ@Z 100070b8 f   GlobalSettings.obj
+ 0001:000060c8       ?GetDisconnectWhenDone@CGlobalSettings@@QAAJPAJ@Z 100070c8 f   GlobalSettings.obj
+ 0001:000060d8       ?SetDisconnectWhenDone@CGlobalSettings@@QAAJJ@Z 100070d8 f   GlobalSettings.obj
+ 0001:000060e0       ?GetEmailAgeFilter@CGlobalSettings@@QAAJPAJ@Z 100070e0 f   GlobalSettings.obj
+ 0001:000060f0       ?SetEmailAgeFilter@CGlobalSettings@@QAAJJ@Z 100070f0 f   GlobalSettings.obj
+ 0001:00006104       ?GetEnableNonLocalCrossPollination@CGlobalSettings@@QAAJPAJ@Z 10007104 f   GlobalSettings.obj
+ 0001:00006114       ?SetEnableNonLocalCrossPollination@CGlobalSettings@@QAAJJ@Z 10007114 f   GlobalSettings.obj
+ 0001:00006120       ?GetHeartbeatDefault@CGlobalSettings@@QAAJPAJ@Z 10007120 f   GlobalSettings.obj
+ 0001:00006130       ?SetHeartbeatDefault@CGlobalSettings@@QAAJJ@Z 10007130 f   GlobalSettings.obj
+ 0001:0000613c       ?GetHeartbeatIncrement@CGlobalSettings@@QAAJPAJ@Z 1000713c f   GlobalSettings.obj
+ 0001:0000614c       ?SetHeartbeatIncrement@CGlobalSettings@@QAAJJ@Z 1000714c f   GlobalSettings.obj
+ 0001:00006158       ?GetHeartbeatMax@CGlobalSettings@@QAAJPAJ@Z 10007158 f   GlobalSettings.obj
+ 0001:00006168       ?SetHeartbeatMax@CGlobalSettings@@QAAJJ@Z 10007168 f   GlobalSettings.obj
+ 0001:00006174       ?GetHeartbeatMin@CGlobalSettings@@QAAJPAJ@Z 10007174 f   GlobalSettings.obj
+ 0001:00006184       ?SetHeartbeatMin@CGlobalSettings@@QAAJJ@Z 10007184 f   GlobalSettings.obj
+ 0001:00006190       ?GetMailBodyTruncation@CGlobalSettings@@QAAJPAJ@Z 10007190 f   GlobalSettings.obj
+ 0001:000061a0       ?SetMailBodyTruncation@CGlobalSettings@@QAAJJ@Z 100071a0 f   GlobalSettings.obj
+ 0001:000061b4       ?GetHTMLTruncation@CGlobalSettings@@QAAJPAJ@Z 100071b4 f   GlobalSettings.obj
+ 0001:000061c4       ?SetHTMLTruncation@CGlobalSettings@@QAAJJ@Z 100071c4 f   GlobalSettings.obj
+ 0001:000061d8       ?GetPreferredBodyType@CGlobalSettings@@QAAJPAJ@Z 100071d8 f   GlobalSettings.obj
+ 0001:000061e8       ?SetPreferredBodyType@CGlobalSettings@@QAAJJ@Z 100071e8 f   GlobalSettings.obj
+ 0001:00006204       ?GetMailFileAttachments@CGlobalSettings@@QAAJPAJ@Z 10007204 f   GlobalSettings.obj
+ 0001:00006214       ?SetMailFileAttachments@CGlobalSettings@@QAAJJ@Z 10007214 f   GlobalSettings.obj
+ 0001:00006220       ?SetNotificationsSupported@CGlobalSettings@@QAAJJ@Z 10007220 f   GlobalSettings.obj
+ 0001:00006228       ?GetOffPeakFrequency@CGlobalSettings@@QAAJPAJ@Z 10007228 f   GlobalSettings.obj
+ 0001:00006238       ?SetOffPeakFrequency@CGlobalSettings@@QAAJJ@Z 10007238 f   GlobalSettings.obj
+ 0001:00006254       ?GetOutboundMailDelay@CGlobalSettings@@QAAJPAJ@Z 10007254 f   GlobalSettings.obj
+ 0001:00006264       ?SetOutboundMailDelay@CGlobalSettings@@QAAJJ@Z 10007264 f   GlobalSettings.obj
+ 0001:00006280       ?GetPeakEndTime@CGlobalSettings@@QAAJPAPAG@Z 10007280 f   GlobalSettings.obj
+ 0001:00006288       ?GetPeakEndTime@CGlobalSettings@@QAAJPAJ@Z 10007288 f   GlobalSettings.obj
+ 0001:00006298       ?SetPeakEndTime@CGlobalSettings@@QAAJJ@Z 10007298 f   GlobalSettings.obj
+ 0001:000062b4       ?GetPeakFrequency@CGlobalSettings@@QAAJPAJ@Z 100072b4 f   GlobalSettings.obj
+ 0001:000062c4       ?SetPeakFrequency@CGlobalSettings@@QAAJJ@Z 100072c4 f   GlobalSettings.obj
+ 0001:000062e0       ?GetPeakStartTime@CGlobalSettings@@QAAJPAPAG@Z 100072e0 f   GlobalSettings.obj
+ 0001:000062e8       ?GetPeakStartTime@CGlobalSettings@@QAAJPAJ@Z 100072e8 f   GlobalSettings.obj
+ 0001:000062f8       ?SetPeakStartTime@CGlobalSettings@@QAAJJ@Z 100072f8 f   GlobalSettings.obj
+ 0001:00006314       ?SetPingWhileCradled@CGlobalSettings@@QAAJJ@Z 10007314 f   GlobalSettings.obj
+ 0001:00006328       ?GetRadioEnabledDevice@CGlobalSettings@@QAAJPAJ@Z 10007328 f   GlobalSettings.obj
+ 0001:00006338       ?GetSaveSentItems@CGlobalSettings@@QAAJPAJ@Z 10007338 f   GlobalSettings.obj
+ 0001:00006348       ?GetMIMETruncation@CGlobalSettings@@QAAJPAJ@Z 10007348 f   GlobalSettings.obj
+ 0001:00006358       ?SetMIMETruncation@CGlobalSettings@@QAAJJ@Z 10007358 f   GlobalSettings.obj
+ 0001:0000636c       ?GetSyncAPN@CGlobalSettings@@QAAJPAJ@Z 1000736c f   GlobalSettings.obj
+ 0001:0000637c       ?SetSyncAPN@CGlobalSettings@@QAAJJ@Z 1000737c f   GlobalSettings.obj
+ 0001:00006390       ?GetAutdProxy@CGlobalSettings@@QAAJPAPAG@Z 10007390 f   GlobalSettings.obj
+ 0001:00006398       ?SetAutdProxy@CGlobalSettings@@QAAJPAG@Z 10007398 f   GlobalSettings.obj
+ 0001:000063a0       ?GetSyncAfterTimeWhenCradled@CGlobalSettings@@QAAJPAJ@Z 100073a0 f   GlobalSettings.obj
+ 0001:000063b0       ?SetSyncAfterTimeWhenCradled@CGlobalSettings@@QAAJJ@Z 100073b0 f   GlobalSettings.obj
+ 0001:000063bc       ?GetSendMailItemsImmediately@CGlobalSettings@@QAAJPAJ@Z 100073bc f   GlobalSettings.obj
+ 0001:000063cc       ?SetSendMailItemsImmediately@CGlobalSettings@@QAAJJ@Z 100073cc f   GlobalSettings.obj
+ 0001:000063e8       ?SetSupportedAutdModes@CGlobalSettings@@QAAJJ@Z 100073e8 f   GlobalSettings.obj
+ 0001:000063fc       ?GetSyncAfterCount@CGlobalSettings@@QAAJPAJ@Z 100073fc f   GlobalSettings.obj
+ 0001:0000640c       ?SetSyncAfterCount@CGlobalSettings@@QAAJJ@Z 1000740c f   GlobalSettings.obj
+ 0001:00006414       ?GetSyncAfterTime@CGlobalSettings@@QAAJPAJ@Z 10007414 f   GlobalSettings.obj
+ 0001:00006424       ?SetSyncAfterTime@CGlobalSettings@@QAAJJ@Z 10007424 f   GlobalSettings.obj
+ 0001:0000642c       ?GetSyncWhenRoaming@CGlobalSettings@@QAAJPAJ@Z 1000742c f   GlobalSettings.obj
+ 0001:0000643c       ?SetSyncWhenRoaming@CGlobalSettings@@QAAJJ@Z 1000743c f   GlobalSettings.obj
+ 0001:00006458       ?GetVersionMajor@CGlobalSettings@@QAAJPAPAG@Z 10007458 f   GlobalSettings.obj
+ 0001:00006464       ?GetVersionMinor@CGlobalSettings@@QAAJPAPAG@Z 10007464 f   GlobalSettings.obj
+ 0001:00006470       ?GetClientCertAuthSupport@CGlobalSettings@@QAAJPAJ@Z 10007470 f   GlobalSettings.obj
+ 0001:00006480       ?GetClientAutdSupport@CGlobalSettings@@QAAJPAJ@Z 10007480 f   GlobalSettings.obj
+ 0001:00006490       ?GetClientHTMLMailSupport@CGlobalSettings@@QAAJPAJ@Z 10007490 f   GlobalSettings.obj
+ 0001:000064a0       ?GetHTMLMessagePolicy@CGlobalSettings@@QAAJPAJ@Z 100074a0 f   GlobalSettings.obj
+ 0001:000064b0       ?GetClientDualHomeSupport@CGlobalSettings@@QAAJPAJ@Z 100074b0 f   GlobalSettings.obj
+ 0001:000064c0       ?GetRouter@CPeakDaySettings@@MAAPBUSyncCspRouter@@XZ 100074c0 f i GlobalSettings.obj
+ 0001:000064cc       ?QueryInterface@?$CComObject@VCPeakDaySettings@@@SYNC@@UAAJABU_GUID@@PAPAX@Z 100074cc f i GlobalSettings.obj
+ 0001:000064e0       ?AddRef@?$CComObject@VCPeakDaySettings@@@SYNC@@UAAKXZ 100074e0 f i GlobalSettings.obj
+ 0001:000064e8       ??1CGlobalSettings@@IAA@XZ 100074e8 f   GlobalSettings.obj
+ 0001:000065a0       ?GetRouter@CGlobalSettings@@MAAPBUSyncCspRouter@@XZ 100075a0 f i GlobalSettings.obj
+ 0001:000065ac       ?SetPeakEndTime@CGlobalSettings@@QAAJPAG@Z 100075ac f   GlobalSettings.obj
+ 0001:000065f8       ?SetPeakStartTime@CGlobalSettings@@QAAJPAG@Z 100075f8 f   GlobalSettings.obj
+ 0001:00006644       ?CreateInstance@?$CComObject@VCPeakDaySettings@@@SYNC@@SAJPAPAVCPeakDaySettings@@@Z 10007644 f i GlobalSettings.obj
+ 0001:0000669c       ??0CGlobalSettings@@IAA@XZ 1000769c f   GlobalSettings.obj
+ 0001:000067f8       ?Load@CGlobalSettings@@QAAJH@Z 100077f8 f   GlobalSettings.obj
+ 0001:00006a68       ?SaveSchedule@CGlobalSettings@@AAAJXZ 10007a68 f   GlobalSettings.obj
+ 0001:00006c50       ?EnsurePeakDays@CGlobalSettings@@AAAJXZ 10007c50 f   GlobalSettings.obj
+ 0001:00006c80       ?BeginPeakDays@CGlobalSettings@@AAAJPAPAVCPeakDaySettings@@@Z 10007c80 f   GlobalSettings.obj
+ 0001:00006ccc       ?GetPeakDaysLink@CGlobalSettings@@QAAJPAPAG@Z 10007ccc f   GlobalSettings.obj
+ 0001:00006cf0       ?EnsureServerSource@CGlobalSettings@@AAAJXZ 10007cf0 f   GlobalSettings.obj
+ 0001:00006ddc       ?AddScheduleMetadata@CGlobalSettings@@AAAJPAUIXMLDOMElement@@@Z 10007ddc f   GlobalSettings.obj
+ 0001:00006f98       ?Release@?$CComObject@VCPeakDaySettings@@@SYNC@@UAAKXZ 10007f98 f i GlobalSettings.obj
+ 0001:00006fe0       ?Load@CGlobalSettings@@QAAJXZ 10007fe0 f   GlobalSettings.obj
+ 0001:00006fe8       ?Save@CGlobalSettings@@QAAJH@Z 10007fe8 f   GlobalSettings.obj
+ 0001:00007300       ?BeginCarrierConnectorList@CGlobalSettings@@AAAJPAPAVCConnectorList@@@Z 10008300 f   GlobalSettings.obj
+ 0001:00007368       ?GetCarrierConnector@CGlobalSettings@@QAAJPAPAG@Z 10008368 f   GlobalSettings.obj
+ 0001:0000738c       ?SetCarrierConnector@CGlobalSettings@@QAAJPAG@Z 1000838c f   GlobalSettings.obj
+ 0001:000073c0       ?MetaCarrierConnector@CGlobalSettings@@QAAJPAUIXMLDOMElement@@@Z 100083c0 f   GlobalSettings.obj
+ 0001:000073e4       ?GetClientNegotiated@CGlobalSettings@@QAAJPAJ@Z 100083e4 f   GlobalSettings.obj
+ 0001:00007408       ?SetClientNegotiated@CGlobalSettings@@QAAJJ@Z 10008408 f   GlobalSettings.obj
+ 0001:0000743c       ?GetClientProtocolVersion@CGlobalSettings@@QAAJPAPAG@Z 1000843c f   GlobalSettings.obj
+ 0001:00007460       ?GetConflictResolution@CGlobalSettings@@QAAJPAJ@Z 10008460 f   GlobalSettings.obj
+ 0001:00007484       ?SetConflictResolution@CGlobalSettings@@QAAJJ@Z 10008484 f   GlobalSettings.obj
+ 0001:000074b8       ?GetDeviceAddressingMethod@CGlobalSettings@@QAAJPAJ@Z 100084b8 f   GlobalSettings.obj
+ 0001:000074dc       ?SetDeviceAddressingMethod@CGlobalSettings@@QAAJJ@Z 100084dc f   GlobalSettings.obj
+ 0001:00007510       ?MetaDeviceAddressingMethod@CGlobalSettings@@QAAJPAUIXMLDOMElement@@@Z 10008510 f   GlobalSettings.obj
+ 0001:00007534       ?GetDevicePhoneNumber@CGlobalSettings@@QAAJPAPAG@Z 10008534 f   GlobalSettings.obj
+ 0001:00007558       ?SetDevicePhoneNumber@CGlobalSettings@@QAAJPAG@Z 10008558 f   GlobalSettings.obj
+ 0001:0000758c       ?MetaDevicePhoneNumber@CGlobalSettings@@QAAJPAUIXMLDOMElement@@@Z 1000858c f   GlobalSettings.obj
+ 0001:000075b0       ?GetDeviceSMSAddress@CGlobalSettings@@QAAJPAPAG@Z 100085b0 f   GlobalSettings.obj
+ 0001:000075d4       ?SetDeviceSMSAddress@CGlobalSettings@@QAAJPAG@Z 100085d4 f   GlobalSettings.obj
+ 0001:00007608       ?MetaDeviceSMSAddress@CGlobalSettings@@QAAJPAUIXMLDOMElement@@@Z 10008608 f   GlobalSettings.obj
+ 0001:0000762c       ?GetNotificationsSupported@CGlobalSettings@@QAAJPAJ@Z 1000862c f   GlobalSettings.obj
+ 0001:00007650       ?MetaOffPeakFrequency@CGlobalSettings@@QAAJPAUIXMLDOMElement@@@Z 10008650 f   GlobalSettings.obj
+ 0001:00007654       ?MetaPeakFrequency@CGlobalSettings@@QAAJPAUIXMLDOMElement@@@Z 10008654 f   GlobalSettings.obj
+ 0001:00007658       ?Save@CGlobalSettings@@QAAJXZ 10008658 f   GlobalSettings.obj
+ 0001:00007660       ??0CPeakDaysBase@@QAA@XZ   10008660 f   PeakDaysBase.obj
+ 0001:00007698       ??1CPeakDaysBase@@QAA@XZ   10008698 f   PeakDaysBase.obj
+ 0001:000076ac       ?GetFri@CPeakDaysBase@@IAAJPAJ@Z 100086ac f   PeakDaysBase.obj
+ 0001:000076c8       ?SetFri@CPeakDaysBase@@IAAJJ@Z 100086c8 f   PeakDaysBase.obj
+ 0001:000076f8       ?DelFri@CPeakDaysBase@@IAAJXZ 100086f8 f   PeakDaysBase.obj
+ 0001:00007710       ?GetStatusFri@CPeakDaysBase@@IAAJPAK@Z 10008710 f   PeakDaysBase.obj
+ 0001:00007738       ?GetMon@CPeakDaysBase@@IAAJPAJ@Z 10008738 f   PeakDaysBase.obj
+ 0001:00007754       ?SetMon@CPeakDaysBase@@IAAJJ@Z 10008754 f   PeakDaysBase.obj
+ 0001:00007784       ?DelMon@CPeakDaysBase@@IAAJXZ 10008784 f   PeakDaysBase.obj
+ 0001:0000779c       ?GetStatusMon@CPeakDaysBase@@IAAJPAK@Z 1000879c f   PeakDaysBase.obj
+ 0001:000077c4       ?GetSat@CPeakDaysBase@@IAAJPAJ@Z 100087c4 f   PeakDaysBase.obj
+ 0001:000077e0       ?SetSat@CPeakDaysBase@@IAAJJ@Z 100087e0 f   PeakDaysBase.obj
+ 0001:00007810       ?DelSat@CPeakDaysBase@@IAAJXZ 10008810 f   PeakDaysBase.obj
+ 0001:00007828       ?GetStatusSat@CPeakDaysBase@@IAAJPAK@Z 10008828 f   PeakDaysBase.obj
+ 0001:00007850       ?GetSun@CPeakDaysBase@@IAAJPAJ@Z 10008850 f   PeakDaysBase.obj
+ 0001:0000786c       ?SetSun@CPeakDaysBase@@IAAJJ@Z 1000886c f   PeakDaysBase.obj
+ 0001:0000789c       ?DelSun@CPeakDaysBase@@IAAJXZ 1000889c f   PeakDaysBase.obj
+ 0001:000078b4       ?GetStatusSun@CPeakDaysBase@@IAAJPAK@Z 100088b4 f   PeakDaysBase.obj
+ 0001:000078dc       ?GetThr@CPeakDaysBase@@IAAJPAJ@Z 100088dc f   PeakDaysBase.obj
+ 0001:000078f8       ?SetThr@CPeakDaysBase@@IAAJJ@Z 100088f8 f   PeakDaysBase.obj
+ 0001:00007928       ?DelThr@CPeakDaysBase@@IAAJXZ 10008928 f   PeakDaysBase.obj
+ 0001:00007940       ?GetStatusThr@CPeakDaysBase@@IAAJPAK@Z 10008940 f   PeakDaysBase.obj
+ 0001:00007968       ?GetTue@CPeakDaysBase@@IAAJPAJ@Z 10008968 f   PeakDaysBase.obj
+ 0001:00007984       ?SetTue@CPeakDaysBase@@IAAJJ@Z 10008984 f   PeakDaysBase.obj
+ 0001:000079b4       ?DelTue@CPeakDaysBase@@IAAJXZ 100089b4 f   PeakDaysBase.obj
+ 0001:000079cc       ?GetStatusTue@CPeakDaysBase@@IAAJPAK@Z 100089cc f   PeakDaysBase.obj
+ 0001:000079f4       ?GetWed@CPeakDaysBase@@IAAJPAJ@Z 100089f4 f   PeakDaysBase.obj
+ 0001:00007a10       ?SetWed@CPeakDaysBase@@IAAJJ@Z 10008a10 f   PeakDaysBase.obj
+ 0001:00007a40       ?DelWed@CPeakDaysBase@@IAAJXZ 10008a40 f   PeakDaysBase.obj
+ 0001:00007a58       ?GetStatusWed@CPeakDaysBase@@IAAJPAK@Z 10008a58 f   PeakDaysBase.obj
+ 0001:00007a80       ??0CPeakDaySettings@@IAA@XZ 10008a80 f   PeakDaySettings.obj
+ 0001:00007ab0       ??1CPeakDaySettings@@IAA@XZ 10008ab0 f   PeakDaySettings.obj
+ 0001:00007ac4       ?Load@CPeakDaySettings@@QAAJH@Z 10008ac4 f   PeakDaySettings.obj
+ 0001:00007b5c       ?Save@CPeakDaySettings@@QAAJXZ 10008b5c f   PeakDaySettings.obj
+ 0001:00007c28       ?GetPeakDaysLink@CPeakDaySettings@@QAAJPAPAG@Z 10008c28 f   PeakDaySettings.obj
+ 0001:00007d80       ?Load@CPeakDaySettings@@QAAJXZ 10008d80 f   PeakDaySettings.obj
+ 0001:00007d88       ??1CPeakDaysPolicy@@IAA@XZ 10008d88 f   PeakDaysPolicy.obj
+ 0001:00007dc0       ?GetRouter@CPeakDaysPolicy@@MAAPBUSyncCspRouter@@XZ 10008dc0 f i PeakDaysPolicy.obj
+ 0001:00007dcc       ?Load@CPeakDaysPolicy@@QAAJXZ 10008dcc f   PeakDaysPolicy.obj
+ 0001:00007e64       ??0CPeakDaysPolicy@@IAA@XZ 10008e64 f   PeakDaysPolicy.obj
+ 0001:00007e94       ?EnsurePeakDaySettings@CPeakDaysPolicy@@AAAJXZ 10008e94 f   PeakDaysPolicy.obj
+ 0001:00007ec8       ?Save@CPeakDaysPolicy@@QAAJPAH@Z 10008ec8 f   PeakDaysPolicy.obj
+ 0001:0000805c       ?ValidateProvider@CProviderList@@CAHPAVCProviderSettings@@PAUDataSourceValidator@@@Z 1000905c f   ProviderList.obj
+ 0001:00008110       ?IsCharModifiedAll@?$CCharArray@VCProviderSettings@@@@CAHPAVCProviderSettings@@PA_N@Z 10009110 f i ProviderList.obj
+ 0001:00008138       ?GetRouter@CProviderSettings@@MAAPBUSyncCspRouter@@XZ 10009138 f i ProviderList.obj
+ 0001:00008144       ?QueryInterface@?$CComObject@VCProviderSettings@@@SYNC@@UAAJABU_GUID@@PAPAX@Z 10009144 f i ProviderList.obj
+ 0001:00008158       ?AddRef@?$CComObject@VCProviderSettings@@@SYNC@@UAAKXZ 10009158 f i ProviderList.obj
+ 0001:00008160       ??0CProviderList@@IAA@XZ   10009160 f   ProviderList.obj
+ 0001:000081e0       ?GetRouter@CProviderList@@MAAPBUSyncCspRouter@@XZ 100091e0 f i ProviderList.obj
+ 0001:000081ec       ??1CProviderList@@IAA@XZ   100091ec f   ProviderList.obj
+ 0001:00008210       ?Save@CProviderList@@QAAJPAUHKEY__@@@Z 10009210 f   ProviderList.obj
+ 0001:000083d4       ?ProcessProviders@CProviderList@@AAAXXZ 100093d4 f   ProviderList.obj
+ 0001:0000845c       ?FindProvider@CProviderList@@AAAPAVCProviderSettings@@ABU_GUID@@@Z 1000945c f   ProviderList.obj
+ 0001:00008494       ?FindProvider@CProviderList@@AAAPAVCProviderSettings@@PBG@Z 10009494 f   ProviderList.obj
+ 0001:000084cc       ?FindProvider@CProviderList@@AAAPAVCProviderSettings@@PAGPAU_GUID@@@Z 100094cc f   ProviderList.obj
+ 0001:00008574       ?IsAnyModified@?$CCharArray@VCProviderSettings@@@@QAA_NXZ 10009574 f i ProviderList.obj
+ 0001:000085a4       ?CreateInstance@?$CComObject@VCProviderSettings@@@SYNC@@SAJPAPAVCProviderSettings@@@Z 100095a4 f i ProviderList.obj
+ 0001:00008604       ?Load@CProviderList@@QAAJPAUHKEY__@@@Z 10009604 f   ProviderList.obj
+ 0001:00008868       ?IsModifiedAll@CProviderList@@QAA_NXZ 10009868 f   ProviderList.obj
+ 0001:000088b8       ?Begin@CProviderList@@EAAJPAGPAPAVCSyncCharacteristic@@_N@Z 100098b8 f   ProviderList.obj
+ 0001:00008a60       ?Delete@CProviderList@@EAAJPAG@Z 10009a60 f   ProviderList.obj
+ 0001:00008afc       ?Query@CProviderList@@EAAJPAUIXMLDOMElement@@_N@Z 10009afc f   ProviderList.obj
+ 0001:00008c2c       ?Release@?$CComObject@VCProviderSettings@@@SYNC@@UAAKXZ 10009c2c f i ProviderList.obj
+ 0001:00008c74       ?DeleteRegistry@@YAXPAUHKEY__@@PBG@Z 10009c74 f i ProviderSettings.obj
+ 0001:00008cb4       ?FindDataType@@YAPBUDataTypeRecord@@ABU_GUID@@@Z 10009cb4 f   ProviderSettings.obj
+ 0001:00008d04       ?FindDataType@@YAPBUDataTypeRecord@@PBG@Z 10009d04 f   ProviderSettings.obj
+ 0001:00008d50       ?FindDataType@@YAPBUDataTypeRecord@@W4CSP_DataType@@@Z 10009d50 f   ProviderSettings.obj
+ 0001:00008d68       ??0CProviderSettings@@IAA@XZ 10009d68 f   ProviderSettings.obj
+ 0001:00008dec       ??1CProviderSettings@@IAA@XZ 10009dec f   ProviderSettings.obj
+ 0001:00008e14       ?Initialize@CProviderSettings@@QAAJABU_GUID@@0@Z 10009e14 f   ProviderSettings.obj
+ 0001:00008ec4       ?GetEnabled@CProviderSettings@@QAAJPAJ@Z 10009ec4 f   ProviderSettings.obj
+ 0001:00008ed4       ?GetName@CProviderSettings@@QAAJPAPAG@Z 10009ed4 f   ProviderSettings.obj
+ 0001:00008ef0       ?SetName@CProviderSettings@@QAAJPAG@Z 10009ef0 f   ProviderSettings.obj
+ 0001:00008ef8       ?GetReadOnly@CProviderSettings@@QAAJPAJ@Z 10009ef8 f   ProviderSettings.obj
+ 0001:00008f08       ?Load@CProviderSettings@@QAAJPAUHKEY__@@@Z 10009f08 f   ProviderSettings.obj
+ 0001:00008fc0       ?Save@CProviderSettings@@QAAJPAUHKEY__@@@Z 10009fc0 f   ProviderSettings.obj
+ 0001:000090d0       ?IsDesktopSyncDisabled@CProviderSettings@@AAAHXZ 1000a0d0 f   ProviderSettings.obj
+ 0001:00009180       ?SetEnabled@CProviderSettings@@QAAJJ@Z 1000a180 f   ProviderSettings.obj
+ 0001:000091a0       ?SetReadOnly@CProviderSettings@@QAAJJ@Z 1000a1a0 f   ProviderSettings.obj
+ 0001:000091d0       ?End@CIgnoreCharacteristic@@EAAJPAVCSyncCharacteristic@@@Z 1000a1d0 f   RootCharacteristic.obj
+ 0001:000091dc       ?GetRouter@CIgnoreCharacteristic@@MAAPBUSyncCspRouter@@XZ 1000a1dc f i RootCharacteristic.obj
+ 0001:000091e8       ?BeginSync@CRootCharacteristic@@AAAJPAPAVCRootSettings@@@Z 1000a1e8 f   RootCharacteristic.obj
+ 0001:000091f0       ?QueryInterface@?$CComObjectAuto@VCIgnoreCharacteristic@@@SYNC@@UAAJABU_GUID@@PAPAX@Z 1000a1f0 f i RootCharacteristic.obj
+ 0001:00009204       ?AddRef@?$CComObjectAuto@VCIgnoreCharacteristic@@@SYNC@@UAAKXZ 1000a204 f i RootCharacteristic.obj
+ 0001:0000920c       ?Release@?$CComObjectAuto@VCIgnoreCharacteristic@@@SYNC@@UAAKXZ 1000a20c f i RootCharacteristic.obj
+ 0001:00009214       ?GetConflictResolutionHelp@CRootSettings@@AAAJPAPAG@Z 1000a214 f   RootSettings.obj
+ 0001:0000921c       ?GetPCConnectionHelp@CRootSettings@@AAAJPAPAG@Z 1000a21c f   RootSettings.obj
+ 0001:0000923c       ?QueryInterface@?$CComObject@VCDataSources@@@SYNC@@UAAJABU_GUID@@PAPAX@Z 1000a23c f i RootSettings.obj
+ 0001:00009250       ?AddRef@?$CComObject@VCDataSources@@@SYNC@@UAAKXZ 1000a250 f i RootSettings.obj
+ 0001:00009258       ?QueryInterface@?$CComObject@VCFolderHierarchy@@@SYNC@@UAAJABU_GUID@@PAPAX@Z 1000a258 f i RootSettings.obj
+ 0001:0000926c       ?AddRef@?$CComObject@VCFolderHierarchy@@@SYNC@@UAAKXZ 1000a26c f i RootSettings.obj
+ 0001:00009274       ?QueryInterface@?$CComObject@VCConnectionSettings@@@SYNC@@UAAJABU_GUID@@PAPAX@Z 1000a274 f i RootSettings.obj
+ 0001:00009288       ?AddRef@?$CComObject@VCConnectionSettings@@@SYNC@@UAAKXZ 1000a288 f i RootSettings.obj
+ 0001:00009290       ?GetRouter@CPolicies@@MAAPBUSyncCspRouter@@XZ 1000a290 f i RootSettings.obj
+ 0001:0000929c       ?QueryInterface@?$CComObject@VCPolicies@@@SYNC@@UAAJABU_GUID@@PAPAX@Z 1000a29c f i RootSettings.obj
+ 0001:000092b0       ?AddRef@?$CComObject@VCPolicies@@@SYNC@@UAAKXZ 1000a2b0 f i RootSettings.obj
+ 0001:000092b8       ?QueryInterface@?$CComObject@VCGlobalSettings@@@SYNC@@UAAJABU_GUID@@PAPAX@Z 1000a2b8 f i RootSettings.obj
+ 0001:000092cc       ?AddRef@?$CComObject@VCGlobalSettings@@@SYNC@@UAAKXZ 1000a2cc f i RootSettings.obj
+ 0001:000092d4       ??1CRootSettings@@IAA@XZ   1000a2d4 f   RootSettings.obj
+ 0001:00009360       ?GetRouter@CRootSettings@@MAAPBUSyncCspRouter@@XZ 1000a360 f i RootSettings.obj
+ 0001:0000936c       ?Save@CRootSettings@@QAAJXZ 1000a36c f   RootSettings.obj
+ 0001:000093fc       ?CreateInstance@?$CComObject@VCDataSources@@@SYNC@@SAJPAPAVCDataSources@@@Z 1000a3fc f i RootSettings.obj
+ 0001:00009454       ?CreateInstance@?$CComObject@VCFolderHierarchy@@@SYNC@@SAJPAPAVCFolderHierarchy@@@Z 1000a454 f i RootSettings.obj
+ 0001:000094ac       ?CreateInstance@?$CComObject@VCConnectionSettings@@@SYNC@@SAJPAPAVCConnectionSettings@@@Z 1000a4ac f i RootSettings.obj
+ 0001:00009504       ?CreateInstance@?$CComObject@VCPolicies@@@SYNC@@SAJPAPAVCPolicies@@@Z 1000a504 f i RootSettings.obj
+ 0001:0000955c       ?CreateInstance@?$CComObject@VCGlobalSettings@@@SYNC@@SAJPAPAVCGlobalSettings@@@Z 1000a55c f i RootSettings.obj
+ 0001:000095b4       ?GetRouter@CCalendarSettings@@MAAPBUSyncCspRouter@@XZ 1000a5b4 f i RootSettings.obj
+ 0001:000095c0       ??1CCalendarSettings@@QAA@XZ 1000a5c0 f i RootSettings.obj
+ 0001:0000960c       ?GetRouter@CContactsSettings@@MAAPBUSyncCspRouter@@XZ 1000a60c f i RootSettings.obj
+ 0001:00009618       ??1CContactsSettings@@QAA@XZ 1000a618 f i RootSettings.obj
+ 0001:00009664       ?GetRouter@CTasksSettings@@MAAPBUSyncCspRouter@@XZ 1000a664 f i RootSettings.obj
+ 0001:00009670       ??1CTasksSettings@@QAA@XZ  1000a670 f i RootSettings.obj
+ 0001:000096bc       ?GetRouter@CMailSettings@@MAAPBUSyncCspRouter@@XZ 1000a6bc f i RootSettings.obj
+ 0001:000096c8       ??1CMailSettings@@QAA@XZ   1000a6c8 f i RootSettings.obj
+ 0001:00009714       ??0CRootSettings@@IAA@XZ   1000a714 f   RootSettings.obj
+ 0001:0000974c       ?BeginSources@CRootSettings@@QAAJPAPAVCDataSources@@@Z 1000a74c f   RootSettings.obj
+ 0001:000097cc       ?BeginFolderHierarchy@CRootSettings@@QAAJPAPAVCFolderHierarchy@@@Z 1000a7cc f   RootSettings.obj
+ 0001:0000984c       ?BeginEngines@CRootSettings@@QAAJPAPAVCDefaultSettings@@@Z 1000a84c f   RootSettings.obj
+ 0001:00009904       ?BeginPolicies@CRootSettings@@QAAJPAPAVCPolicies@@@Z 1000a904 f   RootSettings.obj
+ 0001:0000997c       ?EnsureSettings@CRootSettings@@AAAJXZ 1000a97c f   RootSettings.obj
+ 0001:000099b8       ?GetPeakEndTimeUI@CRootSettings@@AAAJPAPAG@Z 1000a9b8 f   RootSettings.obj
+ 0001:000099f8       ?SetPeakEndTimeUI@CRootSettings@@AAAJPAG@Z 1000a9f8 f   RootSettings.obj
+ 0001:00009a48       ?GetPeakStartTimeUI@CRootSettings@@AAAJPAPAG@Z 1000aa48 f   RootSettings.obj
+ 0001:00009a88       ?SetPeakStartTimeUI@CRootSettings@@AAAJPAG@Z 1000aa88 f   RootSettings.obj
+ 0001:00009ad8       ?Release@?$CComObject@VCDataSources@@@SYNC@@UAAKXZ 1000aad8 f i RootSettings.obj
+ 0001:00009b20       ?Release@?$CComObject@VCFolderHierarchy@@@SYNC@@UAAKXZ 1000ab20 f i RootSettings.obj
+ 0001:00009b68       ?Release@?$CComObject@VCConnectionSettings@@@SYNC@@UAAKXZ 1000ab68 f i RootSettings.obj
+ 0001:00009bb0       ?Release@?$CComObject@VCPolicies@@@SYNC@@UAAKXZ 1000abb0 f i RootSettings.obj
+ 0001:00009bf8       ?Release@?$CComObject@VCGlobalSettings@@@SYNC@@UAAKXZ 1000abf8 f i RootSettings.obj
+ 0001:00009c40       ?QueryInterface@?$CComObject@VCCalendarSettings@@@SYNC@@UAAJABU_GUID@@PAPAX@Z 1000ac40 f i RootSettings.obj
+ 0001:00009c54       ?AddRef@?$CComObject@VCCalendarSettings@@@SYNC@@UAAKXZ 1000ac54 f i RootSettings.obj
+ 0001:00009c5c       ?QueryInterface@?$CComObject@VCContactsSettings@@@SYNC@@UAAJABU_GUID@@PAPAX@Z 1000ac5c f i RootSettings.obj
+ 0001:00009c70       ?AddRef@?$CComObject@VCContactsSettings@@@SYNC@@UAAKXZ 1000ac70 f i RootSettings.obj
+ 0001:00009c78       ?QueryInterface@?$CComObject@VCTasksSettings@@@SYNC@@UAAJABU_GUID@@PAPAX@Z 1000ac78 f i RootSettings.obj
+ 0001:00009c8c       ?AddRef@?$CComObject@VCTasksSettings@@@SYNC@@UAAKXZ 1000ac8c f i RootSettings.obj
+ 0001:00009c94       ?QueryInterface@?$CComObject@VCMailSettings@@@SYNC@@UAAJABU_GUID@@PAPAX@Z 1000ac94 f i RootSettings.obj
+ 0001:00009ca8       ?AddRef@?$CComObject@VCMailSettings@@@SYNC@@UAAKXZ 1000aca8 f i RootSettings.obj
+ 0001:00009cb0       ?BeginServerSource@CRootSettings@@QAAJPAPAVCSourceSettings@@@Z 1000acb0 f   RootSettings.obj
+ 0001:00009d08       ?BeginServerProviders@CRootSettings@@QAAJPAPAVCProviderList@@@Z 1000ad08 f   RootSettings.obj
+ 0001:00009d5c       ?BeginSettings@CRootSettings@@QAAJPAPAVCGlobalSettings@@@Z 1000ad5c f   RootSettings.obj
+ 0001:00009da8       ?BeginConnection@CRootSettings@@QAAJPAPAVCConnectionSettings@@@Z 1000ada8 f   RootSettings.obj
+ 0001:00009f14       ?GetPeakDaysLink@CRootSettings@@AAAJPAPAG@Z 1000af14 f   RootSettings.obj
+ 0001:00009f38       ?CreateInstance@?$CComObject@VCCalendarSettings@@@SYNC@@SAJPAPAVCCalendarSettings@@@Z 1000af38 f i RootSettings.obj
+ 0001:00009f9c       ?CreateInstance@?$CComObject@VCContactsSettings@@@SYNC@@SAJPAPAVCContactsSettings@@@Z 1000af9c f i RootSettings.obj
+ 0001:0000a000       ?CreateInstance@?$CComObject@VCTasksSettings@@@SYNC@@SAJPAPAVCTasksSettings@@@Z 1000b000 f i RootSettings.obj
+ 0001:0000a064       ?CreateInstance@?$CComObject@VCMailSettings@@@SYNC@@SAJPAPAVCMailSettings@@@Z 1000b064 f i RootSettings.obj
+ 0001:0000a0c8       ?BeginCalendar@CRootSettings@@QAAJPAPAVCCalendarSettings@@@Z 1000b0c8 f   RootSettings.obj
+ 0001:0000a204       ?BeginContacts@CRootSettings@@QAAJPAPAVCContactsSettings@@@Z 1000b204 f   RootSettings.obj
+ 0001:0000a340       ?BeginTasks@CRootSettings@@QAAJPAPAVCTasksSettings@@@Z 1000b340 f   RootSettings.obj
+ 0001:0000a47c       ?BeginMail@CRootSettings@@QAAJPAPAVCMailSettings@@@Z 1000b47c f   RootSettings.obj
+ 0001:0000a5b8       ?Release@?$CComObject@VCCalendarSettings@@@SYNC@@UAAKXZ 1000b5b8 f i RootSettings.obj
+ 0001:0000a600       ?Release@?$CComObject@VCContactsSettings@@@SYNC@@UAAKXZ 1000b600 f i RootSettings.obj
+ 0001:0000a648       ?Release@?$CComObject@VCTasksSettings@@@SYNC@@UAAKXZ 1000b648 f i RootSettings.obj
+ 0001:0000a690       ?Release@?$CComObject@VCMailSettings@@@SYNC@@UAAKXZ 1000b690 f i RootSettings.obj
+ 0001:0000a6d8       ?GetName@CSourceSettings@@QAAJPAPAG@Z 1000b6d8 f   SourceSettings.obj
+ 0001:0000a6e0       ?SetName@CSourceSettings@@QAAJPAG@Z 1000b6e0 f   SourceSettings.obj
+ 0001:0000a6f0       ?GetServer@CSourceSettings@@QAAJPAPAG@Z 1000b6f0 f   SourceSettings.obj
+ 0001:0000a6f8       ?GetStoreType@CSourceSettings@@QAAJPAJ@Z 1000b6f8 f   SourceSettings.obj
+ 0001:0000a708       ?GetRouter@CSyncEngines@@MAAPBUSyncCspRouter@@XZ 1000b708 f i SourceSettings.obj
+ 0001:0000a714       ?QueryInterface@?$CComObject@VCSyncEngines@@@SYNC@@UAAJABU_GUID@@PAPAX@Z 1000b714 f i SourceSettings.obj
+ 0001:0000a728       ?AddRef@?$CComObject@VCSyncEngines@@@SYNC@@UAAKXZ 1000b728 f i SourceSettings.obj
+ 0001:0000a730       ??1CSourceSettings@@IAA@XZ 1000b730 f   SourceSettings.obj
+ 0001:0000a778       ?Initialize@CSourceSettings@@QAAJPAVCSyncCsp@@ABU_GUID@@@Z 1000b778 f   SourceSettings.obj
+ 0001:0000a7ac       ?InitializeCompat@CSourceSettings@@QAAJPAVCSyncCsp@@ABU_GUID@@@Z 1000b7ac f   SourceSettings.obj
+ 0001:0000a7f0       ?IsModifiedAll@CSourceSettings@@QAA_NXZ 1000b7f0 f   SourceSettings.obj
+ 0001:0000a848       ?SetStoreType@CSourceSettings@@QAAJJ@Z 1000b848 f   SourceSettings.obj
+ 0001:0000a87c       ?Validate@CSourceSettings@@QAAJPAUDataSourceValidator@@@Z 1000b87c f   SourceSettings.obj
+ 0001:0000a920       ?CreateInstance@?$CComObject@VCSyncEngines@@@SYNC@@SAJPAPAVCSyncEngines@@@Z 1000b920 f i SourceSettings.obj
+ 0001:0000a978       ??0CSourceSettings@@IAA@XZ 1000b978 f   SourceSettings.obj
+ 0001:0000a9e0       ?Load@CSourceSettings@@QAAJPAUHKEY__@@@Z 1000b9e0 f   SourceSettings.obj
+ 0001:0000aa4c       ?BeginEngines@CSourceSettings@@AAAJPAPAVCSyncEngines@@@Z 1000ba4c f   SourceSettings.obj
+ 0001:0000aad4       ?IsServerSource@CSourceSettings@@QAA_NXZ 1000bad4 f   SourceSettings.obj
+ 0001:0000ab2c       ?Release@?$CComObject@VCSyncEngines@@@SYNC@@UAAKXZ 1000bb2c f i SourceSettings.obj
+ 0001:0000ab74       ?Save@CSourceSettings@@QAAJPAUHKEY__@@@Z 1000bb74 f   SourceSettings.obj
+ 0001:0000ae08       ?BeginServerEngine@CSourceSettings@@QAAJPAPAVCSyncEngine@@@Z 1000be08 f   SourceSettings.obj
+ 0001:0000ae74       ?BeginServerProviders@CSourceSettings@@QAAJPAPAVCProviderList@@@Z 1000be74 f   SourceSettings.obj
+ 0001:0000af10       ?SetServer@CSourceSettings@@QAAJPAG@Z 1000bf10 f   SourceSettings.obj
+ 0001:0000b00c       ?GetSyncSwitchPurge@CMailSettings@@AAAJPAJ@Z 1000c00c f   SspSettings.obj
+ 0001:0000b01c       ?SetSyncSwitchPurge@CMailSettings@@AAAJJ@Z 1000c01c f   SspSettings.obj
+ 0001:0000b024       ?GetSyncSwitchPurge@CCalendarSettings@@AAAJPAJ@Z 1000c024 f   SspSettings.obj
+ 0001:0000b034       ?SetSyncSwitchPurge@CCalendarSettings@@AAAJJ@Z 1000c034 f   SspSettings.obj
+ 0001:0000b03c       ?GetSyncSwitchPurge@CContactsSettings@@AAAJPAJ@Z 1000c03c f   SspSettings.obj
+ 0001:0000b04c       ?SetSyncSwitchPurge@CContactsSettings@@AAAJJ@Z 1000c04c f   SspSettings.obj
+ 0001:0000b054       ?GetSyncSwitchPurge@CTasksSettings@@AAAJPAJ@Z 1000c054 f   SspSettings.obj
+ 0001:0000b064       ?SetSyncSwitchPurge@CTasksSettings@@AAAJJ@Z 1000c064 f   SspSettings.obj
+ 0001:0000b06c       ?End@CMailSettings@@UAAJPAVCSyncCharacteristic@@@Z 1000c06c f   SspSettings.obj
+ 0001:0000b0cc       ?GetEmailAgeFilter@CMailSettings@@AAAJPAJ@Z 1000c0cc f   SspSettings.obj
+ 0001:0000b0d4       ?SetEmailAgeFilter@CMailSettings@@AAAJJ@Z 1000c0d4 f   SspSettings.obj
+ 0001:0000b0ec       ?GetEnabled@CMailSettings@@AAAJPAJ@Z 1000c0ec f   SspSettings.obj
+ 0001:0000b0f4       ?SetEnabled@CMailSettings@@AAAJJ@Z 1000c0f4 f   SspSettings.obj
+ 0001:0000b10c       ?GetMailBodyTruncation@CMailSettings@@AAAJPAJ@Z 1000c10c f   SspSettings.obj
+ 0001:0000b114       ?SetMailBodyTruncation@CMailSettings@@AAAJJ@Z 1000c114 f   SspSettings.obj
+ 0001:0000b12c       ?GetMailFileAttachments@CMailSettings@@AAAJPAJ@Z 1000c12c f   SspSettings.obj
+ 0001:0000b134       ?SetMailFileAttachments@CMailSettings@@AAAJJ@Z 1000c134 f   SspSettings.obj
+ 0001:0000b14c       ?GetSaveSentItems@CMailSettings@@AAAJPAJ@Z 1000c14c f   SspSettings.obj
+ 0001:0000b154       ?End@CCalendarSettings@@UAAJPAVCSyncCharacteristic@@@Z 1000c154 f   SspSettings.obj
+ 0001:0000b1b8       ?GetCalendarAgeFilter@CCalendarSettings@@AAAJPAJ@Z 1000c1b8 f   SspSettings.obj
+ 0001:0000b1c0       ?SetCalendarAgeFilter@CCalendarSettings@@AAAJJ@Z 1000c1c0 f   SspSettings.obj
+ 0001:0000b1d8       ?GetEnabled@CCalendarSettings@@AAAJPAJ@Z 1000c1d8 f   SspSettings.obj
+ 0001:0000b1e0       ?SetEnabled@CCalendarSettings@@AAAJJ@Z 1000c1e0 f   SspSettings.obj
+ 0001:0000b1f8       ?End@CContactsSettings@@UAAJPAVCSyncCharacteristic@@@Z 1000c1f8 f   SspSettings.obj
+ 0001:0000b25c       ?GetEnabled@CContactsSettings@@AAAJPAJ@Z 1000c25c f   SspSettings.obj
+ 0001:0000b264       ?SetEnabled@CContactsSettings@@AAAJJ@Z 1000c264 f   SspSettings.obj
+ 0001:0000b27c       ?End@CTasksSettings@@UAAJPAVCSyncCharacteristic@@@Z 1000c27c f   SspSettings.obj
+ 0001:0000b2e0       ?GetEnabled@CTasksSettings@@AAAJPAJ@Z 1000c2e0 f   SspSettings.obj
+ 0001:0000b2e8       ?SetEnabled@CTasksSettings@@AAAJJ@Z 1000c2e8 f   SspSettings.obj
+ 0001:0000b300       ?Initialize@CMailSettings@@QAAJPAVCProviderSettings@@PAVCGlobalSettings@@@Z 1000c300 f   SspSettings.obj
+ 0001:0000b334       ?Initialize@CCalendarSettings@@QAAJPAVCProviderSettings@@PAVCGlobalSettings@@@Z 1000c334 f   SspSettings.obj
+ 0001:0000b368       ?Initialize@CContactsSettings@@QAAJPAVCProviderSettings@@PAVCGlobalSettings@@@Z 1000c368 f   SspSettings.obj
+ 0001:0000b39c       ?Initialize@CTasksSettings@@QAAJPAVCProviderSettings@@PAVCGlobalSettings@@@Z 1000c39c f   SspSettings.obj
+ 0001:0000b3d0       ??0CSyncCharacteristic@@IAA@XZ 1000c3d0 f   SyncCharacteristic.obj
+ 0001:0000b3e8       ??1CSyncCharacteristic@@IAA@XZ 1000c3e8 f   SyncCharacteristic.obj
+ 0001:0000b3f8       ?CompareParm@@YAHPBGPBX@Z  1000c3f8 f   SyncCharacteristic.obj
+ 0001:0000b400       ?CompareChar@@YAHPBGPBX@Z  1000c400 f   SyncCharacteristic.obj
+ 0001:0000b408       ?Search@@YAPAXPBGPAXHHP6AH0PBX@Z@Z 1000c408 f   SyncCharacteristic.obj
+ 0001:0000b46c       ?Get@CSyncCharacteristic@@UAAJPAGPAUtagVARIANT@@@Z 1000c46c f   SyncCharacteristic.obj
+ 0001:0000b478       ?Set@CSyncCharacteristic@@UAAJPAG0@Z 1000c478 f   SyncCharacteristic.obj
+ 0001:0000b484       ?Begin@CSyncCharacteristic@@UAAJPAGPAPAV1@_N@Z 1000c484 f   SyncCharacteristic.obj
+ 0001:0000b498       ?Delete@CSyncCharacteristic@@UAAJPAG@Z 1000c498 f   SyncCharacteristic.obj
+ 0001:0000b4a4       ?End@CSyncCharacteristic@@UAAJPAV1@@Z 1000c4a4 f   SyncCharacteristic.obj
+ 0001:0000b4d4       ?AutoLoad@CSyncCharacteristic@@QAAJPAUHKEY__@@PBUAutoPersistRider@@@Z 1000c4d4 f   SyncCharacteristic.obj
+ 0001:0000b564       ?AutoSave@CSyncCharacteristic@@QAAJPAUHKEY__@@PBUAutoPersistRider@@@Z 1000c564 f   SyncCharacteristic.obj
+ 0001:0000b5fc       ?EnforcePolicy@CSyncCharacteristic@@IAAHJPAJPBUPolicyInfo@@@Z 1000c5fc f   SyncCharacteristic.obj
+ 0001:0000b64c       ?RouteGet@CSyncCharacteristic@@QAAJPAGPAUtagVARIANT@@PAUIXMLDOMElement@@K@Z 1000c64c f   SyncCharacteristic.obj
+ 0001:0000b764       ?RouteSet@CSyncCharacteristic@@QAAJPAG0@Z 1000c764 f   SyncCharacteristic.obj
+ 0001:0000b860       ?RouteParmDelete@CSyncCharacteristic@@QAAJPAG@Z 1000c860 f   SyncCharacteristic.obj
+ 0001:0000b8f4       ?RouteBegin@CSyncCharacteristic@@QAAJPAGPAPAV1@_N@Z 1000c8f4 f   SyncCharacteristic.obj
+ 0001:0000b994       ?RouteDelete@CSyncCharacteristic@@QAAJPAG@Z 1000c994 f   SyncCharacteristic.obj
+ 0001:0000ba20       ?LoadPolicies@CSyncCharacteristic@@QAAJPBUPolicyRider@@@Z 1000ca20 f   SyncCharacteristic.obj
+ 0001:0000bb1c       ?SavePolicies@CSyncCharacteristic@@QAAJPBUPolicyRider@@@Z 1000cb1c f   SyncCharacteristic.obj
+ 0001:0000bc50       ?LoadPolicies@CSyncCharacteristic@@QAAJPBUSettingAndPolicyRider@@@Z 1000cc50 f   SyncCharacteristic.obj
+ 0001:0000bd60       ?LoadSettings@CSyncCharacteristic@@QAAJPAUHKEY__@@PBUSettingAndPolicyRider@@@Z 1000cd60 f   SyncCharacteristic.obj
+ 0001:0000be2c       ?EnforcePolicies@CSyncCharacteristic@@QAAJPBUSettingAndPolicyRider@@@Z 1000ce2c f   SyncCharacteristic.obj
+ 0001:0000bef8       ?SaveSettings@CSyncCharacteristic@@QAAJPAUHKEY__@@PBUSettingAndPolicyRider@@@Z 1000cef8 f   SyncCharacteristic.obj
+ 0001:0000bfc0       ?RouteQuery@CSyncCharacteristic@@QAAJPAGPAUIXMLDOMElement@@_N@Z 1000cfc0 f   SyncCharacteristic.obj
+ 0001:0000c058       ?ParmQuery@CSyncCharacteristic@@QAAJPAUIXMLDOMElement@@@Z 1000d058 f   SyncCharacteristic.obj
+ 0001:0000c250       ?Query@CSyncCharacteristic@@UAAJPAUIXMLDOMElement@@_N@Z 1000d250 f   SyncCharacteristic.obj
+ 0001:0000c4cc       ?QueryTransactioningMode@CSyncCsp@@UAAJPAW4ConfigTransactioningMode@@@Z 1000d4cc f   SyncCsp.obj
+ 0001:0000c4e8       ?CancelProcessing@CSyncCsp@@UAAJXZ 1000d4e8 f   SyncCsp.obj
+ 0001:0000c4f0       ?GetErrorDescription@CSyncCsp@@UAAJPAPAG@Z 1000d4f0 f   SyncCsp.obj
+ 0001:0000c504       ?QueryInterface@?$CComObject@VCSyncCspTransaction@@@SYNC@@UAAJABU_GUID@@PAPAX@Z 1000d504 f i SyncCsp.obj
+ 0001:0000c518       ?AddRef@?$CComObject@VCSyncCspTransaction@@@SYNC@@UAAKXZ 1000d518 f i SyncCsp.obj
+ 0001:0000c520       ?QueryInterface@?$CComObject@VCRootSettings@@@SYNC@@UAAJABU_GUID@@PAPAX@Z 1000d520 f i SyncCsp.obj
+ 0001:0000c534       ?AddRef@?$CComObject@VCRootSettings@@@SYNC@@UAAKXZ 1000d534 f i SyncCsp.obj
+ 0001:0000c53c       ?GetRouter@CRootCharacteristic@@MAAPBUSyncCspRouter@@XZ 1000d53c f i SyncCsp.obj
+ 0001:0000c548       ??1CSyncCsp@@IAA@XZ        1000d548 f   SyncCsp.obj
+ 0001:0000c590       ?Commit@CSyncCsp@@QAAJXZ   1000d590 f   SyncCsp.obj
+ 0001:0000c5d4       ?BeginSources@CSyncCsp@@QAAJPAPAVCDataSources@@@Z 1000d5d4 f   SyncCsp.obj
+ 0001:0000c5dc       ?BeginServerSource@CSyncCsp@@QAAJPAPAVCSourceSettings@@@Z 1000d5dc f   SyncCsp.obj
+ 0001:0000c5e4       ?BeginProcessing@CSyncCsp@@UAAJPAUIConfigSession@@@Z 1000d5e4 f   SyncCsp.obj
+ 0001:0000c69c       ?HandleParm@CSyncCsp@@UAAJPAG0PAUIXMLDOMElement@@0KK@Z 1000d69c f   SyncCsp.obj
+ 0001:0000c6d0       ?HandleNoParm@CSyncCsp@@UAAJPAGPAUIXMLDOMElement@@0KK@Z 1000d6d0 f   SyncCsp.obj
+ 0001:0000c6fc       ?HandleParmQuery@CSyncCsp@@UAAJPAGPAUtagVARIANT@@PAUIXMLDOMElement@@0KK@Z 1000d6fc f   SyncCsp.obj
+ 0001:0000c76c       ?HandleNoCharacteristic@CSyncCsp@@UAAJPAGPAUIXMLDOMElement@@0KK@Z 1000d76c f   SyncCsp.obj
+ 0001:0000c798       ?CreateInstance@?$CComObject@VCSyncCspTransaction@@@SYNC@@SAJPAPAVCSyncCspTransaction@@@Z 1000d798 f i SyncCsp.obj
+ 0001:0000c7f0       ?QueryInterface@?$CComObjectAuto@VCRootCharacteristic@@@SYNC@@UAAJABU_GUID@@PAPAX@Z 1000d7f0 f i SyncCsp.obj
+ 0001:0000c804       ?AddRef@?$CComObjectAuto@VCRootCharacteristic@@@SYNC@@UAAKXZ 1000d804 f i SyncCsp.obj
+ 0001:0000c80c       ?Release@?$CComObjectAuto@VCRootCharacteristic@@@SYNC@@UAAKXZ 1000d80c f i SyncCsp.obj
+ 0001:0000c814       ?CreateInstance@?$CComObject@VCRootSettings@@@SYNC@@SAJPAPAVCRootSettings@@@Z 1000d814 f i SyncCsp.obj
+ 0001:0000c86c       ??0CSyncCsp@@IAA@XZ        1000d86c f   SyncCsp.obj
+ 0001:0000c8ac       ?Rollback@CSyncCsp@@QAAJXZ 1000d8ac f   SyncCsp.obj
+ 0001:0000c8f0       ?BeginTransaction@CSyncCsp@@UAAJPAPAUIConfigTransaction@@@Z 1000d8f0 f   SyncCsp.obj
+ 0001:0000c968       ?HandleCharacteristic@CSyncCsp@@UAAJPAGPAUIXMLDOMElement@@0KPAKK@Z 1000d968 f   SyncCsp.obj
+ 0001:0000ca24       ?EndCharacteristic@CSyncCsp@@UAAJPAGPAUIXMLDOMElement@@0KKK@Z 1000da24 f   SyncCsp.obj
+ 0001:0000ca7c       ?HandleCharacteristicQuery@CSyncCsp@@UAAJPAGPAUIXMLDOMElement@@0KK@Z 1000da7c f   SyncCsp.obj
+ 0001:0000cb18       ?GetRootSettings@CSyncCsp@@QAAJPAPAVCRootSettings@@@Z 1000db18 f   SyncCsp.obj
+ 0001:0000cb78       ?Release@?$CComObject@VCSyncCspTransaction@@@SYNC@@UAAKXZ 1000db78 f i SyncCsp.obj
+ 0001:0000cbc0       ?Release@?$CComObject@VCRootSettings@@@SYNC@@UAAKXZ 1000dbc0 f i SyncCsp.obj
+ 0001:0000cc08       ?QueryInterface@?$CComObject@VCSyncCsp@@@SYNC@@UAAJABU_GUID@@PAPAX@Z 1000dc08 f i SyncCsp.obj
+ 0001:0000cc1c       ?AddRef@?$CComObject@VCSyncCsp@@@SYNC@@UAAKXZ 1000dc1c f i SyncCsp.obj
+ 0001:0000cc24       ?ValidateDataSources@CSyncCsp@@AAAJXZ 1000dc24 f   SyncCsp.obj
+ 0001:0000ce34       ?Release@?$CComObject@VCSyncCsp@@@SYNC@@UAAKXZ 1000de34 f i SyncCsp.obj
+ 0001:0000ce7c       ?CreateInstance@?$CComObject@VCSyncCsp@@@SYNC@@SAJPAPAVCSyncCsp@@@Z 1000de7c f i SyncCsp.obj
+ 0001:0000ced4       ?EndProcessing@CSyncCsp@@UAAJXZ 1000ded4 f   SyncCsp.obj
+ 0001:0000ced8       ?CSyncCsp_Create@@YAJPAUIUnknown@@PAPAU1@PAVCClassFactory@@@Z 1000ded8 f   SyncCsp.obj
+ 0001:0000cf10       DllAddRef                  1000df10 f   SyncCspFactory.obj
+ 0001:0000cf1c       DllRelease                 1000df1c f   SyncCspFactory.obj
+ 0001:0000cf28       DllCanUnloadNow            1000df28 f   SyncCspFactory.obj
+ 0001:0000cf44       DllGetClassObject          1000df44 f   SyncCspFactory.obj
+ 0001:0000cf78       ?AddRef@CThisDllCF@@QAAKXZ 1000df78 f   SyncCspFactory.obj
+ 0001:0000cf90       ?Release@CThisDllCF@@QAAKXZ 1000df90 f   SyncCspFactory.obj
+ 0001:0000cfa8       ?QueryInterface@CThisDllCF@@QAAJABU_GUID@@PAPAX@Z 1000dfa8 f   SyncCspFactory.obj
+ 0001:0000cfc8       ?CreateInstance@CThisDllCF@@QAAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 1000dfc8 f   SyncCspFactory.obj
+ 0001:0000cfcc       ?LockServer@CThisDllCF@@QAAJH@Z 1000dfcc f   SyncCspFactory.obj
+ 0001:0000cff8       DllMain                    1000dff8 f   SyncCspMain.obj
+ 0001:0000d03c       ?WriteRegistry@@YAJPAUHKEY__@@PBGJ@Z 1000e03c f   SyncCspReg.obj
+ 0001:0000d09c       ?WriteRegistry@@YAJPAUHKEY__@@PBG1@Z 1000e09c f   SyncCspReg.obj
+ 0001:0000d124       ?WriteRegistry@@YAJPAUHKEY__@@PBGABU_GUID@@@Z 1000e124 f   SyncCspReg.obj
+ 0001:0000d184       ?OpenRegistry@@YAJPAUHKEY__@@ABU_GUID@@PAPAU1@@Z 1000e184 f   SyncCspReg.obj
+ 0001:0000d1e4       ?CreateRegistry@@YAJPAUHKEY__@@ABU_GUID@@PAPAU1@@Z 1000e1e4 f   SyncCspReg.obj
+ 0001:0000d244       ?DeleteRegistry@@YAXPAUHKEY__@@ABU_GUID@@@Z 1000e244 f   SyncCspReg.obj
+ 0001:0000d28c       ?ReadRegistry@@YAJPAUHKEY__@@PBGPAJ@Z 1000e28c f   SyncCspReg.obj
+ 0001:0000d308       ?ReadRegistry@@YAJPAUHKEY__@@PBGPAPAG@Z 1000e308 f   SyncCspReg.obj
+ 0001:0000d408       ?ReadRegistry@@YAJPAUHKEY__@@PBGPAGK@Z 1000e408 f   SyncCspReg.obj
+ 0001:0000d48c       ?ReadRegistry@@YAJPAUHKEY__@@PBGPAU_GUID@@@Z 1000e48c f   SyncCspReg.obj
+ 0001:0000d4e8       ?ReadRegistry@@YAJPAUHKEY__@@PBGPAPAG1@Z 1000e4e8 f   SyncCspReg.obj
+ 0001:0000d514       ?ReadRegistry@@YAJPAUHKEY__@@PBG1PAJ@Z 1000e514 f   SyncCspReg.obj
+ 0001:0000d570       ?ReadRegistry@@YAJPAUHKEY__@@PBG1PAPAG@Z 1000e570 f   SyncCspReg.obj
+ 0001:0000d5cc       ?ReadRegistry@@YAJPAUHKEY__@@PBG1PAJJ@Z 1000e5cc f   SyncCspReg.obj
+ 0001:0000d63c       ?ReadRegistryMS@@YAJPAUHKEY__@@PBGPAPAG@Z 1000e63c f   SyncCspReg.obj
+ 0001:0000d73c       ?WriteRegistry@@YAJPAUHKEY__@@PBG1J@Z 1000e73c f   SyncCspReg.obj
+ 0001:0000d798       ?WriteRegistry@@YAJPAUHKEY__@@PBG11@Z 1000e798 f   SyncCspReg.obj
+ 0001:0000d7fc       ?OpenRegistry@@YAJABU_GUID@@PAPAUHKEY__@@@Z 1000e7fc f   SyncCspReg.obj
+ 0001:0000d888       ?ReadResourceBstr@@YAJIPAPAG@Z 1000e888 f   SyncCspRes.obj
+ 0001:0000d8e0       ?Begin@CSyncCspTransaction@@UAAJXZ 1000e8e0 f   SyncCspTransaction.obj
+ 0001:0000d8e8       ?RecoveryRollback@CSyncCspTransaction@@UAAJXZ 1000e8e8 f   SyncCspTransaction.obj
+ 0001:0000d8f0       ?GetUninstallNode@CSyncCspTransaction@@UAAJPAUIXMLDOMDocument@@PAPAUIXMLDOMNode@@@Z 1000e8f0 f   SyncCspTransaction.obj
+ 0001:0000d904       ??1CSyncCspTransaction@@IAA@XZ 1000e904 f   SyncCspTransaction.obj
+ 0001:0000d92c       ?Commit@CSyncCspTransaction@@UAAJXZ 1000e92c f   SyncCspTransaction.obj
+ 0001:0000d94c       ?Rollback@CSyncCspTransaction@@UAAJXZ 1000e94c f   SyncCspTransaction.obj
+ 0001:0000d96c       ??0CSyncCspTransaction@@IAA@XZ 1000e96c f   SyncCspTransaction.obj
+ 0001:0000d988       ?Initialize@CSyncCspTransaction@@QAAJPAVCSyncCsp@@@Z 1000e988 f   SyncCspTransaction.obj
+ 0001:0000d9a0       ?AllocateBstr@@YAJPBGPAPAG@Z 1000e9a0 f   SyncCspUtil.obj
+ 0001:0000d9dc       ?CSPPostMessageToSyncApp@@YAXI@Z 1000e9dc f   SyncCspUtil.obj
+ 0001:0000da18       ?XMLSetTypeGuid@@YAJPAUIXMLDOMElement@@ABU_GUID@@@Z 1000ea18 f   SyncCspUtil.obj
+ 0001:0000da84       ?StringToMinutes@@YAJPAGPAJ@Z 1000ea84 f   SyncCspUtil.obj
+ 0001:0000db34       ?MinutesToString@@YAJJPAPAG@Z 1000eb34 f   SyncCspUtil.obj
+ 0001:0000dc18       ?MinutesToISO8601String@@YAJJPAPAG@Z 1000ec18 f   SyncCspUtil.obj
+ 0001:0000dd20       ?ISO8601StringToMinutes@@YAJPAGPAJ@Z 1000ed20 f   SyncCspUtil.obj
+ 0001:0000ddd8       ?GetDefaultSchedule@@YAJPAPAUIActiveSyncSchedule@@@Z 1000edd8 f   SyncCspUtil.obj
+ 0001:0000de80       ?QueryInterface@?$CComObject@VCEngineSettings@@@SYNC@@UAAJABU_GUID@@PAPAX@Z 1000ee80 f i SyncEngine.obj
+ 0001:0000de94       ?AddRef@?$CComObject@VCEngineSettings@@@SYNC@@UAAKXZ 1000ee94 f i SyncEngine.obj
+ 0001:0000de9c       ?QueryInterface@?$CComObject@VCProviderList@@@SYNC@@UAAJABU_GUID@@PAPAX@Z 1000ee9c f i SyncEngine.obj
+ 0001:0000deb0       ?AddRef@?$CComObject@VCProviderList@@@SYNC@@UAAKXZ 1000eeb0 f i SyncEngine.obj
+ 0001:0000deb8       ?QueryInterface@?$CComObject@VCConnectorList@@@SYNC@@UAAJABU_GUID@@PAPAX@Z 1000eeb8 f i SyncEngine.obj
+ 0001:0000decc       ?AddRef@?$CComObject@VCConnectorList@@@SYNC@@UAAKXZ 1000eecc f i SyncEngine.obj
+ 0001:0000ded4       ?Validate@CSyncEngine@@QAAJPAUDataSourceValidator@@@Z 1000eed4 f   SyncEngine.obj
+ 0001:0000df40       ?IsModifiedAll@CSyncEngine@@QAA_NXZ 1000ef40 f   SyncEngine.obj
+ 0001:0000dfc8       ?SaveEngineId@CSyncEngine@@QAAJPAUHKEY__@@@Z 1000efc8 f   SyncEngine.obj
+ 0001:0000dfe4       ?BeginProviders@CSyncEngine@@QAAJPAPAVCProviderList@@@Z 1000efe4 f   SyncEngine.obj
+ 0001:0000e01c       ?BeginSettings@CSyncEngine@@QAAJPAPAVCEngineSettings@@@Z 1000f01c f   SyncEngine.obj
+ 0001:0000e054       ?CreateInstance@?$CComObject@VCEngineSettings@@@SYNC@@SAJPAPAVCEngineSettings@@@Z 1000f054 f i SyncEngine.obj
+ 0001:0000e0ac       ?CreateInstance@?$CComObject@VCProviderList@@@SYNC@@SAJPAPAVCProviderList@@@Z 1000f0ac f i SyncEngine.obj
+ 0001:0000e104       ?CreateInstance@?$CComObject@VCConnectorList@@@SYNC@@SAJPAPAVCConnectorList@@@Z 1000f104 f i SyncEngine.obj
+ 0001:0000e15c       ??0CSyncEngine@@IAA@XZ     1000f15c f   SyncEngine.obj
+ 0001:0000e1dc       ?GetRouter@CSyncEngine@@MAAPBUSyncCspRouter@@XZ 1000f1dc f i SyncEngine.obj
+ 0001:0000e1e8       ?Initialize@CSyncEngine@@QAAJPAVCSyncCsp@@ABU_GUID@@1PAVCSyncEngines@@@Z 1000f1e8 f   SyncEngine.obj
+ 0001:0000e348       ?Save@CSyncEngine@@QAAJPAUHKEY__@@@Z 1000f348 f   SyncEngine.obj
+ 0001:0000e450       ?BeginCarrierConnectorList@CSyncEngine@@QAAJPAPAVCConnectorList@@@Z 1000f450 f   SyncEngine.obj
+ 0001:0000e4d0       ?Release@?$CComObject@VCEngineSettings@@@SYNC@@UAAKXZ 1000f4d0 f i SyncEngine.obj
+ 0001:0000e518       ?Release@?$CComObject@VCProviderList@@@SYNC@@UAAKXZ 1000f518 f i SyncEngine.obj
+ 0001:0000e560       ?Release@?$CComObject@VCConnectorList@@@SYNC@@UAAKXZ 1000f560 f i SyncEngine.obj
+ 0001:0000e5a8       ?Delete@CSyncEngines@@EAAJPAG@Z 1000f5a8 f   SyncEngines.obj
+ 0001:0000e5b0       ?FindServerEngine@CSyncEngines@@CAHPAVCSyncEngine@@PAUServerEngineFinder@1@@Z 1000f5b0 f   SyncEngines.obj
+ 0001:0000e5e4       ?ValidateEngine@CSyncEngines@@CAHPAVCSyncEngine@@PAUDataSourceValidator@@@Z 1000f5e4 f   SyncEngines.obj
+ 0001:0000e618       ?IsCharModifiedAll@?$CCharArray@VCSyncEngine@@@@CAHPAVCSyncEngine@@PA_N@Z 1000f618 f i SyncEngines.obj
+ 0001:0000e63c       ??0CSyncEngines@@IAA@XZ    1000f63c f   SyncEngines.obj
+ 0001:0000e694       ??1CSyncEngines@@IAA@XZ    1000f694 f   SyncEngines.obj
+ 0001:0000e6b8       ?Initialize@CSyncEngines@@QAAJPAVCSyncCsp@@ABU_GUID@@PAVCSourceSettings@@@Z 1000f6b8 f   SyncEngines.obj
+ 0001:0000e6f0       ?FindEngine@CSyncEngines@@AAAPAVCSyncEngine@@ABU_GUID@@@Z 1000f6f0 f   SyncEngines.obj
+ 0001:0000e768       ?ContainsServerEngine@CSyncEngines@@QAA_NXZ 1000f768 f   SyncEngines.obj
+ 0001:0000e7a8       ?IsAnyModified@?$CCharArray@VCSyncEngine@@@@QAA_NXZ 1000f7a8 f i SyncEngines.obj
+ 0001:0000e7d8       ?Save@CSyncEngines@@QAAJPAUHKEY__@@@Z 1000f7d8 f   SyncEngines.obj
+ 0001:0000e880       ?SaveEngineId@CSyncEngines@@QAAJPAUHKEY__@@@Z 1000f880 f   SyncEngines.obj
+ 0001:0000e8f4       ?IsModifiedAll@CSyncEngines@@QAA_NXZ 1000f8f4 f   SyncEngines.obj
+ 0001:0000e93c       ?Query@CSyncEngines@@EAAJPAUIXMLDOMElement@@_N@Z 1000f93c f   SyncEngines.obj
+ 0001:0000ea7c       ??1CSyncEngine@@QAA@XZ     1000fa7c f i SyncEngines.obj
+ 0001:0000eae4       ?QueryInterface@?$CComObject@VCSyncEngine@@@SYNC@@UAAJABU_GUID@@PAPAX@Z 1000fae4 f i SyncEngines.obj
+ 0001:0000eaf8       ?AddRef@?$CComObject@VCSyncEngine@@@SYNC@@UAAKXZ 1000faf8 f i SyncEngines.obj
+ 0001:0000eb00       ?CreateInstance@?$CComObject@VCSyncEngine@@@SYNC@@SAJPAPAVCSyncEngine@@@Z 1000fb00 f i SyncEngines.obj
+ 0001:0000eb60       ?Load@CSyncEngines@@QAAJXZ 1000fb60 f   SyncEngines.obj
+ 0001:0000ec68       ?Begin@CSyncEngines@@EAAJPAGPAPAVCSyncCharacteristic@@_N@Z 1000fc68 f   SyncEngines.obj
+ 0001:0000ee14       ?Release@?$CComObject@VCSyncEngine@@@SYNC@@UAAKXZ 1000fe14 f i SyncEngines.obj
+ 0001:0000ee5c       ?GetMaxCalendarAgeFilter@CPolicies@@QAAJPAJ@Z 1000fe5c f   Policies.obj
+ 0001:0000ee6c       ?GetStatusMaxCalendarAgeFilter@CPolicies@@QAAJPAK@Z 1000fe6c f   Policies.obj
+ 0001:0000ee7c       ?GetMaxEmailAgeFilter@CPolicies@@QAAJPAJ@Z 1000fe7c f   Policies.obj
+ 0001:0000ee8c       ?GetStatusMaxEmailAgeFilter@CPolicies@@QAAJPAK@Z 1000fe8c f   Policies.obj
+ 0001:0000ee9c       ?GetMaxHTMLTruncation@CPolicies@@QAAJPAJ@Z 1000fe9c f   Policies.obj
+ 0001:0000eeac       ?GetStatusMaxHTMLTruncation@CPolicies@@QAAJPAK@Z 1000feac f   Policies.obj
+ 0001:0000eebc       ?GetMaxMailBodyTruncation@CPolicies@@QAAJPAJ@Z 1000febc f   Policies.obj
+ 0001:0000eecc       ?GetStatusMaxMailBodyTruncation@CPolicies@@QAAJPAK@Z 1000fecc f   Policies.obj
+ 0001:0000eedc       ?GetMaxMailFileAttachments@CPolicies@@QAAJPAJ@Z 1000fedc f   Policies.obj
+ 0001:0000eeec       ?GetStatusMaxMailFileAttachments@CPolicies@@QAAJPAK@Z 1000feec f   Policies.obj
+ 0001:0000eefc       ?GetMaxOffPeakFrequency@CPolicies@@QAAJPAJ@Z 1000fefc f   Policies.obj
+ 0001:0000ef0c       ?SetMaxOffPeakFrequency@CPolicies@@QAAJJ@Z 1000ff0c f   Policies.obj
+ 0001:0000ef48       ?DelMaxOffPeakFrequency@CPolicies@@QAAJXZ 1000ff48 f   Policies.obj
+ 0001:0000ef84       ?GetStatusMaxOffPeakFrequency@CPolicies@@QAAJPAK@Z 1000ff84 f   Policies.obj
+ 0001:0000ef94       ?GetMaxPeakFrequency@CPolicies@@QAAJPAJ@Z 1000ff94 f   Policies.obj
+ 0001:0000efa4       ?SetMaxPeakFrequency@CPolicies@@QAAJJ@Z 1000ffa4 f   Policies.obj
+ 0001:0000efe0       ?DelMaxPeakFrequency@CPolicies@@QAAJXZ 1000ffe0 f   Policies.obj
+ 0001:0000f01c       ?GetStatusMaxPeakFrequency@CPolicies@@QAAJPAK@Z 1001001c f   Policies.obj
+ 0001:0000f02c       ?GetPeakEndTime@CPolicies@@QAAJPAPAG@Z 1001002c f   Policies.obj
+ 0001:0000f034       ?GetStatusPeakEndTime@CPolicies@@QAAJPAK@Z 10010034 f   Policies.obj
+ 0001:0000f044       ?GetPeakStartTime@CPolicies@@QAAJPAPAG@Z 10010044 f   Policies.obj
+ 0001:0000f04c       ?GetStatusPeakStartTime@CPolicies@@QAAJPAK@Z 1001004c f   Policies.obj
+ 0001:0000f05c       ?GetPreferredBodyType@CPolicies@@QAAJPAJ@Z 1001005c f   Policies.obj
+ 0001:0000f06c       ?GetStatusPreferredBodyType@CPolicies@@QAAJPAK@Z 1001006c f   Policies.obj
+ 0001:0000f07c       ?GetSyncWhenRoaming@CPolicies@@QAAJPAJ@Z 1001007c f   Policies.obj
+ 0001:0000f08c       ?GetStatusSyncWhenRoaming@CPolicies@@QAAJPAK@Z 1001008c f   Policies.obj
+ 0001:0000f09c       ?GetServerName@CPolicies@@QAAJPAPAG@Z 1001009c f   Policies.obj
+ 0001:0000f0a4       ?SetServerName@CPolicies@@QAAJPAG@Z 100100a4 f   Policies.obj
+ 0001:0000f0b4       ?DelServerName@CPolicies@@QAAJXZ 100100b4 f   Policies.obj
+ 0001:0000f0c4       ?GetStatusServerName@CPolicies@@QAAJPAK@Z 100100c4 f   Policies.obj
+ 0001:0000f0d4       ?GetDisableDesktopEmailAndPIMSync@CPolicies@@QAAJPAJ@Z 100100d4 f   Policies.obj
+ 0001:0000f0e4       ?DelDisableDesktopEmailAndPIMSync@CPolicies@@QAAJXZ 100100e4 f   Policies.obj
+ 0001:0000f0f4       ?GetStatusDisableDesktopEmailAndPIMSync@CPolicies@@QAAJPAK@Z 100100f4 f   Policies.obj
+ 0001:0000f104       ?QueryInterface@?$CComObject@VCPeakDaysPolicy@@@SYNC@@UAAJABU_GUID@@PAPAX@Z 10010104 f i Policies.obj
+ 0001:0000f118       ?AddRef@?$CComObject@VCPeakDaysPolicy@@@SYNC@@UAAKXZ 10010118 f i Policies.obj
+ 0001:0000f120       ??1CPolicies@@IAA@XZ       10010120 f   Policies.obj
+ 0001:0000f188       ?SetDisableDesktopEmailAndPIMSync@CPolicies@@QAAJJ@Z 10010188 f   Policies.obj
+ 0001:0000f634       ?CreateInstance@?$CComObject@VCPeakDaysPolicy@@@SYNC@@SAJPAPAVCPeakDaysPolicy@@@Z 10010634 f i Policies.obj
+ 0001:0000f68c       ??0CPolicies@@IAA@XZ       1001068c f   Policies.obj
+ 0001:0000f748       ?Load@CPolicies@@QAAJXZ    10010748 f   Policies.obj
+ 0001:0000f7d4       ?Save@CPolicies@@QAAJXZ    100107d4 f   Policies.obj
+ 0001:0000f91c       ?EnsureSettings@CPolicies@@AAAJXZ 1001091c f   Policies.obj
+ 0001:0000f95c       ?EnsurePeakDaysPolicy@CPolicies@@AAAJXZ 1001095c f   Policies.obj
+ 0001:0000f98c       ?Release@?$CComObject@VCPeakDaysPolicy@@@SYNC@@UAAKXZ 1001098c f i Policies.obj
+ 0001:0000f9d4       ?BeginPeakDays@CPolicies@@AAAJPAPAVCPeakDaysPolicy@@@Z 100109d4 f   Policies.obj
+ 0001:0000fa20       ?BeginPeakDaysPolicy@CPolicies@@AAAJPAPAVCPeakDaysPolicy@@@Z 10010a20 f   Policies.obj
+ 0001:0000fa24       ?SetMaxCalendarAgeFilter@CPolicies@@QAAJJ@Z 10010a24 f   Policies.obj
+ 0001:0000faa8       ?DelMaxCalendarAgeFilter@CPolicies@@QAAJXZ 10010aa8 f   Policies.obj
+ 0001:0000fb28       ?SetMaxEmailAgeFilter@CPolicies@@QAAJJ@Z 10010b28 f   Policies.obj
+ 0001:0000fbac       ?DelMaxEmailAgeFilter@CPolicies@@QAAJXZ 10010bac f   Policies.obj
+ 0001:0000fc2c       ?SetMaxHTMLTruncation@CPolicies@@QAAJJ@Z 10010c2c f   Policies.obj
+ 0001:0000fcb0       ?DelMaxHTMLTruncation@CPolicies@@QAAJXZ 10010cb0 f   Policies.obj
+ 0001:0000fd30       ?SetMaxMailBodyTruncation@CPolicies@@QAAJJ@Z 10010d30 f   Policies.obj
+ 0001:0000fdb4       ?DelMaxMailBodyTruncation@CPolicies@@QAAJXZ 10010db4 f   Policies.obj
+ 0001:0000fe34       ?SetMaxMailFileAttachments@CPolicies@@QAAJJ@Z 10010e34 f   Policies.obj
+ 0001:0000feb8       ?DelMaxMailFileAttachments@CPolicies@@QAAJXZ 10010eb8 f   Policies.obj
+ 0001:0000ff38       ?SetPeakEndTime@CPolicies@@QAAJPAG@Z 10010f38 f   Policies.obj
+ 0001:0000ffe4       ?DelPeakEndTime@CPolicies@@QAAJXZ 10010fe4 f   Policies.obj
+ 0001:00010064       ?SetPeakStartTime@CPolicies@@QAAJPAG@Z 10011064 f   Policies.obj
+ 0001:00010110       ?DelPeakStartTime@CPolicies@@QAAJXZ 10011110 f   Policies.obj
+ 0001:00010190       ?SetPreferredBodyType@CPolicies@@QAAJJ@Z 10011190 f   Policies.obj
+ 0001:00010214       ?DelPreferredBodyType@CPolicies@@QAAJXZ 10011214 f   Policies.obj
+ 0001:00010294       ?SetSyncWhenRoaming@CPolicies@@QAAJJ@Z 10011294 f   Policies.obj
+ 0001:00010318       ?DelSyncWhenRoaming@CPolicies@@QAAJXZ 10011318 f   Policies.obj
+ 0001:00010398       InitializeCriticalSection  10011398 f   coredll:COREDLL.dll
+ 0001:000103a8       DeleteCriticalSection      100113a8 f   coredll:COREDLL.dll
+ 0001:000103b8       DPA_Create                 100113b8 f   coredll:COREDLL.dll
+ 0001:000103c8       DPA_DeleteAllPtrs          100113c8 f   coredll:COREDLL.dll
+ 0001:000103d8       DPA_EnumCallback           100113d8 f   coredll:COREDLL.dll
+ 0001:000103e8       DPA_Destroy                100113e8 f   coredll:COREDLL.dll
+ 0001:000103f8       DPA_InsertPtr              100113f8 f   coredll:COREDLL.dll
+ 0001:00010408       RegistryGetString          10011408 f   coredll:COREDLL.dll
+ 0001:00010418       RegCloseKey                10011418 f   coredll:COREDLL.dll
+ 0001:00010428       StringCchLengthW           10011428 f   coredll:COREDLL.dll
+ 0001:00010438       RegOpenKeyExW              10011438 f   coredll:COREDLL.dll
+ 0001:00010448       RegCreateKeyExW            10011448 f   coredll:COREDLL.dll
+ 0001:00010458       DPA_GetPtr                 10011458 f   coredll:COREDLL.dll
+ 0001:00010468       InterlockedIncrement       10011468 f   coredll:COREDLL.dll
+ 0001:00010478       InterlockedDecrement       10011478 f   coredll:COREDLL.dll
+ 0001:00010488       RegFlushKey                10011488 f   coredll:COREDLL.dll
+ 0001:00010498       RegEnumKeyExW              10011498 f   coredll:COREDLL.dll
+ 0001:000104a8       RegQueryValueExW           100114a8 f   coredll:COREDLL.dll
+ 0001:000104b8       LocalFree                  100114b8 f   coredll:COREDLL.dll
+ 0001:000104c8       RegEnumValueW              100114c8 f   coredll:COREDLL.dll
+ 0001:000104d8       LocalAlloc                 100114d8 f   coredll:COREDLL.dll
+ 0001:000104e8       RegQueryInfoKeyW           100114e8 f   coredll:COREDLL.dll
+ 0001:000104f8       GetProcAddressW            100114f8 f   coredll:COREDLL.dll
+ 0001:00010508       LoadLibraryW               10011508 f   coredll:COREDLL.dll
+ 0001:00010518       LoadStringW                10011518 f   coredll:COREDLL.dll
+ 0001:00010528       StringCchCatExW            10011528 f   coredll:COREDLL.dll
+ 0001:00010538       InterlockedExchange        10011538 f   coredll:COREDLL.dll
+ 0001:00010548       Sleep                      10011548 f   coredll:COREDLL.dll
+ 0001:00010558       RegDeleteKeyW              10011558 f   coredll:COREDLL.dll
+ 0001:00010568       RegDeleteValueW            10011568 f   coredll:COREDLL.dll
+ 0001:00010578       LoadLibraryExW             10011578 f   coredll:COREDLL.dll
+ 0001:00010588       RegSetValueExW             10011588 f   coredll:COREDLL.dll
+ 0001:00010598       PostMessageW               10011598 f   coredll:COREDLL.dll
+ 0001:000105a8       FindWindowW                100115a8 f   coredll:COREDLL.dll
+ 0001:000105b8       LocalFileTimeToFileTime    100115b8 f   coredll:COREDLL.dll
+ 0001:000105c8       SystemTimeToFileTime       100115c8 f   coredll:COREDLL.dll
+ 0001:000105d8       GetLocalTime               100115d8 f   coredll:COREDLL.dll
+ 0001:000105e8       FileTimeToSystemTime       100115e8 f   coredll:COREDLL.dll
+ 0001:000105f8       FileTimeToLocalFileTime    100115f8 f   coredll:COREDLL.dll
+ 0001:00010608       ?XMLHSetTextAttribute@@YAJPAUIXMLDOMElement@@PBG1@Z 10011608 f   ossvcs:ossvcs.dll
+ 0001:00010618       ?XMLHCreateChildElement@@YAJPAUIXMLDOMNode@@PBGPAUIXMLDOMDocument@@PAPAUIXMLDOMElement@@@Z 10011618 f   ossvcs:ossvcs.dll
+ 0001:00010628       BigStrcat                  10011628 f   ossvcs:ossvcs.dll
+ 0001:00010638       QueryPolicyImpl            10011638 f   ossvcs:ossvcs.dll
+ 0001:00010648       FileTimeToISO8601String    10011648 f   ossvcs:ossvcs.dll
+ 0001:00010658       ISO8601StringToFileTime    10011658 f   ossvcs:ossvcs.dll
+ 0001:00010668       CLSIDFromString            10011668 f   ole32:ole32.dll
+ 0001:00010678       CoCreateGuid               10011678 f   ole32:ole32.dll
+ 0001:00010688       CoCreateInstance           10011688 f   ole32:ole32.dll
+ 0001:00010698       CoTaskMemFree              10011698 f   ole32:ole32.dll
+ 0001:000106a8       CoTaskMemAlloc             100116a8 f   ole32:ole32.dll
+ 0001:000106b8       StringFromGUID2            100116b8 f   ole32:ole32.dll
+ 0001:000106c8       SysFreeString              100116c8 f   oleaut32:OLEAUT32.dll
+ 0001:000106d8       SysAllocString             100116d8 f   oleaut32:OLEAUT32.dll
+ 0001:000106e8       SysStringLen               100116e8 f   oleaut32:OLEAUT32.dll
+ 0001:000106f8       VariantClear               100116f8 f   oleaut32:OLEAUT32.dll
+ 0001:00010708       VariantInit                10011708 f   oleaut32:OLEAUT32.dll
+ 0001:00010718       SysStringByteLen           10011718 f   oleaut32:OLEAUT32.dll
+ 0001:00010728       VariantChangeType          10011728 f   oleaut32:OLEAUT32.dll
+ 0001:00010738       SysAllocStringByteLen      10011738 f   oleaut32:OLEAUT32.dll
+ 0001:00010748       SysAllocStringLen          10011748 f   oleaut32:OLEAUT32.dll
+ 0001:00010758       MAPILogonEx                10011758 f   cemapi:CEMAPI.dll
+ 0001:00010768       MAPIFreeBuffer             10011768 f   cemapi:CEMAPI.dll
+ 0001:00010778       FreeProws                  10011778 f   cemapi:CEMAPI.dll
+ 0001:00010788       MAPIUninitialize           10011788 f   cemapi:CEMAPI.dll
+ 0001:00010798       MAPIInitialize             10011798 f   cemapi:CEMAPI.dll
+ 0001:000107a8       CfgUtilGetParmAttributeName 100117a8 f   configmanager:configmanager.dll
+ 0001:000107b8       GuidEnumerator_Next        100117b8 f   asutil:ASUTIL.dll
+ 0001:000107c8       GuidEnumerator_InitializeEx 100117c8 f   asutil:ASUTIL.dll
+ 0001:000107d8       SyncSetRegistryDWORD       100117d8 f   asutil:ASUTIL.dll
+ 0001:000107e8       SyncGetRegistryDWORD       100117e8 f   asutil:ASUTIL.dll
+ 0001:000107f8       GuidEnumerator_Initialize  100117f8 f   asutil:ASUTIL.dll
+ 0001:00010808       ?GetPolicyCompliantSetting@@YAJPBUPolicyInfo@@PBK1PAK@Z 10011808 f   asutil:ASUTIL.dll
+ 0001:00010818       DeleteLegacyRegistry       10011818 f   asutil:ASUTIL.dll
+ 0001:00010828       ?DeleteLogs@@YAJU_GUID@@@Z 10011828 f   asutil:ASUTIL.dll
+ 0001:00010838       DeleteSyncStore            10011838 f   asutil:ASUTIL.dll
+ 0001:00010848       RenameSyncStore            10011848 f   asutil:ASUTIL.dll
+ 0001:00010858       CreateSyncStore            10011858 f   asutil:ASUTIL.dll
+ 0001:00010868       IsDataTypeAvailable        10011868 f   asutil:ASUTIL.dll
+ 0001:00010878       AcquireDataStoreLock       10011878 f   asutil:ASUTIL.dll
+ 0001:00010888       ReleaseDataStoreLock       10011888 f   asutil:ASUTIL.dll
+ 0001:00010898       EnumDataSourceClose        10011898 f   asutil:ASUTIL.dll
+ 0001:000108a8       SyncGetRegistryDWORDAsBOOL 100118a8 f   asutil:ASUTIL.dll
+ 0001:000108b8       SyncCreateRegKey           100118b8 f   asutil:ASUTIL.dll
+ 0001:000108c8       GetDataSourceProps         100118c8 f   asutil:ASUTIL.dll
+ 0001:000108d8       EnumDataSourceNext         100118d8 f   asutil:ASUTIL.dll
+ 0001:000108e8       EnumAllDataSources         100118e8 f   asutil:ASUTIL.dll
+ 0001:000108f8       PostMessageToSyncApp       100118f8 f   asutil:ASUTIL.dll
+ 0001:00010908       ?ChangeUSBDriver@@YAJH@Z   10011908 f   syncutil:syncutil.dll
+ 0001:00010918       ?DeletePwd@@YAJABU_GUID@@@Z 10011918 f   syncutil:syncutil.dll
+ 0001:00010928       ?UpdateEmailAddress@@YAJABU_GUID@@PAG@Z 10011928 f   syncutil:syncutil.dll
+ 0001:00010938       ?RefreshMailApp@@YAXXZ     10011938 f   syncutil:syncutil.dll
+ 0001:00010948       ?SavePreferredBodyType@@YAJPAUIMsgStore@@K@Z 10011948 f   syncutil:syncutil.dll
+ 0001:00010958       ?OpenMsgStore@@YAJPAPAUICEMAPISession@@PAPAUIMsgStore@@@Z 10011958 f   syncutil:syncutil.dll
+ 0001:00010968       ?UpdateMailTransport@@YAJABU_GUID@@H@Z 10011968 f   syncutil:syncutil.dll
+ 0001:00010978       CUnk_QISearch              10011978 f   CEshutil:CEShUtil.dll
+ 0001:00010988       CCF_GCOSearch              10011988 f   CEshutil:CEShUtil.dll
+ 0001:00010998       CCF_QueryInterface         10011998 f   CEshutil:CEShUtil.dll
+ 0001:000109a8       CCF_CreateInstance         100119a8 f   CEshutil:CEShUtil.dll
+ 0001:00010ab0       _DllMainCRTStartup         10011ab0 f   corelib0:pegdmain.obj
+ 0001:00010ae4       _onexit                    10011ae4 f   corelib0:onexit.obj
+ 0001:00010c68       atexit                     10011c68 f   corelib0:onexit.obj
+ 0001:00010c80       __GSHandlerCheckCommon     10011c80 f   corelib0:gshandler.obj
+ 0001:00010cbc       __GSHandlerCheck           10011cbc f   corelib0:gshandler.obj
+ 0001:00010cdc       __security_init_cookie     10011cdc f   corelib0:seccinit.obj
+ 0001:00010d28       __security_check_cookie    10011d28 f   corelib0:armsecgs.obj
+ 0001:00010d38       __gsfailure                10011d38     corelib0:armsecgs.obj
+ 0001:00010e64       _cexit                     10011e64 f   corelib0:cexit.obj
+ 0001:00010e74       _initterm                  10011e74 f   corelib0:crt0dat.obj
+ 0001:00010ea0       _cinit                     10011ea0 f   corelib0:crt0dat.obj
+ 0001:00010f00       __crt_ExitProcess          10011f00 f   corelib0:exitproc_proxy.obj
+ 0001:00010f0c       wcscmp                     10011f0c f   corelib1:COREDLL.dll
+ 0001:00010f1c       _purecall                  10011f1c f   corelib1:COREDLL.dll
+ 0001:00010f2c       memcmp                     10011f2c f   corelib1:COREDLL.dll
+ 0001:00010f3c       ??_V@YAXPAX@Z              10011f3c f   corelib1:COREDLL.dll
+ 0001:00010f4c       ??2@YAPAXI@Z               10011f4c f   corelib1:COREDLL.dll
+ 0001:00010f5c       ??3@YAXPAX@Z               10011f5c f   corelib1:COREDLL.dll
+ 0001:00010f6c       wcslen                     10011f6c f   corelib1:COREDLL.dll
+ 0001:00010f7c       memset                     10011f7c f   corelib1:COREDLL.dll
+ 0001:00010f8c       ??_U@YAPAXI@Z              10011f8c f   corelib1:COREDLL.dll
+ 0001:00010f9c       _itow_s                    10011f9c f   corelib1:COREDLL.dll
+ 0001:00010fac       iswctype                   10011fac f   corelib1:COREDLL.dll
+ 0001:00010fbc       _XcptFilter                10011fbc f   corelib1:COREDLL.dll
+ 0001:00010fcc       __C_specific_handler       10011fcc f   corelib1:COREDLL.dll
+ 0001:00010fdc       free                       10011fdc f   corelib1:COREDLL.dll
+ 0001:00010fec       malloc                     10011fec f   corelib1:COREDLL.dll
+ 0001:00010ffc       realloc                    10011ffc f   corelib1:COREDLL.dll
+ 0001:0001100c       _msize                     1001200c f   corelib1:COREDLL.dll
+ 0001:0001101c       __security_gen_cookie2     1001201c f   corelib1:COREDLL.dll
+ 0001:0001102c       __report_gsfailure         1001202c f   corelib1:COREDLL.dll
+ 0001:0001103c       EnterCriticalSection       1001203c f   coredll:COREDLL.dll
+ 0001:0001104c       InterlockedCompareExchange 1001204c f   coredll:COREDLL.dll
+ 0001:0001105c       LeaveCriticalSection       1001205c f   coredll:COREDLL.dll
+ 0001:0001106c       TerminateProcess           1001206c f   coredll:COREDLL.dll
+ 0001:000114b4       ??__Fcs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@YAXXZ 100124b4 f i Bstr.obj
+ 0001:00011558       __IMPORT_DESCRIPTOR_COREDLL 10012558     coredll:COREDLL.dll
+ 0001:0001156c       __IMPORT_DESCRIPTOR_ossvcs 1001256c     ossvcs:ossvcs.dll
+ 0001:00011580       __IMPORT_DESCRIPTOR_ole32  10012580     ole32:ole32.dll
+ 0001:00011594       __IMPORT_DESCRIPTOR_OLEAUT32 10012594     oleaut32:OLEAUT32.dll
+ 0001:000115a8       __IMPORT_DESCRIPTOR_CEMAPI 100125a8     cemapi:CEMAPI.dll
+ 0001:000115bc       __IMPORT_DESCRIPTOR_configmanager 100125bc     configmanager:configmanager.dll
+ 0001:000115d0       __IMPORT_DESCRIPTOR_ASUTIL 100125d0     asutil:ASUTIL.dll
+ 0001:000115e4       __IMPORT_DESCRIPTOR_syncutil 100125e4     syncutil:syncutil.dll
+ 0001:000115f8       __IMPORT_DESCRIPTOR_CEShUtil 100125f8     CEshutil:CEShUtil.dll
+ 0001:0001160c       __NULL_IMPORT_DESCRIPTOR   1001260c     coredll:COREDLL.dll
+ 0002:00000000       __imp_?c_wszPeakDaysDeleted@@3QBGB 10013000     asutil:ASUTIL.dll
+ 0002:00000004       __imp_?c_wszCarrierConnectorList@@3QBGB 10013004     asutil:ASUTIL.dll
+ 0002:00000008       __imp_?gc_PolicyInfoServerName@@3UPolicyInfo@@B 10013008     asutil:ASUTIL.dll
+ 0002:0000000c       __imp_PostMessageToSyncApp 1001300c     asutil:ASUTIL.dll
+ 0002:00000010       __imp_EnumAllDataSources   10013010     asutil:ASUTIL.dll
+ 0002:00000014       __imp_?c_wszLastSyncResult@@3QBGB 10013014     asutil:ASUTIL.dll
+ 0002:00000018       __imp_EnumDataSourceNext   10013018     asutil:ASUTIL.dll
+ 0002:0000001c       __imp_GetDataSourceProps   1001301c     asutil:ASUTIL.dll
+ 0002:00000020       __imp_SyncCreateRegKey     10013020     asutil:ASUTIL.dll
+ 0002:00000024       __imp_SyncGetRegistryDWORDAsBOOL 10013024     asutil:ASUTIL.dll
+ 0002:00000028       __imp_?c_wszErrorSeverity@@3QBGB 10013028     asutil:ASUTIL.dll
+ 0002:0000002c       __imp_EnumDataSourceClose  1001302c     asutil:ASUTIL.dll
+ 0002:00000030       __imp_ReleaseDataStoreLock 10013030     asutil:ASUTIL.dll
+ 0002:00000034       __imp_AcquireDataStoreLock 10013034     asutil:ASUTIL.dll
+ 0002:00000038       __imp_?c_wszServerValName@@3QBGB 10013038     asutil:ASUTIL.dll
+ 0002:0000003c       __imp_?c_wszStoreType@@3QBGB 1001303c     asutil:ASUTIL.dll
+ 0002:00000040       __imp_IsDataTypeAvailable  10013040     asutil:ASUTIL.dll
+ 0002:00000044       __imp_?c_wszServerNameChanged@@3QBGB 10013044     asutil:ASUTIL.dll
+ 0002:00000048       __imp_CreateSyncStore      10013048     asutil:ASUTIL.dll
+ 0002:0000004c       __imp_RenameSyncStore      1001304c     asutil:ASUTIL.dll
+ 0002:00000050       __imp_DeleteSyncStore      10013050     asutil:ASUTIL.dll
+ 0002:00000054       __imp_?DeleteLogs@@YAJU_GUID@@@Z 10013054     asutil:ASUTIL.dll
+ 0002:00000058       __imp_DeleteLegacyRegistry 10013058     asutil:ASUTIL.dll
+ 0002:0000005c       __imp_?c_wszEnableValueName@@3QBGB 1001305c     asutil:ASUTIL.dll
+ 0002:00000060       __imp_?gc_PolicyInfoDisableDesktopEmailAndPIMSync@@3UPolicyInfo@@B 10013060     asutil:ASUTIL.dll
+ 0002:00000064       __imp_?GetPolicyCompliantSetting@@YAJPBUPolicyInfo@@PBK1PAK@Z 10013064     asutil:ASUTIL.dll
+ 0002:00000068       __imp_?c_wszName@@3QBGB    10013068     asutil:ASUTIL.dll
+ 0002:0000006c       __imp_GuidEnumerator_Initialize 1001306c     asutil:ASUTIL.dll
+ 0002:00000070       __imp_?gc_PolicyInfoPeakDays@@3UPolicyInfo@@B 10013070     asutil:ASUTIL.dll
+ 0002:00000074       __imp_?gc_PolicyInfoMailFileAttachments@@3UPolicyInfo@@B 10013074     asutil:ASUTIL.dll
+ 0002:00000078       __imp_?gc_PolicyInfoCalendarAgeFilter@@3UPolicyInfo@@B 10013078     asutil:ASUTIL.dll
+ 0002:0000007c       __imp_?gc_PolicyInfoEmailAgeFilter@@3UPolicyInfo@@B 1001307c     asutil:ASUTIL.dll
+ 0002:00000080       __imp_?gc_PolicyInfoHTMLTruncation@@3UPolicyInfo@@B 10013080     asutil:ASUTIL.dll
+ 0002:00000084       __imp_?gc_PolicyInfoMailBodyTruncation@@3UPolicyInfo@@B 10013084     asutil:ASUTIL.dll
+ 0002:00000088       __imp_?gc_PolicyInfoPeakEndTime@@3UPolicyInfo@@B 10013088     asutil:ASUTIL.dll
+ 0002:0000008c       __imp_?gc_PolicyInfoPeakStartTime@@3UPolicyInfo@@B 1001308c     asutil:ASUTIL.dll
+ 0002:00000090       __imp_?gc_PolicyInfoPreferredBodyType@@3UPolicyInfo@@B 10013090     asutil:ASUTIL.dll
+ 0002:00000094       __imp_?gc_PolicyInfoSyncWhenRoaming@@3UPolicyInfo@@B 10013094     asutil:ASUTIL.dll
+ 0002:00000098       __imp_?c_wszEnableNonLocalCrossPollination@@3QBGB 10013098     asutil:ASUTIL.dll
+ 0002:0000009c       __imp_?c_wszSendMailItemsImmediately@@3QBGB 1001309c     asutil:ASUTIL.dll
+ 0002:000000a0       __imp_?gc_PolicyInfoPeakFrequency@@3UPolicyInfo@@B 100130a0     asutil:ASUTIL.dll
+ 0002:000000a4       __imp_?gc_PolicyInfoOffPeakFrequency@@3UPolicyInfo@@B 100130a4     asutil:ASUTIL.dll
+ 0002:000000a8       __imp_?c_wszActiveSyncKey@@3QBGB 100130a8     asutil:ASUTIL.dll
+ 0002:000000ac       __imp_?c_wszSyncSecureSubkey@@3QBGB 100130ac     asutil:ASUTIL.dll
+ 0002:000000b0       __imp_?c_wszActiveSyncSvcName@@3QBGB 100130b0     asutil:ASUTIL.dll
+ 0002:000000b4       __imp_?c_wszCarrierConnector@@3QBGB 100130b4     asutil:ASUTIL.dll
+ 0002:000000b8       __imp_?c_wszDeviceAddressingMethod@@3QBGB 100130b8     asutil:ASUTIL.dll
+ 0002:000000bc       __imp_?c_wszDeviceSMSAddress@@3QBGB 100130bc     asutil:ASUTIL.dll
+ 0002:000000c0       __imp_?c_wszEmailAddress@@3QBGB 100130c0     asutil:ASUTIL.dll
+ 0002:000000c4       __imp_?c_wszEngine@@3QBGB  100130c4     asutil:ASUTIL.dll
+ 0002:000000c8       __imp_?c_wszDevicePhoneNumber@@3QBGB 100130c8     asutil:ASUTIL.dll
+ 0002:000000cc       __imp_SyncGetRegistryDWORD 100130cc     asutil:ASUTIL.dll
+ 0002:000000d0       __imp_?c_wszNPWRunOnDevice@@3QBGB 100130d0     asutil:ASUTIL.dll
+ 0002:000000d4       __imp_SyncSetRegistryDWORD 100130d4     asutil:ASUTIL.dll
+ 0002:000000d8       __imp_?c_wszActiveSyncSources@@3QBGB 100130d8     asutil:ASUTIL.dll
+ 0002:000000dc       __imp_GuidEnumerator_InitializeEx 100130dc     asutil:ASUTIL.dll
+ 0002:000000e0       __imp_GuidEnumerator_Next  100130e0     asutil:ASUTIL.dll
+ 0002:000000e4       \177ASUTIL_NULL_THUNK_DATA 100130e4     asutil:ASUTIL.dll
+ 0002:000000e8       __imp_MAPIInitialize       100130e8     cemapi:CEMAPI.dll
+ 0002:000000ec       __imp_MAPIFreeBuffer       100130ec     cemapi:CEMAPI.dll
+ 0002:000000f0       __imp_FreeProws            100130f0     cemapi:CEMAPI.dll
+ 0002:000000f4       __imp_MAPILogonEx          100130f4     cemapi:CEMAPI.dll
+ 0002:000000f8       __imp_MAPIUninitialize     100130f8     cemapi:CEMAPI.dll
+ 0002:000000fc       \177CEMAPI_NULL_THUNK_DATA 100130fc     cemapi:CEMAPI.dll
+ 0002:00000100       __imp_CCF_QueryInterface   10013100     CEshutil:CEShUtil.dll
+ 0002:00000104       __imp_CCF_GCOSearch        10013104     CEshutil:CEShUtil.dll
+ 0002:00000108       __imp_CCF_CreateInstance   10013108     CEshutil:CEShUtil.dll
+ 0002:0000010c       __imp_CUnk_QISearch        1001310c     CEshutil:CEShUtil.dll
+ 0002:00000110       \177CEShUtil_NULL_THUNK_DATA 10013110     CEshutil:CEShUtil.dll
+ 0002:00000114       __imp__purecall            10013114     corelib1:COREDLL.dll
+ 0002:00000118       __imp_memcmp               10013118     corelib1:COREDLL.dll
+ 0002:0000011c       __imp_??_V@YAXPAX@Z        1001311c     corelib1:COREDLL.dll
+ 0002:00000120       __imp_??2@YAPAXI@Z         10013120     corelib1:COREDLL.dll
+ 0002:00000124       __imp_??3@YAXPAX@Z         10013124     corelib1:COREDLL.dll
+ 0002:00000128       __imp_wcslen               10013128     corelib1:COREDLL.dll
+ 0002:0000012c       __imp_memset               1001312c     corelib1:COREDLL.dll
+ 0002:00000130       __imp_??_U@YAPAXI@Z        10013130     corelib1:COREDLL.dll
+ 0002:00000134       __imp__itow_s              10013134     corelib1:COREDLL.dll
+ 0002:00000138       __imp_iswctype             10013138     corelib1:COREDLL.dll
+ 0002:0000013c       __imp__XcptFilter          1001313c     corelib1:COREDLL.dll
+ 0002:00000140       __imp___C_specific_handler 10013140     corelib1:COREDLL.dll
+ 0002:00000144       __imp_free                 10013144     corelib1:COREDLL.dll
+ 0002:00000148       __imp_malloc               10013148     corelib1:COREDLL.dll
+ 0002:0000014c       __imp_realloc              1001314c     corelib1:COREDLL.dll
+ 0002:00000150       __imp__msize               10013150     corelib1:COREDLL.dll
+ 0002:00000154       __imp___security_gen_cookie2 10013154     corelib1:COREDLL.dll
+ 0002:00000158       __imp___report_gsfailure   10013158     corelib1:COREDLL.dll
+ 0002:0000015c       __imp_EnterCriticalSection 1001315c     coredll:COREDLL.dll
+ 0002:00000160       __imp_InterlockedCompareExchange 10013160     coredll:COREDLL.dll
+ 0002:00000164       __imp_LeaveCriticalSection 10013164     coredll:COREDLL.dll
+ 0002:00000168       __imp_FileTimeToLocalFileTime 10013168     coredll:COREDLL.dll
+ 0002:0000016c       __imp_FileTimeToSystemTime 1001316c     coredll:COREDLL.dll
+ 0002:00000170       __imp_GetLocalTime         10013170     coredll:COREDLL.dll
+ 0002:00000174       __imp_SystemTimeToFileTime 10013174     coredll:COREDLL.dll
+ 0002:00000178       __imp_LocalFileTimeToFileTime 10013178     coredll:COREDLL.dll
+ 0002:0000017c       __imp_FindWindowW          1001317c     coredll:COREDLL.dll
+ 0002:00000180       __imp_PostMessageW         10013180     coredll:COREDLL.dll
+ 0002:00000184       __imp_RegSetValueExW       10013184     coredll:COREDLL.dll
+ 0002:00000188       __imp_LoadLibraryExW       10013188     coredll:COREDLL.dll
+ 0002:0000018c       __imp_RegDeleteValueW      1001318c     coredll:COREDLL.dll
+ 0002:00000190       __imp_RegDeleteKeyW        10013190     coredll:COREDLL.dll
+ 0002:00000194       __imp_InitializeCriticalSection 10013194     coredll:COREDLL.dll
+ 0002:00000198       __imp_Sleep                10013198     coredll:COREDLL.dll
+ 0002:0000019c       __imp_InterlockedExchange  1001319c     coredll:COREDLL.dll
+ 0002:000001a0       __imp_StringCchCatExW      100131a0     coredll:COREDLL.dll
+ 0002:000001a4       __imp_LoadStringW          100131a4     coredll:COREDLL.dll
+ 0002:000001a8       __imp_LoadLibraryW         100131a8     coredll:COREDLL.dll
+ 0002:000001ac       __imp_GetProcAddressW      100131ac     coredll:COREDLL.dll
+ 0002:000001b0       __imp_RegQueryInfoKeyW     100131b0     coredll:COREDLL.dll
+ 0002:000001b4       __imp_LocalAlloc           100131b4     coredll:COREDLL.dll
+ 0002:000001b8       __imp_RegEnumValueW        100131b8     coredll:COREDLL.dll
+ 0002:000001bc       __imp_LocalFree            100131bc     coredll:COREDLL.dll
+ 0002:000001c0       __imp_RegQueryValueExW     100131c0     coredll:COREDLL.dll
+ 0002:000001c4       __imp_RegEnumKeyExW        100131c4     coredll:COREDLL.dll
+ 0002:000001c8       __imp_RegFlushKey          100131c8     coredll:COREDLL.dll
+ 0002:000001cc       __imp_InterlockedDecrement 100131cc     coredll:COREDLL.dll
+ 0002:000001d0       __imp_InterlockedIncrement 100131d0     coredll:COREDLL.dll
+ 0002:000001d4       __imp_DPA_GetPtr           100131d4     coredll:COREDLL.dll
+ 0002:000001d8       __imp_RegCreateKeyExW      100131d8     coredll:COREDLL.dll
+ 0002:000001dc       __imp_RegOpenKeyExW        100131dc     coredll:COREDLL.dll
+ 0002:000001e0       __imp_StringCchLengthW     100131e0     coredll:COREDLL.dll
+ 0002:000001e4       __imp_RegCloseKey          100131e4     coredll:COREDLL.dll
+ 0002:000001e8       __imp_RegistryGetString    100131e8     coredll:COREDLL.dll
+ 0002:000001ec       __imp_DPA_InsertPtr        100131ec     coredll:COREDLL.dll
+ 0002:000001f0       __imp_DPA_Destroy          100131f0     coredll:COREDLL.dll
+ 0002:000001f4       __imp_DPA_EnumCallback     100131f4     coredll:COREDLL.dll
+ 0002:000001f8       __imp_DPA_DeleteAllPtrs    100131f8     coredll:COREDLL.dll
+ 0002:000001fc       __imp_DPA_Create           100131fc     coredll:COREDLL.dll
+ 0002:00000200       __imp_DeleteCriticalSection 10013200     coredll:COREDLL.dll
+ 0002:00000204       __imp_wcscmp               10013204     corelib1:COREDLL.dll
+ 0002:00000208       __imp_TerminateProcess     10013208     coredll:COREDLL.dll
+ 0002:0000020c       \177COREDLL_NULL_THUNK_DATA 1001320c     coredll:COREDLL.dll
+ 0002:00000210       __imp_SysAllocString       10013210     oleaut32:OLEAUT32.dll
+ 0002:00000214       __imp_SysAllocStringLen    10013214     oleaut32:OLEAUT32.dll
+ 0002:00000218       __imp_SysAllocStringByteLen 10013218     oleaut32:OLEAUT32.dll
+ 0002:0000021c       __imp_VariantChangeType    1001321c     oleaut32:OLEAUT32.dll
+ 0002:00000220       __imp_SysStringByteLen     10013220     oleaut32:OLEAUT32.dll
+ 0002:00000224       __imp_VariantInit          10013224     oleaut32:OLEAUT32.dll
+ 0002:00000228       __imp_VariantClear         10013228     oleaut32:OLEAUT32.dll
+ 0002:0000022c       __imp_SysStringLen         1001322c     oleaut32:OLEAUT32.dll
+ 0002:00000230       __imp_SysFreeString        10013230     oleaut32:OLEAUT32.dll
+ 0002:00000234       \177OLEAUT32_NULL_THUNK_DATA 10013234     oleaut32:OLEAUT32.dll
+ 0002:00000238       __imp_CfgUtilGetParmAttributeName 10013238     configmanager:configmanager.dll
+ 0002:0000023c       \177configmanager_NULL_THUNK_DATA 1001323c     configmanager:configmanager.dll
+ 0002:00000240       __imp_StringFromGUID2      10013240     ole32:ole32.dll
+ 0002:00000244       __imp_CoTaskMemAlloc       10013244     ole32:ole32.dll
+ 0002:00000248       __imp_CoTaskMemFree        10013248     ole32:ole32.dll
+ 0002:0000024c       __imp_CoCreateInstance     1001324c     ole32:ole32.dll
+ 0002:00000250       __imp_CoCreateGuid         10013250     ole32:ole32.dll
+ 0002:00000254       __imp_CLSIDFromString      10013254     ole32:ole32.dll
+ 0002:00000258       \177ole32_NULL_THUNK_DATA  10013258     ole32:ole32.dll
+ 0002:0000025c       __imp_FileTimeToISO8601String 1001325c     ossvcs:ossvcs.dll
+ 0002:00000260       __imp_QueryPolicyImpl      10013260     ossvcs:ossvcs.dll
+ 0002:00000264       __imp_BigStrcat            10013264     ossvcs:ossvcs.dll
+ 0002:00000268       __imp_?XMLHCreateChildElement@@YAJPAUIXMLDOMNode@@PBGPAUIXMLDOMDocument@@PAPAUIXMLDOMElement@@@Z 10013268     ossvcs:ossvcs.dll
+ 0002:0000026c       __imp_ISO8601StringToFileTime 1001326c     ossvcs:ossvcs.dll
+ 0002:00000270       __imp_?XMLHSetTextAttribute@@YAJPAUIXMLDOMElement@@PBG1@Z 10013270     ossvcs:ossvcs.dll
+ 0002:00000274       \177ossvcs_NULL_THUNK_DATA 10013274     ossvcs:ossvcs.dll
+ 0002:00000278       __imp_?c_wszSaveSentItems@@3QBGB 10013278     syncutil:syncutil.dll
+ 0002:0000027c       __imp_?c_wszOutboundMailDelay@@3QBGB 1001327c     syncutil:syncutil.dll
+ 0002:00000280       __imp_?c_wszMIMETruncation@@3QBGB 10013280     syncutil:syncutil.dll
+ 0002:00000284       __imp_?c_wszMinHeartbeat@@3QBGB 10013284     syncutil:syncutil.dll
+ 0002:00000288       __imp_?c_wszMaxHeartbeat@@3QBGB 10013288     syncutil:syncutil.dll
+ 0002:0000028c       __imp_?c_wszHeartbeatIncrement@@3QBGB 1001328c     syncutil:syncutil.dll
+ 0002:00000290       __imp_?c_wszInitialHeartbeat@@3QBGB 10013290     syncutil:syncutil.dll
+ 0002:00000294       __imp_?c_wszDeviceIDValName@@3QBGB 10013294     syncutil:syncutil.dll
+ 0002:00000298       __imp_?c_wszBodyTruncation@@3QBGB 10013298     syncutil:syncutil.dll
+ 0002:0000029c       __imp_?UpdateMailTransport@@YAJABU_GUID@@H@Z 1001329c     syncutil:syncutil.dll
+ 0002:000002a0       __imp_?c_wszReadOnly@@3QBGB 100132a0     syncutil:syncutil.dll
+ 0002:000002a4       __imp_?OpenMsgStore@@YAJPAPAUICEMAPISession@@PAPAUIMsgStore@@@Z 100132a4     syncutil:syncutil.dll
+ 0002:000002a8       __imp_?c_wszSyncInboxDataTypeKey@@3QBGB 100132a8     syncutil:syncutil.dll
+ 0002:000002ac       __imp_?c_wszSyncContactsDataTypeKey@@3QBGB 100132ac     syncutil:syncutil.dll
+ 0002:000002b0       __imp_?c_wszSyncCalendarDataTypeKey@@3QBGB 100132b0     syncutil:syncutil.dll
+ 0002:000002b4       __imp_?c_wszSyncTasksDataTypeKey@@3QBGB 100132b4     syncutil:syncutil.dll
+ 0002:000002b8       __imp_?c_wszDefaultLoggingValueName@@3QBGB 100132b8     syncutil:syncutil.dll
+ 0002:000002bc       __imp_?ChangeUSBDriver@@YAJH@Z 100132bc     syncutil:syncutil.dll
+ 0002:000002c0       __imp_?SavePreferredBodyType@@YAJPAUIMsgStore@@K@Z 100132c0     syncutil:syncutil.dll
+ 0002:000002c4       __imp_?RefreshMailApp@@YAXXZ 100132c4     syncutil:syncutil.dll
+ 0002:000002c8       __imp_?c_wszPingWhileCradled@@3QBGB 100132c8     syncutil:syncutil.dll
+ 0002:000002cc       __imp_?c_wszSupportedAutdModes@@3QBGB 100132cc     syncutil:syncutil.dll
+ 0002:000002d0       __imp_?c_wszAutdProxy@@3QBGB 100132d0     syncutil:syncutil.dll
+ 0002:000002d4       __imp_?c_wszProtectedActiveSyncKey@@3QBGB 100132d4     syncutil:syncutil.dll
+ 0002:000002d8       __imp_?c_wszSyncAPN@@3QBGB 100132d8     syncutil:syncutil.dll
+ 0002:000002dc       __imp_?c_wszAllowSSLOption@@3QBGB 100132dc     syncutil:syncutil.dll
+ 0002:000002e0       __imp_?c_wszDeviceType@@3QBGB 100132e0     syncutil:syncutil.dll
+ 0002:000002e4       __imp_?c_wszFolderSyncFlags@@3QBGB 100132e4     syncutil:syncutil.dll
+ 0002:000002e8       __imp_?c_wszAirsyncFolderName@@3QBGB 100132e8     syncutil:syncutil.dll
+ 0002:000002ec       __imp_?c_wszFolderPermID@@3QBGB 100132ec     syncutil:syncutil.dll
+ 0002:000002f0       __imp_?c_wszFolderParentID@@3QBGB 100132f0     syncutil:syncutil.dll
+ 0002:000002f4       __imp_?c_wszClientAuthCertNeeded@@3QBGB 100132f4     syncutil:syncutil.dll
+ 0002:000002f8       __imp_?c_wszClientNegotiated@@3QBGB 100132f8     syncutil:syncutil.dll
+ 0002:000002fc       __imp_?c_wszAirsyncVersion@@3QBGB 100132fc     syncutil:syncutil.dll
+ 0002:00000300       __imp_?c_wszConflictResolution@@3QBGB 10013300     syncutil:syncutil.dll
+ 0002:00000304       __imp_?c_wszDomainValName@@3QBGB 10013304     syncutil:syncutil.dll
+ 0002:00000308       __imp_?c_wszLoggingValueName@@3QBGB 10013308     syncutil:syncutil.dll
+ 0002:0000030c       __imp_?c_wszEnrollForCertOnNextCradle@@3QBGB 1001330c     syncutil:syncutil.dll
+ 0002:00000310       __imp_?c_wszSavePasswordValName@@3QBGB 10013310     syncutil:syncutil.dll
+ 0002:00000314       __imp_?c_wszURIValName@@3QBGB 10013314     syncutil:syncutil.dll
+ 0002:00000318       __imp_?c_wszUserValName@@3QBGB 10013318     syncutil:syncutil.dll
+ 0002:0000031c       __imp_?c_wszUseSSL@@3QBGB  1001331c     syncutil:syncutil.dll
+ 0002:00000320       __imp_?UpdateEmailAddress@@YAJABU_GUID@@PAG@Z 10013320     syncutil:syncutil.dll
+ 0002:00000324       __imp_?c_wszSyncResDll@@3QBGB 10013324     syncutil:syncutil.dll
+ 0002:00000328       __imp_?DeletePwd@@YAJABU_GUID@@@Z 10013328     syncutil:syncutil.dll
+ 0002:0000032c       \177syncutil_NULL_THUNK_DATA 1001332c     syncutil:syncutil.dll
+ 0002:00000330       ?s_Apr@CEngineSettings@@0UAutoPersistRider@@A 10013330     EngineSettings.obj
+ 0002:00000338       ?s_Ape@CEngineSettings@@0PAUAutoPersistEntry@@A 10013338     EngineSettings.obj
+ 0002:000003f0       ?s_Apr@CGlobalSettings@@0UAutoPersistRider@@A 100133f0     GlobalSettings.obj
+ 0002:000003f8       ?s_Sapr@CGlobalSettings@@0USettingAndPolicyRider@@A 100133f8     GlobalSettings.obj
+ 0002:00000448       ?s_Sape@CGlobalSettings@@0PAUSettingAndPolicyEntry@@A 10013448     GlobalSettings.obj
+ 0002:00000528       ?s_Ape@CGlobalSettings@@0PAUAutoPersistEntry@@A 10013528     GlobalSettings.obj
+ 0002:000005ac       ?s_Sapr@CPeakDaySettings@@0USettingAndPolicyRider@@A 100135ac     PeakDaySettings.obj
+ 0002:000005b4       ?s_Sape@CPeakDaySettings@@0PAUSettingAndPolicyEntry@@A 100135b4     PeakDaySettings.obj
+ 0002:000005c8       ?s_Pr@CPeakDaysPolicy@@0UPolicyRider@@A 100135c8     PeakDaysPolicy.obj
+ 0002:000005d0       ?s_Pe@CPeakDaysPolicy@@0PAUPolicyEntry@@A 100135d0     PeakDaysPolicy.obj
+ 0002:000005e0       ?s_Apr@CProviderSettings@@0UAutoPersistRider@@A 100135e0     ProviderSettings.obj
+ 0002:00000688       ?s_DefaultDTR@CProviderSettings@@0UDataTypeRecord@@B 10013688     ProviderSettings.obj
+ 0002:00000698       ?s_Ape@CProviderSettings@@0PAUAutoPersistEntry@@A 10013698     ProviderSettings.obj
+ 0002:000006b0       ?s_Apr@CSourceSettings@@0UAutoPersistRider@@A 100136b0     SourceSettings.obj
+ 0002:000006b8       ?s_Ape@CSourceSettings@@0PAUAutoPersistEntry@@A 100136b8     SourceSettings.obj
+ 0002:000006dc       ?CLSID_SyncCsp@@3U_GUID@@A 100136dc     SyncCspFactory.obj
+ 0002:000006ec       IID_IConfigServiceProviderBase 100136ec     SyncCspFactory.obj
+ 0002:000006fc       IID_IConfigServiceProvider 100136fc     SyncCspFactory.obj
+ 0002:0000070c       IID_IConfigTransaction     1001370c     SyncCspFactory.obj
+ 0002:00000720       ?s_CharMap@CRootCharacteristic@@0PAUSyncCharacteristic@@A 10013720     SyncCspSchema.obj
+ 0002:0000072c       ?s_CspMap@CRootCharacteristic@@0USyncCspRouter@@A 1001372c     SyncCspSchema.obj
+ 0002:0000073c       ?s_CharMap@CSourceSettings@@0PAUSyncCharacteristic@@A 1001373c     SyncCspSchema.obj
+ 0002:00000748       ?s_CharMap@CRootSettings@@0PAUSyncCharacteristic@@A 10013748     SyncCspSchema.obj
+ 0002:000007c0       ?s_ParmMap@CRootSettings@@0PAUSyncParameter@@A 100137c0     SyncCspSchema.obj
+ 0002:0000084c       ?s_CspMap@CRootSettings@@0USyncCspRouter@@A 1001384c     SyncCspSchema.obj
+ 0002:0000085c       ?s_CharMap@CSyncEngine@@0PAUSyncCharacteristic@@A 1001385c     SyncCspSchema.obj
+ 0002:00000880       ?s_ParmMap@CCalendarSettings@@0PAUSyncParameter@@A 10013880     SyncCspSchema.obj
+ 0002:000008d4       ?s_CspMap@CCalendarSettings@@0USyncCspRouter@@A 100138d4     SyncCspSchema.obj
+ 0002:000008e8       ?s_ParmMap@CConnectionSettings@@0PAUSyncParameter@@A 100138e8     SyncCspSchema.obj
+ 0002:00000a1c       ?s_CspMap@CConnectionSettings@@0USyncCspRouter@@A 10013a1c     SyncCspSchema.obj
+ 0002:00000a2c       ?s_ParmMap@CContactsSettings@@0PAUSyncParameter@@A 10013a2c     SyncCspSchema.obj
+ 0002:00000a64       ?s_CspMap@CContactsSettings@@0USyncCspRouter@@A 10013a64     SyncCspSchema.obj
+ 0002:00000a74       ?s_ParmMap@CTasksSettings@@0PAUSyncParameter@@A 10013a74     SyncCspSchema.obj
+ 0002:00000aac       ?s_CspMap@CTasksSettings@@0USyncCspRouter@@A 10013aac     SyncCspSchema.obj
+ 0002:00000abc       ?s_ParmMap@CFolderSettings@@0PAUSyncParameter@@A 10013abc     SyncCspSchema.obj
+ 0002:00000af4       ?s_CspMap@CFolderSettings@@0USyncCspRouter@@A 10013af4     SyncCspSchema.obj
+ 0002:00000b08       ?s_ParmMap@CMailSettings@@0PAUSyncParameter@@A 10013b08     SyncCspSchema.obj
+ 0002:00000bb0       ?s_CspMap@CMailSettings@@0USyncCspRouter@@A 10013bb0     SyncCspSchema.obj
+ 0002:00000bc0       ?s_CharMap@CGlobalSettings@@0PAUSyncCharacteristic@@A 10013bc0     SyncCspSchema.obj
+ 0002:00000bd8       ?s_ParmMap@CGlobalSettings@@0PAUSyncParameter@@A 10013bd8     SyncCspSchema.obj
+ 0002:0000116c       ?s_CspMap@CGlobalSettings@@0USyncCspRouter@@A 1001416c     SyncCspSchema.obj
+ 0002:00001180       ?s_ParmMap@CPeakDaySettings@@0PAUSyncParameter@@A 10014180     SyncCspSchema.obj
+ 0002:00001244       ?s_CspMap@CPeakDaySettings@@0USyncCspRouter@@A 10014244     SyncCspSchema.obj
+ 0002:00001258       ?s_ParmMap@CSourceSettings@@0PAUSyncParameter@@A 10014258     SyncCspSchema.obj
+ 0002:000012ac       ?s_CspMap@CSourceSettings@@0USyncCspRouter@@A 100142ac     SyncCspSchema.obj
+ 0002:000012bc       ?s_CspMap@CSyncEngine@@0USyncCspRouter@@A 100142bc     SyncCspSchema.obj
+ 0002:000012d0       ?s_ParmMap@CEngineSettings@@0PAUSyncParameter@@A 100142d0     SyncCspSchema.obj
+ 0002:00001500       ?s_CspMap@CEngineSettings@@0USyncCspRouter@@A 10014500     SyncCspSchema.obj
+ 0002:00001510       ?s_ParmMap@CProviderSettings@@0PAUSyncParameter@@A 10014510     SyncCspSchema.obj
+ 0002:00001564       ?s_CspMap@CProviderSettings@@0USyncCspRouter@@A 10014564     SyncCspSchema.obj
+ 0002:00001574       ?s_CharMap@CPolicies@@0PAUSyncCharacteristic@@A 10014574     SyncCspSchema.obj
+ 0002:00001590       ?s_ParmMap@CPolicies@@0PAUSyncParameter@@A 10014590     SyncCspSchema.obj
+ 0002:00001868       ?s_CspMap@CPolicies@@0USyncCspRouter@@A 10014868     SyncCspSchema.obj
+ 0002:00001878       ?s_ParmMap@CPeakDaysPolicy@@0PAUSyncParameter@@A 10014878     SyncCspSchema.obj
+ 0002:0000193c       ?s_CspMap@CPeakDaysPolicy@@0USyncCspRouter@@A 1001493c     SyncCspSchema.obj
+ 0002:00001950       ?s_Pr@CPolicies@@0UPolicyRider@@A 10014950     Policies.obj
+ 0002:00001958       ?s_Pe@CPolicies@@0PAUPolicyEntry@@A 10014958     Policies.obj
+ 0002:00001a28       __security_cookie          10014a28     corelib0:seccinit.obj
+ 0002:00001a2c       __security_cookie_complement 10014a2c     corelib0:seccinit.obj
+ 0002:00001a30       ??_B?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@2@XZ@51 10014a30     Bstr.obj
+ 0002:00001a34       ?cs@?1??get_lock@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@KAAAVcritical_section@3@XZ@4V43@A 10014a34     Bstr.obj
+ 0002:00001a48       ?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A 10014a48     Bstr.obj
+ 0002:00001a4c       ?g_hinstSyncMgr@@3PAUHINSTANCE__@@A 10014a4c     DelayLoad.obj
+ 0002:00001a6c       ?g_IgnoreCharacteristic@@3V?$CComObjectAuto@VCIgnoreCharacteristic@@@SYNC@@A 10014a6c     RootCharacteristic.obj
+ 0002:00001a74       ?g_cRefThisDll@@3JA        10014a74     SyncCspFactory.obj
+ 0002:00001a78       ?g_hInstRes@@3PAUHINSTANCE__@@A 10014a78     SyncCspRes.obj
+ 0002:00001a7c       ?s_CspMap@CIgnoreCharacteristic@@0USyncCspRouter@@A 10014a7c     SyncCspSchema.obj
+ 0002:00001a8c       ?s_CspMap@CDefaultSettings@@0USyncCspRouter@@A 10014a8c     SyncCspSchema.obj
+ 0002:00001a9c       ?s_CspMap@CFolderHierarchy@@0USyncCspRouter@@A 10014a9c     SyncCspSchema.obj
+ 0002:00001aac       ?s_CspMap@CDataSources@@0USyncCspRouter@@A 10014aac     SyncCspSchema.obj
+ 0002:00001abc       ?s_CspMap@CSyncEngines@@0USyncCspRouter@@A 10014abc     SyncCspSchema.obj
+ 0002:00001acc       ?s_CspMap@CConnectorList@@0USyncCspRouter@@A 10014acc     SyncCspSchema.obj
+ 0002:00001adc       ?s_CspMap@CProviderList@@0USyncCspRouter@@A 10014adc     SyncCspSchema.obj
+ 0002:00001aec       _exitflag                  10014aec     corelib0:cexit.obj
+ 0002:00001af0       __onexitend                10014af0     <common>
+ 0002:00001af4       __onexitbegin              10014af4     <common>
+ 0002:00001af8       g_pcsExit                  10014af8     <common>
+ 0002:00001afc       _pRawDllMain               10014afc     <common>
+
+ entry point at        0001:00010ab0
+
+ Static symbols
+
+ 0001:00002318       ?ReleaseComPointer@@YAHPAX0@Z 10003318 f   CharDpa.obj
+ 0001:00004e00       ?FreeServerFolders@@YAXPAU_DAVFOLDERNODE@@@Z 10005e00 f   FolderHierarchy.obj
+ 0001:00004e4c       ?ClearFlags@@YAXPAU_FOLDERNODE@@@Z 10005e4c f   FolderHierarchy.obj
+ 0001:00008000       ?CompareId@@YAHPAVCProviderSettings@@PAUProviderIdFinder@@@Z 10009000 f   ProviderList.obj
+ 0001:00008030       ?CompareName@@YAHPAVCProviderSettings@@PAUProviderNameFinder@@@Z 10009030 f   ProviderList.obj
+ 0001:000109c0       _DllMainCRTStartupHelper   100119c0 f   corelib0:pegdmain.obj
+ 0001:00010d7c       doexit                     10011d7c f   corelib0:cexit.obj
+ 0001:0001107c       ??__E?_factory@?$singleton@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03V?$static_allocator@V?$free_list@$0GE@Vallocator@ce@@@ce@@$03@2@@ce@@1Ulock_factory@12@A@@YAXXZ 1001207c f   Bstr.obj
+ 0001:00011080       ??__E?s_Ape@CEngineSettings@@0PAUAutoPersistEntry@@A@@YAXXZ 10012080 f   EngineSettings.obj
+ 0001:00011180       ??__E?s_Ape@CGlobalSettings@@0PAUAutoPersistEntry@@A@@YAXXZ 10012180 f   GlobalSettings.obj
+ 0001:00011240       ??__E?s_Sape@CGlobalSettings@@0PAUSettingAndPolicyEntry@@A@@YAXXZ 10012240 f   GlobalSettings.obj
+ 0001:00011300       ??__E?s_Sape@CPeakDaySettings@@0PAUSettingAndPolicyEntry@@A@@YAXXZ 10012300 f   PeakDaySettings.obj
+ 0001:0001131c       ??__E?s_Pe@CPeakDaysPolicy@@0PAUPolicyEntry@@A@@YAXXZ 1001231c f   PeakDaysPolicy.obj
+ 0001:00011338       ??__E?s_Ape@CProviderSettings@@0PAUAutoPersistEntry@@A@@YAXXZ 10012338 f   ProviderSettings.obj
+ 0001:00011364       ??__Eg_IgnoreCharacteristic@@YAXXZ 10012364 f   RootCharacteristic.obj
+ 0001:00011394       ??__E?s_Ape@CSourceSettings@@0PAUAutoPersistEntry@@A@@YAXXZ 10012394 f   SourceSettings.obj
+ 0001:000113d4       ??__E?s_Pe@CPolicies@@0PAUPolicyEntry@@A@@YAXXZ 100123d4 f   Policies.obj
+ 0001:000114c0       ??__Fg_IgnoreCharacteristic@@YAXXZ 100124c0 f   RootCharacteristic.obj
+
+ Exports
+
+  ordinal    name
+
+        1    DllCanUnloadNow
+        2    DllGetClassObject

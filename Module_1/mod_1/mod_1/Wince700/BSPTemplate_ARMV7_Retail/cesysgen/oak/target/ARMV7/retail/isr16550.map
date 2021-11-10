@@ -1,0 +1,52 @@
+ isr16550
+
+ Timestamp is 5ac64c67 (Thu Apr 05 09:18:47 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000001cH .rdata                  CODE
+ 0001:0000001c 00000025H .rdata$debug            CODE
+ 0001:00000044 00000810H .text                   CODE
+ 0001:00000854 00000014H .idata$2                CODE
+ 0001:00000868 00000014H .idata$3                CODE
+ 0001:0000087c 00000014H .idata$4                CODE
+ 0001:00000890 0000000cH .idata$6                CODE
+ 0001:000008a0 00000091H .edata                  CODE
+ 0002:00000000 00000014H .idata$5                DATA
+ 0002:00000018 00000088H .bss                    DATA
+ 0003:00000000 00000060H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000590       DllEntry                   10001590 f   isr16550.obj
+ 0001:00000638       CreateInstance             10001638 f   isr16550.obj
+ 0001:00000678       IOControl                  10001678 f   isr16550.obj
+ 0001:0000079c       ISRHandler                 1000179c f   isr16550.obj
+ 0001:000007d0       DestroyInstance            100017d0 f   isr16550.obj
+ 0001:000007f4       READ_REGISTER_UCHAR        100017f4 f   ddk_io:ddk_io.obj
+ 0001:000007fc       WRITE_REGISTER_UCHAR       100017fc f   ddk_io:ddk_io.obj
+ 0001:00000804       READ_PORT_UCHAR            10001804 f   ddk_io:ddk_io.obj
+ 0001:0000080c       WRITE_PORT_UCHAR           1000180c f   ddk_io:ddk_io.obj
+ 0001:00000814       __GetUserKData             10001814 f   coredll:COREDLL.dll
+ 0001:00000824       VirtualAllocCopyEx         10001824 f   coredll:COREDLL.dll
+ 0001:00000834       GetDirectCallerProcessId   10001834 f   coredll:COREDLL.dll
+ 0001:00000844       VirtualFreeEx              10001844 f   coredll:COREDLL.dll
+ 0001:00000854       __IMPORT_DESCRIPTOR_COREDLL 10001854     coredll:COREDLL.dll
+ 0001:00000868       __NULL_IMPORT_DESCRIPTOR   10001868     coredll:COREDLL.dll
+ 0002:00000000       __imp_VirtualAllocCopyEx   10002000     coredll:COREDLL.dll
+ 0002:00000004       __imp_GetDirectCallerProcessId 10002004     coredll:COREDLL.dll
+ 0002:00000008       __imp_VirtualFreeEx        10002008     coredll:COREDLL.dll
+ 0002:0000000c       __imp___GetUserKData       1000200c     coredll:COREDLL.dll
+ 0002:00000010       \177COREDLL_NULL_THUNK_DATA 10002010     coredll:COREDLL.dll
+ 0002:00000018       pfnKLibCtl                 10002018     isr16550.obj
+
+ entry point at        0001:00000590
+
+ Static symbols
+
+ 0001:00000044       DataReceivedIsr            10001044 f   isr16550.obj
+ 0001:0000015c       DataXmitEmptyIsr           1000115c f   isr16550.obj
+ 0001:00000264       Isr16550                   10001264 f   isr16550.obj

@@ -1,0 +1,419 @@
+ snmp
+
+ Timestamp is 618b1549 (Tue Nov 09 17:41:45 2021)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 00000788H .rdata                  CODE
+ 0001:000007a8 00000021H .rdata$debug            CODE
+ 0001:000007cc 00006c54H .text                   CODE
+ 0001:00007420 000000b8H .xdata                  CODE
+ 0001:000074d8 0000003cH .idata$2                CODE
+ 0001:00007514 00000014H .idata$3                CODE
+ 0001:00007528 00000128H .idata$4                CODE
+ 0001:00007650 0000020eH .idata$6                CODE
+ 0001:00007860 000000fdH .edata                  CODE
+ 0002:00000000 00000128H .idata$5                DATA
+ 0002:00000128 0000013cH .data                   DATA
+ 0002:00000264 00000080H .bss                    DATA
+ 0003:00000000 000004f0H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:0000003c       ??_C@_1CM@LCEHPAOP@?$AAS?$AAN?$AAM?$AAP?$AAS?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe?$AAR?$AAe?$AAs?$AAe?$AAt?$AAE?$AAv?$AAe?$AAn?$AAt?$AA?$AA@ 1000103c     snmp:service.obj
+ 0001:00000068       ??_C@_1DM@INBONBIF@?$AAS?$AAN?$AAM?$AAP?$AAS?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe?$AAR?$AAe?$AAs?$AAe?$AAt?$AAC?$AAo?$AAm?$AAp?$AAl?$AAe?$AAt?$AAe?$AAE?$AAv?$AAe?$AAn?$AAt?$AA?$AA@ 10001068     snmp:service.obj
+ 0001:000000a4       ??_C@_1CC@KBLAPHMG@?$AAI?$AAN?$AAC?$AAO?$AAN?$AAS?$AAI?$AAS?$AAT?$AAE?$AAN?$AAT?$AAN?$AAA?$AAM?$AAE?$AA?$AA@ 100010a4     snmp:globals.obj
+ 0001:000000c8       ??_C@_1BI@LBCOBDKG@?$AAN?$AAO?$AAT?$AAW?$AAR?$AAI?$AAT?$AAA?$AAB?$AAL?$AAE?$AA?$AA@ 100010c8     snmp:globals.obj
+ 0001:000000e0       ??_C@_1CG@OOFCNEHG@?$AAA?$AAU?$AAT?$AAH?$AAO?$AAR?$AAI?$AAZ?$AAA?$AAT?$AAI?$AAO?$AAN?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?$AA@ 100010e0     snmp:globals.obj
+ 0001:00000108       ??_C@_1BG@HJEOFCL@?$AAU?$AAN?$AAD?$AAO?$AAF?$AAA?$AAI?$AAL?$AAE?$AAD?$AA?$AA@ 10001108     snmp:globals.obj
+ 0001:00000120       ??_C@_1BK@DFPGKBN@?$AAC?$AAO?$AAM?$AAM?$AAI?$AAT?$AAF?$AAA?$AAI?$AAL?$AAE?$AAD?$AA?$AA@ 10001120     snmp:globals.obj
+ 0001:0000013c       ??_C@_1CI@DPLHEAEI@?$AAR?$AAE?$AAS?$AAO?$AAU?$AAR?$AAC?$AAE?$AAU?$AAN?$AAA?$AAV?$AAA?$AAI?$AAL?$AAA?$AAB?$AAL?$AAE?$AA?$AA@ 1000113c     snmp:globals.obj
+ 0001:00000164       ??_C@_1CE@NHNLIHMP@?$AAI?$AAN?$AAC?$AAO?$AAN?$AAS?$AAI?$AAS?$AAT?$AAE?$AAN?$AAT?$AAV?$AAA?$AAL?$AAU?$AAE?$AA?$AA@ 10001164     snmp:globals.obj
+ 0001:00000188       ??_C@_1BG@GNILILCK@?$AAN?$AAO?$AAC?$AAR?$AAE?$AAA?$AAT?$AAI?$AAO?$AAN?$AA?$AA@ 10001188     snmp:globals.obj
+ 0001:000001a0       ??_C@_1BG@ELJJIJF@?$AAW?$AAR?$AAO?$AAN?$AAG?$AAV?$AAA?$AAL?$AAU?$AAE?$AA?$AA@ 100011a0     snmp:globals.obj
+ 0001:000001b8       ??_C@_1BM@NLFLKMKG@?$AAW?$AAR?$AAO?$AAN?$AAG?$AAE?$AAN?$AAC?$AAO?$AAD?$AAI?$AAN?$AAG?$AA?$AA@ 100011b8     snmp:globals.obj
+ 0001:000001d4       ??_C@_1BI@OJCAPLJP@?$AAW?$AAR?$AAO?$AAN?$AAG?$AAL?$AAE?$AAN?$AAG?$AAT?$AAH?$AA?$AA@ 100011d4     snmp:globals.obj
+ 0001:000001ec       ??_C@_1BE@GBDFINMA@?$AAW?$AAR?$AAO?$AAN?$AAG?$AAT?$AAY?$AAP?$AAE?$AA?$AA@ 100011ec     snmp:globals.obj
+ 0001:00000200       ??_C@_1BC@EHMJBKCD@?$AAN?$AAO?$AAA?$AAC?$AAC?$AAE?$AAS?$AAS?$AA?$AA@ 10001200     snmp:globals.obj
+ 0001:00000214       ??_C@_1O@GDLMIOKG@?$AAG?$AAE?$AAN?$AAE?$AAR?$AAR?$AA?$AA@ 10001214     snmp:globals.obj
+ 0001:00000224       ??_C@_1BC@CPNDMAGA@?$AAR?$AAE?$AAA?$AAD?$AAO?$AAN?$AAL?$AAY?$AA?$AA@ 10001224     snmp:globals.obj
+ 0001:00000238       ??_C@_1BC@NDDLEBEL@?$AAB?$AAA?$AAD?$AAV?$AAA?$AAL?$AAU?$AAE?$AA?$AA@ 10001238     snmp:globals.obj
+ 0001:0000024c       ??_C@_1BG@KCBKHCPO@?$AAN?$AAO?$AAS?$AAU?$AAC?$AAH?$AAN?$AAA?$AAM?$AAE?$AA?$AA@ 1000124c     snmp:globals.obj
+ 0001:00000264       ??_C@_1O@HIIJEIKC@?$AAT?$AAO?$AAO?$AAB?$AAI?$AAG?$AA?$AA@ 10001264     snmp:globals.obj
+ 0001:00000274       ??_C@_1BA@JHLNOKEC@?$AAN?$AAO?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?$AA@ 10001274     snmp:globals.obj
+ 0001:00000288       ??_C@_1O@JNICGKBF@?$AAs?$AAw?$AAi?$AAt?$AAc?$AAh?$AA?$AA@ 10001288     snmp:registry.obj
+ 0001:00000298       ??_C@_1JI@EJDJJJDA@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?2?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAS?$AAe?$AAt?$AA?2?$AAS?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe@ 10001298     snmp:registry.obj
+ 0001:00000330       ??_C@_1CA@OIHHPPFG@?$AAP?$AAD?$AAU?$AAB?$AAu?$AAf?$AAf?$AAe?$AAr?$AAL?$AAe?$AAn?$AAg?$AAt?$AAh?$AA?$AA@ 10001330     snmp:registry.obj
+ 0001:00000350       ??_C@_1GE@MBAJLPIA@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?2?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAS?$AAe?$AAt?$AA?2?$AAS?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe@ 10001350     snmp:registry.obj
+ 0001:000003b4       ??_C@_0BA@FELBPFAN@255?4255?4255?4255?$AA@ 100013b4     snmp:snmpmgrs.obj
+ 0001:000003c8       ??_C@_1II@JBPCBLCF@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?2?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAS?$AAe?$AAt?$AA?2?$AAS?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe@ 100013c8     snmp:snmpmgrs.obj
+ 0001:00000450       ??_C@_1IG@LPCHJGBD@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?2?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAS?$AAe?$AAt?$AA?2?$AAS?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe@ 10001450     snmp:contexts.obj
+ 0001:000004d8       ??_C@_0BN@BAHMEDAM@Sample?5SysOR?5Description?5?4?4?4?$AA@ 100014d8     snmp:subagnts.obj
+ 0001:000004f8       ??_C@_1CE@OAIPFMHE@?$AAS?$AAn?$AAm?$AAp?$AAE?$AAx?$AAt?$AAe?$AAn?$AAs?$AAi?$AAo?$AAn?$AAI?$AAn?$AAi?$AAt?$AA?$AA@ 100014f8     snmp:subagnts.obj
+ 0001:0000051c       ??_C@_1CI@GMPEJFEP@?$AAS?$AAn?$AAm?$AAp?$AAE?$AAx?$AAt?$AAe?$AAn?$AAs?$AAi?$AAo?$AAn?$AAI?$AAn?$AAi?$AAt?$AAE?$AAx?$AA?$AA@ 1000151c     snmp:subagnts.obj
+ 0001:00000544       ??_C@_1CG@GLBFLJPL@?$AAS?$AAn?$AAm?$AAp?$AAE?$AAx?$AAt?$AAe?$AAn?$AAs?$AAi?$AAo?$AAn?$AAQ?$AAu?$AAe?$AAr?$AAy?$AA?$AA@ 10001544     snmp:subagnts.obj
+ 0001:0000056c       ??_C@_1CK@IHCDBJFB@?$AAS?$AAn?$AAm?$AAp?$AAE?$AAx?$AAt?$AAe?$AAn?$AAs?$AAi?$AAo?$AAn?$AAQ?$AAu?$AAe?$AAr?$AAy?$AAE?$AAx?$AA?$AA@ 1000156c     snmp:subagnts.obj
+ 0001:00000598       ??_C@_1CE@HKPKGHHC@?$AAS?$AAn?$AAm?$AAp?$AAE?$AAx?$AAt?$AAe?$AAn?$AAs?$AAi?$AAo?$AAn?$AAT?$AAr?$AAa?$AAp?$AA?$AA@ 10001598     snmp:subagnts.obj
+ 0001:000005bc       ??_C@_1CG@BANOEHPA@?$AAS?$AAn?$AAm?$AAp?$AAE?$AAx?$AAt?$AAe?$AAn?$AAs?$AAi?$AAo?$AAn?$AAC?$AAl?$AAo?$AAs?$AAe?$AA?$AA@ 100015bc     snmp:subagnts.obj
+ 0001:000005e4       ??_C@_1BC@CNIDKJCH@?$AAP?$AAa?$AAt?$AAh?$AAn?$AAa?$AAm?$AAe?$AA?$AA@ 100015e4     snmp:subagnts.obj
+ 0001:000005f8       ??_C@_1IE@MIHOCOGE@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?2?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAS?$AAe?$AAt?$AA?2?$AAS?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe@ 100015f8     snmp:subagnts.obj
+ 0001:0000067c       ??_C@_1BO@FCPOFIEH@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAV?$AAe?$AAr?$AAs?$AAi?$AAo?$AAn?$AA?$AA@ 1000167c     snmp:trapmgrs.obj
+ 0001:000006a0       ??_C@_1HM@IOGJBHJ@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?2?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAS?$AAe?$AAt?$AA?2?$AAS?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe@ 100016a0     snmp:trapmgrs.obj
+ 0001:00000720       ??_C@_1II@FLBINLIF@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?2?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAS?$AAe?$AAt?$AA?2?$AAS?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe@ 10001720     snmp:trapmgrs.obj
+ 0001:000007cc       ServiceMain                100017cc f   snmp:service.obj
+ 0001:00000810       SNP_Init                   10001810 f   snmp:service.obj
+ 0001:000008cc       SNP_Deinit                 100018cc f   snmp:service.obj
+ 0001:0000091c       SNP_Open                   1000191c f   snmp:service.obj
+ 0001:00000924       SNP_Close                  10001924 f   snmp:service.obj
+ 0001:00000934       SNP_IOControl              10001934 f   snmp:service.obj
+ 0001:00000a40       DllEntry                   10001a40 f   snmp:service.obj
+ 0001:00000a64       GetSnmpStruct              10001a64 f   snmp:globals.obj
+ 0001:00000a84       SetSnmpEnableAuthenTraps   10001a84 f   snmp:globals.obj
+ 0001:00000aa8       GetSysORInfo               10001aa8 f   snmp:globals.obj
+ 0001:00000ad0       LoadWinsock                10001ad0 f   snmp:startup.obj
+ 0001:00000b20       StartupMessageProcessing   10001b20 f   snmp:startup.obj
+ 0001:00000bbc       ShutdownMessageProcessing  10001bbc f   snmp:startup.obj
+ 0001:00000c0c       WaitForNetwork             10001c0c f   snmp:startup.obj
+ 0001:00000cdc       StartupAgent               10001cdc f   snmp:startup.obj
+ 0001:00000d94       ShutdownAgent              10001d94 f   snmp:startup.obj
+ 0001:00000ddc       ResetSNMP                  10001ddc f   snmp:startup.obj
+ 0001:00000e08       LoadWaitObjects            10001e08 f   snmp:trapthrd.obj
+ 0001:00000f20       GenerateTrap               10001f20 f   snmp:trapthrd.obj
+ 0001:00001114       GenerateExtensionTrap      10002114 f   snmp:trapthrd.obj
+ 0001:00001224       ProcessSubagentEvents      10002224 f   snmp:trapthrd.obj
+ 0001:000013d4       GenerateColdStartTrap      100023d4 f   snmp:trapthrd.obj
+ 0001:00001404       GenerateWarmStartTrap      10002404 f   snmp:trapthrd.obj
+ 0001:00001434       GenerateAuthenticationTrap 10002434 f   snmp:trapthrd.obj
+ 0001:00001468       ValidateContext            10002468 f   snmp:snmpthrd.obj
+ 0001:000014f4       ValidateManager            100024f4 f   snmp:snmpthrd.obj
+ 0001:00001558       ProcessSnmpMessage         10002558 f   snmp:snmpthrd.obj
+ 0001:00001770       RecvCompletionRoutine      10002770 f   snmp:snmpthrd.obj
+ 0001:00001808       ProcessSnmpMessages        10002808 f   snmp:snmpthrd.obj
+ 0001:000018e0       IsValidSockAddr            100028e0 f   snmp:network.obj
+ 0001:00001990       ShutdownIncomingTransports 10002990 f   snmp:network.obj
+ 0001:000019dc       UnloadPdu                  100029dc f   snmp:network.obj
+ 0001:000019fc       FreeNLE                    100029fc f   snmp:network.obj
+ 0001:00001a60       UnloadIncomingTransports   10002a60 f   snmp:network.obj
+ 0001:00001aac       UnloadOutgoingTransports   10002aac f   snmp:network.obj
+ 0001:00001af8       AllocNLE                   10002af8 f   snmp:network.obj
+ 0001:00001b74       LoadIncomingTransports     10002b74 f   snmp:network.obj
+ 0001:00001c24       LoadOutgoingTransports     10002c24 f   snmp:network.obj
+ 0001:00001c98       LoadOptionalDwordRegistryValue 10002c98 f   snmp:registry.obj
+ 0001:00001d38       LoadRegistryParameters     10002d38 f   snmp:registry.obj
+ 0001:00001dc0       UnloadRegistryParameters   10002dc0 f   snmp:registry.obj
+ 0001:00001de0       AgentHeapCreate            10002de0 f   snmp:mem.obj
+ 0001:00001e10       AgentHeapDestroy           10002e10 f   snmp:mem.obj
+ 0001:00001e3c       AgentMemAlloc              10002e3c f   snmp:mem.obj
+ 0001:00001e54       AgentMemFree               10002e54 f   snmp:mem.obj
+ 0001:00001e78       SnmpEncodeNumber7BitsToAByte 10002e78 f   snmp:snmppdus.obj
+ 0001:00001ec0       SnmpEncodeLength           10002ec0 f   snmp:snmppdus.obj
+ 0001:00001f50       SnmpEncodeAnyIntValue      10002f50 f   snmp:snmppdus.obj
+ 0001:00001f98       SnmpEncodeInteger          10002f98 f   snmp:snmppdus.obj
+ 0001:00002010       SnmpEncodeTimeTicks        10003010 f   snmp:snmppdus.obj
+ 0001:00002074       SnmpEncodeCounter64Value   10003074 f   snmp:snmppdus.obj
+ 0001:000020c8       SnmpEncodeOctetStringValue 100030c8 f   snmp:snmppdus.obj
+ 0001:00002108       SnmpEncodeOctetString      10003108 f   snmp:snmppdus.obj
+ 0001:00002160       SnmpEncodeIPAddress        10003160 f   snmp:snmppdus.obj
+ 0001:000021c4       SnmpEncodeOIDValue         100031c4 f   snmp:snmppdus.obj
+ 0001:00002260       SnmpEncodeOID              10003260 f   snmp:snmppdus.obj
+ 0001:000022b0       SnmpEncodeAsnAny           100032b0 f   snmp:snmppdus.obj
+ 0001:000023fc       SnmpEncodeVarBind          100033fc f   snmp:snmppdus.obj
+ 0001:00002468       SnmpEncodeVarBindListPayload 10003468 f   snmp:snmppdus.obj
+ 0001:000024c0       SnmpEncodeMessage          100034c0 f   snmp:snmppdus.obj
+ 0001:00002864       SnmpDecodeNumber7BitsToAByte 10003864 f   snmp:snmppdus.obj
+ 0001:000028d4       SnmpDecodeTag              100038d4 f   snmp:snmppdus.obj
+ 0001:00002970       SnmpDecodeLength           10003970 f   snmp:snmppdus.obj
+ 0001:00002a14       SnmpDecodeIntegerValue     10003a14 f   snmp:snmppdus.obj
+ 0001:00002a94       SnmpDecodeCounter64Value   10003a94 f   snmp:snmppdus.obj
+ 0001:00002b18       SnmpDecodeOctetStringValue 10003b18 f   snmp:snmppdus.obj
+ 0001:00002b84       SnmpDecodeOIDValue         10003b84 f   snmp:snmppdus.obj
+ 0001:00002c84       SnmpDecodeAsnAny           10003c84 f   snmp:snmppdus.obj
+ 0001:00002dfc       SnmpDecodeVarBind          10003dfc f   snmp:snmppdus.obj
+ 0001:0000310c       SnmpDecodeVarBindList      1000410c f   snmp:snmppdus.obj
+ 0001:00003304       SnmpDecodeNormalPDUData    10004304 f   snmp:snmppdus.obj
+ 0001:000037a0       SnmpDecodePDU              100047a0 f   snmp:snmppdus.obj
+ 0001:00003cd8       SnmpDecodeMessage          10004cd8 f   snmp:snmppdus.obj
+ 0001:00003d50       GetDotNotationIPAddress    10004d50 f   snmp:snmpmgrs.obj
+ 0001:00003da8       ResolveInternetHostName    10004da8 f   snmp:snmpmgrs.obj
+ 0001:00003e0c       FindManagerByName          10004e0c f   snmp:snmpmgrs.obj
+ 0001:00003e60       UnloadManagers             10004e60 f   snmp:snmpmgrs.obj
+ 0001:00003eb0       UnloadPermittedManagers    10004eb0 f   snmp:snmpmgrs.obj
+ 0001:00003ebc       UpdateMLE                  10004ebc f   snmp:snmpmgrs.obj
+ 0001:00003f68       UpdateManagers             10004f68 f   snmp:snmpmgrs.obj
+ 0001:00003fa0       AllocMLE                   10004fa0 f   snmp:snmpmgrs.obj
+ 0001:00004054       FindManagerByAddr          10005054 f   snmp:snmpmgrs.obj
+ 0001:000040d4       AddManager                 100050d4 f   snmp:snmpmgrs.obj
+ 0001:0000414c       LoadManagers               1000514c f   snmp:snmpmgrs.obj
+ 0001:00004290       LoadPermittedManagers      10005290 f   snmp:snmpmgrs.obj
+ 0001:000042f0       FindValidCommunity         100052f0 f   snmp:contexts.obj
+ 0001:00004360       UnloadValidCommunities     10005360 f   snmp:contexts.obj
+ 0001:000043b4       AllocCLE                   100053b4 f   snmp:contexts.obj
+ 0001:00004430       AddValidCommunity          10005430 f   snmp:contexts.obj
+ 0001:000044cc       LoadValidCommunities       100054cc f   snmp:contexts.obj
+ 0001:00004618       ValidateVarBinds           10005618 f   snmp:varbinds.obj
+ 0001:00004708       UpdateVarBindsFromResolvedVb 10005708 f   snmp:varbinds.obj
+ 0001:00004764       UpdateVarBindsFromResolvedVbl 10005764 f   snmp:varbinds.obj
+ 0001:000048ec       UpdatePdu                  100058ec f   snmp:varbinds.obj
+ 0001:0000494c       LoadVarBind                1000594c f   snmp:varbinds.obj
+ 0001:00004ab4       LoadVarBinds               10005ab4 f   snmp:varbinds.obj
+ 0001:00004aec       UnloadVarBinds             10005aec f   snmp:varbinds.obj
+ 0001:00004b4c       ProcessVarBinds            10005b4c f   snmp:varbinds.obj
+ 0001:00004bb4       FindQueryBySLE             10005bb4 f   snmp:query.obj
+ 0001:00004bf4       LoadSubagentData           10005bf4 f   snmp:query.obj
+ 0001:00004c94       UnloadSubagentData         10005c94 f   snmp:query.obj
+ 0001:00004cec       UpdateResolvedVarBind      10005cec f   snmp:query.obj
+ 0001:00004dd0       UpdateVarBind              10005dd0 f   snmp:query.obj
+ 0001:00005034       UpdateVarBinds             10006034 f   snmp:query.obj
+ 0001:000050ec       CallSubagent               100060ec f   snmp:query.obj
+ 0001:00005244       AllocQLE                   10006244 f   snmp:query.obj
+ 0001:00005278       LoadQueries                10006278 f   snmp:query.obj
+ 0001:0000535c       UnloadQueries              1000635c f   snmp:query.obj
+ 0001:000053b4       ProcessSet                 100063b4 f   snmp:query.obj
+ 0001:000054e4       ProcessGet                 100064e4 f   snmp:query.obj
+ 0001:00005560       ProcessGetBulk             10006560 f   snmp:query.obj
+ 0001:00005600       ProcessQueries             10006600 f   snmp:query.obj
+ 0001:00005648       UpdateSupportedRegion      10006648 f   snmp:regions.obj
+ 0001:00005684       AllocRLE                   10006684 f   snmp:regions.obj
+ 0001:000056b8       UnloadRegions              100066b8 f   snmp:regions.obj
+ 0001:00005718       FindSupportedRegion        10006718 f   snmp:regions.obj
+ 0001:000057b0       UnloadSupportedRegions     100067b0 f   snmp:regions.obj
+ 0001:000057bc       SplitSupportedRegion       100067bc f   snmp:regions.obj
+ 0001:00005bb4       InsertSupportedRegion      10006bb4 f   snmp:regions.obj
+ 0001:00005c7c       AddSupportedRegion         10006c7c f   snmp:regions.obj
+ 0001:00005d80       LoadSupportedRegions       10006d80 f   snmp:regions.obj
+ 0001:00005dd8       FindSubagent               10006dd8 f   snmp:subagnts.obj
+ 0001:00005e30       AddSubagentRegion          10006e30 f   snmp:subagnts.obj
+ 0001:00005ed0       AddEntryToSysORTable       10006ed0 f   snmp:subagnts.obj
+ 0001:00006018       DestorySysORTable          10007018 f   snmp:subagnts.obj
+ 0001:00006090       InitSysORTable             10007090 f   snmp:subagnts.obj
+ 0001:00006108       LoadSubagentRegions        10007108 f   snmp:subagnts.obj
+ 0001:0000621c       LoadSubagent               1000721c f   snmp:subagnts.obj
+ 0001:0000630c       FreeSLE                    1000730c f   snmp:subagnts.obj
+ 0001:00006394       UnloadSubagents            10007394 f   snmp:subagnts.obj
+ 0001:000063f8       AllocSLE                   100073f8 f   snmp:subagnts.obj
+ 0001:0000647c       AddSubagentByDll           1000747c f   snmp:subagnts.obj
+ 0001:00006510       AddSubagentByKey           10007510 f   snmp:subagnts.obj
+ 0001:00006618       LoadSubagents              10007618 f   snmp:subagnts.obj
+ 0001:00006708       FindTrapDestination        10007708 f   snmp:trapmgrs.obj
+ 0001:00006760       FindManagerInGlobalList    10007760 f   snmp:trapmgrs.obj
+ 0001:000067f8       UnloadTrapDestinations     100077f8 f   snmp:trapmgrs.obj
+ 0001:0000685c       LoadTrapVersions           1000785c f   snmp:trapmgrs.obj
+ 0001:00006a24       AllocTLE                   10007a24 f   snmp:trapmgrs.obj
+ 0001:00006aac       AddTrapDestination         10007aac f   snmp:trapmgrs.obj
+ 0001:00006bf0       LoadTrapDestinations       10007bf0 f   snmp:trapmgrs.obj
+ 0001:00006ce0       WSAStartup                 10007ce0 f   ws2:WS2.dll
+ 0001:00006cf0       WSACleanup                 10007cf0 f   ws2:WS2.dll
+ 0001:00006d00       gethostbyname              10007d00 f   ws2:WS2.dll
+ 0001:00006d10       gethostname                10007d10 f   ws2:WS2.dll
+ 0001:00006d20       sendto                     10007d20 f   ws2:WS2.dll
+ 0001:00006d30       WSAIoctl                   10007d30 f   ws2:WS2.dll
+ 0001:00006d40       recvfrom                   10007d40 f   ws2:WS2.dll
+ 0001:00006d50       closesocket                10007d50 f   ws2:WS2.dll
+ 0001:00006d60       bind                       10007d60 f   ws2:WS2.dll
+ 0001:00006d70       socket                     10007d70 f   ws2:WS2.dll
+ 0001:00006d80       htons                      10007d80 f   ws2:WS2.dll
+ 0001:00006d90       inet_addr                  10007d90 f   ws2:WS2.dll
+ 0001:00006da0       SnmpUtilMemAlloc           10007da0 f   snmpapi:snmpapi.dll
+ 0001:00006db0       SnmpSvcInitUptime          10007db0 f   snmpapi:snmpapi.dll
+ 0001:00006dc0       SnmpSvcGetUptime           10007dc0 f   snmpapi:snmpapi.dll
+ 0001:00006dd0       SnmpSvcGetEnterpriseOID    10007dd0 f   snmpapi:snmpapi.dll
+ 0001:00006de0       SnmpUtilVarBindListFree    10007de0 f   snmpapi:snmpapi.dll
+ 0001:00006df0       SnmpUtilOctetsFree         10007df0 f   snmpapi:snmpapi.dll
+ 0001:00006e00       SnmpUtilMemFree            10007e00 f   snmpapi:snmpapi.dll
+ 0001:00006e10       SnmpUtilOidFree            10007e10 f   snmpapi:snmpapi.dll
+ 0001:00006e20       SnmpUtilMemReAlloc         10007e20 f   snmpapi:snmpapi.dll
+ 0001:00006e30       SnmpUtilOctetsCpy          10007e30 f   snmpapi:snmpapi.dll
+ 0001:00006e40       SnmpUtilOctetsCmp          10007e40 f   snmpapi:snmpapi.dll
+ 0001:00006e50       SnmpUtilVarBindCpy         10007e50 f   snmpapi:snmpapi.dll
+ 0001:00006e60       SnmpUtilVarBindFree        10007e60 f   snmpapi:snmpapi.dll
+ 0001:00006e70       SnmpUtilAsnAnyCpy          10007e70 f   snmpapi:snmpapi.dll
+ 0001:00006e80       SnmpUtilOidCpy             10007e80 f   snmpapi:snmpapi.dll
+ 0001:00006e90       SnmpUtilOidCmp             10007e90 f   snmpapi:snmpapi.dll
+ 0001:00006ea0       SnmpUtilOidNCmp            10007ea0 f   snmpapi:snmpapi.dll
+ 0001:00006eb0       EventModify                10007eb0 f   coredll:COREDLL.dll
+ 0001:00006ec0       CreateThread               10007ec0 f   coredll:COREDLL.dll
+ 0001:00006ed0       CreateEventW               10007ed0 f   coredll:COREDLL.dll
+ 0001:00006ee0       CloseHandle                10007ee0 f   coredll:COREDLL.dll
+ 0001:00006ef0       WaitForSingleObject        10007ef0 f   coredll:COREDLL.dll
+ 0001:00006f00       SetLastError               10007f00 f   coredll:COREDLL.dll
+ 0001:00006f10       DisableThreadLibraryCalls  10007f10 f   coredll:COREDLL.dll
+ 0001:00006f20       Sleep                      10007f20 f   coredll:COREDLL.dll
+ 0001:00006f30       WaitForMultipleObjects     10007f30 f   coredll:COREDLL.dll
+ 0001:00006f40       GetLastError               10007f40 f   coredll:COREDLL.dll
+ 0001:00006f50       RegCloseKey                10007f50 f   coredll:COREDLL.dll
+ 0001:00006f60       RegQueryValueExW           10007f60 f   coredll:COREDLL.dll
+ 0001:00006f70       RegOpenKeyExW              10007f70 f   coredll:COREDLL.dll
+ 0001:00006f80       HeapCreate                 10007f80 f   coredll:COREDLL.dll
+ 0001:00006f90       HeapDestroy                10007f90 f   coredll:COREDLL.dll
+ 0001:00006fa0       HeapAlloc                  10007fa0 f   coredll:COREDLL.dll
+ 0001:00006fb0       HeapFree                   10007fb0 f   coredll:COREDLL.dll
+ 0001:00006fc0       GetTickCount               10007fc0 f   coredll:COREDLL.dll
+ 0001:00006fd0       WideCharToMultiByte        10007fd0 f   coredll:COREDLL.dll
+ 0001:00006fe0       RegEnumValueW              10007fe0 f   coredll:COREDLL.dll
+ 0001:00006ff0       lstrcmpW                   10007ff0 f   coredll:COREDLL.dll
+ 0001:00007000       GetProcAddressW            10008000 f   coredll:COREDLL.dll
+ 0001:00007010       LoadLibraryW               10008010 f   coredll:COREDLL.dll
+ 0001:00007020       FreeLibrary                10008020 f   coredll:COREDLL.dll
+ 0001:00007030       lstrcmpiW                  10008030 f   coredll:COREDLL.dll
+ 0001:00007040       RegEnumKeyExW              10008040 f   coredll:COREDLL.dll
+ 0001:00007050       _DllEntryCRTStartup        10008050 f   corelib0:pegdentry.obj
+ 0001:00007094       __GSHandlerCheckCommon     10008094 f   corelib0:gshandler.obj
+ 0001:000070d0       __GSHandlerCheck           100080d0 f   corelib0:gshandler.obj
+ 0001:000070f0       __security_init_cookie     100080f0 f   corelib0:seccinit.obj
+ 0001:0000713c       __security_check_cookie    1000813c f   corelib0:armsecgs.obj
+ 0001:0000714c       __gsfailure                1000814c     corelib0:armsecgs.obj
+ 0001:00007278       _cexit                     10008278 f   corelib0:cexit.obj
+ 0001:00007288       _initterm                  10008288 f   corelib0:crt0dat.obj
+ 0001:000072b4       _cinit                     100082b4 f   corelib0:crt0dat.obj
+ 0001:00007314       __crt_ExitProcess          10008314 f   corelib0:exitproc_proxy.obj
+ 0001:00007320       __C_specific_handler       10008320 f   corelib1:COREDLL.dll
+ 0001:00007330       memcpy                     10008330 f   corelib1:COREDLL.dll
+ 0001:00007340       memcmp                     10008340 f   corelib1:COREDLL.dll
+ 0001:00007350       strlen                     10008350 f   corelib1:COREDLL.dll
+ 0001:00007360       strcmp                     10008360 f   corelib1:COREDLL.dll
+ 0001:00007370       strcpy                     10008370 f   corelib1:COREDLL.dll
+ 0001:00007380       wcslen                     10008380 f   corelib1:COREDLL.dll
+ 0001:00007390       memset                     10008390 f   corelib1:COREDLL.dll
+ 0001:000073a0       wcscpy                     100083a0 f   corelib1:COREDLL.dll
+ 0001:000073b0       wcscmp                     100083b0 f   corelib1:COREDLL.dll
+ 0001:000073c0       __security_gen_cookie2     100083c0 f   corelib1:COREDLL.dll
+ 0001:000073d0       __report_gsfailure         100083d0 f   corelib1:COREDLL.dll
+ 0001:000073e0       free                       100083e0 f   corelib1:COREDLL.dll
+ 0001:000073f0       DeleteCriticalSection      100083f0 f   coredll:COREDLL.dll
+ 0001:00007400       InterlockedExchange        10008400 f   coredll:COREDLL.dll
+ 0001:00007410       TerminateProcess           10008410 f   coredll:COREDLL.dll
+ 0001:000074d8       __IMPORT_DESCRIPTOR_WS2    100084d8     ws2:WS2.dll
+ 0001:000074ec       __IMPORT_DESCRIPTOR_snmpapi 100084ec     snmpapi:snmpapi.dll
+ 0001:00007500       __IMPORT_DESCRIPTOR_COREDLL 10008500     coredll:COREDLL.dll
+ 0001:00007514       __NULL_IMPORT_DESCRIPTOR   10008514     ws2:WS2.dll
+ 0002:00000000       __imp_GetLastError         10009000     coredll:COREDLL.dll
+ 0002:00000004       __imp_TerminateProcess     10009004     coredll:COREDLL.dll
+ 0002:00000008       __imp_InterlockedExchange  10009008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_DeleteCriticalSection 1000900c     coredll:COREDLL.dll
+ 0002:00000010       __imp_free                 10009010     corelib1:COREDLL.dll
+ 0002:00000014       __imp___report_gsfailure   10009014     corelib1:COREDLL.dll
+ 0002:00000018       __imp___security_gen_cookie2 10009018     corelib1:COREDLL.dll
+ 0002:0000001c       __imp_wcscmp               1000901c     corelib1:COREDLL.dll
+ 0002:00000020       __imp_wcscpy               10009020     corelib1:COREDLL.dll
+ 0002:00000024       __imp_memset               10009024     corelib1:COREDLL.dll
+ 0002:00000028       __imp_wcslen               10009028     corelib1:COREDLL.dll
+ 0002:0000002c       __imp_strcpy               1000902c     corelib1:COREDLL.dll
+ 0002:00000030       __imp_strcmp               10009030     corelib1:COREDLL.dll
+ 0002:00000034       __imp_strlen               10009034     corelib1:COREDLL.dll
+ 0002:00000038       __imp_memcmp               10009038     corelib1:COREDLL.dll
+ 0002:0000003c       __imp_memcpy               1000903c     corelib1:COREDLL.dll
+ 0002:00000040       __imp___C_specific_handler 10009040     corelib1:COREDLL.dll
+ 0002:00000044       __imp_RegEnumKeyExW        10009044     coredll:COREDLL.dll
+ 0002:00000048       __imp_lstrcmpiW            10009048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_FreeLibrary          1000904c     coredll:COREDLL.dll
+ 0002:00000050       __imp_LoadLibraryW         10009050     coredll:COREDLL.dll
+ 0002:00000054       __imp_GetProcAddressW      10009054     coredll:COREDLL.dll
+ 0002:00000058       __imp_lstrcmpW             10009058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_RegEnumValueW        1000905c     coredll:COREDLL.dll
+ 0002:00000060       __imp_EventModify          10009060     coredll:COREDLL.dll
+ 0002:00000064       __imp_CreateThread         10009064     coredll:COREDLL.dll
+ 0002:00000068       __imp_CreateEventW         10009068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_CloseHandle          1000906c     coredll:COREDLL.dll
+ 0002:00000070       __imp_WaitForSingleObject  10009070     coredll:COREDLL.dll
+ 0002:00000074       __imp_SetLastError         10009074     coredll:COREDLL.dll
+ 0002:00000078       __imp_DisableThreadLibraryCalls 10009078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_Sleep                1000907c     coredll:COREDLL.dll
+ 0002:00000080       __imp_WaitForMultipleObjects 10009080     coredll:COREDLL.dll
+ 0002:00000084       __imp_RegCloseKey          10009084     coredll:COREDLL.dll
+ 0002:00000088       __imp_RegQueryValueExW     10009088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_RegOpenKeyExW        1000908c     coredll:COREDLL.dll
+ 0002:00000090       __imp_HeapCreate           10009090     coredll:COREDLL.dll
+ 0002:00000094       __imp_HeapDestroy          10009094     coredll:COREDLL.dll
+ 0002:00000098       __imp_HeapAlloc            10009098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_HeapFree             1000909c     coredll:COREDLL.dll
+ 0002:000000a0       __imp_GetTickCount         100090a0     coredll:COREDLL.dll
+ 0002:000000a4       __imp_WideCharToMultiByte  100090a4     coredll:COREDLL.dll
+ 0002:000000a8       \177COREDLL_NULL_THUNK_DATA 100090a8     coredll:COREDLL.dll
+ 0002:000000ac       __imp_WSAStartup           100090ac     ws2:WS2.dll
+ 0002:000000b0       __imp_gethostbyname        100090b0     ws2:WS2.dll
+ 0002:000000b4       __imp_gethostname          100090b4     ws2:WS2.dll
+ 0002:000000b8       __imp_sendto               100090b8     ws2:WS2.dll
+ 0002:000000bc       __imp_WSAIoctl             100090bc     ws2:WS2.dll
+ 0002:000000c0       __imp_recvfrom             100090c0     ws2:WS2.dll
+ 0002:000000c4       __imp_closesocket          100090c4     ws2:WS2.dll
+ 0002:000000c8       __imp_bind                 100090c8     ws2:WS2.dll
+ 0002:000000cc       __imp_socket               100090cc     ws2:WS2.dll
+ 0002:000000d0       __imp_htons                100090d0     ws2:WS2.dll
+ 0002:000000d4       __imp_inet_addr            100090d4     ws2:WS2.dll
+ 0002:000000d8       __imp_WSACleanup           100090d8     ws2:WS2.dll
+ 0002:000000dc       \177WS2_NULL_THUNK_DATA    100090dc     ws2:WS2.dll
+ 0002:000000e0       __imp_SnmpUtilVarBindListFree 100090e0     snmpapi:snmpapi.dll
+ 0002:000000e4       __imp_SnmpSvcGetEnterpriseOID 100090e4     snmpapi:snmpapi.dll
+ 0002:000000e8       __imp_SnmpUtilOctetsFree   100090e8     snmpapi:snmpapi.dll
+ 0002:000000ec       __imp_SnmpSvcInitUptime    100090ec     snmpapi:snmpapi.dll
+ 0002:000000f0       __imp_SnmpUtilMemAlloc     100090f0     snmpapi:snmpapi.dll
+ 0002:000000f4       __imp_SnmpUtilMemFree      100090f4     snmpapi:snmpapi.dll
+ 0002:000000f8       __imp_SnmpUtilOidFree      100090f8     snmpapi:snmpapi.dll
+ 0002:000000fc       __imp_SnmpUtilMemReAlloc   100090fc     snmpapi:snmpapi.dll
+ 0002:00000100       __imp_SnmpUtilOctetsCpy    10009100     snmpapi:snmpapi.dll
+ 0002:00000104       __imp_SnmpUtilOctetsCmp    10009104     snmpapi:snmpapi.dll
+ 0002:00000108       __imp_SnmpUtilVarBindCpy   10009108     snmpapi:snmpapi.dll
+ 0002:0000010c       __imp_SnmpUtilVarBindFree  1000910c     snmpapi:snmpapi.dll
+ 0002:00000110       __imp_SnmpUtilAsnAnyCpy    10009110     snmpapi:snmpapi.dll
+ 0002:00000114       __imp_SnmpUtilOidCpy       10009114     snmpapi:snmpapi.dll
+ 0002:00000118       __imp_SnmpUtilOidCmp       10009118     snmpapi:snmpapi.dll
+ 0002:0000011c       __imp_SnmpUtilOidNCmp      1000911c     snmpapi:snmpapi.dll
+ 0002:00000120       __imp_SnmpSvcGetUptime     10009120     snmpapi:snmpapi.dll
+ 0002:00000124       \177snmpapi_NULL_THUNK_DATA 10009124     snmpapi:snmpapi.dll
+ 0002:00000128       g_SnmpSvcStatus            10009128     snmp:service.obj
+ 0002:00000174       g_OIDSnmpTrap              10009174     snmp:globals.obj
+ 0002:000001a8       g_OIDSnmpTrapEnterprise    100091a8     snmp:globals.obj
+ 0002:000001d4       g_OIDSysUpTime             100091d4     snmp:globals.obj
+ 0002:000001e0       g_tszError                 100091e0     snmp:globals.obj
+ 0002:0000022c       s_uTrapPDU                 1000922c     snmp:globals.obj
+ 0002:00000234       g_trapRequestId            10009234     snmp:trapthrd.obj
+ 0002:0000025c       __security_cookie          1000925c     corelib0:seccinit.obj
+ 0002:00000260       __security_cookie_complement 10009260     corelib0:seccinit.obj
+ 0002:00000264       g_hMainThread              10009264     snmp:service.obj
+ 0002:00000268       g_hInstDll                 10009268     snmp:service.obj
+ 0002:0000026c       g_hTerminationEvent        1000926c     snmp:globals.obj
+ 0002:00000270       g_hResetEvent              10009270     snmp:globals.obj
+ 0002:00000274       g_hResetCompleteEvent      10009274     snmp:globals.obj
+ 0002:00000278       g_iTrapVersion             10009278     snmp:globals.obj
+ 0002:0000027c       g_Subagents                1000927c     snmp:globals.obj
+ 0002:00000284       g_SupportedRegions         10009284     snmp:globals.obj
+ 0002:0000028c       g_ValidCommunities         1000928c     snmp:globals.obj
+ 0002:00000294       g_TrapDestinations         10009294     snmp:globals.obj
+ 0002:0000029c       g_PermittedManagers        1000929c     snmp:globals.obj
+ 0002:000002a4       g_IncomingTransports       100092a4     snmp:globals.obj
+ 0002:000002ac       g_OutgoingTransports       100092ac     snmp:globals.obj
+ 0002:000002b4       g_hAgentThread             100092b4     snmp:startup.obj
+ 0002:000002c0       g_nTransactionId           100092c0     snmp:snmpthrd.obj
+ 0002:000002c4       g_hAgentHeap               100092c4     snmp:mem.obj
+ 0002:000002c8       _exitflag                  100092c8     corelib0:cexit.obj
+ 0002:000002cc       g_dwPDUBufferLength        100092cc     <common>
+ 0002:000002d0       g_pSnmpInfo                100092d0     <common>
+ 0002:000002d4       g_pSysORInfo               100092d4     <common>
+ 0002:000002d8       __onexitend                100092d8     <common>
+ 0002:000002dc       __onexitbegin              100092dc     <common>
+ 0002:000002e0       g_pcsExit                  100092e0     <common>
+
+ entry point at        0001:00007050
+
+ Static symbols
+
+ 0001:00007190       doexit                     10008190 f   corelib0:cexit.obj

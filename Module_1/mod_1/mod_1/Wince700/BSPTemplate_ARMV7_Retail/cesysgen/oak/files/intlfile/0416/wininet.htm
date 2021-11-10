@@ -1,0 +1,92 @@
+<!--
+Copyright (c) Microsoft Corporation.  All rights reserved.
+-->
+<!--
+Use of this sample source code is subject to the terms of the Microsoft
+license agreement under which you licensed this sample source code. If
+you did not accept the terms of the license agreement, you are not
+authorized to use this sample source code. For the terms of the license,
+please see the license agreement between you and Microsoft or, if applicable,
+see the LICENSE.RTF on your install media or the root of your tools installation.
+THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+-->
+<html>
+<body>
+ 
+<!-- Main topic --> <a name="certificate_intro"></a> <h2>Visão geral dos certificados</h2>
+
+<p>Um certificado é um comprovante digital com informações sobre o dispositivo que apresenta o comprovante. Por exemplo, um dispositivo como um servidor da Web pode ter um certificado contendo informações relativas a ele. Os certificados válidos são assinados por uma autoridade de certificação e incluem informações sobre quem autorizou o certificado, as chaves públicas e a data de expiração. </p>
+
+<p>Quando você está conectado à Internet, é importante confiar na certificação dos sites da Web que visita. Os sites da Web que não são confiáveis ou que não estão devidamente certificados são potencialmente prejudiciais às informações armazenadas em seu dispositivo. Em caso de dúvida, verifique o certificado do servidor da Web a partir de seu dispositivo e decida se visitará ou não esse site. </p>
+
+<p>Os recursos de segurança e de privacidade em seu dispositivo ajudam a proteger a sua privacidade e garantem a segurança das informações pessoais. Esses recursos de privacidade permitem proteger as informações de identificação pessoal. Os recursos ajudam no controle de como os sites da Web que você visita poderão utilizar suas informações. Com os controles de privacidade em seu dispositivo, também é possível especificar as configurações de privacidade que determinam as informações que serão compartilhadas e as que poderão ser salvas em seu dispositivo quando você visita um site da Web.</p>
+
+ 
+<!-- Sub topic --> <a name="certificates"></a> <h2>Certificados de cliente</h2>
+
+<p>Um certificado do cliente é uma declaração digital que comprova a identidade de um usuário ou dispositivo, por exemplo, um computador pessoal. Os certificados de cliente são emitidos para estabelecer a identidade e para proporcionar um nível de autenticação e segurança para as informações trocadas por meio de uma variedade de dispositivos. Alguns sites da Web exigem a identificação com certificados de cliente. Quando você envia um certificado de cliente a outro computador, está usando chaves públicas e particulares que permitirão o compartilhamento de dados com esse dispositivo de forma segura. As chaves públicas e particulares ajudam também a impedir o acesso de usuários não autorizados ao seu dispositivo e às informações nele contidas.</p>
+
+<p>A lista a seguir mostra as informações contidas nos certificados:</p>
+
+
+<ul>
+<li>O valor da chave pública e as informações do identificador do assunto</li>
+<li>As informações do identificador do emissor</li>
+<li>O período da validade</li>
+<li>A assinatura digital do emissor</li>
+</ul>
+
+<p>O assunto é a entidade que recebe o certificado; o emissor do certificado é a autoridade de certificação.</p>
+
+<h3>Certificados pessoal e raiz</h3>
+
+<p>Você pode armazenar dois tipos de certificado em seu dispositivo: certificados pessoais, que determinam a sua identidade, e os certificados raiz, que determinam a identidade dos servidores da Web. Por exemplo, quando você envia informações pessoais pela Internet, um certificado pessoal faz a autenticação com o site da Web e o certificado raiz ajuda a proteger as informações pessoais durante a sua visita.</p>
+
+ 
+<!-- Sub topic --> <a name="privacy"></a> <h2>Visão geral da privacidade</h2>
+
+<p>Com os recursos de privacidade em seu dispositivo, é possível proteger as informações de identificação pessoal. Além disso, eles ajudam a controlar como os sites da Web utilizarão essas informações. Esses recursos permitem que você especifique configurações de privacidade que determinam se os sites da Web poderão ou não salvar informações, como cookies, em seu computador pessoal. </p>
+
+<h3>Cookies</h3>
+
+<p>Sempre que você visita um site da Web, ele armazena um pequeno arquivo chamado cookie em seu computador pessoal. Os cookies são criados pelo site da Web para armazenar informações, como as suas preferências ao visitar esse site. Alguns cookies contêm um registro das páginas da Web visualizadas no site visitado para ajudar o site a personalizar a exibição durante a próxima visita. </p>
+
+<p>Além disso, eles podem armazenar informações de identificação pessoal, como o seu nome, o endereço de email, o endereço ou o número de telefone residencial ou comercial. No entanto, um site da Web tem acesso apenas às informações de identificação pessoal fornecidas por você.</p>
+
+<p>A lista a seguir mostra os recursos de privacidade em seu dispositivo:</p>
+
+<ul>
+<li>Configurações de privacidade que especificam como o computador tratará os cookies</li> 
+<li>Alertas de privacidade que informam quando você tenta acessar um site que não atende aos critérios das configurações de privacidade</li> 
+<li>A capacidade de visualizar a política de privacidade P3P do site da Web</li>
+</ul>
+
+<p>Você pode usar os recursos de privacidade em seu dispositivo para limitar o uso de cookies. No entanto, como muitos aplicativos dependem das informações contidas em cookies, a desabilitação de todos os cookies nem sempre é a melhor solução. </p>
+
+<h3>Conteúdo principal e de terceiros</h3>
+
+<p>O conteúdo principal contém informações associadas ao domínio do host ou ao site da Web que você está visitando. O conteúdo de terceiros é originado de qualquer outro domínio. Por exemplo, quando você visita um site da Web que contém um anúncio de faixa, o site é considerado o conteúdo principal e o anúncio um conteúdo de terceiros.</p>
+
+<p>Muitas páginas comerciais da Web usam uma combinação de cookies principal e de terceiros para coletar e retransmitir dados pertinentes a essas páginas. Os recursos de privacidade em seu dispositivo fazem distinção entre conteúdo principal e de terceiros e estabelecem uma relação diferente com cada tipo de conteúdo. Na realidade, as configurações de privacidade padrão para conteúdo de terceiros são mais restritas do que para os principais. As configurações de privacidade no dispositivo baseado em Windows Embedded Compact permitem que você desabilite cookies de terceiros e habilite cookies de conteúdos principais ou solicitam que você os habilite ou desabilite.</p>
+
+
+<!-- Sub topic --> <a name="security"></a> <h2>Visão geral da segurança</h2>
+
+<p>Os recursos de segurança em seu dispositivo ajudam a impedir que pessoas sem permissão de acesso consigam acesso às informações sobre cartão de crédito, por exemplo, que você fornece ao fazer compras na Internet. Esses recursos também ajudam a proteger o computador pessoal ou o dispositivo sem fio contra softwares duvidosos.</p>
+
+<p>Além disso, você pode navegar com segurança sempre que visitar um site da Web que utiliza o HTTPS (Hypertext Transfer Protocol via Secure Socket Layer). O HTTPS é um protocolo de comunicação da Web que criptografa dados enviados por meio dessa conexão que utiliza o HTTPS. Os dados criptografados com o HTTPS não podem ser interceptados e reconhecidos por um terceiro.</p>
+
+
+<h3>Alertas de segurança</h3>
+
+<p>Os alertas de segurança podem aparecer pelos seguintes motivos:</p>
+
+<ul>
+<li>O servidor da Web ao qual está se conectando contém um certificado de servidor inválido </li>
+<li>O servidor da Web ao qual está se conectando contém segurança mista (dados seguros e não seguros)</li>
+<li>Você está saindo de uma conexão segura</li>
+</ul>
+
+
+</body>
+</html>

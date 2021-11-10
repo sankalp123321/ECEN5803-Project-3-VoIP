@@ -1,0 +1,383 @@
+ ceperf_module
+
+ Timestamp is 5ac64c6c (Thu Apr 05 09:18:52 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 00000ed0H .rdata                  CODE
+ 0001:00000ef0 0000002aH .rdata$debug            CODE
+ 0001:00000f1c 00007f18H .text                   CODE
+ 0001:00008e34 00000144H .xdata                  CODE
+ 0001:00008f78 00000014H .idata$2                CODE
+ 0001:00008f8c 00000014H .idata$3                CODE
+ 0001:00008fa0 00000108H .idata$4                CODE
+ 0001:000090a8 0000000cH .idata$6                CODE
+ 0001:000090c0 00000237H .edata                  CODE
+ 0002:00000000 00000108H .idata$5                DATA
+ 0002:00000108 0000002cH .data                   DATA
+ 0002:00000140 00000278H .bss                    DATA
+ 0003:00000000 00000468H .pdata                  DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000060H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:00000040       ??_C@_1LM@DAJLCGKN@?$AA?$AN?$AA?6?$AAS?$AAe?$AAs?$AAs?$AAi?$AAo?$AAn?$AA?5?$AAN?$AAa?$AAm?$AAe?$AA?0?$AAI?$AAt?$AAe?$AAm?$AA?5?$AAN?$AAa?$AAm?$AAe?$AA?0?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt@ 10001040     ceperf_module_lib:statistic.obj
+ 0001:00000100       ??_C@_1GE@GJCIKJAH@?$AA?7?$AAh?$AAL?$AAo?$AAc?$AAa?$AAl?$AAS?$AAt?$AAa?$AAt?$AA?$DN?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAx?$AA?0?$AA?5?$AAd?$AAw?$AAR?$AAe?$AAc?$AAo?$AAr?$AAd?$AAi?$AAn?$AAg?$AAF@ 10001100     ceperf_module_lib:statistic.obj
+ 0001:00000168       ??_C@_1GE@EPIILIEE@?$AA?7?$AAh?$AAS?$AAt?$AAa?$AAt?$AAi?$AAs?$AAt?$AAi?$AAc?$AA?$DN?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAx?$AA?0?$AA?5?$AAd?$AAw?$AAR?$AAe?$AAc?$AAo?$AAr?$AAd?$AAi?$AAn?$AAg?$AAF@ 10001168     ceperf_module_lib:statistic.obj
+ 0001:000001cc       ??_C@_1BI@PECPIIJK@?$AAC?$AAh?$AAa?$AAn?$AAg?$AAe?$AAC?$AAo?$AAu?$AAn?$AAt?$AA?$AA@ 100011cc     ceperf_module_lib:statistic.obj
+ 0001:000001e4       ??_C@_1BE@GIIACEHH@?$AAC?$AAh?$AAa?$AAn?$AAg?$AAe?$AAS?$AAu?$AAm?$AA?$AA@ 100011e4     ceperf_module_lib:statistic.obj
+ 0001:000001f8       ??_C@_1BE@PODBOAEO@?$AAC?$AAh?$AAa?$AAn?$AAg?$AAe?$AAM?$AAa?$AAx?$AA?$AA@ 100011f8     ceperf_module_lib:statistic.obj
+ 0001:0000020c       ??_C@_1BE@GHBAGKGA@?$AAC?$AAh?$AAa?$AAn?$AAg?$AAe?$AAM?$AAi?$AAn?$AA?$AA@ 1000120c     ceperf_module_lib:statistic.obj
+ 0001:00000220       ??_C@_1BK@FFPBFCAF@?$AAC?$AAh?$AAa?$AAn?$AAg?$AAe?$AAS?$AAt?$AAd?$AAD?$AAe?$AAv?$AA?$AA@ 10001220     ceperf_module_lib:statistic.obj
+ 0001:0000023c       ??_C@_1O@LDDKINBD@?$AA?$CF?$AA0?$AA2?$AAx?$AA?$AN?$AA?6?$AA?$AA@ 1000123c     ceperf_module_lib:statistic.obj
+ 0001:0000024c       ??_C@_1O@LOCEPNFE@?$AA?$CF?$AA0?$AA4?$AAx?$AA?$AN?$AA?6?$AA?$AA@ 1000124c     ceperf_module_lib:statistic.obj
+ 0001:0000025c       ??_C@_1O@KEBIBNNK@?$AA?$CF?$AA0?$AA8?$AAx?$AA?$AN?$AA?6?$AA?$AA@ 1000125c     ceperf_module_lib:statistic.obj
+ 0001:0000026c       ??_C@_1BI@EPBIBPBI@?$AA?$CF?$AA0?$AA8?$AAx?$AA?5?$AA?$CF?$AA0?$AA8?$AAx?$AA?$AN?$AA?6?$AA?$AA@ 1000126c     ceperf_module_lib:statistic.obj
+ 0001:00000284       ??_C@_1BG@MIAKDLFG@?$AA?7?$AA?7?$AAv?$AAa?$AAl?$AAu?$AAe?$AA?$DN?$AA0?$AAx?$AA?$AA@ 10001284     ceperf_module_lib:statistic.obj
+ 0001:0000029c       ??_C@_1DK@HLLJKGIM@?$AA?7?$AAh?$AAL?$AAo?$AAc?$AAa?$AAl?$AAS?$AAt?$AAa?$AAt?$AA?$DN?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAx?$AA?0?$AA?5?$AAv?$AAa?$AAl?$AAu?$AAe?$AA?$DN?$AA0?$AAx?$AA?$AA@ 1000129c     ceperf_module_lib:statistic.obj
+ 0001:000002d8       ??_C@_1KO@OONILOM@?$AA?7?$AA?7?$AAC?$AAh?$AAa?$AAn?$AAg?$AAe?$AAs?$AA?3?$AA?5?$AA?5?$AA?5?$AAC?$AAo?$AAu?$AAn?$AAt?$AA?$DN?$AA?$CF?$AAu?$AA?0?$AA?5?$AAM?$AAi?$AAn?$AA?$DN?$AA?$CF?$AAI?$AA6?$AA4?$AAu@ 100012d8     ceperf_module_lib:statistic.obj
+ 0001:00000388       ??_C@_1DA@HGLBFNCB@?$AA?7?$AA?7?$AAu?$AAl?$AAV?$AAa?$AAl?$AAu?$AAe?$AA?$DN?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAx?$AA?5?$AA?$CF?$AA0?$AA8?$AAx?$AA?$AN?$AA?6?$AA?$AA@ 10001388     ceperf_module_lib:statistic.obj
+ 0001:000003b8       ??_C@_1FE@MDEEMLKD@?$AA?7?$AAh?$AAS?$AAt?$AAa?$AAt?$AAi?$AAs?$AAt?$AAi?$AAc?$AA?$DN?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAx?$AA?0?$AA?5?$AAu?$AAl?$AAV?$AAa?$AAl?$AAu?$AAe?$AA?$DN?$AA0?$AAx?$AA?$CF?$AA0@ 100013b8     ceperf_module_lib:statistic.obj
+ 0001:0000040c       ??_C@_15JNBOKNOG@?$AA?$AN?$AA?6?$AA?$AA@ 1000140c     ceperf_module_lib:statistic.obj
+ 0001:00000414       ??_C@_13DEFPDAGF@?$AA?0?$AA?$AA@ 10001414     ceperf_module_lib:statistic.obj
+ 0001:00000418       ??_C@_17DPIEJDKE@?$AA?0?$AA?$CF?$AAu?$AA?$AA@ 10001418     ceperf_module_lib:statistic.obj
+ 0001:00000420       ??_C@_17BKOPMMHI@?$AA?0?$AA?$CF?$AAs?$AA?$AA@ 10001420     ceperf_module_lib:statistic.obj
+ 0001:00000428       ??_C@_1CA@GBFHCDOL@?$AAT?$AAh?$AAr?$AAd?$AAT?$AAr?$AAa?$AAc?$AAk?$AAe?$AAr?$AAI?$AAn?$AAi?$AAt?$AA?$AA@ 10001428     ceperf_module_lib:duration.obj
+ 0001:00000448       ??_C@_1BK@HPIDBAFF@?$AAt?$AAt?$AAr?$AAa?$AAc?$AAk?$AAe?$AAr?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10001448     ceperf_module_lib:duration.obj
+ 0001:00000464       ??_C@_1BM@BPOCJCFO@?$AA?4?$AAt?$AAt?$AAr?$AAa?$AAc?$AAk?$AAe?$AAr?$AA?4?$AAt?$AAx?$AAt?$AA?$AA@ 10001464     ceperf_module_lib:duration.obj
+ 0001:00000480       ??_C@_1JO@FECMNNAA@?$AA?0?$AAM?$AAi?$AAn?$AA?5?$AAC?$AAP?$AAU?$AA?$CF?$AA0?$AA2?$AAu?$AA?5?$AAD?$AAe?$AAl?$AAt?$AAa?$AA?0?$AAM?$AAa?$AAx?$AA?5?$AAC?$AAP?$AAU?$AA?$CF?$AA0?$AA2?$AAu?$AA?5?$AAD@ 10001480     ceperf_module_lib:duration.obj
+ 0001:00000520       ??_C@_1DDG@ICDDPII@?$AA?$AN?$AA?6?$AAS?$AAe?$AAs?$AAs?$AAi?$AAo?$AAn?$AA?5?$AAN?$AAa?$AAm?$AAe?$AA?0?$AAI?$AAt?$AAe?$AAm?$AA?5?$AAN?$AAa?$AAm?$AAe?$AA?0?$AAN?$AAu?$AAm?$AAb?$AAe?$AAr?$AA?5@ 10001520     ceperf_module_lib:duration.obj
+ 0001:00000858       ??_C@_1GE@EMAINCIN@?$AA?7?$AAh?$AAD?$AAu?$AAr?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$DN?$AA?5?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAx?$AA?0?$AA?5?$AAd?$AAw?$AAR?$AAe?$AAc?$AAo?$AAr?$AAd?$AAi?$AAn?$AAg?$AAF@ 10001858     ceperf_module_lib:duration.obj
+ 0001:000008bc       __real@4024000000000000    100018bc     ceperf_module_lib:duration.obj
+ 0001:000008c4       ??_C@_1BG@GGMCMFCF@?$AAC?$AAP?$AAU?$AA?$CF?$AA0?$AA2?$AAu?$AAS?$AAu?$AAm?$AA?$AA@ 100018c4     ceperf_module_lib:duration.obj
+ 0001:000008dc       ??_C@_1BG@GJFCILDC@?$AAC?$AAP?$AAU?$AA?$CF?$AA0?$AA2?$AAu?$AAM?$AAi?$AAn?$AA?$AA@ 100018dc     ceperf_module_lib:duration.obj
+ 0001:000008f4       ??_C@_1BG@PAHDABBM@?$AAC?$AAP?$AAU?$AA?$CF?$AA0?$AA2?$AAu?$AAM?$AAa?$AAx?$AA?$AA@ 100018f4     ceperf_module_lib:duration.obj
+ 0001:0000090c       ??_C@_1BM@DKIAKICK@?$AAC?$AAP?$AAU?$AA?$CF?$AA0?$AA2?$AAu?$AAS?$AAt?$AAd?$AAD?$AAe?$AAv?$AA?$AA@ 1000190c     ceperf_module_lib:duration.obj
+ 0001:00000928       ??_C@_1BK@HFFIGNF@?$AAT?$AAi?$AAc?$AAk?$AAC?$AAo?$AAu?$AAn?$AAt?$AAS?$AAu?$AAm?$AA?$AA@ 10001928     ceperf_module_lib:duration.obj
+ 0001:00000944       ??_C@_1BK@JBOEECOM@?$AAT?$AAi?$AAc?$AAk?$AAC?$AAo?$AAu?$AAn?$AAt?$AAM?$AAa?$AAx?$AA?$AA@ 10001944     ceperf_module_lib:duration.obj
+ 0001:00000960       ??_C@_1BK@IMFMIMC@?$AAT?$AAi?$AAc?$AAk?$AAC?$AAo?$AAu?$AAn?$AAt?$AAM?$AAi?$AAn?$AA?$AA@ 10001960     ceperf_module_lib:duration.obj
+ 0001:0000097c       ??_C@_1CA@FJMDOLKA@?$AAT?$AAi?$AAc?$AAk?$AAC?$AAo?$AAu?$AAn?$AAt?$AAS?$AAt?$AAd?$AAD?$AAe?$AAv?$AA?$AA@ 1000197c     ceperf_module_lib:duration.obj
+ 0001:0000099c       ??_C@_1BM@MBHOMHJE@?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AAT?$AAi?$AAc?$AAk?$AAS?$AAu?$AAm?$AA?$AA@ 1000199c     ceperf_module_lib:duration.obj
+ 0001:000009b8       ??_C@_1BM@FHMPADKN@?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AAT?$AAi?$AAc?$AAk?$AAM?$AAa?$AAx?$AA?$AA@ 100019b8     ceperf_module_lib:duration.obj
+ 0001:000009d4       ??_C@_1BM@MOOOIJID@?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AAT?$AAi?$AAc?$AAk?$AAM?$AAi?$AAn?$AA?$AA@ 100019d4     ceperf_module_lib:duration.obj
+ 0001:000009f0       ??_C@_1CC@BKEFIBFN@?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AAT?$AAi?$AAc?$AAk?$AAS?$AAt?$AAd?$AAD?$AAe?$AAv?$AA?$AA@ 100019f0     ceperf_module_lib:duration.obj
+ 0001:00000a14       ??_C@_1BK@JOEEJKMG@?$AAP?$AAe?$AAr?$AAf?$AAC?$AAo?$AAu?$AAn?$AAt?$AAS?$AAu?$AAm?$AA?$AA@ 10001a14     ceperf_module_lib:duration.obj
+ 0001:00000a30       ??_C@_1BK@IPFFOPP@?$AAP?$AAe?$AAr?$AAf?$AAC?$AAo?$AAu?$AAn?$AAt?$AAM?$AAa?$AAx?$AA?$AA@ 10001a30     ceperf_module_lib:duration.obj
+ 0001:00000a4c       ??_C@_1BK@JBNENENB@?$AAP?$AAe?$AAr?$AAf?$AAC?$AAo?$AAu?$AAn?$AAt?$AAM?$AAi?$AAn?$AA?$AA@ 10001a4c     ceperf_module_lib:duration.obj
+ 0001:00000a68       ??_C@_1CA@GDPGFCJD@?$AAP?$AAe?$AAr?$AAf?$AAC?$AAo?$AAu?$AAn?$AAt?$AAS?$AAt?$AAd?$AAD?$AAe?$AAv?$AA?$AA@ 10001a68     ceperf_module_lib:duration.obj
+ 0001:00000a88       ??_C@_1M@NBCIMFHI@?$AAC?$AAo?$AAu?$AAn?$AAt?$AA?$AA@ 10001a88     ceperf_module_lib:duration.obj
+ 0001:00000a94       ??_C@_1BG@PGAJCJNK@?$AAE?$AAr?$AAr?$AAo?$AAr?$AAC?$AAo?$AAu?$AAn?$AAt?$AA?$AA@ 10001a94     ceperf_module_lib:duration.obj
+ 0001:00000ab0       ??_C@_1JO@JFKONNM@?$AA?7?$AA?7?$AAC?$AAP?$AAU?$AA?$CF?$AA0?$AA2?$AAu?$AA?3?$AA?5?$AA?5?$AA?5?$AA?5?$AA?5?$AAM?$AAi?$AAn?$AA?$DN?$AA?$CF?$AAI?$AA6?$AA4?$AAu?$AA?0?$AA?5?$AAM?$AAa?$AAx?$AA?$DN?$AA?$CF?$AAI@ 10001ab0     ceperf_module_lib:duration.obj
+ 0001:00000b50       ??_C@_1KC@FDBPOLOE@?$AA?7?$AA?7?$AAT?$AAi?$AAc?$AAk?$AAC?$AAo?$AAu?$AAn?$AAt?$AA?$CI?$AAm?$AAs?$AA?$CJ?$AA?3?$AA?5?$AAM?$AAi?$AAn?$AA?$DN?$AA?$CF?$AAI?$AA6?$AA4?$AAu?$AA?0?$AA?5?$AAM?$AAa?$AAx?$AA?$DN@ 10001b50     ceperf_module_lib:duration.obj
+ 0001:00000bf8       ??_C@_1KG@PBEJCHFE@?$AA?7?$AA?7?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AAT?$AAi?$AAc?$AAk?$AAs?$AA?$CI?$AAm?$AAs?$AA?$CJ?$AA?3?$AA?5?$AAM?$AAi?$AAn?$AA?$DN?$AA?$CF?$AAI?$AA6?$AA4?$AAu?$AA?0?$AA?5?$AAM?$AAa@ 10001bf8     ceperf_module_lib:duration.obj
+ 0001:00000ca0       ??_C@_1FI@NPMJIPEN@?$AA?7?$AA?7?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AAT?$AAi?$AAc?$AAk?$AAs?$AA?$CI?$AAm?$AAs?$AA?$CJ?$AA?3?$AA?5?$AAN?$AA?1?$AAA?$AA?5?$AAo?$AAn?$AA?5?$AAs?$AAh?$AAa?$AAr?$AAe?$AAd@ 10001ca0     ceperf_module_lib:duration.obj
+ 0001:00000cf8       ??_C@_1KC@DAFOLOMC@?$AA?7?$AA?7?$AAP?$AAe?$AAr?$AAf?$AAC?$AAo?$AAu?$AAn?$AAt?$AA?$CI?$AAu?$AAs?$AA?$CJ?$AA?3?$AA?5?$AAM?$AAi?$AAn?$AA?$DN?$AA?$CF?$AAI?$AA6?$AA4?$AAu?$AA?0?$AA?5?$AAM?$AAa?$AAx?$AA?$DN@ 10001cf8     ceperf_module_lib:duration.obj
+ 0001:00000d9c       ??_C@_1DI@MKLCGGIK@?$AA?7?$AA?7?$AAC?$AAo?$AAu?$AAn?$AAt?$AA?$DN?$AA?$CF?$AAu?$AA?0?$AA?5?$AAE?$AAr?$AAr?$AAo?$AAr?$AAC?$AAo?$AAu?$AAn?$AAt?$AA?$DN?$AA?$CF?$AAu?$AA?$AN?$AA?6?$AA?$AA@ 10001d9c     ceperf_module_lib:duration.obj
+ 0001:00000dd4       ??_C@_1CK@NIPHNEFD@?$AA?7?$AAh?$AAD?$AAu?$AAr?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$DN?$AA?5?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAx?$AA?$AN?$AA?6?$AA?$AA@ 10001dd4     ceperf_module_lib:duration.obj
+ 0001:00000e00       ??_C@_19HNEHNGAF@?$AA?0?$AA?0?$AA?0?$AA?0?$AA?$AA@ 10001e00     ceperf_module_lib:duration.obj
+ 0001:00000e0c       ??_C@_1BE@KEMIGPFN@?$AA?0?$AA?$CF?$AAs?$AA?0?$AA?$CF?$AAu?$AA?0?$AA?$CF?$AAu?$AA?$AA@ 10001e0c     ceperf_module_lib:duration.obj
+ 0001:00000e20       ??_C@_1CA@GLGNDED@?$AAC?$AAe?$AAP?$AAe?$AAr?$AAf?$AAM?$AAa?$AAs?$AAt?$AAe?$AAr?$AAM?$AAa?$AAp?$AA?$AA@ 10001e20     ceperf_module_lib:session.obj
+ 0001:00000e40       ??_C@_1CE@BCPOJED@?$AAC?$AAe?$AAP?$AAe?$AAr?$AAf?$AAM?$AAa?$AAs?$AAt?$AAe?$AAr?$AAM?$AAu?$AAt?$AAe?$AAx?$AA?$AA@ 10001e40     ceperf_module_lib:session.obj
+ 0001:00000e64       ??_C@_15EFLNJKHH@?$AA?$CF?$AAu?$AA?$AA@ 10001e64     ceperf_module_lib:session.obj
+ 0001:00000e6c       ??_C@_1BM@BHMKCELE@?$AA?$DN?$AA?$CI?$AA?$CF?$AAu?$AA?$CK?$AA?$CI?$AA2?$AA?$FO?$AA3?$AA2?$AA?$CJ?$AA?$CJ?$AA?$CL?$AA?$AA@ 10001e6c     ceperf_module_lib:session.obj
+ 0001:00000e88       ??_C@_1M@HNDAJCAG@?$AA?$CF?$AA?4?$AA1?$AAl?$AAf?$AA?$AA@ 10001e88     ceperf_module_lib:session.obj
+ 0001:00000e94       ??_C@_1BG@CGFMJHKK@?$AA?$CF?$AAs?$AA?2?$AA?$CF?$AAs?$AA?2?$AAD?$AAa?$AAt?$AAa?$AA?$AA@ 10001e94     ceperf_module_lib:session.obj
+ 0001:00000eac       ??_C@_1CG@NDEHGFHL@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAF?$AAl?$AAu?$AAs?$AAh?$AAS?$AAu?$AAb?$AAK?$AAe?$AAy?$AA?$AA@ 10001eac     ceperf_module_lib:ceperf.obj
+ 0001:00000ed4       ??_C@_1BM@JLOEHNFK@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?2?$AAC?$AAe?$AAP?$AAe?$AAr?$AAf?$AA?$AA@ 10001ed4     ceperf_module_lib:ceperf.obj
+ 0001:000010a4       ValidateStatisticDescriptor 100020a4 f   ceperf_module_lib:statistic.obj
+ 0001:00001118       CompareStatisticDescriptor 10002118 f   ceperf_module_lib:statistic.obj
+ 0001:0000114c       InitializeStatisticData    1000214c f   ceperf_module_lib:statistic.obj
+ 0001:00001238       FreeStatisticData          10002238 f   ceperf_module_lib:statistic.obj
+ 0001:000012b0       ReadLocalStatistic         100022b0 f   ceperf_module_lib:statistic.obj
+ 0001:00001330       FreeUnusedStatisticPages   10002330 f   ceperf_module_lib:statistic.obj
+ 0001:00001354       StatisticFlushBegin        10002354 f   ceperf_module_lib:statistic.obj
+ 0001:00001bac       Walk_FlushStatistic        10002bac f   ceperf_module_lib:statistic.obj
+ 0001:00001e04       CePerf_AddStatistic        10002e04 f   ceperf_module_lib:statistic.obj
+ 0001:00001fb8       CePerf_SetStatistic        10002fb8 f   ceperf_module_lib:statistic.obj
+ 0001:000023b4       __LoadTTrackerDLL          100033b4 f i ceperf_module_lib:duration.obj
+ 0001:00002468       TTrackerUnregister         10003468 f i ceperf_module_lib:duration.obj
+ 0001:000028c4       ValidateDurationDescriptor 100038c4 f   ceperf_module_lib:duration.obj
+ 0001:000028ec       InitializeDurationData     100038ec f   ceperf_module_lib:duration.obj
+ 0001:00002aa0       FreeDurationData           10003aa0 f   ceperf_module_lib:duration.obj
+ 0001:00002ba8       FreeUnusedDurationPages    10003ba8 f   ceperf_module_lib:duration.obj
+ 0001:00004638       CePerf_BeginDuration       10005638 f   ceperf_module_lib:duration.obj
+ 0001:0000479c       CePerf_IntermediateDuration 1000579c f   ceperf_module_lib:duration.obj
+ 0001:0000494c       CePerf_EndDurationWithInformation 1000594c f   ceperf_module_lib:duration.obj
+ 0001:00004b6c       DurationFlushBegin         10005b6c f   ceperf_module_lib:duration.obj
+ 0001:00004b8c       Walk_FlushDuration         10005b8c f   ceperf_module_lib:duration.obj
+ 0001:000051dc       AcquireLoggerLock          100061dc f   ceperf_module_lib:session.obj
+ 0001:00005224       ReleaseLoggerLock          10006224 f   ceperf_module_lib:session.obj
+ 0001:00005228       AcquireLoggerLockControl   10006228 f   ceperf_module_lib:session.obj
+ 0001:00005230       ReleaseLoggerLockControl   10006230 f   ceperf_module_lib:session.obj
+ 0001:00005238       LookupSessionHandle        10006238 f   ceperf_module_lib:session.obj
+ 0001:000052ac       AllocPage                  100062ac f   ceperf_module_lib:session.obj
+ 0001:00005448       FreePage                   10006448 f   ceperf_module_lib:session.obj
+ 0001:000055d4       ValidateRecordingFlags     100065d4 f   ceperf_module_lib:session.obj
+ 0001:00005670       ValidateSessionSettings    10006670 f   ceperf_module_lib:session.obj
+ 0001:00005910       GetSessionSettings         10006910 f   ceperf_module_lib:session.obj
+ 0001:00005d48       FlushBytes                 10006d48 f   ceperf_module_lib:session.obj
+ 0001:00005e14       FlushChars                 10006e14 f   ceperf_module_lib:session.obj
+ 0001:00005ea8       FlushULargeCSV             10006ea8 f   ceperf_module_lib:session.obj
+ 0001:00005f08       FlushDoubleCSV             10006f08 f   ceperf_module_lib:session.obj
+ 0001:00005f44       FlushSessionDescriptorBinary 10006f44 f   ceperf_module_lib:session.obj
+ 0001:000066f8       CePerf_OpenSession         100076f8 f   ceperf_module_lib:session.obj
+ 0001:000069c8       CePerf_CloseSession        100079c8 f   ceperf_module_lib:session.obj
+ 0001:00006af0       CePerf_ControlSession      10007af0 f   ceperf_module_lib:session.obj
+ 0001:00006c28       CePerf_ControlCPU          10007c28 f   ceperf_module_lib:session.obj
+ 0001:00006dcc       CePerf_FlushSession        10007dcc f   ceperf_module_lib:session.obj
+ 0001:00007034       CleanupProcess             10008034 f   ceperf_module_lib:session.obj
+ 0001:00007038       CePerf_IOControl           10008038 f   ceperf_module_lib:ceperf.obj
+ 0001:000070ec       CePerf_Deinit              100080ec f   ceperf_module_lib:ceperf.obj
+ 0001:000071a4       CePerf_Init                100081a4 f   ceperf_module_lib:ceperf.obj
+ 0001:00007400       DllEntry                   10008400 f   ceperf_module_lib:ceperf.obj
+ 0001:00007480       ITEM_EPILOG                10008480 f   ceperf_module_lib:item.obj
+ 0001:0000749c       LookupItemHandle           1000849c f   ceperf_module_lib:item.obj
+ 0001:00007520       Walk_InitializeTypeData    10008520 f   ceperf_module_lib:item.obj
+ 0001:00007560       Walk_ChangeTypeSettings    10008560 f   ceperf_module_lib:item.obj
+ 0001:00007614       FlushItemDescriptorBinary  10008614 f   ceperf_module_lib:item.obj
+ 0001:00007c44       WalkAllItems               10008c44 f   ceperf_module_lib:item.obj
+ 0001:00007d54       CePerf_DeregisterTrackedItem 10008d54 f   ceperf_module_lib:item.obj
+ 0001:00007e10       CePerf_DeregisterBulk      10008e10 f   ceperf_module_lib:item.obj
+ 0001:00007f7c       ITEM_PROLOG                10008f7c f   ceperf_module_lib:item.obj
+ 0001:000081d0       DeleteAllItems             100091d0 f   ceperf_module_lib:item.obj
+ 0001:0000827c       CePerf_RegisterTrackedItem 1000927c f   ceperf_module_lib:item.obj
+ 0001:0000835c       CePerf_RegisterBulk        1000935c f   ceperf_module_lib:item.obj
+ 0001:000084d4       FreeUnusedListPages        100094d4 f   ceperf_module_lib:list.obj
+ 0001:000085cc       FreeAllListPages           100095cc f   ceperf_module_lib:list.obj
+ 0001:00008640       AllocListItem              10009640 f   ceperf_module_lib:list.obj
+ 0001:00008754       FreeListItem               10009754 f   ceperf_module_lib:list.obj
+ 0001:000087c4       __GetUserKData             100097c4 f   coredll:COREDLL.dll
+ 0001:000087d4       CloseHandle                100097d4 f   coredll:COREDLL.dll
+ 0001:000087e4       ReadProcessMemory          100097e4 f   coredll:COREDLL.dll
+ 0001:000087f4       OpenProcess                100097f4 f   coredll:COREDLL.dll
+ 0001:00008804       RegCloseKey                10009804 f   coredll:COREDLL.dll
+ 0001:00008814       RegCreateKeyExW            10009814 f   coredll:COREDLL.dll
+ 0001:00008824       RegSetValueExW             10009824 f   coredll:COREDLL.dll
+ 0001:00008834       SetLastError               10009834 f   coredll:COREDLL.dll
+ 0001:00008844       GetLastError               10009844 f   coredll:COREDLL.dll
+ 0001:00008854       InterlockedIncrement       10009854 f   coredll:COREDLL.dll
+ 0001:00008864       GetProcAddressW            10009864 f   coredll:COREDLL.dll
+ 0001:00008874       LoadLibraryW               10009874 f   coredll:COREDLL.dll
+ 0001:00008884       FreeLibrary                10009884 f   coredll:COREDLL.dll
+ 0001:00008894       InterlockedDecrement       10009894 f   coredll:COREDLL.dll
+ 0001:000088a4       QueryPerformanceFrequency  100098a4 f   coredll:COREDLL.dll
+ 0001:000088b4       GetTickCount               100098b4 f   coredll:COREDLL.dll
+ 0001:000088c4       GetThreadTimes             100098c4 f   coredll:COREDLL.dll
+ 0001:000088d4       QueryPerformanceCounter    100098d4 f   coredll:COREDLL.dll
+ 0001:000088e4       StringCchCatW              100098e4 f   coredll:COREDLL.dll
+ 0001:000088f4       StringCchCopyW             100098f4 f   coredll:COREDLL.dll
+ 0001:00008904       UnmapViewOfFile            10009904 f   coredll:COREDLL.dll
+ 0001:00008914       ReleaseMutex               10009914 f   coredll:COREDLL.dll
+ 0001:00008924       MapViewOfFile              10009924 f   coredll:COREDLL.dll
+ 0001:00008934       CreateFileMappingW         10009934 f   coredll:COREDLL.dll
+ 0001:00008944       WaitForSingleObject        10009944 f   coredll:COREDLL.dll
+ 0001:00008954       CreateMutexW               10009954 f   coredll:COREDLL.dll
+ 0001:00008964       InterlockedCompareExchange 10009964 f   coredll:COREDLL.dll
+ 0001:00008974       InterlockedExchangeAdd     10009974 f   coredll:COREDLL.dll
+ 0001:00008984       LocalAlloc                 10009984 f   coredll:COREDLL.dll
+ 0001:00008994       LocalFree                  10009994 f   coredll:COREDLL.dll
+ 0001:000089a4       WriteFile                  100099a4 f   coredll:COREDLL.dll
+ 0001:000089b4       CeLogData                  100099b4 f   coredll:COREDLL.dll
+ 0001:000089c4       NKDbgPrintfW               100099c4 f   coredll:COREDLL.dll
+ 0001:000089d4       StringCchLengthW           100099d4 f   coredll:COREDLL.dll
+ 0001:000089e4       StringCchVPrintfW          100099e4 f   coredll:COREDLL.dll
+ 0001:000089f4       StringCchCopyNW            100099f4 f   coredll:COREDLL.dll
+ 0001:00008a04       StringCchPrintfW           10009a04 f   coredll:COREDLL.dll
+ 0001:00008a14       SetFilePointer             10009a14 f   coredll:COREDLL.dll
+ 0001:00008a24       CreateFileW                10009a24 f   coredll:COREDLL.dll
+ 0001:00008a34       LeaveCriticalSection       10009a34 f   coredll:COREDLL.dll
+ 0001:00008a44       EnterCriticalSection       10009a44 f   coredll:COREDLL.dll
+ 0001:00008a54       RegQueryValueExW           10009a54 f   coredll:COREDLL.dll
+ 0001:00008a64       RegOpenKeyExW              10009a64 f   coredll:COREDLL.dll
+ 0001:00008a74       DeleteCriticalSection      10009a74 f   coredll:COREDLL.dll
+ 0001:00008a84       DisableThreadLibraryCalls  10009a84 f   coredll:COREDLL.dll
+ 0001:00008a94       InitializeCriticalSection  10009a94 f   coredll:COREDLL.dll
+ 0001:00008aa4       _DllEntryCRTStartup        10009aa4 f   corelib0:pegdentry.obj
+ 0001:00008ae8       __GSHandlerCheckCommon     10009ae8 f   corelib0:gshandler.obj
+ 0001:00008b24       __GSHandlerCheck           10009b24 f   corelib0:gshandler.obj
+ 0001:00008b44       __security_init_cookie     10009b44 f   corelib0:seccinit.obj
+ 0001:00008b90       __security_check_cookie    10009b90 f   corelib0:armsecgs.obj
+ 0001:00008ba0       __gsfailure                10009ba0     corelib0:armsecgs.obj
+ 0001:00008ccc       _cexit                     10009ccc f   corelib0:cexit.obj
+ 0001:00008cdc       _initterm                  10009cdc f   corelib0:crt0dat.obj
+ 0001:00008d08       _cinit                     10009d08 f   corelib0:crt0dat.obj
+ 0001:00008d68       __crt_ExitProcess          10009d68 f   corelib0:exitproc_proxy.obj
+ 0001:00008d74       memset                     10009d74 f   corelib1:COREDLL.dll
+ 0001:00008d84       wcslen                     10009d84 f   corelib1:COREDLL.dll
+ 0001:00008d94       swprintf                   10009d94 f   corelib1:COREDLL.dll
+ 0001:00008da4       memcpy                     10009da4 f   corelib1:COREDLL.dll
+ 0001:00008db4       __C_specific_handler       10009db4 f   corelib1:COREDLL.dll
+ 0001:00008dc4       wcsncpy                    10009dc4 f   corelib1:COREDLL.dll
+ 0001:00008dd4       _wcsnicmp                  10009dd4 f   corelib1:COREDLL.dll
+ 0001:00008de4       __security_gen_cookie2     10009de4 f   corelib1:COREDLL.dll
+ 0001:00008df4       __report_gsfailure         10009df4 f   corelib1:COREDLL.dll
+ 0001:00008e04       free                       10009e04 f   corelib1:COREDLL.dll
+ 0001:00008e14       InterlockedExchange        10009e14 f   coredll:COREDLL.dll
+ 0001:00008e24       TerminateProcess           10009e24 f   coredll:COREDLL.dll
+ 0001:00008f78       __IMPORT_DESCRIPTOR_COREDLL 10009f78     coredll:COREDLL.dll
+ 0001:00008f8c       __NULL_IMPORT_DESCRIPTOR   10009f8c     coredll:COREDLL.dll
+ 0002:00000000       __imp___GetUserKData       1000b000     coredll:COREDLL.dll
+ 0002:00000004       __imp_CloseHandle          1000b004     coredll:COREDLL.dll
+ 0002:00000008       __imp_ReadProcessMemory    1000b008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_OpenProcess          1000b00c     coredll:COREDLL.dll
+ 0002:00000010       __imp_RegCloseKey          1000b010     coredll:COREDLL.dll
+ 0002:00000014       __imp_RegCreateKeyExW      1000b014     coredll:COREDLL.dll
+ 0002:00000018       __imp_RegSetValueExW       1000b018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_SetLastError         1000b01c     coredll:COREDLL.dll
+ 0002:00000020       __imp_GetLastError         1000b020     coredll:COREDLL.dll
+ 0002:00000024       __imp_InterlockedIncrement 1000b024     coredll:COREDLL.dll
+ 0002:00000028       __imp_GetProcAddressW      1000b028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_LoadLibraryW         1000b02c     coredll:COREDLL.dll
+ 0002:00000030       __imp_FreeLibrary          1000b030     coredll:COREDLL.dll
+ 0002:00000034       __imp_InterlockedDecrement 1000b034     coredll:COREDLL.dll
+ 0002:00000038       __imp_QueryPerformanceFrequency 1000b038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_GetTickCount         1000b03c     coredll:COREDLL.dll
+ 0002:00000040       __imp_GetThreadTimes       1000b040     coredll:COREDLL.dll
+ 0002:00000044       __imp_QueryPerformanceCounter 1000b044     coredll:COREDLL.dll
+ 0002:00000048       __imp_StringCchCatW        1000b048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_StringCchCopyW       1000b04c     coredll:COREDLL.dll
+ 0002:00000050       __imp_UnmapViewOfFile      1000b050     coredll:COREDLL.dll
+ 0002:00000054       __imp_ReleaseMutex         1000b054     coredll:COREDLL.dll
+ 0002:00000058       __imp_MapViewOfFile        1000b058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_CreateFileMappingW   1000b05c     coredll:COREDLL.dll
+ 0002:00000060       __imp_WaitForSingleObject  1000b060     coredll:COREDLL.dll
+ 0002:00000064       __imp_CreateMutexW         1000b064     coredll:COREDLL.dll
+ 0002:00000068       __imp_InterlockedCompareExchange 1000b068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_InterlockedExchangeAdd 1000b06c     coredll:COREDLL.dll
+ 0002:00000070       __imp_LocalAlloc           1000b070     coredll:COREDLL.dll
+ 0002:00000074       __imp_LocalFree            1000b074     coredll:COREDLL.dll
+ 0002:00000078       __imp_WriteFile            1000b078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_CeLogData            1000b07c     coredll:COREDLL.dll
+ 0002:00000080       __imp_NKDbgPrintfW         1000b080     coredll:COREDLL.dll
+ 0002:00000084       __imp_StringCchLengthW     1000b084     coredll:COREDLL.dll
+ 0002:00000088       __imp_StringCchVPrintfW    1000b088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_StringCchCopyNW      1000b08c     coredll:COREDLL.dll
+ 0002:00000090       __imp_StringCchPrintfW     1000b090     coredll:COREDLL.dll
+ 0002:00000094       __imp_SetFilePointer       1000b094     coredll:COREDLL.dll
+ 0002:00000098       __imp_CreateFileW          1000b098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_LeaveCriticalSection 1000b09c     coredll:COREDLL.dll
+ 0002:000000a0       __imp_EnterCriticalSection 1000b0a0     coredll:COREDLL.dll
+ 0002:000000a4       __imp_RegQueryValueExW     1000b0a4     coredll:COREDLL.dll
+ 0002:000000a8       __imp_RegOpenKeyExW        1000b0a8     coredll:COREDLL.dll
+ 0002:000000ac       __imp_DeleteCriticalSection 1000b0ac     coredll:COREDLL.dll
+ 0002:000000b0       __imp_DisableThreadLibraryCalls 1000b0b0     coredll:COREDLL.dll
+ 0002:000000b4       __imp_InitializeCriticalSection 1000b0b4     coredll:COREDLL.dll
+ 0002:000000b8       __imp___rt_sdiv64by64      1000b0b8     corelib1:COREDLL.dll
+ 0002:000000bc       __imp___i64tod             1000b0bc     corelib1:COREDLL.dll
+ 0002:000000c0       __imp_memset               1000b0c0     corelib1:COREDLL.dll
+ 0002:000000c4       __imp___rt_urem64by64      1000b0c4     corelib1:COREDLL.dll
+ 0002:000000c8       __imp___rt_udiv64by64      1000b0c8     corelib1:COREDLL.dll
+ 0002:000000cc       __imp_wcslen               1000b0cc     corelib1:COREDLL.dll
+ 0002:000000d0       __imp_swprintf             1000b0d0     corelib1:COREDLL.dll
+ 0002:000000d4       __imp___u64tod             1000b0d4     corelib1:COREDLL.dll
+ 0002:000000d8       __imp___dtou64             1000b0d8     corelib1:COREDLL.dll
+ 0002:000000dc       __imp_memcpy               1000b0dc     corelib1:COREDLL.dll
+ 0002:000000e0       __imp___C_specific_handler 1000b0e0     corelib1:COREDLL.dll
+ 0002:000000e4       __imp_wcsncpy              1000b0e4     corelib1:COREDLL.dll
+ 0002:000000e8       __imp__wcsnicmp            1000b0e8     corelib1:COREDLL.dll
+ 0002:000000ec       __imp___rt_udiv            1000b0ec     corelib1:COREDLL.dll
+ 0002:000000f0       __imp___security_gen_cookie2 1000b0f0     corelib1:COREDLL.dll
+ 0002:000000f4       __imp___report_gsfailure   1000b0f4     corelib1:COREDLL.dll
+ 0002:000000f8       __imp_free                 1000b0f8     corelib1:COREDLL.dll
+ 0002:000000fc       __imp_InterlockedExchange  1000b0fc     coredll:COREDLL.dll
+ 0002:00000100       __imp_TerminateProcess     1000b100     coredll:COREDLL.dll
+ 0002:00000104       \177COREDLL_NULL_THUNK_DATA 1000b104     coredll:COREDLL.dll
+ 0002:0000012c       __security_cookie          1000b12c     corelib0:seccinit.obj
+ 0002:00000130       __security_cookie_complement 1000b130     corelib0:seccinit.obj
+ 0002:0000014c       pCPUCounterDescriptor      1000b14c     ceperf_default:ceperf_default.obj
+ 0002:00000150       pCPUControlPerfCounters    1000b150     ceperf_default:ceperf_default.obj
+ 0002:00000154       pCPUQueryPerfCounters      1000b154     ceperf_default:ceperf_default.obj
+ 0002:00000158       _exitflag                  1000b158     corelib0:cexit.obj
+ 0002:0000015c       g_dwDLLSessionCount        1000b15c     <common>
+ 0002:00000160       g_hMasterMap               1000b160     <common>
+ 0002:00000164       g_pInternalList            1000b164     <common>
+ 0002:00000168       g_pMaster                  1000b168     <common>
+ 0002:0000016c       g_pDLLSessions             1000b16c     <common>
+ 0002:00000180       g_DLLCS                    1000b180     <common>
+ 0002:00000194       g_hMasterMutex             1000b194     <common>
+ 0002:000001a0       g_szDefaultFlushSubKey     1000b1a0     <common>
+ 0002:000003a8       g_pTTGlobals               1000b3a8     <common>
+ 0002:000003ac       __onexitend                1000b3ac     <common>
+ 0002:000003b0       __onexitbegin              1000b3b0     <common>
+ 0002:000003b4       g_pcsExit                  1000b3b4     <common>
+
+ entry point at        0001:00008aa4
+
+ Static symbols
+
+ 0001:00000f1c       UpdateDurationDataDW       10001f1c f   ceperf_module_lib:statistic.obj
+ 0001:00001020       GetStandardDeviation       10002020 f   ceperf_module_lib:statistic.obj
+ 0001:00001080       IsStatDataFree             10002080 f   ceperf_module_lib:statistic.obj
+ 0001:0000108c       GetNextFreeStatData        1000208c f   ceperf_module_lib:statistic.obj
+ 0001:00001098       FreeStatData               10002098 f   ceperf_module_lib:statistic.obj
+ 0001:0000137c       FlushDataToRegistry        1000237c f   ceperf_module_lib:statistic.obj
+ 0001:0000157c       FlushStatisticDataBinary   1000257c f   ceperf_module_lib:statistic.obj
+ 0001:0000169c       FlushDataText              1000269c f   ceperf_module_lib:statistic.obj
+ 0001:00001968       FlushDataCSV               10002968 f   ceperf_module_lib:statistic.obj
+ 0001:00002120       UpdateDurationDataUL       10003120 f   ceperf_module_lib:duration.obj
+ 0001:00002250       UpdateDurationDataDW       10003250 f   ceperf_module_lib:duration.obj
+ 0001:00002354       GetStandardDeviation       10003354 f   ceperf_module_lib:duration.obj
+ 0001:000024c0       IsDurBLFree                100034c0 f   ceperf_module_lib:duration.obj
+ 0001:000024cc       GetNextFreeDurBL           100034cc f   ceperf_module_lib:duration.obj
+ 0001:000024dc       FreeDurBL                  100034dc f   ceperf_module_lib:duration.obj
+ 0001:000024e8       IsDurDLFree                100034e8 f   ceperf_module_lib:duration.obj
+ 0001:000024f4       GetNextFreeDurDL           100034f4 f   ceperf_module_lib:duration.obj
+ 0001:00002500       FreeDurDL                  10003500 f   ceperf_module_lib:duration.obj
+ 0001:0000250c       PerformanceCounterToMicroseconds 1000350c f   ceperf_module_lib:duration.obj
+ 0001:000025e8       GetCurrentPerfCounters     100035e8 f   ceperf_module_lib:duration.obj
+ 0001:00002718       FlushTTracker              10003718 f   ceperf_module_lib:duration.obj
+ 0001:00002bec       BeginFlushCSV              10003bec f   ceperf_module_lib:duration.obj
+ 0001:00002cb8       FlushMinDataToRegistry     10003cb8 f   ceperf_module_lib:duration.obj
+ 0001:000031c8       FlushMinDataBinary         100041c8 f   ceperf_module_lib:duration.obj
+ 0001:00003328       FlushMinDataText           10004328 f   ceperf_module_lib:duration.obj
+ 0001:000038c4       FlushCounterCSV            100048c4 f   ceperf_module_lib:duration.obj
+ 0001:00003944       FlushMinDataCSV            10004944 f   ceperf_module_lib:duration.obj
+ 0001:00003b84       ClaimNextThreadBeginFrame  10004b84 f   ceperf_module_lib:duration.obj
+ 0001:00003d9c       FindPrevThreadBeginFrame   10004d9c f   ceperf_module_lib:duration.obj
+ 0001:00003e80       ReleaseThreadBeginFrame    10004e80 f   ceperf_module_lib:duration.obj
+ 0001:00003f80       ClearBeginList             10004f80 f   ceperf_module_lib:duration.obj
+ 0001:00004044       RecordCeLogFullData        10005044 f   ceperf_module_lib:duration.obj
+ 0001:00004104       RecordIntermediateData     10005104 f   ceperf_module_lib:duration.obj
+ 0001:000042a4       RecordEndData              100052a4 f   ceperf_module_lib:duration.obj
+ 0001:00004d9c       UpdateMasterCPUCounters    10005d9c f   ceperf_module_lib:session.obj
+ 0001:00004f04       OpenMasterMap              10005f04 f   ceperf_module_lib:session.obj
+ 0001:00005168       CloseMasterMap             10006168 f   ceperf_module_lib:session.obj
+ 0001:000054c0       RemoveFromDLLSessionTable  100064c0 f   ceperf_module_lib:session.obj
+ 0001:00005990       CreateNewSession           10006990 f   ceperf_module_lib:session.obj
+ 0001:00005b3c       CleanupSession             10006b3c f   ceperf_module_lib:session.obj
+ 0001:00005bf4       ControlSession             10006bf4 f   ceperf_module_lib:session.obj
+ 0001:0000607c       FlushSession               1000707c f   ceperf_module_lib:session.obj
+ 0001:00006338       UpdateAllSessionCPUCounters 10007338 f   ceperf_module_lib:session.obj
+ 0001:00006428       ModifyAllSessionLoggerLocks 10007428 f   ceperf_module_lib:session.obj
+ 0001:000064dc       WalkAllSessions            100074dc f   ceperf_module_lib:session.obj
+ 0001:00006ef0       CleanupDLLSessionTable     10007ef0 f   ceperf_module_lib:session.obj
+ 0001:00007048       CleanupDLLInternal         10008048 f   ceperf_module_lib:ceperf.obj
+ 0001:000075dc       Walk_FreeTypeData          100085dc f   ceperf_module_lib:item.obj
+ 0001:000076cc       InitializeNewItem          100086cc f   ceperf_module_lib:item.obj
+ 0001:000077dc       CreateNewItem              100087dc f   ceperf_module_lib:item.obj
+ 0001:000079c4       Walk_CompareItemName       100089c4 f   ceperf_module_lib:item.obj
+ 0001:00007a00       ReleaseItemPages           10008a00 f   ceperf_module_lib:item.obj
+ 0001:00007b58       DeleteItem                 10008b58 f   ceperf_module_lib:item.obj
+ 0001:0000807c       FindOrCreateItem           1000907c f   ceperf_module_lib:item.obj
+ 0001:00008444       AllocListPage              10009444 f   ceperf_module_lib:list.obj
+ 0001:00008be4       doexit                     10009be4 f   corelib0:cexit.obj

@@ -1,0 +1,72 @@
+;
+; Copyright (c) Microsoft Corporation.  All rights reserved.
+;
+;
+; Use of this sample source code is subject to the terms of the Microsoft
+; license agreement under which you licensed this sample source code. If
+; you did not accept the terms of the license agreement, you are not
+; authorized to use this sample source code. For the terms of the license,
+; please see the license agreement between you and Microsoft or, if applicable,
+; see the LICENSE.RTF on your install media or the root of your tools installation.
+; THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+;
+MODULES
+;  Name            Path                                           Memory Type
+;  --------------  ---------------------------------------------  -----------
+
+; @CESYSGEN IF DATASYNC_MODULES_REPLLOG
+    repllog.exe         $(_FLATRELEASEDIR)\repllog.exe             NK
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF DATASYNC_MODULES_ASRES
+    asres.dll           $(_FLATRELEASEDIR)\asres.dll               NK
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF DATASYNC_MODULES_ASUTIL
+    asutil.dll          $(_FLATRELEASEDIR)\asutil.dll              NK
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF DATASYNC_MODULES_UDP2TCP
+    udp2tcp.exe         $(_FLATRELEASEDIR)\udp2tcp.exe             NK
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF DATASYNC_MODULES_RAPICLNT
+    rapiclnt.exe        $(_FLATRELEASEDIR)\rapiclnt.exe            NK
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF DATASYNC_MODULES_WCELOAD
+    wceload.exe         $(_FLATRELEASEDIR)\wceload.exe             NK
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF DATASYNC_MODULES_WCELDCMD
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF DATASYNC_MODULES_WCELOAD && DATASYNC_MODULES_UNLOAD
+    unload.exe          $(_FLATRELEASEDIR)\unload.exe              NK
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF DATASYNC_MODULES_WCELDCMD && DATASYNC_MODULES_UNLDCMD
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF DATASYNC_MODULES_RRA_STM
+   rra_stm.dll          $(_FLATRELEASEDIR)\rra_stm.dll             NK  H
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF DATASYNC_MODULES_CEFOBJ
+   cefobj.dll           $(_FLATRELEASEDIR)\cefobj.dll              NK  H
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF DATASYNC_MODULES_TASKSCHEDULER
+; @CESYSGEN ENDIF
+
+; @CESYSGEN IF DATASYNC_MODULES_TSKSCHSRV
+; @CESYSGEN ENDIF
+
+
+FILES
+;  Name            Path                                           Memory Type
+;  --------------  ---------------------------------------------  -----------
+
+; @CESYSGEN IF DATASYNC_MODULES_SERVERSYNC
+    ActiveSync.lnk      $(_FLATRELEASEDIR)\repllog.lnk             NK SH
+; @CESYSGEN ENDIF

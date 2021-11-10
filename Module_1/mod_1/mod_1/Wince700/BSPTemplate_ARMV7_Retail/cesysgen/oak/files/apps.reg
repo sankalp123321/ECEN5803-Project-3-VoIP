@@ -1,0 +1,1108 @@
+;
+; Copyright (c) Microsoft Corporation.  All rights reserved.
+;
+;
+; Use of this sample source code is subject to the terms of the Microsoft
+; license agreement under which you licensed this sample source code. If
+; you did not accept the terms of the license agreement, you are not
+; authorized to use this sample source code. For the terms of the license,
+; please see the license agreement between you and Microsoft or, if applicable,
+; see the LICENSE.RTF on your install media or the root of your tools installation.
+; THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+;
+; ---------------------------------------------------------------------------
+; APPS registry keys
+; ---------------------------------------------------------------------------
+
+; @CESYSGEN IF APPS_MODULES_CABINSTL
+; @CESYSGEN ENDIF APPS_MODULES_CABINSTL
+
+
+
+
+
+
+
+
+
+
+
+; @CESYSGEN IF APPS_MODULES_BTHASPLUGIN
+; @CESYSGEN ENDIF APPS_MODULES_BTHASPLUGIN
+
+
+
+
+
+
+; @CESYSGEN IF APPS_MODULES_MAILCSP2
+
+; EMail2 Service Provider
+[HKEY_CLASSES_ROOT\EMAIL2\CLSID]
+    @="{EFBC7C24-25E4-427f-A1A1-210C0691B048}"
+[HKEY_CLASSES_ROOT\CLSID\{EFBC7C24-25E4-427f-A1A1-210C0691B048}\InprocServer32]
+    @="mailcsp2.dll"
+
+; The following makes the CSP accessible to the new config manager via the legacy CSP
+[HKEY_LOCAL_MACHINE\Security\Provisioning\CSPs\.\Vendor\MSFT\EMAIL2]
+    @="{DAB192CE-B659-460c-AE27-0F32ECB471D4}"
+
+; @CESYSGEN ENDIF APPS_MODULES_MAILCSP2
+
+
+; @CESYSGEN IF APPS_MODULES_WCELOAD1
+; @CESYSGEN ENDIF APPS_MODULES_WCELOAD1
+
+
+; @CESYSGEN IF APPS_MODULES_PIMSTORE
+; ---------------------------------------------------------------------------
+;
+; BEGIN: Outlook Object Model registry information
+
+[HKEY_CLASSES_ROOT\CLSID\{05058F23-20BE-11D2-8F18-0000F87A4335}]
+@="Pocket Outlook Object Model"
+
+[HKEY_CLASSES_ROOT\CLSID\{05058F23-20BE-11D2-8F18-0000F87A4335}\InProcServer32]
+@="pimstore.dll"
+"ThreadingModel"="Free"
+
+[HKEY_CLASSES_ROOT\CLSID\{05058F23-20BE-11D2-8F18-0000F87A4335}\ProgID]
+@="PocketOutlook.Application"
+
+[HKEY_CLASSES_ROOT\CLSID\{05058F23-20BE-11D2-8F18-0000F87A4335}\Programmable]
+
+[HKEY_CLASSES_ROOT\PocketOutlook.Application]
+@="Pocket Outlook Object Model"
+
+[HKEY_CLASSES_ROOT\PocketOutlook.Application\CLSID]
+@="{05058F23-20BE-11D2-8F18-0000F87A4335}"
+
+; END: Outlook Object Model registry information
+;
+; ---------------------------------------------------------------------------
+; @CESYSGEN ENDIF APPS_MODULES_PIMSTORE
+
+; @CESYSGEN IF APPS_MODULES_PIMSTORE
+; ---------------------------------------------------------------------------
+;
+; BEGIN: Outlook Object Model Proxy registry information
+
+[HKEY_CLASSES_ROOT\CLSID\{B6AD5533-AE05-4c84-8645-D4AD16CA9470}]
+@="Pocket Outlook Object Model Proxy"
+
+[HKEY_CLASSES_ROOT\CLSID\{B6AD5533-AE05-4c84-8645-D4AD16CA9470}\InProcServer32]
+@="pimstore.dll"
+"ThreadingModel"="Both"
+
+[HKEY_CLASSES_ROOT\Interface\{c93a09c4-5faf-4688-bfe6-7d1b6092d4e9}]
+@="IChangeEventSink"
+
+[HKEY_CLASSES_ROOT\Interface\{c93a09c4-5faf-4688-bfe6-7d1b6092d4e9}\ProxyStubClsid32]
+@="{B6AD5533-AE05-4c84-8645-D4AD16CA9470}"
+
+[HKEY_CLASSES_ROOT\Interface\{666ECEDA-91C1-4ba5-B41C-6E45B8B93749}]
+@="ICustomEventSink"
+
+[HKEY_CLASSES_ROOT\Interface\{666ECEDA-91C1-4ba5-B41C-6E45B8B93749}\ProxyStubClsid32]
+@="{B6AD5533-AE05-4c84-8645-D4AD16CA9470}"
+
+; END: Outlook Object Model Proxy registry information
+;
+; ---------------------------------------------------------------------------
+; @CESYSGEN ENDIF APPS_MODULES_PIMSTORE
+
+
+; @CESYSGEN IF APPS_MODULES_PIMSTORE
+; ---------------------------------------------------------------------------
+;
+; BEGIN: Outlook Object Model Extensions registry information
+
+[HKEY_CLASSES_ROOT\CLSID\{1C502E67-C629-4645-9BB7-501AB7050BD4}]
+@="Pocket Outlook Object Model Extensions"
+
+[HKEY_CLASSES_ROOT\CLSID\{1C502E67-C629-4645-9BB7-501AB7050BD4}\InProcServer32]
+@="pimstore.dll"
+"ThreadingModel"="Free"
+
+[HKEY_CLASSES_ROOT\CLSID\{1C502E67-C629-4645-9BB7-501AB7050BD4}\ProgID]
+@="PocketOutlook.Extensions"
+
+[HKEY_CLASSES_ROOT\CLSID\{1C502E67-C629-4645-9BB7-501AB7050BD4}\Programmable]
+
+[HKEY_CLASSES_ROOT\PocketOutlook.Extensions]
+@="Pocket Outlook Object Model Extensions"
+
+[HKEY_CLASSES_ROOT\PocketOutlook.Extensions\CLSID]
+@="{1C502E67-C629-4645-9BB7-501AB7050BD4}"
+
+; END: Outlook Object Model Extensions registry information
+;
+; ---------------------------------------------------------------------------
+; @CESYSGEN ENDIF APPS_MODULES_PIMSTORE
+
+
+; @CESYSGEN IF APPS_MODULES_UNISTORE
+; ---------------------------------------------------------------------------
+;
+; BEGIN: Unified Store registry information
+
+[HKEY_CLASSES_ROOT\CLSID\{9e3f6142-a5f9-492f-9dbb-955ac289276d}]
+@="Unified Store"
+
+[HKEY_CLASSES_ROOT\CLSID\{9e3f6142-a5f9-492f-9dbb-955ac289276d}\InProcServer32]
+@="unistore.dll"
+"ThreadingModel"="Free"
+
+[HKEY_CLASSES_ROOT\CLSID\{9e3f6142-a5f9-492f-9dbb-955ac289276d}\ProgID]
+@="UnifiedStore.Application"
+
+[HKEY_CLASSES_ROOT\CLSID\{9e3f6142-a5f9-492f-9dbb-955ac289276d}\Programmable]
+
+[HKEY_CLASSES_ROOT\UnifiedStore.Application]
+@="Unified Store"
+
+[HKEY_CLASSES_ROOT\UnifiedStore.Application\CLSID]
+@="{9e3f6142-a5f9-492f-9dbb-955ac289276d}"
+
+; Unified Store Notifications
+[HKEY_LOCAL_MACHINE\System\EventLog\Channel\Microsoft-WindowsMobile-UnifiedStorePublisher-Channel]
+    "ChannelType"=dword:1
+    "DefaultEnable"=dword:1
+    "value"=dword:10
+
+[HKEY_LOCAL_MACHINE\System\EventLog\Channel\Microsoft-WindowsMobile-UnifiedStorePublisher-Channel\Publishing]
+    "Level"=dword:5
+    "AllKeywordHigh"=dword:0
+    "AllKeywordLow"=dword:0
+    "AnyKeywordHigh"=dword:0
+    "AnyKeywordLow"=dword:0  
+    "ClockType"=dword:0
+    "Latency"=dword:2
+    "MaxBuffers"=dword:8000
+
+[HKEY_LOCAL_MACHINE\System\EventLog\Provider\{CA746C7C-4A63-4620-8D3C-F2EA5A37693B}\Channels]
+    "ChannelNames"=multi_sz:"Microsoft-WindowsMobile-UnifiedStorePublisher-Channel"
+
+; END: Unified Store registry information
+;
+; ---------------------------------------------------------------------------
+; @CESYSGEN ENDIF APPS_MODULES_UNISTORE
+
+; @CESYSGEN IF APPS_MODULES_POSYNCSERVICES
+; ---------------------------------------------------------------------------
+;
+; BEGIN: Pocket Outlook Synchronization Services registry information
+
+[HKEY_CLASSES_ROOT\CLSID\{40B47A8F-C442-4f06-8304-AA1058EDEEA0}]
+@="Pocket Outlook Synchronization Services"
+
+[HKEY_CLASSES_ROOT\CLSID\{40B47A8F-C442-4f06-8304-AA1058EDEEA0}\InProcServer32]
+@="posyncservices.dll"
+"ThreadingModel"="Free"
+
+[HKEY_CLASSES_ROOT\CLSID\{40B47A8F-C442-4f06-8304-AA1058EDEEA0}\ProgID]
+@="POSyncServices"
+
+[HKEY_CLASSES_ROOT\CLSID\{40B47A8F-C442-4f06-8304-AA1058EDEEA0}\Programmable]
+
+[HKEY_CLASSES_ROOT\POSyncServices]
+@="Pocket Outlook Synchronization Services"
+
+[HKEY_CLASSES_ROOT\POSyncServices\CLSID]
+@="{40B47A8F-C442-4f06-8304-AA1058EDEEA0}"
+
+; END: Pocket Outlook Synchronization Services registry information
+;
+; ---------------------------------------------------------------------------
+; @CESYSGEN ENDIF APPS_MODULES_POSYNCSERVICES
+
+
+; @CESYSGEN IF APPS_MODULES_CHNGTRK
+; ---------------------------------------------------------------------------
+;
+; BEGIN: Change-tracking registry information
+
+; Change-Tracking Core
+[HKEY_CLASSES_ROOT\CLSID\{7BBF1B02-1B83-463f-9A8F-55F94E158257}]
+@="Change-Tracking Core"
+[HKEY_CLASSES_ROOT\CLSID\{7BBF1B02-1B83-463f-9A8F-55F94E158257}\InProcServer32]
+@="chngtrk.dll"
+[HKEY_CLASSES_ROOT\ChangeTrackingCore]
+@="Change-Tracking Core"
+[HKEY_CLASSES_ROOT\ChangeTrackingCore\CLSID]
+@="{7BBF1B02-1B83-463f-9A8F-55F94E158257}"
+
+; Change-Tracking for CEMAPI
+[HKEY_CLASSES_ROOT\CLSID\{96B73ECC-86D0-413e-9E3A-748560416CF2}]
+@="Change-Tracking CEMAPI"
+[HKEY_CLASSES_ROOT\CLSID\{96B73ECC-86D0-413e-9E3A-748560416CF2}\InProcServer32]
+@="chngtrk.dll"
+[HKEY_CLASSES_ROOT\ChangeTrackingCEMAPI]
+@="Change-Tracking CEMAPI"
+[HKEY_CLASSES_ROOT\ChangeTrackingCEMAPI\CLSID]
+@="{96B73ECC-86D0-413e-9E3A-748560416CF2}"
+
+; END: Change-tracking registry information
+;
+; ---------------------------------------------------------------------------
+; @CESYSGEN ENDIF APPS_MODULES_CHNGTRK
+
+; @CESYSGEN IF APPS_MODULES_SHPTUTIL
+; Sharepoint/UNC access protocol
+[HKEY_CLASSES_ROOT\PROTOCOLS\Handler\activesync]
+   "CLSID"="{EE119923-1AA0-42b8-B15A-D0767CB3A8A6}"
+[HKEY_CLASSES_ROOT\CLSID\{EE119923-1AA0-42b8-B15A-D0767CB3A8A6}]
+   @=""
+[HKEY_CLASSES_ROOT\CLSID\{EE119923-1AA0-42b8-B15A-D0767CB3A8A6}\InProcServer32]
+   @="shptutil.dll"
+; @CESYSGEN ENDIF APPS_MODULES_SHPTUTIL
+
+
+; @CESYSGEN IF APPS_MODULES_PHONTRNS
+; @CESYSGEN ENDIF APPS_MODULES_PHONTRNS
+
+
+; @CESYSGEN IF APPS_MODULES_MAILTRNS
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Inbox\SendDriver]
+    "DLL"="mailtrns.dll"
+
+; Transports available to Inbox
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Inbox\Svc]
+    "default"="POP3"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Inbox\Svc\IMAP4]
+    "Name"="IMAP4"
+    "DLL"="mailtrns.dll"
+    "Port"=dword:8F
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Inbox\Svc\IMAP4\MsgClasses]
+    "IPM.Note"=dword:1
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Inbox\Svc\POP3]
+    "Name"="POP3"
+    "DLL"="mailtrns.dll"
+    "Port"=dword:6E
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Inbox\Svc\POP3\MsgClasses]
+    "IPM.Note"=dword:1
+
+
+[HKEY_CURRENT_USER\Software\Microsoft\Inbox\Settings]
+    "POP3MaxLinesToDownloadWithHeaders"=dword:5
+
+; @CESYSGEN ENDIF APPS_MODULES_MAILTRNS
+
+
+; @CESYSGEN IF APPS_MODULES_SYNCMGR
+; ---------------------------------------------------------------------------
+;
+; BEGIN: AirSync registry information
+
+IF IMGTPC
+
+[HKEY_CLASSES_ROOT\CLSID\{B2A7F00B-DC41-42f0-8C31-D72AE6E594E4}]
+@="SyncPeakTimesCPLMenu"
+[HKEY_CLASSES_ROOT\CLSID\{B2A7F00B-DC41-42f0-8C31-D72AE6E594E4}\InProcServer32]
+@="tpcutil.dll"
+ENDIF ; IMGTPC
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Settings\{103E0A6A-5DD1-478a-AB20-7B4CF70AC9AE}]
+    @="PeakTimes Control Panel"
+    "Title"="Peak Times"
+    "Location"="\\Windows\\sync_peak_times.cpl.xml"
+
+; END: AirSync registry information
+;
+; ---------------------------------------------------------------------------
+
+; ---------------------------------------------------------------------------
+;
+; BEGIN: AirSync settings information
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\AirSync]
+    "Restriction"=dword:2
+
+[HKEY_CURRENT_USER\Software\Microsoft\ActiveSync]
+    "EmailAgeFilter"=dword:2
+    "CalendarAgeFilter"=dword:4
+    "ConversationMode"=dword:1
+    "BodyTruncation"=dword:1400
+    "SaveSentItems"=dword:1
+    "MailFileAttachments"=dword:0
+    "SyncWhenRoaming"=dword:0
+    "DisconnectWhenDone"=dword:1
+    "MailBodyTruncation"=dword:200
+    "MIMETruncation"=dword:1400
+    "NotifySyncDelay"=dword:0
+    "Resilience"=dword:0    ; 0=none, 1=retry, 2=custom (see httpresilience.h)
+    "Retries"=dword:1
+    "Interval"=dword:0
+    "TcpPingDnsRetries"=dword:1
+    "TcpPingTcpRetries"=dword:5
+    "TcpPingRetryStepMs"=dword:9C4
+    "HTMLTruncation"=dword:800
+    "PreferredBodyType"=dword:2     ; 1 = plain text, 2 = HTML
+IF IMGDOGFOOD
+    "CtrlLogMaxSize"=dword:7D000    ; 500K
+    "DefaultLogging"=dword:2        ; 2 = k_dwAllLogging (for dogfooding)
+ELSE
+    "CtrlLogMaxSize"=dword:C800     ; 50K
+    "DefaultLogging"=dword:0        ; 0 = k_dwNoLogging (for ship build)
+ENDIF ; IMGDOGFOOD
+    "WatsonLogging"=dword:0         ; Watson logging disabled
+    "Device"="WECDevice"
+IF IMGPPC
+    "Device"="PPC"
+ENDIF ; IMGPPC
+IF IMGTPC
+    "Device"="SPhone"
+ENDIF ; IMGTPC
+
+; HTML Mail Security Policy
+; (default 1 - allow HTML mail)
+[HKEY_LOCAL_MACHINE\Security\Policies\Policies]
+"00001028"=dword:1
+
+[HKEY_CURRENT_USER\Software\Microsoft\ActiveSync\UnicodeMapping]
+    "JIS"=hex:\
+    2C,C4,00,00,\
+        1C,30,1C,30,5E,FF,\
+        16,20,16,20,25,22,\
+        12,22,12,22,0D,FF,\
+        1E,30,1E,30,1D,30
+
+; @CESYSGEN IF APPS_MODULES_SERVERSYNC
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows CE Services]
+    "Flags"=dword:1
+
+    ;Airsync to a server
+[HKEY_CLASSES_ROOT\CLSID\{22C7DA12-F3FD-4875-8344-7786454F6534}]
+
+[HKEY_CLASSES_ROOT\CLSID\{22C7DA12-F3FD-4875-8344-7786454F6534}\InProcServer32]
+@="syncmgr.dll"
+
+;Airsync to a server, with welcome dialog in server wizard
+[HKEY_CLASSES_ROOT\CLSID\{9DBBCF96-44D1-4f1c-B062-BEB5DB162506}]
+
+[HKEY_CLASSES_ROOT\CLSID\{9DBBCF96-44D1-4f1c-B062-BEB5DB162506}\InProcServer32]
+@="syncmgr.dll"
+
+; @CESYSGEN ENDIF APPS_MODULES_SERVERSYNC
+
+
+;Airsync to a desktop
+[HKEY_CLASSES_ROOT\CLSID\{176F4FFD-F20C-4bd4-BDD7-01D0726C567B}]
+
+[HKEY_CLASSES_ROOT\CLSID\{176F4FFD-F20C-4bd4-BDD7-01D0726C567B}\InProcServer32]
+@="syncmgr.dll"
+
+;ActiveSync AutoDiscovery
+[HKEY_CLASSES_ROOT\CLSID\{229FC7D6-9056-4e26-A8B9-F546D40200AF}]
+
+[HKEY_CLASSES_ROOT\CLSID\{229FC7D6-9056-4e26-A8B9-F546D40200AF}\InProcServer32]
+@="syncmgr.dll"
+
+;AUTD manager
+[HKEY_CLASSES_ROOT\CLSID\{A87FA4A8-339A-48f3-A9B5-44CB8CFEF3F7}]
+
+[HKEY_CLASSES_ROOT\CLSID\{A87FA4A8-339A-48f3-A9B5-44CB8CFEF3F7}\InProcServer32]
+@="syncmgr.dll"
+
+; ---------------------------------------------------------------------------
+; @CESYSGEN ENDIF APPS_MODULES_SYNCMGR
+
+;
+; ---------------------------------------------------------------------------
+; @CESYSGEN IF APPS_MODULES_ACTSYNCC
+
+; ------------------------------------------------------------------------------
+; Sync application and scheduler COM objects
+; ------------------------------------------------------------------------------
+
+[HKEY_CLASSES_ROOT\CLSID\{64FE8D29-91B5-42C4-A7CA-BC2DE782205A}]
+@="Active Sync App"
+[HKEY_CLASSES_ROOT\CLSID\{64FE8D29-91B5-42C4-A7CA-BC2DE782205A}\InProcServer32]
+@="Actsyncc.dll"
+[HKEY_CLASSES_ROOT\CLSID\{4AC99A9B-38DB-450E-A341-F41982E7AF01}]
+@="Active Sync Information"
+[HKEY_CLASSES_ROOT\CLSID\{4AC99A9B-38DB-450E-A341-F41982E7AF01}\InProcServer32]
+@="Actsyncc.dll"
+[HKEY_CLASSES_ROOT\CLSID\{6057E576-113B-4556-AB50-27411D20AA02}]
+@="IRemoteSyncMgr"
+[HKEY_CLASSES_ROOT\CLSID\{6057E576-113B-4556-AB50-27411D20AA02}\InProcServer32]
+@="Actsyncc.dll"
+[HKEY_CLASSES_ROOT\CLSID\{EACF3D24-4217-4D36-AD0F-CBD923D20858}]
+@="IRemoteFetchService"
+[HKEY_CLASSES_ROOT\CLSID\{EACF3D24-4217-4D36-AD0F-CBD923D20858}\InProcServer32]
+@="Actsyncc.dll"
+
+; END: AirSync settings information
+
+;
+; ---------------------------------------------------------------------------
+; @CESYSGEN ENDIF APPS_MODULES_ACTSYNCC
+
+; @CESYSGEN IF APPS_MODULES_TSKSCHEDULE
+    "Launch110"="tskschedule.exe"
+IF IMGTPC
+    "Depend110"=hex:28, 00, 3c, 00, 3d, 00  ; telshell(=0x28)  services(=0x3c) ciphase2(=0x3d)
+ENDIF
+IF IMGPPC
+    "Depend110"=hex:28, 00, 3c, 00, 3d, 00  ; telshell(=0x28)  services(=0x3c) ciphase2(=0x3d)
+ENDIF
+; @CESYSGEN ENDIF APPS_MODULES_TSKSCHEDULE
+
+
+;
+; ---------------------------------------------------------------------------
+; @CESYSGEN IF APPS_MODULES_TSKSCHCSP
+
+; Scheduler CSP
+[HKEY_CLASSES_ROOT\CLSID\{5405E6FA-FB03-454e-BAF3-47BED7F060F5}]
+        @="Task Scheduler CSP"
+
+[HKEY_CLASSES_ROOT\CLSID\{5405E6FA-FB03-454e-BAF3-47BED7F060F5}\InprocServer32]
+        @="tskschcsp.dll"
+
+;
+; The following makes the Scheduler CSP accessible to the new config manager
+;
+[HKEY_LOCAL_MACHINE\Security\Provisioning\CSPs\.\Vendor\MSFT\Scheduler]
+    @="{5405E6FA-FB03-454e-BAF3-47BED7F060F5}"
+
+
+;
+; ---------------------------------------------------------------------------
+; @CESYSGEN ENDIF APPS_MODULES_TSKSCHCSP
+
+
+;
+; ---------------------------------------------------------------------------
+; @CESYSGEN IF APPS_MODULES_SYNCCSP
+
+;
+; Register Sync CSP COM object
+;
+[HKEY_CLASSES_ROOT\CLSID\{bc65ab40-45a5-4103-a9e0-681ffd4ccbe3}\InprocServer32]
+        @="SyncCsp.dll"
+
+;
+; Register Sync CSP with the Config Manager
+;
+[HKEY_CLASSES_ROOT\Sync\CLSID]
+    @="{bc65ab40-45a5-4103-a9e0-681ffd4ccbe3}"
+
+
+;
+; The following makes the Sync CSP accessible to the new config manager via the legacy CSP
+;
+[HKEY_LOCAL_MACHINE\Security\Provisioning\CSPs\.\Vendor\MSFT\Sync]
+@="{DAB192CE-B659-460c-AE27-0F32ECB471D4}"
+
+
+;
+; Sync CSP default settings
+;
+
+; @CESYSGEN IF APPS_MODULES_SERVERSYNC
+;
+; AirSync server
+;
+
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{22C7DA12-F3FD-4875-8344-7786454F6534}\Settings]
+        "ConflictResolution"=dword:1
+        "DeviceAddressingMethod"=dword:1
+        "URI"="Microsoft-Server-ActiveSync"
+        "NotificationsSupported"=dword:0
+
+; Calendar
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{22C7DA12-F3FD-4875-8344-7786454F6534}\Providers\{4a5d9fe0-f139-4a63-a5a4-4f31ceea02ad}]
+        "Enabled"=dword:0
+        "ReadOnly"=dword:1
+        "Available"=dword:0
+        "Name"=LOC_CALENDARNAME
+
+; Contact
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{22C7DA12-F3FD-4875-8344-7786454F6534}\Providers\{0dd8685c-e272-4fcb-9ecf-2ead7ea2497b}]
+        "Enabled"=dword:0
+        "ReadOnly"=dword:1
+        "Available"=dword:0
+        "Name"=LOC_CONTACTSNAME
+
+; Task
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{22C7DA12-F3FD-4875-8344-7786454F6534}\Providers\{783ae4f6-4c12-4423-8270-66361260d4f1}]
+        "Enabled"=dword:0
+        "ReadOnly"=dword:1
+        "Available"=dword:0
+        "Name"=LOC_TASKSNAME
+
+; Mail
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{22C7DA12-F3FD-4875-8344-7786454F6534}\Providers\{c6d47067-6e92-480e-b0fc-4ba82182fac7}]
+        "Enabled"=dword:0
+        "ReadOnly"=dword:1
+        "Available"=dword:0
+        "Name"=LOC_EMAILNAME
+
+; @CESYSGEN IF APPS_MODULES_PIMSTORE
+
+; Calendar
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{22C7DA12-F3FD-4875-8344-7786454F6534}\Providers\{4a5d9fe0-f139-4a63-a5a4-4f31ceea02ad}]
+        "Enabled"=dword:1
+        "ReadOnly"=dword:0
+        "Available"=dword:1
+
+; Contact
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{22C7DA12-F3FD-4875-8344-7786454F6534}\Providers\{0dd8685c-e272-4fcb-9ecf-2ead7ea2497b}]
+        "Enabled"=dword:1
+        "ReadOnly"=dword:0
+        "Available"=dword:1
+ 
+; Task
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{22C7DA12-F3FD-4875-8344-7786454F6534}\Providers\{783ae4f6-4c12-4423-8270-66361260d4f1}]
+        "Enabled"=dword:1
+        "ReadOnly"=dword:0
+        "Available"=dword:1
+ 
+; @CESYSGEN ENDIF APPS_MODULES_PIMSTORE
+
+; @CESYSGEN IF APPS_MODULES_MAILTRNS
+
+; Mail
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{22C7DA12-F3FD-4875-8344-7786454F6534}\Providers\{c6d47067-6e92-480e-b0fc-4ba82182fac7}]
+        "Enabled"=dword:1
+        "ReadOnly"=dword:0
+        "Available"=dword:1
+
+; @CESYSGEN ENDIF APPS_MODULES_MAILTRNS
+
+;-------------------------------------------------------------------------------
+; END AirSync server
+
+; @CESYSGEN ENDIF APPS_MODULES_SERVERSYNC
+
+;
+; AirSync desktop
+;
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{176F4FFD-F20C-4bd4-BDD7-01D0726C567B}\Settings]
+        "ConflictResolution"=dword:1
+        "SyncAfterTimeWhenCradled"=dword:5
+        "DeviceAddressingMethod"=dword:1
+        "URI"="Microsoft-Server-ActiveSync"
+        "NotificationsSupported"=dword:0
+
+; Calendar
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{176F4FFD-F20C-4bd4-BDD7-01D0726C567B}\Providers\{4a5d9fe0-f139-4a63-a5a4-4f31ceea02ad}]
+        "Enabled"=dword:0
+        "ReadOnly"=dword:1
+        "Available"=dword:0
+        "Name"=LOC_CALENDARNAME
+
+; Contact
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{176F4FFD-F20C-4bd4-BDD7-01D0726C567B}\Providers\{0dd8685c-e272-4fcb-9ecf-2ead7ea2497b}]
+        "Enabled"=dword:0
+        "ReadOnly"=dword:1
+        "Available"=dword:0
+        "Name"=LOC_CONTACTSNAME
+
+; Task
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{176F4FFD-F20C-4bd4-BDD7-01D0726C567B}\Providers\{783ae4f6-4c12-4423-8270-66361260d4f1}]
+        "Enabled"=dword:0
+        "ReadOnly"=dword:1
+        "Available"=dword:0
+        "Name"=LOC_TASKSNAME
+
+
+; Mail
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{176F4FFD-F20C-4bd4-BDD7-01D0726C567B}\Providers\{c6d47067-6e92-480e-b0fc-4ba82182fac7}]
+        "Enabled"=dword:0
+        "ReadOnly"=dword:1
+        "Available"=dword:0
+        "Name"=LOC_EMAILNAME
+     
+; @CESYSGEN IF APPS_MODULES_PIMSTORE
+
+; Calendar
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{176F4FFD-F20C-4bd4-BDD7-01D0726C567B}\Providers\{4a5d9fe0-f139-4a63-a5a4-4f31ceea02ad}]
+        "Enabled"=dword:1
+        "ReadOnly"=dword:0
+        "Available"=dword:1
+
+; Contact
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{176F4FFD-F20C-4bd4-BDD7-01D0726C567B}\Providers\{0dd8685c-e272-4fcb-9ecf-2ead7ea2497b}]
+        "Enabled"=dword:1
+        "ReadOnly"=dword:0
+        "Available"=dword:1
+
+; Task
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{176F4FFD-F20C-4bd4-BDD7-01D0726C567B}\Providers\{783ae4f6-4c12-4423-8270-66361260d4f1}]
+        "Enabled"=dword:1
+        "ReadOnly"=dword:0
+        "Available"=dword:1
+
+; @CESYSGEN ENDIF APPS_MODULES_PIMSTORE
+
+; @CESYSGEN IF APPS_MODULES_MAILTRNS
+
+; MAIL
+[HKEY_LOCAL_MACHINE\System\ActiveSync\Engines\{176F4FFD-F20C-4bd4-BDD7-01D0726C567B}\Providers\{c6d47067-6e92-480e-b0fc-4ba82182fac7}]
+        "Enabled"=dword:1
+        "ReadOnly"=dword:0
+        "Available"=dword:1
+
+; @CESYSGEN ENDIF APPS_MODULES_MAILTRNS
+
+;-------------------------------------------------------------------------------
+; END AirSync desktop
+
+
+;
+; ---------------------------------------------------------------------------
+; @CESYSGEN ENDIF APPS_MODULES_SYNCCSP
+
+
+
+; @CESYSGEN IF APPS_MODULES_SYNCLAP
+; ---------------------------------------------------------------------------
+
+; Turn off password enforcement
+[HKEY_LOCAL_MACHINE\Security\Policies\Policies]
+"00001023"=dword:1
+
+; erase previous default
+[HKEY_LOCAL_MACHINE\Comm\Security\LASSD\LAP]
+"ActiveLap"=- 
+
+[HKEY_LOCAL_MACHINE\Comm\Security\LASSD\LAP]
+"ActiveLap"="synclap"
+
+[HKEY_LOCAL_MACHINE\Comm\Security\LASSD\LOCKOUT]
+"Threshold"=dword:8
+"InitialPenalty"=dword:0
+"IncrementalPenalty"=dword:1
+
+[HKEY_LOCAL_MACHINE\Comm\Security\LASSD]
+"CodeWord"="a1b2c3"
+"CodeWordFrequency"=dword:8
+
+[HKEY_LOCAL_MACHINE\Comm\Security\Policy\LASSD\LAP\synclap]
+"ComplexElements"=dword:3
+"MinimumPasswordLength"=dword:7
+"PasswordComplexity"=dword:2
+
+[HKEY_LOCAL_MACHINE\Comm\Security\LASSD\LAP\synclap]
+"Dll"="synclap.dll"
+
+[HKEY_LOCAL_MACHINE\Comm\Security\LASSD\AuthReset]
+"Dll"="\\Windows\\synclap.dll"
+
+;AE_IDLE
+; Until idle time is fully integrated into LASS, the shell uses this setting
+[HKEY_LOCAL_MACHINE\Comm\Security\LASSD\AE\{50C13377-C66D-400C-889E-C316FC4AB374}]
+"FriendlyName"="Idle Timeout"
+"DisplayText"="Idle Timeout"
+; FT_Every_FV
+"AEFrequencyType"=dword:0
+"AEFrequencyValue"=dword:0
+
+;AE_ENROLL
+; Used to authenticate when we are about to enroll
+[HKEY_LOCAL_MACHINE\Comm\Security\LASSD\AE\{7D6858EA-B54D-41E7-BB91-B98C486C0333}]
+"FriendlyName"="Enroll Authentication"
+"DisplayText"="Enroll Authentication"
+; Every time
+"AEFrequencyType"=dword:0
+"AEFrequencyValue"=dword:0
+
+;AE_LOCK_SHELL
+; Used on boot and resume (PPC) or device lock (SP)
+[HKEY_LOCAL_MACHINE\Comm\Security\LASSD\AE\{407750EC-26CE-4BE3-8071-8BFEC57241D8}]
+"FriendlyName"="Shell Lock"
+"DisplayText"="Shell Lock"
+; Every time
+"AEFrequencyType"=dword:0
+"AEFrequencyValue"=dword:0
+
+; Policy listener
+; Each subkey specifies a policy to listen for
+; Values:
+;    Key - (opt) 0 | 1, 1=HKEY_CURRENT_USER, 0 or non-existent=HKEY_LOCAL_MACHINE
+;    SubKey - Path to policy
+;    ValueName - Name of policy value
+;    CopyKey - (opt) 0 | 1, same as Key. If non-existent, uses Key
+;    CopySubKey - (opt) Path to copy policy value when changed. If non-existent, uses SubKey
+;    CopyValueName - (opt) Name of value to store copy of policy value when changed. If non-existent, uses ValueName
+;    PolicyType - 
+;         0 - Standard (default if not present). Copy key is updated if master policy is on.
+;         1 - Idle. Idle config is refreshed. In all other policy types, the standard config is refreshed.
+;         2 - Master. Reserved for use by the master policy.
+;         3 - AlwaysReload. Always reloads the LAP regardless of whether the master policy is on.
+;    PolicyAttributes - combination of flags
+;         0 - Normal (default if not present).
+;         1 - PolicyDelete. Copy key is updated if master policy is on and deleted if master policy is off.
+;         2 - PolicyIgnore. Copy key is updated if master policy is on but not deleted if the original policy is deleted.
+; If CopyKey, CopySubKey, or CopyValueName are present, the value will be copied when it is changed (with the noted
+; exceptions in PolicyDelete and PolicyIgnore).
+
+; Master policy (registry for policy SECPOLICY_LASS_PWD_REQUIRED)
+[HKEY_LOCAL_MACHINE\Comm\Security\Policy\Listener\0]
+"SubKey"="Security\\Policies\\Policies"
+"ValueName"="00001023"
+"PolicyType"=dword:2
+
+; Standard policies
+[HKEY_LOCAL_MACHINE\Comm\Security\Policy\Listener\1]
+"SubKey"="Comm\\Security\\Policy\\LASSD\\LAP\\synclap"
+"ValueName"="PasswordComplexity"
+
+[HKEY_LOCAL_MACHINE\Comm\Security\Policy\Listener\2]
+"SubKey"="Comm\\Security\\Policy\\LASSD\\LAP\\synclap"
+"ValueName"="MinimumPasswordLength"
+
+[HKEY_LOCAL_MACHINE\Comm\Security\Policy\Listener\3]
+"SubKey"="Comm\\Security\\Policy\\LASSD\\LAP\\synclap"
+"ValueName"="ComplexElements"
+
+[HKEY_LOCAL_MACHINE\Comm\Security\Policy\Listener\4]
+"SubKey"="Comm\\Security\\Policy\\LASSD"
+"ValueName"="CodeWordFrequency"
+"CopySubKey"="Comm\\Security\\LASSD"
+"PolicyAttributes"=dword:2
+
+[HKEY_LOCAL_MACHINE\Comm\Security\Policy\Listener\5]
+"SubKey"="Comm\\Security\\Policy\\LASSD"
+"ValueName"="DeviceWipeThreshold"
+"CopySubKey"="Comm\\Security\\LASSD"
+"PolicyAttributes"=dword:1
+
+; Idle policies
+[HKEY_LOCAL_MACHINE\Comm\Security\Policy\Listener\6]
+"SubKey"="Comm\\Security\\Policy\\LASSD\\AE\\{50C13377-C66D-400C-889E-C316FC4AB374}"
+"ValueName"="AEFrequencyType"
+"PolicyType"=dword:1
+
+[HKEY_LOCAL_MACHINE\Comm\Security\Policy\Listener\7]
+"SubKey"="Comm\\Security\\Policy\\LASSD\\AE\\{50C13377-C66D-400C-889E-C316FC4AB374}"
+"ValueName"="AEFrequencyValue"
+"PolicyType"=dword:1
+
+[HKEY_LOCAL_MACHINE\Comm\Security\Policy\Listener\8]
+"SubKey"="Comm\\Security\\LASSD\\LAP"
+"ValueName"="ActiveLap"
+"PolicyType"=dword:3
+
+;
+; ---------------------------------------------------------------------------
+; @CESYSGEN ENDIF APPS_MODULES_SYNCLAP
+
+
+;
+; @CESYSGEN IF APPS_MODULES_SYNCMGR
+
+
+; ActiveSync Transport is always initialized by Inbox.
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Inbox\Svc\ActiveSync]
+    "Name"="ActiveSync"
+    "DLL"="syncmgr.dll"
+    "UserCannotCreate"=dword:1
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Inbox\Svc\ActiveSync\MsgClasses]
+    "IPM.Note"=dword:1
+
+IF IMGTPC
+; ---------------------------------------------------------------------------
+;
+; BEGIN: Sync Manager providers registry information
+
+; Contacts Sync Manager Provider
+[HKEY_CLASSES_ROOT\CLSID\{3085FACE-4C83-497d-80EC-E2DE2B7295C9}]
+@="Contacts Sync Manager Provider"
+[HKEY_CLASSES_ROOT\CLSID\{3085FACE-4C83-497d-80EC-E2DE2B7295C9}\InProcServer32]
+@="syncmgr.dll"
+[HKEY_CLASSES_ROOT\ContactsSyncMgrProvider]
+@="Contacts Sync Manager Provider"
+[HKEY_CLASSES_ROOT\ContactsSyncMgrProvider\CLSID]
+@="{3085FACE-4C83-497d-80EC-E2DE2B7295C9}"
+
+; Calendar Sync Manager Provider
+[HKEY_CLASSES_ROOT\CLSID\{208067F4-CD6D-4042-AA0D-EBEA00714318}]
+@="Calendar Sync Manager Provider"
+[HKEY_CLASSES_ROOT\CLSID\{208067F4-CD6D-4042-AA0D-EBEA00714318}\InProcServer32]
+@="syncmgr.dll"
+[HKEY_CLASSES_ROOT\CalendarSyncMgrProvider]
+@="Calendar Sync Manager Provider"
+[HKEY_CLASSES_ROOT\CalendarSyncMgrProvider\CLSID]
+@="{208067F4-CD6D-4042-AA0D-EBEA00714318}"
+
+; Inbox Sync Manager Provider
+[HKEY_CLASSES_ROOT\CLSID\{944C16C0-DC2B-4C00-91B5-C914A440473B}]
+@="Inbox Sync Manager Provider"
+[HKEY_CLASSES_ROOT\CLSID\{944C16C0-DC2B-4C00-91B5-C914A440473B}\InProcServer32]
+@="syncmgr.dll"
+[HKEY_CLASSES_ROOT\InboxSyncMgrProvider]
+@="Inbox Sync Manager Provider"
+[HKEY_CLASSES_ROOT\InboxSyncMgrProvider\CLSID]
+@="{944C16C0-DC2B-4C00-91B5-C914A440473B}"
+
+; Interface to get the Mapi and server configurations
+[HKEY_CLASSES_ROOT\CLSID\{FF3FCF9F-8831-45a1-95F7-E934E7A5D70C}]
+@="Mapi and server configurations"
+[HKEY_CLASSES_ROOT\CLSID\{FF3FCF9F-8831-45a1-95F7-E934E7A5D70C}\InProcServer32]
+@="syncmgr.dll"
+[HKEY_CLASSES_ROOT\MapiandServerConfigurations]
+@="Interface to get the Mapi and server configurations"
+[HKEY_CLASSES_ROOT\MapiandServerConfigurations\CLSID]
+@="{FF3FCF9F-8831-45a1-95F7-E934E7A5D70C}"
+
+; Config for Peak Time listener
+[HKEY_CLASSES_ROOT\CLSID\{C6BF678D-239F-40bb-9A82-572F4401BACE}]
+@="Listener for Peak Time config"
+[HKEY_CLASSES_ROOT\CLSID\{C6BF678D-239F-40bb-9A82-572F4401BACE}\InProcServer32]
+@="syncmgr.dll"
+[HKEY_CLASSES_ROOT\PeakTimeCPLListener]
+@="Listener for Peak Time config"
+[HKEY_CLASSES_ROOT\PeakTimeCPLListener\CLSID]
+@="{C6BF678D-239F-40bb-9A82-572F4401BACE}"
+
+; END: Sync Manager providers registry information
+;
+; ---------------------------------------------------------------------------
+
+ENDIF ; IMGTPC
+
+; ---------------------------------------------------------------------------
+;
+; BEGIN: Sync Manager providers registry information
+
+; Contacts Sync Manager Provider
+[HKEY_CLASSES_ROOT\CLSID\{3085FACE-4C83-497d-80EC-E2DE2B7295C9}]
+@="Contacts Sync Manager Provider"
+[HKEY_CLASSES_ROOT\CLSID\{3085FACE-4C83-497d-80EC-E2DE2B7295C9}\InProcServer32]
+@="syncmgr.dll"
+[HKEY_CLASSES_ROOT\ContactsSyncMgrProvider]
+@="Contacts Sync Manager Provider"
+[HKEY_CLASSES_ROOT\ContactsSyncMgrProvider\CLSID]
+@="{3085FACE-4C83-497d-80EC-E2DE2B7295C9}"
+
+; Calendar Sync Manager Provider
+[HKEY_CLASSES_ROOT\CLSID\{208067F4-CD6D-4042-AA0D-EBEA00714318}]
+@="Calendar Sync Manager Provider"
+[HKEY_CLASSES_ROOT\CLSID\{208067F4-CD6D-4042-AA0D-EBEA00714318}\InProcServer32]
+@="syncmgr.dll"
+[HKEY_CLASSES_ROOT\CalendarSyncMgrProvider]
+@="Calendar Sync Manager Provider"
+[HKEY_CLASSES_ROOT\CalendarSyncMgrProvider\CLSID]
+@="{208067F4-CD6D-4042-AA0D-EBEA00714318}"
+
+IF IMGPPC
+; Tasks Sync Manager Provider
+[HKEY_CLASSES_ROOT\CLSID\{6555EA1D-660E-496d-B556-F549D519B50E}]
+@="Tasks Sync Manager Provider"
+[HKEY_CLASSES_ROOT\CLSID\{6555EA1D-660E-496d-B556-F549D519B50E}\InProcServer32]
+@="syncmgr.dll"
+[HKEY_CLASSES_ROOT\TasksSyncMgrProvider]
+@="Tasks Sync Manager Provider"
+[HKEY_CLASSES_ROOT\TasksSyncMgrProvider\CLSID]
+@="{6555EA1D-660E-496d-B556-F549D519B50E}"
+ENDIF ; IMGPPC
+
+; Inbox Sync Manager Provider
+[HKEY_CLASSES_ROOT\CLSID\{944c16c0-dc2b-4c00-91b5-c914a440473b}]
+@="Inbox Sync Manager Provider"
+[HKEY_CLASSES_ROOT\CLSID\{944c16c0-dc2b-4c00-91b5-c914a440473b}\InProcServer32]
+@="syncmgr.dll"
+[HKEY_CLASSES_ROOT\InboxSyncMgrProvider]
+@="Inbox Sync Manager Provider"
+[HKEY_CLASSES_ROOT\InboxSyncMgrProvider\CLSID]
+@="{944c16c0-dc2b-4c00-91b5-c914a440473b}"
+
+; END: Sync Manager providers registry information
+;
+; ---------------------------------------------------------------------------
+; @CESYSGEN ENDIF APPS_MODULES_SYNCMGR
+
+
+
+
+; @CESYSGEN IF APPS_MODULES_COREDPUS
+; @CESYSGEN ENDIF APPS_MODULES_COREDPUS
+
+; @CESYSGEN IF APPS_MODULES_WCELOAD1 || APPS_MODULES_APPINSTALLER
+; @CESYSGEN ENDIF APPS_MODULES_WCELOAD1 || APPS_MODULES_APPINSTALLER
+
+; @CESYSGEN IF APPS_MODULES_APPINSTALLER
+; @CESYSGEN ENDIF APPS_MODULES_APPINSTALLER
+
+; @CESYSGEN IF APPS_MODULES_CABINSTL
+; @CESYSGEN ENDIF APPS_MODULES_CABINSTL
+
+
+; @CESYSGEN IF APPS_MODULES_PIMUTIL
+
+IF IMGPPC
+;
+; Default notification settings for appt/tasks
+;
+; These set ActionFlags to PUN_DIALOG and no sound/multimedia
+; because multimedia is done by notifapi on PPC
+;
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Calendar\Reminder]
+"DEFAULTS"=hex:\
+      0f,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,04,00,00,00,00,00,00,00,00,\
+      00,00,00,FF,FF,FF,FF,00,00,00,00,00,00,00,00
+"WAVEFILE"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Tasks\Reminder]
+"DEFAULTS"=hex:\
+      20,fe,ff,ff,00,00,00,00,01,00,00,00,00,00,00,00,04,00,00,00,00,00,00,00,00,\
+      00,00,00,FF,FF,FF,FF,00,00,00,00,00,00,00,00
+"WAVEFILE"=""
+
+ENDIF ; IMGPPC
+
+; FileAs format patterns for non east asia characters
+; There must be no duplicated format string in one pattern.
+;
+; About FileAs format strings
+;    These are the permutation strings used for the FileAs field in contacts
+;
+;    the format of these strings are as follows:
+;    <required fields>:<format string>
+;    required fields - list of field indexes that are required for a format string
+;            to be valid. Each index is a single digit 0-9 (if we end up with more
+;            than 10 fields we can start using letters...)
+;            Substitutable fields (a group of fields that are considered equivalent - 
+;            only one field from each group is required) can be entered by enclosing
+;            them in matching pairs of '[' and ']'. See examples below.
+;
+;            Note however that there must be at least 1 field enclosed; current
+;            implementation will always consider 0 fields enclosed to be invalid.
+;            Nesting of substitutable fields is not supported.
+;
+;            Example:
+;                43          - Field 4 and 3 must be valid.
+;                [43]        - Field 4 or 3 must be valid.
+;                4[13]       - Field 4 and (field 1 or 3) must be valid.
+;                4[13][56]   - Field 4 and (field 1 or 3) and (field 5 or 6) must be valid.
+;                4[]         - This is always considered to be invalid.
+;                4[1[23]]    - This is not supported.
+;
+;    : - terminator of the required fields
+;
+;    <format string> - string in Win32 FormatMessage() format.  Available fields
+;            are as follows:
+;                1 First
+;                2 Middle
+;                3 Last
+;                4 Company
+;                5 YomiFirst
+;                6 YomiLast
+;                7 YomiCompany
+;                8 Suffix
+;    After the string is formatted, it is cleaned up by removing any trailing
+;    spaces, multiple spaces, trailing commas, commas followed by a ')',
+;    spaces and commas followed after a '('
+;
+;     if registry reading fails, this set of fileas formats will be used
+;
+[HKEY_LOCAL_MACHINE\security\ContactsApp\FileAs\Patterns]
+    "Pattern_0"=multi_sz:  "3:%3, %1 %2",
+                           "[128]:%1 %2 %3 %8",
+                           "4[13]:%3, %1 %2 (%4)",
+                           "4[13]:%4 (%3, %1 %2)",
+                           "4:%4"
+                      
+    "Pattern_1"=multi_sz:  "[13]:%3%1 %2",
+                           "8[13]:%3%1 %2 %8",
+                           "4[13]:%3%1 %2 (%4)",
+                           "4[13]:%4 (%3%1 %2)",
+                           "4:%4"
+                      
+    "Pattern_2"=multi_sz:  "[13]:%3%1 %2",
+                           "8[13]:%3%1 %2 %8",
+                           "4[13]:%3%1 %2 (%4)",
+                           "4[13]:%4 (%3%1 %2)",
+                           "13:%3 %1 %2",
+                           "138:%3 %1 %2 %8",
+                           "134:%3 %1 %2 (%4)",
+                           "134:%4 (%3 %1 %2)",
+                           "4:%4"
+
+    "Pattern_3"=multi_sz:  "[13]:%3 %1 %2",
+                           "8[13]:%3 %1 %2 %8",
+                           "4[13]:%3 %1 %2 (%4)",
+                           "4[13]:%4 (%3 %1 %2)",
+                           "13:%3%1 %2",
+                           "138:%3%1 %2 %8",
+                           "134:%3%1 %2 (%4)",
+                           "134:%4 (%3%1 %2)",
+                           "4:%4"
+
+; YOMI FileAs formats
+; YOMI FileAs is a pronunciation of FileAs so they should match according to following rules:
+;    1) Every FileAs pattern should have a YOMI translation;
+;    2) The string count of FileAs pattern and its YOMI translation are equal;
+;    3) The translation must be meaningful:
+;           a) First Name --> YOMI First   (%1 --> %5);
+;           b) Last Name  --> YOMI Last    (%3 --> %6);
+;           c) Company    --> YOMI Company (%4 --> %7);
+;           d) Other fields are ignored;
+;           e) The field order must be the same;
+;    4) Duplicated format strings are allowed in one pattern;
+;    5) The fields requirement should more relaxed than FileAs so that the corresponding YOMI is always available.
+;       e.g
+;       FileAs requires 13, YOMI FileAs requirement can be 56, [5]6, 5[6] or [56] but cannot be 567.
+[HKEY_LOCAL_MACHINE\security\ContactsApp\FileAs\Patterns\Yomi]
+    "Pattern_0"=multi_sz:  "[56]:%6 %5",
+                           "[56]:%5 %6",
+                           "7[56]:%6 %5 (%7)",
+                           "7[56]:%7 (%6 %5)",
+                           "7:%7"
+                      
+    "Pattern_1"=multi_sz:  "[56]:%6 %5",
+                           "[56]:%6 %5",
+                           "7[56]:%6 %5 (%7)",
+                           "7[56]:%7 (%6 %5)",
+                           "7:%7"
+                      
+    "Pattern_2"=multi_sz:  "[56]:%6 %5",
+                           "[56]:%6 %5",
+                           "7[56]:%6 %5 (%7)",
+                           "7[56]:%7 (%6 %5)",
+                           "[56]:%6 %5",
+                           "[56]:%6 %5",
+                           "7[56]:%6 %5 (%7)",
+                           "7[56]:%7 (%6 %5)",
+                           "7:%7"
+                      
+    "Pattern_3"=multi_sz:  "[56]:%6 %5",
+                           "[56]:%6 %5",
+                           "7[56]:%6 %5 (%7)",
+                           "7[56]:%7 (%6 %5)",
+                           "[56]:%6 %5",
+                           "[56]:%6 %5",
+                           "7[56]:%6 %5 (%7)",
+                           "7[56]:%7 (%6 %5)",
+                           "7:%7"
+                                            
+[HKEY_LOCAL_MACHINE\security\ContactsApp\FileAs\Settings]
+    "default"="Pattern_0"
+
+[HKEY_LOCAL_MACHINE\security\ContactsApp\FileAs\Settings\EastAsia]
+    "04"="Pattern_1"
+    "12"="Pattern_2"
+    "default"="Pattern_3"
+    
+;
+; Default Name building pattern for non EastAsia characters.
+;
+[HKEY_LOCAL_MACHINE\Security\ContactsApp\SummaryCard\Settings\NamePattern]
+    "04"=dword:00000002
+    "12"=dword:00000002
+    "EADefault"=dword:00000001
+    "0"=dword:00000000
+
+; @CESYSGEN ENDIF APPS_MODULES_PIMUTIL
+
+
+
+
+
+

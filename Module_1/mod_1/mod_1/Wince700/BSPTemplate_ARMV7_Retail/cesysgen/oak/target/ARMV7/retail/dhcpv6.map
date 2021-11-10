@@ -1,0 +1,651 @@
+ dhcpv6
+
+ Timestamp is 5cafa2ba (Thu Apr 11 13:25:30 2019)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 000016c4H .rdata                  CODE
+ 0001:000016e4 00000023H .rdata$debug            CODE
+ 0001:00001708 000171e4H .text                   CODE
+ 0001:000188ec 00000178H .xdata                  CODE
+ 0001:00018a64 00000050H .idata$2                CODE
+ 0001:00018ab4 00000014H .idata$3                CODE
+ 0001:00018ac8 00000194H .idata$4                CODE
+ 0001:00018c5c 00000288H .idata$6                CODE
+ 0001:00018ef0 000000afH .edata                  CODE
+ 0002:00000000 00000194H .idata$5                DATA
+ 0002:00000198 0000137cH .data                   DATA
+ 0002:00001520 00000868H .bss                    DATA
+ 0003:00000000 00000860H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:000001bc       ??_C@_1BI@FECMEILP@?$AAI?$AAp?$AAv?$AA6?$AAA?$AAd?$AAd?$AAr?$AAe?$AAs?$AAs?$AA?$AA@ 100011bc     dhcp.obj
+ 0001:00000298       ??_C@_1BO@OPLNFIFM@?$AAD?$AAh?$AAc?$AAp?$AAv?$AA6?$AAI?$AAa?$AAn?$AAa?$AAA?$AAd?$AAd?$AAr?$AA?$AA@ 10001298     dhcp.obj
+ 0001:000002b8       ??_C@_1BO@FLDILOKL@?$AAD?$AAh?$AAc?$AAp?$AAv?$AA6?$AAI?$AAa?$AAt?$AAa?$AAA?$AAd?$AAd?$AAr?$AA?$AA@ 100012b8     dhcp.obj
+ 0001:000002d8       ??_C@_1CC@KFMFIGHL@?$AAD?$AAh?$AAc?$AAp?$AAv?$AA6?$AAI?$AAa?$AAn?$AAa?$AAL?$AAe?$AAa?$AAs?$AAe?$AAs?$AA?$AA@ 100012d8     dhcp.obj
+ 0001:000002fc       ??_C@_1CC@JJODBPOM@?$AAD?$AAh?$AAc?$AAp?$AAv?$AA6?$AAI?$AAa?$AAt?$AAa?$AAL?$AAe?$AAa?$AAs?$AAe?$AAs?$AA?$AA@ 100012fc     dhcp.obj
+ 0001:00000320       ??_C@_1BC@MCKNHLPE@?$AAD?$AAh?$AAc?$AAp?$AAv?$AA6?$AAT?$AA2?$AA?$AA@ 10001320     dhcp.obj
+ 0001:00000334       ??_C@_1BC@NABINEBK@?$AAD?$AAh?$AAc?$AAp?$AAv?$AA6?$AAT?$AA1?$AA?$AA@ 10001334     dhcp.obj
+ 0001:00000348       ??_C@_1CA@LGAPOGAO@?$AAD?$AAh?$AAc?$AAp?$AAv?$AA6?$AAI?$AAa?$AAt?$AAa?$AAI?$AAa?$AAi?$AAd?$AAs?$AA?$AA@ 10001348     dhcp.obj
+ 0001:00000368       ??_C@_1CC@GMAFAOOB@?$AAD?$AAh?$AAc?$AAp?$AAv?$AA6?$AAS?$AAe?$AAr?$AAv?$AAe?$AAr?$AAD?$AAU?$AAI?$AAD?$AA?$AA@ 10001368     dhcp.obj
+ 0001:0000038c       ??_C@_1CA@KEJLGCLM@?$AAD?$AAh?$AAc?$AAp?$AAv?$AA6?$AAI?$AAa?$AAn?$AAa?$AAI?$AAa?$AAi?$AAd?$AAs?$AA?$AA@ 1000138c     dhcp.obj
+ 0001:000003ac       ??_C@_1DC@CFLOFLHG@?$AAD?$AAh?$AAc?$AAp?$AAv?$AA6?$AAM?$AAa?$AAx?$AAL?$AAe?$AAa?$AAs?$AAe?$AAE?$AAx?$AAp?$AAi?$AAr?$AAe?$AAT?$AAi?$AAm?$AAe?$AA?$AA@ 100013ac     dhcp.obj
+ 0001:000003e0       ??_C@_1CO@LCMOJENP@?$AAD?$AAh?$AAc?$AAp?$AAv?$AA6?$AAS?$AAe?$AAr?$AAv?$AAe?$AAr?$AAP?$AAr?$AAe?$AAf?$AAe?$AAr?$AAe?$AAn?$AAc?$AAe?$AA?$AA@ 100013e0     dhcp.obj
+ 0001:00000410       ??_C@_1CO@OAHDKOKE@?$AAD?$AAh?$AAc?$AAp?$AAv?$AA6?$AAI?$AAs?$AAU?$AAn?$AAi?$AAc?$AAa?$AAs?$AAt?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AAd?$AA?$AA@ 10001410     dhcp.obj
+ 0001:00000440       ??_C@_1DA@MGEPBBPI@?$AAD?$AAh?$AAc?$AAp?$AAv?$AA6?$AAL?$AAe?$AAa?$AAs?$AAe?$AAO?$AAb?$AAt?$AAa?$AAi?$AAn?$AAe?$AAd?$AAT?$AAi?$AAm?$AAe?$AA?$AA@ 10001440     dhcp.obj
+ 0001:00000470       ??_C@_1BI@EKBNHPIM@?$AAD?$AAh?$AAc?$AAp?$AAv?$AA6?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?$AA@ 10001470     dhcp.obj
+ 0001:00000488       ??_C@_09FKADFCPK@FF02?3?31?32?$AA@ 10001488     dhcp.obj
+ 0001:00000494       ??_C@_1CI@BOMKCLKP@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AA?$CF?$AAs?$AA?2?$AAP?$AAa?$AAr?$AAm?$AAs?$AA?2?$AAT?$AAc?$AAp?$AAi?$AAp?$AA?$AA@ 10001494     dhcp.obj
+ 0001:000004bc       ??_C@_08LGOHILAI@MSFT?55?40?$AA@ 100014bc     dhcp.obj
+ 0001:000004c8       ??_C@_1BG@KNCFKHMC@?$AAD?$AAh?$AAc?$AAp?$AAv?$AA6?$AAI?$AAa?$AAi?$AAd?$AA?$AA@ 100014c8     dhcp.obj
+ 0001:000005a0       __real@3f600000            100015a0     protocol.obj
+ 0001:000005a4       __real@3fe999999999999a    100015a4     protocol.obj
+ 0001:000005ac       __real@3fe0000000000000    100015ac     protocol.obj
+ 0001:000005b4       ??_C@_1CK@GNDBJCHC@?$AAD?$AAh?$AAc?$AAp?$AAv?$AA6?$AAU?$AAs?$AAe?$AAI?$AAn?$AAf?$AAo?$AAR?$AAe?$AAq?$AAu?$AAe?$AAs?$AAt?$AA?$AA@ 100015b4     dhcpreg.obj
+ 0001:000005e0       ??_C@_1DO@FHEDFBHB@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAT?$AAc?$AAp?$AAi?$AAp?$AA6?$AA?2?$AAD?$AAh?$AAc?$AAp?$AA?2?$AAP?$AAa?$AAr?$AAm?$AAs?$AA?2?$AAO?$AAp?$AAt?$AAi?$AAo?$AAn?$AAs?$AA?$AA@ 100015e0     dhcpreg.obj
+ 0001:00000620       ??_C@_1DK@MHDONHIK@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAT?$AAc?$AAp?$AAi?$AAp?$AA6?$AA?2?$AAP?$AAa?$AAr?$AAm?$AAs?$AA?2?$AAI?$AAn?$AAt?$AAe?$AAr?$AAf?$AAa?$AAc?$AAe?$AAs?$AA?$AA@ 10001620     dhcpreg.obj
+ 0001:0000065c       ??_C@_1CE@PNBDFFDN@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAT?$AAc?$AAp?$AAi?$AAp?$AA6?$AA?2?$AAP?$AAa?$AAr?$AAm?$AAs?$AA?$AA@ 1000165c     dhcpreg.obj
+ 0001:00000680       ??_C@_1CO@MLBILOJM@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAT?$AAc?$AAp?$AAi?$AAp?$AA6?$AA?2?$AAD?$AAh?$AAc?$AAp?$AA?2?$AAP?$AAa?$AAr?$AAm?$AAs?$AA?$AA@ 10001680     dhcpreg.obj
+ 0001:00000770       ??_C@_1BG@POMCNLPN@?$AAD?$AAh?$AAc?$AAp?$AAv?$AA6?$AAD?$AAU?$AAI?$AAD?$AA?$AA@ 10001770     dhcpreg.obj
+ 0001:00000788       ??_C@_1EK@DCACEKKP@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AA?$DP?$AA?2?$AAP?$AAa?$AAr?$AAm?$AAs?$AA?2?$AAT?$AAc?$AAp?$AAi?$AAp?$AA?2?$AAD?$AAh?$AAc?$AAp?$AAv?$AA6?$AAC?$AAl?$AAa?$AAs?$AAs?$AAI?$AAd@ 10001788     dhcpreg.obj
+ 0001:000007d4       ??_C@_1DE@JBEAAKFJ@?$AAD?$AAh?$AAc?$AAp?$AAv?$AA6?$AAC?$AAl?$AAi?$AAe?$AAn?$AAt?$AAC?$AAl?$AAa?$AAs?$AAs?$AAL?$AAo?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 100017d4     dhcpreg.obj
+ 0001:00000808       ??_C@_1BI@FHIDPOFF@?$AAD?$AAh?$AAc?$AAp?$AAU?$AAs?$AAe?$AAU?$AAT?$AAF?$AA8?$AA?$AA@ 10001808     dhcpreg.obj
+ 0001:00000820       ??_C@_1DA@DHDGGMEL@?$AAD?$AAh?$AAc?$AAp?$AAv?$AA6?$AAR?$AAe?$AAl?$AAe?$AAa?$AAs?$AAe?$AAO?$AAn?$AAS?$AAh?$AAu?$AAt?$AAd?$AAo?$AAw?$AAn?$AA?$AA@ 10001820     dhcpreg.obj
+ 0001:00000850       ??_C@_1CO@JENIJEBP@?$AAD?$AAh?$AAc?$AAp?$AAv?$AA6?$AAI?$AAn?$AAt?$AAe?$AAr?$AAf?$AAa?$AAc?$AAe?$AAO?$AAp?$AAt?$AAi?$AAo?$AAn?$AAs?$AA?$AA@ 10001850     dhcpreg.obj
+ 0001:00000880       ??_C@_1BG@JELGADA@?$AAI?$AAn?$AAt?$AAe?$AAr?$AAf?$AAa?$AAc?$AAe?$AAs?$AA?$AA@ 10001880     dhcpreg.obj
+ 0001:00000a08       ??_C@_19NMAFMAH@?$AA?5?$AA?5?$AA?5?$AA?5?$AA?$AA@ 10001a08     util.obj
+ 0001:00000ad4       ??_C@_1O@OAMNPMOM@?$AAD?$AAo?$AAm?$AAa?$AAi?$AAn?$AA?$AA@ 10001ad4     dyndns.obj
+ 0001:00000ae4       ??_C@_15KDHFELOM@?$AA?5?$AA?0?$AA?$AA@ 10001ae4     dyndns.obj
+ 0001:00000aec       ??_C@_1BG@KBCGEDDL@?$AAN?$AAa?$AAm?$AAe?$AAS?$AAe?$AAr?$AAv?$AAe?$AAr?$AA?$AA@ 10001aec     dyndns.obj
+ 0001:00000bc8       ??_C@_1JC@LCCHKFDE@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAT?$AAc?$AAp?$AAi?$AAp?$AA6?$AA?2?$AAP?$AAa?$AAr?$AAm?$AAs?$AA?2?$AAD?$AAh?$AAc?$AAp?$AAv?$AA6?$AAD?$AAN?$AAS?$AAS?$AAe?$AAr?$AAv?$AAe@ 10001bc8     optreg.obj
+ 0001:00000c60       ??_C@_1KK@HMNDAJOM@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAT?$AAc?$AAp?$AAi?$AAp?$AA6?$AA?2?$AAP?$AAa?$AAr?$AAm?$AAs?$AA?2?$AAD?$AAh?$AAc?$AAp?$AAv?$AA6?$AAD?$AAo?$AAm?$AAa?$AAi?$AAn?$AAS?$AAe@ 10001c60     optreg.obj
+ 0001:00000d10       ??_C@_1IC@HDDLHBKP@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAT?$AAc?$AAp?$AAi?$AAp?$AA6?$AA?2?$AAP?$AAa?$AAr?$AAm?$AAs?$AA?2?$AAD?$AAh?$AAc?$AAp?$AAV?$AA6?$AAD?$AAo?$AAm?$AAa?$AAi?$AAn?$AA?$AA?$AAC@ 10001d10     optreg.obj
+ 0001:00000d98       ??_C@_1FE@LICCFGKN@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AA?$DP?$AA?2?$AAP?$AAa?$AAr?$AAm?$AAs?$AA?2?$AAT?$AAc?$AAp?$AAi?$AAp?$AA?2?$AAD?$AAH?$AAC?$AAP?$AAV?$AA6?$AAR?$AAe?$AAq?$AAu?$AAe?$AAs?$AAt@ 10001d98     optreg.obj
+ 0001:00000dec       ??_C@_1CC@MHBLPAI@?$AAD?$AAh?$AAc?$AAp?$AAV?$AA6?$AAD?$AAo?$AAm?$AAa?$AAi?$AAn?$AAL?$AAi?$AAs?$AAt?$AA?$AA@ 10001dec     optreg.obj
+ 0001:00000e10       ??_C@_1BE@HGNFMJIF@?$AAD?$AAh?$AAc?$AAp?$AAV?$AA6?$AAD?$AAN?$AAS?$AA?$AA@ 10001e10     optreg.obj
+ 0001:00001118       ??_C@_1EC@FCMGPLMB@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AA?$DP?$AA?2?$AAP?$AAa?$AAr?$AAm?$AAs?$AA?2?$AAT?$AAc?$AAp?$AAi?$AAp?$AA?2?$AAD?$AAh?$AAc?$AAp?$AAv?$AA6?$AAC?$AAl?$AAa?$AAs?$AAs?$AAI?$AAd@ 10002118     userclass.obj
+ 0001:00001160       ??_C@_1GC@HFKGIKLM@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAT?$AAc?$AAp?$AAi?$AAp?$AA6?$AA?2?$AAD?$AAh?$AAc?$AAp?$AA?2?$AAP?$AAa?$AAr?$AAm?$AAs?$AA?2?$AAD?$AAh?$AAc?$AAp?$AAv?$AA6?$AAC?$AAl?$AAi@ 10002160     userclass.obj
+ 0001:00001408       ??_C@_1EI@EGPEPMGL@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AA?$DP?$AA?2?$AAP?$AAa?$AAr?$AAm?$AAs?$AA?2?$AAT?$AAc?$AAp?$AAi?$AAp?$AA?2?$AAD?$AAh?$AAc?$AAp?$AAv?$AA6?$AAC?$AAl?$AAa?$AAs?$AAs?$AAI?$AAd@ 10002408     dhcpclilibv6:change.obj
+ 0001:00001450       ??_C@_1BC@EIIEHLAL@?$AAw?$AAi?$AAr?$AAe?$AAl?$AAe?$AAs?$AAs?$AA?$AA@ 10002450     k.netioapi:convert.obj
+ 0001:00001464       ??_C@_1O@ECOIBMJK@?$AAt?$AAu?$AAn?$AAn?$AAe?$AAl?$AA?$AA@ 10002464     k.netioapi:convert.obj
+ 0001:00001474       ??_C@_1BE@GDCBAPOG@?$AAt?$AAo?$AAk?$AAe?$AAn?$AAr?$AAi?$AAn?$AAg?$AA?$AA@ 10002474     k.netioapi:convert.obj
+ 0001:00001488       ??_C@_17FGJABMFL@?$AAp?$AAp?$AAp?$AA?$AA@ 10002488     k.netioapi:convert.obj
+ 0001:00001490       ??_C@_1M@LLEPKCPL@?$AAo?$AAt?$AAh?$AAe?$AAr?$AA?$AA@ 10002490     k.netioapi:convert.obj
+ 0001:0000149c       ??_C@_1BC@IBGKKIOA@?$AAl?$AAo?$AAo?$AAp?$AAb?$AAa?$AAc?$AAk?$AA?$AA@ 1000249c     k.netioapi:convert.obj
+ 0001:000014b0       ??_C@_1BC@KMPEMOMJ@?$AAi?$AAe?$AAe?$AAe?$AA1?$AA3?$AA9?$AA4?$AA?$AA@ 100024b0     k.netioapi:convert.obj
+ 0001:000014c4       ??_C@_1BC@BEEOKCJC@?$AAe?$AAt?$AAh?$AAe?$AAr?$AAn?$AAe?$AAt?$AA?$AA@ 100024c4     k.netioapi:convert.obj
+ 0001:000014d8       ??_C@_17NPGDOALK@?$AAa?$AAt?$AAm?$AA?$AA@ 100024d8     k.netioapi:convert.obj
+ 0001:000014e0       InterfaceNickTable         100024e0     k.netioapi:convert.obj
+ 0001:00001528       FamilyTable                10002528     k.netioapi:path.obj
+ 0001:0000152c       PathKeySizeTable           1000252c     k.netioapi:path.obj
+ 0001:00001534       PathRodSizeTable           10002534     k.netioapi:path.obj
+ 0001:00001558       ??_C@_1CA@GDPMHPOC@?$AAD?$AAH?$AAC?$AAP?$AAv?$AA6?$AAO?$AAp?$AAt?$AAD?$AAy?$AAn?$AAD?$AAN?$AAS?$AA?$AA@ 10002558     dhcpv6_compat:dns.obj
+ 0001:00001578       ??_C@_1BM@CGEKKOCD@?$AAD?$AAH?$AAC?$AAP?$AAv?$AA6?$AAO?$AAp?$AAt?$AAF?$AAQ?$AAD?$AAN?$AA?$AA@ 10002578     dhcpv6_compat:dns.obj
+ 0001:00001594       NPI_MS_IPV4_MODULEID       10002594     uuidnet:msmodid.obj
+ 0001:000015ac       NPI_MS_IPV6_MODULEID       100025ac     uuidnet:msmodid.obj
+ 0001:000015c4       NPI_MS_NDIS_MODULEID       100025c4     uuidnet:msmodid.obj
+ 0001:000015dc       ??_C@_00CNPNBAHC@?$AA@     100025dc     ntcompat:rtl.obj
+ 0001:000015e0       GuidFormat                 100025e0     vcompat:rtlmisc.obj
+ 0001:00001648       RtlpIntegerChars           10002648     vcompat:rtlmisc.obj
+ 0001:00001658       ??_C@_1BK@ONFLBCMH@?$AA?3?$AA?$CF?$AAu?$AA?4?$AA?$CF?$AAu?$AA?4?$AA?$CF?$AAu?$AA?4?$AA?$CF?$AAu?$AA?$AA@ 10002658     vcompat:rtlmisc.obj
+ 0001:00001674       ??_C@_15LHNHECKK@?$AA?$CF?$AAx?$AA?$AA@ 10002674     vcompat:rtlmisc.obj
+ 0001:0000167c       ??_C@_13EBCNDICG@?$AA?3?$AA?$AA@ 1000267c     vcompat:rtlmisc.obj
+ 0001:00001680       ??_C@_15HEEKGCFC@?$AA?3?$AA?3?$AA?$AA@ 10002680     vcompat:rtlmisc.obj
+ 0001:00001688       ??_C@_1CK@LFMCBOGA@?$AA?3?$AA?3?$AAf?$AAf?$AAf?$AAf?$AA?3?$AA0?$AA?3?$AA?$CF?$AAu?$AA?4?$AA?$CF?$AAu?$AA?4?$AA?$CF?$AAu?$AA?4?$AA?$CF?$AAu?$AA?$AA@ 10002688     vcompat:rtlmisc.obj
+ 0001:000016b4       ??_C@_1CC@CLPLLKPB@?$AA?3?$AA?3?$AA?$CF?$AAh?$AAs?$AA?$CF?$AAu?$AA?4?$AA?$CF?$AAu?$AA?4?$AA?$CF?$AAu?$AA?4?$AA?$CF?$AAu?$AA?$AA@ 100026b4     vcompat:rtlmisc.obj
+ 0001:000016d8       ??_C@_05PBFMPBMC@ffff?3?$AA@ 100026d8     vcompat:rtlmisc.obj
+ 0001:000016e0       scopeid_unspecified        100026e0     msnetioid:indef.obj
+ 0001:00001708       Dhcpv6Initialize           10002708 f   dhcpInit.obj
+ 0001:00001740       CalculateTimeToSleep       10002740 f   dhcpInit.obj
+ 0001:000017b4       InitializeDhcpv6Socket     100027b4 f   dhcpInit.obj
+ 0001:0000188c       Dhcpv6EnumHardwareAddress  1000288c f   dhcpnsi.obj
+ 0001:000019ac       Dhcpv6GetWOLCapability     100029ac f   dhcpnsi.obj
+ 0001:000019b4       Dhcpv6DeInitNSI            100029b4 f   dhcpnsi.obj
+ 0001:00001a20       Dhcpv6GetLinkCharacteristics 10002a20 f   dhcpnsi.obj
+ 0001:00001d48       Dhcpv6AddorUpdateIPv6Address 10002d48 f   dhcpnsi.obj
+ 0001:00001f9c       Dhcpv6DelIPv6Address       10002f9c f   dhcpnsi.obj
+ 0001:000023b8       Dhcpv6QueryNsiForRASettings 100033b8 f   dhcpnsi.obj
+ 0001:00002840       Dhcpv6InitNSI              10003840 f   dhcpnsi.obj
+ 0001:00002948       ScheduleDhcpv6Renewal      10003948 f i dhcp.obj
+ 0001:00002a04       CancelAllRenew             10003a04 f   dhcp.obj
+ 0001:00002a3c       GetScopedIpv6Address       10003a3c f   dhcp.obj
+ 0001:00002ac4       OpenDhcpv6Socket           10003ac4 f   dhcp.obj
+ 0001:00002cec       CloseDhcpv6Socket          10003cec f   dhcp.obj
+ 0001:00002d44       Dhcpv6SetAllRegistryParameters 10003d44 f   dhcp.obj
+ 0001:0000323c       Dhcpv6RegisterWithDns      1000423c f   dhcp.obj
+ 0001:00003568       CheckForAddressInStack     10004568 f   dhcp.obj
+ 0001:00003650       Dhcpv6SystemInitialize     10004650 f   dhcp.obj
+ 0001:00003678       Dhcpv6InitData             10004678 f   dhcp.obj
+ 0001:000038cc       Dhcpv6FreeIanaAddressList  100048cc f   dhcp.obj
+ 0001:00003928       Dhcpv6FreeIataAddressList  10004928 f   dhcp.obj
+ 0001:00003984       Dhcpv6DestroyContextEx     10004984 f   dhcp.obj
+ 0001:00003b4c       Dhcpv6CommonInit           10004b4c f   dhcp.obj
+ 0001:00003be0       Dhcpv6DeletePerInterfaceRegistrySettings 10004be0 f   dhcp.obj
+ 0001:00003f04       Dhcpv6InitGlobalData       10004f04 f   dhcp.obj
+ 0001:00004118       Dhcpv6CleanupGlobalData    10005118 f   dhcp.obj
+ 0001:000041d8       LockDhcpContext            100051d8 f   dhcp.obj
+ 0001:00004250       UnlockDhcpContext          10005250 f   dhcp.obj
+ 0001:00004268       DisableDhcpv6              10005268 f   dhcp.obj
+ 0001:00004328       Dhcpv6SetMode              10005328 f   dhcp.obj
+ 0001:000043c4       ScheduleDhcpv6InformationRefresh 100053c4 f   dhcp.obj
+ 0001:000044b8       Dhcpv6FirewallExemptPort   100054b8 f   dhcp.obj
+ 0001:000044c4       Dhcpv6UninitializeInterface 100054c4 f   dhcp.obj
+ 0001:000045cc       Dhcpv6UnplumbStack         100055cc f   dhcp.obj
+ 0001:000046b0       DllMain                    100056b0 f   dhcp.obj
+ 0001:00004728       SetDhcpv6ConfigurationForNIC 10005728 f   dhcp.obj
+ 0001:00004860       Dhcpv6RenewThread          10005860 f   dhcp.obj
+ 0001:000048d0       Dhcpv6CreateThreadAndRenew 100058d0 f   dhcp.obj
+ 0001:000049a4       HandleFailedRenewals       100059a4 f   dhcp.obj
+ 0001:00004ab4       ProcessDhcpv6RequestForever 10005ab4 f   dhcp.obj
+ 0001:00004de4       Dhcpv6OnMediaConnected     10005de4 f   dhcp.obj
+ 0001:00004f9c       Dhcpv6OnMediaDisconnected  10005f9c f   dhcp.obj
+ 0001:00005098       Dhcpv6OnModeChange         10006098 f   dhcp.obj
+ 0001:00005120       Dhcpv6Cleanup              10006120 f   dhcp.obj
+ 0001:00005428       Dhcpv6Main                 10006428 f   dhcp.obj
+ 0001:00005510       Dhcpv6IsInitState          10006510 f   protocol.obj
+ 0001:00005554       IsOptionAllowed            10006554 f   protocol.obj
+ 0001:000055a4       RecalcTransTimeout         100065a4 f   protocol.obj
+ 0001:000055dc       Dhcpv6AppendUserClassOption 100065dc f   protocol.obj
+ 0001:000056ac       ParseOptionUserClassV6     100066ac f   protocol.obj
+ 0001:00005784       CleanupDhcpOptions         10006784 f   protocol.obj
+ 0001:000059c4       UpdateDhcpContextWithOptions 100069c4 f   protocol.obj
+ 0001:000069d4       CreateDhcpv6TransactionId  100079d4 f   protocol.obj
+ 0001:00006a28       AddToArray                 10007a28 f   protocol.obj
+ 0001:00006a50       IsPresentInArray           10007a50 f   protocol.obj
+ 0001:00006aa0       CreateDhcpv6InfoRequest    10007aa0 f   protocol.obj
+ 0001:00006d88       CreateDhcpv6Solicit        10007d88 f   protocol.obj
+ 0001:0000721c       CreateDhcpv6Request        1000821c f   protocol.obj
+ 0001:000076c0       CreateDhcpv6Renew          100086c0 f   protocol.obj
+ 0001:00007b60       CreateDhcpv6Rebind         10008b60 f   protocol.obj
+ 0001:0000806c       CreateDhcpv6Confirm        1000906c f   protocol.obj
+ 0001:00008468       CreateDhcpv6Release        10009468 f   protocol.obj
+ 0001:00008878       CreateDhcpv6Decline        10009878 f   protocol.obj
+ 0001:000089dc       SendDhcpv6Release          100099dc f   protocol.obj
+ 0001:00008a34       AddressValidation          10009a34 f   protocol.obj
+ 0001:00008b00       IanaValidation             10009b00 f   protocol.obj
+ 0001:00008c9c       ServerDUIDValidation       10009c9c f   protocol.obj
+ 0001:00008ce4       Dhcpv6ClearDhcpContext     10009ce4 f   protocol.obj
+ 0001:00008edc       ConvertFromDhcpToStatic    10009edc f   protocol.obj
+ 0001:00008f54       ParseDhcpv6Options         10009f54 f   protocol.obj
+ 0001:0000975c       ParseDhcpv6Message         1000a75c f   protocol.obj
+ 0001:000098a0       Dhcpv6SelectAdvertise      1000a8a0 f   protocol.obj
+ 0001:00009e40       SendDhcpv6SolicitAndGetAdvertise 1000ae40 f   protocol.obj
+ 0001:0000a38c       SendDhcpv6RequestAndGetReply 1000b38c f   protocol.obj
+ 0001:0000aaac       SendDhcpv6RenewAndGetReply 1000baac f   protocol.obj
+ 0001:0000b1b0       SendDhcpv6RebindAndGetReply 1000c1b0 f   protocol.obj
+ 0001:0000b8d0       SendDhcpv6ConfirmAndGetReply 1000c8d0 f   protocol.obj
+ 0001:0000bb18       SendDhcpv6InfoRequestAndGetReply 1000cb18 f   protocol.obj
+ 0001:0000be4c       SendDhcpv6DeclineAndGetReply 1000ce4c f   protocol.obj
+ 0001:0000c07c       HandleDhcpv6AddressConflict 1000d07c f   protocol.obj
+ 0001:0000c1c4       ReConfigureParams          1000d1c4 f   protocol.obj
+ 0001:0000c2e0       ReSolicitParameters        1000d2e0 f   protocol.obj
+ 0001:0000c948       ReRebindParameters         1000d948 f   protocol.obj
+ 0001:0000cca0       ReleaseIpv6Addresses       1000dca0 f   protocol.obj
+ 0001:0000cdac       ConvertFromStatelessToStateful 1000ddac f   protocol.obj
+ 0001:0000ce54       ConvertFromStatefulToStateless 1000de54 f   protocol.obj
+ 0001:0000cf10       ConvertFromNonDhcpToStateful 1000df10 f   protocol.obj
+ 0001:0000cfb0       ConvertFromNonDhcpToStateless 1000dfb0 f   protocol.obj
+ 0001:0000d054       ReRenewParameters          1000e054 f   protocol.obj
+ 0001:0000d404       ReConfirmParameters        1000e404 f   protocol.obj
+ 0001:0000d868       ConvertFromStatefulToStateful 1000e868 f   protocol.obj
+ 0001:0000d8c4       GetRegistryString          1000e8c4 f   dhcpreg.obj
+ 0001:0000d9a0       Dhcpv6QueryRegistryValue   1000e9a0 f   dhcpreg.obj
+ 0001:0000daec       Dhcpv6RegReadDWORDWithKey  1000eaec f   dhcpreg.obj
+ 0001:0000db3c       ReadClientDUID             1000eb3c f   dhcpreg.obj
+ 0001:0000dc24       Dhcpv6GenerateAndStoreInterfaceIaid 1000ec24 f   dhcpreg.obj
+ 0001:0000dcac       Dhcpv6ReadWriteClientDUID  1000ecac f   dhcpreg.obj
+ 0001:0000ddb0       Dhcpv6RegReadFromAnyLocation 1000edb0 f   dhcpreg.obj
+ 0001:0000de3c       Dhcpv6RegReadClassId       1000ee3c f   dhcpreg.obj
+ 0001:0000df98       Dhcpv6CreateAdapterKey     1000ef98 f   dhcpreg.obj
+ 0001:0000e020       Dhcpv6MakeContext          1000f020 f   dhcpreg.obj
+ 0001:0000e31c       Dhcpv6RegFillParams        1000f31c f   dhcpreg.obj
+ 0001:0000eb94       Dhcpv6AddNICtoListEx       1000fb94 f   dhcpreg.obj
+ 0001:0000ed84       Dhcpv6InitRegistry         1000fd84 f   dhcpreg.obj
+ 0001:0000efa8       Dhcpv6CleanupRegistry      1000ffa8 f   dhcpreg.obj
+ 0001:0000f00c       Dhcpv6DeleteRegValues      1001000c f   dhcpreg.obj
+ 0001:0000f124       AddressListToString        10010124 f   util.obj
+ 0001:0000f27c       FindDhcpv6ContextOnNicList 1001027c f   util.obj
+ 0001:0000f2c4       Dhcpv6StartWaitableTimer   100102c4 f   util.obj
+ 0001:0000f2d4       Dhcpv6CancelWaitableTimer  100102d4 f   util.obj
+ 0001:0000f2d8       Dhcpv6UnicodeToOemSize     100102d8 f   util.obj
+ 0001:0000f310       Dhcpv6UnicodeToOem         10010310 f   util.obj
+ 0001:0000f3d0       Dhcpv6OemToUnicodeN        100103d0 f   util.obj
+ 0001:0000f490       Dhcpv6OemToUnicode         10010490 f   util.obj
+ 0001:0000f4e0       Dhcpv6EnumPhyInftAddress   100104e0 f   util.obj
+ 0001:0000f668       Dhcpv6MakeClientDUID       10010668 f   util.obj
+ 0001:0000f7fc       DhcpcHexToString           100107fc f   util.obj
+ 0001:0000f854       NotifyDnsCache             10010854 f   dyndns.obj
+ 0001:0000f864       GetPerAdapterRegConfig     10010864 f   dyndns.obj
+ 0001:0000f914       x_wcschr                   10010914 f i dyndns.obj
+ 0001:0000f95c       Dhcpv6CreateListFromStringAndFree 1001095c f   dyndns.obj
+ 0001:0000fba8       Dhcpv6DynDnsRegisterAdapter 10010ba8 f   dyndns.obj
+ 0001:0000fe50       Dhcpv6DynDnsDeregisterAdapter 10010e50 f   dyndns.obj
+ 0001:0001008c       Dhcpv6DynDnsRegisterAdapterCheckingForStatic 1001108c f   dyndns.obj
+ 0001:00010284       Dhcpv6DynDnsRegisterDhcpAdapter 10011284 f   dyndns.obj
+ 0001:000104d4       Dhcpv6DynDnsGetDynDNSOptionDomain 100114d4 f   dyndns.obj
+ 0001:00010660       Dhcpv6DynDnsGetDynDNSOption 10011660 f   dyndns.obj
+ 0001:000107cc       Dhcpv6RegReadOptionDefList 100117cc f   optreg.obj
+ 0001:000108a0       Dhcpv6RegFillSendOptions   100118a0 f   optreg.obj
+ 0001:00010a38       Dhcpv6RegSaveOptionAtLocation 10011a38 f   optreg.obj
+ 0001:00010dbc       Dhcpv6RegSaveOptionAtLocationEx 10011dbc f   optreg.obj
+ 0001:00010e74       Dhcpv6RegSaveOption        10011e74 f   optreg.obj
+ 0001:00010f34       Dhcpv6RegReadOptionCache   10011f34 f   optreg.obj
+ 0001:00011130       Dhcpv6AppendParamUserClass 10012130 f   optreg.obj
+ 0001:0001118c       Dhcpv6AppendParamRequestList 1001218c f   optreg.obj
+ 0001:00011398       Dhcpv6AppendSendOptions    10012398 f   optreg.obj
+ 0001:00011658       Dhcpv6AddIncomingOption    10012658 f   optreg.obj
+ 0001:00011774       Dhcpv6DestroyOptionsList   10012774 f   optreg.obj
+ 0001:00011808       Dhcpv6RegClearOptDefs      10012808 f   optreg.obj
+ 0001:000118c8       Dhcpv6RegSaveOptions       100128c8 f   optreg.obj
+ 0001:00011a70       Dhcpv6ClearAllOptions      10012a70 f   optreg.obj
+ 0001:00011ae0       Dhcpv6AddClass             10012ae0 f   options.obj
+ 0001:00011bdc       Dhcpv6DelClass             10012bdc f   options.obj
+ 0001:00011ccc       Dhcpv6FreeAllClasses       10012ccc f   options.obj
+ 0001:00011d30       Dhcpv6FindOption           10012d30 f   options.obj
+ 0001:00011dc0       Dhcpv6DelOption            10012dc0 f   options.obj
+ 0001:00011e18       Dhcpv6AddOptionToList      10012e18 f   options.obj
+ 0001:00011eec       Dhcpv6GetExpiredOptions    10012eec f   options.obj
+ 0001:00011f80       Dhcpv6AddOptionDef         10012f80 f   options.obj
+ 0001:000120fc       Dhcpv6FindOptionDef        100130fc f   options.obj
+ 0001:00012180       Dhcpv6CleanupOptionDefList 10013180 f   options.obj
+ 0001:000121d8       Dhcpv6FreeAllOptionDefs    100131d8 f   options.obj
+ 0001:00012264       InsertInPriorityList       10013264 f   dhcpmsg.obj
+ 0001:000122b4       Dhcpv6AsyncSelect          100132b4 f   dhcpmsg.obj
+ 0001:00012428       Dhcpv6LogMessage           10013428 f   dhcpmsg.obj
+ 0001:0001250c       Dhcpv6TryReceive           1001350c f   dhcpmsg.obj
+ 0001:000125c0       Dhcpv6DispatchPkt          100135c0 f   dhcpmsg.obj
+ 0001:0001271c       ProcessRecvFromSocket      1001371c f   dhcpmsg.obj
+ 0001:00012960       GetSpecifiedDhcpv6MessageEx 10013960 f   dhcpmsg.obj
+ 0001:00012a84       GetSpecifiedDhcpv6Message  10013a84 f   dhcpmsg.obj
+ 0001:00012acc       SendDhcpv6Message          10013acc f   dhcpmsg.obj
+ 0001:00012bb0       GetRegistryClassIdv6Name   10013bb0 f i userclass.obj
+ 0001:00012c48       FixupDhcpClassIdv6         10013c48 f   userclass.obj
+ 0001:00012cd0       DP6_Init                   10013cd0 f   cedrv.obj
+ 0001:00012cdc       DP6_Deinit                 10013cdc f   cedrv.obj
+ 0001:00012ce4       DP6_Open                   10013ce4 f   cedrv.obj
+ 0001:00012cf0       DP6_Close                  10013cf0 f   cedrv.obj
+ 0001:00012cf8       DP6_IOControl              10013cf8 f   cedrv.obj
+ 0001:00012d50       GetDchpContextFromIoParam  10013d50 f   cedrv_ReleaseRenew.obj
+ 0001:00012dc0       IoCtrl_ReleaseOrRenew      10013dc0 f   cedrv_ReleaseRenew.obj
+ 0001:00012e88       Dhcpv6ParseAssemInit       10013e88 f   parseassemv6:parseAssemble.obj
+ 0001:00012eb0       Dhcpv6ParseAssemCleanup    10013eb0 f   parseassemv6:parseAssemble.obj
+ 0001:00012ec4       ParseOptionClientId        10013ec4 f   parseassemv6:parseAssemble.obj
+ 0001:00012f34       Dhcpv6AddOptionInterfaceId 10013f34 f   parseassemv6:parseAssemble.obj
+ 0001:00013020       DhcpV6AddOptionNameList    10014020 f   parseassemv6:parseAssemble.obj
+ 0001:000130a8       Dhcpv6AddOptionLifeTime    100140a8 f   parseassemv6:parseAssemble.obj
+ 0001:0001312c       ParseOptionServerId        1001412c f   parseassemv6:parseAssemble.obj
+ 0001:0001319c       ParseOptionPreference      1001419c f   parseassemv6:parseAssemble.obj
+ 0001:000131e0       ParseOptionStatusCode      100141e0 f   parseassemv6:parseAssemble.obj
+ 0001:000132b8       ParseOptionVendorClass     100142b8 f   parseassemv6:parseAssemble.obj
+ 0001:0001337c       ParseOptionVendorOpts      1001437c f   parseassemv6:parseAssemble.obj
+ 0001:0001363c       ParseOptionDNSServers      1001463c f   parseassemv6:parseAssemble.obj
+ 0001:000136a4       ParseOptionDomainSearchList 100146a4 f   parseassemv6:parseAssemble.obj
+ 0001:00013708       Dhcpv6AppendDefaultVendorClassOption 10014708 f   parseassemv6:parseAssemble.obj
+ 0001:000138b8       Dhcpv6AddOptionClientId    100148b8 f   parseassemv6:parseAssemble.obj
+ 0001:0001398c       Dhcpv6AddOptionServerId    1001498c f   parseassemv6:parseAssemble.obj
+ 0001:00013a60       Dhcpv6AddOptionORO         10014a60 f   parseassemv6:parseAssemble.obj
+ 0001:00013b94       Dhcpv6AddOptionElapsedTime 10014b94 f   parseassemv6:parseAssemble.obj
+ 0001:00013c08       Dhcpv6AddVendorClassOption 10014c08 f   parseassemv6:parseAssemble.obj
+ 0001:00013d54       Dhcpv6AddUserClassOption   10014d54 f   parseassemv6:parseAssemble.obj
+ 0001:00013e78       Dhcpv6AddGenericOption     10014e78 f   parseassemv6:parseAssemble.obj
+ 0001:00013eec       Dhcpv6AddOptionStatusCode  10014eec f   parseassemv6:parseAssemble.obj
+ 0001:00013fdc       DhcpGetWireFormatNameFromUnicode 10014fdc f   parseassemv6:parseAssemble.obj
+ 0001:00014114       DhcpGetUnicodeNameFromWireName 10015114 f   parseassemv6:parseAssemble.obj
+ 0001:00014234       ParseOptionIAAddr          10015234 f   parseassemv6:parseAssemble.obj
+ 0001:000143bc       ParseOptionIAPrefix        100153bc f   parseassemv6:parseAssemble.obj
+ 0001:00014530       Dhcpv6AddOptionIAAddr      10015530 f   parseassemv6:parseAssemble.obj
+ 0001:00014770       Dhcpv6AddOptionIAPrefix    10015770 f   parseassemv6:parseAssemble.obj
+ 0001:000149e0       Dhcpv6AddVendorSpecInfo    100159e0 f   parseassemv6:parseAssemble.obj
+ 0001:00014bb4       ParseOptionIana            10015bb4 f   parseassemv6:parseAssemble.obj
+ 0001:00015060       ParseOptionIata            10016060 f   parseassemv6:parseAssemble.obj
+ 0001:000153c4       ParseOptionIapd            100163c4 f   parseassemv6:parseAssemble.obj
+ 0001:00015808       Dhcpv6AddOptionIata        10016808 f   parseassemv6:parseAssemble.obj
+ 0001:00015a9c       Dhcpv6AddOptionIana        10016a9c f   parseassemv6:parseAssemble.obj
+ 0001:00015e60       Dhcpv6AddOptionIapd        10016e60 f   parseassemv6:parseAssemble.obj
+ 0001:0001620c       Dhcpv6AppendOption         1001720c f   parseassemv6:parseAssemble.obj
+ 0001:0001651c       Dns_Utf8ToOrFromAnsi       1001751c f   parseassemv6:string.obj
+ 0001:000165d0       Dns_AnsiToUtf8             100175d0 f   parseassemv6:string.obj
+ 0001:0001660c       Dns_Utf8ToAnsi             1001760c f   parseassemv6:string.obj
+ 0001:00016648       Dns_GetBufferLengthForStringCopy 10017648 f   parseassemv6:string.obj
+ 0001:000167d8       Dns_StringCopy             100177d8 f   parseassemv6:string.obj
+ 0001:00016a28       Dhcpv6RegExpandString      10017a28 f   dhcpclilibv6:commondhcpreg.obj
+ 0001:00016b74       Dhcpv6RegReadFromLocation  10017b74 f   dhcpclilibv6:commondhcpreg.obj
+ 0001:00016d00       GetRegClassIdv6BinLocation 10017d00 f   dhcpclilibv6:change.obj
+ 0001:00016dd4       SetRegistryClassIdv6Bin    10017dd4 f   dhcpclilibv6:change.obj
+ 0001:00016e98       IN6_IS_ADDR_LOOPBACK       10017e98 f i k.netioapi:address.obj
+ 0001:00016f08       Ipv6UnicastAddressScope    10017f08 f i k.netioapi:address.obj
+ 0001:00016fcc       IN6_UNCANONICALIZE_SCOPE_ID 10017fcc f i k.netioapi:address.obj
+ 0001:0001702c       IN6ADDR_SETSOCKADDR        1001802c f i k.netioapi:address.obj
+ 0001:0001707c       INETADDR_SETSOCKADDR       1001807c f i k.netioapi:address.obj
+ 0001:000170f8       FillAddressEntry           100180f8 f   k.netioapi:address.obj
+ 0001:000172cc       NetioGetAddress            100182cc f   k.netioapi:address.obj
+ 0001:000174f0       GetUnicastIpAddressEntry   100184f0 f   k.netioapi:address.obj
+ 0001:00017500       ConvertInterfaceLuidToIndex 10018500 f   k.netioapi:convert.obj
+ 0001:00017588       ConvertInterfaceIndexToLuid 10018588 f   k.netioapi:convert.obj
+ 0001:00017608       GetCurrentThreadCompartmentId 10018608 f   k.netioapi:compartment.obj
+ 0001:00017610       HeapAlloc                  10018610 f   coredll:COREDLL.dll
+ 0001:00017620       HeapFree                   10018620 f   coredll:COREDLL.dll
+ 0001:00017630       Sleep                      10018630 f   coredll:COREDLL.dll
+ 0001:00017640       LeaveCriticalSection       10018640 f   coredll:COREDLL.dll
+ 0001:00017650       EnterCriticalSection       10018650 f   coredll:COREDLL.dll
+ 0001:00017660       EventModify                10018660 f   coredll:COREDLL.dll
+ 0001:00017670       InterlockedIncrement       10018670 f   coredll:COREDLL.dll
+ 0001:00017680       GetLastError               10018680 f   coredll:COREDLL.dll
+ 0001:00017690       MultiByteToWideChar        10018690 f   coredll:COREDLL.dll
+ 0001:000176a0       RegSetValueExW             100186a0 f   coredll:COREDLL.dll
+ 0001:000176b0       CreateEventW               100186b0 f   coredll:COREDLL.dll
+ 0001:000176c0       DeleteCriticalSection      100186c0 f   coredll:COREDLL.dll
+ 0001:000176d0       CloseHandle                100186d0 f   coredll:COREDLL.dll
+ 0001:000176e0       RegCloseKey                100186e0 f   coredll:COREDLL.dll
+ 0001:000176f0       RegQueryValueExW           100186f0 f   coredll:COREDLL.dll
+ 0001:00017700       RegOpenKeyExW              10018700 f   coredll:COREDLL.dll
+ 0001:00017710       StringCchPrintfW           10018710 f   coredll:COREDLL.dll
+ 0001:00017720       InitializeCriticalSection  10018720 f   coredll:COREDLL.dll
+ 0001:00017730       GetProcessHeap             10018730 f   coredll:COREDLL.dll
+ 0001:00017740       InterlockedDecrement       10018740 f   coredll:COREDLL.dll
+ 0001:00017750       WaitForSingleObject        10018750 f   coredll:COREDLL.dll
+ 0001:00017760       ReleaseSemaphore           10018760 f   coredll:COREDLL.dll
+ 0001:00017770       WaitForMultipleObjects     10018770 f   coredll:COREDLL.dll
+ 0001:00017780       DisableThreadLibraryCalls  10018780 f   coredll:COREDLL.dll
+ 0001:00017790       CeSetThreadPriority        10018790 f   coredll:COREDLL.dll
+ 0001:000177a0       CreateThread               100187a0 f   coredll:COREDLL.dll
+ 0001:000177b0       RegDeleteValueW            100187b0 f   coredll:COREDLL.dll
+ 0001:000177c0       GetTickCount               100187c0 f   coredll:COREDLL.dll
+ 0001:000177d0       RegCreateKeyExW            100187d0 f   coredll:COREDLL.dll
+ 0001:000177e0       CreateSemaphoreW           100187e0 f   coredll:COREDLL.dll
+ 0001:000177f0       SystemTimeToFileTime       100187f0 f   coredll:COREDLL.dll
+ 0001:00017800       GetSystemTime              10018800 f   coredll:COREDLL.dll
+ 0001:00017810       StringCchCopyW             10018810 f   coredll:COREDLL.dll
+ 0001:00017820       SetLastError               10018820 f   coredll:COREDLL.dll
+ 0001:00017830       CeSafeCopyMemory           10018830 f   coredll:COREDLL.dll
+ 0001:00017840       WideCharToMultiByte        10018840 f   coredll:COREDLL.dll
+ 0001:00017850       StringCbCopyW              10018850 f   coredll:COREDLL.dll
+ 0001:00017860       _ftime                     10018860 f   dhcpv6_compat:cecompat.obj
+ 0001:00017904       time                       10018904 f   dhcpv6_compat:cecompat.obj
+ 0001:00017940       TimeDiffMS                 10018940 f   dhcpv6_compat:cecompat.obj
+ 0001:00017988       CreateWaitableTimer        10018988 f   dhcpv6_compat:cecompat.obj
+ 0001:0001799c       CeSetWaitableTimer         1001899c f   dhcpv6_compat:cecompat.obj
+ 0001:000179a4       CancelWaitableTimer        100189a4 f   dhcpv6_compat:cecompat.obj
+ 0001:000179ac       DestroyWaitableTimer       100189ac f   dhcpv6_compat:cecompat.obj
+ 0001:000179bc       CeGetComputerNameExW       100189bc f   dhcpv6_compat:host.obj
+ 0001:00017a58       RtlUnicodeStringToOemString 10018a58 f   dhcpv6_compat:ntcalls.obj
+ 0001:00017b84       RtlOemStringToUnicodeString 10018b84 f   dhcpv6_compat:ntcalls.obj
+ 0001:00017b8c       RtlGenRandom               10018b8c f   dhcpv6_compat:ntcalls.obj
+ 0001:00017ba8       RtlUnicodeStringToOemSize  10018ba8 f   dhcpv6_compat:ntcalls.obj
+ 0001:00017bb0       RtlOemStringToUnicodeSize  10018bb0 f   dhcpv6_compat:ntcalls.obj
+ 0001:00017bb8       ConvertDomainListToMultiSZ 10018bb8 f   dhcpv6_compat:ntcalls.obj
+ 0001:00017c90       CeDnsQueryConfigDword      10018c90 f   dhcpv6_compat:dns.obj
+ 0001:00017cf4       DnsDhcpRegisterAddrs       10018cf4 f   dhcpv6_compat:dns.obj
+ 0001:00017cfc       NsiFreeTable               10018cfc f   netio:netio.dll
+ 0001:00017d0c       NsiAllocateAndGetTable     10018d0c f   netio:netio.dll
+ 0001:00017d1c       NsiDeregisterChangeNotificationEx 10018d1c f   netio:netio.dll
+ 0001:00017d2c       NsiGetAllParametersEx      10018d2c f   netio:netio.dll
+ 0001:00017d3c       NsiSetAllParametersEx      10018d3c f   netio:netio.dll
+ 0001:00017d4c       NsiRegisterChangeNotificationEx 10018d4c f   netio:netio.dll
+ 0001:00017d5c       NsiSetAllParameters        10018d5c f   netio:netio.dll
+ 0001:00017d6c       NsiGetAllParameters        10018d6c f   netio:netio.dll
+ 0001:00017d7c       NsiGetParameter            10018d7c f   netio:netio.dll
+ 0001:00017d8c       closesocket                10018d8c f   ws2:WS2.dll
+ 0001:00017d9c       bind                       10018d9c f   ws2:WS2.dll
+ 0001:00017dac       htons                      10018dac f   ws2:WS2.dll
+ 0001:00017dbc       setsockopt                 10018dbc f   ws2:WS2.dll
+ 0001:00017dcc       WSAGetLastError            10018dcc f   ws2:WS2.dll
+ 0001:00017ddc       socket                     10018ddc f   ws2:WS2.dll
+ 0001:00017dec       WSASetEvent                10018dec f   ws2:WS2.dll
+ 0001:00017dfc       freeaddrinfo               10018dfc f   ws2:WS2.dll
+ 0001:00017e0c       getaddrinfo                10018e0c f   ws2:WS2.dll
+ 0001:00017e1c       WSACloseEvent              10018e1c f   ws2:WS2.dll
+ 0001:00017e2c       WSAStringToAddressW        10018e2c f   ws2:WS2.dll
+ 0001:00017e3c       WSAResetEvent              10018e3c f   ws2:WS2.dll
+ 0001:00017e4c       ntohl                      10018e4c f   ws2:WS2.dll
+ 0001:00017e5c       WSACleanup                 10018e5c f   ws2:WS2.dll
+ 0001:00017e6c       WSAStartup                 10018e6c f   ws2:WS2.dll
+ 0001:00017e7c       ntohs                      10018e7c f   ws2:WS2.dll
+ 0001:00017e8c       htonl                      10018e8c f   ws2:WS2.dll
+ 0001:00017e9c       WSACreateEvent             10018e9c f   ws2:WS2.dll
+ 0001:00017eac       sendto                     10018eac f   ws2:WS2.dll
+ 0001:00017ebc       select                     10018ebc f   ws2:WS2.dll
+ 0001:00017ecc       WSAEnumNetworkEvents       10018ecc f   ws2:WS2.dll
+ 0001:00017edc       WSAWaitForMultipleEvents   10018edc f   ws2:WS2.dll
+ 0001:00017eec       WSAEventSelect             10018eec f   ws2:WS2.dll
+ 0001:00017efc       recvfrom                   10018efc f   ws2:WS2.dll
+ 0001:00017f0c       gethostname                10018f0c f   ws2:WS2.dll
+ 0001:00017f1c       RtlInitString              10018f1c f   ntcompat:rtl.obj
+ 0001:00017f60       RtlInitUnicodeString       10018f60 f   ntcompat:rtl.obj
+ 0001:00017fbc       RtlFreeUnicodeString       10018fbc f   ntcompat:rtl.obj
+ 0001:00017fd4       RtlIpv6AddressToStringW    10018fd4 f   vcompat:rtlmisc.obj
+ 0001:00018254       RtlStringFromGUID          10019254 f   vcompat:rtlmisc.obj
+ 0001:00018360       GetAdaptersAddresses       10019360 f   k.iphlpapi:k.iphlpapi.dll
+ 0001:00018468       _DllMainCRTStartup         10019468 f   corelib0:pegdmain.obj
+ 0001:00018494       __GSHandlerCheckCommon     10019494 f   corelib0:gshandler.obj
+ 0001:000184d0       __GSHandlerCheck           100194d0 f   corelib0:gshandler.obj
+ 0001:000184f0       __security_init_cookie     100194f0 f   corelib0:seccinit.obj
+ 0001:0001853c       __security_check_cookie    1001953c f   corelib0:armsecgs.obj
+ 0001:0001854c       __gsfailure                1001954c     corelib0:armsecgs.obj
+ 0001:00018590       __GSHandlerCheck_SEH       10019590 f   corelib0:gshandlerseh.obj
+ 0001:000186c4       _cexit                     100196c4 f   corelib0:cexit.obj
+ 0001:000186d4       _initterm                  100196d4 f   corelib0:crt0dat.obj
+ 0001:00018700       _cinit                     10019700 f   corelib0:crt0dat.obj
+ 0001:00018760       __crt_ExitProcess          10019760 f   corelib0:exitproc_proxy.obj
+ 0001:0001876c       memcpy                     1001976c f   corelib1:COREDLL.dll
+ 0001:0001877c       memset                     1001977c f   corelib1:COREDLL.dll
+ 0001:0001878c       _wcsicmp                   1001978c f   corelib1:COREDLL.dll
+ 0001:0001879c       _wtoi                      1001979c f   corelib1:COREDLL.dll
+ 0001:000187ac       wcschr                     100197ac f   corelib1:COREDLL.dll
+ 0001:000187bc       wcslen                     100197bc f   corelib1:COREDLL.dll
+ 0001:000187cc       srand                      100197cc f   corelib1:COREDLL.dll
+ 0001:000187dc       rand                       100197dc f   corelib1:COREDLL.dll
+ 0001:000187ec       strlen                     100197ec f   corelib1:COREDLL.dll
+ 0001:000187fc       memcmp                     100197fc f   corelib1:COREDLL.dll
+ 0001:0001880c       wcsrchr                    1001980c f   corelib1:COREDLL.dll
+ 0001:0001881c       mbstowcs_s                 1001981c f   corelib1:COREDLL.dll
+ 0001:0001882c       swprintf_s                 1001982c f   corelib1:COREDLL.dll
+ 0001:0001883c       _XcptFilter                1001983c f   corelib1:COREDLL.dll
+ 0001:0001884c       __C_specific_handler       1001984c f   corelib1:COREDLL.dll
+ 0001:0001885c       __security_gen_cookie2     1001985c f   corelib1:COREDLL.dll
+ 0001:0001886c       __report_gsfailure         1001986c f   corelib1:COREDLL.dll
+ 0001:0001887c       free                       1001987c f   corelib1:COREDLL.dll
+ 0001:0001888c       LocalFree                  1001988c f   coredll:COREDLL.dll
+ 0001:0001889c       LocalAlloc                 1001989c f   coredll:COREDLL.dll
+ 0001:000188ac       CeGenRandom                100198ac f   coredll:COREDLL.dll
+ 0001:000188bc       StringCbPrintfW            100198bc f   coredll:COREDLL.dll
+ 0001:000188cc       InterlockedExchange        100198cc f   coredll:COREDLL.dll
+ 0001:000188dc       TerminateProcess           100198dc f   coredll:COREDLL.dll
+ 0001:00018a64       __IMPORT_DESCRIPTOR_COREDLL 10019a64     coredll:COREDLL.dll
+ 0001:00018a78       __IMPORT_DESCRIPTOR_netio  10019a78     netio:netio.dll
+ 0001:00018a8c       __IMPORT_DESCRIPTOR_WS2    10019a8c     ws2:WS2.dll
+ 0001:00018aa0       __IMPORT_DESCRIPTOR_k.iphlpapi 10019aa0     k.iphlpapi:k.iphlpapi.dll
+ 0001:00018ab4       __NULL_IMPORT_DESCRIPTOR   10019ab4     coredll:COREDLL.dll
+ 0002:00000000       __imp_HeapAlloc            1001a000     coredll:COREDLL.dll
+ 0002:00000004       __imp_HeapFree             1001a004     coredll:COREDLL.dll
+ 0002:00000008       __imp_Sleep                1001a008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_LeaveCriticalSection 1001a00c     coredll:COREDLL.dll
+ 0002:00000010       __imp_EnterCriticalSection 1001a010     coredll:COREDLL.dll
+ 0002:00000014       __imp_EventModify          1001a014     coredll:COREDLL.dll
+ 0002:00000018       __imp_InterlockedIncrement 1001a018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_GetLastError         1001a01c     coredll:COREDLL.dll
+ 0002:00000020       __imp_MultiByteToWideChar  1001a020     coredll:COREDLL.dll
+ 0002:00000024       __imp_RegSetValueExW       1001a024     coredll:COREDLL.dll
+ 0002:00000028       __imp_CreateEventW         1001a028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_DeleteCriticalSection 1001a02c     coredll:COREDLL.dll
+ 0002:00000030       __imp_CloseHandle          1001a030     coredll:COREDLL.dll
+ 0002:00000034       __imp_RegCloseKey          1001a034     coredll:COREDLL.dll
+ 0002:00000038       __imp_RegQueryValueExW     1001a038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_RegOpenKeyExW        1001a03c     coredll:COREDLL.dll
+ 0002:00000040       __imp_StringCchPrintfW     1001a040     coredll:COREDLL.dll
+ 0002:00000044       __imp_InitializeCriticalSection 1001a044     coredll:COREDLL.dll
+ 0002:00000048       __imp_GetProcessHeap       1001a048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_InterlockedDecrement 1001a04c     coredll:COREDLL.dll
+ 0002:00000050       __imp_WaitForSingleObject  1001a050     coredll:COREDLL.dll
+ 0002:00000054       __imp_ReleaseSemaphore     1001a054     coredll:COREDLL.dll
+ 0002:00000058       __imp_WaitForMultipleObjects 1001a058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_DisableThreadLibraryCalls 1001a05c     coredll:COREDLL.dll
+ 0002:00000060       __imp_CeSetThreadPriority  1001a060     coredll:COREDLL.dll
+ 0002:00000064       __imp_CreateThread         1001a064     coredll:COREDLL.dll
+ 0002:00000068       __imp_RegDeleteValueW      1001a068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_GetTickCount         1001a06c     coredll:COREDLL.dll
+ 0002:00000070       __imp_RegCreateKeyExW      1001a070     coredll:COREDLL.dll
+ 0002:00000074       __imp_CreateSemaphoreW     1001a074     coredll:COREDLL.dll
+ 0002:00000078       __imp_SystemTimeToFileTime 1001a078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_GetSystemTime        1001a07c     coredll:COREDLL.dll
+ 0002:00000080       __imp_StringCchCopyW       1001a080     coredll:COREDLL.dll
+ 0002:00000084       __imp_SetLastError         1001a084     coredll:COREDLL.dll
+ 0002:00000088       __imp_CeSafeCopyMemory     1001a088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_WideCharToMultiByte  1001a08c     coredll:COREDLL.dll
+ 0002:00000090       __imp_StringCbCopyW        1001a090     coredll:COREDLL.dll
+ 0002:00000094       __imp__wtoi                1001a094     corelib1:COREDLL.dll
+ 0002:00000098       __imp__wcsicmp             1001a098     corelib1:COREDLL.dll
+ 0002:0000009c       __imp_memset               1001a09c     corelib1:COREDLL.dll
+ 0002:000000a0       __imp_wcschr               1001a0a0     corelib1:COREDLL.dll
+ 0002:000000a4       __imp_memcpy               1001a0a4     corelib1:COREDLL.dll
+ 0002:000000a8       __imp_TerminateProcess     1001a0a8     coredll:COREDLL.dll
+ 0002:000000ac       __imp_InterlockedExchange  1001a0ac     coredll:COREDLL.dll
+ 0002:000000b0       __imp_StringCbPrintfW      1001a0b0     coredll:COREDLL.dll
+ 0002:000000b4       __imp_CeGenRandom          1001a0b4     coredll:COREDLL.dll
+ 0002:000000b8       __imp_LocalAlloc           1001a0b8     coredll:COREDLL.dll
+ 0002:000000bc       __imp_LocalFree            1001a0bc     coredll:COREDLL.dll
+ 0002:000000c0       __imp_free                 1001a0c0     corelib1:COREDLL.dll
+ 0002:000000c4       __imp___report_gsfailure   1001a0c4     corelib1:COREDLL.dll
+ 0002:000000c8       __imp___security_gen_cookie2 1001a0c8     corelib1:COREDLL.dll
+ 0002:000000cc       __imp___C_specific_handler 1001a0cc     corelib1:COREDLL.dll
+ 0002:000000d0       __imp__XcptFilter          1001a0d0     corelib1:COREDLL.dll
+ 0002:000000d4       __imp_wcslen               1001a0d4     corelib1:COREDLL.dll
+ 0002:000000d8       __imp_swprintf_s           1001a0d8     corelib1:COREDLL.dll
+ 0002:000000dc       __imp_mbstowcs_s           1001a0dc     corelib1:COREDLL.dll
+ 0002:000000e0       __imp___rt_sdiv64by64      1001a0e0     corelib1:COREDLL.dll
+ 0002:000000e4       __imp_wcsrchr              1001a0e4     corelib1:COREDLL.dll
+ 0002:000000e8       __imp_memcmp               1001a0e8     corelib1:COREDLL.dll
+ 0002:000000ec       __imp_strlen               1001a0ec     corelib1:COREDLL.dll
+ 0002:000000f0       __imp_rand                 1001a0f0     corelib1:COREDLL.dll
+ 0002:000000f4       __imp_srand                1001a0f4     corelib1:COREDLL.dll
+ 0002:000000f8       \177COREDLL_NULL_THUNK_DATA 1001a0f8     coredll:COREDLL.dll
+ 0002:000000fc       __imp_WSASetEvent          1001a0fc     ws2:WS2.dll
+ 0002:00000100       __imp_closesocket          1001a100     ws2:WS2.dll
+ 0002:00000104       __imp_gethostname          1001a104     ws2:WS2.dll
+ 0002:00000108       __imp_recvfrom             1001a108     ws2:WS2.dll
+ 0002:0000010c       __imp_WSAEventSelect       1001a10c     ws2:WS2.dll
+ 0002:00000110       __imp_WSAWaitForMultipleEvents 1001a110     ws2:WS2.dll
+ 0002:00000114       __imp_WSAEnumNetworkEvents 1001a114     ws2:WS2.dll
+ 0002:00000118       __imp_select               1001a118     ws2:WS2.dll
+ 0002:0000011c       __imp_sendto               1001a11c     ws2:WS2.dll
+ 0002:00000120       __imp_WSACreateEvent       1001a120     ws2:WS2.dll
+ 0002:00000124       __imp_htonl                1001a124     ws2:WS2.dll
+ 0002:00000128       __imp_ntohs                1001a128     ws2:WS2.dll
+ 0002:0000012c       __imp_WSAStartup           1001a12c     ws2:WS2.dll
+ 0002:00000130       __imp_WSACleanup           1001a130     ws2:WS2.dll
+ 0002:00000134       __imp_ntohl                1001a134     ws2:WS2.dll
+ 0002:00000138       __imp_WSAResetEvent        1001a138     ws2:WS2.dll
+ 0002:0000013c       __imp_WSACloseEvent        1001a13c     ws2:WS2.dll
+ 0002:00000140       __imp_getaddrinfo          1001a140     ws2:WS2.dll
+ 0002:00000144       __imp_freeaddrinfo         1001a144     ws2:WS2.dll
+ 0002:00000148       __imp_WSAStringToAddressW  1001a148     ws2:WS2.dll
+ 0002:0000014c       __imp_socket               1001a14c     ws2:WS2.dll
+ 0002:00000150       __imp_WSAGetLastError      1001a150     ws2:WS2.dll
+ 0002:00000154       __imp_setsockopt           1001a154     ws2:WS2.dll
+ 0002:00000158       __imp_htons                1001a158     ws2:WS2.dll
+ 0002:0000015c       __imp_bind                 1001a15c     ws2:WS2.dll
+ 0002:00000160       \177WS2_NULL_THUNK_DATA    1001a160     ws2:WS2.dll
+ 0002:00000164       __imp_GetAdaptersAddresses 1001a164     k.iphlpapi:k.iphlpapi.dll
+ 0002:00000168       \177k.iphlpapi_NULL_THUNK_DATA 1001a168     k.iphlpapi:k.iphlpapi.dll
+ 0002:0000016c       __imp_NsiGetParameter      1001a16c     netio:netio.dll
+ 0002:00000170       __imp_NsiGetAllParameters  1001a170     netio:netio.dll
+ 0002:00000174       __imp_NsiRegisterChangeNotificationEx 1001a174     netio:netio.dll
+ 0002:00000178       __imp_NsiSetAllParametersEx 1001a178     netio:netio.dll
+ 0002:0000017c       __imp_NsiGetAllParametersEx 1001a17c     netio:netio.dll
+ 0002:00000180       __imp_NsiDeregisterChangeNotificationEx 1001a180     netio:netio.dll
+ 0002:00000184       __imp_NsiAllocateAndGetTable 1001a184     netio:netio.dll
+ 0002:00000188       __imp_NsiFreeTable         1001a188     netio:netio.dll
+ 0002:0000018c       __imp_NsiSetAllParameters  1001a18c     netio:netio.dll
+ 0002:00000190       \177netio_NULL_THUNK_DATA  1001a190     netio:netio.dll
+ 0002:0000019c       Dhcpv6GlobalCriticalSections 1001a19c     dhcp.obj
+ 0002:000001f0       DhcpV6MsgOptionsTable      1001a1f0     parseassemv6:parseAssemble.obj
+ 0002:00001488       Ipv4Mask                   1001b488     k.netioapi:utils.obj
+ 0002:0000150c       __security_cookie          1001b50c     corelib0:seccinit.obj
+ 0002:00001510       __security_cookie_complement 1001b510     corelib0:seccinit.obj
+ 0002:00001528       Dhcpv6GlobalNumberInitedCriticalSections 1001b528     dhcp.obj
+ 0002:00001534       g_Dhcpv6DbgPrint           1001b534     util.obj
+ 0002:0000153c       g_ExInitialized            1001b53c     vcompat:ex.obj
+ 0002:00001540       _exitflag                  1001b540     corelib0:cexit.obj
+ 0002:00001548       DhcpGlobalClassesList      1001b548     <common>
+ 0002:00001550       Dhcpv6GlobalHostStatus     1001b550     <common>
+ 0002:00001558       Dhcpv6GlobalClientOptionKey 1001b558     <common>
+ 0002:00001560       Dhcpv6GlobalHostNameBufW   1001b560     <common>
+ 0002:000017d8       Dhcpv6GlobalOptionCount    1001b7d8     <common>
+ 0002:000017dc       Dhcpv6GlobalClientClassInfo 1001b7dc     <common>
+ 0002:000017e0       Dhcpv6GlobalMessageFileHandle 1001b7e0     <common>
+ 0002:000017e4       Dhcpv6GlobalParametersKey  1001b7e4     <common>
+ 0002:000017f0       Dhcpv6GlobalTraceGuid      1001b7f0     <common>
+ 0002:00001800       Dhcpv6GlobalWaitableTimerHandle 1001b800     <common>
+ 0002:00001804       Dhcpv6GlobalTcpipParametersKey 1001b804     <common>
+ 0002:00001808       Dhcpv6GlobalPriority256    1001b808     <common>
+ 0002:0000180c       Dhcpv6GlobalRecomputeTimerEvent 1001b80c     <common>
+ 0002:00001810       pDhcpv6GlobalIsShuttingDown 1001b810     <common>
+ 0002:00001818       Dhcpv6GlobalRecvFromList   1001b818     <common>
+ 0002:00001820       Dhcpv6GlobalWsaData        1001b820     <common>
+ 0002:000019c0       Dhcpv6GlobalDuidAccessCritSect 1001b9c0     <common>
+ 0002:000019d4       Dhcpv6GlobalTerminateEvent 1001b9d4     <common>
+ 0002:000019d8       Dhcpv6GlobalWinSockInitialized 1001b9d8     <common>
+ 0002:000019dc       Dhcpv6IaidLists            1001b9dc     <common>
+ 0002:000019e0       Dhcpv6GlobalApiCritSect    1001b9e0     <common>
+ 0002:000019f4       Dhcpv6GlobalOptionList     1001b9f4     <common>
+ 0002:000019f8       Dhcpv6GlobalTraceFlag      1001b9f8     <common>
+ 0002:000019fc       Dhcpv6GlobalHostName       1001b9fc     <common>
+ 0002:00001a00       Dhcpv6FreeIaidList         1001ba00     <common>
+ 0002:00001a04       Dhcpv6OperationCancelHandle 1001ba04     <common>
+ 0002:00001a08       Dhcpv6GlobalClientPort     1001ba08     <common>
+ 0002:00001a0c       Dhcpv6GlobalRefreshEvent   1001ba0c     <common>
+ 0002:00001a10       GlobalProcessHeap          1001ba10     <common>
+ 0002:00001a20       Dhcpv6GlobalRelayAgentsAndServersAddr 1001ba20     <common>
+ 0002:00001a3c       Dhcpv6GlobalHostNameW      1001ba3c     <common>
+ 0002:00001a40       Dhcpv6GlobalNICList        1001ba40     <common>
+ 0002:00001a48       Dhcpv6GlobalProtocolFailed 1001ba48     <common>
+ 0002:00001a50       Dhcpv6GlobalClassesList    1001ba50     <common>
+ 0002:00001a58       Dhcpv6GlobalUseInformFlag  1001ba58     <common>
+ 0002:00001a5c       Dhcpv6GlobalServerPort     1001ba5c     <common>
+ 0002:00001a60       Dhcpv6GlobalIaidListCritSect 1001ba60     <common>
+ 0002:00001a74       Dhcpv6GlobalAdaptersCount  1001ba74     <common>
+ 0002:00001a80       Dhcpv6GlobalOptionsListCritSect 1001ba80     <common>
+ 0002:00001a98       Dhcpv6GlobalOptionDefList  1001ba98     <common>
+ 0002:00001aa0       gNumIaidAllocatedBlks      1001baa0     <common>
+ 0002:00001aa4       Dhcpv6GlobalHeap           1001baa4     <common>
+ 0002:00001aa8       Dhcpv6GlobalInterfacesKey  1001baa8     <common>
+ 0002:00001ac0       Dhcpv6GlobalRecvFromCritSect 1001bac0     <common>
+ 0002:00001ae0       Dhcpv6GlobalHostNameBuf    1001bae0     <common>
+ 0002:00001d60       Dhcpv6GlobalRenewListCritSect 1001bd60     <common>
+ 0002:00001d74       Dhcpv6GlobalServiceSyncEvent 1001bd74     <common>
+ 0002:00001d78       __onexitend                1001bd78     <common>
+ 0002:00001d7c       __onexitbegin              1001bd7c     <common>
+ 0002:00001d80       g_pcsExit                  1001bd80     <common>
+ 0002:00001d84       _pRawDllMain               1001bd84     <common>
+
+ entry point at        0001:00018468
+
+ Static symbols
+
+ 0001:000020cc       Dhcpv6OnMediaStatusChange  100030cc f   dhcpnsi.obj
+ 0001:000021e4       Dhcpv6EnumInterface        100031e4 f   dhcpnsi.obj
+ 0001:00002508       Dhcpv6NSIMediaSenseCallback 10003508 f   dhcpnsi.obj
+ 0001:00003bec       CeDhcpv6AddUnicastIPAddressToAdaptor 10004bec f   dhcp.obj
+ 0001:00003d7c       CeDhcpv6ReadAssignedIpV6Addresses 10004d7c f   dhcp.obj
+ 0001:00018378       _DllMainCRTStartupHelper   10019378 f   corelib0:pegdmain.obj
+ 0001:000185dc       doexit                     100195dc f   corelib0:cexit.obj

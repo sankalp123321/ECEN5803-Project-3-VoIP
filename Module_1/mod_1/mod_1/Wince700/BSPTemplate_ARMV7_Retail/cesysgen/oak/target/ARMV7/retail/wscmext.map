@@ -1,0 +1,152 @@
+ WsCmExt
+
+ Timestamp is 5cafa2ba (Thu Apr 11 13:25:30 2019)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 0000001cH .rdata                  CODE
+ 0001:0000003c 00000024H .rdata$debug            CODE
+ 0001:00000060 00001560H .text                   CODE
+ 0001:000015c0 00000014H .xdata                  CODE
+ 0001:000015d4 0000003cH .idata$2                CODE
+ 0001:00001610 00000014H .idata$3                CODE
+ 0001:00001624 0000008cH .idata$4                CODE
+ 0001:000016b0 00000192H .idata$6                CODE
+ 0001:00001850 0000010cH .edata                  CODE
+ 0002:00000000 0000008cH .idata$5                DATA
+ 0002:0000008c 00000008H .data                   DATA
+ 0002:00000094 0000001cH .bss                    DATA
+ 0003:00000000 000000c8H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:00000060       ?WsCmExtInit@@YAHXZ        10001060 f   WsCmExt.obj
+ 0001:00000064       ?WsCmExtDeinit@@YAXXZ      10001064 f   WsCmExt.obj
+ 0001:00000068       ?CreateCmSessIfNeeded@@YAHPAUWsSocket@@@Z 10001068 f   WsCmExt.obj
+ 0001:000000c8       ?AcquireConnectionUsedBySocket@@YAKPAUWsSocket@@@Z 100010c8 f   WsCmExt.obj
+ 0001:00000288       ?GetInt64Time@@YA_JPBUtimeval@@@Z 10001288 f   WsCmExt.obj
+ 0001:000002e0       DllEntry                   100012e0 f   WsCmExt.obj
+ 0001:00000310       WsCmExtAccept              10001310 f   WsCmExt.obj
+ 0001:00000338       WsCmExtCloseSocket         10001338 f   WsCmExt.obj
+ 0001:00000390       WsCmExtGetCmSession        10001390 f   WsCmExt.obj
+ 0001:000003ac       WsCmExtConnect             100013ac f   WsCmExt.obj
+ 0001:00000604       IsSocketAddressListValid   10001604 f   WsCmExt.obj
+ 0001:00000698       FillInAddressResults       10001698 f   WsCmExt.obj
+ 0001:00000700       SetLocalPort               10001700 f   WsCmExt.obj
+ 0001:00000784       WsCmExtConnectByName       10001784 f   WsCmExt.obj
+ 0001:00000c00       WsCmExtConnectByList       10001c00 f   WsCmExt.obj
+ 0001:000010f0       SetLastError               100020f0 f   coredll:COREDLL.dll
+ 0001:00001100       GetCurrentFT               10002100 f   coredll:COREDLL.dll
+ 0001:00001110       DisableThreadLibraryCalls  10002110 f   coredll:COREDLL.dll
+ 0001:00001120       GetLastError               10002120 f   coredll:COREDLL.dll
+ 0001:00001130       WSAAddressToStringW        10002130 f   ws2:WS2.dll
+ 0001:00001140       getsockname                10002140 f   ws2:WS2.dll
+ 0001:00001150       ntohs                      10002150 f   ws2:WS2.dll
+ 0001:00001160       CmApiInit                  10002160 f   CmNet:CmNet.dll
+ 0001:00001170       CmApiDeinit                10002170 f   CmNet:CmNet.dll
+ 0001:00001180       CmCreateSessionReference   10002180 f   CmNet:CmNet.dll
+ 0001:00001190       CmCreateSession            10002190 f   CmNet:CmNet.dll
+ 0001:000011a0       CmGetNextCandidateConnection 100021a0 f   CmNet:CmNet.dll
+ 0001:000011b0       CmAcquireConnection        100021b0 f   CmNet:CmNet.dll
+ 0001:000011c0       CmGetConnectionDetailsByHandle 100021c0 f   CmNet:CmNet.dll
+ 0001:000011d0       CmGetFirstCandidateConnection 100021d0 f   CmNet:CmNet.dll
+ 0001:000011e0       CmIsServiceAvailable       100021e0 f   CmNet:CmNet.dll
+ 0001:000011f0       CmCloseSession             100021f0 f   CmNet:CmNet.dll
+ 0001:00001200       CmReleaseConnection        10002200 f   CmNet:CmNet.dll
+ 0001:00001210       CmGetFirstIpAddr           10002210 f   CmNet:CmNet.dll
+ 0001:00001220       CmIsPolicyAssociatedWithCaller 10002220 f   CmNet:CmNet.dll
+ 0001:00001230       CmGetNextIpAddr            10002230 f   CmNet:CmNet.dll
+ 0001:00001240       _DllEntryCRTStartup        10002240 f   corelib0:pegdentry.obj
+ 0001:00001284       __GSHandlerCheckCommon     10002284 f   corelib0:gshandler.obj
+ 0001:000012c0       __GSHandlerCheck           100022c0 f   corelib0:gshandler.obj
+ 0001:000012e0       __security_init_cookie     100022e0 f   corelib0:seccinit.obj
+ 0001:0000132c       __security_check_cookie    1000232c f   corelib0:armsecgs.obj
+ 0001:0000133c       __gsfailure                1000233c     corelib0:armsecgs.obj
+ 0001:00001468       _cexit                     10002468 f   corelib0:cexit.obj
+ 0001:00001478       _initterm                  10002478 f   corelib0:crt0dat.obj
+ 0001:000014a4       _cinit                     100024a4 f   corelib0:crt0dat.obj
+ 0001:00001504       __crt_ExitProcess          10002504 f   corelib0:exitproc_proxy.obj
+ 0001:00001510       memcmp                     10002510 f   corelib1:COREDLL.dll
+ 0001:00001520       ??3@YAXPAX@Z               10002520 f   corelib1:COREDLL.dll
+ 0001:00001530       ??2@YAPAXI@Z               10002530 f   corelib1:COREDLL.dll
+ 0001:00001540       memcpy                     10002540 f   corelib1:COREDLL.dll
+ 0001:00001550       _wtol                      10002550 f   corelib1:COREDLL.dll
+ 0001:00001560       __security_gen_cookie2     10002560 f   corelib1:COREDLL.dll
+ 0001:00001570       __report_gsfailure         10002570 f   corelib1:COREDLL.dll
+ 0001:00001580       free                       10002580 f   corelib1:COREDLL.dll
+ 0001:00001590       DeleteCriticalSection      10002590 f   coredll:COREDLL.dll
+ 0001:000015a0       InterlockedExchange        100025a0 f   coredll:COREDLL.dll
+ 0001:000015b0       TerminateProcess           100025b0 f   coredll:COREDLL.dll
+ 0001:000015d4       __IMPORT_DESCRIPTOR_COREDLL 100025d4     coredll:COREDLL.dll
+ 0001:000015e8       __IMPORT_DESCRIPTOR_WS2    100025e8     ws2:WS2.dll
+ 0001:000015fc       __IMPORT_DESCRIPTOR_CmNet  100025fc     CmNet:CmNet.dll
+ 0001:00001610       __NULL_IMPORT_DESCRIPTOR   10002610     coredll:COREDLL.dll
+ 0002:00000000       __imp_SetLastError         10003000     coredll:COREDLL.dll
+ 0002:00000004       __imp_GetCurrentFT         10003004     coredll:COREDLL.dll
+ 0002:00000008       __imp_DisableThreadLibraryCalls 10003008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_GetLastError         1000300c     coredll:COREDLL.dll
+ 0002:00000010       __imp_TerminateProcess     10003010     coredll:COREDLL.dll
+ 0002:00000014       __imp_InterlockedExchange  10003014     coredll:COREDLL.dll
+ 0002:00000018       __imp_DeleteCriticalSection 10003018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_free                 1000301c     corelib1:COREDLL.dll
+ 0002:00000020       __imp___report_gsfailure   10003020     corelib1:COREDLL.dll
+ 0002:00000024       __imp___security_gen_cookie2 10003024     corelib1:COREDLL.dll
+ 0002:00000028       __imp__wtol                10003028     corelib1:COREDLL.dll
+ 0002:0000002c       __imp_memcpy               1000302c     corelib1:COREDLL.dll
+ 0002:00000030       __imp_??2@YAPAXI@Z         10003030     corelib1:COREDLL.dll
+ 0002:00000034       __imp_??3@YAXPAX@Z         10003034     corelib1:COREDLL.dll
+ 0002:00000038       __imp_memcmp               10003038     corelib1:COREDLL.dll
+ 0002:0000003c       \177COREDLL_NULL_THUNK_DATA 1000303c     coredll:COREDLL.dll
+ 0002:00000040       __imp_CmGetNextIpAddr      10003040     CmNet:CmNet.dll
+ 0002:00000044       __imp_CmGetFirstIpAddr     10003044     CmNet:CmNet.dll
+ 0002:00000048       __imp_CmReleaseConnection  10003048     CmNet:CmNet.dll
+ 0002:0000004c       __imp_CmCloseSession       1000304c     CmNet:CmNet.dll
+ 0002:00000050       __imp_CmIsServiceAvailable 10003050     CmNet:CmNet.dll
+ 0002:00000054       __imp_CmGetFirstCandidateConnection 10003054     CmNet:CmNet.dll
+ 0002:00000058       __imp_CmGetConnectionDetailsByHandle 10003058     CmNet:CmNet.dll
+ 0002:0000005c       __imp_CmAcquireConnection  1000305c     CmNet:CmNet.dll
+ 0002:00000060       __imp_CmGetNextCandidateConnection 10003060     CmNet:CmNet.dll
+ 0002:00000064       __imp_CmCreateSession      10003064     CmNet:CmNet.dll
+ 0002:00000068       __imp_CmCreateSessionReference 10003068     CmNet:CmNet.dll
+ 0002:0000006c       __imp_CmApiDeinit          1000306c     CmNet:CmNet.dll
+ 0002:00000070       __imp_CmApiInit            10003070     CmNet:CmNet.dll
+ 0002:00000074       __imp_CmIsPolicyAssociatedWithCaller 10003074     CmNet:CmNet.dll
+ 0002:00000078       \177CmNet_NULL_THUNK_DATA  10003078     CmNet:CmNet.dll
+ 0002:0000007c       __imp_getsockname          1000307c     ws2:WS2.dll
+ 0002:00000080       __imp_WSAAddressToStringW  10003080     ws2:WS2.dll
+ 0002:00000084       __imp_ntohs                10003084     ws2:WS2.dll
+ 0002:00000088       \177WS2_NULL_THUNK_DATA    10003088     ws2:WS2.dll
+ 0002:0000008c       __security_cookie          1000308c     corelib0:seccinit.obj
+ 0002:00000090       __security_cookie_complement 10003090     corelib0:seccinit.obj
+ 0002:00000094       ?g_pfnWsCmExtConnect@@3P6AHPAUWsSocket@@PBUsockaddr@@HPAU_WSABUF@@2PAU_QualityOfService@@3@ZA 10003094     WsCmExt.obj
+ 0002:00000098       ?g_pfnWsCmExtAccept@@3P6AXPAUWsSocket@@@ZA 10003098     WsCmExt.obj
+ 0002:0000009c       ?g_pfnWsCmExtCloseSocket@@3P6AXPAUWsSocket@@@ZA 1000309c     WsCmExt.obj
+ 0002:000000a0       _exitflag                  100030a0     corelib0:cexit.obj
+ 0002:000000a4       __onexitend                100030a4     <common>
+ 0002:000000a8       __onexitbegin              100030a8     <common>
+ 0002:000000ac       g_pcsExit                  100030ac     <common>
+
+ entry point at        0001:00001240
+
+ Static symbols
+
+ 0001:00001380       doexit                     10002380 f   corelib0:cexit.obj

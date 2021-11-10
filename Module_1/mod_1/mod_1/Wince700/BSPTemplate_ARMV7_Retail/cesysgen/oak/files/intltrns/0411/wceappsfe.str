@@ -1,0 +1,110 @@
+//
+// Copyright (c) Microsoft Corporation.  All rights reserved.
+//
+//
+// Use of this sample source code is subject to the terms of the Microsoft
+// license agreement under which you licensed this sample source code. If
+// you did not accept the terms of the license agreement, you are not
+// authorized to use this sample source code. For the terms of the license,
+// please see the license agreement between you and Microsoft or, if applicable,
+// see the LICENSE.RTF on your install media or the root of your tools installation.
+// THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES OR INDEMNITIES.
+//
+
+// Mail transport. Needs to be in sync with ResID 212 in MSGSTORE.DLL
+
+#define LOC_MAIL_TRANSPORT   ~"ActiveSync"
+
+// PWord on-device filter reg key strings.
+
+#define LOC_PWD_REG_READWORD       ~"Word 文書 (*.doc)"
+#define LOC_PWD_REG_WRITEWORD97    ~"Word 97 文書 (*.doc)"
+#define LOC_PWD_REG_WRITEWORD95    ~"Word 6.0/95 文書 (*.doc)"
+#define LOC_PWD_REG_READWORDTEMPLATE    ~"Word テンプレート (*.dot)"
+#define LOC_PWD_REG_WRITEWORD97TEMPLATE ~"Word 97 テンプレート (*.dot)"
+#define LOC_PWD_REG_WRITEWORD95TEMPLATE ~"Word 6.0/95 テンプレート (*.dot)"
+
+// project.dat translations
+
+// Special Folder names. Keep consistent with the same names in the previous section and what follows. 
+// Needs to be consistent with Explorer.exe as well, or the build will break
+
+#define LOC_MYDOCUMENTS_DIR             ~"My Documents"
+#define LOC_PROGRAMFILES_DIR            ~"Program Files"
+#define LOC_COMMUNICATION_DIR           ~"通信"
+#define LOC_POUTLOOK_DIR                ~"受信トレイ"
+#define LOC_MAILATTACHMENTS_DIR         ~"添付ファイル"
+#define LOC_DESKTOP_DIR                 ~"デスクトップ"
+#define LOC_PROGRAMS_DIR                ~"プログラム"
+#define LOC_RECENT_DIR                  ~"最近使ったファイル"
+#define LOC_HELP_DIR			~"Help"
+
+// Install dirs, Start Menu & Help links
+
+#define LOC_INFORMATIONMGR_DIR          ~"受信トレイ"
+#define LOC_OFFICE_DIR                  ~"Office"
+#define LOC_TEMPLATES_DIR               ~"テンプレート"
+#define LOC_LARGEMAILMESSAGE_DIR        ~"Large Mail Messages"
+#define LOC_LETTER_PWT              "手紙.pwt"
+#define LOC_MEETINGNOTES_PWT        "議事録.pwt"
+#define LOC_PATH_LETTER_PWT              "\Windows\手紙.pwt"
+#define LOC_PATH_MEETINGNOTES_PWT        "\Windows\議事録.pwt"
+#define LOC_TEMPLATES_LNK           ~"Office テンプレートへのショートカット.lnk"
+#define LOC_MYDOCUMENTS_LNK         ~"My Documents.lnk"
+#define LOC_INBOX_LNK               ~"受信トレイ.lnk"
+#define LOC_MSPWORD_LNK             ~"Microsoft ワードパッド.lnk"
+#define LOC_HLPLNK_INBOX                        "受信トレイ.lnk"
+#define LOC_HLPLNK_WORD                         "ワードパッド.lnk"
+#define LOC_PMAIL_EXE				~"\\windows\\pmail.exe"
+
+// Localize all Categories (used in PIM applications)
+#define LOC_CATEGORYBUSINESS        L"会社関係 (取引先)"
+#define LOC_CATEGORYCOMPETITION     L"会社関係 (競合相手)"
+#define LOC_CATEGORYFAVORITES       L"お気に入り"
+#define LOC_CATEGORYGIFTS           L"プレゼント/ギフト"
+#define LOC_CATEGORYGOALS           L"ゴール/目標"
+#define LOC_CATEGORYHOLIDAY         L"祝日"
+#define LOC_CATEGORYHOLIDAYCARDS    L"年賀状/暑中見舞い"
+#define LOC_CATEGORYHOT             L"友人"
+#define LOC_CATEGORYIDEAS           L"アイデア/ヒント"
+#define LOC_CATEGORYINTERNATIONAL   L"インターナショナル"
+#define LOC_CATEGORYKEYCUSTOMER     L"顧客"
+#define LOC_CATEGORYMISC            L"その他"
+#define LOC_CATEGORYPERSONAL        L"個人用"
+#define LOC_CATEGORYPHONECALLS      L"通話記録"
+#define LOC_CATEGORYSTATUS          L"進捗状況"
+#define LOC_CATEGORYSTRATEGIES      L"戦略"
+#define LOC_CATEGORYSUPPLIERS       L"業者"
+#define LOC_CATEGORYTIMEEXPENSE     L"時間/経費"
+#define LOC_CATEGORYVIP             L"VIP"
+#define LOC_CATEGORYWAITING         L"待機中"
+//
+// Paul Shih 01/24/98,
+// Add Japanese-only category (WINCE AEG 26020)
+//
+#define LOC_CATEGORYSEASONALGIFT    L"お中元/お歳暮"
+
+// project.reg translations
+
+// Database names are not localized anymore (bug 15116). Left here for reference (they are not used anyway!)
+#define LOC_CONTACTSDATABASE        "Contacts Database"
+#define LOC_TASKSDATABASE           "Tasks Database"
+#define LOC_APPOINTMENTSDATABASE    "Appointments Database"
+
+
+//
+// Paul Shih (01/16/98):
+// Add the following token to custimize default working hours
+//      for different language version
+//The registry key is:
+//
+// HKEY_LOCAL_MACHINE\Software\Microsoft\Calendar\ActiveTimes and the value is "ActiveTimes".
+//      The value to store there is a DWORD.  
+//      The low WORD is the days which are workdays, with the lowest bit being Sunday, the next one Monday, etc.
+//      The low byte of the high WORD is the start of the work day, in half hours (e.g. 16 would be 8 am)
+//      The high byte of the low WORD is the end of the work day, in half hours (e.g. 34 would be 5 pm)
+//
+//      So, to encode that Monday - Friday, 8 am to 5 pm is the work week, you would set this entry to:
+//      0x2210003E and 9am to 6pm (for Japan) will be 0x2412003E
+//
+#define NOLOC_CALENDAR_ACTIVETIME       ~"2412003E"

@@ -1,0 +1,448 @@
+ netbios
+
+ Timestamp is 5cafa2ae (Thu Apr 11 13:25:18 2019)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 000003c0H .rdata                  CODE
+ 0001:000003e0 00000024H .rdata$debug            CODE
+ 0001:00000404 0000971cH .text                   CODE
+ 0001:00009b20 00000084H .xdata                  CODE
+ 0001:00009ba4 00000050H .idata$2                CODE
+ 0001:00009bf4 00000014H .idata$3                CODE
+ 0001:00009c08 00000148H .idata$4                CODE
+ 0001:00009d50 00000246H .idata$6                CODE
+ 0001:00009fa0 00000115H .edata                  CODE
+ 0002:00000000 00000148H .idata$5                DATA
+ 0002:00000148 000000d4H .data                   DATA
+ 0002:00000220 00000588H .bss                    DATA
+ 0003:00000000 000004d8H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:0000003c       ??_C@_1CO@ICDKNJPO@?$AAS?$AAe?$AAs?$AAs?$AAi?$AAo?$AAn?$AAC?$AAo?$AAn?$AAn?$AAe?$AAc?$AAt?$AAA?$AAt?$AAt?$AAe?$AAm?$AAp?$AAt?$AAs?$AA?$AA@ 1000103c     init.obj
+ 0001:0000006c       ??_C@_1BK@FGPNEKCG@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAN?$AAe?$AAt?$AAB?$AAI?$AAO?$AAS?$AA?$AA@ 1000106c     init.obj
+ 0001:00000088       ??_C@_1BK@LBFDNALK@?$AAA?$AAu?$AAt?$AAo?$AAr?$AAa?$AAs?$AA_?$AAD?$AAi?$AAa?$AAl?$AA?$AA@ 10001088     init.obj
+ 0001:000000a4       ??_C@_1BI@NKMAMLAI@?$AAA?$AAu?$AAt?$AAo?$AAr?$AAa?$AAs?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 100010a4     init.obj
+ 0001:000000bc       ??_C@_1BO@LHAECDDC@?$AAL?$AAo?$AAc?$AAa?$AAl?$AAN?$AAa?$AAm?$AAe?$AAs?$AAO?$AAn?$AAl?$AAy?$AA?$AA@ 100010bc     init.obj
+ 0001:000000dc       ??_C@_1M@JNGEBKJJ@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AA?$AA@ 100010dc     init.obj
+ 0001:000000e8       ??_C@_1BA@KIBEDCBE@?$AAN?$AAe?$AAt?$AAb?$AAi?$AAo?$AAs?$AA?$AA@ 100010e8     init.obj
+ 0001:000000f8       ??_C@_1CA@GOGEMIHH@?$AAW?$AAa?$AAi?$AAt?$AAF?$AAo?$AAr?$AAA?$AAP?$AAI?$AAR?$AAe?$AAa?$AAd?$AAy?$AA?$AA@ 100010f8     adapter.obj
+ 0001:00000118       ??_C@_1BM@LLINKHBA@?$AAk?$AA?4?$AAc?$AAo?$AAr?$AAe?$AAd?$AAl?$AAl?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10001118     adapter.obj
+ 0001:00000134       ??_C@_1BO@KLPJMMP@?$AAC?$AAe?$AAC?$AAa?$AAl?$AAl?$AAU?$AAs?$AAe?$AAr?$AAP?$AAr?$AAo?$AAc?$AA?$AA@ 10001134     adapter.obj
+ 0001:00000154       ??_C@_1CI@OHFAEIPC@?$AAG?$AAe?$AAt?$AAN?$AAe?$AAt?$AAS?$AAt?$AAr?$AAi?$AAn?$AAg?$AAS?$AAi?$AAz?$AAe?$AAE?$AAx?$AAt?$AA?$AA@ 10001154     adapter.obj
+ 0001:0000017c       ??_C@_1BE@BOHEBICI@?$AAn?$AAe?$AAt?$AAu?$AAi?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 1000117c     adapter.obj
+ 0001:00000190       ??_C@_1CA@CCCHBEML@?$AAG?$AAe?$AAt?$AAN?$AAe?$AAt?$AAS?$AAt?$AAr?$AAi?$AAn?$AAg?$AAE?$AAx?$AAt?$AA?$AA@ 10001190     adapter.obj
+ 0001:000001b0       ??_C@_1BK@GALBKKNF@?$AAN?$AAe?$AAt?$AAM?$AAs?$AAg?$AAB?$AAo?$AAx?$AAE?$AAx?$AAt?$AA?$AA@ 100011b0     adapter.obj
+ 0001:000001cc       ??_C@_1BC@NGDBALKN@?$AAO?$AAr?$AAi?$AAg?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 100011cc     adapter.obj
+ 0001:000001e0       ??_C@_19DINFBLAK@?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 100011e0     adapter.obj
+ 0001:000001ec       ??_C@_1M@LPEEOHMF@?$AAI?$AAd?$AAe?$AAn?$AAt?$AA?$AA@ 100011ec     adapter.obj
+ 0001:000001f8       ??_C@_1CA@JCGMFEFI@?$AAG?$AAe?$AAt?$AAA?$AAd?$AAa?$AAp?$AAt?$AAe?$AAr?$AAs?$AAI?$AAn?$AAf?$AAo?$AA?$AA@ 100011f8     adapter.obj
+ 0001:00000218       ??_C@_1BK@IMBKPLPP@?$AAI?$AAp?$AAh?$AAl?$AAp?$AAa?$AAp?$AAi?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10001218     adapter.obj
+ 0001:00000234       ??_C@_1CA@OCBOGKPP@?$AAN?$AAo?$AAI?$AAd?$AAl?$AAe?$AAI?$AAf?$AAA?$AAd?$AAa?$AAp?$AAt?$AAe?$AAr?$AA?$AA@ 10001234     adapter.obj
+ 0001:00000254       ??_C@_1CC@HFHDOOGO@?$AAC?$AAo?$AAm?$AAm?$AA?2?$AAT?$AAc?$AAp?$AAi?$AAp?$AA?2?$AAP?$AAa?$AAr?$AAm?$AAs?$AA?$AA@ 10001254     adapter.obj
+ 0001:00000278       ??_C@_1BO@HMABOEBM@?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AAL?$AAo?$AAo?$AAp?$AAB?$AAa?$AAc?$AAk?$AA?$AA@ 10001278     adapter.obj
+ 0001:00000298       ??_C@_1BC@EIIEHLAL@?$AAw?$AAi?$AAr?$AAe?$AAl?$AAe?$AAs?$AAs?$AA?$AA@ 10001298     k.netioapi:convert.obj
+ 0001:000002ac       ??_C@_1O@ECOIBMJK@?$AAt?$AAu?$AAn?$AAn?$AAe?$AAl?$AA?$AA@ 100012ac     k.netioapi:convert.obj
+ 0001:000002bc       ??_C@_1BE@GDCBAPOG@?$AAt?$AAo?$AAk?$AAe?$AAn?$AAr?$AAi?$AAn?$AAg?$AA?$AA@ 100012bc     k.netioapi:convert.obj
+ 0001:000002d0       ??_C@_17FGJABMFL@?$AAp?$AAp?$AAp?$AA?$AA@ 100012d0     k.netioapi:convert.obj
+ 0001:000002d8       ??_C@_1M@LLEPKCPL@?$AAo?$AAt?$AAh?$AAe?$AAr?$AA?$AA@ 100012d8     k.netioapi:convert.obj
+ 0001:000002e4       ??_C@_1BC@IBGKKIOA@?$AAl?$AAo?$AAo?$AAp?$AAb?$AAa?$AAc?$AAk?$AA?$AA@ 100012e4     k.netioapi:convert.obj
+ 0001:000002f8       ??_C@_1BC@KMPEMOMJ@?$AAi?$AAe?$AAe?$AAe?$AA1?$AA3?$AA9?$AA4?$AA?$AA@ 100012f8     k.netioapi:convert.obj
+ 0001:0000030c       ??_C@_1BC@BEEOKCJC@?$AAe?$AAt?$AAh?$AAe?$AAr?$AAn?$AAe?$AAt?$AA?$AA@ 1000130c     k.netioapi:convert.obj
+ 0001:00000320       ??_C@_17NPGDOALK@?$AAa?$AAt?$AAm?$AA?$AA@ 10001320     k.netioapi:convert.obj
+ 0001:00000328       InterfaceNickTable         10001328     k.netioapi:convert.obj
+ 0001:00000370       FamilyTable                10001370     k.netioapi:path.obj
+ 0001:00000374       PathKeySizeTable           10001374     k.netioapi:path.obj
+ 0001:0000037c       PathRodSizeTable           1000137c     k.netioapi:path.obj
+ 0001:00000384       NPI_MS_IPV4_MODULEID       10001384     uuidnet:msmodid.obj
+ 0001:0000039c       NPI_MS_IPV6_MODULEID       1000139c     uuidnet:msmodid.obj
+ 0001:000003b4       NPI_MS_NDIS_MODULEID       100013b4     uuidnet:msmodid.obj
+ 0001:000003cc       ??_C@_0P@NHCDFBIF@ExAllocatePool?$AA@ 100013cc     vcompat:ex.obj
+ 0001:000003dc       scopeid_unspecified        100013dc     msnetioid:indef.obj
+ 0001:0000040c       LoadRegistryParams         1000140c f   init.obj
+ 0001:0000052c       InitNameService            1000152c f   init.obj
+ 0001:00000930       DllEntry                   10001930 f   init.obj
+ 0001:00000a24       Cancel                     10001a24 f   init.obj
+ 0001:00000a68       Netbios                    10001a68 f   init.obj
+ 0001:00000e8c       RedirectToRequest          10001e8c f   rcvhndlr.obj
+ 0001:00000fb0       RedirectToName             10001fb0 f   rcvhndlr.obj
+ 0001:00000ff4       TranslatePacket            10001ff4 f   rcvhndlr.obj
+ 0001:0000144c       DefendNameFromBroadcastRequest 1000244c f   rcvhndlr.obj
+ 0001:0000150c       NameServiceRcvHandler      1000250c f   rcvhndlr.obj
+ 0001:00001fa4       RcvHandler                 10002fa4 f   rcvhndlr.obj
+ 0001:0000207c       GetNBReq                   1000307c f   nbreq.obj
+ 0001:00002108       FreeNBReq                  10003108 f   nbreq.obj
+ 0001:00002178       CancelRequest              10003178 f   nbreq.obj
+ 0001:000021ec       GetTrnId                   100031ec f   nbpacket.obj
+ 0001:00002220       GetResolver                10003220 f   nbpacket.obj
+ 0001:000022ac       AddResolver                100032ac f   nbpacket.obj
+ 0001:000023f8       GetNBPacket                100033f8 f   nbpacket.obj
+ 0001:00002404       FreeNBPacket               10003404 f   nbpacket.obj
+ 0001:00002408       EncodeName                 10003408 f   nbpacket.obj
+ 0001:00002454       DecodeLabel                10003454 f   nbpacket.obj
+ 0001:000024b0       FillPacketEx               100034b0 f   nbpacket.obj
+ 0001:00002ac4       BuildNBPacket              10003ac4 f   nbpacket.obj
+ 0001:00002b34       SendDown                   10003b34 f   nbpacket.obj
+ 0001:00002bb8       Wait                       10003bb8 f   nbpacket.obj
+ 0001:00002bfc       SendPackets                10003bfc f   nbpacket.obj
+ 0001:00002da8       UpdateNames                10003da8 f   nametbl.obj
+ 0001:00002f64       GetNBName                  10003f64 f   nametbl.obj
+ 0001:00002fb0       FreeNBName                 10003fb0 f   nametbl.obj
+ 0001:00003008       AddName                    10004008 f   nametbl.obj
+ 0001:000030fc       _FindName                  100040fc f   nametbl.obj
+ 0001:000031c4       FindName                   100041c4 f   nametbl.obj
+ 0001:000031ec       RemoveName                 100041ec f   nametbl.obj
+ 0001:00003234       AddRemName                 10004234 f   nametbl.obj
+ 0001:000032e4       FindRemName                100042e4 f   nametbl.obj
+ 0001:00003370       RemoveRemName              10004370 f   nametbl.obj
+ 0001:0000341c       UcastAddName               1000441c f   names.obj
+ 0001:00003568       BcastAddName               10004568 f   names.obj
+ 0001:00003638       UcastReleaseName           10004638 f   names.obj
+ 0001:000036e0       BcastReleaseName           100046e0 f   names.obj
+ 0001:00003758       HnodeAddName               10004758 f   names.obj
+ 0001:00003910       HnodeReleaseName           10004910 f   names.obj
+ 0001:00003a30       UcastFindName              10004a30 f   names.obj
+ 0001:00003b14       BcastFindName              10004b14 f   names.obj
+ 0001:00003bc0       HnodeFindName              10004bc0 f   names.obj
+ 0001:00003db4       WaitForAPIReadyWrapper     10004db4 f i adapter.obj
+ 0001:00003e24       CeCallUserProcWrapper      10004e24 f i adapter.obj
+ 0001:00003ec0       CallKGetNetStringSize      10004ec0 f i adapter.obj
+ 0001:00003f34       CallKGetNetString          10004f34 f i adapter.obj
+ 0001:0000400c       CallKVNetMsgBox            1000500c f i adapter.obj
+ 0001:00004178       CallKNetMsgBox             10005178 f i adapter.obj
+ 0001:0000419c       GetName                    1000519c f   adapter.obj
+ 0001:00004370       GetLanaNum                 10005370 f   adapter.obj
+ 0001:00004414       _FindLana                  10005414 f   adapter.obj
+ 0001:00004468       FindLanaByIndex            10005468 f   adapter.obj
+ 0001:000044e8       RefLana                    100054e8 f   adapter.obj
+ 0001:00004548       TakeLanaDown               10005548 f   adapter.obj
+ 0001:000047a8       DerefLana                  100057a8 f   adapter.obj
+ 0001:00004850       InitWinsInfo               10005850 f   adapter.obj
+ 0001:000049b4       QNotify                    100059b4 f   adapter.obj
+ 0001:000049ec       NotifyThread               100059ec f   adapter.obj
+ 0001:00004bbc       HandleNameChange           10005bbc f   adapter.obj
+ 0001:00004e08       ConvertIndexToLana         10005e08 f   adapter.obj
+ 0001:00004e60       StartNotifyThread          10005e60 f   adapter.obj
+ 0001:00004ec0       NetbiosOnIpAdded           10005ec0 f   adapter.obj
+ 0001:00005120       NetbiosOnIpDeleted         10006120 f   adapter.obj
+ 0001:0000525c       NetbiosEnumInterfaces      1000625c f   adapter.obj
+ 0001:0000537c       NetbiosIpAddressChangeCallback 1000637c f   adapter.obj
+ 0001:000053e8       InitAdapterListener        100063e8 f   adapter.obj
+ 0001:00005424       GetSsnId                   10006424 f   session.obj
+ 0001:0000546c       GetSession                 1000646c f   session.obj
+ 0001:00005520       FreeSession                10006520 f   session.obj
+ 0001:0000557c       BuildSocksList             1000657c f   session.obj
+ 0001:00005658       UnmarkSelectedSsn          10006658 f   session.obj
+ 0001:000056e0       _FindSession               100066e0 f   session.obj
+ 0001:00005734       FindSession                10006734 f   session.obj
+ 0001:00005788       AddSession                 10006788 f   session.obj
+ 0001:000057bc       RemoveSession              100067bc f   session.obj
+ 0001:00005800       HangupAny                  10006800 f   session.obj
+ 0001:0000595c       QueryLANA                  1000695c f   ssn_conn.obj
+ 0001:000059bc       InitListen                 100069bc f   ssn_conn.obj
+ 0001:00005b5c       HnodeListen                10006b5c f   ssn_conn.obj
+ 0001:00005c98       RecvSsnPacket              10006c98 f   ssn_conn.obj
+ 0001:00005e8c       SessionConnect             10006e8c f   ssn_conn.obj
+ 0001:00005ffc       SsnHangup                  10006ffc f   ssn_conn.obj
+ 0001:00006078       HnodeCallName              10007078 f   ssn_conn.obj
+ 0001:000064dc       FillSsnBuffer              100074dc f   ssn_pkt.obj
+ 0001:000065b0       SsnSendDown                100075b0 f   ssn_send.obj
+ 0001:0000667c       SsnSend                    1000767c f   ssn_send.obj
+ 0001:00006814       RecvData                   10007814 f   ssn_recv.obj
+ 0001:000069a0       RecvSsnData                100079a0 f   ssn_recv.obj
+ 0001:00006b00       WakeupSelect               10007b00 f   ssn_recv.obj
+ 0001:00006b60       SsnRecv                    10007b60 f   ssn_recv.obj
+ 0001:00006c38       SsnRecvAny                 10007c38 f   ssn_recv.obj
+ 0001:00006f80       GetLanaByIpAddress         10007f80 f   ssn_recv.obj
+ 0001:0000700c       SendSessionResponse        1000800c f   ssn_recv.obj
+ 0001:00007090       SessionRcvHandler          10008090 f   ssn_recv.obj
+ 0001:0000739c       FillDgBuffer               1000839c f   dg_send.obj
+ 0001:00007420       DgSend                     10008420 f   dg_send.obj
+ 0001:00007634       DgSendBcast                10008634 f   dg_send.obj
+ 0001:000077fc       GetDGRcvReq                100087fc f   dg_recv.obj
+ 0001:00007850       DgRecv                     10008850 f   dg_recv.obj
+ 0001:00007950       DgRecvBcast                10008950 f   dg_recv.obj
+ 0001:00007a40       CancelDgRecv               10008a40 f   dg_recv.obj
+ 0001:00007b44       CopyDgData                 10008b44 f   dg_recv.obj
+ 0001:00007bc4       PutInCompletionQ           10008bc4 f   dg_recv.obj
+ 0001:00007c84       IsGoodNameServiceDatagram  10008c84 f   dg_recv.obj
+ 0001:00007d3c       DgramRcvHandler            10008d3c f   dg_recv.obj
+ 0001:00008124       ?Unmarshal@MarshalledBuffer_t@@QAAJXZ 10009124 f i driver.obj
+ 0001:0000817c       NBT_Deinit                 1000917c f   driver.obj
+ 0001:00008184       NBT_Init                   10009184 f   driver.obj
+ 0001:0000818c       NBT_PowerUp                1000918c f   driver.obj
+ 0001:00008190       NBT_PowerDown              10009190 f   driver.obj
+ 0001:00008194       NBT_Open                   10009194 f   driver.obj
+ 0001:000081a0       NBT_Close                  100091a0 f   driver.obj
+ 0001:000081a8       NBT_Read                   100091a8 f   driver.obj
+ 0001:000081b0       NBT_Write                  100091b0 f   driver.obj
+ 0001:000081b8       NBT_Seek                   100091b8 f   driver.obj
+ 0001:000081c0       ?Marshal@MarshalledBuffer_t@@QAAJPAXKKHH@Z 100091c0 f i driver.obj
+ 0001:00008250       NBT_IOControl              10009250 f   driver.obj
+ 0001:000083cc       NetioAllocateMemory        100093cc f   k.netioapi:utils.obj
+ 0001:000083e0       InternalRegisterChangeNotification 100093e0 f   k.netioapi:utils.obj
+ 0001:000084e8       FreeMibTable               100094e8 f   k.netioapi:utils.obj
+ 0001:000084f4       IN6_IS_ADDR_LOOPBACK       100094f4 f i k.netioapi:address.obj
+ 0001:00008564       Ipv6UnicastAddressScope    10009564 f i k.netioapi:address.obj
+ 0001:00008628       IN6_UNCANONICALIZE_SCOPE_ID 10009628 f i k.netioapi:address.obj
+ 0001:00008688       IN6ADDR_SETSOCKADDR        10009688 f i k.netioapi:address.obj
+ 0001:000086d8       INETADDR_SETSOCKADDR       100096d8 f i k.netioapi:address.obj
+ 0001:00008754       FillAddressEntry           10009754 f   k.netioapi:address.obj
+ 0001:00008920       NetioEnumerateAddress      10009920 f   k.netioapi:address.obj
+ 0001:00008d78       NetioGetAddress            10009d78 f   k.netioapi:address.obj
+ 0001:00008f9c       GetUnicastIpAddressEntry   10009f9c f   k.netioapi:address.obj
+ 0001:00008fac       GetUnicastIpAddressTable   10009fac f   k.netioapi:address.obj
+ 0001:00008fc0       NetioAddressChangeCallBack 10009fc0 f   k.netioapi:address.obj
+ 0001:00009050       NetioRegisterInterfaceAddressChangeNotification 1000a050 f   k.netioapi:address.obj
+ 0001:00009148       NotifyUnicastIpAddressChange 1000a148 f   k.netioapi:address.obj
+ 0001:00009188       ConvertInterfaceLuidToIndex 1000a188 f   k.netioapi:convert.obj
+ 0001:00009210       ConvertInterfaceIndexToLuid 1000a210 f   k.netioapi:convert.obj
+ 0001:00009290       RegCloseKey                1000a290 f   coredll:COREDLL.dll
+ 0001:000092a0       lstrcmpiW                  1000a2a0 f   coredll:COREDLL.dll
+ 0001:000092b0       RegEnumValueW              1000a2b0 f   coredll:COREDLL.dll
+ 0001:000092c0       RegOpenKeyExW              1000a2c0 f   coredll:COREDLL.dll
+ 0001:000092d0       CloseHandle                1000a2d0 f   coredll:COREDLL.dll
+ 0001:000092e0       GetProcAddressW            1000a2e0 f   coredll:COREDLL.dll
+ 0001:000092f0       LoadLibraryW               1000a2f0 f   coredll:COREDLL.dll
+ 0001:00009300       CreateThread               1000a300 f   coredll:COREDLL.dll
+ 0001:00009310       DeleteCriticalSection      1000a310 f   coredll:COREDLL.dll
+ 0001:00009320       InitializeCriticalSection  1000a320 f   coredll:COREDLL.dll
+ 0001:00009330       DisableThreadLibraryCalls  1000a330 f   coredll:COREDLL.dll
+ 0001:00009340       SetLastError               1000a340 f   coredll:COREDLL.dll
+ 0001:00009350       LocalFree                  1000a350 f   coredll:COREDLL.dll
+ 0001:00009360       LeaveCriticalSection       1000a360 f   coredll:COREDLL.dll
+ 0001:00009370       EnterCriticalSection       1000a370 f   coredll:COREDLL.dll
+ 0001:00009380       LocalAlloc                 1000a380 f   coredll:COREDLL.dll
+ 0001:00009390       EventModify                1000a390 f   coredll:COREDLL.dll
+ 0001:000093a0       CreateEventW               1000a3a0 f   coredll:COREDLL.dll
+ 0001:000093b0       WaitForSingleObject        1000a3b0 f   coredll:COREDLL.dll
+ 0001:000093c0       Sleep                      1000a3c0 f   coredll:COREDLL.dll
+ 0001:000093d0       FreeLibrary                1000a3d0 f   coredll:COREDLL.dll
+ 0001:000093e0       FormatMessageW             1000a3e0 f   coredll:COREDLL.dll
+ 0001:000093f0       WideCharToMultiByte        1000a3f0 f   coredll:COREDLL.dll
+ 0001:00009400       RegQueryValueExW           1000a400 f   coredll:COREDLL.dll
+ 0001:00009410       GetLastError               1000a410 f   coredll:COREDLL.dll
+ 0001:00009420       CeCloseCallerBuffer        1000a420 f   coredll:COREDLL.dll
+ 0001:00009430       CeFreeAsynchronousBuffer   1000a430 f   coredll:COREDLL.dll
+ 0001:00009440       CeAllocAsynchronousBuffer  1000a440 f   coredll:COREDLL.dll
+ 0001:00009450       CeOpenCallerBuffer         1000a450 f   coredll:COREDLL.dll
+ 0001:00009460       closesocket                1000a460 f   ws2:WS2.dll
+ 0001:00009470       WSAIoctl                   1000a470 f   ws2:WS2.dll
+ 0001:00009480       setsockopt                 1000a480 f   ws2:WS2.dll
+ 0001:00009490       bind                       1000a490 f   ws2:WS2.dll
+ 0001:000094a0       WSASocketW                 1000a4a0 f   ws2:WS2.dll
+ 0001:000094b0       WSAGetLastError            1000a4b0 f   ws2:WS2.dll
+ 0001:000094c0       WSACloseEvent              1000a4c0 f   ws2:WS2.dll
+ 0001:000094d0       WSAResetEvent              1000a4d0 f   ws2:WS2.dll
+ 0001:000094e0       WSAWaitForMultipleEvents   1000a4e0 f   ws2:WS2.dll
+ 0001:000094f0       WSAEventSelect             1000a4f0 f   ws2:WS2.dll
+ 0001:00009500       WSACreateEvent             1000a500 f   ws2:WS2.dll
+ 0001:00009510       sendto                     1000a510 f   ws2:WS2.dll
+ 0001:00009520       WSASetEvent                1000a520 f   ws2:WS2.dll
+ 0001:00009530       inet_addr                  1000a530 f   ws2:WS2.dll
+ 0001:00009540       ntohl                      1000a540 f   ws2:WS2.dll
+ 0001:00009550       listen                     1000a550 f   ws2:WS2.dll
+ 0001:00009560       send                       1000a560 f   ws2:WS2.dll
+ 0001:00009570       connect                    1000a570 f   ws2:WS2.dll
+ 0001:00009580       recv                       1000a580 f   ws2:WS2.dll
+ 0001:00009590       ioctlsocket                1000a590 f   ws2:WS2.dll
+ 0001:000095a0       getsockname                1000a5a0 f   ws2:WS2.dll
+ 0001:000095b0       accept                     1000a5b0 f   ws2:WS2.dll
+ 0001:000095c0       NsiRegisterChangeNotification 1000a5c0 f   netio:netio.dll
+ 0001:000095d0       NsiAllocateAndGetTable     1000a5d0 f   netio:netio.dll
+ 0001:000095e0       NsiFreeTable               1000a5e0 f   netio:netio.dll
+ 0001:000095f0       NsiGetAllParameters        1000a5f0 f   netio:netio.dll
+ 0001:00009600       NsiGetParameter            1000a600 f   netio:netio.dll
+ 0001:00009610       GetRegDWORDValue           1000a610 f   cxport:CXPORT.dll
+ 0001:00009620       CTEInitTimer               1000a620 f   cxport:CXPORT.dll
+ 0001:00009630       CTEStartTimer              1000a630 f   cxport:CXPORT.dll
+ 0001:00009640       CTEIOControl               1000a640 f   cxport:CXPORT.dll
+ 0001:00009650       InitializeExAllocHeap      1000a650 f   vcompat:ex.obj
+ 0001:0000968c       ExAllocatePoolWithTag      1000a68c f   vcompat:ex.obj
+ 0001:000096d0       ExFreePoolWithTag          1000a6d0 f   vcompat:ex.obj
+ 0001:000096e4       _DllEntryCRTStartup        1000a6e4 f   corelib0:pegdentry.obj
+ 0001:00009728       __GSHandlerCheckCommon     1000a728 f   corelib0:gshandler.obj
+ 0001:00009764       __GSHandlerCheck           1000a764 f   corelib0:gshandler.obj
+ 0001:00009784       __security_init_cookie     1000a784 f   corelib0:seccinit.obj
+ 0001:000097d0       __security_check_cookie    1000a7d0 f   corelib0:armsecgs.obj
+ 0001:000097e0       __gsfailure                1000a7e0     corelib0:armsecgs.obj
+ 0001:00009824       __GSHandlerCheck_SEH       1000a824 f   corelib0:gshandlerseh.obj
+ 0001:00009958       _cexit                     1000a958 f   corelib0:cexit.obj
+ 0001:00009968       _initterm                  1000a968 f   corelib0:crt0dat.obj
+ 0001:00009994       _cinit                     1000a994 f   corelib0:crt0dat.obj
+ 0001:000099f4       __crt_ExitProcess          1000a9f4 f   corelib0:exitproc_proxy.obj
+ 0001:00009a00       wcscat                     1000aa00 f   corelib1:COREDLL.dll
+ 0001:00009a10       wcscpy                     1000aa10 f   corelib1:COREDLL.dll
+ 0001:00009a20       memset                     1000aa20 f   corelib1:COREDLL.dll
+ 0001:00009a30       memcpy                     1000aa30 f   corelib1:COREDLL.dll
+ 0001:00009a40       memcmp                     1000aa40 f   corelib1:COREDLL.dll
+ 0001:00009a50       wcslen                     1000aa50 f   corelib1:COREDLL.dll
+ 0001:00009a60       _wcsicmp                   1000aa60 f   corelib1:COREDLL.dll
+ 0001:00009a70       __C_specific_handler       1000aa70 f   corelib1:COREDLL.dll
+ 0001:00009a80       __security_gen_cookie2     1000aa80 f   corelib1:COREDLL.dll
+ 0001:00009a90       __report_gsfailure         1000aa90 f   corelib1:COREDLL.dll
+ 0001:00009aa0       free                       1000aaa0 f   corelib1:COREDLL.dll
+ 0001:00009ab0       InterlockedExchange        1000aab0 f   coredll:COREDLL.dll
+ 0001:00009ac0       InterlockedCompareExchange 1000aac0 f   coredll:COREDLL.dll
+ 0001:00009ad0       TerminateProcess           1000aad0 f   coredll:COREDLL.dll
+ 0001:00009ae0       CTEHeapDestroy             1000aae0 f   cxport:CXPORT.dll
+ 0001:00009af0       CTEHeapCreate              1000aaf0 f   cxport:CXPORT.dll
+ 0001:00009b00       CTEHeapAlloc               1000ab00 f   cxport:CXPORT.dll
+ 0001:00009b10       CTEHeapFree                1000ab10 f   cxport:CXPORT.dll
+ 0001:00009ba4       __IMPORT_DESCRIPTOR_COREDLL 1000aba4     coredll:COREDLL.dll
+ 0001:00009bb8       __IMPORT_DESCRIPTOR_WS2    1000abb8     ws2:WS2.dll
+ 0001:00009bcc       __IMPORT_DESCRIPTOR_netio  1000abcc     netio:netio.dll
+ 0001:00009be0       __IMPORT_DESCRIPTOR_CXPORT 1000abe0     cxport:CXPORT.dll
+ 0001:00009bf4       __NULL_IMPORT_DESCRIPTOR   1000abf4     coredll:COREDLL.dll
+ 0002:00000000       __imp_RegCloseKey          1000c000     coredll:COREDLL.dll
+ 0002:00000004       __imp_lstrcmpiW            1000c004     coredll:COREDLL.dll
+ 0002:00000008       __imp_RegEnumValueW        1000c008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_RegOpenKeyExW        1000c00c     coredll:COREDLL.dll
+ 0002:00000010       __imp_CloseHandle          1000c010     coredll:COREDLL.dll
+ 0002:00000014       __imp_GetProcAddressW      1000c014     coredll:COREDLL.dll
+ 0002:00000018       __imp_LoadLibraryW         1000c018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_CreateThread         1000c01c     coredll:COREDLL.dll
+ 0002:00000020       __imp_DeleteCriticalSection 1000c020     coredll:COREDLL.dll
+ 0002:00000024       __imp_InitializeCriticalSection 1000c024     coredll:COREDLL.dll
+ 0002:00000028       __imp_DisableThreadLibraryCalls 1000c028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_SetLastError         1000c02c     coredll:COREDLL.dll
+ 0002:00000030       __imp_LocalFree            1000c030     coredll:COREDLL.dll
+ 0002:00000034       __imp_LeaveCriticalSection 1000c034     coredll:COREDLL.dll
+ 0002:00000038       __imp_EnterCriticalSection 1000c038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_LocalAlloc           1000c03c     coredll:COREDLL.dll
+ 0002:00000040       __imp_EventModify          1000c040     coredll:COREDLL.dll
+ 0002:00000044       __imp_CreateEventW         1000c044     coredll:COREDLL.dll
+ 0002:00000048       __imp_WaitForSingleObject  1000c048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_Sleep                1000c04c     coredll:COREDLL.dll
+ 0002:00000050       __imp_FreeLibrary          1000c050     coredll:COREDLL.dll
+ 0002:00000054       __imp_FormatMessageW       1000c054     coredll:COREDLL.dll
+ 0002:00000058       __imp_WideCharToMultiByte  1000c058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_RegQueryValueExW     1000c05c     coredll:COREDLL.dll
+ 0002:00000060       __imp_GetLastError         1000c060     coredll:COREDLL.dll
+ 0002:00000064       __imp_CeCloseCallerBuffer  1000c064     coredll:COREDLL.dll
+ 0002:00000068       __imp_CeFreeAsynchronousBuffer 1000c068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_CeAllocAsynchronousBuffer 1000c06c     coredll:COREDLL.dll
+ 0002:00000070       __imp_CeOpenCallerBuffer   1000c070     coredll:COREDLL.dll
+ 0002:00000074       __imp_wcscpy               1000c074     corelib1:COREDLL.dll
+ 0002:00000078       __imp_memset               1000c078     corelib1:COREDLL.dll
+ 0002:0000007c       __imp_memcpy               1000c07c     corelib1:COREDLL.dll
+ 0002:00000080       __imp_memcmp               1000c080     corelib1:COREDLL.dll
+ 0002:00000084       __imp_TerminateProcess     1000c084     coredll:COREDLL.dll
+ 0002:00000088       __imp_InterlockedCompareExchange 1000c088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_InterlockedExchange  1000c08c     coredll:COREDLL.dll
+ 0002:00000090       __imp_free                 1000c090     corelib1:COREDLL.dll
+ 0002:00000094       __imp___report_gsfailure   1000c094     corelib1:COREDLL.dll
+ 0002:00000098       __imp___security_gen_cookie2 1000c098     corelib1:COREDLL.dll
+ 0002:0000009c       __imp_wcslen               1000c09c     corelib1:COREDLL.dll
+ 0002:000000a0       __imp___C_specific_handler 1000c0a0     corelib1:COREDLL.dll
+ 0002:000000a4       __imp__wcsicmp             1000c0a4     corelib1:COREDLL.dll
+ 0002:000000a8       __imp_wcscat               1000c0a8     corelib1:COREDLL.dll
+ 0002:000000ac       \177COREDLL_NULL_THUNK_DATA 1000c0ac     coredll:COREDLL.dll
+ 0002:000000b0       __imp_CTEHeapDestroy       1000c0b0     cxport:CXPORT.dll
+ 0002:000000b4       __imp_CTEHeapCreate        1000c0b4     cxport:CXPORT.dll
+ 0002:000000b8       __imp_CTEHeapAlloc         1000c0b8     cxport:CXPORT.dll
+ 0002:000000bc       __imp_CTEHeapFree          1000c0bc     cxport:CXPORT.dll
+ 0002:000000c0       __imp_GetRegDWORDValue     1000c0c0     cxport:CXPORT.dll
+ 0002:000000c4       __imp_CTEInitTimer         1000c0c4     cxport:CXPORT.dll
+ 0002:000000c8       __imp_CTEStartTimer        1000c0c8     cxport:CXPORT.dll
+ 0002:000000cc       __imp_CTEIOControl         1000c0cc     cxport:CXPORT.dll
+ 0002:000000d0       \177CXPORT_NULL_THUNK_DATA 1000c0d0     cxport:CXPORT.dll
+ 0002:000000d4       __imp_ntohl                1000c0d4     ws2:WS2.dll
+ 0002:000000d8       __imp_closesocket          1000c0d8     ws2:WS2.dll
+ 0002:000000dc       __imp_WSAIoctl             1000c0dc     ws2:WS2.dll
+ 0002:000000e0       __imp_setsockopt           1000c0e0     ws2:WS2.dll
+ 0002:000000e4       __imp_bind                 1000c0e4     ws2:WS2.dll
+ 0002:000000e8       __imp_WSASocketW           1000c0e8     ws2:WS2.dll
+ 0002:000000ec       __imp_WSAGetLastError      1000c0ec     ws2:WS2.dll
+ 0002:000000f0       __imp_WSACloseEvent        1000c0f0     ws2:WS2.dll
+ 0002:000000f4       __imp_WSAResetEvent        1000c0f4     ws2:WS2.dll
+ 0002:000000f8       __imp_accept               1000c0f8     ws2:WS2.dll
+ 0002:000000fc       __imp_getsockname          1000c0fc     ws2:WS2.dll
+ 0002:00000100       __imp_ioctlsocket          1000c100     ws2:WS2.dll
+ 0002:00000104       __imp_recv                 1000c104     ws2:WS2.dll
+ 0002:00000108       __imp_connect              1000c108     ws2:WS2.dll
+ 0002:0000010c       __imp_listen               1000c10c     ws2:WS2.dll
+ 0002:00000110       __imp_send                 1000c110     ws2:WS2.dll
+ 0002:00000114       __imp_inet_addr            1000c114     ws2:WS2.dll
+ 0002:00000118       __imp_WSASetEvent          1000c118     ws2:WS2.dll
+ 0002:0000011c       __imp_sendto               1000c11c     ws2:WS2.dll
+ 0002:00000120       __imp_WSACreateEvent       1000c120     ws2:WS2.dll
+ 0002:00000124       __imp_WSAEventSelect       1000c124     ws2:WS2.dll
+ 0002:00000128       __imp_WSAWaitForMultipleEvents 1000c128     ws2:WS2.dll
+ 0002:0000012c       \177WS2_NULL_THUNK_DATA    1000c12c     ws2:WS2.dll
+ 0002:00000130       __imp_NsiRegisterChangeNotification 1000c130     netio:netio.dll
+ 0002:00000134       __imp_NsiAllocateAndGetTable 1000c134     netio:netio.dll
+ 0002:00000138       __imp_NsiFreeTable         1000c138     netio:netio.dll
+ 0002:0000013c       __imp_NsiGetAllParameters  1000c13c     netio:netio.dll
+ 0002:00000140       __imp_NsiGetParameter      1000c140     netio:netio.dll
+ 0002:00000144       \177netio_NULL_THUNK_DATA  1000c144     netio:netio.dll
+ 0002:00000148       v_UDPNameSocket            1000c148     init.obj
+ 0002:0000014c       v_TCPNameSocket            1000c14c     init.obj
+ 0002:00000150       v_TCPSessionSocket         1000c150     init.obj
+ 0002:00000154       v_UDPDgramSocket           1000c154     init.obj
+ 0002:00000158       StarName                   1000c158     init.obj
+ 0002:0000017c       AnyName                    1000c17c     init.obj
+ 0002:00000190       Ipv4Mask                   1000c190     k.netioapi:utils.obj
+ 0002:00000214       __security_cookie          1000c214     corelib0:seccinit.obj
+ 0002:00000218       __security_cookie_complement 1000c218     corelib0:seccinit.obj
+ 0002:00000220       v_pfnWSARecvMsg            1000c220     init.obj
+ 0002:00000224       v_pResolverList            1000c224     nbpacket.obj
+ 0002:00000228       v_pfnAutoras_Dial          1000c228     names.obj
+ 0002:0000022c       fNoIdleIfAdapter           1000c22c     adapter.obj
+ 0002:00000238       g_ExInitialized            1000c238     vcompat:ex.obj
+ 0002:0000023c       _exitflag                  1000c23c     corelib0:cexit.obj
+ 0002:00000240       v_CompletionQLock          1000c240     <common>
+ 0002:00000260       aBuf                       1000c260     <common>
+ 0002:00000648       v_pCompletionQ             1000c648     <common>
+ 0002:0000064c       v_pActiveSessions          1000c64c     <common>
+ 0002:00000660       v_ActiveSessionsLock       1000c660     <common>
+ 0002:00000674       v_cSsnId                   1000c674     <common>
+ 0002:00000678       v_pfnIpGetAdaptersInfo     1000c678     <common>
+ 0002:00000680       v_LanaLock                 1000c680     <common>
+ 0002:00000694       v_pCbList                  1000c694     <common>
+ 0002:000006a0       v_CbListLock               1000c6a0     <common>
+ 0002:000006c0       v_EncodedComputerName      1000c6c0     <common>
+ 0002:000006e4       v_pLanaList                1000c6e4     <common>
+ 0002:00000700       v_NotifyListLock           1000c700     <common>
+ 0002:00000714       v_fNotifyThread            1000c714     <common>
+ 0002:00000718       v_pNotifyListEnd           1000c718     <common>
+ 0002:0000071c       v_pNotifyList              1000c71c     <common>
+ 0002:00000720       v_NameTimer                1000c720     <common>
+ 0002:0000073c       v_fNameTimerOn             1000c73c     <common>
+ 0002:00000740       v_ResolverLock             1000c740     <common>
+ 0002:00000754       v_cTrnId                   1000c754     <common>
+ 0002:00000760       v_RequestLock              1000c760     <common>
+ 0002:00000774       v_pRequestList             1000c774     <common>
+ 0002:00000778       v_pNSPkt                   1000c778     <common>
+ 0002:00000780       v_MiscLock                 1000c780     <common>
+ 0002:00000794       v_fLocalNamesOnly          1000c794     <common>
+ 0002:00000798       g_ssnRetryCount            1000c798     <common>
+ 0002:0000079c       __onexitend                1000c79c     <common>
+ 0002:000007a0       __onexitbegin              1000c7a0     <common>
+ 0002:000007a4       g_pcsExit                  1000c7a4     <common>
+
+ entry point at        0001:000096e4
+
+ Static symbols
+
+ 0001:00009870       doexit                     1000a870 f   corelib0:cexit.obj

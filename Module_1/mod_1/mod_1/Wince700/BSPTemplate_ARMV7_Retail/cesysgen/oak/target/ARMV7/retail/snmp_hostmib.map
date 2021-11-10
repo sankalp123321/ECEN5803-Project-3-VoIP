@@ -1,0 +1,605 @@
+ snmp_hostmib
+
+ Timestamp is 618b154b (Tue Nov 09 17:41:47 2021)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 00000348H .rdata                  CODE
+ 0001:00000368 00000029H .rdata$debug            CODE
+ 0001:00000394 000059e8H .text                   CODE
+ 0001:00005d7c 0000007cH .xdata                  CODE
+ 0001:00005df8 00000064H .idata$2                CODE
+ 0001:00005e5c 00000014H .idata$3                CODE
+ 0001:00005e70 0000010cH .idata$4                CODE
+ 0001:00005f7c 0000013aH .idata$6                CODE
+ 0001:000060c0 00000089H .edata                  CODE
+ 0002:00000000 0000010cH .idata$5                DATA
+ 0002:00000110 0000236cH .data                   DATA
+ 0002:00002480 00000310H .bss                    DATA
+ 0003:00000000 000006d0H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:0000003c       ??_C@_1CG@FHOAMHDB@?$AAH?$AAr?$AAS?$AAw?$AAR?$AAu?$AAn?$AAC?$AAa?$AAc?$AAh?$AAe?$AAM?$AAa?$AAx?$AAA?$AAg?$AAe?$AA?$AA@ 1000103c     snmp_hostmib:hostmib.obj
+ 0001:00000068       ??_C@_1FE@HJCLFDII@?$AAS?$AAO?$AAF?$AAT?$AAW?$AAA?$AAR?$AAE?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAH?$AAo?$AAs?$AAt?$AAM?$AAI?$AAB?$AA?2?$AAC?$AAu?$AAr?$AAr?$AAe@ 10001068     snmp_hostmib:hostmib.obj
+ 0001:000000bc       ??_C@_1BI@EEKPCHLN@?$AAD?$AAi?$AAs?$AAp?$AAl?$AAa?$AAy?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 100010bc     snmp_hostmib:hrswinstalledentry.obj
+ 0001:000000d8       ??_C@_1GI@FPAIFNGG@?$AAS?$AAo?$AAf?$AAt?$AAw?$AAa?$AAr?$AAe?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AA?2?$AAC?$AAu?$AAr?$AAr?$AAe@ 100010d8     snmp_hostmib:hrswinstalledentry.obj
+ 0001:00000140       ??_C@_1CM@LCEHPAOP@?$AAS?$AAN?$AAM?$AAP?$AAS?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe?$AAR?$AAe?$AAs?$AAe?$AAt?$AAE?$AAv?$AAe?$AAn?$AAt?$AA?$AA@ 10001140     snmp_hostmib:hrswrunentry.obj
+ 0001:0000016c       ??_C@_17LGGGMOOB@?$AA?$CF?$AAh?$AAs?$AA?$AA@ 1000116c     snmp_hostmib:hrswrunentry.obj
+ 0001:00000174       ??_C@_1CI@OPELBFHH@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?5?$AAI?$AAd?$AAl?$AAe?$AA?5?$AAP?$AAr?$AAo?$AAc?$AAe?$AAs?$AAs?$AA?$AA@ 10001174     snmp_hostmib:hrswrunentry.obj
+ 0001:0000019c       ??_C@_1BG@MFNEDEG@?$AAd?$AAe?$AAv?$AAi?$AAc?$AAe?$AA?4?$AAe?$AAx?$AAe?$AA?$AA@ 1000119c     snmp_hostmib:hrswrunentry.obj
+ 0001:000001b4       ??_C@_1O@MHIBCCJG@?$AAN?$AAK?$AA?4?$AAe?$AAx?$AAe?$AA?$AA@ 100011b4     snmp_hostmib:hrswrunentry.obj
+ 0001:000001c2       ??_C@_00CNPNBAHC@?$AA@     100011c2     snmp_hostmib:hrfsentry.obj
+ 0001:000001c4       ??_C@_1BA@FEHNDOKC@?$AA?2?$AAN?$AAV?$AAF?$AAI?$AAL?$AAE?$AA?$AA@ 100011c4     snmp_hostmib:hrdiskstorageentry.obj
+ 0001:000001d4       ??_C@_0N@NMLFECFA@WinCE?5NV?5Ram?$AA@ 100011d4     snmp_hostmib:hrdiskstorageentry.obj
+ 0001:000001e4       ??_C@_1M@FGDAKMNG@?$AAN?$AAV?$AAF?$AA1?$AA?3?$AA?$AA@ 100011e4     snmp_hostmib:hrdiskstorageentry.obj
+ 0001:000001f0       ??_C@_13FPGAJAPJ@?$AA?2?$AA?$AA@ 100011f0     snmp_hostmib:hrdiskstorageentry.obj
+ 0001:000001f4       ??_C@_0BD@NMLOLODD@WinCE?5Object?5Store?$AA@ 100011f4     snmp_hostmib:hrdiskstorageentry.obj
+ 0001:00000208       ??_C@_1CA@DNEFMJBG@?$AA?2?$AAP?$AAH?$AAY?$AAS?$AAI?$AAC?$AAA?$AAL?$AAD?$AAR?$AAI?$AAV?$AAE?$AA0?$AA?$AA@ 10001208     snmp_hostmib:hrdiskstorageentry.obj
+ 0001:00000228       ??_C@_01LOCGONAA@?$AA?$AA@ 10001228     snmp_hostmib:hrprinterentry.obj
+ 0001:0000022c       ??_C@_1O@HEOJKFGB@?$AAL?$AAP?$AAT?$AA?$CF?$AAd?$AA?3?$AA?$AA@ 1000122c     snmp_hostmib:hrprinterentry.obj
+ 0001:0000023c       ??_C@_0M@ICBPCLPK@Intel?580386?$AA@ 1000123c     snmp_hostmib:hrprocessorentry.obj
+ 0001:00000248       ??_C@_0M@BPMIBDED@Intel?580486?$AA@ 10001248     snmp_hostmib:hrprocessorentry.obj
+ 0001:00000254       ??_C@_0O@MBIABLC@Intel?5Pentium?$AA@ 10001254     snmp_hostmib:hrprocessorentry.obj
+ 0001:00000264       ??_C@_05CDGBNGHP@Intel?$AA@ 10001264     snmp_hostmib:hrprocessorentry.obj
+ 0001:0000026c       ??_C@_0L@JDKMCGCG@MIPS?5R4000?$AA@ 1000126c     snmp_hostmib:hrprocessorentry.obj
+ 0001:00000278       ??_C@_04ICIIKDIK@MIPS?$AA@ 10001278     snmp_hostmib:hrprocessorentry.obj
+ 0001:00000280       ??_C@_0M@JDIFMIJ@Alpha?521064?$AA@ 10001280     snmp_hostmib:hrprocessorentry.obj
+ 0001:0000028c       ??_C@_0M@DLAODOAL@Alpha?521066?$AA@ 1000128c     snmp_hostmib:hrprocessorentry.obj
+ 0001:00000298       ??_C@_0M@LBIEDLOM@Alpha?521164?$AA@ 10001298     snmp_hostmib:hrprocessorentry.obj
+ 0001:000002a4       ??_C@_09LOFFKJOO@DEC?5Alpha?$AA@ 100012a4     snmp_hostmib:hrprocessorentry.obj
+ 0001:000002b0       ??_C@_07JDFFCIHO@PPC?5601?$AA@ 100012b0     snmp_hostmib:hrprocessorentry.obj
+ 0001:000002b8       ??_C@_07KBGDEKPM@PPC?5603?$AA@ 100012b8     snmp_hostmib:hrprocessorentry.obj
+ 0001:000002c0       ??_C@_07OOCCNMDL@PPC?5604?$AA@ 100012c0     snmp_hostmib:hrprocessorentry.obj
+ 0001:000002c8       ??_C@_08MCNKCABE@PPC?5603?$CL?$AA@ 100012c8     snmp_hostmib:hrprocessorentry.obj
+ 0001:000002d4       ??_C@_08MHJFDGJB@PPC?5604?$CL?$AA@ 100012d4     snmp_hostmib:hrprocessorentry.obj
+ 0001:000002e0       ??_C@_07IJMKMNFB@PPC?5620?$AA@ 100012e0     snmp_hostmib:hrprocessorentry.obj
+ 0001:000002e8       ??_C@_03KCFOBNDH@PPC?$AA@  100012e8     snmp_hostmib:hrprocessorentry.obj
+ 0001:000002ec       ??_C@_0BH@FBHCACMN@Unknown?5Processor?5Type?$AA@ 100012ec     snmp_hostmib:hrprocessorentry.obj
+ 0001:00000304       ??_C@_1O@IHEKMJDI@?$AAC?$AAO?$AAM?$AA?$CF?$AAd?$AA?3?$AA?$AA@ 10001304     snmp_hostmib:hrdeviceentry.obj
+ 0001:00000314       ??_C@_0BB@MKKFGNEJ@Unknown?5keyboard?$AA@ 10001314     snmp_hostmib:hrdeviceentry.obj
+ 0001:00000328       ??_C@_0BA@DJIEDHOL@NonVolatile?5RAM?$AA@ 10001328     snmp_hostmib:hrstorageentry.obj
+ 0001:00000338       ??_C@_1BA@KJFPGPM@?$AA?2?$AAN?$AAV?$AAF?$AAi?$AAl?$AAe?$AA?$AA@ 10001338     snmp_hostmib:hrstorageentry.obj
+ 0001:00000348       ??_C@_0P@HPNLOOJE@Virtual?5Memory?$AA@ 10001348     snmp_hostmib:hrstorageentry.obj
+ 0001:00000358       ??_C@_0BA@NDHABPEF@CE?5Object?5Store?$AA@ 10001358     snmp_hostmib:hrstorageentry.obj
+ 0001:0000039c       HrLoadRegistrySettings     1000139c f   snmp_hostmib:hostmib.obj
+ 0001:000004b0       DllEntry                   100014b0 f   snmp_hostmib:hostmib.obj
+ 0001:000004c4       SnmpExtensionInit          100014c4 f   snmp_hostmib:hostmib.obj
+ 0001:000004fc       SnmpExtensionTrap          100014fc f   snmp_hostmib:hostmib.obj
+ 0001:00000538       SnmpExtensionQuery         10001538 f   snmp_hostmib:hostmib.obj
+ 0001:00000640       UserMibInit                10001640 f   snmp_hostmib:mib.obj
+ 0001:0000069c       FindSubClass               1000169c f   snmp_hostmib:resolve.obj
+ 0001:0000078c       FindClass                  1000178c f   snmp_hostmib:resolve.obj
+ 0001:00000864       FindInstance               10001864 f   snmp_hostmib:resolve.obj
+ 0001:00000ad0       ResolveVarBind             10001ad0 f   snmp_hostmib:resolve.obj
+ 0001:00000c1c       TrapInit                   10001c1c f   snmp_hostmib:resolve.obj
+ 0001:00000c28       GetHrSWInstalledIndex      10001c28 f   snmp_hostmib:hrswinstalledentry.obj
+ 0001:00000c64       GetHrSWInstalledName       10001c64 f   snmp_hostmib:hrswinstalledentry.obj
+ 0001:00000cc8       GetHrSWInstalledID         10001cc8 f   snmp_hostmib:hrswinstalledentry.obj
+ 0001:00000d04       GetHrSWInstalledType       10001d04 f   snmp_hostmib:hrswinstalledentry.obj
+ 0001:00000d14       GetHrSWInstalledDate       10001d14 f   snmp_hostmib:hrswinstalledentry.obj
+ 0001:00000d6c       HrSWInstalledEntryFindInstance 10001d6c f   snmp_hostmib:hrswinstalledentry.obj
+ 0001:00000dc8       HrSWInstalledEntryFindNextInstance 10001dc8 f   snmp_hostmib:hrswinstalledentry.obj
+ 0001:00000e14       HrSWInstalledEntryConvertInstance 10001e14 f   snmp_hostmib:hrswinstalledentry.obj
+ 0001:00000e48       HrSWInstalledEntryFreeInstance 10001e48 f   snmp_hostmib:hrswinstalledentry.obj
+ 0001:00000e54       AddSWInstalled             10001e54 f   snmp_hostmib:hrswinstalledentry.obj
+ 0001:00001058       Gen_HrSWInstalled_Cache    10002058 f   snmp_hostmib:hrswinstalledentry.obj
+ 0001:00001158       GetHrSWInstalledLastChange 10002158 f   snmp_hostmib:hrswinstalled.obj
+ 0001:00001168       GetHrSWInstalledLastUpdateTime 10002168 f   snmp_hostmib:hrswinstalled.obj
+ 0001:00001178       HrSWInstalledFindInstance  10002178 f   snmp_hostmib:hrswinstalled.obj
+ 0001:000011c0       HrSWInstalledFindNextInstance 100021c0 f   snmp_hostmib:hrswinstalled.obj
+ 0001:000011e8       HrSWInstalledConvertInstance 100021e8 f   snmp_hostmib:hrswinstalled.obj
+ 0001:000011f0       HrSWInstalledFreeInstance  100021f0 f   snmp_hostmib:hrswinstalled.obj
+ 0001:000011f4       GetHrSWRunPerfCPU          100021f4 f   snmp_hostmib:hrswperfentry.obj
+ 0001:00001230       GetHrSWRunPerfMem          10002230 f   snmp_hostmib:hrswperfentry.obj
+ 0001:0000126c       HrSWRunPerfEntryFindInstance 1000226c f   snmp_hostmib:hrswperfentry.obj
+ 0001:000012d8       HrSWRunPerfEntryFindNextInstance 100022d8 f   snmp_hostmib:hrswperfentry.obj
+ 0001:00001338       HrSWRunPerfEntryConvertInstance 10002338 f   snmp_hostmib:hrswperfentry.obj
+ 0001:0000136c       HrSWRunPerfEntryFreeInstance 1000236c f   snmp_hostmib:hrswperfentry.obj
+ 0001:00001428       GetHrSWRunIndex            10002428 f   snmp_hostmib:hrswrunentry.obj
+ 0001:00001464       GetHrSWRunName             10002464 f   snmp_hostmib:hrswrunentry.obj
+ 0001:000014cc       GetHrSWRunID               100024cc f   snmp_hostmib:hrswrunentry.obj
+ 0001:00001508       GetHrSWRunPath             10002508 f   snmp_hostmib:hrswrunentry.obj
+ 0001:00001590       GetHrSWRunParameters       10002590 f   snmp_hostmib:hrswrunentry.obj
+ 0001:00001618       GetHrSWRunType             10002618 f   snmp_hostmib:hrswrunentry.obj
+ 0001:00001654       GetHrSWRunStatus           10002654 f   snmp_hostmib:hrswrunentry.obj
+ 0001:00001698       SetHrSWRunStatus           10002698 f   snmp_hostmib:hrswrunentry.obj
+ 0001:000018c8       HrSWRunEntryConvertInstance 100028c8 f   snmp_hostmib:hrswrunentry.obj
+ 0001:000018fc       HrSWRunEntryFreeInstance   100028fc f   snmp_hostmib:hrswrunentry.obj
+ 0001:00001900       FetchProcessParams         10002900 f   snmp_hostmib:hrswrunentry.obj
+ 0001:00001ccc       Gen_HrSWRun_Cache          10002ccc f   snmp_hostmib:hrswrunentry.obj
+ 0001:00001dc4       hrSWRunCache_Refresh       10002dc4 f   snmp_hostmib:hrswrunentry.obj
+ 0001:00001e44       HrSWRunEntryFindInstance   10002e44 f   snmp_hostmib:hrswrunentry.obj
+ 0001:00001eb0       HrSWRunEntryFindNextInstance 10002eb0 f   snmp_hostmib:hrswrunentry.obj
+ 0001:00001f10       GetHrSWOSIndex             10002f10 f   snmp_hostmib:hrswrun.obj
+ 0001:00001f3c       HrSWRunFindInstance        10002f3c f   snmp_hostmib:hrswrun.obj
+ 0001:00001f84       HrSWRunFindNextInstance    10002f84 f   snmp_hostmib:hrswrun.obj
+ 0001:00001fac       HrSWRunConvertInstance     10002fac f   snmp_hostmib:hrswrun.obj
+ 0001:00001fb4       HrSWRunFreeInstance        10002fb4 f   snmp_hostmib:hrswrun.obj
+ 0001:00001fb8       GetHrFSIndex               10002fb8 f   snmp_hostmib:hrfsentry.obj
+ 0001:00001ff4       GetHrFSMountPoint          10002ff4 f   snmp_hostmib:hrfsentry.obj
+ 0001:00002058       GetHrFSRemoteMountPoint    10003058 f   snmp_hostmib:hrfsentry.obj
+ 0001:00002074       GetHrFSType                10003074 f   snmp_hostmib:hrfsentry.obj
+ 0001:00002134       GetHrFSAccess              10003134 f   snmp_hostmib:hrfsentry.obj
+ 0001:00002170       GetHrFSBootable            10003170 f   snmp_hostmib:hrfsentry.obj
+ 0001:000021ac       GetHrFSStorageIndex        100031ac f   snmp_hostmib:hrfsentry.obj
+ 0001:000021f0       GetHrFSLastFullBackupDate  100031f0 f   snmp_hostmib:hrfsentry.obj
+ 0001:00002278       SetHrFSLastFullBackupDate  10003278 f   snmp_hostmib:hrfsentry.obj
+ 0001:00002288       GetHrFSLastPartialBackupDate 10003288 f   snmp_hostmib:hrfsentry.obj
+ 0001:00002310       SetHrFSLastPartialBackupDate 10003310 f   snmp_hostmib:hrfsentry.obj
+ 0001:00002318       HrFSEntryFindInstance      10003318 f   snmp_hostmib:hrfsentry.obj
+ 0001:00002374       HrFSEntryFindNextInstance  10003374 f   snmp_hostmib:hrfsentry.obj
+ 0001:000023c0       HrFSEntryConvertInstance   100033c0 f   snmp_hostmib:hrfsentry.obj
+ 0001:000023f4       HrFSEntryFreeInstance      100033f4 f   snmp_hostmib:hrfsentry.obj
+ 0001:00002400       Gen_HrFSTable_Cache        10003400 f   snmp_hostmib:hrfsentry.obj
+ 0001:0000258c       GetHrPartitionIndex        1000358c f   snmp_hostmib:hrpartitionentry.obj
+ 0001:00002594       GetHrPartitionLabel        10003594 f   snmp_hostmib:hrpartitionentry.obj
+ 0001:0000259c       GetHrPartitionID           1000359c f   snmp_hostmib:hrpartitionentry.obj
+ 0001:000025a4       GetHrPartitionSize         100035a4 f   snmp_hostmib:hrpartitionentry.obj
+ 0001:000025ac       GetHrPartitionFSIndex      100035ac f   snmp_hostmib:hrpartitionentry.obj
+ 0001:000025b4       HrPartitionEntryFindInstance 100035b4 f   snmp_hostmib:hrpartitionentry.obj
+ 0001:000025bc       HrPartitionEntryFindNextInstance 100035bc f   snmp_hostmib:hrpartitionentry.obj
+ 0001:000025c4       HrPartitionEntryConvertInstance 100035c4 f   snmp_hostmib:hrpartitionentry.obj
+ 0001:00002604       HrPartitionEntryFreeInstance 10003604 f   snmp_hostmib:hrpartitionentry.obj
+ 0001:00002608       GetHrDiskStorageAccess     10003608 f   snmp_hostmib:hrdiskstorageentry.obj
+ 0001:00002644       GetHrDiskStorageMedia      10003644 f   snmp_hostmib:hrdiskstorageentry.obj
+ 0001:00002680       GetHrDiskStorageRemoveble  10003680 f   snmp_hostmib:hrdiskstorageentry.obj
+ 0001:000026bc       GetHrDiskStorageCapacity   100036bc f   snmp_hostmib:hrdiskstorageentry.obj
+ 0001:000026f8       HrDiskStorageEntryFindInstance 100036f8 f   snmp_hostmib:hrdiskstorageentry.obj
+ 0001:00002754       HrDiskStorageEntryFindNextInstance 10003754 f   snmp_hostmib:hrdiskstorageentry.obj
+ 0001:000027a0       HrDiskStorageEntryConvertInstance 100037a0 f   snmp_hostmib:hrdiskstorageentry.obj
+ 0001:000027d4       HrDiskStorageEntryFreeInstance 100037d4 f   snmp_hostmib:hrdiskstorageentry.obj
+ 0001:00002898       GetDiskSpace               10003898 f   snmp_hostmib:hrdiskstorageentry.obj
+ 0001:00002bcc       Gen_HrDiskStorage_Cache    10003bcc f   snmp_hostmib:hrdiskstorageentry.obj
+ 0001:00002be4       GetHrPrinterDetectedErrorState 10003be4 f   snmp_hostmib:hrprinterentry.obj
+ 0001:00002c08       HrPrinterEntryFindInstance 10003c08 f   snmp_hostmib:hrprinterentry.obj
+ 0001:00002c74       HrPrinterEntryFindNextInstance 10003c74 f   snmp_hostmib:hrprinterentry.obj
+ 0001:00002ce0       HrPrinterEntryConvertInstance 10003ce0 f   snmp_hostmib:hrprinterentry.obj
+ 0001:00002d14       HrPrinterEntryFreeInstance 10003d14 f   snmp_hostmib:hrprinterentry.obj
+ 0001:00002d20       Gen_HrPrinter_Cache        10003d20 f   snmp_hostmib:hrprinterentry.obj
+ 0001:00002e24       COMPUTE_hrPrinter_errors   10003e24 f   snmp_hostmib:hrprinterentry.obj
+ 0001:00002e34       COMPUTE_hrPrinter_status   10003e34 f   snmp_hostmib:hrprinterentry.obj
+ 0001:00002e44       GetHrPrinterStatus         10003e44 f   snmp_hostmib:hrprinterentry.obj
+ 0001:00002e7c       GetHrNetworkIfIndex        10003e7c f   snmp_hostmib:hrnetworkentry.obj
+ 0001:00002eb8       HrNetworkEntryFindInstance 10003eb8 f   snmp_hostmib:hrnetworkentry.obj
+ 0001:00002f24       HrNetworkEntryFindNextInstance 10003f24 f   snmp_hostmib:hrnetworkentry.obj
+ 0001:00002f90       HrNetworkEntryConvertInstance 10003f90 f   snmp_hostmib:hrnetworkentry.obj
+ 0001:00002fc4       HrNetworkEntryFreeInstance 10003fc4 f   snmp_hostmib:hrnetworkentry.obj
+ 0001:00002fc8       Gen_HrNetwork_Cache        10003fc8 f   snmp_hostmib:hrnetworkentry.obj
+ 0001:00003098       GetHrProcessorFrwID        10004098 f   snmp_hostmib:hrprocessorentry.obj
+ 0001:000030d4       GetHrProcessorLoad         100040d4 f   snmp_hostmib:hrprocessorentry.obj
+ 0001:00003140       HrProcessorEntryFindInstance 10004140 f   snmp_hostmib:hrprocessorentry.obj
+ 0001:000031ac       HrProcessorEntryFindNextInstance 100041ac f   snmp_hostmib:hrprocessorentry.obj
+ 0001:00003218       HrProcessorEntryConvertInstance 10004218 f   snmp_hostmib:hrprocessorentry.obj
+ 0001:0000324c       HrProcessorEntryFreeInstance 1000424c f   snmp_hostmib:hrprocessorentry.obj
+ 0001:00003250       Gen_HrProcessor_Cache      10004250 f   snmp_hostmib:hrprocessorentry.obj
+ 0001:0000342c       GetHrDeviceIndex           1000442c f   snmp_hostmib:hrdeviceentry.obj
+ 0001:00003468       GetHrDeviceType            10004468 f   snmp_hostmib:hrdeviceentry.obj
+ 0001:00003524       GetHrDeviceDesc            10004524 f   snmp_hostmib:hrdeviceentry.obj
+ 0001:00003588       GetHrDeviceID              10004588 f   snmp_hostmib:hrdeviceentry.obj
+ 0001:000035c4       GetHrDeviceStatus          100045c4 f   snmp_hostmib:hrdeviceentry.obj
+ 0001:0000365c       GetHrDeviceErrors          1000465c f   snmp_hostmib:hrdeviceentry.obj
+ 0001:000036e4       HrDeviceEntryFindInstance  100046e4 f   snmp_hostmib:hrdeviceentry.obj
+ 0001:00003740       HrDeviceEntryFindNextInstance 10004740 f   snmp_hostmib:hrdeviceentry.obj
+ 0001:0000378c       HrDeviceEntryConvertInstance 1000478c f   snmp_hostmib:hrdeviceentry.obj
+ 0001:000037c0       HrDeviceEntryFreeInstance  100047c0 f   snmp_hostmib:hrdeviceentry.obj
+ 0001:000037c4       AddHrDeviceRow             100047c4 f   snmp_hostmib:hrdeviceentry.obj
+ 0001:00003968       Gen_SingleDevices          10004968 f   snmp_hostmib:hrdeviceentry.obj
+ 0001:00003a98       Gen_HrDevice_Cache         10004a98 f   snmp_hostmib:hrdeviceentry.obj
+ 0001:00003af8       GetHrStorageIndex          10004af8 f   snmp_hostmib:hrstorageentry.obj
+ 0001:00003b34       GetHrStorageType           10004b34 f   snmp_hostmib:hrstorageentry.obj
+ 0001:00003bf0       GetHrStorageDesc           10004bf0 f   snmp_hostmib:hrstorageentry.obj
+ 0001:00003c4c       GetHrStorageAllocationUnits 10004c4c f   snmp_hostmib:hrstorageentry.obj
+ 0001:00003c88       GetHrStorageSize           10004c88 f   snmp_hostmib:hrstorageentry.obj
+ 0001:00003cc4       SetHrStorageSize           10004cc4 f   snmp_hostmib:hrstorageentry.obj
+ 0001:00003ccc       GetHrStorageUsed           10004ccc f   snmp_hostmib:hrstorageentry.obj
+ 0001:00003d08       GetHrStorageAllocationFailures 10004d08 f   snmp_hostmib:hrstorageentry.obj
+ 0001:00003d40       HrStorageEntryFindInstance 10004d40 f   snmp_hostmib:hrstorageentry.obj
+ 0001:00003d9c       HrStorageEntryFindNextInstance 10004d9c f   snmp_hostmib:hrstorageentry.obj
+ 0001:00003de8       HrStorageEntryConvertInstance 10004de8 f   snmp_hostmib:hrstorageentry.obj
+ 0001:00003e1c       HrStorageEntryFreeInstance 10004e1c f   snmp_hostmib:hrstorageentry.obj
+ 0001:00003e20       add_hrStorageEntry         10004e20 f   snmp_hostmib:hrstorageentry.obj
+ 0001:00003f24       Gen_Hrstorage_Cache        10004f24 f   snmp_hostmib:hrstorageentry.obj
+ 0001:00004074       GetHrMemorySize            10005074 f   snmp_hostmib:hrstorage.obj
+ 0001:000040a8       HrStorageFindInstance      100050a8 f   snmp_hostmib:hrstorage.obj
+ 0001:000040f0       HrStorageFindNextInstance  100050f0 f   snmp_hostmib:hrstorage.obj
+ 0001:00004118       HrStorageConvertInstance   10005118 f   snmp_hostmib:hrstorage.obj
+ 0001:00004120       HrStorageFreeInstance      10005120 f   snmp_hostmib:hrstorage.obj
+ 0001:00004124       GetHrSystemUptime          10005124 f   snmp_hostmib:hrsystem.obj
+ 0001:00004158       GetHrSystemDate            10005158 f   snmp_hostmib:hrsystem.obj
+ 0001:0000425c       SetHrSystemDate            1000525c f   snmp_hostmib:hrsystem.obj
+ 0001:000042f4       GetHrSystemInitialLoadDevice 100052f4 f   snmp_hostmib:hrsystem.obj
+ 0001:00004310       SetHrSystemInitialLoadDevice 10005310 f   snmp_hostmib:hrsystem.obj
+ 0001:00004318       GetHrSystemInitialLoadParameters 10005318 f   snmp_hostmib:hrsystem.obj
+ 0001:00004330       SetHrSystemInitialLoadParameters 10005330 f   snmp_hostmib:hrsystem.obj
+ 0001:00004338       GetHrSystemNumUsers        10005338 f   snmp_hostmib:hrsystem.obj
+ 0001:00004350       GetHrSystemProcesses       10005350 f   snmp_hostmib:hrsystem.obj
+ 0001:00004438       GetHrSystemMaxProcesses    10005438 f   snmp_hostmib:hrsystem.obj
+ 0001:00004448       HrSystemFindInstance       10005448 f   snmp_hostmib:hrsystem.obj
+ 0001:00004490       HrSystemFindNextInstance   10005490 f   snmp_hostmib:hrsystem.obj
+ 0001:000044b8       HrSystemConvertInstance    100054b8 f   snmp_hostmib:hrsystem.obj
+ 0001:000044c0       HrSystemFreeInstance       100054c0 f   snmp_hostmib:hrsystem.obj
+ 0001:000044c4       SMIGetBoolean              100054c4 f   snmp_hostmib:hostmsmi.obj
+ 0001:0000451c       SMISetBoolean              1000551c f   snmp_hostmib:hostmsmi.obj
+ 0001:0000455c       SMIGetKBytes               1000555c f   snmp_hostmib:hostmsmi.obj
+ 0001:000045b4       SMISetKBytes               100055b4 f   snmp_hostmib:hostmsmi.obj
+ 0001:000045f4       SMIGetINThrDeviceStatus    100055f4 f   snmp_hostmib:hostmsmi.obj
+ 0001:0000464c       SMISetINThrDeviceStatus    1000564c f   snmp_hostmib:hostmsmi.obj
+ 0001:0000468c       SMIGetINThrPrinterStatus   1000568c f   snmp_hostmib:hostmsmi.obj
+ 0001:000046e4       SMISetINThrPrinterStatus   100056e4 f   snmp_hostmib:hostmsmi.obj
+ 0001:00004724       SMIGetINTAccess            10005724 f   snmp_hostmib:hostmsmi.obj
+ 0001:0000477c       SMISetINTAccess            1000577c f   snmp_hostmib:hostmsmi.obj
+ 0001:000047bc       SMIGetINThrDiskStorageMedia 100057bc f   snmp_hostmib:hostmsmi.obj
+ 0001:00004814       SMISetINThrDiskStorageMedia 10005814 f   snmp_hostmib:hostmsmi.obj
+ 0001:00004854       SMIGetINTSWType            10005854 f   snmp_hostmib:hostmsmi.obj
+ 0001:000048ac       SMISetINTSWType            100058ac f   snmp_hostmib:hostmsmi.obj
+ 0001:000048ec       SMIGetINThrSWRunStatus     100058ec f   snmp_hostmib:hostmsmi.obj
+ 0001:00004944       SMISetINThrSWRunStatus     10005944 f   snmp_hostmib:hostmsmi.obj
+ 0001:0000498c       SMIGetDateAndTime          1000598c f   snmp_hostmib:hostmsmi.obj
+ 0001:00004a6c       SMISetDateAndTime          10005a6c f   snmp_hostmib:hostmsmi.obj
+ 0001:00004b10       SMIGetInternationalDisplayString 10005b10 f   snmp_hostmib:hostmsmi.obj
+ 0001:00004bf0       SMISetInternationalDisplayString 10005bf0 f   snmp_hostmib:hostmsmi.obj
+ 0001:00004c8c       SMIGetProductID            10005c8c f   snmp_hostmib:hostmsmi.obj
+ 0001:00004d40       SMISetProductID            10005d40 f   snmp_hostmib:hostmsmi.obj
+ 0001:00004db0       SMIGetInteger              10005db0 f   snmp_hostmib:smint.obj
+ 0001:00004e10       SMIGetOctetString          10005e10 f   snmp_hostmib:smint.obj
+ 0001:00004ee0       SMIGetObjectId             10005ee0 f   snmp_hostmib:smint.obj
+ 0001:00004f6c       SMIGetCounter              10005f6c f   snmp_hostmib:smint.obj
+ 0001:00004fc4       SMIGetGauge                10005fc4 f   snmp_hostmib:smint.obj
+ 0001:0000501c       SMIGetTimeTicks            1000601c f   snmp_hostmib:smint.obj
+ 0001:0000507c       SMIGetDispString           1000607c f   snmp_hostmib:smint.obj
+ 0001:0000514c       SMISetInteger              1000614c f   snmp_hostmib:smint.obj
+ 0001:00005194       SMISetOctetString          10006194 f   snmp_hostmib:smint.obj
+ 0001:00005230       SMISetObjectId             10006230 f   snmp_hostmib:smint.obj
+ 0001:00005294       SMISetCounter              10006294 f   snmp_hostmib:smint.obj
+ 0001:000052d4       SMISetGauge                100062d4 f   snmp_hostmib:smint.obj
+ 0001:00005314       SMISetTimeTicks            10006314 f   snmp_hostmib:smint.obj
+ 0001:00005354       SMIValidASCIIString        10006354 f   snmp_hostmib:smint.obj
+ 0001:000053b8       SMISetDispString           100063b8 f   snmp_hostmib:smint.obj
+ 0001:00005484       CreateTableRow             10006484 f   snmp_hostmib:hmcache.obj
+ 0001:0000550c       DestroyTable               1000650c f   snmp_hostmib:hmcache.obj
+ 0001:00005540       DestroyTableRow            10006540 f   snmp_hostmib:hmcache.obj
+ 0001:000055b8       AddTableRow                100065b8 f   snmp_hostmib:hmcache.obj
+ 0001:00005614       FindTableRow               10006614 f   snmp_hostmib:hmcache.obj
+ 0001:00005644       FindNextTableRow           10006644 f   snmp_hostmib:hmcache.obj
+ 0001:000056a0       SnmpUtilOidCpy             100066a0 f   snmpapi:snmpapi.dll
+ 0001:000056b0       SnmpUtilOidFree            100066b0 f   snmpapi:snmpapi.dll
+ 0001:000056c0       SnmpUtilOidNCmp            100066c0 f   snmpapi:snmpapi.dll
+ 0001:000056d0       SnmpUtilOidAppend          100066d0 f   snmpapi:snmpapi.dll
+ 0001:000056e0       SnmpUtilMemAlloc           100066e0 f   snmpapi:snmpapi.dll
+ 0001:000056f0       SnmpUtilMemFree            100066f0 f   snmpapi:snmpapi.dll
+ 0001:00005700       htons                      10006700 f   ws2:WS2.dll
+ 0001:00005710       Thread32Next               10006710 f   toolhelp:toolhelp.dll
+ 0001:00005720       Thread32First              10006720 f   toolhelp:toolhelp.dll
+ 0001:00005730       CloseToolhelp32Snapshot    10006730 f   toolhelp:toolhelp.dll
+ 0001:00005740       Process32Next              10006740 f   toolhelp:toolhelp.dll
+ 0001:00005750       Process32First             10006750 f   toolhelp:toolhelp.dll
+ 0001:00005760       CreateToolhelp32Snapshot   10006760 f   toolhelp:toolhelp.dll
+ 0001:00005770       GetIfTable                 10006770 f   iphlpapi:iphlpapi.dll
+ 0001:00005780       RegCloseKey                10006780 f   coredll:COREDLL.dll
+ 0001:00005790       lstrcmpiW                  10006790 f   coredll:COREDLL.dll
+ 0001:000057a0       RegEnumValueW              100067a0 f   coredll:COREDLL.dll
+ 0001:000057b0       RegOpenKeyExW              100067b0 f   coredll:COREDLL.dll
+ 0001:000057c0       DisableThreadLibraryCalls  100067c0 f   coredll:COREDLL.dll
+ 0001:000057d0       EventModify                100067d0 f   coredll:COREDLL.dll
+ 0001:000057e0       CloseHandle                100067e0 f   coredll:COREDLL.dll
+ 0001:000057f0       CreateEventW               100067f0 f   coredll:COREDLL.dll
+ 0001:00005800       FileTimeToSystemTime       10006800 f   coredll:COREDLL.dll
+ 0001:00005810       RegEnumKeyExW              10006810 f   coredll:COREDLL.dll
+ 0001:00005820       GetThreadTimes             10006820 f   coredll:COREDLL.dll
+ 0001:00005830       GetLastError               10006830 f   coredll:COREDLL.dll
+ 0001:00005840       CreateProcessW             10006840 f   coredll:COREDLL.dll
+ 0001:00005850       StringCchPrintfW           10006850 f   coredll:COREDLL.dll
+ 0001:00005860       TerminateProcess           10006860 f   coredll:COREDLL.dll
+ 0001:00005870       OpenProcess                10006870 f   coredll:COREDLL.dll
+ 0001:00005880       WideCharToMultiByte        10006880 f   coredll:COREDLL.dll
+ 0001:00005890       SystemTimeToFileTime       10006890 f   coredll:COREDLL.dll
+ 0001:000058a0       GetLocalTime               100068a0 f   coredll:COREDLL.dll
+ 0001:000058b0       GetDiskFreeSpaceExW        100068b0 f   coredll:COREDLL.dll
+ 0001:000058c0       DeviceIoControl            100068c0 f   coredll:COREDLL.dll
+ 0001:000058d0       CreateFileW                100068d0 f   coredll:COREDLL.dll
+ 0001:000058e0       Sleep                      100068e0 f   coredll:COREDLL.dll
+ 0001:000058f0       GetTickCount               100068f0 f   coredll:COREDLL.dll
+ 0001:00005900       GetIdleTime                10006900 f   coredll:COREDLL.dll
+ 0001:00005910       GetSystemInfo              10006910 f   coredll:COREDLL.dll
+ 0001:00005920       GlobalMemoryStatus         10006920 f   coredll:COREDLL.dll
+ 0001:00005930       GetStoreInformation        10006930 f   coredll:COREDLL.dll
+ 0001:00005940       GetTimeZoneInformation     10006940 f   coredll:COREDLL.dll
+ 0001:00005950       SetLocalTime               10006950 f   coredll:COREDLL.dll
+ 0001:00005960       _DllEntryCRTStartup        10006960 f   corelib0:pegdentry.obj
+ 0001:000059a4       __GSHandlerCheckCommon     100069a4 f   corelib0:gshandler.obj
+ 0001:000059e0       __GSHandlerCheck           100069e0 f   corelib0:gshandler.obj
+ 0001:00005a00       __security_init_cookie     10006a00 f   corelib0:seccinit.obj
+ 0001:00005a4c       __security_check_cookie    10006a4c f   corelib0:armsecgs.obj
+ 0001:00005a5c       __gsfailure                10006a5c     corelib0:armsecgs.obj
+ 0001:00005aa0       __GSHandlerCheck_SEH       10006aa0 f   corelib0:gshandlerseh.obj
+ 0001:00005bd4       _cexit                     10006bd4 f   corelib0:cexit.obj
+ 0001:00005be4       _initterm                  10006be4 f   corelib0:crt0dat.obj
+ 0001:00005c10       _cinit                     10006c10 f   corelib0:crt0dat.obj
+ 0001:00005c70       __crt_ExitProcess          10006c70 f   corelib0:exitproc_proxy.obj
+ 0001:00005c7c       memcpy                     10006c7c f   corelib1:COREDLL.dll
+ 0001:00005c8c       strlen                     10006c8c f   corelib1:COREDLL.dll
+ 0001:00005c9c       strcpy                     10006c9c f   corelib1:COREDLL.dll
+ 0001:00005cac       wcscmp                     10006cac f   corelib1:COREDLL.dll
+ 0001:00005cbc       wcslen                     10006cbc f   corelib1:COREDLL.dll
+ 0001:00005ccc       wcsrchr                    10006ccc f   corelib1:COREDLL.dll
+ 0001:00005cdc       wcsncpy                    10006cdc f   corelib1:COREDLL.dll
+ 0001:00005cec       _wcsicmp                   10006cec f   corelib1:COREDLL.dll
+ 0001:00005cfc       strncmp                    10006cfc f   corelib1:COREDLL.dll
+ 0001:00005d0c       swprintf_s                 10006d0c f   corelib1:COREDLL.dll
+ 0001:00005d1c       free                       10006d1c f   corelib1:COREDLL.dll
+ 0001:00005d2c       __security_gen_cookie2     10006d2c f   corelib1:COREDLL.dll
+ 0001:00005d3c       __report_gsfailure         10006d3c f   corelib1:COREDLL.dll
+ 0001:00005d4c       __C_specific_handler       10006d4c f   corelib1:COREDLL.dll
+ 0001:00005d5c       DeleteCriticalSection      10006d5c f   coredll:COREDLL.dll
+ 0001:00005d6c       InterlockedExchange        10006d6c f   coredll:COREDLL.dll
+ 0001:00005df8       __IMPORT_DESCRIPTOR_snmpapi 10006df8     snmpapi:snmpapi.dll
+ 0001:00005e0c       __IMPORT_DESCRIPTOR_WS2    10006e0c     ws2:WS2.dll
+ 0001:00005e20       __IMPORT_DESCRIPTOR_toolhelp 10006e20     toolhelp:toolhelp.dll
+ 0001:00005e34       __IMPORT_DESCRIPTOR_iphlpapi 10006e34     iphlpapi:iphlpapi.dll
+ 0001:00005e48       __IMPORT_DESCRIPTOR_COREDLL 10006e48     coredll:COREDLL.dll
+ 0001:00005e5c       __NULL_IMPORT_DESCRIPTOR   10006e5c     snmpapi:snmpapi.dll
+ 0002:00000000       __imp_GetLocalTime         10008000     coredll:COREDLL.dll
+ 0002:00000004       __imp_InterlockedExchange  10008004     coredll:COREDLL.dll
+ 0002:00000008       __imp_DeleteCriticalSection 10008008     coredll:COREDLL.dll
+ 0002:0000000c       __imp___C_specific_handler 1000800c     corelib1:COREDLL.dll
+ 0002:00000010       __imp___report_gsfailure   10008010     corelib1:COREDLL.dll
+ 0002:00000014       __imp___security_gen_cookie2 10008014     corelib1:COREDLL.dll
+ 0002:00000018       __imp_free                 10008018     corelib1:COREDLL.dll
+ 0002:0000001c       __imp___rt_udiv            1000801c     corelib1:COREDLL.dll
+ 0002:00000020       __imp_swprintf_s           10008020     corelib1:COREDLL.dll
+ 0002:00000024       __imp_strncmp              10008024     corelib1:COREDLL.dll
+ 0002:00000028       __imp__wcsicmp             10008028     corelib1:COREDLL.dll
+ 0002:0000002c       __imp_wcsncpy              1000802c     corelib1:COREDLL.dll
+ 0002:00000030       __imp_wcsrchr              10008030     corelib1:COREDLL.dll
+ 0002:00000034       __imp_RegCloseKey          10008034     coredll:COREDLL.dll
+ 0002:00000038       __imp_lstrcmpiW            10008038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_RegEnumValueW        1000803c     coredll:COREDLL.dll
+ 0002:00000040       __imp_RegOpenKeyExW        10008040     coredll:COREDLL.dll
+ 0002:00000044       __imp_DisableThreadLibraryCalls 10008044     coredll:COREDLL.dll
+ 0002:00000048       __imp_EventModify          10008048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_CloseHandle          1000804c     coredll:COREDLL.dll
+ 0002:00000050       __imp_CreateEventW         10008050     coredll:COREDLL.dll
+ 0002:00000054       __imp_FileTimeToSystemTime 10008054     coredll:COREDLL.dll
+ 0002:00000058       __imp_RegEnumKeyExW        10008058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_GetThreadTimes       1000805c     coredll:COREDLL.dll
+ 0002:00000060       __imp_GetLastError         10008060     coredll:COREDLL.dll
+ 0002:00000064       __imp_CreateProcessW       10008064     coredll:COREDLL.dll
+ 0002:00000068       __imp_StringCchPrintfW     10008068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_TerminateProcess     1000806c     coredll:COREDLL.dll
+ 0002:00000070       __imp_OpenProcess          10008070     coredll:COREDLL.dll
+ 0002:00000074       __imp_WideCharToMultiByte  10008074     coredll:COREDLL.dll
+ 0002:00000078       __imp_SystemTimeToFileTime 10008078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_GetDiskFreeSpaceExW  1000807c     coredll:COREDLL.dll
+ 0002:00000080       __imp_DeviceIoControl      10008080     coredll:COREDLL.dll
+ 0002:00000084       __imp_CreateFileW          10008084     coredll:COREDLL.dll
+ 0002:00000088       __imp_Sleep                10008088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_GetTickCount         1000808c     coredll:COREDLL.dll
+ 0002:00000090       __imp_GetIdleTime          10008090     coredll:COREDLL.dll
+ 0002:00000094       __imp_GetSystemInfo        10008094     coredll:COREDLL.dll
+ 0002:00000098       __imp_GlobalMemoryStatus   10008098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_GetStoreInformation  1000809c     coredll:COREDLL.dll
+ 0002:000000a0       __imp_GetTimeZoneInformation 100080a0     coredll:COREDLL.dll
+ 0002:000000a4       __imp_SetLocalTime         100080a4     coredll:COREDLL.dll
+ 0002:000000a8       __imp_memcpy               100080a8     corelib1:COREDLL.dll
+ 0002:000000ac       __imp_strlen               100080ac     corelib1:COREDLL.dll
+ 0002:000000b0       __imp_strcpy               100080b0     corelib1:COREDLL.dll
+ 0002:000000b4       __imp_wcscmp               100080b4     corelib1:COREDLL.dll
+ 0002:000000b8       __imp___rt_sdiv64by64      100080b8     corelib1:COREDLL.dll
+ 0002:000000bc       __imp_wcslen               100080bc     corelib1:COREDLL.dll
+ 0002:000000c0       \177COREDLL_NULL_THUNK_DATA 100080c0     coredll:COREDLL.dll
+ 0002:000000c4       __imp_htons                100080c4     ws2:WS2.dll
+ 0002:000000c8       \177WS2_NULL_THUNK_DATA    100080c8     ws2:WS2.dll
+ 0002:000000cc       __imp_GetIfTable           100080cc     iphlpapi:iphlpapi.dll
+ 0002:000000d0       \177iphlpapi_NULL_THUNK_DATA 100080d0     iphlpapi:iphlpapi.dll
+ 0002:000000d4       __imp_SnmpUtilOidNCmp      100080d4     snmpapi:snmpapi.dll
+ 0002:000000d8       __imp_SnmpUtilMemFree      100080d8     snmpapi:snmpapi.dll
+ 0002:000000dc       __imp_SnmpUtilOidCpy       100080dc     snmpapi:snmpapi.dll
+ 0002:000000e0       __imp_SnmpUtilOidFree      100080e0     snmpapi:snmpapi.dll
+ 0002:000000e4       __imp_SnmpUtilMemAlloc     100080e4     snmpapi:snmpapi.dll
+ 0002:000000e8       __imp_SnmpUtilOidAppend    100080e8     snmpapi:snmpapi.dll
+ 0002:000000ec       \177snmpapi_NULL_THUNK_DATA 100080ec     snmpapi:snmpapi.dll
+ 0002:000000f0       __imp_CloseToolhelp32Snapshot 100080f0     toolhelp:toolhelp.dll
+ 0002:000000f4       __imp_Process32Next        100080f4     toolhelp:toolhelp.dll
+ 0002:000000f8       __imp_Process32First       100080f8     toolhelp:toolhelp.dll
+ 0002:000000fc       __imp_CreateToolhelp32Snapshot 100080fc     toolhelp:toolhelp.dll
+ 0002:00000100       __imp_Thread32Next         10008100     toolhelp:toolhelp.dll
+ 0002:00000104       __imp_Thread32First        10008104     toolhelp:toolhelp.dll
+ 0002:00000108       \177toolhelp_NULL_THUNK_DATA 10008108     toolhelp:toolhelp.dll
+ 0002:00000110       g_hrSWCacheMaxAge          10008110     snmp_hostmib:hostmib.obj
+ 0002:00000118       eventLogString             10008118     snmp_hostmib:mib.obj
+ 0002:00000134       EventLogString             10008134     snmp_hostmib:mib.obj
+ 0002:00000138       mibEventValue              10008138     snmp_hostmib:mib.obj
+ 0002:0000016c       Subroot_oid                1000816c     snmp_hostmib:mib.obj
+ 0002:00000190       host_oid                   10008190     snmp_hostmib:mib.obj
+ 0002:000001bc       hrSystemUptime_oid         100081bc     snmp_hostmib:mib.obj
+ 0002:000001e8       hrSystemDate_oid           100081e8     snmp_hostmib:mib.obj
+ 0002:00000214       hrSystemInitialLoadDevice_oid 10008214     snmp_hostmib:mib.obj
+ 0002:00000240       hrSystemInitialLoadParameters_oid 10008240     snmp_hostmib:mib.obj
+ 0002:0000026c       hrSystemNumUsers_oid       1000826c     snmp_hostmib:mib.obj
+ 0002:00000298       hrSystemProcesses_oid      10008298     snmp_hostmib:mib.obj
+ 0002:000002c4       hrSystemMaxProcesses_oid   100082c4     snmp_hostmib:mib.obj
+ 0002:000002ec       hrSystem_oid               100082ec     snmp_hostmib:mib.obj
+ 0002:00000318       hrSystem_var_table         10008318     snmp_hostmib:mib.obj
+ 0002:000003f8       hrMemorySize_oid           100083f8     snmp_hostmib:mib.obj
+ 0002:00000420       hrStorage_oid              10008420     snmp_hostmib:mib.obj
+ 0002:00000428       hrStorage_var_table        10008428     snmp_hostmib:mib.obj
+ 0002:000004a4       hrStorageOther_oid         100084a4     snmp_hostmib:mib.obj
+ 0002:000004d4       hrStorageRAM_oid           100084d4     snmp_hostmib:mib.obj
+ 0002:00000504       hrStorageVirtualMemory_oid 10008504     snmp_hostmib:mib.obj
+ 0002:00000534       hrStorageFixedDisk_oid     10008534     snmp_hostmib:mib.obj
+ 0002:00000564       hrStorageRemovableDisk_oid 10008564     snmp_hostmib:mib.obj
+ 0002:00000594       hrStorageFloppyDisk_oid    10008594     snmp_hostmib:mib.obj
+ 0002:000005c4       hrStorageCompactDisk_oid   100085c4     snmp_hostmib:mib.obj
+ 0002:000005f4       hrStorageRamDisk_oid       100085f4     snmp_hostmib:mib.obj
+ 0002:00000620       hrStorageTypes_oid         10008620     snmp_hostmib:mib.obj
+ 0002:00000654       hrStorageIndex_oid         10008654     snmp_hostmib:mib.obj
+ 0002:00000688       hrStorageType_oid          10008688     snmp_hostmib:mib.obj
+ 0002:000006bc       hrStorageDesc_oid          100086bc     snmp_hostmib:mib.obj
+ 0002:000006f0       hrStorageAllocationUnits_oid 100086f0     snmp_hostmib:mib.obj
+ 0002:00000724       hrStorageSize_oid          10008724     snmp_hostmib:mib.obj
+ 0002:00000758       hrStorageUsed_oid          10008758     snmp_hostmib:mib.obj
+ 0002:0000078c       hrStorageAllocationFailures_oid 1000878c     snmp_hostmib:mib.obj
+ 0002:000007bc       hrStorageEntry_oid         100087bc     snmp_hostmib:mib.obj
+ 0002:000007e8       hrStorageEntry_var_table   100087e8     snmp_hostmib:mib.obj
+ 0002:000008f0       hrDeviceOther_oid          100088f0     snmp_hostmib:mib.obj
+ 0002:00000920       hrDeviceUnknown_oid        10008920     snmp_hostmib:mib.obj
+ 0002:00000950       hrDeviceProcessor_oid      10008950     snmp_hostmib:mib.obj
+ 0002:00000980       hrDeviceNetwork_oid        10008980     snmp_hostmib:mib.obj
+ 0002:000009b0       hrDevicePrinter_oid        100089b0     snmp_hostmib:mib.obj
+ 0002:000009e0       hrDeviceDiskStorage_oid    100089e0     snmp_hostmib:mib.obj
+ 0002:00000a10       hrDeviceVideo_oid          10008a10     snmp_hostmib:mib.obj
+ 0002:00000a40       hrDeviceAudio_oid          10008a40     snmp_hostmib:mib.obj
+ 0002:00000a70       hrDeviceCoprocessor_oid    10008a70     snmp_hostmib:mib.obj
+ 0002:00000aa0       hrDeviceKeyboard_oid       10008aa0     snmp_hostmib:mib.obj
+ 0002:00000ad0       hrDeviceModem_oid          10008ad0     snmp_hostmib:mib.obj
+ 0002:00000b00       hrDeviceParallelPort_oid   10008b00     snmp_hostmib:mib.obj
+ 0002:00000b30       hrDevicePointing_oid       10008b30     snmp_hostmib:mib.obj
+ 0002:00000b60       hrDeviceSerialPort_oid     10008b60     snmp_hostmib:mib.obj
+ 0002:00000b90       hrDeviceTape_oid           10008b90     snmp_hostmib:mib.obj
+ 0002:00000bc0       hrDeviceClock_oid          10008bc0     snmp_hostmib:mib.obj
+ 0002:00000bf0       hrDeviceVolatileMemory_oid 10008bf0     snmp_hostmib:mib.obj
+ 0002:00000c20       hrDeviceNonVolatileMemory_oid 10008c20     snmp_hostmib:mib.obj
+ 0002:00000c28       hrDeviceTypes_oid          10008c28     snmp_hostmib:mib.obj
+ 0002:00000c5c       hrDeviceIndex_oid          10008c5c     snmp_hostmib:mib.obj
+ 0002:00000c90       hrDeviceType_oid           10008c90     snmp_hostmib:mib.obj
+ 0002:00000cc4       hrDeviceDesc_oid           10008cc4     snmp_hostmib:mib.obj
+ 0002:00000cf8       hrDeviceID_oid             10008cf8     snmp_hostmib:mib.obj
+ 0002:00000d2c       hrDeviceStatus_oid         10008d2c     snmp_hostmib:mib.obj
+ 0002:00000d60       hrDeviceErrors_oid         10008d60     snmp_hostmib:mib.obj
+ 0002:00000d90       hrDeviceEntry_oid          10008d90     snmp_hostmib:mib.obj
+ 0002:00000d98       hrDeviceEntry_var_table    10008d98     snmp_hostmib:mib.obj
+ 0002:00000e88       hrProcessorFrwID_oid       10008e88     snmp_hostmib:mib.obj
+ 0002:00000ebc       hrProcessorLoad_oid        10008ebc     snmp_hostmib:mib.obj
+ 0002:00000eec       hrProcessorEntry_oid       10008eec     snmp_hostmib:mib.obj
+ 0002:00000f20       hrProcessorEntry_var_table 10008f20     snmp_hostmib:mib.obj
+ 0002:00000f74       hrNetworkIfIndex_oid       10008f74     snmp_hostmib:mib.obj
+ 0002:00000fa4       hrNetworkEntry_oid         10008fa4     snmp_hostmib:mib.obj
+ 0002:00000fac       hrNetworkEntry_var_table   10008fac     snmp_hostmib:mib.obj
+ 0002:00001010       hrPrinterStatus_oid        10009010     snmp_hostmib:mib.obj
+ 0002:00001044       hrPrinterDetectedErrorState_oid 10009044     snmp_hostmib:mib.obj
+ 0002:00001074       hrPrinterEntry_oid         10009074     snmp_hostmib:mib.obj
+ 0002:000010a8       hrPrinterEntry_var_table   100090a8     snmp_hostmib:mib.obj
+ 0002:000010fc       hrDiskStorageAccess_oid    100090fc     snmp_hostmib:mib.obj
+ 0002:00001130       hrDiskStorageMedia_oid     10009130     snmp_hostmib:mib.obj
+ 0002:00001164       hrDiskStorageRemoveble_oid 10009164     snmp_hostmib:mib.obj
+ 0002:00001198       hrDiskStorageCapacity_oid  10009198     snmp_hostmib:mib.obj
+ 0002:000011c8       hrDiskStorageEntry_oid     100091c8     snmp_hostmib:mib.obj
+ 0002:000011d0       hrDiskStorageEntry_var_table 100091d0     snmp_hostmib:mib.obj
+ 0002:00001288       hrPartitionIndex_oid       10009288     snmp_hostmib:mib.obj
+ 0002:000012bc       hrPartitionLabel_oid       100092bc     snmp_hostmib:mib.obj
+ 0002:000012f0       hrPartitionID_oid          100092f0     snmp_hostmib:mib.obj
+ 0002:00001324       hrPartitionSize_oid        10009324     snmp_hostmib:mib.obj
+ 0002:00001358       hrPartitionFSIndex_oid     10009358     snmp_hostmib:mib.obj
+ 0002:00001388       hrPartitionEntry_oid       10009388     snmp_hostmib:mib.obj
+ 0002:00001390       hrPartitionEntry_var_table 10009390     snmp_hostmib:mib.obj
+ 0002:00001464       hrFSIndex_oid              10009464     snmp_hostmib:mib.obj
+ 0002:00001498       hrFSMountPoint_oid         10009498     snmp_hostmib:mib.obj
+ 0002:000014cc       hrFSRemoteMountPoint_oid   100094cc     snmp_hostmib:mib.obj
+ 0002:00001500       hrFSType_oid               10009500     snmp_hostmib:mib.obj
+ 0002:00001534       hrFSAccess_oid             10009534     snmp_hostmib:mib.obj
+ 0002:00001568       hrFSBootable_oid           10009568     snmp_hostmib:mib.obj
+ 0002:0000159c       hrFSStorageIndex_oid       1000959c     snmp_hostmib:mib.obj
+ 0002:000015d0       hrFSLastFullBackupDate_oid 100095d0     snmp_hostmib:mib.obj
+ 0002:00001604       hrFSLastPartialBackupDate_oid 10009604     snmp_hostmib:mib.obj
+ 0002:00001634       hrFSEntry_oid              10009634     snmp_hostmib:mib.obj
+ 0002:00001660       hrFSEntry_var_table        10009660     snmp_hostmib:mib.obj
+ 0002:000017a0       hrFSOther_oid              100097a0     snmp_hostmib:mib.obj
+ 0002:000017d0       hrFSUnknown_oid            100097d0     snmp_hostmib:mib.obj
+ 0002:00001800       hrFSBerkeleyFFS_oid        10009800     snmp_hostmib:mib.obj
+ 0002:00001830       hrFSSys5FS_oid             10009830     snmp_hostmib:mib.obj
+ 0002:00001860       hrFSFat_oid                10009860     snmp_hostmib:mib.obj
+ 0002:00001890       hrFSHPFS_oid               10009890     snmp_hostmib:mib.obj
+ 0002:000018c0       hrFSHFS_oid                100098c0     snmp_hostmib:mib.obj
+ 0002:000018f0       hrFSMFS_oid                100098f0     snmp_hostmib:mib.obj
+ 0002:00001920       hrFSNTFS_oid               10009920     snmp_hostmib:mib.obj
+ 0002:00001950       hrFSVNode_oid              10009950     snmp_hostmib:mib.obj
+ 0002:00001980       hrFSJournaled_oid          10009980     snmp_hostmib:mib.obj
+ 0002:000019b0       hrFSiso9660_oid            100099b0     snmp_hostmib:mib.obj
+ 0002:000019e0       hrFSRockRidge_oid          100099e0     snmp_hostmib:mib.obj
+ 0002:00001a10       hrFSNFS_oid                10009a10     snmp_hostmib:mib.obj
+ 0002:00001a40       hrFSNetware_oid            10009a40     snmp_hostmib:mib.obj
+ 0002:00001a70       hrFSAFS_oid                10009a70     snmp_hostmib:mib.obj
+ 0002:00001aa0       hrFSDFS_oid                10009aa0     snmp_hostmib:mib.obj
+ 0002:00001ad0       hrFSApplshare_oid          10009ad0     snmp_hostmib:mib.obj
+ 0002:00001b00       hrFSRFS_oid                10009b00     snmp_hostmib:mib.obj
+ 0002:00001b30       hrFSDGFS_oid               10009b30     snmp_hostmib:mib.obj
+ 0002:00001b60       hrFSBFS_oid                10009b60     snmp_hostmib:mib.obj
+ 0002:00001b68       hrFSTypes_oid              10009b68     snmp_hostmib:mib.obj
+ 0002:00001b94       hrSWOSIndex_oid            10009b94     snmp_hostmib:mib.obj
+ 0002:00001bbc       hrSWRun_oid                10009bbc     snmp_hostmib:mib.obj
+ 0002:00001bc4       hrSWRun_var_table          10009bc4     snmp_hostmib:mib.obj
+ 0002:00001c28       hrSWRunIndex_oid           10009c28     snmp_hostmib:mib.obj
+ 0002:00001c5c       hrSWRunName_oid            10009c5c     snmp_hostmib:mib.obj
+ 0002:00001c90       hrSWRunID_oid              10009c90     snmp_hostmib:mib.obj
+ 0002:00001cc4       hrSWRunPath_oid            10009cc4     snmp_hostmib:mib.obj
+ 0002:00001cf8       hrSWRunParameters_oid      10009cf8     snmp_hostmib:mib.obj
+ 0002:00001d2c       hrSWRunType_oid            10009d2c     snmp_hostmib:mib.obj
+ 0002:00001d60       hrSWRunStatus_oid          10009d60     snmp_hostmib:mib.obj
+ 0002:00001d90       hrSWRunEntry_oid           10009d90     snmp_hostmib:mib.obj
+ 0002:00001d98       hrSWRunEntry_var_table     10009d98     snmp_hostmib:mib.obj
+ 0002:00001ea4       hrSWRunPerfCPU_oid         10009ea4     snmp_hostmib:mib.obj
+ 0002:00001ed8       hrSWRunPerfMem_oid         10009ed8     snmp_hostmib:mib.obj
+ 0002:00001f08       hrSWRunPerfEntry_oid       10009f08     snmp_hostmib:mib.obj
+ 0002:00001f10       hrSWRunPerfEntry_var_table 10009f10     snmp_hostmib:mib.obj
+ 0002:00001f88       hrSWInstalledLastChange_oid 10009f88     snmp_hostmib:mib.obj
+ 0002:00001fb4       hrSWInstalledLastUpdateTime_oid 10009fb4     snmp_hostmib:mib.obj
+ 0002:00001fdc       hrSWInstalled_oid          10009fdc     snmp_hostmib:mib.obj
+ 0002:00002010       hrSWInstalled_var_table    1000a010     snmp_hostmib:mib.obj
+ 0002:00002064       hrSWInstalledIndex_oid     1000a064     snmp_hostmib:mib.obj
+ 0002:00002098       hrSWInstalledName_oid      1000a098     snmp_hostmib:mib.obj
+ 0002:000020cc       hrSWInstalledID_oid        1000a0cc     snmp_hostmib:mib.obj
+ 0002:00002100       hrSWInstalledType_oid      1000a100     snmp_hostmib:mib.obj
+ 0002:00002134       hrSWInstalledDate_oid      1000a134     snmp_hostmib:mib.obj
+ 0002:00002164       hrSWInstalledEntry_oid     1000a164     snmp_hostmib:mib.obj
+ 0002:0000216c       class_info_count           1000a16c     snmp_hostmib:mib.obj
+ 0002:00002170       hrSWInstalledEntry_var_table 1000a170     snmp_hostmib:mib.obj
+ 0002:00002218       class_info                 1000a218     snmp_hostmib:mib.obj
+ 0002:00002474       __security_cookie          1000a474     corelib0:seccinit.obj
+ 0002:00002478       __security_cookie_complement 1000a478     corelib0:seccinit.obj
+ 0002:00002480       g_hPollForTrapEvent        1000a480     snmp_hostmib:mib.obj
+ 0002:00002484       g_bInitComplete            1000a484     snmp_hostmib:mib.obj
+ 0002:00002488       g_HostTimerBlock           1000a488     snmp_hostmib:resolve.obj
+ 0002:00002494       number_of_traps            1000a494     snmp_hostmib:resolve.obj
+ 0002:00002498       trap_info                  1000a498     snmp_hostmib:resolve.obj
+ 0002:000026e4       hrSWRunTable_cache         1000a6e4     snmp_hostmib:hrswrunentry.obj
+ 0002:000026fc       hrFSTable_cache            1000a6fc     snmp_hostmib:hrfsentry.obj
+ 0002:00002720       hrDiskStorage_cache        1000a720     snmp_hostmib:hrdiskstorageentry.obj
+ 0002:0000274c       hrDevice_cache             1000a74c     snmp_hostmib:hrdeviceentry.obj
+ 0002:00002758       InitLoadDev_index          1000a758     snmp_hostmib:hrdeviceentry.obj
+ 0002:00002768       hrStorage_cache            1000a768     snmp_hostmib:hrstorageentry.obj
+ 0002:0000277f       _exitflag                  1000a77f     corelib0:cexit.obj
+ 0002:00002780       SWOSIndex                  1000a780     <common>
+ 0002:00002784       __onexitend                1000a784     <common>
+ 0002:00002788       __onexitbegin              1000a788     <common>
+ 0002:0000278c       g_pcsExit                  1000a78c     <common>
+
+ entry point at        0001:00005960
+
+ Static symbols
+
+ 0001:00001370       GetProcessCPUTimeUsedInCentiseconds 10002370 f   snmp_hostmib:hrswrunentry.obj
+ 0001:0000198c       AddHrSWRunRow              1000298c f   snmp_hostmib:hrswrunentry.obj
+ 0001:000027d8       Process_DS_Row             100037d8 f   snmp_hostmib:hrdiskstorageentry.obj
+ 0001:00002924       ProcessPartitions          10003924 f   snmp_hostmib:hrdiskstorageentry.obj
+ 0001:00002a34       Gen_Fixed_disks            10003a34 f   snmp_hostmib:hrdiskstorageentry.obj
+ 0001:00005aec       doexit                     10006aec f   corelib0:cexit.obj

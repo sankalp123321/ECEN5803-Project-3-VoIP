@@ -1,0 +1,207 @@
+ wspm
+
+ Timestamp is 5ac64a2c (Thu Apr 05 09:09:16 2018)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 00000034H .rdata                  CODE
+ 0001:00000054 00000021H .rdata$debug            CODE
+ 0001:00000078 000019c8H .text                   CODE
+ 0001:00001a40 0000005cH .xdata                  CODE
+ 0001:00001a9c 00000014H .idata$2                CODE
+ 0001:00001ab0 00000014H .idata$3                CODE
+ 0001:00001ac4 000000c4H .idata$4                CODE
+ 0001:00001b88 0000000cH .idata$6                CODE
+ 0001:00001ba0 00000046H .edata                  CODE
+ 0002:00000000 000000c4H .idata$5                DATA
+ 0002:000000c8 00000080H .data                   DATA
+ 0002:00000160 00000080H .bss                    DATA
+ 0003:00000000 000001b8H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:0000003c       ??_C@_1BI@DMNPANEB@?$AAW?$AAi?$AAn?$AAs?$AAo?$AAc?$AAk?$AA?5?$AA2?$AA?4?$AA2?$AA?$AA@ 1000103c     init.obj
+ 0001:00000080       TestTimeout                10001080 f   select.obj
+ 0001:000000cc       SelectpBuildSocketList     100010cc f   select.obj
+ 0001:000001c0       SelectpScanSockets         100011c0 f   select.obj
+ 0001:00000214       WSPEnumNetworkEvents       10001214 f   select.obj
+ 0001:00000234       WSPEventSelect             10001234 f   select.obj
+ 0001:00000258       WSPSelect                  10001258 f   select.obj
+ 0001:00000448       WSPStartup                 10001448 f   init.obj
+ 0001:00000500       WSPCleanup                 10001500 f   init.obj
+ 0001:00000550       DllEntry                   10001550 f   init.obj
+ 0001:0000059c       MyInetNtoaW                1000159c f   calls.obj
+ 0001:00000684       MyShortToStr               10001684 f   calls.obj
+ 0001:00000734       OvCompletionRtn            10001734 f   calls.obj
+ 0001:00000758       StartOvCompletionThd       10001758 f   calls.obj
+ 0001:000007c0       WSPAccept                  100017c0 f   calls.obj
+ 0001:00000850       WSPAddressToString         10001850 f   calls.obj
+ 0001:00000988       WSPAsyncSelect             10001988 f   calls.obj
+ 0001:0000099c       WSPBind                    1000199c f   calls.obj
+ 0001:000009b8       WSPCancelBlockingCall      100019b8 f   calls.obj
+ 0001:000009cc       WSPCloseSocket             100019cc f   calls.obj
+ 0001:000009fc       WSPConnect                 100019fc f   calls.obj
+ 0001:00000a18       WSPDuplicateSocket         10001a18 f   calls.obj
+ 0001:00000a30       WSPGetOverlappedResult     10001a30 f   calls.obj
+ 0001:00000b18       WSPGetPeerName             10001b18 f   calls.obj
+ 0001:00000b3c       WSPGetSockName             10001b3c f   calls.obj
+ 0001:00000b60       WSPGetSockOpt              10001b60 f   calls.obj
+ 0001:00000b94       WSPGetQOSByName            10001b94 f   calls.obj
+ 0001:00000ba4       WSPRecvMsg                 10001ba4 f   calls.obj
+ 0001:00000cac       WspmWsaSendMsg             10001cac f   calls.obj
+ 0001:00000d60       WSPIoctl                   10001d60 f   calls.obj
+ 0001:00000f44       WSPJoinLeaf                10001f44 f   calls.obj
+ 0001:00000f58       WSPListen                  10001f58 f   calls.obj
+ 0001:00000f74       WSPRecv                    10001f74 f   calls.obj
+ 0001:00001030       WSPRecvDisconnect          10002030 f   calls.obj
+ 0001:00001040       WSPRecvFrom                10002040 f   calls.obj
+ 0001:00001150       WSPSend                    10002150 f   calls.obj
+ 0001:00001204       WSPSendDisconnect          10002204 f   calls.obj
+ 0001:00001214       WSPSendTo                  10002214 f   calls.obj
+ 0001:0000130c       WSPSetSockOpt              1000230c f   calls.obj
+ 0001:00001338       WSPShutdown                10002338 f   calls.obj
+ 0001:00001354       WSPSocket                  10002354 f   calls.obj
+ 0001:000013d8       WSPStringToAddress         100023d8 f   calls.obj
+ 0001:00001470       LocalAlloc                 10002470 f   coredll:COREDLL.dll
+ 0001:00001480       PMEnumNetworkEvents        10002480 f   coredll:COREDLL.dll
+ 0001:00001490       PMEventSelect              10002490 f   coredll:COREDLL.dll
+ 0001:000014a0       LocalFree                  100024a0 f   coredll:COREDLL.dll
+ 0001:000014b0       PMSelect                   100024b0 f   coredll:COREDLL.dll
+ 0001:000014c0       LeaveCriticalSection       100024c0 f   coredll:COREDLL.dll
+ 0001:000014d0       StringCchCopyW             100024d0 f   coredll:COREDLL.dll
+ 0001:000014e0       EnterCriticalSection       100024e0 f   coredll:COREDLL.dll
+ 0001:000014f0       DeleteCriticalSection      100024f0 f   coredll:COREDLL.dll
+ 0001:00001500       DisableThreadLibraryCalls  10002500 f   coredll:COREDLL.dll
+ 0001:00001510       InitializeCriticalSection  10002510 f   coredll:COREDLL.dll
+ 0001:00001520       CeSetThreadPriority        10002520 f   coredll:COREDLL.dll
+ 0001:00001530       CeGetThreadPriority        10002530 f   coredll:COREDLL.dll
+ 0001:00001540       CloseHandle                10002540 f   coredll:COREDLL.dll
+ 0001:00001550       CreateThread               10002550 f   coredll:COREDLL.dll
+ 0001:00001560       PMAccept                   10002560 f   coredll:COREDLL.dll
+ 0001:00001570       PMAddrConvert              10002570 f   coredll:COREDLL.dll
+ 0001:00001580       PMBind                     10002580 f   coredll:COREDLL.dll
+ 0001:00001590       PMCloseSocket              10002590 f   coredll:COREDLL.dll
+ 0001:000015a0       PMConnect                  100025a0 f   coredll:COREDLL.dll
+ 0001:000015b0       GetLastError               100025b0 f   coredll:COREDLL.dll
+ 0001:000015c0       WaitForSingleObject        100025c0 f   coredll:COREDLL.dll
+ 0001:000015d0       PMGetpeername              100025d0 f   coredll:COREDLL.dll
+ 0001:000015e0       PMGetsockname              100025e0 f   coredll:COREDLL.dll
+ 0001:000015f0       PMGetSockOpt               100025f0 f   coredll:COREDLL.dll
+ 0001:00001600       PMRecvEx                   10002600 f   coredll:COREDLL.dll
+ 0001:00001610       SetLastError               10002610 f   coredll:COREDLL.dll
+ 0001:00001620       PMSendMsg                  10002620 f   coredll:COREDLL.dll
+ 0001:00001630       PMIoctl                    10002630 f   coredll:COREDLL.dll
+ 0001:00001640       PMListen                   10002640 f   coredll:COREDLL.dll
+ 0001:00001650       PMRecv                     10002650 f   coredll:COREDLL.dll
+ 0001:00001660       PMRecvFrom                 10002660 f   coredll:COREDLL.dll
+ 0001:00001670       PMSend                     10002670 f   coredll:COREDLL.dll
+ 0001:00001680       PMSendEx                   10002680 f   coredll:COREDLL.dll
+ 0001:00001690       PMSendTo                   10002690 f   coredll:COREDLL.dll
+ 0001:000016a0       PMSetSockOpt               100026a0 f   coredll:COREDLL.dll
+ 0001:000016b0       PMShutdown                 100026b0 f   coredll:COREDLL.dll
+ 0001:000016c0       PMSocket                   100026c0 f   coredll:COREDLL.dll
+ 0001:000016d0       _DllEntryCRTStartup        100026d0 f   corelib0:pegdentry.obj
+ 0001:00001714       __GSHandlerCheckCommon     10002714 f   corelib0:gshandler.obj
+ 0001:00001750       __GSHandlerCheck           10002750 f   corelib0:gshandler.obj
+ 0001:00001770       __security_init_cookie     10002770 f   corelib0:seccinit.obj
+ 0001:000017bc       __security_check_cookie    100027bc f   corelib0:armsecgs.obj
+ 0001:000017cc       __gsfailure                100027cc     corelib0:armsecgs.obj
+ 0001:000018f8       _cexit                     100028f8 f   corelib0:cexit.obj
+ 0001:00001908       _initterm                  10002908 f   corelib0:crt0dat.obj
+ 0001:00001934       _cinit                     10002934 f   corelib0:crt0dat.obj
+ 0001:00001994       __crt_ExitProcess          10002994 f   corelib0:exitproc_proxy.obj
+ 0001:000019a0       __C_specific_handler       100029a0 f   corelib1:COREDLL.dll
+ 0001:000019b0       memset                     100029b0 f   corelib1:COREDLL.dll
+ 0001:000019c0       memcpy                     100029c0 f   corelib1:COREDLL.dll
+ 0001:000019d0       memcmp                     100029d0 f   corelib1:COREDLL.dll
+ 0001:000019e0       wcslen                     100029e0 f   corelib1:COREDLL.dll
+ 0001:000019f0       __security_gen_cookie2     100029f0 f   corelib1:COREDLL.dll
+ 0001:00001a00       __report_gsfailure         10002a00 f   corelib1:COREDLL.dll
+ 0001:00001a10       free                       10002a10 f   corelib1:COREDLL.dll
+ 0001:00001a20       InterlockedExchange        10002a20 f   coredll:COREDLL.dll
+ 0001:00001a30       TerminateProcess           10002a30 f   coredll:COREDLL.dll
+ 0001:00001a9c       __IMPORT_DESCRIPTOR_COREDLL 10002a9c     coredll:COREDLL.dll
+ 0001:00001ab0       __NULL_IMPORT_DESCRIPTOR   10002ab0     coredll:COREDLL.dll
+ 0002:00000000       __imp_LocalAlloc           10003000     coredll:COREDLL.dll
+ 0002:00000004       __imp_PMEnumNetworkEvents  10003004     coredll:COREDLL.dll
+ 0002:00000008       __imp_PMEventSelect        10003008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_LocalFree            1000300c     coredll:COREDLL.dll
+ 0002:00000010       __imp_PMSelect             10003010     coredll:COREDLL.dll
+ 0002:00000014       __imp_LeaveCriticalSection 10003014     coredll:COREDLL.dll
+ 0002:00000018       __imp_StringCchCopyW       10003018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_EnterCriticalSection 1000301c     coredll:COREDLL.dll
+ 0002:00000020       __imp_DeleteCriticalSection 10003020     coredll:COREDLL.dll
+ 0002:00000024       __imp_DisableThreadLibraryCalls 10003024     coredll:COREDLL.dll
+ 0002:00000028       __imp_InitializeCriticalSection 10003028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_CeSetThreadPriority  1000302c     coredll:COREDLL.dll
+ 0002:00000030       __imp_CeGetThreadPriority  10003030     coredll:COREDLL.dll
+ 0002:00000034       __imp_CloseHandle          10003034     coredll:COREDLL.dll
+ 0002:00000038       __imp_CreateThread         10003038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_PMAccept             1000303c     coredll:COREDLL.dll
+ 0002:00000040       __imp_PMAddrConvert        10003040     coredll:COREDLL.dll
+ 0002:00000044       __imp_PMBind               10003044     coredll:COREDLL.dll
+ 0002:00000048       __imp_PMCloseSocket        10003048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_PMConnect            1000304c     coredll:COREDLL.dll
+ 0002:00000050       __imp_GetLastError         10003050     coredll:COREDLL.dll
+ 0002:00000054       __imp_WaitForSingleObject  10003054     coredll:COREDLL.dll
+ 0002:00000058       __imp_PMGetpeername        10003058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_PMGetsockname        1000305c     coredll:COREDLL.dll
+ 0002:00000060       __imp_PMGetSockOpt         10003060     coredll:COREDLL.dll
+ 0002:00000064       __imp_PMRecvEx             10003064     coredll:COREDLL.dll
+ 0002:00000068       __imp_SetLastError         10003068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_PMSendMsg            1000306c     coredll:COREDLL.dll
+ 0002:00000070       __imp_PMIoctl              10003070     coredll:COREDLL.dll
+ 0002:00000074       __imp_PMListen             10003074     coredll:COREDLL.dll
+ 0002:00000078       __imp_PMRecv               10003078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_PMRecvFrom           1000307c     coredll:COREDLL.dll
+ 0002:00000080       __imp_PMSend               10003080     coredll:COREDLL.dll
+ 0002:00000084       __imp_PMSendEx             10003084     coredll:COREDLL.dll
+ 0002:00000088       __imp_PMSendTo             10003088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_PMSetSockOpt         1000308c     coredll:COREDLL.dll
+ 0002:00000090       __imp_PMShutdown           10003090     coredll:COREDLL.dll
+ 0002:00000094       __imp_PMSocket             10003094     coredll:COREDLL.dll
+ 0002:00000098       __imp___C_specific_handler 10003098     corelib1:COREDLL.dll
+ 0002:0000009c       __imp_memset               1000309c     corelib1:COREDLL.dll
+ 0002:000000a0       __imp_memcpy               100030a0     corelib1:COREDLL.dll
+ 0002:000000a4       __imp_memcmp               100030a4     corelib1:COREDLL.dll
+ 0002:000000a8       __imp_wcslen               100030a8     corelib1:COREDLL.dll
+ 0002:000000ac       __imp___security_gen_cookie2 100030ac     corelib1:COREDLL.dll
+ 0002:000000b0       __imp___report_gsfailure   100030b0     corelib1:COREDLL.dll
+ 0002:000000b4       __imp_free                 100030b4     corelib1:COREDLL.dll
+ 0002:000000b8       __imp_InterlockedExchange  100030b8     coredll:COREDLL.dll
+ 0002:000000bc       __imp_TerminateProcess     100030bc     coredll:COREDLL.dll
+ 0002:000000c0       \177COREDLL_NULL_THUNK_DATA 100030c0     coredll:COREDLL.dll
+ 0002:000000c8       v_aWspmProcTable           100030c8     calls.obj
+ 0002:00000140       __security_cookie          10003140     corelib0:seccinit.obj
+ 0002:00000144       __security_cookie_complement 10003144     corelib0:seccinit.obj
+ 0002:00000164       _exitflag                  10003164     corelib0:cexit.obj
+ 0002:00000180       v_UpcallTable              10003180     <common>
+ 0002:000001c0       v_WspmCS                   100031c0     <common>
+ 0002:000001d4       __onexitend                100031d4     <common>
+ 0002:000001d8       __onexitbegin              100031d8     <common>
+ 0002:000001dc       g_pcsExit                  100031dc     <common>
+
+ entry point at        0001:000016d0
+
+ Static symbols
+
+ 0001:00001810       doexit                     10002810 f   corelib0:cexit.obj

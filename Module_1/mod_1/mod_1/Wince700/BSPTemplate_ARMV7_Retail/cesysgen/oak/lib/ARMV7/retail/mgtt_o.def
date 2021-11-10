@@ -1,0 +1,81 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;;;;    MGTT_O.DEF - Truetype library linkage definitions
+;
+;
+
+LIBRARY MGTT_O
+
+EXPORTS
+
+    FntDrvQueryFont
+    FntDrvQueryFontFile
+    FntDrvQueryFontData
+    FntDrvDestroyFont
+    FntDrvLoadFontFile
+    FntDrvUnloadFontFile
+    FntDrvQueryTrueTypeTable
+
+; @CESYSGEN IF CE_MODULES_DECOMPDLL
+; @CESYSGEN ENDIF

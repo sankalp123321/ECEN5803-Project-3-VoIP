@@ -1,0 +1,714 @@
+ pm
+
+ Timestamp is 618b1567 (Tue Nov 09 17:42:15 2021)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 00001312H .rdata                  CODE
+ 0001:00001334 0000001fH .rdata$debug            CODE
+ 0001:00001354 0000a688H .text                   CODE
+ 0001:0000b9dc 000003a4H .xdata                  CODE
+ 0001:0000bd80 00000014H .idata$2                CODE
+ 0001:0000bd94 00000014H .idata$3                CODE
+ 0001:0000bda8 00000170H .idata$4                CODE
+ 0001:0000bf18 0000000cH .idata$6                CODE
+ 0001:0000bf30 000001d8H .edata                  CODE
+ 0002:00000000 00000170H .idata$5                DATA
+ 0002:00000170 000004a0H .data                   DATA
+ 0002:00000610 00000238H .bss                    DATA
+ 0003:00000000 00000a50H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       __xc_a                     10001000     corelib0:crt0init.obj
+ 0001:00000004       __xc_z                     10001004     corelib0:crt0init.obj
+ 0001:00000008       __xi_a                     10001008     corelib0:crt0init.obj
+ 0001:0000000c       __xi_z                     1000100c     corelib0:crt0init.obj
+ 0001:00000010       __xp_a                     10001010     corelib0:crt0init.obj
+ 0001:00000014       __xp_z                     10001014     corelib0:crt0init.obj
+ 0001:00000018       __xt_a                     10001018     corelib0:crt0init.obj
+ 0001:0000001c       __xt_z                     1000101c     corelib0:crt0init.obj
+ 0001:0000003c       ??_C@_19HDEHKPMM@?$AAb?$AAk?$AAl?$AA1?$AA?$AA@ 1000103c     pm_mdd_lib:pmdevice.obj
+ 0001:00000048       ??_7RegKeyOrValue@@6B@     10001048     pm_mdd_lib:pmsysstate.obj
+ 0001:00000050       ??_7RegKey@@6B@            10001050     pm_mdd_lib:pmsysstate.obj
+ 0001:00000058       ??_C@_1BA@HANLFFFG@?$AAd?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AA?$AA@ 10001058     pm_mdd_lib:pmsysstate.obj
+ 0001:00000068       ??_C@_1M@OAJFFPML@?$AAF?$AAl?$AAa?$AAg?$AAs?$AA?$AA@ 10001068     pm_mdd_lib:pmsysstate.obj
+ 0001:00000074       ??_C@_1BA@DAAKBIFE@?$AAs?$AAu?$AAs?$AAp?$AAe?$AAn?$AAd?$AA?$AA@ 10001074     pm_mdd_lib:pmsysstate.obj
+ 0001:00000084       ??_7CMiniThread@@6B@       10001084     pm_mdd_lib:pmsysstate.obj
+ 0001:0000008c       ??_7RegValue@@6B@          1000108c     pm_mdd_lib:pmsysstate.obj
+ 0001:0000009c       ??_7SystemNotifyRegKey@@6BRegKey@@@ 1000109c     pm_mdd_lib:pmsysstate.obj
+ 0001:000000a4       ??_7SystemNotifyRegKey@@6BCMiniThread@@@ 100010a4     pm_mdd_lib:pmsysstate.obj
+ 0001:000000ac       ??_C@_1BA@GHOECOCL@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AA?$AA@ 100010ac     pm_mdd_lib:pmsysstate.obj
+ 0001:000000bc       ??_C@_1M@LAGHHMEN@?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?$AA@ 100010bc     pm_mdd_lib:pmsysstate.obj
+ 0001:000000c8       ??_C@_1EO@PFEFPDAL@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?2?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAS?$AAe?$AAt?$AA?2?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl@ 100010c8     pm_mdd_lib:pmsysstate.obj
+ 0001:00000118       ??_C@_1M@DFKENGJN@?$AA?$CF?$AAs?$AA?2?$AA?$CF?$AAs?$AA?$AA@ 10001118     pm_mdd_lib:pmsysstate.obj
+ 0001:00000124       ??_C@_1CE@OCHLFFAP@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?1?$AAB?$AAo?$AAo?$AAt?$AAP?$AAh?$AAa?$AAs?$AAe?$AA2?$AA?$AA@ 10001124     pm_mdd_lib:pmsysstate.obj
+ 0001:00000148       ??_C@_1BM@OBHJEKIL@?$AA?$CF?$AAs?$AA?2?$AAI?$AAn?$AAt?$AAe?$AAr?$AAf?$AAa?$AAc?$AAe?$AAs?$AA?$AA@ 10001148     pm_mdd_lib:pminit.obj
+ 0001:00000164       ??_C@_1DC@OOKIINAM@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?1?$AAP?$AAo?$AAw?$AAe?$AAr?$AAM?$AAa?$AAn?$AAa?$AAg?$AAe?$AAr?$AAR?$AAe?$AAa?$AAd?$AAy?$AA?$AA@ 10001164     pm_mdd_lib:pminit.obj
+ 0001:00000198       ??_C@_1CE@JOMDCLAD@?$AAR?$AAe?$AAs?$AAu?$AAm?$AAe?$AAP?$AAr?$AAi?$AAo?$AAr?$AAi?$AAt?$AAy?$AA2?$AA5?$AA6?$AA?$AA@ 10001198     pm_mdd_lib:pmresume.obj
+ 0001:000001bc       ??_C@_1BG@JEIALCGK@?$AAP?$AAM?$AAE?$AAx?$AAt?$AA_?$AAI?$AAn?$AAi?$AAt?$AA?$AA@ 100011bc     pm_mdd_lib:pmexthdl.obj
+ 0001:000001d4       ??_C@_1BK@PBEIGBDA@?$AAP?$AAM?$AAE?$AAx?$AAt?$AA_?$AAD?$AAe?$AAI?$AAn?$AAi?$AAt?$AA?$AA@ 100011d4     pm_mdd_lib:pmexthdl.obj
+ 0001:000001f0       ??_C@_1DI@JNIFMANL@?$AAP?$AAM?$AAE?$AAx?$AAt?$AA_?$AAG?$AAe?$AAt?$AAN?$AAo?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AAH?$AAa?$AAn?$AAd?$AAl?$AAe?$AA?$AA@ 100011f0     pm_mdd_lib:pmexthdl.obj
+ 0001:00000228       ??_C@_1DA@EGCEGIFK@?$AAP?$AAM?$AAE?$AAx?$AAt?$AA_?$AAE?$AAv?$AAe?$AAn?$AAt?$AAN?$AAo?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 10001228     pm_mdd_lib:pmexthdl.obj
+ 0001:00000258       ??_C@_1DK@POJLKKBB@?$AAP?$AAM?$AAE?$AAx?$AAt?$AA_?$AAP?$AAM?$AAB?$AAe?$AAf?$AAo?$AAr?$AAe?$AAN?$AAe?$AAw?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?$AA@ 10001258     pm_mdd_lib:pmexthdl.obj
+ 0001:00000294       ??_C@_1DI@DGCJHNEK@?$AAP?$AAM?$AAE?$AAx?$AAt?$AA_?$AAP?$AAM?$AAA?$AAf?$AAt?$AAe?$AAr?$AAN?$AAe?$AAw?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?$AA@ 10001294     pm_mdd_lib:pmexthdl.obj
+ 0001:000002cc       ??_C@_1DK@GKLHCJCE@?$AAP?$AAM?$AAE?$AAx?$AAt?$AA_?$AAP?$AAM?$AAB?$AAe?$AAf?$AAo?$AAr?$AAe?$AAN?$AAe?$AAw?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?$AA@ 100012cc     pm_mdd_lib:pmexthdl.obj
+ 0001:00000308       ??_C@_1DI@KCAFPOHP@?$AAP?$AAM?$AAE?$AAx?$AAt?$AA_?$AAP?$AAM?$AAA?$AAf?$AAt?$AAe?$AAr?$AAN?$AAe?$AAw?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?$AA@ 10001308     pm_mdd_lib:pmexthdl.obj
+ 0001:00000340       ??_C@_17DJMMGLBL@?$AAD?$AAl?$AAl?$AA?$AA@ 10001340     pm_mdd_lib:pmexthdl.obj
+ 0001:00000348       ??_C@_1GC@HDMBBDJE@?$AAS?$AAY?$AAS?$AAT?$AAE?$AAM?$AA?2?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAS?$AAe?$AAt?$AA?2?$AAC?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl@ 10001348     pm_mdd_lib:pmexthdl.obj
+ 0001:000003c8       ??_C@_1O@NAFOCGLO@?$AAP?$AAM?$AAW?$AAe?$AAe?$AAk?$AA?$AA@ 100013c8     pm_mdd_lib:pmsqm.obj
+ 0001:000003d8       ??_C@_1O@CHBCJGPP@?$AAG?$AAl?$AAo?$AAb?$AAa?$AAl?$AA?$AA@ 100013d8     pm_mdd_lib:pmsqm.obj
+ 0001:000003e8       ??_C@_1DC@JJBBHDOP@?$AAP?$AAo?$AAw?$AAe?$AAr?$AAM?$AAa?$AAn?$AAa?$AAg?$AAe?$AAr?$AA?1?$AA?$CF?$AAs?$AA_?$AAI?$AAn?$AAa?$AAc?$AAt?$AAi?$AAv?$AAe?$AA?$AA@ 100013e8     pm_mdd_lib:pmutils.obj
+ 0001:0000041c       ??_C@_1CO@NKBHAHHA@?$AAP?$AAo?$AAw?$AAe?$AAr?$AAM?$AAa?$AAn?$AAa?$AAg?$AAe?$AAr?$AA?1?$AA?$CF?$AAs?$AA_?$AAA?$AAc?$AAt?$AAi?$AAv?$AAe?$AA?$AA@ 1000141c     pm_mdd_lib:pmutils.obj
+ 0001:0000044c       ??_C@_1DM@PMPBMFMH@?$AAP?$AAo?$AAw?$AAe?$AAr?$AAM?$AAa?$AAn?$AAa?$AAg?$AAe?$AAr?$AA?1?$AAA?$AAc?$AAt?$AAi?$AAv?$AAi?$AAt?$AAy?$AAT?$AAi?$AAm?$AAe?$AAr?$AA?1?$AA?$CF?$AAs?$AA?$AA@ 1000144c     pm_mdd_lib:pmutils.obj
+ 0001:00000488       ??_C@_1CE@CHIJALEA@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AAP?$AAr?$AAi?$AAo?$AAr?$AAi?$AAt?$AAy?$AA2?$AA5?$AA6?$AA?$AA@ 10001488     pm_mdd_lib:pmsystem.obj
+ 0001:000004ac       ??_C@_1BI@HFHFECPN@?$AAW?$AAa?$AAk?$AAe?$AAS?$AAo?$AAu?$AAr?$AAc?$AAe?$AAs?$AA?$AA@ 100014ac     pm_mdd_lib:pmtimer.obj
+ 0001:000004c4       ??_C@_1BE@OELEEODA@?$AAT?$AAi?$AAm?$AAe?$AAo?$AAu?$AAt?$AAM?$AAs?$AA?$AA@ 100014c4     pm_mdd_lib:pmtimer.obj
+ 0001:000004d8       ??_C@_1BA@BKONPLFM@?$AAT?$AAi?$AAm?$AAe?$AAo?$AAu?$AAt?$AA?$AA@ 100014d8     pm_mdd_lib:pmtimer.obj
+ 0001:000004e8       ??_C@_1CE@PFHECECI@?$AA?$CF?$AAs?$AA?2?$AAA?$AAc?$AAt?$AAi?$AAv?$AAi?$AAt?$AAy?$AAT?$AAi?$AAm?$AAe?$AAr?$AAs?$AA?$AA@ 100014e8     pm_mdd_lib:pmtimer.obj
+ 0001:0000050c       ??_C@_1CC@CNEGHLPH@?$AAT?$AAi?$AAm?$AAe?$AAr?$AAP?$AAr?$AAi?$AAo?$AAr?$AAi?$AAt?$AAy?$AA2?$AA5?$AA6?$AA?$AA@ 1000150c     pm_mdd_lib:pmtimer.obj
+ 0001:00000530       ??_C@_1BO@OBACGECJ@?$AAP?$AAn?$AAP?$AAP?$AAr?$AAi?$AAo?$AAr?$AAi?$AAt?$AAy?$AA2?$AA5?$AA6?$AA?$AA@ 10001530     pm_mdd_lib:pmpnp.obj
+ 0001:00000550       ??_C@_1BM@MMHGPIHM@?$AAS?$AAq?$AAm?$AAG?$AAe?$AAt?$AAS?$AAe?$AAs?$AAs?$AAi?$AAo?$AAn?$AA?$AA@ 10001550     pm_mdd_lib:sqmproxy.obj
+ 0001:0000056c       ??_C@_1CK@HHPGDEJO@?$AAS?$AAq?$AAm?$AAG?$AAe?$AAt?$AAM?$AAa?$AAn?$AAa?$AAg?$AAe?$AAd?$AAS?$AAe?$AAs?$AAs?$AAi?$AAo?$AAn?$AA?$AA@ 1000156c     pm_mdd_lib:sqmproxy.obj
+ 0001:00000598       ??_C@_1BM@POPHPGJM@?$AAS?$AAq?$AAm?$AAE?$AAn?$AAd?$AAS?$AAe?$AAs?$AAs?$AAi?$AAo?$AAn?$AA?$AA@ 10001598     pm_mdd_lib:sqmproxy.obj
+ 0001:000005b4       ??_C@_1CK@JNKIJLH@?$AAS?$AAq?$AAm?$AAE?$AAn?$AAd?$AAM?$AAa?$AAn?$AAa?$AAg?$AAe?$AAd?$AAS?$AAe?$AAs?$AAs?$AAi?$AAo?$AAn?$AA?$AA@ 100015b4     pm_mdd_lib:sqmproxy.obj
+ 0001:000005e0       ??_C@_1CA@CJHJNKNE@?$AAS?$AAq?$AAm?$AAS?$AAt?$AAa?$AAr?$AAt?$AAS?$AAe?$AAs?$AAs?$AAi?$AAo?$AAn?$AA?$AA@ 100015e0     pm_mdd_lib:sqmproxy.obj
+ 0001:00000600       ??_C@_1CO@GEDNANEN@?$AAS?$AAq?$AAm?$AAG?$AAe?$AAt?$AAS?$AAe?$AAs?$AAs?$AAi?$AAo?$AAn?$AAS?$AAt?$AAa?$AAr?$AAt?$AAT?$AAi?$AAm?$AAe?$AA?$AA@ 10001600     pm_mdd_lib:sqmproxy.obj
+ 0001:00000630       ??_C@_1BM@JIHBMADI@?$AAS?$AAq?$AAm?$AAG?$AAe?$AAt?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AAd?$AA?$AA@ 10001630     pm_mdd_lib:sqmproxy.obj
+ 0001:0000064c       ??_C@_1BM@GNCHBJHJ@?$AAS?$AAq?$AAm?$AAS?$AAe?$AAt?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AAd?$AA?$AA@ 1000164c     pm_mdd_lib:sqmproxy.obj
+ 0001:00000668       ??_C@_1BI@LHALAANK@?$AAS?$AAq?$AAm?$AAG?$AAe?$AAt?$AAF?$AAl?$AAa?$AAg?$AAs?$AA?$AA@ 10001668     pm_mdd_lib:sqmproxy.obj
+ 0001:00000680       ??_C@_1BI@JCAAILME@?$AAS?$AAq?$AAm?$AAS?$AAe?$AAt?$AAF?$AAl?$AAa?$AAg?$AAs?$AA?$AA@ 10001680     pm_mdd_lib:sqmproxy.obj
+ 0001:00000698       ??_C@_1BM@BLLHBHLG@?$AAS?$AAq?$AAm?$AAC?$AAl?$AAe?$AAa?$AAr?$AAF?$AAl?$AAa?$AAg?$AAs?$AA?$AA@ 10001698     pm_mdd_lib:sqmproxy.obj
+ 0001:000006b4       ??_C@_1CA@GCAJCPGE@?$AAS?$AAq?$AAm?$AAG?$AAe?$AAt?$AAM?$AAa?$AAc?$AAh?$AAi?$AAn?$AAe?$AAI?$AAd?$AA?$AA@ 100016b4     pm_mdd_lib:sqmproxy.obj
+ 0001:000006d4       ??_C@_1BK@DDJNCKAO@?$AAS?$AAq?$AAm?$AAG?$AAe?$AAt?$AAU?$AAs?$AAe?$AAr?$AAI?$AAd?$AA?$AA@ 100016d4     pm_mdd_lib:sqmproxy.obj
+ 0001:000006f0       ??_C@_1CA@OCMPOCMC@?$AAS?$AAq?$AAm?$AAS?$AAe?$AAt?$AAM?$AAa?$AAc?$AAh?$AAi?$AAn?$AAe?$AAI?$AAd?$AA?$AA@ 100016f0     pm_mdd_lib:sqmproxy.obj
+ 0001:00000710       ??_C@_1BK@JNLGGKHC@?$AAS?$AAq?$AAm?$AAS?$AAe?$AAt?$AAU?$AAs?$AAe?$AAr?$AAI?$AAd?$AA?$AA@ 10001710     pm_mdd_lib:sqmproxy.obj
+ 0001:0000072c       ??_C@_1BO@CBGCAFMB@?$AAS?$AAq?$AAm?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AAN?$AAe?$AAw?$AAI?$AAd?$AA?$AA@ 1000172c     pm_mdd_lib:sqmproxy.obj
+ 0001:0000074c       ??_C@_1CO@EHIDHFCK@?$AAS?$AAq?$AAm?$AAR?$AAe?$AAa?$AAd?$AAS?$AAh?$AAa?$AAr?$AAe?$AAd?$AAM?$AAa?$AAc?$AAh?$AAi?$AAn?$AAe?$AAI?$AAd?$AA?$AA@ 1000174c     pm_mdd_lib:sqmproxy.obj
+ 0001:0000077c       ??_C@_1CI@FJOPBFKK@?$AAS?$AAq?$AAm?$AAR?$AAe?$AAa?$AAd?$AAS?$AAh?$AAa?$AAr?$AAe?$AAd?$AAU?$AAs?$AAe?$AAr?$AAI?$AAd?$AA?$AA@ 1000177c     pm_mdd_lib:sqmproxy.obj
+ 0001:000007a4       ??_C@_1DA@JEPNJJO@?$AAS?$AAq?$AAm?$AAW?$AAr?$AAi?$AAt?$AAe?$AAS?$AAh?$AAa?$AAr?$AAe?$AAd?$AAM?$AAa?$AAc?$AAh?$AAi?$AAn?$AAe?$AAI?$AAd?$AA?$AA@ 100017a4     pm_mdd_lib:sqmproxy.obj
+ 0001:000007d4       ??_C@_1CK@MBFGJNGI@?$AAS?$AAq?$AAm?$AAW?$AAr?$AAi?$AAt?$AAe?$AAS?$AAh?$AAa?$AAr?$AAe?$AAd?$AAU?$AAs?$AAe?$AAr?$AAI?$AAd?$AA?$AA@ 100017d4     pm_mdd_lib:sqmproxy.obj
+ 0001:00000800       ??_C@_1CC@IDCLBBFM@?$AAS?$AAq?$AAm?$AAS?$AAe?$AAt?$AAA?$AAp?$AAp?$AAV?$AAe?$AAr?$AAs?$AAi?$AAo?$AAn?$AA?$AA@ 10001800     pm_mdd_lib:sqmproxy.obj
+ 0001:00000824       ??_C@_1O@IJBFHHCC@?$AAS?$AAq?$AAm?$AAS?$AAe?$AAt?$AA?$AA@ 10001824     pm_mdd_lib:sqmproxy.obj
+ 0001:00000834       ??_C@_1BM@CABJNDG@?$AAS?$AAq?$AAm?$AAS?$AAe?$AAt?$AAS?$AAt?$AAr?$AAi?$AAn?$AAg?$AAW?$AA?$AA@ 10001834     pm_mdd_lib:sqmproxy.obj
+ 0001:00000850       ??_C@_1BK@KIPJFEDP@?$AAS?$AAq?$AAm?$AAI?$AAn?$AAc?$AAr?$AAe?$AAm?$AAe?$AAn?$AAt?$AA?$AA@ 10001850     pm_mdd_lib:sqmproxy.obj
+ 0001:0000086c       ??_C@_1BG@MBKDOGON@?$AAS?$AAq?$AAm?$AAS?$AAe?$AAt?$AAB?$AAi?$AAt?$AAs?$AA?$AA@ 1000186c     pm_mdd_lib:sqmproxy.obj
+ 0001:00000884       ??_C@_1BI@FIDHJHHJ@?$AAS?$AAq?$AAm?$AAS?$AAe?$AAt?$AAI?$AAf?$AAM?$AAa?$AAx?$AA?$AA@ 10001884     pm_mdd_lib:sqmproxy.obj
+ 0001:0000089c       ??_C@_1BI@MBBGBNFH@?$AAS?$AAq?$AAm?$AAS?$AAe?$AAt?$AAI?$AAf?$AAM?$AAi?$AAn?$AA?$AA@ 1000189c     pm_mdd_lib:sqmproxy.obj
+ 0001:000008b4       ??_C@_1CA@HACMJPCH@?$AAS?$AAq?$AAm?$AAA?$AAd?$AAd?$AAT?$AAo?$AAA?$AAv?$AAe?$AAr?$AAa?$AAg?$AAe?$AA?$AA@ 100018b4     pm_mdd_lib:sqmproxy.obj
+ 0001:000008d4       ??_C@_1BO@KNMKMHNE@?$AAS?$AAq?$AAm?$AAA?$AAd?$AAd?$AAT?$AAo?$AAS?$AAt?$AAr?$AAe?$AAa?$AAm?$AA?$AA@ 100018d4     pm_mdd_lib:sqmproxy.obj
+ 0001:000008f4       ??_C@_1CM@CMKBBENH@?$AAS?$AAq?$AAm?$AAA?$AAd?$AAd?$AAT?$AAo?$AAS?$AAt?$AAr?$AAe?$AAa?$AAm?$AAS?$AAt?$AAr?$AAi?$AAn?$AAg?$AAW?$AA?$AA@ 100018f4     pm_mdd_lib:sqmproxy.obj
+ 0001:00000920       ??_C@_1CI@IKGGAPIK@?$AAS?$AAq?$AAm?$AAA?$AAd?$AAd?$AAT?$AAo?$AAS?$AAt?$AAr?$AAe?$AAa?$AAm?$AAD?$AAW?$AAO?$AAR?$AAD?$AA?$AA@ 10001920     pm_mdd_lib:sqmproxy.obj
+ 0001:00000948       ??_C@_1O@HBOEEIPD@?$AAS?$AAq?$AAm?$AAG?$AAe?$AAt?$AA?$AA@ 10001948     pm_mdd_lib:sqmproxy.obj
+ 0001:00000958       ??_C@_1BM@FBHNKBEC@?$AAS?$AAq?$AAm?$AAT?$AAi?$AAm?$AAe?$AAr?$AAS?$AAt?$AAa?$AAr?$AAt?$AA?$AA@ 10001958     pm_mdd_lib:sqmproxy.obj
+ 0001:00000974       ??_C@_1BO@OIHKNIOP@?$AAS?$AAq?$AAm?$AAT?$AAi?$AAm?$AAe?$AAr?$AAR?$AAe?$AAc?$AAo?$AAr?$AAd?$AA?$AA@ 10001974     pm_mdd_lib:sqmproxy.obj
+ 0001:00000994       ??_C@_1CG@JKLDADAE@?$AAS?$AAq?$AAm?$AAT?$AAi?$AAm?$AAe?$AAr?$AAA?$AAc?$AAc?$AAu?$AAm?$AAu?$AAl?$AAa?$AAt?$AAe?$AA?$AA@ 10001994     pm_mdd_lib:sqmproxy.obj
+ 0001:000009bc       ??_C@_1CK@HOGPDFFE@?$AAS?$AAq?$AAm?$AAT?$AAi?$AAm?$AAe?$AAr?$AAA?$AAd?$AAd?$AAT?$AAo?$AAA?$AAv?$AAe?$AAr?$AAa?$AAg?$AAe?$AA?$AA@ 100019bc     pm_mdd_lib:sqmproxy.obj
+ 0001:000009e8       ??_C@_1BC@FFDOEPLG@?$AAS?$AAq?$AAm?$AAS?$AAe?$AAt?$AA6?$AA4?$AA?$AA@ 100019e8     pm_mdd_lib:sqmproxy.obj
+ 0001:000009fc       ??_C@_1BG@GGKHFKPL@?$AAS?$AAq?$AAm?$AAS?$AAe?$AAt?$AAB?$AAo?$AAo?$AAl?$AA?$AA@ 100019fc     pm_mdd_lib:sqmproxy.obj
+ 0001:00000a14       ??_C@_1CA@ODCKKLM@?$AAS?$AAq?$AAm?$AAA?$AAd?$AAd?$AAT?$AAo?$AAS?$AAt?$AAr?$AAe?$AAa?$AAm?$AAV?$AA?$AA@ 10001a14     pm_mdd_lib:sqmproxy.obj
+ 0001:00000a34       ??_C@_1BC@FKCAJJDF@?$AAS?$AAq?$AAm?$AAG?$AAe?$AAt?$AA6?$AA4?$AA?$AA@ 10001a34     pm_mdd_lib:sqmproxy.obj
+ 0001:00000a48       ??_C@_1BO@EIEKGNPO@?$AAS?$AAq?$AAm?$AAS?$AAt?$AAa?$AAr?$AAt?$AAU?$AAp?$AAl?$AAo?$AAa?$AAd?$AA?$AA@ 10001a48     pm_mdd_lib:sqmproxy.obj
+ 0001:00000a68       ??_C@_1BO@CMOEIFGK@?$AAS?$AAq?$AAm?$AAA?$AAb?$AAo?$AAr?$AAt?$AAU?$AAp?$AAl?$AAo?$AAa?$AAd?$AA?$AA@ 10001a68     pm_mdd_lib:sqmproxy.obj
+ 0001:00000a88       ??_C@_1BO@BHMIMMAP@?$AAS?$AAq?$AAm?$AAS?$AAa?$AAv?$AAe?$AAS?$AAe?$AAs?$AAs?$AAi?$AAo?$AAn?$AA?$AA@ 10001a88     pm_mdd_lib:sqmproxy.obj
+ 0001:00000aa8       ??_C@_1BI@BFONAIIG@?$AAc?$AAu?$AAs?$AAt?$AAs?$AAa?$AAt?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10001aa8     pm_mdd_lib:sqmproxy.obj
+ 0001:00000ac0       ??_C@_1EC@EALEAAGD@?$AAP?$AAo?$AAw?$AAe?$AAr?$AA?9?$AAm?$AAa?$AAn?$AAa?$AAg?$AAe?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAd?$AAi?$AAs?$AAp?$AAl?$AAa?$AAy?$AA?5?$AAd?$AAr?$AAi?$AAv?$AAe?$AAr?$AAs@ 10001ac0     pm_default_pdd_lib:platform.obj
+ 0001:00000b08       ??_C@_1EO@BHDHHEGO@?$AA?$HL?$AAE?$AAB?$AA9?$AA1?$AAC?$AA7?$AAC?$AA9?$AA?9?$AA8?$AAB?$AAF?$AA6?$AA?9?$AA4?$AAa?$AA2?$AAd?$AA?9?$AA9?$AAA?$AAB?$AA8?$AA?9?$AA6?$AA9?$AA7?$AA2?$AA4?$AAE?$AAE@ 10001b08     pm_default_pdd_lib:platform.obj
+ 0001:00000b58       ??_C@_1DO@NPOIGDNK@?$AAP?$AAo?$AAw?$AAe?$AAr?$AA?9?$AAm?$AAa?$AAn?$AAa?$AAg?$AAe?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAb?$AAl?$AAo?$AAc?$AAk?$AA?5?$AAd?$AAe?$AAv?$AAi?$AAc?$AAe?$AAs?$AA?$AA@ 10001b58     pm_default_pdd_lib:platform.obj
+ 0001:00000b98       ??_C@_1EO@JGHMMDDC@?$AA?$HL?$AA8?$AAD?$AAD?$AA6?$AA7?$AA9?$AAC?$AAE?$AA?9?$AA8?$AAA?$AAB?$AA4?$AA?9?$AA4?$AA3?$AAc?$AA8?$AA?9?$AAA?$AA1?$AA4?$AAA?$AA?9?$AAE?$AAA?$AA4?$AA9?$AA6?$AA3?$AAF@ 10001b98     pm_default_pdd_lib:platform.obj
+ 0001:00000be8       ??_C@_1EC@GFDKAMGI@?$AAG?$AAe?$AAn?$AAe?$AAr?$AAi?$AAc?$AA?5?$AAp?$AAo?$AAw?$AAe?$AAr?$AA?9?$AAm?$AAa?$AAn?$AAa?$AAg?$AAe?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAd?$AAe?$AAv?$AAi?$AAc?$AAe?$AAs@ 10001be8     pm_default_pdd_lib:platform.obj
+ 0001:00000c30       ??_C@_1EO@PDJDFFAK@?$AA?$HL?$AAA?$AA3?$AA2?$AA9?$AA4?$AA2?$AAB?$AA7?$AA?9?$AA9?$AA2?$AA0?$AAC?$AA?9?$AA4?$AA8?$AA6?$AAb?$AA?9?$AAB?$AA0?$AAE?$AA6?$AA?9?$AA9?$AA2?$AAA?$AA7?$AA0?$AA2?$AAA@ 10001c30     pm_default_pdd_lib:platform.obj
+ 0001:00000c80       ??_C@_1BG@JELGADA@?$AAI?$AAn?$AAt?$AAe?$AAr?$AAf?$AAa?$AAc?$AAe?$AAs?$AA?$AA@ 10001c80     pm_default_pdd_lib:platform.obj
+ 0001:00000c98       ??_C@_1CE@EBNDLHBI@?$AAP?$AAa?$AAg?$AAe?$AAO?$AAu?$AAt?$AAA?$AAl?$AAl?$AAM?$AAo?$AAd?$AAu?$AAl?$AAe?$AAs?$AA?$AA@ 10001c98     pm_default_pdd_lib:platform.obj
+ 0001:00000cbc       ??_C@_1DE@MEOJPGLP@?$AAS?$AAu?$AAp?$AAp?$AAo?$AAr?$AAt?$AAP?$AAo?$AAw?$AAe?$AAr?$AAB?$AAu?$AAt?$AAt?$AAo?$AAn?$AAR?$AAe?$AAl?$AAe?$AAa?$AAs?$AAe?$AA?$AA@ 10001cbc     pm_default_pdd_lib:platform.obj
+ 0001:00000cf0       ??_C@_1JA@IEDFLFPB@?$AAW?$AAA?$AAR?$AAN?$AAI?$AAN?$AAG?$AA?3?$AA?5?$AA?5?$AAF?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AAt?$AAo?$AA?5?$AAp?$AAo?$AAw?$AAe?$AAr?$AA?5?$AAo?$AAf?$AAf?$AA?5?$AAc?$AAo@ 10001cf0     pm_default_pdd_lib:platform.obj
+ 0001:00000d80       ??_C@_1BM@LIEOBILH@?$AAG?$AAw?$AAe?$AAs?$AAP?$AAo?$AAw?$AAe?$AAr?$AAD?$AAo?$AAw?$AAn?$AA?$AA@ 10001d80     pm_default_pdd_lib:platform.obj
+ 0001:00000d9c       ??_C@_1BI@EOGAKPPB@?$AAG?$AAw?$AAe?$AAs?$AAP?$AAo?$AAw?$AAe?$AAr?$AAU?$AAp?$AA?$AA@ 10001d9c     pm_default_pdd_lib:platform.obj
+ 0001:00000db4       ??_C@_1CE@BKBEPGBE@?$AAS?$AAh?$AAo?$AAw?$AAS?$AAt?$AAa?$AAr?$AAt?$AAu?$AAp?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AA?$AA@ 10001db4     pm_default_pdd_lib:platform.obj
+ 0001:00000dd8       ??_C@_1BI@CJKPFBEK@?$AAc?$AAo?$AAr?$AAe?$AAd?$AAl?$AAl?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10001dd8     pm_default_pdd_lib:platform.obj
+ 0001:00000df0       ??_C@_1CG@MIEGLNJC@?$AAS?$AAu?$AAs?$AAp?$AAe?$AAn?$AAd?$AAP?$AAr?$AAi?$AAo?$AAr?$AAi?$AAt?$AAy?$AA2?$AA5?$AA6?$AA?$AA@ 10001df0     pm_default_pdd_lib:platform.obj
+ 0001:00000e18       ??_C@_1CM@FOKODBBI@?$AAP?$AAr?$AAe?$AAS?$AAu?$AAs?$AAp?$AAe?$AAn?$AAd?$AAP?$AAr?$AAi?$AAo?$AAr?$AAi?$AAt?$AAy?$AA2?$AA5?$AA6?$AA?$AA@ 10001e18     pm_default_pdd_lib:platform.obj
+ 0001:00000e44       ??_C@_1BG@BDHACCND@?$AAc?$AAo?$AAl?$AAd?$AAr?$AAe?$AAb?$AAo?$AAo?$AAt?$AA?$AA@ 10001e44     pm_default_pdd_lib:platform.obj
+ 0001:00000e60       ??_7PowerStateManager@@6B@ 10001e60     pm_default_pdd_lib:pwstates.obj
+ 0001:00000ebc       ??_C@_1BE@MEMPIFKD@?$AAA?$AAC?$AAS?$AAu?$AAs?$AAp?$AAe?$AAn?$AAd?$AA?$AA@ 10001ebc     pm_default_pdd_lib:pwstates.obj
+ 0001:00000ed0       ??_C@_1BK@LDFDNBMD@?$AAA?$AAC?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AAI?$AAd?$AAl?$AAe?$AA?$AA@ 10001ed0     pm_default_pdd_lib:pwstates.obj
+ 0001:00000eec       ??_C@_1BG@BDFEBKKE@?$AAA?$AAC?$AAU?$AAs?$AAe?$AAr?$AAI?$AAd?$AAl?$AAe?$AA?$AA@ 10001eec     pm_default_pdd_lib:pwstates.obj
+ 0001:00000f04       ??_C@_1BI@IBLOPCAN@?$AAB?$AAa?$AAt?$AAt?$AAS?$AAu?$AAs?$AAp?$AAe?$AAn?$AAd?$AA?$AA@ 10001f04     pm_default_pdd_lib:pwstates.obj
+ 0001:00000f1c       ??_C@_1BO@HOGFBFFA@?$AAB?$AAa?$AAt?$AAt?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AAI?$AAd?$AAl?$AAe?$AA?$AA@ 10001f1c     pm_default_pdd_lib:pwstates.obj
+ 0001:00000f3c       ??_C@_1BK@ONLBCKCN@?$AAB?$AAa?$AAt?$AAt?$AAU?$AAs?$AAe?$AAr?$AAI?$AAd?$AAl?$AAe?$AA?$AA@ 10001f3c     pm_default_pdd_lib:pwstates.obj
+ 0001:00000f58       ??_C@_1BC@EFOLCMFD@?$AAT?$AAi?$AAm?$AAe?$AAo?$AAu?$AAt?$AAs?$AA?$AA@ 10001f58     pm_default_pdd_lib:pwstates.obj
+ 0001:00000f6c       ??_7PowerStateOn@@6B@      10001f6c     pm_default_pdd_lib:pwstates.obj
+ 0001:00000fa4       ??_C@_15GMGGGDOD@?$AAo?$AAn?$AA?$AA@ 10001fa4     pm_default_pdd_lib:pwstates.obj
+ 0001:00000fac       ??_7PowerStateUserIdle@@6B@ 10001fac     pm_default_pdd_lib:pwstates.obj
+ 0001:00000fe4       ??_C@_1BC@IJEKHFDC@?$AAu?$AAs?$AAe?$AAr?$AAi?$AAd?$AAl?$AAe?$AA?$AA@ 10001fe4     pm_default_pdd_lib:pwstates.obj
+ 0001:00000ff8       ??_7PowerStateSystemIdle@@6B@ 10001ff8     pm_default_pdd_lib:pwstates.obj
+ 0001:00001030       ??_C@_1BG@COFBNNCL@?$AAs?$AAy?$AAs?$AAt?$AAe?$AAm?$AAi?$AAd?$AAl?$AAe?$AA?$AA@ 10002030     pm_default_pdd_lib:pwstates.obj
+ 0001:00001048       ??_7PowerStateSuspended@@6B@ 10002048     pm_default_pdd_lib:pwstates.obj
+ 0001:00001080       ??_7PowerStateResuming@@6B@ 10002080     pm_default_pdd_lib:pwstates.obj
+ 0001:000010b8       ??_C@_1BC@ECBFGKFC@?$AAr?$AAe?$AAs?$AAu?$AAm?$AAi?$AAn?$AAg?$AA?$AA@ 100020b8     pm_default_pdd_lib:pwstates.obj
+ 0001:000010cc       ??_7PowerStateColdReboot@@6B@ 100020cc     pm_default_pdd_lib:pwstates.obj
+ 0001:00001104       ??_7PowerStateReboot@@6B@  10002104     pm_default_pdd_lib:pwstates.obj
+ 0001:0000113c       ??_C@_1O@FEJCAGNG@?$AAr?$AAe?$AAb?$AAo?$AAo?$AAt?$AA?$AA@ 1000213c     pm_default_pdd_lib:pwstates.obj
+ 0001:0000114c       ??_7PowerState@@6B@        1000214c     pm_default_pdd_lib:pwsdef.obj
+ 0001:00001184       ??_C@_1BC@MACJFIKI@?$AAS?$AAt?$AAa?$AAt?$AAe?$AA?2?$AA?$CF?$AAs?$AA?$AA@ 10002184     pm_default_pdd_lib:pwsdef.obj
+ 0001:00001198       ??_7DefaultPowerStateManager@@6B@ 10002198     pm_default_pdd_lib:pwsdef.obj
+ 0001:000011d8       ??_C@_1EI@FPBANDCM@?$AAP?$AAo?$AAw?$AAe?$AAr?$AAM?$AAa?$AAn?$AAa?$AAg?$AAe?$AAr?$AA?1?$AAR?$AAe?$AAl?$AAo?$AAa?$AAd?$AAA?$AAc?$AAt?$AAi?$AAv?$AAi?$AAt?$AAy?$AAT?$AAi?$AAm?$AAe?$AAo@ 100021d8     pm_default_pdd_lib:pwsdef.obj
+ 0001:00001220       ??_C@_1BK@LBCAIPMI@?$AAU?$AAs?$AAe?$AAr?$AAA?$AAc?$AAt?$AAi?$AAv?$AAi?$AAt?$AAy?$AA?$AA@ 10002220     pm_default_pdd_lib:pwsdef.obj
+ 0001:0000123c       ??_C@_1BO@GDILEBKK@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AAA?$AAc?$AAt?$AAi?$AAv?$AAi?$AAt?$AAy?$AA?$AA@ 1000223c     pm_default_pdd_lib:pwsdef.obj
+ 0001:0000125c       ??_C@_1BE@JGEOLONK@?$AAC?$AAr?$AAe?$AAa?$AAt?$AAe?$AAD?$AAC?$AAW?$AA?$AA@ 1000225c     pm_mdd_lib:pmdisplay.obj
+ 0001:00001270       ??_C@_1BC@GMBPGMN@?$AAD?$AAe?$AAl?$AAe?$AAt?$AAe?$AAD?$AAC?$AA?$AA@ 10002270     pm_mdd_lib:pmdisplay.obj
+ 0001:00001284       ??_C@_1BE@IMLDAOJP@?$AAE?$AAx?$AAt?$AAE?$AAs?$AAc?$AAa?$AAp?$AAe?$AA?$AA@ 10002284     pm_mdd_lib:pmdisplay.obj
+ 0001:00001298       ??_C@_1DA@PCOFNLNE@?$AAG?$AAe?$AAt?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AAP?$AAo?$AAw?$AAe?$AAr?$AAS?$AAt?$AAa?$AAt?$AAu?$AAs?$AAE?$AAx?$AA2?$AA?$AA@ 10002298     pm_pdd_common_lib:pddpower.obj
+ 0001:000012c8       ??_C@_1CK@IDAAGKKO@?$AAB?$AAa?$AAt?$AAt?$AAe?$AAr?$AAy?$AAD?$AAr?$AAv?$AAr?$AAG?$AAe?$AAt?$AAL?$AAe?$AAv?$AAe?$AAl?$AAs?$AA?$AA@ 100022c8     pm_pdd_common_lib:pddpower.obj
+ 0001:000012f4       ??_C@_1DO@ILJGFADP@?$AAP?$AAo?$AAw?$AAe?$AAr?$AAM?$AAa?$AAn?$AAa?$AAg?$AAe?$AAr?$AA?1?$AAN?$AAo?$AAt?$AAi?$AAf?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AAQ?$AAu?$AAe?$AAu?$AAe?$AA?$AA@ 100022f4     pm_pdd_common_lib:pddpolicy.obj
+ 0001:00001354       ?MapDevicePowerState@@YA?AW4_CEDEVICE_POWER_STATE@@W41@E@Z 10002354 f   pm_mdd_lib:pmdevice.obj
+ 0001:000013a8       ?SetDevicePower@@YAKPAU_DeviceState_tag@@W4_CEDEVICE_POWER_STATE@@H@Z 100023a8 f   pm_mdd_lib:pmdevice.obj
+ 0001:000016c8       ?GetDevicePower@@YAKPAU_DeviceState_tag@@PAW4_CEDEVICE_POWER_STATE@@@Z 100026c8 f   pm_mdd_lib:pmdevice.obj
+ 0001:000017dc       ?GetNewDeviceDx@@YA?AW4_CEDEVICE_POWER_STATE@@W41@0000@Z 100027dc f   pm_mdd_lib:pmdevice.obj
+ 0001:00001828       ?GetNewDeviceStateInfo@@YAHPAW4_CEDEVICE_POWER_STATE@@0PAU_DeviceState_tag@@PAU_SystemPowerState_tag@@PAU_DevicePowerRestriction_tag@@3@Z 10002828 f   pm_mdd_lib:pmdevice.obj
+ 0001:000019f0       UpdateDeviceState          100029f0 f   pm_mdd_lib:pmdevice.obj
+ 0001:00001b0c       UpdateClassDeviceStates    10002b0c f   pm_mdd_lib:pmdevice.obj
+ 0001:00001b74       UpdateAllDeviceStates      10002b74 f   pm_mdd_lib:pmdevice.obj
+ 0001:00001ba0       CheckDevicePointer         10002ba0 f   pm_mdd_lib:pmdevice.obj
+ 0001:00001c20       AddDevice                  10002c20 f   pm_mdd_lib:pmdevice.obj
+ 0001:00001e48       RemoveDevice               10002e48 f   pm_mdd_lib:pmdevice.obj
+ 0001:00001efc       PmGetDevicePower           10002efc f   pm_mdd_lib:pmdevice.obj
+ 0001:00001ff0       PmSetDevicePower           10002ff0 f   pm_mdd_lib:pmdevice.obj
+ 0001:000020e0       PmDevicePowerNotify        100030e0 f   pm_mdd_lib:pmdevice.obj
+ 0001:00002178       ?ForceTerminated@CMiniThread@@QAAHXZ 10003178 f i pm_mdd_lib:pmsysstate.obj
+ 0001:000021c8       ?ThreadProc@CMiniThread@@CAKPAX@Z 100031c8 f i pm_mdd_lib:pmsysstate.obj
+ 0001:000021f0       ??0RegKeyOrValue@@QAA@PAUHKEY__@@PBGPAV0@@Z 100031f0 f i pm_mdd_lib:pmsysstate.obj
+ 0001:00002270       ?Init@RegKeyOrValue@@UAAHXZ 10003270 f i pm_mdd_lib:pmsysstate.obj
+ 0001:00002284       ??_GRegKeyOrValue@@UAAPAXI@Z 10003284 f i pm_mdd_lib:pmsysstate.obj
+ 0001:00002284       ??_ERegKeyOrValue@@UAAPAXI@Z 10003284 f i pm_mdd_lib:pmsysstate.obj
+ 0001:000022c0       ?UpdateRegValue@RegValue@@MAAHXZ 100032c0 f i pm_mdd_lib:pmsysstate.obj
+ 0001:00002374       ?RegFindValue@RegKey@@QAAJPBGPAXPAK2@Z 10003374 f i pm_mdd_lib:pmsysstate.obj
+ 0001:000023e0       ?RegEnum@RegKey@@QAAJPAVRegKeyOrValue@@KPAGPAK@Z 100033e0 f i pm_mdd_lib:pmsysstate.obj
+ 0001:0000247c       ?DeleteAll@RegKey@@IAAXXZ  1000347c f i pm_mdd_lib:pmsysstate.obj
+ 0001:000024f0       ?EnumerateAllKey@RegKey@@IAAHXZ 100034f0 f i pm_mdd_lib:pmsysstate.obj
+ 0001:00002618       ?RegReadClassDeviceRestrictions@@YAPAU_DevicePowerRestriction_tag@@PAVRegKey@@PBU_GUID@@PAU1@@Z 10003618 f   pm_mdd_lib:pmsysstate.obj
+ 0001:00002758       ?RegReadDeviceRestrictions@@YAPAU_DevicePowerRestriction_tag@@PAVRegKey@@@Z 10003758 f   pm_mdd_lib:pmsysstate.obj
+ 0001:0000284c       PmGetSystemPowerState      1000384c f   pm_mdd_lib:pmsysstate.obj
+ 0001:000028f0       PmSetSystemPowerState_I    100038f0 f   pm_mdd_lib:pmsysstate.obj
+ 0001:00002a34       PmSetSystemPowerState      10003a34 f   pm_mdd_lib:pmsysstate.obj
+ 0001:00002b3c       ??0CMiniThread@@QAA@KH@Z   10003b3c f i pm_mdd_lib:pmsysstate.obj
+ 0001:00002ba4       ??_GCMiniThread@@UAAPAXI@Z 10003ba4 f i pm_mdd_lib:pmsysstate.obj
+ 0001:00002ba4       ??_ECMiniThread@@UAAPAXI@Z 10003ba4 f i pm_mdd_lib:pmsysstate.obj
+ 0001:00002bd4       ??1RegValue@@UAA@XZ        10003bd4 f i pm_mdd_lib:pmsysstate.obj
+ 0001:00002c18       ?Init@RegValue@@UAAHXZ     10003c18 f i pm_mdd_lib:pmsysstate.obj
+ 0001:00002c34       ?GetRegValue@RegValue@@UAAHPAXPAK1@Z 10003c34 f i pm_mdd_lib:pmsysstate.obj
+ 0001:00002ca4       ??_GRegValue@@UAAPAXI@Z    10003ca4 f i pm_mdd_lib:pmsysstate.obj
+ 0001:00002ca4       ??_ERegValue@@UAAPAXI@Z    10003ca4 f i pm_mdd_lib:pmsysstate.obj
+ 0001:00002cc8       ??1RegKey@@UAA@XZ          10003cc8 f i pm_mdd_lib:pmsysstate.obj
+ 0001:00002d18       ?EnumerateAllValue@RegKey@@IAAHXZ 10003d18 f i pm_mdd_lib:pmsysstate.obj
+ 0001:00002e3c       ??_GRegKey@@UAAPAXI@Z      10003e3c f i pm_mdd_lib:pmsysstate.obj
+ 0001:00002e3c       ??_ERegKey@@UAAPAXI@Z      10003e3c f i pm_mdd_lib:pmsysstate.obj
+ 0001:00002e60       ??0SystemNotifyRegKey@@QAA@PAUHKEY__@@PBG@Z 10003e60 f i pm_mdd_lib:pmsysstate.obj
+ 0001:00002f3c       ?WaitThreadComplete@CMiniThread@@QAAHK@Z 10003f3c f i pm_mdd_lib:pmsysstate.obj
+ 0001:00002fa4       ??_ESystemNotifyRegKey@@WBM@AAPAXI@Z 10003fa4 f i pm_mdd_lib:pmsysstate.obj
+ 0001:00002fac       ??1SystemNotifyRegKey@@UAA@XZ 10003fac f i pm_mdd_lib:pmsysstate.obj
+ 0001:00003064       ??_GSystemNotifyRegKey@@UAAPAXI@Z 10004064 f i pm_mdd_lib:pmsysstate.obj
+ 0001:00003064       ??_ESystemNotifyRegKey@@UAAPAXI@Z 10004064 f i pm_mdd_lib:pmsysstate.obj
+ 0001:00003088       ?RefreshAll@RegKey@@QAAHH@Z 10004088 f i pm_mdd_lib:pmsysstate.obj
+ 0001:0000318c       ?UpdateAllValue@SystemNotifyRegKey@@QAAHXZ 1000418c f i pm_mdd_lib:pmsysstate.obj
+ 0001:000031e8       ?ThreadRun@SystemNotifyRegKey@@EAAKXZ 100041e8 f i pm_mdd_lib:pmsysstate.obj
+ 0001:00003258       PmUpdateSystemPowerStatesIfChanged 10004258 f   pm_mdd_lib:pmsysstate.obj
+ 0001:0000329c       ?Init@RegKey@@UAAHXZ       1000429c f i pm_mdd_lib:pmsysstate.obj
+ 0001:000032b0       ?Init@SystemNotifyRegKey@@UAAHXZ 100042b0 f i pm_mdd_lib:pmsysstate.obj
+ 0001:0000331c       RegReadSystemPowerState    1000431c f   pm_mdd_lib:pmsysstate.obj
+ 0001:00003638       ?DeviceListsInit@@YAHXZ    10004638 f   pm_mdd_lib:pminit.obj
+ 0001:000037e8       PmInit                     100047e8 f   pm_mdd_lib:pminit.obj
+ 0001:00003c8c       PmNotify                   10004c8c f   pm_mdd_lib:pminit.obj
+ 0001:00003cb0       DllEntry                   10004cb0 f   pm_mdd_lib:pminit.obj
+ 0001:00003d0c       ResumeThreadProc           10004d0c f   pm_mdd_lib:pmresume.obj
+ 0001:00003d9c       PmPowerHandler             10004d9c f   pm_mdd_lib:pmresume.obj
+ 0001:00003dd4       PmRegisterPowerRelationship 10004dd4 f   pm_mdd_lib:pmrelation.obj
+ 0001:00003f00       PmReleasePowerRelationship 10004f00 f   pm_mdd_lib:pmrelation.obj
+ 0001:00003f44       UpdateRequirementDevices   10004f44 f   pm_mdd_lib:pmrequire.obj
+ 0001:00003fe8       DeleteProcessRequirements  10004fe8 f   pm_mdd_lib:pmrequire.obj
+ 0001:00004088       PmReleasePowerRequirement  10005088 f   pm_mdd_lib:pmrequire.obj
+ 0001:0000411c       PmSetPowerRequirement      1000511c f   pm_mdd_lib:pmrequire.obj
+ 0001:00004230       SendNotification           10005230 f   pm_mdd_lib:pmnotify.obj
+ 0001:00004254       GenerateNotifications      10005254 f   pm_mdd_lib:pmnotify.obj
+ 0001:000042c8       DeleteProcessNotifications 100052c8 f   pm_mdd_lib:pmnotify.obj
+ 0001:00004320       PmRequestPowerNotifications 10005320 f   pm_mdd_lib:pmnotify.obj
+ 0001:000043a8       PmStopPowerNotifications   100053a8 f   pm_mdd_lib:pmnotify.obj
+ 0001:000043e4       ??0CRegistryEdit@@QAA@PAUHKEY__@@PBG@Z 100053e4 f i pm_mdd_lib:pmexthdl.obj
+ 0001:00004430       ?GetRegValue@CRegistryEdit@@QAAHPBGPAEK@Z 10005430 f i pm_mdd_lib:pmexthdl.obj
+ 0001:00004488       ?PMExt_Init@PMExtension@@QAAKPAUHKEY__@@PBG@Z 10005488 f i pm_mdd_lib:pmexthdl.obj
+ 0001:00004510       ?PMExt_DeInit@PMExtension@@QAAXXZ 10005510 f i pm_mdd_lib:pmexthdl.obj
+ 0001:00004570       ?PMExt_GetNotificationHandle@PMExtension@@QAAPAXXZ 10005570 f i pm_mdd_lib:pmexthdl.obj
+ 0001:000045dc       ?PMExt_EventNotification@PMExtension@@QAAXW4PLATFORM_ACTIVITY_EVENT@@@Z 100055dc f i pm_mdd_lib:pmexthdl.obj
+ 0001:00004628       ?PMExt_PMBeforeNewSystemState@PMExtension@@QAAXPBGK@Z 10005628 f i pm_mdd_lib:pmexthdl.obj
+ 0001:00004674       ?PMExt_PMAfterNewSystemState@PMExtension@@QAAXPBGK@Z 10005674 f i pm_mdd_lib:pmexthdl.obj
+ 0001:000046c0       ?PMExt_PMBeforeNewDeviceState@PMExtension@@QAAXPBGW4_CEDEVICE_POWER_STATE@@1@Z 100056c0 f i pm_mdd_lib:pmexthdl.obj
+ 0001:0000470c       ?PMExt_PMAfterNewDeviceState@PMExtension@@QAAXPBGW4_CEDEVICE_POWER_STATE@@1@Z 1000570c f i pm_mdd_lib:pmexthdl.obj
+ 0001:00004750       ?PMExt_GetNotificationHandle@PMExtensionMgr@@QAAHAAKQAPAX@Z 10005750 f   pm_mdd_lib:pmexthdl.obj
+ 0001:000047c0       ?PMExt_EventNotification@PMExtensionMgr@@QAAXW4PLATFORM_ACTIVITY_EVENT@@@Z 100057c0 f   pm_mdd_lib:pmexthdl.obj
+ 0001:00004834       ?PMExt_GetNotificationHandle@@YAHAAKQAPAX@Z 10005834 f   pm_mdd_lib:pmexthdl.obj
+ 0001:00004864       ?PMExt_EventNotification@@YAXW4PLATFORM_ACTIVITY_EVENT@@@Z 10005864 f   pm_mdd_lib:pmexthdl.obj
+ 0001:00004884       ?PMExt_PMBeforeNewSystemState@@YAXPBGK@Z 10005884 f   pm_mdd_lib:pmexthdl.obj
+ 0001:000048cc       ?PMExt_PMAfterNewSystemState@@YAXPBGK@Z 100058cc f   pm_mdd_lib:pmexthdl.obj
+ 0001:00004914       ?PMExt_PMBeforeNewDeviceState@@YAXPBGW4_CEDEVICE_POWER_STATE@@1@Z 10005914 f   pm_mdd_lib:pmexthdl.obj
+ 0001:00004964       ?PMExt_PMAfterNewDeviceState@@YAXPBGW4_CEDEVICE_POWER_STATE@@1@Z 10005964 f   pm_mdd_lib:pmexthdl.obj
+ 0001:000049bc       ??0PMExtension@@QAA@PAUHKEY__@@PBGPAV0@@Z 100059bc f   pm_mdd_lib:pmexthdl.obj
+ 0001:00004b8c       ??1PMExtension@@QAA@XZ     10005b8c f   pm_mdd_lib:pmexthdl.obj
+ 0001:00004bd0       ??1PMExtensionMgr@@QAA@XZ  10005bd0 f   pm_mdd_lib:pmexthdl.obj
+ 0001:00004c18       ??0PMExtensionMgr@@QAA@XZ  10005c18 f   pm_mdd_lib:pmexthdl.obj
+ 0001:00004d64       ?PMExt_Init@@YAHXZ         10005d64 f   pm_mdd_lib:pmexthdl.obj
+ 0001:00004db0       ?PMExt_DeInit@@YAHXZ       10005db0 f   pm_mdd_lib:pmexthdl.obj
+ 0001:00005138       PMSQM_Start                10006138 f   pm_mdd_lib:pmsqm.obj
+ 0001:00005200       PMSQM_Set                  10006200 f   pm_mdd_lib:pmsqm.obj
+ 0001:00005264       RegQueryTypedValue         10006264 f   pm_mdd_lib:pmutils.obj
+ 0001:000052a8       GetPMThreadPriority        100062a8 f   pm_mdd_lib:pmutils.obj
+ 0001:00005334       PmLock                     10006334 f   pm_mdd_lib:pmutils.obj
+ 0001:00005340       PmUnlock                   10006340 f   pm_mdd_lib:pmutils.obj
+ 0001:0000534c       PmEnterUpdate              1000634c f   pm_mdd_lib:pmutils.obj
+ 0001:00005358       PmLeaveUpdate              10006358 f   pm_mdd_lib:pmutils.obj
+ 0001:00005364       PmAlloc                    10006364 f   pm_mdd_lib:pmutils.obj
+ 0001:0000537c       PmFree                     1000637c f   pm_mdd_lib:pmutils.obj
+ 0001:0000560c       ConvertStringToGuid        1000660c f   pm_mdd_lib:pmutils.obj
+ 0001:00005664       DeviceIdSize               10006664 f   pm_mdd_lib:pmutils.obj
+ 0001:000056f0       DeviceIdCloneIntoBuffer    100066f0 f   pm_mdd_lib:pmutils.obj
+ 0001:000057c0       DeviceIdClone              100067c0 f   pm_mdd_lib:pmutils.obj
+ 0001:000059cc       DeviceIdParseNameString    100069cc f   pm_mdd_lib:pmutils.obj
+ 0001:00005b8c       DeviceIdDestroy            10006b8c f   pm_mdd_lib:pmutils.obj
+ 0001:00005bb0       ?DeviceIdsAreEqual@@YAHPAU_DeviceId_tag@@0@Z 10006bb0 f   pm_mdd_lib:pmutils.obj
+ 0001:00005c3c       DeviceStateCreate          10006c3c f   pm_mdd_lib:pmutils.obj
+ 0001:00005d5c       DeviceStateDestroy         10006d5c f   pm_mdd_lib:pmutils.obj
+ 0001:00005dac       DeviceStateAddRef          10006dac f   pm_mdd_lib:pmutils.obj
+ 0001:00005dd8       DeviceStateDecRef          10006dd8 f   pm_mdd_lib:pmutils.obj
+ 0001:00005e18       DeviceStateAddList         10006e18 f   pm_mdd_lib:pmutils.obj
+ 0001:00005e88       DeviceStateRemList         10006e88 f   pm_mdd_lib:pmutils.obj
+ 0001:00005f18       DeviceStateFindList        10006f18 f   pm_mdd_lib:pmutils.obj
+ 0001:00005fac       PowerRestrictionCreate     10006fac f   pm_mdd_lib:pmutils.obj
+ 0001:00006170       PowerRestrictionDestroy    10007170 f   pm_mdd_lib:pmutils.obj
+ 0001:00006198       PowerRestrictionAddList    10007198 f   pm_mdd_lib:pmutils.obj
+ 0001:000061e0       PowerRestrictionRemList    100071e0 f   pm_mdd_lib:pmutils.obj
+ 0001:00006264       PowerRestrictionFindList   10007264 f   pm_mdd_lib:pmutils.obj
+ 0001:00006324       PowerRestrictionCheckList  10007324 f   pm_mdd_lib:pmutils.obj
+ 0001:00006374       PowerNotificationCreate    10007374 f   pm_mdd_lib:pmutils.obj
+ 0001:00006420       PowerNotificationDestroy   10007420 f   pm_mdd_lib:pmutils.obj
+ 0001:0000645c       PowerNotificationAddList   1000745c f   pm_mdd_lib:pmutils.obj
+ 0001:000064a4       PowerNotificationRemList   100074a4 f   pm_mdd_lib:pmutils.obj
+ 0001:0000655c       DeviceListCreate           1000755c f   pm_mdd_lib:pmutils.obj
+ 0001:0000664c       DeviceListDestroy          1000764c f   pm_mdd_lib:pmutils.obj
+ 0001:00006688       GetDeviceListFromClass     10007688 f   pm_mdd_lib:pmutils.obj
+ 0001:00006708       SystemPowerStateCreate     10007708 f   pm_mdd_lib:pmutils.obj
+ 0001:00006814       SystemPowerStateDestroy    10007814 f   pm_mdd_lib:pmutils.obj
+ 0001:0000683c       ActivityTimerDestroy       1000783c f   pm_mdd_lib:pmutils.obj
+ 0001:000068a8       ActivityTimerFindByName    100078a8 f   pm_mdd_lib:pmutils.obj
+ 0001:0000690c       ActivityTimerFindByWakeSource 1000790c f   pm_mdd_lib:pmutils.obj
+ 0001:0000699c       ActivityTimerCreate        1000799c f   pm_mdd_lib:pmutils.obj
+ 0001:00006c4c       SystemThreadProc           10007c4c f   pm_mdd_lib:pmsystem.obj
+ 0001:00006c9c       ?ActivityTimerInitList@@YAKXZ 10007c9c f   pm_mdd_lib:pmtimer.obj
+ 0001:00007044       ?GetNextInactivityTimeout@@YAKK@Z 10008044 f   pm_mdd_lib:pmtimer.obj
+ 0001:000070c0       ActivityTimersThreadProc   100080c0 f   pm_mdd_lib:pmtimer.obj
+ 0001:00007454       ?ProcessPnPMsgQueue@@YAHPAX@Z 10008454 f   pm_mdd_lib:pmpnp.obj
+ 0001:00007558       PnpThreadProc              10008558 f   pm_mdd_lib:pmpnp.obj
+ 0001:0000769c       ?SLockAcquire@@YAHXZ       1000869c f   pm_mdd_lib:sqmproxy.obj
+ 0001:00007708       ?Client_Attach@@YAHXZ      10008708 f   pm_mdd_lib:sqmproxy.obj
+ 0001:00007ba4       SqmGetManagedSession       10008ba4 f   pm_mdd_lib:sqmproxy.obj
+ 0001:00007c18       SqmStartSession            10008c18 f   pm_mdd_lib:sqmproxy.obj
+ 0001:00007c68       SqmSetMachineId            10008c68 f   pm_mdd_lib:sqmproxy.obj
+ 0001:00007cc0       SqmSetUserId               10008cc0 f   pm_mdd_lib:sqmproxy.obj
+ 0001:00007d18       SqmCreateNewId             10008d18 f   pm_mdd_lib:sqmproxy.obj
+ 0001:00007d8c       SqmReadSharedMachineId     10008d8c f   pm_mdd_lib:sqmproxy.obj
+ 0001:00007e00       SqmReadSharedUserId        10008e00 f   pm_mdd_lib:sqmproxy.obj
+ 0001:00007e74       SqmWriteSharedMachineId    10008e74 f   pm_mdd_lib:sqmproxy.obj
+ 0001:00007ee8       SqmWriteSharedUserId       10008ee8 f   pm_mdd_lib:sqmproxy.obj
+ 0001:00007f5c       SqmSet                     10008f5c f   pm_mdd_lib:sqmproxy.obj
+ 0001:00007fbc       SqmIncrement               10008fbc f   pm_mdd_lib:sqmproxy.obj
+ 0001:0000801c       SqmAddToStream             1000901c f   pm_mdd_lib:sqmproxy.obj
+ 0001:00008080       PlatformSendInitialNotifications 10009080 f   pm_pdd_common_lib:pddnotify.obj
+ 0001:00008140       GetLastError               10009140 f   coredll:COREDLL.dll
+ 0001:00008150       CeGetRawTime               10009150 f   coredll:COREDLL.dll
+ 0001:00008160       InitializeCriticalSection  10009160 f   coredll:COREDLL.dll
+ 0001:00008170       DeleteCriticalSection      10009170 f   coredll:COREDLL.dll
+ 0001:00008180       EnterCriticalSection       10009180 f   coredll:COREDLL.dll
+ 0001:00008190       LeaveCriticalSection       10009190 f   coredll:COREDLL.dll
+ 0001:000081a0       CloseHandle                100091a0 f   coredll:COREDLL.dll
+ 0001:000081b0       TerminateThread            100091b0 f   coredll:COREDLL.dll
+ 0001:000081c0       ExitThread                 100091c0 f   coredll:COREDLL.dll
+ 0001:000081d0       StringCchCopyW             100091d0 f   coredll:COREDLL.dll
+ 0001:000081e0       RegQueryValueExW           100091e0 f   coredll:COREDLL.dll
+ 0001:000081f0       StringCbCopyW              100091f0 f   coredll:COREDLL.dll
+ 0001:00008200       RegEnumKeyExW              10009200 f   coredll:COREDLL.dll
+ 0001:00008210       InterlockedDecrement       10009210 f   coredll:COREDLL.dll
+ 0001:00008220       InterlockedIncrement       10009220 f   coredll:COREDLL.dll
+ 0001:00008230       CreateThread               10009230 f   coredll:COREDLL.dll
+ 0001:00008240       RegCloseKey                10009240 f   coredll:COREDLL.dll
+ 0001:00008250       RegEnumValueW              10009250 f   coredll:COREDLL.dll
+ 0001:00008260       CeFindFirstRegChange       10009260 f   coredll:COREDLL.dll
+ 0001:00008270       RegOpenKeyExW              10009270 f   coredll:COREDLL.dll
+ 0001:00008280       CreateEventW               10009280 f   coredll:COREDLL.dll
+ 0001:00008290       EventModify                10009290 f   coredll:COREDLL.dll
+ 0001:000082a0       ResumeThread               100092a0 f   coredll:COREDLL.dll
+ 0001:000082b0       WaitForSingleObject        100092b0 f   coredll:COREDLL.dll
+ 0001:000082c0       CeFindCloseRegChange       100092c0 f   coredll:COREDLL.dll
+ 0001:000082d0       CeFindNextRegChange        100092d0 f   coredll:COREDLL.dll
+ 0001:000082e0       WaitForMultipleObjects     100092e0 f   coredll:COREDLL.dll
+ 0001:000082f0       StringCbPrintfW            100092f0 f   coredll:COREDLL.dll
+ 0001:00008300       OpenEventW                 10009300 f   coredll:COREDLL.dll
+ 0001:00008310       StringCchPrintfW           10009310 f   coredll:COREDLL.dll
+ 0001:00008320       GetProcessHeap             10009320 f   coredll:COREDLL.dll
+ 0001:00008330       DisableThreadLibraryCalls  10009330 f   coredll:COREDLL.dll
+ 0001:00008340       CeSetThreadPriority        10009340 f   coredll:COREDLL.dll
+ 0001:00008350       CeSetPowerOnEvent          10009350 f   coredll:COREDLL.dll
+ 0001:00008360       SetLastError               10009360 f   coredll:COREDLL.dll
+ 0001:00008370       GetCallerVMProcessId       10009370 f   coredll:COREDLL.dll
+ 0001:00008380       WriteMsgQueue              10009380 f   coredll:COREDLL.dll
+ 0001:00008390       GetProcAddressW            10009390 f   coredll:COREDLL.dll
+ 0001:000083a0       LoadDriver                 100093a0 f   coredll:COREDLL.dll
+ 0001:000083b0       LoadLibraryW               100093b0 f   coredll:COREDLL.dll
+ 0001:000083c0       FreeLibrary                100093c0 f   coredll:COREDLL.dll
+ 0001:000083d0       __GetUserKData             100093d0 f   coredll:COREDLL.dll
+ 0001:000083e0       Sleep                      100093e0 f   coredll:COREDLL.dll
+ 0001:000083f0       HeapAlloc                  100093f0 f   coredll:COREDLL.dll
+ 0001:00008400       HeapFree                   10009400 f   coredll:COREDLL.dll
+ 0001:00008410       OpenMsgQueue               10009410 f   coredll:COREDLL.dll
+ 0001:00008420       CloseMsgQueue              10009420 f   coredll:COREDLL.dll
+ 0001:00008430       CreateMsgQueue             10009430 f   coredll:COREDLL.dll
+ 0001:00008440       RegQueryInfoKeyW           10009440 f   coredll:COREDLL.dll
+ 0001:00008450       GetTickCount               10009450 f   coredll:COREDLL.dll
+ 0001:00008460       ReadMsgQueue               10009460 f   coredll:COREDLL.dll
+ 0001:00008470       StopDeviceNotifications    10009470 f   coredll:COREDLL.dll
+ 0001:00008480       RequestDeviceNotifications 10009480 f   coredll:COREDLL.dll
+ 0001:00008490       InterlockedCompareExchange 10009490 f   coredll:COREDLL.dll
+ 0001:000084a0       _DllEntryCRTStartup        100094a0 f   corelib0:pegdentry.obj
+ 0001:000084e4       __GSHandlerCheckCommon     100094e4 f   corelib0:gshandler.obj
+ 0001:00008520       __GSHandlerCheck           10009520 f   corelib0:gshandler.obj
+ 0001:00008540       __security_init_cookie     10009540 f   corelib0:seccinit.obj
+ 0001:0000858c       __security_check_cookie    1000958c f   corelib0:armsecgs.obj
+ 0001:0000859c       __gsfailure                1000959c     corelib0:armsecgs.obj
+ 0001:000085e0       __GSHandlerCheck_SEH       100095e0 f   corelib0:gshandlerseh.obj
+ 0001:00008714       _cexit                     10009714 f   corelib0:cexit.obj
+ 0001:00008724       _initterm                  10009724 f   corelib0:crt0dat.obj
+ 0001:00008750       _cinit                     10009750 f   corelib0:crt0dat.obj
+ 0001:000087b0       __crt_ExitProcess          100097b0 f   corelib0:exitproc_proxy.obj
+ 0001:000087bc       memcmp                     100097bc f   corelib1:COREDLL.dll
+ 0001:000087cc       __C_specific_handler       100097cc f   corelib1:COREDLL.dll
+ 0001:000087dc       memcpy                     100097dc f   corelib1:COREDLL.dll
+ 0001:000087ec       ??2@YAPAXI@Z               100097ec f   corelib1:COREDLL.dll
+ 0001:000087fc       wcslen                     100097fc f   corelib1:COREDLL.dll
+ 0001:0000880c       ??3@YAXPAX@Z               1000980c f   corelib1:COREDLL.dll
+ 0001:0000881c       _wcsicmp                   1000981c f   corelib1:COREDLL.dll
+ 0001:0000882c       towlower                   1000982c f   corelib1:COREDLL.dll
+ 0001:0000883c       _purecall                  1000983c f   corelib1:COREDLL.dll
+ 0001:0000884c       wcscmp                     1000984c f   corelib1:COREDLL.dll
+ 0001:0000885c       memset                     1000985c f   corelib1:COREDLL.dll
+ 0001:0000886c       free                       1000986c f   corelib1:COREDLL.dll
+ 0001:0000887c       malloc                     1000987c f   corelib1:COREDLL.dll
+ 0001:0000888c       wcstol                     1000988c f   corelib1:COREDLL.dll
+ 0001:0000889c       __security_gen_cookie2     1000989c f   corelib1:COREDLL.dll
+ 0001:000088ac       __report_gsfailure         100098ac f   corelib1:COREDLL.dll
+ 0001:000088bc       PlatformValidatePMRegistry 100098bc f   pm_default_pdd_lib:platform.obj
+ 0001:00008ad4       PlatformDeviceListInit     10009ad4 f   pm_default_pdd_lib:platform.obj
+ 0001:00008b24       PlatformMapPowerStateHint  10009b24 f   pm_default_pdd_lib:platform.obj
+ 0001:00008c0c       ?RegReadStateTimeout@@YAKPAUHKEY__@@PBGK@Z 10009c0c f   pm_default_pdd_lib:platform.obj
+ 0001:00008c74       PlatformManageSystemPower  10009c74 f   pm_default_pdd_lib:platform.obj
+ 0001:00008de0       PlatformResumeSystem       10009de0 f   pm_default_pdd_lib:platform.obj
+ 0001:00008e08       PlatformSendSystemPowerState 10009e08 f   pm_default_pdd_lib:platform.obj
+ 0001:00008e4c       PlatformSetSystemPowerState 10009e4c f   pm_default_pdd_lib:platform.obj
+ 0001:00009308       ?GetAPISignalHandle@DefaultPowerStateManager@@UAAPAXXZ 1000a308 f i pm_default_pdd_lib:pwstates.obj
+ 0001:00009310       ??1PowerStateManager@@UAA@XZ 1000a310 f   pm_default_pdd_lib:pwstates.obj
+ 0001:00009368       ?Init@PowerStateManager@@UAAHXZ 1000a368 f   pm_default_pdd_lib:pwstates.obj
+ 0001:000093d0       ?ResetUserIdleTimeout@PowerStateManager@@UAAXH@Z 1000a3d0 f   pm_default_pdd_lib:pwstates.obj
+ 0001:00009444       ?ResetSystemIdleTimeTimeout@PowerStateManager@@UAAXH@Z 1000a444 f   pm_default_pdd_lib:pwstates.obj
+ 0001:00009484       ?SubtractTimeout@PowerStateManager@@UAAXK@Z 1000a484 f   pm_default_pdd_lib:pwstates.obj
+ 0001:000094e4       ?RequestedSystemPowerState@PowerStateManager@@UAA?AW4PLATFORM_ACTIVITY_STATE@@XZ 1000a4e4 f   pm_default_pdd_lib:pwstates.obj
+ 0001:00009580       ?RequestComplete@PowerStateManager@@UAAXK@Z 1000a580 f   pm_default_pdd_lib:pwstates.obj
+ 0001:00009594       ?GetFirstPowerState@PowerStateManager@@EAAPAVPowerState@@XZ 1000a594 f   pm_default_pdd_lib:pwstates.obj
+ 0001:00009644       ?ThreadRun@PowerStateManager@@UAAKXZ 1000a644 f   pm_default_pdd_lib:pwstates.obj
+ 0001:000098b4       ?ReAdjustTimeOuts@PowerStateManager@@UAAXXZ 1000a8b4 f   pm_default_pdd_lib:pwstates.obj
+ 0001:00009964       ?GetSmallestTimeout@PowerStateManager@@UAAKPAW4TIMEOUT_ITEM@@@Z 1000a964 f   pm_default_pdd_lib:pwstates.obj
+ 0001:000099b0       ?ReInitTimeOuts@PowerStateManager@@UAAXXZ 1000a9b0 f   pm_default_pdd_lib:pwstates.obj
+ 0001:00009a20       ?PlatformResumeSystem@PowerStateManager@@UAAXH@Z 1000aa20 f   pm_default_pdd_lib:pwstates.obj
+ 0001:00009b4c       ?PlatformLoadTimeouts@PowerStateManager@@MAAXXZ 1000ab4c f   pm_default_pdd_lib:pwstates.obj
+ 0001:00009ca0       ?UnwantedEventHandle@PowerState@@UAA?AW4PLATFORM_ACTIVITY_EVENT@@K@Z 1000aca0 f i pm_default_pdd_lib:pwstates.obj
+ 0001:00009ca8       ?GetStateInitialFlags@PowerState@@UAAKXZ 1000aca8 f i pm_default_pdd_lib:pwstates.obj
+ 0001:00009cb0       ?GetLastNewState@PowerState@@UAAKXZ 1000acb0 f i pm_default_pdd_lib:pwstates.obj
+ 0001:00009cb8       ?SetSystemAPIState@PowerState@@UAAKK@Z 1000acb8 f i pm_default_pdd_lib:pwstates.obj
+ 0001:00009cc8       ?EnterState@PowerStateOn@@UAAXXZ 1000acc8 f i pm_default_pdd_lib:pwstates.obj
+ 0001:00009ce8       ?WaitForEvent@PowerStateOn@@UAA?AW4PLATFORM_ACTIVITY_EVENT@@KKPAPAX@Z 1000ace8 f i pm_default_pdd_lib:pwstates.obj
+ 0001:00009d54       ?GetState@PowerStateOn@@UAAKXZ 1000ad54 f i pm_default_pdd_lib:pwstates.obj
+ 0001:00009d5c       ?GetStateString@PowerStateOn@@UAAPBGXZ 1000ad5c f i pm_default_pdd_lib:pwstates.obj
+ 0001:00009d68       ?StateValidateRegistry@PowerStateOn@@UAAKKK@Z 1000ad68 f i pm_default_pdd_lib:pwstates.obj
+ 0001:00009d78       ?AppsCanRequestState@PowerStateOn@@UAAHXZ 1000ad78 f i pm_default_pdd_lib:pwstates.obj
+ 0001:00009d80       ?EnterState@PowerStateUserIdle@@UAAXXZ 1000ad80 f i pm_default_pdd_lib:pwstates.obj
+ 0001:00009da0       ?WaitForEvent@PowerStateUserIdle@@UAA?AW4PLATFORM_ACTIVITY_EVENT@@KKPAPAX@Z 1000ada0 f i pm_default_pdd_lib:pwstates.obj
+ 0001:00009e24       ?GetState@PowerStateUserIdle@@UAAKXZ 1000ae24 f i pm_default_pdd_lib:pwstates.obj
+ 0001:00009e2c       ?GetStateString@PowerStateUserIdle@@UAAPBGXZ 1000ae2c f i pm_default_pdd_lib:pwstates.obj
+ 0001:00009e38       ?StateValidateRegistry@PowerStateUserIdle@@UAAKKK@Z 1000ae38 f i pm_default_pdd_lib:pwstates.obj
+ 0001:00009e44       ?AppsCanRequestState@PowerStateUserIdle@@UAAHXZ 1000ae44 f i pm_default_pdd_lib:pwstates.obj
+ 0001:00009e4c       ?AppsCanRequestState@PowerState@@UAAHXZ 1000ae4c f i pm_default_pdd_lib:pwstates.obj
+ 0001:00009e54       ?EnterState@PowerStateSystemIdle@@UAAXXZ 1000ae54 f i pm_default_pdd_lib:pwstates.obj
+ 0001:00009e74       ?WaitForEvent@PowerStateSystemIdle@@UAA?AW4PLATFORM_ACTIVITY_EVENT@@KKPAPAX@Z 1000ae74 f i pm_default_pdd_lib:pwstates.obj
+ 0001:00009ef8       ?GetState@PowerStateSystemIdle@@UAAKXZ 1000aef8 f i pm_default_pdd_lib:pwstates.obj
+ 0001:00009f00       ?GetStateString@PowerStateSystemIdle@@UAAPBGXZ 1000af00 f i pm_default_pdd_lib:pwstates.obj
+ 0001:00009f0c       ?StateValidateRegistry@PowerStateSystemIdle@@UAAKKK@Z 1000af0c f i pm_default_pdd_lib:pwstates.obj
+ 0001:00009f18       ?EnterState@PowerStateSuspended@@UAAXXZ 1000af18 f i pm_default_pdd_lib:pwstates.obj
+ 0001:00009f48       ?WaitForEvent@PowerStateSuspended@@UAA?AW4PLATFORM_ACTIVITY_EVENT@@KKPAPAX@Z 1000af48 f i pm_default_pdd_lib:pwstates.obj
+ 0001:00009f50       ?GetState@PowerStateSuspended@@UAAKXZ 1000af50 f i pm_default_pdd_lib:pwstates.obj
+ 0001:00009f58       ?GetStateString@PowerStateSuspended@@UAAPBGXZ 1000af58 f i pm_default_pdd_lib:pwstates.obj
+ 0001:00009f64       ?StateValidateRegistry@PowerStateSuspended@@UAAKKK@Z 1000af64 f i pm_default_pdd_lib:pwstates.obj
+ 0001:00009f70       ?AppsCanRequestState@PowerStateSuspended@@UAAHXZ 1000af70 f i pm_default_pdd_lib:pwstates.obj
+ 0001:00009f78       ?EnterState@PowerStateResuming@@UAAXXZ 1000af78 f i pm_default_pdd_lib:pwstates.obj
+ 0001:00009fcc       ?WaitForEvent@PowerStateResuming@@UAA?AW4PLATFORM_ACTIVITY_EVENT@@KKPAPAX@Z 1000afcc f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a00c       ?GetState@PowerStateResuming@@UAAKXZ 1000b00c f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a014       ?GetStateString@PowerStateResuming@@UAAPBGXZ 1000b014 f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a020       ?StateValidateRegistry@PowerStateResuming@@UAAKKK@Z 1000b020 f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a02c       ?EnterState@PowerStateColdReboot@@UAAXXZ 1000b02c f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a050       ?WaitForEvent@PowerStateColdReboot@@UAA?AW4PLATFORM_ACTIVITY_EVENT@@KKPAPAX@Z 1000b050 f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a058       ?GetState@PowerStateColdReboot@@UAAKXZ 1000b058 f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a060       ?GetLastNewState@PowerStateColdReboot@@UAAKXZ 1000b060 f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a068       ?GetStateString@PowerStateColdReboot@@UAAPBGXZ 1000b068 f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a074       ?StateValidateRegistry@PowerStateColdReboot@@UAAKKK@Z 1000b074 f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a080       ?AppsCanRequestState@PowerStateColdReboot@@UAAHXZ 1000b080 f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a088       ?EnterState@PowerStateReboot@@UAAXXZ 1000b088 f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a0ac       ?WaitForEvent@PowerStateReboot@@UAA?AW4PLATFORM_ACTIVITY_EVENT@@KKPAPAX@Z 1000b0ac f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a0b4       ?GetState@PowerStateReboot@@UAAKXZ 1000b0b4 f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a0bc       ?GetLastNewState@PowerStateReboot@@UAAKXZ 1000b0bc f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a0c4       ?GetStateString@PowerStateReboot@@UAAPBGXZ 1000b0c4 f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a0d0       ?StateValidateRegistry@PowerStateReboot@@UAAKKK@Z 1000b0d0 f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a0dc       ?AppsCanRequestState@PowerStateReboot@@UAAHXZ 1000b0dc f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a0e4       ?CreatePowerStateList@PowerStateManager@@MAAHXZ 1000b0e4 f   pm_default_pdd_lib:pwstates.obj
+ 0001:0000a2ac       ?CreateDefaultPowerManager@@YAPAVDefaultPowerStateManager@@PAX@Z 1000b2ac f   pm_default_pdd_lib:pwstates.obj
+ 0001:0000a2f8       ??_GPowerStateManager@@UAAPAXI@Z 1000b2f8 f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a2f8       ??_EPowerStateManager@@UAAPAXI@Z 1000b2f8 f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a31c       ??_GPowerStateOn@@UAAPAXI@Z 1000b31c f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a31c       ??_EPowerStateOn@@UAAPAXI@Z 1000b31c f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a340       ??_GPowerStateUserIdle@@UAAPAXI@Z 1000b340 f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a340       ??_EPowerStateUserIdle@@UAAPAXI@Z 1000b340 f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a364       ??_EPowerStateSystemIdle@@UAAPAXI@Z 1000b364 f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a364       ??_GPowerStateSystemIdle@@UAAPAXI@Z 1000b364 f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a388       ??_EPowerStateSuspended@@UAAPAXI@Z 1000b388 f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a388       ??_GPowerStateSuspended@@UAAPAXI@Z 1000b388 f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a3ac       ??_GPowerStateResuming@@UAAPAXI@Z 1000b3ac f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a3ac       ??_EPowerStateResuming@@UAAPAXI@Z 1000b3ac f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a3d0       ??_EPowerStateColdReboot@@UAAPAXI@Z 1000b3d0 f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a3d0       ??_GPowerStateColdReboot@@UAAPAXI@Z 1000b3d0 f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a3f4       ??_GPowerStateReboot@@UAAPAXI@Z 1000b3f4 f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a3f4       ??_EPowerStateReboot@@UAAPAXI@Z 1000b3f4 f i pm_default_pdd_lib:pwstates.obj
+ 0001:0000a418       ??0PowerState@@QAA@PAVDefaultPowerStateManager@@PAV0@@Z 1000b418 f   pm_default_pdd_lib:pwsdef.obj
+ 0001:0000a4a0       ??1PowerState@@UAA@XZ      1000b4a0 f   pm_default_pdd_lib:pwsdef.obj
+ 0001:0000a4c4       ?Init@PowerState@@UAAHXZ   1000b4c4 f   pm_default_pdd_lib:pwsdef.obj
+ 0001:0000a55c       ?MsgQueueEvent@PowerState@@MAA?AW4PLATFORM_ACTIVITY_EVENT@@XZ 1000b55c f   pm_default_pdd_lib:pwsdef.obj
+ 0001:0000a5e4       ?EnterState@PowerState@@UAAXXZ 1000b5e4 f   pm_default_pdd_lib:pwsdef.obj
+ 0001:0000a71c       ?WaitForEvent@PowerState@@UAA?AW4PLATFORM_ACTIVITY_EVENT@@KKPAPAX@Z 1000b71c f   pm_default_pdd_lib:pwsdef.obj
+ 0001:0000a8e0       ?DefaultEventHandle@PowerState@@UAAKW4PLATFORM_ACTIVITY_EVENT@@@Z 1000b8e0 f   pm_default_pdd_lib:pwsdef.obj
+ 0001:0000a908       ?StateValidateRegistry@PowerState@@UAAKKK@Z 1000b908 f   pm_default_pdd_lib:pwsdef.obj
+ 0001:0000aaac       ??0DefaultPowerStateManager@@QAA@PAX@Z 1000baac f   pm_default_pdd_lib:pwsdef.obj
+ 0001:0000abc4       ??1DefaultPowerStateManager@@UAA@XZ 1000bbc4 f   pm_default_pdd_lib:pwsdef.obj
+ 0001:0000ac54       ?Init@DefaultPowerStateManager@@UAAHXZ 1000bc54 f   pm_default_pdd_lib:pwsdef.obj
+ 0001:0000acf4       ?GetEventHandle@DefaultPowerStateManager@@UAAPAXK@Z 1000bcf4 f   pm_default_pdd_lib:pwsdef.obj
+ 0001:0000ad68       ?DisablePhase2Event@DefaultPowerStateManager@@UAAXXZ 1000bd68 f   pm_default_pdd_lib:pwsdef.obj
+ 0001:0000ad90       ?PlatformResumeSystem@DefaultPowerStateManager@@UAAXH@Z 1000bd90 f   pm_default_pdd_lib:pwsdef.obj
+ 0001:0000ada8       ?PlatformMapPowerStateHint@DefaultPowerStateManager@@UAAKKPAGK@Z 1000bda8 f   pm_default_pdd_lib:pwsdef.obj
+ 0001:0000aee0       ?GetFirstPowerState@DefaultPowerStateManager@@MAAPAVPowerState@@XZ 1000bee0 f   pm_default_pdd_lib:pwsdef.obj
+ 0001:0000af44       ?SendSystemPowerState@DefaultPowerStateManager@@UAAKPBGKK@Z 1000bf44 f   pm_default_pdd_lib:pwsdef.obj
+ 0001:0000b05c       ?SystemStateToActivityState@DefaultPowerStateManager@@UAAKPBG@Z 1000c05c f   pm_default_pdd_lib:pwsdef.obj
+ 0001:0000b0b8       ?ActivityStateToSystemState@DefaultPowerStateManager@@UAAPBGK@Z 1000c0b8 f   pm_default_pdd_lib:pwsdef.obj
+ 0001:0000b108       ?GetStateObject@DefaultPowerStateManager@@QAAPAVPowerState@@K@Z 1000c108 f   pm_default_pdd_lib:pwsdef.obj
+ 0001:0000b148       ??_EPowerState@@UAAPAXI@Z  1000c148 f i pm_default_pdd_lib:pwsdef.obj
+ 0001:0000b148       ??_GPowerState@@UAAPAXI@Z  1000c148 f i pm_default_pdd_lib:pwsdef.obj
+ 0001:0000b184       ??_EDefaultPowerStateManager@@UAAPAXI@Z 1000c184 f i pm_default_pdd_lib:pwsdef.obj
+ 0001:0000b184       ??_GDefaultPowerStateManager@@UAAPAXI@Z 1000c184 f i pm_default_pdd_lib:pwsdef.obj
+ 0001:0000b1a8       ?SetSystemState@DefaultPowerStateManager@@MAAPAVPowerState@@PAV2@@Z 1000c1a8 f   pm_default_pdd_lib:pwsdef.obj
+ 0001:0000b568       PmInitPowerStatus          1000c568 f   pm_pdd_common_lib:pddpower.obj
+ 0001:0000b5e4       PmUpdatePowerStatus        1000c5e4 f   pm_pdd_common_lib:pddpower.obj
+ 0001:0000b7d8       PmPolicyCreateNotificationQueue 1000c7d8 f   pm_pdd_common_lib:pddpolicy.obj
+ 0001:0000b830       PmPolicyCloseNotificationQueue 1000c830 f   pm_pdd_common_lib:pddpolicy.obj
+ 0001:0000b834       PmPolicyReadNotificationQueue 1000c834 f   pm_pdd_common_lib:pddpolicy.obj
+ 0001:0000b88c       InterlockedExchange        1000c88c f   coredll:COREDLL.dll
+ 0001:0000b89c       TerminateProcess           1000c89c f   coredll:COREDLL.dll
+ 0001:0000b8ac       RegSetValueExW             1000c8ac f   coredll:COREDLL.dll
+ 0001:0000b8bc       RegCreateKeyExW            1000c8bc f   coredll:COREDLL.dll
+ 0001:0000b8cc       NKDbgPrintfW               1000c8cc f   coredll:COREDLL.dll
+ 0001:0000b8dc       CeGetProcessorState        1000c8dc f   coredll:COREDLL.dll
+ 0001:0000b8ec       CePowerOffProcessor        1000c8ec f   coredll:COREDLL.dll
+ 0001:0000b8fc       CeSetThreadAffinity        1000c8fc f   coredll:COREDLL.dll
+ 0001:0000b90c       CeGetThreadAffinity        1000c90c f   coredll:COREDLL.dll
+ 0001:0000b91c       CePowerOnProcessor         1000c91c f   coredll:COREDLL.dll
+ 0001:0000b92c       PowerOffSystem             1000c92c f   coredll:COREDLL.dll
+ 0001:0000b93c       KernelLibIoControl         1000c93c f   coredll:COREDLL.dll
+ 0001:0000b94c       FileSystemPowerFunction    1000c94c f   coredll:COREDLL.dll
+ 0001:0000b95c       SetCleanRebootFlag         1000c95c f   coredll:COREDLL.dll
+ 0001:0000b96c       ForcePageout               1000c96c f   coredll:COREDLL.dll
+ 0001:0000b97c       CeGetThreadPriority        1000c97c f   coredll:COREDLL.dll
+ 0001:0000b98c       KernelIoControl            1000c98c f   coredll:COREDLL.dll
+ 0001:0000b99c       WaitForAPIReady            1000c99c f   coredll:COREDLL.dll
+ 0001:0000b9ac       CaptureDumpFileOnDevice    1000c9ac f   coredll:COREDLL.dll
+ 0001:0000b9bc       CreateFileW                1000c9bc f   coredll:COREDLL.dll
+ 0001:0000b9cc       DeviceIoControl            1000c9cc f   coredll:COREDLL.dll
+ 0001:0000bd80       __IMPORT_DESCRIPTOR_COREDLL 1000cd80     coredll:COREDLL.dll
+ 0001:0000bd94       __NULL_IMPORT_DESCRIPTOR   1000cd94     coredll:COREDLL.dll
+ 0002:00000000       __imp_GetLastError         1000e000     coredll:COREDLL.dll
+ 0002:00000004       __imp_CeGetRawTime         1000e004     coredll:COREDLL.dll
+ 0002:00000008       __imp_InitializeCriticalSection 1000e008     coredll:COREDLL.dll
+ 0002:0000000c       __imp_DeleteCriticalSection 1000e00c     coredll:COREDLL.dll
+ 0002:00000010       __imp_EnterCriticalSection 1000e010     coredll:COREDLL.dll
+ 0002:00000014       __imp_LeaveCriticalSection 1000e014     coredll:COREDLL.dll
+ 0002:00000018       __imp_CloseHandle          1000e018     coredll:COREDLL.dll
+ 0002:0000001c       __imp_TerminateThread      1000e01c     coredll:COREDLL.dll
+ 0002:00000020       __imp_ExitThread           1000e020     coredll:COREDLL.dll
+ 0002:00000024       __imp_StringCchCopyW       1000e024     coredll:COREDLL.dll
+ 0002:00000028       __imp_RegQueryValueExW     1000e028     coredll:COREDLL.dll
+ 0002:0000002c       __imp_StringCbCopyW        1000e02c     coredll:COREDLL.dll
+ 0002:00000030       __imp_RegEnumKeyExW        1000e030     coredll:COREDLL.dll
+ 0002:00000034       __imp_InterlockedDecrement 1000e034     coredll:COREDLL.dll
+ 0002:00000038       __imp_InterlockedIncrement 1000e038     coredll:COREDLL.dll
+ 0002:0000003c       __imp_CreateThread         1000e03c     coredll:COREDLL.dll
+ 0002:00000040       __imp_RegCloseKey          1000e040     coredll:COREDLL.dll
+ 0002:00000044       __imp_RegEnumValueW        1000e044     coredll:COREDLL.dll
+ 0002:00000048       __imp_CeFindFirstRegChange 1000e048     coredll:COREDLL.dll
+ 0002:0000004c       __imp_RegOpenKeyExW        1000e04c     coredll:COREDLL.dll
+ 0002:00000050       __imp_CreateEventW         1000e050     coredll:COREDLL.dll
+ 0002:00000054       __imp_EventModify          1000e054     coredll:COREDLL.dll
+ 0002:00000058       __imp_ResumeThread         1000e058     coredll:COREDLL.dll
+ 0002:0000005c       __imp_WaitForSingleObject  1000e05c     coredll:COREDLL.dll
+ 0002:00000060       __imp_CeFindCloseRegChange 1000e060     coredll:COREDLL.dll
+ 0002:00000064       __imp_CeFindNextRegChange  1000e064     coredll:COREDLL.dll
+ 0002:00000068       __imp_WaitForMultipleObjects 1000e068     coredll:COREDLL.dll
+ 0002:0000006c       __imp_StringCbPrintfW      1000e06c     coredll:COREDLL.dll
+ 0002:00000070       __imp_OpenEventW           1000e070     coredll:COREDLL.dll
+ 0002:00000074       __imp_StringCchPrintfW     1000e074     coredll:COREDLL.dll
+ 0002:00000078       __imp_GetProcessHeap       1000e078     coredll:COREDLL.dll
+ 0002:0000007c       __imp_DisableThreadLibraryCalls 1000e07c     coredll:COREDLL.dll
+ 0002:00000080       __imp_CeSetThreadPriority  1000e080     coredll:COREDLL.dll
+ 0002:00000084       __imp_CeSetPowerOnEvent    1000e084     coredll:COREDLL.dll
+ 0002:00000088       __imp_SetLastError         1000e088     coredll:COREDLL.dll
+ 0002:0000008c       __imp_GetCallerVMProcessId 1000e08c     coredll:COREDLL.dll
+ 0002:00000090       __imp_WriteMsgQueue        1000e090     coredll:COREDLL.dll
+ 0002:00000094       __imp_GetProcAddressW      1000e094     coredll:COREDLL.dll
+ 0002:00000098       __imp_LoadDriver           1000e098     coredll:COREDLL.dll
+ 0002:0000009c       __imp_LoadLibraryW         1000e09c     coredll:COREDLL.dll
+ 0002:000000a0       __imp_FreeLibrary          1000e0a0     coredll:COREDLL.dll
+ 0002:000000a4       __imp___GetUserKData       1000e0a4     coredll:COREDLL.dll
+ 0002:000000a8       __imp_Sleep                1000e0a8     coredll:COREDLL.dll
+ 0002:000000ac       __imp_HeapAlloc            1000e0ac     coredll:COREDLL.dll
+ 0002:000000b0       __imp_HeapFree             1000e0b0     coredll:COREDLL.dll
+ 0002:000000b4       __imp_OpenMsgQueue         1000e0b4     coredll:COREDLL.dll
+ 0002:000000b8       __imp_CloseMsgQueue        1000e0b8     coredll:COREDLL.dll
+ 0002:000000bc       __imp_CreateMsgQueue       1000e0bc     coredll:COREDLL.dll
+ 0002:000000c0       __imp_RegQueryInfoKeyW     1000e0c0     coredll:COREDLL.dll
+ 0002:000000c4       __imp_GetTickCount         1000e0c4     coredll:COREDLL.dll
+ 0002:000000c8       __imp_ReadMsgQueue         1000e0c8     coredll:COREDLL.dll
+ 0002:000000cc       __imp_StopDeviceNotifications 1000e0cc     coredll:COREDLL.dll
+ 0002:000000d0       __imp_RequestDeviceNotifications 1000e0d0     coredll:COREDLL.dll
+ 0002:000000d4       __imp_InterlockedCompareExchange 1000e0d4     coredll:COREDLL.dll
+ 0002:000000d8       __imp_memcmp               1000e0d8     corelib1:COREDLL.dll
+ 0002:000000dc       __imp___C_specific_handler 1000e0dc     corelib1:COREDLL.dll
+ 0002:000000e0       __imp_memcpy               1000e0e0     corelib1:COREDLL.dll
+ 0002:000000e4       __imp_??2@YAPAXI@Z         1000e0e4     corelib1:COREDLL.dll
+ 0002:000000e8       __imp_wcslen               1000e0e8     corelib1:COREDLL.dll
+ 0002:000000ec       __imp_??3@YAXPAX@Z         1000e0ec     corelib1:COREDLL.dll
+ 0002:000000f0       __imp__wcsicmp             1000e0f0     corelib1:COREDLL.dll
+ 0002:000000f4       __imp_towlower             1000e0f4     corelib1:COREDLL.dll
+ 0002:000000f8       __imp__purecall            1000e0f8     corelib1:COREDLL.dll
+ 0002:000000fc       __imp_wcscmp               1000e0fc     corelib1:COREDLL.dll
+ 0002:00000100       __imp_memset               1000e100     corelib1:COREDLL.dll
+ 0002:00000104       __imp_free                 1000e104     corelib1:COREDLL.dll
+ 0002:00000108       __imp_malloc               1000e108     corelib1:COREDLL.dll
+ 0002:0000010c       __imp_wcstol               1000e10c     corelib1:COREDLL.dll
+ 0002:00000110       __imp___security_gen_cookie2 1000e110     corelib1:COREDLL.dll
+ 0002:00000114       __imp___report_gsfailure   1000e114     corelib1:COREDLL.dll
+ 0002:00000118       __imp_InterlockedExchange  1000e118     coredll:COREDLL.dll
+ 0002:0000011c       __imp_TerminateProcess     1000e11c     coredll:COREDLL.dll
+ 0002:00000120       __imp_RegSetValueExW       1000e120     coredll:COREDLL.dll
+ 0002:00000124       __imp_RegCreateKeyExW      1000e124     coredll:COREDLL.dll
+ 0002:00000128       __imp_NKDbgPrintfW         1000e128     coredll:COREDLL.dll
+ 0002:0000012c       __imp_CeGetProcessorState  1000e12c     coredll:COREDLL.dll
+ 0002:00000130       __imp_CePowerOffProcessor  1000e130     coredll:COREDLL.dll
+ 0002:00000134       __imp_CeSetThreadAffinity  1000e134     coredll:COREDLL.dll
+ 0002:00000138       __imp_CeGetThreadAffinity  1000e138     coredll:COREDLL.dll
+ 0002:0000013c       __imp_CePowerOnProcessor   1000e13c     coredll:COREDLL.dll
+ 0002:00000140       __imp_PowerOffSystem       1000e140     coredll:COREDLL.dll
+ 0002:00000144       __imp_KernelLibIoControl   1000e144     coredll:COREDLL.dll
+ 0002:00000148       __imp_FileSystemPowerFunction 1000e148     coredll:COREDLL.dll
+ 0002:0000014c       __imp_SetCleanRebootFlag   1000e14c     coredll:COREDLL.dll
+ 0002:00000150       __imp_ForcePageout         1000e150     coredll:COREDLL.dll
+ 0002:00000154       __imp_CeGetThreadPriority  1000e154     coredll:COREDLL.dll
+ 0002:00000158       __imp_KernelIoControl      1000e158     coredll:COREDLL.dll
+ 0002:0000015c       __imp_WaitForAPIReady      1000e15c     coredll:COREDLL.dll
+ 0002:00000160       __imp_CaptureDumpFileOnDevice 1000e160     coredll:COREDLL.dll
+ 0002:00000164       __imp_CreateFileW          1000e164     coredll:COREDLL.dll
+ 0002:00000168       __imp_DeviceIoControl      1000e168     coredll:COREDLL.dll
+ 0002:0000016c       \177COREDLL_NULL_THUNK_DATA 1000e16c     coredll:COREDLL.dll
+ 0002:00000170       idGenericPMDeviceClass     1000e170     pm_mdd_lib:pminit.obj
+ 0002:00000180       idPMDisplayDeviceClass     1000e180     pm_mdd_lib:pminit.obj
+ 0002:00000190       dpCurSettings              1000e190     pm_mdd_lib:pminit.obj
+ 0002:000005d4       __security_cookie          1000e5d4     corelib0:seccinit.obj
+ 0002:000005d8       __security_cookie_complement 1000e5d8     corelib0:seccinit.obj
+ 0002:000005dc       ?gfFileSystemsAvailable@@3HA 1000e5dc     pm_default_pdd_lib:platform.obj
+ 0002:000005e0       ?idBlockDevices@@3U_GUID@@A 1000e5e0     pm_default_pdd_lib:platform.obj
+ 0002:000005f0       gStreamInterface           1000e5f0     pm_mdd_lib:pmstream.obj
+ 0002:00000600       gDisplayInterface          1000e600     pm_mdd_lib:pmdisplay.obj
+ 0002:00000628       ghevTimerResume            1000e628     pm_mdd_lib:pminit.obj
+ 0002:0000062c       ghevPmShutdown             1000e62c     pm_mdd_lib:pminit.obj
+ 0002:00000630       ghInst                     1000e630     pm_mdd_lib:pminit.obj
+ 0002:00000634       gppActivityTimers          1000e634     pm_mdd_lib:pminit.obj
+ 0002:00000638       ghtPnP                     1000e638     pm_mdd_lib:pminit.obj
+ 0002:0000063c       ghtSystem                  1000e63c     pm_mdd_lib:pminit.obj
+ 0002:00000640       gpPowerNotifications       1000e640     pm_mdd_lib:pminit.obj
+ 0002:00000644       gpFloorDx                  1000e644     pm_mdd_lib:pminit.obj
+ 0002:00000648       ghevPowerManagerReady      1000e648     pm_mdd_lib:pminit.obj
+ 0002:0000064c       ghPmHeap                   1000e64c     pm_mdd_lib:pminit.obj
+ 0002:00000650       gpCeilingDx                1000e650     pm_mdd_lib:pminit.obj
+ 0002:00000654       gcsPowerManager            1000e654     pm_mdd_lib:pminit.obj
+ 0002:00000668       ghevResume                 1000e668     pm_mdd_lib:pminit.obj
+ 0002:0000066c       gpDeviceLists              1000e66c     pm_mdd_lib:pminit.obj
+ 0002:00000670       gcsDeviceUpdateAPIs        1000e670     pm_mdd_lib:pminit.obj
+ 0002:00000684       ghtActivityTimers          1000e684     pm_mdd_lib:pminit.obj
+ 0002:00000688       gpSystemPowerState         1000e688     pm_mdd_lib:pminit.obj
+ 0002:0000068c       ghtResume                  1000e68c     pm_mdd_lib:pminit.obj
+ 0002:00000690       ?g_pSysRegistryAccess@@3PAVSystemNotifyRegKey@@A 1000e690     pm_mdd_lib:pminit.obj
+ 0002:00000694       ?g_pPMExtMgr@@3PAVPMExtensionMgr@@A 1000e694     pm_mdd_lib:pmexthdl.obj
+ 0002:000007a4       ?g_pcsLock@@3PAUCRITICAL_SECTION@@A 1000e7a4     pm_mdd_lib:sqmproxy.obj
+ 0002:000007a8       _exitflag                  1000e7a8     corelib0:cexit.obj
+ 0002:000007ac       ?gfGwesReady@@3HA          1000e7ac     pm_default_pdd_lib:platform.obj
+ 0002:000007b0       gSystemPowerStatus         1000e7b0     pm_default_pdd_lib:platform.obj
+ 0002:000007cc       ?giPreSuspendPriority@@3HA 1000e7cc     pm_default_pdd_lib:platform.obj
+ 0002:000007d0       ?giSuspendPriority@@3HA    1000e7d0     pm_default_pdd_lib:platform.obj
+ 0002:000007d4       ?gpfnGwesPowerDown@@3P6AHXZA 1000e7d4     pm_default_pdd_lib:platform.obj
+ 0002:000007d8       ?gpfnGwesPowerUp@@3P6AXH@ZA 1000e7d8     pm_default_pdd_lib:platform.obj
+ 0002:000007dc       ?gpfnShowStartupWindow@@3P6AHXZA 1000e7dc     pm_default_pdd_lib:platform.obj
+ 0002:000007e0       ?gfSystemSuspended@@3HA    1000e7e0     pm_default_pdd_lib:platform.obj
+ 0002:000007e4       ?gfPasswordOn@@3HA         1000e7e4     pm_default_pdd_lib:platform.obj
+ 0002:000007e8       ?gfSupportPowerButtonRelease@@3HA 1000e7e8     pm_default_pdd_lib:platform.obj
+ 0002:000007ec       ?gfPageOutAllModules@@3HA  1000e7ec     pm_default_pdd_lib:platform.obj
+ 0002:000007f0       ?g_pPowerStateManager@@3PAVDefaultPowerStateManager@@A 1000e7f0     pm_default_pdd_lib:platform.obj
+ 0002:0000083c       __onexitend                1000e83c     <common>
+ 0002:00000840       __onexitbegin              1000e840     <common>
+ 0002:00000844       g_pcsExit                  1000e844     <common>
+
+ entry point at        0001:000084a0
+
+ Static symbols
+
+ 0001:00004df0       ?sThreadedSQMAttemptStart@@YAHXZ 10005df0 f   pm_mdd_lib:pmsqm.obj
+ 0001:00004f54       ?sSQMThread@@YAKPAX@Z      10005f54 f   pm_mdd_lib:pmsqm.obj
+ 0001:00005394       ?HexStringToDword@@YAHAAPBGAAKHG@Z 10006394 f   pm_mdd_lib:pmutils.obj
+ 0001:00005458       ?wUUIDFromString@@YAHPBGPAU_GUID@@@Z 10006458 f   pm_mdd_lib:pmutils.obj
+ 0001:0000583c       ?GetClassFromName@@YAHPBGPAU_GUID@@@Z 1000683c f   pm_mdd_lib:pmutils.obj
+ 0001:0000862c       doexit                     1000962c f   corelib0:cexit.obj
+ 0001:00008b60       ?shutDownMultiCore@@YAXXZ  10009b60 f   pm_default_pdd_lib:platform.obj
+ 0001:0000b244       ?InitStreamDeviceInterface@@YAHXZ 1000c244 f   pm_mdd_lib:pmstream.obj
+ 0001:0000b24c       ?OpenStreamDevice@@YAPAXPAU_DeviceState_tag@@@Z 1000c24c f   pm_mdd_lib:pmstream.obj
+ 0001:0000b290       ?CloseStreamDevice@@YAHPAX@Z 1000c290 f   pm_mdd_lib:pmstream.obj
+ 0001:0000b29c       ?RequestStreamDevice@@YAHPAXK0K0KPAK@Z 1000c29c f   pm_mdd_lib:pmstream.obj
+ 0001:0000b304       ?InitDisplayDeviceInterface@@YAHXZ 1000c304 f   pm_mdd_lib:pmdisplay.obj
+ 0001:0000b3c4       ?OpenDisplayDevice@@YAPAXPAU_DeviceState_tag@@@Z 1000c3c4 f   pm_mdd_lib:pmdisplay.obj
+ 0001:0000b4b8       ?CloseDisplayDevice@@YAHPAX@Z 1000c4b8 f   pm_mdd_lib:pmdisplay.obj
+ 0001:0000b4d8       ?RequestDisplayDevice@@YAHPAXK0K0KPAK@Z 1000c4d8 f   pm_mdd_lib:pmdisplay.obj

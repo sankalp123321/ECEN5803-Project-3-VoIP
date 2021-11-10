@@ -1,0 +1,326 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;
+; Copyright (c) Microsoft Corporation.  All rights reserved.
+;
+;
+; Use of this source code is subject to the terms of the Microsoft shared
+; source or premium shared source license agreement under which you licensed
+; this source code. If you did not accept the terms of the license agreement,
+; you are not authorized to use this source code. For the terms of the license,
+; please see the license agreement between you and Microsoft or, if applicable,
+; see the SOURCE.RTF on your install media or the root of your tools installation.
+; THE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES.
+;
+
+
+
+
+
+LIBRARY FPCRT
+
+EXPORTS
+
+ControlFPCRT @1060 NONAME PRIVATE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+__addd = vfp___addd @960 NONAME PRIVATE
+__adds = vfp___adds @961 NONAME PRIVATE
+__divd = vfp___divd @962 NONAME PRIVATE
+__divs = vfp___divs @963 NONAME PRIVATE
+__dtoi = vfp___dtoi @964 NONAME PRIVATE
+__dtoi64 @965 NONAME PRIVATE
+__dtos = vfp___dtos @966 NONAME PRIVATE
+__dtou = vfp___dtou @967 NONAME PRIVATE
+__dtou64 @968 NONAME PRIVATE
+__eqd = vfp___eqd @969 NONAME PRIVATE
+__eqs = vfp___eqs @970 NONAME PRIVATE
+__ged = vfp___ged @971 NONAME PRIVATE
+__ges = vfp___ges @972 NONAME PRIVATE
+__gtd = vfp___gtd @973 NONAME PRIVATE
+__gts = vfp___gts @974 NONAME PRIVATE
+__i64tod @975 NONAME PRIVATE
+__i64tos @976 NONAME PRIVATE
+__itod = vfp___itod @977 NONAME PRIVATE
+__itos = vfp___itos @978 NONAME PRIVATE
+__led = vfp___led @979 NONAME PRIVATE
+__les = vfp___les @980 NONAME PRIVATE
+__ltd = vfp___ltd @981 NONAME PRIVATE
+__lts = vfp___lts @982 NONAME PRIVATE
+__muld = vfp___muld @983 NONAME PRIVATE
+__muls = vfp___muls @984 NONAME PRIVATE
+__ned = vfp___ned @985 NONAME PRIVATE
+__negd = vfp___negd @986 NONAME PRIVATE
+__negs = vfp___negs @987 NONAME PRIVATE
+__nes = vfp___nes @988 NONAME PRIVATE
+__stod = vfp___stod @989 NONAME PRIVATE
+__stoi = vfp___stoi @990 NONAME PRIVATE
+__stoi64 @991 NONAME PRIVATE
+__stou = vfp___stou @992 NONAME PRIVATE
+__stou64 @993 NONAME PRIVATE
+__subd = vfp___subd @994 NONAME PRIVATE
+__subs = vfp___subs @995 NONAME PRIVATE
+__u64tod @996 NONAME PRIVATE
+__u64tos @997 NONAME PRIVATE
+__utod = vfp___utod @998 NONAME PRIVATE
+__utos = vfp___utos @999 NONAME PRIVATE
+
+
+
+_cabs @1000 NONAME PRIVATE
+_chgsign @1001 NONAME PRIVATE
+_clearfp @1002 NONAME PRIVATE
+_controlfp @1003 NONAME PRIVATE
+_controlfp_s @1004 NONAME PRIVATE
+_copysign @1005 NONAME PRIVATE
+_finite @1006 NONAME PRIVATE
+_fpclass @1007 NONAME PRIVATE
+_fpieee_flt @1008 NONAME PRIVATE
+_fpreset @1009 NONAME PRIVATE
+_frnd @1010 NONAME PRIVATE
+_fsqrt @1011 NONAME PRIVATE
+_hypot @1012 NONAME PRIVATE
+_isnan @1013 NONAME PRIVATE
+_isnanf @1014 NONAME PRIVATE
+_isunordered @1015 NONAME PRIVATE
+_isunorderedf @1016 NONAME PRIVATE
+_j0 @1017 NONAME PRIVATE
+_j1 @1018 NONAME PRIVATE
+_jn @1019 NONAME PRIVATE
+_logb @1020 NONAME PRIVATE
+_nextafter @1021 NONAME PRIVATE
+_scalb @1022 NONAME PRIVATE
+_statusfp @1023 NONAME PRIVATE
+_y0 @1024 NONAME PRIVATE
+_y1 @1025 NONAME PRIVATE
+_yn @1026 NONAME PRIVATE
+acos = vfp_acos @1027 NONAME PRIVATE
+asin = vfp_asin @1028 NONAME PRIVATE
+atan = vfp_atan @1029 NONAME PRIVATE
+atan2 = vfp_atan2 @1030 NONAME PRIVATE
+ceil = vfp_ceil @1031 NONAME PRIVATE
+ceilf = vfp_ceilf @1032 NONAME PRIVATE
+cos = vfp_cos @1033 NONAME PRIVATE
+cosh = vfp_cosh @1034 NONAME PRIVATE
+exp = vfp_exp @1035 NONAME PRIVATE
+fabs = vfp_fabs @1036 NONAME PRIVATE
+fabsf = vfp_fabsf @1037 NONAME PRIVATE
+floor = vfp_floor @1038 NONAME PRIVATE
+floorf = vfp_floorf @1039 NONAME PRIVATE
+fmod = vfp_fmod @1040 NONAME PRIVATE
+fmodf = vfp_fmodf @1041 NONAME PRIVATE
+frexp = vfp_frexp @1042 NONAME PRIVATE
+ldexp = vfp_ldexp @1043 NONAME PRIVATE
+log = vfp_log @1044 NONAME PRIVATE
+log10 = vfp_log10 @1045 NONAME PRIVATE
+modf = vfp_modf @1046 NONAME PRIVATE
+pow = vfp_pow @1047 NONAME PRIVATE
+sin = vfp_sin @1048 NONAME PRIVATE
+sinh = vfp_sinh @1049 NONAME PRIVATE
+sqrt = vfp_sqrt @1050 NONAME PRIVATE
+sqrtf = vfp_sqrtf @1051 NONAME PRIVATE
+tan = vfp_tan @1052 NONAME PRIVATE
+tanh = vfp_tanh @1053 NONAME PRIVATE
+
+
+
+
+

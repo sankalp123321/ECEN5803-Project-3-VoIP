@@ -1,0 +1,20 @@
+LIBRARY         k.ole32
+EXPORTS
+
+        CoInitializeEx
+        CoUninitialize
+        CoCreateInstance
+        CoGetClassObject
+        CoFreeUnusedLibraries
+        CoFreeUnusedLibrariesEx
+        CoSetState
+        CoTaskMemAlloc
+        CoTaskMemRealloc
+        CoTaskMemFree
+        CoTaskMemSize
+        StringFromCLSID
+        CLSIDFromString
+        ProgIDFromCLSID
+        CLSIDFromProgID
+        StringFromGUID2
+        StringFromIID = StringFromCLSID
