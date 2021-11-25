@@ -23,6 +23,8 @@ struct WAV
 
 typedef struct WAV wavformat_t;
 
-void decodeFormat(wavformat_t *fmt, FILE *fp);
+void decodeFormat(wavformat_t *fmt, FILE *fp, uint8_t header[]);
+void formNewWavHeader(uint8_t header[]);
+void decodeG711ToPCM(FILE* old_fp);
 
 #endif
