@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>{{ title }}</title>
+    </head>
+    <link rel="stylesheet" href= "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity= "sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <body>
+        {% if username == "Rosalia": %}
+        <h1>Hello User</h1>
+
+        <form action="/text2morse">
+            <label for="text2morse">Enter Text</label> 
+            <input type="text" id="text2morse" size="200" name="text2morse" ><br><br>
+            
+            <input type="submit" value="Convert">
+          </form>
+
+          <label for="morseoutput">Morse Code </label> 
+          <input type="textbox" id="morseoutput" name="morseoutput" size="200" value={{ morse_string }} ><br><br>
+
+          <form action="/morse2text">
+            <label for="morse2text">Enter Morse Code</label> 
+            <input type="text" id="morse2text" size="200" name="morse2text" ><br><br>
+            
+            <input type="submit" value="Convert">
+          </form>
+
+          <label for="morseoutput">Text </label> 
+          <input type="text" id="textoutput" name="textoutput" size="200" value={{ text_string }} ><br><br>
+
+
+          <form action="/username" method="POST">
+            <label for="username">Enter Username</label> 
+            <input type="text" id="username"  name="username" ><br><br>
+            <input type="submit" value="See Messages">
+          </form>  
+
+          <h2>Messaging App</h2>
+          <table>
+            <tr>
+              <th>user</th>
+              <th>Recieved</th>
+              <th>Send</th>
+              <th>Action</th>
+            </tr>
+            {% for user_name in user_names %}
+            
+            <tr id=user_name>
+              <td class="row-data"><label for="user_id"></label>{{ user_name }} </label> </td>
+              <td class="row-data"><input type="text" id="recieved"  name="recieved" ></td>
+              <td class="row-data"><input type="text" id="tobesent"  name="tobesent" ></td>
+              <td class="row-data"><input type="button" value="Send" onclick="show()"> </td>
+            </tr>
+
+            {% endfor %}
+          </table>
+	{% else %}
+        <h1>Hello {{ username }}</h1>
+	{% endif %}
+
+
+  <script>
+    function show() {
+        var rowId = event.target.parentNode.parentNode.id;
+        //this gives id of tr whose button was clicked
+        var data = document.getElementById(rowId).querySelectorAll(".row-data"); 
+        /*returns array of all elements with 
+        "row-data" class within the row with given id*/
+
+        var name = data[0].innerHTML;
+        var age = data[1].innerHTML;
+        var c = data[2].innerHTML;
+        alert("Name: " + name + "\nAge: " + age + "\nc: " + c) ;
+    }
+  </script>
+
+    </body>
+</html>
