@@ -7,9 +7,9 @@
         {% if username == "Rosalia": %}
         <h1>Hello User</h1>
 
-        <form action="/text2morse">
+        <form action="/text2morse" method="POST">
             <label for="text2morse">Enter Text</label> 
-            <input type="text" id="text2morse" size="200" name="text2morse" ><br><br>
+            <input type="text" id="text2morse" size="200" name="text2morse" value={{ user_str }} ><br><br>
             
             <input type="submit" value="Convert">
           </form>
@@ -17,9 +17,9 @@
           <label for="morseoutput">Morse Code </label> 
           <input type="textbox" id="morseoutput" name="morseoutput" size="200" value={{ morse_string }} ><br><br>
 
-          <form action="/morse2text">
+          <form action="/morse2text" method="POST">
             <label for="morse2text">Enter Morse Code</label> 
-            <input type="text" id="morse2text" size="200" name="morse2text" ><br><br>
+            <input type="text" id="morse2text" size="200" name="morse2text" value={{ mrs_str }} ><br><br>
             
             <input type="submit" value="Convert">
           </form>

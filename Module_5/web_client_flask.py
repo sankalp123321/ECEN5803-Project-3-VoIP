@@ -31,31 +31,37 @@ def hello_world():
 
 @app.route('/text2morse',methods=['GET', 'POST'])
 def text2morse():
-    text_msg = request.args["text2morse"]
-    text_msg = text_msg.upper()   
-    result = ""
-    for ch in text_msg:
-        if ch in ascii_to_morse:
-            result += ascii_to_morse[ch] + "?"
-    
-    print(text_msg, " : ", result) 
-    return render_template('index.html', title='Welcome', username='Rosalia', morse_string = result)
+    result = ''
+    if request.method == "POST":
+        text_msg =  request.form['text2morse'] #request.args["text2morse"]
+        text_msg = text_msg.upper()   
+        result = ""
+        for ch in text_msg:
+            if ch in ascii_to_morse:
+                result += ascii_to_morse[ch] + "?"
+        
+        print(text_msg, " : ", result) 
+    return render_template('index.html', title='Welcome', username='Rosalia', morse_string = result, user_str = text_msg)
 
 @app.route('/morse2text',methods=['GET', 'POST'])
 def morse2text():
-    text_msg = request.args["morse2text"] 
-    text_msg = text_msg.replace('?', ' ')
-    text_msg = replace_dots_dashes(text_msg)
-    result = ""
-    words_in_text = text_msg.split('/')
-    for word in words_in_text:
-        chars = word.split(' ')
-        for ch in chars:
-            if ch in morse_to_ascii:
-                result += morse_to_ascii[ch]
+    result = ''
+    if request.method == "POST":
+        text_msg =  request.form['morse2text'] #request.args["morse2text"] 
+        text_msg1 = text_msg
+        text_msg = text_msg.replace('?', ' ')
+        
+        text_msg = replace_dots_dashes(text_msg)
+        result = ""
+        words_in_text = text_msg.split('/')
+        for word in words_in_text:
+            chars = word.split(' ')
+            for ch in chars:
+                if ch in morse_to_ascii:
+                    result += morse_to_ascii[ch]
        
     print(text_msg, " : ", result) 
-    return render_template('index.html', title='Welcome', username='Rosalia', text_string = result)
+    return render_template('index.html', title='Welcome', username='Rosalia', text_string = result, mrs_str = text_msg1)
 
 @app.route('/username',methods=['POST'])
 def capture_username():
